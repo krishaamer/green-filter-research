@@ -17,9 +17,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/research/intro"
+            to="/research/abstract"
           >
-            Green Filter 🥬
+            GreenFilter.app 🥬
           </Link>
         </div>
       </div>

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Green Filter",
-  tagline: "Daily Sustainability Advice",
+  title: "Thesis Research",
+  tagline: "What if sustainability was an app?",
   url: "https://www.greenfilter.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Green Filter",
+        title: "GreenFilter.app",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -52,7 +52,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "abstract",
             position: "left",
             label: "Research",
           },
