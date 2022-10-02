@@ -33,6 +33,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: "research",
+          routeBasePath: "research",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/krishaamer/green-filter-docs",
         },
