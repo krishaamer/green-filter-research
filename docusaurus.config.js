@@ -63,7 +63,7 @@ const config = {
       },
       footer: {
         style: "light",
-        copyright: `Copyright © ${new Date().getFullYear()} Green Filter`,
+        copyright: `The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
       },
       prism: {
         theme: lightCodeTheme,
