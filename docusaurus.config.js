@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Green Filter",
-  tagline: "Dinosaurs are cool",
+  tagline: "Daily Sustainability Advice",
   url: "https://green-filter-docs.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
