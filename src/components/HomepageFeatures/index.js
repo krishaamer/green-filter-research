@@ -24,12 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'No Wasted Time',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Take 10 minutes each day to focus on your sustainability by keeping track of your life and daily actions.
       </>
     ),
   },
