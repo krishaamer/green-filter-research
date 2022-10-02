@@ -27,11 +27,13 @@ const config = {
           path: "research",
           routeBasePath: "research",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/krishaamer/green-filter-research",
+          editUrl:
+            "https://github.com/krishaamer/green-filter-research/blob/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/krishaamer/green-filter-research",
+          editUrl:
+            "https://github.com/krishaamer/green-filter-research/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
