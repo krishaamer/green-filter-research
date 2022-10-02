@@ -4,31 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Easy to Use",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        GreenFilter.app was designed from the ground up to be used daily and get
+        your eco-friendly lifestylle up and running quickly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Focus on What Matters",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The app lets you focus on your lifetyle, and we&apos;ll do the
+        chores. Go ahead and move your data into <code>GreenFilter.app</code>.
       </>
     ),
   },
   {
-    title: 'No Wasted Time',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "No Wasted Time",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Take 10 minutes each day to focus on your sustainability by keeping track of your life and daily actions.
+        Take 10 minutes each day to focus on your sustainability by keeping
+        track of your life and daily actions.
       </>
     ),
   },
