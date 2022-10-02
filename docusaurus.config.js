@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Green Filter",
   tagline: "Daily Sustainability Advice",
-  url: "https://green-filter-docs.vercel.app/",
+  url: "https://www.greenfilter.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
