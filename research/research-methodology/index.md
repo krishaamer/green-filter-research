@@ -16,6 +16,8 @@ In the third stage, I will return to the qualitative methods, by building a prot
 ## 3.2. Conceptual Framework
 The conceptual framework map below (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
 
+![Concept Map](./concept-map.png)
+
 ## 3.3. Research Methods
 ### 3.3.1. Phase One - Qualitative Research
 The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
