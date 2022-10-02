@@ -33,7 +33,7 @@ The strength of quantitative research is to enable me to access a larger sample 
 
 Sampling 
 My quantitative sampling structure uses a judgmental criterion: age 18-35, located in Sweden or Taiwan, surveyed using an English-language online survey.
-Method: Likert 
+*Method:* Likert 
 The survey includes a Likert scale between 1 to 7 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge.
 Method: Choice Experiment 
 The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
@@ -45,10 +45,10 @@ Sampling
 
 The phase three sampling structure uses a judgmental criterion: age 18-35, located in Taiwan, and using the English language for discussion. A focus group of 6 to 10 people will be gathered in Tainan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I will post online ads in English to invite people who I don't know personally, to participate in a "financial AI application testing group" (wording may change).
 
-Method: Focus Group 
+*Method:* Focus Group 
 The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
 
-Method: Thematic Analysis 
+*Method:* Thematic Analysis 
 Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
 
 ## 4.4. Expected Findings
