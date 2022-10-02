@@ -12,6 +12,8 @@ As introduced in the Abstract, this research is timely in 2020 because of the co
 First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries. According to a Calastone study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France (Calastone, 2020).
 Figure 2 - Early prototype of my financial AI Companion 
 
+![SUSAN](./susan-pink-app.png)
+
 Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my financial AI advisor Susan (fig. 2, above) will ask me a personalized question (fig. 3, next page):
 
 ## 1.3. Research Objective
