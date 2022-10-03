@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # Abstract
 
+## *The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing*
+
+
 In August 2018 Greta Thunberg went on a school strike for the climate, in front of the Swedish parliament Riksdag. Since then, inspired by her and moved by their own environmental concerns, millions of people around the world, mostly from Generation Z and Millennials, joined climate protests (The Guardian, 2019). Time magazine named Thunberg the 2019 person of the year for "creating a global attitudinal shift" (Time, 2019), and many voices of this new 'green generation' have since taken the world stage. But what apart from protesting can young people who want to protect the environment, exactly do?
 
 One way to gain influence is to decide where to put our money - our spending and investments. In the institutional finance world, the Norwegian sovereign wealth fund started a divestment trend in 2019 by deciding to move over 1 trillion USD away from polluting companies. Universities like U. California have followed suit and made similar financial choices while others like Stanford are in decision gridlock. Sustainability makes money in 2020 and is foreseen to grow and show resilience to global disruptions like the COVID19 pandemic, with notably Blackrock, the largest investment fund in the world (Doorn, n.d.), releasing guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance - however, change doesn't happen overnight.
