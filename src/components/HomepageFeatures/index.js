@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        GreenFilter.app was designed from the ground up to be used daily and get
-        your eco-friendly lifestylle up and running quickly.
+        An app designed from the ground up to be used daily and get your
+        eco-friendly lifestyle up and running quickly.
       </>
     ),
   },
@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        The app lets you focus on your lifetyle, and we&apos;ll do the
-        chores. Go ahead and move your data into <code>GreenFilter.app</code>.
+        Focus on your lifestyle, and we&apos;ll do the chores. Go ahead and move
+        your data into <code>GreenFilter.app</code> and get instant insights.
       </>
     ),
   },
@@ -28,8 +28,7 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Take 10 minutes each day to focus on your sustainability by keeping
-        track of your life and daily actions.
+        Invest  10 minutes per day to keep track of your life and receive useful tips and guidance from a sustainability companion.
       </>
     ),
   },
