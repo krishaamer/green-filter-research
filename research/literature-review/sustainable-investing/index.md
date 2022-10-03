@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 
 # Sustainable Investing
 My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).

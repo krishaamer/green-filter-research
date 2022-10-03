@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 
 # User Experience Design
 This chapter gives an overview of the role I believe user experience design can play in improving the investing journey for both Generation Z and Millennials and identify the issue of out-of-date interaction design for Robo-Advisors in Europe, and the missed opportunity to provide an even more interactive experience in line with young adults' expectations in the most successful AI advisory apps on the US market.
