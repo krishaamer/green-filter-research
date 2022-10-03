@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Thesis Research",
-  tagline: "What if sustainability was an app?",
+  title: "What if sustainability was an app?",
+  tagline: "Research Project",
   url: "https://www.greenfilter.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
