@@ -1,11 +1,25 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import Lottie from "lottie-react";
+import easy from "./easy.json";
+import carrot from "./carrot.json";
+import dragon from "./dragon.json";
+import Svg1 from "/static/img/undraw_docusaurus_mountain.svg";
+import Svg2 from "/static/img/undraw_docusaurus_tree.svg";
+import Svg3 from "/static/img/undraw_docusaurus_react.svg";
 
 const FeatureList = [
   {
     title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    img: (
+      <Lottie
+        animationData={easy}
+        loop={true}
+        className={styles.featureSvg}
+        role="img"
+      />
+    ),
     description: (
       <>
         An app designed from the ground up to be used daily and get your
@@ -15,7 +29,14 @@ const FeatureList = [
   },
   {
     title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    img: (
+      <Lottie
+        animationData={carrot}
+        loop={true}
+        className={styles.featureSvg}
+        role="img"
+      />
+    ),
     description: (
       <>
         Focus on your lifestyle, and we&apos;ll do the chores. Go ahead and move
@@ -25,21 +46,28 @@ const FeatureList = [
   },
   {
     title: "No Wasted Time",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    img: (
+      <Lottie
+        animationData={dragon}
+        loop={true}
+        className={styles.featureSvg}
+        role="img"
+      />
+    ),
+
     description: (
       <>
-        Invest  10 minutes per day to keep track of your life and receive useful tips and guidance from a sustainability companion.
+        Invest 10 minutes per day to keep track of your life and receive useful
+        tips and guidance from a sustainability companion.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ img, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx("col col--4")}>
+      <div className="text--center">{img}</div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
