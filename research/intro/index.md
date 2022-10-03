@@ -13,6 +13,8 @@ First, while young people are demanding sustainability, and progressive governme
 Figure 2 - Early prototype of my financial AI Companion 
 
 ![SUSAN](./susan-pink-app.png)
+<figcaption align="center">Figure 2 - Early prototype of my Sustainable Finance AI Companion</figcaption>
+
 
 Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my financial AI advisor Susan (fig. 2, above) will ask me a personalized question (fig. 3, next page):
 
