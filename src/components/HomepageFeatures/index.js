@@ -5,9 +5,6 @@ import Lottie from "lottie-react";
 import easy from "./easy.json";
 import carrot from "./carrot.json";
 import dragon from "./dragon.json";
-import Svg1 from "/static/img/undraw_docusaurus_mountain.svg";
-import Svg2 from "/static/img/undraw_docusaurus_tree.svg";
-import Svg3 from "/static/img/undraw_docusaurus_react.svg";
 
 const FeatureList = [
   {
