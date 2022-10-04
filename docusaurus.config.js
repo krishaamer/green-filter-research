@@ -28,13 +28,15 @@ const config = {
           path: "research",
           routeBasePath: "research",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/krishaamer/green-filter-research/blob/main/",
+          /*editUrl:
+            "https://github.com/krishaamer/green-filter-research/blob/main/",*/
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/krishaamer/green-filter-research/blob/main/",
+          /*editUrl:
+            "https://github.com/krishaamer/green-filter-research/blob/main/",*/
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
