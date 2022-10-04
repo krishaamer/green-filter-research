@@ -6,19 +6,50 @@ sidebar_position: 1
 
 ## *The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing*
 
+![Geneve](./GreveClimatGeneve-27sept2019-041-RuesBasses.jpg)
+<figcaption align="center">Climate protest in Geneva on 27th September, 2019. Photo credit: <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg" target="_blank">Wikimedia Commons</a>.</figcaption>
 
-In August 2018 Greta Thunberg went on a school strike for the climate, in front of the Swedish parliament Riksdag. Since then, inspired by her and moved by their own environmental concerns, millions of people around the world, mostly from Generation Z and Millennials, joined climate protests (The Guardian, 2019). Time magazine named Thunberg the 2019 person of the year for "creating a global attitudinal shift" (Time, 2019), and many voices of this new 'green generation' have since taken the world stage. But what apart from protesting can young people who want to protect the environment, exactly do?
 
-One way to gain influence is to decide where to put our money - our spending and investments. In the institutional finance world, the Norwegian sovereign wealth fund started a divestment trend in 2019 by deciding to move over 1 trillion USD away from polluting companies. Universities like U. California have followed suit and made similar financial choices while others like Stanford are in decision gridlock. Sustainability makes money in 2020 and is foreseen to grow and show resilience to global disruptions like the COVID19 pandemic, with notably Blackrock, the largest investment fund in the world (Doorn, n.d.), releasing guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance - however, change doesn't happen overnight.
+This story begins in August 2018 with Greta Thunberg going on a school strike for the climate, in front of the Swedish parliament Riksdag. Since then, inspired by her and pushed by their own environmental concerns, millions of people around the world, mostly from Generation Z and Millennials, have joined climate protests (The Guardian, 2019). Time magazine named Thunberg the 2019 person of the year for "creating a global attitudinal shift" (Time, 2019), and many voices of this new 'green generation' have since taken the world stage. **But what apart from protesting can young people who want to protect the environment, exactly do? This question is the key motivation for this study.**
 
-As consumers, our financial decisions are also a vote towards the type of businesses we want to support. In the USA, UK, and Australia, Millennials are inheriting the largest amount of assets from their parents in the history of money (Turits, 2018). Given our combined power (I'm a Millennial) with Generation Z, who according to a First Insight study, are willing to pay more for sustainable products(FirstInsight, 2020), we might be able to push polluting companies towards greener practices - or starving them from cheap access to capital. It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket - or it can go much further, by investing in the growth of the green, socially friendly companies, to become part of their potential (financial) success story. If we as consumers care about environmental issues, how might we best exclude polluting companies from our lives and invest in companies that put environmental compliance at the forefront of their activities? What is the user interface for making sustainable finance decisions? How can we make sure ESG is accessible to our everyday experience?
+One way to gain influence is to decide where to put our money - our spending and investments. In the institutional finance world, the Norwegian sovereign wealth fund started a divestment trend in 2019 by deciding to move over 1 trillion USD away from polluting companies. Universities like U. California have followed suit and made similar financial choices while others like Stanford are in decision gridlock. Sustainability makes money in 2020 and is foreseen to grow and show resilience to global disruptions like the COVID19 pandemic, with notably Blackrock, the largest investment fund in the world, releasing guidance reflecting their plans to shift their investments (Fink, 2020) to vehicles that are measured on Environmental, Social, and Governance (ESG) performance. **My study contributes to understanding the implications of this trend for both readers (managers, researchers, etc), as well as practically providing a base for sustainable finance software application development.**
 
-Design penetrates every industry horizontally and AI assistants are the growing user interface trend for both financial services (termed robo-advisors) providing cheaper financial analysis at scale with little to no human intervention, and for the youngest generations, providing an interactive experience through apps, chat, voice, and more, though the application of deep learning algorithms for both analyzing large sets of data to produce insights and communicating with users in increasingly natural (human-like) ways.
+As consumers, our financial decisions are also a vote towards the type of businesses we want to support. In the USA, UK, and Australia, Millennials are inheriting the largest amount of assets from their parents in the history of money (Turits, 2018). Given our combined power (I'm a Millennial) with Generation Z, who according to a First Insight study, are willing to pay more for sustainable products (FirstInsight, 2020), we might be able to push polluting companies towards greener practices - or starving them from cheap access to capital. It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket - or it can go much further, by investing in the growth of the green, socially friendly companies, to become part of their potential (financial) success story. **Developing a prototype solution to help consumers make these decisions, is the main contribution of this study.**
 
-Given these four trends, namely 
-- 1) youth demand for sustainability
-- 2) ESG instruments
-- 3) intergenerational money transfer to Millennials
-- 4) AI user interface availability
+**If we as consumers care about environmental issues, how might we best exclude polluting companies from our lives and invest in companies that put environmental compliance at the forefront of their activities? What is the user interface for making sustainable finance decisions? How can we make sure ESG is accessible to our everyday experience? These questions are the gist of the purpose of this research.** Design already penetrates every industry horizontally and AI assistants are the growing user interface trend for both financial services (termed robo-advisors) providing cheaper financial analysis at scale with little to no human intervention, and for the youngest generations, providing an interactive experience through apps, chat, voice, and more, though the application of deep learning algorithms for both analyzing large sets of data to produce insights and communicating with users in increasingly natural (human-like) ways. **The main findings of this study help to improve the application of interaction design in the sustainable investment app context.**
 
-I'm proposing my research project at the intersection of User Experience, Sustainable Finance, and Young Adult Demographics (aged 18-35). I'm looking for foresight into a future where interaction design ties together the experience of consumption and investing, in the right context and in line with users’ personal values, by providing relevant sustainable finance guidance. I'm exploring the potential for using AI assistants to help everyday consumers concerned with sustainability begin a deeper relationship with the companies they are buying from and create a pathway to become investors. To that end, I will use qualitative research methods (semi- structured interviews) with financial and interaction design experts, leading to a "wish list" of requirements and features, which then build the basis for a larger quantitative survey of potential users' preferences, including a choice experiment of the proposed features. Finally, the gathered data will be used for the development of a conceptual design prototype of the personal sustainable finance AI assistant.
+Given these four trends, namely 1) youth demand for sustainability, 2) ESG instruments, 3) intergenerational money transfer to Millennials, 4) AI user interface availability, I'm proposing my research project at the intersection of User Experience, Sustainable Finance, and Young Adult Demographics (aged 18-35). I'm looking for foresight into a future where interaction design ties together the experience of consumption and investing, in the right context and in line with users’ personal values, by providing relevant sustainable finance guidance. I'm exploring the potential for using AI assistants to help everyday consumers concerned with sustainability begin a deeper relationship with the companies they are buying from and create a pathway to become investors. 
+
+**The research design of this study consists of 3 steps.**  Firstly (step 1), I will use qualitative research methods (semi-structured interviews) with financial and interaction design experts, leading to a "wish list" of requirements and features, which then (step 2) build the basis for a larger quantitative survey of potential users' preferences, including a choice experiment of the proposed features. Finally (step 3), the gathered data will be used for the development of a conceptual design prototype of the personal sustainable finance AI assistant, which will be tested using qualitative methods in a focus group.
+
+Keywords: 
+AI Assistants, Sustainable Investing, Interaction Design
+
+
+## Terminology
+
+AI - Artificial intelligence, a field of computer science and an umbrella term focused on a wide range of approaches to automation
+
+UX - User experience, a field of study and operational approach focused on how humans experience using systems
+
+AX - Algorithmic experience, a proposed category of user experience, that is focused on interfaces between AI algorithms and humans
+
+UI - User interface, such as in a mobile app, however increasingly audio, video, etc
+
+Fintech - Financial technology, the application of technology (usually AI), to classic financial services, such as payments
+
+ESG - Environmental, Social, and Corporate Governance, a new set of metrics proposed by the European Union, and adopted worldwide, to assess business and financial assets
+
+AI Assistant - software system providing the user with personalized suggestions based on machine learning algorithms
+
+Financial Advisor - a human financial specialist providing customized financial advice, including investment advice and services to a client
+
+ML - Machine learning, a tool within the larger AI umbrella to enable computers to learn from large sets of data, which may be labeled (by humans) or un-labeled (auto-labeled)
+
+HCI - Human-computer interaction, a field of study to improve human experience with information technology
+
+OEM - Original equipment manufacturer, a company making products for another company that markets and sells such products under their own brand
+
+API - Application Programming Interface, a method for software agents to exchange information in various forms of data: the basis for contemporary online services
+
+
