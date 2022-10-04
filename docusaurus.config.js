@@ -69,6 +69,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "surveys",
+        path: "surveys",
+        routeBasePath: "surveys",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
 
   themeConfig:
@@ -88,6 +97,7 @@ const config = {
             label: "Research",
           },
           { to: "/prototypes", label: "Prototypes", position: "left" },
+          { to: "/surveys", label: "Surveys", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
         ],
       },
