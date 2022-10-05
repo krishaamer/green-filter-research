@@ -57,7 +57,7 @@ const config = {
         max: 1980, // max resized image's size.
         min: 1600, // min resized image's size. if original is lower, use that size.
         steps: 3, // the max number of images generated between min and max (inclusive)
-        disableInDev: false,
+        disableInDev: true,
       },
     ],
     [
