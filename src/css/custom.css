@@ -55,3 +55,9 @@ figcaption {
   width: 100% !important;
   height: 700px !important;
 }
+
+.hero--primary {
+  border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
+  background: linear-gradient(90deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary) 100%);
+  margin: 1rem 2rem;
+}
