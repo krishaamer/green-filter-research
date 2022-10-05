@@ -55,6 +55,10 @@ figcaption {
   height: 700px !important;
 }
 
+.px-1 {
+  padding: 0 1rem;
+}
+
 .hero--primary {
   border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
   background: linear-gradient(
@@ -64,6 +68,7 @@ figcaption {
   );
   margin: 1rem 2rem;
 }
+
 
 .centered {
   position: absolute;
