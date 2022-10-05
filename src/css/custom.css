@@ -45,3 +45,8 @@ figcaption {
   text-align: center;
   font-weight: bold;
 }
+
+.embed-b {
+  border: 1px var(--ifm-color-emphasis-300) solid;
+  border-radius: var(--ifm-pagination-nav-border-radius);
+}
