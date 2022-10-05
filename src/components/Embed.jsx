@@ -1,7 +1,7 @@
 import React from "react";
 import LoadingIframe from "react-loading-iframe";
 
-export default function Embed() {
+export default function Embed({ src }) {
   return (
     <LoadingIframe
       skeleton={
@@ -11,7 +11,7 @@ export default function Embed() {
           </div>
         </div>
       }
-      src="https://airtable.com/embed/shr4SJcuhnfPBKLXo?backgroundColor=red"
+      src={src}
       className="default-embed-size embed-b"
       frameBorder={0}
       width="100%"
