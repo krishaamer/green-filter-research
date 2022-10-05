@@ -29,6 +29,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+html.mdx-wrapper {
+
+  --ifm-container-width-xl: 100%;
+}
 
 figure {
   padding: 0;
