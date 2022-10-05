@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -30,7 +30,6 @@
 }
 
 html.mdx-wrapper {
-
   --ifm-container-width-xl: 100%;
 }
 
@@ -58,6 +57,17 @@ figcaption {
 
 .hero--primary {
   border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
-  background: linear-gradient(90deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--ifm-color-primary-lightest) 0%,
+    var(--ifm-color-primary) 100%
+  );
   margin: 1rem 2rem;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
