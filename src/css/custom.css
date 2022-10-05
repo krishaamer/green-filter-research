@@ -50,3 +50,8 @@ figcaption {
   border: 1px var(--ifm-color-emphasis-300) solid;
   border-radius: var(--ifm-pagination-nav-border-radius);
 }
+
+.default-embed-size {
+  width: 100% !important;
+  height: 700px !important;
+}
