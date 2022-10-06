@@ -21,7 +21,7 @@ const FeatureList = [
     description: (
       <>
         An app designed from the ground up to be used daily and get your
-        eco-friendly lifestyle up and running quickly.
+        eco-friendly lifestyle up and running quickly
       </>
     ),
   },
@@ -37,13 +37,13 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus on your lifestyle, and we&apos;ll do the chores. Connect your data
-        into GreenFilter.app and get daily insights.
+        Connect your shopping and investing data to get daily
+        sustainability insights on how you can do better
       </>
     ),
   },
   {
-    title: "No Wasted Time",
+    title: "No Time Wasted",
     img: (
       <Lottie
         animationData={dragon}
@@ -55,8 +55,8 @@ const FeatureList = [
 
     description: (
       <>
-        Talk 5 minutes per to your sustainability companion to understand where does your money go and what are the greener
-        alternatives?
+        Talk 5 minutes per day to your green companion to understand where your
+        money goes and what are some greener alternatives
       </>
     ),
   },
