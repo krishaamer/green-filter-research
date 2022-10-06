@@ -37,8 +37,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus on your lifestyle, and we&apos;ll do the chores. Go ahead and move
-        your data into <code>GreenFilter.app</code> and get instant insights.
+        Focus on your lifestyle, and we&apos;ll do the chores. Connect your data
+        into GreenFilter.app and get daily insights.
       </>
     ),
   },
@@ -55,8 +55,8 @@ const FeatureList = [
 
     description: (
       <>
-        Invest 10 minutes per day to keep track of your life and receive useful
-        tips and guidance from a sustainability companion.
+        Talk 5 minutes per to your sustainability companion to understand where does your money go and what are the greener
+        alternatives?
       </>
     ),
   },
