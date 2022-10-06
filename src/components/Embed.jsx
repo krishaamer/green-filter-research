@@ -1,13 +1,14 @@
 import React from "react";
 import LoadingIframe from "react-loading-iframe";
 
-export default function Embed({ src }) {
+export default function Embed({ src, text = "Loading..." }) {
   return (
     <LoadingIframe
       skeleton={
-        <div className="default-embed-size embed-b">
+        <div className="default-embed-size default-skeleton embed-b">
           <div className="centered">
-            <h2>Loading...</h2>
+            <div id="spinner"></div>
+            <h2>{text}</h2>
           </div>
         </div>
       }
