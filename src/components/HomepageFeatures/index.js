@@ -37,8 +37,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Connect your shopping and investing data to get daily
-        sustainability insights on how you can do better
+        Connect your shopping and investing data to get daily sustainability
+        insights on how you can do better
       </>
     ),
   },
@@ -55,7 +55,7 @@ const FeatureList = [
 
     description: (
       <>
-        Talk 5 minutes per day to your green companion to understand where your
+        Talk to your green companion 5 minutes per day to understand where your
         money goes and what are some greener alternatives
       </>
     ),
