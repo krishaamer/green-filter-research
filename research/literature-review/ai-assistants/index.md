@@ -1,0 +1,20 @@
+---
+sidebar_position: 5
+---
+
+import Figure from '/src/components/Figure'
+import Replika from './with-me.png'
+
+# AI Companions
+
+TODO
+
+I assistants are already providing help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
+
+<Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
+
+## Here be dragons
+
+https://www.youtube.com/watch?v=YXE58XRWhh4
+
+https://www.youtube.com/watch?v=2mfUZcYfFjw

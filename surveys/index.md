@@ -1,0 +1,15 @@
+---
+sidebar_position: 1
+---
+
+import Embed from '/src/components/Embed'
+
+# User Survey
+
+## Open-ended Questions
+
+<Embed src="https://docs.google.com/forms/d/e/1FAIpQLScq-je7rqRCNr81L4yX85WBaKjwCH3598VBFBwe0xjpD4xq3A/viewform?embedded=true" text="Loading Survey..." />
+
+## Close-ended Questions
+
+<Embed src="https://docs.google.com/forms/d/e/1FAIpQLSekHIl6BlfdEDqLw0-RC1m1kQuOkNe9WxYX8AmvF-9WCopcJw/viewform?embedded=true" text="Loading Survey..." />

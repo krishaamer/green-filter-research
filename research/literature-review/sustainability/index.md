@@ -1,0 +1,42 @@
+---
+sidebar_position: 6
+---
+
+# Sustainability
+
+## European Green Deal
+
+https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
+https://en.wikipedia.org/wiki/European_Green_Deal
+https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/
+
+
+## Inflation Reduction Act
+https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
+
+
+--  Farm to Fork
+
+
+https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
+
+## Taxonomies
+
+Taxonomy of sustainable activities
+https://en.wikipedia.org/wiki/Sustainable_finance
+
+
+## Five user models / roles
+
+https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf
+https://dontlookup.count-us-in.com/methodology
+
+-- Consumer
+-- Investor
+-- Activist
+-- ..
+-- ..
+
+## Carbon Inequality
+
+https://www.nature.com/articles/s41893-022-00955-z
