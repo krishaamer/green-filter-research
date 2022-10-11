@@ -1,2 +1,0 @@
-# esg-shopping
-
