@@ -9,7 +9,7 @@ import dragon from "./dragon.json";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Shop",
     img: (
       <Lottie
         animationData={easy}
@@ -20,13 +20,13 @@ const FeatureList = [
     ),
     description: (
       <>
-        An app designed from the ground up to be used daily and get your
-        eco-friendly lifestyle up and running quickly
+        Understand who produces the products you buy and what are some greener
+        alternatives.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Save",
     img: (
       <Lottie
         animationData={carrot}
@@ -37,13 +37,12 @@ const FeatureList = [
     ),
     description: (
       <>
-        Connect your shopping and investing data to get daily sustainability
-        insights on how you can do better
+        Get daily insights on how you can do better and focus on what matters.
       </>
     ),
   },
   {
-    title: "No Time Wasted",
+    title: "Invest",
     img: (
       <Lottie
         animationData={dragon}
@@ -55,8 +54,8 @@ const FeatureList = [
 
     description: (
       <>
-        Talk to your green companion 5 minutes per day to understand where your
-        money goes and what are some greener alternatives
+        Talk to your green companion to understand where your
+        money goes and what it does.
       </>
     ),
   },
