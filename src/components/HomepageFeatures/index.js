@@ -1,6 +1,5 @@
 import React from "react";
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 import Lottie from "lottie-react";
 import easy from "./easy.json";
@@ -21,7 +20,7 @@ const FeatureList = [
     description: (
       <>
         Understand who produces the products you buy and what are some greener
-        alternatives.
+        alternatives
       </>
     ),
   },
@@ -37,7 +36,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Get daily insights on how you can do better and focus on what matters.
+        Get daily insights on how you can do better and focus on what matters
       </>
     ),
   },
@@ -55,7 +54,7 @@ const FeatureList = [
     description: (
       <>
         Talk to your green companion to understand where your
-        money goes and what it does.
+        money goes and what it does
       </>
     ),
   },
