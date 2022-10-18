@@ -11,14 +11,11 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Sustainability is</h1>
-        <div className="slashed-container">
-          <span className="slashed">
-            <span className="top" title="fragmented"></span>
-            <span className="bot" title="fragmented"></span>
-          </span>
-        </div>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">Meet Your GF</h1>
+        <p className="hero__subtitle">
+          Find sustainability-focused companies for shopping, savings, and
+          investing
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
