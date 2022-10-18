@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "What if sustainability was an app?",
   tagline:
-    "Sustainability is fragmented. How can billions of people build closer relationships with sustainability-focused companies? Feel trust, honesty, and transparency? Design research for a sustainable shopping, savings, and investing companion.",
+    "How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, savings, and investing companion.",
   url: "https://www.greenfilter.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
