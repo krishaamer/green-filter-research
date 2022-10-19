@@ -84,7 +84,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "🥬 GreenFilter",
+        title: "🥬 The Green Filter",
         items: [
           {
             type: "doc",
