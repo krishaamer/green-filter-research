@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">Green Filter</h1>
         <p className="hero__subtitle">
-          Find Sustainable Companies
+          All the world’s products filtered by sustainability
         </p>
         <div className={styles.buttons}>
           <Link

@@ -36,7 +36,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Get daily insights on how you can save the environment and focus on what
+        Learn how your money can save the environment and focus on what
         matters
       </>
     ),
@@ -54,7 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        Talk to your green companion to understand where your money goes and
+        Talk to your green dragon to understand where your invested money goes and
         what it does
       </>
     ),
