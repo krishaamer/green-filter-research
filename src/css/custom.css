@@ -47,9 +47,17 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 .hero__title {
   font-size: 5rem;
   color: var(--ifm-color-hero-title);
+}
+
+
+@media screen and (max-width: 996px) {
+ .hero__title {
+  font-size: 3rem;
+}
 }
 
 .hero__subtitle {
