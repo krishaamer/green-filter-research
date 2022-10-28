@@ -6,6 +6,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-color-hero-title: #fff;
+  --ifm-color-feature: #fff;
+  --ifm-color-content: #000;
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -13,24 +16,46 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-alert: #ff0000;
   --ifm-code-font-size: 95%;
+  --ifm-heading-color: inherit;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --home-border-color: bisque;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
+  --ifm-color-hero-title: #fff;
+  --ifm-color-feature: #fff;
+  --ifm-color-content: #fff;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-lightest: #374341;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --home-border-color: #000;
 }
 
 html.mdx-wrapper {
   --ifm-container-width-xl: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero__title {
+  font-size: 5rem;
+  color: var(--ifm-color-hero-title);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--ifm-color-hero-title);
 }
 
 figure {
@@ -119,18 +144,49 @@ figcaption {
   padding: 0 1rem;
 }
 
-.hero--primary {
-  border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
-  background: linear-gradient(
-    90deg,
-    var(--ifm-color-primary-lightest) 0%,
-    var(--ifm-color-primary) 100%
-  );
+.main-wrapper {
+/*
+  background: linear-gradient(180deg, #eeeeee 0%, #ff0000 70%, #ff0 100%); 
+  width: 100%;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: gradient 2s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+
+  */
+}
+.home {
   margin: 1rem 2rem;
+  border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
+  background-color: var(--ifm-color-primary-lightest);
+  border: var(--home-border-color) 1rem solid;
+  /*
+  background: repeating-linear-gradient(
+    to right,
+    var(--ifm-color-primary-light) 0%,
+    var(--ifm-color-primary) 50%,
+    var(--ifm-color-primary-light) 60%,
+    var(--ifm-color-primary-lighter) 70%,
+    var(--ifm-color-primary-lightest) 100%
+  );
+*/
+}
+
+.hero--primary {
+  background: none;
+  /*
+  width: 100%;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: gradient 2s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  */
 }
 
 .centered {
-  position:static;
+  position: static;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -138,4 +194,37 @@ figcaption {
 
 .footnote-backref {
   padding-left: 2px;
+}
+
+.navbar--fixed-top {
+  /* margin: 0 auto; */
+  
+}
+
+.navbar__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.feature-title,
+.feature-desc {
+  color: var(--ifm-color-feature)
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.feature-desc {
+  font-size: 1.3rem;
+  font-family: 'Inter', sans-serif;
 }

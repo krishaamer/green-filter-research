@@ -8,7 +8,7 @@ import dragon from "./dragon.json";
 
 const FeatureList = [
   {
-    title: "Shop",
+    title: "Shop Green",
     img: (
       <Lottie
         animationData={easy}
@@ -25,7 +25,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Save",
+    title: "Save Nature",
     img: (
       <Lottie
         animationData={carrot}
@@ -36,13 +36,13 @@ const FeatureList = [
     ),
     description: (
       <>
-        Learn how your money can save the environment and focus on what
+        Learn how your money can conserve a biodiverse environment and focus on what
         matters
       </>
     ),
   },
   {
-    title: "Invest",
+    title: "Invest Eco",
     img: (
       <Lottie
         animationData={dragon}
@@ -54,8 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        Talk to your green dragon to understand where your invested money goes and
-        what it does
+        See where your investments go and what type of companies you're supporting
       </>
     ),
   },
@@ -66,8 +65,8 @@ function Feature({ img, title, description }) {
     <div className={clsx("col col--4")}>
       <div className="text--center">{img}</div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3 className="feature-title">{title}</h3>
+        <p className="feature-desc">{description}</p>
       </div>
     </div>
   );

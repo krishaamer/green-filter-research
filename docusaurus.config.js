@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "What if sustainability was an app?",
+  title: "Green Filter",
   tagline:
     "How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, savings, and investing companion.",
   url: "https://www.greenfilter.app/",
@@ -84,7 +84,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "🥬 Green Filter",
+        title: "Green Filter",
         items: [
           {
             type: "doc",
