@@ -206,12 +206,14 @@ figcaption {
 
 .navbar--fixed-top {
   /* margin: 0 auto; */
-  
+  height: fit-content;
 }
 
 .navbar__inner {
+  /*
   max-width: 1280px;
   margin: 0 auto;
+  */
 }
 
 @keyframes gradient {
