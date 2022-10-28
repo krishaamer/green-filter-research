@@ -238,3 +238,15 @@ figcaption {
   font-size: 1.3rem;
   font-family: 'Inter', sans-serif;
 }
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.h700 {
+  height: 700px;
+}
