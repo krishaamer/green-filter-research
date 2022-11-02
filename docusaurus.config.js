@@ -88,7 +88,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "abstract/index",
+            docId: "abstract",
             position: "left",
             label: "Research",
           },

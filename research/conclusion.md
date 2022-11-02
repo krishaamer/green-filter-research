@@ -1,4 +1,5 @@
 ---
+bibliography: [../ref.bib]
 sidebar_position: 7
 ---
 

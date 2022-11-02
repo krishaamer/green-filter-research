@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-import Figure from '/src/components/Figure'
-
 
 # ESG Shopping
 

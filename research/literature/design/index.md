@@ -1,8 +1,10 @@
 ---
+bibliography: [../../ref.bib]
 sidebar_position: 8
 ---
 
 # Design for Sustainability
+
 
 
 ## Synthesise:
