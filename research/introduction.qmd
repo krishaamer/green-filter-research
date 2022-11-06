@@ -13,15 +13,43 @@ import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
 ```
 
-# Introduction
+# 2023 Trends
 
-Ellen MacArthur Foundation's models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume ([@CompletingPictureHow]). In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over $2.5T USD in 2020 (see @MillennialsGenTeens). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting $30T USD from their parents ([@calastoneMillennialsInvestingDetailed2020]). 
+This research is timely in 2023 because of the convergence of four trends:
+
+- Youth demand for sustainability
+- Intergenerational money transfer to the youth
+- AI user interface availability
+- ESG instruments
+
+The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (Gupta, 2020), the social (S in ESG). We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
+
+Consumer lifestyle contributes to environmental destruction:
+
+- Ellen MacArthur Foundation's models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume (@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019). 
+
+There's evidence young people have money:
+
+- In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see @ypulseMillennialsGenTeens2020). 
+- Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting $30T USD from their parents (@calastoneMillennialsInvestingDetailed2020). 
+
+High technology penetration worldwide
+
+- 80% of world population has a smartphone according to @bankmycellHowManyPeople2022 while 98% of Generation Z owns smartphone @globalwebindex98GenOwn2017
+
+- Only 30% believe tech can solve all problems.
+https://review42.com/resources/gen-z-statistics/
+
+
+https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/
+
+kora 95%
+
 
 Where does our money go and what are some greener alternatives? 
 
 This is largely due to the production and manufacturing processes of the companies that make the products we consume on a daily basis.
-
-
+ 
 As people become aware of the impact their shopping is having on the environment, they become interested in finding alternatives to big brands and large companies. GreenFilter provides designers an AI companion design which helps people build relationships with sustainability-focused companies by providing personalized recommendations, giving product reviews and helping them shop sustainably. This new tool will empower consumers to make greener choices throughout their lives.
 
 An AI companion app that seeks to help people build relationships with sustainability-focused companies and enables people to be more transparent and responsible in their consumption behavior.
@@ -69,13 +97,6 @@ Life within planetary boundaries
 
 ## Demographics
 
-—
-80% of world pop has a smartphone
-https://www.bankmycell.com/blog/how-many-phones-are-in-the-world#:~:text=In%202022%2C%20the%20number%20of,91.62%25%20of%20the%20world's%20population.
-kora 95%
-
-98% genz own smartphone, only 30% believe tech can solve all problems.
-https://review42.com/resources/gen-z-statistics/
 
 https://99firms.com/blog/generation-z-statistics/#gref
 https://review42.com/resources/smartphone-statistics/
@@ -119,15 +140,6 @@ I grew up reading science fiction books in the 1990s and their influence on my o
 />
 ```
 
-As introduced in the Abstract, this research is timely in 2020 because of the convergence of four trends, out of which I'll focus here on two: the current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (Gupta, 2020), the social (S in ESG). We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
-
-Given these 4 trends:
-
-- Youth demand for sustainability
-- Intergenerational money transfer to the youth
-- AI user interface availability
-- ESG instruments
-
 ## Research Motivation
 
 First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries. According to a Calastone study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France (Calastone, 2020).
@@ -168,12 +180,7 @@ My research aims to explore the following 3 research questions.
 | 2   | What class of investment vehicles do potential usersshow the most interest in? | Survey                                      |
 | 3   | What application features do potential users rate as thehighest priority?      | Survey + Prototype Testing with Focus Group |
 
-[^1]: Taylor, M., & Watts, J. (2019, September 27). Climate crisis: 6 million people join latest wave of global protests. The Guardian. http://www.theguardian.com/environment/2019/sep/27/climate-crisis-6-million-people-join-latest-wave-of-worldwide-protests
-[^2]: Time. (2019, December 30). Greta Thunberg: TIME’s Person of the Year 2019. https://time.com/person-of-the-year-2019-greta-thunberg/
-[^3]: Fridays For Future – Map of Climate Striking and Actions. (n.d.). Retrieved October 5, 2022, from https://fridaysforfuture.org/action-map/map/
-[^5]: Top 100 Largest Sovereign Wealth Fund Rankings by Total Assets—SWFI. (n.d.). Retrieved October 5, 2022, from https://www.swfinstitute.org/fund-rankings/sovereign-wealth-fund
-[^6]: Fink, L. (2020). Larry Fink’s Letter to CEOs. BlackRock. https://www.blackrock.com/corporate/investor-relations/larry-fink-ceo-letter
-[^7]: Washington Post, 2022
-[^8]: Rocky ride ahead for Norway’s $1.2 trillion wealth fund | Reuters. (n.d.). Retrieved October 5, 2022, from https://www.reuters.com/world/europe/norway-sovereign-wealth-fund-ceo-warns-rocky-ride-ahead-2022-05-03/
-[^9]: FirstInsight, 2020
-[^10]: Turits, 2018
+
+
+## References
+

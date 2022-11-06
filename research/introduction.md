@@ -13,9 +13,35 @@ import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
 ```
 
-# Introduction {#introduction}
+# 2023 Trends {#trends}
 
-Ellen MacArthur Foundation’s models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume ((*Completing the Picture*, n.d.)). In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over \$2.5T USD in 2020 (see *Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020 - YPulse* (n.d.)). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting \$30T USD from their parents ((Calastone, 2020)).
+This research is timely in 2023 because of the convergence of four trends:
+
+-   Youth demand for sustainability
+-   Intergenerational money transfer to the youth
+-   AI user interface availability
+-   ESG instruments
+
+The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (Gupta, 2020), the social (S in ESG). We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
+
+Consumer lifestyle contributes to environmental destruction:
+
+-   Ellen MacArthur Foundation’s models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume (Ellen MacArthur Foundation, Material Economics (2019)).
+
+There’s evidence young people have money:
+
+-   In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see YPulse (2020)).
+-   Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting \$30T USD from their parents (Calastone (2020)).
+
+High technology penetration worldwide
+
+-   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Generation Z owns smartphone Global Web Index (2017)
+
+-   Only 30% believe tech can solve all problems. https://review42.com/resources/gen-z-statistics/
+
+https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/
+
+kora 95%
 
 Where does our money go and what are some greener alternatives?
 
@@ -59,10 +85,6 @@ Life within planetary boundaries
 
 ## Demographics {#demographics}
 
-— 80% of world pop has a smartphone https://www.bankmycell.com/blog/how-many-phones-are-in-the-world#:~:text=In%202022%2C%20the%20number%20of,91.62%25%20of%20the%20world’s%20population. kora 95%
-
-98% genz own smartphone, only 30% believe tech can solve all problems. https://review42.com/resources/gen-z-statistics/
-
 https://99firms.com/blog/generation-z-statistics/#gref https://review42.com/resources/smartphone-statistics/
 
 ## Research Background {#research-background}
@@ -76,7 +98,7 @@ https://99firms.com/blog/generation-z-statistics/#gref https://review42.com/reso
 />
 ```
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which we are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world[1] and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift*[2]. Awareness of Earth’s operating systems grew. Meanwhile, emissions kept rising. By January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries. In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do?
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which we are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world\[^1\] and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift*\[^2\]. Awareness of Earth’s operating systems grew. Meanwhile, emissions kept rising. By January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries. In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do?
 
 How can networks of people come together to reduce traffic, deforestation, support mobility and green builings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
 
@@ -103,15 +125,6 @@ I grew up reading science fiction books in the 1990s and their influence on my o
   src={Tricorder}
 />
 ```
-
-As introduced in the Abstract, this research is timely in 2020 because of the convergence of four trends, out of which I’ll focus here on two: the current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (Gupta, 2020), the social (S in ESG). We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
-
-Given these 4 trends:
-
--   Youth demand for sustainability
--   Intergenerational money transfer to the youth
--   AI user interface availability
--   ESG instruments
 
 ## Research Motivation {#research-motivation}
 
@@ -144,12 +157,14 @@ My research aims to explore the following 3 research questions.
 | 2   | What class of investment vehicles do potential usersshow the most interest in? | Survey                                      |
 | 3   | What application features do potential users rate as thehighest priority?      | Survey + Prototype Testing with Focus Group |
 
+## References {#references .unnumbered}
+
+BankMyCell. (2022). *How Many People Have Smartphones Worldwide*. https://www.bankmycell.com/blog/how-many-phones-are-in-the-world.
+
 Calastone. (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
 
-*Completing the picture: How the circular economy tackles climate change*. (n.d.). https://ellenmacarthurfoundation.org/completing-the-picture.
+Ellen MacArthur Foundation, Material Economics. (2019). *Completing the picture: How the circular economy tackles climate change*. https://circulareconomy.europa.eu/platform/en/knowledge/completing-picture-how-circular-economy-tackles-climate-change.
 
-*Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020 - YPulse*. (n.d.). https://www.ypulse.com/article/2020/01/09/millennials-gen-z-teens-combined-spending-power-is-nearly-3-trillion-in-2020/.
+Global Web Index. (2017). *98% of Gen Z Own a Smartphone*. https://blog.gwi.com/chart-of-the-day/98-percent-of-gen-z-own-a-smartphone/.
 
-[1] Taylor, M., & Watts, J. (2019, September 27). Climate crisis: 6 million people join latest wave of global protests. The Guardian. http://www.theguardian.com/environment/2019/sep/27/climate-crisis-6-million-people-join-latest-wave-of-worldwide-protests
-
-[2] Time. (2019, December 30). Greta Thunberg: TIME’s Person of the Year 2019. https://time.com/person-of-the-year-2019-greta-thunberg/
+YPulse. (2020). *Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020*. https://www.ypulse.com/article/2020/01/09/millennials-gen-z-teens-combined-spending-power-is-nearly-3-trillion-in-2020/.
