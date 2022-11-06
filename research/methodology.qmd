@@ -1,12 +1,14 @@
 ---
+title: Methodology
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 4
 ---
-
+```{=mdx}
 import Figure from '/src/components/Figure'
 import Concepts from './images/concept-map.png'
 import Methodology from './images/research-methodology.png'
+```
 
 # Methodology
 
@@ -229,8 +231,9 @@ In the third stage, I will return to the qualitative methods, by building a prot
 ## Conceptual Framework
 The conceptual framework map below (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
 
+```{=mdx}
 <Figure caption="Figure 13 - Concept map" src={Concepts} />
-
+```
 
 ## Research Methods
 
@@ -266,4 +269,6 @@ The strength of a focus group is the ability to observe potential users in a soc
 **Method:** Thematic Analysis 
 Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
 
+```{=mdx}
 <Figure caption="Overview of research methodology" src={Methodology} />
+```

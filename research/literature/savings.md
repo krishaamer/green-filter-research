@@ -1,4 +1,5 @@
 ---
+title: Savings
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
@@ -20,7 +21,7 @@ snowflake analysis like simplywallstreet
 
 — savings lottery https://www.youtube.com/watch?v=-QjnvmCQdoE
 
-### References {#references}
+### References {#references .unnumbered}
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 

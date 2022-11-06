@@ -1,13 +1,16 @@
 ---
+title: Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
 ---
 
+```{=mdx}
 import Figure from '/src/components/Figure'
 import Strava from '../images/strava.png'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
+```
 
 # Investment Products
 
@@ -483,17 +486,23 @@ Using digital payments instead of cash enables a new class of experiences, in te
 
 A Dutch fintech company Bunq (fig. 5) offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface (Bunq, 2020). Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 
+```{=mdx}
 <Figure caption="Figure 5: Bunq combines banking and eco-friendly actions in the same UI" src={Bunq} />
+```
 
 If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
 
+```{=mdx}
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrxUqovTBGZJyjur?backgroundColor=red&viewControls=on" frameBorder="0" width="100%" height="533"/>
+```
 
 Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid. For example, in India, research is being conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success (Bhatia et al., 2020).
 
 In Europe, Germany and the United Kingdom show the way with the most robo-advisory usage (Cowan, 2018), with ETFmatic (fig. 7) gaining the largest number of downloads by 2017 (AltFi, 2017), focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts. However, while Germany has 30+ robot-advisors on the market, with a total of 3.9 billion EUR under robotic management, it's far less than individual apps like Betterment manage in the US (Bankinghub, 2019). In the UK, several robo-advisors have shut down recently (AltFi Insights, 2019).
 
+```{=mdx}
 <Figure caption="Figure 7: Out-of-date User Interface of a European AI-Advisor ETFmatic (Photo copyright ETFmatic)" src={ETF} />
+```
 
 While, as I've shown, the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers.
 
@@ -513,7 +522,9 @@ All of the interfaces mentioned above make use of machine learning (ML), a tool 
 Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. 
 because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes. Therefore, to reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it's important to focus on making users feel in control of the technology (Holbrook, 2018).
 
+```{=mdx}
 <Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
+```
 
 ### Summary
 "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank. (10 Years of Green Bonds, 2019) and this applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets.

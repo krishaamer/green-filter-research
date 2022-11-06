@@ -1,11 +1,14 @@
 ---
+title: AI Companions, Partners, Assistants
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 5
 ---
 
+```{=mdx}
 import Figure from '/src/components/Figure'
 import Replika from '../images/with-me.png'
+```
 
 # AI Companions, Partners, Assistants
 
@@ -14,9 +17,9 @@ There's a saying in Estonian: "A good child has many names" "and it's true. I ha
 
 I assistants are already providing help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
-![Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)](../images/with-me.png "Replika")
-
+```{=mdx}
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
+```
 
 ## Here be dragons
 

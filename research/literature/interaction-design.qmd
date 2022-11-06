@@ -1,12 +1,15 @@
 ---
+title: AI-Human Interaction Design
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 4
 ---
 
+```{=mdx}
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
 import Humboldt from '../images/humboldt.jpg'
+```
 
 # AI-Human Interaction Design
 
@@ -224,7 +227,9 @@ Industrial revolution
 
 Long history, starting with Alexander von Humboldt.
 
+```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualiation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
 
 ### Interaction and Algorithmic Experience Design
 To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point, for example, the user's emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be "optimized for human well-being" (The International Ergonomics Association, 2019), software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more. "[T]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system" (Babich, 2019).
@@ -233,7 +238,9 @@ In narrative studies terminology, it's a heroic journey of the user to achieve t
 
 Affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (Studio, 2018), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study's target audience (18-35, Sweden and Taiwan), social media is their primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations in 2020 - and even more so for the Generation Z teenagers, reaching adulthood in the next few years.
 
+```{=mdx}
 <Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
+```
 
 Interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) "investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance" (Shin et al., 2020). That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-throughs, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In the words of Easterbrook, a previous CEO of McDonald's “How do you transition from mass marketing to mass personalization?" (Barrett, 2019). During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we're still in the early stages. Where do we go from here?
 

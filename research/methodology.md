@@ -1,0 +1,181 @@
+---
+title: Methodology
+bibliography: [ref.bib]
+csl: apa.csl
+sidebar_position: 4
+---
+
+``` mdx-code-block
+import Figure from '/src/components/Figure'
+import Concepts from './images/concept-map.png'
+import Methodology from './images/research-methodology.png'
+```
+
+# Methodology {#methodology}
+
+Your Green Helper Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashiing is everywhere, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+
+thesis: if we all acted more like investors instead of consumers, the world would be a better place
+
+1.  Survey to investors… 2. pick who to intervieew. 3. survey to consumerss How do you feel about this statement q: 1-10… 2. Investing in sustainability has a meaningful impact on sustainability q: it’s easy to asseess the sustainabilitty of an investment q: i consider sustainability when investing
+
+<!-- -->
+
+1.  
+
+make some initial protottype? make youtube video… hi, you havee reacheed? spread… through estban and others?
+
+QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a material impact on environmental issues — Investment decisions have a material impact on envrionmental issues
+
+— interview https://www.funderbeam.com/
+
+—
+
+``` text
+1. how would your desribe your relationship with sustainability?
+2. where do you need sustainnability advice?
+
+RQ:Which index to use?
+
+— what questions would you be asking that i’m not asking?
+```
+
+Interview questions — Do you think the app should focus on —— Changing legislation —— Consumer habits —— Investing habits —— Smth else
+
+—- miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
+
+start with everyday questions:
+
+— how to buy sustainable clothing — how to buy sustainable food — how to invest sustainably — how to save sustainably
+
+— 1. get and overview of you consumption habits
+
+1.  choose your investment themes
+
+— where are you mostly likely to invest? — stocks — crypto — land — etc
+
+— research methods https://www.nngroup.com/articles/which-ux-research-methods/
+
+## Researh Through Design {#researh-through-design}
+
+— design research books https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= https://www.sciencedirect.com/journal/design-studies
+
+—
+
+research through design as a method https://dl.acm.org/doi/abs/10.1145/1240624.1240704
+
+Research through design as a method for interaction design research in HCI https://dl.acm.org/doi/10.1145/1240624.1240704
+
+https://stratechery.com/
+
+— research question https://blogs.aalto.fi/writingaboutdesign/2020/11/30/how-to-define-a-research-question-or-a-design-problem/ https://www.amazon.com/UX-Research-Practical-Techniques-Designing-ebook/dp/B01N9BZ060/ref=sr_1\_1?crid=1U2HFSS1221L5&keywords=Brad+Nunnally+%2C&qid=1663099104&s=digital-text&sprefix=brad+nunnally+%2C%2Cdigital-text%2C284&sr=1-1&asin=B01N9BZ060&revisionId=9e4c1870&format=1&depth=1
+
+—
+
+interview people at google who made the green filtter options
+
+— design artefacts
+
+“design’s) nature as a “problem-solving” science”, Oulasvirta and Hornbæk, 2016
+
+my contribution is the design artefact, “HCI researchers also make constructive contributions by developing new technologies and design”
+
+— https://www.usability.gov/how-to-and-tools/methods/card-sorting.html#:~:text=Card%20sorting%20is%20a%20method,help%20you%20label%20these%20groups.
+
+https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=59894770.915cd038039d262ecc9c38c84ec2fb72.1663759095639.1663759095639.1663759095639.1&\_\_hssc=59894770.1.1663759095640&\_\_hsfp=1025078290&hsCtaTracking=521e2f8c-76d2-4468-81e3-687c4d689a29%7C5b0820a7-ceea-4cf0-ab85-249a1c03d7e5 https://www.kaggle.com/code/dansbecker/how-models-work
+
+— behavirour kit: https://behaviourkit.com/
+
+## Survey {#survey}
+
+— “In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn’t change. This is a phenomenon called the intention-action gap.”
+
+https://medium.com/(**tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c?**)
+
+-   
+-   What would you like to see more of in the future?
+-   What would you like to see less of in the future? —-
+
+—- küsimused —- kas sa elad? —- tulevikus, minevikus, praeguses hetkes? —- include some personality quiz in the survey?
+
+Survey questions: \* What are some things you do to achieve sustainability in your daily life? \* What is your relationship like with money? \* What is your relationship like with nature? \* Tell me about you shopping habits \* Tell me about you saving habits \* Tell me about your investing habits
+
+Write your investment thesis first. What is your investment thesis?
+
+“research for design”. design research is about expanding opportunities and exploration https://www.youtube.com/watch?v=WY9j_t570LY https://www.youtube.com/watch?v=7niJ2a6HTBo https://www.youtube.com/watch?v=C4i-\_9FybS4
+
+— Questions. - Where do you think consumers need the most help with? - How to help young people get started with investing? - How to assess the sustainability footprint of an asset - How much do you trust ESG? - What are some questions I should be asking but are not here?
+
+-   online/offline ethnographic participant observation At this stage in the research, the central concept being studied is defined generally as user expectations for a sustainable investment app.
+
+Targeted experts (fintech, design, eco activists): — Wise founders — Monese founders — crypto founders — etc
+
+— What are my hypotheses? ● User experiments ● Financial statistics ● Analyzing existing apps and user pain-points ● Financial companies ○ TransferWise ○ Calastone (has an office in Taipei)
+
+— List of topics gleaned from literature review for discussion with the experts: 1. Transparency and sources of ESG and similar data
+
+I will test the prototype with potential users using an online choice experiment survey.
+
+Research Process In terms of literature review, academic inquiry in social sciences largely follows phenomena, while the issues and technologies discussed here are emergent. Not many studies exist yet (they might in a few years), which is why some of my references are to company press releases and news stories, or for public companies, their advisory for investors.
+
+Target potential retail investors aged 20-29, all genders, in countries with highly developed financial markets and active social campaigns demanding sustainability (Sweden). And Taiwan. In general, the Taiwanese culture is savings oriented: I’m in a good location for financial user experience research.
+
+set your target goals —- access to health care —- access to education — climate action etc
+
+## Research Design {#research-design}
+
+**The research design of this study consists of 3 steps.**
+
+-   Qualitative research targeted at financial and interaction design experts, leading to a *wish list* of features.
+-   Survey potential users’ preferences, including a choice experiment of the proposed features.
+-   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
+
+This mixed-method research design is divided into three stages (fig. 11).
+
+My purpose for the first qualitative stage is to explorethe general themes arising fromthe literature review related tothe design of AI advisors forinvesting. I will identifyspecific user experiencefactors, through interviewing experts in financial technology and user experience design and reviewing existing applications on the marketplace. At this stage in the research, the central concept being studied is defined generally as expectations towards a sustainable investment AI advisor.
+
+I will then proceed to the second, quantitative stage, informed by thepreviously identified factors, and prepare a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users aged 18-35, living in Sweden and Taiwan (see fig. 12 on next page), exploring the relationship between independent variables “Interest in Sustainability”, “Interest in Investing”, “Preferred Features”, and the dependent variable “User Sign-ups”.
+
+In the third stage, I will return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will use a focus group to discuss the prototype, and conduct a thematic analysis of the discussions’ recordings, leading to further validation of previously gathered data and possible changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, will be the final outcome of my research.
+
+## Conceptual Framework {#conceptual-framework}
+
+The conceptual framework map below (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I’m using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
+
+``` mdx-code-block
+<Figure caption="Figure 13 - Concept map" src={Concepts} />
+```
+
+## Research Methods {#research-methods}
+
+### Phase One - Qualitative Research {#phase-one---qualitative-research}
+
+The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
+
+#### Sampling {#sampling}
+
+My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts everywhere, including in Taiwan and Sweden, but also Estonia, Portugal, and elsewhere. Method: Semi-Structured Interviews
+
+I will conduct exploratory research in English using semi-structured interviews recorded online and offline.
+
+### Phase Two - Quantitative Research {#phase-two---quantitative-research}
+
+The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
+
+**Sampling** My quantitative sampling structure uses a judgmental criterion: age 18-35, located in Sweden or Taiwan, surveyed using an English-language online survey.
+
+**Method:** Likert The survey includes a Likert scale between 1 to 7 to validate key findings from the first stage of the research by assessing responses to statements regarding the app’s design, features, and other criteria that may still emerge. Method: Choice Experiment The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
+
+### Phase Three - Qualitative Research {#phase-three---qualitative-research}
+
+In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. Sampling
+
+The phase three sampling structure uses a judgmental criterion: age 18-35, located in Taiwan, and using the English language for discussion. A focus group of 6 to 10 people will be gathered in Tainan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I will post online ads in English to invite people who I don’t know personally, to participate in a “financial AI application testing group” (wording may change).
+
+**Method:** Focus Group The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
+
+**Method:** Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
+
+``` mdx-code-block
+<Figure caption="Overview of research methodology" src={Methodology} />
+```
