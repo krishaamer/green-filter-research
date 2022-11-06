@@ -1,5 +1,6 @@
 ---
-bibliography: [../ref.bib]
+bibliography: [ref.bib]
+csl: apa.csl
 sidebar_position: 6
 ---
 

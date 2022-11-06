@@ -1,4 +1,6 @@
 ---
+bibliography: [../ref.bib]
+csl: ../apa.csl
 sidebar_position: 6
 ---
 
@@ -6,6 +8,8 @@ sidebar_position: 6
 
 Sustainability encompasses all human activites, making a complete overview challenging.
 
+
+## Make a 'sustainability flywheel' graphic, like that of amazon's
 
 
 The true cost of products is hidden. The work is hidden.
