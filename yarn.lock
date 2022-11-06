@@ -1184,6 +1184,26 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@citation-js/core@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@citation-js/core/-/core-0.6.1.tgz#6e6c7c6150a3aec93076b99cb8ae215cb876efc1"
+  integrity sha512-zvVxsAP4ciVHiZ60TmKTfjui4m6xeISSp/rtIhOcvZxZ70bBfkt83+kGnuI4xRlhB/oUrZN2fC9BSRKdivSobQ==
+  dependencies:
+    "@citation-js/date" "^0.5.0"
+    "@citation-js/name" "^0.4.2"
+    fetch-ponyfill "^7.1.0"
+    sync-fetch "^0.4.1"
+
+"@citation-js/date@^0.5.0":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@citation-js/date/-/date-0.5.1.tgz#5d4e3746ce6a66b467c94071284de1c38e9a4987"
+  integrity sha512-1iDKAZ4ie48PVhovsOXQ+C6o55dWJloXqtznnnKy6CltJBQLIuLLuUqa8zlIvma0ZigjVjgDUhnVaNU1MErtZw==
+
+"@citation-js/name@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@citation-js/name/-/name-0.4.2.tgz#8dc834b7e6c06998fc8d3b63632658754c94a875"
+  integrity sha512-brSPsjs2fOVzSnARLKu0qncn6suWjHVQtrqSUrnqyaRH95r/Ad4wPF5EsoWr+Dx8HzkCGb/ogmoAzfCsqlTwTQ==
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
@@ -3083,7 +3103,7 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-buffer@^5.5.0:
+buffer@^5.5.0, buffer@^5.7.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
   integrity sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==
@@ -4313,6 +4333,13 @@ feed@^4.2.2:
   integrity sha512-u5/sxGfiMfZNtJ3OvQpXcvotFpYkL0n9u9mM2vkui2nGo8b4wvDkJ8gAkYqbA8QpGyFCv3RK0Z+Iv+9veCS9bQ==
   dependencies:
     xml-js "^1.6.11"
+
+fetch-ponyfill@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/fetch-ponyfill/-/fetch-ponyfill-7.1.0.tgz#4266ed48b4e64663a50ab7f7fcb8e76f990526d0"
+  integrity sha512-FhbbL55dj/qdVO3YNK7ZEkshvj3eQ7EuIGV2I6ic/2YiocvyWv+7jg2s4AyS0wdRU75s3tA8ZxI/xPigb0v5Aw==
+  dependencies:
+    node-fetch "~2.6.1"
 
 file-loader@^6.2.0:
   version "6.2.0"
@@ -5967,7 +5994,7 @@ node-emoji@^1.10.0:
   dependencies:
     lodash "^4.17.21"
 
-node-fetch@2.6.7:
+node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@~2.6.1:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
@@ -7880,6 +7907,14 @@ svgo@^2.7.0, svgo@^2.8.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+sync-fetch@^0.4.1:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/sync-fetch/-/sync-fetch-0.4.2.tgz#40ec3398f7193198c44fd0753b7b77a27185a117"
+  integrity sha512-vilDD6yTGwyUjm7/W5WUUOCw1GH1aV591zC21XhbV6MJNZqfZcNMs9DVPHzy1UAmQ2GAg6S03F5TQ3paegKSdg==
+  dependencies:
+    buffer "^5.7.1"
+    node-fetch "^2.6.1"
 
 tapable@^1.0.0:
   version "1.1.3"
