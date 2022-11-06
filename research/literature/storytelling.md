@@ -6,6 +6,8 @@ sidebar_position: 7
 
 Bring together film school experience with design...
 
+Does branding also go here?
+
 
 ## Community
 

@@ -4,16 +4,30 @@ sidebar_position: 9
 
 # Supply Chains
 
+Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutablet (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, "garbage in, garbage out". Indee, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inpputted incorrect data.
 
-blockchain supply chain
-https://oceanprotocol.com/
-https://www.provenance.io/
-https://ambrosus.io/
-https://www.modum.io/
-https://origintrail.io/
-https://www.vechain.org/
-https://wabi.io/
-https://wabi.io/blog/wabi-tldr/
+The blockchain supply chain companies as of October 2022 include:
+
+
+| №   | Company                                                                       | Link                                     |
+| --- | ------------------------------------------------------------------------------ | ------------------------------------------- |
+| 1   | Ocean Protocol         | https://oceanprotocol.com/     |
+| 2   | Provenance | https://www.provenance.io/                                    |
+| 3   | Ambrosius     | https://ambrosus.io/ |
+| 4   | Modum     | https://www.modum.io/ |
+| 5   | OriginTrail     | https://origintrail.io/ |
+| 6   | VeChain     | https://www.vechain.org/|
+| 7   | Wabi     | https://wabi.io/ |
+
+
+
+Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+
+
+
+
+
+
 https://www.taeltech.com/
 https://golden.com/wiki/WaltonChain_(cryptocurrency)-EAVDZX4
 https://www.bext360.com/
@@ -107,6 +121,10 @@ https://www.ecotextile.com/2018101123789/materials-production-news/world-s-first
 
 facttories
 
+--
+
+Tracing emissions from factory pipes.
+
 —
 
 factory compliacen
@@ -117,10 +135,6 @@ https://www.fairfactories.org/
 transparency about the pollutiong factories where the products come from.. the proudct journey
 
 Planet Factory
-
-—
-Your Green Helper
-Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashiing is everywhere, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
 
 
 —
@@ -137,3 +151,7 @@ https://planethome.eco/
 https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
 
 —
+
+## Conclusion
+
+In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.

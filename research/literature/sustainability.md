@@ -4,6 +4,19 @@ sidebar_position: 6
 
 # Sustainability
 
+Sustainability encompasses all human activites, making a complete overview challenging.
+
+
+
+The true cost of products is hidden. The work is hidden.
+
+## Greenwashing
+
+https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw
+https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
+https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
+
+
 ## History
 
 —
