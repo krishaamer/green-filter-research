@@ -117,3 +117,5 @@ standford research: “humans expect computers to be like humans or places”
 — sustainable ai itself https://link.springer.com/article/10.1007/s43681-021-00043-6
 
 — ai characters vs repllika. make a comparative table https://charisma.ai/register
+
+## References {#references}

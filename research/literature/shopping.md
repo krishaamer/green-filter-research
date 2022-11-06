@@ -270,3 +270,5 @@ Alterations and repairs made easy. https://home.sojo.uk/ https://directory.good
 https://renoon.com/ Ethical Shopping
 
 https://eu.sheepinc.com/?v=1666529932643
+
+## References {#references}

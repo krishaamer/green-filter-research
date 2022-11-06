@@ -179,3 +179,5 @@ The phase three sampling structure uses a judgmental criterion: age 18-35, locat
 ``` mdx-code-block
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
+
+## References {#references}

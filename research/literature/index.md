@@ -14,3 +14,5 @@ import Figure from '/src/components/Figure'
 import Literature from '../images/literature.png'
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```
+
+## References {#references}

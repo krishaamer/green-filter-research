@@ -96,3 +96,5 @@ Planet Factory
 ## Conclusion {#conclusion}
 
 In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
+
+## References {#references}

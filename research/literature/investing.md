@@ -349,3 +349,5 @@ All of the interfaces mentioned above make use of machine learning (ML), a tool 
 ### Summary {#summary}
 
 “Investors want to know where their money is going”, says Heike Reichelt, Head of Investor Relations at World Bank. (10 Years of Green Bonds, 2019) and this applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?
+
+## References {#references}

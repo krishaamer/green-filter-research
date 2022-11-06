@@ -135,3 +135,5 @@ societal movements change things: implivmcatuon for design, build a community
 Mobile App Design There’s a number of user interface design patterns that have provide successful across a range of social media apps, copied from one to another, to the extent that the largest social media apps share a similar look and feature set.
 
 Mobile-first Provides a community for pooling money with like-minded investors Social Educational Edutainment Fun Stories section like IG / app store Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers. Karina from Korea(aespa, 2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+
+## References {#references}
