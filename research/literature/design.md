@@ -51,19 +51,23 @@ Monoculture -&gt; regenerative food forests Oil -&gt; electri cars / bicycles
 
 — eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216 Evolution of design for sustainability: From product design to design for system innovations and transitions
 
-— ecodesign https://www.sciencedirect.com/science/article/abs/pii/S0048969721045812 https://www.sciencedirect.com/science/article/abs/pii/S2352554122001310 https://www.sciencedirect.com/science/article/abs/pii/S2352550921003791 https://www.sciencedirect.com/science/article/abs/pii/S0048969721066432 https://www.sciencedirect.com/science/article/pii/S2212827122007272 https://www.sciencedirect.com/science/article/pii/B9780128198179000181 https://www.sciencedirect.com/science/article/pii/S2352550921003298 https://www.sciencedirect.com/science/article/pii/S0959652622028396 https://www.sciencedirect.com/science/article/pii/S2212827122001378 https://www.sciencedirect.com/science/article/pii/S1462901122001654 https://www.sciencedirect.com/science/article/pii/S0959652622013518 https://www.sciencedirect.com/science/article/pii/S1470160X22000723 https://www.sciencedirect.com/science/article/pii/S095965262200138X https://www.sciencedirect.com/science/article/pii/S2212827122000440
+## Eco-Design {#eco-design}
 
 “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
 
 https://www.europarl.europa.eu/RegData/etudes/BRIE/2022/733524/EPRS_BRI(2022)733524_EN.pdf https://europa.eu/youreurope/business/product-requirements/compliance/ecodesign/index_en.htm
 
+https://www.sciencedirect.com/science/article/abs/pii/S0048969721045812 https://www.sciencedirect.com/science/article/abs/pii/S2352554122001310 https://www.sciencedirect.com/science/article/abs/pii/S2352550921003791 https://www.sciencedirect.com/science/article/abs/pii/S0048969721066432 https://www.sciencedirect.com/science/article/pii/S2212827122007272 https://www.sciencedirect.com/science/article/pii/B9780128198179000181 https://www.sciencedirect.com/science/article/pii/S2352550921003298 https://www.sciencedirect.com/science/article/pii/S0959652622028396 https://www.sciencedirect.com/science/article/pii/S2212827122001378 https://www.sciencedirect.com/science/article/pii/S1462901122001654 https://www.sciencedirect.com/science/article/pii/S0959652622013518 https://www.sciencedirect.com/science/article/pii/S1470160X22000723 https://www.sciencedirect.com/science/article/pii/S095965262200138X https://www.sciencedirect.com/science/article/pii/S2212827122000440
+
+Again, AI has the potential to provide the parameters for sustainability.
+
 AI tool is developed for deciding the suitable life cycle design parameters https://www.sciencedirect.com/science/article/abs/pii/S0957417422017146
 
 ## Circular Economy {#circular-economy}
 
-8.6% circular https://www.circularity-gap.world/2022
+Only 8.6% of world economy is circular https://www.circularity-gap.world/2022
 
-100B tonnes of virgin material
+100B tonnes of virgin material every year.
 
 vaheta oma mööbel https://www.facebook.com/SMARTSWAP
 
