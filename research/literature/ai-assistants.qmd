@@ -10,12 +10,22 @@ import Figure from '/src/components/Figure'
 import Replika from '../images/with-me.png'
 ```
 
-# AI Companions, Partners, Assistants
+# Companions, Partners, Assistants
+AI companions, AI partners, AI assistants, AI trainers - there's are many names for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
-There's a saying in Estonian: "A good child has many names" "and it's true. I have many names, but I'm not a child. I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also a good example of how AI can be used to help us in our daily lives.
+There's a saying in Estonian: "A good child has many names" "and it's true. I have many names, but I'm not a child. I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
+
+Some have an avatar, some not. I've created a framwork for categorization. Human-like or not... etcxx
 
 
-I assistants are already providing help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
+| №   | Name                                                                       | Link                                     | Description
+| --- | ------------------------------------------------------------------------------ | ------------------------------------------- |
+| 1   | Github CoPilot       | [https://www.personal.ai](https://www.personal.ai)    | AI helper for coding
+| 2   | Google Translate      | https://translate.google.com/     |
+| 3   | Google Search      | https://www.google.com/     |
+| 4   | Google Interview Warmup     | [https://grow.google/certificates/interview-warmup/ ](https://grow.google/certificates/interview-warmup/)    | AI training tool
+
+
 
 ```{=mdx}
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
@@ -24,21 +34,10 @@ I assistants are already providing help at scale with little to no human interve
 ## Here be dragons
 
 
-
 https://www.youtube.com/watch?v=YXE58XRWhh4
 
 https://www.youtube.com/watch?v=2mfUZcYfFjw
 
-
-## Ai Companions in the wild
-One example of an AI helper is the Github CoPilot
-https://www.personal.ai
-
-
-## AI training tools
-
-Google's interview warmup
-https://grow.google/certificates/interview-warmup/
 
 ## voice ui
 https://www.sciencedirect.com/science/article/abs/pii/S1071581922000131
@@ -55,7 +54,7 @@ writing AI characters
 https://www.youtube.com/watch?v=PCZ4iNe5pnc
 creating a personality
 
-writing as traingin data? large language models. GTP3
+writing as training data? large language models. GTP3
 
 
 ### ai and ux
@@ -97,8 +96,8 @@ robot advisors
 https://www.youtube.com/watch?v=RnJkyo7N6qY&feature=youtu.be
 
 
-..
-chatbots
+## Chatbots
+
 https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/
 https://www.youtube.com/watch?v=Y47kjQvffPo
 https://arxiv.org/abs/2101.02555
@@ -118,8 +117,8 @@ ai heallth
 https://twitter.com/larkhealth?lang=en
 
 
-—
-voice assistant guidelines
+## Voice Assistant Guidelines
+
 https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
 https://www.theturnsignalblog.com/blog/voice-interaction/
 
@@ -137,7 +136,7 @@ https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
 
 
 —
-Microsoft guideliines for AI-Human interaction
+Microsoft guidelines for AI-Human interaction
 https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/
 https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
 
