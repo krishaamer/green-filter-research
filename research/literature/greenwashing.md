@@ -1,0 +1,12 @@
+---
+title: Greenwashing
+bibliography: [../ref.bib]
+csl: ../apa.csl
+sidebar_position: 10
+---
+
+# Countering Greenwashing {#countering-greenwashing}
+
+The European Unions has proposed legislation to counter greenwashing.
+
+## References {#references}
