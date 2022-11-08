@@ -1,5 +1,5 @@
 ---
-title: Investing
+title: Sustainable Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3

@@ -1,5 +1,5 @@
 ---
-title: Shopping
+title: Sustainable Shopping
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -7,15 +7,27 @@ sidebar_position: 1
 
 # ESG Shopping {#esg-shopping}
 
+# Countering Greenwashing {#countering-greenwashing}
+
+The European Unions has proposed legislation to counter greenwashing.
+
+Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashiing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+
+Laws against greenwashing
+
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
 ## Product Databases {#product-databases}
 
 The world’s largest database for sustainability standards “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.” https://howgood.com/ https://standardsmap.org/en/home
 
-trends https://standardsmap.org/en/trends
+Trends https://standardsmap.org/en/trends
 
 https://world.openfoodfacts.org/ https://product.okfn.org/ https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes https://en.wikipedia.org/wiki/International_Article_Number https://gtinsearch.org/ https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea world product database https://www3.wipo.int/wipogreen/en/ https://www.packworld.com/
 
-## Packaginig {#packaginig}
+## Packaging {#packaging}
 
 https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
 

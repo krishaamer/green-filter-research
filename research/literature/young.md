@@ -1,5 +1,5 @@
 ---
-title: Storytelling
+title: Design for Young Adults
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 7

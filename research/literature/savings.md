@@ -1,5 +1,5 @@
 ---
-title: Savings
+title: Sustainable Savings
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
@@ -7,7 +7,15 @@ sidebar_position: 2
 
 # ESG Savings {#esg-savings}
 
-TODO
+There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
+
+## Savings in CO2e emissions {#savings-in-co2e-emissions}
+
+CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
+
+## Financial Savings {#financial-savings}
+
+Financial savings are the money you have in your pension fund for example. Savings are invested by the bank and make up the largest proportion on investments for the large majority of people (who are not active investor themselves).
 
 “environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33)) https://www.lawinsider.com/dictionary/environmental-savings
 

@@ -27,6 +27,8 @@ make some initial protottype? make youtube video… hi, you havee reacheed? spre
 
 QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a material impact on environmental issues — Investment decisions have a material impact on envrionmental issues
 
+How would you prefer communicating with an AI? – Use my voice – Search box – Chat – Take photos and share them with AI – ??
+
 — interview https://www.funderbeam.com/
 
 —

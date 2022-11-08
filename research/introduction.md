@@ -15,7 +15,7 @@ import Boundaries from "./images/boundaries.png";
 
 # From 2023 to 2030 {#from-2023-to-2030}
 
-The European Union (EU) has set an ambitious goal of reducing carbon emissions by half by 2030 and protecting biodiversity (European Commission (2019)).
+The European Union (EU) has set an ambitious goal of reducing CO2e emissions by half by 2030 and protecting biodiversity (European Commission (2019)).
 
 This research is timely in 2023 because of the convergence of four trends:
 

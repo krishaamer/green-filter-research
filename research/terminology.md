@@ -30,3 +30,13 @@ HCI - Human-computer interaction, a field of study to improve human experience w
 OEM - Original equipment manufacturer, a company making products for another company that markets and sells such products under their own brand
 
 API - Application Programming Interface, a method for software agents to exchange information in various forms of data: the basis for contemporary online services
+
+EPR - Extended Producer Responsibility
+
+LLM - Large Language Models
+
+CO2e - CO2 equivalent
+
+GHG - Greenhause gases
+
+PD - Participatory Design
