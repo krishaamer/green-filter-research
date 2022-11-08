@@ -2,7 +2,7 @@
 title: (Financial) AI Companions
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 ``` mdx-code-block
