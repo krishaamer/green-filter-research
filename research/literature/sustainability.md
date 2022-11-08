@@ -13,6 +13,10 @@ Sustainability encompasses all human activites, making a complete overview chall
 
 The true cost of products is hidden. The work is hidden.
 
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
 ## Greenwashing {#greenwashing}
 
 https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
@@ -91,7 +95,7 @@ Green Filter helps you find companies that are making a true effort to become su
 
 ## Carbon Markets {#carbon-markets}
 
-“The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+“The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. @
 
 If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds.
 

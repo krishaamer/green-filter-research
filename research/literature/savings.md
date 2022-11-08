@@ -21,6 +21,10 @@ snowflake analysis like simplywallstreet
 
 — savings lottery https://www.youtube.com/watch?v=-QjnvmCQdoE
 
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
 ### References {#references .unnumbered}
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.

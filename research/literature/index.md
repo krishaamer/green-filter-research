@@ -18,6 +18,10 @@ The literature review seeks to map out the relationships between sustainability 
 -   Mobile apps for Apple iOS / Google Android and web applications related to sustainable shopping, savings, and investing
 -   Apps using algorithimic interfaces (AI-based UI)
 
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
 ``` mdx-code-block
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```

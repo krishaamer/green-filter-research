@@ -20,6 +20,60 @@ I assistants are already providing help at scale with little to no human interve
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
 
+## Large-Language Models
+
+High-UX AI requires certain technical advacemets, which havee appeared in 2022. They are so large an compute-intensive, only massive organizations are able to train them. Thus most companies will use them as a service through and API.
+
+https://openai.com/blog/gpt-3-apps/
+
+
+| №   | Company | Released  | Link                                     |
+| --- | ------------------- | ------------------------------------------- |
+| 1   | GPT-3      | 2020 | https://oceanprotocol.com/     |
+| 2   | GPT-4        | 2022 https://oceanprotocol.com/     |
+| 3   | Megatron-Turing NLG    | 2022 | https://oceanprotocol.com/     |
+| 4   | PaLM       | 2022 | https://oceanprotocol.com/     |
+
+
+https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
+
+
+—
+model providers that respond to human-language text:
+https://dust.tt/krishaamer/providers
+
+
+“Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not”
+https://github.com/hwchase17/langchain/
+
+
+—
+LLM models (make a list) need to be updated with current events:
+
+https://twitter.com/hwchase17/status/1589648228190146562
+
+
+—
+https://arxiv.org/pdf/2009.03393.pdf
+
+Stanislas Polu, Research Engineer at OpenAI, predicts:
+“I’ll make a bold statement: creating a delightful AI assistant is not anymore a problem of getting smarter models. It is a now product problem.
+
+Better models will help but the main blocker is 100% a product problem at this point.”
+
+“We need a system that connects models to structured LLM apps and access rights to the services where users data live and where they want to take action.
+
+…and a mechanism to orchestrate these interactions, probably, once again, leveraging one central LLM app.”
+
+https://twitter.com/spolu/status/1589977549261926404
+
+
+https://twitter.com/spolu/status/1589977540177072135
+
+
+
+—
+
 ## Here be dragons {#here-be-dragons}
 
 https://www.youtube.com/watch?v=YXE58XRWhh4

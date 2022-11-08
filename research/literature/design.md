@@ -29,7 +29,7 @@ use personas to articulate assumptions
 
 https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
 
-## design systems {#design-systems}
+## Design Systems {#design-systems}
 
 https://www.invisionapp.com/inside-design/guide-to-design-systems/ https://www.designbetter.co/design-systems-handbook
 
@@ -86,11 +86,18 @@ I’m interested in the concept of a “social object” https://medium.com/we-r
 -   health and sustainability: “By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”
 -   https://academic.oup.com/heapro/article/29/3/558/754800
 
-Google and X have offered the “Green Filter” on Maps, Flightss, etc. What if tthere was a “Green Filter” on every product everywhere?
+Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
 ## Transparency {#transparency}
 
 https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transparency Accountability Advocate - 2 Compliance Data Aggregator - 3 Data Intelligence Hub - 4 Worker Voice Tool - https://www.tsgn.org/en/focus-areas/activities/worker-connect - 5 traceabilityy tooll - https://trustrace.com/ - 6 OPen data platform - 7 knowledge sharing platform - https://www.business-humanrights.org/en/
+
+``` text
+| №   | Company                                                                       | Link                                     |
+```
+
+— \| ——————- \| ——————————————- \|  
+1 \| Ocean Protocol \| https://oceanprotocol.com/ \|
 
 ``` text
 —
@@ -122,11 +129,13 @@ https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-t
 
 ## Speculative Design {#speculative-design}
 
-“Speculative Design” for a sustainbility assistant
+“Speculative Design” for a sustainability assistant
 
 — all green categories — Green hub — Ask the user to prioritize
 
-Neri oxman, biomaterials mit media lab , 15. sept. 2020 — neri oxman expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
+Neri Oxman, biomaterials MIT media lab, 15. sept. 2020 —
+
+Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
 
 speculative design use imagination
 

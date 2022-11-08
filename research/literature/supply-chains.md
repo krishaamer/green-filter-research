@@ -7,7 +7,7 @@ sidebar_position: 9
 
 # Supply Chains {#supply-chains}
 
-Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutablet (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indee, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inpputted incorrect data.
+Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutablet (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inpputted incorrect data.
 
 The blockchain supply chain companies as of October 2022 include:
 
