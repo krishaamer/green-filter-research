@@ -1,8 +1,8 @@
 ---
-title: (Financial) AI Companions
+title: AI Companions
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 ```{=mdx}
@@ -13,16 +13,58 @@ import Replika from '../images/with-me.png'
 ```
 
 ## Intro
+
+Since 1950 when Alan Turing published the Turing Test for Machine intelligence and Isaac Asimov proposed the 3 laws of Robotics, AI has come far. Especially in the last decade, AI-based solution have become a mainstay in medical research, novel drug development, and patient care (@LEITE20212515), recently notably used for quickly finding potential COVID19 vaccines (@ZAFAR2022249). 
+
+| №  | Asimov's Laws of Robotics  | 
+| ----- | ------------------- | 
+| 1st   | "A robot may not injure a human being or, through inaction, allow a human being to come to harm." | 
+| 2nd   | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." | 
+| 3rd   | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." | 
+
 This chapter will look at AI in general and then focus on financial AI in particular.
+
+
+## Large-Language Models (LLM)
+Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (@alextamkinHowLargeLanguage2021), it's become possible to make AI-generated content that's difficult to distinguish from human work (passing the Turing test). The advance of LLMs (@tamkin2021)
+
+
+T-NLG
+
+| №   | AI Model    | Released  |               |          
+| --- | ------------|-----------|---------------| 
+| 1   | GTP2        |   2019    | OpenAI        | 
+| 2   | T-NLG       |   2000    | Microsoft     | 
+| 3   | GTP3        |   2020    | OpenAI        | 
+| 4   | GTP4        |   2022    | OpenAI        | 
+| 5   | NeMo        |   2022    | NVIDIA        | 
+| 6   | PaLM        |   2022    | Google        | 
+| 7   | LaMDA       |   2022    | Google        | 
+| 8   | GLaM        |   2022    | Google        | 
+
+
+
+
 
 ## Design for Human-AI Interaction 
 
 ## Personalized Artificial Intelligence (AI) Interaction Design (IxD)
-I believe user experience design will play a crucial role in improving the investing journey for both Generation Z and Millennials and identify the issue of out-of-date interaction design for Robo-Advisors in Europe, and the missed opportunity to provide an even more interactive experience in line with young adults' expectations in the most successful AI advisory apps on the US market.
+User experience design plays a crucial role in improving the investing journey for Generation Z and identify the issue of out-of-date interaction design for Robo-Advisors in Europe. The missed opportunity to provide an even more interactive experience in line with expectations in the most successful AI advisory apps on the US market.
 
 ### Design for Sustainability and Participation
 Designer Alexandra Daisy Ginsberg underlines the role of design beyond _designing_ as a tool for envisioning, in her words "design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be" (@lorenzoDaisyGinsbergImagines2015). Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research, which means aiming to influence outcomes, not only be a passive observer of phenomena as a researcher or only focusing on usability as a designer without taking into account the wider context. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability. Inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design (@shenoiParticipatoryDesignFuture2018).
 
+How do the 7 tenets of user experience (UX) apply to AI?
+
+| №   | Company             | 
+| --- | ------------------- | 
+| 1   | Useful        | 
+| 2   | Valubale        | 
+| 3   | Ussable        | 
+| 4   | Acceesible        | 
+| 5   | Findable        | 
+| 6   | Desirable        | 
+| 7   | Credible        | 
 
 
 ### Data Visualisation
@@ -69,17 +111,6 @@ https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4
 
 
 ## User Experience (UX)
-
-| №   | Company             | 
-| --- | ------------------- | 
-| 1   | Useful        | 
-| 1   | Valubale        | 
-| 1   | Ussable        | 
-| 1   | Acceesible        | 
-| 1   | Findable        | 
-| 1   | Desirable        | 
-| 1   | Credible        | 
-
 
 —
 
@@ -195,7 +226,7 @@ https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artifici
 
 
 —
-interaction design is about creating a conversation between the product and the user https://www.youtube.com/watch?v=jXaL20YSsJo
+Interaction design is about creating a conversation between the product and the user https://www.youtube.com/watch?v=jXaL20YSsJo
 
 
 “People expect most online interactions to follow the same social rules as person-to-person interactions.1
@@ -206,7 +237,7 @@ https://growth.design/psychology#skeuomorphism
 https://www.nngroup.com/articles/mental-models/
 https://growth.design/bonus/mental-model-cheat-sheet
 
-attention
+Attention
 https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
 
 —
@@ -297,9 +328,20 @@ https://www.youtube.com/watch?v=YXE58XRWhh4
 
 https://www.youtube.com/watch?v=2mfUZcYfFjw
 
+## Calm Technology
 
-## voice ui
-https://www.sciencedirect.com/science/article/abs/pii/S1071581922000131
+
+## Voice UI
+
+Personal AI Assistants to date have we created by large tech companies.
+
+Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
+
+There are many distinct ways how an algorithm can communicate with a human. From a search box to a chatbots, voice, avatar, video, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+
+There's research suggesting that voice UI accompanied by a _physical embodied system_ is preffered by users in comparison with voice-only UI (@CELINO2020102410). This suggests adding an avatar to the AI design may be worthwhile.
+
+
 https://www.sciencedirect.com/science/article/pii/S1359644621003081
 https://www.sciencedirect.com/science/article/pii/S1877050920321736
 https://www.sciencedirect.com/science/article/abs/pii/S107158192030015X
@@ -316,6 +358,20 @@ creating a personality
 writing as training data? large language models. GTP3
 
 
+## Retail Investor Helpers
+
+
+Nubanks, also known as challenger banks.
+
+
+| №   | Company          | Link                                     |
+| --- | ------------------- | ------------------------------------------- |
+| 1   | SPARQAN        | https://oceanprotocol.com/     |
+| 1   | Robinhood        | https://oceanprotocol.com/     |
+| 1   | SPARQAN        | https://oceanprotocol.com/     |
+| 1   | SPARQAN        | https://oceanprotocol.com/     |
+
+
 ### The UX of AI
 https://interactions.acm.org/archive/view/january-february-2021/ux-designers-pushing-ai-in-the-enterprise
 https://venturebeat.com/2021/06/20/why-ux-should-guide-ai/
@@ -330,6 +386,9 @@ https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-imp
 https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762
 https://uxstudioteam.com/ux-blog/ai-ux/
 https://www.ericsson.com/en/ai/ux-design-in-ai
+
+## Network Effects
+The more people use a platform, the more valuable it becomes.
 
 
 ## AI Companions
@@ -376,6 +435,9 @@ https://twitter.com/larkhealth?lang=en
 
 
 ## Voice Assistant Guidelines
+
+
+m1finance
 
 https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
 https://www.theturnsignalblog.com/blog/voice-interaction/

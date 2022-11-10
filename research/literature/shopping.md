@@ -2,7 +2,7 @@
 title: Sustainable Shopping
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # ESG Shopping {#esg-shopping}

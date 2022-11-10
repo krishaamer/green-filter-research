@@ -1,5 +1,5 @@
 ---
-title: Sustainable Investing
+title: Sustainable Saving and Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
@@ -11,6 +11,36 @@ import Strava from '../images/strava.png'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
+
+# ESG Savings {#esg-savings}
+
+Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
+
+There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
+
+## Savings in CO2e emissions {#savings-in-co2e-emissions}
+
+CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
+
+## Financial Savings {#financial-savings}
+
+Financial savings are the money you have in your pension fund for example. Savings are invested by the bank and make up the largest proportion on investments for the large majority of people (who are not active investor themselves).
+
+“environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33)) https://www.lawinsider.com/dictionary/environmental-savings
+
+Ethical Savings https://www.ecology.co.uk/savings https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping https://thegoodshoppingguide.com/
+
+## Transparency {#transparency}
+
+sites like simplywallstreet provide in-depth analysis: https://simplywall.st/ also same for crypto
+
+snowflake analysis like simplywallstreet
+
+— savings lottery https://www.youtube.com/watch?v=-QjnvmCQdoE
+
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
 
 # Investment Products {#investment-products}
 
@@ -421,5 +451,9 @@ Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. 
 Swedbank. (n.d.). *EasySaver*.
 
 Unleash. (2017). Sebastian.ai. In *UNLEASH*.
+
+Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
+
+*Yale, Princeton, Stanford, MIT and Vanderbilt students take legal action to try to force fossil fuel divestment - The Washington Post*. (n.d.). https://www.washingtonpost.com/education/2022/02/16/college-fossil-fuel-divest-legal-action/.
 
 Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.

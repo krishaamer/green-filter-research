@@ -1,8 +1,8 @@
 ---
-title: (Financial) AI Companions
+title: AI Companions
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 ``` mdx-code-block
@@ -14,19 +14,54 @@ import Replika from '../images/with-me.png'
 
 ## Intro {#intro}
 
+Since 1950 when Alan Turing published the Turing Test for Machine intelligence and Isaac Asimov proposed the 3 laws of Robotics, AI has come far. Especially in the last decade, AI-based solution have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), recently notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)).
+
+| №   | Asimov’s Laws of Robotics                                                                                           |
+|----------------|--------------------------------------------------------|
+| 1st | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
+| 2nd | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
+| 3rd | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
+
 This chapter will look at AI in general and then focus on financial AI in particular.
+
+## Large-Language Models (LLM) {#large-language-models-llm}
+
+Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (Alex Tamkin & Deep Ganguli (2021)), it’s become possible to make AI-generated content that’s difficult to distinguish from human work (passing the Turing test). The advance of LLMs (Tamkin et al. (2021))
+
+T-NLG
+
+| №   | AI Model | Released |           |
+|-----|----------|----------|-----------|
+| 1   | GTP2     | 2019     | OpenAI    |
+| 2   | T-NLG    | 2000     | Microsoft |
+| 3   | GTP3     | 2020     | OpenAI    |
+| 4   | GTP4     | 2022     | OpenAI    |
+| 5   | NeMo     | 2022     | NVIDIA    |
+| 6   | PaLM     | 2022     | Google    |
+| 7   | LaMDA    | 2022     | Google    |
+| 8   | GLaM     | 2022     | Google    |
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
 ## Personalized Artificial Intelligence (AI) Interaction Design (IxD) {#personalized-artificial-intelligence-ai-interaction-design-ixd}
 
-I believe user experience design will play a crucial role in improving the investing journey for both Generation Z and Millennials and identify the issue of out-of-date interaction design for Robo-Advisors in Europe, and the missed opportunity to provide an even more interactive experience in line with young adults’ expectations in the most successful AI advisory apps on the US market.
+User experience design plays a crucial role in improving the investing journey for Generation Z and identify the issue of out-of-date interaction design for Robo-Advisors in Europe. The missed opportunity to provide an even more interactive experience in line with expectations in the most successful AI advisory apps on the US market.
 
 ### Design for Sustainability and Participation {#design-for-sustainability-and-participation}
 
 Designer Alexandra Daisy Ginsberg underlines the role of design beyond *designing* as a tool for envisioning, in her words “design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be” (Lorenzo et al. (2015)). Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research, which means aiming to influence outcomes, not only be a passive observer of phenomena as a researcher or only focusing on usability as a designer without taking into account the wider context. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability. Inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design (Shenoi (2018)).
 
-### Speculative Design {#speculative-design}
+How do the 7 tenets of user experience (UX) apply to AI?
+
+| №   | Company    |
+|-----|------------|
+| 1   | Useful     |
+| 2   | Valubale   |
+| 3   | Ussable    |
+| 4   | Acceesible |
+| 5   | Findable   |
+| 6   | Desirable  |
+| 7   | Credible   |
 
 ### Data Visualisation {#data-visualisation}
 
@@ -58,29 +93,43 @@ Lovejoy, lead UX designer at Google’s people-centric AI systems department (PA
 
 ### Platform Economy {#platform-economy}
 
-The most successful businesses today (meaning largest in terms of number of users) look at the whole user experience, striving to design solutions that feel human and personalized for every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users. The rise of the platform economy has given us marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting? What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? These are both questions on the intersection of user experience design and speculation, which has been termed speculative design - making use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - persoalization at scale. The rise of the platform economy has given us marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting? What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance?
+
+### Speculative Design {#speculative-design}
+
+The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book (Anthony Dunne & Fiona Raby (2013)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
 In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
 Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----|
-| what is interaction design https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| \## User Experience (UX)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| \| № \| Company \| \| — \| ——————- \| \| 1 \| Useful \| \| 1 \| Valubale \| \| 1 \| Ussable \| \| 1 \| Acceesible \| \| 1 \| Findable \| \| 1 \| Desirable \| \| 1 \| Credible \|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| “interaction design” fintech https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/ https://usabilitygeek.com/ux-design-fintech-things-to-remember/ https://www.parallelhq.com/blog/fintech-ui-ux-design https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9 https://www.youtube.com/watch?v=c_uxaOz_B1c                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| — like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| same for crypto can be automated? people will start to discuss ESG vs price discrepancy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| — what is product design? https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| “digital sustainability principles”                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report |
-| — DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| — https://www.libevm.com/ https://twitter.com/libevm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| finance and culture https://alfalfa.capital/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+### Interaction Design {#interaction-design}
 
-https://opensea.io/collection/top-taiwan-influencers *for yougn people investing mostly means buying crypto*
+what is interaction design https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c
+
+## User Experience (UX) {#user-experience-ux}
+
+—
+
+“interaction design” fintech https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/ https://usabilitygeek.com/ux-design-fintech-things-to-remember/ https://www.parallelhq.com/blog/fintech-ui-ux-design https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9 https://www.youtube.com/watch?v=c_uxaOz_B1c
+
+— like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment
+
+same for crypto can be automated? people will start to discuss ESG vs price discrepancy
+
+— what is product design? https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
+
+“digital sustainability principles”
+
+“Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report
+
+— DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/
+
+— https://www.libevm.com/ https://twitter.com/libevm
+
+finance and culture https://alfalfa.capital/
+
+-   https://opensea.io/collection/top-taiwan-influencers *for yougn people investing mostly means buying crypto*
 
 — Crypto investment clubs https://app.syndicate.io/clubs
 
@@ -108,11 +157,11 @@ https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-c
 
 https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/ https://www.youtube.com/watch?v=xDmQMpwiHdA https://www.youtube.com/watch?v=WT9A_I3UIq0 https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
 
-— interaction design is about creating a conversation between the product and the user https://www.youtube.com/watch?v=jXaL20YSsJo
+— Interaction design is about creating a conversation between the product and the user https://www.youtube.com/watch?v=jXaL20YSsJo
 
 “People expect most online interactions to follow the same social rules as person-to-person interactions.1 It’s a shortcut that your brain uses to quickly evaluate trustworthiness.“ https://www.goodreads.com/book/show/10778139-100-things-every-designer-needs-to-know-about-people https://growth.design/psychology#familiarity-bias https://growth.design/psychology#skeuomorphism https://www.nngroup.com/articles/mental-models/ https://growth.design/bonus/mental-model-cheat-sheet
 
-attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
+Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
 
 — people recognise computers as human https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate https://www.tashkeuneman.com/ https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K\_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant
 
@@ -130,7 +179,7 @@ Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/1
 
 # AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
-## Interaction Design {#interaction-design}
+## Interaction Design {#interaction-design-1}
 
 — What is interaction design? https://www.interaction-design.org/literature/topics/interaction-design
 
@@ -157,6 +206,10 @@ Some have an avatar, some not. I’ve created a framwork for categorization. Hum
 | 3   | Google Search           | https://www.google.com/                            |
 | 4   | Google Interview Warmup | https://grow.google/certificates/interview-warmup/ |
 
+Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.) Google Flights suggests fligts with lower CO2 emissions
+
+CO2e calculations will be part of our everyday experience
+
 ``` mdx-code-block
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
@@ -167,15 +220,39 @@ https://www.youtube.com/watch?v=YXE58XRWhh4
 
 https://www.youtube.com/watch?v=2mfUZcYfFjw
 
-## voice ui {#voice-ui}
+## Calm Technology {#calm-technology}
 
-https://www.sciencedirect.com/science/article/abs/pii/S1071581922000131 https://www.sciencedirect.com/science/article/pii/S1359644621003081 https://www.sciencedirect.com/science/article/pii/S1877050920321736 https://www.sciencedirect.com/science/article/abs/pii/S107158192030015X
+## Voice UI {#voice-ui}
+
+Personal AI Assistants to date have we created by large tech companies.
+
+Siri voice developer found the pauses between words are meaningful and help humans understand AI voices better (AI For Good Conference speaker)
+
+
+Apple's Siri, Microsoft's Cortana, Google Assistant, Samsung's Bixby, Amazon's Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie, Xiaomi’s Xiao Ai, all relay on voice only.
+
+There are many distinct ways how an algorithm can communicate with a human. From a search box to a chatbots, voice, avatar, video, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+
+There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
+
+https://www.sciencedirect.com/science/article/pii/S1359644621003081 https://www.sciencedirect.com/science/article/pii/S1877050920321736 https://www.sciencedirect.com/science/article/abs/pii/S107158192030015X
 
 https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
 
 — writing AI characters https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
 
 writing as training data? large language models. GTP3
+
+## Retail Investor Helpers {#retail-investor-helpers}
+
+Nubanks, also known as challenger banks.
+
+| №   | Company   | Link                       |
+|-----|-----------|----------------------------|
+| 1   | SPARQAN   | https://oceanprotocol.com/ |
+| 1   | Robinhood | https://oceanprotocol.com/ |
+| 1   | SPARQAN   | https://oceanprotocol.com/ |
+| 1   | SPARQAN   | https://oceanprotocol.com/ |
 
 ### The UX of AI {#the-ux-of-ai}
 
@@ -184,6 +261,10 @@ https://interactions.acm.org/archive/view/january-february-2021/ux-designers-pus
 https://uxstudioteam.com/ux-blog/ai-ux/
 
 ux for ai https://design.google/library/ai/ https://www.computer.org/publications/tech-news/trends/5-ways-artificial-intelligence-helps-in-improving-website-usability https://uxofai.com/ https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762 https://uxstudioteam.com/ux-blog/ai-ux/ https://www.ericsson.com/en/ai/ux-design-in-ai
+
+## Network Effects {#network-effects}
+
+The more people use a platform, the more valuable it becomes.
 
 ## AI Companions {#ai-companions}
 
@@ -206,6 +287,8 @@ https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-r
 — ai heallth https://twitter.com/larkhealth?lang=en
 
 ## Voice Assistant Guidelines {#voice-assistant-guidelines}
+
+m1finance
 
 https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
 
@@ -270,16 +353,30 @@ The demographics that stand to win the most from the green transformation of bus
 
 ## References {#references .unnumbered}
 
+Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
+
+Anthony Dunne, & Fiona Raby. (2013). *Speculative Everything*. MIT Press.
+
 Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe XD Ideas*.
+
+Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
 
+Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
+
 Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friendlier Biological Future. In *Fast Company*. https://www.fastcompany.com/3051140/daisy-ginsberg-is-natures-most-deadly-synthetic-designer.
+
+Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
 
 Shenoi, S. (2018). Participatory design and the future of interaction design. In *Medium*. https://uxdesign.cc/participatory-design-and-the-future-of-interaction-design-81a11713bbf.
 
 Shin, D., Zhong, B., & Biocca, F. (2020). Beyond user experience: What constitutes algorithmic experiences? *International Journal of Information Management*, *52*, 102061. <https://doi.org/10.1016/j.ijinfomgt.2019.102061>
 
+Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the capabilities, limitations, and societal impact of large language models*. arXiv. <https://doi.org/10.48550/arxiv.2102.02503>
+
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
+
+Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVID19: A review. *Sustainable Operations and Computers*, *3*, 249–257. <https://doi.org/10.1016/j.susoc.2022.05.002>

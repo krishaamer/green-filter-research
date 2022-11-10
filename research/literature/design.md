@@ -2,7 +2,7 @@
 title: Design for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Design for Sustainability {#design-for-sustainability}
@@ -231,7 +231,17 @@ supply chain https://www.prima.trade/post/supply-chain-finance-upgrade https://w
 
 give supply chain a voice by connecting workers directly to the consumer https://www.youtube.com/watch?v=XaNiqDJi7sE https://ctmfile.com/demos/view/13077 https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough https://www.es3g.com/post/worker-voice https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
 
-— \## Realtime ESG https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough “supply chain is a significant source of ESG content” “Real-time ESG data is more difficult to greenwash”
+— \## Realtime ESG
+
+T“Real-time ESG data is more difficult to greenwash” “supply chain is a significant source of ESG content” Tim Nicolle (n.d.)
+
+There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
+
+FlowIT
+
+Automate CO2 calculations realtime:
+
+https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
 
 “factory social score”.
 
@@ -431,4 +441,6 @@ Mobile-first Provides a community for pooling money with like-minded investors S
 
 In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
-## References {#references}
+## References {#references .unnumbered}
+
+Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
