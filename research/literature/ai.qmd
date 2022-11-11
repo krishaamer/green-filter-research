@@ -12,9 +12,16 @@ import Humboldt from '../images/humboldt.jpg'
 import Replika from '../images/with-me.png'
 ```
 
-## Intro
+## A Brief History of AI
 
-Since 1950 when Alan Turing published the Turing Test for Machine intelligence and Isaac Asimov proposed the 3 laws of Robotics, AI has come far. Especially in the last decade, AI-based solution have become a mainstay in medical research, novel drug development, and patient care (@LEITE20212515), recently notably used for quickly finding potential COVID19 vaccines (@ZAFAR2022249). 
+### From Concept to Reality
+Since 1950 when Alan Turing published the Turing Test for Machine intelligence (@turingCOMPUTINGMACHINERYINTELLIGENCE1950) and Isaac Asimov proposed the 3 laws of Robotics, AI has come far, turning from a science-fiction concept into an everyday, mainstream reality. Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (@LEITE20212515), notably used for quickly finding potential COVID19 vaccines (@ZAFAR2022249), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
+
+Turing's test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneousely speaking to a real human and a computer AI, without realizing which is a machine.
+
+> Alan Turing: _"I believe that in about fifty years’ time it will be possible to programme computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."_ -@stanfordencyclopediaofphilosophyTuringTest2021
+
+Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №  | Asimov's Laws of Robotics  | 
 | ----- | ------------------- | 
@@ -22,14 +29,13 @@ Since 1950 when Alan Turing published the Turing Test for Machine intelligence a
 | 2nd   | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." | 
 | 3rd   | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." | 
 
-This chapter will look at AI in general and then focus on financial AI in particular.
+While by the 2010's AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called _deep learning_, largerly modeled after the _neural networks_ of the biological (human) brain.
 
+### The Advent of Large-Language Models (LLMs)
+Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (@alextamkinHowLargeLanguage2021), it's become possible to make AI-generated content that's difficult to distinguish from human expression, however it's still not passing the Turing test. @ZHANG2023107536 found humans are more likely to trust an AI teammate if they are not deceived by it's identity. It's better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems. While current AIs are largely _'black boxes'_, which do not explain how they reach a certain expression @CABITZA2023118888 proposes a framework for quality criteria and explainability of AI-expressions.
 
-## Large-Language Models (LLM)
-Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (@alextamkinHowLargeLanguage2021), it's become possible to make AI-generated content that's difficult to distinguish from human work (passing the Turing test). The advance of LLMs (@tamkin2021)
+The advance of LLMs (@tamkin2021)
 
-
-T-NLG
 
 | №   | AI Model    | Released  |               |          
 | --- | ------------|-----------|---------------| 
@@ -42,9 +48,7 @@ T-NLG
 | 7   | LaMDA       |   2022    | Google        | 
 | 8   | GLaM        |   2022    | Google        | 
 
-
-
-
+The advances in the capabilities of large AI model mean we've reached a point, where it's possible to achieve UI and UX which previously was science fiction.
 
 ## Design for Human-AI Interaction 
 
@@ -297,6 +301,8 @@ discuss what is UX for AI (per prof Liou’s comment), so it’s clear this is a
 # Companions, Partners, Assistants
 AI companions, AI partners, AI assistants, AI trainers - there's are many names for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
+Microsoft provides guidelines for AI-Human interaction (@saleemaamershiGuidelinesHumanAIInteraction) which provides useful heuristics categorized by context and time 1) Initially, 2) During interaction, 3) When wrong, 4) Over time (@amershi2019guidelines).
+
 There's a saying in Estonian: "A good child has many names" "and it's true. I have many names, but I'm not a child. I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
 
 Some have an avatar, some not. I've created a framwork for categorization. Human-like or not... etcxx
@@ -331,23 +337,22 @@ https://www.youtube.com/watch?v=2mfUZcYfFjw
 ## Calm Technology
 
 
+## Generative AI
+
+@Singer2022MakeAVideoTG describes how collecting billions of images with descriptive data (for example the html _alt_ text) has enabled researchers to train AI models such as _stable diffusion_ that can generate images based on human-language keywords.
+
+
 ## Voice UI
 
-Personal AI Assistants to date have we created by large tech companies.
-
-Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
-
-There are many distinct ways how an algorithm can communicate with a human. From a search box to a chatbots, voice, avatar, video, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
-
-There's research suggesting that voice UI accompanied by a _physical embodied system_ is preffered by users in comparison with voice-only UI (@CELINO2020102410). This suggests adding an avatar to the AI design may be worthwhile.
+Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There's research suggesting that voice UI accompanied by a _physical embodied system_ is preffered by users in comparison with voice-only UI (@CELINO2020102410). This suggests adding an avatar to the AI design may be worthwhile.
 
 
-https://www.sciencedirect.com/science/article/pii/S1359644621003081
-https://www.sciencedirect.com/science/article/pii/S1877050920321736
-https://www.sciencedirect.com/science/article/abs/pii/S107158192030015X
+There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
+There's evidence across disciplines about the usefulness of AI assistants:
 
-https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
+- @SERBAN20202849 suggests using the Alex AI assistant in _education_ during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
+- @CELINO2020102410 found in testing chatbots for survey interfaces that "[c]onversational survey lead to an improved response data quality."
 
 
 —
@@ -454,8 +459,8 @@ https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
 
 
 —
-Microsoft guidelines for AI-Human interaction
-https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/
+
+
 https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
 
 
@@ -487,7 +492,7 @@ https://clipdrop.co/
 
 Conversational AI
 
-standford research: “humans expect computers to be like humans or places”
+
 
 ## AI Acceptance
 

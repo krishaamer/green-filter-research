@@ -12,9 +12,17 @@ import Humboldt from '../images/humboldt.jpg'
 import Replika from '../images/with-me.png'
 ```
 
-## Intro {#intro}
+## A Brief History of AI {#a-brief-history-of-ai}
 
-Since 1950 when Alan Turing published the Turing Test for Machine intelligence and Isaac Asimov proposed the 3 laws of Robotics, AI has come far. Especially in the last decade, AI-based solution have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), recently notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)).
+### From Concept to Reality {#from-concept-to-reality}
+
+Since 1950 when Alan Turing published the Turing Test for Machine intelligence (Turing (1950)) and Isaac Asimov proposed the 3 laws of Robotics, AI has come far, turning from a science-fiction concept into an everyday, mainstream reality. Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
+
+Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneousely speaking to a real human and a computer AI, without realizing which is a machine.
+
+> Alan Turing: *“I believe that in about fifty years’ time it will be possible to programme computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* -Stanford Encyclopedia of Philosophy (2021)
+
+Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №   | Asimov’s Laws of Robotics                                                                                           |
 |----------------|--------------------------------------------------------|
@@ -22,13 +30,13 @@ Since 1950 when Alan Turing published the Turing Test for Machine intelligence a
 | 2nd | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
 
-This chapter will look at AI in general and then focus on financial AI in particular.
+While by the 2010’s AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largerly modeled after the *neural networks* of the biological (human) brain.
 
-## Large-Language Models (LLM) {#large-language-models-llm}
+### The Advent of Large-Language Models (LLMs) {#the-advent-of-large-language-models-llms}
 
-Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (Alex Tamkin & Deep Ganguli (2021)), it’s become possible to make AI-generated content that’s difficult to distinguish from human work (passing the Turing test). The advance of LLMs (Tamkin et al. (2021))
+Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (Alex Tamkin & Deep Ganguli (2021)), it’s become possible to make AI-generated content that’s difficult to distinguish from human expression, however it’s still not passing the Turing test. Zhang et al. (2023) found humans are more likely to trust an AI teammate if they are not deceived by it’s identity. It’s better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems. While current AIs are largely *‘black boxes’*, which do not explain how they reach a certain expression Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions.
 
-T-NLG
+The advance of LLMs (Tamkin et al. (2021))
 
 | №   | AI Model | Released |           |
 |-----|----------|----------|-----------|
@@ -40,6 +48,8 @@ T-NLG
 | 6   | PaLM     | 2022     | Google    |
 | 7   | LaMDA    | 2022     | Google    |
 | 8   | GLaM     | 2022     | Google    |
+
+The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
@@ -195,6 +205,8 @@ discuss what is UX for AI (per prof Liou’s comment), so it’s clear this is a
 
 AI companions, AI partners, AI assistants, AI trainers - there’s are many names for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
+Microsoft provides guidelines for AI-Human interaction (Saleema Amershi et al. (n.d.)) which provides useful heuristics categorized by context and time 1) Initially, 2) During interaction, 3) When wrong, 4) Over time (Amershi et al. (2019)).
+
 There’s a saying in Estonian: “A good child has many names” “and it’s true. I have many names, but I’m not a child. I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. The number of AI-powered assistants is too large to list here. I’ve chosen a few select examples in the table below.
 
 Some have an avatar, some not. I’ve created a framwork for categorization. Human-like or not… etcxx
@@ -222,22 +234,20 @@ https://www.youtube.com/watch?v=2mfUZcYfFjw
 
 ## Calm Technology {#calm-technology}
 
+## Generative AI {#generative-ai}
+
+Singer et al. (2022) describes how collecting billions of images with descriptive data (for example the html *alt* text) has enabled researchers to train AI models such as *stable diffusion* that can generate images based on human-language keywords.
+
 ## Voice UI {#voice-ui}
 
-Personal AI Assistants to date have we created by large tech companies.
+Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
 
-Siri voice developer found the pauses between words are meaningful and help humans understand AI voices better (AI For Good Conference speaker)
+There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
+There’s evidence across disciplines about the usefulness of AI assistants:
 
-Apple's Siri, Microsoft's Cortana, Google Assistant, Samsung's Bixby, Amazon's Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie, Xiaomi’s Xiao Ai, all relay on voice only.
-
-There are many distinct ways how an algorithm can communicate with a human. From a search box to a chatbots, voice, avatar, video, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
-
-There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
-
-https://www.sciencedirect.com/science/article/pii/S1359644621003081 https://www.sciencedirect.com/science/article/pii/S1877050920321736 https://www.sciencedirect.com/science/article/abs/pii/S107158192030015X
-
-https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
+-   Şerban & Todericiu (2020) suggests using the Alex AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
+-   Celino & Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
 
 — writing AI characters https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
 
@@ -298,7 +308,9 @@ Bill Gates predicted “personal agents that help us get a variety of tasks” h
 
 — Suggestions: don’t buy a car. like bolt?
 
-— Microsoft guidelines for AI-Human interaction https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/ https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
+—
+
+https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
 
 !!!
 
@@ -319,8 +331,6 @@ https://thenextweb.com/news/confused-replika-ai-users-are-standing-up-for-bots-t
 — AI Design Assistants https://clipdrop.co/
 
 Conversational AI
-
-standford research: “humans expect computers to be like humans or places”
 
 ## AI Acceptance {#ai-acceptance}
 
@@ -355,9 +365,14 @@ The demographics that stand to win the most from the green transformation of bus
 
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
+Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J., Kikin-Gil, R., & Horvitz, E. (2019, May). Guidelines for human-AI interaction. *CHI 2019*.
+<span class="csl-block">CHI 2019 Honorable Mention Award</span>
+
 Anthony Dunne, & Fiona Raby. (2013). *Speculative Everything*. MIT Press.
 
 Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe XD Ideas*.
+
+Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
 
 Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
 
@@ -369,9 +384,18 @@ Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friend
 
 Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
 
+Saleema Amershi, Mihaela Vorvoreanu, & Eric Horvitz. (n.d.). Guidelines for human-AI interaction design. In *Microsoft Research*. https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/.
+
+Şerban, C., & Todericiu, I.-A. (2020). Alexa, what classes do I have today? The use of artificial intelligence via smart speakers in education. *Procedia Computer Science*, *176*, 2849–2857. <https://doi.org/10.1016/j.procs.2020.09.269>
+<span class="csl-block">Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020</span>
+
 Shenoi, S. (2018). Participatory design and the future of interaction design. In *Medium*. https://uxdesign.cc/participatory-design-and-the-future-of-interaction-design-81a11713bbf.
 
 Shin, D., Zhong, B., & Biocca, F. (2020). Beyond user experience: What constitutes algorithmic experiences? *International Journal of Information Management*, *52*, 102061. <https://doi.org/10.1016/j.ijinfomgt.2019.102061>
+
+Singer, U., Polyak, A., Hayes, T., Yin, X., An, J., Zhang, S., Hu, Q., Yang, H., Ashual, O., Gafni, O., Parikh, D., Gupta, S., & Taigman, Y. (2022). Make-<span class="nocase">A-video</span>: <span class="nocase">Text-to-video</span> generation without text-video data. *ArXiv*, *abs/2209.14792*.
+
+Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.stanford.edu/entries/turing-test/.
 
 Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the capabilities, limitations, and societal impact of large language models*. arXiv. <https://doi.org/10.48550/arxiv.2102.02503>
 
@@ -379,4 +403,8 @@ The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/
 
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
 
+Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
+
 Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVID19: A review. *Sustainable Operations and Computers*, *3*, 249–257. <https://doi.org/10.1016/j.susoc.2022.05.002>
+
+Zhang, G., Chong, L., Kotovsky, K., & Cagan, J. (2023). Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation. *Computers in Human Behavior*, *139*, 107536. <https://doi.org/10.1016/j.chb.2022.107536>
