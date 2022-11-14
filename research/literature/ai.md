@@ -131,6 +131,15 @@ same for crypto can be automated? people will start to discuss ESG vs price disc
 
 “digital sustainability principles”
 
+### The Concept of ‘Nudge’ {#the-concept-of-nudge}
+
+One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonisation*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
+
+| №   | Product        | Nudge                                |
+|-----|----------------|--------------------------------------|
+| 1   | Google Maps    | Show routes with lower CO2 emissions |
+| 2   | Google Flights | Show CO2 emissions                   |
+
 “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report
 
 — DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/
@@ -377,6 +386,10 @@ Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger,
 Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
+
+Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
+
+Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
 
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
 
