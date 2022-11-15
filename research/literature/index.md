@@ -3,6 +3,8 @@ title: Literature Review
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
+editor:
+    render-on-save: false
 ---
 
 ``` mdx-code-block

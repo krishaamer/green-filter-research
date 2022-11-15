@@ -3,11 +3,11 @@ title: Design for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 5
+editor:
+    render-on-save: true
 ---
 
 # Design for Sustainability {#design-for-sustainability}
-
-# Sustainability {#sustainability}
 
 Sustainability encompasses all human activites, making a complete overview challenging.
 
@@ -33,7 +33,7 @@ https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-p
 
 — father of climatology, isotheerms https://isotherms.simply.earth/?utm_term=FatherOfClimatology https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
-# Sustainability {#sustainability-1}
+## Sustainability {#sustainability}
 
 commodities!! — the most effective things are — food — transport — fashion? — plant trees
 
@@ -41,7 +41,7 @@ copernicus reveals new green house emissions previously undetected: https://sver
 
 Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
 
-# Disasters {#disasters}
+## Disasters {#disasters}
 
 — disasters Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
 
@@ -53,7 +53,9 @@ https://www.wri.org/research/state-nationally-determined-contributions-2022
 
 ## Health {#health}
 
--   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.” https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199325337.001.0001/acprof-9780199325337 https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/0199325332
+https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
+
+https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199325337.001.0001/acprof-9780199325337 https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/0199325332
 
 “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
 
@@ -69,7 +71,7 @@ social media greenwashing harvard paper
 
 ## Climate Change {#climate-change}
 
-— tipping points https://www.theguardian.com/environment/2022/sep/08/world-on-brink-five-climate-tipping-points-study-finds
+tipping points https://www.theguardian.com/environment/2022/sep/08/world-on-brink-five-climate-tipping-points-study-finds
 
 ## European Green Deal {#european-green-deal}
 
@@ -79,7 +81,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 —- one of the eu goals is reducing comsumption tacking your consumption habits
 
-—
+## Minimalism {#minimalism}
 
 finnish socialists: minimalism https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
 
@@ -97,7 +99,7 @@ Green Filter helps you find companies that are making a true effort to become su
 
 ## Sustainable Finance {#sustainable-finance}
 
-— UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
+UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
 
 “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilise capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
 
@@ -111,11 +113,11 @@ Carbon markets could also help slash emissions. But that would only happen if ru
 
 ## Biodiversity {#biodiversity}
 
-— United Nations Convention on Biodiversity
+United Nations Convention on Biodiversity
 
 ## Country Contributions {#country-contributions}
 
-— climate action tracker https://climateactiontracker.org/countries/
+climate action tracker https://climateactiontracker.org/countries/
 
 “triple turn”
 
@@ -149,19 +151,17 @@ https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64
 
 https://www.nature.com/articles/s41893-022-00955-z
 
-## \## Sustainable Design {#sustainable-design}
+## Sustainable Design {#sustainable-design}
 
-Handbook of Footwear Design and Manufacture
+“Handbook of Footwear Design and Manufacture”
 
 Chapter 18 - Green design
 
 https://www.sciencedirect.com/science/article/pii/B9780128216064000181
 
-— —
+— it’s possible to curb greenwashing!
 
-it’s possible to curb greenwashing!
-
-## Intensive farming practices {#intensive-farming-practices}
+## Intensive Farming Practices {#intensive-farming-practices}
 
 ## Packaging {#packaging}
 
@@ -179,7 +179,7 @@ social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon#:~:tex
 
 ## Ecosystem Services {#ecosystem-services}
 
-— ecosystem services https://www.sciencedirect.com/science/article/pii/S2772375522000545 https://www.sciencedirect.com/science/article/pii/S0261517722001431
+ecosystem services https://www.sciencedirect.com/science/article/pii/S2772375522000545 https://www.sciencedirect.com/science/article/pii/S0261517722001431
 
 ## Regeneration {#regeneration}
 
@@ -199,7 +199,7 @@ people live in the polluted areas are so used to it. what app to wake them up.
 
 “you live in a highly polluted area. here’s what you can do”
 
-# Supply Chains {#supply-chains}
+## Supply Chains {#supply-chains}
 
 Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutablet (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inpputted incorrect data.
 
@@ -219,11 +219,9 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 https://www.taeltech.com/ https://golden.com/wiki/WaltonChain\_(cryptocurrency)-EAVDZX4 https://www.bext360.com/ https://fairfood.org/en/blockchain/
 
-—
+## Traceability {#traceability}
 
-instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/ product sustainability modeling https://makersite.io/product-sustainability/
-
-— “uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
+“uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
 help consumers to demand more
 
@@ -232,6 +230,8 @@ supply chain https://www.prima.trade/post/supply-chain-finance-upgrade https://w
 give supply chain a voice by connecting workers directly to the consumer https://www.youtube.com/watch?v=XaNiqDJi7sE https://ctmfile.com/demos/view/13077 https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough https://www.es3g.com/post/worker-voice https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
 
 — \## Realtime ESG
+
+instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/ product sustainability modeling https://makersite.io/product-sustainability/
 
 T“Real-time ESG data is more difficult to greenwash” “supply chain is a significant source of ESG content” Tim Nicolle (n.d.)
 
@@ -291,13 +291,13 @@ Planet Factory
 
 — source of plastic waste https://sourceofplasticwaste.org/
 
-— iot
+## Internet of Things (IoT) {#internet-of-things-iot}
 
 “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.” https://www.fastcompany.com/90656749/greenwashing-ai https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973 https://planethome.eco/ https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
 
 —
 
-## Synthesise: {#synthesise}
+## Synthesise {#synthesise}
 
 Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglemerates with a massive CO2 footprint. See the index to find some alternatives.
 
@@ -309,7 +309,7 @@ Your shopping products mostly come from Protector and Gamble (3x) and Nestle. Th
 
 use personas to articulate assumptions
 
-— data-driven design
+## Data-Driven Design {#data-driven-design}
 
 — Rebuilt the app as a personalized, narrative lifestyle feed
 
@@ -321,6 +321,8 @@ https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
 
 ## Design Systems {#design-systems}
 
+Create a design system!!!! best to showcase my analytic skills
+
 https://www.invisionapp.com/inside-design/guide-to-design-systems/ https://www.designbetter.co/design-systems-handbook
 
 https://design.google/library/google-design-leadership-margaret-lee/ https://atomicdesign.bradfrost.com/
@@ -329,7 +331,9 @@ https://design.google/library/google-design-leadership-margaret-lee/ https://ato
 
 —- psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502 POAPs: https://cryptobriefing.com/what-are-poaps-and-why-should-you-collect-them/#:~:text=POAP%20(pronounced%20poh%2Dap),to%20be%20at%20the%20event.
 
-— through group purchases and community investing while also reducing consumption
+## Group Purchases {#group-purchases}
+
+through group purchases and community investing while also reducing consumption
 
 People want to help and make a difference. Give people things to do.
 
@@ -339,7 +343,9 @@ Find Your Composting Community
 
 Monoculture -&gt; regenerative food forests Oil -&gt; electri cars / bicycles
 
-— eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216 Evolution of design for sustainability: From product design to design for system innovations and transitions
+## Design Studies {#design-studies}
+
+eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216 Evolution of design for sustainability: From product design to design for system innovations and transitions
 
 ## Eco-Design {#eco-design}
 
@@ -361,7 +367,7 @@ Only 8.6% of world economy is circular https://www.circularity-gap.world/2022
 
 vaheta oma mööbel https://www.facebook.com/SMARTSWAP
 
-## Social Object {#social-object}
+## Social Objects {#social-objects}
 
 I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c and how the design can connect people to sustainable outcomes while shopping and investing. Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainabilty focus unfortunately…
 
@@ -378,7 +384,7 @@ I’m interested in the concept of a “social object” https://medium.com/we-r
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
-## Transparency {#transparency}
+## Transparency by Design {#transparency-by-design}
 
 https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transparency Accountability Advocate - 2 Compliance Data Aggregator - 3 Data Intelligence Hub - 4 Worker Voice Tool - https://www.tsgn.org/en/focus-areas/activities/worker-connect - 5 traceabilityy tooll - https://trustrace.com/ - 6 OPen data platform - 7 knowledge sharing platform - https://www.business-humanrights.org/en/
 
@@ -399,7 +405,11 @@ swedish open data portal https://www.dataportal.se/en
 
 Make open data easy to use in everyday life
 
-## Traceability {#traceability}
+## Interface Studies {#interface-studies}
+
+Head of Product Design at Webflow ((**davidhoangCreatingInterfaceStudies2022?**)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+
+## Traceability {#traceability-1}
 
 200 million pcs sold every yeear personalized ai, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
 
@@ -410,10 +420,6 @@ app shows traceability!!
 https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
 https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
-
-## Design System {#design-system}
-
-—- Create a design system!!!! best to showcase my analytic skills
 
 ## Speculative Design {#speculative-design}
 
@@ -429,7 +435,9 @@ speculative design use imagination
 
 societal movements change things: implivmcatuon for design, build a community
 
--   “People buy experiences, not technology.”
+## Experience Design {#experience-design}
+
+“People buy experiences, not technology.”
 
 — Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
@@ -441,6 +449,6 @@ Mobile-first Provides a community for pooling money with like-minded investors S
 
 In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
-## References {#references .unnumbered}
+# References {#references .unnumbered}
 
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.

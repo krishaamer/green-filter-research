@@ -1,8 +1,10 @@
 ---
-title: AI Companions
+title: Designing AI Companions for Young Adults
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
+editor:
+    render-on-save: true
 ---
 
 ``` mdx-code-block
@@ -198,6 +200,8 @@ Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/1
 
 # AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
+------------------------------------------------------------------------
+
 ## Interaction Design {#interaction-design-1}
 
 — What is interaction design? https://www.interaction-design.org/literature/topics/interaction-design
@@ -315,7 +319,7 @@ https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar http
 
 Bill Gates predicted “personal agents that help us get a variety of tasks” https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
 
-— Suggestions: don’t buy a car. like bolt?
+Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*.”* - *“Use a refillable shampoo bottle to save XYZ plastic pollution”* - *“Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”*
 
 —
 
@@ -370,7 +374,33 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ vehicles to invest in. This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience. What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
 
-## References {#references .unnumbered}
+# Young Adults {#young-adults}
+
+How to be relevant for a younger audience?
+
+## Population {#population}
+
+8 Billion people on the planet as of writing.
+
+## Storytelling and Narrative Design {#storytelling-and-narrative-design}
+
+Bring together film school experience with design…
+
+Does branding also go here?
+
+| №   | Company        | Link                       |
+|-----|----------------|----------------------------|
+| 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
+Older research on young adults (Millenials at the time) highlights how Millenials “use Google as a reference point for ease of use and simplicity” (Kate Moran (2016)). The rising availability of AI assistants however may displace Google search with a more conversational UX. Indeed, Google itself is working on smarter tools to displace their own main product, as exemplified by Google Assistant and large investments into LLMs.
+
+## Stickyness {#stickyness}
+
+## Community {#community}
+
+“Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.” https://www.tradingcardsarecoolagain.com/#toc https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/ https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/ https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/ https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
+
+# References {#references .unnumbered}
 
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
@@ -390,6 +420,8 @@ Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*
 Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
 
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
+
+Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
 
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
 

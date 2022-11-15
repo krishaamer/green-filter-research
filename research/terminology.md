@@ -40,3 +40,7 @@ CO2e - CO2 equivalent
 GHG - Greenhause gases
 
 PD - Participatory Design
+
+Hedge Fund - pooled investment fund
+
+DAO - Decentralized Autonomous Organization
