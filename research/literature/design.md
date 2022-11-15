@@ -2,14 +2,22 @@
 title: Design for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 5
+sidebar_position: 1
 editor:
     render-on-save: true
 ---
 
 # Design for Sustainability {#design-for-sustainability}
 
-Sustainability encompasses all human activites, making a complete overview challenging.
+Sustainability encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
+
+## Population {#population}
+
+In November 2022, Planet Earth’s population reached 8 Billion people ((**theeconomictimesClimateChangeEarth?**))
+
+Projections show 9 Billion by 2050
+
+title: Sustainability
 
 ## Make a ‘sustainability flywheel’ graphic, like that of amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 

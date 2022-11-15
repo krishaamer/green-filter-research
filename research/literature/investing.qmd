@@ -1,8 +1,8 @@
 ---
-title: Sustainable Shopping, Saving and Investing
+title: Design for Sustainable Shopping, Saving and Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 3
+sidebar_position: 2
 editor:
     render-on-save: true
 ---
@@ -12,13 +12,21 @@ import Figure from '/src/components/Figure'
 import Strava from '../images/strava.png'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
+
 ```
+
+# Money
+
+Money connects all industries.
 
 # ESG Shopping
 
 "changing our relationship with money"
 
 # Countering Greenwashing
+
+In the USA: _"If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are."_ says Gary Gensler, head of U.S. Securities and Exchange Commission. @ussecuritiesandexchangecommissionOfficeHoursGary2022
+
 
 The European Unions has proposed legislation to counter greenwashing.
 
@@ -29,6 +37,11 @@ Laws against greenwashing
 | №   | Company                                                                       | Link                                     |
 | --- | ------------------- | ------------------------------------------- |
 | 1   | Ocean Protocol         | https://oceanprotocol.com/     |
+
+
+## Financial Inclusion
+
+@TAN202046 proposes _“financial ecologies”_ to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
 ## Product Databases
 

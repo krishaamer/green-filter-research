@@ -1,8 +1,8 @@
 ---
-title: Sustainable Shopping, Saving and Investing
+title: Design for Sustainable Shopping, Saving and Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 3
+sidebar_position: 2
 editor:
     render-on-save: true
 ---
@@ -14,11 +14,17 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 
+# Money {#money}
+
+Money connects all industries.
+
 # ESG Shopping {#esg-shopping}
 
 “changing our relationship with money”
 
 # Countering Greenwashing {#countering-greenwashing}
+
+In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission. (**ussecuritiesandexchangecommissionOfficeHoursGary2022?**)
 
 The European Unions has proposed legislation to counter greenwashing.
 
@@ -29,6 +35,10 @@ Laws against greenwashing
 | №   | Company        | Link                       |
 |-----|----------------|----------------------------|
 | 1   | Ocean Protocol | https://oceanprotocol.com/ |
+
+## Financial Inclusion {#financial-inclusion}
+
+(**TAN202046?**) proposes *“financial ecologies”* to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
 ## Product Databases {#product-databases}
 
@@ -414,7 +424,7 @@ https://thaifintech.org/members/
 
 —
 
-# Money {#money}
+# Money {#money-1}
 
 (**AntGroup?**)’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* via (**richardturrin?**)
 
