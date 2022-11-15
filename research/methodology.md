@@ -3,6 +3,8 @@ title: Methodology
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 4
+editor:
+    render-on-save: true
 ---
 
 ``` mdx-code-block
@@ -12,6 +14,15 @@ import Methodology from './images/research-methodology.png'
 ```
 
 # Methodology {#methodology}
+
+| №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
+|----|-------------------|-----------------------------|---|------------------|
+| 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
+| 2   | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
+| 3   | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
+| 4   | Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
+| 5   | XYZ                  | Expert Interview  |                                                                                |                                                        |
+| 6   | ABC                  | User Survey       |                                                                                |                                                        |
 
 Your Green Helper
 
@@ -60,19 +71,19 @@ start with everyday questions:
 
 ## Researh Through Design {#researh-through-design}
 
-— design research books https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= https://www.sciencedirect.com/journal/design-studies
+— design research books - https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true - https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= - https://www.sciencedirect.com/journal/design-studies
 
 —
 
-research through design as a method https://dl.acm.org/doi/abs/10.1145/1240624.1240704
+research through design as a method - https://dl.acm.org/doi/abs/10.1145/1240624.1240704
 
-Research through design as a method for interaction design research in HCI https://dl.acm.org/doi/10.1145/1240624.1240704
+Research through design as a method for interaction design research in HCI - https://dl.acm.org/doi/10.1145/1240624.1240704
 
-https://stratechery.com/
+-   https://stratechery.com/
 
-— research question https://blogs.aalto.fi/writingaboutdesign/2020/11/30/how-to-define-a-research-question-or-a-design-problem/
+— research question - https://blogs.aalto.fi/writingaboutdesign/2020/11/30/how-to-define-a-research-question-or-a-design-problem/
 
-https://www.amazon.com/UX-Research-Practical-Techniques-Designing-ebook/dp/B01N9BZ060/ref=sr_1\_1?crid=1U2HFSS1221L5&keywords=Brad+Nunnally+%2C&qid=1663099104&s=digital-text&sprefix=brad+nunnally+%2C%2Cdigital-text%2C284&sr=1-1&asin=B01N9BZ060&revisionId=9e4c1870&format=1&depth=1
+-   https://www.amazon.com/UX-Research-Practical-Techniques-Designing-ebook/dp/B01N9BZ060/ref=sr_1\_1?crid=1U2HFSS1221L5&keywords=Brad+Nunnally+%2C&qid=1663099104&s=digital-text&sprefix=brad+nunnally+%2C%2Cdigital-text%2C284&sr=1-1&asin=B01N9BZ060&revisionId=9e4c1870&format=1&depth=1
 
 —
 
@@ -94,10 +105,12 @@ https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=5989
 
 “In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn’t change. This is a phenomenon called the intention-action gap.”
 
-https://medium.com/(**tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c?**)
+-   https://medium.com/(**tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c?**)
 
 -   
+
 -   What would you like to see more of in the future?
+
 -   What would you like to see less of in the future? —-
 
 —- küsimused —- kas sa elad? —- tulevikus, minevikus, praeguses hetkes? —- include some personality quiz in the survey?
@@ -106,7 +119,7 @@ Survey questions: \* What are some things you do to achieve sustainability in yo
 
 Write your investment thesis first. What is your investment thesis?
 
-“research for design”. design research is about expanding opportunities and exploration https://www.youtube.com/watch?v=WY9j_t570LY https://www.youtube.com/watch?v=7niJ2a6HTBo https://www.youtube.com/watch?v=C4i-\_9FybS4
+“research for design”. design research is about expanding opportunities and exploration - https://www.youtube.com/watch?v=WY9j_t570LY - https://www.youtube.com/watch?v=7niJ2a6HTBo - https://www.youtube.com/watch?v=C4i-\_9FybS4
 
 — Questions. - Where do you think consumers need the most help with? - How to help young people get started with investing? - How to assess the sustainability footprint of an asset - How much do you trust ESG? - What are some questions I should be asking but are not here?
 

@@ -8,6 +8,8 @@ editor:
 ---
 
 # Design for Sustainability
+
+## Introduction
 Sustainability encompasses all human activites, making a **_design for sustainability_** an over-arching challenge across all industries.
 
 ## Population
@@ -17,6 +19,18 @@ In November 2022, Planet Earth's population reached 8 Billion people (@theeconom
 Projections show 9 Billion by 2050
 
 title: Sustainability
+
+
+## Overconsumption
+
+Overconsumption is one of the root causes of climate change and marine plastic pollution. @FORD2022150392 suggest linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
+
+
+## Fossil Fuels and Energy
+
+There's evidence from several countries suggesting moving to renewal energy brings benefits:
+
+- @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
 
 
 ## Make a 'sustainability flywheel' graphic, like that of amazon's
@@ -34,12 +48,6 @@ Europe rapidly losing its forest carbon sink:
 https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
 
 Burning of biomass undermines carbon capture
-
-## Greenwashing
-https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw
-https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
-https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
-
 
 ## History
 
@@ -100,6 +108,11 @@ https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch
 https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul
 https://www.climatebonds.net/about/team/krista-tukiainen
 
+https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw
+https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
+https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
+
+
 —-
 sec on greenwashing
 
@@ -113,9 +126,7 @@ tipping points
 https://www.theguardian.com/environment/2022/sep/08/world-on-brink-five-climate-tipping-points-study-finds
 
 
-
 ## European Green Deal
-
 https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
 https://en.wikipedia.org/wiki/European_Green_Deal
 https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/
@@ -506,8 +517,6 @@ use personas to articulate assumptions
 
 ## Data-Driven Design
 
-
-—
 Rebuilt the app as a personalized, narrative lifestyle feed
 
 
@@ -695,7 +704,8 @@ Neri Oxman's expressions:
 speculative design
 use imagination
 
-societal movements change things: implivmcatuon for design, build a community
+- Societal movements change things: implication for design: build a community
+- Processes sustain things: implication for design: built an app
 
 ## Experience Design
 “People buy experiences, not technology.”

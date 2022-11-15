@@ -150,8 +150,6 @@ One example of *nudge* are the small UI updates released by Google across its po
 
 finance and culture https://alfalfa.capital/
 
--   https://opensea.io/collection/top-taiwan-influencers *for yougn people investing mostly means buying crypto*
-
 — Crypto investment clubs https://app.syndicate.io/clubs
 
 — social + nfts
@@ -239,7 +237,7 @@ CO2e calculations will be part of our everyday experience
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
 
-## Here be dragons {#here-be-dragons}
+## Human-AI Interaction {#human-ai-interaction}
 
 https://www.youtube.com/watch?v=YXE58XRWhh4
 
@@ -251,7 +249,17 @@ https://www.youtube.com/watch?v=2mfUZcYfFjw
 
 Singer et al. (2022) describes how collecting billions of images with descriptive data (for example the html *alt* text) has enabled researchers to train AI models such as *stable diffusion* that can generate images based on human-language keywords.
 
-## Voice UI {#voice-ui}
+## Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
+
+m1finance
+
+https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
+
+— focus on voice? and education?
+
+Bill Gates predicted “personal agents that help us get a variety of tasks” https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
+
+Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*.”* - *“Use a refillable shampoo bottle to save XYZ plastic pollution”* - *“Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”*
 
 Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
 
@@ -309,18 +317,6 @@ https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-r
 
 — ai heallth https://twitter.com/larkhealth?lang=en
 
-## Voice Assistant Guidelines {#voice-assistant-guidelines}
-
-m1finance
-
-https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
-
-— focus on voice? and education?
-
-Bill Gates predicted “personal agents that help us get a variety of tasks” https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
-
-Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*.”* - *“Use a refillable shampoo bottle to save XYZ plastic pollution”* - *“Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”*
-
 —
 
 https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
@@ -359,7 +355,7 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 — bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
 
-— Clippy was among the first assistants to reach mainstream adoption. https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e
+— Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer ((**tashkeunemanWeLoveHate2022?**))
 
 — sustainable ai itself https://link.springer.com/article/10.1007/s43681-021-00043-6
 
@@ -370,19 +366,17 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 | 1   | Replika | Avatar, Emotion, Video Call, Audio |
 | 2   | Siri    | Audio                              |
 
-### Summary {#summary}
+## Young Adults {#young-adults}
 
-The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ vehicles to invest in. This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience. What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
+(**RooneyVargaClimateActionSimulation2019?**) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
 
-# Young Adults {#young-adults}
+https://opensea.io/collection/top-taiwan-influencers *for young people, investing mostly means buying cryptocurrencies*
+
+“Action on climate change has been compromised by uncertainty, aspects of human psychology” (**10.1093/biosci/biw025?**)
 
 How to be relevant for a younger audience?
 
-## Population {#population}
-
-8 Billion people on the planet as of writing.
-
-## Storytelling and Narrative Design {#storytelling-and-narrative-design}
+### Storytelling and Narrative Design {#storytelling-and-narrative-design}
 
 Bring together film school experience with design…
 
@@ -394,13 +388,17 @@ Does branding also go here?
 
 Older research on young adults (Millenials at the time) highlights how Millenials “use Google as a reference point for ease of use and simplicity” (Kate Moran (2016)). The rising availability of AI assistants however may displace Google search with a more conversational UX. Indeed, Google itself is working on smarter tools to displace their own main product, as exemplified by Google Assistant and large investments into LLMs.
 
-## Stickyness {#stickyness}
+### Stickyness {#stickyness}
 
-## Community {#community}
+### Community {#community}
 
-“Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.” https://www.tradingcardsarecoolagain.com/#toc https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/ https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/ https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/ https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
+“Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.” - https://www.tradingcardsarecoolagain.com/#toc - https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/ - https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/ - https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/ - https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
 
-# References {#references .unnumbered}
+## Summary {#summary}
+
+The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ vehicles to invest in. This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience. What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
+
+## References {#references .unnumbered}
 
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 

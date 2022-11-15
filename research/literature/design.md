@@ -9,6 +9,8 @@ editor:
 
 # Design for Sustainability {#design-for-sustainability}
 
+## Introduction {#introduction}
+
 Sustainability encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
 
 ## Population {#population}
@@ -18,6 +20,16 @@ In November 2022, Planet Earth’s population reached 8 Billion people ((**theec
 Projections show 9 Billion by 2050
 
 title: Sustainability
+
+## Overconsumption {#overconsumption}
+
+Overconsumption is one of the root causes of climate change and marine plastic pollution. (**FORD2022150392?**) suggest linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+
+## Fossil Fuels and Energy {#fossil-fuels-and-energy}
+
+There’s evidence from several countries suggesting moving to renewal energy brings benefits:
+
+-   (**AMIN2022113224?**) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 
 ## Make a ‘sustainability flywheel’ graphic, like that of amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 
@@ -32,10 +44,6 @@ The true cost of products is hidden. The work is hidden.
 Europe rapidly losing its forest carbon sink: https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
 
 Burning of biomass undermines carbon capture
-
-## Greenwashing {#greenwashing}
-
-https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
 
 ## History {#history}
 
@@ -67,9 +75,11 @@ https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscho
 
 “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
 
-## Greenwashing {#greenwashing-1}
+## Greenwashing {#greenwashing}
 
 greenwashing AI https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
+
+https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
 
 —- sec on greenwashing
 
@@ -319,7 +329,7 @@ use personas to articulate assumptions
 
 ## Data-Driven Design {#data-driven-design}
 
-— Rebuilt the app as a personalized, narrative lifestyle feed
+Rebuilt the app as a personalized, narrative lifestyle feed
 
 — design for recycling https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth “rethinking product design and inspiring consumers to expect more from their devices”
 
@@ -441,7 +451,8 @@ Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother na
 
 speculative design use imagination
 
-societal movements change things: implivmcatuon for design, build a community
+-   Societal movements change things: implication for design: build a community
+-   Processes sustain things: implication for design: built an app
 
 ## Experience Design {#experience-design}
 

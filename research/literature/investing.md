@@ -18,11 +18,11 @@ import Bunq from '../images/bunq.jpg'
 
 Money connects all industries.
 
-# ESG Shopping {#esg-shopping}
+## ESG Shopping {#esg-shopping}
 
 “changing our relationship with money”
 
-# Countering Greenwashing {#countering-greenwashing}
+## Countering Greenwashing {#countering-greenwashing}
 
 In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission. (**ussecuritiesandexchangecommissionOfficeHoursGary2022?**)
 
@@ -68,7 +68,9 @@ https://messari.io/article/from-burning-bridges-to-allbridges
 
 AI alert: e“The company you’ve purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation”.
 
-—- cruelty free brands
+## Ethics and Cruelty {#ethics-and-cruelty}
+
+cruelty free brands
 
 rank companies based on sustainability
 
@@ -86,7 +88,9 @@ investing
 
 Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
 
-— overconsumption https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+## Overconsumption {#overconsumption}
+
+https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
 
 https://www.wri.org/insights/how-build-circular-economy
 
@@ -94,7 +98,9 @@ https://www.wri.org/insights/how-build-circular-economy
 
 “ establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
 
-— leafscore for product https://www.leafscore.com/
+## Scoring {#scoring}
+
+leafscore for product https://www.leafscore.com/
 
 —
 
@@ -136,7 +142,7 @@ individual climate action!!! https://twitter.com/kristiansn89/status/15781229161
 
 https://www.sciencedirect.com/science/article/abs/pii/S0921800922000301
 
-# Ratings {#ratings}
+## Ratings {#ratings}
 
 — ethical consumer ratings https://www.ethicalconsumer.org/
 
@@ -150,9 +156,7 @@ Ethical Shopping
 
 ## Real World Data {#real-world-data}
 
-—
-
-o bank carbon calculator (brasil)
+-   o bank carbon calculator (brasil)
 
 “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle Debit Card”
 
@@ -175,6 +179,14 @@ https://www.taiwannews.com.tw/en/news/4492308
 “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.” https://www.sec.gov/news/statement/peirce-blockfi-20220214
 
 ## Food {#food}
+
+(**ROOS2023107623?**) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+1.  *“The diagnostic perspective: All hands on deck to fix the climate”*
+2.  *“The regenerative perspective: Diversity, soil health and organic agriculture to the rescue”*
+3.  *“The fossil-free perspective: Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”*
+4.  *“The consumer-driven perspective: A wish-list of healthy, high-quality and climate-friendly foods”*
+5.  \_ “The hands-on perspective: Tangible solutions within the reach of consumers and the food industry”\_
 
 — where to shop rankings for groceries
 
@@ -232,7 +244,7 @@ policy request: https://textileexchange.org/trade-policy-request-cop26/
 
 ## Payments {#payments}
 
-— https://grenpay.com/et
+https://grenpay.com/et
 
 -   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
 
@@ -424,7 +436,7 @@ https://thaifintech.org/members/
 
 —
 
-# Money {#money-1}
+## Money {#money-1}
 
 (**AntGroup?**)’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* via (**richardturrin?**)
 
@@ -440,7 +452,7 @@ https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
 
 — consumer debt in the usa
 
-# ESG Investing {#esg-investing}
+## ESG Investing {#esg-investing}
 
 My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).
 
@@ -470,19 +482,19 @@ Not delivering on it’s hopes https://citywireasia.com/news/is-esg-in-crisis-or
 
 best esg https://www.investors.com/news/esg-companies-list-best-esg-stocks-environmental-social-governance-values/
 
-# Analysis {#analysis}
+## Analysis {#analysis}
 
 — messari: investor eduation, information assymetry
 
-# Regenerative Investing” {#regenerative-investing}
+## Regenerative Investing” {#regenerative-investing}
 
 https://www.naturalinvestments.com/what-is-sri-investing/regenerative-investing/ https://www.youtube.com/watch?v=rzaELkN\_-wo
 
-# Regenerative Finance” {#regenerative-finance}
+## Regenerative Finance” {#regenerative-finance}
 
 https://www.forbes.com/sites/christophermarquis/2021/09/07/rsf-is-leading-the-way-in-moving-from-impact-investing-to-regenerative-finance/?sh=49157e8c14f5
 
-# Robot Advisors {#robot-advisors}
+## Robo-Advisors {#robo-advisors}
 
 Finance Marcus Invest by Goldman Sachs https://finance.yahoo.com/news/goldman-sachss-marcus-invest-bets-against-the-game-stop-trend-215811218.html Tomorrow Bank https://apps.apple.com/de/app/app-store/id1377689068 https://www.tomorrow.one/de-DE/ small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546 financial empowerment small cash apps like african makret https://chippercash.com/
 
@@ -514,7 +526,7 @@ https://www.bloomberg.com/news/features/2022-10-04/ greenwashing-enters-a-22-tri
 
 l
 
-## Community investing {#community-investing}
+## Community Investing {#community-investing}
 
 ## DAOs and Blockchain {#daos-and-blockchain}
 
