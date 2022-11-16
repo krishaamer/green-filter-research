@@ -13,6 +13,8 @@ editor:
 
 Sustainability encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
 
+“Global CO2 emissions from energy combustion and industrial processes1 rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes (Gt)” ((**ieaGlobalEnergyReview2022?**))
+
 ## Population {#population}
 
 In November 2022, Planet Earth’s population reached 8 Billion people ((**theeconomictimesClimateChangeEarth?**))
