@@ -115,6 +115,10 @@ In our investment AI advisor app’s scenario, the AI is scanning for opportunit
 
 Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
 
+### Amazon Alexa {#amazon-alexa}
+
+Alexa is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
+
 ### Interaction Design {#interaction-design}
 
 what is interaction design https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c
@@ -355,7 +359,7 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 — bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
 
-— Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer ((**tashkeunemanWeLoveHate2022?**))
+— Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022))
 
 — sustainable ai itself https://link.springer.com/article/10.1007/s43681-021-00043-6
 
@@ -368,7 +372,13 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 ## Young Adults {#young-adults}
 
-(**RooneyVargaClimateActionSimulation2019?**) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
+Most people in the US don’t act on climate change (Ross et al. (2016))
+
+Rooney-Varga et al. (2019) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
+
+Younger people show higher motivation (participants in climate protests)
+
+yet action remains low
 
 https://opensea.io/collection/top-taiwan-influencers *for young people, investing mostly means buying cryptocurrencies*
 
@@ -427,6 +437,10 @@ Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friend
 
 Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
 
+Rooney-Varga, J., Kapmeier, F., Sterman, J., Jones, A., Putko, M., & Rath, K. (2019). The climate action simulation. *Simulation & Gaming*, *51*, 104687811989064. <https://doi.org/10.1177/1046878119890643>
+
+Ross, L., Arrow, K., Cialdini, R., Diamond-Smith, N., Diamond, J., Dunne, J., Feldman, M., Horn, R., Kennedy, D., Murphy, C., Pirages, D., Smith, K., York, R., & Ehrlich, P. (2016). The climate change challenge and barriers to the exercise of foresight intelligence. *BioScience*, *66*(5), 363–370. <https://doi.org/10.1093/biosci/biw025>
+
 Saleema Amershi, Mihaela Vorvoreanu, & Eric Horvitz. (n.d.). Guidelines for human-AI interaction design. In *Microsoft Research*. https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/.
 
 Şerban, C., & Todericiu, I.-A. (2020). Alexa, what classes do I have today? The use of artificial intelligence via smart speakers in education. *Procedia Computer Science*, *176*, 2849–2857. <https://doi.org/10.1016/j.procs.2020.09.269>
@@ -441,6 +455,8 @@ Singer, U., Polyak, A., Hayes, T., Yin, X., An, J., Zhang, S., Hu, Q., Yang, H.,
 Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.stanford.edu/entries/turing-test/.
 
 Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the capabilities, limitations, and societal impact of large language models*. arXiv. <https://doi.org/10.48550/arxiv.2102.02503>
+
+Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *UX Collective*. https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e.
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 

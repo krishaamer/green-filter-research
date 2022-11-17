@@ -9,11 +9,19 @@ editor:
 
 # Design for Sustainability {#design-for-sustainability}
 
-## Introduction {#introduction}
+## What is Sustainability? {#what-is-sustainability}
 
-Sustainability encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
+*Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (Le Provost et al. (2022)).
 
-“Global CO2 emissions from energy combustion and industrial processes1 rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes (Gt)” ((**ieaGlobalEnergyReview2022?**))
+***Designing for Sustainability*** encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
+
+“Global CO2 emissions from energy combustion and industrial processes1 rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes (Gt” (IEA (2022))
+
+Growing public understanding of how nature works and intersects with our use of money.
+
+## Design for Circularity {#design-for-circularity}
+
+Dull, Deborah. Circular Supply Chain: 17 Common Questions (How Any Supply Chain Can Take the Next Step) . Amazon Kindle. Kindle Edition.
 
 ## Population {#population}
 
@@ -25,13 +33,13 @@ title: Sustainability
 
 ## Overconsumption {#overconsumption}
 
-Overconsumption is one of the root causes of climate change and marine plastic pollution. (**FORD2022150392?**) suggest linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) suggest linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
 ## Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
 There’s evidence from several countries suggesting moving to renewal energy brings benefits:
 
--   (**AMIN2022113224?**) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
+-   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 
 ## Make a ‘sustainability flywheel’ graphic, like that of amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 
@@ -427,7 +435,7 @@ Make open data easy to use in everyday life
 
 ## Interface Studies {#interface-studies}
 
-Head of Product Design at Webflow ((**davidhoangCreatingInterfaceStudies2022?**)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+Head of Product Design at Webflow (David Hoang (2022)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
 
 ## Traceability {#traceability-1}
 
@@ -466,10 +474,40 @@ Mobile App Design There’s a number of user interface design patterns that have
 
 Mobile-first Provides a community for pooling money with like-minded investors Social Educational Edutainment Fun Stories section like IG / app store Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers. Karina from Korea(aespa, 2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
+## Nudge {#nudge}
+
+The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: – Eriksson et al. (2023) – Acuti et al. (2023) – Perez-Cueto (2021) – Wee et al. (2021) – Guath et al. (2022) – Berger et al. (2022)
+
 ## Conclusion {#conclusion}
 
 In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References {#references .unnumbered}
 
+Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
+
+Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
+
+Berger, M., Lange, T., & Stahl, B. (2022). A digital push with real impact Mapping effective digital nudging elements to contexts to promote environmentally sustainable behavior. *Journal of Cleaner Production*, *380*, 134716. <https://doi.org/10.1016/j.jclepro.2022.134716>
+
+David Hoang. (2022). *Creating interface studies*. https://www.proofofconcept.pub/p/creating-interface-studies.
+
+Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
+
+Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
+
+Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online shopping Attraction effect curbs price sensitivity. *Journal of Environmental Psychology*, *81*, 101821. <https://doi.org/10.1016/j.jenvp.2022.101821>
+
+Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Braun.
+
+IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
+
+Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
+
+Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
+
+Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
+
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
+
+Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>

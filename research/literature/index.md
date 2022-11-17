@@ -16,8 +16,8 @@ import Literature from '/research/images/literature.png'
 
 The literature review maps out relationships between sustainability and AI interaction design. The reviewed content consists of 3 main sources:
 
--   Scientific papers (largely from ScienceDirect) related to sustainable investing and UX/UI
--   Mobile apps for Apple iOS / Google Android and web applications related to sustainable shopping, savings, and investing
+-   Scientific papers (largely from ScienceDirect) related to: – Sustainability, ecology, ecosystem services – Sustaimable investing, savings, circular economy – UX/UI, service design, sustainable design, speculative design, interaction design – Generation-Z demographics, behaviour change, nudge
+-   Review of Mobile apps (Apple iOS / Google Android) and web app related to: – Sustainable shopping apps, savings, and investing
 -   Apps using algorithimic interfaces (AI-based UI)
 
 | №   | Company        | Link                       |

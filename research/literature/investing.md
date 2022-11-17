@@ -24,7 +24,7 @@ Money connects all industries.
 
 ## Countering Greenwashing {#countering-greenwashing}
 
-In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission. (**ussecuritiesandexchangecommissionOfficeHoursGary2022?**)
+In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission. US Securities and Exchange Commission (2022)
 
 The European Unions has proposed legislation to counter greenwashing.
 
@@ -38,7 +38,7 @@ Laws against greenwashing
 
 ## Financial Inclusion {#financial-inclusion}
 
-(**TAN202046?**) proposes *“financial ecologies”* to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+Tan (2020) proposes *“financial ecologies”* to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
 ## Product Databases {#product-databases}
 
@@ -180,7 +180,7 @@ https://www.taiwannews.com.tw/en/news/4492308
 
 ## Food {#food}
 
-(**ROOS2023107623?**) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
 1.  *“The diagnostic perspective: All hands on deck to fix the climate”*
 2.  *“The regenerative perspective: Diversity, soil health and organic agriculture to the rescue”*
@@ -452,6 +452,14 @@ https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
 
 — consumer debt in the usa
 
+## Personalized Investing {#personalized-investing}
+
+2022 saw a wave of new platforms aiming to make investing easier for retail investors – https://republic.com/mainvest – https://republic.com/asaak – https://republic.com/stockcard – https://republic.com/maybefinance
+
+## Leadership {#leadership}
+
+“Many Business Leaders See Sustainability as Costly Obligation Rather Than Investment in the Future” (Capgemini (2022))
+
 ## ESG Investing {#esg-investing}
 
 My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).
@@ -620,6 +628,8 @@ Bhatia, A., Chandani, A., & Chhateja, J. (2020). Robo advisory and its potential
 
 Bunq. (2020). *Bunq*. https://www.bunq.com/benefits/metalcard.
 
+Capgemini. (2022). *A World in Balance Why sustainability ambition is not translating to action*.
+
 Cowan, G. (2018). Robo Advisers Start to Take Hold in Europe. *Wall Street Journal*.
 
 Doorn, P. van. (2020). 5 stocks that should thrive as the digital payments trend ramps up. In *MarketWatch*. https://www.marketwatch.com/story/5-stocks-that-should-thrive-as-this-digital-trend-ramps-up-2020-07-30.
@@ -662,8 +672,14 @@ PWC. (2020). 2022 - The growth opportunity of the century. In *PwC*. https://www
 
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
+Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
+
 Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. In *Jing Daily*. https://jingdaily.com/chinas-ultra-elite-personal-growth-is-more-valuable-than-luxury-products/.
 
+Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
+
 Unleash. (2017). Sebastian.ai. In *UNLEASH*.
+
+US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 
 Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.
