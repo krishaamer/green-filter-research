@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 ``` mdx-code-block
@@ -259,9 +259,8 @@ CO2e calculations will be part of our everyday experience
 
 ## Human-AI Interaction {#human-ai-interaction}
 
-https://www.youtube.com/watch?v=YXE58XRWhh4
-
-https://www.youtube.com/watch?v=2mfUZcYfFjw
+-   Harvard Advanced Leadership Initiative (2021)
+-   https://www.youtube.com/watch?v=2mfUZcYfFjw
 
 ## Calm Technology {#calm-technology}
 
@@ -321,7 +320,7 @@ The more people use a platform, the more valuable it becomes.
 
 — ai is usually a model that spits out a number between 0 and 1, a probablility score or prediction. ux is what we do with this number
 
-We love to hate Clippy — but what if Clippy was right? https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e
+“We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022)
 
 — natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
@@ -333,23 +332,17 @@ robot advisors https://www.youtube.com/watch?v=RnJkyo7N6qY&feature=youtu.be
 
 https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/ https://www.youtube.com/watch?v=Y47kjQvffPo https://arxiv.org/abs/2101.02555 https://www.efma.com/article/3300-fintech-friday-personetics https://clinc.com/chatbots-too-good-to-be-true/ https://atura.ai/docs/02-process/ https://blog.bavard.ai/how-financial-chatbots-can-benefit-your-business-eddacfa435d2 https://seedlegals.com/resources/magic-carpet-the-ai-investor-technology-transforming-hedge-fund-strategy/ https://www.researcher-app.com/paper/6684106 http://www.josephineheintzwaktare.com/cleo
 
-— myfitness pal, aintraining assistanr
-
 — ai heallth https://twitter.com/larkhealth?lang=en
 
-—
-
-https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
-
-!!!
-
-AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability?
+-   https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
 
 — “Dynamic interfaces might invoke a new design language for XR” https://www.proofofconcept.pub/p/welcome-to-dynamic-island-the-forerunner?ref=sidebar
 
 ## Algorithmic Transparency {#algorithmic-transparency}
 
-https://maggieappleton.com/algorithmic-transparency https://www.sciencedirect.com/science/article/abs/pii/S0747563220300984
+https://maggieappleton.com/algorithmic-transparency
+
+-   “user experience and usability of algorithms by focusing on users’ cognitive process to understand how qualities/features are received and transformed into experiences and interaction” Shin (2020)
 
 — replika
 
@@ -363,7 +356,14 @@ Conversational AI
 
 ## AI Acceptance {#ai-acceptance}
 
-https://www.sciencedirect.com/science/article/abs/pii/S0969698921004446 https://www.sciencedirect.com/science/article/pii/S2352250X22001014 https://www.sciencedirect.com/science/article/abs/pii/S0747563221000029 https://www.sciencedirect.com/science/article/abs/pii/S1071581921000252
+-   “AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety.” Yuan et al. (2022)
+-   “Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior.” Gratch & Fast (2022)
+-   Anthropomorphism literature Li & Sung (2021) “high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly”
+-   AI-assistants in medical imaging Calisto et al. (2021)
+
+!!!
+
+AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? myfitness pal, aintraining assistanr
 
 ## AI-Assisted Design {#ai-assisted-design}
 
@@ -388,7 +388,7 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 ## Young Adults {#young-adults}
 
-Most people in the US don’t act on climate change (Ross et al. (2016))
+Most people in the US don’t act on climate change ((**rossClimateChangeChallenge2016?**))
 
 Rooney-Varga et al. (2019) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
 
@@ -398,7 +398,7 @@ yet action remains low
 
 https://opensea.io/collection/top-taiwan-influencers *for young people, investing mostly means buying cryptocurrencies*
 
-“Action on climate change has been compromised by uncertainty, aspects of human psychology” (**10.1093/biosci/biw025?**)
+“Action on climate change has been compromised by uncertainty, aspects of human psychology” Ross et al. (2016)
 
 How to be relevant for a younger audience?
 
@@ -435,9 +435,15 @@ Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe 
 
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
 
+Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2021). Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification. *International Journal of Human-Computer Studies*, *150*, 102607. <https://doi.org/10.1016/j.ijhcs.2021.102607>
+
 Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
+
+Gratch, J., & Fast, N. J. (2022). The power to harm: AI assistants pave the way to unethical behavior. *Current Opinion in Psychology*, *47*, 101382. <https://doi.org/10.1016/j.copsyc.2022.101382>
+
+Harvard Advanced Leadership Initiative. (2021). *Human-AI Interaction: From Artificial Intelligence to Human Intelligence Augmentation*.
 
 Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
 
@@ -446,6 +452,8 @@ Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. http
 Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
 
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
+
+Li, X., & Sung, Y. (2021). Anthropomorphism brings us closer: The mediating role of psychological distance in User assistant interactions. *Computers in Human Behavior*, *118*, 106680. <https://doi.org/10.1016/j.chb.2021.106680>
 
 Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., Newman, B., Yuan, B., Yan, B., Zhang, C., Cosgrove, C., Manning, C. D., Ré, C., Acosta-Navas, D., Hudson, D. A., … Koreeda, Y. (2022). *Holistic Evaluation of Language Models* (No. arXiv:2211.09110). arXiv. <https://arxiv.org/abs/2211.09110>
 <span class="csl-block">Comment: Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Project page: https://crfm.stanford.edu/helm/v1.0</span>
@@ -456,7 +464,7 @@ Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings w
 
 Rooney-Varga, J., Kapmeier, F., Sterman, J., Jones, A., Putko, M., & Rath, K. (2019). The climate action simulation. *Simulation & Gaming*, *51*, 104687811989064. <https://doi.org/10.1177/1046878119890643>
 
-Ross, L., Arrow, K., Cialdini, R., Diamond-Smith, N., Diamond, J., Dunne, J., Feldman, M., Horn, R., Kennedy, D., Murphy, C., Pirages, D., Smith, K., York, R., & Ehrlich, P. (2016). The climate change challenge and barriers to the exercise of foresight intelligence. *BioScience*, *66*(5), 363–370. <https://doi.org/10.1093/biosci/biw025>
+Ross, L., Arrow, K., Cialdini, R., Diamond-Smith, N., Diamond, J., Dunne, J., Feldman, M., Horn, R., Kennedy, D., Murphy, C., Pirages, D., Smith, K., York, R., & Ehrlich, P. (2016). The Climate Change Challenge and Barriers to the Exercise of Foresight Intelligence. *BioScience*, *66*(5), 363–370. <https://doi.org/10.1093/biosci/biw025>
 
 Saleema Amershi, Mihaela Vorvoreanu, & Eric Horvitz. (n.d.). Guidelines for human-AI interaction design. In *Microsoft Research*. https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/.
 
@@ -464,6 +472,8 @@ Saleema Amershi, Mihaela Vorvoreanu, & Eric Horvitz. (n.d.). Guidelines for huma
 <span class="csl-block">Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020</span>
 
 Shenoi, S. (2018). Participatory design and the future of interaction design. In *Medium*. https://uxdesign.cc/participatory-design-and-the-future-of-interaction-design-81a11713bbf.
+
+Shin, D. (2020). How do users interact with algorithm recommender systems? The interaction of users, algorithms, and performance. *Computers in Human Behavior*, *109*, 106344. <https://doi.org/10.1016/j.chb.2020.106344>
 
 Shin, D., Zhong, B., & Biocca, F. (2020). Beyond user experience: What constitutes algorithmic experiences? *International Journal of Information Management*, *52*, 102061. <https://doi.org/10.1016/j.ijinfomgt.2019.102061>
 
@@ -484,6 +494,8 @@ Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfa
 Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
 
 Women in AI. (n.d.). How can AI assistants help patients monitor their health? In *Spotify*. https://open.spotify.com/episode/3dL4m7ciCY0tnirZT2emzs.
+
+Yuan, C., Zhang, C., & Wang, S. (2022). Social anxiety as a moderator in consumer willingness to accept AI assistants based on utilitarian and hedonic values. *Journal of Retailing and Consumer Services*, *65*, 102878. <https://doi.org/10.1016/j.jretconser.2021.102878>
 
 Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVID19: A review. *Sustainable Operations and Computers*, *3*, 249–257. <https://doi.org/10.1016/j.susoc.2022.05.002>
 

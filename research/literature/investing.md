@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 ``` mdx-code-block
@@ -47,6 +47,10 @@ The world’s largest database for sustainability standards “We provide free, 
 Trends https://standardsmap.org/en/trends
 
 https://world.openfoodfacts.org/ https://product.okfn.org/ https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes https://en.wikipedia.org/wiki/International_Article_Number https://gtinsearch.org/ https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea world product database https://www3.wipo.int/wipogreen/en/ https://www.packworld.com/
+
+## Green Innovation {#green-innovation}
+
+Li et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
 
 ## Packaging {#packaging}
 
@@ -138,9 +142,9 @@ consume pressure to advance ESG regulatory standards to add a baseline esg dyman
 
 individual climate action!!! https://twitter.com/kristiansn89/status/1578122916159520769 Give gen-z the tools to turn climate anger into positive change to transform companies
 
-— “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the “carbon footprint”, championed in a 2004 advertising campaign by British Petroleum (Cherry and Sneirson, 2011). “ https://www.sciencedirect.com/science/article/pii/S0006320722002087?via%3Dihub
+— “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the “carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Cherry & Sneirson (2010) in Lavers et al. (2022)
 
-https://www.sciencedirect.com/science/article/abs/pii/S0921800922000301
+– Greener modes of mobility: Echeverría et al. (2022)
 
 ## Ratings {#ratings}
 
@@ -198,7 +202,7 @@ less impact of food https://techcrunch.com/2022/08/11/kuri-app/ https://www.reut
 
 — Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
-—
+## Food Sovereignty {#food-sovereignty}
 
 “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
 
@@ -300,7 +304,7 @@ https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-
 |----|
 | sneakers made from coffee https://twitter.com/RensOriginal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | \## Factories Carbon-neutral factories “made in carbon-neutral factory” list of products https://www.weforum.org/agenda/2022/01/carbon-neutral-manufacturing-possible-net-zero/ https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories https://www.ingenco2.dk/ https://www.youtube.com/watch?v=ArPmrvyF5yA                                                                                                                                                                                                                                                                                                                                                                                       |
-| \## Sustainable Shopping https://www.sciencedirect.com/science/article/abs/pii/S0195666321005237 https://www.sciencedirect.com/science/article/abs/pii/S0969698918310476 https://www.sciencedirect.com/science/article/abs/pii/S0167811615001408                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| \## Sustainable Shopping - sustainable shopping guide (Weber (2021)) - package free shopping (Fuentes et al. (2019)) - “status motives make people publicly display sustainable behavior” (van der Wal et al. (2016))                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | \## Fast Fashion \* Free clothes \* generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sust fashion brands                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8#myft:notification:daily-email:content https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287 https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html https://infinitedfiber.com/ https://www.cleantech.com/the-global-cleantech-100/                                                                                                                                                                                                                                                                                                                                                                           |
 | Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -474,7 +478,13 @@ Finnish investing app https://www.selma.com/
 
 “More than half of the Swiss banks apparently plan to offer digital assets services over the next few years.” https://www.swissinfo.ch/eng/swiss–crypto-valley–boasts-14–unicorns-/47291870
 
-Improving ESG Accessibility — financial ai https://www.sciencedirect.com/science/article/abs/pii/0925231295000194 https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
+Improving ESG Accessibility
+
+## Financial AI {#financial-ai}
+
+-   Malliaris & Salchenberger (1996)
+
+https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
 
 — Consumption is ruining the world the world thinking as an investor the investor mindset
 
@@ -490,7 +500,7 @@ https://thaifintech.org/members/
 
 ## Money {#money-1}
 
-(**AntGroup?**)’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* via (**richardturrin?**)
+Ant Group’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* in Turrin (2021)
 
 — https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/ https://www.happonomy.org/sustainable-money-system/
 
@@ -498,9 +508,7 @@ https://makemymoneymatter.co.uk
 
 https://seekingalpha.com/article/4381215-5-books-changed-life-investor?gclid=EAIaIQobChMIq_XV8fee9QIVxqmWCh0S_wMGEAAYASAAEgKoHfD_BwE&utm_campaign=14823831578&utm_medium=cpc&utm_source=google&utm_term=128719140158%5Edsa-1427141793820%5E%5E549166468498%5E%5E%5Eg
 
-https://1e9.community/
-
-https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
+https://1e9.community/ https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
 
 — consumer debt in the usa
 
@@ -684,9 +692,13 @@ Capgemini. (2022). *A World in Balance Why sustainability ambition is not transl
 
 Capponi, A., Ólafsson, S., & Zariphopoulou, T. (2019). *Personalized Robo-Advising : An Interactive Investment Process*.
 
+Cherry, M. A., & Sneirson, J. F. (2010). Beyond profit: Rethinking corporate social responsibility and greenwashing after the BP oil disaster. *Tul. L. Rev.*, *85*, 983.
+
 Cowan, G. (2018). Robo Advisers Start to Take Hold in Europe. *Wall Street Journal*.
 
 Doorn, P. van. (2020). 5 stocks that should thrive as the digital payments trend ramps up. In *MarketWatch*. https://www.marketwatch.com/story/5-stocks-that-should-thrive-as-this-digital-trend-ramps-up-2020-07-30.
+
+Echeverría, L., Gimenez-Nadal, J. I., & Molina, J. A. (2022). Green mobility and well-being. *Ecological Economics*, *195*, 107368. <https://doi.org/10.1016/j.ecolecon.2022.107368>
 
 Euronext. (2020). *Euronext launches suite of ESG products and services to empower sustainable growth*. https://www.euronext.com/en/about/media/euronext-press-releases/euronext-launches-suite-esg-products-and-services-empower.
 
@@ -697,6 +709,8 @@ European Parliament. (2014). *Directive 2014/65/EU: Vols. OJ L* (No. 32014L0065)
 European Securities and Markets Authority. (2017). *MiFID II*. https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir.
 
 Fotheringham, N. (2017). *How To Create A Greener Investment Portfolio*. https://www.huffingtonpost.ca/nikki-fotheringham/green-investment-portfolio_b\_15779446.html.
+
+Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
 
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
@@ -714,9 +728,15 @@ Kirakosian, M. (Noveber 16, 2020). LOIM launches circular bioeconomy fund inspir
 
 Lagerkvist, C. J., Edenbrandt, A. K., Tibbelin, I., & Wahlstedt, Y. (2020). Preferences for sustainable and responsible equity funds - A choice experiment with Swedish private investors. *Journal of Behavioral and Experimental Finance*, *28*, 100406. <https://doi.org/10.1016/j.jbef.2020.100406>
 
+Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
+
 LHV. (2020). *Microinvestment with Growth Account*.
 
+Li, M., Li, N., Khan, M. A., Khaliq, N., & Rehman, F. U. (2022). Can retail investors induce corporate green innovation? -Evidence from Baidu Search Index. *Heliyon*, *8*(6), e09663. <https://doi.org/10.1016/j.heliyon.2022.e09663>
+
 Lingeswaran, S. (2019). *Levelling up: Shattering myths about philanthropy in Asia*. https://www.campdenfb.com/article/levelling-shattering-myths-about-philanthropy-asia.
+
+Malliaris, M., & Salchenberger, L. (1996). Using neural networks to forecast the S&P 100 implied volatility. *Neurocomputing*, *10*(2), 183–195. <https://doi.org/10.1016/0925-2312(95)00019-4>
 
 McKeough, T. (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. In *Architectural Digest*. https://www.architecturaldigest.com/story/mckinsey-design-consulting-group-confirms-the-importance-of-design-to-business.
 
@@ -736,9 +756,15 @@ Swedbank. (n.d.). *EasySaver*.
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
 
+Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority Publishing.
+
 Unleash. (2017). Sebastian.ai. In *UNLEASH*.
 
 US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
+
+van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
+
+Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 

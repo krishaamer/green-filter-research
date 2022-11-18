@@ -351,10 +351,8 @@ Some have an avatar, some not. I've created a framwork for categorization. Human
 | 3   | Google Search      | https://www.google.com/     |
 | 4   | Google Interview Warmup     | https://grow.google/certificates/interview-warmup/  | AI training tool
 
-
 Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably
 Google Flights suggests fligts with lower CO2 emissions
-
 
 CO2e calculations will be part of our everyday experience
 
@@ -364,17 +362,13 @@ CO2e calculations will be part of our everyday experience
 ```
 
 ## Human-AI Interaction
-
-
-https://www.youtube.com/watch?v=YXE58XRWhh4
-
-https://www.youtube.com/watch?v=2mfUZcYfFjw
+- @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
+- https://www.youtube.com/watch?v=2mfUZcYfFjw
 
 ## Calm Technology
 
 
 ## Generative AI
-
 @Singer2022MakeAVideoTG describes how collecting billions of images with descriptive data (for example the html _alt_ text) has enabled researchers to train AI models such as _stable diffusion_ that can generate images based on human-language keywords.
 
 
@@ -420,10 +414,7 @@ writing as training data? large language models. GTP3
 
 
 ## Retail Investor Helpers
-
-
 Nubanks, also known as challenger banks.
-
 
 | №   | Company          | Link                                     |
 | --- | ------------------- | ------------------------------------------- |
@@ -431,7 +422,6 @@ Nubanks, also known as challenger banks.
 | 1   | Robinhood        | https://oceanprotocol.com/     |
 | 1   | SPARQAN        | https://oceanprotocol.com/     |
 | 1   | SPARQAN        | https://oceanprotocol.com/     |
-
 
 ### The UX of AI
 https://interactions.acm.org/archive/view/january-february-2021/ux-designers-pushing-ai-in-the-enterprise
@@ -457,8 +447,7 @@ The more people use a platform, the more valuable it becomes.
 —
 ai is usually a model that spits out a number between 0 and 1, a probablility score or prediction. ux is what we do with this number
 
-We love to hate Clippy — but what if Clippy was right?
-https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e
+"We love to hate Clippy — but what if Clippy was right?" @tashkeunemanWeLoveHate2022
 
 —
 natural language chatbots
@@ -475,7 +464,6 @@ https://www.youtube.com/watch?v=RnJkyo7N6qY&feature=youtu.be
 
 
 ## Chatbots
-
 https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/
 https://www.youtube.com/watch?v=Y47kjQvffPo
 https://arxiv.org/abs/2101.02555
@@ -488,22 +476,13 @@ https://www.researcher-app.com/paper/6684106
 http://www.josephineheintzwaktare.com/cleo
 
 —
-myfitness pal, aintraining assistanr
-
-—
 ai heallth
 https://twitter.com/larkhealth?lang=en
 
 
-—
-
-
+-
 https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
 
-
-!!!
-
-AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability?
 
 —
 “Dynamic interfaces might invoke a new design language for XR”
@@ -511,7 +490,8 @@ https://www.proofofconcept.pub/p/welcome-to-dynamic-island-the-forerunner?ref=si
 
 ## Algorithmic Transparency
 https://maggieappleton.com/algorithmic-transparency
-https://www.sciencedirect.com/science/article/abs/pii/S0747563220300984
+
+- "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction" @shinHowUsersInteract2020
 
 —
 replika
@@ -529,14 +509,18 @@ https://clipdrop.co/
 
 Conversational AI
 
-
-
 ## AI Acceptance
+- "AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety." @yuanSocialAnxietyModerator2022
+- "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." @gratchPowerHarmAI2022
+- Anthropomorphism literature @liAnthropomorphismBringsUs2021 "high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly" 
+- AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
 
-https://www.sciencedirect.com/science/article/abs/pii/S0969698921004446
-https://www.sciencedirect.com/science/article/pii/S2352250X22001014
-https://www.sciencedirect.com/science/article/abs/pii/S0747563221000029
-https://www.sciencedirect.com/science/article/abs/pii/S1071581921000252
+
+!!!
+
+AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability?
+myfitness pal, aintraining assistanr
+
 
 ## AI-Assisted Design 
 https://renumics.com/blog/what-is-ai-assisted-design
@@ -545,7 +529,6 @@ https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-lands
 https://blog.prototypr.io/ai-powered-tools-for-web-designers-adc97530a7f0
 https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe
 https://medium.com/illumination/stop-using-jasper-art-use-the-new-canva-ai-image-generator-video-f91a33ed9c15
-
 
 —
 ai design testing
@@ -576,7 +559,6 @@ https://charisma.ai/register
 
 
 ## Young Adults
-
 Most people in the US don't act on climate change (@rossClimateChangeChallenge2016)
 
 @RooneyVargaClimateActionSimulation2019 shows the effictiveness of **_The Climate Action Simulation_** in educating users about success scenarios.
@@ -589,8 +571,7 @@ https://opensea.io/collection/top-taiwan-influencers
 *for young people, investing mostly means buying cryptocurrencies*
 
 
-"Action on climate change has been compromised by uncertainty, aspects of human psychology" @10.1093/biosci/biw025
-
+"Action on climate change has been compromised by uncertainty, aspects of human psychology" @rossClimateChangeChallenge2016a
 
 How to be relevant for a younger audience?
 
@@ -616,7 +597,6 @@ Older research on young adults (Millenials at the time) highlights how Millenial
 - https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/
 - https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/
 - https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
-
 
 ## Summary
 The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ vehicles to invest in. This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience. What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.

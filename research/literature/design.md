@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 # Design for Sustainability {#design-for-sustainability}
@@ -36,7 +36,7 @@ Projections show 9 Billion by 2050
 
 ## Overconsumption {#overconsumption}
 
-Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) suggest linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
 ## Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
@@ -187,17 +187,13 @@ https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64
 
 ## Carbon Inequality {#carbon-inequality}
 
-https://www.nature.com/articles/s41893-022-00955-z
+-   “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it” Chancel (2022)
 
 ## Sustainable Design {#sustainable-design}
 
-“Handbook of Footwear Design and Manufacture”
+“Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021))
 
-Chapter 18 - Green design
-
-https://www.sciencedirect.com/science/article/pii/B9780128216064000181
-
-— it’s possible to curb greenwashing!
+it’s possible to curb greenwashing!
 
 ## Intensive Farming Practices {#intensive-farming-practices}
 
@@ -235,9 +231,9 @@ social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon#:~:tex
 
 There’s evidence paying landovners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
 
-Han & Chen (2022) identifies nature-based ssolutions “land re-naturalization (such as afforestation and wetland restoration)”
+-   Han & Chen (2022) identifies nature-based ssolutions “land re-naturalization (such as afforestation and wetland restoration)”
 
-ecosystem services https://www.sciencedirect.com/science/article/pii/S2772375522000545 https://www.sciencedirect.com/science/article/pii/S0261517722001431
+-   Noriega et al. (2018) attempts to quantify tthe ecosystem services (ES) provided by insects. While it can be assusmed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
 
 ## Regeneration {#regeneration}
 
@@ -435,7 +431,7 @@ eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/
 
 Again, AI has the potential to provide the parameters for sustainability.
 
-AI tool is developed for deciding the suitable life cycle design parameters https://www.sciencedirect.com/science/article/abs/pii/S0957417422017146
+-   AI tool is developed for deciding the suitable life cycle design parameters (Singh & Sarkar (2023))
 
 ## Circular Economy {#circular-economy}
 
@@ -564,6 +560,8 @@ Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon p
 
 Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
 
+Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
+
 Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of green transformation of the European Union countries. *Ecological Indicators*, *136*, 108601. <https://doi.org/10.1016/j.ecolind.2022.108601>
 
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
@@ -605,7 +603,11 @@ Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s g
 
 Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
 
+Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
+
 Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
+
+Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
 Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
 
@@ -624,6 +626,8 @@ Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologi
 
 Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
+Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
+
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
@@ -636,6 +640,8 @@ Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental susta
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
 
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
+
+Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
 
