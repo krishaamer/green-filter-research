@@ -21,15 +21,14 @@ Growing public understanding of how nature works and intersects with our use of 
 
 ## Design for Circularity {#design-for-circularity}
 
-Dull, Deborah. Circular Supply Chain: 17 Common Questions (How Any Supply Chain Can Take the Next Step) . Amazon Kindle. Kindle Edition.
+-   McDonough & Braungart (2002)
+-   Dull (2021)
 
 ## Population {#population}
 
 In November 2022, Planet Earth’s population reached 8 Billion people ((**theeconomictimesClimateChangeEarth?**))
 
 Projections show 9 Billion by 2050
-
-title: Sustainability
 
 ## Overconsumption {#overconsumption}
 
@@ -69,9 +68,11 @@ Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnb
 
 ## Disasters {#disasters}
 
-— disasters Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
+Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
 
-— scalable climate solutions
+## Scalable Climate Solutions {#scalable-climate-solutions}
+
+…
 
 ## The State of Nationally Determined Contributions: 2022 {#the-state-of-nationally-determined-contributions-2022}
 
@@ -96,6 +97,10 @@ https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-p
 https://twitter.com/jeancase/status/1499348539838771208?s=21
 
 social media greenwashing harvard paper
+
+## Carbon Labelling {#carbon-labelling}
+
+CO2 label for consumer products have been proposed for a long time (Adam Corner (2012)). While academic literature has looked at minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)), the idea is yet to find mainstream adoption. Although labeling low CO2 food enables people to choose a *climatarian diet*, their impact on the market share of low-carbon meals is negible (Lohmann et al. (2022)).
 
 ## Climate Change {#climate-change}
 
@@ -203,9 +208,29 @@ Digital Receipts to be able to track your carbon footprint https://apps.apple.co
 
 carbon price https://apnews.com/article/science-climate-and-environment-government-politics-4c1e8783694201355f88012079367f27
 
-social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon#:~:text=The%20social%20cost%20of%20carbon%20is%20a%20calculation%20focused%20on,CO%202%20(%2FtCO%202). https://news.stanford.edu/2021/06/07/professors-explain-social-cost-carbon/ https://www.sciencedirect.com/science/article/pii/S0301479722015663 https://www.sciencedirect.com/science/article/pii/S0095069621000334 https://www.sciencedirect.com/science/article/pii/S014098831930218X https://www.sciencedirect.com/science/article/pii/S1876610218307884 https://www.sciencedirect.com/science/article/pii/B9780128228647000087 https://www.sciencedirect.com/science/article/pii/S0160412022003580 https://www.sciencedirect.com/science/article/pii/S0095069622000560 https://www.sciencedirect.com/science/article/pii/S2667319322000088 https://www.sciencedirect.com/science/article/pii/S1738573321005738 https://www.sciencedirect.com/science/article/pii/S0269749122011022 https://www.sciencedirect.com/science/article/pii/S2212041622000080 https://www.sciencedirect.com/science/article/pii/S1364032122002222 https://www.sciencedirect.com/science/article/pii/S0048969722039390 https://www.sciencedirect.com/science/article/pii/S2666790822000027 https://www.sciencedirect.com/science/article/pii/S0921800922000994 https://www.sciencedirect.com/science/article/pii/S0140988321005636 https://www.sciencedirect.com/science/article/pii/S0095069622000365 https://www.sciencedirect.com/science/article/pii/S0301479722006673 https://www.sciencedirect.com/science/article/pii/S2589004222005077 https://www.sciencedirect.com/science/article/pii/S1674927822000430 https://www.sciencedirect.com/science/article/pii/S2405880722000048 https://www.sciencedirect.com/science/article/pii/S2352484722006709 https://www.sciencedirect.com/science/article/pii/S0360544221021277 https://www.sciencedirect.com/science/article/pii/S0959652622035193 https://www.sciencedirect.com/science/article/pii/S0301479722000792 https://www.sciencedirect.com/science/article/pii/S2666278722000046 https://www.sciencedirect.com/science/article/pii/S1040619022000938 https://www.sciencedirect.com/science/article/pii/S0360544222018953 https://www.sciencedirect.com/science/article/pii/S0304393221001033 https://www.sciencedirect.com/science/article/pii/S0160412021006553 https://www.sciencedirect.com/science/article/pii/S0959378022000681 https://www.sciencedirect.com/science/article/abs/pii/S0959378022000243 https://www.sciencedirect.com/science/article/pii/S2214629622001347
+social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon#:~:text=The%20social%20cost%20of%20carbon%20is%20a%20calculation%20focused%20on,CO%202%20(%2FtCO%202). https://news.stanford.edu/2021/06/07/professors-explain-social-cost-carbon/
+
+-   “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” (Kornek et al. (2021); Zhen et al. (2018)) with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
+
+-   carbon-neutral economy needs higher CO2 prices (Stern (2022))
+
+-   oceans play crucial role in carbon capture (Howard et al. (2017))
+
+-   Carbon prices are highly asymmetric (Ritz (2022))
+
+-   Apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability (Lin et al. (2022))
+
+-   As shown in the Phillipines by Cheng & Han (2022), with increasing extreme weather events, “businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards”
+
+-   In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.” Jerrett et al. (2022)
+
+-   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarious of climate damage
 
 ## Ecosystem Services {#ecosystem-services}
+
+There’s evidence paying landovners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
+
+Han & Chen (2022) identifies nature-based ssolutions “land re-naturalization (such as afforestation and wetland restoration)”
 
 ecosystem services https://www.sciencedirect.com/science/article/pii/S2772375522000545 https://www.sciencedirect.com/science/article/pii/S0261517722001431
 
@@ -323,7 +348,9 @@ Planet Factory
 
 “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.” https://www.fastcompany.com/90656749/greenwashing-ai https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973 https://planethome.eco/ https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
 
-—
+## Shopping Design {#shopping-design}
+
+Recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products (*Cargo Bike \| FREITAG* (n.d.)).
 
 ## Synthesise {#synthesise}
 
@@ -377,11 +404,22 @@ eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/
 
 ## Eco-Design {#eco-design}
 
-“On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
+“On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” (European Parliament (2022))
 
-https://www.europarl.europa.eu/RegData/etudes/BRIE/2022/733524/EPRS_BRI(2022)733524_EN.pdf https://europa.eu/youreurope/business/product-requirements/compliance/ecodesign/index_en.htm
-
-https://www.sciencedirect.com/science/article/abs/pii/S0048969721045812 https://www.sciencedirect.com/science/article/abs/pii/S2352554122001310 https://www.sciencedirect.com/science/article/abs/pii/S2352550921003791 https://www.sciencedirect.com/science/article/abs/pii/S0048969721066432 https://www.sciencedirect.com/science/article/pii/S2212827122007272 https://www.sciencedirect.com/science/article/pii/B9780128198179000181 https://www.sciencedirect.com/science/article/pii/S2352550921003298 https://www.sciencedirect.com/science/article/pii/S0959652622028396 https://www.sciencedirect.com/science/article/pii/S2212827122001378 https://www.sciencedirect.com/science/article/pii/S1462901122001654 https://www.sciencedirect.com/science/article/pii/S0959652622013518 https://www.sciencedirect.com/science/article/pii/S1470160X22000723 https://www.sciencedirect.com/science/article/pii/S095965262200138X https://www.sciencedirect.com/science/article/pii/S2212827122000440
+-   Manzardo et al. (2021)
+-   Iñarra et al. (2022)
+-   Munaro et al. (2022)
+-   Bassani et al. (2022)
+-   Duriez et al. (2022)
+-   Van Doorsselaer (2022)
+-   de Otazu et al. (2022)
+-   Nuez et al. (2022)
+-   Rossi et al. (2022)
+-   Tiernan et al. (2022)
+-   Arranz et al. (2022)
+-   Cheba et al. (2022)
+-   Ruiz-Pastor et al. (2022)
+-   Miyoshi et al. (2022)
 
 Again, AI has the potential to provide the parameters for sustainability.
 
@@ -453,6 +491,10 @@ https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-t
 
 “Speculative Design” for a sustainability assistant
 
+-   Barendregt & Vaage (2021)
+-   Google Design (2019)
+-   (**anthonydunneSpeculativeEverything2013?**)
+
 — all green categories — Green hub — Ask the user to prioritize
 
 Neri Oxman, biomaterials MIT media lab, 15. sept. 2020 —
@@ -486,28 +528,105 @@ In unison, the technologies and practices reviwed above move us closer to enabli
 
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
+Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
+
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
+
+Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
+
+Barendregt, L., & Vaage, N. S. (2021). Speculative design as thought experiment. *She Ji: The Journal of Design, Economics, and Innovation*, *7*(3), 374–402. <https://doi.org/10.1016/j.sheji.2021.06.001>
+
+Bassani, F., Rodrigues, C., Marques, P., & Freire, F. (2022). Ecodesign approach for pharmaceutical packaging based on Life Cycle Assessment. *Science of The Total Environment*, *816*, 151565. <https://doi.org/10.1016/j.scitotenv.2021.151565>
 
 Berger, M., Lange, T., & Stahl, B. (2022). A digital push with real impact Mapping effective digital nudging elements to contexts to promote environmentally sustainable behavior. *Journal of Cleaner Production*, *380*, 134716. <https://doi.org/10.1016/j.jclepro.2022.134716>
 
+Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
+
+*Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
+
+Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of green transformation of the European Union countries. *Ecological Indicators*, *136*, 108601. <https://doi.org/10.1016/j.ecolind.2022.108601>
+
+Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
+
 David Hoang. (2022). *Creating interface studies*. https://www.proofofconcept.pub/p/creating-interface-studies.
+
+de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M., Minguez, R., & Lizundia, E. (2022). Ecodesign coupled with Life Cycle Assessment to reduce the environmental impacts of an industrial enzymatic cleaner. *Sustainable Production and Consumption*, *29*, 718–729. <https://doi.org/10.1016/j.spc.2021.11.016>
+
+Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
+
+Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
+<span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
+European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
+
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
+
+Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
 
 Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online shopping Attraction effect curbs price sensitivity. *Journal of Environmental Psychology*, *81*, 101821. <https://doi.org/10.1016/j.jenvp.2022.101821>
 
+Han, W., & Chen, W. Y. (2022). Embedding nature-based solutions into the social cost of carbon. *Environment International*, *167*, 107431. <https://doi.org/10.1016/j.envint.2022.107431>
+
 Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Braun.
+
+Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon, E. (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, *27*, 100–115. <https://doi.org/10.1002/aqc.2809>
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
 
+Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M., & Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, *28*, 100727. <https://doi.org/10.1016/j.scp.2022.100727>
+
+Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s greenhouse gas reductions could be wiped out by 2020 wildfires. *Environmental Pollution*, *310*, 119888. <https://doi.org/10.1016/j.envpol.2022.119888>
+
+Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
+
 Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
+
+Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
+
+Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
+
+Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
+
+McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
+Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
+<span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
+
+Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologies to achieve buildings’ deconstruction: A review and framework. *Sustainable Production and Consumption*, *30*, 566–583. <https://doi.org/10.1016/j.spc.2021.12.032>
+
+Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
+Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
+
+Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental sustainability: Collect and use company information to design green products. *Procedia CIRP*, *105*, 823–828. <https://doi.org/10.1016/j.procir.2022.02.136>
+<span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
+
+Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
+
+Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
+
+Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
+
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
+Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
+
+Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular economy. In A. Stefanakis & I. Nikolaou (Eds.), *Circular economy and sustainability* (pp. 189–205). Elsevier. <https://doi.org/10.1016/B978-0-12-819817-9.00018-1>
+
+Wang, T.-P., & Teng, F. (2022). A multi-model assessment of climate change damage in China and the world. *Advances in Climate Change Research*, *13*(3), 385–396. <https://doi.org/10.1016/j.accre.2022.04.005>
+
+Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, *321*, 115993. <https://doi.org/10.1016/j.jenvman.2022.115993>
+
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
+
+Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, *97*, 106902. <https://doi.org/10.1016/j.eiar.2022.106902>
+
+Zhen, Z., Tian, L., & Ye, Q. (2018). A simple estimate for the social cost of carbon. *Energy Procedia*, *152*, 768–773. <https://doi.org/10.1016/j.egypro.2018.09.243>
+
+Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>
