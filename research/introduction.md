@@ -41,6 +41,8 @@ Consumer lifestyle contributes to environmental destruction:
 
 -   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Generation Z owns smartphone Global Web Index (2017)
 
+-   The latest IPCC report
+
 -   Only 30% believe tech can solve all problems. https://review42.com/resources/gen-z-statistics/
 
 https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/

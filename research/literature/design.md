@@ -88,19 +88,19 @@ https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscho
 
 ## Greenwashing {#greenwashing}
 
-greenwashing AI https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
+Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not.
+
+A number of new AI-based solutions aim to find instancessof greenwashing https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
 
 https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
 
-—- sec on greenwashing
-
-https://twitter.com/jeancase/status/1499348539838771208?s=21
+Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
 social media greenwashing harvard paper
 
 ## Carbon Labelling {#carbon-labelling}
 
-CO2 label for consumer products have been proposed for a long time (Adam Corner (2012)). While academic literature has looked at minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)), the idea is yet to find mainstream adoption. Although labeling low CO2 food enables people to choose a *climatarian diet*, their impact on the market share of low-carbon meals is negible (Lohmann et al. (2022)).
+CO2 label for consumer products have been proposed for a long time (Adam Corner (2012)). While academic literature has looked at minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption. There’s some evidence to suggest, although labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible(Lohmann et al. (2022)). Asioli et al. (2022) find differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label whereas French consumers chose CO2 labeled meat products. Edenbrandt & Lagerkvist (2022) in Sweden found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
 
 ## Climate Change {#climate-change}
 
@@ -532,7 +532,11 @@ Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guard
 
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
 
+André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
+
 Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
+
+Asioli, D., Fuentes-Pila, J., Alarcón, S., Han, J., Liu, J., Hocquette, J.-F., & Nayga, R. M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, *112*, 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>
 
 Barendregt, L., & Vaage, N. S. (2021). Speculative design as thought experiment. *She Ji: The Journal of Design, Economics, and Innovation*, *7*(3), 374–402. <https://doi.org/10.1016/j.sheji.2021.06.001>
 
@@ -543,6 +547,8 @@ Berger, M., Lange, T., & Stahl, B. (2022). A digital push with real impact Mappi
 Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
 
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
+
+Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
 
 Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of green transformation of the European Union countries. *Ecological Indicators*, *136*, 108601. <https://doi.org/10.1016/j.ecolind.2022.108601>
 
@@ -556,6 +562,8 @@ Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply cha
 
 Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
 <span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
+
+Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
@@ -616,6 +624,8 @@ Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Ste
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
+
+US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 
 Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular economy. In A. Stefanakis & I. Nikolaou (Eds.), *Circular economy and sustainability* (pp. 189–205). Elsevier. <https://doi.org/10.1016/B978-0-12-819817-9.00018-1>
 
