@@ -19,6 +19,10 @@ editor:
 
 Growing public understanding of how nature works and intersects with our use of money.
 
+## Digital Product Passports {#digital-product-passports}
+
+The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
+
 ## Design for Circularity {#design-for-circularity}
 
 -   McDonough & Braungart (2002)
@@ -26,7 +30,7 @@ Growing public understanding of how nature works and intersects with our use of 
 
 ## Population {#population}
 
-In November 2022, Planet Earth’s population reached 8 Billion people ((**theeconomictimesClimateChangeEarth?**))
+In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022))
 
 Projections show 9 Billion by 2050
 
@@ -100,7 +104,7 @@ social media greenwashing harvard paper
 
 ## Carbon Labelling {#carbon-labelling}
 
-CO2 label for consumer products have been proposed for a long time (Adam Corner (2012)). While academic literature has looked at minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption. There’s some evidence to suggest, although labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible(Lohmann et al. (2022)). Asioli et al. (2022) find differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label whereas French consumers chose CO2 labeled meat products. Edenbrandt & Lagerkvist (2022) in Sweden found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
+Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). While academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption. although there’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible(Lohmann et al. (2022)). Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by Edenbrandt & Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
 
 ## Climate Change {#climate-change}
 
@@ -604,6 +608,8 @@ Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kond
 
 Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologies to achieve buildings’ deconstruction: A review and framework. *Sustainable Production and Consumption*, *30*, 566–583. <https://doi.org/10.1016/j.spc.2021.12.032>
 
+Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
+
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
@@ -618,6 +624,8 @@ Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental susta
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
+
+The Economic Times. (2022). *Climate change: Earth at 8 billion: Consumption not crowd is key to climate*. https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
 
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
 
