@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 ```{=mdx}
@@ -40,7 +40,6 @@ Laws against greenwashing
 
 
 ## Financial Inclusion
-
 @TAN202046 proposes _“financial ecologies”_ to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
 ## Product Databases
@@ -49,7 +48,6 @@ The world’s largest database for sustainability standards
 "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics."
 https://howgood.com/
 https://standardsmap.org/en/home
-
 
 Trends
 https://standardsmap.org/en/trends
@@ -63,6 +61,9 @@ https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal
 world product database
 https://www3.wipo.int/wipogreen/en/
 https://www.packworld.com/
+
+## Green Innovation
+@liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises’ green innovation level"
 
 
 ## Packaging
@@ -150,7 +151,6 @@ https://cordis.europa.eu/project/id/688364/results
 https://ec.europa.eu/research-and-innovation/en/horizon-magazine/apps-can-tell-you-if-youre-buying-sustainably
 
 
-
 TODO
 
 Online Shopping impact. Single's day, etc. Impossible to turn the tide?
@@ -196,15 +196,9 @@ Give gen-z the tools to turn climate anger into positive change to transform com
 
 
 —
-“Like climate change, the focus on individual actions as a solution is
-often misplaced, though it remains a focus of media and industry. For
-decades, the petrochemical industry has offloaded responsibility onto
-individuals through promoting concepts such as the “carbon footprint”,
-championed in a 2004 advertising campaign by British Petroleum
-(Cherry and Sneirson, 2011). “
-https://www.sciencedirect.com/science/article/pii/S0006320722002087?via%3Dihub
+“Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the “carbon footprint”, championed in a 2004 advertising campaign by British Petroleum" @cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022
 
-https://www.sciencedirect.com/science/article/abs/pii/S0921800922000301
+-- Greener modes of mobility: @echeverriaGreenMobilityWellbeing2022
 
 
 ## Ratings
@@ -294,7 +288,7 @@ https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-
 — Carbon Food Labels 
 https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
-—
+## Food Sovereignty
 
 “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
 

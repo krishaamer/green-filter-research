@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 ```{=mdx}
