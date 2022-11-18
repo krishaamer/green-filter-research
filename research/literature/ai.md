@@ -53,6 +53,8 @@ The advance of LLMs (Tamkin et al. (2021))
 
 The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
 
+There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
+
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
 ## Personalized Artificial Intelligence (AI) Interaction Design (IxD) {#personalized-artificial-intelligence-ai-interaction-design-ixd}
@@ -109,7 +111,7 @@ The most successful businesses today (as measured in terms of the number of user
 
 ### Speculative Design {#speculative-design}
 
-The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book (Anthony Dunne & Fiona Raby (2013)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book ((**anthonydunneSpeculativeEverything2013?**)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
 In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
@@ -118,6 +120,8 @@ Professional financial advisors use automated tools to analyze data and present 
 ### Amazon Alexa {#amazon-alexa}
 
 Alexa is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
+
+Companies like NeuralLink are building devices to build meaningful interactions from braing waves (EEG). New findings enable computers to reconstruct language from fMRI readings (Tang et al. (2022))
 
 ### Interaction Design {#interaction-design}
 
@@ -147,6 +151,18 @@ One example of *nudge* are the small UI updates released by Google across its po
 | 2   | Google Flights | Show CO2 emissions                   |
 
 “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report
+
+## AI for diagnosic symptoms {#ai-for-diagnosic-symptoms}
+
+https://apps.apple.com/app/id1099986434?l=en
+
+https://www.buoyhealth.com/ https://en.wikipedia.org/wiki/CADUCEUS\_(expert_system)
+
+Women in AI (n.d.)
+
+## light out manufacturing {#light-out-manufacturing}
+
+https://www.machinemetrics.com/blog/lights-out-manufacturing https://www.supplychainmovement.com/self-driving-supply-chains-are-within-reach/
 
 — DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/
 
@@ -415,8 +431,6 @@ Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform S
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J., Kikin-Gil, R., & Horvitz, E. (2019, May). Guidelines for human-AI interaction. *CHI 2019*.
 <span class="csl-block">CHI 2019 Honorable Mention Award</span>
 
-Anthony Dunne, & Fiona Raby. (2013). *Speculative Everything*. MIT Press.
-
 Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe XD Ideas*.
 
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
@@ -432,6 +446,9 @@ Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. http
 Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
 
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
+
+Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., Newman, B., Yuan, B., Yan, B., Zhang, C., Cosgrove, C., Manning, C. D., Ré, C., Acosta-Navas, D., Hudson, D. A., … Koreeda, Y. (2022). *Holistic Evaluation of Language Models* (No. arXiv:2211.09110). arXiv. <https://arxiv.org/abs/2211.09110>
+<span class="csl-block">Comment: Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Project page: https://crfm.stanford.edu/helm/v1.0</span>
 
 Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friendlier Biological Future. In *Fast Company*. https://www.fastcompany.com/3051140/daisy-ginsberg-is-natures-most-deadly-synthetic-designer.
 
@@ -456,6 +473,8 @@ Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.st
 
 Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the capabilities, limitations, and societal impact of large language models*. arXiv. <https://doi.org/10.48550/arxiv.2102.02503>
 
+Tang, J., LeBel, A., Jain, S., & Huth, A. G. (2022). *Semantic reconstruction of continuous language from non-invasive brain recordings* \[Preprint\]. Neuroscience. <https://doi.org/10.1101/2022.09.29.509744>
+
 Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *UX Collective*. https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e.
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
@@ -463,6 +482,8 @@ The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
 
 Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
+
+Women in AI. (n.d.). How can AI assistants help patients monitor their health? In *Spotify*. https://open.spotify.com/episode/3dL4m7ciCY0tnirZT2emzs.
 
 Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVID19: A review. *Sustainable Operations and Computers*, *3*, 249–257. <https://doi.org/10.1016/j.susoc.2022.05.002>
 
