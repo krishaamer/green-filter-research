@@ -129,7 +129,6 @@ Although there’s some evidence to suggest labeling low CO2 food enables people
 ## Climate Change {#climate-change}
 
 -   Tipping points Armstrong McKay et al. (2022)
--   
 
 ## European Green Deal {#european-green-deal}
 
@@ -137,7 +136,7 @@ https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en h
 
 It’s up to legislators to provide sustainable products on our marketplace… but unttiil we do, use tthe green filterr
 
-—- one of the eu goals is reducing comsumption tacking your consumption habits
+—- - One of the eu goals is reducing comsumption - Tacking your consumption habits
 
 ## Minimalism {#minimalism}
 
@@ -209,7 +208,7 @@ https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64
 
 -   “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it” Chancel (2022)
 
-## Sustainable Design {#sustainable-design}
+## Sustainable Fashion and Textile Design {#sustainable-fashion-and-textile-design}
 
 European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). Globally 87% of textile products are burned or landfilled after 1st consumer use (Köhler et al. (2021)). In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
 
@@ -217,7 +216,11 @@ Nonetheless, EPR schemes do not guarantee circularity and may instead be designe
 
 There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021))
 
+Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing ecodesign “respects the boundaries of our planet” European Commission (2022)
+
 ## Food {#food}
+
+Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
 
 *Intensive Farming Practices*
 
@@ -277,11 +280,11 @@ https://www.regen.network/ https://blogs.microsoft.com/blog/2021/01/28/one-year-
 
 Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 
-air pollution https://www.theguardian.com/science/2022/sep/10/cancer-breakthrough-is-a-wake-up-call-on-danger-of-air-pollution
+Grounbreaking research by Lim et al. (2022) analysed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer.
 
-people live in the polluted areas are so used to it. what app to wake them up.
+-   Prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.” (Hannah Devlin (2022))
 
-“you live in a highly polluted area. here’s what you can do”
+*Design*: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s what you can do”*
 
 ## Supply Chains {#supply-chains}
 
@@ -302,6 +305,8 @@ The blockchain supply chain companies as of October 2022 include:
 Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
 
 https://www.taeltech.com/ https://golden.com/wiki/WaltonChain\_(cryptocurrency)-EAVDZX4 https://www.bext360.com/ https://fairfood.org/en/blockchain/
+
+The International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008 (Matthew Gore et al. (2022)).
 
 ## Traceability {#traceability}
 
@@ -613,6 +618,8 @@ Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitude
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
+European Commission. (2022). *Green Deal: New proposals to make sustainable products the norm and boost Europe’s resource independence*. https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013.
+
 European Environment Agency. (2022). *Textiles and the environment: The role of design in Europe’s circular economy*.
 
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
@@ -628,6 +635,8 @@ Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a ne
 Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online shopping Attraction effect curbs price sensitivity. *Journal of Environmental Psychology*, *81*, 101821. <https://doi.org/10.1016/j.jenvp.2022.101821>
 
 Han, W., & Chen, W. Y. (2022). Embedding nature-based solutions into the social cost of carbon. *Environment International*, *167*, 107431. <https://doi.org/10.1016/j.envint.2022.107431>
+
+Hannah Devlin. (2022). Cancer breakthrough is a “wake-up” call on danger of air pollution. In *The Guardian*. https://www.theguardian.com/science/2022/sep/10/cancer-breakthrough-is-a-wake-up-call-on-danger-of-air-pollution.
 
 Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Braun.
 
@@ -653,6 +662,8 @@ Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., 
 
 Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
+Lim, E., Hill, W., Lee, C., Weeden, C. E., Augustine, M., Chen, K., Kuan, F. C., Marongiu, F., Evans, E., Moore, D., Ryu, M. H., Luchtenborg, M., Lavelle, K., Carlsten, C., Malanchi, I., Hackshaw, A., Litchfield, K. R., Degregori, J., Jamal-Hanjani, M., & Swanton, C. (2022). 1MO Air pollution-induced non-small cell lung cancer: Towards molecular cancer prevention. *Annals of Oncology*, *33*, S1383. <https://doi.org/10.1016/j.annonc.2022.09.002>
+
 Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
 
 Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
@@ -660,6 +671,8 @@ Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon f
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
 
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
+
+Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
 McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
 
@@ -688,6 +701,8 @@ Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental susta
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
 
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
+
+Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
 
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
