@@ -15,9 +15,13 @@ editor:
 
 ***Designing for Sustainability*** encompasses all human activites, making a ***design for sustainability*** an over-arching challenge across all industries.
 
-“Global CO2 emissions from energy combustion and industrial processes1 rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes (Gt” (IEA (2022))
+“Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes” (IEA (2022))
+
+Latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR) show …
 
 Growing public understanding of how nature works and intersects with our use of money.
+
+Copernicus reveals new green house emissions previously undetected: https://sverigesradio.se/avsnitt/nya-satelliter-avslojar-dolda-utslapp-av-vaxthusgaser
 
 ## Digital Product Passports {#digital-product-passports}
 
@@ -30,11 +34,9 @@ The European Commision has proposed a *Digital Product Passports* to help compan
 
 ## Population {#population}
 
-In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022))
+In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)) and is projected to reach 8.5B in 2030 and 9.7B in 2050(United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, the effect is more from wasteful lifestyles than the number of people (FIND CITATION).
 
-Projections show 9 Billion by 2050
-
-## Overconsumption {#overconsumption}
+## Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
 
 Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
@@ -45,7 +47,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 -   Considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective (Low et al. (2022))
 
-## Make a ‘sustainability flywheel’ graphic, like that of amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
+## Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 
 The true cost of products is hidden. The work is hidden.
 
@@ -61,13 +63,11 @@ Burning of biomass undermines carbon capture
 
 ## History {#history}
 
-— father of climatology, isotheerms https://isotherms.simply.earth/?utm_term=FatherOfClimatology https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
+Father of climatology Alexander von Humboldt Isotherms https://isotherms.simply.earth/?utm_term=FatherOfClimatology https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
 ## Sustainability {#sustainability}
 
 commodities!! — the most effective things are — food — transport — fashion? — plant trees
-
-copernicus reveals new green house emissions previously undetected: https://sverigesradio.se/avsnitt/nya-satelliter-avslojar-dolda-utslapp-av-vaxthusgaser
 
 Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
 
@@ -91,6 +91,10 @@ https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscho
 
 “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
 
+## Emission Scopes {#emission-scopes}
+
+The U.S. National Public Utilities Council (NPUC) utility decarbonization report (National Public Utilities Council (2022)) provides a useful categorizaton of company emissions: - Scope 1: Direct emissions - Scope 2: Indirect electricity emissions - Scope 3: Value chain emissions
+
 ## Greenwashing {#greenwashing}
 
 Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not.
@@ -101,7 +105,9 @@ https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-p
 
 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
-social media greenwashing harvard paper
+-   Greenwashing is widespread in company social media communications Geoffrey Supran (2022)
+
+Sometimes greenwashing comes under legislative protection: - “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022)) – **Possible design implication:** *app could highlight poor legislation refuted by science*.
 
 ## Carbon Labelling {#carbon-labelling}
 
@@ -121,15 +127,13 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 ## Minimalism {#minimalism}
 
-finnish socialists: minimalism https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
+Finnish socialists: minimalism https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
 
 — china emission trading scheme https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
 
 — most sustainable companies. make a database? https://growensemble.com/environmentally-friendly-companies/ https://www.themuse.com/advice/companies-making-the-planet-better-2020 https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/ https://earthandhuman.org/most-sustainable-companies/ https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4 https://earth.org/worlds-most-sustainable-companies-in-2021/
 
--   
-
-Europe is the hotbed of sustainabillity https://www.visualcapitalist.com/most-sustainable-companies/ https://lautrecouleur.com/notable-sustainable-companies-in-florida/ https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
+-   Europe is the hotbed of sustainabillity https://www.visualcapitalist.com/most-sustainable-companies/ https://lautrecouleur.com/notable-sustainable-companies-in-florida/ https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
 
 Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing.
 
@@ -143,11 +147,9 @@ UNEP has identified that if the world is to meet its climate change, biodiversit
 
 ## Carbon Markets {#carbon-markets}
 
-“The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. @
+-   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“ https://www.unep.org/resources/emissions-gap-report-2021
 
-If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds.
-
-Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency. “ https://www.unep.org/resources/emissions-gap-report-2021
+-   2022 Emissions Gap report United Nations Environment Programme (2022)
 
 ## Biodiversity {#biodiversity}
 
@@ -165,13 +167,13 @@ lack of transparency
 
 ## Design for Sustainability {#design-for-sustainability-1}
 
-Evolution of design for sustainability: From product design to design for system innovations and transitions
+-   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
 ## Inflation Reduction Act {#inflation-reduction-act}
 
 https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
 
-– Farm to Fork
+## Farm to Fork {#farm-to-fork}
 
 https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
 
@@ -193,7 +195,7 @@ https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64
 
 “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021))
 
-it’s possible to curb greenwashing!
+-   it’s possible to curb greenwashing!
 
 ## Intensive Farming Practices {#intensive-farming-practices}
 
@@ -241,9 +243,7 @@ https://www.regen.network/ https://blogs.microsoft.com/blog/2021/01/28/one-year-
 
 ## Biodiversity {#biodiversity-1}
 
-number of species killed, mass destruction of nature. https://www.thetimes.co.uk/article/humans-wipe-out-70-of-animals-in-50-years-6c3zch83j
-
-living planet report. https://livingplanet.panda.org/
+-   Number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).” (Almond, R.E.A. et al. (n.d.))
 
 ## Air Pollution {#air-pollution}
 
@@ -538,6 +538,8 @@ Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable dis
 
 Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
 
+Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
+
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
 
 André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
@@ -551,6 +553,8 @@ Barendregt, L., & Vaage, N. S. (2021). Speculative design as thought experiment.
 Bassani, F., Rodrigues, C., Marques, P., & Freire, F. (2022). Ecodesign approach for pharmaceutical packaging based on Life Cycle Assessment. *Science of The Total Environment*, *816*, 151565. <https://doi.org/10.1016/j.scitotenv.2021.151565>
 
 Berger, M., Lange, T., & Stahl, B. (2022). A digital push with real impact Mapping effective digital nudging elements to contexts to promote environmentally sustainable behavior. *Journal of Cleaner Production*, *380*, 134716. <https://doi.org/10.1016/j.jclepro.2022.134716>
+
+Booth, M. S. (2022). *Burning up the carbon sink: How the EU’s forest biomass policy undermines climate mitigation, and how it can be reformed*. Partnership for Policy Integrity.
 
 Bouscasse, H., Gabet, S., Kerneis, G., Provent, A., Rieux, C., Ben Salem, N., Dupont, H., Troude, F., Mathy, S., & Slama, R. (2022). Designing local air pollution policies focusing on mobility and heating to avoid a targeted number of pollution-related deaths: Forward and backward approaches combining air pollution modeling, health impact assessment and cost-benefit analysis. *Environment International*, *159*, 107030. <https://doi.org/10.1016/j.envint.2021.107030>
 
@@ -584,6 +588,8 @@ European Parliament. (2022). *Ecodesign for sustainable products*. https://www.e
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
 
 Gaure, S., & Golombek, R. (2022). True or not true: CO2 free electricity generation is possible. *Energy*, *259*, 124998. <https://doi.org/10.1016/j.energy.2022.124998>
+
+Geoffrey Supran. (2022). Three Shades of Green (washing). *Algorithmic Transparency Institute*.
 
 Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
 
@@ -624,6 +630,8 @@ Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kond
 
 Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologies to achieve buildings’ deconstruction: A review and framework. *Sustainable Production and Consumption*, *30*, 566–583. <https://doi.org/10.1016/j.spc.2021.12.032>
 
+National Public Utilities Council. (2022). *Annual Utility Decarbonization Report*.
+
 Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
 Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
@@ -652,6 +660,10 @@ Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Ste
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
+
+United Nations Department of Economic and Social Affairs, Population Division. (2022). *World Population Prospects 2022: Summary of Results*. United Nations.
+
+United Nations Environment Programme. (2022). *Emissions Gap Report 2022: The Closing Window Climate crisis calls for rapid transformation of societies*.
 
 US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 
