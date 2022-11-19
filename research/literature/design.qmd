@@ -16,7 +16,7 @@ _Sustainability_ was first mentioned in 1713 by *Hans Carl von Carlowitz* in the
 
 "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes" (@ieaGlobalEnergyReview2022)
 
-Latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR) show ...
+Latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR) shows (@crippaCO2EmissionsAll2022)
 
 Growing public understanding of how nature works and intersects with our use of money.
 
@@ -102,7 +102,6 @@ https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/019932
 “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’
 https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1_.pdf
 
-
 ## Emission Scopes
 The U.S. National Public Utilities Council (NPUC) utility decarbonization report (@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022) provides a useful categorizaton of company emissions:
 - Scope 1: Direct emissions
@@ -111,6 +110,8 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 
 ## Greenwashing
 Greenwashing is a large detractor from environmetal action as it's difficult to know what is sustainable and what is not.
+
+- it’s possible to curb greenwashing!
 
 A number of new AI-based solutions aim to find instancessof greenwashing
 https://www.fastcompany.com/90656749/greenwashing-ai
@@ -189,7 +190,7 @@ https://www.greenfinanceinstitute.co.uk/
 - “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“
 https://www.unep.org/resources/emissions-gap-report-2021
 
-- 2022 Emissions Gap report @unitednationsenvironmentprogrammeEmissionsGapReport2022
+- 2022 Emissions Gap report (@unitednationsenvironmentprogrammeEmissionsGapReport2022)
 
 ## Biodiversity
 United Nations Convention on Biodiversity
@@ -234,12 +235,16 @@ https://dontlookup.count-us-in.com/methodology
 - "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it" @chancelGlobalCarbonInequality2022
 
 ## Sustainable Design
-"Handbook of Footwear Design and Manufacture" Chapter 18 - Green design (@leungGreenDesign2021)
+European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (@europeanenvironmentagencyTextilesEnvironmentRole2022). There's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (@kohlerCircularEconomyPerspectives2021). Nonetheless, globally 87% of textile products are burned or landfilled after 1st consumer use (Ibid). Strong consumer legislation such as EPR has a direct influence on producers. For example, see this notice by the Hong Kong Trade Development Council for textile producers reminding factories to produce to French standards in order to be able enter the EU market: (@hktdcresearchFranceExpandsProducer2022). 
 
-- it’s possible to curb greenwashing!
+Existing EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (@christiansenExtendedProducerResponsibility2021).
+
+"Handbook of Footwear Design and Manufacture" Chapter 18 - Green design (@leungGreenDesign2021)
 
 ## Intensive Farming Practices
 
+## Actionable Insights
+Translate data into everyday actions the app can suggest.
 
 ## Packaging
 https://www.sulapac.com/
@@ -291,6 +296,8 @@ https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 ## Biodiversity
 - Number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin
 America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)." (@almondr.e.a.LivingPlanetReport)
+
+- The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompanpy climate goals (*ADD CITATION*). 
 
 ## Air Pollution
 @bouscasseDesigningLocalAir2022 finds strong health and economic benefits across the board from air pollution reduction in France.
@@ -555,13 +562,11 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 - AI tool is developed for deciding the suitable life cycle design parameters (@singhArtificialNeuralNetwork2023)
 
-
 ## Circular Economy
 Only 8.6% of world economy is circular
 https://www.circularity-gap.world/2022
 
 100B tonnes of virgin material every year.
-
 
 vaheta oma mööbel
 https://www.facebook.com/SMARTSWAP
@@ -573,17 +578,12 @@ I'm interested in the concept of a "social object" https://medium.com/we-researc
 what percent of all design is “sustainable design” ? promoting sustainable design
 
 ## Visualise CO2
-
-—
 check carbon impact
 https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
 ## Health
-
 - health and sustainability: “By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”
 - https://academic.oup.com/heapro/article/29/3/558/754800
-
-Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
 
 ## Transparency by Design
@@ -606,9 +606,6 @@ Data Sharing Archetypes
 | --- | ------------------- | ------------------------------------------- |
 | 1   | Ocean Protocol         | https://oceanprotocol.com/     |
 
-
-
-    —
 WikiRate
 OpenData
 Transpareencyy
@@ -636,8 +633,6 @@ app shows traceability!!
 
 https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
-
-https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
 ## Speculative Design
 “Speculative Design” for a sustainability assistant  
@@ -694,8 +689,9 @@ The literature on _nudge_ is wide, as researches try to find ways to affect huma
 -- @GUATH2022101821
 -- @BERGER2022134716
 
-## Conclusion
+Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
-In unison, the technologies and practices reviwed above move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
+## Conclusion
+A wide range of legislative proposals, targets, organisations, and goals already exists across Europe. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market. In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References

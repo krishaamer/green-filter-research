@@ -3,6 +3,8 @@ title: Discussion
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 6
+editor:
+    render-on-save: false
 ---
 
 # Discussion {#discussion}

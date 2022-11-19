@@ -17,7 +17,7 @@ editor:
 
 “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes” (IEA (2022))
 
-Latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR) show …
+Latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR) shows (Crippa et al. (2022))
 
 Growing public understanding of how nature works and intersects with our use of money.
 
@@ -38,7 +38,7 @@ In November 2022, Planet Earth’s population reached 8 Billion people (The Econ
 
 ## Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
 
-Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and (**laversFarDistractionPlastic2022a?**) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
 ## Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
@@ -149,7 +149,7 @@ UNEP has identified that if the world is to meet its climate change, biodiversit
 
 -   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“ https://www.unep.org/resources/emissions-gap-report-2021
 
--   2022 Emissions Gap report United Nations Environment Programme (2022)
+-   2022 Emissions Gap report (United Nations Environment Programme (2022))
 
 ## Biodiversity {#biodiversity}
 
@@ -193,11 +193,17 @@ https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64
 
 ## Sustainable Design {#sustainable-design}
 
+European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). There’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles are burned in an incinerator in 2018 while in France textiled are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Köhler et al. (2021)). Nonetheless, globally 87% of textile products are burned or landfilled after 1st consumer use (Ibid). Strong consumer legislation such as EPR has a direct influence on producers. For example, this notice from the Hong Kong Trade Development Council for textile producers reminds factories to produce products to French standards in order to be able enter the EU market: (HKTDC Research (2022)).
+
 “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021))
 
 -   it’s possible to curb greenwashing!
 
 ## Intensive Farming Practices {#intensive-farming-practices}
+
+## Actionable Insights {#actionable-insights}
+
+Translate data into everyday actions the app can suggest.
 
 ## Packaging {#packaging}
 
@@ -244,6 +250,8 @@ https://www.regen.network/ https://blogs.microsoft.com/blog/2021/01/28/one-year-
 ## Biodiversity {#biodiversity-1}
 
 -   Number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).” (Almond, R.E.A. et al. (n.d.))
+
+-   The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompanpy climate goals (*ADD CITATION*).
 
 ## Air Pollution {#air-pollution}
 
@@ -570,6 +578,8 @@ Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of
 
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
 
+Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
+
 David Hoang. (2022). *Creating interface studies*. https://www.proofofconcept.pub/p/creating-interface-studies.
 
 de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M., Minguez, R., & Lizundia, E. (2022). Ecodesign coupled with Life Cycle Assessment to reduce the environmental impacts of an industrial enzymatic cleaner. *Sustainable Production and Consumption*, *29*, 718–729. <https://doi.org/10.1016/j.spc.2021.11.016>
@@ -582,6 +592,8 @@ Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign wi
 Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
+
+European Environment Agency. (2022). *Textiles and the environment: The role of design in Europe’s circular economy*.
 
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
 
@@ -599,6 +611,8 @@ Han, W., & Chen, W. Y. (2022). Embedding nature-based solutions into the social 
 
 Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Braun.
 
+HKTDC Research. (2022). *France Expands Producer Responsibility to Certain Textile Items; Recommends Limiting Hazardous Chemicals in School Supplies*. https://research.hktdc.com/en/article/MTEyNTg5ODAwNw.
+
 Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon, E. (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, *27*, 100–115. <https://doi.org/10.1002/aqc.2809>
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
@@ -607,9 +621,9 @@ Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., 
 
 Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s greenhouse gas reductions could be wiped out by 2020 wildfires. *Environmental Pollution*, *310*, 119888. <https://doi.org/10.1016/j.envpol.2022.119888>
 
-Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
+Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
 
-Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
+Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
 
 Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
 

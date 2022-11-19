@@ -3,6 +3,8 @@ title: Introduction
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 2
+editor:
+    render-on-save: false
 ---
 
 ```{=mdx}
@@ -14,8 +16,29 @@ import Boundaries from "./images/boundaries.png";
 ```
 
 # From 2023 to 2030
+As the 1st step of the European Union (EU) European Green Deal strategy (adopted in 2019 by the von der Leyen commission), the Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the _Fit for 55_ policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
 
-The European Union (EU) has set an ambitious goal of reducing CO2e emissions by half by 2030 and protecting biodiversity (@europeancommissionSustainableEurope20302019).
+In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products _the norm_ in EU and _empowering consumers_ (@europeancommissionCircularEconomyAction2022). A large part of the proposal is **_ecodesign_**, as a large part of product lifecycle environmental impact is defined in the design process (@CommissionEcodesign2014). The framework proposes 10 values to strive for in high quality products:
+
+| Quality    |
+|---------|
+| Durable    |
+| Reusable    |
+| Upgradable    |
+| Reparable    |
+| Easy to maintain    |
+| Easy to refurbish    |
+| Easy to recycle    |
+| Energy efficient    |
+| Resource efficient    |
+
+It's safe to say the large majority of products available today do not meet these criteria.
+
+Each product covered by the policy is required to have a **_Digital Product Passport_** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases.
+
+## Relevance
+
+-- and protecting biodiversity .
 
 This research is timely in 2023 because of the convergence of four trends:
 
@@ -97,7 +120,6 @@ As a foreigner living in Taiwan, I've relied extensively on Google Maps' AI assi
 ```
 
 ## Research Motivation
-
 First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries. According to a Calastone study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France (@calastoneMillennialsInvestingDetailed2020).
 
 Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my **_financial AI advisor Susan_** (fig. 2, above) will ask me a personalized question (fig. 3):

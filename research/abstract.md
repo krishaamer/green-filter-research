@@ -3,6 +3,8 @@ title: Abstract
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 1
+editor:
+    render-on-save: false
 ---
 
 # Abstract {#abstract}

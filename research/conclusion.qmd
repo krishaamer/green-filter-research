@@ -3,6 +3,8 @@ title: Conclusion
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 7
+editor:
+    render-on-save: false
 ---
 
 # Conclusion

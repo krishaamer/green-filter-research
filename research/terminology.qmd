@@ -3,6 +3,8 @@ title: Terminology
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 8
+editor:
+    render-on-save: false
 ---
 
 

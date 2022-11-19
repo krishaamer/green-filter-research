@@ -3,6 +3,8 @@ title: Results
 bibliography: [ref.bib]
 csl: apa.csl
 sidebar_position: 5
+editor:
+    render-on-save: false
 ---
 
 # Results {#results}
