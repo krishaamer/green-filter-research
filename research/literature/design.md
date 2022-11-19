@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 # Design for Sustainability {#design-for-sustainability}
@@ -83,7 +83,7 @@ Father of climatology Alexander von Humboldt Isotherms https://isotherms.simply.
 
 commodities!! — the most effective things are — food — transport — fashion? — plant trees
 
-Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
+Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
 
 ## Disasters {#disasters}
 
@@ -111,21 +111,27 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 
 ## Greenwashing {#greenwashing}
 
+Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling.
+
 Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not.
+
+-   “Most plastics marketed as “home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022)
+
+-   Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019)
 
 -   While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021))
 
 -   it’s possible to curb greenwashing!
 
-A number of new AI-based solutions aim to find instancessof greenwashing https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
-
-https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
+A number of new AI-based solutions aim to find instancessof greenwashing https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
 
 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
 -   Greenwashing is widespread in company social media communications Geoffrey Supran (2022)
 
-Sometimes greenwashing comes under legislative protection: - “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022)) – **Possible design implication:** *app could highlight poor legislation refuted by science*.
+Sometimes greenwashing comes under legislative protection: - “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
+
+– **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
 ## Carbon Labelling {#carbon-labelling}
 
@@ -714,6 +720,8 @@ Moberg, K. R., Aall, C., Dorner, F., Reimerson, E., Ceron, J.-P., Sköld, B., So
 
 Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologies to achieve buildings’ deconstruction: A review and framework. *Sustainable Production and Consumption*, *30*, 566–583. <https://doi.org/10.1016/j.spc.2021.12.032>
 
+Napper, I. E., & Thompson, R. C. (2019). Environmental Deterioration of Biodegradable, <span class="nocase">Oxo-biodegradable</span>, Compostable, and Conventional Plastic Carrier Bags in the Sea, Soil, and Open-Air Over a 3-Year Period. *Environ. Sci. Technol.*, *53*(9), 4775–4783. <https://doi.org/10.1021/acs.est.8b06984>
+
 National Public Utilities Council. (2022). *Annual Utility Decarbonization Report*.
 
 Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
@@ -725,6 +733,8 @@ Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
+
+Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022). The Big Compost Experiment: Using citizen science to assess the impact and effectiveness of biodegradable and compostable plastics in UK home composting. *Front. Sustain.*, *3*, 942724. <https://doi.org/10.3389/frsus.2022.942724>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
 

@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 # Design for Sustainability
@@ -81,7 +81,7 @@ the most effective things are
 — fashion?
 — plant trees
 
-Bezos. ″‘Good intentions don’t work, mechanisms do’” 
+Amazon's founder Bezos. ″‘Good intentions don’t work, mechanisms do’” 
 https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
 
 ## Disasters
@@ -111,7 +111,12 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 - Scope 3: Value chain emissions
 
 ## Greenwashing
+Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling.
+
 Greenwashing is a large detractor from environmetal action as it's difficult to know what is sustainable and what is not.
+
+- "Most plastics marketed as “home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022
+- Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment @napperEnvironmentalDeteriorationBiodegradable2019
 
 - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (@fredericsimonCommissionFireIncluding2020; @kirataylorEUPlanPuts2021)
 
@@ -122,10 +127,7 @@ https://www.fastcompany.com/90656749/greenwashing-ai
 https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch
 https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul
 https://www.climatebonds.net/about/team/krista-tukiainen
-
-https://www.theguardian.com/environment/2022/nov/03/greenwash-home-compostable-plastics-dont-work-aoe?CMP=share_btn_tw
 https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
-https://www.theguardian.com/environment/2019/apr/29/biodegradable-plastic-bags-survive-three-years-in-soil-and-sea
 
 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (@ussecuritiesandexchangecommissionOfficeHoursGary2022). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (@andreVoluntaryCarbonNeutral2022) and thus affected by consumer demand.
 
@@ -133,7 +135,8 @@ Both the European Commission and the Chair of U.S. Securities and Exchange Commi
 
 Sometimes greenwashing comes under legislative protection:
 - "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program" (@boothBurningCarbonSink2022)
--- **Possible design implication:** _app could highlight poor legislation refuted by science_.
+
+-- **Design Implications:** _As a consumer, I can get notified by the app about highlights of poor legislation refuted by science_.
 
 ## Carbon Labelling
 Adding CO2 labels for consumer products have been discussed for decades (@adamcornerWhyWeNeed2012). While academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019) and there is some indication consumers are willing to pay a small premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022) as well as all else being equal, choose the option with a lower CO2 number (@carlssonSustainableFoodCan2022), the idea of _Carbon Labelling_ is yet to find mainstream adoption. 

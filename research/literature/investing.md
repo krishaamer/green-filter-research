@@ -382,7 +382,7 @@ Implication for design: ESG can’t trusted.
 
 while ESG is riddled with problems, it has sstarted a common language and there are many ways how to improve it
 
-— uk simple investing app ziglu https://www.ziglu.io/
+— UK simple investing app Ziglu https://www.ziglu.io/
 
 — *swedish green fintech (important article)* https://sifted.eu/articles/sweden-green-sustainable-fintech/
 
@@ -394,7 +394,7 @@ business footprint https://www.mynewsdesk.com/doconomy/pressreleases/doconomy-an
 
 ## Hedge Funds {#hedge-funds}
 
-— make a climate hedge fund with friends
+Make a climate hedge fund with friends
 
 https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
 
@@ -404,9 +404,9 @@ Angelist
 
 — what does investing look like at the scale of billions of people? like ig
 
-## ESG is a marketing tool {#esg-is-a-marketing-tool}
+## ESG is a Marketing Tool {#esg-is-a-marketing-tool}
 
-— 8 problems with esg https://citywire.com/new-model-adviser/news/good-riddance-esg-8-key-problems-that-must-be-fixed/a2390914?refea=1694078 https://www.ft.com/content/3d9436f4-f341-4885-817a-b2dd340c9868
+8 problems with esg https://citywire.com/new-model-adviser/news/good-riddance-esg-8-key-problems-that-must-be-fixed/a2390914?refea=1694078 https://www.ft.com/content/3d9436f4-f341-4885-817a-b2dd340c9868
 
 ## green investment platforms {#green-investment-platforms}
 
@@ -500,9 +500,13 @@ https://thaifintech.org/members/
 
 ## Money {#money-1}
 
+A wide number of banks are offering services marketed a sustainable. It’s hard to decide.
+
+*Design implication*: *As a user, I can use the app to compare banks available in my country*
+
 Ant Group’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* in Turrin (2021)
 
-— https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/ https://www.happonomy.org/sustainable-money-system/
+— - https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet - https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/ - https://www.happonomy.org/sustainable-money-system/
 
 https://makemymoneymatter.co.uk
 
@@ -514,7 +518,7 @@ https://1e9.community/ https://oolomarko.ee/teekond-miljonilise-investeerimispor
 
 ## Personalized Investing {#personalized-investing}
 
-2022 saw a wave of new platforms aiming to make investing easier for retail investors – https://republic.com/mainvest – https://republic.com/asaak – https://republic.com/stockcard – https://republic.com/maybefinance
+2022 saw a wave of new platforms aiming to make investing easier for retail investors - https://republic.com/mainvest - https://republic.com/asaak - https://republic.com/stockcard - https://republic.com/maybefinance
 
 ## Leadership {#leadership}
 
@@ -546,13 +550,13 @@ Not better environmental performance
 
 ## ESG Crisis {#esg-crisis}
 
-Not delivering on it’s hopes https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?refea=1694078 https://citywireselector.com/news/red-flags-private-banks-are-looking-out-for-with-esg-funds/a2398680?refea=1694078 https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?\_ga=2.252841673.1907590366.1665138252-1471607603.1665138252
+Not delivering on it’s hopes - https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?refea=1694078 - https://citywireselector.com/news/red-flags-private-banks-are-looking-out-for-with-esg-funds/a2398680?refea=1694078 - https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?\_ga=2.252841673.1907590366.1665138252-1471607603.1665138252
 
-best esg https://www.investors.com/news/esg-companies-list-best-esg-stocks-environmental-social-governance-values/
+best esg - https://www.investors.com/news/esg-companies-list-best-esg-stocks-environmental-social-governance-values/
 
 ## Analysis {#analysis}
 
-— messari: investor eduation, information assymetry
+Messari: investor eduation, information assymetry
 
 ## Regenerative Investing” {#regenerative-investing}
 
@@ -564,7 +568,13 @@ https://www.forbes.com/sites/christophermarquis/2021/09/07/rsf-is-leading-the-wa
 
 ## Robo-Advisors {#robo-advisors}
 
-Finance Marcus Invest by Goldman Sachs https://finance.yahoo.com/news/goldman-sachss-marcus-invest-bets-against-the-game-stop-trend-215811218.html Tomorrow Bank https://apps.apple.com/de/app/app-store/id1377689068 https://www.tomorrow.one/de-DE/ small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546 financial empowerment small cash apps like african makret https://chippercash.com/
+-   Marcus Invest by Goldman Sachs https://finance.yahoo.com/news/goldman-sachss-marcus-invest-bets-against-the-game-stop-trend-215811218.html
+
+-   Tomorrow Bank https://apps.apple.com/de/app/app-store/id1377689068 https://www.tomorrow.one/de-DE/
+
+small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546 financial empowerment
+
+small cash apps like african makret https://chippercash.com/
 
 Investment Clubs Invest in sustainability with people smarter than myself https://twitter.com/SyndicateDAO
 
@@ -582,9 +592,9 @@ One of the greatest hurdles to sustainability is a consumer mindset. ?
 
 https://the-ken.com/story/green-push-or-greenwash-sustainable-funds-dont-buy-zomatos-esg-narrative/?utm_source=daily_story&utm_medium=email&utm_campaign=daily_newsletter
 
-— MMalmmo city green bondss https://malmo.se/download/18.3bf12ae215f9d265979db3f3/1511166814294/City+of+Malmo+Green+Bond+Framework+final.pdf
+— Malmmo city green bondss https://malmo.se/download/18.3bf12ae215f9d265979db3f3/1511166814294/City+of+Malmo+Green+Bond+Framework+final.pdf
 
-— fake green bonds https://anthropocenefii.org/afii-aramco-replacement#530afaaa-13f9-4eaf-b5a4-a1276b85a2c6 ANTHROPOCENE FIXED INCOME INSTITUTE. 
+— Fake green bonds https://anthropocenefii.org/afii-aramco-replacement#530afaaa-13f9-4eaf-b5a4-a1276b85a2c6 ANTHROPOCENE FIXED INCOME INSTITUTE. 
 
 “Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak”
 
