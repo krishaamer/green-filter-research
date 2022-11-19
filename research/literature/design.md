@@ -113,6 +113,8 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 
 Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not.
 
+-   While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021))
+
 -   it’s possible to curb greenwashing!
 
 A number of new AI-based solutions aim to find instancessof greenwashing https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
@@ -645,6 +647,8 @@ European Parliament. (2022). *Ecodesign for sustainable products*. https://www.e
 
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
 
+Frédéric Simon. (2020). *Commission under fire for including “carbon sinks” into EU climate goals*. https://www.euractiv.com/section/climate-environment/news/commission-under-fire-for-including-carbon-sinks-into-eu-climate-goals/.
+
 Gaure, S., & Golombek, R. (2022). True or not true: CO2 free electricity generation is possible. *Energy*, *259*, 124998. <https://doi.org/10.1016/j.energy.2022.124998>
 
 Geoffrey Supran. (2022). Three Shades of Green (washing). *Algorithmic Transparency Institute*.
@@ -676,6 +680,8 @@ Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s g
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
 
 Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine and War*, *4*(1), 17–25.
+
+Kira Taylor. (2021). *EU plan puts spotlight on carbon sinks to tackle climate change*. https://www.euractiv.com/section/climate-environment/news/eu-draft-puts-spotlight-on-improving-carbon-sinks-to-tackle-climate-change/.
 
 Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainability. *Health Promotion International*, *29*(3), 558–568. <https://doi.org/10.1093/heapro/das071>
 
