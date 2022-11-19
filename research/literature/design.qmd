@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
 editor:
-    render-on-save: false
+    render-on-save: true
 ---
 
 # Design for Sustainability
@@ -12,7 +12,19 @@ editor:
 ## What is Sustainability?
 _Sustainability_ was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (@leprovostSupplyMultipleEcosystem2022).
 
-**_Designing for Sustainability_** encompasses all human activites, making a **_design for sustainability_** an over-arching challenge across all industries.
+Already @keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that _'residents in high-income countries lead lifestyles incompatible with planetary boundaries'_. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+
+@mobergMobilityFoodHousing2019 reports daily human activites thus on average in France, Germany, Norway and Sweden:
+
+| Emission Share | Category |
+|-------|-------------------| 
+| 21%   | Housing           | 
+| 30%   | Food              | 
+| 34%   | Mobility          | 
+| 15%   | Other             | 
+
+## Design for Sustainability
+**_Designing for Sustainability_** encompasses all human activites, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that? 
 
 "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes" (@ieaGlobalEnergyReview2022)
 
@@ -20,8 +32,7 @@ Latest figures from the EU's Emissions Database for Global Atmospheric Research 
 
 Growing public understanding of how nature works and intersects with our use of money.
 
-Copernicus reveals new green house emissions previously undetected:
-https://sverigesradio.se/avsnitt/nya-satelliter-avslojar-dolda-utslapp-av-vaxthusgaser
+The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (@danielvarjoNyaSatelliterAvslojar2022)
 
 ## Digital Product Passports
 The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (@nissinenMakeCarbonFootprints2022).
@@ -37,34 +48,25 @@ In November 2022, Planet Earth's population reached 8 Billion people (@theeconom
 Overconsumption is one of the root causes of climate change and marine plastic pollution. @FORD2022150392 and @laversFarDistractionPlastic2022a suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
 
 ## Fossil Fuels and Energy
-
 There's evidence from several countries suggesting moving to renewal energy brings benefits:
 
 - @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
 - Considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective (@lowRethinkingNetZeroSystems2022)
 
 ## Make a 'Sustainability Flywheel' graphic, like that of Amazon's
-
 The true cost of products is hidden. The work is hidden.
 
-| №   | Company                                                                       | Link                                     |
-| --- | ------------------- | ------------------------------------------- |
-| 1   | Ocean Protocol         | https://oceanprotocol.com/     |
-
 ## Forests
-
 Europe rapidly losing its forest carbon sink:
 https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
 
-Burning of biomass undermines carbon capture
+Burning of biomass undermines carbon capture.
 
 ## History
-
 Father of climatology Alexander von Humboldt
 Isotherms
 https://isotherms.simply.earth/?utm_term=FatherOfClimatology
 https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
-
 
 ## Sustainability
 commodities!!
@@ -86,9 +88,7 @@ Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and
 
 ...
 
-
 ## The State of Nationally Determined Contributions: 2022
-
 https://www.wri.org/research/state-nationally-determined-contributions-2022
 
 ## Health
@@ -132,12 +132,13 @@ Sometimes greenwashing comes under legislative protection:
 -- **Possible design implication:** _app could highlight poor legislation refuted by science_.
 
 ## Carbon Labelling
-Adding CO2 labels for consumer products have been discussed for decades (@adamcornerWhyWeNeed2012). While academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019) and there is some indication consumers are willing to pay a small premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022) as well as all else being equal, choose the option with a lower CO2 number (@carlssonSustainableFoodCan2022), the idea of _Carbon Labelling_ is yet to find mainstream adoption. although there's some evidence to suggest labeling low CO2 food enables people to choose a _climatarian diet_ in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible(@lohmannCarbonFootprintLabels2022). @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with _‘No antibiotics ever’_ over a _Carbon Trust_ label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes. 
+Adding CO2 labels for consumer products have been discussed for decades (@adamcornerWhyWeNeed2012). While academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019) and there is some indication consumers are willing to pay a small premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022) as well as all else being equal, choose the option with a lower CO2 number (@carlssonSustainableFoodCan2022), the idea of _Carbon Labelling_ is yet to find mainstream adoption. 
+
+Although there's some evidence to suggest labeling low CO2 food enables people to choose a _climatarian diet_ in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible (@lohmannCarbonFootprintLabels2022). @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with _‘No antibiotics ever’_ over a _Carbon Trust_ label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes. 
 
 ## Climate Change
-tipping points
-https://www.theguardian.com/environment/2022/sep/08/world-on-brink-five-climate-tipping-points-study-finds
-
+- Tipping points @armstrongmckayExceedingGlobalWarming2022
+- 
 
 ## European Green Deal
 https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
@@ -146,13 +147,11 @@ https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circula
 
 It’s up to legislators to provide sustainable products on our marketplace… but unttiil we do, use tthe green filterr
 
-
 —-
 one of the eu goals is reducing comsumption
 tacking your consumption habits
 
 ## Minimalism
-
 Finnish socialists: minimalism 
 https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
 
@@ -160,7 +159,7 @@ https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-
 china emission trading scheme
 https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
 
-—
+## Database
 most sustainable companies. make a database?
 https://growensemble.com/environmentally-friendly-companies/
 https://www.themuse.com/advice/companies-making-the-planet-better-2020
@@ -187,7 +186,9 @@ https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-insti
 https://www.greenfinanceinstitute.co.uk/
 
 ## Carbon Markets
-- “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“
+- “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years. 
+
+If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“
 https://www.unep.org/resources/emissions-gap-report-2021
 
 - 2022 Emissions Gap report (@unitednationsenvironmentprogrammeEmissionsGapReport2022)
@@ -235,13 +236,15 @@ https://dontlookup.count-us-in.com/methodology
 - "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it" @chancelGlobalCarbonInequality2022
 
 ## Sustainable Design
-European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (@europeanenvironmentagencyTextilesEnvironmentRole2022). There's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (@kohlerCircularEconomyPerspectives2021). Nonetheless, globally 87% of textile products are burned or landfilled after 1st consumer use (Ibid). Strong consumer legislation such as EPR has a direct influence on producers. For example, see this notice by the Hong Kong Trade Development Council for textile producers reminding factories to produce to French standards in order to be able enter the EU market: (@hktdcresearchFranceExpandsProducer2022). 
+European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (@europeanenvironmentagencyTextilesEnvironmentRole2022). Globally 87% of textile products are burned or landfilled after 1st consumer use (@kohlerCircularEconomyPerspectives2021). In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid). 
 
-Existing EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (@christiansenExtendedProducerResponsibility2021).
+Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (@christiansenExtendedProducerResponsibility2021). French EPR scheme was upgraded in 2020 to become more circular (@jacquesvernierExtendedProducerResponsibility2021). In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (@hktdcresearchFranceExpandsProducer2022). 
 
-"Handbook of Footwear Design and Manufacture" Chapter 18 - Green design (@leungGreenDesign2021)
+There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design (@leungGreenDesign2021)
 
-## Intensive Farming Practices
+## Food
+
+*Intensive Farming Practices*
 
 ## Actionable Insights
 Translate data into everyday actions the app can suggest.
@@ -314,7 +317,6 @@ Several startups are using distributed ledgers (blockchains) to track source mat
 
 The blockchain supply chain companies as of October 2022 include:
 
-
 | №   | Company                                                                       | Link                                     |
 | --- | ------------------------------------------------------------------------------ | ------------------------------------------- |
 | 1   | Ocean Protocol         | https://oceanprotocol.com/     |
@@ -324,8 +326,6 @@ The blockchain supply chain companies as of October 2022 include:
 | 5   | OriginTrail     | https://origintrail.io/ |
 | 6   | VeChain     | https://www.vechain.org/|
 | 7   | Wabi     | https://wabi.io/ |
-
-
 
 Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
 
@@ -376,9 +376,6 @@ FlowIT
 Automate CO2 calculations realtime:
 
 https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
-
-
-
 
 “factory social score”.
 
@@ -563,10 +560,8 @@ Again, AI has the potential to provide the parameters for sustainability.
 - AI tool is developed for deciding the suitable life cycle design parameters (@singhArtificialNeuralNetwork2023)
 
 ## Circular Economy
-Only 8.6% of world economy is circular
-https://www.circularity-gap.world/2022
+@circleeconomyCircularityGapReport2022 reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
-100B tonnes of virgin material every year.
 
 vaheta oma mööbel
 https://www.facebook.com/SMARTSWAP
