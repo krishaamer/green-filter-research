@@ -19,6 +19,7 @@ Given the goal of designing ann app to integrate shopping, saving, and investing
 -   Scientific papers (largely from ScienceDirect) related to: – Sustainability, ecology, ecosystem services – Sustaimable investing, savings, circular economy – UX/UI, service design, sustainable design, speculative design, interaction design – Generation-Z demographics, behaviour change, nudge
 -   Review of Mobile apps (Apple iOS / Google Android) and web app related to: – Sustainable shopping apps, savings, and investing
 -   Apps using algorithimic interfaces (AI-based UI)
+-   EU legislation
 
 | №   | Company        | Link                       |
 |-----|----------------|----------------------------|

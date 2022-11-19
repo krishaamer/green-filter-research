@@ -40,6 +40,11 @@ The EU Copernicus sattelite system reveals new greenhouse emissions previously u
 
 The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
 
+## Carbon Emission Labeling {#carbon-emission-labeling}
+
+-   https://www.climatepartner.com/en/news/labelling-consumer-goods
+-   https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03
+
 ## Design for Circularity {#design-for-circularity}
 
 -   McDonough & Braungart (2002)
@@ -150,9 +155,7 @@ most sustainable companies. make a database? https://growensemble.com/environmen
 
 -   Europe is the hotbed of sustainabillity https://www.visualcapitalist.com/most-sustainable-companies/ https://lautrecouleur.com/notable-sustainable-companies-in-florida/ https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
 
-Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing.
-
-Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
+Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing. Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
 
 ## Sustainable Finance {#sustainable-finance}
 
@@ -174,7 +177,7 @@ United Nations Convention on Biodiversity
 
 ## Country Contributions {#country-contributions}
 
-climate action tracker https://climateactiontracker.org/countries/
+-   Climate action tracker https://climateactiontracker.org/countries/
 
 “triple turn”
 
@@ -318,11 +321,11 @@ supply chain https://www.prima.trade/post/supply-chain-finance-upgrade https://w
 
 give supply chain a voice by connecting workers directly to the consumer https://www.youtube.com/watch?v=XaNiqDJi7sE https://ctmfile.com/demos/view/13077 https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough https://www.es3g.com/post/worker-voice https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
 
-— \## Realtime ESG
+— \## Realtime ESG - Instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/
 
-instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/ product sustainability modeling https://makersite.io/product-sustainability/
+-   Product sustainability modeling https://makersite.io/product-sustainability/
 
-T“Real-time ESG data is more difficult to greenwash” “supply chain is a significant source of ESG content” Tim Nicolle (n.d.)
+-   “Real-time ESG data is more difficult to greenwash”, “supply chain is a significant source of ESG content” (Tim Nicolle (n.d.))
 
 There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
@@ -342,7 +345,7 @@ https://www.esganalytics.io/
 
 ## Circular Supply Chains {#circular-supply-chains}
 
-— https://greendice.com/for-a-company/ circular economy for pcs https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
+https://greendice.com/for-a-company/ circular economy for pcs https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
 
 — recycle your phone: https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
 
@@ -359,7 +362,7 @@ https://www.esganalytics.io/
 
 https://finance.yahoo.com/news/traceability-solution-suku-avery-dennison-130000822.html
 
-make commerce more transparent
+-   make commerce more transparent
 
 IMportant::: “creating sustainbility trust in companies in realtime” esg blockchains: https://insights.physisinvestment.com/blockchain-in-esg-investing/ https://jpt.spe.org/blockchain-companies-team-up-to-track-esg-data https://home.kpmg/xx/en/home/insights/2020/05/creating-trust-in-esg-data.html https://chiefexecutive.net/why-blockchain-can-both-promote-esg-and-accelerate-climate-transition/ https://www.telos.net/esg-blockchain
 
@@ -369,13 +372,9 @@ IMportant::: “creating sustainbility trust in companies in realtime” esg blo
 
 — https://www.ecotextile.com/2018101123789/materials-production-news/world-s-first-free-digital-map-of-apparel-factories-2.html
 
-facttories
-
 –
 
-Tracing emissions from factory pipes.
-
-—
+-   Tracing emissions from factory pipes.
 
 factory compliacen Fair Factories https://www.fairfactories.org/
 
@@ -387,7 +386,9 @@ Planet Factory
 
 ## Internet of Things (IoT) {#internet-of-things-iot}
 
-“thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.” https://www.fastcompany.com/90656749/greenwashing-ai https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973 https://planethome.eco/ https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
+“thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.”
+
+https://www.fastcompany.com/90656749/greenwashing-ai https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973 https://planethome.eco/
 
 ## Shopping Design {#shopping-design}
 
@@ -395,21 +396,21 @@ Recycled clothing maker FREITAG offers sustainability-focused services such ass 
 
 ## Synthesise {#synthesise}
 
-Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglemerates with a massive CO2 footprint. See the index to find some alternatives.
+*Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglemerates with a massive CO2 footprint. See the index to find some alternatives.
 
 ## Personas {#personas}
 
-— i care mostly about… —- fashion — artt — plap
+Use personas to articulate assumptions
 
-—
-
-use personas to articulate assumptions
+Persona: i care mostly about… fashion, art, plap
 
 ## Data-Driven Design {#data-driven-design}
 
 Rebuilt the app as a personalized, narrative lifestyle feed
 
-— design for recycling https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth “rethinking product design and inspiring consumers to expect more from their devices”
+## Design for Recycling {#design-for-recycling}
+
+https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth “rethinking product design and inspiring consumers to expect more from their devices”
 
 “design is a tool to make complexity comprehensible” like the helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
 
@@ -419,13 +420,13 @@ https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
 
 Create a design system!!!! best to showcase my analytic skills
 
-https://www.invisionapp.com/inside-design/guide-to-design-systems/ https://www.designbetter.co/design-systems-handbook
-
-https://design.google/library/google-design-leadership-margaret-lee/ https://atomicdesign.bradfrost.com/
+https://www.invisionapp.com/inside-design/guide-to-design-systems/ https://www.designbetter.co/design-systems-handbook https://design.google/library/google-design-leadership-margaret-lee/ https://atomicdesign.bradfrost.com/
 
 ## Community’s Role in Design {#communitys-role-in-design}
 
-—- psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502 POAPs: https://cryptobriefing.com/what-are-poaps-and-why-should-you-collect-them/#:~:text=POAP%20(pronounced%20poh%2Dap),to%20be%20at%20the%20event.
+-   Psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
+
+-   POAPs: https://cryptobriefing.com/what-are-poaps-and-why-should-you-collect-them/#:~:text=POAP%20(pronounced%20poh%2Dap),to%20be%20at%20the%20event.
 
 ## Group Purchases {#group-purchases}
 
@@ -441,7 +442,9 @@ Monoculture -&gt; regenerative food forests Oil -&gt; electri cars / bicycles
 
 ## Design Studies {#design-studies}
 
-eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216 Evolution of design for sustainability: From product design to design for system innovations and transitions
+eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216
+
+-   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
 ## Eco-Design {#eco-design}
 
@@ -464,7 +467,7 @@ eminent journal Design Studies, 1stt design journal https://reader.elsevier.com/
 
 Again, AI has the potential to provide the parameters for sustainability.
 
--   AI tool is developed for deciding the suitable life cycle design parameters (Singh & Sarkar (2023))
+-   Singh & Sarkar (2023) proposes an AI tool for deciding the suitable life cycle design parameters.
 
 ## Circular Economy {#circular-economy}
 
@@ -482,10 +485,9 @@ I’m interested in the concept of a “social object” https://medium.com/we-r
 
 check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
-## Health {#health-1}
+## Designing for Health and Sustainability {#designing-for-health-and-sustainability}
 
--   health and sustainability: “By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”
--   https://academic.oup.com/heapro/article/29/3/558/754800
+Health and sustainability are instriscially connected. *“By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”* (Kjrgård et al. (2014))
 
 ## Transparency by Design {#transparency-by-design}
 
@@ -520,6 +522,12 @@ https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-t
 
 ## Speculative Design {#speculative-design}
 
+The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book ((**anthonydunneSpeculativeEverything2013?**)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+
+In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+
+Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
+
 “Speculative Design” for a sustainability assistant
 
 -   Barendregt & Vaage (2021)
@@ -549,9 +557,20 @@ Mobile-first Provides a community for pooling money with like-minded investors S
 
 ## Nudge {#nudge}
 
-The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: – Eriksson et al. (2023) – Acuti et al. (2023) – Perez-Cueto (2021) – Wee et al. (2021) – Guath et al. (2022) – Berger et al. (2022)
+The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
+
+### The Concept of ‘Nudge’ {#the-concept-of-nudge}
+
+One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonisation*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
+
+| №   | Product        | Nudge                                |
+|-----|----------------|--------------------------------------|
+| 1   | Google Maps    | Show routes with lower CO2 emissions |
+| 2   | Google Flights | Show CO2 emissions                   |
+
+“Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report
 
 ## Conclusion {#conclusion}
 
@@ -646,13 +665,19 @@ Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
 
+Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
+
 Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M., & Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, *28*, 100727. <https://doi.org/10.1016/j.scp.2022.100727>
 
 Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
 Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s greenhouse gas reductions could be wiped out by 2020 wildfires. *Environmental Pollution*, *310*, 119888. <https://doi.org/10.1016/j.envpol.2022.119888>
 
+Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
+
 Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine and War*, *4*(1), 17–25.
+
+Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainability. *Health Promotion International*, *29*(3), 558–568. <https://doi.org/10.1093/heapro/das071>
 
 Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
 

@@ -35,6 +35,10 @@ In March 2022, the EU Circular Economy Action Plan was adopted, looking to make 
 
 It’s safe to say the large majority of products available today do not meet these criteria.
 
+Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases.
+
+## Relevance {#relevance}
+
 – and protecting biodiversity .
 
 This research is timely in 2023 because of the convergence of four trends:
