@@ -14,6 +14,19 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 
+## Fintech User Experience (UX) {#fintech-user-experience-ux}
+
+Given the large number of fraud cases in finance, *trust* is the number one concern for users (CITE). Good design is crucial for creating transparency, and transparency leads to trust.
+
+-   https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/
+-   https://usabilitygeek.com/ux-design-fintech-things-to-remember/
+-   https://www.parallelhq.com/blog/fintech-ui-ux-design
+-   https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process
+-   https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9
+-   https://www.youtube.com/watch?v=c_uxaOz_B1c
+
+— Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment - Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?
+
 ## Money {#money}
 
 Money connects all industries. People want to shop, save, invest sustainably - How to do it?
@@ -21,6 +34,10 @@ Money connects all industries. People want to shop, save, invest sustainably - H
 ## What is Sustainable Investing? {#what-is-sustainable-investing}
 
 There’s a growing literature suggesting it’s possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there’s evidence of ‘green’ buildings achieving a ‘higher financial return than conventional buildings, both in terms of rent and sale price’ (Oyedokun (2017)). There’s also a trend of investors looking for sustainability in addition to profits in a few countries. For example - In Sweden “Preferences for sustainable and responsible equity funds - A choice experiment with Swedish private investors” (Lagerkvist et al. (2020)) - 74% of Chinese youth are looking for “positive impact” (Smith (2019)) - Philanthropy is on the rise in Asia (Lingeswaran (2019)) however investors are not sure how to separate sustainable assets from less sustainable ones (Ho (2019))
+
+### Taxonomies {#taxonomies}
+
+-   Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
 
 ## ESG Shopping {#esg-shopping}
 

@@ -132,27 +132,19 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
+## Design for Human Rights {#design-for-human-rights}
+
+– GOP27 text refers to “human right to a clean, healthy and sustainable environment” (UNFCCC Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA) (2022))
+
 ### Greenwashing {#greenwashing}
-
-Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling.
-
-Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not.
-
--   “Most plastics marketed as “home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022)
-
--   Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019)
-
--   While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021))
-
--   it’s possible to curb greenwashing!
-
-A number of new AI-based solutions aim to find instancessof greenwashing - https://www.fastcompany.com/90656749/greenwashing-ai - https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch - https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul - https://www.climatebonds.net/about/team/krista-tukiainen - https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
 
 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
--   Greenwashing is widespread in company social media communications Geoffrey Supran (2022)
+Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
 
-Sometimes greenwashing comes under legislative protection: - “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
+Examples of greenwashing: - Greenwashing is widespread in company social media communications Geoffrey Supran (2022) - “Most plastics marketed as “home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022) - Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019) - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021)) - Sometimes greenwashing comes under legislative protection: “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
+
+A number of new AI-based tools aim to find instances of greenwashing. - https://www.fastcompany.com/90656749/greenwashing-ai - https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch - https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul - https://www.climatebonds.net/about/team/krista-tukiainen - https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
 
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
@@ -192,13 +184,14 @@ Most sustainable companies. make a database? - https://growensemble.com/environm
 
 -   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 
-If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“ https://www.unep.org/resources/emissions-gap-report-2021
+-   “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“ (United Nations Environment Programme (UNEP) (2021))
 
 -   2022 Emissions Gap report (United Nations Environment Programme (2022))
 
 ### Biodiversity {#biodiversity}
 
-United Nations Convention on Biodiversity
+-   “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.” (UEBT (2022))
+-   United Nations Convention on Biodiversity
 
 ### Country Contributions {#country-contributions}
 
@@ -539,21 +532,34 @@ Monoculture -&gt; regenerative food forests Oil -&gt; electric cars / bicycles
 
 ### Eco-Design {#eco-design}
 
-“On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” (European Parliament (2022))
+-   “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” (European Parliament (2022))
 
 -   Manzardo et al. (2021)
+
 -   Iñarra et al. (2022)
+
 -   Munaro et al. (2022)
+
 -   Bassani et al. (2022)
+
 -   Duriez et al. (2022)
+
 -   Van Doorsselaer (2022)
+
 -   de Otazu et al. (2022)
+
 -   Nuez et al. (2022)
+
 -   Rossi et al. (2022)
+
 -   Tiernan et al. (2022)
+
 -   Arranz et al. (2022)
+
 -   Cheba et al. (2022)
+
 -   Ruiz-Pastor et al. (2022)
+
 -   Miyoshi et al. (2022)
 
 Again, AI has the potential to provide the parameters for sustainability.
@@ -564,7 +570,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
-vaheta oma mööbel https://www.facebook.com/SMARTSWAP
+-   Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
 
 ### Social Objects {#social-objects}
 
@@ -574,7 +580,9 @@ I’m interested in the concept of a “social object” https://medium.com/we-r
 
 ## Data Visualisation {#data-visualisation}
 
-Global temperature measurement starts from the 1880s where we have the first records from ships. Industrial revolution Long history, starting with Alexander von Humboldt.
+-   Global temperature measurement starts from the 1880s where we have the first records from ships (Brohan et al. (2012)).
+-   Industrial revolution
+-   Data Data Visualisation has a Long history, starting with Alexander von Humboldt.
 
 ``` mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -582,15 +590,17 @@ Global temperature measurement starts from the 1880s where we have the first rec
 
 ### Making CO2 Visible {#making-co2-visible}
 
-When will Bolt show CO2 emissions per every trip?
+-   When will Bolt show CO2 emissions per every trip?
 
-— how co2 is shown by googlee https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+— How co2 is shown by Google https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
 
-… *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
+-   Google added features to Flights and Maps to filter more sustainable options (Sarah Perez (2022))
 
-Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
+-   *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
 
-check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
+-   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
+
+-   Check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
 ### Designing for Health and Sustainability {#designing-for-health-and-sustainability}
 
@@ -661,20 +671,38 @@ Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
 
 Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
 
-speculative design use imagination
-
+-   Speculative design
+-   Use imagination
 -   Societal movements change things: implication for design: build a community
 -   Processes sustain things: implication for design: built an app
 
 ### Experience Design {#experience-design}
 
-“People buy experiences, not technology.”
+-   Meta Oculus AR Incubation GM Laura Fryer: “People buy experiences, not technology.” (Michael Abrash (2017))
 
-— Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
+Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
-Mobile App Design There’s a number of user interface design patterns that have provide successful across a range of social media apps, copied from one to another, to the extent that the largest social media apps share a similar look and feature set.
+### Mobile App Design {#mobile-app-design}
 
-Mobile-first Provides a community for pooling money with like-minded investors Social Educational Edutainment Fun Stories section like IG / app store Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers. Karina from Korea(aespa, 2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+There’s a number of user interface design patterns that have provide successful across a range of social media apps, copied from one to another, to the extent that the largest social media apps share a similar look and feature set.
+
+-   Mobile-first
+
+-   Provides a community for pooling money with like-minded investors
+
+-   Social
+
+-   Educational
+
+-   Edutainment
+
+-   Fun
+
+-   Stories section like IG / app store
+
+-   Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
+
+-   Karina from Korea (aespa (2020)). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
@@ -689,7 +717,27 @@ One example of *nudge* are the small UI updates released by Google across its po
 | 1   | Google Maps    | Show routes with lower CO2 emissions |
 | 2   | Google Flights | Show CO2 emissions                   |
 
-“Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” https://medium.com/googleplaydev/becoming-a-sustainability-aware-app-or-game-b256803dec93 https://blog.google/outreach-initiatives/sustainability/sustainability-2021/ https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/ https://blog.google/products/google-nest/nest-renew-general-availability/ https://www.climatiq.io/ https://cloud.google.com/carbon-footprint https://earthcheck.org/ https://lfca.earth/members/ https://spaceapegames.com/green https://ghgprotocol.org/ https://www.unep.org/resources/publication/playing-planet-annual-impact-report
+-   Becoming a Sustainability-Aware App or Game: “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” (Jeni Miles (2022))
+
+-   https://blog.google/outreach-initiatives/sustainability/sustainability-2021/
+
+-   https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/
+
+-   https://blog.google/products/google-nest/nest-renew-general-availability/
+
+-   https://www.climatiq.io/
+
+-   https://cloud.google.com/carbon-footprint
+
+-   https://earthcheck.org/
+
+-   https://lfca.earth/members/
+
+-   https://spaceapegames.com/green
+
+-   https://ghgprotocol.org/
+
+-   https://www.unep.org/resources/publication/playing-planet-annual-impact-report
 
 ## Conclusion {#conclusion}
 
@@ -700,6 +748,8 @@ A wide range of legislative proposals, targets, organisations, and goals already
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
 Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
+
+aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
 
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
 
@@ -724,6 +774,8 @@ Booth, M. S. (2022). *Burning up the carbon sink: How the EU’s forest biomass 
 Bouscasse, H., Gabet, S., Kerneis, G., Provent, A., Rieux, C., Ben Salem, N., Dupont, H., Troude, F., Mathy, S., & Slama, R. (2022). Designing local air pollution policies focusing on mobility and heating to avoid a targeted number of pollution-related deaths: Forward and backward approaches combining air pollution modeling, health impact assessment and cost-benefit analysis. *Environment International*, *159*, 107030. <https://doi.org/10.1016/j.envint.2021.107030>
 
 Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
+
+Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
 
@@ -797,6 +849,8 @@ Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., 
 
 Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
+Jeni Miles. (2022). Becoming a Sustainability-Aware App or Game. In *Google Play Apps & Games*.
+
 Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s greenhouse gas reductions could be wiped out by 2020 wildfires. *Environmental Pollution*, *310*, 119888. <https://doi.org/10.1016/j.envpol.2022.119888>
 
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
@@ -830,6 +884,8 @@ Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Com
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
 McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
+Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
 
 Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
@@ -865,6 +921,8 @@ Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluati
 
 Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
 
+Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
+
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
@@ -875,9 +933,15 @@ Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Ste
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
 
+UEBT. (2022). *Biodiversity Barometer*.
+
+UNFCCC Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA). (2022, November). Sharm el-Sheikh Implementation Plan. Revised draft decision -/CMA.4. *Sharm El-Sheikh Climate Change Conferencea*.
+
 United Nations Department of Economic and Social Affairs, Population Division. (2022). *World Population Prospects 2022: Summary of Results*. United Nations.
 
 United Nations Environment Programme. (2022). *Emissions Gap Report 2022: The Closing Window Climate crisis calls for rapid transformation of societies*.
+
+United Nations Environment Programme (UNEP). (2021). *Emissions Gap Report 2021: The Heat Is On A World of Climate Promises Not Yet Delivered*.
 
 US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 

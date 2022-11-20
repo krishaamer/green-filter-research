@@ -1,5 +1,5 @@
 ---
-title: Designing Financial AI Companions for Young Adults
+title: Designing a Financial AI Companion for Young Adults
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3
@@ -56,13 +56,92 @@ There’s early evidence it’s possible to assess the quality of LLM output in 
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
+-   Human-AI interaction is ship systems Veitch & Andreas Alsos (2022)
+-   Jiang et al. (2022)
+-   Crompton (2021)
+-   Calisto et al. (2022)
+-   Cheng et al. (2022)
+-   Schoonderwoerd et al. (2021)
+-   Ramchurn et al. (2021)
+-   Karpus et al. (2021)
+-   Lv et al. (2022)
+-   Liu & Wei (2021)
+-   AI teammates Seeber et al. (2020)
+
+### Guidelines for Human-AI interaction {#guidelines-for-human-ai-interaction}
+
+Microsoft’s (MS) Co-Founder Bill Gates predicted in 1982 *“personal agents that help us get a variety of tasks”* (Bill Gates (1982)) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022)). “We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022). Abigail Cain (2017)
+
+Microsoft provides guidelines for Human-AI interaction (T. Li et al. (2022); Amershi et al. (2019)) which provides useful heuristics categorized by context and time:
+
+| №   | Context            |     |     |
+|-----|--------------------|-----|-----|
+| 1   | Initially          |     |     |
+| 2   | During interaction |     |     |
+| 3   | When wrong         |     |     |
+| 4   | Over time          |     |     |
+
+**Amazon Alexa** is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
+
+-   Harvard Advanced Leadership Initiative (2021)
+-   https://www.youtube.com/watch?v=2mfUZcYfFjw
+
+https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/ https://www.youtube.com/watch?v=xDmQMpwiHdA https://www.youtube.com/watch?v=WT9A_I3UIq0 https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
+
+## Psychological Biases and Mental Models {#psychological-biases-and-mental-models}
+
+-   https://growth.design/psychology#familiarity-bias
+
+-   https://growth.design/psychology#skeuomorphism
+
+-   https://www.nngroup.com/articles/mental-models/
+
+-   https://growth.design/bonus/mental-model-cheat-sheet
+
+-   Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
+
+— People recognise computers as human https://www.tashkeuneman.com/ https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K\_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant
+
+— Semantic motion https://www.youtube.com/watch?v=L4knv58rlZM - Peripheral vision
+
+### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
+
+-   m1finance
+
+-   Voice AI and kids Szczuka et al. (2022)
+
+https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
+
+Companies like NeuralLink are building devices to build meaningful interactions from braing waves (EEG). New findings enable computers to reconstruct language from fMRI readings (Tang et al. (2022))
+
+-   Focus on voicend education?
+
+Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*.”* - *“Use a refillable shampoo bottle to save XYZ plastic pollution”* - *“Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”*
+
+Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
+
+There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+
+There’s evidence across disciplines about the usefulness of AI assistants:
+
+-   Şerban & Todericiu (2020) suggests using the Alex AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
+-   Celino & Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
+
+## Writing AI Characters {#writing-ai-characters}
+
+https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
+
+-   Writing as training data? large language models. GTP3
+
 ## Personalized Artificial Intelligence (AI) Interaction Design (IxD) {#personalized-artificial-intelligence-ai-interaction-design-ixd}
 
 User experience design plays a crucial role in improving the investing journey for Generation Z and identify the issue of out-of-date interaction design for Robo-Advisors in Europe. The missed opportunity to provide an even more interactive experience in line with expectations in the most successful AI advisory apps on the US market.
 
 ### Design for Sustainability and Participation {#design-for-sustainability-and-participation}
 
-Designer Alexandra Daisy Ginsberg underlines the role of design beyond *designing* as a tool for envisioning, in her words “design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be” (Lorenzo et al. (2015)). Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research, which means aiming to influence outcomes, not only be a passive observer of phenomena as a researcher or only focusing on usability as a designer without taking into account the wider context. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability. Inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design (Shenoi (2018)).
+Designer Alexandra Daisy Ginsberg underlines the role of design beyond *designing* as a tool for envisioning, in her words “design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be” (Lorenzo et al. (2015)). Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research, which means aiming to influence outcomes, not only be a passive observer of phenomena as a researcher or only focusing on usability as a designer without taking into account the wider context. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces.
+
+When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability. Inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design (Shenoi (2018)).
 
 How do the 7 tenets of user experience (UX) apply to AI?
 
@@ -88,7 +167,9 @@ Affordance measures the clarity of the interface to take action in user experien
 <Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
 ```
 
-Interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) “investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance” (Shin et al. (2020)). That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-throughs, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In the words of Easterbrook, a previous CEO of McDonald’s “How do you transition from mass marketing to mass personalization?” (Barrett, 2019). During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we’re still in the early stages. Where do we go from here?
+Interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) “investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance” (Shin et al. (2020)). That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-throughs, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
+
+In the words of Easterbrook, a previous CEO of McDonald’s “How do you transition from mass marketing to mass personalization?” (Barrett (2019)). During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we’re still in the early stages. Where do we go from here?
 
 Lovejoy, lead UX designer at Google’s people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say (Design Portland (2018)).
 
@@ -96,120 +177,77 @@ Lovejoy, lead UX designer at Google’s people-centric AI systems department (PA
 
 The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - persoalization at scale. The rise of the platform economy has given us marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting? What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance?
 
-### Amazon Alexa {#amazon-alexa}
-
-Alexa is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
-
-Companies like NeuralLink are building devices to build meaningful interactions from braing waves (EEG). New findings enable computers to reconstruct language from fMRI readings (Tang et al. (2022))
-
-## AI User Experience (UX) {#ai-user-experience-ux}
-
-“interaction design” fintech https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/ https://usabilitygeek.com/ux-design-fintech-things-to-remember/ https://www.parallelhq.com/blog/fintech-ui-ux-design https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9 https://www.youtube.com/watch?v=c_uxaOz_B1c
-
-— like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment
-
-same for crypto can be automated? people will start to discuss ESG vs price discrepancy
-
 ## AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
-https://apps.apple.com/app/id1099986434?l=en
+-   https://apps.apple.com/app/id1099986434?l=en
 
-https://www.buoyhealth.com/ https://en.wikipedia.org/wiki/CADUCEUS\_(expert_system)
+-   https://www.buoyhealth.com/
 
-Women in AI (n.d.)
+-   https://en.wikipedia.org/wiki/CADUCEUS\_(expert_system)
+
+-   Women in AI (n.d.)
 
 ## Lights-Out Manufacturing {#lights-out-manufacturing}
 
 -   https://www.machinemetrics.com/blog/lights-out-manufacturing
 -   https://www.supplychainmovement.com/self-driving-supply-chains-are-within-reach/
 
-— DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/
+## DAOs {#daos}
 
-— https://www.libevm.com/ https://twitter.com/libevm
+— DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/ — https://www.libevm.com/ - https://twitter.com/libevm - Finance and culture https://alfalfa.capital/ — Crypto investment clubs https://app.syndicate.io/clubs — Social + NFTs - What would investing look like at the scale of 1 billion people — Koreans investing into media personalities https://www.youtube.com/watch?v=VOTH1iYzVBk
 
-finance and culture https://alfalfa.capital/
+## Influencers {#influencers}
 
-— Crypto investment clubs https://app.syndicate.io/clubs
+Influencers are terrible for investing… but?
 
-— social + nfts what would investing look like at the scale of 1 billion people
+— Influencer - crypto twitter connections https://www.instagram.com/socol.io/?hl=en https://twitter.com/Irenezhao\_/status/1484031784035979265?s=20&t=6KXUo_akP42KZlGk0iLiAQ
 
-— koreans investing into media personalititeis https://www.youtube.com/watch?v=VOTH1iYzVBk
-
-— influncer - crypto twitter connections https://www.instagram.com/socol.io/?hl=en https://twitter.com/Irenezhao\_/status/1484031784035979265?s=20&t=6KXUo_akP42KZlGk0iLiAQ
-
-— lhv crypto https://fp.lhv.ee/news/newsView?newsId=5617247 https://fp.lhv.ee/news/newsView?locale=et&newsId=5616264 https://fp.lhv.ee/news/newsView?newsId=5616016
+— LHV crypto https://fp.lhv.ee/news/newsView?newsId=5617247 https://fp.lhv.ee/news/newsView?locale=et&newsId=5616264 https://fp.lhv.ee/news/newsView?newsId=5616016
 
 — DAO consumer to investor https://a16z.com/2021/10/27/investing-in-friends-with-benefits-a-dao/ https://techcrunch.com/2022/02/01/vc-backed-dao-startups-are-racing-to-define-what-daos-actually-are/ https://money.usnews.com/investing/articles/what-is-a-dao https://medium.com/blockchannel/what-is-a-dao-how-do-they-benefit-consumers-f7a0a862f3dc
 
-## Guidelines for Human-AI interaction {#guidelines-for-human-ai-interaction}
-
-https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/
-
-https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/ https://www.youtube.com/watch?v=xDmQMpwiHdA https://www.youtube.com/watch?v=WT9A_I3UIq0 https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
-
-—
-
-https://growth.design/psychology#familiarity-bias https://growth.design/psychology#skeuomorphism https://www.nngroup.com/articles/mental-models/ https://growth.design/bonus/mental-model-cheat-sheet
-
-Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
-
-— people recognise computers as human https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate https://www.tashkeuneman.com/ https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K\_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant
-
-— semantic motion https://www.youtube.com/watch?v=L4knv58rlZM peripheral vision
-
-# AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
-
-------------------------------------------------------------------------
+## AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
 ## What is Interaction Design? {#what-is-interaction-design}
 
-Interaction design is about creating a conversation between the product and the user https://www.youtube.com/watch?v=jXaL20YSsJo
+Interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user (Kolko & Connors (2010); IxDF (n.d.)).
 
-what is interaction design https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c
+-   “People expect most online interactions to follow the same social rules as person-to-person interactions. It’s a shortcut that your brain uses to quickly evaluate trustworthiness.“ (Weinschenk (2011))
 
-“People expect most online interactions to follow the same social rules as person-to-person interactions.1 It’s a shortcut that your brain uses to quickly evaluate trustworthiness.“ https://www.goodreads.com/book/show/10778139-100-things-every-designer-needs-to-know-about-people
-
-https://www.interaction-design.org/literature/topics/interaction-design
+Some of the tools used by interaction designers include (Richard Yang (2021); Justin Baker (2018)) - Red Route Analysis
 
 ## What is Personalized AI? {#what-is-personalized-ai}
 
 AI IXD is about human-centered seamless design
 
-Storytelling human-computer interaction
+-   Storytelling
 
-NEW Section for Thesis background: “Human-Friendly UX For AI” https://blog.myplanet.com/10-ui-patterns-for-a-human-friendly-ai-e86baa2a4471
+-   Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialised skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
+
+-   NEW Section for Thesis background: “Human-Friendly UX For AI” https://blog.myplanet.com/10-ui-patterns-for-a-human-friendly-ai-e86baa2a4471
 
 Discuss what is UX for AI (per prof Liou’s comment), so it’s clear this is about UX for AI
 
 # Companions, Partners, Assistants {#companions-partners-assistants}
 
-AI companions, AI partners, AI assistants, AI trainers - there’s are many names for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
+AI companions, AI partners, AI assistants, AI trainers - there’s are many names for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support. There’s a saying in Estonian: “A good child has many names” “and it’s true. I have many names, but I’m not a child. I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. The number of AI-powered assistants is too large to list here. I’ve chosen a few select examples in the table below.
 
-Microsoft provides guidelines for AI-Human interaction (Saleema Amershi et al. (n.d.)) which provides useful heuristics categorized by context and time: 1. Initially 2. During interaction 3. When wrong 4. Over time (Amershi et al. (2019))
+Some have an avatar, some not. I’ve created a framwork for categorization. Human-like or not… etc
 
-There’s a saying in Estonian: “A good child has many names” “and it’s true. I have many names, but I’m not a child. I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. The number of AI-powered assistants is too large to list here. I’ve chosen a few select examples in the table below.
+| №   | Name                    | Link                                               | Description          |
+|---|----------------|-----------------------------|-------------------------|
+| 1   | Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
+| 2   | Google Translate        | https://translate.google.com/                      |                      |
+| 3   | Google Search           | https://www.google.com/                            |                      |
+| 4   | Google Interview Warmup | https://grow.google/certificates/interview-warmup/ | AI training tool     |
 
-Some have an avatar, some not. I’ve created a framwork for categorization. Human-like or not… etcxx
-
-| №   | Name                    | Link                                               |
-|---|--------------------------------------------|-------------------------|
-| 1   | Github CoPilot          | https://www.personal.ai                            |
-| 2   | Google Translate        | https://translate.google.com/                      |
-| 3   | Google Search           | https://www.google.com/                            |
-| 4   | Google Interview Warmup | https://grow.google/certificates/interview-warmup/ |
-
-Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.) Google Flights suggests fligts with lower CO2 emissions
-
-CO2e calculations will be part of our everyday experience
+-   Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.)
+-   Google Flights suggests fligts with lower CO2 emissions
+-   CO2e calculations will be part of our everyday experience
 
 ``` mdx-code-block
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-
-## Human-AI Interaction {#human-ai-interaction}
-
--   Harvard Advanced Leadership Initiative (2021)
--   https://www.youtube.com/watch?v=2mfUZcYfFjw
 
 ## Calm Technology {#calm-technology}
 
@@ -218,35 +256,6 @@ CO2e calculations will be part of our everyday experience
 ## Generative AI {#generative-ai}
 
 Singer et al. (2022) describes how collecting billions of images with descriptive data (for example the html *alt* text) has enabled researchers to train AI models such as *stable diffusion* that can generate images based on human-language keywords.
-
-## Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
-
-m1finance
-
-https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
-
-## Voice {#voice}
-
-focus on voice? and education?
-
-Bill Gates predicted “personal agents that help us get a variety of tasks” https://www.pcmag.com/news/bill-gates-on-the-next-40-years-in-technolog
-
-Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*.”* - *“Use a refillable shampoo bottle to save XYZ plastic pollution”* - *“Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”*
-
-Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
-
-There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
-
-There’s evidence across disciplines about the usefulness of AI assistants:
-
--   Şerban & Todericiu (2020) suggests using the Alex AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
--   Celino & Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
-
-## Writing AI Characters {#writing-ai-characters}
-
-https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
-
-writing as training data? large language models. GTP3
 
 ## Retail Investor Helpers {#retail-investor-helpers}
 
@@ -275,8 +284,6 @@ The more people use a platform, the more valuable it becomes.
 
 ai is usually a model that spits out a number between 0 and 1, a probablility score or prediction. ux is what we do with this number
 
-“We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022) — Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022))
-
 — natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
 — state of ai https://docs.google.com/presentation/d/1bwJDRC777rAf00Drthi9yT2c9b0MabWO5ZlksfvFzx8/edit#slide=id.gf318ff6067_0\_26
@@ -301,26 +308,20 @@ https://maggieappleton.com/algorithmic-transparency
 
 -   “user experience and usability of algorithms by focusing on users’ cognitive process to understand how qualities/features are received and transformed into experiences and interaction” Shin (2020)
 
-## Replika {#replika}
+## AI Ethics {#ai-ethics}
 
-https://thenextweb.com/news/confused-replika-ai-users-are-standing-up-for-bots-trying-bang-the-algorithm?utm_medium=Social&utm_source=Facebook&fbclid=IwAR1vRAEzouMeZKbS9nux3SuUPSRHiuPKCTizkRSXke_Lq27O9aU92TPdrIE#Echobox=1642554680
-
-— ai is not neutral https://www.algotransparency.org/our-manifesto.html
-
-— AI Design Assistants https://clipdrop.co/
-
-Conversational AI
+— AI is not neutral https://www.algotransparency.org/our-manifesto.html — AI Design Assistants https://clipdrop.co/ - Conversational AI - Replika: when the quality of AI responses become good enough, people begin to get confused (Tristan Greene (2022))
 
 ## AI Acceptance {#ai-acceptance}
 
 -   “AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety.” Yuan et al. (2022)
 -   “Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior.” Gratch & Fast (2022)
--   Anthropomorphism literature Li & Sung (2021) “high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly”
+-   Anthropomorphism literature X. Li & Sung (2021) “high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly”
 -   AI-assistants in medical imaging Calisto et al. (2021)
 
 !!!
 
-AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? myfitness pal, aintraining assistanr
+-   AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant
 
 ## AI-Assisted Design {#ai-assisted-design}
 
@@ -343,7 +344,7 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 ## Young Adults {#young-adults}
 
-Most people in the US don’t act on climate change ((**rossClimateChangeChallenge2016?**))
+Most people in the US don’t act on climate change (Ross et al. (2016))
 
 Rooney-Varga et al. (2019) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
 
@@ -379,18 +380,29 @@ The demographics that stand to win the most from the green transformation of bus
 
 ## References {#references .unnumbered}
 
+Abigail Cain. (2017). The Life and Death of Microsoft Clippy, the Paper Clip the World Loved to Hate. In *Artsy*. https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate.
+
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J., Kikin-Gil, R., & Horvitz, E. (2019, May). Guidelines for human-AI interaction. *CHI 2019*.
-<span class="csl-block">CHI 2019 Honorable Mention Award</span>
 
 Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe XD Ideas*.
 
+Barrett, B. (2019). McDonald’s Acquires Machine-Learning Startup Dynamic Yield for \$300 Million. *Wired*.
+
+Bill Gates. (1982). *Bill Gates on the Next 40 Years in Technology*.
+
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
+
+Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2022). BreastScreening-AI: Evaluating medical intelligent agents for human-AI interactions. *Artificial Intelligence in Medicine*, *127*, 102285. <https://doi.org/10.1016/j.artmed.2022.102285>
 
 Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2021). Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification. *International Journal of Human-Computer Studies*, *150*, 102607. <https://doi.org/10.1016/j.ijhcs.2021.102607>
 
 Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
+
+Cheng, X., Zhang, X., Yang, B., & Fu, Y. (2022). An investigation on trust in <span class="nocase">AI-enabled</span> collaboration: Application of AI-Driven chatbot in accommodation-based sharing economy. *Electronic Commerce Research and Applications*, *54*, 101164. <https://doi.org/10.1016/j.elerap.2022.101164>
+
+Crompton, L. (2021). The decision-point-dilemma: Yet another problem of responsibility in human-AI interaction. *Journal of Responsible Technology*, *7–8*, 100013. <https://doi.org/10.1016/j.jrt.2021.100013>
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
 
@@ -398,24 +410,47 @@ Gratch, J., & Fast, N. J. (2022). The power to harm: AI assistants pave the way 
 
 Harvard Advanced Leadership Initiative. (2021). *Human-AI Interaction: From Artificial Intelligence to Human Intelligence Augmentation*.
 
+IxDF. (n.d.). *What is Interaction Design?* https://www.interaction-design.org/literature/topics/interaction-design.
+
+Jiang, Q., Zhang, Y., & Pian, W. (2022). Chatbot as an emergency exist: Mediated empathy for resilience via human-AI interaction during the COVID-19 pandemic. *Information Processing & Management*, *59*(6), 103074. <https://doi.org/10.1016/j.ipm.2022.103074>
+
+Justin Baker. (2018). Red Routes Critical Design Paths That Make or Break Your App. In *Muzli*. https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a.
+
+Karpus, J., Krüger, A., Verba, J. T., Bahrami, B., & Deroy, O. (2021). Algorithm exploitation: Humans are keen to exploit benevolent AI. *iScience*, *24*(6), 102679. <https://doi.org/10.1016/j.isci.2021.102679>
+
 Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
 
+Kolko, J., & Connors, C. (2010). *Thoughts on interaction design: A collection of reflections*. Morgan Kaufmann.
+<span class="csl-block">First published: Savannah, GA : Brown Bear, c2007</span>
+
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
+
+Li, T., Vorvoreanu, M., DeBellis, D., & Amershi, S. (2022). Assessing human-AI interaction early through factorial surveys: A study on the guidelines for human-AI interaction. *ACM Transactions on Computer-Human Interaction*.
 
 Li, X., & Sung, Y. (2021). Anthropomorphism brings us closer: The mediating role of psychological distance in User assistant interactions. *Computers in Human Behavior*, *118*, 106680. <https://doi.org/10.1016/j.chb.2021.106680>
 
 Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., Newman, B., Yuan, B., Yan, B., Zhang, C., Cosgrove, C., Manning, C. D., Ré, C., Acosta-Navas, D., Hudson, D. A., … Koreeda, Y. (2022). *Holistic Evaluation of Language Models* (No. arXiv:2211.09110). arXiv. <https://arxiv.org/abs/2211.09110>
 <span class="csl-block">Comment: Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Project page: https://crfm.stanford.edu/helm/v1.0</span>
 
+Liu, B., & Wei, L. (2021). Machine gaze in online behavioral targeting: The effects of algorithmic human likeness on social presence and social influence. *Computers in Human Behavior*, *124*, 106926. <https://doi.org/10.1016/j.chb.2021.106926>
+
 Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friendlier Biological Future. In *Fast Company*. https://www.fastcompany.com/3051140/daisy-ginsberg-is-natures-most-deadly-synthetic-designer.
 
+Lv, X., Luo, J., Liang, Y., Liu, Y., & Li, C. (2022). Is cuteness irresistible? The impact of cuteness on customers’ intentions to use AI applications. *Tourism Management*, *90*, 104472. <https://doi.org/10.1016/j.tourman.2021.104472>
+
 Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
+
+Ramchurn, S. D., Stein, S., & Jennings, N. R. (2021). Trustworthy human-AI partnerships. *iScience*, *24*(8), 102891. <https://doi.org/10.1016/j.isci.2021.102891>
+
+Richard Yang. (2021). Interaction design is more than just user flows and clicks. In *UX Collective*. https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c.
 
 Rooney-Varga, J., Kapmeier, F., Sterman, J., Jones, A., Putko, M., & Rath, K. (2019). The climate action simulation. *Simulation & Gaming*, *51*, 104687811989064. <https://doi.org/10.1177/1046878119890643>
 
 Ross, L., Arrow, K., Cialdini, R., Diamond-Smith, N., Diamond, J., Dunne, J., Feldman, M., Horn, R., Kennedy, D., Murphy, C., Pirages, D., Smith, K., York, R., & Ehrlich, P. (2016). The Climate Change Challenge and Barriers to the Exercise of Foresight Intelligence. *BioScience*, *66*(5), 363–370. <https://doi.org/10.1093/biosci/biw025>
 
-Saleema Amershi, Mihaela Vorvoreanu, & Eric Horvitz. (n.d.). Guidelines for human-AI interaction design. In *Microsoft Research*. https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/.
+Schoonderwoerd, T. A. J., Jorritsma, W., Neerincx, M. A., & van den Bosch, K. (2021). Human-centered XAI: Developing design patterns for explanations of clinical decision support systems. *International Journal of Human-Computer Studies*, *154*, 102684. <https://doi.org/10.1016/j.ijhcs.2021.102684>
+
+Seeber, I., Bittner, E., Briggs, R. O., de Vreede, T., de Vreede, G.-J., Elkins, A., Maier, R., Merz, A. B., Oeste-Reiß, S., Randrup, N., Schwabe, G., & Söllner, M. (2020). Machines as teammates: A research agenda on AI in team collaboration. *Information & Management*, *57*(2), 103174. <https://doi.org/10.1016/j.im.2019.103174>
 
 Şerban, C., & Todericiu, I.-A. (2020). Alexa, what classes do I have today? The use of artificial intelligence via smart speakers in education. *Procedia Computer Science*, *176*, 2849–2857. <https://doi.org/10.1016/j.procs.2020.09.269>
 <span class="csl-block">Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020</span>
@@ -430,6 +465,8 @@ Singer, U., Polyak, A., Hayes, T., Yin, X., An, J., Zhang, S., Hu, Q., Yang, H.,
 
 Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.stanford.edu/entries/turing-test/.
 
+Szczuka, J. M., Strathmann, C., Szymczyk, N., Mavrina, L., & Krämer, N. C. (2022). How do children acquire knowledge about voice assistants? A longitudinal field study on children’s knowledge about how voice assistants store and process data. *International Journal of Child-Computer Interaction*, *33*, 100460. <https://doi.org/10.1016/j.ijcci.2022.100460>
+
 Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the capabilities, limitations, and societal impact of large language models*. arXiv. <https://doi.org/10.48550/arxiv.2102.02503>
 
 Tang, J., LeBel, A., Jain, S., & Huth, A. G. (2022). *Semantic reconstruction of continuous language from non-invasive brain recordings* \[Preprint\]. Neuroscience. <https://doi.org/10.1101/2022.09.29.509744>
@@ -438,9 +475,15 @@ Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 
+Tristan Greene. (2022). Confused Replika AI users are trying to bang the algorithm. In *TNW*. https://thenextweb.com/news/confused-replika-ai-users-are-standing-up-for-bots-trying-bang-the-algorithm.
+
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
 
 Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
+
+Veitch, E., & Andreas Alsos, O. (2022). A systematic review of human-AI interaction in autonomous ship systems. *Safety Science*, *152*, 105778. <https://doi.org/10.1016/j.ssci.2022.105778>
+
+Weinschenk, S. (2011). *100 things every designer needs to know about people*. New Riders.
 
 Women in AI. (n.d.). How can AI assistants help patients monitor their health? In *Spotify*. https://open.spotify.com/episode/3dL4m7ciCY0tnirZT2emzs.
 
