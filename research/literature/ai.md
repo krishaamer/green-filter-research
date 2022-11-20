@@ -77,13 +77,23 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | 6   | Desirable  |
 | 7   | Credible   |
 
-### Data Visualisation {#data-visualisation}
+## Data Visualisation {#data-visualisation}
 
 Global temperature measurement starts from the 1880s where we have the first records from ships. Industrial revolution Long history, starting with Alexander von Humboldt.
 
 ``` mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
+
+### Making CO2 Visible {#making-co2-visible}
+
+When will Bolt show CO2 emissions per every trip?
+
+— how co2 is shown by googlee https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+
+… *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
+
+Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
 
 ### Interaction and Algorithmic Experience Design {#interaction-and-algorithmic-experience-design}
 
@@ -118,10 +128,6 @@ Companies like NeuralLink are building devices to build meaningful interactions 
 — like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment
 
 same for crypto can be automated? people will start to discuss ESG vs price discrepancy
-
-— what is product design? https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
-
-“digital sustainability principles”
 
 ## AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
@@ -158,7 +164,7 @@ finance and culture https://alfalfa.capital/
 
 https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/
 
-https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/ https://www.youtube.com/watch?v=xDmQMpwiHdA https://www.youtube.com/watch?v=WT9A_I3UIq0 https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
+https://www.hcii.cmu.edu/courses/human-ai-interaction https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/ https://www.youtube.com/watch?v=xDmQMpwiHdA https://www.youtube.com/watch?v=WT9A_I3UIq0 https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
 
 —
 
@@ -169,16 +175,6 @@ Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?
 — people recognise computers as human https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate https://www.tashkeuneman.com/ https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K\_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant
 
 — semantic motion https://www.youtube.com/watch?v=L4knv58rlZM peripheral vision
-
-# Making CO2 Visible {#making-co2-visible}
-
-When will Bolt show CO2 emissions per every trip?
-
-— how co2 is shown by googlee https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
-
-… *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
-
-Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
 
 # AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
@@ -298,7 +294,7 @@ The more people use a platform, the more valuable it becomes.
 
 ai is usually a model that spits out a number between 0 and 1, a probablility score or prediction. ux is what we do with this number
 
-“We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022)
+“We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022) — Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022))
 
 — natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
@@ -354,8 +350,6 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 #interactiondesign #aiassistants
 
 — bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
-
-— Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022))
 
 — sustainable ai itself https://link.springer.com/article/10.1007/s43681-021-00043-6
 

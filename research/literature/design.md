@@ -45,6 +45,10 @@ The European Commision has proposed a *Digital Product Passports* to help compan
 -   https://www.climatepartner.com/en/news/labelling-consumer-goods
 -   https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03
 
+The largest per capita CO2 emissions come from Oil Producers https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
+
+55% of emissions come from energy production.
+
 ## Design for Circularity {#design-for-circularity}
 
 -   McDonough & Braungart (2002)
@@ -77,7 +81,7 @@ Burning of biomass undermines carbon capture.
 
 ## History {#history}
 
-Father of climatology Alexander von Humboldt Isotherms https://isotherms.simply.earth/?utm_term=FatherOfClimatology https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
+Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simply.earth/?utm_term=FatherOfClimatology - https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
 ## Sustainability {#sustainability}
 
@@ -87,7 +91,7 @@ Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’�
 
 ## Disasters {#disasters}
 
-Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
+-   Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
 
 ## Scalable Climate Solutions {#scalable-climate-solutions}
 
@@ -99,11 +103,15 @@ https://www.wri.org/research/state-nationally-determined-contributions-2022
 
 ## Health {#health}
 
-https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
+-   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
 
-https://www.ncbi.nlm.nih.gov/books/NBK202304/ https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199325337.001.0001/acprof-9780199325337 https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/0199325332
+-   https://www.ncbi.nlm.nih.gov/books/NBK202304/
 
-“Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
+-   https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199325337.001.0001/acprof-9780199325337
+
+-   https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/0199325332
+
+-   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
 
 ## Emission Scopes {#emission-scopes}
 
@@ -137,7 +145,7 @@ Both the European Commission and the Chair of U.S. Securities and Exchange Commi
 
 Sometimes greenwashing comes under legislative protection: - “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
 
-– **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
+**Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
 ## Carbon Labelling {#carbon-labelling}
 
@@ -174,11 +182,11 @@ Most sustainable companies. make a database? - https://growensemble.com/environm
 
 Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing. Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
 
-## Sustainable Finance {#sustainable-finance}
+## What is Product Design? {#what-is-product-design}
 
-UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
+https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
 
-“We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilise capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
+“digital sustainability principles”
 
 ## Carbon Markets {#carbon-markets}
 
@@ -200,7 +208,7 @@ United Nations Convention on Biodiversity
 
 lack of transparency
 
-— - Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
+-   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 
 ## Design for Sustainability {#design-for-sustainability-2}
 
@@ -210,19 +218,9 @@ lack of transparency
 
 https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
 
-## Farm to Fork {#farm-to-fork}
-
-https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
-
 ## Taxonomies {#taxonomies}
 
 -   Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
-
-## Five user models / roles {#five-user-models-roles}
-
-https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf https://dontlookup.count-us-in.com/methodology
-
-– Consumer – Investor – Activist – .. – ..
 
 ## Carbon Inequality {#carbon-inequality}
 
@@ -234,15 +232,94 @@ European Environment Agency (EEA) estimates based on trade and production data t
 
 Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (Christiansen et al. (2021)). French EPR scheme was upgraded in 2020 to become more circular (Jacques Vernier (2021)). In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (HKTDC Research (2022)).
 
-There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021))
+There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021)) Sneakers made from coffee https://twitter.com/RensOriginal
 
 Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing ecodesign “respects the boundaries of our planet” European Commission (2022)
+
+fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E — sustainable fashion company evaluations: https://goodonyou.eco/ ethical brand ratings. gstar https://directory.goodonyou.eco/brand/g-star-raw https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
+
+worker rights. https://www.instagram.com/p/CUXjfzfr7Ze/ — problem: report says there’s not enough transparency in fashion: https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022/amp can’t be held accountable for their actions (or indeed, their lack of action https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp new york fashion law: https://www.newstandardinstitute.org/ https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp
+
+— https://wikirate.org/ https://cordis.europa.eu/project/id/688364 https://fashionchecker.org/
+
+— circular textiles https://www.youtube.com/watch?v=pE9Xyk8eL_s&list=PLGI5qsCI2tYhq1_Gs3GQY1IlDbysDPurS
+
+fashion https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/ — fashion transparency https://www.fashionrevolution.org/about/transparency/ https://cleanclothes.org/ https://fashionchecker.org/
+
+“The mainstream fashion industry is built upon the exploitation of labour, natural resources and the knowledge of historically marginalised peoples.”
+
+https://textilegenesis.com/
+
+“Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
+
+https://www.stand.earth/ https://www.newstandardinstitute.org/ https://www.bgmea.com.bd/
+
+“mong the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.” https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
+
+https://www.linkedin.com/showcase/ecotextile-news/
+
+materials matter in fashion https://textileexchange.org/
+
+-   https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i
+
+minimize shopping, buy quality, save co2, invest
+
+— Ethical fashion https://textileexchange.org/ materials matter
+
+Policy request: https://textileexchange.org/trade-policy-request-cop26/
+
+## Fast Fashion {#fast-fashion}
+
+-   Free clothes
+-   generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sust fashion brands
+
+fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8#myft:notification:daily-email:content https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287 https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html https://infinitedfiber.com/ https://www.cleantech.com/the-global-cleantech-100/
+
+Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
+
+## Sustainable Fashion {#sustainable-fashion}
+
+https://renoon.com/ Ethical Shopping
+
+https://eu.sheepinc.com/?v=1666529932643
 
 ## Food {#food}
 
 Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
 
-*Intensive Farming Practices*
+Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+1.  *“The diagnostic perspective: All hands on deck to fix the climate”*
+2.  *“The regenerative perspective: Diversity, soil health and organic agriculture to the rescue”*
+3.  *“The fossil-free perspective: Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”*
+4.  *“The consumer-driven perspective: A wish-list of healthy, high-quality and climate-friendly foods”*
+5.  \_ “The hands-on perspective: Tangible solutions within the reach of consumers and the food industry”\_
+
+— where to shop rankings for groceries — list worst offenders in terms of products — shop and investi according to your values
+
+— Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
+
+less impact of food https://techcrunch.com/2022/08/11/kuri-app/ https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
+
+— Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
+
+## Food Sovereignty {#food-sovereignty}
+
+“The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
+
+“We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, [climate change](#climate-change) doesn’t affect our produce.” https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
+
+Vertical farm in taoyuan https://www.taiwannews.com.tw/en/news/3387047
+
+### Farm to Fork {#farm-to-fork}
+
+*Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
+
+—- Farm to table
+
+https://techcrunch.com/tag/farm-to-table/
+
+https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU https://lowercarboncapital.com/companies/
 
 ## Actionable Insights {#actionable-insights}
 
@@ -437,13 +514,21 @@ Use personas to articulate assumptions
 
 Persona: I care mostly about… fashion, art, plap
 
+### Five user models / roles {#five-user-models-roles}
+
+https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf https://dontlookup.count-us-in.com/methodology
+
+– Consumer – Investor – Activist – .. – ..
+
 ## Data-Driven Design {#data-driven-design}
 
 Rebuilt the app as a personalized, narrative lifestyle feed
 
 ## Design for Recycling {#design-for-recycling}
 
--   https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth “rethinking product design and inspiring consumers to expect more from their devices”
+-   https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth
+
+-   “rethinking product design and inspiring consumers to expect more from their devices”
 
 -   “design is a tool to make complexity comprehensible” like the helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
 
@@ -453,7 +538,10 @@ https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
 
 Create a design system!!!! best to showcase my analytic skills
 
-https://www.invisionapp.com/inside-design/guide-to-design-systems/ https://www.designbetter.co/design-systems-handbook https://design.google/library/google-design-leadership-margaret-lee/ https://atomicdesign.bradfrost.com/
+-   https://www.invisionapp.com/inside-design/guide-to-design-systems/
+-   https://www.designbetter.co/design-systems-handbook
+-   https://design.google/library/google-design-leadership-margaret-lee/
+-   https://atomicdesign.bradfrost.com/
 
 ## Community’s Role in Design {#communitys-role-in-design}
 
@@ -535,7 +623,13 @@ https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transpar
 — \| ——————- \| ——————————————- \|  
 1 \| Ocean Protocol \| https://oceanprotocol.com/ \|
 
-WikiRate OpenData Transpareencyy - https://www.linkedin.com/in/laureen-van-breen-67b23056/ - https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
+### OpenData {#opendata}
+
+-   WikiRate is a tool for checking green credentials Transpareencyy
+
+-   https://www.linkedin.com/in/laureen-van-breen-67b23056/
+
+-   https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
 
 -   https://chainreact.org/
 
@@ -766,6 +860,8 @@ Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen 
 Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022). The Big Compost Experiment: Using citizen science to assess the impact and effectiveness of biodegradable and compostable plastics in UK home composting. *Front. Sustain.*, *3*, 942724. <https://doi.org/10.3389/frsus.2022.942724>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
+
+Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
 
 Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental sustainability: Collect and use company information to design green products. *Procedia CIRP*, *105*, 823–828. <https://doi.org/10.1016/j.procir.2022.02.136>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
