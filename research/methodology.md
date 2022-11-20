@@ -24,6 +24,10 @@ import Methodology from './images/research-methodology.png'
 | 5   | XYZ                  | Expert Interview  |                                                                                |                                                        |
 | 6   | ABC                  | User Survey       |                                                                                |                                                        |
 
+## Factorial Surveys {#factorial-surveys}
+
+“Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations” (Li et al. (2022))
+
 Your Green Helper
 
 thesis: if we all acted more like investors instead of consumers, the world would be a better place
@@ -203,4 +207,6 @@ A focus group of 6 to 10 people will be gathered in Tainan. Because in-person pr
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
 
-## References {#references}
+## References {#references .unnumbered}
+
+Li, T., Vorvoreanu, M., DeBellis, D., & Amershi, S. (2022). Assessing human-AI interaction early through factorial surveys: A study on the guidelines for human-AI interaction. *ACM Transactions on Computer-Human Interaction*.
