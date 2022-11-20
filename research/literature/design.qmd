@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+```{=mdx}
+import Figure from '/src/components/Figure'
+import Humboldt from '../images/humboldt.jpg'
+```
+
 # Design for Sustainability
 
 ## What is Sustainability?
@@ -56,7 +61,7 @@ https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
 In November 2022, Planet Earth's population reached 8 Billion people (@theeconomictimesClimateChangeEarth2022) and is projected to reach 8.5B in 2030 and 9.7B in 2050(@unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022). While population growth puts higher pressure on Earth's resources, the effect is more from wasteful lifestyles than the number of people (FIND CITATION).
 
 ### Overconsumption, Climate Change, Pollution
-Overconsumption is one of the root causes of climate change and marine plastic pollution. @FORD2022150392 and @laversFarDistractionPlastic2022a suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
+Overconsumption is one of the root causes of climate change and marine plastic pollution. @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
 
 ### Fossil Fuels and Energy
 There's evidence from several countries suggesting moving to renewal energy brings benefits:
@@ -611,7 +616,31 @@ I'm interested in the concept of a "social object" https://medium.com/we-researc
 
 — What percent of all design is “sustainable design” ? Promoting sustainable design
 
-## Visualise CO2
+## Data Visualisation
+Global temperature measurement starts from the 1880s where we have the first records from ships.
+Industrial revolution
+Long history, starting with Alexander von Humboldt.
+
+```{=mdx}
+<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
+
+### Making CO2 Visible
+When will Bolt show CO2 emissions per every trip?
+
+—
+how co2 is shown by googlee
+https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+
+…
+*Google UX eco features*
+https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel
+https://www.youtube.com/watch?v=MbHuSHGZf5U
+VERY IMPORTANTT
+
+Google green routes
+https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
+
 check carbon impact
 https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
@@ -679,7 +708,7 @@ Make open data easy to use in everyday life
 Head of Product Design at Webflow (@davidhoangCreatingInterfaceStudies2022) suggests taking cues from art studies to _isolate the core problem_. "An art study is any action done with the intention of learning about the subject you want to draw". As a former art student, Hoang looks at an interface as _"a piece of design is an artwork with function"_.
 
 ### Speculative Design
-The question on the intersection of user experience design and speculation have been termed _'speculative design'_ by Anthony Dunne and Fiona Raby in their seminal book (@anthonydunneSpeculativeEverything2013). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+The question on the intersection of user experience design and speculation have been termed _'speculative design'_ by Anthony Dunne and Fiona Raby in their seminal book (@dunneSpeculativeEverythingDesign2013). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
 In our investment AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 

@@ -10,7 +10,6 @@ editor:
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
-import Humboldt from '../images/humboldt.jpg'
 import Replika from '../images/with-me.png'
 ```
 
@@ -72,32 +71,6 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | 5   | Findable        | 
 | 6   | Desirable        | 
 | 7   | Credible        | 
-
-## Data Visualisation
-Global temperature measurement starts from the 1880s where we have the first records from ships.
-Industrial revolution
-Long history, starting with Alexander von Humboldt.
-
-```{=mdx}
-<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
-```
-
-### Making CO2 Visible
-When will Bolt show CO2 emissions per every trip?
-
-—
-how co2 is shown by googlee
-https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
-
-…
-*Google UX eco features*
-https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel
-https://www.youtube.com/watch?v=MbHuSHGZf5U
-VERY IMPORTANTT
-
-Google green routes
-https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
-
 
 ### Interaction and Algorithmic Experience Design
 To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user's emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be "optimized for human well-being" (@theinternationalergonomicsassociationHumanFactorsErgonomics2019), software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more. "[T]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system" (@babichInteractionDesignVs2019).
@@ -457,7 +430,7 @@ https://charisma.ai/register
 
 
 ## Young Adults
-Most people in the US don't act on climate change (@rossClimateChangeChallenge2016)
+Most people in the US don't act on climate change (@rossClimateChangeChallenge2016a)
 
 @RooneyVargaClimateActionSimulation2019 shows the effictiveness of **_The Climate Action Simulation_** in educating users about success scenarios.
 

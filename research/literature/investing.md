@@ -26,6 +26,28 @@ There’s a growing literature suggesting it’s possible to make investments th
 
 “changing our relationship with money”
 
+## Realtime ESG {#realtime-esg}
+
+-   Instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/
+
+-   Product sustainability modeling https://makersite.io/product-sustainability/
+
+-   “Real-time ESG data is more difficult to greenwash”, “supply chain is a significant source of ESG content” (Tim Nicolle (n.d.))
+
+There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
+
+FlowIT
+
+-   Automate CO2 calculations realtime:
+
+-   https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
+
+-   “Factory social score”.
+
+People working at the factories can report conditions
+
+-   “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.” https://www.esganalytics.io/
+
 ## Financial Inclusion {#financial-inclusion}
 
 Tan (2020) proposes *“financial ecologies”* to understand the dynanic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (availble in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
@@ -749,6 +771,8 @@ Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. 
 Swedbank. (n.d.). *EasySaver*.
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
+
+Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
 Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority Publishing.
 

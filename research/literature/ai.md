@@ -10,7 +10,6 @@ editor:
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
-import Humboldt from '../images/humboldt.jpg'
 import Replika from '../images/with-me.png'
 ```
 
@@ -77,24 +76,6 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | 6   | Desirable  |
 | 7   | Credible   |
 
-## Data Visualisation {#data-visualisation}
-
-Global temperature measurement starts from the 1880s where we have the first records from ships. Industrial revolution Long history, starting with Alexander von Humboldt.
-
-``` mdx-code-block
-<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
-```
-
-### Making CO2 Visible {#making-co2-visible}
-
-When will Bolt show CO2 emissions per every trip?
-
-— how co2 is shown by googlee https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
-
-… *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
-
-Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
-
 ### Interaction and Algorithmic Experience Design {#interaction-and-algorithmic-experience-design}
 
 To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being” (The International Ergonomics Association (2019)), software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more. “\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system” (Babich (2019)).
@@ -121,7 +102,7 @@ Alexa is the most well-known example of AI technology in the world. But Amazon�
 
 Companies like NeuralLink are building devices to build meaningful interactions from braing waves (EEG). New findings enable computers to reconstruct language from fMRI readings (Tang et al. (2022))
 
-## User Experience (UX) {#user-experience-ux}
+## AI User Experience (UX) {#ai-user-experience-ux}
 
 “interaction design” fintech https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/ https://usabilitygeek.com/ux-design-fintech-things-to-remember/ https://www.parallelhq.com/blog/fintech-ui-ux-design https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9 https://www.youtube.com/watch?v=c_uxaOz_B1c
 

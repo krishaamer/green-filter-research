@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+``` mdx-code-block
+import Figure from '/src/components/Figure'
+import Humboldt from '../images/humboldt.jpg'
+```
+
 # Design for Sustainability {#design-for-sustainability}
 
 ## What is Sustainability? {#what-is-sustainability}
@@ -36,11 +41,11 @@ Growing public understanding of how nature works and intersects with our use of 
 
 The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
-## Digital Product Passports {#digital-product-passports}
+### Digital Product Passports {#digital-product-passports}
 
 The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
 
-## Carbon Emission Labeling {#carbon-emission-labeling}
+### Carbon Emission Labeling {#carbon-emission-labeling}
 
 -   https://www.climatepartner.com/en/news/labelling-consumer-goods
 -   https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03
@@ -49,31 +54,31 @@ The largest per capita CO2 emissions come from Oil Producers https://data.worldb
 
 55% of emissions come from energy production.
 
-## Design for Circularity {#design-for-circularity}
+### Design for Circularity {#design-for-circularity}
 
 -   McDonough & Braungart (2002)
 -   Dull (2021)
 
-## Population {#population}
+### Population {#population}
 
 In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)) and is projected to reach 8.5B in 2030 and 9.7B in 2050(United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, the effect is more from wasteful lifestyles than the number of people (FIND CITATION).
 
-## Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
+### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
 
-Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and (**laversFarDistractionPlastic2022a?**) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
-## Fossil Fuels and Energy {#fossil-fuels-and-energy}
+### Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
 There’s evidence from several countries suggesting moving to renewal energy brings benefits:
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 -   Considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective (Low et al. (2022))
 
-## Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
+### Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 
 The true cost of products is hidden. The work is hidden.
 
-## Forests {#forests}
+### Forests {#forests}
 
 Europe rapidly losing its forest carbon sink: https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
 
@@ -89,11 +94,11 @@ commodities!! — the most effective things are — food — transport — fashi
 
 Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
 
-## Disasters {#disasters}
+### Disasters {#disasters}
 
 -   Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
 
-## Scalable Climate Solutions {#scalable-climate-solutions}
+### Scalable Climate Solutions {#scalable-climate-solutions}
 
 …
 
@@ -101,7 +106,7 @@ Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’�
 
 https://www.wri.org/research/state-nationally-determined-contributions-2022
 
-## Health {#health}
+### Health {#health}
 
 -   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
 
@@ -113,7 +118,7 @@ https://www.wri.org/research/state-nationally-determined-contributions-2022
 
 -   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”’ https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
 
-## Emission Scopes {#emission-scopes}
+### Emission Scopes {#emission-scopes}
 
 The U.S. National Public Utilities Council (NPUC) utility decarbonization report (National Public Utilities Council (2022)) provides a useful categorizaton of company emissions:
 
@@ -123,7 +128,7 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
-## Greenwashing {#greenwashing}
+### Greenwashing {#greenwashing}
 
 Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling.
 
@@ -147,17 +152,17 @@ Sometimes greenwashing comes under legislative protection: - “A recent investi
 
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
-## Carbon Labelling {#carbon-labelling}
+### Carbon Labelling {#carbon-labelling}
 
 Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). While academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption.
 
 Although there’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible (Lohmann et al. (2022)). Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by Edenbrandt & Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
 
-## Climate Change {#climate-change}
+### Climate Change {#climate-change}
 
 -   Tipping points Armstrong McKay et al. (2022)
 
-## European Green Deal {#european-green-deal}
+### European Green Deal {#european-green-deal}
 
 -   https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
 -   https://en.wikipedia.org/wiki/European_Green_Deal
@@ -170,25 +175,19 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 Europe is the hotbed of sustainabillity - https://www.visualcapitalist.com/most-sustainable-companies/ - https://lautrecouleur.com/notable-sustainable-companies-in-florida/ - https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
 
-## Minimalism {#minimalism}
+### Minimalism {#minimalism}
 
 Finnish socialists: minimalism - https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
 
 — China emission trading scheme - https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
 
-## Database {#database}
+### Database {#database}
 
 Most sustainable companies. make a database? - https://growensemble.com/environmentally-friendly-companies/ - https://www.themuse.com/advice/companies-making-the-planet-better-2020 - https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/ - https://earthandhuman.org/most-sustainable-companies/ - https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4 - https://earth.org/worlds-most-sustainable-companies-in-2021/
 
 Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing. Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
 
-## What is Product Design? {#what-is-product-design}
-
-https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
-
-“digital sustainability principles”
-
-## Carbon Markets {#carbon-markets}
+### Carbon Markets {#carbon-markets}
 
 -   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 
@@ -196,11 +195,11 @@ If implemented effectively, net-zero emissions pledges could limit warming to 2.
 
 -   2022 Emissions Gap report (United Nations Environment Programme (2022))
 
-## Biodiversity {#biodiversity}
+### Biodiversity {#biodiversity}
 
 United Nations Convention on Biodiversity
 
-## Country Contributions {#country-contributions}
+### Country Contributions {#country-contributions}
 
 -   Climate action tracker https://climateactiontracker.org/countries/
 
@@ -210,23 +209,23 @@ lack of transparency
 
 -   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 
-## Design for Sustainability {#design-for-sustainability-2}
+### Design for Sustainability {#design-for-sustainability-2}
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
-## Inflation Reduction Act {#inflation-reduction-act}
+### Inflation Reduction Act {#inflation-reduction-act}
 
 https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
 
-## Taxonomies {#taxonomies}
+### Taxonomies {#taxonomies}
 
 -   Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
 
-## Carbon Inequality {#carbon-inequality}
+### Carbon Inequality {#carbon-inequality}
 
 -   “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it” Chancel (2022)
 
-## Sustainable Fashion and Textile Design {#sustainable-fashion-and-textile-design}
+### Sustainable Fashion and Textile Design {#sustainable-fashion-and-textile-design}
 
 European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). Globally 87% of textile products are burned or landfilled after 1st consumer use (Köhler et al. (2021)). In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
 
@@ -268,7 +267,7 @@ minimize shopping, buy quality, save co2, invest
 
 Policy request: https://textileexchange.org/trade-policy-request-cop26/
 
-## Fast Fashion {#fast-fashion}
+#### Fast Fashion {#fast-fashion}
 
 -   Free clothes
 -   generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sust fashion brands
@@ -277,13 +276,15 @@ fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?des
 
 Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
 
-## Sustainable Fashion {#sustainable-fashion}
+#### Sustainable Fashion {#sustainable-fashion}
 
 https://renoon.com/ Ethical Shopping
 
 https://eu.sheepinc.com/?v=1666529932643
 
-## Food {#food}
+### Food {#food}
+
+#### Food Sustainability {#food-sustainability}
 
 Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
 
@@ -303,7 +304,7 @@ less impact of food https://techcrunch.com/2022/08/11/kuri-app/ https://www.reut
 
 — Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
-## Food Sovereignty {#food-sovereignty}
+#### Food Sovereignty {#food-sovereignty}
 
 “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
 
@@ -311,21 +312,19 @@ less impact of food https://techcrunch.com/2022/08/11/kuri-app/ https://www.reut
 
 Vertical farm in taoyuan https://www.taiwannews.com.tw/en/news/3387047
 
-### Farm to Fork {#farm-to-fork}
+##### Farm to Fork {#farm-to-fork}
 
 *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
 
-—- Farm to table
-
-https://techcrunch.com/tag/farm-to-table/
+— Farm to table https://techcrunch.com/tag/farm-to-table/
 
 https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU https://lowercarboncapital.com/companies/
 
-## Actionable Insights {#actionable-insights}
+### Actionable Insights {#actionable-insights}
 
 Translate data into everyday actions the app can suggest.
 
-## Packaging {#packaging}
+### Packaging {#packaging}
 
 https://www.sulapac.com/
 
@@ -333,7 +332,7 @@ https://www.sulapac.com/
 
 Digital Receipts to be able to track your carbon footprint https://apps.apple.com/fi/app/receipthero/id1565989681
 
-## Social Cost of Carbon {#social-cost-of-carbon}
+### Social Cost of Carbon {#social-cost-of-carbon}
 
 -   Carbon price https://apnews.com/article/science-climate-and-environment-government-politics-4c1e8783694201355f88012079367f27
 
@@ -357,7 +356,7 @@ Digital Receipts to be able to track your carbon footprint https://apps.apple.co
 
 -   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarious of climate damage
 
-## Ecosystem Services {#ecosystem-services}
+### Ecosystem Services {#ecosystem-services}
 
 There’s evidence paying landovners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
 
@@ -365,7 +364,7 @@ There’s evidence paying landovners for the ecosystem services their forests pr
 
 -   Noriega et al. (2018) attempts to quantify tthe ecosystem services (ES) provided by insects. While it can be assusmed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
 
-## Regeneration {#regeneration}
+### Regeneration {#regeneration}
 
 -   https://www.regen.network/
 -   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/?fbclid=IwAR3DiYoaCCobb8a0IvYxdzszV6i2QIUMeuqvIidWVkrbX01Nyd7tq-Sq7bI
@@ -375,13 +374,13 @@ There’s evidence paying landovners for the ecosystem services their forests pr
 -   https://rss.com/podcasts/potk/367282/
 -   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 
-## Biodiversity {#biodiversity-1}
+### Biodiversity {#biodiversity-1}
 
 -   Number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).” (Almond, R.E.A. et al. (n.d.))
 
 -   The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompanpy climate goals (*ADD CITATION*).
 
-## Air Pollution {#air-pollution}
+### Air Pollution {#air-pollution}
 
 Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 
@@ -416,39 +415,7 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 The International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008 (Matthew Gore et al. (2022)).
 
-## Traceability {#traceability}
-
--   “Uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
-
--   Help consumers to demand more
-
-Supply chain - https://www.prima.trade/post/supply-chain-finance-upgrade - https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating - https://www.altfi.com/people/tim-nicolle - https://www.prima.trade/faq
-
-Give supply chain a voice by connecting workers directly to the consumer - https://www.youtube.com/watch?v=XaNiqDJi7sE - https://ctmfile.com/demos/view/13077 - https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough - https://www.es3g.com/post/worker-voice - https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html - https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
-
-## Realtime ESG {#realtime-esg}
-
--   Instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/
-
--   Product sustainability modeling https://makersite.io/product-sustainability/
-
--   “Real-time ESG data is more difficult to greenwash”, “supply chain is a significant source of ESG content” (Tim Nicolle (n.d.))
-
-There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
-
-FlowIT
-
--   Automate CO2 calculations realtime:
-
--   https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
-
--   “Factory social score”.
-
-People working at the factories can report conditions
-
--   “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.” https://www.esganalytics.io/
-
-## Circular Supply Chains {#circular-supply-chains}
+### Circular Supply Chains {#circular-supply-chains}
 
 -   https://greendice.com/for-a-company/
 
@@ -456,7 +423,7 @@ People working at the factories can report conditions
 
 — Recycle your phone: https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
 
-## Carbon Capture {#carbon-capture}
+### Carbon Capture {#carbon-capture}
 
 -   Vitillo et al. (2022)
 
@@ -478,7 +445,7 @@ ESG blockchains: - https://insights.physisinvestment.com/blockchain-in-esg-inves
 
 -   Improve product *provenance*, blockchains offer this transparncy
 
-## Factories {#factories}
+### Factories {#factories}
 
 -   https://www.ecotextile.com/2018101123789/materials-production-news/world-s-first-free-digital-map-of-apparel-factories-2.html
 
@@ -492,7 +459,7 @@ Planet Factory
 
 — Source of plastic waste https://sourceofplasticwaste.org/
 
-## Internet of Things (IoT) {#internet-of-things-iot}
+### Internet of Things (IoT) {#internet-of-things-iot}
 
 “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.”
 
@@ -500,31 +467,37 @@ Planet Factory
 -   https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
 -   https://planethome.eco/
 
-## Shopping Design {#shopping-design}
+------------------------------------------------------------------------
+
+## What is Design? {#what-is-design}
+
+### What is Product Design? {#what-is-product-design}
+
+https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
+
+“digital sustainability principles”
+
+### Shopping Design {#shopping-design}
 
 Recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products (*Cargo Bike \| FREITAG* (n.d.)).
 
-## Synthesise {#synthesise}
-
 *Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglemerates with a massive CO2 footprint. See the index to find some alternatives.
 
-## Personas {#personas}
+### Personas {#personas}
 
 Use personas to articulate assumptions
 
 Persona: I care mostly about… fashion, art, plap
 
-### Five user models / roles {#five-user-models-roles}
-
-https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf https://dontlookup.count-us-in.com/methodology
+**Five user models / roles** https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf https://dontlookup.count-us-in.com/methodology
 
 – Consumer – Investor – Activist – .. – ..
 
-## Data-Driven Design {#data-driven-design}
+### Data-Driven Design {#data-driven-design}
 
 Rebuilt the app as a personalized, narrative lifestyle feed
 
-## Design for Recycling {#design-for-recycling}
+### Design for Recycling {#design-for-recycling}
 
 -   https://www.fastcompany.com/90772025/fast-tech-is-unsustainable-the-circular-economy-is-the-smart-answer-for-growth
 
@@ -534,7 +507,7 @@ Rebuilt the app as a personalized, narrative lifestyle feed
 
 https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
 
-## Design Systems {#design-systems}
+### Design Systems {#design-systems}
 
 Create a design system!!!! best to showcase my analytic skills
 
@@ -543,13 +516,13 @@ Create a design system!!!! best to showcase my analytic skills
 -   https://design.google/library/google-design-leadership-margaret-lee/
 -   https://atomicdesign.bradfrost.com/
 
-## Community’s Role in Design {#communitys-role-in-design}
+### Community’s Role in Design {#communitys-role-in-design}
 
 -   Psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
 
 -   POAPs: https://cryptobriefing.com/what-are-poaps-and-why-should-you-collect-them/#:~:text=POAP%20(pronounced%20poh%2Dap),to%20be%20at%20the%20event.
 
-## Group Purchases {#group-purchases}
+### Group Purchases {#group-purchases}
 
 Through group purchases and community investing while also reducing consumption.
 
@@ -561,7 +534,7 @@ Find Your Composting Community
 
 Monoculture -&gt; regenerative food forests Oil -&gt; electric cars / bicycles
 
-## Design Studies {#design-studies}
+### Design Studies {#design-studies}
 
 -   Eminent journal Design Studies, 1st design journal
 
@@ -569,7 +542,7 @@ Monoculture -&gt; regenerative food forests Oil -&gt; electric cars / bicycles
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
-## Eco-Design {#eco-design}
+### Eco-Design {#eco-design}
 
 “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” (European Parliament (2022))
 
@@ -598,21 +571,37 @@ Circle Economy (2022) reports only 8.6% of world economy is circular and *100B t
 
 vaheta oma mööbel https://www.facebook.com/SMARTSWAP
 
-## Social Objects {#social-objects}
+### Social Objects {#social-objects}
 
 I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c and how the design can connect people to sustainable outcomes while shopping and investing. Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainabilty focus unfortunately…
 
 — What percent of all design is “sustainable design” ? Promoting sustainable design
 
-## Visualise CO2 {#visualise-co2}
+## Data Visualisation {#data-visualisation}
+
+Global temperature measurement starts from the 1880s where we have the first records from ships. Industrial revolution Long history, starting with Alexander von Humboldt.
+
+``` mdx-code-block
+<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
+
+### Making CO2 Visible {#making-co2-visible}
+
+When will Bolt show CO2 emissions per every trip?
+
+— how co2 is shown by googlee https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+
+… *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
+
+Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
 
 check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
-## Designing for Health and Sustainability {#designing-for-health-and-sustainability}
+### Designing for Health and Sustainability {#designing-for-health-and-sustainability}
 
 Health and sustainability are instriscially connected. *“By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”* (Kjrgård et al. (2014))
 
-## Transparency by Design {#transparency-by-design}
+### Design for Transparency {#design-for-transparency}
 
 https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transparency Accountability Advocate - 2 Compliance Data Aggregator - 3 Data Intelligence Hub - 4 Worker Voice Tool - https://www.tsgn.org/en/focus-areas/activities/worker-connect - 5 traceabilityy tooll - https://trustrace.com/ - 6 OPen data platform - 7 knowledge sharing platform - https://www.business-humanrights.org/en/
 
@@ -623,25 +612,7 @@ https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transpar
 — \| ——————- \| ——————————————- \|  
 1 \| Ocean Protocol \| https://oceanprotocol.com/ \|
 
-### OpenData {#opendata}
-
--   WikiRate is a tool for checking green credentials Transpareencyy
-
--   https://www.linkedin.com/in/laureen-van-breen-67b23056/
-
--   https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
-
--   https://chainreact.org/
-
-swedish open data portal https://www.dataportal.se/en
-
-Make open data easy to use in everyday life
-
-## Interface Studies {#interface-studies}
-
-Head of Product Design at Webflow (David Hoang (2022)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
-
-## Traceability {#traceability-1}
+### Traceability {#traceability}
 
 200 million pcs sold every yeear personalized ai, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
 
@@ -651,9 +622,31 @@ app shows traceability!!
 
 https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
-## Speculative Design {#speculative-design}
+-   “Uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
-The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book ((**anthonydunneSpeculativeEverything2013?**)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+-   Help consumers to demand more
+
+Supply chain - https://www.prima.trade/post/supply-chain-finance-upgrade - https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating - https://www.altfi.com/people/tim-nicolle - https://www.prima.trade/faq
+
+Give supply chain a voice by connecting workers directly to the consumer - https://www.youtube.com/watch?v=XaNiqDJi7sE - https://ctmfile.com/demos/view/13077 - https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough - https://www.es3g.com/post/worker-voice - https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html - https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
+
+### Open Data {#open-data}
+
+-   WikiRate is a tool for checking green credentials Transpareencyy
+-   https://www.linkedin.com/in/laureen-van-breen-67b23056/
+-   https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
+-   https://chainreact.org/
+-   swedish open data portal https://www.dataportal.se/en
+
+Make open data easy to use in everyday life
+
+### Interface Studies {#interface-studies}
+
+Head of Product Design at Webflow (David Hoang (2022)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+
+### Speculative Design {#speculative-design}
+
+The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book (Dunne & Raby (2013)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
 In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
@@ -667,7 +660,9 @@ Professional financial advisors use automated tools to analyze data and present 
 
 — all green categories — Green hub — Ask the user to prioritize
 
-Neri Oxman, biomaterials MIT media lab, 15. sept. 2020 —
+### Biodesign {#biodesign}
+
+Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
 
 Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
 
@@ -676,7 +671,7 @@ speculative design use imagination
 -   Societal movements change things: implication for design: build a community
 -   Processes sustain things: implication for design: built an app
 
-## Experience Design {#experience-design}
+### Experience Design {#experience-design}
 
 “People buy experiences, not technology.”
 
@@ -686,13 +681,11 @@ Mobile App Design There’s a number of user interface design patterns that have
 
 Mobile-first Provides a community for pooling money with like-minded investors Social Educational Edutainment Fun Stories section like IG / app store Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers. Karina from Korea(aespa, 2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
-## Nudge {#nudge}
+### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
 The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
-
-### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
 One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonisation*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
 
@@ -761,6 +754,9 @@ de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M
 
 Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
 
+Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and social dreaming*. The MIT Press.
+<span class="csl-block">Beyond radical design? – A map of unreality – Design as critique – Consuming monsters: big, perfect, infectious – A methodological playground: fictional worlds and thought experiments – Physical fictions: invitations to make believe – Aesthetics of unreality – Between reality and the impossible – Speculative everything</span>
+
 Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
 <span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
 
@@ -817,6 +813,8 @@ Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainabili
 Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
 
 Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
+
+Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
 
 Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
 
@@ -877,8 +875,6 @@ Stern, N. (2022). Towards a carbon neutral economy: How government should respon
 The Economic Times. (2022). *Climate change: Earth at 8 billion: Consumption not crowd is key to climate*. https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
 
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
-
-Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
 
