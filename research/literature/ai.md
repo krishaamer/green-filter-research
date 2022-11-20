@@ -106,8 +106,6 @@ https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/
 
 ### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
 
--   m1finance
-
 -   Voice AI and kids Szczuka et al. (2022)
 
 https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
@@ -327,13 +325,9 @@ https://maggieappleton.com/algorithmic-transparency
 
 https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/en/what-is-artificial-intelligence-and-how-do-you-work-with-it/ https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe https://blog.prototypr.io/ai-powered-tools-for-web-designers-adc97530a7f0 https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe https://medium.com/illumination/stop-using-jasper-art-use-the-new-canva-ai-image-generator-video-f91a33ed9c15
 
-— ai design testing https://www.youtube.com/watch?v=-
+— AI design testing — bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
 
-#interactiondesign #aiassistants
-
-— bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
-
-— sustainable ai itself https://link.springer.com/article/10.1007/s43681-021-00043-6
+— Sustainable ai itself (van Wynsberghe (2021))
 
 — AI characters vs Replika. Make a comparative table https://charisma.ai/register
 
@@ -344,19 +338,17 @@ https://renumics.com/blog/what-is-ai-assisted-design https://architechtures.com/
 
 ## Young Adults {#young-adults}
 
-Most people in the US don’t act on climate change (Ross et al. (2016))
+Most people in the US don’t act on climate change (Ross et al. (2016)).
 
-Rooney-Varga et al. (2019) shows the effictiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
+Rooney-Varga et al. (2019) shows the effectiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
 
-Younger people show higher motivation (participants in climate protests)
+Younger people show higher motivation (participants in climate protests). How to be relevant for a younger audience?
 
-yet action remains low
+Yet action remains low.
 
 https://opensea.io/collection/top-taiwan-influencers *for young people, investing mostly means buying cryptocurrencies*
 
-“Action on climate change has been compromised by uncertainty, aspects of human psychology” Ross et al. (2016)
-
-How to be relevant for a younger audience?
+“Action on climate change has been compromised by uncertainty, aspects of human psychology” (Ross et al. (2016))
 
 ### Storytelling and Narrative Design {#storytelling-and-narrative-design}
 
@@ -372,7 +364,17 @@ Older research on young adults (Millenials at the time) highlights how Millenial
 
 ### Community {#community}
 
-“Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.” - https://www.tradingcardsarecoolagain.com/#toc - https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/ - https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/ - https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/ - https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
+-   “Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.”
+
+-   https://www.tradingcardsarecoolagain.com/#toc
+
+-   https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/
+
+-   https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/
+
+-   https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/
+
+-   https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
 
 ## Summary {#summary}
 
@@ -480,6 +482,8 @@ Tristan Greene. (2022). Confused Replika AI users are trying to bang the algorit
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
 
 Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
+
+van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. *AI Ethics*, *1*(3), 213–218. <https://doi.org/10.1007/s43681-021-00043-6>
 
 Veitch, E., & Andreas Alsos, O. (2022). A systematic review of human-AI interaction in autonomous ship systems. *Safety Science*, *152*, 105778. <https://doi.org/10.1016/j.ssci.2022.105778>
 

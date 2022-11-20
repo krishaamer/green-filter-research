@@ -45,23 +45,21 @@ There’s a growing literature suggesting it’s possible to make investments th
 
 ## Realtime ESG {#realtime-esg}
 
--   Instant sustainability impact from supply chain https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/
+There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
--   Product sustainability modeling https://makersite.io/product-sustainability/
+-   Makersite, instant sustainability impact from supply chain (Kyle Wiggers (2022))
+
+-   Product sustainability modeling (Makersite (n.d.))
 
 -   “Real-time ESG data is more difficult to greenwash”, “supply chain is a significant source of ESG content” (Tim Nicolle (n.d.))
 
-There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
-
-FlowIT
-
 -   Automate CO2 calculations realtime:
 
--   https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
+-   FlowIT https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
 
 -   “Factory social score”.
 
-People working at the factories can report conditions
+-   People working at the factories can report conditions
 
 -   “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.” https://www.esganalytics.io/
 
@@ -71,11 +69,29 @@ Tan (2020) proposes *“financial ecologies”* to understand the dynanic relati
 
 ## Product Databases {#product-databases}
 
-The world’s largest database for sustainability standards “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.” https://howgood.com/ https://standardsmap.org/en/home
+-   The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.” (*StandardsMap* (n.d.))
 
-Trends https://standardsmap.org/en/trends
+-   Trends https://standardsmap.org/en/trends
 
-https://world.openfoodfacts.org/ https://product.okfn.org/ https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes https://en.wikipedia.org/wiki/International_Article_Number https://gtinsearch.org/ https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea world product database https://www3.wipo.int/wipogreen/en/ https://www.packworld.com/
+-   https://howgood.com/
+
+-   https://world.openfoodfacts.org/
+
+-   https://product.okfn.org/
+
+-   https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes
+
+-   https://en.wikipedia.org/wiki/International_Article_Number
+
+-   https://gtinsearch.org/
+
+-   https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea
+
+-   World product database
+
+-   https://www3.wipo.int/wipogreen/en/
+
+-   https://www.packworld.com/
 
 ## Green Innovation {#green-innovation}
 
@@ -83,61 +99,52 @@ Li et al. (2022) suggests retail “investor attention can significantly improve
 
 ## Packaging {#packaging}
 
-https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
+-   https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today
+-   https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability
+-   https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
 
 ## Shopping Footprint {#shopping-footprint}
 
-shop co2 emissions for each company who i buy from? “get rid of brands”!! cause they hide and lie
+-   Shop CO2e emissions for each company who i buy from? “get rid of brands”!! cause they hide and lie
 
-https://environment-review.yale.edu/decreasing-carbon-footprint-supermarket-shopping-lessons-virtual-shopping-experiment https://www.chicagobooth.edu/review/want-lower-food-s-carbon-footprint-cut-out-snacks-drinks
+-   https://environment-review.yale.edu/decreasing-carbon-footprint-supermarket-shopping-lessons-virtual-shopping-experiment
 
-The sustainable market for Fast Moving Consumer Goods is \$2.5T, that includes an untapped market opportunity worth \$1T1 Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency https://www.suku.world/
+-   https://www.chicagobooth.edu/review/want-lower-food-s-carbon-footprint-cut-out-snacks-drinks
 
-— ban polluting products https://act.wemove.eu/campaigns/2941
+-   “The sustainable market for Fast Moving Consumer Goods is \$2.5T, that includes an untapped market opportunity worth \$1T. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
 
-https://messari.io/article/from-burning-bridges-to-allbridges
+-   https://www.suku.world/
 
-— current shopping is like having a one-night stand. you barely know the name of your company. you don’t know anything about their background. Building consumer feeeling of ownership, create meaningful connections between producers and consumers.
+— Ban polluting products https://act.wemove.eu/campaigns/2941
 
-AI alert: e“The company you’ve purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation”.
+-   https://messari.io/article/from-burning-bridges-to-allbridges
+
+— Current shopping is like having a one-night stand. you barely know the name of your company. You don’t know much about their background. Building consumer feeeling of ownership, create meaningful connections between producers and consumers.
+
+-   **AI alert**: “The company you’ve purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation”.
 
 ## Ethics and Cruelty {#ethics-and-cruelty}
 
-cruelty free brands
-
-rank companies based on sustainability
-
--   b-corps
+-   Cruelty free brands
+-   Rank companies based on sustainability
+-   BCorp
 -   esg
 -   etc
 -   wikipedia /
--   trash found in ocean / nature etc
-
-— help you to decide: what to buy, how to save, where to invest,
-
-— increase your investment point by matching with your contribution /.
-
-investing
-
-Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
+-   Trash found in ocean / nature etc — Help you to decide: what to buy, how to save, where to invest, — Increase your investment point by matching with your contribution /.
+-   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
 
 ## Overconsumption {#overconsumption}
 
-https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+-   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc
+-   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+-   https://www.wri.org/insights/how-build-circular-economy
 
-https://www.wri.org/insights/how-build-circular-economy
-
-— “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap. The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.” https://iopscience.iop.org/article/10.1088/1748-9326/ab8589/meta
-
-“ establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
+— “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap. The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.” (Ivanova et al. (2020)) - “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.” (Ivanova et al. (2020))
 
 ## Scoring {#scoring}
 
-leafscore for product https://www.leafscore.com/
-
-—
-
-“Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
+-   Leafscore for product https://www.leafscore.com/ — “Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
 
 ## Consumerism {#consumerism}
 
@@ -549,17 +556,13 @@ Banks apply the principle of KYC (Know Your Customer). How could people apply th
 
 https://www.nerdwallet.com/l/nerdwallet-app
 
-— esg uae https://sponsored.bloomberg.com/article/mubadala/the-future-of-esg-Investing
-
-ESG poor performance: https://hbr.org/2022/03/an-inconvenient-truth-about-esg-investing
-
-Not better environmental performance
-
 ## ESG Crisis {#esg-crisis}
 
 Not delivering on it’s hopes - https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?refea=1694078 - https://citywireselector.com/news/red-flags-private-banks-are-looking-out-for-with-esg-funds/a2398680?refea=1694078 - https://citywireasia.com/news/is-esg-in-crisis-or-just-misunderstood/a2398746?\_ga=2.252841673.1907590366.1665138252-1471607603.1665138252
 
 best esg - https://www.investors.com/news/esg-companies-list-best-esg-stocks-environmental-social-governance-values/
+
+— ESG uae https://sponsored.bloomberg.com/article/mubadala/the-future-of-esg-Investing - Not better environmental performance, ESG poor performance: https://hbr.org/2022/03/an-inconvenient-truth-about-esg-investing
 
 ## Analysis {#analysis}
 
@@ -607,19 +610,17 @@ There’s a wide range of investment products marketed as *sustainable*, however
 
 In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city (City of Malmö (2017))
 
-— Fake green bonds https://anthropocenefii.org/afii-aramco-replacement#530afaaa-13f9-4eaf-b5a4-a1276b85a2c6 ANTHROPOCENE FIXED INCOME INSTITUTE. 
+— Aramco, Saudi Arabian public petroleum and natural gas company ‘Fake green bonds’ under scrutiny (Anthropocene Fixed Income Institute (AFII) (2022))
 
-“Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak”
+-   “Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak” (Priscila Azevedo Rocha et al. (2022))
 
-“So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
-
-https://www.bloomberg.com/news/features/2022-10-04/ greenwashing-enters-a-22-trillion-debt-market-derailing-climate-goals?sref=nGTMC3WH
+-   “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.” (Priscila Azevedo Rocha et al. (2022))
 
 ## Countering Greenwashing {#countering-greenwashing}
 
 In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if “green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission. US Securities and Exchange Commission (2022)
 
-The European Unions has proposed legislation to counter greenwashing.
+-   The ESMA and EU has strengtened legislation to counter ESG greenwashing (Frances Schwartzkopff (2022)).
 
 Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
 
@@ -713,6 +714,8 @@ Figure 9: Popular Strava sports assistant provides run tracking and feedback - A
 
 AltFi. (2017). ETFmatic app downloaded 100,000 times. In *AltFi*. https://www.altfi.com/article/3433_etfmatic_app_downloaded_100000_times.
 
+Anthropocene Fixed Income Institute (AFII). (2022). *AFII Aramco replacement*. https://anthropocenefii.org/afii-aramco-replacement.
+
 Bankinghub. (2019). Robo advisor new standards in asset management. In *BankingHub*.
 
 Bhatia, A., Chandani, A., & Chhateja, J. (2020). Robo advisory and its potential in addressing the behavioral biases of investors  A qualitative study in Indian context. *Journal of Behavioral and Experimental Finance*, *25*, 100281. <https://doi.org/10.1016/j.jbef.2020.100281>
@@ -745,6 +748,8 @@ European Securities and Markets Authority. (2017). *MiFID II*. https://www.esma.
 
 Fotheringham, N. (2017). *How To Create A Greener Investment Portfolio*. https://www.huffingtonpost.ca/nikki-fotheringham/green-investment-portfolio_b\_15779446.html.
 
+Frances Schwartzkopff. (2022). EU Explores Tighter Rules for ESG Funds Amid Greenwash Concerns. In *Bloomberg*. https://www.bloomberg.com/news/articles/2022-11-18/eu-explores-tighter-rules-for-esg-funds-amid-greenwash-concerns#xj4y7vzkg.
+
 Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
 
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
@@ -755,11 +760,15 @@ Hoikkala, H. (2019). H&M CEO Sees “Terrible” Fallout as Consumer Shaming Spr
 
 House of Commons. (2002). *Environmental Audit - Second Report*. https://publications.parliament.uk/pa/cm200102/cmselect/cmenvaud/363/363a17.htm.
 
+Ivanova, D., Barrett, J., Wiedenhofer, D., Macura, B., Callaghan, M., & Creutzig, F. (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, *15*(9), 093001. <https://doi.org/10.1088/1748-9326/ab8589>
+
 Jersey Evening Post. (2020). *Charles: Achieving sustainable future is the “growth story of our time”*. https://jerseyeveningpost.com/news/uk-news/2020/11/10/charles-achieving-sustainable-future-is-the-growth-story-of-our-time/.
 
 Kenton, W. (2020). MiFID II. In *Investopedia*. https://www.investopedia.com/terms/m/mifid-ii.asp.
 
 Kirakosian, M. (Noveber 16, 2020). LOIM launches circular bioeconomy fund inspired by Prince of Wales. In *Wealth Manager*. http://citywireselector.com/news/loim-launches-circular-bioeconomy-fund-inspired-by-prince-of-wales/a1425493.
+
+Kyle Wiggers. (2022). Makersite lands \$18M to help companies manage product supply chains. In *TechCrunch*. https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/.
 
 Lagerkvist, C. J., Edenbrandt, A. K., Tibbelin, I., & Wahlstedt, Y. (2020). Preferences for sustainable and responsible equity funds - A choice experiment with Swedish private investors. *Journal of Behavioral and Experimental Finance*, *28*, 100406. <https://doi.org/10.1016/j.jbef.2020.100406>
 
@@ -771,6 +780,8 @@ Li, M., Li, N., Khan, M. A., Khaliq, N., & Rehman, F. U. (2022). Can retail inve
 
 Lingeswaran, S. (2019). *Levelling up: Shattering myths about philanthropy in Asia*. https://www.campdenfb.com/article/levelling-shattering-myths-about-philanthropy-asia.
 
+Makersite. (n.d.). *Improve Your Product Sustainability With Makersite*. https://makersite.io/product-sustainability/.
+
 Malliaris, M., & Salchenberger, L. (1996). Using neural networks to forecast the S&P 100 implied volatility. *Neurocomputing*, *10*(2), 183–195. <https://doi.org/10.1016/0925-2312(95)00019-4>
 
 McKeough, T. (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. In *Architectural Digest*. https://www.architecturaldigest.com/story/mckinsey-design-consulting-group-confirms-the-importance-of-design-to-business.
@@ -779,11 +790,15 @@ McKinsey. (2020). *The next frontier in Asia payments*. https://www.mckinsey.com
 
 Oyedokun, T. B. (2017). Green premium as a driver of green-labelled commercial buildings in the developing countries: Lessons from the UK and US. *International Journal of Sustainable Built Environment*, *6*(2). <https://doi.org/10.1016/j.ijsbe.2017.12.007>
 
+Priscila Azevedo Rocha, Akshat Rathi, & Todd Gillespie. (2022). Greenwashing Enters a \$22 Trillion Debt Market, Derailing Climate Goals. In *Bloomberg*. https://www.bloomberg.com/news/features/2022-10-04/greenwashing-enters-a-22-trillion-debt-market-derailing-climate-goals#xj4y7vzkg.
+
 PWC. (2020). 2022 - The growth opportunity of the century. In *PwC*. https://www.pwc.lu/en/sustainable-finance/esg-report-the-growth-opportunity-of-the-century.html.
 
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
 Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. In *Jing Daily*. https://jingdaily.com/chinas-ultra-elite-personal-growth-is-more-valuable-than-luxury-products/.
+
+*StandardsMap*. (n.d.). https://standardsmap.org/en/home.
 
 Swedbank. (n.d.). *EasySaver*.
 
