@@ -68,7 +68,7 @@ There's early evidence it's possible to assess the quality of LLM output in a tr
 
 
 ### Guidelines for Human-AI interaction
-Microsoft's (MS) Co-Founder Bill Gates predicted in 1982 _“personal agents that help us get a variety of tasks"_ (@billgatesBillGatesNext1982) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (@tashkeunemanWeLoveHate2022). "We love to hate Clippy — but what if Clippy was right?" @tashkeunemanWeLoveHate2022.
+Microsoft's (MS) Co-Founder Bill Gates predicted in 1982 _“personal agents that help us get a variety of tasks"_ (@billgatesBillGatesNext1982) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (@tashkeunemanWeLoveHate2022). "We love to hate Clippy — but what if Clippy was right?" @tashkeunemanWeLoveHate2022. @abigailcainLifeDeathMicrosoft2017
 
 Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershi2019guidelines) which provides useful heuristics categorized by context and time:
 
@@ -92,17 +92,15 @@ https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-hum
 https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5
 https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
 
-—
-https://growth.design/psychology#familiarity-bias
-https://growth.design/psychology#skeuomorphism
-https://www.nngroup.com/articles/mental-models/
-https://growth.design/bonus/mental-model-cheat-sheet
+## Psychological Biases and Mental Models
+- https://growth.design/psychology#familiarity-bias
+- https://growth.design/psychology#skeuomorphism
+- https://www.nngroup.com/articles/mental-models/
+- https://growth.design/bonus/mental-model-cheat-sheet
 
 - Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
 
 — People recognise computers as human
-https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e
-https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate
 https://www.tashkeuneman.com/
 https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc
 https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant
@@ -118,11 +116,9 @@ https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the
 https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
 https://www.theturnsignalblog.com/blog/voice-interaction/
 
-
-
 Companies like NeuralLink are building devices to build meaningful interactions from braing waves (EEG). New findings enable computers to reconstruct language from fMRI readings (@tangSemanticReconstructionContinuous2022)
 
-- Focus on voice? And education?
+- Focus on voicend education?
 
 Example Suggestions of the AI companion: 
 - _"Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: *Bolt*, *Uber*."_

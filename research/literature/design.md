@@ -45,6 +45,10 @@ The EU Copernicus sattelite system reveals new greenhouse emissions previously u
 
 The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
 
+### Housing {#housing}
+
+-   Debnath et al. (2022)
+
 ### Carbon Emission Labeling {#carbon-emission-labeling}
 
 -   https://www.climatepartner.com/en/news/labelling-consumer-goods
@@ -168,7 +172,7 @@ Although there’s some evidence to suggest labeling low CO2 food enables people
 -   https://en.wikipedia.org/wiki/European_Green_Deal
 -   https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/
 
-It’s up to legislators to provide sustainable products on our marketplace… but unttil we do, use the green filter.
+It’s up to legislators to provide sustainable products on our marketplace… but until we do, use the green filter.
 
 -   One of the EU goals is reducing comsumption
 -   Tacking our consumption habits
@@ -177,15 +181,12 @@ Europe is the hotbed of sustainabillity - https://www.visualcapitalist.com/most-
 
 ### Minimalism {#minimalism}
 
-Finnish socialists: minimalism - https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/
-
-— China emission trading scheme - https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
+-   Finnish socialists: minimalism https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/ — China emission trading scheme
+-   https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
 
 ### Database {#database}
 
 Most sustainable companies. make a database? - https://growensemble.com/environmentally-friendly-companies/ - https://www.themuse.com/advice/companies-making-the-planet-better-2020 - https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/ - https://earthandhuman.org/most-sustainable-companies/ - https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4 - https://earth.org/worlds-most-sustainable-companies-in-2021/
-
-Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing. Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
 
 ### Carbon Markets {#carbon-markets}
 
@@ -216,10 +217,6 @@ lack of transparency
 ### Inflation Reduction Act {#inflation-reduction-act}
 
 https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
-
-### Taxonomies {#taxonomies}
-
--   Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
 
 ### Carbon Inequality {#carbon-inequality}
 
@@ -382,13 +379,11 @@ There’s evidence paying landovners for the ecosystem services their forests pr
 
 ### Air Pollution {#air-pollution}
 
-Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
-
-Grounbreaking research by Lim et al. (2022) analysed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer.
+Grounbreaking research by Lim et al. (2022) analysed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 
 -   Prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.” (Hannah Devlin (2022))
 
-**Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s what you can do”*
+**Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
 ## Supply Chains {#supply-chains}
 
@@ -751,6 +746,8 @@ Daniel Värjö. (2022). *Nya satelliter avslöjar dolda utsläpp av växthusgase
 David Hoang. (2022). *Creating interface studies*. https://www.proofofconcept.pub/p/creating-interface-studies.
 
 de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M., Minguez, R., & Lizundia, E. (2022). Ecodesign coupled with Life Cycle Assessment to reduce the environmental impacts of an industrial enzymatic cleaner. *Sustainable Production and Consumption*, *29*, 718–729. <https://doi.org/10.1016/j.spc.2021.11.016>
+
+Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
 
 Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
 
