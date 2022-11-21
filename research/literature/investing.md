@@ -227,9 +227,17 @@ https://grenpay.com/et
 
 — What if we gave consumers the tools to keep companies accountable?
 
+## Sustainability Superapp {#sustainability-superapp}
+
+How to design superapps? Lots of options in a single app. - https://sifted.eu/articles/europe-superapp-revolut-klarna/ - WeChat - Adaptive AI - Vecchi & Brennan (2022) - Zeng (2015) - Roa et al. (2021) - Huang & Miao (2021) - Suarez et al. (2021) - Shabrina Nurqamarani et al. (2020) - Giudice (2020)
+
+https://www.youtube.com/watch?v=R2BHzbBc5kM
+
+https://www.techrepublic.com/article/gartner-top-trends-list/ https://www.fintechfutures.com/2021/12/the-rise-of-carbon-centric-super-apps/ https://www.gartner.com/en/articles/what-is-a-superapp https://www.smartcitiesworld.net/news/news/partnership-brings-sustainability-mobility-into-superapps-7903 https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1 https://sifted.eu/articles/paypal-tops-european-downloads/
+
 ## Food {#food}
 
-ResQ Club in Finland
+ResQ Club in Finland and Estonia https://kodu.postimees.ee/7604355/levita-sona-uus-rakendus-pakub-kvaliteetset-toitu-poole-odavama-hinnaga
 
 ``` mdx-code-block
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
@@ -735,6 +743,8 @@ Frances Schwartzkopff. (2022). EU Explores Tighter Rules for ESG Funds Amid Gree
 
 Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
 
+Giudice, F. (2020). *WeChat: The impact of the super app on Chinese society.*
+
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
 Ho, S. (2019). Asian Investors Are Increasingly Looking To Do Good But ’Impact Washing’ Remains A Concern. In *Green Queen*.
@@ -742,6 +752,8 @@ Ho, S. (2019). Asian Investors Are Increasingly Looking To Do Good But ’Impact
 Hoikkala, H. (2019). H&M CEO Sees “Terrible” Fallout as Consumer Shaming Spreads \[Newspaper\]. In *Bloomberg*. https://www.bloomberg.com/news/articles/2019-10-27/h-m-ceo-sees-terrible-fallout-as-consumer-shaming-spreads.
 
 House of Commons. (2002). *Environmental Audit - Second Report*. https://publications.parliament.uk/pa/cm200102/cmselect/cmenvaud/363/363a17.htm.
+
+Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disruptive: Evidence from China’s “super app” WeChat. *Mobile Media & Communication*, *9*(2), 177–194. <https://doi.org/10.1177/2050157920940765>
 
 Ivanova, D., Barrett, J., Wiedenhofer, D., Macura, B., Callaghan, M., & Creutzig, F. (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, *15*(9), 093001. <https://doi.org/10.1088/1748-9326/ab8589>
 
@@ -783,11 +795,18 @@ PWC. (2020). 2022 - The growth opportunity of the century. In *PwC*. https://www
 
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
+Roa, L., Correa-Bahnsen, A., Suarez, G., Cortés-Tejada, F., Luque, M. A., & Bravo, C. (2021). Super-app behavioral patterns in credit risk models: Financial, statistical and regulatory implications. *Expert Systems with Applications*, *169*, 114486. <https://doi.org/10.1016/j.eswa.2020.114486>
+
+Shabrina Nurqamarani, A., Robin Jonathan, L., NH Gaffar, E., & Indrawati, A. (2020). THE EFFECTS OF MOBILE SERVICE QUALITIES ON CUSTOMER REUSE INTENTION OF GOJEK SUPER APP. *HSSR*, *8*(4), 1134–1146. <https://doi.org/10.18510/hssr.2020.84108>
+
 Shashwat Mohanty. (2022). Green push or greenwash: Sustainable funds don’t buy Zomato’s ESG narrative. In *The Ken*. https://the-ken.com/story/green-push-or-greenwash-sustainable-funds-dont-buy-zomatos-esg-narrative/?utm_source=daily_story&utm_medium=email&utm_campaign=daily_newsletter.
 
 Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. In *Jing Daily*. https://jingdaily.com/chinas-ultra-elite-personal-growth-is-more-valuable-than-luxury-products/.
 
 *StandardsMap*. (n.d.). https://standardsmap.org/en/home.
+
+Suarez, G., Raful, J., Luque, M. A., Valencia, C. F., & Correa-Bahnsen, A. (2021). *Enhancing User’ s Income Estimation with Super-App Alternative Data*. <https://doi.org/10.48550/ARXIV.2104.05831>
+<span class="csl-block">Other5 pages, 2 figures</span>
 
 Swedbank. (n.d.). *EasySaver*.
 
@@ -803,10 +822,14 @@ US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. I
 
 van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
 
+Vecchi, A., & Brennan, L. (2022). Two tales of internationalization Chinese internet firms’ expansion into the European market. *Journal of Business Research*, *152*, 106–127. <https://doi.org/10.1016/j.jbusres.2022.07.024>
+
 Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 
 *Yale, Princeton, Stanford, MIT and Vanderbilt students take legal action to try to force fossil fuel divestment - The Washington Post*. (n.d.). https://www.washingtonpost.com/education/2022/02/16/college-fossil-fuel-divest-legal-action/.
+
+Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
 
 Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.

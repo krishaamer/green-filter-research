@@ -44,21 +44,39 @@ html.mdx-wrapper {
   --ifm-container-width-xl: 100%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .hero__title {
   font-size: 5rem;
   color: var(--ifm-color-hero-title);
 }
 
+.hero__superapp {
+  color: var(--ifm-color-hero-title);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+  background: var(--ifm-color-primary-lighter);
+  border-radius: 30px;
+  width: fit-content;
+  padding: 0.4rem;
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+}
 
 @media screen and (max-width: 996px) {
- .hero__title {
-  font-size: 3rem;
-}
+  .hero__title {
+    font-size: 3rem;
+  }
 }
 
 .hero__subtitle {
@@ -77,6 +95,11 @@ figcaption {
   font-size: small;
   text-align: center;
   font-weight: bold;
+}
+
+.heroBanner_src-pages-index-module {
+  padding-top: 3rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .embed-b {
@@ -116,6 +139,7 @@ figcaption {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -125,6 +149,7 @@ figcaption {
   from {
     -moz-transform: rotate(0deg);
   }
+
   to {
     -moz-transform: rotate(360deg);
   }
@@ -134,6 +159,7 @@ figcaption {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -154,7 +180,7 @@ figcaption {
 }
 
 .main-wrapper {
-/*
+  /*
   background: linear-gradient(180deg, #eeeeee 0%, #ff0000 70%, #ff0 100%); 
   width: 100%;
   background-size: 200% auto;
@@ -165,6 +191,7 @@ figcaption {
 
   */
 }
+
 .home {
   margin: 1rem 2rem;
   border-radius: 162px 13px 155px 55px/39px 38px 7px 116px;
@@ -221,6 +248,7 @@ figcaption {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: -200% 0;
   }
