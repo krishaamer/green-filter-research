@@ -12,6 +12,7 @@ import Figure from '/src/components/Figure'
 import Strava from '../images/strava.png'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
+import ResQClub from '../images/resq-club.png'
 
 ```
 
@@ -217,25 +218,17 @@ https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/d
 https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5
 contactt Kalle Lasn, Cultture Jam
 
-—
-large-scale accessibility to esg
+— “ESG Accessibility”, Large-scale accessibility to esg, 
 
-“ESG Accessibility”
-
-
-—
-shop sustainability
+— Shop sustainability
 https://www.estwatch.ee/vastutustundlikkus-eesti-toidupoekettide-tarneahelates-2022
 https://www.facebook.com/eewatch/posts/2010846515763300
 
-
-—
-tarbimise jalajälg
+— Tarbimise jalajälg
 https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg
 
 
-—
-young consumers drive speed of eco change?
+— Young consumers drive speed of eco change?
 https://www.credit-suisse.com/about-us-news/en/articles/news-and-expertise/young-consumers-may-drive-the-speed-of-environmental-change-202202.html?aa_cmp=socm_irccmb_glob_010222_cs1630_gen_ism_cpm_facebook_facebok_en_none_sus_na_na_20387&fbclid=IwAR2_mXrr2DWOMEyC0NuExiHmx0yClpEQDz0OpmpVWaCPcbvEqcW_JIc131E
 
 “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint.  Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.”
@@ -250,16 +243,24 @@ roheline filter
 finding good wuality products
 stock are disconnected from the products companies make
 
-—
+— What if we gave consumers the tools to keep companies accountable?
 
-what if we gave consumers the tools to keep companies accountable?
+## Food
+ResQ Club in Finland and Estonia
+https://kodu.postimees.ee/7604355/levita-sona-uus-rakendus-pakub-kvaliteetset-toitu-poole-odavama-hinnaga
+
+```{=mdx}
+<Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+
+food saving apps
+https://www.facebook.com/groups/7573029179?multi_permalinks=10159917188164180&hoisted_section_header_type=recently_seen
+
 
 ## Shopping
 inclusive consumer
 https://www.mckinsey.com/industries/retail/our-insights/the-rise-of-the-inclusive-consumer
 
-food saving apps
-https://www.facebook.com/groups/7573029179?multi_permalinks=10159917188164180&hoisted_section_header_type=recently_seen
 
 “Consumers have increasing power. Where we put our money reinforces certain types of businesses, as concious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design”
 
