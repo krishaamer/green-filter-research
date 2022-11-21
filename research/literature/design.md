@@ -1,5 +1,5 @@
 ---
-title: Design for Sustainability
+title: What is Sustainability?
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -214,101 +214,6 @@ https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped
 ### Carbon Inequality {#carbon-inequality}
 
 -   “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it” Chancel (2022)
-
-### Sustainable Fashion and Textile Design {#sustainable-fashion-and-textile-design}
-
-European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). Globally 87% of textile products are burned or landfilled after 1st consumer use (Köhler et al. (2021)). In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
-Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (Christiansen et al. (2021)). French EPR scheme was upgraded in 2020 to become more circular (Jacques Vernier (2021)). In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (HKTDC Research (2022)).
-
-There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021)) Sneakers made from coffee https://twitter.com/RensOriginal
-
-Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing ecodesign “respects the boundaries of our planet” European Commission (2022)
-
-fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E — sustainable fashion company evaluations: https://goodonyou.eco/ ethical brand ratings. gstar https://directory.goodonyou.eco/brand/g-star-raw https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
-
-worker rights. https://www.instagram.com/p/CUXjfzfr7Ze/ — problem: report says there’s not enough transparency in fashion: https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022/amp can’t be held accountable for their actions (or indeed, their lack of action https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp new york fashion law: https://www.newstandardinstitute.org/ https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp
-
-— https://wikirate.org/ https://cordis.europa.eu/project/id/688364 https://fashionchecker.org/
-
-— circular textiles https://www.youtube.com/watch?v=pE9Xyk8eL_s&list=PLGI5qsCI2tYhq1_Gs3GQY1IlDbysDPurS
-
-fashion https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/ — fashion transparency https://www.fashionrevolution.org/about/transparency/ https://cleanclothes.org/ https://fashionchecker.org/
-
-“The mainstream fashion industry is built upon the exploitation of labour, natural resources and the knowledge of historically marginalised peoples.”
-
-https://textilegenesis.com/
-
-“Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
-
-https://www.stand.earth/ https://www.newstandardinstitute.org/ https://www.bgmea.com.bd/
-
-“mong the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.” https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
-
-https://www.linkedin.com/showcase/ecotextile-news/
-
-materials matter in fashion https://textileexchange.org/
-
--   https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i
-
-minimize shopping, buy quality, save co2, invest
-
-— Ethical fashion https://textileexchange.org/ materials matter
-
-Policy request: https://textileexchange.org/trade-policy-request-cop26/
-
-#### Fast Fashion {#fast-fashion}
-
--   Free clothes
--   generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sust fashion brands
-
-fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8#myft:notification:daily-email:content https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287 https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html https://infinitedfiber.com/ https://www.cleantech.com/the-global-cleantech-100/
-
-Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
-
-#### Sustainable Fashion {#sustainable-fashion}
-
-https://renoon.com/ Ethical Shopping
-
-https://eu.sheepinc.com/?v=1666529932643
-
-### Food {#food}
-
-#### Food Sustainability {#food-sustainability}
-
-Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
-
-Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
-
-1.  *“The diagnostic perspective: All hands on deck to fix the climate”*
-2.  *“The regenerative perspective: Diversity, soil health and organic agriculture to the rescue”*
-3.  *“The fossil-free perspective: Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”*
-4.  *“The consumer-driven perspective: A wish-list of healthy, high-quality and climate-friendly foods”*
-5.  \_ “The hands-on perspective: Tangible solutions within the reach of consumers and the food industry”\_
-
-— where to shop rankings for groceries — list worst offenders in terms of products — shop and investi according to your values
-
-— Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
-
-less impact of food https://techcrunch.com/2022/08/11/kuri-app/ https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
-
-— Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
-
-#### Food Sovereignty {#food-sovereignty}
-
-“The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
-
-“We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, [climate change](#climate-change) doesn’t affect our produce.” https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
-
-Vertical farm in taoyuan https://www.taiwannews.com.tw/en/news/3387047
-
-##### Farm to Fork {#farm-to-fork}
-
-*Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
-
-— Farm to table https://techcrunch.com/tag/farm-to-table/
-
-https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU https://lowercarboncapital.com/companies/
 
 ### Actionable Insights {#actionable-insights}
 
@@ -787,8 +692,6 @@ Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of
 
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
 
-Christiansen, A., Hasse, G., & Tønder, R. (2021). *Extended Producer Responsibility in the Danish textile sector: Assessing the optimal development and implementation*.
-
 Circle Economy. (2022). *The Circularity Gap Report 2022*.
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
@@ -813,10 +716,6 @@ Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitude
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
-European Commission. (2022). *Green Deal: New proposals to make sustainable products the norm and boost Europe’s resource independence*. https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013.
-
-European Environment Agency. (2022). *Textiles and the environment: The role of design in Europe’s circular economy*.
-
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
 
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
@@ -837,8 +736,6 @@ Hannah Devlin. (2022). Cancer breakthrough is a “wake-up” call on danger of 
 
 Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Braun.
 
-HKTDC Research. (2022). *France Expands Producer Responsibility to Certain Textile Items; Recommends Limiting Hazardous Chemicals in School Supplies*. https://research.hktdc.com/en/article/MTEyNTg5ODAwNw.
-
 Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon, E. (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, *27*, 100–115. <https://doi.org/10.1002/aqc.2809>
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
@@ -846,8 +743,6 @@ IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
 Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
 
 Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M., & Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, *28*, 100727. <https://doi.org/10.1016/j.scp.2022.100727>
-
-Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
 Jeni Miles. (2022). Becoming a Sustainability-Aware App or Game. In *Google Play Apps & Games*.
 
@@ -861,15 +756,11 @@ Kira Taylor. (2021). *EU plan puts spotlight on carbon sinks to tackle climate c
 
 Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainability. *Health Promotion International*, *29*(3), 558–568. <https://doi.org/10.1093/heapro/das071>
 
-Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
-
 Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
 
 Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
 
 Le Provost, G., Schenk, N. V., Penone, C., Thiele, J., Westphal, C., Allan, E., Ayasse, M., Blüthgen, N., Boeddinghaus, R. S., Boesing, A. L., Bolliger, R., Busch, V., Fischer, M., Gossner, M. M., Hölzel, N., Jung, K., Kandeler, E., Klaus, V. H., Kleinebecker, T., … Manning, P. (2022). The supply of multiple ecosystem services requires biodiversity across spatial scales. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-022-01918-5>
-
-Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
 Lim, E., Hill, W., Lee, C., Weeden, C. E., Augustine, M., Chen, K., Kuan, F. C., Marongiu, F., Evans, E., Moore, D., Ryu, M. H., Luchtenborg, M., Lavelle, K., Carlsten, C., Malanchi, I., Hackshaw, A., Litchfield, K. R., Degregori, J., Jamal-Hanjani, M., & Swanton, C. (2022). 1MO Air pollution-induced non-small cell lung cancer: Towards molecular cancer prevention. *Annals of Oncology*, *33*, S1383. <https://doi.org/10.1016/j.annonc.2022.09.002>
 
@@ -912,14 +803,10 @@ Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022).
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
 
-Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
-
 Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental sustainability: Collect and use company information to design green products. *Procedia CIRP*, *105*, 823–828. <https://doi.org/10.1016/j.procir.2022.02.136>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
 
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
-
-Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
 
 Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
 
