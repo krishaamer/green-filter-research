@@ -41,10 +41,6 @@ Growing public understanding of how nature works and intersects with our use of 
 
 The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
-### Digital Product Passports {#digital-product-passports}
-
-The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
-
 ### Housing {#housing}
 
 -   Debnath et al. (2022)
@@ -57,11 +53,6 @@ The European Commision has proposed a *Digital Product Passports* to help compan
 The largest per capita CO2 emissions come from Oil Producers https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
 
 55% of emissions come from energy production.
-
-### Design for Circularity {#design-for-circularity}
-
--   McDonough & Braungart (2002)
--   Dull (2021)
 
 ### Population {#population}
 
@@ -148,12 +139,6 @@ A number of new AI-based tools aim to find instances of greenwashing. - https://
 
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
-### Carbon Labelling {#carbon-labelling}
-
-Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). While academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption.
-
-Although there’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible (Lohmann et al. (2022)). Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by Edenbrandt & Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
-
 ### Climate Change {#climate-change}
 
 -   Tipping points Armstrong McKay et al. (2022)
@@ -175,10 +160,6 @@ Europe is the hotbed of sustainabillity - https://www.visualcapitalist.com/most-
 
 -   Finnish socialists: minimalism https://www.forbes.com/sites/celinnedacosta/2018/08/30/what-finnish-culture-can-teach-you-about-life-design/ — China emission trading scheme
 -   https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/
-
-### Database {#database}
-
-Most sustainable companies. make a database? - https://growensemble.com/environmentally-friendly-companies/ - https://www.themuse.com/advice/companies-making-the-planet-better-2020 - https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/ - https://earthandhuman.org/most-sustainable-companies/ - https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4 - https://earth.org/worlds-most-sustainable-companies-in-2021/
 
 ### Carbon Markets {#carbon-markets}
 
@@ -218,10 +199,6 @@ https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped
 ### Actionable Insights {#actionable-insights}
 
 Translate data into everyday actions the app can suggest.
-
-### Packaging {#packaging}
-
-https://www.sulapac.com/
 
 ## Digitalisation {#digitalisation}
 
@@ -652,8 +629,6 @@ A wide range of legislative proposals, targets, organisations, and goals already
 
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
-Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
-
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
 
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
@@ -665,8 +640,6 @@ André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral prog
 Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J., & Lenton, T. M. (2022). Exceeding 1.5 global warming could trigger multiple climate tipping points. *Science*, *377*(6611), eabn7950. <https://doi.org/10.1126/science.abn7950>
 
 Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
-
-Asioli, D., Fuentes-Pila, J., Alarcón, S., Han, J., Liu, J., Hocquette, J.-F., & Nayga, R. M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, *112*, 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>
 
 Barendregt, L., & Vaage, N. S. (2021). Speculative design as thought experiment. *She Ji: The Journal of Design, Economics, and Innovation*, *7*(3), 374–402. <https://doi.org/10.1016/j.sheji.2021.06.001>
 
@@ -683,8 +656,6 @@ Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon p
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
-
-Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
@@ -704,15 +675,11 @@ de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M
 
 Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
 
-Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
-
 Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and social dreaming*. The MIT Press.
 <span class="csl-block">Beyond radical design? – A map of unreality – Design as critique – Consuming monsters: big, perfect, infectious – A methodological playground: fictional worlds and thought experiments – Physical fictions: invitations to make believe – Aesthetics of unreality – Between reality and the impossible – Speculative everything</span>
 
 Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
 <span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
-
-Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
@@ -766,15 +733,11 @@ Lim, E., Hill, W., Lee, C., Weeden, C. E., Augustine, M., Chen, K., Kuan, F. C.,
 
 Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
 
-Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
-
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
 
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
-
-McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
 
 Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
 
@@ -788,8 +751,6 @@ Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologi
 Napper, I. E., & Thompson, R. C. (2019). Environmental Deterioration of Biodegradable, <span class="nocase">Oxo-biodegradable</span>, Compostable, and Conventional Plastic Carrier Bags in the Sea, Soil, and Open-Air Over a 3-Year Period. *Environ. Sci. Technol.*, *53*(9), 4775–4783. <https://doi.org/10.1021/acs.est.8b06984>
 
 National Public Utilities Council. (2022). *Annual Utility Decarbonization Report*.
-
-Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
 Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
 
@@ -842,8 +803,4 @@ Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social 
 
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
 
-Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, *97*, 106902. <https://doi.org/10.1016/j.eiar.2022.106902>
-
 Zhen, Z., Tian, L., & Ye, Q. (2018). A simple estimate for the social cost of carbon. *Energy Procedia*, *152*, 768–773. <https://doi.org/10.1016/j.egypro.2018.09.243>
-
-Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>

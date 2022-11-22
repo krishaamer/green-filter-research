@@ -15,6 +15,10 @@ import Replika from '../images/with-me.png'
 
 ## A Brief History of AI
 
+## Definition
+
+"AI is computer programming that learns and adapts" (@AZAI)
+
 ### From Concept to Reality
 Since 1950 when Alan Turing published the Turing Test for Machine intelligence (@turingCOMPUTINGMACHINERYINTELLIGENCE1950) and Isaac Asimov proposed the 3 laws of Robotics, AI has come far, turning from a science-fiction concept into an everyday, mainstream reality. Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (@LEITE20212515), notably used for quickly finding potential COVID19 vaccines (@ZAFAR2022249), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
 
@@ -30,7 +34,11 @@ Initially presented in a science fiction story, the 3 basic rules became an insp
 | 2nd   | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." | 
 | 3rd   | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." | 
 
+Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google's products are are based on AI (@googleGooglePresentsAI2022)
+
 While by the 2010's AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called _deep learning_, largerly modeled after the _neural networks_ of the biological (human) brain.
+
+How to responsibly deploy AI for people around the world?
 
 ### The Advent of Large-Language Models (LLMs)
 Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text (@alextamkinHowLargeLanguage2021), it's become possible to make AI-generated content that's difficult to distinguish from human expression, however it's still not passing the Turing test. @ZHANG2023107536 found humans are more likely to trust an AI teammate if they are not deceived by it's identity. It's better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems. While current AIs are largely _'black boxes'_, which do not explain how they reach a certain expression @CABITZA2023118888 proposes a framework for quality criteria and explainability of AI-expressions.
@@ -70,7 +78,7 @@ There's early evidence it's possible to assess the quality of LLM output in a tr
 ### Guidelines for Human-AI interaction
 Microsoft's (MS) Co-Founder Bill Gates predicted in 1982 _“personal agents that help us get a variety of tasks"_ (@billgatesBillGatesNext1982) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (@tashkeunemanWeLoveHate2022). "We love to hate Clippy — but what if Clippy was right?" @tashkeunemanWeLoveHate2022. @abigailcainLifeDeathMicrosoft2017
 
-Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershi2019guidelines) which provides useful heuristics categorized by context and time:
+Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershi2019guidelines) which provides useful heuristics categorized by context and time
 
 | №   | Context             |       |               |          
 | --- | --------------------|-------|---------------| 
@@ -78,6 +86,8 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 | 2   | During interaction  |       |               | 
 | 3   | When wrong          |       |               | 
 | 4   | Over time           |       |               | 
+
+Likewise, Google's 7 AI Principles (@googleOurPrinciplesGoogle)
 
 **Amazon Alexa** is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
 

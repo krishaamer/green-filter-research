@@ -195,6 +195,10 @@ https://www.taiwannews.com.tw/en/news/4492308
 
 -   “access Mastercard’s big data database and calculates the amount of carbon emission of each transaction based on the type and amount of products or services purchased.”
 
+### Digital Product Passports {#digital-product-passports}
+
+The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
+
 ### Consumer Activism {#consumer-activism}
 
 https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/dp/B079K3KTW9/ref=sr_1\_1?crid=3IQ598DT7ZCH4 https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5 contactt Kalle Lasn, Cultture Jam
@@ -212,8 +216,29 @@ https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/d
 ### Packaging {#packaging}
 
 -   https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today
+
 -   https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability
+
 -   https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
+
+-   Coca Cola plastic pollution: https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution
+
+-   https://www.sulapac.com/
+
+### Design for Circularity {#design-for-circularity}
+
+-   McDonough & Braungart (2002)
+-   Dull (2021)
+
+### Database {#database}
+
+Most sustainable companies. make a database? - https://growensemble.com/environmentally-friendly-companies/ - https://www.themuse.com/advice/companies-making-the-planet-better-2020 - https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/ - https://earthandhuman.org/most-sustainable-companies/ - https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4 - https://earth.org/worlds-most-sustainable-companies-in-2021/
+
+### Carbon Labelling {#carbon-labelling}
+
+Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). While academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption.
+
+Although there’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study of UK university students, their impact on the market share of low-carbon meals is negible (Lohmann et al. (2022)). Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products. Labels alone are not enough, as underlined by Edenbrandt & Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programmes.
 
 ### Shopping Footprint {#shopping-footprint}
 
@@ -302,11 +327,21 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 # References {#references .unnumbered}
 
+Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
+
+Asioli, D., Fuentes-Pila, J., Alarcón, S., Han, J., Liu, J., Hocquette, J.-F., & Nayga, R. M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, *112*, 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>
+
+Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
+
 Cherry, M. A., & Sneirson, J. F. (2010). Beyond profit: Rethinking corporate social responsibility and greenwashing after the BP oil disaster. *Tul. L. Rev.*, *85*, 983.
 
 Christiansen, A., Hasse, G., & Tønder, R. (2021). *Extended Producer Responsibility in the Danish textile sector: Assessing the optimal development and implementation*.
 
+Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
+
 Echeverría, L., Gimenez-Nadal, J. I., & Molina, J. A. (2022). Green mobility and well-being. *Ecological Economics*, *195*, 107368. <https://doi.org/10.1016/j.ecolecon.2022.107368>
+
+Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
 European Commission. (2022). *Green Deal: New proposals to make sustainable products the norm and boost Europe’s resource independence*. https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013.
 
@@ -328,7 +363,13 @@ Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic
 
 Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
+Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
+
 Makersite. (n.d.). *Improve Your Product Sustainability With Makersite*. https://makersite.io/product-sustainability/.
+
+McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
+Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
 
@@ -341,3 +382,7 @@ Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on sup
 van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
 
 Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
+
+Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, *97*, 106902. <https://doi.org/10.1016/j.eiar.2022.106902>
+
+Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>

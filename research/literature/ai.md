@@ -15,6 +15,10 @@ import Replika from '../images/with-me.png'
 
 ## A Brief History of AI {#a-brief-history-of-ai}
 
+## Definition {#definition}
+
+“AI is computer programming that learns and adapts” (*The A-Z of AI* (n.d.))
+
 ### From Concept to Reality {#from-concept-to-reality}
 
 Since 1950 when Alan Turing published the Turing Test for Machine intelligence (Turing (1950)) and Isaac Asimov proposed the 3 laws of Robotics, AI has come far, turning from a science-fiction concept into an everyday, mainstream reality. Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
@@ -31,7 +35,11 @@ Initially presented in a science fiction story, the 3 basic rules became an insp
 | 2nd | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
 
+Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google’s products are are based on AI (Google (2022))
+
 While by the 2010’s AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largerly modeled after the *neural networks* of the biological (human) brain.
+
+How to responsibly deploy AI for people around the world?
 
 ### The Advent of Large-Language Models (LLMs) {#the-advent-of-large-language-models-llms}
 
@@ -72,7 +80,7 @@ There’s early evidence it’s possible to assess the quality of LLM output in 
 
 Microsoft’s (MS) Co-Founder Bill Gates predicted in 1982 *“personal agents that help us get a variety of tasks”* (Bill Gates (1982)) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft’s Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (Tash Keuneman (2022)). “We love to hate Clippy — but what if Clippy was right?” Tash Keuneman (2022). Abigail Cain (2017)
 
-Microsoft provides guidelines for Human-AI interaction (T. Li et al. (2022); Amershi et al. (2019)) which provides useful heuristics categorized by context and time:
+Microsoft provides guidelines for Human-AI interaction (T. Li et al. (2022); Amershi et al. (2019)) which provides useful heuristics categorized by context and time
 
 | №   | Context            |     |     |
 |-----|--------------------|-----|-----|
@@ -80,6 +88,8 @@ Microsoft provides guidelines for Human-AI interaction (T. Li et al. (2022); Ame
 | 2   | During interaction |     |     |
 | 3   | When wrong         |     |     |
 | 4   | Over time          |     |     |
+
+Likewise, Google’s 7 AI Principles (Google (n.d.))
 
 **Amazon Alexa** is the most well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
 
@@ -408,6 +418,10 @@ Crompton, L. (2021). The decision-point-dilemma: Yet another problem of responsi
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
 
+Google. (n.d.). *Our Principles Google AI*. https://ai.google/principles.
+
+Google. (2022). *Google Presents: AI@ ‘22*.
+
 Gratch, J., & Fast, N. J. (2022). The power to harm: AI assistants pave the way to unethical behavior. *Current Opinion in Psychology*, *47*, 101382. <https://doi.org/10.1016/j.copsyc.2022.101382>
 
 Harvard Advanced Leadership Initiative. (2021). *Human-AI Interaction: From Artificial Intelligence to Human Intelligence Augmentation*.
@@ -474,6 +488,8 @@ Tamkin, A., Brundage, M., Clark, J., & Ganguli, D. (2021). *Understanding the ca
 Tang, J., LeBel, A., Jain, S., & Huth, A. G. (2022). *Semantic reconstruction of continuous language from non-invasive brain recordings* \[Preprint\]. Neuroscience. <https://doi.org/10.1101/2022.09.29.509744>
 
 Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *UX Collective*. https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e.
+
+*The A-Z of AI*. (n.d.). https://atozofai.withgoogle.com/intl/en-US/.
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 
