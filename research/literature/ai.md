@@ -1,5 +1,5 @@
 ---
-title: Designing a Financial AI Companion for Young Adults
+title: Designing an AI Companion for Young Adults
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 4
@@ -489,7 +489,7 @@ Tang, J., LeBel, A., Jain, S., & Huth, A. G. (2022). *Semantic reconstruction of
 
 Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *UX Collective*. https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c55f2e.
 
-*The A-Z of AI*. (n.d.). https://atozofai.withgoogle.com/intl/en-US/.
+*The A-Z of AI*. (n.d.). https://atozofai.withgoogle.com/.
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 

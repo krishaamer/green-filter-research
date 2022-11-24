@@ -1,5 +1,5 @@
 ---
-title: Design for Sustainable Saving and Investing
+title: Designing for Sustainable Saving and Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3

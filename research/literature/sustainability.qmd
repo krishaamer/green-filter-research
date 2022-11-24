@@ -1,5 +1,5 @@
 ---
-title: What is Sustainability?
+title: Designing for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -17,9 +17,9 @@ import Humboldt from '../images/humboldt.jpg'
 ## What is Sustainability?
 _Sustainability_ was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (@leprovostSupplyMultipleEcosystem2022).
 
-Already @keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that _'residents in high-income countries lead lifestyles incompatible with planetary boundaries'_. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+@keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that _'residents in high-income countries lead lifestyles incompatible with planetary boundaries'_. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
 
-@mobergMobilityFoodHousing2019 reports daily human activites thus on average in France, Germany, Norway and Sweden:
+@mobergMobilityFoodHousing2019 reports daily human activites emission contribution on average in France, Germany, Norway and Sweden:
 
 | Emission Share | Category |
 |-------|-------------------| 
@@ -39,24 +39,29 @@ Growing public understanding of how nature works and intersects with our use of 
 
 The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (@danielvarjoNyaSatelliterAvslojar2022)
 
+### Clean Water
+
+### Clean Air
+
 ### Housing
 - @debnathSocialMediaEnables2022
 
-### Carbon Emission Labeling
-- https://www.climatepartner.com/en/news/labelling-consumer-goods
-- https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03
+### Carbon Labeling
+Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain _Just Salad_ , U.K.-based vegan meat-alternative _Quorn_ and plant milk _Oatly_ provide carbon labeling on their products (@briankatemanCarbonLabelsAre2020). Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; @climatepartnerLabellingCarbonFootprint2020). The Carbon Trust reports it's certified 27 thousand product footprints (@thecarbontrustHowReduceYour).
 
-The largest per capita CO2 emissions come from Oil Producers
-https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true
-file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf
-https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
+- The top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam (@worldresourcesinstituteCO2EmissionsMetric2020)
 
-55% of emissions come from energy production.
+- file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf
+- https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
+
+- 55% of emissions come from energy production.
 
 ### Population
-In November 2022, Planet Earth's population reached 8 Billion people (@theeconomictimesClimateChangeEarth2022) and is projected to reach 8.5B in 2030 and 9.7B in 2050(@unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022). While population growth puts higher pressure on Earth's resources, the effect is more from wasteful lifestyles than the number of people (FIND CITATION).
+In November 2022, Planet Earth's population reached 8 Billion people (@theeconomictimesClimateChangeEarth2022); future population projections predict 8.5B people by 2030 and 9.7B by 2050 (@unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022). While population growth puts higher pressure on Earth's resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
 
 ### Overconsumption, Climate Change, Pollution
+- In a large scale study on Meta's Facebook (n=108946), "Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities" (@anthonyleiserowitzInternationalPublicOpinion2022)
+
 Overconsumption is one of the root causes of climate change and marine plastic pollution. @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
 
 ### Fossil Fuels and Energy
@@ -89,8 +94,7 @@ the most effective things are
 — fashion?
 — plant trees
 
-Amazon's founder Bezos. ″‘Good intentions don’t work, mechanisms do’” 
-https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
+- Amazon is commiting 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon's founder Bezos. ″‘Good intentions don’t work, mechanisms do’” (@catherinecliffordHowThisPopular2022)
 
 ### Disasters
 - Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima

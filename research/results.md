@@ -20,3 +20,9 @@ Sustainability is hard. Green Filter helps you find companies that are making a 
 Gather requirements and build a prototype for the next-generation investment app for young adults. Improving the user experience for young adults getting started with (green) investing. What would a “Tinder for (Green) Investments” look like? How can we make the logistics of investing so easy to use and take into account my values?
 
 My thesis core message is : everyone should change from consumer to sustainability investor (define these terms in the thesis). how to do this? can help you become from consumer to investor i believe there’s space for a product like that. your green investing friend find the companies tackling certain problems and invest in them using crypto business can be a force for good
+
+## ‘Shopping-as-Investing’ {#shopping-as-investing}
+
+Consumer purchases are an indicator of demand. If demand trends down, companies will stop producting this product.
+
+## ‘Investment-as-Product’ {#investment-as-product}

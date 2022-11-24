@@ -1,5 +1,5 @@
 ---
-title: What is Sustainability?
+title: Designing for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -18,9 +18,9 @@ import Humboldt from '../images/humboldt.jpg'
 
 *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (Le Provost et al. (2022)).
 
-Already Keeble (1988) reported in April 1987 (a few months after I was born) that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+Keeble (1988) reported in April 1987 (a few months after I was born) that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
 
-Moberg et al. (2019) reports daily human activites thus on average in France, Germany, Norway and Sweden:
+Moberg et al. (2019) reports daily human activites emission contribution on average in France, Germany, Norway and Sweden:
 
 | Emission Share | Category |
 |----------------|----------|
@@ -41,24 +41,33 @@ Growing public understanding of how nature works and intersects with our use of 
 
 The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
+### Clean Water {#clean-water}
+
+### Clean Air {#clean-air}
+
 ### Housing {#housing}
 
 -   Debnath et al. (2022)
 
-### Carbon Emission Labeling {#carbon-emission-labeling}
+### Carbon Labeling {#carbon-labeling}
 
--   https://www.climatepartner.com/en/news/labelling-consumer-goods
--   https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03
+Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products (Brian Kateman (2020)). Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)). The Carbon Trust reports it’s certified 27 thousand product footprints (The Carbon Trust (n.d.)).
 
-The largest per capita CO2 emissions come from Oil Producers https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
+-   The top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam (World Resources Institute (2020))
 
-55% of emissions come from energy production.
+-   file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf
+
+-   https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
+
+-   55% of emissions come from energy production.
 
 ### Population {#population}
 
-In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)) and is projected to reach 8.5B in 2030 and 9.7B in 2050(United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, the effect is more from wasteful lifestyles than the number of people (FIND CITATION).
+In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)); future population projections predict 8.5B people by 2030 and 9.7B by 2050 (United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
 
 ### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
+
+-   In a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities” (Anthony Leiserowitz et al. (2022))
 
 Overconsumption is one of the root causes of climate change and marine plastic pollution. Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
@@ -87,7 +96,7 @@ Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simpl
 
 commodities!! — the most effective things are — food — transport — fashion? — plant trees
 
-Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’”  https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html
+-   Amazon is commiting 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’” (Catherine Clifford (2022))
 
 ### Disasters {#disasters}
 
@@ -637,6 +646,8 @@ Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Dec
 
 André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
 
+Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider, & Kelsey Mulcahy. (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
+
 Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J., & Lenton, T. M. (2022). Exceeding 1.5 global warming could trigger multiple climate tipping points. *Science*, *377*(6611), eabn7950. <https://doi.org/10.1126/science.abn7950>
 
 Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
@@ -653,9 +664,13 @@ Bouscasse, H., Gabet, S., Kerneis, G., Provent, A., Rieux, C., Ben Salem, N., Du
 
 Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
 
+Brian Kateman. (2020). Carbon Labels Are Finally Coming To The Food And Beverage Industry. In *Forbes*. https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03.
+
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
+
+Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
@@ -664,6 +679,8 @@ Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
 
 Circle Economy. (2022). *The Circularity Gap Report 2022*.
+
+ClimatePartner. (2020). *Labelling the carbon footprint of food and consumer goods*. https://www.climatepartner.com/en/news/labelling-consumer-goods.
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
@@ -775,6 +792,8 @@ Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support 
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
 
+The Carbon Trust. (n.d.). *Q&A: How to reduce your carbon footprint through your everyday shopping*. https://www.carbontrust.com/resources/qa-how-to-reduce-your-carbon-footprint-through-your-everyday-shopping.
+
 The Economic Times. (2022). *Climate change: Earth at 8 billion: Consumption not crowd is key to climate*. https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
 
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
@@ -802,5 +821,7 @@ Wang, T.-P., & Teng, F. (2022). A multi-model assessment of climate change damag
 Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, *321*, 115993. <https://doi.org/10.1016/j.jenvman.2022.115993>
 
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
+
+World Resources Institute. (2020). *CO2 emissions (metric tons per capita) \| Data*. https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
 
 Zhen, Z., Tian, L., & Ye, Q. (2018). A simple estimate for the social cost of carbon. *Energy Procedia*, *152*, 768–773. <https://doi.org/10.1016/j.egypro.2018.09.243>

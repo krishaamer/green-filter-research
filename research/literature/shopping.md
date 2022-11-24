@@ -1,5 +1,5 @@
 ---
-title: Design for Sustainable Shopping
+title: Designing for Sustainable Shopping
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
@@ -30,7 +30,11 @@ import ResQClub from '../images/resq-club.png'
 
 ### Food Sustainability {#food-sustainability}
 
-Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
+-   Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
+
+-   Springmann et al. (2021) veganism is the most effective decision to reduce personal CO2 emissions.
+
+-   26% of carbon emissions come from food production (Poore & Nemecek (2018))
 
 Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
@@ -371,9 +375,13 @@ McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we ma
 
 Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
+Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. *Science*, *360*(6392), 987–992. <https://doi.org/10.1126/science.aaq0216>
+
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
 
 Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
+
+Springmann, M., Clark, M. A., Rayner, M., Scarborough, P., & Webb, P. (2021). The global and regional costs of healthy and sustainable dietary patterns: A modelling study. *The Lancet Planetary Health*, *5*(11), e797–e807. <https://doi.org/10.1016/S2542-5196(21)00251-5>
 
 *StandardsMap*. (n.d.). https://standardsmap.org/en/home.
 
