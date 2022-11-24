@@ -1,5 +1,5 @@
 ---
-title: Designing an AI Companion for Young Adults
+title: Designing a Sustainable Financial AI Companion for Young Adults
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 4

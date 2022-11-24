@@ -61,6 +61,8 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   55% of emissions come from energy production.
 
+-   According to one study, only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues (American Press Institute (2022))
+
 ### Population {#population}
 
 In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)); future population projections predict 8.5B people by 2030 and 9.7B by 2050 (United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
@@ -108,7 +110,7 @@ commodities!! — the most effective things are — food — transport — fashi
 
 ## The State of Nationally Determined Contributions: 2022 {#the-state-of-nationally-determined-contributions-2022}
 
-https://www.wri.org/research/state-nationally-determined-contributions-2022
+-   https://www.wri.org/research/state-nationally-determined-contributions-2022
 
 ### Health {#health}
 
@@ -641,6 +643,8 @@ Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable dis
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
 
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
+
+American Press Institute. (2022). *Knowing the news: How Gen Z and Millennials get information on essential topics*.
 
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
 
