@@ -52,15 +52,32 @@ The advance of LLMs (Tamkin et al. (2021))
 | 1   | GTP2     | 2019     | OpenAI    |
 | 2   | T-NLG    | 2000     | Microsoft |
 | 3   | GTP3     | 2020     | OpenAI    |
-| 4   | GTP4     | 2022     | OpenAI    |
 | 5   | NeMo     | 2022     | NVIDIA    |
 | 6   | PaLM     | 2022     | Google    |
 | 7   | LaMDA    | 2022     | Google    |
 | 8   | GLaM     | 2022     | Google    |
+| 8   | ChatGTP  | 2022     | OpenAI    |
+| 4   | GTP4     | 2023     | OpenAI    |
 
 The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
 
-There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
+- There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
+
+- Validating LLM output @kuchnikValidatingLargeLanguage2022
+
+- Advanced LLM-based chatbot @ChatGPTOptimizingLanguage2022
+
+- Improved language generation @yuanSelectingBetterSamples2022
+
+- AI can have an inner monologue with itself @huangInnerMonologueEmbodied2022
+
+- Attempts to have multilingual LLMs (Chinese and English) here @zengGLM130BOpenBilingual2022
+
+- AI as a collaborative writer @leeCoAuthorDesigningHumanAI2022
+
+- AI-assistants in education @srinivasanAILearningPreferred2022
+
+- LLM's require large sets of training data @yuanWuDaoCorporaSuperLargescale2021
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
