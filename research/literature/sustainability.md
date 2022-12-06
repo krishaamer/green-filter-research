@@ -78,7 +78,10 @@ Overconsumption is one of the root causes of climate change and marine plastic p
 There’s evidence from several countries suggesting moving to renewal energy brings benefits:
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
+
 -   Considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective (Low et al. (2022))
+
+-   Using reinfocement learning to reduce energy use in cooling systems (Luo et al. (2022))
 
 ### Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
 
@@ -755,6 +758,9 @@ Lim, E., Hill, W., Lee, C., Weeden, C. E., Augustine, M., Chen, K., Kuan, F. C.,
 Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
 
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
+
+Luo, J., Paduraru, C., Voicu, O., Chervonyi, Y., Munns, S., Li, J., Qian, C., Dutta, P., Davis, J. Q., Wu, N., Yang, X., Chang, C.-M., Li, T., Rose, R., Fan, M., Nakhost, H., Liu, T., Kirkman, B., Altamura, F., … Mankowitz, D. J. (2022). *Controlling Commercial Cooling Systems Using Reinforcement Learning*. <https://doi.org/10.48550/ARXIV.2211.07357>
+<span class="csl-block">Other27 pages, 11 figures</span>
 
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
 

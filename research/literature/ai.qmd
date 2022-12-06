@@ -4,7 +4,7 @@ bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 4
 editor:
-    render-on-save: false
+    render-on-save: false 
 ---
 
 ```{=mdx}
@@ -14,6 +14,16 @@ import Replika from '../images/with-me.png'
 ```
 
 ## A Brief History of AI
+
+
+## AI UX
+
+- https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product-ebook/dp/B0BLZRJXZK/
+- Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence https://www.amazon.com/Designing-Human-Centric-Experiences-Artificial-Intelligence-ebook/dp/B0B9JCDZDB/
+- https://www.amazon.com/Studies-Conversational-Design-Human-Computer-Interaction-ebook/dp/B07G31WT3H/
+- https://www.amazon.com/Chatting-Humans-Experience-Conversational-Science-based-ebook/dp/B097YXLS67
+- https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook/dp/B08LB3JLPB
+
 
 ## Definition
 

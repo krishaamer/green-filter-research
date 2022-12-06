@@ -58,7 +58,7 @@ https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f80
 
 -   “environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33)) https://www.lawinsider.com/dictionary/environmental-savings
 
-Ethical Savings https://www.ecology.co.uk/savings https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping https://thegoodshoppingguide.com/
+Ethical Savings - https://www.ecology.co.uk/savings - https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know - https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping - https://thegoodshoppingguide.com/
 
 ### Transparency {#transparency}
 
@@ -113,9 +113,19 @@ Tan (2020) proposes *“financial ecologies”* to understand the dynanic relati
 
 How to design superapps? Lots of options in a single app. - https://sifted.eu/articles/europe-superapp-revolut-klarna/ - WeChat - Adaptive AI - Vecchi & Brennan (2022) - Zeng (2015) - Roa et al. (2021) - Huang & Miao (2021) - Suarez et al. (2021) - Shabrina Nurqamarani et al. (2020) - Giudice (2020)
 
-https://www.youtube.com/watch?v=R2BHzbBc5kM
+-   https://www.youtube.com/watch?v=R2BHzbBc5kM
 
-https://www.techrepublic.com/article/gartner-top-trends-list/ https://www.fintechfutures.com/2021/12/the-rise-of-carbon-centric-super-apps/ https://www.gartner.com/en/articles/what-is-a-superapp https://www.smartcitiesworld.net/news/news/partnership-brings-sustainability-mobility-into-superapps-7903 https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1 https://sifted.eu/articles/paypal-tops-european-downloads/
+-   https://www.techrepublic.com/article/gartner-top-trends-list/
+
+-   https://www.fintechfutures.com/2021/12/the-rise-of-carbon-centric-super-apps/
+
+-   https://www.gartner.com/en/articles/what-is-a-superapp
+
+-   https://www.smartcitiesworld.net/news/news/partnership-brings-sustainability-mobility-into-superapps-7903
+
+-   https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1
+
+-   https://sifted.eu/articles/paypal-tops-european-downloads/
 
 ### Indexes {#indexes}
 
@@ -135,11 +145,17 @@ existing rankings
 -   https://earth.org/worlds-most-sustainable-companies-in-2021/
 -   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
 
-.. b corps in taiwan https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city= https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/ https://www.citywealthmag.com/news/esg-branding-b-corps https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg https://www.youtube.com/watch?v=6WiBsm-YcNc
+### b corps in taiwan {#b-corps-in-taiwan}
+
+-   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=
+-   https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/
+-   https://www.citywealthmag.com/news/esg-branding-b-corps
+-   https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg
+-   https://www.youtube.com/watch?v=6WiBsm-YcNc
 
 ### Factories {#factories}
 
-Carbon-neutral factories “made in carbon-neutral factory” list of products https://www.weforum.org/agenda/2022/01/carbon-neutral-manufacturing-possible-net-zero/ https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories https://www.ingenco2.dk/ https://www.youtube.com/watch?v=ArPmrvyF5yA
+Carbon-neutral factories “made in carbon-neutral factory” list of products - https://www.weforum.org/agenda/2022/01/carbon-neutral-manufacturing-possible-net-zero/ - https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam - https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories - https://www.ingenco2.dk/ - https://www.youtube.com/watch?v=ArPmrvyF5yA
 
 ### Rating Systems {#rating-systems}
 
@@ -189,7 +205,7 @@ Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI in
 
 — Defi https://letsdodefi.com/ - Staking https://app.aave.com/#/deposit — Trading esg futures?? because climate is slow it makes sense to trade de climate future - While ESG is riddled with problems, it has sstarted a common language and there are many ways how to improve it — UK simple investing app Ziglu https://www.ziglu.io/
 
-— *swedish green fintech (important article)* https://sifted.eu/articles/sweden-green-sustainable-fintech/
+— *swedish green fintech (important article)* - https://sifted.eu/articles/sweden-green-sustainable-fintech/
 
 -   business footprint https://www.mynewsdesk.com/doconomy/pressreleases/doconomy-announces-largest-ever-climate-fintech-investment-round-in-europe-adds-\$17million-to-further-accelerate-expansion-3130198
 
@@ -215,9 +231,23 @@ Angelist
 
 ### Green investment platforms {#green-investment-platforms}
 
-https://trine.com/ https://the-many.com https://sugi.earth/ https://clim8invest.com/ https://circa5000.com/ https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast https://www.fairown.com/
+There are many ‘green investment platforms’ who to trust?
 
-https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
+-   https://trine.com/
+
+-   https://the-many.com
+
+-   https://sugi.earth/
+
+-   https://clim8invest.com/
+
+-   https://circa5000.com/
+
+-   https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast
+
+-   https://www.fairown.com/
+
+-   https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
 
 Investing - Your investment fund’s ESG thesis investing thesis investing expert investing thesis research
 
@@ -233,13 +263,13 @@ Build a thematic portfolio
 
 ### Digital Payments {#digital-payments}
 
-Digital currenccies make tracking easier https://cbdctracker.org/
+Digital currenccies make tracking easier - https://cbdctracker.org/
 
-— wechat, alipay, vs digital yuan: https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
+— wechat, alipay, vs digital yuan: - https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad - https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html - https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
 
 Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
 
-– https://sifted.eu/rankings/european-fintech-startups
+– - https://sifted.eu/rankings/european-fintech-startups
 
 People are concerned with digital payments
 
@@ -259,13 +289,15 @@ People are concerned with digital payments
 
 ### Neobanks and ESG {#neobanks-and-esg}
 
-neobanks https://monzo.com/
+neobanks - https://monzo.com/
 
-banking for students https://www.mos.com/
+banking for students - https://www.mos.com/
 
 — Portfolio personalisation: https://www.facebook.com/events/484738886576615
 
-— real time finance https://apply.workable.com/superfluid/j/F7A8E8E061/ — brasil nubank https://nubank.com.br/en/ https://www.coindesk.com/business/2022/02/16/berkshire-hathaway-invests-1b-in-brazilian-digital-bank-nubank-reduces-mastercard-visa-positions/
+— real time finance https://apply.workable.com/superfluid/j/F7A8E8E061/
+
+— brasil nubank https://nubank.com.br/en/ - https://www.coindesk.com/business/2022/02/16/berkshire-hathaway-invests-1b-in-brazilian-digital-bank-nubank-reduces-mastercard-visa-positions/
 
 — sustainable investinf producr for young ppl everyday use crypto nft provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees
 
@@ -275,15 +307,15 @@ raha maraton etv investeerimissaade.. raadios on ka mingi saade
 
 —- gamestop for climate massively collaborative investing by gen-z?
 
-but there’s so much capital in large funds retails investor money doesn’t matter at all. does retail money make any difference? — crypto banks seba.swiss https://onboarding.sygnum.com/
+but there’s so much capital in large funds retails investor money doesn’t matter at all. does retail money make any difference? — crypto banks seba.swiss - https://onboarding.sygnum.com/
 
-first crypto fund https://www.finma.ch/en/news/2021/09/20210929-mm-genehmigung-schweizer-kryptofonds/ https://www.myclimate.org/
+first crypto fund - https://www.finma.ch/en/news/2021/09/20210929-mm-genehmigung-schweizer-kryptofonds/ - https://www.myclimate.org/
 
-Finnish investing app https://www.selma.com/
+Finnish investing app - https://www.selma.com/
 
 — trading commodities https://www.swissinfo.ch/eng/why-little-switzerland-matters-for-the-survival-of-tropical-forests/45810264 “Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates. “ https://twitter.com/droensovka https://twitter.com/greenCB
 
-“More than half of the Swiss banks apparently plan to offer digital assets services over the next few years.” https://www.swissinfo.ch/eng/swiss–crypto-valley–boasts-14–unicorns-/47291870
+-   “More than half of the Swiss banks apparently plan to offer digital assets services over the next few years.” https://www.swissinfo.ch/eng/swiss–crypto-valley–boasts-14–unicorns-/47291870
 
 Improving ESG Accessibility
 
@@ -310,14 +342,18 @@ A wide number of banks are offering services marketed a sustainable. It’s hard
 Ant Group’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* in Turrin (2021)
 
 -   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
+
 -   https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/
+
 -   https://www.happonomy.org/sustainable-money-system/
 
-https://makemymoneymatter.co.uk
+-   https://makemymoneymatter.co.uk
 
-https://seekingalpha.com/article/4381215-5-books-changed-life-investor?gclid=EAIaIQobChMIq_XV8fee9QIVxqmWCh0S_wMGEAAYASAAEgKoHfD_BwE&utm_campaign=14823831578&utm_medium=cpc&utm_source=google&utm_term=128719140158%5Edsa-1427141793820%5E%5E549166468498%5E%5E%5Eg
+-   https://seekingalpha.com/article/4381215-5-books-changed-life-investor?gclid=EAIaIQobChMIq_XV8fee9QIVxqmWCh0S_wMGEAAYASAAEgKoHfD_BwE&utm_campaign=14823831578&utm_medium=cpc&utm_source=google&utm_term=128719140158%5Edsa-1427141793820%5E%5E549166468498%5E%5E%5Eg
 
-https://1e9.community/ https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
+-   https://1e9.community/
+
+-   https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
 
 — Consumer debt in the usa
 
