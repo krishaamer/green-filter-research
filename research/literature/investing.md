@@ -22,6 +22,12 @@ UNEP has identified that if the world is to meet its climate change, biodiversit
 
 “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilise capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
 
+## Digital Currency {#digital-currency}
+
+In order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs (Emele Onu & Anthony Osae-Brown (2022))
+
+“In Nigeria’s largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account.”
+
 ## Sustainable Saving {#sustainable-saving}
 
 Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
@@ -550,6 +556,8 @@ City of Malmö. (2017). *Green Bond Framework*.
 Cowan, G. (2018). Robo Advisers Start to Take Hold in Europe. *Wall Street Journal*.
 
 Doorn, P. van. (2020). 5 stocks that should thrive as the digital payments trend ramps up. In *MarketWatch*. https://www.marketwatch.com/story/5-stocks-that-should-thrive-as-this-digital-trend-ramps-up-2020-07-30.
+
+Emele Onu, & Anthony Osae-Brown. (2022). Nigeria Caps ATM Cash Withdrawals at \$45 Daily to Push Digital Payments. *Bloomberg*.
 
 Euronext. (2020). *Euronext launches suite of ESG products and services to empower sustainable growth*. https://www.euronext.com/en/about/media/euronext-press-releases/euronext-launches-suite-esg-products-and-services-empower.
 
