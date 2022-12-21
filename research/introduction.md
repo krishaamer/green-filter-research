@@ -15,11 +15,15 @@ import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
 ```
 
-# From 2023 to 2030 {#from-2023-to-2030}
+# Introduction {#introduction}
+
+While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
+
+## From 2023 to 2030 {#from-2023-to-2030}
 
 As the 1st step of the European Union (EU) European Green Deal strategy (adopted in 2019 by the von der Leyen commission), the Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
 
-In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process (Commission et al. (2014)). The framework proposes 10 values to strive for in high quality products:
+In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process ((**CommissionEcodesign2014?**)). The framework proposes 10 values to strive for in high quality products:
 
 | Quality            |
 |--------------------|
@@ -187,6 +191,8 @@ My interest lies in understanding how AI assistants can help conscious consumers
 
 My research aims to explore the following 3 research questions.
 
+What is the UI/UX of the green transformation?
+
 | №   | Question                                                                   | Methods                                            |
 |---|-----------------------------------------|-----------------------------|
 | 1   | How to design an integrated sustainable shopping, saving, investing app?   | Literature review + Expert Interviews + User Study |
@@ -204,8 +210,6 @@ My research aims to explore the following 3 research questions.
 BankMyCell. (2022). *How Many People Have Smartphones Worldwide*. https://www.bankmycell.com/blog/how-many-phones-are-in-the-world.
 
 Calastone. (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
-
-Commission, E., Energy, D.-G. for, Enterprise, D.-G. for, & Industry. (2014). *Ecodesign your future : How ecodesign can help the environment by making products smarter*. European Commission. <https://doi.org/doi/10.2769/38512>
 
 Deutsche Welle. (2019). *Fridays for Future global climate strike*. https://www.dw.com/en/fridays-for-future-global-climate-strike-live-updates/a-50505537.
 

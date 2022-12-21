@@ -66,7 +66,13 @@ Vertical farm in taoyuan https://www.taiwannews.com.tw/en/news/3387047
 
 — Farm to table https://techcrunch.com/tag/farm-to-table/
 
-https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU https://lowercarboncapital.com/companies/
+-   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU
+
+-   https://lowercarboncapital.com/companies/
+
+#### only make what is ordered. {#only-make-what-is-ordered.}
+
+-   https://www.youtube.com/watch?v=sMqtwbKc8EA
 
 ## Sustainable Fashion and Textile Design {#sustainable-fashion-and-textile-design}
 

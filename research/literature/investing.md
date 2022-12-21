@@ -40,6 +40,10 @@ Investing is a stronger signal to business than interactions on social media. De
 
 Hypothesis?
 
+### From Shopping to Investing {#from-shopping-to-investing}
+
+“Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference.” (Next Generation Customer Experience (n.d.))
+
 ### Hedge Funds and DAOs {#hedge-funds-and-daos}
 
 While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
@@ -423,7 +427,7 @@ https://www.forbes.com/sites/christophermarquis/2021/09/07/rsf-is-leading-the-wa
 
 -   One of the greatest hurdles to sustainability is a consumer mindset?
 
-— Sustainable investing, kids watch tiktok - https://www.tiktok.com/(**lizlivingblue/video/7059421371851377926?is_copy_url?**)=1&is_from_webapp=v1&q=sustainable%20investing&t=1663518141581
+— Sustainable investing, kids watch tiktok - tiktok (lizlivingblue (n.d.))
 
 ### Investment Products {#investment-products-1}
 
@@ -505,7 +509,7 @@ While, as I’ve shown, the financial AI companion apps in the US market are ahe
 
 ### Conscious Consumerism, Loyalty, and Savings {#conscious-consumerism-loyalty-and-savings}
 
-Building customer loyalty is a key part of repeat business and financial predictability, which any company is aiming for. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back. Meanwhile, business consultancies have begun to recognize the importance of design to business (McKeough (2018)) and advise their corporate clients to bring user experience design to the core of their business operations. The same applies to interacting with sustainable finance; for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty. The 2020 Green Fintech Trends report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience ((**GreenFintechTrends2020?**)). While the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers (Hoikkala (2019)), he sees it as a threat, not as an opportunity. Meanwhile, success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
+Building customer loyalty is a key part of repeat business and financial predictability, which any company is aiming for. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back. Meanwhile, business consultancies have begun to recognize the importance of design to business (McKeough (2018)) and advise their corporate clients to bring user experience design to the core of their business operations. The same applies to interacting with sustainable finance; for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty. The 2020 Green Fintech Trends report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience (Green Finance Platform (2020)). While the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers (Hoikkala (2019)), he sees it as a threat, not as an opportunity. Meanwhile, success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
 
 From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user’s way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. In the words of a Canadian investment blogger, “every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices” (Fotheringham (2017)).
 
@@ -575,6 +579,8 @@ Giudice, F. (2020). *WeChat: The impact of the super app on Chinese society.*
 
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
+Green Finance Platform. (2020). Green Fintech Trends for 2020 What’s to Come? In *Green Finance Platform*. https://greenfinanceplatform.org/news/green-fintech-trends-2020-%E2%80%93-what%E2%80%99s-come.
+
 Ho, S. (2019). Asian Investors Are Increasingly Looking To Do Good But ’Impact Washing’ Remains A Concern. In *Green Queen*.
 
 Hoikkala, H. (2019). H&M CEO Sees “Terrible” Fallout as Consumer Shaming Spreads \[Newspaper\]. In *Bloomberg*. https://www.bloomberg.com/news/articles/2019-10-27/h-m-ceo-sees-terrible-fallout-as-consumer-shaming-spreads.
@@ -599,6 +605,8 @@ Li, M., Li, N., Khan, M. A., Khaliq, N., & Rehman, F. U. (2022). Can retail inve
 
 Lingeswaran, S. (2019). *Levelling up: Shattering myths about philanthropy in Asia*. https://www.campdenfb.com/article/levelling-shattering-myths-about-philanthropy-asia.
 
+lizlivingblue. (n.d.). *It’s so important we support companies making a positive IMPACT in the #impactinvesting 💚💸 \#<span class="nocase">investwithIMPACT</span> #sustainabilitytok*. https://www.tiktok.com/@lizlivingblue/video/7059421371851377926.
+
 Malliaris, M., & Salchenberger, L. (1996). Using neural networks to forecast the S&P 100 implied volatility. *Neurocomputing*, *10*(2), 183–195. <https://doi.org/10.1016/0925-2312(95)00019-4>
 
 Margaryta Kirakosian, & Angus Foote. (2022). *“Methodologies are all over the place”: Banks name sectors lacking ESG funds*. https://citywire.com/selector/news/methodologies-are-all-over-the-place-banks-name-sectors-lacking-esg-funds/a2399377?refea=1694078.
@@ -606,6 +614,8 @@ Margaryta Kirakosian, & Angus Foote. (2022). *“Methodologies are all over the 
 McKeough, T. (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. In *Architectural Digest*. https://www.architecturaldigest.com/story/mckinsey-design-consulting-group-confirms-the-importance-of-design-to-business.
 
 McKinsey. (2020). *The next frontier in Asia payments*. https://www.mckinsey.com/industries/financial-services/our-insights/the-next-frontier-in-asia-payments.
+
+Next Generation Customer Experience. (n.d.). Acorns Targets Millennials With Shopping as Investing. In *CXFS & NGCX 2023 Blog*.
 
 Oyedokun, T. B. (2017). Green premium as a driver of green-labelled commercial buildings in the developing countries: Lessons from the UK and US. *International Journal of Sustainable Built Environment*, *6*(2). <https://doi.org/10.1016/j.ijsbe.2017.12.007>
 

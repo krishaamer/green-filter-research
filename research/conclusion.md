@@ -11,6 +11,8 @@ editor:
 
 TODO
 
+—- Make a public profile of my carbon consumption!!!
+
 —
 
 Shop Save Invest Build closer relationships with sustainability-focused companies Sales funnel for eco-focused products The eco-friendly market is fragmented Build trust, clarity, transparency, and honesty
