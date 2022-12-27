@@ -155,6 +155,8 @@ existing rankings
 -   https://earth.org/worlds-most-sustainable-companies-in-2021/
 -   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
 
+For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites. https://www.thegreenwebfoundation.org/
+
 ### b corps in taiwan {#b-corps-in-taiwan}
 
 -   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=

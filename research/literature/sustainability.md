@@ -14,6 +14,12 @@ import Humboldt from '../images/humboldt.jpg'
 
 # Design for Sustainability {#design-for-sustainability}
 
+“Carbon pricing is not there to punish people.
+
+It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.
+
+Very simple.” Lion Hirth Lion Hirth (n.d.)
+
 ## What is Sustainability? {#what-is-sustainability}
 
 *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (Le Provost et al. (2022)).
@@ -42,6 +48,8 @@ Growing public understanding of how nature works and intersects with our use of 
 The EU Copernicus sattelite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
 ### Clean Water {#clean-water}
+
+https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
 
 ### Clean Air {#clean-air}
 
@@ -602,7 +610,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
-The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
+The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - (**PEREZCUETO2021100346?**) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
@@ -757,6 +765,8 @@ Lim, E., Hill, W., Lee, C., Weeden, C. E., Augustine, M., Chen, K., Kuan, F. C.,
 
 Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunities to tackle short-lived climate pollutants and other greenhouse gases for China. *Science of The Total Environment*, *842*, 156842. <https://doi.org/10.1016/j.scitotenv.2022.156842>
 
+Lion Hirth. (n.d.). *Lion Hirth on Twitter: "Carbon pricing is not there to punish people. It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release. Very simple." / Twitter*. https://twitter.com/LionHirth/status/1605617664444878848.
+
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
 
 Luo, J., Paduraru, C., Voicu, O., Chervonyi, Y., Munns, S., Li, J., Qian, C., Dutta, P., Davis, J. Q., Wu, N., Yang, X., Chang, C.-M., Li, T., Rose, R., Fan, M., Nakhost, H., Liu, T., Kirkman, B., Altamura, F., … Mankowitz, D. J. (2022). *Controlling Commercial Cooling Systems Using Reinforcement Learning*. <https://doi.org/10.48550/ARXIV.2211.07357>
@@ -782,8 +792,6 @@ National Public Utilities Council. (2022). *Annual Utility Decarbonization Repor
 Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
 
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
-
-Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 

@@ -23,6 +23,10 @@ import Replika from '../images/with-me.png'
 -   https://www.amazon.com/Chatting-Humans-Experience-Conversational-Science-based-ebook/dp/B097YXLS67
 -   https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook/dp/B08LB3JLPB
 
+## Pervasive Computing {#pervasive-computing}
+
+The four phases of PC (Rogers (2022)) We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behaviour and optimize for planetal wellbeing.
+
 ## Definition {#definition}
 
 “AI is computer programming that learns and adapts” (*The A-Z of AI* (n.d.))
@@ -484,6 +488,8 @@ Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings w
 Ramchurn, S. D., Stein, S., & Jennings, N. R. (2021). Trustworthy human-AI partnerships. *iScience*, *24*(8), 102891. <https://doi.org/10.1016/j.isci.2021.102891>
 
 Richard Yang. (2021). Interaction design is more than just user flows and clicks. In *UX Collective*. https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c.
+
+Rogers, Y. (2022). The Four Phases of Pervasive Computing: From Vision-Inspired to Societal-Challenged. *IEEE Pervasive Comput.*, *21*(3), 9–16. <https://doi.org/10.1109/MPRV.2022.3179145>
 
 Rooney-Varga, J., Kapmeier, F., Sterman, J., Jones, A., Putko, M., & Rath, K. (2019). The climate action simulation. *Simulation & Gaming*, *51*, 104687811989064. <https://doi.org/10.1177/1046878119890643>
 
