@@ -27,6 +27,8 @@ import Replika from '../images/with-me.png'
 
 The four phases of PC (Rogers (2022)) We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behaviour and optimize for planetal wellbeing.
 
+Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.
+
 ## Definition {#definition}
 
 “AI is computer programming that learns and adapts” (*The A-Z of AI* (n.d.))

@@ -13,4 +13,6 @@ editor:
 
 Financial decisions, such as shopping, saving, and investing, significantly impact an individual’s ecological footprint. However, it can be challenging for even highly motivated individuals to identify and prioritize sustainable options in their daily lives. By working together, groups of individuals can leverage their collective influence. This study presents a speculative design for an AI companion that aims to facilitate the development of long-term relationships with sustainability-focused companies and introduces the concept of “shopping-as-investing”. The major contribution of the study is an interactive artefact (a prototype) informed by design research.
 
+quantified self for sustainability
+
 **Keywords**: AI Assistants, Sustainability, Interaction Design
