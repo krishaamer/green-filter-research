@@ -19,7 +19,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Understand who produces the products you buy and what are some greener
+        Understand who makes the products you buy and what are some greener
         alternatives
       </>
     ),
@@ -54,7 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        See where your investments go and what type of companies you're supporting
+        See what kind of companies your money is supporting and find eco-friendly investments
       </>
     ),
   },
