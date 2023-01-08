@@ -16,7 +16,7 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">
           <i>
-            Make better <s>consumer</s> investor choices, every day
+            Make greener <s>consumer</s> investor choices, every day
           </i>
         </p>
         <div className={styles.buttons}>
