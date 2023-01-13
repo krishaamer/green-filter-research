@@ -19,6 +19,10 @@ import Boundaries from "./images/boundaries.png";
 
 While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
 
+Health tracking apps provide a model of simple interactions to build a quantified self in a dynamic system that improves health outcomes through daily actions.
+
+and align their actions with their values
+
 ## From 2023 to 2030 {#from-2023-to-2030}
 
 As the 1st step of the European Union (EU) European Green Deal strategy (adopted in 2019 by the von der Leyen commission), the Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
