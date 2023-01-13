@@ -15,6 +15,19 @@ import Replika from '../images/with-me.png'
 
 ## A Brief History of AI {#a-brief-history-of-ai}
 
+## ChatGPT {#chatgpt}
+
+Kecht et al. (2023) suggests AI is capable of learning business processes
+
+-   https://www.sciencedirect.com/science/article/abs/pii/S2212440323000032
+-   https://www.sciencedirect.com/science/article/abs/pii/S0262407922022795
+
+O’Connor & ChatGPT (2023) and Cahan & Treutlein (2023) have conversations about science with AI
+
+Jeblick et al. (2022) suggest complicated radiology reports can be explained to patients using AI chatbots
+
+ai in education https://journals.sagepub.com/doi/abs/10.1177/10776958221149577 https://scholarspace.jccc.edu/c2c_online/vol1/iss18/4/
+
 ## AI UX {#ai-ux}
 
 -   https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product-ebook/dp/B0BLZRJXZK/
@@ -437,6 +450,8 @@ Bill Gates. (1982). *Bill Gates on the Next 40 Years in Technology*.
 
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
 
+Cahan, P., & Treutlein, B. (2023). A conversation with ChatGPT on the role of computational systems biology in stem cell research. *Stem Cell Reports*, *18*(1), 1–2. <https://doi.org/10.1016/j.stemcr.2022.12.009>
+
 Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2022). BreastScreening-AI: Evaluating medical intelligent agents for human-AI interactions. *Artificial Intelligence in Medicine*, *127*, 102285. <https://doi.org/10.1016/j.artmed.2022.102285>
 
 Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2021). Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification. *International Journal of Human-Computer Studies*, *150*, 102607. <https://doi.org/10.1016/j.ijhcs.2021.102607>
@@ -459,6 +474,8 @@ Harvard Advanced Leadership Initiative. (2021). *Human-AI Interaction: From Arti
 
 IxDF. (n.d.). *What is Interaction Design?* https://www.interaction-design.org/literature/topics/interaction-design.
 
+Jeblick, K., Schachtner, B., Dexl, J., Mittermeier, A., Stüber, A. T., Topalis, J., Weber, T., Wesp, P., Sabel, B., Ricke, J., & Ingrisch, M. (2022). *ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports*. <https://doi.org/10.48550/ARXIV.2212.14882>
+
 Jiang, Q., Zhang, Y., & Pian, W. (2022). Chatbot as an emergency exist: Mediated empathy for resilience via human-AI interaction during the COVID-19 pandemic. *Information Processing & Management*, *59*(6), 103074. <https://doi.org/10.1016/j.ipm.2022.103074>
 
 Justin Baker. (2018). Red Routes Critical Design Paths That Make or Break Your App. In *Muzli*. https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a.
@@ -466,6 +483,8 @@ Justin Baker. (2018). Red Routes Critical Design Paths That Make or Break Your A
 Karpus, J., Krüger, A., Verba, J. T., Bahrami, B., & Deroy, O. (2021). Algorithm exploitation: Humans are keen to exploit benevolent AI. *iScience*, *24*(6), 102679. <https://doi.org/10.1016/j.isci.2021.102679>
 
 Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
+
+Kecht, C., Egger, A., Kratsch, W., & Röglinger, M. (2023). Quantifying chatbots’ ability to learn business processes. *Information Systems*, 102176. <https://doi.org/10.1016/j.is.2023.102176>
 
 Kolko, J., & Connors, C. (2010). *Thoughts on interaction design: A collection of reflections*. Morgan Kaufmann.
 <span class="csl-block">First published: Savannah, GA : Brown Bear, c2007</span>
@@ -486,6 +505,8 @@ Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friend
 Lv, X., Luo, J., Liang, Y., Liu, Y., & Li, C. (2022). Is cuteness irresistible? The impact of cuteness on customers’ intentions to use AI applications. *Tourism Management*, *90*, 104472. <https://doi.org/10.1016/j.tourman.2021.104472>
 
 Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
+
+O’Connor, S., & ChatGPT. (2023). Open artificial intelligence platforms in nursing education: Tools for academic progress or abuse? *Nurse Education in Practice*, *66*, 103537. <https://doi.org/10.1016/j.nepr.2022.103537>
 
 Ramchurn, S. D., Stein, S., & Jennings, N. R. (2021). Trustworthy human-AI partnerships. *iScience*, *24*(8), 102891. <https://doi.org/10.1016/j.isci.2021.102891>
 
