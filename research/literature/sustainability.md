@@ -14,6 +14,8 @@ import Humboldt from '../images/humboldt.jpg'
 
 # Design for Sustainability {#design-for-sustainability}
 
+“Sustainability starts in the design process, and AI can help” https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/ https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e https://www.sciencedirect.com/science/article/abs/pii/S0040162522006734
+
 “Carbon pricing is not there to punish people.
 
 It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.
@@ -22,11 +24,37 @@ Very simple.” Lion Hirth Lion Hirth (n.d.)
 
 ## Science in Design {#science-in-design}
 
-https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
+-   https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
 
 ## Quantified Self {#quantified-self}
 
-https://www.sciencedirect.com/org/science/article/pii/S0144164722004019 https://www.sciencedirect.com/science/article/pii/S1071581919301508 https://www.sciencedirect.com/science/article/pii/S1071581919301508 https://www.sciencedirect.com/science/article/pii/S1532046419300711 https://www.sciencedirect.com/science/article/pii/S1028455919301366 https://www.sciencedirect.com/science/article/pii/S0377221719302668 https://www.sciencedirect.com/science/article/pii/S0033350619302070 https://www.sciencedirect.com/science/article/pii/S1877050919309494 https://www.sciencedirect.com/science/article/pii/S138650561830368X https://www.sciencedirect.com/science/article/pii/S0378512218302330 https://www.sciencedirect.com/science/article/pii/S1071581917301404 https://www.sciencedirect.com/science/article/pii/S0160412017301459 https://www.sciencedirect.com/science/article/pii/S2211335517300360 https://www.sciencedirect.com/science/article/pii/S1532046417300448 https://www.sciencedirect.com/science/article/pii/S2405872616300971 https://www.sciencedirect.com/science/article/pii/S1877065716302056 https://www.sciencedirect.com/science/article/pii/S0092867416303300 https://www.sciencedirect.com/science/article/pii/S2214782915000238 https://www.sciencedirect.com/science/article/pii/S136481521500167X https://www.sciencedirect.com/science/article/pii/S036013151530018X https://www.sciencedirect.com/science/article/pii/S0016718522000963 https://www.sciencedirect.com/science/article/pii/S0160791X22000148 https://www.sciencedirect.com/science/article/pii/S2214845021000958 https://www.sciencedirect.com/science/article/pii/S0001691822002839 https://www.sciencedirect.com/science/article/pii/S1877050921023966 https://www.sciencedirect.com/science/article/pii/S1808869422000052 https://www.sciencedirect.com/science/article/pii/S1877050922008420
+-   https://www.sciencedirect.com/org/science/article/pii/S0144164722004019
+-   https://www.sciencedirect.com/science/article/pii/S1071581919301508
+-   https://www.sciencedirect.com/science/article/pii/S1071581919301508
+-   https://www.sciencedirect.com/science/article/pii/S1532046419300711
+-   https://www.sciencedirect.com/science/article/pii/S1028455919301366
+-   https://www.sciencedirect.com/science/article/pii/S0377221719302668
+-   https://www.sciencedirect.com/science/article/pii/S0033350619302070
+-   https://www.sciencedirect.com/science/article/pii/S1877050919309494
+-   https://www.sciencedirect.com/science/article/pii/S138650561830368X
+-   https://www.sciencedirect.com/science/article/pii/S0378512218302330
+-   https://www.sciencedirect.com/science/article/pii/S1071581917301404
+-   https://www.sciencedirect.com/science/article/pii/S0160412017301459
+-   https://www.sciencedirect.com/science/article/pii/S2211335517300360
+-   https://www.sciencedirect.com/science/article/pii/S1532046417300448
+-   https://www.sciencedirect.com/science/article/pii/S2405872616300971
+-   https://www.sciencedirect.com/science/article/pii/S1877065716302056
+-   https://www.sciencedirect.com/science/article/pii/S0092867416303300
+-   https://www.sciencedirect.com/science/article/pii/S2214782915000238
+-   https://www.sciencedirect.com/science/article/pii/S136481521500167X
+-   https://www.sciencedirect.com/science/article/pii/S036013151530018X
+-   https://www.sciencedirect.com/science/article/pii/S0016718522000963
+-   https://www.sciencedirect.com/science/article/pii/S0160791X22000148
+-   https://www.sciencedirect.com/science/article/pii/S2214845021000958
+-   https://www.sciencedirect.com/science/article/pii/S0001691822002839
+-   https://www.sciencedirect.com/science/article/pii/S1877050921023966
+-   https://www.sciencedirect.com/science/article/pii/S1808869422000052
+-   https://www.sciencedirect.com/science/article/pii/S1877050922008420
 
 ## What is Sustainability? {#what-is-sustainability}
 
