@@ -22,6 +22,36 @@ It’s there to remind us, when we take travel, heating, consumption decisions t
 
 Very simple.” Lion Hirth Lion Hirth (n.d.)
 
+## Precision fermentation and cultivated meat {#precision-fermentation-and-cultivated-meat}
+
+Meat products without farm animals
+
+## Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) {#estonian-green-deal-action-plan-eesti-rohepöörde-tegevusplaan}
+
+-   https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
+
+## Ecodesign for sustainable products {#ecodesign-for-sustainable-products}
+
+-   Finding green products and supporting companies making them
+-   Supporting legislative changes
+-   Track you consumption, saving, investing. Shift balance towards saving and investing.
+
+https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0 https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/sustainable-products/ecodesign-sustainable-products_en
+
+## Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
+
+There is a parallel in health to sustainability and indeed both are inextrabicably linked.
+
+Healthkit
+
+In a 2022 report Apple outlines its plants to : “Empowering people to live a healthier day” https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
+
+https://developer.apple.com/videos/play/wwdc2022/10005/
+
+What would that look like for sustainability?
+
+Empowering people to live a sustainable day
+
 ## Science in Design {#science-in-design}
 
 -   https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click

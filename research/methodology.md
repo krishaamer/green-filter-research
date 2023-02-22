@@ -28,6 +28,8 @@ import Methodology from './images/research-methodology.png'
 
 “Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations” (Li et al. (2022))
 
+-   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like apple health, in order to change behaviour?
+
 Your Green Helper
 
 thesis: if we all acted more like investors instead of consumers, the world would be a better place

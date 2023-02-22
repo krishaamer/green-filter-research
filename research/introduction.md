@@ -19,13 +19,11 @@ import Boundaries from "./images/boundaries.png";
 
 While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
 
-Health tracking apps provide a model of simple interactions to build a quantified self in a dynamic system that improves health outcomes through daily actions.
-
-and align their actions with their values
+Health tracking apps provide a model of simple interactions to build a quantified self in a dynamic system that improves health outcomes through daily actions allowing the ussers to align their actions with their values.
 
 ## From 2023 to 2030 {#from-2023-to-2030}
 
-As the 1st step of the European Union (EU) European Green Deal strategy (adopted in 2019 by the von der Leyen commission), the Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
+As the 1st step of the European Union (EU) European Green Deal strategy adopted in 2019 by the von der Leyen commission. The Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
 
 In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process ((**CommissionEcodesign2014?**)). The framework proposes 10 values to strive for in high quality products:
 
@@ -92,6 +90,17 @@ kora 95%
 />
 ```
 
+I grew up reading science fiction books in the 1990s and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
+
+As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks, and while it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
+
+``` mdx-code-block
+<Figure
+  caption="Figure 1: Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
+  src={Tricorder}
+/>
+```
+
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world (Deutsche Welle (2019)) and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Time (2019)). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising.
 
 In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries ((**OutsideSafeOperating?**)).
@@ -112,17 +121,6 @@ For the average person, our experience is limited with buying things at the supe
   src={Boundaries}
   refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
   refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
-/>
-```
-
-I grew up reading science fiction books in the 1990s and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
-
-As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks, and while it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
-
-``` mdx-code-block
-<Figure
-  caption="Figure 1: Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
-  src={Tricorder}
 />
 ```
 
@@ -197,17 +195,11 @@ My research aims to explore the following 3 research questions.
 
 What is the UI/UX of the green transformation?
 
-| №   | Question                                                                   | Methods                                            |
+| №   | Question                                                                     | Methods                                     |
 |---|-----------------------------------------|-----------------------------|
-| 1   | How to design an integrated sustainable shopping, saving, investing app?   | Literature review + Expert Interviews + User Study |
-| 2   | How to present sustainability information?                                 | Literature review + Survey                         |
-| 3   | What application features do potential users rate as the highest priority? | Survey + Prototype Testing with Focus Group        |
-
-| №   | Question                                                                       | Methods                                     |
-|---|--------------------------------------------|-------------------------|
-| 1   | What factors increase potential users choosing sustainable investing?          | Literature review + Expert Interviews       |
-| 2   | What class of investment vehicles do potential usersshow the most interest in? | Survey                                      |
-| 3   | What application features do potential users rate as thehighest priority?      | Survey + Prototype Testing with Focus Group |
+| 1   | How can AI assistants encourage sustainable shopping, saving, and investing? | Literature review + Expert Interviews       |
+| 2   | How to design an intuitive sustainable shopping, saving, investing app?      | Literature review + Survey                  |
+| 3   | What features do potential app users rate as the highest priority?           | Survey + Prototype Testing with Focus Group |
 
 ## References {#references .unnumbered}
 

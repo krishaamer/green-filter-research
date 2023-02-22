@@ -225,6 +225,10 @@ Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI in
 
 — “Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy.” (Margaryta Kirakosian & Angus Foote (2022))
 
+## Contactless payments {#contactless-payments}
+
+https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
+
 ### Hedge Funds {#hedge-funds}
 
 Make a climate hedge fund with friends
