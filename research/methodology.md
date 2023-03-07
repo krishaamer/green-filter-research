@@ -7,6 +7,11 @@ editor:
     render-on-save: true
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Concepts from './images/concept-map.png'
@@ -16,7 +21,7 @@ import Methodology from './images/research-methodology.png'
 # Methodology {#methodology}
 
 | №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|----|-------------------|-----------------------------|---|------------------|
+|------|---------------|--------------|----------------------|-----------------|
 | 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
 | 2   | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
 | 3   | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
@@ -28,27 +33,27 @@ import Methodology from './images/research-methodology.png'
 
 “Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations” (Li et al. (2022))
 
--   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like apple health, in order to change behaviour?
+-   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
 Your Green Helper
 
 thesis: if we all acted more like investors instead of consumers, the world would be a better place
 
-1.  Survey to investors… 2. pick who to intervieew. 3. survey to consumerss How do you feel about this statement q: 1-10… 2. Investing in sustainability has a meaningful impact on sustainability q: it’s easy to asseess the sustainabilitty of an investment q: i consider sustainability when investing
+1.  Survey to investors… 2. pick who to interview. 3. survey to consumers How do you feel about this statement q: 1-10… 2. Investing in sustainability has a meaningful impact on sustainability q: it’s easy to aseess the sustainabilitty of an investment q: i consider sustainability when investing
 
-<!-- -->
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 1.  
 
-make some initial protottype? make youtube video… hi, you havee reacheed? spread… through estban and others?
+make some initial prototype? make youtube video… hi, you have reached? spread… through estban and others?
 
-QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a material impact on environmental issues — Investment decisions have a material impact on envrionmental issues
+QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a material impact on environmental issues — Investment decisions have a material impact on environmental issues
 
 How would you prefer communicating with an AI? – Use my voice – Search box – Chat – Take photos and share them with AI – ??
 
 — interview https://www.funderbeam.com/
 
-—
+------------------------------------------------------------------------
 
 ``` text
 1. how would your desribe your relationship with sustainability?
@@ -79,7 +84,7 @@ start with everyday questions:
 
 — design research books - https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true - https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= - https://www.sciencedirect.com/journal/design-studies
 
-—
+------------------------------------------------------------------------
 
 research through design as a method - https://dl.acm.org/doi/abs/10.1145/1240624.1240704
 
@@ -91,13 +96,13 @@ Research through design as a method for interaction design research in HCI - htt
 
 -   https://www.amazon.com/UX-Research-Practical-Techniques-Designing-ebook/dp/B01N9BZ060/ref=sr_1\_1?crid=1U2HFSS1221L5&keywords=Brad+Nunnally+%2C&qid=1663099104&s=digital-text&sprefix=brad+nunnally+%2C%2Cdigital-text%2C284&sr=1-1&asin=B01N9BZ060&revisionId=9e4c1870&format=1&depth=1
 
-—
+------------------------------------------------------------------------
 
 interview people at google who made the green filtter options
 
 — design artefacts
 
-“design’s) nature as a “problem-solving” science”, Oulasvirta and Hornbæk, 2016
+“design’s) nature as a”problem-solving” science”, Oulasvirta and Hornbæk, 2016
 
 my contribution is the design artefact, “HCI researchers also make constructive contributions by developing new technologies and design”
 

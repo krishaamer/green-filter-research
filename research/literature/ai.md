@@ -97,7 +97,7 @@ The advance of LLMs (Tamkin et al. (2021))
 | 1   | GTP2     | 2019     | OpenAI    |
 | 2   | T-NLG    | 2000     | Microsoft |
 | 3   | GTP3     | 2020     | OpenAI    |
-| 4   | GTP4     | 2022     | OpenAI    |
+| 4   | GTP4     | 2023     | OpenAI    |
 | 5   | NeMo     | 2022     | NVIDIA    |
 | 6   | PaLM     | 2022     | Google    |
 | 7   | LaMDA    | 2022     | Google    |
@@ -106,6 +106,10 @@ The advance of LLMs (Tamkin et al. (2021))
 The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
 
 There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
+
+-   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs For example Snapchat’s “My AI” virtual friend help people write faster with the app helping users with predictive text completion.
+
+Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
@@ -225,6 +229,16 @@ Interaction design is increasingly becoming dependent on AI. The user interface 
 In the words of Easterbrook, a previous CEO of McDonald’s “How do you transition from mass marketing to mass personalization?” (Barrett (2019)). During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we’re still in the early stages. Where do we go from here?
 
 Lovejoy, lead UX designer at Google’s people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say (Design Portland (2018)).
+
+(**costaInteractionDesignAI2022?**) “Interaction Design for AI Systems”
+
+“How AI is changing ‘interactions’”
+
+-   “\[AI\] blend into our lives in a form of apps and services” https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545
+
+-   Dot Go makes the camera the interaction device: https://dot-go.app/
+
+-   “Workshop with Young HCI Designers” (**battistoniCanAIOrientedRequirements2023?**)
 
 ### Platform Economy {#platform-economy}
 

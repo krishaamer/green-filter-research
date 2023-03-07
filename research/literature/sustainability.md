@@ -22,6 +22,28 @@ It’s there to remind us, when we take travel, heating, consumption decisions t
 
 Very simple.” Lion Hirth Lion Hirth (n.d.)
 
+The EU has a taxonomy of environmentally sustainable economic activities published by the Technical Expert Group (TEG) on sustainable finance: https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en
+
+-   “Emotionally Durable Design”, https://www.amazon.com/Emotionally-Durable-Design-Objects-Experiences-ebook/dp/B09M6MTZ4P
+-   “Enchanted Objects”, https://www.amazon.com/Enchanted-Objects-Innovation-Design-Technology-ebook/dp/B00DPM7WO2
+
+## Climate Anxiety {#climate-anxiety}
+
+Design to reduce climate anxiety
+
+-   (**whitmarshClimateAnxietyWhat2022?**)
+
+-   (**ogunbodeClimateAnxietyWellbeing2022?**) find climate anxiety in 32 countries
+
+-   Finds that climate anxiety predicts joining climate action movements
+
+-   How to support the youth?
+
+## Zero Waste Lifestyle {#zero-waste-lifestyle}
+
+-   https://www.youtube.com/watch?v=DyceCESZvYQ
+-   
+
 ## Precision fermentation and cultivated meat {#precision-fermentation-and-cultivated-meat}
 
 Meat products without farm animals

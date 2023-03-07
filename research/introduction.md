@@ -17,15 +17,21 @@ import Boundaries from "./images/boundaries.png";
 
 # Introduction {#introduction}
 
-While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
+Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation’s models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume (Ellen MacArthur Foundation, Material Economics (2019)). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
 
-Health tracking apps provide a model of simple interactions to build a quantified self in a dynamic system that improves health outcomes through daily actions allowing the ussers to align their actions with their values.
+Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
 
-## From 2023 to 2030 {#from-2023-to-2030}
+What would be a good interface to track sustainability?
 
-As the 1st step of the European Union (EU) European Green Deal strategy adopted in 2019 by the von der Leyen commission. The Commision proposed in 2021 a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990 and is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
+## The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
 
-In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process ((**CommissionEcodesign2014?**)). The framework proposes 10 values to strive for in high quality products:
+In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); *EU Reaches Agreement on National Emission Reductions* (2022); European Council (2022)).
+
+## Ecodesign as Key Policy Tool {#ecodesign-as-key-policy-tool}
+
+In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria.
+
+A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process ((**CommissionEcodesign2014?**)). The framework proposes 10 values to strive for in high quality products:
 
 | Quality            |
 |--------------------|
@@ -38,10 +44,6 @@ In March 2022, the EU Circular Economy Action Plan was adopted, looking to make 
 | Easy to recycle    |
 | Energy efficient   |
 | Resource efficient |
-
-It’s safe to say the large majority of products available today do not meet these criteria.
-
-Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases.
 
 ## Relevance {#relevance}
 
@@ -57,10 +59,6 @@ This research is timely in 2023 because of the convergence of four trends:
 The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (in Gupta (2020)), relating to the social (S in ESG).
 
 We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
-
-Consumer lifestyle contributes to environmental destruction:
-
--   Ellen MacArthur Foundation’s models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume (Ellen MacArthur Foundation, Material Economics (2019)).
 
 **There’s evidence young people have money:**
 
@@ -81,6 +79,8 @@ kora 95%
 
 ## Research Background {#research-background}
 
+I grew up reading science fiction books in the 1990s and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
+
 ``` mdx-code-block
 <Figure
   caption="Climate protest in Geneva on 27th September, 2019"
@@ -90,9 +90,7 @@ kora 95%
 />
 ```
 
-I grew up reading science fiction books in the 1990s and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
-
-As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks, and while it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
+As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text predicion translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
 
 ``` mdx-code-block
 <Figure
@@ -103,11 +101,7 @@ As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI 
 
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world (Deutsche Welle (2019)) and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Time (2019)). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising.
 
-In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries ((**OutsideSafeOperating?**)).
-
-In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do?
-
-How can networks of people come together to reduce traffic, deforestation, support mobility and green builings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
+In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries ((**OutsideSafeOperating?**)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together to reduce traffic, deforestation, support mobility and green builings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
 
 For the average person, our experience is limited with buying things at the supermarket. Food, clothes, furniture, soap, mobile phone.
 
@@ -196,7 +190,7 @@ My research aims to explore the following 3 research questions.
 What is the UI/UX of the green transformation?
 
 | №   | Question                                                                     | Methods                                     |
-|---|-----------------------------------------|-----------------------------|
+|--------------|-----------------------------------|------------------------|
 | 1   | How can AI assistants encourage sustainable shopping, saving, and investing? | Literature review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?      | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?           | Survey + Prototype Testing with Focus Group |
