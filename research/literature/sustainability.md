@@ -1,5 +1,5 @@
 ---
-title: Designing for Sustainability
+title: Designing Interfaces for Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
