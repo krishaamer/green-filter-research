@@ -15,10 +15,12 @@ import Humboldt from '../images/humboldt.jpg'
 
 # Design for Sustainability
 
+AI can help us make sense of the vast amounts of sustainability data generated daily..
+
 "Sustainability starts in the design process, and AI can help"
-https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/
-https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
-https://www.sciencedirect.com/science/article/abs/pii/S0040162522006734
+- https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/
+- https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
+- @guptaAnalysisArtificialIntelligencebased2023
 
 "Carbon pricing is not there to punish people. 
 
@@ -30,6 +32,41 @@ The EU has a taxonomy of environmentally sustainable economic activities publish
 
 - "Emotionally Durable Design", https://www.amazon.com/Emotionally-Durable-Design-Objects-Experiences-ebook/dp/B09M6MTZ4P
 - "Enchanted Objects", https://www.amazon.com/Enchanted-Objects-Innovation-Design-Technology-ebook/dp/B00DPM7WO2
+
+
+## Oracles
+https://ethereum.org/en/developers/docs/oracles/
+https://www.mdpi.com/2071-1050/12/6/2391
+https://blog.chain.link/blockchains-and-oracles-are-redefining-the-energy-industry/
+https://www.coindesk.com/tech/2021/05/26/chainlinks-founder-says-defi-and-oracles-can-help-fight-climate-change/
+https://www.lcx.com/sustainability-and-blockchain-a-better-future/
+
+
+ChainLink
+DAO IPCI
+OpenLitterMap
+G.I.D Coin
+Regen Network
+
+
+## Provenance and Traceability
+Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be "free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims."
+
+Animal rights vs animal welfare
+
+*Seafood tracing*: 
+- Fingerprinting of Sea Urchin @mamedeElementalFingerprintingSea2022a
+- @watersEthicsChoiceAnimal2015a
+- @cawthornControversialCuisineGlobal2016a
+- @gamborgAttitudesRecreationalHunting2017a
+- @baileyMappingActorsArguments2020a
+
+
+## Carbob Labeling
+- @cohenPotentialRoleCarbon2012a
+
+
+## Oracles for Sustainability Data.
 
 ## Climate Anxiety
 
@@ -78,33 +115,34 @@ Empowering people to live a sustainable day
 - https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
 
 ## Quantified Self
-- https://www.sciencedirect.com/org/science/article/pii/S0144164722004019
-- https://www.sciencedirect.com/science/article/pii/S1071581919301508
-- https://www.sciencedirect.com/science/article/pii/S1071581919301508
-- https://www.sciencedirect.com/science/article/pii/S1532046419300711
-- https://www.sciencedirect.com/science/article/pii/S1028455919301366
-- https://www.sciencedirect.com/science/article/pii/S0377221719302668
-- https://www.sciencedirect.com/science/article/pii/S0033350619302070
-- https://www.sciencedirect.com/science/article/pii/S1877050919309494
-- https://www.sciencedirect.com/science/article/pii/S138650561830368X
-- https://www.sciencedirect.com/science/article/pii/S0378512218302330
-- https://www.sciencedirect.com/science/article/pii/S1071581917301404
-- https://www.sciencedirect.com/science/article/pii/S0160412017301459
-- https://www.sciencedirect.com/science/article/pii/S2211335517300360
-- https://www.sciencedirect.com/science/article/pii/S1532046417300448
-- https://www.sciencedirect.com/science/article/pii/S2405872616300971
-- https://www.sciencedirect.com/science/article/pii/S1877065716302056
-- https://www.sciencedirect.com/science/article/pii/S0092867416303300
-- https://www.sciencedirect.com/science/article/pii/S2214782915000238
-- https://www.sciencedirect.com/science/article/pii/S136481521500167X
-- https://www.sciencedirect.com/science/article/pii/S036013151530018X
-- https://www.sciencedirect.com/science/article/pii/S0016718522000963
-- https://www.sciencedirect.com/science/article/pii/S0160791X22000148
-- https://www.sciencedirect.com/science/article/pii/S2214845021000958
-- https://www.sciencedirect.com/science/article/pii/S0001691822002839
-- https://www.sciencedirect.com/science/article/pii/S1877050921023966
-- https://www.sciencedirect.com/science/article/pii/S1808869422000052
-- https://www.sciencedirect.com/science/article/pii/S1877050922008420
+Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
+
+- @delclos-alioWalkingTransportationLarge2022
+- @giannakosFitbitLearningCapturing2020
+- @shinWearableActivityTrackers2019
+- @tsaiTranslationValidationTaiwan2019
+- @burgerDevelopingSmartOperational2019
+- @aromatarioHowMobileHealth2019 behaviour changes
+- @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise
+- @ayoolaCHANGEPlatformServicebased2018 wellbeiing data
+- @godfreyWearableTechnologyExplained2018
+- @thomasExploringDigitalRemediation2018
+- @tonneNewFrontiersEnvironmental2017
+- @grigsby-toussaintSleepAppsBehavioral2017 Sleep apps and behavioral constructs
+- @anselmaArtificialIntelligenceFramework2017
+- @forlanoPosthumanismDesign2017 postthuhumanis and design
+- @saubadePromotingPhysicalActivity2016 motivatting physical activity
+- @greenbaumWhoOwnsYour2016
+- @millingsCanEffectivenessOnline2015
+- @reisIntegratingModellingSmart2015
+- @bowerWhatAreEducational2015
+- @fletcherFriendlyNoisySurveillance2022
+- @ryanEthicsDietaryApps2022
+- @emirhidayatValueDriversStartup2022
+- @tylerContemporarySelfreflectivePractices2022
+- @wiraniEvaluationContinuedUse2022
+- @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
+- @almeidaParanoidOSWearable2022
 
 ## What is Sustainability?
 _Sustainability_ was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (@leprovostSupplyMultipleEcosystem2022).

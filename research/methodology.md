@@ -20,6 +20,8 @@ import Methodology from './images/research-methodology.png'
 
 # Methodology {#methodology}
 
+Start with survey, then expert interviews (because so many questions from literature review)
+
 | №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
 |------|---------------|--------------|----------------------|-----------------|
 | 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
@@ -28,6 +30,11 @@ import Methodology from './images/research-methodology.png'
 | 4   | Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
 | 5   | XYZ                  | Expert Interview  |                                                                                |                                                        |
 | 6   | ABC                  | User Survey       |                                                                                |                                                        |
+
+## Affinity Diagrams {#affinity-diagrams}
+
+-   https://bootcamp.uxdesign.cc/ux-analysis-phase-five-affinity-diagram-from-previous-research-data-a073609938a2
+-   https://www.nngroup.com/articles/affinity-diagram/ \| \|
 
 ## Factorial Surveys {#factorial-surveys}
 

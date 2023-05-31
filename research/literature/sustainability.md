@@ -1,5 +1,5 @@
 ---
-title: Designing Interfaces for Sustainability
+title: History of Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -14,7 +14,9 @@ import Humboldt from '../images/humboldt.jpg'
 
 # Design for Sustainability {#design-for-sustainability}
 
-“Sustainability starts in the design process, and AI can help” https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/ https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e https://www.sciencedirect.com/science/article/abs/pii/S0040162522006734
+AI can help us make sense of the vast amounts of sustainability data generated daily..
+
+“Sustainability starts in the design process, and AI can help” - https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/ - https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e - Gupta et al. (2023)
 
 “Carbon pricing is not there to punish people.
 
@@ -27,13 +29,33 @@ The EU has a taxonomy of environmentally sustainable economic activities publish
 -   “Emotionally Durable Design”, https://www.amazon.com/Emotionally-Durable-Design-Objects-Experiences-ebook/dp/B09M6MTZ4P
 -   “Enchanted Objects”, https://www.amazon.com/Enchanted-Objects-Innovation-Design-Technology-ebook/dp/B00DPM7WO2
 
+## Oracles {#oracles}
+
+https://ethereum.org/en/developers/docs/oracles/ https://www.mdpi.com/2071-1050/12/6/2391 https://blog.chain.link/blockchains-and-oracles-are-redefining-the-energy-industry/ https://www.coindesk.com/tech/2021/05/26/chainlinks-founder-says-defi-and-oracles-can-help-fight-climate-change/ https://www.lcx.com/sustainability-and-blockchain-a-better-future/
+
+ChainLink DAO IPCI OpenLitterMap G.I.D Coin Regen Network
+
+## Provenance and Traceability {#provenance-and-traceability}
+
+Ethereum blockchain and animal rights. “Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be”free-range,” “organic,” or “sustainably sourced” could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims.”
+
+Animal rights vs animal welfare
+
+*Seafood tracing*: - Fingerprinting of Sea Urchin Mamede et al. (2022) - Waters (2015) - Cawthorn & Hoffman (2016) - Gamborg & Jensen (2017) - Bailey & Eggereide (2020)
+
+## Carbob Labeling {#carbob-labeling}
+
+-   Cohen & Vandenbergh (2012)
+
+## Oracles for Sustainability Data. {#oracles-for-sustainability-data.}
+
 ## Climate Anxiety {#climate-anxiety}
 
 Design to reduce climate anxiety
 
--   (**whitmarshClimateAnxietyWhat2022?**)
+-   Whitmarsh et al. (2022)
 
--   (**ogunbodeClimateAnxietyWellbeing2022?**) find climate anxiety in 32 countries
+-   Ogunbode et al. (2022) find climate anxiety in 32 countries
 
 -   Finds that climate anxiety predicts joining climate action movements
 
@@ -80,33 +102,34 @@ Empowering people to live a sustainable day
 
 ## Quantified Self {#quantified-self}
 
--   https://www.sciencedirect.com/org/science/article/pii/S0144164722004019
--   https://www.sciencedirect.com/science/article/pii/S1071581919301508
--   https://www.sciencedirect.com/science/article/pii/S1071581919301508
--   https://www.sciencedirect.com/science/article/pii/S1532046419300711
--   https://www.sciencedirect.com/science/article/pii/S1028455919301366
--   https://www.sciencedirect.com/science/article/pii/S0377221719302668
--   https://www.sciencedirect.com/science/article/pii/S0033350619302070
--   https://www.sciencedirect.com/science/article/pii/S1877050919309494
--   https://www.sciencedirect.com/science/article/pii/S138650561830368X
--   https://www.sciencedirect.com/science/article/pii/S0378512218302330
--   https://www.sciencedirect.com/science/article/pii/S1071581917301404
--   https://www.sciencedirect.com/science/article/pii/S0160412017301459
--   https://www.sciencedirect.com/science/article/pii/S2211335517300360
--   https://www.sciencedirect.com/science/article/pii/S1532046417300448
--   https://www.sciencedirect.com/science/article/pii/S2405872616300971
--   https://www.sciencedirect.com/science/article/pii/S1877065716302056
--   https://www.sciencedirect.com/science/article/pii/S0092867416303300
--   https://www.sciencedirect.com/science/article/pii/S2214782915000238
--   https://www.sciencedirect.com/science/article/pii/S136481521500167X
--   https://www.sciencedirect.com/science/article/pii/S036013151530018X
--   https://www.sciencedirect.com/science/article/pii/S0016718522000963
--   https://www.sciencedirect.com/science/article/pii/S0160791X22000148
--   https://www.sciencedirect.com/science/article/pii/S2214845021000958
--   https://www.sciencedirect.com/science/article/pii/S0001691822002839
--   https://www.sciencedirect.com/science/article/pii/S1877050921023966
--   https://www.sciencedirect.com/science/article/pii/S1808869422000052
--   https://www.sciencedirect.com/science/article/pii/S1877050922008420
+Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
+
+-   Delclòs-Alió et al. (2022)
+-   Giannakos et al. (2020)
+-   Shin et al. (2019)
+-   Tsai et al. (2019)
+-   Burger et al. (2019)
+-   Aromatario et al. (2019) behaviour changes
+-   Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise
+-   Ayoola et al. (2018) wellbeiing data
+-   Godfrey et al. (2018)
+-   Thomas et al. (2018)
+-   Tonne et al. (2017)
+-   Grigsby-Toussaint et al. (2017) Sleep apps and behavioral constructs
+-   Anselma et al. (2017)
+-   Forlano (2017) postthuhumanis and design
+-   Saubade et al. (2016) motivatting physical activity
+-   Greenbaum & Gerstein (2016)
+-   Millings et al. (2015)
+-   Reis et al. (2015)
+-   Bower & Sturman (2015)
+-   Fletcher (2022)
+-   Ryan (2022)
+-   Emir Hidayat et al. (2022)
+-   Tyler et al. (2022)
+-   Wirani et al. (2022)
+-   Baptista et al. (2022) apps for sleep apnea
+-   Almeida et al. (2022)
 
 ## What is Sustainability? {#what-is-sustainability}
 
@@ -741,6 +764,8 @@ Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable dis
 
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
 
+Almeida, A., Mateus-Coelho, N., Lopes, N., & Portela, I. (2022). Paranoid OS: Wearable Trackers. *Procedia Computer Science*, *204*, 862–868. <https://doi.org/10.1016/j.procs.2022.08.104>
+
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
 
 American Press Institute. (2022). *Knowing the news: How Gen Z and Millennials get information on essential topics*.
@@ -749,11 +774,21 @@ Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Dec
 
 André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
 
+Anselma, L., Mazzei, A., & De Michieli, F. (2017). An artificial intelligence framework for compensating transgressions and its application to diet management. *Journal of Biomedical Informatics*, *68*, 58–70. <https://doi.org/10.1016/j.jbi.2017.02.015>
+
 Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider, & Kelsey Mulcahy. (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
 
 Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J., & Lenton, T. M. (2022). Exceeding 1.5 global warming could trigger multiple climate tipping points. *Science*, *377*(6611), eabn7950. <https://doi.org/10.1126/science.abn7950>
 
+Aromatario, O., Van Hoye, A., Vuillemin, A., Foucaut, A.-M., Crozet, C., Pommier, J., & Cambon, L. (2019). How do mobile health applications support behaviour changes? A scoping review of mobile health applications relating to physical activity and eating behaviours. *Public Health*, *175*, 8–18. <https://doi.org/10.1016/j.puhe.2019.06.011>
+
 Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
+
+Ayoola, I., Wetzels, M., Peters, P., Van Berlo, S., & Feijs, L. (2018). Do CHANGE platform: A service-based architecture for secure aggregation and distribution of health and wellbeing data. *International Journal of Medical Informatics*, *117*, 103–111. <https://doi.org/10.1016/j.ijmedinf.2018.06.004>
+
+Bailey, J. L., & Eggereide, S. S. (2020). Mapping actors and arguments in the Norwegian aquaculture debate. *Marine Policy*, *115*, 103898. <https://doi.org/10.1016/j.marpol.2020.103898>
+
+Baptista, P. M., Martin, F., Ross, H., O’Connor Reina, C., Plaza, G., & Casale, M. (2022). A systematic review of smartphone applications and devices for obstructive sleep apnea. *Brazilian Journal of Otorhinolaryngology*, *88*, S188–S197. <https://doi.org/10.1016/j.bjorl.2022.01.004>
 
 Barendregt, L., & Vaage, N. S. (2021). Speculative design as thought experiment. *She Ji: The Journal of Design, Economics, and Innovation*, *7*(3), 374–402. <https://doi.org/10.1016/j.sheji.2021.06.001>
 
@@ -767,13 +802,19 @@ Bouscasse, H., Gabet, S., Kerneis, G., Provent, A., Rieux, C., Ben Salem, N., Du
 
 Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
 
+Bower, M., & Sturman, D. (2015). What are the educational affordances of wearable technologies? *Computers & Education*, *88*, 343–353. <https://doi.org/10.1016/j.compedu.2015.07.013>
+
 Brian Kateman. (2020). Carbon Labels Are Finally Coming To The Food And Beverage Industry. In *Forbes*. https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03.
 
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
+Burger, K., White, L., & Yearworth, M. (2019). Developing a smart operational research with hybrid practice theories. *European Journal of Operational Research*, *277*(3), 1137–1150. <https://doi.org/10.1016/j.ejor.2019.03.027>
+
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
 
 Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
+
+Cawthorn, D.-M., & Hoffman, L. C. (2016). Controversial cuisine: A global account of the demand, supply and acceptance of “unconventional” and “exotic” meats. *Meat Science*, *120*, 19–36. <https://doi.org/10.1016/j.meatsci.2016.04.017>
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
@@ -785,6 +826,8 @@ Circle Economy. (2022). *The Circularity Gap Report 2022*.
 
 ClimatePartner. (2020). *Labelling the carbon footprint of food and consumer goods*. https://www.climatepartner.com/en/news/labelling-consumer-goods.
 
+Cohen, M. A., & Vandenbergh, M. P. (2012). The potential role of carbon labeling in a green economy. *Energy Economics*, *34*, S53–S63. <https://doi.org/10.1016/j.eneco.2012.08.032>
+
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
 Daniel Värjö. (2022). *Nya satelliter avslöjar dolda utsläpp av växthusgaser*. Sveriges Radio.
@@ -795,27 +838,47 @@ de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M
 
 Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
 
+Delclòs-Alió, X., Rodríguez, D. A., Medina, C., Miranda, J. J., Avila-Palencia, I., Targa, F., Moran, M. R., Sarmiento, O. L., & Quistberg, D. A. (2022). Walking for transportation in large Latin American cities: Walking-only trips and total walking events and their sociodemographic correlates. *Transport Reviews*, *42*(3), 296–317. <https://doi.org/10.1080/01441647.2021.1966552>
+
 Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and social dreaming*. The MIT Press.
 <span class="csl-block">Beyond radical design? – A map of unreality – Design as critique – Consuming monsters: big, perfect, infectious – A methodological playground: fictional worlds and thought experiments – Physical fictions: invitations to make believe – Aesthetics of unreality – Between reality and the impossible – Speculative everything</span>
 
 Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
 <span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
 
+Emir Hidayat, S., Bamahriz, O., Hidayati, N., Sari, C. A., & Dewandaru, G. (2022). Value drivers of startup valuation from venture capital equity-based investing: A global analysis with a focus on technological factors. *Borsa Istanbul Review*, *22*(4), 653–667. <https://doi.org/10.1016/j.bir.2021.10.001>
+
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
 
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
 
+Fletcher, O. (2022). “Friendly” and “noisy surveillance” through MapMyRun during the COVID-19 pandemic. *Geoforum*, *133*, 11–19. <https://doi.org/10.1016/j.geoforum.2022.05.004>
+
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
 
+Forlano, L. (2017). Posthumanism and Design. *She Ji: The Journal of Design, Economics, and Innovation*, *3*(1), 16–29. <https://doi.org/10.1016/j.sheji.2017.08.001>
+
 Frédéric Simon. (2020). *Commission under fire for including “carbon sinks” into EU climate goals*. https://www.euractiv.com/section/climate-environment/news/commission-under-fire-for-including-carbon-sinks-into-eu-climate-goals/.
+
+Gamborg, C., & Jensen, F. S. (2017). Attitudes towards recreational hunting: A quantitative survey of the general public in Denmark. *Journal of Outdoor Recreation and Tourism*, *17*, 20–28. <https://doi.org/10.1016/j.jort.2016.12.002>
 
 Gaure, S., & Golombek, R. (2022). True or not true: CO2 free electricity generation is possible. *Energy*, *259*, 124998. <https://doi.org/10.1016/j.energy.2022.124998>
 
 Geoffrey Supran. (2022). Three Shades of Green (washing). *Algorithmic Transparency Institute*.
 
+Giannakos, M. N., Sharma, K., Papavlasopoulou, S., Pappas, I. O., & Kostakos, V. (2020). Fitbit for learning: Towards capturing the learning experience using wearable sensing. *International Journal of Human-Computer Studies*, *136*, 102384. <https://doi.org/10.1016/j.ijhcs.2019.102384>
+
+Godfrey, A., Hetherington, V., Shum, H., Bonato, P., Lovell, N. H., & Stuart, S. (2018). From A to Z: Wearable technology explained. *Maturitas*, *113*, 40–47. <https://doi.org/10.1016/j.maturitas.2018.04.012>
+
 Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
 
+Greenbaum, D., & Gerstein, M. (2016). Who Owns Your DNA? *Cell*, *165*(2), 257–258. <https://doi.org/10.1016/j.cell.2016.03.032>
+
+Grigsby-Toussaint, D. S., Shin, J. C., Reeves, D. M., Beattie, A., Auguste, E., & Jean-Louis, G. (2017). Sleep apps and behavioral constructs: A content analysis. *Preventive Medicine Reports*, *6*, 126–129. <https://doi.org/10.1016/j.pmedr.2017.02.018>
+
 Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online shopping Attraction effect curbs price sensitivity. *Journal of Environmental Psychology*, *81*, 101821. <https://doi.org/10.1016/j.jenvp.2022.101821>
+
+Gupta, B. B., Gaurav, A., Panigrahi, P. K., & Arya, V. (2023). Analysis of artificial intelligence-based technologies and approaches on sustainable entrepreneurship. *Technological Forecasting and Social Change*, *186*, 122152. <https://doi.org/10.1016/j.techfore.2022.122152>
 
 Han, W., & Chen, W. Y. (2022). Embedding nature-based solutions into the social cost of carbon. *Environment International*, *167*, 107431. <https://doi.org/10.1016/j.envint.2022.107431>
 
@@ -837,7 +900,7 @@ Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s g
 
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
 
-Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine and War*, *4*(1), 17–25.
+Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine and War*, *4*(1), 17–25. <https://www.jstor.org/stable/45353161>
 
 Kira Taylor. (2021). *EU plan puts spotlight on carbon sinks to tackle climate change*. https://www.euractiv.com/section/climate-environment/news/eu-draft-puts-spotlight-on-improving-carbon-sinks-to-tackle-climate-change/.
 
@@ -855,16 +918,22 @@ Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunit
 
 Lion Hirth. (n.d.). *Lion Hirth on Twitter: "Carbon pricing is not there to punish people. It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release. Very simple." / Twitter*. https://twitter.com/LionHirth/status/1605617664444878848.
 
+Liu, X., Tamminen, S., Korhonen, T., & Röning, J. (2019). How Physical Exercise Level Affects Sleep Quality? Analyzing Big Data Collected from Wearables. *Procedia Computer Science*, *155*, 242–249. <https://doi.org/10.1016/j.procs.2019.08.035>
+
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
 
 Luo, J., Paduraru, C., Voicu, O., Chervonyi, Y., Munns, S., Li, J., Qian, C., Dutta, P., Davis, J. Q., Wu, N., Yang, X., Chang, C.-M., Li, T., Rose, R., Fan, M., Nakhost, H., Liu, T., Kirkman, B., Altamura, F., … Mankowitz, D. J. (2022). *Controlling Commercial Cooling Systems Using Reinforcement Learning*. <https://doi.org/10.48550/ARXIV.2211.07357>
 <span class="csl-block">Other27 pages, 11 figures</span>
+
+Mamede, R., Duarte, I. A., Caçador, I., Tanner, S. E., Silva, M., Jacinto, D., Fonseca, V. F., & Duarte, B. (2022). Elemental fingerprinting of sea urchin (Paracentrotus lividus) gonads to assess food safety and trace its geographic origin. *Journal of Food Composition and Analysis*, *114*, 104764. <https://doi.org/10.1016/j.jfca.2022.104764>
 
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
 Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
+
+Millings, A., Morris, J., Rowe, A., Easton, S., Martin, J. K., Majoe, D., & Mohr, C. (2015). Can the effectiveness of an online stress management program be augmented by wearable sensor technology? *Internet Interventions*, *2*(3), 330–339. <https://doi.org/10.1016/j.invent.2015.04.005>
 
 Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
@@ -881,9 +950,13 @@ Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, 
 
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
+Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
+
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
 Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022). The Big Compost Experiment: Using citizen science to assess the impact and effectiveness of biodegradable and compostable plastics in UK home composting. *Front. Sustain.*, *3*, 942724. <https://doi.org/10.3389/frsus.2022.942724>
+
+Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L., Maier, H. R., Schlink, U., Steinle, S., Vieno, M., & Wimberly, M. C. (2015). Integrating modelling and smart sensors for environmental and human health. *Environmental Modelling & Software*, *74*, 238–246. <https://doi.org/10.1016/j.envsoft.2015.06.003>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
 
@@ -892,7 +965,13 @@ Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental susta
 
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
 
+Ryan, M. (2022). The ethics of dietary apps: Technology, health, and the capability approach. *Technology in Society*, *68*, 101873. <https://doi.org/10.1016/j.techsoc.2022.101873>
+
 Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
+
+Saubade, M., Karatzios, C., Besson, C., Farasse, A.-C., Charles, B., & Gremion, G. (2016). Promoting physical activity: What do we have available to motivate our patients? *Annals of Physical and Rehabilitation Medicine*, *59*, e54–e55. <https://doi.org/10.1016/j.rehab.2016.07.125>
+
+Shin, G., Jarrahi, M. H., Fei, Y., Karami, A., Gafinowitz, N., Byun, A., & Lu, X. (2019). Wearable activity trackers, accuracy, adoption, acceptance and health impact: A systematic literature review. *Journal of Biomedical Informatics*, *93*, 103153. <https://doi.org/10.1016/j.jbi.2019.103153>
 
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
@@ -902,9 +981,17 @@ The Carbon Trust. (n.d.). *Q&A: How to reduce your carbon footprint through your
 
 The Economic Times. (2022). *Climate change: Earth at 8 billion: Consumption not crowd is key to climate*. https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
 
+Thomas, L., Briggs, P., Kerrigan, F., & Hart, A. (2018). Exploring digital remediation in support of personal reflection. *International Journal of Human-Computer Studies*, *110*, 53–62. <https://doi.org/10.1016/j.ijhcs.2017.10.002>
+
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
+
+Tonne, C., Basagaña, X., Chaix, B., Huynen, M., Hystad, P., Nawrot, T. S., Slama, R., Vermeulen, R., Weuve, J., & Nieuwenhuijsen, M. (2017). New frontiers for environmental epidemiology in a changing world. *Environment International*, *104*, 155–162. <https://doi.org/10.1016/j.envint.2017.04.003>
+
+Tsai, J.-M., Hsu, C.-Y., Tsai, L.-Y., & Tsay, S.-L. (2019). Translation and validation of Taiwan Chinese version of the self-regulation questionnaire for gynecologic cancer survivors. *Taiwanese Journal of Obstetrics and Gynecology*, *58*(5), 614–620. <https://doi.org/10.1016/j.tjog.2019.05.032>
+
+Tyler, J., Boldi, M.-O., & Cherubini, M. (2022). Contemporary self-reflective practices: A large-scale survey. *Acta Psychologica*, *230*, 103768. <https://doi.org/10.1016/j.actpsy.2022.103768>
 
 UEBT. (2022). *Biodiversity Barometer*.
 
@@ -926,7 +1013,13 @@ Wang, T.-P., & Teng, F. (2022). A multi-model assessment of climate change damag
 
 Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, *321*, 115993. <https://doi.org/10.1016/j.jenvman.2022.115993>
 
+Waters, J. (2015). Ethics and the choice of animal advocacy campaigns. *Ecological Economics*, *119*, 107–117. <https://doi.org/10.1016/j.ecolecon.2015.08.014>
+
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
+
+Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
+
+Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
 
 World Resources Institute. (2020). *CO2 emissions (metric tons per capita) \| Data*. https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
 

@@ -9,8 +9,14 @@ editor:
 
 # Abstract {#abstract}
 
-## *The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Encourage Sustainable Shopping, Saving, and Investing* {#the-journey-from-consumer-to-investor-designing-a-financial-ai-companion-for-young-adults-to-encourage-sustainable-shopping-saving-and-investing}
+## *A Journey from Consumer to Investor: Designing an AI Companion for Financial Activism* {#a-journey-from-consumer-to-investor-designing-an-ai-companion-for-financial-activism}
 
-Each person’s financial decisions, including shopping, saving, and investing, makes up the majority of their impact on Earth’s ecology and natural resource use. Nonetheless, even for highly motivated and eco-minded individuals, it can be a time-consuming challenge to identify sustainable companies and products (including investment products). Sustainability presents a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things). This research is concerned with finding ways to make sustainability more intuitive and proposes enlisting the help of AI companions to provide personal sustainability advice for each human. Furthermore, the research introduces the concepts of “guided sustainability” and “shopping-as-investing”, emphasizing how purchasing decisions can be viewed as investments in sustainable products and companies. To support these concepts, the research proposes interfaces and workflows that help groups of people work together to leverage their collective influence and develop long-term relationships with sustainability-focused companies. The major contribution of the study is an interactive artefact, a design prototype of an AI companion, informed by design research.
+Degradation of Earth’s natural environment affects the health of people living around our planet. Pollution of water, air, soil, diminishing biodiversity, rising global temperatures, etcetera, are caused by industrial companies which make use of natural resources to fulfill human needs. The sum of 8 Billion people’s financial actions can encourage businesses adopt more eco-friendly business standards.
 
-**Keywords**: Sustainability, Interaction Design, Artificial Intelligence
+Financial activism
+
+While sustainability-focused companies exist in every industry, it’s time-consuming to find them among a sea of greenwashing. I propose enlisting AI companions and introduce the concept of “guided sustainability” to make financial intuitive.
+
+To support this concept, I propose *interfaces* and *workflows* to help people develop long-term relationships with sustainability-focused companies and build communities of sustainable impact. The major contribution of the study is an interactive artefact - a design prototype of an AI companion, informed by design research.
+
+**Keywords**: AI-Human Interaction, Environmental Degradation, Sustainable Investing

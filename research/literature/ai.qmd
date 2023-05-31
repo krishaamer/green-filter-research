@@ -53,9 +53,6 @@ a combination of ai and human. like welltory, wellue + qaly, starship robots who
 ## ChatGPT
 @kechtQuantifyingChatbotsAbility2023 suggests AI is capable of learning business processes
 
-- https://www.sciencedirect.com/science/article/abs/pii/S2212440323000032
-- https://www.sciencedirect.com/science/article/abs/pii/S0262407922022795
-
 @oconnorOpenArtificialIntelligence2023 and @cahanConversationChatGPTRole2023 have conversations about science with AI
 
 @jeblickChatGPTMakesMedicine2022 suggest complicated radiology reports can be explained to patients using AI chatbots
@@ -157,16 +154,16 @@ There's early evidence it's possible to assess the quality of LLM output in a tr
 
 ### AI Interfaces and AI Explainability
 
-- https://www.sciencedirect.com/science/article/abs/pii/S074756322300064X
-- https://www.sciencedirect.com/science/article/abs/pii/S0925231220306548
-- https://www.sciencedirect.com/science/article/pii/S1566253521000142
-- https://www.sciencedirect.com/science/article/pii/S2666920X22000297
-- https://www.sciencedirect.com/science/article/pii/S2666389922000289
-- https://www.sciencedirect.com/science/article/pii/S2666920X23000036
-- https://www.sciencedirect.com/science/article/pii/S2666920X22000169
-- https://www.sciencedirect.com/science/article/pii/S0933365722001750
-- https://www.sciencedirect.com/science/article/pii/S1871678423000031
-- https://www.sciencedirect.com/science/article/pii/S2666920X22000042
+- @suenBuildingTrustAutomatic2023
+- @wangSyntheticNeuroscoreUsingNeuroAI2020
+- @holzingerMultimodalCausabilityGraph2021
+- @khosraviExplainableArtificialIntelligence2022
+- @zerilliHowTransparencyModulates2022
+- @suArtificialIntelligenceAI2023
+- @yangArtificialIntelligenceEducation2022
+- @combiManifestoExplainabilityArtificial2022
+- @holzingerAILifeTrends2023
+- @suArtificialIntelligenceEarly2022
 
 ### Guidelines for Human-AI interaction
 Microsoft's (MS) Co-Founder Bill Gates predicted in 1982 _“personal agents that help us get a variety of tasks"_ (@billgatesBillGatesNext1982) and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer (@tashkeunemanWeLoveHate2022). "We love to hate Clippy — but what if Clippy was right?" @tashkeunemanWeLoveHate2022. @abigailcainLifeDeathMicrosoft2017
@@ -210,6 +207,10 @@ https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the
 
 — Semantic motion https://www.youtube.com/watch?v=L4knv58rlZM
 - Peripheral vision
+
+
+### Smart Agents
+- https://docs.google.com/document/d/1cutU1SerC3V7B8epopRtZUrmy34bf38W--w4oOyRs2A/edit
 
 ### Voice Assistant Guidelines (Voice UI)
 - Voice AI and kids @szczukaHowChildrenAcquire2022 
