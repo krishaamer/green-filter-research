@@ -23,7 +23,7 @@ import Methodology from './images/research-methodology.png'
 Start with survey, then expert interviews (because so many questions from literature review)
 
 | №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|------|---------------|--------------|----------------------|-----------------|
+|--------------|--------------|--------------|------------------|--------------|
 | 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
 | 2   | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
 | 3   | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
@@ -87,17 +87,25 @@ start with everyday questions:
 
 — research methods https://www.nngroup.com/articles/which-ux-research-methods/
 
-## Researh Through Design {#researh-through-design}
+## Research Through Design {#research-through-design}
 
-— design research books - https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true - https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= - https://www.sciencedirect.com/journal/design-studies
+— design research books
+
+\- https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true
+
+\- https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr=
+
+\- https://www.sciencedirect.com/journal/design-studies
 
 ------------------------------------------------------------------------
 
-research through design as a method - https://dl.acm.org/doi/abs/10.1145/1240624.1240704
+research through design as a method
 
-Research through design as a method for interaction design research in HCI - https://dl.acm.org/doi/10.1145/1240624.1240704
+\- https://dl.acm.org/doi/abs/10.1145/1240624.1240704
 
--   https://stratechery.com/
+Research through design as a method for interaction design research in HCI
+
+\- https://dl.acm.org/doi/10.1145/1240624.1240704 - https://stratechery.com/
 
 — research question - https://blogs.aalto.fi/writingaboutdesign/2020/11/30/how-to-define-a-research-question-or-a-design-problem/
 
@@ -115,7 +123,7 @@ my contribution is the design artefact, “HCI researchers also make constructiv
 
 — https://www.usability.gov/how-to-and-tools/methods/card-sorting.html#:~:text=Card%20sorting%20is%20a%20method,help%20you%20label%20these%20groups.
 
-https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=59894770.915cd038039d262ecc9c38c84ec2fb72.1663759095639.1663759095639.1663759095639.1&\_\_hssc=59894770.1.1663759095640&\_\_hsfp=1025078290&hsCtaTracking=521e2f8c-76d2-4468-81e3-687c4d689a29%7C5b0820a7-ceea-4cf0-ab85-249a1c03d7e5 https://www.kaggle.com/code/dansbecker/how-models-work
+-   https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=59894770.915cd038039d262ecc9c38c84ec2fb72.1663759095639.1663759095639.1663759095639.1&\_\_hssc=59894770.1.1663759095640&\_\_hsfp=1025078290&hsCtaTracking=521e2f8c-76d2-4468-81e3-687c4d689a29%7C5b0820a7-ceea-4cf0-ab85-249a1c03d7e5 https://www.kaggle.com/code/dansbecker/how-models-work
 
 — behavirour kit: https://behaviourkit.com/
 
@@ -123,9 +131,7 @@ https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=5989
 
 “In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn’t change. This is a phenomenon called the intention-action gap.”
 
--   https://medium.com/(**tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c?**)
-
--   
+-   [three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c](https://medium.com/@tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c)
 
 -   What would you like to see more of in the future?
 

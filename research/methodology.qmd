@@ -17,17 +17,18 @@ import Methodology from './images/research-methodology.png'
 Start with survey, then expert interviews (because so many questions from literature review)
 
 | №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|----|-------------|------------|--------------------|---------------|
+|--------------|--------------|--------------|------------------|--------------|
 | 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
 | 2   | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
 | 3   | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
 | 4   | Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
 | 5   | XYZ                  | Expert Interview  |                                                                                |                                                        |
-| 6   | ABC                  | User Survey       |     
+| 6   | ABC                  | User Survey       |                                                                                |                                                        |
 
 ## Affinity Diagrams
-- https://bootcamp.uxdesign.cc/ux-analysis-phase-five-affinity-diagram-from-previous-research-data-a073609938a2
-- https://www.nngroup.com/articles/affinity-diagram/                                                                           |                                                        |
+
+-   https://bootcamp.uxdesign.cc/ux-analysis-phase-five-affinity-diagram-from-previous-research-data-a073609938a2
+-   https://www.nngroup.com/articles/affinity-diagram/ \| \|
 
 ## Factorial Surveys
 
@@ -41,9 +42,8 @@ thesis: if we all acted more like investors instead of consumers, the world woul
 
 1.  Survey to investors... 2. pick who to interview. 3. survey to consumers How do you feel about this statement q: 1-10... 2. Investing in sustainability has a meaningful impact on sustainability q: it's easy to aseess the sustainabilitty of an investment q: i consider sustainability when investing
 
-```{=html}
 <!-- -->
-```
+
 q.  
 
 make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
@@ -54,7 +54,7 @@ How would you prefer communicating with an AI? -- Use my voice -- Search box -- 
 
 --- interview https://www.funderbeam.com/
 
----
+------------------------------------------------------------------------
 
 ```         
 1. how would your desribe your relationship with sustainability?
@@ -83,37 +83,41 @@ start with everyday questions:
 
 ## Research Through Design
 
---- design research books 
-- https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true 
-- https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr= 
-- https://www.sciencedirect.com/journal/design-studies
+--- design research books
 
----
+\- https://www.amazon.co.uk/dp/B005JRHYTE?geniuslink=true
 
-research through design as a method 
-- https://dl.acm.org/doi/abs/10.1145/1240624.1240704
+\- https://www.amazon.co.uk/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B005MR4NCC/ref=tmm_aud_swatch_0?\_encoding=UTF8&qid=&sr=
 
-Research through design as a method for interaction design research in HCI 
-- https://dl.acm.org/doi/10.1145/1240624.1240704
-- https://stratechery.com/
+\- https://www.sciencedirect.com/journal/design-studies
+
+------------------------------------------------------------------------
+
+research through design as a method
+
+\- https://dl.acm.org/doi/abs/10.1145/1240624.1240704
+
+Research through design as a method for interaction design research in HCI
+
+\- https://dl.acm.org/doi/10.1145/1240624.1240704 - https://stratechery.com/
 
 --- research question - https://blogs.aalto.fi/writingaboutdesign/2020/11/30/how-to-define-a-research-question-or-a-design-problem/
 
 -   https://www.amazon.com/UX-Research-Practical-Techniques-Designing-ebook/dp/B01N9BZ060/ref=sr_1\_1?crid=1U2HFSS1221L5&keywords=Brad+Nunnally+%2C&qid=1663099104&s=digital-text&sprefix=brad+nunnally+%2C%2Cdigital-text%2C284&sr=1-1&asin=B01N9BZ060&revisionId=9e4c1870&format=1&depth=1
 
----
+------------------------------------------------------------------------
 
 interview people at google who made the green filtter options
 
 --- design artefacts
 
-"design's) nature as a "problem-solving" science", Oulasvirta and Hornbæk, 2016
+"design's) nature as a"problem-solving" science", Oulasvirta and Hornbæk, 2016
 
 my contribution is the design artefact, "HCI researchers also make constructive contributions by developing new technologies and design"
 
 --- https://www.usability.gov/how-to-and-tools/methods/card-sorting.html#:\~:text=Card%20sorting%20is%20a%20method,help%20you%20label%20these%20groups.
 
-- https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=59894770.915cd038039d262ecc9c38c84ec2fb72.1663759095639.1663759095639.1663759095639.1&\_\_hssc=59894770.1.1663759095640&\_\_hsfp=1025078290&hsCtaTracking=521e2f8c-76d2-4468-81e3-687c4d689a29%7C5b0820a7-ceea-4cf0-ab85-249a1c03d7e5 https://www.kaggle.com/code/dansbecker/how-models-work
+-   https://www.gartner.com/doc/reprints?id=1-28W5ZHXK&ct=220125&st=sb&\_\_hstc=59894770.915cd038039d262ecc9c38c84ec2fb72.1663759095639.1663759095639.1663759095639.1&\_\_hssc=59894770.1.1663759095640&\_\_hsfp=1025078290&hsCtaTracking=521e2f8c-76d2-4468-81e3-687c4d689a29%7C5b0820a7-ceea-4cf0-ab85-249a1c03d7e5 https://www.kaggle.com/code/dansbecker/how-models-work
 
 --- behavirour kit: https://behaviourkit.com/
 
@@ -121,7 +125,7 @@ my contribution is the design artefact, "HCI researchers also make constructive 
 
 "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
 
--   https://medium.com/@tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c
+-   [three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c](https://medium.com/@tiffany.tibs/three-companies-closing-the-climate-crisis-intention-action-gap-9a950b08052c)
 
 -   What would you like to see more of in the future?
 

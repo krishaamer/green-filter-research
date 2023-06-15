@@ -182,6 +182,8 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   According to one study, only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues (American Press Institute (2022))
 
+-   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
+
 ### Population {#population}
 
 In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)); future population projections predict 8.5B people by 2030 and 9.7B by 2050 (United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
@@ -676,7 +678,7 @@ Professional financial advisors use automated tools to analyze data and present 
 
 -   Barendregt & Vaage (2021)
 -   Google Design (2019)
--   (**anthonydunneSpeculativeEverything2013?**)
+-   Dunne & Raby (2013)
 
 — all green categories — Green hub — Ask the user to prioritize
 
@@ -721,7 +723,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
-The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - (**PEREZCUETO2021100346?**) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
+The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
@@ -951,6 +953,8 @@ Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, 
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
 Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
+
+Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
