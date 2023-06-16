@@ -13,8 +13,10 @@ editor:
 
 Overconsumption-driven extractive business practices are a large contributor to the degradation of Earth’s natural ecosystems, global warming, pollution of water, air, soil, diminishing biodiversity, and many other environmental problems.
 
-For the individual, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial actions requires extensive research. Sustainability-focused companies exist but it’s time-consuming to find and transact with them.
+For the individual, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial actions requires extensive research. Sustainability-focused companies exist but it’s time-consuming to find and transact with them. People lack tools to build communities of sustainable impact.
 
-I present an AI-assistant to empower regenerative financial activism. All interactions with businesses from shopping to saving and investing can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop long-term relationships with sustainability-focused companies and build communities of sustainable impact. The major contribution of the study is an interactive artefact - a design prototype of an AI companion, informed by design research.
+I present an AI-assistant to empower regenerative financial activism. All interactions with businesses from shopping to saving and investing can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop long-term relationships with sustainability-focused companies.
+
+The major contribution of the study is an interactive artefact - a design prototype of an AI companion, informed by design research.
 
 **Keywords**: Human-AI Interaction, Regenerative Finance, Sustainable Investing
