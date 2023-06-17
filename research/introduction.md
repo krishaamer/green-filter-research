@@ -47,7 +47,7 @@ A large part of the proposal is ***ecodesign***, as a large part of product life
 
 ## Relevance {#relevance}
 
-– and protecting biodiversity .
+-   and protecting biodiversity .
 
 This research is timely in 2023 because of the convergence of four trends:
 
@@ -55,10 +55,8 @@ This research is timely in 2023 because of the convergence of four trends:
 -   Intergenerational money transfer to the youth
 -   AI user interface availability
 -   ESG instruments
-
-The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (in Gupta (2020)), relating to the social (S in ESG).
-
-We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
+-   The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (in Gupta (2020)), relating to the social (S in ESG).
+-   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
 **There’s evidence young people have money:**
 
@@ -73,9 +71,9 @@ We also need to consider environmental effects (E in ESG). We haven’t taken in
 
 -   Only 30% believe tech can solve all problems. https://review42.com/resources/gen-z-statistics/
 
-https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/
+-   https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/
 
-kora 95%
+-   kora 95%
 
 ## Research Background {#research-background}
 
@@ -90,7 +88,7 @@ I grew up reading science fiction books in the 1990s and their influence on my o
 />
 ```
 
-As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text predicion translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
+As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
 
 ``` mdx-code-block
 <Figure
@@ -153,44 +151,44 @@ Green Filter helps you discover how to save money and the planet with your daily
 
 GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
 
-— My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
+-   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
 
-—- q: “it seems impossible to know which company is more sustainable than the other” we don’t really know what’s green?
+-   q: “it seems impossible to know which company is more sustainable than the other” we don’t really know what’s green?
 
-— in their sustainability report every company looks perfect
+-   in their sustainability report every company looks perfect
 
-Better management of planet Earth
+-   Better management of planet Earth
 
-How can wee Shop, Save, Invest in line ecologic principles and planetary boundaries? individual action doesn’t move the needle. how to group together
+-   How can wee Shop, Save, Invest in line ecologic principles and planetary boundaries? individual action doesn’t move the needle. how to group together
 
-— indiIndividual efforts are too small to matter unless they’re inspired by Community a effort
+-   Individual efforts are too small to matter unless they’re inspired by Community a effort
 
-— app to build community
+-   App to build community
 
-Life within planetary boundaries
+-   Life within planetary boundaries
 
-— Currently it seems there’s a secret around how things are produced we want to increase transparency
+-   Currently it seems there’s a secret around how things are produced we want to increase transparency
 
-— Companies that have nothing new nothing to hide should welcome this opportunity to mark themselves to keep a conscious consumers and investors.
+-   Companies that have nothing new nothing to hide should welcome this opportunity to mark themselves to keep a conscious consumers and investors.
 
-— we want to create competition around sustainable practices enter widespread adoption
+-   We want to create competition around sustainable practices enter widespread adoption
 
-— Cigarettes and pictures of lung cancer every product should be required to have photos of production conditions switch such as Rainforest and deforestation the products that include Palm oul
+-   Cigarettes and pictures of lung cancer every product should be required to have photos of production conditions switch such as Rainforest and deforestation the products that include Palm oul
 
 ## Demographics {#demographics}
 
-https://99firms.com/blog/generation-z-statistics/#gref https://review42.com/resources/smartphone-statistics/
+-   https://99firms.com/blog/generation-z-statistics/#gref https://review42.com/resources/smartphone-statistics/
 
-My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors. Thus, the purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users, defined as living in Sweden and Taiwan, in the age range between 18 and 35, by employing interviews with experts in finance and design, and a user survey with potential users, including a choice experiment between potential feature sets in consumption, savings, and investment.
+-   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors. Thus, the purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users, defined as living in Sweden and Taiwan, in the age range between 18 and 35, by employing interviews with experts in finance and design, and a user survey with potential users, including a choice experiment between potential feature sets in consumption, savings, and investment.
 
 ## Research Questions {#research-questions}
 
-My research aims to explore the following 3 research questions.
+-   My research aims to explore the following 3 research questions.
 
-What is the UI/UX of the green transformation?
+-   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                     | Methods                                     |
-|--------------|-----------------------------------|------------------------|
+|-----------------|--------------------------------|-----------------------|
 | 1   | How can AI assistants encourage sustainable shopping, saving, and investing? | Literature review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?      | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?           | Survey + Prototype Testing with Focus Group |

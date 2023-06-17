@@ -9,8 +9,7 @@ editor:
 
 # Discussion {#discussion}
 
--   Scan a product to see the company and start investing or divesting from them
--   Current economics is lowering the quality of life on the planet
+Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
 
 ## Research Limitations {#research-limitations}
 
