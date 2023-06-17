@@ -7,6 +7,19 @@ editor:
     render-on-save: false 
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`,`
+<!-- -->
+`,`
+<!-- -->
+`,`
+<!-- -->
+`,`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
@@ -63,7 +76,9 @@ import Replika from '../images/with-me.png'
 
 ### From Concept to Reality {#from-concept-to-reality}
 
-Since 1950 when Alan Turing published the Turing Test for Machine intelligence (Turing (1950)) and Isaac Asimov proposed the 3 laws of Robotics, AI has come far, turning from a science-fiction concept into an everyday, mainstream reality. Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
+Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (Turing (1950)), AI has come far, turning from a science-fiction concept into an everyday, mainstream reality.
+
+Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
 
 Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
 
@@ -71,11 +86,11 @@ Turing’s test proposed a game of imitation: can the AI imitate a human so well
 
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
-| №   | Asimov’s Laws of Robotics                                                                                           |
+| №       | Asimov’s Laws of Robotics                                                                                           |
 |---------|---------------------------------------------------------------|
-| 1st | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
-| 2nd | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
-| 3rd | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
+| 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
+| 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
+| 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
 
 Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google’s products are are based on AI as reported in Google (2022)
 
@@ -108,13 +123,17 @@ How to responsibly deploy AI for people around the world?
 -   There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
 -   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat’s “My AI” virtual friend help people write faster with the app helping users with predictive text completion. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. https://twitter.com/nonmayorpete/status/1633174219063439360
 -   AI generated content is not neutral but has a certain aesthetic: https://twitter.com/bildoperationen/status/1633082030178050048
--   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge. S. Liu et al. (2023) propose future models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
+-   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge.
+-   S. Liu et al. (2023) propose future models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.
+-   Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
 -   Microsoft Designer allows generating UIs just based on a text prompt: https://designer.microsoft.com/
 -   Personalized bed-time stories for kids generated by AI: https://www.bedtimestory.ai/
 -   https://bedtimestory.ai/krishaamer/story/SqNAYjZ
 -   Open Source LLLM: https://vicuna.lmsys.org/
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
+
+There’s wide literature available describing human-AI interactions across varied disciplines. While the fields of application are diverse, some key lessons can be transferred across fields horizontally.
 
 -   Veitch & Andreas Alsos (2022) highlights the active role of humans in Human-AI interaction is autonomous ship systems.
 -   Jiang et al. (2022) describes how Replika users in China using in 5 main ways, all which rely on empathy
@@ -139,9 +158,14 @@ How to responsibly deploy AI for people around the world?
 
 ### AI Interfaces and AI Explainability {#ai-interfaces-and-ai-explainability}
 
--   Suen & Hung (2023)
--   Wang et al. (2020)
--   Holzinger et al. (2021)
+AI-explainability is key to creating trust.
+
+-   Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Suen & Hung (2023) discusses AI systems used for evaluating candidates at job interviews
+-   Wang et al. (2020) propose Neuroscore to reflect perception of images.
 -   Khosravi et al. (2022)
 -   Zerilli et al. (2022)
 -   Su et al. (2023)
@@ -197,7 +221,7 @@ How to responsibly deploy AI for people around the world?
 
 -   Attention https://app.attentioninsight.com/single-analysis/mejNn7WxZmRnNOXYQMd9?fromMain=true
 
--   People recognize computers as human https://www.tashkeuneman.com/
+-   “People recognize computers as human” https://www.tashkeuneman.com/
 
 -   https://va.ee/laura-vilbiksi-paevik/?fbclid=IwAR0sv8o4_b8SEmNv9VqV-K\_-kEVziGwF_7RctJRgseizjnYx908cL7g1voc
 
@@ -211,12 +235,15 @@ How to responsibly deploy AI for people around the world?
 
 ### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
 
--   Voice AI and kids Szczuka et al. (2022)
--   https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
+-   Szczuka et al. (2022) provides guidelines for Voice AI and kids
+-   https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
+-   https://www.theturnsignalblog.com/blog/voice-interaction/
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 -   Tang et al. (2022) reports new findings enable computers to reconstruct language from fMRI readings.
 -   Focus on voice education?
--   Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution” - “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
+-   Example Suggestions of the AI companion:
+    -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution”
+    -   “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
 -   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
 -   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
@@ -259,7 +286,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 -   Babich (2019) argues “\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system”.
 -   In narrative studies terminology, it’s a heroic journey of the user to achieve their goals, by navigating through the interface until a success state. Storytelling has its part in interface design however designing for transparency is just as important, when we’re dealing with the user’s finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user’s emotional and practical needs throughout the journey?
 -   Tubik Studio (2018) argues affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today.
--   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study’s target audience (18-35, Sweden and Taiwan), social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users’ expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
+-   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study’s target audience, social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users’ expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
 
 ``` mdx-code-block
 <Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
@@ -275,7 +302,9 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   Costa & Silva (2022) “Interaction Design for AI Systems”
 
-“How AI is changing ‘interactions’”
+-   “How AI is changing ‘interactions’”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   “\[AI\] blend into our lives in a form of apps and services” https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545
 
@@ -285,7 +314,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 ### Platform Economy {#platform-economy}
 
--   The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - persoalization at scale.
+-   The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
 
 -   The rise of the platform economy has given us marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting?
 
@@ -324,7 +353,9 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 ### Influencers {#influencers}
 
-Influencers are terrible for investing… but?
+-   Influencers are terrible for investing… but?
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   Influencer - crypto twitter connections
 
@@ -332,7 +363,7 @@ Influencers are terrible for investing… but?
 
 -   https://twitter.com/Irenezhao\_/status/1484031784035979265?s=20&t=6KXUo_akP42KZlGk0iLiAQ
 
-### LHV crypto {#lhv-crypto}
+### LHV Crypto {#lhv-crypto}
 
 -   https://fp.lhv.ee/news/newsView?newsId=5617247
 -   https://fp.lhv.ee/news/newsView?locale=et&newsId=5616264
@@ -352,7 +383,9 @@ Influencers are terrible for investing… but?
 
 ## What is Personalized AI? {#what-is-personalized-ai}
 
-AI IXD is about human-centered seamless design
+-   AI IXD is about human-centered seamless design
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   Storytelling
 
@@ -434,7 +467,9 @@ Nubanks, also known as challenger banks.
 
 ## AI Companions {#ai-companions}
 
-AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. ux is what we do with this number
+-   AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. ux is what we do with this number
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
