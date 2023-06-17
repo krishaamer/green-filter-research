@@ -116,7 +116,7 @@ How to responsibly deploy AI for people around the world?
 
 ## Design for Human-AI Interaction {#design-for-human-ai-interaction}
 
--   Human-AI interaction is ship systems Veitch & Andreas Alsos (2022)
+-   Veitch & Andreas Alsos (2022) highlights the active role of humans in Human-AI interaction is autonomous ship systems.
 -   Jiang et al. (2022) describes how Replika users in China using in 5 main ways, all which rely on empathy
 
 | Human empathy for AI agent |
@@ -127,8 +127,8 @@ How to responsibly deploy AI for people around the world?
 | Electronic pet             |
 | Tool for venting           |
 
--   Crompton (2021)
--   Calisto et al. (2022)
+-   Crompton (2021) highlights AI as decision-support for humans while differentiating between intended and un-intended influence on human decisions.
+-   Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
 -   Cheng et al. (2022)
 -   Schoonderwoerd et al. (2021)
 -   Ramchurn et al. (2021)
