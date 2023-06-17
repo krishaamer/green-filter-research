@@ -48,7 +48,7 @@ import Replika from '../images/with-me.png'
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
--   LLMS Bowman (2023)
+-   Bowman (2023) says steering LLMs is unreliable and event experts don’t fully understand the inner workings of the models.
 
 ## Automated Prompt Engineering {#automated-prompt-engineering}
 
@@ -110,12 +110,12 @@ Since 1950 when Alan Turing published the Turing Test for Machine intelligence (
 
 Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
 
-> Alan Turing: *“I believe that in about fifty years’ time it will be possible to programme computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* -Stanford Encyclopedia of Philosophy (2021)
+> Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* -Stanford Encyclopedia of Philosophy (2021)
 
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №   | Asimov’s Laws of Robotics                                                                                           |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 1st | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
@@ -261,7 +261,7 @@ Microsoft provides guidelines for Human-AI interaction (T. Li et al. (2022); (**
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 -   Focus on voice education?
--   Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber*.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution” - *”Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
+-   Example Suggestions of the AI companion: - *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution” - “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
 -   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
 -   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
@@ -439,7 +439,7 @@ AI IXD is about human-centered seamless design
 -   Some have an avatar, some not. I’ve created a framework for categorization. Human-like or not… etc
 
 | №   | Name                    | Link                                               | Description          |
-|----------------|----------------|----------------------|------------------|
+|-----------------|-----------------|---------------------|-----------------|
 | 1   | Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
 | 2   | Google Translate        | https://translate.google.com/                      |                      |
 | 3   | Google Search           | https://www.google.com/                            |                      |
