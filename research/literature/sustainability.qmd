@@ -2,7 +2,7 @@
 title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 1
+sidebar_position: 3
 editor:
     render-on-save: false
 ---
@@ -13,26 +13,23 @@ import Humboldt from '../images/humboldt.jpg'
 ```
 # Design for Sustainability
 
--   AI can help us make sense of the vast amounts of sustainability data generated daily..
+AI can help us make sense of the vast amounts of sustainability data generated daily.
 
--   "Sustainability starts in the design process, and AI can help" - https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/
+-   @guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software. "Sustainability starts in the design process, and AI can help" @SustainabilityStartsDesign
 
--   \- https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
+-   https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
 
--   @guptaAnalysisArtificialIntelligencebased2023
+-   "Carbon pricing is not there to punish people."
 
--   "Carbon pricing is not there to punish people.
-
--   It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.
+-   "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release."
 
 -   Very simple." Lion Hirth @lionhirthLionHirthTwitter
 
--   The EU has a taxonomy of environmentally sustainable economic activities published by the Technical Expert Group (TEG) on sustainable finance: https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en
+-   The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance @EUTaxonomySustainable.
 
-<!-- -->
+-   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for "Emotionally Durable Design", the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries.
 
--   "Emotionally Durable Design", https://www.amazon.com/Emotionally-Durable-Design-Objects-Experiences-ebook/dp/B09M6MTZ4P
--   "Enchanted Objects", https://www.amazon.com/Enchanted-Objects-Innovation-Design-Technology-ebook/dp/B00DPM7WO2
+-   @roseEnchantedObjectsInnovation2015 has a similar idea, where "Enchanted Objects" become so interlinked with us, we're unlikely to throw them away.
 
 ## Oracles
 
@@ -69,6 +66,8 @@ import Humboldt from '../images/humboldt.jpg'
 -   @cohenPotentialRoleCarbon2012a
 
 ## Oracles for Sustainability Data
+
+A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for "green filter", including carbon labeling, packaging, transportation, consumption, waste, etc.
 
 ## Climate Anxiety
 
@@ -108,13 +107,11 @@ Design to reduce climate anxiety
 
 -   Healthkit
 
--   In a 2022 report Apple outlines its plants to : "Empowering people to live a healthier day" https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
+-   In a 2022 report Apple outlines its plans to : "Empowering people to live a healthier day" https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
 
 -   https://developer.apple.com/videos/play/wwdc2022/10005/
 
 -   What would that look like for sustainability?
-
-<!-- -->
 
 -   Empowering people to live a sustainable day
 
@@ -126,8 +123,8 @@ Design to reduce climate anxiety
 
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
 
--   @delclos-alioWalkingTransportationLarge2022
--   @giannakosFitbitLearningCapturing2020
+-   @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walkin is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
+-    @giannakosFitbitLearningCapturing2020 used wearable devices to measuredphysiological parameters of students at school to determine their learning efficiency.
 -   @shinWearableActivityTrackers2019
 -   @tsaiTranslationValidationTaiwan2019
 -   @burgerDevelopingSmartOperational2019

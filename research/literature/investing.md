@@ -1,8 +1,8 @@
 ---
-title: Interfaces
+title: Investing
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 3
+sidebar_position: 2
 editor:
     render-on-save: false
 ---

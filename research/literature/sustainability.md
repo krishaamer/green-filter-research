@@ -2,17 +2,13 @@
 title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 1
+sidebar_position: 3
 editor:
     render-on-save: false
 ---
 
 export const quartoRawHtml =
 [`
-<!-- -->
-`,`
-<!-- -->
-`,`
 <!-- -->
 `,`
 <!-- -->
@@ -47,26 +43,23 @@ import Humboldt from '../images/humboldt.jpg'
 
 # Design for Sustainability {#design-for-sustainability}
 
--   AI can help us make sense of the vast amounts of sustainability data generated daily..
+AI can help us make sense of the vast amounts of sustainability data generated daily.
 
--   “Sustainability starts in the design process, and AI can help” - https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/
+-   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software. “Sustainability starts in the design process, and AI can help” “Sustainability Starts in the Design Process, and AI Can Help” (n.d.)
 
--   \- https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
+-   https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
 
--   Gupta et al. (2023)
+-   “Carbon pricing is not there to punish people.”
 
--   “Carbon pricing is not there to punish people.
-
--   It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.
+-   “It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.”
 
 -   Very simple.” Lion Hirth Lion Hirth (n.d.)
 
--   The EU has a taxonomy of environmentally sustainable economic activities published by the Technical Expert Group (TEG) on sustainable finance: https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en
+-   The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance *EU Taxonomy for Sustainable Activities* (n.d.).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+-   Chapman (2009) argues in his seminal paper (and later in his book) for “Emotionally Durable Design”, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries.
 
--   “Emotionally Durable Design”, https://www.amazon.com/Emotionally-Durable-Design-Objects-Experiences-ebook/dp/B09M6MTZ4P
--   “Enchanted Objects”, https://www.amazon.com/Enchanted-Objects-Innovation-Design-Technology-ebook/dp/B00DPM7WO2
+-   Rose (2015) has a similar idea, where “Enchanted Objects” become so interlinked with us, we’re unlikely to throw them away.
 
 ## Oracles {#oracles}
 
@@ -103,6 +96,8 @@ import Humboldt from '../images/humboldt.jpg'
 -   Cohen & Vandenbergh (2012)
 
 ## Oracles for Sustainability Data {#oracles-for-sustainability-data}
+
+A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, waste, etc.
 
 ## Climate Anxiety {#climate-anxiety}
 
@@ -142,13 +137,11 @@ Design to reduce climate anxiety
 
 -   Healthkit
 
--   In a 2022 report Apple outlines its plants to : “Empowering people to live a healthier day” https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
+-   In a 2022 report Apple outlines its plans to : “Empowering people to live a healthier day” https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
 
 -   https://developer.apple.com/videos/play/wwdc2022/10005/
 
 -   What would that look like for sustainability?
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Empowering people to live a sustainable day
 
@@ -160,8 +153,8 @@ Design to reduce climate anxiety
 
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
 
--   Delclòs-Alió et al. (2022)
--   Giannakos et al. (2020)
+-   Delclòs-Alió et al. (2022) discusses walking in Latin American cities. Walkin is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
+-   Giannakos et al. (2020) used wearable devices to measuredphysiological parameters of students at school to determine their learning efficiency.
 -   Shin et al. (2019)
 -   Tsai et al. (2019)
 -   Burger et al. (2019)
@@ -208,15 +201,15 @@ Moberg et al. (2019) reports daily human activities emission contribution on ave
 
 -   IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Growing public understanding of how nature works and intersects with our use of money.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   The EU Copernicus satellite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
@@ -286,7 +279,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 -   commodities!! — the most effective things are — food — transport — fashion? — plant trees
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“ (Catherine Clifford (2022))
 
@@ -394,7 +387,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   “triple turn”
 -   lack of transparency
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 
@@ -536,7 +529,7 @@ ESG blockchains:
 
 -   https://www.telos.net/esg-blockchain
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 -   Improve product ***provenance***, blockchains offer this transparency
 
@@ -558,7 +551,7 @@ ESG blockchains:
 
 -   “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 -   https://www.fastcompany.com/90656749/greenwashing-ai
 -   https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
@@ -572,7 +565,7 @@ ESG blockchains:
 
 -   https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
 -   “digital sustainability principles”
 
@@ -681,7 +674,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
 
 -   Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
 
@@ -742,7 +735,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   200 million PCs sold every year personalized AI, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
 -   https://tech.fb.com/ar-vr/2022/10/meta-research-reality-labs-connect-2022/
 
@@ -750,7 +743,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
 
 -   “Uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
 
@@ -847,11 +840,11 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
 
 -   Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
 
 -   One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonisation*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
 
@@ -948,6 +941,8 @@ Cawthorn, D.-M., & Hoffman, L. C. (2016). Controversial cuisine: A global accoun
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
+Chapman, J. (2009). Design for (Emotional) Durability. *Design Issues*, *25*(4), 29–35. <https://www.jstor.org/stable/20627827>
+
 Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of green transformation of the European Union countries. *Ecological Indicators*, *136*, 108601. <https://doi.org/10.1016/j.ecolind.2022.108601>
 
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
@@ -979,6 +974,8 @@ Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign wi
 Emir Hidayat, S., Bamahriz, O., Hidayati, N., Sari, C. A., & Dewandaru, G. (2022). Value drivers of startup valuation from venture capital equity-based investing: A global analysis with a focus on technological factors. *Borsa Istanbul Review*, *22*(4), 653–667. <https://doi.org/10.1016/j.bir.2021.10.001>
 
 Eriksson, M., Christensen, J., & Malefors, C. (2023). Making food waste illegal in Sweden Potential gains from enforcing best practice in the public catering sector. *Sustainable Production and Consumption*, *35*, 229–237. <https://doi.org/10.1016/j.spc.2022.11.003>
+
+*EU taxonomy for sustainable activities*. (n.d.). https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en.
 
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
 
@@ -1092,6 +1089,8 @@ Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
 
+Rose, D. (2015). *Enchanted objects: Innovation, design, and the future of technology* (1. Scribner trade paperback ed).
+
 Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental sustainability: Collect and use company information to design green products. *Procedia CIRP*, *105*, 823–828. <https://doi.org/10.1016/j.procir.2022.02.136>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>
 
@@ -1108,6 +1107,8 @@ Shin, G., Jarrahi, M. H., Fei, Y., Karami, A., Gafinowitz, N., Byun, A., & Lu, X
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
+
+Sustainability starts in the design process, and AI can help. (n.d.). In *MIT Technology Review*. https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/.
 
 The Carbon Trust. (n.d.). *Q&A: How to reduce your carbon footprint through your everyday shopping*. https://www.carbontrust.com/resources/qa-how-to-reduce-your-carbon-footprint-through-your-everyday-shopping.
 
