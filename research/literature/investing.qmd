@@ -1,5 +1,5 @@
 ---
-title: Designing Interfaces for Sustainable Financial Actions (Shopping, Saving, Investing)
+title: Interfaces
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 3

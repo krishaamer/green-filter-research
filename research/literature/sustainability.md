@@ -1,5 +1,5 @@
 ---
-title: History of Sustainability
+title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 1
@@ -109,16 +109,16 @@ Wearable devices like Apple Watch, Oura Ring and apps help users track a variety
 -   Shin et al. (2019)
 -   Tsai et al. (2019)
 -   Burger et al. (2019)
--   Aromatario et al. (2019) behaviour changes
+-   Aromatario et al. (2019) behavior changes
 -   Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise
--   Ayoola et al. (2018) wellbeiing data
+-   Ayoola et al. (2018) wellbeing data
 -   Godfrey et al. (2018)
 -   Thomas et al. (2018)
 -   Tonne et al. (2017)
 -   Grigsby-Toussaint et al. (2017) Sleep apps and behavioral constructs
 -   Anselma et al. (2017)
--   Forlano (2017) postthuhumanis and design
--   Saubade et al. (2016) motivatting physical activity
+-   Forlano (2017) posthumanism and design
+-   Saubade et al. (2016) motivating physical activity
 -   Greenbaum & Gerstein (2016)
 -   Millings et al. (2015)
 -   Reis et al. (2015)
@@ -222,7 +222,7 @@ Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simpl
 
 commodities!! — the most effective things are — food — transport — fashion? — plant trees
 
--   Amazon is commiting 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’” (Catherine Clifford (2022))
+-   Amazon is commiting 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“ (Catherine Clifford (2022))
 
 ### Disasters {#disasters}
 
@@ -238,7 +238,7 @@ commodities!! — the most effective things are — food — transport — fashi
 
 ### Health {#health}
 
--   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts. “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
+-   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts.”All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
 
 -   https://www.ncbi.nlm.nih.gov/books/NBK202304/
 
@@ -264,11 +264,11 @@ The U.S. National Public Utilities Council (NPUC) utility decarbonization report
 
 ### Greenwashing {#greenwashing}
 
-Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programmes are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
+Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
-Greenwashing is a large detractor from environmetal action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
+Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
 
-Examples of greenwashing: - Greenwashing is widespread in company social media communications Geoffrey Supran (2022) - “Most plastics marketed as “home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022) - Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019) - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021)) - Sometimes greenwashing comes under legislative protection: “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
+Examples of greenwashing: - Greenwashing is widespread in company social media communications Geoffrey Supran (2022) - “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022) - Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019) - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021)) - Sometimes greenwashing comes under legislative protection: “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
 
 A number of new AI-based tools aim to find instances of greenwashing. - https://www.fastcompany.com/90656749/greenwashing-ai - https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch - https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul - https://www.climatebonds.net/about/team/krista-tukiainen - https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
 
@@ -300,7 +300,7 @@ Europe is the hotbed of sustainabillity - https://www.visualcapitalist.com/most-
 
 -   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 
--   “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.“ (United Nations Environment Programme (UNEP) (2021))
+-   “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.” (United Nations Environment Programme (UNEP) (2021))
 
 -   2022 Emissions Gap report (United Nations Environment Programme (2022))
 
@@ -365,11 +365,11 @@ Digital Receipts to be able to track your carbon footprint https://apps.apple.co
 
 ### Ecosystem Services {#ecosystem-services}
 
-There’s evidence paying landovners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
+There’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
 
--   Han & Chen (2022) identifies nature-based ssolutions “land re-naturalization (such as afforestation and wetland restoration)”
+-   Han & Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
 
--   Noriega et al. (2018) attempts to quantify tthe ecosystem services (ES) provided by insects. While it can be assusmed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
+-   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
 
 ### Regeneration {#regeneration}
 
@@ -385,11 +385,11 @@ There’s evidence paying landovners for the ecosystem services their forests pr
 
 -   Number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).” (Almond, R.E.A. et al. (n.d.))
 
--   The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompanpy climate goals (*ADD CITATION*).
+-   The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals (*ADD CITATION*).
 
 ### Air Pollution {#air-pollution}
 
-Grounbreaking research by Lim et al. (2022) analysed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
+Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 
 -   Prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.” (Hannah Devlin (2022))
 
@@ -397,7 +397,7 @@ Grounbreaking research by Lim et al. (2022) analysed over 400000 individuals in 
 
 ## Supply Chains {#supply-chains}
 
-Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutablet (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inpputted incorrect data.
+Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
 
 The blockchain supply chain companies as of October 2022 include:
 
@@ -458,7 +458,7 @@ ESG blockchains: - https://insights.physisinvestment.com/blockchain-in-esg-inves
 
 Factory compliance - Fair Factories https://www.fairfactories.org/
 
-Transparency about the pollutiong factories where the products come from.. the proudct journey
+Transparency about the polluting factories where the products come from.. the proudct journey
 
 Planet Factory
 
@@ -486,7 +486,7 @@ https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f8
 
 Recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products (*Cargo Bike \| FREITAG* (n.d.)).
 
-*Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglemerates with a massive CO2 footprint. See the index to find some alternatives.
+*Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
 
 ### Personas {#personas}
 
@@ -591,7 +591,7 @@ Circle Economy (2022) reports only 8.6% of world economy is circular and *100B t
 
 ### Social Objects {#social-objects}
 
-I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c and how the design can connect people to sustainable outcomes while shopping and investing. Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainabilty focus unfortunately…
+I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c and how the design can connect people to sustainable outcomes while shopping and investing. Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
 
 — What percent of all design is “sustainable design” ? Promoting sustainable design
 
@@ -636,7 +636,7 @@ https://www.youtube.com/watch?v=D2DUMSAsqe0 Data Sharing Archetypes - 1 Transpar
 
 ### Traceability {#traceability}
 
-200 million pcs sold every yeear personalized ai, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
+200 million PCs sold every year personalized AI, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
 
 https://tech.fb.com/ar-vr/2022/10/meta-research-reality-labs-connect-2022/
 
@@ -670,7 +670,7 @@ Head of Product Design at Webflow (David Hoang (2022)) suggests taking cues from
 
 The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book (Dunne & Raby (2013)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
-In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of researchable data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
 Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
 
@@ -723,7 +723,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
-The literature on *nudge* is wide, as researches try to find ways to affect human behavious towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
+The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
 
 Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
@@ -758,7 +758,7 @@ One example of *nudge* are the small UI updates released by Google across its po
 
 ## Conclusion {#conclusion}
 
-A wide range of legislative proposals, targets, organisations, and goals already exists across Europe. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market. In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is neccesarly a building block to enable consumers and investors make more accurate, real-world purchase decisions.
+A wide range of legislative proposals, targets, organizations, and goals already exists across Europe. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market. In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is necessary a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References {#references .unnumbered}
 
