@@ -29,25 +29,19 @@ In 2019 by the von der Leyen commission adopted the European Union (EU) **Green 
 
 ## Ecodesign as Key Policy Tool {#ecodesign-as-key-policy-tool}
 
-In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* (European Commission (2022)). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria.
+In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in European Commission (2022). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria. A large part of the proposal by Commission et al. (2014) is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process.
 
-A large part of the proposal is ***ecodesign***, as a large part of product lifecycle environmental impact is defined in the design process ((**CommissionEcodesign2014?**)). The framework proposes 10 values to strive for in high quality products:
+| Quality    |                   |                    |
+|------------|-------------------|--------------------|
+| Durable    | Reparable         | Easy to recycle    |
+| Reusable   | Easy to maintain  | Energy efficient   |
+| Upgradable | Easy to refurbish | Resource efficient |
 
-| Quality            |
-|--------------------|
-| Durable            |
-| Reusable           |
-| Upgradable         |
-| Reparable          |
-| Easy to maintain   |
-| Easy to refurbish  |
-| Easy to recycle    |
-| Energy efficient   |
-| Resource efficient |
+The framework proposes 9 values to strive for in high quality products.
 
 ## Relevance {#relevance}
 
--   and protecting biodiversity .
+-   and protecting biodiversity
 
 This research is timely in 2023 because of the convergence of four trends:
 
@@ -177,9 +171,25 @@ GreenFilter is a product that combines AI, design and marketing to help people m
 
 ## Demographics {#demographics}
 
--   https://99firms.com/blog/generation-z-statistics/#gref https://review42.com/resources/smartphone-statistics/
+-   https://99firms.com/blog/generation-z-statistics/#gref
 
--   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors. Thus, the purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users, defined as living in Sweden and Taiwan, in the age range between 18 and 35, by employing interviews with experts in finance and design, and a user survey with potential users, including a choice experiment between potential feature sets in consumption, savings, and investment.
+-   https://review42.com/resources/smartphone-statistics/
+
+-   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
+
+-   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
+
+-   User survey with potential users, defined as living in Taiwan, in the age range between 18 and 35.
+
+-   Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
+
+Survey respondents:
+
+| Key        | Value    |
+|------------|----------|
+| Location   | Taiwan   |
+| Age        | 18-35    |
+| Occupation | Students |
 
 ## Research Questions {#research-questions}
 
@@ -188,7 +198,7 @@ GreenFilter is a product that combines AI, design and marketing to help people m
 -   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                     | Methods                                     |
-|-----------------|--------------------------------|-----------------------|
+|-------|--------------------------------------|----------------------------|
 | 1   | How can AI assistants encourage sustainable shopping, saving, and investing? | Literature review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?      | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?           | Survey + Prototype Testing with Focus Group |
@@ -198,6 +208,8 @@ GreenFilter is a product that combines AI, design and marketing to help people m
 BankMyCell. (2022). *How Many People Have Smartphones Worldwide*. https://www.bankmycell.com/blog/how-many-phones-are-in-the-world.
 
 Calastone. (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
+
+Commission, E., Energy, D.-G. for, Enterprise, D.-G. for, & Industry. (2014). *Ecodesign your future : How ecodesign can help the environment by making products smarter*. European Commission. <https://doi.org/doi/10.2769/38512>
 
 Deutsche Welle. (2019). *Fridays for Future global climate strike*. https://www.dw.com/en/fridays-for-future-global-climate-strike-live-updates/a-50505537.
 

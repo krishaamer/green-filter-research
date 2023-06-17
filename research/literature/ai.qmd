@@ -15,9 +15,6 @@ import Replika from '../images/with-me.png'
 ## A Brief History of AI
 
 -   ChatGPT passes many exams meant for humans @bubeckSparksArtificialGeneral2023
-
-<!-- -->
-
 -   @bowmanEightThingsKnow2023 says steering LLMs is unreliable and event experts don't fully understand the inner workings of the models.
 
 ## Automated Prompt Engineering
@@ -27,23 +24,12 @@ import Replika from '../images/with-me.png'
 ## Guided Sustainability
 
 -   Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are required.
-
-<!-- -->
-
 -   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). IIn essence, "green filter" is a central data repository not unlike "Apple Health for Sustainability".
-
-<!-- -->
-
 -   Health and fitness category apps
-
 -   Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly
-
 -   There are many examples of combination of AI and human, also known as "human-in-the-loop". For example health apps like Welltory, Wellue and QALY. Food delivery apps like Starship Robots who ask for human help when crossing the road.
-
 -   How would you rate your knowledge on sustainability?
-
 -   How would you rate your ability to put sustainability into practice?
-
 -   "Guided Sustainability refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."
 
 ## ChatGPT
@@ -85,7 +71,7 @@ Turing's test proposed a game of imitation: can the AI imitate a human so well t
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №   | Asimov's Laws of Robotics                                                                                           |
-|-------------------|-----------------------------------------------------|
+|------|----------------------------------------------------|
 | 1st | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
@@ -106,7 +92,7 @@ How to responsibly deploy AI for people around the world?
 
 -   @tamkin2021 reports on the advance of LLMs.
 
-| №   | AI Model | Released |           |
+| №   | AI Model | Released | Company   |
 |-----|----------|----------|-----------|
 | 1   | GTP2     | 2019     | OpenAI    |
 | 2   | T-NLG    | 2000     | Microsoft |
@@ -118,31 +104,28 @@ How to responsibly deploy AI for people around the world?
 | 8   | GLaM     | 2022     | Google    |
 
 -   The advances in the capabilities of large AI model mean we've reached a point, where it's possible to achieve UI and UX which previously was science fiction.
-
-<!-- -->
-
 -   There's early evidence it's possible to assess the quality of LLM output in a transparent way (@liangHolisticEvaluationLanguage2022)
-
-<!-- -->
-
 -   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat's "My AI" virtual friend help people write faster with the app helping users with predictive text completion. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. https://twitter.com/nonmayorpete/status/1633174219063439360
-
 -   AI generated content is not neutral but has a certain aesthetic: https://twitter.com/bildoperationen/status/1633082030178050048
-
 -   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge. @liuPrismerVisionLanguageModel2023 propose future models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. Jack Krawczyk, the product lead for Google's Bard: "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?"
-
 -   Microsoft Designer allows generating UIs just based on a text prompt: https://designer.microsoft.com/
-
 -   Personalized bed-time stories for kids generated by AI: https://www.bedtimestory.ai/
-
 -   https://bedtimestory.ai/krishaamer/story/SqNAYjZ
-
 -   Open Source LLLM: https://vicuna.lmsys.org/
 
 ## Design for Human-AI Interaction
 
 -   Human-AI interaction is ship systems @veitchSystematicReviewHumanAI2022
--   @jiangChatbotEmergencyExist2022
+-   @jiangChatbotEmergencyExist2022 describes how Replika users in China using in 5 main ways, all which rely on empathy
+
+| Human empathy for AI agent |
+|----------------------------|
+| Companion buddy            |
+| Responsive diary           |
+| Emotion-handling program   |
+| Electronic pet             |
+| Tool for venting           |
+
 -   @cromptonDecisionpointdilemmaAnotherProblem2021
 -   @calistoBreastScreeningAIEvaluatingMedical2022
 -   @chengInvestigationTrustAIenabled2022
@@ -174,7 +157,7 @@ How to responsibly deploy AI for people around the world?
 
 -   "We love to hate Clippy --- but what if Clippy was right?" @tashkeunemanWeLoveHate2022 and @abigailcainLifeDeathMicrosoft2017
 
-Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershi2019guidelines) which provides useful heuristics categorized by context and time
+-   Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershi2019guidelines) which provides useful heuristics categorized by context and time
 
 | №   | Context            |     |     |
 |-----|--------------------|-----|-----|
@@ -187,14 +170,18 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   **Amazon Alexa** is the most well-known example of AI technology in the world. But Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion."
 
-<!-- -->
-
 -   @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
+
 -   https://www.youtube.com/watch?v=2mfUZcYfFjw
+
 -   https://www.fullsail.edu/courses/human-ai-interaction https://haiicmu.github.io/
+
 -   https://www.youtube.com/watch?v=xDmQMpwiHdA
+
 -   https://www.youtube.com/watch?v=WT9A_I3UIq0
+
 -   https://hpedsi.uh.edu/news/human-ai-interaction-future-relationships-between-humans-and-machines https://www.amazon.com/Human-AI-Interaction-Artificial-Intelligence-Picture-ebook/dp/B08HY2Z2F5
+
 -   https://www.frontiersin.org/research-topics/17100/on-the-human-in-human-artificial-intelligence-interaction
 
 ## Psychological Biases and Mental Models
@@ -227,9 +214,6 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 -   https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar https://www.theturnsignalblog.com/blog/voice-interaction/
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings.
-
-<!-- -->
-
 -   Focus on voice education?
 -   Example Suggestions of the AI companion: - *"Don't buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber." -*"Use a refillable shampoo bottle to save XYZ plastic pollution" - "Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."\*
 -   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (@CELINO2020102410). This suggests adding an avatar to the AI design may be worthwhile.
@@ -243,9 +227,6 @@ There's evidence across disciplines about the usefulness of AI assistants:
 ## Writing AI Characters
 
 -   https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
-
-<!-- -->
-
 -   Writing as training data? large language models. GTP3
 
 ## Personalized Artificial Intelligence (AI) Interaction Design (IxD)
@@ -255,13 +236,7 @@ There's evidence across disciplines about the usefulness of AI assistants:
 ### Design for Sustainability and Participation
 
 -   @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning, in her words "design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be". Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research, which means aiming to influence outcomes, not only be a passive observer of phenomena as a researcher or only focusing on usability as a designer without taking into account the wider context. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces.
-
-<!-- -->
-
 -   When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.
-
-<!-- -->
-
 -   @shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design.
 
 How do the 7 tenets of user experience (UX) apply to AI?
@@ -279,19 +254,10 @@ How do the 7 tenets of user experience (UX) apply to AI?
 ### Interaction and Algorithmic Experience Design
 
 -   @theinternationalergonomicsassociationHumanFactorsErgonomics2019: To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user's emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be "optimized for human well-being".
-
-<!-- -->
-
 -   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
-
-<!-- -->
-
 -   @babichInteractionDesignVs2019 argues "\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system".
-
 -   In narrative studies terminology, it's a heroic journey of the user to achieve their goals, by navigating through the interface until a success state. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
-
 -   @tubikstudioUXDesignGlossary2018 argues affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today.
-
 -   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study's target audience (18-35, Sweden and Taiwan), social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
 
 ```{=mdx}
@@ -378,9 +344,6 @@ Influencers are terrible for investing... but?
 ## What is Interaction Design?
 
 -   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign believes interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
-
-<!-- -->
-
 -   @weinschenk100ThingsEvery2011 says "People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."
 -   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say ssome of the tools used by interaction designers include
 -   Red Route Analysis
@@ -408,7 +371,7 @@ AI IXD is about human-centered seamless design
 -   Some have an avatar, some not. I've created a framework for categorization. Human-like or not... etc
 
 | №   | Name                    | Link                                               | Description          |
-|-----------------|-----------------|---------------------|-----------------|
+|------------------|------------------|--------------------|------------------|
 | 1   | Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
 | 2   | Google Translate        | https://translate.google.com/                      |                      |
 | 3   | Google Search           | https://www.google.com/                            |                      |
