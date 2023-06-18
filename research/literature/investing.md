@@ -10,16 +10,6 @@ editor:
 export const quartoRawHtml =
 [`
 <!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
 `];
 
 ``` mdx-code-block
@@ -30,7 +20,11 @@ import Bunq from '../images/bunq.jpg'
 import ResQClub from '../images/resq-club.png'
 ```
 
-# Designing for Sustainable Shopping {#designing-for-sustainable-shopping}
+# Finance {#finance}
+
+-   In 2022 the Global GPT was estimated at around 100 Trillion USD Aaron O’Neill (n.d.).
+
+## Designing for Sustainable Shopping {#designing-for-sustainable-shopping}
 
 -   Weber (2021) proposes a sustainable shopping guide.
 -   Fuentes et al. (2019) discusses package free shopping.
@@ -38,7 +32,7 @@ import ResQClub from '../images/resq-club.png'
 
 ### Food {#food}
 
--   ResQ Club in Finland and Estonia https://kodu.postimees.ee/7604355/levita-sona-uus-rakendus-pakub-kvaliteetset-toitu-poole-odavama-hinnaga
+-   Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
 
 ``` mdx-code-block
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
@@ -57,7 +51,7 @@ import ResQClub from '../images/resq-club.png'
 -   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
 | Perspective                         | Content                                                                               |
-|----------------------|--------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
 | *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
 | *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
@@ -85,9 +79,6 @@ import ResQClub from '../images/resq-club.png'
 #### Farm to Fork {#farm-to-fork}
 
 -   *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Farm to table https://techcrunch.com/tag/farm-to-table/
 -   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech?fbclid=IwAR2khUm-fpHiaJRHWKLgSruV0tNSyShGl-KHKCl3-PvxFZKs4wgkX4b9bCU
 -   https://lowercarboncapital.com/companies/
@@ -103,8 +94,6 @@ import ResQClub from '../images/resq-club.png'
 -   There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design (Leung & Luximon (2021)) Sneakers made from coffee https://twitter.com/RensOriginal
 
 -   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing ecodesign “respects the boundaries of our planet” European Commission (2022)
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Sashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
 
@@ -134,14 +123,18 @@ import ResQClub from '../images/resq-club.png'
 
 -   https://www.stand.earth/ https://www.newstandardinstitute.org/ https://www.bgmea.com.bd/
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
 -   “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.” https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
+
 -   https://www.linkedin.com/showcase/ecotextile-news/
+
 -   Materials matter in fashion https://textileexchange.org/
+
 -   https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i
+
 -   Minimize shopping, buy quality, save CO2, invest.
+
 -   Ethical fashion https://textileexchange.org/ materials matter
+
 -   Policy request: https://textileexchange.org/trade-policy-request-cop26/
 
 #### Fast Fashion {#fast-fashion}
@@ -152,8 +145,7 @@ import ResQClub from '../images/resq-club.png'
 -   https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287
 -   https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html
 -   https://infinitedfiber.com/ https://www.cleantech.com/the-global-cleantech-100/
-
-Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
+-   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
 
 #### Sustainable Fashion {#sustainable-fashion}
 
@@ -195,11 +187,7 @@ Alterations and repairs made easy. https://home.sojo.uk/ https://directory.good
 ### Individual Climate Action {#individual-climate-action}
 
 -   Individual climate action!!! https://twitter.com/kristiansn89/status/1578122916159520769 Give gen-z the tools to turn climate anger into positive change to transform companies
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
-
--   “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Cherry & Sneirson (2010) in Lavers et al. (2022)
-
+-   Cherry & Sneirson (2010) in Lavers et al. (2022) suggests “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum”
 -   Echeverría et al. (2022) suggests greener modes of mobility.
 
 ### Ratings and Scoring {#ratings-and-scoring}
@@ -230,7 +218,7 @@ Alterations and repairs made easy. https://home.sojo.uk/ https://directory.good
 
 ### Digital Product Passports {#digital-product-passports}
 
--   The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data (Nissinen et al. (2022)).
+-   Nissinen et al. (2022) reports The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data.
 
 ### Consumer Activism {#consumer-activism}
 
@@ -330,7 +318,7 @@ Alterations and repairs made easy. https://home.sojo.uk/ https://directory.good
 
 ### Product Databases {#product-databases}
 
--   The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.” (*StandardsMap* (n.d.))
+-   *StandardsMap* (n.d.), The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.”
 
 -   Trends https://standardsmap.org/en/trends
 
@@ -381,8 +369,6 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
 
 -   “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilise capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
 
@@ -581,7 +567,7 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   Investing is a fundamentally hopeful act. It means I think there’s a future. Specifically, ‘green investing’ is investing in the future of our planet - but can we trust the sustainability practices the ‘green’ investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as ‘green’ energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a ‘green investor’ might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   **Feature**: Help me write me investment thesis first.
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
@@ -844,9 +830,11 @@ People are concerned with digital payments
 
 ## Community Investing {#community-investing}
 
+-   Build an investing community?
+
 ### DAOs and Blockchain {#daos-and-blockchain}
 
--   Build an investing community?
+-   Build a DAO?
 
 ### Environmental, Social, and Corporate Governance (ESG) {#environmental-social-and-corporate-governance-esg}
 
@@ -925,6 +913,8 @@ People are concerned with digital payments
 # References {#references .unnumbered}
 
 10 Years of Green Bonds: Creating the Blueprint for Sustainability Across Capital Markets. (2019). In *World Bank*. https://www.worldbank.org/en/news/immersive-story/2019/03/18/10-years-of-green-bonds-creating-the-blueprint-for-sustainability-across-capital-markets.
+
+Aaron O’Neill. (n.d.). Global GDP 1985-2028. In *Statista*. https://www.statista.com/statistics/268750/global-gross-domestic-product-gdp/.
 
 Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
 
@@ -1015,6 +1005,8 @@ Kenton, W. (2020). MiFID II. In *Investopedia*. https://www.investopedia.com/ter
 Kirakosian, M. (Noveber 16, 2020). LOIM launches circular bioeconomy fund inspired by Prince of Wales. In *Wealth Manager*. http://citywireselector.com/news/loim-launches-circular-bioeconomy-fund-inspired-by-prince-of-wales/a1425493.
 
 Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
+
+Kristina Kostap. (2022). LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga. *Postimees*.
 
 Kyle Wiggers. (2022). Makersite lands \$18M to help companies manage product supply chains. In *TechCrunch*. https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/.
 

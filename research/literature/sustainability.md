@@ -20,25 +20,12 @@ export const quartoRawHtml =
 <!-- -->
 `,`
 <!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
 `];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
+import FlightEmissions from '../images/flight-emissions.png'
 ```
 
 # Design for Sustainability {#design-for-sustainability}
@@ -278,9 +265,6 @@ There’s evidence from several countries suggesting moving to renewal energy br
 ## Sustainability {#sustainability}
 
 -   commodities!! — the most effective things are — food — transport — fashion? — plant trees
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
-
 -   Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“ (Catherine Clifford (2022))
 
 ### Disasters {#disasters}
@@ -289,7 +273,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 ### Scalable Climate Solutions {#scalable-climate-solutions}
 
-…
+-   What really works on a large scale?
 
 ## The State of Nationally Determined Contributions: 2022 {#the-state-of-nationally-determined-contributions-2022}
 
@@ -386,9 +370,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   Climate action tracker https://climateactiontracker.org/countries/
 -   “triple turn”
 -   lack of transparency
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
-
 -   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 
 ### Design for Sustainability {#design-for-sustainability-2}
@@ -401,7 +382,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 ### Carbon Inequality {#carbon-inequality}
 
--   “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it” Chancel (2022)
+-   Chancel (2022) suggests “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it”.
 
 ### Actionable Insights {#actionable-insights}
 
@@ -421,23 +402,25 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” (Kornek et al. (2021); Zhen et al. (2018)) with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
 
--   carbon-neutral economy needs higher CO2 prices (Stern (2022))
+-   Stern (2022) reports carbon-neutral economy needs higher CO2 prices.
 
--   Oceans play crucial role in carbon capture (Howard et al. (2017))
+-   Howard et al. (2017) argues Oceans play crucial role in carbon capture.
 
--   Carbon prices are highly asymmetric (Ritz (2022))
+-   Ritz (2022) says Carbon prices are highly asymmetric.
 
--   Apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability (Lin et al. (2022))
+-   Lin et al. (2022) says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
 -   As shown in the Phillipines by Cheng & Han (2022), with increasing extreme weather events, “businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards”
 
--   In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.” Jerrett et al. (2022)
+-   Jerrett et al. (2022) says, In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.”
 
--   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarious of climate damage
+-   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarios of climate damage
 
 ### Ecosystem Services {#ecosystem-services}
 
-There’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation (Bousfield et al. (2022)). Estonian startups Arbonic and Single.Earth are trialing this approach in several forests.
+-   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation. In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   Han & Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
 
@@ -455,15 +438,17 @@ There’s evidence paying landowners for the ecosystem services their forests pr
 
 ### Biodiversity {#biodiversity-1}
 
--   Number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).” (Almond, R.E.A. et al. (n.d.))
+-   Almond, R.E.A. et al. (n.d.) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
 
--   The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals (*ADD CITATION*).
+-   **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals (*ADD CITATION*).**
 
 ### Air Pollution {#air-pollution}
 
-Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
+-   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 
--   Prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.” (Hannah Devlin (2022))
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+
+-   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
 
 **Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
@@ -489,7 +474,7 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 -   https://golden.com/wiki/WaltonChain\_(cryptocurrency)-EAVDZX4
 -   https://www.bext360.com/
 -   https://fairfood.org/en/blockchain/
--   The International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008 (Matthew Gore et al. (2022)).
+-   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008.
 
 ### Circular Supply Chains {#circular-supply-chains}
 
@@ -517,7 +502,7 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 -   **Important: “creating sustainability trust in companies in realtime”**
 
-ESG blockchains:
+### ESG blockchains {#esg-blockchains}
 
 -   https://insights.physisinvestment.com/blockchain-in-esg-investing/
 
@@ -528,8 +513,6 @@ ESG blockchains:
 -   https://chiefexecutive.net/why-blockchain-can-both-promote-esg-and-accelerate-climate-transition/
 
 -   https://www.telos.net/esg-blockchain
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 -   Improve product ***provenance***, blockchains offer this transparency
 
@@ -550,9 +533,6 @@ ESG blockchains:
 ### Internet of Things (IoT) {#internet-of-things-iot}
 
 -   “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
-
 -   https://www.fastcompany.com/90656749/greenwashing-ai
 -   https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
 -   https://planethome.eco/
@@ -564,14 +544,11 @@ ESG blockchains:
 ### What is Product Design? {#what-is-product-design}
 
 -   https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
-
--   “digital sustainability principles”
+-   “Digital sustainability principles”
 
 ### Shopping Design {#shopping-design}
 
--   Recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products (*Cargo Bike \| FREITAG* (n.d.)).
+-   *Cargo Bike \| FREITAG* (n.d.), Recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products.
 
 -   *Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
 
@@ -630,13 +607,11 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   Eminent journal Design Studies, 1st design journal
 
--   https://reader.elsevier.com/reader/sd/pii/S0142694X16300631?token=8B3FA37DD29295180E82D3B783D5B71E5EF618BEA645403EB62621DFAF1D83FEBE3ADAE17651EB1DB29DEAD1475F1BEE&originRegion=eu-west-1&originCreation=20221015232216
-
--   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
+-   Ceschin & Gaziulusoy (2016) shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use.
 
 ### Eco-Design {#eco-design}
 
--   “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” (European Parliament (2022))
+-   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
 
 -   Manzardo et al. (2021)
 
@@ -673,9 +648,6 @@ Again, AI has the potential to provide the parameters for sustainability.
 ## Circular Economy {#circular-economy}
 
 -   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
-
 -   Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
 
 ### Social Objects {#social-objects}
@@ -686,7 +658,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 ## Data Visualisation {#data-visualisation}
 
--   Global temperature measurement starts from the 1880s where we have the first records from ships (Brohan et al. (2012)).
+-   Brohan et al. (2012) reports global temperature measurement starts from the 1880s where we have the first records from ships.
 -   Industrial revolution
 -   Data Data Visualisation has a Long history, starting with Alexander von Humboldt.
 
@@ -698,14 +670,14 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   When will Bolt show CO2 emissions per every trip?
 -   How co2 is shown by Google https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
--   Google added features to Flights and Maps to filter more sustainable options (Sarah Perez (2022))
+-   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 -   *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
 -   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
 -   Check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
 
 ### Designing for Health and Sustainability {#designing-for-health-and-sustainability}
 
--   Health and sustainability are instriscially connected. *“By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”* (Kjrgård et al. (2014))
+-   Health and sustainability are intrinsically connected. Kjrgård et al. (2014) shows how *“By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”*
 
 ### Design for Transparency {#design-for-transparency}
 
@@ -719,7 +691,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   **4 Worker Voice Tool - https://www.tsgn.org/en/focus-areas/activities/worker-connect**
 
--   5 traceabilityy tooll - https://trustrace.com/
+-   5 Traceability tool - https://trustrace.com/
 
 -   6 OPen data platform - 7 knowledge sharing platform
 
@@ -734,39 +706,20 @@ Again, AI has the potential to provide the parameters for sustainability.
 ### Traceability {#traceability}
 
 -   200 million PCs sold every year personalized AI, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you’re using your device.sense and reconstruct the world around you and to understand the context in which you’re using your device.make suggestions and take action proactively to help you get things done — ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
-
 -   https://tech.fb.com/ar-vr/2022/10/meta-research-reality-labs-connect-2022/
-
--   app shows traceability!!
-
+-   App shows traceability!!
 -   https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
-
--   “Uniform traceability system for the entire supply chain.” https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability
-
+-   “Why Tracing Seafood from Sea to Plate Is the Next Frontier in Sustainability \| Stories \| WWF” (n.d.) **“Uniform traceability system for the entire supply chain.”**
 -   Help consumers to demand more
-
 -   Supply chain - https://www.prima.trade/post/supply-chain-finance-upgrade - https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating
-
 -   https://www.altfi.com/people/tim-nicolle
-
 -   https://www.prima.trade/faq
-
 -   Give supply chain a voice by connecting workers directly to the consumer
-
 -   https://www.youtube.com/watch?v=XaNiqDJi7sE
-
 -   https://ctmfile.com/demos/view/13077
-
 -   https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough
-
 -   https://www.es3g.com/post/worker-voice
-
 -   https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html
-
 -   https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
 
 ### Open Data {#open-data}
@@ -776,33 +729,33 @@ Again, AI has the potential to provide the parameters for sustainability.
 -   https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
 -   https://chainreact.org/
 -   swedish open data portal https://www.dataportal.se/en
-
-Make open data easy to use in everyday life
+-   Make open data easy to use in everyday life
 
 ### Interface Studies {#interface-studies}
 
-Head of Product Design at Webflow (David Hoang (2022)) suggests taking cues from art studies to *isolate the core problem*. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+-   David Hoang (2022), the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
 
 ### Speculative Design {#speculative-design}
 
-The question on the intersection of user experience design and speculation have been termed *‘speculative design’* by Anthony Dunne and Fiona Raby in their seminal book (Dunne & Raby (2013)). Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+-   Dunne & Raby (2013) invented the term *‘speculative design’* in their seminal book as the question on the intersection of user experience design and speculation. Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
 
-In our investment AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+-   In my “green filter” AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
-Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
+-   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
 
-“Speculative Design” for a sustainability assistant
+### “Speculative Design” for a sustainability assistant {#speculative-design-for-a-sustainability-assistant}
 
--   Barendregt & Vaage (2021)
+-   Barendregt & Vaage (2021) explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
 -   Google Design (2019)
--   Dunne & Raby (2013)
 -   all green categories — Green hub — Ask the user to prioritize
 
 ### Biodesign {#biodesign}
 
-Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
+-   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
 
-Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
+-   Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 -   Speculative design
 -   Use imagination
@@ -811,7 +764,7 @@ Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother na
 
 ### Experience Design {#experience-design}
 
--   Meta Oculus AR Incubation GM Laura Fryer: “People buy experiences, not technology.” (Michael Abrash (2017))
+-   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: “People buy experiences, not technology.”
 -   Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
 ### Mobile App Design {#mobile-app-design}
@@ -839,21 +792,20 @@ There’s a number of user interface design patterns that have provide successfu
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
 -   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
-
 -   Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
+``` mdx-code-block
+<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
+```
 
--   One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonisation*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
+-   One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonization*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
 
 | №   | Product        | Nudge                                |
 |-----|----------------|--------------------------------------|
 | 1   | Google Maps    | Show routes with lower CO2 emissions |
 | 2   | Google Flights | Show CO2 emissions                   |
 
--   Becoming a Sustainability-Aware App or Game: “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.” (Jeni Miles (2022))
+-   Becoming a Sustainability-Aware App or Game. Jeni Miles (2022) suggests “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.”
 
 -   https://blog.google/outreach-initiatives/sustainability/sustainability-2021/
 
@@ -938,6 +890,8 @@ Burger, K., White, L., & Yearworth, M. (2019). Developing a smart operational re
 Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
 
 Cawthorn, D.-M., & Hoffman, L. C. (2016). Controversial cuisine: A global account of the demand, supply and acceptance of “unconventional” and “exotic” meats. *Meat Science*, *120*, 19–36. <https://doi.org/10.1016/j.meatsci.2016.04.017>
+
+Ceschin, F., & Gaziulusoy, I. (2016). Evolution of design for sustainability: From product design to design for system innovations and transitions. *Design Studies*, *47*, 118–163. <https://doi.org/10.1016/j.destud.2016.09.002>
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
@@ -1058,8 +1012,6 @@ Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Com
 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
-Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
-
 Millings, A., Morris, J., Rowe, A., Easton, S., Martin, J. K., Majoe, D., & Mohr, C. (2015). Can the effectiveness of an online stress management program be augmented by wearable sensor technology? *Internet Interventions*, *2*(3), 330–339. <https://doi.org/10.1016/j.invent.2015.04.005>
 
 Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
@@ -1151,6 +1103,8 @@ Waters, J. (2015). Ethics and the choice of animal advocacy campaigns. *Ecologic
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
 
 Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
+
+Why tracing seafood from sea to plate is the next frontier in sustainability \| Stories \| WWF. (n.d.). In *World Wildlife Fund*. https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability.
 
 Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
 
