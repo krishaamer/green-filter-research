@@ -16,8 +16,6 @@ export const quartoRawHtml =
 <!-- -->
 `,`
 <!-- -->
-`,`
-<!-- -->
 `];
 
 ``` mdx-code-block
@@ -28,8 +26,9 @@ import Replika from '../images/with-me.png'
 
 ## A Brief History of AI {#a-brief-history-of-ai}
 
--   ChatGPT passes many exams meant for humans Bubeck et al. (2023)
+-   Bubeck et al. (2023) finds ChatGPT passes many exams meant for humans.
 -   Bowman (2023) says steering LLMs is unreliable and event experts don’t fully understand the inner workings of the models.
+-   *The A-Z of AI* (n.d.) defines ***“AI is computer programming that learns and adapts”***.
 
 ## Automated Prompt Engineering {#automated-prompt-engineering}
 
@@ -48,18 +47,18 @@ import Replika from '../images/with-me.png'
 
 ## ChatGPT {#chatgpt}
 
--   Kecht et al. (2023) suggests AI is capable of learning business processes
+-   Kecht et al. (2023) suggests AI is capable of learning business processes.
 
--   O’Connor & ChatGPT (2023) and Cahan & Treutlein (2023) have conversations about science with AI
+-   O’Connor & ChatGPT (2023) and Cahan & Treutlein (2023) have conversations about science with AI.
 
--   Jeblick et al. (2022) suggest complicated radiology reports can be explained to patients using AI chatbots
+-   Jeblick et al. (2022) suggest complicated radiology reports can be explained to patients using AI chatbots.
 
--   Pavlik (2023) and Brent A. Anders (2022) reports on AI in education
+-   Pavlik (2023) and Brent A. Anders (2022) report on AI in education.
 
 ## AI UX {#ai-ux}
 
--   https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product-ebook/dp/B0BLZRJXZK/
--   Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence https://www.amazon.com/Designing-Human-Centric-Experiences-Artificial-Intelligence-ebook/dp/B0B9JCDZDB/
+-   https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product/dp/B0BPVYD9KX
+-   Akshay Kore (2022) Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence
 -   https://www.amazon.com/Studies-Conversational-Design-Human-Computer-Interaction-ebook/dp/B07G31WT3H/
 -   https://www.amazon.com/Chatting-Humans-Experience-Conversational-Science-based-ebook/dp/B097YXLS67
 -   https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook/dp/B08LB3JLPB
@@ -68,17 +67,13 @@ import Replika from '../images/with-me.png'
 
 -   Rogers (2022) defines the 4 phases of Pervasive Computing (PC). We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
--   Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.
-
-## Definition {#definition}
-
--   *The A-Z of AI* (n.d.) defines ***“AI is computer programming that learns and adapts”***.
+-   **Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.**
 
 ### From Concept to Reality {#from-concept-to-reality}
 
 Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (Turing (1950)), AI has come far, turning from a science-fiction concept into an everyday, mainstream reality.
 
-Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
+Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021); Holzinger et al. (2023)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
 
 Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
 
@@ -148,31 +143,26 @@ There’s wide literature available describing human-AI interactions across vari
 
 -   Crompton (2021) highlights AI as decision-support for humans while differentiating between intended and un-intended influence on human decisions.
 -   Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
--   Cheng et al. (2022)
--   Schoonderwoerd et al. (2021)
--   Ramchurn et al. (2021)
--   Karpus et al. (2021)
--   Lv et al. (2022)
--   B. Liu & Wei (2021)
--   AI teammates Seeber et al. (2020)
+-   Cheng et al. (2022) describe AI-based support systems for collaboration and team-work.
+-   Schoonderwoerd et al. (2021) focuses on human-centered design of AI-apps and multi-modal information display. It’s important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain?
+-   Ramchurn et al. (2021) discusses positive feed-back loops in continually learning AI systems which adapt to human needs.
+-   Karpus et al. (2021) is concerned with humans treating AI badly and coins the term “*algorithm exploitation”.*
+-   Lv et al. (2022) studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks. This finding has direct relevance for the “green filter” app design.
+-   B. Liu & Wei (2021) meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
+-   Seeber et al. (2020) proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
-### AI Interfaces and AI Explainability {#ai-interfaces-and-ai-explainability}
+### AI Interfaces and AI Explainability (XAI) {#ai-interfaces-and-ai-explainability-xai}
 
-AI-explainability is key to creating trust.
+AI-explainability (named XAI in literature) is key to creating trust and there’s several authors in literature calling for more transparency and explainability.
 
--   Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
+-   Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
 -   Suen & Hung (2023) discusses AI systems used for evaluating candidates at job interviews
 -   Wang et al. (2020) propose Neuroscore to reflect perception of images.
--   Khosravi et al. (2022)
--   Zerilli et al. (2022)
--   Su et al. (2023)
--   Yang (2022)
--   Combi et al. (2022)
--   Holzinger et al. (2023)
--   Su & Yang (2022)
+-   Khosravi et al. (2022) proposes a framework for explainability, focused on education.
+-   Zerilli et al. (2022) focuses on human factors and ergonomics and argues that transparency should be task-specific.
+-   Su & Yang (2022) and Su et al. (2023) review papers on AI literacy in early childhood education and finds a lack of guidelines and teacher expertise.
+-   Yang (2022) proposes a curriculum for in-context teaching of AI for kids.
+-   Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
 
 ### Guidelines for Human-AI interaction {#guidelines-for-human-ai-interaction}
 
@@ -244,7 +234,7 @@ AI-explainability is key to creating trust.
 -   Example Suggestions of the AI companion:
     -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution”
     -   “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
--   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile.
+-   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
 -   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
 There’s evidence across disciplines about the usefulness of AI assistants:
@@ -294,23 +284,23 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   Shin et al. (2020) argues interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) “investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance”.
 
--   That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-throughs, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
+-   That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
 
 -   In Barrett (2019), in the words of Easterbrook, a previous CEO of McDonald’s “How do you transition from mass marketing to mass personalization?”. During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we’re still in the early stages. Where do we go from here?
 
--   Lovejoy, lead UX designer at Google’s people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say (Design Portland (2018)).
+-   In Design Portland (2018), Lovejoy, lead UX designer at Google’s people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
 
 -   Costa & Silva (2022) “Interaction Design for AI Systems”
 
 -   “How AI is changing ‘interactions’”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
--   “\[AI\] blend into our lives in a form of apps and services” https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545
+-   Stone Skipper (2022) sketches a vision of “\[AI\] blend into our lives in a form of apps and services”.
 
 -   Dot Go makes the camera the interaction device: https://dot-go.app/
 
--   “Workshop with Young HCI Designers” Battistoni et al. (2023)
+-   Battistoni et al. (2023) creates a “Workshop with Young HCI Designers”.
 
 ### Platform Economy {#platform-economy}
 
@@ -355,7 +345,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   Influencers are terrible for investing… but?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Influencer - crypto twitter connections
 
@@ -385,7 +375,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   AI IXD is about human-centered seamless design
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   Storytelling
 
@@ -469,7 +459,7 @@ Nubanks, also known as challenger banks.
 
 -   AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. ux is what we do with this number
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
@@ -557,6 +547,8 @@ Bring together film school experience with design… Does branding also go here?
 
 ### Stickyness {#stickyness}
 
+-   Low attrition of the product?
+
 ### Community {#community}
 
 -   “Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.”
@@ -582,6 +574,8 @@ Bring together film school experience with design… Does branding also go here?
 ## References {#references .unnumbered}
 
 Abigail Cain. (2017). The Life and Death of Microsoft Clippy, the Paper Clip the World Loved to Hate. In *Artsy*. https://www.artsy.net/article/artsy-editorial-life-death-microsoft-clippy-paper-clip-loved-hate.
+
+Akshay Kore. (2022). *Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence*. Apress.
 
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
@@ -700,6 +694,8 @@ Shin, D., Zhong, B., & Biocca, F. (2020). Beyond user experience: What constitut
 Singer, U., Polyak, A., Hayes, T., Yin, X., An, J., Zhang, S., Hu, Q., Yang, H., Ashual, O., Gafni, O., Parikh, D., Gupta, S., & Taigman, Y. (2022). Make-<span class="nocase">A-video</span>: <span class="nocase">Text-to-video</span> generation without text-video data. *ArXiv*, *abs/2209.14792*.
 
 Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.stanford.edu/entries/turing-test/.
+
+Stone Skipper. (2022). How AI is changing “interactions.” In *Medium*. https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545.
 
 Su, J., Ng, D. T. K., & Chu, S. K. W. (2023). Artificial Intelligence (AI) Literacy in Early Childhood Education: The Challenges and Opportunities. *Computers and Education: Artificial Intelligence*, *4*, 100124. <https://doi.org/10.1016/j.caeai.2023.100124>
 
