@@ -613,27 +613,27 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
 
--   Manzardo et al. (2021)
+-   Manzardo et al. (2021) **(need access!)**
 
--   Iñarra et al. (2022)
+-   Iñarra et al. (2022) **(need access!)**
 
--   Munaro et al. (2022)
+-   Munaro et al. (2022) **(need access!)**
 
--   Bassani et al. (2022)
+-   Bassani et al. (2022) **(need access!)**
 
--   Duriez et al. (2022)
+-   There are many domain-specific research showing how varied industries can develop eco-designed products. For example, Duriez et al. (2022) shows how simply by reducing material weight it’s possible to design more sustainable transportation.
 
--   Van Doorsselaer (2022)
+-   Van Doorsselaer (2022) **(need access!)**
 
--   de Otazu et al. (2022)
+-   de Otazu et al. (2022) **Life Cycle Assessment and environmental impact analysis are needed to provide ecodesign scenarios.**
 
--   Nuez et al. (2022)
+-   Nuez et al. (2022) shows how electric vehicles may increase CO2 emissions in some areas, such as Canary Islands, where electricity production is polluting.
 
--   Rossi et al. (2022)
+-   Rossi et al. (2022) shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it’s possible to achieve more eco-friendly designs.
 
--   Tiernan et al. (2022)
+-   Tiernan et al. (2022) microplastics are a real concern
 
--   Arranz et al. (2022)
+-   Arranz et al. (2022) developing circular economy is really complex
 
 -   Cheba et al. (2022)
 
@@ -648,7 +648,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 ## Circular Economy {#circular-economy}
 
 -   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
--   Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
+-   There’s a growing number of companies providing re-use of existing items. For example, Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
 
 ### Social Objects {#social-objects}
 
