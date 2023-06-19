@@ -8,7 +8,7 @@ import dragon from "./dragon.json";
 
 const FeatureList = [
   {
-    title: "Shop Green",
+    title: "Shop",
     img: (
       <Lottie
         animationData={easy}
@@ -25,7 +25,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Save Nature",
+    title: "Save",
     img: (
       <Lottie
         animationData={carrot}
@@ -42,7 +42,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Invest Eco",
+    title: "Invest",
     img: (
       <Lottie
         animationData={dragon}
