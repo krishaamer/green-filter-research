@@ -10,16 +10,6 @@ editor:
 export const quartoRawHtml =
 [`
 <!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
-`,`
-<!-- -->
 `];
 
 ``` mdx-code-block
@@ -42,7 +32,7 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Very simple.” Lion Hirth Lion Hirth (n.d.)
 
--   The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance *EU Taxonomy for Sustainable Activities* (n.d.).
+-   *EU Taxonomy for Sustainable Activities* (n.d.) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance .
 
 -   Chapman (2009) argues in his seminal paper (and later in his book) for “Emotionally Durable Design”, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries.
 
@@ -68,15 +58,15 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Animal rights vs animal welfare
 
--   *Seafood tracing*: - Fingerprinting of Sea Urchin Mamede et al. (2022)
+-   Mamede et al. (2022) proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 
--   Waters (2015)
+-   Waters (2015) **(Need access!)**
 
--   Cawthorn & Hoffman (2016)
+-   Cawthorn & Hoffman (2016) **(Need access!)**
 
--   Gamborg & Jensen (2017)
+-   Gamborg & Jensen (2017) **(Need access!)**
 
--   Bailey & Eggereide (2020)
+-   Bailey & Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 
 ## Carbon Labeling {#carbon-labeling}
 
@@ -90,9 +80,9 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 Design to reduce climate anxiety
 
--   Whitmarsh et al. (2022)
+-   Whitmarsh et al. (2022) shows how climate anxiety is more prevalent among young people and is a possible motivator for climate action.
 
--   Ogunbode et al. (2022) find climate anxiety in 32 countries
+-   Ogunbode et al. (2022) finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism.
 
 -   Finds that climate anxiety predicts joining climate action movements
 
@@ -141,7 +131,7 @@ Design to reduce climate anxiety
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
 
 -   Delclòs-Alió et al. (2022) discusses walking in Latin American cities. Walkin is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
--   Giannakos et al. (2020) used wearable devices to measuredphysiological parameters of students at school to determine their learning efficiency.
+-   Giannakos et al. (2020) used wearable devices to measured physiological parameters of students at school to determine their learning efficiency.
 -   Shin et al. (2019)
 -   Tsai et al. (2019)
 -   Burger et al. (2019)
@@ -187,17 +177,8 @@ Moberg et al. (2019) reports daily human activities emission contribution on ave
 ***Designing for Sustainability*** encompasses all human activities, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
 
 -   IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
 -   Growing public understanding of how nature works and intersects with our use of money.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
 -   The EU Copernicus satellite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
 ### Clean Water {#clean-water}
@@ -214,25 +195,25 @@ Moberg et al. (2019) reports daily human activities emission contribution on ave
 
 Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products (Brian Kateman (2020)). Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)). The Carbon Trust reports it’s certified 27 thousand product footprints (The Carbon Trust (n.d.)).
 
--   The top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam (World Resources Institute (2020))
+-   World Resources Institute (2020) shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
 
--   file:///Users/krishaamer/Downloads/CO2_emissions_of_all_world_countries_2022_report%20(1).pdf
+-   Crippa et al. (2022) shows global emissions 4.81 t CO2/cap
 
 -   https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
 
 -   55% of emissions come from energy production.
 
--   According to one study, only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues (American Press Institute (2022))
+-   American Press Institute (2022) finds that only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues.
 
 -   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
 
 ### Population {#population}
 
--   In November 2022, Planet Earth’s population reached 8 Billion people (The Economic Times (2022)); future population projections predict 8.5B people by 2030 and 9.7B by 2050 (United Nations Department of Economic and Social Affairs, Population Division (2022)). While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
+-   According to The Economic Times (2022), in November 2022, Planet Earth’s population reached 8 Billion people. The future population projections in United Nations Department of Economic and Social Affairs, Population Division (2022) predict 8.5B people by 2030 and 9.7B by 2050. While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
 
 ### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
 
--   In a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities” (Anthony Leiserowitz et al. (2022))
+-   In Anthony Leiserowitz et al. (2022), a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
 -   Overconsumption is one of the root causes of climate change and marine plastic pollution.
 -   Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
@@ -242,7 +223,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 
--   Considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective (Low et al. (2022))
+-   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 -   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
 
@@ -265,7 +246,8 @@ There’s evidence from several countries suggesting moving to renewal energy br
 ## Sustainability {#sustainability}
 
 -   commodities!! — the most effective things are — food — transport — fashion? — plant trees
--   Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems. Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“ (Catherine Clifford (2022))
+-   Catherine Clifford (2022) reports that Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems.
+-   Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“.
 
 ### Disasters {#disasters}
 
@@ -293,7 +275,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 ### Emission Scopes {#emission-scopes}
 
--   The U.S. National Public Utilities Council (NPUC) utility decarbonization report (National Public Utilities Council (2022)) provides a useful categorization of company emissions:
+-   National Public Utilities Council (2022) The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
 
 | Scope   | Source                         |
 |---------|--------------------------------|
@@ -303,15 +285,15 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 ## Design for Human Rights {#design-for-human-rights}
 
-– GOP27 text refers to “human right to a clean, healthy and sustainable environment” (UNFCCC Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA) (2022))
+-   UNFCCC Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA) (2022) text refers to “human right to a clean, healthy and sustainable environment”.
 
 ### Greenwashing {#greenwashing}
 
-Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
+-   Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (US Securities and Exchange Commission (2022)). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
 
-Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
+-   Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
 
-Examples of greenwashing: - Greenwashing is widespread in company social media communications Geoffrey Supran (2022) - “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022) - Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019) - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021)) - Sometimes greenwashing comes under legislative protection: “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
+-   Examples of greenwashing: - Greenwashing is widespread in company social media communications Geoffrey Supran (2022) - “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months” Purkiss et al. (2022) - Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment Napper & Thompson (2019) - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (Frédéric Simon (2020); Kira Taylor (2021)) - Sometimes greenwashing comes under legislative protection: “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program” (Booth (2022))
 
 A number of new AI-based tools aim to find instances of greenwashing.
 
@@ -329,7 +311,7 @@ A number of new AI-based tools aim to find instances of greenwashing.
 
 ### Climate Change {#climate-change}
 
--   Tipping points Armstrong McKay et al. (2022)
+-   Armstrong McKay et al. (2022) discusses tipping points
 
 ### European Green Deal {#european-green-deal}
 
@@ -356,13 +338,13 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 
--   “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.” (United Nations Environment Programme (UNEP) (2021))
+-   United Nations Environment Programme (UNEP) (2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
 
--   2022 Emissions Gap report (United Nations Environment Programme (2022))
+-   United Nations Environment Programme (2022) 2022 Emissions Gap report.
 
 ### Biodiversity {#biodiversity}
 
--   “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.” (UEBT (2022))
+-   UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
 -   United Nations Convention on Biodiversity
 
 ### Country Contributions {#country-contributions}
@@ -400,7 +382,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   https://news.stanford.edu/2021/06/07/professors-explain-social-cost-carbon/
 
--   “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” (Kornek et al. (2021); Zhen et al. (2018)) with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
+-   Kornek et al. (2021) and Zhen et al. (2018) suggest “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
 
 -   Stern (2022) reports carbon-neutral economy needs higher CO2 prices.
 
@@ -419,11 +401,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 ### Ecosystem Services {#ecosystem-services}
 
 -   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation. In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
-
 -   Han & Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
-
 -   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
 
 ### Regeneration {#regeneration}
@@ -445,9 +423,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 ### Air Pollution {#air-pollution}
 
 -   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
-
 -   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
 
 **Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
@@ -755,7 +730,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Speculative design
 -   Use imagination
