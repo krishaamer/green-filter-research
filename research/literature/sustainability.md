@@ -7,11 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`
-<!-- -->
-`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
@@ -19,6 +14,13 @@ import FlightEmissions from '../images/flight-emissions.png'
 ```
 
 # Design for Sustainability {#design-for-sustainability}
+
+***Designing for Sustainability*** encompasses all human activities, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+
+-   IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
+-   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
+-   Growing public understanding of how nature works and intersects with our use of money.
+-   The EU Copernicus satellite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
 
 AI can help us make sense of the vast amounts of sustainability data generated daily.
 
@@ -38,7 +40,9 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Rose (2015) has a similar idea, where “Enchanted Objects” become so interlinked with us, we’re unlikely to throw them away.
 
-## Oracles {#oracles}
+## Oracles for Sustainability Data {#oracles-for-sustainability-data}
+
+A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, waste, etc.
 
 -   https://ethereum.org/en/developers/docs/oracles/
 
@@ -68,14 +72,6 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Bailey & Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 
-## Carbon Labeling {#carbon-labeling}
-
--   Cohen & Vandenbergh (2012)
-
-## Oracles for Sustainability Data {#oracles-for-sustainability-data}
-
-A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, waste, etc.
-
 ## Climate Anxiety {#climate-anxiety}
 
 Design to reduce climate anxiety
@@ -100,7 +96,7 @@ Design to reduce climate anxiety
 
 -   https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
 
-## Ecodesign for sustainable products {#ecodesign-for-sustainable-products}
+## Ecodesign for Sustainable Products {#ecodesign-for-sustainable-products}
 
 -   Finding green products and supporting companies making them
 -   Supporting legislative changes
@@ -172,26 +168,19 @@ Moberg et al. (2019) reports daily human activities emission contribution on ave
 | 34%            | Mobility |
 | 15%            | Other    |
 
-## Design for Sustainability {#design-for-sustainability-1}
-
-***Designing for Sustainability*** encompasses all human activities, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
-
--   IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
--   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
--   Growing public understanding of how nature works and intersects with our use of money.
--   The EU Copernicus satellite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
-
 ### Clean Water {#clean-water}
 
 -   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
 
 ### Clean Air {#clean-air}
 
+-   How to achieve it?
+
 ### Housing {#housing}
 
 -   Debnath et al. (2022)
 
-### Carbon Labeling {#carbon-labeling-1}
+### Carbon Labeling {#carbon-labeling}
 
 Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products (Brian Kateman (2020)). Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)). The Carbon Trust reports it’s certified 27 thousand product footprints (The Carbon Trust (n.d.)).
 
@@ -206,6 +195,8 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 -   American Press Institute (2022) finds that only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues.
 
 -   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
+
+-   Cohen & Vandenbergh (2012)
 
 ### Population {#population}
 
@@ -236,12 +227,6 @@ There’s evidence from several countries suggesting moving to renewal energy br
 -   Europe rapidly losing its forest carbon sink: https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
 
 -   Burning of biomass undermines carbon capture.
-
-## History {#history}
-
--   Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simply.earth/?utm_term=FatherOfClimatology
-
--   https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
 ## Sustainability {#sustainability}
 
@@ -354,7 +339,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   lack of transparency
 -   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 
-### Design for Sustainability {#design-for-sustainability-2}
+### Design for Sustainability {#design-for-sustainability-1}
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
@@ -409,7 +394,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   https://www.regen.network/
 -   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/?fbclid=IwAR3DiYoaCCobb8a0IvYxdzszV6i2QIUMeuqvIidWVkrbX01Nyd7tq-Sq7bI
 -   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
--   https://medium.com/regen-network/intersecting-carbon-markets-and-web3-for-regenerative-change-5a3a24108503?source=collection_home—4——0———————–
 -   https://www.klimadao.finance/
 -   https://rss.com/podcasts/potk/367282/
 -   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
@@ -564,7 +548,7 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   Psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
 
--   POAPs: https://cryptobriefing.com/what-are-poaps-and-why-should-you-collect-them/#:~:text=POAP%20(pronounced%20poh%2Dap),to%20be%20at%20the%20event.
+-   POAPs:
 
 ### Group Purchases {#group-purchases}
 
@@ -614,7 +598,7 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   Ruiz-Pastor et al. (2022)
 
--   Miyoshi et al. (2022)
+-   Miyoshi et al. (2022) takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
 
 Again, AI has the potential to provide the parameters for sustainability.
 
@@ -627,15 +611,19 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 ### Social Objects {#social-objects}
 
--   I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c and how the design can connect people to sustainable outcomes while shopping and investing. Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
+-   I’m interested in the concept of a “social object” https://medium.com/we-research-and-expriment-with-how-the-sharing/what-is-a-social-object-8dd52df0f15c
 
--   What percent of all design is “sustainable design” ? Promoting sustainable design
+-   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
 
-## Data Visualisation {#data-visualisation}
+-   What percent of all design is “sustainable design” ? Promoting sustainable design.
+
+## Data Visualisation History {#data-visualisation-history}
 
 -   Brohan et al. (2012) reports global temperature measurement starts from the 1880s where we have the first records from ships.
 -   Industrial revolution
--   Data Data Visualisation has a Long history, starting with Alexander von Humboldt.
+-   Data Data Visualisation has a Long history, starting with Alexander von Humboldt, who revolutionized cartography by inventing the first isothermal maps around 1938, showing areas with similar temperature, variations in altitude and seasons.
+-   Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simply.earth/?utm_term=FatherOfClimatology
+-   https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
 ``` mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -730,11 +718,12 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother naturing” “design is a practice of letting go of all that is unneccesary” “nature should be our single client”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Speculative design
+
 -   Use imagination
+
 -   Societal movements change things: implication for design: build a community
+
 -   Processes sustain things: implication for design: built an app
 
 ### Experience Design {#experience-design}

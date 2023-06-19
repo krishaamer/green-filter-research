@@ -17,7 +17,7 @@ import Boundaries from "./images/boundaries.png";
 
 # Introduction {#introduction}
 
-Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation’s models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume (Ellen MacArthur Foundation, Material Economics (2019)). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Oboarding more people for sustainabile practicies is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
+Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation, Material Economics (2019) models show 45% of CO2e emissions come from our daily shopping, produced by companies that make the products we consume. While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Oboarding more people for sustainabile practicies is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 
 Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
 
