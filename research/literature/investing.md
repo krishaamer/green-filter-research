@@ -7,14 +7,8 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`
-<!-- -->
-`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
-import Strava from '../images/strava.png'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 import ResQClub from '../images/resq-club.png'
@@ -30,7 +24,7 @@ import ResQClub from '../images/resq-club.png'
 -   Fuentes et al. (2019) discusses package free shopping.
 -   van der Wal et al. (2016) discusses “status motives make people publicly display sustainable behavior”.
 
-### Food {#food}
+### Food Waste {#food-waste}
 
 -   Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
 
@@ -51,7 +45,7 @@ import ResQClub from '../images/resq-club.png'
 -   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
 | Perspective                         | Content                                                                               |
-|-----------------------|-------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
 | *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
 | *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
@@ -96,6 +90,10 @@ import ResQClub from '../images/resq-club.png'
 -   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing ecodesign “respects the boundaries of our planet” European Commission (2022)
 
 -   Sashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
+
+-   https://renoon.com/ Ethical Shopping
+
+-   https://eu.sheepinc.com/?v=1666529932643
 
 -   Sustainable fashion company evaluations: https://goodonyou.eco/
 
@@ -147,12 +145,6 @@ import ResQClub from '../images/resq-club.png'
 -   https://infinitedfiber.com/ https://www.cleantech.com/the-global-cleantech-100/
 -   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
 
-#### Sustainable Fashion {#sustainable-fashion}
-
--   https://renoon.com/ Ethical Shopping
-
--   https://eu.sheepinc.com/?v=1666529932643
-
 ### Consumerism {#consumerism}
 
 -   Sustainable Consumerism via Self-Regulation. 2M eur project for the shopping app
@@ -175,10 +167,6 @@ import ResQClub from '../images/resq-club.png'
 -   “Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design”
 -   Cradle to Cradle Nordic circular design https://www.instagram.com/p/CWC6KG7sXBJ/ https://www.accupass.com/event/2110290805421017463345
 -   https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why
-
-### Group Purchases {#group-purchases}
-
--   Buying in bulk for more savings.
 
 ### ESG Shopping {#esg-shopping}
 
@@ -250,11 +238,6 @@ import ResQClub from '../images/resq-club.png'
 
 -   https://www.sulapac.com/
 
-### Design for Circularity {#design-for-circularity}
-
--   McDonough & Braungart (2002)
--   Dull (2021)
-
 ### Database {#database}
 
 -   Most sustainable companies. Make a database?
@@ -306,15 +289,6 @@ import ResQClub from '../images/resq-club.png'
 -   wikipedia /
 -   Trash found in ocean / nature etc — Help you to decide: what to buy, how to save, where to invest, — Increase your investment point by matching with your contribution /.
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
-
-### Overconsumption {#overconsumption}
-
--   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc
--   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
--   https://www.wri.org/insights/how-build-circular-economy
--   “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
--   “The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.” (Ivanova et al. (2020))
--   “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.” (Ivanova et al. (2020))
 
 ### Product Databases {#product-databases}
 
@@ -398,7 +372,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   BlackRock (n.d.) notes some ESG-oriented hedge funds can be “highly engaged with management teams” in order to influence managment towards ESG practices in said companies .
 -   https://www.cib.barclays/our-insights/3-point-perspective/esg-gains-traction-among-hedge-fund-investors.html
 
-### Savings in CO2e emissions {#savings-in-co2e-emissions}
+### Savings in CO2 Equivalent Emissions {#savings-in-co2-equivalent-emissions}
 
 -   CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
 
@@ -427,7 +401,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   Sites like simplywallstreet provide in-depth analysis: https://simplywall.st/ also same for crypto
 -   Snowflake analysis like simplywallstreet
 
-### Savings lottery {#savings-lottery}
+### Savings Lottery {#savings-lottery}
 
 -   https://www.youtube.com/watch?v=-QjnvmCQdoE
 
@@ -469,42 +443,6 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 -   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
 
 -   What if we gave consumers the tools to keep companies accountable?
-
-### Sustainability Superapp {#sustainability-superapp}
-
--   How to design superapps? Lots of options in a single app.
-
--   https://sifted.eu/articles/europe-superapp-revolut-klarna/
-
--   WeChat
-
--   Adaptive AI
-
--   Vecchi & Brennan (2022) China is the home of many superapps and this paper discusses the strategies taken to expand to other markets.
-
--   Shabrina Nurqamarani et al. (2020) discusses the system consistency and quality of South–East Asian superapps Gojek and Grab.
-
--   Zeng (2015) **(need to pay for article!)**
-
--   Huang & Miao (2021) **(need to pay for article!)**
-
--   Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
-
--   Giudice (2020) MA thesis’s argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country.
-
--   https://www.youtube.com/watch?v=R2BHzbBc5kM
-
--   https://www.techrepublic.com/article/gartner-top-trends-list/
-
--   https://www.fintechfutures.com/2021/12/the-rise-of-carbon-centric-super-apps/
-
--   https://www.gartner.com/en/articles/what-is-a-superapp
-
--   https://www.smartcitiesworld.net/news/news/partnership-brings-sustainability-mobility-into-superapps-7903
-
--   https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1
-
--   https://sifted.eu/articles/paypal-tops-european-downloads/
 
 ### Indexes {#indexes}
 
@@ -567,28 +505,43 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   Investing is a fundamentally hopeful act. It means I think there’s a future. Specifically, ‘green investing’ is investing in the future of our planet - but can we trust the sustainability practices the ‘green’ investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as ‘green’ energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a ‘green investor’ might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   **Feature**: Help me write me investment thesis first.
+
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
+
 -   Gov launching ESG funds. Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus.
+
 -   Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants’ engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure?
+
 -   Where to invest for green impact?
+
 -   Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors?
+
 -   Currently, there is no easy way to do it, and the UX of traditional banks is too cumbersome and old-fashioned.
+
 -   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud
+
 -   Information evavõrdsus between pro and novice investors
+
 -   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
+
 -   https://www.seinsights.asia/article/3289/3269/8509
+
 -   Implication for design: ESG can’t trusted.
+
 -   Investor protection, making investing accessible, climate risk disclosure https://twitter.com/GaryGensler/status/1484511107117203460
+
 -   Defi https://letsdodefi.com/ - Staking https://app.aave.com/#/deposit — Trading esg futures?? because climate is slow it makes sense to trade de climate future - While ESG is riddled with problems, it has sstarted a common language and there are many ways how to improve it — UK simple investing app Ziglu https://www.ziglu.io/
+
 -   ***Swedish green fintech (important article)*** **- https://sifted.eu/articles/sweden-green-sustainable-fintech/**
+
 -   Business footprint https://www.mynewsdesk.com/doconomy/pressreleases/doconomy-announces-largest-ever-climate-fintech-investment-round-in-europe-adds-\$17million-to-further-accelerate-expansion-3130198
+
 -   Estonian investing app https://golightyear.com/eu
+
 -   Margaryta Kirakosian & Angus Foote (2022) suggests “Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy.”
 
-## Contactless payments {#contactless-payments}
+## Contactless Payments {#contactless-payments}
 
 -   https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
 
@@ -665,6 +618,8 @@ People are concerned with digital payments
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto https://www.cnbc.com/video/2021/11/24/macro-story-has-changed-on-crypto-galaxy-digitals-mike-novogratz.html
 
 ### Sustainability Linked Bonds {#sustainability-linked-bonds}
+
+-   What this?
 
 ### Neobanks and ESG {#neobanks-and-esg}
 
@@ -890,22 +845,6 @@ People are concerned with digital payments
 
 -   Could investing as a pathway from a loyalty scheme strengthen the feeling of connection with the business even further? After all, I’m now a minority owner! What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?
 
-### Chatbots, AI Assistants and Robo-Advisors {#chatbots-ai-assistants-and-robo-advisors}
-
--   The user experience (UX) of artificial intelligence (AI) is a topic under active development by all the largest online platforms. The general public is familiar with the most famous virtual helpers, Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others for general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations. Already on the market are several financial robo-advisors, built by fintech companies, aiming to provide personalized suggestions for making investments (Betterment, Wealthfront).
-
--   There have also been plenty of attempts to create different types of sustainability assistants. For instance, to encourage behavioral changes, the AI assistant Sebastian developed at the Danish hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged by a chatbot buddy to help the human maintain an aspirational lifestyle (Unleash (2017)). Also, personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects, for example, Zhang’s Personal Carbon Economy conceptualizing the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one’s carbon permits (Zhang (2018)).
-
--   While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer, when sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products. Moreover, such personal sustainability projects haven’t so far achieved mainstream success or widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
-
--   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot), however
-
--   Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes. Therefore, to reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it’s important to focus on making users feel in control of the technology (Holbrook, 2018).
-
-``` mdx-code-block
-<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
-```
-
 ## Summary {#summary}
 
 -   “Investors want to know where their money is going”, says Heike Reichelt, Head of Investor Relations at World Bank. (“10 Years of Green Bonds” (2019)) and this applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?
@@ -948,8 +887,6 @@ Cowan, G. (2018). Robo Advisers Start to Take Hold in Europe. *Wall Street Journ
 
 Doorn, P. van. (2020). 5 stocks that should thrive as the digital payments trend ramps up. In *MarketWatch*. https://www.marketwatch.com/story/5-stocks-that-should-thrive-as-this-digital-trend-ramps-up-2020-07-30.
 
-Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
-
 Echeverría, L., Gimenez-Nadal, J. I., & Molina, J. A. (2022). Green mobility and well-being. *Ecological Economics*, *195*, 107368. <https://doi.org/10.1016/j.ecolecon.2022.107368>
 
 Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
@@ -976,8 +913,6 @@ Frances Schwartzkopff. (2022). EU Explores Tighter Rules for ESG Funds Amid Gree
 
 Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
 
-Giudice, F. (2020). *WeChat: The impact of the super app on Chinese society.*
-
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
 Green Finance Platform. (2020). Green Fintech Trends for 2020 What’s to Come? In *Green Finance Platform*. https://greenfinanceplatform.org/news/green-fintech-trends-2020-%E2%80%93-what%E2%80%99s-come.
@@ -989,10 +924,6 @@ Ho, S. (2019). Asian Investors Are Increasingly Looking To Do Good But ’Impact
 Hoikkala, H. (2019). H&M CEO Sees “Terrible” Fallout as Consumer Shaming Spreads \[Newspaper\]. In *Bloomberg*. https://www.bloomberg.com/news/articles/2019-10-27/h-m-ceo-sees-terrible-fallout-as-consumer-shaming-spreads.
 
 House of Commons. (2002). *Environmental Audit - Second Report*. https://publications.parliament.uk/pa/cm200102/cmselect/cmenvaud/363/363a17.htm.
-
-Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disruptive: Evidence from China’s “super app” WeChat. *Mobile Media & Communication*, *9*(2), 177–194. <https://doi.org/10.1177/2050157920940765>
-
-Ivanova, D., Barrett, J., Wiedenhofer, D., Macura, B., Callaghan, M., & Creutzig, F. (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, *15*(9), 093001. <https://doi.org/10.1088/1748-9326/ab8589>
 
 Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
@@ -1032,8 +963,6 @@ Malliaris, M., & Salchenberger, L. (1996). Using neural networks to forecast the
 
 Margaryta Kirakosian, & Angus Foote. (2022). *“Methodologies are all over the place”: Banks name sectors lacking ESG funds*. https://citywire.com/selector/news/methodologies-are-all-over-the-place-banks-name-sectors-lacking-esg-funds/a2399377?refea=1694078.
 
-McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
-
 McKeough, T. (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. In *Architectural Digest*. https://www.architecturaldigest.com/story/mckinsey-design-consulting-group-confirms-the-importance-of-design-to-business.
 
 McKinsey. (2020). *The next frontier in Asia payments*. https://www.mckinsey.com/industries/financial-services/our-insights/the-next-frontier-in-asia-payments.
@@ -1052,13 +981,9 @@ PWC. (2020). 2022 - The growth opportunity of the century. In *PwC*. https://www
 
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
-Roa, L., Correa-Bahnsen, A., Suarez, G., Cortés-Tejada, F., Luque, M. A., & Bravo, C. (2021). Super-app behavioral patterns in credit risk models: Financial, statistical and regulatory implications. *Expert Systems with Applications*, *169*, 114486. <https://doi.org/10.1016/j.eswa.2020.114486>
-
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
 
 Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
-
-Shabrina Nurqamarani, A., Robin Jonathan, L., NH Gaffar, E., & Indrawati, A. (2020). THE EFFECTS OF MOBILE SERVICE QUALITIES ON CUSTOMER REUSE INTENTION OF GOJEK SUPER APP. *HSSR*, *8*(4), 1134–1146. <https://doi.org/10.18510/hssr.2020.84108>
 
 Shashwat Mohanty. (2022). Green push or greenwash: Sustainable funds don’t buy Zomato’s ESG narrative. In *The Ken*. https://the-ken.com/story/green-push-or-greenwash-sustainable-funds-dont-buy-zomatos-esg-narrative/?utm_source=daily_story&utm_medium=email&utm_campaign=daily_newsletter.
 
@@ -1070,9 +995,6 @@ Springmann, M., Clark, M. A., Rayner, M., Scarborough, P., & Webb, P. (2021). Th
 
 *StandardsMap*. (n.d.). https://standardsmap.org/en/home.
 
-Suarez, G., Raful, J., Luque, M. A., Valencia, C. F., & Correa-Bahnsen, A. (2021). *Enhancing User’ s Income Estimation with Super-App Alternative Data*. <https://doi.org/10.48550/ARXIV.2104.05831>
-<span class="csl-block">Other5 pages, 2 figures</span>
-
 Swedbank. (n.d.). *EasySaver*.
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
@@ -1083,13 +1005,9 @@ Tommy Tindall. (2023). Financial Actions Speak Louder Than Goals. In *NerdWallet
 
 Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority Publishing.
 
-Unleash. (2017). Sebastian.ai. In *UNLEASH*.
-
 US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 
 van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
-
-Vecchi, A., & Brennan, L. (2022). Two tales of internationalization Chinese internet firms’ expansion into the European market. *Journal of Business Research*, *152*, 106–127. <https://doi.org/10.1016/j.jbusres.2022.07.024>
 
 Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
 
@@ -1098,9 +1016,5 @@ Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey ev
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 
 *Yale, Princeton, Stanford, MIT and Vanderbilt students take legal action to try to force fossil fuel divestment - The Washington Post*. (n.d.). https://www.washingtonpost.com/education/2022/02/16/college-fossil-fuel-divest-legal-action/.
-
-Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
-
-Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.
 
 Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>

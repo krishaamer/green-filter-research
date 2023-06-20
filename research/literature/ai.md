@@ -21,6 +21,7 @@ export const quartoRawHtml =
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
+import Strava from '../images/strava.png'
 import Replika from '../images/with-me.png'
 ```
 
@@ -82,7 +83,7 @@ Turing’s test proposed a game of imitation: can the AI imitate a human so well
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №       | Asimov’s Laws of Robotics                                                                                           |
-|---------------|---------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
@@ -97,7 +98,7 @@ How to responsibly deploy AI for people around the world?
 
 -   Since 2020, when OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB of text as reported in Alex Tamkin & Deep Ganguli (2021). It’s become possible to make AI-generated content that’s difficult to distinguish from human expression, however it’s still not passing the Turing test.
 
--   Zhang et al. (2023) found humans are more likely to trust an AI teammate if they are not deceived by it’s identity. It’s better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems.
+-   G. Zhang et al. (2023) found humans are more likely to trust an AI teammate if they are not deceived by it’s identity. It’s better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems.
 
 -   While current AIs are largely *‘black boxes’*, which do not explain how they reach a certain expression Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions.
 
@@ -480,6 +481,24 @@ Nubanks, also known as challenger banks.
 -   https://www.researcher-app.com/paper/6684106
 -   http://www.josephineheintzwaktare.com/cleo
 
+### Chatbots, AI Assistants and Robo-Advisors {#chatbots-ai-assistants-and-robo-advisors}
+
+-   The user experience (UX) of artificial intelligence (AI) is a topic under active development by all the largest online platforms. The general public is familiar with the most famous virtual helpers, Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others for general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations. Already on the market are several financial robo-advisors, built by fintech companies, aiming to provide personalized suggestions for making investments (Betterment, Wealthfront).
+
+-   There have also been plenty of attempts to create different types of sustainability assistants. For instance, to encourage behavioral changes, the AI assistant Sebastian developed at the Danish hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged by a chatbot buddy to help the human maintain an aspirational lifestyle (Unleash (2017)). Also, personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects, for example, Zhang’s Personal Carbon Economy conceptualizing the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one’s carbon permits (S. Zhang (2018)).
+
+-   While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer, when sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products. Moreover, such personal sustainability projects haven’t so far achieved mainstream success or widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
+
+-   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot), however
+
+-   Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes. Therefore, to reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it’s important to focus on making users feel in control of the technology (Holbrook, 2018).
+
+``` mdx-code-block
+<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
+```
+
+##  {#section}
+
 ## AI Health {#ai-health}
 
 -   https://twitter.com/larkhealth?lang=en
@@ -721,6 +740,8 @@ Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfa
 
 Turing, A. M. (1950). I. *Mind*, *LIX*(236), 433–460. <https://doi.org/10.1093/mind/LIX.236.433>
 
+Unleash. (2017). Sebastian.ai. In *UNLEASH*.
+
 van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. *AI Ethics*, *1*(3), 213–218. <https://doi.org/10.1007/s43681-021-00043-6>
 
 Veitch, E., & Andreas Alsos, O. (2022). A systematic review of human-AI interaction in autonomous ship systems. *Safety Science*, *152*, 105778. <https://doi.org/10.1016/j.ssci.2022.105778>
@@ -740,3 +761,5 @@ Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVI
 Zerilli, J., Bhatt, U., & Weller, A. (2022). How transparency modulates trust in artificial intelligence. *Patterns*, *3*(4), 100455. <https://doi.org/10.1016/j.patter.2022.100455>
 
 Zhang, G., Chong, L., Kotovsky, K., & Cagan, J. (2023). Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation. *Computers in Human Behavior*, *139*, 107536. <https://doi.org/10.1016/j.chb.2022.107536>
+
+Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.

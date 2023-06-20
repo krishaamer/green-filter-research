@@ -36,6 +36,10 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
+### Group Purchases {#group-purchases}
+
+-   Buying in bulk for more savings.
+
 ### Designing for Health and Sustainability {#designing-for-health-and-sustainability}
 
 -   Health and sustainability are intrinsically connected. Kjrgård et al. (2014) shows how *“By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health.”*
@@ -182,7 +186,7 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   POAPs:
 
-### Group Purchases {#group-purchases}
+### Group Purchases {#group-purchases-1}
 
 -   Through group purchases and community investing while also reducing consumption.
 
@@ -213,6 +217,11 @@ Create a design system!!!! best to showcase my analytic skills
 -   Societal movements change things: implication for design: build a community
 
 -   Processes sustain things: implication for design: built an app
+
+### Design for Circularity {#design-for-circularity}
+
+-   McDonough & Braungart (2002)
+-   Dull (2021)
 
 ### Eco-Design {#eco-design}
 
@@ -336,7 +345,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   Barendregt & Vaage (2021) explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
 -   Google Design (2019)
--   all green categories — Green hub — Ask the user to prioritize
+-   All green categories — Green hub — Ask the user to prioritize
 
 ### Experience Design {#experience-design}
 
@@ -411,6 +420,42 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   What percent of all design is “sustainable design” ? Promoting sustainable design.
 
+### Sustainability Superapp {#sustainability-superapp}
+
+-   How to design superapps? Lots of options in a single app.
+
+-   https://sifted.eu/articles/europe-superapp-revolut-klarna/
+
+-   WeChat
+
+-   Adaptive AI
+
+-   Vecchi & Brennan (2022) China is the home of many superapps and this paper discusses the strategies taken to expand to other markets.
+
+-   Shabrina Nurqamarani et al. (2020) discusses the system consistency and quality of South–East Asian superapps Gojek and Grab.
+
+-   Zeng (2015) **(need to pay for article!)**
+
+-   Huang & Miao (2021) **(need to pay for article!)**
+
+-   Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
+
+-   Giudice (2020) MA thesis’s argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country.
+
+-   https://www.youtube.com/watch?v=R2BHzbBc5kM
+
+-   https://www.techrepublic.com/article/gartner-top-trends-list/
+
+-   https://www.fintechfutures.com/2021/12/the-rise-of-carbon-centric-super-apps/
+
+-   https://www.gartner.com/en/articles/what-is-a-superapp
+
+-   https://www.smartcitiesworld.net/news/news/partnership-brings-sustainability-mobility-into-superapps-7903
+
+-   https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1
+
+-   https://sifted.eu/articles/paypal-tops-european-downloads/
+
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
@@ -455,6 +500,8 @@ de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M
 
 Delclòs-Alió, X., Rodríguez, D. A., Medina, C., Miranda, J. J., Avila-Palencia, I., Targa, F., Moran, M. R., Sarmiento, O. L., & Quistberg, D. A. (2022). Walking for transportation in large Latin American cities: Walking-only trips and total walking events and their sociodemographic correlates. *Transport Reviews*, *42*(3), 296–317. <https://doi.org/10.1080/01441647.2021.1966552>
 
+Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
+
 Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and social dreaming*. The MIT Press.
 <span class="csl-block">Beyond radical design? – A map of unreality – Design as critique – Consuming monsters: big, perfect, infectious – A methodological playground: fictional worlds and thought experiments – Physical fictions: invitations to make believe – Aesthetics of unreality – Between reality and the impossible – Speculative everything</span>
 
@@ -475,6 +522,8 @@ Forlano, L. (2017). Posthumanism and Design. *She Ji: The Journal of Design, Eco
 
 Giannakos, M. N., Sharma, K., Papavlasopoulou, S., Pappas, I. O., & Kostakos, V. (2020). Fitbit for learning: Towards capturing the learning experience using wearable sensing. *International Journal of Human-Computer Studies*, *136*, 102384. <https://doi.org/10.1016/j.ijhcs.2019.102384>
 
+Giudice, F. (2020). *WeChat: The impact of the super app on Chinese society.*
+
 Godfrey, A., Hetherington, V., Shum, H., Bonato, P., Lovell, N. H., & Stuart, S. (2018). From A to Z: Wearable technology explained. *Maturitas*, *113*, 40–47. <https://doi.org/10.1016/j.maturitas.2018.04.012>
 
 Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
@@ -486,6 +535,8 @@ Grigsby-Toussaint, D. S., Shin, J. C., Reeves, D. M., Beattie, A., Auguste, E., 
 Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online shopping Attraction effect curbs price sensitivity. *Journal of Environmental Psychology*, *81*, 101821. <https://doi.org/10.1016/j.jenvp.2022.101821>
 
 Gupta, B. B., Gaurav, A., Panigrahi, P. K., & Arya, V. (2023). Analysis of artificial intelligence-based technologies and approaches on sustainable entrepreneurship. *Technological Forecasting and Social Change*, *186*, 122152. <https://doi.org/10.1016/j.techfore.2022.122152>
+
+Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disruptive: Evidence from China’s “super app” WeChat. *Mobile Media & Communication*, *9*(2), 177–194. <https://doi.org/10.1177/2050157920940765>
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
 
@@ -507,6 +558,8 @@ Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Com
 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
+McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
 Millings, A., Morris, J., Rowe, A., Easton, S., Martin, J. K., Majoe, D., & Mohr, C. (2015). Can the effectiveness of an online stress management program be augmented by wearable sensor technology? *Internet Interventions*, *2*(3), 330–339. <https://doi.org/10.1016/j.invent.2015.04.005>
 
 Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
@@ -520,6 +573,8 @@ Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *Inter
 
 Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L., Maier, H. R., Schlink, U., Steinle, S., Vieno, M., & Wimberly, M. C. (2015). Integrating modelling and smart sensors for environmental and human health. *Environmental Modelling & Software*, *74*, 238–246. <https://doi.org/10.1016/j.envsoft.2015.06.003>
 
+Roa, L., Correa-Bahnsen, A., Suarez, G., Cortés-Tejada, F., Luque, M. A., & Bravo, C. (2021). Super-app behavioral patterns in credit risk models: Financial, statistical and regulatory implications. *Expert Systems with Applications*, *169*, 114486. <https://doi.org/10.1016/j.eswa.2020.114486>
+
 Rose, D. (2015). *Enchanted objects: Innovation, design, and the future of technology* (1. Scribner trade paperback ed).
 
 Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental sustainability: Collect and use company information to design green products. *Procedia CIRP*, *105*, 823–828. <https://doi.org/10.1016/j.procir.2022.02.136>
@@ -531,9 +586,14 @@ Ryan, M. (2022). The ethics of dietary apps: Technology, health, and the capabil
 
 Saubade, M., Karatzios, C., Besson, C., Farasse, A.-C., Charles, B., & Gremion, G. (2016). Promoting physical activity: What do we have available to motivate our patients? *Annals of Physical and Rehabilitation Medicine*, *59*, e54–e55. <https://doi.org/10.1016/j.rehab.2016.07.125>
 
+Shabrina Nurqamarani, A., Robin Jonathan, L., NH Gaffar, E., & Indrawati, A. (2020). THE EFFECTS OF MOBILE SERVICE QUALITIES ON CUSTOMER REUSE INTENTION OF GOJEK SUPER APP. *HSSR*, *8*(4), 1134–1146. <https://doi.org/10.18510/hssr.2020.84108>
+
 Shin, G., Jarrahi, M. H., Fei, Y., Karami, A., Gafinowitz, N., Byun, A., & Lu, X. (2019). Wearable activity trackers, accuracy, adoption, acceptance and health impact: A systematic literature review. *Journal of Biomedical Informatics*, *93*, 103153. <https://doi.org/10.1016/j.jbi.2019.103153>
 
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
+
+Suarez, G., Raful, J., Luque, M. A., Valencia, C. F., & Correa-Bahnsen, A. (2021). *Enhancing User’ s Income Estimation with Super-App Alternative Data*. <https://doi.org/10.48550/ARXIV.2104.05831>
+<span class="csl-block">Other5 pages, 2 figures</span>
 
 Sustainability starts in the design process, and AI can help. (n.d.). In *MIT Technology Review*. https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/.
 
@@ -551,8 +611,12 @@ UNFCCC Conference of the Parties serving as the meeting of the Parties to the Pa
 
 Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular economy. In A. Stefanakis & I. Nikolaou (Eds.), *Circular economy and sustainability* (pp. 189–205). Elsevier. <https://doi.org/10.1016/B978-0-12-819817-9.00018-1>
 
+Vecchi, A., & Brennan, L. (2022). Two tales of internationalization Chinese internet firms’ expansion into the European market. *Journal of Business Research*, *152*, 106–127. <https://doi.org/10.1016/j.jbusres.2022.07.024>
+
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
 
 Why tracing seafood from sea to plate is the next frontier in sustainability \| Stories \| WWF. (n.d.). In *World Wildlife Fund*. https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability.
 
 Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
+
+Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
