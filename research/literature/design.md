@@ -397,8 +397,8 @@ There’s a number of user interface design patterns that have provide successfu
 -   Eriksson et al. (2023) discusses best practices for reducing food waste in Sweden.
 -   Acuti et al. (2023) makes the point that physical proximity to a drop-off point helps people participate in sustainability.
 -   A small study (n = 33) Perez-Cueto (2021) in the Future Consumer Lab in Copenhagen found that designing a “dish-of-the-day” which was prominently displayed helped to increase vegetarian food choice by 85%.
--   Guath et al. (2022)
--   Berger et al. (2022)
+-   Guath et al. (2022) experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options.
+-   Berger et al. (2022) **(Need access!)**
 -   Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
 ``` mdx-code-block
@@ -478,6 +478,12 @@ There’s a number of user interface design patterns that have provide successfu
 -   https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en&gl=US&pli=1
 
 -   https://sifted.eu/articles/paypal-tops-european-downloads/
+
+## Summary {#summary}
+
+TODO design summary.
+
+# References {#references .unnumbered}
 
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
