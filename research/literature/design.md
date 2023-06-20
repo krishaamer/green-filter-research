@@ -381,14 +381,32 @@ There’s a number of user interface design patterns that have provide successfu
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
--   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples: - Eriksson et al. (2023) - Acuti et al. (2023) - Perez-Cueto (2021) - Wee et al. (2021) - Guath et al. (2022) - Berger et al. (2022)
+-   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples:
+-   Wee et al. (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
+
+| Name              | Technique                                                                                 |
+|---------------|---------------------------------------------------------|
+| Prompting         | Create cues and reminders to perform a certain behavior                                   |
+| Sizing            | Decrease or increase the size of items or portions                                        |
+| Proximity         | Change the physical (or temporal) distance of options                                     |
+| Presentation      | Change the way items are displayed                                                        |
+| Priming           | Expose users to certain stimuli before decision-making                                    |
+| Labelling         | Provide labels to influence choice (for example CO2 footprint labels)                     |
+| Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
+
+-   Eriksson et al. (2023) discusses best practices for reducing food waste in Sweden.
+-   Acuti et al. (2023) makes the point that physical proximity to a drop-off point helps people participate in sustainability.
+-   A small study (n = 33) Perez-Cueto (2021) in the Future Consumer Lab in Copenhagen found that designing a “dish-of-the-day” which was prominently displayed helped to increase vegetarian food choice by 85%.
+-   Guath et al. (2022)
+-   Berger et al. (2022)
 -   Google and X have offered the “Green Filter” on Maps, Flights, etc. What if there was a “Green Filter” on every product everywhere?
 
 ``` mdx-code-block
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
 ```
 
--   One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonization*, defined as “Maximising the enabling role of digital technologies by accelerating already available digital solutions” (Implement Consulting Group (2022)). Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe” (Kate Brandt & Matt Brittin (2022)).
+-   One example of *nudge* are the small UI updates released by Google across its portfolio of products: Google Flights and Google maps. Google’s research introduces the concept of *digital decarbonization*, which Implement Consulting Group (2022) defines as “Maximising the enabling role of digital technologies by accelerating already available digital solutions”.
+-   In Kate Brandt & Matt Brittin (2022), Google’s Chief Sustainability Officer Kate Brandt suggests “Digital solutions play an important enabling role for at least 20-25% of the reductions required to achieve a net-zero economy in Europe”.
 
 | №   | Product        | Nudge                                |
 |-----|----------------|--------------------------------------|
