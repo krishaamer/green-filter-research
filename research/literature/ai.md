@@ -82,7 +82,7 @@ Turing’s test proposed a game of imitation: can the AI imitate a human so well
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №       | Asimov’s Laws of Robotics                                                                                           |
-|---------|---------------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
@@ -396,7 +396,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 -   Some have an avatar, some not. I’ve created a framework for categorization. Human-like or not… etc
 
 | №   | Name                    | Link                                               | Description          |
-|------------------|------------------|--------------------|------------------|
+|------------------|------------------|-------------------|------------------|
 | 1   | Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
 | 2   | Google Translate        | https://translate.google.com/                      |                      |
 | 3   | Google Search           | https://www.google.com/                            |                      |

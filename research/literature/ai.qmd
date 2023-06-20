@@ -70,7 +70,7 @@ Turing's test proposed a game of imitation: can the AI imitate a human so well t
 Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|------|----------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
@@ -281,9 +281,8 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   "How AI is changing 'interactions'"
 
-```{=html}
 <!-- -->
-```
+
 -   @stoneskipperHowAIChanging2022 sketches a vision of "\[AI\] blend into our lives in a form of apps and services".
 
 -   Dot Go makes the camera the interaction device: https://dot-go.app/
@@ -333,9 +332,8 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   Influencers are terrible for investing... but?
 
-```{=html}
 <!-- -->
-```
+
 -   Influencer - crypto twitter connections
 
 -   https://www.instagram.com/socol.io/?hl=en
@@ -364,9 +362,8 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 -   AI IXD is about human-centered seamless design
 
-```{=html}
 <!-- -->
-```
+
 -   Storytelling
 
 -   Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialised skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
@@ -386,7 +383,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 -   Some have an avatar, some not. I've created a framework for categorization. Human-like or not... etc
 
 | №   | Name                    | Link                                               | Description          |
-|------------------|------------------|--------------------|------------------|
+|------------------|------------------|-------------------|------------------|
 | 1   | Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
 | 2   | Google Translate        | https://translate.google.com/                      |                      |
 | 3   | Google Search           | https://www.google.com/                            |                      |
@@ -448,9 +445,8 @@ Nubanks, also known as challenger banks.
 
 -   AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. ux is what we do with this number
 
-```{=html}
 <!-- -->
-```
+
 -   natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
 
 -   state of ai https://docs.google.com/presentation/d/1bwJDRC777rAf00Drthi9yT2c9b0MabWO5ZlksfvFzx8/edit#slide=id.gf318ff6067_0\_26
