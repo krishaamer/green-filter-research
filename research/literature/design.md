@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+``` mdx-code-block
+import Figure from '/src/components/Figure'
+import FlightEmissions from '../images/flight-emissions.png'
+```
+
 # Design for Sustainability {#design-for-sustainability}
 
 ***Designing for Sustainability*** encompasses all human activities, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?

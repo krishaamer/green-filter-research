@@ -32,7 +32,7 @@ import ResQClub from '../images/resq-club.png'
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
 
--   Food saving apps https://www.facebook.com/groups/7573029179?multi_permalinks=10159917188164180&hoisted_section_header_type=recently_seen
+-   Food saving apps https://www.facebook.com/groups/7573029179
 
 ### Food Sustainability {#food-sustainability}
 

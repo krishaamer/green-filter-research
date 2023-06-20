@@ -30,7 +30,7 @@ import ResQClub from '../images/resq-club.png'
 ```{=mdx}
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
--   Food saving apps https://www.facebook.com/groups/7573029179?multi_permalinks=10159917188164180&hoisted_section_header_type=recently_seen
+-   Food saving apps https://www.facebook.com/groups/7573029179
 
 ### Food Sustainability
 
@@ -43,7 +43,7 @@ import ResQClub from '../images/resq-club.png'
 -   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
 | Perspective                         | Content                                                                               |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
 | *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
 | *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
