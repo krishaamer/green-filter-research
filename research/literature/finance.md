@@ -1,5 +1,5 @@
 ---
-title: Investing
+title: Finance
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
@@ -13,6 +13,18 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 import ResQClub from '../images/resq-club.png'
 ```
+
+## Governments and Legislation {#governments-and-legislation}
+
+-   PWC (2020) Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
+
+-   House of Commons (2002): Already in 2001, the UK government was discussing ways to promote sustainable investment “fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment”.
+
+-   European Parliament (2014) Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: “more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments”.
+
+-   Kenton (2020): Some key legislation for investors has been put in place recently, for example “MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors”. European Securities and Markets Authority (2017): “MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants”.
+
+-   Quinson (2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z) While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
 
 # Finance {#finance}
 
@@ -537,13 +549,6 @@ People are concerned with digital payments
 
 -   Priscila Azevedo Rocha et al. (2022) suggests “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
 
-### Countering Greenwashing {#countering-greenwashing}
-
--   US Securities and Exchange Commission (2022): In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if”green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission.
--   Frances Schwartzkopff (2022) suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
--   Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
--   Laws against greenwashing
-
 ## Community Investing {#community-investing}
 
 -   Build an investing community?
@@ -760,24 +765,6 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
 -   Hypothesis?
 
-### Governments and Legislation {#governments-and-legislation}
-
--   PWC (2020) Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption.
-
--   The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties.
-
--   On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies should feel incentivized by access to cheaper capital and larger investor demand from ESG-friendly investors.
-
--   House of Commons (2002): Already in 2001, the UK government was discussing ways to promote sustainable investment “fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment”, however systemic change is slow.
-
--   European Parliament (2014): The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: “more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments.” Directive 14 2014/65/EU, 2014.
-
--   Some key legislation for investors has been put in place recently, for example Kenton (2020): “MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors.”
-
--   1.  “MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants”.
-
--   While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets (Quinson, 2020), helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
-
 ### Banks, Fintech, and Payments {#banks-fintech-and-payments}
 
 -   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments. The European Central Bank describes fintech as improving the user experience across the board, making interactions more convenient, user-friendly, cheaper, and faster.
@@ -946,9 +933,9 @@ European Environment Agency. (2022). *Textiles and the environment: The role of 
 
 European Parliament. (2014). *Directive 2014/65/EU: Vols. OJ L* (No. 32014L0065).
 
-Fotheringham, N. (2017). *How To Create A Greener Investment Portfolio*. https://www.huffingtonpost.ca/nikki-fotheringham/green-investment-portfolio_b\_15779446.html.
+European Securities and Markets Authority. (2017). *MiFID II*. https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir.
 
-Frances Schwartzkopff. (2022). EU Explores Tighter Rules for ESG Funds Amid Greenwash Concerns. In *Bloomberg*. https://www.bloomberg.com/news/articles/2022-11-18/eu-explores-tighter-rules-for-esg-funds-amid-greenwash-concerns#xj4y7vzkg.
+Fotheringham, N. (2017). *How To Create A Greener Investment Portfolio*. https://www.huffingtonpost.ca/nikki-fotheringham/green-investment-portfolio_b\_15779446.html.
 
 Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
 
@@ -1018,6 +1005,8 @@ Priscila Azevedo Rocha, Akshat Rathi, & Todd Gillespie. (2022). Greenwashing Ent
 
 PWC. (2020). 2022 - The growth opportunity of the century. In *PwC*. https://www.pwc.lu/en/sustainable-finance/esg-report-the-growth-opportunity-of-the-century.html.
 
+Quinson, T. (2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z). Trump Plan to Block Green 401(k)s Stirs Fund Industry Fury. *Bloomberg*.
+
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
@@ -1043,8 +1032,6 @@ Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on sup
 Tommy Tindall. (2023). Financial Actions Speak Louder Than Goals. In *NerdWallet*.
 
 Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority Publishing.
-
-US Securities and Exchange Commission. (2022). Office Hours with Gary Gensler. In *Twitter*. https://twitter.com/GaryGensler/status/1498708322677149700.
 
 van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
 

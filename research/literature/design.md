@@ -433,7 +433,7 @@ There’s a number of user interface design patterns that have provide successfu
 -   Wee et al. (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |

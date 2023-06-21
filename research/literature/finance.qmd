@@ -1,5 +1,5 @@
 ---
-title: Investing
+title: Finance
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 2
@@ -13,6 +13,18 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 import ResQClub from '../images/resq-club.png'
 ```
+## Governments and Legislation
+
+-   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
+
+-   @houseofcommonsEnvironmentalAuditSecond2002: Already in 2001, the UK government was discussing ways to promote sustainable investment "fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment".
+
+-   @europeanparliamentDirective2014652014 Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: "more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments".
+
+-   @kentonMiFIDII2020: Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors". @europeansecuritiesandmarketsauthorityMiFIDII2017: "MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants".
+
+-   @quinsonTrumpPlanBlock2020 While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
+
 # Finance
 
 -   In 2022 the Global Gross Domestic Product (GDP) was estimated at around 100 Trillion USD @aarononeillGlobalGDP19852028.
@@ -58,17 +70,22 @@ import ResQClub from '../images/resq-club.png'
 
 -   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
--  Food Sovereignty:  "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+-   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
 
 -   "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce." https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
 
 -   Vertical farm in Taoyuan https://www.taiwannews.com.tw/en/news/3387047
 
 -   *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
+
 -   Farm to table https://techcrunch.com/tag/farm-to-table/
+
 -   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech
+
 -   https://lowercarboncapital.com/companies/
+
 -   Only make what is ordered.
+
 -   Farm to Fork https://www.youtube.com/watch?v=sMqtwbKc8EA
 
 ## Fast Fashion, Sustainable Fashion, Textile Design
@@ -142,12 +159,19 @@ import ResQClub from '../images/resq-club.png'
 -   Policy request: https://textileexchange.org/trade-policy-request-cop26/
 
 -   Free clothes
+
 -   Generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sustainable fashion brands
+
 -   Fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8
+
 -   https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287
+
 -   https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html
+
 -   https://infinitedfiber.com/
+
 -   https://www.cleantech.com/the-global-cleantech-100/
+
 -   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
 
 ### Individual Climate Action
@@ -291,6 +315,7 @@ For example, the Green Web Foundation certifies how sustainable is the web hosti
 ### Hedge Funds and DAOs
 
 -   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
+
 -   https://www.investopedia.com/tech/what-dao/
 
 -   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
@@ -318,6 +343,7 @@ For example, the Green Web Foundation certifies how sustainable is the web hosti
 ### Transparency
 
 -   Sites like Simply Wallstreet provide in-depth analysis: https://simplywall.st/ also same for crypto
+
 -   Snowflake analysis like Simply Wallstreet
 
 -   Savings Lottery: https://www.youtube.com/watch?v=-QjnvmCQdoE
@@ -521,13 +547,6 @@ People are concerned with digital payments
 
 -   @priscilaazevedorochaGreenwashingEnters222022 suggests "So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."
 
-### Countering Greenwashing
-
--   @ussecuritiesandexchangecommissionOfficeHoursGary2022: In the USA: *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gary Gensler, head of U.S. Securities and Exchange Commission.
--   @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
--   Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
--   Laws against greenwashing
-
 ## Community Investing
 
 -   Build an investing community?
@@ -718,7 +737,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   The Taipei stock market in Taiwan has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting (@grauerTaiwanLeadingWay2017), while Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 (@euronextEuronextLaunchesSuite2020).
 
--   @doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends. 
+-   @doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
 
 -   @kirakosianLOIMLaunchesCircular2020 Digital payments and circular bio-economy, even using tactics such as co-branding with famous individuals.
 
@@ -743,24 +762,6 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 -   Assumptions: --- where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
 -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
 -   Hypothesis?
-
-### Governments and Legislation
-
--   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption.
-
--   The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties.
-
--   On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies should feel incentivized by access to cheaper capital and larger investor demand from ESG-friendly investors.
-
--   @houseofcommonsEnvironmentalAuditSecond2002: Already in 2001, the UK government was discussing ways to promote sustainable investment "fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment", however systemic change is slow.
-
--   @europeanparliamentDirective2014652014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: "more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments." Directive 14 2014/65/EU, 2014.
-
--   Some key legislation for investors has been put in place recently, for example @kentonMiFIDII2020: "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors."
-
--   @europeansecuritiesandmarketsauthorityMiFIDII2017. "MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants".
-
--   While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets (Quinson, 2020), helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
 
 ### Banks, Fintech, and Payments
 

@@ -138,8 +138,11 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 -   esg
 -   etc
 -   wikipedia /
--   Trash found in ocean / nature etc — Help you to decide: what to buy, how to save, where to invest, — Increase your investment point by matching with your contribution /.
+-   Trash found in ocean / nature etc
+-   Help you to decide: what to buy, how to save, where to invest
+-   Increase your investment point by matching with your contribution /.
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
+-   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
 ## Provenance and Traceability {#provenance-and-traceability}
 
@@ -172,10 +175,6 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 ## Zero Waste Lifestyle {#zero-waste-lifestyle}
 
 -   Tokyo Simple Eco Life (2021)
-
-## Precision Fermentation and Cultivated Meat {#precision-fermentation-and-cultivated-meat}
-
--   Meat products without farm animals
 
 ## Ecodesign for Sustainable Products {#ecodesign-for-sustainable-products}
 
@@ -214,58 +213,6 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 -   lack of transparency
 -   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
 -   The State of Nationally Determined Contributions: 2022 Fransen et al. (2022) notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
-
-### Health {#health}
-
--   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts.”All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
-
--   *Public Health Linkages with Sustainability* (2013)
-
--   Guidotti (2015)
-
--   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”
-
-### Emission Scopes {#emission-scopes}
-
--   National Public Utilities Council (2022) The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
-
-| Scope   | Source                         |
-|---------|--------------------------------|
-| Scope 1 | Direct emissions               |
-| Scope 2 | Indirect electricity emissions |
-| Scope 3 | Value chain emissions          |
-
-### Greenwashing {#greenwashing}
-
--   US Securities and Exchange Commission (2022) Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
-
--   1.  Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected by consumer demand.
-
--   Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
-
--   Examples of greenwashing:
-
-    Geoffrey Supran (2022) Greenwashing is widespread in company social media communications.
-
--   Purkiss et al. (2022) highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill. For example, “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months”
-
--   Napper & Thompson (2019): Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment .
-
--   Frédéric Simon (2020) and Kira Taylor (2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing.
-
--   Sometimes greenwashing comes under legislative protection. Booth (2022) describe how “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program”.
-
-A number of new AI-based tools aim to find instances of greenwashing.
-
--   https://www.fastcompany.com/90656749/greenwashing-ai
-
--   https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch
-
--   https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul
-
--   https://www.climatebonds.net/about/team/krista-tukiainen
-
-**Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
 ### European Green Deal {#european-green-deal}
 
@@ -330,6 +277,53 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarios of climate damage.
 
+## Greenwashing {#greenwashing}
+
+-   Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
+
+-   US Securities and Exchange Commission (2022) Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
+
+-   André & Valenciano-Salazar (2022): Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected by consumer demand. Geoffrey Supran (2022) Greenwashing is widespread in company social media communications.
+
+-   Purkiss et al. (2022) highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill. For example, “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months”.
+
+-   Napper & Thompson (2019): Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment ..
+
+-   Frédéric Simon (2020) and Kira Taylor (2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection.
+
+-   Booth (2022) describe how “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program”. A number of new AI-based tools aim to find instances of greenwashing.
+
+-   https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
+
+-   **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
+
+### Health {#health}
+
+-   https://www.webmd.com/a-to-z-guides/features/sustainability-health “Human health is central to all sustainability efforts.”All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
+
+-   *Public Health Linkages with Sustainability* (2013)
+
+-   Guidotti (2015)
+
+-   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”
+
+### Countering Greenwashing {#countering-greenwashing}
+
+-   US Securities and Exchange Commission (2022): In the USA: *“If it’s easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if”green” or “sustainable” funds are really what they say they are.”* says Gary Gensler, head of U.S. Securities and Exchange Commission.
+-   Frances Schwartzkopff (2022) suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
+-   Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+-   Laws against greenwashing
+
+### Emission Scopes {#emission-scopes}
+
+-   National Public Utilities Council (2022) The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
+
+| Scope   | Source                         |
+|---------|--------------------------------|
+| Scope 1 | Direct emissions               |
+| Scope 2 | Indirect electricity emissions |
+| Scope 3 | Value chain emissions          |
+
 ### Ecosystem Services {#ecosystem-services}
 
 -   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation. In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
@@ -393,6 +387,8 @@ American Press Institute. (2022). *Knowing the news: How Gen Z and Millennials g
 
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
 
+André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
+
 Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider, & Kelsey Mulcahy. (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
 
 Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J., & Lenton, T. M. (2022). Exceeding 1.5 global warming could trigger multiple climate tipping points. *Science*, *377*(6611), eabn7950. <https://doi.org/10.1126/science.abn7950>
@@ -434,6 +430,8 @@ Ethereum. (2023). Oracles. In *ethereum.org*. https://ethereum.org.
 European Commission. Joint Research Centre. (2022). *CO2 emissions of all world countries :JRC/IEA/PBL 2022 report.* Publications Office.
 
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
+
+Frances Schwartzkopff. (2022). EU Explores Tighter Rules for ESG Funds Amid Greenwash Concerns. In *Bloomberg*. https://www.bloomberg.com/news/articles/2022-11-18/eu-explores-tighter-rules-for-esg-funds-amid-greenwash-concerns#xj4y7vzkg.
 
 Fransen, T., Henderson, C., O’Connor, R., Alayza, N., Caldwell, M., Chakrabarty, S., Dixit, A., Finch, M., Kustar, A., Langer, P., Stolle, F., Walls, G., & Welle, B. (2022). The State of Nationally Determined Contributions: 2022. *WRIPUB*. <https://doi.org/10.46830/wrirpt.22.00043>
 
