@@ -353,6 +353,18 @@ Again, AI has the potential to provide the parameters for sustainability.
 -   https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html
 -   https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg
 
+### Fintech User Experience (UX) {#fintech-user-experience-ux}
+
+Given the large number of fraud cases in finance, *trust* is the number one concern for users (CITE). Good design is crucial for creating transparency, and transparency leads to trust.
+
+-   https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/
+-   https://usabilitygeek.com/ux-design-fintech-things-to-remember/
+-   https://www.parallelhq.com/blog/fintech-ui-ux-design
+-   https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process
+-   https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9
+-   https://www.youtube.com/watch?v=c_uxaOz_B1c
+-   Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment - Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?
+
 ### Open Data {#open-data}
 
 -   WikiRate is a tool for checking green credentials Transpareencyy
