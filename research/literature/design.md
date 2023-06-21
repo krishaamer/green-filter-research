@@ -120,6 +120,12 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022)
 
+-   Millward-Hopkins et al. (2023) shows how half of the textile waste in the UK is exported to other countries.
+
+-   Mabuza et al. (2023) shows consumer knowledge of apparel coloration is very limited.
+
+-   Gyabaah et al. (2023) research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
+
 -   Fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
 
 -   https://renoon.com/ Ethical Shopping
@@ -808,6 +814,8 @@ Guath, M., Stikvoort, B., & Juslin, P. (2022). Nudging for eco-friendly online s
 
 Gupta, B. B., Gaurav, A., Panigrahi, P. K., & Arya, V. (2023). Analysis of artificial intelligence-based technologies and approaches on sustainable entrepreneurship. *Technological Forecasting and Social Change*, *186*, 122152. <https://doi.org/10.1016/j.techfore.2022.122152>
 
+Gyabaah, D., Awuah, E., Antwi-Agyei, P., & Kuffour, R. A. (2023). Characterization of dumpsite waste of different ages in Ghana. *Heliyon*, *9*(5), e15827. <https://doi.org/10.1016/j.heliyon.2023.e15827>
+
 HKTDC Research. (2022). *France Expands Producer Responsibility to Certain Textile Items; Recommends Limiting Hazardous Chemicals in School Supplies*. https://research.hktdc.com/en/article/MTEyNTg5ODAwNw.
 
 Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disruptive: Evidence from China’s “super app” WeChat. *Mobile Media & Communication*, *9*(2), 177–194. <https://doi.org/10.1177/2050157920940765>
@@ -838,6 +846,8 @@ Liu, X., Tamminen, S., Korhonen, T., & Röning, J. (2019). How Physical Exercise
 
 Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
 
+Mabuza, L., Sonnenberg, N., & Marx-Pienaar, N. (2023). Natural versus synthetic dyes: Consumers’ understanding of apparel coloration and their willingness to adopt sustainable alternatives. *Resources, Conservation & Recycling Advances*, *18*, 200146. <https://doi.org/10.1016/j.rcradv.2023.200146>
+
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
@@ -845,6 +855,8 @@ Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In 
 McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
 
 Millings, A., Morris, J., Rowe, A., Easton, S., Martin, J. K., Majoe, D., & Mohr, C. (2015). Can the effectiveness of an online stress management program be augmented by wearable sensor technology? *Internet Interventions*, *2*(3), 330–339. <https://doi.org/10.1016/j.invent.2015.04.005>
+
+Millward-Hopkins, J., Purnell, P., & Baurley, S. (2023). A material flow analysis of the UK clothing economy. *Journal of Cleaner Production*, *407*, 137158. <https://doi.org/10.1016/j.jclepro.2023.137158>
 
 Miyoshi, S., Segawa, T., Takii, M., Imamura, T., Sakurai, H., Kurosawa, Y., Kondo, S., Kishita, Y., & Umeda, Y. (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, *105*, 267–272. <https://doi.org/10.1016/j.procir.2022.02.044>
 <span class="csl-block">The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.The 29th CIRP Conference on Life Cycle Engineering, April 4 6, 2022, Leuven, Belgium.</span>

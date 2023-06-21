@@ -111,6 +111,8 @@ import Bunq from '../images/bunq.jpg'
 
 -   Peng et al. (2023) finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
 
+-   Thukral & Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
 ***Design implications:** ERP and CDP data should be part of Green Filter.*
 
 ## Finance {#finance}
@@ -854,6 +856,8 @@ Steenmans, K., & Ulfbeck, V. (2023). Fostering the circular economy through priv
 Swedbank. (n.d.). *EasySaver*.
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
+
+Thukral, S., & Singh, M. (2023). An exploratory study on producer’s perspective towards <span class="nocase">E-waste</span> management: A case of emerging markets. *Cleaner Waste Systems*, *5*, 100090. <https://doi.org/10.1016/j.clwas.2023.100090>
 
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
