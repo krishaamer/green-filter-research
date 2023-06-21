@@ -187,7 +187,9 @@ Create a design system!!!! best to showcase my analytic skills
 
 ### Community’s Role in Design {#communitys-role-in-design}
 
--   Psychology of ‘fundraising clubs’ vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
+-   Psychology of ‘fundraising clubs’ vs individual investing
+
+-   Ukraine DAO https://v1.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
 
 -   POAPs:
 
@@ -225,8 +227,8 @@ Create a design system!!!! best to showcase my analytic skills
 
 ### Design for Circularity {#design-for-circularity}
 
--   McDonough & Braungart (2002)
--   Dull (2021)
+-   McDonough & Braungart (2002) book
+-   Dull (2021) book
 
 ### Eco-Design {#eco-design}
 
@@ -276,7 +278,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   “design is a tool to make complexity comprehensible” like the helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
 
--   https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
+-   https://instagram.com/zeynep_von_flittner
 
 ### Design for Transparency {#design-for-transparency}
 
@@ -379,13 +381,21 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Karina from Korea (aespa (2020)). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
+### Carbon Labelling {#carbon-labelling}
+
+-   Adam Corner (2012): Adding CO2 labels for consumer products have been discussed for decades.
+-   While academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)) and there is some indication consumers are willing to pay a small premium for low-CO2 products (Xu & Lin (2022)) as well as all else being equal, choose the option with a lower CO2 number (Carlsson et al. (2022)), the idea of *Carbon Labelling* is yet to find mainstream adoption.
+-   Although there’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study Lohmann et al. (2022) of UK university students, their impact on the market share of low-carbon meals is negible.
+-   Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products.
+-   Labels alone are not enough, as underlined by Edenbrandt & Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programs.
+
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
 -   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples:
 -   Wee et al. (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|---------------|---------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |
@@ -413,7 +423,9 @@ There’s a number of user interface design patterns that have provide successfu
 | 1   | Google Maps    | Show routes with lower CO2 emissions |
 | 2   | Google Flights | Show CO2 emissions                   |
 
--   Becoming a Sustainability-Aware App or Game. Jeni Miles (2022) suggests “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.”
+-   Becoming a Sustainability-Aware App or Game.
+
+-   Jeni Miles (2022) suggests “Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified.”
 
 -   https://blog.google/outreach-initiatives/sustainability/sustainability-2021/
 
@@ -461,7 +473,9 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Huang & Miao (2021) **(need to pay for article!)**
 
--   Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
+-   Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services.
+
+-   Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
 
 -   Giudice (2020) MA thesis’s argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country.
 
@@ -487,6 +501,8 @@ TODO design summary.
 
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
+Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
+
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
 
 Almeida, A., Mateus-Coelho, N., Lopes, N., & Portela, I. (2022). Paranoid OS: Wearable Trackers. *Procedia Computer Science*, *204*, 862–868. <https://doi.org/10.1016/j.procs.2022.08.104>
@@ -496,6 +512,8 @@ Anselma, L., Mazzei, A., & De Michieli, F. (2017). An artificial intelligence fr
 Aromatario, O., Van Hoye, A., Vuillemin, A., Foucaut, A.-M., Crozet, C., Pommier, J., & Cambon, L. (2019). How do mobile health applications support behaviour changes? A scoping review of mobile health applications relating to physical activity and eating behaviours. *Public Health*, *175*, 8–18. <https://doi.org/10.1016/j.puhe.2019.06.011>
 
 Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drivers of circular economy in firms: A machine learning approach. *Journal of Cleaner Production*, *355*, 131738. <https://doi.org/10.1016/j.jclepro.2022.131738>
+
+Asioli, D., Fuentes-Pila, J., Alarcón, S., Han, J., Liu, J., Hocquette, J.-F., & Nayga, R. M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, *112*, 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>
 
 Ayoola, I., Wetzels, M., Peters, P., Van Berlo, S., & Feijs, L. (2018). Do CHANGE platform: A service-based architecture for secure aggregation and distribution of health and wellbeing data. *International Journal of Medical Informatics*, *117*, 103–111. <https://doi.org/10.1016/j.ijmedinf.2018.06.004>
 
@@ -512,6 +530,8 @@ Bower, M., & Sturman, D. (2015). What are the educational affordances of wearabl
 Burger, K., White, L., & Yearworth, M. (2019). Developing a smart operational research with hybrid practice theories. *European Journal of Operational Research*, *277*(3), 1137–1150. <https://doi.org/10.1016/j.ejor.2019.03.027>
 
 *Cargo bike \| FREITAG*. (n.d.). https://www.freitag.ch/en/services/cargo-bike.
+
+Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
 
 Ceschin, F., & Gaziulusoy, I. (2016). Evolution of design for sustainability: From product design to design for system innovations and transitions. *Design Studies*, *47*, 118–163. <https://doi.org/10.1016/j.destud.2016.09.002>
 
@@ -536,6 +556,8 @@ Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and soci
 
 Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign with topology optimization. *Procedia CIRP*, *109*, 454–459. <https://doi.org/10.1016/j.procir.2022.05.278>
 <span class="csl-block">32nd CIRP Design Conference (CIRP Design 2022) - Design in a changing world</span>
+
+Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
 Emir Hidayat, S., Bamahriz, O., Hidayati, N., Sari, C. A., & Dewandaru, G. (2022). Value drivers of startup valuation from venture capital equity-based investing: A global analysis with a focus on technological factors. *Borsa Istanbul Review*, *22*(4), 653–667. <https://doi.org/10.1016/j.bir.2021.10.001>
 
@@ -582,6 +604,8 @@ Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainabili
 Lion Hirth. (n.d.). *Lion Hirth on Twitter: "Carbon pricing is not there to punish people. It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release. Very simple." / Twitter*. https://twitter.com/LionHirth/status/1605617664444878848.
 
 Liu, X., Tamminen, S., Korhonen, T., & Röning, J. (2019). How Physical Exercise Level Affects Sleep Quality? Analyzing Big Data Collected from Wearables. *Procedia Computer Science*, *155*, 242–249. <https://doi.org/10.1016/j.procs.2019.08.035>
+
+Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
 
 Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Combination of product environmental footprint method and eco-design process according to ISO 14006: The case of an Italian vinery. *Science of The Total Environment*, *799*, 149507. <https://doi.org/10.1016/j.scitotenv.2021.149507>
 
@@ -648,4 +672,8 @@ Why tracing seafood from sea to plate is the next frontier in sustainability \| 
 
 Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
 
+Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, *97*, 106902. <https://doi.org/10.1016/j.eiar.2022.106902>
+
 Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
+
+Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>

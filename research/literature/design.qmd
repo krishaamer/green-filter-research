@@ -186,7 +186,9 @@ Create a design system!!!! best to showcase my analytic skills
 
 ### Community's Role in Design
 
--   Psychology of 'fundraising clubs' vs individual investing https://www.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
+-   Psychology of 'fundraising clubs' vs individual investing
+
+-   Ukraine DAO https://v1.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
 
 -   POAPs:
 
@@ -224,8 +226,8 @@ Create a design system!!!! best to showcase my analytic skills
 
 ### Design for Circularity
 
--   @mcdonoughCradleCradleRemaking2002
--   @dullCircularSupplyChain2021
+-   @mcdonoughCradleCradleRemaking2002 book
+-   @dullCircularSupplyChain2021 book
 
 ### Eco-Design
 
@@ -275,7 +277,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 
 -   "design is a tool to make complexity comprehensible" like the helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
 
--   https://instagram.com/zeynep_von_flittner?igshid=YmMyMTA2M2Y=
+-   https://instagram.com/zeynep_von_flittner
 
 ### Design for Transparency
 
@@ -378,13 +380,21 @@ There's a number of user interface design patterns that have provide successful 
 
 -   Karina from Korea (@aespaAespaEseupaMY2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
+### Carbon Labelling
+
+-   @adamcornerWhyWeNeed2012: Adding CO2 labels for consumer products have been discussed for decades.
+-   While academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019) and there is some indication consumers are willing to pay a small premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022) as well as all else being equal, choose the option with a lower CO2 number (@carlssonSustainableFoodCan2022), the idea of *Carbon Labelling* is yet to find mainstream adoption.
+-   Although there's some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study @lohmannCarbonFootprintLabels2022 of UK university students, their impact on the market share of low-carbon meals is negible.
+-   @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products.
+-   Labels alone are not enough, as underlined by @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programs.
+
 ### The Concept of 'Nudge'
 
 -   The literature on *nudge* is wide, as researches try to find ways to affect human behaviors towards sustainability. Some notable examples:
 -   @WEE2021100364 proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|--------------|----------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |
@@ -411,7 +421,9 @@ There's a number of user interface design patterns that have provide successful 
 | 1   | Google Maps    | Show routes with lower CO2 emissions |
 | 2   | Google Flights | Show CO2 emissions                   |
 
--   Becoming a Sustainability-Aware App or Game. @jenimilesBecomingSustainabilityAwareApp2022 suggests "Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified."
+-   Becoming a Sustainability-Aware App or Game.
+
+-   @jenimilesBecomingSustainabilityAwareApp2022 suggests "Google recently shared its goal to help one billion people make more sustainable choices by embedding carbon emissions information into Google Flights and surfacing whether a hotel is Green Key or EarthCheck certified."
 
 -   https://blog.google/outreach-initiatives/sustainability/sustainability-2021/
 
@@ -459,7 +471,9 @@ There's a number of user interface design patterns that have provide successful 
 
 -   @huangRedomesticatingSocialMedia2021 **(need to pay for article!)**
 
--   @suarezEnhancingUserIncome2021 suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. @roaSuperappBehavioralPatterns2021 finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
+-   @suarezEnhancingUserIncome2021 suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services.
+
+-   @roaSuperappBehavioralPatterns2021 finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
 
 -   @giudice2020wechat MA thesis's argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country.
 
@@ -478,6 +492,7 @@ There's a number of user interface design patterns that have provide successful 
 -   https://sifted.eu/articles/paypal-tops-european-downloads/
 
 ## Summary
+
 TODO design summary.
 
 # References
