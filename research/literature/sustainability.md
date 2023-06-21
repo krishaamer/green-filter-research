@@ -19,21 +19,112 @@ import Humboldt from '../images/humboldt.jpg'
 
 # What is Sustainability? {#what-is-sustainability}
 
+-   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
+
+-   Le Provost et al. (2022): Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
+
+-   Keeble (1988) reported in April 1987 (a few months after I was born) that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+
+-   Commodities!! — the most effective things are — food — transport — fashion? — plant trees
+
+-   Catherine Clifford (2022) reports that Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems.
+
+-   Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“.
+
+-   Moberg et al. (2019) reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
+
+| Emission Share | Category |
+|----------------|----------|
+| 21%            | Housing  |
+| 30%            | Food     |
+| 34%            | Mobility |
+| 15%            | Other    |
+
+### Clean Water {#clean-water}
+
+-   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
+
+### Clean Air {#clean-air}
+
+-   How to achieve it?
+
+### Housing {#housing}
+
+-   According to @debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
+
+### Carbon Labeling {#carbon-labeling}
+
+-   Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)).
+
+-   The Carbon Trust (n.d.): The Carbon Trust reports it’s certified 27 thousand product footprints.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   World Resources Institute (2020) shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
+
+-   Crippa et al. (2022) shows global emissions 4.81 t CO2/cap
+
+-   European Commission. Joint Research Centre. (2022) provides CO2 emissions for all the countries around the world, per total emissions the top 10 are China, U.S.A. the European Union, India, Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of 2021.
+
+-   55% of emissions come from energy production.
+
+-   American Press Institute (2022) finds that only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues.
+
+-   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
+
+-   Cohen & Vandenbergh (2012)
+
+### Population {#population}
+
+-   According to The Economic Times (2022), in November 2022, Planet Earth’s population reached 8 Billion people. The future population projections in United Nations Department of Economic and Social Affairs, Population Division (2022) predict 8.5B people by 2030 and 9.7B by 2050.
+-   While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (**FIND CITATION**).
+
+### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
+
+-   In Anthony Leiserowitz et al. (2022), a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
+-   Overconsumption is one of the root causes of climate change and marine plastic pollution.
+-   Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+
+### Overconsumption {#overconsumption}
+
+-   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/
+-   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+-   https://www.wri.org/insights/how-build-circular-economy
+-   “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
+-   Ivanova et al. (2020) “The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.”
+-   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
+
+### Fossil Fuels and Energy {#fossil-fuels-and-energy}
+
+There’s evidence from several countries suggesting moving to renewal energy brings benefits:
+
+-   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
+
+-   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+
+-   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
+
+### Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
+
+-   The true cost of products is hidden. The work is hidden.
+
+### Forests {#forests}
+
+-   Frédéric Simon (2022) Europe rapidly losing its forest carbon sink.
+
+-   Burning of biomass undermines carbon capture.
+
 ## Oracles for Sustainability Data {#oracles-for-sustainability-data}
 
-A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, waste, etc.
+A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, and waste.
 
--   https://ethereum.org/en/developers/docs/oracles/
+-   Ethereum (2023)
 
--   https://www.mdpi.com/2071-1050/12/6/2391
+-   Caldarelli et al. (2020) notes it’s a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
 
--   https://blog.chain.link/blockchains-and-oracles-are-redefining-the-energy-industry/
+-   Brady Dale (2021) and Chainlink (2022): The largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy.
 
--   https://www.coindesk.com/tech/2021/05/26/chainlinks-founder-says-defi-and-oracles-can-help-fight-climate-change/
-
--   https://www.lcx.com/sustainability-and-blockchain-a-better-future/
-
--   ChainLink DAO IPCI OpenLitterMap G.I.D Coin Regen Network
+-   IPCI OpenLitterMap G.I.D Coin Regen Network
 
 ## Provenance and Traceability {#provenance-and-traceability}
 
@@ -94,7 +185,6 @@ Design to reduce climate anxiety
 -   Track you consumption, saving, investing. Shift balance towards saving and investing.
 -   https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0
 -   https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/sustainable-products/ecodesign-sustainable-products_en
--   
 
 ## Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
 
@@ -109,102 +199,6 @@ Design to reduce climate anxiety
 -   What would that look like for sustainability?
 
 -   Empowering people to live a sustainable day
-
-## What is Sustainability? {#what-is-sustainability-1}
-
--   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
-
--   Le Provost et al. (2022): Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
-
--   Keeble (1988) reported in April 1987 (a few months after I was born) that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
-
--   Moberg et al. (2019) reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
-
-| Emission Share | Category |
-|----------------|----------|
-| 21%            | Housing  |
-| 30%            | Food     |
-| 34%            | Mobility |
-| 15%            | Other    |
-
-### Clean Water {#clean-water}
-
--   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
-
-### Clean Air {#clean-air}
-
--   How to achieve it?
-
-### Housing {#housing}
-
--   Debnath et al. (2022)
-
-### Carbon Labeling {#carbon-labeling}
-
--   Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)).
-
--   The Carbon Trust (n.d.): The Carbon Trust reports it’s certified 27 thousand product footprints.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   World Resources Institute (2020) shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
-
--   Crippa et al. (2022) shows global emissions 4.81 t CO2/cap
-
--   https://edgar.jrc.ec.europa.eu/report_2022?vis=tot#emissions_table
-
--   55% of emissions come from energy production.
-
--   American Press Institute (2022) finds that only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues.
-
--   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
-
--   Cohen & Vandenbergh (2012)
-
-### Population {#population}
-
--   According to The Economic Times (2022), in November 2022, Planet Earth’s population reached 8 Billion people. The future population projections in United Nations Department of Economic and Social Affairs, Population Division (2022) predict 8.5B people by 2030 and 9.7B by 2050. While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (FIND CITATION).
-
-### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
-
--   In Anthony Leiserowitz et al. (2022), a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
--   Overconsumption is one of the root causes of climate change and marine plastic pollution.
--   Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
-
-### Overconsumption {#overconsumption}
-
--   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/
--   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
--   https://www.wri.org/insights/how-build-circular-economy
--   “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
--   Ivanova et al. (2020) “The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.”
--   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
-
-### Fossil Fuels and Energy {#fossil-fuels-and-energy}
-
-There’s evidence from several countries suggesting moving to renewal energy brings benefits:
-
--   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
-
--   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
-
--   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
-
-### Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s {#make-a-sustainability-flywheel-graphic-like-that-of-amazons}
-
--   The true cost of products is hidden. The work is hidden.
-
-### Forests {#forests}
-
--   Frédéric Simon (2022) Europe rapidly losing its forest carbon sink.
-
--   Burning of biomass undermines carbon capture.
-
-## Sustainability {#sustainability}
-
--   Commodities!! — the most effective things are — food — transport — fashion? — plant trees
--   Catherine Clifford (2022) reports that Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems.
--   Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms do’“.
 
 ### Disasters {#disasters}
 
@@ -321,7 +315,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 ### Inflation Reduction Act {#inflation-reduction-act}
 
--   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?
+-   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy
 
 ### Carbon Inequality {#carbon-inequality}
 
@@ -364,7 +358,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 ### Regeneration {#regeneration}
 
 -   https://www.regen.network/
--   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/?fbclid=IwAR3DiYoaCCobb8a0IvYxdzszV6i2QIUMeuqvIidWVkrbX01Nyd7tq-Sq7bI
+-   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/
 -   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
 -   https://www.klimadao.finance/
 -   https://rss.com/podcasts/potk/367282/
@@ -423,7 +417,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 -   *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
 -   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
--   Check carbon impact https://wizzair.chooose.today/?utm_source=banner&utm_medium=homepage&utm_campaign=wizz&utm_content=calculate-footprint#scrollTo=wtarinhvhtzfdanlnw6qqo
+-   Check carbon impact https://wizzair.chooose.today/
 
 ## Conclusion {#conclusion}
 
@@ -455,13 +449,19 @@ Bouscasse, H., Gabet, S., Kerneis, G., Provent, A., Rieux, C., Ben Salem, N., Du
 
 Bousfield, C. G., Massam, M. R., Peres, C. A., & Edwards, D. P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, *314*, 115094. <https://doi.org/10.1016/j.jenvman.2022.115094>
 
+Brady Dale. (2021). *Chainlink’s Founder Says DeFi and Oracles Can Help Fight Climate Change*.
+
 Brian Kateman. (2020). Carbon Labels Are Finally Coming To The Food And Beverage Industry. In *Forbes*. https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03.
 
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
+Caldarelli, G., Rossignoli, C., & Zardini, A. (2020). Overcoming the Blockchain Oracle Problem in the Traceability of Non-Fungible Products. *Sustainability*, *12*(6), 2391. <https://doi.org/10.3390/su12062391>
+
 Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
 
 Cawthorn, D.-M., & Hoffman, L. C. (2016). Controversial cuisine: A global account of the demand, supply and acceptance of “unconventional” and “exotic” meats. *Meat Science*, *120*, 19–36. <https://doi.org/10.1016/j.meatsci.2016.04.017>
+
+Chainlink. (2022). New Report: Blockchains and Oracles Are Redefining the Energy Industry. In *Chainlink Blog*.
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
 
@@ -475,9 +475,11 @@ Cohen, M. A., & Vandenbergh, M. P. (2012). The potential role of carbon labeling
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
-Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
-
 Dutta, P., Choi, T.-M., Somani, S., & Butala, R. (2020). Blockchain technology in supply chain operations: Applications, challenges and research opportunities. *Transportation Research Part E: Logistics and Transportation Review*, *142*, 102067. <https://doi.org/10.1016/j.tre.2020.102067>
+
+Ethereum. (2023). Oracles. In *ethereum.org*. https://ethereum.org.
+
+European Commission. Joint Research Centre. (2022). *CO2 emissions of all world countries :JRC/IEA/PBL 2022 report.* Publications Office.
 
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
 
