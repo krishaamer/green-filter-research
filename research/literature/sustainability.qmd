@@ -45,6 +45,18 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   @baileyMappingActorsArguments2020a shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 
+-   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain. There are several technologies for tracking goods from shipping chain with OriginTrail, including OriginTrail, Bext360, Everledger, Provenance.
+
+-   @duttaBlockchainTechnologySupply2020
+
+-   @neethirajanDigitalLivestockFarming2021
+
+-   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3
+
+-   @ashrafPrototypeSupplyChain2023
+
+-   @patelBlockchainTechnologyFood2023
+
 ## Climate Anxiety
 
 Design to reduce climate anxiety
@@ -76,10 +88,11 @@ Design to reduce climate anxiety
 -   Track you consumption, saving, investing. Shift balance towards saving and investing.
 -   https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0
 -   https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/sustainable-products/ecodesign-sustainable-products_en
+-   
 
 ## Biomarkers vs Ecomarkers
 
--   There is a parallel in health to sustainability and indeed both are inextrabicably linked.
+-   There is a parallel in health to sustainability and indeed both are inextricably linked.
 
 -   Healthkit
 
@@ -93,11 +106,13 @@ Design to reduce climate anxiety
 
 ## What is Sustainability?
 
-*Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011). Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services (@leprovostSupplyMultipleEcosystem2022).
+-   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
 
-@keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+-   @leprovostSupplyMultipleEcosystem2022: Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
-@mobergMobilityFoodHousing2019 reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
+-   @keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+
+-   @mobergMobilityFoodHousing2019 reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
 
 | Emission Share | Category |
 |----------------|----------|
@@ -120,8 +135,13 @@ Design to reduce climate anxiety
 
 ### Carbon Labeling
 
-Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products (@briankatemanCarbonLabelsAre2020). Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; @climatepartnerLabellingCarbonFootprint2020). The Carbon Trust reports it's certified 27 thousand product footprints (@thecarbontrustHowReduceYour).
+-   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; @climatepartnerLabellingCarbonFootprint2020).
 
+-    @thecarbontrustHowReduceYour: The Carbon Trust reports it's certified 27 thousand product footprints.
+
+```{=html}
+<!-- -->
+```
 -   @worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
 
 -   @crippaCO2EmissionsAll2022 shows global emissions 4.81 t CO2/cap
@@ -148,12 +168,12 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 ### Overconsumption
 
--   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/?fbclid=IwAR1nWICrmghCBhmtpEFEo5uH5u3QuWGSg-AB3Sc2C4Z7TiuF-nqK-eWrOrc
+-   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/
 -   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
 -   https://www.wri.org/insights/how-build-circular-economy
 -   "Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap."
--   "The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East---to 1.7 tCO2eq/cap on average." (@ivanovaQuantifyingPotentialClimate2020)
--   "establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr." (@ivanovaQuantifyingPotentialClimate2020)
+-   @ivanovaQuantifyingPotentialClimate2020 "The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East---to 1.7 tCO2eq/cap on average."
+-   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr."
 
 ### Fossil Fuels and Energy
 
@@ -171,13 +191,13 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 ### Forests
 
--   Europe rapidly losing its forest carbon sink: https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/
+-   @fredericsimonEuropeRapidlyLosing2022 Europe rapidly losing its forest carbon sink.
 
 -   Burning of biomass undermines carbon capture.
 
 ## Sustainability
 
--   commodities!! --- the most effective things are --- food --- transport --- fashion? --- plant trees
+-   Commodities!! --- the most effective things are --- food --- transport --- fashion? --- plant trees
 -   @catherinecliffordHowThisPopular2022 reports that Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems.
 -   Amazon's founder Bezos. ″'Good intentions don't work, mechanisms do'".
 
@@ -191,19 +211,17 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 ## The State of Nationally Determined Contributions: 2022
 
--   https://www.wri.org/research/state-nationally-determined-contributions-2022
+-   @fransenStateNationallyDetermined2022 notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
 ### Health
 
 -   https://www.webmd.com/a-to-z-guides/features/sustainability-health "Human health is central to all sustainability efforts."All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health," Hollis says."
 
--   https://www.ncbi.nlm.nih.gov/books/NBK202304/
+-   @PublicHealthLinkages2013
 
--   https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199325337.001.0001/acprof-9780199325337
+-   @guidottiHealthSustainabilityIntroduction2015
 
--   https://www.amazon.com/Health-Sustainability-Introduction-Tee-Guidotti/dp/0199325332
-
--   "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."' https://www.unthsc.edu/operations/wp-content/uploads/sites/24/Sustainability_Summary_Half_Page_better_pic_1\_.pdf
+-   "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
 
 ### Emission Scopes
 
@@ -217,11 +235,23 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 ### Greenwashing
 
--   Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices (@ussecuritiesandexchangecommissionOfficeHoursGary2022). Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (@andreVoluntaryCarbonNeutral2022) and thus affected by consumer demand.
+-   @ussecuritiesandexchangecommissionOfficeHoursGary2022 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
+
+-   Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (@andreVoluntaryCarbonNeutral2022) and thus affected by consumer demand.
 
 -   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!
 
--   Examples of greenwashing: - Greenwashing is widespread in company social media communications @geoffreysupranThreeShadesGreen2022 - "Most plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022 - Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment @napperEnvironmentalDeteriorationBiodegradable2019 - While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been critized for greenwashing (@fredericsimonCommissionFireIncluding2020; @kirataylorEUPlanPuts2021) - Sometimes greenwashing comes under legislative protection: "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program" (@boothBurningCarbonSink2022)
+-   Examples of greenwashing:
+
+    -    @geoffreysupranThreeShadesGreen2022 Greenwashing is widespread in company social media communications.
+
+        -   "Most plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022
+
+-   @napperEnvironmentalDeteriorationBiodegradable2019: Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment .
+
+-   @fredericsimonCommissionFireIncluding2020 and \@kirataylorEUPlanPuts2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing.
+
+-   Sometimes greenwashing comes under legislative protection. @boothBurningCarbonSink2022 describe how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
 
 A number of new AI-based tools aim to find instances of greenwashing.
 
@@ -284,7 +314,7 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 ### Inflation Reduction Act
 
--   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?utm_campaign=recent
+-   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy?
 
 ### Carbon Inequality
 
@@ -348,11 +378,9 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 ### Carbon Capture
 
--   @vitilloRoleCarbonCapture2022
+-   @vitilloRoleCarbonCapture2022 argues
 
 -   @gaureTrueNotTrue2022: "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology."
-
--   Cleaning up the supply chain, Track shipping chain https://origintrail.io/
 
 -   Suku makee supply chains more transparent https://techcrunch.com/2019/01/22/citizens-reserve-is-building-a-supply-chain-platform-on-the-blockchain/
 
