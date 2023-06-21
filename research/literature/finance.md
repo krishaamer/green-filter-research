@@ -11,405 +11,31 @@ editor:
 import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
-import ResQClub from '../images/resq-club.png'
 ```
-
-## Governments and Legislation {#governments-and-legislation}
-
--   PWC (2020) Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
-
--   House of Commons (2002): Already in 2001, the UK government was discussing ways to promote sustainable investment “fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment”.
-
--   European Parliament (2014) Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: “more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments”.
-
--   Kenton (2020): Some key legislation for investors has been put in place recently, for example “MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors”. European Securities and Markets Authority (2017): “MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants”.
-
--   Quinson (2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z) While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
-
-# Finance {#finance}
-
--   In 2022 the Global Gross Domestic Product (GDP) was estimated at around 100 Trillion USD Aaron O’Neill (n.d.).
-
-## Designing for Sustainable Shopping {#designing-for-sustainable-shopping}
-
--   Weber (2021) proposes a sustainable shopping guide.
--   Fuentes et al. (2019) discusses package free shopping.
--   van der Wal et al. (2016) discusses “status motives make people publicly display sustainable behavior”.
-
-### Food Waste and Sustainability {#food-waste-and-sustainability}
-
--   Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
-
-``` mdx-code-block
-<Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
-```
-
--   Food saving apps https://www.facebook.com/groups/7573029179
-
--   Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
-
--   Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO2 emissions.
-
--   Poore & Nemecek (2018) suggests 26% of carbon emissions come from food production.
-
--   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
-
-| Perspective                         | Content                                                                               |
-|-------------------------|-----------------------------------------------|
-| *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
-| *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
-| *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
-| *“The consumer-driven perspective”* | *“A wish-list of healthy, high-quality and climate-friendly foods”*                   |
-| “The hands-on perspective”          | “Tangible solutions within the reach of consumers and the food industry”              |
-
--   ***Design Implication***: Where to shop rankings for groceries — list worst offenders in terms of products — shop and invest according to your values.
-
--   Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
-
--   Less impact of food https://techcrunch.com/2022/08/11/kuri-app/
-
--   https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
-
--   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
-
--   Food Sovereignty: “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
-
--   “We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, \[climate change\] doesn’t affect our produce.” https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
-
--   Vertical farm in Taoyuan https://www.taiwannews.com.tw/en/news/3387047
-
--   *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
-
--   Farm to table https://techcrunch.com/tag/farm-to-table/
-
--   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech
-
--   https://lowercarboncapital.com/companies/
-
--   Only make what is ordered.
-
--   Farm to Fork https://www.youtube.com/watch?v=sMqtwbKc8EA
-
-## Fast Fashion, Sustainable Fashion, Textile Design {#fast-fashion-sustainable-fashion-textile-design}
-
--   European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). Globally 87% of textile products are burned or landfilled after 1st consumer use (Köhler et al. (2021)).
-
--   In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (Christiansen et al. (2021)).
-
--   French EPR scheme was upgraded in 2020 to become more circular (Jacques Vernier (2021)).
-
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (HKTDC Research (2022)).
-
--   Leung & Luximon (2021) There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design.
-
--   Sneakers made from coffee https://twitter.com/RensOriginal
-
--   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022)
-
--   Fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
-
--   https://renoon.com/ Ethical Shopping
-
--   https://eu.sheepinc.com/?v=1666529932643
-
--   Sustainable fashion company evaluations: https://goodonyou.eco/
-
--   Ethical brand ratings. GStar https://directory.goodonyou.eco/brand/g-star-raw
-
--   https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
-
--   Worker’s rights. https://www.instagram.com/p/CUXjfzfr7Ze/
-
--   **Problem**: report says there’s not enough transparency in fashion: https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022/amp can’t be held accountable for their actions (or indeed, their lack of action https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp
-
--   Emily Chan (2022) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
-
--   https://wikirate.org/ https://cordis.europa.eu/project/id/688364 https://fashionchecker.org/
-
--   Circular textiles https://www.youtube.com/watch?v=pE9Xyk8eL_s&list=PLGI5qsCI2tYhq1_Gs3GQY1IlDbysDPurS
-
--   Fashion https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/
-
--   Fashion transparency https://www.fashionrevolution.org/about/transparency/ https://cleanclothes.org/ https://fashionchecker.org/
-
--   “The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples.”
-
--   https://textilegenesis.com/
-
--   “Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
-
--   https://www.stand.earth/
-
--   https://www.newstandardinstitute.org/
-
--   https://www.bgmea.com.bd/
-
--   “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.” https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
-
--   https://www.linkedin.com/showcase/ecotextile-news/
-
--   Materials matter in fashion https://textileexchange.org/
-
--   https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i
-
--   Minimize shopping, buy quality, save CO2, invest.
-
--   Ethical fashion https://textileexchange.org/ materials matter
-
--   Policy request: https://textileexchange.org/trade-policy-request-cop26/
-
--   Free clothes
-
--   Generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sustainable fashion brands
-
--   Fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8
-
--   https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287
-
--   https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html
-
--   https://infinitedfiber.com/
-
--   https://www.cleantech.com/the-global-cleantech-100/
-
--   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
-
-### Individual Climate Action {#individual-climate-action}
-
--   Individual climate action!!! https://twitter.com/kristiansn89/status/1578122916159520769
--   Give Gen-Z the tools to turn climate anger into positive change to transform companies
--   Cherry & Sneirson (2010) in Lavers et al. (2022) suggests “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum”
--   Echeverría et al. (2022) suggests greener modes of mobility.
-
-### Ratings and Scoring {#ratings-and-scoring}
-
--   Leafscore for product https://www.leafscore.com/
-
--   “Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
-
--   Ethical consumer ratings https://www.ethicalconsumer.org/
-
--   Fashion brand ratings
-
--   B Impact Assessment
-
--   Ethical Shopping
-
--   Largest consumer goods companies https://consumergoods.com/top-100-consumer-goods-companies-2021
-
-### Real World Data {#real-world-data}
-
--   O bank carbon calculator (Brasil)
-
--   “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle Debit Card”
-
--   https://www.taiwannews.com.tw/en/news/4492308
-
--   “access Mastercard’s big data database and calculates the amount of carbon emission of each transaction based on the type and amount of products or services purchased.”
-
-### Digital Product Passports {#digital-product-passports}
-
--   Nissinen et al. (2022) reports The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data.
-
-### Consumer Activism {#consumer-activism}
-
--   https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/dp/B079K3KTW9/ref=sr_1\_1?crid=3IQ598DT7ZCH4
-
--   https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5 contactt Kalle Lasn, Cultture Jam
-
--   “ESG Accessibility”, Large-scale accessibility to ESG,
-
--   Shop sustainability https://www.estwatch.ee/vastutustundlikkus-eesti-toidupoekettide-tarneahelates-2022
-
--   https://www.facebook.com/eewatch/posts/2010846515763300
-
--   Tarbimise jalajälg https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg
-
--   Credit Suisse (2022) Young consumers drive speed of eco change?
-
--   “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.” https://www.sec.gov/news/statement/peirce-blockfi-20220214
-
-### Packaging {#packaging}
-
--   https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today
-
--   https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability
-
--   https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
-
--   Coca Cola plastic pollution: https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution
-
--   https://www.sulapac.com/
-
-### Product Databases {#product-databases}
-
--   *StandardsMap* (n.d.), The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.”
-
--   Trends https://standardsmap.org/en/trends
-
--   https://howgood.com/
-
--   https://world.openfoodfacts.org/
-
--   https://product.okfn.org/
-
--   https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes
-
--   https://en.wikipedia.org/wiki/International_Article_Number
-
--   https://gtinsearch.org/
-
--   https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea
-
--   World product database
-
--   https://www3.wipo.int/wipogreen/en/
-
--   https://www.packworld.com/
-
--   Most sustainable companies. Make a database?
-
--   https://growensemble.com/environmentally-friendly-companies/
-
--   https://www.themuse.com/advice/companies-making-the-planet-better-2020
-
--   https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/
-
--   https://earthandhuman.org/most-sustainable-companies/
-
--   https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4
-
--   https://earth.org/worlds-most-sustainable-companies-in-2021/
-
-### Indexes {#indexes}
-
--   Rating Systems: Companies assess customer’s credit score, however how can customers rate companies.
-
-There are many different certifications
-
--   https://www.ethicalconsumer.org/
--   B Impact Assessment
--   sustainable brands
--   etc
--   Fair Trade
--   etc
--   Responsible business index https://indeks.csr.ee/en/
-
-Existing rankings
-
--   https://earth.org/worlds-most-sustainable-companies-in-2021/
--   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
-
-For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites. https://www.thegreenwebfoundation.org/
-
-## Sustainable Finance {#sustainable-finance}
-
--   Money connects all industries. People want to shop, save, invest sustainably - how to do it? - Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
-
--   UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
-
--   “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
-
--   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
-
-### Hedge Funds and DAOs {#hedge-funds-and-daos}
-
--   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
-
--   https://www.investopedia.com/tech/what-dao/
-
--   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
-
-### Financial Savings {#financial-savings}
-
--   Financial savings are the money you have in your pension fund for example. Savings are invested by the bank and make up the largest proportion on investments for the large majority of people (who are not active investor themselves).
-
--   https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
-
--   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33))
-
--   https://www.lawinsider.com/dictionary/environmental-savings
-
--   Ethical Savings
-
--   https://www.ecology.co.uk/savings
-
--   https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know
-
--   https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping
-
--   https://thegoodshoppingguide.com/
-
-### Transparency {#transparency}
-
--   Sites like Simply Wallstreet provide in-depth analysis: https://simplywall.st/ also same for crypto
-
--   Snowflake analysis like Simply Wallstreet
-
--   Savings Lottery: https://www.youtube.com/watch?v=-QjnvmCQdoE
-
-## Sustainable Investing {#sustainable-investing}
-
-### What is Sustainable Investing? {#what-is-sustainable-investing}
-
-There’s a growing literature suggesting it’s possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there’s evidence of ‘green’ buildings achieving a ‘higher financial return than conventional buildings, both in terms of rent and sale price’ (Oyedokun (2017)). There’s also a trend of investors looking for sustainability in addition to profits in a few countries.
-
--   For example - In Sweden “Preferences for sustainable and responsible equity funds
-
--   Lagerkvist et al. (2020) undertook a choice experiment with Swedish private investors.
-
--   Smith (2019) suggests 74% of Chinese youth are looking for “positive impact”.
-
--   Lingeswaran (2019) suggest philanthropy is on the rise in Asia however Ho (2019) counters investors are not sure how to separate sustainable assets from less sustainable ones.
-
-### Financial Inclusion {#financial-inclusion}
-
--   Tan (2020) proposes *“financial ecologies”* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
--   Li et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
-
-### B Corporations in Taiwan {#b-corporations-in-taiwan}
-
-B Corporations undergo strict assessment and adhere to stringent sustainability practices.
-
--   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=
--   https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/
--   https://www.citywealthmag.com/news/esg-branding-b-corps
--   https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg
--   https://www.youtube.com/watch?v=6WiBsm-YcNc
-
-### Factories {#factories}
-
--   Carbon-neutral factories “made in carbon-neutral factory” list of products
-
--   https://www.weforum.org/agenda/2022/01/carbon-neutral-manufacturing-possible-net-zero/
-
--   https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam - https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories
-
--   https://www.ingenco2.dk/
-
--   https://www.youtube.com/watch?v=ArPmrvyF5yA
-
-### Investment Products {#investment-products}
-
--   Main categories of investment products are: Stock Bonds Mutual Funds and ETFs Insurance Products such as Variable Annuities https://www.investor.gov/introduction-investing/investing-basics/investment-products
 
 ### Introduction {#introduction}
 
--   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors take care of investment decisions with our guidelines but without moment-to-moment involvement needed so as to save up our precious time? The key improvement of personalizing financial advice is understanding the user’s dynamic risk profile.
+-   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
+
+-   Lack of leadership. @capgeminiWorldBalanceWhy2022: “Many business leaders see sustainability as costly obligation rather than investment in the future”.
+
+-   Is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
+
+-   The key improvement of personalizing financial advice is understanding the user’s dynamic risk profile.
 
 -   Capponi et al. (2019) argues “The client has a risk profile that varies with time and to which the robo-advisor’s investment performance criterion dynamically adapts”.
 
--   The latest trend is the combination of consumption and investment. Every purchase you make contributes a small percentage - usually rounded up to the nearest dollar - to your investment accounts.The world will be very different in 30 years - it’s time to invest in services that make our societies resilient, able to robustly respond to rapid change. Research and product development go hand-in-hand; the outcome of this study can provide insights for new financial product and service development. Related to SDG 9: “Build resilient infrastructure, promote sustainable industrialization and foster innovation”. The complexity of the situation offers an opportunity for design to make it understandable for humans
+-   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
+
+-   Every purchase you make contributes a small percentage - usually rounded up to the nearest dollar - to your investment accounts. For example, Swedbank (n.d.), the leading bank of the Estonian market, offers a savings service where everyday payments made with one’s debit card are rounded up to the next Euro, and this amount is transferred to a separate account of.
+
+-   LHV (2020) The Estonian bank LHV offers micro-investing and micro-savings services. I find this an interesting user experience innovation that for an average Estonian means additional savings (or investments, based on your choice) of about 400€ per year.
+
+-   The world will be very different in 30 years - it’s time to invest in services that make our societies resilient, able to robustly respond to rapid change. Research and product development go hand-in-hand; the outcome of this study can provide insights for new financial product and service development. Related to SDG 9: “Build resilient infrastructure, promote sustainable industrialization and foster innovation”. The complexity of the situation offers an opportunity for design to make it understandable for humans
 
 -   As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently “good” for one’s life, in the same way, that doing sports is good, or eating healthy is good. It’s one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?
 
 -   Recently, the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
-
--   Swedbank (n.d.) The Swedish bank Swedbank, the leading bank of the Estonian market, offers a savings service where everyday payments made with one’s debit card are rounded up to the next Euro, and this amount is transferred to a separate account of.
-
--   LHV (2020) The Estonian bank LHV offers micro-investing and micro-savings services. I find this an interesting user experience innovation that for an average Estonian means additional savings (or investments, based on your choice) of about 400€ per year.
 
 -   Investing is a fundamentally hopeful act. It means I think there’s a future. Specifically, ‘green investing’ is investing in the future of our planet - but can we trust the sustainability practices the ‘green’ investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as ‘green’ energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a ‘green investor’ might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
 
@@ -457,83 +83,168 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   Margaryta Kirakosian & Angus Foote (2022) suggests “Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy.”
 
-### Payments {#payments}
+## Governments and Legislation {#governments-and-legislation}
 
--   https://grenpay.com/et
+-   PWC (2020) Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
--   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
+-   House of Commons (2002): Already in 2001, the UK government was discussing ways to promote sustainable investment “fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment”.
 
--   What if we gave consumers the tools to keep companies accountable?
+-   European Parliament (2014) Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: “more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments”.
 
--   Contactless Payments: https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
+-   Kenton (2020): Some key legislation for investors has been put in place recently, for example “MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors”. European Securities and Markets Authority (2017): “MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants”.
 
-### Hedge Funds {#hedge-funds}
+-   Quinson (2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z) While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
 
--   **Feature**: Make a climate hedge fund with friends
--   https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
--   Most successful investor invest together
--   Angelist
--   What does investing look like at the scale of billions of people? like IG
+### Digital Product Passports {#digital-product-passports}
 
-### Green investment platforms {#green-investment-platforms}
+-   Nissinen et al. (2022) reports The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data.
 
-There are many ‘green investment platforms’ who to trust?
+### Countering Greenwashing {#countering-greenwashing}
 
--   https://trine.com/
+-   Upcoming EU greenwashing legislation hopes to curb misleading communications by companies.
 
--   https://the-many.com
+-   Green investing only makes sense if it’s possible to distinguish sustainable investments from not sustainable ones.
 
--   https://sugi.earth/
+## Extended Producer Responsibility {#extended-producer-responsibility}
 
--   https://clim8invest.com/
+-   Steenmans & Ulfbeck (2023) Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
 
--   https://circa5000.com/
+-   Peng et al. (2023) finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
 
--   https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast
+***Design implications:** ERP and CDP data should be part of Green Filter.*
 
--   https://www.fairown.com/
+## Finance {#finance}
 
--   https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
+-   In 2022 the Global Gross Domestic Product (GDP) was estimated at around 100 Trillion USD Aaron O’Neill (n.d.).
 
--   Investing - Your investment fund’s ESG thesis investing thesis investing expert investing thesis research
+### Individual Climate Action {#individual-climate-action}
 
--   Investing thesis
+-   Individual climate action!!! https://twitter.com/kristiansn89/status/1578122916159520769
+-   Give Gen-Z the tools to turn climate anger into positive change to transform companies
+-   Cherry & Sneirson (2010) in Lavers et al. (2022) suggests “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum”
+-   Echeverría et al. (2022) suggests greener modes of mobility.
 
-### Open Banking {#open-banking}
+### Real World Data {#real-world-data}
 
--   “Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. ” investing into good companies
+-   O bank carbon calculator (Brasil)
 
-### Thematic Capital {#thematic-capital}
+-   “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle Debit Card”
 
--   Build a thematic portfolio
+-   https://www.taiwannews.com.tw/en/news/4492308
 
-### Digital Payments {#digital-payments}
+-   “access Mastercard’s big data database and calculates the amount of carbon emission of each transaction based on the type and amount of products or services purchased.”
 
--   Digital currencies make tracking easier - https://cbdctracker.org/
+### Product Databases {#product-databases}
 
--   WeChat, Alipay, vs digital yuan: https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad
+-   *StandardsMap* (n.d.), The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.”
 
--   https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html
+-   Trends https://standardsmap.org/en/trends
 
--   https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
+-   https://howgood.com/
 
--   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
+-   https://world.openfoodfacts.org/
 
--   https://sifted.eu/rankings/european-fintech-startups
+-   https://product.okfn.org/
 
-People are concerned with digital payments
+-   https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes
 
--   Jeff Benson (2022) “use the e-CNY network to increase financial surveillance.”
+-   https://en.wikipedia.org/wiki/International_Article_Number
 
--   democratize financial surveillance!
+-   https://gtinsearch.org/
 
--   Crypto tools allow you to look at any wallet already
+-   https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea
 
--   green transparency
+-   World product database
 
-### Crypto {#crypto}
+-   https://www3.wipo.int/wipogreen/en/
 
--   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto https://www.cnbc.com/video/2021/11/24/macro-story-has-changed-on-crypto-galaxy-digitals-mike-novogratz.html
+-   https://www.packworld.com/
+
+-   Most sustainable companies. Make a database?
+
+-   https://growensemble.com/environmentally-friendly-companies/
+
+-   https://www.themuse.com/advice/companies-making-the-planet-better-2020
+
+-   https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/
+
+-   https://earthandhuman.org/most-sustainable-companies/
+
+-   https://www.forbes.com/sites/samanthatodd/2020/01/21/who-are-the-100-most-sustainable-companies-of-2020/?sh=4b0147ba14a4
+
+-   https://earth.org/worlds-most-sustainable-companies-in-2021/
+
+## Sustainable Finance {#sustainable-finance}
+
+-   Money connects all industries. People want to shop, save, invest sustainably - how to do it? - Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
+
+-   **UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.**  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
+
+-   “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
+
+-   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
+
+### Savings {#savings}
+
+-   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
+
+-   https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
+
+-   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33))
+
+-   https://www.lawinsider.com/dictionary/environmental-savings
+
+-   Ethical Savings
+
+-   https://www.ecology.co.uk/savings
+
+-   https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know
+
+-   https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping
+
+-   https://thegoodshoppingguide.com/
+
+### Transparency {#transparency}
+
+-   Sites like Simply Wallstreet provide in-depth analysis: https://simplywall.st/ also same for crypto
+
+-   Snowflake analysis like Simply Wallstreet
+
+-   Savings Lottery: https://www.youtube.com/watch?v=-QjnvmCQdoE
+
+## Sustainable Investing {#sustainable-investing}
+
+### What is Sustainable Investing? {#what-is-sustainable-investing}
+
+There’s a growing literature suggesting it’s possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there’s evidence of ‘green’ buildings achieving a ‘higher financial return than conventional buildings, both in terms of rent and sale price’ (Oyedokun (2017)). There’s also a trend of investors looking for sustainability in addition to profits in a few countries.
+
+-   For example - In Sweden “Preferences for sustainable and responsible equity funds
+
+-   Lagerkvist et al. (2020) undertook a choice experiment with Swedish private investors.
+
+-   Smith (2019) suggests 74% of Chinese youth are looking for “positive impact”.
+
+-   Lingeswaran (2019) suggest philanthropy is on the rise in Asia however Ho (2019) counters investors are not sure how to separate sustainable assets from less sustainable ones.
+
+### Financial Inclusion {#financial-inclusion}
+
+-   Tan (2020) proposes *“financial ecologies”* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+-   Li et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
+-   Celo and Impact Market
+-   MicroLending
+
+## Investment Products {#investment-products}
+
+-   The main categories of investment products are, based on the *Investment Products \| Investor.gov* (n.d.)
+
+| Investment Product                            | Col2 |
+|-----------------------------------------------|------|
+| Stocks                                        |      |
+| Bonds                                         |      |
+| Mutual Funds                                  |      |
+| ETFs                                          |      |
+| Insurance Products such as Variable Annuities |      |
+|                                               |      |
 
 ### Green Bonds {#green-bonds}
 
@@ -549,53 +260,62 @@ People are concerned with digital payments
 
 -   Priscila Azevedo Rocha et al. (2022) suggests “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
 
+### Hedge Funds {#hedge-funds}
+
+-   **Feature**: Make a climate hedge fund with friends
+-   https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
+-   Most successful investor invest together
+-   Angelist
+-   What does investing look like at the scale of billions of people? like IG
+
+### Green Investment Platforms {#green-investment-platforms}
+
+There are many ‘green investment platforms’ who to trust?
+
+| Name          | Description | Link                     |
+|---------------|-------------|--------------------------|
+| Trine         |             | https://trine.com/       |
+| The Many      |             | https://the-many.com     |
+| Sugi          |             | https://sugi.earth/      |
+| ClimateInvest |             | https://clim8invest.com/ |
+| Circa5000     |             | https://circa5000.com/   |
+| FairOwn       |             | https://www.fairown.com/ |
+|               |             |                          |
+|               |             |                          |
+
+-   https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast
+
+-   https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
+
+-   Investing - Your investment fund’s ESG thesis investing thesis investing expert investing thesis research
+
+-   Investing thesis
+
+### Open Banking {#open-banking}
+
+-   “Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. ” investing into good companies
+
+### Thematic Capital {#thematic-capital}
+
+-   Build a thematic portfolio
+
+## Programmable Money {#programmable-money}
+
+### Crypto {#crypto}
+
+-   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto
+
 ## Community Investing {#community-investing}
 
 -   Build an investing community?
 
-### DAOs and Blockchain {#daos-and-blockchain}
+### Hedge Funds and DAOs {#hedge-funds-and-daos}
 
--   Build a DAO?
+-   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
 
-### Financial AI {#financial-ai}
+-   https://www.investopedia.com/tech/what-dao/
 
--   Malliaris & Salchenberger (1996) **(Need to pay for paper!)**
-
--   https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
-
--   Consumption is ruining the world the world thinking as an investor the investor mindset
-
--   Personalised portfolios https://vise.com/
-
--   Thai finance app https://play.google.com/store/apps/details?id=com.kasikornbank.kbtgpay&hl=en&gl=US
-
--   https://thaifintech.org/members/
-
--   https://www.benzinga.com/fintech/21/02/19692401/mobile-hedge-fund-platform-titan-raises-12-5m-series-a-led-by-general-catalyst
-
-### Money {#money}
-
--   A wide number of banks are offering services marketed a sustainable. It’s hard to decide.
-
--   *Design implication*: *As a user, I can use the app to compare banks available in my country*
-
--   Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
-
--   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
-
--   https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/
-
--   https://www.happonomy.org/sustainable-money-system/
-
--   https://makemymoneymatter.co.uk
-
--   https://seekingalpha.com/article/4381215-5-books-changed-life-investor
-
--   https://1e9.community/
-
--   https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
-
--   Consumer debt in the USA
+-   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
 
 ### Personalized Investing {#personalized-investing}
 
@@ -609,9 +329,58 @@ People are concerned with digital payments
 
 -   https://republic.com/maybefinance
 
-### Leadership {#leadership}
+## Indexes and Certifications {#indexes-and-certifications}
 
--   Capgemini (2022): “Many Business Leaders See Sustainability as Costly Obligation Rather Than Investment in the Future”
+-   Rating Systems: Companies assess customer’s credit score, however how can customers rate companies.
+
+| Rating System              | Link |
+|----------------------------|------|
+| B Corporation              |      |
+| ESG                        |      |
+| Fair Trade                 |      |
+| Responsible Business Index |      |
+|                            |      |
+
+There are many different certifications
+
+-   https://www.ethicalconsumer.org/
+-   B Impact Assessment
+-   sustainable brands
+-   Fair Trade
+-   Responsible business index https://indeks.csr.ee/en/
+
+Existing rankings
+
+-   https://earth.org/worlds-most-sustainable-companies-in-2021/
+-   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
+
+For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites. https://www.thegreenwebfoundation.org/
+
+### B Corporations in Taiwan {#b-corporations-in-taiwan}
+
+B Corporations undergo strict assessment and adhere to stringent sustainability practices.
+
+-   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=
+-   https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/
+-   https://www.citywealthmag.com/news/esg-branding-b-corps
+-   https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg
+-   https://www.youtube.com/watch?v=6WiBsm-YcNc
+
+### Ratings and Scoring {#ratings-and-scoring}
+
+-   Leafscore for product https://www.leafscore.com/
+
+-   “Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
+
+-   Ethical consumer ratings https://www.ethicalconsumer.org/
+
+-   Fashion brand ratings
+
+-   B Impact Assessment
+
+-   Ethical Shopping
+
+-   Largest consumer goods companies https://consumergoods.com/top-100-consumer-goods-companies-2021
 
 ## ESG {#esg}
 
@@ -757,6 +526,64 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   Emele Onu & Anthony Osae-Brown (2022) reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. “In Nigeria’s largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account.”
 
+### Payments {#payments}
+
+-   https://grenpay.com/et
+
+-   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
+
+-   What if we gave consumers the tools to keep companies accountable?
+
+-   Contactless Payments: https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
+
+### Money {#money}
+
+-   A wide number of banks are offering services marketed a sustainable. It’s hard to decide.
+
+-   *Design implication*: *As a user, I can use the app to compare banks available in my country*
+
+-   Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
+
+-   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
+
+-   https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/
+
+-   https://www.happonomy.org/sustainable-money-system/
+
+-   https://makemymoneymatter.co.uk
+
+-   https://seekingalpha.com/article/4381215-5-books-changed-life-investor
+
+-   https://1e9.community/
+
+-   https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
+
+-   Consumer debt in the USA
+
+### Digital Payments {#digital-payments}
+
+-   Digital currencies make tracking easier - https://cbdctracker.org/
+
+-   WeChat, Alipay, vs digital yuan: https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad
+
+-   https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html
+
+-   https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
+
+-   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
+
+-   https://sifted.eu/rankings/european-fintech-startups
+
+People are concerned with digital payments
+
+-   Jeff Benson (2022) “use the e-CNY network to increase financial surveillance.”
+
+-   democratize financial surveillance!
+
+-   Crypto tools allow you to look at any wallet already
+
+-   green transparency
+
 ## Sustainable Saving {#sustainable-saving}
 
 -   Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
@@ -807,7 +634,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers.
 
-### Robo-Advisors {#robo-advisors}
+### Robo-Advisors and Financial AI {#robo-advisors-and-financial-ai}
 
 -   Small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546
 -   Financial empowerment
@@ -817,6 +644,13 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   How do consumer become investors? https://blog.nbkcapitalsmartwealth.com/how-to-become-an-investor-instead-of-a-consumer/ https://www.entrepreneur.com/money-finance/turn-your-customers-into-investors/249851
 -   SmartWealth (n.d.) marketing materials say: “One of the greatest hurdles to financial independence is a consumer mindset.” One of the greatest hurdles to sustainability is a consumer mindset?
 -   Sustainable investing, kids watch TikTok lizlivingblue (n.d.)
+-   Malliaris & Salchenberger (1996) **(Need to pay for paper!)**
+-   https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
+-   Consumption is ruining the world the world thinking as an investor the investor mindset
+-   Personalised portfolios https://vise.com/
+-   Thai finance app https://play.google.com/store/apps/details?id=com.kasikornbank.kbtgpay&hl=en&gl=US
+-   https://thaifintech.org/members/
+-   https://www.benzinga.com/fintech/21/02/19692401/mobile-hedge-fund-platform-titan-raises-12-5m-series-a-led-by-general-catalyst
 
 ### Shopping Footprint {#shopping-footprint}
 
@@ -860,6 +694,24 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   https://www.accupass.com/event/2110290805421017463345
 -   https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why
 
+### Consumer Activism {#consumer-activism}
+
+-   https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/dp/B079K3KTW9/ref=sr_1\_1?crid=3IQ598DT7ZCH4
+
+-   https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5 contactt Kalle Lasn, Cultture Jam
+
+-   “ESG Accessibility”, Large-scale accessibility to ESG,
+
+-   Shop sustainability https://www.estwatch.ee/vastutustundlikkus-eesti-toidupoekettide-tarneahelates-2022
+
+-   https://www.facebook.com/eewatch/posts/2010846515763300
+
+-   Tarbimise jalajälg https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg
+
+-   Credit Suisse (2022) Young consumers drive speed of eco change?
+
+-   “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.” https://www.sec.gov/news/statement/peirce-blockfi-20220214
+
 ### Conscious Consumerism {#conscious-consumerism}
 
 -   Building customer loyalty is a key part of repeat business and financial predictability. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back.
@@ -901,13 +753,9 @@ BlackRock. (n.d.). *ESG investing in hedge funds*. https://www.blackrock.com/ins
 
 Bunq. (2020). *Bunq*. https://www.bunq.com/benefits/metalcard.
 
-Capgemini. (2022). *A World in Balance Why sustainability ambition is not translating to action*.
-
 Capponi, A., Ólafsson, S., & Zariphopoulou, T. (2019). *Personalized Robo-Advising : An Interactive Investment Process*.
 
 Cherry, M. A., & Sneirson, J. F. (2010). Beyond profit: Rethinking corporate social responsibility and greenwashing after the BP oil disaster. *Tul. L. Rev.*, *85*, 983.
-
-Christiansen, A., Hasse, G., & Tønder, R. (2021). *Extended Producer Responsibility in the Danish textile sector: Assessing the optimal development and implementation*.
 
 City of Malmö. (2017). *Green Bond Framework*.
 
@@ -921,15 +769,9 @@ Echeverría, L., Gimenez-Nadal, J. I., & Molina, J. A. (2022). Green mobility an
 
 Emele Onu, & Anthony Osae-Brown. (2022). Nigeria Caps ATM Cash Withdrawals at \$45 Daily to Push Digital Payments. *Bloomberg*.
 
-Emily Chan. (2022). Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation? *British Vogue*.
-
 Euronext. (2020). *Euronext launches suite of ESG products and services to empower sustainable growth*. https://www.euronext.com/en/about/media/euronext-press-releases/euronext-launches-suite-esg-products-and-services-empower.
 
 European Central Bank. (2019). Lending and payment systems in upheaval: The fintech challenge. In *European Central Bank*. https://www.ecb.europa.eu/press/key/date/2019/html/ecb.sp190226~d98d307ad4.en.html.
-
-European Commission. (2022). *Green Deal: New proposals to make sustainable products the norm and boost Europe’s resource independence*. https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013.
-
-European Environment Agency. (2022). *Textiles and the environment: The role of design in Europe’s circular economy*.
 
 European Parliament. (2014). *Directive 2014/65/EU: Vols. OJ L* (No. 32014L0065).
 
@@ -937,15 +779,11 @@ European Securities and Markets Authority. (2017). *MiFID II*. https://www.esma.
 
 Fotheringham, N. (2017). *How To Create A Greener Investment Portfolio*. https://www.huffingtonpost.ca/nikki-fotheringham/green-investment-portfolio_b\_15779446.html.
 
-Fuentes, C., Enarsson, P., & Kristoffersson, L. (2019). Unpacking package free shopping: Alternative retailing and the reinvention of the practice of shopping. *Journal of Retailing and Consumer Services*, *50*, 258–265. <https://doi.org/10.1016/j.jretconser.2019.05.016>
-
 Gemma Woodward. (2022). Good riddance ESG? 8 key problems that must be fixed. In *New Model Adviser*.
 
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
 Green Finance Platform. (2020). Green Fintech Trends for 2020 What’s to Come? In *Green Finance Platform*. https://greenfinanceplatform.org/news/green-fintech-trends-2020-%E2%80%93-what%E2%80%99s-come.
-
-HKTDC Research. (2022). *France Expands Producer Responsibility to Certain Textile Items; Recommends Limiting Hazardous Chemicals in School Supplies*. https://research.hktdc.com/en/article/MTEyNTg5ODAwNw.
 
 Ho, S. (2019). Asian Investors Are Increasingly Looking To Do Good But ’Impact Washing’ Remains A Concern. In *Green Queen*.
 
@@ -953,7 +791,7 @@ Hoikkala, H. (2019). H&M CEO Sees “Terrible” Fallout as Consumer Shaming Spr
 
 House of Commons. (2002). *Environmental Audit - Second Report*. https://publications.parliament.uk/pa/cm200102/cmselect/cmenvaud/363/363a17.htm.
 
-Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
+*Investment Products \| Investor.gov*. (n.d.). https://www.investor.gov/introduction-investing/investing-basics/investment-products.
 
 Jeff Benson. (2022). China Releases Digital Yuan Wallet as Bitcoin Crackdown Continues. In *Decrypt*. https://decrypt.co/89761/china-releases-digital-yuan-wallet-bitcoin-crackdown-continues.
 
@@ -963,17 +801,11 @@ Kenton, W. (2020). MiFID II. In *Investopedia*. https://www.investopedia.com/ter
 
 Kirakosian, M. (Noveber 16, 2020). LOIM launches circular bioeconomy fund inspired by Prince of Wales. In *Wealth Manager*. http://citywireselector.com/news/loim-launches-circular-bioeconomy-fund-inspired-by-prince-of-wales/a1425493.
 
-Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
-
-Kristina Kostap. (2022). LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga. *Postimees*.
-
 Kyle Wiggers. (2022). Makersite lands \$18M to help companies manage product supply chains. In *TechCrunch*. https://techcrunch.com/2022/10/18/makersite-lands-18m-to-help-companies-manage-product-supply-chains/.
 
 Lagerkvist, C. J., Edenbrandt, A. K., Tibbelin, I., & Wahlstedt, Y. (2020). Preferences for sustainable and responsible equity funds - A choice experiment with Swedish private investors. *Journal of Behavioral and Experimental Finance*, *28*, 100406. <https://doi.org/10.1016/j.jbef.2020.100406>
 
 Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
-
-Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
 LHV. (2020). *Microinvestment with Growth Account*.
 
@@ -999,7 +831,7 @@ Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints avail
 
 Oyedokun, T. B. (2017). Green premium as a driver of green-labelled commercial buildings in the developing countries: Lessons from the UK and US. *International Journal of Sustainable Built Environment*, *6*(2). <https://doi.org/10.1016/j.ijsbe.2017.12.007>
 
-Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. *Science*, *360*(6392), 987–992. <https://doi.org/10.1126/science.aaq0216>
+Peng, J., Shi, X., & Tong, X. (2023). Extended producer responsibility for low carbon transition in automobile industry. *Circular Economy*, *2*(2), 100036. <https://doi.org/10.1016/j.cec.2023.100036>
 
 Priscila Azevedo Rocha, Akshat Rathi, & Todd Gillespie. (2022). Greenwashing Enters a \$22 Trillion Debt Market, Derailing Climate Goals. In *Bloomberg*. https://www.bloomberg.com/news/features/2022-10-04/greenwashing-enters-a-22-trillion-debt-market-derailing-climate-goals#xj4y7vzkg.
 
@@ -1009,19 +841,15 @@ Quinson, T. (2020-08-31T17:00:13.652Z, 2020-08-31T17:00:13.652Z, 2020-08-31T17:0
 
 Reid, S. (2020). *University of Edinburgh goes big on green investment after HSBC tie-up*. https://www.scotsman.com/business/university-edinburgh-goes-big-green-investment-after-hsbc-tie-3048001.
 
-Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
-
-Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, *21*. <https://doi.org/10.1007/s11367-015-0924-5>
-
 Shashwat Mohanty. (2022). Green push or greenwash: Sustainable funds don’t buy Zomato’s ESG narrative. In *The Ken*. https://the-ken.com/story/green-push-or-greenwash-sustainable-funds-dont-buy-zomatos-esg-narrative/?utm_source=daily_story&utm_medium=email&utm_campaign=daily_newsletter.
 
 SmartWealth. (n.d.). How to Become an Investor Instead of a Consumer. In *The Smartwealth Digest*. https://blog.nbkcapitalsmartwealth.com/how-to-become-an-investor-instead-of-a-consumer/.
 
 Smith, T. (2019). For China’s Ultra Elite, Personal Growth is the New Luxury. In *Jing Daily*. https://jingdaily.com/chinas-ultra-elite-personal-growth-is-more-valuable-than-luxury-products/.
 
-Springmann, M., Clark, M. A., Rayner, M., Scarborough, P., & Webb, P. (2021). The global and regional costs of healthy and sustainable dietary patterns: A modelling study. *The Lancet Planetary Health*, *5*(11), e797–e807. <https://doi.org/10.1016/S2542-5196(21)00251-5>
-
 *StandardsMap*. (n.d.). https://standardsmap.org/en/home.
+
+Steenmans, K., & Ulfbeck, V. (2023). Fostering the circular economy through private law: Perspectives from the extended producer responsibility concept. *Resources, Conservation and Recycling*, *195*, 107016. <https://doi.org/10.1016/j.resconrec.2023.107016>
 
 Swedbank. (n.d.). *EasySaver*.
 
@@ -1032,10 +860,6 @@ Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on sup
 Tommy Tindall. (2023). Financial Actions Speak Louder Than Goals. In *NerdWallet*.
 
 Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority Publishing.
-
-van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
-
-Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 

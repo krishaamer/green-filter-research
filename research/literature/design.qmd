@@ -10,6 +10,7 @@ editor:
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
+import ResQClub from '../images/resq-club.png'
 ```
 # Design for Sustainability
 
@@ -40,6 +41,151 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   "Evolution of design for sustainability: From product design to design for system innovations and transitions"
 
+## Designing for Sustainable Shopping
+
+-   @weberMobileAppsSustainable2021 proposes a sustainable shopping guide.
+-   @fuentesUnpackingPackageFree2019 discusses package free shopping.
+-   @vanderwalParadoxGreenBe2016 discusses "status motives make people publicly display sustainable behavior".
+
+### Food Waste
+
+-   @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
+
+```{=mdx}
+<Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+-   Food saving apps https://www.facebook.com/groups/7573029179
+
+-   @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
+
+-   @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
+
+-   @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production.
+
+-   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective                         | Content                                                                               |
+|-------------------------|-----------------------------------------------|
+| *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
+| *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
+| *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
+| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"*                   |
+| "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
+
+-   ***Design Implication***: Where to shop rankings for groceries --- list worst offenders in terms of products --- shop and invest according to your values.
+
+-   Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
+
+-   Less impact of food https://techcrunch.com/2022/08/11/kuri-app/
+
+-   https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
+
+-   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
+
+-   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+
+-   "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce." https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
+
+-   Vertical farm in Taoyuan https://www.taiwannews.com.tw/en/news/3387047
+
+-   *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
+
+-   Farm to table https://techcrunch.com/tag/farm-to-table/
+
+-   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech
+
+-   https://lowercarboncapital.com/companies/
+
+-   Only make what is ordered.
+
+-   Farm to Fork https://www.youtube.com/watch?v=sMqtwbKc8EA
+
+## Fast Fashion, Sustainable Fashion, Textile Design
+
+-   European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (@europeanenvironmentagencyTextilesEnvironmentRole2022). Globally 87% of textile products are burned or landfilled after 1st consumer use (@kohlerCircularEconomyPerspectives2021).
+
+-   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (@christiansenExtendedProducerResponsibility2021).
+
+-   French EPR scheme was upgraded in 2020 to become more circular (@jacquesvernierExtendedProducerResponsibility2021).
+
+-   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (@hktdcresearchFranceExpandsProducer2022).
+
+-   @leungGreenDesign2021 There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design.
+
+-   Sneakers made from coffee https://twitter.com/RensOriginal
+
+-   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
+
+-   Fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
+
+-   https://renoon.com/ Ethical Shopping
+
+-   https://eu.sheepinc.com/?v=1666529932643
+
+-   Sustainable fashion company evaluations: https://goodonyou.eco/
+
+-   Ethical brand ratings. GStar https://directory.goodonyou.eco/brand/g-star-raw
+
+-   https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
+
+-   Worker's rights. https://www.instagram.com/p/CUXjfzfr7Ze/
+
+-   **Problem**: report says there's not enough transparency in fashion: https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022/amp can't be held accountable for their actions (or indeed, their lack of action https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp
+
+-   @emilychanWill2022Be2022 New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
+
+-   https://wikirate.org/ https://cordis.europa.eu/project/id/688364 https://fashionchecker.org/
+
+-   Circular textiles https://www.youtube.com/watch?v=pE9Xyk8eL_s&list=PLGI5qsCI2tYhq1_Gs3GQY1IlDbysDPurS
+
+-   Fashion https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/
+
+-   Fashion transparency https://www.fashionrevolution.org/about/transparency/ https://cleanclothes.org/ https://fashionchecker.org/
+
+-   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
+
+-   https://textilegenesis.com/
+
+-   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
+
+-   https://www.stand.earth/
+
+-   https://www.newstandardinstitute.org/
+
+-   https://www.bgmea.com.bd/
+
+-   "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism." https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
+
+-   https://www.linkedin.com/showcase/ecotextile-news/
+
+-   Materials matter in fashion https://textileexchange.org/
+
+-   https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i
+
+-   Minimize shopping, buy quality, save CO2, invest.
+
+-   Ethical fashion https://textileexchange.org/ materials matter
+
+-   Policy request: https://textileexchange.org/trade-policy-request-cop26/
+
+-   Free clothes
+
+-   Generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sustainable fashion brands
+
+-   Fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8
+
+-   https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287
+
+-   https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html
+
+-   https://infinitedfiber.com/
+
+-   https://www.cleantech.com/the-global-cleantech-100/
+
+-   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
+
 ### Group Purchases
 
 -   Buying in bulk for more savings.
@@ -52,13 +198,25 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
 
+### Packaging
+
+-   https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today
+
+-   https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability
+
+-   https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
+
+-   Coca Cola plastic pollution: https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution
+
+-   https://www.sulapac.com/
+
 ## Quantified Self
 
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
 
 -   @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walkin is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
 -   @giannakosFitbitLearningCapturing2020 used wearable devices to measured physiological parameters of students at school to determine their learning efficiency.
--   @shinWearableActivityTrackers2019
+-   @shinWearableActivityTrackers2019 synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles.
 -   @tsaiTranslationValidationTaiwan2019
 -   @burgerDevelopingSmartOperational2019
 -   @aromatarioHowMobileHealth2019 behavior changes
@@ -106,6 +264,18 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 -   https://www.bext360.com/
 -   https://fairfood.org/en/blockchain/
 -   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008.
+
+### Factories
+
+-   Carbon-neutral factories "made in carbon-neutral factory" list of products
+
+-   https://www.weforum.org/agenda/2022/01/carbon-neutral-manufacturing-possible-net-zero/
+
+-   https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam - https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories
+
+-   https://www.ingenco2.dk/
+
+-   https://www.youtube.com/watch?v=ArPmrvyF5yA
 
 ## Circular Economy
 
@@ -432,7 +602,7 @@ There's a number of user interface design patterns that have provide successful 
 -   @WEE2021100364 proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|-------------------|-----------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |
