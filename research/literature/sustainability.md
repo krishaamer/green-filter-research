@@ -287,8 +287,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 ### Inflation Reduction Act {#inflation-reduction-act}
 
--   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy
-
 ### Carbon Inequality {#carbon-inequality}
 
 -   Chancel (2022) suggests “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it”.
