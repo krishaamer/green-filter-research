@@ -13,7 +13,7 @@ import Humboldt from '../images/humboldt.jpg'
 ```
 # What is Sustainability?
 
--   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
+-   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
 
 -   @leprovostSupplyMultipleEcosystem2022: Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
@@ -36,7 +36,7 @@ import Humboldt from '../images/humboldt.jpg'
 
 ### Clean Water
 
--   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
+-   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html (**Need access!)**
 
 ### Clean Air
 
@@ -44,22 +44,23 @@ import Humboldt from '../images/humboldt.jpg'
 
 ### Housing
 
--   According to \@debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
+-   According to @debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
 
 ### Carbon Labeling
 
--   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; @climatepartnerLabellingCarbonFootprint2020).
+-   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products.
 
--    @thecarbontrustHowReduceYour: The Carbon Trust reports it's certified 27 thousand product footprints.
+-   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service.
 
-```{=html}
-<!-- -->
-```
--   @worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
+-   @thecarbontrustHowReduceYour: The Carbon Trust reports it's certified 27 thousand product footprints.
 
--   @crippaCO2EmissionsAll2022 shows global emissions 4.81 t CO2/cap
+-   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2 per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in 2020.
 
 -   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides CO2 emissions for all the countries around the world, per total emissions the top 10 are China, U.S.A. the European Union, India, Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of 2021.
+
+-   @ivanovaQuantifyingPotentialClimate2020: The average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
+
+-   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr."
 
 -   55% of emissions come from energy production.
 
@@ -67,11 +68,12 @@ import Humboldt from '../images/humboldt.jpg'
 
 -   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
 
--   @cohenPotentialRoleCarbon2012a
+-   @cohenPotentialRoleCarbon2012a argues carbon labels do influence consumer choice towards sustainability.
 
-### Population
+### Growing Population
 
--   According to @theeconomictimesClimateChangeEarth2022, in November 2022, Planet Earth's population reached 8 Billion people. The future population projections in @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022 predict 8.5B people by 2030 and 9.7B by 2050.
+-   According to @theeconomictimesClimateChangeEarth2022, in November 2022, Planet Earth's population reached 8 Billion people.
+-   The future population projections in @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022 predict 8.5B people by 2030 and 9.7B by 2050.
 -   While population growth puts higher pressure on Earth's resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (**FIND CITATION**).
 
 ### Overconsumption, Climate Change, Pollution
@@ -79,15 +81,10 @@ import Humboldt from '../images/humboldt.jpg'
 -   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale study on Meta's Facebook (n=108946), "Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities".
 -   Overconsumption is one of the root causes of climate change and marine plastic pollution.
 -   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
-
-### Overconsumption
-
--   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/
--   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+-   Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
+-   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.**
 -   https://www.wri.org/insights/how-build-circular-economy
 -   "Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap."
--   @ivanovaQuantifyingPotentialClimate2020 "The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East---to 1.7 tCO2eq/cap on average."
--   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr."
 
 ### Fossil Fuels and Energy
 
@@ -163,15 +160,11 @@ Design to reduce climate anxiety
 
 ## Zero Waste Lifestyle
 
--   https://www.youtube.com/watch?v=DyceCESZvYQ
+-   @tokyosimpleecolifeWhatLearnedMy2021
 
 ## Precision Fermentation and Cultivated Meat
 
 -   Meat products without farm animals
-
-## Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan)
-
--   https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
 
 ## Ecodesign for Sustainable Products
 
@@ -231,15 +224,17 @@ Design to reduce climate anxiety
 
 -   @ussecuritiesandexchangecommissionOfficeHoursGary2022 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
 
--   Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (@andreVoluntaryCarbonNeutral2022) and thus affected by consumer demand.
+-   @andreVoluntaryCarbonNeutral2022. Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected by consumer demand.
 
 -   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!
 
 -   Examples of greenwashing:
 
-    -    @geoffreysupranThreeShadesGreen2022 Greenwashing is widespread in company social media communications.
+    -   @geoffreysupranThreeShadesGreen2022 Greenwashing is widespread in company social media communications.
 
-        -   "Most plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022
+    ```         
+    -   "Most plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022
+    ```
 
 -   @napperEnvironmentalDeteriorationBiodegradable2019: Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment .
 
@@ -257,7 +252,7 @@ A number of new AI-based tools aim to find instances of greenwashing.
 
 -   https://www.climatebonds.net/about/team/krista-tukiainen
 
--   https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
+-   @purkissBigCompostExperiment2022 highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill.
 
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 

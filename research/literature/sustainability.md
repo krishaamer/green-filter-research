@@ -7,11 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`
-<!-- -->
-`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
@@ -19,7 +14,7 @@ import Humboldt from '../images/humboldt.jpg'
 
 # What is Sustainability? {#what-is-sustainability}
 
--   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management, today known as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
+-   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
 
 -   Le Provost et al. (2022): Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
@@ -42,7 +37,7 @@ import Humboldt from '../images/humboldt.jpg'
 
 ### Clean Water {#clean-water}
 
--   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html
+-   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html (**Need access!)**
 
 ### Clean Air {#clean-air}
 
@@ -50,21 +45,23 @@ import Humboldt from '../images/humboldt.jpg'
 
 ### Housing {#housing}
 
--   According to @debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
+-   According to Debnath et al. (2022) 39% of global CO2 emissions comes from the building sector.
 
 ### Carbon Labeling {#carbon-labeling}
 
--   Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service (ibid; ClimatePartner (2020)).
+-   Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products.
+
+-   Ibid and ClimatePartner (2020): Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service.
 
 -   The Carbon Trust (n.d.): The Carbon Trust reports it’s certified 27 thousand product footprints.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   World Resources Institute (2020) shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam.
-
--   Crippa et al. (2022) shows global emissions 4.81 t CO2/cap
+-   Crippa et al. (2022) shows global emissions 4.81 tonnes CO2 per capita. World Resources Institute (2020) shows the top 5 largest per capita CO2 emissions come from Oil Producers - Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in 2020.
 
 -   European Commission. Joint Research Centre. (2022) provides CO2 emissions for all the countries around the world, per total emissions the top 10 are China, U.S.A. the European Union, India, Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of 2021.
+
+-   Ivanova et al. (2020): The average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
+
+-   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
 
 -   55% of emissions come from energy production.
 
@@ -72,11 +69,12 @@ import Humboldt from '../images/humboldt.jpg'
 
 -   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
 
--   Cohen & Vandenbergh (2012)
+-   (**cohenPotentialRoleCarbon2012a?**) argues carbon labels do influence consumer choice towards sustainability.
 
-### Population {#population}
+### Growing Population {#growing-population}
 
--   According to The Economic Times (2022), in November 2022, Planet Earth’s population reached 8 Billion people. The future population projections in United Nations Department of Economic and Social Affairs, Population Division (2022) predict 8.5B people by 2030 and 9.7B by 2050.
+-   According to The Economic Times (2022), in November 2022, Planet Earth’s population reached 8 Billion people.
+-   The future population projections in United Nations Department of Economic and Social Affairs, Population Division (2022) predict 8.5B people by 2030 and 9.7B by 2050.
 -   While population growth puts higher pressure on Earth’s resources, some research shows the effect is more from wasteful lifestyles than the raw number of people (**FIND CITATION**).
 
 ### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
@@ -84,15 +82,10 @@ import Humboldt from '../images/humboldt.jpg'
 -   In Anthony Leiserowitz et al. (2022), a large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
 -   Overconsumption is one of the root causes of climate change and marine plastic pollution.
 -   Ford et al. (2022) and Lavers et al. (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
-
-### Overconsumption {#overconsumption}
-
--   https://time.com/6139814/eu-demand-consumers-ecosystems-environment/
--   https://roheportaal.delfi.ee/artikkel/95666287/graafik-maailma-looduse-fond-eurooplaste-tarbimine-ahvardab-havitada-maailma-okosusteeme
+-   Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
+-   WWF (2022) **case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.**
 -   https://www.wri.org/insights/how-build-circular-economy
 -   “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
--   Ivanova et al. (2020) “The average per capita carbon footprint of North America and Europe amount to 13.4 and 7.5 tCO2eq/cap, respectively, while that of Africa and the Middle East—to 1.7 tCO2eq/cap on average.”
--   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
 
 ### Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
@@ -132,15 +125,15 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   Animal rights vs animal welfare
 
--   Mamede et al. (2022) proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
+-   (**mamedeElementalFingerprintingSea2022a?**) proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 
--   Waters (2015) **(Need access!)**
+-   (**watersEthicsChoiceAnimal2015a?**) **(Need access!)**
 
--   Cawthorn & Hoffman (2016) **(Need access!)**
+-   (**cawthornControversialCuisineGlobal2016a?**) **(Need access!)**
 
--   Gamborg & Jensen (2017) **(Need access!)**
+-   (**gamborgAttitudesRecreationalHunting2017a?**) **(Need access!)**
 
--   Bailey & Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
+-   (**baileyMappingActorsArguments2020a?**) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 
 -   Van Wassenaer et al. (2023) Compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain. There are several technologies for tracking goods from shipping chain with OriginTrail, including OriginTrail, Bext360, Everledger, Provenance.
 
@@ -168,15 +161,11 @@ Design to reduce climate anxiety
 
 ## Zero Waste Lifestyle {#zero-waste-lifestyle}
 
--   https://www.youtube.com/watch?v=DyceCESZvYQ
+-   Tokyo Simple Eco Life (2021)
 
 ## Precision Fermentation and Cultivated Meat {#precision-fermentation-and-cultivated-meat}
 
 -   Meat products without farm animals
-
-## Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) {#estonian-green-deal-action-plan-eesti-rohepöörde-tegevusplaan}
-
--   https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan
 
 ## Ecodesign for Sustainable Products {#ecodesign-for-sustainable-products}
 
@@ -236,7 +225,7 @@ Design to reduce climate anxiety
 
 -   US Securities and Exchange Commission (2022) Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
 
--   Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary (André & Valenciano-Salazar (2022)) and thus affected by consumer demand.
+-   1.  Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected by consumer demand.
 
 -   Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not. Reading EU Commission’s proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It’s possible to curb greenwashing!
 
@@ -264,7 +253,7 @@ A number of new AI-based tools aim to find instances of greenwashing.
 
 -   https://www.climatebonds.net/about/team/krista-tukiainen
 
--   https://www.frontiersin.org/articles/10.3389/frsus.2022.942724/full
+-   Purkiss et al. (2022) highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill.
 
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
@@ -433,15 +422,11 @@ American Press Institute. (2022). *Knowing the news: How Gen Z and Millennials g
 
 Amin, S., Jamasb, T., Llorca, M., Marsiliani, L., & Renström, T. I. (2022). Decarbonisation policies and energy price reforms in Bangladesh. *Energy Policy*, *170*, 113224. <https://doi.org/10.1016/j.enpol.2022.113224>
 
-André, F. J., & Valenciano-Salazar, J. A. (2022). Voluntary carbon neutral programs. Adoption and firms’ strategies. *Journal of Cleaner Production*, 135191. <https://doi.org/10.1016/j.jclepro.2022.135191>
-
 Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider, & Kelsey Mulcahy. (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
 
 Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J., & Lenton, T. M. (2022). Exceeding 1.5 global warming could trigger multiple climate tipping points. *Science*, *377*(6611), eabn7950. <https://doi.org/10.1126/science.abn7950>
 
 Ashraf, M., & Heavey, C. (2023). A Prototype of Supply Chain Traceability using Solana as blockchain and IoT. *Procedia Computer Science*, *217*, 948–959. <https://doi.org/10.1016/j.procs.2022.12.292>
-
-Bailey, J. L., & Eggereide, S. S. (2020). Mapping actors and arguments in the Norwegian aquaculture debate. *Marine Policy*, *115*, 103898. <https://doi.org/10.1016/j.marpol.2020.103898>
 
 Booth, M. S. (2022). *Burning up the carbon sink: How the EU’s forest biomass policy undermines climate mitigation, and how it can be reformed*. Partnership for Policy Integrity.
 
@@ -459,8 +444,6 @@ Caldarelli, G., Rossignoli, C., & Zardini, A. (2020). Overcoming the Blockchain 
 
 Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
 
-Cawthorn, D.-M., & Hoffman, L. C. (2016). Controversial cuisine: A global account of the demand, supply and acceptance of “unconventional” and “exotic” meats. *Meat Science*, *120*, 19–36. <https://doi.org/10.1016/j.meatsci.2016.04.017>
-
 Chainlink. (2022). New Report: Blockchains and Oracles Are Redefining the Energy Industry. In *Chainlink Blog*.
 
 Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 931–938. <https://doi.org/10.1038/s41893-022-00955-z>
@@ -471,9 +454,9 @@ Circle Economy. (2022). *The Circularity Gap Report 2022*.
 
 ClimatePartner. (2020). *Labelling the carbon footprint of food and consumer goods*. https://www.climatepartner.com/en/news/labelling-consumer-goods.
 
-Cohen, M. A., & Vandenbergh, M. P. (2012). The potential role of carbon labeling in a green economy. *Energy Economics*, *34*, S53–S63. <https://doi.org/10.1016/j.eneco.2012.08.032>
-
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
+
+Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
 
 Dutta, P., Choi, T.-M., Somani, S., & Butala, R. (2020). Blockchain technology in supply chain operations: Applications, challenges and research opportunities. *Transportation Research Part E: Logistics and Transportation Review*, *142*, 102067. <https://doi.org/10.1016/j.tre.2020.102067>
 
@@ -488,8 +471,6 @@ Fransen, T., Henderson, C., O’Connor, R., Alayza, N., Caldwell, M., Chakrabart
 Frédéric Simon. (2020). *Commission under fire for including “carbon sinks” into EU climate goals*. https://www.euractiv.com/section/climate-environment/news/commission-under-fire-for-including-carbon-sinks-into-eu-climate-goals/.
 
 Frédéric Simon. (2022). Europe rapidly losing its forest carbon sink, study shows. In *www.euractiv.com*. https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/.
-
-Gamborg, C., & Jensen, F. S. (2017). Attitudes towards recreational hunting: A quantitative survey of the general public in Denmark. *Journal of Outdoor Recreation and Tourism*, *17*, 20–28. <https://doi.org/10.1016/j.jort.2016.12.002>
 
 Gaure, S., & Golombek, R. (2022). True or not true: CO2 free electricity generation is possible. *Energy*, *259*, 124998. <https://doi.org/10.1016/j.energy.2022.124998>
 
@@ -526,8 +507,6 @@ Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spa
 Luo, J., Paduraru, C., Voicu, O., Chervonyi, Y., Munns, S., Li, J., Qian, C., Dutta, P., Davis, J. Q., Wu, N., Yang, X., Chang, C.-M., Li, T., Rose, R., Fan, M., Nakhost, H., Liu, T., Kirkman, B., Altamura, F., … Mankowitz, D. J. (2022). *Controlling Commercial Cooling Systems Using Reinforcement Learning*. <https://doi.org/10.48550/ARXIV.2211.07357>
 <span class="csl-block">Other27 pages, 11 figures</span>
 
-Mamede, R., Duarte, I. A., Caçador, I., Tanner, S. E., Silva, M., Jacinto, D., Fonseca, V. F., & Duarte, B. (2022). Elemental fingerprinting of sea urchin (Paracentrotus lividus) gonads to assess food safety and trace its geographic origin. *Journal of Food Composition and Analysis*, *114*, 104764. <https://doi.org/10.1016/j.jfca.2022.104764>
-
 Moberg, K. R., Aall, C., Dorner, F., Reimerson, E., Ceron, J.-P., Sköld, B., Sovacool, B. K., & Piana, V. (2019). Mobility, food and housing: Responsibility, individual consumption and demand-side policies in European deep decarbonisation pathways. *Energy Efficiency*, *12*(2), 497–519. <https://doi.org/10.1007/s12053-018-9708-7>
 
 Napper, I. E., & Thompson, R. C. (2019). Environmental Deterioration of Biodegradable, <span class="nocase">Oxo-biodegradable</span>, Compostable, and Conventional Plastic Carrier Bags in the Sea, Soil, and Open-Air Over a 3-Year Period. *Environ. Sci. Technol.*, *53*(9), 4775–4783. <https://doi.org/10.1021/acs.est.8b06984>
@@ -546,6 +525,8 @@ Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen 
 
 *Public Health Linkages with Sustainability: Workshop Summary* (p. 18375). (2013). \[Computer software\]. National Academies Press. <https://doi.org/10.17226/18375>
 
+Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022). The Big Compost Experiment: Using citizen science to assess the impact and effectiveness of biodegradable and compostable plastics in UK home composting. *Front. Sustain.*, *3*, 942724. <https://doi.org/10.3389/frsus.2022.942724>
+
 Ray, P. P. (2023). Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions. *Internet of Things and Cyber-Physical Systems*, *3*, 213–248. <https://doi.org/10.1016/j.iotcps.2023.05.003>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
@@ -557,6 +538,8 @@ Stern, N. (2022). Towards a carbon neutral economy: How government should respon
 The Carbon Trust. (n.d.). *Q&A: How to reduce your carbon footprint through your everyday shopping*. https://www.carbontrust.com/resources/qa-how-to-reduce-your-carbon-footprint-through-your-everyday-shopping.
 
 The Economic Times. (2022). *Climate change: Earth at 8 billion: Consumption not crowd is key to climate*. https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
+
+Tokyo Simple Eco Life. (2021). *What I learned from my Zero Waste life in Japan*.
 
 Tol, R. S. J. (2019). A social cost of carbon for (almost) every country. *Energy Economics*, *83*, 555–566. <https://doi.org/10.1016/j.eneco.2019.07.006>
 
@@ -578,10 +561,10 @@ Wang, T.-P., & Teng, F. (2022). A multi-model assessment of climate change damag
 
 Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, *321*, 115993. <https://doi.org/10.1016/j.jenvman.2022.115993>
 
-Waters, J. (2015). Ethics and the choice of animal advocacy campaigns. *Ecological Economics*, *119*, 107–117. <https://doi.org/10.1016/j.ecolecon.2015.08.014>
-
 Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
 
 World Resources Institute. (2020). *CO2 emissions (metric tons per capita) \| Data*. https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
+
+WWF. (2022). *Beyond Forests: Reducing the EU’s footprint on all natural ecosystems*. World Wide Fund For Nature.
 
 Zhen, Z., Tian, L., & Ye, Q. (2018). A simple estimate for the social cost of carbon. *Energy Procedia*, *152*, 768–773. <https://doi.org/10.1016/j.egypro.2018.09.243>
