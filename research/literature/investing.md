@@ -708,7 +708,7 @@ People are concerned with digital payments
 
 -   *Design implication*: *As a user, I can use the app to compare banks available in my country*
 
--   Ant Group’s Eric Jing: *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”* in Turrin (2021)
+-   Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
 
 -   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
 

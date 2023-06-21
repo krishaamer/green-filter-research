@@ -35,13 +35,23 @@ import Humboldt from '../images/humboldt.jpg'
 | 34%            | Mobility |
 | 15%            | Other    |
 
+## Biodiversity {#biodiversity}
+
+-   UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
+-   United Nations Convention on Biodiversity
+
+## Pollution {#pollution}
+
 ### Clean Water {#clean-water}
 
 -   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html (**Need access!)**
 
-### Clean Air {#clean-air}
+### Air Pollution and Clean Air {#air-pollution-and-clean-air}
 
--   How to achieve it?
+-   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
+-   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
+
+**Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
 ### Housing {#housing}
 
@@ -86,6 +96,7 @@ import Humboldt from '../images/humboldt.jpg'
 -   WWF (2022) **case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.**
 -   https://www.wri.org/insights/how-build-circular-economy
 -   “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
+-   Armstrong McKay et al. (2022) discusses tipping points
 
 ### Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
@@ -147,18 +158,6 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   Patel et al. (2023)
 
-## Climate Anxiety {#climate-anxiety}
-
-Design to reduce climate anxiety
-
--   Whitmarsh et al. (2022) shows how climate anxiety is more prevalent among young people and is a possible motivator for climate action.
-
--   Ogunbode et al. (2022) finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism.
-
--   Finds that climate anxiety predicts joining climate action movements
-
--   How to support the youth?
-
 ## Zero Waste Lifestyle {#zero-waste-lifestyle}
 
 -   Tokyo Simple Eco Life (2021)
@@ -197,9 +196,13 @@ Design to reduce climate anxiety
 
 -   What really works on a large scale?
 
-## The State of Nationally Determined Contributions: 2022 {#the-state-of-nationally-determined-contributions-2022}
+## Nationally Determined Contributions {#nationally-determined-contributions}
 
--   Fransen et al. (2022) notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
+-   Climate action tracker https://climateactiontracker.org/countries/
+-   “triple turn”
+-   lack of transparency
+-   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
+-   The State of Nationally Determined Contributions: 2022 Fransen et al. (2022) notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
 ### Health {#health}
 
@@ -231,15 +234,13 @@ Design to reduce climate anxiety
 
 -   Examples of greenwashing:
 
-    -   Geoffrey Supran (2022) Greenwashing is widespread in company social media communications.
+    Geoffrey Supran (2022) Greenwashing is widespread in company social media communications.
 
-    ``` text
-    -   "Most plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months" @purkissBigCompostExperiment2022
-    ```
+-   Purkiss et al. (2022) highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill. For example, “Most plastics marketed as”home compostable” don’t actually work, with as much as 60% failing to disintegrate after six months”
 
 -   Napper & Thompson (2019): Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment .
 
--   Frédéric Simon (2020) and @kirataylorEUPlanPuts2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing.
+-   Frédéric Simon (2020) and Kira Taylor (2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing.
 
 -   Sometimes greenwashing comes under legislative protection. Booth (2022) describe how “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program”.
 
@@ -253,13 +254,7 @@ A number of new AI-based tools aim to find instances of greenwashing.
 
 -   https://www.climatebonds.net/about/team/krista-tukiainen
 
--   Purkiss et al. (2022) highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill.
-
 **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
-
-### Climate Change {#climate-change}
-
--   Armstrong McKay et al. (2022) discusses tipping points
 
 ### European Green Deal {#european-green-deal}
 
@@ -290,18 +285,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   United Nations Environment Programme (2022) 2022 Emissions Gap report.
 
-### Biodiversity {#biodiversity}
-
--   UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
--   United Nations Convention on Biodiversity
-
-### Country Contributions {#country-contributions}
-
--   Climate action tracker https://climateactiontracker.org/countries/
--   “triple turn”
--   lack of transparency
--   Call for GOP contributors’ transparency https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report
-
 ### Inflation Reduction Act {#inflation-reduction-act}
 
 -   https://www.dailykos.com/stories/2022/10/5/2127204/-Climate-Brief-IRA-s-Uncapped-Tax-Credits-Could-Explode-America-s-Economy
@@ -318,7 +301,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   Carbon price https://apnews.com/article/science-climate-and-environment-government-politics-4c1e8783694201355f88012079367f27
 
--   Social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon#:~:text=The%20social%20cost%20of%20carbon%20is%20a%20calculation%20focused%20on,CO%202%20(%2FtCO%202).
+-   Social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon
 
 -   https://news.stanford.edu/2021/06/07/professors-explain-social-cost-carbon/
 
@@ -336,7 +319,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   Jerrett et al. (2022) says, In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.”
 
--   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarios of climate damage
+-   Quantifying climate damage (T.-P. Wang & Teng (2022)) proposes scenarios of climate damage.
 
 ### Ecosystem Services {#ecosystem-services}
 
@@ -359,13 +342,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals (*ADD CITATION*).**
 
-### Air Pollution {#air-pollution}
-
--   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
--   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
-
-**Design Implications**: *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
-
 ### Carbon Capture {#carbon-capture}
 
 -   Vitillo et al. (2022) argues
@@ -382,11 +358,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   **Important: “creating sustainability trust in companies in realtime”**
 
-## Circular Economy {#circular-economy}
-
--   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
--   There’s a growing number of companies providing re-use of existing items. For example, Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
-
 ## Data Visualisation History {#data-visualisation-history}
 
 -   Brohan et al. (2012) reports global temperature measurement starts from the 1880s where we have the first records from ships.
@@ -398,15 +369,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 ``` mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
-
-### Making CO2 Visible {#making-co2-visible}
-
--   When will Bolt show CO2 emissions per every trip?
--   How co2 is shown by Google https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
--   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
--   *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
--   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
--   Check carbon impact https://wizzair.chooose.today/
 
 ## Conclusion {#conclusion}
 
@@ -450,8 +412,6 @@ Chancel, L. (2022). Global carbon inequality over 1990. *Nat Sustain*, *5*(11), 
 
 Cheng, Y., & Han, X. (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, *26*, 100286. <https://doi.org/10.1016/j.cliser.2022.100286>
 
-Circle Economy. (2022). *The Circularity Gap Report 2022*.
-
 ClimatePartner. (2020). *Labelling the carbon footprint of food and consumer goods*. https://www.climatepartner.com/en/news/labelling-consumer-goods.
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
@@ -492,6 +452,8 @@ Jerrett, M., Jina, A. S., & Marlier, M. E. (2022). Up in smoke: California’s g
 
 Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine and War*, *4*(1), 17–25. <https://www.jstor.org/stable/45353161>
 
+Kira Taylor. (2021). *EU plan puts spotlight on carbon sinks to tackle climate change*. https://www.euractiv.com/section/climate-environment/news/eu-draft-puts-spotlight-on-improving-carbon-sinks-to-tackle-climate-change/.
+
 Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
 
 Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
@@ -517,8 +479,6 @@ Neethirajan, S., & Kemp, B. (2021). Digital Livestock Farming. *Sensing and Bio-
 
 Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
 
-Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
-
 Patel, A. S., Brahmbhatt, M. N., Bariya, A. R., Nayak, J. B., & Singh, V. K. (2023). “Blockchain technology in food safety and traceability concern to livestock products.” *Heliyon*, *9*(6), e16526. <https://doi.org/10.1016/j.heliyon.2023.e16526>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
@@ -530,8 +490,6 @@ Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022).
 Ray, P. P. (2023). Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions. *Internet of Things and Cyber-Physical Systems*, *3*, 213–248. <https://doi.org/10.1016/j.iotcps.2023.05.003>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
-
-Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
 
@@ -560,8 +518,6 @@ Vitillo, J. G., Eisaman, M. D., Aradóttir, E. S. P., Passarini, F., Wang, T., &
 Wang, T.-P., & Teng, F. (2022). A multi-model assessment of climate change damage in China and the world. *Advances in Climate Change Research*, *13*(3), 385–396. <https://doi.org/10.1016/j.accre.2022.04.005>
 
 Wang, Y., Ma, Y., & Wang, T. (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, *321*, 115993. <https://doi.org/10.1016/j.jenvman.2022.115993>
-
-Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
 
 World Resources Institute. (2020). *CO2 emissions (metric tons per capita) \| Data*. https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
 

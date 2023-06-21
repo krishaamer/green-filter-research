@@ -108,6 +108,11 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 -   https://fairfood.org/en/blockchain/
 -   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008.
 
+## Circular Economy {#circular-economy}
+
+-   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
+-   There’s a growing number of companies providing re-use of existing items. For example, Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
+
 ### Circular Supply Chains {#circular-supply-chains}
 
 -   https://greendice.com/for-a-company/
@@ -229,6 +234,27 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   McDonough & Braungart (2002) book
 -   Dull (2021) book
+
+### Climate Anxiety {#climate-anxiety}
+
+Design to reduce climate anxiety
+
+-   Whitmarsh et al. (2022) shows how climate anxiety is more prevalent among young people and is a possible motivator for climate action.
+
+-   Ogunbode et al. (2022) finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism.
+
+-   Finds that climate anxiety predicts joining climate action movements
+
+-   How to support the youth?
+
+### Making CO2 Visible {#making-co2-visible}
+
+-   When will Bolt show CO2 emissions per every trip?
+-   How co2 is shown by Google https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+-   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
+-   *Google UX eco features* https://www.theverge.com/2021/10/6/22711623/google-climate-change-greenhouse-gas-emissions-carbon-footprint-maps-search-travel https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
+-   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
+-   Check carbon impact https://wizzair.chooose.today/
 
 ### Eco-Design {#eco-design}
 
@@ -395,7 +421,7 @@ There’s a number of user interface design patterns that have provide successfu
 -   Wee et al. (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |
@@ -539,6 +565,8 @@ Chapman, J. (2009). Design for (Emotional) Durability. *Design Issues*, *25*(4),
 
 Cheba, K., Bąk, I., Szopik-Depczyńska, K., & Ioppolo, G. (2022). Directions of green transformation of the European Union countries. *Ecological Indicators*, *136*, 108601. <https://doi.org/10.1016/j.ecolind.2022.108601>
 
+Circle Economy. (2022). *The Circularity Gap Report 2022*.
+
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
 Daniel Värjö. (2022). *Nya satelliter avslöjar dolda utsläpp av växthusgaser*. Sveriges Radio.
@@ -622,6 +650,8 @@ Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologi
 
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
+Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
+
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
 Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L., Maier, H. R., Schlink, U., Steinle, S., Vieno, M., & Wimberly, M. C. (2015). Integrating modelling and smart sensors for environmental and human health. *Environmental Modelling & Software*, *74*, 238–246. <https://doi.org/10.1016/j.envsoft.2015.06.003>
@@ -636,6 +666,8 @@ Rossi, M., Cappelletti, F., & Germani, M. (2022). Design for environmental susta
 Ruiz-Pastor, L., Chulvi, V., Mulet, E., & Royo, M. (2022). A metric for evaluating novelty and circularity as a whole in conceptual design proposals. *Journal of Cleaner Production*, *337*, 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>
 
 Ryan, M. (2022). The ethics of dietary apps: Technology, health, and the capability approach. *Technology in Society*, *68*, 101873. <https://doi.org/10.1016/j.techsoc.2022.101873>
+
+Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
 
 Saubade, M., Karatzios, C., Besson, C., Farasse, A.-C., Charles, B., & Gremion, G. (2016). Promoting physical activity: What do we have available to motivate our patients? *Annals of Physical and Rehabilitation Medicine*, *59*, e54–e55. <https://doi.org/10.1016/j.rehab.2016.07.125>
 
@@ -667,6 +699,8 @@ Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular e
 Vecchi, A., & Brennan, L. (2022). Two tales of internationalization Chinese internet firms’ expansion into the European market. *Journal of Business Research*, *152*, 106–127. <https://doi.org/10.1016/j.jbusres.2022.07.024>
 
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
+
+Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
 
 Why tracing seafood from sea to plate is the next frontier in sustainability \| Stories \| WWF. (n.d.). In *World Wildlife Fund*. https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability.
 
