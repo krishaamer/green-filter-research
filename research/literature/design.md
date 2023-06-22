@@ -126,6 +126,10 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Gyabaah et al. (2023) research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
 
+-   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+
+-   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+
 -   Fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
 
 -   https://renoon.com/ Ethical Shopping
@@ -217,6 +221,8 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 -   Coca Cola plastic pollution: https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution
 
 -   https://www.sulapac.com/
+
+-   Ada et al. (2023) notes rapid growth of the packaging industry which generates large amounts of waste.
 
 ## Quantified Self {#quantified-self}
 
@@ -716,6 +722,8 @@ TODO design summary.
 
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
+Ada, E., Kazancoglu, Y., Gozacan-Chase, N., & Altin, O. (2023). Challenges for Circular Food Packaging: Circular Resources Utilization. *Applied Food Research*, 100310. <https://doi.org/10.1016/j.afres.2023.100310>
+
 Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
 
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
@@ -832,6 +840,8 @@ Jeni Miles. (2022). Becoming a Sustainability-Aware App or Game. In *Google Play
 
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
 
+Kiessling, T., Hinzmann, M., Mederake, L., Dittmann, S., Brennecke, D., Böhm-Beck, M., Knickmeier, K., & Thiel, M. (2023). What potential does the EU Single-Use Plastics Directive have for reducing plastic pollution at coastlines and riversides? An evaluation based on citizen science data. *Waste Management*, *164*, 106–118. <https://doi.org/10.1016/j.wasman.2023.03.042>
+
 Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainability. *Health Promotion International*, *29*(3), 558–568. <https://doi.org/10.1093/heapro/das071>
 
 Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
@@ -934,6 +944,8 @@ Why tracing seafood from sea to plate is the next frontier in sustainability \| 
 Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
 
 Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, *97*, 106902. <https://doi.org/10.1016/j.eiar.2022.106902>
+
+Yap, K. S., Leow, Y. J., Chung, S. Y., Loke, C. P. H., Tan, D. Z. L., Yeo, Z., & Low, J. S. C. (2023). Life Cycle Assessment of <span class="nocase">Plastic Waste End-of-life Treatments</span> in Singapore. *Procedia CIRP*, *116*, 522–527. <https://doi.org/10.1016/j.procir.2023.02.088>
 
 Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
 

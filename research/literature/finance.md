@@ -113,6 +113,8 @@ import Bunq from '../images/bunq.jpg'
 
 -   Thukral & Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
+-   Liu et al. (2023) e–waste is growing 3%–5% every year.
+
 ***Design implications:** ERP and CDP data should be part of Green Filter.*
 
 ## Finance {#finance}
@@ -814,6 +816,8 @@ LHV. (2020). *Microinvestment with Growth Account*.
 Li, M., Li, N., Khan, M. A., Khaliq, N., & Rehman, F. U. (2022). Can retail investors induce corporate green innovation? -Evidence from Baidu Search Index. *Heliyon*, *8*(6), e09663. <https://doi.org/10.1016/j.heliyon.2022.e09663>
 
 Lingeswaran, S. (2019). *Levelling up: Shattering myths about philanthropy in Asia*. https://www.campdenfb.com/article/levelling-shattering-myths-about-philanthropy-asia.
+
+Liu, K., Tan, Q., Yu, J., & Wang, M. (2023). A global perspective on e-waste recycling. *Circular Economy*, *2*(1), 100028. <https://doi.org/10.1016/j.cec.2023.100028>
 
 lizlivingblue. (n.d.). *It’s so important we support companies making a positive IMPACT in the #impactinvesting 💚💸 \#<span class="nocase">investwithIMPACT</span> #sustainabilitytok*. https://www.tiktok.com/@lizlivingblue/video/7059421371851377926.
 
