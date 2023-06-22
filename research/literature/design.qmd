@@ -234,6 +234,13 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   @adaChallengesCircularFood2023 notes rapid growth of the packaging industry which generates large amounts of waste.
 
+## What is Interaction Design?
+
+-   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign believes interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+-   @weinschenk100ThingsEvery2011 says "People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."
+-   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say ssome of the tools used by interaction designers include
+-   Red Route Analysis
+
 ## Quantified Self
 
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
@@ -626,7 +633,7 @@ There's a number of user interface design patterns that have provide successful 
 -   @WEE2021100364 proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |

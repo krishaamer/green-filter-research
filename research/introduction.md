@@ -128,7 +128,7 @@ For the average person, our experience is limited with buying things at the supe
 
 First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
 
-According to a Calastone study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France (Calastone (2020)).
+According to a Calastone (2020) study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
 
 Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
 
@@ -163,7 +163,7 @@ GreenFilter is a product that combines AI, design and marketing to help people m
 
 -   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
 
--   q: “it seems impossible to know which company is more sustainable than the other” we don’t really know what’s green?
+-   Q: “it seems impossible to know which company is more sustainable than the other” we don’t really know what’s green?
 
 -   in their sustainability report every company looks perfect
 
