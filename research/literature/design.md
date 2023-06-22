@@ -42,6 +42,18 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
 
+## Extended Producer Responsibility {#extended-producer-responsibility}
+
+-   Steenmans & Ulfbeck (2023) Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+
+-   Peng et al. (2023) finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
+
+-   Thukral & Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
+-   K. Liu et al. (2023) e–waste is growing 3%–5% every year.
+
+***Design implications:** ERP and CDP data should be part of Green Filter.*
+
 ## Designing for Sustainable Shopping {#designing-for-sustainable-shopping}
 
 -   Weber (2021) proposes a sustainable shopping guide.
@@ -234,7 +246,7 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 -   Tsai et al. (2019)
 -   Burger et al. (2019)
 -   Aromatario et al. (2019) behavior changes
--   Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise
+-   X. Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise
 -   Ayoola et al. (2018) wellbeing data
 -   Godfrey et al. (2018)
 -   Thomas et al. (2018)
@@ -616,7 +628,7 @@ There’s a number of user interface design patterns that have provide successfu
 -   Wee et al. (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|-----------------------|-------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |
@@ -852,6 +864,8 @@ Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design a
 
 Lion Hirth. (n.d.). *Lion Hirth on Twitter: "Carbon pricing is not there to punish people. It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release. Very simple." / Twitter*. https://twitter.com/LionHirth/status/1605617664444878848.
 
+Liu, K., Tan, Q., Yu, J., & Wang, M. (2023). A global perspective on e-waste recycling. *Circular Economy*, *2*(1), 100028. <https://doi.org/10.1016/j.cec.2023.100028>
+
 Liu, X., Tamminen, S., Korhonen, T., & Röning, J. (2019). How Physical Exercise Level Affects Sleep Quality? Analyzing Big Data Collected from Wearables. *Procedia Computer Science*, *155*, 242–249. <https://doi.org/10.1016/j.procs.2019.08.035>
 
 Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
@@ -876,6 +890,8 @@ Munaro, M. R., Tavares, S. F., & Bragança, L. (2022). The ecodesign methodologi
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
 
 Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
+
+Peng, J., Shi, X., & Tong, X. (2023). Extended producer responsibility for low carbon transition in automobile industry. *Circular Economy*, *2*(2), 100036. <https://doi.org/10.1016/j.cec.2023.100036>
 
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
@@ -910,12 +926,16 @@ Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support 
 
 Springmann, M., Clark, M. A., Rayner, M., Scarborough, P., & Webb, P. (2021). The global and regional costs of healthy and sustainable dietary patterns: A modelling study. *The Lancet Planetary Health*, *5*(11), e797–e807. <https://doi.org/10.1016/S2542-5196(21)00251-5>
 
+Steenmans, K., & Ulfbeck, V. (2023). Fostering the circular economy through private law: Perspectives from the extended producer responsibility concept. *Resources, Conservation and Recycling*, *195*, 107016. <https://doi.org/10.1016/j.resconrec.2023.107016>
+
 Suarez, G., Raful, J., Luque, M. A., Valencia, C. F., & Correa-Bahnsen, A. (2021). *Enhancing User’ s Income Estimation with Super-App Alternative Data*. <https://doi.org/10.48550/ARXIV.2104.05831>
 <span class="csl-block">Other5 pages, 2 figures</span>
 
 Sustainability starts in the design process, and AI can help. (n.d.). In *MIT Technology Review*. https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/.
 
 Thomas, L., Briggs, P., Kerrigan, F., & Hart, A. (2018). Exploring digital remediation in support of personal reflection. *International Journal of Human-Computer Studies*, *110*, 53–62. <https://doi.org/10.1016/j.ijhcs.2017.10.002>
+
+Thukral, S., & Singh, M. (2023). An exploratory study on producer’s perspective towards <span class="nocase">E-waste</span> management: A case of emerging markets. *Cleaner Waste Systems*, *5*, 100090. <https://doi.org/10.1016/j.clwas.2023.100090>
 
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
 
