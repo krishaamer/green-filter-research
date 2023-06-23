@@ -65,7 +65,7 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   @jacquesvernierExtendedProducerResponsibility2021: French EPR scheme was upgraded in 2020 to become more circular.
 
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (@hktdcresearchFranceExpandsProducer2022).
+-   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022\@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
 
 ***Design implications:** ERP and CDP data should be part of Green Filter.*
 
@@ -79,14 +79,15 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
 
--   @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
-
 ```{=mdx}
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
--   Food saving apps https://www.facebook.com/groups/7573029179
-
--   Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
+| Name                         | Link                                                                  |                                                                                                                                                                                |
+|----------------------|-------------------------|-------------------------|
+| Karma                        | https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
+| ResQ Club                    | https://www.resq-club.com/                                            | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                                       | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
+| Social media groups (no app) |                                                                       |                                                                                                                                                                                |
 
 -   @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
 
@@ -101,10 +102,6 @@ There are several initiatives to reduce food waste by helping people consume foo
 | "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
 
 -   ***Design Implication***: Where to shop rankings for groceries --- list worst offenders in terms of products --- shop and invest according to your values.
-
--   Less impact of food https://techcrunch.com/2022/08/11/kuri-app/
-
--   https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
 
 -   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
@@ -136,8 +133,6 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   @wikirateSharingDataCreating2022: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism."
 
--   Sneakers made from coffee https://twitter.com/RensOriginal
-
 -   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the textile waste in the UK is exported to other countries.
 
 -   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
@@ -154,11 +149,9 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   https://eu.sheepinc.com/?v=1666529932643
 
--   Sustainable fashion company evaluations: https://goodonyou.eco/
+-   @goodonyouGoodYouSustainable2023 Sustainable fashion company evaluations
 
 -   Ethical brand ratings. GStar https://directory.goodonyou.eco/brand/g-star-raw
-
--   https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
 
 -   Worker's rights. https://www.instagram.com/p/CUXjfzfr7Ze/
 
@@ -325,8 +318,19 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 -   Recycle your phone: https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
 
-### ESG blockchains
+### ESG Blockchains
 
+-   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
+
+-   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
+
+-   Eisenstein?: "Money is a technology".
+
+-   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ...
+
+```{=html}
+<!-- -->
+```
 -   https://insights.physisinvestment.com/blockchain-in-esg-investing/
 
 -   https://jpt.spe.org/blockchain-companies-team-up-to-track-esg-data
@@ -586,12 +590,12 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 ### "Speculative Design" for a sustainability assistant
 
 -   @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
--   @googledesignDesignSpeculativeFutures2019
+-   2222 cgoogledesignDesignSpeculativeFutures2019
 -   All green categories --- Green hub --- Ask the user to prioritize
 
 ### Experience Design
 
--   In \@michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: "People buy experiences, not technology."
+-   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: "People buy experiences, not technology."
 -   Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
 ### Mobile App Design
@@ -614,7 +618,7 @@ There's a number of user interface design patterns that have provide successful 
 
 -   Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
 
--   Karina from Korea (@aespaAespaEseupaMY2020). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+-   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
 ### Carbon Labelling
 
@@ -729,6 +733,6 @@ There's a number of user interface design patterns that have provide successful 
 
 ## Summary
 
-TODO design summary.
+-   TODO design summary.
 
 # References
