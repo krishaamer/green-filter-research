@@ -108,7 +108,7 @@ As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI 
 
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world (Deutsche Welle (2019)) and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Time (2019)). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising.
 
-In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries ((**OutsideSafeOperating?**)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together to reduce traffic, deforestation, support mobility and green buildings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
+In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries (Persson et al. (2022)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together to reduce traffic, deforestation, support mobility and green buildings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
 
 For the average person, our experience is limited with buying things at the supermarket. Food, clothes, furniture, soap, mobile phone.
 
@@ -245,6 +245,9 @@ European Council. (2022). *Fit for 55 - The EU’s plan for a green transition*.
 Global Web Index. (2017). *98% of Gen Z Own a Smartphone*. https://blog.gwi.com/chart-of-the-day/98-percent-of-gen-z-own-a-smartphone/.
 
 Gupta, A. H. (2020). An “Electrifying” Economist’s Guide to the Recovery. *The New York Times*.
+
+Persson, L., Carney Almroth, B. M., Collins, C. D., Cornell, S., de Wit, C. A., Diamond, M. L., Fantke, P., Hassellöv, M., MacLeod, M., Ryberg, M. W., Søgaard Jørgensen, P., Villarrubia-Gómez, P., Wang, Z., & Hauschild, M. Z. (2022). Outside the Safe Operating Space of the Planetary Boundary for Novel Entities. *Environ. Sci. Technol.*, *56*(3), 1510–1521. <https://doi.org/10.1021/acs.est.1c04158>
+<span class="csl-block">doi: 10.1021/acs.est.1c04158</span>
 
 Time. (2019). *Greta Thunberg: TIME’s Person of the Year 2019*. https://time.com/person-of-the-year-2019-greta-thunberg/.
 

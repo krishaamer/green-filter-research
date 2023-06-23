@@ -2,7 +2,7 @@
 title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 4
+sidebar_position: 1
 editor:
     render-on-save: false
 ---
@@ -13,7 +13,21 @@ import Humboldt from '../images/humboldt.jpg'
 ```
 # What is Sustainability?
 
--   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713) discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
+-   *Sustainability* was first mentioned in @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context of forestry in his seminal book *Sylvicultura oeconomica* discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
+
+```{=html}
+<!-- -->
+```
+-   Climate data visualization has a long history too, starting with ***Alexander von Humboldt,*** who revolutionized cartography by inventing the first isothermal maps around 1816, showing areas with similar temperature, variations in altitude and seasons.
+-   @IsothermsSimplyEarth2023: computer models of Father of climatology Alexander von Humboldt Isotherms
+-   @hontonForgottenFatherClimatology2022
+-   @BrohanClimate2012 reports global temperature measurement starts from the 1880s where we have the first records from ships.
+-   Industrial revolution
+
+```{=mdx}
+<Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
+## 
 
 -   @leprovostSupplyMultipleEcosystem2022: Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
@@ -55,9 +69,8 @@ Large ones that get international news coverage:
 -   the Great Pacific Garbage Patch
 -   Fukushima
 
-```{=html}
 <!-- -->
-```
+
 -   @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas tracks environmental justice cases around the world. Dispues in @eerolaCorporateConductCommodity2022.
 
 ### Air Pollution and Clean Air
@@ -403,17 +416,6 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   **Important: "creating sustainability trust in companies in realtime"**
 
-## Data Visualisation History
-
--   @BrohanClimate2012 reports global temperature measurement starts from the 1880s where we have the first records from ships.
--   Industrial revolution
--   Data Data Visualisation has a long history, starting with Alexander von Humboldt, who revolutionized cartography by inventing the first isothermal maps around 1938, showing areas with similar temperature, variations in altitude and seasons.
--   @IsothermsSimplyEarth2023: computer models of Father of climatology Alexander von Humboldt Isotherms
--   @hontonForgottenFatherClimatology2022
-
-```{=mdx}
-<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
-```
 ## Conclusion
 
 -   A wide range of legislative proposals, targets, organizations, and goals already exists across Europe. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market.

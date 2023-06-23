@@ -2,7 +2,7 @@
 title: AI
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 1
+sidebar_position: 2
 editor:
     render-on-save: false 
 ---

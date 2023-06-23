@@ -2,7 +2,7 @@
 title: Finance
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 2
+sidebar_position: 4
 editor:
     render-on-save: false
 ---

@@ -2,13 +2,15 @@
 title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 4
+sidebar_position: 1
 editor:
     render-on-save: false
 ---
 
 export const quartoRawHtml =
 [`
+<!-- -->
+`,`
 <!-- -->
 `];
 
@@ -19,7 +21,21 @@ import Humboldt from '../images/humboldt.jpg'
 
 # What is Sustainability? {#what-is-sustainability}
 
--   *Sustainability* was first mentioned in 1713 by *Hans Carl von Carlowitz* in the context of forestry in his seminal book (Hannß Carl von Carlowitz (1713)) discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
+-   *Sustainability* was first mentioned in Hannß Carl von Carlowitz (1713) in the context of forestry in his seminal book *Sylvicultura oeconomica* discussing sustainable forest management. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. (2011)).
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Climate data visualization has a long history too, starting with ***Alexander von Humboldt,*** who revolutionized cartography by inventing the first isothermal maps around 1816, showing areas with similar temperature, variations in altitude and seasons.
+-   *Alexander von Humboldt’s Original Isotherms Circa 1838* (2023): computer models of Father of climatology Alexander von Humboldt Isotherms
+-   Honton (2022)
+-   Brohan et al. (2012) reports global temperature measurement starts from the 1880s where we have the first records from ships.
+-   Industrial revolution
+
+``` mdx-code-block
+<Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
+
+##  {#section}
 
 -   Le Provost et al. (2022): Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
@@ -61,7 +77,7 @@ Large ones that get international news coverage:
 -   the Great Pacific Garbage Patch
 -   Fukushima
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Martinez-Alier (2021) and Martinez-Alier et al. (2022) as well as Scheidel et al. (2020) cover how EJAtlas tracks environmental justice cases around the world. Dispues in Eerola (2022).
 
@@ -407,18 +423,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   Make commerce more transparent
 
 -   **Important: “creating sustainability trust in companies in realtime”**
-
-## Data Visualisation History {#data-visualisation-history}
-
--   Brohan et al. (2012) reports global temperature measurement starts from the 1880s where we have the first records from ships.
--   Industrial revolution
--   Data Data Visualisation has a long history, starting with Alexander von Humboldt, who revolutionized cartography by inventing the first isothermal maps around 1938, showing areas with similar temperature, variations in altitude and seasons.
--   *Alexander von Humboldt’s Original Isotherms Circa 1838* (2023): computer models of Father of climatology Alexander von Humboldt Isotherms
--   Honton (2022)
-
-``` mdx-code-block
-<Figure caption="Humboldt's Naturgemälde, early data visualisation of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
-```
 
 ## Conclusion {#conclusion}
 
