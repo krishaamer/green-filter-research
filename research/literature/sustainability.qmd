@@ -107,8 +107,6 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
-### Make a 'Sustainability Flywheel' graphic, like that of Amazon's
-
 -   The true cost of products is hidden. The work is hidden.
 
 ### Forests
@@ -117,26 +115,12 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 -   Burning of biomass undermines carbon capture.
 
-## Oracles for Sustainability Data
-
-A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for "green filter", including carbon labeling, packaging, transportation, consumption, and waste.
-
--   @ethereumOracles2023
-
--   @caldarelliOvercomingBlockchainOracle2020 notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
-
--   @bradydaleChainlinkFounderSays2021 and @chainlinkNewReportBlockchains2022: The largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy.
-
--   IPCI OpenLitterMap G.I.D Coin Regen Network
-
 ### Ethics and Cruelty
 
 -   Cruelty free brands
 -   Rank companies based on sustainability
 -   BCorp
--   esg
--   etc
--   wikipedia /
+-   ESG
 -   Trash found in ocean / nature etc
 -   Help you to decide: what to buy, how to save, where to invest
 -   Increase your investment point by matching with your contribution /.
@@ -171,7 +155,21 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   @patelBlockchainTechnologyFood2023
 
+### Oracles for Sustainability Data
+
+A data oracle is the concept of a source of real-world data which can be ingested through an API by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for "green filter", including carbon labeling, packaging, transportation, consumption, and waste.
+
+-   @ethereumOracles2023
+
+-   @caldarelliOvercomingBlockchainOracle2020 notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
+
+-   @bradydaleChainlinkFounderSays2021 and @chainlinkNewReportBlockchains2022: The largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy.
+
+-   IPCI OpenLitterMap G.I.D Coin Regen Network
+
 ## Zero Waste Lifestyle
+
+A movement of people living a simple life. This is always going to be a small percentage of people.
 
 -   @tokyosimpleecolifeWhatLearnedMy2021
 
@@ -187,11 +185,9 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   There is a parallel in health to sustainability and indeed both are inextricably linked.
 
--   Healthkit
+-   @appleEmpoweringPeopleLive2022: In a 2022 report Apple outlines its plans to : "Empowering people to live a healthier day"
 
--   In a 2022 report Apple outlines its plans to : "Empowering people to live a healthier day" https://www.apple.com/newsroom/pdfs/Health-Report-July-2022.pdf
-
--   https://developer.apple.com/videos/play/wwdc2022/10005/
+-   @appleWhatNewHealthKit2022 What's new in HealthKit
 
 -   What would that look like for sustainability?
 
@@ -199,11 +195,24 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 ### Disasters
 
--   Chernobyl, Exxon Valdez, Deepwater Horizon, the Great Pacific Garbage Patch, and Fukushima
+-   Chernobyl
+-   Exxon Valdez
+-   Deepwater Horizon
+-   the Great Pacific Garbage Patch
+-   Fukushima
 
 ### Scalable Climate Solutions
 
 -   What really works on a large scale?
+
+### Regeneration
+
+-   https://www.regen.network/
+-   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/
+-   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
+-   https://www.klimadao.finance/
+-   https://rss.com/podcasts/potk/367282/
+-   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 
 ## Nationally Determined Contributions
 
@@ -244,6 +253,8 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 ### Inflation Reduction Act
 
+-   adas
+
 ### Carbon Inequality
 
 -   @chancelGlobalCarbonInequality2022 suggests "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it".
@@ -252,11 +263,13 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   Translate data into everyday actions the app can suggest.
 
+## Cap and Trade
+
+-   
+
 ### Social Cost of Carbon
 
--   Carbon price https://apnews.com/article/science-climate-and-environment-government-politics-4c1e8783694201355f88012079367f27
-
--   Social cost of carbon https://en.wikipedia.org/wiki/Social_cost_of_carbon
+-   Carbon price should be 3,6x higher @rennertComprehensiveEvidenceImplies2022
 
 -   https://news.stanford.edu/2021/06/07/professors-explain-social-cost-carbon/
 
@@ -280,6 +293,24 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!
 
+-   @sahotaAIAnalysis8002021: "thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say."
+
+-   @binglerCheapTalkCherryPicking2021 ClimateBert AI finds rampant greenwashing
+
+-   https://www.fastcompany.com/90656749/greenwashing-ai
+
+-   https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
+
+-   https://planethome.eco/
+
+-   @ussecuritiesandexchangecommissionOfficeHoursGary2022: In the USA: *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gary Gensler, head of U.S. Securities and Exchange Commission.
+
+-   @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
+
+-   Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+
+-   Laws against greenwashing
+
 -   @ussecuritiesandexchangecommissionOfficeHoursGary2022 Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices.
 
 -   @andreVoluntaryCarbonNeutral2022: Until new legislation is in place (2030 in the EU), consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected by consumer demand. @geoffreysupranThreeShadesGreen2022 Greenwashing is widespread in company social media communications.
@@ -292,13 +323,19 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   @boothBurningCarbonSink2022 describe how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program". A number of new AI-based tools aim to find instances of greenwashing.
 
--   https://www.fastcompany.com/90656749/greenwashing-ai https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul https://www.climatebonds.net/about/team/krista-tukiainen
+-   https://www.fastcompany.com/90656749/greenwashing-ai
+
+-   https://www.linkedin.com/in/julian-koelbel/?originalSubdomain=ch
+
+-   https://www.bf.uzh.ch/en/persons/lambillon-adrien-paul
+
+-   https://www.climatebonds.net/about/team/krista-tukiainen
 
 -   **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
 ### Health
 
--   https://www.webmd.com/a-to-z-guides/features/sustainability-health "Human health is central to all sustainability efforts."All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health," Hollis says."
+-   @sarahludwigrauschSustainabilityYourHealth2021: "Human health is central to all sustainability efforts."All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health," Hollis says."
 
 -   @PublicHealthLinkages2013
 
@@ -306,16 +343,9 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
 
-### Countering Greenwashing
-
--   @ussecuritiesandexchangecommissionOfficeHoursGary2022: In the USA: *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gary Gensler, head of U.S. Securities and Exchange Commission.
--   @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
--   Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
--   Laws against greenwashing
-
 ### Emission Scopes
 
--   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022 The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
+-   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
 
 | Scope   | Source                         |
 |---------|--------------------------------|
@@ -323,20 +353,16 @@ It's up to legislators to provide sustainable products on our marketplace... but
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
+### Carbon Credit Retirement
+
+-   ads
+
 ### Ecosystem Services
 
--   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation. In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+-   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 -   @noriegaResearchTrendsEcosystem2018 attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
-
-### Regeneration
-
--   https://www.regen.network/
--   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/
--   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
--   https://www.klimadao.finance/
--   https://rss.com/podcasts/potk/367282/
--   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 
 ### Biodiversity
 
@@ -364,7 +390,7 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 -   @BrohanClimate2012 reports global temperature measurement starts from the 1880s where we have the first records from ships.
 -   Industrial revolution
--   Data Data Visualisation has a Long history, starting with Alexander von Humboldt, who revolutionized cartography by inventing the first isothermal maps around 1938, showing areas with similar temperature, variations in altitude and seasons.
+-   Data Data Visualisation has a long history, starting with Alexander von Humboldt, who revolutionized cartography by inventing the first isothermal maps around 1938, showing areas with similar temperature, variations in altitude and seasons.
 -   Father of climatology Alexander von Humboldt Isotherms - https://isotherms.simply.earth/?utm_term=FatherOfClimatology
 -   https://medium.com/climate-conscious/2021-047-the-forgotten-father-of-climatology-7c1e709bfcec
 
