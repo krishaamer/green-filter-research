@@ -37,7 +37,7 @@ editor:
 
 -   LLM - Large Language Models
 
--   CO2e - CO2 equivalent
+-   CO2e - CO2 equivalent greenhouse gases
 
 -   GHG - Greenhause gases
 

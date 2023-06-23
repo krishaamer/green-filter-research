@@ -56,6 +56,7 @@ The framework proposes 9 values to strive for in high quality products.
 ## Research Relevance {#research-relevance}
 
 -   and protecting biodiversity
+-   Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s
 
 This research is timely in 2023 because of the convergence of four trends:
 
@@ -214,7 +215,7 @@ Survey respondents:
 -   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                   | Methods                                     |
-|---------------|---------------------------------|------------------------|
+|------------------|--------------------------------|-----------------------|
 | 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |

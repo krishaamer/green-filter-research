@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
@@ -33,7 +38,285 @@ import Bunq from '../images/bunq.jpg'
 
 -   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
-## Getting Started with Investing {#getting-started-with-investing}
+## Shopping {#shopping}
+
+### Shopping Footprint {#shopping-footprint}
+
+-   Shop CO2e emissions for each company who i buy from? “get rid of brands”!! cause they hide and lie
+
+-   https://environment-review.yale.edu/decreasing-carbon-footprint-supermarket-shopping-lessons-virtual-shopping-experiment
+
+-   https://www.chicagobooth.edu/review/want-lower-food-s-carbon-footprint-cut-out-snacks-drinks
+
+-   “The sustainable market for Fast Moving Consumer Goods is \$2.5T, that includes an untapped market opportunity worth \$1T. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
+
+-   https://www.suku.world/
+
+-   Ban polluting products https://act.wemove.eu/campaigns/2941
+
+-   https://messari.io/article/from-burning-bridges-to-allbridges
+
+-   Current shopping is like having a one-night stand. you barely know the name of your company. You don’t know much about their background. Building consumer feeeling of ownership, create meaningful connections between producers and consumers.
+
+-   **AI alert**: “The company you’ve purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation”.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app
+-   https://ieeexplore.ieee.org/document/7789456
+-   https://cordis.europa.eu/project/id/688364/results
+-   https://ec.europa.eu/research-and-innovation/en/horizon-magazine/apps-can-tell-you-if-youre-buying-sustainably
+-   Online Shopping impact. Single’s day, etc. Impossible to turn the tide? https://earth.org/online-shopping-and-its-environmental-impact/
+-   “Asia is set to account for 50% of the world’s total online retail sal”
+-   What is the consumer CO2 contribution? What is the target?
+-   “an internet-wide directory of purchasable products, reminiscent of how the much of the world’s music is made available on streaming platform Spotify.” https://www.forbes.com/sites/alexkonrad/2022/10/11/a16z-crypto-web3-commerce-rye-justin-kan/?sh=58c2a7647940
+-   All the world’s product directory
+-   Define your habits: are you consumer or investor? https://thinksaveretire.com/how-to-become-an-investor/
+-   “Õpetame märkama, et oskaksime hoida” — https://www.franklintempleton.com/insights/podcasts/consumer-clout-driving-esg-efforts
+-   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
+-   **Live more sustainably with 10 minutes per day.**
+-   From Shopping to Investing Next Generation Customer Experience (n.d.) suggests “Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference.”
+-   Inclusive consumer https://www.mckinsey.com/industries/retail/our-insights/the-rise-of-the-inclusive-consumer
+-   “Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design”
+-   Cradle to Cradle Nordic circular design https://www.instagram.com/p/CWC6KG7sXBJ/
+-   https://www.accupass.com/event/2110290805421017463345
+-   https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why
+
+### Indexes and Certifications {#indexes-and-certifications}
+
+-   Rating Systems: Companies assess customer’s credit score, however how can customers rate companies.
+
+| Rating System              | Link |
+|----------------------------|------|
+| B Corporation              |      |
+| ESG                        |      |
+| Fair Trade                 |      |
+| Responsible Business Index |      |
+|                            |      |
+
+There are many different certifications
+
+-   https://www.ethicalconsumer.org/
+-   B Impact Assessment
+-   sustainable brands
+-   Fair Trade
+-   Responsible business index https://indeks.csr.ee/en/
+
+Existing rankings
+
+-   https://earth.org/worlds-most-sustainable-companies-in-2021/
+-   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
+
+For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites. https://www.thegreenwebfoundation.org/
+
+### B Corporations in Taiwan {#b-corporations-in-taiwan}
+
+B Corporations undergo strict assessment and adhere to stringent sustainability practices.
+
+-   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=
+-   https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/
+-   https://www.citywealthmag.com/news/esg-branding-b-corps
+-   https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg
+-   https://www.youtube.com/watch?v=6WiBsm-YcNc
+
+### Ratings and Scoring {#ratings-and-scoring}
+
+-   Leafscore for product https://www.leafscore.com/
+
+-   “Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
+
+-   Ethical consumer ratings https://www.ethicalconsumer.org/
+
+-   Fashion brand ratings
+
+-   B Impact Assessment
+
+-   Ethical Shopping
+
+-   Largest consumer goods companies https://consumergoods.com/top-100-consumer-goods-companies-2021
+
+### Consumer Activism {#consumer-activism}
+
+-   https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/dp/B079K3KTW9/ref=sr_1\_1?crid=3IQ598DT7ZCH4
+
+-   https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5 contactt Kalle Lasn, Cultture Jam
+
+-   “ESG Accessibility”, Large-scale accessibility to ESG,
+
+-   Shop sustainability https://www.estwatch.ee/vastutustundlikkus-eesti-toidupoekettide-tarneahelates-2022
+
+-   https://www.facebook.com/eewatch/posts/2010846515763300
+
+-   Tarbimise jalajälg https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg
+
+-   Credit Suisse (2022) Young consumers drive speed of eco change?
+
+-   “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.” https://www.sec.gov/news/statement/peirce-blockfi-20220214
+
+### Conscious Consumerism {#conscious-consumerism}
+
+-   Building customer loyalty is a key part of repeat business and financial predictability. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back.
+
+-   McKeough (2018) business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
+
+-   Green Finance Platform (2020) report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty.
+
+-   Hoikkala (2019): meanwhile the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
+
+-   Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
+
+-   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user’s way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
+
+-   Fotheringham (2017): In the words of a Canadian investment blogger, “every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices”.
+
+-   Could investing as a pathway from a loyalty scheme strengthen the feeling of connection with the business even further? After all, I’m now a minority owner! What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?
+
+### Programmable Money {#programmable-money}
+
+-   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
+
+### Digital Currency {#digital-currency}
+
+-   Emele Onu & Anthony Osae-Brown (2022) reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. “In Nigeria’s largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account.”
+
+### Payments {#payments}
+
+-   https://grenpay.com/et
+
+-   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
+
+-   What if we gave consumers the tools to keep companies accountable?
+
+-   Contactless Payments: https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
+
+### Money {#money}
+
+-   A wide number of banks are offering services marketed a sustainable. It’s hard to decide.
+
+-   *Design implication*: *As a user, I can use the app to compare banks available in my country*
+
+-   Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
+
+-   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
+
+-   https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/
+
+-   https://www.happonomy.org/sustainable-money-system/
+
+-   https://makemymoneymatter.co.uk
+
+-   https://seekingalpha.com/article/4381215-5-books-changed-life-investor
+
+-   https://1e9.community/
+
+-   https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
+
+-   Consumer debt in the USA
+
+### Digital Payments {#digital-payments}
+
+-   Digital currencies make tracking easier - https://cbdctracker.org/
+
+-   WeChat, Alipay, vs digital yuan: https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad
+
+-   https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html
+
+-   https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
+
+-   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
+
+-   https://sifted.eu/rankings/european-fintech-startups
+
+People are concerned with digital payments
+
+-   Jeff Benson (2022) “use the e-CNY network to increase financial surveillance.”
+
+-   democratize financial surveillance!
+
+-   Crypto tools allow you to look at any wallet already
+
+-   green transparency
+
+## Saving {#saving}
+
+-   Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
+-   There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
+-   Assumptions: — where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
+-   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
+-   Hypothesis?
+-   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
+-   https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
+-   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33))
+-   https://www.lawinsider.com/dictionary/environmental-savings
+-   Ethical Savings
+-   https://www.ecology.co.uk/savings
+-   https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know
+-   https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping
+-   https://thegoodshoppingguide.com/
+
+### Banks, Fintech, and Payments {#banks-fintech-and-payments}
+
+-   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments. The European Central Bank describes fintech as improving the user experience across the board, making interactions more convenient, user-friendly, cheaper, and faster.
+
+-   “Fintech has had a more pronounced impact in the payments market \[…\] where the incumbents have accumulated the most glaring shortcomings, often resulting in inefficient and overpriced products,” Yves Mersch, Member of the Executive Board of the ECB says in European Central Bank (2019).
+
+-   Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. According to McKinsey (2020), Asia has shown the fastest growth in payments in the world.
+
+-   Meanwhile, in Europe, point of sales (PoS) lending is a common practice in Sweden, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience. Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn’t there be 180 degrees opposite service - pointof sales investing?
+
+-   Bunq (2020): A Dutch fintech company Bunq (fig. 5) offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface.
+
+-   Sharing a similar goal to Alibaba’s Ant Forest, Bunq’s approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba’s offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
+
+``` mdx-code-block
+<Figure caption="Figure 5: Bunq combines banking and eco-friendly actions in the same UI" src={Bunq} />
+```
+
+-   If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
+
+``` mdx-code-block
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrxUqovTBGZJyjur?backgroundColor=red&viewControls=on" frameBorder="0" width="100%" height="533"/>
+```
+
+-   Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.
+
+-   Bhatia et al. (2020) For example, in India, research is being conducted on how AI advisors could assist with investors’ erratic behavior in stock market volatility situations, albeit without much success.
+
+-   Cowan (2018) In Europe, Germany and the United Kingdom show the way with the most robo-advisory usage.
+
+-   AltFi (2017) ETFmatic (fig. 7) gaining the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts.
+
+-   Bankinghub (2019): While Germany has 30+ robot-advisors on the market, with a total of 3.9 billion EUR under robotic management, it’s far less than individual apps like Betterment manage in the US.
+
+-   AltFi (2017): In the UK, several robo-advisors have shut down recently.
+
+``` mdx-code-block
+<Figure caption="Figure 7: Out-of-date User Interface of a European AI-Advisor ETFmatic (Photo copyright ETFmatic)" src={ETF} />
+```
+
+-   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers.
+
+### Robo-Advisors and Financial AI {#robo-advisors-and-financial-ai}
+
+-   Small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546
+-   Financial empowerment
+-   Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself https://twitter.com/SyndicateDAO
+-   ESG pulse https://www.youtube.com/watch?v=qodqPQzeRvQ
+-   Network for Greening the Financial System https://www.ngfs.net/en
+-   How do consumer become investors? https://blog.nbkcapitalsmartwealth.com/how-to-become-an-investor-instead-of-a-consumer/ https://www.entrepreneur.com/money-finance/turn-your-customers-into-investors/249851
+-   SmartWealth (n.d.) marketing materials say: “One of the greatest hurdles to financial independence is a consumer mindset.” One of the greatest hurdles to sustainability is a consumer mindset?
+-   Sustainable investing, kids watch TikTok lizlivingblue (n.d.)
+-   Malliaris & Salchenberger (1996) **(Need to pay for paper!)**
+-   https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
+-   Consumption is ruining the world the world thinking as an investor the investor mindset
+-   Personalised portfolios https://vise.com/
+-   Thai finance app https://play.google.com/store/apps/details?id=com.kasikornbank.kbtgpay&hl=en&gl=US
+-   https://thaifintech.org/members/
+-   https://www.benzinga.com/fintech/21/02/19692401/mobile-hedge-fund-platform-titan-raises-12-5m-series-a-led-by-general-catalyst
+
+## Investing {#investing}
+
+### Getting Started with Investing {#getting-started-with-investing}
 
 Several banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one’s investment accounts. For example, Swedbank (2022), the leading bank in the Estonian market, offers a savings service where everyday payments made with one’s debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank LHV (2020) offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
@@ -62,7 +345,7 @@ Several banks have started offering a service to automatically save and invest t
 -   Estonian investing app https://golightyear.com/eu
 -   Margaryta Kirakosian & Angus Foote (2022) suggests “Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy.”
 
-## What is Sustainable Investing? {#what-is-sustainable-investing}
+### What is Sustainable Investing? {#what-is-sustainable-investing}
 
 There’s a growing literature suggesting it’s possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there’s evidence of ‘green’ buildings achieving a ‘higher financial return than conventional buildings, both in terms of rent and sale price’ (Oyedokun (2017)). There’s also a trend of investors looking for sustainability in addition to profits in a few countries.
 
@@ -73,6 +356,96 @@ There’s a growing literature suggesting it’s possible to make investments th
 -   Smith (2019) suggests 74% of Chinese youth are looking for “positive impact”.
 
 -   Lingeswaran (2019) suggest philanthropy is on the rise in Asia however Ho (2019) counters investors are not sure how to separate sustainable assets from less sustainable ones.
+
+### Investment Products and Asset Classes {#investment-products-and-asset-classes}
+
+-   The main categories of investment products are, based on the *Investment Products \| Investor.gov* (n.d.)
+
+| Investment Product                            | Col2 |
+|-----------------------------------------------|------|
+| Stocks                                        |      |
+| Bonds                                         |      |
+| Mutual Funds                                  |      |
+| ETFs                                          |      |
+| Insurance Products such as Variable Annuities |      |
+|                                               |      |
+
+### Green Bonds {#green-bonds}
+
+-   Sustainability Linked Bonds: What this?
+
+-   City of Malmö (2017): In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city
+
+-   Anthropocene Fixed Income Institute (AFII) (2022): Aramco, Saudi Arabian public petroleum and natural gas company ‘Fake green bonds’ under scrutiny.
+
+-   Shashwat Mohanty (2022): “sustainable funds don’t buy Zomato’s ESG narrative”
+
+-   Priscila Azevedo Rocha et al. (2022): “Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak”
+
+-   Priscila Azevedo Rocha et al. (2022) suggests “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
+
+-   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
+
+### Hedge Funds {#hedge-funds}
+
+-   **Feature**: Make a climate hedge fund with friends
+-   https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
+-   Most successful investor invest together
+-   Angelist
+-   What does investing look like at the scale of billions of people? like IG
+
+### Green Investment Platforms {#green-investment-platforms}
+
+There are many ‘green investment platforms’ who to trust?
+
+| Name          | Description | Link                     |
+|---------------|-------------|--------------------------|
+| Trine         |             | https://trine.com/       |
+| The Many      |             | https://the-many.com     |
+| Sugi          |             | https://sugi.earth/      |
+| ClimateInvest |             | https://clim8invest.com/ |
+| Circa5000     |             | https://circa5000.com/   |
+| FairOwn       |             | https://www.fairown.com/ |
+|               |             |                          |
+|               |             |                          |
+
+-   https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast
+
+-   https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
+
+-   Investing - Your investment fund’s ESG thesis investing thesis investing expert investing thesis research
+
+-   Investing thesis
+
+-   Open Banking: “Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. ” investing into good companies
+
+### Thematic Capital {#thematic-capital}
+
+-   Build a thematic portfolio
+
+### Community Investing {#community-investing}
+
+-   Build an investing community?
+
+### Hedge Funds and DAOs {#hedge-funds-and-daos}
+
+-   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
+
+-   https://www.investopedia.com/tech/what-dao/
+
+-   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
+
+### Personalized Investing {#personalized-investing}
+
+-   2022 saw a wave of new platforms aiming to make investing easier for retail investors
+
+-   https://republic.com/mainvest
+
+-   https://republic.com/asaak
+
+-   https://republic.com/stockcard
+
+-   https://republic.com/maybefinance
 
 ### ESG Shopping {#esg-shopping}
 
@@ -291,7 +664,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   https://earth.org/worlds-most-sustainable-companies-in-2021/
 
-## Sustainable Finance {#sustainable-finance}
+### Sustainable Finance {#sustainable-finance}
 
 -   Money connects all industries. People want to shop, save, invest sustainably - how to do it? - Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
 
@@ -300,26 +673,6 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
 
 -   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
-
-### Savings {#savings}
-
--   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
-
--   https://view.email.m1finance.com/?qs=f065a4307445547194f94b518b0ab7134a141d10f8009c151d2bd44ac9b9f0c7fc7a525a5473bc079b0dacecef67e17883ab5042e1c5da4f64dab5dd9a232b69b8de99b6c044b58705349fd0d4504fbe
-
--   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and *Yale, Princeton, Stanford, MIT and Vanderbilt Students Take Legal Action to Try to Force Fossil Fuel Divestment - The Washington Post* (n.d., p. 33))
-
--   https://www.lawinsider.com/dictionary/environmental-savings
-
--   Ethical Savings
-
--   https://www.ecology.co.uk/savings
-
--   https://bloommoney.co/learning-hub/ethical-savings-everything-you-need-to-know
-
--   https://learnenglishteens.britishcouncil.org/study-break/magazine-zone/ethical-shopping
-
--   https://thegoodshoppingguide.com/
 
 ### Transparency {#transparency}
 
@@ -335,361 +688,6 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   Li et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
 -   Celo and Impact Market
 -   MicroLending
-
-## Investment Products and Asset Classes {#investment-products-and-asset-classes}
-
--   The main categories of investment products are, based on the *Investment Products \| Investor.gov* (n.d.)
-
-| Investment Product                            | Col2 |
-|-----------------------------------------------|------|
-| Stocks                                        |      |
-| Bonds                                         |      |
-| Mutual Funds                                  |      |
-| ETFs                                          |      |
-| Insurance Products such as Variable Annuities |      |
-|                                               |      |
-
-### Green Bonds {#green-bonds}
-
--   Sustainability Linked Bonds: What this?
-
--   City of Malmö (2017): In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city
-
--   Anthropocene Fixed Income Institute (AFII) (2022): Aramco, Saudi Arabian public petroleum and natural gas company ‘Fake green bonds’ under scrutiny.
-
--   Shashwat Mohanty (2022): “sustainable funds don’t buy Zomato’s ESG narrative”
-
--   Priscila Azevedo Rocha et al. (2022): “Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak”
-
--   Priscila Azevedo Rocha et al. (2022) suggests “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
-
--   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
-
-### Hedge Funds {#hedge-funds}
-
--   **Feature**: Make a climate hedge fund with friends
--   https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
--   Most successful investor invest together
--   Angelist
--   What does investing look like at the scale of billions of people? like IG
-
-### Green Investment Platforms {#green-investment-platforms}
-
-There are many ‘green investment platforms’ who to trust?
-
-| Name          | Description | Link                     |
-|---------------|-------------|--------------------------|
-| Trine         |             | https://trine.com/       |
-| The Many      |             | https://the-many.com     |
-| Sugi          |             | https://sugi.earth/      |
-| ClimateInvest |             | https://clim8invest.com/ |
-| Circa5000     |             | https://circa5000.com/   |
-| FairOwn       |             | https://www.fairown.com/ |
-|               |             |                          |
-|               |             |                          |
-
--   https://estonianworld.com/business/estonian-fintech-company-fairown-secures-a-e4-2-million-seed-round-attempts-to-reduce-wast
-
--   https://docs.google.com/presentation/d/1beGtwUEgIQD-kZcVj33pwAnbsZ76Fxpw98Y5_gN8bUE/edit#slide=id.gb170e3c708_0\_266
-
--   Investing - Your investment fund’s ESG thesis investing thesis investing expert investing thesis research
-
--   Investing thesis
-
--   Open Banking: “Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. ” investing into good companies
-
-### Thematic Capital {#thematic-capital}
-
--   Build a thematic portfolio
-
-## Community Investing {#community-investing}
-
--   Build an investing community?
-
-### Hedge Funds and DAOs {#hedge-funds-and-daos}
-
--   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
-
--   https://www.investopedia.com/tech/what-dao/
-
--   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
-
-### Personalized Investing {#personalized-investing}
-
--   2022 saw a wave of new platforms aiming to make investing easier for retail investors
-
--   https://republic.com/mainvest
-
--   https://republic.com/asaak
-
--   https://republic.com/stockcard
-
--   https://republic.com/maybefinance
-
-## Indexes and Certifications {#indexes-and-certifications}
-
--   Rating Systems: Companies assess customer’s credit score, however how can customers rate companies.
-
-| Rating System              | Link |
-|----------------------------|------|
-| B Corporation              |      |
-| ESG                        |      |
-| Fair Trade                 |      |
-| Responsible Business Index |      |
-|                            |      |
-
-There are many different certifications
-
--   https://www.ethicalconsumer.org/
--   B Impact Assessment
--   sustainable brands
--   Fair Trade
--   Responsible business index https://indeks.csr.ee/en/
-
-Existing rankings
-
--   https://earth.org/worlds-most-sustainable-companies-in-2021/
--   https://www.corporateknights.com/rankings/global-100-rankings/2021-global-100-rankings/2021-global-100-ranking/
-
-For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites. https://www.thegreenwebfoundation.org/
-
-### B Corporations in Taiwan {#b-corporations-in-taiwan}
-
-B Corporations undergo strict assessment and adhere to stringent sustainability practices.
-
--   https://bcorporation.net/directory?search=&industry=&country=Taiwan&state=&city=
--   https://qz.com/work/1146365/etsy-made-mistakes-from-which-other-b-corps-can-learn/
--   https://www.citywealthmag.com/news/esg-branding-b-corps
--   https://www.greeneconomylaw.com/social-enterprises-b-corps-benefit-companies-esg
--   https://www.youtube.com/watch?v=6WiBsm-YcNc
-
-### Ratings and Scoring {#ratings-and-scoring}
-
--   Leafscore for product https://www.leafscore.com/
-
--   “Companies in industries with the biggest carbon footprints aren’t reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative.” https://www.bloomberg.com/news/articles/2022-10-05/firms-aren-t-reporting-financial-risks-of-emissions-study-finds
-
--   Ethical consumer ratings https://www.ethicalconsumer.org/
-
--   Fashion brand ratings
-
--   B Impact Assessment
-
--   Ethical Shopping
-
--   Largest consumer goods companies https://consumergoods.com/top-100-consumer-goods-companies-2021
-
-## Programmable Money {#programmable-money}
-
--   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
-
-### Digital Currency {#digital-currency}
-
--   Emele Onu & Anthony Osae-Brown (2022) reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. “In Nigeria’s largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account.”
-
-### Payments {#payments}
-
--   https://grenpay.com/et
-
--   hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make
-
--   What if we gave consumers the tools to keep companies accountable?
-
--   Contactless Payments: https://www.macaubusiness.com/contactless-payments-prevalent-in-macau-citys-de-facto-central-bank/
-
-### Money {#money}
-
--   A wide number of banks are offering services marketed a sustainable. It’s hard to decide.
-
--   *Design implication*: *As a user, I can use the app to compare banks available in my country*
-
--   Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
-
--   https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet
-
--   https://www.moneygeek.com/financial-planning/environmentally-friendly-finance-and-saving/
-
--   https://www.happonomy.org/sustainable-money-system/
-
--   https://makemymoneymatter.co.uk
-
--   https://seekingalpha.com/article/4381215-5-books-changed-life-investor
-
--   https://1e9.community/
-
--   https://oolomarko.ee/teekond-miljonilise-investeerimisportfellini
-
--   Consumer debt in the USA
-
-### Digital Payments {#digital-payments}
-
--   Digital currencies make tracking easier - https://cbdctracker.org/
-
--   WeChat, Alipay, vs digital yuan: https://www.youtube.com/watch?v=NOrToENUL4U Eswar Prasad
-
--   https://epocanegocios.globo.com/Futuro-do-Dinheiro/noticia/2022/02/criptomoedas-vao-acabar-e-o-dinheiro-fisico-tambem-diz-autor-de-best-seller.html
-
--   https://cointelegraph.com.br/news/bitcoin-failed-and-cryptocurrencies-will-end-says-bestselling-author-on-future-of-money
-
--   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
-
--   https://sifted.eu/rankings/european-fintech-startups
-
-People are concerned with digital payments
-
--   Jeff Benson (2022) “use the e-CNY network to increase financial surveillance.”
-
--   democratize financial surveillance!
-
--   Crypto tools allow you to look at any wallet already
-
--   green transparency
-
-## Sustainable Saving {#sustainable-saving}
-
--   Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
--   There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
--   Assumptions: — where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
--   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
--   Hypothesis?
-
-### Banks, Fintech, and Payments {#banks-fintech-and-payments}
-
--   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments. The European Central Bank describes fintech as improving the user experience across the board, making interactions more convenient, user-friendly, cheaper, and faster.
-
--   “Fintech has had a more pronounced impact in the payments market \[…\] where the incumbents have accumulated the most glaring shortcomings, often resulting in inefficient and overpriced products,” Yves Mersch, Member of the Executive Board of the ECB says in European Central Bank (2019).
-
--   Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. According to McKinsey (2020), Asia has shown the fastest growth in payments in the world.
-
--   Meanwhile, in Europe, point of sales (PoS) lending is a common practice in Sweden, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience. Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn’t there be 180 degrees opposite service - pointof sales investing?
-
--   Bunq (2020): A Dutch fintech company Bunq (fig. 5) offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface.
-
--   Sharing a similar goal to Alibaba’s Ant Forest, Bunq’s approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba’s offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
-
-``` mdx-code-block
-<Figure caption="Figure 5: Bunq combines banking and eco-friendly actions in the same UI" src={Bunq} />
-```
-
--   If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
-
-``` mdx-code-block
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrxUqovTBGZJyjur?backgroundColor=red&viewControls=on" frameBorder="0" width="100%" height="533"/>
-```
-
--   Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.
-
--   Bhatia et al. (2020) For example, in India, research is being conducted on how AI advisors could assist with investors’ erratic behavior in stock market volatility situations, albeit without much success.
-
--   Cowan (2018) In Europe, Germany and the United Kingdom show the way with the most robo-advisory usage.
-
--   AltFi (2017) ETFmatic (fig. 7) gaining the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts.
-
--   Bankinghub (2019): While Germany has 30+ robot-advisors on the market, with a total of 3.9 billion EUR under robotic management, it’s far less than individual apps like Betterment manage in the US.
-
--   AltFi (2017): In the UK, several robo-advisors have shut down recently.
-
-``` mdx-code-block
-<Figure caption="Figure 7: Out-of-date User Interface of a European AI-Advisor ETFmatic (Photo copyright ETFmatic)" src={ETF} />
-```
-
--   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers.
-
-### Robo-Advisors and Financial AI {#robo-advisors-and-financial-ai}
-
--   Small stock investments https://twitter.com/Jssenkeezi/status/1481844323641708546
--   Financial empowerment
--   Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself https://twitter.com/SyndicateDAO
--   ESG pulse https://www.youtube.com/watch?v=qodqPQzeRvQ
--   Network for Greening the Financial System https://www.ngfs.net/en
--   How do consumer become investors? https://blog.nbkcapitalsmartwealth.com/how-to-become-an-investor-instead-of-a-consumer/ https://www.entrepreneur.com/money-finance/turn-your-customers-into-investors/249851
--   SmartWealth (n.d.) marketing materials say: “One of the greatest hurdles to financial independence is a consumer mindset.” One of the greatest hurdles to sustainability is a consumer mindset?
--   Sustainable investing, kids watch TikTok lizlivingblue (n.d.)
--   Malliaris & Salchenberger (1996) **(Need to pay for paper!)**
--   https://e.huawei.com/en/publications/global/ict_insights/intelligent-ip-networks/foci/the-future-of-ai-in-finance
--   Consumption is ruining the world the world thinking as an investor the investor mindset
--   Personalised portfolios https://vise.com/
--   Thai finance app https://play.google.com/store/apps/details?id=com.kasikornbank.kbtgpay&hl=en&gl=US
--   https://thaifintech.org/members/
--   https://www.benzinga.com/fintech/21/02/19692401/mobile-hedge-fund-platform-titan-raises-12-5m-series-a-led-by-general-catalyst
-
-### Shopping Footprint {#shopping-footprint}
-
--   Shop CO2e emissions for each company who i buy from? “get rid of brands”!! cause they hide and lie
-
--   https://environment-review.yale.edu/decreasing-carbon-footprint-supermarket-shopping-lessons-virtual-shopping-experiment
-
--   https://www.chicagobooth.edu/review/want-lower-food-s-carbon-footprint-cut-out-snacks-drinks
-
--   “The sustainable market for Fast Moving Consumer Goods is \$2.5T, that includes an untapped market opportunity worth \$1T. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
-
--   https://www.suku.world/
-
--   Ban polluting products https://act.wemove.eu/campaigns/2941
-
--   https://messari.io/article/from-burning-bridges-to-allbridges
-
--   Current shopping is like having a one-night stand. you barely know the name of your company. You don’t know much about their background. Building consumer feeeling of ownership, create meaningful connections between producers and consumers.
-
--   **AI alert**: “The company you’ve purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation”.
-
-## Consumerism and Shopping {#consumerism-and-shopping}
-
--   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app
--   https://ieeexplore.ieee.org/document/7789456
--   https://cordis.europa.eu/project/id/688364/results
--   https://ec.europa.eu/research-and-innovation/en/horizon-magazine/apps-can-tell-you-if-youre-buying-sustainably
--   Online Shopping impact. Single’s day, etc. Impossible to turn the tide? https://earth.org/online-shopping-and-its-environmental-impact/
--   “Asia is set to account for 50% of the world’s total online retail sal”
--   What is the consumer CO2 contribution? What is the target?
--   “an internet-wide directory of purchasable products, reminiscent of how the much of the world’s music is made available on streaming platform Spotify.” https://www.forbes.com/sites/alexkonrad/2022/10/11/a16z-crypto-web3-commerce-rye-justin-kan/?sh=58c2a7647940
--   All the world’s product directory
--   Define your habits: are you consumer or investor? https://thinksaveretire.com/how-to-become-an-investor/
--   “Õpetame märkama, et oskaksime hoida” — https://www.franklintempleton.com/insights/podcasts/consumer-clout-driving-esg-efforts
--   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
--   **Live more sustainably with 10 minutes per day.**
--   From Shopping to Investing Next Generation Customer Experience (n.d.) suggests “Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference.”
--   Inclusive consumer https://www.mckinsey.com/industries/retail/our-insights/the-rise-of-the-inclusive-consumer
--   “Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design”
--   Cradle to Cradle Nordic circular design https://www.instagram.com/p/CWC6KG7sXBJ/
--   https://www.accupass.com/event/2110290805421017463345
--   https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why
-
-### Consumer Activism {#consumer-activism}
-
--   https://www.amazon.com/Shopping-Change-Consumer-Possibilities-Purchasing-ebook/dp/B079K3KTW9/ref=sr_1\_1?crid=3IQ598DT7ZCH4
-
--   https://www.amazon.com/Brewing-Boycott-Grassroots-Coalition-American-ebook/dp/B08HJ5MQV5 contactt Kalle Lasn, Cultture Jam
-
--   “ESG Accessibility”, Large-scale accessibility to ESG,
-
--   Shop sustainability https://www.estwatch.ee/vastutustundlikkus-eesti-toidupoekettide-tarneahelates-2022
-
--   https://www.facebook.com/eewatch/posts/2010846515763300
-
--   Tarbimise jalajälg https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg
-
--   Credit Suisse (2022) Young consumers drive speed of eco change?
-
--   “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.” https://www.sec.gov/news/statement/peirce-blockfi-20220214
-
-### Conscious Consumerism {#conscious-consumerism}
-
--   Building customer loyalty is a key part of repeat business and financial predictability. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back.
-
--   McKeough (2018) business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
-
--   Green Finance Platform (2020) report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty.
-
--   Hoikkala (2019): meanwhile the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
-
--   Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
-
--   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user’s way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
-
--   Fotheringham (2017): In the words of a Canadian investment blogger, “every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices”.
-
--   Could investing as a pathway from a loyalty scheme strengthen the feeling of connection with the business even further? After all, I’m now a minority owner! What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?
 
 ## Summary {#summary}
 

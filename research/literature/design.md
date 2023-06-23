@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
@@ -24,7 +29,7 @@ import ResQClub from '../images/resq-club.png'
 
 AI can help us make sense of the vast amounts of sustainability data generated daily.
 
--   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software. “Sustainability starts in the design process, and AI can help” “Sustainability Starts in the Design Process, and AI Can Help” (n.d.)
+-   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software. “Sustainability Starts in the Design Process, and AI Can Help” (n.d.): “Sustainability starts in the design process, and AI can help”.
 
 -   https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
 
@@ -34,13 +39,23 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Very simple.” Lion Hirth Lion Hirth (n.d.)
 
--   *EU Taxonomy for Sustainable Activities* (n.d.) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance .
-
--   Chapman (2009) argues in his seminal paper (and later in his book) for “Emotionally Durable Design”, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries.
-
--   Rose (2015) has a similar idea, where “Enchanted Objects” become so interlinked with us, we’re unlikely to throw them away.
+-   Chapman (2009) argues in his seminal paper (and later in his book) for “Emotionally Durable Design”, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. Rose (2015) has a similar idea, where “Enchanted Objects” become so interlinked with us, we’re unlikely to throw them away.
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
+
+## Eco-Design {#eco-design}
+
+-   *EU Taxonomy for Sustainable Activities* (n.d.) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance .
+
+-   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022)
+
+## Young Adults {#young-adults}
+
+-   Is getting people to go to nature more a good way to increase ecological awareness?
+
+## Empowering Design {#empowering-design}
+
+-   adas
 
 ## Extended Producer Responsibility {#extended-producer-responsibility}
 
@@ -48,9 +63,15 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   Peng et al. (2023) finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
 
--   Thukral & Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+-   K. Liu et al. (2023) reports, e–waste is growing 3%–5% every year, globally. Thukral & Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
--   K. Liu et al. (2023) e–waste is growing 3%–5% every year.
+-   In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   Christiansen et al. (2021): Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models.
+
+-   Jacques Vernier (2021): French EPR scheme was upgraded in 2020 to become more circular.
+
+-   In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, in HKTDC Research (2022)@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
 
 ***Design implications:** ERP and CDP data should be part of Green Filter.*
 
@@ -62,19 +83,20 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 ### Food Waste {#food-waste}
 
--   Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away.
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
 
 ``` mdx-code-block
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
 
--   Food saving apps https://www.facebook.com/groups/7573029179
+| Name                         | Link                                                                  |                                                                                                                                                                      |
+|----------------------|-------------------------|-------------------------|
+| Karma                        | https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                      |
+| ResQ Club                    | https://www.resq-club.com/                                            | Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                                       | Haje Jan Kamps (2022) Less impact of food                                                                                                                            |
+| Social media groups (no app) |                                                                       |                                                                                                                                                                      |
 
--   Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential.
-
--   Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO2 emissions.
-
--   Poore & Nemecek (2018) suggests 26% of carbon emissions come from food production.
+-   Poore & Nemecek (2018) suggests 26% of carbon emissions come from food production. Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO2 emissions.
 
 -   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
@@ -87,12 +109,6 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 | “The hands-on perspective”          | “Tangible solutions within the reach of consumers and the food industry”              |
 
 -   ***Design Implication***: Where to shop rankings for groceries — list worst offenders in terms of products — shop and invest according to your values.
-
--   Karma - Save food https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062
-
--   Less impact of food https://techcrunch.com/2022/08/11/kuri-app/
-
--   https://www.reuters.com/article/us-estonia-tech-nature/you-think-money-grows-on-trees-estonian-firm-seeks-finance-from-forests-idUSKBN29K17N?il=0
 
 -   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
 
@@ -116,21 +132,13 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 ## Fast Fashion, Sustainable Fashion, Textile Design {#fast-fashion-sustainable-fashion-textile-design}
 
--   European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year (European Environment Agency (2022)). Globally 87% of textile products are burned or landfilled after 1st consumer use (Köhler et al. (2021)).
-
--   In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (Christiansen et al. (2021)).
-
--   French EPR scheme was upgraded in 2020 to become more circular (Jacques Vernier (2021)).
-
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market: (HKTDC Research (2022)).
+-   In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. Köhler et al. (2021): Globally 87% of textile products are burned or landfilled after 1st consumer use.
 
 -   Leung & Luximon (2021) There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design.
 
--   Sneakers made from coffee https://twitter.com/RensOriginal
+-   Emily Chan (2022) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
 
--   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022)
+-   Wikirate (2022): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
 
 -   Millward-Hopkins et al. (2023) shows how half of the textile waste in the UK is exported to other countries.
 
@@ -148,17 +156,13 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   https://eu.sheepinc.com/?v=1666529932643
 
--   Sustainable fashion company evaluations: https://goodonyou.eco/
+-   Good On You (2023) Sustainable fashion company evaluations
 
 -   Ethical brand ratings. GStar https://directory.goodonyou.eco/brand/g-star-raw
-
--   https://apps.apple.com/us/app/good-on-you-ethical-fashion-app/id1044017998
 
 -   Worker’s rights. https://www.instagram.com/p/CUXjfzfr7Ze/
 
 -   **Problem**: report says there’s not enough transparency in fashion: https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022/amp can’t be held accountable for their actions (or indeed, their lack of action https://www.vogue.co.uk/fashion/article/green-legislation-fashion#intcid=inline_amp
-
--   Emily Chan (2022) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
 
 -   https://wikirate.org/ https://cordis.europa.eu/project/id/688364 https://fashionchecker.org/
 
@@ -179,8 +183,6 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 -   https://www.newstandardinstitute.org/
 
 -   https://www.bgmea.com.bd/
-
--   “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.” https://wikirate.medium.com/sharing-data-and-creating-impact-fashion-revolution-brasil-open-up-their-data-on-wikirate-c6ec672b4bd3
 
 -   https://www.linkedin.com/showcase/ecotextile-news/
 
@@ -208,7 +210,7 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 
 -   https://www.cleantech.com/the-global-cleantech-100/
 
--   Alterations and repairs made easy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
+-   Alterations and repairs madeeasy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
 
 ### Group Purchases {#group-purchases}
 
@@ -235,6 +237,13 @@ AI can help us make sense of the vast amounts of sustainability data generated d
 -   https://www.sulapac.com/
 
 -   Ada et al. (2023) notes rapid growth of the packaging industry which generates large amounts of waste.
+
+## What is Interaction Design? {#what-is-interaction-design}
+
+-   Kolko & Connors (2010); IxDF (n.d.) believes interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+-   Weinschenk (2011) says “People expect most online interactions to follow the same social rules as person-to-person interactions. It’s a shortcut that your brain uses to quickly evaluate trustworthiness.”
+-   Richard Yang (2021) and Justin Baker (2018) say some of the tools used by interaction designers include
+-   Red Route Analysis
 
 ## Quantified Self {#quantified-self}
 
@@ -289,7 +298,7 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 -   https://golden.com/wiki/WaltonChain\_(cryptocurrency)-EAVDZX4
 -   https://www.bext360.com/
 -   https://fairfood.org/en/blockchain/
--   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2e emissions in shipping 50% by 2050 compared to 2008.
+-   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
 
 ### Factories {#factories}
 
@@ -316,7 +325,17 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 -   Recycle your phone: https://arileht.delfi.ee/artikkel/120071926/kestlikkuse-suunanaitajad-saadavad-teisele-ringile-maja-ja-mobiiltelefoni
 
-### ESG blockchains {#esg-blockchains}
+### ESG Blockchains {#esg-blockchains}
+
+-   Sepandar Kamvar (2022) “A blockchain is a database without a database admin”
+
+-   Verra (2023) Verra new Methodology Announcement Webinar
+
+-   Eisenstein?: “Money is a technology”.
+
+-   Eisenstein (2011): 5 things, UBI, demurrage, …
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   https://insights.physisinvestment.com/blockchain-in-esg-investing/
 
@@ -343,13 +362,6 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 -   Planet Factory
 
 -   Source of plastic waste https://sourceofplasticwaste.org/
-
-### Internet of Things (IoT) {#internet-of-things-iot}
-
--   “thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations’ environmental performance without relying purely on what they say.”
--   https://www.fastcompany.com/90656749/greenwashing-ai
--   https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973
--   https://planethome.eco/
 
 ### What is Product Design? {#what-is-product-design}
 
@@ -451,7 +463,7 @@ Design to reduce climate anxiety
 -   Google green routes https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html
 -   Check carbon impact https://wizzair.chooose.today/
 
-### Eco-Design {#eco-design}
+### Eco-Design {#eco-design-1}
 
 -   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting ecodesign requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
 
@@ -584,12 +596,12 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 ### “Speculative Design” for a sustainability assistant {#speculative-design-for-a-sustainability-assistant}
 
 -   Barendregt & Vaage (2021) explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
--   Google Design (2019)
+-   2222 cgoogledesignDesignSpeculativeFutures2019
 -   All green categories — Green hub — Ask the user to prioritize
 
 ### Experience Design {#experience-design}
 
--   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: “People buy experiences, not technology.”
+-   In Michael Abrash (2017) Meta Oculus AR Incubation GM Laura Fryer: “People buy experiences, not technology.”
 -   Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
 ### Mobile App Design {#mobile-app-design}
@@ -612,7 +624,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
 
--   Karina from Korea (aespa (2020)). It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+-   aespa (2020): Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
 ### Carbon Labelling {#carbon-labelling}
 
@@ -728,7 +740,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 ## Summary {#summary}
 
-TODO design summary.
+-   TODO design summary.
 
 # References {#references .unnumbered}
 
@@ -798,6 +810,8 @@ Duriez, E., Morlier, J., Azzaro-Pantel, C., & Charlotte, M. (2022). Ecodesign wi
 
 Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
+Eisenstein, C. (2011). *Sacred economics: Money, gift, & society in the age of transition*. Evolver Editions.
+
 Emily Chan. (2022). Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation? *British Vogue*.
 
 Emir Hidayat, S., Bamahriz, O., Hidayati, N., Sari, C. A., & Dewandaru, G. (2022). Value drivers of startup valuation from venture capital equity-based investing: A global analysis with a focus on technological factors. *Borsa Istanbul Review*, *22*(4), 653–667. <https://doi.org/10.1016/j.bir.2021.10.001>
@@ -824,7 +838,7 @@ Giudice, F. (2020). *WeChat: The impact of the super app on Chinese society.*
 
 Godfrey, A., Hetherington, V., Shum, H., Bonato, P., Lovell, N. H., & Stuart, S. (2018). From A to Z: Wearable technology explained. *Maturitas*, *113*, 40–47. <https://doi.org/10.1016/j.maturitas.2018.04.012>
 
-Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
+Good On You. (2023). Good On You - Sustainable and Ethical Fashion Brand Ratings. In *Good On You*. https://goodonyou.eco/.
 
 Greenbaum, D., & Gerstein, M. (2016). Who Owns Your DNA? *Cell*, *165*(2), 257–258. <https://doi.org/10.1016/j.cell.2016.03.032>
 
@@ -836,6 +850,8 @@ Gupta, B. B., Gaurav, A., Panigrahi, P. K., & Arya, V. (2023). Analysis of artif
 
 Gyabaah, D., Awuah, E., Antwi-Agyei, P., & Kuffour, R. A. (2023). Characterization of dumpsite waste of different ages in Ghana. *Heliyon*, *9*(5), e15827. <https://doi.org/10.1016/j.heliyon.2023.e15827>
 
+Haje Jan Kamps. (2022). Kuri is an app that wants to reduce your food’s carbon footprint. In *TechCrunch*. https://techcrunch.com/2022/08/11/kuri-app/.
+
 HKTDC Research. (2022). *France Expands Producer Responsibility to Certain Textile Items; Recommends Limiting Hazardous Chemicals in School Supplies*. https://research.hktdc.com/en/article/MTEyNTg5ODAwNw.
 
 Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disruptive: Evidence from China’s “super app” WeChat. *Mobile Media & Communication*, *9*(2), 177–194. <https://doi.org/10.1177/2050157920940765>
@@ -846,9 +862,13 @@ Implement Consulting Group. (2022). *How the digital sector is supporting climat
 
 Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M., & Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, *28*, 100727. <https://doi.org/10.1016/j.scp.2022.100727>
 
+IxDF. (n.d.). *What is Interaction Design?* https://www.interaction-design.org/literature/topics/interaction-design.
+
 Jacques Vernier. (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
 Jeni Miles. (2022). Becoming a Sustainability-Aware App or Game. In *Google Play Apps & Games*.
+
+Justin Baker. (2018). Red Routes Critical Design Paths That Make or Break Your App. In *Muzli*. https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a.
 
 Kate Brandt, & Matt Brittin. (2022). *Google’s climate action in Europe*. https://blog.google/outreach-initiatives/sustainability/google-sustainability-summit-2022/.
 
@@ -857,6 +877,9 @@ Kiessling, T., Hinzmann, M., Mederake, L., Dittmann, S., Brennecke, D., Böhm-Be
 Kjrgård, B., Land, B., & Bransholm Pedersen, K. (2014). Health and sustainability. *Health Promotion International*, *29*(3), 558–568. <https://doi.org/10.1093/heapro/das071>
 
 Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstantas, A., Donatello, S., & Faraca, G. (2021). *Circular economy perspectives in the EU textile sector: Final report*. Publications Office of the European Union.
+
+Kolko, J., & Connors, C. (2010). *Thoughts on interaction design: A collection of reflections*. Morgan Kaufmann.
+<span class="csl-block">First published: Savannah, GA : Brown Bear, c2007</span>
 
 Kristina Kostap. (2022). LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga. *Postimees*.
 
@@ -877,6 +900,8 @@ Manzardo, A., Marson, A., Zuliani, F., Bacenetti, J., & Scipioni, A. (2021). Com
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
 McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
+Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
 
 Millings, A., Morris, J., Rowe, A., Easton, S., Martin, J. K., Majoe, D., & Mohr, C. (2015). Can the effectiveness of an online stress management program be augmented by wearable sensor technology? *Internet Interventions*, *2*(3), 330–339. <https://doi.org/10.1016/j.invent.2015.04.005>
 
@@ -899,6 +924,8 @@ Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through
 
 Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L., Maier, H. R., Schlink, U., Steinle, S., Vieno, M., & Wimberly, M. C. (2015). Integrating modelling and smart sensors for environmental and human health. *Environmental Modelling & Software*, *74*, 238–246. <https://doi.org/10.1016/j.envsoft.2015.06.003>
 
+Richard Yang. (2021). Interaction design is more than just user flows and clicks. In *UX Collective*. https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c.
+
 Roa, L., Correa-Bahnsen, A., Suarez, G., Cortés-Tejada, F., Luque, M. A., & Bravo, C. (2021). Super-app behavioral patterns in credit risk models: Financial, statistical and regulatory implications. *Expert Systems with Applications*, *169*, 114486. <https://doi.org/10.1016/j.eswa.2020.114486>
 
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
@@ -917,6 +944,8 @@ Saner, D., Beretta, C., Jäggi, B., Juraske, R., Stoessel, F., & Hellweg, S. (20
 Sarah Perez. (2022). Google rolls out a new set of search tools for eco-conscious travelers. In *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
 
 Saubade, M., Karatzios, C., Besson, C., Farasse, A.-C., Charles, B., & Gremion, G. (2016). Promoting physical activity: What do we have available to motivate our patients? *Annals of Physical and Rehabilitation Medicine*, *59*, e54–e55. <https://doi.org/10.1016/j.rehab.2016.07.125>
+
+Sepandar Kamvar. (2022). *Sep Kamvar from Celo & Mosaic*.
 
 Shabrina Nurqamarani, A., Robin Jonathan, L., NH Gaffar, E., & Indrawati, A. (2020). THE EFFECTS OF MOBILE SERVICE QUALITIES ON CUSTOMER REUSE INTENTION OF GOJEK SUPER APP. *HSSR*, *8*(4), 1134–1146. <https://doi.org/10.18510/hssr.2020.84108>
 
@@ -953,13 +982,19 @@ Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular e
 
 Vecchi, A., & Brennan, L. (2022). Two tales of internationalization Chinese internet firms’ expansion into the European market. *Journal of Business Research*, *152*, 106–127. <https://doi.org/10.1016/j.jbusres.2022.07.024>
 
+Verra. (2023). Verra Releases Revised Methodology for Improved Agricultural Land Management. In *Verra*.
+
 Weber, A. (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, *167*, 105616. <https://doi.org/10.1016/j.appet.2021.105616>
 
 Wee, S.-C., Choong, W.-W., & Low, S.-T. (2021). Can “Nudging” play a role to promote pro-environmental behaviour? *Environmental Challenges*, *5*, 100364. <https://doi.org/10.1016/j.envc.2021.100364>
 
+Weinschenk, S. (2011). *100 things every designer needs to know about people*. New Riders.
+
 Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
 
 Why tracing seafood from sea to plate is the next frontier in sustainability \| Stories \| WWF. (n.d.). In *World Wildlife Fund*. https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability.
+
+Wikirate. (2022). Sharing data and creating impact: Fashion Revolution Brasil open up their data on WikiRate. In *Medium*.
 
 Wirani, Y., Nabarian, T., & Romadhon, M. S. (2022). Evaluation of continued use on Kahoot! As a gamification-based learning platform from the perspective of Indonesia students. *Procedia Computer Science*, *197*, 545–556. <https://doi.org/10.1016/j.procs.2021.12.172>
 
