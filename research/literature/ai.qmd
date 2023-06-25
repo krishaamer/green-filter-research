@@ -182,15 +182,18 @@ How to responsibly deploy AI for people around the world?
 ### Voice Assistant Guidelines (Voice UI)
 
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
--   https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
--   https://www.theturnsignalblog.com/blog/voice-interaction/
+-   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
+-   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings.
 -   Focus on voice education?
 -   Example Suggestions of the AI companion:
-    -   *"Don't buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber." -*"Use a refillable shampoo bottle to save XYZ plastic pollution"
+    -   *"Don't buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber."*
+    -   "Use a refillable shampoo bottle to save XYZ plastic pollution"
     -   "Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."\*
--   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (@CELINO2020102410). This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
+-   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
+-   @CELINO2020102410: There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI.
+-   This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
 -   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
 There's evidence across disciplines about the usefulness of AI assistants:
@@ -200,8 +203,9 @@ There's evidence across disciplines about the usefulness of AI assistants:
 
 ### Writing AI Characters
 
--   https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
+-   @aletheaaiAletheaAIAI2021: creating a personality
 -   Writing as training data? large language models. GTP3
+-   **Initial Product Offering**
 
 ### Platform Economy
 
@@ -351,7 +355,7 @@ AI-explainability (named XAI in literature) is key to creating trust and there's
 
 ## Retail Investor Helpers
 
-Nubanks, also known as challenger banks.
+-   Nubanks, also known as challenger banks.
 
 | Company   | Link |
 |-----------|------|

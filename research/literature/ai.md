@@ -184,15 +184,18 @@ How to responsibly deploy AI for people around the world?
 ### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
 
 -   Szczuka et al. (2022) provides guidelines for Voice AI and kids
--   https://www.theturnsignalblog.com/blog/voice-design-guidelines/?ref=sidebar
--   https://www.theturnsignalblog.com/blog/voice-interaction/
+-   Casper Kessels (2022b): “Guidelines for Designing an In-Car Voice Assistant”
+-   Casper Kessels (2022a): “Is Voice Interaction a Solution to Driver Distraction?”
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 -   Tang et al. (2022) reports new findings enable computers to reconstruct language from fMRI readings.
 -   Focus on voice education?
 -   Example Suggestions of the AI companion:
-    -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.” -*”Use a refillable shampoo bottle to save XYZ plastic pollution”
+    -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.”*
+    -   “Use a refillable shampoo bottle to save XYZ plastic pollution”
     -   “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
--   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only. There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI (Celino & Re Calegari (2020)). This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
+-   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
+-   Celino & Re Calegari (2020): There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI.
+-   This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
 -   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
 There’s evidence across disciplines about the usefulness of AI assistants:
@@ -202,8 +205,9 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 ### Writing AI Characters {#writing-ai-characters}
 
--   https://www.youtube.com/watch?v=PCZ4iNe5pnc creating a personality
+-   Alethea AI (2021): creating a personality
 -   Writing as training data? large language models. GTP3
+-   **Initial Product Offering**
 
 ### Platform Economy {#platform-economy}
 
@@ -354,7 +358,7 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 
 ## Retail Investor Helpers {#retail-investor-helpers}
 
-Nubanks, also known as challenger banks.
+-   Nubanks, also known as challenger banks.
 
 | Company   | Link |
 |-----------|------|
@@ -549,6 +553,8 @@ Akata, Z., Balliet, D., De Rijke, M., Dignum, F., Dignum, V., Eiben, G., Fokkens
 
 Akshay Kore. (2022). *Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence*. Apress.
 
+Alethea AI. (2021). *Alethea AI - AI Personality Creative Writing Class*.
+
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
 AlgoTransparency. (n.d.). In *AlgoTransparency*. https://algotransparency.org/.
@@ -587,6 +593,10 @@ Cahan, P., & Treutlein, B. (2023). A conversation with ChatGPT on the role of co
 Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2022). BreastScreening-AI: Evaluating medical intelligent agents for human-AI interactions. *Artificial Intelligence in Medicine*, *127*, 102285. <https://doi.org/10.1016/j.artmed.2022.102285>
 
 Calisto, F. M., Santiago, C., Nunes, N., & Nascimento, J. C. (2021). Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification. *International Journal of Human-Computer Studies*, *150*, 102607. <https://doi.org/10.1016/j.ijhcs.2021.102607>
+
+Casper Kessels. (2022a). Is Voice Interaction a Solution to Driver Distraction? In *The Turn Signal - a Blog About automotive UX Design*. https://theturnsignalblog.com.
+
+Casper Kessels. (2022b). Guidelines for Designing an In-Car Voice Assistant. In *The Turn Signal - a Blog About automotive UX Design*. https://theturnsignalblog.com.
 
 Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational interface: An evaluation of user acceptance and approach effectiveness. *International Journal of Human-Computer Studies*, *139*, 102410. <https://doi.org/10.1016/j.ijhcs.2020.102410>
 
