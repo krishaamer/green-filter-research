@@ -435,6 +435,36 @@ There are many ‘green investment platforms’ who to trust?
 
 -   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
 
+-   DAOs to enable concerted action towards climate goals https://www.instagram.com/treesforthefuture/
+
+-   https://www.libevm.com/
+
+-   https://twitter.com/libevm
+
+-   Finance and culture https://alfalfa.capital/
+
+-   Crypto investment clubs https://app.syndicate.io/clubs
+
+-   Social + NFTs - What would investing look like at the scale of 1 billion people
+
+-   Koreans investing into media personalities https://www.youtube.com/watch?v=VOTH1iYzVBk
+
+### Influencers {#influencers}
+
+-   Influencers are terrible for investing… but?
+-   Influencer - crypto twitter connections
+-   https://www.instagram.com/socol.io/?hl=en
+-   https://twitter.com/Irenezhao\_/status/1484031784035979265?s=20&t=6KXUo_akP42KZlGk0iLiAQ
+
+### LHV Crypto {#lhv-crypto}
+
+-   https://fp.lhv.ee/news/newsView?newsId=5617247
+-   https://fp.lhv.ee/news/newsView?locale=et&newsId=5616264
+-   https://fp.lhv.ee/news/newsView?newsId=5616016
+-   DAO consumer to investor https://a16z.com/2021/10/27/investing-in-friends-with-benefits-a-dao/
+-   https://medium.com/blockchannel/what-is-a-dao-how-do-they-benefit-consumers-f7a0a862f3dc
+-   https://techcrunch.com/2022/02/01/vc-backed-dao-startups-are-racing-to-define-what-daos-actually-are/ - https://money.usnews.com/investing/articles/what-is-a-dao
+
 ### Personalized Investing {#personalized-investing}
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
