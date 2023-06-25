@@ -503,7 +503,7 @@ Create a design system!!!! best to showcase my analytic skills
 -   WikiRate (2021): 7 WikiRate Data Sharing Archetypes
 
 | №   | Type                                 | Example                                      |
-|------|------------------------------|------------------------------------|
+|---------------|--------------------------|--------------------------------|
 | 1   | Transparency Accountability Advocate |                                              |
 | 2   | Compliance Data Aggregator           |                                              |
 | 3   | Data Intelligence Hub                |                                              |
@@ -523,7 +523,7 @@ Create a design system!!!! best to showcase my analytic skills
 -   App shows traceability!!
 -   Katie Gustafson (2022) **“Uniform traceability system for the entire supply chain.”**
 -   Help consumers to demand more
--   https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating
+-   Tim Nicolle (2017)
 -   Tim Nicolle (2021) and PrimaDollar Media (2021) PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer
 -   “Worker Voice” (2022) Worker Voice apps
 -   *Real Time ESG Tracking From StockSnips* (2021) “Real Time ESG Tracking From StockSnips”
@@ -711,7 +711,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Giudice (2020) MA thesis’s argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country.
 
--   Fleet Management Weekly (2022) “Sustainability and superapps top Gartner's Top 10 2023 Trends List”
+-   Fleet Management Weekly (2022) “Sustainability and superapps top Gartner’s Top 10 2023 Trends List”
 
 -   Bernard (2022)
 
@@ -1000,6 +1000,8 @@ Thomas, L., Briggs, P., Kerrigan, F., & Hart, A. (2018). Exploring digital remed
 Thukral, S., & Singh, M. (2023). An exploratory study on producer’s perspective towards <span class="nocase">E-waste</span> management: A case of emerging markets. *Cleaner Waste Systems*, *5*, 100090. <https://doi.org/10.1016/j.clwas.2023.100090>
 
 Tiernan, H., Friedman, S., Clube, R. K. M., Burgman, M. A., Castillo, A. C., Stettler, Marc. E. J., Kazarian, S. G., Wright, S., & De Nazelle, A. (2022). Implementation of a structured decision-making framework to evaluate and advance understanding of airborne microplastics. *Environmental Science & Policy*, *135*, 169–181. <https://doi.org/10.1016/j.envsci.2022.05.005>
+
+Tim Nicolle. (2017). *Fintech lending whose lunch are you eating? - AltFi*. https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating.
 
 Tim Nicolle. (2021). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. *CTMfile*.
 

@@ -49,6 +49,19 @@ import Humboldt from '../images/humboldt.jpg'
 -   @uebtBiodiversityBarometer2022 reports "Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009."
 -   United Nations Convention on Biodiversity
 
+### Ecosystem Services
+
+-   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+-   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
+-   @noriegaResearchTrendsEcosystem2018 attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
+
+### Biodiversity
+
+-   @almondr.e.a.LivingPlanetReport reports, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
+
+-   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.**
+
 ## Pollution
 
 ### Clean Water
@@ -154,18 +167,6 @@ Large ones that get international news coverage:
 -   @ivanovaQuantifyingPotentialClimate2020: "Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap."
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
-### Fossil Fuels and Energy
-
-There's evidence from several countries suggesting moving to renewal energy brings benefits:
-
--   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
-
--   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
-
--   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
-
--   The true cost of products is hidden. The work is hidden.
-
 ### Forests
 
 -   @fredericsimonEuropeRapidlyLosing2022 Europe rapidly losing its forest carbon sink.
@@ -184,9 +185,79 @@ There's evidence from several countries suggesting moving to renewal energy brin
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this?
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-### Carbon Markets
+## Carbon Markets
 
 -   @sipthorpeBlockchainSolutionsCarbon2022 compares traditional and blockchain-based solutions to carbon trading.
+-   @liuIndepthWillChina2021 and @ivyyinCommodities2023China2023 China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
+-   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+-   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
+-   @unitednationsenvironmentprogrammeEmissionsGapReport2022 2022 Emissions Gap report.
+
+### Fossil Fuels and Energy
+
+There's evidence from several countries suggesting moving to renewal energy brings benefits:
+
+-   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
+
+-   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+
+-   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
+
+-   The true cost of products is hidden. The work is hidden.
+
+### Emission Scopes
+
+-   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
+
+| Scope   | Source                         |
+|---------|--------------------------------|
+| Scope 1 | Direct emissions               |
+| Scope 2 | Indirect electricity emissions |
+| Scope 3 | Value chain emissions          |
+
+### Cap and Trade
+
+-   adsas
+
+### Carbon Inequality
+
+-   @chancelGlobalCarbonInequality2022 suggests "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it".
+
+### Carbon Credit Retirement
+
+-   ads
+
+### Carbon Capture
+
+-   @vitilloRoleCarbonCapture2022 argues
+
+-   @gaureTrueNotTrue2022: "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology."
+
+-   Make commerce more transparent
+
+-   **Important: "creating sustainability trust in companies in realtime"**
+
+### Social Cost of Carbon
+
+-   @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher.
+
+-   @stanforduniversityProfessorsExplainSocial2021: "the cost of the damages created by one extra ton of carbon dioxide emissions"
+
+-   @kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018 suggest "The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions" with variations between countries (@tolSocialCostCarbon2019) and regions (@wangMeasurementChinaProvincial2022).
+
+-   @sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO2 prices.
+
+-   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
+
+-   @ritzGlobalCarbonPrice2022 says Carbon prices are highly asymmetric.
+
+-   @linOpportunitiesTackleShortlived2022 says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+
+-   As shown in the Phillipines by @chengAssessingEconomicLoss2022, with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards".
+
+-   @jerrettSmokeCaliforniaGreenhouse2022 says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
+
+-   @wangMultimodelAssessmentClimate2022: Quantifying climate damage proposes scenarios of climate damage.
 
 ## Provenance and Traceability
 
@@ -243,14 +314,6 @@ A movement of people living a simple life. This is always going to be a small pe
 
 **For design: These movements are too small and require too much effort to be feasible for the app.**
 
-## Ecodesign for Sustainable Products
-
--   Finding green products and supporting companies making them
--   Supporting legislative changes
--   Track you consumption, saving, investing. Shift balance towards saving and investing.
--   https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0
--   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
-
 ## Biomarkers vs Ecomarkers
 
 -   **Blood testing and biomarkers allow people to track their health. I'm introducing the concept of 'eco-markers' to follow the sustainability of human activities.**
@@ -271,18 +334,16 @@ A movement of people living a simple life. This is always going to be a small pe
 
 ### Regeneration
 
--   https://www.regen.network/
--   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/
--   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
--   https://www.klimadao.finance/
--   https://rss.com/podcasts/potk/367282/
--   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
+-   @CommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
+-   @smithOneYearLater2021
+-   @KlimaDAO2023 KlimaDAO
+-   @PlanetKlimatesLuis Moss.earth
 
 ### European Green Deal
 
--   https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
--   https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/
+-   @EuropeanGreenDeal2021
+-   @switch2greenEUGreenDeal2023
 
 It's up to legislators to provide sustainable products on our marketplace... but until we do, use the green filter.
 
@@ -290,56 +351,16 @@ It's up to legislators to provide sustainable products on our marketplace... but
 -   Tacking our consumption habits
 -   Europe is the hotbed of sustainability
 -   https://www.visualcapitalist.com/most-sustainable-companies/
--   https://lautrecouleur.com/notable-sustainable-companies-in-florida/
--   https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
-
-### Carbon Markets
-
--   @liuIndepthWillChina2021 and @ivyyinCommodities2023China2023 China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
-
--   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
-
--   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
-
--   @unitednationsenvironmentprogrammeEmissionsGapReport2022 2022 Emissions Gap report.
+-   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
+-   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
 
 ### Inflation Reduction Act
 
 -   adas
 
-### Carbon Inequality
-
--   @chancelGlobalCarbonInequality2022 suggests "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it".
-
 ### Actionable Insights
 
 -   Translate data into everyday actions the app can suggest.
-
-## Cap and Trade
-
--   
-
-### Social Cost of Carbon
-
--   @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher.
-
--   @stanforduniversityProfessorsExplainSocial2021: "the cost of the damages created by one extra ton of carbon dioxide emissions"
-
--   @kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018 suggest "The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions" with variations between countries (@tolSocialCostCarbon2019) and regions (@wangMeasurementChinaProvincial2022).
-
--   @sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO2 prices.
-
--   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
-
--   @ritzGlobalCarbonPrice2022 says Carbon prices are highly asymmetric.
-
--   @linOpportunitiesTackleShortlived2022 says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
-
--   As shown in the Phillipines by @chengAssessingEconomicLoss2022, with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards".
-
--   @jerrettSmokeCaliforniaGreenhouse2022 says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
-
--   @wangMultimodelAssessmentClimate2022: Quantifying climate damage proposes scenarios of climate damage.
 
 ## Greenwashing
 
@@ -376,43 +397,6 @@ It's up to legislators to provide sustainable products on our marketplace... but
 -   @ClimateBondsInitiative2022: Climate Bonds Initiativegreening the \$55 trillion short-term debt market
 
 -   **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
-
-### Emission Scopes
-
--   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
-
-| Scope   | Source                         |
-|---------|--------------------------------|
-| Scope 1 | Direct emissions               |
-| Scope 2 | Indirect electricity emissions |
-| Scope 3 | Value chain emissions          |
-
-### Carbon Credit Retirement
-
--   ads
-
-### Ecosystem Services
-
--   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
--   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
--   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
--   @noriegaResearchTrendsEcosystem2018 attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
-
-### Biodiversity
-
--   @almondr.e.a.LivingPlanetReport reports, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
-
--   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.**
-
-### Carbon Capture
-
--   @vitilloRoleCarbonCapture2022 argues
-
--   @gaureTrueNotTrue2022: "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology."
-
--   Make commerce more transparent
-
--   **Important: "creating sustainability trust in companies in realtime"**
 
 ## Conclusion
 

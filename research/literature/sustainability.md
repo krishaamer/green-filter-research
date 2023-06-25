@@ -56,6 +56,19 @@ import Humboldt from '../images/humboldt.jpg'
 -   UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
 -   United Nations Convention on Biodiversity
 
+### Ecosystem Services {#ecosystem-services}
+
+-   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+-   Han & Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
+-   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
+
+### Biodiversity {#biodiversity}
+
+-   Almond, R.E.A. et al. (n.d.) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
+
+-   UNEP (Tue, 12/20/2022 - 07:44): **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.**
+
 ## Pollution {#pollution}
 
 ### Clean Water {#clean-water}
@@ -161,18 +174,6 @@ Large ones that get international news coverage:
 -   Ivanova et al. (2020): “Around two-thirds of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tCO2eq/cap.”
 -   Armstrong McKay et al. (2022) discusses tipping points
 
-### Fossil Fuels and Energy {#fossil-fuels-and-energy}
-
-There’s evidence from several countries suggesting moving to renewal energy brings benefits:
-
--   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
-
--   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
-
--   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
-
--   The true cost of products is hidden. The work is hidden.
-
 ### Forests {#forests}
 
 -   Frédéric Simon (2022) Europe rapidly losing its forest carbon sink.
@@ -191,9 +192,79 @@ There’s evidence from several countries suggesting moving to renewal energy br
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-### Carbon Markets {#carbon-markets}
+## Carbon Markets {#carbon-markets}
 
 -   Sipthorpe et al. (2022) compares traditional and blockchain-based solutions to carbon trading.
+-   Liu (2021) and Ivy Yin (2023) China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
+-   United Nations Environment Programme (UNEP) (2021) report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+-   United Nations Environment Programme (UNEP) (2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
+-   United Nations Environment Programme (2022) 2022 Emissions Gap report.
+
+### Fossil Fuels and Energy {#fossil-fuels-and-energy}
+
+There’s evidence from several countries suggesting moving to renewal energy brings benefits:
+
+-   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
+
+-   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+
+-   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
+
+-   The true cost of products is hidden. The work is hidden.
+
+### Emission Scopes {#emission-scopes}
+
+-   National Public Utilities Council (2022): The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
+
+| Scope   | Source                         |
+|---------|--------------------------------|
+| Scope 1 | Direct emissions               |
+| Scope 2 | Indirect electricity emissions |
+| Scope 3 | Value chain emissions          |
+
+### Cap and Trade {#cap-and-trade}
+
+-   adsas
+
+### Carbon Inequality {#carbon-inequality}
+
+-   Chancel (2022) suggests “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it”.
+
+### Carbon Credit Retirement {#carbon-credit-retirement}
+
+-   ads
+
+### Carbon Capture {#carbon-capture}
+
+-   Vitillo et al. (2022) argues
+
+-   Gaure & Golombek (2022): “98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.”
+
+-   Make commerce more transparent
+
+-   **Important: “creating sustainability trust in companies in realtime”**
+
+### Social Cost of Carbon {#social-cost-of-carbon}
+
+-   Rennert et al. (2022): Carbon price should be 3,6x higher.
+
+-   Stanford University (2021): “the cost of the damages created by one extra ton of carbon dioxide emissions”
+
+-   Kornek et al. (2021) and Zhen et al. (2018) suggest “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
+
+-   Stern (2022) reports carbon-neutral economy needs higher CO2 prices.
+
+-   Howard et al. (2017) argues Oceans play crucial role in carbon capture.
+
+-   Ritz (2022) says Carbon prices are highly asymmetric.
+
+-   Lin et al. (2022) says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+
+-   As shown in the Phillipines by Cheng & Han (2022), with increasing extreme weather events, “businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards”.
+
+-   Jerrett et al. (2022) says, In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.”
+
+-   T.-P. Wang & Teng (2022): Quantifying climate damage proposes scenarios of climate damage.
 
 ## Provenance and Traceability {#provenance-and-traceability}
 
@@ -250,14 +321,6 @@ A movement of people living a simple life. This is always going to be a small pe
 
 **For design: These movements are too small and require too much effort to be feasible for the app.**
 
-## Ecodesign for Sustainable Products {#ecodesign-for-sustainable-products}
-
--   Finding green products and supporting companies making them
--   Supporting legislative changes
--   Track you consumption, saving, investing. Shift balance towards saving and investing.
--   https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0
--   European Commission (2022) Ecodesign for sustainable products
-
 ## Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
 
 -   **Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.**
@@ -278,18 +341,16 @@ A movement of people living a simple life. This is always going to be a small pe
 
 ### Regeneration {#regeneration}
 
--   https://www.regen.network/
--   https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/
--   https://www.youtube.com/watch?v=Pv8OTD-Ze6E&feature=emb_title
--   https://www.klimadao.finance/
--   https://rss.com/podcasts/potk/367282/
--   https://members.delphidigital.io/reports/a-peak-into-the-cosmos-ecosystem/
 -   “What Is ReFi \| Regenerative Finance Explained” (2023): What is Reggenerative Finance (ReFi).
+-   *(2) Community Development Call 1/19/22 - YouTube* (22 C.E.) and Regen Network (2023) regen network
+-   Smith (2021)
+-   “KlimaDAO” (2023) KlimaDAO
+-   “Planet of the Klimates - Luis Adaime - Founder & CEO of MOSS.Earth” (n.d.) Moss.earth
 
 ### European Green Deal {#european-green-deal}
 
--   https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
--   https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/
+-   *A European Green Deal* (2021)
+-   Switch2Green (2023)
 
 It’s up to legislators to provide sustainable products on our marketplace… but until we do, use the green filter.
 
@@ -297,56 +358,16 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   Tacking our consumption habits
 -   Europe is the hotbed of sustainability
 -   https://www.visualcapitalist.com/most-sustainable-companies/
--   https://lautrecouleur.com/notable-sustainable-companies-in-florida/
--   https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001
-
-### Carbon Markets {#carbon-markets-1}
-
--   Liu (2021) and Ivy Yin (2023) China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
-
--   United Nations Environment Programme (UNEP) (2021) report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
-
--   United Nations Environment Programme (UNEP) (2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
-
--   United Nations Environment Programme (2022) 2022 Emissions Gap report.
+-   Lamoureux (2018) Florida sustainable companies
+-   MICHAEL HOULIHAN & BONNIE HARVEY (2018) customers prefer sustainable companies
 
 ### Inflation Reduction Act {#inflation-reduction-act}
 
 -   adas
 
-### Carbon Inequality {#carbon-inequality}
-
--   Chancel (2022) suggests “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12% of it”.
-
 ### Actionable Insights {#actionable-insights}
 
 -   Translate data into everyday actions the app can suggest.
-
-## Cap and Trade {#cap-and-trade}
-
--   
-
-### Social Cost of Carbon {#social-cost-of-carbon}
-
--   Rennert et al. (2022): Carbon price should be 3,6x higher.
-
--   Stanford University (2021): “the cost of the damages created by one extra ton of carbon dioxide emissions”
-
--   Kornek et al. (2021) and Zhen et al. (2018) suggest “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” with variations between countries (Tol (2019)) and regions (Y. Wang et al. (2022)).
-
--   Stern (2022) reports carbon-neutral economy needs higher CO2 prices.
-
--   Howard et al. (2017) argues Oceans play crucial role in carbon capture.
-
--   Ritz (2022) says Carbon prices are highly asymmetric.
-
--   Lin et al. (2022) says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
-
--   As shown in the Phillipines by Cheng & Han (2022), with increasing extreme weather events, “businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards”.
-
--   Jerrett et al. (2022) says, In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.”
-
--   T.-P. Wang & Teng (2022): Quantifying climate damage proposes scenarios of climate damage.
 
 ## Greenwashing {#greenwashing}
 
@@ -384,43 +405,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 
 -   **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
-### Emission Scopes {#emission-scopes}
-
--   National Public Utilities Council (2022): The U.S. National Public Utilities Council (NPUC) utility decarbonization report provides a useful categorization of company emissions:
-
-| Scope   | Source                         |
-|---------|--------------------------------|
-| Scope 1 | Direct emissions               |
-| Scope 2 | Indirect electricity emissions |
-| Scope 3 | Value chain emissions          |
-
-### Carbon Credit Retirement {#carbon-credit-retirement}
-
--   ads
-
-### Ecosystem Services {#ecosystem-services}
-
--   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
--   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
--   Han & Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
--   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions. Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
-
-### Biodiversity {#biodiversity}
-
--   Almond, R.E.A. et al. (n.d.) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
-
--   UNEP (Tue, 12/20/2022 - 07:44): **The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.**
-
-### Carbon Capture {#carbon-capture}
-
--   Vitillo et al. (2022) argues
-
--   Gaure & Golombek (2022): “98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.”
-
--   Make commerce more transparent
-
--   **Important: “creating sustainability trust in companies in realtime”**
-
 ## Conclusion {#conclusion}
 
 -   A wide range of legislative proposals, targets, organizations, and goals already exists across Europe. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market.
@@ -428,6 +412,10 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is necessary a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References {#references .unnumbered}
+
+*(2) Community Development Call 1/19/22 - YouTube*. (22 C.E.). https://www.youtube.com/watch?v=Pv8OTD-Ze6E.
+
+*A European Green Deal*. (2021). https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en.
 
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, & T. (Eds). (n.d.). *Living Planet Report 2022 Building a Naturepositive Society*. WWF (World Wide Fund for Nature).
 
@@ -497,8 +485,6 @@ Eesti Vabariigi Valitsus. (2022). *Rohepöörde tegevusplaan*. https://valitsus.
 
 Ethereum. (2023). Oracles. In *ethereum.org*. https://ethereum.org.
 
-European Commission. (2022). *Ecodesign for sustainable products*.
-
 European Commission. Joint Research Centre. (2022). *CO2 emissions of all world countries :JRC/IEA/PBL 2022 report.* Publications Office.
 
 Ford, H. V., Jones, N. H., Davies, A. J., Godley, B. J., Jambeck, J. R., Napper, I. E., Suckling, C. C., Williams, G. J., Woodall, L. C., & Koldewey, H. J. (2022). The fundamental links between climate change and marine plastic pollution. *Science of The Total Environment*, *806*, 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>
@@ -541,7 +527,11 @@ Keeble, B. R. (1988). The Brundtland Report: ’Our Common Future’. *Medicine 
 
 Kira Taylor. (2021). *EU plan puts spotlight on carbon sinks to tackle climate change*. https://www.euractiv.com/section/climate-environment/news/eu-draft-puts-spotlight-on-improving-carbon-sinks-to-tackle-climate-change/.
 
+KlimaDAO. (2023). In *KlimaDAO*. https://www.klimadao.finance/.
+
 Kornek, U., Klenert, D., Edenhofer, O., & Fleurbaey, M. (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, *107*, 102450. <https://doi.org/10.1016/j.jeem.2021.102450>
+
+Lamoureux, E.-C. (2018). Notable Sustainable Companies in Florida. In *L’Autre Couleur*.
 
 Lavers, J. L., Bond, A. L., & Rolsky, C. (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, *272*, 109655. <https://doi.org/10.1016/j.biocon.2022.109655>
 
@@ -566,6 +556,8 @@ Martinez-Alier, J., Neyra, R., & Rincón, M. A. P. (2022). Reply to Orihuela et 
 
 McGinty, D. (Thu, 08/06/2020 - 11:25). *How to Build a Circular Economy*.
 
+MICHAEL HOULIHAN, & BONNIE HARVEY. (2018). *It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur*. https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001.
+
 Moberg, K. R., Aall, C., Dorner, F., Reimerson, E., Ceron, J.-P., Sköld, B., Sovacool, B. K., & Piana, V. (2019). Mobility, food and housing: Responsibility, individual consumption and demand-side policies in European deep decarbonisation pathways. *Energy Efficiency*, *12*(2), 497–519. <https://doi.org/10.1007/s12053-018-9708-7>
 
 Napper, I. E., & Thompson, R. C. (2019). Environmental Deterioration of Biodegradable, <span class="nocase">Oxo-biodegradable</span>, Compostable, and Conventional Plastic Carrier Bags in the Sea, Soil, and Open-Air Over a 3-Year Period. *Environ. Sci. Technol.*, *53*(9), 4775–4783. <https://doi.org/10.1021/acs.est.8b06984>
@@ -580,11 +572,15 @@ Patel, A. S., Brahmbhatt, M. N., Bariya, A. R., Nayak, J. B., & Singh, V. K. (20
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
+Planet of the Klimates - Luis Adaime - Founder & CEO of MOSS.Earth. (n.d.). In *RSS.com*. https://rss.com/podcasts/potk/367282/.
+
 *Public Health Linkages with Sustainability: Workshop Summary* (p. 18375). (2013). \[Computer software\]. National Academies Press. <https://doi.org/10.17226/18375>
 
 Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022). The Big Compost Experiment: Using citizen science to assess the impact and effectiveness of biodegradable and compostable plastics in UK home composting. *Front. Sustain.*, *3*, 942724. <https://doi.org/10.3389/frsus.2022.942724>
 
 Ray, P. P. (2023). Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions. *Internet of Things and Cyber-Physical Systems*, *3*, 213–248. <https://doi.org/10.1016/j.iotcps.2023.05.003>
+
+Regen Network. (2023). *Regen Network / Invest in high-integrity carbon credits*. https://www.regen.network/.
 
 Rennert, K., Errickson, F., Prest, B. C., Rennels, L., Newell, R. G., Pizer, W., Kingdon, C., Wingenroth, J., Cooke, R., Parthum, B., Smith, D., Cromar, K., Diaz, D., Moore, F. C., Müller, U. K., Plevin, R. J., Raftery, A. E., Ševčíková, H., Sheets, H., … Anthoff, D. (2022). Comprehensive evidence implies a higher social cost of CO2. *Nature*, *610*(7933), 687–692. <https://doi.org/10.1038/s41586-022-05224-9>
 
@@ -598,9 +594,13 @@ Scheidel, A., Del Bene, D., Liu, J., Navas, G., Mingorría, S., Demaria, F., Avi
 
 Sipthorpe, A., Brink, S., Van Leeuwen, T., & Staffell, I. (2022). Blockchain solutions for carbon markets are nearing maturity. *One Earth*, *5*(7), 779–791. <https://doi.org/10.1016/j.oneear.2022.06.004>
 
+Smith, B. (2021). One year later: The path to carbon negative a progress report on our climate “moonshot.” In *The Official Microsoft Blog*. https://blogs.microsoft.com/blog/2021/01/28/one-year-later-the-path-to-carbon-negative-a-progress-report-on-our-climate-moonshot/.
+
 Stanford University. (2021). Professors explain the social cost of carbon. In *Stanford News*.
 
 Stern, N. (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, *6*, 100036. <https://doi.org/10.1016/j.jge.2022.100036>
+
+Switch2Green. (2023). *The EU Green Deal a roadmap to sustainable economies*. https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/.
 
 The Carbon Trust. (n.d.). *Q&A: How to reduce your carbon footprint through your everyday shopping*. https://www.carbontrust.com/resources/qa-how-to-reduce-your-carbon-footprint-through-your-everyday-shopping.
 
