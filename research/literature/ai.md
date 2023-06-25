@@ -16,6 +16,28 @@ import Replika from '../images/with-me.png'
 
 # A Brief History of AI {#a-brief-history-of-ai}
 
+Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (Turing (1950)), AI has come far, turning from a science-fiction concept into an everyday, mainstream reality.
+
+Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021); Holzinger et al. (2023)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
+
+Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
+
+> Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* -Stanford Encyclopedia of Philosophy (2021)
+
+Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
+
+| №       | Asimov’s Laws of Robotics                                                                                           |
+|-------------------------|------------------------------------------------|
+| 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
+| 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
+| 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
+
+Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google’s products are are based on AI as reported in Google (2022)
+
+While by the 2010’s AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largerly modeled after the *neural networks* of the biological (human) brain.
+
+How to responsibly deploy AI for people around the world?
+
 ### Personalized Artificial Intelligence (AI) Interaction Design (IxD) {#personalized-artificial-intelligence-ai-interaction-design-ixd}
 
 -   User experience design plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
@@ -77,54 +99,11 @@ How is AI changing ’interactions?
 
 -   The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an “Automatic Prompt Engineer” which automatically generates instructions that outperform the baseline output quality. This finding has significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.
 
-### Guided Sustainability {#guided-sustainability}
-
--   Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there’s a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are required.
--   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). IIn essence, “green filter” is a central data repository not unlike “Apple Health for Sustainability”.
--   Health and fitness category apps
--   Using “green filter” you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly
--   There are many examples of combination of AI and human, also known as “human-in-the-loop”. For example health apps like Welltory, Wellue and QALY. Food delivery apps like Starship Robots who ask for human help when crossing the road.
--   How would you rate your knowledge on sustainability?
--   How would you rate your ability to put sustainability into practice?
--   “Guided Sustainability refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact.”
-
-### ChatGPT {#chatgpt}
-
--   Kecht et al. (2023) suggests AI is capable of learning business processes.
-
--   O’Connor & ChatGPT (2023) and Cahan & Treutlein (2023) have conversations about science with AI.
-
--   Jeblick et al. (2022) suggest complicated radiology reports can be explained to patients using AI chatbots.
-
--   Pavlik (2023) and Brent A. Anders (2022) report on AI in education.
-
 ### Pervasive Computing {#pervasive-computing}
 
 -   Rogers (2022) defines the 4 phases of Pervasive Computing (PC). We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
 ### From Concept to Reality {#from-concept-to-reality}
-
-Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (Turing (1950)), AI has come far, turning from a science-fiction concept into an everyday, mainstream reality.
-
-Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (Leite et al. (2021); Holzinger et al. (2023)), notably used for quickly finding potential COVID19 vaccines (Zafar & Ahamed (2022)), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
-
-Turing’s test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
-
-> Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* -Stanford Encyclopedia of Philosophy (2021)
-
-Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
-
-| №       | Asimov’s Laws of Robotics                                                                                           |
-|------------------------|------------------------------------------------|
-| 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
-| 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
-| 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
-
-Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google’s products are are based on AI as reported in Google (2022)
-
-While by the 2010’s AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largerly modeled after the *neural networks* of the biological (human) brain.
-
-How to responsibly deploy AI for people around the world?
 
 ### The Advent of Large-Language Models (LLMs) {#the-advent-of-large-language-models-llms}
 
@@ -149,7 +128,7 @@ How to responsibly deploy AI for people around the world?
 | Vicuna   |          |           | Open Source   | https://vicuna.lmsys.org/ |
 
 -   The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
--   There’s early evidence it’s possible to assess the quality of LLM output in a transparent way (Liang et al. (2022))
+-   Liang et al. (2022): There’s early evidence it’s possible to assess the quality of LLM output in a transparent way.
 -   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat’s “My AI” virtual friend help people write faster with the app helping users with predictive text completion. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. https://twitter.com/nonmayorpete/status/1633174219063439360
 -   AI generated content is not neutral but has a certain aesthetic: https://twitter.com/bildoperationen/status/1633082030178050048
 -   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge.
@@ -175,41 +154,17 @@ How to responsibly deploy AI for people around the world?
 
 -   https://va.ee/laura-vilbiksi-paevik/
 
--   Semantic motion https://www.youtube.com/watch?v=L4knv58rlZM - Peripheral vision
+-   Semantic motion https://www.youtube.com/watch?v=L4knv58rlZM
+
+-   Peripheral vision
 
 ### Smart Agents {#smart-agents}
 
 -   https://docs.google.com/document/d/1cutU1SerC3V7B8epopRtZUrmy34bf38W–w4oOyRs2A/edit
 
-### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
-
--   Szczuka et al. (2022) provides guidelines for Voice AI and kids
--   Casper Kessels (2022b): “Guidelines for Designing an In-Car Voice Assistant”
--   Casper Kessels (2022a): “Is Voice Interaction a Solution to Driver Distraction?”
--   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
--   Tang et al. (2022) reports new findings enable computers to reconstruct language from fMRI readings.
--   Focus on voice education?
--   Example Suggestions of the AI companion:
-    -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.”*
-    -   “Use a refillable shampoo bottle to save XYZ plastic pollution”
-    -   “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
--   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
--   Celino & Re Calegari (2020): There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI.
--   This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
--   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
-
-There’s evidence across disciplines about the usefulness of AI assistants:
-
--   Şerban & Todericiu (2020) suggests using the Alex AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
--   Celino & Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
-
-### Writing AI Characters {#writing-ai-characters}
-
--   Alethea AI (2021): creating a personality
--   Writing as training data? large language models. GTP3
--   **Initial Product Offering**
-
 ### Platform Economy {#platform-economy}
+
+-   Network Effects: The more people use a platform, the more valuable it becomes.
 
 -   The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
 
@@ -219,7 +174,7 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 ### AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
--   https://apps.apple.com/app/id1099986434?l=en
+-   “Health. Powered by Ada.” (n.d.) https://apps.apple.com/app/id1099986434?l=en
 
 -   https://www.buoyhealth.com/
 
@@ -277,6 +232,44 @@ There’s wide literature available describing human-AI interactions across vari
 -   B. Liu & Wei (2021) meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   Seeber et al. (2020) proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
+### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
+
+-   Szczuka et al. (2022) provides guidelines for Voice AI and kids
+-   Casper Kessels (2022b): “Guidelines for Designing an In-Car Voice Assistant”
+-   Casper Kessels (2022a): “Is Voice Interaction a Solution to Driver Distraction?”
+-   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+-   Tang et al. (2022) reports new findings enable computers to reconstruct language from fMRI readings.
+-   Focus on voice education?
+-   Example Suggestions of the AI companion:
+    -   *“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.”*
+    -   “Use a refillable shampoo bottle to save XYZ plastic pollution”
+    -   “Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita.”\*
+-   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
+-   Celino & Re Calegari (2020): There’s research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI.
+-   This suggests adding an avatar to the AI design may be worthwhile. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
+-   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+
+There’s evidence across disciplines about the usefulness of AI assistants:
+
+-   Şerban & Todericiu (2020) suggests using the Alex AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
+-   Celino & Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
+
+### ChatGPT {#chatgpt}
+
+-   Kecht et al. (2023) suggests AI is capable of learning business processes.
+
+-   O’Connor & ChatGPT (2023) and Cahan & Treutlein (2023) have conversations about science with AI.
+
+-   Jeblick et al. (2022) suggest complicated radiology reports can be explained to patients using AI chatbots.
+
+-   Pavlik (2023) and Brent A. Anders (2022) report on AI in education.
+
+### Writing AI Characters {#writing-ai-characters}
+
+-   Alethea AI (2021): creating a personality
+-   Writing as training data? large language models. GTP3
+-   **Initial Product Offering**
+
 ### AI UX: AI Interfaces and AI Explainability (XAI) {#ai-ux-ai-interfaces-and-ai-explainability-xai}
 
 AI-explainability (named XAI in literature) is key to creating trust and there’s several authors in literature calling for more transparency and explainability.
@@ -294,6 +287,12 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 -   *Studies in Conversational UX Design* (2018) chatbot book
 -   Tom Hathaway & Angela Hathaway (2021) chatbot book
 -   Lew & Schumacher (2020) ai ux book
+-   AI IXD is about human-centered seamless design
+-   Storytelling
+-   Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialised skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
+-   Soleimani (2018): UI patterns for AI, new Section for Thesis background: “Human-Friendly UX For AI”?
+-   **Discuss what is UX for AI (per prof Liou’s comment), so it’s clear this is about UX for AI**
+-   What is Personalized AI?
 
 ### Guidelines for Human-AI interaction {#guidelines-for-human-ai-interaction}
 
@@ -320,7 +319,7 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 
 -   Harvard Advanced Leadership Initiative (2021)
 
--   https://www.youtube.com/watch?v=2mfUZcYfFjw
+-   VideoLecturesChannel (2022) “Communication in Human-AI Interaction”
 
 -   Haiyi Zhu & Steven Wu (2021)
 
@@ -339,14 +338,6 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 ## AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
 -   adas
-
-## What is Personalized AI? {#what-is-personalized-ai}
-
--   AI IXD is about human-centered seamless design
--   Storytelling
--   Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialised skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
--   Soleimani (2018): UI patterns for AI, new Section for Thesis background: “Human-Friendly UX For AI”?
--   **Discuss what is UX for AI (per prof Liou’s comment), so it’s clear this is about UX for AI**
 
 ## Calm Technology {#calm-technology}
 
@@ -389,18 +380,15 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 
 -   Mikael Eriksson Björling & Ahmed H. Ali (n.d.) Ericcson AI UX
 
-## Network Effects {#network-effects}
-
--   The more people use a platform, the more valuable it becomes.
-
-## AI Companions {#ai-companions}
+## AI Companions, Chatbots, AI Assistants and Robo-Advisors {#ai-companions-chatbots-ai-assistants-and-robo-advisors}
 
 -   AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. UX is what we do with this number.
--   Natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
--   State of AI https://docs.google.com/presentation/d/1bwJDRC777rAf00Drthi9yT2c9b0MabWO5ZlksfvFzx8/edit#slide=id.gf318ff6067_0\_26
--   Robot advisors https://www.youtube.com/watch?v=RnJkyo7N6qY&feature=youtu.be
 
-## Chatbots, AI Assistants and Robo-Advisors {#chatbots-ai-assistants-and-robo-advisors}
+-   Natural language chatbots https://www.youtube.com/watch?v=WHoWGNQRXb0
+
+-   State of AI https://docs.google.com/presentation/d/1bwJDRC777rAf00Drthi9yT2c9b0MabWO5ZlksfvFzx8/edit#slide=id.gf318ff6067_0\_26
+
+-   Robot advisors https://www.youtube.com/watch?v=RnJkyo7N6qY&feature=youtu.be
 
 -   Steph Hay (2017)
 
@@ -521,6 +509,17 @@ Bring together film school experience with design… Does branding also go here?
 
 -   Low attrition of the product?
 
+### Guided Sustainability {#guided-sustainability}
+
+-   Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there’s a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are required.
+-   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). IIn essence, “green filter” is a central data repository not unlike “Apple Health for Sustainability”.
+-   Health and fitness category apps
+-   Using “green filter” you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly
+-   There are many examples of combination of AI and human, also known as “human-in-the-loop”. For example health apps like Welltory, Wellue and QALY. Food delivery apps like Starship Robots who ask for human help when crossing the road.
+-   How would you rate your knowledge on sustainability?
+-   How would you rate your ability to put sustainability into practice?
+-   “Guided Sustainability refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact.”
+
 ### Community {#community}
 
 **Question: What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
@@ -640,6 +639,8 @@ Gratch, J., & Fast, N. J. (2022). The power to harm: AI assistants pave the way 
 Haiyi Zhu, & Steven Wu. (2021). *Human-AI Interaction (Fall 2021)*. https://haiicmu.github.io/.
 
 Harvard Advanced Leadership Initiative. (2021). *Human-AI Interaction: From Artificial Intelligence to Human Intelligence Augmentation*.
+
+Health. Powered by Ada. (n.d.). In *Ada*. https://ada.com/.
 
 Hoang, D. (2022). *Enter Dynamic Island, a major hint at Apple’s Extended Reality (XR) strategy*. https://www.proofofconcept.pub/p/welcome-to-dynamic-island-the-forerunner.
 
@@ -790,6 +791,8 @@ Unleash. (2017). Sebastian.ai. In *UNLEASH*.
 van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. *AI Ethics*, *1*(3), 213–218. <https://doi.org/10.1007/s43681-021-00043-6>
 
 Veitch, E., & Andreas Alsos, O. (2022). A systematic review of human-AI interaction in autonomous ship systems. *Safety Science*, *152*, 105778. <https://doi.org/10.1016/j.ssci.2022.105778>
+
+VideoLecturesChannel. (2022). *Communication in Human-AI Interaction*.
 
 Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., Felländer, A., Langhans, S. D., Tegmark, M., & Fuso Nerini, F. (2020). The role of artificial intelligence in achieving the Sustainable Development Goals. *Nat Commun*, *11*(1), 233. <https://doi.org/10.1038/s41467-019-14108-y>
 
