@@ -45,7 +45,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 
 How is AI changing ’interactions?
 
--   stone.skipper (2022)
+-   (**stone.skipperHowAIChanging2022?**)
 -   The International Ergonomics Association (2019): To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being”.
 -   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
 -   Babich (2019) argues “\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system”.
@@ -275,7 +275,7 @@ There’s wide literature available describing human-AI interactions across vari
 -   B. Liu & Wei (2021) meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   Seeber et al. (2020) proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
-### AI Interfaces and AI Explainability (XAI) {#ai-interfaces-and-ai-explainability-xai}
+### AI UX: AI Interfaces and AI Explainability (XAI) {#ai-ux-ai-interfaces-and-ai-explainability-xai}
 
 AI-explainability (named XAI in literature) is key to creating trust and there’s several authors in literature calling for more transparency and explainability.
 
@@ -287,14 +287,11 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 -   Su & Yang (2022) and Su et al. (2023) review papers on AI literacy in early childhood education and finds a lack of guidelines and teacher expertise.
 -   Yang (2022) proposes a curriculum for in-context teaching of AI for kids.
 -   Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
-
-### AI UX {#ai-ux}
-
--   https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product/dp/B0BPVYD9KX
+-   Eric Schmidt & Ben Herold (2022) audiobook
 -   Akshay Kore (2022) Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence
--   https://www.amazon.com/Studies-Conversational-Design-Human-Computer-Interaction-ebook/dp/B07G31WT3H/
--   https://www.amazon.com/Chatting-Humans-Experience-Conversational-Science-based-ebook/dp/B097YXLS67
--   https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook/dp/B08LB3JLPB
+-   *Studies in Conversational UX Design* (2018) chatbot book
+-   Tom Hathaway & Angela Hathaway (2021) chatbot book
+-   Lew & Schumacher (2020) ai ux book
 
 ### Guidelines for Human-AI interaction {#guidelines-for-human-ai-interaction}
 
@@ -349,7 +346,7 @@ AI-explainability (named XAI in literature) is key to creating trust and there�
 
 ## Calm Technology {#calm-technology}
 
-…
+-   Tech fades to the background, IoT.
 
 ## Generative AI {#generative-ai}
 
@@ -368,25 +365,25 @@ Nubanks, also known as challenger banks.
 
 ## UX of AI {#ux-of-ai}
 
--   https://interactions.acm.org/archive/view/january-february-2021/ux-designers-pushing-ai-in-the-enterprise
+-   Zimmerman et al. (2021) “UX designers pushing AI in the enterprise: a case for adaptive UIs”
 
--   https://venturebeat.com/2021/06/20/why-ux-should-guide-ai/
+-   “Why UX Should Guide AI” (2021) “Why UX should guide AI”
 
 -   https://uxstudioteam.com/ux-blog/ai-ux/
 
--   ux for ai - https://design.google/library/ai/
+-   Google’s UX for AI library - https://design.google/library/ai/
 
--   https://www.computer.org/publications/tech-news/trends/5-ways-artificial-intelligence-helps-in-improving-website-usability
+-   Anderson (2020)
 
 -   https://uxofai.com/
 
--   https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
+-   Stephanie Donahole (2021)
 
--   https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762
+-   Lexow (2021)
 
--   https://uxstudioteam.com/ux-blog/ai-ux/
+-   Dávid Pásztor (2018) AI UX principles
 
--   https://www.ericsson.com/en/ai/ux-design-in-ai
+-   Mikael Eriksson Björling & Ahmed H. Ali (n.d.) Ericcson AI UX
 
 ## Network Effects {#network-effects}
 
@@ -401,16 +398,16 @@ Nubanks, also known as challenger banks.
 
 ## Chatbots, AI Assistants and Robo-Advisors {#chatbots-ai-assistants-and-robo-advisors}
 
--   https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/
--   https://www.youtube.com/watch?v=Y47kjQvffPo
--   https://arxiv.org/abs/2101.02555
+-   Steph Hay (2017)
+-   NeuralNine (2021)
+-   David et al. (2021)
 -   https://www.efma.com/article/3300-fintech-friday-personetics
--   https://clinc.com/chatbots-too-good-to-be-true/
--   https://atura.ai/docs/02-process/
--   https://blog.bavard.ai/how-financial-chatbots-can-benefit-your-business-eddacfa435d2
--   https://seedlegals.com/resources/magic-carpet-the-ai-investor-technology-transforming-hedge-fund-strategy/
--   https://www.researcher-app.com/paper/6684106
--   http://www.josephineheintzwaktare.com/cleo
+-   Lower (2017)
+-   Slack (2021)
+-   Brown (2021) Financial chatbots
+-   Isabella Ghassemi Smith (2019)
+-   David et al. (2021)
+-   Josephine Wäktare Heintz (n.d.) Cleo copywriter
 -   The user experience (UX) of artificial intelligence (AI) is a topic under active development by all the largest online platforms. The general public is familiar with the most famous virtual helpers, Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others for general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations. Already on the market are several financial robo-advisors, built by fintech companies, aiming to provide personalized suggestions for making investments (Betterment, Wealthfront).
 -   There have also been plenty of attempts to create different types of sustainability assistants. For instance, to encourage behavioral changes, the AI assistant Sebastian developed at the Danish hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged by a chatbot buddy to help the human maintain an aspirational lifestyle (Unleash (2017)). Also, personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects, for example, Zhang’s Personal Carbon Economy conceptualizing the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one’s carbon permits (S. Zhang (2018)).
 -   While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer, when sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products. Moreover, such personal sustainability projects haven’t so far achieved mainstream success or widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
@@ -429,17 +426,17 @@ Nubanks, also known as challenger banks.
 
 ## Algorithmic Transparency {#algorithmic-transparency}
 
--   https://maggieappleton.com/algorithmic-transparency
+-   Slack (2021)
 
--   “user experience and usability of algorithms by focusing on users’ cognitive process to understand how qualities/features are received and transformed into experiences and interaction” Shin (2020)
+-   Shin (2020): “user experience and usability of algorithms by focusing on users’ cognitive process to understand how qualities/features are received and transformed into experiences and interaction”
 
 ## AI Ethics {#ai-ethics}
 
--   AI is not neutral https://www.algotransparency.org/our-manifesto.html
+-   “AlgoTransparency” (n.d.) manifesto, AI is not neutral
 
-    AI Design Assistants https://clipdrop.co/
+-   Clipdrop (n.d.) AI Design Assistants
 
--   Conversational AI - Replika
+-   Eugenia Kuyda (2023) Conversational AI - Replika
 
 -   Tristan Greene (2022): when the quality of AI responses become good enough, people begin to get confused.
 
@@ -453,14 +450,14 @@ Nubanks, also known as challenger banks.
 
 ## AI-Assisted Design {#ai-assisted-design}
 
--   https://renumics.com/blog/what-is-ai-assisted-design
--   https://architechtures.com/en/what-is-artificial-intelligence-and-how-do-you-work-with-it/
--   https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe
--   https://blog.prototypr.io/ai-powered-tools-for-web-designers-adc97530a7f0
--   https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe
--   https://medium.com/illumination/stop-using-jasper-art-use-the-new-canva-ai-image-generator-video-f91a33ed9c15
--   AI design testing — bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
--   Sustainable AI itself (van Wynsberghe (2021))
+-   September 16, 2020 (2020) “What is AI-assisted Design?”
+-   Architechtures (2020)
+-   Constandse (2018) AI-driven website builders.
+-   patrizia-slongo (2020) AI tools for designers
+-   Zakariya (2022)
+-   AI design testing — bots.kore.ai
+-   https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
+-   van Wynsberghe (2021): Sustainable AI itself
 -   AI characters vs Replika. Make a comparative table https://charisma.ai/register
 
 | №   | Name    | Features                           |
@@ -498,17 +495,19 @@ Bring together film school experience with design… Does branding also go here?
 
 ### Community {#community}
 
+**Question: What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
+
 -   “Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they’re creating. In the long term this moves to internet communities taking on societal endeavors.”
 
 -   https://www.tradingcardsarecoolagain.com/#toc
 
--   https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/
+-   Jesse Einhorn (2020)
 
--   https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/
+-   Connie Loizos (2021)
 
--   https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/
+-   Natasha Mascarenhas (2021)
 
--   https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
+-   JEFF JOHN ROBERTS (April 23, 2020 at 2:00 PM GMT+3)
 
 ## Summary {#summary}
 
@@ -528,8 +527,14 @@ Akshay Kore. (2022). *Designing Human-Centric AI Experiences: Applied UX Design 
 
 Alex Tamkin, & Deep Ganguli. (2021). *How Large Language Models Will Transform Science, Society, and AI*. https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai.
 
+AlgoTransparency. (n.d.). In *AlgoTransparency*. https://algotransparency.org/.
+
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J., Kikin-Gil, R., & Horvitz, E. (2019, May). Guidelines for human-AI interaction. *CHI 2019*.
 <span class="csl-block">CHI 2019 Honorable Mention AwardCHI 2019 Honorable Mention Award</span>
+
+Anderson, M. (2020). 5 Ways Artificial Intelligence Helps in Improving Website Usability. In *IEEE Computer Society*. https://www.computer.org/publications/tech-news/trends/5-ways-artificial-intelligence-helps-in-improving-website-usability/.
+
+Architechtures. (2020). What is Artificial Intelligence Aided Design? In *Architechtures*.
 
 Babich, N. (2019). Interaction Design vs UX: What’s the Difference? In *Adobe XD Ideas*.
 
@@ -545,6 +550,8 @@ Bowman, S. R. (2023). *Eight Things to Know about Large Language Models*. <https
 
 Brent A. Anders. (2022). Why ChatGPT is such a big deal for education. *C2C Digital Magazine*, *Vol. 1*(18).
 
+Brown, A. (2021). How Financial Chatbots Can Benefit Your Business. In *Medium*.
+
 Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., Nori, H., Palangi, H., Ribeiro, M. T., & Zhang, Y. (2023). *Sparks of Artificial General Intelligence: Early experiments with GPT-4*. <https://doi.org/10.48550/ARXIV.2303.12712>
 
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
@@ -559,17 +566,32 @@ Celino, I., & Re Calegari, G. (2020). Submitting surveys via a conversational in
 
 Cheng, X., Zhang, X., Yang, B., & Fu, Y. (2022). An investigation on trust in <span class="nocase">AI-enabled</span> collaboration: Application of AI-Driven chatbot in accommodation-based sharing economy. *Electronic Commerce Research and Applications*, *54*, 101164. <https://doi.org/10.1016/j.elerap.2022.101164>
 
+Clipdrop. (n.d.). *Create stunning visuals in seconds with AI.* https://clipdrop.co/.
+
 Combi, C., Amico, B., Bellazzi, R., Holzinger, A., Moore, J. H., Zitnik, M., & Holmes, J. H. (2022). A manifesto on explainability for artificial intelligence in medicine. *Artificial Intelligence in Medicine*, *133*, 102423. <https://doi.org/10.1016/j.artmed.2022.102423>
+
+Connie Loizos. (2021). Marcy Venture Partners, co-founded by Jay-Z, just closed its second fund with \$325 million. *TechCrunch*.
+
+Constandse, C. (2018). How <span class="nocase">AI-driven</span> website builders will change the digital landscape. In *Medium*. https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe.
 
 Costa, A., & Silva, F. (2022). Interaction Design for AI Systems: An oriented state-of-the-art. *2022 International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA)*, 1–7. <https://doi.org/10.1109/HORA55278.2022.9800084>
 
 Crompton, L. (2021). The decision-point-dilemma: Yet another problem of responsibility in human-AI interaction. *Journal of Responsible Technology*, *7–8*, 100013. <https://doi.org/10.1016/j.jrt.2021.100013>
+
+David, D. B., Resheff, Y. S., & Tron, T. (2021). *Explainable AI and Adoption of Financial Algorithmic Advisors: An Experimental Study* (No. arXiv:2101.02555). arXiv. <https://arxiv.org/abs/2101.02555>
+<span class="csl-block">Comment: accepted: AIES ’21Comment: accepted: AIES ’21</span>
+
+Dávid Pásztor. (2018). *AI UX: 7 Principles of Designing Good AI Products*. https://uxstudioteam.com/ux-blog/ai-ux/.
 
 Design Portland. (2018). Humans Have the Final Say Stories. In *Design Portland*. https://designportland.org/.
 
 Dignum, V. (2021). AI the people and places that make, use and manage it. *Nature*, *593*(7860), 499–500. <https://doi.org/10.1038/d41586-021-01397-x>
 
 Dot Go. (2023). *Dot Go*. https://dot-go.app/.
+
+Eric Schmidt, & Ben Herold. (2022). *UX: Advanced Method and Actionable Solutions for Product Design Success*.
+
+Eugenia Kuyda. (2023). Replika. In *replika.com*. https://replika.com.
 
 Google. (n.d.). *Our Principles Google AI*. https://ai.google/principles.
 
@@ -585,9 +607,17 @@ Holzinger, A., Keiblinger, K., Holub, P., Zatloukal, K., & Müller, H. (2023). A
 
 Holzinger, A., Malle, B., Saranti, A., & Pfeifer, B. (2021). Towards multi-modal causability with Graph Neural Networks enabling information fusion for explainable AI. *Information Fusion*, *71*, 28–37. <https://doi.org/10.1016/j.inffus.2021.01.008>
 
+Isabella Ghassemi Smith. (2019). *Interview: Daniel Baeriswyl, CEO of Magic Carpet \| SeedLegals*. https://seedlegals.com/resources/magic-carpet-the-ai-investor-technology-transforming-hedge-fund-strategy/.
+
 Jeblick, K., Schachtner, B., Dexl, J., Mittermeier, A., Stüber, A. T., Topalis, J., Weber, T., Wesp, P., Sabel, B., Ricke, J., & Ingrisch, M. (2022). *ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports*. <https://doi.org/10.48550/ARXIV.2212.14882>
 
+JEFF JOHN ROBERTS. (April 23, 2020 at 2:00 PM GMT+3). Digital art awaits breakout moment with blockchain’s help. In *Fortune*. https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/.
+
+Jesse Einhorn. (2020). *New Balance 650 x No Vacancy Inn IPO Recap - StockX News*. https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/.
+
 Jiang, Q., Zhang, Y., & Pian, W. (2022). Chatbot as an emergency exist: Mediated empathy for resilience via human-AI interaction during the COVID-19 pandemic. *Information Processing & Management*, *59*(6), 103074. <https://doi.org/10.1016/j.ipm.2022.103074>
+
+Josephine Wäktare Heintz. (n.d.). Cleo. In *👀*. http://www.josephineheintzwaktare.com/cleo.
 
 Karpus, J., Krüger, A., Verba, J. T., Bahrami, B., & Deroy, O. (2021). Algorithm exploitation: Humans are keen to exploit benevolent AI. *iScience*, *24*(6), 102679. <https://doi.org/10.1016/j.isci.2021.102679>
 
@@ -598,6 +628,11 @@ Kecht, C., Egger, A., Kratsch, W., & Röglinger, M. (2023). Quantifying chatbots
 Khosravi, H., Shum, S. B., Chen, G., Conati, C., Tsai, Y.-S., Kay, J., Knight, S., Martinez-Maldonado, R., Sadiq, S., & Gašević, D. (2022). Explainable Artificial Intelligence in education. *Computers and Education: Artificial Intelligence*, *3*, 100074. <https://doi.org/10.1016/j.caeai.2022.100074>
 
 Leite, M. L., de Loiola Costa, L. S., Cunha, V. A., Kreniski, V., de Oliveira Braga Filho, M., da Cunha, N. B., & Costa, F. F. (2021). Artificial intelligence and the future of life sciences. *Drug Discovery Today*, *26*(11), 2515–2526. <https://doi.org/10.1016/j.drudis.2021.07.002>
+
+Lew, G., & Schumacher, R. M. J. (2020). *AI and UX: Why artificial intelligence needs user experience*. Apress.
+<span class="csl-block">1. Introduction to AI and UX – 2. AI and UX: Parallel Journeys – 3. AI-Enabled Products are Emerging All around Us – 4. Garbage In; Garbage Out – 5. Applying a UX Framework</span>
+
+Lexow, M. (2021). Designing for AI a UX approach. In *Medium*. https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762.
 
 Li, T., Vorvoreanu, M., DeBellis, D., & Amershi, S. (2022). Assessing human-AI interaction early through factorial surveys: A study on the guidelines for human-AI interaction. *ACM Transactions on Computer-Human Interaction*.
 
@@ -613,13 +648,23 @@ Liu, S., Fan, L., Johns, E., Yu, Z., Xiao, C., & Anandkumar, A. (2023). *Prismer
 
 Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friendlier Biological Future. In *Fast Company*. https://www.fastcompany.com/3051140/daisy-ginsberg-is-natures-most-deadly-synthetic-designer.
 
+Lower, C. (2017). Chatbots: Too Good to Be True? (They Are, Here’s Why). In *Clinc*.
+
 Lv, X., Luo, J., Liang, Y., Liu, Y., & Li, C. (2022). Is cuteness irresistible? The impact of cuteness on customers’ intentions to use AI applications. *Tourism Management*, *90*, 104472. <https://doi.org/10.1016/j.tourman.2021.104472>
 
+Mikael Eriksson Björling, & Ahmed H. Ali. (n.d.). UX design in AI, A trustworthy face for the AI brain. In *Ericsson*.
+
 Mohit Moondra. (n.d.). Navigate more sustainably and optimize for fuel savings with eco-friendly routing. In *Google Cloud Blog*. https://cloud.google.com/blog/products/maps-platform/navigate-more-sustainably-and-optimize-fuel-savings-eco-friendly-routing.
+
+Natasha Mascarenhas. (2021). Queenly’s marketplace for formalwear gets millions in round led by A16z \| TechCrunch. *TechCrunch*.
+
+NeuralNine. (2021). *Financial AI Assistant in Python*.
 
 O’Connor, S., & ChatGPT. (2023). Open artificial intelligence platforms in nursing education: Tools for academic progress or abuse? *Nurse Education in Practice*, *66*, 103537. <https://doi.org/10.1016/j.nepr.2022.103537>
 
 Orozco, L. G. N., Battiston, F., Iñiguez, G., & Szell, M. (2020). *Budapest bicycle network growth; Manhattan bicycle network growth from <span class="nocase">Data-driven</span> strategies for optimal bicycle network growth*. 7642364 Bytes. <https://doi.org/10.6084/M9.FIGSHARE.13336684.V1>
+
+patrizia-slongo. (2020). <span class="nocase">AI-powered</span> tools for web designers 🤖. In *Medium*. https://blog.prototypr.io/ai-powered-tools-for-web-designers-adc97530a7f0.
 
 Pavlik, J. V. (2023). Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education. *Journalism & Mass Communication Educator*, *78*(1), 84–93. <https://doi.org/10.1177/10776958221149577>
 
@@ -637,6 +682,8 @@ Schoonderwoerd, T. A. J., Jorritsma, W., Neerincx, M. A., & van den Bosch, K. (2
 
 Seeber, I., Bittner, E., Briggs, R. O., de Vreede, T., de Vreede, G.-J., Elkins, A., Maier, R., Merz, A. B., Oeste-Reiß, S., Randrup, N., Schwabe, G., & Söllner, M. (2020). Machines as teammates: A research agenda on AI in team collaboration. *Information & Management*, *57*(2), 103174. <https://doi.org/10.1016/j.im.2019.103174>
 
+September 16, 2020. (2020). *What is <span class="nocase">AI-assisted Design</span>? \| Renumics GmbH*. https://renumics.com/blog/what-is-ai-assisted-design/.
+
 Şerban, C., & Todericiu, I.-A. (2020). Alexa, what classes do I have today? The use of artificial intelligence via smart speakers in education. *Procedia Computer Science*, *176*, 2849–2857. <https://doi.org/10.1016/j.procs.2020.09.269>
 <span class="csl-block">Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020</span>
 
@@ -648,11 +695,17 @@ Shin, D., Zhong, B., & Biocca, F. (2020). Beyond user experience: What constitut
 
 Singer, U., Polyak, A., Hayes, T., Yin, X., An, J., Zhang, S., Hu, Q., Yang, H., Ashual, O., Gafni, O., Parikh, D., Gupta, S., & Taigman, Y. (2022). Make-<span class="nocase">A-video</span>: <span class="nocase">Text-to-video</span> generation without text-video data. *ArXiv*, *abs/2209.14792*.
 
+Slack, J. (2021). The Atura Process. In *Atura website*. https://atura.ai/docs/02-process/.
+
 Stanford Encyclopedia of Philosophy. (2021). *The Turing Test*. https://plato.stanford.edu/entries/turing-test/.
+
+Steph Hay. (2017). Eno - Financial AI Understands Emotions. In *Capital One*. https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/.
+
+Stephanie Donahole. (2021). *How Artificial Intelligence Is Impacting UX Design :: UXmatters*. https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php.
 
 Stone Skipper. (2022). How AI is changing “interactions.” In *Medium*. https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545.
 
-stone.skipper. (2022). How AI is changing “interactions.” In *Medium*. https://uxplanet.org/how-ai-is-changing-interactions-179cc279e545.
+*Studies in conversational UX design*. (2018). \[Computer software\]. Springer Berlin Heidelberg.
 
 Su, J., Ng, D. T. K., & Chu, S. K. W. (2023). Artificial Intelligence (AI) Literacy in Early Childhood Education: The Challenges and Opportunities. *Computers and Education: Artificial Intelligence*, *4*, 100124. <https://doi.org/10.1016/j.caeai.2023.100124>
 
@@ -672,6 +725,8 @@ Tash Keuneman. (2022). We love to hate Clippy but what if Clippy was right? In *
 
 The International Ergonomics Association. (2019). *Human Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 
+Tom Hathaway, & Angela Hathaway. (2021). *Chatting with Humans: User Experience Design (UX) for Chatbots: Simplified Conversational Design and <span class="nocase">Science-based Chatbot Copy</span> that Engages People*.
+
 Tristan Greene. (2022). Confused Replika AI users are trying to bang the algorithm. In *TNW*. https://thenextweb.com/news/confused-replika-ai-users-are-standing-up-for-bots-trying-bang-the-algorithm.
 
 Tubik Studio. (2018). UX Design Glossary: How to Use Affordances in User Interfaces. In *Medium*. https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4.
@@ -688,6 +743,8 @@ Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., Fell�
 
 Wang, Z., She, Q., Smeaton, A. F., Ward, T. E., & Healy, G. (2020). Synthetic-Neuroscore: Using a neuro-AI interface for evaluating generative adversarial networks. *Neurocomputing*, *405*, 26–36. <https://doi.org/10.1016/j.neucom.2020.04.069>
 
+Why UX should guide AI. (2021). In *VentureBeat*.
+
 Women in AI. (n.d.). How can AI assistants help patients monitor their health? In *Spotify*. https://open.spotify.com/episode/3dL4m7ciCY0tnirZT2emzs.
 
 Yang, W. (2022). Artificial Intelligence education for young children: Why, what, and how in curriculum design and implementation. *Computers and Education: Artificial Intelligence*, *3*, 100061. <https://doi.org/10.1016/j.caeai.2022.100061>
@@ -696,8 +753,12 @@ Yuan, C., Zhang, C., & Wang, S. (2022). Social anxiety as a moderator in consume
 
 Zafar, N., & Ahamed, J. (2022). Emerging technologies for the management of COVID19: A review. *Sustainable Operations and Computers*, *3*, 249–257. <https://doi.org/10.1016/j.susoc.2022.05.002>
 
+Zakariya, C. (2022). Stop Using Jasper Art: Use the New Canva AI Image Generator \[Video\]. In *ILLUMINATION*.
+
 Zerilli, J., Bhatt, U., & Weller, A. (2022). How transparency modulates trust in artificial intelligence. *Patterns*, *3*(4), 100455. <https://doi.org/10.1016/j.patter.2022.100455>
 
 Zhang, G., Chong, L., Kotovsky, K., & Cagan, J. (2023). Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation. *Computers in Human Behavior*, *139*, 107536. <https://doi.org/10.1016/j.chb.2022.107536>
 
 Zhang, S. (2018). *Personal Carbon Economy*. http://www.shihanzhang.com/new-page-3.
+
+Zimmerman, J., Oh, C., Yildirim, N., Kass, A., Tung, T., & Forlizzi, J. (2021). UX designers pushing AI in the enterprise: A case for adaptive UIs. *Interactions*, *28*(1), 72–77. <https://doi.org/10.1145/3436954>

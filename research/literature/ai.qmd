@@ -272,7 +272,7 @@ There's wide literature available describing human-AI interactions across varied
 -   @liuMachineGazeOnline2021 meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   @seeberMachinesTeammatesResearch2020 proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
-### AI Interfaces and AI Explainability (XAI)
+### AI UX: AI Interfaces and AI Explainability (XAI)
 
 AI-explainability (named XAI in literature) is key to creating trust and there's several authors in literature calling for more transparency and explainability.
 
@@ -284,14 +284,11 @@ AI-explainability (named XAI in literature) is key to creating trust and there's
 -   @suArtificialIntelligenceEarly2022 and @suArtificialIntelligenceAI2023 review papers on AI literacy in early childhood education and finds a lack of guidelines and teacher expertise.
 -   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids.
 -   @combiManifestoExplainabilityArtificial2022 proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
-
-### AI UX
-
--   https://www.amazon.com/UX-Advanced-Actionable-Solutions-Product/dp/B0BPVYD9KX
+-   @ericschmidtUXAdvancedMethod2022 audiobook
 -   @akshaykoreDesigningHumanCentricAI2022 Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence
--   https://www.amazon.com/Studies-Conversational-Design-Human-Computer-Interaction-ebook/dp/B07G31WT3H/
--   https://www.amazon.com/Chatting-Humans-Experience-Conversational-Science-based-ebook/dp/B097YXLS67
--   https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook/dp/B08LB3JLPB
+-   @StudiesConversationalUX2018 chatbot book
+-   @tomhathawayChattingHumansUser2021 chatbot book
+-   @lewAIUXWhy2020 ai ux book
 
 ### Guidelines for Human-AI interaction
 
@@ -346,7 +343,7 @@ AI-explainability (named XAI in literature) is key to creating trust and there's
 
 ## Calm Technology
 
-...
+-   Tech fades to the background, IoT.
 
 ## Generative AI
 
@@ -365,25 +362,25 @@ Nubanks, also known as challenger banks.
 
 ## UX of AI
 
--   https://interactions.acm.org/archive/view/january-february-2021/ux-designers-pushing-ai-in-the-enterprise
+-   @zimmermanUXDesignersPushing2021 "UX designers pushing AI in the enterprise: a case for adaptive UIs"
 
--   https://venturebeat.com/2021/06/20/why-ux-should-guide-ai/
+-   @WhyUXShould2021 "Why UX should guide AI"
 
 -   https://uxstudioteam.com/ux-blog/ai-ux/
 
--   ux for ai - https://design.google/library/ai/
+-   Google's UX for AI library - https://design.google/library/ai/
 
--   https://www.computer.org/publications/tech-news/trends/5-ways-artificial-intelligence-helps-in-improving-website-usability
+-   @andersonWaysArtificialIntelligence2020
 
 -   https://uxofai.com/
 
--   https://www.uxmatters.com/mt/archives/2021/04/how-artificial-intelligence-is-impacting-ux-design.php
+-   @stephaniedonaholeHowArtificialIntelligence2021
 
--   https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762
+-   @lexowDesigningAIUX2021
 
--   https://uxstudioteam.com/ux-blog/ai-ux/
+-   @davidpasztorAIUXPrinciples2018 AI UX principles
 
--   https://www.ericsson.com/en/ai/ux-design-in-ai
+-   @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX
 
 ## Network Effects
 
@@ -398,16 +395,16 @@ Nubanks, also known as challenger banks.
 
 ## Chatbots, AI Assistants and Robo-Advisors
 
--   https://www.capitalone.com/tech/machine-learning/designing-a-financial-ai-that-recognizes-and-responds-to-emotion/
--   https://www.youtube.com/watch?v=Y47kjQvffPo
--   https://arxiv.org/abs/2101.02555
+-   @stephhayEnoFinancialAI2017
+-   @neuralnineFinancialAIAssistant2021
+-   @davidExplainableAIAdoption2021
 -   https://www.efma.com/article/3300-fintech-friday-personetics
--   https://clinc.com/chatbots-too-good-to-be-true/
--   https://atura.ai/docs/02-process/
--   https://blog.bavard.ai/how-financial-chatbots-can-benefit-your-business-eddacfa435d2
--   https://seedlegals.com/resources/magic-carpet-the-ai-investor-technology-transforming-hedge-fund-strategy/
--   https://www.researcher-app.com/paper/6684106
--   http://www.josephineheintzwaktare.com/cleo
+-   @lowerChatbotsTooGood2017
+-   @slackAturaProcess2021
+-   @brownHowFinancialChatbots2021 Financial chatbots
+-   @isabellaghassemismithInterviewDanielBaeriswyl2019
+-   @davidExplainableAIAdoption2021
+-   @josephinewaktareheintzCleo Cleo copywriter
 -   The user experience (UX) of artificial intelligence (AI) is a topic under active development by all the largest online platforms. The general public is familiar with the most famous virtual helpers, Apple's Siri, Amazon's Alexa, Microsoft's Cortana, Google's Assistant, Alibaba's Genie, Xiaomi's Xiao Ai, and many others for general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations. Already on the market are several financial robo-advisors, built by fintech companies, aiming to provide personalized suggestions for making investments (Betterment, Wealthfront).
 -   There have also been plenty of attempts to create different types of sustainability assistants. For instance, to encourage behavioral changes, the AI assistant Sebastian developed at the Danish hackathon series Unleash, used BJ Fogg's 'tiny habits' model, nudged by a chatbot buddy to help the human maintain an aspirational lifestyle (@unleashSebastianAi2017). Also, personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects, for example, Zhang's Personal Carbon Economy conceptualizing the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits (@zhangPersonalCarbonEconomy2018).
 -   While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer, when sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products. Moreover, such personal sustainability projects haven't so far achieved mainstream success or widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
@@ -425,17 +422,17 @@ Nubanks, also known as challenger banks.
 
 ## Algorithmic Transparency
 
--   https://maggieappleton.com/algorithmic-transparency
+-   @slackAturaProcess2021
 
--   "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction" @shinHowUsersInteract2020
+-   @shinHowUsersInteract2020: "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
 
 ## AI Ethics
 
--   AI is not neutral https://www.algotransparency.org/our-manifesto.html
+-   @AlgoTransparency manifesto, AI is not neutral
 
-    AI Design Assistants https://clipdrop.co/
+-   @clipdropCreateStunningVisuals AI Design Assistants
 
--   Conversational AI - Replika
+-   @eugeniakuydaReplika2023 Conversational AI - Replika
 
 -   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses become good enough, people begin to get confused.
 
@@ -449,14 +446,14 @@ Nubanks, also known as challenger banks.
 
 ## AI-Assisted Design
 
--   https://renumics.com/blog/what-is-ai-assisted-design
--   https://architechtures.com/en/what-is-artificial-intelligence-and-how-do-you-work-with-it/
--   https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe
--   https://blog.prototypr.io/ai-powered-tools-for-web-designers-adc97530a7f0
--   https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe
--   https://medium.com/illumination/stop-using-jasper-art-use-the-new-canva-ai-image-generator-video-f91a33ed9c15
--   AI design testing --- bots.kore.ai https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
--   Sustainable AI itself (@vanwynsbergheSustainableAIAI2021)
+-   @september162020WhatAIassistedDesign2020 "What is AI-assisted Design?"
+-   @architechturesWhatArtificialIntelligence2020
+-   @constandseHowAIdrivenWebsite2018 AI-driven website builders.
+-   @patrizia-slongoAIpoweredToolsWeb2020 AI tools for designers
+-   @zakariyaStopUsingJasper2022
+-   AI design testing --- bots.kore.ai
+-   https://info.kore.ai/thank-you-koreai-platform-demo?submissionGuid=34c39d3c-86dd-4c8d-9cac-4caba7042b76
+-   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself
 -   AI characters vs Replika. Make a comparative table https://charisma.ai/register
 
 | №   | Name    | Features                           |
@@ -494,17 +491,19 @@ Bring together film school experience with design... Does branding also go here?
 
 ### Community
 
+**Question: What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
+
 -   "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
 
 -   https://www.tradingcardsarecoolagain.com/#toc
 
--   https://stockx.com/news/new-balance-no-vacancy-inn-ipo-recap/
+-   @jesseeinhornNewBalance6502020
 
--   https://techcrunch.com/2021/10/25/marcy-venture-partners-cofounded-by-jay-z-just-closed-its-second-fund-with-325-million/
+-   @connieloizosMarcyVenturePartners2021
 
--   https://techcrunch.com/2021/07/26/queenly-a16z-seed-extension/
+-   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 
--   https://fortune.com/2020/04/23/digital-art-blockchain-online-galleries/
+-   @jeffjohnrobertsDigitalArtAwaits2020
 
 ## Summary
 

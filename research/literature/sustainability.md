@@ -357,7 +357,7 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   One of the EU goals is reducing consumption
 -   Tacking our consumption habits
 -   Europe is the hotbed of sustainability
--   https://www.visualcapitalist.com/most-sustainable-companies/
+-   Iman Ghosh (2020)
 -   Lamoureux (2018) Florida sustainable companies
 -   MICHAEL HOULIHAN & BONNIE HARVEY (2018) customers prefer sustainable companies
 
@@ -514,6 +514,8 @@ Hannß Carl von Carlowitz. (1713). *Sylvicultura oeconomica, oder haußwirthlich
 Honton, J. (2022). The Forgotten Father of Climatology. In *Climate Conscious*.
 
 Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon, E. (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, *27*, 100–115. <https://doi.org/10.1002/aqc.2809>
+
+Iman Ghosh. (2020). *Mapped: Where Are the World’s Most Sustainable Companies?* https://www.visualcapitalist.com/most-sustainable-companies/.
 
 *Isotherms.simply.earth \| Average temperatures of the world in 1838*. (2023). https://isotherms.simply.earth/.
 
