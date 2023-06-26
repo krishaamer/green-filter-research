@@ -129,8 +129,10 @@ How is AI changing ’interactions?
 
 -   The advances in the capabilities of large AI model mean we’ve reached a point, where it’s possible to achieve UI and UX which previously was science fiction.
 -   Liang et al. (2022): There’s early evidence it’s possible to assess the quality of LLM output in a transparent way.
--   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat’s “My AI” virtual friend help people write faster with the app helping users with predictive text completion. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. https://twitter.com/nonmayorpete/status/1633174219063439360
--   AI generated content is not neutral but has a certain aesthetic: https://twitter.com/bildoperationen/status/1633082030178050048
+-   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat’s “My AI” virtual friend help people write faster with the app helping users with predictive text completion.
+-   Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others.
+-   https://twitter.com/nonmayorpete/status/1633174219063439360
+-   Roland Meyer (2023): AI generated content is not neutral but has a certain aesthetic:
 -   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge.
 -   S. Liu et al. (2023) propose future models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.
 -   Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
@@ -724,6 +726,8 @@ Ramchurn, S. D., Stein, S., & Jennings, N. R. (2021). Trustworthy human-AI partn
 ReadyAI. (2020). *Human-AI Interaction: How We Work with Artificial Intelligence*.
 
 Rogers, Y. (2022). The Four Phases of Pervasive Computing: From Vision-Inspired to Societal-Challenged. *IEEE Pervasive Comput.*, *21*(3), 9–16. <https://doi.org/10.1109/MPRV.2022.3179145>
+
+Roland Meyer. (2023). Now that the DALL-E has been successfully midjourneyfied, it is becoming apparent that instead of simulating all possible styles, AI is fostering the emergence of a distinct visual style, born out of popular aesthetic preferences dominating platforms like DeviantArt 1/6 <span class="nocase">https://t.co/tZd9Hrz27s</span> \[Tweet\]. In *Twitter*.
 
 Rooney-Varga, J., Kapmeier, F., Sterman, J., Jones, A., Putko, M., & Rath, K. (2019). The climate action simulation. *Simulation & Gaming*, *51*, 104687811989064. <https://doi.org/10.1177/1046878119890643>
 

@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
@@ -20,13 +25,15 @@ import ResQClub from '../images/resq-club.png'
 -   IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
 -   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
 -   Growing public understanding of how nature works and intersects with our use of money.
--   The EU Copernicus satellite system reveals new greenhouse emissions previously undetected (Daniel Värjö (2022))
+-   Daniel Värjö (2022): hThe EU Copernicus satellite system reveals new greenhouse emissions previously undetected
 
 AI can help us make sense of the vast amounts of sustainability data generated daily.
 
--   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software. “Sustainability Starts in the Design Process, and AI Can Help” (n.d.): “Sustainability starts in the design process, and AI can help”.
+-   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
 
--   https://medium.com/ideas-at-igenius/lets-talk-about-sustainable-ai-d4ae4650493e
+-   “Sustainability Starts in the Design Process, and AI Can Help” (n.d.): “Sustainability starts in the design process, and AI can help”.
+
+-   iGenius (2020)
 
 -   “Carbon pricing is not there to punish people.”
 
@@ -83,7 +90,7 @@ Again, AI has the potential to provide the parameters for sustainability.
 -   Finding green products and supporting companies making them
 -   Supporting legislative changes
 -   Track you consumption, saving, investing. Shift balance towards saving and investing.
--   https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0
+-   Nastaraan Vadoodi (2022)
 -   European Commission (2022a) Ecodesign for sustainable products
 
 ## Climate Anxiety {#climate-anxiety}
@@ -160,25 +167,21 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   ***Design Implication***: Where to shop rankings for groceries — list worst offenders in terms of products — shop and invest according to your values.
 
--   Carbon Food Labels https://ig.ft.com/carbon-food-labelling/?ref=sidebar
+-   Kommenda et al. (2022) Carbon Food Labels
 
 -   Food Sovereignty: “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
 
--   “We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, \[climate change\] doesn’t affect our produce.” https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/
+-   CAITLIN STALL-PAQUET (2021): “We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, \[climate change\] doesn’t affect our produce.”
 
--   Vertical farm in Taoyuan https://www.taiwannews.com.tw/en/news/3387047
+-   Renée Salmonsen (2018): Vertical farm in Taoyuan
 
--   *Intensive Farming Practices* - https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions_per_person
+-   Catherine Shu (2023): *Intensive Farming Practices vs* Farm to table
 
--   Farm to table https://techcrunch.com/tag/farm-to-table/
-
--   https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech
-
--   https://lowercarboncapital.com/companies/
+-   Akshat Rathi (2021) and Lowercarbon Capital (2023) climate startup funding.
 
 -   Only make what is ordered.
 
--   Farm to Fork https://www.youtube.com/watch?v=sMqtwbKc8EA
+-   Farm to Fork Financial Times (2022)
 
 ## Fast Fashion, Sustainable Fashion, Textile Design {#fast-fashion-sustainable-fashion-textile-design}
 
@@ -192,7 +195,7 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Emily Chan (2022a) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
 
--   Wikirate (2022): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
+-   Wikirate (2022a): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
 
 -   Millward-Hopkins et al. (2023) shows how half of the textile waste in the UK is exported to other countries.
 
@@ -204,93 +207,79 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
 
--   Fashion sustainability vs greenwashing https://www.youtube.com/watch?v=oUaBpU4t5-E
+-   imperfectidealist (2020) Fashion sustainability vs greenwashing
 
--   https://renoon.com/ Ethical Shopping
+-   “Transparency and Sustainability Platform - Renoon” (2023) Ethical Shopping
 
--   https://eu.sheepinc.com/?v=1666529932643
+-   “Sheep Inc. - Softcore Radicals” (2023) Ethical brand?
 
 -   Good On You (2023) Sustainable fashion company evaluations
 
--   Ethical brand ratings. GStar https://directory.goodonyou.eco/brand/g-star-raw
+-   *Lily \| Mindful + Active Living on Instagram* (n.d.) Garment Worker’s rights
 
--   Worker’s rights. https://www.instagram.com/p/CUXjfzfr7Ze/
-
--   **Problem**:@ emilychanWeStillDon2022 report says there’s not enough transparency in fashion:
+-   **Problem**: Emily Chan (2022c) report says there’s not enough transparency in fashion:
 
 -   Emily Chan (2022b): fashion companies can’t be held accountable for their actions (or indeed, their lack of action).
 
--   https://wikirate.org/
+-   WikiRate (2023)
 
--   https://cordis.europa.eu/project/id/688364
+-   *Instant Gratification for Collective Awareness and Sustainable Consumerism* (2022): “Political consumerism”, “Instant Gratification for Collective Awareness and Sustainable Consumerism”
 
--   https://fashionchecker.org/
+-   FashionChecker (2023)
 
--   Circular textiles https://www.youtube.com/watch?v=pE9Xyk8eL_s&list=PLGI5qsCI2tYhq1_Gs3GQY1IlDbysDPurS
+-   Eesti Disainikeskus I Estonian Design Centre (2021) Circular textiles
 
--   Fashion https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/
+-   “EKA arendas Euroopa tippdisainikoolidega jäätkusuutliku disaini õpetamise tööriistad” (2022) Sustainable Fashion education
 
--   Fashion transparency https://www.fashionrevolution.org/about/transparency/
+-   Fashion Revolution Foundation (2022) Fashion transparency index
 
--   https://cleanclothes.org/
-
--   https://fashionchecker.org/
+-   “Clean Clothes Campaign” (n.d.)
 
 -   “The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples.”
 
--   https://textilegenesis.com/
+-   *Textile Genesis* (n.d.)
 
 -   “Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
 
--   https://www.stand.earth/
+-   Stand.earth (2023)
 
--   https://www.newstandardinstitute.org/
+-   “New Standard Institute” (n.d.)
 
--   https://www.bgmea.com.bd/
-
--   https://www.linkedin.com/showcase/ecotextile-news/
-
--   Materials matter in fashion https://textileexchange.org/
+-   *BGMEA \| Home* (n.d.) Bangladesh Garment Manufacturers and Exporters Association
 
 -   ERR (2022) European Commission wants to reduce the impact of fast fashion on EU market.
 
 -   Minimize shopping, buy quality, save CO2, invest.
 
--   Ethical fashion https://textileexchange.org/ materials matter
+-   Textile Exchange (2023) Ethical fashion materials matter
 
--   Policy request: https://textileexchange.org/trade-policy-request-cop26/
+-   Textile Exchange (2021): Policy request
 
 -   Free clothes
 
--   Generation rewear https://www.youtube.com/watch?v=kqSD0mXRJfA sustainable fashion brands
+-   Vanish UK (2021) Generation rewear documentary, sustainable fashion brands
 
--   Fast fashion https://www.ft.com/content/afdf9568-d9ac-4021-adb2-ab9bf80d24eb?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8
+-   Storbeck (2021) and Remington (2020): Zalando says Fast fashion must disappear
 
--   https://www.ft.com/content/67e3e035-b393-4762-bbab-c3576925f287
+-   Infinited Fiber (2023)
 
--   https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html
+-   Cleantech Group (2023) Global cleantech 100
 
--   https://infinitedfiber.com/
+-   *SOJO - Door-to-Door Clothing Alterations and Repairs* (2023) Alterations and repairs made easy
 
--   https://www.cleantech.com/the-global-cleantech-100/
-
--   Alterations and repairs madeeasy. https://home.sojo.uk/ https://directory.goodonyou.eco/brand/
-
-## Science in Design {#science-in-design}
-
--   https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
+-   “Good On You - Sustainable and Ethical Fashion Brand Ratings” (2023) Ethical brand ratings
 
 ## Packaging {#packaging}
 
--   https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today
+-   “Challenges and Opportunities in Sustainable Packaging Today” (2022)
 
--   https://www.packworld.com/design/package-design/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability
+-   “Protein Brands and Consumers Alike Focus on Sustainability” (2022)
 
--   https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first
+-   “Detail-Rich Sustainable Packaging Product Database Is an Industry First” (2010)
 
--   Coca Cola plastic pollution: https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution
+-   Lerner (2019) Coca Cola plastic pollution
 
--   https://www.sulapac.com/
+-   “Sulapac Replacing Plastic” (n.d.)
 
 -   Ada et al. (2023) notes rapid growth of the packaging industry which generates large amounts of waste.
 
@@ -300,6 +289,8 @@ Across industries, reports are saying there isn’t enough transparency.
 -   Weinschenk (2011) says “People expect most online interactions to follow the same social rules as person-to-person interactions. It’s a shortcut that your brain uses to quickly evaluate trustworthiness.”
 -   Richard Yang (2021) and Justin Baker (2018) say some of the tools used by interaction designers include
 -   Red Route Analysis
+-   AI for design: (**AINextChapter2023?**)
+-   Science in Design https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
 
 ## Quantified Self {#quantified-self}
 
@@ -334,26 +325,26 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 
 ## Supply Chains {#supply-chains}
 
-Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
+-   Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, “garbage in, garbage out”. Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
 
-The blockchain supply chain companies as of October 2022 include:
+-   The blockchain supply chain companies as of summer 2023 include:
 
-| №   | Company        | Link                       |
-|-----|----------------|----------------------------|
-| 1   | Ocean Protocol | https://oceanprotocol.com/ |
-| 2   | Provenance     | https://www.provenance.io/ |
-| 3   | Ambrosius      | https://ambrosus.io/       |
-| 4   | Modum          | https://www.modum.io/      |
-| 5   | OriginTrail    | https://origintrail.io/    |
-| 6   | VeChain        | https://www.vechain.org/   |
-| 7   | Wabi           | https://wabi.io/           |
+| Company        | Link                       |
+|----------------|----------------------------|
+| Ocean Protocol | https://oceanprotocol.com/ |
+| Provenance     | https://www.provenance.io/ |
+| Ambrosius      | https://ambrosus.io/       |
+| Modum          | https://www.modum.io/      |
+| OriginTrail    | https://origintrail.io/    |
+| VeChain        | https://www.vechain.org/   |
+| Wabi           | https://wabi.io/           |
+| FairFood       | https://fairfood.org/      |
+| Bext360        | https://www.bext360.com/   |
 
-Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+-   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
 
--   https://www.taeltech.com/
--   https://golden.com/wiki/WaltonChain\_(cryptocurrency)-EAVDZX4
--   https://www.bext360.com/
--   https://fairfood.org/en/blockchain/
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
 -   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
 
 ## Factories {#factories}
@@ -372,11 +363,11 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 -   Wagenvoort (2020) Self-driving supply chains.. (contact japanese factory?)
 
--   Mowbray (2018) “World's first free digital map of apparel factories”
+-   Mowbray (2018) “World’s first free digital map of apparel factories”
 
 -   Tracing emissions from factory pipes.
 
--   Factory compliance - Fair Factories https://www.fairfactories.org/
+-   “FFC - Fair Factories ClearingHouse - Compliance Solutions” (n.d.) Factory compliance - Fair Factories
 
 -   Transparency about the polluting factories where the products come from.. the product journey
 
@@ -387,13 +378,14 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 ## Circular Economy {#circular-economy}
 
 -   Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
--   There’s a growing number of companies providing re-use of existing items. For example, Swap furniture in Estonia https://www.facebook.com/SMARTSWAP
+-   There’s a growing number of companies providing re-use of existing items.
+-   *SmartSwap* (n.d.) For example, Swap furniture in Estonia
 
 ### Circular Supply Chains {#circular-supply-chains}
 
 -   *GreenDice - Reinventing the Idea of a Computer-Related Tech Purchase* (2021)
 
--   Recycle your phone, FoxWay and Circular economy for PCs: Ärileht (23.09.2022, 12:53)
+-   Ärileht (23.09.2022, 12:53) Recycle your phone, FoxWay and Circular economy for PCs
 
 ### What is Product Design? {#what-is-product-design}
 
@@ -410,13 +402,9 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 -   Use personas to articulate assumptions
 
--   Persona: I care mostly about… fashion, art, plap
+-   Persona: I care mostly about… fashion, art, …
 
--   **Five user models / roles** https://storage.googleapis.com/count-us-in-strapi-storage/DLU_CUI_Methodology_64e8b3009e/DLU_CUI_Methodology_64e8b3009e.pdf
-
--   https://dontlookup.count-us-in.com/methodology
-
--   Consumer – Investor – Activist – .. – ..
+-   Don’t Look Up (n.d.) Don’t look up five user models / roles Consumer, Investor, Activist, ..
 
 ### Data-Driven Design {#data-driven-design}
 
@@ -426,16 +414,16 @@ Another aspect of supply tracing is the treatment of workers and working conditi
 
 Create a design system!!!! best to showcase my analytic skills
 
--   https://www.invisionapp.com/inside-design/guide-to-design-systems/
--   https://www.designbetter.co/design-systems-handbook
--   https://design.google/library/google-design-leadership-margaret-lee/
--   https://atomicdesign.bradfrost.com/
+-   *A Comprehensive Guide to Design Systems \| Inside Design Blog* (n.d.)
+-   M. Suarez et al. (n.d.)
+-   “Method Podcast, Episode 18” (n.d.)
+-   *Atomic Design by Brad Frost* (n.d.)
 
 ### Community’s Role in Design {#communitys-role-in-design}
 
 -   Psychology of ‘fundraising clubs’ vs individual investing
 
--   Ukraine DAO https://v1.partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502
+-   “UkraineDAO Is Bidding on Ukrainian Flag \| PartyBid” (n.d.) Ukraine DAO
 
 -   POAPs:
 
@@ -481,27 +469,27 @@ Create a design system!!!! best to showcase my analytic skills
 ### Making CO2 Visible {#making-co2-visible}
 
 -   When will Bolt show CO2 emissions per every trip?
--   How co2 is shown by Google https://news.yahoo.com/google-airbrushes-emissions-flying-bbc-164134819.html
+-   How CO2 is shown by Google starts hiding emissions? “Google ’Airbrushes’ Out Emissions from Flying, BBC Reveals” (2022)
 -   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 -   Justine Calma (Oct 6, 2021, 10:01 AM GMT+3) *Google UX eco features*
--   https://www.youtube.com/watch?v=MbHuSHGZf5U VERY IMPORTANTT
+-   Google VERY IMPORTANTT Google (2021)
 -   “Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental” (2021) Google green routes
--   Check carbon impact https://wizzair.chooose.today/
+-   Wizzair Check carbon impact *Offset Your Flight with WIZZ* (n.d.)
 
 ### Design for Recycling {#design-for-recycling}
 
 -   Lenovo (08-29-22) “rethinking product design and inspiring consumers to expect more from their devices”
 
--   “design is a tool to make complexity comprehensible” like the helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
+-   “design is a tool to make complexity comprehensible” like the Helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
 
--   https://instagram.com/zeynep_von_flittner
+-   Zeynep Falay von Flittner (n.d.)
 
 ### Design for Transparency {#design-for-transparency}
 
 -   WikiRate (2021): 7 WikiRate Data Sharing Archetypes
 
 | №   | Type                                 | Example                                      |
-|---------------|--------------------------|--------------------------------|
+|------------------|-------------------------|------------------------------|
 | 1   | Transparency Accountability Advocate |                                              |
 | 2   | Compliance Data Aggregator           |                                              |
 | 3   | Data Intelligence Hub                |                                              |
@@ -512,7 +500,7 @@ Create a design system!!!! best to showcase my analytic skills
 
 ## Digitalisation {#digitalisation}
 
--   Digital Receipts to be able to track your carbon footprint https://apps.apple.com/fi/app/receipthero/id1565989681
+-   *Digital Receipts and Customer Loyalty in One Platform \| ReceiptHero* (n.d.) Digital Receipts to be able to track your carbon footprint
 
 ## Traceability {#traceability}
 
@@ -540,8 +528,6 @@ Create a design system!!!! best to showcase my analytic skills
 
 -   “Blockchain Companies Team Up To Track ESG Data” (2021)
 
--   https://home.kpmg/xx/en/home/insights/2020/05/creating-trust-in-esg-data.html
-
 -   Ganu (2021)
 
 -   Improve product ***provenance***, blockchains offer this transparency
@@ -550,21 +536,21 @@ Create a design system!!!! best to showcase my analytic skills
 
 Given the large number of fraud cases in finance, *trust* is the number one concern for users (CITE). Good design is crucial for creating transparency, and transparency leads to trust.
 
--   https://star.global/posts/why-design-is-key-to-building-trust-in-fintech/
--   https://usabilitygeek.com/ux-design-fintech-things-to-remember/
--   https://www.parallelhq.com/blog/fintech-ui-ux-design
--   https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process
--   https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119218906.ch9
--   https://www.youtube.com/watch?v=c_uxaOz_B1c
+-   *Why Design Is Key to Building Trust in FinTech \| Star* (2021)
+-   Sean McGowan (2018)
+-   ROBIN DHANWANI (2021)
+-   “Designing a Fintech App - The UX Design Process” (2021)
+-   Cordeiro & Weevers (2016)
+-   Ungrammary (2020)
 -   Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment - Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?
 
 ### Open Data {#open-data}
 
 -   WikiRate is a tool for checking green credentials Transpareencyy
--   https://www.linkedin.com/in/laureen-van-breen-67b23056/
--   https://wikirate.medium.com/introducing-the-facility-checker-a-new-search-tool-uncovering-living-wage-gaps-in-fashion-supply-586203aa2998
+-   Laureen van Breen et al. (2023)
+-   Wikirate (2022b)
 -   *Home - ChainReact* (n.d.)
--   swedish open data portal https://www.dataportal.se/en
+-   “Sveriges Dataportal” (n.d.) Swedish open data portal
 -   Make open data easy to use in everyday life
 
 ### Interface Studies {#interface-studies}
@@ -674,9 +660,9 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Greenhouse Gas Protocol (2023) standards to measure and manage emissions
 
--   https://spaceapegames.com/green
+-   *Space Ape Games* (n.d.) game company going green
 
--   https://www.unep.org/resources/publication/playing-planet-annual-impact-report
+-   Playing for the Planet Alliance (2021)
 
 ### Social Objects {#social-objects}
 
@@ -704,7 +690,7 @@ There’s a number of user interface design patterns that have provide successfu
 
 -   Huang & Miao (2021) **(need to pay for article!)**
 
--   Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services.
+-   G. Suarez et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services.
 
 -   Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
 
@@ -730,6 +716,8 @@ There’s a number of user interface design patterns that have provide successfu
 
 # References {#references .unnumbered}
 
+*A comprehensive guide to design systems \| Inside Design Blog*. (n.d.). https://www.invisionapp.com/inside-design/guide-to-design-systems/.
+
 Acuti, D., Lemarié, L., & Viglia, G. (2023). How to enhance the sustainable disposal of harmful products. *Technological Forecasting and Social Change*, *186*, 122151. <https://doi.org/10.1016/j.techfore.2022.122151>
 
 Ada, E., Kazancoglu, Y., Gozacan-Chase, N., & Altin, O. (2023). Challenges for Circular Food Packaging: Circular Resources Utilization. *Applied Food Research*, 100310. <https://doi.org/10.1016/j.afres.2023.100310>
@@ -737,6 +725,8 @@ Ada, E., Kazancoglu, Y., Gozacan-Chase, N., & Altin, O. (2023). Challenges for C
 Adam Corner. (2012). Why we need to move forward on carbon labelling. *The Guardian*.
 
 aespa. (2020). *Aespa 에스파 “MY, KARINA”*.
+
+Akshat Rathi. (2021). *Chris Sacca Returns With \$800 Million in Venture Capital for Climate Tech - Bloomberg*. https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech#xj4y7vzkg.
 
 Almeida, A., Mateus-Coelho, N., Lopes, N., & Portela, I. (2022). Paranoid OS: Wearable Trackers. *Procedia Computer Science*, *204*, 862–868. <https://doi.org/10.1016/j.procs.2022.08.104>
 
@@ -750,6 +740,8 @@ Arranz, C. F. A., Sena, V., & Kwong, C. (2022). Institutional pressures as drive
 
 Asioli, D., Fuentes-Pila, J., Alarcón, S., Han, J., Liu, J., Hocquette, J.-F., & Nayga, R. M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, *112*, 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>
 
+*Atomic Design by Brad Frost*. (n.d.). http://atomicdesign.bradfrost.com/.
+
 Ayoola, I., Wetzels, M., Peters, P., Van Berlo, S., & Feijs, L. (2018). Do CHANGE platform: A service-based architecture for secure aggregation and distribution of health and wellbeing data. *International Journal of Medical Informatics*, *117*, 103–111. <https://doi.org/10.1016/j.ijmedinf.2018.06.004>
 
 Baptista, P. M., Martin, F., Ross, H., O’Connor Reina, C., Plaza, G., & Casale, M. (2022). A systematic review of smartphone applications and devices for obstructive sleep apnea. *Brazilian Journal of Otorhinolaryngology*, *88*, S188–S197. <https://doi.org/10.1016/j.bjorl.2022.01.004>
@@ -762,11 +754,15 @@ Berger, M., Lange, T., & Stahl, B. (2022). A digital push with real impact Mappi
 
 Bernard, A. (2022). Sustainability and superapps top Gartner’s Top 10 2023 Trends List. In *TechRepublic*. https://www.techrepublic.com/article/gartner-top-trends-list/.
 
+*BGMEA \| Home*. (n.d.). https://www.bgmea.com.bd/.
+
 Blockchain Companies Team Up To Track ESG Data. (2021). In *JPT*. https://jpt.spe.org/blockchain-companies-team-up-to-track-esg-data.
 
 Bower, M., & Sturman, D. (2015). What are the educational affordances of wearable technologies? *Computers & Education*, *88*, 343–353. <https://doi.org/10.1016/j.compedu.2015.07.013>
 
 Burger, K., White, L., & Yearworth, M. (2019). Developing a smart operational research with hybrid practice theories. *European Journal of Operational Research*, *277*(3), 1137–1150. <https://doi.org/10.1016/j.ejor.2019.03.027>
+
+CAITLIN STALL-PAQUET. (2021). *Fresh from the city: The rise of urban farming*. https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/.
 
 Caravan Studios. (2022). Strengthen your worker welfare programme. In *workerconnect*. https://www.workerconnect.org.
 
@@ -774,7 +770,11 @@ Caravan Studios. (2022). Strengthen your worker welfare programme. In *workercon
 
 Carlsson, F., Kataria, M., & Lampi, E. (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, *201*, 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>
 
+Catherine Shu. (2023). Southeast Asia farm-to-table startup Secai Marche raises Series A. In *TechCrunch*.
+
 Ceschin, F., & Gaziulusoy, I. (2016). Evolution of design for sustainability: From product design to design for system innovations and transitions. *Design Studies*, *47*, 118–163. <https://doi.org/10.1016/j.destud.2016.09.002>
+
+Challenges and Opportunities in Sustainable Packaging Today. (2022). In *Packaging World*. https://www.packworld.com/news/business-intelligence/article/22526141/challenges-and-opportunities-in-sustainable-packaging-today.
 
 Chapman, J. (2009). Design for (Emotional) Durability. *Design Issues*, *25*(4), 29–35. <https://www.jstor.org/stable/20627827>
 
@@ -784,9 +784,15 @@ Christiansen, A., Hasse, G., & Tønder, R. (2021). *Extended Producer Responsibi
 
 Circle Economy. (2022). *The Circularity Gap Report 2022*.
 
+Clean Clothes Campaign. (n.d.). \[Page\]. In *Clean Clothes Campaign*. https://cleanclothes.org/front-page.
+
+Cleantech Group. (2023). *Global Cleantech 100*.
+
 Climatiq. (2023). *Climatiq - Carbon Emissions Calculation API*. https://www.climatiq.io/.
 
 *<span class="nocase">CO2-neutral</span> factories*. (n.d.). https://www.palsgaard.com/en/responsibility/responsible-production/co2-neutral-factories.
+
+Cordeiro, T., & Weevers, I. (2016). Design is No Longer an Option - User Experience (UX) in FinTech. In S. Chishti & J. Barberis (Eds.), *The FinTech Book* (pp. 34–37). John Wiley & Sons, Ltd. <https://doi.org/10.1002/9781119218906.ch9>
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
@@ -800,6 +806,14 @@ de Otazu, R. L. de L. D., Akizu-Gardoki, O., de Ulibarri, B., Iturrondobeitia, M
 
 Delclòs-Alió, X., Rodríguez, D. A., Medina, C., Miranda, J. J., Avila-Palencia, I., Targa, F., Moran, M. R., Sarmiento, O. L., & Quistberg, D. A. (2022). Walking for transportation in large Latin American cities: Walking-only trips and total walking events and their sociodemographic correlates. *Transport Reviews*, *42*(3), 296–317. <https://doi.org/10.1080/01441647.2021.1966552>
 
+Designing a Fintech App - The UX Design Process. (2021). In *Tivix*. https://www.tivix.com/blog/designing-a-fintech-app-the-ux-design-process.
+
+Detail-rich sustainable packaging Product Database is an industry first. (2010). In *Packaging World*. https://www.packworld.com/news/sustainability/article/13346852/detailrich-sustainable-packaging-product-database-is-an-industry-first.
+
+*Digital receipts and customer loyalty in one platform \| ReceiptHero*. (n.d.). https://www.getreceipthero.com/.
+
+Don’t Look Up. (n.d.). *Methodology*. https://dontlookup.count-us-in.com/methodology.
+
 Dull, D. (2021). *Circular supply chain: 17 common questions, how any supply chain can take the next step*. Amazon Italia Logistica.
 
 Dunne, A., & Raby, F. (2013). *Speculative everything: Design, fiction, and social dreaming*. The MIT Press.
@@ -812,11 +826,17 @@ EarthCheck. (2023). EarthCheck - Good For Business, Good For The Planet. In *Ear
 
 Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, *370*, 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>
 
+Eesti Disainikeskus I Estonian Design Centre. (2021). *Circular Design HOW TO session 6: Circularity in Textiles*.
+
 Eisenstein, C. (2011). *Sacred economics: Money, gift, & society in the age of transition*. Evolver Editions.
+
+EKA arendas Euroopa tippdisainikoolidega jäätkusuutliku disaini õpetamise tööriistad. (2022). In *Eesti Kunstiakadeemia*. https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/.
 
 Emily Chan. (2022a). Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation? *British Vogue*.
 
 Emily Chan. (2022b). Will The Fashion Industry Finally Face Sustainability Legislation In 2022? \| British Vogue. *British Vogue*.
+
+Emily Chan. (2022c). We Still Don’t Have Enough Transparency In Fashion. In *British Vogue*. https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022.
 
 Emir Hidayat, S., Bamahriz, O., Hidayati, N., Sari, C. A., & Dewandaru, G. (2022). Value drivers of startup valuation from venture capital equity-based investing: A global analysis with a focus on technological factors. *Borsa Istanbul Review*, *22*(4), 653–667. <https://doi.org/10.1016/j.bir.2021.10.001>
 
@@ -836,6 +856,14 @@ European Environment Agency. (2022). *Textiles and the environment: The role of 
 
 European Parliament. (2022). *Ecodesign for sustainable products*. https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2022)733524.
 
+Fashion Revolution Foundation. (2022). *FASHION TRANSPARENCY INDEX 2022*.
+
+FashionChecker. (2023). *FashionChecker: Wages and transparency in the garment industry*. https://fashionchecker.org/.
+
+FFC - Fair Factories ClearingHouse - Compliance Solutions. (n.d.). In *FFC - Fair Factories Clearninghouse*. https://www.fairfactories.org.
+
+Financial Times. (2022). *8 Sustainability ideas that will change the world \| FT Rethink*.
+
 Fleet Management Weekly. (2022). *Sustainable Superapp Shows Cost, Carbon and Calories Per Minute \| Fleet Management Weekly*.
 
 Fletcher, O. (2022). “Friendly” and “noisy surveillance” through MapMyRun during the COVID-19 pandemic. *Geoforum*, *133*, 11–19. <https://doi.org/10.1016/j.geoforum.2022.05.004>
@@ -854,9 +882,15 @@ Godfrey, A., Hetherington, V., Shum, H., Bonato, P., Lovell, N. H., & Stuart, S.
 
 Good On You. (2023). Good On You - Sustainable and Ethical Fashion Brand Ratings. In *Good On You*. https://goodonyou.eco/.
 
+Good On You - Sustainable and Ethical Fashion Brand Ratings. (2023). In *Good On You*. https://goodonyou.eco/.
+
 goodbag. (2023). *Goodbag: Sustainable Super App - Apps on Google Play*. https://play.google.com/store/apps/details?id=io.goodbag.app&hl=en.
 
+Google. (2021). *Google Sustainability \| Helping every day be more sustainable with Google - American Sign Language*.
+
 Google. (2023). Carbon Footprint. In *Google Cloud*. https://cloud.google.com/carbon-footprint.
+
+Google ’airbrushes’ out emissions from flying, BBC reveals. (2022). *BBC News*.
 
 Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental. (2021). In *ELMUNDO*. https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html.
 
@@ -884,13 +918,21 @@ Huang, Y., & Miao, W. (2021). Re-domesticating social media when it becomes disr
 
 IEA. (2022). *Global Energy Review: CO2 Emissions in 2021*.
 
+iGenius. (2020). Let’s talk about sustainable AI. In *Ideas @ iGenius*.
+
+imperfectidealist. (2020). *Sustainable or Greenwashing? How to Evaluate Fashion Brands*.
+
 Implement Consulting Group. (2022). *How the digital sector is supporting climate action - An Implement Consulting Group study commissioned by Google*.
 
 Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M., & Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, *28*, 100727. <https://doi.org/10.1016/j.scp.2022.100727>
 
 Inc, F. R. S. (n.d.). *At a Glance: Alexandria Real-Time ESG*. https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg.
 
+Infinited Fiber. (2023). *Infinited Fiber*. https://infinitedfiber.com/, https://infinitedfiber.com/.
+
 *Innocent opens 200m carbon-neutral factory in Rotterdam - Investment Monitor*. (n.d.). https://www.investmentmonitor.ai/news/innocent-opens-200m-carbon-neutral-factory-in-rotterdam/.
+
+*Instant Gratification for Collective Awareness and Sustainable Consumerism*. (2022).
 
 IxDF. (n.d.). *What is Interaction Design?* https://www.interaction-design.org/literature/topics/interaction-design.
 
@@ -915,15 +957,23 @@ Köhler, A., Watson, D., Trzepacz, S., Löw, C., Liu, R., Danneck, J., Konstanta
 Kolko, J., & Connors, C. (2010). *Thoughts on interaction design: A collection of reflections*. Morgan Kaufmann.
 <span class="csl-block">First published: Savannah, GA : Brown Bear, c2007</span>
 
+Kommenda, N., Nevitt, C., Terazono, E., Joiner, S., & Davies, E. (2022). *Would carbon food labels change the way you shop?* https://ig.ft.com/ig-food-eco-footprint.
+
 Konings, L. (2020). How to prepare for your Facebook product design interview. In *Medium*. https://uxdesign.cc/how-to-prepare-for-your-facebook-product-design-interview-f80ab9e8f6fb.
 
 Kristina Kostap. (2022). LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga. *Postimees*.
 
+Laureen van Breen, Aileen Robinson, Abigail Munroe, & Adriana Bora. (2023). Panel: Scaling Corporate Accountability: Humans and AI together in the fight to \#EndSlavery. In *Scottish AI Summit*. https://www.scottishaisummit.com/panel-scaling-corporate-accountability-humans-and-ai-together-in-the-fight-to-endslavery.
+
 Lenovo. (08-29-22). *“Fast tech” is unsustainable: The circular economy is the smart answer*.
+
+Lerner, S. (2019). How Coca-Cola Undermines Plastic Recycling Efforts. In *The Intercept*. https://theintercept.com/2019/10/18/coca-cola-recycling-plastics-pollution/.
 
 Leung, R., & Luximon, A. (2021). Green design. In *Handbook of Footwear Design and Manufacture* (pp. 459–476). Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>
 
 LFCA. (2023). *Leaders for Climate Action*. https://lfca.earth/.
+
+*Lily \| mindful + active living on Instagram: “Yesterday, the Garment Worker Protection Act (SB62) was signed into law by Governor Newsom in California. Garment workers in LA make an…”*. (n.d.). https://www.instagram.com/p/CUXjfzfr7Ze/?img_index=1.
 
 Lion Hirth. (n.d.). *Lion Hirth on Twitter: "Carbon pricing is not there to punish people. It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release. Very simple." / Twitter*. https://twitter.com/LionHirth/status/1605617664444878848.
 
@@ -934,6 +984,8 @@ Liu, X., Tamminen, S., Korhonen, T., & Röning, J. (2019). How Physical Exercise
 Lohmann, P. M., Gsottbauer, E., Doherty, A., & Kontoleon, A. (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, *114*, 102693. <https://doi.org/10.1016/j.jeem.2022.102693>
 
 Lori Perri. (2022). What Is a Superapp? In *Gartner*. https://www.gartner.com/en/articles/what-is-a-superapp.
+
+Lowercarbon Capital. (2023). Lowercarbon Capital. In *Lowercarbon Capital*. https://lowercarboncapital.com/.
 
 Mabuza, L., Sonnenberg, N., & Marx-Pienaar, N. (2023). Natural versus synthetic dyes: Consumers’ understanding of apparel coloration and their willingness to adopt sustainable alternatives. *Resources, Conservation & Recycling Advances*, *18*, 200146. <https://doi.org/10.1016/j.rcradv.2023.200146>
 
@@ -946,6 +998,8 @@ Marrucci, L., Marchi, M., & Daddi, T. (2020). Improving the carbon footprint of 
 Matthew Gore, Alessio Sbraga, & Joseph Malpas. (2022). Emissions Regulations In Shipping - Will The Polluter Pay? In *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
 
 McDonough, W., & Braungart, M. (2002). *Cradle to cradle: Remaking the way we make things* (1st ed). North Point Press.
+
+Method Podcast, Episode 18. (n.d.). In *Google Design*. https://design.google/library/google-design-leadership-margaret-lee.
 
 Michael Abrash. (2017). Inventing the Future. In *Meta Quest*. https://www.oculus.com/blog/inventing-the-future/.
 
@@ -964,7 +1018,13 @@ Muñoz, M., Reul, A., Guijarro, B., & Hidalgo, M. (2023). Carbon footprint, econ
 
 Nabipour Afrouzi, H., Ahmed, J., Mobin Siddique, B., Khairuddin, N., & Hassan, A. (2023). A comprehensive review on carbon footprint of regular diet and ways to improving lowered emissions. *Results in Engineering*, *18*, 101054. <https://doi.org/10.1016/j.rineng.2023.101054>
 
+Nastaraan Vadoodi. (2022). *Ecodesign requirements to drive sustainable product development*. https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0.
+
+New Standard Institute. (n.d.). In *New Standard Institute*. https://www.newstandardinstitute.org.
+
 Nuez, I., Ruiz-García, A., & Osorio, J. (2022). A comparative evaluation of CO2 emissions between internal combustion and electric vehicles in small isolated electrical power systems - Case study of the Canary Islands. *Journal of Cleaner Production*, *369*, 133252. <https://doi.org/10.1016/j.jclepro.2022.133252>
+
+*Offset your flight with WIZZ*. (n.d.). https://wizzair.chooose.today/.
 
 Ogunbode, C. A., Doran, R., Hanss, D., Ojala, M., Salmela-Aro, K., van den Broek, K. L., Bhullar, N., Aquino, S. D., Marot, T., Schermer, J. A., Wlodarczyk, A., Lu, S., Jiang, F., Maran, D. A., Yadav, R., Ardi, R., Chegeni, R., Ghanbarian, E., Zand, S., … Karasu, M. (2022). Climate anxiety, wellbeing and pro-environmental action: Correlates of negative emotional responses to climate change in 32 countries. *Journal of Environmental Psychology*, *84*, 101887. <https://doi.org/10.1016/j.jenvp.2022.101887>
 
@@ -974,9 +1034,13 @@ Peng, J., Shi, X., & Tong, X. (2023). Extended producer responsibility for low c
 
 Perez-Cueto, F. J. A. (2021). Nudging plant-based meals through the menu. *International Journal of Gastronomy and Food Science*, *24*, 100346. <https://doi.org/10.1016/j.ijgfs.2021.100346>
 
+Playing for the Planet Alliance. (2021). *Playing for the Planet Annual Impact Report*.
+
 Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. *Science*, *360*(6392), 987–992. <https://doi.org/10.1126/science.aaq0216>
 
 PrimaDollar Media. (2021). *PrimaDollar - Giving the supply chain a voice*.
+
+Protein Brands and Consumers Alike Focus on Sustainability. (2022). In *Packaging World*. https://www.profoodworld.com/business-intelligence/article/22512820/protein-brands-and-consumers-alike-focus-on-sustainability.
 
 *Real Time ESG Tracking From StockSnips*. (2021). https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html.
 
@@ -984,9 +1048,15 @@ Reality Labs Research at Meta Connect 2022. (2022). In *Tech at Meta*. https://t
 
 Reis, S., Seto, E., Northcross, A., Quinn, N. W. T., Convertino, M., Jones, R. L., Maier, H. R., Schlink, U., Steinle, S., Vieno, M., & Wimberly, M. C. (2015). Integrating modelling and smart sensors for environmental and human health. *Environmental Modelling & Software*, *74*, 238–246. <https://doi.org/10.1016/j.envsoft.2015.06.003>
 
+Remington, C. (2020). Zalando’s Zign label “fully dedicated” to sustainability. In *Ecotextile News*. https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html.
+
+Renée Salmonsen. (2018). *Asia’s largest vertical farm is located in northern Taiwan*. https://www.taiwannews.com.tw/en/news/3387047.
+
 Richard Yang. (2021). Interaction design is more than just user flows and clicks. In *UX Collective*. https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c.
 
 Roa, L., Correa-Bahnsen, A., Suarez, G., Cortés-Tejada, F., Luque, M. A., & Bravo, C. (2021). Super-app behavioral patterns in credit risk models: Financial, statistical and regulatory implications. *Expert Systems with Applications*, *169*, 114486. <https://doi.org/10.1016/j.eswa.2020.114486>
+
+ROBIN DHANWANI. (2021). *Fintech UI/UX Design: Driving Growth by Creating a Better User Experience \| Parallel - Blog*. https://www.parallelhq.com/blog/fintech-ui-ux-design.
 
 Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P., & Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, *203*, 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>
 
@@ -1005,30 +1075,56 @@ Sarah Perez. (2022). Google rolls out a new set of search tools for eco-consciou
 
 Saubade, M., Karatzios, C., Besson, C., Farasse, A.-C., Charles, B., & Gremion, G. (2016). Promoting physical activity: What do we have available to motivate our patients? *Annals of Physical and Rehabilitation Medicine*, *59*, e54–e55. <https://doi.org/10.1016/j.rehab.2016.07.125>
 
+Sean McGowan. (2018). UX Design For FinTech: 4 Things To Remember. In *Usability Geek*. https://usabilitygeek.com/ux-design-fintech-things-to-remember/.
+
 Sepandar Kamvar. (2022). *Sep Kamvar from Celo & Mosaic*.
 
 Shabrina Nurqamarani, A., Robin Jonathan, L., NH Gaffar, E., & Indrawati, A. (2020). THE EFFECTS OF MOBILE SERVICE QUALITIES ON CUSTOMER REUSE INTENTION OF GOJEK SUPER APP. *HSSR*, *8*(4), 1134–1146. <https://doi.org/10.18510/hssr.2020.84108>
 
 Sharing.Lab. (2015). What is a social object? In *Sharing.Lab*.
 
+Sheep Inc. - Softcore Radicals. (2023). In *Sheep Inc*. https://sheepinc.com/.
+
 Shin, G., Jarrahi, M. H., Fei, Y., Karami, A., Gafinowitz, N., Byun, A., & Lu, X. (2019). Wearable activity trackers, accuracy, adoption, acceptance and health impact: A systematic literature review. *Journal of Biomedical Informatics*, *93*, 103153. <https://doi.org/10.1016/j.jbi.2019.103153>
 
 Singh, P. K., & Sarkar, P. (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, *212*, 118679. <https://doi.org/10.1016/j.eswa.2022.118679>
 
+*SmartSwap*. (n.d.). https://www.smartswap.com/?fbclid=IwAR12OMzT2n83InkE_40EJPHXv0-2dwn6ZbvqFlCI5Z_9eRofDvclJidZY_I.
+
+*SOJO - door-to-door clothing alterations and repairs*. (2023). https://www.sojo.uk/.
+
+*Space Ape Games*. (n.d.). https://spaceapegames.com/green.
+
 Springmann, M., Clark, M. A., Rayner, M., Scarborough, P., & Webb, P. (2021). The global and regional costs of healthy and sustainable dietary patterns: A modelling study. *The Lancet Planetary Health*, *5*(11), e797–e807. <https://doi.org/10.1016/S2542-5196(21)00251-5>
+
+Stand.earth. (2023). *Stand.earth - For the people and places you love*. https://stand.earth/.
 
 Steenmans, K., & Ulfbeck, V. (2023). Fostering the circular economy through private law: Perspectives from the extended producer responsibility concept. *Resources, Conservation and Recycling*, *195*, 107016. <https://doi.org/10.1016/j.resconrec.2023.107016>
 
 Stefan Klebert. (2022). Carbon-neutral manufacturing is possible: Here’s how. In *World Economic Forum*.
 
+Storbeck, O. (2021). Fast fashion must be shelved within a decade, says Zalando CEO. *Financial Times*.
+
 Suarez, G., Raful, J., Luque, M. A., Valencia, C. F., & Correa-Bahnsen, A. (2021). *Enhancing User’ s Income Estimation with Super-App Alternative Data*. <https://doi.org/10.48550/ARXIV.2104.05831>
 <span class="csl-block">Other5 pages, 2 figures</span>
+
+Suarez, M., Anne, J., Sylor-Miller, K., Mounter, D., & Stanfield, R. (n.d.). Design Systems Handbook. In *Design Systems Handbook - DesignBetter*. https://www.designbetter.co/design-systems-handbook.
+
+Sulapac Replacing plastic. (n.d.). In *Sulapac*. https://www.sulapac.com/.
 
 Sundar Pichai. (2021). *Giving you more sustainable choices with Google*. https://blog.google/outreach-initiatives/sustainability/sustainability-2021/.
 
 Support a clean energy future with Nest Renew. (2022). In *Google*. https://blog.google/products/google-nest/nest-renew-general-availability/.
 
 Sustainability starts in the design process, and AI can help. (n.d.). In *MIT Technology Review*. https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/.
+
+Sveriges dataportal. (n.d.). In *Sveriges Dataportal*. https://www.dataportal.se/.
+
+Textile Exchange. (2021). FASHION INDUSTRY TRADE POLICY REQUEST. In *Textile Exchange*. https://textileexchange.org/news/trade-policy-request-cop26/.
+
+Textile Exchange. (2023). *Textile Exchange*. https://textileexchange.org/.
+
+*Textile Genesis*. (n.d.). https://textilegenesis.com/.
 
 The company now dominating European fintech is… Paypal. (2021). In *Sifted*. https://sifted.eu/articles/paypal-tops-european-downloads/.
 
@@ -1046,15 +1142,23 @@ Tim Nicolle. (2021). “<span class="nocase">Real-time ESG</span>” data on sup
 
 Tonne, C., Basagaña, X., Chaix, B., Huynen, M., Hystad, P., Nawrot, T. S., Slama, R., Vermeulen, R., Weuve, J., & Nieuwenhuijsen, M. (2017). New frontiers for environmental epidemiology in a changing world. *Environment International*, *104*, 155–162. <https://doi.org/10.1016/j.envint.2017.04.003>
 
+Transparency and sustainability platform - Renoon. (2023). In *Transparency and sustainability platform - Renoon*. https://renoon.com.
+
 Tsai, J.-M., Hsu, C.-Y., Tsai, L.-Y., & Tsay, S.-L. (2019). Translation and validation of Taiwan Chinese version of the self-regulation questionnaire for gynecologic cancer survivors. *Taiwanese Journal of Obstetrics and Gynecology*, *58*(5), 614–620. <https://doi.org/10.1016/j.tjog.2019.05.032>
 
 Tyler, J., Boldi, M.-O., & Cherubini, M. (2022). Contemporary self-reflective practices: A large-scale survey. *Acta Psychologica*, *230*, 103768. <https://doi.org/10.1016/j.actpsy.2022.103768>
 
+UkraineDAO is bidding on Ukrainian Flag \| PartyBid. (n.d.). In *PartyBid by prtyDAO*. https://partybid.app/party/0x4508401BaDe71aE75fE70c97fe585D734f975502.
+
 UNFCCC Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA). (2022, November). Sharm el-Sheikh Implementation Plan. Revised draft decision -/CMA.4. *Sharm El-Sheikh Climate Change Conferencea*.
+
+Ungrammary. (2020). *Product Design case study \| UX/UI Design \| Interaction Design \| <span class="nocase">Fin-tech</span>*.
 
 van der Wal, A. J., van Horen, F., & Grinstein, A. (2016). The paradox of “green to be seen”: Green high-status shoppers excessively use (branded) shopping bags. *International Journal of Research in Marketing*, *33*(1), 216–219. <https://doi.org/10.1016/j.ijresmar.2015.11.004>
 
 Van Doorsselaer, K. (2022). Chapter 12 - The role of ecodesign in the circular economy. In A. Stefanakis & I. Nikolaou (Eds.), *Circular economy and sustainability* (pp. 189–205). Elsevier. <https://doi.org/10.1016/B978-0-12-819817-9.00018-1>
+
+Vanish UK. (2021). *GENERATION REWEAR: Full Length Documentary*.
 
 VDI Zentrum Ressourceneffizienz. (2020). *The carbon-neutral Green Factory*.
 
@@ -1072,9 +1176,15 @@ Weinschenk, S. (2011). *100 things every designer needs to know about people*. N
 
 Whitmarsh, L., Player, L., Jiongco, A., James, M., Williams, M., Marks, E., & Kennedy-Williams, P. (2022). Climate anxiety: What predicts it and how is it related to climate action? *Journal of Environmental Psychology*, *83*, 101866. <https://doi.org/10.1016/j.jenvp.2022.101866>
 
-Wikirate. (2022). Sharing data and creating impact: Fashion Revolution Brasil open up their data on WikiRate. In *Medium*.
+*Why design is key to building trust in FinTech \| Star*. (2021). https://star.global/posts/fintech-product-design-podcast/.
+
+Wikirate. (2022a). Sharing data and creating impact: Fashion Revolution Brasil open up their data on WikiRate. In *Medium*.
 
 WikiRate. (2021). *Webinar: Envisioning and finding your place in an integrated and open labor data ecosystem*.
+
+Wikirate. (2022b). Introducing the Facility Checker: A new search tool uncovering living wage gaps in fashion supply…. In *Medium*.
+
+WikiRate. (2023). WikiRate. In *WikiRate*. https://wikirate.org/Home.
 
 Will Europe get a superapp, and who will it be? (2022). In *Sifted*. https://sifted.eu/articles/europe-superapp-revolut-klarna/.
 
@@ -1087,5 +1197,7 @@ Xu, M., & Lin, B. (2022). Towards low-carbon economy by carbon label?: Survey ev
 Yap, K. S., Leow, Y. J., Chung, S. Y., Loke, C. P. H., Tan, D. Z. L., Yeo, Z., & Low, J. S. C. (2023). Life Cycle Assessment of <span class="nocase">Plastic Waste End-of-life Treatments</span> in Singapore. *Procedia CIRP*, *116*, 522–527. <https://doi.org/10.1016/j.procir.2023.02.088>
 
 Zeng, M. (2015). Three paradoxes of building platforms. *Commun. ACM*, *58*(2), 27–29. <https://doi.org/10.1145/2700343>
+
+Zeynep Falay von Flittner. (n.d.). Falay Transition Design. In *Falay Transition Design*. https://www.falaydesign.com.
 
 Zhou, S., Wang, H., Li, S., Chen, Y., & Wu, J. (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, *18*, e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>

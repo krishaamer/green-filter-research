@@ -206,7 +206,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 
--   Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+-   S. Low et al. (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 -   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
 
@@ -342,7 +342,7 @@ A movement of people living a simple life. This is always going to be a small pe
 ### Regeneration {#regeneration}
 
 -   “What Is ReFi \| Regenerative Finance Explained” (2023): What is Reggenerative Finance (ReFi).
--   *(2) Community Development Call 1/19/22 - YouTube* (22 C.E.) and Regen Network (2023) regen network
+-   Regen Network (22 C.E.) and Regen Network (2023) regen network
 -   Smith (2021)
 -   “KlimaDAO” (2023) KlimaDAO
 -   “Planet of the Klimates - Luis Adaime - Founder & CEO of MOSS.Earth” (n.d.) Moss.earth
@@ -368,6 +368,26 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 ### Actionable Insights {#actionable-insights}
 
 -   Translate data into everyday actions the app can suggest.
+
+## Agroforestry and Permaculture {#agroforestry-and-permaculture}
+
+-   Food forests for regenerative food systems.
+
+-   Ruba & Talucder (2023)
+
+-   Irwin et al. (2023)
+
+-   Yadav et al. (2023)
+
+-   G. Low et al. (2023)
+
+-   Ollinaho & Kröger (2023) “bioeconomy is not inherently sustainable and may pose considerable risks to biodiversity.”
+
+-   De Queiroz-Stein & Siegel (2023)
+
+-   Gamage et al. (2023) “Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide.”
+
+-   Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo: “Would you rather buy a DogeCoin or a regenerative food forest token?” ReFi DAO (2022) (Use as a question for the survey?)
 
 ## Greenwashing {#greenwashing}
 
@@ -412,8 +432,6 @@ It’s up to legislators to provide sustainable products on our marketplace… b
 -   In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is necessary a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References {#references .unnumbered}
-
-*(2) Community Development Call 1/19/22 - YouTube*. (22 C.E.). https://www.youtube.com/watch?v=Pv8OTD-Ze6E.
 
 *A European Green Deal*. (2021). https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en.
 
@@ -475,6 +493,8 @@ Costa, C. D. (2018). How Finnish Culture Can Teach You To Design Your Life. In *
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J., & Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Publications Office of the European Union.
 
+De Queiroz-Stein, G., & Siegel, K. M. (2023). Possibilities for mainstreaming biodiversity? Two perspectives on the concept of bioeconomy. *Earth System Governance*, *17*, 100181. <https://doi.org/10.1016/j.esg.2023.100181>
+
 Debnath, R., Bardhan, R., Shah, D. U., Mohaddes, K., Ramage, M. H., Alvarez, R. M., & Sovacool, B. K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, *12*(1), 19017. <https://doi.org/10.1038/s41598-022-23624-9>
 
 Dutta, P., Choi, T.-M., Somani, S., & Butala, R. (2020). Blockchain technology in supply chain operations: Applications, challenges and research opportunities. *Transportation Research Part E: Logistics and Transportation Review*, *142*, 102067. <https://doi.org/10.1016/j.tre.2020.102067>
@@ -497,6 +517,8 @@ Frédéric Simon. (2020). *Commission under fire for including “carbon sinks�
 
 Frédéric Simon. (2022). Europe rapidly losing its forest carbon sink, study shows. In *www.euractiv.com*. https://www.euractiv.com/section/climate-environment/news/europe-rapidly-losing-its-forest-carbon-sink-study-shows/.
 
+Gamage, A., Gangahagedara, R., Gamage, J., Jayasinghe, N., Kodikara, N., Suraweera, P., & Merah, O. (2023). Role of organic farming for achieving sustainability in agriculture. *Farming System*, *1*(1), 100005. <https://doi.org/10.1016/j.farsys.2023.100005>
+
 Gamborg, C., & Jensen, F. S. (2017). Attitudes towards recreational hunting: A quantitative survey of the general public in Denmark. *Journal of Outdoor Recreation and Tourism*, *17*, 20–28. <https://doi.org/10.1016/j.jort.2016.12.002>
 
 Gaure, S., & Golombek, R. (2022). True or not true: CO2 free electricity generation is possible. *Energy*, *259*, 124998. <https://doi.org/10.1016/j.energy.2022.124998>
@@ -516,6 +538,8 @@ Honton, J. (2022). The Forgotten Father of Climatology. In *Climate Conscious*.
 Howard, J., McLeod, E., Thomas, S., Eastwood, E., Fox, M., Wenzel, L., & Pidgeon, E. (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, *27*, 100–115. <https://doi.org/10.1002/aqc.2809>
 
 Iman Ghosh. (2020). *Mapped: Where Are the World’s Most Sustainable Companies?* https://www.visualcapitalist.com/most-sustainable-companies/.
+
+Irwin, R., Short, I., Mohammadrezaei, M., & Dhubháin, Á. N. (2023). Increasing tree cover on Irish dairy and drystock farms: The main attitudes, influential bodies and barriers that affect agroforestry uptake. *Environmental Science & Policy*, *146*, 76–89. <https://doi.org/10.1016/j.envsci.2023.03.022>
 
 *Isotherms.simply.earth \| Average temperatures of the world in 1838*. (2023). https://isotherms.simply.earth/.
 
@@ -545,6 +569,8 @@ Lin, J., Khanna, N., Liu, X., Wang, W., Gordon, J., & Dai, F. (2022). Opportunit
 
 Liu, H. (2021). In-depth Q&A: Will China’s emissions trading scheme help tackle climate change? In *Carbon Brief*. https://www.carbonbrief.org/in-depth-qa-will-chinas-emissions-trading-scheme-help-tackle-climate-change/.
 
+Low, G., Dalhaus, T., & Meuwissen, M. P. M. (2023). Mixed farming and agroforestry systems: A systematic review on value chain implications. *Agricultural Systems*, *206*, 103606. <https://doi.org/10.1016/j.agsy.2023.103606>
+
 Low, S., Baum, C. M., & Sovacool, B. K. (2022). Rethinking Net-Zero systems, spaces, and societies: “Hard” versus “soft” alternatives for nature-based and engineered carbon removal. *Global Environmental Change*, *75*, 102530. <https://doi.org/10.1016/j.gloenvcha.2022.102530>
 
 Luo, J., Paduraru, C., Voicu, O., Chervonyi, Y., Munns, S., Li, J., Qian, C., Dutta, P., Davis, J. Q., Wu, N., Yang, X., Chang, C.-M., Li, T., Rose, R., Fan, M., Nakhost, H., Liu, T., Kirkman, B., Altamura, F., … Mankowitz, D. J. (2022). *Controlling Commercial Cooling Systems Using Reinforcement Learning*. <https://doi.org/10.48550/ARXIV.2211.07357>
@@ -570,6 +596,8 @@ Neethirajan, S., & Kemp, B. (2021). Digital Livestock Farming. *Sensing and Bio-
 
 Noriega, J. A., Hortal, J., Azcárate, F. M., Berg, M. P., Bonada, N., Briones, M. J. I., Del Toro, I., Goulson, D., Ibanez, S., Landis, D. A., Moretti, M., Potts, S. G., Slade, E. M., Stout, J. C., Ulyshen, M. D., Wackers, F. L., Woodcock, B. A., & Santos, A. M. C. (2018). Research trends in ecosystem services provided by insects. *Basic and Applied Ecology*, *26*, 8–23. <https://doi.org/10.1016/j.baae.2017.09.006>
 
+Ollinaho, O. I., & Kröger, M. (2023). Separating the two faces of “bioeconomy”: Plantation economy and sociobiodiverse economy in Brazil. *Forest Policy and Economics*, *149*, 102932. <https://doi.org/10.1016/j.forpol.2023.102932>
+
 Patel, A. S., Brahmbhatt, M. N., Bariya, A. R., Nayak, J. B., & Singh, V. K. (2023). “Blockchain technology in food safety and traceability concern to livestock products.” *Heliyon*, *9*(6), e16526. <https://doi.org/10.1016/j.heliyon.2023.e16526>
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, & Stephen Polasky. (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
@@ -582,11 +610,17 @@ Purkiss, D., Allison, A. L., Lorencatto, F., Michie, S., & Miodownik, M. (2022).
 
 Ray, P. P. (2023). Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions. *Internet of Things and Cyber-Physical Systems*, *3*, 213–248. <https://doi.org/10.1016/j.iotcps.2023.05.003>
 
+ReFi DAO. (2022). *ReFi Podcast S2E9: Kolektivo Framework with Luuk and Pat*.
+
+Regen Network. (22 C.E.). *Community Development Call 1/19/22*.
+
 Regen Network. (2023). *Regen Network / Invest in high-integrity carbon credits*. https://www.regen.network/.
 
 Rennert, K., Errickson, F., Prest, B. C., Rennels, L., Newell, R. G., Pizer, W., Kingdon, C., Wingenroth, J., Cooke, R., Parthum, B., Smith, D., Cromar, K., Diaz, D., Moore, F. C., Müller, U. K., Plevin, R. J., Raftery, A. E., Ševčíková, H., Sheets, H., … Anthoff, D. (2022). Comprehensive evidence implies a higher social cost of CO2. *Nature*, *610*(7933), 687–692. <https://doi.org/10.1038/s41586-022-05224-9>
 
 Ritz, R. A. (2022). Global carbon price asymmetry. *Journal of Environmental Economics and Management*, *114*, 102687. <https://doi.org/10.1016/j.jeem.2022.102687>
+
+Ruba, U. B., & Talucder, M. S. A. (2023). Potentiality of homestead agroforestry for achieving sustainable development goals: Bangladesh perspectives. *Heliyon*, *9*(3), e14541. <https://doi.org/10.1016/j.heliyon.2023.e14541>
 
 Sahota, N. (2021). An AI analysis of 800 companies finds that greenwashing is rampant. In *Fast Company*. https://www.fastcompany.com/90656749/greenwashing-ai.
 
@@ -641,6 +675,8 @@ What is ReFi \| Regenerative Finance explained. (2023). In *Toucan Protocol*. ht
 World Resources Institute. (2020). *CO2 emissions (metric tons per capita) \| Data*. https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
 
 WWF. (2022). *Beyond Forests: Reducing the EU’s footprint on all natural ecosystems*. World Wide Fund For Nature.
+
+Yadav, S. P. S., Lahutiya, V., Ghimire, N. P., Yadav, B., & Paudel, P. (2023). Exploring innovation for sustainable agriculture: A systematic case study of permaculture in Nepal. *Heliyon*, *9*(5), e15899. <https://doi.org/10.1016/j.heliyon.2023.e15899>
 
 Yu, C. (2021). How AI can help instos spot green-washing. In *AsianInvestor*. https://www.asianinvestor.net/article/how-ai-can-help-instos-spot-green-washing/465973.
 
