@@ -73,7 +73,7 @@ import Humboldt from '../images/humboldt.jpg'
 
 ### Clean Water {#clean-water}
 
--   https://www.nytimes.com/2022/12/26/opinion/arizona-water-colorado-river-saudi-arabia.html (**Need access!)**
+-   k@ochOpinionArizonaRace2022 (**Need access!)**
 
 ### Disasters {#disasters}
 
@@ -286,9 +286,7 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 -   Van Wassenaer et al. (2023) Compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain. There are several technologies for tracking goods from shipping chain with OriginTrail, including OriginTrail, Bext360, Everledger, Provenance.
 
--   Suku makes supply chains more transparent https://techcrunch.com/2019/01/22/citizens-reserve-is-building-a-supply-chain-platform-on-the-blockchain/
-
--   SUKU https://www.youtube.com/c/SUKUecosystem
+-   Miller (2019) Suku makes supply chains more transparent
 
 -   Dutta et al. (2020) hundreds of paper researching blockchain use in supply change operations since 2017.
 
@@ -585,6 +583,8 @@ Martinez-Alier, J., Neyra, R., & Rincón, M. A. P. (2022). Reply to Orihuela et 
 McGinty, D. (Thu, 08/06/2020 - 11:25). *How to Build a Circular Economy*.
 
 MICHAEL HOULIHAN, & BONNIE HARVEY. (2018). *It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur*. https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001.
+
+Miller, R. (2019). Citizens Reserve is building a supply chain platform on the blockchain. In *TechCrunch*.
 
 Moberg, K. R., Aall, C., Dorner, F., Reimerson, E., Ceron, J.-P., Sköld, B., Sovacool, B. K., & Piana, V. (2019). Mobility, food and housing: Responsibility, individual consumption and demand-side policies in European deep decarbonisation pathways. *Energy Efficiency*, *12*(2), 497–519. <https://doi.org/10.1007/s12053-018-9708-7>
 

@@ -7,11 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`
-<!-- -->
-`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
@@ -229,7 +224,7 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Eesti Disainikeskus I Estonian Design Centre (2021) Circular textiles
 
--   “EKA arendas Euroopa tippdisainikoolidega jäätkusuutliku disaini õpetamise tööriistad” (2022) Sustainable Fashion education
+-   (**EKAArendasEuroopa2022?**) Sustainable Fashion education
 
 -   Fashion Revolution Foundation (2022) Fashion transparency index
 
@@ -342,9 +337,6 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 | Bext360        | https://www.bext360.com/   |
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Matthew Gore et al. (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
 
 ## Factories {#factories}
@@ -489,7 +481,7 @@ Create a design system!!!! best to showcase my analytic skills
 -   WikiRate (2021): 7 WikiRate Data Sharing Archetypes
 
 | №   | Type                                 | Example                                      |
-|------------------|-------------------------|------------------------------|
+|-------------------|-------------------------|-----------------------------|
 | 1   | Transparency Accountability Advocate |                                              |
 | 2   | Compliance Data Aggregator           |                                              |
 | 3   | Data Intelligence Hub                |                                              |
@@ -829,8 +821,6 @@ Edenbrandt, A. K., & Lagerkvist, C.-J. (2022). Consumer perceptions and attitude
 Eesti Disainikeskus I Estonian Design Centre. (2021). *Circular Design HOW TO session 6: Circularity in Textiles*.
 
 Eisenstein, C. (2011). *Sacred economics: Money, gift, & society in the age of transition*. Evolver Editions.
-
-EKA arendas Euroopa tippdisainikoolidega jäätkusuutliku disaini õpetamise tööriistad. (2022). In *Eesti Kunstiakadeemia*. https://www.artun.ee/eesti-kunstiakadeemia-annab-koostoos-euroopa-tippdisainikoolidega-valja-jaatkusuutliku-disaini-opetamise-tooriistad/.
 
 Emily Chan. (2022a). Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation? *British Vogue*.
 
