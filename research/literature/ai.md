@@ -155,6 +155,7 @@ How is AI changing ’interactions?
 ### Smart Agents {#smart-agents}
 
 -   David Johnston (2023) “general purpose AI that acts according to the goals of an individual human.”
+-   Martínez-Plumed et al. (2021) envisions the future of AI
 
 ### Platform Economy {#platform-economy}
 
@@ -168,13 +169,17 @@ How is AI changing ’interactions?
 
 ### AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
-Since CADUCEUS, the first automated medical decision making system in the 1970s, medical AI as developed a lot.
+Since CADUCEUS (in Kanza et al. (2021)), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
 
 -   “Health. Powered by Ada.” (n.d.) health app, “Know and track your symptoms”
 
 -   *Buoy Health* (n.d.) AI symptom checker,
 
 -   Women in AI (n.d.)
+
+-   Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+
+-   AI-assistants in medical imaging Calisto et al. (2021)
 
 # AI Assistants {#ai-assistants}
 
@@ -193,7 +198,7 @@ Since CADUCEUS, the first automated medical decision making system in the 1970s,
 | Google Search           | https://www.google.com/                            |                      |
 | Google Interview Warmup | https://grow.google/certificates/interview-warmup/ | AI training tool     |
 
--   Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.)
+-   Mohit Moondra (n.d.): Google Maps AI suggests more eco-friendly driving routes
 -   Google Flights suggests flights with lower CO2 emissions
 -   CO2e calculations will be part of our everyday experience
 
@@ -217,7 +222,7 @@ There’s wide literature available describing human-AI interactions across vari
 | Tool for venting           |
 
 -   Crompton (2021) highlights AI as decision-support for humans while differentiating between intended and un-intended influence on human decisions.
--   Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+-   
 -   Cheng et al. (2022) describe AI-based support systems for collaboration and team-work.
 -   Schoonderwoerd et al. (2021) focuses on human-centered design of AI-apps and multi-modal information display. It’s important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain?
 -   Ramchurn et al. (2021) discusses positive feed-back loops in continually learning AI systems which adapt to human needs.
@@ -461,7 +466,6 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 -   Yuan et al. (2022): “AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety.”
 -   “Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior.” Gratch & Fast (2022)
 -   Anthropomorphism literature X. Li & Sung (2021) “high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly”
--   AI-assistants in medical imaging Calisto et al. (2021)
 -   **AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant**
 
 ## AI-Assisted Design {#ai-assisted-design}
@@ -684,6 +688,8 @@ Josh Lovejoy. (n.d.). The UX of AI. In *Google Design*. https://design.google/li
 
 Josh Luber. (2021). Trading Cards Are Cool Again. In *Trading Cards Are Cool Again*. https://www.tradingcardsarecoolagain.com.
 
+Kanza, S., Bird, C. L., Niranjan, M., McNeill, W., & Frey, J. G. (2021). The AI for Scientific Discovery Network+. *Patterns*, *2*(1), 100162. <https://doi.org/10.1016/j.patter.2020.100162>
+
 Karpus, J., Krüger, A., Verba, J. T., Bahrami, B., & Deroy, O. (2021). Algorithm exploitation: Humans are keen to exploit benevolent AI. *iScience*, *24*(6), 102679. <https://doi.org/10.1016/j.isci.2021.102679>
 
 Kate Moran. (2016). *Designing for Young Adults (Ages 18)*. https://www.nngroup.com/articles/young-adults-ux/.
@@ -720,6 +726,8 @@ Lorenzo, D., Lorenzo, D., & Lorenzo, D. (2015). Daisy Ginsberg Imagines A Friend
 Lower, C. (2017). Chatbots: Too Good to Be True? (They Are, Here’s Why). In *Clinc*.
 
 Lv, X., Luo, J., Liang, Y., Liu, Y., & Li, C. (2022). Is cuteness irresistible? The impact of cuteness on customers’ intentions to use AI applications. *Tourism Management*, *90*, 104472. <https://doi.org/10.1016/j.tourman.2021.104472>
+
+Martínez-Plumed, F., Gómez, E., & Hernández-Orallo, J. (2021). Futures of artificial intelligence through technology readiness levels. *Telematics and Informatics*, *58*, 101525. <https://doi.org/10.1016/j.tele.2020.101525>
 
 Microsoft. (2023). *Microsoft Designer - Stunning designs in a flash*.
 

@@ -153,6 +153,7 @@ How is AI changing 'interactions?
 ### Smart Agents
 
 -   @davidjohnstonSmartAgentProtocol2023 "general purpose AI that acts according to the goals of an individual human."
+-   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI
 
 ### Platform Economy
 
@@ -166,13 +167,17 @@ How is AI changing 'interactions?
 
 ### AI for Diagnosic Symptoms
 
-Since CADUCEUS, the first automated medical decision making system in the 1970s, medical AI as developed a lot.
+Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
 
 -   @HealthPoweredAda health app, "Know and track your symptoms"
 
 -   @BuoyHealthCheck AI symptom checker,
 
 -   @womeninaiHowCanAI
+
+-   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+
+-   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
 
 # AI Assistants
 
@@ -191,7 +196,7 @@ Since CADUCEUS, the first automated medical decision making system in the 1970s,
 | Google Search           | https://www.google.com/                            |                      |
 | Google Interview Warmup | https://grow.google/certificates/interview-warmup/ | AI training tool     |
 
--   Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably
+-   @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more eco-friendly driving routes
 -   Google Flights suggests flights with lower CO2 emissions
 -   CO2e calculations will be part of our everyday experience
 
@@ -214,7 +219,7 @@ There's wide literature available describing human-AI interactions across varied
 | Tool for venting           |
 
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as decision-support for humans while differentiating between intended and un-intended influence on human decisions.
--   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+-   
 -   @chengInvestigationTrustAIenabled2022 describe AI-based support systems for collaboration and team-work.
 -   @schoonderwoerdHumancenteredXAIDeveloping2021 focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain?
 -   @ramchurnTrustworthyHumanAIPartnerships2021 discusses positive feed-back loops in continually learning AI systems which adapt to human needs.
@@ -457,7 +462,6 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 -   @yuanSocialAnxietyModerator2022: "AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety."
 -   "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." @gratchPowerHarmAI2022
 -   Anthropomorphism literature @liAnthropomorphismBringsUs2021 "high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly"
--   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
 -   **AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant**
 
 ## AI-Assisted Design
