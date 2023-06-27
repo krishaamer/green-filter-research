@@ -1,5 +1,4 @@
 ---
----
 title: Sustainability
 bibliography: [../ref.bib]
 csl: ../apa.csl
@@ -24,13 +23,13 @@ import Humboldt from '../images/humboldt.jpg'
 ```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
-## 
-
 -   @leprovostSupplyMultipleEcosystem2022: Contemporary studies have shown *biodiversity* as one key factor to maintain delivery of ecosystem services.
 
 -   @keebleBrundtlandReportOur1988 reported in April 1987 (a few months after I was born) that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
 
--   Commodities!! --- the most effective things are --- food --- transport --- fashion? --- plant trees
+-   Commodities!!
+
+-   the most effective things are --- food --- transport --- fashion? --- plant trees
 
 -   @catherinecliffordHowThisPopular2022 reports that Amazon is committing 2B USD to a Climate Pledge Fund trying to find startup companies that can fix climate problems.
 

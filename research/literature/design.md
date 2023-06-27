@@ -560,7 +560,7 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 #### “Speculative Design” for a sustainability assistant {#speculative-design-for-a-sustainability-assistant}
 
 -   Barendregt & Vaage (2021) explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
--   (**cgoogledesignDesignSpeculativeFutures2019?**)
+-   Google Design (2019)
 -   All green categories — Green hub — Ask the user to prioritize
 
 ### Experience Design {#experience-design}
@@ -881,6 +881,8 @@ Google. (2021). *Google Sustainability \| Helping every day be more sustainable 
 Google. (2023). Carbon Footprint. In *Google Cloud*. https://cloud.google.com/carbon-footprint.
 
 Google ’airbrushes’ out emissions from flying, BBC reveals. (2022). *BBC News*.
+
+Google Design. (2019). *Design Is \[Speculative\] Futures Design Thinking - a new toolkit for preemptive design*.
 
 Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental. (2021). In *ELMUNDO*. https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html.
 
