@@ -154,7 +154,7 @@ How is AI changing ’interactions?
 
 ### Smart Agents {#smart-agents}
 
--   https://docs.google.com/document/d/1cutU1SerC3V7B8epopRtZUrmy34bf38W–w4oOyRs2A/edit
+-   David Johnston (2023) “general purpose AI that acts according to the goals of an individual human.”
 
 ### Platform Economy {#platform-economy}
 
@@ -168,11 +168,11 @@ How is AI changing ’interactions?
 
 ### AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
+Since CADUCEUS, the first automated medical decision making system in the 1970s, medical AI as developed a lot.
+
 -   “Health. Powered by Ada.” (n.d.) health app, “Know and track your symptoms”
 
--   https://www.buoyhealth.com/
-
--   https://en.wikipedia.org/wiki/CADUCEUS\_(expert_system)
+-   *Buoy Health* (n.d.) AI symptom checker,
 
 -   Women in AI (n.d.)
 
@@ -591,6 +591,8 @@ Brown, A. (2021). How Financial Chatbots Can Benefit Your Business. In *Medium*.
 
 Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., Nori, H., Palangi, H., Ribeiro, M. T., & Zhang, Y. (2023). *Sparks of Artificial General Intelligence: Early experiments with GPT-4*. <https://doi.org/10.48550/ARXIV.2303.12712>
 
+*Buoy Health: Check Symptoms & Find the Right Care*. (n.d.). https://www.buoyhealth.com.
+
 Cabitza, F., Campagner, A., Malgieri, G., Natali, C., Schneeberger, D., Stoeger, K., & Holzinger, A. (2023). Quod erat demonstrandum? - Towards a typology of the concept of explanation for the design of explainable AI. *Expert Systems with Applications*, *213*, 118888. <https://doi.org/10.1016/j.eswa.2022.118888>
 
 Cahan, P., & Treutlein, B. (2023). A conversation with ChatGPT on the role of computational systems biology in stem cell research. *Stem Cell Reports*, *18*(1), 1–2. <https://doi.org/10.1016/j.stemcr.2022.12.009>
@@ -623,6 +625,8 @@ Crompton, L. (2021). The decision-point-dilemma: Yet another problem of responsi
 
 David, D. B., Resheff, Y. S., & Tron, T. (2021). *Explainable AI and Adoption of Financial Algorithmic Advisors: An Experimental Study* (No. arXiv:2101.02555). arXiv. <https://arxiv.org/abs/2101.02555>
 <span class="csl-block">Comment: accepted: AIES ’21Comment: accepted: AIES ’21</span>
+
+David Johnston. (2023). Smart Agent Protocol - Community Paper Version 0.2. In *Google Docs*. https://docs.google.com/document/d/1cutU1SerC3V7B8epopRtZUrmy34bf38W–w4oOyRs2A/edit?usp=sharing.
 
 Dávid Pásztor. (2018). *AI UX: 7 Principles of Designing Good AI Products*. https://uxstudioteam.com/ux-blog/ai-ux/.
 

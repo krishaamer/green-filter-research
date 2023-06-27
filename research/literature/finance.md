@@ -7,6 +7,11 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
@@ -321,7 +326,7 @@ People are concerned with digital payments
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
 -   *Vise* (2023) Personalised portfolios
 -   *K+ Wallet - Apps on Google Play* (n.d.) Thai finance app
--   https://thaifintech.org/members/
+-   “Thai Fintech Association (TFA)” (n.d.)
 -   Renato Capelj (February 16, 2021 6:47 PM)
 
 ## Investing {#investing}
@@ -346,7 +351,6 @@ Several banks have started offering a service to automatically save and invest t
 -   Implication for design: ESG can’t trusted.
 -   Gary Gensler (2022) Investor protection, making investing accessible, climate risk disclosure
 -   “Lets Do DeFi - DeFi Guides Grandma Can Follow 👵🏻” (n.d.) Crypto DeFi education
--   Staking https://app.aave.com/#/deposit
 -   Trading ESG futures?? because climate is slow it makes sense to trade de climate future
 -   While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
 -   “Meet the Fintechs Leading Sweden’s Green Revolution” (2021) ***Swedish green fintech (important article)***
@@ -403,7 +407,7 @@ There’s a growing literature suggesting it’s possible to make investments th
 ### Hedge Funds {#hedge-funds}
 
 -   **Feature**: Make a climate hedge fund with friends
--   https://twitter.com/lillysharples?s=21&t=Hw66DErZmwKorp2b0VIH0w
+-   Hedge (2023): Make a hedge fund with your friends
 -   Most successful investor invest together
 -   Angelist
 -   What does investing look like at the scale of billions of people? like IG
@@ -449,13 +453,7 @@ There are many ‘green investment platforms’ who to trust?
 
 -   “Trees for the Future” (2023) DAOs to enable concerted action towards climate goals
 
--   https://www.libevm.com/
-
--   https://twitter.com/libevm
-
--   Finance and culture https://alfalfa.capital/
-
--   Crypto investment clubs https://app.syndicate.io/clubs
+-   *Investment Clubs and Collectives \| Deprecation FAQ* (n.d.): Crypto investment clubs canceled
 
 -   *IBISA Network Enabling the Next Generation of Insurance for Agriculture* (n.d.): Crypto crop insurance
 
@@ -469,13 +467,12 @@ There are many ‘green investment platforms’ who to trust?
 
 -   Carra Wu & Chris Dixon (2021) DAO consumer to investor
 
--   \*\*Koreans investing into media personalities \*yuqingzhao2021ZongJieWoChiKaiChuanTongJinRongQuanZhiZuoQuKuaiLianLaLEFT2021
+-   Koreans investing into media personalities: Yuqing Zhao (2021)
 
 ### Influencers {#influencers}
 
 -   Influencers are terrible for investing… but?
 -   Influencer - crypto twitter connections
--   https://www.instagram.com/socol.io/?hl=en
 -   Irene Zhao (2022)
 
 ### LHV Crypto {#lhv-crypto}
@@ -488,13 +485,7 @@ There are many ‘green investment platforms’ who to trust?
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
 
--   https://republic.com/mainvest
-
--   https://republic.com/asaak
-
--   https://republic.com/stockcard
-
--   https://republic.com/maybefinance
+-   “Revolut Launches ETF Trading Platform in Europe” (2023) and “Kickstart Your Investment Journey” (2023) One example is Revolut, which expanded from a simple payments app to support varied saving and investment types.
 
 ### ESG Shopping {#esg-shopping}
 
@@ -512,13 +503,13 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   Automate CO2 calculations realtime:
 
--   FlowIT https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90
+-   Indrek Kald (2022): FlowIT automate CO2 counting
 
 -   “Factory social score”.
 
 -   People working at the factories can report conditions
 
--   “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.” https://www.esganalytics.io/
+-   *ESG Analytics \| <span class="nocase">Real-time ESG Scores</span> and Ratings for Companies Globally \| GHG Emission Data* (n.d.): “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.”
 
 ### ESG Hedge Funds {#esg-hedge-funds}
 
@@ -532,21 +523,22 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 ### Neobanks and ESG {#neobanks-and-esg}
 
--   Neobanks - https://monzo.com/
+-   There are far too many neo–banks, or challenger banks to list. The table only includes a small sample of banks and the landscape is even larger if one includes the wider array of fintechs.
 
--   Banking for students - https://www.mos.com/
+-   Migozzi et al. (2023): India has more than 2000 fin-techs since 2015.
 
--   Portfolio personalization: https://www.facebook.com/events/484738886576615
-
--   Real time finance https://apply.workable.com/superfluid/j/F7A8E8E061/
-
--   brasil nubank https://nubank.com.br/en/
+| Name      |                            | Reference                                                     | Country |
+|------------------------|----------------|----------------|----------------|
+| Monzo     |                            | Monzo (2023)                                                  | UK      |
+| Nubank    |                            | *Nubank - Finalmente Você No Controle Do Seu Dinheiro* (n.d.) | Brazil  |
+| EToro     |                            |                                                               |         |
+| Revolut   | From payments to investing |                                                               | UK, EU  |
+| Mos       | Banking for students       | “Mos - The Money App for Students” (n.d.)                     |         |
+| Robinhood |                            |                                                               |         |
 
 -   Andrés Engler (2022)
 
 -   **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees
-
--   Crypto EToro Robinhood social
 
 -   Raha maraton etv investeerimissaade.. raadios on ka mingi saade
 
@@ -554,15 +546,17 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   But there’s so much capital in large funds retails investor money doesn’t matter at all. does retail money make any difference?
 
--   Crypto banks seba.swiss - https://onboarding.sygnum.com/
+-   “Empowering Digital Asset Banking” (n.d.): digital assets bank
+
+-   *The Bank for the New Economy* (n.d.): Crypto bank
 
 -   FINMA (2021) First crypto fund
 
--   https://www.myclimate.org/
+-   *Myclimate Your Partner for Climate Protection* (2023) calculate climate cost
 
 -   Anand Chandrasekhar & Andreas Gefe (2021): **Trading commodities “Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates. ”**
 
--   https://twitter.com/droensovka https://twitter.com/greenCB
+-   “Green Central Banking” (n.d.)
 
 -   swissinfo.ch/urs (2022) “More than half of the Swiss banks apparently plan to offer digital assets services over the next few years.”
 
@@ -679,51 +673,53 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 ### Product Databases {#product-databases}
 
--   *StandardsMap* (n.d.), The world’s largest database for sustainability standards. “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labour rights, economic development, quality and food safety, as well as business ethics.”
+-   Most sustainable companies. Make a database?
 
--   Trends https://standardsmap.org/en/trends
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
--   https://howgood.com/
+-   *StandardsMap* (n.d.): “The world's largest database for sustainability standards”, “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics.”
 
--   https://world.openfoodfacts.org/
+-   “Sustainability Intelligence for Food Companies” (n.d.)
 
--   https://product.okfn.org/
+-   *Open Food Facts - World* (n.d.) app for nutrition and sustainability data
 
--   https://opendata.stackexchange.com/questions/562/is-there-a-global-database-of-all-products-with-ean-13-barcodes
+-   “Open Product Data” (n.d.): Open Knowledge Foundation’s Open Product Data website shut down
 
--   https://en.wikipedia.org/wiki/International_Article_Number
+-   Håkon Bogen (2016): “Is there a global database of all products with EAN 13 barcodes?”
 
--   https://gtinsearch.org/
+-   GS1 (n.d.) EAN/UPC barcodes on most consumer products
 
--   https://medium.com/datascience-semantics3/why-the-u-in-upc-doesnt-mean-universal-a1a675eea0ea
+-   Semantics3 (2017)
 
 -   World product database
 
--   https://www3.wipo.int/wipogreen/en/
+    -   *Datakick* (n.d.): “open product database”
 
--   https://www.packworld.com/
+    -   *WIPO GREEN* (n.d.) green tech database
 
--   Most sustainable companies. Make a database?
+    -   “Packaging World” (n.d.) packaging database
 
--   https://growensemble.com/environmentally-friendly-companies/
+### Sustainability as a Marketing Strategy {#sustainability-as-a-marketing-strategy}
 
--   https://www.themuse.com/advice/companies-making-the-planet-better-2020
+-   Ames (2022)
 
--   https://sustainablog.org/articles/sustainability-focused-companies-out-perform-competitors/
+-   The Muse Editors (2020)
 
--   https://earthandhuman.org/most-sustainable-companies/
+-   Shradha Bhatta (2021)
+
+-   Earth.Org (2022)
 
 -   Todd-Ryan (n.d.)
 
--   https://earth.org/worlds-most-sustainable-companies-in-2021/
-
 ### Sustainable Finance {#sustainable-finance}
 
--   Money connects all industries. People want to shop, save, invest sustainably - how to do it? - Taxonomy of sustainable activities https://en.wikipedia.org/wiki/Sustainable_finance
+-   Money connects all industries. People want to shop, save, invest sustainably - how to do it?
 
--   **UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.**  https://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead
+-   “Chancellor Sets Out Ambition for Future of UK Financial Services” (n.d.) Taxonomy of sustainable activities in the UK
 
--   “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI. https://www.greenfinanceinstitute.co.uk/
+-   UNEP (2022): **UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.** 
+
+-   *Green Finance Institute* (2023): “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI.
 
 -   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
 
@@ -757,6 +753,8 @@ Agnew, H. (2022). RIP ESG? *Financial Times*.
 
 AltFi. (2017). ETFmatic app downloaded 100,000 times. In *AltFi*. https://www.altfi.com/article/3433_etfmatic_app_downloaded_100000_times.
 
+Ames, C. (2022). The 15 Most Environmentally Friendly & Sustainable Companies (2023). In *Grow Ensemble*. https://growensemble.com/environmentally-friendly-companies/.
+
 Anand Chandrasekhar, & Andreas Gefe. (2021). Why Switzerland matters for the tropical forests. In *SWI swissinfo.ch*. https://www.swissinfo.ch/eng/why-little-switzerland-matters-for-the-survival-of-tropical-forests/45810264.
 
 Andrés Engler. (2022). *Berkshire Hathaway Invests \$1B in Brazilian Digital Bank Nubank, Reduces Mastercard, Visa Positions*.
@@ -786,6 +784,8 @@ Carra Wu, & Chris Dixon. (2021). Investing in Friends With Benefits (a DAO). In 
 
 Central Bank Digital Currency (CBDC) Tracker. (2023). In *Central Bank Digital Currency (CBDC) Tracker*. https://cbdctracker.org/.
 
+Chancellor sets out ambition for future of UK financial services. (n.d.). In *GOV.UK*. https://www.gov.uk/government/news/chancellor-sets-out-ambition-for-future-of-uk-financial-services.
+
 Cherry, M. A., & Sneirson, J. F. (2010). Beyond profit: Rethinking corporate social responsibility and greenwashing after the BP oil disaster. *Tul. L. Rev.*, *85*, 983.
 
 City of Malmö. (2017). *Green Bond Framework*.
@@ -801,6 +801,8 @@ Cowan, G. (2018). Robo Advisers Start to Take Hold in Europe. *Wall Street Journ
 Credit Suisse. (2022). *Young consumers may drive the speed of environmental change*.
 
 Daily, I. B. (2021). Here’s Our List Of The 100 Best ESG Companies 2021. In *Investor’s Business Daily*. https://www.investors.com/news/esg-companies-list-2021-best-esg-stocks-environmental-social-governance-values-2/.
+
+*Datakick: The Open Product Database*. (n.d.). https://gtinsearch.org/.
 
 Decreasing the carbon footprint of supermarket shopping: Lessons from a virtual shopping experiment. (2019). In *Yale Environment Review*. https://environment-review.yale.edu/decreasing-carbon-footprint-supermarket-shopping-lessons-virtual-shopping-experiment.
 
@@ -818,7 +820,11 @@ Emele Onu, & Anthony Osae-Brown. (2022). Nigeria Caps ATM Cash Withdrawals at \$
 
 EMILY WATERFIELD. (2019). *The apps that can tell you if you’re buying sustainably \| Research and Innovation*. https://ec.europa.eu/research-and-innovation/en/horizon-magazine/apps-can-tell-you-if-youre-buying-sustainably.
 
+Empowering Digital Asset Banking. (n.d.). In *Sygnum*. https://www.sygnum.com/.
+
 ENVIRONMENTAL SAVINGS Definition. (n.d.). In *Law Insider*. https://www.lawinsider.com/dictionary/environmental-savings.
+
+*ESG Analytics \| <span class="nocase">Real-time ESG Scores</span> and Ratings for Companies Globally \| GHG Emission data*. (n.d.). https://esganalytics.io/.
 
 *ESG hedge funds \| Barclays Corporate & Investment Bank*. (2021). https://www.cib.barclays/our-insights/3-point-perspective/esg-gains-traction-among-hedge-fund-investors.html.
 
@@ -864,11 +870,21 @@ Gemma Woodward. (2022). Good riddance ESG? 8 key problems that must be fixed. In
 
 Grauer, P. (2017). Taiwan leading the way in ESG disclosure. *Bloomberg L.P.*
 
+Green Central Banking. (n.d.). In *Green Central Banking*. https://greencentralbanking.com/.
+
+*Green Finance Institute*. (2023). https://www.greenfinanceinstitute.co.uk.
+
 Green Finance Platform. (2020). Green Fintech Trends for 2020 What’s to Come? In *Green Finance Platform*. https://greenfinanceplatform.org/news/green-fintech-trends-2020-%E2%80%93-what%E2%80%99s-come.
 
 *Grenpay - Heasta oma CO![\_2](https://latex.codecogs.com/svg.latex?_2 "_2") jalajälg*. (n.d.). https://grenpay.com/et.
 
+GS1. (n.d.). *EAN/UPC barcodes*. https://www.gs1.org/standards/barcodes/ean-upc.
+
+Håkon Bogen. (2016). Is there a global database of all products with EAN 13 barcodes? \[Forum Post\]. In *Open Data Stack Exchange*.
+
 Hankewitz, S. (2021). Estonian fintech company Fairown secures a million seed round, attempts to reduce waste. In *Estonian World*.
+
+Hedge. (2023). *Hedge - Make a hedge fund with your friends*. https://www.hedge.io/.
 
 Helen Saarmets. (2021). *Tarbimisel on silmaga nähtamatu jalajälg (parandatud 26.04.2021) \| Statistikaamet*. https://www.stat.ee/et/uudised/tarbimisel-silmaga-nahtamatu-jalajalg.
 
@@ -894,6 +910,10 @@ Ian Bezek. (2021). It’s Time Everyone Knows What DAOs Are. They May Disrupt Ex
 
 Igini, M. (2022). The Environmental Impact of Online Shopping. In *Earth.Org*. https://earth.org/online-shopping-and-its-environmental-impact/.
 
+Indrek Kald. (2022). *Eesti <span class="nocase">IT-firma</span> automatiseeris Flowiti ja PwC toel süsiniku jalajälje kaardistamise. Sääst 90% - ITuudised*. https://www.ituudised.ee/uudised/2022/09/22/eesti-it-firma-automatiseeris-flowiti-ja-pwc-toel-susiniku-jalajalje-kaardistamise-saast-90.
+
+*Investment Clubs and Collectives \| Deprecation FAQ*. (n.d.). https://guide.syndicate.io/en/announcement/investment-clubs-and-collectives-or-deprecation-faq.
+
 *Investment Products \| Investor.gov*. (n.d.). https://www.investor.gov/introduction-investing/investing-basics/investment-products.
 
 Irene Zhao. (2022). Here’s why @0xIreneDao is not a fluke or as some may have it, an Asian Fetish. They are missing the real deal. Something bigger underlies the concept that is behind the IreneDao. 👇🏻🧵 Here’s the story: \[Tweet\]. In *Twitter*.
@@ -911,6 +931,8 @@ John Ssenkeezi. (2022). I’ve been invited to vote at @Apple’s 2022 Annual Me
 *K+ Wallet - Apps on Google Play*. (n.d.). https://play.google.com/store/apps/details?id=com.kasikornbank.kbtgpay&hl=en.
 
 Kenton, W. (2020). MiFID II. In *Investopedia*. https://www.investopedia.com/terms/m/mifid-ii.asp.
+
+Kickstart your investment journey. (2023). In *Revolut Blog*. https://blog.revolut.com/kickstart-your-investment-journey-from-just-1/.
 
 Kirakosian, M. (Noveber 16, 2020). LOIM launches circular bioeconomy fund inspired by Prince of Wales. In *Wealth Manager*. http://citywireselector.com/news/loim-launches-circular-bioeconomy-fund-inspired-by-prince-of-wales/a1425493.
 
@@ -974,6 +996,14 @@ McKinsey. (2020). *The next frontier in Asia payments*. https://www.mckinsey.com
 
 Meet the fintechs leading Sweden’s green revolution. (2021). In *Sifted*. https://sifted.eu/articles/sweden-green-sustainable-fintech/.
 
+Migozzi, J., Urban, M., & Wójcik, D. (2023). “You should do what India does”: FinTech ecosystems in India reshaping the geography of finance. *Geoforum*, 103720. <https://doi.org/10.1016/j.geoforum.2023.103720>
+
+Monzo. (2023). Online Banking Made Easy. In *Monzo*. https://monzo.com/.
+
+Mos - The money app for students. (n.d.). In *mosdotcom*. https://www.mos.com/.
+
+*Myclimate your partner for climate protection*. (2023). https://myclimate.org/.
+
 Nathan Reiff. (2023). Decentralized Autonomous Organization (DAO): Definition, Purpose, and Example. In *Investopedia*. https://www.investopedia.com/tech/what-dao/.
 
 naturalinvest. (2020). *Malaika Maphalala - Natural Investments*.
@@ -984,9 +1014,17 @@ NGFS. (n.d.). In *Banque de France*. https://www.ngfs.net/en.
 
 Nissinen, A., Seppälä, J., & Heinonen, T. (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, *3*, 100023. <https://doi.org/10.1016/j.clscn.2021.100023>
 
+*Nubank - Finalmente você no controle do seu dinheiro*. (n.d.). https://nubank.com.br/.
+
+*Open Food Facts - World*. (n.d.). https://world.openfoodfacts.org.
+
+Open Product Data. (n.d.). In *Open Product Data*. https://product.okfn.org/.
+
 Outlaw, S. (2015). Turn Your Customers Into Investors. In *Entrepreneur*. https://www.entrepreneur.com/money-finance/turn-your-customers-into-investors/249851.
 
 Oyedokun, T. B. (2017). Green premium as a driver of green-labelled commercial buildings in the developing countries: Lessons from the UK and US. *International Journal of Sustainable Built Environment*, *6*(2). <https://doi.org/10.1016/j.ijsbe.2017.12.007>
+
+Packaging World. (n.d.). In *Packaging World*. https://www.packworld.com/.
 
 Parlasca, M. C., Johnen, C., & Qaim, M. (2022). Use of mobile financial services among farmers in Africa: Insights from Kenya. *Global Food Security*, *32*, 100590. <https://doi.org/10.1016/j.gfs.2021.100590>
 
@@ -1010,6 +1048,8 @@ Reid, S. (2020). *University of Edinburgh goes big on green investment after HSB
 
 Renato Capelj. (February 16, 2021 6:47 PM). *Mobile Hedge Fund Platform Titan Raises \$12.5M Series A Led By General Catalyst - Benzinga*. https://www.benzinga.com/fintech/21/02/19692401/mobile-hedge-fund-platform-titan-raises-12-5m-series-a-led-by-general-catalyst.
 
+Revolut launches ETF trading platform in Europe. (2023). In *ETF Stream*. https://www.etfstream.com/articles/revolut-launches-etf-trading-platform-in-europe.
+
 Rupert Jones. (Mon 7 Feb 2022 07.00 GMT). *Green money: How your finances can help the planet \| Consumer affairs \| The Guardian*. https://www.theguardian.com/money/2022/feb/07/green-money-how-your-finances-can-help-the-planet.
 
 Sally Parker. (2022). Want to Lower Food’s Carbon Footprint? Cut Out Snacks and Drinks. In *The University of Chicago Booth School of Business*. https://www.chicagobooth.edu/review/want-lower-food-s-carbon-footprint-cut-out-snacks-drinks.
@@ -1020,7 +1060,11 @@ Seeking Alpha. (2020). *5 Books That Changed My Life As An Investor*. https://se
 
 *Selma Your finances done right*. (n.d.). https://www.selma.com/.
 
+Semantics3. (2017). Why the “U” in UPC doesn’t mean Universal. In *The Ecommerce Intelligencer*.
+
 Shashwat Mohanty. (2022). Green push or greenwash: Sustainable funds don’t buy Zomato’s ESG narrative. In *The Ken*. https://the-ken.com/story/green-push-or-greenwash-sustainable-funds-dont-buy-zomatos-esg-narrative/?utm_source=daily_story&utm_medium=email&utm_campaign=daily_newsletter.
+
+Shradha Bhatta. (2021). *Top 10 Companies in the USA Focused on Sustainability (2021)*. https://earthandhuman.org/most-sustainable-companies/.
 
 Simões-Coelho, M., Figueira, A. R., & Russo, E. (2023). Balancing global corporate sustainability engagement in asymmetric markets: The Coca-Cola Co. case. *Sustainable Production and Consumption*, *40*, 89–100. <https://doi.org/10.1016/j.spc.2023.06.005>
 
@@ -1036,11 +1080,13 @@ Socially Responsible Investing Advisors. (n.d.). In *Natural Investments*. https
 
 Staff, C. K. (2021). 2021 Global 100 ranking. In *Corporate Knights*.
 
-*StandardsMap*. (n.d.). https://standardsmap.org/en/home.
+*StandardsMap*. (n.d.). https://standardsmap.org.
 
 Statista. (2023). Annual CO2 emissions worldwide 1940-2022. In *Statista*. https://www.statista.com/statistics/276629/global-co2-emissions/.
 
 Stef. (2019). A Sustainable Money Design For The Future. In *Happonomy*. https://www.happonomy.org/sustainable-money-system/.
+
+Sustainability Intelligence for Food Companies. (n.d.). In *HowGood*. https://howgood.com/.
 
 Swedbank. (2022). *EasySaver*.
 
@@ -1050,11 +1096,17 @@ swissinfo.ch/urs. (2022). Swiss “Crypto Valley” boasts 14 ’unicorns’. In
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. <https://doi.org/10.1016/j.geoforum.2020.09.004>
 
+Thai Fintech Association (TFA). (n.d.). In *TFA*. https://52.77.46.193/.
+
+*The Bank for the New Economy*. (n.d.). https://www.seba.swiss/.
+
 *The European fintechs to watch in 2022*. (2022). https://sifted.eu/rankings/european-fintech-startups.
 
 The Good Shopping Guide. (n.d.). In *The Good Shopping Guide*. https://thegoodshoppingguide.com/.
 
 The Green Web Foundation. (2023). In *The Green Web Foundation*. https://www.thegreenwebfoundation.org/.
+
+The Muse Editors. (2020). Companies Making the Planet Better. In *The Muse*. https://www.themuse.com/advice/sustainable-socially-responsible-companies.
 
 Tim Nicolle. (n.d.). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. In *CTMfile*. https://ctmfile.com/story/real-time-esg-data-on-supply-chains-a-breakthrough.
 
@@ -1070,13 +1122,19 @@ Turrin, R. (2021). *Cashless: China’s digital currency revolution*. Authority 
 
 Tyce, M. (2020). Beyond the neoliberal-statist divide on the drivers of innovation: A political settlements reading of Kenya’s M-Pesa success story. *World Development*, *125*, 104621. <https://doi.org/10.1016/j.worlddev.2019.104621>
 
+UNEP. (2022). UNEP and Green Finance Institute partner on podcast series for nature ahead of COP27. In *UN Environment*. http://www.unep.org/news-and-stories/press-release/unep-and-green-finance-institute-partner-podcast-series-nature-ahead.
+
 *Vise*. (2023). https://vise.com/.
+
+*WIPO GREEN: The Global Marketplace for Sustainable Technology*. (n.d.). https://www3.wipo.int/wipogreen.
 
 Yahoo Finance. (2022). *The challenges facing China’s digital yuan, economist explains*.
 
 Yale Center for Environmental Law & Policy. (2018). *Environmental Performance Index*. https://epi.yale.edu/epi-indicator-report/EPI.
 
 *Yale, Princeton, Stanford, MIT and Vanderbilt students take legal action to try to force fossil fuel divestment - The Washington Post*. (n.d.). https://www.washingtonpost.com/education/2022/02/16/college-fossil-fuel-divest-legal-action/.
+
+Yuqing Zhao. (2021). *2021总结：我离开传统金融全职做区块链啦 \[ I LEFT MY 9-6 JOB TO DO CRYPTO FULL TIME\]*.
 
 Ziglu \| The fast, simple way to buy and sell crypto, with no hidden fees. (n.d.). In *Ziglu*. https://ziglu.io.
 

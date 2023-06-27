@@ -1,16 +1,6 @@
----
-title: Sustainability
-bibliography: [../ref.bib]
-csl: ../apa.csl
-sidebar_position: 1
-editor:
-    render-on-save: false
----
+title: Sustainability bibliography: \[../ref.bib\] csl: ../apa.csl sidebar_position: 1 editor: render-on-save: false
 
-export const quartoRawHtml =
-[`
-<!-- -->
-`];
+------------------------------------------------------------------------
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -84,9 +74,6 @@ Large ones that get international news coverage:
 -   Deepwater Horizon
 -   the Great Pacific Garbage Patch
 -   Fukushima
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Martinez-Alier (2021) and Martinez-Alier et al. (2022) as well as Scheidel et al. (2020) cover how EJAtlas tracks environmental justice cases around the world. Dispues in Eerola (2022).
 
 ### Air Pollution and Clean Air {#air-pollution-and-clean-air}
@@ -120,13 +107,13 @@ Large ones that get international news coverage:
 
 -   Ivanova et al. (2020): The average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
 
--   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2eq/capita/yr.”
+-   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2 equivalent per capita per year.”
 
 -   55% of emissions come from energy production.
 
 -   American Press Institute (2022) finds that only 37% percent of U.S. Gen-Z and Millenials follow news related to environmental issues.
 
--   Making advanced maps to convince people to make changes: https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto
+-   Carto (2023) Making advanced maps to convince people to make changes
 
 -   Cohen & Vandenbergh (2012) argues carbon labels do influence consumer choice towards sustainability.
 
@@ -468,6 +455,8 @@ Brian Kateman. (2020). Carbon Labels Are Finally Coming To The Food And Beverage
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C., & Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, *8*(5), 1551–1563. <https://doi.org/10.5194/cp-8-1551-2012>
 
 Caldarelli, G., Rossignoli, C., & Zardini, A. (2020). Overcoming the Blockchain Oracle Problem in the Traceability of Non-Fungible Products. *Sustainability*, *12*(6), 2391. <https://doi.org/10.3390/su12062391>
+
+Carto. (2023). *Climate resilience, the geography of NYC taxis & photorealistic 3D maps*. https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto/.
 
 Catherine Clifford. (2022). How this popular Jeff Bezos quote drives Amazon’s climate goals. In *CNBC*. https://www.cnbc.com/2022/10/06/how-this-popular-jeff-bezos-quote-drives-amazons-climate-goals.html.
 

@@ -7,6 +7,13 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`
+<!-- -->
+`,`
+<!-- -->
+`];
+
 ``` mdx-code-block
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
@@ -70,7 +77,7 @@ This research is timely in 2023 because of the convergence of four trends:
 **There’s evidence young people have money:**
 
 -   In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see YPulse (2020)).
--   Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents (Calastone (2020)).
+-   Calastone (2020): Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents.
 
 **Mainstream technology penetration worldwide**
 
@@ -78,15 +85,15 @@ This research is timely in 2023 because of the convergence of four trends:
 
 -   The latest IPCC report
 
--   Only 30% believe tech can solve all problems. https://review42.com/resources/gen-z-statistics/
+-   d@eyangeorgievGenStatisticsWhat2023: Only 30% of Gen-Z believe tech can solve all problems.
 
--   https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/
+-   Dimock (2019)
 
 -   kora 95%
 
 ## Research Background {#research-background}
 
-I grew up reading science fiction books in the 1990s and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
+-   I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
 
 ``` mdx-code-block
 <Figure
@@ -97,7 +104,7 @@ I grew up reading science fiction books in the 1990s and their influence on my o
 />
 ```
 
-As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
+-   As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
 
 ``` mdx-code-block
 <Figure
@@ -108,7 +115,11 @@ As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI 
 
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world (Deutsche Welle (2019)) and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Time (2019)). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising.
 
-In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries (Persson et al. (2022)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows. Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together to reduce traffic, deforestation, support mobility and green buildings? One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
+-   In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries (Persson et al. (2022)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows.
+
+-   Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together solve climate change, curb deforestation, support mobility and green buildings, etc?
+
+-   One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
 
 For the average person, our experience is limited with buying things at the supermarket. Food, clothes, furniture, soap, mobile phone.
 
@@ -127,11 +138,13 @@ For the average person, our experience is limited with buying things at the supe
 
 ## Research Motivation {#research-motivation}
 
-First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
+-   First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
 
-According to a Calastone (2020) study surveying 3000 ‘Millennial’ people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
+-   According to a Calastone (2020) study surveying 3000 Millennial people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
+
+-   Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
 
 ``` mdx-code-block
 <Figure
@@ -150,17 +163,19 @@ Where does our money go and what are some greener alternatives?
 
 This is largely due to the production and manufacturing processes of the companies that make the products we consume on a daily basis.
 
-As people become aware of the impact their shopping is having on the environment, they become interested in finding alternatives to big brands and large companies. GreenFilter provides designers an AI companion design which helps people build relationships with sustainability-focused companies by providing personalized recommendations, giving product reviews and helping them shop sustainably. This new tool will empower consumers to make greener choices throughout their lives.
+-   As people become aware of the impact their shopping is having on the environment, they become interested in finding alternatives to big brands and large companies. GreenFilter provides designers an AI companion design which helps people build relationships with sustainability-focused companies by providing personalized recommendations, giving product reviews and helping them shop sustainably. This new tool will empower consumers to make greener choices throughout their lives.
 
-An AI companion app that seeks to help people build relationships with sustainability-focused companies and enables people to be more transparent and responsible in their consumption behavior.
+-   An AI companion app that seeks to help people build relationships with sustainability-focused companies and enables people to be more transparent and responsible in their consumption behavior.
 
-GreenFilter introduces a novel, interactive point-of-sale technology that helps people make greener shopping decisions. The platform uses artificial intelligence to suggest green alternatives for products on your shopping list, and will also help you to find other companies that can make sustainable versions of the product you are buying.
+-   GreenFilter introduces a novel, interactive point-of-sale technology that helps people make greener shopping decisions. The platform uses artificial intelligence to suggest green alternatives for products on your shopping list, and will also help you to find other companies that can make sustainable versions of the product you are buying.
 
-How can people shop, save & invest sustainably? The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.
+-   How can people shop, save & invest sustainably? The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.
 
-Green Filter helps you discover how to save money and the planet with your daily shopping. By providing an easy way for people to learn about and shop with sustainable companies, we imagine a world where people invest in their future, find great deals on responsibly-made products, and get useful discounts from socially responsible brands.
+-   Green Filter helps you discover how to save money and the planet with your daily shopping. By providing an easy way for people to learn about and shop with sustainable companies, we imagine a world where people invest in their future, find great deals on responsibly-made products, and get useful discounts from socially responsible brands.
 
-GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
+-   GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
 
@@ -188,9 +203,9 @@ GreenFilter is a product that combines AI, design and marketing to help people m
 
 ## Research Demographics {#research-demographics}
 
--   https://99firms.com/blog/generation-z-statistics/#gref
+-   Branka Vuleta (2023)
 
--   https://review42.com/resources/smartphone-statistics/
+-   Deyan Georgiev (2023)
 
 -   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
 
@@ -215,7 +230,7 @@ Survey respondents:
 -   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                   | Methods                                     |
-|------------------|--------------------------------|-----------------------|
+|-------------------|-------------------------------|-----------------------|
 | 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
@@ -224,11 +239,17 @@ Survey respondents:
 
 BankMyCell. (2022). *How Many People Have Smartphones Worldwide*. https://www.bankmycell.com/blog/how-many-phones-are-in-the-world.
 
+Branka Vuleta. (2023). Generation Z Statistics. In *99firms*. https://99firms.com/blog/generation-z-statistics.
+
 Calastone. (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
 
 Commission, E., Energy, D.-G. for, Enterprise, D.-G. for, & Industry. (2014). *Ecodesign your future : How ecodesign can help the environment by making products smarter*. European Commission. <https://doi.org/doi/10.2769/38512>
 
 Deutsche Welle. (2019). *Fridays for Future global climate strike*. https://www.dw.com/en/fridays-for-future-global-climate-strike-live-updates/a-50505537.
+
+Deyan Georgiev. (2023). *39+ Smartphone Statistics You Should Know in 2023*.
+
+Dimock, M. (2019). Defining generations: Where Millennials end and Generation Z begins. In *Pew Research Center*.
 
 Ellen MacArthur Foundation, Material Economics. (2019). *Completing the picture: How the circular economy tackles climate change*. https://circulareconomy.europa.eu/platform/en/knowledge/completing-picture-how-circular-economy-tackles-climate-change.
 
