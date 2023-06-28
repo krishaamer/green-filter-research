@@ -7,6 +7,9 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -52,12 +55,43 @@ import Humboldt from '../images/humboldt.jpg'
 -   the most effective things are — food — transport — fashion? — plant
     trees
 
--   @catherinecliffordHowThisPopular2022 reports that Amazon is
-    committing 2B USD to a Climate Pledge Fund trying to find startup
-    companies that can fix climate problems.
+-   @korosecAmazonTaps2B2021 reports that Amazon’s 2B USD to a Climate
+    Pledge Fund earmarked to fix climate problems is invested in energy,
+    logistics, and packaging startups, which will reduce material waste.
+    “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos
+    is quoted in @cliffordHowThisPopular2022. It’s an example of how
+    money marketed as climate funding by the retail conglomerate means
+    focus on reducing operational cost of running their business through
+    automation and material savings.
 
--   Amazon’s founder Bezos. ″‘Good intentions don’t work, mechanisms
-    do’“.
+## Human Activities {#human-activities}
+
+### Overconsumption {#overconsumption}
+
+-   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale
+    study on Meta’s Facebook (n=108946), “Respondents in Spain (65%),
+    Sweden (61%), and Taiwan (60%) are the most likely to say that
+    climate change is mostly caused by human activities”.
+-   Overconsumption is one of the root causes of climate change and
+    marine plastic pollution.
+-   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
+    linkage of climate change and marine plastic pollution “along with
+    other stressors that threaten the resilience of species and habitats
+    sensitive to both climate change and plastic pollution”.
+-   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
+    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+-   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
+    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
+    and the Cuvette Centrale in Democratic Republic of Congo are
+    experiencing rapid destruction due to consumer demand in the
+    European Union.**
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+-   @ivanovaQuantifyingPotentialClimate2020: “Around two-thirds of
+    global GHG emissions are directly and indirectly linked to household
+    consumption, with a global average of about 6 tCO2eq/cap.”
+-   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @mobergMobilityFoodHousing2019 reports daily human activities
     emission contribution on average in France, Germany, Norway and
@@ -70,12 +104,38 @@ import Humboldt from '../images/humboldt.jpg'
 | 34%            | Mobility |
 | 15%            | Other    |
 
+-   According to @debnathSocialMediaEnables2022 39% of global CO2
+    emissions comes from the building sector.
+
+## Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
+
+The opposite of overconsumption is the zero waste lifestyle. A movement
+of people living a simple life. This is always going to be a small
+percentage of people.
+
+-   @tokyosimpleecolifeWhatLearnedMy2021
+-   @costaHowFinnishCulture2018: Finnish socialists: minimalism
+
+**For design: These movements are too small and require too much effort
+to be feasible for the app.**
+
 ## Biodiversity Reduction {#biodiversity-reduction}
 
 -   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
     now at 72% or higher in all countries sampled, compared to only 29%
     or higher across countries sampled in 2009.”
--   United Nations Convention on Biodiversity
+-   @unitHistoryConvention2023: The history of the United Nations
+    Convention on Biodiversity goes back to 1988, when the working group
+    was founded
+-   @almondr.e.a.LivingPlanetReport reports, the number of species
+    killed, mass destruction of nature. “69% decline in the relative
+    abundance of monitored wildlife populations around the world between
+    1970 and 2018. Latin America shows the greatest regional decline in
+    average population abundance (94%), while freshwater species
+    populations have seen the greatest overall global decline (83%).”
+-   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
+    (COP15) adopted the first global biodiversity framework to accompany
+    climate goals.**
 
 ### Ecosystem Services {#ecosystem-services}
 
@@ -94,41 +154,22 @@ import Humboldt from '../images/humboldt.jpg'
     contributions. Meanwhile the destruction pressure on ecosystems is
     rapidly increasing (cite A B C).
 
-### Biodiversity {#biodiversity}
+### Deforestation {#deforestation}
 
--   @almondr.e.a.LivingPlanetReport reports, the number of species
-    killed, mass destruction of nature. “69% decline in the relative
-    abundance of monitored wildlife populations around the world between
-    1970 and 2018. Latin America shows the greatest regional decline in
-    average population abundance (94%), while freshwater species
-    populations have seen the greatest overall global decline (83%).”
+-   @fredericsimonEuropeRapidlyLosing2022 Europe rapidly losing its
+    forest carbon sink.
 
--   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
-    (COP15) adopted the first global biodiversity framework to accompany
-    climate goals.**
+-   Burning of biomass undermines carbon capture.
 
 ## Pollution {#pollution}
 
 ### Clean Water {#clean-water}
 
--   k@ochOpinionArizonaRace2022 (**Need access!)**
+-   @kochOpinionArizonaRace2022 (**Need access!)**
 
-### Disasters {#disasters}
+### Air Pollution {#air-pollution}
 
-Large ones that get international news coverage:
-
--   Chernobyl
--   Exxon Valdez
--   Deepwater Horizon
--   the Great Pacific Garbage Patch
--   Fukushima
--   @martinez-alierMappingEcologicalDistribution2021 and
-    @martinez-alierReplyOrihuelaExtractivism2022 as well as
-    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
-    tracks environmental justice cases around the world. Dispues in
-    @eerolaCorporateConductCommodity2022.
-
-### Air Pollution and Clean Air {#air-pollution-and-clean-air}
+Clean air is a requirement
 
 -   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
     over 400000 individuals in England, South Korea and Taiwan
@@ -148,6 +189,21 @@ Large ones that get international news coverage:
 to it. What app to wake them up? “You live in a highly polluted area.
 Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
+### Disasters {#disasters}
+
+Large ones that get international news coverage:
+
+-   Chernobyl
+-   Exxon Valdez
+-   Deepwater Horizon
+-   the Great Pacific Garbage Patch
+-   Fukushima
+-   @martinez-alierMappingEcologicalDistribution2021 and
+    @martinez-alierReplyOrihuelaExtractivism2022 as well as
+    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
+    tracks environmental justice cases around the world. Dispues in
+    @eerolaCorporateConductCommodity2022.
+
 ### Health {#health}
 
 -   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
@@ -162,11 +218,6 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 -   “Sustainability is important for many reasons including:
     Environmental Quality – In order to have healthy communities, we
     need clean air, natural resources, and a nontoxic environment.”
-
-### Housing {#housing}
-
--   According to @debnathSocialMediaEnables2022 39% of global CO2
-    emissions comes from the building sector.
 
 ### Carbon Labeling {#carbon-labeling}
 
@@ -214,6 +265,8 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
     Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
     2021.
 
+## Climate Protection Efforts {#climate-protection-efforts}
+
 ### Nationally Determined Contributions {#nationally-determined-contributions}
 
 -   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
@@ -252,38 +305,6 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
     some research shows the effect is more from wasteful lifestyles than
     the raw number of people (**FIND CITATION**).
 
-### Overconsumption, Climate Change, Pollution {#overconsumption-climate-change-pollution}
-
--   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale
-    study on Meta’s Facebook (n=108946), “Respondents in Spain (65%),
-    Sweden (61%), and Taiwan (60%) are the most likely to say that
-    climate change is mostly caused by human activities”.
--   Overconsumption is one of the root causes of climate change and
-    marine plastic pollution.
--   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
-    linkage of climate change and marine plastic pollution “along with
-    other stressors that threaten the resilience of species and habitats
-    sensitive to both climate change and plastic pollution”.
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
-    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
--   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
-    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
-    and the Cuvette Centrale in Democratic Republic of Congo are
-    experiencing rapid destruction due to consumer demand in the
-    European Union.**
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @ivanovaQuantifyingPotentialClimate2020: “Around two-thirds of
-    global GHG emissions are directly and indirectly linked to household
-    consumption, with a global average of about 6 tCO2eq/cap.”
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
-
-### Forests {#forests}
-
--   @fredericsimonEuropeRapidlyLosing2022 Europe rapidly losing its
-    forest carbon sink.
-
--   Burning of biomass undermines carbon capture.
-
 ### Ethics and Cruelty {#ethics-and-cruelty}
 
 -   Cruelty free brands
@@ -299,7 +320,7 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 -   Precision Fermentation and Cultivated Meat: Meat products without
     farm animals
 
-## Carbon Markets {#carbon-markets}
+### Carbon Markets {#carbon-markets}
 
 -   @sipthorpeBlockchainSolutionsCarbon2022 compares traditional and
     blockchain-based solutions to carbon trading.
@@ -351,9 +372,8 @@ energy brings benefits:
 ### Emission Scopes {#emission-scopes}
 
 -   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The
-    U.S. National Public Utilities Council (NPUC) utility
-    decarbonization report provides a useful categorization of company
-    emissions:
+    U.S. National Public Utilities Council (NPUC) decarbonization report
+    provides a useful categorization of company emission scopes:
 
 | Scope   | Source                         |
 |---------|--------------------------------|
@@ -428,7 +448,7 @@ energy brings benefits:
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
     proposes scenarios of climate damage.
 
-## Provenance and Traceability {#provenance-and-traceability}
+### Provenance and Traceability {#provenance-and-traceability}
 
 -   Ethereum blockchain and animal rights. “Blockchain can provide a
     transparent, immutable record of the provenance of products. This
@@ -478,7 +498,9 @@ energy brings benefits:
 -   @patelBlockchainTechnologyFood2023 livestock products are 15% of
     agri-foods valued at €152 billion in 2018.
 
-### Oracles for Sustainability Data {#oracles-for-sustainability-data}
+## Oracles for Sustainability Data {#oracles-for-sustainability-data}
+
+Intersection with finance.
 
 A data oracle is the concept of a source of real-world data which can be
 ingested through an application programming interface (API) by, for
@@ -499,18 +521,20 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   IPCI OpenLitterMap G.I.D Coin Regen Network
 
-## Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
+### Real World Data {#real-world-data}
 
-A movement of people living a simple life. This is always going to be a
-small percentage of people.
+-   O bank carbon calculator (Brasil)
 
--   @tokyosimpleecolifeWhatLearnedMy2021
--   @costaHowFinnishCulture2018: Finnish socialists: minimalism
+-   “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle
+    Debit Card”
 
-**For design: These movements are too small and require too much effort
-to be feasible for the app.**
+-   @TaiwanOBankLaunches2022
 
-## Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
+-   “access Mastercard’s big data database and calculates the amount of
+    carbon emission of each transaction based on the type and amount of
+    products or services purchased.”
+
+### Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
 
 -   **Blood testing and biomarkers allow people to track their health.
     I’m introducing the concept of ‘eco-markers’ to follow the
@@ -541,32 +565,11 @@ to be feasible for the app.**
 -   @KlimaDAO2023 KlimaDAO
 -   @PlanetKlimatesLuis Moss.earth
 
-### European Green Deal {#european-green-deal}
-
--   @EuropeanGreenDeal2021
--   @switch2greenEUGreenDeal2023
-
-It’s up to legislators to provide sustainable products on our
-marketplace… but until we do, use the green filter.
-
--   One of the EU goals is reducing consumption
--   Tacking our consumption habits
--   Europe is the hotbed of sustainability
--   @imanghoshMappedWhereAre2020
--   @lamoureuxNotableSustainableCompanies2018 Florida sustainable
-    companies
--   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable
-    companies
-
 ### Inflation Reduction Act {#inflation-reduction-act}
 
 -   adas
 
-### Actionable Insights {#actionable-insights}
-
--   Translate data into everyday actions the app can suggest.
-
-## Agroforestry and Permaculture {#agroforestry-and-permaculture}
+### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
 -   Food forests for regenerative food systems.
 
@@ -591,91 +594,6 @@ marketplace… but until we do, use the green filter.
     “Would you rather buy a DogeCoin or a regenerative food forest
     token?” @refidaoReFiPodcastS2E92022 (Use as a question for the
     survey?)
-
-## Greenwashing {#greenwashing}
-
--   Greenwashing is a large detractor from environmental action as it’s
-    difficult to know what is sustainable and what is not.
-
--   <s>Reading EU Commission’s proposals, one might think the
-    politicians have everything under control, we can relax and continue
-    the same lifestyles as before. Unfortunately, this is not true. As
-    with ESG, while the good intentions may be there, the reality is
-    emissions keep rising, while they should be falling. It’s possible
-    to curb greenwashing!</s>
-
--   @sahotaAIAnalysis8002021: “thanks to other emerging technology like
-    IoT sensors (to collect ESG data) and blockchain (to track
-    transactions), we have the infrastructure to collect more data,
-    particularly for machine consumption. By measuring real-time energy
-    usage, transportation routes, manufacturing waste, and so forth, we
-    have more quantifiable ways to track corporations’ environmental
-    performance without relying purely on what they say.”
-
--   @binglerCheapTalkCherryPicking2021 and @sahotaAIAnalysis8002021
-    ClimateBert AI finds rampant greenwashing
-
--   @chenxiyuHowAICan2021 ESG is filled with greenwashing.
-
--   @ussecuritiesandexchangecommissionOfficeHoursGary2022: In the USA:
-    *“If it’s easy to tell if milk is fat-free by just looking at the
-    nutrition label, it might be time to make it easier to tell
-    if”green” or “sustainable” funds are really what they say they
-    are.”* says Gary Gensler, head of U.S. Securities and Exchange
-    Commission.
-
--   @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU
-    has strengthened legislation to counter ESG greenwashing.
-
--   Sustainability is fragmented. How can billions of people find
-    greener alternatives and build closer relationships with
-    sustainability-focused companies? Greenwashing is widespread, how
-    can we feel trust, honesty, and transparency? A research project for
-    designing a sustainable shopping, savings, and investing companion.
-
--   Laws against greenwashing
-
--   @ussecuritiesandexchangecommissionOfficeHoursGary2022 Both the
-    European Commission and the Chair of U.S. Securities and Exchange
-    Commission (SEC) Gary Gensler have called for more legislation to
-    curb business greenwashing practices.
-
--   @andreVoluntaryCarbonNeutral2022: Until new legislation is in place
-    (2030 in the EU), consumer awareness is crucial as currently most
-    emission-reduction programs are voluntary and thus affected by
-    consumer demand. @geoffreysupranThreeShadesGreen2022 Greenwashing is
-    widespread in company social media communications.
-
--   @purkissBigCompostExperiment2022 highlights the confusion between
-    compostable and biodegradable plastics and public misunderstanding
-    what happens to these plastics when they reach the landfill. For
-    example, “Most plastics marketed as”home compostable” don’t actually
-    work, with as much as 60% failing to disintegrate after six months”.
-
--   @napperEnvironmentalDeteriorationBiodegradable2019: Shopping bags
-    marketed as *biodegradable* don’t show deterioration after 3 years
-    in salt-water sea environment ..
-
--   @fredericsimonCommissionFireIncluding2020 and
-    @kirataylorEUPlanPuts2021: While the EU has proposed legislation to
-    curb greenwashing, EU climate policy itself has been criticized for
-    greenwashing. Sometimes greenwashing comes under legislative
-    protection.
-
--   @boothBurningCarbonSink2022 describe how “A recent investigation
-    shows illegal logging of protected areas in eastern European
-    countries that supplies residential wood pellets in Italy. Belgium,
-    Denmark, and the Netherlands are importing pellets from Estonia,
-    where protected areas are logged for pellets and the country has
-    lost its forest carbon sink, despite large-scale wood pellet plants
-    being certified ‘sustainable’ by the Sustainable Biomass Program”. A
-    number of new AI-based tools aim to find instances of greenwashing.
-
--   @ClimateBondsInitiative2022: Climate Bonds Initiativegreening the
-    \$55 trillion short-term debt market
-
--   **Design Implications:** *As a consumer, I can get notified by the
-    app about highlights of poor legislation refuted by science*.
 
 ## Conclusion {#conclusion}
 

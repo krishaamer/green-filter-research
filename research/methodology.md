@@ -10,7 +10,8 @@ editor:
 export const quartoRawHtml =
 [`<!-- -->`];
 
-``` mdx-code-block
+
+```mdx-code-block
 import Figure from '/src/components/Figure'
 import Concepts from './images/concept-map.png'
 import Methodology from './images/research-methodology.png'
@@ -313,7 +314,7 @@ interview people at google who made the green filter options
     process. However, I expect the conceptual framework to further
     evolve with additional findings while conducting my research.
 
-``` mdx-code-block
+```mdx-code-block
 <Figure caption="Figure 13 - Concept map" src={Concepts} />
 ```
 
@@ -387,7 +388,7 @@ emerging conversations, will be recorded and transcribed.
 analysis of the focus group transcriptions in order to validate previous
 findings, and open avenues for future research.
 
-``` mdx-code-block
+```mdx-code-block
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
 

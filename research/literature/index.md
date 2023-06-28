@@ -7,7 +7,8 @@ editor:
     render-on-save: false
 ---
 
-``` mdx-code-block
+
+```mdx-code-block
 import Figure from '/src/components/Figure'
 import Literature from '/research/images/literature.png'
 ```
@@ -42,7 +43,7 @@ design. The reviewed content consists of 3 main sources:
 In order to keep track more easily, each literature review section
 includes **design implications** in context.
 
-``` mdx-code-block
+```mdx-code-block
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```
 

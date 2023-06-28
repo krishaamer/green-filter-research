@@ -12,6 +12,9 @@ editor:
 Scan a product to see the company and start investing or divesting from
 them Current economics is lowering the quality of life on the planet
 
+Actionable Insights: Translate data into everyday actions the app can
+suggest.
+
 ## Research Limitations {#research-limitations}
 
 First, finance is a highly regulated industry and the proposed user

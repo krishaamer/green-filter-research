@@ -12,11 +12,11 @@ import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import ResQClub from '../images/resq-club.png'
 ```
-# Design for Sustainability
+# Sustainability
 
 ***Designing for Sustainability*** encompasses all human activities, making this pursuit an over-arching challenge across all industries. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
 
--   @ieaGlobalEnergyReview2022 reports "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes"
+-   [see @ieaGlobalEnergyReview2022] reports "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes"
 -   @crippaCO2EmissionsAll2022 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
 -   Growing public understanding of how nature works and intersects with our use of money.
 -   @danielvarjoNyaSatelliterAvslojar2022: hThe EU Copernicus satellite system reveals new greenhouse emissions previously undetected
@@ -87,10 +87,21 @@ Again, AI has the potential to provide the parameters for sustainability.
 -   @nastaraanvadoodiEcodesignRequirementsDrive2022
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
 
-## Climate Anxiety
+### Design for Circularity
+
+-   @mcdonoughCradleCradleRemaking2002 book
+-   @dullCircularSupplyChain2021 book
+
+# Young Adults
+
+-   Is getting people to go to nature more a good way to increase ecological awareness?
+
+### Climate Anxiety
 
 Design to reduce climate anxiety
 
+-   @thompsonYoungPeopleClimate2021 Young people have climate anxiety.
+-   @hickmanClimateAnxietyChildren2021 anxious kids
 -   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. @kjaergardHealthSustainability2014 shows how *"By understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health."*
 -   @whitmarshClimateAnxietyWhat2022 shows how climate anxiety is more prevalent among young people and is a possible motivator for climate action.
 -   @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism.
@@ -98,87 +109,183 @@ Design to reduce climate anxiety
 -   How to support the youth?
 -   Design for Human Rights @unfcccconferenceofthepartiesservingasthemeetingofthepartiestotheparisagreementcmaSharmElSheikhImplementation2022 text refers to "human right to a clean, healthy and sustainable environment".
 
-# Young Adults
-
--   Is getting people to go to nature more a good way to increase ecological awareness?
-
-## Empowering Design
+### Empowering Design
 
 -   adas
 
-# Extended Producer Responsibility
+<!-- -->
 
--   @steenmansFosteringCircularEconomy2023 Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+-   @rossClimateChangeChallenge2016a says most people in the US don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology".
 
--   @pengExtendedProducerResponsibility2023 finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
+-   @RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about success scenarios.
 
--   @liuGlobalPerspectiveEwaste2023 reports, e--waste is growing 3%--5% every year, globally. @thukralExploratoryStudyProducer2023 identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+-   Younger people show higher motivation (participants in climate protests). How to be relevant for a younger audience?
 
--   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+-   Yet action remains low.
 
--   @christiansenExtendedProducerResponsibility2021: Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models.
+-   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
 
--   @jacquesvernierExtendedProducerResponsibility2021: French EPR scheme was upgraded in 2020 to become more circular.
+-   *For young people, investing mostly means buying cryptocurrencies?*
 
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022\@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
+## What is Interaction Design?
 
-***Design implications:** ERP and CDP data should be part of Green Filter.*
+-   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign believes interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+-   @weinschenk100ThingsEvery2011 says "People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."
+-   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
+-   Red Route Analysis
+-   AI for design: @AINextChapter2023
+-   Science in Design https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
 
-## Designing for Sustainable Shopping
+### Personas
 
--   @weberMobileAppsSustainable2021 proposes a sustainable shopping guide.
--   @fuentesUnpackingPackageFree2019 discusses package free shopping.
--   @vanderwalParadoxGreenBe2016 discusses "status motives make people publicly display sustainable behavior".
+-   Use personas to articulate assumptions
 
-### Food Waste
+-   Persona: I care mostly about... fashion, art, ...
 
--   @nabipourafrouziComprehensiveReviewCarbon2023: "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission."
+-   @dontlookupMethodology Don't look up five user models / roles Consumer, Investor, Activist, ..
 
-There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+### Experience Design
 
-```{=mdx}
-<Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
-```
-| Name                         | Link                                                                  |                                                                                                                                                                                |
-|----------------------|-------------------------|-------------------------|
-| Karma                        | https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
-| ResQ Club                    | https://www.resq-club.com/                                            | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
-| Kuri                         |                                                                       | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
-| Social media groups (no app) |                                                                       |                                                                                                                                                                                |
+-   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: "People buy experiences, not technology."
+-   Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
 
--   @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
+### Storytelling and Narrative Design
 
--   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+Bring together film school experience with design... Does branding also go here?
 
-| Perspective                         | Content                                                                               |
-|-------------------------|-----------------------------------------------|
-| *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
-| *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
-| *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
-| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"*                   |
-| "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
+| Company        | Link                       |
+|----------------|----------------------------|
+| Ocean Protocol | https://oceanprotocol.com/ |
 
--   ***Design Implication***: Where to shop rankings for groceries --- list worst offenders in terms of products --- shop and invest according to your values.
+-   Older research on young adults by @katemoranDesigningYoungAdults2016 (Millenials at the time) highlights how Millenials "use Google as a reference point for ease of use and simplicity".
 
--   @kommendaWouldCarbonFood2022 Carbon Food Labels
+-   The rising availability of AI assistants however may displace Google search with a more conversational UX. Indeed, Google itself is working on smarter tools to displace their own main product, as exemplified by Google Assistant and large investments into LLMs.
 
--   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+### Stickyness
 
--   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
+-   Low attrition of the product?
 
--   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
+### Guided Sustainability
 
--   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
+-   Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are required.
+-   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). IIn essence, "green filter" is a central data repository not unlike "Apple Health for Sustainability".
+-   Health and fitness category apps
+-   Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly
+-   There are many examples of combination of AI and human, also known as "human-in-the-loop". For example health apps like Welltory, Wellue and QALY. Food delivery apps like Starship Robots who ask for human help when crossing the road.
+-   How would you rate your knowledge on sustainability?
+-   How would you rate your ability to put sustainability into practice?
+-   "Guided Sustainability refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."
 
--   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
+### Interface Studies
 
--   Only make what is ordered.
+-   @davidhoangCreatingInterfaceStudies2022, the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***. "An art study is any action done with the intention of learning about the subject you want to draw". As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*.
 
--   Farm to Fork @financialtimesSustainabilityIdeasThat2022
+### Speculative Design
 
-## Fast Fashion, Sustainable Fashion, Textile Design
+-   @dunneSpeculativeEverythingDesign2013 invented the term *'speculative design'* in their seminal book as the question on the intersection of user experience design and speculation. Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
+
+-   In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+
+-   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
+
+### Design Studies
+
+-   Eminent journal Design Studies, 1st design journal
+
+-   @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use.
+
+### Mobile App Design
+
+Young people are mobile-first.
+
+There's a number of user interface design patterns that have provide successful across a range of social media apps, copied from one to another, to the extent that the largest social media apps share a similar look and feature set.
+
+-   Mobile-first
+
+-   Provides a community for pooling money with like-minded investors
+
+-   Social
+
+-   Educational
+
+-   Edutainment
+
+-   Fun
+
+-   Stories section like IG / app store
+
+-   Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
+
+-   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+
+### Community
+
+### Community's Role in Design
+
+-   Psychology of 'fundraising clubs' vs individual investing
+
+-   @UkraineDAOBiddingUkrainian Ukraine DAO
+
+-   POAPs:
+
+### Group Purchases
+
+Food ordering apps are popular.
+
+-   Buying in bulk for more savings.
+
+-   Through group purchases and community investing while also reducing consumption.
+
+-   People want to help and make a difference. Give people things to do.
+
+-   Choose Your Climate Solutions
+
+-   Find Your Composting Community
+
+-   Monoculture -\> regenerative food forests Oil -\> electric cars / bicycles
+
+### Data-Driven Design
+
+-   Rebuilt the app as a personalized, narrative lifestyle feed
+
+**Question: What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
+
+-   "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
+
+-   @joshluberTradingCardsAre2021 Trading cards are cool again
+
+-   @jesseeinhornNewBalance6502020
+
+-   @connieloizosMarcyVenturePartners2021
+
+-   @natashamascarenhasQueenlyMarketplaceFormalwear2021
+
+-   @jeffjohnrobertsDigitalArtAwaits2020
+
+### Social Objects
+
+-   @sharing.labWhatSocialObject2015: I'm interested in the concept of a "social object".
+
+-   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...
+
+-   What percent of all design is "sustainable design" ? Promoting sustainable design.
+
+### Design Systems
+
+Create a design system!!!! best to showcase my analytic skills
+
+-   @ComprehensiveGuideDesign
+-   @suarezDesignSystemsHandbook
+-   @MethodPodcastEpisode
+-   @AtomicDesignBrad
+
+## Fast Fashion
+
+@YoungConsumersComplicated: Young people are the largest consumers of fast fashion.
 
 Across industries, reports are saying there isn't enough transparency.
+
+Sustainable Fashion, Textile Design
 
 -   In @europeanenvironmentagencyTextilesEnvironmentRole2022, European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. @kohlerCircularEconomyPerspectives2021: Globally 87% of textile products are burned or landfilled after 1st consumer use.
 
@@ -276,15 +383,6 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @adaChallengesCircularFood2023 notes rapid growth of the packaging industry which generates large amounts of waste.
 
-## What is Interaction Design?
-
--   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign believes interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
--   @weinschenk100ThingsEvery2011 says "People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."
--   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
--   Red Route Analysis
--   AI for design: @AINextChapter2023
--   Science in Design https://twitter.com/search?q=%23ScienceinDesign&src=hashtag_click
-
 ## Quantified Self
 
 There is a lot of research on quantified self. the Wearable devices like Apple Watch, Oura Ring and apps help users track a variety of health metrics. Can we also track personal sustainability in a similar fashion?
@@ -316,26 +414,21 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 -   @almeidaParanoidOSWearable2022
 
-## Supply Chains
+# Circular Economy
 
--   Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, "garbage in, garbage out". Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
+-   @circleeconomyCircularityGapReport2022 reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
+-   There's a growing number of companies providing re-use of existing items.
+-   @SmartSwap For example, Swap furniture in Estonia
 
--   The blockchain supply chain companies as of summer 2023 include:
+### Platform Economy
 
-| Company        | Link                       |
-|----------------|----------------------------|
-| Ocean Protocol | https://oceanprotocol.com/ |
-| Provenance     | https://www.provenance.io/ |
-| Ambrosius      | https://ambrosus.io/       |
-| Modum          | https://www.modum.io/      |
-| OriginTrail    | https://origintrail.io/    |
-| VeChain        | https://www.vechain.org/   |
-| Wabi           | https://wabi.io/           |
-| FairFood       | https://fairfood.org/      |
-| Bext360        | https://www.bext360.com/   |
+-   Network Effects: The more people use a platform, the more valuable it becomes.
 
--   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
--   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
+-   The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
+
+-   The rise of the platform economy has given us marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting?
+
+-   What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance?
 
 ## Factories
 
@@ -365,11 +458,69 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-## Circular Economy
+## Extended Producer Responsibility
 
--   @circleeconomyCircularityGapReport2022 reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
--   There's a growing number of companies providing re-use of existing items.
--   @SmartSwap For example, Swap furniture in Estonia
+-   @steenmansFosteringCircularEconomy2023 Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+
+-   @pengExtendedProducerResponsibility2023 finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
+
+-   @liuGlobalPerspectiveEwaste2023 reports, e--waste is growing 3%--5% every year, globally. @thukralExploratoryStudyProducer2023 identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
+-   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   @christiansenExtendedProducerResponsibility2021: Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models.
+
+-   @jacquesvernierExtendedProducerResponsibility2021: French EPR scheme was upgraded in 2020 to become more circular.
+
+-   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022\@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
+
+***Design implications:** ERP and CDP data should be part of Green Filter.*
+
+### Food Waste
+
+-   @nabipourafrouziComprehensiveReviewCarbon2023: "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission."
+
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+```{=mdx}
+<Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+| Name                         | Link                                                                  |                                                                                                                                                                                |
+|----------------------|-------------------------|-------------------------|
+| Karma                        | https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
+| ResQ Club                    | https://www.resq-club.com/                                            | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                                       | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
+| Social media groups (no app) |                                                                       |                                                                                                                                                                                |
+
+-   @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
+
+-   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective                         | Content                                                                               |
+|-------------------------|-----------------------------------------------|
+| *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
+| *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
+| *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
+| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"*                   |
+| "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
+
+-   ***Design Implication***: Where to shop rankings for groceries --- list worst offenders in terms of products --- shop and invest according to your values.
+
+-   @kommendaWouldCarbonFood2022 Carbon Food Labels
+
+-   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+
+-   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
+
+-   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
+
+-   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
+
+-   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
+
+-   Only make what is ordered.
+
+-   Farm to Fork @financialtimesSustainabilityIdeasThat2022
 
 ### Circular Supply Chains
 
@@ -388,55 +539,6 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 
 -   *Design Implication*: Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
 
-### Personas
-
--   Use personas to articulate assumptions
-
--   Persona: I care mostly about... fashion, art, ...
-
--   @dontlookupMethodology Don't look up five user models / roles Consumer, Investor, Activist, ..
-
-### Data-Driven Design
-
--   Rebuilt the app as a personalized, narrative lifestyle feed
-
-### Design Systems
-
-Create a design system!!!! best to showcase my analytic skills
-
--   @ComprehensiveGuideDesign
--   @suarezDesignSystemsHandbook
--   @MethodPodcastEpisode
--   @AtomicDesignBrad
-
-### Community's Role in Design
-
--   Psychology of 'fundraising clubs' vs individual investing
-
--   @UkraineDAOBiddingUkrainian Ukraine DAO
-
--   POAPs:
-
-### Group Purchases
-
--   Buying in bulk for more savings.
-
--   Through group purchases and community investing while also reducing consumption.
-
--   People want to help and make a difference. Give people things to do.
-
--   Choose Your Climate Solutions
-
--   Find Your Composting Community
-
--   Monoculture -\> regenerative food forests Oil -\> electric cars / bicycles
-
-### Design Studies
-
--   Eminent journal Design Studies, 1st design journal
-
--   @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use.
-
 ### Biodesign
 
 -   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
@@ -450,11 +552,6 @@ Create a design system!!!! best to showcase my analytic skills
 -   Societal movements change things: implication for design: build a community
 
 -   Processes sustain things: implication for design: built an app
-
-### Design for Circularity
-
--   @mcdonoughCradleCradleRemaking2002 book
--   @dullCircularSupplyChain2021 book
 
 ### Making CO2 Visible
 
@@ -488,10 +585,6 @@ Create a design system!!!! best to showcase my analytic skills
 | 6   | Open data platform                   |                                                               |
 | 7   | Knowledge sharing platform           | https://www.business-humanrights.org/                         |
 
-## Digitalisation
-
--   @DigitalReceiptsCustomer Digital Receipts to be able to track your carbon footprint
-
 ## Traceability
 
 -   200 million PCs sold every year personalized AI, meta glasses understand your context. sense and reconstruct the world around you and to understand the context in which you're using your device.sense and reconstruct the world around you and to understand the context in which you're using your device. Make suggestions and take action proactively to help you get things done --- ideally, so seamlessly that you may not even notice.neuroscience co-adaptation of the interface. your future devices will learn and adapt to you as you use them.
@@ -506,20 +599,32 @@ Create a design system!!!! best to showcase my analytic skills
 -   @RealTimeESG2021 "Real Time ESG Tracking From StockSnips"
 -   @incGlanceAlexandriaRealTime
 
-### ESG Blockchains
+### Blockchain Supply Chains
 
+-   Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, "garbage in, garbage out". Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
+
+-   The blockchain supply chain companies as of summer 2023 include:
+
+| Company        | Link                       |
+|----------------|----------------------------|
+| Ocean Protocol | https://oceanprotocol.com/ |
+| Provenance     | https://www.provenance.io/ |
+| Ambrosius      | https://ambrosus.io/       |
+| Modum          | https://www.modum.io/      |
+| OriginTrail    | https://origintrail.io/    |
+| VeChain        | https://www.vechain.org/   |
+| Wabi           | https://wabi.io/           |
+| FairFood       | https://fairfood.org/      |
+| Bext360        | https://www.bext360.com/   |
+
+-   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+-   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
 -   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
-
 -   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
-
 -   Eisenstein?: "Money is a technology".
-
 -   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ...
-
 -   @BlockchainCompaniesTeam2021
-
 -   @ganuWhyBlockchainCan2021
-
 -   Improve product ***provenance***, blockchains offer this transparency
 
 ### Fintech User Experience (UX)
@@ -542,51 +647,13 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 -   @HomeChainReact
 -   @SverigesDataportal Swedish open data portal
 -   Make open data easy to use in everyday life
+-   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able to track your carbon footprint
 
-### Interface Studies
-
--   @davidhoangCreatingInterfaceStudies2022, the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***. "An art study is any action done with the intention of learning about the subject you want to draw". As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*.
-
-### Speculative Design
-
--   @dunneSpeculativeEverythingDesign2013 invented the term *'speculative design'* in their seminal book as the question on the intersection of user experience design and speculation. Speculative design makes use of future scenarios to envision contexts and interactions in future use. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (Google Design, 2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world, inspired by a similar device first shown in a 1970s episode of Star Trek as a magic device (a term from participatory design), which then inspired subsequent consumer product development - and then another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years!
-
--   In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
-
--   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
-
-#### "Speculative Design" for a sustainability assistant
+**"Speculative Design" for a sustainability assistant**
 
 -   @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
 -   @googledesignDesignSpeculativeFutures2019
 -   All green categories --- Green hub --- Ask the user to prioritize
-
-### Experience Design
-
--   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM Laura Fryer: "People buy experiences, not technology."
--   Loaning terminology from service design, the user journey within an app needs to consider about touchpoint on the way to a state of success.
-
-### Mobile App Design
-
-There's a number of user interface design patterns that have provide successful across a range of social media apps, copied from one to another, to the extent that the largest social media apps share a similar look and feature set.
-
--   Mobile-first
-
--   Provides a community for pooling money with like-minded investors
-
--   Social
-
--   Educational
-
--   Edutainment
-
--   Fun
-
--   Stories section like IG / app store
-
--   Common UI parts. Feed. Stories.  By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
-
--   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
 ### Carbon Labelling
 
@@ -653,14 +720,6 @@ There's a number of user interface design patterns that have provide successful 
 
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-### Social Objects
-
--   @sharing.labWhatSocialObject2015: I'm interested in the concept of a "social object".
-
--   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...
-
--   What percent of all design is "sustainable design" ? Promoting sustainable design.
-
 ### Sustainability Superapp
 
 -   How to design superapps? Lots of options in a single app.
@@ -704,3 +763,6 @@ There's a number of user interface design patterns that have provide successful 
 -   TODO design summary.
 
 # References
+
+::: {#refs}
+:::

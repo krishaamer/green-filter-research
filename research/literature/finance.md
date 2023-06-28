@@ -7,7 +7,8 @@ editor:
     render-on-save: false
 ---
 
-``` mdx-code-block
+
+```mdx-code-block
 import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
@@ -35,6 +36,8 @@ import Bunq from '../images/bunq.jpg'
 -   In 2022, the world population emitted 37.5 gigatonnes of CO₂, the
     highest emissions in world history, following a steady annual
     increase, according to @statistaAnnualCO2Emissions2023.
+
+-   @WorldEconomicOutlook2023
 
 -   In 2022 the Global Gross Domestic Product (GDP) was estimated at
     around 100 Trillion USD @aarononeillGlobalGDP19852028.
@@ -227,6 +230,14 @@ sustainability practices.
     should get the information they need to assess the risks against the
     rewards.”
 
+### Sustainable Shopping {#sustainable-shopping}
+
+-   @weberMobileAppsSustainable2021 proposes a sustainable shopping
+    guide.
+-   @fuentesUnpackingPackageFree2019 discusses package free shopping.
+-   @vanderwalParadoxGreenBe2016 discusses “status motives make people
+    publicly display sustainable behavior”.
+
 ### Conscious Consumerism {#conscious-consumerism}
 
 -   Building customer loyalty is a key part of repeat business and
@@ -330,6 +341,9 @@ sustainability practices.
 -   Consumer debt in the USA
 
 ### Digital Payments {#digital-payments}
+
+@FirstPaperMoney China was a money innovator introducing paper money in
+the Tang Dynasty (618–907 AD).
 
 -   @CentralBankDigital2023 Digital currencies make tracking easier
 
@@ -442,7 +456,7 @@ People are concerned with digital payments
     differentiating between the types of purchases the consumer makes,
     in terms of the level of eco-friendliness.
 
-``` mdx-code-block
+```mdx-code-block
 <Figure caption="Figure 5: Bunq combines banking and eco-friendly actions in the same UI" src={Bunq} />
 ```
 
@@ -456,7 +470,7 @@ People are concerned with digital payments
     ethics, and investing (fig. 6) - however, they are mostly only
     available on the US market:
 
-``` mdx-code-block
+```mdx-code-block
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrxUqovTBGZJyjur?backgroundColor=red&viewControls=on" frameBorder="0" width="100%" height="533"/>
 ```
 
@@ -488,7 +502,7 @@ People are concerned with digital payments
 -   @altfiETFmaticAppDownloaded2017: In the UK, several robo-advisors
     have shut down recently.
 
-``` mdx-code-block
+```mdx-code-block
 <Figure caption="Figure 7: Out-of-date User Interface of a European AI-Advisor ETFmatic (Photo copyright ETFmatic)" src={ETF} />
 ```
 
@@ -690,15 +704,6 @@ looking for sustainability in addition to profits in a few countries.
 -   Green Bonds ESG data needs to be visualized Passive Investing Why
     focus on PI instead of daily investing like Robinhood?
 
-### Hedge Funds {#hedge-funds}
-
--   **Feature**: Make a climate hedge fund with friends
--   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
--   Most successful investor invest together
--   Angelist
--   What does investing look like at the scale of billions of people?
-    like IG
-
 ### Green Investment Platforms {#green-investment-platforms}
 
 There are many ‘green investment platforms’ who to trust?
@@ -795,6 +800,17 @@ There are many ‘green investment platforms’ who to trust?
     is Revolut, which expanded from a simple payments app to support
     varied saving and investment types.
 
+### Retail Investor Helpers {#retail-investor-helpers}
+
+-   Nubanks, also known as challenger banks.
+
+| Company   | Link |
+|-----------|------|
+| SPARQAN   |      |
+| Robinhood |      |
+|           |      |
+|           |      |
+
 ### ESG Shopping {#esg-shopping}
 
 -   “Changing our relationship with money”
@@ -834,11 +850,19 @@ emissions in their product lifecycle.
     be “highly engaged with management teams” in order to influence
     managment towards ESG practices in said companies .
 -   @ESGHedgeFunds2021
+-   **Feature**: Make a climate hedge fund with friends
+-   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
+-   Most successful investor invest together
+-   Angelist
+-   What does investing look like at the scale of billions of people?
+    like IG
 
 ### ESG is a Marketing Tool {#esg-is-a-marketing-tool}
 
 -   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
 -   @agnewRIPESG2022 RIP ESG
+-   @luoESGLiquidityStock2022 found firms with a lower ESG score are
+    more profitable.
 
 ### Neobanks and ESG {#neobanks-and-esg}
 
@@ -850,7 +874,7 @@ emissions in their product lifecycle.
     2015.
 
 | Name      |                            | Reference                   | Country |
-|----------------------|-----------------|-----------------|-----------------|
+|-------------------|------------------|------------------|------------------|
 | Monzo     |                            | @monzoOnlineBankingMade2023 | UK      |
 | Nubank    |                            | @NubankFinalmenteVoce       | Brazil  |
 | EToro     |                            |                             |         |
@@ -1043,6 +1067,91 @@ emissions in their product lifecycle.
     potentially even provide large-scale consumer feedback on negative
     practices back to the business through infringement discovery.
 
+# Greenwashing {#greenwashing}
+
+-   Greenwashing is a large detractor from environmental action as it’s
+    difficult to know what is sustainable and what is not.
+
+-   <s>Reading EU Commission’s proposals, one might think the
+    politicians have everything under control, we can relax and continue
+    the same lifestyles as before. Unfortunately, this is not true. As
+    with ESG, while the good intentions may be there, the reality is
+    emissions keep rising, while they should be falling. It’s possible
+    to curb greenwashing!</s>
+
+-   @sahotaAIAnalysis8002021: “thanks to other emerging technology like
+    IoT sensors (to collect ESG data) and blockchain (to track
+    transactions), we have the infrastructure to collect more data,
+    particularly for machine consumption. By measuring real-time energy
+    usage, transportation routes, manufacturing waste, and so forth, we
+    have more quantifiable ways to track corporations’ environmental
+    performance without relying purely on what they say.”
+
+-   @binglerCheapTalkCherryPicking2021 and @sahotaAIAnalysis8002021
+    ClimateBert AI finds rampant greenwashing
+
+-   @chenxiyuHowAICan2021 ESG is filled with greenwashing.
+
+-   @ussecuritiesandexchangecommissionOfficeHoursGary2022: In the USA:
+    *“If it’s easy to tell if milk is fat-free by just looking at the
+    nutrition label, it might be time to make it easier to tell
+    if”green” or “sustainable” funds are really what they say they
+    are.”* says Gary Gensler, head of U.S. Securities and Exchange
+    Commission.
+
+-   @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU
+    has strengthened legislation to counter ESG greenwashing.
+
+-   Sustainability is fragmented. How can billions of people find
+    greener alternatives and build closer relationships with
+    sustainability-focused companies? Greenwashing is widespread, how
+    can we feel trust, honesty, and transparency? A research project for
+    designing a sustainable shopping, savings, and investing companion.
+
+-   Laws against greenwashing
+
+-   @ussecuritiesandexchangecommissionOfficeHoursGary2022 Both the
+    European Commission and the Chair of U.S. Securities and Exchange
+    Commission (SEC) Gary Gensler have called for more legislation to
+    curb business greenwashing practices.
+
+-   @andreVoluntaryCarbonNeutral2022: Until new legislation is in place
+    (2030 in the EU), consumer awareness is crucial as currently most
+    emission-reduction programs are voluntary and thus affected by
+    consumer demand. @geoffreysupranThreeShadesGreen2022 Greenwashing is
+    widespread in company social media communications.
+
+-   @purkissBigCompostExperiment2022 highlights the confusion between
+    compostable and biodegradable plastics and public misunderstanding
+    what happens to these plastics when they reach the landfill. For
+    example, “Most plastics marketed as”home compostable” don’t actually
+    work, with as much as 60% failing to disintegrate after six months”.
+
+-   @napperEnvironmentalDeteriorationBiodegradable2019: Shopping bags
+    marketed as *biodegradable* don’t show deterioration after 3 years
+    in salt-water sea environment ..
+
+-   @fredericsimonCommissionFireIncluding2020 and
+    @kirataylorEUPlanPuts2021: While the EU has proposed legislation to
+    curb greenwashing, EU climate policy itself has been criticized for
+    greenwashing. Sometimes greenwashing comes under legislative
+    protection.
+
+-   @boothBurningCarbonSink2022 describe how “A recent investigation
+    shows illegal logging of protected areas in eastern European
+    countries that supplies residential wood pellets in Italy. Belgium,
+    Denmark, and the Netherlands are importing pellets from Estonia,
+    where protected areas are logged for pellets and the country has
+    lost its forest carbon sink, despite large-scale wood pellet plants
+    being certified ‘sustainable’ by the Sustainable Biomass Program”. A
+    number of new AI-based tools aim to find instances of greenwashing.
+
+-   @ClimateBondsInitiative2022: Climate Bonds Initiativegreening the
+    \$55 trillion short-term debt market
+
+-   **Design Implications:** *As a consumer, I can get notified by the
+    app about highlights of poor legislation refuted by science*.
+
 ## Governments and Legislation {#governments-and-legislation}
 
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed
@@ -1116,19 +1225,6 @@ emissions in their product lifecycle.
     in a 2004 advertising campaign by British Petroleum”
 -   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of
     mobility.
-
-### Real World Data {#real-world-data}
-
--   O bank carbon calculator (Brasil)
-
--   “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle
-    Debit Card”
-
--   @TaiwanOBankLaunches2022
-
--   “access Mastercard’s big data database and calculates the amount of
-    carbon emission of each transaction based on the type and amount of
-    products or services purchased.”
 
 ### Product Databases {#product-databases}
 

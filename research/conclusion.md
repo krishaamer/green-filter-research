@@ -25,8 +25,15 @@ editor:
 
 -   Build trust, clarity, transparency, and honesty
 
--   Sustainability is fragmented. How can billions of people build closer relationships with sustainability-focused companies based on honesty and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+-   Sustainability is fragmented. How can billions of people build
+    closer relationships with sustainability-focused companies based on
+    honesty and transparency? A research project for designing a
+    sustainable shopping, savings, and investing companion.
 
--   Most sustainability plans rely on carbon credits to achieve their goals, making carbon credits a single point of failure. If the credits are not accurate, the whole system collapses.
+-   Most sustainability plans rely on carbon credits to achieve their
+    goals, making carbon credits a single point of failure. If the
+    credits are not accurate, the whole system collapses.
 
--   TODO: Make a table showing research results translated to design decisions
+-   TODO: Make a table showing research results translated to design
+    decisions
+
