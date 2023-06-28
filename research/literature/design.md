@@ -7,9 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -17,135 +14,7 @@ import FlightEmissions from '../images/flight-emissions.png'
 import ResQClub from '../images/resq-club.png'
 ```
 
-# Sustainability {#sustainability}
-
-***Designing for Sustainability*** encompasses all human activities,
-making this pursuit an over-arching challenge across all industries.
-Assuming that as individuals we want to act in a sustainable way, how
-exactly would be go about doing that?
-
--   \[see @ieaGlobalEnergyReview2022\] reports “Global CO2 emissions
-    from energy combustion and industrial processes rebounded in 2021 to
-    reach their highest ever annual level. A 6% increase from 2020
-    pushed emissions to 36.3 gigatonnes”
--   @crippaCO2EmissionsAll2022 reports latest figures from the EU’s
-    Emissions Database for Global Atmospheric Research (EDGAR)
--   Growing public understanding of how nature works and intersects with
-    our use of money.
--   @danielvarjoNyaSatelliterAvslojar2022: hThe EU Copernicus satellite
-    system reveals new greenhouse emissions previously undetected
-
-AI can help us make sense of the vast amounts of sustainability data
-generated daily.
-
--   @guptaAnalysisArtificialIntelligencebased2023 argues software is key
-    to building more sustainable products, already for decades. More
-    recently, companies like AutoDesk are putting CO2 calculations
-    inside their design software.
-
--   @SustainabilityStartsDesign: “Sustainability starts in the design
-    process, and AI can help”.
-
--   @igeniusLetTalkSustainable2020
-
--   “Carbon pricing is not there to punish people.”
-
--   “It’s there to remind us, when we take travel, heating, consumption
-    decisions that the true cost of fossil fuels comprises not only
-    mining and processing, but also the damage done by the CO2 they
-    release.”
-
--   Very simple.” Lion Hirth @lionhirthLionHirthTwitter
-
--   @chapmanDesignEmotionalDurability2009 argues in his seminal paper
-    (and later in his book) for “Emotionally Durable Design”, the simple
-    idea that we hold to things we value and thus they are sustainable.
-    We don’t throw away a necklace gifted to us by mom, indeed this
-    object might be passed down for centuries.
-    @roseEnchantedObjectsInnovation2015 has a similar idea, where
-    “Enchanted Objects” become so interlinked with us, we’re unlikely to
-    throw them away.
-
--   “Evolution of design for sustainability: From product design to
-    design for system innovations and transitions”
-
-## Eco-Design {#eco-design}
-
--   @EUTaxonomySustainable report: The EU has a ***taxonomy of
-    environmentally sustainable economic activities*** published by the
-    Technical Expert Group (TEG) on sustainable finance .
-
--   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans
-    and Fisheries, is quoted as describing eco-design “respects the
-    boundaries of our planet” @europeancommissionGreenDealNew2022
-
--   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
-    March 2022, the European Commission put forward a proposal for a
-    regulation establishing a general framework for setting ecodesign
-    requirements for sustainable products, repealing rules currently in
-    force which concentrate on energy-related products only.”
-
--   @MANZARDO2021149507 **(need access!)**
-
--   @INARRA2022100727 **(need access!)**
-
--   @MUNARO2022566 **(need access!)**
-
--   @BASSANI2022151565 **(need access!)**
-
--   There are many domain-specific research showing how varied
-    industries can develop eco-designed products. For example,
-    @DURIEZ2022454 shows how simply by reducing material weight it’s
-    possible to design more sustainable transportation.
-
--   @VANDOORSSELAER2022189 **(need access!)**
-
--   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and
-    environmental impact analysis are needed to provide ecodesign
-    scenarios.**
-
--   @NUEZ2022133252 shows how electric vehicles may increase CO2
-    emissions in some areas, such as Canary Islands, where electricity
-    production is polluting.
-
--   @ROSSI2022823 shows how introducing sustainability early in the
-    design process and providing scenarios where sustainability is a
-    metric, it’s possible to achieve more eco-friendly designs.
-
--   @TIERNAN2022169 microplastics are a real concern
-
--   @ARRANZ2022131738 developing circular economy is really complex
-
--   @CHEBA2022108601
-
--   @RUIZPASTOR2022130495
-
--   @MIYOSHI2022267 takes the example of ink toner bottles and shows in
-    a case study how standardized compatibility between older and newer
-    systems can save resources and results in sustainability savings.
-
-Again, AI has the potential to provide the parameters for
-sustainability.
-
--   @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding
-    the suitable life cycle design parameters.
-
-## Ecodesign for Sustainable Products {#ecodesign-for-sustainable-products}
-
--   Finding green products and supporting companies making them
--   Supporting legislative changes
--   Track you consumption, saving, investing. Shift balance towards
-    saving and investing.
--   @nastaraanvadoodiEcodesignRequirementsDrive2022
--   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for
-    sustainable products
-
-### Design for Circularity {#design-for-circularity}
-
--   @mcdonoughCradleCradleRemaking2002 book
--   @dullCircularSupplyChain2021 book
-
-# Young Adults {#young-adults}
+## Young Adults {#young-adults}
 
 -   Is getting people to go to nature more a good way to increase
     ecological awareness?
@@ -176,11 +45,14 @@ Design to reduce climate anxiety
     text refers to “human right to a clean, healthy and sustainable
     environment”.
 
+### What is Product Design? {#what-is-product-design}
+
+Young people expect a product.
+
+-   @koningsHowPrepareYour2020
+-   “Digital sustainability principles”
+
 ### Empowering Design {#empowering-design}
-
--   adas
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @rossClimateChangeChallenge2016a says most people in the US don’t
     act on climate change. “Action on climate change has been
@@ -200,7 +72,7 @@ Design to reduce climate anxiety
 
 -   *For young people, investing mostly means buying cryptocurrencies?*
 
-## What is Interaction Design? {#what-is-interaction-design}
+### What is Interaction Design? {#what-is-interaction-design}
 
 -   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign
     believes interaction design is still an emerging (and changing)
@@ -457,7 +329,7 @@ Create a design system!!!! best to showcase my analytic skills
 -   @MethodPodcastEpisode
 -   @AtomicDesignBrad
 
-## Fast Fashion {#fast-fashion}
+### Fast Fashion {#fast-fashion}
 
 @YoungConsumersComplicated: Young people are the largest consumers of
 fast fashion.
@@ -585,22 +457,19 @@ Sustainable Fashion, Textile Design
 
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-## Packaging {#packaging}
+### Packaging {#packaging}
 
+-   @bradleyLiteratureReviewAnalytical2023 “Over 161 million tonnes of
+    plastic packaging is produced annually.”
 -   @ChallengesOpportunitiesSustainable2022
-
 -   @ProteinBrandsConsumers2022
-
 -   @DetailrichSustainablePackaging2010
-
 -   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution
-
 -   @SulapacReplacingPlastic
-
 -   @adaChallengesCircularFood2023 notes rapid growth of the packaging
     industry which generates large amounts of waste.
 
-## Quantified Self {#quantified-self}
+### Quantified Self {#quantified-self}
 
 There is a lot of research on quantified self. the Wearable devices like
 Apple Watch, Oura Ring and apps help users track a variety of health
@@ -642,7 +511,7 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 -   @almeidaParanoidOSWearable2022
 
-# Circular Economy {#circular-economy}
+## Circular Design {#circular-design}
 
 -   @circleeconomyCircularityGapReport2022 reports only 8.6% of world
     economy is circular and *100B tonnes of virgin materials* are
@@ -650,6 +519,14 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   There’s a growing number of companies providing re-use of existing
     items.
 -   @SmartSwap For example, Swap furniture in Estonia
+-   @mcdonoughCradleCradleRemaking2002 book
+-   @dullCircularSupplyChain2021 book
+
+### Design for Repair {#design-for-repair}
+
+-   @pastorProposingIntegratedIndicator2023 proposes a **product
+    repairability index (PRI)**
+-   @formentiniDesignCircularDisassembly2023
 
 ### Platform Economy {#platform-economy}
 
@@ -677,7 +554,7 @@ metrics. Can we also track personal sustainability in a similar fashion?
     side-by-side comparison of investment vehicles on their ESG
     performance?
 
-## Factories {#factories}
+### Factories {#factories}
 
 -   Carbon-neutral factories “made in carbon-neutral factory” list of
     products
@@ -710,7 +587,7 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic
     waste
 
-## Extended Producer Responsibility {#extended-producer-responsibility}
+### Extended Producer Responsibility {#extended-producer-responsibility}
 
 -   @steenmansFosteringCircularEconomy2023 Argues for the need to engage
     companies through legislation and shift from waste-centered laws to
@@ -827,11 +704,6 @@ consume food that would otherwise be throw away.
 -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
     FoxWay and Circular economy for PCs
 
-### What is Product Design? {#what-is-product-design}
-
--   @koningsHowPrepareYour2020
--   “Digital sustainability principles”
-
 ### Shopping Design {#shopping-design}
 
 -   @CargoBikeFREITAG, Recycled clothing maker FREITAG offers
@@ -892,7 +764,7 @@ consume food that would otherwise be throw away.
     Archetypes
 
 | №   | Type                                 | Example                                                       |
-|-------------------|-------------------------|-----------------------------|
+|-------------------|-------------------------|----------------------------|
 | 1   | Transparency Accountability Advocate |                                                               |
 | 2   | Compliance Data Aggregator           |                                                               |
 | 3   | Data Intelligence Hub                |                                                               |
@@ -901,7 +773,7 @@ consume food that would otherwise be throw away.
 | 6   | Open data platform                   |                                                               |
 | 7   | Knowledge sharing platform           | https://www.business-humanrights.org/                         |
 
-## Traceability {#traceability}
+### Traceability {#traceability}
 
 -   200 million PCs sold every year personalized AI, meta glasses
     understand your context. sense and reconstruct the world around you
@@ -1172,9 +1044,125 @@ transparency, and transparency leads to trust.
 
 -   @CompanyNowDominating2021 PayPal dominance
 
-## Summary {#summary}
+### Sustainability {#sustainability}
 
--   TODO design summary.
+***Designing for Sustainability*** encompasses all human activities,
+making this pursuit an over-arching challenge across all industries.
+Assuming that as individuals we want to act in a sustainable way, how
+exactly would be go about doing that?
+
+-   \[see @ieaGlobalEnergyReview2022\] reports “Global CO2 emissions
+    from energy combustion and industrial processes rebounded in 2021 to
+    reach their highest ever annual level. A 6% increase from 2020
+    pushed emissions to 36.3 gigatonnes”
+-   @crippaCO2EmissionsAll2022 reports latest figures from the EU’s
+    Emissions Database for Global Atmospheric Research (EDGAR)
+-   Growing public understanding of how nature works and intersects with
+    our use of money.
+-   @danielvarjoNyaSatelliterAvslojar2022: hThe EU Copernicus satellite
+    system reveals new greenhouse emissions previously undetected
+
+AI can help us make sense of the vast amounts of sustainability data
+generated daily.
+
+-   @guptaAnalysisArtificialIntelligencebased2023 argues software is key
+    to building more sustainable products, already for decades. More
+    recently, companies like AutoDesk are putting CO2 calculations
+    inside their design software.
+
+-   @SustainabilityStartsDesign: “Sustainability starts in the design
+    process, and AI can help”.
+
+-   @igeniusLetTalkSustainable2020
+
+-   “Carbon pricing is not there to punish people.”
+
+-   “It’s there to remind us, when we take travel, heating, consumption
+    decisions that the true cost of fossil fuels comprises not only
+    mining and processing, but also the damage done by the CO2 they
+    release.”
+
+-   Very simple.” Lion Hirth @lionhirthLionHirthTwitter
+
+-   @chapmanDesignEmotionalDurability2009 argues in his seminal paper
+    (and later in his book) for “Emotionally Durable Design”, the simple
+    idea that we hold to things we value and thus they are sustainable.
+    We don’t throw away a necklace gifted to us by mom, indeed this
+    object might be passed down for centuries.
+    @roseEnchantedObjectsInnovation2015 has a similar idea, where
+    “Enchanted Objects” become so interlinked with us, we’re unlikely to
+    throw them away.
+
+-   “Evolution of design for sustainability: From product design to
+    design for system innovations and transitions”
+
+### Eco-Design {#eco-design}
+
+-   @EUTaxonomySustainable report: The EU has a ***taxonomy of
+    environmentally sustainable economic activities*** published by the
+    Technical Expert Group (TEG) on sustainable finance .
+
+-   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans
+    and Fisheries, is quoted as describing eco-design “respects the
+    boundaries of our planet” @europeancommissionGreenDealNew2022
+
+-   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
+    March 2022, the European Commission put forward a proposal for a
+    regulation establishing a general framework for setting ecodesign
+    requirements for sustainable products, repealing rules currently in
+    force which concentrate on energy-related products only.”
+
+-   @MANZARDO2021149507 **(need access!)**
+
+-   @INARRA2022100727 **(need access!)**
+
+-   @MUNARO2022566 **(need access!)**
+
+-   @BASSANI2022151565 **(need access!)**
+
+-   There are many domain-specific research showing how varied
+    industries can develop eco-designed products. For example,
+    @DURIEZ2022454 shows how simply by reducing material weight it’s
+    possible to design more sustainable transportation.
+
+-   @VANDOORSSELAER2022189 **(need access!)**
+
+-   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and
+    environmental impact analysis are needed to provide ecodesign
+    scenarios.**
+
+-   @NUEZ2022133252 shows how electric vehicles may increase CO2
+    emissions in some areas, such as Canary Islands, where electricity
+    production is polluting.
+
+-   @ROSSI2022823 shows how introducing sustainability early in the
+    design process and providing scenarios where sustainability is a
+    metric, it’s possible to achieve more eco-friendly designs.
+
+-   @TIERNAN2022169 microplastics are a real concern
+
+-   @ARRANZ2022131738 developing circular economy is really complex
+
+-   @CHEBA2022108601
+
+-   @RUIZPASTOR2022130495
+
+-   @MIYOSHI2022267 takes the example of ink toner bottles and shows in
+    a case study how standardized compatibility between older and newer
+    systems can save resources and results in sustainability savings.
+
+Again, AI has the potential to provide the parameters for
+sustainability.
+
+-   @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding
+    the suitable life cycle design parameters.
+-   Finding green products and supporting companies making them
+-   Supporting legislative changes
+-   Track you consumption, saving, investing. Shift balance towards
+    saving and investing.
+-   @nastaraanvadoodiEcodesignRequirementsDrive2022
+-   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for
+    sustainable products
 
 # References {#references}
 

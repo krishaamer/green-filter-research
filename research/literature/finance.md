@@ -781,8 +781,10 @@ There are many ‘green investment platforms’ who to trust?
 -   Influencer - crypto twitter connections
 -   @irenezhaoHereWhy0xIreneDao2022
 
-### LHV Crypto {#lhv-crypto}
+### Crypto {#crypto}
 
+-   @CryptocurrenciesWorldwideStatista estimates over 600 million
+    cryptocurrency users worldwide
 -   @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse
     cryptocurrency Sandbox
 -   @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in
@@ -976,7 +978,8 @@ emissions in their product lifecycle.
 
 ### ESG Crisis {#esg-crisis}
 
--   @jamesphillippsESGCrisisJust2022 ESG Not delivering on it’s hopes
+-   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023
+    ESG Not delivering on it’s hopes
 
 -   @margarytakirakosianRedFlagsPrivate2022
 
@@ -1206,6 +1209,9 @@ emissions in their product lifecycle.
 
 -   Upcoming EU greenwashing legislation hopes to curb misleading
     communications by companies.
+
+-   @AntiESGCrusadeUS2023 several US states are introducing regulation
+    for ESGs to curb greenwashing.
 
 -   Green investing only makes sense if it’s possible to distinguish
     sustainable investments from not sustainable ones.

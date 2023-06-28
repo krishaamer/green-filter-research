@@ -7,16 +7,15 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
 
-# What is Sustainability? {#what-is-sustainability}
+## Sustainability {#sustainability}
+
+### What is Sustainability? {#what-is-sustainability}
 
 -   *Sustainability* was first mentioned in
     @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context
@@ -24,7 +23,7 @@ import Humboldt from '../images/humboldt.jpg'
     sustainable forest management. The field is known today as
     *sustainable yield* of *natural capital* required to maintain
     *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
--   Climate data visualization has a long history too, starting with
+-   Climate data visualization has a long history, starting with
     ***Alexander von Humboldt,*** who revolutionized cartography by
     inventing the first isothermal maps around 1816, showing areas with
     similar temperature, variations in altitude and seasons.
@@ -64,50 +63,7 @@ import Humboldt from '../images/humboldt.jpg'
     focus on reducing operational cost of running their business through
     automation and material savings.
 
-## Human Activities {#human-activities}
-
-### Overconsumption {#overconsumption}
-
--   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale
-    study on Meta’s Facebook (n=108946), “Respondents in Spain (65%),
-    Sweden (61%), and Taiwan (60%) are the most likely to say that
-    climate change is mostly caused by human activities”.
--   Overconsumption is one of the root causes of climate change and
-    marine plastic pollution.
--   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
-    linkage of climate change and marine plastic pollution “along with
-    other stressors that threaten the resilience of species and habitats
-    sensitive to both climate change and plastic pollution”.
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
-    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
--   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
-    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
-    and the Cuvette Centrale in Democratic Republic of Congo are
-    experiencing rapid destruction due to consumer demand in the
-    European Union.**
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @ivanovaQuantifyingPotentialClimate2020: “Around two-thirds of
-    global GHG emissions are directly and indirectly linked to household
-    consumption, with a global average of about 6 tCO2eq/cap.”
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   @mobergMobilityFoodHousing2019 reports daily human activities
-    emission contribution on average in France, Germany, Norway and
-    Sweden:
-
-| Emission Share | Category |
-|----------------|----------|
-| 21%            | Housing  |
-| 30%            | Food     |
-| 34%            | Mobility |
-| 15%            | Other    |
-
--   According to @debnathSocialMediaEnables2022 39% of global CO2
-    emissions comes from the building sector.
-
-## Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
+### Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
 
 The opposite of overconsumption is the zero waste lifestyle. A movement
 of people living a simple life. This is always going to be a small
@@ -118,154 +74,6 @@ percentage of people.
 
 **For design: These movements are too small and require too much effort
 to be feasible for the app.**
-
-## Biodiversity Reduction {#biodiversity-reduction}
-
--   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
-    now at 72% or higher in all countries sampled, compared to only 29%
-    or higher across countries sampled in 2009.”
--   @unitHistoryConvention2023: The history of the United Nations
-    Convention on Biodiversity goes back to 1988, when the working group
-    was founded
--   @almondr.e.a.LivingPlanetReport reports, the number of species
-    killed, mass destruction of nature. “69% decline in the relative
-    abundance of monitored wildlife populations around the world between
-    1970 and 2018. Latin America shows the greatest regional decline in
-    average population abundance (94%), while freshwater species
-    populations have seen the greatest overall global decline (83%).”
--   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
-    (COP15) adopted the first global biodiversity framework to accompany
-    climate goals.**
-
-### Ecosystem Services {#ecosystem-services}
-
--   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
-    landowners for the ecosystem services their forests provide may
-    reduce deforestation.
--   In Estonia, startups Arbonic and Single.Earth are trialing this
-    approach in several forests.
--   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
-    solutions “land re-naturalization (such as afforestation and wetland
-    restoration)”
--   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
-    ecosystem services (ES) provided by insects. While it can be assumed
-    much of the flora and fauna are crucial for Earth’s systems, science
-    is still in the process of understanding and quantifying its
-    contributions. Meanwhile the destruction pressure on ecosystems is
-    rapidly increasing (cite A B C).
-
-### Deforestation {#deforestation}
-
--   @fredericsimonEuropeRapidlyLosing2022 Europe rapidly losing its
-    forest carbon sink.
-
--   Burning of biomass undermines carbon capture.
-
-## Pollution {#pollution}
-
-### Clean Water {#clean-water}
-
--   @kochOpinionArizonaRace2022 (**Need access!)**
-
-### Air Pollution {#air-pollution}
-
-Clean air is a requirement
-
--   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
-    over 400000 individuals in England, South Korea and Taiwan
-    establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause
-    for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health
-    and economic benefits across the board from air pollution reduction
-    in France.
--   In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the
-    Chinese University of Hong Kong: “We have known about the link
-    between pollution and lung cancer for a long time, and we now have a
-    possible explanation for it. As consumption of fossil fuels goes
-    hand in hand with pollution and carbon emissions, we have a strong
-    mandate for tackling these issues – for both environmental and
-    health reasons.”
-
-**Design Implications**: *People live in the polluted areas are so used
-to it. What app to wake them up? “You live in a highly polluted area.
-Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
-
-### Disasters {#disasters}
-
-Large ones that get international news coverage:
-
--   Chernobyl
--   Exxon Valdez
--   Deepwater Horizon
--   the Great Pacific Garbage Patch
--   Fukushima
--   @martinez-alierMappingEcologicalDistribution2021 and
-    @martinez-alierReplyOrihuelaExtractivism2022 as well as
-    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
-    tracks environmental justice cases around the world. Dispues in
-    @eerolaCorporateConductCommodity2022.
-
-### Health {#health}
-
--   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
-    central to all sustainability efforts.”All of these (food, housing,
-    power, and health care), and the stress that the lack of them
-    generate, play a huge role in our health,” Hollis says.”
-
--   @PublicHealthLinkages2013
-
--   @guidottiHealthSustainabilityIntroduction2015
-
--   “Sustainability is important for many reasons including:
-    Environmental Quality – In order to have healthy communities, we
-    need clean air, natural resources, and a nontoxic environment.”
-
-### Carbon Labeling {#carbon-labeling}
-
--   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
-    practiced by only a handful of companies. The U.S. restaurant chain
-    *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
-    milk *Oatly* provide carbon labeling on their products.
-
--   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like
-    ClimatePartner and Carbon Calories offers labeling consumer goods
-    with emission data as a service.
-
--   @thecarbontrustHowReduceYour: The Carbon Trust reports it’s
-    certified 27 thousand product footprints.
-
--   @ivanovaQuantifyingPotentialClimate2020: The average per capita
-    carbon footprint of North America 13.4, Europe 7.5, Africa and the
-    Middle East 1.7 tonnes of CO2 equivalent per capita.
-
--   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
-    options with a high mitigation potential measured in tons of CO2
-    equivalent per capita per year.”
-
--   55% of emissions come from energy production.
-
--   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
-    percent of U.S. Gen-Z and Millenials follow news related to
-    environmental issues.
-
--   @cartoClimateResilienceGeography2023 Making advanced maps to
-    convince people to make changes
-
--   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
-    consumer choice towards sustainability.
-
--   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
-    per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
-    top 5 largest per capita CO2 emissions come from Oil Producers -
-    Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in
-    2020.
-
--   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides
-    CO2 emissions for all the countries around the world, per total
-    emissions the top 10 are China, U.S.A. the European Union, India,
-    Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
-    2021.
-
-## Climate Protection Efforts {#climate-protection-efforts}
 
 ### Nationally Determined Contributions {#nationally-determined-contributions}
 
@@ -293,32 +101,6 @@ Large ones that get international news coverage:
     @fransenStateNationallyDetermined2022 notes that the majority of
     Nationally Determined Contributions (NDCs) are dependent on
     financial assistance from the international community.
-
-### Growing Population {#growing-population}
-
--   According to @theeconomictimesClimateChangeEarth2022, in November
-    2022, Planet Earth’s population reached 8 Billion people.
--   The future population projections in
-    @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
-    predict 8.5B people by 2030 and 9.7B by 2050.
--   While population growth puts higher pressure on Earth’s resources,
-    some research shows the effect is more from wasteful lifestyles than
-    the raw number of people (**FIND CITATION**).
-
-### Ethics and Cruelty {#ethics-and-cruelty}
-
--   Cruelty free brands
--   Rank companies based on sustainability
--   BCorp
--   ESG
--   Trash found in ocean / nature etc
--   Help you to decide: what to buy, how to save, where to invest
--   Increase your investment point by matching with your contribution /.
--   Point of Sales integration (know the SKU you buy). Integrate to the
-    financial eco footprint (no need to scan the product). What’s the
-    name of the startup that does this?
--   Precision Fermentation and Cultivated Meat: Meat products without
-    farm animals
 
 ### Carbon Markets {#carbon-markets}
 
@@ -350,7 +132,7 @@ Large ones that get international news coverage:
 -   @unitednationsenvironmentprogrammeEmissionsGapReport2022 2022
     Emissions Gap report.
 
-### Fossil Fuels and Energy {#fossil-fuels-and-energy}
+#### Fossil Fuels and Energy {#fossil-fuels-and-energy}
 
 There’s evidence from several countries suggesting moving to renewal
 energy brings benefits:
@@ -369,7 +151,10 @@ energy brings benefits:
 
 -   The true cost of products is hidden. The work is hidden.
 
-### Emission Scopes {#emission-scopes}
+-   @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry
+    to grow even faster.
+
+#### Emission Scopes {#emission-scopes}
 
 -   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The
     U.S. National Public Utilities Council (NPUC) decarbonization report
@@ -381,21 +166,21 @@ energy brings benefits:
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
-### Cap and Trade {#cap-and-trade}
+#### Cap and Trade {#cap-and-trade}
 
 -   adsas
 
-### Carbon Inequality {#carbon-inequality}
+#### Carbon Inequality {#carbon-inequality}
 
 -   @chancelGlobalCarbonInequality2022 suggests “while one-tenth of the
     global population is responsible for nearly half of all emissions,
     half of the population emits less than 12% of it”.
 
-### Carbon Credit Retirement {#carbon-credit-retirement}
+#### Carbon Credit Retirement {#carbon-credit-retirement}
 
 -   ads
 
-### Carbon Capture {#carbon-capture}
+#### Carbon Capture {#carbon-capture}
 
 -   @vitilloRoleCarbonCapture2022 argues
 
@@ -408,7 +193,7 @@ energy brings benefits:
 -   **Important: “creating sustainability trust in companies in
     realtime”**
 
-### Social Cost of Carbon {#social-cost-of-carbon}
+#### Social Cost of Carbon {#social-cost-of-carbon}
 
 -   @rennertComprehensiveEvidenceImplies2022: Carbon price should be
     3,6x higher.
@@ -498,7 +283,7 @@ energy brings benefits:
 -   @patelBlockchainTechnologyFood2023 livestock products are 15% of
     agri-foods valued at €152 billion in 2018.
 
-## Oracles for Sustainability Data {#oracles-for-sustainability-data}
+#### Oracles for Sustainability Data {#oracles-for-sustainability-data}
 
 Intersection with finance.
 
@@ -521,7 +306,7 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   IPCI OpenLitterMap G.I.D Coin Regen Network
 
-### Real World Data {#real-world-data}
+#### Real World Data {#real-world-data}
 
 -   O bank carbon calculator (Brasil)
 
@@ -534,7 +319,68 @@ carbon labeling, packaging, transportation, consumption, and waste.
     carbon emission of each transaction based on the type and amount of
     products or services purchased.”
 
-### Biomarkers vs Ecomarkers {#biomarkers-vs-ecomarkers}
+#### Carbon Labeling {#carbon-labeling}
+
+-   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
+    practiced by only a handful of companies. The U.S. restaurant chain
+    *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
+    milk *Oatly* provide carbon labeling on their products.
+
+-   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like
+    ClimatePartner and Carbon Calories offers labeling consumer goods
+    with emission data as a service.
+
+-   @thecarbontrustHowReduceYour: The Carbon Trust reports it’s
+    certified 27 thousand product footprints.
+
+-   @ivanovaQuantifyingPotentialClimate2020: The average per capita
+    carbon footprint of North America 13.4, Europe 7.5, Africa and the
+    Middle East 1.7 tonnes of CO2 equivalent per capita.
+
+-   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
+    options with a high mitigation potential measured in tons of CO2
+    equivalent per capita per year.”
+
+-   55% of emissions come from energy production.
+
+-   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
+    percent of U.S. Gen-Z and Millenials follow news related to
+    environmental issues.
+
+-   @cartoClimateResilienceGeography2023 Making advanced maps to
+    convince people to make changes
+
+-   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
+    consumer choice towards sustainability.
+
+-   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
+    per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
+    top 5 largest per capita CO2 emissions come from Oil Producers -
+    Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in
+    2020.
+
+-   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides
+    CO2 emissions for all the countries around the world, per total
+    emissions the top 10 are China, U.S.A. the European Union, India,
+    Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
+    2021.
+
+#### Ethics and Cruelty {#ethics-and-cruelty}
+
+-   Cruelty free brands
+-   Rank companies based on sustainability
+-   BCorp
+-   ESG
+-   Trash found in ocean / nature etc
+-   Help you to decide: what to buy, how to save, where to invest
+-   Increase your investment point by matching with your contribution /.
+-   Point of Sales integration (know the SKU you buy). Integrate to the
+    financial eco footprint (no need to scan the product). What’s the
+    name of the startup that does this?
+-   Precision Fermentation and Cultivated Meat: Meat products without
+    farm animals
+
+### Biomarkers vs Ecomarkers (Ecological Indicators) {#biomarkers-vs-ecomarkers-ecological-indicators}
 
 -   **Blood testing and biomarkers allow people to track their health.
     I’m introducing the concept of ‘eco-markers’ to follow the
@@ -565,10 +411,6 @@ carbon labeling, packaging, transportation, consumption, and waste.
 -   @KlimaDAO2023 KlimaDAO
 -   @PlanetKlimatesLuis Moss.earth
 
-### Inflation Reduction Act {#inflation-reduction-act}
-
--   adas
-
 ### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
 -   Food forests for regenerative food systems.
@@ -594,6 +436,155 @@ carbon labeling, packaging, transportation, consumption, and waste.
     “Would you rather buy a DogeCoin or a regenerative food forest
     token?” @refidaoReFiPodcastS2E92022 (Use as a question for the
     survey?)
+
+## **Environmental Degradation** {#environmental-degradation}
+
+### Growing Population {#growing-population}
+
+-   According to @theeconomictimesClimateChangeEarth2022, in November
+    2022, Planet Earth’s population reached 8 Billion people.
+-   The future population projections in
+    @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
+    predict 8.5B people by 2030 and 9.7B by 2050.
+-   While population growth puts higher pressure on Earth’s resources,
+    some research shows the effect is more from wasteful lifestyles than
+    the raw number of people (**FIND CITATION**).
+
+### Overconsumption {#overconsumption}
+
+-   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale
+    study on Meta’s Facebook (n=108946), “Respondents in Spain (65%),
+    Sweden (61%), and Taiwan (60%) are the most likely to say that
+    climate change is mostly caused by human activities”.
+-   Overconsumption is one of the root causes of climate change and
+    marine plastic pollution.
+-   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
+    linkage of climate change and marine plastic pollution “along with
+    other stressors that threaten the resilience of species and habitats
+    sensitive to both climate change and plastic pollution”.
+-   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
+    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+-   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
+    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
+    and the Cuvette Centrale in Democratic Republic of Congo are
+    experiencing rapid destruction due to consumer demand in the
+    European Union.**
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+-   @ivanovaQuantifyingPotentialClimate2020: “Around two-thirds of
+    global GHG emissions are directly and indirectly linked to household
+    consumption, with a global average of about 6 tCO2eq/cap.”
+-   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+-   @mobergMobilityFoodHousing2019 reports daily human activities
+    emission contribution on average in France, Germany, Norway and
+    Sweden:
+
+| Emission Share | Category |
+|----------------|----------|
+| 21%            | Housing  |
+| 30%            | Food     |
+| 34%            | Mobility |
+| 15%            | Other    |
+
+-   According to @debnathSocialMediaEnables2022 39% of global CO2
+    emissions comes from the building sector.
+
+### Biodiversity Loss {#biodiversity-loss}
+
+-   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
+    now at 72% or higher in all countries sampled, compared to only 29%
+    or higher across countries sampled in 2009.”
+-   @unitHistoryConvention2023: The history of the United Nations
+    Convention on Biodiversity goes back to 1988, when the working group
+    was founded
+-   @almondr.e.a.LivingPlanetReport reports, the number of species
+    killed, mass destruction of nature. “69% decline in the relative
+    abundance of monitored wildlife populations around the world between
+    1970 and 2018. Latin America shows the greatest regional decline in
+    average population abundance (94%), while freshwater species
+    populations have seen the greatest overall global decline (83%).”
+-   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
+    (COP15) adopted the first global biodiversity framework to accompany
+    climate goals.**
+
+### Ecosystem Services {#ecosystem-services}
+
+-   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
+    landowners for the ecosystem services their forests provide may
+    reduce deforestation.
+-   In Estonia, startups Arbonic and Single.Earth are trialing this
+    approach in several forests.
+-   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
+    solutions “land re-naturalization (such as afforestation and wetland
+    restoration)”
+-   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
+    ecosystem services (ES) provided by insects. While it can be assumed
+    much of the flora and fauna are crucial for Earth’s systems, science
+    is still in the process of understanding and quantifying its
+    contributions. Meanwhile the destruction pressure on ecosystems is
+    rapidly increasing (cite A B C).
+
+### Deforestation {#deforestation}
+
+-   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe
+    rapidly losing its forest carbon sink.
+
+-   Burning of biomass undermines carbon capture.
+
+### Clean Water {#clean-water}
+
+-   @kochOpinionArizonaRace2022 (**Need access!)**
+
+### Air Pollution {#air-pollution}
+
+Clean air is a requirement
+
+-   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
+    over 400000 individuals in England, South Korea and Taiwan
+    establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause
+    for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health
+    and economic benefits across the board from air pollution reduction
+    in France.
+-   In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the
+    Chinese University of Hong Kong: “We have known about the link
+    between pollution and lung cancer for a long time, and we now have a
+    possible explanation for it. As consumption of fossil fuels goes
+    hand in hand with pollution and carbon emissions, we have a strong
+    mandate for tackling these issues – for both environmental and
+    health reasons.”
+
+**Design Implications**: *People live in the polluted areas are so used
+to it. What app to wake them up? “You live in a highly polluted area.
+Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
+
+### Disasters {#disasters}
+
+Large ones that get international news coverage:
+
+-   Chernobyl
+-   Exxon Valdez
+-   Deepwater Horizon
+-   the Great Pacific Garbage Patch
+-   Fukushima
+-   @martinez-alierMappingEcologicalDistribution2021 and
+    @martinez-alierReplyOrihuelaExtractivism2022 as well as
+    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
+    tracks environmental justice cases around the world. Dispues in
+    @eerolaCorporateConductCommodity2022.
+
+### Health {#health}
+
+-   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
+    central to all sustainability efforts.”All of these (food, housing,
+    power, and health care), and the stress that the lack of them
+    generate, play a huge role in our health,” Hollis says.”
+
+-   @PublicHealthLinkages2013
+
+-   @guidottiHealthSustainabilityIntroduction2015
+
+-   “Sustainability is important for many reasons including:
+    Environmental Quality – In order to have healthy communities, we
+    need clean air, natural resources, and a nontoxic environment.”
 
 ## Conclusion {#conclusion}
 

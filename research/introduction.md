@@ -26,6 +26,15 @@ Consumer lifestyle contributes to environmental destruction.
 models show 45% of CO2 equivalent emissions come from our daily
 shopping, produced by companies that make the products we consume.
 
+A survey of 1.2 million people showing the percentage of people agreeing
+climate change is an emergency @PeoplesClimateVote
+
+| Age     | Percent |
+|---------|---------|
+| 18-35   | 65%     |
+| 36-59   | 66%     |
+| Over 69 | 58%     |
+
 While people express eco-conscious ideas, it’s non-trivial to practice
 sustainability in daily life.
 
@@ -43,6 +52,14 @@ water. Small interactions allow users to align their value with their
 actions.
 
 What would be a good interface to track sustainability?
+
+@MappingGapRoad2016 The global financing gap for low-carbon energy
+production in 2016 was 5.2 Trillion USD.
+@therockefellerfoundationWhatGetsMeasured2022 estimates the financing
+gap to be 2.5-3.2 Trillion USD in 2022. @MobilizingCapitalEmerging2022
+The lack of funding especially affects emerging economies.
+
+The theme for Earth Day 2023 was “Invest In Our Planet”. @EarthDay2023
 
 ## The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
 
@@ -89,6 +106,10 @@ marketplace… but until we do, use the green filter.
     companies
 -   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable
     companies
+-   @rajagopalanInflationReductionAct2023: In the US, the *Inflation
+    Reduction Act* provides funding to development of decarbonizing
+    technologies and includes plans to combat air pollution, reduce
+    green house gases and address environmental injustices.
 
 ### Ecodesign as Key Policy Tool {#ecodesign-as-key-policy-tool}
 

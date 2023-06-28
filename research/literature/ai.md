@@ -15,7 +15,7 @@ import Strava from '../images/strava.png'
 import Replika from '../images/with-me.png'
 ```
 
-# A Brief History of AI {#a-brief-history-of-ai}
+## A Brief History of AI {#a-brief-history-of-ai}
 
 Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan
 Turing published the Turing Test for Machine intelligence
@@ -237,7 +237,7 @@ How is AI changing ’interactions?
 
 ### From Concept to Reality {#from-concept-to-reality}
 
-## Large-Language Models (LLMs) {#large-language-models-llms}
+### Large-Language Models (LLMs) {#large-language-models-llms}
 
 The Advent of Large-Language Models
 
@@ -332,7 +332,7 @@ lot.
 -   AI-assistants in medical imaging
     @calistoIntroductionHumancentricAI2021
 
-# AI Companions {#ai-companions}
+## AI Companions {#ai-companions}
 
 -   AI companions, AI partners, AI assistants, AI trainers - there’s are
     many names for the automated systems that help humans in many
@@ -626,22 +626,22 @@ explainability.
 
 -   @orozcoBudapestBicycleNetwork2020
 
-## AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
+### AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
 
 -   adas
 
-## Calm Technology {#calm-technology}
+### Calm Technology {#calm-technology}
 
 -   Tech fades to the background, IoT.
 
-## Generative AI {#generative-ai}
+### Generative AI {#generative-ai}
 
 -   @Singer2022MakeAVideoTG describes how collecting billions of images
     with descriptive data (for example the html *alt* text) has enabled
     researchers to train AI models such as *stable diffusion* that can
     generate images based on human-language keywords.
 
-## AI Companions, Chatbots, AI Assistants and Robo-Advisors {#ai-companions-chatbots-ai-assistants-and-robo-advisors}
+### AI Companions, Chatbots, AI Assistants and Robo-Advisors {#ai-companions-chatbots-ai-assistants-and-robo-advisors}
 
 Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown
 out of the water.
@@ -758,7 +758,7 @@ out of the water.
 -   @hoangEnterDynamicIsland2022: “Dynamic interfaces might invoke a new
     design language for XR”
 
-## Algorithmic Transparency {#algorithmic-transparency}
+### Algorithmic Transparency {#algorithmic-transparency}
 
 -   @slackAturaProcess2021
 
@@ -767,7 +767,7 @@ out of the water.
     qualities/features are received and transformed into experiences and
     interaction”
 
-## AI Ethics {#ai-ethics}
+### AI Ethics {#ai-ethics}
 
 -   @AlgoTransparency manifesto, AI is not neutral
 
@@ -778,7 +778,7 @@ out of the water.
 -   @tristangreeneConfusedReplikaAI2022: when the quality of AI
     responses become good enough, people begin to get confused.
 
-## AI Acceptance {#ai-acceptance}
+### AI Acceptance {#ai-acceptance}
 
 -   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
     important factors affecting the *utilitarian/hedonic* value
@@ -803,7 +803,7 @@ out of the water.
     Can this idea be applied to sustainability? MyFitness Pal, AI
     training assistant**
 
-## AI-Assisted Design {#ai-assisted-design}
+### AI-Assisted Design {#ai-assisted-design}
 
 -   @september162020WhatAIassistedDesign2020 “What is AI-assisted
     Design?”
