@@ -19,7 +19,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Understand who makes the products you buy and what are some greener
+        Understand who makes the products you buy and choose greener
         alternatives
       </>
     ),
@@ -36,7 +36,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Learn how your money can conserve a biodiverse environment and focus on what
+        Use your money to conserve a biodiverse environment and focus on what
         matters
       </>
     ),
@@ -54,7 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        See what kind of companies your money is supporting and find eco-friendly investments
+        Filter companies based on green credentials and find eco-friendly investments
       </>
     ),
   },
