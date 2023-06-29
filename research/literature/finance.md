@@ -7,6 +7,9 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -149,6 +152,7 @@ import Bunq from '../images/bunq.jpg'
 
 -   Rating Systems: Companies assess customer’s credit score, however
     how can customers rate companies.
+-   ESG Shopping: “Changing our relationship with money”
 
 | Rating System              | Link |
 |----------------------------|------|
@@ -291,6 +295,15 @@ sustainability practices.
 
 -   People like Turkey losing 75% of the value of their assets when
     currency collapses, why people buy crypto.
+-   @CryptocurrenciesWorldwideStatista estimates over 600 million
+    cryptocurrency users worldwide
+-   @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse
+    cryptocurrency Sandbox
+-   @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in
+    crypto
+-   @raidotonissonSedaAktsionaridOstaksid2022 due to a law change
+    Estonian could take out their pensions and invest or spend them
+    however they wanted.
 
 ### Digital Currency {#digital-currency}
 
@@ -311,34 +324,6 @@ sustainability practices.
 -   What if we gave consumers the tools to keep companies accountable?
 
 -   @ContactlessPaymentsPrevalent2023 in Macau Contactless Payments:
-
-### Money {#money}
-
--   A wide number of banks are offering services marketed a sustainable.
-    It’s hard to decide.
-
--   *Design implication*: *As a user, I can use the app to compare banks
-    available in my country*
-
--   Ant Group’s Eric Jing in @turrinCashlessChinaDigital2021: *“The
-    financial system of the past 200 years was designed for the
-    industrial era and served only 20% of the population and
-    organizations. As we enter the digital age, we must better serve the
-    remaining 80%.”*
-
--   @rupertjonesGreenMoneyHow2022
-
--   @jacksonEcoFriendlyGuideFinances2020
-
--   @stefSustainableMoneyDesign2019
-
--   @MakeMyMoney2023
-
--   @seekingalphaBooksThatChanged2020
-
--   @markoTeekondMiljoniliseInvesteerimisportfellini2022
-
--   Consumer debt in the USA
 
 ### Digital Payments {#digital-payments}
 
@@ -408,6 +393,22 @@ People are concerned with digital payments
 -   @EthicalSavingsEverything2023
 -   @EthicalShopping2019
 -   @GoodShoppingGuide
+
+### Fintech User Experience (UX) {#fintech-user-experience-ux}
+
+Given the large number of fraud cases in finance, *trust* is the number
+one concern for users (CITE). Good design is crucial for creating
+transparency, and transparency leads to trust.
+
+-   @WhyDesignKey2021
+-   @seanmcgowanUXDesignFinTech2018
+-   @robindhanwaniFintechUIUX2021
+-   @DesigningFintechApp2021
+-   @cordeiroDesignNoLonger2016
+-   @ungrammaryProductDesignCase2020
+-   Like a Robinhood stock symbol page for brands including live ESG
+    metrics and ability to register divestment - Same for crypto can be
+    automated? - People will start to discuss ESG vs price discrepancy?
 
 ### Banks, Fintech, and Payments {#banks-fintech-and-payments}
 
@@ -542,7 +543,9 @@ People are concerned with digital payments
 
 ## Investing {#investing}
 
-### Getting Started with Investing {#getting-started-with-investing}
+### Retail Investors {#retail-investors}
+
+#### Rise of Novice Investors {#rise-of-novice-investors}
 
 Several banks have started offering a service to automatically save and
 invest tiny amounts of money collected from shopping expenses. Every
@@ -638,73 +641,22 @@ showing how for an average Estonian means additional savings of about
 | @LightyearInvestingOwn | Estonian investing app        |
 | @SelmaYourFinances     | Finnish investing app         |
 
-### What is Sustainable Investing? {#what-is-sustainable-investing}
+#### Personalized Investing {#personalized-investing}
 
-There’s a growing literature suggesting it’s possible to make
-investments that both make an attractive financial return and adhere to
-sustainability goals. In housing development, there’s evidence of
-‘green’ buildings achieving a ‘higher financial return than conventional
-buildings, both in terms of rent and sale price’
-(@oyedokunGreenPremiumDriver2017). There’s also a trend of investors
-looking for sustainability in addition to profits in a few countries.
+-   2022 saw a wave of new platforms aiming to make investing easier for
+    retail investors
 
--   For example - In Sweden “Preferences for sustainable and responsible
-    equity funds
+-   @RevolutLaunchesETF2023 and @KickstartYourInvestment2023 One example
+    is Revolut, which expanded from a simple payments app to support
+    varied saving and investment types.
 
--   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice
-    experiment with Swedish private investors.
+#### Influencers {#influencers}
 
--   @smithChinaUltraElite2019 suggests 74% of Chinese youth are looking
-    for “positive impact”.
+-   Influencers are terrible for investing… but?
+-   Influencer - crypto twitter connections
+-   @irenezhaoHereWhy0xIreneDao2022
 
--   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on
-    the rise in Asia however @hoAsianInvestorsAre2019 counters investors
-    are not sure how to separate sustainable assets from less
-    sustainable ones.
-
-### Investment Products and Asset Classes {#investment-products-and-asset-classes}
-
--   The main categories of investment products are, based on the
-    @InvestmentProductsInvestor
-
-| Investment Product                            | Col2 |
-|-----------------------------------------------|------|
-| Stocks                                        |      |
-| Bonds                                         |      |
-| Mutual Funds                                  |      |
-| ETFs                                          |      |
-| Insurance Products such as Variable Annuities |      |
-|                                               |      |
-
-### Green Bonds {#green-bonds}
-
--   Sustainability Linked Bonds: What this?
-
--   @cityofmalmoGreenBondFramework2017: In 2017 the Malmö city in Sweden
-    released green bonds to finance a sustainable transition of the city
-
--   @anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022:
-    Aramco, Saudi Arabian public petroleum and natural gas company ‘Fake
-    green bonds’ under scrutiny.
-
--   @shashwatmohantyGreenPushGreenwash2022: “sustainable funds don’t buy
-    Zomato’s ESG narrative”
-
--   @priscilaazevedorochaGreenwashingEnters222022:
-    “Sustainability-linked bonds let companies borrow cheaply if they
-    meet environmental, social, and governance targets. A Bloomberg News
-    analysis found those goals are weak”
-
--   @priscilaazevedorochaGreenwashingEnters222022 suggests “So far, most
-    ESG investing is in the stock market. But the the \$22 trillion
-    corporate bond market, where mature global companies such as Chanel
-    go to borrow money from investors, has a particularly powerful role
-    to play. Companies rely on debt much more than they do on stocks.”
-
--   Green Bonds ESG data needs to be visualized Passive Investing Why
-    focus on PI instead of daily investing like Robinhood?
-
-### Green Investment Platforms {#green-investment-platforms}
+#### Green Investment Platforms {#green-investment-platforms}
 
 There are many ‘green investment platforms’ who to trust?
 
@@ -731,78 +683,49 @@ There are many ‘green investment platforms’ who to trust?
     experience, which then generates a positive ripple effect through
     the entire customer journey. ” investing into good companies
 
-### Thematic Capital {#thematic-capital}
+#### Financial Inclusion {#financial-inclusion}
 
--   Build a thematic portfolio
+-   @TAN202046 proposes *“financial ecologies”* to understand the
+    dynamic relationships between various actors: investors, advisors,
+    government, where the government plays an active role in growing
+    financial inclusion and responsible financial management. However,
+    the paper further suggests that current robo-advisors (available in
+    Singapore) make the investor captive to the agency of AI, making the
+    person lose agency over their financial decisions.
+-   @liCanRetailInvestors2022 suggests retail “investor attention can
+    significantly improve enterprises’ green innovation level”
+-   Celo and Impact Market
+-   MicroLending
 
-### Community Investing {#community-investing}
+#### Retail Investor Helpers {#retail-investor-helpers}
 
--   Build an investing community?
+-   A wide number of banks are offering services marketed a sustainable.
+    It’s hard to decide.
 
-### Hedge Funds and DAOs {#hedge-funds-and-daos}
+-   *Design implication*: *As a user, I can use the app to compare banks
+    available in my country*
 
--   While hedge funds used to be available for professional investors,
-    *smart contracts* make it possible to create decentralized
-    organizations which pool member resources for investing.
+-   Ant Group’s Eric Jing in @turrinCashlessChinaDigital2021: *“The
+    financial system of the past 200 years was designed for the
+    industrial era and served only 20% of the population and
+    organizations. As we enter the digital age, we must better serve the
+    remaining 80%.”*
 
--   @nathanreiffDecentralizedAutonomousOrganization2023
+-   @rupertjonesGreenMoneyHow2022
 
--   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of
-    CO2e reduction one manages to achieve by changing one’s behavior and
-    influencing others (people, companies). While the individual
-    footprint is so small, the largest reduction will come from
-    influencing large groups of people, either by leadership, eeskuju,
-    or other means.
+-   @jacksonEcoFriendlyGuideFinances2020
 
--   @TreesFuture2023 DAOs to enable concerted action towards climate
-    goals
+-   @stefSustainableMoneyDesign2019
 
--   @InvestmentClubsCollectives: Crypto investment clubs canceled
+-   @MakeMyMoney2023
 
--   @IBISANetworkEnabling: Crypto crop insurance
+-   @seekingalphaBooksThatChanged2020
 
--   Social + NFTs - What would investing look like at the scale of 1
-    billion people
+-   @markoTeekondMiljoniliseInvesteerimisportfellini2022
 
--   @ianbezekItTimeEveryone2021
+-   Consumer debt in the USA
 
--   @lucasmatneyVCbackedDAOStartups2022
-
--   @blockchannelWhatDAOHow2017
-
--   @carrawuInvestingFriendsBenefits2021 DAO consumer to investor
-
--   Koreans investing into media personalities:
-    @yuqingzhao2021ZongJieWoChiKaiChuanTongJinRongQuanZhiZuoQuKuaiLianLaLEFT2021
-
-### Influencers {#influencers}
-
--   Influencers are terrible for investing… but?
--   Influencer - crypto twitter connections
--   @irenezhaoHereWhy0xIreneDao2022
-
-### Crypto {#crypto}
-
--   @CryptocurrenciesWorldwideStatista estimates over 600 million
-    cryptocurrency users worldwide
--   @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse
-    cryptocurrency Sandbox
--   @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in
-    crypto
--   @raidotonissonSedaAktsionaridOstaksid2022 due to a law change
-    Estonian could take out their pensions and invest or spend them
-    however they wanted.
-
-### Personalized Investing {#personalized-investing}
-
--   2022 saw a wave of new platforms aiming to make investing easier for
-    retail investors
-
--   @RevolutLaunchesETF2023 and @KickstartYourInvestment2023 One example
-    is Revolut, which expanded from a simple payments app to support
-    varied saving and investment types.
-
-### Retail Investor Helpers {#retail-investor-helpers}
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Nubanks, also known as challenger banks.
 
@@ -813,70 +736,19 @@ There are many ‘green investment platforms’ who to trust?
 |           |      |
 |           |      |
 
-### ESG Shopping {#esg-shopping}
-
--   “Changing our relationship with money”
-
-### Realtime ESG {#realtime-esg}
-
-There’s a growing number of companies helping businesses to measure CO2e
-emissions in their product lifecycle.
-
--   @kylewiggersMakersiteLands18M2022 proposes makersite, instant
-    sustainability impact from supply chain.
-
--   @makersiteImproveYourProduct proposes ***product sustainability
-    modeling***.
-
--   @timnicolleRealtimeESGData “Real-time ESG data is more difficult to
-    greenwash”, “supply chain is a significant source of ESG content”
-
--   Automate CO2 calculations realtime:
-
--   @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO2
-    counting
-
--   “Factory social score”.
-
--   People working at the factories can report conditions
-
--   @ESGAnalyticsRealtime: “But the real breakthrough is how we can
-    surface that real-time ESG data directly to individuals in the shops
-    and online, linked to the products that they are browsing and
-    potentially buying. This means that ESG change will finally be
-    driven by the ultimate judge of business success – the customer.”
-
-### ESG Hedge Funds {#esg-hedge-funds}
-
--   @blackrockESGInvestingHedge notes some ESG-oriented hedge funds can
-    be “highly engaged with management teams” in order to influence
-    managment towards ESG practices in said companies .
--   @ESGHedgeFunds2021
--   **Feature**: Make a climate hedge fund with friends
--   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
--   Most successful investor invest together
--   Angelist
--   What does investing look like at the scale of billions of people?
-    like IG
-
-### ESG is a Marketing Tool {#esg-is-a-marketing-tool}
-
--   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
--   @agnewRIPESG2022 RIP ESG
--   @luoESGLiquidityStock2022 found firms with a lower ESG score are
-    more profitable.
-
-### Neobanks and ESG {#neobanks-and-esg}
+#### Neobanks and ESG {#neobanks-and-esg}
 
 -   There are far too many neo–banks, or challenger banks to list. The
     table only includes a small sample of banks and the landscape is
     even larger if one includes the wider array of fintechs.
 
+-   Neo-banks often use sustainability marketing.
+
 -   @migozziYouShouldWhat2023: India has more than 2000 fin-techs since
     2015.
 
 | Name      |                            | Reference                   | Country |
-|-------------------|------------------|------------------|------------------|
+|------------------|------------------|------------------|------------------|
 | Monzo     |                            | @monzoOnlineBankingMade2023 | UK      |
 | Nubank    |                            | @NubankFinalmenteVoce       | Brazil  |
 | EToro     |                            |                             |         |
@@ -920,94 +792,40 @@ emissions in their product lifecycle.
 
 -   @hydeGiftHowCreative2006 Money as a gift
 
-### ESG Investing {#esg-investing}
+#### Community Investing {#community-investing}
 
--   My research aims to find ways to enable a wider audience to access
-    sustainable investment opportunities. This chapter gives an overview
-    of the current (as of late 2020) sustainable investing landscape as
-    well as future trends related to interaction design and user
-    experience innovations (fig. 4).
+-   You don’t know how to invest? Build an investing community? Can
+    follow others and raise capital together.
 
--   This research is concerned with how billions of people might exclude
-    polluting companies from their lives and elect to support companies
-    that put sustainability in the core of their business instead. Why
-    does it matter? Individual sacrifice is too small to have a
-    meaningful impact. For societal change, we need to pool our
-    resources.
+### Sustainable Investing {#sustainable-investing}
 
--   **How can ESG (environment, social, and governance) become
-    accessible to our everyday experience, while avoiding
-    greenwashing?**
+#### The Trend {#the-trend}
 
--   Given our combined power (I’m a Millennial) with Generation Z, we
-    are willing to pay more for sustainable products \[^8\].
+There’s literature suggesting it’s possible to make investments that
+both make an attractive financial return and adhere to sustainability
+goals. In housing development, there’s evidence of ‘green’ buildings
+achieving a ‘higher financial return than conventional buildings, both
+in terms of rent and sale price’ (@oyedokunGreenPremiumDriver2017).
+There’s also a trend of investors looking for sustainability in addition
+to profits in a few countries.
 
--   In institutional finance, the Norwegian \$1.3T USD sovereign wealth
-    fund (the world’s largest, followed by China)\[^5\] started a
-    divestment trend in 2016 by divesting from coal. Their plan to reach
-    net zero CO2e nonetheless only targets 2050. Furthermore, who would
-    be the counterpart for such large transactions? The fund also
-    announced divesting from Russia after its invasion of Ukraine,
-    however has yet to sell any shares citing lack of buyers on the
-    Moscow stock market. University of California also followed suit
-    with divestment of its \$126B USD portfolio from oil and gas.
+-   For example - In Sweden “Preferences for sustainable and responsible
+    equity funds
 
--   Other large university endowments, such as managed by Yale, Stanford
-    and MIT are in decision gridlock\[^6\]. Blackrock, the largest
-    private investment fund in the world with \$10T USD under
-    management, released guidance reflecting their plans to shift their
-    investments to vehicles that are measured on Environmental, Social,
-    and Governance (ESG) performance \[^7\]. However they later
-    backtracked from their decision.
+-   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice
+    experiment with Swedish private investors.
 
--   Banks are required by law to apply the principle of Know Your
-    Customer (KYC).
+-   @smithChinaUltraElite2019 suggests 74% of Chinese youth are looking
+    for “positive impact”.
 
--   How could people apply the same principle (Know Your Company) when
-    buying a product or investing? Would building an ESG community help
-    push polluting companies towards greener practices? - or starving
-    them from cheap access to capital.
+-   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on
+    the rise in Asia however @hoAsianInvestorsAre2019 counters investors
+    are not sure how to separate sustainable assets from less
+    sustainable ones.
 
--   It can be as mundane as choosing the next eco-friendly product
-    instead of the polluting one we purchase in the supermarket make a
-    difference? How to invest in the growth of companies that put ESG at
-    the center of their activities instead of using it for greenwashing?
-    Creating direct ties will improve ESG. A journey from consumption to
-    investing, in line with users’ personal values, by providing
-    relevant sustainable finance guidance.
+#### ESG {#esg}
 
-### ESG Crisis {#esg-crisis}
-
--   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023
-    ESG Not delivering on it’s hopes
-
--   @margarytakirakosianRedFlagsPrivate2022
-
--   @dailyHereOurList2021 best ESG list
-
--   ESG UAE FutureESGInvesting
-
--   @sanjaibhagatInconvenientTruthESG2022: Not better environmental
-    performance, ESG poor performance
-
--   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG
-
-### Analysis {#analysis}
-
--   Messari: investor education, information asymmetry
-
-### Regenerative Investing and Finance {#regenerative-investing-and-finance}
-
--   @SociallyResponsibleInvesting
--   @naturalinvestMalaikaMaphalalaNatural2020
--   @marquisRSFLeadingWay2021
-
-### Investment Products {#investment-products}
-
--   There’s a wide range of investment products marketed as
-    *sustainable*, however many of them are fake (**CITATION**).
-
-### Environmental, Social, and Corporate Governance (ESG) {#environmental-social-and-corporate-governance-esg}
+-   Environmental, Social, and Corporate Governance (ESG)
 
 -   Since the 1970s, international bodies, governments, and private
     corporations have developed sustainability measurement metrics, the
@@ -1069,6 +887,190 @@ emissions in their product lifecycle.
     help users feel in control of their investment decisions, and
     potentially even provide large-scale consumer feedback on negative
     practices back to the business through infringement discovery.
+
+#### ESG Hedge Funds {#esg-hedge-funds}
+
+-   @blackrockESGInvestingHedge notes some ESG-oriented hedge funds can
+    be “highly engaged with management teams” in order to influence
+    managment towards ESG practices in said companies .
+-   @ESGHedgeFunds2021
+-   **Feature**: Make a climate hedge fund with friends
+-   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
+-   Most successful investor invest together
+-   Angelist
+-   What does investing look like at the scale of billions of people?
+    like IG
+
+#### ESG Investing {#esg-investing}
+
+-   My research aims to find ways to enable a wider audience to access
+    sustainable investment opportunities. This chapter gives an overview
+    of the current (as of late 2020) sustainable investing landscape as
+    well as future trends related to interaction design and user
+    experience innovations (fig. 4).
+
+-   This research is concerned with how billions of people might exclude
+    polluting companies from their lives and elect to support companies
+    that put sustainability in the core of their business instead. Why
+    does it matter? Individual sacrifice is too small to have a
+    meaningful impact. For societal change, we need to pool our
+    resources.
+
+-   **How can ESG (environment, social, and governance) become
+    accessible to our everyday experience, while avoiding
+    greenwashing?**
+
+-   Given our combined power (I’m a Millennial) with Generation Z, we
+    are willing to pay more for sustainable products \[^8\].
+
+-   In institutional finance, the Norwegian \$1.3T USD sovereign wealth
+    fund (the world’s largest, followed by China)\[^5\] started a
+    divestment trend in 2016 by divesting from coal. Their plan to reach
+    net zero CO2e nonetheless only targets 2050. Furthermore, who would
+    be the counterpart for such large transactions? The fund also
+    announced divesting from Russia after its invasion of Ukraine,
+    however has yet to sell any shares citing lack of buyers on the
+    Moscow stock market. University of California also followed suit
+    with divestment of its \$126B USD portfolio from oil and gas.
+
+-   Other large university endowments, such as managed by Yale, Stanford
+    and MIT are in decision gridlock\[^6\]. Blackrock, the largest
+    private investment fund in the world with \$10T USD under
+    management, released guidance reflecting their plans to shift their
+    investments to vehicles that are measured on Environmental, Social,
+    and Governance (ESG) performance \[^7\]. However they later
+    backtracked from their decision.
+
+-   Banks are required by law to apply the principle of Know Your
+    Customer (KYC).
+
+-   How could people apply the same principle (Know Your Company) when
+    buying a product or investing? Would building an ESG community help
+    push polluting companies towards greener practices? - or starving
+    them from cheap access to capital.
+
+-   It can be as mundane as choosing the next eco-friendly product
+    instead of the polluting one we purchase in the supermarket make a
+    difference? How to invest in the growth of companies that put ESG at
+    the center of their activities instead of using it for greenwashing?
+    Creating direct ties will improve ESG. A journey from consumption to
+    investing, in line with users’ personal values, by providing
+    relevant sustainable finance guidance.
+
+#### ESG Crisis {#esg-crisis}
+
+-   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023
+    ESG Not delivering on it’s hopes
+
+-   @margarytakirakosianRedFlagsPrivate2022
+
+-   @dailyHereOurList2021 best ESG list
+
+-   ESG UAE FutureESGInvesting
+
+-   @sanjaibhagatInconvenientTruthESG2022: Not better environmental
+    performance, ESG poor performance
+
+-   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG
+
+-   ESG is a Marketing Tool
+
+    -   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
+    -   @agnewRIPESG2022 RIP ESG
+    -   @luoESGLiquidityStock2022 found firms with a lower ESG score are
+        more profitable.
+
+-   Analysis: Messari: investor education, information asymmetry
+
+#### Regenerative Investing and Finance {#regenerative-investing-and-finance}
+
+-   @SociallyResponsibleInvesting
+-   @naturalinvestMalaikaMaphalalaNatural2020
+-   @marquisRSFLeadingWay2021
+
+### Asset Classes {#asset-classes}
+
+-   The main categories of investment products are, based on the
+    @InvestmentProductsInvestor
+
+| Investment Product                            | Col2 |
+|-----------------------------------------------|------|
+| Stocks                                        |      |
+| Bonds                                         |      |
+| Mutual Funds                                  |      |
+| ETFs                                          |      |
+| Insurance Products such as Variable Annuities |      |
+|                                               |      |
+
+#### Thematic Capital {#thematic-capital}
+
+-   Build a thematic portfolio
+-   There’s a wide range of investment products marketed as
+    *sustainable*, however many of them are fake (**CITATION**).
+
+#### Green Bonds {#green-bonds}
+
+-   Sustainability Linked Bonds: What this?
+
+-   @cityofmalmoGreenBondFramework2017: In 2017 the Malmö city in Sweden
+    released green bonds to finance a sustainable transition of the city
+
+-   @anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022:
+    Aramco, Saudi Arabian public petroleum and natural gas company ‘Fake
+    green bonds’ under scrutiny.
+
+-   @shashwatmohantyGreenPushGreenwash2022: “sustainable funds don’t buy
+    Zomato’s ESG narrative”
+
+-   @priscilaazevedorochaGreenwashingEnters222022:
+    “Sustainability-linked bonds let companies borrow cheaply if they
+    meet environmental, social, and governance targets. A Bloomberg News
+    analysis found those goals are weak”
+
+-   @priscilaazevedorochaGreenwashingEnters222022 suggests “So far, most
+    ESG investing is in the stock market. But the the \$22 trillion
+    corporate bond market, where mature global companies such as Chanel
+    go to borrow money from investors, has a particularly powerful role
+    to play. Companies rely on debt much more than they do on stocks.”
+
+-   Green Bonds ESG data needs to be visualized Passive Investing Why
+    focus on PI instead of daily investing like Robinhood?
+
+#### Hedge Funds and DAOs {#hedge-funds-and-daos}
+
+-   While hedge funds used to be available for professional investors,
+    *smart contracts* make it possible to create decentralized
+    organizations which pool member resources for investing.
+
+-   @nathanreiffDecentralizedAutonomousOrganization2023
+
+-   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of
+    CO2e reduction one manages to achieve by changing one’s behavior and
+    influencing others (people, companies). While the individual
+    footprint is so small, the largest reduction will come from
+    influencing large groups of people, either by leadership, eeskuju,
+    or other means.
+
+-   @TreesFuture2023 DAOs to enable concerted action towards climate
+    goals
+
+-   @InvestmentClubsCollectives: Crypto investment clubs canceled
+
+-   @IBISANetworkEnabling: Crypto crop insurance
+
+-   Social + NFTs - What would investing look like at the scale of 1
+    billion people
+
+-   @ianbezekItTimeEveryone2021
+
+-   @lucasmatneyVCbackedDAOStartups2022
+
+-   @blockchannelWhatDAOHow2017
+
+-   @carrawuInvestingFriendsBenefits2021 DAO consumer to investor
+
+-   Koreans investing into media personalities:
+    @yuqingzhao2021ZongJieWoChiKaiChuanTongJinRongQuanZhiZuoQuKuaiLianLaLEFT2021
 
 # Greenwashing {#greenwashing}
 
@@ -1294,19 +1296,34 @@ emissions in their product lifecycle.
 
 -   @defidonutPoolTogether732021 Savings Lottery
 
-### Financial Inclusion {#financial-inclusion}
+### Realtime ESG {#realtime-esg}
 
--   @TAN202046 proposes *“financial ecologies”* to understand the
-    dynamic relationships between various actors: investors, advisors,
-    government, where the government plays an active role in growing
-    financial inclusion and responsible financial management. However,
-    the paper further suggests that current robo-advisors (available in
-    Singapore) make the investor captive to the agency of AI, making the
-    person lose agency over their financial decisions.
--   @liCanRetailInvestors2022 suggests retail “investor attention can
-    significantly improve enterprises’ green innovation level”
--   Celo and Impact Market
--   MicroLending
+There’s a growing number of companies helping businesses to measure CO2e
+emissions in their product lifecycle.
+
+-   @kylewiggersMakersiteLands18M2022 proposes makersite, instant
+    sustainability impact from supply chain.
+
+-   @makersiteImproveYourProduct proposes ***product sustainability
+    modeling***.
+
+-   @timnicolleRealtimeESGData “Real-time ESG data is more difficult to
+    greenwash”, “supply chain is a significant source of ESG content”
+
+-   Automate CO2 calculations realtime:
+
+-   @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO2
+    counting
+
+-   “Factory social score”.
+
+-   People working at the factories can report conditions
+
+-   @ESGAnalyticsRealtime: “But the real breakthrough is how we can
+    surface that real-time ESG data directly to individuals in the shops
+    and online, linked to the products that they are browsing and
+    potentially buying. This means that ESG change will finally be
+    driven by the ultimate judge of business success – the customer.”
 
 ## Summary {#summary}
 

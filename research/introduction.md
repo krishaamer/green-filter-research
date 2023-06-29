@@ -80,6 +80,9 @@ energy makes up 82% of energy and is still growing.
 
 ## The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
 
+We have an opportunity to re-imagine how every product can be an
+eco-product and how they circulate in our circular economy.
+
 Timeline of the Policy Context:
 
 -   In 2019 by the von der Leyen commission adopted the European Union
@@ -451,7 +454,7 @@ Survey respondents:
 -   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                   | Methods                                     |
-|-------------------|-------------------------------|-----------------------|
+|-------------------|------------------------------|-----------------------|
 | 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |

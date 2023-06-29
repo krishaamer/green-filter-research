@@ -7,6 +7,9 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -234,6 +237,34 @@ energy brings benefits:
     proposes scenarios of climate damage.
 
 ### Provenance and Traceability {#provenance-and-traceability}
+
+-   200 million PCs sold every year personalized AI, meta glasses
+    understand your context. sense and reconstruct the world around you
+    and to understand the context in which you’re using your
+    device.sense and reconstruct the world around you and to understand
+    the context in which you’re using your device. Make suggestions and
+    take action proactively to help you get things done — ideally, so
+    seamlessly that you may not even notice.neuroscience co-adaptation
+    of the interface. your future devices will learn and adapt to you as
+    you use them.
+-   @RealityLabsResearch2022
+-   App shows traceability!!
+-   @katiegustafsonWhyTracingSeafood2022 **“Uniform traceability system
+    for the entire supply chain.”**
+-   @munozCarbonFootprintEconomic2023 Is there such a thing as
+    sustainable fishing? Bottom trawling is the worst and should be
+    banned.
+-   Help consumers to demand more
+-   @timnicolleFintechLendingWhose2017
+-   @timnicolleRealtimeESGData2021 and
+    @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime
+    ESG Give supply chain a voice by connecting workers directly to the
+    consumer
+-   @WorkerVoice2022 Worker Voice apps
+-   @RealTimeESG2021 “Real Time ESG Tracking From StockSnips”
+-   @incGlanceAlexandriaRealTime
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Ethereum blockchain and animal rights. “Blockchain can provide a
     transparent, immutable record of the provenance of products. This

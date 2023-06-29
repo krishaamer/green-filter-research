@@ -7,6 +7,9 @@ editor:
     render-on-save: false 
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -21,6 +24,8 @@ Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan
 Turing published the Turing Test for Machine intelligence
 (@turingCOMPUTINGMACHINERYINTELLIGENCE1950), AI has come far, turning
 from a science-fiction concept into an everyday, mainstream reality.
+
+From Concept to Reality.
 
 Especially in the last decade, AI-based solutions have become a mainstay
 in medical research, novel drug development, and patient care
@@ -119,7 +124,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | Desirable  |
 | Credible   |
 
-### Interaction and Algorithmic Experience Design {#interaction-and-algorithmic-experience-design}
+### Algorithmic Experience Design {#algorithmic-experience-design}
 
 How is AI changing ’interactions?
 
@@ -235,9 +240,11 @@ How is AI changing ’interactions?
     Digital Twin of the planet, nature, ecosystems and human actions to
     help us change our behavior and optimize for planetary wellbeing.
 
-### From Concept to Reality {#from-concept-to-reality}
+### Calm Technology {#calm-technology}
 
-### Large-Language Models (LLMs) {#large-language-models-llms}
+-   Tech fades to the background, IoT.
+
+### Large-Language Models {#large-language-models}
 
 The Advent of Large-Language Models
 
@@ -305,13 +312,6 @@ The Advent of Large-Language Models
 -   @SustainableShoppingSaving2023 My bedtime story about shopping,
     saving, and investing.
 
-### Smart Agents {#smart-agents}
-
--   @davidjohnstonSmartAgentProtocol2023 “general purpose AI that acts
-    according to the goals of an individual human.”
--   @martinez-plumedFuturesArtificialIntelligence2021 envisions the
-    future of AI
-
 ### AI for Diagnosic Symptoms {#ai-for-diagnosic-symptoms}
 
 Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated
@@ -371,7 +371,126 @@ lot.
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
 
-## Design for Human-AI Interaction {#design-for-human-ai-interaction}
+-   keywords.
+
+### Chatbots, Assistants, Robo-Advisors {#chatbots-assistants-robo-advisors}
+
+Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown
+out of the water.
+
+-   @barbarafriedbergM1FinanceVs2021 Comparing robot advisors
+
+-   AI is usually a model that spits out a number between 0 and 1, a
+    probability score or prediction. UX is what we do with this number.
+
+-   @greylockOpenAICEOSam2022 Natural language chatbots such as ChatGPT
+
+-   @nathanbenaichStateAIReport2022 State of AI Report
+
+-   @stephhayEnoFinancialAI2017
+
+-   @neuralnineFinancialAIAssistant2021
+
+-   @davidExplainableAIAdoption2021
+
+-   @qorusGreatReinventionGlobal2023 Digital banking revolution
+
+-   @lowerChatbotsTooGood2017
+
+-   @slackAturaProcess2021
+
+-   @brownHowFinancialChatbots2021 Financial chatbots
+
+-   @isabellaghassemismithInterviewDanielBaeriswyl2019
+
+-   @davidExplainableAIAdoption2021
+
+-   @josephinewaktareheintzCleo Cleo copywriter
+
+-   The user experience (UX) of artificial intelligence (AI) is a topic
+    under active development by all the largest online platforms. The
+    general public is familiar with the most famous AI helpers, ChatGPT,
+    Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s
+    Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others. For
+    general, everyday tasks, such as asking factual questions,
+    controlling home devices, playing media, making orders, and
+    navigating the smart city.
+
+-   Smaller startups have created digital companions such as Replika
+    (fig. 8), which aims to become your friend, by asking probing
+    questions, telling jokes, and learning about your personality and
+    preferences - to generate more natural-sounding conversations.
+
+-   Already on the market are several financial robo-advisors, built by
+    fintech companies, aiming to provide personalized suggestions for
+    making investments (Betterment, Wealthfront).
+
+-   There have also been plenty of attempts to create different types of
+    sustainability assistants. For instance, to encourage behavioral
+    changes, the AI assistant Sebastian developed at the Danish
+    hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged
+    by a chatbot buddy to help the human maintain an aspirational
+    lifestyle (@unleashSebastianAi2017).
+
+-   Personal carbon footprint calculators have been released online,
+    ranging from those made by governments and companies to student
+    projects.
+
+-   Zhang’s Personal Carbon Economy conceptualizing the idea of carbon
+    as a currency used for buying and selling goods and services, as
+    well as an individual carbon exchange to trade one’s carbon permits
+    (@zhangPersonalCarbonEconomy2018).
+
+-   While I’m supportive of the idea of using AI assistants to highlight
+    more sustainable choices, I’m critical of the tendency of the above
+    examples to shift full environmental responsibility to the consumer.
+    Sustainability is a complex interaction, where the producers’
+    conduct can be measured and businesses can bear responsibility for
+    their processes, even if there’s market demand for polluting
+    products.
+
+-   Personal sustainability projects haven’t so far achieved widespread
+    adoption, making the endeavor to influence human behaviors towards
+    sustainability with just an app - like its commonplace for health
+    and sports activity trackers such as Strava (fig. 9) -, seem
+    unlikely. Personal notifications and chat messages are not enough
+    unless they provide the right motivation. Could visualizing a
+    connection to a larger system, showing the impact of the
+    eco-friendly actions taken by the user, provide a meaningful
+    motivation to the user, and a strong signal to the businesses?
+
+-   All of the interfaces mentioned above make use of machine learning
+    (ML), a tool in the AI programming paradigm for finding patterns in
+    large sets of data, which enables making predictions useful in
+    various contexts, including financial decisions. These software
+    innovations enable new user experiences, providing an interactive
+    experience through chat (chatbots), using voice generation (voice
+    assistants), virtual avatars (adds a visual face to the robot),
+    however
+
+-   Figure 9: Popular Strava sports assistant provides run tracking and
+    feedback. AI Financial Advisors will need to go further to motivate
+    users. because of the nature of the technology, which is based on
+    the quality of the data the systems ingest, they are prone to
+    mistakes.
+
+    @holbrookHumanCenteredMachineLearning2018: To reduce errors which
+    only humans can detect, and provide a way to stop automation from
+    going in the wrong direction, it’s important to focus on making
+    users feel in control of the technology.
+
+```mdx-code-block
+<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
+```
+
+### Smart Agents {#smart-agents}
+
+-   @davidjohnstonSmartAgentProtocol2023 “general purpose AI that acts
+    according to the goals of an individual human.”
+-   @martinez-plumedFuturesArtificialIntelligence2021 envisions the
+    future of AI
+
+## Human-AI Interaction {#human-ai-interaction}
 
 There’s wide literature available describing human-AI interactions
 across varied disciplines. While the fields of application are diverse,
@@ -458,7 +577,7 @@ Many people have discussed the UX of AI.
 
 -   @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX
 
-### Voice Assistant Guidelines (Voice UI) {#voice-assistant-guidelines-voice-ui}
+### Voice Assistant Guidelines {#voice-assistant-guidelines}
 
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and
     kids
@@ -630,128 +749,14 @@ explainability.
 
 -   adas
 
-### Calm Technology {#calm-technology}
-
--   Tech fades to the background, IoT.
-
 ### Generative AI {#generative-ai}
 
 -   @Singer2022MakeAVideoTG describes how collecting billions of images
     with descriptive data (for example the html *alt* text) has enabled
     researchers to train AI models such as *stable diffusion* that can
-    generate images based on human-language keywords.
+    generate images based on human-language AI Health
 
-### AI Companions, Chatbots, AI Assistants and Robo-Advisors {#ai-companions-chatbots-ai-assistants-and-robo-advisors}
-
-Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown
-out of the water.
-
--   @barbarafriedbergM1FinanceVs2021 Comparing robot advisors
-
--   AI is usually a model that spits out a number between 0 and 1, a
-    probability score or prediction. UX is what we do with this number.
-
--   @greylockOpenAICEOSam2022 Natural language chatbots such as ChatGPT
-
--   @nathanbenaichStateAIReport2022 State of AI Report
-
--   @stephhayEnoFinancialAI2017
-
--   @neuralnineFinancialAIAssistant2021
-
--   @davidExplainableAIAdoption2021
-
--   @qorusGreatReinventionGlobal2023 Digital banking revolution
-
--   @lowerChatbotsTooGood2017
-
--   @slackAturaProcess2021
-
--   @brownHowFinancialChatbots2021 Financial chatbots
-
--   @isabellaghassemismithInterviewDanielBaeriswyl2019
-
--   @davidExplainableAIAdoption2021
-
--   @josephinewaktareheintzCleo Cleo copywriter
-
--   The user experience (UX) of artificial intelligence (AI) is a topic
-    under active development by all the largest online platforms. The
-    general public is familiar with the most famous AI helpers, ChatGPT,
-    Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s
-    Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others. For
-    general, everyday tasks, such as asking factual questions,
-    controlling home devices, playing media, making orders, and
-    navigating the smart city.
-
--   Smaller startups have created digital companions such as Replika
-    (fig. 8), which aims to become your friend, by asking probing
-    questions, telling jokes, and learning about your personality and
-    preferences - to generate more natural-sounding conversations.
-
--   Already on the market are several financial robo-advisors, built by
-    fintech companies, aiming to provide personalized suggestions for
-    making investments (Betterment, Wealthfront).
-
--   There have also been plenty of attempts to create different types of
-    sustainability assistants. For instance, to encourage behavioral
-    changes, the AI assistant Sebastian developed at the Danish
-    hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged
-    by a chatbot buddy to help the human maintain an aspirational
-    lifestyle (@unleashSebastianAi2017).
-
--   Personal carbon footprint calculators have been released online,
-    ranging from those made by governments and companies to student
-    projects.
-
--   Zhang’s Personal Carbon Economy conceptualizing the idea of carbon
-    as a currency used for buying and selling goods and services, as
-    well as an individual carbon exchange to trade one’s carbon permits
-    (@zhangPersonalCarbonEconomy2018).
-
--   While I’m supportive of the idea of using AI assistants to highlight
-    more sustainable choices, I’m critical of the tendency of the above
-    examples to shift full environmental responsibility to the consumer.
-    Sustainability is a complex interaction, where the producers’
-    conduct can be measured and businesses can bear responsibility for
-    their processes, even if there’s market demand for polluting
-    products.
-
--   Personal sustainability projects haven’t so far achieved widespread
-    adoption, making the endeavor to influence human behaviors towards
-    sustainability with just an app - like its commonplace for health
-    and sports activity trackers such as Strava (fig. 9) -, seem
-    unlikely. Personal notifications and chat messages are not enough
-    unless they provide the right motivation. Could visualizing a
-    connection to a larger system, showing the impact of the
-    eco-friendly actions taken by the user, provide a meaningful
-    motivation to the user, and a strong signal to the businesses?
-
--   All of the interfaces mentioned above make use of machine learning
-    (ML), a tool in the AI programming paradigm for finding patterns in
-    large sets of data, which enables making predictions useful in
-    various contexts, including financial decisions. These software
-    innovations enable new user experiences, providing an interactive
-    experience through chat (chatbots), using voice generation (voice
-    assistants), virtual avatars (adds a visual face to the robot),
-    however
-
--   Figure 9: Popular Strava sports assistant provides run tracking and
-    feedback. AI Financial Advisors will need to go further to motivate
-    users. because of the nature of the technology, which is based on
-    the quality of the data the systems ingest, they are prone to
-    mistakes.
-
-    @holbrookHumanCenteredMachineLearning2018: To reduce errors which
-    only humans can detect, and provide a way to stop automation from
-    going in the wrong direction, it’s important to focus on making
-    users feel in control of the technology.
-
-```mdx-code-block
-<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
-```
-
-## AI Health {#ai-health}
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @HomeLarkHealth
 -   @stephaniedonaholeHowArtificialIntelligence2021
