@@ -484,6 +484,8 @@ metrics. Can we also track personal sustainability in a similar fashion?
     sourced every year.
 -   There’s a growing number of companies providing re-use of existing
     items.
+-   @hedbergCircularEconomyRole2021 argues digitalization and data
+    sharing is a requirement for building a circular economy.
 -   @SmartSwap For example, Swap furniture in Estonia
 -   @mcdonoughCradleCradleRemaking2002 book
 -   @dullCircularSupplyChain2021 book
