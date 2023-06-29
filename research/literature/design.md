@@ -329,7 +329,7 @@ Create a design system!!!! best to showcase my analytic skills
 -   @MethodPodcastEpisode
 -   @AtomicDesignBrad
 
-### Fast Fashion {#fast-fashion}
+### Example Case: Fast Fashion {#example-case-fast-fashion}
 
 @YoungConsumersComplicated: Young people are the largest consumers of
 fast fashion.
@@ -338,123 +338,89 @@ Across industries, reports are saying there isn’t enough transparency.
 
 Sustainable Fashion, Textile Design
 
+-   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4
+    Trillion USD industry, 100B USD lost to lack of recycling,
+    contributes 9% of microplastics:
+    @adamkiewiczGreenwashingSustainableFashion2022
+-   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of
+    water, 1.7B tons of CO2, 92 million tons of textile waste.
 -   In @europeanenvironmentagencyTextilesEnvironmentRole2022, European
     Environment Agency (EEA) estimates based on trade and production
     data that EU27 citizens consumed an average 15kg of textile products
     per person per year. @kohlerCircularEconomyPerspectives2021:
     Globally 87% of textile products are burned or landfilled after 1st
     consumer use.
-
 -   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets
     carbon footprint?
-
 -   @leungGreenDesign2021 There’s a growing know-how on how to produce
     sustainably and which materials to use. “Handbook of Footwear Design
     and Manufacture” Chapter 18 - Green design.
-
 -   @emilychanWill2022Be2022 New Standard Institute’s proposed “Fashion
     Act” to require brands doing business in New York City to disclose
     sustainability data and set waste reduction targets.
-
 -   @wikirateSharingDataCreating2022: “Among the Index’s main goals are
     to help different stakeholders to better understand what data and
     information is being disclosed by the world’s largest fashion brands
     and retailers, raise public awareness, educate citizens about the
     social and environmental challenges facing the global fashion
     industry and support people’s activism.”
-
 -   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the
     textile waste in the UK is exported to other countries.
-
 -   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel
     coloration is very limited.
-
 -   @gyabaahCharacterizationDumpsiteWaste2023 research across several
     dumpsites across Ghana revealed up to 12% of the landfill consisted
     of textile waste.
-
 -   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of
     plastic waste out of which only 4% is recycled.
-
 -   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68%
     of all waste mapped by citizen scientists.
-
 -   @imperfectidealistSustainableGreenwashingHow2020 Fashion
     sustainability vs greenwashing
-
 -   @TransparencySustainabilityPlatform2023 Ethical Shopping
-
 -   @SheepIncSoftcore2023 Ethical brand?
-
 -   @goodonyouGoodYouSustainable2023 Sustainable fashion company
     evaluations
-
 -   @LilyMindfulActive Garment Worker’s rights
-
 -   **Problem**: @emilychanWeStillDon2022 report says there’s not enough
     transparency in fashion:
-
 -   @emilychanWillFashionIndustry2022: fashion companies can’t be held
     accountable for their actions (or indeed, their lack of action).
-
 -   @wikirateWikiRate2023
-
 -   @InstantGratificationCollective2022: “Political consumerism”,
     “Instant Gratification for Collective Awareness and Sustainable
     Consumerism”
-
 -   @fashioncheckerFashionCheckerWagesTransparency2023
-
 -   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021
     Circular textiles
-
 -   @EKAArendasEuroopa2022 Sustainable Fashion education
-
 -   @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion
     transparency index
-
 -   @CleanClothesCampaign
-
 -   “The mainstream fashion industry is built upon the exploitation of
     labor, natural resources and the knowledge of historically
     marginalized peoples.”
-
 -   @TextileGenesis
-
 -   “Secrecy is the linchpin of abuse of power…its enabling force.
     Transparency is the only real antidote.” Glen Greenwald, Attorney
     and journalist.
-
 -   @stand.earthStandEarthPeople2023
-
 -   @NewStandardInstitute
-
 -   @BGMEAHome Bangladesh Garment Manufacturers and Exporters
     Association
-
 -   @errKomisjonTahabVahendada2022 European Commission wants to reduce
     the impact of fast fashion on EU market.
-
 -   Minimize shopping, buy quality, save CO2, invest.
-
 -   @textileexchangeTextileExchange2023 Ethical fashion materials matter
-
 -   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
-
 -   Free clothes
-
 -   @vanishukGENERATIONREWEARFull2021 Generation rewear documentary,
     sustainable fashion brands
-
 -   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020:
     Zalando says Fast fashion must disappear
-
 -   @infinitedfiberInfinitedFiber2023
-
 -   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
-
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
-
 -   @GoodYouSustainable2023 Ethical brand ratings
 
 ### Packaging {#packaging}
@@ -521,6 +487,29 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   @SmartSwap For example, Swap furniture in Estonia
 -   @mcdonoughCradleCradleRemaking2002 book
 -   @dullCircularSupplyChain2021 book
+
+### Digital Product Passports {#digital-product-passports}
+
+-   @nissinenMakeCarbonFootprints2022 reports The European Commision has
+    proposed a *Digital Product Passports* to help companies transfer
+    environmental data. Carbon labels are needed for green
+    transformation.
+
+-   @jensenDigitalProductPassports2023
+
+-   @kingProposedUniversalDefinition2023
+
+-   @reichDefiningGoalsProduct2023
+
+-   @bergerConfidentialitypreservingDataExchange2023
+
+-   @plociennikDigitalLifecyclePassport2022
+
+-   @bergerFactorsDigitalProduct2023
+
+-   @bergerDataRequirementsAvailabilities2023
+
+-   @vancapelleveenAnatomyPassportCircular2023
 
 ### Design for Repair {#design-for-repair}
 
@@ -659,7 +648,7 @@ consume food that would otherwise be throw away.
     of views on the Swedish food system:
 
 | Perspective                         | Content                                                                               |
-|-------------------------|-----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
 | *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
 | *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
@@ -905,6 +894,39 @@ transparency, and transparency leads to trust.
     which found a negative correlation between worrying about climate
     impact and interest in climate information on products, suggesting a
     need for wider environmental education programs.
+-   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
+    practiced by only a handful of companies. The U.S. restaurant chain
+    *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
+    milk *Oatly* provide carbon labeling on their products.
+-   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like
+    ClimatePartner and Carbon Calories offers labeling consumer goods
+    with emission data as a service.
+-   @thecarbontrustHowReduceYour: The Carbon Trust reports it’s
+    certified 27 thousand product footprints.
+-   @ivanovaQuantifyingPotentialClimate2020: The average per capita
+    carbon footprint of North America 13.4, Europe 7.5, Africa and the
+    Middle East 1.7 tonnes of CO2 equivalent per capita.
+-   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
+    options with a high mitigation potential measured in tons of CO2
+    equivalent per capita per year.”
+-   55% of emissions come from energy production.
+-   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
+    percent of U.S. Gen-Z and Millenials follow news related to
+    environmental issues.
+-   @cartoClimateResilienceGeography2023 Making advanced maps to
+    convince people to make changes
+-   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
+    consumer choice towards sustainability.
+-   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
+    per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
+    top 5 largest per capita CO2 emissions come from Oil Producers -
+    Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in
+    2020.
+-   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides
+    CO2 emissions for all the countries around the world, per total
+    emissions the top 10 are China, U.S.A. the European Union, India,
+    Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
+    2021.
 
 ### The Concept of ‘Nudge’ {#the-concept-of-nudge}
 
@@ -915,7 +937,7 @@ transparency, and transparency leads to trust.
     overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
-|-------------------------|-----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Prompting         | Create cues and reminders to perform a certain behavior                                   |
 | Sizing            | Decrease or increase the size of items or portions                                        |
 | Proximity         | Change the physical (or temporal) distance of options                                     |

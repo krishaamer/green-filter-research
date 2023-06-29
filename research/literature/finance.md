@@ -1199,12 +1199,6 @@ emissions in their product lifecycle.
     competitive for longer through subsidies, and lack of regulation, or
     even regulation supporting legacy technologies.
 
-### Digital Product Passports {#digital-product-passports}
-
--   @nissinenMakeCarbonFootprints2022 reports The European Commision has
-    proposed a *Digital Product Passports* to help companies transfer
-    environmental data.
-
 ### Countering Greenwashing {#countering-greenwashing}
 
 -   Upcoming EU greenwashing legislation hopes to curb misleading

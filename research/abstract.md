@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Empower Sustainable Shopping, Saving, and Investing* {#the-journey-from-consumer-to-investor-designing-a-financial-ai-companion-for-young-adults-to-empower-sustainable-shopping-saving-and-investing}
+## *GreenFilter: Designing an AI Companion for Sustainable Shopping, Saving, and Investing* {#greenfilter-designing-an-ai-companion-for-sustainable-shopping-saving-and-investing}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource

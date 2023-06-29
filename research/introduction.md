@@ -17,6 +17,7 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
+import CO2 from "./images/co2-concentration.png";
 ```
 
 # Introduction {#introduction}
@@ -34,6 +35,19 @@ climate change is an emergency @PeoplesClimateVote
 | 18-35   | 65%     |
 | 36-59   | 66%     |
 | Over 69 | 58%     |
+
+The hockey-stick rise of CO2 concentration since the industrial
+revolution. Data from 1958 onward in @keelingAtmosphericMonthlySitu2017
+and estimations going back 2000 years from @rubinoLawDomeIce2019.
+
+```mdx-code-block
+<Figure
+  caption="CO2 Concentration"
+  src={CO2}
+  refURL="https://keelingcurve.ucsd.edu/"
+  refTitle="Scripps Institution of Oceanography at UC San Diego"
+/>
+```
 
 While people express eco-conscious ideas, it’s non-trivial to practice
 sustainability in daily life.
@@ -60,6 +74,9 @@ gap to be 2.5-3.2 Trillion USD in 2022. @MobilizingCapitalEmerging2022
 The lack of funding especially affects emerging economies.
 
 The theme for Earth Day 2023 was “Invest In Our Planet”. @EarthDay2023
+
+@instituteEnergySystemStruggles2023 As on June 2023, fossil fuel based
+energy makes up 82% of energy and is still growing.
 
 ## The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
 

@@ -319,52 +319,6 @@ carbon labeling, packaging, transportation, consumption, and waste.
     carbon emission of each transaction based on the type and amount of
     products or services purchased.”
 
-#### Carbon Labeling {#carbon-labeling}
-
--   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
-    practiced by only a handful of companies. The U.S. restaurant chain
-    *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
-    milk *Oatly* provide carbon labeling on their products.
-
--   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like
-    ClimatePartner and Carbon Calories offers labeling consumer goods
-    with emission data as a service.
-
--   @thecarbontrustHowReduceYour: The Carbon Trust reports it’s
-    certified 27 thousand product footprints.
-
--   @ivanovaQuantifyingPotentialClimate2020: The average per capita
-    carbon footprint of North America 13.4, Europe 7.5, Africa and the
-    Middle East 1.7 tonnes of CO2 equivalent per capita.
-
--   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
-    options with a high mitigation potential measured in tons of CO2
-    equivalent per capita per year.”
-
--   55% of emissions come from energy production.
-
--   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
-    percent of U.S. Gen-Z and Millenials follow news related to
-    environmental issues.
-
--   @cartoClimateResilienceGeography2023 Making advanced maps to
-    convince people to make changes
-
--   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
-    consumer choice towards sustainability.
-
--   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
-    per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
-    top 5 largest per capita CO2 emissions come from Oil Producers -
-    Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in
-    2020.
-
--   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides
-    CO2 emissions for all the countries around the world, per total
-    emissions the top 10 are China, U.S.A. the European Union, India,
-    Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
-    2021.
-
 #### Ethics and Cruelty {#ethics-and-cruelty}
 
 -   Cruelty free brands
@@ -565,6 +519,8 @@ Large ones that get international news coverage:
 -   Deepwater Horizon
 -   the Great Pacific Garbage Patch
 -   Fukushima
+-   @volkovaEffectsPrescribedFire2021 increased risk of wildfires due to
+    climate change.
 -   @martinez-alierMappingEcologicalDistribution2021 and
     @martinez-alierReplyOrihuelaExtractivism2022 as well as
     @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
