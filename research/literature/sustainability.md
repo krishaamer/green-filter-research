@@ -18,12 +18,13 @@ import Humboldt from '../images/humboldt.jpg'
 
 ## What is Sustainability? {#what-is-sustainability}
 
--   *Sustainability* was first mentioned in
-    @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context
-    of forestry in his seminal book *Sylvicultura oeconomica* discussing
-    sustainable forest management. The field is known today as
-    *sustainable yield* of *natural capital* required to maintain
-    *ecosystem services* (@peterkareivaNaturalCapitalTheory2011).
+*Sustainability* was first mentioned in
+@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context of
+forestry in his seminal book *Sylvicultura oeconomica* discussing
+sustainable forest management. The field is known today as *sustainable
+yield* of *natural capital* required to maintain *ecosystem services*
+\[@peterkareivaNaturalCapitalTheory2011\].
+
 -   Climate data visualization has a long history, starting with
     ***Alexander von Humboldt,*** who revolutionized cartography by
     inventing the first isothermal maps around 1816, showing areas with
@@ -39,21 +40,15 @@ import Humboldt from '../images/humboldt.jpg'
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
 
--   @leprovostSupplyMultipleEcosystem2022: Contemporary studies have
-    shown *biodiversity* as one key factor to maintain delivery of
-    ecosystem services.
+-   @leprovostSupplyMultipleEcosystem2022 study shows *biodiversity* as
+    one key factor to maintain delivery of ecosystem services.
 
--   @keebleBrundtlandReportOur1988 reported in April 1987 (a few months
-    after I was born) that *‘residents in high-income countries lead
-    lifestyles incompatible with planetary boundaries’*. While my home
-    Estonia at the time was considered low-income, a small nation on the
-    verge of poverty behind the Iron Curtain occupation of the Soviet
-    Occupy, we now in 2023, have indeed reached high-income status.
-
--   Commodities!!
-
--   the most effective things are — food — transport — fashion? — plant
-    trees
+-   @keebleBrundtlandReportOur1988 reported in April 1987 that
+    *‘residents in high-income countries lead lifestyles incompatible
+    with planetary boundaries’*. While my home Estonia at the time was
+    considered low-income, a small nation on the verge of poverty behind
+    the Iron Curtain occupation of the Soviet Occupy, we now in 2023,
+    have indeed reached high-income status.
 
 -   @korosecAmazonTaps2B2021 reports that Amazon’s 2B USD to a Climate
     Pledge Fund earmarked to fix climate problems is invested in energy,
@@ -63,6 +58,26 @@ import Humboldt from '../images/humboldt.jpg'
     money marketed as climate funding by the retail conglomerate means
     focus on reducing operational cost of running their business through
     automation and material savings.
+
+-   Aldo Leopold proposed the ideas of land ethics.
+
+### Ecosystem Services {#ecosystem-services}
+
+-   @dailyNatureServicesSocietal1997 proposed the idea of ecosystem
+    services @costanzaValueWorldEcosystem1997 assessed the amount of
+    ecosystem services provided.
+-   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
+    landowners for the ecosystem services their forests provide may
+    reduce deforestation.
+-   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
+    solutions “land re-naturalization (such as afforestation and wetland
+    restoration)”
+-   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
+    ecosystem services (ES) provided by insects. While it can be assumed
+    much of the flora and fauna are crucial for Earth’s systems, science
+    is still in the process of understanding and quantifying its
+    contributions. Meanwhile the destruction pressure on ecosystems is
+    rapidly increasing (cite A B C).
 
 ### Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
 
@@ -171,17 +186,16 @@ energy brings benefits:
 
 #### Cap and Trade {#cap-and-trade}
 
--   adsas
+-   Carbon Inequality: @chancelGlobalCarbonInequality2022 suggests
+    “while one-tenth of the global population is responsible for nearly
+    half of all emissions, half of the population emits less than 12% of
+    it”.
 
-#### Carbon Inequality {#carbon-inequality}
+#### Carbon Credits {#carbon-credits}
 
--   @chancelGlobalCarbonInequality2022 suggests “while one-tenth of the
-    global population is responsible for nearly half of all emissions,
-    half of the population emits less than 12% of it”.
-
-#### Carbon Credit Retirement {#carbon-credit-retirement}
-
--   ads
+-   In Estonia, startups Arbonic and Single.Earth are trialing this
+    approach in several forests.
+-   Carbon Credit Retirement?
 
 #### Carbon Capture {#carbon-capture}
 
@@ -191,64 +205,50 @@ energy brings benefits:
     generated by wind power and solar; the remainder is covered by a
     backup technology.”
 
--   Make commerce more transparent
-
 -   **Important: “creating sustainability trust in companies in
     realtime”**
-
-#### Social Cost of Carbon {#social-cost-of-carbon}
-
--   @rennertComprehensiveEvidenceImplies2022: Carbon price should be
-    3,6x higher.
-
--   @stanforduniversityProfessorsExplainSocial2021: “the cost of the
-    damages created by one extra ton of carbon dioxide emissions”
-
--   @kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018
-    suggest “The (Social Cost of Carbon) SCC measures the additional
-    damage caused by an extra unit of emissions” with variations between
-    countries (@tolSocialCostCarbon2019) and regions
-    (@wangMeasurementChinaProvincial2022).
-
--   @sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs
-    higher CO2 prices.
 
 -   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in
     carbon capture.
 
--   @ritzGlobalCarbonPrice2022 says Carbon prices are highly asymmetric.
+#### Social Cost of Carbon {#social-cost-of-carbon}
 
--   @linOpportunitiesTackleShortlived2022 says, apart from CO2,
-    reduction of other atmospheric pollutants, such as non-CO2
-    greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs)
-    is required for climate stability.
+@kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018 suggest
+“The (Social Cost of Carbon) SCC measures the additional damage caused
+by an extra unit of emissions” with variations between countries
+(@tolSocialCostCarbon2019) and regions
+(@wangMeasurementChinaProvincial2022).
+@stanforduniversityProfessorsExplainSocial2021 defines the social cost
+of carbon “the cost of the damages created by one extra ton of carbon
+dioxide emissions”
 
--   As shown in the Phillipines by @chengAssessingEconomicLoss2022, with
-    increasing extreme weather events, “businesses are more likely to
-    emerge in areas where infrastructure is resilient to climate
-    hazards”.
+@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs
+higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon
+price should be 3,6x higher that it is currently (2022).
+@ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly
+asymmetric, low in some countries and high (above the social cost of
+CO2) in countries where production is very polluting.
 
--   @jerrettSmokeCaliforniaGreenhouse2022 says, In California,
-    “Wildfires are the second most important source of emissions in
-    2020” and “Wildfires in 2020 negate reductions in greenhouse gas
-    emissions from other sectors.”
+As shown in the Phillipines by @chengAssessingEconomicLoss2022, with
+increasing extreme weather events, “businesses are more likely to emerge
+in areas where infrastructure is resilient to climate hazards”.
+@jerrettSmokeCaliforniaGreenhouse2022 says, In California, “Wildfires
+are the second most important source of emissions in 2020” and
+“Wildfires in 2020 negate reductions in greenhouse gas emissions from
+other sectors.”
+
+@linOpportunitiesTackleShortlived2022 says, apart from CO2, reduction of
+other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs)
+and short-lived climate pollutants (SLCPs) is required for climate
+stability.
 
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
     proposes scenarios of climate damage.
 
 ### Provenance and Traceability {#provenance-and-traceability}
 
--   200 million PCs sold every year personalized AI, meta glasses
-    understand your context. sense and reconstruct the world around you
-    and to understand the context in which you’re using your
-    device.sense and reconstruct the world around you and to understand
-    the context in which you’re using your device. Make suggestions and
-    take action proactively to help you get things done — ideally, so
-    seamlessly that you may not even notice.neuroscience co-adaptation
-    of the interface. your future devices will learn and adapt to you as
-    you use them.
+-   200 million PCs sold every year
 -   @RealityLabsResearch2022
--   App shows traceability!!
 -   @katiegustafsonWhyTracingSeafood2022 **“Uniform traceability system
     for the entire supply chain.”**
 -   @munozCarbonFootprintEconomic2023 Is there such a thing as
@@ -263,6 +263,7 @@ energy brings benefits:
 -   @WorkerVoice2022 Worker Voice apps
 -   @RealTimeESG2021 “Real Time ESG Tracking From StockSnips”
 -   @incGlanceAlexandriaRealTime
+-   **Design implications: app shows traceability.**
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
@@ -316,7 +317,7 @@ energy brings benefits:
 
 #### Oracles for Sustainability Data {#oracles-for-sustainability-data}
 
-Intersection with finance.
+Intersection with finance and Real World Data.
 
 A data oracle is the concept of a source of real-world data which can be
 ingested through an application programming interface (API) by, for
@@ -337,20 +338,9 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   IPCI OpenLitterMap G.I.D Coin Regen Network
 
-#### Real World Data {#real-world-data}
-
--   O bank carbon calculator (Brasil)
-
--   “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle
-    Debit Card”
-
--   @TaiwanOBankLaunches2022
-
--   “access Mastercard’s big data database and calculates the amount of
-    carbon emission of each transaction based on the type and amount of
-    products or services purchased.”
-
 #### Ethics and Cruelty {#ethics-and-cruelty}
+
+Can data transparency provide tools for reducing cruelty.
 
 -   Cruelty free brands
 -   Rank companies based on sustainability
@@ -383,11 +373,25 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   Empowering people to live a sustainable day
 
+-   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
+    central to all sustainability efforts.”, “All of these (food,
+    housing, power, and health care), and the stress that the lack of
+    them generate, play a huge role in our health,” Hollis says.”
+
+-   @PublicHealthLinkages2013
+
+-   @guidottiHealthSustainabilityIntroduction2015
+
+-   “Sustainability is important for many reasons including:
+    Environmental Quality – In order to have healthy communities, we
+    need clean air, natural resources, and a nontoxic environment.”
+
 ### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
 -   Food forests for regenerative food systems.
 
--   @rubaPotentialityHomesteadAgroforestry2023
+-   @rubaPotentialityHomesteadAgroforestry2023 agroforestry plays an
+    active role in achieving Sustainable Development Goals (SDGs)
 
 -   @irwinIncreasingTreeCover2023
 
@@ -420,32 +424,22 @@ carbon labeling, packaging, transportation, consumption, and waste.
     predict 8.5B people by 2030 and 9.7B by 2050.
 -   While population growth puts higher pressure on Earth’s resources,
     some research shows the effect is more from wasteful lifestyles than
-    the raw number of people (**FIND CITATION**).
+    the raw number of people \[@cardinaleBiodiversityLossIts2012\]
+    **???. NEED ACCESS!!**
+-   @bowlerMappingHumanPressures2020
 
 ### Overconsumption {#overconsumption}
 
--   In @anthonyleiserowitzInternationalPublicOpinion2022, a large scale
-    study on Meta’s Facebook (n=108946), “Respondents in Spain (65%),
-    Sweden (61%), and Taiwan (60%) are the most likely to say that
-    climate change is mostly caused by human activities”.
 -   Overconsumption is one of the root causes of climate change and
-    marine plastic pollution.
--   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
-    linkage of climate change and marine plastic pollution “along with
-    other stressors that threaten the resilience of species and habitats
-    sensitive to both climate change and plastic pollution”.
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
-    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
--   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
-    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
-    and the Cuvette Centrale in Democratic Republic of Congo are
-    experiencing rapid destruction due to consumer demand in the
-    European Union.**
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @ivanovaQuantifyingPotentialClimate2020: “Around two-thirds of
-    global GHG emissions are directly and indirectly linked to household
-    consumption, with a global average of about 6 tCO2eq/cap.”
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+    marine plastic pollution. @FORD2022150392 and
+    @laversFarDistractionPlastic2022 suggest strong linkage of climate
+    change and marine plastic pollution “along with other stressors that
+    threaten the resilience of species and habitats sensitive to both
+    climate change and plastic pollution”.
+-   @ivanovaQuantifyingPotentialClimate2020: “Around 2/3 of global GHG
+    emissions are directly and indirectly linked to household
+    consumption, with a global average of about 6 tonnes CO2 equivalent
+    per capita.”
 -   @mobergMobilityFoodHousing2019 reports daily human activities
     emission contribution on average in France, Germany, Norway and
     Sweden:
@@ -459,6 +453,15 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   According to @debnathSocialMediaEnables2022 39% of global CO2
     emissions comes from the building sector.
+-   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
+    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+-   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
+    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
+    and the Cuvette Centrale in Democratic Republic of Congo are
+    experiencing rapid destruction due to consumer demand in the
+    European Union.**
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+-   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
 ### Biodiversity Loss {#biodiversity-loss}
 
@@ -477,23 +480,6 @@ carbon labeling, packaging, transportation, consumption, and waste.
 -   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
     (COP15) adopted the first global biodiversity framework to accompany
     climate goals.**
-
-### Ecosystem Services {#ecosystem-services}
-
--   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
-    landowners for the ecosystem services their forests provide may
-    reduce deforestation.
--   In Estonia, startups Arbonic and Single.Earth are trialing this
-    approach in several forests.
--   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
-    solutions “land re-naturalization (such as afforestation and wetland
-    restoration)”
--   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
-    ecosystem services (ES) provided by insects. While it can be assumed
-    much of the flora and fauna are crucial for Earth’s systems, science
-    is still in the process of understanding and quantifying its
-    contributions. Meanwhile the destruction pressure on ecosystems is
-    rapidly increasing (cite A B C).
 
 ### Deforestation {#deforestation}
 
@@ -546,21 +532,6 @@ Large ones that get international news coverage:
     @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
     tracks environmental justice cases around the world. Dispues in
     @eerolaCorporateConductCommodity2022.
-
-### Health {#health}
-
--   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
-    central to all sustainability efforts.”All of these (food, housing,
-    power, and health care), and the stress that the lack of them
-    generate, play a huge role in our health,” Hollis says.”
-
--   @PublicHealthLinkages2013
-
--   @guidottiHealthSustainabilityIntroduction2015
-
--   “Sustainability is important for many reasons including:
-    Environmental Quality – In order to have healthy communities, we
-    need clean air, natural resources, and a nontoxic environment.”
 
 ## Conclusion {#conclusion}
 

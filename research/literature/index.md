@@ -43,6 +43,8 @@ design. The reviewed content consists of 3 main sources:
 In order to keep track more easily, each literature review section
 includes **design implications** in context.
 
+The goal of the literature review is to find ideas of app features.
+
 ```mdx-code-block
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```

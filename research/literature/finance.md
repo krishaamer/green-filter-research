@@ -95,6 +95,8 @@ import Bunq from '../images/bunq.jpg'
 -   Shop CO2e emissions for each company who i buy from? “get rid of
     brands”!! cause they hide and lie
 
+-   Make commerce more transparent
+
 -   @DecreasingCarbonFootprint2019
 
 -   @sallyparkerWantLowerFood2022
@@ -245,7 +247,7 @@ Existing rankings
 
 -   @Top100Consumer Largest consumer goods companies
 
-### B Corporations in Taiwan {#b-corporations-in-taiwan}
+### B Corporations {#b-corporations}
 
 B Corporations undergo strict assessment and adhere to stringent
 sustainability practices.
@@ -507,6 +509,13 @@ transparency, and transparency leads to trust.
     describes fintech as improving the user experience across the board,
     making interactions more convenient, user-friendly, cheaper, and
     faster.
+
+-   O bank carbon calculator (Brasil): “Consumer Spending Carbon
+    Calculator” and “Low-Carbon Lifestyle Debit Card”
+
+-   @TaiwanOBankLaunches2022: “access Mastercard’s big data database and
+    calculates the amount of carbon emission of each transaction based
+    on the type and amount of products or services purchased.”
 
 -   “Fintech has had a more pronounced impact in the payments market
     \[…\] where the incumbents have accumulated the most glaring
@@ -1114,14 +1123,12 @@ to profits in a few countries.
 
 -   @blackrockESGInvestingHedge notes some ESG-oriented hedge funds can
     be “highly engaged with management teams” in order to influence
-    managment towards ESG practices in said companies .
+    management towards ESG practices in said companies”
 -   @ESGHedgeFunds2021
 -   **Feature**: Make a climate hedge fund with friends
 -   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
 -   Most successful investor invest together
 -   Angelist
--   What does investing look like at the scale of billions of people?
-    like IG
 
 #### ESG Investing {#esg-investing}
 

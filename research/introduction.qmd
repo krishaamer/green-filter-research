@@ -19,7 +19,7 @@ import CO2 from "./images/co2-concentration.png";
 
 Consumer lifestyle contributes to environmental destruction. @ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019 models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
-A survey of 1.2 million people showing the percentage of people agreeing climate change is an emergency @PeoplesClimateVote
+-   A survey of 1.2 million people by United Nations showing the percentage of people agreeing climate change is an **emergency** @PeoplesClimateVote
 
 | Age     | Percent |
 |---------|---------|
@@ -27,7 +27,9 @@ A survey of 1.2 million people showing the percentage of people agreeing climate
 | 36-59   | 66%     |
 | Over 69 | 58%     |
 
-The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in @keelingAtmosphericMonthlySitu2017 and estimations going back 2000 years from @rubinoLawDomeIce2019.
+-   In @anthonyleiserowitzInternationalPublicOpinion2022, another large scale study on Meta's Facebook (n=108946), "Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities".
+
+-   The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in @keelingAtmosphericMonthlySitu2017 and estimations going back 2000 years from @rubinoLawDomeIce2019.
 
 ```{=mdx}
 <Figure
@@ -260,7 +262,7 @@ Survey respondents:
 -   What is the UI/UX of the green transformation?
 
 | №   | Question                                                                   | Methods                                     |
-|-------------------|-------------------------------|-----------------------|
+|-------------------|------------------------------|-----------------------|
 | 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |

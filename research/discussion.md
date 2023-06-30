@@ -15,6 +15,19 @@ them Current economics is lowering the quality of life on the planet
 Actionable Insights: Translate data into everyday actions the app can
 suggest.
 
+-   What does investing look like at the scale of billions of people?
+    like IG
+-   The most effective things are Commodities? Food, transport, fashion,
+    plant trees.
+-   personalized AI, meta glasses understand your context. sense and
+    reconstruct the world around you and to understand the context in
+    which you’re using your device.sense and reconstruct the world
+    around you and to understand the context in which you’re using your
+    device. Make suggestions and take action proactively to help you get
+    things done — ideally, so seamlessly that you may not even
+    notice.neuroscience co-adaptation of the interface. your future
+    devices will learn and adapt to you as you use them.
+
 ## Research Limitations {#research-limitations}
 
 First, finance is a highly regulated industry and the proposed user
