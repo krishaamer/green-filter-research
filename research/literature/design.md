@@ -134,34 +134,6 @@ The design should empower young people.
     side-by-side comparison of investment vehicles on their ESG
     performance?
 
-### Community {#community}
-
--   People exist in relation to other people.
-
--   Psychology of ‘fundraising clubs’ vs individual investing
-
--   @UkraineDAOBiddingUkrainian Ukraine DAO
-
--   POAPs:
-
-#### Group Purchases {#group-purchases}
-
-Food ordering apps are popular.
-
--   Buying in bulk for more savings.
-
--   Through group purchases and community investing while also reducing
-    consumption.
-
--   People want to help and make a difference. Give people things to do.
-
--   Choose Your Climate Solutions
-
--   Find Your Composting Community
-
--   Monoculture -\> regenerative food forests Oil -\> electric cars /
-    bicycles
-
 ### Service Design {#service-design}
 
 -   @CargoBikeFREITAG, Recycled clothing maker FREITAG offers
@@ -297,6 +269,34 @@ Real-estate? If you have 1000 EUR, what will you buy?
 -   @dontlookupMethodology Don’t look up five user models / roles
     Consumer, Investor, Activist, ..
 
+#### Community {#community}
+
+-   People exist in relation to other people.
+
+-   Psychology of ‘fundraising clubs’ vs individual investing
+
+-   @UkraineDAOBiddingUkrainian Ukraine DAO
+
+-   POAPs:
+
+#### Group Purchases {#group-purchases}
+
+Food ordering apps are popular.
+
+-   Buying in bulk for more savings.
+
+-   Through group purchases and community investing while also reducing
+    consumption.
+
+-   People want to help and make a difference. Give people things to do.
+
+-   Choose Your Climate Solutions
+
+-   Find Your Composting Community
+
+-   Monoculture -\> regenerative food forests Oil -\> electric cars /
+    bicycles
+
 #### Mobile Design {#mobile-design}
 
 Young people are mobile-first.
@@ -365,6 +365,19 @@ branding also go here?
 
 -   @ERIKSSON2023229 discusses best practices for reducing food waste in
     Sweden.
+-   @novoradovskayaMyCupTea2021 “16 billion paper coffee cups are being
+    thrown away every year”. Study of behavior change in Australia.
+    **(Need access!)**
+-   @bainPromotingProenvironmentalAction2012 “Promoting
+    pro-environmental action in climate change deniers” **(Need
+    access!)**
+-   @allcottSocialNormsEnergy2011 “Social norms and energy conservation”
+    **(Need access!)**
+-   @schuitemaAcceptabilityEnvironmentalPolicies2018 “Acceptability of
+    Environmental Policies” **(Need access!)**
+-   @nilssonRoadAcceptanceAttitude2016 “The road to acceptance: Attitude
+    change before and after the implementation of a congestion tax”
+    **(Need access!)**
 -   @ACUTI2023122151 makes the point that physical proximity to a
     drop-off point helps people participate in sustainability.
 -   A small study (n = 33) @perez-cuetoNudgingPlantbasedMeals2021 in the
@@ -657,6 +670,8 @@ consume food that would otherwise be throw away.
 -   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*)
     of views on the Swedish food system:
 
+-   IARC warns aspartame could cause cancer.
+
 | Perspective                         | Content                                                                               |
 |--------------------------|----------------------------------------------|
 | *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
@@ -738,15 +753,19 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 -   @almeidaParanoidOSWearable2022
 
-## Circular Design {#circular-design}
+## Eco-Design {#eco-design}
 
--   @circleeconomyCircularityGapReport2022 reports only 8.6% of world
-    economy is circular and *100B tonnes of virgin materials* are
-    sourced every year.
+### Circular Design {#circular-design}
+
+Circular economy is a tiny part of the world economy.
+@circleeconomyCircularityGapReport2022 reports only 8.6% of world
+economy is circular and *100B tonnes of virgin materials* are sourced
+every year.
+
 -   There’s a growing number of companies providing re-use of existing
     items.
--   @hedbergCircularEconomyRole2021 argues digitalization and data
-    sharing is a requirement for building a circular economy.
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing
+    is a requirement for building a circular economy.
 -   @SmartSwap For example, Swap furniture in Estonia
 -   @mcdonoughCradleCradleRemaking2002 book
 -   @dullCircularSupplyChain2021 book
@@ -801,9 +820,7 @@ generated daily.
 -   “Evolution of design for sustainability: From product design to
     design for system innovations and transitions”
 
-### Eco-Design {#eco-design}
-
-#### Legislation {#legislation}
+### Legislation {#legislation}
 
 -   @EUTaxonomySustainable report: The EU has a ***taxonomy of
     environmentally sustainable economic activities*** published by the
@@ -871,25 +888,20 @@ sustainability.
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for
     sustainable products
 
-#### Design for Repair {#design-for-repair}
+### Design for Repair {#design-for-repair}
 
 -   @pastorProposingIntegratedIndicator2023 proposes a **product
     repairability index (PRI)**
 -   @formentiniDesignCircularDisassembly2023
-
-#### Recycling {#recycling}
-
--   @lenovoFastTechUnsustainable2022 “rethinking product design and
-    inspiring consumers to expect more from their devices”
-
+-   Recycling @lenovoFastTechUnsustainable2022 “rethinking product
+    design and inspiring consumers to expect more from their devices”
 -   “design is a tool to make complexity comprehensible” like the
     Helsinki chapel. there’s either or a priest or a social worker. it’s
     the perfect public service. “limit the barrier of entry for people
     to discover”. elegant.
-
 -   @zeynepfalayvonflittnerFalayTransitionDesign
 
-#### Packaging {#packaging}
+### Packaging {#packaging}
 
 -   @bradleyLiteratureReviewAnalytical2023 “Over 161 million tonnes of
     plastic packaging is produced annually.”
@@ -901,7 +913,7 @@ sustainability.
 -   @adaChallengesCircularFood2023 notes rapid growth of the packaging
     industry which generates large amounts of waste.
 
-#### Factories {#factories}
+### Factories {#factories}
 
 -   Factories should be local and make products that can be repaired.
 
@@ -936,7 +948,7 @@ sustainability.
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic
     waste
 
-#### Supply Chains {#supply-chains}
+### Supply Chains {#supply-chains}
 
 Circular design is possible if supply chains become circular.
 

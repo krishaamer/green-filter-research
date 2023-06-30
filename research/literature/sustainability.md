@@ -16,9 +16,7 @@ import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
 
-## Sustainability {#sustainability}
-
-### What is Sustainability? {#what-is-sustainability}
+## What is Sustainability? {#what-is-sustainability}
 
 -   *Sustainability* was first mentioned in
     @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context
@@ -79,6 +77,8 @@ percentage of people.
 to be feasible for the app.**
 
 ### Nationally Determined Contributions {#nationally-determined-contributions}
+
+Scalable Climate Solutions: What really works on a large scale?
 
 -   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
     data portal allows to compare countries.
@@ -383,19 +383,6 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   Empowering people to live a sustainable day
 
-### Scalable Climate Solutions {#scalable-climate-solutions}
-
--   What really works on a large scale?
-
-### Regeneration {#regeneration}
-
--   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
--   @regennetworkCommunityDevelopmentCall22 and
-    @regennetworkRegenNetworkInvest2023 regen network
--   @smithOneYearLater2021
--   @KlimaDAO2023 KlimaDAO
--   @PlanetKlimatesLuis Moss.earth
-
 ### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
 -   Food forests for regenerative food systems.
@@ -536,6 +523,8 @@ Clean air is a requirement
     hand in hand with pollution and carbon emissions, we have a strong
     mandate for tackling these issues – for both environmental and
     health reasons.”
+-   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
+    progress to curb industrial emissions.
 
 **Design Implications**: *People live in the polluted areas are so used
 to it. What app to wake them up? “You live in a highly polluted area.
