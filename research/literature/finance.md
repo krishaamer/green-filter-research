@@ -638,7 +638,14 @@ transparency, and transparency leads to trust.
 
 ### Retail Investors {#retail-investors}
 
-#### Rise of Novice Investors {#rise-of-novice-investors}
+#### Young Investors {#young-investors}
+
+-   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as
+    NFTs.
+
+-   *For young people, investing mostly means buying cryptocurrencies?*
+
+-   Koreans investing in influencers?
 
 Several banks have started offering a service to automatically save and
 invest tiny amounts of money collected from shopping expenses. Every

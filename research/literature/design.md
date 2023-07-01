@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -19,15 +19,17 @@ import ResQClub from '../images/resq-club.png'
 
 ## Young Adults {#young-adults}
 
--   Is getting people to go to nature more a good way to increase
-    ecological awareness?
-
 ### Climate Anxiety {#climate-anxiety}
 
-Design to reduce climate anxiety
+@whitmarshClimateAnxietyWhat2022 shows climate anxiety is more prevalent
+among young people and is a possible motivator for climate action.
+@ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
+countries and also supports the idea that climate anxiety leads to
+climate activism. @hickmanClimateAnxietyChildren2021 provides evidence
+even children are anxious.
 
 -   @thompsonYoungPeopleClimate2021 Young people have climate anxiety.
--   @hickmanClimateAnxietyChildren2021 anxious kids
+
 -   Designing for Health and Sustainability: Health and sustainability
     are intrinsically connected. @kjaergardHealthSustainability2014
     shows how *“By understanding health and sustainability as a duality,
@@ -35,43 +37,30 @@ Design to reduce climate anxiety
     understood as economic, social and environmental sustainability,
     while on the other hand sustainability creates and is conditioned by
     human health.”*
--   @whitmarshClimateAnxietyWhat2022 shows how climate anxiety is more
-    prevalent among young people and is a possible motivator for climate
-    action.
--   @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
-    countries and also supports the idea that climate anxiety leads to
-    climate activism.
+
 -   Finds that climate anxiety predicts joining climate action movements
--   How to support the youth?
+
 -   Design for Human Rights
     @unfcccconferenceofthepartiesservingasthemeetingofthepartiestotheparisagreementcmaSharmElSheikhImplementation2022
     text refers to “human right to a clean, healthy and sustainable
     environment”.
 
+***Design Implications:***
+
+-   How to support the youth?
+
+-   Design to reduce climate anxiety
+
+-   Is getting people to go to nature more a good way to increase
+    ecological awareness?
+
 ### Guided Sustainability {#guided-sustainability}
 
--   **Design: Guidance can help young people beat climate anxiety by
-    taking meaningful action.**
--   **Design:** The app is just as much about helping people deal with
-    climate anxiety as it’s with solving the climate issue.
--   Sustainability touches every facet of human existence and is thus an
-    enormous undertaking. Making progress on sustainability is only
-    possible if there’s a large-scale coordinated effort by humans
-    around the planet. For this to happen, some technological tools are
-    required.
--   List of metrics that should be tracked to enable useful analytics.
-    Ex: % of beach pollution, air pollution, water pollution (I had this
-    idea while meditating). IIn essence, “green filter” is a central
-    data repository not unlike “Apple Health for Sustainability”.
--   Health and fitness category apps
--   Using “green filter” you can get a personalized sustainability plan
-    and personal coach to become healthy and nature-friendly
--   There are many examples of combination of AI and human, also known
-    as “human-in-the-loop”. For example health apps like Welltory,
-    Wellue and QALY. Food delivery apps like Starship Robots who ask for
-    human help when crossing the road.
--   How would you rate your knowledge on sustainability?
--   How would you rate your ability to put sustainability into practice?
+Sustainability touches every facet of human existence and is thus an
+enormous undertaking. Making progress on sustainability is only possible
+if there’s a large-scale coordinated effort by humans around the planet.
+For this to happen, some technological tools are required.
+
 -   “Guided Sustainability refers to a concept of using technology, such
     as AI and machine learning, to help individuals and organizations
     make more sustainable decisions and take actions that promote
@@ -82,6 +71,31 @@ Design to reduce climate anxiety
     goals. The goal of guided sustainability is to make it easier for
     people to understand their impact on the environment and to take
     steps to reduce that impact.”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   There are many examples of combination of AI and human, also known
+    as “human-in-the-loop”. For example health apps like Welltory,
+    Wellue and QALY. Food delivery apps like Starship Robots who ask for
+    human help when crossing the road.
+
+***Design Implications:***
+
+-   Guidance could help young people beat climate anxiety by taking
+    meaningful action.
+
+-   The app is just as much about helping people deal with climate
+    anxiety as it’s with solving the climate issue.
+
+-   List of metrics that should be tracked to enable useful analytics.
+    Ex: % of beach pollution, air pollution, water pollution (I had this
+    idea while meditating). In essence, “green filter” is a central data
+    repository not unlike “Apple Health for Sustainability”.
+
+-   Health and fitness category apps
+
+-   Using “green filter” you can get a personalized sustainability plan
+    and personal coach to become healthy and nature-friendly
 
 ### Empowering Design {#empowering-design}
 
@@ -95,17 +109,25 @@ The design should empower young people.
     ***The Climate Action Simulation*** in educating users about success
     scenarios.
 
+***Design Implications:***
+
 -   Younger people show higher motivation (participants in climate
     protests). How to be relevant for a younger audience?
 
 -   Yet action remains low.
 
--   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as
-    NFTs.
-
--   *For young people, investing mostly means buying cryptocurrencies?*
-
 ### Platform Economy {#platform-economy}
+
+-   The rise of the platform economy has given us marketplace companies
+    like Airbnb and Uber that match idle resources with retail demand
+    and optimize how our cities work. The massive amounts of data
+    generated by these companies are used by smart cities to re-design
+    their physical environments. With this perspective of scale, what
+    would a shopping experience look like if one knew at the point of
+    sale, which products are greener, and which are more environmentally
+    polluting?
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Young people are stuck inside platforms. You don’t own the data you
     put on TikTok. You can’t leave because you’ll lose the audience.
@@ -120,15 +142,6 @@ The design should empower young people.
     design) but doing so at the scale of hundreds of millions (or even
     billions) of users - personalization at scale.
 
--   The rise of the platform economy has given us marketplace companies
-    like Airbnb and Uber that match idle resources with retail demand
-    and optimize how our cities work. The massive amounts of data
-    generated by these companies are used by smart cities to re-design
-    their physical environments. With this perspective of scale, what
-    would a shopping experience look like if one knew at the point of
-    sale, which products are greener, and which are more environmentally
-    polluting?
-
 -   What would a sustainable investment platform that matches green
     investments with the consumers look like, if one saw the
     side-by-side comparison of investment vehicles on their ESG
@@ -142,17 +155,18 @@ The design should empower young people.
     payment* = swapping your items with other members, as well as
     repairs of their products.
 
--   *Design Implication*: Your shopping products mostly come from
-    Protector and Gamble (3x) and Nestle. These are large conglomerates
-    with a massive CO2 footprint. See the index to find some
-    alternatives.
+***Design Implications***
+
+-   Your shopping products mostly come from Protector and Gamble (3x)
+    and Nestle. These are large conglomerates with a massive CO2
+    footprint. See the index to find some alternatives.
 
 #### Experience Design {#experience-design}
 
 -   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM
     Laura Fryer: “People buy experiences, not technology.”
 -   Loaning terminology from service design, the user journey within an
-    app needs to consider about touchpoint on the way to a state of
+    app needs to consider each touchpoint on the way to a state of
     success.
 
 #### Interaction Design {#interaction-design}
@@ -172,7 +186,7 @@ The design should empower young people.
     @justinbakerRedRoutesCritical2018 say some of the tools used by
     interaction designers include
 
--   Red Route Analysis
+-   Red Route Analysis?
 
 -   AI for design: @AINextChapter2023
 
@@ -200,7 +214,7 @@ Young people expect a product.
 
 #### Design Systems {#design-systems}
 
-Create a design system!!!! best to showcase my analytic skills
+Create a design system to best to showcase my analytic skills
 
 -   @ComprehensiveGuideDesign
 -   @suarezDesignSystemsHandbook
@@ -209,7 +223,6 @@ Create a design system!!!! best to showcase my analytic skills
 
 #### Data-Driven Design {#data-driven-design}
 
--   Rebuilt the app as a personalized, narrative lifestyle feed
 -   Product marketers focus on the ***stickiness*** of the product,
     meaning low attrition, meaning people keep coming back.
 -   Social Objects: People need something to gather around and discuss.
@@ -225,25 +238,20 @@ Create a design system!!!! best to showcase my analytic skills
     sustainability focus unfortunately…
 -   What percent of all design is “sustainable design” ? Promoting
     sustainable design.
-
-**Question: What does investing mean for you? NFTs, Crypto,** Stocks,
-Real-estate? If you have 1000 EUR, what will you buy?
-
 -   “Any community on the internet should be able to come together, with
     capital, and work towards any shared vision. That starts with
     empowering creators and artists to create and own the culture
     they’re creating. In the long term this moves to internet
     communities taking on societal endeavors.”
-
 -   @joshluberTradingCardsAre2021 Trading cards are cool again
-
 -   @jesseeinhornNewBalance6502020
-
 -   @connieloizosMarcyVenturePartners2021
-
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
-
 -   @jeffjohnrobertsDigitalArtAwaits2020
+
+***Design Implications:***
+
+-   Rebuilt the app as a personalized, narrative lifestyle feed
 
 #### Biodesign {#biodesign}
 
@@ -347,7 +355,7 @@ branding also go here?
 
 #### Nudge {#nudge}
 
--   The literature on *nudge* is wide, as researches try to find ways to
+-   The literature on *nudge* is huge, as researches try to find ways to
     affect human behaviors towards sustainability. Some notable
     examples:
 -   @WEE2021100364 proposes 7 types of nudging technique based on an
@@ -498,7 +506,7 @@ branding also go here?
 
 -   @CompanyNowDominating2021 PayPal dominance
 
-### Speculative Design {#speculative-design}
+#### Speculative Design {#speculative-design}
 
 -   @dunneSpeculativeEverythingDesign2013 invented the term
     *‘speculative design’* in their seminal book as the question on the
@@ -546,7 +554,7 @@ branding also go here?
     -   @googledesignDesignSpeculativeFutures2019
     -   All green categories — Green hub — Ask the user to prioritize
 
-### Fast Fashion {#fast-fashion}
+### Fashion {#fashion}
 
 @YoungConsumersComplicated: Young people are the largest consumers of
 fast fashion.
@@ -640,8 +648,13 @@ Sustainable Fashion, Textile Design
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-### Food Waste {#food-waste}
+### Food {#food}
 
+-   \[@santosCurrentTrendsTraceability2023\]: complex supply chains make
+    seafood (marine Bivalvia, mollusks) logistics prone to fraud,
+    leading to financial losses and threats to consumer health. The same
+    is true for cocoa beans, which are at risk from food fraud
+    \[@fanningLinkingCocoaQuality2023\].
 -   @nabipourafrouziComprehensiveReviewCarbon2023: “The agricultural
     sector contributes to approximately 13.5% of the total global
     anthropogenic greenhouse gas emissions and accounts for 25% of the
@@ -712,6 +725,8 @@ consume food that would otherwise be throw away.
 -   Farm to Fork @financialtimesSustainabilityIdeasThat2022
 
 ### Quantified Self {#quantified-self}
+
+To be more aware of one’s health.
 
 There is a lot of research on quantified self. the Wearable devices like
 Apple Watch, Oura Ring and apps help users track a variety of health
@@ -915,6 +930,8 @@ sustainability.
 
 ### Factories {#factories}
 
+-   virtual factories
+
 -   Factories should be local and make products that can be repaired.
 
 -   Carbon-neutral factories “made in carbon-neutral factory” list of
@@ -957,7 +974,7 @@ Circular design is possible if supply chains become circular.
 -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
     FoxWay and Circular economy for PCs
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   Several startups are using distributed ledgers (blockchains) to
     track source material to the factories ad product movements from
@@ -1016,7 +1033,7 @@ Circular design is possible if supply chains become circular.
 -   @GoogleMostraraPor2021 Google green routes
 -   Wizzair Check carbon impact @OffsetYourFlight
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   @wikirateWebinarEnvisioningFinding2021: 7 WikiRate Data Sharing
     Archetypes

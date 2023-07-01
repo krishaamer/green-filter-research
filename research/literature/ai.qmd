@@ -15,7 +15,7 @@ import Replika from '../images/with-me.png'
 ```
 ## History of AI
 
-Since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (@turingCOMPUTINGMACHINERYINTELLIGENCE1950), AI has come far, turning from a science-fiction concept into an everyday, mainstream reality.
+AI has come far since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (@turingCOMPUTINGMACHINERYINTELLIGENCE1950), turning from a science-fiction concept into an everyday, mainstream reality.
 
 From Concept to Reality.
 
@@ -40,55 +40,6 @@ Google started using AI in 2001, when a simple machine learning model improved s
 While by the 2010's AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largerly modeled after the *neural networks* of the biological (human) brain.
 
 How to responsibly deploy AI for people around the world?
-
-### Algorithmic Experience Design
-
--   @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning, in her words "design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be". Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research. This means influencing outcomes, not only being a passive observer of phenomena as a researcher or only focusing on usability as a designer, without taking into account the wider context.
--   @shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design.
--   Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.
--   https://about.fb.com/news/2023/06/how-ai-ranks-content-on-facebook-and-instagram/
--   twiiter open source algo
-
-How do the 7 tenets of user experience (UX) apply to AI?
-
-| UX         |
-|------------|
-| Useful     |
-| Valubale   |
-| Ussable    |
-| Acceesible |
-| Findable   |
-| Desirable  |
-| Credible   |
-
-How is AI changing 'interactions?
-
--   @stone.skipperHowAIChanging2022
--   @theinternationalergonomicsassociationHumanFactorsErgonomics2019: To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user's emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be "optimized for human well-being".
--   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
--   @babichInteractionDesignVs2019 argues "\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system".
--   In narrative studies terminology, it's a heroic journey of the user to achieve their goals, by navigating through the interface until a success state. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
--   @tubikstudioUXDesignGlossary2018 argues affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today.
--   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study's target audience, social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
-
-```{=mdx}
-<Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
-```
--   @shinUserExperienceWhat2020 argues interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) "investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance".
-
--   That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
-
--   In @barrettMcDonaldAcquiresMachineLearning2019, in the words of Easterbrook, a previous CEO of McDonald's "How do you transition from mass marketing to mass personalization?". During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we're still in the early stages. Where do we go from here?
-
--   In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
-
--   @costaInteractionDesignAI2022 "Interaction Design for AI Systems"
-
--   @stoneskipperHowAIChanging2022 sketches a vision of "\[AI\] blend into our lives in a form of apps and services".
-
--   @dotgoDotGo2023 makes the camera the interaction device for people with vision impairment
-
--   @battistoniCanAIOrientedRequirements2023 creates a "Workshop with Young HCI Designers".
 
 ### Pervasive Computing
 
@@ -142,9 +93,9 @@ The Advent of Large-Language Models
 -   The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
 -   @SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
 
-### AI for Health
+### Health
 
-Diagnosic Symptoms
+-   AI for Health Diagnosic Symptoms
 
 Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
 
@@ -154,19 +105,7 @@ Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical
 
 -   @womeninaiHowCanAI
 
--   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
-
 -   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
-
-### AI Ethics
-
--   @AlgoTransparency manifesto, AI is not neutral
-
--   @clipdropCreateStunningVisuals AI Design Assistants
-
--   @eugeniakuydaReplika2023 Conversational AI - Replika
-
--   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses become good enough, people begin to get confused.
 
 ## Human-AI Interaction
 
@@ -193,7 +132,68 @@ There's wide literature available describing human-AI interactions across varied
 -   @liuMachineGazeOnline2021 meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   @seeberMachinesTeammatesResearch2020 proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
-### Psychological Biases and Mental Models
+### Algorithmic Experience
+
+-   @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning, in her words "design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be". Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research. This means influencing outcomes, not only being a passive observer of phenomena as a researcher or only focusing on usability as a designer, without taking into account the wider context.
+-   @shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design.
+-   Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.
+
+How do the 7 tenets of user experience (UX) apply to AI?
+
+| UX         |
+|------------|
+| Useful     |
+| Valubale   |
+| Ussable    |
+| Acceesible |
+| Findable   |
+| Desirable  |
+| Credible   |
+
+How is AI changing 'interactions?
+
+-   @stone.skipperHowAIChanging2022
+-   @theinternationalergonomicsassociationHumanFactorsErgonomics2019: To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user's emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be "optimized for human well-being".
+-   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
+-   @babichInteractionDesignVs2019 argues "\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system".
+-   In narrative studies terminology, it's a heroic journey of the user to achieve their goals, by navigating through the interface until a success state. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
+-   @tubikstudioUXDesignGlossary2018 argues affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today.
+-   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study's target audience, social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
+
+```{=mdx}
+<Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
+```
+-   @shinUserExperienceWhat2020 argues interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) "investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance".
+
+-   That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
+
+-   In @barrettMcDonaldAcquiresMachineLearning2019, in the words of Easterbrook, a previous CEO of McDonald's "How do you transition from mass marketing to mass personalization?". During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we're still in the early stages. Where do we go from here?
+
+-   In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
+
+-   @costaInteractionDesignAI2022 "Interaction Design for AI Systems"
+
+-   @stoneskipperHowAIChanging2022 sketches a vision of "\[AI\] blend into our lives in a form of apps and services".
+
+-   @dotgoDotGo2023 makes the camera the interaction device for people with vision impairment
+
+-   @battistoniCanAIOrientedRequirements2023 creates a "Workshop with Young HCI Designers".
+
+### Algorithmic Transparency
+
+Algorithmic Transparency
+
+-   @slackAturaProcess2021
+
+-   @shinHowUsersInteract2020: "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
+
+-   @nickcleggHowAIInfluences2023 FB makes algo open-source.
+
+-   twiiter open source algo
+
+### Biases
+
+-   Psychological Biases and Mental Models
 
 -   @PsychologyDesign106: 106 cognitive biases, including familiarity bias and skeuomorphism.
 
@@ -205,8 +205,9 @@ There's wide literature available describing human-AI interactions across varied
 
 -   @jamalInteractionDesignRule2018 Semantic motion and Peripheral vision
 
-### Voice Assistants
+### Voice
 
+-   Voice Assistants
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
@@ -239,27 +240,34 @@ There's evidence across disciplines about the usefulness of AI assistants:
 
 ### Writing AI Characters
 
--   @aletheaaiAletheaAIAI2021: creating a personality
+-   @aletheaaiAletheaAIAI2021: Writing AI Characters, creating a personality
 -   Writing as training data? large language models. GTP3
 -   **Initial Product Offering**
 
-### XAI: AI Explainability
+### Ethics
+
+-   AI Ethics
+
+-   @AlgoTransparency manifesto, AI is not neutral
+
+-   @clipdropCreateStunningVisuals AI Design Assistants
+
+-   @eugeniakuydaReplika2023 Conversational AI - Replika
+
+-   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses become good enough, people begin to get confused.
+
+### Explainability
 
 AI-explainability (named XAI in literature) is key to creating trust and there's several authors in literature calling for more transparency and explainability.
 
 -   @holzingerMultimodalCausabilityGraph2021 highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
 -   @khosraviExplainableArtificialIntelligence2022 proposes a framework for explainability, focused on education.
 -   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
+-   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
 
-### Algorithmic Transparency
+### Interfaces
 
--   @slackAturaProcess2021
-
--   @shinHowUsersInteract2020: "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
-
-### AI UX: AI Interfaces
-
-User experience design plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
+User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
 
 Many people have discussed the UX of AI.
 
@@ -319,7 +327,9 @@ Many people have discussed the UX of AI.
 
 -   What is Personalized AI?
 
-### Guidelines for Human-AI interaction
+### Guidelines
+
+Guidelines for Human-AI interaction
 
 -   Microsoft's Co-Founder Bill Gates predicted in 1982 *"personal agents that help us get a variety of tasks"* (@billgatesBillGatesNext1982).
 
@@ -360,12 +370,13 @@ Many people have discussed the UX of AI.
 
 -   @orozcoBudapestBicycleNetwork2020
 
-### AI Credibility Heuristic: A Systematic Model
+### Credibility
 
--   adas
+-   AI Credibility Heuristic: A Systematic Model
 
-### AI Acceptance
+### Acceptance
 
+-   AI Acceptance
 -   @yuanSocialAnxietyModerator2022: "AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety."
 -   "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." @gratchPowerHarmAI2022
 -   Anthropomorphism literature @liAnthropomorphismBringsUs2021 "high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly"
@@ -373,6 +384,7 @@ Many people have discussed the UX of AI.
 
 ### AI-Assisted Design
 
+-   AI-Assisted Design
 -   @september162020WhatAIassistedDesign2020 "What is AI-assisted Design?"
 -   @architechturesWhatArtificialIntelligence2020
 -   @constandseHowAIdrivenWebsite2018 AI-driven website builders.
@@ -413,8 +425,7 @@ Many people have discussed the UX of AI.
 <Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
 -   keywords.
-
-### Chatbots, Assistants, Robo-Advisors
+-   Chatbots, Assistants, Robo-Advisors
 
 Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of the water.
 

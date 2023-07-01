@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -25,23 +25,26 @@ sustainable forest management. The field is known today as *sustainable
 yield* of *natural capital* required to maintain *ecosystem services*
 \[@peterkareivaNaturalCapitalTheory2011\].
 
--   Climate data visualization has a long history, starting with
-    ***Alexander von Humboldt,*** who revolutionized cartography by
-    inventing the first isothermal maps around 1816, showing areas with
-    similar temperature, variations in altitude and seasons.
--   @IsothermsSimplyEarth2023: computer models of Father of climatology
-    Alexander von Humboldt Isotherms
--   @hontonForgottenFatherClimatology2022
--   @BrohanClimate2012 reports global temperature measurement starts
-    from the 1880s where we have the first records from ships.
+Climate data visualization has a long history, starting with
+***Alexander von Humboldt,*** who revolutionized cartography by
+inventing the first isothermal maps around the year 1816, showing areas
+with similar temperature, variations in altitude and seasons in
+different colors \[@hontonForgottenFatherClimatology2022\]. Known as the
+father of climatology, von Humboldt’s isotherms are now available as 3D
+computer models in \[@IsothermsSimplyEarth2023\].
+
+Written records of global temperature measurements are available
+starting from the 1880s when documentation of temperatures become
+available in ship records \[@BrohanClimate2012 \].
+
+TODO:
+
 -   Industrial revolution
+-   Ttragedy of the commons
 
 ```mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
-
--   @leprovostSupplyMultipleEcosystem2022 study shows *biodiversity* as
-    one key factor to maintain delivery of ecosystem services.
 
 -   @keebleBrundtlandReportOur1988 reported in April 1987 that
     *‘residents in high-income countries lead lifestyles incompatible
@@ -59,7 +62,10 @@ yield* of *natural capital* required to maintain *ecosystem services*
     focus on reducing operational cost of running their business through
     automation and material savings.
 
--   Aldo Leopold proposed the ideas of land ethics.
+-   Aldo Leopold proposed the ideas of land ethics. “A thing is right
+    when it tends to preserve the integrity, stability, and beauty of
+    the biotic community. It is wrong when it tends otherwise.” in A
+    Sand County Almanac \[@leopoldSandCountyAlmanac1972 \].
 
 ### Ecosystem Services {#ecosystem-services}
 
@@ -72,6 +78,8 @@ yield* of *natural capital* required to maintain *ecosystem services*
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
     solutions “land re-naturalization (such as afforestation and wetland
     restoration)”
+-   @leprovostSupplyMultipleEcosystem2022 study shows *biodiversity* as
+    one key factor to maintain delivery of ecosystem services.
 -   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
     ecosystem services (ES) provided by insects. While it can be assumed
     much of the flora and fauna are crucial for Earth’s systems, science
@@ -88,12 +96,10 @@ percentage of people.
 -   @tokyosimpleecolifeWhatLearnedMy2021
 -   @costaHowFinnishCulture2018: Finnish socialists: minimalism
 
-**For design: These movements are too small and require too much effort
-to be feasible for the app.**
+**Design:** These social movements are small and require too much effort
+to be feasible for the app?
 
 ### Nationally Determined Contributions {#nationally-determined-contributions}
-
-Scalable Climate Solutions: What really works on a large scale?
 
 -   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
     data portal allows to compare countries.
@@ -111,16 +117,22 @@ Scalable Climate Solutions: What really works on a large scale?
 | Iran                 | Critically insufficient |
 | Saudi Arabia         | Highly insufficient     |
 
--   “triple turn”
--   lack of transparency
--   Call for GOP contributors’ transparency
+Climate Action Tracker’s country comparison of the 10 top polluters’
+climate action.
+
 -   @unfccc.secretariatNationallyDeterminedContributions2022
 -   The State of Nationally Determined Contributions: 2022
     @fransenStateNationallyDetermined2022 notes that the majority of
     Nationally Determined Contributions (NDCs) are dependent on
     financial assistance from the international community.
 
-### Carbon Markets {#carbon-markets}
+TODO
+
+-   “triple turn”
+-   lack of transparency
+-   Call for GOP contributors’ transparency
+
+### CO2 Markets {#co2-markets}
 
 -   @sipthorpeBlockchainSolutionsCarbon2022 compares traditional and
     blockchain-based solutions to carbon trading.
@@ -355,7 +367,12 @@ Can data transparency provide tools for reducing cruelty.
 -   Precision Fermentation and Cultivated Meat: Meat products without
     farm animals
 
-### Biomarkers vs Ecomarkers (Ecological Indicators) {#biomarkers-vs-ecomarkers-ecological-indicators}
+### Ecological Indicators {#ecological-indicators}
+
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are
+    like Biomarkers in human health.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   **Blood testing and biomarkers allow people to track their health.
     I’m introducing the concept of ‘eco-markers’ to follow the
@@ -417,8 +434,9 @@ Can data transparency provide tools for reducing cruelty.
 
 ### Growing Population {#growing-population}
 
--   According to @theeconomictimesClimateChangeEarth2022, in November
-    2022, Planet Earth’s population reached 8 Billion people.
+In November 2022, Planet Earth’s population reached 8 Billion people
+\[@theeconomictimesClimateChangeEarth2022\] and is
+
 -   The future population projections in
     @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
     predict 8.5B people by 2030 and 9.7B by 2050.
@@ -430,16 +448,25 @@ Can data transparency provide tools for reducing cruelty.
 
 ### Overconsumption {#overconsumption}
 
--   Overconsumption is one of the root causes of climate change and
-    marine plastic pollution. @FORD2022150392 and
-    @laversFarDistractionPlastic2022 suggest strong linkage of climate
-    change and marine plastic pollution “along with other stressors that
-    threaten the resilience of species and habitats sensitive to both
-    climate change and plastic pollution”.
+-   Overconsumption is one of the root causes of climate change
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
 -   @ivanovaQuantifyingPotentialClimate2020: “Around 2/3 of global GHG
     emissions are directly and indirectly linked to household
     consumption, with a global average of about 6 tonnes CO2 equivalent
     per capita.”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+-   Overconsumption is also one of the root causes of marine plastic
+    pollution.
+
+-   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
+    linkage of climate change and marine plastic pollution “along with
+    other stressors that threaten the resilience of species and habitats
+    sensitive to both climate change and plastic pollution”.
+
 -   @mobergMobilityFoodHousing2019 reports daily human activities
     emission contribution on average in France, Germany, Norway and
     Sweden:
@@ -451,19 +478,27 @@ Can data transparency provide tools for reducing cruelty.
 | 34%            | Mobility |
 | 15%            | Other    |
 
+Daily human activities emission contribution on average in France,
+Germany, Norway and Sweden.
+
 -   According to @debnathSocialMediaEnables2022 39% of global CO2
     emissions comes from the building sector.
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
     Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+-   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+
+### Biodiversity Loss {#biodiversity-loss}
+
+-   Biodiversity loss is linked to overconsumption.
+
 -   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
     regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
     and the Cuvette Centrale in Democratic Republic of Congo are
     experiencing rapid destruction due to consumer demand in the
     European Union.**
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
-### Biodiversity Loss {#biodiversity-loss}
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
     now at 72% or higher in all countries sampled, compared to only 29%
@@ -480,6 +515,7 @@ Can data transparency provide tools for reducing cruelty.
 -   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
     (COP15) adopted the first global biodiversity framework to accompany
     climate goals.**
+-   https://www.sciencedirect.com/science/article/pii/S163106911000291X
 
 ### Deforestation {#deforestation}
 
@@ -512,9 +548,9 @@ Clean air is a requirement
 -   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
     progress to curb industrial emissions.
 
-**Design Implications**: *People live in the polluted areas are so used
-to it. What app to wake them up? “You live in a highly polluted area.
-Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
+**Design**: *People live in the polluted areas are so used to it. What
+app to wake them up? “You live in a highly polluted area. Here’s the TOP
+10 companies causing pollution. Here’s what you can do.”*
 
 ### Disasters {#disasters}
 

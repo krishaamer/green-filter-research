@@ -27,6 +27,7 @@ suggest.
     things done — ideally, so seamlessly that you may not even
     notice.neuroscience co-adaptation of the interface. your future
     devices will learn and adapt to you as you use them.
+-   Scalable Climate Solutions: What really works on a large scale?
 
 ## Research Limitations {#research-limitations}
 
@@ -45,7 +46,7 @@ lack of people working on “Human-AI interaction”. Sustainability is the
 context. How can we better team up to solve the challenges we face this
 century? The huge externalities.
 
-## ‘Shopping-as-Investing’ {#shopping-as-investing}
+## Shopping-as-Investing {#shopping-as-investing}
 
 Introduce this concept
 

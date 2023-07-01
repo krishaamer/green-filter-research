@@ -16,14 +16,14 @@ import Methodology from './images/research-methodology.png'
 
 -   Start with survey, then expert interviews (because so many questions from literature review)
 
-| №   | Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|---------------|---------------|---------------|---------------|---------------|
-| 1   | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
-| 2   | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
-| 3   | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
-| 4   | Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
-| 5   | XYZ                  | Expert Interview  |                                                                                |                                                        |
-| 6   | ABC                  | User Survey       |                                                                                |                                                        |
+| Product Idea         | Source            |                                                                                | Prototype Link                                         |
+|-----------------|-----------------|-----------------|---------------------|
+| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
+| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
+| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
+| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
+| XYZ                  | Expert Interview  |                                                                                |                                                        |
+| ABC                  | User Survey       |                                                                                |                                                        |
 
 ## Affinity Diagrams
 
@@ -108,7 +108,37 @@ interview people at google who made the green filter options
 
 ## Survey
 
--   @thibodeauThreeCompaniesClosing2022: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+-   If you fill out all the questions, you will participate in a lottery to win AirPods Pro 2
+
+-   If you want to invest 5 minutes every day in sustainability, how will you do it?
+
+-   How much time per day are you willing to spend on sustainability per day?
+
+    -   Less than 2 minutes
+
+    -   2 minutes
+
+    -   5 minutes
+
+    -   10 minutes
+
+    -   20 minutes
+
+    -   30 minutes
+
+    -   1 hour
+
+    -   2 hours
+
+    -   More than 2 hours
+
+-   How would you rate your knowledge on sustainability?
+
+-   How would you rate your ability to put sustainability into practice?
+
+-   **What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
+
+-   \@thibodeauThreeCompaniesClosing2022: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
 
 -   What would you like to see more of in the future?
 
@@ -180,9 +210,8 @@ interview people at google who made the green filter options
 
 -   Crypto founders
 
-```{=html}
 <!-- -->
-```
+
 -   What are my hypotheses?
 
 -   User experiments
