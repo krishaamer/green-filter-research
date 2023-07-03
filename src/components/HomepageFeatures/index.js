@@ -19,8 +19,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Understand who makes the products you buy and choose greener
-        alternatives
+        Understand who, where, and how makes the your products you buy to make eco-friendly choices
       </>
     ),
   },
@@ -36,8 +35,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Use your money to conserve a biodiverse environment and focus on what
-        matters
+        Focus your money on what matters for climate stability,
+        biodiversity, and high quality of life 
       </>
     ),
   },
