@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -87,52 +87,66 @@ TODO:
     contributions. Meanwhile the destruction pressure on ecosystems is
     rapidly increasing (cite A B C).
 
-### Zero Waste Lifestyle and Minimalism {#zero-waste-lifestyle-and-minimalism}
+### Ecological Indicators {#ecological-indicators}
 
-The opposite of overconsumption is the zero waste lifestyle. A movement
-of people living a simple life. This is always going to be a small
-percentage of people.
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are
+    like Biomarkers in human health.
 
--   @tokyosimpleecolifeWhatLearnedMy2021
--   @costaHowFinnishCulture2018: Finnish socialists: minimalism
+-   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
+    central to all sustainability efforts.”, “All of these (food,
+    housing, power, and health care), and the stress that the lack of
+    them generate, play a huge role in our health,” Hollis says.”
 
-**Design:** These social movements are small and require too much effort
-to be feasible for the app?
+-   @PublicHealthLinkages2013
 
-### Nationally Determined Contributions {#nationally-determined-contributions}
+-   @guidottiHealthSustainabilityIntroduction2015
 
--   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
-    data portal allows to compare countries.
+-   “Sustainability is important for many reasons including:
+    Environmental Quality – In order to have healthy communities, we
+    need clean air, natural resources, and a nontoxic environment.”
 
-| Country or Region    | **NDC target**          |
-|----------------------|-------------------------|
-| China                | Highly insufficient     |
-| Indonesia            | Highly insufficient     |
-| Russia               | Critically insufficient |
-| EU                   | Insufficient            |
-| USA                  | Insufficient            |
-| United Arab Emirates | Highly insufficient     |
-| Japan                | Insufficient            |
-| South Korea          | Highly insufficient     |
-| Iran                 | Critically insufficient |
-| Saudi Arabia         | Highly insufficient     |
+***Design Implications:***
 
-Climate Action Tracker’s country comparison of the 10 top polluters’
-climate action.
+-   Blood testing and biomarkers allow people to track their health. I’m
+    introducing the concept of ‘eco-markers’ to follow the
+    sustainability of human activities.
 
--   @unfccc.secretariatNationallyDeterminedContributions2022
--   The State of Nationally Determined Contributions: 2022
-    @fransenStateNationallyDetermined2022 notes that the majority of
-    Nationally Determined Contributions (NDCs) are dependent on
-    financial assistance from the international community.
+### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
-TODO
+-   Food forests for regenerative food systems.
 
--   “triple turn”
--   lack of transparency
--   Call for GOP contributors’ transparency
+-   @rubaPotentialityHomesteadAgroforestry2023 agroforestry plays an
+    active role in achieving Sustainable Development Goals (SDGs)
 
-### CO2 Markets {#co2-markets}
+-   @irwinIncreasingTreeCover2023
+
+-   @yadavExploringInnovationSustainable2023
+
+-   @lowMixedFarmingAgroforestry2023
+
+-   @ollinahoSeparatingTwoFaces2023 “bioeconomy is not inherently
+    sustainable and may pose considerable risks to biodiversity.”
+
+-   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
+
+-   @gamageRoleOrganicFarming2023 “Organic food and drink sales in 2019
+    totaled more than 106 billion euros worldwide.”
+
+-   Curve Labs founder Pat Rawson quotes
+    @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo:
+    “Would you rather buy a DogeCoin or a regenerative food forest
+    token?” @refidaoReFiPodcastS2E92022 (Use as a question for the
+    survey?)
+
+### **Quality of Life** {#quality-of-life}
+
+-   https://www.nature.com/articles/s41598-023-35133-4
+
+-   https://www.researchgate.net/publication/360996574_CLIMATE_CHANGE_AND_QUALITY_OF_LIFE
+
+-   
+
+## CO2 Markets {#co2-markets}
 
 -   @sipthorpeBlockchainSolutionsCarbon2022 compares traditional and
     blockchain-based solutions to carbon trading.
@@ -162,7 +176,9 @@ TODO
 -   @unitednationsenvironmentprogrammeEmissionsGapReport2022 2022
     Emissions Gap report.
 
-#### Fossil Fuels and Energy {#fossil-fuels-and-energy}
+#### Fossil Fuels {#fossil-fuels}
+
+Fossil Fuels and Energy
 
 There’s evidence from several countries suggesting moving to renewal
 energy brings benefits:
@@ -257,178 +273,38 @@ stability.
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
     proposes scenarios of climate damage.
 
-### Provenance and Traceability {#provenance-and-traceability}
+### Nationally Determined Contributions {#nationally-determined-contributions}
 
--   200 million PCs sold every year
--   @RealityLabsResearch2022
--   @katiegustafsonWhyTracingSeafood2022 **“Uniform traceability system
-    for the entire supply chain.”**
--   @munozCarbonFootprintEconomic2023 Is there such a thing as
-    sustainable fishing? Bottom trawling is the worst and should be
-    banned.
--   Help consumers to demand more
--   @timnicolleFintechLendingWhose2017
--   @timnicolleRealtimeESGData2021 and
-    @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime
-    ESG Give supply chain a voice by connecting workers directly to the
-    consumer
--   @WorkerVoice2022 Worker Voice apps
--   @RealTimeESG2021 “Real Time ESG Tracking From StockSnips”
--   @incGlanceAlexandriaRealTime
--   **Design implications: app shows traceability.**
+-   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
+    data portal allows to compare countries.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+| Country or Region    | **NDC target**          |
+|----------------------|-------------------------|
+| China                | Highly insufficient     |
+| Indonesia            | Highly insufficient     |
+| Russia               | Critically insufficient |
+| EU                   | Insufficient            |
+| USA                  | Insufficient            |
+| United Arab Emirates | Highly insufficient     |
+| Japan                | Insufficient            |
+| South Korea          | Highly insufficient     |
+| Iran                 | Critically insufficient |
+| Saudi Arabia         | Highly insufficient     |
 
--   Ethereum blockchain and animal rights. “Blockchain can provide a
-    transparent, immutable record of the provenance of products. This
-    can be especially useful for verifying claims made about animal
-    welfare. For example, products claiming to be”free-range,”
-    “organic,” or “sustainably sourced” could have their entire
-    lifecycle recorded on the blockchain, from birth to shelf, allowing
-    consumers to verify these claims.”
+Climate Action Tracker’s country comparison of the 10 top polluters’
+climate action.
 
--   Animal rights vs animal welfare
+-   @unfccc.secretariatNationallyDeterminedContributions2022
+-   The State of Nationally Determined Contributions: 2022
+    @fransenStateNationallyDetermined2022 notes that the majority of
+    Nationally Determined Contributions (NDCs) are dependent on
+    financial assistance from the international community.
 
--   Traceability and animal rights
+TODO
 
--   @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*:
-    Fingerprinting of Sea Urchin.
-
--   @watersEthicsChoiceAnimal2015 **(Need access!)**
-
--   @cawthornControversialCuisineGlobal2016 **(Need access!)**
-
--   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
-
--   @baileyMappingActorsArguments2020 shows how the Norwegian government
-    plans to increase salmon production 5x by 2050. How can this be
-    sustainable?
-
--   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases
-    for blockchains in enhancing traceability, transparency and cleaning
-    up the supply chain. There are several technologies for tracking
-    goods from shipping chain with OriginTrail, including OriginTrail,
-    Bext360, Everledger, Provenance.
-
--   @millerCitizensReserveBuilding2019 Suku makes supply chains more
-    transparent
-
--   @duttaBlockchainTechnologySupply2020 hundreds of paper researching
-    blockchain use in supply change operations since 2017.
-
--   @neethirajanDigitalLivestockFarming2021 using biometric sensors to
-    track livestock sustainability.
-
--   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
-
--   @ashrafPrototypeSupplyChain2023 Solana blockchain and Sigfox
-    internet of things (IoT) Integration for supply chain traceability.
-
--   @patelBlockchainTechnologyFood2023 livestock products are 15% of
-    agri-foods valued at €152 billion in 2018.
-
-#### Oracles for Sustainability Data {#oracles-for-sustainability-data}
-
-Intersection with finance and Real World Data.
-
-A data oracle is the concept of a source of real-world data which can be
-ingested through an application programming interface (API) by, for
-example, a blockchain system. There are many databases of sustainability
-information which could serve as an oracle for “green filter”, including
-carbon labeling, packaging, transportation, consumption, and waste.
-
--   @ethereumOracles2023
-
--   @caldarelliOvercomingBlockchainOracle2020 notes it’s a challenge to
-    ensure the accuracy and trustworthiness of real-world data from
-    Oracles.
-
--   @bradydaleChainlinkFounderSays2021 and
-    @chainlinkNewReportBlockchains2022: The largest Oracle provider
-    ChainLink founder Sergey Nazarov believes the collaboration of
-    oracles and blockchains can make carbon credits more trustworthy.
-
--   IPCI OpenLitterMap G.I.D Coin Regen Network
-
-#### Ethics and Cruelty {#ethics-and-cruelty}
-
-Can data transparency provide tools for reducing cruelty.
-
--   Cruelty free brands
--   Rank companies based on sustainability
--   BCorp
--   ESG
--   Trash found in ocean / nature etc
--   Help you to decide: what to buy, how to save, where to invest
--   Increase your investment point by matching with your contribution /.
--   Point of Sales integration (know the SKU you buy). Integrate to the
-    financial eco footprint (no need to scan the product). What’s the
-    name of the startup that does this?
--   Precision Fermentation and Cultivated Meat: Meat products without
-    farm animals
-
-### Ecological Indicators {#ecological-indicators}
-
--   Ecological Indicators (I like the name Ecomarkers) for Earth are
-    like Biomarkers in human health.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
--   **Blood testing and biomarkers allow people to track their health.
-    I’m introducing the concept of ‘eco-markers’ to follow the
-    sustainability of human activities.**
-
--   There is a parallel in health to sustainability and indeed both are
-    inextricably linked.
-
--   @appleEmpoweringPeopleLive2022: In a 2022 report Apple outlines its
-    plans to : “Empowering people to live a healthier day”
-
--   @appleWhatNewHealthKit2022 What’s new in HealthKit
-
--   What would that look like for sustainability?
-
--   Empowering people to live a sustainable day
-
--   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
-    central to all sustainability efforts.”, “All of these (food,
-    housing, power, and health care), and the stress that the lack of
-    them generate, play a huge role in our health,” Hollis says.”
-
--   @PublicHealthLinkages2013
-
--   @guidottiHealthSustainabilityIntroduction2015
-
--   “Sustainability is important for many reasons including:
-    Environmental Quality – In order to have healthy communities, we
-    need clean air, natural resources, and a nontoxic environment.”
-
-### Agroforestry and Permaculture {#agroforestry-and-permaculture}
-
--   Food forests for regenerative food systems.
-
--   @rubaPotentialityHomesteadAgroforestry2023 agroforestry plays an
-    active role in achieving Sustainable Development Goals (SDGs)
-
--   @irwinIncreasingTreeCover2023
-
--   @yadavExploringInnovationSustainable2023
-
--   @lowMixedFarmingAgroforestry2023
-
--   @ollinahoSeparatingTwoFaces2023 “bioeconomy is not inherently
-    sustainable and may pose considerable risks to biodiversity.”
-
--   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
-
--   @gamageRoleOrganicFarming2023 “Organic food and drink sales in 2019
-    totaled more than 106 billion euros worldwide.”
-
--   Curve Labs founder Pat Rawson quotes
-    @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo:
-    “Would you rather buy a DogeCoin or a regenerative food forest
-    token?” @refidaoReFiPodcastS2E92022 (Use as a question for the
-    survey?)
+-   “triple turn”
+-   lack of transparency
+-   Call for GOP contributors’ transparency
 
 ## **Environmental Degradation** {#environmental-degradation}
 
@@ -450,14 +326,14 @@ In November 2022, Planet Earth’s population reached 8 Billion people
 
 -   Overconsumption is one of the root causes of climate change
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @ivanovaQuantifyingPotentialClimate2020: “Around 2/3 of global GHG
     emissions are directly and indirectly linked to household
     consumption, with a global average of about 6 tonnes CO2 equivalent
     per capita.”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Overconsumption is also one of the root causes of marine plastic
     pollution.
@@ -488,7 +364,7 @@ Germany, Norway and Sweden.
 -   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
-### Biodiversity Loss {#biodiversity-loss}
+### Biodiversity {#biodiversity}
 
 -   Biodiversity loss is linked to overconsumption.
 
@@ -498,7 +374,7 @@ Germany, Norway and Sweden.
     experiencing rapid destruction due to consumer demand in the
     European Union.**
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
     now at 72% or higher in all countries sampled, compared to only 29%
@@ -517,20 +393,23 @@ Germany, Norway and Sweden.
     climate goals.**
 -   https://www.sciencedirect.com/science/article/pii/S163106911000291X
 
-### Deforestation {#deforestation}
+### Forest {#forest}
+
+Deforestation is widespread.
 
 -   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe
     rapidly losing its forest carbon sink.
 
 -   Burning of biomass undermines carbon capture.
 
-### Clean Water {#clean-water}
+### Water {#water}
 
+-   Clean water and water pollution
 -   @kochOpinionArizonaRace2022 (**Need access!)**
 
-### Air Pollution {#air-pollution}
+### Air {#air}
 
-Clean air is a requirement
+Air pollution is so widespread. Clean air is a requirement
 
 -   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
     over 400000 individuals in England, South Korea and Taiwan

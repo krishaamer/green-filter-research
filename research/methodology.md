@@ -23,7 +23,7 @@ import Methodology from './images/research-methodology.png'
     from literature review)
 
 | Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|-----------------|-----------------|-----------------|---------------------|
+|------------------|------------------|------------------|--------------------|
 | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
 | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
 | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
