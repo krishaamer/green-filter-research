@@ -48,9 +48,9 @@ import ResQClub from '../images/resq-club.png'
 
 -   Is getting people to go to nature more a good way to increase ecological awareness?
 
-### Empowered by Design
+### Empowerement
 
-The design should empower young people.
+Empowered by Design - The design should empower young people.
 
 -   @rossClimateChangeChallenge2016 says most people in the US don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology".
 
@@ -339,31 +339,52 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 
 -   @appleWhatNewHealthKit2022 What's new in HealthKit
 
-<!-- -->
-
 -   @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
+
 -   @giannakosFitbitLearningCapturing2020 used wearable devices to measured physiological parameters of students at school to determine their learning efficiency.
+
 -   @shinWearableActivityTrackers2019 synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles.
+
 -   @tsaiTranslationValidationTaiwan2019
+
 -   @burgerDevelopingSmartOperational2019
+
 -   @aromatarioHowMobileHealth2019 behavior changes
+
 -   @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise
+
 -   @ayoolaCHANGEPlatformServicebased2018 wellbeing data
+
 -   @godfreyWearableTechnologyExplained2018
+
 -   @thomasExploringDigitalRemediation2018
+
 -   @tonneNewFrontiersEnvironmental2017
+
 -   @grigsby-toussaintSleepAppsBehavioral2017 Sleep apps and behavioral constructs
+
 -   @anselmaArtificialIntelligenceFramework2017
+
 -   @forlanoPosthumanismDesign2017 post-humanism and design
+
 -   @saubadePromotingPhysicalActivity2016 motivating physical activity
+
 -   @greenbaumWhoOwnsYour2016
+
 -   @millingsCanEffectivenessOnline2015
+
 -   @reisIntegratingModellingSmart2015
+
 -   @bowerWhatAreEducational2015
+
 -   @fletcherFriendlyNoisySurveillance2022
+
 -   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
+
 -   @tylerContemporarySelfreflectivePractices2022 surveys the use of self-reflection apps in the UK (n=998)
+
 -   @wiraniEvaluationContinuedUse2022 students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it.
+
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
 ***Design Implications:***
@@ -523,17 +544,21 @@ Bring back your bottle and cup after use.
 
 ### Packaging
 
--   @adaChallengesCircularFood2023 notes rapid growth of the packaging industry which generates large amounts of waste. @bradleyLiteratureReviewAnalytical2023 "Over 161 million tonnes of plastic packaging is produced annually."
+Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
+
 -   @ChallengesOpportunitiesSustainable2022
 -   @ProteinBrandsConsumers2022
 -   @DetailrichSustainablePackaging2010
 -   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution
 -   @SulapacReplacingPlastic
--   
 
 ### Factories
 
+-   Transparency about the polluting factories where the products come from.. the product journey
+
 -   virtual factories
+
+-   Tracing emissions from factory pipes... what's the app?
 
 -   Factories should be local and make products that can be repaired.
 
@@ -549,15 +574,9 @@ Bring back your bottle and cup after use.
 
 -   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
 
--   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact japanese factory?)
-
 -   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
 
--   Tracing emissions from factory pipes.
-
 -   @FFCFairFactories Factory compliance - Fair Factories
-
--   Transparency about the polluting factories where the products come from.. the product journey
 
 -   Planet Factory
 
@@ -571,8 +590,14 @@ Circular design is possible if supply chains become circular.
 
 -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone, FoxWay and Circular economy for PCs
 
+```{=html}
 <!-- -->
+```
+-   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact japanese factory?)
 
+```{=html}
+<!-- -->
+```
 -   Several startups are using distributed ledgers (blockchains) to track source material to the factories ad product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only update data in new records), the system still relies on correct data input. As the saying goes, "garbage in, garbage out". Indeed, the blockchain is most useful for auditing, as the time and place of data input can be guaranteed, it will be easier to conduct a search on who inputted incorrect data.
 
 -   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain. There are several technologies for tracking goods across the supply chain, from shipping to client delivery.
@@ -580,7 +605,7 @@ Circular design is possible if supply chains become circular.
 -   The blockchain supply chain companies as of summer 2023 include:
 
 | Company        | Link              | Literature                                                                   | Comments                                      |
-|-------------|-------------|-----------------------------|----------------|
+|-----------------|-----------------|-----------------------|-----------------|
 | Ocean Protocol | oceanprotocol.com |                                                                              |                                               |
 | Provenance     | provenance.io     |                                                                              |                                               |
 | Ambrosius      | ambrosus.io       |                                                                              |                                               |
@@ -660,7 +685,7 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   @positiveblockchainBlockchainSDGsHow2021: Positive Blockchain Database of blockchain for good projects
 
-#### Ethics and Cruelty
+#### Ethics & Cruelty
 
 Can data transparency provide tools for reducing cruelty.
 
@@ -678,9 +703,7 @@ Can data transparency provide tools for reducing cruelty.
 
 -   Help you to decide: what to buy, how to save, where to invest
 
-#### Transparency and Open Data
-
-***Design Implications*****:** The key idea is making CO2 Visible.
+#### Open Data
 
 -   When will Bolt show CO2 emissions per every trip?
 -   How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
@@ -706,9 +729,12 @@ Can data transparency provide tools for reducing cruelty.
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
 -   @SverigesDataportal Swedish open data portal
--   
 
-***Design Implications*****:** Make open data easy to use in everyday life
+***Design Implications*****:**
+
+-   Make open data easy to use in everyday life.
+
+-   The key idea is making CO2 Visible.
 
 #### Carbon Labels
 

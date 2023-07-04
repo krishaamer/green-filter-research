@@ -392,12 +392,11 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 
 -   Koreans investing in influencers?
 
-Several banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
+Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
 -   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
 -   The world will be very different in 30 years - it's time to invest in services that make our societies resilient, able to robustly respond to rapid change. Research and product development go hand-in-hand; the outcome of this study can provide insights for new financial product and service development. Related to SDG 9: "Build resilient infrastructure, promote sustainable industrialization and foster innovation". The complexity of the situation offers an opportunity for design to make it understandable for humans
--   Recently, the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
--   **Feature**: Help me write me investment thesis first.
+-   In 2021 the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
 -   Gov launching ESG funds. Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus.
 -   Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants' engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure?
 -   Where to invest for green impact?
@@ -421,6 +420,8 @@ Several banks have started offering a service to automatically save and invest t
 | @ZigluFastSimple       | UK simple investing app Ziglu |
 | @LightyearInvestingOwn | Estonian investing app        |
 | @SelmaYourFinances     | Finnish investing app         |
+
+**Design:** **Feature**: Help me write me investment thesis first.
 
 #### Personalized Investing
 
@@ -608,7 +609,7 @@ There are many 'green investment platforms' who to trust?
 
 ### Sustainable Investing
 
-#### Governments and Legislation
+#### Legislation
 
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
@@ -630,7 +631,9 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however @hoAsianInvestorsAre2019 counters investors are not sure how to separate sustainable assets from less sustainable ones.
 
-#### Sustainability Marketing
+#### Marketing
+
+Sustainability Marketing
 
 -   @ames15MostEnvironmentally2022
 
@@ -745,7 +748,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   @ESGAnalyticsRealtime: "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer."
 
-#### Regenerative Investing and Finance
+#### Regenerative Finance
 
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
 -   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
@@ -797,7 +800,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   @boothBurningCarbonSink2022 describe how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program". A number of new AI-based tools aim to find instances of greenwashing.
 
--   @ClimateBondsInitiative2022: Climate Bonds Initiativegreening the \$55 trillion short-term debt market
+-   @ClimateBondsInitiative2022: Climate Bonds Initiative greening the \$55 trillion short-term debt market
 
 -   **Design Implications:** *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
 
