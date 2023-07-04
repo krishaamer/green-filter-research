@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -72,9 +72,9 @@ even children are anxious.
 
 The design should empower young people.
 
--   @rossClimateChangeChallenge2016a says most people in the US don’t
-    act on climate change. “Action on climate change has been
-    compromised by uncertainty, aspects of human psychology”.
+-   @rossClimateChangeChallenge2016 says most people in the US don’t act
+    on climate change. “Action on climate change has been compromised by
+    uncertainty, aspects of human psychology”.
 
 -   @RooneyVargaClimateActionSimulation2019 shows the effectiveness of
     ***The Climate Action Simulation*** in educating users about success
@@ -111,9 +111,9 @@ The design should empower young people.
 
 #### Interaction Design {#interaction-design}
 
--   @kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign
-    believes interaction design is still an emerging (and changing)
-    field and there are many definitions. I prefer the simplest version:
+-   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign
+    believe interaction design is still an emerging (and changing) field
+    and there are many definitions. I prefer the simplest version:
     interaction design is about creating a conversation between the
     product and the user.
 
@@ -143,11 +143,7 @@ Young people expect a product.
 
 -   @koningsHowPrepareYour2020
 -   “Digital sustainability principles”
-
-#### Design Studies {#design-studies}
-
 -   Eminent journal Design Studies, 1st design journal
-
 -   @ceschinEvolutionDesignSustainability2016 shows how design for
     sustainability has expanded from a product focus to systems-thinking
     focus placing the product inside a societal context of use.
@@ -191,15 +187,15 @@ Create a design system to best to showcase my analytic skills
 
 ***Design Implications:***
 
--   Rebuilt the app as a personalized, narrative lifestyle feed
+-   Rebuilt the app as a personalized, narrative lifestyle feed.
 
 #### Biodesign {#biodesign}
 
 -   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
 
--   Neri Oxman’s expressions: “ecology-indifferent” “naturing”“mother
-    naturing” “design is a practice of letting go of all that is
-    unnecessary” “nature should be our single client”
+-   Neri Oxman’s expressions: “ecology-indifferent”, “naturing”, “mother
+    naturing”, “design is a practice of letting go of all that is
+    unnecessary”, “nature should be our single client”.
 
 -   Use imagination
 
@@ -238,8 +234,8 @@ percentage of people.
 -   @tokyosimpleecolifeWhatLearnedMy2021
 -   @costaHowFinnishCulture2018: Finnish socialists: minimalism
 
-**Design:** These social movements are small and require too much effort
-to be feasible for the app?
+**Design Implications:** These social movements are small and require
+too much effort to be feasible for the app?
 
 #### Group Purchases {#group-purchases}
 
@@ -261,7 +257,7 @@ Food ordering apps are popular.
 -   Monoculture -\> regenerative food forests Oil -\> electric cars /
     bicycles
 
-#### Mobile Design {#mobile-design}
+#### Mobile {#mobile}
 
 Young people are mobile-first.
 
@@ -284,10 +280,10 @@ similar look and feature set.
 
 -   Stories section like IG / app store
 
--   Common UI parts. Feed. Stories.  By using common UI parts from
-    social media users have an easier time to accept the innovative
-    parts. add Viz charts. Avatars are increasingly common and new
-    generations are used to talking to computers.
+-   Common UI parts. Feed. Stories. By using common UI parts from social
+    media users have an easier time to accept the innovative parts. add
+    Viz charts. Avatars are increasingly common and new generations are
+    used to talking to computers.
 
 -   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your
     sustainability assistant would talk to you. Studies show gen N is
@@ -508,7 +504,7 @@ metrics. Can we also track personal sustainability in a similar fashion?
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @delclos-alioWalkingTransportationLarge2022 discusses walking in
-    Latin American cities. Walkin is the most sustainable method or
+    Latin American cities. Walking is the most sustainable method or
     transport but requires the availability of city infrastructure, such
     as sidewalks, which many cities still lack.
 -   @giannakosFitbitLearningCapturing2020 used wearable devices to
@@ -569,13 +565,27 @@ For this to happen, some technological tools are required.
     goals. The goal of guided sustainability is to make it easier for
     people to understand their impact on the environment and to take
     steps to reduce that impact.”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
+-   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
 -   There are many examples of combination of AI and human, also known
-    as “human-in-the-loop”. For example health apps like Welltory,
-    Wellue and QALY. Food delivery apps like Starship Robots who ask for
-    human help when crossing the road.
+    as “human-in-the-loop”, used for fields as diverse as training
+    computer vision algorithms for self-driving cars
+    @wuHumanintheLoopAIEnhancing2023 and detection of disinformation in
+    social media posts:
+    @bonet-joverSemiautomaticAnnotationMethodology2023. However
+    @krugelAlgorithmsPartnersCrime2023 finds humans don’t necessarily
+    correct mistakes made by computers and may instead become “partners
+    in crime”.
+-   Stanford Institute for Human-Centered Artificial Intelligence
+    @gewangHumansLoopDesign2019
+
+| App             | Category | Use Case                                                                           |
+|-------------------|---------------------------|---------------------------|
+| Welltory        | Health   | Health data analysis                                                               |
+| Wellue          | Health   | Heart arrythmia detections                                                         |
+| QALY            | Health   | Heart arrythmia detections                                                         |
+| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
+
+Examples of human-in-the-loop apps
 
 ***Design Implications:***
 
@@ -597,20 +607,32 @@ For this to happen, some technological tools are required.
 
 #### Speculative Design {#speculative-design}
 
--   @dunneSpeculativeEverythingDesign2013 invented the term
-    *‘speculative design’* in their seminal book as the question on the
-    intersection of user experience design and speculation. Speculative
-    design makes use of future scenarios to envision contexts and
-    interactions in future use. Phil Balagtas, founder of The Design
-    Futures Initiative at McKinsey, discusses the value of building
-    future scenarios at his talk at Google (Google Design, 2019). One of
-    his examples, the Apple Knowledge Navigator, from an Apple vision
-    video in 1987, took two decades to materialize in the real world,
-    inspired by a similar device first shown in a 1970s episode of Star
-    Trek as a magic device (a term from participatory design), which
-    then inspired subsequent consumer product development - and then
-    another 2 decades, until the launch of the iPhone in 2007 - a total
-    of 40 years!
+-   The term *‘speculative design’* was invented by
+    @dunneSpeculativeEverythingDesign2013 in their seminal book as the
+    question on the intersection of user experience design and
+    speculation. Speculative design makes use of future scenarios to
+    envision contexts and interactions in future use.
+
+-   Phil Balagtas, founder of The Design Futures Initiative at McKinsey,
+    discusses the value of building future scenarios at his talk at
+    Google (@googledesignDesignSpeculativeFutures2019). One of his
+    examples, the Apple Knowledge Navigator, from an Apple vision video
+    in 1987, took two decades to materialize in the real world, inspired
+    by a similar device first shown in a 1970s episode of Star Trek as a
+    magic device (a term from participatory design), which then inspired
+    subsequent consumer product development - and then another 2
+    decades, until the launch of the iPhone in 2007 - a total of 40
+    years!
+
+-   @BARENDREGT2021374 explores the potential of speculative design to
+    stimulate public engagement through thought experiments that spur
+    public debate on an issue chosen by the designer.
+
+***Design Implications:***
+
+-   “Speculative Design” for a sustainability assistant
+
+-   All green categories — Green hub — Ask the user to prioritize
 
 -   In my “green filter” AI advisor app’s scenario, the AI is scanning
     for opportunities matching the user’s sustainable investment
@@ -635,82 +657,64 @@ For this to happen, some technological tools are required.
     personalized advice for the consumer, still at a cheaper price than
     a dedicated human advisor. Everyone can have a financial advisor.
 
--   **“Speculative Design” for a sustainability assistant**
-
-    -   @BARENDREGT2021374 explores the potential of speculative design
-        to stimulate public engagement through thought experiments that
-        spur public debate on an issue chosen by the designer.
-    -   @googledesignDesignSpeculativeFutures2019
-    -   All green categories — Green hub — Ask the user to prioritize
-
 ## Eco-Design {#eco-design}
 
-### Circular Design {#circular-design}
+***Designing for Sustainability aka Circular Design or Eco-Design***
+encompasses all human activities, making this pursuit an over-arching
+challenge across all industries also known as circular economy. Assuming
+that as individuals we want to act in a sustainable way, how exactly
+would be go about doing that?
+
+-   “Evolution of design for sustainability: From product design to
+    design for system innovations and transitions”
 
 Circular economy is a tiny part of the world economy.
 @circleeconomyCircularityGapReport2022 reports only 8.6% of world
 economy is circular and *100B tonnes of virgin materials* are sourced
 every year.
 
--   There’s a growing number of companies providing re-use of existing
-    items.
--   @hedbergCircularEconomyRole2021 argues digitization and data sharing
-    is a requirement for building a circular economy.
--   @SmartSwap For example, Swap furniture in Estonia
 -   @mcdonoughCradleCradleRemaking2002 book
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
 -   @dullCircularSupplyChain2021 book
-
-***Designing for Sustainability*** encompasses all human activities,
-making this pursuit an over-arching challenge across all industries.
-Assuming that as individuals we want to act in a sustainable way, how
-exactly would be go about doing that?
-
--   \[see @ieaGlobalEnergyReview2022\] reports “Global CO2 emissions
-    from energy combustion and industrial processes rebounded in 2021 to
-    reach their highest ever annual level. A 6% increase from 2020
-    pushed emissions to 36.3 gigatonnes”
--   @crippaCO2EmissionsAll2022 reports latest figures from the EU’s
-    Emissions Database for Global Atmospheric Research (EDGAR)
+-   @chapmanDesignEmotionalDurability2009 argues in his seminal paper
+    (and later in his book) for ***“Emotionally Durable Design”***, the
+    simple idea that we hold to things we value and thus they are
+    sustainable. We don’t throw away a necklace gifted to us by mom,
+    indeed this object might be passed down for centuries.
+    @roseEnchantedObjectsInnovation2015 has a similar idea, where
+    ***“Enchanted Objects”*** become so interlinked with us, we’re
+    unlikely to throw them away.
 -   Growing public understanding of how nature works and intersects with
     our use of money.
--   @danielvarjoNyaSatelliterAvslojar2022: hThe EU Copernicus satellite
-    system reveals new greenhouse emissions previously undetected
-
-AI can help us make sense of the vast amounts of sustainability data
-generated daily.
-
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing
+    is a requirement for building a circular economy.
 -   @guptaAnalysisArtificialIntelligencebased2023 argues software is key
     to building more sustainable products, already for decades. More
     recently, companies like AutoDesk are putting CO2 calculations
     inside their design software.
-
 -   @SustainabilityStartsDesign: “Sustainability starts in the design
     process, and AI can help”.
-
 -   @igeniusLetTalkSustainable2020
+-   Very simple. “Carbon pricing is not there to punish people,” says
+    Lion Hirth @lionhirthLionHirthTwitter. “It’s there to remind us,
+    when we take travel, heating, consumption decisions that the true
+    cost of fossil fuels comprises not only mining and processing, but
+    also the damage done by the CO2 they release.”
 
--   “Carbon pricing is not there to punish people.”
+***Design Implications:***
 
--   “It’s there to remind us, when we take travel, heating, consumption
-    decisions that the true cost of fossil fuels comprises not only
-    mining and processing, but also the damage done by the CO2 they
-    release.”
-
--   Very simple.” Lion Hirth @lionhirthLionHirthTwitter
-
--   @chapmanDesignEmotionalDurability2009 argues in his seminal paper
-    (and later in his book) for “Emotionally Durable Design”, the simple
-    idea that we hold to things we value and thus they are sustainable.
-    We don’t throw away a necklace gifted to us by mom, indeed this
-    object might be passed down for centuries.
-    @roseEnchantedObjectsInnovation2015 has a similar idea, where
-    “Enchanted Objects” become so interlinked with us, we’re unlikely to
-    throw them away.
-
--   “Evolution of design for sustainability: From product design to
-    design for system innovations and transitions”
+-   AI can help us make sense of the vast amounts of sustainability data
+    generated daily.
 
 ### Legislation {#legislation}
+
+-   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
+    March 2022, the European Commission put forward a proposal for a
+    regulation establishing a general framework for setting eco-design
+    requirements for sustainable products, repealing rules currently in
+    force which concentrate on energy-related products only.”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   @EUTaxonomySustainable report: The EU has a ***taxonomy of
     environmentally sustainable economic activities*** published by the
@@ -720,12 +724,6 @@ generated daily.
     and Fisheries, is quoted as describing eco-design “respects the
     boundaries of our planet” @europeancommissionGreenDealNew2022
 
--   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
-    March 2022, the European Commission put forward a proposal for a
-    regulation establishing a general framework for setting ecodesign
-    requirements for sustainable products, repealing rules currently in
-    force which concentrate on energy-related products only.”
-
 -   @MANZARDO2021149507 **(need access!)**
 
 -   @INARRA2022100727 **(need access!)**
@@ -734,15 +732,10 @@ generated daily.
 
 -   @BASSANI2022151565 **(need access!)**
 
--   There are many domain-specific research showing how varied
-    industries can develop eco-designed products. For example,
-    @DURIEZ2022454 shows how simply by reducing material weight it’s
-    possible to design more sustainable transportation.
-
 -   @VANDOORSSELAER2022189 **(need access!)**
 
 -   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and
-    environmental impact analysis are needed to provide ecodesign
+    environmental impact analysis are needed to provide eco-design
     scenarios.**
 
 -   @NUEZ2022133252 shows how electric vehicles may increase CO2
@@ -821,14 +814,18 @@ One type of legislation that works?
 ***Design implications:** ERP and CDP data should be part of Green
 Filter.*
 
-### Repair and Return Schemes {#repair-and-return-schemes}
+### Return, Repair, Reuse Schemes {#return-repair-reuse-schemes}
+
+-   There’s a growing number of companies providing re-use of existing
+    items.
+-   @SmartSwap For example, Swap furniture in Estonia
 
 Bring back your bottle and cup after use.
 
 -   @pastorProposingIntegratedIndicator2023 proposes a **product
     repairability index (PRI)**
 -   @formentiniDesignCircularDisassembly2023
--   Recycling @lenovoFastTechUnsustainable2022 “rethinking product
+-   Recycling \[@lenovoFastTechUnsustainable2022\] “rethinking product
     design and inspiring consumers to expect more from their devices”
 -   “design is a tool to make complexity comprehensible” like the
     Helsinki chapel. there’s either or a priest or a social worker. it’s
@@ -838,15 +835,16 @@ Bring back your bottle and cup after use.
 
 ### Packaging {#packaging}
 
--   @bradleyLiteratureReviewAnalytical2023 “Over 161 million tonnes of
+-   @adaChallengesCircularFood2023 notes rapid growth of the packaging
+    industry which generates large amounts of waste.
+    @bradleyLiteratureReviewAnalytical2023 “Over 161 million tonnes of
     plastic packaging is produced annually.”
 -   @ChallengesOpportunitiesSustainable2022
 -   @ProteinBrandsConsumers2022
 -   @DetailrichSustainablePackaging2010
 -   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution
 -   @SulapacReplacingPlastic
--   @adaChallengesCircularFood2023 notes rapid growth of the packaging
-    industry which generates large amounts of waste.
+-   
 
 ### Factories {#factories}
 
@@ -906,19 +904,26 @@ Circular design is possible if supply chains become circular.
     data input can be guaranteed, it will be easier to conduct a search
     on who inputted incorrect data.
 
+-   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases
+    for blockchains in enhancing traceability, transparency and cleaning
+    up the supply chain. There are several technologies for tracking
+    goods across the supply chain, from shipping to client delivery.
+
 -   The blockchain supply chain companies as of summer 2023 include:
 
-| Company        | Link                       |
-|----------------|----------------------------|
-| Ocean Protocol | https://oceanprotocol.com/ |
-| Provenance     | https://www.provenance.io/ |
-| Ambrosius      | https://ambrosus.io/       |
-| Modum          | https://www.modum.io/      |
-| OriginTrail    | https://origintrail.io/    |
-| VeChain        | https://www.vechain.org/   |
-| Wabi           | https://wabi.io/           |
-| FairFood       | https://fairfood.org/      |
-| Bext360        | https://www.bext360.com/   |
+| Company        | Link              | Literature                                                                   | Comments                                      |
+|--------------|--------------|-----------------------------|-----------------|
+| Ocean Protocol | oceanprotocol.com |                                                                              |                                               |
+| Provenance     | provenance.io     |                                                                              |                                               |
+| Ambrosius      | ambrosus.io       |                                                                              |                                               |
+| Modum          | modum.io          |                                                                              |                                               |
+| OriginTrail    | origintrail.io    |                                                                              |                                               |
+| Everledger     |                   |                                                                              |                                               |
+| VeChain        | vechain.org       |                                                                              |                                               |
+| Wabi           | wabi.io           |                                                                              |                                               |
+| FairFood       | fairfood.org      |                                                                              |                                               |
+| Bext360        | bext360.com       |                                                                              |                                               |
+| SUKU           | suku.world        | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
 
 -   Another aspect of supply tracing is the treatment of workers and
     working conditions. Companies that intend to 2give supply chain a
@@ -957,9 +962,8 @@ Circular design is possible if supply chains become circular.
 -   @WorkerVoice2022 Worker Voice apps
 -   @RealTimeESG2021 “Real Time ESG Tracking From StockSnips”
 -   @incGlanceAlexandriaRealTime
--   **Design implications: app shows traceability.**
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+***Design Implications*:** app shows traceability.
 
 -   Ethereum blockchain and animal rights. “Blockchain can provide a
     transparent, immutable record of the provenance of products. This
@@ -985,15 +989,6 @@ Circular design is possible if supply chains become circular.
 -   @baileyMappingActorsArguments2020 shows how the Norwegian government
     plans to increase salmon production 5x by 2050. How can this be
     sustainable?
-
--   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases
-    for blockchains in enhancing traceability, transparency and cleaning
-    up the supply chain. There are several technologies for tracking
-    goods from shipping chain with OriginTrail, including OriginTrail,
-    Bext360, Everledger, Provenance.
-
--   @millerCitizensReserveBuilding2019 Suku makes supply chains more
-    transparent
 
 -   @duttaBlockchainTechnologySupply2020 hundreds of paper researching
     blockchain use in supply change operations since 2017.
@@ -1032,16 +1027,17 @@ carbon labeling, packaging, transportation, consumption, and waste.
 
 -   IPCI OpenLitterMap G.I.D Coin Regen Network
 
+-   @positiveblockchainBlockchainSDGsHow2021: Positive Blockchain
+    Database of blockchain for good projects
+
 #### Ethics and Cruelty {#ethics-and-cruelty}
 
 Can data transparency provide tools for reducing cruelty.
 
 -   Cruelty free brands
--   Rank companies based on sustainability
 -   BCorp
 -   ESG
 -   Trash found in ocean / nature etc
--   Help you to decide: what to buy, how to save, where to invest
 -   Increase your investment point by matching with your contribution /.
 -   Point of Sales integration (know the SKU you buy). Integrate to the
     financial eco footprint (no need to scan the product). What’s the
@@ -1049,9 +1045,15 @@ Can data transparency provide tools for reducing cruelty.
 -   Precision Fermentation and Cultivated Meat: Meat products without
     farm animals
 
+***Design Implications*:**
+
+-   Rank companies based on sustainability
+
+-   Help you to decide: what to buy, how to save, where to invest
+
 #### Transparency and Open Data {#transparency-and-open-data}
 
-**The key idea is making CO2 Visible.**
+***Design Implications*:** The key idea is making CO2 Visible.
 
 -   When will Bolt show CO2 emissions per every trip?
 -   How CO2 is shown by Google starts hiding emissions?
@@ -1062,9 +1064,6 @@ Can data transparency provide tools for reducing cruelty.
 -   Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
 -   @GoogleMostraraPor2021 Google green routes
 -   Wizzair Check carbon impact @OffsetYourFlight
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
-
 -   @wikirateWebinarEnvisioningFinding2021: 7 WikiRate Data Sharing
     Archetypes
 
@@ -1074,34 +1073,40 @@ Can data transparency provide tools for reducing cruelty.
 | 2   | Compliance Data Aggregator           |                                                               |
 | 3   | Data Intelligence Hub                |                                                               |
 | 4   | **Worker Voice Tool**                | @caravanstudiosStrengthenYourWorker2022: **“Worker Connect”** |
-| 5   | Traceability tool                    | https://trustrace.com/                                        |
+| 5   | Traceability tool                    | trustrace.com                                                 |
 | 6   | Open data platform                   |                                                               |
-| 7   | Knowledge sharing platform           | https://www.business-humanrights.org/                         |
+| 7   | Knowledge sharing platform           | business-humanrights.org                                      |
 
--   WikiRate is a tool for checking green credentials Transpareencyy
+-   WikiRate is a tool for checking green credentials Transpareency
 -   @laureenvanbreenPanelScalingCorporate2023
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
 -   @SverigesDataportal Swedish open data portal
--   Make open data easy to use in everyday life
--   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able
-    to track your carbon footprint
+-   
+
+***Design Implications*:** Make open data easy to use in everyday life
 
 #### Carbon Labels {#carbon-labels}
 
--   @adamcornerWhyWeNeed2012: Adding CO2 labels for consumer products
-    have been discussed for decades.
--   While academic literature has looked at even minute detail such as
-    color and positioning of the label (@zhouCarbonLabelsHorizontal2019)
-    and there is some indication consumers are willing to pay a small
-    premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022) as well
-    as all else being equal, choose the option with a lower CO2 number
+-   Adding CO2 labels for consumer products have been discussed for
+    decades (@adamcornerWhyWeNeed2012). While academic literature has
+    looked at even minute detail such as color and positioning of the
+    label (@zhouCarbonLabelsHorizontal2019) and there is some indication
+    consumers are willing to pay a small premium for low-CO2 products
+    (@xuLowcarbonEconomyCarbon2022) as well as all else being equal,
+    choose the option with a lower CO2 number
     (@carlssonSustainableFoodCan2022), the idea of *Carbon Labelling* is
-    yet to find mainstream adoption.
--   Although there’s some evidence to suggest labeling low CO2 food
-    enables people to choose a *climatarian diet* in a large-scale study
+    yet to find mainstream adoption. Although there’s some evidence to
+    suggest labeling low CO2 food enables people to choose a
+    *climatarian diet* in a large-scale study
     @lohmannCarbonFootprintLabels2022 of UK university students, their
-    impact on the market share of low-carbon meals is negible.
+    impact on the market share of low-carbon meals is negligible.
+
+-   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
+    consumer choice towards sustainability.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
 -   @asioliConsumersValuationCultured2022 found differences between
     countries, where Spanish and British consumers chose meat products
     with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas
@@ -1115,14 +1120,15 @@ Can data transparency provide tools for reducing cruelty.
     practiced by only a handful of companies. The U.S. restaurant chain
     *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
     milk *Oatly* provide carbon labeling on their products.
--   Ibid and @climatepartnerLabellingCarbonFootprint2020: Companies like
+    @climatepartnerLabellingCarbonFootprint2020: Companies like
     ClimatePartner and Carbon Calories offers labeling consumer goods
-    with emission data as a service.
--   @thecarbontrustHowReduceYour: The Carbon Trust reports it’s
-    certified 27 thousand product footprints.
+    with emission data as a service. @thecarbontrustHowReduceYour: The
+    Carbon Trust reports it’s certified 27 thousand product footprints.
 -   @ivanovaQuantifyingPotentialClimate2020: The average per capita
     carbon footprint of North America 13.4, Europe 7.5, Africa and the
     Middle East 1.7 tonnes of CO2 equivalent per capita.
+-   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able
+    to track your carbon footprint
 -   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
     options with a high mitigation potential measured in tons of CO2
     equivalent per capita per year.”
@@ -1132,8 +1138,6 @@ Can data transparency provide tools for reducing cruelty.
     environmental issues.
 -   @cartoClimateResilienceGeography2023 Making advanced maps to
     convince people to make changes
--   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
-    consumer choice towards sustainability.
 -   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
     per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
     top 5 largest per capita CO2 emissions come from Oil Producers -
@@ -1170,15 +1174,28 @@ It’s a further development of the idea of carbon labels.
 
 -   @vancapelleveenAnatomyPassportCircular2023
 
-#### Example: Fashion {#example-fashion}
+### Cases {#cases}
+
+-   There are many domain-specific research showing how varied
+    industries can develop eco-designed products. For example,
+    @DURIEZ2022454 shows how simply by reducing material weight it’s
+    possible to design more sustainable transportation.
+
+**Design:** Conversations about sustainability are too general and one
+needs to look at the specific sustainability metrics at specific
+industries to be able to design for meaningful interaction.
+
+#### Fashion {#fashion}
+
+Sustainable Fashion, Textile Design
 
 @YoungConsumersComplicated: Young people are the largest consumers of
 fast fashion.
 
 Across industries, reports are saying there isn’t enough transparency.
 
-Sustainable Fashion, Textile Design
-
+-   **Problem**: @emilychanWeStillDon2022 report says there’s not enough
+    transparency in fashion:
 -   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4
     Trillion USD industry, 100B USD lost to lack of recycling,
     contributes 9% of microplastics:
@@ -1223,8 +1240,6 @@ Sustainable Fashion, Textile Design
 -   @goodonyouGoodYouSustainable2023 Sustainable fashion company
     evaluations
 -   @LilyMindfulActive Garment Worker’s rights
--   **Problem**: @emilychanWeStillDon2022 report says there’s not enough
-    transparency in fashion:
 -   @emilychanWillFashionIndustry2022: fashion companies can’t be held
     accountable for their actions (or indeed, their lack of action).
 -   @wikirateWikiRate2023
@@ -1255,7 +1270,7 @@ Sustainable Fashion, Textile Design
 -   @textileexchangeTextileExchange2023 Ethical fashion materials matter
 -   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
 -   Free clothes
--   @vanishukGENERATIONREWEARFull2021 Generation rewear documentary,
+-   @vanishukGENERATIONREWEARFull2021 “Generation rewear” documentary,
     sustainable fashion brands
 -   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020:
     Zalando says Fast fashion must disappear
@@ -1264,7 +1279,7 @@ Sustainable Fashion, Textile Design
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-#### Example: Food {#example-food}
+#### Food {#food}
 
 -   \[@santosCurrentTrendsTraceability2023\]: complex supply chains make
     seafood (marine Bivalvia, mollusks) logistics prone to fraud,

@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`];
 
 
 ```mdx-code-block
@@ -16,23 +16,26 @@ import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
 
-## What is Sustainability? {#what-is-sustainability}
+## Ecological Indicators {#ecological-indicators}
 
 *Sustainability* was first mentioned in
 @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context of
-forestry in his seminal book *Sylvicultura oeconomica* discussing
-sustainable forest management. The field is known today as *sustainable
-yield* of *natural capital* required to maintain *ecosystem services*
+forestry in his seminal book *Sylvicultura oeconomica* in 1713,
+discussing sustainable forest management.
+
+Ecological indicators can be used to measure sustainability.
+
+The field is known today as *sustainable yield* of *natural capital*
+required to maintain *ecosystem services*
 \[@peterkareivaNaturalCapitalTheory2011\].
 
 Climate data visualization has a long history, starting with
-***Alexander von Humboldt,*** who revolutionized cartography by
-inventing the first isothermal maps around the year 1816, showing areas
-with similar temperature, variations in altitude and seasons in
-different colors \[@hontonForgottenFatherClimatology2022\]. Known as the
-father of climatology, von Humboldt’s isotherms are now available as 3D
-computer models in \[@IsothermsSimplyEarth2023\].
-
+***Alexander von Humboldt,*** known as the father of climatology, who
+revolutionized cartography by inventing the first isothermal maps around
+the year 1816, showing areas with similar temperature, variations in
+altitude and seasons in different colors
+\[@hontonForgottenFatherClimatology2022\]. Humboldt’s isotherms are now
+available as 3D computer models in \[@IsothermsSimplyEarth2023\].
 Written records of global temperature measurements are available
 starting from the 1880s when documentation of temperatures become
 available in ship records \[@BrohanClimate2012 \].
@@ -40,7 +43,8 @@ available in ship records \[@BrohanClimate2012 \].
 TODO:
 
 -   Industrial revolution
--   Ttragedy of the commons
+-   Tragedy of the commons: @meisingerTragedyIntangibleCommons2022 and
+    @lopezClimateChangeTimes2022 and @muraseSevenRulesAvoid2018
 
 ```mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -67,6 +71,31 @@ TODO:
     the biotic community. It is wrong when it tends otherwise.” in A
     Sand County Almanac \[@leopoldSandCountyAlmanac1972 \].
 
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are
+    like Biomarkers in human health.
+
+-   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
+    central to all sustainability efforts.”, “All of these (food,
+    housing, power, and health care), and the stress that the lack of
+    them generate, play a huge role in our health,” Hollis says.”
+
+-   @PublicHealthLinkages2013
+
+-   @guidottiHealthSustainabilityIntroduction2015
+
+-   In Taiwan, @leeDevelopingIndicatorFramework2021 developed a
+    framework of indicators to assess sustainable tourism.
+
+-   “Sustainability is important for many reasons including:
+    Environmental Quality – In order to have healthy communities, we
+    need clean air, natural resources, and a nontoxic environment.”
+
+***Design Implications:***
+
+-   Blood testing and biomarkers allow people to track their health. I’m
+    introducing the concept of ‘eco-markers’ to follow the
+    sustainability of human activities.
+
 ### Ecosystem Services {#ecosystem-services}
 
 -   @dailyNatureServicesSocietal1997 proposed the idea of ecosystem
@@ -87,29 +116,148 @@ TODO:
     contributions. Meanwhile the destruction pressure on ecosystems is
     rapidly increasing (cite A B C).
 
-### Ecological Indicators {#ecological-indicators}
+### **Environmental Degradation** {#environmental-degradation}
 
--   Ecological Indicators (I like the name Ecomarkers) for Earth are
-    like Biomarkers in human health.
+#### Growing Population {#growing-population}
 
--   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
-    central to all sustainability efforts.”, “All of these (food,
-    housing, power, and health care), and the stress that the lack of
-    them generate, play a huge role in our health,” Hollis says.”
+In November 2022, Planet Earth’s population reached 8 Billion people
+\[@theeconomictimesClimateChangeEarth2022\] and is
 
--   @PublicHealthLinkages2013
+-   The future population projections in
+    @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
+    predict 8.5B people by 2030 and 9.7B by 2050.
+-   While population growth puts higher pressure on Earth’s resources,
+    some research shows the effect is more from wasteful lifestyles than
+    the raw number of people \[@cardinaleBiodiversityLossIts2012\]
+    **???. NEED ACCESS!!**
+-   @bowlerMappingHumanPressures2020
 
--   @guidottiHealthSustainabilityIntroduction2015
+#### Overconsumption {#overconsumption}
 
--   “Sustainability is important for many reasons including:
-    Environmental Quality – In order to have healthy communities, we
-    need clean air, natural resources, and a nontoxic environment.”
+-   Overconsumption is one of the root causes of climate change
+-   @ivanovaQuantifyingPotentialClimate2020: “Around 2/3 of global GHG
+    emissions are directly and indirectly linked to household
+    consumption, with a global average of about 6 tonnes CO2 equivalent
+    per capita.”
+-   Overconsumption is also one of the root causes of marine plastic
+    pollution. @FORD2022150392 and @laversFarDistractionPlastic2022
+    suggest strong linkage of climate change and marine plastic
+    pollution “along with other stressors that threaten the resilience
+    of species and habitats sensitive to both climate change and plastic
+    pollution”.
+-   @mobergMobilityFoodHousing2019 reports daily human activities
+    emission contribution on average in France, Germany, Norway and
+    Sweden:
 
-***Design Implications:***
+| Emission Share | Category |
+|----------------|----------|
+| 21%            | Housing  |
+| 30%            | Food     |
+| 34%            | Mobility |
+| 15%            | Other    |
 
--   Blood testing and biomarkers allow people to track their health. I’m
-    introducing the concept of ‘eco-markers’ to follow the
-    sustainability of human activities.
+Daily human activities emission contribution on average in France,
+Germany, Norway and Sweden.
+
+-   According to @debnathSocialMediaEnables2022 39% of global CO2
+    emissions comes from the building sector.
+-   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
+    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+-   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+
+#### Biodiversity {#biodiversity}
+
+-   Biodiversity loss is linked to overconsumption.
+
+-   @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3
+    points of views
+
+    -   Narrowly utilitarian: biodiversity is a resource of genetic
+        novelties for the biotech industry.
+
+    -   Broadly utilitarian: humans depend upon biodiverse ecosystems.
+
+    -   Ethical: humans have a responsibility to future generations to
+        pass down a rich natural world.
+
+-   @almondr.e.a.LivingPlanetReport reports, the number of species
+    killed, mass destruction of nature. “69% decline in the relative
+    abundance of monitored wildlife populations around the world between
+    1970 and 2018. Latin America shows the greatest regional decline in
+    average population abundance (94%), while freshwater species
+    populations have seen the greatest overall global decline (83%).”
+
+-   @wwfForestsReducingEU2022 case study highlights how 4 biodiverse
+    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
+    and the Cuvette Centrale in Democratic Republic of Congo are
+    experiencing rapid destruction due to consumer demand in the
+    European Union.
+
+-   Meanwhile, there is some progress in biodiversity conservation.
+    @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
+    now at 72% or higher in all countries sampled, compared to only 29%
+    or higher across countries sampled in 2009.”
+
+-   @unitHistoryConvention2023: The history of the United Nations
+    Convention on Biodiversity goes back to 1988, when the working group
+    was founded. @unepCOP15EndsLandmark2022: The Convention on
+    Biodiversity 2022 (COP15) adopted the first global biodiversity
+    framework to accompany climate goals.
+
+#### Forest {#forest}
+
+Deforestation is widespread.
+
+-   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe
+    rapidly losing its forest carbon sink.
+
+-   Burning of biomass undermines carbon capture.
+
+#### Water {#water}
+
+-   Clean water and water pollution
+-   @kochOpinionArizonaRace2022 (**Need access!)**
+
+#### Air {#air}
+
+Air pollution is so widespread. Clean air is a requirement
+
+-   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
+    over 400000 individuals in England, South Korea and Taiwan
+    establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause
+    for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health
+    and economic benefits across the board from air pollution reduction
+    in France.
+-   In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the
+    Chinese University of Hong Kong: “We have known about the link
+    between pollution and lung cancer for a long time, and we now have a
+    possible explanation for it. As consumption of fossil fuels goes
+    hand in hand with pollution and carbon emissions, we have a strong
+    mandate for tackling these issues – for both environmental and
+    health reasons.”
+-   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
+    progress to curb industrial emissions.
+
+**Design**: *People live in the polluted areas are so used to it. What
+app to wake them up? “You live in a highly polluted area. Here’s the TOP
+10 companies causing pollution. Here’s what you can do.”*
+
+#### Disasters {#disasters}
+
+Large ones that get international news coverage:
+
+-   Chernobyl
+-   Exxon Valdez
+-   Deepwater Horizon
+-   the Great Pacific Garbage Patch
+-   Fukushima
+-   @volkovaEffectsPrescribedFire2021 increased risk of wildfires due to
+    climate change.
+-   @martinez-alierMappingEcologicalDistribution2021 and
+    @martinez-alierReplyOrihuelaExtractivism2022 as well as
+    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
+    tracks environmental justice cases around the world. Dispues in
+    @eerolaCorporateConductCommodity2022.
 
 ### Agroforestry and Permaculture {#agroforestry-and-permaculture}
 
@@ -132,19 +280,16 @@ TODO:
 -   @gamageRoleOrganicFarming2023 “Organic food and drink sales in 2019
     totaled more than 106 billion euros worldwide.”
 
--   Curve Labs founder Pat Rawson quotes
-    @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo:
-    “Would you rather buy a DogeCoin or a regenerative food forest
-    token?” @refidaoReFiPodcastS2E92022 (Use as a question for the
-    survey?)
+-   “Would you rather buy a DogeCoin or a regenerative food forest
+    token?” Curve Labs founder Pat Rawson quotes
+    @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo.
+    @refidaoReFiPodcastS2E92022 (Use as a question for the survey?)
 
 ### **Quality of Life** {#quality-of-life}
 
--   https://www.nature.com/articles/s41598-023-35133-4
+-   @kaklauskasSynergyClimateChange2023
 
--   https://www.researchgate.net/publication/360996574_CLIMATE_CHANGE_AND_QUALITY_OF_LIFE
-
--   
+-   @fabrisCLIMATECHANGEQUALITY2022
 
 ## CO2 Markets {#co2-markets}
 
@@ -177,6 +322,15 @@ TODO:
     Emissions Gap report.
 
 #### Fossil Fuels {#fossil-fuels}
+
+-   \[see @ieaGlobalEnergyReview2022\] reports “Global CO2 emissions
+    from energy combustion and industrial processes rebounded in 2021 to
+    reach their highest ever annual level. A 6% increase from 2020
+    pushed emissions to 36.3 gigatonnes”
+-   @crippaCO2EmissionsAll2022 reports latest figures from the EU’s
+    Emissions Database for Global Atmospheric Research (EDGAR)
+-   @danielvarjoNyaSatelliterAvslojar2022: The EU Copernicus satellite
+    system reveals new greenhouse emissions previously undetected
 
 Fossil Fuels and Energy
 
@@ -241,34 +395,36 @@ energy brings benefits:
 
 #### Social Cost of Carbon {#social-cost-of-carbon}
 
-@kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018 suggest
-“The (Social Cost of Carbon) SCC measures the additional damage caused
-by an extra unit of emissions” with variations between countries
-(@tolSocialCostCarbon2019) and regions
-(@wangMeasurementChinaProvincial2022).
-@stanforduniversityProfessorsExplainSocial2021 defines the social cost
-of carbon “the cost of the damages created by one extra ton of carbon
-dioxide emissions”
+-   @kornekSocialCostCarbon2021 and @zhenSimpleEstimateSocial2018
+    suggest “The (Social Cost of Carbon) SCC measures the additional
+    damage caused by an extra unit of emissions” with variations between
+    countries (@tolSocialCostCarbon2019) and regions
+    (@wangMeasurementChinaProvincial2022).
+    @stanforduniversityProfessorsExplainSocial2021 defines the social
+    cost of carbon “the cost of the damages created by one extra ton of
+    carbon dioxide emissions”
 
-@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs
-higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon
-price should be 3,6x higher that it is currently (2022).
-@ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly
-asymmetric, low in some countries and high (above the social cost of
-CO2) in countries where production is very polluting.
+-   @sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs
+    higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon
+    price should be 3,6x higher that it is currently (2022).
+    @ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly
+    asymmetric, low in some countries and high (above the social cost of
+    CO2) in countries where production is very polluting.
 
-As shown in the Phillipines by @chengAssessingEconomicLoss2022, with
-increasing extreme weather events, “businesses are more likely to emerge
-in areas where infrastructure is resilient to climate hazards”.
-@jerrettSmokeCaliforniaGreenhouse2022 says, In California, “Wildfires
-are the second most important source of emissions in 2020” and
-“Wildfires in 2020 negate reductions in greenhouse gas emissions from
-other sectors.”
+-   As shown in the Phillipines by @chengAssessingEconomicLoss2022, with
+    increasing extreme weather events, “businesses are more likely to
+    emerge in areas where infrastructure is resilient to climate
+    hazards”. @jerrettSmokeCaliforniaGreenhouse2022 says, In California,
+    “Wildfires are the second most important source of emissions in
+    2020” and “Wildfires in 2020 negate reductions in greenhouse gas
+    emissions from other sectors.”
 
-@linOpportunitiesTackleShortlived2022 says, apart from CO2, reduction of
-other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs)
-and short-lived climate pollutants (SLCPs) is required for climate
-stability.
+-   @linOpportunitiesTackleShortlived2022 says, apart from CO2,
+    reduction of other atmospheric pollutants, such as non-CO2
+    greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs)
+    is required for climate stability.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
     proposes scenarios of climate damage.
@@ -305,148 +461,6 @@ TODO
 -   “triple turn”
 -   lack of transparency
 -   Call for GOP contributors’ transparency
-
-## **Environmental Degradation** {#environmental-degradation}
-
-### Growing Population {#growing-population}
-
-In November 2022, Planet Earth’s population reached 8 Billion people
-\[@theeconomictimesClimateChangeEarth2022\] and is
-
--   The future population projections in
-    @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
-    predict 8.5B people by 2030 and 9.7B by 2050.
--   While population growth puts higher pressure on Earth’s resources,
-    some research shows the effect is more from wasteful lifestyles than
-    the raw number of people \[@cardinaleBiodiversityLossIts2012\]
-    **???. NEED ACCESS!!**
--   @bowlerMappingHumanPressures2020
-
-### Overconsumption {#overconsumption}
-
--   Overconsumption is one of the root causes of climate change
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   @ivanovaQuantifyingPotentialClimate2020: “Around 2/3 of global GHG
-    emissions are directly and indirectly linked to household
-    consumption, with a global average of about 6 tonnes CO2 equivalent
-    per capita.”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
--   Overconsumption is also one of the root causes of marine plastic
-    pollution.
-
--   @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong
-    linkage of climate change and marine plastic pollution “along with
-    other stressors that threaten the resilience of species and habitats
-    sensitive to both climate change and plastic pollution”.
-
--   @mobergMobilityFoodHousing2019 reports daily human activities
-    emission contribution on average in France, Germany, Norway and
-    Sweden:
-
-| Emission Share | Category |
-|----------------|----------|
-| 21%            | Housing  |
-| 30%            | Food     |
-| 34%            | Mobility |
-| 15%            | Other    |
-
-Daily human activities emission contribution on average in France,
-Germany, Norway and Sweden.
-
--   According to @debnathSocialMediaEnables2022 39% of global CO2
-    emissions comes from the building sector.
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green
-    Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
-
-### Biodiversity {#biodiversity}
-
--   Biodiversity loss is linked to overconsumption.
-
--   @wwfForestsReducingEU2022 **case study highlights how 4 biodiverse
-    regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia,
-    and the Cuvette Centrale in Democratic Republic of Congo are
-    experiencing rapid destruction due to consumer demand in the
-    European Union.**
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
--   @uebtBiodiversityBarometer2022 reports “Biodiversity awareness is
-    now at 72% or higher in all countries sampled, compared to only 29%
-    or higher across countries sampled in 2009.”
--   @unitHistoryConvention2023: The history of the United Nations
-    Convention on Biodiversity goes back to 1988, when the working group
-    was founded
--   @almondr.e.a.LivingPlanetReport reports, the number of species
-    killed, mass destruction of nature. “69% decline in the relative
-    abundance of monitored wildlife populations around the world between
-    1970 and 2018. Latin America shows the greatest regional decline in
-    average population abundance (94%), while freshwater species
-    populations have seen the greatest overall global decline (83%).”
--   @unepCOP15EndsLandmark2022: **The Convention on Biodiversity 2022
-    (COP15) adopted the first global biodiversity framework to accompany
-    climate goals.**
--   https://www.sciencedirect.com/science/article/pii/S163106911000291X
-
-### Forest {#forest}
-
-Deforestation is widespread.
-
--   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe
-    rapidly losing its forest carbon sink.
-
--   Burning of biomass undermines carbon capture.
-
-### Water {#water}
-
--   Clean water and water pollution
--   @kochOpinionArizonaRace2022 (**Need access!)**
-
-### Air {#air}
-
-Air pollution is so widespread. Clean air is a requirement
-
--   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
-    over 400000 individuals in England, South Korea and Taiwan
-    establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause
-    for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health
-    and economic benefits across the board from air pollution reduction
-    in France.
--   In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the
-    Chinese University of Hong Kong: “We have known about the link
-    between pollution and lung cancer for a long time, and we now have a
-    possible explanation for it. As consumption of fossil fuels goes
-    hand in hand with pollution and carbon emissions, we have a strong
-    mandate for tackling these issues – for both environmental and
-    health reasons.”
--   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
-    progress to curb industrial emissions.
-
-**Design**: *People live in the polluted areas are so used to it. What
-app to wake them up? “You live in a highly polluted area. Here’s the TOP
-10 companies causing pollution. Here’s what you can do.”*
-
-### Disasters {#disasters}
-
-Large ones that get international news coverage:
-
--   Chernobyl
--   Exxon Valdez
--   Deepwater Horizon
--   the Great Pacific Garbage Patch
--   Fukushima
--   @volkovaEffectsPrescribedFire2021 increased risk of wildfires due to
-    climate change.
--   @martinez-alierMappingEcologicalDistribution2021 and
-    @martinez-alierReplyOrihuelaExtractivism2022 as well as
-    @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
-    tracks environmental justice cases around the world. Dispues in
-    @eerolaCorporateConductCommodity2022.
 
 ## Conclusion {#conclusion}
 
