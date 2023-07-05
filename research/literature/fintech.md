@@ -1,5 +1,5 @@
 ---
-title: Finance
+title: Fintech
 bibliography: [../ref.bib]
 csl: ../apa.csl
 sidebar_position: 4
@@ -647,10 +647,10 @@ transparency, and transparency leads to trust.
 
 -   Koreans investing in influencers?
 
-Several banks have started offering a service to automatically save and
-invest tiny amounts of money collected from shopping expenses. Every
-purchase one makes contributes a small percentage - usually rounded up
-to the nearest whole number - to one’s investment accounts. For example,
+Banks have started offering a service to automatically save and invest
+tiny amounts of money collected from shopping expenses. Every purchase
+one makes contributes a small percentage - usually rounded up to the
+nearest whole number - to one’s investment accounts. For example,
 @swedbankEasySaver2022, the leading bank in the Estonian market, offers
 a savings service where everyday payments made with one’s debit card are
 rounded up to the next Euro, and this amount is transferred to a
@@ -679,12 +679,11 @@ showing how for an average Estonian means additional savings of about
     resilient infrastructure, promote sustainable industrialization and
     foster innovation”. The complexity of the situation offers an
     opportunity for design to make it understandable for humans
--   Recently, the Estonian government decided to free up mandatory
+-   In 2021 the Estonian government decided to free up mandatory
     retirement savings so people can exercise their own judgment on how
     to invest (or spend it). Financial analysts are worried the Estonian
     population will spend their retirement savings right away - instead
     of investing.
--   **Feature**: Help me write me investment thesis first.
 -   Gov launching ESG funds. Why is this important to research now?
     People in their twenties should invest in their future. Millennials
     and younger generations like services with a green, eco-conscious
@@ -740,6 +739,8 @@ showing how for an average Estonian means additional savings of about
 | @ZigluFastSimple       | UK simple investing app Ziglu |
 | @LightyearInvestingOwn | Estonian investing app        |
 | @SelmaYourFinances     | Finnish investing app         |
+
+**Design:** **Feature**: Help me write me investment thesis first.
 
 #### Personalized Investing {#personalized-investing}
 
@@ -983,7 +984,7 @@ There are many ‘green investment platforms’ who to trust?
 
 ### Sustainable Investing {#sustainable-investing}
 
-#### Governments and Legislation {#governments-and-legislation}
+#### Legislation {#legislation}
 
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed
     at achieving climate change mitigation is a key driver behind the
@@ -1049,7 +1050,9 @@ to profits in a few countries.
     are not sure how to separate sustainable assets from less
     sustainable ones.
 
-#### Sustainability Marketing {#sustainability-marketing}
+#### Marketing {#marketing}
+
+Sustainability Marketing
 
 -   @ames15MostEnvironmentally2022
 
@@ -1259,7 +1262,7 @@ emissions in their product lifecycle.
     potentially buying. This means that ESG change will finally be
     driven by the ultimate judge of business success – the customer.”
 
-#### Regenerative Investing and Finance {#regenerative-investing-and-finance}
+#### Regenerative Finance {#regenerative-finance}
 
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
 -   @regennetworkCommunityDevelopmentCall22 and
@@ -1362,7 +1365,7 @@ emissions in their product lifecycle.
     being certified ‘sustainable’ by the Sustainable Biomass Program”. A
     number of new AI-based tools aim to find instances of greenwashing.
 
--   @ClimateBondsInitiative2022: Climate Bonds Initiativegreening the
+-   @ClimateBondsInitiative2022: Climate Bonds Initiative greening the
     \$55 trillion short-term debt market
 
 -   **Design Implications:** *As a consumer, I can get notified by the

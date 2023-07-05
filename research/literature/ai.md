@@ -2,7 +2,7 @@
 title: AI
 bibliography: [../ref.bib]
 csl: ../apa.csl
-sidebar_position: 2
+sidebar_position: 3
 editor:
     render-on-save: false 
 ---
@@ -170,23 +170,6 @@ The Advent of Large-Language Models
 -   @SustainableShoppingSaving2023 My bedtime story about shopping,
     saving, and investing.
 
-### Health {#health}
-
--   AI for Health Diagnosic Symptoms
-
-Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated
-medical decision making system in the 1970s, medical AI as developed a
-lot.
-
--   @HealthPoweredAda health app, “Know and track your symptoms”
-
--   @BuoyHealthCheck AI symptom checker,
-
--   @womeninaiHowCanAI
-
--   AI-assistants in medical imaging
-    @calistoIntroductionHumancentricAI2021
-
 ## Human-AI Interaction {#human-ai-interaction}
 
 There’s wide literature available describing human-AI interactions
@@ -208,8 +191,7 @@ some key lessons can be transferred across fields horizontally.
 
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as
     decision-support for humans while differentiating between intended
-    and un-intended influence on human decisions.
--   
+    and unintended influence on human decisions.
 -   @chengInvestigationTrustAIenabled2022 describe AI-based support
     systems for collaboration and team-work.
 -   @schoonderwoerdHumancenteredXAIDeveloping2021 focuses on
@@ -266,7 +248,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | UX         |
 |------------|
 | Useful     |
-| Valubale   |
+| Valuable   |
 | Ussable    |
 | Acceesible |
 | Findable   |
@@ -369,7 +351,7 @@ How is AI changing ’interactions?
 -   @battistoniCanAIOrientedRequirements2023 creates a “Workshop with
     Young HCI Designers”.
 
-### Algorithmic Transparency {#algorithmic-transparency}
+### Transparency & Explainability {#transparency-explainability}
 
 Algorithmic Transparency
 
@@ -380,110 +362,9 @@ Algorithmic Transparency
     qualities/features are received and transformed into experiences and
     interaction”
 
--   @nickcleggHowAIInfluences2023 FB makes algo open-source.
+-   @nickcleggHowAIInfluences2023 FB makes algorithm open-source.
 
--   twiiter open source algo
-
-### Biases {#biases}
-
--   Psychological Biases and Mental Models
-
--   @PsychologyDesign106: 106 cognitive biases, including familiarity
-    bias and skeuomorphism.
-
--   @jakobnielsenMentalModelsUser2010 mental models
-
--   @tashkeunemanDearFitnessTracker2020
-
--   “People recognize computers as human”
-
--   @jamalInteractionDesignRule2018 Semantic motion and Peripheral
-    vision
-
-### Voice {#voice}
-
--   Voice Assistants
--   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and
-    kids
--   @casperkesselsGuidelinesDesigningInCar2022: “Guidelines for
-    Designing an In-Car Voice Assistant”
--   @casperkesselsVoiceInteractionSolution2022: “Is Voice Interaction a
-    Solution to Driver Distraction?”
--   Companies like NeuralLink are building devices to build meaningful
-    interactions from brain waves (EEG).
--   @tangSemanticReconstructionContinuous2022 reports new findings
-    enable computers to reconstruct language from fMRI readings.
--   Focus on voice education?
--   Example Suggestions of the AI companion:
-    -   *“Don’t buy a car, use a car sharing service instead to save XYZ
-        CO2. Service available near you: Bolt,\* Uber.”*
-    -   “Use a refillable shampoo bottle to save XYZ plastic pollution”
-    -   “Call your local politician to nudge them to improve bicycle
-        paths and reduce cars in your neighborhood. Over the past 2
-        years, you city has experienced an increase of cars from 290
-        cars per capita to 350 cars per capita.”\*
--   Personal AI Assistants to date have we created by large tech
-    companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang,
-    Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
--   @CELINO2020102410: There’s research suggesting that voice UI
-    accompanied by a *physical embodied system* is preffered by users in
-    comparison with voice-only UI.
--   This suggests adding an avatar to the AI design may be worthwhile.
-    **Open-Source AI-models open up the avenue for smaller companies and
-    even individuals for creating many new AI-assistants.**
--   There are many distinct ways how an algorithm can communicate with a
-    human. From a simple search box such as Google’s to chatbots,
-    voices, avatars, videos, to full physical manifestation, there are
-    interfaces to make it easier for the human communicate with a
-    machine.
-
-There’s evidence across disciplines about the usefulness of AI
-assistants:
-
--   @SERBAN20202849 suggests using the Alex AI assistant in *education*
-    during the pandemic, supported students and teachers ‘human-like’
-    presence. Standford research: “humans expect computers to be like
-    humans or places”
--   @CELINO2020102410 found in testing chatbots for survey interfaces
-    that “\[c\]onversational survey lead to an improved response data
-    quality.”
-
-### ChatGPT {#chatgpt}
-
--   @kechtQuantifyingChatbotsAbility2023 suggests AI is capable of
-    learning business processes.
-
--   @oconnorOpenArtificialIntelligence2023 and
-    @cahanConversationChatGPTRole2023 have conversations about science
-    with AI.
-
--   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology
-    reports can be explained to patients using AI chatbots.
-
--   @pavlikCollaboratingChatGPTConsidering2023 and
-    @brenta.andersWhyChatGPTSuch2022 report on AI in education.
-
-### Writing AI Characters {#writing-ai-characters}
-
--   @aletheaaiAletheaAIAI2021: Writing AI Characters, creating a
-    personality
--   Writing as training data? large language models. GTP3
--   **Initial Product Offering**
-
-### Ethics {#ethics}
-
--   AI Ethics
-
--   @AlgoTransparency manifesto, AI is not neutral
-
--   @clipdropCreateStunningVisuals AI Design Assistants
-
--   @eugeniakuydaReplika2023 Conversational AI - Replika
-
--   @tristangreeneConfusedReplikaAI2022: when the quality of AI
-    responses become good enough, people begin to get confused.
-
-### Explainability {#explainability}
+-   Twiter open-sourced the algorithm
 
 AI-explainability (named XAI in literature) is key to creating trust and
 there’s several authors in literature calling for more transparency and
@@ -502,7 +383,68 @@ explainability.
     output explainability. Medical professionals who were given AI
     results with an explanation trusted the results more.
 
-### Interfaces {#interfaces}
+### Credibility & Acceptance {#credibility-acceptance}
+
+-   AI Credibility Heuristic: A Systematic Model
+-   
+-   AI Acceptance
+-   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
+    important factors affecting the *utilitarian/hedonic* value
+    perceived by users, which further influence user willingness to
+    accept AI assistants. The relationships between AI assistant
+    advantages and utilitarian and hedonic value are affected
+    differently by social anxiety.”
+-   “Organization research suggests that acting through human agents
+    (i.e., the problem of indirect agency) can undermine ethical
+    forecasting such that actors believe they are acting ethically,
+    yet a) show less benevolence for the recipients of their power, b)
+    receive less blame for ethical lapses, and c) anticipate less
+    retribution for unethical behavior.” @gratchPowerHarmAI2022
+-   Anthropomorphism literature @liAnthropomorphismBringsUs2021
+    “high-anthropomorphism (vs. low-anthropomorphism) condition,
+    participants had more positive attitudes toward the AI assistant,
+    and the effect was mediated by psychological distance. Though
+    several studies have demonstrated the effect of anthropomorphism,
+    few have probed the underlying mechanism of anthropomorphism
+    thoroughly”
+-   **AI Guides have been shown to improve sports performance, etc, etc.
+    Can this idea be applied to sustainability? MyFitness Pal, AI
+    training assistant**
+
+| Name     | Features                           |
+|----------|------------------------------------|
+| Charisma |                                    |
+| Replika  | Avatar, Emotion, Video Call, Audio |
+| Siri     | Audio                              |
+
+### Ethics & Biases {#ethics-biases}
+
+-   AI Ethics
+
+-   @AlgoTransparency manifesto, AI is not neutral
+
+-   @clipdropCreateStunningVisuals AI Design Assistants
+
+-   @eugeniakuydaReplika2023 Conversational AI - Replika
+
+-   @tristangreeneConfusedReplikaAI2022: when the quality of AI
+    responses become good enough, people begin to get confused.
+
+-   Psychological Biases and Mental Models
+
+-   @PsychologyDesign106: 106 cognitive biases, including familiarity
+    bias and skeuomorphism.
+
+-   @jakobnielsenMentalModelsUser2010 mental models
+
+-   @tashkeunemanDearFitnessTracker2020
+
+-   “People recognize computers as human”
+
+-   @jamalInteractionDesignRule2018 Semantic motion and Peripheral
+    vision
+
+### AI UX Guidelines {#ai-ux-guidelines}
 
 User experience design (AI UX) plays a crucial role in improving the
 consumer to investing journey. The missed opportunity to provide an even
@@ -585,8 +527,6 @@ Many people have discussed the UX of AI.
 
 -   What is Personalized AI?
 
-### Guidelines {#guidelines}
-
 Guidelines for Human-AI interaction
 
 -   Microsoft’s Co-Founder Bill Gates predicted in 1982 *“personal
@@ -640,55 +580,6 @@ Guidelines for Human-AI interaction
 -   @vinuesaRoleArtificialIntelligence2020
 
 -   @orozcoBudapestBicycleNetwork2020
-
-### Credibility {#credibility}
-
--   AI Credibility Heuristic: A Systematic Model
-
-### Acceptance {#acceptance}
-
--   AI Acceptance
--   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
-    important factors affecting the *utilitarian/hedonic* value
-    perceived by users, which further influence user willingness to
-    accept AI assistants. The relationships between AI assistant
-    advantages and utilitarian and hedonic value are affected
-    differently by social anxiety.”
--   “Organization research suggests that acting through human agents
-    (i.e., the problem of indirect agency) can undermine ethical
-    forecasting such that actors believe they are acting ethically,
-    yet a) show less benevolence for the recipients of their power, b)
-    receive less blame for ethical lapses, and c) anticipate less
-    retribution for unethical behavior.” @gratchPowerHarmAI2022
--   Anthropomorphism literature @liAnthropomorphismBringsUs2021
-    “high-anthropomorphism (vs. low-anthropomorphism) condition,
-    participants had more positive attitudes toward the AI assistant,
-    and the effect was mediated by psychological distance. Though
-    several studies have demonstrated the effect of anthropomorphism,
-    few have probed the underlying mechanism of anthropomorphism
-    thoroughly”
--   **AI Guides have been shown to improve sports performance, etc, etc.
-    Can this idea be applied to sustainability? MyFitness Pal, AI
-    training assistant**
-
-### AI-Assisted Design {#ai-assisted-design}
-
--   AI-Assisted Design
--   @september162020WhatAIassistedDesign2020 “What is AI-assisted
-    Design?”
--   @architechturesWhatArtificialIntelligence2020
--   @constandseHowAIdrivenWebsite2018 AI-driven website builders.
--   @patrizia-slongoAIpoweredToolsWeb2020 AI tools for designers
--   @zakariyaStopUsingJasper2022
--   @kore.aiHomepage2023
--   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself
--   @CharismaStorytellingPowered
-
-| Name     | Features                           |
-|----------|------------------------------------|
-| Charisma |                                    |
-| Replika  | Avatar, Emotion, Video Call, Audio |
-| Siri     | Audio                              |
 
 ## AI Companions {#ai-companions}
 
@@ -846,6 +737,106 @@ out of the water.
     according to the goals of an individual human.”
 -   @martinez-plumedFuturesArtificialIntelligence2021 envisions the
     future of AI
+
+### Writing AI Characters {#writing-ai-characters}
+
+-   @aletheaaiAletheaAIAI2021: Writing AI Characters, creating a
+    personality
+-   Writing as training data? large language models. GTP3
+-   **Initial Product Offering**
+
+### Voice {#voice}
+
+-   Voice Assistants
+-   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and
+    kids
+-   @casperkesselsGuidelinesDesigningInCar2022: “Guidelines for
+    Designing an In-Car Voice Assistant”
+-   @casperkesselsVoiceInteractionSolution2022: “Is Voice Interaction a
+    Solution to Driver Distraction?”
+-   Companies like NeuralLink are building devices to build meaningful
+    interactions from brain waves (EEG).
+-   @tangSemanticReconstructionContinuous2022 reports new findings
+    enable computers to reconstruct language from fMRI readings.
+-   Focus on voice education?
+-   Example Suggestions of the AI companion:
+    -   *“Don’t buy a car, use a car sharing service instead to save XYZ
+        CO2. Service available near you: Bolt,\* Uber.”*
+    -   “Use a refillable shampoo bottle to save XYZ plastic pollution”
+    -   “Call your local politician to nudge them to improve bicycle
+        paths and reduce cars in your neighborhood. Over the past 2
+        years, you city has experienced an increase of cars from 290
+        cars per capita to 350 cars per capita.”\*
+-   Personal AI Assistants to date have we created by large tech
+    companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang,
+    Baidu Xiaodu, Alibaba AliGenie all relay on voice only.
+-   @CELINO2020102410: There’s research suggesting that voice UI
+    accompanied by a *physical embodied system* is preffered by users in
+    comparison with voice-only UI.
+-   This suggests adding an avatar to the AI design may be worthwhile.
+    **Open-Source AI-models open up the avenue for smaller companies and
+    even individuals for creating many new AI-assistants.**
+-   There are many distinct ways how an algorithm can communicate with a
+    human. From a simple search box such as Google’s to chatbots,
+    voices, avatars, videos, to full physical manifestation, there are
+    interfaces to make it easier for the human communicate with a
+    machine.
+
+There’s evidence across disciplines about the usefulness of AI
+assistants:
+
+-   @SERBAN20202849 suggests using the Alex AI assistant in *education*
+    during the pandemic, supported students and teachers ‘human-like’
+    presence. Standford research: “humans expect computers to be like
+    humans or places”
+-   @CELINO2020102410 found in testing chatbots for survey interfaces
+    that “\[c\]onversational survey lead to an improved response data
+    quality.”
+
+### AI-Assisted Design {#ai-assisted-design}
+
+-   AI-Assisted Design
+-   @september162020WhatAIassistedDesign2020 “What is AI-assisted
+    Design?”
+-   @architechturesWhatArtificialIntelligence2020
+-   @constandseHowAIdrivenWebsite2018 AI-driven website builders.
+-   @patrizia-slongoAIpoweredToolsWeb2020 AI tools for designers
+-   @zakariyaStopUsingJasper2022
+-   @kore.aiHomepage2023
+-   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself
+-   @CharismaStorytellingPowered
+
+### ChatGPT {#chatgpt}
+
+-   @kechtQuantifyingChatbotsAbility2023 suggests AI is capable of
+    learning business processes.
+
+-   @oconnorOpenArtificialIntelligence2023 and
+    @cahanConversationChatGPTRole2023 have conversations about science
+    with AI.
+
+-   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology
+    reports can be explained to patients using AI chatbots.
+
+-   @pavlikCollaboratingChatGPTConsidering2023 and
+    @brenta.andersWhyChatGPTSuch2022 report on AI in education.
+
+### Health {#health}
+
+-   AI for Health Diagnosic Symptoms
+
+Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated
+medical decision making system in the 1970s, medical AI as developed a
+lot.
+
+-   @HealthPoweredAda health app, “Know and track your symptoms”
+
+-   @BuoyHealthCheck AI symptom checker,
+
+-   @womeninaiHowCanAI
+
+-   AI-assistants in medical imaging
+    @calistoIntroductionHumancentricAI2021
 
 ## Summary {#summary}
 
