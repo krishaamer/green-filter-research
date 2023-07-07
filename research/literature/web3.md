@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`];
 
 
 ```mdx-code-block
@@ -17,9 +17,7 @@ import FlightEmissions from '../images/flight-emissions.png'
 import ResQClub from '../images/resq-club.png'
 ```
 
-## Web3 {#web3}
-
-## Provenance and Traceability {#provenance-and-traceability}
+## Provenance & Traceability {#provenance-traceability}
 
 -   200 million PCs sold every year
 -   @RealityLabsResearch2022
@@ -88,12 +86,10 @@ Circular design is possible if supply chains become circular.
 -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
     FoxWay and Circular economy for PCs
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains..
     (contact japanese factory?)
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Several startups are using distributed ledgers (blockchains) to
     track source material to the factories ad product movements from
@@ -119,7 +115,7 @@ Circular design is possible if supply chains become circular.
 | Ambrosius      | ambrosus.io       |                                                                              |                                               |
 | Modum          | modum.io          |                                                                              |                                               |
 | OriginTrail    | origintrail.io    |                                                                              |                                               |
-| Everledger     |                   |                                                                              |                                               |
+| Everledger     | everledger.io     |                                                                              |                                               |
 | VeChain        | vechain.org       |                                                                              |                                               |
 | Wabi           | wabi.io           |                                                                              |                                               |
 | FairFood       | fairfood.org      |                                                                              |                                               |
@@ -229,68 +225,80 @@ Can data transparency provide tools for reducing cruelty.
 
 -   The key idea is making CO2 Visible.
 
+#### Emissions {#emissions}
+
+Data about green house gas emissions.
+
+@crippaCO2EmissionsAll2022 shows average global emissions are 4.81
+tonnes of CO2 per capita.
+
+| Per Capita (2020)    | Total (2021)   | Col3 |
+|----------------------|----------------|------|
+| Qatar                | China          |      |
+| Kuwait               | U.S.A          |      |
+| Bahrain              | European Union |      |
+| United Arab Emirates | India          |      |
+| Brunei Darussalam    | Russia         |      |
+|                      | Japan          |      |
+|                      | Iran           |      |
+|                      | South Korea    |      |
+|                      | Indonesia      |      |
+|                      | Saudi Arabia   |      |
+
+@worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest
+per capita CO2 emissions come from Oil Producers. Total CO2 emissions
+from @europeancommission.jointresearchcentre.CO2EmissionsAll2022.
+
+@ivanovaQuantifyingPotentialClimate2020 shows the average per capita
+carbon footprint of North America 13.4, Europe 7.5, Africa and the
+Middle East 1.7 tonnes of CO2 equivalent per capita.
+
 #### Carbon Labels {#carbon-labels}
 
--   Adding CO2 labels for consumer products have been discussed for
-    decades (@adamcornerWhyWeNeed2012). While academic literature has
-    looked at even minute detail such as color and positioning of the
-    label (@zhouCarbonLabelsHorizontal2019) and there is some indication
-    consumers are willing to pay a small premium for low-CO2 products
-    (@xuLowcarbonEconomyCarbon2022) as well as all else being equal,
-    choose the option with a lower CO2 number
-    (@carlssonSustainableFoodCan2022), the idea of *Carbon Labelling* is
-    yet to find mainstream adoption. Although there’s some evidence to
-    suggest labeling low CO2 food enables people to choose a
-    *climatarian diet* in a large-scale study
-    @lohmannCarbonFootprintLabels2022 of UK university students, their
-    impact on the market share of low-carbon meals is negligible.
+Adding CO2 labels for consumer products have been discussed for decades
+(@adamcornerWhyWeNeed2012). @cohenPotentialRoleCarbon2012 argues carbon
+labels do influence consumer choice towards sustainability. Academic
+literature has looked at even minute detail such as color and
+positioning of the label (@zhouCarbonLabelsHorizontal2019). There is
+some indication consumers are willing to pay a small premium for low-CO2
+products (@xuLowcarbonEconomyCarbon2022). All else being equal,
+consumers choose the option with a lower CO2 number
+(@carlssonSustainableFoodCan2022). Nonetheless, the idea of *Carbon
+Labelling* is yet to find mainstream adoption.
 
--   @cohenPotentialRoleCarbon2012 argues carbon labels do influence
-    consumer choice towards sustainability.
+There’s some evidence to suggest labeling low CO2 food enables people to
+choose a *climatarian diet* in a large-scale study
+@lohmannCarbonFootprintLabels2022 of UK university students, however the
+impact of carbon labels on the market share of low-carbon meals is
+negligible. Labels alone are not enough. underlines
+@edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which
+found a negative correlation between worrying about climate impact and
+interest in climate information on products, suggesting a need for wider
+environmental education programs. @asioliConsumersValuationCultured2022
+found differences between countries, where Spanish and British consumers
+chose meat products with *‘No antibiotics ever’* over a *Carbon Trust*
+label, whereas French consumers chose CO2 labeled meat products.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+@briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
+practiced by only a handful of companies. The U.S. restaurant chain
+*Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk
+*Oatly* provide carbon labeling on their products.
+@climatepartnerLabellingCarbonFootprint2020: Companies like
+ClimatePartner and Carbon Calories offers labeling consumer goods with
+emission data as a service. @thecarbontrustHowReduceYour: The Carbon
+Trust reports it’s certified 27 thousand product footprints.
 
--   @asioliConsumersValuationCultured2022 found differences between
-    countries, where Spanish and British consumers chose meat products
-    with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas
-    French consumers chose CO2 labeled meat products.
--   Labels alone are not enough, as underlined by
-    @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study
-    which found a negative correlation between worrying about climate
-    impact and interest in climate information on products, suggesting a
-    need for wider environmental education programs.
--   @briankatemanCarbonLabelsAre2020: Carbon labeling is voluntary and
-    practiced by only a handful of companies. The U.S. restaurant chain
-    *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant
-    milk *Oatly* provide carbon labeling on their products.
-    @climatepartnerLabellingCarbonFootprint2020: Companies like
-    ClimatePartner and Carbon Calories offers labeling consumer goods
-    with emission data as a service. @thecarbontrustHowReduceYour: The
-    Carbon Trust reports it’s certified 27 thousand product footprints.
--   @ivanovaQuantifyingPotentialClimate2020: The average per capita
-    carbon footprint of North America 13.4, Europe 7.5, Africa and the
-    Middle East 1.7 tonnes of CO2 equivalent per capita.
 -   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able
     to track your carbon footprint
+
 -   @ivanovaQuantifyingPotentialClimate2020 “establish consumption
     options with a high mitigation potential measured in tons of CO2
     equivalent per capita per year.”
+
 -   55% of emissions come from energy production.
--   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
-    percent of U.S. Gen-Z and Millenials follow news related to
-    environmental issues.
+
 -   @cartoClimateResilienceGeography2023 Making advanced maps to
     convince people to make changes
--   @crippaCO2EmissionsAll2022 shows global emissions 4.81 tonnes CO2
-    per capita. @worldresourcesinstituteCO2EmissionsMetric2020 shows the
-    top 5 largest per capita CO2 emissions come from Oil Producers -
-    Qatar, Kuwait, Bahrain, United Arab Emirates, Brunei Darussalam in
-    2020.
--   @europeancommission.jointresearchcentre.CO2EmissionsAll2022 provides
-    CO2 emissions for all the countries around the world, per total
-    emissions the top 10 are China, U.S.A. the European Union, India,
-    Russia, Japan, Iran, South Korea, Indonesia, and Saudi Arabia as of
-    2021.
 
 #### Digital Product Passports {#digital-product-passports}
 
@@ -301,39 +309,60 @@ It’s a further development of the idea of carbon labels.
     environmental data. Carbon labels are needed for green
     transformation.
 
--   @jensenDigitalProductPassports2023
+-   @reichDefiningGoalsProduct2023 “Information gaps are identified as
+    one of the major obstacles to realizing a circular economy.”
 
--   @kingProposedUniversalDefinition2023
+-   @jensenDigitalProductPassports2023 “support decision-making
+    throughout product life cycles in favor of a circular economy.”
 
--   @reichDefiningGoalsProduct2023
+-   @kingProposedUniversalDefinition2023 “influence consumer behavior
+    towards sustainable purchasing and responsible product ownership by
+    making apparent sustainability aspects of a product life cycle.”x m
 
--   @bergerConfidentialitypreservingDataExchange2023
+-   @bergerConfidentialitypreservingDataExchange2023 “support
+    Sustainable Product Management by gathering and containing product
+    life cycle data. However, some life cycle data are considered
+    sensitive by stakeholders, leading to a reluctance to share such
+    data.”
 
--   @plociennikDigitalLifecyclePassport2022
+-   @plociennikDigitalLifecyclePassport2022 “Digital Lifecycle Passport
+    (DLCP) hosted on a cloud platform and can be accessed by producers,
+    users, recyclers”
 
--   @bergerFactorsDigitalProduct2023
+-   @bergerFactorsDigitalProduct2023 challenges with Electric Vehicle
+    Batterys. @bergerDataRequirementsAvailabilities2023 proposes Digital
+    Battery Passports
 
--   @bergerDataRequirementsAvailabilities2023
+-   @vancapelleveenAnatomyPassportCircular2023 literature overview
 
--   @vancapelleveenAnatomyPassportCircular2023
+-   Sustainable Product Management:
+    @korzhovaSustainableProductManagement2020
 
-### Cases {#cases}
+## Industry Cases {#industry-cases}
+
+Conversations about sustainability are too general and one needs to look
+at the specific sustainability metrics at specific industries to be able
+to design for meaningful interaction.
 
 -   There are many domain-specific research showing how varied
     industries can develop eco-designed products. For example,
     @DURIEZ2022454 shows how simply by reducing material weight it’s
     possible to design more sustainable transportation.
 
-**Design:** Conversations about sustainability are too general and one
-needs to look at the specific sustainability metrics at specific
-industries to be able to design for meaningful interaction.
+**Design Implications:** focus on specific industries.
 
-#### Fashion {#fashion}
+### Fashion {#fashion}
 
 Sustainable Fashion, Textile Design
 
 @YoungConsumersComplicated: Young people are the largest consumers of
-fast fashion.
+fast fashion. In @europeanenvironmentagencyTextilesEnvironmentRole2022,
+European Environment Agency (EEA) estimates based on trade and
+production data that EU27 citizens consumed an average 15kg of textile
+products per person per year.
+
+-   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the
+    textile waste in the UK is exported to other countries.
 
 Across industries, reports are saying there isn’t enough transparency.
 
@@ -345,12 +374,8 @@ Across industries, reports are saying there isn’t enough transparency.
     @adamkiewiczGreenwashingSustainableFashion2022
 -   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of
     water, 1.7B tons of CO2, 92 million tons of textile waste.
--   In @europeanenvironmentagencyTextilesEnvironmentRole2022, European
-    Environment Agency (EEA) estimates based on trade and production
-    data that EU27 citizens consumed an average 15kg of textile products
-    per person per year. @kohlerCircularEconomyPerspectives2021:
-    Globally 87% of textile products are burned or landfilled after 1st
-    consumer use.
+-   @kohlerCircularEconomyPerspectives2021: Globally 87% of textile
+    products are burned or landfilled after 1st consumer use.
 -   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets
     carbon footprint?
 -   @leungGreenDesign2021 There’s a growing know-how on how to produce
@@ -365,17 +390,11 @@ Across industries, reports are saying there isn’t enough transparency.
     and retailers, raise public awareness, educate citizens about the
     social and environmental challenges facing the global fashion
     industry and support people’s activism.”
--   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the
-    textile waste in the UK is exported to other countries.
 -   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel
     coloration is very limited.
 -   @gyabaahCharacterizationDumpsiteWaste2023 research across several
     dumpsites across Ghana revealed up to 12% of the landfill consisted
     of textile waste.
--   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of
-    plastic waste out of which only 4% is recycled.
--   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68%
-    of all waste mapped by citizen scientists.
 -   @imperfectidealistSustainableGreenwashingHow2020 Fashion
     sustainability vs greenwashing
 -   @TransparencySustainabilityPlatform2023 Ethical Shopping
@@ -422,7 +441,7 @@ Across industries, reports are saying there isn’t enough transparency.
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-#### Food {#food}
+### Food {#food}
 
 -   \[@santosCurrentTrendsTraceability2023\]: complex supply chains make
     seafood (marine Bivalvia, mollusks) logistics prone to fraud,
@@ -433,6 +452,10 @@ Across industries, reports are saying there isn’t enough transparency.
     sector contributes to approximately 13.5% of the total global
     anthropogenic greenhouse gas emissions and accounts for 25% of the
     total CO2 emission.”
+-   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of
+    plastic waste out of which only 4% is recycled.
+-   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68%
+    of all waste mapped by citizen scientists.
 
 There are several initiatives to reduce food waste by helping people
 consume food that would otherwise be throw away.
@@ -441,12 +464,12 @@ consume food that would otherwise be throw away.
 <Figure caption="Figure 7: ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
 
-| Name                         | Link                                                                  |                                                                                                                                                                                |
+| Name                         | Link                                                          |                                                                                                                                                                                |
 |----------------------|-------------------------|-------------------------|
-| Karma                        | https://apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
-| ResQ Club                    | https://www.resq-club.com/                                            | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
-| Kuri                         |                                                                       | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
-| Social media groups (no app) |                                                                       |                                                                                                                                                                                |
+| Karma                        | apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
+| ResQ Club                    | resq-club.com                                                 | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                               | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
+| Social media groups (no app) |                                                               |                                                                                                                                                                                |
 
 -   @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions
     come from food production. @FoodPrints2015 reports dairy (46%) and

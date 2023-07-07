@@ -23,6 +23,10 @@ import ResQClub from '../images/resq-club.png'
 
 -   FB, etc, Gas all had the same launch strategy - start with students
 
+-   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
+    percent of U.S. Gen-Z and Millenials follow news related to
+    environmental issues.
+
 -   How:
 
     -   Ask how much time you want to contribute
