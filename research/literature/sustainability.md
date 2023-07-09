@@ -19,8 +19,8 @@ import Humboldt from '../images/humboldt.jpg'
 ## Ecological Indicators {#ecological-indicators}
 
 *Sustainability* was first mentioned in
-@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context of
-forestry and discussing sustainable forest management in his seminal
+\[@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713\] in the context
+of forestry and discussing sustainable forest management in his seminal
 book *Sylvicultura oeconomica*.
 
 Ecological indicators can be used to measure sustainability.
@@ -51,21 +51,21 @@ available in ship records \[@BrohanClimate2012 \].
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
 
--   @keebleBrundtlandReportOur1988 reported in April 1987 that
+-   \[@keebleBrundtlandReportOur1988\] reported in April 1987 that
     *‘residents in high-income countries lead lifestyles incompatible
     with planetary boundaries’*. While my home Estonia at the time was
     considered low-income, a small nation on the verge of poverty behind
     the Iron Curtain occupation of the Soviet Occupy, we now in 2023,
     have indeed reached high-income status.
 
--   @korosecAmazonTaps2B2021 reports that Amazon’s 2B USD to a Climate
-    Pledge Fund earmarked to fix climate problems is invested in energy,
-    logistics, and packaging startups, which will reduce material waste.
-    “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos
-    is quoted in @cliffordHowThisPopular2022. It’s an example of how
-    money marketed as climate funding by the retail conglomerate means
-    focus on reducing operational cost of running their business through
-    automation and material savings.
+-   \[@korosecAmazonTaps2B2021\] reports that Amazon’s 2B USD to a
+    Climate Pledge Fund earmarked to fix climate problems is invested in
+    energy, logistics, and packaging startups, which will reduce
+    material waste. “Good intentions don’t work, mechanisms do,”
+    Amazon’s founder Bezos is quoted in \[@cliffordHowThisPopular2022\].
+    It’s an example of how money marketed as climate funding by the
+    retail conglomerate means focus on reducing operational cost of
+    running their business through automation and material savings.
 
 -   Aldo Leopold proposed the ideas of land ethics. “A thing is right
     when it tends to preserve the integrity, stability, and beauty of
@@ -75,7 +75,7 @@ available in ship records \[@BrohanClimate2012 \].
 -   Ecological Indicators (I like the name Ecomarkers) for Earth are
     like Biomarkers in human health.
 
--   @sarahludwigrauschSustainabilityYourHealth2021: “Human health is
+-   \[@sarahludwigrauschSustainabilityYourHealth2021\]: “Human health is
     central to all sustainability efforts.”, “All of these (food,
     housing, power, and health care), and the stress that the lack of
     them generate, play a huge role in our health,” Hollis says.”
@@ -83,9 +83,6 @@ available in ship records \[@BrohanClimate2012 \].
 -   @PublicHealthLinkages2013
 
 -   @guidottiHealthSustainabilityIntroduction2015
-
--   In Taiwan, @leeDevelopingIndicatorFramework2021 developed a
-    framework of indicators to assess sustainable tourism.
 
 -   “Sustainability is important for many reasons including:
     Environmental Quality – In order to have healthy communities, we
@@ -99,9 +96,9 @@ available in ship records \[@BrohanClimate2012 \].
 
 ### Ecosystem Services {#ecosystem-services}
 
--   @dailyNatureServicesSocietal1997 proposed the idea of ecosystem
-    services @costanzaValueWorldEcosystem1997 assessed the amount of
-    ecosystem services provided.
+-   \[@dailyNatureServicesSocietal1997\] proposed the idea of ecosystem
+    services; \[@costanzaValueWorldEcosystem1997\] attempted to assess
+    the amount of ecosystem services provided.
 -   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
     landowners for the ecosystem services their forests provide may
     reduce deforestation.
@@ -114,8 +111,19 @@ available in ship records \[@BrohanClimate2012 \].
     ecosystem services (ES) provided by insects. While it can be assumed
     much of the flora and fauna are crucial for Earth’s systems, science
     is still in the process of understanding and quantifying its
-    contributions. Meanwhile the destruction pressure on ecosystems is
-    rapidly increasing (cite A B C).
+    contributions.
+-   Meanwhile the destruction pressure on ecosystems is rapidly
+    increasing (cite A B C).
+-   @espinosaImpactsEvolutionChanges2023 marine ecosystem services
+    **(need access)**
+-   @chenResponseEcosystemVulnerability2023 Ecosystem vulnerability
+    **(need access)**
+-   @zhangIntegratingEcosystemServices2023 Integrating ecosystem
+    services conservation into urban planning **(need access)**
+-   @liDistinguishingImpactTourism2023 tourism is a large industrial
+    sector which relies on ecosystem services. In Taiwan,
+    \[@leeDevelopingIndicatorFramework2021\] developed a framework of
+    indicators to assess sustainable tourism.
 
 ### **Environmental Degradation** {#environmental-degradation}
 
