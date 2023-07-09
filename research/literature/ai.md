@@ -67,10 +67,14 @@ While by the 2010’s AI became powerful enough to beat humans in games of
 Go and Chess, it did not yet pass the Turing test. Its use was limited
 to specific tasks and generalized models did not exist yet. This changed
 with increase in computing power and a new approach called *deep
-learning*, largerly modeled after the *neural networks* of the
-biological (human) brain.
+learning*, largely modeled after the *neural networks* of the biological
+(human) brain.
 
 How to responsibly deploy AI for people around the world?
+
+@nobleFifthIndustrialRevolution2022 proposes we’re at the beginning of
+the 5th industrial revolution which brings the collaboration of humans
+and AI.
 
 ### Pervasive Computing {#pervasive-computing}
 

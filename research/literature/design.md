@@ -72,7 +72,7 @@ even children are anxious.
     text refers to “human right to a clean, healthy and sustainable
     environment”.
 
--   refi podcasrö ppl need agency
+-   Refi podcast: people need agency
 
 ***Design Implications:***
 
@@ -190,29 +190,7 @@ similar look and feature set.
     the rise. For example, Chime makes tipping suggestions on the place
     of purchase.
 
-### Service Design {#service-design}
-
--   @CargoBikeFREITAG, Recycled clothing maker FREITAG offers
-    sustainability-focused services such ass cargo bikes so you can
-    transport your purchases and a network for *shopping without
-    payment* = swapping your items with other members, as well as
-    repairs of their products.
-
-***Design Implications***
-
--   Your shopping products mostly come from Protector and Gamble (3x)
-    and Nestle. These are large conglomerates with a massive CO2
-    footprint. See the index to find some alternatives.
-
-#### Experience Design {#experience-design}
-
--   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM
-    Laura Fryer: “People buy experiences, not technology.”
--   Loaning terminology from service design, the user journey within an
-    app needs to consider each touchpoint on the way to a state of
-    success.
-
-#### Interaction Design {#interaction-design}
+### Interaction Design {#interaction-design}
 
 -   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign
     believe interaction design is still an emerging (and changing) field
@@ -253,6 +231,20 @@ similar look and feature set.
     remember seeing one that could be compatible with the environmental
     sustainability focus unfortunately…
 
+***Design Implications***
+
+-   Your shopping products mostly come from Protector and Gamble (3x)
+    and Nestle. These are large conglomerates with a massive CO2
+    footprint. See the index to find some alternatives.
+
+#### Experience Design {#experience-design}
+
+-   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation GM
+    Laura Fryer: “People buy experiences, not technology.”
+-   Loaning terminology from service design, the user journey within an
+    app needs to consider each touchpoint on the way to a state of
+    success.
+
 #### Product Design {#product-design}
 
 Young people expect a product.
@@ -263,6 +255,11 @@ Young people expect a product.
 -   @ceschinEvolutionDesignSustainability2016 shows how design for
     sustainability has expanded from a product focus to systems-thinking
     focus placing the product inside a societal context of use.
+-   @CargoBikeFREITAG, Recycled clothing maker FREITAG offers
+    sustainability-focused services such ass cargo bikes so you can
+    transport your purchases and a network for *shopping without
+    payment* = swapping your items with other members, as well as
+    repairs of their products.
 
 #### Design Systems {#design-systems}
 
@@ -294,21 +291,6 @@ Create a design system to best to showcase my analytic skills
 
 -   Rebuilt the app as a personalized, narrative lifestyle feed.
 
-#### Biodesign {#biodesign}
-
--   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
-
--   Neri Oxman’s expressions: “ecology-indifferent”, “naturing”, “mother
-    naturing”, “design is a practice of letting go of all that is
-    unnecessary”, “nature should be our single client”.
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a
-    community
-
--   Processes sustain things: implication for design: built an app
-
 #### Narrative Design {#narrative-design}
 
 Bring together film school **storytelling** experience with design… Does
@@ -323,7 +305,7 @@ branding also go here?
     working on smarter tools to displace their own main product, as
     exemplified by Google Assistant and large investments into LLMs.
 
-#### Nudge {#nudge}
+#### Nudge & Gamification {#nudge-gamification}
 
 -   The literature on *nudge* is huge, as researches try to find ways to
     affect human behaviors towards sustainability. Some notable
@@ -422,7 +404,7 @@ branding also go here?
 
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-#### Platform Economy and Superapps {#platform-economy-and-superapps}
+#### Platform Economy & Superapps {#platform-economy-superapps}
 
 -   Superapps are possible **thanks to Nudge.**
 
@@ -503,7 +485,7 @@ branding also go here?
 
 -   @CompanyNowDominating2021 PayPal dominance
 
-#### Quantified Self and Wearables and Gamification {#quantified-self-and-wearables-and-gamification}
+#### Quantified Self & Wearables {#quantified-self-wearables}
 
 Use technology to be more aware of one’s health.
 
@@ -586,6 +568,21 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   What would that look like for sustainability?
 
 -   Empowering people to live a sustainable day
+
+#### Biodesign {#biodesign}
+
+-   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
+
+-   Neri Oxman’s expressions: “ecology-indifferent”, “naturing”, “mother
+    naturing”, “design is a practice of letting go of all that is
+    unnecessary”, “nature should be our single client”.
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a
+    community
+
+-   Processes sustain things: implication for design: built an app
 
 #### Guided Sustainability {#guided-sustainability}
 

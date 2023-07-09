@@ -19,94 +19,69 @@ import ResQClub from '../images/resq-club.png'
 
 ## Provenance & Traceability {#provenance-traceability}
 
--   200 million PCs sold every year
+-   @bajarinPCSalesAre Over 300 million PCs sold in 2022
+    -   @GreenDiceReinventingIdea2021 Estonian company “sustainable
+        lifecycle management of IT equipment”
+    -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
+        FoxWay and Circular economy for PCs
 -   @RealityLabsResearch2022
 -   @katiegustafsonWhyTracingSeafood2022 **“Uniform traceability system
     for the entire supply chain.”**
 -   @munozCarbonFootprintEconomic2023 Is there such a thing as
     sustainable fishing? Bottom trawling is the worst and should be
     banned.
--   Help consumers to demand more
--   @timnicolleFintechLendingWhose2017
--   @timnicolleRealtimeESGData2021 and
-    @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime
-    ESG Give supply chain a voice by connecting workers directly to the
-    consumer
--   @WorkerVoice2022 Worker Voice apps
 -   @RealTimeESG2021 “Real Time ESG Tracking From StockSnips”
--   @incGlanceAlexandriaRealTime
-
-***Design Implications*:** app shows traceability.
-
--   Ethereum blockchain and animal rights. “Blockchain can provide a
-    transparent, immutable record of the provenance of products. This
-    can be especially useful for verifying claims made about animal
-    welfare. For example, products claiming to be”free-range,”
-    “organic,” or “sustainably sourced” could have their entire
-    lifecycle recorded on the blockchain, from birth to shelf, allowing
-    consumers to verify these claims.”
-
--   Animal rights vs animal welfare
-
--   Traceability and animal rights
-
 -   @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*:
     Fingerprinting of Sea Urchin.
-
 -   @watersEthicsChoiceAnimal2015 **(Need access!)**
-
 -   @cawthornControversialCuisineGlobal2016 **(Need access!)**
-
 -   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
-
 -   @baileyMappingActorsArguments2020 shows how the Norwegian government
     plans to increase salmon production 5x by 2050. How can this be
     sustainable?
-
--   @duttaBlockchainTechnologySupply2020 hundreds of paper researching
-    blockchain use in supply change operations since 2017.
-
 -   @neethirajanDigitalLivestockFarming2021 using biometric sensors to
     track livestock sustainability.
-
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
-
--   @ashrafPrototypeSupplyChain2023 Solana blockchain and Sigfox
-    internet of things (IoT) Integration for supply chain traceability.
-
 -   @patelBlockchainTechnologyFood2023 livestock products are 15% of
     agri-foods valued at €152 billion in 2018.
+-   @incGlanceAlexandriaRealTime
+-   @timnicolleFintechLendingWhose2017
+
+***Design Implications*:**
+
+-   App shows traceability.
+
+-   Help consumers to demand more.
 
 #### Supply Chains {#supply-chains}
 
 Circular design is possible if supply chains become circular.
 
--   @GreenDiceReinventingIdea2021
-
--   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
-    FoxWay and Circular economy for PCs
-
 -   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains..
     (contact japanese factory?)
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   Several startups are using distributed ledgers (blockchains) to
-    track source material to the factories ad product movements from
-    factories to markets. While blockchains enable securely tracing
-    data, which is immutable (no possible to change the same record,
-    only update data in new records), the system still relies on correct
-    data input. As the saying goes, “garbage in, garbage out”. Indeed,
-    the blockchain is most useful for auditing, as the time and place of
-    data input can be guaranteed, it will be easier to conduct a search
-    on who inputted incorrect data.
+-   @duttaBlockchainTechnologySupply2020 hundreds of paper researching
+    blockchain use in supply change operations since 2017.
 
 -   @vanwassenaerTokenizingCircularityAgrifood2023 Compares use cases
     for blockchains in enhancing traceability, transparency and cleaning
     up the supply chain. There are several technologies for tracking
     goods across the supply chain, from shipping to client delivery.
 
--   The blockchain supply chain companies as of summer 2023 include:
+-   @ashrafPrototypeSupplyChain2023 Solana blockchain and Sigfox
+    internet of things (IoT) Integration for supply chain traceability.
+
+-   Several startups are using distributed ledgers (blockchains) to
+    track source material arriving to the factories and product
+    movements from factories to markets. While blockchains enable
+    securely tracing data, which is immutable (no possible to change the
+    same record, only add data in new records).
+
+-   Blockchain ledgers are useful for data sharing and auditing, as the
+    time and place of data input can be guaranteed, and it will be
+    easier to conduct a search on who inputted incorrect data, however
+    the system still relies on correct data input. As the saying goes,
+    “garbage in, garbage out”.
 
 | Company        | Link              | Literature                                                                   | Comments                                      |
 |------------------|------------------|-------------------|------------------|
@@ -122,11 +97,29 @@ Circular design is possible if supply chains become circular.
 | Bext360        | bext360.com       |                                                                              |                                               |
 | SUKU           | suku.world        | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
 
+Blockchain supply chain companies as of summer 2023 include.
+
+-   Traceability and animal rights. Animal rights vs animal welfare.
+    Ethereum blockchain and animal rights. “Blockchain can provide a
+    transparent, immutable record of the provenance of products. This
+    can be especially useful for verifying claims made about animal
+    welfare. For example, products claiming to be”free-range,”
+    “organic,” or “sustainably sourced” could have their entire
+    lifecycle recorded on the blockchain, from birth to shelf, allowing
+    consumers to verify these claims.”
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
 -   Another aspect of supply tracing is the treatment of workers and
     working conditions. Companies that intend to 2give supply chain a
     voice” by connecting workers directly to the consumer (even in
     anonymously, to protect the workers from retribution), include
     *CTMFile* and *Alexandria*.
+    -   @WorkerVoice2022 Worker Voice apps.
+    -   @timnicolleRealtimeESGData2021 and
+        @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar
+        Realtime ESG Give supply chain a voice by connecting workers
+        directly to the consumer.
 -   @matthewgoreEmissionsRegulationsShipping2022 reports the
     International Maritime Organization (IMO) targets cutting CO2
     equivalent emissions in shipping 50% by 2050 compared to 2008.
@@ -200,20 +193,20 @@ Can data transparency provide tools for reducing cruelty.
 -   Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
 -   @GoogleMostraraPor2021 Google green routes
 -   Wizzair Check carbon impact @OffsetYourFlight
--   @wikirateWebinarEnvisioningFinding2021: 7 WikiRate Data Sharing
-    Archetypes
+-   @wikirateWebinarEnvisioningFinding2021 WikiRate defines 7 Data
+    Sharing Archetypes
 
-| №   | Type                                 | Example                                                       |
-|-------------------|-------------------------|----------------------------|
-| 1   | Transparency Accountability Advocate |                                                               |
-| 2   | Compliance Data Aggregator           |                                                               |
-| 3   | Data Intelligence Hub                |                                                               |
-| 4   | **Worker Voice Tool**                | @caravanstudiosStrengthenYourWorker2022: **“Worker Connect”** |
-| 5   | Traceability tool                    | trustrace.com                                                 |
-| 6   | Open data platform                   |                                                               |
-| 7   | Knowledge sharing platform           | business-humanrights.org                                      |
+| Type                                 | Example                                                       |
+|----------------------------------|--------------------------------------|
+| Transparency Accountability Advocate |                                                               |
+| Compliance Data Aggregator           |                                                               |
+| Data Intelligence Hub                |                                                               |
+| Worker Voice Tool                    | @caravanstudiosStrengthenYourWorker2022: **“Worker Connect”** |
+| Traceability tool                    | trustrace.com                                                 |
+| Open data platform                   |                                                               |
+| Knowledge sharing platform           | business-humanrights.org                                      |
 
--   WikiRate is a tool for checking green credentials Transpareency
+-   WikiRate is a tool for checking green credentials Transparency
 -   @laureenvanbreenPanelScalingCorporate2023
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
@@ -232,18 +225,18 @@ Data about green house gas emissions.
 @crippaCO2EmissionsAll2022 shows average global emissions are 4.81
 tonnes of CO2 per capita.
 
-| Per Capita (2020)    | Total (2021)   | Col3 |
-|----------------------|----------------|------|
-| Qatar                | China          |      |
-| Kuwait               | U.S.A          |      |
-| Bahrain              | European Union |      |
-| United Arab Emirates | India          |      |
-| Brunei Darussalam    | Russia         |      |
-|                      | Japan          |      |
-|                      | Iran           |      |
-|                      | South Korea    |      |
-|                      | Indonesia      |      |
-|                      | Saudi Arabia   |      |
+| Per Capita (2020)    | Total (2021)   |
+|----------------------|----------------|
+| Qatar                | China          |
+| Kuwait               | U.S.A          |
+| Bahrain              | European Union |
+| United Arab Emirates | India          |
+| Brunei Darussalam    | Russia         |
+|                      | Japan          |
+|                      | Iran           |
+|                      | South Korea    |
+|                      | Indonesia      |
+|                      | Saudi Arabia   |
 
 @worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest
 per capita CO2 emissions come from Oil Producers. Total CO2 emissions

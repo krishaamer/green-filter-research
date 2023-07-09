@@ -20,8 +20,8 @@ import Humboldt from '../images/humboldt.jpg'
 
 *Sustainability* was first mentioned in
 @hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713 in the context of
-forestry in his seminal book *Sylvicultura oeconomica* in 1713,
-discussing sustainable forest management.
+forestry and discussing sustainable forest management in his seminal
+book *Sylvicultura oeconomica*.
 
 Ecological indicators can be used to measure sustainability.
 
@@ -30,7 +30,7 @@ required to maintain *ecosystem services*
 \[@peterkareivaNaturalCapitalTheory2011\].
 
 Climate data visualization has a long history, starting with
-***Alexander von Humboldt,*** known as the father of climatology, who
+***Alexander von Humboldt,*** a founder of climatology, who
 revolutionized cartography by inventing the first isothermal maps around
 the year 1816, showing areas with similar temperature, variations in
 altitude and seasons in different colors
@@ -40,9 +40,10 @@ Written records of global temperature measurements are available
 starting from the 1880s when documentation of temperatures become
 available in ship records \[@BrohanClimate2012 \].
 
-TODO:
-
--   Industrial revolution
+-   Industrial revolution: @pearsonLowCarbonIndustrial2012: “transition
+    to a low carbon economy presents challenges and potential economic
+    benefits that are comparable to those of previous industrial
+    revolutions”
 -   Tragedy of the commons: @meisingerTragedyIntangibleCommons2022 and
     @lopezClimateChangeTimes2022 and @muraseSevenRulesAvoid2018
 
@@ -120,12 +121,12 @@ TODO:
 
 #### Growing Population {#growing-population}
 
-In November 2022, Planet Earth’s population reached 8 Billion people
-\[@theeconomictimesClimateChangeEarth2022\] and is
+Earth’s population reached 8 Billion people In November 2022
+\[@theeconomictimesClimateChangeEarth2022\] and population projections
+by \[@unWorldPopulationProspects2022\] predict 8.5B people by 2030 and
+9.7B by 2050. \[@hassounFoodProcessingCurrent2023\] forecasts increase
+of global food demand by 62% including impact of climate change.
 
--   The future population projections in
-    @unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2022
-    predict 8.5B people by 2030 and 9.7B by 2050.
 -   While population growth puts higher pressure on Earth’s resources,
     some research shows the effect is more from wasteful lifestyles than
     the raw number of people \[@cardinaleBiodiversityLossIts2012\]
@@ -366,7 +367,7 @@ energy brings benefits:
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
-#### Cap and Trade {#cap-and-trade}
+#### Cap & Trade {#cap-trade}
 
 -   Carbon Inequality: @chancelGlobalCarbonInequality2022 suggests
     “while one-tenth of the global population is responsible for nearly
