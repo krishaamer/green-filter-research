@@ -146,7 +146,17 @@ There's a number of user interface design patterns that have provide successful 
 
 -   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
 
-### Interaction Design
+## **Intelligent Interfaces**
+
+-   What is the role of an AI Designer? @lindenWhatRoleAI2021
+
+-   @PeopleAIGuidebook
+
+-   @LanguageModelSketchbook
+
+-   @parundekarEssentialGuideCreating2021
+
+#### Interaction Design
 
 -   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
 
@@ -393,17 +403,7 @@ There is a lot of research on quantified self. the Wearable devices like Apple W
 
 -   Empowering people to live a sustainable day
 
-#### Biodesign
-
--   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
-
--   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client".
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a community
-
--   Processes sustain things: implication for design: built an app
+## Education
 
 #### Guided Sustainability
 
@@ -435,6 +435,10 @@ Sustainability touches every facet of human existence and is thus an enormous un
 
 -   Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly
 
+### Imagination
+
+It's important to be able to imagine a better future.
+
 #### Speculative Design
 
 -   The term *'speculative design'* was invented by @dunneSpeculativeEverythingDesign2013 in their seminal book as the question on the intersection of user experience design and speculation. Speculative design makes use of future scenarios to envision contexts and interactions in future use.
@@ -452,148 +456,6 @@ Sustainability touches every facet of human existence and is thus an enormous un
 -   In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
 
 -   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
-
-## Eco-Design
-
-***Designing for Sustainability aka Circular Design or Eco-Design*** encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
-
--   "Evolution of design for sustainability: From product design to design for system innovations and transitions"
-
-Circular economy is a tiny part of the world economy. @circleeconomyCircularityGapReport2022 reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
-
--   @mcdonoughCradleCradleRemaking2002 book
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
--   @dullCircularSupplyChain2021 book
--   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for ***"Emotionally Durable Design"***, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. @roseEnchantedObjectsInnovation2015 has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away.
--   Growing public understanding of how nature works and intersects with our use of money.
--   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
--   @guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
--   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
--   @igeniusLetTalkSustainable2020
--   Very simple. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release."
-
-***Design Implications:***
-
--   AI can help us make sense of the vast amounts of sustainability data generated daily.
-
-### Legislation
-
--   @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only."
-
-```{=html}
-<!-- -->
-```
--   @EUTaxonomySustainable report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance .
-
--   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
-
--   @MANZARDO2021149507 **(need access!)**
-
--   @INARRA2022100727 **(need access!)**
-
--   @MUNARO2022566 **(need access!)**
-
--   @BASSANI2022151565 **(need access!)**
-
--   @VANDOORSSELAER2022189 **(need access!)**
-
--   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
-
--   @NUEZ2022133252 shows how electric vehicles may increase CO2 emissions in some areas, such as Canary Islands, where electricity production is polluting.
-
--   @ROSSI2022823 shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs.
-
--   @TIERNAN2022169 microplastics are a real concern
-
--   @ARRANZ2022131738 developing circular economy is really complex
-
--   @CHEBA2022108601
-
--   @RUIZPASTOR2022130495
-
--   @MIYOSHI2022267 takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
-
-Again, AI has the potential to provide the parameters for sustainability.
-
--   @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
--   Finding green products and supporting companies making them
--   Supporting legislative changes
--   Track you consumption, saving, investing. Shift balance towards saving and investing.
--   @nastaraanvadoodiEcodesignRequirementsDrive2022
--   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
-
-### Extended Producer Responsibility
-
-One type of legislation that works?
-
--   @steenmansFosteringCircularEconomy2023 Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
-
--   @pengExtendedProducerResponsibility2023 finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
-
--   @liuGlobalPerspectiveEwaste2023 reports, e--waste is growing 3%--5% every year, globally. @thukralExploratoryStudyProducer2023 identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
--   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   @christiansenExtendedProducerResponsibility2021: Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models.
-
--   @jacquesvernierExtendedProducerResponsibility2021: French EPR scheme was upgraded in 2020 to become more circular.
-
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022\@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
-
-***Design implications:** ERP and CDP data should be part of Green Filter.*
-
-### Return, Repair, Reuse
-
--   There's a growing number of companies providing re-use of existing items.
--   @SmartSwap For example, Swap furniture in Estonia
-
-Bring back your bottle and cup after use.
-
--   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
--   @formentiniDesignCircularDisassembly2023
--   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
--   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
--   @zeynepfalayvonflittnerFalayTransitionDesign
-
-### Packaging
-
-Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
-
--   @ChallengesOpportunitiesSustainable2022
--   @ProteinBrandsConsumers2022
--   @DetailrichSustainablePackaging2010
--   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution
--   @SulapacReplacingPlastic
-
-### Factories
-
--   Transparency about the polluting factories where the products come from.. the product journey
-
--   virtual factories
-
--   Tracing emissions from factory pipes... what's the app?
-
--   Factories should be local and make products that can be repaired.
-
--   Carbon-neutral factories "made in carbon-neutral factory" list of products
-
--   @stefanklebertCarbonneutralManufacturingPossible2022
-
--   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
-
--   @CO2neutralFactories and @InnocentOpens200m CO2 neutral factories?
-
--   @MakeYourWebsite CO2 neutral websites
-
--   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
-
--   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
-
--   @FFCFairFactories Factory compliance - Fair Factories
-
--   Planet Factory
-
--   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
 # References
 

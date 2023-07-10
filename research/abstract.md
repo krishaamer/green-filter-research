@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *GreenFilter: Designing an AI Companion for Sustainable Shopping, Saving, and Investing* {#greenfilter-designing-an-ai-companion-for-sustainable-shopping-saving-and-investing}
+## *Climate Anxiety: Designing an AI Companion for Sustainable Shopping, Saving, and Investing* {#climate-anxiety-designing-an-ai-companion-for-sustainable-shopping-saving-and-investing}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource

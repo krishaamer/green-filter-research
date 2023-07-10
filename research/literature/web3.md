@@ -19,14 +19,9 @@ import ResQClub from '../images/resq-club.png'
 
 ## Provenance & Traceability {#provenance-traceability}
 
--   @bajarinPCSalesAre Over 300 million PCs sold in 2022
-    -   @GreenDiceReinventingIdea2021 Estonian company “sustainable
-        lifecycle management of IT equipment”
-    -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
-        FoxWay and Circular economy for PCs
 -   @RealityLabsResearch2022
--   @katiegustafsonWhyTracingSeafood2022 **“Uniform traceability system
-    for the entire supply chain.”**
+-   @katiegustafsonWhyTracingSeafood2022 proposes a **“Uniform
+    traceability system for the entire supply chain”** for seafood
 -   @munozCarbonFootprintEconomic2023 Is there such a thing as
     sustainable fishing? Bottom trawling is the worst and should be
     banned.

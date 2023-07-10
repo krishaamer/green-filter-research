@@ -23,7 +23,8 @@ import Humboldt from '../images/humboldt.jpg'
 of forestry and discussing sustainable forest management in his seminal
 book *Sylvicultura oeconomica*.
 
-Ecological indicators can be used to measure sustainability.
+Sustainability can be measured using a variety of ***ecological
+indicators***.
 
 The field is known today as *sustainable yield* of *natural capital*
 required to maintain *ecosystem services*
@@ -96,15 +97,25 @@ available in ship records \[@BrohanClimate2012 \].
 
 ### Ecosystem Services {#ecosystem-services}
 
--   \[@dailyNatureServicesSocietal1997\] proposed the idea of ecosystem
-    services; \[@costanzaValueWorldEcosystem1997\] attempted to assess
+-   @dailyNatureServicesSocietal1997 proposed the idea of ecosystem
+    services and @costanzaValueWorldEcosystem1997 attempted to assess
     the amount of ecosystem services provided.
--   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
-    landowners for the ecosystem services their forests provide may
-    reduce deforestation.
+
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
     solutions “land re-naturalization (such as afforestation and wetland
     restoration)”
+
+| Non-Exhaustive list of |
+|------------------------|
+| Afforestation          |
+| Wetland restoration    |
+|                        |
+
+From @hanEmbeddingNaturebasedSolutions2022
+
+-   @bousfieldCarbonPaymentsCan2022 reports there’s evidence paying
+    landowners for the ecosystem services their forests provide may
+    reduce deforestation.
 -   @leprovostSupplyMultipleEcosystem2022 study shows *biodiversity* as
     one key factor to maintain delivery of ecosystem services.
 -   @noriegaResearchTrendsEcosystem2018 attempts to quantify the
@@ -139,7 +150,8 @@ of global food demand by 62% including impact of climate change.
     some research shows the effect is more from wasteful lifestyles than
     the raw number of people \[@cardinaleBiodiversityLossIts2012\]
     **???. NEED ACCESS!!**
--   @bowlerMappingHumanPressures2020
+-   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes
+    (ATCs):
 
 #### Overconsumption {#overconsumption}
 
@@ -268,7 +280,7 @@ Large ones that get international news coverage:
     tracks environmental justice cases around the world. Dispues in
     @eerolaCorporateConductCommodity2022.
 
-### Agroforestry and Permaculture {#agroforestry-and-permaculture}
+### Agroforestry & Permaculture {#agroforestry-permaculture}
 
 -   Food forests for regenerative food systems.
 
@@ -294,40 +306,79 @@ Large ones that get international news coverage:
     @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo.
     @refidaoReFiPodcastS2E92022 (Use as a question for the survey?)
 
+### Biodesign {#biodesign}
+
+-   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
+
+-   Neri Oxman’s expressions: “ecology-indifferent”, “naturing”, “mother
+    naturing”, “design is a practice of letting go of all that is
+    unnecessary”, “nature should be our single client”.
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a
+    community
+
+-   Processes sustain things: implication for design: built an app
+
 ### **Quality of Life** {#quality-of-life}
 
 -   @kaklauskasSynergyClimateChange2023
 
 -   @fabrisCLIMATECHANGEQUALITY2022
 
-## CO2 Markets {#co2-markets}
+### Digital Twin {#digital-twin}
 
--   @sipthorpeBlockchainSolutionsCarbon2022 compares traditional and
+-   The EU is developing a digital twin of Earth to help sustainability
+    prediction and planning, integrating Earth’s various systems such as
+    climate, hydrology, ecology, etc, into a single model
+    @hoffmannDestinationEarthDigital2023 and
+    @DestinationEarthShaping2023.
+
+## Mitigation & Adaption {#mitigation-adaption}
+
+#### Emissions Trading Schemes {#emissions-trading-schemes}
+
+-   There isn’t a single global CO2 trading market but rather several
+    local markets @InternationalCarbonMarket
+
+| Place                                                                                                                                                                             | Launch Date |
+|------------------------------------------------------------------|------|
+| European Union                                                                                                                                                                    | 2005        |
+| South Korea                                                                                                                                                                       | 2015        |
+| China                                                                                                                                                                             |             |
+| United States (no country-wide market but local markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont) | 2013        |
+|                                                                                                                                                                                   |             |
+| New Zealand                                                                                                                                                                       | 2008        |
+| Canada                                                                                                                                                                            | 2013        |
+
+-   \[@sipthorpeBlockchainSolutionsCarbon2022\] compares traditional and
     blockchain-based solutions to carbon trading.
--   @liuIndepthWillChina2021 and @ivyyinCommodities2023China2023 China’s
-    national emissions trading scheme (ETS) started in 2021 priced at 48
-    yuan per tonne of CO2, averaged at 58 yuan in 2022.
--   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report.
-    “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new
-    national climate pledges combined with other mitigation measures put
-    the world on track for a global temperature rise of 2.7°C by the end
-    of the century. That is well above the goals of the Paris climate
-    agreement and would lead to catastrophic changes in the Earth’s
-    climate. To keep global warming below 1.5°C this century, the
-    aspirational goal of the Paris Agreement, the world needs to halve
-    annual greenhouse gas emissions in the next eight years.
--   @unitednationsenvironmentprogrammeunepEmissionsGapReport2021 report
-    “If implemented effectively, net-zero emissions pledges could limit
-    warming to 2.2°C, closer to the well-below 2°C goal of the Paris
-    Agreement. However, many national climate plans delay action until
-    after 2030. The reduction of methane emissions from the fossil fuel,
-    waste and agriculture sectors could help close the emissions gap and
-    reduce warming in the short term, the report finds. Carbon markets
-    could also help slash emissions. But that would only happen if rules
-    are clearly defined and target actual reductions in emissions, while
-    being supported by arrangements to track progress and provide
-    transparency.”
--   @unitednationsenvironmentprogrammeEmissionsGapReport2022 2022
+-   \[@liuIndepthWillChina2021\] and \[@ivyyinCommodities2023China2023\]
+    China’s national emissions trading scheme (ETS) started in 2021
+    priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
+-   \[@unitednationsenvironmentprogrammeunepEmissionsGapReport2021\]
+    report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows
+    that new national climate pledges combined with other mitigation
+    measures put the world on track for a global temperature rise of
+    2.7°C by the end of the century. That is well above the goals of the
+    Paris climate agreement and would lead to catastrophic changes in
+    the Earth’s climate. To keep global warming below 1.5°C this
+    century, the aspirational goal of the Paris Agreement, the world
+    needs to halve annual greenhouse gas emissions in the next eight
+    years.
+-   \[@unitednationsenvironmentprogrammeunepEmissionsGapReport2021\]
+    report “If implemented effectively, net-zero emissions pledges could
+    limit warming to 2.2°C, closer to the well-below 2°C goal of the
+    Paris Agreement. However, many national climate plans delay action
+    until after 2030. The reduction of methane emissions from the fossil
+    fuel, waste and agriculture sectors could help close the emissions
+    gap and reduce warming in the short term, the report finds. Carbon
+    markets could also help slash emissions. But that would only happen
+    if rules are clearly defined and target actual reductions in
+    emissions, while being supported by arrangements to track progress
+    and provide transparency.”
+-   \[@unitednationsenvironmentprogrammeEmissionsGapReport2022\] 2022
     Emissions Gap report.
 
 #### Fossil Fuels {#fossil-fuels}
@@ -340,6 +391,8 @@ Large ones that get international news coverage:
     Emissions Database for Global Atmospheric Research (EDGAR)
 -   @danielvarjoNyaSatelliterAvslojar2022: The EU Copernicus satellite
     system reveals new greenhouse emissions previously undetected
+-   “Transport greenhouse gas emissions have increased every year since
+    2014” @ClimateChangeMitigation2023
 
 Fossil Fuels and Energy
 
@@ -365,9 +418,10 @@ energy brings benefits:
 
 #### Emission Scopes {#emission-scopes}
 
--   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022: The
+-   @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022 The
     U.S. National Public Utilities Council (NPUC) decarbonization report
-    provides a useful categorization of company emission scopes:
+    provides a useful categorization of ***emission scopes*** applicable
+    to companies and useful for organizing emission reduction schemes.
 
 | Scope   | Source                         |
 |---------|--------------------------------|
@@ -375,12 +429,27 @@ energy brings benefits:
 | Scope 2 | Indirect electricity emissions |
 | Scope 3 | Value chain emissions          |
 
+From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
+
 #### Cap & Trade {#cap-trade}
 
--   Carbon Inequality: @chancelGlobalCarbonInequality2022 suggests
-    “while one-tenth of the global population is responsible for nearly
-    half of all emissions, half of the population emits less than 12% of
-    it”.
+-   The share of CO2 emissions among people is highly unequal across the
+    world (termed ***Carbon Inequality***).
+    @chancelGlobalCarbonInequality2022 reports “while one-tenth of the
+    global population is responsible for nearly half of all emissions,
+    half of the population emits less than 12%”.
+
+-   One example is the ICT sector.
+
+-   @bajarinPCSalesAre Over 300 million PCs sold in 2022
+
+    -   @GreenDiceReinventingIdea2021 Estonian company “sustainable
+        lifecycle management of IT equipment”
+    -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone,
+        FoxWay and Circular economy for PCs.
+    -   @zhouCarboneconomicInequalityGlobal2022 ICT is an example of
+        inequality, while emerging economies bear 82% of the emissions,
+        developed countries gain 58% of value.
 
 #### Carbon Credits {#carbon-credits}
 
@@ -390,11 +459,15 @@ energy brings benefits:
 
 #### Carbon Capture {#carbon-capture}
 
--   @vitilloRoleCarbonCapture2022 argues
+-   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of
+    CO2 is difficult because of low concentration and CO2 capture at the
+    source of the emissions is more feasible.
 
--   @gaureTrueNotTrue2022: “98% of total electricity production is
-    generated by wind power and solar; the remainder is covered by a
-    backup technology.”
+-   @gaureTrueNotTrue2022 simulate a CO2 free electricity generation
+    system in the European Union where “98% of total electricity
+    production is generated by wind power and solar; the remainder is
+    covered by a backup technology.”. The authors stipulate it’s
+    possible to power the EU without producing CO2 emissions.
 
 -   **Important: “creating sustainability trust in companies in
     realtime”**
@@ -438,7 +511,7 @@ energy brings benefits:
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
     proposes scenarios of climate damage.
 
-### Nationally Determined Contributions {#nationally-determined-contributions}
+#### Nationally Determined Contributions {#nationally-determined-contributions}
 
 -   @climateanalyticsClimateActionTracker2023 Climate Action Tracker
     data portal allows to compare countries.
@@ -471,19 +544,225 @@ TODO
 -   lack of transparency
 -   Call for GOP contributors’ transparency
 
+## Eco-Design {#eco-design}
+
+***Designing for Sustainability aka Circular Design or Eco-Design***
+encompasses all human activities, making this pursuit an over-arching
+challenge across all industries also known as circular economy. Assuming
+that as individuals we want to act in a sustainable way, how exactly
+would be go about doing that?
+
+-   “Evolution of design for sustainability: From product design to
+    design for system innovations and transitions”
+
+Circular economy is a tiny part of the world economy.
+@circleeconomyCircularityGapReport2022 reports only 8.6% of world
+economy is circular and *100B tonnes of virgin materials* are sourced
+every year.
+
+-   @mcdonoughCradleCradleRemaking2002 book
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+-   @dullCircularSupplyChain2021 book
+-   @chapmanDesignEmotionalDurability2009 argues in his seminal paper
+    (and later in his book) for ***“Emotionally Durable Design”***, the
+    simple idea that we hold to things we value and thus they are
+    sustainable. We don’t throw away a necklace gifted to us by mom,
+    indeed this object might be passed down for centuries.
+    @roseEnchantedObjectsInnovation2015 has a similar idea, where
+    ***“Enchanted Objects”*** become so interlinked with us, we’re
+    unlikely to throw them away.
+-   Growing public understanding of how nature works and intersects with
+    our use of money.
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing
+    is a requirement for building a circular economy.
+-   @guptaAnalysisArtificialIntelligencebased2023 argues software is key
+    to building more sustainable products, already for decades. More
+    recently, companies like AutoDesk are putting CO2 calculations
+    inside their design software.
+-   @SustainabilityStartsDesign: “Sustainability starts in the design
+    process, and AI can help”.
+-   @igeniusLetTalkSustainable2020
+-   Very simple. “Carbon pricing is not there to punish people,” says
+    Lion Hirth @lionhirthLionHirthTwitter. “It’s there to remind us,
+    when we take travel, heating, consumption decisions that the true
+    cost of fossil fuels comprises not only mining and processing, but
+    also the damage done by the CO2 they release.”
+
+***Design Implications:***
+
+-   AI can help us make sense of the vast amounts of sustainability data
+    generated daily.
+
+### Legislation {#legislation}
+
+-   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
+    March 2022, the European Commission put forward a proposal for a
+    regulation establishing a general framework for setting eco-design
+    requirements for sustainable products, repealing rules currently in
+    force which concentrate on energy-related products only.”
+-   @EUTaxonomySustainable report: The EU has a ***taxonomy of
+    environmentally sustainable economic activities*** published by the
+    Technical Expert Group (TEG) on sustainable finance .
+-   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans
+    and Fisheries, is quoted as describing eco-design “respects the
+    boundaries of our planet” @europeancommissionGreenDealNew2022
+-   @MANZARDO2021149507 **(need access!)**
+-   @INARRA2022100727 **(need access!)**
+-   @MUNARO2022566 **(need access!)**
+-   @BASSANI2022151565 **(need access!)**
+-   @VANDOORSSELAER2022189 **(need access!)**
+-   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and
+    environmental impact analysis are needed to provide eco-design
+    scenarios.**
+-   @NUEZ2022133252 shows how electric vehicles may increase CO2
+    emissions in some areas, such as Canary Islands, where electricity
+    production is polluting.
+-   @ROSSI2022823 shows how introducing sustainability early in the
+    design process and providing scenarios where sustainability is a
+    metric, it’s possible to achieve more eco-friendly designs.
+-   @TIERNAN2022169 microplastics are a real concern
+-   @ARRANZ2022131738 developing circular economy is really complex
+-   @CHEBA2022108601
+-   @RUIZPASTOR2022130495
+-   @MIYOSHI2022267 takes the example of ink toner bottles and shows in
+    a case study how standardized compatibility between older and newer
+    systems can save resources and results in sustainability savings.
+
+Again, AI has the potential to provide the parameters for
+sustainability.
+
+-   @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding
+    the suitable life cycle design parameters.
+-   Finding green products and supporting companies making them
+-   Supporting legislative changes
+-   Track you consumption, saving, investing. Shift balance towards
+    saving and investing.
+-   @nastaraanvadoodiEcodesignRequirementsDrive2022
+-   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for
+    sustainable products
+
+### Extended Producer Responsibility {#extended-producer-responsibility}
+
+One type of legislation that works?
+
+-   @steenmansFosteringCircularEconomy2023 Argues for the need to engage
+    companies through legislation and shift from waste-centered laws to
+    product design regulations.
+
+-   @pengExtendedProducerResponsibility2023 finds that the Carbon
+    Disclosure Project has been a crucial tool to empower ERP in Chinese
+    auto-producers.
+
+-   @liuGlobalPerspectiveEwaste2023 reports, e–waste is growing 3%–5%
+    every year, globally. @thukralExploratoryStudyProducer2023
+    identifies several barriers to e-waste management among producers
+    including lack of awareness and infrastructure, attitudinal
+    barriers, existing *informal* e-waste sector, and the need for an
+    e-waste license.
+
+-   In Europe, there’s large variance between member states when in
+    comes to textile recycling: while Estonia and France are the only EU
+    countries where separate collection of textiles is required by law,
+    in Estonia 100% of the textiles were burned in an incinerator in
+    2018 while in France textiles are covered by an Extended Producer
+    Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   @christiansenExtendedProducerResponsibility2021: Nonetheless, EPR
+    schemes do not guarantee circularity and may instead be designed
+    around fees to finance waste management in linear economy models.
+
+-   @jacquesvernierExtendedProducerResponsibility2021: French EPR scheme
+    was upgraded in 2020 to become more circular.
+
+-   In any case, strong consumer legislation (such as EPR) has a direct
+    influence on producers’ actions. For example, in
+    @hktdcresearchFranceExpandsProducer2022@, the Hong Kong Trade
+    Development Council notified textile producers in July 2022
+    reminding factories to produce to French standards in order to be
+    able enter the EU market.
+
+***Design implications:** ERP and CDP data should be part of Green
+Filter.*
+
+### Return, Repair, Reuse {#return-repair-reuse}
+
+-   There’s a growing number of companies providing re-use of existing
+    items.
+-   @SmartSwap For example, Swap furniture in Estonia
+
+Bring back your bottle and cup after use.
+
+-   @pastorProposingIntegratedIndicator2023 proposes a **product
+    repairability index (PRI)**
+-   @formentiniDesignCircularDisassembly2023
+-   Recycling \[@lenovoFastTechUnsustainable2022\] “rethinking product
+    design and inspiring consumers to expect more from their devices”
+-   “design is a tool to make complexity comprehensible” like the
+    Helsinki chapel. there’s either or a priest or a social worker. it’s
+    the perfect public service. “limit the barrier of entry for people
+    to discover”. elegant.
+-   @zeynepfalayvonflittnerFalayTransitionDesign
+
+### Packaging {#packaging}
+
+Packaging is a rapidly growing industry which generates large amounts of
+waste @adaChallengesCircularFood2023.
+@bradleyLiteratureReviewAnalytical2023: “Over 161 million tonnes of
+plastic packaging is produced annually.”
+
+-   @ChallengesOpportunitiesSustainable2022
+-   @ProteinBrandsConsumers2022
+-   @DetailrichSustainablePackaging2010
+-   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution
+-   @SulapacReplacingPlastic
+
+### Factories {#factories}
+
+-   Transparency about the polluting factories where the products come
+    from.. the product journey
+
+-   virtual factories
+
+-   Tracing emissions from factory pipes… what’s the app?
+
+-   Factories should be local and make products that can be repaired.
+
+-   Carbon-neutral factories “made in carbon-neutral factory” list of
+    products
+
+-   @stefanklebertCarbonneutralManufacturingPossible2022
+
+-   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
+
+-   @CO2neutralFactories and @InnocentOpens200m CO2 neutral factories?
+
+-   @MakeYourWebsite CO2 neutral websites
+
+-   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
+
+-   @mowbrayWorldFirstFree2018 “World’s first free digital map of
+    apparel factories”
+
+-   @FFCFairFactories Factory compliance - Fair Factories
+
+-   Planet Factory
+
+-   @CompaniesWeHave Plastic waste makers index, sources of plastic
+    waste
+
 ## Conclusion {#conclusion}
 
 -   A wide range of legislative proposals, targets, organizations, and
-    goals already exists across Europe. Upcoming laws will harmonize
-    approaches to sustainability and raise standards for all members
-    countries, in turn influencing producers who wish to sell in the EU
-    common market.
+    goals already exists across the Europepean Union. Upcoming laws will
+    harmonize approaches to sustainability and raise standards for all
+    members countries, in turn influencing producers who wish to sell in
+    the EU common market.
 
 -   In unison, the reviewed technologies and practices move us closer to
     enabling *realtime ESG*: up-do-date transparent information about
-    how our product are produced. Realtime ESG is necessary a building
-    block to enable consumers and investors make more accurate,
-    real-world purchase decisions.
+    how our product are produced. Realtime ESG is a building block to
+    enable consumers and investors make more accurate, real-world
+    purchase decisions.
 
 # References {#references}
 

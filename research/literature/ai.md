@@ -83,6 +83,9 @@ and AI.
     Digital Twin of the planet, nature, ecosystems and human actions to
     help us change our behavior and optimize for planetary wellbeing.
 -   Calm Technology: Tech fades to the background, IoT.
+-   @https://uxdesign.cc/decoding-the-future-the-evolution-of-intelligent-interfaces-ec696ccc62cc
+-   Ambient computing
+-   Ubiquitous computing
 
 ### Generative AI {#generative-ai}
 
@@ -258,6 +261,12 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | Findable   |
 | Desirable  |
 | Credible   |
+
+@guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
+
+| 1                       | 2                    | 3                                            |
+|-------------------|-------------------|-----------------------------------|
+| Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
 How is AI changing ’interactions?
 
@@ -511,7 +520,7 @@ Many people have discussed the UX of AI.
 
 -   @tomhathawayChattingHumansUser2021 chatbot book
 
--   @lewAIUXWhy2020 ai ux book
+-   @lewAIUXWhy2020 AI UX book
 
 -   AI IXD is about human-centered seamless design
 
@@ -811,6 +820,8 @@ assistants:
 -   @CharismaStorytellingPowered
 
 ### ChatGPT {#chatgpt}
+
+ChatGPT is able to communicate in a human-like way, in first-person.
 
 -   @kechtQuantifyingChatbotsAbility2023 suggests AI is capable of
     learning business processes.
