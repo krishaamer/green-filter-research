@@ -341,9 +341,11 @@ Large ones that get international news coverage:
 
 -   There isn’t a single global CO2 trading market but rather several
     local markets @InternationalCarbonMarket
+-   New Zealand @rontardPoliticalConstructionCarbon2022 (need access)
+-   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|------------------------------------------------------------------|------|
+|-----------------------------------------------------------|-------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |

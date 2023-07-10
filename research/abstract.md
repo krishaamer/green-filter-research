@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *Climate Anxiety: Designing an AI Companion for Sustainable Shopping, Saving, and Investing* {#climate-anxiety-designing-an-ai-companion-for-sustainable-shopping-saving-and-investing}
+## *GreenFilter: Designing an AI Companion for Regenerative Capitalism* {#greenfilter-designing-an-ai-companion-for-regenerative-capitalism}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource
@@ -33,5 +33,5 @@ that acknowledge ecological limits.
 The major contribution of the study is an interactive artefact - a
 design prototype of an AI companion, informed by design research.
 
-**Keywords**: Human-AI Interaction, Regenerative Finance
+**Keywords**: Climate Anxiety, Sustainable Finance, Human-AI Interaction
 

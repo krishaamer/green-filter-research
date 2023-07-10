@@ -38,6 +38,11 @@ import Bunq from '../images/bunq.jpg'
     must do to mobilize capital at scale” said Dr Rhian-Mari Thomas,
     Chief Executive Officer, GFI.
 
+-   @RegenerativeCapitalismNew2023 “The quality of growth matters”
+
+-   @trucostNaturalCapitalRisk2023 finds unpriced externalities (natural
+    resources) 7.3 trillion USD per annum.
+
 -   Nerdwallet’s @tommytindallFinancialActionsSpeak2023 suggests making
     financial commitments instead of resolutions.
 
