@@ -398,6 +398,9 @@ branding also go here?
     Officer Kate Brandt suggests “Digital solutions play an important
     enabling role for at least 20-25% of the reductions required to
     achieve a net-zero economy in Europe”.
+-   @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more
+    eco-friendly driving routes
+-   Google Flights suggests flights with lower CO2 emissions
 
 | №   | Product        | Nudge                                |
 |-----|----------------|--------------------------------------|

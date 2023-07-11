@@ -227,7 +227,7 @@ Germany, Norway and Sweden.
 
 #### Forest {#forest}
 
-Deforestation is widespread.
+Deforestation is widespread all around the world.
 
 -   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe
     rapidly losing its forest carbon sink.
@@ -241,7 +241,7 @@ Deforestation is widespread.
 
 #### Air {#air}
 
-Air pollution is so widespread. Clean air is a requirement
+Air pollution is so widespread. Clean air is a requirement.
 
 -   Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed
     over 400000 individuals in England, South Korea and Taiwan
@@ -259,9 +259,9 @@ Air pollution is so widespread. Clean air is a requirement
 -   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
     progress to curb industrial emissions.
 
-**Design**: *People live in the polluted areas are so used to it. What
-app to wake them up? “You live in a highly polluted area. Here’s the TOP
-10 companies causing pollution. Here’s what you can do.”*
+**Design Implications**: *People live in the polluted areas are so used
+to it. What app to wake them up? “You live in a highly polluted area.
+Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
 #### Disasters {#disasters}
 
@@ -327,8 +327,11 @@ Large ones that get international news coverage:
 
 -   @fabrisCLIMATECHANGEQUALITY2022
 
-### Digital Twin {#digital-twin}
+### Digital Twins {#digital-twins}
 
+-   We can use all the data being recorded to provide a Digital Twin of
+    the planet, nature, ecosystems and human actions to help us change
+    our behavior and optimize for planetary wellbeing.
 -   The EU is developing a digital twin of Earth to help sustainability
     prediction and planning, integrating Earth’s various systems such as
     climate, hydrology, ecology, etc, into a single model
@@ -345,7 +348,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|-------------------------------------------------------|-----------------|
+|---------------------------------------------------|---------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |
@@ -595,7 +598,7 @@ every year.
 -   AI can help us make sense of the vast amounts of sustainability data
     generated daily.
 
-### Legislation {#legislation}
+### Policy Context {#policy-context}
 
 -   @europeanparliamentEcodesignSustainableProducts2022 proposal “On 30
     March 2022, the European Commission put forward a proposal for a
@@ -604,10 +607,15 @@ every year.
     force which concentrate on energy-related products only.”
 -   @EUTaxonomySustainable report: The EU has a ***taxonomy of
     environmentally sustainable economic activities*** published by the
-    Technical Expert Group (TEG) on sustainable finance .
+    Technical Expert Group (TEG) on sustainable finance.
 -   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans
     and Fisheries, is quoted as describing eco-design “respects the
     boundaries of our planet” @europeancommissionGreenDealNew2022
+-   The proposal for a Nature Restoration Law by the European Commission
+    requiring member countries to restore 20% of EU’s degraded
+    ecosystems by 2030 and full restoration by 2050 has not yet passed
+    @ScientistsUrgeEuropean2023 and is facing a backlash
+    @davidpintoBacklashNatureRestoration2023.
 -   @MANZARDO2021149507 **(need access!)**
 -   @INARRA2022100727 **(need access!)**
 -   @MUNARO2022566 **(need access!)**

@@ -29,6 +29,20 @@ suggest.
     devices will learn and adapt to you as you use them.
 -   Scalable Climate Solutions: What really works on a large scale?
 
+Example Suggestions of the AI companion:
+
+“Don’t buy a car, use a car sharing service instead to save XYZ CO2.
+Service available near you: Bolt,\* Uber.”
+
+“Use a refillable shampoo bottle to save XYZ plastic pollution”
+
+“Call your local politician to nudge them to improve bicycle paths and
+reduce cars in your neighborhood. Over the past 2 years, you city has
+experienced an increase of cars from 290 cars per capita to 350 cars per
+capita.”\*
+
+-   brand colors: pink, orange, green
+
 ## Research Limitations {#research-limitations}
 
 First, finance is a highly regulated industry and the proposed user
