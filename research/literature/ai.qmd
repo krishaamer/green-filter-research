@@ -10,57 +10,55 @@ editor:
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
-import Strava from '../images/strava.png'
 import Replika from '../images/with-me.png'
+import Runaround from '../images/runaround.png'
 ```
-## History of AI
+## From Idea to Reality
 
-AI has come far since Isaac Asimov proposed the 3 laws of Robotics in 1942 and Alan Turing published the Turing Test for Machine intelligence (@turingCOMPUTINGMACHINERYINTELLIGENCE1950), turning from a science-fiction concept into an everyday, mainstream reality.
-
-From Concept to Reality.
-
-Especially in the last decade, AI-based solutions have become a mainstay in medical research, novel drug development, and patient care (@LEITE20212515; @holzingerAILifeTrends2023), notably used for quickly finding potential COVID19 vaccines (@ZAFAR2022249), self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here. This chapter will look at AI in general and then focus on AI assistants in particular.
-
-Turing's test proposed a game of imitation: can the AI imitate a human so well that the person asking it questions would be deceived, when simultaneously speaking to a real human and a computer AI, without realizing which is a machine.
+Artificial Intelligence (AI) has come far in the 80 years since Alan Turing proposed the Turing Test for Machine Intelligence. In a game setting focused on imitation, could the the AI imitate a human being so well that the person asking questions would be deceived, when simultaneously speaking to a human and a computer AI, without realizing who is the human and who is a machine? @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
 
 > Alan Turing: *"I believe that in about fifty years' time it will be possible to program computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. ... I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."* -@stanfordencyclopediaofphilosophyTuringTest2021
 
-Initially presented in a science fiction story, the 3 basic rules became an inspiration for AI ethics until today.
+Over the 8 decades, AI development has been a long process of incremental improvements, beginning from a science-fiction concept until reaching the current stage of an everyday, mainstream reality. AI-based solutions are become a mainstay in medical research, drug development, patient care (@LEITE20212515; @holzingerAILifeTrends2023), used for quickly finding potential vaccines (@ZAFAR2022249) during the COVID19 pandemic, self-driving vehicles (passenger cars, delivery robots, drones in the sea and air, etc), and in many other industries, including AI-based assistants, which will be the focus here.
+
+**Isaac Asimov** proposed the 3 laws of Robotics in a science fiction short story titled ***Runaround***, first published in the March 1942 issue of the Astounding Science Fiction magazine (now available in the Internet Archive). These 3 simple rules became an inspiration for discussions of AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|-------------------------|-----------------------------------------------|
+|----------------------|--------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
 
-@AZAI defines ***"AI is computer programming that learns and adapts"***.
+: @isaacasimovRunaround1942
 
-Google started using AI in 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2022 most of Google's products are are based on AI as reported in @googleGooglePresentsAI2022
+```{=mdx}
+<Figure caption="Isaac Asimov's short story Runaround" src={Runaround} />
+```
+The prolific venture capital investor @AZAI defines ***"AI is computer programming that learns and adapts"***.
 
-While by the 2010's AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largely modeled after the *neural networks* of the biological (human) brain.
+@wooldridgeBriefHistoryArtificial2021
+
+@BriefHistoryArtificial
+
+Google started using AI in the year 2001, when a simple machine learning model improved spelling mistakes when searching; now in 2023 most of Google's products are are based on AI @googleGooglePresentsAI2022.
+
+By the 2010's AI became powerful enough to beat humans in games of Go and Chess, it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largely modeled after the *neural networks* of the biological (human) brain.
 
 How to responsibly deploy AI for people around the world?
 
-@nobleFifthIndustrialRevolution2022 proposes we're at the beginning of the 5th industrial revolution which brings the collaboration of humans and AI.
+@nobleFifthIndustrialRevolution2022 proposes AI begets the beginning of the ***5th industrial revolution*** which brings the collaboration of humans and AI.
 
-### Pervasive Computing
+The spread of **Internet of Things (IoT)** sensor networks and AI algorithms enabledintegration of computing deep into the fabric of daily human existence, where computations are a part of our everyday life. Several terms of different origin but considerable overlap describe this phenomenon, including ***Pervasive Computing (PC)*** and ***Ubiquitous Computing***. Similar concepts are ***Ambient Computing***, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and ***Calm Technology***, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself.
 
--   @rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive Computing (PC). We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
--   Calm Technology: Tech fades to the background, IoT.
-- @https://uxdesign.cc/decoding-the-future-the-evolution-of-intelligent-interfaces-ec696ccc62cc
-- Ambient computing
-- Ubiquitous computing
+-   @rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive Computing (PC).
+-   We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
+-   @kobetzDecodingFutureEvolution2023
 
-### Generative AI
+### **Generative AI** &Large Language Models (LLMs)
 
-AI is able to generate text, voice, images, videos, 3D objects, biological structures, etc.
+Generative AI, which gives AI the power to generate text, voice, images, videos, 3D objects, biological structures, and many other types of content, can be traced back to Alan Turing in 1950s. Since the,1980 (Machine Learning), Deep Learning (2006), Generative Adversarial Networks (2016), Transformers (2015) until Large Language Models (2018).
 
--   @Singer2022MakeAVideoTG describes how collecting billions of images with descriptive data (for example the html *alt* text) has enabled researchers to train AI models such as *stable diffusion* that can generate images based on human-language AI Health
--   @HomeLarkHealth
--   @stephaniedonaholeHowArtificialIntelligence2021
--   @hoangEnterDynamicIsland2022: "Dynamic interfaces might invoke a new design language for XR"
-
-### Large-Language Models
+-   @Singer2022MakeAVideoTG describes how collecting billions of images with descriptive data (for example the html *alt* text) has enabled researchers to train AI models such as ***stable diffusion*** that can generate images based on human-language
 
 The Advent of Large-Language Models
 
@@ -97,6 +95,7 @@ The Advent of Large-Language Models
 -   @bedtimestory.aiAIPoweredStory2023: Personalized bed-time stories for kids generated by AI
 -   The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
 -   @SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
+-   @tuWhatShouldData2023 LLMs can be used as data analysts.
 
 ## Human-AI Interaction
 
@@ -121,6 +120,24 @@ There's wide literature available describing human-AI interactions across varied
 -   @lvCutenessIrresistibleImpact2022 studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks. This finding has direct relevance for the "green filter" app design.
 -   @liuMachineGazeOnline2021 meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   @seeberMachinesTeammatesResearch2020 proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
+
+```{=html}
+<!-- -->
+```
+-   AI Health
+-   @HomeLarkHealth
+-   @stephaniedonaholeHowArtificialIntelligence2021
+-   AI for Health Diagnosic Symptoms
+
+Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
+
+-   @HealthPoweredAda health app, "Know and track your symptoms"
+
+-   @BuoyHealthCheck AI symptom checker,
+
+-   @womeninaiHowCanAI
+
+-   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
 
 ### Algorithmic Experience
 
@@ -190,9 +207,14 @@ Algorithmic Transparency
 AI-explainability (named XAI in literature) is key to creating trust and there's several authors in literature calling for more transparency and explainability.
 
 -   @holzingerMultimodalCausabilityGraph2021 highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
+
 -   @khosraviExplainableArtificialIntelligence2022 proposes a framework for explainability, focused on education.
+
 -   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
+
 -   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+
+-   @holbrookHumanCenteredMachineLearning2018: To reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it's important to focus on making users feel in control of the technology.
 
 ### Credibility & Acceptance
 
@@ -412,13 +434,6 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 
 -   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot), however
 
--   Figure 9: Popular Strava sports assistant provides run tracking and feedback. AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes.
-
-    @holbrookHumanCenteredMachineLearning2018: To reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it's important to focus on making users feel in control of the technology.
-
-```{=mdx}
-<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
-```
 ### Smart Agents
 
 -   @davidjohnstonSmartAgentProtocol2023 "general purpose AI that acts according to the goals of an individual human."
@@ -477,26 +492,8 @@ ChatGPT is able to communicate in a human-like way, in first-person.
 
 -   @pavlikCollaboratingChatGPTConsidering2023 and @brenta.andersWhyChatGPTSuch2022 report on AI in education.
 
-### Health
-
--   AI for Health Diagnosic Symptoms
-
-Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
-
--   @HealthPoweredAda health app, "Know and track your symptoms"
-
--   @BuoyHealthCheck AI symptom checker,
-
--   @womeninaiHowCanAI
-
--   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
-
 ## Summary
 
--   The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it's still difficult to pick and choose between 'good' and 'bad' financial vehicles to invest in.
-
--   This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience.
-
--   What would that experience look like? I've chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
+-   This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 ## References

@@ -11,6 +11,7 @@ editor:
 ```mdx-code-block
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
+import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
 ```
 
@@ -99,6 +100,27 @@ Empowered by Design - The design should empower young people.
 
 -   Yet action remains low.
 
+-   The demographics that stand to win the most from the green
+    transformation of business are the youngest generations, with more
+    years of life ahead of them, and more exposure to future
+    environmental and social risks. It would be advisable for Generation
+    Z and their parents (Millennials) to invest their resources in
+    greener assets, however, it’s still difficult to pick and choose
+    between ‘good’ and ‘bad’ financial vehicles to invest in.
+
+-   This creates an opportunity for a new generation of sustainable
+    investment apps, focusing on the usability and accessibility of ESG
+    for a mainstream audience. Generation Z and Millennials expect a
+    consumer-grade user experience.
+
+-   What would that experience look like? I’ve chosen these demographics
+    with the assumption that if given the right tools, the emotional
+    demand for sustainability could be transformed into action. The
+    exploration of systems of feedback to enable consumers to apply more
+    direct positive and negative pressure to the businesses and
+    consumers signal consequences for undesirable ecological performance
+    is a major motivation of this study.
+
 ### Personas {#personas}
 
 -   Use personas to articulate assumptions
@@ -180,6 +202,9 @@ similar look and feature set.
     media users have an easier time to accept the innovative parts. add
     Viz charts. Avatars are increasingly common and new generations are
     used to talking to computers.
+
+-   @hoangEnterDynamicIsland2022: “Dynamic interfaces might invoke a new
+    design language for XR”
 
 -   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your
     sustainability assistant would talk to you. Studies show gen N is
@@ -495,6 +520,16 @@ branding also go here?
 #### Quantified Self & Wearables {#quantified-self-wearables}
 
 Use technology to be more aware of one’s health.
+
+-   Figure 9: Popular Strava sports assistant provides run tracking and
+    feedback. AI Financial Advisors will need to go further to motivate
+    users. because of the nature of the technology, which is based on
+    the quality of the data the systems ingest, they are prone to
+    mistakes.
+
+```mdx-code-block
+<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
+```
 
 There is a lot of research on quantified self. the Wearable devices like
 Apple Watch, Oura Ring and apps help users track a variety of health
