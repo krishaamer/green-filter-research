@@ -16,7 +16,7 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">
           <i>
-            Make greener <s>consumer</s> investor choices, every day
+            AI Companion for Regenerative Capitalism
           </i>
         </p>
         <div className={styles.buttons}>

@@ -1,14 +1,14 @@
 ---
 title: AI
 bibliography: [../ref.bib]
-csl: ../apa.csl
+csl: ../chicago.csl
 sidebar_position: 3
 editor:
     render-on-save: false 
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -20,12 +20,16 @@ import Runaround from '../images/runaround.png'
 
 ## From Idea to Reality {#from-idea-to-reality}
 
-Artificial Intelligence (AI) has come far in the 80 years since Alan
-Turing proposed the Turing Test for Machine Intelligence. In a game
-setting focused on imitation, could the the AI imitate a human being so
-well that the person asking questions would be deceived, when
-simultaneously speaking to a human and a computer AI, without realizing
-who is the human and who is a machine?
+In the 80 years since Alan Turing proposed the Turing Test for Machine
+Intelligence, Artificial Intelligence (AI) has seen a long process of
+incremental improvements, beginning from a science-fiction concept until
+reaching the current stage of an everyday, mainstream reality.
+
+Turing’s idea was simple: design a game to test human-computer
+interaction using text messages, where a person is simultaneously
+speaking to another human and a computer AI. Could the the AI imitate a
+human being so well that the person asking questions would be deceived,
+without realizing which one is the human and which one is the machine?
 @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
 
 > Alan Turing: *“I believe that in about fifty years’ time it will be
@@ -38,15 +42,12 @@ who is the human and who is a machine?
 > speak of machines thinking without expecting to be contradicted.”*
 > -@stanfordencyclopediaofphilosophyTuringTest2021
 
-Over the 8 decades, AI development has been a long process of
-incremental improvements, beginning from a science-fiction concept until
-reaching the current stage of an everyday, mainstream reality. AI-based
-solutions are become a mainstay in medical research, drug development,
-patient care (@LEITE20212515; @holzingerAILifeTrends2023), used for
-quickly finding potential vaccines (@ZAFAR2022249) during the COVID19
-pandemic, self-driving vehicles (passenger cars, delivery robots, drones
-in the sea and air, etc), and in many other industries, including
-AI-based assistants, which will be the focus here.
+Today, AI-based solutions are a mainstay in medical research, drug
+development, patient care (\[@LEITE20212515;
+@holzingerAILifeTrends2023\]), quickly finding potential vaccine
+candidates during the COVID19 pandemic (@ZAFAR2022249), self-driving
+vehicles (passenger cars, delivery robots, drones in the sea, air), as
+well as AI-based assistants, which will be the focus here.
 
 **Isaac Asimov** proposed the 3 laws of Robotics in a science fiction
 short story titled ***Runaround***, first published in the March 1942
@@ -55,19 +56,19 @@ Internet Archive). These 3 simple rules became an inspiration for
 discussions of AI ethics until today.
 
 | №       | Asimov’s Laws of Robotics                                                                                           |
-|-----------------------|-------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
 
-@isaacasimovRunaround1942
+From @isaacasimovRunaround1942
 
 ```mdx-code-block
 <Figure caption="Isaac Asimov's short story Runaround" src={Runaround} />
 ```
 
-The prolific venture capital investor @AZAI defines ***“AI is computer
-programming that learns and adapts”***.
+-   The Oxford Internet Institute and Google define AI simply as
+    ***“computer programming that learns and adapts”*** @AZAI.
 
 @wooldridgeBriefHistoryArtificial2021
 
@@ -102,13 +103,13 @@ Technology***, which highlights how technology respects humans and our
 limited attention spans, and doesn’t call attention to itself.
 
 -   @rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive
-    Computing (PC).
+    Computing. (NEED access).
 -   We can use all the data being recorded to provide a Digital Twin of
     the planet, nature, ecosystems and human actions to help us change
     our behavior and optimize for planetary wellbeing.
 -   @kobetzDecodingFutureEvolution2023
 
-### **Generative AI** &Large Language Models (LLMs) {#generative-ai-large-language-models-llms}
+### **Generative AI** & Large Language Models {#generative-ai-large-language-models}
 
 Generative AI, which gives AI the power to generate text, voice, images,
 videos, 3D objects, biological structures, and many other types of
@@ -117,9 +118,10 @@ content, can be traced back to Alan Turing in 1950s. Since the,1980
 Networks (2016), Transformers (2015) until Large Language Models (2018).
 
 -   @Singer2022MakeAVideoTG describes how collecting billions of images
-    with descriptive data (for example the html *alt* text) has enabled
-    researchers to train AI models such as ***stable diffusion*** that
-    can generate images based on human-language
+    with descriptive data (for example the descriptive *alt* text which
+    accompanies images on websites) has enabled researchers to train AI
+    models such as ***stable diffusion*** that can generate images based
+    on human-language.
 
 The Advent of Large-Language Models
 
@@ -129,28 +131,19 @@ The Advent of Large-Language Models
     AI-generated content that’s difficult to distinguish from human
     expression, however it’s still not passing the Turing test.
 
--   @ZHANG2023107536 found humans are more likely to trust an AI
-    teammate if they are not deceived by it’s identity. It’s better for
-    collaboration to make it clear, one is talking to a machine. One
-    step towards trust is the explainability of AI-systems.
-
--   While current AIs are largely *‘black boxes’*, which do not explain
-    how they reach a certain expression @CABITZA2023118888 proposes a
-    framework for quality criteria and explainability of AI-expressions.
-
 -   @tamkin2021 reports on the advance of LLMs.
 
-| AI Model | Released | Company   |               | Link                      |
-|----------|----------|-----------|---------------|---------------------------|
-| GTP2     | 2019     | OpenAI    |               |                           |
-| T-NLG    | 2000     | Microsoft |               |                           |
-| GTP3     | 2020     | OpenAI    |               |                           |
-| GTP4     | 2023     | OpenAI    | Closed Source |                           |
-| NeMo     | 2022     | NVIDIA    |               |                           |
-| PaLM     | 2022     | Google    |               |                           |
-| LaMDA    | 2022     | Google    |               |                           |
-| GLaM     | 2022     | Google    |               |                           |
-| Vicuna   |          |           | Open Source   | https://vicuna.lmsys.org/ |
+| AI Model | Released | Company   |               | Link             |
+|----------|----------|-----------|---------------|------------------|
+| GTP2     | 2019     | OpenAI    |               |                  |
+| T-NLG    | 2000     | Microsoft |               |                  |
+| GTP3     | 2020     | OpenAI    |               |                  |
+| GTP4     | 2023     | OpenAI    | Closed Source |                  |
+| NeMo     | 2022     | NVIDIA    |               |                  |
+| PaLM     | 2022     | Google    |               |                  |
+| LaMDA    | 2022     | Google    |               |                  |
+| GLaM     | 2022     | Google    |               |                  |
+| Vicuna   |          |           | Open Source   | vicuna.lmsys.org |
 
 -   The advances in the capabilities of large AI model mean we’ve
     reached a point, where it’s possible to achieve UI and UX which
@@ -175,15 +168,6 @@ The Advent of Large-Language Models
 -   @liuPrismerVisionLanguageModel2023 propose future models may instead
     consist of a number networked domain-specific models to increase
     efficiency and thus become more scalable.
--   Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT
-    are large language models, not knowledge models. They are great at
-    generating human-sounding text, they are not good at ensuring their
-    text is fact-based. Why do we think the big first application should
-    be Search, which at its heart is about finding true information?”
--   @microsoftMicrosoftDesignerStunning2023: Microsoft Designer allows
-    generating UIs just based on a text prompt
--   @bedtimestory.aiAIPoweredStory2023: Personalized bed-time stories
-    for kids generated by AI
 -   The quality of LLM output depends on the quality of the provided
     prompt. @zhouLargeLanguageModels2022 reports creating an “Automatic
     Prompt Engineer” which automatically generates instructions that
@@ -195,6 +179,14 @@ The Advent of Large-Language Models
 -   @SustainableShoppingSaving2023 My bedtime story about shopping,
     saving, and investing.
 -   @tuWhatShouldData2023 LLMs can be used as data analysts.
+-   The main problem with LLMs is ***hallucinations**,* the language
+    models are able to generate text that is confident and eloquent yet
+    entirely wrong. Jack Krawczyk, the product lead for Google’s Bard:
+    “Bard and ChatGPT are large language models, not knowledge models.
+    They are great at generating human-sounding text, they are not good
+    at ensuring their text is fact-based. Why do we think the big first
+    application should be Search, which at its heart is about finding
+    true information?”
 
 ## Human-AI Interaction {#human-ai-interaction}
 
@@ -262,247 +254,6 @@ lot.
 
 -   AI-assistants in medical imaging
     @calistoIntroductionHumancentricAI2021
-
-### Algorithmic Experience {#algorithmic-experience}
-
--   @lorenzoDaisyGinsbergImagines2015 underlines the role of design
-    beyond *designing* as a tool for envisioning, in her words “design
-    can set agendas and not necessarily be in service, but be used to
-    find ways to explore our world and how we want it to be”.
-    Practitioners of Participatory Design (PD) have for decades
-    advocated for designers to become more activist through action
-    research. This means influencing outcomes, not only being a passive
-    observer of phenomena as a researcher or only focusing on usability
-    as a designer, without taking into account the wider context.
--   @shenoiParticipatoryDesignFuture2018 argues inviting domain
-    expertise into the discussion while having a sustainable design
-    process enables designers to design for experiences where they are
-    not a domain expert; this applies to highly technical fields, such
-    as medicine, education, governance, and in our case here - finance
-    and sustainability -, while building respectful dialogue through
-    participatory design.
--   Design is increasingly relevant to algorithms, and more specifically
-    to algorithms that affect user experience and user interfaces. When
-    the design is concerned with the ethical, environmental,
-    socio-economic, resource-saving, and participatory aspects of
-    human-machine interactions and aims to affect technology in a more
-    human direction, it can hope to create an experience designed for
-    sustainability.
-
-How do the 7 tenets of user experience (UX) apply to AI?
-
-| UX         |
-|------------|
-| Useful     |
-| Valuable   |
-| Ussable    |
-| Acceesible |
-| Findable   |
-| Desirable  |
-| Credible   |
-
-@guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
-
-| 1                       | 2                    | 3                                            |
-|-------------------|-------------------|-----------------------------------|
-| Reduce the time to task | Make the task easier | Personalize the experience for an individual |
-
-How is AI changing ’interactions?
-
--   @stone.skipperHowAIChanging2022
--   @theinternationalergonomicsassociationHumanFactorsErgonomics2019: To
-    provide a user experience (UX) that best fits human needs, designers
-    think through every interaction of the user with a system,
-    considering a set of metrics at each point. For example, the user’s
-    emotional needs, and their context of use. While software designers
-    are not able to change the ergonomics of the device in use in a
-    physical sense, which as a starting point, should be “optimized for
-    human well-being”.
--   Software interaction design goes beyond the form-factor and accounts
-    for human needs by using responsive design on the screen, aural
-    feedback cues in sound design, and even more crucially, by showing
-    the relevant content and the right time, making a profound
-    difference to the experience, keeping the user engaged and returning
-    for more.
--   @babichInteractionDesignVs2019 argues “\[T\]he moment of interaction
-    is just a part of the journey that a user goes through when they
-    interact with a product. User experience design accounts for all
-    user-facing aspects of a product or system”.
--   In narrative studies terminology, it’s a heroic journey of the user
-    to achieve their goals, by navigating through the interface until a
-    success state. Storytelling has its part in interface design however
-    designing for transparency is just as important, when we’re dealing
-    with the user’s finances and sustainability data, which need to be
-    communicated clearly and accurately, to build long-term trust in the
-    service. For a sustainable investment service, getting to a state of
-    success - or failure - may take years, and even longer. Given such
-    long timeframes, how can the app provide support to the user’s
-    emotional and practical needs throughout the journey?
--   @tubikstudioUXDesignGlossary2018 argues affordance measures the
-    clarity of the interface to take action in user experience design,
-    rooted in human visual perception (), however, affected by knowledge
-    of the world around us. A famous example is the door handle - by way
-    of acculturation, most of us would immediately know how to use it -
-    however, would that be the case for someone who saw a door handle
-    for the first time? A similar situation is happening to the people
-    born today.
--   Think of all the technologies they have not seen before - what will
-    be the interface they feel the most comfortable with? For the vast
-    majority of this study’s target audience, social media is the
-    primary interface through which they experience daily life. The
-    widespread availability of mobile devices, cheap internet access,
-    and AI-based optimizations for user retention, implemented by social
-    media companies, means this is the baseline for young adult users’
-    expectations in 2020 - and even more so for Generation Z teenagers,
-    reaching adulthood in the next few years.
-
-```mdx-code-block
-<Figure caption="Figure 10: Heuristic-Systematic Model of AI Credibility" src={AI} />
-```
-
--   @shinUserExperienceWhat2020 argues interaction design is
-    increasingly becoming dependent on AI. The user interface might
-    remain the same in terms of architecture, but the content is
-    improved, based on personalization and understanding the user at a
-    deeper level. Shin proposes the model (fig. 10) of Algorithmic
-    Experience (AX) “investigating the nature and processes through
-    which users perceive and actualize the potential for algorithmic
-    affordance”.
-
--   That general observation applies to voice recognition, voice
-    generation, natural language parsing, etc. Large consumer companies
-    like McDonald’s are in the process of replacing human staff with AI
-    assistants in the drive-through, which can do a better job in
-    providing a personal service than human clerks, for whom it would be
-    impossible to remember the information of thousands of clients.
-
--   In @barrettMcDonaldAcquiresMachineLearning2019, in the words of
-    Easterbrook, a previous CEO of McDonald’s “How do you transition
-    from mass marketing to mass personalization?”. During the writing of
-    this proposal, Google launched an improved natural language engine
-    to better understand search queries (Google, 2020), which is the
-    next step towards understanding human language semantics. The trend
-    is clear, and different types of algorithms are already involved in
-    many types of interaction design, however, we’re still in the early
-    stages. Where do we go from here?
-
--   In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at
-    Google’s people-centric AI systems department (PAIR), reminds us
-    that while AI offers need tools, user experience design needs to
-    remain human-centered - while AI can find patterns and offer
-    suggestions, humans should always have the final say.
-
--   @costaInteractionDesignAI2022 “Interaction Design for AI Systems”
-
--   @stoneskipperHowAIChanging2022 sketches a vision of “\[AI\] blend
-    into our lives in a form of apps and services”.
-
--   @dotgoDotGo2023 makes the camera the interaction device for people
-    with vision impairment
-
--   @battistoniCanAIOrientedRequirements2023 creates a “Workshop with
-    Young HCI Designers”.
-
-### Transparency & Explainability {#transparency-explainability}
-
-Algorithmic Transparency
-
--   @slackAturaProcess2021
-
--   @shinHowUsersInteract2020: “user experience and usability of
-    algorithms by focusing on users’ cognitive process to understand how
-    qualities/features are received and transformed into experiences and
-    interaction”
-
--   @nickcleggHowAIInfluences2023 FB makes algorithm open-source.
-
--   Twiter open-sourced the algorithm
-
-AI-explainability (named XAI in literature) is key to creating trust and
-there’s several authors in literature calling for more transparency and
-explainability.
-
--   @holzingerMultimodalCausabilityGraph2021 highlights possible
-    approaches to implementing transparency and explainability in AI
-    models. While AI outperforms humans on many tasks, humans are
-    experts in multi-modal thinking, bridging diverse fields.
-
--   @khosraviExplainableArtificialIntelligence2022 proposes a framework
-    for explainability, focused on education.
-
--   @zerilliHowTransparencyModulates2022 focuses on human factors and
-    ergonomics and argues that transparency should be task-specific.
-
--   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human
-    interactions in medical workflows and underscores the importance of
-    output explainability. Medical professionals who were given AI
-    results with an explanation trusted the results more.
-
--   @holbrookHumanCenteredMachineLearning2018: To reduce errors which
-    only humans can detect, and provide a way to stop automation from
-    going in the wrong direction, it’s important to focus on making
-    users feel in control of the technology.
-
-### Credibility & Acceptance {#credibility-acceptance}
-
--   AI Credibility Heuristic: A Systematic Model
--   
--   AI Acceptance
--   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
-    important factors affecting the *utilitarian/hedonic* value
-    perceived by users, which further influence user willingness to
-    accept AI assistants. The relationships between AI assistant
-    advantages and utilitarian and hedonic value are affected
-    differently by social anxiety.”
--   “Organization research suggests that acting through human agents
-    (i.e., the problem of indirect agency) can undermine ethical
-    forecasting such that actors believe they are acting ethically,
-    yet a) show less benevolence for the recipients of their power, b)
-    receive less blame for ethical lapses, and c) anticipate less
-    retribution for unethical behavior.” @gratchPowerHarmAI2022
--   Anthropomorphism literature @liAnthropomorphismBringsUs2021
-    “high-anthropomorphism (vs. low-anthropomorphism) condition,
-    participants had more positive attitudes toward the AI assistant,
-    and the effect was mediated by psychological distance. Though
-    several studies have demonstrated the effect of anthropomorphism,
-    few have probed the underlying mechanism of anthropomorphism
-    thoroughly”
--   **AI Guides have been shown to improve sports performance, etc, etc.
-    Can this idea be applied to sustainability? MyFitness Pal, AI
-    training assistant**
-
-| Name     | Features                           |
-|----------|------------------------------------|
-| Charisma |                                    |
-| Replika  | Avatar, Emotion, Video Call, Audio |
-| Siri     | Audio                              |
-
-### Ethics & Biases {#ethics-biases}
-
--   AI Ethics
-
--   @AlgoTransparency manifesto, AI is not neutral
-
--   @clipdropCreateStunningVisuals AI Design Assistants
-
--   @eugeniakuydaReplika2023 Conversational AI - Replika
-
--   @tristangreeneConfusedReplikaAI2022: when the quality of AI
-    responses become good enough, people begin to get confused.
-
--   Psychological Biases and Mental Models
-
--   @PsychologyDesign106: 106 cognitive biases, including familiarity
-    bias and skeuomorphism.
-
--   @jakobnielsenMentalModelsUser2010 mental models
-
--   @tashkeunemanDearFitnessTracker2020
-
--   “People recognize computers as human”
-
--   @jamalInteractionDesignRule2018 Semantic motion and Peripheral
-    vision
 
 ### AI UX Guidelines {#ai-ux-guidelines}
 
@@ -641,6 +392,268 @@ Guidelines for Human-AI interaction
 
 -   @orozcoBudapestBicycleNetwork2020
 
+### Algorithmic Experience {#algorithmic-experience}
+
+Applications with a similar UI depend on the community and content and
+how the content is shown to the user.
+
+-   @nickcleggHowAIInfluences2023 FB makes algorithm open-source.
+
+-   Twiter open-sourced the algorithm
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+-   @lorenzoDaisyGinsbergImagines2015 underlines the role of design
+    beyond *designing* as a tool for envisioning, in her words “design
+    can set agendas and not necessarily be in service, but be used to
+    find ways to explore our world and how we want it to be”.
+    Practitioners of Participatory Design (PD) have for decades
+    advocated for designers to become more activist through action
+    research. This means influencing outcomes, not only being a passive
+    observer of phenomena as a researcher or only focusing on usability
+    as a designer, without taking into account the wider context.
+-   @shenoiParticipatoryDesignFuture2018 argues inviting domain
+    expertise into the discussion while having a sustainable design
+    process enables designers to design for experiences where they are
+    not a domain expert; this applies to highly technical fields, such
+    as medicine, education, governance, and in our case here - finance
+    and sustainability -, while building respectful dialogue through
+    participatory design.
+-   Design is increasingly relevant to algorithms, and more specifically
+    to algorithms that affect user experience and user interfaces. When
+    the design is concerned with the ethical, environmental,
+    socio-economic, resource-saving, and participatory aspects of
+    human-machine interactions and aims to affect technology in a more
+    human direction, it can hope to create an experience designed for
+    sustainability.
+
+How do the 7 tenets of user experience (UX) apply to AI?
+
+| UX         |
+|------------|
+| Useful     |
+| Valuable   |
+| Ussable    |
+| Acceesible |
+| Findable   |
+| Desirable  |
+| Credible   |
+
+@guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
+
+| 1                       | 2                    | 3                                            |
+|-------------------|-------------------|-----------------------------------|
+| Reduce the time to task | Make the task easier | Personalize the experience for an individual |
+
+How is AI changing ’interactions?
+
+-   @stone.skipperHowAIChanging2022
+
+-   @theinternationalergonomicsassociationHumanFactorsErgonomics2019: To
+    provide a user experience (UX) that best fits human needs, designers
+    think through every interaction of the user with a system,
+    considering a set of metrics at each point. For example, the user’s
+    emotional needs, and their context of use. While software designers
+    are not able to change the ergonomics of the device in use in a
+    physical sense, which as a starting point, should be “optimized for
+    human well-being”.
+
+-   Software interaction design goes beyond the form-factor and accounts
+    for human needs by using responsive design on the screen, aural
+    feedback cues in sound design, and even more crucially, by showing
+    the relevant content and the right time, making a profound
+    difference to the experience, keeping the user engaged and returning
+    for more.
+
+-   @babichInteractionDesignVs2019 argues “\[T\]he moment of interaction
+    is just a part of the journey that a user goes through when they
+    interact with a product. User experience design accounts for all
+    user-facing aspects of a product or system”.
+
+-   In narrative studies terminology, it’s a heroic journey of the user
+    to achieve their goals, by navigating through the interface until a
+    success state. Storytelling has its part in interface design however
+    designing for transparency is just as important, when we’re dealing
+    with the user’s finances and sustainability data, which need to be
+    communicated clearly and accurately, to build long-term trust in the
+    service. For a sustainable investment service, getting to a state of
+    success - or failure - may take years, and even longer. Given such
+    long timeframes, how can the app provide support to the user’s
+    emotional and practical needs throughout the journey?
+
+-   @tubikstudioUXDesignGlossary2018 argues affordance measures the
+    clarity of the interface to take action in user experience design,
+    rooted in human visual perception (), however, affected by knowledge
+    of the world around us. A famous example is the door handle - by way
+    of acculturation, most of us would immediately know how to use it -
+    however, would that be the case for someone who saw a door handle
+    for the first time? A similar situation is happening to the people
+    born today.
+
+-   Think of all the technologies they have not seen before - what will
+    be the interface they feel the most comfortable with? For the vast
+    majority of this study’s target audience, social media is the
+    primary interface through which they experience daily life. The
+    widespread availability of mobile devices, cheap internet access,
+    and AI-based optimizations for user retention, implemented by social
+    media companies, means this is the baseline for young adult users’
+    expectations in 2020 - and even more so for Generation Z teenagers,
+    reaching adulthood in the next few years.
+
+-   @shinUserExperienceWhat2020 argues interaction design is
+    increasingly becoming dependent on AI. The user interface might
+    remain the same in terms of architecture, but the content is
+    improved, based on personalization and understanding the user at a
+    deeper level. Shin proposes the model (fig. 10) of Algorithmic
+    Experience (AX) “investigating the nature and processes through
+    which users perceive and actualize the potential for algorithmic
+    affordance”.
+
+-   That general observation applies to voice recognition, voice
+    generation, natural language parsing, etc. Large consumer companies
+    like McDonald’s are in the process of replacing human staff with AI
+    assistants in the drive-through, which can do a better job in
+    providing a personal service than human clerks, for whom it would be
+    impossible to remember the information of thousands of clients.
+
+-   In @barrettMcDonaldAcquiresMachineLearning2019, in the words of
+    Easterbrook, a previous CEO of McDonald’s “How do you transition
+    from mass marketing to mass personalization?”. During the writing of
+    this proposal, Google launched an improved natural language engine
+    to better understand search queries (Google, 2020), which is the
+    next step towards understanding human language semantics. The trend
+    is clear, and different types of algorithms are already involved in
+    many types of interaction design, however, we’re still in the early
+    stages. Where do we go from here?
+
+-   In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at
+    Google’s people-centric AI systems department (PAIR), reminds us
+    that while AI offers need tools, user experience design needs to
+    remain human-centered - while AI can find patterns and offer
+    suggestions, humans should always have the final say.
+
+-   @costaInteractionDesignAI2022 “Interaction Design for AI Systems”
+
+-   @stoneskipperHowAIChanging2022 sketches a vision of “\[AI\] blend
+    into our lives in a form of apps and services”.
+
+-   @dotgoDotGo2023 makes the camera the interaction device for people
+    with vision impairment
+
+-   @battistoniCanAIOrientedRequirements2023 creates a “Workshop with
+    Young HCI Designers”.
+
+### Transparency & Explainability {#transparency-explainability}
+
+AI-explainability (named XAI in literature) is key to creating trust and
+there’s several authors in literature calling for more transparency and
+explainability.
+
+Algorithmic Transparency
+
+-   Current AIs are largely *‘black boxes’*, which do not explain how
+    they reach a certain expression; @CABITZA2023118888 proposes a
+    framework for quality criteria and explainability of AI-expressions.
+    @khosraviExplainableArtificialIntelligence2022 proposes a framework
+    for explainability, focused on education.
+
+-   @slackAturaProcess2021
+
+-   @shinHowUsersInteract2020: “user experience and usability of
+    algorithms by focusing on users’ cognitive process to understand how
+    qualities/features are received and transformed into experiences and
+    interaction”
+
+-   @holzingerMultimodalCausabilityGraph2021 highlights possible
+    approaches to implementing transparency and explainability in AI
+    models. While AI outperforms humans on many tasks, humans are
+    experts in multi-modal thinking, bridging diverse fields.
+
+-   @zerilliHowTransparencyModulates2022 focuses on human factors and
+    ergonomics and argues that transparency should be task-specific.
+
+-   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human
+    interactions in medical workflows and underscores the importance of
+    output explainability. Medical professionals who were given AI
+    results with an explanation trusted the results more.
+
+-   @holbrookHumanCenteredMachineLearning2018: To reduce errors which
+    only humans can detect, and provide a way to stop automation from
+    going in the wrong direction, it’s important to focus on making
+    users feel in control of the technology.
+
+-   @ZHANG2023107536 found humans are more likely to trust an AI
+    teammate if they are not deceived by it’s identity. It’s better for
+    collaboration to make it clear, one is talking to a machine. One
+    step towards trust is the explainability of AI-systems.
+
+### Credibility & Acceptance {#credibility-acceptance}
+
+-   AI Credibility Heuristic: A Systematic Model
+
+```mdx-code-block
+<Figure caption="Heuristic-Systematic Model of AI Credibility" src={AI} />
+```
+
+-   AI Acceptance
+-   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
+    important factors affecting the *utilitarian/hedonic* value
+    perceived by users, which further influence user willingness to
+    accept AI assistants. The relationships between AI assistant
+    advantages and utilitarian and hedonic value are affected
+    differently by social anxiety.”
+-   “Organization research suggests that acting through human agents
+    (i.e., the problem of indirect agency) can undermine ethical
+    forecasting such that actors believe they are acting ethically,
+    yet a) show less benevolence for the recipients of their power, b)
+    receive less blame for ethical lapses, and c) anticipate less
+    retribution for unethical behavior.” @gratchPowerHarmAI2022
+-   Anthropomorphism literature @liAnthropomorphismBringsUs2021
+    “high-anthropomorphism (vs. low-anthropomorphism) condition,
+    participants had more positive attitudes toward the AI assistant,
+    and the effect was mediated by psychological distance. Though
+    several studies have demonstrated the effect of anthropomorphism,
+    few have probed the underlying mechanism of anthropomorphism
+    thoroughly”
+-   **AI Guides have been shown to improve sports performance, etc, etc.
+    Can this idea be applied to sustainability? MyFitness Pal, AI
+    training assistant**
+
+| Name     | Features                           |
+|----------|------------------------------------|
+| Charisma |                                    |
+| Replika  | Avatar, Emotion, Video Call, Audio |
+| Siri     | Audio                              |
+
+### Ethics & Biases {#ethics-biases}
+
+-   AI Ethics
+-   @AlgoTransparency published a manifesto with the key message: ***AI
+    is not neutral.***
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+-   @clipdropCreateStunningVisuals AI Design Assistants
+
+-   @eugeniakuydaReplika2023 Conversational AI - Replika
+
+-   @tristangreeneConfusedReplikaAI2022: when the quality of AI
+    responses become good enough, people begin to get confused.
+
+-   Psychological Biases and Mental Models
+
+-   @PsychologyDesign106: 106 cognitive biases, including familiarity
+    bias and skeuomorphism.
+
+-   @jakobnielsenMentalModelsUser2010 mental models
+
+-   @tashkeunemanDearFitnessTracker2020
+
+-   “People recognize computers as human”
+
+-   @jamalInteractionDesignRule2018 Semantic motion and Peripheral
+    vision
+
 ## AI Companions {#ai-companions}
 
 -   AI companions, AI partners, AI assistants, AI trainers - there’s are
@@ -664,12 +677,12 @@ Guidelines for Human-AI interaction
 -   Some have an avatar, some not. I’ve created a framework for
     categorization. Human-like or not… etc
 
-| Product                 | Link                                               | Description          |
+| Product                 | Link                                      | Description          |
 |----------------------|----------------------------|----------------------|
-| Github CoPilot          | https://www.personal.ai                            | AI helper for coding |
-| Google Translate        | https://translate.google.com/                      |                      |
-| Google Search           | https://www.google.com/                            |                      |
-| Google Interview Warmup | https://grow.google/certificates/interview-warmup/ | AI training tool     |
+| Github CoPilot          | personal.ai                               | AI helper for coding |
+| Google Translate        | translate.google.com                      |                      |
+| Google Search           | google.com                                |                      |
+| Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool     |
 
 -   @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more
     eco-friendly driving routes
@@ -677,7 +690,7 @@ Guidelines for Human-AI interaction
 -   CO2e calculations will be part of our everyday experience
 
 ```mdx-code-block
-<Figure caption="Figure 8 - Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
+<Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
 
 -   keywords.
@@ -715,14 +728,13 @@ out of the water.
 
 -   @josephinewaktareheintzCleo Cleo copywriter
 
--   The user experience (UX) of artificial intelligence (AI) is a topic
-    under active development by all the largest online platforms. The
-    general public is familiar with the most famous AI helpers, ChatGPT,
-    Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s
-    Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others. For
-    general, everyday tasks, such as asking factual questions,
-    controlling home devices, playing media, making orders, and
-    navigating the smart city.
+-   The user experience (UX) of AI is a topic under active development
+    by all the largest online platforms. The general public is familiar
+    with the most famous AI helpers, ChatGPT, Apple’s Siri, Amazon’s
+    Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie,
+    Xiaomi’s Xiao Ai, and many others. For general, everyday tasks, such
+    as asking factual questions, controlling home devices, playing
+    media, making orders, and navigating the smart city.
 
 -   Smaller startups have created digital companions such as Replika
     (fig. 8), which aims to become your friend, by asking probing
@@ -736,8 +748,8 @@ out of the water.
 -   There have also been plenty of attempts to create different types of
     sustainability assistants. For instance, to encourage behavioral
     changes, the AI assistant Sebastian developed at the Danish
-    hackathon series Unleash, used BJ Fogg’s ‘tiny habits’ model, nudged
-    by a chatbot buddy to help the human maintain an aspirational
+    hackathon series Unleash, used BJ Fogg’s ’***tiny habits’*** model,
+    nudged by a chatbot buddy to help the human maintain an aspirational
     lifestyle (@unleashSebastianAi2017).
 
 -   Personal carbon footprint calculators have been released online,
@@ -790,9 +802,8 @@ out of the water.
 -   Writing as training data? large language models. GTP3
 -   **Initial Product Offering**
 
-### Voice {#voice}
+### Voice Assistants {#voice-assistants}
 
--   Voice Assistants
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and
     kids
 -   @casperkesselsGuidelinesDesigningInCar2022: “Guidelines for
@@ -840,12 +851,18 @@ assistants:
 
 ### AI-Assisted Design {#ai-assisted-design}
 
+Generative AI has enabled developers to create AI tools for several
+industries, including AI-driven website builders
+(@constandseHowAIdrivenWebsite2018), AI tools for web designers
+(@patrizia-slongoAIpoweredToolsWeb2020), Microsoft Designer allows
+generating UIs just based on a text prompt
+(@microsoftMicrosoftDesignerStunning2023), personalized bed-time stories
+for kids generated by AI (@bedtimestory.aiAIPoweredStory2023).
+
 -   AI-Assisted Design
 -   @september162020WhatAIassistedDesign2020 “What is AI-assisted
     Design?”
 -   @architechturesWhatArtificialIntelligence2020
--   @constandseHowAIdrivenWebsite2018 AI-driven website builders.
--   @patrizia-slongoAIpoweredToolsWeb2020 AI tools for designers
 -   @zakariyaStopUsingJasper2022
 -   @kore.aiHomepage2023
 -   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself

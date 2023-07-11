@@ -33,5 +33,6 @@ that acknowledge ecological limits.
 The major contribution of the study is an interactive artefact - a
 design prototype of an AI companion, informed by design research.
 
-**Keywords**: Climate Anxiety, Sustainable Finance, Human-AI Interaction
+**Keywords**: Climate Anxiety, Sustainability, Finance, Human-AI
+Interaction
 

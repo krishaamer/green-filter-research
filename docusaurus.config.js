@@ -27,7 +27,6 @@ const config = {
         docs: {
           path: "research",
           routeBasePath: "research",
-          sidebarPath: require.resolve("./sidebars.js"),
           /*editUrl:
             "https://github.com/krishaamer/green-filter-research/blob/main/",*/
           showLastUpdateAuthor: true,
@@ -66,7 +65,6 @@ const config = {
         id: "prototypes",
         path: "prototypes",
         routeBasePath: "prototypes",
-        sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
     [
@@ -75,7 +73,6 @@ const config = {
         id: "surveys",
         path: "surveys",
         routeBasePath: "surveys",
-        sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
   ],
