@@ -37,13 +37,13 @@ without realizing which one is the human and which one is the machine?
 > making the right identification after five minutes of questioning. … I
 > believe that at the end of the century the use of words and general
 > educated opinion will have altered so much that one will be able to
-> speak of machines thinking without expecting to be contradicted.”*
-> -@stanfordencyclopediaofphilosophyTuringTest2021
+> speak of machines thinking without expecting to be contradicted.”* -
+> from @stanfordencyclopediaofphilosophyTuringTest2021
 
 Today, AI-based solutions are a mainstay in medical research, drug
-development, patient care (\[@LEITE20212515;
-@holzingerAILifeTrends2023\]), quickly finding potential vaccine
-candidates during the COVID19 pandemic (@ZAFAR2022249), self-driving
+development, patient care \[@LEITE20212515;
+@holzingerAILifeTrends2023\], quickly finding potential vaccine
+candidates during the COVID19 pandemic \[@ZAFAR2022249\], self-driving
 vehicles (cars, delivery robots, drones in the sea, air), as well as
 AI-based assistants, which will be the focus here.
 

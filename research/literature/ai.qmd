@@ -19,9 +19,9 @@ In the 80 years since the Alan Turing proposed the Turing Test for Machine Intel
 
 Turing's idea was simple: design a game to test human-computer interaction using text messages, where a person is simultaneously speaking to another human and a computer AI. Could the the AI imitate a human being so well that the person asking questions would be deceived, without realizing which one is the human and which one is the machine? @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
 
-> Alan Turing: *"I believe that in about fifty years' time it will be possible to program computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. ... I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."* -@stanfordencyclopediaofphilosophyTuringTest2021
+> Alan Turing: *"I believe that in about fifty years' time it will be possible to program computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. ... I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."* - from @stanfordencyclopediaofphilosophyTuringTest2021
 
-Today, AI-based solutions are a mainstay in medical research, drug development, patient care ([@LEITE20212515; @holzingerAILifeTrends2023]), quickly finding potential vaccine candidates during the COVID19 pandemic (@ZAFAR2022249), self-driving vehicles (cars, delivery robots, drones in the sea, air), as well as AI-based assistants, which will be the focus here.
+Today, AI-based solutions are a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles (cars, delivery robots, drones in the sea, air), as well as AI-based assistants, which will be the focus here.
 
 By the 2010s AI became powerful enough to beat humans in games of Go and Chess, yet it did not yet pass the Turing test. Its use was limited to specific tasks and generalized models did not exist yet. This changed with increase in computing power and a new approach called *deep learning*, largely modeled after the *neural networks* of the biological (human) brain.
 
@@ -56,35 +56,15 @@ There's wide literature available describing human-AI interactions across varied
 -   @liuMachineGazeOnline2021 meanwhile suggests higher algorithmic transparency may inhibit anthropomorphism, meaning people are less likely to attribute humanness to the AI if they understand how the system works.
 -   @seeberMachinesTeammatesResearch2020 proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
-AI-based systems are being implemented in medical field, where stakes are high raising the need for ethical considerations.
-
-Since CADUCEUS (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system in the 1970s, medical AI as developed a lot.
-
--   @HealthPoweredAda health app, "Know and track your symptoms"
-
--   @BuoyHealthCheck AI symptom checker,
-
--   @womeninaiHowCanAI
-
--   @HomeLarkHealth
-
--   @stephaniedonaholeHowArtificialIntelligence2021
-
--   AI for Health Diagnosic Symptoms
-
--   AI-assistants in medical imaging @calistoIntroductionHumancentricAI2021
-
 ### AI UX Guidelines
 
-Many people have discussed the UX of AI.
+Many people have discussed the UX of AI. @combiManifestoExplainabilityArtificial2022 proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
 
 -   @zimmermanUXDesignersPushing2021 "UX designers pushing AI in the enterprise: a case for adaptive UIs"
 
 -   @WhyUXShould2021 "Why UX should guide AI"
 
 -   @davidpasztorAIUXPrinciples2018
-
--   @joshlovejoyUXAI Google's UX for AI library
 
 -   @andersonWaysArtificialIntelligence2020
 
@@ -95,8 +75,6 @@ Many people have discussed the UX of AI.
 -   @lexowDesigningAIUX2021
 
 -   @davidpasztorAIUXPrinciples2018 AI UX principles
-
--   @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX
 
 -   @bubeckSparksArtificialGeneral2023 finds ChatGPT passes many exams meant for humans.
 
@@ -109,8 +87,6 @@ Many people have discussed the UX of AI.
 -   @suArtificialIntelligenceEarly2022 and @suArtificialIntelligenceAI2023 review papers on AI literacy in early childhood education and finds a lack of guidelines and teacher expertise.
 
 -   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids.
-
--   @combiManifestoExplainabilityArtificial2022 proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
 
 -   @ericschmidtUXAdvancedMethod2022 audiobook
 
@@ -134,17 +110,13 @@ Many people have discussed the UX of AI.
 
 -   What is Personalized AI?
 
-Guidelines for Human-AI interaction
+-   Microsoft's Co-Founder Bill Gates predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy, in 1996. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer \[@tashkeunemanWeLoveHate2022\]. Nonetheless, it was in many ways useless and intrusive. With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. @benjamincassidyTwistedLifeClippy2022 and @abigailcainLifeDeathMicrosoft2017 illustrate beautifully the story of Clippy and @tashkeunemanWeLoveHate2022 ask poignantly: "We love to hate Clippy --- but what if Clippy was right?"
 
--   Microsoft's Co-Founder Bill Gates predicted in 1982 *"personal agents that help us get a variety of tasks"* (@billgatesBillGatesNext1982).
+-   Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
 
--   It was MS that introduced the first widely available personal assistant inside Word software, called Clippy. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer - @tashkeunemanWeLoveHate2022.
+-   @googleOurPrinciplesGoogle outlines Google's 7 AI Principles and provides Google's UX for AI library [@joshlovejoyUXAI]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
 
--   "We love to hate Clippy --- but what if Clippy was right?" @tashkeunemanWeLoveHate2022 and @abigailcainLifeDeathMicrosoft2017
-
--   @benjamincassidyTwistedLifeClippy2022 the story of Clippy
-
--   Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershiGuidelinesHumanAIInteraction2019) which provides useful heuristics categorized by context and time
+-   Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amershiGuidelinesHumanAIInteraction2019) which provides useful heuristics categorized by context and time.
 
 | №   | Context            |     |     |
 |-----|--------------------|-----|-----|
@@ -153,7 +125,7 @@ Guidelines for Human-AI interaction
 | 3   | When wrong         |     |     |
 | 4   | Over time          |     |     |
 
--   @googleOurPrinciplesGoogle outlines Google's 7 AI Principles.
+: Microsoft's heuristics categorized by context and time.
 
 -   **Amazon Alexa** is a well-known example of AI technology in the world. But Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion."
 
@@ -209,7 +181,6 @@ In 2020 OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB 
 -   OpenAI provides AI-as-a-service through its APIs, allowing developer to build custom user interfaces (UI) to serve their specific customer needs. For example Snapchat's "My AI" virtual friend help people write faster with the app helping users with predictive text completion.
 -   Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others.
 -   @peteWeHostedEmergencychatgpthackathon2023 ChatGPT hackathon.
--   @rolandmeyerNowThatDALLE2023: AI generated content is not neutral but has a certain aesthetic.
 -   The current generation of LLMs such as GTP3 by OpenAI are massive monolithic models requiring large amounts of computing power for training to offer *multi-modal* capabilities across diverse domains of knowledge.
 -   @liuPrismerVisionLanguageModel2023 propose future models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.
 -   The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
@@ -221,7 +192,7 @@ In 2020 OpenAI released the GPT-3 large-language model (LLM), trained on 570 GB 
 
 In daily use of social media, we're used to interacting with the feed algorithms that provide a personalized experience. Applications with a similar UI depend on the community and content and how the content is shown to the user. After many years of user and political outcry, social media platforms have begun to shed more light on how these algorithms work, in some cases releasing the source code as is the case fro Facebook (@nickcleggHowAIInfluences2023) and Twitter (@twitterTwitterRecommendationAlgorithm2023).
 
-Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socio-economic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.
+Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.
 
 @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning, in her words "design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be". Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through action research. This means influencing outcomes, not only being a passive observer of phenomena as a researcher or only focusing on usability as a designer, without taking into account the wider context.
 
@@ -271,8 +242,6 @@ How is AI changing 'interactions?
 
 -   In @barrettMcDonaldAcquiresMachineLearning2019, in the words of Easterbrook, a previous CEO of McDonald's "How do you transition from mass marketing to mass personalization?". During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we're still in the early stages. Where do we go from here?
 
--   In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
-
 -   @costaInteractionDesignAI2022 "Interaction Design for AI Systems"
 
 -   @stoneskipperHowAIChanging2022 sketches a vision of "\[AI\] blend into our lives in a form of apps and services".
@@ -286,7 +255,7 @@ How is AI changing 'interactions?
 **Isaac Asimov** proposed the 3 laws of Robotics in a science fiction short story titled ***Runaround***, first published in the March 1942 issue of the Astounding Science Fiction magazine (now available in the Internet Archive). These 3 simple rules became an inspiration for discussions of AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|--------|-----------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
@@ -296,7 +265,7 @@ How is AI changing 'interactions?
 ```{=mdx}
 <Figure caption="Isaac Asimov's short story Runaround" src={Runaround} />
 ```
--   @AlgoTransparency published a manifesto with the key message: ***AI is not neutral.***
+-   @AlgoTransparency published a manifesto with the key message: ***AI is not neutral.*** @rolandmeyerNowThatDALLE2023: AI generated content is not neutral but has a certain aesthetic.
 
 @wooldridgeBriefHistoryArtificial2021
 
@@ -315,9 +284,9 @@ How to responsibly deploy AI for people around the world?
 
 AI-explainability (named XAI in literature) is key to creating trust and there's several authors in literature calling for more transparency and explainability.
 
-Explainability requires algorithmic Transparency
+Explainability requires ***Algorithmic Transparency**.*
 
--   Current AIs are largely *'black boxes'*, which do not explain how they reach a certain expression; @CABITZA2023118888 proposes a framework for quality criteria and explainability of AI-expressions. @khosraviExplainableArtificialIntelligence2022 proposes a framework for explainability, focused on education. @liangHolisticEvaluationLanguage2022: There's early evidence it's possible to assess the quality of LLM output in a transparent way.
+Current AIs are largely *'black boxes'*, which do not explain how they reach a certain expression; @CABITZA2023118888 proposes a framework for quality criteria and explainability of AI-expressions. @khosraviExplainableArtificialIntelligence2022 proposes a framework for explainability, focused on education. @holzingerMultimodalCausabilityGraph2021 highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields. @liangHolisticEvaluationLanguage2022: There's early evidence it's possible to assess the quality of LLM output in a transparent way.
 
 -   @slackAturaProcess2021
 
@@ -325,18 +294,40 @@ Explainability requires algorithmic Transparency
 
 -   @shinHowUsersInteract2020: "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
 
--   @holzingerMultimodalCausabilityGraph2021 highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
-
 -   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
-
--   @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
 
 -   @holbrookHumanCenteredMachineLearning2018: To reduce errors which only humans can detect, and provide a way to stop automation from going in the wrong direction, it's important to focus on making users feel in control of the technology.
 
 -   @ZHANG2023107536 found humans are more likely to trust an AI teammate if they are not deceived by it's identity. It's better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems.
 
+Personal AI Assistants to date have we created by large tech companies. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
+
 ### Credibility & Acceptance
 
+**AI in High--Stakes Situations (Medical, Cars, Etc).**
+
+AI-based systems are being implemented in medical field, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system, medical AI as developed a lot being now used for varied AI for Health Diagnosic Symptoms and AI-assistants in medical imaging. @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more.
+
+-   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology reports can be explained to patients using AI chatbots.
+
+```{=html}
+<!-- -->
+```
+-   @HealthPoweredAda health app, "Know and track your symptoms"
+
+-   @BuoyHealthCheck AI symptom checker,
+
+-   @womeninaiHowCanAI
+
+-   @HomeLarkHealth
+
+-   @stephaniedonaholeHowArtificialIntelligence2021
+
+-    @calistoIntroductionHumancentricAI2021
+
+```{=html}
+<!-- -->
+```
 -   AI Credibility Heuristic: A Systematic Model
 
 ```{=mdx}
@@ -442,15 +433,19 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 
 ### Voice Assistants
 
-Voice assistants need to continuously record human speech and process it in data centers in the cloud.
+-   Voice assistants need to continuously record human speech and process it in data centers in the cloud.
 
+-   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
+
+```{=html}
+<!-- -->
+```
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings.
 -   Focus on voice education?
--   Personal AI Assistants to date have we created by large tech companies. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
 -   @CELINO2020102410: There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
 
 There's evidence across disciplines about the usefulness of AI assistants:
@@ -481,8 +476,6 @@ ChatGPT is able to communicate in a human-like way, in first-person.
 -   @kechtQuantifyingChatbotsAbility2023 suggests AI is capable of learning business processes.
 
 -   @oconnorOpenArtificialIntelligence2023 and @cahanConversationChatGPTRole2023 have conversations about science with AI.
-
--   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology reports can be explained to patients using AI chatbots.
 
 -   @pavlikCollaboratingChatGPTConsidering2023 and @brenta.andersWhyChatGPTSuch2022 report on AI in education.
 
