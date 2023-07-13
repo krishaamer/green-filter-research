@@ -443,6 +443,8 @@ branding also go here?
 
 -   Superapps are possible **thanks to Nudge.**
 
+-   @undheimEcoTechInvesting2024 Ecotech
+
 -   The rise of the platform economy has given us marketplace companies
     like Airbnb and Uber that match idle resources with retail demand
     and optimize how our cities work. The massive amounts of data

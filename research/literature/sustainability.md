@@ -186,6 +186,14 @@ Germany, Norway and Sweden.
     Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
+#### Planetary Boundaries {#planetary-boundaries}
+
+-   @salaEnvironmentalSustainabilityEuropean2020
+
+-   @oliverSafeJustOperating2022
+
+-   Doughnut economics
+
 #### Biodiversity {#biodiversity}
 
 -   Biodiversity loss is linked to overconsumption.
@@ -348,7 +356,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|---------------------------------------------------|---------------------|
+|--------------------------------------------------|----------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |

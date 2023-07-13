@@ -110,7 +110,7 @@ Many people have discussed the UX of AI. @combiManifestoExplainabilityArtificial
 
 -   What is Personalized AI?
 
--   Microsoft's Co-Founder Bill Gates predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy, in 1996. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer \[@tashkeunemanWeLoveHate2022\]. Nonetheless, it was in many ways useless and intrusive. With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. @benjamincassidyTwistedLifeClippy2022 and @abigailcainLifeDeathMicrosoft2017 illustrate beautifully the story of Clippy and @tashkeunemanWeLoveHate2022 ask poignantly: "We love to hate Clippy --- but what if Clippy was right?"
+-   Microsoft's Co-Founder Bill Gates predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was MS that introduced the first widely available personal assistant inside Word software, called Clippy, in 1996. Microsoft's Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive. With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. @benjamincassidyTwistedLifeClippy2022 and @abigailcainLifeDeathMicrosoft2017 illustrate beautifully the story of Clippy and @tashkeunemanWeLoveHate2022 ask poignantly: "We love to hate Clippy --- but what if Clippy was right?"
 
 -   Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
 
@@ -255,7 +255,7 @@ How is AI changing 'interactions?
 **Isaac Asimov** proposed the 3 laws of Robotics in a science fiction short story titled ***Runaround***, first published in the March 1942 issue of the Astounding Science Fiction magazine (now available in the Internet Archive). These 3 simple rules became an inspiration for discussions of AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|-----------------|-------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
@@ -310,9 +310,8 @@ AI-based systems are being implemented in medical field, where stakes are high r
 
 -   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology reports can be explained to patients using AI chatbots.
 
-```{=html}
 <!-- -->
-```
+
 -   @HealthPoweredAda health app, "Know and track your symptoms"
 
 -   @BuoyHealthCheck AI symptom checker,
@@ -323,11 +322,10 @@ AI-based systems are being implemented in medical field, where stakes are high r
 
 -   @stephaniedonaholeHowArtificialIntelligence2021
 
--    @calistoIntroductionHumancentricAI2021
+-   @calistoIntroductionHumancentricAI2021
 
-```{=html}
 <!-- -->
-```
+
 -   AI Credibility Heuristic: A Systematic Model
 
 ```{=mdx}
@@ -437,9 +435,8 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 
 -   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
 
-```{=html}
 <!-- -->
-```
+
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"

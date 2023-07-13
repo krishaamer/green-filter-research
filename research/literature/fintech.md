@@ -17,6 +17,22 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 
+## Regenerative Capitalism {#regenerative-capitalism}
+
+-   Fullerton builds on the ideas of Club of Rome and
+    @meadowsLimitsGrowthReport1974
+-   Global Alliance for Banking on Values
+-   @circlRegenerativeEconomicsReset2021
+-   @fullerGrunchGiants1983: “Nature is a totally efficient,
+    self-regenerating system. If we discover the laws that govern this
+    system and live synergistically within them, sustainability will
+    follow and humankind will be a success.”
+-   @michaelkramerTEDxHiloMichaelKramer2012
+-   Triodos Bank
+-   @elkingtonGreenSwansComing2020
+-   @johnfullertonRegenerativeBusinessPart2022: “human civilization is
+    embedded in the biosphere”
+
 ### Sustainable Finance {#sustainable-finance}
 
 -   Money connects all industries. People want to shop, save, invest
