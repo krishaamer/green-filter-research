@@ -33,6 +33,20 @@ import Bunq from '../images/bunq.jpg'
 -   @johnfullertonRegenerativeBusinessPart2022: “human civilization is
     embedded in the biosphere”
 
+## Ecological Econonomics {#ecological-econonomics}
+
+-   Prosperity Without Growth book
+-   Capital misallocation
+-   Securitization
+-   @johnfullertonJohnFullertonWhen2011: John Fullerton: Balance
+    effiency with resliency so the whole system doesn’t become brittle
+    and break.
+-   Simon Kuznets: “The welfare of a nation can scarcely be inferred
+    from a measurement of national income as defined by GDP…Goals for
+    ‘more’ growth should specify of what and for what.”
+-   **Kate Raworth**
+-   @jacksonProsperityGrowthFoundations2017
+
 ### Sustainable Finance {#sustainable-finance}
 
 -   Money connects all industries. People want to shop, save, invest
