@@ -46,6 +46,7 @@ import Bunq from '../images/bunq.jpg'
     ‘more’ growth should specify of what and for what.”
 -   **Kate Raworth**
 -   @jacksonProsperityGrowthFoundations2017
+-   @bradshawUnderestimatingChallengesAvoiding2021
 
 ### Sustainable Finance {#sustainable-finance}
 

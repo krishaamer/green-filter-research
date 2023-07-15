@@ -255,7 +255,7 @@ How is AI changing 'interactions?
 **Isaac Asimov** proposed the 3 laws of Robotics in a science fiction short story titled ***Runaround***, first published in the March 1942 issue of the Astounding Science Fiction magazine (now available in the Internet Archive). These 3 simple rules became an inspiration for discussions of AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |
@@ -423,26 +423,24 @@ Everything that existed before OpenAIs GPT 3.5 and GPT 4 has been blown out of t
 
 -   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).
 
-### Writing AI Characters
-
--   @aletheaaiAletheaAIAI2021: Writing AI Characters, creating a personality
--   Writing as training data? large language models. GTP3
--   LLM's are able to assume the personality of any character that exists inside of its training data.
-
 ### Voice Assistants
 
 -   Voice assistants need to continuously record human speech and process it in data centers in the cloud.
 
 -   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
 
-<!-- -->
-
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
+
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
+
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
+
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings.
+
 -   Focus on voice education?
+
 -   @CELINO2020102410: There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
 
 There's evidence across disciplines about the usefulness of AI assistants:

@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`];
 
 
 ```mdx-code-block
@@ -504,7 +504,7 @@ Internet Archive). These 3 simple rules became an inspiration for
 discussions of AI ethics until today.
 
 | №       | Asimov’s Laws of Robotics                                                                                           |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
@@ -794,14 +794,6 @@ out of the water.
     experience through chat (chatbots), using voice generation (voice
     assistants), virtual avatars (adds a visual face to the robot).
 
-### Writing AI Characters {#writing-ai-characters}
-
--   @aletheaaiAletheaAIAI2021: Writing AI Characters, creating a
-    personality
--   Writing as training data? large language models. GTP3
--   LLM’s are able to assume the personality of any character that
-    exists inside of its training data.
-
 ### Voice Assistants {#voice-assistants}
 
 -   Voice assistants need to continuously record human speech and
@@ -810,19 +802,23 @@ out of the water.
 -   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu
     Xiaodu, Alibaba AliGenie all rely on voice only.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and
     kids
+
 -   @casperkesselsGuidelinesDesigningInCar2022: “Guidelines for
     Designing an In-Car Voice Assistant”
+
 -   @casperkesselsVoiceInteractionSolution2022: “Is Voice Interaction a
     Solution to Driver Distraction?”
+
 -   Companies like NeuralLink are building devices to build meaningful
     interactions from brain waves (EEG).
+
 -   @tangSemanticReconstructionContinuous2022 reports new findings
     enable computers to reconstruct language from fMRI readings.
+
 -   Focus on voice education?
+
 -   @CELINO2020102410: There’s research suggesting that voice UI
     accompanied by a *physical embodied system* is preffered by users in
     comparison with voice-only UI. This suggests adding an avatar to the

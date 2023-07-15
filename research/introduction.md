@@ -465,6 +465,7 @@ Survey respondents:
 | 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
 | 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
 | 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
+| 4   | How to make Ecological Impact visible in Digital Product Design?           | Literature Review + Expert Interviews       |
 
 ## References {#references}
 
