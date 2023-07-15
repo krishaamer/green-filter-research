@@ -7,9 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`];
-
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -22,161 +19,116 @@ import ResQClub from '../images/resq-club.png'
 
 ### Climate Anxiety {#climate-anxiety}
 
-@whitmarshClimateAnxietyWhat2022 shows climate anxiety is more prevalent
+@whitmarshClimateAnxietyWhat2022 shows climate anxiety is prevalent
 among young people and is a possible motivator for climate action.
 @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
 countries and also supports the idea that climate anxiety leads to
-climate activism. @hickmanClimateAnxietyChildren2021 provides evidence
-even children are anxious.
+climate activism. @hickmanClimateAnxietyChildren2021 provides more
+evidence even children are anxious about climate.
 
 -   @thompsonYoungPeopleClimate2021 Young people have climate anxiety.
 
 -   Designing for Health and Sustainability: Health and sustainability
     are intrinsically connected. @kjaergardHealthSustainability2014
-    shows how *“By understanding health and sustainability as a duality,
+    shows how *“understanding health and sustainability as a duality,
     health both creates conditions and is conditioned by sustainability,
     understood as economic, social and environmental sustainability,
     while on the other hand sustainability creates and is conditioned by
-    human health.”*
+    human health”*
 
--   Finds that climate anxiety predicts joining climate action movements
+-   Finds that climate anxiety predicts joining climate action
+    movements.
 
--   Design for Human Rights
-    @unfcccconferenceofthepartiesservingasthemeetingofthepartiestotheparisagreementcmaSharmElSheikhImplementation2022
-    text refers to “human right to a clean, healthy and sustainable
+-   Design for Human Rights @unfcccSharmElSheikhImplementation2023 text
+    refers to “human right to a clean, healthy and sustainable
     environment”.
 
--   Refi podcast: people need agency
+-   Refi podcast: people need agency.
+
+-   @martiskainenContextualizingClimateJustice2020 (need access)
+
+-   @seabrookMusicTherapyEra2020 (need access)
+
+-   Older research on young adults (Millenials at the time) highlights
+    how Millenials “use Google as a reference point for ease of use and
+    simplicity” @katemoranDesigningYoungAdults2016.
 
 ***Design Implications:***
 
 -   How to support the youth? Design to reduce climate anxiety? Is
     getting people to go to nature more a good way to increase
-    ecological awareness?
+    ecological awareness? Empowered by Design. Youth empowerment: The
+    design should empower young people.
+-   Consumer branded carbon credits like angry teenagers?
+-   Invest time not money, student don’t have money?
 
 ### Personas & Community {#personas-community}
 
--   Design research makes extensive use of ***Personas*** to represent a
-    group of people with similar attributes. Designers use personas to
-    ***articulate assumptions,*** which is useful for user-centered
-    design and also to reflect on what kind of ***biases*** might exist
-    in the design.
+User research makes extensive use of ***personas*** to represent a group
+of people with similar attributes. Designers use personas to
+***articulate assumptions,*** which is useful for ***user-centered
+design*** and also to reflect on what kind of ***biases*** might exist
+in the design.
 
--   Within the larger group of College Students are several different
-    personas, with different interest and knowledge and habits, levels
-    of anxiety, etc.
+Within the larger group of College Students there are several different
+personas, with different interests, knowledge, habits, levels of
+anxiety, etc.
 
--   @americanpressinstituteKnowingNewsHow2022 finds that only 37%
-    percent of U.S. Gen-Z and Millenials follow news related to
-    environmental issues. @rossClimateChangeChallenge2016 says most
-    people in the US don’t act on climate change. “Action on climate
-    change has been compromised by uncertainty, aspects of human
-    psychology”.
+@americanpressinstituteKnowingNewsHow2022 reports only 37% percent of
+U.S. Generation-Z and Millenials follow news related to environmental
+issues and @thomaesGreenTeensUnderstanding2023 reports U.S. adolescents
+don’t find sustainability relevant to their daily life.
+@rossClimateChangeChallenge2016 says most people in the U.S. don’t act
+on climate change. “Action on climate change has been compromised by
+uncertainty, aspects of human psychology”. Meanwhile,
+@schwartzClimateChangeAnxiety2022 reports some adult US students (18-35,
+N = 284) express feelings of insignificance of their actions to achieve
+any meaningful impact. Conversly,
+@RooneyVargaClimateActionSimulation2019 shows the effectiveness of
+***The Climate Action Simulation*** in educating users about **success
+scenarios**.
 
-    How:
+***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero
+waste suggests people buy in bulk to save. Buying in bulk for more
+savings and to reduce packaging. Through group purchases and community
+investing while also reducing consumption.
 
-    -   Ask how much time you want to contribute
+***Minimalism*** is a movement of people living a simple life. This is
+always going to be a small percentage of people.
+@costaHowFinnishCulture2018: Finnish socialists: minimalism. Tokyo
+@tokyosimpleecolifeWhatLearnedMy2021.
 
-    -   Match with other people based on time
-
-    -   Create a group chatroom
-
-    -   Use AI to help out with tips
-
-    -   ask university what u study and match with that industry to
-        become expert and sustainability leader in this field
-
-    -   invest time not money, student don’t have money
-
-    -   consumer branded carbon credits like angry teenagers
-
-    -   @kuzminskiEcologyMoneyDebt2015 ecology of money
-
-    <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
-    -   Empowered by Design. Youth empowerment: The design should
-        empower young people.
-
-    -   @RooneyVargaClimateActionSimulation2019 shows the effectiveness
-        of ***The Climate Action Simulation*** in educating users about
-        success scenarios.
-
-    -   Young people are mobile-first.
-
-    -   Persona: I care mostly about… fashion, art, …
-
-    -   The @dontlookupMethodology part of the ***Don’t Look Up***
-        movie’s social campaign provides 5 user models / roles for the
-        audience to follow: Consumer, Investor, Activist, ..
-
-    -   People exist in relation to other people.
-
-    -   Psychology of ‘fundraising clubs’ vs individual investing
-
-    -   @UkraineDAOBiddingUkrainian Ukraine DAO to support Ukraine
-        through web3.
-
-    -   POAPs:
-
-    -   Young people like to follow trends.
-
-    -   Food ordering apps are popular.
-
-    -   Most college students are not zero waste or minimalist.
-
-    -   Monoculture -\> regenerative food forests Oil -\> electric cars
-        / bicycles
-
-    -   ***Zero Waste Lifestyle*** is the opposite of overconsumption.
-        Zero waste suggests people buy in bulk to save. Buying in bulk
-        for more savings and to reduce packaging. Through group
-        purchases and community investing while also reducing
-        consumption.
-
-    -   ***Minimalism*** is a movement of people living a simple life.
-        This is always going to be a small percentage of people.
-        @costaHowFinnishCulture2018: Finnish socialists: minimalism.
-        Tokyo @tokyosimpleecolifeWhatLearnedMy2021
-
-        There’s a number of user interface design patterns that have
-        provide successful across a range of social media apps, copied
-        from one to another, to the extent that the largest social media
-        apps share a similar look and feature set. Common UI parts.
-        Feed. Stories. By using common UI parts from social media users
-        have an easier time to accept the innovative parts. add Viz
-        charts. Avatars are increasingly common and new generations are
-        used to talking to computers.
-
-        -   Mobile-first
-
-        -   Provides a community for pooling money with like-minded
-            investors
-
-        -   Social
-
-        -   Educational
-
-        -   Edutainment
-
-        -   Fun
-
-        -   Stories section like IG / app store
-
-        -   @hoangEnterDynamicIsland2022: “Dynamic interfaces might
-            invoke a new design language for XR”
-
-        -   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense
-            your sustainability assistant would talk to you. Studies
-            show gen N is speaking to computers all the time.
-            Interacting with the user is on the rise. For example, Chime
-            makes tipping suggestions on the place of purchase.
+There’s a number of user interface design patterns that have provide
+successful across a range of social media apps, copied from one to
+another, to the extent that the largest social media apps share a
+similar look and feature set. Common UI parts. Feed. Stories. By using
+common UI parts from social media users have an easier time to accept
+the innovative parts. add Viz charts. Avatars are increasingly common
+and new generations are used to talking to computers.
 
 **Design Implications:**
 
--   These social movements are small and require too much effort to be
-    feasible for the app?
+-   **Show Success Scenarios!**
+
+-   Ask how much time you want to contribute.
+
+-   Match with other people based on time.
+
+-   Create a group chatroom.
+
+-   Use AI to help out with tips.
+
+-   Ask university students what do they study and match with that
+    industry to become expert and sustainability leader in this field
 
 -   People want to help and make a difference. Give people things to do.
+    The @dontlookupMethodology part of the ***Don’t Look Up*** movie’s
+    social campaign provides 5 user models / roles for the audience to
+    follow: Consumer, Investor, Activist.
+
+-   These social movements are small and require too much effort to be
+    feasible for the app? Most college students are not zero waste or
+    minimalist.
 
 -   Choose Your Climate Solutions
 
@@ -189,9 +141,49 @@ even children are anxious.
 
 -   Yet action remains low.
 
--   Targeted and gated to college students
+-   Targeted and gated to college students.
 
 -   FB, etc, Gas all had the same launch strategy - start with students
+
+-   @kuzminskiEcologyMoneyDebt2015 ecology of money
+
+-   Young people are mobile-first.
+
+-   Persona: I care mostly about… fashion, art, …
+
+-   People exist in relation to other people.
+
+-   Psychology of ‘fundraising clubs’ vs individual investing
+
+-   @UkraineDAOBiddingUkrainian Ukraine DAO to support Ukraine through
+    web3.
+
+-   Young people like to follow trends.
+
+-   Food ordering apps are popular.
+
+-   Monoculture -\> regenerative food forests Oil -\> electric cars /
+    bicycles
+
+-   Mobile-first
+
+-   Provides a community for pooling money with like-minded investors
+
+-   Social
+
+-   Educational
+
+-   Edutainment
+
+-   Fun
+
+-   Stories section like IG / app store.
+
+-   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your
+    sustainability assistant would talk to you. Studies show gen N is
+    speaking to computers all the time. Interacting with the user is on
+    the rise. For example, Chime makes tipping suggestions on the place
+    of purchase.
 
 -   The demographics that stand to win the most from the green
     transformation of business are the youngest generations, with more
@@ -214,38 +206,53 @@ even children are anxious.
     consumers signal consequences for undesirable ecological performance
     is a major motivation of this study.
 
-### Speculative Design {#speculative-design}
-
--   Imagination: It’s important to be able to imagine a better future.
-
--   The term *‘speculative design’* was invented by
-    @dunneSpeculativeEverythingDesign2013 in their seminal book as the
-    question on the intersection of user experience design and
-    speculation. Speculative design makes use of future scenarios to
-    envision contexts and interactions in future use.
-
--   Phil Balagtas, founder of The Design Futures Initiative at McKinsey,
-    discusses the value of building future scenarios at his talk at
-    Google (@googledesignDesignSpeculativeFutures2019). One of his
-    examples, the Apple Knowledge Navigator, from an Apple vision video
-    in 1987, took two decades to materialize in the real world, inspired
-    by a similar device first shown in a 1970s episode of Star Trek as a
-    magic device (a term from participatory design), which then inspired
-    subsequent consumer product development - and then another 2
-    decades, until the launch of the iPhone in 2007 - a total of 40
-    years!
-
--   @BARENDREGT2021374 explores the potential of speculative design to
-    stimulate public engagement through thought experiments that spur
-    public debate on an issue chosen by the designer.
-
-***Design Implications:***
-
--   “Speculative Design” for a sustainability assistant
-
 ## **Interaction Design** {#interaction-design}
 
-#### Quantified Self {#quantified-self}
+### Speculative Design {#speculative-design}
+
+Imagination is crucial: in order to build a better future, it’s
+important to be able to first imagine a better future. Speculative
+design makes use of future scenarios to envision contexts and
+interactions in future use. The term ***speculative design*** was
+invented by @dunneSpeculativeEverythingDesign2013 in their seminal book
+to question the intersection of user experience design and speculative
+fiction. For example @BARENDREGT2021374 explores the potential of
+speculative design to stimulate public engagement through thought
+experiments that spur public debate on an issue chosen by the designer.
+
+Phil Balagtas, founder of The Design Futures Initiative at McKinsey,
+discusses the value of building future scenarios at his talk at Google
+(@googledesignDesignSpeculativeFutures2019). One of his examples, the
+Apple Knowledge Navigator, from an Apple vision video in 1987, took two
+decades to materialize in the real world. It was inspired by a similar
+device first shown in a 1970s episode of Star Trek as a **magic device**
+(a term from participatory design), which then inspired subsequent
+consumer product development. It took another 2 decades, until the
+launch of the iPhone in 2007 - a total of 40 years.
+
+### Quantified Self {#quantified-self}
+
+There is a lot of research on ***quantified self***. Wearable devices
+like Apple Watch, Oura Ring, combined with apps help users track a
+variety of health metrics. Apart from health, wearable devices have been
+used to track other metrics. @giannakosFitbitLearningCapturing2020 used
+wearable devices to measured physiological parameters of students at
+school to determine their learning efficiency. Could one track personal
+sustainability in a similar fashion?
+
+@shinWearableActivityTrackers2019 synthesis review of 463 studies shows
+wearable devices have potential to influence behavior change towards
+healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health
+tracking is useful for motivating physical activity. Apple is a leader
+in health tracking. @appleEmpoweringPeopleLive2022: In a 2022 report
+Apple outlines its plans to : “Empowering people to live a healthier
+day”. @appleWhatNewHealthKit2022 Apple’s HealthKit provides a growing
+list of health metrics. @liuHowPhysicalExercise2019 tracks how wearable
+data is used for tracking sleep improvements from exercise.
+
+Another aspect is tracking one’s mental health.
+@tylerContemporarySelfreflectivePractices2022 surveys the use of
+self-reflection apps in the UK (n=998).
 
 Use technology Wearables to be more aware of one’s health.
 
@@ -259,39 +266,20 @@ Use technology Wearables to be more aware of one’s health.
 <Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
 ```
 
-There is a lot of research on quantified self. the Wearable devices like
-Apple Watch, Oura Ring and apps help users track a variety of health
-metrics. Can we also track personal sustainability in a similar fashion?
-
 -   There is a parallel in health to sustainability and indeed both are
     inextricably linked.
 
--   @appleEmpoweringPeopleLive2022: In a 2022 report Apple outlines its
-    plans to : “Empowering people to live a healthier day”
-
--   @appleWhatNewHealthKit2022 What’s new in HealthKit
-
--   @delclos-alioWalkingTransportationLarge2022 discusses walking in
+-   The urban environment has an influence on health.
+    @delclos-alioWalkingTransportationLarge2022 discusses walking in
     Latin American cities. Walking is the most sustainable method or
     transport but requires the availability of city infrastructure, such
     as sidewalks, which many cities still lack.
-
--   @giannakosFitbitLearningCapturing2020 used wearable devices to
-    measured physiological parameters of students at school to determine
-    their learning efficiency.
-
--   @shinWearableActivityTrackers2019 synthesis review of 463 studies
-    shows wearable devices have potential to influence behavior change
-    towards healthier lifestyles.
 
 -   @tsaiTranslationValidationTaiwan2019
 
 -   @burgerDevelopingSmartOperational2019
 
 -   @aromatarioHowMobileHealth2019 behavior changes
-
--   @liuHowPhysicalExercise2019 tracks how wearable data is used for
-    tracking sleep improvements from exercise
 
 -   @ayoolaCHANGEPlatformServicebased2018 wellbeing data
 
@@ -308,8 +296,6 @@ metrics. Can we also track personal sustainability in a similar fashion?
 
 -   @forlanoPosthumanismDesign2017 post-humanism and design
 
--   @saubadePromotingPhysicalActivity2016 motivating physical activity
-
 -   @greenbaumWhoOwnsYour2016
 
 -   @millingsCanEffectivenessOnline2015
@@ -323,14 +309,6 @@ metrics. Can we also track personal sustainability in a similar fashion?
 -   @ryanEthicsDietaryApps2022 uses the “capability methodology” to
     evaluate if apps help people eat healthily.
 
--   @tylerContemporarySelfreflectivePractices2022 surveys the use of
-    self-reflection apps in the UK (n=998)
-
--   @wiraniEvaluationContinuedUse2022 students in Indonesia enjoy using
-    Kahoot and it’s gamification elements are perceived to have positive
-    impact on individual learning outcomes so they are happy to continue
-    using it.
-
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
 ***Design Implications:***
@@ -339,21 +317,36 @@ metrics. Can we also track personal sustainability in a similar fashion?
 
 -   Empowering people to live a sustainable day
 
-#### Digital Product Design {#digital-product-design}
+### Digital Product Design {#digital-product-design}
 
 Young people expect a product.
+
+@ceschinEvolutionDesignSustainability2016 shows how design for
+sustainability has expanded from a product focus to systems-thinking
+focus placing the product inside a societal context of use. For example
+@CargoBikeFREITAG, Recycled clothing maker FREITAG offers
+sustainability-focused services such ass cargo bikes so you can
+transport your purchases and a network for *shopping without payment* =
+swapping your items with other members, as well as repairs of their
+products. Loaning terminology from ***service design***, the user
+journey within an app needs to consider each touchpoint on the way to a
+state of success.
+
+@weinschenk100ThingsEvery2011 says “People expect most online
+interactions to follow the same social rules as person-to-person
+interactions. It’s a shortcut that your brain uses to quickly evaluate
+trustworthiness.”
+
+Interface Studies: @davidhoangCreatingInterfaceStudies2022, the head of
+product design at Webflow, suggests taking cues from art studies to
+***isolate the core problem***. “An art study is any action done with
+the intention of learning about the subject you want to draw”. As a
+former art student, Hoang looks at an interface as *“a piece of design
+is an artwork with function”*.
 
 -   @koningsHowPrepareYour2020
 -   “Digital sustainability principles”
 -   Eminent journal Design Studies, 1st design journal
--   @ceschinEvolutionDesignSustainability2016 shows how design for
-    sustainability has expanded from a product focus to systems-thinking
-    focus placing the product inside a societal context of use.
--   @CargoBikeFREITAG, Recycled clothing maker FREITAG offers
-    sustainability-focused services such ass cargo bikes so you can
-    transport your purchases and a network for *shopping without
-    payment* = swapping your items with other members, as well as
-    repairs of their products.
 -   Part of digital product design are **design systems** to keep
     consistency across the experience. Create a design system to best to
     showcase my analytic skills:
@@ -361,68 +354,33 @@ Young people expect a product.
     -   @suarezDesignSystemsHandbook
     -   @MethodPodcastEpisode
     -   @AtomicDesignBrad
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
--   **Experience Design**: In @michaelabrashInventingFuture2017 Meta
-    Oculus AR Incubation GM Laura Fryer: “People buy experiences, not
-    technology.”
--   Loaning terminology from service design, the user journey within an
-    app needs to consider each touchpoint on the way to a state of
-    success.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
+-   **Experience Design**
+    -   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation
+        GM Laura Fryer: “People buy experiences, not technology.”
+    -   @hoangEnterDynamicIsland2022: “Dynamic interfaces might invoke a
+        new design language for XR”
 -   **Intelligent Interfaces use interaction design to provide relevant
     and personalized information in the right context and at the right
     time.**
-
 -   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign
     believe interaction design is still an emerging (and changing) field
     and there are many definitions. I prefer the simplest version:
     interaction design is about creating a conversation between the
     product and the user.
-
--   What is the role of an AI Designer? @lindenWhatRoleAI2021
-
+-   AI gives designers new tools. In AI development, design is called
+    alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
 -   @PeopleAIGuidebook
-
 -   @LanguageModelSketchbook
-
 -   @parundekarEssentialGuideCreating2021
-
--   @weinschenk100ThingsEvery2011 says “People expect most online
-    interactions to follow the same social rules as person-to-person
-    interactions. It’s a shortcut that your brain uses to quickly
-    evaluate trustworthiness.”
-
 -   @richardyangInteractionDesignMore2021 and
     @justinbakerRedRoutesCritical2018 say some of the tools used by
     interaction designers include
-
--   Red Route Analysis?
-
+-   @oviyamtmRedRouteApplication2019; @InteractionDesignHow2021;
+    @xuanHowPrioritiseProduct2022 Red Route Analysis
 -   AI for design: @AINextChapter2023
-
--   Interface Studies: @davidhoangCreatingInterfaceStudies2022, the head
-    of product design at Webflow, suggests taking cues from art studies
-    to ***isolate the core problem***. “An art study is any action done
-    with the intention of learning about the subject you want to draw”.
-    As a former art student, Hoang looks at an interface as *“a piece of
-    design is an artwork with function”*.
-
 -   Social Objects: People need something to gather around and discuss.
     @sharing.labWhatSocialObject2015: I’m interested in the concept of a
     “social object”.
-
--   How the design can connect people to sustainable outcomes while
-    shopping and investing? Perhaps even forming a community of
-    sustainable action. What I showed in class looks like an app but it
-    could also be a physical object (a speculative design). From the
-    presentations I saw most students seemed to be interested in form
-    and light (many lamps) and a couple were about medical uses. I don’t
-    remember seeing one that could be compatible with the environmental
-    sustainability focus unfortunately…
 
 Creating a good product depends on ***Data-Driven Design***
 
@@ -447,20 +405,25 @@ Creating a good product depends on ***Data-Driven Design***
 -   Your shopping products mostly come from Protector and Gamble (3x)
     and Nestle. These are large conglomerates with a massive CO2
     footprint. See the index to find some alternatives.
+-   How the design can connect people to sustainable outcomes while
+    shopping and investing? Perhaps even forming a community of
+    sustainable action. What I showed in class looks like an app but it
+    could also be a physical object (a speculative design). From the
+    presentations I saw most students seemed to be interested in form
+    and light (many lamps) and a couple were about medical uses. I don’t
+    remember seeing one that could be compatible with the environmental
+    sustainability focus unfortunately…
 
-#### Narrative Design {#narrative-design}
-
--   Older research on young adults (Millenials at the time) highlights
-    how Millenials “use Google as a reference point for ease of use and
-    simplicity” @katemoranDesigningYoungAdults2016.
+### Narrative Design {#narrative-design}
 
 -   The rising availability of AI assistants however may displace Google
     search with a more conversational UX. Indeed, Google itself is
     working on smarter tools to displace their own main product, as
-    exemplified by Google Assistant and large investments into LLMs.
+    exemplified by Google Assistant, Google Bard and large investments
+    into LLMs.
 
 -   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating
-    a personality
+    a personality.
 
 -   Writing as training data? large language models. GTP3.
 
@@ -475,15 +438,15 @@ Creating a good product depends on ***Data-Driven Design***
 -   Narrative design bring together film school **storytelling**
     experience with design.
 
-#### Behavioral Design: Gamification & Nudge {#behavioral-design-gamification-nudge}
+### Behavioral Design: Gamification & Nudge {#behavioral-design-gamification-nudge}
 
 The literature on *nudge* is huge, as researches try to find ways to
 affect human behaviors towards sustainability. Some notable examples:
 
 -   Gamification makes uses of nudges.
 -   Nudges are based on specific understanding of human psychology and
-    shortcutes and triggers that human brains use and uses that
-    knowledge to influence humans in small but powerful wayys.
+    shortcuts and triggers that human brains use and uses that knowledge
+    to influence humans in small but powerful ways.
 -   A small study (n = 33) @perez-cuetoNudgingPlantbasedMeals2021 in the
     Future Consumer Lab in Copenhagen found that designing a
     “dish-of-the-day” which was prominently displayed helped to increase
@@ -523,6 +486,10 @@ affect human behaviors towards sustainability. Some notable examples:
 -   @nilssonRoadAcceptanceAttitude2016 “The road to acceptance: Attitude
     change before and after the implementation of a congestion tax”
     **(Need access!)**
+-   @wiraniEvaluationContinuedUse2022 students in Indonesia enjoy using
+    Kahoot and it’s gamification elements are perceived to have positive
+    impact on individual learning outcomes so they are happy to continue
+    using it.
 -   @BERGER2022134716 **(Need access!)**
 -   @SupportCleanEnergy2022
 -   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission
@@ -547,7 +514,7 @@ enabling role for at least 20-25% of the reductions required to achieve
 a net-zero economy in Europe”.
 
 |                                                                                                | Product        | Nudge                                |
-|------------------------------------|------------------|------------------|
+|-----------------------------------|-------------------|-------------------|
 | @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more eco-friendly driving routes | Google Maps    | Show routes with lower CO2 emissions |
 | Google Flights suggests flights with lower CO2 emissions                                       | Google Flights | Show CO2 emissions                   |
 
@@ -571,7 +538,7 @@ products. Also @katebrandtGoogleClimateAction2022.
 
 -   Becoming a Sustainability-Aware App or Game.
 
-#### Platforms & Superapps {#platforms-superapps}
+### Platforms & Superapps {#platforms-superapps}
 
 -   The rise of the ***platform economy*** has given us marketplace
     companies like Airbnb and Uber that match idle resources with retail

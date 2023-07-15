@@ -545,9 +545,8 @@ From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
 Climate Action Tracker’s country comparison of the 10 top polluters’
 climate action.
 
--   @unfccc.secretariatNationallyDeterminedContributions2022
--   The State of Nationally Determined Contributions: 2022
-    @fransenStateNationallyDetermined2022 notes that the majority of
+-   @unfcccNDC2022 The State of Nationally Determined Contributions
+-   @fransenStateNationallyDetermined2022 notes that the majority of
     Nationally Determined Contributions (NDCs) are dependent on
     financial assistance from the international community.
 
