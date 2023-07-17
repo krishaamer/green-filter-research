@@ -198,6 +198,17 @@ Germany, Norway and Sweden.
 
 -   Biodiversity loss is linked to overconsumption.
 
+-   listening to nature, Assessing biodiversity based on species’ sounds
+    in the forest Biodiversity Indicators, millions of detections of
+    different species with machine learning passive acousting AI models,
+    can also assess species response to climate change
+    @aiforgoodListeningNatureHarnessing2023
+    @guerreroAcousticAnimalIdentification2023
+
+-   While the European Union is a leader in sustainability legislation,
+    biodiversity among private companies is low
+    @marco-fondevilaTrendsPrivateSector2023
+
 -   @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3
     points of views
 
@@ -273,6 +284,14 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
 #### Disasters {#disasters}
 
+Climate-related disasters can spur action as extreme weather becomes
+commonplace. Large floods in Korean in July 17 with many victims. The
+president Joon promised to steer the country towards climate action and
+take it seriously @webSouthKoreaPresident2023;
+@afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023. South Korea
+has a partnership with the European Union
+@europeancommissionEURepublicKorea2023.
+
 Large ones that get international news coverage:
 
 -   Chernobyl
@@ -287,6 +306,11 @@ Large ones that get international news coverage:
     @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas
     tracks environmental justice cases around the world. Dispues in
     @eerolaCorporateConductCommodity2022.
+
+#### Carbon Accounting {#carbon-accounting}
+
+-   The legislation has created an industry of CO2 accounting with many
+    companies like Greenly, Sustaxo, etc.
 
 ### Agroforestry & Permaculture {#agroforestry-permaculture}
 
@@ -356,7 +380,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|--------------------------------------------------|----------------------|
+|-------------------------------------------------|-----------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |
@@ -555,6 +579,8 @@ TODO
 -   “triple turn”
 -   lack of transparency
 -   Call for GOP contributors’ transparency
+-   Renewable energy is a tool against tyranny by decentralizing the
+    energy sources and production: @timchenkoMaximTimchenkoRenewable2023
 
 ## Eco-Design {#eco-design}
 

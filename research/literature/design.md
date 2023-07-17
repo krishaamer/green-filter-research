@@ -15,7 +15,9 @@ import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
 ```
 
-## College Students {#college-students}
+## Students {#students}
+
+This research focuses on developing an app for ***college students***.
 
 ### Climate Anxiety {#climate-anxiety}
 
@@ -62,7 +64,7 @@ evidence even children are anxious about climate.
 -   Consumer branded carbon credits like angry teenagers?
 -   Invest time not money, student don’t have money?
 
-### Personas & Community {#personas-community}
+### User Personas {#user-personas}
 
 User research makes extensive use of ***personas*** to represent a group
 of people with similar attributes. Designers use personas to
@@ -88,16 +90,6 @@ any meaningful impact. Conversly,
 ***The Climate Action Simulation*** in educating users about **success
 scenarios**.
 
-***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero
-waste suggests people buy in bulk to save. Buying in bulk for more
-savings and to reduce packaging. Through group purchases and community
-investing while also reducing consumption.
-
-***Minimalism*** is a movement of people living a simple life. This is
-always going to be a small percentage of people.
-@costaHowFinnishCulture2018: Finnish socialists: minimalism. Tokyo
-@tokyosimpleecolifeWhatLearnedMy2021.
-
 There’s a number of user interface design patterns that have provide
 successful across a range of social media apps, copied from one to
 another, to the extent that the largest social media apps share a
@@ -119,22 +111,14 @@ and new generations are used to talking to computers.
 -   Use AI to help out with tips.
 
 -   Ask university students what do they study and match with that
-    industry to become expert and sustainability leader in this field
+    industry to become expert and sustainability leader in this field.
 
 -   People want to help and make a difference. Give people things to do.
     The @dontlookupMethodology part of the ***Don’t Look Up*** movie’s
     social campaign provides 5 user models / roles for the audience to
     follow: Consumer, Investor, Activist.
 
--   These social movements are small and require too much effort to be
-    feasible for the app? Most college students are not zero waste or
-    minimalist.
-
--   Choose Your Climate Solutions
-
--   Group Purchases
-
--   Find Your Composting Community
+-   Choose Your Climate Solutions.
 
 -   Younger people show higher motivation (participants in climate
     protests). How to be relevant for a younger audience?
@@ -151,23 +135,14 @@ and new generations are used to talking to computers.
 
 -   Persona: I care mostly about… fashion, art, …
 
--   People exist in relation to other people.
-
--   Psychology of ‘fundraising clubs’ vs individual investing
-
--   @UkraineDAOBiddingUkrainian Ukraine DAO to support Ukraine through
-    web3.
-
 -   Young people like to follow trends.
 
 -   Food ordering apps are popular.
 
 -   Monoculture -\> regenerative food forests Oil -\> electric cars /
-    bicycles
+    bicycles.
 
--   Mobile-first
-
--   Provides a community for pooling money with like-minded investors
+-   Mobile-first.
 
 -   Social
 
@@ -206,19 +181,158 @@ and new generations are used to talking to computers.
     consumers signal consequences for undesirable ecological performance
     is a major motivation of this study.
 
-## **Interaction Design** {#interaction-design}
+### Community {#community}
+
+Humans working together are able to achieve more than single
+individuals. “Any community on the internet should be able to come
+together, with capital, and work towards any shared vision. That starts
+with empowering creators and artists to create and own the culture
+they’re creating. In the long term this moves to internet communities
+taking on societal endeavors.”
+
+***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero
+waste suggests people buy in bulk to save. Buying in bulk for more
+savings and to reduce packaging. Through group purchases and community
+investing while also reducing consumption.
+
+***Minimalism*** is a movement of people living a simple life. This is
+always going to be a small percentage of people.
+@costaHowFinnishCulture2018: Finnish socialists: minimalism. Tokyo
+@tokyosimpleecolifeWhatLearnedMy2021.
+
+**Design Implications:**
+
+-   People exist in relation to other people.
+
+-   Psychology of ‘fundraising clubs’ vs individual investing
+
+-   @UkraineDAOBiddingUkrainian Ukraine DAO to support Ukraine through
+    web3.
+
+-   These social movements are small and require too much effort to be
+    feasible for the app? Most college students are not zero waste or
+    minimalist.
+
+-   Group Purchases.
+
+-   Find Your Composting Community.
+
+-   Provides a community for pooling money with like-minded investors.
+
+### Empowerment {#empowerment}
+
+-   I would like to have an AI agent to set my requirements and
+    preferences and give a “fuck you” middle finger to companies that
+    don’t meet them. I could also give a thumbs up to companies that
+    meet my expectations. Perhaps the user interface could like Tinder
+    where I can swipe left and right.
+
+### Memes {#memes}
+
+-   Meme research has become an academic discipline
+
+-   Memes have become a popular communication tool..
+
+## **Design for Interaction** {#design-for-interaction}
+
+There are many approaches to design but the majority share the common
+goal of designing for a good user experience.
+
+### Platforms & Superapps {#platforms-superapps}
+
+The rise of the ***platform economy*** has created global marketplace
+companies like Airbnb and Uber that match idle resources with retail
+demand and optimize how our cities work. The massive amounts of data
+generated by these companies are used by smart cities to re-design their
+physical environments. With this perspective of scale, what would a
+shopping experience look like if one knew at the point of sale, which
+products are greener, and which are more environmentally polluting?
+
+| Enablers of Platform Economics | Good                                                          | Bad                                                                     |
+|--------------------|--------------------------|--------------------------|
+| Network effects                | The more people use a platform, the more valuable it becomes. | Data is not portable. You can’t leave because you’ll lose the audience. |
+| Scalability                    |                                                               |                                                                         |
+| Data-driven                    |                                                               |                                                                         |
+| Behaviour Design               |                                                               |                                                                         |
+
+-   **Network Effects**: The more people use a platform, the more
+    valuable it becomes. Young people are stuck inside platforms. You
+    don’t own the data you put on TikTok. You can’t leave because you’ll
+    lose the audience.
+
+-   Superapps are possible thanks to **Nudge, Economies of Scale,
+    Network Effects, Behaviour Design.** The most successful businesses
+    today (as measured in terms of the number of users) look at the
+    whole user experience. Popular consumer platforms strive to design
+    solutions that feel personalized at every touchpoint on the user
+    journey (to use the language of service design) but doing so at the
+    scale of hundreds of millions (or even billions) of users -
+    personalization at scale.
+
+-   Superapps are honeypots of data that is used for many types of
+    behavior modeling. For example @suarezEnhancingUserIncome2021
+    suggests using alternative data from super-apps to estimate user
+    income levels, including 4 types of data: Personal Information,
+    Consumption Patterns, Payment Information, and Financial services.
+    Also @roaSuperappBehavioralPatterns2021 finds super-app alternative
+    data is especially useful for credit-scoring young, low-wealth
+    individuals.
+
+#### China and South-East Asia {#china-and-south-east-asia}
+
+@giudice2020wechat argues WeChat has had a profound impact on changing
+China into a cashless society, underlining how one mobile app can
+transform social and financial interactions of an entire country.
+@vecchiTwoTalesInternationalization2022 China is the home of many
+superapps and this paper discusses the strategies taken to expand to
+other markets. @shabrinanurqamaraniEFFECTSMOBILESERVICE2020 discusses
+the system consistency and quality of South–East Asian superapps Gojek
+and Grab.
+
+#### Sustainability Superapps {#sustainability-superapps}
+
+How to design sustainability superapps? Lots of options in a single app.
+@fleetmanagementweeklySustainableSuperappShows2022 “Sustainability and
+superapps top Gartner’s Top 10 2023 Trends List”.
+@davewallaceRiseCarboncentricSuper2021 “The rise of carbon-centric super
+apps”. @goodbagGoodbagSustainableSuper2023 “goodbag: Sustainable Super
+App”. What would a sustainable investment platform that matches green
+investments with the consumers look like, if one saw the side-by-side
+comparison of investment vehicles on their ESG performance? Also
+@bernardSustainabilitySuperappsTop2022.
+
+-   @undheimEcoTechInvesting2024 Ecotech
+
+-   @loriperriWhatSuperapp2022
+
+-   @PartnershipBringsSustainability2022
+
+-   @CompanyNowDominating2021 PayPal dominance
+
+-   @zengThreeParadoxesBuilding2015 **(need to pay for article!)**
+
+-   @huangRedomesticatingSocialMedia2021 **(need to pay for article!)**
+
+-   @WillEuropeGet2022
+
+-   @cuppiniWhenCitiesMeet2022 a historical overview of the development
+    of capitalism from linear ***Fordism*** through platform economy and
+    logistics’ revolution which allows for circular economies to happen
+    in a city.
+
+-   Adaptive AI
 
 ### Speculative Design {#speculative-design}
 
-Imagination is crucial: in order to build a better future, it’s
-important to be able to first imagine a better future. Speculative
-design makes use of future scenarios to envision contexts and
-interactions in future use. The term ***speculative design*** was
-invented by @dunneSpeculativeEverythingDesign2013 in their seminal book
-to question the intersection of user experience design and speculative
-fiction. For example @BARENDREGT2021374 explores the potential of
-speculative design to stimulate public engagement through thought
-experiments that spur public debate on an issue chosen by the designer.
+In order to build a better future, it’s important to be able to first
+imagine a better future. Speculative design makes use of future
+scenarios to envision contexts and interactions in future use. The term
+***speculative design*** was invented by
+@dunneSpeculativeEverythingDesign2013 in their seminal book to question
+the intersection of user experience design and speculative fiction. For
+example @BARENDREGT2021374 explores the potential of speculative design
+to stimulate public engagement through thought experiments that spur
+public debate on an issue chosen by the designer.
 
 Phil Balagtas, founder of The Design Futures Initiative at McKinsey,
 discusses the value of building future scenarios at his talk at Google
@@ -228,7 +342,8 @@ decades to materialize in the real world. It was inspired by a similar
 device first shown in a 1970s episode of Star Trek as a **magic device**
 (a term from participatory design), which then inspired subsequent
 consumer product development. It took another 2 decades, until the
-launch of the iPhone in 2007 - a total of 40 years.
+launch of the iPhone in 2007 - a total of 40 years. Imagination is
+crucial for change.
 
 ### Quantified Self {#quantified-self}
 
@@ -249,6 +364,8 @@ Apple outlines its plans to : “Empowering people to live a healthier
 day”. @appleWhatNewHealthKit2022 Apple’s HealthKit provides a growing
 list of health metrics. @liuHowPhysicalExercise2019 tracks how wearable
 data is used for tracking sleep improvements from exercise.
+@grigsby-toussaintSleepAppsBehavioral2017 Sleep apps and behavioral
+constructs.
 
 Another aspect is tracking one’s mental health.
 @tylerContemporarySelfreflectivePractices2022 surveys the use of
@@ -289,9 +406,6 @@ Use technology Wearables to be more aware of one’s health.
 
 -   @tonneNewFrontiersEnvironmental2017
 
--   @grigsby-toussaintSleepAppsBehavioral2017 Sleep apps and behavioral
-    constructs
-
 -   @anselmaArtificialIntelligenceFramework2017
 
 -   @forlanoPosthumanismDesign2017 post-humanism and design
@@ -319,7 +433,14 @@ Use technology Wearables to be more aware of one’s health.
 
 ### Digital Product Design {#digital-product-design}
 
-Young people expect a product.
+Digital product design can be seen as a specific discipline under the
+umbrella of **Experience Design**. In @michaelabrashInventingFuture2017
+Meta Oculus augmented reality incubation general manager Laura Fryer:
+“People buy experiences, not technology.”
+
+Young people expect a product. Intelligent Interfaces use interaction
+design to provide relevant and personalized information in the right
+context and at the right time.
 
 @ceschinEvolutionDesignSustainability2016 shows how design for
 sustainability has expanded from a product focus to systems-thinking
@@ -344,6 +465,37 @@ the intention of learning about the subject you want to draw”. As a
 former art student, Hoang looks at an interface as *“a piece of design
 is an artwork with function”*.
 
+The small screen estate space of mobiles phones and smart watches
+necessitates displaying content in a dynamic manner. Virtual reality
+glasses (called AR/VR or XR in marketing speak) need dynamic content
+because the user is able to move around the environment. Both are
+questions that interaction design is called upon to solve.
+@hoangEnterDynamicIsland2022: “Dynamic interfaces might invoke a new
+design language for extended reality”.
+
+Speaking is one mode of interaction that’s become increasingly possible
+as machines learn to interpret human language.
+
+| Mode of Interaction |     |
+|---------------------|-----|
+| Writing             |     |
+| Speaking            |     |
+| Touching            |     |
+| Moving              |     |
+|                     |     |
+
+Modes of interaction
+
+Coputer
+
+Humans respond well to ***storytelling***, making ***character design***
+and ***narrative design*** relevant to interaction design. Large
+language models (LLMs) such as ChatGPT are able to assume the
+personality of any character that exists inside of its training data,
+creating opportunities for automated narrative design.
+
+One mode
+
 -   @koningsHowPrepareYour2020
 -   “Digital sustainability principles”
 -   Eminent journal Design Studies, 1st design journal
@@ -354,14 +506,6 @@ is an artwork with function”*.
     -   @suarezDesignSystemsHandbook
     -   @MethodPodcastEpisode
     -   @AtomicDesignBrad
--   **Experience Design**
-    -   In @michaelabrashInventingFuture2017 Meta Oculus AR Incubation
-        GM Laura Fryer: “People buy experiences, not technology.”
-    -   @hoangEnterDynamicIsland2022: “Dynamic interfaces might invoke a
-        new design language for XR”
--   **Intelligent Interfaces use interaction design to provide relevant
-    and personalized information in the right context and at the right
-    time.**
 -   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign
     believe interaction design is still an emerging (and changing) field
     and there are many definitions. I prefer the simplest version:
@@ -375,24 +519,27 @@ is an artwork with function”*.
 -   @richardyangInteractionDesignMore2021 and
     @justinbakerRedRoutesCritical2018 say some of the tools used by
     interaction designers include
--   @oviyamtmRedRouteApplication2019; @InteractionDesignHow2021;
-    @xuanHowPrioritiseProduct2022 Red Route Analysis
 -   AI for design: @AINextChapter2023
--   Social Objects: People need something to gather around and discuss.
-    @sharing.labWhatSocialObject2015: I’m interested in the concept of a
-    “social object”.
 
-Creating a good product depends on ***Data-Driven Design***
+The concept of ***Social Objects*** is People need something to gather
+around and discuss. @labWhatSocialObject2015: I’m interested in the
+concept of a “social object”.
+
+***Red Route Analysis*** is an user experience optimization idea
+inspired by the public transport system of London
+(@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021 and
+@xuanHowPrioritiseProduct2022).
+
+Large Digital Platforms have a very small number of workers relative to
+the number of users they serve. This creates the necessity for using
+automation for both understanding user needs and providing the service
+itself. Creating a good product that’s useful for the large majority of
+users depends on ***Data-Driven Design.***
 
 -   Product marketers focus on the ***stickiness*** of the product,
     meaning low attrition, meaning people keep coming back.
 -   What percent of all design is “sustainable design” ? Promoting
     sustainable design.
--   “Any community on the internet should be able to come together, with
-    capital, and work towards any shared vision. That starts with
-    empowering creators and artists to create and own the culture
-    they’re creating. In the long term this moves to internet
-    communities taking on societal endeavors.”
 -   @joshluberTradingCardsAre2021 Trading cards are cool again
 -   @jesseeinhornNewBalance6502020
 -   @connieloizosMarcyVenturePartners2021
@@ -428,10 +575,6 @@ Creating a good product depends on ***Data-Driven Design***
 -   Writing as training data? large language models. GTP3.
 
 -   Stories start with a character.
-
--   Large language models such as ChatGPT are able to assume the
-    personality of any character that exists inside of its training
-    data, creating opportunities for automated narrative design.
 
 ***Design Implications:***
 
@@ -514,7 +657,7 @@ enabling role for at least 20-25% of the reductions required to achieve
 a net-zero economy in Europe”.
 
 |                                                                                                | Product        | Nudge                                |
-|-----------------------------------|-------------------|-------------------|
+|----------------------------------|-------------------|-------------------|
 | @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more eco-friendly driving routes | Google Maps    | Show routes with lower CO2 emissions |
 | Google Flights suggests flights with lower CO2 emissions                                       | Google Flights | Show CO2 emissions                   |
 
@@ -538,82 +681,12 @@ products. Also @katebrandtGoogleClimateAction2022.
 
 -   Becoming a Sustainability-Aware App or Game.
 
-### Platforms & Superapps {#platforms-superapps}
-
--   The rise of the ***platform economy*** has given us marketplace
-    companies like Airbnb and Uber that match idle resources with retail
-    demand and optimize how our cities work. The massive amounts of data
-    generated by these companies are used by smart cities to re-design
-    their physical environments. With this perspective of scale, what
-    would a shopping experience look like if one knew at the point of
-    sale, which products are greener, and which are more environmentally
-    polluting?
-
--   Network Effects: The more people use a platform, the more valuable
-    it becomes. Young people are stuck inside platforms. You don’t own
-    the data you put on TikTok. You can’t leave because you’ll lose the
-    audience.
-
--   Superapps are possible **thanks to Nudge.** The most successful
-    businesses today (as measured in terms of the number of users) look
-    at the whole user experience. Popular consumer platforms strive to
-    design solutions that feel personalized at every touchpoint on the
-    user journey (to use the language of service design) but doing so at
-    the scale of hundreds of millions (or even billions) of users -
-    personalization at scale.
-
--   Superapps are honeypots of data that is used for many types of
-    modeling. For example @suarezEnhancingUserIncome2021 suggests using
-    alternative data from super-apps to estimate user income levels,
-    including 4 types of data: Personal Information, Consumption
-    Patterns, Payment Information, and Financial services. Also
-    @roaSuperappBehavioralPatterns2021 finds super-app alternative data
-    is especially useful for credit-scoring young, low-wealth
-    individuals.
-
--   WeChat @giudice2020wechat MA thesis’s argues WeChat has had a
-    profound impact on changing China into a cashless society,
-    underlining how one mobile app can transform social and financial
-    interactions of an entire country.
-    @vecchiTwoTalesInternationalization2022 China is the home of many
-    superapps and this paper discusses the strategies taken to expand to
-    other markets. @shabrinanurqamaraniEFFECTSMOBILESERVICE2020
-    discusses the system consistency and quality of South–East Asian
-    superapps Gojek and Grab.
-
--   How to design sustainability superapps? Lots of options in a single
-    app. @fleetmanagementweeklySustainableSuperappShows2022
-    “Sustainability and superapps top Gartner’s Top 10 2023 Trends
-    List”. @davewallaceRiseCarboncentricSuper2021 “The rise of
-    carbon-centric super apps”. @goodbagGoodbagSustainableSuper2023
-    “goodbag: Sustainable Super App”. What would a sustainable
-    investment platform that matches green investments with the
-    consumers look like, if one saw the side-by-side comparison of
-    investment vehicles on their ESG performance? Also
-    @bernardSustainabilitySuperappsTop2022.
-
--   @undheimEcoTechInvesting2024 Ecotech
-
--   @loriperriWhatSuperapp2022
-
--   @PartnershipBringsSustainability2022
-
--   @CompanyNowDominating2021 PayPal dominance
-
--   @zengThreeParadoxesBuilding2015 **(need to pay for article!)**
-
--   @huangRedomesticatingSocialMedia2021 **(need to pay for article!)**
-
--   @WillEuropeGet2022
-
--   Adaptive AI
-
-## Education {#education}
+## Design for Sustainability {#design-for-sustainability}
 
 Sustainability touches every facet of human existence and is thus an
 enormous undertaking. Making progress on sustainability is only possible
 if there’s a large-scale coordinated effort by humans around the planet.
-For this to happen, some technological tools are required.
+For this to happen, some technological tools are helpful.
 
 -   **Guided Sustainability** “refers to a concept of using technology,
     such as AI and machine learning, to help individuals and

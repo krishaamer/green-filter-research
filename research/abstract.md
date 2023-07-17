@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *GreenFilter: Designing an AI Companion for Regenerative Capitalism* {#greenfilter-designing-an-ai-companion-for-regenerative-capitalism}
+## *GreenFilter: Designing an AI Companion for Capitalism* {#greenfilter-designing-an-ai-companion-for-capitalism}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource
