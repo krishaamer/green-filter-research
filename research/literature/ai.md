@@ -75,6 +75,7 @@ everywhere.
 -   @rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive
     Computing. (NEED access).
 -   @kobetzDecodingFutureEvolution2023
+-   @cbsmorningsFullInterviewGodfather2023 Geoffrey Hinton
 
 ## Responsible AI {#responsible-ai}
 
