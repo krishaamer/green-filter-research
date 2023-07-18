@@ -17,86 +17,51 @@ import ResQClub from '../images/resq-club.png'
 
 ## Students {#students}
 
-This research focuses on developing an app for ***college students***.
+This research focuses on developing an AI companion for ***college
+students***.
 
-### Climate Anxiety {#climate-anxiety}
+### Personas {#personas}
 
-@whitmarshClimateAnxietyWhat2022 shows climate anxiety is prevalent
-among young people and is a possible motivator for climate action.
-@ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
-countries and also supports the idea that climate anxiety leads to
-climate activism. @hickmanClimateAnxietyChildren2021 provides more
-evidence even children are anxious about climate.
-
--   @thompsonYoungPeopleClimate2021 Young people have climate anxiety.
-
--   Designing for Health and Sustainability: Health and sustainability
-    are intrinsically connected. @kjaergardHealthSustainability2014
-    shows how *“understanding health and sustainability as a duality,
-    health both creates conditions and is conditioned by sustainability,
-    understood as economic, social and environmental sustainability,
-    while on the other hand sustainability creates and is conditioned by
-    human health”*
-
--   Finds that climate anxiety predicts joining climate action
-    movements.
-
--   Design for Human Rights @unfcccSharmElSheikhImplementation2023 text
-    refers to “human right to a clean, healthy and sustainable
-    environment”.
-
--   Refi podcast: people need agency.
-
--   @martiskainenContextualizingClimateJustice2020 (need access)
-
--   @seabrookMusicTherapyEra2020 (need access)
-
--   Older research on young adults (Millenials at the time) highlights
-    how Millenials “use Google as a reference point for ease of use and
-    simplicity” @katemoranDesigningYoungAdults2016.
-
-***Design Implications:***
-
--   How to support the youth? Design to reduce climate anxiety? Is
-    getting people to go to nature more a good way to increase
-    ecological awareness? Empowered by Design. Youth empowerment: The
-    design should empower young people.
--   Consumer branded carbon credits like angry teenagers?
--   Invest time not money, student don’t have money?
-
-### User Personas {#user-personas}
-
-User research makes extensive use of ***personas*** to represent a group
-of people with similar attributes. Designers use personas to
+User research makes extensive use of user ***personas*** to represent a
+group of people with similar attributes. Designers use personas to
 ***articulate assumptions,*** which is useful for ***user-centered
 design*** and also to reflect on what kind of ***biases*** might exist
-in the design.
+in the design. Within the larger cohort of College Students several
+different personas could be defined, for example grouping people by
+interests, knowledge, habits, levels of anxiety, and other attributes.
 
-Within the larger group of College Students there are several different
-personas, with different interests, knowledge, habits, levels of
-anxiety, etc.
-
-@americanpressinstituteKnowingNewsHow2022 reports only 37% percent of
-U.S. Generation-Z and Millenials follow news related to environmental
-issues and @thomaesGreenTeensUnderstanding2023 reports U.S. adolescents
+There is extensive research on the attitudes of U.S. college students
+towards climate change. @americanpressinstituteKnowingNewsHow2022
+reports only 37% percent of U.S. Generation-Z and Millenials follow news
+related to environmental issues. @schwartzClimateChangeAnxiety2022
+reports some adult US students in a small study (18-35, N = 284) express
+feelings of insignificance of their actions to achieve any meaningful
+impact. @thomaesGreenTeensUnderstanding2023 reports U.S. adolescents
 don’t find sustainability relevant to their daily life.
 @rossClimateChangeChallenge2016 says most people in the U.S. don’t act
 on climate change. “Action on climate change has been compromised by
-uncertainty, aspects of human psychology”. Meanwhile,
-@schwartzClimateChangeAnxiety2022 reports some adult US students (18-35,
-N = 284) express feelings of insignificance of their actions to achieve
-any meaningful impact. Conversly,
+uncertainty, aspects of human psychology”.
+
+The above studies give foundation for creating a persona of a U.S.
+College Student who doesn’t follow environmental news and thinks climate
+action doesn’t make a difference. This doesn’t necessarily mean this
+group of people with similar ideas would deny climate change is
+happening. Rather “Climate Denier” could be another persona, grouping
+people into a cohort who thinks climate change is not real. Further
+research would be needed to define relevant personas which have
+meaningful predictive and generalizing power.
+
+| Description           | Name  | Beliefs                       |
+|-----------------------|-------|-------------------------------|
+| Climate Change Denier | Jake  | Climate change doesn’t exist. |
+|                       | Alice |                               |
+|                       | Sam   |                               |
+
+College Student Personas
+
 @RooneyVargaClimateActionSimulation2019 shows the effectiveness of
 ***The Climate Action Simulation*** in educating users about **success
 scenarios**.
-
-There’s a number of user interface design patterns that have provide
-successful across a range of social media apps, copied from one to
-another, to the extent that the largest social media apps share a
-similar look and feature set. Common UI parts. Feed. Stories. By using
-common UI parts from social media users have an easier time to accept
-the innovative parts. add Viz charts. Avatars are increasingly common
-and new generations are used to talking to computers.
 
 **Design Implications:**
 
@@ -152,8 +117,6 @@ and new generations are used to talking to computers.
 
 -   Fun
 
--   Stories section like IG / app store.
-
 -   @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your
     sustainability assistant would talk to you. Studies show gen N is
     speaking to computers all the time. Interacting with the user is on
@@ -180,6 +143,47 @@ and new generations are used to talking to computers.
     direct positive and negative pressure to the businesses and
     consumers signal consequences for undesirable ecological performance
     is a major motivation of this study.
+
+### Climate Anxiety {#climate-anxiety}
+
+@thompsonYoungPeopleClimate2021 finds young people have climate anxiety.
+@whitmarshClimateAnxietyWhat2022 shows climate anxiety is prevalent
+among young people and is a possible motivator for climate action.
+@ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
+countries and also supports the idea that climate anxiety leads to
+climate activism. @hickmanClimateAnxietyChildren2021 provides more
+evidence even children are anxious about climate.
+
+-   Designing for Health and Sustainability: Health and sustainability
+    are intrinsically connected. @kjaergardHealthSustainability2014
+    shows how *“understanding health and sustainability as a duality,
+    health both creates conditions and is conditioned by sustainability,
+    understood as economic, social and environmental sustainability,
+    while on the other hand sustainability creates and is conditioned by
+    human health”*
+
+-   Design for Human Rights @unfcccSharmElSheikhImplementation2023 text
+    refers to “human right to a clean, healthy and sustainable
+    environment”.
+
+-   Refi podcast: “people need agency”.
+
+-   @martiskainenContextualizingClimateJustice2020 (need access)
+
+-   @seabrookMusicTherapyEra2020 (need access)
+
+-   Older research on young adults (Millenials at the time) highlights
+    how Millenials “use Google as a reference point for ease of use and
+    simplicity” @katemoranDesigningYoungAdults2016.
+
+***Design Implications:***
+
+-   How to support the youth? Design to reduce climate anxiety? Is
+    getting people to go to nature more a good way to increase
+    ecological awareness? Empowered by Design. Youth empowerment: The
+    design should empower young people.
+-   Consumer branded carbon credits like angry teenagers?
+-   Invest time not money, student don’t have money?
 
 ### Community {#community}
 
@@ -431,7 +435,38 @@ Use technology Wearables to be more aware of one’s health.
 
 -   Empowering people to live a sustainable day
 
+### Interfaces {#interfaces}
+
+There’s a number of user interface design patterns that have provide
+successful across a range of social media apps. Such ***user experience
+/ user interface*** (UX/UI) patterns are copied from one app to another,
+to the extent that the largest apps share a similar look and feature
+set. Common UX/UI parts include the Feed and Stories. By using common UI
+parts from social media users have an easier time to accept the
+innovative parts. add Viz charts. Avatars are increasingly common and
+new generations are used to talking to computers.
+
+| Feature   | Examples                           |     |
+|-----------|------------------------------------|-----|
+| Feed      |                                    |     |
+| Post      | Apple App Store                    |     |
+| Stories   | IG, FB, WhatsApp, SnapChat, TikTok |     |
+| Comment   |                                    |     |
+| Reactions |                                    |     |
+
+Common Social Media UI Parts
+
+There are also more philosophical approaches to ***Interface Studies:***
+@davidhoangCreatingInterfaceStudies2022, the head of product design at
+Webflow, suggests taking cues from art studies to ***isolate the core
+problem***. “An art study is any action done with the intention of
+learning about the subject you want to draw”. As a former art student,
+Hoang looks at an interface as *“a piece of design is an artwork with
+function”*.
+
 ### Digital Product Design {#digital-product-design}
+
+Design is as much about how it works as it’s about the interface.
 
 Digital product design can be seen as a specific discipline under the
 umbrella of **Experience Design**. In @michaelabrashInventingFuture2017
@@ -457,13 +492,6 @@ state of success.
 interactions to follow the same social rules as person-to-person
 interactions. It’s a shortcut that your brain uses to quickly evaluate
 trustworthiness.”
-
-Interface Studies: @davidhoangCreatingInterfaceStudies2022, the head of
-product design at Webflow, suggests taking cues from art studies to
-***isolate the core problem***. “An art study is any action done with
-the intention of learning about the subject you want to draw”. As a
-former art student, Hoang looks at an interface as *“a piece of design
-is an artwork with function”*.
 
 The small screen estate space of mobiles phones and smart watches
 necessitates displaying content in a dynamic manner. Virtual reality
@@ -564,9 +592,9 @@ users depends on ***Data-Driven Design.***
 ### Narrative Design {#narrative-design}
 
 -   The rising availability of AI assistants however may displace Google
-    search with a more conversational UX. Indeed, Google itself is
-    working on smarter tools to displace their own main product, as
-    exemplified by Google Assistant, Google Bard and large investments
+    search with a more conversational user experience. Google itself is
+    working on smarter tools to displace their own main product. The
+    examples include Google Assistant, Google Bard and large investments
     into LLMs.
 
 -   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating
@@ -583,27 +611,63 @@ users depends on ***Data-Driven Design.***
 
 ### Behavioral Design: Gamification & Nudge {#behavioral-design-gamification-nudge}
 
-The literature on *nudge* is huge, as researches try to find ways to
-affect human behaviors towards sustainability. Some notable examples:
+The literature on ***nudge*** is huge, as marketers and researchers try
+to find ways to affect human behaviors towards making more purchase
+decisions in commerce, both offline and online. First coined by the
+Nobel-winning economist @thalerNudgeImprovingDecisions2009 in 2008,
+nudges are based on specific understanding of human psychology and
+shortcuts and triggers that human brains use and leverages that
+knowledge to influence humans in small but powerful ways. The same
+principles and tricks have also been applied to sustainability. For
+example, a small study (n=33) in the Future Consumer Lab in Copenhagen
+by @perez-cuetoNudgingPlantbasedMeals2021 found that designing a
+“dish-of-the-day” which was prominently displayed helped to increase
+vegetarian food choice by 85%. @GUATH2022101821 experiments (n=200)
+suggested nudging can be effective in influencing online shopping
+behavior towards more sustainable options. A larger scale study of
+behavior change in Australia maps how to avoid “16 billion paper coffee
+cups are being thrown away every year” @novoradovskayaMyCupTea2021.
+
+Google currently offers a “Green Filter” in Google Flights and Google
+maps, which allow filtering flights and driving routes by less CO2
+emissions, as well as surfacing hotels with Green Key and EarthCheck
+credentials, while promising new sustainability features across its
+portfolio of products @sundarpichaiGivingYouMore2021. Green tools inside
+Google’s online platforms are small user interface nudges which Google’s
+research calls ***digital decarbonization***, defined by
+@implementconsultinggroupHowDigitalSector2022 as “Maximising the
+enabling role of digital technologies by accelerating already available
+digital solutions”. In @katebrandtGoogleClimateAction2022, Google’s
+Chief Sustainability Officer Kate Brandt set a target of “at least
+20-25%” CO2 emission reductions in Europe to reach a net-zero economy
+and the global announcement set a target of helping 1 billion people
+make more sustainable choices around the world
+(@jenimilesBecomingSustainabilityAwareApp2022). In addition to
+end–users, Google offers digital decarbonizationsoftware for developers,
+including the Google Cloud Carbon Footprint tool
+@googleCarbonFootprint2023 and invests in regenerative agriculture
+projects @GoogleRegenerativeAgriculture2021.
+
+GoogleRegenerativeAgriculture2021
+
+| Feature                                                                                        | Product        | Nudge                                |
+|----------------------------------|-------------------|-------------------|
+| @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more eco-friendly driving routes | Google Maps    | Show routes with lower CO2 emissions |
+| Google Flights suggests flights with lower CO2 emissions                                       | Google Flights | Show CO2 emissions                   |
+
+CO2 visibility in Google’s products.
+
+```mdx-code-block
+<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
+```
+
+Some notable examples:
 
 -   Gamification makes uses of nudges.
--   Nudges are based on specific understanding of human psychology and
-    shortcuts and triggers that human brains use and uses that knowledge
-    to influence humans in small but powerful ways.
--   A small study (n = 33) @perez-cuetoNudgingPlantbasedMeals2021 in the
-    Future Consumer Lab in Copenhagen found that designing a
-    “dish-of-the-day” which was prominently displayed helped to increase
-    vegetarian food choice by 85%.
 -   @ERIKSSON2023229 discusses best practices for reducing food waste in
     Sweden.
--   @novoradovskayaMyCupTea2021 “16 billion paper coffee cups are being
-    thrown away every year”. Study of behavior change in Australia.
-    **(Need access!)**
 -   @ACUTI2023122151 makes the point that physical proximity to a
     drop-off point helps people participate in sustainability.
--   @GUATH2022101821 experiments (n=200) suggested nudging can be
-    effective in influencing online shopping behavior towards more
-    sustainable options.
 -   @WEE2021100364 proposes 7 types of nudging technique based on an
     overview of 37 papers in the field.
 
@@ -645,41 +709,10 @@ affect human behaviors towards sustainability. Some notable examples:
 -   @SpaceApeGames game company going green
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-One example of ***nudge*** are the small UI updates released by Google
-across its portfolio of products: Google Flights and Google maps.
-Google’s research introduces the concept of *digital decarbonization*,
-which @implementconsultinggroupHowDigitalSector2022 defines as
-“Maximising the enabling role of digital technologies by accelerating
-already available digital solutions”. In
-@katebrandtGoogleClimateAction2022, Google’s Chief Sustainability
-Officer Kate Brandt suggests “Digital solutions play an important
-enabling role for at least 20-25% of the reductions required to achieve
-a net-zero economy in Europe”.
-
-|                                                                                                | Product        | Nudge                                |
-|----------------------------------|-------------------|-------------------|
-| @mohitmoondraNavigateMoreSustainably: Google Maps AI suggests more eco-friendly driving routes | Google Maps    | Show routes with lower CO2 emissions |
-| Google Flights suggests flights with lower CO2 emissions                                       | Google Flights | Show CO2 emissions                   |
-
-CO2 visibility in Google’s products.
-
-```mdx-code-block
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
-```
-
-Google offers a “Green Filter” on Maps, Flights, etc. What if there was
-a “Green Filter” on every product everywhere?
-@jenimilesBecomingSustainabilityAwareApp2022 suggests “Google recently
-shared its goal to help one billion people make more sustainable choices
-by embedding carbon emissions information into Google Flights and
-surfacing whether a hotel is Green Key or EarthCheck certified.”
-@googleCarbonFootprint2023 Google Cloud Carbon Footprint tool.
-@sundarpichaiGivingYouMore2021 sustainability tools inside Google’s
-products. Also @katebrandtGoogleClimateAction2022.
-
 ***Design Implications:***
 
--   Becoming a Sustainability-Aware App or Game.
+-   What if there was a “Green Filter” on every product everywhere?
+-   Become a Sustainability-Aware App or Game.
 
 ## Design for Sustainability {#design-for-sustainability}
 

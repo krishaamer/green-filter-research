@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`];
 
 
 ```mdx-code-block
@@ -189,7 +189,7 @@ Understandability, Usability, and Usefulness.
 
 -   Human-computer interaction (HCI) has a long storied history since
     the early days of computing when getting a copy machine to work
-    required specialised skill. Xerox Sparc lab focused on early human
+    required specialized skill. Xerox Sparc lab focused on early human
     factors work and inspired a the field of HCI to make computer more
     human-friendly.
 
@@ -351,11 +351,11 @@ From
 
 In daily use of social media, we’re used to interacting with the feed
 algorithms that provide a personalized experience. Applications with a
-similar UI depend on the community and content and how the content is
-shown to the user. After many years of user and political outcry, social
-media platforms have begun to shed more light on how these algorithms
-work, in some cases releasing the source code as is the case fro
-Facebook (@nickcleggHowAIInfluences2023) and Twitter
+similar UI depend on the community as well as the content and how the
+content is shown to the user. After many years of political outcry
+(CITE), social media platforms have begun to shed more light on how
+these algorithms work, in some cases releasing the source code as is the
+case fro Facebook (@nickcleggHowAIInfluences2023) and Twitter
 (@twitterTwitterRecommendationAlgorithm2023).
 
 Design is increasingly relevant to algorithms, and more specifically to
@@ -384,7 +384,8 @@ building respectful dialogue through participatory design.
 
 ***Design Implications***
 
--   For discussion to happen, algorithms should be open source.
+-   For discussion to happen on how content is shown, hidden and sorted,
+    algorithms should be open source.
 
 How do the 7 tenets of user experience (UX) apply to AI?
 
@@ -505,7 +506,7 @@ Internet Archive). These 3 simple rules became an inspiration for
 discussions of AI ethics until today.
 
 | №       | Asimov’s Laws of Robotics                                                                                           |
-|----------------------|--------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | 1st Law | “A robot may not injure a human being or, through inaction, allow a human being to come to harm.”                   |
 | 2nd Law | “A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.” |
 | 3rd Law | “A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.” |
@@ -598,22 +599,14 @@ given AI results with an explanation trusted the results more.
 
 -   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology
     reports can be explained to patients using AI chatbots.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   @HealthPoweredAda health app, “Know and track your symptoms”
-
 -   @BuoyHealthCheck AI symptom checker,
-
 -   @womeninaiHowCanAI
-
 -   @HomeLarkHealth
-
 -   @stephaniedonaholeHowArtificialIntelligence2021
-
 -   @calistoIntroductionHumancentricAI2021
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   AI Credibility Heuristic: A Systematic Model
 
@@ -657,6 +650,9 @@ given AI results with an explanation trusted the results more.
     many names for the automated systems that help humans in many
     activities, powered by artificial intelligence models and
     algorithms.
+
+-   AI can enable Intention Economy where one describes one’s needs
+    @searlsIntentionEconomyWhen2012
 
 -   @davidjohnstonSmartAgentProtocol2023 proposes ***Smart Agents***,
     “general purpose AI that acts according to the goals of an

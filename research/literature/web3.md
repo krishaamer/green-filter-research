@@ -55,6 +55,9 @@ Circular design is possible if supply chains become circular.
 -   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains..
     (contact japanese factory?)
 
+-   @knightFutureBusinessRole2022 new tools are needed to map supply
+    chains.
+
 -   @duttaBlockchainTechnologySupply2020 hundreds of paper researching
     blockchain use in supply change operations since 2017.
 

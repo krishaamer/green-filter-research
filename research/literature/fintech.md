@@ -27,8 +27,12 @@ Externalities need to be priced in.
 
 ESG, SDGs, Regenerative Capitalism
 
+-   https://www.openesg.com/ because you can’t trust ESG
+    @aikmanESGDAOOut2022
 -   @mazzucatoMissionEconomyMoonshot2021
--   Blue economy
+-   @WhatRegenerativeCapitalism2022
+-   @support_llBookReviewGreen2021
+-   @pauliBlueEconomyMarriage2017 Blue economy
 -   @standingBlueCommonsRescuing2022
 -   @bullerValueWhaleIllusions2022
 -   @pauliBlueEconomyMarriage2017
