@@ -37,6 +37,7 @@ import ResQClub from '../images/resq-club.png'
 -   @neethirajanDigitalLivestockFarming2021 using biometric sensors to
     track livestock sustainability.
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
+-   @HumanCenteredWeb32022 human-centered web3
 -   @patelBlockchainTechnologyFood2023 livestock products are 15% of
     agri-foods valued at €152 billion in 2018.
 -   @incGlanceAlexandriaRealTime

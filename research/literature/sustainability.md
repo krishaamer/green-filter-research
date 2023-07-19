@@ -23,6 +23,9 @@ import Humboldt from '../images/humboldt.jpg'
 of forestry and discussing sustainable forest management in his seminal
 book *Sylvicultura oeconomica*.
 
+@dinersteinEcoregionBasedApproachProtecting2017 identifies 846
+terrestrial ecoregions.
+
 Sustainability can be measured using a variety of ***ecological
 indicators***.
 
@@ -380,7 +383,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|-------------------------------------------------|-----------------------|
+|------------------------------------------------|-------------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |
@@ -493,6 +496,7 @@ From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
 -   In Estonia, startups Arbonic and Single.Earth are trialing this
     approach in several forests.
 -   Carbon Credit Retirement?
+-   Methodologies: @MethodologyGHGCoBenefits2022
 
 #### Carbon Capture {#carbon-capture}
 

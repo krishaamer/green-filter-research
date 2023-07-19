@@ -76,8 +76,14 @@ everywhere.
     Computing. (NEED access).
 -   @kobetzDecodingFutureEvolution2023
 -   @cbsmorningsFullInterviewGodfather2023 Geoffrey Hinton
+-   @capinstituteGettingRealArtificial2023: foundational AI models
+    enable a holistic approach to learning, combining many discplines
+    using languages, instead of the reductionist way we as human think
+    because of our limitations.
 
 ## Responsible AI {#responsible-ai}
+
+Foundational models
 
 Given the widespread use of AI and its increasing power, it’s important
 these system are created in a safe and responsible manner.

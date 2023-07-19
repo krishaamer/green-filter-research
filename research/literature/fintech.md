@@ -7,9 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
-
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -96,8 +93,6 @@ ESG, SDGs, Regenerative Capitalism
 
 -   Nerdwallet’s @tommytindallFinancialActionsSpeak2023 suggests making
     financial commitments instead of resolutions.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   How can the mobile devices which the majority of us are carrying
     with us every day, help us make decisions about the businesses we
@@ -487,20 +482,15 @@ People are concerned with digital payments
     economy, cash outside banks represents 85% of currency in
     circulation and almost 40 million adults are without a bank
     account.”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
 -   @jeffbensonChinaReleasesDigital2022 “use the e-CNY network to
     increase financial surveillance.”
-
 -   democratize financial surveillance!
-
 -   Crypto tools allow you to look at any wallet already
-
 -   green transparency
 
 ## Saving {#saving}
 
+-   @burkartClimateFinanceGets2022
 -   Savings and Investing are conflate into the same chapter because the
     large majority of savings that people have are invested by their
     banks. Thus the question of *sustainable savings* comes one of where
@@ -966,8 +956,6 @@ There are many ‘green investment platforms’ who to trust?
 
 -   Consumer debt in the USA
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
-
 -   Nubanks, also known as challenger banks.
 
 | Company   | Link |
@@ -1120,7 +1108,7 @@ Sustainability Marketing
 
 -   @todd-ryanWhoAre100
 
-#### ESG {#esg}
+### ESG {#esg}
 
 -   Environmental, Social, and Corporate Governance (ESG)
 
@@ -1280,14 +1268,16 @@ Sustainability Marketing
 
 -   Analysis: Messari: investor education, information asymmetry
 
-#### Transparency {#transparency}
+| Problems                             |     |     |
+|--------------------------------------|-----|-----|
+| ESG is an annual report not realtime |     |     |
+|                                      |     |     |
+|                                      |     |     |
 
--   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth
-    analysis: Simply Wallstreet also same for crypto
+**Design Implications:**
 
--   Snowflake analysis like Simply Wallstreet
-
--   @defidonutPoolTogether732021 Savings Lottery
+-   ESG alone is not a sufficient metric to prove sustainability of a
+    company and needs to be accompanied by other metrics.
 
 #### Realtime ESG {#realtime-esg}
 
@@ -1318,7 +1308,16 @@ emissions in their product lifecycle.
     potentially buying. This means that ESG change will finally be
     driven by the ultimate judge of business success – the customer.”
 
-#### Regenerative Finance {#regenerative-finance}
+#### Transparency {#transparency}
+
+-   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth
+    analysis: Simply Wallstreet also same for crypto
+
+-   Snowflake analysis like Simply Wallstreet
+
+-   @defidonutPoolTogether732021 Savings Lottery
+
+### Regenerative Finance {#regenerative-finance}
 
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
 -   @regennetworkCommunityDevelopmentCall22 and
@@ -1326,9 +1325,6 @@ emissions in their product lifecycle.
 -   @smithOneYearLater2021
 -   @KlimaDAO2023 KlimaDAO
 -   @PlanetKlimatesLuis Moss.earth
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
-
 -   @SociallyResponsibleInvesting
 -   @naturalinvestMalaikaMaphalalaNatural2020
 -   @marquisRSFLeadingWay2021

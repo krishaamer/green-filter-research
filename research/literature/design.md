@@ -237,6 +237,20 @@ always going to be a small percentage of people.
 
 -   Memes have become a popular communication tool..
 
+## Data-Driven Design {#data-driven-design}
+
+While data-driven design would usually be structured under Interaction
+Design, here I will reverse the hierarchy to call attention to the fact
+data is used in all these approaches to design.
+
+Arrange types of data on a linear axis base on my own judgment.
+
+| Lots of Data | Some Data | ??  | Little Data | No Data            |
+|--------------|-----------|-----|-------------|--------------------|
+|              |           |     |             | Speculative Design |
+
+Types of design organized by use of data.
+
 ## **Design for Interaction** {#design-for-interaction}
 
 There are many approaches to design but the majority share the common
