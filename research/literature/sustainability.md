@@ -195,7 +195,19 @@ Germany, Norway and Sweden.
 
 -   @oliverSafeJustOperating2022
 
--   Doughnut economics
+-   Doughnut donut economics “We need a dashboard of indicators” -
+    @tedHealthyEconomyShould2018
+
+-   100 cities generate more than 70% of their electricity, circular
+    city design
+
+-   Circular City Currency
+
+-   Earth’s ecological ceiling
+
+-   Doughnut Economics Action Lab
+
+-   @raworthDoughnutEconomicsSeven2022
 
 #### Biodiversity {#biodiversity}
 
@@ -383,7 +395,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|------------------------------------------------|-------------------------|
+|-----------------------------------------------|-------------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |
@@ -585,6 +597,11 @@ TODO
 -   Call for GOP contributors’ transparency
 -   Renewable energy is a tool against tyranny by decentralizing the
     energy sources and production: @timchenkoMaximTimchenkoRenewable2023
+
+## Regenerative design {#regenerative-design}
+
+-   
+-   dematerialize economies is not enough
 
 ## Eco-Design {#eco-design}
 

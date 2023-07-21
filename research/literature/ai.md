@@ -74,12 +74,27 @@ everywhere.
 
 -   @rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive
     Computing. (NEED access).
+
 -   @kobetzDecodingFutureEvolution2023
+
 -   @cbsmorningsFullInterviewGodfather2023 Geoffrey Hinton
+
 -   @capinstituteGettingRealArtificial2023: foundational AI models
     enable a holistic approach to learning, combining many discplines
     using languages, instead of the reductionist way we as human think
     because of our limitations.
+
+-   @cbsmorningsFullInterviewGodfather2023 Hinton: Back-propagation in
+    the 1980s. The only reason neural networks didn’t work in the 80s
+    was because we didn’t have have enough data and we didn’t have
+    enough computing power. idiot savant
+
+-   “The trophy would not fit in the brown suitcase because it was too
+    big.” Winograd test, improvement of the turing dest
+
+## Affective Computing {#affective-computing}
+
+-   @picardAffectiveComputing1997
 
 ## Responsible AI {#responsible-ai}
 

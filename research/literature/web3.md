@@ -356,6 +356,8 @@ products per person per year.
 -   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the
     textile waste in the UK is exported to other countries.
 
+-   Story of Patagonia @chouinardLetMyPeople2005
+
 Across industries, reports are saying there isn’t enough transparency.
 
 -   **Problem**: @emilychanWeStillDon2022 report says there’s not enough
