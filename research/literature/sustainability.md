@@ -193,10 +193,35 @@ Germany, Norway and Sweden.
 
 -   @salaEnvironmentalSustainabilityEuropean2020
 
+-   Resource footprint, ecoloical footprint
+
 -   @oliverSafeJustOperating2022
 
 -   Doughnut donut economics “We need a dashboard of indicators” -
-    @tedHealthyEconomyShould2018
+    @tedHealthyEconomyShould2018. Donut quantified
+    @luukkanenQuantificationDoughnutEconomy2021
+
+-   @defidonutPoolTogether732021 Savings Lottery
+
+-   @jolijnhooghwinkelVergeetGroteBedrijven2023 donut essay winner
+
+-   @RaworthDoughnut2021 Donut in practice
+
+-   @teicherDoughnutEconomicsHas2021 several EU cities have adopted the
+    vision
+
+-   @bbcreelHowDutchAre2020
+
+-   @circleeconomyKeynoteIlektraKouloumpi2021
+
+-   https://www.c40.org/ city coalition
+
+-   @goliasDonutCenteredDesign2019
+
+-   @waterstaatCircularDutchEconomy2019 Dutch goal to be a circular
+    economy by 2050
+
+-   @wetenschappelijkbureaugroenlinksKateRaworthDoughnut2023
 
 -   100 cities generate more than 70% of their electricity, circular
     city design
@@ -207,7 +232,9 @@ Germany, Norway and Sweden.
 
 -   Doughnut Economics Action Lab
 
--   @raworthDoughnutEconomicsSeven2022
+-   @raworthDoughnutEconomicsSeven2022 book
+
+-   Doughnut economics’ @bbcreelHowDutchAre2020
 
 #### Biodiversity {#biodiversity}
 
@@ -223,6 +250,8 @@ Germany, Norway and Sweden.
 -   While the European Union is a leader in sustainability legislation,
     biodiversity among private companies is low
     @marco-fondevilaTrendsPrivateSector2023
+
+-   @MonetaryValuationNature2023 should we put a price on nature?
 
 -   @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3
     points of views
@@ -297,7 +326,13 @@ Air pollution is so widespread. Clean air is a requirement.
 to it. What app to wake them up? “You live in a highly polluted area.
 Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
-#### Disasters {#disasters}
+#### Disasters and Extreme Weather {#disasters-and-extreme-weather}
+
+Summers of 2022 and 2023 were the hottest on record so far, with extreme
+heat waves recorded in places around the world
+\[@venturelliHighTemperatureCOVID192023;
+@serrano-notivoliUnprecedentedWarmthLook2023;@douglasThisSummerTrack2023;
+@EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023\],
 
 Climate-related disasters can spur action as extreme weather becomes
 commonplace. Large floods in Korean in July 17 with many victims. The
@@ -509,6 +544,7 @@ From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
     approach in several forests.
 -   Carbon Credit Retirement?
 -   Methodologies: @MethodologyGHGCoBenefits2022
+-   @klimadaoOpenCallAlternative2023 call for an open standard
 
 #### Carbon Capture {#carbon-capture}
 

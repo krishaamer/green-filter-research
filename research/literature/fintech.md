@@ -22,33 +22,62 @@ There’s no lack of books on changing capitalism.
 
 Externalities need to be priced in.
 
-ESG, SDGs, Regenerative Capitalism
+metrics and goals: ESG, SDGs,
+
+There’s a series of authors under the “New Economics” banner, blue
+economics, Regenerative Capitalism, donut economics.
+
+-   Is economic growth the wrong goal: @diduchEconomicGrowthWrong2020
+
+-   Celo’s protocol invests in carbon credits on the protocl level:
+    @CeloRegenerativeFinance2021
 
 -   https://www.openesg.com/ because you can’t trust ESG
     @aikmanESGDAOOut2022
+
+-   @horwitzThereHoleMiddle2017 critics would say donut economics would
+    expand the role of the government
+
 -   @mazzucatoMissionEconomyMoonshot2021
+
+-   @krausmannResourceExtractionOutflows2018
+
 -   @WhatRegenerativeCapitalism2022
+
 -   @support_llBookReviewGreen2021
+
 -   @pauliBlueEconomyMarriage2017 Blue economy
+
 -   @standingBlueCommonsRescuing2022
+
 -   @bullerValueWhaleIllusions2022
+
 -   @pauliBlueEconomyMarriage2017
+
 -   @lovinsFinerFutureCreating2018
+
 -   @bardiLimits50Years2022
+
 -   Fullerton builds on the ideas of Club of Rome and
     @meadowsLimitsGrowthReport1974
+
 -   Global Alliance for Banking on Values
+
 -   @circlRegenerativeEconomicsReset2021
+
 -   @fullerGrunchGiants1983: “Nature is a totally efficient,
     self-regenerating system. If we discover the laws that govern this
     system and live synergistically within them, sustainability will
     follow and humankind will be a success.”
+
 -   @michaelkramerTEDxHiloMichaelKramer2012
+
 -   Triodos Bank
+
 -   @elkingtonGreenSwansComing2020
+
 -   @johnfullertonRegenerativeBusinessPart2022: “human civilization is
     embedded in the biosphere”
--   Doughnut economics’ @bbcreelHowDutchAre2020
 
 ## Ecological Econonomics {#ecological-econonomics}
 
@@ -1314,8 +1343,6 @@ emissions in their product lifecycle.
     analysis: Simply Wallstreet also same for crypto
 
 -   Snowflake analysis like Simply Wallstreet
-
--   @defidonutPoolTogether732021 Savings Lottery
 
 ### Regenerative Finance {#regenerative-finance}
 

@@ -76,9 +76,32 @@ RQ:Which index to use?
 — what questions would you be asking that i’m not asking?
 ```
 
--   Interview questions — Do you think the app should focus on ——
-    Changing legislation —— Consumer habits —— Investing habits —— Smth
-    else
+-   Interview questions
+
+    -   Do you think the app should focus on —— Changing legislation ——
+        Consumer habits —— Investing habits —— Smth else
+
+    -   Likert: Pollution is a prerequisite of economic growth
+
+    -   It’s possible to grow the economy without CO2 emissions
+
+    -   It’s possible to grow the economy without biodiversity loss
+
+    -   There are natural limits to the size of the economy
+
+    -   The potential growth of the economy is unlimited
+
+    -   There are planetary boundaries
+
+    -   Donut Economy is feasible
+
+    -   Donut Economy is a good idea
+
+    -   Growing the economy is needed
+
+    -   What is your expected outcome of starting a business?
+
+    -   Would create a startup if you couldn’t have 10x returns?
 
 -   miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
     kasu pole?
@@ -134,6 +157,18 @@ interview people at google who made the green filter options
 -   @HowModelsWork
 
 -   Behavirour kit:
+
+Take the metrics from the several frameworks and display them on the
+product and company level? People can choose their own framework and see
+product data through that lens and vocabularys.
+
+| Col1                    | Col2           | Col3 |
+|-------------------------|----------------|------|
+| Donut Economy           | Unrolled Donut |      |
+| Regenerative Capitalism | 8 Principles   |      |
+| Blue Economy            |                |      |
+| ESG                     |                |      |
+| B Corp                  |                |      |
 
 ## Survey {#survey}
 
@@ -239,6 +274,9 @@ interview people at google who made the green filter options
     -   How much do you trust ESG?
 
     -   What are some questions I should be asking but are not here?
+
+    -   What is you could see the real price (including externalizes)
+        next too the sales prices.
 
 -   online/offline ethnographic participant observation At this stage in
     the research, the central concept being studied is defined generally

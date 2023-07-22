@@ -160,6 +160,9 @@ Understandability, Usability, and Usefulness.
 
 -   @WhyUXShould2021 “Why UX should guide AI”
 
+-   @simonsterneUnlockingPowerDesign2023 UX is about helping the user
+    make decisions
+
 -   @davidpasztorAIUXPrinciples2018
 
 -   @andersonWaysArtificialIntelligence2020

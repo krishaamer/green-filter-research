@@ -11,6 +11,8 @@ editor:
 
 ## *GreenFilter: Designing an AI Companion for Capitalism* {#greenfilter-designing-an-ai-companion-for-capitalism}
 
+## *Feeding Donut Unicorns: Designing an AI Companion for Sustainable Capitalism* {#feeding-donut-unicorns-designing-an-ai-companion-for-sustainable-capitalism}
+
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource
 depletion, climate crisis, pollution of water, air, and soil,
@@ -22,6 +24,11 @@ Even for highly motivated people, taking sustainable financial actions
 requires extensive time for research. Sustainability-focused companies
 exist but it’s difficult to find and transact with them. People lack
 tools to build communities of sustainable impact.
+
+New Economics propose all sorts of new ideas, Donut Economy, Degrowth,
+Re The Progress Principle is a term coined by Teresa Amabile and Steven
+Kramer, says people like to see the number go up.
+@amabileProgressPrincipleUsing2011
 
 In this study I present an AI-assistant called “green filter” to empower
 regenerative financial activism. All interactions with businesses from
