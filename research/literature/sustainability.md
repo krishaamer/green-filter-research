@@ -221,6 +221,20 @@ Germany, Norway and Sweden.
 -   @waterstaatCircularDutchEconomy2019 Dutch goal to be a circular
     economy by 2050
 
+-   @circleeconomyKeynoteIlektraKouloumpi2021 amsterdam short food
+    chains, linking residents with food production, reconnecting people
+    to the food. social object? foster collaboration.
+
+| Short Food Chains in Amsterdam                     |
+|----------------------------------------------------|
+| Spatial planning for food place-making in the city |
+| Circular agriculture                               |
+| Regionally produced food                           |
+| Collaboration between chain members                |
+| Food education                                     |
+
+@circleeconomyKeynoteIlektraKouloumpi2021
+
 -   @wetenschappelijkbureaugroenlinksKateRaworthDoughnut2023
 
 -   100 cities generate more than 70% of their electricity, circular
@@ -331,8 +345,9 @@ Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 Summers of 2022 and 2023 were the hottest on record so far, with extreme
 heat waves recorded in places around the world
 \[@venturelliHighTemperatureCOVID192023;
-@serrano-notivoliUnprecedentedWarmthLook2023;@douglasThisSummerTrack2023;
-@EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023\],
+@serrano-notivoliUnprecedentedWarmthLook2023;
+@douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023;
+@falconer123MillionHeat2023\],
 
 Climate-related disasters can spur action as extreme weather becomes
 commonplace. Large floods in Korean in July 17 with many victims. The
