@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *The Journey from Consumer to Investor Inside Planetary Boundaries: Designing a Financial AI Companion to help College Students Shop, Save, and Invest in the Donut Economy* {#the-journey-from-consumer-to-investor-inside-planetary-boundaries-designing-a-financial-ai-companion-to-help-college-students-shop-save-and-invest-in-the-donut-economy}
+## *The Journey from Consumer to Investor Inside Planetary Boundaries: Designing a Financial AI Companion to Help College Students Shop, Save, and Invest Sustainably in the Donut Economy* {#the-journey-from-consumer-to-investor-inside-planetary-boundaries-designing-a-financial-ai-companion-to-help-college-students-shop-save-and-invest-sustainably-in-the-donut-economy}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource
