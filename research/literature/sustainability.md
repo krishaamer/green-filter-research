@@ -191,6 +191,21 @@ Germany, Norway and Sweden.
 
 #### Planetary Boundaries {#planetary-boundaries}
 
+-   As long as humanity is a mono-planetary species, we have to come to
+    terms with the limitations of our home, Earth.
+
+-   The donut is a useful visualization to be able to grasp the big
+    picture, and it’s a social object that’s simple and deep at the same
+    time, enabling starting conversations with people from all walks of
+    life, independent of their politics leanings. As Raw calls it, it’s
+    a self-portrait of humanity in the beggining of the 21st century.
+    Combining the SDGs inside the donut and the Planetary Boundaries
+    outside the donut. The space donut represents a state of
+    equuilibrium and balance on spaceship Earth.
+
+-   @gadlevanonDonutEffectReal2022 the donut effect is real, shift away
+    from city centers. Not related to donut economy per se.
+
 -   @salaEnvironmentalSustainabilityEuropean2020
 
 -   Resource footprint, ecoloical footprint
@@ -223,7 +238,7 @@ Germany, Norway and Sweden.
 
 -   @circleeconomyKeynoteIlektraKouloumpi2021 amsterdam short food
     chains, linking residents with food production, reconnecting people
-    to the food. social object? foster collaboration.
+    to the food. social object? foster collaboration. i
 
 | Short Food Chains in Amsterdam                     |
 |----------------------------------------------------|
@@ -234,6 +249,8 @@ Germany, Norway and Sweden.
 | Food education                                     |
 
 @circleeconomyKeynoteIlektraKouloumpi2021
+
+-   @AmsterdamUses2023
 
 -   @wetenschappelijkbureaugroenlinksKateRaworthDoughnut2023
 
@@ -249,6 +266,9 @@ Germany, Norway and Sweden.
 -   @raworthDoughnutEconomicsSeven2022 book
 
 -   Doughnut economics’ @bbcreelHowDutchAre2020
+
+-   Donut and Design Thinking both focus on sustainability and
+    human-centerdness
 
 #### Biodiversity {#biodiversity}
 
@@ -424,6 +444,9 @@ Large ones that get international news coverage:
 
 -   @fabrisCLIMATECHANGEQUALITY2022
 
+-   Sustainability is part of product quality. If a product is hurting
+    the environment, it’s a low quality product.
+
 ### Digital Twins {#digital-twins}
 
 -   We can use all the data being recorded to provide a Digital Twin of
@@ -445,7 +468,7 @@ Large ones that get international news coverage:
 -   EU: @araujoEuropeanUnionMembership2020
 
 | Place                                                                                                                                                                             | Launch Date |
-|-----------------------------------------------|-------------------------|
+|----------------------------------------------|--------------------------|
 | European Union                                                                                                                                                                    | 2005        |
 | South Korea                                                                                                                                                                       | 2015        |
 | China                                                                                                                                                                             |             |

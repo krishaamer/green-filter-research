@@ -51,10 +51,15 @@ import ResQClub from '../images/resq-club.png'
 
 #### Supply Chains {#supply-chains}
 
+-   @finkenstadtBlurryVisionSupply2021 COVID19 pandemic highlighted the
+    need to have real-time visibility into supply chains.
+
 Circular design is possible if supply chains become circular.
 
 -   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains..
     (contact japanese factory?)
+
+-   California Transparency in Supply Chains Act
 
 -   @knightFutureBusinessRole2022 new tools are needed to map supply
     chains.
@@ -343,6 +348,15 @@ to design for meaningful interaction.
 
 **Design Implications:** focus on specific industries.
 
+### Construction {#construction}
+
+-   @zhaoEmbodiedCarbonBased2015 super tall buildings are very CO2
+    intensive
+-   embodied carbon
+-   @oikosdenktankWebinarDoughnutEconomics2021 circular material
+    procurement requires new skills. How to reuse old paint? Small
+    projects can have large social impact.
+
 ### Fashion {#fashion}
 
 Sustainable Fashion, Textile Design
@@ -360,79 +374,121 @@ products per person per year.
 
 Across industries, reports are saying there isn’t enough transparency.
 
+-   \[@hannahritchieSectorSectorWhere2020
+    @usepaGlobalGreenhouseGas2016\] GHG emission inventory by sector
+
 -   **Problem**: @emilychanWeStillDon2022 report says there’s not enough
     transparency in fashion:
+
 -   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4
     Trillion USD industry, 100B USD lost to lack of recycling,
     contributes 9% of microplastics:
     @adamkiewiczGreenwashingSustainableFashion2022
+
 -   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of
     water, 1.7B tons of CO2, 92 million tons of textile waste.
+
 -   @kohlerCircularEconomyPerspectives2021: Globally 87% of textile
     products are burned or landfilled after 1st consumer use.
+
 -   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets
     carbon footprint?
+
 -   @leungGreenDesign2021 There’s a growing know-how on how to produce
     sustainably and which materials to use. “Handbook of Footwear Design
     and Manufacture” Chapter 18 - Green design.
+
 -   @emilychanWill2022Be2022 New Standard Institute’s proposed “Fashion
     Act” to require brands doing business in New York City to disclose
     sustainability data and set waste reduction targets.
+
 -   @wikirateSharingDataCreating2022: “Among the Index’s main goals are
     to help different stakeholders to better understand what data and
     information is being disclosed by the world’s largest fashion brands
     and retailers, raise public awareness, educate citizens about the
     social and environmental challenges facing the global fashion
     industry and support people’s activism.”
+
 -   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel
     coloration is very limited.
+
 -   @gyabaahCharacterizationDumpsiteWaste2023 research across several
     dumpsites across Ghana revealed up to 12% of the landfill consisted
     of textile waste.
+
 -   @imperfectidealistSustainableGreenwashingHow2020 Fashion
     sustainability vs greenwashing
+
 -   @TransparencySustainabilityPlatform2023 Ethical Shopping
+
 -   @SheepIncSoftcore2023 Ethical brand?
+
 -   @goodonyouGoodYouSustainable2023 Sustainable fashion company
     evaluations
+
 -   @LilyMindfulActive Garment Worker’s rights
+
 -   @emilychanWillFashionIndustry2022: fashion companies can’t be held
     accountable for their actions (or indeed, their lack of action).
+
 -   @wikirateWikiRate2023
+
 -   @InstantGratificationCollective2022: “Political consumerism”,
     “Instant Gratification for Collective Awareness and Sustainable
     Consumerism”
+
 -   @fashioncheckerFashionCheckerWagesTransparency2023
+
 -   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021
     Circular textiles
+
 -   @EKAArendasEuroopa2022 Sustainable Fashion education
+
 -   @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion
     transparency index
+
 -   @CleanClothesCampaign
+
 -   “The mainstream fashion industry is built upon the exploitation of
     labor, natural resources and the knowledge of historically
     marginalized peoples.”
+
 -   @TextileGenesis
+
 -   “Secrecy is the linchpin of abuse of power…its enabling force.
     Transparency is the only real antidote.” Glen Greenwald, Attorney
     and journalist.
+
 -   @stand.earthStandEarthPeople2023
+
 -   @NewStandardInstitute
+
 -   @BGMEAHome Bangladesh Garment Manufacturers and Exporters
     Association
+
 -   @errKomisjonTahabVahendada2022 European Commission wants to reduce
     the impact of fast fashion on EU market.
+
 -   Minimize shopping, buy quality, save CO2, invest.
+
 -   @textileexchangeTextileExchange2023 Ethical fashion materials matter
+
 -   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
+
 -   Free clothes
+
 -   @vanishukGENERATIONREWEARFull2021 “Generation rewear” documentary,
     sustainable fashion brands
+
 -   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020:
     Zalando says Fast fashion must disappear
+
 -   @infinitedfiberInfinitedFiber2023
+
 -   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
+
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
+
 -   @GoodYouSustainable2023 Ethical brand ratings
 
 ### Food {#food}

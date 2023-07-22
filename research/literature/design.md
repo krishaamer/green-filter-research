@@ -185,6 +185,12 @@ evidence even children are anxious about climate.
 -   Consumer branded carbon credits like angry teenagers?
 -   Invest time not money, student don’t have money?
 
+### Embodied Carbon {#embodied-carbon}
+
+-   “embodied carbon”
+-   Carbon Neutral Cities Alliance
+-   @buildersforclimateactionMakingRealZero2021
+
 ### Community {#community}
 
 Humans working together are able to achieve more than single
