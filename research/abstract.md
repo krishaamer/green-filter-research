@@ -35,8 +35,7 @@ that acknowledge ecological limits.
 The major contribution of the study is an interactive artefact - a
 design prototype of an AI companion, informed by design research.
 
-**Keywords**: Climate Anxiety, Sustainability, Human-AI Interaction,
-Finance
+**Keywords**: Climate Anxiety, Sustainability, Human-AI Interaction
 
 TODO New Economics propose all sorts of new ideas, Donut Economy,
 Degrowth, Re The Progress Principle is a term coined by Teresa Amabile
