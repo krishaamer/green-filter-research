@@ -106,6 +106,9 @@ RQ:Which index to use?
 -   miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
     kasu pole?
 
+-   should we put a price on nature (ecosystem service markets ) ?
+    likert yes-2345-no
+
 -   Start with everyday questions:
 
 -   How to buy sustainable clothing

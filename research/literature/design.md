@@ -239,9 +239,24 @@ always going to be a small percentage of people.
 
 ### Memes {#memes}
 
+-   Memes from daily life, bussiness to war, are relevant to penetrating
+    through the noise of the web.
+
+-   Memes and sustainability?
+
 -   Meme research has become an academic discipline
 
 -   Memes have become a popular communication tool..
+
+-   @zidaniMessyInternetMemes2021
+
+-   @zidaniHowConductInternet2022
+
+-   @irinalyanWhenGangnamHits2015
+
+-   @zannettouOriginsMemesMeans2018
+
+-   @peters-lazaroPopularCultureCivic2020
 
 ## Data-Driven Design {#data-driven-design}
 
@@ -409,6 +424,14 @@ Use technology Wearables to be more aware of one’s health.
 
 -   There is a parallel in health to sustainability and indeed both are
     inextricably linked.
+
+-   Tracking urine consistency inside your toilet with WithThings
+
+-   Tracking blood sugar with app and patches
+
+-   “urban metabolism” \[@shiUrbanInformatics2021;
+    @clairemoranWhatUrbanMetabolism2018\], city in-out flows accounting
+    method
 
 -   The urban environment has an influence on health.
     @delclos-alioWalkingTransportationLarge2022 discusses walking in

@@ -28,9 +28,9 @@ In this thesis I present an AI-assistant called “green filter” to
 empower regenerative financial activism and adopt the donut economy as
 my overarching theoretical framework. All interactions with businesses
 from shopping to saving and investing can be seen through the filter of
-sustainability. I propose *interfaces* and *workflows* to help people
-develop long-term relationships with sustainability-focused companies
-that acknowledge ecological limits.
+sustainability. I propose *interfaces* and *workflows*, specifically
+**DonutBird**, to help people develop long-term relationships with
+sustainability-focused companies that acknowledge ecological limits.
 
 The major contribution of the study is an interactive artefact - a
 design prototype of an AI companion, informed by design research.

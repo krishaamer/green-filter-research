@@ -100,9 +100,37 @@ available in ship records \[@BrohanClimate2012 \].
 
 ### Ecosystem Services {#ecosystem-services}
 
--   @dailyNatureServicesSocietal1997 proposed the idea of ecosystem
-    services and @costanzaValueWorldEcosystem1997 attempted to assess
-    the amount of ecosystem services provided.
+@historyEcosystemServices2010 the history of the valuation of nature’s
+services goes back to the 18th century when David Ricardo and Jean
+Baptise say discussed nature’s *work*, however both considered it should
+be free. In 1997 @dailyNatureServicesSocietal1997 proposed the idea of
+ecosystem services and @costanzaValueWorldEcosystem1997 attempted to
+assess the amount of ecosystem services provided.
+
+-   @MonetaryValuationNature2023 should we put a price on nature?
+-   Is it time to leave utilitarian environmentalism behind?
+    @muradianEcosystemServicesNature2021
+
+| 9 Steps                                        |
+|------------------------------------------------|
+| Identify ecosystem functions                   |
+| Quantify ecosystem functions                   |
+| Identify ecosystem services                    |
+| Quantify ecosystem services                    |
+| Quantify financial value of ecosystem services |
+| Assign property rights                         |
+| Create ecosystem service markets               |
+| Commodify nature                               |
+
+From @MonetaryValuationNature2023
+
+There are 2 approaches to protecting nature
+
+| Economics of Nature Commodification | Economics of the Sacred                                             |
+|------------------------------------|------------------------------------|
+| Measure and assign value to nature  | Say nature is sacred, such as Churches, and can’t be touched.       |
+|                                     | @eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018 |
+|                                     |                                                                     |
 
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based
     solutions “land re-naturalization (such as afforestation and wetland
@@ -163,6 +191,8 @@ of global food demand by 62% including impact of climate change.
     emissions are directly and indirectly linked to household
     consumption, with a global average of about 6 tonnes CO2 equivalent
     per capita.”
+-   Cities are responsible for 80% of the emissions
+    @rosalescarreonUrbanEnergySystems2018
 -   Overconsumption is also one of the root causes of marine plastic
     pollution. @FORD2022150392 and @laversFarDistractionPlastic2022
     suggest strong linkage of climate change and marine plastic
@@ -202,6 +232,10 @@ Germany, Norway and Sweden.
     Combining the SDGs inside the donut and the Planetary Boundaries
     outside the donut. The space donut represents a state of
     equuilibrium and balance on spaceship Earth.
+
+-   @oikosdenktankWebinarDoughnutEconomics2021 donut in brussels,
+    belgium. everything has to be adapted to the place and context
+    @brusselsdonutHomeBrusselsDonut2022
 
 -   @gadlevanonDonutEffectReal2022 the donut effect is real, shift away
     from city centers. Not related to donut economy per se.
@@ -284,8 +318,6 @@ Germany, Norway and Sweden.
 -   While the European Union is a leader in sustainability legislation,
     biodiversity among private companies is low
     @marco-fondevilaTrendsPrivateSector2023
-
--   @MonetaryValuationNature2023 should we put a price on nature?
 
 -   @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3
     points of views
@@ -674,8 +706,11 @@ TODO
 
 ## Regenerative design {#regenerative-design}
 
--   
 -   dematerialize economies is not enough
+
+## **Biomimicry** {#biomimicry}
+
+-   
 
 ## Eco-Design {#eco-design}
 
