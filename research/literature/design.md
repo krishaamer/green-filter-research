@@ -239,6 +239,10 @@ always going to be a small percentage of people.
 
 ### Memes {#memes}
 
+-   Coined by Richard Dawkins in 1976 in the context of biology.
+
+-   Internet memes and meme stocks
+
 -   Memes from daily life, bussiness to war, are relevant to penetrating
     through the noise of the web.
 

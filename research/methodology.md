@@ -103,6 +103,12 @@ RQ:Which index to use?
 
     -   Would create a startup if you couldn’t have 10x returns?
 
+    -   Who is resposible for sustainability?
+
+    -   Building a culture of sustainability?
+        @lakshmirebeccaManWhoGamifying2018;
+        @armstrongCultivatingCulturesSustainability2021
+
 -   miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
     kasu pole?
 

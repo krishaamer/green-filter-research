@@ -177,10 +177,13 @@ by \[@unWorldPopulationProspects2022\] predict 8.5B people by 2030 and
 9.7B by 2050. \[@hassounFoodProcessingCurrent2023\] forecasts increase
 of global food demand by 62% including impact of climate change.
 
+-   10 Billion people by 2050.
+
 -   While population growth puts higher pressure on Earth’s resources,
     some research shows the effect is more from wasteful lifestyles than
     the raw number of people \[@cardinaleBiodiversityLossIts2012\]
     **???. NEED ACCESS!!**
+
 -   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes
     (ATCs):
 
@@ -665,6 +668,11 @@ From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
     greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs)
     is required for climate stability.
 
+-   @tedxtalksSustainableBusinessFrank202 sustainability is filled with
+    complexities, where child labor, prostitution, poverty, CO2
+    emission, dangerous chemicals, and many other issues became
+    intertwined.
+
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage
@@ -909,7 +917,7 @@ plastic packaging is produced annually.”
 
 -   @CO2neutralFactories and @InnocentOpens200m CO2 neutral factories?
 
--   @MakeYourWebsite CO2 neutral websites
+-   @MakeYourWebsite CO2 neutral websites https://ecograder.com/
 
 -   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
 

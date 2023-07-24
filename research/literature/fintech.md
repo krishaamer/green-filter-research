@@ -79,6 +79,10 @@ economics, Regenerative Capitalism, donut economics.
 -   @johnfullertonRegenerativeBusinessPart2022: “human civilization is
     embedded in the biosphere”
 
+-   @stockholmresiliencecentretvKateRaworthPresenting2017
+
+-   Adam Smith: Interdependence
+
 ## Ecological Econonomics {#ecological-econonomics}
 
 -   Prosperity Without Growth book
@@ -201,11 +205,15 @@ economics, Regenerative Capitalism, donut economics.
     labor practicies and deforestation”.
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the
-    shopping app
+    shopping app.
 
 -   @klinglmayrSustainableConsumerismSelfRegulation2016
 
 -   @emilywaterfieldAppsThatCan2019
+
+-   Beebag shopping bags made of recycled plastic bottles with a NFC
+    ship that works in conjunction with an app to provide rebates for
+    customers. @thegreenfactorEP62Gamification2022
 
 -   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single’s
     day, etc. Impossible to turn the tide?
@@ -302,6 +310,7 @@ There are many different certifications
 -   @GreenWebFoundation2023 For example, the Green Web Foundation
     certifies how sustainable is the web hosting used by websites.
 -   @EstonianResponsibleBusiness Responsible business index
+-   Testing website CO2 emissions @wholegraindigitaHowDoesIt2023
 
 Existing rankings
 
@@ -1273,6 +1282,10 @@ Sustainability Marketing
 
 -   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023
     ESG Not delivering on it’s hopes
+
+-   @tedxtalksDisruptiveNewModel2022 large corporations are using ESG
+    for greenwashing by investing in token-projects but not changing
+    their fundamental polluting practices.
 
 -   @margarytakirakosianRedFlagsPrivate2022
 
