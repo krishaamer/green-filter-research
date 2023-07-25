@@ -22,19 +22,33 @@ import Methodology from './images/research-methodology.png'
 -   Start with survey, then expert interviews (because so many questions
     from literature review)
 
-| Product Idea         | Source            |                                                                                | Prototype Link                                         |
-|------------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | https://www.greenfilter.app/prototypes/truth-power     |
-| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | https://www.greenfilter.app/prototypes/shopping-divest |
-| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | https://www.greenfilter.app/prototypes/true-cost-      |
-| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                                        |
-| XYZ                  | Expert Interview  |                                                                                |                                                        |
-| ABC                  | User Survey       |                                                                                |                                                        |
+## Product Features {#product-features}
+
+-   Your Green Helper
+
+-   make some initial prototype? make youtube video… hi, you have
+    reached? spread… through estban and others?
+
+-   Currently CO2 footprint calculators ask you a couple of questions
+    and give a ballpark estimate. Does it make sense to track
+    sustainability on a more nuanced level, like Apple Health, in order
+    to encourage sustainable behavior?
+
+| Product Idea         | Source            |                                                                                | Prototype Link                             |
+|---------------|-------------------|-------------------|--------------------|
+| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
+| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
+| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
+| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
+| XYZ                  | Expert Interview  |                                                                                |                                            |
+| ABC                  | User Survey       |                                                                                |                                            |
 
 ## Affinity Diagrams {#affinity-diagrams}
 
--   @quignardUXAnalysisPhase2022
--   @karaperniceAffinityDiagrammingCollaboratively2018
+-   Affinity diagrams help users organize ideas by brainstorming,
+    sorting and labeling to cluster related
+    information\[@karaperniceAffinityDiagrammingCollaboratively2018 ;
+    @quignardUXAnalysisPhase2022\]
 
 ## Factorial Surveys {#factorial-surveys}
 
@@ -43,96 +57,113 @@ import Methodology from './images/research-methodology.png'
     surveys use short narratives, called vignettes, to represent various
     levels of independent variables that are too complex or unethical to
     create and manipulate in real-world or lab situations”
--   Currently CO2 footprint calculators ask you a couple of questions
-    and give a ballpark estimate. Does it make sense to track
-    sustainability on a more nuanced level, like Apple Health, in order
-    to encourage sustainable behavior?
--   Your Green Helper
--   thesis: if we all acted more like investors instead of consumers,
-    the world would be a better place
--   Survey to investors…
+
+### Not Used {#not-used}
+
 -   Pick who to interview.
--   Survey to consumers
--   How do you feel about this statement q: 1-10… 2. Investing in
-    sustainability has a meaningful impact on sustainability q: it’s
-    easy to assess the sustainability of an investment q: i consider
-    sustainability when investing
--   make some initial prototype? make youtube video… hi, you have
-    reached? spread… through estban and others?
--   QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a
-    material impact on environmental issues — Investment decisions have
-    a material impact on environmental issues
--   How would you prefer communicating with an AI? – Use my voice –
-    Search box – Chat – Take photos and share them with AI – ??
 
-------------------------------------------------------------------------
-
-``` text
-1. how would your desribe your relationship with sustainability?
-2. where do you need sustainnability advice?
-
-RQ:Which index to use?
-
-— what questions would you be asking that i’m not asking?
-```
-
--   Interview questions
-
-    -   Do you think the app should focus on —— Changing legislation ——
-        Consumer habits —— Investing habits —— Smth else
-
-    -   Likert: Pollution is a prerequisite of economic growth
-
-    -   It’s possible to grow the economy without CO2 emissions
-
-    -   It’s possible to grow the economy without biodiversity loss
-
-    -   There are natural limits to the size of the economy
-
-    -   The potential growth of the economy is unlimited
-
-    -   There are planetary boundaries
-
-    -   Donut Economy is feasible
-
-    -   Donut Economy is a good idea
-
-    -   Growing the economy is needed
+-   Survey to investors…
 
     -   What is your expected outcome of starting a business?
 
     -   Would create a startup if you couldn’t have 10x returns?
 
-    -   Who is resposible for sustainability?
+-   Where do you need sustainability advice?
 
-    -   Building a culture of sustainability?
-        @lakshmirebeccaManWhoGamifying2018;
-        @armstrongCultivatingCulturesSustainability2021
-
--   miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
+-   Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
     kasu pole?
 
--   should we put a price on nature (ecosystem service markets ) ?
-    likert yes-2345-no
+### For Experts {#for-experts}
 
--   Start with everyday questions:
+-   QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a
+    material impact on environmental issues — Investment decisions have
+    a material impact on environmental issues
+-   There are planetary boundaries
+-   Growing the economy is needed
+-   It’s possible to grow the economy without biodiversity loss
+-   There are natural limits to the size of the economy
+-   The potential growth of the economy is unlimited
 
--   How to buy sustainable clothing
+### For College Students {#for-college-students}
 
--   How to buy sustainable food
+1.  Get and overview of you consumption habits
 
--   How to invest sustainably
+2.  How do you feel about this statement
 
--   How to save sustainably
+    1.  q: 1-10… 2. Investing in sustainability has a meaningful impact
+        on sustainability q: it’s easy to assess the sustainability of
+        an investment q: i consider sustainability when investing
 
--   1\. get and overview of you consumption habits
+3.  If we all acted more like investors instead of consumers, the world
+    would be a better place.
 
--   Choose your investment themes
+4.  How would your describe your relationship with sustainability?
 
--   Where are you mostly likely to invest? — stocks — crypto — land —
-    etc
+5.  It’s possible to grow the economy without CO2 emissions
 
--   @christianrohrerWhenUseWhich2022: Research methods
+6.  Pollution is a prerequisite of economic growth
+
+7.  Who is responsible for sustainability?
+
+8.  Donut Economy is feasible
+
+9.  Donut Economy is a good idea
+
+10. How would you prefer communicating with an AI?
+
+    1.  Use my voice
+
+    2.  Search box
+
+    3.  Chat
+
+    4.  Take photos and share them with AI
+
+11. Choose your investment themes
+
+    1.  ESG
+
+    2.  Su
+
+12. Should we put a price on nature (ecosystem service markets )
+
+    1.  Likert 1-7
+
+13. Where are you most likely to invest?
+
+    -   Stocks
+
+    -   Cryptocurrencies
+
+    -   NFTs
+
+    -   Land
+
+    -   Gold
+
+    -   Stocks
+
+    -   Bonds
+
+14. The app should focus on
+
+    1.  Changing legislation
+
+    2.  Consumer habits
+
+    3.  Investing habits
+
+15. I a most concerned with (start with everyday questions)
+
+    1.  How to buy sustainable clothing
+
+    2.  How to buy sustainable food
+
+    3.  How to invest sustainably
+
+    4.  How to save sustainably
+
+16. What questions would you be asking that i’m not asking?
 
 ## Research Through Design {#research-through-design}
 
@@ -347,6 +378,8 @@ product data through that lens and vocabularys.
 -   Climate action
 
 ## Research Design {#research-design}
+
+-   @christianrohrerWhenUseWhich2022: Research methods
 
 **The research design of this study consists of 3 steps.**
 

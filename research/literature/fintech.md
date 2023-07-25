@@ -153,6 +153,17 @@ economics, Regenerative Capitalism, donut economics.
 -   In 2022 the Global Gross Domestic Product (GDP) was estimated at
     around 100 Trillion USD @aarononeillGlobalGDP19852028.
 
+-   @greensefaBeyondGrowthChangingGoal2023 we should measure wellbeing
+    in addition to GDP!! We need resilency dashboards, to to visualize
+    metrics beyond GDP and they are an integral part of country reports.
+
+-   @greensefaNatureVoteSuccess2023 large corporations such as Nestle
+    and Coca Cola support the biodiversity law to have a level playing
+    field for business.
+
+-   EU releases strategic foresight reports since 2020
+    @europeancommissionStrategicForesight2023
+
 -   Lack of leadership. @capgeminiWorldBalanceWhy2022: “Many business
     leaders see sustainability as costly obligation rather than
     investment in the future”.
@@ -1369,7 +1380,26 @@ emissions in their product lifecycle.
 -   @naturalinvestMalaikaMaphalalaNatural2020
 -   @marquisRSFLeadingWay2021
 
+## Intent Economics {#intent-economics}
+
+-   In Intent Economics, could I define what are my expectations towards
+    companies, before I engage in any transcations?
+
+-   Old-school businesses only expect me to spend money but I have so
+    many more concerns. I’m human. I’m not just a piece of currency.
+
+-   @searlsIntentionEconomyWhen2012
+
 ## Greenwashing {#greenwashing}
+
+-   @quatriniChallengesOpportunitiesScale2021 sustainability assessments
+    are complex and may give flawed results.
+
+-   Amsterdam Circular Economy Monitor
+    @gemeenteamsterdamCircularEconomyMonitor2022
+
+-   @caoImpactLoweringCarbon2023 CO2 emission reduction has a postive
+    effect on corporate morale.
 
 -   Greenwashing is a large detractor from environmental action as it’s
     difficult to know what is sustainable and what is not.

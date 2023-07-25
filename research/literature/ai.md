@@ -1,5 +1,5 @@
 ---
-title: AI
+title: Artificial Intelligence
 bibliography: [../ref.bib]
 csl: ../chicago.csl
 sidebar_position: 3
@@ -119,6 +119,11 @@ some key lessons can be transferred across fields horizontally.
 | Emotion-handling program   |
 | Electronic pet             |
 | Tool for venting           |
+
+From assistant to companion to friend The best help for anxiety is a
+friend
+
+Tamagotchi - perhaps not a human-like friend but an animal-like friend.
 
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as
     decision-support for humans while differentiating between intended

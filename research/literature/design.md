@@ -200,6 +200,10 @@ with empowering creators and artists to create and own the culture
 they’re creating. In the long term this moves to internet communities
 taking on societal endeavors.”
 
+-   Building a culture of sustainability?
+    @lakshmirebeccaManWhoGamifying2018;
+    @armstrongCultivatingCulturesSustainability2021
+
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero
 waste suggests people buy in bulk to save. Buying in bulk for more
 savings and to reduce packaging. Through group purchases and community

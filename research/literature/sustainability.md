@@ -236,6 +236,9 @@ Germany, Norway and Sweden.
     outside the donut. The space donut represents a state of
     equuilibrium and balance on spaceship Earth.
 
+-   @fanningSocialShortfallEcological2021 data for the donut: “The
+    social shortfall and ecological overshoot of nations”
+
 -   @oikosdenktankWebinarDoughnutEconomics2021 donut in brussels,
     belgium. everything has to be adapted to the place and context
     @brusselsdonutHomeBrusselsDonut2022

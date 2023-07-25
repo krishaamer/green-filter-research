@@ -16,8 +16,16 @@ import Methodology from './images/research-methodology.png'
 
 -   Start with survey, then expert interviews (because so many questions from literature review)
 
+## Product Features
+
+-   Your Green Helper
+
+-   make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
+
+-   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
+
 | Product Idea         | Source            |                                                                                | Prototype Link                             |
-|------------------|------------------|------------------|-------------------|
+|--------------|------------------|------------------|-------------------|
 | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
 | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
 | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
@@ -27,16 +35,7 @@ import Methodology from './images/research-methodology.png'
 
 ## Affinity Diagrams
 
--   @quignardUXAnalysisPhase2022
--   @karaperniceAffinityDiagrammingCollaboratively2018
-
-## Product Features
-
--   Your Green Helper
-
--   make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
-
--   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
+-   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information[@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
 
 ## Factorial Surveys
 
