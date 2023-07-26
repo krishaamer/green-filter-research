@@ -1327,7 +1327,7 @@ Sustainability Marketing
 |                                      |     |     |
 |                                      |     |     |
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications}
+#### *Design Implications:* {#design-implications}
 
 -   ESG alone is not a sufficient metric to prove sustainability of a
     company and needs to be accompanied by other metrics.
@@ -1490,7 +1490,7 @@ emissions in their product lifecycle.
 -   @ClimateBondsInitiative2022: Climate Bonds Initiative greening the
     \$55 trillion short-term debt market
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-1}
+#### *Design Implications:* {#design-implications-1}
 
 -   *As a consumer, I can get notified by the app about highlights of
     poor legislation refuted by science*.

@@ -20,6 +20,11 @@ import Runaround from '../images/runaround.png'
 
 ## Human-AI Interaction {#human-ai-interaction}
 
+In @mccullochLogicalCalculusIdeas1943 proposed the first mathematical
+model of a neural network inspired by the human brain.
+
+biomimicry
+
 In the 83 years since Alan Turing proposed his Turing Test for Machine
 Intelligence in 1950, Artificial Intelligence (AI) has developed from an
 academic concept to a mainstream, everyday reality. Turing’s idea was to
@@ -447,7 +452,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 @guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
 
 | 1                       | 2                    | 3                                            |
-|-------------------|-------------------|-----------------------------------|
+|--------------------|-------------------|----------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
 How is AI changing ’interactions?

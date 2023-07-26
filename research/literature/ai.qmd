@@ -15,6 +15,10 @@ import Runaround from '../images/runaround.png'
 ```
 ## Human-AI Interaction
 
+In @mccullochLogicalCalculusIdeas1943 proposed the first mathematical model of a neural network inspired by the human brain.
+
+biomimicry
+
 In the 83 years since Alan Turing proposed his Turing Test for Machine Intelligence in 1950, Artificial Intelligence (AI) has developed from an academic concept to a mainstream, everyday reality. Turing's idea was to design a game of imitation to test human-computer interaction using text messages. If a person is simultaneously speaking to another human and a computer AI, could the messages from the AI resemble a human being so much that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
 
 > Alan Turing: *"I believe that in about fifty years' time it will be possible to program computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. ... I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."* - from @stanfordencyclopediaofphilosophyTuringTest2021
@@ -102,16 +106,14 @@ There's wide literature available describing human-AI interactions across varied
 
 -   @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous ship systems.
 
-```{=html}
 <!-- -->
-```
+
 -   From assistant to companion to friend The best help for anxiety is a friend
 
 -   Tamagotchi - perhaps not a human-like friend but an animal-like friend.
 
-```{=html}
 <!-- -->
-```
+
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as decision-support for humans while differentiating between intended and unintended influence on human decisions.
 -   @chengInvestigationTrustAIenabled2022 describe AI-based support systems for collaboration and team-work.
 -   @schoonderwoerdHumancenteredXAIDeveloping2021 focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain?
@@ -251,7 +253,7 @@ How do the 7 tenets of user experience (UX) apply to AI?
 @guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
 
 | 1                       | 2                    | 3                                            |
-|-------------------|------------------|-----------------------------------|
+|-------------------|------------------|----------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
 How is AI changing 'interactions?
@@ -289,7 +291,7 @@ How is AI changing 'interactions?
 **Isaac Asimov** proposed the 3 laws of Robotics in a science fiction short story titled ***Runaround***, first published in the March 1942 issue of the Astounding Science Fiction magazine (now available in the Internet Archive). These 3 simple rules became an inspiration for discussions of AI ethics until today.
 
 | №       | Asimov's Laws of Robotics                                                                                           |
-|-----------------------|-------------------------------------------------|
+|-----------------------|------------------------------------------------|
 | 1st Law | "A robot may not injure a human being or, through inaction, allow a human being to come to harm."                   |
 | 2nd Law | "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law." |
 | 3rd Law | "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law." |

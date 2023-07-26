@@ -43,7 +43,7 @@ import ResQClub from '../images/resq-club.png'
 -   @incGlanceAlexandriaRealTime
 -   @timnicolleFintechLendingWhose2017
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications}
+#### *Design Implications:* {#design-implications}
 
 -   App shows traceability.
 
@@ -179,7 +179,7 @@ Can data transparency provide tools for reducing cruelty.
 -   Precision Fermentation and Cultivated Meat: Meat products without
     farm animals
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-1}
+#### *Design Implications:* {#design-implications-1}
 
 -   Rank companies based on sustainability
 
@@ -216,7 +216,7 @@ Can data transparency provide tools for reducing cruelty.
 -   @HomeChainReact
 -   @SverigesDataportal Swedish open data portal
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-2}
+#### *Design Implications:* {#design-implications-2}
 
 -   Make open data easy to use in everyday life.
 
@@ -335,6 +335,13 @@ It’s a further development of the idea of carbon labels.
 -   Sustainable Product Management:
     @korzhovaSustainableProductManagement2020
 
+## Antifragile Passport {#antifragile-passport}
+
+-   @gitcoinpassport2023 How to build an antifragile scoring system.
+
+-   @talebAntifragileThingsThat2012 antifragile systems that get better
+    in difficult situations
+
 ## Industry Cases {#industry-cases}
 
 Conversations about sustainability are too general and one needs to look
@@ -346,7 +353,7 @@ to design for meaningful interaction.
     @DURIEZ2022454 shows how simply by reducing material weight it’s
     possible to design more sustainable transportation.
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-3}
+#### *Design Implications:* {#design-implications-3}
 
 -   Focus on specific industries.
 

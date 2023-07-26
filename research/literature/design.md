@@ -63,7 +63,7 @@ College Student Personas
 ***The Climate Action Simulation*** in educating users about **success
 scenarios**.
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications}
+#### *Design Implications:* {#design-implications}
 
 -   **Show Success Scenarios!**
 
@@ -183,7 +183,7 @@ evidence even children are anxious about climate.
     how Millenials “use Google as a reference point for ease of use and
     simplicity” @katemoranDesigningYoungAdults2016.
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-1}
+#### *Design Implications:* {#design-implications-1}
 
 -   How to support the youth? Design to reduce climate anxiety? Is
     getting people to go to nature more a good way to increase
@@ -221,7 +221,7 @@ always going to be a small percentage of people.
 @costaHowFinnishCulture2018: Finnish socialists: minimalism. Tokyo
 @tokyosimpleecolifeWhatLearnedMy2021.
 
-#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-2}
+#### *Design Implications:* {#design-implications-2}
 
 -   People exist in relation to other people.
 
@@ -487,7 +487,7 @@ Use technology Wearables to be more aware of one’s health.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
-#### ***Design Implications:*** {#design-implications-3}
+#### *Design Implications:* {#design-implications-3}
 
 -   What would that look like for sustainability?
 
@@ -632,7 +632,7 @@ users depends on ***Data-Driven Design.***
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
-#### ***Design Implications:*** {#design-implications-4}
+#### *Design Implications:* {#design-implications-4}
 
 -   Rebuilt the app as a personalized, narrative lifestyle feed.
 -   Your shopping products mostly come from Protector and Gamble (3x)
@@ -662,7 +662,7 @@ users depends on ***Data-Driven Design.***
 
 -   Stories start with a character.
 
-#### ***Design Implications:*** {#design-implications-5}
+#### *Design Implications:* {#design-implications-5}
 
 -   Narrative design bring together film school **storytelling**
     experience with design.
@@ -767,7 +767,7 @@ Some notable examples:
 -   @SpaceApeGames game company going green
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-#### ***Design Implications:*** {#design-implications-6}
+#### *Design Implications:* {#design-implications-6}
 
 -   What if there was a “Green Filter” on every product everywhere?
 -   Become a Sustainability-Aware App or Game.
@@ -811,7 +811,7 @@ For this to happen, some technological tools are helpful.
 
 Examples of human-in-the-loop apps
 
-#### ***Design Implications:*** {#design-implications-7}
+#### *Design Implications:* {#design-implications-7}
 
 -   Guidance could help young people beat climate anxiety by taking
     meaningful action.
