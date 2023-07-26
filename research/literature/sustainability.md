@@ -92,7 +92,7 @@ available in ship records \[@BrohanClimate2012 \].
     Environmental Quality – In order to have healthy communities, we
     need clean air, natural resources, and a nontoxic environment.”
 
-***Design Implications:***
+#### ***Design Implications:*** {#design-implications}
 
 -   Blood testing and biomarkers allow people to track their health. I’m
     introducing the concept of ‘eco-markers’ to follow the
@@ -394,9 +394,11 @@ Air pollution is so widespread. Clean air is a requirement.
 -   @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in
     progress to curb industrial emissions.
 
-**Design Implications**: *People live in the polluted areas are so used
-to it. What app to wake them up? “You live in a highly polluted area.
-Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
+#### \*\*\*\*DesigImplications\*\*\*\*: {#desigimplications}
+
+-   *People live in the polluted areas are so used to it. What app to
+    wake them up? “You live in a highly polluted area. Here’s the TOP 10
+    companies causing pollution. Here’s what you can do.”*
 
 #### Disasters and Extreme Weather {#disasters-and-extreme-weather}
 
@@ -767,7 +769,7 @@ every year.
     cost of fossil fuels comprises not only mining and processing, but
     also the damage done by the CO2 they release.”
 
-***Design Implications:***
+#### ***Design Implications:*** {#design-implications-1}
 
 -   AI can help us make sense of the vast amounts of sustainability data
     generated daily.
@@ -865,8 +867,7 @@ One type of legislation that works?
     reminding factories to produce to French standards in order to be
     able enter the EU market.
 
-***Design implications:** ERP and CDP data should be part of Green
-Filter.*
+#### ***Design implications:** ERP and CDP data should be part of Green Filter.* {#design-implications-erp-and-cdp-data-should-be-part-of-green-filter.}
 
 ### Return, Repair, Reuse {#return-repair-reuse}
 

@@ -14,180 +14,110 @@ import Methodology from './images/research-methodology.png'
 ```
 # Methodology
 
--   Start with survey, then expert interviews (because so many questions from literature review)
+Start with expert survey, then expert interviews (because so many questions from literature review).
 
-## Product Features
+### Experts (Economy)
 
--   Your Green Helper
-
--   make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
-
--   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
-
-| Product Idea         | Source            |                                                                                | Prototype Link                             |
-|--------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
-| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
-| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
-| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
-| XYZ                  | Expert Interview  |                                                                                |                                            |
-| ABC                  | User Survey       |                                                                                |                                            |
-
-## Affinity Diagrams
-
--   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information[@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
-
-## Factorial Surveys
-
--   @li2022assessing: "Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations"
-
-### Not Used
-
--   Pick who to interview.
-
--   Survey to investors...
-
-    -   What is your expected outcome of starting a business?
-
-    -   Would create a startup if you couldn't have 10x returns?
-
--   Where do you need sustainability advice?
-
--   Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
-
-### For Experts
-
--   QUESTIONS for EXPERTS (Likert 1-10) --- Consumption habits have a material impact on environmental issues --- Investment decisions have a material impact on environmental issues
+-   QUESTIONS for EXPERTS (Likert 1-10)
+    -   Consumption habits have a material impact on environmental issues
+    -   Investment decisions have a material impact on environmental issues
 -   There are planetary boundaries
+-   Where do you need sustainability advice?
 -   Growing the economy is needed
 -   It's possible to grow the economy without biodiversity loss
 -   There are natural limits to the size of the economy
 -   The potential growth of the economy is unlimited
+-   Where do you think consumers need the most help with?
+-   How to help young people get started with investing?
+-   How to assess the sustainability footprint of an asset
+-   How much do you trust ESG?
+-   What are some questions I should be asking but are not here?
+-   What is you could see the real price (including externalizes) next too the sales prices.
+-   Targeted experts (fintech, design, eco activists):
+-   Wise founders
+-   Monese founders
+-   Crypto founders
+-   Financial companies
+-   Funderbeam
+-   Calastone (has an office in Taipei)
+-   What is your expected outcome of starting a business?
+-   Would create a startup if you couldn't have 10x returns?
+-   I consider sustainability when investing (Likert)
+
+### Experts (Design)
+
+-   Where do you need sustainability advice?
+
+### Experts (Sustainability)
+
+-   How much do you trust ESG?
+-   It's possible to grow the economy without biodiversity loss
 
 ### For College Students
 
-1.  Get and overview of you consumption habits
+1.  Kas sa elad?
 
-2.  How do you feel about this statement
+    -   tulevikus
 
-    1.  q: 1-10... 2. Investing in sustainability has a meaningful impact on sustainability q: it's easy to assess the sustainability of an investment q: i consider sustainability when investing
+    -   minevikus
 
-3.  If we all acted more like investors instead of consumers, the world would be a better place.
+    -   praeguses hetkes?
 
-4.  How would your describe your relationship with sustainability?
+2.  include some personality quiz in the survey?
 
-5.  It's possible to grow the economy without CO2 emissions
+3.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
 
-6.  Pollution is a prerequisite of economic growth
+4.  What are some things you do to achieve sustainability in your daily life?
 
-7.  Who is responsible for sustainability?
+5.  What is your relationship like with money?
 
-8.  Donut Economy is feasible
+6.  What is your relationship like with nature?
 
-9.  Donut Economy is a good idea
+7.  Tell me about you shopping habits
 
-10. How would you prefer communicating with an AI?
+8.  Tell me about you saving habits
 
-    1.  Use my voice
+9.  Tell me about your investing habits
 
-    2.  Search box
+10. Write your investment thesis first.
 
-    3.  Chat
+11. What is your investment thesis?
 
-    4.  Take photos and share them with AI
+12. If you want to invest 5 minutes every day in sustainability, how will you do it?
 
-11. Choose your investment themes
+13. How would you rate your knowledge on sustainability?
 
-    1.  ESG
+14. How would you rate your ability to put sustainability into practice?
 
-    2.  Su
+15. What would you like to see more of in the future?
 
-12. Should we put a price on nature (ecosystem service markets )
+16. What would you like to see less of in the future?
 
-    1.  Likert 1-7
+17. Get and overview of you consumption habits
 
-13. Where are you most likely to invest?
+18. Where do you need sustainability advice?
 
-    -   Stocks
+19. How do you feel about this statement (Likert)
 
-    -   Cryptocurrencies
+    1.  Investing in sustainability has a meaningful impact on sustainability
+    2.  It's easy to assess the sustainability of an investment
+    3.  I consider sustainability when investing
 
-    -   NFTs
+20. If we all acted more like investors instead of consumers, the world would be a better place.
 
-    -   Land
+21. How would your describe your relationship with sustainability?
 
-    -   Gold
+22. It's possible to grow the economy without CO2 emissions
 
-    -   Stocks
+23. Pollution is a prerequisite of economic growth
 
-    -   Bonds
+24. Who is responsible for sustainability?
 
-14. The app should focus on
+25. Donut Economy is feasible
 
-    1.  Changing legislation
+26. Donut Economy is a good idea
 
-    2.  Consumer habits
-
-    3.  Investing habits
-
-15. I a most concerned with (start with everyday questions)
-
-    1.  How to buy sustainable clothing
-
-    2.  How to buy sustainable food
-
-    3.  How to invest sustainably
-
-    4.  How to save sustainably
-
-16. What questions would you be asking that i'm not asking?
-
-## Research Through Design
-
--   Design research books
--   @koskinenDesignResearchPractice2011
--   @riesLeanStartupHow2011
--   Design Studies Journal
-
-Research through design as a method for interaction design research in HCI
-
--   @zimmermanResearchDesignMethod2007
-
--   @salovaaraHowDefineResearch2020 defining a research question
-
--   @nunnallyUXResearchPractical2016
-
-interview people at google who made the green filter options
-
--   design artefacts
-
--   "design's) nature as a"problem-solving" science", Oulasvirta and Hornbæk, 2016
-
--   my contribution is the design artefact, "HCI researchers also make constructive contributions by developing new technologies and design"
-
--   @affairsCardSorting2013 Card sorting
-
--   @HowModelsWork
-
--   Behavirour kit:
-
-Take the metrics from the several frameworks and display them on the product and company level? People can choose their own framework and see product data through that lens and vocabularys.
-
-| Col1                    | Col2           | Col3 |
-|-------------------------|----------------|------|
-| Donut Economy           | Unrolled Donut |      |
-| Regenerative Capitalism | 8 Principles   |      |
-| Blue Economy            |                |      |
-| ESG                     |                |      |
-| B Corp                  |                |      |
-
-## Survey
-
--   If you fill out all the questions, you will participate in a lottery to win AirPods Pro 2
-
--   If you want to invest 5 minutes every day in sustainability, how will you do it?
-
--   How much time per day are you willing to spend on sustainability per day?
+27. How much time per day are you willing to spend on sustainability per day?
 
     -   Less than 2 minutes
 
@@ -207,43 +137,125 @@ Take the metrics from the several frameworks and display them on the product and
 
     -   More than 2 hours
 
--   How would you rate your knowledge on sustainability?
+28. How would you prefer communicating with an AI?
 
--   How would you rate your ability to put sustainability into practice?
+    1.  Use my voice
 
--   **What does investing mean for you? NFTs, Crypto,** Stocks, Real-estate? If you have 1000 EUR, what will you buy?
+    2.  Search box
 
--   \@thibodeauThreeCompaniesClosing2022: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+    3.  Chat
 
--   What would you like to see more of in the future?
+    4.  Take photos and share them with AI
 
--   What would you like to see less of in the future?
+29. Choose your investment themes
 
--   kas sa elad?
+    1.  ESG
 
-    -   tulevikus
+    2.  Su
 
-    -   minevikus
+30. Should we put a price on nature (ecosystem service markets )
 
-    -   praeguses hetkes?
+    1.  Likert 1-7
 
--   include some personality quiz in the survey?
+31. Where are you most likely to invest?
 
--   What are some things you do to achieve sustainability in your daily life?
+    -   Stocks
 
--   What is your relationship like with money?
+    -   Cryptocurrencies
 
--   What is your relationship like with nature?
+    -   NFTs
 
--   Tell me about you shopping habits
+    -   Land
 
--   Tell me about you saving habits
+    -   Gold
 
--   Tell me about your investing habits
+    -   Stocks
 
--   Write your investment thesis first.
+    -   Bonds
 
--   What is your investment thesis?
+32. The app should focus on
+
+    1.  Changing legislation
+
+    2.  Consumer habits
+
+    3.  Investing habits
+
+33. I a most concerned with (start with everyday questions)
+
+    1.  How to buy sustainable clothing
+
+    2.  How to buy sustainable food
+
+    3.  How to invest sustainably
+
+    4.  How to save sustainably
+
+34. What questions would you be asking that i'm not asking?
+
+## Product Features
+
+-   Your Green Helper
+
+-   make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
+
+-   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
+
+| Product Idea         | Source            |                                                                                | Prototype Link                             |
+|------------------|------------------|------------------|-------------------|
+| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
+| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
+| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
+| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
+| XYZ                  | Expert Interview  |                                                                                |                                            |
+| ABC                  | User Survey       |                                                                                |                                            |
+
+## Affinity Diagrams
+
+-   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information[@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
+
+## Factorial Surveys
+
+-   @li2022assessing: "Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations"
+
+## Research Through Design
+
+-   Design research books
+-   @koskinenDesignResearchPractice2011
+-   @riesLeanStartupHow2011
+-   Design Studies Journal
+
+Research through design as a method for interaction design research in HCI
+
+-   @zimmermanResearchDesignMethod2007
+
+-   @salovaaraHowDefineResearch2020 defining a research question
+
+-   @nunnallyUXResearchPractical2016
+
+interview people at google who made the green filter options
+
+-   Design artefacts
+
+-   "design's) nature as a"problem-solving" science", Oulasvirta and Hornbæk, 2016
+
+-   my contribution is the design artefact, "HCI researchers also make constructive contributions by developing new technologies and design"
+
+-   @affairsCardSorting2013 Card sorting
+
+-   @HowModelsWork
+
+-   Behavirour kit:
+
+Take the metrics from the several frameworks and display them on the product and company level? People can choose their own framework and see product data through that lens and vocabularies.
+
+| Col1                    | Col2           | Col3 |
+|-------------------------|----------------|------|
+| Donut Economy           | Unrolled Donut |      |
+| Regenerative Capitalism | 8 Principles   |      |
+| Blue Economy            |                |      |
+| ESG                     |                |      |
+| B Corp                  |                |      |
 
 -   "research for design". design research is about expanding opportunities and exploration
 
@@ -263,31 +275,7 @@ Take the metrics from the several frameworks and display them on the product and
 
 -   @ErikaHallDesign
 
--   Questions
-
-    -   Where do you think consumers need the most help with?
-
-    -   How to help young people get started with investing?
-
-    -   How to assess the sustainability footprint of an asset
-
-    -   How much do you trust ESG?
-
-    -   What are some questions I should be asking but are not here?
-
-    -   What is you could see the real price (including externalizes) next too the sales prices.
-
 -   online/offline ethnographic participant observation At this stage in the research, the central concept being studied is defined generally as user expectations for a sustainable investment app.
-
--   Targeted experts (fintech, design, eco activists):
-
--   Wise founders
-
--   Monese founders
-
--   Crypto founders
-
-<!-- -->
 
 -   What are my hypotheses?
 
@@ -297,17 +285,9 @@ Take the metrics from the several frameworks and display them on the product and
 
 -   Analyzing existing apps and user pain-points
 
--   Financial companies
-
--   Wise
-
--   Funderbeam
-
--   Calastone (has an office in Taipei)
-
 -   List of topics gleaned from literature review for discussion with the experts:
 
--   1\. Transparency and sources of ESG and similar data
+-   Transparency and sources of ESG and similar data
 
 -   I will test the prototype with potential users using an online choice experiment survey.
 

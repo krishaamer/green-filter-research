@@ -7,9 +7,6 @@ editor:
     render-on-save: true
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 
 ```mdx-code-block
 import Figure from '/src/components/Figure'
@@ -19,8 +16,194 @@ import Methodology from './images/research-methodology.png'
 
 # Methodology {#methodology}
 
--   Start with survey, then expert interviews (because so many questions
-    from literature review)
+Start with expert survey, then expert interviews (because so many
+questions from literature review).
+
+### Experts (Economy) {#experts-economy}
+
+-   QUESTIONS for EXPERTS (Likert 1-10)
+    -   Consumption habits have a material impact on environmental
+        issues
+    -   Investment decisions have a material impact on environmental
+        issues
+-   There are planetary boundaries
+-   Where do you need sustainability advice?
+-   Growing the economy is needed
+-   It’s possible to grow the economy without biodiversity loss
+-   There are natural limits to the size of the economy
+-   The potential growth of the economy is unlimited
+-   Where do you think consumers need the most help with?
+-   How to help young people get started with investing?
+-   How to assess the sustainability footprint of an asset
+-   How much do you trust ESG?
+-   What are some questions I should be asking but are not here?
+-   What is you could see the real price (including externalizes) next
+    too the sales prices.
+-   Targeted experts (fintech, design, eco activists):
+-   Wise founders
+-   Monese founders
+-   Crypto founders
+-   Financial companies
+-   Funderbeam
+-   Calastone (has an office in Taipei)
+-   What is your expected outcome of starting a business?
+-   Would create a startup if you couldn’t have 10x returns?
+-   I consider sustainability when investing (Likert)
+
+### Experts (Design) {#experts-design}
+
+-   Where do you need sustainability advice?
+
+### Experts (Sustainability) {#experts-sustainability}
+
+-   How much do you trust ESG?
+-   It’s possible to grow the economy without biodiversity loss
+
+### For College Students {#for-college-students}
+
+1.  Kas sa elad?
+
+    -   tulevikus
+
+    -   minevikus
+
+    -   praeguses hetkes?
+
+2.  include some personality quiz in the survey?
+
+3.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
+    kasu pole?
+
+4.  What are some things you do to achieve sustainability in your daily
+    life?
+
+5.  What is your relationship like with money?
+
+6.  What is your relationship like with nature?
+
+7.  Tell me about you shopping habits
+
+8.  Tell me about you saving habits
+
+9.  Tell me about your investing habits
+
+10. Write your investment thesis first.
+
+11. What is your investment thesis?
+
+12. If you want to invest 5 minutes every day in sustainability, how
+    will you do it?
+
+13. How would you rate your knowledge on sustainability?
+
+14. How would you rate your ability to put sustainability into practice?
+
+15. What would you like to see more of in the future?
+
+16. What would you like to see less of in the future?
+
+17. Get and overview of you consumption habits
+
+18. Where do you need sustainability advice?
+
+19. How do you feel about this statement (Likert)
+
+    1.  Investing in sustainability has a meaningful impact on
+        sustainability
+    2.  It’s easy to assess the sustainability of an investment
+    3.  I consider sustainability when investing
+
+20. If we all acted more like investors instead of consumers, the world
+    would be a better place.
+
+21. How would your describe your relationship with sustainability?
+
+22. It’s possible to grow the economy without CO2 emissions
+
+23. Pollution is a prerequisite of economic growth
+
+24. Who is responsible for sustainability?
+
+25. Donut Economy is feasible
+
+26. Donut Economy is a good idea
+
+27. How much time per day are you willing to spend on sustainability per
+    day?
+
+    -   Less than 2 minutes
+
+    -   2 minutes
+
+    -   5 minutes
+
+    -   10 minutes
+
+    -   20 minutes
+
+    -   30 minutes
+
+    -   1 hour
+
+    -   2 hours
+
+    -   More than 2 hours
+
+28. How would you prefer communicating with an AI?
+
+    1.  Use my voice
+
+    2.  Search box
+
+    3.  Chat
+
+    4.  Take photos and share them with AI
+
+29. Choose your investment themes
+
+    1.  ESG
+
+    2.  Su
+
+30. Should we put a price on nature (ecosystem service markets )
+
+    1.  Likert 1-7
+
+31. Where are you most likely to invest?
+
+    -   Stocks
+
+    -   Cryptocurrencies
+
+    -   NFTs
+
+    -   Land
+
+    -   Gold
+
+    -   Stocks
+
+    -   Bonds
+
+32. The app should focus on
+
+    1.  Changing legislation
+
+    2.  Consumer habits
+
+    3.  Investing habits
+
+33. I a most concerned with (start with everyday questions)
+
+    1.  How to buy sustainable clothing
+
+    2.  How to buy sustainable food
+
+    3.  How to invest sustainably
+
+    4.  How to save sustainably
+
+34. What questions would you be asking that i’m not asking?
 
 ## Product Features {#product-features}
 
@@ -35,7 +218,7 @@ import Methodology from './images/research-methodology.png'
     to encourage sustainable behavior?
 
 | Product Idea         | Source            |                                                                                | Prototype Link                             |
-|---------------|-------------------|-------------------|--------------------|
+|------------------|------------------|------------------|-------------------|
 | Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
 | Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
 | True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
@@ -58,113 +241,6 @@ import Methodology from './images/research-methodology.png'
     levels of independent variables that are too complex or unethical to
     create and manipulate in real-world or lab situations”
 
-### Not Used {#not-used}
-
--   Pick who to interview.
-
--   Survey to investors…
-
-    -   What is your expected outcome of starting a business?
-
-    -   Would create a startup if you couldn’t have 10x returns?
-
--   Where do you need sustainability advice?
-
--   Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
-    kasu pole?
-
-### For Experts {#for-experts}
-
--   QUESTIONS for EXPERTS (Likert 1-10) — Consumption habits have a
-    material impact on environmental issues — Investment decisions have
-    a material impact on environmental issues
--   There are planetary boundaries
--   Growing the economy is needed
--   It’s possible to grow the economy without biodiversity loss
--   There are natural limits to the size of the economy
--   The potential growth of the economy is unlimited
-
-### For College Students {#for-college-students}
-
-1.  Get and overview of you consumption habits
-
-2.  How do you feel about this statement
-
-    1.  q: 1-10… 2. Investing in sustainability has a meaningful impact
-        on sustainability q: it’s easy to assess the sustainability of
-        an investment q: i consider sustainability when investing
-
-3.  If we all acted more like investors instead of consumers, the world
-    would be a better place.
-
-4.  How would your describe your relationship with sustainability?
-
-5.  It’s possible to grow the economy without CO2 emissions
-
-6.  Pollution is a prerequisite of economic growth
-
-7.  Who is responsible for sustainability?
-
-8.  Donut Economy is feasible
-
-9.  Donut Economy is a good idea
-
-10. How would you prefer communicating with an AI?
-
-    1.  Use my voice
-
-    2.  Search box
-
-    3.  Chat
-
-    4.  Take photos and share them with AI
-
-11. Choose your investment themes
-
-    1.  ESG
-
-    2.  Su
-
-12. Should we put a price on nature (ecosystem service markets )
-
-    1.  Likert 1-7
-
-13. Where are you most likely to invest?
-
-    -   Stocks
-
-    -   Cryptocurrencies
-
-    -   NFTs
-
-    -   Land
-
-    -   Gold
-
-    -   Stocks
-
-    -   Bonds
-
-14. The app should focus on
-
-    1.  Changing legislation
-
-    2.  Consumer habits
-
-    3.  Investing habits
-
-15. I a most concerned with (start with everyday questions)
-
-    1.  How to buy sustainable clothing
-
-    2.  How to buy sustainable food
-
-    3.  How to invest sustainably
-
-    4.  How to save sustainably
-
-16. What questions would you be asking that i’m not asking?
-
 ## Research Through Design {#research-through-design}
 
 -   Design research books
@@ -183,7 +259,7 @@ HCI
 
 interview people at google who made the green filter options
 
--   design artefacts
+-   Design artefacts
 
 -   “design’s) nature as a”problem-solving” science”, Oulasvirta and
     Hornbæk, 2016
@@ -200,7 +276,7 @@ interview people at google who made the green filter options
 
 Take the metrics from the several frameworks and display them on the
 product and company level? People can choose their own framework and see
-product data through that lens and vocabularys.
+product data through that lens and vocabularies.
 
 | Col1                    | Col2           | Col3 |
 |-------------------------|----------------|------|
@@ -209,80 +285,6 @@ product data through that lens and vocabularys.
 | Blue Economy            |                |      |
 | ESG                     |                |      |
 | B Corp                  |                |      |
-
-## Survey {#survey}
-
--   If you fill out all the questions, you will participate in a lottery
-    to win AirPods Pro 2
-
--   If you want to invest 5 minutes every day in sustainability, how
-    will you do it?
-
--   How much time per day are you willing to spend on sustainability per
-    day?
-
-    -   Less than 2 minutes
-
-    -   2 minutes
-
-    -   5 minutes
-
-    -   10 minutes
-
-    -   20 minutes
-
-    -   30 minutes
-
-    -   1 hour
-
-    -   2 hours
-
-    -   More than 2 hours
-
--   How would you rate your knowledge on sustainability?
-
--   How would you rate your ability to put sustainability into practice?
-
--   **What does investing mean for you? NFTs, Crypto,** Stocks,
-    Real-estate? If you have 1000 EUR, what will you buy?
-
--   @thibodeauThreeCompaniesClosing2022: “In 2021, the BBC polled 1,000
-    people in Scotland to understand the barriers to taking climate
-    action. What they found was even though many people were aware of
-    actions needed to take to address climate change, and had intentions
-    to their behaviors didn’t change. This is a phenomenon called the
-    intention-action gap.”
-
--   What would you like to see more of in the future?
-
--   What would you like to see less of in the future?
-
--   kas sa elad?
-
-    -   tulevikus
-
-    -   minevikus
-
-    -   praeguses hetkes?
-
--   include some personality quiz in the survey?
-
--   What are some things you do to achieve sustainability in your daily
-    life?
-
--   What is your relationship like with money?
-
--   What is your relationship like with nature?
-
--   Tell me about you shopping habits
-
--   Tell me about you saving habits
-
--   Tell me about your investing habits
-
--   Write your investment thesis first.
-
--   What is your investment thesis?
 
 -   “research for design”. design research is about expanding
     opportunities and exploration
@@ -303,34 +305,9 @@ product data through that lens and vocabularys.
 
 -   @ErikaHallDesign
 
--   Questions
-
-    -   Where do you think consumers need the most help with?
-
-    -   How to help young people get started with investing?
-
-    -   How to assess the sustainability footprint of an asset
-
-    -   How much do you trust ESG?
-
-    -   What are some questions I should be asking but are not here?
-
-    -   What is you could see the real price (including externalizes)
-        next too the sales prices.
-
 -   online/offline ethnographic participant observation At this stage in
     the research, the central concept being studied is defined generally
     as user expectations for a sustainable investment app.
-
--   Targeted experts (fintech, design, eco activists):
-
--   Wise founders
-
--   Monese founders
-
--   Crypto founders
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   What are my hypotheses?
 
@@ -340,18 +317,10 @@ product data through that lens and vocabularys.
 
 -   Analyzing existing apps and user pain-points
 
--   Financial companies
-
--   Wise
-
--   Funderbeam
-
--   Calastone (has an office in Taipei)
-
 -   List of topics gleaned from literature review for discussion with
     the experts:
 
--   1\. Transparency and sources of ESG and similar data
+-   Transparency and sources of ESG and similar data
 
 -   I will test the prototype with potential users using an online
     choice experiment survey.

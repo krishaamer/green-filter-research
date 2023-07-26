@@ -43,7 +43,7 @@ import ResQClub from '../images/resq-club.png'
 -   @incGlanceAlexandriaRealTime
 -   @timnicolleFintechLendingWhose2017
 
-***Design Implications*:**
+#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications}
 
 -   App shows traceability.
 
@@ -179,7 +179,7 @@ Can data transparency provide tools for reducing cruelty.
 -   Precision Fermentation and Cultivated Meat: Meat products without
     farm animals
 
-***Design Implications*:**
+#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-1}
 
 -   Rank companies based on sustainability
 
@@ -216,7 +216,7 @@ Can data transparency provide tools for reducing cruelty.
 -   @HomeChainReact
 -   @SverigesDataportal Swedish open data portal
 
-***Design Implications*:**
+#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-2}
 
 -   Make open data easy to use in everyday life.
 
@@ -346,7 +346,9 @@ to design for meaningful interaction.
     @DURIEZ2022454 shows how simply by reducing material weight it’s
     possible to design more sustainable transportation.
 
-**Design Implications:** focus on specific industries.
+#### \*\*\*\*Design Implications:\*\*\*\* {#design-implications-3}
+
+-   Focus on specific industries.
 
 ### Construction {#construction}
 
