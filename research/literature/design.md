@@ -63,7 +63,7 @@ College Student Personas
 ***The Climate Action Simulation*** in educating users about **success
 scenarios**.
 
-#### *Design Implications:* {#design-implications}
+#### *Design Implications* {#design-implications}
 
 -   **Show Success Scenarios!**
 
@@ -146,13 +146,23 @@ scenarios**.
 
 ### Climate Anxiety {#climate-anxiety}
 
-@thompsonYoungPeopleClimate2021 finds young people have climate anxiety.
-@whitmarshClimateAnxietyWhat2022 shows climate anxiety is prevalent
-among young people and is a possible motivator for climate action.
+A large @hickmanClimateAnxietyChildren2021 worldwide study (n=10000,
+aged 16-25) provides evidence the youth is anxious about climate in
+Australia, Brazil, Finland, France, India, Nigeria, Philippines,
+Portugal, the UK, and the USA. Similarly,
+@thompsonYoungPeopleClimate2021 finds young people around the world have
+climate anxiety. @whitmarshClimateAnxietyWhat2022 shows worry about the
+climate in the UK is generally widespread (over 40% of the respondents,
+n=1332), while climate anxiety is highest among young people and is a
+possible motivator for climate action. Additionally,
 @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32
 countries and also supports the idea that climate anxiety leads to
-climate activism. @hickmanClimateAnxietyChildren2021 provides more
-evidence even children are anxious about climate.
+climate activism. @thibodeauThreeCompaniesClosing2022: “In 2021, the BBC
+polled 1,000 people in Scotland to understand the barriers to taking
+climate action. What they found was even though many people were aware
+of actions needed to take to address climate change, and had intentions
+to their behaviors didn’t change. This is a phenomenon called the
+intention-action gap.”
 
 -   Designing for Health and Sustainability: Health and sustainability
     are intrinsically connected. @kjaergardHealthSustainability2014
@@ -161,13 +171,6 @@ evidence even children are anxious about climate.
     understood as economic, social and environmental sustainability,
     while on the other hand sustainability creates and is conditioned by
     human health”*
-
--   @thibodeauThreeCompaniesClosing2022: “In 2021, the BBC polled 1,000
-    people in Scotland to understand the barriers to taking climate
-    action. What they found was even though many people were aware of
-    actions needed to take to address climate change, and had intentions
-    to their behaviors didn’t change. This is a phenomenon called the
-    intention-action gap.”
 
 -   Design for Human Rights @unfcccSharmElSheikhImplementation2023 text
     refers to “human right to a clean, healthy and sustainable
@@ -221,7 +224,7 @@ always going to be a small percentage of people.
 @costaHowFinnishCulture2018: Finnish socialists: minimalism. Tokyo
 @tokyosimpleecolifeWhatLearnedMy2021.
 
-#### *Design Implications:* {#design-implications-2}
+#### *Design Implications* {#design-implications-2}
 
 -   People exist in relation to other people.
 
@@ -254,7 +257,7 @@ always going to be a small percentage of people.
 
 -   Internet memes and meme stocks
 
--   Memes from daily life, bussiness to war, are relevant to penetrating
+-   Memes from daily life, business to war, are relevant to penetrating
     through the noise of the web.
 
 -   Memes and sustainability?
@@ -292,7 +295,7 @@ Types of design organized by use of data.
 There are many approaches to design but the majority share the common
 goal of designing for a good user experience.
 
-### Platforms & Superapps {#platforms-superapps}
+### Platform Economy {#platform-economy}
 
 The rise of the ***platform economy*** has created global marketplace
 companies like Airbnb and Uber that match idle resources with retail
@@ -332,7 +335,9 @@ products are greener, and which are more environmentally polluting?
     data is especially useful for credit-scoring young, low-wealth
     individuals.
 
-#### China and South-East Asia {#china-and-south-east-asia}
+### Superapps {#superapps}
+
+Superapps are more prevalent in China and South-East Asia.
 
 @giudice2020wechat argues WeChat has had a profound impact on changing
 China into a cashless society, underlining how one mobile app can
@@ -487,13 +492,13 @@ Use technology Wearables to be more aware of one’s health.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
-#### *Design Implications:* {#design-implications-3}
+#### *Design Implications* {#design-implications-3}
 
 -   What would that look like for sustainability?
 
 -   Empowering people to live a sustainable day
 
-### Interfaces {#interfaces}
+### User Interfaces {#user-interfaces}
 
 There’s a number of user interface design patterns that have provide
 successful across a range of social media apps. Such ***user experience
@@ -662,7 +667,7 @@ users depends on ***Data-Driven Design.***
 
 -   Stories start with a character.
 
-#### *Design Implications:* {#design-implications-5}
+#### *Design Implications* {#design-implications-5}
 
 -   Narrative design bring together film school **storytelling**
     experience with design.
@@ -767,10 +772,17 @@ Some notable examples:
 -   @SpaceApeGames game company going green
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-#### *Design Implications:* {#design-implications-6}
+#### *Design Implications* {#design-implications-6}
 
 -   What if there was a “Green Filter” on every product everywhere?
 -   Become a Sustainability-Aware App or Game.
+
+### Life-Centered Design {#life-centered-design}
+
+-   From Human-Centered to Life-Centered Design:
+    @borthwickHumancentredLifecentredDesign2022 proposes a framework for
+    life-centered design, “the design phase of a physical product
+    accounts for 80% of its environmental impact”
 
 ## Design for Sustainability {#design-for-sustainability}
 
@@ -811,7 +823,7 @@ For this to happen, some technological tools are helpful.
 
 Examples of human-in-the-loop apps
 
-#### *Design Implications:* {#design-implications-7}
+#### *Design Implications* {#design-implications-7}
 
 -   Guidance could help young people beat climate anxiety by taking
     meaningful action.

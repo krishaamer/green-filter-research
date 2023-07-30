@@ -261,6 +261,9 @@ AI. @pavlikCollaboratingChatGPTConsidering2023 and
 @kechtQuantifyingChatbotsAbility2023 suggests AI is even capable of
 learning business processes.
 
+-   @fuLearningConversationalAI2022 Learning towards conversational AI:
+    Survey
+
 ### Affective Computing {#affective-computing}
 
 Because of the conversational nature of LLMs, they are very useful for
@@ -782,6 +785,9 @@ water.
 -   @slackAturaProcess2021
 
 -   @brownHowFinancialChatbots2021 Financial chatbots
+
+-   hedonic user experience in chatbots
+    @haugelandUnderstandingUserExperience2022
 
 -   @isabellaghassemismithInterviewDanielBaeriswyl2019
 

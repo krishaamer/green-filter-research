@@ -37,6 +37,8 @@ shopping, produced by companies that make the products we consume.
 | 36-59   | 66%     |
 | Over 69 | 58%     |
 
+“Climate change is an emergency” @PeoplesClimateVote
+
 -   In @anthonyleiserowitzInternationalPublicOpinion2022, another large
     scale study on Meta’s Facebook (n=108946), “Respondents in Spain
     (65%), Sweden (61%), and Taiwan (60%) are the most likely to say
