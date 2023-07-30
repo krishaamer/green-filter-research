@@ -38,6 +38,9 @@ economics, Regenerative Capitalism, donut economics.
 -   @horwitzThereHoleMiddle2017 critics would say donut economics would
     expand the role of the government
 
+-   World Bank Changing the Wealth of Nations, comprehensive GDD+
+    metrics @worldbankChangingWealthNations2021
+
 -   @mazzucatoMissionEconomyMoonshot2021
 
 -   @krausmannResourceExtractionOutflows2018

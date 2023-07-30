@@ -192,6 +192,14 @@ of global food demand by 62% including impact of climate change.
 -   Finland, Iceland, New Zealand, Scotland, Wales, Canada
     https://weall.org/wego
 
+#### Business Inside Planetary Boundaries {#business-inside-planetary-boundaries}
+
+-   @debalieKateRaworthCreating2018
+
+-   @houdiniPlanetaryBoundariesAssessment2018
+
+-   @haeggmanPlanetaryBoundariesAnalysis2018
+
 #### Overconsumption {#overconsumption}
 
 -   Overconsumption is one of the root causes of climate change
@@ -583,6 +591,9 @@ energy brings benefits:
 
 -   The true cost of products is hidden. The work is hidden.
 
+-   Montreal protocol eradicates CfCs and te ozone holes became whole
+    again.
+
 -   @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry
     to grow even faster.
 
@@ -600,6 +611,13 @@ energy brings benefits:
 | Scope 3 | Value chain emissions          |
 
 From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022
+
+For example, for consumers in Australian states and territories in 2018,
+83% of the GHG emissions are Scope 3, meaning indirect emissions in the
+value chain @goodwinTargetingDegreesGlobal2023
+
+-   Mapping pollution sources in China
+    @xieEcologicalCivilizationChina2021
 
 #### Cap & Trade {#cap-trade}
 

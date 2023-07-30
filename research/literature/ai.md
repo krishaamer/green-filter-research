@@ -245,7 +245,11 @@ predictive text completion and answering questions. The APIs make
 state-of-the-art AI models easy to use without needing much technical
 knowledge. Teams at AI-hackathons have produced interfaces for problems
 as diverse as humanitarian crises communication, briefing generation,
-code-completion, and many others.
+code-completion, and many others. For instance,
+\[@unleashSebastianAi2017\] used BJ Fogg’s ***tiny habits model*** to
+develop a sustainability-focused AI assistant at the Danish hackathon
+series Unleash, to encourage behavioral changes towards maintaining an
+aspirational lifestyle, nudged by a chatbot buddy.
 
 ChatGPT makes it possible to ***evaluate AI models*** just by talking,
 i.e. having conversations with the machine and judging the output with
@@ -259,18 +263,25 @@ learning business processes.
 
 ### Affective Computing {#affective-computing}
 
--   @hiittvWojciechSzpankowskiEmerging2021 data from all the processes
-    around us will define the future of computing
-
-Rosalind Picard - @tedxtalksTechnologyEmotionsRoz2011 -
-@lexfridmanRosalindPicardAffective2019 -
-@hiittvRosalindPicardAdventures2021 - @bwhcnocRosalindPicard4th2023 -
-@singularityuniversityEngineeringEmotionAI2023
-
 Because of the conversational nature of LLMs, they are very useful for
 ***affective computing***, an approach to recognizing human emotions
 with machines and providing users experiences that take human emotion
 into account @picardAffectiveComputing1997.
+
+-   @hiittvWojciechSzpankowskiEmerging2021 data from all the processes
+    around us will define the future of computing
+
+Rosalind Picard
+
+-   @tedxtalksTechnologyEmotionsRoz2011
+
+-   @lexfridmanRosalindPicardAffective2019
+
+-   @hiittvRosalindPicardAdventures2021
+
+-   @bwhcnocRosalindPicard4th2023
+
+-   @singularityuniversityEngineeringEmotionAI2023
 
 Since the first mainframe computers with rudimentary computers able to
 respond with text messages, humans have been drawn to discussing their
@@ -284,13 +295,13 @@ model trained to be your companion in daily life.
 @jiangChatbotEmergencyExist2022 describes how Replika users in China
 using in 5 main ways, all of which rely on empathy.
 
-| Ways how humans express empathy towards an AI agent |
-|-----------------------------------------------------|
-| Companion buddy                                     |
-| Responsive diary                                    |
-| Emotion-handling program                            |
-| Electronic pet                                      |
-| Tool for venting                                    |
+| How humans express empathy towards an AI companion |
+|----------------------------------------------------|
+| Companion buddy                                    |
+| Responsive diary                                   |
+| Emotion-handling program                           |
+| Electronic pet                                     |
+| Tool for venting                                   |
 
 Replika AI users approach to interacting with the AI friend from
 @jiangChatbotEmergencyExist2022.
@@ -786,13 +797,6 @@ water.
 -   Already on the market are several financial robo-advisors, built by
     fintech companies, aiming to provide personalized suggestions for
     making investments (Betterment, Wealthfront).
-
--   There have also been attempts to create different types of
-    sustainability assistants. For instance, the AI assistant Sebastian
-    developed at the Danish hackathon series Unleash, used BJ Fogg’s
-    ’***tiny habits’*** model, nudged by a chatbot buddy to encourage
-    behavioral changes and help the human maintain an aspirational
-    lifestyle (@unleashSebastianAi2017).
 
 -   Personal carbon footprint calculators have been released online,
     ranging from those made by governments and companies to student
