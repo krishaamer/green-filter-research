@@ -193,7 +193,7 @@ questions from literature review).
 
     3.  Investing habits
 
-33. I a most concerned with (start with everyday questions)
+33. I’m most concerned with (start with everyday questions)
 
     1.  How to buy sustainable clothing
 
@@ -207,11 +207,23 @@ questions from literature review).
 
 35. What is the biggest picture of the economy you have seen?
 
+36. “I want to see my carbon offset with my own eyes”
+
+37. “I plan to buy carbon offsets”
+
+38. “I’m currently buying carbon offsets”
+
+39. “I plan to buy a car”
+
+40. Do you currently own any investments?
+
+41. What kind of investments.
+
 ## Product Features {#product-features}
 
 -   Your Green Helper
 
--   make some initial prototype? make youtube video… hi, you have
+-   Make some initial prototype? make youtube video… hi, you have
     reached? spread… through estban and others?
 
 -   Currently CO2 footprint calculators ask you a couple of questions

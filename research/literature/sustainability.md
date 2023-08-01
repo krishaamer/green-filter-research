@@ -33,6 +33,9 @@ The field is known today as *sustainable yield* of *natural capital*
 required to maintain *ecosystem services*
 \[@peterkareivaNaturalCapitalTheory2011\].
 
+Some argue sustainability is not enough and we should work on
+regeneration of natural habitats.
+
 Climate data visualization has a long history, starting with
 ***Alexander von Humboldt,*** a founder of climatology, who
 revolutionized cartography by inventing the first isothermal maps around
@@ -321,7 +324,11 @@ Germany, Norway and Sweden.
 -   Doughnut economics’ @bbcreelHowDutchAre2020
 
 -   Donut and Design Thinking both focus on sustainability and
-    human-centerdness
+    human-centeredness.
+
+### Earth System Law {#earth-system-law}
+
+-   @dutoitReimaginingInternationalEnvironmental2022
 
 #### Biodiversity {#biodiversity}
 
