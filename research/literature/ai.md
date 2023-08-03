@@ -101,13 +101,16 @@ human think because of our limitations
 ### Generative AI {#generative-ai}
 
 Foundational AI models have given birth to ***generative AI***, which is
-able to generate ***tokens,*** such as text, audio, video, in any
-language it’s trained on, but also complex structures such 3D models and
-even genomes. Generative AI brought a revolution in human-AI interaction
-as AI models became increasingly capable of producing human–like
-content. The advances in the capabilities of large AI model mean we’ve
-reached a point, where ***it’s possible to achieve a user experience
-(UX) which previously was science fiction***.
+able to generate ***tokens,*** such as text, speech, audio
+\[@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022\], and even
+music \[@copetSimpleControllableMusic2023;
+@metaaiAudioCraftSimpleOnestop2023\], video, in any language it’s
+trained on, but also complex structures such 3D models and even genomes.
+Generative AI brought a revolution in human-AI interaction as AI models
+became increasingly capable of producing human–like content. The
+advances in the capabilities of large AI model mean we’ve reached a
+point, where ***it’s possible to achieve a user experience (UX) which
+previously was science fiction***.
 
 @nobleFifthIndustrialRevolution2022 proposes AI has reached a stage,
 which begets the beginning of the ***5th industrial revolution*** which
@@ -130,21 +133,23 @@ explainability.*** Generative has a potential for misuse, as humans are
 increasingly confused by what is computer-generated and what is
 human-created, unable to distinguish one from the other with certainty.
 
-| AI Model | Released | Company      | License            |
-|----------|----------|--------------|--------------------|
-| GPT-1    | 2018     | OpenAI       | Open Source, MIT   |
-| GTP-2    | 2019     | OpenAI       | Open Source, MIT   |
-| T-NLG    | 2000     | Microsoft    |                    |
-| GTP-3    | 2020     | OpenAI       | @brown2020language |
-| GPT-3.5  | 2022     | OpenAI       | Proprietary        |
-| GTP-4    | 2023     | OpenAI       | Proprietary        |
-| NeMo     | 2022     | NVIDIA       |                    |
-| PaLM     | 2022     | Google       |                    |
-| LaMDA    | 2022     | Google       |                    |
-| GLaM     | 2022     | Google       |                    |
-| BLOOM    | 2022     | Hugging Face | Open Source        |
-| Vicuna   | 2023     | Sapling      | Open Source        |
-| Wu Dao 3 | 2023     | BAAI         | Open Source        |
+| AI Model | Released | Company                         | License            |
+|----------|----------|---------------------------------|--------------------|
+| GPT-1    | 2018     | OpenAI                          | Open Source, MIT   |
+| GTP-2    | 2019     | OpenAI                          | Open Source, MIT   |
+| T-NLG    | 2000     | Microsoft                       |                    |
+| GTP-3    | 2020     | OpenAI                          | @brown2020language |
+| GPT-3.5  | 2022     | OpenAI                          | Proprietary        |
+| GTP-4    | 2023     | OpenAI                          | Proprietary        |
+| NeMo     | 2022     | NVIDIA                          |                    |
+| PaLM     | 2022     | Google                          |                    |
+| LaMDA    | 2022     | Google                          |                    |
+| GLaM     | 2022     | Google                          |                    |
+| BLOOM    | 2022     | Hugging Face                    | Open Source        |
+| Falcon   | 2023     | Technology Innovation Institute | Open Source        |
+| Tongyi   | 2023     | Alibaba                         |                    |
+| Vicuna   | 2023     | Sapling                         | Open Source        |
+| Wu Dao 3 | 2023     | BAAI                            | Open Source        |
 
 From @tamkin2021 reports on the advance of LLMs.
 
@@ -611,15 +616,27 @@ GPT models, providing improved tools for decreasing the time and money
 spent on administrative paperwork while providing a support system for
 analyzing medical data.
 
+-   @daisywolfWhereWillAI2023 critizes US healthcare’s slow adpotion of
+    technology and predicts AI will help healthcare leapfrog into a new
+    era of productivity by acting more like a human assistant.
+
 -   @elizastricklandDrChatGPTWill2023
+
 -   @jeblickChatGPTMakesMedicine2022 suggest complicated radiology
     reports can be explained to patients using AI chatbots.
+
 -   @HealthPoweredAda health app, “Know and track your symptoms”
+
 -   @BuoyHealthCheck AI symptom checker,
+
 -   @womeninaiHowCanAI
+
 -   @HomeLarkHealth
+
 -   @stephaniedonaholeHowArtificialIntelligence2021
+
 -   @calistoIntroductionHumancentricAI2021
+
 -   @yuanSocialAnxietyModerator2022: “AI assistant advantages are
     important factors affecting the *utilitarian/hedonic* value
     perceived by users, which further influence user willingness to
@@ -671,6 +688,16 @@ we still playing?
 Should the AI play a human, animal, or robot? Anthropomorphism can have
 its drawbacks. @pilacinskiRobotEyesDon2023 reports humans were less
 likely to collaborate with red-eyed robots.
+
+The AI startups like Inworld and Character.AI have raised large rounds
+of funding to create characters, which can be plugged in into online
+worlds, and more importantly, remember key facts about the player, such
+as their likes and dislikes, to generate more natural-sounding
+dialoguues @wiggersInworldGenerativeAI2023
+
+-   @lenharoChatGPTGivesExtra2023 experimental study reports AI
+    productivity gains, DALL-E and ChatGPT are qualitatively better than
+    former automation systems.
 
 #### Human-like {#human-like}
 

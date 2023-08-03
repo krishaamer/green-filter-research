@@ -364,11 +364,13 @@ sustainability practices.
 ### Product Databases {#product-databases}
 
 -   Most sustainable companies. Make a database?
--   @StandardsMap: “The world’s largest database for sustainability
-    standards”, “We provide free, accessible, comprehensive, verified
-    and transparent information on over 300 standards for environmental
-    protection, worker and labor rights, economic development, quality
-    and food safety, as well as business ethics.”
+-   @internationaltradecentreStandardsMap2022 currently lists 334
+    different sustainability standards: “Towards a meaningful economy”
+    “The world’s largest database for sustainability standards”, “We
+    provide free, accessible, comprehensive, verified and transparent
+    information on over 300 standards for environmental protection,
+    worker and labor rights, economic development, quality and food
+    safety, as well as business ethics.”
 -   @SustainabilityIntelligenceFood
 -   @OpenFoodFacts app for nutrition and sustainability data
 -   @OpenProductData: Open Knowledge Foundation’s Open Product Data

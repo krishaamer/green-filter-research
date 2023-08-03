@@ -507,6 +507,13 @@ Large ones that get international news coverage:
 -   Sustainability is part of product quality. If a product is hurting
     the environment, it’s a low quality product.
 
+### Restoration Ecology {#restoration-ecology}
+
+-   Bioswales
+
+-   @fischerMakingDecadeEcosystem2021 UN announced 2021–2030 the Decade
+    on Ecosystem Restoration
+
 ### Digital Twins {#digital-twins}
 
 -   We can use all the data being recorded to provide a Digital Twin of
@@ -522,20 +529,21 @@ Large ones that get international news coverage:
 
 #### Emissions Trading Schemes {#emissions-trading-schemes}
 
--   There isn’t a single global CO2 trading market but rather several
-    local markets @InternationalCarbonMarket
+-   As of 2023 there isn’t a single global CO2 trading market but rather
+    several local markets as describe in the table below
+    @InternationalCarbonMarket. Most of the world is not part of a CO2
+    market.
 -   New Zealand @rontardPoliticalConstructionCarbon2022 (need access)
 -   EU: @araujoEuropeanUnionMembership2020
 
-| Place                                                                                                                                                                             | Launch Date |
+| Place                                                                                                                                                                              | Launch Date |
 |----------------------------------------------|--------------------------|
-| European Union                                                                                                                                                                    | 2005        |
-| South Korea                                                                                                                                                                       | 2015        |
-| China                                                                                                                                                                             |             |
-| United States (no country-wide market but local markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont) | 2013        |
-|                                                                                                                                                                                   |             |
-| New Zealand                                                                                                                                                                       | 2008        |
-| Canada                                                                                                                                                                            | 2013        |
+| European Union                                                                                                                                                                     | 2005        |
+| South Korea                                                                                                                                                                        | 2015        |
+| China                                                                                                                                                                              |             |
+| United States (no country-wide market; local CO2 markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont) | 2013        |
+| New Zealand                                                                                                                                                                        | 2008        |
+| Canada                                                                                                                                                                             | 2013        |
 
 -   \[@sipthorpeBlockchainSolutionsCarbon2022\] compares traditional and
     blockchain-based solutions to carbon trading.

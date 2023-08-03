@@ -59,6 +59,8 @@ meaningful predictive and generalizing power.
 
 College Student Personas
 
+-   @crabbRantTerriblePersonas2023
+
 @RooneyVargaClimateActionSimulation2019 shows the effectiveness of
 ***The Climate Action Simulation*** in educating users about **success
 scenarios**.
@@ -290,10 +292,16 @@ Arrange types of data on a linear axis base on my own judgment.
 
 Types of design organized by use of data.
 
-## **Design for Interaction** {#design-for-interaction}
+## **Interaction Design** {#interaction-design}
 
 There are many approaches to design but the majority share the common
 goal of designing for a good user experience.
+
+### AI UX Design {#ai-ux-design}
+
+-   Privacy UX @jarovskyYouAreProbably2022
+
+-   AI UX dark patterns @jarovskyDarkPatternsAI2022
 
 ### Platform Economy {#platform-economy}
 
