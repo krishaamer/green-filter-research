@@ -1,7 +1,7 @@
 ---
 title: Results
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 5
 editor:
     render-on-save: false

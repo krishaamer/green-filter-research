@@ -1,7 +1,7 @@
 ---
 title: Terminology
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 8
 editor:
     render-on-save: false

@@ -1,7 +1,7 @@
 ---
 title: Conclusion
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 7
 editor:
     render-on-save: false
