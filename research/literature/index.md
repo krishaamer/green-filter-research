@@ -1,24 +1,20 @@
 ---
 title: Literature Review
 bibliography: [../ref.bib]
-csl: ../apa.csl
+csl: ../chicago.csl
 sidebar_position: 3
 editor:
     render-on-save: false
 ---
 
-
-```mdx-code-block
+``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Literature from '/research/images/literature.png'
 ```
 
 ## Sources and Literature Map {#sources-and-literature-map}
 
-Given the goal of designing an app to integrate shopping, saving, and
-investing sustainably, the literature is quite broad. The literature
-review maps out relationships between sustainability and AI interaction
-design. The reviewed content consists of 3 main sources:
+Given the goal of designing an app to integrate shopping, saving, and investing sustainably, the literature is quite broad. The literature review maps out relationships between sustainability and AI interaction design. The reviewed content consists of 3 main sources:
 
 -   Scientific papers (largely from ScienceDirect) related to:
 
@@ -26,13 +22,11 @@ design. The reviewed content consists of 3 main sources:
 
 -   Sustaimable investing, savings, circular economy
 
--   UX/UI, service design, sustainable design, speculative design,
-    interaction design
+-   UX/UI, service design, sustainable design, speculative design, interaction design
 
 -   Generation-Z demographics, behavior change, nudge
 
--   Review of Mobile apps (Apple iOS / Google Android) and web app
-    related to:
+-   Review of Mobile apps (Apple iOS / Google Android) and web app related to:
 
 -   Sustainable shopping apps, savings, and investing
 
@@ -40,14 +34,12 @@ design. The reviewed content consists of 3 main sources:
 
 -   EU legislation
 
-In order to keep track more easily, each literature review section
-includes **design implications** in context.
+In order to keep track more easily, each literature review section includes **design implications** in context.
 
 The goal of the literature review is to find ideas of app features.
 
-```mdx-code-block
+``` mdx-code-block
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```
 
 ## References {#references}
-

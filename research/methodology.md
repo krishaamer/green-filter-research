@@ -1,14 +1,13 @@
 ---
 title: Methodology
 bibliography: [ref.bib]
-csl: apa.csl
+csl: chicago.csl
 sidebar_position: 4
 editor:
     render-on-save: true
 ---
 
-
-```mdx-code-block
+``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Concepts from './images/concept-map.png'
 import Methodology from './images/research-methodology.png'
@@ -16,16 +15,13 @@ import Methodology from './images/research-methodology.png'
 
 # Methodology {#methodology}
 
-Start with expert survey, then expert interviews (because so many
-questions from literature review).
+Start with expert survey, then expert interviews (because so many questions from literature review).
 
 ### Experts (Economy) {#experts-economy}
 
 -   QUESTIONS for EXPERTS (Likert 1-10)
-    -   Consumption habits have a material impact on environmental
-        issues
-    -   Investment decisions have a material impact on environmental
-        issues
+    -   Consumption habits have a material impact on environmental issues
+    -   Investment decisions have a material impact on environmental issues
 -   There are planetary boundaries
 -   Where do you need sustainability advice?
 -   Growing the economy is needed
@@ -37,8 +33,7 @@ questions from literature review).
 -   How to assess the sustainability footprint of an asset
 -   How much do you trust ESG?
 -   What are some questions I should be asking but are not here?
--   What is you could see the real price (including externalizes) next
-    too the sales prices.
+-   What is you could see the real price (including externalizes) next too the sales prices.
 -   Targeted experts (fintech, design, eco activists):
 -   Wise founders
 -   Monese founders
@@ -71,11 +66,9 @@ questions from literature review).
 
 2.  include some personality quiz in the survey?
 
-3.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest
-    kasu pole?
+3.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
 
-4.  What are some things you do to achieve sustainability in your daily
-    life?
+4.  What are some things you do to achieve sustainability in your daily life?
 
 5.  What is your relationship like with money?
 
@@ -91,8 +84,7 @@ questions from literature review).
 
 11. What is your investment thesis?
 
-12. If you want to invest 5 minutes every day in sustainability, how
-    will you do it?
+12. If you want to invest 5 minutes every day in sustainability, how will you do it?
 
 13. How would you rate your knowledge on sustainability?
 
@@ -108,13 +100,11 @@ questions from literature review).
 
 19. How do you feel about this statement (Likert)
 
-    1.  Investing in sustainability has a meaningful impact on
-        sustainability
+    1.  Investing in sustainability has a meaningful impact on sustainability
     2.  It’s easy to assess the sustainability of an investment
     3.  I consider sustainability when investing
 
-20. If we all acted more like investors instead of consumers, the world
-    would be a better place.
+20. If we all acted more like investors instead of consumers, the world would be a better place.
 
 21. How would your describe your relationship with sustainability?
 
@@ -128,8 +118,7 @@ questions from literature review).
 
 26. Donut Economy is a good idea
 
-27. How much time per day are you willing to spend on sustainability per
-    day?
+27. How much time per day are you willing to spend on sustainability per day?
 
     -   Less than 2 minutes
 
@@ -223,13 +212,9 @@ questions from literature review).
 
 -   Your Green Helper
 
--   Make some initial prototype? make youtube video… hi, you have
-    reached? spread… through estban and others?
+-   Make some initial prototype? make youtube video… hi, you have reached? spread… through estban and others?
 
--   Currently CO2 footprint calculators ask you a couple of questions
-    and give a ballpark estimate. Does it make sense to track
-    sustainability on a more nuanced level, like Apple Health, in order
-    to encourage sustainable behavior?
+-   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
 | Product Idea         | Source            |                                                                                | Prototype Link                             |
 |------------------|------------------|------------------|-------------------|
@@ -242,55 +227,42 @@ questions from literature review).
 
 ## Affinity Diagrams {#affinity-diagrams}
 
--   Affinity diagrams help users organize ideas by brainstorming,
-    sorting and labeling to cluster related
-    information\[@karaperniceAffinityDiagrammingCollaboratively2018 ;
-    @quignardUXAnalysisPhase2022\]
+-   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information(Kara Pernice 2018 ; Quignard 2022)
 
 ## Factorial Surveys {#factorial-surveys}
 
--   @li2022assessing: “Factorial surveys is a research method that
-    combines classical experiments with survey methodologies. Factorial
-    surveys use short narratives, called vignettes, to represent various
-    levels of independent variables that are too complex or unethical to
-    create and manipulate in real-world or lab situations”
+-   Li et al. (2022): “Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations”
 
 ## Research Through Design {#research-through-design}
 
 -   Design research books
--   @koskinenDesignResearchPractice2011
--   @riesLeanStartupHow2011
+-   Koskinen (2011)
+-   Ries (2011)
 -   Design Studies Journal
 
-Research through design as a method for interaction design research in
-HCI
+Research through design as a method for interaction design research in HCI
 
--   @zimmermanResearchDesignMethod2007
+-   Zimmerman, Forlizzi, and Evenson (2007)
 
--   @salovaaraHowDefineResearch2020 defining a research question
+-   Salovaara (2020) defining a research question
 
--   @nunnallyUXResearchPractical2016
+-   Nunnally and Farkas (2016)
 
 interview people at google who made the green filter options
 
 -   Design artefacts
 
--   “design’s) nature as a”problem-solving” science”, Oulasvirta and
-    Hornbæk, 2016
+-   “design’s) nature as a”problem-solving” science”, Oulasvirta and Hornbæk, 2016
 
--   my contribution is the design artefact, “HCI researchers also make
-    constructive contributions by developing new technologies and
-    design”
+-   my contribution is the design artefact, “HCI researchers also make constructive contributions by developing new technologies and design”
 
--   @affairsCardSorting2013 Card sorting
+-   Affairs (2013) Card sorting
 
--   @HowModelsWork
+-   “How Models Work” (n.d.)
 
 -   Behavirour kit:
 
-Take the metrics from the several frameworks and display them on the
-product and company level? People can choose their own framework and see
-product data through that lens and vocabularies.
+Take the metrics from the several frameworks and display them on the product and company level? People can choose their own framework and see product data through that lens and vocabularies.
 
 | Col1                    | Col2           | Col3 |
 |-------------------------|----------------|------|
@@ -300,28 +272,25 @@ product data through that lens and vocabularies.
 | ESG                     |                |      |
 | B Corp                  |                |      |
 
--   “research for design”. design research is about expanding
-    opportunities and exploration
+-   “research for design”. design research is about expanding opportunities and exploration
 
--   @ranywayzResearchDesign2016
+-   RanYwayZ (2016)
 
--   @mehmetaydinbaytasKindsDesignResearch2020
+-   Mehmet Aydın Baytaş (2020)
 
--   @047WordCreative
+-   “047:: The "R Word" in Creative Tech” (n.d.)
 
--   @KindsDesignResearch
+-   “(5) 3 Kinds of Design Research: Research for / into / Through Design - YouTube” (n.d.)
 
--   @QualitativeVsQuantitative
+-   “(5) Qualitative Vs. Quantitative UX Research - YouTube” (n.d.)
 
--   @WhenUseWhich
+-   “(5) When to Use Which UX Research Method - YouTube” (n.d.)
 
--   @GreatUXResearch
+-   “(5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube” (n.d.)
 
--   @ErikaHallDesign
+-   “(5) Erika Hall: Design Research Done Right - YouTube” (n.d.)
 
--   online/offline ethnographic participant observation At this stage in
-    the research, the central concept being studied is defined generally
-    as user expectations for a sustainable investment app.
+-   online/offline ethnographic participant observation At this stage in the research, the central concept being studied is defined generally as user expectations for a sustainable investment app.
 
 -   What are my hypotheses?
 
@@ -331,26 +300,15 @@ product data through that lens and vocabularies.
 
 -   Analyzing existing apps and user pain-points
 
--   List of topics gleaned from literature review for discussion with
-    the experts:
+-   List of topics gleaned from literature review for discussion with the experts:
 
 -   Transparency and sources of ESG and similar data
 
--   I will test the prototype with potential users using an online
-    choice experiment survey.
+-   I will test the prototype with potential users using an online choice experiment survey.
 
--   Research Process In terms of literature review, academic inquiry in
-    social sciences largely follows phenomena, while the issues and
-    technologies discussed here are emergent. Not many studies exist yet
-    (they might in a few years), which is why some of my references are
-    to company press releases and news stories, or for public companies,
-    their advisory for investors.
+-   Research Process In terms of literature review, academic inquiry in social sciences largely follows phenomena, while the issues and technologies discussed here are emergent. Not many studies exist yet (they might in a few years), which is why some of my references are to company press releases and news stories, or for public companies, their advisory for investors.
 
--   Target potential retail investors aged 20-29, all genders, in
-    countries with highly developed financial markets and active social
-    campaigns demanding sustainability (Sweden). And Taiwan. In general,
-    the Taiwanese culture is savings oriented: I’m in a good location
-    for financial user experience research.
+-   Target potential retail investors aged 20-29, all genders, in countries with highly developed financial markets and active social campaigns demanding sustainability (Sweden). And Taiwan. In general, the Taiwanese culture is savings oriented: I’m in a good location for financial user experience research.
 
 -   Set your target goals
 
@@ -362,56 +320,23 @@ product data through that lens and vocabularies.
 
 ## Research Design {#research-design}
 
--   @christianrohrerWhenUseWhich2022: Research methods
+-   Christian Rohrer (2022): Research methods
 
 **The research design of this study consists of 3 steps.**
 
--   Qualitative research targeted at financial and interaction design
-    experts, leading to a *wish list* of features.
--   Survey potential users’ preferences, including a choice experiment
-    of the proposed features.
--   Design a prototype of the personal sustainable finance AI assistant,
-    tested using qualitative methods in a focus group.
--   This mixed-method research design is divided into three stages
-    (fig. 11).
--   My purpose for the first qualitative stage is to explore the general
-    themes arising from the literature review related to the design of
-    AI advisors for investing. I will identify specific user experience
-    factors, through interviewing experts in financial technology and
-    user experience design and reviewing existing applications on the
-    marketplace. At this stage in the research, the central concept
-    being studied is defined generally as expectations towards a
-    sustainable investment AI advisor.
--   I will then proceed to the second, quantitative stage, informed by
-    the previously identified factors, and prepare a survey, including a
-    Likert scale, and a choice experiment, focusing on the preferences
-    of the potential users aged 18-35, living in Sweden and Taiwan (see
-    fig. 12 on next page), exploring the relationship between
-    independent variables: - “Interest in Sustainability” - “Interest in
-    Investing” - “Preferred Features” - and the dependent variable “User
-    Sign-ups”.
--   In the third stage, I will return to the qualitative methods, by
-    building a prototype of the sustainable investing AI companion,
-    taking into account insights gathered in the previous stage. I will
-    use a focus group to discuss the prototype, and conduct a thematic
-    analysis of the discussions’ recordings, leading to further
-    validation of previously gathered data and possible changes in the
-    prototype. The gained insights, accompanied by the app prototype,
-    which embodies my findings, will be the final outcome of my
-    research.
+-   Qualitative research targeted at financial and interaction design experts, leading to a *wish list* of features.
+-   Survey potential users’ preferences, including a choice experiment of the proposed features.
+-   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
+-   This mixed-method research design is divided into three stages (fig. 11).
+-   My purpose for the first qualitative stage is to explore the general themes arising from the literature review related to the design of AI advisors for investing. I will identify specific user experience factors, through interviewing experts in financial technology and user experience design and reviewing existing applications on the marketplace. At this stage in the research, the central concept being studied is defined generally as expectations towards a sustainable investment AI advisor.
+-   I will then proceed to the second, quantitative stage, informed by the previously identified factors, and prepare a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users aged 18-35, living in Sweden and Taiwan (see fig. 12 on next page), exploring the relationship between independent variables: - “Interest in Sustainability” - “Interest in Investing” - “Preferred Features” - and the dependent variable “User Sign-ups”.
+-   In the third stage, I will return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will use a focus group to discuss the prototype, and conduct a thematic analysis of the discussions’ recordings, leading to further validation of previously gathered data and possible changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, will be the final outcome of my research.
 
 ## Conceptual Framework {#conceptual-framework}
 
--   The conceptual framework map (fig. 13) presents the key concepts
-    arising from the literature review thus far in the research process.
-    I’m using these concepts when developing interview strategies for
-    phase one of the research, developing the survey questionnaire for
-    phase two, as well as for building the Personal Sustainable AI
-    Financial Advisor (PSAA) for young adults at the final stage of the
-    process. However, I expect the conceptual framework to further
-    evolve with additional findings while conducting my research.
+-   The conceptual framework map (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I’m using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
 
-```mdx-code-block
+``` mdx-code-block
 <Figure caption="Figure 13 - Concept map" src={Concepts} />
 ```
 
@@ -419,75 +344,78 @@ product data through that lens and vocabularies.
 
 ### Phase One - Qualitative Research {#phase-one---qualitative-research}
 
-The qualitative research methods employed in the first stage of the
-research design enables me to explore concepts arising for literature
-review further, using a more open approach, without limiting the
-conversation only to pre-ascribed notions. The strength of the
-qualitative approach in the first stage is to encourage the discovery of
-new ideas, not yet common in literature and potential user experience
-factors related to sustainable investing and user experience.
+The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
 
 #### Sampling {#sampling}
 
-My qualitative sampling structure uses non-probability snowball
-sampling, with the following criteria: financial industry, fintech, and
-design experts everywhere, including in Taiwan and Sweden, but also
-Estonia, Portugal, and elsewhere.
+My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts everywhere, including in Taiwan and Sweden, but also Estonia, Portugal, and elsewhere.
 
 **Method:** Semi-Structured Interviews
 
-I will conduct exploratory research in English using semi-structured
-interviews recorded online and offline.
+I will conduct exploratory research in English using semi-structured interviews recorded online and offline.
 
 ### Phase Two - Quantitative Research {#phase-two---quantitative-research}
 
-The strength of quantitative research is to enable me to access a larger
-sample of potential users in two countries, using online survey methods,
-and to validate some of the qualitative findings from stage one.
+The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
 
-**Sampling** My quantitative sampling structure uses a judgmental
-criterion: age 18-35, located in Sweden or Taiwan, surveyed using an
-English-language online survey.
+**Sampling** My quantitative sampling structure uses a judgmental criterion: age 18-35, located in Sweden or Taiwan, surveyed using an English-language online survey.
 
-**Method:** Likert The survey includes a Likert scale between 1 to 7 to
-validate key findings from the first stage of the research by assessing
-responses to statements regarding the app’s design, features, and other
-criteria that may still emerge.
+**Method:** Likert The survey includes a Likert scale between 1 to 7 to validate key findings from the first stage of the research by assessing responses to statements regarding the app’s design, features, and other criteria that may still emerge.
 
-**Method:** Choice Experiment The survey includes a choice experiment
-between different sets of potential features available when
-communicating with the sustainable finance AI companion.
+**Method:** Choice Experiment The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
 
 ### Phase Three - Qualitative Research {#phase-three---qualitative-research}
 
-In the last phase, I will return to the qualitative methods to further
-validate the quantitative findings from stage two. Here my focus will be
-on operationalizing the gathered insights into a prototype that users
-can experiment with and discuss with their peers in a focus group
-setting. Sampling
+In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. Sampling
 
-The phase three sampling structure uses a judgmental criterion: - age
-18-35 - located in Taiwan - Using the English language for discussion
+The phase three sampling structure uses a judgmental criterion: - age 18-35 - located in Taiwan - Using the English language for discussion
 
-A focus group of 6 to 10 people will be gathered in Tainan. Because
-in-person presence is required in this stage, the prototype will only be
-tested by potential users physically present in Taiwan. To avoid
-convenience sampling, I will post online ads in English to invite people
-who I don’t know personally, to participate in a “financial AI
-application testing group” (wording may change).
+A focus group of 6 to 10 people will be gathered in Tainan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I will post online ads in English to invite people who I don’t know personally, to participate in a “financial AI application testing group” (wording may change).
 
-**Method:** Focus Group The strength of a focus group is the ability to
-observe potential users in a social setting, where knowledge can be
-exchanged between the participants. The whole experience, including
-emerging conversations, will be recorded and transcribed.
+**Method:** Focus Group The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
 
-**Method:** Thematic Analysis Finally, I will perform a thematic
-analysis of the focus group transcriptions in order to validate previous
-findings, and open avenues for future research.
+**Method:** Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
 
-```mdx-code-block
+``` mdx-code-block
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
 
-## References {#references}
+## References {#references .unnumbered}
 
+“047:: The "R Word" in Creative Tech.” n.d. Accessed June 27, 2023.
+
+“(5) 3 Kinds of Design Research: Research for / into / Through Design - YouTube.” n.d. https://www.youtube.com/watch?v=7niJ2a6HTBo. Accessed June 27, 2023.
+
+“(5) Erika Hall: Design Research Done Right - YouTube.” n.d. https://www.youtube.com/watch?v=Mv7d7ir3b60. Accessed June 27, 2023.
+
+“(5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube.” n.d. https://www.youtube.com/watch?v=Wkhjyytsl8E. Accessed June 27, 2023.
+
+“(5) Qualitative Vs. Quantitative UX Research - YouTube.” n.d. https://www.youtube.com/watch?v=LmWPygSxMms. Accessed June 27, 2023.
+
+“(5) When to Use Which UX Research Method - YouTube.” n.d. https://www.youtube.com/watch?v=OtUWbsvCujM. Accessed June 27, 2023.
+
+Affairs, Assistant Secretary for Public. 2013. “Card Sorting.” https://www.usability.gov/how-to-and-tools/methods/card-sorting.html; Department of Health and Human Services.
+
+Christian Rohrer. 2022. “When to Use Which User-Experience Research Methods.” *Nielsen Norman Group*. https://www.nngroup.com/articles/which-ux-research-methods/.
+
+“How Models Work.” n.d. https://kaggle.com/code/dansbecker/how-models-work. Accessed June 27, 2023.
+
+Kara Pernice. 2018. “Affinity Diagramming: Collaboratively Sort UX Findings & Design Ideas.” https://www.nngroup.com/articles/affinity-diagram/.
+
+Koskinen, Ilpo Kalevi, ed. 2011. *Design Research Through Practice: From the Lab, Field, and Showroom*. Waltham, MA: Morgan Kaufmann/Elsevier.
+
+Li, Tianyi, Mihaela Vorvoreanu, Derek DeBellis, and Saleema Amershi. 2022. “Assessing Human-AI Interaction Early Through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction.” *ACM Transactions on Computer-Human Interaction*, April.
+
+Mehmet Aydın Baytaş. 2020. “3 Kinds of Design Research: Research for / into / Through Design.”
+
+Nunnally, Brad, and David Farkas. 2016. *UX Research: Practical Techniques for Designing Better Products*. First edition. Beijing: O’Reilly.
+
+Quignard, Gisell. 2022. “UX Analysis: Phase Five/ Affinity Diagram from Previous Qualitative Research Data.” *Medium*. https://bootcamp.uxdesign.cc/ux-analysis-phase-five-affinity-diagram-from-previous-research-data-a073609938a2.
+
+RanYwayZ. 2016. “Research Design.”
+
+Ries, Eric. 2011. *The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. 1st ed. New York: Crown Business.
+
+Salovaara, Antti. 2020. “How to Define a Research Question or a Design Problem \| Writing about Design.”
+
+Zimmerman, John, Jodi Forlizzi, and Shelley Evenson. 2007. “Research Through Design as a Method for Interaction Design Research in HCI.” In *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 493–502. San Jose California USA: ACM. <https://doi.org/10.1145/1240624.1240704>.
