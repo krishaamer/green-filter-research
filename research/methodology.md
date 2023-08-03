@@ -4,7 +4,7 @@ bibliography: [ref.bib]
 csl: chicago.csl
 sidebar_position: 4
 editor:
-    render-on-save: true
+    render-on-save: false
 ---
 
 ``` mdx-code-block

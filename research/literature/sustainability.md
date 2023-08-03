@@ -23,6 +23,8 @@ Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
+-   Svalbard Seed Vault
+
 The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al. 2011).
 
 Some argue sustainability is not enough and we should work on regeneration of natural habitats.
