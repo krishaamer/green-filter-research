@@ -1,7 +1,7 @@
 ---
 title: Discussion
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 6
 editor:
     render-on-save: false
@@ -44,4 +44,4 @@ Introduce this concept
 
 -   The Manor (2022)
 
-The Manor. 2022. “Sustainability Is Not a Sacrifice - The Manor.” *The Manor*. https://scadmanor.com/sustainability-is-not-a-sacrifice/.
+The Manor (2022). Sustainability is Not a Sacrifice - The Manor. *The Manor*.

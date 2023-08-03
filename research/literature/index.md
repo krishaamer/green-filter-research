@@ -1,7 +1,7 @@
 ---
 title: Literature Review
 bibliography: [../ref.bib]
-csl: ../chicago.csl
+csl: ../harvard.csl
 sidebar_position: 3
 editor:
     render-on-save: false

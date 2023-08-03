@@ -1,7 +1,7 @@
 ---
 title: Introduction
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 2
 editor:
     render-on-save: false
@@ -23,7 +23,7 @@ import CO2 from "./images/co2-concentration.png";
 
 Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation, Material Economics (2019) models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
--   A survey of 1.2 million people by United Nations showing the percentage of people agreeing climate change is an **emergency** “The Peoples’ Climate Vote \| United Nations Development Programme” (n.d.)
+-   A survey of 1.2 million people by United Nations showing the percentage of people agreeing climate change is an **emergency** Anon. (n.d.a)
 
 | Age     | Percent |
 |---------|---------|
@@ -31,7 +31,7 @@ Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Fou
 | 36-59   | 66%     |
 | Over 69 | 58%     |
 
-“Climate change is an emergency” “The Peoples’ Climate Vote \| United Nations Development Programme” (n.d.)
+“Climate change is an emergency” Anon. (n.d.a)
 
 -   In Anthony Leiserowitz et al. (2022), another large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
 
@@ -56,9 +56,9 @@ This data allows apps to provide tips how to improve health outcomes through sma
 
 What would be a good interface to track sustainability?
 
-“Mapping the Gap: The Road from Paris” (2016) The global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The Rockefeller Foundation (2022) estimates the financing gap to be 2.5-3.2 Trillion USD in 2022. “Mobilizing Capital Into Emerging Markets and Developing Economies” (2022) The lack of funding especially affects emerging economies.
+Anon. (2016) The global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The Rockefeller Foundation (2022) estimates the financing gap to be 2.5-3.2 Trillion USD in 2022. Anon. (2022a) The lack of funding especially affects emerging economies.
 
-The theme for Earth Day 2023 was “Invest In Our Planet”. “Earth Day 2023 - Earth Day” (n.d.)
+The theme for Earth Day 2023 was “Invest In Our Planet”. Anon. (n.d.b)
 
 Institute (2023) As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing.
 
@@ -72,13 +72,13 @@ Timeline of the Policy Context:
 
 -   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
 
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (European Commission (2019b); European Commission (2019a); “EU Reaches Agreement on National Emission Reductions” (2022); European Council (2022)).
+-   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (European Commission (2019a); European Commission (2019b); Anon. (2022b); European Council (2022)).
 
 -   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in European Commission (2022). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria.
 
 ### European Green Deal {#european-green-deal}
 
--   “A European Green Deal” (2021)
+-   Anon. (2021)
 -   Switch2Green (2023)
 
 It’s up to legislators to provide sustainable products on our marketplace… but until we do, use the green filter.
@@ -281,68 +281,68 @@ Survey respondents:
 
 ## References {#references .unnumbered}
 
-“A European Green Deal.” 2021. https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en.
+Anon. (2016). Mapping the Gap: The Road from Paris. *BloombergNEF*.
 
-Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider, and Kelsey Mulcahy. 2022. “International Public Opinion on Climate Change 2022.” Yale Program on Climate Change Communication.
+Anon. (2021). A European Green Deal.
 
-BankMyCell. 2022. “How Many People Have Smartphones Worldwide.” https://www.bankmycell.com/blog/how-many-phones-are-in-the-world.
+Anon. (2022b). EU reaches agreement on national emission reductions.
 
-Branka Vuleta. 2023. “Generation Z Statistics.” *99firms*. https://99firms.com/blog/generation-z-statistics.
+Anon. (2022a). Mobilizing Capital Into Emerging Markets and Developing Economies. *BloombergNEF*.
 
-Calastone. 2020. “Millennials and Investing: A Detailed Look at Approaches and Attitudes Across the Globe.”
+Anon. (n.d.b). Earth Day 2023 - Earth Day.
 
-Commission, European, Directorate-General for Energy, Directorate-General for Enterprise, and Industry. 2014. *Ecodesign Your Future : How Ecodesign Can Help the Environment by Making Products Smarter*. European Commission. <https://doi.org/doi/10.2769/38512>.
+Anon. (n.d.a). The Peoples’ Climate Vote \| United Nations Development Programme. *UNDP*.
 
-Deutsche Welle. 2019. “Fridays for Future Global Climate Strike.” https://www.dw.com/en/fridays-for-future-global-climate-strike-live-updates/a-50505537.
+Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider and Kelsey Mulcahy (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
 
-Deyan Georgiev. 2023. “39+ Smartphone Statistics You Should Know in 2023.”
+BankMyCell (2022). How Many People Have Smartphones Worldwide.
 
-Dimock, Michael. 2019. “Defining Generations: Where Millennials End and Generation Z Begins.” *Pew Research Center*.
+Branka Vuleta (2023). Generation Z Statistics. *99firms*.
 
-“Earth Day 2023 - Earth Day.” n.d. https://www.earthday.org/earth-day-2023/. Accessed June 28, 2023.
+Calastone (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
 
-Ellen MacArthur Foundation, Material Economics. 2019. “Completing the Picture: How the Circular Economy Tackles Climate Change.” https://circulareconomy.europa.eu/platform/en/knowledge/completing-picture-how-circular-economy-tackles-climate-change.
+Commission, European, Energy, Directorate-General for, Enterprise, Directorate-General for and Industry (2014). *[Ecodesign your future : How ecodesign can help the environment by making products smarter](https://doi.org/doi/10.2769/38512)*. European Commission.
 
-“EU Reaches Agreement on National Emission Reductions.” 2022. https://ec.europa.eu/commission/presscorner/detail/en/ip_22_6724.
+Deutsche Welle (2019). Fridays for Future global climate strike.
 
-European Commission. 2019a. “A Sustainable Europe by 2030.” https://ec.europa.eu/info/publications/reflection-paper-towards-sustainable-europe-2030_en.
+Deyan Georgiev (2023). *39+ Smartphone Statistics You Should Know in 2023*.
 
-———. 2019b. “The European Green Deal.”
+Dimock, Michael (2019). Defining generations: Where Millennials end and Generation Z begins. *Pew Research Center*.
 
-———. 2022. “Circular Economy Action Plan: For a Cleaner and More Competitive Europe.”
+Ellen MacArthur Foundation, Material Economics (2019). Completing the picture: How the circular economy tackles climate change.
 
-European Council. 2022. “Fit for 55 - The EU’s Plan for a Green Transition.” https://www.consilium.europa.eu/en/policies/green-deal/fit-for-55-the-eu-plan-for-a-green-transition/.
+European Commission (2019a). The European Green Deal.
 
-Global Web Index. 2017. “98% of Gen Z Own a Smartphone.” https://blog.gwi.com/chart-of-the-day/98-percent-of-gen-z-own-a-smartphone/.
+European Commission (2019b). A Sustainable Europe by 2030.
 
-Gupta, Alisha Haridasani. 2020. “An ‘Electrifying’ Economist’s Guide to the Recovery.” *The New York Times*, November.
+European Commission (2022). *Circular Economy Action Plan: For a cleaner and more competitive Europe*.
 
-Iman Ghosh. 2020. “Mapped: Where Are the World’s Most Sustainable Companies?” https://www.visualcapitalist.com/most-sustainable-companies/.
+European Council (2022). Fit for 55 - The EU’s plan for a green transition.
 
-Institute, Energy. 2023. “Energy System Struggles in Face of Geopolitical and Environmental Crises.” *Energy Institute*. https://www.energyinst.org/exploring-energy/resources/news-centre/media-releases/ei-statistical-review-of-world-energy-energy-system-struggles-in-face-of-geopolitical-and-environmental-crises.
+Global Web Index (2017). 98% of Gen Z Own a Smartphone.
 
-Keeling, Ralph F, and Charles D. Keeling. 2017. “Atmospheric Monthly In Situ CO2 Data - Mauna Loa Observatory, Hawaii. In Scripps CO2 Program Data.” UC San Diego Library Digital Collections. <https://doi.org/10.6075/J08W3BHW>.
+Gupta, Alisha Haridasani (2020). An “Electrifying” Economist’s Guide to the Recovery. *The New York Times*.
 
-Lamoureux, Emie-Claude. 2018. “Notable Sustainable Companies in Florida.” *L’Autre Couleur*.
+Iman Ghosh (2020). Mapped: Where Are the World’s Most Sustainable Companies?
 
-“Mapping the Gap: The Road from Paris.” 2016. *BloombergNEF*.
+Institute, Energy (2023). Energy system struggles in face of geopolitical and environmental crises. *Energy Institute*.
 
-MICHAEL HOULIHAN, and BONNIE HARVEY. 2018. “It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur.” https://www.entrepreneur.com/growing-a-business/its-official-customers-prefer-sustainable-companies/324001.
+Keeling, Ralph F. and Keeling, Charles D. (2017). [Atmospheric Monthly In Situ CO2 Data - Mauna Loa Observatory, Hawaii. In Scripps CO2 Program Data](https://doi.org/10.6075/J08W3BHW).
 
-“Mobilizing Capital Into Emerging Markets and Developing Economies.” 2022. *BloombergNEF*.
+Lamoureux, Emie-Claude (2018). Notable Sustainable Companies in Florida. *L’Autre Couleur*.
 
-Persson, Linn, Bethanie M. Carney Almroth, Christopher D. Collins, Sarah Cornell, Cynthia A. de Wit, Miriam L. Diamond, Peter Fantke, et al. 2022. “Outside the Safe Operating Space of the Planetary Boundary for Novel Entities.” *Environ. Sci. Technol.* 56 (3): 1510–21. <https://doi.org/10.1021/acs.est.1c04158>.
+MICHAEL HOULIHAN and BONNIE HARVEY (2018). It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur.
 
-Rajagopalan, Sanjay, and Philip J. Landrigan. 2023. “The Inflation Reduction Act Implications for Climate Change, Air Pollution, and Health.” *The Lancet Regional Health - Americas* 23 (July): 100522. <https://doi.org/10.1016/j.lana.2023.100522>.
+Persson, Linn, Carney Almroth, Bethanie M., Collins, Christopher D., Cornell, Sarah, de Wit, Cynthia A., Diamond, Miriam L., Fantke, Peter, Hassellöv, Martin, MacLeod, Matthew, Ryberg, Morten W., Søgaard Jørgensen, Peter, Villarrubia-Gómez, Patricia, Wang, Zhanyun and Hauschild, Michael Zwicky (2022). Outside the Safe Operating Space of the Planetary Boundary for Novel Entities. *Environ. Sci. Technol.*, 56(3), p. 1510–1521, doi:[10.1021/acs.est.1c04158](https://doi.org/10.1021/acs.est.1c04158).
 
-Rubino, Mauro, David Etheridge, David Thornton, Colin Allison, Roger Francey, Ray Langenfelds, Paul Steele, et al. 2019. “Law Dome Ice Core 2000-Year CO2, CH4, N2O and <span class="nocase">d13C-CO2</span>.” CSIRO. <https://doi.org/10.25919/5BFE29FF807FB>.
+Rajagopalan, Sanjay and Landrigan, Philip J. (2023). The Inflation Reduction Act implications for climate change, air pollution, and health. *The Lancet Regional Health - Americas*, 23, p. 100522, doi:[10.1016/j.lana.2023.100522](https://doi.org/10.1016/j.lana.2023.100522).
 
-Switch2Green. 2023. “The EU Green Deal a Roadmap to Sustainable Economies.” https://www.switchtogreen.eu/the-eu-green-deal-promoting-a-green-notable-circular-economy/.
+Rubino, Mauro, Etheridge, David, Thornton, David, Allison, Colin, Francey, Roger, Langenfelds, Ray, Steele, Paul, Trudinger, Cathy, Spencer, Darren, Curran, Mark, Van Ommen, Tas and Smith, Andrew (2019). [Law Dome Ice Core 2000-Year CO2, CH4, N2O and <span class="nocase">d13C-CO2</span>](https://doi.org/10.25919/5BFE29FF807FB).
 
-“The Peoples’ Climate Vote \| United Nations Development Programme.” n.d. *UNDP*. https://www.undp.org/publications/peoples-climate-vote. Accessed June 28, 2023.
+Switch2Green (2023). The EU Green Deal a roadmap to sustainable economies.
 
-The Rockefeller Foundation. 2022. “What Gets Measured Gets Financed.”
+The Rockefeller Foundation (2022). *What Gets Measured Gets Financed*.
 
-Time. 2019. “Greta Thunberg: TIME’s Person of the Year 2019.” https://time.com/person-of-the-year-2019-greta-thunberg/.
+Time (2019). Greta Thunberg: TIME’s Person of the Year 2019.
 
-YPulse. 2020. “Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020.” https://www.ypulse.com/article/2020/01/09/millennials-gen-z-teens-combined-spending-power-is-nearly-3-trillion-in-2020/.
+YPulse (2020). Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020.

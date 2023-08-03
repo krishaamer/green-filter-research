@@ -21,7 +21,9 @@ import Runaround from '../images/runaround.png'
 
 ### History of AI {#history-of-ai}
 
-In the 90 years since (McCulloch and Pitts, 1943) proposed the first mathematical model of a neural network inspired by the human brain, followed by Alan Turing’s Test for Machine Intelligence in 1950, Artificial Intelligence (AI) has developed from an academic concept into a mainstream reality, affecting our lives daily, even when we don’t notice it. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? Turing (1950).
+It’s been 90 years since (McCulloch and Pitts, 1943) proposed the first mathematical model of a neural network inspired by the human brain, followed by Alan Turing’s Test for Machine Intelligence in 1950. Artificial Intelligence (AI) has developed from an academic concept into a mainstream reality, affecting our daily lives, even when we don’t notice it - AI is everywhere.
+
+Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? Turing (1950).
 
 > Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* - from (Stanford Encyclopedia of Philosophy, 2021)
 
@@ -108,7 +110,7 @@ Because of the conversational nature of LLMs, they are very useful for ***affect
 
 Rosalind Picard
 
--   (**tedxtalksTechnologyEmotionsRoz2011?**)
+-   TEDx Talks (2011)
 
 -   Lex Fridman (2019)
 
@@ -485,8 +487,6 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 ### How is AI Changing Interactions? {#how-is-ai-changing-interactions}
 
--   (**stone.skipperHowAIChanging2022?**)
-
 -   The International Ergonomics Association (2019): To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being”.
 
 -   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
@@ -817,6 +817,8 @@ Tamkin, Alex, Brundage, Miles, Clark, Jack and Ganguli, Deep (2021). [Understand
 Tang, Jerry, LeBel, Amanda, Jain, Shailee and Huth, Alexander G. (2022). *[Semantic reconstruction of continuous language from non-invasive brain recordings](https://doi.org/10.1101/2022.09.29.509744)*. Neuroscience. Preprint.
 
 Tash Keuneman (2022). We love to hate Clippy but what if Clippy was right? *UX Collective*.
+
+TEDx Talks (2011). Technology and Emotions \| Roz Picard \| TEDxSF.
 
 The International Ergonomics Association (2019). Human Factors/Ergonomics (HF/E).
 

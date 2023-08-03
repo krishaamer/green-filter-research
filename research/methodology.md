@@ -1,7 +1,7 @@
 ---
 title: Methodology
 bibliography: [ref.bib]
-csl: chicago.csl
+csl: harvard.csl
 sidebar_position: 4
 editor:
     render-on-save: false
@@ -227,7 +227,7 @@ Start with expert survey, then expert interviews (because so many questions from
 
 ## Affinity Diagrams {#affinity-diagrams}
 
--   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information(Kara Pernice 2018 ; Quignard 2022)
+-   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information(Kara Pernice, 2018 ; Quignard, 2022)
 
 ## Factorial Surveys {#factorial-surveys}
 
@@ -242,7 +242,7 @@ Start with expert survey, then expert interviews (because so many questions from
 
 Research through design as a method for interaction design research in HCI
 
--   Zimmerman, Forlizzi, and Evenson (2007)
+-   Zimmerman, Forlizzi and Evenson (2007)
 
 -   Salovaara (2020) defining a research question
 
@@ -258,7 +258,7 @@ interview people at google who made the green filter options
 
 -   Affairs (2013) Card sorting
 
--   “How Models Work” (n.d.)
+-   Anon. (n.d.a)
 
 -   Behavirour kit:
 
@@ -278,17 +278,17 @@ Take the metrics from the several frameworks and display them on the product and
 
 -   Mehmet Aydın Baytaş (2020)
 
--   “047:: The "R Word" in Creative Tech” (n.d.)
+-   Anon. (n.d.b)
 
--   “(5) 3 Kinds of Design Research: Research for / into / Through Design - YouTube” (n.d.)
+-   Anon. (n.d.c)
 
--   “(5) Qualitative Vs. Quantitative UX Research - YouTube” (n.d.)
+-   Anon. (n.d.d)
 
--   “(5) When to Use Which UX Research Method - YouTube” (n.d.)
+-   Anon. (n.d.e)
 
--   “(5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube” (n.d.)
+-   Anon. (n.d.f)
 
--   “(5) Erika Hall: Design Research Done Right - YouTube” (n.d.)
+-   Anon. (n.d.g)
 
 -   online/offline ethnographic participant observation At this stage in the research, the central concept being studied is defined generally as user expectations for a sustainable investment app.
 
@@ -382,40 +382,40 @@ A focus group of 6 to 10 people will be gathered in Tainan. Because in-person pr
 
 ## References {#references .unnumbered}
 
-“047:: The "R Word" in Creative Tech.” n.d. Accessed June 27, 2023.
+Affairs, Assistant Secretary for Public (2013). Card Sorting.
 
-“(5) 3 Kinds of Design Research: Research for / into / Through Design - YouTube.” n.d. https://www.youtube.com/watch?v=7niJ2a6HTBo. Accessed June 27, 2023.
+Anon. (n.d.b). 047:: The "R word" in Creative Tech.
 
-“(5) Erika Hall: Design Research Done Right - YouTube.” n.d. https://www.youtube.com/watch?v=Mv7d7ir3b60. Accessed June 27, 2023.
+Anon. (n.d.g). (5) Erika Hall: Design Research Done Right - YouTube.
 
-“(5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube.” n.d. https://www.youtube.com/watch?v=Wkhjyytsl8E. Accessed June 27, 2023.
+Anon. (n.d.f). (5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube.
 
-“(5) Qualitative Vs. Quantitative UX Research - YouTube.” n.d. https://www.youtube.com/watch?v=LmWPygSxMms. Accessed June 27, 2023.
+Anon. (n.d.a). How Models Work.
 
-“(5) When to Use Which UX Research Method - YouTube.” n.d. https://www.youtube.com/watch?v=OtUWbsvCujM. Accessed June 27, 2023.
+Anon. (n.d.c). (5) 3 Kinds of Design Research: Research for / into / through Design - YouTube.
 
-Affairs, Assistant Secretary for Public. 2013. “Card Sorting.” https://www.usability.gov/how-to-and-tools/methods/card-sorting.html; Department of Health and Human Services.
+Anon. (n.d.d). (5) Qualitative vs. Quantitative UX Research - YouTube.
 
-Christian Rohrer. 2022. “When to Use Which User-Experience Research Methods.” *Nielsen Norman Group*. https://www.nngroup.com/articles/which-ux-research-methods/.
+Anon. (n.d.e). (5) When to Use Which UX Research Method - YouTube.
 
-“How Models Work.” n.d. https://kaggle.com/code/dansbecker/how-models-work. Accessed June 27, 2023.
+Christian Rohrer (2022). When to Use Which User-Experience Research Methods. *Nielsen Norman Group*.
 
-Kara Pernice. 2018. “Affinity Diagramming: Collaboratively Sort UX Findings & Design Ideas.” https://www.nngroup.com/articles/affinity-diagram/.
+Kara Pernice (2018). Affinity Diagramming: Collaboratively Sort UX Findings & Design Ideas.
 
-Koskinen, Ilpo Kalevi, ed. 2011. *Design Research Through Practice: From the Lab, Field, and Showroom*. Waltham, MA: Morgan Kaufmann/Elsevier.
+Koskinen, Ilpo Kalevi ed. (2011). *Design research through practice: From the lab, field, and showroom*. Waltham, MA: Morgan Kaufmann/Elsevier.
 
-Li, Tianyi, Mihaela Vorvoreanu, Derek DeBellis, and Saleema Amershi. 2022. “Assessing Human-AI Interaction Early Through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction.” *ACM Transactions on Computer-Human Interaction*, April.
+Li, Tianyi, Vorvoreanu, Mihaela, DeBellis, Derek and Amershi, Saleema (2022). Assessing human-AI interaction early through factorial surveys: A study on the guidelines for human-AI interaction. *ACM Transactions on Computer-Human Interaction*.
 
-Mehmet Aydın Baytaş. 2020. “3 Kinds of Design Research: Research for / into / Through Design.”
+Mehmet Aydın Baytaş (2020). 3 Kinds of Design Research: Research for / into / through Design.
 
-Nunnally, Brad, and David Farkas. 2016. *UX Research: Practical Techniques for Designing Better Products*. First edition. Beijing: O’Reilly.
+Nunnally, Brad and Farkas, David (2016). *UX research: Practical techniques for designing better products*. First edition. Beijing: O’Reilly.
 
-Quignard, Gisell. 2022. “UX Analysis: Phase Five/ Affinity Diagram from Previous Qualitative Research Data.” *Medium*. https://bootcamp.uxdesign.cc/ux-analysis-phase-five-affinity-diagram-from-previous-research-data-a073609938a2.
+Quignard, Gisell (2022). UX Analysis: Phase Five/ Affinity Diagram from previous qualitative research data. *Medium*.
 
-RanYwayZ. 2016. “Research Design.”
+RanYwayZ (2016). Research Design.
 
-Ries, Eric. 2011. *The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. 1st ed. New York: Crown Business.
+Ries, Eric (2011). *The lean startup: How today’s entrepreneurs use continuous innovation to create radically successful businesses*. 1st ed. New York: Crown Business.
 
-Salovaara, Antti. 2020. “How to Define a Research Question or a Design Problem \| Writing about Design.”
+Salovaara, Antti (2020). How to define a research question or a design problem \| Writing about Design.
 
-Zimmerman, John, Jodi Forlizzi, and Shelley Evenson. 2007. “Research Through Design as a Method for Interaction Design Research in HCI.” In *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 493–502. San Jose California USA: ACM. <https://doi.org/10.1145/1240624.1240704>.
+Zimmerman, John, Forlizzi, Jodi and Evenson, Shelley (2007). [Research through design as a method for interaction design research in HCI](https://doi.org/10.1145/1240624.1240704). In: *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*. San Jose California USA: ACM, p. 493–502.

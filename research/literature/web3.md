@@ -1,7 +1,7 @@
 ---
 title: Web3
 bibliography: [../ref.bib]
-csl: ../chicago.csl
+csl: ../harvard.csl
 sidebar_position: 5
 editor:
     render-on-save: false
@@ -18,10 +18,10 @@ import ResQClub from '../images/resq-club.png'
 
 ## Provenance & Traceability {#provenance-traceability}
 
--   “Reality Labs Research at Meta Connect 2022” (2022)
+-   Anon. (2022a)
 -   Katie Gustafson (2022) proposes a **“Uniform traceability system for the entire supply chain”** for seafood
 -   Muñoz et al. (2023) Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned.
--   “Real Time ESG Tracking From StockSnips” (2021) “Real Time ESG Tracking From StockSnips”
+-   Anon. (2021a) “Real Time ESG Tracking From StockSnips”
 -   Mamede et al. (2022) proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 -   Waters (2015) **(Need access!)**
 -   Cawthorn and Hoffman (2016) **(Need access!)**
@@ -83,14 +83,14 @@ Blockchain supply chain companies as of summer 2023 include.
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
-    -   “Worker Voice” (2022) Worker Voice apps.
+    -   Anon. (2022b) Worker Voice apps.
     -   Tim Nicolle (2021) and PrimaDollar Media (2021) PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
--   Matthew Gore, Alessio Sbraga, and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
+-   Matthew Gore, Alessio Sbraga and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
 -   Sepandar Kamvar (2022) “A blockchain is a database without a database admin”
 -   Verra (2023) Verra new Methodology Announcement Webinar
 -   Eisenstein?: “Money is a technology”.
 -   Eisenstein (2011): 5 things, UBI, demurrage, …
--   “Blockchain Companies Team Up To Track ESG Data” (2021)
+-   Anon. (2021b)
 -   Ganu (2021)
 -   Improve product ***provenance***, blockchains offer this transparency
 
@@ -102,7 +102,7 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   Ethereum (2023)
 
--   Caldarelli, Rossignoli, and Zardini (2020) notes it’s a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
+-   Caldarelli, Rossignoli and Zardini (2020) notes it’s a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
 
 -   Brady Dale (2021) and Chainlink (2022): The largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy.
 
@@ -132,12 +132,12 @@ Can data transparency provide tools for reducing cruelty.
 
 -   When will Bolt show CO2 emissions per every trip?
 -   Sustainable finance data platform:
--   How CO2 is shown by Google starts hiding emissions? “Google ’Airbrushes’ Out Emissions from Flying, BBC Reveals” (2022)
+-   How CO2 is shown by Google starts hiding emissions? Anon. (2022c)
 -   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 -   Justine Calma (Oct 6, 2021, 10:01 AM GMT+3) *Google UX eco features*
 -   Google VERY IMPORTANTT Google (2021)
--   “Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental” (2021) Google green routes
--   Wizzair Check carbon impact “Offset Your Flight with WIZZ” (n.d.)
+-   Anon. (2021c) Google green routes
+-   Wizzair Check carbon impact Anon. (n.d.a)
 -   WikiRate (2021) WikiRate defines 7 Data Sharing Archetypes
 
 | Type                                 | Example                                      |
@@ -152,9 +152,9 @@ Can data transparency provide tools for reducing cruelty.
 
 -   WikiRate is a tool for checking green credentials Transparency
 -   Laureen van Breen et al. (2023)
--   Wikirate (2022b)
--   “Home - ChainReact” (n.d.)
--   “Sveriges Dataportal” (n.d.) Swedish open data portal
+-   Wikirate (2022a)
+-   Anon. (n.d.b)
+-   Anon. (n.d.c) Swedish open data portal
 
 #### *Design Implications:* {#design-implications-2}
 
@@ -187,13 +187,13 @@ Ivanova et al. (2020) shows the average per capita carbon footprint of North Ame
 
 #### Carbon Labels {#carbon-labels}
 
-Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). Cohen and Vandenbergh (2012) argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)). There is some indication consumers are willing to pay a small premium for low-CO2 products (Xu and Lin (2022)). All else being equal, consumers choose the option with a lower CO2 number (Carlsson, Kataria, and Lampi (2022)). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
+Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). Cohen and Vandenbergh (2012) argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (Zhou et al. (2019)). There is some indication consumers are willing to pay a small premium for low-CO2 products (Xu and Lin (2022)). All else being equal, consumers choose the option with a lower CO2 number (Carlsson, Kataria and Lampi (2022)). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
 
 There’s some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study Lohmann et al. (2022) of UK university students, however the impact of carbon labels on the market share of low-carbon meals is negligible. Labels alone are not enough. underlines Edenbrandt and Lagerkvist (2022) in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programs. Asioli et al. (2022) found differences between countries, where Spanish and British consumers chose meat products with *‘No antibiotics ever’* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products.
 
 Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* provide carbon labeling on their products. ClimatePartner (2020): Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. The Carbon Trust (n.d.): The Carbon Trust reports it’s certified 27 thousand product footprints.
 
--   Digitalisation “Digital Receipts and Customer Loyalty in One Platform \| ReceiptHero” (n.d.) Digital Receipts to be able to track your carbon footprint
+-   Digitalisation Anon. (n.d.d) Digital Receipts to be able to track your carbon footprint
 
 -   Ivanova et al. (2020) “establish consumption options with a high mitigation potential measured in tons of CO2 equivalent per capita per year.”
 
@@ -205,19 +205,19 @@ Brian Kateman (2020): Carbon labeling is voluntary and practiced by only a handf
 
 It’s a further development of the idea of carbon labels.
 
--   Nissinen, Seppälä, and Heinonen (2022) reports The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data. Carbon labels are needed for green transformation.
+-   Nissinen, Seppälä and Heinonen (2022) reports The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data. Carbon labels are needed for green transformation.
 
 -   Reich et al. (2023) “Information gaps are identified as one of the major obstacles to realizing a circular economy.”
 
 -   Jensen et al. (2023) “support decision-making throughout product life cycles in favor of a circular economy.”
 
--   King, Timms, and Mountney (2023) “influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle.”x m
+-   King, Timms and Mountney (2023) “influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle.”x m
 
 -   Berger, Rusch, et al. (2023) “support Sustainable Product Management by gathering and containing product life cycle data. However, some life cycle data are considered sensitive by stakeholders, leading to a reluctance to share such data.”
 
 -   Plociennik et al. (2022) “Digital Lifecycle Passport (DLCP) hosted on a cloud platform and can be accessed by producers, users, recyclers”
 
--   Berger, Baumgartner, Weinzerl, Bachler, and Schöggl (2023) challenges with Electric Vehicle Batterys. Berger, Baumgartner, Weinzerl, Bachler, Preston, et al. (2023) proposes Digital Battery Passports
+-   Berger, Baumgartner, Weinzerl, Bachler and Schöggl (2023) challenges with Electric Vehicle Batterys. Berger, Baumgartner, Weinzerl, Bachler, Preston, et al. (2023) proposes Digital Battery Passports
 
 -   Van Capelleveen et al. (2023) literature overview
 
@@ -225,9 +225,9 @@ It’s a further development of the idea of carbon labels.
 
 ## Antifragile Passport {#antifragile-passport}
 
--   (**gitcoinpassport2023?**) How to build an antifragile scoring system.
+-   Gitcoin Passport Sybil Defense. Made Simple. \[@gitcoinpassport\] (2023) How to build an antifragile scoring system.
 
--   (**talebAntifragileThingsThat2012?**) antifragile systems that get better in difficult situations
+-   Taleb (2012) antifragile systems that get better in difficult situations
 
 ## Industry Cases {#industry-cases}
 
@@ -249,9 +249,9 @@ Conversations about sustainability are too general and one needs to look at the 
 
 Sustainable Fashion, Textile Design
 
-“Young Consumers’ (Complicated) Love For Fast Fashion In 3 Stats” (n.d.): Young people are the largest consumers of fast fashion. In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
+Anon. (n.d.e): Young people are the largest consumers of fast fashion. In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
 
--   Millward-Hopkins, Purnell, and Baurley (2023) shows how half of the textile waste in the UK is exported to other countries.
+-   Millward-Hopkins, Purnell and Baurley (2023) shows how half of the textile waste in the UK is exported to other countries.
 
 -   Story of Patagonia Chouinard (2005)
 
@@ -259,7 +259,7 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   US EPA (2016) GHG emission inventory by sector
 
--   **Problem**: Emily Chan (2022c) report says there’s not enough transparency in fashion:
+-   **Problem**: Emily Chan (2022a) report says there’s not enough transparency in fashion:
 
 -   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: Adamkiewicz et al. (2022)
 
@@ -267,33 +267,33 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Köhler et al. (2021): Globally 87% of textile products are burned or landfilled after 1st consumer use.
 
--   Marrucci, Marchi, and Daddi (2020) Italian retail supermarkets carbon footprint?
+-   Marrucci, Marchi and Daddi (2020) Italian retail supermarkets carbon footprint?
 
 -   Leung and Luximon (2021) There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design.
 
--   Emily Chan (2022a) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
+-   Emily Chan (2022b) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
 
--   Wikirate (2022a): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
+-   Wikirate (2022b): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
 
--   Mabuza, Sonnenberg, and Marx-Pienaar (2023) shows consumer knowledge of apparel coloration is very limited.
+-   Mabuza, Sonnenberg and Marx-Pienaar (2023) shows consumer knowledge of apparel coloration is very limited.
 
 -   Gyabaah et al. (2023) research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
 
 -   imperfectidealist (2020) Fashion sustainability vs greenwashing
 
--   “Transparency and Sustainability Platform - Renoon” (2023) Ethical Shopping
+-   Anon. (2023a) Ethical Shopping
 
--   “Sheep Inc. - Softcore Radicals” (2023) Ethical brand?
+-   Anon. (2023b) Ethical brand?
 
 -   Good On You (2023) Sustainable fashion company evaluations
 
--   “Lily \| Mindful + Active Living on Instagram: ‘Yesterday, the Garment Worker Protection Act (SB62) Was Signed into Law by Governor Newsom in California. Garment Workers in LA Make an…’” (n.d.) Garment Worker’s rights
+-   Anon. (n.d.f) Garment Worker’s rights
 
--   Emily Chan (2022b): fashion companies can’t be held accountable for their actions (or indeed, their lack of action).
+-   Emily Chan (2022c): fashion companies can’t be held accountable for their actions (or indeed, their lack of action).
 
 -   WikiRate (2023)
 
--   “Instant Gratification for Collective Awareness and Sustainable Consumerism” (2022): “Political consumerism”, “Instant Gratification for Collective Awareness and Sustainable Consumerism”
+-   Anon. (2022d): “Political consumerism”, “Instant Gratification for Collective Awareness and Sustainable Consumerism”
 
 -   FashionChecker (2023)
 
@@ -303,19 +303,19 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Fashion Revolution Foundation (2022) Fashion transparency index
 
--   “Clean Clothes Campaign” (n.d.)
+-   Anon. (n.d.g)
 
 -   “The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples.”
 
--   “Textile Genesis” (n.d.)
+-   Anon. (n.d.h)
 
 -   “Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
 
 -   Stand.earth (2023)
 
--   “New Standard Institute” (n.d.)
+-   Anon. (n.d.i)
 
--   “BGMEA \| Home” (n.d.) Bangladesh Garment Manufacturers and Exporters Association
+-   Anon. (n.d.j) Bangladesh Garment Manufacturers and Exporters Association
 
 -   ERR (2022) European Commission wants to reduce the impact of fast fashion on EU market.
 
@@ -335,13 +335,13 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Cleantech Group (2023) Global cleantech 100
 
--   “SOJO - Door-to-Door Clothing Alterations and Repairs” (2023) Alterations and repairs made easy
+-   Anon. (2023c) Alterations and repairs made easy
 
--   “Good On You - Sustainable and Ethical Fashion Brand Ratings” (2023) Ethical brand ratings
+-   Anon. (2023d) Ethical brand ratings
 
 ### Food {#food}
 
--   (Santos et al. 2023): complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health. The same is true for cocoa beans, which are at risk from food fraud (Fanning et al. 2023).
+-   (Santos et al., 2023): complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health. The same is true for cocoa beans, which are at risk from food fraud (Fanning et al., 2023).
 -   Nabipour Afrouzi et al. (2023): “The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission.”
 -   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
 -   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
@@ -393,276 +393,280 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 # References {#references}
 
-Adam Corner. 2012. “Why We Need to Move Forward on Carbon Labelling.” *The Guardian*, January.
+Adam Corner (2012). Why we need to move forward on carbon labelling. *The Guardian*.
 
-Adamkiewicz, Julia, Ewa Kochańska, Iwona Adamkiewicz, and Rafał M. Łukasik. 2022. “Greenwashing and Sustainable Fashion Industry.” *Current Opinion in Green and Sustainable Chemistry* 38 (December): 100710. <https://doi.org/10.1016/j.cogsc.2022.100710>.
+Adamkiewicz, Julia, Kochańska, Ewa, Adamkiewicz, Iwona and Łukasik, Rafał M. (2022). Greenwashing and sustainable fashion industry. *Current Opinion in Green and Sustainable Chemistry*, 38, p. 100710, doi:[10.1016/j.cogsc.2022.100710](https://doi.org/10.1016/j.cogsc.2022.100710).
 
-Akshat Rathi. 2021. “Chris Sacca Returns With \$800 Million in Venture Capital for Climate Tech - Bloomberg.” https://www.bloomberg.com/news/articles/2021-08-12/chris-sacca-returns-with-800-million-in-venture-capital-for-climate-tech#xj4y7vzkg.
+Akshat Rathi (2021). Chris Sacca Returns With \$800 Million in Venture Capital for Climate Tech - Bloomberg.
 
-Ashraf, Mateen, and Cathal Heavey. 2023. “A Prototype of Supply Chain Traceability Using Solana as Blockchain and IoT.” *Procedia Computer Science* 217: 948–59. <https://doi.org/10.1016/j.procs.2022.12.292>.
+Anon. (2021b). Blockchain Companies Team Up To Track ESG Data. *JPT*.
 
-Asioli, Daniele, Joaquìn Fuentes-Pila, Silverio Alarcón, Jia Han, Jingjing Liu, Jean-Francois Hocquette, and Rodolfo M. Nayga. 2022. “Consumers’ Valuation of Cultured Beef Burger: A Multi-Country Investigation Using Choice Experiments.” *Food Policy* 112 (October): 102376. <https://doi.org/10.1016/j.foodpol.2022.102376>.
+Anon. (2021c). Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental. *ELMUNDO*.
 
-Bailey, Jennifer L., and Sigrid Sandve Eggereide. 2020. “Mapping Actors and Arguments in the Norwegian Aquaculture Debate.” *Marine Policy* 115 (May): 103898. <https://doi.org/10.1016/j.marpol.2020.103898>.
+Anon. (2021a). Real Time ESG Tracking From StockSnips.
 
-Berger, Katharina, Rupert J. Baumgartner, Martin Weinzerl, Johann Bachler, Kees Preston, and Josef-Peter Schöggl. 2023. “Data Requirements and Availabilities for a Digital Battery Passport A Value Chain Actor Perspective.” *Cleaner Production Letters* 4 (June): 100032. <https://doi.org/10.1016/j.clpl.2023.100032>.
+Anon. (2022c). Google ’airbrushes’ out emissions from flying, BBC reveals. *BBC News*.
 
-Berger, Katharina, Rupert J. Baumgartner, Martin Weinzerl, Johann Bachler, and Josef-Peter Schöggl. 2023. “Factors of Digital Product Passport Adoption to Enable Circular Information Flows Along the Battery Value Chain.” *Procedia CIRP* 116: 528–33. <https://doi.org/10.1016/j.procir.2023.02.089>.
+Anon. (2022d). Instant Gratification for Collective Awareness and Sustainable Consumerism.
 
-Berger, Katharina, Magdalena Rusch, Antonia Pohlmann, Martin Popowicz, Bernhard C. Geiger, Heimo Gursch, Josef-Peter Schöggl, and Rupert J. Baumgartner. 2023. “Confidentiality-Preserving Data Exchange to Enable Sustainable Product Management via Digital Product Passports - a Conceptualization.” *Procedia CIRP* 116: 354–59. <https://doi.org/10.1016/j.procir.2023.02.060>.
+Anon. (2022a). Reality Labs Research at Meta Connect 2022. *Tech at Meta*.
 
-“BGMEA \| Home.” n.d. https://www.bgmea.com.bd/. Accessed June 26, 2023.
+Anon. (2022b). Worker Voice. *ES3G*.
 
-“Blockchain Companies Team Up To Track ESG Data.” 2021. *JPT*. https://jpt.spe.org/blockchain-companies-team-up-to-track-esg-data.
+Anon. (2023d). Good On You - Sustainable and Ethical Fashion Brand Ratings. *Good On You*.
 
-Brady Dale. 2021. “Chainlink’s Founder Says DeFi and Oracles Can Help Fight Climate Change.”
+Anon. (2023b). Sheep Inc. - Softcore Radicals. *Sheep Inc*.
 
-Brian Kateman. 2020. “Carbon Labels Are Finally Coming To The Food And Beverage Industry.” *Forbes*. https://www.forbes.com/sites/briankateman/2020/07/20/carbon-labels-are-finally-coming-to-the-food-and-beverage-industry/?sh=3fbe47b37c03.
+Anon. (2023c). SOJO - door-to-door clothing alterations and repairs.
 
-CAITLIN STALL-PAQUET. 2021. “Fresh from the City: The Rise of Urban Farming.” https://canadiangeographic.ca/articles/fresh-from-the-city-the-rise-of-urban-farming/.
+Anon. (2023a). Transparency and sustainability platform - Renoon. *Transparency and sustainability platform - Renoon*.
 
-Caldarelli, Giulio, Cecilia Rossignoli, and Alessandro Zardini. 2020. “Overcoming the Blockchain Oracle Problem in the Traceability of Non-Fungible Products.” *Sustainability* 12 (6): 2391. <https://doi.org/10.3390/su12062391>.
+Anon. (n.d.j). BGMEA \| Home.
 
-Caravan Studios. 2022. “Strengthen Your Worker Welfare Programme.” *Workerconnect*. https://www.workerconnect.org.
+Anon. (n.d.g). Clean Clothes Campaign. *Clean Clothes Campaign*.
 
-Carlsson, Fredrik, Mitesh Kataria, and Elina Lampi. 2022. “Sustainable Food: Can Information from Food Labels Make Consumers Switch to Meat Substitutes?” *Ecological Economics* 201 (November): 107567. <https://doi.org/10.1016/j.ecolecon.2022.107567>.
+Anon. (n.d.d). Digital receipts and customer loyalty in one platform \| ReceiptHero.
 
-Carto. 2023. “Climate Resilience, the Geography of NYC Taxis & Photorealistic 3D Maps.” https://www.linkedin.com/pulse/climate-resilience-geography-nyc-taxis-photorealistic-3d-maps-carto/.
+Anon. (n.d.b). Home - ChainReact.
 
-Catherine Shu. 2023. “Southeast Asia Farm-to-Table Startup Secai Marche Raises Series A.” *TechCrunch*.
+Anon. (n.d.f). Lily \| mindful + active living on Instagram: “Yesterday, the Garment Worker Protection Act (SB62) was signed into law by Governor Newsom in California. Garment workers in LA make an….”
 
-Cawthorn, Donna-Mareè, and Louwrens C. Hoffman. 2016. “Controversial Cuisine: A Global Account of the Demand, Supply and Acceptance of ‘Unconventional’ and ‘Exotic’ Meats.” *Meat Science* 120 (October): 19–36. <https://doi.org/10.1016/j.meatsci.2016.04.017>.
+Anon. (n.d.i). New Standard Institute. *New Standard Institute*.
 
-Centobelli, Piera, Stefano Abbate, Simon Peter Nadeem, and Jose Arturo Garza-Reyes. 2022. “Slowing the Fast Fashion Industry: An All-Round Perspective.” *Current Opinion in Green and Sustainable Chemistry* 38 (December): 100684. <https://doi.org/10.1016/j.cogsc.2022.100684>.
+Anon. (n.d.a). Offset your flight with WIZZ.
 
-Chainlink. 2022. “New Report: Blockchains and Oracles Are Redefining the Energy Industry.” *Chainlink Blog*.
+Anon. (n.d.c). Sveriges dataportal. *Sveriges Dataportal*.
 
-Chouinard, Yvon. 2005. *Let My People Go Surfing: The Education of a Reluctant Businessman*. New York: Penguin Press.
+Anon. (n.d.h). Textile Genesis.
 
-“Clean Clothes Campaign.” n.d. Page. *Clean Clothes Campaign*. https://cleanclothes.org/front-page. Accessed June 26, 2023.
+Anon. (n.d.e). Young Consumers’ (Complicated) Love For Fast Fashion In 3 Stats. *YPulse*.
 
-Cleantech Group. 2023. “Global Cleantech 100.”
+Ashraf, Mateen and Heavey, Cathal (2023). A Prototype of Supply Chain Traceability using Solana as blockchain and IoT. *Procedia Computer Science*, 217, p. 948–959, doi:[10.1016/j.procs.2022.12.292](https://doi.org/10.1016/j.procs.2022.12.292).
 
-ClimatePartner. 2020. “Labelling the Carbon Footprint of Food and Consumer Goods.” https://www.climatepartner.com/en/news/labelling-consumer-goods.
+Asioli, Daniele, Fuentes-Pila, Joaquìn, Alarcón, Silverio, Han, Jia, Liu, Jingjing, Hocquette, Jean-Francois and Nayga, Rodolfo M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, 112, p. 102376, doi:[10.1016/j.foodpol.2022.102376](https://doi.org/10.1016/j.foodpol.2022.102376).
 
-Cohen, Mark A., and Michael P. Vandenbergh. 2012. “The Potential Role of Carbon Labeling in a Green Economy.” *Energy Economics* 34 (November): S53–63. <https://doi.org/10.1016/j.eneco.2012.08.032>.
+Bailey, Jennifer L. and Eggereide, Sigrid Sandve (2020). Mapping actors and arguments in the Norwegian aquaculture debate. *Marine Policy*, 115, p. 103898, doi:[10.1016/j.marpol.2020.103898](https://doi.org/10.1016/j.marpol.2020.103898).
 
-Crippa, M., D. Guizzardi, M. Banja, E. Solazzo, M. Muntean, E. Schaaf, Pagani F., F. Monforti-Ferrario, J. G. J. Olivier, and R. Quadrelli. 2022. *CO2 Emissions of All World Countries: JRC/IEA/PBL 2022 Report*. Luxembourg: Publications Office of the European Union.
+Berger, Katharina, Baumgartner, Rupert J., Weinzerl, Martin, Bachler, Johann, Preston, Kees and Schöggl, Josef-Peter (2023). Data requirements and availabilities for a digital battery passport A value chain actor perspective. *Cleaner Production Letters*, 4, p. 100032, doi:[10.1016/j.clpl.2023.100032](https://doi.org/10.1016/j.clpl.2023.100032).
 
-“Digital Receipts and Customer Loyalty in One Platform \| ReceiptHero.” n.d. https://www.getreceipthero.com/. Accessed June 26, 2023.
+Berger, Katharina, Baumgartner, Rupert J., Weinzerl, Martin, Bachler, Johann and Schöggl, Josef-Peter (2023). Factors of digital product passport adoption to enable circular information flows along the battery value chain. *Procedia CIRP*, 116, p. 528–533, doi:[10.1016/j.procir.2023.02.089](https://doi.org/10.1016/j.procir.2023.02.089).
 
-Duriez, Edouard, Joseph Morlier, Catherine Azzaro-Pantel, and Miguel Charlotte. 2022. “Ecodesign with Topology Optimization.” *Procedia CIRP* 109: 454–59. <https://doi.org/10.1016/j.procir.2022.05.278>.
+Berger, Katharina, Rusch, Magdalena, Pohlmann, Antonia, Popowicz, Martin, Geiger, Bernhard C., Gursch, Heimo, Schöggl, Josef-Peter and Baumgartner, Rupert J. (2023). Confidentiality-preserving data exchange to enable sustainable product management via digital product passports - a conceptualization. *Procedia CIRP*, 116, p. 354–359, doi:[10.1016/j.procir.2023.02.060](https://doi.org/10.1016/j.procir.2023.02.060).
 
-Dutta, Pankaj, Tsan-Ming Choi, Surabhi Somani, and Richa Butala. 2020. “Blockchain Technology in Supply Chain Operations: Applications, Challenges and Research Opportunities.” *Transportation Research Part E: Logistics and Transportation Review* 142 (October): 102067. <https://doi.org/10.1016/j.tre.2020.102067>.
+Brady Dale (2021). Chainlink’s Founder Says DeFi and Oracles Can Help Fight Climate Change.
 
-Edenbrandt, Anna Kristina, and Carl-Johan Lagerkvist. 2022. “Consumer Perceptions and Attitudes Towards Climate Information on Food.” *Journal of Cleaner Production* 370 (October): 133441. <https://doi.org/10.1016/j.jclepro.2022.133441>.
+Brian Kateman (2020). Carbon Labels Are Finally Coming To The Food And Beverage Industry. *Forbes*.
 
-Eesti Disainikeskus I Estonian Design Centre. 2021. “Circular Design HOW TO Session 6: Circularity in Textiles.”
+CAITLIN STALL-PAQUET (2021). Fresh from the city: The rise of urban farming.
 
-Eisenstein, Charles. 2011. *Sacred Economics: Money, Gift, & Society in the Age of Transition*. Berkeley, Calif: Evolver Editions.
+Caldarelli, Giulio, Rossignoli, Cecilia and Zardini, Alessandro (2020). Overcoming the Blockchain Oracle Problem in the Traceability of Non-Fungible Products. *Sustainability*, 12(6), p. 2391, doi:[10.3390/su12062391](https://doi.org/10.3390/su12062391).
 
-Emily Chan. 2022a. “Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation?” *British Vogue*, January.
+Caravan Studios (2022). Strengthen your worker welfare programme. *workerconnect*.
 
-———. 2022b. “Will The Fashion Industry Finally Face Sustainability Legislation In 2022? \| British Vogue.” *British Vogue*, January.
+Carlsson, Fredrik, Kataria, Mitesh and Lampi, Elina (2022). Sustainable food: Can information from food labels make consumers switch to meat substitutes? *Ecological Economics*, 201, p. 107567, doi:[10.1016/j.ecolecon.2022.107567](https://doi.org/10.1016/j.ecolecon.2022.107567).
 
-———. 2022c. “We Still Don’t Have Enough Transparency In Fashion.” *British Vogue*. https://www.vogue.co.uk/fashion/article/fashion-transparency-index-2022.
+Carto (2023). Climate resilience, the geography of NYC taxis & photorealistic 3D maps.
 
-ERR, Jane Saluorg \|. 2022. “Komisjon tahab vähendada kiirmoekettide toodangu jõudmist EL-i.” *ERR*. https://www.err.ee/1608744481/komisjon-tahab-vahendada-kiirmoekettide-toodangu-joudmist-el-i.
+Catherine Shu (2023). Southeast Asia farm-to-table startup Secai Marche raises Series A. *TechCrunch*.
 
-Ethereum. 2023. “Oracles.” *Ethereum.org*. https://ethereum.org.
+Cawthorn, Donna-Mareè and Hoffman, Louwrens C. (2016). Controversial cuisine: A global account of the demand, supply and acceptance of “unconventional” and “exotic” meats. *Meat Science*, 120, p. 19–36, doi:[10.1016/j.meatsci.2016.04.017](https://doi.org/10.1016/j.meatsci.2016.04.017).
 
-European Commission. Joint Research Centre. 2022. *CO2 Emissions of All World Countries :JRC/IEA/PBL 2022 Report.* LU: Publications Office.
+Centobelli, Piera, Abbate, Stefano, Nadeem, Simon Peter and Garza-Reyes, Jose Arturo (2022). Slowing the fast fashion industry: An all-round perspective. *Current Opinion in Green and Sustainable Chemistry*, 38, p. 100684, doi:[10.1016/j.cogsc.2022.100684](https://doi.org/10.1016/j.cogsc.2022.100684).
 
-European Environment Agency. 2022. “Textiles and the Environment: The Role of Design in Europe’s Circular Economy.”
+Chainlink (2022). New Report: Blockchains and Oracles Are Redefining the Energy Industry. *Chainlink Blog*.
 
-Fanning, Emily, Graham Eyres, Russell Frew, and Biniam Kebede. 2023. “Linking Cocoa Quality Attributes to Its Origin Using Geographical Indications.” *Food Control* 151 (September): 109825. <https://doi.org/10.1016/j.foodcont.2023.109825>.
+Chouinard, Yvon (2005). *Let my people go surfing: The education of a reluctant businessman*. New York: Penguin Press.
 
-Fashion Revolution Foundation. 2022. “FASHION TRANSPARENCY INDEX 2022.”
+Cleantech Group (2023). *Global Cleantech 100*.
 
-FashionChecker. 2023. “FashionChecker: Wages and Transparency in the Garment Industry.” https://fashionchecker.org/.
+ClimatePartner (2020). Labelling the carbon footprint of food and consumer goods.
 
-Financial Times. 2022. “8 Sustainability Ideas That Will Change the World \| FT Rethink.”
+Cohen, Mark A. and Vandenbergh, Michael P. (2012). The potential role of carbon labeling in a green economy. *Energy Economics*, 34, p. S53–S63, doi:[10.1016/j.eneco.2012.08.032](https://doi.org/10.1016/j.eneco.2012.08.032).
 
-Finkenstadt, Daniel Joseph, and Robert Handfield. 2021. “Blurry Vision: Supply Chain Visibility for Personal Protective Equipment During COVID-19.” *Journal of Purchasing and Supply Management* 27 (3): 100689. <https://doi.org/10.1016/j.pursup.2021.100689>.
+Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J. and Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Luxembourg: Publications Office of the European Union.
 
-Gamborg, Christian, and Frank Søndergaard Jensen. 2017. “Attitudes Towards Recreational Hunting: A Quantitative Survey of the General Public in Denmark.” *Journal of Outdoor Recreation and Tourism* 17 (March): 20–28. <https://doi.org/10.1016/j.jort.2016.12.002>.
+Duriez, Edouard, Morlier, Joseph, Azzaro-Pantel, Catherine and Charlotte, Miguel (2022). Ecodesign with topology optimization. *Procedia CIRP*, 109, p. 454–459, doi:[10.1016/j.procir.2022.05.278](https://doi.org/10.1016/j.procir.2022.05.278).
 
-Ganu, John Bremen and Shai, Dominic Okus. 2021. “Why Blockchain Can Both Promote ESG And Accelerate Climate Transition.” *ChiefExecutive.net*. https://chiefexecutive.net/why-blockchain-can-both-promote-esg-and-accelerate-climate-transition/.
+Dutta, Pankaj, Choi, Tsan-Ming, Somani, Surabhi and Butala, Richa (2020). Blockchain technology in supply chain operations: Applications, challenges and research opportunities. *Transportation Research Part E: Logistics and Transportation Review*, 142, p. 102067, doi:[10.1016/j.tre.2020.102067](https://doi.org/10.1016/j.tre.2020.102067).
 
-Good On You. 2023. “Good On You - Sustainable and Ethical Fashion Brand Ratings.” *Good On You*. https://goodonyou.eco/.
+Edenbrandt, Anna Kristina and Lagerkvist, Carl-Johan (2022). Consumer perceptions and attitudes towards climate information on food. *Journal of Cleaner Production*, 370, p. 133441, doi:[10.1016/j.jclepro.2022.133441](https://doi.org/10.1016/j.jclepro.2022.133441).
 
-“Good On You - Sustainable and Ethical Fashion Brand Ratings.” 2023. *Good On You*. https://goodonyou.eco/.
+Eesti Disainikeskus I Estonian Design Centre (2021). Circular Design HOW TO session 6: Circularity in Textiles.
 
-Google. 2021. “Google Sustainability \| Helping Every Day Be More Sustainable with Google - American Sign Language.”
+Eisenstein, Charles (2011). *Sacred economics: Money, gift, & society in the age of transition*. Berkeley, Calif: Evolver Editions.
 
-“Google ’Airbrushes’ Out Emissions from Flying, BBC Reveals.” 2022. *BBC News*, August.
+Emily Chan (2022a). We Still Don’t Have Enough Transparency In Fashion. *British Vogue*.
 
-“Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental.” 2021. *ELMUNDO*. https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2021/10/06/615cb749fc6c83e8778b45fb.html.
+Emily Chan (2022b). Will 2022 Be The Year The Fashion Industry Finally Faces Green Legislation? *British Vogue*.
 
-Gyabaah, Daniel, Esi Awuah, Prince Antwi-Agyei, and Richard Amankwah Kuffour. 2023. “Characterization of Dumpsite Waste of Different Ages in Ghana.” *Heliyon* 9 (5): e15827. <https://doi.org/10.1016/j.heliyon.2023.e15827>.
+Emily Chan (2022c). Will The Fashion Industry Finally Face Sustainability Legislation In 2022? \| British Vogue. *British Vogue*.
 
-Haje Jan Kamps. 2022. “Kuri Is an App That Wants to Reduce Your Food’s Carbon Footprint.” *TechCrunch*. https://techcrunch.com/2022/08/11/kuri-app/.
+ERR, Jane Saluorg \|. (2022). Komisjon tahab vähendada kiirmoekettide toodangu jõudmist EL-i. *ERR*.
 
-Hannah Ritchie. 2020. “Sector by Sector: Where Do Global Greenhouse Gas Emissions Come From?” *Our World in Data*. https://ourworldindata.org/ghg-emissions-by-sector.
+Ethereum (2023). Oracles. *ethereum.org*.
 
-“Home - ChainReact.” n.d. https://chainreact.org/. Accessed June 25, 2023.
+European Commission. Joint Research Centre. (2022). *CO2 emissions of all world countries :JRC/IEA/PBL 2022 report.* LU: Publications Office.
 
-imperfectidealist. 2020. “Sustainable or Greenwashing? How to Evaluate Fashion Brands.”
+European Environment Agency (2022). *Textiles and the environment: The role of design in Europe’s circular economy*.
 
-Inc, FactSet Research Systems. n.d. “At a Glance: Alexandria Real-Time ESG.” https://insight.factset.com/resources/at-a-glance-alexandria-real-time-esg. Accessed June 25, 2023.
+Fanning, Emily, Eyres, Graham, Frew, Russell and Kebede, Biniam (2023). Linking cocoa quality attributes to its origin using geographical indications. *Food Control*, 151, p. 109825, doi:[10.1016/j.foodcont.2023.109825](https://doi.org/10.1016/j.foodcont.2023.109825).
 
-Infinited Fiber. 2023. “Infinited Fiber.” https://infinitedfiber.com/, https://infinitedfiber.com/.
+Fashion Revolution Foundation (2022). *FASHION TRANSPARENCY INDEX 2022*.
 
-“Instant Gratification for Collective Awareness and Sustainable Consumerism.” 2022.
+FashionChecker (2023). FashionChecker: Wages and transparency in the garment industry.
 
-Ivanova, Diana, John Barrett, Dominik Wiedenhofer, Biljana Macura, Max Callaghan, and Felix Creutzig. 2020. “Quantifying the Potential for Climate Change Mitigation of Consumption Options.” *Environ. Res. Lett.* 15 (9): 093001. <https://doi.org/10.1088/1748-9326/ab8589>.
+Financial Times (2022). 8 Sustainability ideas that will change the world \| FT Rethink.
 
-Jensen, Steffen Foldager, Jesper Hemdrup Kristensen, Sofie Adamsen, Andreas Christensen, and Brian Vejrum Waehrens. 2023. “Digital Product Passports for a Circular Economy: Data Needs for Product Life Cycle Decision-Making.” *Sustainable Production and Consumption* 37 (May): 242–55. <https://doi.org/10.1016/j.spc.2023.02.021>.
+Finkenstadt, Daniel Joseph and Handfield, Robert (2021). Blurry vision: Supply chain visibility for personal protective equipment during COVID-19. *Journal of Purchasing and Supply Management*, 27(3), p. 100689, doi:[10.1016/j.pursup.2021.100689](https://doi.org/10.1016/j.pursup.2021.100689).
 
-Justine Calma. Oct 6, 2021, 10:01 AM GMT+3. “Google Launches New Features to Help Users Shrink Their Carbon Footprints - The Verge,” Oct 6, 2021, 10:01 AM GMT+3.
+Gamborg, Christian and Jensen, Frank Søndergaard (2017). Attitudes towards recreational hunting: A quantitative survey of the general public in Denmark. *Journal of Outdoor Recreation and Tourism*, 17, p. 20–28, doi:[10.1016/j.jort.2016.12.002](https://doi.org/10.1016/j.jort.2016.12.002).
 
-Katie Gustafson. 2022. “Why Tracing Seafood from Sea to Plate Is the Next Frontier in Sustainability \| Stories \| WWF.” *World Wildlife Fund*. https://www.worldwildlife.org/stories/why-tracing-seafood-from-sea-to-plate-is-the-next-frontier-in-sustainability.
+Ganu, John Bremen and Shai, Dominic Okus (2021). Why Blockchain Can Both Promote ESG And Accelerate Climate Transition. *ChiefExecutive.net*.
 
-Kiessling, Tim, Mandy Hinzmann, Linda Mederake, Sinja Dittmann, Dennis Brennecke, Marianne Böhm-Beck, Katrin Knickmeier, and Martin Thiel. 2023. “What Potential Does the EU Single-Use Plastics Directive Have for Reducing Plastic Pollution at Coastlines and Riversides? An Evaluation Based on Citizen Science Data.” *Waste Management* 164 (June): 106–18. <https://doi.org/10.1016/j.wasman.2023.03.042>.
+Gitcoin Passport Sybil Defense. Made Simple. \[@gitcoinpassport\] (2023). Why did Gitcoin choose to build @GitcoinPassport as an "aggregator" of anti-Sybil solutions? 🤔 Gitcoin Passport Workstream Co-Lead @kevinrolsen explains: <span class="nocase">https://t.co/QYgqp85QBm</span>. *Twitter*.
 
-King, Melanie R. N., Paul D. Timms, and Sara Mountney. 2023. “A Proposed Universal Definition of a Digital Product Passport Ecosystem (DPPE): Worldviews, Discrete Capabilities, Stakeholder Requirements and Concerns.” *Journal of Cleaner Production* 384 (January): 135538. <https://doi.org/10.1016/j.jclepro.2022.135538>.
+Good On You (2023). Good On You - Sustainable and Ethical Fashion Brand Ratings. *Good On You*.
 
-Knight, Louise, Wendy Tate, Steven Carnovale, Carmela Di Mauro, Lydia Bals, Federico Caniato, Jury Gualandris, et al. 2022. “Future Business and the Role of Purchasing and Supply Management: Opportunities for ‘Business-Not-as-Usual’ PSM Research.” *Journal of Purchasing and Supply Management* 28 (1): 100753. <https://doi.org/10.1016/j.pursup.2022.100753>.
+Google (2021). Google Sustainability \| Helping every day be more sustainable with Google - American Sign Language.
 
-Köhler, Andreas, David Watson, Steffen Trzepacz, Clara Löw, Ran Liu, Jennifer Danneck, Antonios Konstantas, Shane Donatello, and Giorgia Faraca. 2021. *Circular Economy Perspectives in the EU Textile Sector: Final Report*. Luxembourg: Publications Office of the European Union.
+Gyabaah, Daniel, Awuah, Esi, Antwi-Agyei, Prince and Kuffour, Richard Amankwah (2023). Characterization of dumpsite waste of different ages in Ghana. *Heliyon*, 9(5), p. e15827, doi:[10.1016/j.heliyon.2023.e15827](https://doi.org/10.1016/j.heliyon.2023.e15827).
 
-Kommenda, Niko, Caroline Nevitt, Emiko Terazono, Sam Joiner, and Ellen Davies. 2022. “Would Carbon Food Labels Change the Way You Shop?” https://ig.ft.com/ig-food-eco-footprint.
+Haje Jan Kamps (2022). Kuri is an app that wants to reduce your food’s carbon footprint. *TechCrunch*.
 
-Korzhova, Viktoria. 2020. “Sustainable Product Management with Grover: Advancing Circular Economy.” *Product People*.
+Hannah Ritchie (2020). Sector by sector: Where do global greenhouse gas emissions come from? *Our World in Data*.
 
-Kristina Kostap. 2022. “LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga.” *Postimees*, September.
+imperfectidealist (2020). Sustainable or Greenwashing? How to Evaluate Fashion Brands.
 
-Laureen van Breen, Aileen Robinson, Abigail Munroe, and Adriana Bora. 2023. “Panel: Scaling Corporate Accountability: Humans and AI Together in the Fight to \#EndSlavery.” *Scottish AI Summit*. https://www.scottishaisummit.com/panel-scaling-corporate-accountability-humans-and-ai-together-in-the-fight-to-endslavery.
+Inc, FactSet Research Systems (n.d.). At a Glance: Alexandria Real-Time ESG.
 
-Leung, Rebecca, and Ameersing Luximon. 2021. “Green Design.” In *Handbook of Footwear Design and Manufacture*, 459–76. Elsevier. <https://doi.org/10.1016/B978-0-12-821606-4.00018-1>.
+Infinited Fiber (2023). Infinited Fiber.
 
-“Lily \| Mindful + Active Living on Instagram: ‘Yesterday, the Garment Worker Protection Act (SB62) Was Signed into Law by Governor Newsom in California. Garment Workers in LA Make an…’.” n.d. https://www.instagram.com/p/CUXjfzfr7Ze/?img_index=1. Accessed June 26, 2023.
+Ivanova, Diana, Barrett, John, Wiedenhofer, Dominik, Macura, Biljana, Callaghan, Max and Creutzig, Felix (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, 15(9), p. 093001, doi:[10.1088/1748-9326/ab8589](https://doi.org/10.1088/1748-9326/ab8589).
 
-Lohmann, Paul M., Elisabeth Gsottbauer, Anya Doherty, and Andreas Kontoleon. 2022. “Do Carbon Footprint Labels Promote Climatarian Diets? Evidence from a Large-Scale Field Experiment.” *Journal of Environmental Economics and Management* 114 (July): 102693. <https://doi.org/10.1016/j.jeem.2022.102693>.
+Jensen, Steffen Foldager, Kristensen, Jesper Hemdrup, Adamsen, Sofie, Christensen, Andreas and Waehrens, Brian Vejrum (2023). Digital product passports for a circular economy: Data needs for product life cycle decision-making. *Sustainable Production and Consumption*, 37, p. 242–255, doi:[10.1016/j.spc.2023.02.021](https://doi.org/10.1016/j.spc.2023.02.021).
 
-Lowercarbon Capital. 2023. “Lowercarbon Capital.” *Lowercarbon Capital*. https://lowercarboncapital.com/.
+Justine Calma (Oct 6, 2021, 10:01 AM GMT+3). Google launches new features to help users shrink their carbon footprints - The Verge.
 
-Mabuza, Letsiwe, Nadine Sonnenberg, and Nadene Marx-Pienaar. 2023. “Natural Versus Synthetic Dyes: Consumers’ Understanding of Apparel Coloration and Their Willingness to Adopt Sustainable Alternatives.” *Resources, Conservation & Recycling Advances* 18 (October): 200146. <https://doi.org/10.1016/j.rcradv.2023.200146>.
+Katie Gustafson (2022). Why tracing seafood from sea to plate is the next frontier in sustainability \| Stories \| WWF. *World Wildlife Fund*.
 
-Mamede, Renato, Irina A. Duarte, Isabel Caçador, Susanne E. Tanner, Marisa Silva, David Jacinto, Vanessa F. Fonseca, and Bernardo Duarte. 2022. “Elemental Fingerprinting of Sea Urchin (Paracentrotus Lividus) Gonads to Assess Food Safety and Trace Its Geographic Origin.” *Journal of Food Composition and Analysis* 114 (December): 104764. <https://doi.org/10.1016/j.jfca.2022.104764>.
+Kiessling, Tim, Hinzmann, Mandy, Mederake, Linda, Dittmann, Sinja, Brennecke, Dennis, Böhm-Beck, Marianne, Knickmeier, Katrin and Thiel, Martin (2023). What potential does the EU Single-Use Plastics Directive have for reducing plastic pollution at coastlines and riversides? An evaluation based on citizen science data. *Waste Management*, 164, p. 106–118, doi:[10.1016/j.wasman.2023.03.042](https://doi.org/10.1016/j.wasman.2023.03.042).
 
-Marrucci, Luca, Michela Marchi, and Tiberio Daddi. 2020. “Improving the Carbon Footprint of Food and Packaging Waste Management in a Supermarket of the Italian Retail Sector.” *Waste Management* 105 (March): 594–603. <https://doi.org/10.1016/j.wasman.2020.03.002>.
+King, Melanie R. N., Timms, Paul D. and Mountney, Sara (2023). A proposed universal definition of a Digital Product Passport Ecosystem (DPPE): Worldviews, discrete capabilities, stakeholder requirements and concerns. *Journal of Cleaner Production*, 384, p. 135538, doi:[10.1016/j.jclepro.2022.135538](https://doi.org/10.1016/j.jclepro.2022.135538).
 
-Matthew Gore, Alessio Sbraga, and Joseph Malpas. 2022. “Emissions Regulations In Shipping - Will The Polluter Pay?” *Lexology*. https://www.lexology.com/library/detail.aspx?g=61542229-a466-47f2-876a-222d3320ce04.
+Knight, Louise, Tate, Wendy, Carnovale, Steven, Di Mauro, Carmela, Bals, Lydia, Caniato, Federico, Gualandris, Jury, Johnsen, Thomas, Matopoulos, Aristides, Meehan, Joanne, Miemczyk, Joe, Patrucco, Andrea S., Schoenherr, Tobias, Selviaridis, Kostas, Touboulic, Anne and Wagner, Stephan M. (2022). Future business and the role of purchasing and supply management: Opportunities for “business-not-as-usual” PSM research. *Journal of Purchasing and Supply Management*, 28(1), p. 100753, doi:[10.1016/j.pursup.2022.100753](https://doi.org/10.1016/j.pursup.2022.100753).
 
-Miller, Ron. 2019. “Citizens Reserve Is Building a Supply Chain Platform on the Blockchain.” *TechCrunch*.
+Köhler, Andreas, Watson, David, Trzepacz, Steffen, Löw, Clara, Liu, Ran, Danneck, Jennifer, Konstantas, Antonios, Donatello, Shane and Faraca, Giorgia (2021). *Circular economy perspectives in the EU textile sector: Final report*. Luxembourg: Publications Office of the European Union.
 
-Millward-Hopkins, Joel, Phil Purnell, and Sharon Baurley. 2023. “A Material Flow Analysis of the UK Clothing Economy.” *Journal of Cleaner Production* 407 (June): 137158. <https://doi.org/10.1016/j.jclepro.2023.137158>.
+Kommenda, Niko, Nevitt, Caroline, Terazono, Emiko, Joiner, Sam and Davies, Ellen (2022). Would carbon food labels change the way you shop?
 
-Muñoz, M., A. Reul, B. Guijarro, and M. Hidalgo. 2023. “Carbon Footprint, Economic Benefits and Sustainable Fishing: Lessons for the Future from the Western Mediterranean.” *Science of The Total Environment* 865 (March): 160783. <https://doi.org/10.1016/j.scitotenv.2022.160783>.
+Korzhova, Viktoria (2020). Sustainable Product Management with Grover: Advancing Circular Economy. *Product People*.
 
-Nabipour Afrouzi, H., J. Ahmed, B. Mobin Siddique, N. Khairuddin, and Ateeb Hassan. 2023. “A Comprehensive Review on Carbon Footprint of Regular Diet and Ways to Improving Lowered Emissions.” *Results in Engineering* 18 (June): 101054. <https://doi.org/10.1016/j.rineng.2023.101054>.
+Kristina Kostap (2022). LEVITA SÕNA: Uus rakendus pakub kvaliteetset toitu poole odavama hinnaga. *Postimees*.
 
-Neethirajan, Suresh, and Bas Kemp. 2021. “Digital Livestock Farming.” *Sensing and Bio-Sensing Research* 32 (June): 100408. <https://doi.org/10.1016/j.sbsr.2021.100408>.
+Laureen van Breen, Aileen Robinson, Abigail Munroe and Adriana Bora (2023). Panel: Scaling Corporate Accountability: Humans and AI together in the fight to \#EndSlavery. *Scottish AI Summit*.
 
-“New Standard Institute.” n.d. *New Standard Institute*. https://www.newstandardinstitute.org. Accessed June 26, 2023.
+Leung, Rebecca and Luximon, Ameersing (2021). [Green design](https://doi.org/10.1016/B978-0-12-821606-4.00018-1). In: *Handbook of Footwear Design and Manufacture*. Elsevier, p. 459–476.
 
-Nissinen, Ari, Jyri Seppälä, and Tero Heinonen. 2022. “Make Carbon Footprints Available And It Is Not Just One Value.” *Cleaner Logistics and Supply Chain* 3 (March): 100023. <https://doi.org/10.1016/j.clscn.2021.100023>.
+Lohmann, Paul M., Gsottbauer, Elisabeth, Doherty, Anya and Kontoleon, Andreas (2022). Do carbon footprint labels promote climatarian diets? Evidence from a large-scale field experiment. *Journal of Environmental Economics and Management*, 114, p. 102693, doi:[10.1016/j.jeem.2022.102693](https://doi.org/10.1016/j.jeem.2022.102693).
 
-“Offset Your Flight with WIZZ.” n.d. https://wizzair.chooose.today/. Accessed June 26, 2023.
+Lowercarbon Capital (2023). Lowercarbon Capital. *Lowercarbon Capital*.
 
-Oikos Denktank. 2021. “Webinar: Doughnut Economics in Practice w/ Kate Raworth, Barbara Trachte & Marieke Van Doorninck.”
+Mabuza, Letsiwe, Sonnenberg, Nadine and Marx-Pienaar, Nadene (2023). Natural versus synthetic dyes: Consumers’ understanding of apparel coloration and their willingness to adopt sustainable alternatives. *Resources, Conservation & Recycling Advances*, 18, p. 200146, doi:[10.1016/j.rcradv.2023.200146](https://doi.org/10.1016/j.rcradv.2023.200146).
 
-Patel, A. S., M. N. Brahmbhatt, A. R. Bariya, J. B. Nayak, and V. K. Singh. 2023. “‘Blockchain Technology in Food Safety and Traceability Concern to Livestock Products’.” *Heliyon* 9 (6): e16526. <https://doi.org/10.1016/j.heliyon.2023.e16526>.
+Mamede, Renato, Duarte, Irina A., Caçador, Isabel, Tanner, Susanne E., Silva, Marisa, Jacinto, David, Fonseca, Vanessa F. and Duarte, Bernardo (2022). Elemental fingerprinting of sea urchin (Paracentrotus lividus) gonads to assess food safety and trace its geographic origin. *Journal of Food Composition and Analysis*, 114, p. 104764, doi:[10.1016/j.jfca.2022.104764](https://doi.org/10.1016/j.jfca.2022.104764).
 
-Plociennik, Christiane, Monireh Pourjafarian, Ali Nazeri, Waldemar Windholz, Svenja Knetsch, Julian Rickert, Andreas Ciroth, et al. 2022. “Towards a Digital Lifecycle Passport for the Circular Economy.” *Procedia CIRP* 105: 122–27. <https://doi.org/10.1016/j.procir.2022.02.021>.
+Marrucci, Luca, Marchi, Michela and Daddi, Tiberio (2020). Improving the carbon footprint of food and packaging waste management in a supermarket of the Italian retail sector. *Waste Management*, 105, p. 594–603, doi:[10.1016/j.wasman.2020.03.002](https://doi.org/10.1016/j.wasman.2020.03.002).
 
-Poore, J., and T. Nemecek. 2018. “Reducing Food’s Environmental Impacts Through Producers and Consumers.” *Science* 360 (6392): 987–92. <https://doi.org/10.1126/science.aaq0216>.
+Matthew Gore, Alessio Sbraga and Joseph Malpas (2022). Emissions Regulations In Shipping - Will The Polluter Pay? *Lexology*.
 
-PrimaDollar Media. 2021. “PrimaDollar - Giving the Supply Chain a Voice.”
+Miller, Ron (2019). Citizens Reserve is building a supply chain platform on the blockchain. *TechCrunch*.
 
-Ray, Partha Pratim. 2023. “Web3: A Comprehensive Review on Background, Technologies, Applications, Zero-Trust Architectures, Challenges and Future Directions.” *Internet of Things and Cyber-Physical Systems* 3: 213–48. <https://doi.org/10.1016/j.iotcps.2023.05.003>.
+Millward-Hopkins, Joel, Purnell, Phil and Baurley, Sharon (2023). A material flow analysis of the UK clothing economy. *Journal of Cleaner Production*, 407, p. 137158, doi:[10.1016/j.jclepro.2023.137158](https://doi.org/10.1016/j.jclepro.2023.137158).
 
-“Real Time ESG Tracking From StockSnips.” 2021. https://finance.yahoo.com/news/real-time-esg-tracking-stocksnips-160211861.html.
+Muñoz, M., Reul, A., Guijarro, B. and Hidalgo, M. (2023). Carbon footprint, economic benefits and sustainable fishing: Lessons for the future from the Western Mediterranean. *Science of The Total Environment*, 865, p. 160783, doi:[10.1016/j.scitotenv.2022.160783](https://doi.org/10.1016/j.scitotenv.2022.160783).
 
-“Reality Labs Research at Meta Connect 2022.” 2022. *Tech at Meta*. https://tech.facebook.com/reality-labs/2022/10/meta-research-reality-labs-connect-2022/.
+Nabipour Afrouzi, H., Ahmed, J., Mobin Siddique, B., Khairuddin, N. and Hassan, Ateeb (2023). A comprehensive review on carbon footprint of regular diet and ways to improving lowered emissions. *Results in Engineering*, 18, p. 101054, doi:[10.1016/j.rineng.2023.101054](https://doi.org/10.1016/j.rineng.2023.101054).
 
-Rehash: A Web3 Podcast. 2022. “Building a Human-Centered Web3 w/Paris Rouzati \| S3 E14.”
+Neethirajan, Suresh and Kemp, Bas (2021). Digital Livestock Farming. *Sensing and Bio-Sensing Research*, 32, p. 100408, doi:[10.1016/j.sbsr.2021.100408](https://doi.org/10.1016/j.sbsr.2021.100408).
 
-Reich, René H., Joëlle Ayan, Luc Alaerts, and Karel Van Acker. 2023. “Defining the Goals of Product Passports by Circular Product Strategies.” *Procedia CIRP* 116: 257–62. <https://doi.org/10.1016/j.procir.2023.02.044>.
+Nissinen, Ari, Seppälä, Jyri and Heinonen, Tero (2022). Make carbon footprints available And it is not just one value. *Cleaner Logistics and Supply Chain*, 3, p. 100023, doi:[10.1016/j.clscn.2021.100023](https://doi.org/10.1016/j.clscn.2021.100023).
 
-Remington, Chris. 2020. “Zalando’s Zign Label ‘Fully Dedicated’ to Sustainability.” *Ecotextile News*. https://www.ecotextile.com/2020021925725/fashion-retail-news/zalando-s-zign-label-fully-dedicated-to-sustainability.html.
+Oikos Denktank (2021). Webinar: Doughnut Economics in practice w/ Kate Raworth, Barbara Trachte & Marieke Van Doorninck.
 
-Renée Salmonsen. 2018. “Asia’s Largest Vertical Farm Is Located in Northern Taiwan.” https://www.taiwannews.com.tw/en/news/3387047.
+Patel, A. S., Brahmbhatt, M. N., Bariya, A. R., Nayak, J. B. and Singh, V. K. (2023). “Blockchain technology in food safety and traceability concern to livestock products.” *Heliyon*, 9(6), p. e16526, doi:[10.1016/j.heliyon.2023.e16526](https://doi.org/10.1016/j.heliyon.2023.e16526).
 
-Röös, E., A. Wood, S. Säll, A. Abu Hatab, S. Ahlgren, E. Hallström, P. Tidåker, and H. Hansson. 2023. “Diagnostic, Regenerative or Fossil-Free - Exploring Stakeholder Perceptions of Swedish Food System Sustainability.” *Ecological Economics* 203: 107623. <https://doi.org/10.1016/j.ecolecon.2022.107623>.
+Plociennik, Christiane, Pourjafarian, Monireh, Nazeri, Ali, Windholz, Waldemar, Knetsch, Svenja, Rickert, Julian, Ciroth, Andreas, Precci Lopes, Alice Do Carmo, Hagedorn, Tabea, Vogelgesang, Malte, Benner, Wladislaw, Gassmann, Andrea, Bergweiler, Simon, Ruskowski, Martin, Schebek, Liselotte and Weidenkaff, Anke (2022). Towards a Digital Lifecycle Passport for the Circular Economy. *Procedia CIRP*, 105, p. 122–127, doi:[10.1016/j.procir.2022.02.021](https://doi.org/10.1016/j.procir.2022.02.021).
 
-Saner, Dominik, Claudio Beretta, Boris Jäggi, Ronnie Juraske, Franziska Stoessel, and Stefanie Hellweg. 2015. “FoodPrints of Households.” *The International Journal of Life Cycle Assessment* 21 (July). <https://doi.org/10.1007/s11367-015-0924-5>.
+Poore, J. and Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. *Science*, 360(6392), p. 987–992, doi:[10.1126/science.aaq0216](https://doi.org/10.1126/science.aaq0216).
 
-Santos, Andreia, Fernando Ricardo, M. Rosário M. Domingues, Carla Patinha, and Ricardo Calado. 2023. “Current Trends in the Traceability of Geographic Origin and Detection of Species-Mislabeling in Marine Bivalves.” *Food Control* 152 (October): 109840. <https://doi.org/10.1016/j.foodcont.2023.109840>.
+PrimaDollar Media (2021). PrimaDollar - Giving the supply chain a voice.
 
-Sarah Perez. 2022. “Google Rolls Out a New Set of Search Tools for Eco-Conscious Travelers.” *TechCrunch*. https://techcrunch.com/2022/09/21/google-rolls-out-a-new-set-of-search-tools-for-eco-conscious-travelers/.
+Ray, Partha Pratim (2023). Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions. *Internet of Things and Cyber-Physical Systems*, 3, p. 213–248, doi:[10.1016/j.iotcps.2023.05.003](https://doi.org/10.1016/j.iotcps.2023.05.003).
 
-Sepandar Kamvar. 2022. “Sep Kamvar from Celo & Mosaic.”
+Rehash: A Web3 Podcast (2022). Building a Human-Centered Web3 w/Paris Rouzati \| S3 E14.
 
-“Sheep Inc. - Softcore Radicals.” 2023. *Sheep Inc*. https://sheepinc.com/.
+Reich, René H., Ayan, Joëlle, Alaerts, Luc and Van Acker, Karel (2023). Defining the goals of Product Passports by circular product strategies. *Procedia CIRP*, 116, p. 257–262, doi:[10.1016/j.procir.2023.02.044](https://doi.org/10.1016/j.procir.2023.02.044).
 
-“SOJO - Door-to-Door Clothing Alterations and Repairs.” 2023. https://www.sojo.uk/.
+Remington, Chris (2020). Zalando’s Zign label “fully dedicated” to sustainability. *Ecotextile News*.
 
-Springmann, Marco, Michael A Clark, Mike Rayner, Peter Scarborough, and Patrick Webb. 2021. “The Global and Regional Costs of Healthy and Sustainable Dietary Patterns: A Modelling Study.” *The Lancet Planetary Health* 5 (11): e797–807. <https://doi.org/10.1016/S2542-5196(21)00251-5>.
+Renée Salmonsen (2018). Asia’s largest vertical farm is located in northern Taiwan.
 
-Stand.earth. 2023. “Stand.earth - For the People and Places You Love.” https://stand.earth/.
+Röös, E., Wood, A., Säll, S., Abu Hatab, A., Ahlgren, S., Hallström, E., Tidåker, P. and Hansson, H. (2023). Diagnostic, regenerative or fossil-free - exploring stakeholder perceptions of Swedish food system sustainability. *Ecological Economics*, 203, p. 107623, doi:[10.1016/j.ecolecon.2022.107623](https://doi.org/10.1016/j.ecolecon.2022.107623).
 
-Storbeck, Olaf. 2021. “Fast Fashion Must Be Shelved Within a Decade, Says Zalando CEO.” *Financial Times*, October.
+Saner, Dominik, Beretta, Claudio, Jäggi, Boris, Juraske, Ronnie, Stoessel, Franziska and Hellweg, Stefanie (2015). FoodPrints of households. *The International Journal of Life Cycle Assessment*, 21, doi:[10.1007/s11367-015-0924-5](https://doi.org/10.1007/s11367-015-0924-5).
 
-“Sveriges Dataportal.” n.d. *Sveriges Dataportal*. https://www.dataportal.se/. Accessed June 26, 2023.
+Santos, Andreia, Ricardo, Fernando, Domingues, M. Rosário M., Patinha, Carla and Calado, Ricardo (2023). Current trends in the traceability of geographic origin and detection of species-mislabeling in marine bivalves. *Food Control*, 152, p. 109840, doi:[10.1016/j.foodcont.2023.109840](https://doi.org/10.1016/j.foodcont.2023.109840).
 
-Textile Exchange. 2021. “FASHION INDUSTRY TRADE POLICY REQUEST.” *Textile Exchange*. https://textileexchange.org/news/trade-policy-request-cop26/.
+Sarah Perez (2022). Google rolls out a new set of search tools for eco-conscious travelers. *TechCrunch*.
 
-———. 2023. “Textile Exchange.” https://textileexchange.org/.
+Sepandar Kamvar (2022). Sep Kamvar from Celo & Mosaic.
 
-“Textile Genesis.” n.d. https://textilegenesis.com/. Accessed June 26, 2023.
+Springmann, Marco, Clark, Michael A., Rayner, Mike, Scarborough, Peter and Webb, Patrick (2021). The global and regional costs of healthy and sustainable dietary patterns: A modelling study. *The Lancet Planetary Health*, 5(11), p. e797–e807, doi:[10.1016/S2542-5196(21)00251-5](https://doi.org/10.1016/S2542-5196(21)00251-5).
 
-The Carbon Trust. n.d. “Q&A: How to Reduce Your Carbon Footprint Through Your Everyday Shopping.” https://www.carbontrust.com/resources/qa-how-to-reduce-your-carbon-footprint-through-your-everyday-shopping. Accessed November 24, 2022.
+Stand.earth (2023). Stand.earth - For the people and places you love.
 
-Tim Nicolle. 2017. “Fintech Lending Whose Lunch Are You Eating? - AltFi.” https://www.altfi.com/article/2857_fintech_lending_whose_lunch_are_you_eating.
+Storbeck, Olaf (2021). Fast fashion must be shelved within a decade, says Zalando CEO. *Financial Times*.
 
-———. 2021. “‘<span class="nocase">Real-time ESG</span>’ Data on Supply Chains, a Breakthrough.” *CTMfile*, October.
+Taleb, Nassim Nicholas (2012). *Antifragile: Things that gain from disorder*. 1st ed. New York: Random House.
 
-“Transparency and Sustainability Platform - Renoon.” 2023. *Transparency and Sustainability Platform - Renoon*. https://renoon.com.
+Textile Exchange (2021). FASHION INDUSTRY TRADE POLICY REQUEST. *Textile Exchange*.
 
-US EPA, OAR. 2016. “Global Greenhouse Gas Emissions Data.” Overviews and {{Factsheets}}. https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data.
+Textile Exchange (2023). Textile Exchange.
 
-Van Capelleveen, Guido, Dennis Vegter, Matthias Olthaar, and Jos Van Hillegersberg. 2023. “The Anatomy of a Passport for the Circular Economy: A Conceptual Definition, Vision and Structured Literature Review.” *Resources, Conservation & Recycling Advances* 17 (May): 200131. <https://doi.org/10.1016/j.rcradv.2023.200131>.
+The Carbon Trust (n.d.). Q&A: How to reduce your carbon footprint through your everyday shopping.
 
-Van Wassenaer, Lan, Cor Verdouw, Ayalew Kassahun, Mireille Van Hilten, Koos Van Der Meij, and Bedir Tekinerdogan. 2023. “Tokenizing Circularity in Agri-Food Systems: A Conceptual Framework and Exploratory Study.” *Journal of Cleaner Production* 413 (August): 137527. <https://doi.org/10.1016/j.jclepro.2023.137527>.
+Tim Nicolle (2017). Fintech lending whose lunch are you eating? - AltFi.
 
-Vanish UK. 2021. “GENERATION REWEAR: Full Length Documentary.”
+Tim Nicolle (2021). “<span class="nocase">Real-time ESG</span>” data on supply chains, a breakthrough. *CTMfile*.
 
-Verra. 2023. “Verra Releases Revised Methodology for Improved Agricultural Land Management.” *Verra*.
+US EPA, OAR (2016). Global Greenhouse Gas Emissions Data.
 
-Wagenvoort, Henrieke. 2020. “Self-Driving Supply Chains Are Within Reach.” *Supply Chain Movement*.
+Van Capelleveen, Guido, Vegter, Dennis, Olthaar, Matthias and Van Hillegersberg, Jos (2023). The anatomy of a passport for the circular economy: A conceptual definition, vision and structured literature review. *Resources, Conservation & Recycling Advances*, 17, p. 200131, doi:[10.1016/j.rcradv.2023.200131](https://doi.org/10.1016/j.rcradv.2023.200131).
 
-Waters, James. 2015. “Ethics and the Choice of Animal Advocacy Campaigns.” *Ecological Economics* 119 (November): 107–17. <https://doi.org/10.1016/j.ecolecon.2015.08.014>.
+Van Wassenaer, Lan, Verdouw, Cor, Kassahun, Ayalew, Van Hilten, Mireille, Van Der Meij, Koos and Tekinerdogan, Bedir (2023). Tokenizing circularity in agri-food systems: A conceptual framework and exploratory study. *Journal of Cleaner Production*, 413, p. 137527, doi:[10.1016/j.jclepro.2023.137527](https://doi.org/10.1016/j.jclepro.2023.137527).
 
-WikiRate. 2021. “Webinar: Envisioning and Finding Your Place in an Integrated and Open Labor Data Ecosystem.”
+Vanish UK (2021). GENERATION REWEAR: Full Length Documentary.
 
-Wikirate. 2022a. “Sharing Data and Creating Impact: Fashion Revolution Brasil Open up Their Data on WikiRate.” *Medium*.
+Verra (2023). Verra Releases Revised Methodology for Improved Agricultural Land Management. *Verra*.
 
-———. 2022b. “Introducing the Facility Checker: A New Search Tool Uncovering Living Wage Gaps in Fashion Supply….” *Medium*.
+Wagenvoort, Henrieke (2020). Self-driving supply chains are within reach. *Supply Chain Movement*.
 
-WikiRate. 2023. “WikiRate.” *WikiRate*. https://wikirate.org/Home.
+Waters, James (2015). Ethics and the choice of animal advocacy campaigns. *Ecological Economics*, 119, p. 107–117, doi:[10.1016/j.ecolecon.2015.08.014](https://doi.org/10.1016/j.ecolecon.2015.08.014).
 
-“Worker Voice.” 2022. *ES3G*. https://www.es3g.com/post/worker-voice.
+WikiRate (2021). Webinar: Envisioning and finding your place in an integrated and open labor data ecosystem.
 
-World Resources Institute. 2020. “CO2 Emissions (Metric Tons Per Capita) \| Data.” https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?most_recent_value_desc=true.
+Wikirate (2022a). Introducing the Facility Checker: A new search tool uncovering living wage gaps in fashion supply…. *Medium*.
 
-Xu, Mengmeng, and Boqiang Lin. 2022. “Towards Low-Carbon Economy by Carbon Label?: Survey Evidence from First-Tier Cities in China.” *Environmental Impact Assessment Review* 97 (November): 106902. <https://doi.org/10.1016/j.eiar.2022.106902>.
+Wikirate (2022b). Sharing data and creating impact: Fashion Revolution Brasil open up their data on WikiRate. *Medium*.
 
-Yap, Ken Shaun, Yong Jie Leow, Si Ying Chung, Clarice Pei Hua Loke, Daren Zong Loong Tan, Zhiquan Yeo, and Jonathan Sze Choong Low. 2023. “Life Cycle Assessment of <span class="nocase">Plastic Waste End-of-life Treatments</span> in Singapore.” *Procedia CIRP* 116: 522–27. <https://doi.org/10.1016/j.procir.2023.02.088>.
+WikiRate (2023). WikiRate. *WikiRate*.
 
-“Young Consumers’ (Complicated) Love For Fast Fashion In 3 Stats.” n.d. *YPulse*. Accessed June 28, 2023.
+World Resources Institute (2020). CO2 emissions (metric tons per capita) \| Data.
 
-Zhao, Xin, and Lang Qin. 2015. “Embodied Carbon Based Integrated Optimal Seismic Design for Super Tall Buildings with Viscoelastic Coupling Dampers.” *Procedia Engineering* 118: 223–31. <https://doi.org/10.1016/j.proeng.2015.08.421>.
+Xu, Mengmeng and Lin, Boqiang (2022). Towards low-carbon economy by carbon label?: Survey evidence from first-tier cities in China. *Environmental Impact Assessment Review*, 97, p. 106902, doi:[10.1016/j.eiar.2022.106902](https://doi.org/10.1016/j.eiar.2022.106902).
 
-Zhou, Shoujiang, Hong Wang, Shan Li, Yang Chen, and Jingying Wu. 2019. “Carbon Labels and ‘Horizontal Location Effect’: Can Carbon Labels Increase the Choice of Green Product?” *Global Ecology and Conservation* 18 (April): e00609. <https://doi.org/10.1016/j.gecco.2019.e00609>.
+Yap, Ken Shaun, Leow, Yong Jie, Chung, Si Ying, Loke, Clarice Pei Hua, Tan, Daren Zong Loong, Yeo, Zhiquan and Low, Jonathan Sze Choong (2023). Life Cycle Assessment of <span class="nocase">Plastic Waste End-of-life Treatments</span> in Singapore. *Procedia CIRP*, 116, p. 522–527, doi:[10.1016/j.procir.2023.02.088](https://doi.org/10.1016/j.procir.2023.02.088).
+
+Zhao, Xin and Qin, Lang (2015). Embodied Carbon Based Integrated Optimal Seismic Design for Super Tall Buildings with Viscoelastic Coupling Dampers. *Procedia Engineering*, 118, p. 223–231, doi:[10.1016/j.proeng.2015.08.421](https://doi.org/10.1016/j.proeng.2015.08.421).
+
+Zhou, Shoujiang, Wang, Hong, Li, Shan, Chen, Yang and Wu, Jingying (2019). Carbon labels and “horizontal location effect”: Can carbon labels increase the choice of green product? *Global Ecology and Conservation*, 18, p. e00609, doi:[10.1016/j.gecco.2019.e00609](https://doi.org/10.1016/j.gecco.2019.e00609).
