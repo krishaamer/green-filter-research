@@ -9,7 +9,7 @@ editor:
 
 # Abstract {#abstract}
 
-## *The Journey from Consumer to Investor Inside Planetary Boundaries: Designing a Financial AI Companion to Help College Students Shop, Save, and Invest Sustainably in the Donut Economy* {#the-journey-from-consumer-to-investor-inside-planetary-boundaries-designing-a-financial-ai-companion-to-help-college-students-shop-save-and-invest-sustainably-in-the-donut-economy}
+## *Designing an AI Companion to Help College Students Shop, Save, and Invest Sustainably* {#designing-an-ai-companion-to-help-college-students-shop-save-and-invest-sustainably}
 
 Overconsumption-driven extractive business practices are a large
 contributor to the degradation of Earth’s natural ecosystems, resource
@@ -36,9 +36,4 @@ The major contribution of the study is an interactive artefact - a
 design prototype of an AI companion, informed by design research.
 
 **Keywords**: Climate Anxiety, Human-AI Interaction, Sustainability
-
-TODO New Economics propose all sorts of new ideas, Donut Economy,
-Degrowth, Re The Progress Principle is a term coined by Teresa Amabile
-and Steven Kramer, says people like to see the number go up.
-@amabileProgressPrincipleUsing2011
 

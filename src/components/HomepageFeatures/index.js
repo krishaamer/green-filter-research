@@ -19,8 +19,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Understand who, where, and how makes the products you buy to become
-        eco-friendly
+        Understand who, where, and how makes the products you buy to choose
+        wisely
       </>
     ),
   },
@@ -36,8 +36,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus your money on what matters for climate stability, biodiversity,
-        and high quality of life
+        Focus your money on climate stability, biodiversity, clean air, water,
+        soil, and a high quality of life
       </>
     ),
   },
@@ -54,8 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        Filter companies based on green credentials and find regenerative
-        investments
+        Find regenerative companies based on green credentials and ban big polluters from your life
       </>
     ),
   },

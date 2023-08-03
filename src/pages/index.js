@@ -16,7 +16,7 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">
           <i>
-            AI Companion for Regenerative Capitalism
+            AI Companion for Capitalism
           </i>
         </p>
         <div className={styles.buttons}>

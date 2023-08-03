@@ -16,6 +16,11 @@ import Bunq from '../images/bunq.jpg'
 
 ## Regenerative Capitalism {#regenerative-capitalism}
 
+TODO New Economics propose all sorts of new ideas, Donut Economy,
+Degrowth, Re The Progress Principle is a term coined by Teresa Amabile
+and Steven Kramer, says people like to see the number go up.
+@amabileProgressPrincipleUsing2011
+
 There are many suggestions for upgrading capitalism.
 
 There’s no lack of books on changing capitalism.
