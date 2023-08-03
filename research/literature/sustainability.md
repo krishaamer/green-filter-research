@@ -7,9 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
@@ -212,7 +209,7 @@ Circle Economy (2021)
 
 -   Doughnut Economics Action Lab
 
--   (**raworthDoughnutEconomicsSeven2022?**) book
+-   Raworth (2017) book
 
 -   Doughnut economics’ BBC Reel (2020)
 
@@ -238,7 +235,7 @@ Circle Economy (2021)
 
     -   Ethical: humans have a responsibility to future generations to pass down a rich natural world.
 
--   (**almondr.e.a.LivingPlanetReport?**) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
+-   Almond, R.E.A. et al. (2022) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
 
 -   WWF (2022) case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.
 
@@ -443,9 +440,7 @@ For example, for consumers in Australian states and territories in 2018, 83% of 
 
 -   Lin et al. (2022) says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
--   (**tedxtalksSustainableBusinessFrank202?**) sustainability is filled with complexities, where child labor, prostitution, poverty, CO2 emission, dangerous chemicals, and many other issues became intertwined.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+-   TEDx Talks (2020) sustainability is filled with complexities, where child labor, prostitution, poverty, CO2 emission, dangerous chemicals, and many other issues became intertwined.
 
 -   T.-P. Wang and Teng (2022): Quantifying climate damage proposes scenarios of climate damage.
 
@@ -567,7 +562,7 @@ One type of legislation that works?
 
 Bring back your bottle and cup after use.
 
--   (**pastorProposingIntegratedIndicator2023?**) proposes a **product repairability index (PRI)**
+-   Ruiz-Pastor and Mesa (2023) proposes a **product repairability index (PRI)**
 -   Formentini and Ramanujan (2023)
 -   Recycling (Lenovo 08-29-22) “rethinking product design and inspiring consumers to expect more from their devices”
 -   “design is a tool to make complexity comprehensible” like the Helsinki chapel. there’s either or a priest or a social worker. it’s the perfect public service. “limit the barrier of entry for people to discover”. elegant.
@@ -628,6 +623,8 @@ AFP. 2023. “S. Korea President Vows ’Complete Overhaul’ Of Approach To Ext
 AI for Good. 2023. “Listening to Nature: Harnessing AI and Acoustics for Biodiversity Conservation.”
 
 Al Jazeera. 2023. “Death Toll from S Korea Rains Hits 39; Yoon Orders All-Out Effort.” https://www.aljazeera.com/news/2023/7/17/yoon-orders-all-out-effort-after-heavy-rains-kill-39-in-s-korea.
+
+Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, and T. (Eds). 2022. “Living Planet Report 2022 Building a Naturepositive Society.” Gland, Switzerland: WWF (World Wide Fund for Nature).
 
 Amin, Sakib, Tooraj Jamasb, Manuel Llorca, Laura Marsiliani, and Thomas I. Renström. 2022. “Decarbonisation Policies and Energy Price Reforms in Bangladesh.” *Energy Policy* 170: 113224. <https://doi.org/10.1016/j.enpol.2022.113224>.
 
@@ -939,6 +936,8 @@ Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily, and Stephe
 
 *Public Health Linkages with Sustainability: Workshop Summary*. 2013. Washington, D.C.: National Academies Press. <https://doi.org/10.17226/18375>.
 
+Raworth, Kate. 2017. *Doughnut Economics: Seven Ways to Think Like a 21st Century Economist*. White River Junction, Vermont: Chelsea Green Publishing.
+
 ReFi DAO. 2022. “ReFi Podcast S2E9: Kolektivo Framework with Luuk and Pat.”
 
 Rennert, Kevin, Frank Errickson, Brian C. Prest, Lisa Rennels, Richard G. Newell, William Pizer, Cora Kingdon, et al. 2022. “Comprehensive Evidence Implies a Higher Social Cost of CO2.” *Nature* 610 (7933): 687–92. <https://doi.org/10.1038/s41586-022-05224-9>.
@@ -956,6 +955,8 @@ Rossi, Marta, Federica Cappelletti, and Michele Germani. 2022. “Design for Env
 Ruba, Umama Begum, and Mohammad Samiul Ahsan Talucder. 2023. “Potentiality of Homestead Agroforestry for Achieving Sustainable Development Goals: Bangladesh Perspectives.” *Heliyon* 9 (3): e14541. <https://doi.org/10.1016/j.heliyon.2023.e14541>.
 
 Ruiz-Pastor, Laura, Vicente Chulvi, Elena Mulet, and Marta Royo. 2022. “A Metric for Evaluating Novelty and Circularity as a Whole in Conceptual Design Proposals.” *Journal of Cleaner Production* 337: 130495. <https://doi.org/10.1016/j.jclepro.2022.130495>.
+
+Ruiz-Pastor, Laura, and Jaime A. Mesa. 2023. “Proposing an Integrated Indicator to Measure Product Repairability.” *Journal of Cleaner Production* 395 (April): 136434. <https://doi.org/10.1016/j.jclepro.2023.136434>.
 
 Sala, Serenella, Eleonora Crenna, Michela Secchi, and Esther Sanyé-Mengual. 2020. “Environmental Sustainability of European Production and Consumption Assessed Against Planetary Boundaries.” *Journal of Environmental Management* 269 (September): 110686. <https://doi.org/10.1016/j.jenvman.2020.110686>.
 
@@ -988,6 +989,8 @@ Stern, Nicholas. 2022. “Towards a Carbon Neutral Economy: How Government Shoul
 “Sustainability Starts in the Design Process, and AI Can Help.” n.d. *MIT Technology Review*. https://www.technologyreview.com/2022/01/19/1043819/sustainability-starts-in-the-design-process-and-ai-can-help/. Accessed June 17, 2023.
 
 TED. 2018. “A Healthy Economy Should Be Designed to Thrive, Not Grow \| Kate Raworth.”
+
+TEDx Talks. 2020. “Sustainable Business \| Frank Wijen \| TEDxErasmusUniversityRotterdam.”
 
 The Economic Times. 2022. “Climate Change: Earth at 8 Billion: Consumption Not Crowd Is Key to Climate.” https://economictimes.indiatimes.com/industry/renewables/earth-at-8-billion-consumption-not-crowd-is-key-to-climate/articleshow/95526684.cms.
 
