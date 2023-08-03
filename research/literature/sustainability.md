@@ -60,10 +60,10 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 ### Ecosystem Services {#ecosystem-services}
 
-(**historyEcosystemServices2010?**) the history of the valuation of nature’s services goes back to the 18th century when David Ricardo and Jean Baptise say discussed nature’s *work*, however both considered it should be free. In 1997 Daily (1997) proposed the idea of ecosystem services and Costanza et al. (1997) attempted to assess the amount of ecosystem services provided.
+Gómez-Baggethun et al. (2010) the history of the valuation of nature’s services goes back to the 18th century when David Ricardo and Jean Baptise say discussed nature’s *work*, however both considered it should be free. In 1997 Daily (1997) proposed the idea of ecosystem services and Costanza et al. (1997) attempted to assess the amount of ecosystem services provided.
 
 -   Leverhulme Centre for Nature Recovery (2023) should we put a price on nature?
--   Is it time to leave utilitarian environmentalism behind? (**muradianEcosystemServicesNature2021?**)
+-   Is it time to leave utilitarian environmentalism behind? Muradian and Gómez-Baggethun (2021)
 
 | 9 Steps                                        |
 |------------------------------------------------|
@@ -83,7 +83,7 @@ There are 2 approaches to protecting nature
 | Economics of Nature Commodification | Economics of the Sacred                                       |
 |------------------------------------|------------------------------------|
 | Measure and assign value to nature  | Say nature is sacred, such as Churches, and can’t be touched. |
-|                                     | Eisenstein (2011); (**eisensteinClimateNewStory2018?**)       |
+|                                     | Eisenstein (2011); Eisenstein (2018)                          |
 |                                     |                                                               |
 
 -   Han and Chen (2022) identifies nature-based solutions “land re-naturalization (such as afforestation and wetland restoration)”
@@ -123,17 +123,17 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 
 #### Business Inside Planetary Boundaries {#business-inside-planetary-boundaries}
 
--   (**debalieKateRaworthCreating2018?**)
+-   De Balie (2018)
 
--   (**houdiniPlanetaryBoundariesAssessment2018?**)
+-   Houdini (2018)
 
--   (**haeggmanPlanetaryBoundariesAnalysis2018?**)
+-   Haeggman, Moberg, and Sandin (2018)
 
 #### Overconsumption {#overconsumption}
 
 -   Overconsumption is one of the root causes of climate change
 -   Ivanova et al. (2020): “Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO2 equivalent per capita.”
--   Cities are responsible for 80% of the emissions (**rosalescarreonUrbanEnergySystems2018?**)
+-   Cities are responsible for 80% of the emissions Rosales Carreón and Worrell (2018)
 -   Overconsumption is also one of the root causes of marine plastic pollution. Ford et al. (2022) and Lavers, Bond, and Rolsky (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 -   Moberg et al. (2019) reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
 
@@ -156,7 +156,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 -   The donut is a useful visualization to be able to grasp the big picture, and it’s a social object that’s simple and deep at the same time, enabling starting conversations with people from all walks of life, independent of their politics leanings. As Raw calls it, it’s a self-portrait of humanity in the beggining of the 21st century. Combining the SDGs inside the donut and the Planetary Boundaries outside the donut. The space donut represents a state of equuilibrium and balance on spaceship Earth.
 
--   (**fanningSocialShortfallEcological2021?**) data for the donut: “The social shortfall and ecological overshoot of nations”
+-   Fanning et al. (2021) data for the donut: “The social shortfall and ecological overshoot of nations”
 
 -   Oikos Denktank (2021) donut in brussels, belgium. everything has to be adapted to the place and context BrusselsDonut (2022)
 
@@ -220,7 +220,7 @@ Circle Economy (2021)
 
 ### Earth System Law {#earth-system-law}
 
--   (**dutoitReimaginingInternationalEnvironmental2022?**)
+-   Du Toit and Kotzé (2022)
 
 #### Biodiversity {#biodiversity}
 
@@ -238,7 +238,7 @@ Circle Economy (2021)
 
     -   Ethical: humans have a responsibility to future generations to pass down a rich natural world.
 
--   Almond, R.E.A. et al. (n.d.) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
+-   (**almondr.e.a.LivingPlanetReport?**) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
 
 -   WWF (2022) case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.
 
@@ -335,7 +335,7 @@ Large ones that get international news coverage:
 
 -   Bioswales
 
--   (**fischerMakingDecadeEcosystem2021?**) UN announced 2021–2030 the Decade on Ecosystem Restoration
+-   Fischer et al. (2021) UN announced 2021–2030 the Decade on Ecosystem Restoration
 
 ### Digital Twins {#digital-twins}
 
@@ -400,9 +400,9 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 From National Public Utilities Council (2022)
 
-For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain (**goodwinTargetingDegreesGlobal2023?**)
+For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain Goodwin et al. (2023)
 
--   Mapping pollution sources in China (**xieEcologicalCivilizationChina2021?**)
+-   Mapping pollution sources in China Xie et al. (2021)
 
 #### Cap & Trade {#cap-trade}
 
@@ -629,8 +629,6 @@ AI for Good. 2023. “Listening to Nature: Harnessing AI and Acoustics for Biodi
 
 Al Jazeera. 2023. “Death Toll from S Korea Rains Hits 39; Yoon Orders All-Out Effort.” https://www.aljazeera.com/news/2023/7/17/yoon-orders-all-out-effort-after-heavy-rains-kill-39-in-s-korea.
 
-Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, and T. (Eds). n.d. “Living Planet Report 2022 Building a Naturepositive Society.” Gland, Switzerland: WWF (World Wide Fund for Nature).
-
 Amin, Sakib, Tooraj Jamasb, Manuel Llorca, Laura Marsiliani, and Thomas I. Renström. 2022. “Decarbonisation Policies and Energy Price Reforms in Bangladesh.” *Energy Policy* 170: 113224. <https://doi.org/10.1016/j.enpol.2022.113224>.
 
 Araújo, Inácio Fernandes De, Randall W. Jackson, Amir B. Ferreira Neto, and Fernando S. Perobelli. 2020. “European Union Membership and CO2 Emissions: A Structural Decomposition Analysis.” *Structural Change and Economic Dynamics* 55 (December): 190–203. <https://doi.org/10.1016/j.strueco.2020.06.006>.
@@ -697,6 +695,8 @@ Daniel Värjö. 2022. “Nya satelliter avslöjar dolda utsläpp av växthusgase
 
 David Pinto. 2023. “Backlash Against Nature Restoration Law Shows Deep Divides in European Parliament.” *France 24*. https://www.france24.com/en/europe/20230711-backlash-against-nature-restoration-law-shows-deep-divides-in-european-parliament.
 
+De Balie. 2018. “Kate Raworth: Creating a 21st Century Economy - Doughnut Economics.”
+
 de Otazu, Rocío López de Lapuente Díaz, Ortzi Akizu-Gardoki, Blanca de Ulibarri, Maider Iturrondobeitia, Rikardo Minguez, and Erlantz Lizundia. 2022. “Ecodesign Coupled with Life Cycle Assessment to Reduce the Environmental Impacts of an Industrial Enzymatic Cleaner.” *Sustainable Production and Consumption* 29: 718–29. <https://doi.org/10.1016/j.spc.2021.11.016>.
 
 De Queiroz-Stein, Guilherme, and Karen M. Siegel. 2023. “Possibilities for Mainstreaming Biodiversity? Two Perspectives on the Concept of Bioeconomy.” *Earth System Governance* 17 (August): 100181. <https://doi.org/10.1016/j.esg.2023.100181>.
@@ -713,6 +713,8 @@ Dinerstein, Eric, David Olson, Anup Joshi, Carly Vynne, Neil D. Burgess, Eric Wi
 
 Douglas, Erin. 2023. “This Summer Is on Track to Be Among Texas’ Most Extreme.” *The Texas Tribune*. https://www.texastribune.org/2023/07/18/texas-heat-summer-extreme-weather/.
 
+Du Toit, Louise, and Louis J. Kotzé. 2022. “Reimagining International Environmental Law for the Anthropocene: An Earth System Law Perspective.” *Earth System Governance* 11 (January): 100132. <https://doi.org/10.1016/j.esg.2022.100132>.
+
 Dull, Deborah. 2021. *Circular Supply Chain: 17 Common Questions, How Any Supply Chain Can Take the Next Step*. Torrazza Piemonte: Amazon Italia Logistica.
 
 Eerola, Toni. 2022. “Corporate Conduct, Commodity and Place: Ongoing Mining and Mineral Exploration Disputes in Finland and Their Implications for the Social License to Operate.” *Resources Policy* 76 (June): 102568. <https://doi.org/10.1016/j.resourpol.2022.102568>.
@@ -720,6 +722,8 @@ Eerola, Toni. 2022. “Corporate Conduct, Commodity and Place: Ongoing Mining an
 Eesti Vabariigi Valitsus. 2022. “Rohepöörde Tegevusplaan.” https://valitsus.ee/valitsuse-eesmargid-ja-tegevused/rohepoliitika/tegevusplaan.
 
 Eisenstein, Charles. 2011. *Sacred Economics: Money, Gift, & Society in the Age of Transition*. Berkeley, Calif: Evolver Editions.
+
+———. 2018. *Climate: A New Story*. Berkeley, California: North Atlantic Books.
 
 Eric fogg. 2020. “What Is Lights Out Manufacturing? Exploring Full Automation.” https://www.machinemetrics.com/blog/lights-out-manufacturing.
 
@@ -739,7 +743,11 @@ Fabris, Nikola, and Radoica Luburić. 2022. *CLIMATE CHANGE AND QUALITY OF LIFE*
 
 Falconer, Rebecca. 2023. “Over 123 Million Under Heat Alerts as Intensifying Heat Wave Spreads Across U.S.” *Axios*. https://www.axios.com/2023/07/21/us-heat-wave-temperatures.
 
+Fanning, Andrew L., Daniel W. O’Neill, Jason Hickel, and Nicolas Roux. 2021. “The Social Shortfall and Ecological Overshoot of Nations.” *Nat Sustain* 5 (1): 26–36. <https://doi.org/10.1038/s41893-021-00799-z>.
+
 “FFC - Fair Factories ClearingHouse - Compliance Solutions.” n.d. *FFC - Fair Factories Clearninghouse*. https://www.fairfactories.org. Accessed June 26, 2023.
+
+Fischer, Joern, Maraja Riechers, Jacqueline Loos, Berta Martin-Lopez, and Vicky M. Temperton. 2021. “Making the UN Decade on Ecosystem Restoration a Social-Ecological Endeavour.” *Trends in Ecology & Evolution* 36 (1): 20–28. <https://doi.org/10.1016/j.tree.2020.08.018>.
 
 Ford, Helen V., Nia H. Jones, Andrew J. Davies, Brendan J. Godley, Jenna R. Jambeck, Imogen E. Napper, Coleen C. Suckling, Gareth J. Williams, Lucy C. Woodall, and Heather J. Koldewey. 2022. “The Fundamental Links Between Climate Change and Marine Plastic Pollution.” *Science of The Total Environment* 806: 150392. <https://doi.org/10.1016/j.scitotenv.2021.150392>.
 
@@ -757,6 +765,10 @@ Gaure, Simen, and Rolf Golombek. 2022. “True or Not True: CO2 Free Electricity
 
 Golias, Christopher A. 2019. “Toward Donut-Centered Design: A Design Research Toolkit for the 21st Century.” *Ethnographic Praxis in Industry Conference Proceedings* 2019 (1): 605–24. <https://doi.org/10.1111/1559-8918.2019.01317>.
 
+Gómez-Baggethun, Erik, Rudolf De Groot, Pedro L. Lomas, and Carlos Montes. 2010. “The History of Ecosystem Services in Economic Theory and Practice: From Early Notions to Markets and Payment Schemes.” *Ecological Economics* 69 (6): 1209–18. <https://doi.org/10.1016/j.ecolecon.2009.11.007>.
+
+Goodwin, Kylie, Cameron Allen, Soo Huey Teh, Mengyu Li, Jacob Fry, Manfred Lenzen, Serena Farrelly, et al. 2023. “Targeting 1.5 Degrees with the Global Carbon Footprint of the Australian Capital Territory.” *Environmental Science & Policy* 144 (June): 137–50. <https://doi.org/10.1016/j.envsci.2023.03.006>.
+
 “GreenDice - Reinventing the Idea of a Computer-Related Tech Purchase.” 2021.
 
 Guerrero, Maria J., Carol L. Bedoya, José D. López, Juan M. Daza, and Claudia Isaza. 2023. “Acoustic Animal Identification Using Unsupervised Learning.” *Methods Ecol Evol* 14 (6): 1500–1514. <https://doi.org/10.1111/2041-210X.14103>.
@@ -764,6 +776,8 @@ Guerrero, Maria J., Carol L. Bedoya, José D. López, Juan M. Daza, and Claudia 
 Guidotti, Tee L. 2015. *Health and Sustainability: An Introduction*. Oxford ; New York: Oxford University Press.
 
 Gupta, Brij B., Akshat Gaurav, Prabin Kumar Panigrahi, and Varsha Arya. 2023. “Analysis of Artificial Intelligence-Based Technologies and Approaches on Sustainable Entrepreneurship.” *Technological Forecasting and Social Change* 186 (January): 122152. <https://doi.org/10.1016/j.techfore.2022.122152>.
+
+Haeggman, Marika, Fredrik Moberg, and Gustav Sandin. 2018. “Planetary Boundaries Analysis for Houdini Sportsweara Pilot Study: Assessment of Company Performance from a Planetary Boundaries Perspective,” January.
 
 Han, Wenyi, and Wendy Y. Chen. 2022. “Embedding Nature-Based Solutions into the Social Cost of Carbon.” *Environment International* 167 (September): 107431. <https://doi.org/10.1016/j.envint.2022.107431>.
 
@@ -780,6 +794,8 @@ HKTDC Research. 2022. “France Expands Producer Responsibility to Certain Texti
 Hoffmann, Jörn, Peter Bauer, Irina Sandu, Nils Wedi, Thomas Geenen, and Daniel Thiemert. 2023. “Destination Earth A Digital Twin in Support of Climate Services.” *Climate Services* 30 (April): 100394. <https://doi.org/10.1016/j.cliser.2023.100394>.
 
 Honton, Joseph. 2022. “The Forgotten Father of Climatology.” *Climate Conscious*.
+
+Houdini. 2018. “Planetary Boundaries Assessment.” *Houdini Sportswear*.
 
 Howard, Jennifer, Elizabeth McLeod, Sebastian Thomas, Erin Eastwood, Matthew Fox, Lauren Wenzel, and Emily Pidgeon. 2017. “The Potential to Integrate Blue Carbon into MPA Design and Management.” *Aquatic Conserv: Mar. Freshw. Ecosyst.* 27 (September): 100–115. <https://doi.org/10.1002/aqc.2809>.
 
@@ -891,6 +907,8 @@ Mowbray, John. 2018. “World’s First Free Digital Map of Apparel Factories.�
 
 Munaro, Mayara Regina, Sergio Fernando Tavares, and Luís Bragança. 2022. “The Ecodesign Methodologies to Achieve Buildings’ Deconstruction: A Review and Framework.” *Sustainable Production and Consumption* 30: 566–83. <https://doi.org/10.1016/j.spc.2021.12.032>.
 
+Muradian, Roldan, and Erik Gómez-Baggethun. 2021. “Beyond Ecosystem Services and Nature’s Contributions: Is It Time to Leave Utilitarian Environmentalism Behind?” *Ecological Economics* 185 (July): 107038. <https://doi.org/10.1016/j.ecolecon.2021.107038>.
+
 Murase, Yohsuke, and Seung Ki Baek. 2018. “Seven Rules to Avoid the Tragedy of the Commons.” *Journal of Theoretical Biology* 449 (July): 94–102. <https://doi.org/10.1016/j.jtbi.2018.04.027>.
 
 Nastaraan Vadoodi. 2022. “Ecodesign Requirements to Drive Sustainable Product Development.” https://www.nemko.com/blog/ecodesign-requirements-to-drive-sustainable-product-development-0.
@@ -928,6 +946,8 @@ Rennert, Kevin, Frank Errickson, Brian C. Prest, Lisa Rennels, Richard G. Newell
 Ritz, Robert A. 2022. “Global Carbon Price Asymmetry.” *Journal of Environmental Economics and Management* 114 (July): 102687. <https://doi.org/10.1016/j.jeem.2022.102687>.
 
 Rontard, Benjamin, and Humberto Reyes Hernández. 2022. “Political Construction of Carbon Pricing: Experience from New Zealand Emissions Trading Scheme.” *Environmental Development* 43 (September): 100727. <https://doi.org/10.1016/j.envdev.2022.100727>.
+
+Rosales Carreón, Jesús, and Ernst Worrell. 2018. “Urban Energy Systems Within the Transition to Sustainable Development. A Research Agenda for Urban Metabolism.” *Resources, Conservation and Recycling* 132 (May): 258–66. <https://doi.org/10.1016/j.resconrec.2017.08.004>.
 
 Rose, David. 2015. *Enchanted Objects: Innovation, Design, and the Future of Technology*. 1. Scribner trade paperback ed.
 
@@ -1018,6 +1038,8 @@ Web, Mirror. 2023. “South Korea President Vows Climate Change Response After D
 Wetenschappelijk Bureau GroenLinks. 2023. “Kate Raworth: Doughnut Economics, from Theory to Practice.”
 
 WWF. 2022. “Beyond Forests: Reducing the EU’s Footprint on All Natural Ecosystems.” World Wide Fund For Nature.
+
+Xie, Minghui, Huabo Duan, Peng Kang, Qi Qiao, and Lu Bai. 2021. “Toward an Ecological Civilization: China’s Progress as Documented by the Second National General Survey of Pollution Sources.” *Engineering* 7 (9): 1336–41. <https://doi.org/10.1016/j.eng.2020.11.003>.
 
 Yadav, Shubh Pravat Singh, Vivek Lahutiya, Netra Prasad Ghimire, Bishnu Yadav, and Prava Paudel. 2023. “Exploring Innovation for Sustainable Agriculture: A Systematic Case Study of Permaculture in Nepal.” *Heliyon* 9 (5): e15899. <https://doi.org/10.1016/j.heliyon.2023.e15899>.
 
