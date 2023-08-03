@@ -54,7 +54,7 @@ const FeatureList = [
 
     description: (
       <>
-        Find regenerative companies based on green credentials and ban big polluters from your life
+        Find regenerative companies based on green credentials and ban big polluters
       </>
     ),
   },
