@@ -16,11 +16,15 @@ import Humboldt from '../images/humboldt.jpg'
 
 *Sustainability* was first mentioned in (Hannß Carl von Carlowitz, 1713) in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*.
 
+The 1987 United Nations’ Brundtland Report (Our Common Future) defined sustainable development: “Development that meets the needs of the present without compromising the ability of future generations to meet their own needs” (World Commission on Environment and Development, 1987).
+
 Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
 -   Svalbard Seed Vault
+-   Jackson (1996) *preventive environmental management*
+-   Jackson (2017) limits to growth update
 
 The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al., 2011).
 
@@ -126,8 +130,27 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 
 -   Haeggman, Moberg and Sandin (2018)
 
+#### Slavery {#slavery}
+
+-   Kunz et al. (2023) an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. Borrelli et al. (2023) 71% of enslaved people are estimated to be female. Decker Sparks et al. (2021) slavery is connected to environmental degradation and climate change. Slaves are used in environmental crimes such as 40% of deforestation globally. The need for cheap labor turns slavery into a subsidy keeping environmental (**degradation.sovacoolWhenSubterraneanSlavery2021?**) Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images Boyd et al. (2018).
+
+-   UN SDG target 8.7 targets to eliminate all forms of slavery.
+
+-   The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports Walk Free (2023)
+
+-   Hans van Leeuwen (2023) slavery affects industries from fashion to technology, including sustainability enablers such as solar panels.
+
+-   “commodification of human beings”
+
+-   Modern Slavery Act.
+
+#### Overpopulation {#overpopulation}
+
+-   Cafaro, Hansson and Götmark (2022) “Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left”
+
 #### Overconsumption {#overconsumption}
 
+-   Ianole and Cornescu (2013) debate on overconsumption is so polarized, it’s difficult to have a meaningful discussion of the topic.
 -   Overconsumption is one of the root causes of climate change
 -   Ivanova et al. (2020): “Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO2 equivalent per capita.”
 -   Cities are responsible for 80% of the emissions Rosales Carreón and Worrell (2018)
@@ -682,17 +705,23 @@ Bassani, Fabiana, Rodrigues, Carla, Marques, Pedro and Freire, Fausto (2022). Ec
 
 BBC Reel (2020). How the Dutch are reshaping their post-pandemic economy - BBC REEL.
 
+Borrelli, Sara, Ramasamy, Renuka, Wong, Ruth and Spiby, Helen (2023). Care and support during maternity for mothers affected by modern slavery: A scoping review. *International Journal of Nursing Studies Advances*, 5, p. 100139, doi:[10.1016/j.ijnsa.2023.100139](https://doi.org/10.1016/j.ijnsa.2023.100139).
+
 Bouscasse, Hélène, Gabet, Stephan, Kerneis, Glen, Provent, Ariane, Rieux, Camille, Ben Salem, Nabil, Dupont, Harry, Troude, Florence, Mathy, Sandrine and Slama, Rémy (2022). Designing local air pollution policies focusing on mobility and heating to avoid a targeted number of pollution-related deaths: Forward and backward approaches combining air pollution modeling, health impact assessment and cost-benefit analysis. *Environment International*, 159, p. 107030, doi:[10.1016/j.envint.2021.107030](https://doi.org/10.1016/j.envint.2021.107030).
 
 Bousfield, Christopher G., Massam, Mike R., Peres, Carlos A. and Edwards, David P. (2022). Carbon payments can cost-effectively improve logging sustainability in the Amazon. *Journal of Environmental Management*, 314, p. 115094, doi:[10.1016/j.jenvman.2022.115094](https://doi.org/10.1016/j.jenvman.2022.115094).
 
 Bowler, Diana E., Bjorkman, Anne D., Dornelas, Maria, Myers-Smith, Isla H., Navarro, Laetitia M., Niamir, Aidin, Supp, Sarah R., Waldock, Conor, Winter, Marten, Vellend, Mark, Blowes, Shane A., Böhning-Gaese, Katrin, Bruelheide, Helge, Elahi, Robin, Antão, Laura H., Hines, Jes, Isbell, Forest, Jones, Holly P., Magurran, Anne E., Cabral, Juliano Sarmento and Bates, Amanda E. (2020). Mapping human pressures on biodiversity across the planet uncovers anthropogenic threat complexes. *People and Nature*, 2(2), p. 380–394, doi:[10.1002/pan3.10071](https://doi.org/10.1002/pan3.10071).
 
+Boyd, Doreen S., Jackson, Bethany, Wardlaw, Jessica, Foody, Giles M., Marsh, Stuart and Bales, Kevin (2018). Slavery from Space: Demonstrating the role for satellite remote sensing to inform evidence-based action related to UN SDG number 8. *ISPRS Journal of Photogrammetry and Remote Sensing*, 142, p. 380–388, doi:[10.1016/j.isprsjprs.2018.02.012](https://doi.org/10.1016/j.isprsjprs.2018.02.012).
+
 Bradley, Charles G. and Corsini, Lucia (2023). A literature review and analytical framework of the sustainability of reusable packaging. *Sustainable Production and Consumption*, 37, p. 126–141, doi:[10.1016/j.spc.2023.02.009](https://doi.org/10.1016/j.spc.2023.02.009).
 
 Brohan, P., Allan, R., Freeman, E., Wheeler, D., Wilkinson, C. and Williamson, F. (2012). Constraining the temperature history of the past millennium using early instrumental observations. *Climate of the Past*, 8(5), p. 1551–1563, doi:[10.5194/cp-8-1551-2012](https://doi.org/10.5194/cp-8-1551-2012).
 
 BrusselsDonut (2022). Home (EN) - BrusselsDonut.
+
+Cafaro, Philip, Hansson, Pernilla and Götmark, Frank (2022). Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left. *Biological Conservation*, 272, p. 109646, doi:[10.1016/j.biocon.2022.109646](https://doi.org/10.1016/j.biocon.2022.109646).
 
 Cardinale, Bradley J., Duffy, J. Emmett, Gonzalez, Andrew, Hooper, David U., Perrings, Charles, Venail, Patrick, Narwani, Anita, Mace, Georgina M., Tilman, David, Wardle, David A., Kinzig, Ann P., Daily, Gretchen C., Loreau, Michel, Grace, James B., Larigauderie, Anne, Srivastava, Diane S. and Naeem, Shahid (2012). Biodiversity loss and its impact on humanity. *Nature*, 486(7401), p. 59–67, doi:[10.1038/nature11148](https://doi.org/10.1038/nature11148).
 
@@ -733,6 +762,8 @@ de Otazu, Rocío López de Lapuente Díaz, Akizu-Gardoki, Ortzi, de Ulibarri, Bl
 De Queiroz-Stein, Guilherme and Siegel, Karen M. (2023). Possibilities for mainstreaming biodiversity? Two perspectives on the concept of bioeconomy. *Earth System Governance*, 17, p. 100181, doi:[10.1016/j.esg.2023.100181](https://doi.org/10.1016/j.esg.2023.100181).
 
 Debnath, Ramit, Bardhan, Ronita, Shah, Darshil U., Mohaddes, Kamiar, Ramage, Michael H., Alvarez, R. Michael and Sovacool, Benjamin K. (2022). Social media enables people-centric climate action in the hard-to-decarbonise building sector. *Sci Rep*, 12(1), p. 19017, doi:[10.1038/s41598-022-23624-9](https://doi.org/10.1038/s41598-022-23624-9).
+
+Decker Sparks, Jessica L., Boyd, Doreen S., Jackson, Bethany, Ives, Christopher D. and Bales, Kevin (2021). Growing evidence of the interconnections between modern slavery, environmental degradation, and climate change. *One Earth*, 4(2), p. 181–191, doi:[10.1016/j.oneear.2021.01.015](https://doi.org/10.1016/j.oneear.2021.01.015).
 
 Defi Donut (2021). Pool Together: \$73 to \$44,000 - No Loss Crypto Lottery \| DeFi.
 
@@ -806,6 +837,8 @@ Hannah Devlin (2022). Cancer breakthrough is a “wake-up” call on danger of a
 
 Hannß Carl von Carlowitz (1713). *Sylvicultura oeconomica, oder haußwirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht*. Leipzig: Braun.
 
+Hans van Leeuwen (2023). Modern slavery: Grace Forrest’s Walk Free launches Global Slavery Index.
+
 Hassoun, Abdo, Jagtap, Sandeep, Trollman, Hana, Garcia-Garcia, Guillermo, Abdullah, Nour Alhaj, Goksen, Gulden, Bader, Farah, Ozogul, Fatih, Barba, Francisco J., Cropotova, Janna, Munekata, Paulo E. S. and Lorenzo, José M. (2023). Food processing 4.0: Current and future developments spurred by the fourth industrial revolution. *Food Control*, 145, p. 109507, doi:[10.1016/j.foodcont.2022.109507](https://doi.org/10.1016/j.foodcont.2022.109507).
 
 Hedberg, Annika and Šipka, Stefan (2021). Toward a circular economy: The role of digitalization. *One Earth*, 4(6), p. 783–785, doi:[10.1016/j.oneear.2021.05.020](https://doi.org/10.1016/j.oneear.2021.05.020).
@@ -820,6 +853,8 @@ Houdini (2018). Planetary Boundaries Assessment. *Houdini Sportswear*.
 
 Howard, Jennifer, McLeod, Elizabeth, Thomas, Sebastian, Eastwood, Erin, Fox, Matthew, Wenzel, Lauren and Pidgeon, Emily (2017). The potential to integrate blue carbon into MPA design and management. *Aquatic Conserv: Mar. Freshw. Ecosyst.*, 27, p. 100–115, doi:[10.1002/aqc.2809](https://doi.org/10.1002/aqc.2809).
 
+Ianole, Rodica and Cornescu, Viorel (2013). Overconsumption Society through the <span class="nocase">Looking-glass</span> of Behavioral Economics. *Procedia Economics and Finance*, 6, p. 66–72, doi:[10.1016/S2212-5671(13)00115-9](https://doi.org/10.1016/S2212-5671(13)00115-9).
+
 IEA (2022). *Global Energy Review: CO2 Emissions in 2021*. Paris.
 
 iGenius (2020). Let’s talk about sustainable AI. *Ideas @ iGenius*.
@@ -833,6 +868,10 @@ Irwin, Rachel, Short, Ian, Mohammadrezaei, Mohammad and Dhubháin, Áine Ní (20
 Ivanova, Diana, Barrett, John, Wiedenhofer, Dominik, Macura, Biljana, Callaghan, Max and Creutzig, Felix (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, 15(9), p. 093001, doi:[10.1088/1748-9326/ab8589](https://doi.org/10.1088/1748-9326/ab8589).
 
 Ivy Yin (2023). Commodities 2023: China’s carbon market to slow in 2023 as energy security, economy take priority. *S&P Global Commodity Insights*.
+
+Jackson, Tim (1996). *Material concerns: Pollution, profit, and quality of life*. \[Stockholm, Sweden\] : London ; New York: SEI, Stockholm Environment Institute ; Routledge.
+
+Jackson, Tim (2017). *Prosperity without growth: Foundations for the economy of tomorrow*. Second Edition. London ; New York: Routledge, Taylor & Francis Group.
 
 Jacques Vernier (2021). Extended producer responsibility (EPR) in France. *Field Actions Science Reports*.
 
@@ -853,6 +892,8 @@ Koch, Natalie (2022). Opinion \| Arizona Is in a Race to the Bottom of Its Water
 Kornek, Ulrike, Klenert, David, Edenhofer, Ottmar and Fleurbaey, Marc (2021). The social cost of carbon and inequality: When local redistribution shapes global carbon prices. *Journal of Environmental Economics and Management*, 107, p. 102450, doi:[10.1016/j.jeem.2021.102450](https://doi.org/10.1016/j.jeem.2021.102450).
 
 Korosec, Kirsten (2021). Amazon taps \$2B climate fund to invest in three more startups. *TechCrunch*.
+
+Kunz, Nathan, Chesney, Thomas, Trautrims, Alexander and Gold, Stefan (2023). Adoption and transferability of joint interventions to fight modern slavery in food supply chains. *International Journal of Production Economics*, 258, p. 108809, doi:[10.1016/j.ijpe.2023.108809](https://doi.org/10.1016/j.ijpe.2023.108809).
 
 Lavers, Jennifer L., Bond, Alexander L. and Rolsky, Charles (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, 272, p. 109655, doi:[10.1016/j.biocon.2022.109655](https://doi.org/10.1016/j.biocon.2022.109655).
 
@@ -1030,6 +1071,8 @@ Vitillo, Jenny G., Eisaman, Matthew D., Aradóttir, Edda S. P., Passarini, Fabri
 
 Volkova, Liubov, Roxburgh, Stephen H. and Weston, Christopher J. (2021). Effects of prescribed fire frequency on wildfire emissions and carbon sequestration in a fire adapted ecosystem using a comprehensive carbon model. *Journal of Environmental Management*, 290, p. 112673, doi:[10.1016/j.jenvman.2021.112673](https://doi.org/10.1016/j.jenvman.2021.112673).
 
+Walk Free (2023). Global Slavery Index Map. *Walk Free*.
+
 Wang, Tian-Peng and Teng, Fei (2022). A multi-model assessment of climate change damage in China and the world. *Advances in Climate Change Research*, 13(3), p. 385–396, doi:[10.1016/j.accre.2022.04.005](https://doi.org/10.1016/j.accre.2022.04.005).
 
 Wang, Yong, Ma, Yuhe and Wang, Tian (2022). Measurement of China’s provincial social cost of carbon under the integrated socioeconomic-climate framework. *Journal of Environmental Management*, 321, p. 115993, doi:[10.1016/j.jenvman.2022.115993](https://doi.org/10.1016/j.jenvman.2022.115993).
@@ -1039,6 +1082,8 @@ Waterstaat, Ministerie van Infrastructuur en (2019). Circular Dutch economy by 2
 Web, Mirror (2023). South Korea president vows climate change response after deadly monsoon rains. *Minute Mirror*.
 
 Wetenschappelijk Bureau GroenLinks (2023). Kate Raworth: Doughnut Economics, from theory to practice.
+
+World Commission on Environment and Development ed. (1987). *Our common future*. Oxford ; New York: Oxford University Press.
 
 WWF (2022). *Beyond Forests: Reducing the EU’s footprint on all natural ecosystems*. World Wide Fund For Nature.
 

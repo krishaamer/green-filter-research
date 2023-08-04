@@ -35,7 +35,7 @@ By the 2020s, AI-based models became a mainstay in medical research, drug develo
 
 In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text Alex Tamkin and Deep Ganguli (2021). Singer et al. (2022) describes how collecting billions of images with descriptive data (for example the descriptive *alt* text which accompanies images on websites) has enabled researchers to train AI models such as ***stable diffusion*** that can generate images based on human-language.
 
-Hinton likes to call AI an *idiot savant*, french for someone with exceptional aptitude yet serious mental disorder. Large AI models don’t understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the ‘AI brain’. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations CapInstitute (2023).
+Hinton likes to call AI an *idiot savant*, someone with exceptional aptitude yet serious mental disorder. Large AI models don’t understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the ‘AI brain’. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations CapInstitute (2023).
 
 ### Generative AI {#generative-ai}
 
@@ -94,7 +94,7 @@ There’s wide literature available describing human-AI interactions across vari
 
 There are noticeable differences in the quality of the LLM output, which increases with model size. Levesque, Davis and Morgenstern (2012) developed the *Winograd Schema Challenge*, looking to improve on the Turing test, by requiring the AI to display an understanding of language and context. The test consists of a story and a question, which has a different meaning as the context changes: “The trophy would not fit in the brown suitcase because it was too big” - what does the *it* refer to? Humans are able to understand this from context while a computer models would fail. Even GPT-3 still failed the test, but later LLMs have been able to solve this test correctly (90% accuracy) Kocijan et al. (2022). This is to say AI is in constant development and improving it’s ability to make sense of language.
 
-***ChatGPT*** is the first ***user interface (UI)*** built on top of GPT-4 by OpenAI and is able to communicate in a human-like way - using first-person, making coherent sentences that sound plausible, and even - confident and convincing.
+***ChatGPT*** is the first ***user interface (UI)*** built on top of GPT-4 by OpenAI and is able to communicate in a human-like way - using first-person, making coherent sentences that sound plausible, and even - confident and convincing. Wang, M. C., Sarah (2023) ChatGPT reached 1 million users in 5 days and 6 months after launch has 230 million monthly active users.
 
 OpenAI provides AI-as-a-service through its ***application programming interfaces (APIs),*** allowing 3rd party developers to build custom UIs to serve the specific needs of their customer. For example Snapchat has created a ***virtual friend*** called “My AI” who lives inside the chat section of the Snapchat app and helps people write faster with predictive text completion and answering questions. The APIs make state-of-the-art AI models easy to use without needing much technical knowledge. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. For instance, (Unleash, 2017) used BJ Fogg’s ***tiny habits model*** to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
 
@@ -152,7 +152,7 @@ The content on the platform can be more important than the interface. Applicatio
 
 ### Guidelines {#guidelines}
 
-Microsoft Co-Founder Bill Gates predicted in 1982 *“personal agents that help us get a variety of tasks”* (Bill Gates, 1982) and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings (Tash Keuneman, 2022). Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Might we try again?
+A Microsoft Co-Founder predicted in 1982 *“personal agents that help us get a variety of tasks”* (Bill Gates, 1982) and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy. Found inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings (Tash Keuneman, 2022). Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Might we try again?
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. Benjamin Cassidy (2022) and Abigail Cain (2017) illustrate beautifully the story of Clippy and Tash Keuneman (2022) ask poignantly: “We love to hate Clippy — but what if Clippy was right?”
 
@@ -193,7 +193,7 @@ Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI based o
 
 -   Suen and Hung (2023) discusses AI systems used for evaluating candidates at job interviews
 
--   Wang et al. (2020) propose Neuroscore to reflect perception of images.
+-   Wang, Z. et al. (2020) propose Neuroscore to reflect perception of images.
 
 -   Su and Yang (2022) and Su, Ng and Chu (2023) review papers on AI literacy in early childhood education and finds a lack of guidelines and teacher expertise.
 
@@ -843,6 +843,8 @@ Veitch, Erik and Andreas Alsos, Ole (2022). A systematic review of human-AI inte
 VideoLecturesChannel (2022). Communication in Human-AI Interaction.
 
 Vinuesa, Ricardo, Azizpour, Hossein, Leite, Iolanda, Balaam, Madeline, Dignum, Virginia, Domisch, Sami, Felländer, Anna, Langhans, Simone Daniela, Tegmark, Max and Fuso Nerini, Francesco (2020). The role of artificial intelligence in achieving the Sustainable Development Goals. *Nat Commun*, 11(1), p. 233, doi:[10.1038/s41467-019-14108-y](https://doi.org/10.1038/s41467-019-14108-y).
+
+Wang, Martin Casado, Sarah (2023). The Economic Case for Generative AI and Foundation Models. *Andreessen Horowitz*.
 
 Wang, Zhengwei, She, Qi, Smeaton, Alan F., Ward, Tomás E. and Healy, Graham (2020). Synthetic-Neuroscore: Using a neuro-AI interface for evaluating generative adversarial networks. *Neurocomputing*, 405, p. 26–36, doi:[10.1016/j.neucom.2020.04.069](https://doi.org/10.1016/j.neucom.2020.04.069).
 

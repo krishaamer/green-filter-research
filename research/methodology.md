@@ -64,81 +64,53 @@ Start with expert survey, then expert interviews (because so many questions from
 
     -   praeguses hetkes?
 
-2.  include some personality quiz in the survey?
+2.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
 
-3.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
+3.  What are some things you do to achieve sustainability in your daily life?
 
-4.  What are some things you do to achieve sustainability in your daily life?
+4.  What is your relationship like with money?
 
-5.  What is your relationship like with money?
+5.  What is your relationship like with nature?
 
-6.  What is your relationship like with nature?
+6.  Tell me about you shopping habits
 
-7.  Tell me about you shopping habits
+7.  Tell me about you saving habits
 
-8.  Tell me about you saving habits
+8.  Tell me about your investing habits
 
-9.  Tell me about your investing habits
+9.  Write your investment thesis first.
 
-10. Write your investment thesis first.
+10. What is your investment thesis?
 
-11. What is your investment thesis?
+11. If you want to invest 5 minutes every day in sustainability, how will you do it?
 
-12. If you want to invest 5 minutes every day in sustainability, how will you do it?
+12. How would you rate your knowledge on sustainability?
 
-13. How would you rate your knowledge on sustainability?
+13. How would you rate your ability to put sustainability into practice?
 
-14. How would you rate your ability to put sustainability into practice?
+14. What would you like to see more of in the future?
 
-15. What would you like to see more of in the future?
+15. What would you like to see less of in the future?
 
-16. What would you like to see less of in the future?
+16. Get and overview of you consumption habits
 
-17. Get and overview of you consumption habits
+17. Where do you need sustainability advice?
 
-18. Where do you need sustainability advice?
-
-19. How do you feel about this statement (Likert)
+18. How do you feel about this statement (Likert)
 
     1.  Investing in sustainability has a meaningful impact on sustainability
     2.  It’s easy to assess the sustainability of an investment
     3.  I consider sustainability when investing
 
-20. If we all acted more like investors instead of consumers, the world would be a better place.
+19. How would your describe your relationship with sustainability?
 
-21. How would your describe your relationship with sustainability?
+20. It’s possible to grow the economy without CO2 emissions
 
-22. It’s possible to grow the economy without CO2 emissions
+21. Donut Economy is feasible
 
-23. Pollution is a prerequisite of economic growth
+22. Donut Economy is a good idea
 
-24. Who is responsible for sustainability?
-
-25. Donut Economy is feasible
-
-26. Donut Economy is a good idea
-
-27. How much time per day are you willing to spend on sustainability per day?
-
-    -   Less than 2 minutes
-
-    -   2 minutes
-
-    -   5 minutes
-
-    -   10 minutes
-
-    -   20 minutes
-
-    -   30 minutes
-
-    -   1 hour
-
-    -   2 hours
-
-    -   More than 2 hours
-
-28. How would you prefer communicating with an AI?
+23. How would you prefer communicating with an AI?
 
     1.  Use my voice
 
@@ -148,33 +120,13 @@ Start with expert survey, then expert interviews (because so many questions from
 
     4.  Take photos and share them with AI
 
-29. Choose your investment themes
+24. Choose your investment themes
 
     1.  ESG
 
     2.  Su
 
-30. Should we put a price on nature (ecosystem service markets )
-
-    1.  Likert 1-7
-
-31. Where are you most likely to invest?
-
-    -   Stocks
-
-    -   Cryptocurrencies
-
-    -   NFTs
-
-    -   Land
-
-    -   Gold
-
-    -   Stocks
-
-    -   Bonds
-
-32. The app should focus on
+25. The app should focus on
 
     1.  Changing legislation
 
@@ -182,7 +134,7 @@ Start with expert survey, then expert interviews (because so many questions from
 
     3.  Investing habits
 
-33. I’m most concerned with (start with everyday questions)
+26. I’m most concerned with (start with everyday questions)
 
     1.  How to buy sustainable clothing
 
@@ -192,21 +144,17 @@ Start with expert survey, then expert interviews (because so many questions from
 
     4.  How to save sustainably
 
-34. What questions would you be asking that i’m not asking?
+27. What is the biggest picture of the economy you have seen?
 
-35. What is the biggest picture of the economy you have seen?
+28. “I want to see my carbon offset with my own eyes”
 
-36. “I want to see my carbon offset with my own eyes”
+29. “I plan to buy carbon offsets”
 
-37. “I plan to buy carbon offsets”
+30. “I’m currently buying carbon offsets”
 
-38. “I’m currently buying carbon offsets”
+31. Do you currently own any investments?
 
-39. “I plan to buy a car”
-
-40. Do you currently own any investments?
-
-41. What kind of investments.
+32. What kind of investments.
 
 ## Product Features {#product-features}
 

@@ -11,7 +11,7 @@ editor:
 
 ## *Designing an AI Companion to Help College Students Shop, Save, and Invest Sustainably* {#designing-an-ai-companion-to-help-college-students-shop-save-and-invest-sustainably}
 
-Overconsumption-driven extractive business practices are a large contributor to the degradation of Earth’s natural ecosystems, resource depletion, climate crisis, pollution of water, air, and soil, deforestation, diminishing biodiversity, and many other environmental problems.
+Overconsumption-driven extractive business practices contribute to the degradation of Earth’s natural ecosystems, resource depletion, climate crisis, pollution of water, air, and soil, deforestation, diminishing biodiversity, modern slavery, and other environmental and social challenges.
 
 For the individual person, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial actions requires extensive time for research. Sustainability-focused companies exist but it’s difficult to find and transact with them in the midst of widespread greenwashing. People lack tools to build communities of sustainable impact.
 
