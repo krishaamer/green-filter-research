@@ -77,6 +77,10 @@ There’s a series of authors under the “New Economics” banner, blue economi
 
 -   Adam Smith: Interdependence
 
+## Carbon Offsets {#carbon-offsets}
+
+-   
+
 ## Ecological Econonomics {#ecological-econonomics}
 
 -   Prosperity Without Growth book
@@ -344,6 +348,8 @@ Conscious consumers make up a small part of the entire consumer public.
 -   What if we gave consumers the tools to keep companies accountable?
 
 -   Anon. (2023e) in Macau Contactless Payments:
+
+-   Commons, formerly known as Joro, analysis your financialss to estimate your CO2 footprint. Chant (2022)
 
 Anon. (n.d.r) China was a money innovator introducing paper money in the Tang Dynasty (618–907 AD).
 
@@ -771,6 +777,8 @@ Sustainability Marketing
 
 -   In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world’s largest, followed by China)\[^5\] started a divestment trend in 2016 by divesting from coal. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions? The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
+-   While promising to become sustainable, oil companies are increasing production Noor (2023); Sunak, UK Primise Minister announced 100 news licenses for oil drilling in the UK.
+
 -   Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock\[^6\]. Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance \[^7\]. However they later backtracked from their decision.
 
 -   Banks are required by law to apply the principle of Know Your Customer (KYC).
@@ -779,6 +787,8 @@ Sustainability Marketing
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance.
 
+-   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act McKibben (1989)
+
 #### ESG Crisis {#esg-crisis}
 
 -   James Phillipps (2022) and Anon. (2023o) ESG Not delivering on it’s hopes
@@ -786,6 +796,8 @@ Sustainability Marketing
 -   TEDx Talks (2022) large corporations are using ESG for greenwashing by investing in token-projects but not changing their fundamental polluting practices.
 
 -   Margaryta Kirakosian (2022)
+
+-   Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects Wilkes (2023)
 
 -   Daily (2021) best ESG list
 
@@ -1125,6 +1137,8 @@ Capponi, A., Ólafsson, S. and Zariphopoulou, T. (2019). Personalized Robo-Advis
 
 Carra Wu and Chris Dixon (2021). Investing in Friends With Benefits (a DAO). *a16z crypto*.
 
+Chant, Tim De (2022). Personal carbon-cutting app Joro raises \$10M Series A from Sequoia, Jay-Z’s Arrive. *TechCrunch*.
+
 Cherry, Miriam A. and Sneirson, Judd F. (2010). Beyond profit: Rethinking corporate social responsibility and greenwashing after the BP oil disaster. *Tul. L. Rev.*, 85, p. 983.
 
 CIRCL (2021). Regenerative Economics \| Reset the financial system.
@@ -1305,6 +1319,8 @@ Mazzucato, Mariana (2021). *Mission economy: A moonshot guide to changing capita
 
 McKeough, Tim (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. *Architectural Digest*.
 
+McKibben, Bill (1989). *The end of nature*. 1st ed. New York: Random House.
+
 McKinsey (2020). The next frontier in Asia payments.
 
 McKinsey (2022b). ESG is essential for companies to maintain their social license.
@@ -1326,6 +1342,8 @@ Nathan Reiff (2023). Decentralized Autonomous Organization (DAO): Definition, Pu
 naturalinvest (2020). Malaika Maphalala - Natural Investments.
 
 Next Generation Customer Experience (n.d.). Acorns Targets Millennials With Shopping as Investing. *CXFS & NGCX 2023 Blog*.
+
+Noor, Dharna (2023). Big oil quietly walks back on climate pledges as global heat records tumble. *The Guardian*.
 
 OpenSea (2022). Top Taiwan Influencers - Collection. *OpenSea*.
 
@@ -1438,6 +1456,8 @@ van der Wal, Arianne J., van Horen, Femke and Grinstein, Amir (2016). The parado
 Weber, Anja (2021). Mobile apps as a sustainable shopping guide: The effect of eco-score rankings on sustainable food choice. *Appetite*, 167, p. 105616, doi:[10.1016/j.appet.2021.105616](https://doi.org/10.1016/j.appet.2021.105616).
 
 Wholegrain Digita (2023). How does it work? *Website Carbon Calculator*.
+
+Wilkes, Tommy (2023). Exclusive: Banks vote to limit accounting of emissions in bond and stock sales. *Reuters*.
 
 World Bank (2021). Changing Wealth of Nations (CWON). *World Bank*.
 

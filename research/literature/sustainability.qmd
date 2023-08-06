@@ -11,13 +11,19 @@ editor:
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
-## Ecological Indicators
+## Ecological Indicators of the Biosphere
 
-*Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*.
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago @mckibbenEndNature2006.
+
+*Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011].
 
 The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development: "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs" [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
 
+Aldo Leopold proposed the ideas of land ethics. "A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise." in A Sand County Almanac [@leopoldSandCountyAlmanac1972 ].
+
 @dinersteinEcoregionBasedApproachProtecting2017 identifies 846 terrestrial ecoregions.
+
+@FRA2020Remote2022 reports 27.4% of Earth's land area is covered by forests; highest rates of deforestation happened in tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation.
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
@@ -25,11 +31,13 @@ Sustainability can be measured using a variety of ***ecological indicators***.
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 -   @jacksonProsperityGrowthFoundations2017 limits to growth update
 
-The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011].
-
 Some argue sustainability is not enough and we should work on regeneration of natural habitats.
 
-Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** a founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012 ].
+### The Climate
+
+#### Climate Data Vizualisation
+
+Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012 ].
 
 -   Industrial revolution: @pearsonLowCarbonIndustrial2012: "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"
 -   Tragedy of the commons: @meisingerTragedyIntangibleCommons2022 and @lopezClimateChangeTimes2022 and @muraseSevenRulesAvoid2018
@@ -37,11 +45,9 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 ```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
--   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+### Climatech
 
--   [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted in [@cliffordHowThisPopular2022]. It's an example of how money marketed as climate funding by the retail conglomerate means focus on reducing operational cost of running their business through automation and material savings.
-
--   Aldo Leopold proposed the ideas of land ethics. "A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise." in A Sand County Almanac [@leopoldSandCountyAlmanac1972 ].
+Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted in [@cliffordHowThisPopular2022]. It's an example of how money marketed as climate funding by the retail conglomerate means focus on reducing operational cost of running their business through automation and material savings.
 
 -   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
 
@@ -52,6 +58,19 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 -   @guidottiHealthSustainabilityIntroduction2015
 
 -   "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
+
+#### Planetary Boundaries
+
+-   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+
+```{=html}
+<!-- -->
+```
+-   @debalieKateRaworthCreating2018
+
+-   @houdiniPlanetaryBoundariesAssessment2018
+
+-   @haeggmanPlanetaryBoundariesAnalysis2018
 
 #### *Design Implications:*
 
@@ -95,7 +114,7 @@ There are 2 approaches to protecting nature
 
 : From @hanEmbeddingNaturebasedSolutions2022
 
--   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   
 -   @leprovostSupplyMultipleEcosystem2022 study shows *biodiversity* as one key factor to maintain delivery of ecosystem services.
 -   @noriegaResearchTrendsEcosystem2018 attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions.
 -   Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
@@ -120,19 +139,18 @@ Earth's population reached 8 Billion people In November 2022 [@theeconomictimesC
 
 -   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
 
-#### Business Inside Planetary Boundaries
+#### Marine Heatwaves
 
--   @debalieKateRaworthCreating2018
-
--   @houdiniPlanetaryBoundariesAssessment2018
-
--   @haeggmanPlanetaryBoundariesAnalysis2018
+-   @smaleMarineHeatwavesThreaten2019
+-   @gellesOceanDireMessage2023
 
 #### Slavery
 
--   @kunzAdoptionTransferabilityJoint2023 an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. @borrelliCareSupportMaternity2023 71% of enslaved people are estimated to be female. @deckersparksGrowingEvidenceInterconnections2021 slavery is connected to environmental degradation and climate change. Slaves are used in environmental crimes such as 40% of deforestation globally. The need for cheap labor turns slavery into a subsidy keeping environmental @degradation.sovacoolWhenSubterraneanSlavery2021 Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images @boydSlaverySpaceDemonstrating2018.
+-   @kunzAdoptionTransferabilityJoint2023 an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. @borrelliCareSupportMaternity2023 71% of enslaved people are estimated to be female. @deckersparksGrowingEvidenceInterconnections2021 slavery is connected to environmental degradation and climate change. Slaves are used in environmental crimes such as 40% of deforestation globally. The need for cheap labor turns slavery into a subsidy keeping environmental @degradation @sovacoolWhenSubterraneanSlavery2021 Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images @boydSlaverySpaceDemonstrating2018.
 
 -   UN SDG target 8.7 targets to eliminate all forms of slavery.
+
+-   @christBlockchainTechnologyModern2021 estimates 20 million people are stuck inside corporate blockchains
 
 -   The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports @walkfreeGlobalSlaveryIndex2023
 
@@ -240,6 +258,10 @@ Earth's population reached 8 Billion people In November 2022 [@theeconomictimesC
 
 -   @dutoitReimaginingInternationalEnvironmental2022
 
+-   @williamsIntensificationWinterTransatlantic2013 higher CO2 concrentrations in the air can cause more turbulence for flights.
+
+-   Warmer climate helps viruses and fungi spread @pressFungalDiseaseRapidly2023
+
 #### Biodiversity
 
 -   Biodiversity loss is linked to overconsumption.
@@ -264,11 +286,17 @@ Earth's population reached 8 Billion people In November 2022 [@theeconomictimesC
 
 -   @unitHistoryConvention2023: The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. @unepCOP15EndsLandmark2022: The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
 
-#### Forest
+#### Forest and Deforestion
+
+Afforestation is different from reforestation.
 
 Deforestation is widespread all around the world.
 
+-   @greenfieldVeNeverSaid2021 1 billion tree project
+
 -   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe rapidly losing its forest carbon sink.
+
+-   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 
 -   Burning of biomass undermines carbon capture.
 
@@ -378,10 +406,16 @@ Large ones that get international news coverage:
 | Canada                                                                                                                                                                             | 2013        |
 
 -   [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading.
+
 -   [@liuIndepthWillChina2021] and [@ivyyinCommodities2023China2023] China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
+
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
+
 -   [@unitednationsenvironmentprogrammeEmissionsGapReport2022] 2022 Emissions Gap report.
+
+-   @lentonQuantifyingHumanCost2023 quantifying human cost of global warming. Certain cities may become uninhabitable for humans @ExtremeHeatCould2021. The part of Earth where the *human climate niche* is becoming smaller @mckibbenWhereShouldLive2023. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees @livingstonItMidwinterIt2023.
 
 #### Fossil Fuels
 
@@ -526,6 +560,8 @@ Circular economy is a tiny part of the world economy. @circleeconomyCircularityG
 -   AI can help us make sense of the vast amounts of sustainability data generated daily.
 
 ### Policy Context
+
+-   Politics matter. In Brazil, deforesation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership @wattsAmazonDeforestationFalls2023.
 
 -   @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only."
 -   @EUTaxonomySustainable report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.

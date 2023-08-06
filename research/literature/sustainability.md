@@ -7,18 +7,27 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
 
-## Ecological Indicators {#ecological-indicators}
+## Ecological Indicators of the Biosphere {#ecological-indicators-of-the-biosphere}
 
-*Sustainability* was first mentioned in (Hannß Carl von Carlowitz, 1713) in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*.
+Earth’s physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago McKibben (2006).
+
+*Sustainability* was first mentioned in (Hannß Carl von Carlowitz, 1713) in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al., 2011).
 
 The 1987 United Nations’ Brundtland Report (Our Common Future) defined sustainable development: “Development that meets the needs of the present without compromising the ability of future generations to meet their own needs” (World Commission on Environment and Development, 1987).
 
+Aldo Leopold proposed the ideas of land ethics. “A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.” in A Sand County Almanac (Leopold, 1972 ).
+
 Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
+
+Anon. (2022a) reports 27.4% of Earth’s land area is covered by forests; highest rates of deforestation happened in tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation.
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
@@ -26,11 +35,13 @@ Sustainability can be measured using a variety of ***ecological indicators***.
 -   Jackson (1996) *preventive environmental management*
 -   Jackson (2017) limits to growth update
 
-The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al., 2011).
-
 Some argue sustainability is not enough and we should work on regeneration of natural habitats.
 
-Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** a founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors (Honton, 2022). Humboldt’s isotherms are now available as 3D computer models in (Anon., 2023a). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012 ).
+### The Climate {#the-climate}
+
+#### Climate Data Vizualisation {#climate-data-vizualisation}
+
+Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors (Honton, 2022). Humboldt’s isotherms are now available as 3D computer models in (Anon., 2023a). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012 ).
 
 -   Industrial revolution: Pearson and Foxon (2012): “transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions”
 -   Tragedy of the commons: Meisinger (2022) and Lopez, Pastén and Gutiérrez Cubillos (2022) and Murase and Baek (2018)
@@ -39,11 +50,9 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
 
--   (Keeble, 1988) reported in April 1987 that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+### Climatech {#climatech}
 
--   (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted in (Clifford, 2022). It’s an example of how money marketed as climate funding by the retail conglomerate means focus on reducing operational cost of running their business through automation and material savings.
-
--   Aldo Leopold proposed the ideas of land ethics. “A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.” in A Sand County Almanac (Leopold, 1972 ).
+Many large businesses have tried to find solutions by launching climate-focused funding. (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted in (Clifford, 2022). It’s an example of how money marketed as climate funding by the retail conglomerate means focus on reducing operational cost of running their business through automation and material savings.
 
 -   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
 
@@ -54,6 +63,18 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 -   Guidotti (2015)
 
 -   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”
+
+#### Planetary Boundaries {#planetary-boundaries}
+
+-   (Keeble, 1988) reported in April 1987 that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   De Balie (2018)
+
+-   Houdini (2018)
+
+-   Haeggman, Moberg and Sandin (2018)
 
 #### *Design Implications:* {#design-implications}
 
@@ -97,7 +118,7 @@ There are 2 approaches to protecting nature
 
 From Han and Chen (2022)
 
--   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   
 -   Le Provost et al. (2022) study shows *biodiversity* as one key factor to maintain delivery of ecosystem services.
 -   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions.
 -   Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
@@ -122,19 +143,18 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 
 -   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
 
-#### Business Inside Planetary Boundaries {#business-inside-planetary-boundaries}
+#### Marine Heatwaves {#marine-heatwaves}
 
--   De Balie (2018)
-
--   Houdini (2018)
-
--   Haeggman, Moberg and Sandin (2018)
+-   Smale et al. (2019)
+-   Gelles and Andreoni (2023)
 
 #### Slavery {#slavery}
 
--   Kunz et al. (2023) an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. Borrelli et al. (2023) 71% of enslaved people are estimated to be female. Decker Sparks et al. (2021) slavery is connected to environmental degradation and climate change. Slaves are used in environmental crimes such as 40% of deforestation globally. The need for cheap labor turns slavery into a subsidy keeping environmental (**degradation.sovacoolWhenSubterraneanSlavery2021?**) Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images Boyd et al. (2018).
+-   Kunz et al. (2023) an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. Borrelli et al. (2023) 71% of enslaved people are estimated to be female. Decker Sparks et al. (2021) slavery is connected to environmental degradation and climate change. Slaves are used in environmental crimes such as 40% of deforestation globally. The need for cheap labor turns slavery into a subsidy keeping environmental (**degradation?**) Sovacool (2021) Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images Boyd et al. (2018).
 
 -   UN SDG target 8.7 targets to eliminate all forms of slavery.
+
+-   Christ and V Helliar (2021) estimates 20 million people are stuck inside corporate blockchains
 
 -   The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports Walk Free (2023)
 
@@ -170,7 +190,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   Armstrong McKay et al. (2022) discusses tipping points
 
-#### Planetary Boundaries {#planetary-boundaries}
+#### Planetary Boundaries {#planetary-boundaries-1}
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
 
@@ -242,6 +262,10 @@ Circle Economy (2021)
 
 -   Du Toit and Kotzé (2022)
 
+-   Williams and Joshi (2013) higher CO2 concrentrations in the air can cause more turbulence for flights.
+
+-   Warmer climate helps viruses and fungi spread Press (2023)
+
 #### Biodiversity {#biodiversity}
 
 -   Biodiversity loss is linked to overconsumption.
@@ -266,11 +290,17 @@ Circle Economy (2021)
 
 -   Unit (2023): The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. UNEP (Tue, 12/20/2022 - 07:44): The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
 
-#### Forest {#forest}
+#### Forest and Deforestion {#forest-and-deforestion}
+
+Afforestation is different from reforestation.
 
 Deforestation is widespread all around the world.
 
+-   Greenfield and @pgreenfielduk (2021) 1 billion tree project
+
 -   Frédéric Simon (2022) Due to deforestation, Europe rapidly losing its forest carbon sink.
+
+-   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 
 -   Burning of biomass undermines carbon capture.
 
@@ -380,10 +410,16 @@ Large ones that get international news coverage:
 | Canada                                                                                                                                                                             | 2013        |
 
 -   (Sipthorpe et al., 2022) compares traditional and blockchain-based solutions to carbon trading.
+
 -   (Liu, H., 2021) and (Ivy Yin, 2023) China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
+
 -   (United Nations Environment Programme (UNEP), 2021) report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+
 -   (United Nations Environment Programme (UNEP), 2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
+
 -   (United Nations Environment Programme, 2022) 2022 Emissions Gap report.
+
+-   Lenton et al. (2023) quantifying human cost of global warming. Certain cities may become uninhabitable for humans (**ExtremeHeatCould2021?**). The part of Earth where the *human climate niche* is becoming smaller McKibben (2023). Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees Livingston (2023).
 
 #### Fossil Fuels {#fossil-fuels}
 
@@ -440,7 +476,7 @@ For example, for consumers in Australian states and territories in 2018, 83% of 
 
 -   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
 -   Carbon Credit Retirement?
--   Methodologies: Anon. (2022a)
+-   Methodologies: Anon. (2022b)
 -   KlimaDAO (2023) call for an open standard
 
 #### Carbon Capture {#carbon-capture}
@@ -529,22 +565,40 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 
 ### Policy Context {#policy-context}
 
+-   Politics matter. In Brazil, deforesation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership Watts (2023).
+
 -   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
+
 -   Anon. (n.d.c) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
+
 -   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022a)
+
 -   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023d) and is facing a backlash David Pinto (2023).
+
 -   Manzardo et al. (2021) **(need access!)**
+
 -   Iñarra et al. (2022) **(need access!)**
+
 -   Munaro, Tavares and Bragança (2022) **(need access!)**
+
 -   Bassani et al. (2022) **(need access!)**
+
 -   Van Doorsselaer (2022) **(need access!)**
+
 -   de Otazu et al. (2022) **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
+
 -   Nuez, Ruiz-García and Osorio (2022) shows how electric vehicles may increase CO2 emissions in some areas, such as Canary Islands, where electricity production is polluting.
+
 -   Rossi, Cappelletti and Germani (2022) shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it’s possible to achieve more eco-friendly designs.
+
 -   Tiernan et al. (2022) microplastics are a real concern
+
 -   Arranz, Sena and Kwong (2022) developing circular economy is really complex
+
 -   Cheba et al. (2022)
+
 -   Ruiz-Pastor et al. (2022)
+
 -   Miyoshi et al. (2022) takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
 
 Again, AI has the potential to provide the parameters for sustainability.
@@ -595,8 +649,8 @@ Bring back your bottle and cup after use.
 
 Packaging is a rapidly growing industry which generates large amounts of waste Ada et al. (2023). Bradley and Corsini (2023): “Over 161 million tonnes of plastic packaging is produced annually.”
 
--   Anon. (2022b)
 -   Anon. (2022c)
+-   Anon. (2022d)
 -   Anon. (2010)
 -   Lerner (2019) Coca Cola plastic pollution
 -   Anon. (n.d.e)
@@ -657,11 +711,13 @@ Anon. (2013). *[Public Health Linkages with Sustainability: Workshop Summary](ht
 
 Anon. (2021). GreenDice - Reinventing the idea of a computer-related tech purchase.
 
-Anon. (2022b). Challenges and Opportunities in Sustainable Packaging Today. *Packaging World*.
+Anon. (2022c). Challenges and Opportunities in Sustainable Packaging Today. *Packaging World*.
 
-Anon. (2022a). Methodology for GHG & Co-Benefits in Grazing Systems.
+Anon. (2022a). *[FRA 2020 Remote Sensing Survey](https://doi.org/10.4060/cb9970en)*. FAO.
 
-Anon. (2022c). Protein Brands and Consumers Alike Focus on Sustainability. *Packaging World*.
+Anon. (2022b). Methodology for GHG & Co-Benefits in Grazing Systems.
+
+Anon. (2022d). Protein Brands and Consumers Alike Focus on Sustainability. *Packaging World*.
 
 Anon. (2023c). Climate change mitigation: Reducing emissions.
 
@@ -734,6 +790,8 @@ Cheba, Katarzyna, Bąk, Iwona, Szopik-Depczyńska, Katarzyna and Ioppolo, Giusep
 Chen, Yaoyao, Duo, Linghua, Zhao, Dongxue, Zeng, Yi and Guo, Xiaofei (2023). The response of ecosystem vulnerability to climate change and human activities in the Poyang lake city group, China. *Environmental Research*, 233, p. 116473, doi:[10.1016/j.envres.2023.116473](https://doi.org/10.1016/j.envres.2023.116473).
 
 Cheng, Yuan and Han, Xuehui (2022). Assessing the economic loss due to natural disasters from outer space. *Climate Services*, 26, p. 100286, doi:[10.1016/j.cliser.2022.100286](https://doi.org/10.1016/j.cliser.2022.100286).
+
+Christ, Katherine L. and V Helliar, Christine (2021). Blockchain technology and modern slavery: Reducing deceptive recruitment in migrant worker populations. *Journal of Business Research*, 131, p. 112–120, doi:[10.1016/j.jbusres.2021.03.065](https://doi.org/10.1016/j.jbusres.2021.03.065).
 
 Christiansen, Anne, Hasse, Gaia and Tønder, Rasmus (2021). *Extended Producer Responsibility in the Danish textile sector: Assessing the optimal development and implementation*. Copenhagen.
 
@@ -817,11 +875,15 @@ Gamage, Ashoka, Gangahagedara, Ruchira, Gamage, Jeewan, Jayasinghe, Nepali, Kodi
 
 Gaure, Simen and Golombek, Rolf (2022). True or not true: CO2 free electricity generation is possible. *Energy*, 259, p. 124998, doi:[10.1016/j.energy.2022.124998](https://doi.org/10.1016/j.energy.2022.124998).
 
+Gelles, David and Andreoni, Manuela (2023). The Ocean’s Dire Message. *The New York Times*.
+
 Golias, Christopher A. (2019). Toward Donut-Centered Design: A Design Research Toolkit for the 21st Century. *Ethnographic Praxis in Industry Conference Proceedings*, 2019(1), p. 605–624, doi:[10.1111/1559-8918.2019.01317](https://doi.org/10.1111/1559-8918.2019.01317).
 
 Gómez-Baggethun, Erik, De Groot, Rudolf, Lomas, Pedro L. and Montes, Carlos (2010). The history of ecosystem services in economic theory and practice: From early notions to markets and payment schemes. *Ecological Economics*, 69(6), p. 1209–1218, doi:[10.1016/j.ecolecon.2009.11.007](https://doi.org/10.1016/j.ecolecon.2009.11.007).
 
 Goodwin, Kylie, Allen, Cameron, Teh, Soo Huey, Li, Mengyu, Fry, Jacob, Lenzen, Manfred, Farrelly, Serena, Leon, Constanza, Lewis, Sophie, Chen, Guangwu, Schandl, Heinz and Wiedmann, Thomas (2023). Targeting 1.5 degrees with the global carbon footprint of the Australian Capital Territory. *Environmental Science & Policy*, 144, p. 137–150, doi:[10.1016/j.envsci.2023.03.006](https://doi.org/10.1016/j.envsci.2023.03.006).
+
+Greenfield, Patrick and @pgreenfielduk (2021). “I’ve never said we should plant a trillion trees”: What ecopreneur Thomas Crowther did next. *The Guardian*.
 
 Guerrero, Maria J., Bedoya, Carol L., López, José D., Daza, Juan M. and Isaza, Claudia (2023). Acoustic animal identification using unsupervised learning. *Methods Ecol Evol*, 14(6), p. 1500–1514, doi:[10.1111/2041-210X.14103](https://doi.org/10.1111/2041-210X.14103).
 
@@ -903,6 +965,8 @@ Lee, Tsung Hung, Jan, Fen-Hauh and Liu, Jui-Tu (2021). Developing an indicator f
 
 Lenovo (08-29-22). “Fast tech” is unsustainable: The circular economy is the smart answer.
 
+Lenton, Timothy M., Xu, Chi, Abrams, Jesse F., Ghadiali, Ashish, Loriani, Sina, Sakschewski, Boris, Zimm, Caroline, Ebi, Kristie L., Dunn, Robert R., Svenning, Jens-Christian and Scheffer, Marten (2023). Quantifying the human cost of global warming. *Nat Sustain*, doi:[10.1038/s41893-023-01132-6](https://doi.org/10.1038/s41893-023-01132-6).
+
 Leopold, Aldo (1972). *A Sand county almanac and sketches here and there*. New York usw: OUP.
 
 Lerner, Sharon (2019). How Coca-Cola Undermines Plastic Recycling Efforts. *The Intercept*.
@@ -920,6 +984,8 @@ Lion Hirth (n.d.). Lion Hirth on Twitter: "Carbon pricing is not there to punish
 Liu, Hongqiao (2021). In-depth Q&A: Will China’s emissions trading scheme help tackle climate change? *Carbon Brief*.
 
 Liu, Kang, Tan, Quanyin, Yu, Jiadong and Wang, Mengmeng (2023). A global perspective on e-waste recycling. *Circular Economy*, 2(1), p. 100028, doi:[10.1016/j.cec.2023.100028](https://doi.org/10.1016/j.cec.2023.100028).
+
+Livingston, Ian (2023). It’s midwinter, but it’s over 100 degrees in South America. *Washington Post*.
 
 Lopez, Ramon E., Pastén, Roberto and Gutiérrez Cubillos, Pablo (2022). Climate change in times of economic uncertainty: A perverse tragedy of the commons? *Economic Analysis and Policy*, 75, p. 209–225, doi:[10.1016/j.eap.2022.05.005](https://doi.org/10.1016/j.eap.2022.05.005).
 
@@ -948,6 +1014,10 @@ May, Robert M. (2011). Why should we be concerned about loss of biodiversity. *C
 McDonough, William and Braungart, Michael (2002). *Cradle to cradle: Remaking the way we make things*. 1st ed. New York: North Point Press.
 
 McGinty, David (Thu, 08/06/2020 - 11:25). How to Build a Circular Economy.
+
+McKibben, Bill (2006). *The end of nature*. Random House trade pbk. ed. New York: Random House Trade Paperbacks.
+
+McKibben, Bill (2023). ’Where Should I Live?’. *The Crucial Years*.
 
 Meisinger, Norman (2022). A tragedy of intangible commons: Riding the socioecological wave. *Ecological Economics*, 193, p. 107298, doi:[10.1016/j.ecolecon.2021.107298](https://doi.org/10.1016/j.ecolecon.2021.107298).
 
@@ -987,6 +1057,8 @@ Peng, Jiahui, Shi, Xiaolei and Tong, Xin (2023). Extended producer responsibilit
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily and Stephen Polasky (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
+Press, Camille Fassett-Associated (2023). A fungal disease is rapidly spreading across the U.S. Scientists are alarmed. *Fast Company*.
+
 Raworth, Kate (2017). *Doughnut economics: Seven ways to think like a 21st century economist*. White River Junction, Vermont: Chelsea Green Publishing.
 
 ReFi DAO (2022). ReFi Podcast S2E9: Kolektivo Framework with Luuk and Pat.
@@ -1022,6 +1094,10 @@ Shiller, Robert J. (2019). *Narrative economics: How stories go viral & drive ma
 Singh, Prashant Kumar and Sarkar, Prabir (2023). An artificial neural network tool to support the decision making of designers for environmentally conscious product development. *Expert Systems with Applications*, 212, p. 118679, doi:[10.1016/j.eswa.2022.118679](https://doi.org/10.1016/j.eswa.2022.118679).
 
 Sipthorpe, Adam, Brink, Sabine, Van Leeuwen, Tyler and Staffell, Iain (2022). Blockchain solutions for carbon markets are nearing maturity. *One Earth*, 5(7), p. 779–791, doi:[10.1016/j.oneear.2022.06.004](https://doi.org/10.1016/j.oneear.2022.06.004).
+
+Smale, Dan A., Wernberg, Thomas, Oliver, Eric C. J., Thomsen, Mads, Harvey, Ben P., Straub, Sandra C., Burrows, Michael T., Alexander, Lisa V., Benthuysen, Jessica A., Donat, Markus G., Feng, Ming, Hobday, Alistair J., Holbrook, Neil J., Perkins-Kirkpatrick, Sarah E., Scannell, Hillary A., Sen Gupta, Alex, Payne, Ben L. and Moore, Pippa J. (2019). Marine heatwaves threaten global biodiversity and the provision of ecosystem services. *Nat. Clim. Chang.*, 9(4), p. 306–312, doi:[10.1038/s41558-019-0412-1](https://doi.org/10.1038/s41558-019-0412-1).
+
+Sovacool, Benjamin K. (2021). When subterranean slavery supports sustainability transitions? Power, patriarchy, and child labor in artisanal Congolese cobalt mining. *The Extractive Industries and Society*, 8(1), p. 271–293, doi:[10.1016/j.exis.2020.11.018](https://doi.org/10.1016/j.exis.2020.11.018).
 
 Stanford University (2021). Professors explain the social cost of carbon. *Stanford News*.
 
@@ -1079,9 +1155,13 @@ Wang, Yong, Ma, Yuhe and Wang, Tian (2022). Measurement of China’s provincial 
 
 Waterstaat, Ministerie van Infrastructuur en (2019). Circular Dutch economy by 2050 - Circular economy - Government.nl.
 
+Watts, Jonathan (2023). Amazon deforestation falls over 60% compared with last July, says Brazilian minister. *The Guardian*.
+
 Web, Mirror (2023). South Korea president vows climate change response after deadly monsoon rains. *Minute Mirror*.
 
 Wetenschappelijk Bureau GroenLinks (2023). Kate Raworth: Doughnut Economics, from theory to practice.
+
+Williams, Paul D. and Joshi, Manoj M. (2013). Intensification of winter transatlantic aviation turbulence in response to climate change. *Nature Climate Change*, 3(7), p. 644–648, doi:[10.1038/nclimate1866](https://doi.org/10.1038/nclimate1866).
 
 World Commission on Environment and Development ed. (1987). *Our common future*. Oxford ; New York: Oxford University Press.
 

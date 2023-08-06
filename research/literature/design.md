@@ -22,6 +22,8 @@ This research focuses on developing an AI companion for ***college students***.
 
 User research makes extensive use of user ***personas*** to represent a group of people with similar attributes. Designers use personas to ***articulate assumptions,*** which is useful for ***user-centered design*** and also to reflect on what kind of ***biases*** might exist in the design. Within the larger cohort of College Students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
 
+Humans have a long list of cognitive biases, which a good design should take into account.
+
 There is extensive research on the attitudes of U.S. college students towards climate change. American Press Institute (2022) reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. Schwartz et al. (2022) reports some adult US students in a small study (18-35, N = 284) express feelings of insignificance of their actions to achieve any meaningful impact. Thomaes et al. (2023) reports U.S. adolescents don’t find sustainability relevant to their daily life. Ross et al. (2016) says most people in the U.S. don’t act on climate change. “Action on climate change has been compromised by uncertainty, aspects of human psychology”.
 
 The above studies give foundation for creating a persona of a U.S. College Student who doesn’t follow environmental news and thinks climate action doesn’t make a difference. This doesn’t necessarily mean this group of people with similar ideas would deny climate change is happening. Rather “Climate Denier” could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
@@ -37,6 +39,10 @@ College Student Personas
 -   Crabb (2023)
 
 Rooney-Varga et al. (2019) shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
+
+### Social Trust {#social-trust}
+
+-   When disaster hits we need high levels of social trust.
 
 #### *Design Implications* {#design-implications}
 
@@ -328,6 +334,26 @@ There’s a number of user interface design patterns that have provide successfu
 Common Social Media UI Parts
 
 There are also more philosophical approaches to ***Interface Studies:*** David Hoang (2022), the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+
+### Personal Carbon Trackers {#personal-carbon-trackers}
+
+Similar to personal health trackers, personal CO2 trackers help one track emissions and suggests sustainable actions.
+
+| App                     | Description                                            |
+|-----------------------|-------------------------------------------------|
+| Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
+| Klima                   | Offset Subscription                                    |
+| Wren                    | Offset Subscription                                    |
+| JouleBug                |                                                        |
+| eevie                   |                                                        |
+| Aerial                  |                                                        |
+| EcoCRED                 |                                                        |
+| Carbn                   |                                                        |
+| LiveGreen               |                                                        |
+| Earth Hero              |                                                        |
+|                         |                                                        |
+
+A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
 ### Digital Product Design {#digital-product-design}
 
