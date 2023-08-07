@@ -785,9 +785,7 @@ Sustainability Marketing
 
 -   How could people apply the same principle (Know Your Company) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital.
 
--   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance.
-
-#### ESG Crisis {#esg-crisis}
+-   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
 
 -   James Phillipps (2022) and Anon. (2023o) ESG Not delivering on it’s hopes
 

@@ -33,6 +33,10 @@ Consumer lifestyle contributes to environmental destruction. @ellenmacarthurfoun
 
 -   The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in @keelingAtmosphericMonthlySitu2017 and estimations going back 2000 years from @rubinoLawDomeIce2019.
 
+::: {.content-hidden unless-format="pdf"}
+![CO2 Concentration. Photo Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
+:::
+
 ```{=mdx}
 <Figure
   caption="CO2 Concentration"
@@ -252,11 +256,10 @@ Survey respondents:
 
 ## Research Questions
 
--   My research aims to explore the following 3 research questions.
-How can consumers support extended producer responsibility?
+-   My research aims to explore the following 3 research questions. How can consumers support extended producer responsibility?
 
 | №   | Question                                                                       | Methods                                     |
-|-----------|------------------------------|-----------------------|
+|-----------------|--------------------------------|------------------------|
 | 1   | How might AI assistants empower regenerative shopping, saving, and investing?  | Literature Review + Expert Interviews       |
 | 2   | How might one design an intuitive sustainable shopping, saving, investing app? | Literature review + Survey                  |
 | 3   | What app features might college students rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
