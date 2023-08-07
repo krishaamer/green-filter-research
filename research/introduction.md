@@ -7,9 +7,6 @@ editor:
     render-on-save: false
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
-
 ``` mdx-code-block
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
@@ -182,11 +179,7 @@ For the average person, our experience is limited with buying things at the supe
 ## Research Motivation {#research-motivation}
 
 -   First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   According to a Calastone (2020) study surveying 3000 Millennial people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
-
 -   Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
 
 ``` mdx-code-block
@@ -217,8 +210,6 @@ This is largely due to the production and manufacturing processes of the compani
 -   Green Filter helps you discover how to save money and the planet with your daily shopping. By providing an easy way for people to learn about and shop with sustainable companies, we imagine a world where people invest in their future, find great deals on responsibly-made products, and get useful discounts from socially responsible brands.
 
 -   GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
 
@@ -260,24 +251,21 @@ This is largely due to the production and manufacturing processes of the compani
 
 Survey respondents:
 
-| Key        | Value    |
-|------------|----------|
-| Location   | Taiwan   |
-| Age        | 18-35    |
-| Occupation | Students |
+| Key        | Value            |
+|------------|------------------|
+| Location   | Taiwan           |
+| Population | College Students |
 
 ## Research Questions {#research-questions}
 
--   My research aims to explore the following 3 research questions.
+-   My research aims to explore the following 3 research questions. How can consumers support extended producer responsibility?
 
--   What is the UI/UX of the green transformation?
-
-| №   | Question                                                                   | Methods                                     |
-|-------------------|------------------------------|-----------------------|
-| 1   | How can AI assistants empower sustainable shopping, saving, and investing? | Literature Review + Expert Interviews       |
-| 2   | How to design an intuitive sustainable shopping, saving, investing app?    | Literature review + Survey                  |
-| 3   | What features do potential app users rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
-| 4   | How to make Ecological Impact visible in Digital Product Design?           | Literature Review + Expert Interviews       |
+| №   | Question                                                                       | Methods                                     |
+|-------------|---------------------------------|--------------------------|
+| 1   | How might AI assistants empower regenerative shopping, saving, and investing?  | Literature Review + Expert Interviews       |
+| 2   | How might one design an intuitive sustainable shopping, saving, investing app? | Literature review + Survey                  |
+| 3   | What app features might college students rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
+| 4   | How might one visualize ecological Impact in digital product design?           | Literature Review + Expert Interviews       |
 
 ## References {#references .unnumbered}
 

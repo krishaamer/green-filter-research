@@ -19,7 +19,11 @@ In this thesis I present an AI-assistant called “green filter” to empower re
 
 The major contribution of the study is an interactive artefact - a design prototype of an AI companion, informed by design research.
 
+The app aims to address the market failure by providing consumers sufficient sustainability information on the goods, services and invesments.
+
 **Keywords**: Climate Anxiety, Human-AI Interaction, Sustainability, Trust
+
+underinvestment in environmental protection; market failure.
 
 Humans are successful because of our adaptability. The study suggests tools to adapt to our current reality.
 

@@ -28,6 +28,30 @@ Example Suggestions of the AI companion:
 
 -   brand colors: pink, orange, green
 
+## Results {#results}
+
+The research helps me (and others) to avoid reinventing the wheel and duplicating existing approaches. It aims to help app developers maximise impact by aiding complementary additionality.
+
+#### How might AI assistants empower regenerative shopping, saving, and investing? {#how-might-ai-assistants-empower-regenerative-shopping-saving-and-investing}
+
+Display the ESG, EPR, B-Corp, etc, etc credentials for each product and investment.
+
+EPR and B-Corp are success stories which shoul be highlighted while ESG is largely discredited.
+
+There are many existing and ongoing approaches to sustainability. The best approach might be to plug into excisting system and communities and legislation to support and empower them.
+
+#### How might one design an intuitive sustainable shopping, saving, investing app? {#how-might-one-design-an-intuitive-sustainable-shopping-saving-investing-app}
+
+Apple Watch app
+
+#### What app features might college students rate as the highest priority? {#what-app-features-might-college-students-rate-as-the-highest-priority}
+
+Autopilot
+
+#### How might one visualize ecological impact in digital product design? {#how-might-one-visualize-ecological-impact-in-digital-product-design}
+
+Accuracy is more imprttant for hhuman trust tthan actual impact
+
 ## Research Limitations {#research-limitations}
 
 -   This work is focused on user experience design and does attempt to make a contribution to economics. Sacred Economics is use as-is as a framework and visualization tool.

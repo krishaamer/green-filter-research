@@ -787,8 +787,6 @@ Sustainability Marketing
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance.
 
--   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act McKibben (1989)
-
 #### ESG Crisis {#esg-crisis}
 
 -   James Phillipps (2022) and Anon. (2023o) ESG Not delivering on it’s hopes
@@ -1318,8 +1316,6 @@ Marten Põllumees (2022). Kuhu investeeriti LHV Kasvukontoga IV kvartalis 2021? 
 Mazzucato, Mariana (2021). *Mission economy: A moonshot guide to changing capitalism*. New York: Harper Business, an imprint of HarperCollinsPublishers.
 
 McKeough, Tim (2018). McKinsey Design Launches, Confirming the Importance of Design to Business. *Architectural Digest*.
-
-McKibben, Bill (1989). *The end of nature*. 1st ed. New York: Random House.
 
 McKinsey (2020). The next frontier in Asia payments.
 

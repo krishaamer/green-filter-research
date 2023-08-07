@@ -16,6 +16,8 @@ import ResQClub from '../images/resq-club.png'
 
 ## Students {#students}
 
+What is the UI/UX of the green transformation?
+
 This research focuses on developing an AI companion for ***college students***.
 
 ### Personas {#personas}

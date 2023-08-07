@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -84,6 +84,8 @@ Many large businesses have tried to find solutions by launching climate-focused 
 
 Gómez-Baggethun et al. (2010) the history of the valuation of nature’s services goes back to the 18th century when David Ricardo and Jean Baptise say discussed nature’s *work*, however both considered it should be free. In 1997 Daily (1997) proposed the idea of ecosystem services and Costanza et al. (1997) attempted to assess the amount of ecosystem services provided.
 
+Le Provost et al. (2022) study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions.
+
 -   Leverhulme Centre for Nature Recovery (2023) should we put a price on nature?
 -   Is it time to leave utilitarian environmentalism behind? Muradian and Gómez-Baggethun (2021)
 
@@ -118,13 +120,14 @@ There are 2 approaches to protecting nature
 
 From Han and Chen (2022)
 
--   
--   Le Provost et al. (2022) study shows *biodiversity* as one key factor to maintain delivery of ecosystem services.
--   Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions.
 -   Meanwhile the destruction pressure on ecosystems is rapidly increasing (cite A B C).
+
 -   Espinosa and Bazairi (2023) marine ecosystem services **(need access)**
+
 -   Chen et al. (2023) Ecosystem vulnerability **(need access)**
+
 -   Zhang et al. (2023) Integrating ecosystem services conservation into urban planning **(need access)**
+
 -   Li et al. (2023) tourism is a large industrial sector which relies on ecosystem services. In Taiwan, (Lee, Jan and Liu, 2021) developed a framework of indicators to assess sustainable tourism.
 
 ### **Environmental Degradation** {#environmental-degradation}
@@ -170,11 +173,18 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 
 #### Overconsumption {#overconsumption}
 
+Overconsumption is one of the main drivers of climate change (Renee Cho, 2020). Ivanova et al. (2020): “Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO2 equivalent per capita.”
+
+Overconsumption is also one of the root causes of plastic pollution. Ford et al. (2022) and Lavers, Bond and Rolsky (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+
+-   Overconsumption and underinvestment.
+
 -   Ianole and Cornescu (2013) debate on overconsumption is so polarized, it’s difficult to have a meaningful discussion of the topic.
+
 -   Overconsumption is one of the root causes of climate change
--   Ivanova et al. (2020): “Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO2 equivalent per capita.”
+
 -   Cities are responsible for 80% of the emissions Rosales Carreón and Worrell (2018)
--   Overconsumption is also one of the root causes of marine plastic pollution. Ford et al. (2022) and Lavers, Bond and Rolsky (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+
 -   Moberg et al. (2019) reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
 
 | Emission Share | Category |
@@ -184,7 +194,7 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 | 34%            | Mobility |
 | 15%            | Other    |
 
-Daily human activities emission contribution on average in France, Germany, Norway and Sweden.
+Daily human activities emission contribution on average in France, Germany, Norway and Sweden from Moberg et al. (2019).
 
 -   According to Debnath et al. (2022) 39% of global CO2 emissions comes from the building sector.
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
@@ -208,7 +218,9 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 -   Oliver et al. (2022)
 
--   Doughnut donut economics “We need a dashboard of indicators” - TED (2018). Donut quantified Luukkanen, Vehmas and Kaivo-oja (2021)
+-   Doughnut donut economics “We need a dashboard of indicators” - TED (2018).
+
+-   Donut quantified Luukkanen, Vehmas and Kaivo-oja (2021)
 
 -   Defi Donut (2021) Savings Lottery
 
@@ -228,7 +240,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 -   Waterstaat (2019) Dutch goal to be a circular economy by 2050
 
--   Circle Economy (2021) amsterdam short food chains, linking residents with food production, reconnecting people to the food. social object? foster collaboration. i
+-   Circle Economy (2021) The city of Amsterdam is developing short food chains, linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community.
 
 | Short Food Chains in Amsterdam                     |
 |----------------------------------------------------|
@@ -238,7 +250,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 | Collaboration between chain members                |
 | Food education                                     |
 
-Circle Economy (2021)
+From Circle Economy (2021).
 
 -   Maria-Cristina Florian (2023)
 
@@ -266,37 +278,43 @@ Circle Economy (2021)
 
 -   Warmer climate helps viruses and fungi spread Press (2023)
 
-#### Biodiversity {#biodiversity}
+### Biodiversity {#biodiversity}
 
--   Biodiversity loss is linked to overconsumption.
+Almond, R.E.A. et al. (2022) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
 
--   listening to nature, Assessing biodiversity based on species’ sounds in the forest Biodiversity Indicators, millions of detections of different species with machine learning passive acousting AI models, can also assess species response to climate change AI for Good (2023) Guerrero et al. (2023)
+Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. (Crenna, Sinkko and Sala, 2019) recounts European Union consumers’ negative impact on biodiversity in countries where it imports food. WWF (2022) case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low Marco-Fondevila and Álvarez-Etxeberría (2023).
 
--   While the European Union is a leader in sustainability legislation, biodiversity among private companies is low Marco-Fondevila and Álvarez-Etxeberría (2023)
+Meanwhile, there is some progress in biodiversity conservation. UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
 
--   May (2011) argues biodiversity loss is a concern for 3 points of views
+Similarly to climate protection, the UN has taken a leadership role in biodiversity protection. Unit (2023): The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. UNEP (Tue, 12/20/2022 - 07:44): The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
 
-    -   Narrowly utilitarian: biodiversity is a resource of genetic novelties for the biotech industry.
+#### ***Biodiversity Indicators*** {#biodiversity-indicators}
 
-    -   Broadly utilitarian: humans depend upon biodiverse ecosystems.
+Cutting edge research uses AI for listening to nature, assessing biodiversity based on species’ sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change (AI for Good, 2023; Guerrero et al., 2023).
 
-    -   Ethical: humans have a responsibility to future generations to pass down a rich natural world.
+May (2011) argues biodiversity loss is a concern for 3 points of views:
 
--   Almond, R.E.A. et al. (2022) reports, the number of species killed, mass destruction of nature. “69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).”
+| View                 |                                                                                       |
+|--------------------|----------------------------------------------------|
+| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
+| Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
+| Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
 
--   WWF (2022) case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union.
+From May (2011).
 
--   Meanwhile, there is some progress in biodiversity conservation. UEBT (2022) reports “Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009.”
+#### Climate Change {#climate-change}
 
--   Unit (2023): The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. UNEP (Tue, 12/20/2022 - 07:44): The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
+-   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act (McKibben, 1989).
+
+-   Lenton et al. (2023) quantifying human cost of global warming. Certain cities may become uninhabitable for humans (**ExtremeHeatCould2021?**). The part of Earth where the *human climate niche* is becoming smaller McKibben (2023). Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees Livingston (2023).
 
 #### Forest and Deforestion {#forest-and-deforestion}
 
-Afforestation is different from reforestation.
+Afforestation is different from reforestation, which takes into account biodiversity.
 
 Deforestation is widespread all around the world.
 
--   Greenfield and @pgreenfielduk (2021) 1 billion tree project
+-   1 billion tree project (Anon., 2020; Greenfield and @pgreenfielduk, 2021; b **astinGlobalTreeRestoration2019?**)
 
 -   Frédéric Simon (2022) Due to deforestation, Europe rapidly losing its forest carbon sink.
 
@@ -394,32 +412,58 @@ Large ones that get international news coverage:
 
 ## Mitigation & Adaption {#mitigation-adaption}
 
-#### Emissions Trading Schemes {#emissions-trading-schemes}
+#### Cap & Trade {#cap-trade}
 
--   As of 2023 there isn’t a single global CO2 trading market but rather several local markets as describe in the table below Anon. (n.d.a). Most of the world is not part of a CO2 market.
--   New Zealand Rontard and Reyes Hernández (2022) (need access)
--   EU: Araújo et al. (2020)
+The share of CO2 emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). Chancel (2022) reports “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%”.
 
-| Place                                                                                                                                                                              | Launch Date |
-|----------------------------------------------|--------------------------|
-| European Union                                                                                                                                                                     | 2005        |
-| South Korea                                                                                                                                                                        | 2015        |
-| China                                                                                                                                                                              |             |
-| United States (no country-wide market; local CO2 markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont) | 2013        |
-| New Zealand                                                                                                                                                                        | 2008        |
-| Canada                                                                                                                                                                             | 2013        |
+-   One example is the ICT sector.
+
+-   Bajarin (n.d.) Over 300 million PCs sold in 2022
+
+    -   Anon. (2021) Estonian company “sustainable lifecycle management of IT equipment”
+    -   Ärileht (23.09.2022, 12:53) Recycle your phone, FoxWay and Circular economy for PCs.
+    -   Zhou et al. (2022) ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
+
+### Emissions Trading Schemes {#emissions-trading-schemes}
+
+As of 2023 there isn’t a single global CO2 trading market but rather several local markets as described in the table below Anon. (n.d.a).
+
+| CO2 Market               | Launch Date | Comments                                                                                                                                                           |
+|----------------------------|--------------|-------------------------------|
+| European Union           | 2005        | EU: Araújo et al. (2020)                                                                                                                                           |
+| South Korea              | 2015        |                                                                                                                                                                    |
+| China                    | 2021        | China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022 (Liu, H., 2021; Ivy Yin, 2023).    |
+| United States of America | 2013        | No country-wide market; local CO2 markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont |
+| New Zealand              | 2008        | New Zealand Rontard and Reyes Hernández (2022) (need access)                                                                                                       |
+| Canada                   | 2013        |                                                                                                                                                                    |
+
+CO2 credit trading markets around the world from Anon. (n.d.a).
+
+Most of the world is not part of a CO2 market.
 
 -   (Sipthorpe et al., 2022) compares traditional and blockchain-based solutions to carbon trading.
-
--   (Liu, H., 2021) and (Ivy Yin, 2023) China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022.
-
 -   (United Nations Environment Programme (UNEP), 2021) report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
-
 -   (United Nations Environment Programme (UNEP), 2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
-
 -   (United Nations Environment Programme, 2022) 2022 Emissions Gap report.
 
--   Lenton et al. (2023) quantifying human cost of global warming. Certain cities may become uninhabitable for humans (**ExtremeHeatCould2021?**). The part of Earth where the *human climate niche* is becoming smaller McKibben (2023). Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees Livingston (2023).
+#### Voluntary Carbon Markets {#voluntary-carbon-markets}
+
+***Carbon Credits*** are useful for private companies who wish to claim *carbon neutrality, climate positivity*, or other related claim, which might be viewed in good light by their clients or allow the companies to adhere to certain legislative requirements.
+
+There are many companies which facilitate buy carbon credits as well as a few organizations focused on carbon credit verification.
+
+-   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+-   Carbon Credit Retirement?
+-   Methodologies: Anon. (2022b)
+-   KlimaDAO (2023) call for an open standard
+
+#### The Price of CO2 {#the-price-of-co2}
+
+Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et al. (2022): Carbon price should be 3,6x higher that it is currently (2022). Ritz (2022) argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
+
+“Carbon pricing is not there to punish people,” says Lion Hirth Lion Hirth (n.d.). “It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.”
+
+-   iGenius (2020)
 
 #### Fossil Fuels {#fossil-fuels}
 
@@ -430,7 +474,7 @@ Large ones that get international news coverage:
 
 Fossil Fuels and Energy
 
-There’s evidence from several countries suggesting moving to renewal energy brings benefits:
+There’s evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
 
@@ -440,46 +484,27 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 -   The true cost of products is hidden. The work is hidden.
 
--   Montreal protocol eradicates CfCs and te ozone holes became whole again.
+-   Montreal protocol eradicates CfCs and the ozone holes became whole again.
 
 -   Tilsted et al. (2023) expects the fossil fuel industry to grow even faster.
 
 #### Emission Scopes {#emission-scopes}
 
--   National Public Utilities Council (2022) The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and useful for organizing emission reduction schemes.
+The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes (National Public Utilities Council, 2022). For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain Goodwin et al. (2023).
 
-| Scope   | Source                         |
-|---------|--------------------------------|
-| Scope 1 | Direct emissions               |
-| Scope 2 | Indirect electricity emissions |
-| Scope 3 | Value chain emissions          |
+| Emission Scope | Source                         |
+|----------------|--------------------------------|
+| Scope 1        | Direct emissions               |
+| Scope 2        | Indirect electricity emissions |
+| Scope 3        | Value chain emissions          |
 
-From National Public Utilities Council (2022)
-
-For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain Goodwin et al. (2023)
+From National Public Utilities Council (2022).
 
 -   Mapping pollution sources in China Xie et al. (2021)
 
-#### Cap & Trade {#cap-trade}
-
--   The share of CO2 emissions among people is highly unequal across the world (termed ***Carbon Inequality***). Chancel (2022) reports “while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%”.
-
--   One example is the ICT sector.
-
--   Bajarin (n.d.) Over 300 million PCs sold in 2022
-
-    -   Anon. (2021) Estonian company “sustainable lifecycle management of IT equipment”
-    -   Ärileht (23.09.2022, 12:53) Recycle your phone, FoxWay and Circular economy for PCs.
-    -   Zhou et al. (2022) ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
-
-#### Carbon Credits {#carbon-credits}
-
--   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
--   Carbon Credit Retirement?
--   Methodologies: Anon. (2022b)
--   KlimaDAO (2023) call for an open standard
-
 #### Carbon Capture {#carbon-capture}
+
+Many technology startups focused on climate solutions (often referred to as climatech by the media), have proposed a range of approaches to CO2 reduction in the atmosphere.
 
 -   Vitillo et al. (2022) illustrates how direct air capture of CO2 is difficult because of low concentration and CO2 capture at the source of the emissions is more feasible.
 
@@ -491,21 +516,19 @@ For example, for consumers in Australian states and territories in 2018, 83% of 
 
 #### Social Cost of Carbon {#social-cost-of-carbon}
 
--   Kornek et al. (2021) and Zhen, Tian and Ye (2018) suggest “The (Social Cost of Carbon) SCC measures the additional damage caused by an extra unit of emissions” with variations between countries (Tol (2019)) and regions (Wang, Y., Ma and Wang (2022)). Stanford University (2021) defines the social cost of carbon “the cost of the damages created by one extra ton of carbon dioxide emissions”
-
--   Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et al. (2022): Carbon price should be 3,6x higher that it is currently (2022). Ritz (2022) argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
+Sustainability is filled with complexities, where CO2 emission is compounded by biodiversity loss, child labor, slavery, poverty, prostitution, dangerous chemicals, and many other issues become intertwined (TEDx Talks, 2020). One attempt to measure these complexities, is the Social Cost of Carbon (SCC) which is defined as “additional damage caused by an extra unit of emissions” (Zhen, Tian and Ye, 2018; Kornek et al., 2021). For example the cost of damages caused by “one extra ton of carbon dioxide emissions” (Stanford University, 2021). SCC variations exists between countries (Tol, 2019) and regions (Wang, Y., Ma and Wang, 2022).
 
 -   As shown in the Phillipines by Cheng and Han (2022), with increasing extreme weather events, “businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards”. Jerrett, Jina and Marlier (2022) says, In California, “Wildfires are the second most important source of emissions in 2020” and “Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors.”
 
 -   Lin et al. (2022) says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
--   TEDx Talks (2020) sustainability is filled with complexities, where child labor, prostitution, poverty, CO2 emission, dangerous chemicals, and many other issues became intertwined.
-
 -   Wang, T.-P. and Teng (2022): Quantifying climate damage proposes scenarios of climate damage.
 
 #### Nationally Determined Contributions {#nationally-determined-contributions}
 
--   Climate Analytics and NewClimate Institute (2023) Climate Action Tracker data portal allows to compare countries.
+-   UNFCCC. Secretariat (2022) The State of Nationally Determined Contributions
+
+While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries (Climate Analytics and NewClimate Institute, 2023).
 
 | Country or Region    | **NDC target**          |
 |----------------------|-------------------------|
@@ -522,7 +545,6 @@ For example, for consumers in Australian states and territories in 2018, 83% of 
 
 Climate Action Tracker’s country comparison of the 10 top polluters’ climate action.
 
--   UNFCCC. Secretariat (2022) The State of Nationally Determined Contributions
 -   Fransen et al. (2022) notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
 TODO
@@ -545,6 +567,20 @@ TODO
 ***Designing for Sustainability aka Circular Design or Eco-Design*** encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
 
 -   “Evolution of design for sustainability: From product design to design for system innovations and transitions”
+-   de Otazu et al. (2022) **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
+-   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.” Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022a)
+
+### AI-Assisted Design {#ai-assisted-design}
+
+Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
+
+-   AI has the potential to provide the parameters for sustainability. Singh and Sarkar (2023) proposes an AI tool for deciding the suitable life cycle design parameters.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+-   Anon. (n.d.b): “Sustainability starts in the design process, and AI can help”.
+
+### Circular Economy {#circular-economy}
 
 Circular economy is a tiny part of the world economy. Circle Economy (2022) reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
@@ -554,24 +590,20 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 -   Chapman (2009) argues in his seminal paper (and later in his book) for ***“Emotionally Durable Design”***, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. Rose (2015) has a similar idea, where ***“Enchanted Objects”*** become so interlinked with us, we’re unlikely to throw them away.
 -   Growing public understanding of how nature works and intersects with our use of money.
 -   Hedberg and Šipka (2021) argues digitization and data sharing is a requirement for building a circular economy.
--   Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
--   Anon. (n.d.b): “Sustainability starts in the design process, and AI can help”.
--   iGenius (2020)
--   Very simple. “Carbon pricing is not there to punish people,” says Lion Hirth Lion Hirth (n.d.). “It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.”
 
 #### *Design Implications:* {#design-implications-2}
 
 -   AI can help us make sense of the vast amounts of sustainability data generated daily.
 
-### Policy Context {#policy-context}
+## Policy Context {#policy-context}
 
--   Politics matter. In Brazil, deforesation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership Watts (2023).
+Politics matters in sustainability.
 
--   European Parliament (2022) proposal “On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only.”
+In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
+
+-   In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership Watts (2023).
 
 -   Anon. (n.d.c) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
-
--   Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design “respects the boundaries of our planet” European Commission (2022a)
 
 -   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023d) and is facing a backlash David Pinto (2023).
 
@@ -584,8 +616,6 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 -   Bassani et al. (2022) **(need access!)**
 
 -   Van Doorsselaer (2022) **(need access!)**
-
--   de Otazu et al. (2022) **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
 
 -   Nuez, Ruiz-García and Osorio (2022) shows how electric vehicles may increase CO2 emissions in some areas, such as Canary Islands, where electricity production is polluting.
 
@@ -601,36 +631,37 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 
 -   Miyoshi et al. (2022) takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
 
-Again, AI has the potential to provide the parameters for sustainability.
-
--   Singh and Sarkar (2023) proposes an AI tool for deciding the suitable life cycle design parameters.
 -   Finding green products and supporting companies making them
+
 -   Supporting legislative changes
+
 -   Track you consumption, saving, investing. Shift balance towards saving and investing.
+
 -   Nastaraan Vadoodi (2022)
+
 -   European Commission (2022b) Ecodesign for sustainable products
 
+### Waste Generation {#waste-generation}
+
+Liu, K. et al. (2023) reports, e–waste is growing 3%–5% every year, globally. Thukral and Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
 ### Extended Producer Responsibility {#extended-producer-responsibility}
+
+Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[CITE\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models (Christiansen, Hasse and Tønder, 2021). The French EPR scheme was upgraded in 2020 to become more circular (Jacques Vernier, 2021).
+
+In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, in HKTDC Research (2022), the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. Peng, Shi and Tong (2023) finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
+
+-   The success of EPR can vary per type of product. For car tires, the EPR scheme in the Netherlands claims a 100% recovery rate Campbell-Johnston et al. (2020).
 
 One type of legislation that works?
 
 -   Steenmans and Ulfbeck (2023) Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
 
--   Peng, Shi and Tong (2023) finds that the Carbon Disclosure Project has been a crucial tool to empower ERP in Chinese auto-producers.
-
--   Liu, K. et al. (2023) reports, e–waste is growing 3%–5% every year, globally. Thukral and Singh (2023) identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
 -   In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   Christiansen, Hasse and Tønder (2021): Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models.
-
--   Jacques Vernier (2021): French EPR scheme was upgraded in 2020 to become more circular.
-
--   In any case, strong consumer legislation (such as EPR) has a direct influence on producers’ actions. For example, in HKTDC Research (2022)@, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market.
 
 #### *Design implications:* {#design-implications-3}
 
--   ERP and CDP data should be part of Green Filter.\*
+-   ERP and CDP data should be part of Green Filter.
 
 ### Return, Repair, Reuse {#return-repair-reuse}
 
@@ -687,8 +718,6 @@ Packaging is a rapidly growing industry which generates large amounts of waste A
 
 ## Conclusion {#conclusion}
 
--   A wide range of legislative proposals, targets, organizations, and goals already exists across the Europepean Union. Upcoming laws will harmonize approaches to sustainability and raise standards for all members countries, in turn influencing producers who wish to sell in the EU common market.
-
 -   In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions.
 
 # References {#references .unnumbered}
@@ -708,6 +737,8 @@ Amin, Sakib, Jamasb, Tooraj, Llorca, Manuel, Marsiliani, Laura and Renström, Th
 Anon. (2010). Detail-rich sustainable packaging Product Database is an industry first. *Packaging World*.
 
 Anon. (2013). *[Public Health Linkages with Sustainability: Workshop Summary](https://doi.org/10.17226/18375)*. Washington, D.C.: National Academies Press.
+
+Anon. (2020). Erratum for the Report: “The global tree restoration potential” by J.-F. Bastin, Y. Finegold, C. Garcia, D. Mollicone, M. Rezende, D. Routh, C. M. Zohner, T. W. Crowther and for the Technical Response “Response to Comments on ‘The global tree restoration potential’” by J.-F. Bastin, Y. Finegold, C. Garcia, N. Gellie, A. Lowe, D. Mollicone, M. Rezende, D. Routh, M. Sacande, B. Sparrow, C. M. Zohner, T. W. Crowther. *Science*, 368(6494), p. eabc8905, doi:[10.1126/science.abc8905](https://doi.org/10.1126/science.abc8905).
 
 Anon. (2021). GreenDice - Reinventing the idea of a computer-related tech purchase.
 
@@ -779,6 +810,8 @@ BrusselsDonut (2022). Home (EN) - BrusselsDonut.
 
 Cafaro, Philip, Hansson, Pernilla and Götmark, Frank (2022). Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left. *Biological Conservation*, 272, p. 109646, doi:[10.1016/j.biocon.2022.109646](https://doi.org/10.1016/j.biocon.2022.109646).
 
+Campbell-Johnston, Kieran, Calisto Friant, Martin, Thapa, Kaustubh, Lakerveld, Dirkjan and Vermeulen, Walter J. V. (2020). How circular is your tyre: Experiences with extended producer responsibility from a circular economy perspective. *Journal of Cleaner Production*, 270, p. 122042, doi:[10.1016/j.jclepro.2020.122042](https://doi.org/10.1016/j.jclepro.2020.122042).
+
 Cardinale, Bradley J., Duffy, J. Emmett, Gonzalez, Andrew, Hooper, David U., Perrings, Charles, Venail, Patrick, Narwani, Anita, Mace, Georgina M., Tilman, David, Wardle, David A., Kinzig, Ann P., Daily, Gretchen C., Loreau, Michel, Grace, James B., Larigauderie, Anne, Srivastava, Diane S. and Naeem, Shahid (2012). Biodiversity loss and its impact on humanity. *Nature*, 486(7401), p. 59–67, doi:[10.1038/nature11148](https://doi.org/10.1038/nature11148).
 
 Chancel, Lucas (2022). Global carbon inequality over 1990. *Nat Sustain*, 5(11), p. 931–938, doi:[10.1038/s41893-022-00955-z](https://doi.org/10.1038/s41893-022-00955-z).
@@ -804,6 +837,8 @@ Clifford, Catherine (2022). How this popular Jeff Bezos quote drives Amazon’s 
 Climate Analytics and NewClimate Institute (2023). *Climate Action Tracker*.
 
 Costanza, Robert, d’Arge, Ralph, De Groot, Rudolf, Farber, Stephen, Grasso, Monica, Hannon, Bruce, Limburg, Karin, Naeem, Shahid, O’Neill, Robert V., Paruelo, Jose, Raskin, Robert G., Sutton, Paul and Van Den Belt, Marjan (1997). The value of the world’s ecosystem services and natural capital. *Nature*, 387(6630), p. 253–260, doi:[10.1038/387253a0](https://doi.org/10.1038/387253a0).
+
+Crenna, E., Sinkko, T. and Sala, S. (2019). Biodiversity impacts due to food consumption in Europe. *Journal of Cleaner Production*, 227, p. 378–391, doi:[10.1016/j.jclepro.2019.04.054](https://doi.org/10.1016/j.jclepro.2019.04.054).
 
 Crippa, M., Guizzardi, D., Banja, M., Solazzo, E., Muntean, M., Schaaf, E., Pagani F., Monforti-Ferrario, F., Olivier, J. G. J. and Quadrelli, R. (2022). *CO2 emissions of all world countries: JRC/IEA/PBL 2022 report*. Luxembourg: Publications Office of the European Union.
 
@@ -1015,6 +1050,8 @@ McDonough, William and Braungart, Michael (2002). *Cradle to cradle: Remaking th
 
 McGinty, David (Thu, 08/06/2020 - 11:25). How to Build a Circular Economy.
 
+McKibben, Bill (1989). *The end of nature*. 1st ed. New York: Random House.
+
 McKibben, Bill (2006). *The end of nature*. Random House trade pbk. ed. New York: Random House Trade Paperbacks.
 
 McKibben, Bill (2023). ’Where Should I Live?’. *The Crucial Years*.
@@ -1062,6 +1099,8 @@ Press, Camille Fassett-Associated (2023). A fungal disease is rapidly spreading 
 Raworth, Kate (2017). *Doughnut economics: Seven ways to think like a 21st century economist*. White River Junction, Vermont: Chelsea Green Publishing.
 
 ReFi DAO (2022). ReFi Podcast S2E9: Kolektivo Framework with Luuk and Pat.
+
+Renee Cho (2020). How Buying Stuff Drives Climate Change. *State of the Planet*.
 
 Rennert, Kevin, Errickson, Frank, Prest, Brian C., Rennels, Lisa, Newell, Richard G., Pizer, William, Kingdon, Cora, Wingenroth, Jordan, Cooke, Roger, Parthum, Bryan, Smith, David, Cromar, Kevin, Diaz, Delavane, Moore, Frances C., Müller, Ulrich K., Plevin, Richard J., Raftery, Adrian E., Ševčíková, Hana, Sheets, Hannah, Stock, James H., Tan, Tammy, Watson, Mark, Wong, Tony E. and Anthoff, David (2022). Comprehensive evidence implies a higher social cost of CO2. *Nature*, 610(7933), p. 687–692, doi:[10.1038/s41586-022-05224-9](https://doi.org/10.1038/s41586-022-05224-9).
 
