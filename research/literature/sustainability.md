@@ -299,7 +299,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -449,6 +449,10 @@ Most of the world is not part of a CO2 market.
 -   (United Nations Environment Programme (UNEP), 2021) report. “The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth’s climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 -   (United Nations Environment Programme (UNEP), 2021) report “If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency.”
 -   (United Nations Environment Programme, 2022) 2022 Emissions Gap report.
+
+### Carbon Markets {#carbon-markets}
+
+For the individual person, there’s no direct access to CO2 markets, however there are different types of brokers.
 
 #### Voluntary Carbon Markets {#voluntary-carbon-markets}
 

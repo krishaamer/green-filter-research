@@ -18,6 +18,8 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
+How can I find companies that meet my expectations, standards and requirements?
+
 Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation, Material Economics (2019) models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
 -   A survey of 1.2 million people by United Nations showing the percentage of people agreeing climate change is an **emergency** Anon. (n.d.a)
