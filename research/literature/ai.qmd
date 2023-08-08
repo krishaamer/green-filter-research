@@ -46,9 +46,10 @@ This power comes with ***increased need for responsibility***, drawing growing i
 | GPT-1    | 2018     | OpenAI                          | Open Source, MIT   |
 | GTP-2    | 2019     | OpenAI                          | Open Source, MIT   |
 | T-NLG    | 2000     | Microsoft                       |                    |
-| GTP-3    | 2020     | OpenAI                          | @brown2020language |
+| GPT-3    | 2020     | OpenAI                          | @brown2020language |
 | GPT-3.5  | 2022     | OpenAI                          | Proprietary        |
-| GTP-4    | 2023     | OpenAI                          | Proprietary        |
+| GPT-4    | 2023     | OpenAI                          | Proprietary        |
+| GPT-5    | ????     | OpenAI                          | Unknown; trademark registered         |
 | NeMo     | 2022     | NVIDIA                          |                    |
 | PaLM     | 2022     | Google                          |                    |
 | LaMDA    | 2022     | Google                          |                    |
@@ -59,7 +60,7 @@ This power comes with ***increased need for responsibility***, drawing growing i
 | Vicuna   | 2023     | Sapling                         | Open Source        |
 | Wu Dao 3 | 2023     | BAAI                            | Open Source        |
 
-: From @tamkin2021 reports on the advance of LLMs.
+: From reports on the advance of LLMs by @tamkin2021; @hinesOpenAIFilesTrademark2023.
 
 ## Responsible AI
 
@@ -260,6 +261,21 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | 1                       | 2                    | 3                                            |
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
+
+
+### Unsorted
+
+@peteWeHostedEmergencychatgpthackathon2023 ChatGPT hackathon.
+
+The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
+
+@SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
+
+@tuWhatShouldData2023 LLMs can be used as data analysts.
+
+@rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive Computing. (NEED access).
+
+@kobetzDecodingFutureEvolution2023
 
 ### AI Explainability
 

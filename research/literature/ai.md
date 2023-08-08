@@ -265,6 +265,20 @@ Gupta (2023) proposes 3 simple goals for AI:
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
+### Unsorted {#unsorted}
+
+Pete (2023) ChatGPT hackathon.
+
+The quality of LLM output depends on the quality of the provided prompt. Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which automatically generates instructions that outperform the baseline output quality. This finding has significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.
+
+Anon. (2023a) My bedtime story about shopping, saving, and investing.
+
+Tu et al. (2023) LLMs can be used as data analysts.
+
+Rogers (2022) defines the 4 phases of Pervasive Computing. (NEED access).
+
+Kobetz (2023)
+
 ### AI Explainability {#ai-explainability}
 
 Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which are prerequisites for building trust in AI and foundations for ***AI acceptance***.
@@ -340,7 +354,7 @@ AI-based systems are already being implemented in medicine, where stakes are hig
 
 Calling a machine a friend is a proposal bound to turn heads. But if we take a step back and think about how children have been playing with toys since before we have records of history. It’s very common for children to imagine stories and characters in play - it’s a way to develop one’s imagination ***learn through roleplay***. A child might have toys with human names and an imaginary friend and it all seems very normal. Indeed, if a child doesn’t like to play with toys, we might think something is wrong.
 
-Likewise, inanimate objects with human form have had a role to play for adults too. Anthropomorphic paddle dolls have been found from Egyptian tombs dated 2000 years B.C. Anon. (2023): We don’t know if these dolls were for religious purposes, for play, or for something else, yet their burial with the body underlines their importance.
+Likewise, inanimate objects with human form have had a role to play for adults too. Anthropomorphic paddle dolls have been found from Egyptian tombs dated 2000 years B.C. Anon. (2023b): We don’t know if these dolls were for religious purposes, for play, or for something else, yet their burial with the body underlines their importance.
 
 Coming back closer to our own time, Barbie dolls are popular since their release in 1959 till today. Throughout the years, the doll would follow changing social norms, but retain in human figure. In the 1990s, a Tamagotchi is perhaps not a human-like friend but an animal-like friend, who can interact in limited ways.
 
@@ -548,7 +562,9 @@ Anon. (2018). *Studies in conversational UX design*. New York, NY: Springer Berl
 
 Anon. (2021). Why UX should guide AI. *VentureBeat*.
 
-Anon. (2023). Paddle Doll \| Middle Kingdom. *The Metropolitan Museum of Art*.
+Anon. (2023b). Paddle Doll \| Middle Kingdom. *The Metropolitan Museum of Art*.
+
+Anon. (2023a). Sustainable Shopping: Saving and Investing for a Greener Tomorrow.
 
 Anon. (n.d.b). Buoy Health: Check Symptoms & Find the Right Care.
 
@@ -692,6 +708,8 @@ Kecht, Christoph, Egger, Andreas, Kratsch, Wolfgang and Röglinger, Maximilian (
 
 Khosravi, Hassan, Shum, Simon Buckingham, Chen, Guanliang, Conati, Cristina, Tsai, Yi-Shan, Kay, Judy, Knight, Simon, Martinez-Maldonado, Roberto, Sadiq, Shazia and Gašević, Dragan (2022). Explainable Artificial Intelligence in education. *Computers and Education: Artificial Intelligence*, 3, p. 100074, doi:[10.1016/j.caeai.2022.100074](https://doi.org/10.1016/j.caeai.2022.100074).
 
+Kobetz, Rachel (2023). Decoding the future: The evolution of intelligent interfaces. *Medium*.
+
 Kocijan, Vid, Davis, Ernest, Lukasiewicz, Thomas, Marcus, Gary and Morgenstern, Leora (2022). The Defeat of the Winograd Schema Challenge, doi:[10.48550/ARXIV.2201.02387](https://doi.org/10.48550/ARXIV.2201.02387).
 
 Kore.ai (2023). Homepage. *Kore.ai*.
@@ -758,6 +776,8 @@ patrizia-slongo (2020). <span class="nocase">AI-powered</span> tools for web des
 
 Pavlik, John V. (2023). Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education. *Journalism & Mass Communication Educator*, 78(1), p. 84–93, doi:[10.1177/10776958221149577](https://doi.org/10.1177/10776958221149577).
 
+Pete (2023). We hosted #emergencychatgpthackathon this past Sunday for the new ChatGPT and Whisper APIs. It all came together in just 4 days, but we had 250+ people and 70+ teams demo! Here’s a recap of our winning demos: <span class="nocase">https://t.co/6o1PvR9gRJ</span>. *Twitter*.
+
 Picard, Rosalind W. (1997). *Affective computing*. Cambridge, Mass: MIT Press.
 
 Pilacinski, Artur, Pinto, Ana, Oliveira, Soraia, Araújo, Eduardo, Carvalho, Carla, Silva, Paula Alexandra, Matias, Ricardo, Menezes, Paulo and Sousa, Sonia (2023). The robot eyes don’t have it. The presence of eyes on collaborative robots yields marginally higher user trust but lower performance. *Heliyon*, 9(8), p. e18164, doi:[10.1016/j.heliyon.2023.e18164](https://doi.org/10.1016/j.heliyon.2023.e18164).
@@ -767,6 +787,8 @@ Qorus (2023). *The Great Reinvention: The Global Digital Banking Radar 2023*.
 Ramchurn, Sarvapali D., Stein, Sebastian and Jennings, Nicholas R. (2021). Trustworthy human-AI partnerships. *iScience*, 24(8), p. 102891, doi:[10.1016/j.isci.2021.102891](https://doi.org/10.1016/j.isci.2021.102891).
 
 ReadyAI (2020). *Human-AI Interaction: How We Work with Artificial Intelligence*.
+
+Rogers, Yvonne (2022). The Four Phases of Pervasive Computing: From Vision-Inspired to Societal-Challenged. *IEEE Pervasive Comput.*, 21(3), p. 9–16, doi:[10.1109/MPRV.2022.3179145](https://doi.org/10.1109/MPRV.2022.3179145).
 
 San Roman, Robin, Adi, Yossi, Deleforge, Antoine, Serizel, Romain, Synnaeve, Gabriel and Défossez, Alexandre (2023). From discrete tokens to high-fidelity audio using multi-band diffusion. *arXiv preprint arXiv:*
 
@@ -826,6 +848,8 @@ Tom Hathaway and Angela Hathaway (2021). *Chatting with Humans: User Experience 
 
 Tristan Greene (2022). Confused Replika AI users are trying to bang the algorithm. *TNW*.
 
+Tu, Xinming, Zou, James, Su, Weijie J. and Zhang, Linjun (2023). What Should Data Science Education Do with Large Language Models?, doi:[10.48550/ARXIV.2307.02792](https://doi.org/10.48550/ARXIV.2307.02792).
+
 Tubik Studio (2018). UX Design Glossary: How to Use Affordances in User Interfaces. *Medium*.
 
 Turing, A. M. (1950). I. *Mind*, LIX(236), p. 433–460, doi:[10.1093/mind/LIX.236.433](https://doi.org/10.1093/mind/LIX.236.433).
@@ -867,5 +891,7 @@ Zerilli, John, Bhatt, Umang and Weller, Adrian (2022). How transparency modulate
 Zhang, Guanglu, Chong, Leah, Kotovsky, Kenneth and Cagan, Jonathan (2023). Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation. *Computers in Human Behavior*, 139, p. 107536, doi:[10.1016/j.chb.2022.107536](https://doi.org/10.1016/j.chb.2022.107536).
 
 Zhang, Shihan (2018). Personal Carbon Economy.
+
+Zhou, Yongchao, Muresanu, Andrei Ioan, Han, Ziwen, Paster, Keiran, Pitis, Silviu, Chan, Harris and Ba, Jimmy (2022). Large Language Models Are Human-Level Prompt Engineers, doi:[10.48550/ARXIV.2211.01910](https://doi.org/10.48550/ARXIV.2211.01910).
 
 Zimmerman, John, Oh, Changhoon, Yildirim, Nur, Kass, Alex, Tung, Teresa and Forlizzi, Jodi (2021). UX designers pushing AI in the enterprise: A case for adaptive UIs. *interactions*, 28(1), p. 72–77, doi:[10.1145/3436954](https://doi.org/10.1145/3436954).

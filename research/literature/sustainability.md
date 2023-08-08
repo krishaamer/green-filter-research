@@ -295,7 +295,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -420,7 +420,7 @@ The share of CO2 emissions among people around the world is highly unequal acros
 
 -   Bajarin (n.d.) Over 300 million PCs sold in 2022
 
-    -   Anon. (2021) Estonian company “sustainable lifecycle management of IT equipment”
+    -   Anon. (2021a) Estonian company “sustainable lifecycle management of IT equipment”
     -   Ärileht (23.09.2022, 12:53) Recycle your phone, FoxWay and Circular economy for PCs.
     -   Zhou et al. (2022) ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
 
@@ -429,7 +429,7 @@ The share of CO2 emissions among people around the world is highly unequal acros
 As of 2023 there isn’t a single global CO2 trading market but rather several local markets as described in the table below Anon. (n.d.a).
 
 | CO2 Market               | Launch Date | Comments                                                                                                                                                           |
-|----------------------------|--------------|-------------------------------|
+|--------------------------|------------------|-----------------------------|
 | European Union           | 2005        | EU: Araújo et al. (2020)                                                                                                                                           |
 | South Korea              | 2015        |                                                                                                                                                                    |
 | China                    | 2021        | China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022 (Liu, H., 2021; Ivy Yin, 2023).    |
@@ -597,6 +597,49 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 
 ## Policy Context {#policy-context}
 
+### The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
+
+We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
+
+Timeline of the Policy Context:
+
+-   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
+
+-   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
+
+-   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (European Commission (2019a); European Commission (2019b); Anon. (2022c); European Council (2022)).
+
+-   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in European Commission (2022b). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria.
+
+### European Green Deal {#european-green-deal}
+
+-   Anon. (2021b)
+-   Switch2Green (2023)
+
+It’s up to legislators to provide sustainable products on our marketplace… but until we do, use the green filter.
+
+-   One of the EU goals is reducing consumption
+-   Tacking our consumption habits
+-   Europe is the hotbed of sustainability
+-   Iman Ghosh (2020)
+-   Lamoureux (2018) Florida sustainable companies
+-   MICHAEL HOULIHAN and BONNIE HARVEY (2018) customers prefer sustainable companies
+-   Rajagopalan and Landrigan (2023): In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
+
+### Ecodesign as Key Policy Tool {#ecodesign-as-key-policy-tool}
+
+A large part of the proposal by Commission et al. (2014) is ***eco-design***, as a large part of product lifecycle environmental impact is defined in the design process.
+
+| Quality    |                   |                    |
+|------------|-------------------|--------------------|
+| Durable    | Reparable         | Easy to recycle    |
+| Reusable   | Easy to maintain  | Energy efficient   |
+| Upgradable | Easy to refurbish | Resource efficient |
+
+The framework proposes 9 values to strive for in high quality products.
+
+### Policy Around the World {#policy-around-the-world}
+
 Politics matters in sustainability.
 
 In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
@@ -639,7 +682,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   Nastaraan Vadoodi (2022)
 
--   European Commission (2022b) Ecodesign for sustainable products
+-   European Commission (2022c) Ecodesign for sustainable products
 
 ### Waste Generation {#waste-generation}
 
@@ -680,8 +723,8 @@ Bring back your bottle and cup after use.
 
 Packaging is a rapidly growing industry which generates large amounts of waste Ada et al. (2023). Bradley and Corsini (2023): “Over 161 million tonnes of plastic packaging is produced annually.”
 
--   Anon. (2022c)
 -   Anon. (2022d)
+-   Anon. (2022e)
 -   Anon. (2010)
 -   Lerner (2019) Coca Cola plastic pollution
 -   Anon. (n.d.e)
@@ -740,15 +783,19 @@ Anon. (2013). *[Public Health Linkages with Sustainability: Workshop Summary](ht
 
 Anon. (2020). Erratum for the Report: “The global tree restoration potential” by J.-F. Bastin, Y. Finegold, C. Garcia, D. Mollicone, M. Rezende, D. Routh, C. M. Zohner, T. W. Crowther and for the Technical Response “Response to Comments on ‘The global tree restoration potential’” by J.-F. Bastin, Y. Finegold, C. Garcia, N. Gellie, A. Lowe, D. Mollicone, M. Rezende, D. Routh, M. Sacande, B. Sparrow, C. M. Zohner, T. W. Crowther. *Science*, 368(6494), p. eabc8905, doi:[10.1126/science.abc8905](https://doi.org/10.1126/science.abc8905).
 
-Anon. (2021). GreenDice - Reinventing the idea of a computer-related tech purchase.
+Anon. (2021b). A European Green Deal.
 
-Anon. (2022c). Challenges and Opportunities in Sustainable Packaging Today. *Packaging World*.
+Anon. (2021a). GreenDice - Reinventing the idea of a computer-related tech purchase.
+
+Anon. (2022d). Challenges and Opportunities in Sustainable Packaging Today. *Packaging World*.
+
+Anon. (2022c). EU reaches agreement on national emission reductions.
 
 Anon. (2022a). *[FRA 2020 Remote Sensing Survey](https://doi.org/10.4060/cb9970en)*. FAO.
 
 Anon. (2022b). Methodology for GHG & Co-Benefits in Grazing Systems.
 
-Anon. (2022d). Protein Brands and Consumers Alike Focus on Sustainability. *Packaging World*.
+Anon. (2022e). Protein Brands and Consumers Alike Focus on Sustainability. *Packaging World*.
 
 Anon. (2023c). Climate change mitigation: Reducing emissions.
 
@@ -836,6 +883,8 @@ Clifford, Catherine (2022). How this popular Jeff Bezos quote drives Amazon’s 
 
 Climate Analytics and NewClimate Institute (2023). *Climate Action Tracker*.
 
+Commission, European, Energy, Directorate-General for, Enterprise, Directorate-General for and Industry (2014). *[Ecodesign your future : How ecodesign can help the environment by making products smarter](https://doi.org/doi/10.2769/38512)*. European Commission.
+
 Costanza, Robert, d’Arge, Ralph, De Groot, Rudolf, Farber, Stephen, Grasso, Monica, Hannon, Bruce, Limburg, Karin, Naeem, Shahid, O’Neill, Robert V., Paruelo, Jose, Raskin, Robert G., Sutton, Paul and Van Den Belt, Marjan (1997). The value of the world’s ecosystem services and natural capital. *Nature*, 387(6630), p. 253–260, doi:[10.1038/387253a0](https://doi.org/10.1038/387253a0).
 
 Crenna, E., Sinkko, T. and Sala, S. (2019). Biodiversity impacts due to food consumption in Europe. *Journal of Cleaner Production*, 227, p. 378–391, doi:[10.1016/j.jclepro.2019.04.054](https://doi.org/10.1016/j.jclepro.2019.04.054).
@@ -880,11 +929,19 @@ Eric fogg (2020). What is Lights Out Manufacturing? Exploring Full Automation.
 
 Espinosa, Free and Bazairi, Hocein (2023). [Impacts, evolution, and changes of pressure on marine ecosystems in recent times. Toward new emerging and unforeseen impacts within a changing world](https://doi.org/10.1016/B978-0-323-85613-3.00004-9). In: *Coastal Habitat Conservation*. Elsevier, p. 1–16.
 
-European Commission (2022b). *Ecodesign for sustainable products*.
+European Commission (2019a). The European Green Deal.
+
+European Commission (2019b). A Sustainable Europe by 2030.
+
+European Commission (2022b). *Circular Economy Action Plan: For a cleaner and more competitive Europe*.
+
+European Commission (2022c). *Ecodesign for sustainable products*.
 
 European Commission (2022a). Green Deal: New proposals to make sustainable products the norm and boost Europe’s resource independence.
 
 European Commission (2023). EU and Republic of Korea - Green Partnership. *European Commission - European Commission*.
+
+European Council (2022). Fit for 55 - The EU’s plan for a green transition.
 
 European Parliament (2022). Ecodesign for sustainable products.
 
@@ -956,6 +1013,8 @@ IEA (2022). *Global Energy Review: CO2 Emissions in 2021*. Paris.
 
 iGenius (2020). Let’s talk about sustainable AI. *Ideas @ iGenius*.
 
+Iman Ghosh (2020). Mapped: Where Are the World’s Most Sustainable Companies?
+
 Iñarra, B., San Martin, D., Ramos, S., Cidad, M., Estévez, A., Fenollosa, R., Martinez, J. M., Ferdinando, A., De Smet, A. M. and Zufía, J. (2022). Ecodesign of new circular economy scheme for Brewer’s side streams. *Sustainable Chemistry and Pharmacy*, 28, p. 100727, doi:[10.1016/j.scp.2022.100727](https://doi.org/10.1016/j.scp.2022.100727).
 
 International Development LSE (2021). Kate Raworth \| Doughnut Economics: Turning a radical idea into irresistible practice.
@@ -991,6 +1050,8 @@ Kornek, Ulrike, Klenert, David, Edenhofer, Ottmar and Fleurbaey, Marc (2021). Th
 Korosec, Kirsten (2021). Amazon taps \$2B climate fund to invest in three more startups. *TechCrunch*.
 
 Kunz, Nathan, Chesney, Thomas, Trautrims, Alexander and Gold, Stefan (2023). Adoption and transferability of joint interventions to fight modern slavery in food supply chains. *International Journal of Production Economics*, 258, p. 108809, doi:[10.1016/j.ijpe.2023.108809](https://doi.org/10.1016/j.ijpe.2023.108809).
+
+Lamoureux, Emie-Claude (2018). Notable Sustainable Companies in Florida. *L’Autre Couleur*.
 
 Lavers, Jennifer L., Bond, Alexander L. and Rolsky, Charles (2022). Far from a distraction: Plastic pollution and the planetary emergency. *Biological Conservation*, 272, p. 109655, doi:[10.1016/j.biocon.2022.109655](https://doi.org/10.1016/j.biocon.2022.109655).
 
@@ -1058,6 +1119,8 @@ McKibben, Bill (2023). ’Where Should I Live?’. *The Crucial Years*.
 
 Meisinger, Norman (2022). A tragedy of intangible commons: Riding the socioecological wave. *Ecological Economics*, 193, p. 107298, doi:[10.1016/j.ecolecon.2021.107298](https://doi.org/10.1016/j.ecolecon.2021.107298).
 
+MICHAEL HOULIHAN and BONNIE HARVEY (2018). It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur.
+
 Miyoshi, Shion, Segawa, Takumi, Takii, Mariko, Imamura, Tsuyoshi, Sakurai, Hideo, Kurosawa, Yoshinori, Kondo, Shinsuke, Kishita, Yusuke and Umeda, Yasushi (2022). Evaluation of circularity of components for life cycle design: A toner bottle case study. *Procedia CIRP*, 105, p. 267–272, doi:[10.1016/j.procir.2022.02.044](https://doi.org/10.1016/j.procir.2022.02.044).
 
 Moberg, Karen R., Aall, Carlo, Dorner, Florian, Reimerson, Elsa, Ceron, Jean-Paul, Sköld, Bore, Sovacool, Benjamin K. and Piana, Valentino (2019). Mobility, food and housing: Responsibility, individual consumption and demand-side policies in European deep decarbonisation pathways. *Energy Efficiency*, 12(2), p. 497–519, doi:[10.1007/s12053-018-9708-7](https://doi.org/10.1007/s12053-018-9708-7).
@@ -1095,6 +1158,8 @@ Peng, Jiahui, Shi, Xiaolei and Tong, Xin (2023). Extended producer responsibilit
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily and Stephen Polasky (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
 
 Press, Camille Fassett-Associated (2023). A fungal disease is rapidly spreading across the U.S. Scientists are alarmed. *Fast Company*.
+
+Rajagopalan, Sanjay and Landrigan, Philip J. (2023). The Inflation Reduction Act implications for climate change, air pollution, and health. *The Lancet Regional Health - Americas*, 23, p. 100522, doi:[10.1016/j.lana.2023.100522](https://doi.org/10.1016/j.lana.2023.100522).
 
 Raworth, Kate (2017). *Doughnut economics: Seven ways to think like a 21st century economist*. White River Junction, Vermont: Chelsea Green Publishing.
 
@@ -1145,6 +1210,8 @@ Steenmans, Katrien and Ulfbeck, Vibe (2023). Fostering the circular economy thro
 Stefan Klebert (2022). Carbon-neutral manufacturing is possible: Here’s how. *World Economic Forum*.
 
 Stern, Nicholas (2022). Towards a carbon neutral economy: How government should respond to market failures and market absence. *Journal of Government and Economics*, 6, p. 100036, doi:[10.1016/j.jge.2022.100036](https://doi.org/10.1016/j.jge.2022.100036).
+
+Switch2Green (2023). The EU Green Deal a roadmap to sustainable economies.
 
 TED (2018). A healthy economy should be designed to thrive, not grow \| Kate Raworth.
 

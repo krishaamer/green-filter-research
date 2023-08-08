@@ -61,47 +61,6 @@ The theme for Earth Day 2023 was "Invest In Our Planet". @EarthDay2023
 
 @instituteEnergySystemStruggles2023 As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing.
 
-## The Policy Context in Europe From 2023 to 2030
-
-We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-Timeline of the Policy Context:
-
--   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
-
--   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
-
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
-
--   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
-
-### European Green Deal
-
--   @EuropeanGreenDeal2021
--   @switch2greenEUGreenDeal2023
-
-It's up to legislators to provide sustainable products on our marketplace... but until we do, use the green filter.
-
--   One of the EU goals is reducing consumption
--   Tacking our consumption habits
--   Europe is the hotbed of sustainability
--   @imanghoshMappedWhereAre2020
--   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
--   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
--   @rajagopalanInflationReductionAct2023: In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
-
-### Ecodesign as Key Policy Tool
-
-A large part of the proposal by @commissionEcodesignYourFuture2014 is ***eco-design***, as a large part of product lifecycle environmental impact is defined in the design process.
-
-| Quality    |                   |                    |
-|------------|-------------------|--------------------|
-| Durable    | Reparable         | Easy to recycle    |
-| Reusable   | Easy to maintain  | Energy efficient   |
-| Upgradable | Easy to refurbish | Resource efficient |
-
-: The framework proposes 9 values to strive for in high quality products.
-
 ## Research Relevance
 
 -   and protecting biodiversity
@@ -137,6 +96,10 @@ This research is timely in 2023 because of the convergence of four trends:
 
 -   I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google's and Apple's Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
 
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Geneva on 27th September, 2019](./images/geneve.jpg)
+:::
+
 ```{=mdx}
 <Figure
   caption="Climate protest in Geneva on 27th September, 2019"
@@ -147,9 +110,13 @@ This research is timely in 2023 because of the convergence of four trends:
 ```
 -   As a foreigner living in Taiwan, I've relied extensively on Google Maps' AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple's text prediction translates pinyin to hanzi. Even when we don't realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn't sound so much of a stretch.
 
+::: {.content-hidden unless-format="pdf"}
+![Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures](./images/tricorder.jpg)
+:::
+
 ```{=mdx}
 <Figure
-  caption="Figure 1: Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
+  caption="Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
   src={Tricorder}
 />
 ```
@@ -167,6 +134,10 @@ For the average person, our experience is limited with buying things at the supe
 -   Green Savings
 -   Green Investing
 
+::: {.content-hidden unless-format="pdf"}
+![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png)
+:::
+
 ```{=mdx}
 <Figure
   caption="Planetary Boundaries"
@@ -181,9 +152,13 @@ For the average person, our experience is limited with buying things at the supe
 -   According to a @calastoneMillennialsInvestingDetailed2020 study surveying 3000 Millennial people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
 -   Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
 
+::: {.content-hidden unless-format="pdf"}
+![Early prototype of my Sustainable Finance AI Companion](./images/susan-pink-app.png)
+:::
+
 ```{=mdx}
 <Figure
-  caption="Figure 2 - Early prototype of my Sustainable Finance AI Companion"
+  caption="Early prototype of my Sustainable Finance AI Companion"
   src={Susan}
 />
 ```
@@ -259,7 +234,7 @@ Survey respondents:
 -   My research aims to explore the following 3 research questions. How can consumers support extended producer responsibility?
 
 | №   | Question                                                                       | Methods                                     |
-|-----------------|--------------------------------|------------------------|
+|------------------|-------------------------------|-----------------------|
 | 1   | How might AI assistants empower regenerative shopping, saving, and investing?  | Literature Review + Expert Interviews       |
 | 2   | How might one design an intuitive sustainable shopping, saving, investing app? | Literature review + Survey                  |
 | 3   | What app features might college students rate as the highest priority?         | Survey + Prototype Testing with Focus Group |

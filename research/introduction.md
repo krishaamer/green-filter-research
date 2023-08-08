@@ -53,52 +53,11 @@ This data allows apps to provide tips how to improve health outcomes through sma
 
 What would be a good interface to track sustainability?
 
-Anon. (2016) The global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The Rockefeller Foundation (2022) estimates the financing gap to be 2.5-3.2 Trillion USD in 2022. Anon. (2022a) The lack of funding especially affects emerging economies.
+Anon. (2016) The global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The Rockefeller Foundation (2022) estimates the financing gap to be 2.5-3.2 Trillion USD in 2022. Anon. (2022) The lack of funding especially affects emerging economies.
 
 The theme for Earth Day 2023 was “Invest In Our Planet”. Anon. (n.d.b)
 
 Institute (2023) As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing.
-
-## The Policy Context in Europe From 2023 to 2030 {#the-policy-context-in-europe-from-2023-to-2030}
-
-We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-Timeline of the Policy Context:
-
--   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
-
--   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
-
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (European Commission (2019a); European Commission (2019b); Anon. (2022b); European Council (2022)).
-
--   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in European Commission (2022). Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It’s safe to say the large majority of products available today do not meet these criteria.
-
-### European Green Deal {#european-green-deal}
-
--   Anon. (2021)
--   Switch2Green (2023)
-
-It’s up to legislators to provide sustainable products on our marketplace… but until we do, use the green filter.
-
--   One of the EU goals is reducing consumption
--   Tacking our consumption habits
--   Europe is the hotbed of sustainability
--   Iman Ghosh (2020)
--   Lamoureux (2018) Florida sustainable companies
--   MICHAEL HOULIHAN and BONNIE HARVEY (2018) customers prefer sustainable companies
--   Rajagopalan and Landrigan (2023): In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
-
-### Ecodesign as Key Policy Tool {#ecodesign-as-key-policy-tool}
-
-A large part of the proposal by Commission et al. (2014) is ***eco-design***, as a large part of product lifecycle environmental impact is defined in the design process.
-
-| Quality    |                   |                    |
-|------------|-------------------|--------------------|
-| Durable    | Reparable         | Easy to recycle    |
-| Reusable   | Easy to maintain  | Energy efficient   |
-| Upgradable | Easy to refurbish | Resource efficient |
-
-The framework proposes 9 values to strive for in high quality products.
 
 ## Research Relevance {#research-relevance}
 
@@ -148,7 +107,7 @@ This research is timely in 2023 because of the convergence of four trends:
 
 ``` mdx-code-block
 <Figure
-  caption="Figure 1: Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
+  caption="Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
   src={Tricorder}
 />
 ```
@@ -184,7 +143,7 @@ For the average person, our experience is limited with buying things at the supe
 
 ``` mdx-code-block
 <Figure
-  caption="Figure 2 - Early prototype of my Sustainable Finance AI Companion"
+  caption="Early prototype of my Sustainable Finance AI Companion"
   src={Susan}
 />
 ```
@@ -261,7 +220,7 @@ Survey respondents:
 -   My research aims to explore the following 3 research questions. How can consumers support extended producer responsibility?
 
 | №   | Question                                                                       | Methods                                     |
-|-------------|---------------------------------|--------------------------|
+|-------------------|-------------------------------|-----------------------|
 | 1   | How might AI assistants empower regenerative shopping, saving, and investing?  | Literature Review + Expert Interviews       |
 | 2   | How might one design an intuitive sustainable shopping, saving, investing app? | Literature review + Survey                  |
 | 3   | What app features might college students rate as the highest priority?         | Survey + Prototype Testing with Focus Group |
@@ -271,11 +230,7 @@ Survey respondents:
 
 Anon. (2016). Mapping the Gap: The Road from Paris. *BloombergNEF*.
 
-Anon. (2021). A European Green Deal.
-
-Anon. (2022b). EU reaches agreement on national emission reductions.
-
-Anon. (2022a). Mobilizing Capital Into Emerging Markets and Developing Economies. *BloombergNEF*.
+Anon. (2022). Mobilizing Capital Into Emerging Markets and Developing Economies. *BloombergNEF*.
 
 Anon. (n.d.b). Earth Day 2023 - Earth Day.
 
@@ -289,8 +244,6 @@ Branka Vuleta (2023). Generation Z Statistics. *99firms*.
 
 Calastone (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
 
-Commission, European, Energy, Directorate-General for, Enterprise, Directorate-General for and Industry (2014). *[Ecodesign your future : How ecodesign can help the environment by making products smarter](https://doi.org/doi/10.2769/38512)*. European Commission.
-
 Deutsche Welle (2019). Fridays for Future global climate strike.
 
 Deyan Georgiev (2023). *39+ Smartphone Statistics You Should Know in 2023*.
@@ -299,35 +252,17 @@ Dimock, Michael (2019). Defining generations: Where Millennials end and Generati
 
 Ellen MacArthur Foundation, Material Economics (2019). Completing the picture: How the circular economy tackles climate change.
 
-European Commission (2019a). The European Green Deal.
-
-European Commission (2019b). A Sustainable Europe by 2030.
-
-European Commission (2022). *Circular Economy Action Plan: For a cleaner and more competitive Europe*.
-
-European Council (2022). Fit for 55 - The EU’s plan for a green transition.
-
 Global Web Index (2017). 98% of Gen Z Own a Smartphone.
 
 Gupta, Alisha Haridasani (2020). An “Electrifying” Economist’s Guide to the Recovery. *The New York Times*.
-
-Iman Ghosh (2020). Mapped: Where Are the World’s Most Sustainable Companies?
 
 Institute, Energy (2023). Energy system struggles in face of geopolitical and environmental crises. *Energy Institute*.
 
 Keeling, Ralph F. and Keeling, Charles D. (2017). [Atmospheric Monthly In Situ CO2 Data - Mauna Loa Observatory, Hawaii. In Scripps CO2 Program Data](https://doi.org/10.6075/J08W3BHW).
 
-Lamoureux, Emie-Claude (2018). Notable Sustainable Companies in Florida. *L’Autre Couleur*.
-
-MICHAEL HOULIHAN and BONNIE HARVEY (2018). It’s Official: Customers Prefer Sustainable Companies \| Entrepreneur.
-
 Persson, Linn, Carney Almroth, Bethanie M., Collins, Christopher D., Cornell, Sarah, de Wit, Cynthia A., Diamond, Miriam L., Fantke, Peter, Hassellöv, Martin, MacLeod, Matthew, Ryberg, Morten W., Søgaard Jørgensen, Peter, Villarrubia-Gómez, Patricia, Wang, Zhanyun and Hauschild, Michael Zwicky (2022). Outside the Safe Operating Space of the Planetary Boundary for Novel Entities. *Environ. Sci. Technol.*, 56(3), p. 1510–1521, doi:[10.1021/acs.est.1c04158](https://doi.org/10.1021/acs.est.1c04158).
 
-Rajagopalan, Sanjay and Landrigan, Philip J. (2023). The Inflation Reduction Act implications for climate change, air pollution, and health. *The Lancet Regional Health - Americas*, 23, p. 100522, doi:[10.1016/j.lana.2023.100522](https://doi.org/10.1016/j.lana.2023.100522).
-
 Rubino, Mauro, Etheridge, David, Thornton, David, Allison, Colin, Francey, Roger, Langenfelds, Ray, Steele, Paul, Trudinger, Cathy, Spencer, Darren, Curran, Mark, Van Ommen, Tas and Smith, Andrew (2019). [Law Dome Ice Core 2000-Year CO2, CH4, N2O and <span class="nocase">d13C-CO2</span>](https://doi.org/10.25919/5BFE29FF807FB).
-
-Switch2Green (2023). The EU Green Deal a roadmap to sustainable economies.
 
 The Rockefeller Foundation (2022). *What Gets Measured Gets Financed*.
 

@@ -195,6 +195,11 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
 
+
+#### SDGs
+
+-   SDGs need to discussed in their totallity @popkovaTheoryDigitalTechnology2022.
+
 #### Planetary Boundaries
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
@@ -290,7 +295,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -424,7 +429,7 @@ The share of CO2 emissions among people around the world is highly unequal acros
 As of 2023 there isn't a single global CO2 trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
 | CO2 Market               | Launch Date | Comments                                                                                                                                                                                     |
-|----------------------------|-------------|-------------------------------|
+|--------------------------|-----------------|-----------------------------|
 | European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                       |
 | South Korea              | 2015        |                                                                                                                                                                                              |
 | China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
@@ -571,9 +576,8 @@ TODO
 
 -   AI has the potential to provide the parameters for sustainability. @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
 
-```{=html}
 <!-- -->
-```
+
 -   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
 
 ### Circular Economy
@@ -593,11 +597,54 @@ Circular economy is a tiny part of the world economy. @circleeconomyCircularityG
 
 ## Policy Context
 
+### The Policy Context in Europe From 2023 to 2030
+
+We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
+
+Timeline of the Policy Context:
+
+-   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
+
+-   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
+
+-   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
+
+-   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+
+### European Green Deal
+
+-   @EuropeanGreenDeal2021
+-   @switch2greenEUGreenDeal2023
+
+It's up to legislators to provide sustainable products on our marketplace... but until we do, use the green filter.
+
+-   One of the EU goals is reducing consumption
+-   Tacking our consumption habits
+-   Europe is the hotbed of sustainability
+-   @imanghoshMappedWhereAre2020
+-   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
+-   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
+-   @rajagopalanInflationReductionAct2023: In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
+
+### Ecodesign as Key Policy Tool
+
+A large part of the proposal by @commissionEcodesignYourFuture2014 is ***eco-design***, as a large part of product lifecycle environmental impact is defined in the design process.
+
+| Quality    |                   |                    |
+|------------|-------------------|--------------------|
+| Durable    | Reparable         | Easy to recycle    |
+| Reusable   | Easy to maintain  | Energy efficient   |
+| Upgradable | Easy to refurbish | Resource efficient |
+
+: The framework proposes 9 values to strive for in high quality products.
+
+### Policy Around the World
+
 Politics matters in sustainability.
 
 In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
 
--    In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership @wattsAmazonDeforestationFalls2023.
+-   In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership @wattsAmazonDeforestationFalls2023.
 
 -   @EUTaxonomySustainable report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
 
@@ -643,7 +690,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 ### Extended Producer Responsibility
 
-Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 [CITE], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021].
+Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[CITE\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021].
 
 In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
 
