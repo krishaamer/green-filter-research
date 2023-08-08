@@ -151,6 +151,8 @@ Humans working together are able to achieve more than single individuals. “Any
 
 -   I would like to have an AI agent to set my requirements and preferences and give a “fuck you” middle finger to companies that don’t meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
 
+### Trust {#trust}
+
 ### Memes {#memes}
 
 -   Coined by Richard Dawkins in 1976 in the context of biology.

@@ -200,6 +200,10 @@ Daily human activities emission contribution on average in France, Germany, Norw
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   Armstrong McKay et al. (2022) discusses tipping points
 
+#### SDGs {#sdgs}
+
+-   SDGs need to discussed in their totallity Popkova et al. (2022).
+
 #### Planetary Boundaries {#planetary-boundaries-1}
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
@@ -1156,6 +1160,8 @@ Pearson, Peter J. G. and Foxon, Timothy J. (2012). A low carbon industrial revol
 Peng, Jiahui, Shi, Xiaolei and Tong, Xin (2023). Extended producer responsibility for low carbon transition in automobile industry. *Circular Economy*, 2(2), p. 100036, doi:[10.1016/j.cec.2023.100036](https://doi.org/10.1016/j.cec.2023.100036).
 
 Peter Kareiva, Heather Tallis, Taylor H. Ricketts, Gretchen C. Daily and Stephen Polasky (2011). *Natural Capital:Theory and Practice of Mapping Ecosystem Services*. Oxford University Press.
+
+Popkova, Elena G., De Bernardi, Paola, Tyurina, Yuliya G. and Sergi, Bruno S. (2022). A theory of digital technology advancement to address the grand challenges of sustainable development. *Technology in Society*, 68, p. 101831, doi:[10.1016/j.techsoc.2021.101831](https://doi.org/10.1016/j.techsoc.2021.101831).
 
 Press, Camille Fassett-Associated (2023). A fungal disease is rapidly spreading across the U.S. Scientists are alarmed. *Fast Company*.
 

@@ -45,25 +45,26 @@ Noble et al. (2022) proposes AI has reached a stage, which begets the beginning 
 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
-| AI Model | Released | Company                         | License                    |
+| AI Model | Released | Company                         | License                       |
 |-----------|-----------|--------------------------------|--------------------|
-| GPT-1    | 2018     | OpenAI                          | Open Source, MIT           |
-| GTP-2    | 2019     | OpenAI                          | Open Source, MIT           |
-| T-NLG    | 2000     | Microsoft                       |                            |
-| GTP-3    | 2020     | OpenAI                          | Brown, T. B. et al. (2020) |
-| GPT-3.5  | 2022     | OpenAI                          | Proprietary                |
-| GTP-4    | 2023     | OpenAI                          | Proprietary                |
-| NeMo     | 2022     | NVIDIA                          |                            |
-| PaLM     | 2022     | Google                          |                            |
-| LaMDA    | 2022     | Google                          |                            |
-| GLaM     | 2022     | Google                          |                            |
-| BLOOM    | 2022     | Hugging Face                    | Open Source                |
-| Falcon   | 2023     | Technology Innovation Institute | Open Source                |
-| Tongyi   | 2023     | Alibaba                         |                            |
-| Vicuna   | 2023     | Sapling                         | Open Source                |
-| Wu Dao 3 | 2023     | BAAI                            | Open Source                |
+| GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
+| GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
+| T-NLG    | 2000     | Microsoft                       |                               |
+| GPT-3    | 2020     | OpenAI                          | Brown, T. B. et al. (2020)    |
+| GPT-3.5  | 2022     | OpenAI                          | Proprietary                   |
+| GPT-4    | 2023     | OpenAI                          | Proprietary                   |
+| GPT-5    | ????     | OpenAI                          | Unknown; trademark registered |
+| NeMo     | 2022     | NVIDIA                          |                               |
+| PaLM     | 2022     | Google                          |                               |
+| LaMDA    | 2022     | Google                          |                               |
+| GLaM     | 2022     | Google                          |                               |
+| BLOOM    | 2022     | Hugging Face                    | Open Source                   |
+| Falcon   | 2023     | Technology Innovation Institute | Open Source                   |
+| Tongyi   | 2023     | Alibaba                         |                               |
+| Vicuna   | 2023     | Sapling                         | Open Source                   |
+| Wu Dao 3 | 2023     | BAAI                            | Open Source                   |
 
-From Tamkin et al. (2021) reports on the advance of LLMs.
+From reports on the advance of LLMs by Tamkin et al. (2021); Hines (2023).
 
 ## Responsible AI {#responsible-ai}
 
@@ -683,6 +684,8 @@ Haugeland, Isabel Kathleen Fornell, Følstad, Asbjørn, Taylor, Cameron and Bjø
 HIITTV (2021b). Rosalind Picard: Adventures in building Emotional Intelligence Technologies.
 
 HIITTV (2021a). Wojciech Szpankowski: Emerging Frontiers of Science of Information.
+
+Hines, Kristi (2023). OpenAI Files Trademark Application For GPT-5. *Search Engine Journal*.
 
 Holbrook, Jess (2018). Human-Centered Machine Learning. *Medium*.
 
