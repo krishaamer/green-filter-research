@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -75,10 +75,6 @@ Many large businesses have tried to find solutions by launching climate-focused 
 -   Houdini (2018)
 
 -   Haeggman, Moberg and Sandin (2018)
-
-#### *Design Implications:* {#design-implications}
-
--   Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.
 
 ### Ecosystem Services {#ecosystem-services}
 
@@ -299,7 +295,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|----------------------|--------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -338,10 +334,6 @@ Air pollution is so widespread. Clean air is a requirement.
 -   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
 -   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
 -   MARIA LUÍS FERNANDES (2023) EU has legislation in progress to curb industrial emissions.
-
-#### *Design Implications:* {#design-implications-1}
-
--   *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
 
 #### Disasters and Extreme Weather {#disasters-and-extreme-weather}
 
@@ -433,7 +425,7 @@ The share of CO2 emissions among people around the world is highly unequal acros
 As of 2023 there isn’t a single global CO2 trading market but rather several local markets as described in the table below Anon. (n.d.a).
 
 | CO2 Market               | Launch Date | Comments                                                                                                                                                           |
-|--------------------------|------------------|-----------------------------|
+|--------------------------|-------------------|----------------------------|
 | European Union           | 2005        | EU: Araújo et al. (2020)                                                                                                                                           |
 | South Korea              | 2015        |                                                                                                                                                                    |
 | China                    | 2021        | China’s national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022 (Liu, H., 2021; Ivy Yin, 2023).    |
@@ -583,9 +575,6 @@ TODO
 Gupta et al. (2023) argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
 
 -   AI has the potential to provide the parameters for sustainability. Singh and Sarkar (2023) proposes an AI tool for deciding the suitable life cycle design parameters.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
 -   Anon. (n.d.b): “Sustainability starts in the design process, and AI can help”.
 
 ### Circular Economy {#circular-economy}
@@ -598,10 +587,6 @@ Circular economy is a tiny part of the world economy. Circle Economy (2022) repo
 -   Chapman (2009) argues in his seminal paper (and later in his book) for ***“Emotionally Durable Design”***, the simple idea that we hold to things we value and thus they are sustainable. We don’t throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. Rose (2015) has a similar idea, where ***“Enchanted Objects”*** become so interlinked with us, we’re unlikely to throw them away.
 -   Growing public understanding of how nature works and intersects with our use of money.
 -   Hedberg and Šipka (2021) argues digitization and data sharing is a requirement for building a circular economy.
-
-#### *Design Implications:* {#design-implications-2}
-
--   AI can help us make sense of the vast amounts of sustainability data generated daily.
 
 ## Policy Context {#policy-context}
 
@@ -710,10 +695,6 @@ One type of legislation that works?
 
 -   In Europe, there’s large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
 
-#### *Design implications:* {#design-implications-3}
-
--   ERP and CDP data should be part of Green Filter.
-
 ### Return, Repair, Reuse {#return-repair-reuse}
 
 -   There’s a growing number of companies providing re-use of existing items.
@@ -767,9 +748,15 @@ Packaging is a rapidly growing industry which generates large amounts of waste A
 
 -   Anon. (n.d.j) Plastic waste makers index, sources of plastic waste
 
-## Conclusion {#conclusion}
+## Design Implications {#design-implications}
 
 -   In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions.
+-   *People live in the polluted areas are so used to it. What app to wake them up? “You live in a highly polluted area. Here’s the TOP 10 companies causing pollution. Here’s what you can do.”*
+-   Blood testing and biomarkers allow people to track their health. I’m introducing the concept of ‘eco-markers’ to follow the sustainability of human activities.
+-   Circular Economy
+    -   AI can help us make sense of the vast amounts of sustainability data generated daily.
+-   EPR
+    -   ERP and CDP data should be part of Green Filter.
 
 # References {#references .unnumbered}
 

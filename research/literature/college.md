@@ -37,62 +37,6 @@ Rooney-Varga et al. (2019) shows the effectiveness of ***The Climate Action Simu
 
 -   When disaster hits we need high levels of social trust.
 
-#### *Design Implications* {#design-implications}
-
--   **Show Success Scenarios!**
-
--   Ask how much time you want to contribute.
-
--   Match with other people based on time.
-
--   Create a group chatroom.
-
--   Use AI to help out with tips.
-
--   Ask university students what do they study and match with that industry to become expert and sustainability leader in this field.
-
--   People want to help and make a difference. Give people things to do. The Don’t Look Up (n.d.) part of the ***Don’t Look Up*** movie’s social campaign provides 5 user models / roles for the audience to follow: Consumer, Investor, Activist.
-
--   Choose Your Climate Solutions.
-
--   Younger people show higher motivation (participants in climate protests). How to be relevant for a younger audience?
-
--   Yet action remains low.
-
--   Targeted and gated to college students.
-
--   FB, etc, Gas all had the same launch strategy - start with students
-
--   Kuzminski (2015) ecology of money
-
--   Young people are mobile-first.
-
--   Persona: I care mostly about… fashion, art, …
-
--   Young people like to follow trends.
-
--   Food ordering apps are popular.
-
--   Monoculture -\> regenerative food forests Oil -\> electric cars / bicycles.
-
--   Mobile-first.
-
--   Social
-
--   Educational
-
--   Edutainment
-
--   Fun
-
--   aespa (2020): Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
-
--   The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ financial vehicles to invest in.
-
--   This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience.
-
--   What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
-
 ### Climate Anxiety {#climate-anxiety}
 
 A large Hickman et al. (2021) worldwide study (n=10000, aged 16-25) provides evidence the youth is anxious about climate in Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, Thompson (2021) finds young people around the world have climate anxiety. Whitmarsh et al. (2022) shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, Ogunbode et al. (2022) finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. Thibodeau (2022): “In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn’t change. This is a phenomenon called the intention-action gap.”
@@ -109,12 +53,6 @@ A large Hickman et al. (2021) worldwide study (n=10000, aged 16-25) provides evi
 
 -   Older research on young adults (Millenials at the time) highlights how Millenials “use Google as a reference point for ease of use and simplicity” Kate Moran (2016).
 
-#### *Design Implications:* {#design-implications-1}
-
--   How to support the youth? Design to reduce climate anxiety? Is getting people to go to nature more a good way to increase ecological awareness? Empowered by Design. Youth empowerment: The design should empower young people.
--   Consumer branded carbon credits like angry teenagers?
--   Invest time not money, student don’t have money?
-
 ### Embodied Carbon {#embodied-carbon}
 
 -   “embodied carbon”
@@ -130,22 +68,6 @@ Humans working together are able to achieve more than single individuals. “Any
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption.
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. Costa (2018): Finnish socialists: minimalism. Tokyo Tokyo Simple Eco Life (2021).
-
-#### *Design Implications* {#design-implications-2}
-
--   People exist in relation to other people.
-
--   Psychology of ‘fundraising clubs’ vs individual investing
-
--   Anon. (n.d.) Ukraine DAO to support Ukraine through web3.
-
--   These social movements are small and require too much effort to be feasible for the app? Most college students are not zero waste or minimalist.
-
--   Group Purchases.
-
--   Find Your Composting Community.
-
--   Provides a community for pooling money with like-minded investors.
 
 ### Empowerment {#empowerment}
 
@@ -176,6 +98,90 @@ Humans working together are able to achieve more than single individuals. “Any
 -   Zannettou et al. (2018)
 
 -   Peters-Lazaro, Shresthova and Jenkins (2020)
+
+## Design Implications {#design-implications}
+
+-   Community
+
+    -   People exist in relation to other people.
+
+    -   Psychology of ‘fundraising clubs’ vs individual investing
+
+    -   Anon. (n.d.) Ukraine DAO to support Ukraine through web3.
+
+    -   These social movements are small and require too much effort to be feasible for the app? Most college students are not zero waste or minimalist.
+
+    -   Group Purchases.
+
+    -   Find Your Composting Community.
+
+    -   Provides a community for pooling money with like-minded investors.
+
+-   Climate Anxiety
+
+    -   How to support the youth? Design to reduce climate anxiety? Is getting people to go to nature more a good way to increase ecological awareness? Empowered by Design. Youth empowerment: The design should empower young people.
+
+    -   Consumer branded carbon credits like angry teenagers?
+
+    -   Invest time not money, student don’t have money?
+
+-   Social Trust
+
+    -   **Show Success Scenarios!**
+
+    -   Ask how much time you want to contribute.
+
+    -   Match with other people based on time.
+
+    -   Create a group chatroom.
+
+    -   Use AI to help out with tips.
+
+    -   Ask university students what do they study and match with that industry to become expert and sustainability leader in this field.
+
+    -   People want to help and make a difference. Give people things to do. The Don’t Look Up (n.d.) part of the ***Don’t Look Up*** movie’s social campaign provides 5 user models / roles for the audience to follow: Consumer, Investor, Activist.
+
+    -   Choose Your Climate Solutions.
+
+    -   Younger people show higher motivation (participants in climate protests). How to be relevant for a younger audience?
+
+    -   Yet action remains low.
+
+    -   Targeted and gated to college students.
+
+    -   FB, etc, Gas all had the same launch strategy - start with students
+
+    -   Kuzminski (2015) ecology of money
+
+    -   Young people are mobile-first.
+
+    -   Persona: I care mostly about… fashion, art, …
+
+    -   Young people like to follow trends.
+
+    -   Food ordering apps are popular.
+
+    -   Monoculture -\> regenerative food forests Oil -\> electric cars / bicycles.
+
+    -   Mobile-first.
+
+    -   Social
+
+    -   Educational
+
+    -   Edutainment
+
+    -   Fun
+
+    -   aespa (2020): Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase.
+
+    -   The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it’s still difficult to pick and choose between ‘good’ and ‘bad’ financial vehicles to invest in.
+
+    -   This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience.
+
+    -   What would that experience look like? I’ve chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
+
+# References {#references}
 
 aespa (2020). Aespa 에스파 “MY, KARINA.”
 

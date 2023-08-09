@@ -17,7 +17,7 @@ import Runaround from '../images/runaround.png'
 
 ### History of AI
 
-It's been 90 years since [@mccullochLogicalCalculusIdeas1943] proposed the first mathematical model of a neural network inspired by the human brain, followed by Alan Turing's Test for Machine Intelligence in 1950. Artificial Intelligence (AI) has developed from an academic concept into a mainstream reality, affecting our daily lives, even when we don't notice it - AI is everywhere. 
+It's been 90 years since [@mccullochLogicalCalculusIdeas1943] proposed the first mathematical model of a neural network inspired by the human brain, followed by Alan Turing's Test for Machine Intelligence in 1950. Artificial Intelligence (AI) has developed from an academic concept into a mainstream reality, affecting our daily lives, even when we don't notice it - AI is everywhere.
 
 Turing's initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
 
@@ -25,7 +25,7 @@ Turing's initial idea was to design a game of imitation to test human-computer i
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
-The nature--inspired approach was successful, and together with many other innovations, such as ***back-propagation***, ***transformers***, which allow tracking relationships in sequential data (for example sentences) [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022], Generative Adversarial Networks*** (GAN), (**CITE, 2016**), and ***Large Language Models (CITE, 2018)***, led to increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
+The nature--inspired approach was successful, and together with many other innovations, such as ***back-propagation***, ***transformers***, which allow tracking relationships in sequential data (for example sentences) [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022], Generative Adversarial Networks\*\*\* (GAN), (**CITE, 2016**), and ***Large Language Models (CITE, 2018)***, led to increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
 
 By the 2020s, AI-based models became a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles, including cars, delivery robots, drones in the sea and air, as well as AI-based assistants, which will be the focus here.
 
@@ -41,26 +41,38 @@ Foundational AI models have given birth to ***generative AI***, which is able to
 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
-| AI Model | Released | Company                         | License            |
-|----------|----------|---------------------------------|--------------------|
-| GPT-1    | 2018     | OpenAI                          | Open Source, MIT   |
-| GTP-2    | 2019     | OpenAI                          | Open Source, MIT   |
-| T-NLG    | 2000     | Microsoft                       |                    |
-| GPT-3    | 2020     | OpenAI                          | @brown2020language |
-| GPT-3.5  | 2022     | OpenAI                          | Proprietary        |
-| GPT-4    | 2023     | OpenAI                          | Proprietary        |
-| GPT-5    | ????     | OpenAI                          | Unknown; trademark registered         |
-| NeMo     | 2022     | NVIDIA                          |                    |
-| PaLM     | 2022     | Google                          |                    |
-| LaMDA    | 2022     | Google                          |                    |
-| GLaM     | 2022     | Google                          |                    |
-| BLOOM    | 2022     | Hugging Face                    | Open Source        |
-| Falcon   | 2023     | Technology Innovation Institute | Open Source        |
-| Tongyi   | 2023     | Alibaba                         |                    |
-| Vicuna   | 2023     | Sapling                         | Open Source        |
-| Wu Dao 3 | 2023     | BAAI                            | Open Source        |
+| AI Model | Released | Company                         | License                       |
+|--------------|--------------|----------------------------|----------------|
+| GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
+| GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
+| T-NLG    | 2000     | Microsoft                       |                               |
+| GPT-3    | 2020     | OpenAI                          | @brown2020language            |
+| GPT-3.5  | 2022     | OpenAI                          | Proprietary                   |
+| GPT-4    | 2023     | OpenAI                          | Proprietary                   |
+| GPT-5    | ????     | OpenAI                          | Unknown; trademark registered |
+| NeMo     | 2022     | NVIDIA                          |                               |
+| PaLM     | 2022     | Google                          |                               |
+| LaMDA    | 2022     | Google                          |                               |
+| GLaM     | 2022     | Google                          |                               |
+| BLOOM    | 2022     | Hugging Face                    | Open Source                   |
+| Falcon   | 2023     | Technology Innovation Institute | Open Source                   |
+| Tongyi   | 2023     | Alibaba                         |                               |
+| Vicuna   | 2023     | Sapling                         | Open Source                   |
+| Wu Dao 3 | 2023     | BAAI                            | Open Source                   |
 
 : From reports on the advance of LLMs by @tamkin2021; @hinesOpenAIFilesTrademark2023.
+
+@peteWeHostedEmergencychatgpthackathon2023 ChatGPT hackathon.
+
+The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
+
+@SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
+
+@tuWhatShouldData2023 LLMs can be used as data analysts.
+
+@rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive Computing. (NEED access).
+
+@kobetzDecodingFutureEvolution2023
 
 ## Responsible AI
 
@@ -142,10 +154,6 @@ As a user of social media, one may be accustomed to interacting with the feed al
 AI systems may make use of several algorithms within one larger model. It follows that AI Explainability requires ***Algorithmic Transparency**.*
 
 The content on the platform can be more important than the interface. Applications with a similar UI depend on the community as well as the content and how the content is shown to the user.
-
-#### ***Design Implications***
-
--   For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.
 
 ### Guidelines
 
@@ -240,6 +248,12 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @orozcoBudapestBicycleNetwork2020
 
+### AI UX Design
+
+-   Privacy UX @jarovskyYouAreProbably2022
+
+-   AI UX dark patterns @jarovskyDarkPatternsAI2022
+
 How do the 7 tenets of user experience (UX) apply to AI?
 
 | UX         |
@@ -252,30 +266,11 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | Desirable  |
 | Credible   |
 
-#### ***Design Implications***
-
--   User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
-
 @guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
 
 | 1                       | 2                    | 3                                            |
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
-
-
-### Unsorted
-
-@peteWeHostedEmergencychatgpthackathon2023 ChatGPT hackathon.
-
-The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
-
-@SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
-
-@tuWhatShouldData2023 LLMs can be used as data analysts.
-
-@rogersFourPhasesPervasive2022 defines the 4 phases of Pervasive Computing. (NEED access).
-
-@kobetzDecodingFutureEvolution2023
 
 ### AI Explainability
 
@@ -341,11 +336,6 @@ AI-based systems are already being implemented in medicine, where stakes are hig
 | Charisma |                                    |
 | Replika  | Avatar, Emotion, Video Call, Audio |
 | Siri     | Audio                              |
-
-#### ***Design Implications***
-
--   Humans respond better to humans?
--   Humans respond better to machines that into account emotion.
 
 ### AI Friends and Roleplay
 
@@ -452,16 +442,6 @@ Everything that existed before OpenAI' GPT 4 has been blown out of the water.
 
 -   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits (@zhangPersonalCarbonEconomy2018).
 
-#### ***Design Implications***
-
--   While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.
-
--   Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
-
--   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).
-
--   I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.
-
 ### Voice Assistants
 
 **Amazon Alexa** is a well-known example of AI technology in the world. But Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion."
@@ -490,10 +470,6 @@ There's evidence across disciplines about the usefulness of AI assistants:
 
 -   @SERBAN20202849 suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
 -   @CELINO2020102410 found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
-
-#### ***Design Implications***
-
--   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
 ### How is AI Changing Interactions?
 
@@ -534,10 +510,18 @@ Generative AI has enabled developers to create AI tools for several industries, 
 -   @kore.aiHomepage2023
 -   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself
 -   @CharismaStorytellingPowered
--   
 
-## Summary
+## Design Implications
 
 -   This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
+-   Voice Assistants: There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+-   While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.
+-   Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
+-   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).
+-   I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.
+-   Humans respond better to humans?
+-   Humans respond better to machines that into account emotion.
+-   For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.
+-   User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
 
 ## References

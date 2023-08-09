@@ -77,7 +77,7 @@ There’s a series of authors under the “New Economics” banner, blue economi
 
 -   Adam Smith: Interdependence
 
-## Carbon Offsets {#carbon-offsets}
+## From Carbon Offsets to Carbon Credits {#from-carbon-offsets-to-carbon-credits}
 
 -   
 
@@ -819,10 +819,6 @@ Sustainability Marketing
 |                                      |     |     |
 |                                      |     |     |
 
-#### *Design Implications:* {#design-implications}
-
--   ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.
-
 #### Realtime ESG {#realtime-esg}
 
 There’s a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
@@ -914,12 +910,10 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   Anon. (2022e): Climate Bonds Initiative greening the \$55 trillion short-term debt market
 
-#### *Design Implications:* {#design-implications-1}
+## Design Implications {#design-implications}
 
 -   *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.
-
-## Summary {#summary}
-
+-   ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.
 -   Anon. (2019c): “Investors want to know where their money is going”, says Heike Reichelt, Head of Investor Relations at World Bank.
 -   This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?
 

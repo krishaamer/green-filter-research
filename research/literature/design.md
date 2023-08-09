@@ -3,12 +3,15 @@ title: Design
 bibliography: [../ref.bib]
 csl: ../harvard.csl
 sidebar_position: 2
+execute:
+  echo: false
 editor:
     render-on-save: false
+jupyter: python3
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -17,31 +20,11 @@ import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
 ```
 
-## Approaches to Design {#approaches-to-design}
-
-As we humans go about our daily business, we produce massive amounts of data, which can be very useful for designing better products for our use.
-
 ## Data-Driven Design {#data-driven-design}
 
-While data-driven design would usually be structured under Interaction Design, here I will reverse the hierarchy to call attention to the fact data is used in all these approaches to design.
+As we humans go about our daily business, we produce massive amounts of data, which is useful for designing better products. There are many approaches to design but the majority share the common goal of designing for a good user experience.
 
-Arrange types of data on a linear axis base on my own judgment.
-
-| Lots of Data | Some Data | ??  | Little Data | No Data            |
-|--------------|-----------|-----|-------------|--------------------|
-|              |           |     |             | Speculative Design |
-
-Types of design organized by use of data.
-
-## **Interaction Design** {#interaction-design}
-
-There are many approaches to design but the majority share the common goal of designing for a good user experience.
-
-### AI UX Design {#ai-ux-design}
-
--   Privacy UX Jarovsky (2022a)
-
--   AI UX dark patterns Jarovsky (2022b)
+### **Interaction Design** {#interaction-design}
 
 ### Platform Economy {#platform-economy}
 
@@ -56,19 +39,19 @@ The rise of the ***platform economy*** has created global marketplace companies 
 
 -   **Network Effects**: The more people use a platform, the more valuable it becomes. Young people are stuck inside platforms. You don’t own the data you put on TikTok. You can’t leave because you’ll lose the audience.
 
+-   By continusoulsy adding features (and provided consumer legisllations allows it), platforms can envolve into superapps.
+
 -   Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.** The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
 
 -   Superapps are honeypots of data that is used for many types of behavior modeling. For example Suarez, G. et al. (2021) suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Also Roa et al. (2021) finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals.
 
-### Superapps {#superapps}
+-   Superapps are more prevalent in China and South-East Asia. Giudice (2020) argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. Vecchi and Brennan (2022) China is the home of many superapps and this paper discusses the strategies taken to expand to other markets. Shabrina Nurqamarani et al. (2020) discusses the system consistency and quality of South–East Asian superapps Gojek and Grab.
 
-Superapps are more prevalent in China and South-East Asia.
+Could there be Sustainability Superapps?
 
-Giudice (2020) argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. Vecchi and Brennan (2022) China is the home of many superapps and this paper discusses the strategies taken to expand to other markets. Shabrina Nurqamarani et al. (2020) discusses the system consistency and quality of South–East Asian superapps Gojek and Grab.
+-   How to design sustainability superapps? Lots of options in a single app. Fleet Management Weekly (2022) “Sustainability and superapps top Gartner’s Top 10 2023 Trends List”. Dave Wallace (2021) “The rise of carbon-centric super apps”. goodbag (2023) “goodbag: Sustainable Super App”. What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also Bernard (2022).
 
-#### Sustainability Superapps {#sustainability-superapps}
-
-How to design sustainability superapps? Lots of options in a single app. Fleet Management Weekly (2022) “Sustainability and superapps top Gartner’s Top 10 2023 Trends List”. Dave Wallace (2021) “The rise of carbon-centric super apps”. goodbag (2023) “goodbag: Sustainable Super App”. What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also Bernard (2022).
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   Undheim (2024) Ecotech
 
@@ -151,12 +134,6 @@ Use technology Wearables to be more aware of one’s health.
 -   Ryan (2022) uses the “capability methodology” to evaluate if apps help people eat healthily.
 
 -   Baptista et al. (2022) apps for sleep apnea
-
-#### *Design Implications* {#design-implications}
-
--   What would that look like for sustainability?
-
--   Empowering people to live a sustainable day
 
 ### User Interfaces {#user-interfaces}
 
@@ -258,12 +235,6 @@ Large Digital Platforms have a very small number of workers relative to the numb
 -   Natasha Mascarenhas (2021)
 -   JEFF JOHN ROBERTS (April 23, 2020 at 2:00 PM GMT+3)
 
-#### *Design Implications:* {#design-implications-1}
-
--   Rebuilt the app as a personalized, narrative lifestyle feed.
--   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
--   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
-
 ### Narrative Design {#narrative-design}
 
 -   The rising availability of AI assistants however may displace Google search with a more conversational user experience. Google itself is working on smarter tools to displace their own main product. The examples include Google Assistant, Google Bard and large investments into LLMs.
@@ -273,10 +244,6 @@ Large Digital Platforms have a very small number of workers relative to the numb
 -   Writing as training data? large language models. GTP3.
 
 -   Stories start with a character.
-
-#### *Design Implications* {#design-implications-2}
-
--   Narrative design bring together film school **storytelling** experience with design.
 
 ### Behavioral Design {#behavioral-design}
 
@@ -336,30 +303,27 @@ Some notable examples:
 -   Ant Forest (螞蟻森林) is a success story of gamified nature protection.
 -   Gamification makes uses of nudges.
 
-| Year | Users   | Trees       | Area                                 |
-|------|---------|-------------|--------------------------------------|
-| 2016 | ?       | 0           |                                      |
-| 2017 | 230 000 | 10 million  |                                      |
-| 2018 | 350 000 | 55 million  | 6500 acres??                         |
-| 2019 | 500 000 | 100 million | 112,000 hectares / 66, 000 hectares? |
-| 2020 | 550 000 | 200 million | 2,7 million acres?                   |
-| 2021 | 600 000 | 326 million |                                      |
-| 2022 | 650 000 | 400 million | 2 million hectares                   |
-|      |         |             |                                      |
-|      |         |             |                                      |
+| Year | Users       | Trees       | Area                                 |
+|------|-------------|-------------|--------------------------------------|
+| 2016 | ?           | 0           |                                      |
+| 2017 | 230 million | 10 million  |                                      |
+| 2018 | 350 million | 55 million  | 6500 acres??                         |
+| 2019 | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
+| 2020 | 550 million | 200 million | 2,7 million acres?                   |
+| 2021 | 600 million | 326 million |                                      |
+| 2022 | 650 million | 400 million | 2 million hectares                   |
+|      |             |             |                                      |
+|      |             |             |                                      |
 
 Table of Ant Forest assisted tree planting. Data compiled from 李连环 and 姜舒译 (2017); Yang et al. (2018); UNFCCC (2019); Wang, X. and Yao (2020); Anon. (2021d); Zhang, Hu and Gu (2022); Wang, S., Ibrahiem and Li (2022); Zhou, F., Lin and Mou (2023); Cao and Liu (2023).
 
-#### *Design Implications* {#design-implications-3}
+<img src="design_files/figure-markdown_strict/cell-2-output-1.png" class="quarto-discovered-preview-image" />
 
--   What if there was a “Green Filter” on every product everywhere?
--   Become a Sustainability-Aware App or Game.
+## Design for Sustainability {#design-for-sustainability}
 
 ### Life-Centered Design {#life-centered-design}
 
 -   From Human-Centered to Life-Centered Design: Borthwick, Tomitsch and Gaughwin (2022) proposes a framework for life-centered design, “the design phase of a physical product accounts for 80% of its environmental impact”
-
-## Design for Sustainability {#design-for-sustainability}
 
 Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there’s a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are helpful.
 
@@ -376,24 +340,6 @@ Sustainability touches every facet of human existence and is thus an enormous un
 | Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
 
 Examples of human-in-the-loop apps
-
-#### *Design Implications* {#design-implications-4}
-
--   Guidance could help young people beat climate anxiety by taking meaningful action.
-
--   The app is just as much about helping people deal with climate anxiety as it’s with solving the climate issue.
-
--   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, “green filter” is a central data repository not unlike “Apple Health for Sustainability”.
-
--   Health and fitness category apps
-
--   Using “green filter” you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly.
-
--   All green categories — Green hub — Ask the user to prioritize
-
--   In my “green filter” AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
-
--   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
 
 ## Provenance & Traceability {#provenance-traceability}
 
@@ -412,12 +358,6 @@ Examples of human-in-the-loop apps
 -   Patel et al. (2023) livestock products are 15% of agri-foods valued at €152 billion in 2018.
 -   Inc (n.d.)
 -   Tim Nicolle (2017)
-
-#### *Design Implications:* {#design-implications-5}
-
--   App shows traceability.
-
--   Help consumers to demand more.
 
 #### Supply Chains {#supply-chains}
 
@@ -459,7 +399,7 @@ Blockchain supply chain companies as of summer 2023 include.
 
 -   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. “Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be”free-range,” “organic,” or “sustainably sourced” could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims.”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
     -   Anon. (2022e) Worker Voice apps.
@@ -501,13 +441,17 @@ Can data transparency provide tools for reducing cruelty.
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-#### *Design Implications:* {#design-implications-6}
+#### Open Data Sharing {#open-data-sharing}
 
--   Rank companies based on sustainability
+Data-driven design requires access to data, making the movement towards open data sharing very relevant. Some countries and cities are very good at sharing data openly.
 
--   Help you to decide: what to buy, how to save, where to invest
+| Country | Project                  | Reference     |
+|---------|--------------------------|---------------|
+| Sweden  | Swedish open data portal | Anon. (n.d.h) |
+|         |                          |               |
+|         |                          |               |
 
-#### Open Data {#open-data}
+Examples of cities and countries that share data openly.
 
 -   When will Bolt show CO2 emissions per every trip?
 -   Sustainable finance data platform:
@@ -516,7 +460,7 @@ Can data transparency provide tools for reducing cruelty.
 -   Justine Calma (Oct 6, 2021, 10:01 AM GMT+3) *Google UX eco features*
 -   Google VERY IMPORTANTT Google (2021)
 -   Anon. (2021g) Google green routes
--   Wizzair Check carbon impact Anon. (n.d.h)
+-   Wizzair Check carbon impact Anon. (n.d.i)
 -   WikiRate (2021) WikiRate defines 7 Data Sharing Archetypes
 
 | Type                                 | Example                                      |
@@ -532,16 +476,9 @@ Can data transparency provide tools for reducing cruelty.
 -   WikiRate is a tool for checking green credentials Transparency
 -   Laureen van Breen et al. (2023)
 -   Wikirate (2022a)
--   Anon. (n.d.i)
--   Anon. (n.d.j) Swedish open data portal
+-   Anon. (n.d.j)
 
-#### *Design Implications:* {#design-implications-7}
-
--   Make open data easy to use in everyday life.
-
--   The key idea is making CO2 Visible.
-
-#### Emissions {#emissions}
+#### Emissions’ Data {#emissions-data}
 
 Data about green house gas emissions.
 
@@ -613,10 +550,6 @@ It’s a further development of the idea of carbon labels.
 Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction.
 
 -   There are many domain-specific research showing how varied industries can develop eco-designed products. For example, Duriez et al. (2022) shows how simply by reducing material weight it’s possible to design more sustainable transportation.
-
-#### *Design Implications:* {#design-implications-8}
-
--   Focus on specific industries
 
 ### Construction {#construction}
 
@@ -726,7 +659,7 @@ Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone t
 
 -   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[CITE\].
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
 -   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
@@ -760,7 +693,7 @@ Food saving apps
 
 Perspective on food systems in Sweden.
 
--   ***Design Implication***: Where to shop rankings for groceries — list worst offenders in terms of products — shop and invest according to your values.
+-   
 
 -   Kommenda et al. (2022) Carbon Food Labels
 
@@ -778,18 +711,65 @@ Perspective on food systems in Sweden.
 
 #### Farm to Fork {#farm-to-fork}
 
+Farm to fork is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system.
+
 Supply chain innovation in agriculture.
 
 -   Farm to Fork Financial Times (2022)
 
-#### *Design Implications* {#design-implications-9}
+## *Design Implications* {#design-implications}
+
+-   App shows traceability.
+
+-   Help consumers to demand more.
+
+-   Make open data easy to use in everyday life.
+
+-   The key idea is making CO2 Visible.
+
+-   Rank companies based on sustainability
+
+-   Help you to decide: what to buy, how to save, where to invest.
 
 -   What if there was a “Green Filter” on every product everywhere?
+
 -   Become a Sustainability-Aware App or Game.
 
-### Life-Centered Design {#life-centered-design-1}
+-   Focus on how college students can invest in specific industries?
 
--   From Human-Centered to Life-Centered Design: Borthwick, Tomitsch and Gaughwin (2022) proposes a framework for life-centered design, “the design phase of a physical product accounts for 80% of its environmental impact”
+-   Where to shop rankings for groceries: list worst offenders in terms of products; shop and invest according to your values.
+
+-   What Quantified Self look like for sustainability?
+
+-   Empowering people to live a sustainable day
+
+-   What if there was a “Green Filter” on every product everywhere?
+
+-   Become a Sustainability-Aware App or Game.
+
+-   Guidance could help young people beat climate anxiety by taking meaningful action.
+
+-   The app is just as much about helping people deal with climate anxiety as it’s with solving the climate issue.
+
+-   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, “green filter” is a central data repository not unlike “Apple Health for Sustainability”.
+
+-   Health and fitness category apps
+
+-   Using “green filter” you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly.
+
+-   All green categories — Green hub — Ask the user to prioritize
+
+-   In my “green filter” AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+
+-   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
+
+-   Narrative design bring together film school **storytelling** experience with design.
+
+-   Rebuilt the app as a personalized, narrative lifestyle feed.
+
+-   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
+
+-   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
 
 # References {#references}
 
@@ -853,7 +833,7 @@ Anon. (n.d.b). A comprehensive guide to design systems \| Inside Design Blog.
 
 Anon. (n.d.k). Digital receipts and customer loyalty in one platform \| ReceiptHero.
 
-Anon. (n.d.i). Home - ChainReact.
+Anon. (n.d.j). Home - ChainReact.
 
 Anon. (n.d.f). Language Model Sketchbook, or Why I Hate Chatbots. *Maggie Appleton*.
 
@@ -863,13 +843,13 @@ Anon. (n.d.c). Method Podcast, Episode 18. *Google Design*.
 
 Anon. (n.d.p). New Standard Institute. *New Standard Institute*.
 
-Anon. (n.d.h). Offset your flight with WIZZ.
+Anon. (n.d.i). Offset your flight with WIZZ.
 
 Anon. (n.d.e). People + AI Guidebook.
 
 Anon. (n.d.g). Space Ape Games.
 
-Anon. (n.d.j). Sveriges dataportal. *Sveriges Dataportal*.
+Anon. (n.d.h). Sveriges dataportal. *Sveriges Dataportal*.
 
 Anon. (n.d.o). Textile Genesis.
 
@@ -1064,10 +1044,6 @@ Infinited Fiber (2023). Infinited Fiber.
 Ivanova, Diana, Barrett, John, Wiedenhofer, Dominik, Macura, Biljana, Callaghan, Max and Creutzig, Felix (2020). Quantifying the potential for climate change mitigation of consumption options. *Environ. Res. Lett.*, 15(9), p. 093001, doi:[10.1088/1748-9326/ab8589](https://doi.org/10.1088/1748-9326/ab8589).
 
 IxDF (n.d.). What is Interaction Design?
-
-Jarovsky, Luiza (2022b). Dark Patterns in AI: Privacy Implications.
-
-Jarovsky, Luiza (2022a). You Are Probably Doing Privacy UX Wrong.
 
 Jason Jacobs (2019). Episode 4: Sanchali Pal, Joro. *MCJ Collective*.
 

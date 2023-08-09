@@ -46,7 +46,7 @@ Noble et al. (2022) proposes AI has reached a stage, which begets the beginning 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
 | AI Model | Released | Company                         | License                       |
-|-----------|-----------|--------------------------------|--------------------|
+|---------------|---------------|----------------------------|----------------|
 | GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
 | GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
 | T-NLG    | 2000     | Microsoft                       |                               |
@@ -65,6 +65,18 @@ This power comes with ***increased need for responsibility***, drawing growing i
 | Wu Dao 3 | 2023     | BAAI                            | Open Source                   |
 
 From reports on the advance of LLMs by Tamkin et al. (2021); Hines (2023).
+
+Pete (2023) ChatGPT hackathon.
+
+The quality of LLM output depends on the quality of the provided prompt. Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which automatically generates instructions that outperform the baseline output quality. This finding has significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.
+
+Anon. (2023a) My bedtime story about shopping, saving, and investing.
+
+Tu et al. (2023) LLMs can be used as data analysts.
+
+Rogers (2022) defines the 4 phases of Pervasive Computing. (NEED access).
+
+Kobetz (2023)
 
 ## Responsible AI {#responsible-ai}
 
@@ -146,10 +158,6 @@ Shenoi (2018) argues inviting domain expertise into the discussion while having 
 AI systems may make use of several algorithms within one larger model. It follows that AI Explainability requires ***Algorithmic Transparency**.*
 
 The content on the platform can be more important than the interface. Applications with a similar UI depend on the community as well as the content and how the content is shown to the user.
-
-#### ***Design Implications*** {#design-implications}
-
--   For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.
 
 ### Guidelines {#guidelines}
 
@@ -244,6 +252,12 @@ Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI based o
 
 -   Orozco et al. (2020)
 
+### AI UX Design {#ai-ux-design}
+
+-   Privacy UX Jarovsky (2022a)
+
+-   AI UX dark patterns Jarovsky (2022b)
+
 How do the 7 tenets of user experience (UX) apply to AI?
 
 | UX         |
@@ -256,29 +270,11 @@ How do the 7 tenets of user experience (UX) apply to AI?
 | Desirable  |
 | Credible   |
 
-#### ***Design Implications*** {#design-implications-1}
-
--   User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
-
 Gupta (2023) proposes 3 simple goals for AI:
 
 | 1                       | 2                    | 3                                            |
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
-
-### Unsorted {#unsorted}
-
-Pete (2023) ChatGPT hackathon.
-
-The quality of LLM output depends on the quality of the provided prompt. Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which automatically generates instructions that outperform the baseline output quality. This finding has significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.
-
-Anon. (2023a) My bedtime story about shopping, saving, and investing.
-
-Tu et al. (2023) LLMs can be used as data analysts.
-
-Rogers (2022) defines the 4 phases of Pervasive Computing. (NEED access).
-
-Kobetz (2023)
 
 ### AI Explainability {#ai-explainability}
 
@@ -345,11 +341,6 @@ AI-based systems are already being implemented in medicine, where stakes are hig
 | Charisma |                                    |
 | Replika  | Avatar, Emotion, Video Call, Audio |
 | Siri     | Audio                              |
-
-#### ***Design Implications*** {#design-implications-2}
-
--   Humans respond better to humans?
--   Humans respond better to machines that into account emotion.
 
 ### AI Friends and Roleplay {#ai-friends-and-roleplay}
 
@@ -457,16 +448,6 @@ Everything that existed before OpenAI’ GPT 4 has been blown out of the water.
 
 -   Zhang’s Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one’s carbon permits (Zhang, S. (2018)).
 
-#### ***Design Implications*** {#design-implications-3}
-
--   While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.
-
--   Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
-
--   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).
-
--   I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.
-
 ### Voice Assistants {#voice-assistants}
 
 **Amazon Alexa** is a well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
@@ -495,10 +476,6 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 -   Şerban and Todericiu (2020) suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers ‘human-like’ presence. Standford research: “humans expect computers to be like humans or places”
 -   Celino and Re Calegari (2020) found in testing chatbots for survey interfaces that “\[c\]onversational survey lead to an improved response data quality.”
-
-#### ***Design Implications*** {#design-implications-4}
-
--   There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
 
 ### How is AI Changing Interactions? {#how-is-ai-changing-interactions}
 
@@ -539,11 +516,19 @@ Generative AI has enabled developers to create AI tools for several industries, 
 -   Kore.ai (2023)
 -   van Wynsberghe (2021): Sustainable AI itself
 -   Anon. (n.d.d)
--   
 
-## Summary {#summary}
+## Design Implications {#design-implications}
 
 -   This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
+-   Voice Assistants: There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.
+-   While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.
+-   Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?
+-   All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).
+-   I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.
+-   Humans respond better to humans?
+-   Humans respond better to machines that into account emotion.
+-   For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.
+-   User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
 
 ## References {#references .unnumbered}
 
@@ -694,6 +679,10 @@ Holzinger, Andreas, Keiblinger, Katharina, Holub, Petr, Zatloukal, Kurt and Mül
 Holzinger, Andreas, Malle, Bernd, Saranti, Anna and Pfeifer, Bastian (2021). Towards multi-modal causability with Graph Neural Networks enabling information fusion for explainable AI. *Information Fusion*, 71, p. 28–37, doi:[10.1016/j.inffus.2021.01.008](https://doi.org/10.1016/j.inffus.2021.01.008).
 
 Isabella Ghassemi Smith (2019). Interview: Daniel Baeriswyl, CEO of Magic Carpet \| SeedLegals.
+
+Jarovsky, Luiza (2022b). Dark Patterns in AI: Privacy Implications.
+
+Jarovsky, Luiza (2022a). You Are Probably Doing Privacy UX Wrong.
 
 Jeblick, Katharina, Schachtner, Balthasar, Dexl, Jakob, Mittermeier, Andreas, Stüber, Anna Theresa, Topalis, Johanna, Weber, Tobias, Wesp, Philipp, Sabel, Bastian, Ricke, Jens and Ingrisch, Michael (2022). ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports, doi:[10.48550/ARXIV.2212.14882](https://doi.org/10.48550/ARXIV.2212.14882).
 
