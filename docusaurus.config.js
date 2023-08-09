@@ -27,15 +27,8 @@ const config = {
         docs: {
           path: "research",
           routeBasePath: "research",
-          /*editUrl:
-            "https://github.com/krishaamer/green-filter-research/blob/main/",*/
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-        },
-        blog: {
-          showReadingTime: true,
-          /*editUrl:
-            "https://github.com/krishaamer/green-filter-research/blob/main/",*/
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -94,10 +87,9 @@ const config = {
             position: "left",
             label: "Research",
           },
-          { to: "/prototypes", label: "Prototypes", position: "left" },
           { to: "/surveys", label: "Surveys", position: "left" },
           { to: "/database", label: "Database", position: "left" },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/prototypes", label: "Prototypes", position: "left" },
         ],
       },
       footer: {
