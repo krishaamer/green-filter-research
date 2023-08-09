@@ -7,6 +7,13 @@ editor:
     render-on-save: false
 ---
 
+export const quartoRawHtml =
+[`<iframe width="100%" height="400" src="https://www.youtube.com/embed/WHoWGNQRXb0?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />`];
+
+``` mdx-code-block
+import Embed from '/src/components/Embed'
+```
+
 # Discussion {#discussion}
 
 Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
@@ -67,5 +74,31 @@ Accuracy is more imprttant for hhuman trust tthan actual impact
 Introduce this concept
 
 -   The Manor (2022)
+
+#### Define Words {#define-words}
+
+Define every word in the title: “The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing”
+
+-   Journey - behavioural change takes time
+-   Consumer, purchase goods without thinking about the effect
+-   Investor, thinking about the return
+-   Design, decisions
+-   Financial, dealing with money
+-   AI Companion, automated sidekick
+-   Young Adults, 18-40
+-   Help, be of assistance
+-   Sustainable Shopping
+-   Savings, in this context I mean Sustainable Savings, that is reducing one’s environmental footprint
+-   Investing, activity of thinking longer-term
+
+#### Narrative Layouts {#narrative-layouts}
+
+I’m basically building the UX of AI.. focused on sustainability.
+
+Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
+
+How should the layout storyline be structured? Well it’s like Strava (that running app) for sustainability… or if you have heard of Welltory. I believe if I spent 5 minutes every day with a guide who could help me make more eco-friendly choices that would improve my life.. be it what I consume, save, invest, etc.. so I’m trying to design an app around this idea.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 The Manor (2022). Sustainability is Not a Sacrifice - The Manor. *The Manor*.
