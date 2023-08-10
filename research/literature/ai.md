@@ -19,11 +19,7 @@ import Runaround from '../images/runaround.png'
 
 ## Human-AI Interaction {#human-ai-interaction}
 
-### History of AI {#history-of-ai}
-
-It’s been 90 years since (McCulloch and Pitts, 1943) proposed the first mathematical model of a neural network inspired by the human brain, followed by Alan Turing’s Test for Machine Intelligence in 1950. Artificial Intelligence (AI) has developed from an academic concept into a mainstream reality, affecting our daily lives, even when we don’t notice it - AI is everywhere.
-
-Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? Turing (1950).
+It’s been 90 years since (McCulloch and Pitts, 1943) proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing’s Test for Machine Intelligence followed in 1950. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? Turing (1950).
 
 > Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* - from (Stanford Encyclopedia of Philosophy, 2021)
 
@@ -37,34 +33,15 @@ In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text Alex Tamkin
 
 Hinton likes to call AI an *idiot savant*, someone with exceptional aptitude yet serious mental disorder. Large AI models don’t understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the ‘AI brain’. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations CapInstitute (2023).
 
-### Generative AI {#generative-ai}
+## Generative AI {#generative-ai}
+
+Today Artificial Intelligence is not only an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don’t notice it. Yet AI has becoming mainstream conversation topic as now it’s calling attention to itself.
 
 Foundational AI models have given birth to ***generative AI***, which is able to generate ***tokens,*** such as text, speech, audio (Kreuk et al., 2022; San Roman et al., 2023), and even music (Copet et al., 2023; Meta AI, 2023), video, in any language it’s trained on, but also complex structures such 3D models and even genomes. Generative AI brought a revolution in human-AI interaction as AI models became increasingly capable of producing human–like content. The advances in the capabilities of large AI model mean we’ve reached a point, where ***it’s possible to achieve a user experience (UX) which previously was science fiction***.
 
 Noble et al. (2022) proposes AI has reached a stage, which begets the beginning of the ***5th industrial revolution*** which brings the collaboration of humans and AI. Widespread **Internet of Things (IoT)** sensor networks that gather data, which is then analyzed AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including ***Pervasive Computing (PC)*** and ***Ubiquitous Computing***. Similar concepts are ***Ambient Computing***, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and ***Calm Technology***, which highlights how technology respects humans and our limited attention spans, and doesn’t call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere.
 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
-
-| AI Model | Released | Company                         | License                       |
-|------------------|------------------|--------------------|------------------|
-| GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
-| GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
-| T-NLG    | 2000     | Microsoft                       |                               |
-| GPT-3    | 2020     | OpenAI                          | Brown, T. B. et al. (2020)    |
-| GPT-3.5  | 2022     | OpenAI                          | Proprietary                   |
-| GPT-4    | 2023     | OpenAI                          | Proprietary                   |
-| GPT-5    | ????     | OpenAI                          | Unknown; trademark registered |
-| NeMo     | 2022     | NVIDIA                          |                               |
-| PaLM     | 2022     | Google                          |                               |
-| LaMDA    | 2022     | Google                          |                               |
-| GLaM     | 2022     | Google                          |                               |
-| BLOOM    | 2022     | Hugging Face                    | Open Source                   |
-| Falcon   | 2023     | Technology Innovation Institute | Open Source                   |
-| Tongyi   | 2023     | Alibaba                         |                               |
-| Vicuna   | 2023     | Sapling                         | Open Source                   |
-| Wu Dao 3 | 2023     | BAAI                            | Open Source                   |
-
-From reports on the advance of LLMs by Tamkin et al. (2021); Hines (2023).
 
 Pete (2023) ChatGPT hackathon.
 
@@ -78,7 +55,28 @@ Rogers (2022) defines the 4 phases of Pervasive Computing. (NEED access).
 
 Kobetz (2023)
 
-## Responsible AI {#responsible-ai}
+| AI Model   | Released | Company                         | License                       |
+|------------------|------------------|-------------------|------------------|
+| GPT-1      | 2018     | OpenAI                          | Open Source, MIT              |
+| GTP-2      | 2019     | OpenAI                          | Open Source, MIT              |
+| Turing-NLG | 2020     | Microsoft                       | Proprietary                   |
+| GPT-3      | 2020     | OpenAI                          | Open Source                   |
+| GPT-3.5    | 2022     | OpenAI                          | Proprietary                   |
+| GPT-4      | 2023     | OpenAI                          | Proprietary                   |
+| AlexaTM    | 2022     | Amazon                          | Proprietary                   |
+| NeMo       | 2022     | NVIDIA                          | Open Source                   |
+| PaLM       | 2022     | Google                          | Proprietary                   |
+| LaMDA      | 2022     | Google                          | Proprietary                   |
+| GLaM       | 2022     | Google                          | Proprietary                   |
+| BLOOM      | 2022     | Hugging Face                    | Open Source                   |
+| Falcon     | 2023     | Technology Innovation Institute | Open Source                   |
+| Tongyi     | 2023     | Alibaba                         | Proprietary                   |
+| Vicuna     | 2023     | Sapling                         | Open Source                   |
+| Wu Dao 3   | 2023     | BAAI                            | Open Source                   |
+| PaLM-2     | 2023     | Google                          | Proprietary                   |
+| GPT-5      | ????     | OpenAI                          | Unknown; trademark registered |
+
+From reports on the advance of LLMs by (Brown, T. B. et al., 2020; Alvarez, 2021; Tamkin et al., 2021; Hines, 2023).
 
 ### Known Issues {#known-issues}
 
@@ -89,6 +87,8 @@ The are two large problems with this generation of LLMs such as GTP3 and GPT4 by
 -   LLMs are also opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
 
 Given the widespread use of AI and its increasing power of foundational models, it’s important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments (Future of Life Institute, 2023) so the world could catch up, this is unlikely to happen.
+
+## Responsible AI {#responsible-ai}
 
 There’s wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
@@ -282,19 +282,17 @@ Gupta (2023) proposes 3 simple goals for AI:
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
-### AI Explainability {#ai-explainability}
+### Explainable AI {#explainable-ai}
 
-Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which are prerequisites for building trust in AI and foundations for ***AI acceptance***.
-
-As humans we tend to fear what we don’t understand. AI-models are opaque ’*black boxes’*, where it’s difficult to pin-point exactly why a certain decision was made, such as inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought?*** patterns inside the model.
+“As humans we tend to fear what we don’t understand” is a common sentiment which has been confirmed psychology (Allport, 1979). Current AI-models are opaque ’*black boxes’*, where it’s difficult to pin-point exactly why a certain decision was made or how a certain expression was reached, not unlike inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought patterns*** inside the model. Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which could lead to building trust in AI systems and would form the foundations for ***AI acceptance***.
 
 -   Tristan Greene (2022): when the quality of AI responses becomes good enough, people begin to get confused.
 
-Current AIs are largely *‘black boxes’*, which do not explain how they reach a certain expression; Bowman (2023) says steering LLMs is unreliable and event experts don’t fully understand the inner workings of the models, however work towards improving ***AI steerability*** and ***AI alignment*** is ongoing. Liang et al. (2022) believes there’s early evidence it’s possible to assess the quality of LLM output transparently and Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions. Khosravi et al. (2022) proposes a less general framework for explainability, focused squarely on education. Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
+Bowman (2023) says steering Large Language Models is unreliable; even experts don’t fully understand the inner workings of the models. Work towards improving both ***AI steerability*** and ***AI alignment*** (doing what humans expect) is ongoing. Liang et al. (2022) believes there’s early evidence it’s possible to assess the quality of LLM output transparently. Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions. Khosravi et al. (2022) proposes a framework for AI explainability, focused squarely on education. Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
 
 -   The user experience (UX) of AI is a topic under active development by all the largest online platforms. The general public is familiar with the most famous AI helpers, ChatGPT, Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others. For general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city.
 
-#### AI Credibility Heuristic: A Systematic Model {#ai-credibility-heuristic-a-systematic-model}
+The AI Credibility Heuristic: A Systematic Model explains how… similar to Daniel Kahneman’s book “Thinking, Fast and Slow”.
 
 ``` mdx-code-block
 <Figure caption="Heuristic-Systematic Model of AI Credibility" src={AI} />
@@ -547,6 +545,10 @@ Akata, Zeynep, Balliet, Dan, De Rijke, Maarten, Dignum, Frank, Dignum, Virginia,
 Akshay Kore (2022). *Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence*. Apress.
 
 Alex Tamkin and Deep Ganguli (2021). How Large Language Models Will Transform Science, Society, and AI.
+
+Allport, Gordon W. (1979). *The nature of prejudice*. Unabridged, 25th anniversary ed. Reading, Mass: Addison-Wesley Pub. Co.
+
+Alvarez, Benoit (2021). Generate Chatbot training data with QBox powered by Microsoft Turing NLG. *QBox - Supercharge your chatbot’s intelligence*.
 
 Amershi, Saleema, Weld, Dan, Vorvoreanu, Mihaela, Fourney, Adam, Nushi, Besmira, Collisson, Penny, Suh, Jina, Iqbal, Shamsi, Bennett, Paul, Inkpen, Kori, Teevan, Jaime, Kikin-Gil, Ruth and Horvitz, Eric (2019). Guidelines for human-AI interaction. In: *CHI 2019*. ACM.
 
