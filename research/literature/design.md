@@ -83,6 +83,8 @@ There is a lot of research on ***quantified self***. Wearable devices like Apple
 
 Shin et al. (2019) synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. Saubade et al. (2016) finds health tracking is useful for motivating physical activity. Apple is a leader in health tracking. Apple (2022a): In a 2022 report Apple outlines its plans to : “Empowering people to live a healthier day”. Apple (2022b) Apple’s HealthKit provides a growing list of health metrics. Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise. Grigsby-Toussaint et al. (2017) Sleep apps and behavioral constructs.
 
+Blood sugar trackers. Bloog glucose tracking is popular even for people without diabetes, to optimize their activity Anon. (2021b)
+
 Another aspect is tracking one’s mental health. Tyler, Boldi and Cherubini (2022) surveys the use of self-reflection apps in the UK (n=998).
 
 Use technology Wearables to be more aware of one’s health.
@@ -225,7 +227,7 @@ One mode
 
 The concept of ***Social Objects*** is People need something to gather around and discuss. Sharing.Lab (2015): I’m interested in the concept of a “social object”.
 
-***Red Route Analysis*** is an user experience optimization idea inspired by the public transport system of London (Oviyam (2019); Anon. (2021b) and Xuan (2022)).
+***Red Route Analysis*** is an user experience optimization idea inspired by the public transport system of London (Oviyam (2019); Anon. (2021c) and Xuan (2022)).
 
 Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that’s useful for the large majority of users depends on ***Data-Driven Design.***
 
@@ -253,7 +255,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 The literature on ***nudge*** is massive. For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online. First coined by the Nobel-winning economist Thaler and Sunstein (2009) in 2008, nudges are based on specific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways. The same principles and tricks have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by Perez-Cueto (2021) found that designing a “dish-of-the-day” which was prominently displayed helped to increase vegetarian food choice by 85%. Guath, Stikvoort and Juslin (2022) experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid “16 billion paper coffee cups are being thrown away every year” Novoradovskaya et al. (2021).
 
-Google currently offers a “Green Filter” in Google Flights and Google maps, which allow filtering flights and driving routes by less CO2 emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products Sundar Pichai (2021). Green tools inside Google’s online platforms are small user interface nudges which Google’s research calls ***digital decarbonization***, defined by Implement Consulting Group (2022) as “Maximising the enabling role of digital technologies by accelerating already available digital solutions”. In Kate Brandt and Matt Brittin (2022), Google’s Chief Sustainability Officer Kate Brandt set a target of “at least 20-25%” CO2 emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (Jeni Miles (2022)). In addition to end–users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool Google (2023) and invests in regenerative agriculture projects Anon. (2021c).
+Google currently offers a “Green Filter” in Google Flights and Google maps, which allow filtering flights and driving routes by less CO2 emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products Sundar Pichai (2021). Green tools inside Google’s online platforms are small user interface nudges which Google’s research calls ***digital decarbonization***, defined by Implement Consulting Group (2022) as “Maximising the enabling role of digital technologies by accelerating already available digital solutions”. In Kate Brandt and Matt Brittin (2022), Google’s Chief Sustainability Officer Kate Brandt set a target of “at least 20-25%” CO2 emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (Jeni Miles (2022)). In addition to end–users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool Google (2023) and invests in regenerative agriculture projects Anon. (2021d).
 
 | Feature                                                                       | Product        | Nudge                                |
 |----------------------------------|-------------------|-------------------|
@@ -317,7 +319,7 @@ Some notable examples:
 |      |             |             |                                      |
 |      |             |             |                                      |
 
-Table of Ant Forest assisted tree planting. Data compiled from 李连环 and 姜舒译 (2017); Yang et al. (2018); UNFCCC (2019); Wang, X. and Yao (2020); Anon. (2021d); Zhang, Hu and Gu (2022); Wang, S., Ibrahiem and Li (2022); Zhou, F., Lin and Mou (2023); Cao and Liu (2023).
+Table of Ant Forest assisted tree planting. Data compiled from 李连环 and 姜舒译 (2017); Yang et al. (2018); UNFCCC (2019); Wang, X. and Yao (2020); Anon. (2021e); Zhang, Hu and Gu (2022); Wang, S., Ibrahiem and Li (2022); Zhou, F., Lin and Mou (2023); Cao and Liu (2023).
 
 <img src="design_files/figure-markdown_strict/cell-2-output-1.png" class="quarto-discovered-preview-image" />
 
@@ -348,7 +350,7 @@ Examples of human-in-the-loop apps
 -   Anon. (2022d)
 -   Katie Gustafson (2022) proposes a **“Uniform traceability system for the entire supply chain”** for seafood
 -   Muñoz et al. (2023) Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned.
--   Anon. (2021e) “Real Time ESG Tracking From StockSnips”
+-   Anon. (2021f) “Real Time ESG Tracking From StockSnips”
 -   Mamede et al. (2022) proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 -   Waters (2015) **(Need access!)**
 -   Cawthorn and Hoffman (2016) **(Need access!)**
@@ -411,7 +413,7 @@ Blockchain supply chain companies as of summer 2023 include.
 -   Verra (2023) Verra new Methodology Announcement Webinar
 -   Eisenstein?: “Money is a technology”.
 -   Eisenstein (2011): 5 things, UBI, demurrage, …
--   Anon. (2021f)
+-   Anon. (2021g)
 -   Ganu (2021)
 -   Improve product ***provenance***, blockchains offer this transparency
 
@@ -461,7 +463,7 @@ Examples of cities and countries that share data openly.
 -   Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 -   Justine Calma (Oct 6, 2021, 10:01 AM GMT+3) *Google UX eco features*
 -   Google VERY IMPORTANTT Google (2021)
--   Anon. (2021g) Google green routes
+-   Anon. (2021h) Google green routes
 -   Wizzair Check carbon impact Anon. (n.d.i)
 -   WikiRate (2021) WikiRate defines 7 Data Sharing Archetypes
 
@@ -803,19 +805,21 @@ Alethea AI (2021). Alethea AI - AI Personality Creative Writing Class.
 
 Allcott, Hunt (2011). Social norms and energy conservation. *Journal of Public Economics*, 95(9-10), p. 1082–1095, doi:[10.1016/j.jpubeco.2011.03.003](https://doi.org/10.1016/j.jpubeco.2011.03.003).
 
-Anon. (2021d). Over 600 Million People Planted More Than 326 Million Trees via Alipay Ant Forest in Five Years.
+Anon. (2021e). Over 600 Million People Planted More Than 326 Million Trees via Alipay Ant Forest in Five Years.
 
-Anon. (2021f). Blockchain Companies Team Up To Track ESG Data. *JPT*.
+Anon. (2021g). Blockchain Companies Team Up To Track ESG Data. *JPT*.
+
+Anon. (2021b). Is blood sugar monitoring without diabetes worthwhile? *Harvard Health*.
 
 Anon. (2021a). The company now dominating European fintech is… Paypal. *Sifted*.
 
-Anon. (2021g). Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental. *ELMUNDO*.
+Anon. (2021h). Google mostrará por defecto la ruta más ’verde’ en su GPS y ordenará los vuelos según su impacto ambiental. *ELMUNDO*.
 
-Anon. (2021c). Inside Google’s regenerative agriculture play \| Greenbiz.
+Anon. (2021d). Inside Google’s regenerative agriculture play \| Greenbiz.
 
-Anon. (2021b). Interaction Design How to Evaluate Interaction Costs and Improve User Experience. *freeCodeCamp.org*.
+Anon. (2021c). Interaction Design How to Evaluate Interaction Costs and Improve User Experience. *freeCodeCamp.org*.
 
-Anon. (2021e). Real Time ESG Tracking From StockSnips.
+Anon. (2021f). Real Time ESG Tracking From StockSnips.
 
 Anon. (2022f). Google ’airbrushes’ out emissions from flying, BBC reveals. *BBC News*.
 
