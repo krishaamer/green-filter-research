@@ -35,7 +35,7 @@ The rise of the ***platform economy*** has created global marketplace companies 
 
 -   **Network Effects**: The more people use a platform, the more valuable it becomes. Young people are stuck inside platforms. You don't own the data you put on TikTok. You can't leave because you'll lose the audience.
 
--   By continusoulsy adding features (and provided consumer legisllations allows it), platforms can envolve into superapps.
+-   By continuously adding features (and provided consumer legislation allows it), platforms can evolve into superapps.
 
 -   Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.** The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
 
@@ -129,6 +129,8 @@ Use technology Wearables to be more aware of one's health.
 -   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
+
+### Affective Design
 
 ### User Interfaces
 
@@ -558,7 +560,9 @@ It's a further development of the idea of carbon labels.
 
 -   @talebAntifragileThingsThat2012 antifragile systems that get better in difficult situations
 
-## Industry Cases
+## Designing Industries
+
+It's possible to design entire industries.
 
 Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction.
 
@@ -666,6 +670,20 @@ Across industries, reports are saying there isn't enough transparency.
 
 ### Food
 
+#### Perennial Crops
+
+-   Multi-year crops reduce inputs of gasoline, labor, etc. @aubreystreitkrugPathwaysPerennialFood2023
+
+-   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
+
+#### Culture, Community, Cuisine, Storytelling
+
+Food is about enticing human imagination and taste buds.
+
+-   Potato used to be a newcomer and innovative crop in Europe, and not it's so common, we forget it's no originally from here.
+
+-   @aubreystreitkrugPathwaysPerennialFood2023 food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
+
 -   "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission" @nabipourafrouziComprehensiveReviewCarbon2023. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
 
 Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
@@ -744,24 +762,43 @@ Supply chain innovation in agriculture.
 -   Help you to decide: what to buy, how to save, where to invest.
 
 -   What if there was a "Green Filter" on every product everywhere?
+
 -   Become a Sustainability-Aware App or Game.
+
 -   Focus on how college students can invest in specific industries?
+
 -   Where to shop rankings for groceries: list worst offenders in terms of products; shop and invest according to your values.
+
 -   What Quantified Self look like for sustainability?
+
 -   Empowering people to live a sustainable day
+
 -   What if there was a "Green Filter" on every product everywhere?
+
 -   Become a Sustainability-Aware App or Game.
+
 -   Guidance could help young people beat climate anxiety by taking meaningful action.
+
 -   The app is just as much about helping people deal with climate anxiety as it's with solving the climate issue.
+
 -   List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, "green filter" is a central data repository not unlike "Apple Health for Sustainability".
+
 -   Health and fitness category apps
+
 -   Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly.
+
 -   All green categories --- Green hub --- Ask the user to prioritize
+
 -   In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc.
+
 -   Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.
+
 -   Narrative design bring together film school **storytelling** experience with design.
+
 -   Rebuilt the app as a personalized, narrative lifestyle feed.
+
 -   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
+
 -   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...
 
 # References

@@ -39,7 +39,7 @@ The rise of the ***platform economy*** has created global marketplace companies 
 
 -   **Network Effects**: The more people use a platform, the more valuable it becomes. Young people are stuck inside platforms. You don’t own the data you put on TikTok. You can’t leave because you’ll lose the audience.
 
--   By continusoulsy adding features (and provided consumer legisllations allows it), platforms can envolve into superapps.
+-   By continuously adding features (and provided consumer legislation allows it), platforms can evolve into superapps.
 
 -   Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.** The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale.
 
@@ -134,6 +134,8 @@ Use technology Wearables to be more aware of one’s health.
 -   Ryan (2022) uses the “capability methodology” to evaluate if apps help people eat healthily.
 
 -   Baptista et al. (2022) apps for sleep apnea
+
+### Affective Design {#affective-design}
 
 ### User Interfaces {#user-interfaces}
 
@@ -545,7 +547,9 @@ It’s a further development of the idea of carbon labels.
 
 -   Taleb (2012) antifragile systems that get better in difficult situations
 
-## Industry Cases {#industry-cases}
+## Designing Industries {#designing-industries}
+
+It’s possible to design entire industries.
 
 Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction.
 
@@ -652,6 +656,20 @@ Across industries, reports are saying there isn’t enough transparency.
 -   Anon. (2023d) Ethical brand ratings
 
 ### Food {#food}
+
+#### Perennial Crops {#perennial-crops}
+
+-   Multi-year crops reduce inputs of gasoline, labor, etc. Aubrey Streit Krug and Yin Lu (2023)
+
+-   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
+
+#### Culture, Community, Cuisine, Storytelling {#culture-community-cuisine-storytelling}
+
+Food is about enticing human imagination and taste buds.
+
+-   Potato used to be a newcomer and innovative crop in Europe, and not it’s so common, we forget it’s no originally from here.
+
+-   Aubrey Streit Krug and Yin Lu (2023) food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
 
 -   “The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission” Nabipour Afrouzi et al. (2023). Poore and Nemecek (2018) suggests 26% of carbon emissions come from food production. Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO2 emissions.
 
@@ -866,6 +884,8 @@ Aromatario, O., Van Hoye, A., Vuillemin, A., Foucaut, A.-M., Crozet, C., Pommier
 Ashraf, Mateen and Heavey, Cathal (2023). A Prototype of Supply Chain Traceability using Solana as blockchain and IoT. *Procedia Computer Science*, 217, p. 948–959, doi:[10.1016/j.procs.2022.12.292](https://doi.org/10.1016/j.procs.2022.12.292).
 
 Asioli, Daniele, Fuentes-Pila, Joaquìn, Alarcón, Silverio, Han, Jia, Liu, Jingjing, Hocquette, Jean-Francois and Nayga, Rodolfo M. (2022). Consumers’ valuation of cultured beef Burger: A Multi-Country investigation using choice experiments. *Food Policy*, 112, p. 102376, doi:[10.1016/j.foodpol.2022.102376](https://doi.org/10.1016/j.foodpol.2022.102376).
+
+Aubrey Streit Krug and Yin Lu (2023). Pathways to a Perennial Food Future.
 
 Ayoola, Idowu, Wetzels, Mart, Peters, Peter, Van Berlo, Sander and Feijs, Loe (2018). Do CHANGE platform: A service-based architecture for secure aggregation and distribution of health and wellbeing data. *International Journal of Medical Informatics*, 117, p. 103–111, doi:[10.1016/j.ijmedinf.2018.06.004](https://doi.org/10.1016/j.ijmedinf.2018.06.004).
 

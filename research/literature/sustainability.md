@@ -39,6 +39,10 @@ Some argue sustainability is not enough and we should work on regeneration of na
 
 ### The Climate {#the-climate}
 
+#### The Price of Climate Change {#the-price-of-climate-change}
+
+Long term cost is more than shor-term gains.
+
 #### Climate Data Vizualisation {#climate-data-vizualisation}
 
 Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors (Honton, 2022). Humboldt’s isotherms are now available as 3D computer models in (Anon., 2023a). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012 ).
@@ -295,7 +299,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |

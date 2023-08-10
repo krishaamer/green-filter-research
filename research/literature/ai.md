@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -46,7 +46,7 @@ Noble et al. (2022) proposes AI has reached a stage, which begets the beginning 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
 | AI Model | Released | Company                         | License                       |
-|---------------|---------------|----------------------------|----------------|
+|-----------------|-----------------|---------------------|-----------------|
 | GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
 | GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
 | T-NLG    | 2000     | Microsoft                       |                               |
@@ -104,6 +104,10 @@ There’s wide literature available describing human-AI interactions across vari
 -   Seeber et al. (2020) proposes a future research agenda for regarding AI assistants as teammates rather than just tools and the implications of such mindset shift.
 
 ### Conversational AI {#conversational-ai}
+
+-   People are used to search engines and it will take a little bit time to get familiar with talking to a computer in natural language Bailey (2023). NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying “Everyone is a programmer. Now, you just have to say something to the computer.”Leswing (2023)
+
+-   Because AI responses are unreliable some percentage of the time, they require constant oversight (human-in-the-loop) Bailey (2023).
 
 There are noticeable differences in the quality of the LLM output, which increases with model size. Levesque, Davis and Morgenstern (2012) developed the *Winograd Schema Challenge*, looking to improve on the Turing test, by requiring the AI to display an understanding of language and context. The test consists of a story and a question, which has a different meaning as the context changes: “The trophy would not fit in the brown suitcase because it was too big” - what does the *it* refer to? Humans are able to understand this from context while a computer models would fail. Even GPT-3 still failed the test, but later LLMs have been able to solve this test correctly (90% accuracy) Kocijan et al. (2022). This is to say AI is in constant development and improving it’s ability to make sense of language.
 
@@ -258,6 +262,8 @@ Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI based o
 
 -   AI UX dark patterns Jarovsky (2022b)
 
+-   Bailey (2023) believes people will increasingly use AI capabilities through UIs that are specific to a task rather than generalist interfaces like ChatGPT.
+
 How do the 7 tenets of user experience (UX) apply to AI?
 
 | UX         |
@@ -315,6 +321,10 @@ RQ: Does AI acceptance increase with Affective Computing?
 **AI is being use in high–Stakes Situations (Medical, Cars, Etc).**
 
 AI-based systems are already being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in Kanza et al. (2021)), the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. Lee, Goldberg and Kohane (2023) imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
+
+-   Singhal et al. (2023) medial AI reaching expert-level question-answering ability.
+
+-   Ayers et al. (2023) in an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors.
 
 -   Daisy Wolf and Pande Vijay (2023) critizes US healthcare’s slow adpotion of technology and predicts AI will help healthcare leapfrog into a new era of productivity by acting more like a human assistant.
 
@@ -479,6 +489,10 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 ### How is AI Changing Interactions? {#how-is-ai-changing-interactions}
 
+-   Intelligence may be besides the point as long as AI is becoming very good ad reasoning - AI is a ***reasoning engine*** (Bubeck et al., 2023; Shipper, 2023; see Bailey, 2023 for a summary).
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
 -   The International Ergonomics Association (2019): To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being”.
 
 -   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
@@ -562,7 +576,11 @@ Anon. (n.d.c). Home - Lark Health.
 
 Architechtures (2020). What is Artificial Intelligence Aided Design? *Architechtures*.
 
+Ayers, John W., Poliak, Adam, Dredze, Mark, Leas, Eric C., Zhu, Zechariah, Kelley, Jessica B., Faix, Dennis J., Goodman, Aaron M., Longhurst, Christopher A., Hogarth, Michael and Smith, Davey M. (2023). Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum. *JAMA Intern Med*, 183(6), p. 589, doi:[10.1001/jamainternmed.2023.1838](https://doi.org/10.1001/jamainternmed.2023.1838).
+
 Babich, Nick (2019). Interaction Design vs UX: What’s the Difference? *Adobe XD Ideas*.
+
+Bailey, John (2023). AI in Education. *Education Next*.
 
 Barbara Friedberg (2021). M1 Finance vs <span class="nocase">Betterment Robo Advisor Comparison-by Investment Expert</span>.
 
@@ -716,6 +734,8 @@ Lenharo, Mariana (2023). ChatGPT gives an extra productivity boost to weaker wri
 
 Lennart Ziburski (2018). The UX of AI.
 
+Leswing, Kif (2023). Nvidia reveals new A.I. Chip, says costs of running LLMs will ’drop significantly’. *CNBC*.
+
 Levesque, Hector J., Davis, Ernest and Morgenstern, Leora (2012). The winograd schema challenge. In: *Proceedings of the thirteenth international conference on principles of knowledge representation and reasoning*. Rome, Italy: AAAI Press, p. 552–561.
 
 Lew, Gavin and Schumacher, Robert M. Jr (2020). *AI and UX: Why artificial intelligence needs user experience*. Berkeley, CA: Apress.
@@ -800,9 +820,13 @@ Shin, Donghee (2020). How do users interact with algorithm recommender systems? 
 
 Shin, Don, Zhong, Bu and Biocca, Frank (2020). Beyond user experience: What constitutes algorithmic experiences? *International Journal of Information Management*, 52, p. 102061, doi:[10.1016/j.ijinfomgt.2019.102061](https://doi.org/10.1016/j.ijinfomgt.2019.102061).
 
+Shipper, Dan (2023). GPT-4 Is a Reasoning Engine.
+
 Simon Sterne (2023). Unlocking the Power of Design to Help Users Make Smart Decisions. *Web Designer Depot*.
 
 Singer, Uriel, Polyak, Adam, Hayes, Thomas, Yin, Xiaoyue, An, Jie, Zhang, Songyang, Hu, Qiyuan, Yang, Harry, Ashual, Oron, Gafni, Oran, Parikh, Devi, Gupta, Sonal and Taigman, Yaniv (2022). Make-<span class="nocase">A-video</span>: <span class="nocase">Text-to-video</span> generation without text-video data. *ArXiv*, abs/2209.14792.
+
+Singhal, Karan, Tu, Tao, Gottweis, Juraj, Sayres, Rory, Wulczyn, Ellery, Hou, Le, Clark, Kevin, Pfohl, Stephen, Cole-Lewis, Heather, Neal, Darlene, Schaekermann, Mike, Wang, Amy, Amin, Mohamed, Lachgar, Sami, Mansfield, Philip, Prakash, Sushant, Green, Bradley, Dominowska, Ewa, Arcas, Blaise Aguera y, Tomasev, Nenad, Liu, Yun, Wong, Renee, Semturs, Christopher, Mahdavi, S. Sara, Barral, Joelle, Webster, Dale, Corrado, Greg S., Matias, Yossi, Azizi, Shekoofeh, Karthikesalingam, Alan and Natarajan, Vivek (2023). [Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617).
 
 Singularity University (2023). Engineering Emotion & AI \| Rosalind Picard, ep 87.
 
