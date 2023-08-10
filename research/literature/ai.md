@@ -8,7 +8,7 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -46,7 +46,7 @@ Noble et al. (2022) proposes AI has reached a stage, which begets the beginning 
 This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
 | AI Model | Released | Company                         | License                       |
-|-----------------|-----------------|---------------------|-----------------|
+|------------------|------------------|--------------------|------------------|
 | GPT-1    | 2018     | OpenAI                          | Open Source, MIT              |
 | GTP-2    | 2019     | OpenAI                          | Open Source, MIT              |
 | T-NLG    | 2000     | Microsoft                       |                               |
@@ -320,7 +320,7 @@ RQ: Does AI acceptance increase with Affective Computing?
 
 **AI is being use in high–Stakes Situations (Medical, Cars, Etc).**
 
-AI-based systems are already being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in Kanza et al. (2021)), the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. Lee, Goldberg and Kohane (2023) imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
+AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in Kanza et al. (2021)), the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. Lee, Goldberg and Kohane (2023) imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
 
 -   Singhal et al. (2023) medial AI reaching expert-level question-answering ability.
 
@@ -383,15 +383,9 @@ If we see the AI as being in human service. David Johnston (2023) proposes ***Sm
 There is also the question of who takes responsibility for the actions take by the AI agent. “Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior.” Gratch and Fast (2022)
 
 -   Anthropomorphism literature Li, X. and Sung (2021) “high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly”
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Erik Brynjolfsson (2022)
-
 -   Xu and Sar (2018)
-
 -   Martínez-Plumed, Gómez and Hernández-Orallo (2021) envisions the future of AI
-
 -   The number of AI-powered assistants is too large to list here. I’ve chosen a few select examples in the table below.
 
 #### Animal-like {#animal-like}
@@ -491,7 +485,7 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 
 -   Intelligence may be besides the point as long as AI is becoming very good ad reasoning - AI is a ***reasoning engine*** (Bubeck et al., 2023; Shipper, 2023; see Bailey, 2023 for a summary).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   The International Ergonomics Association (2019): To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being”.
 
