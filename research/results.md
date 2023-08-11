@@ -5,6 +5,7 @@ csl: harvard.csl
 sidebar_position: 5
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 # Results {#results}

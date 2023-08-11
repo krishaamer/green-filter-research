@@ -5,6 +5,7 @@ csl: harvard.csl
 sidebar_position: 4
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ``` mdx-code-block
@@ -175,40 +176,4 @@ A focus group of 6 to 10 people will be gathered in Tainan. Because in-person pr
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
 
-## References {#references .unnumbered}
-
-Affairs, Assistant Secretary for Public (2013). Card Sorting.
-
-Anon. (n.d.b). 047:: The "R word" in Creative Tech.
-
-Anon. (n.d.g). (5) Erika Hall: Design Research Done Right - YouTube.
-
-Anon. (n.d.f). (5) Great UX Research for Non-Researchers \| Steve Portigal \| Awwwards San Francisco - YouTube.
-
-Anon. (n.d.a). How Models Work.
-
-Anon. (n.d.c). (5) 3 Kinds of Design Research: Research for / into / through Design - YouTube.
-
-Anon. (n.d.d). (5) Qualitative vs. Quantitative UX Research - YouTube.
-
-Anon. (n.d.e). (5) When to Use Which UX Research Method - YouTube.
-
-Christian Rohrer (2022). When to Use Which User-Experience Research Methods. *Nielsen Norman Group*.
-
-Koskinen, Ilpo Kalevi ed. (2011). *Design research through practice: From the lab, field, and showroom*. Waltham, MA: Morgan Kaufmann/Elsevier.
-
-Li, Tianyi, Vorvoreanu, Mihaela, DeBellis, Derek and Amershi, Saleema (2022). Assessing human-AI interaction early through factorial surveys: A study on the guidelines for human-AI interaction. *ACM Transactions on Computer-Human Interaction*.
-
-Mehmet Aydın Baytaş (2020). 3 Kinds of Design Research: Research for / into / through Design.
-
-Nunnally, Brad and Farkas, David (2016). *UX research: Practical techniques for designing better products*. First edition. Beijing: O’Reilly.
-
-Oulasvirta, Antti and Hornbæk, Kasper (2016). [HCI Research as Problem-Solving](https://doi.org/10.1145/2858036.2858283). In: *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*. San Jose California USA: ACM, p. 4956–4967.
-
-RanYwayZ (2016). Research Design.
-
-Ries, Eric (2011). *The lean startup: How today’s entrepreneurs use continuous innovation to create radically successful businesses*. 1st ed. New York: Crown Business.
-
-Salovaara, Antti (2020). How to define a research question or a design problem \| Writing about Design.
-
-Zimmerman, John, Forlizzi, Jodi and Evenson, Shelley (2007). [Research through design as a method for interaction design research in HCI](https://doi.org/10.1145/1240624.1240704). In: *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*. San Jose California USA: ACM, p. 493–502.
+## References {#references}

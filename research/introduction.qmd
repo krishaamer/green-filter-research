@@ -5,6 +5,7 @@ csl: harvard.csl
 sidebar_position: 2
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ```{=mdx}
@@ -45,7 +46,7 @@ In January 2022, the Stockholm Resilience Centre reported that humanity had brea
   refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
 />
 ```
-A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe "climate change is mostly caused by human activities". An even larger survey (n = 1.2 million) by the United Nations across 50 countries showing the percentage of people agreeing climate change is an "emergency**"** @undpPeoplesClimateVote2021.
+A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe **"climate change is mostly caused by human activities"**. An even larger survey (n = 1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an **"emergency"** @undpPeoplesClimateVote2021. @eyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 | Age     | Percent |
 |---------|---------|
@@ -57,13 +58,12 @@ A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta
 
 Consumer lifestyle contributes to environmental destruction. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. According to @ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019's models 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
-The theme for Earth Day 2023 was "Invest In Our Planet" @EarthDay2023 and it's very apt. @MappingGapRoad2016 estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to @therockefellerfoundationWhatGetsMeasured2022. While a lot of money goes into greener energy, it's not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The lack of funding in green energy especially affects emerging economies, reminds us @MobilizingCapitalEmerging2022.
-
--   Underinvestment in environmental protection; market failure
+The theme for Earth Day 2023 was "Invest In Our Planet" @EarthDay2023 and it's very apt as @MappingGapRoad2016 estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to @therockefellerfoundationWhatGetsMeasured2022. While a lot of money goes into greener energy, it's not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The lack of funding in green energy especially affects emerging economies, reminds us @MobilizingCapitalEmerging2022.
 
 ## Research Relevance
 
 -   and protecting biodiversity
+-   Underinvestment in environmental protection; market failure
 
 This research is timely in 2023 because of the convergence of five trends:
 
@@ -76,7 +76,7 @@ This research is timely in 2023 because of the convergence of five trends:
 | Environmental degradation                     |     |
 
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before.
--   The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor. ,relating to the social (S in ESG).
+-   The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG).
 -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
 **There's evidence young people have money:**
@@ -90,11 +90,9 @@ This research is timely in 2023 because of the convergence of five trends:
 
 -   The latest IPCC report
 
--   @eyangeorgievGenStatisticsWhat2023: Only 30% of Gen-Z believe tech can solve all problems.
-
 -   @dimockDefiningGenerationsWhere2019
 
--   kora 95%
+-   kora 95% <https://kora.app/>
 
 Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 

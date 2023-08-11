@@ -5,6 +5,7 @@ csl: harvard.csl
 sidebar_position: 7
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 export const quartoRawHtml =
@@ -163,9 +164,3 @@ How should the layout storyline be structured? Well it’s like Strava (that run
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
-
-Kara Pernice (2018). Affinity Diagramming: Collaboratively Sort UX Findings & Design Ideas.
-
-Quignard, Gisell (2022). UX Analysis: Phase Five/ Affinity Diagram from previous qualitative research data. *Medium*.
-
-The Manor (2022). Sustainability is Not a Sacrifice - The Manor. *The Manor*.

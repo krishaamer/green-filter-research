@@ -5,6 +5,7 @@ csl: harvard.csl
 sidebar_position: 2
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ``` mdx-code-block
@@ -40,7 +41,7 @@ In January 2022, the Stockholm Resilience Centre reported that humanity had brea
 />
 ```
 
-A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n = 1.2 million) by the United Nations across 50 countries showing the percentage of people agreeing climate change is an “emergency**“** UNDP (2021).
+A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe **“climate change is mostly caused by human activities”**. An even larger survey (n = 1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an **“emergency”** UNDP (2021). (**eyangeorgievGenStatisticsWhat2023?**) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 | Age     | Percent |
 |---------|---------|
@@ -52,13 +53,12 @@ A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n
 
 Consumer lifestyle contributes to environmental destruction. While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. According to Ellen MacArthur Foundation, Material Economics (2019)’s models 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
-The theme for Earth Day 2023 was “Invest In Our Planet” Anon. (n.d.) and it’s very apt. Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to The Rockefeller Foundation (2022). While a lot of money goes into greener energy, it’s not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022).
-
--   Underinvestment in environmental protection; market failure
+The theme for Earth Day 2023 was “Invest In Our Planet” Anon. (n.d.) and it’s very apt as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to The Rockefeller Foundation (2022). While a lot of money goes into greener energy, it’s not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022).
 
 ## Research Relevance {#research-relevance}
 
 -   and protecting biodiversity
+-   Underinvestment in environmental protection; market failure
 
 This research is timely in 2023 because of the convergence of five trends:
 
@@ -71,7 +71,7 @@ This research is timely in 2023 because of the convergence of five trends:
 | Environmental degradation                     |     |
 
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
--   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor. ,relating to the social (S in ESG).
+-   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG).
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
 **There’s evidence young people have money:**
@@ -85,11 +85,9 @@ This research is timely in 2023 because of the convergence of five trends:
 
 -   The latest IPCC report
 
--   (**eyangeorgievGenStatisticsWhat2023?**): Only 30% of Gen-Z believe tech can solve all problems.
-
 -   Dimock (2019)
 
--   kora 95%
+-   kora 95% <https://kora.app/>
 
 Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 
@@ -194,46 +192,4 @@ Survey respondents:
 
 Table of research questions.
 
-## References {#references .unnumbered}
-
-Anon. (2016). Mapping the Gap: The Road from Paris. *BloombergNEF*.
-
-Anon. (2022). Mobilizing Capital Into Emerging Markets and Developing Economies. *BloombergNEF*.
-
-Anon. (n.d.). Earth Day 2023 - Earth Day.
-
-Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider and Kelsey Mulcahy (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
-
-BankMyCell (2022). How Many People Have Smartphones Worldwide.
-
-Branka Vuleta (2023). Generation Z Statistics. *99firms*.
-
-Calastone (2020). *Millennials and investing: A detailed look at approaches and attitudes across the globe*.
-
-Deutsche Welle (2019). Fridays for Future global climate strike.
-
-Deyan Georgiev (2023). *39+ Smartphone Statistics You Should Know in 2023*.
-
-Dimock, Michael (2019). Defining generations: Where Millennials end and Generation Z begins. *Pew Research Center*.
-
-Ellen MacArthur Foundation, Material Economics (2019). Completing the picture: How the circular economy tackles climate change.
-
-Global Web Index (2017). 98% of Gen Z Own a Smartphone.
-
-Gupta, Alisha Haridasani (2020). An “Electrifying” Economist’s Guide to the Recovery. *The New York Times*.
-
-Institute, Energy (2023). Energy system struggles in face of geopolitical and environmental crises. *Energy Institute*.
-
-Keeling, Ralph F. and Keeling, Charles D. (2017). [Atmospheric Monthly In Situ CO2 Data - Mauna Loa Observatory, Hawaii. In Scripps CO2 Program Data](https://doi.org/10.6075/J08W3BHW).
-
-Persson, Linn, Carney Almroth, Bethanie M., Collins, Christopher D., Cornell, Sarah, de Wit, Cynthia A., Diamond, Miriam L., Fantke, Peter, Hassellöv, Martin, MacLeod, Matthew, Ryberg, Morten W., Søgaard Jørgensen, Peter, Villarrubia-Gómez, Patricia, Wang, Zhanyun and Hauschild, Michael Zwicky (2022). Outside the Safe Operating Space of the Planetary Boundary for Novel Entities. *Environ. Sci. Technol.*, 56(3), p. 1510–1521, doi:[10.1021/acs.est.1c04158](https://doi.org/10.1021/acs.est.1c04158).
-
-Rubino, Mauro, Etheridge, David, Thornton, David, Allison, Colin, Francey, Roger, Langenfelds, Ray, Steele, Paul, Trudinger, Cathy, Spencer, Darren, Curran, Mark, Van Ommen, Tas and Smith, Andrew (2019). [Law Dome Ice Core 2000-Year CO2, CH4, N2O and <span class="nocase">d13C-CO2</span>](https://doi.org/10.25919/5BFE29FF807FB).
-
-The Rockefeller Foundation (2022). *What Gets Measured Gets Financed*.
-
-Time (2019). Greta Thunberg: TIME’s Person of the Year 2019.
-
-UNDP (2021). *The Peoples’ Climate Vote \| United Nations Development Programme*.
-
-YPulse (2020). Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020.
+## References {#references}
