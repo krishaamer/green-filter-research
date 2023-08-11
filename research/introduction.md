@@ -18,41 +18,7 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-What’s on the intersection of College Students, Sustainability, Investing, Data-Driven Design and Artificial Intelligence (AI)? AI-Driven Sustainable Investment Tools.
-
-Underinvestment in environmental protection; market failure.
-
-The app aims to address the market failure by providing consumers sufficient sustainability information on the goods, services and invesments.
-
-resource depletion
-
-and adopt the doughnut economy as my overarching theoretical framework
-
-Humans are successful because of our adaptability. The study suggests tools to adapt to our current reality.
-
-United Nations Decade on Ecosystem Restoration
-
-Hypothesis: extractive business practices reduce college students trust, regenerative business practices create trust among college students towards the company.
-
-Provided there is awareness
-
-How can sustainability-minded college students find companies that meet their expectations, standards and requirements?
-
-Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Foundation, Material Economics (2019) models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
-
--   A survey of 1.2 million people by United Nations showing the percentage of people agreeing climate change is an **emergency** Anon. (n.d.a)
-
-| Age     | Percent |
-|---------|---------|
-| 18-35   | 65%     |
-| 36-59   | 66%     |
-| Over 69 | 58%     |
-
-“Climate change is an emergency” Anon. (n.d.a)
-
--   In Anthony Leiserowitz et al. (2022), another large scale study on Meta’s Facebook (n=108946), “Respondents in Spain (65%), Sweden (61%), and Taiwan (60%) are the most likely to say that climate change is mostly caused by human activities”.
-
--   The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in Keeling and Keeling (2017) and estimations going back 2000 years from Rubino et al. (2019).
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising. The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in Keeling and Keeling (2017) and estimations going back 2000 years from Rubino et al. (2019).
 
 ``` mdx-code-block
 <Figure
@@ -63,21 +29,32 @@ Consumer lifestyle contributes to environmental destruction. Ellen MacArthur Fou
 />
 ```
 
-While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life.
+In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows (Persson et al., 2022).
 
-Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
+``` mdx-code-block
+<Figure
+  caption="Planetary Boundaries"
+  src={Boundaries}
+  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
+  refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
+/>
+```
 
-Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data.
+A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n = 1.2 million) by the United Nations across 50 countries showing the percentage of people agreeing climate change is an “emergency**“** UNDP (2021).
 
-This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
+| Age     | Percent |
+|---------|---------|
+| 18-35   | 65%     |
+| 36-59   | 66%     |
+| Over 69 | 58%     |
 
-What would be a good interface to track sustainability?
+“Climate change is an emergency” UNDP (2021).
 
-Anon. (2016) The global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The Rockefeller Foundation (2022) estimates the financing gap to be 2.5-3.2 Trillion USD in 2022. Anon. (2022) The lack of funding especially affects emerging economies.
+Consumer lifestyle contributes to environmental destruction. While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. According to Ellen MacArthur Foundation, Material Economics (2019)’s models 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
 
-The theme for Earth Day 2023 was “Invest In Our Planet”. Anon. (n.d.b)
+The theme for Earth Day 2023 was “Invest In Our Planet” Anon. (n.d.) and it’s very apt. Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to The Rockefeller Foundation (2022). While a lot of money goes into greener energy, it’s not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022).
 
-Institute (2023) As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing.
+-   Underinvestment in environmental protection; market failure
 
 ## Research Relevance {#research-relevance}
 
@@ -93,29 +70,38 @@ This research is timely in 2023 because of the convergence of five trends:
 | ESG instruments                               |     |
 | Environmental degradation                     |     |
 
--   The current environmental upheaval, led by Generation Z, followed by Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before. The award-winning economist Mariana Mazzucato argues we have to include more into how we value unpaid labor (in Gupta (2020)), relating to the social (S in ESG).
+-   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
+-   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor. ,relating to the social (S in ESG).
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
 **There’s evidence young people have money:**
 
--   In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see YPulse (2020)).
+-   In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see YPulse, 2020).
 -   Calastone (2020): Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents.
 
 **Mainstream technology penetration worldwide**
 
--   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Generation Z owns smartphone Global Web Index (2017)
+-   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Gen-Z owns smartphone Global Web Index (2017)
 
 -   The latest IPCC report
 
--   d@eyangeorgievGenStatisticsWhat2023: Only 30% of Gen-Z believe tech can solve all problems.
+-   (**eyangeorgievGenStatisticsWhat2023?**): Only 30% of Gen-Z believe tech can solve all problems.
 
 -   Dimock (2019)
 
 -   kora 95%
 
+Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
+
+Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data.
+
+This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
+
+What would be a good interface to track sustainability?
+
 ## Research Background {#research-background}
 
--   I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imagined future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
+-   I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imaginary future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already integral part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
 
 ``` mdx-code-block
 <Figure
@@ -126,7 +112,7 @@ This research is timely in 2023 because of the convergence of five trends:
 />
 ```
 
--   As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction translates pinyin to hanzi. Even when we don’t realize it, AI assistants are already helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions linked to eco-friendly investing doesn’t sound so much of a stretch.
+-   As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction algorithms translate pinyin to 漢字. Even when we don’t realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO2, and investing in more eco-friendly businesses doesn’t sound so much of a stretch.
 
 ``` mdx-code-block
 <Figure
@@ -134,10 +120,6 @@ This research is timely in 2023 because of the convergence of five trends:
   src={Tricorder}
 />
 ```
-
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world (Deutsche Welle (2019)) and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Time (2019)). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising.
-
--   In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries (Persson et al. (2022)). In addition to climate change, biodiversity loss, land-system change, and biogeochemical flows.
 
 -   Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together solve climate change, curb deforestation, support mobility and green buildings, etc?
 
@@ -148,15 +130,6 @@ For the average person, our experience is limited with buying things at the supe
 -   Green Supermarket
 -   Green Savings
 -   Green Investing
-
-``` mdx-code-block
-<Figure
-  caption="Planetary Boundaries"
-  src={Boundaries}
-  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
-  refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
-/>
-```
 
 ## Research Motivation {#research-motivation}
 
@@ -227,9 +200,7 @@ Anon. (2016). Mapping the Gap: The Road from Paris. *BloombergNEF*.
 
 Anon. (2022). Mobilizing Capital Into Emerging Markets and Developing Economies. *BloombergNEF*.
 
-Anon. (n.d.b). Earth Day 2023 - Earth Day.
-
-Anon. (n.d.a). The Peoples’ Climate Vote \| United Nations Development Programme. *UNDP*.
+Anon. (n.d.). Earth Day 2023 - Earth Day.
 
 Anthony Leiserowitz, Jennifer Carman, Nicole Buttermore, Liz Neyens, Seth Rosenthal, Jennifer Marlon, J.W. Schneider and Kelsey Mulcahy (2022). *International Public Opinion on Climate Change 2022*. Yale Program on Climate Change Communication.
 
@@ -262,5 +233,7 @@ Rubino, Mauro, Etheridge, David, Thornton, David, Allison, Colin, Francey, Roger
 The Rockefeller Foundation (2022). *What Gets Measured Gets Financed*.
 
 Time (2019). Greta Thunberg: TIME’s Person of the Year 2019.
+
+UNDP (2021). *The Peoples’ Climate Vote \| United Nations Development Programme*.
 
 YPulse (2020). Millennials & Gen Z Teens’ Combined Spending Power Is Nearly \$3 Trillion in 2020.
