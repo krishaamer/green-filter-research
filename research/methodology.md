@@ -24,122 +24,6 @@ Start with expert survey, then expert interviews (because so many questions from
 | Experts (Sustainability)           | Short Survey |     |
 | Target Audience (College Students) | Long Survey  |     |
 
-### Experts (Economy) {#experts-economy}
-
--   There are planetary boundaries
--   Where do you need sustainability advice?
--   Growing the economy is needed
--   There are natural limits to the size of the economy
--   Where do you think consumers need the most help with?
--   What is you could see the real price (including externalizes) next too the sales prices.
--   What is your expected outcome of starting a business?
--   Would create a startup if you couldn’t have 10x returns?
--   I consider sustainability when investing (Likert)
-
-### Experts (Sustainability) {#experts-sustainability}
-
-### For College Students {#for-college-students}
-
-1.  Kas sa elad?
-
-    -   tulevikus
-
-    -   minevikus
-
-    -   praeguses hetkes?
-
-2.  Miks sa arvad, et sellest midagi kasu on? miks sa arvad, et sellest kasu pole?
-
-3.  What are some things you do to achieve sustainability in your daily life?
-
-4.  What is your relationship like with money?
-
-5.  What is your relationship like with nature?
-
-6.  Tell me about you shopping habits
-
-7.  Tell me about you saving habits
-
-8.  Tell me about your investing habits
-
-9.  Write your investment thesis first.
-
-10. What is your investment thesis?
-
-11. If you want to invest 5 minutes every day in sustainability, how will you do it?
-
-12. How would you rate your knowledge on sustainability?
-
-13. How would you rate your ability to put sustainability into practice?
-
-14. What would you like to see more of in the future?
-
-15. What would you like to see less of in the future?
-
-16. Get and overview of you consumption habits
-
-17. Where do you need sustainability advice?
-
-18. How do you feel about this statement (Likert)
-
-    1.  Investing in sustainability has a meaningful impact on sustainability
-    2.  It’s easy to assess the sustainability of an investment
-    3.  I consider sustainability when investing
-
-19. How would your describe your relationship with sustainability?
-
-20. It’s possible to grow the economy without CO2 emissions
-
-21. Donut Economy is feasible
-
-22. Donut Economy is a good idea
-
-23. How would you prefer communicating with an AI?
-
-    1.  Use my voice
-
-    2.  Search box
-
-    3.  Chat
-
-    4.  Take photos and share them with AI
-
-24. Choose your investment themes
-
-    1.  ESG
-
-    2.  Su
-
-25. The app should focus on
-
-    1.  Changing legislation
-
-    2.  Consumer habits
-
-    3.  Investing habits
-
-26. I’m most concerned with (start with everyday questions)
-
-    1.  How to buy sustainable clothing
-
-    2.  How to buy sustainable food
-
-    3.  How to invest sustainably
-
-    4.  How to save sustainably
-
-27. What is the biggest picture of the economy you have seen?
-
-28. “I want to see my carbon offset with my own eyes”
-
-29. “I plan to buy carbon offsets”
-
-30. “I’m currently buying carbon offsets”
-
-31. Do you currently own any investments?
-
-32. What kind of investments.
-
 ## Factorial Surveys {#factorial-surveys}
 
 -   Li et al. (2022): “Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations”
@@ -151,7 +35,7 @@ Start with expert survey, then expert interviews (because so many questions from
 -   Ries (2011)
 -   Design Studies Journal
 
-Research through design as a method for interaction design research in HCI
+*Research through design* is a method for interaction design research in Human-Computer Interaction (HCI).
 
 -   Zimmerman, Forlizzi and Evenson (2007)
 
@@ -163,7 +47,7 @@ interview people at google who made the green filter options
 
 -   Design artefacts
 
--   “design’s) nature as a”problem-solving” science”, Oulasvirta and Hornbæk, 2016
+-   “design’s nature as a ‘problem-solving’ science” Oulasvirta and Hornbæk (2016)
 
 -   my contribution is the design artefact, “HCI researchers also make constructive contributions by developing new technologies and design”
 
@@ -318,6 +202,8 @@ Li, Tianyi, Vorvoreanu, Mihaela, DeBellis, Derek and Amershi, Saleema (2022). As
 Mehmet Aydın Baytaş (2020). 3 Kinds of Design Research: Research for / into / through Design.
 
 Nunnally, Brad and Farkas, David (2016). *UX research: Practical techniques for designing better products*. First edition. Beijing: O’Reilly.
+
+Oulasvirta, Antti and Hornbæk, Kasper (2016). [HCI Research as Problem-Solving](https://doi.org/10.1145/2858036.2858283). In: *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*. San Jose California USA: ACM, p. 4956–4967.
 
 RanYwayZ (2016). Research Design.
 

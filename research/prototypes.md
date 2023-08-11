@@ -8,13 +8,37 @@ editor:
 ---
 
 export const quartoRawHtml =
-[`<iframe width="100%" height="400" src="https://www.youtube.com/embed/WHoWGNQRXb0?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />`];
+[`<iframe width="100%" height="400" src="https://www.youtube.com/embed/WHoWGNQRXb0?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />`,`<!-- -->`,`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Embed from '/src/components/Embed'
 ```
 
 ## Product Features {#product-features}
+
+-   Make a public profile of my carbon consumption!!! Like on Commons.
+
+-   Shop
+
+-   Save
+
+-   Invest
+
+-   Build closer relationships with sustainability-focused companies
+
+-   Sales funnel for eco-focused products
+
+-   The eco-friendly market is fragmented
+
+-   Build trust, clarity, transparency, and honesty
+
+-   Make a ‘Sustainability Flywheel’ graphic, like that of Amazon’s
+
+-   Sustainability is fragmented. How can billions of people build closer relationships with sustainability-focused companies based on honesty and transparency? A research project for designing a sustainable shopping, savings, and investing companion.
+
+-   Most sustainability plans rely on carbon credits to achieve their goals, making carbon credits a single point of failure. If the credits are not accurate, the whole system collapses.
+
+-   TODO: Make a table showing research results translated to design decisions
 
 -   Your Green Helper
 
@@ -54,25 +78,11 @@ Example Suggestions of the AI companion:
 
 -   brand colors: pink, orange, green
 
-#### How might AI assistants empower regenerative shopping, saving, and investing? {#how-might-ai-assistants-empower-regenerative-shopping-saving-and-investing}
+### 012: Sustainability Conversation {#sustainability-conversation}
 
-Display the ESG, EPR, B-Corp, etc, etc credentials for each product and investment.
+AI: “Kris, do you still remember Coca Cola’s packaging is a large contributor to ocean plastic? You even went to a beach cleanup!” Me: “That’s so sad but it’s tasty!” AI. “Remember your values. Would you like to start saving for investing in insect farms in Indonesia instead? Predicted return 4% per year, according to analysts A and B.” If I’m not so sure, I could continue the conversation. Me: “Tell me more” AI: “A recent UN study says, the planet needs to grow 70% more food in the next 40 years. Experts from 8 investment companies predict growth for this category of assets.” Me: “Thanks for reminding me who I am” … Moments later. AI: “This shampoo is made by Unilever, which is implicated in deforestation in Indonesia according to reporting by World Forest Watch. Would you consider buying another brand instead? They have a higher ESG rating.”
 
-EPR and B-Corp are success stories which shoul be highlighted while ESG is largely discredited.
-
-There are many existing and ongoing approaches to sustainability. The best approach might be to plug into excisting system and communities and legislation to support and empower them.
-
-#### How might one design an intuitive sustainable shopping, saving, investing app? {#how-might-one-design-an-intuitive-sustainable-shopping-saving-investing-app}
-
-Apple Watch app
-
-#### What app features might college students rate as the highest priority? {#what-app-features-might-college-students-rate-as-the-highest-priority}
-
-Autopilot
-
-#### How might one visualize ecological impact in digital product design? {#how-might-one-visualize-ecological-impact-in-digital-product-design}
-
-Accuracy is more imprttant for hhuman trust tthan actual impact
+Figure 3: Speculative scenario of an interaction between a human user and a robo-advisor through the interface of chat messages in the context of retail shopping for daily products.
 
 ## Shopping-as-Investing {#shopping-as-investing}
 
@@ -89,6 +99,52 @@ Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
 How should the layout storyline be structured? Well it’s like Strava (that running app) for sustainability… or if you have heard of Welltory. I believe if I spent 5 minutes every day with a guide who could help me make more eco-friendly choices that would improve my life.. be it what I consume, save, invest, etc.. so I’m trying to design an app around this idea.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Sustainability is hard. Green Filter helps you find companies that are making a true effort and build closer relationships through shopping, savings, and investing. Green Filter helps you find companies that are making a true effort to become sustainable and build closer relationships through shopping, savings, and investing
+
+-   Gather requirements and build a prototype for the next-generation investment app for young adults. Improving the user experience for young adults getting started with (green) investing. What would a “Tinder for (Green) Investments” look like? How can we make the logistics of investing so easy to use and take into account my values?
+
+-   My thesis core message is : everyone should change from consumer to sustainability investor (define these terms in the thesis). how to do this? can help you become from consumer to investor i believe there’s space for a product like that. your green investing friend find the companies tackling certain problems and invest in them using crypto business can be a force for good
+
+## ‘Shopping-as-Investing’ {#shopping-as-investing-1}
+
+-   Consumer purchases are an indicator of demand. If demand trends down, companies will stop producing this product.
+
+## ‘Investment-as-Product’ {#investment-as-product}
+
+-   Green Filter helps you discover how to save money and the planet with your daily shopping. By providing an easy way for people to learn about and shop with sustainable companies, we imagine a world where people invest in their future, find great deals on responsibly-made products, and get useful discounts from socially responsible brands.
+
+-   GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+-   GreenFilter introduces a novel, interactive point-of-sale technology that helps people make greener shopping decisions. The platform uses artificial intelligence to suggest green alternatives for products on your shopping list, and will also help you to find other companies that can make sustainable versions of the product you are buying.
+
+-   As people become aware of the impact their shopping is having on the environment, they become interested in finding alternatives to big brands and large companies. GreenFilter provides designers an AI companion design which helps people build relationships with sustainability-focused companies by providing personalized recommendations, giving product reviews and helping them shop sustainably. This new tool will empower consumers to make greener choices throughout their lives.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+-   Better management of planet Earth
+
+-   How can wee Shop, Save, Invest in line ecologic principles and planetary boundaries? individual action doesn’t move the needle. how to group together
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+-   App to build community
+
+-   Life within planetary boundaries
+
+-   Currently it seems there’s a secret around how things are produced we want to increase transparency
+
+-   Companies that have nothing new nothing to hide should welcome this opportunity to mark themselves to keep a conscious consumers and investors.
+
+-   We want to create competition around sustainable practices enter widespread adoption
+
+-   Cigarettes and pictures of lung cancer every product should be required to have photos of production conditions switch such as Rainforest and deforestation the products that include Palm oil.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+
+-   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don’t believe the solutions work. They don’t have trust. This is a user interface issue. How to build trust.
 
 Kara Pernice (2018). Affinity Diagramming: Collaboratively Sort UX Findings & Design Ideas.
 
