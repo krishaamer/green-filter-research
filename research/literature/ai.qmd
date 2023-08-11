@@ -5,6 +5,7 @@ csl: ../harvard.csl
 sidebar_position: 3
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ```{=mdx}
@@ -531,5 +532,3 @@ Generative AI has enabled developers to create AI tools for several industries, 
 -   Humans respond better to machines that into account emotion.
 -   For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.
 -   User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.
-
-## References

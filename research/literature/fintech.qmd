@@ -5,6 +5,7 @@ csl: ../harvard.csl
 sidebar_position: 4
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ```{=mdx}
@@ -913,5 +914,3 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 -   ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.
 -   @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.
 -   This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?
-
-# References

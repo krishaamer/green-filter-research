@@ -5,6 +5,7 @@ csl: ../harvard.csl
 sidebar_position: 1
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ```{=mdx}
@@ -756,5 +757,3 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
     -   AI can help us make sense of the vast amounts of sustainability data generated daily.
 -   EPR
     -   ERP and CDP data should be part of Green Filter.
-
-# References

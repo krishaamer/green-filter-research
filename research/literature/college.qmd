@@ -4,7 +4,8 @@ bibliography: [../ref.bib]
 csl: ../harvard.csl
 sidebar_position: 1
 editor:
-    render-on-save: false 
+    render-on-save: false
+suppress-bibliography: true
 ---
 
 ## College Students
@@ -180,8 +181,3 @@ Humans working together are able to achieve more than single individuals. "Any c
     -   This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience.
 
     -   What would that experience look like? I've chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.
-
-# References
-
-::: {#refs}
-:::

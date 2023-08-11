@@ -8,6 +8,7 @@ execute:
 editor:
     render-on-save: false
 jupyter: python3
+suppress-bibliography: true
 ---
 
 ```{=mdx}
@@ -804,8 +805,3 @@ Supply chain innovation in agriculture.
 -   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
 
 -   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...
-
-# References
-
-::: {#refs}
-:::
