@@ -572,6 +572,8 @@ Sustainable Fashion, Textile Design
 
 Anon. (n.d.l): Young people are the largest consumers of fast fashion. In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
 
+-   There are signs of young Chinese consumers valuing experiences over possessions Jiang (2023).
+
 -   Millward-Hopkins, Purnell and Baurley (2023) shows how half of the textile waste in the UK is exported to other countries.
 
 -   Story of Patagonia Chouinard (2005)

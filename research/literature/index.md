@@ -5,6 +5,7 @@ csl: ../harvard.csl
 sidebar_position: 3
 editor:
     render-on-save: false
+suppress-bibliography: true
 ---
 
 ``` mdx-code-block
@@ -41,5 +42,3 @@ The goal of the literature review is to find ideas of app features.
 ``` mdx-code-block
 <Figure caption="Select example papers from the Literature Review" src={Literature} />
 ```
-
-## References {#references}
