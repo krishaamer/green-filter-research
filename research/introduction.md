@@ -19,7 +19,18 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019). While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising. The hockey-stick rise of CO2 concentration since the industrial revolution. Data from 1958 onward in Keeling and Keeling (2017) and estimations going back 2000 years from Rubino et al. (2019).
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which a majority of countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined Fridays for Future protests around the world and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
+
+``` mdx-code-block
+<Figure
+  caption="Climate protest in Geneva on 27th September, 2019"
+  src={Geneve}
+  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
+  refTitle="Wikimedia Commons"
+/>
+```
+
+While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising. The hockey-stick rise of CO2 concentration since the industrial revolution is visible in this graph visualizing data from 1958 onward in Keeling and Keeling (2017) and estimations going back 2000 years from Rubino et al. (2019).
 
 ``` mdx-code-block
 <Figure
@@ -41,7 +52,7 @@ In January 2022, the Stockholm Resilience Centre reported that humanity had brea
 />
 ```
 
-A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe **“climate change is mostly caused by human activities”**. An even larger survey (n = 1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an **“emergency”** UNDP (2021). (**eyangeorgievGenStatisticsWhat2023?**) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe **“climate change is mostly caused by human activities”**. An even larger survey (n = 1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an **“emergency”** UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. (**eyangeorgievGenStatisticsWhat2023?**) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 | Age     | Percent |
 |---------|---------|
@@ -51,32 +62,29 @@ A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n
 
 “Climate change is an emergency” UNDP (2021).
 
-Consumer lifestyle contributes to environmental destruction. While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. According to Ellen MacArthur Foundation, Material Economics (2019)’s models 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume.
-
 The theme for Earth Day 2023 was “Invest In Our Planet” Anon. (n.d.) and it’s very apt as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The underinvestment had come down to 2.5-3.2 Trillion USD by 2022 according to The Rockefeller Foundation (2022). While a lot of money goes into greener energy, it’s not happening fast enough. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022).
 
 ## Research Relevance {#research-relevance}
 
+This research is timely in 2023 because of the convergence of five trends:
+
+| Trend                                         |
+|-----------------------------------------------|
+| Youth demand for sustainability               |
+| Intergenerational money transfer to the youth |
+| AI user interface availability                |
+| ESG instruments                               |
+| Environmental degradation                     |
+
+-   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
+-   There’s a trend of new economic thinking. The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG). Mazzucato (2018)
+-   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 -   and protecting biodiversity
 -   Underinvestment in environmental protection; market failure
 
-This research is timely in 2023 because of the convergence of five trends:
-
-| Trend                                         |     |
-|-----------------------------------------------|-----|
-| Youth demand for sustainability               |     |
-| Intergenerational money transfer to the youth |     |
-| AI user interface availability                |     |
-| ESG instruments                               |     |
-| Environmental degradation                     |     |
-
--   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
--   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG).
--   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
-
 **There’s evidence young people have money:**
 
--   In the U.S. alone, the combined annual consumer spending of Millennials and Gen-Z was over 2.5T USD in 2020 (see YPulse, 2020).
+-   In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020).
 -   Calastone (2020): Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents.
 
 **Mainstream technology penetration worldwide**
@@ -101,15 +109,6 @@ What would be a good interface to track sustainability?
 
 -   I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imaginary future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already integral part of our lives; this thesis proposal was partially written using Google’s and Apple’s Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
 
-``` mdx-code-block
-<Figure
-  caption="Climate protest in Geneva on 27th September, 2019"
-  src={Geneve}
-  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
-  refTitle="Wikimedia Commons"
-/>
-```
-
 -   As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction algorithms translate pinyin to 漢字. Even when we don’t realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO2, and investing in more eco-friendly businesses doesn’t sound so much of a stretch.
 
 ``` mdx-code-block
@@ -119,8 +118,9 @@ What would be a good interface to track sustainability?
 />
 ```
 
--   Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together solve climate change, curb deforestation, support mobility and green buildings, etc?
+## Research Motivation {#research-motivation}
 
+-   Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together solve climate change, curb deforestation, support mobility and green buildings, etc?
 -   One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
 
 For the average person, our experience is limited with buying things at the supermarket. Food, clothes, furniture, soap, mobile phone.
@@ -128,9 +128,6 @@ For the average person, our experience is limited with buying things at the supe
 -   Green Supermarket
 -   Green Savings
 -   Green Investing
-
-## Research Motivation {#research-motivation}
-
 -   First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
 -   According to a Calastone (2020) study surveying 3000 Millennial people between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
 -   Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
@@ -191,5 +188,3 @@ Survey respondents:
 | 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students’ financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? | Literature Review + Expert Interviews          |
 
 Table of research questions.
-
-## References {#references}

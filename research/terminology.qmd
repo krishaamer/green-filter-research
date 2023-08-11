@@ -17,6 +17,8 @@ editor:
 
 -   UI - User interface, such as in a mobile app, however increasingly audio, video, etc
 
+-   XAI - AI user experience, interaction design applied to AI concerned with how does a person or a group of people interact with the AI
+
 -   Fintech - Financial technology, the application of technology (usually AI), to classic financial services, such as payments
 
 -   ESG - Environmental, Social, and Corporate Governance, a new set of metrics proposed by the European Union, and adopted worldwide, to assess business and financial assets
