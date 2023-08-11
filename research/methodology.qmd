@@ -16,42 +16,26 @@ import Methodology from './images/research-methodology.png'
 
 Start with expert survey, then expert interviews (because so many questions from literature review).
 
+| Group                              | Task         |     |
+|------------------------------------|--------------|-----|
+| Experts (Finance)                  | Short Survey |     |
+| Experts (Design)                   | Short Survey |     |
+| Experts (Sustainability)           | Short Survey |     |
+| Target Audience (College Students) | Long Survey  |     |
+
 ### Experts (Economy)
 
--   QUESTIONS for EXPERTS (Likert 1-10)
-    -   Consumption habits have a material impact on environmental issues
-    -   Investment decisions have a material impact on environmental issues
 -   There are planetary boundaries
 -   Where do you need sustainability advice?
 -   Growing the economy is needed
--   It's possible to grow the economy without biodiversity loss
 -   There are natural limits to the size of the economy
--   The potential growth of the economy is unlimited
 -   Where do you think consumers need the most help with?
--   How to help young people get started with investing?
--   How to assess the sustainability footprint of an asset
--   How much do you trust ESG?
--   What are some questions I should be asking but are not here?
 -   What is you could see the real price (including externalizes) next too the sales prices.
--   Targeted experts (fintech, design, eco activists):
--   Wise founders
--   Monese founders
--   Crypto founders
--   Financial companies
--   Funderbeam
--   Calastone (has an office in Taipei)
 -   What is your expected outcome of starting a business?
 -   Would create a startup if you couldn't have 10x returns?
 -   I consider sustainability when investing (Likert)
 
-### Experts (Design)
-
--   Where do you need sustainability advice?
-
 ### Experts (Sustainability)
-
--   How much do you trust ESG?
--   It's possible to grow the economy without biodiversity loss
 
 ### For College Students
 
@@ -154,27 +138,6 @@ Start with expert survey, then expert interviews (because so many questions from
 31. Do you currently own any investments?
 
 32. What kind of investments.
-
-## Product Features
-
--   Your Green Helper
-
--   Make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
-
--   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
-
-| Product Idea         | Source            |                                                                                | Prototype Link                             |
-|------------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
-| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
-| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
-| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
-| XYZ                  | Expert Interview  |                                                                                |                                            |
-| ABC                  | User Survey       |                                                                                |                                            |
-
-## Affinity Diagrams
-
--   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information[@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
 
 ## Factorial Surveys
 

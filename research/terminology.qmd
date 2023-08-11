@@ -2,7 +2,7 @@
 title: Terminology
 bibliography: [ref.bib]
 csl: harvard.csl
-sidebar_position: 8
+sidebar_position: 9
 editor:
     render-on-save: false
 ---

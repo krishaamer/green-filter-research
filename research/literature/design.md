@@ -553,6 +553,8 @@ It’s a further development of the idea of carbon labels.
 
 It’s possible to design entire industries.
 
+Across all industries, there’s a call for more transparency.
+
 Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction.
 
 -   There are many domain-specific research showing how varied industries can develop eco-designed products. For example, Duriez et al. (2022) shows how simply by reducing material weight it’s possible to design more sustainable transportation.

@@ -19,7 +19,7 @@ import Runaround from '../images/runaround.png'
 
 ## Human-AI Interaction {#human-ai-interaction}
 
-It’s been 90 years since (McCulloch and Pitts, 1943) proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing’s Test for Machine Intelligence followed in 1950. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? Turing (1950).
+90 years ago McCulloch and Pitts (1943) proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing’s Test for Machine Intelligence followed in 1950. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? (Turing, 1950).
 
 > Alan Turing: *“I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 10<sup>9</sup>, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.”* - from (Stanford Encyclopedia of Philosophy, 2021)
 
@@ -54,6 +54,8 @@ Tu et al. (2023) LLMs can be used as data analysts.
 Rogers (2022) defines the 4 phases of Pervasive Computing. (NEED access).
 
 Kobetz (2023)
+
+There’s a lot of LLM innovation happening.
 
 | AI Model   | Released | Company                         | License                       |
 |------------------|------------------|-------------------|------------------|
