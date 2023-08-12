@@ -197,6 +197,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 -   According to Debnath et al. (2022) 39% of global CO2 emissions comes from the building sector.
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   Armstrong McKay et al. (2022) discusses tipping points
+-   Low, S., Baum and Sovacool (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 #### SDGs {#sdgs}
 
@@ -455,7 +456,28 @@ Most of the world is not part of a CO2 market.
 
 ### Carbon Markets {#carbon-markets}
 
-For the individual person, there’s no direct access to CO2 markets, however there are different types of brokers.
+For the individual person, there’s no direct access to CO2 markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. “Carbon pricing is not there to punish people,” says Lion Hirth Lion Hirth (n.d.). “It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.”
+
+#### The Price of CO2 {#the-price-of-co2}
+
+Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et al. (2022): Carbon price should be 3,6x higher that it is currently. Ritz (2022) argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
+
+-   iGenius (2020)
+
+#### **Compliance** Markets {#compliance-markets}
+
+| **Compliance** Markets | Price (Tonne of CO2) |
+|------------------------|----------------------|
+| EU                     | 83 EUR               |
+| UK                     | 40 Pounds            |
+| US (California)        | 29 USD               |
+| Australia              | 32 USD               |
+| New Zealand            | 50 USD               |
+| South Korea            | 5.84 USD             |
+| China                  | 8.29 USD             |
+|                        |                      |
+
+Compliance market CO2 prices on August 12, 2023; data from (CarbonCredits, 2023; Ember, 2023; Trading Economics, 2023).
 
 #### Voluntary Carbon Markets {#voluntary-carbon-markets}
 
@@ -470,38 +492,29 @@ There are many companies which facilitate buy carbon credits as well as a few or
 -   Methodologies: Anon. (2022b)
 -   KlimaDAO (2023) call for an open standard
 
-#### The Price of CO2 {#the-price-of-co2}
+| Voluntary Markets        | Price (Tonne of CO2) |
+|--------------------------|----------------------|
+| Aviation Industry Offset | \$0.93               |
+| Nature Based Offset      | \$1.80               |
+| Tech Based Offset        | \$0.77               |
 
-Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et al. (2022): Carbon price should be 3,6x higher that it is currently (2022). Ritz (2022) argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
-
-“Carbon pricing is not there to punish people,” says Lion Hirth Lion Hirth (n.d.). “It’s there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release.”
-
--   iGenius (2020)
+Voluntary market CO2 prices on August 12, 2023; data from (CarbonCredits, 2023).
 
 #### Fossil Fuels {#fossil-fuels}
 
--   (see IEA, 2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
--   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
--   Daniel Värjö (2022): The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
--   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023c)
+Fossil fuels are what powers humanity as well as the largest source of CO2 emissions. IEA (2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”. As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO2 emissions, 40% of which were new projects Kühne et al. (2022). Tilsted et al. (2023) expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea (Anon., 2023c).
 
-Fossil Fuels and Energy
+#### Renewable Energy {#renewable-energy}
 
--   The 425 largest fossil fuel projects represent a total of over 1 gigatonne in CO2 emissions Kühne et al. (2022).
-
-There’s evidence from several countries suggesting moving to renewal energy brings environmental benefits:
+There’s ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
-
--   Low, S., Baum and Sovacool (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 -   Luo et al. (2022) suggests using reinforcement learning to reduce energy use in cooling systems.
 
 -   The true cost of products is hidden. The work is hidden.
 
 -   Montreal protocol eradicates CfCs and the ozone holes became whole again.
-
--   Tilsted et al. (2023) expects the fossil fuel industry to grow even faster.
 
 #### Emission Scopes {#emission-scopes}
 

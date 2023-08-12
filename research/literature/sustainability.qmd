@@ -195,6 +195,7 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 -   According to @debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
+-   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 #### SDGs
 
@@ -453,7 +454,28 @@ Most of the world is not part of a CO2 market.
 
 ### Carbon Markets
 
-For the individual person, there's no direct access to CO2 markets, however there are different types of brokers.
+For the individual person, there's no direct access to CO2 markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release."
+
+#### The Price of CO2
+
+@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently. @ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
+
+-   @igeniusLetTalkSustainable2020
+
+#### **Compliance** Markets
+
+| **Compliance** Markets | Price (Tonne of CO2) |
+|------------------------|----------------------|
+| EU                     | 83 EUR               |
+| UK                     | 40 Pounds            |
+| US (California)        | 29 USD               |
+| Australia              | 32 USD               |
+| New Zealand            | 50 USD               |
+| South Korea            | 5.84 USD             |
+| China                  | 8.29 USD             |
+|                        |                      |
+
+: Compliance market CO2 prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
 
 #### Voluntary Carbon Markets
 
@@ -468,38 +490,29 @@ There are many companies which facilitate buy carbon credits as well as a few or
 -   Methodologies: @MethodologyGHGCoBenefits2022
 -   @klimadaoOpenCallAlternative2023 call for an open standard
 
-#### The Price of CO2
+| Voluntary Markets        | Price (Tonne of CO2) |
+|--------------------------|----------------------|
+| Aviation Industry Offset | \$0.93               |
+| Nature Based Offset      | \$1.80               |
+| Tech Based Offset        | \$0.77               |
 
-@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently (2022). @ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
-
-"Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release."
-
--   @igeniusLetTalkSustainable2020
+: Voluntary market CO2 prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
 
 #### Fossil Fuels
 
--   [see @ieaGlobalEnergyReview2022] reports "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes"
--   @crippaCO2EmissionsAll2022 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
--   @danielvarjoNyaSatelliterAvslojar2022: The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
--   "Transport greenhouse gas emissions have increased every year since 2014" @ClimateChangeMitigation2023
+Fossil fuels are what powers humanity as well as the largest source of CO2 emissions. @ieaGlobalEnergyReview2022 reports "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO2 emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
-Fossil Fuels and Energy
+#### Renewable Energy
 
--   The 425 largest fossil fuel projects represent a total of over 1 gigatonne in CO2 emissions @kuhneCarbonBombsMapping2022.
-
-There's evidence from several countries suggesting moving to renewal energy brings environmental benefits:
+There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
-
--   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
 -   The true cost of products is hidden. The work is hidden.
 
 -   Montreal protocol eradicates CfCs and the ozone holes became whole again.
-
--   @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to grow even faster.
 
 #### Emission Scopes
 

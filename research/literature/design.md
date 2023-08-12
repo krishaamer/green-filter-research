@@ -387,6 +387,8 @@ Examples of human-in-the-loop apps
 
 Share of CO2 of CO2 emissions by type of transport (**statistaGlobalTransportCO2?**)
 
+-   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023b)
+
 Circular design is possible if supply chains become circular.
 
 -   Wagenvoort (2020) Self-driving supply chains.. (contact japanese factory?)
@@ -533,6 +535,10 @@ World Resources Institute (2020) shows the top 5 largest per capita CO2 emission
 
 Ivanova et al. (2020) shows the average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
 
+Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
+
+Daniel Värjö (2022): The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
+
 #### Carbon Labels {#carbon-labels}
 
 Adding CO2 labels for consumer products have been discussed for decades (Adam Corner (2012)). Cohen and Vandenbergh (2012) argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (Zhou, S. et al. (2019)). There is some indication consumers are willing to pay a small premium for low-CO2 products (Xu and Lin (2022)). All else being equal, consumers choose the option with a lower CO2 number (Carlsson, Kataria and Lampi (2022)). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
@@ -631,9 +637,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   imperfectidealist (2020) Fashion sustainability vs greenwashing
 
--   Anon. (2023b) Ethical Shopping
+-   Anon. (2023c) Ethical Shopping
 
--   Anon. (2023c) Ethical brand?
+-   Anon. (2023d) Ethical brand?
 
 -   Good On You (2023) Sustainable fashion company evaluations
 
@@ -685,9 +691,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Cleantech Group (2023) Global cleantech 100
 
--   Anon. (2023d) Alterations and repairs made easy
+-   Anon. (2023e) Alterations and repairs made easy
 
--   Anon. (2023e) Ethical brand ratings
+-   Anon. (2023f) Ethical brand ratings
 
 ### Food {#food}
 

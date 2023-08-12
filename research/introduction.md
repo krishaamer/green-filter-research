@@ -6,6 +6,10 @@ sidebar_position: 2
 editor:
     render-on-save: false
 suppress-bibliography: true
+CJKmainfont: STSong
+CJKoptions:
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
 ---
 
 ``` mdx-code-block
@@ -54,7 +58,7 @@ Yet CO2 emissions is not the only problem facing humanity. In January 2022, the 
 
 Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an “emergency” UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Deyan Georgiev (2023a) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
-| Age Group | Agree | Disagree or Neutral |
+| Age Group | Agree | Neutral or Disagree |
 |-----------|-------|---------------------|
 | 18-35     | 65%   | 35%                 |
 | 36-59     | 66%   | 34%                 |
@@ -62,45 +66,43 @@ Consumer lifestyle contributes to environmental destruction. According to Ellen 
 
 “Climate change is an emergency” UNDP (2021).
 
-The theme for Earth Day 2023 was “Invest In Our Planet” Anon. (n.d.) and it’s very apt indeed as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). And according to The Rockefeller Foundation (2022) a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there’s still a lack of investing, and it’s not happening fast enough. “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023).
+The theme for this year’s Earth Day was *“Invest In Our Planet”* Earth Day (2023) and it’s very apt as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). And according to The Rockefeller Foundation (2022) a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there’s still a lack of investing, and it’s not happening fast enough. The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023).
 
-| Some High-Value Assets                                                                    | Value                    |
-|-----------------------------------------------|-------------------------|
-| Global Real Estate (2020, valuation)                                                      | 326 Trillion USD         |
-| Global Equity Markets (2023, valuation)                                                   | 108 Trillion USD         |
-| Global GDP (2023, per year)                                                               | 105 Trillion USD         |
-| Global GDP (2022, per year)                                                               | 100 Trillion USD         |
-| **Global Pension Funds (2023, valuation)**                                                | **47.9 Trillion USD**    |
-| U.S. Equity Markets (2023, valuation)                                                     | 46.2 Trillion USD        |
-| U.S. National Debt (2023, valuation)                                                      | 32.6 Trillion USD        |
-| **Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)** | **30 Trillion USD**      |
-| Global Retail Sales of Goods and Services to Consumers (2023, per year)                   | 28.2 Trillion USD        |
-| GDP of USA (2023, per year)                                                               | 26.8 Trillion USD        |
-| GDP of China (2023, per year)                                                             | 19.3 Trillion USD        |
-| Global Private Market Assets (2023, per year)                                             | 11.7 Trillion USD        |
-| Global E-Commerce Sales (2021, per year)                                                  | 5.2 Trillion USD         |
-| Global Real Estate Sales (2021, per year)                                                 | 3.7 Trillion USD         |
-| Industrial & Commercial Bank of China (2019, total assets)                                | 4 Trillion USD           |
-| **Missing Climate Invesment (2020, total)**                                               | **2.5-5.2 Trillion USD** |
-| Apple Computers (2023, market value)                                                      | 3 Trillion USD           |
-| GDP of Japan (2023, per year)                                                             | 4.5 Trillion USD         |
-| GDP of Germany (2023, per year)                                                           | 4.3 Trillion USD         |
-| GDP of India (2023, per year)                                                             | 3.7 Trillion USD         |
-| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                             | 2.5 Trillion USD         |
-| **Retail Investors (2023, liquid assets)**                                                | **1.8 Trillion USD**     |
-| Blackstone (2023, total assets)                                                           | 1 Trillion USD           |
-| NVIDIA 英偉達 (2023, market value)                                                        | .9 Trillion USD          |
-| GDP of Taiwan (2023, per year)                                                            | .8 Trillion USD          |
-| Bitcoin (2023, market cap)                                                                | .5 Trillion USD          |
-| GDP of Finland (2023)                                                                     | .3 Trillion USD          |
-| Ethereum (2023, market cap)                                                               | .2 Trillion USD          |
-| GDP of Estonia (2023, per year)                                                           | .04 Trillion USD         |
+| High-Value Assets (Trillions of USD)                                                    |           |
+|---------------------------------------------|---------------------------|
+| Global Real Estate (2020, valuation)                                                    | \$326T    |
+| Global Equity Markets (2023, valuation)                                                 | \$108T    |
+| Global GDP (2023, per year)                                                             | \$105T    |
+| Global GDP (2022, per year)                                                             | \$100T    |
+| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T* |
+| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T   |
+| U.S. National Debt (2023, valuation)                                                    | \$32.6T   |
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*   |
+| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T   |
+| GDP of U.S.A. (2023, per year)                                                          | \$26.8T   |
+| GDP of China (2023, per year)                                                           | \$19.3T   |
+| Global Private Market Assets (2023, per year)                                           | \$11.7T   |
+| Global E-Commerce Sales (2021, per year)                                                | \$5.2T    |
+| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*  |
+| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T      |
+| Global Real Estate Sales (2021, per year)                                               | 3.7T      |
+| Apple Computers (2023, market value)                                                    | \$3T      |
+| GDP of Japan (2023, per year)                                                           | \$4.5T    |
+| GDP of Germany (2023, per year)                                                         | \$4.3T    |
+| GDP of India (2023, per year)                                                           | \$3.7T    |
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T    |
+| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*  |
+| Blackstone (2023, total assets)                                                         | \$1T      |
+| NVIDIA 英偉達 (2023, market value)                                                      | \$0.9T    |
+| GDP of Taiwan (2023, per year)                                                          | \$0.8T    |
+| Bitcoin (2023, market cap)                                                              | \$0.5T    |
+| GDP of Finland (2023)                                                                   | \$0.3T    |
+| Ethereum (2023, market cap)                                                             | \$0.2T    |
+| GDP of Estonia (2023, per year)                                                         | \$0.04T   |
 
-Comparative data on needed climate investment and other valuable assets (S&P Global, 2019; Grand View Research, 2021; Aaron O’Neill, 2023; Fox, 2023; International Monetary Fund, 2023; McKinsey & Company, 2023; Oguh and Oguh, 2023; Rao, 2023; SIFMA, 2023; Statista, 2023b, n.d.; Stephanie Aaronson and Aaron Tilley, 2023; Thinking Ahead Institute and Willis Towers Watson, 2023; 2023, n.d.; Anon., Sat, 12 Aug 2023 16:16:50 GMT; Blockworks, Sat, 12 Aug 2023 16:18:43 GMT)
+Comparative data on needed climate investment and other valuable assets; all figures in trillions of USD Stephanie Aaronson and Aaron Tilley (2023)
 
 However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % of the global GDP, if we compare it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 (Aaron O’Neill, 2023; International Monetary Fund, 2023). In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
-
-As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing Institute (2023). The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022).
 
 ### Defining the Problem Space {#defining-the-problem-space}
 
@@ -125,14 +127,19 @@ Current trends backing the relevance of this research project.
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 -   and protecting biodiversity
--   Underinvestment in environmental protection; market failure
 
-**There’s evidence young people have money:**
+**There’s evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents (Calastone, 2020).
 
--   In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020).
--   Calastone (2020): Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents.
--   There’s some data on investment interest.s According to a Calastone (2020) study surveying 3000 people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks or shares) in comparison with just 10% in France.
+-   There’s some evidence on investment interest, however there’s large geographic variance. According to a Calastone (2020) study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 -   Credit Suisse (2022) Young consumers drive speed of eco change?
+
+| Place     | Percentage |
+|-----------|------------|
+| Hong Kong | 48%        |
+| France    | 10%        |
+|           |            |
+
+Millenial Investors (Calastone, 2020).
 
 **Mainstream technology penetration worldwide**
 
@@ -211,8 +218,6 @@ This is largely due to the production and manufacturing processes of the compani
 -   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
 
 -   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
-
--   User survey with potential users, defined as living in Taiwan, in the age range between 18 and 35.
 
 -   Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
 
