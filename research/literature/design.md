@@ -144,6 +144,8 @@ Use technology Wearables to be more aware of one’s health.
 
 What is the UI/UX of the green transformation?
 
+McKeough (2018) business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
+
 There’s a number of user interface design patterns that have provide successful across a range of social media apps. Such ***user experience / user interface*** (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
 
 | Feature   | Examples                           |     |
@@ -297,6 +299,7 @@ Some notable examples:
 -   Nilsson et al. (2016) “The road to acceptance: Attitude change before and after the implementation of a congestion tax” **(Need access!)**
 -   Berger, M., Lange and Stahl (2022) **(Need access!)**
 -   Anon. (2022c)
+-   United Nations Conference on Trade and Development (last) (2023)
 -   Climatiq (2023) Automate GHG emission calculations
 -   EarthCheck (2023) sustainable tourism certification
 -   LFCA (2023) corporate climate action
@@ -307,7 +310,7 @@ Some notable examples:
 
 -   Wirani, Nabarian and Romadhon (2022) students in Indonesia enjoy using Kahoot and it’s gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it.
 -   Anon. (n.d.g) game company going green
--   Ant Forest (螞蟻森林) is a success story of gamified nature protection.
+-   Ant Forest (螞蟻森林) is a success story of gamified nature protection. Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
 -   Gamification makes uses of nudges.
 
 | Year | Users       | Trees       | Area                                 |
@@ -369,7 +372,7 @@ Examples of human-in-the-loop apps
 
 -   Finkenstadt and Handfield (2021) COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
--   Wang, Y. et al. (2022) Freight accounts for 1.14 gigatons of CO₂ emissions as per 2015 data or 16% of total international supply chain emissions.
+-   Wang, Y. et al. (2022) Freight accounts for 1.14 gigatons of CO2 emissions as per 2015 data or 16% of total international supply chain emissions.
 
 | Type of Transport           | Percentage |
 |-----------------------------|------------|
@@ -382,7 +385,7 @@ Examples of human-in-the-loop apps
 | Two/three-wheelers          | 3%         |
 | Rail                        | 3%         |
 
-Share of CO2 of CO₂ emissions by type of transport (**statistaGlobalTransportCO2?**)
+Share of CO2 of CO2 emissions by type of transport (**statistaGlobalTransportCO2?**)
 
 Circular design is possible if supply chains become circular.
 

@@ -17,27 +17,31 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 
-## Regenerative Capitalism {#regenerative-capitalism}
+## New Economics {#new-economics}
 
-TODO New Economics propose all sorts of new ideas, Donut Economy, Degrowth, Re The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. Amabile and Kramer (2011)
+-   
+-   There’s a trend of new economic thinking. There’s a series of authors under the “New Economics” banner, blue economics, Regenerative Capitalism, doughnut economics. There are many suggestions for upgrading capitalism. There’s no lack of books on changing capitalism. New Economics propose all sorts of new ideas, Donut Economy, Degrowth, Re The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. Amabile and Kramer (2011)
+-   The creator of the GDP metric Simon Kuznets himself said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what.”
 
-There are many suggestions for upgrading capitalism.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-There’s no lack of books on changing capitalism.
+-   Trucost and TEEB for Business Coalition (2023) finds the value of unpriced externalities (natural resources) is 7.3 trillion USD per annum.
+-   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG). Mazzucato (2018)
+-   
+-   Regenerative Capitalism
+-   Anon. (2023a) “The quality of growth matters”. John Fullerton (2011): John Fullerton: Balance efficiency with resiliency so the whole system doesn’t become brittle and break. John Fullerton (2022): “human civilization is embedded in the biosphere”. Fullerton builds on the ideas of Club of Rome and Meadows, Club of Rome and Associates (1974).
 
 Externalities need to be priced in.
 
 metrics and goals: ESG, SDGs,
 
-There’s a series of authors under the “New Economics” banner, blue economics, Regenerative Capitalism, donut economics.
-
 -   Is economic growth the wrong goal: Diduch (2020)
 
--   Celo’s protocol invests in carbon credits on the protocl level: Anon. (2021a)
+-   Celo’s protocol invests in carbon credits on the protocol level: Anon. (2021a)
 
 -   https://www.openesg.com/ because you can’t trust ESG Aikman (2022)
 
--   Horwitz (2017) critics would say donut economics would expand the role of the government
+-   Horwitz (2017) critics would say doughnut economics would expand the role of the government
 
 -   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics World Bank (2021)
 
@@ -61,8 +65,6 @@ There’s a series of authors under the “New Economics” banner, blue economi
 
 -   Bardi and Alvarez Pereira (2022)
 
--   Fullerton builds on the ideas of Club of Rome and Meadows, Club of Rome and Associates (1974)
-
 -   Global Alliance for Banking on Values
 
 -   CIRCL (2021)
@@ -74,8 +76,6 @@ There’s a series of authors under the “New Economics” banner, blue economi
 -   Triodos Bank
 
 -   Elkington (2020)
-
--   John Fullerton (2022): “human civilization is embedded in the biosphere”
 
 -   Stockholm Resilience Centre TV (2017)
 
@@ -90,27 +90,15 @@ There’s a series of authors under the “New Economics” banner, blue economi
 -   Prosperity Without Growth book
 -   Capital misallocation
 -   Securitization
--   John Fullerton (2011): John Fullerton: Balance effiency with resliency so the whole system doesn’t become brittle and break.
--   Simon Kuznets: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what.”
 -   **Kate Raworth**
 -   Jackson, T. (2017)
 -   Bradshaw et al. (2021)
 
 ### Sustainable Finance {#sustainable-finance}
 
-In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emissions in world history, following a steady annual increase (Statista, 2023). Removal of 5-20 gigatonnes of CO₂ per year would be needed to limit global warming to 1.5 °C according to the reduction pathways calculated by the IPCC (Wade et al., 2023). Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) were heading for 2.7 °C of warming (CDP, 2022).
-
--   Even with massive financing going into sustainability, there’s still a lack of investing. The United Nations Environment Programme (UNEP) calculates the world needs an additional \$4.1 trillion of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023a).
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   Money connects all industries. People want to shop, save, invest sustainably - how to do it?
 
 -   Anon. (n.d.a) Taxonomy of sustainable activities in the UK
-
--   
-
--   Trucost and TEEB for Business Coalition (2023) finds unpriced externalities (natural resources) 7.3 trillion USD per annum.
 
 -   Nerdwallet’s Tommy Tindall (2023) suggests making financial commitments instead of resolutions.
 
@@ -118,17 +106,7 @@ In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emis
 
 -   As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently “good” for one’s life, in the same way, that doing sports is good, or eating healthy is good. It’s one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?
 
--   
-
--   The monumental task of removing several gigatonnes of CO₂ from the atmosphere requires massive policy shifts and collaboration accross industries Mackler, Fishman and Broberg (2021)
-
--   
-
--   
-
 -   Anon. (2023b)
-
--   In 2022 the Global Gross Domestic Product (GDP) was estimated at around 100 Trillion USD Aaron O’Neill (n.d.).
 
 -   EU releases strategic foresight reports since 2020 European Commission (2023)
 
@@ -150,7 +128,7 @@ In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emis
 
 -   Sally Parker (2022)
 
--   “The sustainable market for Fast Moving Consumer Goods is \$2.5T, that includes an untapped market opportunity worth \$1T. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
+-   “The sustainable market for Fast Moving Consumer Goods is 2.5 Trillion USD, that includes an untapped market opportunity worth 1 Trillion USD. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
 
 -   Anon. (n.d.b) **Ban polluting products campaign success story, EU shops can’t sell deforestation products**
 
@@ -208,7 +186,6 @@ In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emis
 
 -   Kristian Steensen Nielsen (2022) **Individual climate action!!!**
 -   **Give Gen-Z the tools to turn climate anger into positive change to transform companies**
--   Cherry and Sneirson (2010) in Lavers, Bond and Rolsky (2022) suggests “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum”
 -   Echeverría, Gimenez-Nadal and Molina (2022) suggests greener modes of mobility.
 
 ### Indexes {#indexes}
@@ -268,20 +245,25 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 ### Product Databases {#product-databases}
 
--   Most sustainable companies. Make a database?
--   International Trade Centre (2022) currently lists 334 different sustainability standards: “Towards a meaningful economy” “The world’s largest database for sustainability standards”, “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics.”
--   Anon. (n.d.i)
--   Anon. (n.d.j) app for nutrition and sustainability data
--   Anon. (n.d.k): Open Knowledge Foundation’s Open Product Data website shut down
+All of the world’s products are subject to one or another standard and although they are not uniform, there’s some documentation existing about every product.
+
+-   Anon. (n.d.i): Open Knowledge Foundation’s Open Product Data website shut down
 -   Håkon Bogen (2016): “Is there a global database of all products with EAN 13 barcodes?”
 -   GS1 (n.d.) EAN/UPC barcodes on most consumer products
 -   Semantics3 (2017)
 -   World product database
-    -   Anon. (n.d.l): “open product database”
+    -   Anon. (n.d.j): “open product database”
 
-    -   Anon. (n.d.m) green tech database
+    -   Anon. (n.d.k) green tech database
 
-    -   Anon. (n.d.n) packaging database
+    -   Anon. (n.d.l) packaging database
+
+### Sustainability Standards {#sustainability-standards}
+
+-   Most sustainable companies. Make a database?
+-   International Trade Centre (2022) currently lists 334 different sustainability standards: “Towards a meaningful economy” “The world’s largest database for sustainability standards”, “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics.”
+-   Anon. (n.d.m)
+-   Anon. (n.d.n) app for nutrition and sustainability data
 
 ### Consumer Activism {#consumer-activism}
 
@@ -299,19 +281,11 @@ Conscious consumers make up a small part of the entire consumer public.
 
 -   Helen Saarmets (2021) Tarbimise jalajälg poes
 
--   Credit Suisse (2022) Young consumers drive speed of eco change?
-
 -   Hester M. Peirce (2022): “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.”
 
 -   Building customer loyalty is a key part of repeat business and financial predictability. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back.
 
--   McKeough (2018) business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
-
 -   Green Finance Platform (2020) report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty.
-
--   Hoikkala (2019): meanwhile the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
-
--   Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
 
 -   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user’s way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
 
@@ -331,12 +305,11 @@ Conscious consumers make up a small part of the entire consumer public.
 
 -   Helen Saarmets (2021) Tarbimise jalajälg poes
 
--   Credit Suisse (2022) Young consumers drive speed of eco change?
-
 -   Hester M. Peirce (2022): “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards.”
 
 ### Programmable Money {#programmable-money}
 
+-   Volatile national currencies lead people to find other assets to hold.
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 -   Anon. (n.d.p) estimates over 600 million cryptocurrency users worldwide
 -   Raido Tõnisson (2022a) Estonian bank selling Metaverse cryptocurrency Sandbox

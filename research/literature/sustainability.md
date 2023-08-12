@@ -56,7 +56,7 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 How are large corporations responding to the climate crisis?
 
-Lack of leadership. Capgemini (2022): “Many business leaders see sustainability as costly obligation rather than investment in the future”.
+Lack of leadership. Capgemini (2022): “Many business leaders see sustainability as costly obligation rather than investment in the future”. Hoikkala (2019): for example the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
 
 Many large businesses have tried to find solutions by launching climate-focused funding. (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted as saying in (Clifford, 2022). Walmart is taking a similar approach, having launched a project in 2017 to set CO2 reduction targets in collaboration with its suppliers Walmart (2023). These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
@@ -225,8 +225,6 @@ Daily human activities emission contribution on average in France, Germany, Norw
 -   Oliver et al. (2022)
 
 -   Doughnut (donut) economics “We need a dashboard of indicators” - TED (2018).
-
--   Anon. (2023b) “The quality of growth matters”
 
 -   GreensEFA (2023) we should measure wellbeing in addition to GDP!! We need resilency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports.
 
@@ -412,7 +410,7 @@ Large ones that get international news coverage:
 ### Digital Twins {#digital-twins}
 
 -   We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
--   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth’s various systems such as climate, hydrology, ecology, etc, into a single model Hoffmann et al. (2023) and Anon. (2023c).
+-   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth’s various systems such as climate, hydrology, ecology, etc, into a single model Hoffmann et al. (2023) and Anon. (2023b).
 
 ## Mitigation & Adaption {#mitigation-adaption}
 
@@ -485,9 +483,11 @@ Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et 
 -   (see IEA, 2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
 -   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
 -   Daniel Värjö (2022): The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
--   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023d)
+-   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023c)
 
 Fossil Fuels and Energy
+
+-   The 425 largest fossil fuel projects represent a total of over 1 gigatonne in CO2 emissions Kühne et al. (2022).
 
 There’s evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
@@ -507,13 +507,15 @@ There’s evidence from several countries suggesting moving to renewal energy br
 
 The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes (National Public Utilities Council, 2022). For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain Goodwin et al. (2023).
 
-| Emission Scope | Source                         |
+| Emission Scope | Emission Source                |
 |----------------|--------------------------------|
 | Scope 1        | Direct emissions               |
 | Scope 2        | Indirect electricity emissions |
 | Scope 3        | Value chain emissions          |
 
 From National Public Utilities Council (2022).
+
+One’s scope 3 emissions are someone else’s scope 1 emissions.
 
 -   Mapping pollution sources in China Xie et al. (2021)
 
@@ -656,7 +658,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   Anon. (n.d.c) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
 
--   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023e) and is facing a backlash David Pinto (2023).
+-   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023d) and is facing a backlash David Pinto (2023).
 
 -   Manzardo et al. (2021) **(need access!)**
 

@@ -54,9 +54,9 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 How are large corporations responding to the climate crisis?
 
-Lack of leadership. @capgeminiWorldBalanceWhy2022: "Many business leaders see sustainability as costly obligation rather than investment in the future".
+Lack of leadership. @capgeminiWorldBalanceWhy2022: "Many business leaders see sustainability as costly obligation rather than investment in the future". @hoikkalaCEOSeesTerrible2019: for example the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
 
-Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO2 reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings. 
+Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO2 reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
 @greensefaNatureVoteSuccess2023 large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business.
 
@@ -224,8 +224,6 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 
 -   Doughnut (donut) economics "We need a dashboard of indicators" - @tedHealthyEconomyShould2018.
 
--   @RegenerativeCapitalismNew2023 "The quality of growth matters"
-
 -   @greensefaBeyondGrowthChangingGoal2023 we should measure wellbeing in addition to GDP!! We need resilency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports.
 
 -   Donut quantified @luukkanenQuantificationDoughnutEconomy2021
@@ -303,7 +301,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -337,7 +335,7 @@ Deforestation is widespread all around the world.
 
 #### Air
 
-Air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year @worldhealthorganizationAmbientOutdoorAir2022. Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health and economic benefits across the board from air pollution reduction in France. In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the Chinese University of Hong Kong: "We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons". 
+Air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year @worldhealthorganizationAmbientOutdoorAir2022. Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health and economic benefits across the board from air pollution reduction in France. In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the Chinese University of Hong Kong: "We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons".
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", "All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health" [@sarahludwigrauschSustainabilityYourHealth2021].
 
@@ -487,6 +485,8 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 Fossil Fuels and Energy
 
+-   The 425 largest fossil fuel projects represent a total of over 1 gigatonne in CO2 emissions @kuhneCarbonBombsMapping2022.
+
 There's evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
@@ -505,13 +505,15 @@ There's evidence from several countries suggesting moving to renewal energy brin
 
 The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
 
-| Emission Scope | Source                         |
+| Emission Scope | Emission Source                |
 |----------------|--------------------------------|
 | Scope 1        | Direct emissions               |
 | Scope 2        | Indirect electricity emissions |
 | Scope 3        | Value chain emissions          |
 
 : From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022.
+
+One's scope 3 emissions are someone else's scope 1 emissions.
 
 -   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
