@@ -20,6 +20,10 @@ Humans have a long list of cognitive biases, which a good design should take int
 
 There is extensive research on the attitudes of U.S. college students towards climate change. American Press Institute (2022) reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. Schwartz et al. (2022) reports some adult US students in a small study (18-35, N = 284) express feelings of insignificance of their actions to achieve any meaningful impact. Thomaes et al. (2023) reports U.S. adolescents don’t find sustainability relevant to their daily life. Ross et al. (2016) says most people in the U.S. don’t act on climate change. “Action on climate change has been compromised by uncertainty, aspects of human psychology”.
 
+Credit Suisse (2022) suggests young consumers are more eco-friendly and drive the speed of change.
+
+-   98% of Gen-Z owns smartphone in comparison to 80% of the general world population (Global Web Index, 2017; BankMyCell, 2022).
+
 The above studies give foundation for creating a persona of a U.S. College Student who doesn’t follow environmental news and thinks climate action doesn’t make a difference. This doesn’t necessarily mean this group of people with similar ideas would deny climate change is happening. Rather “Climate Denier” could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
 
 | Description           | Name  | Beliefs                       |
