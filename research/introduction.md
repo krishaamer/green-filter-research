@@ -104,13 +104,6 @@ Comparative data on needed climate investment and other valuable assets; all fig
 
 However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % of the global GDP, if we compare it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 (Aaron O’Neill, 2023; International Monetary Fund, 2023). In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
 
-### Defining the Problem Space {#defining-the-problem-space}
-
-Does individual climate action help?
-
--   “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Lavers, Bond and Rolsky (2022).
--   Individual efforts are too small to matter unless they’re inspired by Community a effort
-
 ## Research Relevance {#research-relevance}
 
 This research is timely in 2023 because of the convergence of five trends:
@@ -138,6 +131,14 @@ Current trends backing the relevance of this research project.
 |           |            |
 
 Millenial Investors (Calastone, 2020).
+
+### Defining the Problem Space {#defining-the-problem-space}
+
+Does individual climate action help?
+
+-   <u>Gen-Z college students (target users) may not have the capital to make a financial dent today however they can be early adopter and they will be the decision-makers in a few years.</u>
+-   “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Lavers, Bond and Rolsky (2022).
+-   Individual efforts are too small to matter unless they’re inspired by Community a effort
 
 **Mainstream technology penetration worldwide**
 
