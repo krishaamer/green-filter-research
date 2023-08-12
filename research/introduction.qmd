@@ -18,7 +18,7 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
-import CO2 from "./images/CO2-concentration.png";
+import CO2 from "./images/co2-concentration.png";
 ```
 # Introduction
 
@@ -39,7 +39,7 @@ In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increas
 While awareness of Earth's operating systems is growing, the CO2 emissions keep rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward in @keelingAtmosphericMonthlySitu2017 and includes estimations going back 2000 years from @rubinoLawDomeIce2019. In 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in world history, following a steady annual increase [@statistaAnnualCO2Emissions2023]. Removal of 5-20 gigatonnes of CO2 per year would be needed to limit global warming to 1.5 °C according to the reduction pathways calculated by the IPCC [@wadeMoisturedrivenCO2Pump2023]. Yet, we're missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) to take one example, were heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatonnes of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO2 Concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/CO2-concentration.png)
+![CO2 Concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
 :::
 
 ```{=mdx}
@@ -117,6 +117,7 @@ However, the needed investment doesn't seem so large, coming in at 2.5-5.2 % of 
 Does individual climate action help?
 
 -   "Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the"carbon footprint", championed in a 2004 advertising campaign by British Petroleum" [@cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022].
+-   Individual efforts are too small to matter unless they're inspired by Community a effort
 
 ## Research Relevance
 
@@ -136,10 +137,7 @@ This research is timely in 2023 because of the convergence of five trends:
 -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 -   and protecting biodiversity
 
-**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents [@calastoneMillennialsInvestingDetailed2020].
-
--   There's some evidence on investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
--   @creditsuisseYoungConsumersMay2022 Young consumers drive speed of eco change?
+**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
 | Place     | Percentage |
 |-----------|------------|
@@ -150,8 +148,6 @@ This research is timely in 2023 because of the convergence of five trends:
 : Millenial Investors [@calastoneMillennialsInvestingDetailed2020].
 
 **Mainstream technology penetration worldwide**
-
--   80% of world population has a smartphone according to @bankmycellHowManyPeople2022 while 98% of Gen-Z owns smartphone @globalwebindex98GenOwn2017
 
 -   The latest IPCC report @calvinIPCC2023Climate2023
 
@@ -181,9 +177,7 @@ As a foreigner living in Taiwan, I've relied extensively on Google Maps' AI assi
 
 -   Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 
-    Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data.
-
-    This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
+    Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
 
     What would be a good interface to track sustainability?
 
@@ -221,36 +215,39 @@ This is largely due to the production and manufacturing processes of the compani
 
 -   in their sustainability report every company looks perfect
 
--   Individual efforts are too small to matter unless they're inspired by Community a effort
+-   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
 
-## Research Demographics
+-   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
 
 -   @brankavuletaGenerationStatistics2023
 
 -   @deyangeorgiev39SmartphoneStatistics2023
 
--   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
+## Research Demographics
 
--   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
+My research targets potential respondents according to the following criteria.
 
--   Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
-
-Survey respondents:
-
-| Key        | Value            |
+| Criteria   |                  |
 |------------|------------------|
 | Location   | Taiwan           |
 | Population | College Students |
 
+Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
+
+| Criteria   |         |
+|------------|---------|
+| Location   | Global  |
+| Population | Experts |
+
 ## Research Questions
 
--   My research aims to explore the following 3 research questions. How can college students support extended producer responsibility?
+My research aims to explore the following research questions.
 
-| №   | Question                                                                                                                                                                                                                                                                                   | Methods                                        |
+| №   | Question                                                                                                                                                                                                                                                                                                                                                      | Methods                                        |
 |------------------|-------------------------------|-----------------------|
-| 1   | How is AI becoming an integral part of daily human interactions and experiences? How can college students trust AI?                                                                                                                                                                        | Literature Review + Expert Interviews          |
-| 2   | How might AI assist college students in finding trustworthy regenerative shopping, saving, and investing opportunities?                                                                                                                                                                    | Literature Review + Expert Interviews + Survey |
-| 3   | What AI assistant features might college students rate as the highest priority? How would college students like to interact with AI? What role would college students like the AI to take?                                                                                                 | Survey + Prototype Testing with Focus Group    |
-| 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students' financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? | Literature Review + Expert Interviews          |
+| 1   | How is AI becoming an integral part of daily human interactions and experiences?                                                                                                                                                                                                                                                                              | Literature Review + Expert Interviews          |
+| 2   | How might AI assistants help college students find trustworthy regenerative shopping, saving, and investing opportunities? How can college students trust AI?                                                                                                                                                                                                 | Literature Review + Expert Interviews + Survey |
+| 3   | What AI assistant features might college students rate as the highest priority? How would college students like to interact with AI? What role would college students like the AI to take?                                                                                                                                                                    | Survey + Prototype Testing with Focus Group    |
+| 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students' financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? How can college students support extended producer responsibility? | Literature Review + Expert Interviews          |
 
-: Table of the 4 research questions.
+: Table of the research questions.

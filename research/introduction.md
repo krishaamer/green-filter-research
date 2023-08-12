@@ -18,7 +18,7 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Geneve from "./images/geneve.jpg";
 import Boundaries from "./images/boundaries.png";
-import CO2 from "./images/CO2-concentration.png";
+import CO2 from "./images/co2-concentration.png";
 ```
 
 # Introduction {#introduction}
@@ -109,6 +109,7 @@ However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % o
 Does individual climate action help?
 
 -   “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Lavers, Bond and Rolsky (2022).
+-   Individual efforts are too small to matter unless they’re inspired by Community a effort
 
 ## Research Relevance {#research-relevance}
 
@@ -128,10 +129,7 @@ Current trends backing the relevance of this research project.
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 -   and protecting biodiversity
 
-**There’s evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents (Calastone, 2020).
-
--   There’s some evidence on investment interest, however there’s large geographic variance. According to a Calastone (2020) study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
--   Credit Suisse (2022) Young consumers drive speed of eco change?
+**There’s evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents (Calastone, 2020). There’s also some evidence of investment interest, however there’s large geographic variance. According to a Calastone (2020) study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
 | Place     | Percentage |
 |-----------|------------|
@@ -142,8 +140,6 @@ Current trends backing the relevance of this research project.
 Millenial Investors (Calastone, 2020).
 
 **Mainstream technology penetration worldwide**
-
--   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Gen-Z owns smartphone Global Web Index (2017)
 
 -   The latest IPCC report Calvin et al. (2023)
 
@@ -170,9 +166,7 @@ As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI 
 
 -   Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 
-    Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data.
-
-    This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
+    Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
 
     What would be a good interface to track sustainability?
 
@@ -207,36 +201,39 @@ This is largely due to the production and manufacturing processes of the compani
 
 -   in their sustainability report every company looks perfect
 
--   Individual efforts are too small to matter unless they’re inspired by Community a effort
+-   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
 
-## Research Demographics {#research-demographics}
+-   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
 
 -   Branka Vuleta (2023)
 
 -   Deyan Georgiev (2023b)
 
--   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
+## Research Demographics {#research-demographics}
 
--   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
+My research targets potential respondents according to the following criteria.
 
--   Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
-
-Survey respondents:
-
-| Key        | Value            |
+| Criteria   |                  |
 |------------|------------------|
 | Location   | Taiwan           |
 | Population | College Students |
 
+Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
+
+| Criteria   |         |
+|------------|---------|
+| Location   | Global  |
+| Population | Experts |
+
 ## Research Questions {#research-questions}
 
--   My research aims to explore the following 3 research questions. How can college students support extended producer responsibility?
+My research aims to explore the following research questions.
 
-| №   | Question                                                                                                                                                                                                                                                                                   | Methods                                        |
+| №   | Question                                                                                                                                                                                                                                                                                                                                                      | Methods                                        |
 |-------------------|-------------------------------|-----------------------|
-| 1   | How is AI becoming an integral part of daily human interactions and experiences? How can college students trust AI?                                                                                                                                                                        | Literature Review + Expert Interviews          |
-| 2   | How might AI assist college students in finding trustworthy regenerative shopping, saving, and investing opportunities?                                                                                                                                                                    | Literature Review + Expert Interviews + Survey |
-| 3   | What AI assistant features might college students rate as the highest priority? How would college students like to interact with AI? What role would college students like the AI to take?                                                                                                 | Survey + Prototype Testing with Focus Group    |
-| 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students’ financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? | Literature Review + Expert Interviews          |
+| 1   | How is AI becoming an integral part of daily human interactions and experiences?                                                                                                                                                                                                                                                                              | Literature Review + Expert Interviews          |
+| 2   | How might AI assistants help college students find trustworthy regenerative shopping, saving, and investing opportunities? How can college students trust AI?                                                                                                                                                                                                 | Literature Review + Expert Interviews + Survey |
+| 3   | What AI assistant features might college students rate as the highest priority? How would college students like to interact with AI? What role would college students like the AI to take?                                                                                                                                                                    | Survey + Prototype Testing with Focus Group    |
+| 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students’ financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? How can college students support extended producer responsibility? | Literature Review + Expert Interviews          |
 
-Table of the 4 research questions.
+Table of the research questions.
