@@ -12,7 +12,7 @@ suppress-bibliography: true
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -157,6 +157,8 @@ There’s a number of user interface design patterns that have provide successfu
 Common Social Media UI Parts
 
 There are also more philosophical approaches to ***Interface Studies:*** David Hoang (2022), the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***. “An art study is any action done with the intention of learning about the subject you want to draw”. As a former art student, Hoang looks at an interface as *“a piece of design is an artwork with function”*.
+
+Indeed, art can be a way to see new paths forward, practicing “fictioning” to deal with problematic legacies: Anon. (2023a)
 
 ### Personal Carbon Trackers {#personal-carbon-trackers}
 
@@ -356,7 +358,6 @@ Examples of human-in-the-loop apps
 -   Waters (2015) **(Need access!)**
 -   Cawthorn and Hoffman (2016) **(Need access!)**
 -   Gamborg and Jensen (2017) **(Need access!)**
--   Bailey and Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 -   Neethirajan and Kemp (2021) using biometric sensors to track livestock sustainability.
 -   Ray (2023) comprehensive overview of Web3.
 -   Rehash: A Web3 Podcast (2022) human-centered web3
@@ -368,11 +369,28 @@ Examples of human-in-the-loop apps
 
 -   Finkenstadt and Handfield (2021) COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
+-   Wang, Y. et al. (2022) Freight accounts for 1.14 gigatons of CO₂ emissions as per 2015 data or 16% of total international supply chain emissions.
+
+| Type of Transport           | Percentage |
+|-----------------------------|------------|
+| Passenger cars              | 39%        |
+| **Medium and heavy trucks** | 23%        |
+| **Shipping**                | 11%        |
+| **Aviation**                | 9%         |
+| Buses and minibuses         | 7%         |
+| Light commercial vehicles   | 5%         |
+| Two/three-wheelers          | 3%         |
+| Rail                        | 3%         |
+
+Share of CO2 of CO₂ emissions by type of transport (**statistaGlobalTransportCO2?**)
+
 Circular design is possible if supply chains become circular.
 
 -   Wagenvoort (2020) Self-driving supply chains.. (contact japanese factory?)
 
 -   California Transparency in Supply Chains Act
+
+#### How to Trace Supply Chains? {#how-to-trace-supply-chains}
 
 -   Knight et al. (2022) new tools are needed to map supply chains.
 
@@ -382,9 +400,9 @@ Circular design is possible if supply chains become circular.
 
 -   Ashraf and Heavey (2023) Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability.
 
--   Several startups are using distributed ledgers (blockchains) to track source material arriving to the factories and product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only add data in new records).
-
 -   Blockchain ledgers are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data, however the system still relies on correct data input. As the saying goes, “garbage in, garbage out”.
+
+-   Several startups are using distributed ledgers (blockchains) to track source material arriving to the factories and product movements from factories to markets. While blockchains enable securely tracing data, which is immutable (no possible to change the same record, only add data in new records).
 
 | Company        | Link              | Literature                                              | Comments                                      |
 |------------------|------------------|-------------------|------------------|
@@ -402,11 +420,9 @@ Circular design is possible if supply chains become circular.
 
 Blockchain supply chain companies as of summer 2023 include.
 
--   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. “Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be”free-range,” “organic,” or “sustainably sourced” could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims.”
+#### How to Trace Worker’s Rights? {#how-to-trace-workers-rights}
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
-
--   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to 2give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+-   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
     -   Anon. (2022e) Worker Voice apps.
     -   Tim Nicolle (2021) and PrimaDollar Media (2021) PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 -   Matthew Gore, Alessio Sbraga and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
@@ -422,7 +438,7 @@ Blockchain supply chain companies as of summer 2023 include.
 
 Intersection with finance and Real World Data.
 
-A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) by, for example, a blockchain system. There are many databases of sustainability information which could serve as an oracle for “green filter”, including carbon labeling, packaging, transportation, consumption, and waste.
+A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste.
 
 -   Ethereum (2023)
 
@@ -438,12 +454,20 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 Can data transparency provide tools for reducing cruelty.
 
+-   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. “Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be”free-range,” “organic,” or “sustainably sourced” could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims.”
+
 -   Cruelty free brands
+
 -   BCorp
+
 -   ESG
+
 -   Trash found in ocean / nature etc
+
 -   Increase your investment point by matching with your contribution /.
+
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What’s the name of the startup that does this?
+
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
 #### Open Data Sharing {#open-data-sharing}
@@ -604,9 +628,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   imperfectidealist (2020) Fashion sustainability vs greenwashing
 
--   Anon. (2023a) Ethical Shopping
+-   Anon. (2023b) Ethical Shopping
 
--   Anon. (2023b) Ethical brand?
+-   Anon. (2023c) Ethical brand?
 
 -   Good On You (2023) Sustainable fashion company evaluations
 
@@ -658,9 +682,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Cleantech Group (2023) Global cleantech 100
 
--   Anon. (2023c) Alterations and repairs made easy
+-   Anon. (2023d) Alterations and repairs made easy
 
--   Anon. (2023d) Ethical brand ratings
+-   Anon. (2023e) Ethical brand ratings
 
 ### Food {#food}
 
@@ -671,6 +695,8 @@ Across industries, reports are saying there isn’t enough transparency.
 -   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
 
 #### Culture, Community, Cuisine, Storytelling {#culture-community-cuisine-storytelling}
+
+-   Tsing (2015) mushrooms
 
 Food is about enticing human imagination and taste buds.
 
@@ -684,7 +710,7 @@ Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone t
 
 -   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[CITE\].
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
 -   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.

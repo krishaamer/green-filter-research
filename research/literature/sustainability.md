@@ -8,9 +8,6 @@ editor:
 suppress-bibliography: true
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
@@ -57,11 +54,15 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 ### Climatech {#climatech}
 
-Many large businesses have tried to find solutions by launching climate-focused funding. (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted in (Clifford, 2022). It’s an example of how money marketed as climate funding by the retail conglomerate means focus on reducing operational cost of running their business through automation and material savings.
+How are large corporations responding to the climate crisis?
+
+Lack of leadership. Capgemini (2022): “Many business leaders see sustainability as costly obligation rather than investment in the future”.
+
+Many large businesses have tried to find solutions by launching climate-focused funding. (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted as saying in (Clifford, 2022). Walmart is taking a similar approach, having launched a project in 2017 to set CO2 reduction targets in collaboration with its suppliers Walmart (2023). These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
+
+Greens EFA (2023) large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business.
 
 -   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
-
--   (Sarah Ludwig Rausch and Neha Pathak, 2021): “Human health is central to all sustainability efforts.”, “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health,” Hollis says.”
 
 -   Anon. (2013)
 
@@ -71,23 +72,19 @@ Many large businesses have tried to find solutions by launching climate-focused 
 
 #### Planetary Boundaries {#planetary-boundaries}
 
--   (Keeble, 1988) reported in April 1987 that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home Estonia at the time was considered low-income, a small nation on the verge of poverty behind the Iron Curtain occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
+-   (Keeble, 1988) reported in April 1987 that *‘residents in high-income countries lead lifestyles incompatible with planetary boundaries’*. While my home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
 -   De Balie (2018)
-
 -   Houdini (2018)
-
 -   Haeggman, Moberg and Sandin (2018)
 
 ### Ecosystem Services {#ecosystem-services}
 
-Gómez-Baggethun et al. (2010) the history of the valuation of nature’s services goes back to the 18th century when David Ricardo and Jean Baptise say discussed nature’s *work*, however both considered it should be free. In 1997 Daily (1997) proposed the idea of ecosystem services and Costanza et al. (1997) attempted to assess the amount of ecosystem services provided.
+Gómez-Baggethun et al. (2010) the history of the valuation of nature’s services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature’s *work*, however both considered it should be free. In 1997 Daily (1997) proposed the idea of ecosystem services and Costanza et al. (1997) attempted to assess the amount of ecosystem services provided.
 
 Le Provost et al. (2022) study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. Noriega et al. (2018) attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth’s systems, science is still in the process of understanding and quantifying its contributions.
 
 -   Leverhulme Centre for Nature Recovery (2023) should we put a price on nature?
+-   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 -   Is it time to leave utilitarian environmentalism behind? Muradian and Gómez-Baggethun (2021)
 
 | 9 Steps                                        |
@@ -215,6 +212,10 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 -   Oikos Denktank (2021) donut in brussels, belgium. everything has to be adapted to the place and context BrusselsDonut (2022)
 
+-   New economic thinkers are asking how can economic growth and sustainability be compatible.
+
+-   Bailey and Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
+
 -   Gad Levanon and Michael Papadopoulos (2022) the donut effect is real, shift away from city centers. Not related to donut economy per se.
 
 -   Sala et al. (2020)
@@ -223,7 +224,11 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 -   Oliver et al. (2022)
 
--   Doughnut donut economics “We need a dashboard of indicators” - TED (2018).
+-   Doughnut (donut) economics “We need a dashboard of indicators” - TED (2018).
+
+-   Anon. (2023b) “The quality of growth matters”
+
+-   GreensEFA (2023) we should measure wellbeing in addition to GDP!! We need resilency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports.
 
 -   Donut quantified Luukkanen, Vehmas and Kaivo-oja (2021)
 
@@ -300,7 +305,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
 | View                 |                                                                                       |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
 | Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
@@ -309,9 +314,11 @@ From May (2011).
 
 #### Climate Change {#climate-change}
 
--   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act (McKibben, 1989).
+-   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act (McKibben, 1989). Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action Web (2023); AFP (2023); Al Jazeera (2023). South Korea has a partnership with the European Union European Commission (2023).
 
--   Lenton et al. (2023) quantifying human cost of global warming. Certain cities may become uninhabitable for humans (**ExtremeHeatCould2021?**). The part of Earth where the *human climate niche* is becoming smaller McKibben (2023). Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees Livingston (2023).
+-   Extreme temperatures are becoming commonplace. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world (Douglas, 2023; Falconer, 2023; National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce, 2023; NOAA National Centers for Environmental Information, 2023; Serrano-Notivoli et al., 2023; Venturelli et al., 2023). As temperatures rise, certain cities may become uninhabitable for humans (**ExtremeHeatCould2021?**). The part of Earth where the *human climate niche* is becoming smaller McKibben (2023). Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees Livingston (2023).
+
+Lenton et al. (2023) quantifying human cost of global warming.
 
 #### Forest and Deforestion {#forest-and-deforestion}
 
@@ -319,11 +326,9 @@ Afforestation is different from reforestation, which takes into account biodiver
 
 Deforestation is widespread all around the world.
 
--   1 billion tree project (Anon., 2020; Greenfield and @pgreenfielduk, 2021; b **astinGlobalTreeRestoration2019?**)
+-   1 billion tree project (Anon., 2020; Greenfield and @pgreenfielduk, 2021; **astinGlobalTreeRestoration2019?**)
 
 -   Frédéric Simon (2022) Due to deforestation, Europe rapidly losing its forest carbon sink.
-
--   Bousfield et al. (2022) reports there’s evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 
 -   Burning of biomass undermines carbon capture.
 
@@ -334,17 +339,15 @@ Deforestation is widespread all around the world.
 
 #### Air {#air}
 
-Air pollution is so widespread. Clean air is a requirement.
+Air pollution is widespread around the planet, with 99% of Earth’s human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year World Health Organization (2022). Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France. In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons”.
 
--   Grounbreaking research by Lim et al. (2022) analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. Bouscasse et al. (2022) finds strong health and economic benefits across the board from air pollution reduction in France.
--   In Hannah Devlin (2022), prof Tony Mok, of the Chinese University of Hong Kong: “We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues – for both environmental and health reasons.”
--   MARIA LUÍS FERNANDES (2023) EU has legislation in progress to curb industrial emissions.
+Health and sustainability are inextricably linked. “Human health is central to all sustainability efforts.”, “All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health” (Sarah Ludwig Rausch and Neha Pathak, 2021).
+
+The main way to combat air pollution is through policy interventions. MARIA LUÍS FERNANDES (2023) EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. Gu et al. (2023) links air pollution to credit interest rates for business loans in China; companies with low environmetal awareness and a history of environmental penalties pay 12 percent higher interest rates.
+
+Clean air is a requirement.
 
 #### Disasters and Extreme Weather {#disasters-and-extreme-weather}
-
-Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world (Douglas, 2023; Falconer, 2023; National Oceanic and Atmospheric Administration (NOAA), U.S. Department of Commerce, 2023; NOAA National Centers for Environmental Information, 2023; Serrano-Notivoli et al., 2023; Venturelli et al., 2023),
-
-Climate-related disasters can spur action as extreme weather becomes commonplace. Large floods in Korean in July 17 with many victims. The president Joon promised to steer the country towards climate action and take it seriously Web (2023); AFP (2023); Al Jazeera (2023). South Korea has a partnership with the European Union European Commission (2023).
 
 Large ones that get international news coverage:
 
@@ -409,7 +412,7 @@ Large ones that get international news coverage:
 ### Digital Twins {#digital-twins}
 
 -   We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
--   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth’s various systems such as climate, hydrology, ecology, etc, into a single model Hoffmann et al. (2023) and Anon. (2023b).
+-   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth’s various systems such as climate, hydrology, ecology, etc, into a single model Hoffmann et al. (2023) and Anon. (2023c).
 
 ## Mitigation & Adaption {#mitigation-adaption}
 
@@ -426,6 +429,11 @@ The share of CO2 emissions among people around the world is highly unequal acros
     -   Zhou et al. (2022) ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
 
 ### Emissions Trading Schemes {#emissions-trading-schemes}
+
+Retiring CO2 allowances
+
+-   Facilitating citizens’ access to CO2 emissions trading may be an efficient method to organize large-scale CO2 retiring Rousse (2008)
+-   “A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere” (Anna Watson, 2022, 2023).
 
 As of 2023 there isn’t a single global CO2 trading market but rather several local markets as described in the table below Anon. (n.d.a).
 
@@ -453,6 +461,8 @@ For the individual person, there’s no direct access to CO2 markets, however th
 
 #### Voluntary Carbon Markets {#voluntary-carbon-markets}
 
+Voluntary Carbon Markets (VCM) lack standardization and transparency Ela Khodai (2023)
+
 ***Carbon Credits*** are useful for private companies who wish to claim *carbon neutrality, climate positivity*, or other related claim, which might be viewed in good light by their clients or allow the companies to adhere to certain legislative requirements.
 
 There are many companies which facilitate buy carbon credits as well as a few organizations focused on carbon credit verification.
@@ -475,7 +485,7 @@ Stern (2022) reports carbon-neutral economy needs higher CO2 prices. Rennert et 
 -   (see IEA, 2022) reports “Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes”
 -   Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
 -   Daniel Värjö (2022): The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
--   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023c)
+-   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023d)
 
 Fossil Fuels and Energy
 
@@ -646,7 +656,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   Anon. (n.d.c) report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
 
--   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023d) and is facing a backlash David Pinto (2023).
+-   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU’s degraded ecosystems by 2030 and full restoration by 2050 has not yet passed Anon. (2023e) and is facing a backlash David Pinto (2023).
 
 -   Manzardo et al. (2021) **(need access!)**
 

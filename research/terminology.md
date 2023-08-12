@@ -37,6 +37,8 @@ editor:
 
 -   EPR - Extended Producer Responsibility
 
+-   SDGs - Sustainable Development Goals, a set of targets agreed upon by the nations of the world
+
 -   LLM - Large Language Models
 
 -   CO2e - CO2 equivalent greenhouse gases
@@ -44,6 +46,8 @@ editor:
 -   GHG - Greenhause gases
 
 -   PD - Participatory Design
+
+-   VCM - Voluntary Carbon Markets
 
 -   Hedge Fund - pooled investment fund
 

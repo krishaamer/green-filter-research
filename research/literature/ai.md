@@ -128,6 +128,8 @@ Because of the conversational nature of LLMs, they are very useful for ***affect
 
 -   HIITTV (2021a) data from all the processes around us will define the future of computing
 
+-   Electrodermal activity of the skin and heart-rate variance data are being used to detect the emotional state and stress level of the user (Zangróniz et al., 2017; Velmovitsky et al., 2022).
+
 Rosalind Picard
 
 -   TEDx Talks (2011)

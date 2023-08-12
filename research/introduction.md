@@ -91,7 +91,7 @@ This research is timely in 2023 because of the convergence of five trends:
 
 -   80% of world population has a smartphone according to BankMyCell (2022) while 98% of Gen-Z owns smartphone Global Web Index (2017)
 
--   The latest IPCC report
+-   The latest IPCC report Calvin et al. (2023)
 
 -   Dimock (2019)
 

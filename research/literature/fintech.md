@@ -8,6 +8,9 @@ editor:
 suppress-bibliography: true
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
@@ -95,15 +98,17 @@ There’s a series of authors under the “New Economics” banner, blue economi
 
 ### Sustainable Finance {#sustainable-finance}
 
+In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emissions in world history, following a steady annual increase (Statista, 2023). Removal of 5-20 gigatonnes of CO₂ per year would be needed to limit global warming to 1.5 °C according to the reduction pathways calculated by the IPCC (Wade et al., 2023). Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) were heading for 2.7 °C of warming (CDP, 2022).
+
+-   Even with massive financing going into sustainability, there’s still a lack of investing. The United Nations Environment Programme (UNEP) calculates the world needs an additional \$4.1 trillion of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023a).
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
 -   Money connects all industries. People want to shop, save, invest sustainably - how to do it?
 
 -   Anon. (n.d.a) Taxonomy of sustainable activities in the UK
 
--   UNEP (2022): **UNEP has identified that if the world is to meet its climate change, biodiversity, and land degradation targets, it needs to close a \$4.1 trillion financing gap in nature by 2050. The stakes are higher than ever, biodiversity and nature must be at the forefront of the COP27 climate agenda.** 
-
--   Anon. (2023a): “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation. Ahead of COP27 in Egypt, Financing Nature: COP27 Special will showcase examples of where this is already happening, and discuss what we collectively must do to mobilize capital at scale” said Dr Rhian-Mari Thomas, Chief Executive Officer, GFI.
-
--   Anon. (2023b) “The quality of growth matters”
+-   
 
 -   Trucost and TEEB for Business Coalition (2023) finds unpriced externalities (natural resources) 7.3 trillion USD per annum.
 
@@ -113,27 +118,25 @@ There’s a series of authors under the “New Economics” banner, blue economi
 
 -   As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently “good” for one’s life, in the same way, that doing sports is good, or eating healthy is good. It’s one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?
 
--   In 2022, the world population emitted 37.5 gigatonnes of CO₂, the highest emissions in world history, following a steady annual increase, according to Statista (2023).
+-   
 
--   Anon. (2023c)
+-   The monumental task of removing several gigatonnes of CO₂ from the atmosphere requires massive policy shifts and collaboration accross industries Mackler, Fishman and Broberg (2021)
+
+-   
+
+-   
+
+-   Anon. (2023b)
 
 -   In 2022 the Global Gross Domestic Product (GDP) was estimated at around 100 Trillion USD Aaron O’Neill (n.d.).
 
--   GreensEFA (2023) we should measure wellbeing in addition to GDP!! We need resilency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports.
-
--   Greens EFA (2023) large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business.
-
 -   EU releases strategic foresight reports since 2020 European Commission (2023)
-
--   Lack of leadership. Capgemini (2022): “Many business leaders see sustainability as costly obligation rather than investment in the future”.
 
 -   Is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
--   The key improvement of personalizing financial advice is understanding the user’s dynamic risk profile.
-
--   Capponi, Ólafsson and Zariphopoulou (2019) argues “The client has a risk profile that varies with time and to which the robo-advisor’s investment performance criterion dynamically adapts”.
-
 -   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
+
+-   Robo-advisors can be more dynamic and respond to changes. Capponi, Ólafsson and Zariphopoulou (2019) argues “The client has a risk profile that varies with time and to which the robo-advisor’s investment performance criterion dynamically adapts”. The key improvement of personalizing financial advice is understanding the user’s dynamic risk profile.
 
 ## Shopping {#shopping}
 
@@ -228,7 +231,7 @@ There are many different certifications
 -   B Impact Assessment
 -   sustainable brands
 -   Fair Trade
--   Anon. (2023d) For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
+-   Anon. (2023c) For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
 -   Anon. (n.d.e) Responsible business index
 -   Testing website CO2 emissions Wholegrain Digita (2023)
 
@@ -348,13 +351,13 @@ Conscious consumers make up a small part of the entire consumer public.
 
 -   What if we gave consumers the tools to keep companies accountable?
 
--   Anon. (2023e) in Macau Contactless Payments:
+-   Anon. (2023d) in Macau Contactless Payments:
 
 -   Commons, formerly known as Joro, analysis your financialss to estimate your CO2 footprint. Chant (2022)
 
 Anon. (n.d.r) China was a money innovator introducing paper money in the Tang Dynasty (618–907 AD).
 
--   Anon. (2023f) Digital currencies make tracking easier
+-   Anon. (2023e) Digital currencies make tracking easier
 
 -   E-Naira find papers
 
@@ -385,11 +388,11 @@ People are concerned with digital payments
 -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
 -   Hypothesis?
 -   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
--   Anon. (2023g)
+-   Anon. (2023f)
 -   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and Anon. (n.d.s, p. 33))
 -   Anon. (n.d.t)
 -   Ethical Savings
--   Anon. (2023h)
+-   Anon. (2023g)
 -   Anon. (2019b)
 -   Anon. (n.d.u)
 
@@ -467,7 +470,7 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 -   Malliaris and Salchenberger (1996) **(Need to pay for paper!)**
 -   Anon. (n.d.x) Huawei
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
--   Anon. (2023i) Personalised portfolios
+-   Anon. (2023h) Personalised portfolios
 -   Anon. (n.d.y) Thai finance app
 -   Anon. (n.d.z)
 -   Renato Capelj (February 16, 2021 6:47 PM)
@@ -519,7 +522,7 @@ Banks have started offering a service to automatically save and invest tiny amou
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
 
--   Anon. (2023j) and Anon. (2023k) One example is Revolut, which expanded from a simple payments app to support varied saving and investment types.
+-   Anon. (2023i) and Anon. (2023j) One example is Revolut, which expanded from a simple payments app to support varied saving and investment types.
 
 #### Influencers {#influencers}
 
@@ -570,7 +573,7 @@ Banks have started offering a service to automatically save and invest tiny amou
 
 -   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
 
--   Anon. (2023l) DAOs to enable concerted action towards climate goals
+-   Anon. (2023k) DAOs to enable concerted action towards climate goals
 
 -   Anon. (n.d.af): Crypto investment clubs canceled
 
@@ -631,7 +634,7 @@ There are many ‘green investment platforms’ who to trust?
 
 -   Stef (2019)
 
--   Anon. (2023m)
+-   Anon. (2023l)
 
 -   Seeking Alpha (2020)
 
@@ -681,7 +684,7 @@ There are many ‘green investment platforms’ who to trust?
 
 -   FINMA (2021) First crypto fund
 
--   Anon. (2023n) calculate climate cost
+-   Anon. (2023m) calculate climate cost
 
 -   Anand Chandrasekhar and Andreas Gefe (2021): **Trading commodities “Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates. ”**
 
@@ -690,6 +693,8 @@ There are many ‘green investment platforms’ who to trust?
 -   swissinfo.ch/urs (2022) “More than half of the Swiss banks apparently plan to offer digital assets services over the next few years.”
 
 -   Improving ESG Accessibility
+
+-   ESG risk
 
 -   Hyde (2006) Money as a gift
 
@@ -788,7 +793,7 @@ Sustainability Marketing
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
 
--   James Phillipps (2022) and Anon. (2023o) ESG Not delivering on it’s hopes
+-   James Phillipps (2022) and Anon. (2023n) ESG Not delivering on it’s hopes
 
 -   TEDx Talks (2022) large corporations are using ESG for greenwashing by investing in token-projects but not changing their fundamental polluting practices.
 
@@ -848,10 +853,10 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 ### Regenerative Finance {#regenerative-finance}
 
--   Anon. (2023p): What is Reggenerative Finance (ReFi).
+-   Anon. (2023o): What is Reggenerative Finance (ReFi).
 -   Regen Network (22AD) and Regen Network (2023) regen network
 -   Smith, B. (2021)
--   Anon. (2023q) KlimaDAO
+-   Anon. (2023p) KlimaDAO
 -   Anon. (n.d.ao) Moss.earth
 -   Anon. (n.d.ap)
 -   naturalinvest (2020)
@@ -877,7 +882,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   Upcoming EU greenwashing legislation hopes to curb misleading communications by companies.
 
--   Anon. (2023r) several US states are introducing regulation for ESGs to curb greenwashing.
+-   Anon. (2023q) several US states are introducing regulation for ESGs to curb greenwashing.
 
 -   Green investing only makes sense if it’s possible to distinguish sustainable investments from not sustainable ones.
 
