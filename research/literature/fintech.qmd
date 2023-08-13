@@ -25,14 +25,13 @@ Econometrics is the science and art of measuring the economy. There has been ong
 
 The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how any metric about a complex system such as the economy is a work in progress.
 
--   Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics [@ellsmoorNewZealandDitches2019;  @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022].
+-   Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022].
 
 -   Buthan was the first to invent Gross National Happines
 
 -   @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index.
 
 -   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics @worldbankChangingWealthNations2021
-
 
 -   Some ask Is economic growth the wrong goal?: @diduchEconomicGrowthWrong2020
 
@@ -183,7 +182,8 @@ metrics and goals: ESG, SDGs,
 
 ## Indexes
 
--   There are many Indexes, Scoring, Ratings, Certifications
+Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
+
 -   Rating Systems: Companies assess customer's credit score, however how can customers rate companies.
 -   ESG Shopping: "Changing our relationship with money"
 
@@ -280,7 +280,7 @@ Banks have access to each person's financial habits which makes it possible to m
 -   If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
 
 |               |                                                                              |              |
-|-----------------|--------------------------------------|-----------------|
+|------------------|-------------------------------------|------------------|
 | Service       | Features                                                                     | Availability |
 | Goodments     | Matching investment vehicles to user's environmental, social, ethical values | USA          |
 | Wealthsimple  | AI-assisted saving & investing for Millennials                               | USA, UK      |
@@ -568,6 +568,8 @@ People are concerned with digital payments
 -   @GoodShoppingGuide
 
 ### Fintech UX
+
+Tokenization is similar securitization which has been happening for a long time. - Art can be securitized @masterworksHowItWorks2023 - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 
 Given the large number of fraud cases in finance, *trust* is the number one concern for users (CITE). Good design is crucial for creating transparency, and transparency leads to trust.
 
