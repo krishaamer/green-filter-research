@@ -25,9 +25,15 @@ The first 2 decades of the 21st century has seen a flurry of new economic thinki
 
 #### New Metrics {#new-metrics}
 
-Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others (Anielski, 2001).
+Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others (Anielski, 2001; Bleys and Whitby, 2015; Kovacic and Giampietro, 2015).
 
-The original creator of the Gross Domestic Product (GDP) metric Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what.”
+The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how any metric about a complex system such as the economy is a work in progress.
+
+-   Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics (Ellsmoor, 2019; David Suzuki Foundation, 2021; CEPR, 2022; Scottish Government, 2022; Wellbeing Economy Alliance, 2022).
+
+-   Buthan was the first to invent Gross National Happines
+
+-   Giacalone, Mattera and Nissi (2022) looks at wellbeing of Italian communities and proposes a new composite index.
 
 -   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics World Bank (2021)
 
@@ -278,7 +284,7 @@ Banks have access to each person’s financial habits which makes it possible to
 -   If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
 
 |               |                                                                              |              |
-|-----------------|---------------------------------------|-----------------|
+|------------------|-------------------------------------|------------------|
 | Service       | Features                                                                     | Availability |
 | Goodments     | Matching investment vehicles to user’s environmental, social, ethical values | USA          |
 | Wealthsimple  | AI-assisted saving & investing for Millennials                               | USA, UK      |
@@ -606,7 +612,7 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 
 Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples’ money.)
 
-Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time and ability, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
+Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
 ### Retail Investors {#retail-investors}
 
@@ -676,7 +682,9 @@ Retail investors face many challenges in comparison with their institutional cou
 
 #### Financial Inclusion {#financial-inclusion}
 
-Retail investing can be seen as a form of financial inclusion. Ant Group’s Eric Jing in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%.”*
+Retail investing can be seen as a form of financial inclusion. Ant Group’s CEO Eric Jing says in Turrin (2021): *“The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%”.*
+
+F
 
 -   Tan (2020) proposes *“financial ecologies”* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
