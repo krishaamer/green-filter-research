@@ -48,6 +48,8 @@ The rise of the ***platform economy*** has created global marketplace companies 
 
 -   Superapps are more prevalent in China and South-East Asia. Giudice (2020) argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. Vecchi and Brennan (2022) China is the home of many superapps and this paper discusses the strategies taken to expand to other markets. Shabrina Nurqamarani et al. (2020) discusses the system consistency and quality of South–East Asian superapps Gojek and Grab.
 
+-   Uber is creating an all-purpopse platform; only 4.1% of rides were electric Levy (2023)
+
 Could there be Sustainability Superapps?
 
 -   How to design sustainability superapps? Lots of options in a single app. Fleet Management Weekly (2022) “Sustainability and superapps top Gartner’s Top 10 2023 Trends List”. Dave Wallace (2021) “The rise of carbon-centric super apps”. goodbag (2023) “goodbag: Sustainable Super App”. What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also Bernard (2022).

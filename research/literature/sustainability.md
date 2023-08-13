@@ -163,6 +163,8 @@ Earth’s population reached 8 Billion people In November 2022 (The Economic Tim
 
 -   “commodification of human beings”
 
+-   Anand Chandrasekhar and Andreas Gefe (2021): Trading commodities “Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates.” Can traders have more scrutiny over what they trade?
+
 -   Modern Slavery Act.
 
 #### Overpopulation {#overpopulation}
