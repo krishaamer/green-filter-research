@@ -119,6 +119,18 @@ This research is timely in 2023 because of the convergence of five trends:
 
 Current trends backing the relevance of this research project.
 
+| What Happened?                                | How Much?                  |
+|---------------------------------------------|---------------------------|
+| Vertebrate species population average decline | 68% over the last 50 years |
+| Land surface altered by humans                | 70% of Earth               |
+| Vertebrate species extinct                    | 700 in 500 years           |
+| Plant species extinct                         | 600 in 500 years           |
+| Species under threat of extinction            | 1 million                  |
+
+Biodiversity loss data from (Bradshaw et al., 2021).
+
+, 700 vertebrate species and around 600 plant species
+
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 -   and protecting biodiversity

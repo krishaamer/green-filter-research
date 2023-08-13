@@ -19,9 +19,7 @@ import Bunq from '../images/bunq.jpg'
 
 ## Economics {#economics}
 
-The first 2 decades of the 21st century has seen a flurry of new economic thinking, often terms as ***New Economics***, looking for avenues to challenge, improve, or upgrade capitalism to match our current environmental, social, and technological situation. Some of these include behavioral economics, regenerative capitalism, doughnut economics, ecological economics, degrowth economics, attention economics, gift economics, intent economics, as well as many others.
-
--   There’s a trend of new economic thinking. There’s a series of authors under the “New Economics” banner, blue economics, , There are many suggestions for upgrading capitalism. There’s no lack of books on changing capitalism. New Economics propose all sorts of new ideas, Donut Economy, Degrowth, Re The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. Amabile and Kramer (2011)
+The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, regenerative capitalism, doughnut economics, ecological economics, blue economics, degrowth, attention economy, gift economy, intent economy, and others. There’s no lack of books on changing capitalism, which goes to show there’s readership for these ideas. But I’m not about to build a new economic theory as part of my thesis on design, so I’ll focus on the parts of economic theory I believe are relevant to designing for sustainability.
 
 #### New Metrics {#new-metrics}
 
@@ -29,76 +27,54 @@ Econometrics is the science and art of measuring the economy. There has been ong
 
 The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how any metric about a complex system such as the economy is a work in progress.
 
--   Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics (Ellsmoor, 2019; David Suzuki Foundation, 2021; CEPR, 2022; Scottish Government, 2022; Wellbeing Economy Alliance, 2022).
+Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics (Ellsmoor, 2019; David Suzuki Foundation, 2021; CEPR, 2022; Scottish Government, 2022; Wellbeing Economy Alliance, 2022).
 
 -   Buthan was the first to invent Gross National Happines
+
+-   We should measure wellbeing in addition to GDP!! We need resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports (GreensEFA, 2023). Doughnut (donut) economics (more below) “We need a dashboard of indicators” - TED (2018).
 
 -   Giacalone, Mattera and Nissi (2022) looks at wellbeing of Italian communities and proposes a new composite index.
 
 -   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics World Bank (2021)
 
--   Some ask Is economic growth the wrong goal?: Diduch (2020)
+-   New economic thinkers are asking how can economic growth and sustainability be compatible. Some ask if economic growth itself is the wrong goal? Diduch (2020).
 
 -   Trucost and TEEB for Business Coalition (2023) finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
 
 -   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG). Mazzucato (2018)
 
-#### Ecological Econonomics {#ecological-econonomics}
+-   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. Amabile and Kramer (2011)
 
--   Prosperity Without Growth book (Jackson, T., 2009)
 -   Capital misallocation
+
 -   Securitization
--   **Kate Raworth**
--   Jackson, T. (2017)
--   Bradshaw et al. (2021)
+
+#### Ecological Economics {#ecological-economics}
+
+Ecological economics is the obvious prime suspect for some eco-conscious ideas to incorporate into my design. Ecological economics draws attention to the interdependence of economy and the ecosystem and reminds us there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* already more than two decades ago, focusing on the diminishing natural resources (Daly, 1997). (Jackson, T., 2009, 2017) expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
 
 #### Doughnut Economics {#doughnut-economics}
 
-The doughnut (donut) is a useful visualization to be able to grasp the big picture, and it’s a social object that’s simple and deep at the same time, enabling starting conversations with people from all walks of life, independent of their politics leanings. As Raw calls it, it’s a self-portrait of humanity in the beginning of the 21st century. Combining the SDGs inside the doughnut and the Planetary Boundaries outside the doughnut. The space donut represents a state of equilibrium and balance on spaceship Earth.
+The doughnut (donut) is a simple visualization that helps to grasp the big picture of the economy and the physical and social worlds. It allows one to see the social shortfall and ecological overshoot of nations at the same time (Fanning et al., 2021). Doughnut Economics has not been implemented on a country–level however has inspired cities to take a comprehensive view of the doughnut of their own city.
 
--   Amsterdam Circular Economy Monitor Gemeente Amsterdam (2022)
+Several EU cities have adopted the vision (Jordan G. Teicher, 2021). Doughnut in Brussels, Belgium. Everything has to be adapted to the place and context (Oikos Denktank, 2021; BrusselsDonut, 2022). The city of Amsterdam is developing shorter food chains (which save CO2) and linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community (Circle Economy, 2021). Amsterdam also has a Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 (Waterstaat, 2019; Gemeente Amsterdam, 2022).
 
--   Fanning et al. (2021) data for the doughnut: “The social shortfall and ecological overshoot of nations”
+The Doughnut concept is a useful social object that’s simple and deep at the same time, enabling starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it’s a ***“self-portrait of humanity in the beginning of the 21st century”.*** Combining the SDGs inside the doughnut and the Planetary Boundaries outside the doughnut. The space donut represents a state of equilibrium and balance on spaceship Earth.
 
--   Oikos Denktank (2021) doughnut in Brussels, Belgium. everything has to be adapted to the place and context BrusselsDonut (2022)
-
--   New economic thinkers are asking how can economic growth and sustainability be compatible.
-
+-   Kate Raworth was inspired by ecological economics among other things.
 -   Bailey and Eggereide (2020) shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
-
 -   Gad Levanon and Michael Papadopoulos (2022) the donut effect is real, shift away from city centers. Not related to donut economy per se.
-
 -   Sala et al. (2020)
-
 -   Resource footprint, ecological footprint
-
 -   Oliver et al. (2022)
-
--   Doughnut (donut) economics “We need a dashboard of indicators” - TED (2018).
-
--   GreensEFA (2023) we should measure wellbeing in addition to GDP!! We need resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports.
-
 -   Donut quantified Luukkanen, Vehmas and Kaivo-oja (2021)
-
 -   Defi Donut (2021) Savings Lottery
-
 -   Jolijn Hooghwinkel (2023) donut essay winner
-
 -   International Development LSE (2021) Donut in practice
-
--   Jordan G. Teicher (2021) several EU cities have adopted the vision
-
 -   BBC Reel (2020)
-
 -   Circle Economy (2021)
-
 -   <https://www.c40.org/> city coalition
-
 -   Golias (2019)
-
--   Waterstaat (2019) Dutch goal to be a circular economy by 2050
-
--   Circle Economy (2021) The city of Amsterdam is developing short food chains, linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community.
 
 | Short Food Chains in Amsterdam                     |
 |----------------------------------------------------|
@@ -384,7 +360,6 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 -   Anon. (n.d.u) Network for Greening the Financial System
 -   SmartWealth (2021) How do consumer become investors? marketing materials say: “One of the greatest hurdles to financial independence is a consumer mindset.” One of the greatest hurdles to sustainability is a consumer mindset?
 -   Outlaw (2015)
--   Sustainable investing, kids watch TikTok lizlivingblue (n.d.)
 -   Malliaris and Salchenberger (1996) **(Need to pay for paper!)**
 -   Anon. (n.d.v) Huawei
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
@@ -582,7 +557,7 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   Anon. (2023j)
 
--   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” (see Yale Center for Environmental Law & Policy (2018) and Anon. (n.d.ae, p. 33))
+-   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” Anon. (n.d.ae).
 
 -   Anon. (n.d.af)
 
@@ -608,7 +583,7 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   Koreans investing in influencers? Koreans investing into media personalities: Yuqing Zhao (2021)
 
--   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing… but?
+-   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing… but? Sustainable investing, kids watch TikTok lizlivingblue (n.d.)
 
     Influencer - crypto twitter connections
 
@@ -1032,3 +1007,4 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 -   This research is concerned with how billions of people might exclude polluting companies from their lives and elect to support companies that put sustainability in the core of their business instead. Why does it matter? Individual sacrifice is too small to have a meaningful impact. For societal change, we need to pool our resources.
 -   **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?**
 -   Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?
+-   **Feature:** We need a dashboard of comparable public indicators about each company.
