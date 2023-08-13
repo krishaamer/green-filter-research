@@ -786,13 +786,17 @@ There's literature suggesting it's possible to make investments that both make a
 -   @naturalinvestMalaikaMaphalalaNatural2020
 -   @marquisRSFLeadingWay2021
 
+### Divesting
+
+-   In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest, followed by China)\[\^5\] started a divestment trend in 2016 by divesting from coal. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions? The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
+
 ### ESG
 
 -   Environmental, Social, and Corporate Governance (ESG)
 
 -   Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
--   The Taipei stock market in Taiwan has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting (@grauerTaiwanLeadingWay2017), while Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 (@euronextEuronextLaunchesSuite2020).
+-   In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017], while Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 (@euronextEuronextLaunchesSuite2020).
 
 -   @doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
 
@@ -824,6 +828,8 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   ESG risk
 
+-   Implication for design: ESG can't trusted.
+
 #### ESG Investing
 
 -   @margarytakirakosianMethodologiesAreAll2022 suggests "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy."
@@ -836,11 +842,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   @ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022
 
--   Implication for design: ESG can't trusted.
-
 -   Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products \[\^8\].
-
--   In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest, followed by China)\[\^5\] started a divestment trend in 2016 by divesting from coal. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions? The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
 -   While promising to become sustainable, oil companies are increasing production @noorBigOilQuietly2023; Sunak, UK Primise Minister announced 100 news licenses for oil drilling in the UK.
 
@@ -848,7 +850,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   Banks are required by law to apply the principle of Know Your Customer (KYC).
 
--   How could people apply the same principle (Know Your Company) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital.
+-   **Feature:** How could people apply the same principle (**Know Your Company**) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital.
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
 
