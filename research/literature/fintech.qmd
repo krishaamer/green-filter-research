@@ -257,9 +257,8 @@ Banks have access to each person's financial habits which makes it possible to m
 
 -   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
-```{=html}
 <!-- -->
-```
+
 -   "Fintech has had a more pronounced impact in the payments market \[...\] where the incumbents have accumulated the most glaring shortcomings, often resulting in inefficient and overpriced products," Yves Mersch, Member of the Executive Board of the ECB says in @europeancentralbankLendingPaymentSystems2019.
 
 <!-- -->
@@ -274,7 +273,7 @@ Banks have access to each person's financial habits which makes it possible to m
 -   If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
 
 |               |                                                                              |              |
-|----------------|----------------------------------------|----------------|
+|-----------------|--------------------------------------|-----------------|
 | Service       | Features                                                                     | Availability |
 | Goodments     | Matching investment vehicles to user's environmental, social, ethical values | USA          |
 | Wealthsimple  | AI-assisted saving & investing for Millennials                               | USA, UK      |
@@ -601,7 +600,7 @@ Given the large number of fraud cases in finance, *trust* is the number one conc
 
 Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
-Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time and ability, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
+Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy , whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
 ### Retail Investors
 
@@ -671,7 +670,9 @@ Retail investors face many challenges in comparison with their institutional cou
 
 #### Financial Inclusion
 
-Retail investing can be seen as a form of financial inclusion. Ant Group's Eric Jing in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%."*
+Retail investing can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
+
+F
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
