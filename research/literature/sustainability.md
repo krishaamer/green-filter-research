@@ -334,6 +334,8 @@ MIT is a source of many fantastic innovations.
 
 -   Kaklauskas et al. (2023)
 
+-   Rieger et al. (2023) Integrated science of wellbeing
+
 -   Fabris and Luburić (2022)
 
 -   Sustainability is part of product quality. If a product is hurting the environment, it’s a low quality product.

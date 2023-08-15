@@ -42,6 +42,8 @@ This power comes with ***increased need for responsibility***, drawing growing i
 
 @peteWeHostedEmergencychatgpthackathon2023 ChatGPT hackathon.
 
+-   OpenAI has researched a wide range of approaches towards artificial general intelligence (AGI), work which has led to advances in large language models[@ilyasutskeverIlyaSutskeverAI2018; @aifrontiersIlyaSutskeverAI2018].
+
 The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality. This finding has significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.
 
 @SustainableShoppingSaving2023 My bedtime story about shopping, saving, and investing.
@@ -79,15 +81,17 @@ There's a lot of LLM innovation happening.
 
 ### Known Issues
 
-The are two large problems with this generation of LLMs such as GTP3 and GPT4 by OpenAI, Microsoft, Google and Nvidia.
+The are several large problems with this generation of LLMs such as GTP3 and GPT4 by OpenAI, Microsoft, Google and Nvidia.
 
 -   LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.
 
 -   LLMs are also opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard: "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?"
 
--  AIs outpeform humans on creativity assesment tests [@mollickAutomatingCreativity2023; @haaseArtificialMusesGenerative2023].
+-   AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023].
 
-- @Liu_LlamaIndex_2022 LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics.
+-   AIs outperform humans on creativity assessment tests [@mollickAutomatingCreativity2023; @haaseArtificialMusesGenerative2023]. Bots are even better than humans in solving \@ [@matthewsparkesBotsAreBetter2023].
+
+-   @Liu_LlamaIndex_2022 LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics.
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen.
 

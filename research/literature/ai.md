@@ -46,6 +46,8 @@ This power comes with ***increased need for responsibility***, drawing growing i
 
 Pete (2023) ChatGPT hackathon.
 
+-   OpenAI has researched a wide range of approaches towards artificial general intelligence (AGI), work which has led to advances in large language models(AI Frontiers, 2018; Ilya Sutskever, 2018).
+
 The quality of LLM output depends on the quality of the provided prompt. Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which automatically generates instructions that outperform the baseline output quality. This finding has significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.
 
 Anon. (2023a) My bedtime story about shopping, saving, and investing.
@@ -83,13 +85,15 @@ From reports on the advance of LLMs by (Brown, T. B. et al., 2020; Alvarez, 2021
 
 ### Known Issues {#known-issues}
 
-The are two large problems with this generation of LLMs such as GTP3 and GPT4 by OpenAI, Microsoft, Google and Nvidia.
+The are several large problems with this generation of LLMs such as GTP3 and GPT4 by OpenAI, Microsoft, Google and Nvidia.
 
 -   LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. Liu, S. et al. (2023) proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.
 
 -   LLMs are also opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard: “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”
 
--   AIs outpeform humans on creativity assesment tests (Haase and Hanel, 2023; Mollick, 2023).
+-   AI bias is well-documented and a hard problem to solve (Liang, W. et al., 2023).
+
+-   AIs outperform humans on creativity assessment tests (Haase and Hanel, 2023; Mollick, 2023). Bots are even better than humans in solving @ (Matthew Sparkes, 2023).
 
 -   Liu, J. (2022) LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics.
 
@@ -297,7 +301,7 @@ Gupta (2023) proposes 3 simple goals for AI:
 
 -   Tristan Greene (2022): when the quality of AI responses becomes good enough, people begin to get confused.
 
-Bowman (2023) says steering Large Language Models is unreliable; even experts don’t fully understand the inner workings of the models. Work towards improving both ***AI steerability*** and ***AI alignment*** (doing what humans expect) is ongoing. Liang et al. (2022) believes there’s early evidence it’s possible to assess the quality of LLM output transparently. Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions. Khosravi et al. (2022) proposes a framework for AI explainability, focused squarely on education. Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
+Bowman (2023) says steering Large Language Models is unreliable; even experts don’t fully understand the inner workings of the models. Work towards improving both ***AI steerability*** and ***AI alignment*** (doing what humans expect) is ongoing. Liang, P. et al. (2022) believes there’s early evidence it’s possible to assess the quality of LLM output transparently. Cabitza et al. (2023) proposes a framework for quality criteria and explainability of AI-expressions. Khosravi et al. (2022) proposes a framework for AI explainability, focused squarely on education. Holzinger et al. (2021) highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
 
 -   The user experience (UX) of AI is a topic under active development by all the largest online platforms. The general public is familiar with the most famous AI helpers, ChatGPT, Apple’s Siri, Amazon’s Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao Ai, and many others. For general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city.
 
