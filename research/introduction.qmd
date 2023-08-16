@@ -22,7 +22,7 @@ import CO2 from "./images/co2-concentration.png";
 ```
 # Introduction
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which most countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined her Fridays for Future protests around the world and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019; @timeGretaThunbergTIME2019].
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019; @timeGretaThunbergTIME2019].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Climate protest in Geneva on 27th September, 2019](./images/geneve.jpg){width="60%"}
@@ -36,7 +36,7 @@ In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increas
   refTitle="Wikimedia Commons"
 />
 ```
-While awareness of Earth's operating systems is growing, the CO2 emissions keep rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward in @keelingAtmosphericMonthlySitu2017 and includes estimations going back 2000 years from @rubinoLawDomeIce2019. In 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in world history, following a steady annual increase [@statistaAnnualCO2Emissions2023]. Removal of 5-20 gigatonnes of CO2 per year would be needed to limit global warming to 1.5 °C according to the reduction pathways calculated by the IPCC [@wadeMoisturedrivenCO2Pump2023]. Yet, we're missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) to take one example, were heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatonnes of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
+While awareness of Earth's warming climate was growing, the CO2 emissions kept rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward following a steady annual increase @keelingAtmosphericMonthlySitu2017; and temperature estimations go back as far 2000 years @rubinoLawDomeIce2019. By the latest date from 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C, removal of 5-20 gigatonnes of CO2 per year would be needed according to reduction pathways calculated by the IPCC [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) were heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing gigatons of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO2 Concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
@@ -50,7 +50,7 @@ While awareness of Earth's operating systems is growing, the CO2 emissions keep 
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
-Yet CO2 emissions is not the only problem facing humanity. In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows [@perssonOutsideSafeOperating2022].
+Not discounting the enormity of CO2 emissions, it's still not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows [@perssonOutsideSafeOperating2022].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}

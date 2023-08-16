@@ -23,7 +23,7 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets, which most countries are failing to meet. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people joined her Fridays for Future protests around the world and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
 
 ``` mdx-code-block
 <Figure
@@ -34,7 +34,7 @@ In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increas
 />
 ```
 
-While awareness of Earth’s operating systems is growing, the CO2 emissions keep rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward in Keeling and Keeling (2017) and includes estimations going back 2000 years from Rubino et al. (2019). In 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in world history, following a steady annual increase (Statista, 2023a). Removal of 5-20 gigatonnes of CO2 per year would be needed to limit global warming to 1.5 °C according to the reduction pathways calculated by the IPCC (Wade et al., 2023). Yet, we’re missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) to take one example, were heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing several gigatonnes of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
+While awareness of Earth’s warming climate was growing, the CO2 emissions kept rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward following a steady annual increase Keeling and Keeling (2017); and temperature estimations go back as far 2000 years Rubino et al. (2019). By the latest date from 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in history (Statista, 2023a). To limit global warming to 1.5 °C, removal of 5-20 gigatonnes of CO2 per year would be needed according to reduction pathways calculated by the IPCC (Wade et al., 2023). Yet, most countries are missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) were heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing gigatons of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
 
 ``` mdx-code-block
 <Figure
@@ -45,7 +45,7 @@ While awareness of Earth’s operating systems is growing, the CO2 emissions kee
 />
 ```
 
-Yet CO2 emissions is not the only problem facing humanity. In January 2022, the Stockholm Resilience Centre reported that humanity had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows (Persson et al., 2022).
+Not discounting the enormity of CO2 emissions, it’s still not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows (Persson et al., 2022).
 
 ``` mdx-code-block
 <Figure
