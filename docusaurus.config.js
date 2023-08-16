@@ -93,7 +93,7 @@ const config = {
       },
       footer: {
         style: "light",
-        copyright: `Designing a Green Companion to Help College Students Shop, Save, and Invest Sustainably <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
+        copyright: `Designing a Green Filter to Help College Students Shop, Save, and Invest Sustainably <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
       },
       prism: {
         theme: lightCodeTheme,
