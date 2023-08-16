@@ -69,7 +69,6 @@ const config = {
       },
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -99,6 +98,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        appId: "DDJQF6998U",
+        apiKey: "4f4fed2b096bb254dfe7a7dbb8560de4",
+        indexName: "GreenFilter",
       },
     }),
 };

@@ -12,12 +12,27 @@ suppress-bibliography: true
 
 ## *Designing an AI Companion to Help College Students Shop, Save, and Invest Sustainably* {#designing-an-ai-companion-to-help-college-students-shop-save-and-invest-sustainably}
 
-Overconsumption-driven extractive business practices contribute to the degradation of Earth’s natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate crisis, modern slavery, and other environmental and social challenges.
+Overconsumption-driven extractive business practices contribute to the
+degradation of Earth’s natural ecosystems, pollution of water, air, and
+soil, deforestation, diminishing biodiversity, climate crisis, modern
+slavery, and other environmental and social challenges.
 
-For the individual person, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial actions requires extensive time for research. Sustainability-focused companies exist but it’s difficult to find and transact with them in the midst of widespread greenwashing. People lack trustworthy tools to build communities of sustainable impact.
+For the individual person, it’s difficult to know what’s sustainable.
+Even for highly motivated people, taking sustainable financial actions
+requires extensive time for research. Sustainability-focused companies
+exist but it’s difficult to find and transact with them in the midst of
+widespread greenwashing. People lack trustworthy tools to build
+communities of sustainable impact.
 
-In this thesis I present an AI-assistant called “green filter” to empower regenerative financial activism. All interactions with businesses from shopping to saving and investing can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop long-term relationships with regenerative companies that acknowledge ecological limits.
+In this thesis I present an AI-assistant called “green filter” to
+empower regenerative financial activism. All interactions with
+businesses from shopping to saving and investing can be seen through the
+filter of sustainability. I propose *interfaces* and *workflows* to help
+people develop long-term relationships with regenerative companies that
+acknowledge ecological limits.
 
-The major contribution of the study is an interactive artefact - a design prototype of an AI companion, informed by design research.
+The major contribution of the study is an interactive artefact - a
+design prototype of an AI companion, informed by design research.
 
 **Keywords**: Climate Anxiety, Human-AI Interaction, Regeneration, Trust
+
