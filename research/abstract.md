@@ -10,7 +10,7 @@ suppress-bibliography: true
 
 # Abstract {#abstract}
 
-## *Designing an AI Companion to Help College Students Shop, Save, and Invest Sustainably* {#designing-an-ai-companion-to-help-college-students-shop-save-and-invest-sustainably}
+## *Designing a Companion to Help College Students Shop, Save, and Invest Sustainably* {#designing-a-companion-to-help-college-students-shop-save-and-invest-sustainably}
 
 Overconsumption-driven extractive business practices contribute to the
 degradation of Earth’s natural ecosystems, pollution of water, air, and

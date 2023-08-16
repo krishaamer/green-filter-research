@@ -79,6 +79,8 @@ There's a lot of LLM innovation happening.
 
 : From reports on the advance of LLMs by [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023].
 
+## Responsible AI
+
 ### Known Issues
 
 The are several large problems with this generation of LLMs such as GTP3 and GPT4 by OpenAI, Microsoft, Google and Nvidia.
@@ -87,6 +89,11 @@ The are several large problems with this generation of LLMs such as GTP3 and GPT
 
 -   LLMs are also opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard: "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?"
 
+### Biases and Prejudices
+
+-   People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminata these biases from LLM output, they will appear frequently. 
+
+
 -   AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023].
 
 -   AIs outperform humans on creativity assessment tests [@mollickAutomatingCreativity2023; @haaseArtificialMusesGenerative2023]. Bots are even better than humans in solving \@ [@matthewsparkesBotsAreBetter2023].
@@ -94,8 +101,6 @@ The are several large problems with this generation of LLMs such as GTP3 and GPT
 -   @Liu_LlamaIndex_2022 LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics.
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen.
-
-## Responsible AI
 
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
