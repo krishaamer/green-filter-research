@@ -89,10 +89,19 @@ The are several large problems with this generation of LLMs such as GTP3 and GPT
 
 -   LLMs are also opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard: "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?"
 
+-   @huyenOpenChallengesLLM2023 provides a long list of open problems AI development; AI is still in very early stages.
+
 ### Biases and Prejudices
 
--   People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminata these biases from LLM output, they will appear frequently. 
+-   People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminata these biases from LLM output, they will appear frequently.
 
+-   @lilianwengUsingGPT4Content2023 is possible to use well-aligned AI moderate harmful content.
+
+-   @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety.
+
+-   Low-paid workers being used to train AI
+
+-   Low-paid workers used to moderate harmful content; terrible for mental health.
 
 -   AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023].
 
@@ -131,6 +140,10 @@ ChatGPT makes it possible to ***evaluate AI models*** just by talking, i.e. havi
 
 -   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
 
+### AI For Summaries
+
+-   AI is great at summarizing data: @petersGoogleChromeWill2023
+
 ### Affective Computing
 
 Because of the conversational nature of LLMs, they are very useful for ***affective computing***, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account @picardAffectiveComputing1997.
@@ -164,6 +177,10 @@ Today's machines are much more capable so it's not a surprise humans would like 
 | Tool for venting                                   |
 
 : Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022.
+
+-   Google is developing an AI assistant for giving life advice @goswamiGoogleReportedlyBuilding2023.
+-   GPT-4 is able to solve difficult task in chemistry with natural-language instructions @whiteFutureChemistryLanguage2023
+-   Emojis are a part of natural language @tayWhyScienceNeeds2023
 
 ### Algorithmic Experience
 
@@ -250,7 +267,7 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
 
--   @googleOurPrinciplesGoogle outlines Google's 7 AI Principles and provides Google's UX for AI library [@joshlovejoyUXAI]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered - while AI can find patterns and offer suggestions, humans should always have the final say.
+-   Google's AI Principles and provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
 
 -   @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
 
@@ -278,7 +295,7 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @baileyAIEducation2023 believes people will increasingly use AI capabilities through UIs that are specific to a task rather than generalist interfaces like ChatGPT.
 
-How do the 7 tenets of user experience (UX) apply to AI?
+How do the tenets of user experience (UX) apply to AI?
 
 | UX         |
 |------------|
