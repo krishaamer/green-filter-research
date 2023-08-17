@@ -24,18 +24,18 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding climate targets. In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO2 levels 1.5 °C below pre-industrial levels. In August 2018, unimpressed by the lack of climate progress, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
 
 ``` mdx-code-block
 <Figure
-  caption="Climate protest in Geneva on 27th September, 2019"
+  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
   src={Geneve}
   refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
   refTitle="Wikimedia Commons"
 />
 ```
 
-While awareness of Earth’s warming climate was growing, the CO2 emissions kept rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward following a steady annual increase Keeling and Keeling (2017); and temperature estimations go back as far 2000 years Rubino et al. (2019). By the latest date from 2022, the world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions in history (Statista, 2023a). To limit global warming to 1.5 °C, removal of 5-20 gigatonnes of CO2 per year would be needed according to reduction pathways calculated by the IPCC (Wade et al., 2023). Yet, most countries are missing the mark. Given this model, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) were heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing gigatons of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
+While awareness of Earth’s warming climate was growing, the CO2 emissions kept rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase (Keeling and Keeling, 2017). Temperature estimations from tree-trunks allow some temperature comparisons with climate as far back as 2000 years ago (Rubino et al., 2019). By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions recorded in history (Statista, 2023a). To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO2 per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing gigatons of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
 
 ``` mdx-code-block
 <Figure
@@ -46,7 +46,7 @@ While awareness of Earth’s warming climate was growing, the CO2 emissions kept
 />
 ```
 
-Not discounting the enormity of CO2 emissions, it’s still not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we had breached 4 out of our 9 planetary boundaries; in addition to climate change, biodiversity loss, land-system change, and biogeochemical flows (Persson et al., 2022).
+Not discounting the enormity of CO<sub>2</sub> emissions, it’s not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we have breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss, specifically Extinctions per Million Species per Year (E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (the cycles of carbon, nitrogen, phosphorus, etc) ; from the positive side, fresh water use, ocean acidification and stratospheric ozone depletion are within planetary limits while atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified (Persson et al., 2022).
 
 ``` mdx-code-block
 <Figure
@@ -57,7 +57,24 @@ Not discounting the enormity of CO2 emissions, it’s still not the only large p
 />
 ```
 
-Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an “emergency” UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Deyan Georgiev (2023a) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+### Biodiversty Loss {#biodiversty-loss}
+
+Protecting biodiversity
+
+| What Happened?                                | How Much?                  |
+|---------------------------------------------|---------------------------|
+| Vertebrate species population average decline | 68% over the last 50 years |
+| Land surface altered by humans                | 70% of Earth               |
+| Vertebrate species extinct                    | 700 in 500 years           |
+| Plant species extinct                         | 600 in 500 years           |
+| Species under threat of extinction            | 1 million                  |
+
+Biodiversity loss data from (Bradshaw et al., 2021).
+
+-   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
+-   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
+
+Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an “emergency” UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Deyan Georgiev (2023) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 | Age Group | Agree | Neutral or Disagree |
 |-----------|-------|---------------------|
@@ -110,29 +127,15 @@ However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % o
 
 This research is timely in 2023 because of the convergence of five trends:
 
-| Trend                                                                    |
+| Trend                                                                                      |
 |------------------------------------------------------------------------|
-| Growing environmental degradation                                        |
-| Young people demand for sustainability                                   |
-| Young people have money; intergenerational money transfer to the youth   |
-| Improved sustainability metrics and instruments such as ESG, B Corp, etc |
-| Technology adoption and AI-based user interface availability             |
+| Growing environmental degradation                                                          |
+| Young people demand for sustainability                                                     |
+| Intergenerational money transfer to Millenials; relatively young people have money         |
+| Appearance of sustainability metrics and instruments such as ESG, B Corp, Green Bonds, etc |
+| Technology adoption and AI-based user interface availability                               |
 
 Current trends backing the relevance of this research project.
-
-| What Happened?                                | How Much?                  |
-|---------------------------------------------|---------------------------|
-| Vertebrate species population average decline | 68% over the last 50 years |
-| Land surface altered by humans                | 70% of Earth               |
-| Vertebrate species extinct                    | 700 in 500 years           |
-| Plant species extinct                         | 600 in 500 years           |
-| Species under threat of extinction            | 1 million                  |
-
-Biodiversity loss data from (Bradshaw et al., 2021).
-
--   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
--   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
--   Protecting biodiversity
 
 **There’s evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 (YPulse, 2020). Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents (Calastone, 2020). There’s also some evidence of investment interest, however there’s large geographic variance. According to a Calastone (2020) study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
@@ -159,6 +162,8 @@ Does individual climate action help?
 -   Dimock (2019)
 
 -   kora 95% <https://kora.app/>
+
+-   I, as the researcher, am similar to the blind people in the elephant story; focusing on greening shopping, saving, and investing are only the trunk of the enormous elephant that is environmental disaster unfolding in front of our eyes.
 
 ``` mdx-code-block
 <Figure
@@ -209,25 +214,11 @@ For the average person, our experience is limited with buying things at the supe
 
 ## Research Objective {#research-objective}
 
-Where does our money go and what are some greener alternatives?
+The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.
 
-This is largely due to the production and manufacturing processes of the companies that make the products we consume on a daily basis.
+It seems impossible to know which company is more sustainable than the other. We don’t really know what’s green, unless we spend a lot of time looking at the data. Environmental issues are caused by production and manufacturing processes of the companies that make the products we consume on a daily basis. The companion enables people to be more transparent and responsible in their consumption behavior.
 
--   An AI companion app that seeks to help people build relationships with sustainability-focused companies and enables people to be more transparent and responsible in their consumption behavior.
-
--   How can people shop, save & invest sustainably? The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.
-
--   Q: “it seems impossible to know which company is more sustainable than the other” we don’t really know what’s green?
-
--   in their sustainability report every company looks perfect
-
--   My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors.
-
--   The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users.
-
--   Branka Vuleta (2023)
-
--   Deyan Georgiev (2023b)
+My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors. The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users. In their sustainability report every company looks perfect. How can people shop, save and invest sustainably? Where does our money go and what are some greener alternatives?
 
 ## Research Demographics {#research-demographics}
 

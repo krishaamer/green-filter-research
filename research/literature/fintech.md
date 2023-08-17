@@ -110,7 +110,7 @@ From Circle Economy (2021).
 
 -   Fuller (1983): “Nature is a totally efficient, self-regenerating system. If we discover the laws that govern this system and live synergistically within them, sustainability will follow and humankind will be a success.”
 
--   Anon. (2023a) “The quality of growth matters”. John Fullerton (2011): John Fullerton: Balance efficiency with resiliency so the whole system doesn’t become brittle and break. John Fullerton (2022): “human civilization is embedded in the biosphere”. Fullerton builds on the ideas of Club of Rome and Meadows, Club of Rome and Associates (1974).
+-   Anon. (2023a) “The quality of growth matters”. John Fullerton (2011): John Fullerton: Balance efficiency with resiliency so the whole system doesn’t become brittle and break. John Fullerton (2022): “human civilization is embedded in the biosphere”. Fullerton builds on the ideas of Club of Rome and (**meadowsLimitsGrowthReport1974?**).
 
 -   Triodos Bank
 

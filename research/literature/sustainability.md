@@ -372,7 +372,7 @@ The share of CO2 emissions among people around the world is highly unequal acros
 
 Data about green house gas emissions.
 
-Crippa et al. (2022) shows average global emissions are 4.81 tonnes of CO2 per capita.
+(**crippaCO2EmissionsAll2022?**) shows average global emissions are 4.81 tonnes of CO2 per capita.
 
 | Per Capita (2020)    | Total (2021)   |
 |----------------------|----------------|
@@ -391,7 +391,7 @@ Data from World Resources Institute (2020) shows the top 5 largest per capita CO
 
 Ivanova et al. (2020) shows the average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
 
-Crippa et al. (2022) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
+(**crippaCO2EmissionsAll2022?**) reports latest figures from the EU’s Emissions Database for Global Atmospheric Research (EDGAR)
 
 Daniel Värjö (2022): The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
 
