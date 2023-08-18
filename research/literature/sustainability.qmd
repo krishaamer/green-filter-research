@@ -14,17 +14,9 @@ import Humboldt from '../images/humboldt.jpg'
 ```
 ## Ecological Indicators of the Biosphere
 
-Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago @mckibbenEndNature2006.
-
-*Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011].
-
-The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development: "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs" [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
-
-Aldo Leopold proposed the ideas of land ethics. "A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise." in A Sand County Almanac [@leopoldSandCountyAlmanac1972 ].
+*Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his seminal book A Sand County Almanac[@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
 
 @dinersteinEcoregionBasedApproachProtecting2017 identifies 846 terrestrial ecoregions.
-
-@FRA2020Remote2022 reports 27.4% of Earth's land area is covered by forests; highest rates of deforestation happened in tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation.
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
@@ -38,11 +30,13 @@ Some argue sustainability is not enough and we should work on regeneration of na
 
 #### The Price of Climate Change
 
-Long term cost is more than shor-term gains.
+Long term cost is more than short-term gains.
 
 #### Climate Data Vizualisation
 
-Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first isothermal maps around the year 1816, showing areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012 ].
+Climate data visualization has a long history, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* around the year 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023].
+
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006].
 
 -   Industrial revolution: @pearsonLowCarbonIndustrial2012: "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"
 -   Tragedy of the commons: @meisingerTragedyIntangibleCommons2022 and @lopezClimateChangeTimes2022 and @muraseSevenRulesAvoid2018
@@ -56,7 +50,7 @@ How are large corporations responding to the climate crisis?
 
 Lack of leadership. @capgeminiWorldBalanceWhy2022: "Many business leaders see sustainability as costly obligation rather than investment in the future". @hoikkalaCEOSeesTerrible2019: for example the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
 
-Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO2 reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
+Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
 @greensefaNatureVoteSuccess2023 large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business.
 
@@ -130,11 +124,11 @@ There are 2 approaches to protecting nature
 
 #### Growing Population
 
-Earth's population reached 8 Billion people In November 2022 [@theeconomictimesClimateChangeEarth2022] and population projections by [@unWorldPopulationProspects2022] predict 8.5B people by 2030 and 9.7B by 2050. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change.
+Earth's population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022].
 
--   10 Billion people by 2050.
+[@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change.
 
--   While population growth puts higher pressure on Earth's resources, some research shows the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012] **???. NEED ACCESS!!**
+-   While population growth puts higher pressure on Earth's resources, some research proposes the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012].
 
 -   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes (ATCs):
 
@@ -171,7 +165,7 @@ Earth's population reached 8 Billion people In November 2022 [@theeconomictimesC
 
 #### Overconsumption
 
-Overconsumption is one of the main drivers of climate change [@reneechoHowBuyingStuff2020]. @ivanovaQuantifyingPotentialClimate2020: "Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO2 equivalent per capita."
+Overconsumption is one of the main drivers of climate change [@reneechoHowBuyingStuff2020]. @ivanovaQuantifyingPotentialClimate2020: "Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita."
 
 Overconsumption is also one of the root causes of plastic pollution. @FORD2022150392 and @laversFarDistractionPlastic2022 suggest strong linkage of climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution".
 
@@ -194,10 +188,10 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 
 : Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
 
--   According to @debnathSocialMediaEnables2022 39% of global CO2 emissions comes from the building sector.
+-   According to @debnathSocialMediaEnables2022 39% of global CO~2~ emissions comes from the building sector.
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points
--   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+-   @lowRethinkingNetZeroSystems2022 finds considerable uncertainty exists among experts which CO~2~ reduction methods among nature-based and technology-based are the most effective.
 
 #### SDGs
 
@@ -211,7 +205,7 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 
 -   @dutoitReimaginingInternationalEnvironmental2022
 
--   @williamsIntensificationWinterTransatlantic2013 higher CO2 concrentrations in the air can cause more turbulence for flights.
+-   @williamsIntensificationWinterTransatlantic2013 higher CO~2~ concrentrations in the air can cause more turbulence for flights.
 
 -   Warmer climate helps viruses and fungi spread @pressFungalDiseaseRapidly2023
 
@@ -239,23 +233,13 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 
 : From @mayWhyShouldWe2011.
 
-#### Climate Change
-
--   Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989]. Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action @webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023. South Korea has a partnership with the European Union @europeancommissionEURepublicKorea2023.
-
--   Extreme temperatures are becoming commonplace. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023]. As temperatures rise, certain cities may become uninhabitable for humans @cbcradioExtremeHeatCould2021. The part of Earth where the *human climate niche* is becoming smaller @mckibbenWhereShouldLive2023. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees @livingstonItMidwinterIt2023.
-
-@lentonQuantifyingHumanCost2023 quantifying human cost of global warming.
-
 #### Forest and Deforestion
+
+Around 27% of Earth's land area is still covered by forests yet deforestation is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022].
 
 Afforestation is different from reforestation, which takes into account biodiversity.
 
-Deforestation is widespread all around the world.
-
 -   1 billion tree project [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]
-
--   @fredericsimonEuropeRapidlyLosing2022 Due to deforestation, Europe rapidly losing its forest carbon sink.
 
 -   Burning of biomass undermines carbon capture.
 
@@ -274,25 +258,31 @@ The main way to combat air pollution is through policy interventions. @marialuis
 
 Clean air is a requirement.
 
-#### Disasters and Extreme Weather
+#### Climate Change Disasters
 
-Large ones that get international news coverage:
+Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989].
 
--   Chernobyl
--   Exxon Valdez
--   Deepwater Horizon
+Global warming increases the risk of disasters and extreme weather events. As extreme temperatures are increasingly commonplace, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023]. As temperatures rise, certain cities may become uninhabitable for humans @cbcradioExtremeHeatCould2021. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii [CITE]. The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
+
+Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action @webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023. South Korea has a partnership with the European Union @europeancommissionEURepublicKorea2023.
+
+The fossil energy production that's a large part of global CO2 emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
+
+-   Chernobyl and Fukushima
 -   the Great Pacific Garbage Patch
--   Fukushima
--   @volkovaEffectsPrescribedFire2021 increased risk of wildfires due to climate change.
--   @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020 cover how EJAtlas tracks environmental justice cases around the world. Dispues in @eerolaCorporateConductCommodity2022.
+-   @lentonQuantifyingHumanCost2023 quantifying human cost of global warming.
+-   EJAtlas tracks environmental justice cases around the world [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
+-   Disputes in @eerolaCorporateConductCommodity2022.
 
 #### Carbon Accounting
 
--   The legislation has created an industry of CO2 accounting with many companies like Greenly, Sustaxo, etc.
+-   Watershed
+
+-   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
 
 -   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
 
--   Nonetheles, CO2 emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
+-   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
 
 ### Agroforestry & Permaculture
 
@@ -356,7 +346,7 @@ MIT is a source of many fantastic innovations.
 
 #### Cap & Trade
 
-The share of CO2 emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). @chancelGlobalCarbonInequality2022 reports "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
+The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). @chancelGlobalCarbonInequality2022 reports "while one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
 -   One example is the ICT sector.
 
@@ -370,52 +360,55 @@ The share of CO2 emissions among people around the world is highly unequal acros
 
 Data about green house gas emissions.
 
-@crippaCO2EmissionsAll2022 shows average global emissions are 4.81 tonnes of CO2 per capita.
+| Regional Avergage Per Capita Emissions (2020) | Highest Per Capita Emissions (2021) | Highest Total Emissions (2021) |
+|------------------------|-------------------------|------------------------|
+| North America 13.4 CO~2~e tonnes              | Palau                               | China                          |
+| Europe 7.5 CO~2~e tonnes                      | Qatar                               | United States                  |
+| Global Average 4.1 CO~2~e tonnes              | Kuwait                              | European Union                 |
+| Africa and the Middle East 1.7 CO~2~e tonnes  | Bahrain                             | India                          |
+|                                               | Trinidad and Tobago                 | Russia                         |
+|                                               | New Caledonia                       | Japan                          |
+|                                               | United Arab Emirates                | Iran                           |
+|                                               | Gibraltar                           | Germany                        |
+|                                               | Falkland Islands                    | South Korea                    |
+|                                               | Oman                                | Indonesia                      |
+|                                               | Saudi Arabia                        | Saudi Arabia                   |
+|                                               | Brunei Darussalam                   | Canada                         |
+|                                               | Canada                              | Brazil                         |
+|                                               | Australia                           | Turkey                         |
+|                                               | United States                       | South Africa                   |
 
-| Per Capita (2020)    | Total (2021)   |
-|----------------------|----------------|
-| Qatar                | China          |
-| Kuwait               | U.S.A          |
-| Bahrain              | European Union |
-| United Arab Emirates | India          |
-| Brunei Darussalam    | Russia         |
-|                      | Japan          |
-|                      | Iran           |
-|                      | South Korea    |
-|                      | Indonesia      |
-|                      | Saudi Arabia   |
+: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaCO2EmissionsAll2022].
 
-: Data from @worldresourcesinstituteCO2EmissionsMetric2020 shows the top 5 largest per capita CO2 emissions come from Oil Producers. Total CO2 emissions from @europeancommission.jointresearchcentre.CO2EmissionsAll2022.
-
-@ivanovaQuantifyingPotentialClimate2020 shows the average per capita carbon footprint of North America 13.4, Europe 7.5, Africa and the Middle East 1.7 tonnes of CO2 equivalent per capita.
+"The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
 @crippaCO2EmissionsAll2022 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
 
-@danielvarjoNyaSatelliterAvslojar2022: The EU Copernicus satellite system reveals new greenhouse emissions previously undetected
+The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
 
 ### Emissions Trading Schemes
 
 From Carbon Offsets to Carbon Credits
 
-Retiring CO2 allowances
+Retiring CO~2~ allowances
 
--   Facilitating citizens' access to CO2 emissions trading may be an efficient method to organize large-scale CO2 retiring @rousseEnvironmentalEconomicBenefits2008
+-   Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring @rousseEnvironmentalEconomicBenefits2008
 -   "A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere" [@annawatsonCarbonCreditRetirements2023; @annawatsonDeepDiveCarbon2022].
 
-As of 2023 there isn't a single global CO2 trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
+As of 2023 there isn't a single global CO~2~ trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
-| CO2 Market               | Launch Date | Comments                                                                                                                                                                                     |
+| CO~2~ Market             | Launch Date | Comments                                                                                                                                                                                       |
 |--------------------------|------------------|----------------------------|
-| European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                       |
-| South Korea              | 2015        |                                                                                                                                                                                              |
-| China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO2, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
-| United States of America | 2013        | No country-wide market; local CO2 markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
-| New Zealand              | 2008        | New Zealand @rontardPoliticalConstructionCarbon2022 (need access)                                                                                                                            |
-| Canada                   | 2013        |                                                                                                                                                                                              |
+| European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
+| South Korea              | 2015        |                                                                                                                                                                                                |
+| China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
+| United States of America | 2013        | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
+| New Zealand              | 2008        | New Zealand @rontardPoliticalConstructionCarbon2022 (need access)                                                                                                                              |
+| Canada                   | 2013        |                                                                                                                                                                                                |
 
-: CO2 credit trading markets around the world from @InternationalCarbonMarket.
+: CO~2~ credit trading markets around the world from @InternationalCarbonMarket.
 
-Most of the world is not part of a CO2 market.
+Most of the world is not part of a CO~2~ market.
 
 -   [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading.
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
@@ -424,28 +417,28 @@ Most of the world is not part of a CO2 market.
 
 ### Carbon Markets
 
-For the individual person, there's no direct access to CO2 markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO2 they release."
+For the individual person, there's no direct access to CO~2~ markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."
 
-#### The Price of CO2
+#### The Price of CO~2~
 
-@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO2 prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently. @ritzGlobalCarbonPrice2022 argues optimal CO2 prices could be highly asymmetric, low in some countries and high (above the social cost of CO2) in countries where production is very polluting.
+@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO~2~ prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently. @ritzGlobalCarbonPrice2022 argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
 
 -   @igeniusLetTalkSustainable2020
 
 #### **Compliance** Markets
 
-| **Compliance** Markets | Price (Tonne of CO2) |
-|------------------------|----------------------|
-| EU                     | 83 EUR               |
-| UK                     | 40 Pounds            |
-| US (California)        | 29 USD               |
-| Australia              | 32 USD               |
-| New Zealand            | 50 USD               |
-| South Korea            | 5.84 USD             |
-| China                  | 8.29 USD             |
-|                        |                      |
+| **Compliance** Markets | Price (Tonne of CO~2~) |
+|------------------------|------------------------|
+| EU                     | 83 EUR                 |
+| UK                     | 40 Pounds              |
+| US (California)        | 29 USD                 |
+| Australia              | 32 USD                 |
+| New Zealand            | 50 USD                 |
+| South Korea            | 5.84 USD               |
+| China                  | 8.29 USD               |
+|                        |                        |
 
-: Compliance market CO2 prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
+: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
 
 #### Voluntary Carbon Markets
 
@@ -460,17 +453,17 @@ There are many companies which facilitate buy carbon credits as well as a few or
 -   Methodologies: @MethodologyGHGCoBenefits2022
 -   @klimadaoOpenCallAlternative2023 call for an open standard
 
-| Voluntary Markets        | Price (Tonne of CO2) |
-|--------------------------|----------------------|
-| Aviation Industry Offset | \$0.93               |
-| Nature Based Offset      | \$1.80               |
-| Tech Based Offset        | \$0.77               |
+| Voluntary Markets        | Price (Tonne of CO~2~) |
+|--------------------------|------------------------|
+| Aviation Industry Offset | \$0.93                 |
+| Nature Based Offset      | \$1.80                 |
+| Tech Based Offset        | \$0.77                 |
 
-: Voluntary market CO2 prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
+: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
 
 #### Fossil Fuels
 
-Fossil fuels are what powers humanity as well as the largest source of CO2 emissions. @ieaGlobalEnergyReview2022 reports "Global CO2 emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO2 emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
+Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
 #### Renewable Energy
 
@@ -502,11 +495,11 @@ One's scope 3 emissions are someone else's scope 1 emissions.
 
 #### Carbon Capture
 
-Many technology startups focused on climate solutions (often referred to as climatech by the media), have proposed a range of approaches to CO2 reduction in the atmosphere.
+Many technology startups focused on climate solutions (often referred to as climatech by the media), have proposed a range of approaches to CO~2~ reduction in the atmosphere.
 
--   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO2 is difficult because of low concentration and CO2 capture at the source of the emissions is more feasible.
+-   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
 
--   @gaureTrueNotTrue2022 simulate a CO2 free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO2 emissions.
+-   @gaureTrueNotTrue2022 simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
 
 -   **Important: "creating sustainability trust in companies in realtime"**
 
@@ -514,11 +507,11 @@ Many technology startups focused on climate solutions (often referred to as clim
 
 #### Social Cost of Carbon
 
-Sustainability is filled with complexities, where CO2 emission is compounded by biodiversity loss, child labor, slavery, poverty, prostitution, dangerous chemicals, and many other issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the Social Cost of Carbon (SCC) which is defined as "additional damage caused by an extra unit of emissions" [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+Sustainability is filled with complexities, where CO~2~ emission is compounded by biodiversity loss, child labor, slavery, poverty, prostitution, dangerous chemicals, and many other issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the Social Cost of Carbon (SCC) which is defined as "additional damage caused by an extra unit of emissions" [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
 -   As shown in the Phillipines by @chengAssessingEconomicLoss2022, with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". @jerrettSmokeCaliforniaGreenhouse2022 says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
 
--   @linOpportunitiesTackleShortlived2022 says, apart from CO2, reduction of other atmospheric pollutants, such as non-CO2 greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+-   @linOpportunitiesTackleShortlived2022 says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage proposes scenarios of climate damage.
 
@@ -570,7 +563,7 @@ TODO
 
 ### AI-Assisted Design
 
-@guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO2 calculations inside their design software.
+@guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO~2~ calculations inside their design software.
 
 -   AI has the potential to provide the parameters for sustainability. @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
 -   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
@@ -651,7 +644,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   @VANDOORSSELAER2022189 **(need access!)**
 
--   @NUEZ2022133252 shows how electric vehicles may increase CO2 emissions in some areas, such as Canary Islands, where electricity production is polluting.
+-   @NUEZ2022133252 shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting.
 
 -   @ROSSI2022823 shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs.
 
@@ -732,9 +725,9 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 
 -   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
 
--   @CO2neutralFactories and @InnocentOpens200m CO2 neutral factories?
+-   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
 
--   @MakeYourWebsite CO2 neutral websites https://ecograder.com/
+-   @MakeYourWebsite CO~2~ neutral websites https://ecograder.com/
 
 -   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
 

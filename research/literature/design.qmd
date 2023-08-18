@@ -169,7 +169,7 @@ Indeed, art can be a way to see new paths forward, practicing "fictioning" to de
 
 ### Personal Carbon Trackers
 
-Similar to personal health trackers, personal CO2 trackers help one track emissions and suggests sustainable actions.
+Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
 | App                     | Description                                            |
 |-------------------------|-----------------------------------------------|
@@ -267,21 +267,21 @@ For decades, marketers and researchers have been researching how to affect human
 
 The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by @perez-cuetoNudgingPlantbasedMeals2021 found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. @GUATH2022101821 experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid "16 billion paper coffee cups are being thrown away every year" @novoradovskayaMyCupTea2021.
 
-Google currently offers a "Green Filter" in Google Flights and Google maps, which allow filtering flights and driving routes by less CO2 emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products @sundarpichaiGivingYouMore2021. Green tools inside Google's online platforms are small user interface nudges which Google's research calls ***digital decarbonization***, defined by @implementconsultinggroupHowDigitalSector2022 as "Maximising the enabling role of digital technologies by accelerating already available digital solutions".
+Google currently offers a "Green Filter" in Google Flights and Google maps, which allow filtering flights and driving routes by less CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products @sundarpichaiGivingYouMore2021. Green tools inside Google's online platforms are small user interface nudges which Google's research calls ***digital decarbonization***, defined by @implementconsultinggroupHowDigitalSector2022 as "Maximising the enabling role of digital technologies by accelerating already available digital solutions".
 
-In @katebrandtGoogleClimateAction2022, Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO2 emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (@jenimilesBecomingSustainabilityAwareApp2022). In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool @googleCarbonFootprint2023 and invests in regenerative agriculture projects @GoogleRegenerativeAgriculture2021.
+In @katebrandtGoogleClimateAction2022, Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (@jenimilesBecomingSustainabilityAwareApp2022). In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool @googleCarbonFootprint2023 and invests in regenerative agriculture projects @GoogleRegenerativeAgriculture2021.
 
 | Feature                                                                                       | Product        | Nudge                                |
 |----------------------------------|-------------------|-------------------|
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO2 emissions |
-| Google Flights suggests flights with lower CO2 emissions                                      | Google Flights | Show CO2 emissions                   |
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions |
+| Google Flights suggests flights with lower CO~2~ emissions                                      | Google Flights | Show CO~2~ emissions                   |
 
-: Examples of ***CO2 visibility i***n Google's products.
+: Examples of ***CO~2~ visibility i***n Google's products.
 
 ```{=mdx}
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
 ```
--   The founder of the Commons (Joro) consumer CO2 tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO2 tracking could develop a gut feeling about one's carbon footprint @jasonjacobsEpisodeSanchaliPal2019.
+-   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint @jasonjacobsEpisodeSanchaliPal2019.
 
 Some notable examples:
 
@@ -296,7 +296,7 @@ Some notable examples:
 | Proximity         | Change the physical (or temporal) distance of options                                     |
 | Presentation      | Change the way items are displayed                                                        |
 | Priming           | Expose users to certain stimuli before decision-making                                    |
-| Labelling         | Provide labels to influence choice (for example CO2 footprint labels)                     |
+| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                     |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
 : 7 types of nudge by @WEE2021100364
@@ -399,7 +399,7 @@ Sustainability touches every facet of human existence and is thus an enormous un
 
 -   @finkenstadtBlurryVisionSupply2021 COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
--   @wangVolumeTradeinducedCrossborder2022 Freight accounts for 1.14 gigatons of CO2 emissions as per 2015 data or 16% of total international supply chain emissions.
+-   @wangVolumeTradeinducedCrossborder2022 Freight accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions.
 
 | Type of Transport           | Percentage |
 |-----------------------------|------------|
@@ -412,7 +412,7 @@ Sustainability touches every facet of human existence and is thus an enormous un
 | Two/three-wheelers          | 3%         |
 | Rail                        | 3%         |
 
-: Share of CO2 of CO2 emissions by type of transport [@statistaGlobalTransportCO22022]
+: Share of CO~2~ of CO~2~ emissions by type of transport [@statistaGlobalTransportCO22022]
 
 -   "Transport greenhouse gas emissions have increased every year since 2014" @ClimateChangeMitigation2023
 
@@ -484,9 +484,9 @@ Data-driven design requires access to data, making the movement towards open dat
 
 : Examples of cities and countries that share data openly.
 
--   When will Bolt show CO2 emissions per every trip?
+-   When will Bolt show CO~2~ emissions per every trip?
 -   Sustainable finance data platform:
--   How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+-   How CO~2~ is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
 -   @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options
 -   @justinecalmaGoogleLaunchesNew2021 *Google UX eco features*
 -   Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
@@ -511,9 +511,9 @@ Data-driven design requires access to data, making the movement towards open dat
 
 #### Carbon Labels
 
-Adding CO2 labels for consumer products have been discussed for decades [@adamcornerWhyWeNeed2012]. @cohenPotentialRoleCarbon2012 argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019). There is some indication consumers are willing to pay a small premium for low-CO2 products (@xuLowcarbonEconomyCarbon2022). All else being equal, consumers choose the option with a lower CO2 number (@carlssonSustainableFoodCan2022). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
+Adding CO~2~ labels for consumer products have been discussed for decades [@adamcornerWhyWeNeed2012]. @cohenPotentialRoleCarbon2012 argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019). There is some indication consumers are willing to pay a small premium for low-CO~2~ products (@xuLowcarbonEconomyCarbon2022). All else being equal, consumers choose the option with a lower CO~2~ number (@carlssonSustainableFoodCan2022). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
 
-There's some evidence to suggest labeling low CO2 food enables people to choose a *climatarian diet* in a large-scale study @lohmannCarbonFootprintLabels2022 of UK university students, however the impact of carbon labels on the market share of low-carbon meals is negligible. Labels alone are not enough. underlines @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programs. @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO2 labeled meat products.
+There's some evidence to suggest labeling low CO~2~ food enables people to choose a *climatarian diet* in a large-scale study @lohmannCarbonFootprintLabels2022 of UK university students, however the impact of carbon labels on the market share of low-carbon meals is negligible. Labels alone are not enough. underlines @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products, suggesting a need for wider environmental education programs. @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
 
 Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* are some example of companies that provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. @climatepartnerLabellingCarbonFootprint2020: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. @thecarbontrustHowReduceYour: The Carbon Trust reports it's certified 27 thousand product footprints.
 
@@ -535,7 +535,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able to track your carbon footprint
 
--   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tons of CO2 equivalent per capita per year."
+-   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tonnes of CO~2~ equivalent per capita per year."
 
 -   55% of emissions come from energy production.
 
@@ -575,7 +575,7 @@ It's possible to design entire industries. Across all industries, there's a call
 
 ### Construction
 
--   @zhaoEmbodiedCarbonBased2015 super tall buildings are very CO2 intensive
+-   @zhaoEmbodiedCarbonBased2015 super tall buildings are very CO~2~ intensive
 -   embodied carbon
 -   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
 -   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
@@ -600,7 +600,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: @adamkiewiczGreenwashingSustainableFashion2022
 
--   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of water, 1.7B tons of CO2, 92 million tons of textile waste.
+-   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste.
 
 -   @kohlerCircularEconomyPerspectives2021: Globally 87% of textile products are burned or landfilled after 1st consumer use.
 
@@ -656,7 +656,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @errKomisjonTahabVahendada2022 European Commission wants to reduce the impact of fast fashion on EU market.
 
--   Minimize shopping, buy quality, save CO2, invest.
+-   Minimize shopping, buy quality, save CO~2~, invest.
 
 -   @textileexchangeTextileExchange2023 Ethical fashion materials matter
 
@@ -694,7 +694,7 @@ Food is about enticing human imagination and taste buds.
 
 -   @aubreystreitkrugPathwaysPerennialFood2023 food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
 
--   "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO2 emission" @nabipourafrouziComprehensiveReviewCarbon2023. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO2 emissions.
+-   "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" @nabipourafrouziComprehensiveReviewCarbon2023. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
 
 Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
 
@@ -765,7 +765,7 @@ Supply chain innovation in agriculture.
 
 -   Make open data easy to use in everyday life.
 
--   The key idea is making CO2 Visible.
+-   The key idea is making CO~2~ Visible.
 
 -   Rank companies based on sustainability
 
@@ -807,6 +807,6 @@ Supply chain innovation in agriculture.
 
 -   Rebuilt the app as a personalized, narrative lifestyle feed.
 
--   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO2 footprint. See the index to find some alternatives.
+-   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives.
 
 -   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...

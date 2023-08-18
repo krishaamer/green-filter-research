@@ -24,7 +24,7 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO2 levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO2 levels 1.5 °C below pre-industrial levels. In August 2018, unimpressed by the lack of climate progress, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO<sub>2</sub> levels would have a warming effect on our global climate. 120 years later, in 2016, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United Nations, 2016). In August 2018, unimpressed by the lack of climate progress, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year in 2019 for *creating a global attitudinal shift* (Deutsche Welle, 2019; Time, 2019).
 
 ``` mdx-code-block
 <Figure
@@ -35,18 +35,20 @@ In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increas
 />
 ```
 
-While awareness of Earth’s warming climate was growing, the CO2 emissions kept rising too. The hockey-stick growth of CO2 concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase (Keeling and Keeling, 2017). Temperature estimations from tree-trunks allow some temperature comparisons with climate as far back as 2000 years ago (Rubino et al., 2019). By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO2, the highest emissions recorded in history (Statista, 2023a). To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO2 per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing gigatons of CO2 from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
+While awareness of Earth’s warming climate has been growing, the CO<sub>2</sub> emissions keep rising too. The hockey-stick growth of CO<sub>2</sub> concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase (Keeling and Keeling, 2017). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012). Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago (Rubino et al., 2019).
+
+By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub>, the highest emissions recorded in history (Statista, 2023a). To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO<sub>2</sub> per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing several gigatons of CO<sub>2</sub> from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
 
 ``` mdx-code-block
 <Figure
-  caption="CO2 Concentration"
+  caption="CO~2~ concentration in the atmosphere"
   src={CO2}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
 
-Not discounting the enormity of CO<sub>2</sub> emissions, it’s not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we have breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss, specifically Extinctions per Million Species per Year (E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (the cycles of carbon, nitrogen, phosphorus, etc) ; from the positive side, fresh water use, ocean acidification and stratospheric ozone depletion are within planetary limits while atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified (Persson et al., 2022).
+Not discounting the enormity of emissions, it’s not the only large problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we have breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss, specifically Extinctions per Million Species per Year (E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (the cycles of carbon, nitrogen, phosphorus, etc) ; from the positive side, fresh water use, ocean acidification and stratospheric ozone depletion are within planetary limits while atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified (Persson et al., 2022).
 
 ``` mdx-code-block
 <Figure
@@ -74,7 +76,7 @@ Biodiversity loss data from (Bradshaw et al., 2021).
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn’t calculate in our pricing before.
 -   We also need to consider environmental effects (E in ESG). We haven’t taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
-Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO2 equivalent emissions come from our daily shopping, produced by companies that make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an “emergency” UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Deyan Georgiev (2023) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+Consumer lifestyle contributes to environmental destruction. According to Ellen MacArthur Foundation, Material Economics (2019)’s models show 45% of CO<sub>2</sub> equivalent emissions come from our shopping; produced by companies to make the products we consume. A large scale study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe “climate change is mostly caused by human activities”. An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an “emergency” UNDP (2021). While people express eco-conscious ideas, it’s non-trivial to practice sustainability in daily life. Deyan Georgiev (2023) reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 | Age Group | Agree | Neutral or Disagree |
 |-----------|-------|---------------------|
@@ -183,27 +185,23 @@ I grew up reading science fiction books and their influence on my outlook toward
 />
 ```
 
-As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction algorithms translate pinyin to 漢字. Even when we don’t realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO2, and investing in more eco-friendly businesses doesn’t sound so much of a stretch.
+As a foreigner living in Taiwan, I’ve relied extensively on Google Maps’ AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple’s text prediction algorithms translate pinyin to 漢字. Even when we don’t realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it’s become so commonplace, we don’t even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO<sub>2</sub>, and investing in more eco-friendly businesses doesn’t sound so much of a stretch.
 
 ## Research Motivation {#research-motivation}
 
--   Given these facts, what can people who want to preserve Earth’s human-friendly environment, exactly do? How can networks of people come together solve climate change, curb deforestation, support mobility and green buildings, etc?
+For the average person like myself, my experience with money is mostly limited to buying things at the supermarket. Food, clothes, furniture, soap, mobile phone. This leaves very few options on how to start with something new like saving and investing.
 
+-   Could the Green Supermarket become the entry point to Green Savings and Green Investing?
 -   Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
-
-    Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model of simple interactions to build a **quantified self** in a dynamically track health data. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stair or drinking more water. Small interactions allow users to align their value with their actions.
-
-    What would be a good interface to track sustainability?
-
--   One way to influence societal outcomes is to decide where to put our money. What is the user interface at scale, useful for billions of diverse users to make a meaningful impact? While our financial decisions are a vote towards the type of businesses we want to support, it’s not enough to ***switch to green***.
-
-For the average person, our experience is limited with buying things at the supermarket. Food, clothes, furniture, soap, mobile phone.
-
--   Green Supermarket
--   Green Savings
--   Green Investing
--   First, while young people are demanding sustainability, and progressive governments and companies are increasingly announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation? How can potential sustainability-focused retail investors access and differentiate between eco-friendly investable assets? The level of knowledge of and exposure to investing varies widely between countries.
--   Secondly, could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals? For example, in this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***financial AI advisor Susan*** (fig. 2, above) will ask me a personalized question (fig. 3):
+-   What can people who want to preserve Earth’s environment, exactly do? How can networks of people come together?
+-   Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model for simple interactions to dynamically track digital health data - also known as a quantified self. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stairs. Small interactions allow users to align their goals with their actions.
+-   What would be a good interface to track sustainability? What is the user interface at scale, useful for billions of people?
+-   One way to influence societal outcomes is to decide where to put our money. While our financial decisions are a vote towards the type of businesses we want to support, is it enough?
+-   While some people are demanding sustainability, and some governments and companies are announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation?
+-   How can retail investors access and differentiate between eco-friendly sustainability-focused investable assets?
+-   The level of knowledge of and exposure to investing varies widely between countries and people.
+-   Could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals?
+-   In this simplified scenario, I’m in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***AI companion Susan*** will ask me a personalized question:
 
 ``` mdx-code-block
 <Figure
@@ -238,13 +236,12 @@ Interviews with experts in finance and design, and a including a choice experime
 
 ## Research Questions {#research-questions}
 
-My research aims to explore the following research questions.
+My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                                                                                                                                                                      | Methods                                        |
+| №   | Question                                                                                                                                                                                                                                                                                                     | Methods                                                        |
 |-------------------|-------------------------------|-----------------------|
-| 1   | How is AI becoming an integral part of daily human interactions and experiences?                                                                                                                                                                                                                                                                              | Literature Review + Expert Interviews          |
-| 2   | How might AI assistants help college students find trustworthy regenerative shopping, saving, and investing opportunities? How can college students trust AI?                                                                                                                                                                                                 | Literature Review + Expert Interviews + Survey |
-| 3   | What AI assistant features might college students rate as the highest priority? How would college students like to interact with AI? What role would college students like the AI to take?                                                                                                                                                                    | Survey + Prototype Testing with Focus Group    |
-| 4   | What are some ongoing efforts towards sustainability and how might an AI assistant fit in? How might AI visualize the ecological impact of college students’ financial actions in digital product design? What might be some fruitful intersection between AI, design, and sustainability? How can college students support extended producer responsibility? | Literature Review + Expert Interviews          |
+| 1   | What is the current state of the planet and ongoing efforts in sustainability? What might be a fruitful intersection between AI, interaction design, and sustainability? What can college students do to aid sustainability efforts?                                                                         | Literature Review                                              |
+| 2   | In what ways is AI becoming an integral part of everyday human interactions and experiences? How might we visualize the ecological impact of college students’ financial actions? How might AI assistants help college students find trustworthy regenerative shopping, saving, and investing opportunities? | Literature Review + Expert Interviews                          |
+| 3   | What AI assistant features might college students prefer? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI?                                                                                              | Literature Review + Expert Interviews + College Student Survey |
 
-Table of the research questions.
+RQ Table.

@@ -57,7 +57,7 @@ Ecological economics is the obvious prime suspect for some eco-conscious ideas t
 
 The doughnut (donut) is a simple visualization that helps to grasp the big picture of the economy and the physical and social worlds. It allows one to see the social shortfall and ecological overshoot of nations at the same time (Fanning et al., 2021). Doughnut Economics has not been implemented on a country–level however has inspired cities to take a comprehensive view of the doughnut of their own city.
 
-Several EU cities have adopted the vision (Jordan G. Teicher, 2021). Doughnut in Brussels, Belgium. Everything has to be adapted to the place and context (Oikos Denktank, 2021; BrusselsDonut, 2022). The city of Amsterdam is developing shorter food chains (which save CO2) and linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community (Circle Economy, 2021). Amsterdam also has a Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 (Waterstaat, 2019; Gemeente Amsterdam, 2022).
+Several EU cities have adopted the vision (Jordan G. Teicher, 2021). Doughnut in Brussels, Belgium. Everything has to be adapted to the place and context (Oikos Denktank, 2021; BrusselsDonut, 2022). The city of Amsterdam is developing shorter food chains (which save CO<sub>2</sub>) and linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community (Circle Economy, 2021). Amsterdam also has a Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 (Waterstaat, 2019; Gemeente Amsterdam, 2022).
 
 The Doughnut concept is a useful social object that’s simple and deep at the same time, enabling starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it’s a ***“self-portrait of humanity in the beginning of the 21st century”.*** Combining the SDGs inside the doughnut and the Planetary Boundaries outside the doughnut. The space donut represents a state of equilibrium and balance on spaceship Earth.
 
@@ -183,7 +183,7 @@ There are many different certifications
 -   Fair Trade
 -   Anon. (2023b) For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
 -   Anon. (n.d.b) Responsible business index
--   Testing website CO2 emissions Wholegrain Digita (2023)
+-   Testing website CO<sub>2</sub> emissions Wholegrain Digita (2023)
 
 Existing rankings
 
@@ -240,7 +240,7 @@ All of the world’s products are subject to one or another standard and althoug
 
 ## Banks {#banks}
 
-Banks have access to each person’s financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan’s O Bank makes use of Mastercard’s data to calculate each transaction’s CO2 emissions(Anon., 2022b).
+Banks have access to each person’s financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan’s O Bank makes use of Mastercard’s data to calculate each transaction’s CO<sub>2</sub> emissions(Anon., 2022b).
 
 -   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one’s investment accounts. For example, Swedbank (2022), the leading bank in the Estonian market, offers a savings service where everyday payments made with one’s debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank LHV (2020) offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
@@ -294,7 +294,7 @@ Banks have access to each person’s financial habits which makes it possible to
 | Mintos        | Buy bonds and loans                                                          | EU           |
 |               |                                                                              |              |
 
-Data from (Monzo, 2023; Anon., n.d.l, n.d.m, n.d.o; Anon., n.d.n, n.d.p). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
+Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; **LightyearInvestingOwn?**). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   Andrés Engler (2022)
 -   Tokenization is similar securitization which has been happening for a long time. - Art can be securitized Masterworks (2023) - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
@@ -332,15 +332,15 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 
 -   But there’s so much capital in large funds retails investor money doesn’t matter at all. does retail money make any difference?
 
--   Anon. (n.d.q): digital assets bank
+-   Anon. (n.d.p): digital assets bank
 
--   Anon. (n.d.r): Crypto bank
+-   Anon. (n.d.q): Crypto bank
 
 -   FINMA (2021) First crypto fund
 
 -   Anon. (2023d) calculate climate cost
 
--   Anon. (n.d.s)
+-   Anon. (n.d.r)
 
 -   swissinfo.ch/urs (2022) “More than half of the Swiss banks plan to offer digital assets services over the next few years.”
 
@@ -355,17 +355,17 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 -   John Ssenkeezi (2022): Small stock investments
 -   Financial empowerment
 -   Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself
--   Anon. (n.d.t)
+-   Anon. (n.d.s)
 -   Qayyum Rajan (2021) ESG pulse
--   Anon. (n.d.u) Network for Greening the Financial System
+-   Anon. (n.d.t) Network for Greening the Financial System
 -   SmartWealth (2021) How do consumer become investors? marketing materials say: “One of the greatest hurdles to financial independence is a consumer mindset.” One of the greatest hurdles to sustainability is a consumer mindset?
 -   Outlaw (2015)
 -   Malliaris and Salchenberger (1996) **(Need to pay for paper!)**
--   Anon. (n.d.v) Huawei
+-   Anon. (n.d.u) Huawei
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
 -   Anon. (2023e) Personalised portfolios
--   Anon. (n.d.w) Thai finance app
--   Anon. (n.d.x)
+-   Anon. (n.d.v) Thai finance app
+-   Anon. (n.d.w)
 -   Renato Capelj (February 16, 2021 6:47 PM)
 
 ### Programmable Money {#programmable-money}
@@ -379,7 +379,7 @@ Cryptocurrencies are the most popular financial action among young people (CITE)
 -   Volatile national currencies lead people to find other assets to hold.
 -   Crypto enables financial innovation and financial engineering by anyone with some programming skills.
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
--   Anon. (n.d.y) estimates over 600 million cryptocurrency users worldwide
+-   Anon. (n.d.x) estimates over 600 million cryptocurrency users worldwide
 -   Raido Tõnisson (2022a) Estonian bank selling Metaverse cryptocurrency Sandbox
 -   Marten Põllumees (2022) retirement funds invested in crypto
 -   Raido Tõnisson (2022b) due to a law change Estonian could take out their pensions and invest or spend them however they wanted.
@@ -408,9 +408,9 @@ Make use of indexes to compare companies.
 
 -   “The sustainable market for Fast Moving Consumer Goods is 2.5 Trillion USD, that includes an untapped market opportunity worth 1 Trillion USD. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency”
 
--   Anon. (n.d.z) **Ban polluting products campaign success story, EU shops can’t sell deforestation products**
+-   Anon. (n.d.y) **Ban polluting products campaign success story, EU shops can’t sell deforestation products**
 
--   Anon. (n.d.aa)
+-   Anon. (n.d.z)
 
 -   Current shopping is like having a one-night stand. you barely know the name of your company. You don’t know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
 
@@ -428,13 +428,13 @@ Make use of indexes to compare companies.
 
 -   “Asia is set to account for 50% of the world’s total online retail sales”
 
--   What is the consumer CO2 contribution? What is the target?
+-   What is the consumer CO<sub>2</sub> contribution? What is the target?
 
 -   Konrad (n.d.) “an internet-wide directory of purchasable products, reminiscent of how the much of the world’s music is made available on streaming platform Spotify.”
 
 -   All the world’s product directory
 
--   Anon. (2020) Define your habits: are you consumer or investor?
+-   (**HowBecomeInvestor2020?**) Define your habits: are you consumer or investor?
 
 -   “Learn to notice so we can preserve”, “Õpetame märkama, et oskaksime hoida”
 
@@ -476,7 +476,7 @@ Conscious consumers make up a small percentage of the entire consumer public.
 
 -   “ESG Accessibility”, Large-scale accessibility to ESG,
 
--   Shop sustainability in Estonia (Lilleväli, 2022; Anon., n.d.ab). Tarbimise jalajälg poes (Helen Saarmets, 2021). Offsets at the point of sale (Anon., n.d.ac).
+-   Shop sustainability in Estonia (Lilleväli, 2022; Anon., n.d.aa). Tarbimise jalajälg poes (Helen Saarmets, 2021). Offsets at the point of sale (Anon., n.d.ab).
 
 -   Green Finance Platform (2020) report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the ‘green-minded’ demographics, providing a reliable green product is a way to build customer loyalty.
 
@@ -491,9 +491,9 @@ Conscious consumers make up a small percentage of the entire consumer public.
 -   A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface (Bunq, 2020). Sharing a similar goal to Alibaba’s Ant Forest, Bunq’s approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba’s offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 -   From Shopping to Investing Next Generation Customer Experience (n.d.) suggests “Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference.”
 -   Anon. (2023f) in Macau Contactless Payments:
--   Commons, formerly known as Joro, analysis your financialss to estimate your CO2 footprint. Chant (2022)
+-   Commons, formerly known as Joro, analysis your financialss to estimate your CO<sub>2</sub> footprint. Chant (2022)
 
-Anon. (n.d.ad) China was a money innovator introducing paper money in the Tang Dynasty (618–907 AD).
+Anon. (n.d.ac) China was a money innovator introducing paper money in the Tang Dynasty (618–907 AD).
 
 -   Anon. (2023g) Digital currencies make tracking easier
 
@@ -557,9 +557,9 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   Anon. (2023j)
 
--   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” Anon. (n.d.ae).
+-   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” Anon. (n.d.ad).
 
--   Anon. (n.d.af)
+-   Anon. (n.d.ae)
 
 -   Ethical Savings
 
@@ -567,7 +567,7 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   Anon. (2019b)
 
--   Anon. (n.d.ag)
+-   Anon. (n.d.af)
 
 ## Investing {#investing}
 
@@ -601,7 +601,7 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   Gary Gensler (2022) Investor protection, making investing accessible, climate risk disclosure
 
--   Anon. (n.d.ah) Crypto DeFi education
+-   Anon. (n.d.ag) Crypto DeFi education
 
 -   Anon. (2021e) ***Swedish green fintech (important article)***
 
@@ -650,7 +650,7 @@ Retail investing can be seen as a form of financial inclusion. Ant Group’s CEO
 
 There are many asset classes only some of which would be accessible to a retail investor.
 
--   The main categories of investment products are, based on the Anon. (n.d.ai)
+-   The main categories of investment products are, based on the Anon. (n.d.ah)
 
 | Investment Product                            |
 |-----------------------------------------------|
@@ -685,7 +685,7 @@ There are many asset classes only some of which would be accessible to a retail 
 ### Community Investing {#community-investing}
 
 -   You don’t know how to invest? Build an investing community? Can follow others and raise capital together.
--   Savings in CO2 Equivalent Emissions: CO2 savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
+-   Savings in CO<sub>2</sub> Equivalent Emissions: CO<sub>2</sub> savings are the amount of CO2e reduction one manages to achieve by changing one’s behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
 -   In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of ***social proof***, which robo-advisor do not possess.
 
 #### Hedge Funds {#hedge-funds}
@@ -718,9 +718,9 @@ Decentralized Autonomous Organizations (DAOs) which have an investable treasury 
 
 -   BlockChannel (2017)
 
--   Anon. (n.d.aj): Crypto investment clubs canceled
+-   Anon. (n.d.ai): Crypto investment clubs canceled
 
--   Anon. (n.d.ak): Crypto crop insurance
+-   Anon. (n.d.aj): Crypto crop insurance
 
 -   Social + NFTs - What would investing look like at the scale of 1 billion people
 
@@ -777,7 +777,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 -   Money connects all industries. People want to shop, save, invest sustainably - how to do it?
 
--   Anon. (n.d.al) Taxonomy of sustainable activities in the UK
+-   Anon. (n.d.ak) Taxonomy of sustainable activities in the UK
 
 -   Anon. (2023n)
 
@@ -787,8 +787,8 @@ There’s literature suggesting it’s possible to make investments that both ma
 -   Regen Network (22AD) and Regen Network (2023) regen network
 -   Smith, B. (2021)
 -   Anon. (2023p) KlimaDAO
--   Anon. (n.d.am) Moss.earth
--   Anon. (n.d.an)
+-   Anon. (n.d.al) Moss.earth
+-   Anon. (n.d.am)
 -   naturalinvest (2020)
 -   Marquis (2021)
 
@@ -897,7 +897,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
     -   Anon. (2022e) Worker Voice apps.
     -   Tim Nicolle (2021) and PrimaDollar Media (2021) PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
--   Matthew Gore, Alessio Sbraga and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO2 equivalent emissions in shipping 50% by 2050 compared to 2008.
+-   Matthew Gore, Alessio Sbraga and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO<sub>2</sub> equivalent emissions in shipping 50% by 2050 compared to 2008.
 -   Sepandar Kamvar (2022) “A blockchain is a database without a database admin”
 -   Verra (2023) Verra new Methodology Announcement Webinar
 -   Eisenstein?: “Money is a technology”.
@@ -970,19 +970,19 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 
 -   Tim Nicolle (2021) “Real-time ESG data is more difficult to greenwash”, “supply chain is a significant source of ESG content”
 
--   Automate CO2 calculations realtime:
+-   Automate CO<sub>2</sub> calculations realtime:
 
--   Indrek Kald (2022): FlowIT automate CO2 counting
+-   Indrek Kald (2022): FlowIT automate CO<sub>2</sub> counting
 
 -   “Factory social score”.
 
 -   People working at the factories can report conditions
 
--   Anon. (n.d.ao): “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.”
+-   Anon. (n.d.an): “But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success – the customer.”
 
 #### Transparency {#transparency}
 
--   Anon. (n.d.ap): Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto
+-   Anon. (n.d.ao): Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto
 
 -   Snowflake analysis like Simply Wallstreet
 

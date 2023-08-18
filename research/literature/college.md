@@ -24,6 +24,14 @@ Credit Suisse (2022) suggests young consumers are more eco-friendly and drive th
 
 -   98% of Gen-Z owns smartphone in comparison to 80% of the general world population (Global Web Index, 2017; BankMyCell, 2022).
 
+-   Branka Vuleta (2023) gen-z born between 1997 and 2012
+
+-   Deyan Georgiev (2023)
+
+-   The Economist has ran a few anonyomous articles calling gen-z green ideals into question Anon. (2023a); Anon. (2023b)
+
+-   Alex Reice (2021)
+
 The above studies give foundation for creating a persona of a U.S. College Student who doesn’t follow environmental news and thinks climate action doesn’t make a difference. This doesn’t necessarily mean this group of people with similar ideas would deny climate change is happening. Rather “Climate Denier” could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
 
 | Description           | Name  | Beliefs                       |

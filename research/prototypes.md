@@ -63,7 +63,7 @@ How can sustainability-minded college students find companies that meet their ex
 
 -   Make some initial prototype? make youtube video… hi, you have reached? spread… through estban and others?
 
--   Currently CO2 footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
+-   Currently CO<sub>2</sub> footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
 | Product Idea         | Source            |                                                                                | Prototype Link                             |
 |------------------|------------------|------------------|-------------------|
@@ -89,7 +89,7 @@ Actionable Insights: Translate data into everyday actions the app can suggest.
 
 Example Suggestions of the AI companion:
 
-“Don’t buy a car, use a car sharing service instead to save XYZ CO2. Service available near you: Bolt,\* Uber.”
+“Don’t buy a car, use a car sharing service instead to save XYZ CO<sub>2</sub>. Service available near you: Bolt,\* Uber.”
 
 “Use a refillable shampoo bottle to save XYZ plastic pollution”
 
