@@ -41,7 +41,7 @@ By the latest data from 2022, the current world population of 8 Billion people e
 
 ``` mdx-code-block
 <Figure
-  caption="CO~2~ concentration in the atmosphere"
+  caption="CO2 concentration in the atmosphere"
   src={CO2}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"

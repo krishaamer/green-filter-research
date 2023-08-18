@@ -13,13 +13,15 @@ import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
 
-## Ecological Indicators of the Biosphere {#ecological-indicators-of-the-biosphere}
+## What is Sustainability? {#what-is-sustainability}
 
 *Sustainability* was first mentioned in (Hannß Carl von Carlowitz, 1713) in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al., 2011). Aldo Leopold proposed the idea of *land ethics* as *“\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise”* in his seminal book A Sand County Almanac(Leopold, 1972). The 1987 United Nations’ Brundtland Report (Our Common Future) defined sustainable development as *“Development that meets the needs of the present without compromising the ability of future generations to meet their own needs”* (World Commission on Environment and Development, 1987).
 
-Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
+## Ecological Indicators of the Biosphere {#ecological-indicators-of-the-biosphere}
 
 Sustainability can be measured using a variety of ***ecological indicators***.
+
+Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
 
 -   Svalbard Seed Vault
 -   Jackson (1996) *preventive environmental management*
@@ -39,8 +41,8 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 Earth’s physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago (McKibben, 2006).
 
--   Industrial revolution: Pearson and Foxon (2012): “transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions”
--   Tragedy of the commons: Meisinger (2022) and Lopez, Pastén and Gutiérrez Cubillos (2022) and Murase and Baek (2018)
+-   Industrial revolution: : “transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions” (Pearson and Foxon, 2012).
+-   Tragedy of the commons: (Murase and Baek, 2018; Lopez, Pastén and Gutiérrez Cubillos, 2022; Meisinger, 2022).
 
 ``` mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -197,7 +199,7 @@ Daily human activities emission contribution on average in France, Germany, Norw
 
 #### SDGs {#sdgs}
 
--   SDGs need to discussed in their totallity Popkova et al. (2022).
+-   SDGs need to discussed in their totality Popkova et al. (2022).
 
 #### Planetary Boundaries {#planetary-boundaries-1}
 

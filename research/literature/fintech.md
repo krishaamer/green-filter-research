@@ -259,7 +259,7 @@ Banks have access to each person’s financial habits which makes it possible to
 -   O bank carbon calculator (Brasil): “Consumer Spending Carbon Calculator” and “Low-Carbon Lifestyle Debit Card”
 
 ``` mdx-code-block
-<Figure caption="Bunq combines banking and eco-friendly actions in the same UI" src={Bunq} />
+<Figure caption="Bunq promises to combine banking and eco-friendly actions in the same user interface" src={Bunq} />
 ```
 
 -   The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
@@ -307,7 +307,7 @@ The user interface and user experience (UI/UX) of consumer–focused investing a
 In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage (Cowan, 2018). While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US (Bankinghub, 2019). Already in 2017, several of the early robo-advisors apps have shut down in the UK (AltFi, 2017). ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts (AltFi, 2017). The app was bought by a bank in 2021 and closed down in 2023 (AltFi, 2021; Anon., 2023c; Silva, 2023).
 
 ``` mdx-code-block
-<Figure caption="Out-of-date User Interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
+<Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
 ```
 
 -   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers. Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.

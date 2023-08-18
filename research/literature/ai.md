@@ -8,9 +8,6 @@ editor:
 suppress-bibliography: true
 ---
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
@@ -487,6 +484,8 @@ Everything that existed before OpenAI’ GPT 4 has been blown out of the water.
 
 ### Voice Assistants {#voice-assistants}
 
+-   LLMs combined with voice provide a unnerving user experience Ethan Mollick \[@emollick\] (2023)
+
 **Amazon Alexa** is a well-known example of AI technology in the world. But Amazon’s Rohit Prasad thinks it can do so much more, “Alexa is not just an AI assistant – it’s a trusted advisor and a companion.”
 
 Ethical issues
@@ -517,33 +516,19 @@ There’s evidence across disciplines about the usefulness of AI assistants:
 ### How is AI Changing Interactions? {#how-is-ai-changing-interactions}
 
 -   Intelligence may be besides the point as long as AI is becoming very good ad reasoning - AI is a ***reasoning engine*** (Bubeck et al., 2023; Shipper, 2023; see Bailey, 2023 for a summary).
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
 -   The International Ergonomics Association (2019): To provide a user experience (UX) that best fits human needs, designers think through every interaction of the user with a system, considering a set of metrics at each point. For example, the user’s emotional needs, and their context of use. While software designers are not able to change the ergonomics of the device in use in a physical sense, which as a starting point, should be “optimized for human well-being”.
-
+-   Sarah Perez (2023) character AI, AI wife Anon. (2023c); mourning ‘dead’ AI Phoebe Arslanagić-Wakefield (n.d.); AI for therapy Broderick (2023); bullying Sung (2023);
 -   Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content and the right time, making a profound difference to the experience, keeping the user engaged and returning for more.
-
 -   Babich (2019) argues “\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system”.
-
 -   In narrative studies terminology, it’s a heroic journey of the user to achieve their goals, by navigating through the interface until a success state. Storytelling has its part in interface design however designing for transparency is just as important, when we’re dealing with the user’s finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user’s emotional and practical needs throughout the journey?
-
 -   Tubik Studio (2018) argues affordance measures the clarity of the interface to take action in user experience design, rooted in human visual perception (), however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today.
-
 -   Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with? For the vast majority of this study’s target audience, social media is the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users’ expectations in 2020 - and even more so for Generation Z teenagers, reaching adulthood in the next few years.
-
 -   Shin, Don, Zhong and Biocca (2020) argues interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level. Shin proposes the model (fig. 10) of Algorithmic Experience (AX) “investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance”.
-
 -   That general observation applies to voice recognition, voice generation, natural language parsing, etc. Large consumer companies like McDonald’s are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients.
-
 -   In Barrett (2019), in the words of Easterbrook, a previous CEO of McDonald’s “How do you transition from mass marketing to mass personalization?”. During the writing of this proposal, Google launched an improved natural language engine to better understand search queries (Google, 2020), which is the next step towards understanding human language semantics. The trend is clear, and different types of algorithms are already involved in many types of interaction design, however, we’re still in the early stages. Where do we go from here?
-
 -   Costa and Silva (2022) “Interaction Design for AI Systems”
-
 -   Stone Skipper (2022) sketches a vision of “\[AI\] blend into our lives in a form of apps and services”.
-
 -   Dot Go (2023) makes the camera the interaction device for people with vision impairment
-
 -   Battistoni et al. (2023) creates a “Workshop with Young HCI Designers”.
 
 ### AI-Assisted Design {#ai-assisted-design}

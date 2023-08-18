@@ -12,13 +12,15 @@ suppress-bibliography: true
 import Figure from '/src/components/Figure'
 import Humboldt from '../images/humboldt.jpg'
 ```
-## Ecological Indicators of the Biosphere
+## What is Sustainability?
 
 *Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his seminal book A Sand County Almanac[@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
 
-@dinersteinEcoregionBasedApproachProtecting2017 identifies 846 terrestrial ecoregions.
+## Ecological Indicators of the Biosphere
 
 Sustainability can be measured using a variety of ***ecological indicators***.
+
+@dinersteinEcoregionBasedApproachProtecting2017 identifies 846 terrestrial ecoregions.
 
 -   Svalbard Seed Vault
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
@@ -38,8 +40,12 @@ Climate data visualization has a long history, starting with ***Alexander von Hu
 
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006].
 
--   Industrial revolution: @pearsonLowCarbonIndustrial2012: "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"
--   Tragedy of the commons: @meisingerTragedyIntangibleCommons2022 and @lopezClimateChangeTimes2022 and @muraseSevenRulesAvoid2018
+-   Industrial revolution: : "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions" [@pearsonLowCarbonIndustrial2012].
+-   Tragedy of the commons: [@meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+
+::: {.content-hidden unless-format="pdf"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](../images/humboldt.jpg){width="60%"}
+:::
 
 ```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -195,7 +201,7 @@ Overconsumption is also one of the root causes of plastic pollution. @FORD202215
 
 #### SDGs
 
--   SDGs need to discussed in their totallity @popkovaTheoryDigitalTechnology2022.
+-   SDGs need to discussed in their totality @popkovaTheoryDigitalTechnology2022.
 
 #### Planetary Boundaries
 
@@ -262,7 +268,7 @@ Clean air is a requirement.
 
 Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989].
 
-Global warming increases the risk of disasters and extreme weather events. As extreme temperatures are increasingly commonplace, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023]. As temperatures rise, certain cities may become uninhabitable for humans @cbcradioExtremeHeatCould2021. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii [CITE]. The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
+Global warming increases the risk of disasters and extreme weather events. As extreme temperatures are increasingly commonplace, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023]. As temperatures rise, certain cities may become uninhabitable for humans @cbcradioExtremeHeatCould2021. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii \[CITE\]. The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
 
 Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action @webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023. South Korea has a partnership with the European Union @europeancommissionEURepublicKorea2023.
 

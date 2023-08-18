@@ -8,6 +8,9 @@ editor:
 suppress-bibliography: true
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 ## College Students {#college-students}
 
 This research focuses on developing an AI companion for ***college students***.
@@ -28,7 +31,7 @@ Credit Suisse (2022) suggests young consumers are more eco-friendly and drive th
 
 -   Deyan Georgiev (2023)
 
--   The Economist has ran a few anonyomous articles calling gen-z green ideals into question Anon. (2023a); Anon. (2023b)
+-   The Economist has ran a few anonyomous articles calling gen-z green ideals into question (**HowSellYoung2023?**); Anon. (2023a)
 
 -   Alex Reice (2021)
 
@@ -112,6 +115,193 @@ Humans working together are able to achieve more than single individuals. “Any
 
 -   Peters-Lazaro, Shresthova and Jenkins (2020)
 
+## Designing Industries {#designing-industries}
+
+It’s possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there’s a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There’s plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 2 industries that are relevant for college students.
+
+### Fashion {#fashion}
+
+Young people are the largest consumers of fast fashion (Anon., n.d.a). In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
+
+Sustainable Fashion, Textile Design
+
+-   There are signs of young Chinese consumers valuing experiences over possessions Jiang (2023).
+
+-   Millward-Hopkins, Purnell and Baurley (2023) shows how half of the textile waste in the UK is exported to other countries.
+
+-   Story of Patagonia Chouinard (2005)
+
+Across industries, reports are saying there isn’t enough transparency.
+
+-   US EPA (2016) GHG emission inventory by sector
+
+-   **Problem**: Emily Chan (2022a) report says there’s not enough transparency in fashion:
+
+-   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: Adamkiewicz et al. (2022)
+
+-   Centobelli et al. (2022) per year uses 9B cubic meters of water, 1.7B tonnes of CO<sub>2</sub>, 92 million tonnes of textile waste.
+
+-   Köhler et al. (2021): Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+-   Marrucci, Marchi and Daddi (2020) Italian retail supermarkets carbon footprint?
+
+-   Leung and Luximon (2021) There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design.
+
+-   Emily Chan (2022b) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
+
+-   Wikirate (2022): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
+
+-   Mabuza, Sonnenberg and Marx-Pienaar (2023) shows consumer knowledge of apparel coloration is very limited.
+
+-   Gyabaah et al. (2023) research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
+
+-   imperfectidealist (2020) Fashion sustainability vs greenwashing
+
+-   Anon. (2023b) Ethical Shopping
+
+-   Anon. (2023c) Ethical brand?
+
+-   Good On You (2023) Sustainable fashion company evaluations
+
+-   Anon. (n.d.b) Garment Worker’s rights
+
+-   Emily Chan (2022c): fashion companies can’t be held accountable for their actions (or indeed, their lack of action).
+
+-   WikiRate (2023)
+
+-   Anon. (2022): “Political consumerism”, “Instant Gratification for Collective Awareness and Sustainable Consumerism”
+
+-   FashionChecker (2023)
+
+-   Eesti Disainikeskus I Estonian Design Centre (2021) Circular textiles
+
+-   Eesti Kunstiakadeemia (2022) Sustainable Fashion education
+
+-   Fashion Revolution Foundation (2022) Fashion transparency index
+
+-   Anon. (n.d.c)
+
+-   “The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples.”
+
+-   Anon. (n.d.d)
+
+-   “Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
+
+-   Stand.earth (2023)
+
+-   Anon. (n.d.e)
+
+-   Anon. (n.d.f) Bangladesh Garment Manufacturers and Exporters Association
+
+-   ERR (2022) European Commission wants to reduce the impact of fast fashion on EU market.
+
+-   Minimize shopping, buy quality, save CO<sub>2</sub>, invest.
+
+-   Textile Exchange (2023) Ethical fashion materials matter
+
+-   Textile Exchange (2021): Policy request
+
+-   Free clothes
+
+-   Vanish UK (2021) “Generation rewear” documentary, sustainable fashion brands
+
+-   Storbeck (2021) and Remington (2020): Zalando says Fast fashion must disappear
+
+-   Infinited Fiber (2023)
+
+-   Cleantech Group (2023) Global cleantech 100
+
+-   Anon. (2023d) Alterations and repairs made easy
+
+-   Anon. (2023e) Ethical brand ratings
+
+### Food {#food}
+
+#### Perennial Crops {#perennial-crops}
+
+-   Multi-year crops reduce inputs of gasoline, labor, etc. Aubrey Streit Krug and Yin Lu (2023)
+
+-   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
+
+#### Culture, Community, Cuisine, Storytelling {#culture-community-cuisine-storytelling}
+
+-   Tsing (2015) mushrooms
+
+Food is about enticing human imagination and taste buds.
+
+-   Potato used to be a newcomer and innovative crop in Europe, and not it’s so common, we forget it’s no originally from here.
+
+-   Aubrey Streit Krug and Yin Lu (2023) food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
+
+-   “The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO<sub>2</sub> emission” Nabipour Afrouzi et al. (2023). Poore and Nemecek (2018) suggests 26% of carbon emissions come from food production. Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO<sub>2</sub> emissions.
+
+Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health (Santos et al., 2023). The same is true for cocoa beans, which are at risk from food fraud (Fanning et al., 2023).
+
+-   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[CITE\].
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+-   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+
+#### Food Waste {#food-waste}
+
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+``` mdx-code-block
+<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+
+| Name                         | Link                                                          |                                                                                                                                                                      |
+|----------------------|-------------------------|-------------------------|
+| Karma                        | apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                      |
+| ResQ Club                    | resq-club.com                                                 | Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                               | Haje Jan Kamps (2022) Less impact of food                                                                                                                            |
+| Social media groups (no app) |                                                               |                                                                                                                                                                      |
+
+Food saving apps
+
+-   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective                         | Content                                                                               |
+|--------------------------|----------------------------------------------|
+| *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
+| *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
+| *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
+| *“The consumer-driven perspective”* | *“A wish-list of healthy, high-quality and climate-friendly foods”*                   |
+| “The hands-on perspective”          | “Tangible solutions within the reach of consumers and the food industry”              |
+
+Perspective on food systems in Sweden.
+
+-   Kommenda et al. (2022) Carbon Food Labels
+
+-   Food Sovereignty: “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
+
+-   CAITLIN STALL-PAQUET (2021): “We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, \[climate change\] doesn’t affect our produce.”
+
+-   Renée Salmonsen (2018): Vertical farm in Taoyuan
+
+-   Catherine Shu (2023): *Intensive Farming Practices vs* Farm to table
+
+-   Akshat Rathi (2021) and Lowercarbon Capital (2023) climate startup funding.
+
+-   Only make what is ordered.
+
+#### Farm to Fork {#farm-to-fork}
+
+Farm to fork is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system.
+
+Supply chain innovation in agriculture.
+
+-   Farm to Fork Financial Times (2022)
+
+### Construction {#construction}
+
+-   Construction is large emitter because of the use of concrete; super tall buildings are very CO<sub>2</sub> intensive (Zhao and Qin, 2015).
+-   embodied carbon
+-   Oikos Denktank (2021) circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
+-   For example, Duriez et al. (2022) shows how simply by reducing material weight it’s possible to design more sustainable transportation.
+
 ## Design Implications {#design-implications}
 
 -   Community
@@ -120,7 +310,7 @@ Humans working together are able to achieve more than single individuals. “Any
 
     -   Psychology of ‘fundraising clubs’ vs individual investing
 
-    -   Anon. (n.d.) Ukraine DAO to support Ukraine through web3.
+    -   Anon. (n.d.g) Ukraine DAO to support Ukraine through web3.
 
     -   These social movements are small and require too much effort to be feasible for the app? Most college students are not zero waste or minimalist.
 

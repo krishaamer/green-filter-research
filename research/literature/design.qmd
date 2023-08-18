@@ -13,7 +13,6 @@ suppress-bibliography: true
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
-import ResQClub from '../images/resq-club.png'
 ```
 ## Data-Driven Design
 
@@ -42,7 +41,7 @@ The rise of the ***platform economy*** has created global marketplace companies 
 
 -   Superapps are more prevalent in China and South-East Asia. @giudice2020wechat argues WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. @vecchiTwoTalesInternationalization2022 China is the home of many superapps and this paper discusses the strategies taken to expand to other markets. @shabrinanurqamaraniEFFECTSMOBILESERVICE2020 discusses the system consistency and quality of South--East Asian superapps Gojek and Grab.
 
--  Uber is creating an all-purpopse platform; only 4.1% of rides were electric @levyUberCEOSays2023
+-   Uber is creating an all-purpopse platform; only 4.1% of rides were electric @levyUberCEOSays2023
 
 Could there be Sustainability Superapps?
 
@@ -74,15 +73,14 @@ In order to build a better future, it's important to be able to first imagine a 
 
 Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google (@googledesignDesignSpeculativeFutures2019). One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a **magic device** (a term from participatory design), which then inspired subsequent consumer product development. It took another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years. Imagination is crucial for change.
 
+### Digital Health
 
-### Digital Health 
-
-- Quantified Self is an example
-- Tracking air pollution and realizing how bad the over in my grandma's house is: add picture
+-   Quantified Self is an example
+-   Tracking air pollution and realizing how bad the over in my grandma's house is: add picture
 
 ### Digital Sustainability
 
-- @panArtificialIntelligenceDigital2023 important
+-   @panArtificialIntelligenceDigital2023 important
 
 ### Quantified Self
 
@@ -98,9 +96,16 @@ Use technology Wearables to be more aware of one's health.
 
 -   Figure 9: Popular Strava sports assistant provides run tracking and feedback. AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes.
 
+::: {.content-hidden unless-format="pdf"}
+![Popular Strava sports assistant provides run tracking and feedback](../images/strava.png){width="60%"}
+:::
+
 ```{=mdx}
-<Figure caption="Figure 9: Popular Strava sports assistant provides run tracking and feedback - AI Financial Advisors will need to go further to motivate users. " src={Strava} />
+<Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
 ```
+
+-   AI Financial Advisors will need to go further to motivate users.
+
 -   There is a parallel in health to sustainability and indeed both are inextricably linked.
 
 -   Tracking urine consistency inside your toilet with WithThings
@@ -271,12 +276,28 @@ Google currently offers a "Green Filter" in Google Flights and Google maps, whic
 
 In @katebrandtGoogleClimateAction2022, Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (@jenimilesBecomingSustainabilityAwareApp2022). In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool @googleCarbonFootprint2023 and invests in regenerative agriculture projects @GoogleRegenerativeAgriculture2021.
 
-| Feature                                                                                       | Product        | Nudge                                |
+@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options
+
+@justinecalmaGoogleLaunchesNew2021 Google UX eco features
+
+How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+
+Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
+
+@GoogleMostraraPor2021 Google green routes
+
+Wizzair Check carbon impact @OffsetYourFlight
+
+| Feature                                                                                       | Product        | Nudge                                  |
 |----------------------------------|-------------------|-------------------|
 | Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions |
-| Google Flights suggests flights with lower CO~2~ emissions                                      | Google Flights | Show CO~2~ emissions                   |
+| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show CO~2~ emissions                   |
 
 : Examples of ***CO~2~ visibility i***n Google's products.
+
+::: {.content-hidden unless-format="pdf"}
+![Google's view of flight emissions](../images/flight-emissions.png){width="60%"}
+:::
 
 ```{=mdx}
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
@@ -296,7 +317,7 @@ Some notable examples:
 | Proximity         | Change the physical (or temporal) distance of options                                     |
 | Presentation      | Change the way items are displayed                                                        |
 | Priming           | Expose users to certain stimuli before decision-making                                    |
-| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                     |
+| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                   |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
 : 7 types of nudge by @WEE2021100364
@@ -486,13 +507,7 @@ Data-driven design requires access to data, making the movement towards open dat
 
 -   When will Bolt show CO~2~ emissions per every trip?
 -   Sustainable finance data platform:
--   How CO~2~ is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
--   @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options
--   @justinecalmaGoogleLaunchesNew2021 *Google UX eco features*
--   Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
--   @GoogleMostraraPor2021 Google green routes
--   Wizzair Check carbon impact @OffsetYourFlight
--   @wikirateWebinarEnvisioningFinding2021 WikiRate defines 7 Data Sharing Archetypes
+-   @wikirateWebinarEnvisioningFinding2021 WikiRate defines Data Sharing Archetypes
 
 | Type                                 | Example                                                       |
 |----------------------------------|--------------------------------------|
@@ -508,6 +523,14 @@ Data-driven design requires access to data, making the movement towards open dat
 -   @laureenvanbreenPanelScalingCorporate2023
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
+
+#### Taxes
+
+-   There have been proposal of a "meat tax".
+
+#### Digital Sustainability
+
+In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
 #### Carbon Labels
 
@@ -533,7 +556,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 : Organization to Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020].
 
--   Digitalisation @DigitalReceiptsCustomer Digital Receipts to be able to track your carbon footprint
+-   Digitalisation and digital transformation; Digital Receipts are one data source for tracking one's carbon footprint [@DigitalReceiptsCustomer].
 
 -   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tonnes of CO~2~ equivalent per capita per year."
 
@@ -543,7 +566,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 #### Digital Product Passports
 
-It's a further development of the idea of carbon labels.
+Digital product passports are a further development of the idea of carbon labels.
 
 -   The European Commision has proposed a *Digital Product Passports* to help companies transfer environmental data [@nissinenMakeCarbonFootprints2022]. Carbon labels are needed for green transformation.
 
@@ -567,195 +590,7 @@ It's a further development of the idea of carbon labels.
 
 -   @gitcoinpassport2023 How to build an antifragile scoring system.
 
--   @talebAntifragileThingsThat2012 antifragile systems that get better in difficult situations
-
-## Designing Industries
-
-It's possible to design entire industries. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products.
-
-### Construction
-
--   @zhaoEmbodiedCarbonBased2015 super tall buildings are very CO~2~ intensive
--   embodied carbon
--   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
--   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
-
-### Fashion
-
-Sustainable Fashion, Textile Design
-
-@YoungConsumersComplicated: Young people are the largest consumers of fast fashion. In @europeanenvironmentagencyTextilesEnvironmentRole2022, European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
-
--   There are signs of young Chinese consumers valuing experiences over possessions @jiangHowHaveCovid2023.
-
--   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the textile waste in the UK is exported to other countries.
-
--   Story of Patagonia @chouinardLetMyPeople2005
-
-Across industries, reports are saying there isn't enough transparency.
-
--   [@hannahritchieSectorSectorWhere2020 @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
-
--   **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion:
-
--   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: @adamkiewiczGreenwashingSustainableFashion2022
-
--   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste.
-
--   @kohlerCircularEconomyPerspectives2021: Globally 87% of textile products are burned or landfilled after 1st consumer use.
-
--   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets carbon footprint?
-
--   @leungGreenDesign2021 There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design.
-
--   @emilychanWill2022Be2022 New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
-
--   @wikirateSharingDataCreating2022: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism."
-
--   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
-
--   @gyabaahCharacterizationDumpsiteWaste2023 research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
-
--   @imperfectidealistSustainableGreenwashingHow2020 Fashion sustainability vs greenwashing
-
--   @TransparencySustainabilityPlatform2023 Ethical Shopping
-
--   @SheepIncSoftcore2023 Ethical brand?
-
--   @goodonyouGoodYouSustainable2023 Sustainable fashion company evaluations
-
--   @LilyMindfulActive Garment Worker's rights
-
--   @emilychanWillFashionIndustry2022: fashion companies can't be held accountable for their actions (or indeed, their lack of action).
-
--   @wikirateWikiRate2023
-
--   @InstantGratificationCollective2022: "Political consumerism", "Instant Gratification for Collective Awareness and Sustainable Consumerism"
-
--   @fashioncheckerFashionCheckerWagesTransparency2023
-
--   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
-
--   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
-
--   @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index
-
--   @CleanClothesCampaign
-
--   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
-
--   @TextileGenesis
-
--   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
-
--   @stand.earthStandEarthPeople2023
-
--   @NewStandardInstitute
-
--   @BGMEAHome Bangladesh Garment Manufacturers and Exporters Association
-
--   @errKomisjonTahabVahendada2022 European Commission wants to reduce the impact of fast fashion on EU market.
-
--   Minimize shopping, buy quality, save CO~2~, invest.
-
--   @textileexchangeTextileExchange2023 Ethical fashion materials matter
-
--   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
-
--   Free clothes
-
--   @vanishukGENERATIONREWEARFull2021 "Generation rewear" documentary, sustainable fashion brands
-
--   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020: Zalando says Fast fashion must disappear
-
--   @infinitedfiberInfinitedFiber2023
-
--   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
-
--   @SOJODoortodoorClothing2023 Alterations and repairs made easy
-
--   @GoodYouSustainable2023 Ethical brand ratings
-
-### Food
-
-#### Perennial Crops
-
--   Multi-year crops reduce inputs of gasoline, labor, etc. @aubreystreitkrugPathwaysPerennialFood2023
-
--   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
-
-#### Culture, Community, Cuisine, Storytelling
-
--   @tsingMushroomEndWorld2015 mushrooms
-
-Food is about enticing human imagination and taste buds.
-
--   Potato used to be a newcomer and innovative crop in Europe, and not it's so common, we forget it's no originally from here.
-
--   @aubreystreitkrugPathwaysPerennialFood2023 food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
-
--   "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" @nabipourafrouziComprehensiveReviewCarbon2023. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
-
-Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
-
--   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[CITE\].
-
-<!-- -->
-
--   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
--   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
-
-#### Food Waste
-
-There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
-
-```{=mdx}
-<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
-```
-| Name                         | Link                                                          |                                                                                                                                                                                |
-|----------------------|-------------------------|-------------------------|
-| Karma                        | apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                                |
-| ResQ Club                    | resq-club.com                                                 | @kristinakostapLEVITASONAUus2022 ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
-| Kuri                         |                                                               | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                               |
-| Social media groups (no app) |                                                               |                                                                                                                                                                                |
-
-: Food saving apps
-
--   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
-
-| Perspective                         | Content                                                                               |
-|--------------------------|----------------------------------------------|
-| *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
-| *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
-| *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
-| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"*                   |
-| "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
-
-: Perspective on food systems in Sweden.
-
--   
-
--   @kommendaWouldCarbonFood2022 Carbon Food Labels
-
--   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
-
--   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
-
--   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
-
--   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
-
--   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
-
--   Only make what is ordered.
-
-#### Farm to Fork
-
-Farm to fork is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system.
-
-Supply chain innovation in agriculture.
-
--   Farm to Fork @financialtimesSustainabilityIdeasThat2022
+-   @talebAntifragileThingsThat2012 popular book discusses antifragile systems that get better in difficult situations
 
 ## *Design Implications*
 
