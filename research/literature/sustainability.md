@@ -26,6 +26,7 @@ Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
 -   Svalbard Seed Vault
 -   Jackson (1996) *preventive environmental management*
 -   Jackson (2017) limits to growth update
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
 
 Some argue sustainability is not enough and we should work on regeneration of natural habitats.
 
@@ -56,15 +57,17 @@ Lack of leadership. Capgemini (2022): “Many business leaders see sustainabilit
 
 Many large businesses have tried to find solutions by launching climate-focused funding. (Korosec, 2021) reports that Amazon’s 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. “Good intentions don’t work, mechanisms do,” Amazon’s founder Bezos is quoted as saying in (Clifford, 2022). Walmart is taking a similar approach, having launched a project in 2017 to set CO<sub>2</sub> reduction targets in collaboration with its suppliers Walmart (2023). These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
-Greens EFA (2023) large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business.
-
--   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
+Large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business (Greens EFA, 2023).
 
 -   Anon. (2013)
 
 -   Guidotti (2015)
 
 -   “Sustainability is important for many reasons including: Environmental Quality – In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment.”
+
+-   Low, S., Baum and Sovacool (2022) finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
+
+-   Pathways to drawdown
 
 #### Planetary Boundaries {#planetary-boundaries}
 
@@ -147,13 +150,13 @@ Earth’s population reached 8 Billion people In November 2022 and population pr
 
 #### Slavery {#slavery}
 
--   The need for cheap labor turns slavery into a subsidy keeping environmental degradation happening. Kunz et al. (2023) an estimated 50 million people are in slavery around the world. Lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work. Borrelli et al. (2023) 71% of enslaved people are estimated to be female. Decker Sparks et al. (2021) slavery is connected to environmental degradation and climate change. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo Sovacool (2021). In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images Boyd et al. (2018).
+In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. (Borrelli et al., 2023; Kunz et al., 2023).
 
--   UN SDG target 8.7 targets to eliminate all forms of slavery.
+The UN SDG target 8.7 targets to eliminate all forms of slavery.
 
--   Christ and V Helliar (2021) estimates 20 million people are stuck inside corporate blockchains
+Slavery is connected to environmental degradation and climate change (Decker Sparks et al., 2021). Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo (Sovacool, 2021). In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images (Boyd et al., 2018). In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
 
--   The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports Walk Free (2023)
+-   Christ and V Helliar (2021) estimates 20 million people are stuck inside corporate blockchains. The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports Walk Free (2023).
 
 -   Hans van Leeuwen (2023) slavery affects industries from fashion to technology, including sustainability enablers such as solar panels.
 
@@ -165,23 +168,21 @@ Earth’s population reached 8 Billion people In November 2022 and population pr
 
 #### Overpopulation {#overpopulation}
 
--   Cafaro, Hansson and Götmark (2022) “Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left”
+-   “Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left” Cafaro, Hansson and Götmark (2022).
 
 #### Overconsumption {#overconsumption}
 
-Overconsumption is one of the main drivers of climate change (Renee Cho, 2020). Ivanova et al. (2020): “Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO<sub>2</sub> equivalent per capita.”
+Overconsumption is one of the main drivers of climate change.” Around 2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO<sub>2</sub> equivalent per capita.” (Ivanova et al., 2020; Renee Cho, 2020)
 
-Overconsumption is also one of the root causes of plastic pollution. Ford et al. (2022) and Lavers, Bond and Rolsky (2022) suggest strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+Overconsumption is also one of the root causes of plastic pollution. Ford et al. (2022) and Lavers, Bond and Rolsky (2022) find strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
+
+While the number on overconsumption are clear, the debate on overconsumption is so polarized, it’s difficult to have a meaningful discussion of the topic (Ianole and Cornescu, 2013).
 
 -   Overconsumption and underinvestment.
 
--   Ianole and Cornescu (2013) debate on overconsumption is so polarized, it’s difficult to have a meaningful discussion of the topic.
-
--   Overconsumption is one of the root causes of climate change
-
 -   Cities are responsible for 80% of the emissions Rosales Carreón and Worrell (2018)
 
--   Moberg et al. (2019) reports daily human activities emission contribution on average in France, Germany, Norway and Sweden:
+-   Moberg et al. (2019) reports daily human activities emission contribution on average in four European countries (France, Germany, Norway and Sweden).
 
 | Emission Share | Category |
 |----------------|----------|
@@ -192,10 +193,8 @@ Overconsumption is also one of the root causes of plastic pollution. Ford et al.
 
 Daily human activities emission contribution on average in France, Germany, Norway and Sweden from Moberg et al. (2019).
 
--   According to Debnath et al. (2022) 39% of global CO<sub>2</sub> emissions comes from the building sector.
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
--   Armstrong McKay et al. (2022) discusses tipping points
--   Low, S., Baum and Sovacool (2022) finds considerable uncertainty exists among experts which CO<sub>2</sub> reduction methods among nature-based and technology-based are the most effective.
+-   Armstrong McKay et al. (2022) discusses tipping points.
 
 #### SDGs {#sdgs}
 

@@ -140,6 +140,21 @@ ChatGPT makes it possible to ***evaluate AI models*** just by talking, i.e. havi
 
 -   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
 
+### Human-in-The-Loop
+
+There are many examples of combination of AI and human, also known as "human-in-the-loop", used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023]. However humans don't necessarily correct mistakes made by computers and may instead become "partners in crime" [@krugelAlgorithmsPartnersCrime2023].
+
+-   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
+
+| App             | Category | Use Case                                                                           |
+|-------------------|---------------------------|---------------------------|
+| Welltory        | Health   | Health data analysis                                                               |
+| Wellue          | Health   | Heart arrhythmia detection                                                         |
+| QALY            | Health   | Heart arrhythmia detection                                                         |
+| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
+
+: Examples of human-in-the-loop apps
+
 ### AI For Summaries
 
 -   AI is great at summarizing data: @petersGoogleChromeWill2023

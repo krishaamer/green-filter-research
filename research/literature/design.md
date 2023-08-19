@@ -10,7 +10,7 @@ suppress-bibliography: true
 ---
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 ``` mdx-code-block
 import Figure from '/src/components/Figure'
@@ -82,12 +82,6 @@ Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses t
 -   Quantified Self is an example
 -   Tracking air pollution and realizing how bad the over in my grandma’s house is: add picture
 
-### Digital Sustainability {#digital-sustainability}
-
--   Pan and Nishant (2023) important
-
-### Quantified Self {#quantified-self}
-
 There is a lot of research on ***quantified self***. Wearable devices like Apple Watch, Oura Ring, combined with apps help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics. Giannakos et al. (2020) used wearable devices to measured physiological parameters of students at school to determine their learning efficiency. Could one track personal sustainability in a similar fashion?
 
 Shin et al. (2019) synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. Saubade et al. (2016) finds health tracking is useful for motivating physical activity. Apple is a leader in health tracking. Apple (2022a): In a 2022 report Apple outlines its plans to : “Empowering people to live a healthier day”. Apple (2022b) Apple’s HealthKit provides a growing list of health metrics. Liu et al. (2019) tracks how wearable data is used for tracking sleep improvements from exercise. Grigsby-Toussaint et al. (2017) Sleep apps and behavioral constructs.
@@ -148,11 +142,17 @@ Use technology Wearables to be more aware of one’s health.
 
 -   Baptista et al. (2022) apps for sleep apnea
 
+### Digital Sustainability {#digital-sustainability}
+
+In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
+
+-   Pan and Nishant (2023) important
+
 ### Affective Design {#affective-design}
 
 ### User Interfaces {#user-interfaces}
 
-What is the UI/UX of the green transformation?
+What is the user interface of the green transformation?
 
 McKeough (2018) business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
 
@@ -256,7 +256,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 ### Narrative Design {#narrative-design}
 
--   The rising availability of AI assistants however may displace Google search with a more conversational user experience. Google itself is working on smarter tools to displace their own main product. The examples include Google Assistant, Google Bard and large investments into LLMs.
+-   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Bard and large investments into LLMs.
 
 -   Alethea AI (2021): discusses writing AI Characters, creating a personality.
 
@@ -266,15 +266,13 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 ### Behavioral Design {#behavioral-design}
 
-#### Nudge {#nudge}
+For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways (**thalerNudgeImprovingDecisions200?**).
 
-For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on ***nudge*** is massive. First coined by the Nobel-winning economist Thaler and Sunstein (2009) in 2008, nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways.
+The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by Perez-Cueto (2021) found that designing a “dish-of-the-day” which was prominently displayed helped to increase vegetarian food choice by 85%. Guath, Stikvoort and Juslin (2022) experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid “16 billion paper coffee cups are being thrown away every year” (Novoradovskaya et al., 2021).
 
-The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by Perez-Cueto (2021) found that designing a “dish-of-the-day” which was prominently displayed helped to increase vegetarian food choice by 85%. Guath, Stikvoort and Juslin (2022) experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid “16 billion paper coffee cups are being thrown away every year” Novoradovskaya et al. (2021).
+Google uses nudges in Google Flights and Google maps, which allow filtering flights and driving routes by the amount of CO<sub>2</sub> emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products Sundar Pichai (2021). Such tools are small user interface nudges which Google’s research calls *digital decarbonization*, defined by Implement Consulting Group (2022) as “Maximising the enabling role of digital technologies by accelerating already available digital solutions”.
 
-Google currently offers a “Green Filter” in Google Flights and Google maps, which allow filtering flights and driving routes by less CO<sub>2</sub> emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products Sundar Pichai (2021). Green tools inside Google’s online platforms are small user interface nudges which Google’s research calls ***digital decarbonization***, defined by Implement Consulting Group (2022) as “Maximising the enabling role of digital technologies by accelerating already available digital solutions”.
-
-In Kate Brandt and Matt Brittin (2022), Google’s Chief Sustainability Officer Kate Brandt set a target of “at least 20-25%” CO<sub>2</sub> emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (Jeni Miles (2022)). In addition to end–users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool Google (2023) and invests in regenerative agriculture projects Anon. (2021d).
+In Kate Brandt and Matt Brittin (2022), Google’s Chief Sustainability Officer Kate Brandt set a target of “at least 20-25%” CO<sub>2</sub> emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (Jeni Miles, 2022). In addition to end–users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects (Anon., 2021d; Google, 2023).
 
 Sarah Perez (2022) shows how google added features to Flights and Maps to filter more sustainable options
 
@@ -288,24 +286,24 @@ Anon. (2021e) Google green routes
 
 Wizzair Check carbon impact Anon. (n.d.g)
 
-| Feature                                                                       | Product        | Nudge                                           |
+| Feature                                                                       | Product        | Nudge                                            |
 |----------------------------------|-------------------|-------------------|
-| Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.) | Google Maps    | Show routes with lower CO<sub>2</sub> emissions |
-| Google Flights suggests flights with lower CO<sub>2</sub> emissions           | Google Flights | Show CO<sub>2</sub> emissions                   |
+| Google Maps AI suggests more eco-friendly driving routes Mohit Moondra (n.d.) | Google Maps    | Show routes with lower CO<sub>2</sub> emissions  |
+| Google Flights suggests flights with lower CO<sub>2</sub> emissions           | Google Flights | Show flights with lower CO<sub>2</sub> emissions |
 
-Examples of ***CO<sub>2</sub> visibility i***n Google’s products.
+Examples of CO<sub>2</sub> visibility in Google’s products.
 
 ``` mdx-code-block
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
 ```
 
--   The founder of the Commons (Joro) consumer CO<sub>2</sub> tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO<sub>2</sub> tracking could develop a gut feeling about one’s carbon footprint Jason Jacobs (2019).
+-   The founder of the Commons (Joro) consumer CO<sub>2</sub> tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO<sub>2</sub> tracking could develop a gut feeling about one’s carbon footprint (Jason Jacobs, 2019).
 
 Some notable examples:
 
 -   Eriksson, Christensen and Malefors (2023) discusses best practices for reducing food waste in Sweden.
 -   Acuti, Lemarié and Viglia (2023) makes the point that physical proximity to a drop-off point helps people participate in sustainability.
--   Wee, Choong and Low (2021) proposes 7 types of nudging technique based on an overview of 37 papers in the field.
+-   Wee, Choong and Low (2021) proposes types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
 |--------------------------|----------------------------------------------|
@@ -317,7 +315,7 @@ Some notable examples:
 | Labelling         | Provide labels to influence choice (for example CO<sub>2</sub> footprint labels)          |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-7 types of nudge by Wee, Choong and Low (2021)
+Types of nudge by Wee, Choong and Low (2021)
 
 -   Bain et al. (2012) “Promoting pro-environmental action in climate change deniers” **(Need access!)**
 -   Allcott (2011) “Social norms and energy conservation” **(Need access!)**
@@ -334,7 +332,7 @@ Some notable examples:
 
 #### Gamification {#gamification}
 
--   Wirani, Nabarian and Romadhon (2022) students in Indonesia enjoy using Kahoot and it’s gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it.
+-   Students in Indonesia enjoy using Kahoot and it’s gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it (Wirani, Nabarian and Romadhon, 2022).
 -   Anon. (n.d.h) game company going green
 -   Ant Forest (螞蟻森林) is a success story of gamified nature protection. Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba’s Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
 -   Gamification makes uses of nudges.
@@ -351,7 +349,7 @@ Some notable examples:
 |      |             |             |                                      |
 |      |             |             |                                      |
 
-Table of Ant Forest assisted tree planting. Data compiled from 李连环 and 姜舒译 (2017); Yang et al. (2018); UNFCCC (2019); Wang, X. and Yao (2020); Anon. (2021f); Zhang, Hu and Gu (2022); Wang, S., Ibrahiem and Li (2022); Zhou, F., Lin and Mou (2023); Cao and Liu (2023).
+Table of Ant Forest assisted tree planting. Data compiled from (李连环 and 姜舒译, 2017; Yang et al., 2018; UNFCCC, 2019; Wang, X. and Yao, 2020; Anon., 2021f; Wang, S., Ibrahiem and Li, 2022; Zhang, Hu and Gu, 2022; Cao and Liu, 2023; Zhou, F., Lin and Mou, 2023).
 
 ``` python
 # importing the modules
@@ -380,23 +378,11 @@ plt.show()
 
 ### Life-Centered Design {#life-centered-design}
 
--   From Human-Centered to Life-Centered Design: Borthwick, Tomitsch and Gaughwin (2022) proposes a framework for life-centered design, “the design phase of a physical product accounts for 80% of its environmental impact”
+While Human-Centered Design has become popular, the effect humans are having on biodiversity leads to the idea of Life-Centered Design. Borthwick, Tomitsch and Gaughwin (2022) proposes a framework for life-centered design, “the design phase of a physical product accounts for 80% of its environmental impact”.
 
 Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there’s a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are helpful.
 
--   **Guided Sustainability** “refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact.”
 -   Sanchez et al. (2022) LoRaWAN
--   There are many examples of combination of AI and human, also known as “human-in-the-loop”, used for fields as diverse as training computer vision algorithms for self-driving cars Wu et al. (2023) and detection of disinformation in social media posts: Bonet-Jover et al. (2023). However Krügel, Ostermaier and Uhl (2023) finds humans don’t necessarily correct mistakes made by computers and may instead become “partners in crime”.
--   Stanford Institute for Human-Centered Artificial Intelligence Ge Wang (2019)
-
-| App             | Category | Use Case                                                                           |
-|-------------------|---------------------------|---------------------------|
-| Welltory        | Health   | Health data analysis                                                               |
-| Wellue          | Health   | Heart arrhythmia detection                                                         |
-| QALY            | Health   | Heart arrhythmia detection                                                         |
-| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
-
-Examples of human-in-the-loop apps
 
 ## Provenance & Traceability {#provenance-traceability}
 
@@ -411,15 +397,19 @@ Examples of human-in-the-loop apps
 -   Neethirajan and Kemp (2021) using biometric sensors to track livestock sustainability.
 -   Ray (2023) comprehensive overview of Web3.
 -   Rehash: A Web3 Podcast (2022) human-centered web3
--   Patel et al. (2023) livestock products are 15% of agri-foods valued at €152 billion in 2018.
+-   Patel et al. (2023) livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018.
 -   Inc (n.d.)
 -   Tim Nicolle (2017)
 
 #### Supply Chains {#supply-chains}
 
--   Finkenstadt and Handfield (2021) COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
+Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO<sub>2</sub> emissions as per 2015 data or 16% of total international supply chain emissions (Wang, Y. et al., 2022).
 
--   Wang, Y. et al. (2022) Freight accounts for 1.14 gigatons of CO<sub>2</sub> emissions as per 2015 data or 16% of total international supply chain emissions.
+-   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023b)
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+-   Finkenstadt and Handfield (2021) COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
 | Type of Transport           | Percentage |
 |-----------------------------|------------|
@@ -434,11 +424,9 @@ Examples of human-in-the-loop apps
 
 Share of CO<sub>2</sub> of CO<sub>2</sub> emissions by type of transport (Statista and IEA, 2022)
 
--   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023b)
-
 Circular design is possible if supply chains become circular.
 
--   Wagenvoort (2020) Self-driving supply chains.. (contact japanese factory?)
+-   Wagenvoort (2020) Self-driving supply chains.. (contact Japanese factory?)
 
 -   California Transparency in Supply Chains Act
 
@@ -492,9 +480,9 @@ Can data transparency provide tools for reducing cruelty.
 
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-#### Open Data Sharing {#open-data-sharing}
+#### Open Data {#open-data}
 
-Data-driven design requires access to data, making the movement towards open data sharing very relevant. Some countries and cities are very good at sharing data openly.
+Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
 | Country | Project                  | Reference     |
 |---------|--------------------------|---------------|
@@ -520,16 +508,12 @@ Examples of cities and countries that share data openly.
 
 -   WikiRate is a tool for checking green credentials Transparency
 -   Laureen van Breen et al. (2023)
--   Wikirate (2022)
+-   Wikirate (2022a)
 -   Anon. (n.d.j)
 
 #### Taxes {#taxes}
 
 -   There have been proposal of a “meat tax”.
-
-#### Digital Sustainability {#digital-sustainability-1}
-
-In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
 #### Carbon Labels {#carbon-labels}
 
@@ -585,11 +569,197 @@ Digital product passports are a further development of the idea of carbon labels
 
 -   Sustainable Product Management: Korzhova (2020)
 
-#### Antifragile Passport {#antifragile-passport}
+-   Gitcoin Passport Sybil Defense. Made Simple. \[@gitcoinpassport\] (2023) discusses ow to build an antifragile scoring system (antifragile passport) inspired by Nassim Taleb’s popular book that discusses antifragile systems that get better in difficult situations (Taleb, 2012).
 
--   Gitcoin Passport Sybil Defense. Made Simple. \[@gitcoinpassport\] (2023) How to build an antifragile scoring system.
+## Designing Industries {#designing-industries}
 
--   Taleb (2012) popular book discusses antifragile systems that get better in difficult situations
+It’s possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there’s a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There’s plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 2 industries that are relevant for college students.
+
+### Fashion {#fashion}
+
+Young people are the largest consumers of fast fashion (Anon., n.d.l). In European Environment Agency (2022), European Environment Agency (EEA) estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
+
+Sustainable Fashion, Textile Design
+
+-   There are signs of young Chinese consumers valuing experiences over possessions Jiang (2023).
+
+-   Millward-Hopkins, Purnell and Baurley (2023) shows how half of the textile waste in the UK is exported to other countries.
+
+-   Story of Patagonia Chouinard (2005)
+
+Across industries, reports are saying there isn’t enough transparency.
+
+-   US EPA (2016) GHG emission inventory by sector
+
+-   **Problem**: Emily Chan (2022a) report says there’s not enough transparency in fashion:
+
+-   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: Adamkiewicz et al. (2022)
+
+-   Centobelli et al. (2022) per year uses 9B cubic meters of water, 1.7B tonnes of CO<sub>2</sub>, 92 million tonnes of textile waste.
+
+-   Köhler et al. (2021): Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+-   Marrucci, Marchi and Daddi (2020) Italian retail supermarkets carbon footprint?
+
+-   Leung and Luximon (2021) There’s a growing know-how on how to produce sustainably and which materials to use. “Handbook of Footwear Design and Manufacture” Chapter 18 - Green design.
+
+-   Emily Chan (2022b) New Standard Institute’s proposed “Fashion Act” to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
+
+-   Wikirate (2022b): “Among the Index’s main goals are to help different stakeholders to better understand what data and information is being disclosed by the world’s largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people’s activism.”
+
+-   Mabuza, Sonnenberg and Marx-Pienaar (2023) shows consumer knowledge of apparel coloration is very limited.
+
+-   Gyabaah et al. (2023) research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
+
+-   imperfectidealist (2020) Fashion sustainability vs greenwashing
+
+-   Anon. (2023c) Ethical Shopping
+
+-   Anon. (2023d) Ethical brand?
+
+-   Good On You (2023) Sustainable fashion company evaluations
+
+-   Anon. (n.d.m) Garment Worker’s rights
+
+-   Emily Chan (2022c): fashion companies can’t be held accountable for their actions (or indeed, their lack of action).
+
+-   WikiRate (2023)
+
+-   Anon. (2022f): “Political consumerism”, “Instant Gratification for Collective Awareness and Sustainable Consumerism”
+
+-   FashionChecker (2023)
+
+-   Eesti Disainikeskus I Estonian Design Centre (2021) Circular textiles
+
+-   Eesti Kunstiakadeemia (2022) Sustainable Fashion education
+
+-   Fashion Revolution Foundation (2022) Fashion transparency index
+
+-   Anon. (n.d.n)
+
+-   “The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples.”
+
+-   Anon. (n.d.o)
+
+-   “Secrecy is the linchpin of abuse of power…its enabling force. Transparency is the only real antidote.” Glen Greenwald, Attorney and journalist.
+
+-   Stand.earth (2023)
+
+-   Anon. (n.d.p)
+
+-   Anon. (n.d.q) Bangladesh Garment Manufacturers and Exporters Association
+
+-   ERR (2022) European Commission wants to reduce the impact of fast fashion on EU market.
+
+-   Minimize shopping, buy quality, save CO<sub>2</sub>, invest.
+
+-   Textile Exchange (2023) Ethical fashion materials matter
+
+-   Textile Exchange (2021): Policy request
+
+-   Free clothes
+
+-   Vanish UK (2021) “Generation rewear” documentary, sustainable fashion brands
+
+-   Storbeck (2021) and Remington (2020): Zalando says Fast fashion must disappear
+
+-   Infinited Fiber (2023)
+
+-   Cleantech Group (2023) Global cleantech 100
+
+-   Anon. (2023e) Alterations and repairs made easy
+
+-   Anon. (2023f) Ethical brand ratings
+
+### Food {#food}
+
+-   Chang et al. (2021) fish fraud is a large global problem but it’s possible to use DNA-tracking to prove where the fish came from. In “2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan”
+
+#### Perennial Crops {#perennial-crops}
+
+-   Multi-year crops reduce inputs of gasoline, labor, etc. Aubrey Streit Krug and Yin Lu (2023)
+
+-   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
+
+#### Culture, Community, Cuisine, Storytelling {#culture-community-cuisine-storytelling}
+
+-   Tsing (2015) mushrooms
+
+Food is about enticing human imagination and taste buds.
+
+-   Potato used to be a newcomer and innovative crop in Europe, and not it’s so common, we forget it’s no originally from here.
+
+-   Aubrey Streit Krug and Yin Lu (2023) food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
+
+-   “The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO<sub>2</sub> emission” Nabipour Afrouzi et al. (2023). Poore and Nemecek (2018) suggests 26% of carbon emissions come from food production. Saner et al. (2015) reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. Springmann et al. (2021) proposes veganism is the most effective decision to reduce personal CO<sub>2</sub> emissions.
+
+Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health (Santos et al., 2023). The same is true for cocoa beans, which are at risk from food fraud (Fanning et al., 2023).
+
+-   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[CITE\].
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+-   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+-   Kiessling et al. (2023) Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+
+#### Food Waste {#food-waste}
+
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+``` mdx-code-block
+<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+
+| Name                         | Link                                                          |                                                                                                                                                                      |
+|----------------------|-------------------------|-------------------------|
+| Karma                        | apps.apple.com/us/app/karma-save-food-with-a-tap/id1087490062 |                                                                                                                                                                      |
+| ResQ Club                    | resq-club.com                                                 | Kristina Kostap (2022) ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on un-eaten restaurant meals before they are thrown away. |
+| Kuri                         |                                                               | Haje Jan Kamps (2022) Less impact of food                                                                                                                            |
+| Social media groups (no app) |                                                               |                                                                                                                                                                      |
+
+Food saving apps
+
+-   Röös et al. (2023) identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective                         | Content                                                                               |
+|--------------------------|----------------------------------------------|
+| *“The diagnostic perspective”*      | “*All hands on deck to fix the climate”*                                              |
+| *“The regenerative perspective”*    | “*Diversity, soil health and organic agriculture to the rescue”*                      |
+| *“The fossil-free perspective”*     | “*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel”* |
+| *“The consumer-driven perspective”* | *“A wish-list of healthy, high-quality and climate-friendly foods”*                   |
+| “The hands-on perspective”          | “Tangible solutions within the reach of consumers and the food industry”              |
+
+Perspective on food systems in Sweden.
+
+-   Kommenda et al. (2022) Carbon Food Labels
+
+-   Food Sovereignty: “The global food sovereignty movement, which had been building momentum since its grassroots conception in the late ’90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers.”
+
+-   CAITLIN STALL-PAQUET (2021): “We can grow foods just as well in the inner city as we can out in the country because we’re agnostic to arable land,” says Woods. “Because we grow indoors and create our own weather, \[climate change\] doesn’t affect our produce.”
+
+-   Renée Salmonsen (2018): Vertical farm in Taoyuan
+
+-   Catherine Shu (2023): *Intensive Farming Practices vs* Farm to table
+
+-   Akshat Rathi (2021) and Lowercarbon Capital (2023) climate startup funding.
+
+-   Only make what is ordered.
+
+#### Farm to Fork {#farm-to-fork}
+
+Farm to fork is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system.
+
+Supply chain innovation in agriculture.
+
+-   Farm to Fork Financial Times (2022)
+
+### Construction {#construction}
+
+-   According to Debnath et al. (2022) 39% of global CO<sub>2</sub> emissions comes from the building sector.
+-   Construction is large emitter because of the use of concrete; super tall buildings are very CO<sub>2</sub> intensive (Zhao and Qin, 2015).
+-   embodied carbon
+-   Oikos Denktank (2021) circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
+-   For example, Duriez et al. (2022) shows how simply by reducing material weight it’s possible to design more sustainable transportation.
 
 ## *Design Implications* {#design-implications}
 
@@ -644,3 +814,5 @@ Digital product passports are a further development of the idea of carbon labels
 -   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO<sub>2</sub> footprint. See the index to find some alternatives.
 
 -   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…
+
+-   **Guided Sustainability** “refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact.”

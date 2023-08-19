@@ -10,11 +10,11 @@ suppress-bibliography: true
 
 ## College Students in Taiwan
 
-This research focuses on finding insights that would be helpful for developing a sustainable shopping, saving, and investing companion for *college students in Taiwan*. There is a wide range of academic research available on Taiwanese students.
-
-In the most general view, Taiwanese culture is influenced by Confucianism and Daos, which also affect education; there are opportunities to revisit dialogue-based education [@changExploringDialogicEducation2023]. When it comes to environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with a regular school [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are rather influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017].
+Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be teacher-centered, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023]. When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017].
 
 College students and sustainability @liuDigitalCapabilityDigital2023 [NEED ACCESS].
+
+Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023].
 
 ### Sustainability in the Taiwanese Context
 
@@ -38,21 +38,17 @@ Progress in sustainability is possible but achieving results takes time and inno
 
 ### Developing Personas
 
-User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which is useful for *user-centered design* and also to reflect on what kind of *biases* might exist in the design. Within the larger cohort of College Students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
+User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
 
 Humans have a long list of cognitive biases, which a good design should take into account.
 
 There is extensive research on the attitudes of U.S. college students towards climate change. @americanpressinstituteKnowingNewsHow2022 reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. @schwartzClimateChangeAnxiety2022 reports some adult US students in a small study (18-35, n = 284) express feelings of insignificance of their actions to achieve any meaningful impact. @thomaesGreenTeensUnderstanding2023 reports U.S. adolescents don't find sustainability relevant to their daily life. @rossClimateChangeChallenge2016 says most people in the U.S. don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology".
 
-@creditsuisseYoungConsumersMay2022 suggests young consumers are more eco-friendly and drive the speed of change.
+-   Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].
 
--   98% of Gen-Z owns smartphone in comparison to 80% of the general world population [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].
-
--   @brankavuletaGenerationStatistics2023 gen-z born between 1997 and 2012
+-   @creditsuisseYoungConsumersMay2022 suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question @HowSellYoung2023; @HowGenMillennials2023.
 
 -   @deyangeorgiev39SmartphoneStatistics2023
-
--   The Economist has ran a few anonyomous articles calling gen-z green ideals into question @HowSellYoung2023; @HowGenMillennials2023
 
 -   @alexreiceMostEcoconsciousGeneration2021
 
@@ -76,9 +72,9 @@ The above studies give foundation for creating a persona of a U.S. College Stude
 
 ### Climate Anxiety
 
-A large @hickmanClimateAnxietyChildren2021 worldwide study (n=10000, aged 16-25) provides evidence the youth is anxious about climate in Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, @thompsonYoungPeopleClimate2021 finds young people around the world have climate anxiety. @whitmarshClimateAnxietyWhat2022 shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. @thibodeauThreeCompaniesClosing2022: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+A large @hickmanClimateAnxietyChildren2021 worldwide study (n=10000, age 16-25) provides evidence the youth is anxious about climate in Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, @thompsonYoungPeopleClimate2021 finds young people around the world have climate anxiety. @whitmarshClimateAnxietyWhat2022 shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, @ogunbodeClimateAnxietyWellbeing2022 finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. @thibodeauThreeCompaniesClosing2022: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
 
--   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. @kjaergardHealthSustainability2014 shows how *"understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"*
+-   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. @kjaergardHealthSustainability2014 shows how "understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"
 
 -   Design for Human Rights @unfcccSharmElSheikhImplementation2023 text refers to "human right to a clean, healthy and sustainable environment".
 
@@ -101,6 +97,8 @@ A large @hickmanClimateAnxietyChildren2021 worldwide study (n=10000, aged 16-25)
 Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
 
 -   Building a culture of sustainability? @lakshmirebeccaManWhoGamifying2018; @armstrongCultivatingCulturesSustainability2021
+
+The focus on *group consciousness* suggests community-based sustainability action may be effective.
 
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption.
 

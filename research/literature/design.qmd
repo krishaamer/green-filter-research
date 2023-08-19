@@ -78,12 +78,6 @@ Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses t
 -   Quantified Self is an example
 -   Tracking air pollution and realizing how bad the over in my grandma's house is: add picture
 
-### Digital Sustainability
-
--   @panArtificialIntelligenceDigital2023 important
-
-### Quantified Self
-
 There is a lot of research on ***quantified self***. Wearable devices like Apple Watch, Oura Ring, combined with apps help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics. @giannakosFitbitLearningCapturing2020 used wearable devices to measured physiological parameters of students at school to determine their learning efficiency. Could one track personal sustainability in a similar fashion?
 
 @shinWearableActivityTrackers2019 synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. Apple is a leader in health tracking. @appleEmpoweringPeopleLive2022: In a 2022 report Apple outlines its plans to : "Empowering people to live a healthier day". @appleWhatNewHealthKit2022 Apple's HealthKit provides a growing list of health metrics. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 Sleep apps and behavioral constructs.
@@ -147,11 +141,17 @@ Use technology Wearables to be more aware of one's health.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
+### Digital Sustainability
+
+In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
+
+-   @panArtificialIntelligenceDigital2023 important
+
 ### Affective Design
 
 ### User Interfaces
 
-What is the UI/UX of the green transformation?
+What is the user interface of the green transformation?
 
 @mckeoughMcKinseyDesignLaunches2018 business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
 
@@ -255,7 +255,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 ### Narrative Design
 
--   The rising availability of AI assistants however may displace Google search with a more conversational user experience. Google itself is working on smarter tools to displace their own main product. The examples include Google Assistant, Google Bard and large investments into LLMs.
+-   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Bard and large investments into LLMs.
 
 -   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating a personality.
 
@@ -265,15 +265,13 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 ### Behavioral Design
 
-#### Nudge
+For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions200].
 
-For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on ***nudge*** is massive. First coined by the Nobel-winning economist @thalerNudgeImprovingDecisions2009 in 2008, nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways.
+The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by @perez-cuetoNudgingPlantbasedMeals2021 found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. @GUATH2022101821 experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid "16 billion paper coffee cups are being thrown away every year" [@novoradovskayaMyCupTea2021].
 
-The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by @perez-cuetoNudgingPlantbasedMeals2021 found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. @GUATH2022101821 experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid "16 billion paper coffee cups are being thrown away every year" @novoradovskayaMyCupTea2021.
+Google uses nudges in Google Flights and Google maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products @sundarpichaiGivingYouMore2021. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by @implementconsultinggroupHowDigitalSector2022 as "Maximising the enabling role of digital technologies by accelerating already available digital solutions".
 
-Google currently offers a "Green Filter" in Google Flights and Google maps, which allow filtering flights and driving routes by less CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products @sundarpichaiGivingYouMore2021. Green tools inside Google's online platforms are small user interface nudges which Google's research calls ***digital decarbonization***, defined by @implementconsultinggroupHowDigitalSector2022 as "Maximising the enabling role of digital technologies by accelerating already available digital solutions".
-
-In @katebrandtGoogleClimateAction2022, Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world (@jenimilesBecomingSustainabilityAwareApp2022). In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool @googleCarbonFootprint2023 and invests in regenerative agriculture projects @GoogleRegenerativeAgriculture2021.
+In @katebrandtGoogleClimateAction2022, Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
 @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options
 
@@ -287,12 +285,12 @@ Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
 
 Wizzair Check carbon impact @OffsetYourFlight
 
-| Feature                                                                                       | Product        | Nudge                                  |
+| Feature                                                                                       | Product        | Nudge                                   |
 |----------------------------------|-------------------|-------------------|
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions |
-| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show CO~2~ emissions                   |
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions  |
+| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions |
 
-: Examples of ***CO~2~ visibility i***n Google's products.
+: Examples of CO~2~ visibility in Google's products.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Google's view of flight emissions](../images/flight-emissions.png){width="60%"}
@@ -301,13 +299,13 @@ Wizzair Check carbon impact @OffsetYourFlight
 ```{=mdx}
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
 ```
--   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint @jasonjacobsEpisodeSanchaliPal2019.
+-   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
 
 Some notable examples:
 
 -   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
 -   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
--   @WEE2021100364 proposes 7 types of nudging technique based on an overview of 37 papers in the field.
+-   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
 
 | Name              | Technique                                                                                 |
 |--------------------------|----------------------------------------------|
@@ -319,7 +317,7 @@ Some notable examples:
 | Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                   |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-: 7 types of nudge by @WEE2021100364
+: Types of nudge by @WEE2021100364
 
 -   @bainPromotingProenvironmentalAction2012 "Promoting pro-environmental action in climate change deniers" **(Need access!)**
 -   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!)**
@@ -336,7 +334,7 @@ Some notable examples:
 
 #### Gamification
 
--   @wiraniEvaluationContinuedUse2022 students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it.
+-   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
 -   @SpaceApeGames game company going green
 -   Ant Forest (螞蟻森林) is a success story of gamified nature protection. Success stories integrating previously distinct experiences with sustainability have shown positive results, for example, Alibaba's Ant Forest simultaneously raising money for planting forests and building loyalty, leading the company to consider further avenues for gamification and eco-friendliness.
 -   Gamification makes uses of nudges.
@@ -353,7 +351,7 @@ Some notable examples:
 |      |             |             |                                      |
 |      |             |             |                                      |
 
-: Table of Ant Forest assisted tree planting. Data compiled from @ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023.
+: Table of Ant Forest assisted tree planting. Data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
 
 ```{python}
 # importing the modules
@@ -380,23 +378,11 @@ plt.show()
 
 ### Life-Centered Design
 
--   From Human-Centered to Life-Centered Design: @borthwickHumancentredLifecentredDesign2022 proposes a framework for life-centered design, "the design phase of a physical product accounts for 80% of its environmental impact"
+While Human-Centered Design has become popular, the effect humans are having on biodiversity leads to the idea of Life-Centered Design. @borthwickHumancentredLifecentredDesign2022 proposes a framework for life-centered design, "the design phase of a physical product accounts for 80% of its environmental impact".
 
 Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, some technological tools are helpful.
 
--   **Guided Sustainability** "refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."
 -   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
--   There are many examples of combination of AI and human, also known as "human-in-the-loop", used for fields as diverse as training computer vision algorithms for self-driving cars @wuHumanintheLoopAIEnhancing2023 and detection of disinformation in social media posts: @bonet-joverSemiautomaticAnnotationMethodology2023. However @krugelAlgorithmsPartnersCrime2023 finds humans don't necessarily correct mistakes made by computers and may instead become "partners in crime".
--   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
-
-| App             | Category | Use Case                                                                           |
-|-------------------|---------------------------|---------------------------|
-| Welltory        | Health   | Health data analysis                                                               |
-| Wellue          | Health   | Heart arrhythmia detection                                                         |
-| QALY            | Health   | Heart arrhythmia detection                                                         |
-| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
-
-: Examples of human-in-the-loop apps
 
 ## Provenance & Traceability
 
@@ -411,15 +397,20 @@ Sustainability touches every facet of human existence and is thus an enormous un
 -   @neethirajanDigitalLivestockFarming2021 using biometric sensors to track livestock sustainability.
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
--   @patelBlockchainTechnologyFood2023 livestock products are 15% of agri-foods valued at €152 billion in 2018.
+-   @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018.
 -   @incGlanceAlexandriaRealTime
 -   @timnicolleFintechLendingWhose2017
 
 #### Supply Chains
 
--   @finkenstadtBlurryVisionSupply2021 COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
+Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
 
--   @wangVolumeTradeinducedCrossborder2022 Freight accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions.
+-   "Transport greenhouse gas emissions have increased every year since 2014" @ClimateChangeMitigation2023
+
+```{=html}
+<!-- -->
+```
+-   @finkenstadtBlurryVisionSupply2021 COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
 | Type of Transport           | Percentage |
 |-----------------------------|------------|
@@ -434,11 +425,9 @@ Sustainability touches every facet of human existence and is thus an enormous un
 
 : Share of CO~2~ of CO~2~ emissions by type of transport [@statistaGlobalTransportCO22022]
 
--   "Transport greenhouse gas emissions have increased every year since 2014" @ClimateChangeMitigation2023
-
 Circular design is possible if supply chains become circular.
 
--   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact japanese factory?)
+-   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact Japanese factory?)
 
 -   California Transparency in Supply Chains Act
 
@@ -492,9 +481,9 @@ Can data transparency provide tools for reducing cruelty.
 
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-#### Open Data Sharing
+#### Open Data
 
-Data-driven design requires access to data, making the movement towards open data sharing very relevant. Some countries and cities are very good at sharing data openly.
+Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
 | Country | Project                  | Reference           |
 |---------|--------------------------|---------------------|
@@ -526,10 +515,6 @@ Data-driven design requires access to data, making the movement towards open dat
 #### Taxes
 
 -   There have been proposal of a "meat tax".
-
-#### Digital Sustainability
-
-In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
 #### Carbon Labels
 
@@ -585,11 +570,7 @@ Digital product passports are a further development of the idea of carbon labels
 
 -   Sustainable Product Management: @korzhovaSustainableProductManagement2020
 
-#### Antifragile Passport
-
--   @gitcoinpassport2023 How to build an antifragile scoring system.
-
--   @talebAntifragileThingsThat2012 popular book discusses antifragile systems that get better in difficult situations
+-   @gitcoinpassport2023 discusses ow to build an antifragile scoring system (antifragile passport) inspired by Nassim Taleb's popular book that discusses antifragile systems that get better in difficult situations [@talebAntifragileThingsThat2012].
 
 ## Designing Industries
 
@@ -833,3 +814,5 @@ Supply chain innovation in agriculture.
 -   Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives.
 
 -   How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...
+
+-   **Guided Sustainability** "refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."
