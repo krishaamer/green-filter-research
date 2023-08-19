@@ -16,6 +16,7 @@ export const quartoRawHtml =
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
+import ResQClub from '../images/resq-club.png'
 ```
 
 ## Data-Driven Design {#data-driven-design}

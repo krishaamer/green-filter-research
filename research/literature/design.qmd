@@ -13,7 +13,9 @@ suppress-bibliography: true
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
+import ResQClub from '../images/resq-club.png'
 ```
+
 ## Data-Driven Design
 
 As we humans go about our daily business, we produce massive amounts of data, which is useful for designing better products. There are many approaches to design but the majority share the common goal of designing for a good user experience.
