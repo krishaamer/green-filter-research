@@ -406,6 +406,8 @@ Sustainability touches every facet of human existence and is thus an enormous un
 
 Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO<sub>2</sub> emissions as per 2015 data or 16% of total international supply chain emissions (Wang, Y. et al., 2022).
 
+-   Platzer (2023), a scientist working on the Apollo space programme, calls for emergency action to develop *green aviation*.
+
 -   “Transport greenhouse gas emissions have increased every year since 2014” Anon. (2023b)
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
