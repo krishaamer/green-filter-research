@@ -17,7 +17,48 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 
-## Economics {#economics}
+## Investing {#investing}
+
+The theme for this year’s Earth Day was *“Invest In Our Planet”* Earth Day (2023) and it’s very apt as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). And according to The Rockefeller Foundation (2022) a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there’s still a lack of investing, and it’s not happening fast enough. The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022a). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023a).
+
+| High-Value Assets (Trillions of USD)                                                    |           |
+|---------------------------------------------|---------------------------|
+| Global Real Estate (2020, valuation)                                                    | \$326T    |
+| Global Equity Markets (2023, valuation)                                                 | \$108T    |
+| Global GDP (2023, per year)                                                             | \$105T    |
+| Global GDP (2022, per year)                                                             | \$100T    |
+| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T* |
+| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T   |
+| U.S. National Debt (2023, valuation)                                                    | \$32.6T   |
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*   |
+| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T   |
+| GDP of U.S.A. (2023, per year)                                                          | \$26.8T   |
+| GDP of China (2023, per year)                                                           | \$19.3T   |
+| Global Private Market Assets (2023, per year)                                           | \$11.7T   |
+| *Unpriced Externalities (2023, per year)*                                               | *\$7.3T*  |
+| Global E-Commerce Sales (2021, per year)                                                | \$5.2T    |
+| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*  |
+| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T      |
+| Global Real Estate Sales (2021, per year)                                               | \$3.7T    |
+| Apple Computers (2023, market value)                                                    | \$3T      |
+| GDP of Japan (2023, per year)                                                           | \$4.5T    |
+| GDP of Germany (2023, per year)                                                         | \$4.3T    |
+| GDP of India (2023, per year)                                                           | \$3.7T    |
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T    |
+| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*  |
+| Blackstone (2023, total assets)                                                         | \$1T      |
+| NVIDIA 英偉達 (2023, market value)                                                      | \$0.9T    |
+| GDP of Taiwan (2023, per year)                                                          | \$0.8T    |
+| Bitcoin (2023, market cap)                                                              | \$0.5T    |
+| GDP of Finland (2023)                                                                   | \$0.3T    |
+| Ethereum (2023, market cap)                                                             | \$0.2T    |
+| GDP of Estonia (2023, per year)                                                         | \$0.04T   |
+
+Comparative data on needed climate investment and other valuable assets; all figures in trillions of USD Stephanie Aaronson and Aaron Tilley (2023)
+
+However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % of the global GDP, if we compare it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 (Aaron O’Neill, 2023; International Monetary Fund, 2023). In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
+
+### Economics {#economics}
 
 The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, regenerative capitalism, doughnut economics, ecological economics, blue economics, degrowth, attention economy, gift economy, intent economy, and others. There’s no lack of books on changing capitalism, which goes to show there’s readership for these ideas. But I’m not about to build a new economic theory as part of my thesis on design, so I’ll focus on the parts of economic theory I believe are relevant to designing for sustainability.
 
@@ -110,7 +151,7 @@ From Circle Economy (2021).
 
 -   Fuller (1983): “Nature is a totally efficient, self-regenerating system. If we discover the laws that govern this system and live synergistically within them, sustainability will follow and humankind will be a success.”
 
--   Anon. (2023a) “The quality of growth matters”. John Fullerton (2011): John Fullerton: Balance efficiency with resiliency so the whole system doesn’t become brittle and break. John Fullerton (2022): “human civilization is embedded in the biosphere”. Fullerton builds on the ideas of Club of Rome and (**meadowsLimitsGrowthReport1974?**).
+-   Anon. (2023b) “The quality of growth matters”. John Fullerton (2011): John Fullerton: Balance efficiency with resiliency so the whole system doesn’t become brittle and break. John Fullerton (2022): “human civilization is embedded in the biosphere”. Fullerton builds on the ideas of Club of Rome and (**meadowsLimitsGrowthReport1974?**).
 
 -   Triodos Bank
 
@@ -134,7 +175,7 @@ metrics and goals: ESG, SDGs,
 
 -   Krausmann et al. (2018)
 
--   Anon. (2022a)
+-   Anon. (2022b)
 
 -   support_ll (2021)
 
@@ -181,7 +222,7 @@ There are many different certifications
 -   B Impact Assessment
 -   sustainable brands
 -   Fair Trade
--   Anon. (2023b) For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
+-   Anon. (2023c) For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
 -   Anon. (n.d.b) Responsible business index
 -   Testing website CO<sub>2</sub> emissions Wholegrain Digita (2023)
 
@@ -240,7 +281,7 @@ All of the world’s products are subject to one or another standard and althoug
 
 ## Banks {#banks}
 
-Banks have access to each person’s financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan’s O Bank makes use of Mastercard’s data to calculate each transaction’s CO<sub>2</sub> emissions(Anon., 2022b).
+Banks have access to each person’s financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan’s O Bank makes use of Mastercard’s data to calculate each transaction’s CO<sub>2</sub> emissions(Anon., 2022c).
 
 -   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one’s investment accounts. For example, Swedbank (2022), the leading bank in the Estonian market, offers a savings service where everyday payments made with one’s debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank LHV (2020) offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
@@ -304,7 +345,7 @@ Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; **LightyearInv
 
 The user interface and user experience (UI/UX) of consumer–focused investing apps in Europe has improved a lot over the past few years. One may assume the changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of investing apps and the lessons learned.
 
-In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage (Cowan, 2018). While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US (Bankinghub, 2019). Already in 2017, several of the early robo-advisors apps have shut down in the UK (AltFi, 2017). ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts (AltFi, 2017). The app was bought by a bank in 2021 and closed down in 2023 (AltFi, 2021; Anon., 2023c; Silva, 2023).
+In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage (Cowan, 2018). While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US (Bankinghub, 2019). Already in 2017, several of the early robo-advisors apps have shut down in the UK (AltFi, 2017). ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts (AltFi, 2017). The app was bought by a bank in 2021 and closed down in 2023 (AltFi, 2021; Anon., 2023d; Silva, 2023).
 
 ``` mdx-code-block
 <Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
@@ -338,7 +379,7 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 
 -   FINMA (2021) First crypto fund
 
--   Anon. (2023d) calculate climate cost
+-   Anon. (2023e) calculate climate cost
 
 -   Anon. (n.d.r)
 
@@ -363,7 +404,7 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 -   Malliaris and Salchenberger (1996) **(Need to pay for paper!)**
 -   Anon. (n.d.u) Huawei
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
--   Anon. (2023e) Personalised portfolios
+-   Anon. (2023f) Personalised portfolios
 -   Anon. (n.d.v) Thai finance app
 -   Anon. (n.d.w)
 -   Renato Capelj (February 16, 2021 6:47 PM)
@@ -490,12 +531,12 @@ Conscious consumers make up a small percentage of the entire consumer public.
 -   Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn’t there be 180 degrees opposite service - point of sales investing?
 -   A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface (Bunq, 2020). Sharing a similar goal to Alibaba’s Ant Forest, Bunq’s approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba’s offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 -   From Shopping to Investing Next Generation Customer Experience (n.d.) suggests “Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference.”
--   Anon. (2023f) in Macau Contactless Payments:
+-   Anon. (2023g) in Macau Contactless Payments:
 -   Commons, formerly known as Joro, analysis your financialss to estimate your CO<sub>2</sub> footprint. Chant (2022)
 
 Anon. (n.d.ac) China was a money innovator introducing paper money in the Tang Dynasty (618–907 AD).
 
--   Anon. (2023g) Digital currencies make tracking easier
+-   Anon. (2023h) Digital currencies make tracking easier
 
 -   E-Naira find papers
 
@@ -507,7 +548,7 @@ Anon. (n.d.ac) China was a money innovator introducing paper money in the Tang D
 
 -   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
 
--   Anon. (2022c)
+-   Anon. (2022d)
 
 People are concerned with digital payments
 
@@ -523,7 +564,7 @@ People are concerned with digital payments
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
 
--   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types Anon. (2023i).
+-   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types Anon. (2023j).
 
 -   Twitter (now X) is becoming a financial app.
 
@@ -555,7 +596,7 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
 
--   Anon. (2023j)
+-   Anon. (2023k)
 
 -   “Environmental savings”, “means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of” Anon. (n.d.ad).
 
@@ -563,13 +604,13 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   Ethical Savings
 
--   Anon. (2023k)
+-   Anon. (2023l)
 
 -   Anon. (2019b)
 
 -   Anon. (n.d.af)
 
-## Investing {#investing}
+## Investing {#investing-1}
 
 Young investors are typically ***retail investors*** investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples’ money.)
 
@@ -629,7 +670,7 @@ Retail investing can be seen as a form of financial inclusion. Ant Group’s CEO
 
 -   Stef (2019)
 
--   Anon. (2023l)
+-   Anon. (2023m)
 
 -   Seeking Alpha (2020)
 
@@ -710,7 +751,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. Also, the legislation affecting each would be different as hedge funds are an older and more established financial tool whereas DAOs still fall in somewhat of a gray area.
 
--   Anon. (2023m) DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
+-   Anon. (2023n) DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
 
 -   Carra Wu and Chris Dixon (2021) DAO consumer to investor
 
@@ -779,14 +820,14 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 -   Anon. (n.d.ak) Taxonomy of sustainable activities in the UK
 
--   Anon. (2023n)
+-   Anon. (2023o)
 
 #### Regenerative Finance {#regenerative-finance}
 
--   Anon. (2023o): What is Reggenerative Finance (ReFi).
+-   Anon. (2023p): What is Reggenerative Finance (ReFi).
 -   Regen Network (22AD) and Regen Network (2023) regen network
 -   Smith, B. (2021)
--   Anon. (2023p) KlimaDAO
+-   Anon. (2023q) KlimaDAO
 -   Anon. (n.d.al) Moss.earth
 -   Anon. (n.d.am)
 -   naturalinvest (2020)
@@ -846,7 +887,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 -   Gov launching ESG funds. Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus.
 
--   Anon. (2022d)
+-   Anon. (2022e)
 
 -   Given our combined power (I’m a Millennial) with Generation Z, we are willing to pay more for sustainable products \[^8\].
 
@@ -860,7 +901,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users’ personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
 
--   James Phillipps (2022) and Anon. (2023q) ESG Not delivering on it’s hopes
+-   James Phillipps (2022) and Anon. (2023r) ESG Not delivering on it’s hopes
 
 -   TEDx Talks (2022) large corporations are using ESG for greenwashing by investing in token-projects but not changing their fundamental polluting practices.
 
@@ -895,7 +936,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 #### How to Trace Worker’s Rights? {#how-to-trace-workers-rights}
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice” by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
-    -   Anon. (2022e) Worker Voice apps.
+    -   Anon. (2022f) Worker Voice apps.
     -   Tim Nicolle (2021) and PrimaDollar Media (2021) PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 -   Matthew Gore, Alessio Sbraga and Joseph Malpas (2022) reports the International Maritime Organization (IMO) targets cutting CO<sub>2</sub> equivalent emissions in shipping 50% by 2050 compared to 2008.
 -   Sepandar Kamvar (2022) “A blockchain is a database without a database admin”
@@ -918,7 +959,7 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
 -   Napper and Thompson (2019): Shopping bags marketed as *biodegradable* don’t show deterioration after 3 years in salt-water sea environment ..
 
--   Yu (2021) ESG is filled with greenwashing. Anon. (2023r) several US states are introducing regulation for ESGs to curb greenwashing. Frances Schwartzkopff (2022b) suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
+-   Yu (2021) ESG is filled with greenwashing. Anon. (2023s) several US states are introducing regulation for ESGs to curb greenwashing. Frances Schwartzkopff (2022b) suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
 
 -   Greenwashing is a large detractor from environmental action as it’s difficult to know what is sustainable and what is not.
 
@@ -928,7 +969,7 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
 -   Frédéric Simon (2020) and Kira Taylor (2021): While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection. Booth (2022) describes how “A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified ‘sustainable’ by the Sustainable Biomass Program”. A number of new AI-based tools aim to find instances of greenwashing.
 
--   Anon. (2022f): Climate Bonds Initiative greening the \$55 trillion short-term debt market
+-   Anon. (2022g): Climate Bonds Initiative greening the \$55 trillion short-term debt market
 
 -   Marketing
 
