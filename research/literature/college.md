@@ -16,6 +16,12 @@ College students and sustainability Liu et al. (2023, NEED ACCESS).
 
 Taiwan has an aging population (Goh et al., 2023).
 
+-   Comparing university students’ education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583) : Berglund et al. (2020).
+
+-   Sustainablity behaviour of Taiwanese University students; the COVID-19 pandemic also brought more attention on environmental topics Liu et al. (2023)
+
+-   Taiwanese college students and SDGs Ho et al. (2022).
+
 ### Sustainability in the Taiwanese Context {#sustainability-in-the-taiwanese-context}
 
 Musical garbage truck are a success story of the environmental progress in Taiwan (Helen Davidson and Chi Hui Lin, 2022). Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.

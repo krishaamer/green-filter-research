@@ -49,6 +49,8 @@ Earth’s physical systems are very sensitive to small changes in temperature, w
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
 
+Earth System Models from the first calculation by Svante Arrhenius and Guy Stewart Callendar to today’s complex models that integrate the various Earth systems and cycles ran on supercomputers Anderson, Hawkins and Jones (2016)
+
 ### Climatech {#climatech}
 
 How are large corporations responding to the climate crisis?
