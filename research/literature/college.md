@@ -16,7 +16,23 @@ College students and sustainability Liu et al. (2023, NEED ACCESS).
 
 Taiwan has an aging population (Goh et al., 2023).
 
--   Comparing university students’ education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583) : Berglund et al. (2020).
+-   Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range (林美惠. and 莊, 2015).
+
+-   The devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education (姚 and 侯, 2011).
+
+-   Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops (Liao et al., 2022).
+
+-   Chen and Tsai (2016) reports a positive attittude yet moderate knowledge about ocean sustainability among Taiwanese college students (n=825).
+
+-   陳 (2003) reports a good knowledge of sustainable development among junior high school students in Da-an District, Taipei City (n=596).
+
+-   林建輝. (2009) similarly reports a positive attitude and good knowledge of environmental sustainable development among senior high school students towards in Taipei City (n=328).
+
+-   Several Taiwanese studies focus on the physical environment of school campuses, for example about sustainability of elementary school campuses (潘智謙 and Chih-Chien, 2006).
+
+-   Manchanda et al. (2023) survey (n=726) administred at shopping malls in New Delhi, India, found similar levels of sustainability consciousness between Millenial (n=206) and Generation-Z (n=360) age groups; people with high level of materialism were found to be less sustainability-conscious; the effect of mindfulness on sustainability was found to be stronger among females than males, supporting the hypothesis of the moderating effect of gender.
+
+-   Comparing university students’ education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583); Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform Berglund et al. (2020).
 
 -   Sustainablity behaviour of Taiwanese University students; the COVID-19 pandemic also brought more attention on environmental topics Liu et al. (2023)
 

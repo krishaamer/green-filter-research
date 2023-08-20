@@ -178,6 +178,8 @@ Overconsumption is one of the main drivers of climate change.” Around 2/3 of g
 
 Overconsumption is also one of the root causes of plastic pollution. Ford et al. (2022) and Lavers, Bond and Rolsky (2022) find strong linkage of climate change and marine plastic pollution “along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution”.
 
+-   Lavers, Bond and Rolsky (2022) plastic pollution is pervasive around the Earth and is fundamentally linked to climate change
+
 While the number on overconsumption are clear, the debate on overconsumption is so polarized, it’s difficult to have a meaningful discussion of the topic (Ianole and Cornescu, 2013).
 
 -   Overconsumption and underinvestment.
