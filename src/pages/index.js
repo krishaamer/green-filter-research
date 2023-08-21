@@ -16,7 +16,7 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">
           <i>
-            Green Filter for Capitalism
+            Green Filter for Your Money
           </i>
         </p>
         <div className={styles.buttons}>

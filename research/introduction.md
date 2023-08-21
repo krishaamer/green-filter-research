@@ -16,7 +16,6 @@ CJKoptions:
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
-import Geneve from "./images/geneve.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
 import Boundaries from "./images/boundaries.png";
 import CO2 from "./images/co2-concentration.png";
@@ -24,18 +23,7 @@ import CO2 from "./images/co2-concentration.png";
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius calculated how an increase in CO<sub>2</sub> levels could have a warming effect on our global climate (Anderson, Hawkins and Jones, 2016; Wulff, 2020). 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United Nations, 2016). In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* (Deutsche Welle, 2019).
-
-While awareness of Earth’s warming climate was growing, the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of CO<sub>2</sub> concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* (Keeling and Keeling, 2017). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012). Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago (Rubino et al., 2019).
-
-``` mdx-code-block
-<Figure
-  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
-  src={Geneve}
-  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
-  refTitle="Wikimedia Commons"
-/>
-```
+In 1896, the Nobel Prize winner Svante Arrhenius calculated how an increase in CO<sub>2</sub> levels could have a warming effect on our global climate (Anderson, Hawkins and Jones, 2016; Wulff, 2020). 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United Nations, 2016). While awareness of Earth’s warming climate was growing, the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of CO<sub>2</sub> concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* (Keeling and Keeling, 2017). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012). Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago (Rubino et al., 2019).
 
 In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth’s land surface as well as linking the production of fossil fuels to increased CO<sub>2</sub> and changing climate (Hawkins and Jones, 2013). By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub> per year, the highest emissions recorded in history (Statista, 2023). To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO<sub>2</sub> per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing several gigatons of CO<sub>2</sub> from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
 

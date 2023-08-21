@@ -8,6 +8,24 @@ editor:
 suppress-bibliography: true
 ---
 
+``` mdx-code-block
+import Figure from "/src/components/Figure";
+import Geneve from "./images/geneve.jpg";
+```
+
+## Student Protests {#student-protests}
+
+In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* (Deutsche Welle, 2019).
+
+``` mdx-code-block
+<Figure
+  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
+  src={Geneve}
+  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
+  refTitle="Wikimedia Commons"
+/>
+```
+
 ## College Students in Taiwan {#college-students-in-taiwan}
 
 Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be teacher-centered, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education (Chang, Wegerif and Hennessy, 2023). When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools (Olsson et al., 2019). Rather, Taiwanese students are influenced towards environmental action by *group consciousness* (Yu, Yu and Chao, 2017).
