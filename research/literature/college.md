@@ -10,12 +10,12 @@ suppress-bibliography: true
 
 ``` mdx-code-block
 import Figure from "/src/components/Figure";
-import Geneve from "./images/geneve.jpg";
+import Geneve from "../images/geneve.jpg";
 ```
 
 ## Student Protests {#student-protests}
 
-In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* (Deutsche Welle, 2019).
+In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* (Deutsche Welle, 2019). ::: {.content-hidden unless-format=“pdf”} <img src="../images/geneve.jpg" class="quarto-discovered-preview-image" alt="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future." /> :::
 
 ``` mdx-code-block
 <Figure
@@ -86,7 +86,9 @@ There is extensive research on the attitudes of U.S. college students towards cl
 
 -   Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 (Branka Vuleta, 2023). Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does (Global Web Index, 2017; BankMyCell, 2022).
 
--   Credit Suisse (2022) suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question (**HowSellYoung2023?**); Anon. (2023).
+-   High levels of technology adoption worldwide
+
+-   Credit Suisse (2022) suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question (Anon., 2023; The Economist, 2023).
 
 -   Deyan Georgiev (2023)
 
@@ -143,6 +145,8 @@ The focus on *group consciousness* suggests community-based sustainability actio
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption.
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. Costa (2018): Finnish socialists: minimalism. Tokyo Tokyo Simple Eco Life (2021).
+
+What are the building blocks of a thriving community?
 
 ### Empowerment {#empowerment}
 

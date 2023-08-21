@@ -12,6 +12,9 @@ CJKoptions:
   - ItalicFont=STKaiti
 ---
 
+export const quartoRawHtml =
+[`<!-- -->`];
+
 ``` mdx-code-block
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
@@ -79,7 +82,7 @@ Does individual climate action help?
 -   “Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the”carbon footprint”, championed in a 2004 advertising campaign by British Petroleum” Lavers, Bond and Rolsky (2022).
 -   Individual efforts are too small to matter unless they’re inspired by Community a effort
 
-**Mainstream technology penetration worldwide**
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   The latest IPCC report Calvin et al. (2023)
 

@@ -17,6 +17,10 @@ import Humboldt from '../images/humboldt.jpg'
 
 *Sustainability* was first mentioned in (Hannß Carl von Carlowitz, 1713) in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* (Peter Kareiva et al., 2011). Aldo Leopold proposed the idea of *land ethics* as *“\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise”* in his seminal book A Sand County Almanac(Leopold, 1972). The 1987 United Nations’ Brundtland Report (Our Common Future) defined sustainable development as *“Development that meets the needs of the present without compromising the ability of future generations to meet their own needs”* (World Commission on Environment and Development, 1987).
 
+-   planetary health https://unfccc.int/climate-action/un-global-climate-action-awards/planetary-health
+
+-   Wardani et al. (2023) “long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development.””
+
 ### Biodiversty Loss {#biodiversty-loss}
 
 Protecting biodiversity
