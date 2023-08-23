@@ -16,7 +16,7 @@ export const quartoRawHtml =
 [`<!-- -->`];
 
 ``` mdx-code-block
-simport Figure from "/src/components/Figure";
+import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
