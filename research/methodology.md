@@ -84,7 +84,7 @@ Take the metrics from the several frameworks and display them on the product and
 
 -   Anon. (n.d.f)
 
--   Anon. (n.d.g)
+-   (**ErikaHallDesign?**)
 
 -   Contact Kalle Lasn, Culture Jam
 

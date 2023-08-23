@@ -8,18 +8,19 @@ editor:
 suppress-bibliography: true
 ---
 
-```{=mdx}
+``` mdx-code-block
 import Embed from '/src/components/Embed'
 ```
-# Discussion
 
-## Results
+# Discussion {#discussion}
+
+## Results {#results}
 
 The research helps me (and others) to avoid reinventing the wheel and duplicating existing approaches. It aims to help app developers maximize impact by aiding complementary additionality.
 
-#### Define Words
+#### Define Words {#define-words}
 
-Define every word in the title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing"
+Define every word in the title: “The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help with Sustainable Shopping, Savings, and Investing”
 
 -   Journey - behavioral change takes time
 -   Consumer, purchase goods without thinking about the effect
@@ -30,10 +31,10 @@ Define every word in the title: "The Journey from Consumer to Investor: Designin
 -   College Students
 -   Help, be of assistance
 -   Sustainable Shopping
--   Savings, in this context I mean Sustainable Savings, that is reducing one's environmental footprint
+-   Savings, in this context I mean Sustainable Savings, that is reducing one’s environmental footprint
 -   Investing, activity of thinking longer-term
 
-## Research Limitations
+## Research Limitations {#research-limitations}
 
 -   This work is focused on user experience design and does attempt to make a contribution to economics. Sacred Economics is use as-is as a framework and visualization tool.
 
@@ -41,4 +42,4 @@ Define every word in the title: "The Journey from Consumer to Investor: Designin
 
 -   Finally, ESG needs data to give us an accurate understanding of the realities inside companies and the user experience design does not address the underlying data quality problem further than by providing a link to the data source.
 
--   Research Reason: While many people are working on AI models, there's a lack of people working on "Human-AI interaction". Sustainability is the context. How can we better team up to solve the challenges we face this century? The huge externalities.
+-   Research Reason: While many people are working on AI models, there’s a lack of people working on “Human-AI interaction”. Sustainability is the context. How can we better team up to solve the challenges we face this century? The huge externalities.

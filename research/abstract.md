@@ -1,0 +1,23 @@
+---
+title: Abstract
+bibliography: [ref.bib]
+csl: harvard.csl
+sidebar_position: 1
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+# Abstract {#abstract}
+
+## *Designing a Green Filter to Help College Students Shop, Save, and Invest* {#designing-a-green-filter-to-help-college-students-shop-save-and-invest}
+
+For the individual person, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial action requires extensive time-consuming research in the midst of widespread greenwashing. People lack trustworthy tools to buy, save, and invest.
+
+I present an AI-assistant called “green filter” to empower regenerative financial activism. All financial interactions with businesses can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop long-term relationships with regenerative companies that acknowledge ecological limits .
+
+The major contribution of the study is an interactive artefact: a design prototype informed by design research.
+
+**Keywords**: Climate Anxiety, Human-AI Interaction, Digital Sustainability, Financial Activism, Regeneration, Trust’
+
+OPENESG is already doing this.
