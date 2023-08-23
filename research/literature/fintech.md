@@ -335,7 +335,7 @@ Banks have access to each person’s financial habits which makes it possible to
 | Mintos        | Buy bonds and loans                                                          | EU           |
 |               |                                                                              |              |
 
-Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; **LightyearInvestingOwn?**). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
+Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; Lightyear, n.d.). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   Andrés Engler (2022)
 -   Tokenization is similar securitization which has been happening for a long time. - Art can be securitized Masterworks (2023) - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.

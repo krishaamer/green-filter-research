@@ -21,7 +21,7 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
 import Boundaries from "./images/boundaries.png";
-import CO2 from "./images/co2-concentration.png";
+import Carbon from "./images/co2-concentration.png";
 ```
 
 # Introduction {#introduction}
@@ -35,7 +35,7 @@ In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth
 ``` mdx-code-block
 <Figure
   caption="CO2 concentration in the atmosphere"
-  src={CO2}
+  src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
