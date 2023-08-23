@@ -12,7 +12,7 @@ suppress-bibliography: true
 
 ## *Designing a Green Filter to Help College Students Shop, Save, and Invest* {#designing-a-green-filter-to-help-college-students-shop-save-and-invest}
 
-For the individual person, it’s difficult to know what’s sustainable. Even for highly motivated people, taking sustainable financial action requires extensive time-consuming research in the midst of widespread greenwashing. People lack transparent tools to buy, save, and invest sustainably.
+For the individual college student, it’s difficult to know what’s sustainable. Even for highly motivated students, taking sustainable financial action requires time-consuming research in the midst of widespread greenwashing. People lack transparent tools to buy, save, and invest sustainably.
 
 In this thesis I present an AI-assistant called “green filter” to empower regenerative financial activism. All financial interactions with businesses can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop long-term relationships with regenerative companies that acknowledge ecological limits.
 
