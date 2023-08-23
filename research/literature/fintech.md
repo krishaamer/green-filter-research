@@ -415,6 +415,8 @@ Cryptocurrencies are the most popular financial action among young people (CITE)
 
 -   Centralized Crypto Exchanges are in essence lending assets from the user. “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards” (Hester M. Peirce, 2022).
 
+-   Taiwan banks buying cryptocurrencies with credit card because the volatilty makes it similar to gambling (**davidattleeBuyingCryptoCredit2022?**; **MiHuoBi2022?**).
+
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Volatile national currencies lead people to find other assets to hold.
@@ -861,7 +863,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 #### ESG Crisis {#esg-crisis}
 
--   https://www.openesg.com/ because you can’t trust ESG Aikman (2022)
+-   https://www.openesg.com/ because you can’t trust ESG Aikman (2022) !
 
 -   ESG is filled with greenwashing
 
