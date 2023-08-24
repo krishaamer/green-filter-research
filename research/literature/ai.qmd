@@ -13,6 +13,7 @@ import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
 import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
+import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
 ## Human-AI Interaction
 
@@ -369,6 +370,15 @@ RQ: Does AI acceptance increase with Affective Computing?
 
 AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in @kanzaAIScientificDiscovery2021), the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. @calistoBreastScreeningAIEvaluatingMedical2022 focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. @leeAIRevolutionMedicine2023 imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
 
+-   Example of ChatGPT explaining medical terminology in a blood report.
+
+::: {.content-hidden unless-format="pdf"}
+![Example of ChatGPT explaining medical terminology in a blood report.](../images/chatgpt-medical.png){width="60%"}
+:::
+
+```{=mdx}
+<Figure caption="Example of ChatGPT explaining medical terminology in a blood report." src={ChatGPTMedical} />
+```
 -   @singhalExpertLevelMedicalQuestion2023 medial AI reaching expert-level question-answering ability.
 
 -   @ayersComparingPhysicianArtificial2023 in an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors.
@@ -562,6 +572,34 @@ Generative AI has enabled developers to create AI tools for several industries, 
 -   @kore.aiHomepage2023
 -   @vanwynsbergheSustainableAIAI2021: Sustainable AI itself
 -   @CharismaStorytellingPowered
+
+### In the Media
+
+There have been dozens of AI-characters in the movies, TV-series, games, and (comic) books. In most cases, they have a physical presence or a voice, so they could be visible for the viewers. Some include KITT (Knight Industries Two Thousand).
+
+How AIs are represented in popular media shapes the way we think about AIs. Some stories have AIs both in positive and negative roles, such as Star Trek and Knight Rider. In some cases like Her and Ex Machina, the characters may be complex and ambivalent rather than fitting into a simple positive or negative box. In Isaac Asimov's books, the AIs (mostly in robot form) struggle with the 3 laws of robotics, raising thought-provoking questions.
+
+| Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |
+|---------------|---------------|---------------|---------------|---------------|
+| 2001: A Space Odyssey          | HAL 9000               |          |            | X        |
+| Her                            | Samantha               | X        |            |          |
+| Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |
+| Terminator                     | Skynet                 |          |            | X        |
+| Summer Wars                    | Love Machine           |          |            | X        |
+| Marvel Cinematic Universe      | Jarvis, Friday         | X        |            |          |
+| Knight Rider                   | KITT                   | X        |            |          |
+|                                | CARR                   |          |            | X        |
+| Star Trek                      | Data                   | X        |            |          |
+|                                | Lore                   |          |            | X        |
+| Ex Machina                     | Kyoko                  |          | X          |          |
+|                                | Ava                    |          | X          |          |
+| Tron                           | Tron                   |          | X          |          |
+| Neuromancer                    | Wintermute             |          | X          |          |
+| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |          | X          |          |
+| The Robots of Dawn             | R. Giskard Reventlov   |          | X          |          |
+| Portal                         | GLaDOS                 |          |            | X        |
+
+: AIs in different forms of media.s
 
 ## Design Implications
 
