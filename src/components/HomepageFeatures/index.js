@@ -35,8 +35,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Support biodiversity, clean energy, air, water,
-        soil, and high quality of life
+        Save biodiversity, air, water, soil, quality of life
       </>
     ),
   },
@@ -53,7 +52,7 @@ const FeatureList = [
 
     description: (
       <>
-        Focus on companies with green credentials and avoid big polluters
+        Invest in companies with green data and avoid polluters
       </>
     ),
   },

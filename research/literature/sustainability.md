@@ -326,6 +326,8 @@ The fossil energy production that’s a large part of global CO2 emissions has c
 
 ### Agroforestry & Permaculture {#agroforestry-permaculture}
 
+-   Agroecology (**balticseaactiongroupEITFoodRegenerative2023?**)
+
 Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) (Ruba and Talucder, 2023);
 
 -   Food forests for regenerative food systems.

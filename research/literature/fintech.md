@@ -64,6 +64,8 @@ The first two decades of the 21st century have seen a flurry of new economic thi
 
 #### New Metrics {#new-metrics}
 
+degrowth proponents are pessimistic it’s possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+
 Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others (Anielski, 2001; Bleys and Whitby, 2015; Kovacic and Giampietro, 2015).
 
 The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how any metric about a complex system such as the economy is a work in progress.
@@ -281,8 +283,13 @@ All of the world’s products are subject to one or another standard and althoug
 ### Sustainability Standards {#sustainability-standards}
 
 -   Most sustainable companies. Make a database?
+
 -   International Trade Centre (2022) currently lists 334 different sustainability standards: “Towards a meaningful economy” “The world’s largest database for sustainability standards”, “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics.”
+
+-   There have been concerns about food safety in Taiwan
+
 -   Anon. (n.d.j)
+
 -   Anon. (n.d.k) app for nutrition and sustainability data
 
 ## Banks {#banks}
@@ -524,6 +531,8 @@ Conscious consumers make up a small percentage of the entire consumer public.
 -   Contact Kalle Lasn, Culture Jam
 
 -   “ESG Accessibility”, Large-scale accessibility to ESG,
+
+-   increase ESG accessibility
 
 -   Shop sustainability in Estonia (Lilleväli, 2022; Anon., n.d.aa). Tarbimise jalajälg poes (Helen Saarmets, 2021). Offsets at the point of sale (Anon., n.d.ab).
 
