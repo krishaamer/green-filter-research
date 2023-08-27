@@ -16,10 +16,9 @@ import Humboldt from '../images/humboldt.jpg'
 
 *Sustainability* was first mentioned in [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713] in the context of forestry and discussing sustainable forest management in his seminal book *Sylvicultura oeconomica*. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his seminal book A Sand County Almanac[@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
 
+-   planetary health https://unfccc.int/climate-action/un-global-climate-action-awards/planetary-health
 
-- planetary health https://unfccc.int/climate-action/un-global-climate-action-awards/planetary-health
-
--  @wardaniBoundariesSpacesKnowledge2023  "long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development.""
+-   @wardaniBoundariesSpacesKnowledge2023 "long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development.""
 
 ### Biodiversty Loss
 
@@ -234,10 +233,6 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
 
-#### SDGs
-
--   SDGs need to discussed in their totality @popkovaTheoryDigitalTechnology2022.
-
 #### Planetary Boundaries
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
@@ -279,6 +274,10 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 Around 27% of Earth's land area is still covered by forests yet deforestation is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022].
 
 Afforestation is different from reforestation, which takes into account biodiversity.
+
+-   @klostermanMappingGlobalPotential2022 using remote-sensing and machine-learning to assess reforestation potential; doesn't take into account political realities.
+
+-   Global Forest Cover Change, Earth Engine @hansenHighResolutionGlobalMaps2013
 
 -   1 billion tree project [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]
 
@@ -441,7 +440,7 @@ Retiring CO~2~ allowances
 As of 2023 there isn't a single global CO~2~ trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
 | CO~2~ Market             | Launch Date | Comments                                                                                                                                                                                       |
-|--------------------------|------------------|----------------------------|
+|--------------------------|-------------------|----------------------------|
 | European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
 | South Korea              | 2015        |                                                                                                                                                                                                |
 | China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
@@ -510,6 +509,8 @@ Fossil fuels are what powers humanity as well as the largest source of CO~2~ emi
 
 #### Renewable Energy
 
+-   10 countries use almost 100% renewable energy
+
 There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
@@ -558,7 +559,7 @@ Sustainability is filled with complexities, where CO~2~ emission is compounded b
 
 -   @wangMultimodelAssessmentClimate2022: Quantifying climate damage proposes scenarios of climate damage.
 
-#### Nationally Determined Contributions
+#### Nationally Determined Contributions (NDCs)
 
 -   @unfcccNDC2022 The State of Nationally Determined Contributions
 
@@ -586,7 +587,14 @@ TODO
 -   "triple turn"
 -   lack of transparency
 -   Call for GOP contributors' transparency
--   Renewable energy is a tool against tyranny by decentralizing the energy sources and production: @timchenkoMaximTimchenkoRenewable2023
+
+#### SDGs
+
+-   SDGs need to discussed in their totality @popkovaTheoryDigitalTechnology2022.
+
+-   German Institute of Development and Sustainability (IDOS) connects SDGs to NDCs. @dzeboParisAgreementSustainable2023
+
+-   International Energy Agency (IEAs), Decarbonisation Enablers @sieaTrackingCleanEnergy2023
 
 ## Regenerative design
 
@@ -753,6 +761,8 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 -   @SulapacReplacingPlastic
 
 ### Factories
+
+-   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study s @devlinRegionalSupplyChains2022
 
 -   Transparency about the polluting factories where the products come from.. the product journey
 

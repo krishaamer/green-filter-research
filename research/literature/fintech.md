@@ -90,6 +90,8 @@ Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, W
 
 -   Securitization
 
+-   ESG greenwashing (**baldiRoleESGScoring2022?**)
+
 #### Ecological Economics {#ecological-economics}
 
 Ecological economics is the obvious prime suspect for some eco-conscious ideas to incorporate into my design. Ecological economics draws attention to the interdependence of economy and the ecosystem and reminds us there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* already more than two decades ago, focusing on the diminishing natural resources (Daly, 1997). (Jackson, T., 2009, 2017) expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
@@ -202,6 +204,10 @@ metrics and goals: ESG, SDGs,
 -   Adam Smith: Interdependence
 
 ## Indexes {#indexes}
+
+Does certification matter? Consumers are willing to pay more for bio-based products “72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a”green premium” and a “certified green premium,” indicating increased WTP for bio-based and certified bio-based products.” (**moroneConsumerWillingnessPay2021?**) (need access)
+
+-   consumer awares of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat (**mazzocchiConsumerAwarenessSustainable2022?**)
 
 Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
 
@@ -724,6 +730,12 @@ There are many asset classes only some of which would be accessible to a retail 
 -   Priscila Azevedo Rocha, Akshat Rathi and Todd Gillespie (2022) suggests “So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks.”
 
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
+
+-   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 (**macaskillThereGreenPremium2021?**)
+
+-   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a ‘regular’ bond (**liWhereGreenBond2022?**)
+
+-   Chinese green bond market is growing fast (**pengManagingFinancingCosts2022?**)
 
 ### Community Investing {#community-investing}
 

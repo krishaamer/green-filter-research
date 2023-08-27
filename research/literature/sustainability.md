@@ -231,10 +231,6 @@ Daily human activities emission contribution on average in France, Germany, Norw
 -   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   Armstrong McKay et al. (2022) discusses tipping points.
 
-#### SDGs {#sdgs}
-
--   SDGs need to discussed in their totality Popkova et al. (2022).
-
 #### Planetary Boundaries {#planetary-boundaries-1}
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
@@ -276,6 +272,10 @@ From May (2011).
 Around 27% of Earth’s land area is still covered by forests yet deforestation is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation (Anon., 2022a). Forests are a crucial part of Earth’s carbon cycle and the main natural CO<sub>2</sub> capture system; due to deforestation, Europe rapidly losing its forest carbon sink (Frédéric Simon, 2022).
 
 Afforestation is different from reforestation, which takes into account biodiversity.
+
+-   (**klostermanMappingGlobalPotential2022?**) using remote-sensing and machine-learning to assess reforestation potential; doesn’t take into account political realities.
+
+-   Global Forest Cover Change, Earth Engine (**hansenHighResolutionGlobalMaps2013?**)
 
 -   1 billion tree project (Bastin et al., 2019; Anon., 2020; Greenfield and @pgreenfielduk, 2021)
 
@@ -507,6 +507,8 @@ Fossil fuels are what powers humanity as well as the largest source of CO<sub>2<
 
 #### Renewable Energy {#renewable-energy}
 
+-   10 countries use almost 100% renewable energy
+
 There’s ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
 -   Amin et al. (2022) suggests “removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits” for both the economy and the environment in Bangladesh.
@@ -555,7 +557,7 @@ Sustainability is filled with complexities, where CO<sub>2</sub> emission is com
 
 -   Wang, T.-P. and Teng (2022): Quantifying climate damage proposes scenarios of climate damage.
 
-#### Nationally Determined Contributions {#nationally-determined-contributions}
+#### Nationally Determined Contributions (NDCs) {#nationally-determined-contributions-ndcs}
 
 -   UNFCCC. Secretariat (2022) The State of Nationally Determined Contributions
 
@@ -583,7 +585,14 @@ TODO
 -   “triple turn”
 -   lack of transparency
 -   Call for GOP contributors’ transparency
--   Renewable energy is a tool against tyranny by decentralizing the energy sources and production: Timchenko (2023)
+
+#### SDGs {#sdgs}
+
+-   SDGs need to discussed in their totality Popkova et al. (2022).
+
+-   German Institute of Development and Sustainability (IDOS) connects SDGs to NDCs. (**dzeboParisAgreementSustainable2023?**)
+
+-   International Energy Agency (IEAs), Decarbonisation Enablers (**sieaTrackingCleanEnergy2023?**)
 
 ## Regenerative design {#regenerative-design}
 
@@ -750,6 +759,8 @@ Packaging is a rapidly growing industry which generates large amounts of waste A
 -   Anon. (n.d.e)
 
 ### Factories {#factories}
+
+-   Regional supply chains for decarbonising steel: “co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction” Japanese-Australia study s (**devlinRegionalSupplyChains2022?**)
 
 -   Transparency about the polluting factories where the products come from.. the product journey
 

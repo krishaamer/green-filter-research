@@ -50,3 +50,9 @@ Autopilot
 **How might one visualize ecological impact in digital product design?**
 
 Accuracy is more imprttant for hhuman trust tthan actual impact
+
+## Ideas for Interfaces {#ideas-for-interfaces}
+
+Show all the different prototypes just likes architects do. And then defent why I chose the one I did.
+
+For NW make a Loom with the interfaces and talk about them?

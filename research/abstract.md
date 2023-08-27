@@ -14,6 +14,8 @@ suppress-bibliography: true
 
 For the individual college student, it’s difficult to know what’s sustainable. Even for the most highly motivated person, taking sustainable financial action requires time-consuming research in the midst of widespread greenwashing. People lack tools to buy, save, and invest with transparency.
 
+This cross-disciplinary research focuses on the intersection of sustainability, AI assistants, data-driven interaction design, fintech, and college students.
+
 In this thesis I present an AI-assistant called “green filter” to empower regenerative financial activism. All financial interactions with businesses can be seen through the filter of sustainability. I propose *interfaces* and *workflows* to help people develop honest relationships with regenerative companies that acknowledge ecological limits.
 
 The major contribution of the study is an interactive artefact: a design prototype informed by design research.
