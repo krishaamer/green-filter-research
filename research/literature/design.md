@@ -21,6 +21,8 @@ import ResQClub from '../images/resq-club.png'
 
 ## Data-Driven Design {#data-driven-design}
 
+Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
+
 As we humans go about our daily business, we produce massive amounts of data, which is useful for designing better products. There are many approaches to design and the majority share the common goal of designing for a good user experience.
 
 ## Interaction Design for Climate Change {#interaction-design-for-climate-change}
@@ -498,6 +500,8 @@ Can data transparency provide tools for reducing cruelty.
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
 #### Open Data {#open-data}
+
+taiwan is a proponent of Open Gov OP-MSF OGP https://www.opengovpartnership.org/ogp-participation-co-creation-standards/ https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
 
 Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
