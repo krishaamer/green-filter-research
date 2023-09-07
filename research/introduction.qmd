@@ -18,11 +18,13 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
 import Boundaries from "./images/boundaries.png";
-import CO2 from "./images/co2-concentration.png";
+import Carbon from "./images/co2-concentration.png";
 ```
 # Introduction
 
-In 1896, the Nobel Prize winner Svante Arrhenius calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+Overconsumption-driven extractive business practices contribute to the degradation of Earth's natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges \[cite\].
+
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
@@ -33,12 +35,12 @@ In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth
 ```{=mdx}
 <Figure
   caption="CO2 concentration in the atmosphere"
-  src={CO2}
+  src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
-Not discounting the enormity of emissions, yet it's not the only massive problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we have breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss, specifically Extinctions per Million Species per Year (E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (the cycles of carbon, nitrogen, phosphorus, etc) ; from the positive side, fresh water use, ocean acidification and stratospheric ozone depletion are within planetary limits while atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified [@perssonOutsideSafeOperating2022].
+In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits; atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified [@perssonOutsideSafeOperating2022].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}
@@ -53,6 +55,8 @@ Not discounting the enormity of emissions, yet it's not the only massive problem
 />
 ```
 ## Research Relevance
+
+If used wisely, money can help build communities of sustainable impact.
 
 Defining the Problem Space.
 

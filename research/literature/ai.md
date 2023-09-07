@@ -13,9 +13,12 @@ import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
 import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
+import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
 
 ## Human-AI Interaction {#human-ai-interaction}
+
+There are structures in the world, things, languages. AI with Deep Learning is able to learn these structures and copy them into a computer model. These representations of the real world in a digital model enable humans to ask questions about these structures and to manipulate them to create synthetic experiments that may match the real world. This can be used for generating human-sounding language, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level (**nopriorsInceptiveCEOJakob2023?**).
 
 90 years ago McCulloch and Pitts (1943) proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing’s Test for Machine Intelligence followed in 1950. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? (Turing, 1950).
 
@@ -30,6 +33,8 @@ By the 2020s, AI-based models became a mainstay in medical research, drug develo
 In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text Alex Tamkin and Deep Ganguli (2021). Singer et al. (2022) describes how collecting billions of images with descriptive data (for example the descriptive *alt* text which accompanies images on websites) has enabled researchers to train AI models such as ***stable diffusion*** that can generate images based on human-language.
 
 Hinton likes to call AI an *idiot savant*, someone with exceptional aptitude yet serious mental disorder. Large AI models don’t understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the ‘AI brain’. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations CapInstitute (2023).
+
+-   big data: 97 zettabytes (and growing) of data are created in the world per year (**soundaryajayaramanHowBigBig2023?**)
 
 ## Generative AI {#generative-ai}
 
@@ -99,6 +104,8 @@ The are several large problems with this generation of LLMs such as GTP3 and GPT
 -   Lilian Weng, Vik Goel and Andrea Vallone (2023) is possible to use well-aligned AI moderate harmful content.
 
 -   Anderljung et al. (2023) OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety.
+
+-   (**browneBritainHostWorld2023?**)
 
 -   Low-paid workers being used to train AI
 
@@ -367,6 +374,12 @@ RQ: Does AI acceptance increase with Affective Computing?
 
 AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s (in Kanza et al. (2021)), the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. Calisto et al. (2022) focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. Lee, Goldberg and Kohane (2023) imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
 
+-   Example of ChatGPT explaining medical terminology in a blood report.
+
+``` mdx-code-block
+<Figure caption="Example of ChatGPT explaining medical terminology in a blood report." src={ChatGPTMedical} />
+```
+
 -   Singhal et al. (2023) medial AI reaching expert-level question-answering ability.
 
 -   Ayers et al. (2023) in an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors.
@@ -448,7 +461,10 @@ The Oxford Internet Institute defines AI simply as ***“computer programming th
 | Google Search           | google.com                                |                      |
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool     |
 
+-   perplexity.ai chat-based search (**hinesPerplexityAnnouncesAI2023?**)
+
 -   **AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There’s not avatar.**
+
 -   CO2e calculations will be part of our everyday experience
 
 ``` mdx-code-block
@@ -557,6 +573,34 @@ Generative AI has enabled developers to create AI tools for several industries, 
 -   Kore.ai (2023)
 -   van Wynsberghe (2021): Sustainable AI itself
 -   Anon. (n.d.d)
+
+### In the Media {#in-the-media}
+
+There have been dozens of AI-characters in the movies, TV-series, games, and (comic) books. In most cases, they have a physical presence or a voice, so they could be visible for the viewers. Some include KITT (Knight Industries Two Thousand).
+
+How AIs are represented in popular media shapes the way we think about AIs. Some stories have AIs both in positive and negative roles, such as Star Trek and Knight Rider. In some cases like Her and Ex Machina, the characters may be complex and ambivalent rather than fitting into a simple positive or negative box. In Isaac Asimov’s books, the AIs (mostly in robot form) struggle with the 3 laws of robotics, raising thought-provoking questions.
+
+| Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |
+|---------------|---------------|---------------|---------------|---------------|
+| 2001: A Space Odyssey          | HAL 9000               |          |            | X        |
+| Her                            | Samantha               | X        |            |          |
+| Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |
+| Terminator                     | Skynet                 |          |            | X        |
+| Summer Wars                    | Love Machine           |          |            | X        |
+| Marvel Cinematic Universe      | Jarvis, Friday         | X        |            |          |
+| Knight Rider                   | KITT                   | X        |            |          |
+|                                | CARR                   |          |            | X        |
+| Star Trek                      | Data                   | X        |            |          |
+|                                | Lore                   |          |            | X        |
+| Ex Machina                     | Kyoko                  |          | X          |          |
+|                                | Ava                    |          | X          |          |
+| Tron                           | Tron                   |          | X          |          |
+| Neuromancer                    | Wintermute             |          | X          |          |
+| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |          | X          |          |
+| The Robots of Dawn             | R. Giskard Reventlov   |          | X          |          |
+| Portal                         | GLaDOS                 |          |            | X        |
+
+AIs in different forms of media.s
 
 ## Design Implications {#design-implications}
 

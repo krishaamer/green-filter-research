@@ -25,6 +25,8 @@ Start with expert survey, then expert interviews (because so many questions from
 | Experts (Sustainability)           | Short Survey |     |
 | Target Audience (College Students) | Long Survey  |     |
 
+College Student Willingness to pay (WTP)
+
 ## Factorial Surveys {#factorial-surveys}
 
 -   Li et al. (2022): “Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations”
@@ -84,7 +86,7 @@ Take the metrics from the several frameworks and display them on the product and
 
 -   Anon. (n.d.f)
 
--   Anon. (n.d.g)
+-   (**ErikaHallDesign?**)
 
 -   Contact Kalle Lasn, Culture Jam
 

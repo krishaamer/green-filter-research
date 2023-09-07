@@ -142,11 +142,11 @@ Humans working together are able to achieve more than single individuals. “Any
 
 The focus on *group consciousness* suggests community-based sustainability action may be effective.
 
-***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption.
+***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. Costa (2018): Finnish socialists: minimalism. Tokyo Tokyo Simple Eco Life (2021).
 
-What are the building blocks of a thriving community?
+What are the building blocks of a thriving community? plap
 
 ### Empowerment {#empowerment}
 

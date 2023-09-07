@@ -19,7 +19,9 @@ import Bunq from '../images/bunq.jpg'
 
 ## Investing {#investing}
 
-The theme for this year’s Earth Day was *“Invest In Our Planet”* Earth Day (2023) and it’s very apt as Anon. (2016) estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). And according to The Rockefeller Foundation (2022) a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there’s still a lack of investing, and it’s not happening fast enough. The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022a). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023a).
+The theme for this year’s Earth Day was *“Invest In Our Planet”* and it’s very apt as estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD (Anon., 2016; Earth Day, 2023). The United Nations Environmental Programme (UNEP) estimates the world needs an additional 4.1 Trillion USD of financing in nature-based solution by 2050 to meet climate change, biodiversity, and land degradation targets (UNEP, 2022). And according to The Rockefeller Foundation (2022) a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there’s still a lack of investing, and it’s not happening fast enough. The lack of funding in green energy especially affects emerging economies, reminds us Anon. (2022a). “We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation” said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt (Anon., 2023a).
+
+What if 10% of consumer spending went for climate?
 
 | High-Value Assets (Trillions of USD)                                                    |           |
 |---------------------------------------------|---------------------------|
@@ -64,6 +66,8 @@ The first two decades of the 21st century have seen a flurry of new economic thi
 
 #### New Metrics {#new-metrics}
 
+degrowth proponents are pessimistic it’s possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+
 Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others (Anielski, 2001; Bleys and Whitby, 2015; Kovacic and Giampietro, 2015).
 
 The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how any metric about a complex system such as the economy is a work in progress.
@@ -89,6 +93,8 @@ Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, W
 -   Capital misallocation
 
 -   Securitization
+
+-   ESG greenwashing (**baldiRoleESGScoring2022?**)
 
 #### Ecological Economics {#ecological-economics}
 
@@ -203,6 +209,10 @@ metrics and goals: ESG, SDGs,
 
 ## Indexes {#indexes}
 
+Does certification matter? Consumers are willing to pay more for bio-based products “72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a”green premium” and a “certified green premium,” indicating increased WTP for bio-based and certified bio-based products.” (**moroneConsumerWillingnessPay2021?**) (need access)
+
+-   consumer awares of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat (**mazzocchiConsumerAwarenessSustainable2022?**)
+
 Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
 
 -   Rating Systems: Companies assess customer’s credit score, however how can customers rate companies.
@@ -275,8 +285,13 @@ All of the world’s products are subject to one or another standard and althoug
 ### Sustainability Standards {#sustainability-standards}
 
 -   Most sustainable companies. Make a database?
+
 -   International Trade Centre (2022) currently lists 334 different sustainability standards: “Towards a meaningful economy” “The world’s largest database for sustainability standards”, “We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics.”
+
+-   There have been concerns about food safety in Taiwan
+
 -   Anon. (n.d.j)
+
 -   Anon. (n.d.k) app for nutrition and sustainability data
 
 ## Banks {#banks}
@@ -335,7 +350,7 @@ Banks have access to each person’s financial habits which makes it possible to
 | Mintos        | Buy bonds and loans                                                          | EU           |
 |               |                                                                              |              |
 
-Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; **LightyearInvestingOwn?**). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
+Data from (Monzo, 2023; Anon., n.d.l, n.d.n; Anon., n.d.m, n.d.o; Lightyear, n.d.). An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   Andrés Engler (2022)
 -   Tokenization is similar securitization which has been happening for a long time. - Art can be securitized Masterworks (2023) - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
@@ -414,6 +429,8 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 Cryptocurrencies are the most popular financial action among young people (CITE) yet in some ways crypto needs even more financial literacy than traditional financial assets.
 
 -   Centralized Crypto Exchanges are in essence lending assets from the user. “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards” (Hester M. Peirce, 2022).
+
+-   Taiwan banks buying cryptocurrencies with credit card because the volatilty makes it similar to gambling (**davidattleeBuyingCryptoCredit2022?**; **MiHuoBi2022?**).
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
@@ -516,6 +533,8 @@ Conscious consumers make up a small percentage of the entire consumer public.
 -   Contact Kalle Lasn, Culture Jam
 
 -   “ESG Accessibility”, Large-scale accessibility to ESG,
+
+-   increase ESG accessibility
 
 -   Shop sustainability in Estonia (Lilleväli, 2022; Anon., n.d.aa). Tarbimise jalajälg poes (Helen Saarmets, 2021). Offsets at the point of sale (Anon., n.d.ab).
 
@@ -723,6 +742,12 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
 
+-   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 (**macaskillThereGreenPremium2021?**)
+
+-   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a ‘regular’ bond (**liWhereGreenBond2022?**)
+
+-   Chinese green bond market is growing fast (**pengManagingFinancingCosts2022?**)
+
 ### Community Investing {#community-investing}
 
 -   You don’t know how to invest? Build an investing community? Can follow others and raise capital together.
@@ -861,7 +886,7 @@ There’s literature suggesting it’s possible to make investments that both ma
 
 #### ESG Crisis {#esg-crisis}
 
--   https://www.openesg.com/ because you can’t trust ESG Aikman (2022)
+-   https://www.openesg.com/ because you can’t trust ESG Aikman (2022) !
 
 -   ESG is filled with greenwashing
 

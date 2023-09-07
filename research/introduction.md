@@ -21,25 +21,27 @@ import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
 import Boundaries from "./images/boundaries.png";
-import CO2 from "./images/co2-concentration.png";
+import Carbon from "./images/co2-concentration.png";
 ```
 
 # Introduction {#introduction}
 
-In 1896, the Nobel Prize winner Svante Arrhenius calculated how an increase in CO<sub>2</sub> levels could have a warming effect on our global climate (Anderson, Hawkins and Jones, 2016; Wulff, 2020). 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United Nations, 2016). While awareness of Earth’s warming climate was growing, the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of CO<sub>2</sub> concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* (Keeling and Keeling, 2017). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012). Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago (Rubino et al., 2019).
+Overconsumption-driven extractive business practices contribute to the degradation of Earth’s natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges \[cite\].
+
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO<sub>2</sub> levels could have a warming effect on our global climate (Anderson, Hawkins and Jones, 2016; Wulff, 2020). 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United Nations, 2016). While awareness of Earth’s warming climate was growing, the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of CO<sub>2</sub> concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* (Keeling and Keeling, 2017). Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records (Brohan et al., 2012). Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago (Rubino et al., 2019).
 
 In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth’s land surface as well as linking the production of fossil fuels to increased CO<sub>2</sub> and changing climate (Hawkins and Jones, 2013). By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub> per year, the highest emissions recorded in history (Statista, 2023). To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO<sub>2</sub> per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The monumental task of removing several gigatons of CO<sub>2</sub> from the atmosphere requires massive policy shifts and collaboration across countries and industries (Mackler, Fishman and Broberg, 2021).
 
 ``` mdx-code-block
 <Figure
   caption="CO2 concentration in the atmosphere"
-  src={CO2}
+  src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
 
-Not discounting the enormity of emissions, yet it’s not the only massive problem humanity is facing. In January 2022, the Stockholm Resilience Centre reported that we have breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss, specifically Extinctions per Million Species per Year (E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (the cycles of carbon, nitrogen, phosphorus, etc) ; from the positive side, fresh water use, ocean acidification and stratospheric ozone depletion are within planetary limits while atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified (Persson et al., 2022).
+In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits; atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified (Persson et al., 2022).
 
 ``` mdx-code-block
 <Figure
@@ -51,6 +53,8 @@ Not discounting the enormity of emissions, yet it’s not the only massive probl
 ```
 
 ## Research Relevance {#research-relevance}
+
+If used wisely, money can help build communities of sustainable impact.
 
 Defining the Problem Space.
 
@@ -165,10 +169,10 @@ Interviews with experts in finance and design, and a including a choice experime
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                                                                                                                     | Methods                                                        |
-|-------------------|-------------------------------|-----------------------|
-| 1   | What is the current state of the planet and ongoing efforts in sustainability? What might be a fruitful intersection between AI, interaction design, and sustainability? What can college students do to aid sustainability efforts?                                                                         | Literature Review                                              |
-| 2   | In what ways is AI becoming an integral part of everyday human interactions and experiences? How might we visualize the ecological impact of college students’ financial actions? How might AI assistants help college students find trustworthy regenerative shopping, saving, and investing opportunities? | Literature Review + Expert Interviews                          |
-| 3   | What AI assistant features might college students prefer? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI?                                                                                              | Literature Review + Expert Interviews + College Student Survey |
+| №   | Question                                                                                                                                                                                                              | Methods                               |
+|-------------------|------------------------------|-----------------------|
+| 1   | What are the ongoing efforts in sustainability? What can people do to aid sustainability efforts?                                                                                                                     | Literature Review                     |
+| 2   | In what ways is AI becoming an integral part of everyday human interactions and experiences? How might AI help college students evaluate the sustainability of shopping, saving, and investing opportunities?         | Literature Review + Expert Interviews |
+| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with an AI? What role would college students prefer the AI to take? How can college students trust AI? | Survey                                |
 
 RQ Table.
