@@ -15,9 +15,7 @@ function HomepageHeader() {
           All the world’s economy filtered by sustainability
         </h1>
         <p className="hero__subtitle">
-          <i>
-            Green Filter for Your Money
-          </i>
+          <i>Green Filter for Capitalism</i>
         </p>
         <div className={styles.buttons}>
           <Link

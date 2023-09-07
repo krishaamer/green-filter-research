@@ -28,7 +28,6 @@ Define every word in the title: “The Journey from Consumer to Investor: Design
 -   Design, decisions
 -   Financial, dealing with money
 -   AI Companion, automated sidekick
--   Young Adults, 18-40
 -   Help, be of assistance
 -   Sustainable Shopping
 -   Savings, in this context I mean Sustainable Savings, that is reducing one’s environmental footprint

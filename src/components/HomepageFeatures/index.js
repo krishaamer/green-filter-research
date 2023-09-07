@@ -35,8 +35,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus your money on green energy, biodiversity, clean air, water,
-        soil, and high quality of life
+        Focus your money on climate, biodiversity, air, water,
+        soil, and quality of life
       </>
     ),
   },
@@ -53,7 +53,7 @@ const FeatureList = [
 
     description: (
       <>
-        Finance companies with green credentials to ban big polluters from your wallet
+        Find companies with green credentials and avoid polluters
       </>
     ),
   },

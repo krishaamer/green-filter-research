@@ -13,10 +13,9 @@ import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
-
 ## Investing
 
-The theme for this year's Earth Day was *"Invest In Our Planet"* @earthdayEarthDay20232023 and it's very apt as @MappingGapRoad2016 estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets [@unepUNEPGreenFinance2022]. And according to @therockefellerfoundationWhatGetsMeasured2022 a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there's still a lack of investing, and it's not happening fast enough. The lack of funding in green energy especially affects emerging economies, reminds us @MobilizingCapitalEmerging2022. "We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation" said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023].
+The theme for this year's Earth Day was *"Invest In Our Planet"* @earthdayEarthDay20232023. A\@MappingGapRoad2016 estimates the global financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD. The United Nations Environment Programme (UNEP) calculates the world needs an additional 4.1 Trillion USD of financing in nature by 2050 to meet climate change, biodiversity, and land degradation targets [@unepUNEPGreenFinance2022]. And according to @therockefellerfoundationWhatGetsMeasured2022 a slightly lower 2.5-3.2 Trillion USD would be sufficient. In any case, even with massive financing going into sustainability, there's still a lack of investing, and it's not happening fast enough. The lack of funding in green energy especially affects emerging economies @MobilizingCapitalEmerging2022. "We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation" said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023].
 
 | High-Value Assets (Trillions of USD)                                                    |           |
 |---------------------------------------------|---------------------------|
@@ -53,34 +52,27 @@ The theme for this year's Earth Day was *"Invest In Our Planet"* @earthdayEarthD
 
 : Comparative data on needed climate investment and other valuable assets; all figures in trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023 @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
 
-However, the needed investment doesn't seem so large, coming in at 2.5-5.2 % of the global GDP, if we compare it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
-
+The needed investment doesn't seem so large, around 2.5-5.2 % of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
 
 ### Economics
 
-The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, regenerative capitalism, doughnut economics, ecological economics, blue economics, degrowth, attention economy, gift economy, intent economy, and others. There's no lack of books on changing capitalism, which goes to show there's readership for these ideas. But I'm not about to build a new economic theory as part of my thesis on design, so I'll focus on the parts of economic theory I believe are relevant to designing for sustainability.
+The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
-#### New Metrics
+#### (New) Metrics
 
 Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
-The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how any metric about a complex system such as the economy is a work in progress.
+The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress.
 
-Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022].
+There are those looking for new metrics. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index.
 
--   Buthan was the first to invent Gross National Happines
+The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
 
--   We should measure wellbeing in addition to GDP!! We need resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Doughnut (donut) economics (more below) "We need a dashboard of indicators" - @tedHealthyEconomyShould2018.
+New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics.
 
--   @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index.
-
--   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics @worldbankChangingWealthNations2021
-
--   New economic thinkers are asking how can economic growth and sustainability be compatible. Some ask if economic growth itself is the wrong goal? @diduchEconomicGrowthWrong2020.
+We should measure wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
 
 -   @trucostNaturalCapitalRisk2023 finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
-
--   The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG). @mazzucatoValueEverythingMaking2018
 
 -   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. @amabileProgressPrincipleUsing2011
 
@@ -90,7 +82,7 @@ Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, W
 
 #### Ecological Economics
 
-Ecological economics is the obvious prime suspect for some eco-conscious ideas to incorporate into my design. Ecological economics draws attention to the interdependence of economy and the ecosystem and reminds us there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* already more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
+Ecological economics is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
 
 #### Doughnut Economics
 
