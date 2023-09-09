@@ -184,6 +184,10 @@ figcaption {
   padding: 0 1rem;
 }
 
+.ml-1 {
+  margin-left: 1rem;
+}
+
 .main-wrapper {
   /*
   background: linear-gradient(180deg, #eeeeee 0%, #ff0000 70%, #ff0 100%); 
