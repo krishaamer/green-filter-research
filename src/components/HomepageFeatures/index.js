@@ -49,7 +49,7 @@ const FeatureList = [
 
     description: (
       <>
-        Grow your savings in companies with green credentials and ban
+        Grow your money in companies with green credentials and ban
         polluters from your wallet
       </>
     ),
