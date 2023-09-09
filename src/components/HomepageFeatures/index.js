@@ -17,11 +17,7 @@ const FeatureList = [
         role="img"
       />
     ),
-    description: (
-      <>
-        Understand who, where, and how makes the products you buy
-      </>
-    ),
+    description: <>Understand who, where, and how makes the products you buy every day</>,
   },
   {
     title: "Save",
@@ -35,8 +31,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus money on climate, biodiversity, air, water,
-        soil, and quality of life
+        Focus your pension fund on climate, biodiversity, air, water, soil, and
+        quality of life
       </>
     ),
   },
@@ -51,11 +47,7 @@ const FeatureList = [
       />
     ),
 
-    description: (
-      <>
-        Find companies with green credentials and avoid polluters
-      </>
-    ),
+    description: <>Begin choosing companies with green credentials and avoid polluters</>,
   },
 ];
 

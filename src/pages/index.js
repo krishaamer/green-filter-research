@@ -14,8 +14,7 @@ function HomepageHeader() {
         <h1 className="hero__title">Green Your Money</h1>
         <p className="hero__subtitle">
           <i>
-            Green Filter helps you see everything you buy through the lens of
-            sustainability
+            See everything you buy through the lens of sustainability
           </i>
         </p>
         <div className={styles.buttons}>
