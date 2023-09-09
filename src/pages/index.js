@@ -16,8 +16,8 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">
           <i>
-            See your money through the lens of sustainability. Green Filter
-            helps you shop, save and invest and put your mind at ease from
+            Green Filter helps you see your money through the lens of
+            sustainability. Shop, save and invest and put your mind at ease from
             climate anxiety :D
           </i>
         </p>
@@ -26,10 +26,13 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/research/abstract"
           >
-            See Research
+            Read Research
           </Link>
-          <Link className="button button--primary button--lg ml-1" to="/prototypes">
-            Try App
+          <Link
+            className="button button--primary button--lg ml-1"
+            to="/prototypes"
+          >
+            Try Prototype
           </Link>
         </div>
       </div>
