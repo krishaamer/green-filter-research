@@ -13,9 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">1 Week to Green Your Money</h1>
         <p className="hero__subtitle">
-          <i>
-            See everything you buy through the lens of sustainability
-          </i>
+          <i>see your money through the lens of sustainability</i>
         </p>
         <div className={styles.buttons}>
           <Link
