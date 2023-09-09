@@ -17,7 +17,9 @@ const FeatureList = [
         role="img"
       />
     ),
-    description: <>Understand who, where, and how makes the products you buy every day</>,
+    description: (
+      <>Understand who, where, and how makes the products you buy every day</>
+    ),
   },
   {
     title: "Save",
@@ -47,7 +49,11 @@ const FeatureList = [
       />
     ),
 
-    description: <>Begin choosing companies with green credentials and avoid polluters</>,
+    description: (
+      <>
+        Put your money in business with green credentials and avoid polluters
+      </>
+    ),
   },
 ];
 
