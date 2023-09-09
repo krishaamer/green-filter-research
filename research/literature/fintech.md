@@ -58,11 +58,11 @@ What if 10% of consumer spending went for climate?
 
 Comparative data on needed climate investment and other valuable assets; all figures in trillions of USD Stephanie Aaronson and Aaron Tilley (2023)
 
-However, the needed investment doesn’t seem so large, coming in at 2.5-5.2 % of the global GDP, if we compare it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 (Aaron O’Neill, 2023; International Monetary Fund, 2023). In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
+The needed investment doesn’t seem so large, around 2.5-5.2 % of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 (Aaron O’Neill, 2023; International Monetary Fund, 2023). In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
 
 ### Economics {#economics}
 
-The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, regenerative capitalism, doughnut economics, ecological economics, blue economics, degrowth, attention economy, gift economy, intent economy, and others. There’s no lack of books on changing capitalism, which goes to show there’s readership for these ideas. But I’m not about to build a new economic theory as part of my thesis on design, so I’ll focus on the parts of economic theory I believe are relevant to designing for sustainability.
+The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There’s no lack of published books on changing capitalism, which goes to show there’s readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I’ll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
 #### New Metrics {#new-metrics}
 
@@ -70,23 +70,17 @@ degrowth proponents are pessimistic it’s possible to decouple greenhouse gas e
 
 Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others (Anielski, 2001; Bleys and Whitby, 2015; Kovacic and Giampietro, 2015).
 
-The original creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how any metric about a complex system such as the economy is a work in progress.
+The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: “The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP…Goals for ‘more’ growth should specify of what and for what” (United States. Bureau of Foreign and Domestic Commerce, Seventy-Third Congress and Kuznets, Simon, 1934). GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century Rockoff (2020). This long journey underlines how a metric about a complex system such as the economy is continuous work in progress.
 
-Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, are looking for better metrics (Ellsmoor, 2019; David Suzuki Foundation, 2021; CEPR, 2022; Scottish Government, 2022; Wellbeing Economy Alliance, 2022).
+There are those looking for new metrics. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day(Ribeiro and Lemos Marinho, 2017; Kamei et al., 2021). The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 (Ellsmoor, 2019; David Suzuki Foundation, 2021; CEPR, 2022; Scottish Government, 2022; Wellbeing Economy Alliance, 2022). The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report (World Bank, 2021). Giacalone, Mattera and Nissi (2022) looks at wellbeing of Italian communities and proposes a new composite index.
 
--   Buthan was the first to invent Gross National Happines
+The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG) (Mazzucato, 2018).
 
--   We should measure wellbeing in addition to GDP!! We need resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports (GreensEFA, 2023). Doughnut (donut) economics (more below) “We need a dashboard of indicators” - TED (2018).
+New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? (Diduch, 2020). Degrowth is the most famous contender in that branch of economics.
 
--   Giacalone, Mattera and Nissi (2022) looks at wellbeing of Italian communities and proposes a new composite index.
-
--   World Bank Changing the Wealth of Nations, comprehensive GDD+ metrics World Bank (2021)
-
--   New economic thinkers are asking how can economic growth and sustainability be compatible. Some ask if economic growth itself is the wrong goal? Diduch (2020).
+We should measure wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports (GreensEFA, 2023). Similarly, the doughnut (donut) economics (more below) model calls for a “dashboard of indicators” (TED, 2018).
 
 -   Trucost and TEEB for Business Coalition (2023) finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
-
--   The award-winning economist Mariana Mazzucato argues in Gupta (2020) we have to include more into how we value unpaid labor, relating to the social (S in ESG). Mazzucato (2018)
 
 -   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. Amabile and Kramer (2011)
 
@@ -94,11 +88,11 @@ Wellbeing Economy Alliance countries (New Zealand, Iceland, Finland, Scotland, W
 
 -   Securitization
 
--   ESG greenwashing (**baldiRoleESGScoring2022?**)
+-   ESG greenwashing Baldi and Pandimiglio (2022)
 
 #### Ecological Economics {#ecological-economics}
 
-Ecological economics is the obvious prime suspect for some eco-conscious ideas to incorporate into my design. Ecological economics draws attention to the interdependence of economy and the ecosystem and reminds us there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* already more than two decades ago, focusing on the diminishing natural resources (Daly, 1997). (Jackson, T., 2009, 2017) expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
+Ecological economics is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources (Daly, 1997). (Jackson, T., 2009, 2017) expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
 
 #### Doughnut Economics {#doughnut-economics}
 
@@ -171,6 +165,8 @@ From Circle Economy (2021).
 
 #### Varia {#varia}
 
+History of money Ferguson (2009)
+
 Externalities need to be priced in.
 
 metrics and goals: ESG, SDGs,
@@ -209,9 +205,9 @@ metrics and goals: ESG, SDGs,
 
 ## Indexes {#indexes}
 
-Does certification matter? Consumers are willing to pay more for bio-based products “72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a”green premium” and a “certified green premium,” indicating increased WTP for bio-based and certified bio-based products.” (**moroneConsumerWillingnessPay2021?**) (need access)
+Does certification matter? Consumers are willing to pay more for bio-based products “72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a”green premium” and a “certified green premium,” indicating increased WTP for bio-based and certified bio-based products.” Morone et al. (2021) (need access)
 
--   consumer awares of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat (**mazzocchiConsumerAwarenessSustainable2022?**)
+-   consumer awares of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat Mazzocchi et al. (2022)
 
 Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
 
@@ -430,7 +426,7 @@ Cryptocurrencies are the most popular financial action among young people (CITE)
 
 -   Centralized Crypto Exchanges are in essence lending assets from the user. “The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards” (Hester M. Peirce, 2022).
 
--   Taiwan banks buying cryptocurrencies with credit card because the volatilty makes it similar to gambling (**davidattleeBuyingCryptoCredit2022?**; **MiHuoBi2022?**).
+-   Taiwan banks buying cryptocurrencies with credit card because the volatilty makes it similar to gambling (David Attlee, 2022; 廣編企劃, 2022).
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
@@ -673,7 +669,7 @@ Retail investing can be seen as a form of financial inclusion. Ant Group’s CEO
 
 -   Tan (2020) proposes *“financial ecologies”* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
--   Li et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
+-   Li, M. et al. (2022) suggests retail “investor attention can significantly improve enterprises’ green innovation level”
 
 -   Celo and Impact Market
 
@@ -742,11 +738,11 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
 
--   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 (**macaskillThereGreenPremium2021?**)
+-   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 MacAskill et al. (2021)
 
--   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a ‘regular’ bond (**liWhereGreenBond2022?**)
+-   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a ‘regular’ bond Li, Q., Zhang and Wang (2022)
 
--   Chinese green bond market is growing fast (**pengManagingFinancingCosts2022?**)
+-   Chinese green bond market is growing fast Peng and Xiong (2022)
 
 ### Community Investing {#community-investing}
 

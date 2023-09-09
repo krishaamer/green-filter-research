@@ -273,9 +273,9 @@ Around 27% of Earth’s land area is still covered by forests yet deforestation 
 
 Afforestation is different from reforestation, which takes into account biodiversity.
 
--   (**klostermanMappingGlobalPotential2022?**) using remote-sensing and machine-learning to assess reforestation potential; doesn’t take into account political realities.
+-   Klosterman et al. (2022) using remote-sensing and machine-learning to assess reforestation potential; doesn’t take into account political realities.
 
--   Global Forest Cover Change, Earth Engine (**hansenHighResolutionGlobalMaps2013?**)
+-   Global Forest Cover Change, Earth Engine Hansen et al. (2013)
 
 -   1 billion tree project (Bastin et al., 2019; Anon., 2020; Greenfield and @pgreenfielduk, 2021)
 
@@ -326,7 +326,7 @@ The fossil energy production that’s a large part of global CO2 emissions has c
 
 ### Agroforestry & Permaculture {#agroforestry-permaculture}
 
--   Agroecology (**balticseaactiongroupEITFoodRegenerative2023?**)
+-   Agroecology Baltic Sea Action Group (2023)
 
 Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) (Ruba and Talucder, 2023);
 
@@ -592,7 +592,7 @@ TODO
 
 -   SDGs need to discussed in their totality Popkova et al. (2022).
 
--   German Institute of Development and Sustainability (IDOS) connects SDGs to NDCs. (**dzeboParisAgreementSustainable2023?**)
+-   German Institute of Development and Sustainability (IDOS) connects SDGs to NDCs. Dzebo, Iacobuţă and Beaussart (2023)
 
 -   International Energy Agency (IEAs), Decarbonisation Enablers (**sieaTrackingCleanEnergy2023?**)
 
@@ -762,7 +762,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste A
 
 ### Factories {#factories}
 
--   Regional supply chains for decarbonising steel: “co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction” Japanese-Australia study s (**devlinRegionalSupplyChains2022?**)
+-   Regional supply chains for decarbonising steel: “co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction” Japanese-Australia study s Devlin and Yang (2022)
 
 -   Transparency about the polluting factories where the products come from.. the product journey
 

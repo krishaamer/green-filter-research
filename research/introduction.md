@@ -169,10 +169,10 @@ Interviews with experts in finance and design, and a including a choice experime
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                              | Methods                               |
-|-------------------|------------------------------|-----------------------|
-| 1   | What are the ongoing efforts in sustainability? What can people do to aid sustainability efforts?                                                                                                                     | Literature Review                     |
-| 2   | In what ways is AI becoming an integral part of everyday human interactions and experiences? How might AI help college students evaluate the sustainability of shopping, saving, and investing opportunities?         | Literature Review + Expert Interviews |
-| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with an AI? What role would college students prefer the AI to take? How can college students trust AI? | Survey                                |
+| №   | Question                                                                                                                                                                                                                                           | Methods                                                        |
+|-------------------|-------------------------------|-----------------------|
+| 1   | What are the ongoing efforts in sustainability? What can college students do to aid sustainability efforts?                                                                                                                                        | Literature Review                                              |
+| 2   | In what ways is AI becoming an integral part of everyday human experiences? What might be a fruitful intersection between AI and sustainability? How might AI assistants help college students find shopping, saving, and investing opportunities? | Literature Review + Expert Interviews                          |
+| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI?                             | Literature Review + Expert Interviews + College Student Survey |
 
 RQ Table.

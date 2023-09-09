@@ -109,7 +109,7 @@ Another aspect is tracking one’s mental health. Tyler, Boldi and Cherubini (20
 
 Use technology Wearables to be more aware of one’s health.
 
--   Popular Strava (100 million users) sports assistant provides run tracking and feedback (**stravaStravaGlobalCommunity2022?**).
+-   Popular Strava (100 million users) sports assistant provides run tracking and feedback (Strava, 2022).
 
 ``` mdx-code-block
 <Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
@@ -696,7 +696,7 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   EAT-Lancet diet
 
--   Eshe Nelson and Ana Swanson (2023) increased volatility in food prices
+-   Eshe Nelson, Ana Swanson and Jeanna Smialek (2023) increased volatility in food prices
 
 -   Chang et al. (2021) fish fraud is a large global problem but it’s possible to use DNA-tracking to prove where the fish came from. In “2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan”
 
@@ -756,7 +756,7 @@ Food saving apps
 
 Perspective on food systems in Sweden.
 
--   “regenag”, Václav Kurel, we need help consumers demand regenerative agriculture (**balticseaactiongroupEITFoodRegenerative2023?**)
+-   “regenag”, Václav Kurel, we need help consumers demand regenerative agriculture Baltic Sea Action Group (2023)
 
 -   Kommenda et al. (2022) Carbon Food Labels
 

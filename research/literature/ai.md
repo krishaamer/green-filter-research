@@ -18,7 +18,7 @@ import ChatGPTMedical from '../images/chatgpt-medical.png'
 
 ## Human-AI Interaction {#human-ai-interaction}
 
-There are structures in the world, things, languages. AI with Deep Learning is able to learn these structures and copy them into a computer model. These representations of the real world in a digital model enable humans to ask questions about these structures and to manipulate them to create synthetic experiments that may match the real world. This can be used for generating human-sounding language, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level (**nopriorsInceptiveCEOJakob2023?**).
+There are structures in the world, things, languages. AI with Deep Learning is able to learn these structures and copy them into a computer model. These representations of the real world in a digital model enable humans to ask questions about these structures and to manipulate them to create synthetic experiments that may match the real world. This can be used for generating human-sounding language, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level (No Priors: AI, Machine Learning, Tech, & Startups, 2023).
 
 90 years ago McCulloch and Pitts (1943) proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing’s Test for Machine Intelligence followed in 1950. Turing’s initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? (Turing, 1950).
 
@@ -34,7 +34,7 @@ In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text Alex Tamkin
 
 Hinton likes to call AI an *idiot savant*, someone with exceptional aptitude yet serious mental disorder. Large AI models don’t understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the ‘AI brain’. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations CapInstitute (2023).
 
--   big data: 97 zettabytes (and growing) of data are created in the world per year (**soundaryajayaramanHowBigBig2023?**)
+-   big data: 97 zettabytes (and growing) of data are created in the world per year Soundarya Jayaraman (2023)
 
 ## Generative AI {#generative-ai}
 
@@ -83,7 +83,7 @@ There’s a lot of LLM innovation happening.
 | PaLM-2     | 2023     | Google                          | Proprietary                   |
 | GPT-5      | ????     | OpenAI                          | Unknown; trademark registered |
 
-From reports on the advance of LLMs by (Brown, T. B. et al., 2020; Alvarez, 2021; Tamkin et al., 2021; Hines, 2023).
+From reports on the advance of LLMs by (Brown, T. B. et al., 2020; Alvarez, 2021; Tamkin et al., 2021; Hines, 2023a).
 
 ## Responsible AI {#responsible-ai}
 
@@ -105,7 +105,7 @@ The are several large problems with this generation of LLMs such as GTP3 and GPT
 
 -   Anderljung et al. (2023) OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety.
 
--   (**browneBritainHostWorld2023?**)
+-   Browne (2023)
 
 -   Low-paid workers being used to train AI
 
@@ -461,7 +461,7 @@ The Oxford Internet Institute defines AI simply as ***“computer programming th
 | Google Search           | google.com                                |                      |
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool     |
 
--   perplexity.ai chat-based search (**hinesPerplexityAnnouncesAI2023?**)
+-   perplexity.ai chat-based search Hines (2023b)
 
 -   **AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There’s not avatar.**
 
