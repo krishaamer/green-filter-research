@@ -35,7 +35,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Focus your money on climate, biodiversity, air, water,
+        Focus money on climate, biodiversity, air, water,
         soil, and quality of life
       </>
     ),

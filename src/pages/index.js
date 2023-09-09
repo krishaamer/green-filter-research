@@ -11,12 +11,11 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">
-          Green Your Money
-        </h1>
+        <h1 className="hero__title">Green Your Money</h1>
         <p className="hero__subtitle">
           <i>
-            Green Filter for Everything You Buy
+            Green Filter helps you see everything you buy through the lens of
+            sustainability
           </i>
         </p>
         <div className={styles.buttons}>
