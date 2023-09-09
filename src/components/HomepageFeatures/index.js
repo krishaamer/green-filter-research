@@ -17,9 +17,7 @@ const FeatureList = [
         role="img"
       />
     ),
-    description: (
-      <>Understand who, where, and how makes the products you buy</>
-    ),
+    description: <>Understand who, where, and how makes the products you buy</>,
   },
   {
     title: "Save",
@@ -51,7 +49,8 @@ const FeatureList = [
 
     description: (
       <>
-        Grow your savings in companies with green credentials and avoid polluters
+        Grow your savings in companies with green credentials and ban
+        polluters from your wallet
       </>
     ),
   },

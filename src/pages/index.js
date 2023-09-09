@@ -18,7 +18,7 @@ function HomepageHeader() {
           <i>
             See your money through the lens of sustainability. Green Filter
             helps you shop, save and invest and put your mind at ease from
-            climate anxiety.
+            climate anxiety :D
           </i>
         </p>
         <div className={styles.buttons}>
