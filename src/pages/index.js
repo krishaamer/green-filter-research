@@ -17,8 +17,8 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           <i>
             Green Filter helps you see your money through the lens of
-            sustainability. Shop, save and invest and put your mind at ease from
-            climate anxiety :D
+            sustainability. Shop, save and invest with your mind at ease from
+            climate anxiety 😊
           </i>
         </p>
         <div className={styles.buttons}>
