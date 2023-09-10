@@ -99,11 +99,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      /*
       algolia: {
         appId: "DDJQF6998U",
         apiKey: "4f4fed2b096bb254dfe7a7dbb8560de4",
         indexName: "GreenFilter",
       },
+      */
     }),
 };
 
