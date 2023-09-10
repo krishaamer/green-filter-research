@@ -86,9 +86,9 @@ const config = {
             position: "left",
             label: "Research",
           },
+          { to: "/prototypes", label: "Prototypes", position: "left" },
           { to: "/surveys", label: "Surveys", position: "left" },
           { to: "/database", label: "Database", position: "left" },
-          { to: "/prototypes", label: "Prototypes", position: "left" },
         ],
       },
       footer: {
