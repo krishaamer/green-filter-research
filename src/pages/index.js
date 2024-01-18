@@ -11,25 +11,18 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
-          Today is Day 1 to Green Your Money. You in?
+          Shop, save and invest with your mind at ease from climate anxiety 😊
         </h1>
         <p className="hero__subtitle">
           Green Filter helps you see your money through the lens of
-          sustainability. Shop, save and invest with your mind at ease from
-          climate anxiety 😊
+          sustainability
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/research/abstract"
           >
             Read Research
-          </Link>
-          <Link
-            className="button button--primary button--lg ml-1"
-            to="/prototypes"
-          >
-            Try Prototype
           </Link>
         </div>
       </div>
