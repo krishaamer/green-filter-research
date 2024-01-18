@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+//const lightCodeTheme = require("prism-react-renderer/themes/github");
+//const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -95,10 +95,12 @@ const config = {
         style: "light",
         copyright: `Designing a Green Filter to Help College Students Shop, Save, and Invest Sustainably <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
       },
+      /*
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      */
       /*
       algolia: {
         appId: "DDJQF6998U",
