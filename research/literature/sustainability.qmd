@@ -422,11 +422,11 @@ Data about green house gas emissions.
 |                                               | Australia                           | Turkey                         |
 |                                               | United States                       | South Africa                   |
 
-: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaCO2EmissionsAll2022].
+: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
 
 "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
-@crippaCO2EmissionsAll2022 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
+@crippaFossilCO2GHG2020 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
 
 The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
 
@@ -596,7 +596,7 @@ TODO
 
 -   German Institute of Development and Sustainability (IDOS) connects SDGs to NDCs. @dzeboParisAgreementSustainable2023
 
--   International Energy Agency (IEAs), Decarbonisation Enablers @sieaTrackingCleanEnergy2023
+-   International Energy Agency (IEAs), Decarbonisation Enablers @ieaTrackingCleanEnergy2023
 
 ## Regenerative design
 

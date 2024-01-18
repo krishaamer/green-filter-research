@@ -15,7 +15,6 @@ import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
 ```
-
 ## Data-Driven Design
 
 Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
@@ -26,27 +25,28 @@ As we humans go about our daily business, we produce massive amounts of data, wh
 
 Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
 
-- https://uxplanet.org/5-ways-ux-design-can-tackle-climate-change-issues-e38723000e1c
-- https://uxplanet.org/how-designers-can-help-deal-with-climate-change-81a931070f36
-- https://uia2023cph.org/design-for-climate-adaptation/
-- https://medium.com/r-g-strategic/fight-climate-change-with-great-ux-design-f766c6cc6601
-- https://sustainabledevelopment.un.org/content/documents/951013_Toolkit%20for%20Designing%20Climate%20Change%20Adaptation%20Initiatives.pdf
-- https://www.researchgate.net/publication/332130501_How_can_we_influence_human_behaviour_using_UX_to_accommodate_improvement_for_climate_change
-- https://www.researchgate.net/publication/221514572_Environmental_sustainability_and_interaction
-- https://www.sciencedirect.com/science/article/pii/S2666659622000099
-- https://www.oecd.org/environment/cc/policy-perspectives-climate-resilient-infrastructure.pdf
-- https://books.google.ee/books?id=71yYEAAAQBAJ&pg=PA41&lpg=PA41&dq=Interaction+Design+for+Climate+Change:+how+can+we+change+common+UIs+so+they+take+into+account+sustainability?&source=bl&ots=3SPcm5OnK9&sig=ACfU3U3IDa-ibvd8G7x3o8d6-Y08Z1GoZg&hl=en&sa=X&ved=2ahUKEwiDqNmruf2AAxWdFhAIHay5Cw0Q6AF6BAgmEAM#v=onepage&q=Interaction%20Design%20for%20Climate%20Change%3A%20how%20can%20we%20change%20common%20UIs%20so%20they%20take%20into%20account%20sustainability%3F&f=false
--   https://medium.com/@ashleylosewriter/using-my-skills-as-a-ux-writer-to-tackle-climate-change-and-promote-biodiversity-253c9007bb45
+-   https://uxplanet.org/5-ways-ux-design-can-tackle-climate-change-issues-e38723000e1c
+-   https://uxplanet.org/how-designers-can-help-deal-with-climate-change-81a931070f36
+-   https://uia2023cph.org/design-for-climate-adaptation/
+-   https://medium.com/r-g-strategic/fight-climate-change-with-great-ux-design-f766c6cc6601
+-   https://sustainabledevelopment.un.org/content/documents/951013_Toolkit%20for%20Designing%20Climate%20Change%20Adaptation%20Initiatives.pdf
+-   https://www.researchgate.net/publication/332130501_How_can_we_influence_human_behaviour_using_UX_to_accommodate_improvement_for_climate_change
+-   https://www.researchgate.net/publication/221514572_Environmental_sustainability_and_interaction
+-   https://www.sciencedirect.com/science/article/pii/S2666659622000099
+-   https://www.oecd.org/environment/cc/policy-perspectives-climate-resilient-infrastructure.pdf
+-   https://books.google.ee/books?id=71yYEAAAQBAJ&pg=PA41&lpg=PA41&dq=Interaction+Design+for+Climate+Change:+how+can+we+change+common+UIs+so+they+take+into+account+sustainability?&source=bl&ots=3SPcm5OnK9&sig=ACfU3U3IDa-ibvd8G7x3o8d6-Y08Z1GoZg&hl=en&sa=X&ved=2ahUKEwiDqNmruf2AAxWdFhAIHay5Cw0Q6AF6BAgmEAM#v=onepage&q=Interaction%20Design%20for%20Climate%20Change%3A%20how%20can%20we%20change%20common%20UIs%20so%20they%20take%20into%20account%20sustainability%3F&f=false
 
 Climate Change UX
+
+- @loseUsingMySkills2023
 
 ### **Interaction Design**
 
 ### Platform Economy
 
-*Network Effects,* the more people use a platform, the more valuable it becomes. Rise of the *platform economy* has created global marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work. 
+*Network Effects,* the more people use a platform, the more valuable it becomes. Rise of the *platform economy* has created global marketplace companies like Airbnb and Uber that match idle resources with retail demand and optimize how our cities work.
 
- By continuously adding features (and provided consumer legislation allows it), platforms can evolve into superapps. Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.** The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale. Superapps are honeypots of data that is used for many types of behavior modeling. For example @suarezEnhancingUserIncome2021 suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Also @roaSuperappBehavioralPatterns2021 finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments. 
+By continuously adding features (and provided consumer legislation allows it), platforms can evolve into superapps. Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.** The most successful businesses today (as measured in terms of the number of users) look at the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) but doing so at the scale of hundreds of millions (or even billions) of users - personalization at scale. Superapps are honeypots of data that is used for many types of behavior modeling. For example @suarezEnhancingUserIncome2021 suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. Also @roaSuperappBehavioralPatterns2021 finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
 
 | Enablers of Platform Economics | Good                                                          | Bad                                                                     |
 |--------------------|--------------------------|--------------------------|
@@ -64,7 +64,6 @@ Climate Change UX
 Could there be Sustainability Superapps?
 
 -   How to design sustainability superapps? Lots of options in a single app. @fleetmanagementweeklySustainableSuperappShows2022 "Sustainability and superapps top Gartner's Top 10 2023 Trends List". @davewallaceRiseCarboncentricSuper2021 "The rise of carbon-centric super apps". @goodbagGoodbagSustainableSuper2023 "goodbag: Sustainable Super App". What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also @bernardSustainabilitySuperappsTop2022.
-
 
 -   @undheimEcoTechInvesting2024 Ecotech
 
@@ -86,7 +85,7 @@ Could there be Sustainability Superapps?
 
 ### Speculative Design
 
-In order to build a future, it's relevant to imagine and critique a future. 
+In order to build a future, it's relevant to imagine and critique a future.
 
 Speculative design makes use of future scenarios to envision contexts and interactions in future use. The term ***speculative design*** was invented by @dunneSpeculativeEverythingDesign2013 in their seminal book to question the intersection of user experience design and speculative fiction. For example @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
 
@@ -107,7 +106,7 @@ Another aspect is tracking one's mental health. @tylerContemporarySelfreflective
 
 Use technology Wearables to be more aware of one's health.
 
--   Popular Strava (100 million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022]. 
+-   Popular Strava (100 million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Popular Strava sports assistant provides run tracking and feedback](../images/strava.png){width="60%"}
@@ -284,7 +283,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 ### Behavioral Design
 
-For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions200].
+For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
 The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by @perez-cuetoNudgingPlantbasedMeals2021 found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. @GUATH2022101821 experiments (n=200) suggested nudging can be effective in influencing online shopping behavior towards more sustainable options. A larger scale study of behavior change in Australia maps how to avoid "16 billion paper coffee cups are being thrown away every year" [@novoradovskayaMyCupTea2021].
 
@@ -428,9 +427,8 @@ Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 
 
 -   "Transport greenhouse gas emissions have increased every year since 2014" @ClimateChangeMitigation2023
 
-```{=html}
 <!-- -->
-```
+
 -   @finkenstadtBlurryVisionSupply2021 COVID19 pandemic highlighted the need to have real-time visibility into supply chains.
 
 | Type of Transport           | Percentage |
@@ -504,11 +502,7 @@ Can data transparency provide tools for reducing cruelty.
 
 #### Open Data
 
-taiwan is a proponent of Open Gov
-OP-MSF OGP 
-https://www.opengovpartnership.org/ogp-participation-co-creation-standards/
-https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
-
+taiwan is a proponent of Open Gov OP-MSF OGP https://www.opengovpartnership.org/ogp-participation-co-creation-standards/ https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
 
 Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
@@ -701,7 +695,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 ### Food
 
--   EAT-Lancet diet 
+-   EAT-Lancet diet
 
 -   @eshenelsonHeatWarTrade2023 increased volatility in food prices
 
@@ -761,7 +755,6 @@ There are several initiatives to reduce food waste by helping people consume foo
 | "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
 
 : Perspective on food systems in Sweden.
-
 
 -   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
 

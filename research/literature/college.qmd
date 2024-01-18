@@ -1,5 +1,5 @@
 ---
-title: College Students
+title: Students
 bibliography: [../ref.bib]
 csl: ../harvard.csl
 sidebar_position: 1
@@ -14,7 +14,8 @@ import Geneve from "../images/geneve.jpg";
 ```
 ## Student Protests
 
-In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019]. ::: {.content-hidden unless-format="pdf"} ![Climate protest in Geneva on 27th September, 2019 -- 1 year after the start of Fridays for Future.](../images/geneve.jpg){width="60%"} :::
+In August 2018, Greta Thunberg skipped school to start a climate strike in front of the Swedish parliament Riksdag; millions of people around the world joined her Fridays for Future protests and Time magazine named Thunberg person of the year for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019]. 
+
 
 ```{=mdx}
 <Figure
@@ -24,6 +25,8 @@ In August 2018, Greta Thunberg skipped school to start a climate strike in front
   refTitle="Wikimedia Commons"
 />
 ```
+
+
 ## College Students in Taiwan
 
 Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be teacher-centered, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023]. When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017].
@@ -245,7 +248,7 @@ What are the building blocks of a thriving community? plap
 
     -   Food ordering apps are popular.
 
-    -   Monoculture -\> regenerative food forests Oil -\> electric cars / bicycles.
+    -   Monoculture to regenerative food forests Oil to electric cars / bicycles.
 
     -   Mobile-first.
 
