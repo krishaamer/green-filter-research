@@ -3,21 +3,16 @@ title: 002 — Mindmaps
 sidebar_position: 2
 ---
 
-
-
-
-export const quartoRawHtml =
-[`<Embed src="https://miro.com/app/live-embed/uXjVPEUthh4=/?moveToViewport=-768,-439,1536,876&embedId=523854480229" text="Loading Concept Map..." />`];
-
-````mdx-code-block
+```{=mdx}
 import Embed from '/src/components/Embed'
-````
+```
 
 # Mindmaps
+
 
 Initial version of the concept map focused on the app itself.
 <Embed src="https://xmind.works/share/Yu5h5ikA" text="Loading Mindmap..." />
 
 Current concept map focusing on sustainability.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<Embed src="https://miro.com/app/live-embed/uXjVPEUthh4=/?moveToViewport=-768,-439,1536,876&embedId=523854480229" text="Loading Concept Map..." />

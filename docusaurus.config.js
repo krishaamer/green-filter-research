@@ -1,9 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-//const lightCodeTheme = require("prism-react-renderer/themes/github");
-//const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Green Filter",
@@ -63,6 +60,14 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
+        id: "database",
+        path: "database",
+        routeBasePath: "database",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
         id: "surveys",
         path: "surveys",
         routeBasePath: "surveys",
@@ -95,19 +100,6 @@ const config = {
         style: "light",
         copyright: `Designing a Green Filter to Help College Students Shop, Save, and Invest Sustainably <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
       },
-      /*
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      */
-      /*
-      algolia: {
-        appId: "DDJQF6998U",
-        apiKey: "4f4fed2b096bb254dfe7a7dbb8560de4",
-        indexName: "GreenFilter",
-      },
-      */
     }),
 };
 

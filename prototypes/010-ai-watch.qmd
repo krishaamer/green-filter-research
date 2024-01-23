@@ -1,16 +1,13 @@
 ---
-title: 011 — CO2e Flex
+title: 010 — Sustainability Watch
 sidebar_position: 10
 ---
 
-
-
-
-````mdx-code-block
+```{=mdx}
 import Figure from '/src/components/Figure'
 import Watch from '../research/images/ai-watch.png'
-````
+```
 
-# CO2e Flex
+# Sustainability Watch
 
-Flex how much CO2e you have retired.
+<Figure caption="Sustainability Watch" src={Watch} />

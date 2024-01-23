@@ -3,19 +3,14 @@ title: 000 — Susan
 sidebar_position: 0
 ---
 
-
-
-
-export const quartoRawHtml =
-[`<Figure caption="Susan" src={Susan} />`];
-
-````mdx-code-block
+```{=mdx}
 import Figure from '/src/components/Figure'
 import Susan from '../research/images/susan-pink-app.png'
-````
+```
 
 # Susan
 
 Imagine having a chat like this at the supermarket.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<Figure caption="Susan" src={Susan} />
+
