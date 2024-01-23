@@ -13,12 +13,15 @@ suppress-bibliography: true
 
 
 
-``` mdx-code-block
+export const quartoRawHtml =
+[`<!-- -->`,`<!-- -->`];
+
+````mdx-code-block
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
-```
+````
 
 ## Data-Driven Design
 
@@ -191,9 +194,9 @@ Use technology Wearables to be more aware of one’s health.
 -   Popular Strava (100 million users) sports assistant provides run
     tracking and feedback (Strava, 2022).
 
-``` mdx-code-block
+````mdx-code-block
 <Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
-```
+````
 
 -   AI Financial Advisors will need to go further to motivate users.
 
@@ -494,9 +497,9 @@ Wizzair Check carbon impact Anon. (n.d.g)
 
 Examples of CO<sub>2</sub> visibility in Google’s products.
 
-``` mdx-code-block
+````mdx-code-block
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
-```
+````
 
 -   The founder of the Commons (Joro) consumer CO<sub>2</sub> tracking
     app recounts how people have a gut feeling about the 2000 calories
@@ -1098,9 +1101,9 @@ are at risk from food fraud (Fanning et al., 2023).
 There are several initiatives to reduce food waste by helping people
 consume food that would otherwise be throw away.
 
-``` mdx-code-block
+````mdx-code-block
 <Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
-```
+````
 
 | Name                         | Link                                                          |                                                                                                                                                                      |
 |----------------------|-------------------------|-------------------------|
