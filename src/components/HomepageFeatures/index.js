@@ -31,8 +31,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        Save for your pension considering climate, biodiversity, air, water, soil, and
-        quality of life
+        Save considering climate, biodiversity, air, water, soil, and quality of life
       </>
     ),
   },
