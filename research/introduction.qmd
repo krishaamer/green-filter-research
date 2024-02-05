@@ -1,15 +1,15 @@
----
+rds---
 title: Introduction
-bibliography: [ref.bib]
+bibliography: \[ref.bib\]
 csl: harvard.csl
 sidebar_position: 2
 editor:
-    render-on-save: false
+render-on-save: false
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:
-  - BoldFont=STHeiti
-  - ItalicFont=STKaiti
+ - BoldFont=STHeiti
+ - ItalicFont=STKaiti
 ---
 
 ```{=mdx}
@@ -165,10 +165,10 @@ My interest lies in understanding how AI assistants can help conscious consumers
 
 My research targets potential respondents according to the following criteria.
 
-| Criteria   |                  |
-|------------|------------------|
-| Location   | South of Taiwan  |
-| Population | College Students |
+| Criteria        |                  |
+|-----------------|------------------|
+| Location        | Taiwan           |
+| Target Audience | College Students |
 
 Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
 
@@ -181,10 +181,10 @@ Interviews with experts in finance and design, and a including a choice experime
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                                                           | Methods                                                        |
+| №   | Question                                                                                                                                                                                                                                                                                                                                                                             | Methods           |
 |------------------|-------------------------------|-----------------------|
-| 1   | What are the ongoing efforts in sustainability? What can college students do to aid sustainability efforts?                                                                                                                                        | Literature Review                                              |
-| 2   | In what ways is AI becoming an integral part of everyday human experiences? What might be a fruitful intersection between AI and sustainability? How might AI assistants help college students find shopping, saving, and investing opportunities? | Literature Review + Expert Interviews                          |
-| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI?                             | Literature Review + Expert Interviews + College Student Survey |
+| 1   | What are some points of intersection between college students, the environment, investing, artificial intelligence, and sustainability?                                                                                                                                                                                                                                              | Literature Review |
+| 2   | In what ways is AI becoming an integral part of everyday human experiences?                                                                                                                                                                                                                                                                                                          | Expert Interviews |
+| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI? What can college students do to aid sustainability efforts? How might AI assistants help college students find shopping, saving, and investing opportunities? | Student Survey    |
 
-: RQ Table.
+: Table of research questions.
