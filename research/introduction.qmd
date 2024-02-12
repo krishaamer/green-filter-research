@@ -1,10 +1,10 @@
-rds---
+---
 title: Introduction
-bibliography: \[ref.bib\]
+bibliography: [ref.bib]
 csl: harvard.csl
 sidebar_position: 2
 editor:
-render-on-save: false
+    render-on-save: false
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:
@@ -21,8 +21,6 @@ import Boundaries from "./images/boundaries.png";
 import Carbon from "./images/co2-concentration.png";
 ```
 # Introduction
-
-Overconsumption-driven extractive business practices contribute to the degradation of Earth's natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges (cite).
 
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
@@ -72,15 +70,15 @@ This research is timely in 2023 because of the convergence of five trends:
 
 : Current trends backing the relevance of this research project.
 
-**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
+**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of generation-z and millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
-| Place     | Percentage |
-|-----------|------------|
-| Hong Kong | 48%        |
-| France    | 10%        |
-|           |            |
+| Place     | Percentage of Financial Security Ownerneship |
+|-----------|----------------------------------------------|
+| Hong Kong | 48%                                          |
+| France    | 10%                                          |
+|           |                                              |
 
-: Millenial Investors [@calastoneMillennialsInvestingDetailed2020].
+: From millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
 Does individual climate action help?
 
@@ -88,15 +86,9 @@ Does individual climate action help?
 -   "Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the"carbon footprint", championed in a 2004 advertising campaign by British Petroleum" [@cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022].
 -   Individual efforts are too small to matter unless they're inspired by Community a effort
 -   atmospheric pollution and climate change
-
-<!-- -->
-
 -   The latest IPCC report @calvinIPCC2023Climate2023
-
 -   @dimockDefiningGenerationsWhere2019
-
 -   kora 95% https://kora.app/
-
 -   I, as the researcher, am similar to the blind people in the elephant story; focusing on greening shopping, saving, and investing are only the trunk of the enormous elephant that is environmental disaster unfolding in front of our eyes.
 
 ::: {.content-hidden unless-format="pdf"}
@@ -123,7 +115,7 @@ I grew up reading science fiction books and their influence on my outlook toward
   src={Tricorder}
 />
 ```
-As a foreigner living in Taiwan, I've relied extensively on Google Maps' AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字. Even when we don't realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO~2~, and investing in more eco-friendly businesses doesn't sound so much of a stretch.
+As a foreigner living in Taiwan, I've relied extensively on Google Maps (which can be considered a type of AI assistant) to move around efficiently, including to find food and services, when writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字. Even when we don't realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO~2~, and investing in more eco-friendly businesses doesn't sound so much of a stretch.
 
 ## Research Motivation
 
@@ -165,10 +157,11 @@ My interest lies in understanding how AI assistants can help conscious consumers
 
 My research targets potential respondents according to the following criteria.
 
-| Criteria        |                  |
-|-----------------|------------------|
-| Location        | Taiwan           |
-| Target Audience | College Students |
+| Criteria   |                  |
+|------------|------------------|
+| Location   | Taiwan           |
+| Population | College Students |
+| Count      | 700              |
 
 Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
 
@@ -176,15 +169,16 @@ Interviews with experts in finance and design, and a including a choice experime
 |------------|---------|
 | Location   | Global  |
 | Population | Experts |
+| Count      | 5       |
 
 ## Research Questions
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                                                                                                                                                                                             | Methods           |
+| №   | Question                                                                                                  | Methods           |
 |------------------|-------------------------------|-----------------------|
-| 1   | What are some points of intersection between college students, the environment, investing, artificial intelligence, and sustainability?                                                                                                                                                                                                                                              | Literature Review |
-| 2   | In what ways is AI becoming an integral part of everyday human experiences?                                                                                                                                                                                                                                                                                                          | Expert Interviews |
-| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI? What can college students do to aid sustainability efforts? How might AI assistants help college students find shopping, saving, and investing opportunities? | Student Survey    |
+| 1   | How can artificial intelligence help college students take environmentally sustainable financial actions? | Literature Review |
+| 2   | How can design assist sustainability?                                                                     | Expert Interviews |
+| 3   | How to simplify AI interfaces help college students take sustainable financial action?                    | Student Survey    |
 
 : Table of research questions.
