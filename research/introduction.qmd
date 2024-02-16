@@ -17,41 +17,11 @@ import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
 import Elephant from "./images/elephant-and-blind-men-midjourney.png";
-import Boundaries from "./images/boundaries.png";
-import Carbon from "./images/co2-concentration.png";
 ```
 # Introduction
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris climAgreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+Write new intro.
 
-In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
-
-::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
-:::
-
-```{=mdx}
-<Figure
-  caption="CO2 concentration in the atmosphere"
-  src={Carbon}
-  refURL="https://keelingcurve.ucsd.edu/"
-  refTitle="Scripps Institution of Oceanography at UC San Diego"
-/>
-```
-In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits; atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified [@perssonOutsideSafeOperating2022].
-
-::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Planetary Boundaries"
-  src={Boundaries}
-  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
-  refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
-/>
-```
 ## Research Relevance
 
 If used wisely, money can help build communities of sustainable impact.
@@ -69,16 +39,6 @@ This research is timely in 2023 because of the convergence of five trends:
 | Technology adoption and AI-based user interface availability                               |
 
 : Current trends backing the relevance of this research project.
-
-**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of generation-z and millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
-
-| Place     | Percentage of Financial Security Ownerneship |
-|-----------|----------------------------------------------|
-| Hong Kong | 48%                                          |
-| France    | 10%                                          |
-|           |                                              |
-
-: From millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
 Does individual climate action help?
 
