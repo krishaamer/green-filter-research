@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your DataFrame
-df = pd.read_csv('clean.csv')  # Make sure to adjust the path to your dataset
+df = pd.read_csv('data/clean.csv')  # Make sure to adjust the path to your dataset
 
 #| label: university_ranking
 #| echo: false
