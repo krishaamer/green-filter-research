@@ -3,15 +3,18 @@ title: Results
 bibliography: [ref.bib]
 csl: harvard.csl
 sidebar_position: 5
+execute:
+  echo: false
 editor:
     render-on-save: false
 suppress-bibliography: true
 ---
 
 ```{python}
-import sys
-sys.path.append('data')
-from demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
+#| echo: false
+from data.demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
+from data.environment import ecosystem_sensitivity
+from data.investing import investment_count, investment_data
 ```
 
 # Results
@@ -76,6 +79,26 @@ field_of_study_ranking()
 ## Personality Type
 ```{python}
 mbti_ranking()
+```
+
+
+# Environment
+
+## Ranking Experiment
+
+```{python}
+ecosystem_sensitivity()
+```
+
+# Investing
+## Investing Experience (Overall)
+```{python}
+investment_count()
+```
+
+## Choice Experiment
+```{python}
+investment_data()
 ```
 
 # Old

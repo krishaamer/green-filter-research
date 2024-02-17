@@ -1,0 +1,121 @@
+import streamlit as st
+from matplotlib.font_manager import FontProperties
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+from fields.likert_flat_fields import likert_flat_fields
+#from fields.boolean_fields import boolean_fields
+
+#@st.cache_data
+def show(df):
+    # Load the Chinese font
+    chinese_font = FontProperties(fname='notosans.ttf', size=12)
+    st.title("Shopping")
+    st.markdown(
+                f"<h2 style='text-align: center;'>Boycott Count (Overall)</h2>", unsafe_allow_html=True)
+    show_boycott_count(df, chinese_font)
+    st.markdown(
+                f"<h2 style='text-align: center;'>Why Boycott</h2>", unsafe_allow_html=True)
+    summarize_why_boycott(df, chinese_font)
+    st.markdown(
+                f"<h2 style='text-align: center;'>Trusted Brands</h2>", unsafe_allow_html=True)
+    summarize_trusted_brands(df, chinese_font)
+    st.markdown(
+                f"<h2 style='text-align: center;'>Choice Experiments</h2>", unsafe_allow_html=True)
+    visualize_shopping_data(df, chinese_font)
+
+
+def show_boycott_count(df, chinese_font):
+    # Count the number of people who have invested and who have not
+    boycott_count = df["你/妳有沒有抵制過某公司？"].value_counts().reset_index()
+    boycott_count.columns = ['Boycott', 'Count']
+
+    # Create a bar chart using seaborn
+    plt.figure(figsize=(10, 6))
+    barplot = sns.barplot(x='Boycott', y='Count', data=boycott_count, palette='viridis')
+    ax = plt.gca()  # Get the current Axes instance on the current figure matching the given keyword args, or create one.
+    ax.set_xticklabels(ax.get_xticklabels(), fontproperties=chinese_font)
+
+    # Add labels and title
+    plt.xlabel('Have you ever boycotted a company?', fontsize=12, fontproperties=chinese_font)
+    plt.ylabel('Count', fontsize=12, fontproperties=chinese_font)
+    plt.title("Number of People Who Have/Haven't Boycotted a Company", fontsize=16, fontproperties=chinese_font)
+
+    # Display values on the bars
+    for index, value in enumerate(boycott_count['Count']):
+        plt.text(index, value, str(value), ha='center', va='bottom', fontproperties=chinese_font)
+
+    # Display the chart in Streamlit
+    st.pyplot(plt)
+
+def summarize_why_boycott(df, chinese_font):
+
+    boycott_reasons = df["為什麼抵制？"].value_counts()
+    summary = boycott_reasons.sort_values(ascending=False)
+
+    st.write("Summary of Why Boycott:")
+    st.table(summary)
+
+
+def summarize_trusted_brands(df, chinese_font):
+    # Get the count of responses in the "你/妳有信任的品牌嗎？" field
+    trusted_brands = df["你/妳有信任的品牌嗎？"].value_counts()
+
+    # List of responses to combine as 'no trusted brand'
+    no_brand_responses = ["無", "沒有", "沒有特別", "🈚️", "目前沒有", "No", "沒", "沒有特別關注", "沒有特別信任的", "不知道", "無特別選擇", "目前沒有完全信任的", "沒有特定的", "沒有特定", "沒有特別研究", "目前沒有特別關注的品牌","N", "none", "無特別", "目前無", "沒有特別想到", "沒有固定的", "x", "沒在買", "nope", "一時想不到…", "沒有特別注意", "無特別的品牌", "無絕對信任的品牌", "不確定你說的範圍", "還沒有"]
+
+    # Calculate the combined 'no trusted brand' count
+    no_brand_count = trusted_brands[no_brand_responses].sum()
+
+    # Remove the individual 'no brand' responses and add the combined count
+    trusted_brands_combined = trusted_brands.drop(no_brand_responses)
+    trusted_brands_combined.loc['No trusted brand'] = no_brand_count
+
+    # Combine non-specified brands
+    have_but_not_specified = ["有", "有", "Yes", "應該有"]
+
+    # Calculate the combined 'not specified brand' count
+    have_but_not_specified_count = trusted_brands_combined[have_but_not_specified].sum()
+
+    # Remove the individual 'not specified brand' responses and add the combined count
+    trusted_brands_combined = trusted_brands_combined.drop(have_but_not_specified)
+    trusted_brands_combined.loc['Have but not specified'] = have_but_not_specified_count
+
+    summary = trusted_brands_combined.sort_values(ascending=False)
+
+    # Return the sorted series with combined 'no brand' count
+    st.write("Summary of Trusted Brands:")
+    st.table(summary)
+
+
+def visualize_shopping_data(df, chinese_font):
+    # Shopping fields with their corresponding titles
+    shopping_fields = {
+        "你/妳會買哪一種番茄？": "Which Type of Tomatoes Would You Buy?",
+        "你/妳買哪種牛奶？": "Which Type of Milk Would You Buy?",
+        "你/妳會買哪種雞蛋？": "Which Type of Eggs Would You Buy?"
+    }
+    
+    # Create a figure and a set of subplots
+    fig, axes = plt.subplots(len(shopping_fields), 1, figsize=(10, 6 * len(shopping_fields)))
+    
+    # If there's only one field to plot, axes will not be an array, so we wrap it in a list
+    if not isinstance(axes, np.ndarray):
+        axes = [axes]
+    
+    for ax, (column_name, title) in zip(axes, shopping_fields.items()):
+        # Summarize the data
+        data = df[column_name].value_counts().head(20)  # Adjust the number as needed
+        
+        # Plot the data
+        data.plot(kind='bar', color='skyblue', ax=ax, fontsize=12)
+        ax.set_title(title, fontproperties=chinese_font)
+        ax.set_xlabel('Options', fontproperties=chinese_font)
+        ax.set_ylabel('Count', fontproperties=chinese_font)
+
+        # Set the properties for the x-tick labels
+        ax.set_xticklabels(data.index, rotation=45, ha='right', fontproperties=chinese_font)
+    
+    plt.tight_layout()
+    st.pyplot(fig)

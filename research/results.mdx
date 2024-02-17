@@ -4,6 +4,8 @@ bibliography:
   - ref.bib
 csl: harvard.csl
 sidebar_position: 5
+execute:
+  echo: false
 editor:
   render-on-save: false
 suppress-bibliography: true
@@ -81,13 +83,6 @@ export const quartoRawHtml =
 `,`
 </div>`];
 
-
-```python
-import sys
-sys.path.append('data')
-from demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
-```
-
 # Results
 
 ## Expected Findings
@@ -147,10 +142,6 @@ personas with K-means clustering
 Universities with the most respondents are those where flyers were
 distributed.
 
-```python
-university_ranking_table()
-```
-
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 |     | University                                                 | Number of Respondents |
@@ -194,10 +185,6 @@ university_ranking_table()
 
 ## Study Level
 
-```python
-student_counts()
-```
-
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 |     | Study Level | Number of Students |
@@ -209,10 +196,6 @@ student_counts()
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 ## Age Distribution
-
-```python
-student_age_ranking()
-```
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
@@ -235,10 +218,6 @@ student_age_ranking()
 These fields of study have not been normalized (different names for the
 same field of study may exist)
 
-```python
-field_of_study_ranking()
-```
-
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 |     | Field of Study | Number of Students |
@@ -258,10 +237,6 @@ field_of_study_ranking()
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
 ## Personality Type
-
-```python
-mbti_ranking()
-```
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
 
@@ -298,6 +273,32 @@ mbti_ranking()
 | 28  | ISTJ, 不知道                                   | 1                  |
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+
+# Environment
+
+## Ranking Experiment
+
+![](results_files/figure-markdown_strict/cell-8-output-1.png)
+
+# Investing
+
+## Investing Experience (Overall)
+
+``` text
+/Users/krishaamer/Desktop/current/thesis/green-filter-research/research/data/investing.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  barplot = sns.barplot(x='Investment', y='Count', data=investment_count, palette='viridis')
+/Users/krishaamer/Desktop/current/thesis/green-filter-research/research/data/investing.py:19: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels(ax.get_xticklabels(), fontproperties=chinese_font)
+```
+
+![](results_files/figure-markdown_strict/cell-9-output-2.png)
+
+## Choice Experiment
+
+![](results_files/figure-markdown_strict/cell-10-output-1.png)
 
 # Old
 
