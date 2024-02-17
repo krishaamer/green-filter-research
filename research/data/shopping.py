@@ -4,29 +4,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-from fields.likert_flat_fields import likert_flat_fields
-#from fields.boolean_fields import boolean_fields
+from data.fields.likert_flat_fields import likert_flat_fields
+#from data.fields.boolean_fields import boolean_fields
 
-#@st.cache_data
-def show(df):
-    # Load the Chinese font
-    chinese_font = FontProperties(fname='notosans.ttf', size=12)
-    st.title("Shopping")
-    st.markdown(
-                f"<h2 style='text-align: center;'>Boycott Count (Overall)</h2>", unsafe_allow_html=True)
-    show_boycott_count(df, chinese_font)
-    st.markdown(
-                f"<h2 style='text-align: center;'>Why Boycott</h2>", unsafe_allow_html=True)
-    summarize_why_boycott(df, chinese_font)
-    st.markdown(
-                f"<h2 style='text-align: center;'>Trusted Brands</h2>", unsafe_allow_html=True)
-    summarize_trusted_brands(df, chinese_font)
-    st.markdown(
-                f"<h2 style='text-align: center;'>Choice Experiments</h2>", unsafe_allow_html=True)
-    visualize_shopping_data(df, chinese_font)
+df = pd.read_csv('data/clean.csv') 
+chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
 
-
-def show_boycott_count(df, chinese_font):
+def boycott_count():
     # Count the number of people who have invested and who have not
     boycott_count = df["你/妳有沒有抵制過某公司？"].value_counts().reset_index()
     boycott_count.columns = ['Boycott', 'Count']
@@ -46,19 +30,18 @@ def show_boycott_count(df, chinese_font):
     for index, value in enumerate(boycott_count['Count']):
         plt.text(index, value, str(value), ha='center', va='bottom', fontproperties=chinese_font)
 
-    # Display the chart in Streamlit
-    st.pyplot(plt)
+    plt.show()
 
-def summarize_why_boycott(df, chinese_font):
+def why_boycott():
 
     boycott_reasons = df["為什麼抵制？"].value_counts()
     summary = boycott_reasons.sort_values(ascending=False)
 
     st.write("Summary of Why Boycott:")
-    st.table(summary)
+    print(summary)
 
 
-def summarize_trusted_brands(df, chinese_font):
+def trusted_brands():
     # Get the count of responses in the "你/妳有信任的品牌嗎？" field
     trusted_brands = df["你/妳有信任的品牌嗎？"].value_counts()
 
@@ -86,10 +69,10 @@ def summarize_trusted_brands(df, chinese_font):
 
     # Return the sorted series with combined 'no brand' count
     st.write("Summary of Trusted Brands:")
-    st.table(summary)
+    print(summary)
 
 
-def visualize_shopping_data(df, chinese_font):
+def visualize_shopping_data():
     # Shopping fields with their corresponding titles
     shopping_fields = {
         "你/妳會買哪一種番茄？": "Which Type of Tomatoes Would You Buy?",
@@ -118,4 +101,4 @@ def visualize_shopping_data(df, chinese_font):
         ax.set_xticklabels(data.index, rotation=45, ha='right', fontproperties=chinese_font)
     
     plt.tight_layout()
-    st.pyplot(fig)
+    plt.show()

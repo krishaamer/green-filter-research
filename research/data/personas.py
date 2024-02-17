@@ -10,22 +10,15 @@ from wordcloud import WordCloud
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from matplotlib.font_manager import FontProperties
-from fields.likert_flat_fields import likert_flat_fields
+from data.fields.likert_flat_fields import likert_flat_fields
 
-#@st.cache_data
-def show(df):
-    # Chinese font
-    chinese_font = FontProperties(fname='mingliu.ttf')
-    
+df = pd.read_csv('data/clean.csv') 
+chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
+
+def show():
+
     # Prepare the data and perform clustering and PCA
     df_clustered, pca, cluster_centers = prepare_data_for_pca(df)
-
-    # Titles
-    st.title("Personas from Clusters")
-
-    st.write("Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert-scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert-scale fields, transformed into the principal components that capture the most variance.")
-
-    #There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
 
     # Retain colors
     unique_clusters = df_clustered['Cluster'].unique()
@@ -46,8 +39,6 @@ def show(df):
     }
 
     # Show a scatterplot with all clusters included
-    st.markdown(
-                f"<h2 style='text-align: center;'>Clustering Students to Build 3 Personas</h2>", unsafe_allow_html=True)
     plot_scatterplot(df_clustered, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, "Distinct Respondent Profiles Based on K-means Clustering")
 
     # Show a scatterplot for each cluster separately
@@ -66,7 +57,7 @@ def show(df):
     show_clustering_heatmap(df, chinese_font)
     st.markdown(
             f"<h2 style='text-align: center;'>Agreement between personas</h2>", unsafe_allow_html=True)
-    create_treemap()
+    treemap()
 
 def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font, num_components=2, num_top_features=30):
 
@@ -90,8 +81,7 @@ def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_fon
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
 
-    # Display the plot in the Streamlit app
-    st.pyplot(fig)
+    plt.show()
 
 def plot_loadings(cluster_id, pca, cluster_names, chinese_font):
     # Get the loadings for the first principal component
@@ -108,11 +98,8 @@ def plot_loadings(cluster_id, pca, cluster_names, chinese_font):
     st.markdown(f'<h2 style="text-align: center;">Feature Weights for Cluster {cluster_id+1}: "{cluster_names[cluster_id]}"</h2>', unsafe_allow_html=True)
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
+    plt.show()
 
-    # Display the plot in the Streamlit app
-    st.pyplot(fig)
-
-    
 
 def new_biplot(df, cluster_id, cluster_names, chinese_font, threshold=0.5, zoom_factor=0.1):
 
@@ -150,13 +137,7 @@ def new_biplot(df, cluster_id, cluster_names, chinese_font, threshold=0.5, zoom_
     # Set the axes limits to zoom in
     ax.set_xlim(x_min, x_max)
     ax.set_ylim(y_min, y_max)
-
-    # Show plot in Streamlit
-    st.pyplot(fig)
-
-
-
-
+    plt.show()
 
 def pca_biplot(df, cluster_names, chinese_font):
     # Perform PCA
@@ -185,10 +166,7 @@ def pca_biplot(df, cluster_names, chinese_font):
     ax.set_ylabel('Principal Component 2', fontproperties=chinese_font)
     ax.grid(True)
     ax.axis('equal')  # Setting equal axes for better proportionality
-
-    # Show plot in Streamlit
-    st.pyplot(fig)
-
+    plt.show()
 
 def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_features=30):
     components = pca.components_
@@ -223,7 +201,7 @@ def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_feature
     st.write(f'Persona "{cluster_names[cluster_id]} - Word Cloud for Principal Component 2"')
     st.image(wordcloud2_array_with_border, use_column_width=True)
 
-def get_kmeans_table(df):
+def get_kmeans_table():
 
     # Select only the relevant columns for clustering
     df_likert_real_data = df[likert_flat_fields]
@@ -244,12 +222,10 @@ def get_kmeans_table(df):
 
     # Display the table
     st.write("Mean response values for each likert question in each cluster:")
-    st.table(cluster_means_real_data)
-
-    
+    print(cluster_means_real_data)
 
 
-def show_clustering_heatmap(df, chinese_font):
+def show_clustering_heatmap():
     # Filter the DataFrame to only include the Likert scale fields
     df_likert_data = df[likert_flat_fields]
 
@@ -280,10 +256,10 @@ def show_clustering_heatmap(df, chinese_font):
     wrapped_labels = [textwrap.fill(label.get_text(), width=10) for label in ax.get_xticklabels()]
     ax.set_xticklabels(wrapped_labels, rotation=45, fontproperties=chinese_font)
 
-    st.pyplot(fig)
+    plt.show()
 
 
-def prepare_data_for_pca(df):
+def prepare_data_for_pca():
     # Prepare the likert data, dropping any rows with missing values
     df_likert_data = df[likert_flat_fields].dropna()
 
@@ -361,7 +337,7 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
     ax.legend(handles=handles, labels=new_labels, title='Personas', loc='upper right')
 
     # Use the figure object (fig) to display the plot
-    st.pyplot(fig)
+    plt.show()
 
 
 def add_border(img_array, color, width):
@@ -378,7 +354,7 @@ def add_border(img_array, color, width):
     border_img_array[width:-width, width:-width, :] = img_array
     return border_img_array
 
-def create_treemap():
+def treemap():
     categories = {
         'Ethical Consumption and Labor Concerns': 3.2,
         'Environmental Awareness and Action': 3.8,
@@ -411,4 +387,4 @@ def create_treemap():
     plt.title('Average Agreement Level by Question Category', fontsize=15)
 
     # Use the figure object (fig) in st.pyplot() to display the plot
-    st.pyplot(fig)
+    plt.show()

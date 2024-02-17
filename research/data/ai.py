@@ -7,37 +7,14 @@ import seaborn as sns
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-from fields.prod_feat_flat_fields import prod_feat_flat_fields
-from fields.feature_translations import feature_translations
-from fields.likert_flat_fields import likert_flat_fields
+from data.fields.prod_feat_flat_fields import prod_feat_flat_fields
+from data.fields.feature_translations import feature_translations
+from data.fields.likert_flat_fields import likert_flat_fields
 
-#@st.cache_data
-def show(df):
-    # Load the Chinese font
-    chinese_font = FontProperties(fname='notosans.ttf', size=12)
-    st.title("AI Companion")
+df = pd.read_csv('data/clean.csv') 
+chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
 
-    tab1, tab2 = st.tabs(["Likert-Based Clustering", "Feature-Based Clustering"])
-
-    with tab1:
-        st.write("AI-assistant feature choices per Likert-based Personas")
-        likert_cluster_and_visualize(df, likert_flat_fields, chinese_font)
-
-    with tab2:
-        st.write("Clustering students based on AI-assistant feature choices")
-        clusters = perform_kmodes_clustering(df, prod_feat_flat_fields)
-        st.markdown(
-                    f"<h2 style='text-align: center;'>Feature Preferences (Overall)</h2>", unsafe_allow_html=True)
-        show_radar_chart(clusters, font_prop=chinese_font)
-        st.markdown(
-                    f"<h2 style='text-align: center;'>Feature Preferences (By Cluster)</h2>", unsafe_allow_html=True)
-        plot_feature_preferences(clusters, font_prop=chinese_font)
-        st.markdown(
-                    f"<h2 style='text-align: center;'>Preferred AI Roles (Overall)</h2>", unsafe_allow_html=True)
-        visualize_ai_roles(df, chinese_font)
-
-
-def visualize_ai_roles(df, chinese_font):
+def ai_roles():
     # Check if the "其他" column exists and concatenate it with the AI roles column if it does
     if "其他" in df.columns:
         df["你/妳想要AI扮什麼角色？"] = df["你/妳想要AI扮什麼角色？"].str.cat(df["其他"], na_rep='', sep=' ')
@@ -53,14 +30,15 @@ def visualize_ai_roles(df, chinese_font):
     plt.ylabel('Number of Responses', fontproperties=chinese_font)
     plt.xticks(rotation=45, ha='right', fontproperties=chinese_font)
     plt.tight_layout()
-
-    # Display the plot in Streamlit
-    st.pyplot(plt)
+    plt.show()
 
 
-def perform_kmodes_clustering(df, feature_columns, n_clusters=3):
+def perform_kmodes_clustering():
+
+    n_clusters=3
+
     # Extract the relevant fields for clustering
-    cluster_data = df[feature_columns]
+    cluster_data = df[prod_feat_flat_fields]
 
     # Convert boolean features to integer type
     cluster_data_encoded = cluster_data.astype(int)
@@ -83,7 +61,9 @@ def perform_kmodes_clustering(df, feature_columns, n_clusters=3):
     return cluster_dict
 
 
-def show_radar_chart(clusters, font_prop):
+def radar_chart():
+
+    clusters = perform_kmodes_clustering()
 
     df_dict={
         'Conscious (n=340)': clusters[0],
@@ -114,7 +94,7 @@ def show_radar_chart(clusters, font_prop):
     fig.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
 
     # Draw one axe per variable and add labels
-    plt.xticks(angles[:-1], english_feature_labels, color='grey', size=12, fontproperties=font_prop)
+    plt.xticks(angles[:-1], english_feature_labels, color='grey', size=12, fontproperties=chinese_font)
     
     # Draw ylabels
     ax.set_rlabel_position(0)
@@ -132,13 +112,13 @@ def show_radar_chart(clusters, font_prop):
     plt.legend(loc='upper right', bbox_to_anchor=(0.1, 0.1))
     
     # Add a title
-    plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=font_prop)
+    plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=chinese_font)
     
     # Display the radar chart
-    st.pyplot(fig)
+    plt.show()
 
 
-def plot_feature_preferences(clusters, font_prop):
+def plot_feature_preferences():
     # Given comparative table data
     data = {
         'Feature': [
@@ -172,31 +152,29 @@ def plot_feature_preferences(clusters, font_prop):
     df.plot(kind='bar', width=0.8, ax=ax)
 
     # Set titles and labels using the Chinese font where necessary
-    plt.title('Comparison of Product Feature Preferences by Persona', fontproperties=font_prop)
-    plt.ylabel('Average Score', fontproperties=font_prop)
-    plt.xlabel('Feature', fontproperties=font_prop)
-    plt.xticks(rotation=45, ha='right', fontproperties=font_prop)
+    plt.title('Comparison of Product Feature Preferences by Persona', fontproperties=chinese_font)
+    plt.ylabel('Average Score', fontproperties=chinese_font)
+    plt.xlabel('Feature', fontproperties=chinese_font)
+    plt.xticks(rotation=45, ha='right', fontproperties=chinese_font)
 
     # Set the x-tick labels to use the Chinese font
-    ax.set_xticklabels(df.index, fontproperties=font_prop, rotation=45, ha='right')
+    ax.set_xticklabels(df.index, fontproperties=chinese_font, rotation=45, ha='right')
 
     plt.legend(title='Personas')
 
     # Ensure layout is tight so everything fits
     plt.tight_layout()
+    plt.show()
 
-    # Streamlit uses st.pyplot() to display matplotlib charts
-    st.pyplot(fig)
-
-def likert_cluster_and_visualize(df, likert_flat_fields, chinese_font):
+def likert_cluster_and_visualize():
     # Clean the DataFrame column names
     df.columns = [col.strip() for col in df.columns]
 
     # Also clean the likert_flat_fields if necessary
-    likert_flat_fields = [field.strip() for field in likert_flat_fields]
+    lff = [field.strip() for field in likert_flat_fields]
 
     # Prepare the likert data, dropping any rows with missing values
-    df_likert_data = df[likert_flat_fields].dropna()
+    df_likert_data = df[lff].dropna()
 
     # Perform k-means clustering
     kmeans = KMeans(n_clusters=3, n_init=10, random_state=42).fit(df_likert_data)
@@ -218,7 +196,6 @@ def likert_cluster_and_visualize(df, likert_flat_fields, chinese_font):
         'Frugal': cluster_preferences[2]
     }
 
-    feature_translations_dict = dict(zip(prod_feat_flat_fields, feature_translations))
     persona_averages = [df_dict[key].tolist() for key in df_dict]
 
     # Append the first value at the end of each list for the radar chart
@@ -262,4 +239,4 @@ def likert_cluster_and_visualize(df, likert_flat_fields, chinese_font):
     plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=chinese_font)
     
     # Display the radar chart
-    st.pyplot(fig)
+    plt.show()
