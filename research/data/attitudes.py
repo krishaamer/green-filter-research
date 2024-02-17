@@ -5,77 +5,63 @@ import networkx as nx
 import pandas as pd
 import numpy as np
 from matplotlib.font_manager import FontProperties
-from fields.likert_fields import likert_fields
-from fields.likert_flat_fields import likert_flat_fields
-from fields.field_translation_mapping import field_translation_mapping
-from fields.translation_mapping import translation_mapping
+from data.fields.likert_fields import likert_fields
+from data.fields.likert_flat_fields import likert_flat_fields
+from data.fields.field_translation_mapping import field_translation_mapping
+from data.fields.translation_mapping import translation_mapping
 
+df = pd.read_csv('data/clean.csv') 
+chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
 
-@st.cache_data
-def show(df):
-    st.title("Student Attitudes (Overall)")
-    st.markdown("These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the [Personas](http://localhost:8501/?page=Personas) tab.")
+def likert_charts():
+    # Rename the columns in the DataFrame for visualization
+    df_translated = df.rename(columns={
+        field: f"{field} ({field_translation_mapping[category][i]})"
+        for category, fields in likert_fields.items()
+        for i, field in enumerate(fields)
+    })
 
-    # Chinese font
-    chinese_font = FontProperties(fname='mingliu.ttf')
+    # Loop through each category in likert_fields to create visualizations
+    for category, fields in likert_fields.items():
+        st.markdown(
+            f"<h2 style='text-align: center;'>{translation_mapping[category]}</h2>", unsafe_allow_html=True)
 
-    #generate_correlation_chart(df, chinese_font)
-    create_likert_charts(df, chinese_font)
+        # Calculate the number of rows needed for this category
+        num_fields = len(fields)
+        # Equivalent to ceil(num_fields / 2)
+        num_rows = -(-num_fields // 2)
 
-    st.title("Correlations Between Fields")
-    create_correlation_network(df, 0.4, chinese_font)
+        # Create subplots with 2 columns for this category
+        fig, axs = plt.subplots(num_rows, 2, figsize=(15, 5 * num_rows))
+        axs = axs.flatten()  # Flatten the array of subplots
+
+        # Add padding to fit in the Chinese titles
+        plt.subplots_adjust(hspace=0.4)
+
+        # Loop through each field in the category to create individual bar plots
+        for i, field in enumerate(fields):
+            # Create the bar plot
+            sns.countplot(
+                x=f"{field} ({field_translation_mapping[category][i]})", data=df_translated, ax=axs[i], palette=sns.color_palette("pastel"), saturation=1)
+
+            # Add title and labels
+            title_chinese = field
+            title_english = field_translation_mapping[category][i]
+            axs[i].set_title(
+                f"{title_chinese}\n{title_english}", fontproperties=chinese_font)
+            axs[i].set_xlabel('← Disagreement — Neutral — Agreement →')
+            axs[i].set_ylabel('Frequency')
+
+        # Remove any unused subplots
+        for i in range(num_fields, num_rows * 2):
+            fig.delaxes(axs[i])
+
+        # Show the plot
+        plt.show()
+
+def correlation_network():
     
-
-def create_likert_charts(df, chinese_font):
-    if df is not None:
-
-        # Rename the columns in the DataFrame for visualization
-        df_translated = df.rename(columns={
-            field: f"{field} ({field_translation_mapping[category][i]})"
-            for category, fields in likert_fields.items()
-            for i, field in enumerate(fields)
-        })
-
-        # Loop through each category in likert_fields to create visualizations
-        for category, fields in likert_fields.items():
-            st.markdown(
-                f"<h2 style='text-align: center;'>{translation_mapping[category]}</h2>", unsafe_allow_html=True)
-
-            # Calculate the number of rows needed for this category
-            num_fields = len(fields)
-            # Equivalent to ceil(num_fields / 2)
-            num_rows = -(-num_fields // 2)
-
-            # Create subplots with 2 columns for this category
-            fig, axs = plt.subplots(num_rows, 2, figsize=(15, 5 * num_rows))
-            axs = axs.flatten()  # Flatten the array of subplots
-
-            # Add padding to fit in the Chinese titles
-            plt.subplots_adjust(hspace=0.4)
-
-            # Loop through each field in the category to create individual bar plots
-            for i, field in enumerate(fields):
-                # Create the bar plot
-                sns.countplot(
-                    x=f"{field} ({field_translation_mapping[category][i]})", data=df_translated, ax=axs[i], palette=sns.color_palette("pastel"), saturation=1)
-
-                # Add title and labels
-                title_chinese = field
-                title_english = field_translation_mapping[category][i]
-                axs[i].set_title(
-                    f"{title_chinese}\n{title_english}", fontproperties=chinese_font)
-                axs[i].set_xlabel('← Disagreement — Neutral — Agreement →')
-                axs[i].set_ylabel('Frequency')
-
-            # Remove any unused subplots
-            for i in range(num_fields, num_rows * 2):
-                fig.delaxes(axs[i])
-
-            # Show the plot
-            st.pyplot(fig)
-
-def create_correlation_network(df, threshold, chinese_font):
-    
+    threshold = 0.4
     filtered_df = df[likert_flat_fields]
     filtered_df = filtered_df.apply(pd.to_numeric, errors='coerce')
 
@@ -107,11 +93,9 @@ def create_correlation_network(df, threshold, chinese_font):
 
     plt.title('Correlation Network', fontproperties=chinese_font)
     plt.axis('off')  # Turn off the axis
+    plt.show()
 
-    # Use Streamlit to render the plot
-    st.pyplot(plt)
-
-def generate_correlation_chart(df, chinese_font):
+def correlation_chart():
 
     boolean_fields = [
         '你/妳覺得目前有任何投資嗎？'
@@ -146,6 +130,4 @@ def generate_correlation_chart(df, chinese_font):
     
     # Set the title with the Chinese font
     plt.title("強相關分析", fontproperties=chinese_font)
-
-    # Show the plot in Streamlit
-    st.pyplot(plt)
+    plt.show()

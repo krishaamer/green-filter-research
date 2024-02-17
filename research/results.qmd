@@ -15,6 +15,7 @@ suppress-bibliography: true
 from data.demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
 from data.environment import ecosystem_sensitivity
 from data.investing import investment_count, investment_data
+from data.attitudes import likert_charts, correlation_network, correlation_chart
 ```
 
 # Results
@@ -49,57 +50,71 @@ Data after filtering: 675 people aged 18-26 (Gen-Z), Taiwanese, current students
 
 10 text fields used to enrich the personas
 
-# Respondent Demographics
+## Respondent Demographics
 
-## University
+### University
 Universities with the most respondents are those where flyers were distributed.
 
 ```{python}
 university_ranking_table()
 ```
 
-## Study Level
+### Study Level
 
 ```{python}
 student_counts()
 ```
 
-## Age Distribution
+### Age Distribution
 ```{python}
 student_age_ranking()
 ```
  
-## Field of Study
+### Field of Study
 These fields of study have not been normalized (different names for the same field of study may exist)
 
 ```{python}
 field_of_study_ranking()
 ```
 
-## Personality Type
+### Personality Type
 ```{python}
 mbti_ranking()
 ```
 
+## Environment
+Attitudes towards the environment.
 
-# Environment
-
-## Ranking Experiment
+### Ranking Experiment
 
 ```{python}
 ecosystem_sensitivity()
 ```
 
-# Investing
-## Investing Experience (Overall)
+## Investing
+### Investing Experience (Overall)
 ```{python}
 investment_count()
 ```
 
-## Choice Experiment
+### Choice Experiment
 ```{python}
 investment_data()
 ```
+
+## Attitudes
+These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas sectioon.
+
+### Student Attitudes (Overall)
+```{python}
+likert_charts()
+```
+
+### Correlations Between Fields
+```{python}
+ correlation_network()
+```
+
 
 # Old
 
