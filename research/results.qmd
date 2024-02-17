@@ -8,6 +8,12 @@ editor:
 suppress-bibliography: true
 ---
 
+```{python}
+import sys
+sys.path.append('data')
+from demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
+```
+
 # Results
 
 ## Expected Findings
@@ -42,16 +48,34 @@ Data after filtering: 675 people aged 18-26 (Gen-Z), Taiwanese, current students
 
 # Respondent Demographics
 
-## Study Level
-
-## University Ranking
+## University
+Universities with the most respondents are those where flyers were distributed.
 
 ```{python}
-import sys
-sys.path.append('data')
-from charts_demographics import generate_university_ranking_table
+university_ranking_table()
+```
 
-generate_university_ranking_table()
+## Study Level
+
+```{python}
+student_counts()
+```
+
+## Age Distribution
+```{python}
+student_age_ranking()
+```
+ 
+## Field of Study
+These fields of study have not been normalized (different names for the same field of study may exist)
+
+```{python}
+field_of_study_ranking()
+```
+
+## Personality Type
+```{python}
+mbti_ranking()
 ```
 
 # Old

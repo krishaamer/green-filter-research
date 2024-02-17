@@ -26,7 +26,67 @@ export const quartoRawHtml =
     }
 </style>
 `,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<p>319 rows × 2 columns</p>
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
 </div>`];
+
+
+```python
+import sys
+sys.path.append('data')
+from demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
+```
 
 # Results
 
@@ -82,14 +142,13 @@ personas with K-means clustering
 
 # Respondent Demographics
 
-## Study Level
+## University
 
-## University Ranking
+Universities with the most respondents are those where flyers were
+distributed.
 
 ```python
-from charts_demographics import generate_university_ranking_table
-
-generate_university_ranking_table()
+university_ranking_table()
 ```
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
@@ -132,6 +191,113 @@ generate_university_ranking_table()
 | 33  | 逢甲大學 Feng Chia University (FCU)                        | 1                     |
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+## Study Level
+
+```python
+student_counts()
+```
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+|     | Study Level | Number of Students |
+|-----|-------------|--------------------|
+| 0   | 學士        | 603                |
+| 1   | 碩士        | 73                 |
+| 2   | 博士        | 5                  |
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+## Age Distribution
+
+```python
+student_age_ranking()
+```
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+
+|     | Age | Number of Students |
+|-----|-----|--------------------|
+| 0   | 18  | 180                |
+| 1   | 21  | 130                |
+| 2   | 19  | 117                |
+| 3   | 20  | 108                |
+| 4   | 22  | 67                 |
+| 5   | 23  | 40                 |
+| 6   | 24  | 19                 |
+| 7   | 25  | 15                 |
+| 8   | 26  | 5                  |
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+
+## Field of Study
+
+These fields of study have not been normalized (different names for the
+same field of study may exist)
+
+```python
+field_of_study_ranking()
+```
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+
+|     | Field of Study | Number of Students |
+|-----|----------------|--------------------|
+| 0   | 犯罪防治學系   | 26                 |
+| 1   | 影像傳播學系   | 20                 |
+| 2   | 影像傳播       | 17                 |
+| 3   | 商品設計學系   | 11                 |
+| 4   | 外文系         | 11                 |
+| ... | ...            | ...                |
+| 314 | 英語學系       | 1                  |
+| 315 | 土木           | 1                  |
+| 316 | 牙醫學系       | 1                  |
+| 317 | 物治           | 1                  |
+| 318 | 創新產品設計系 | 1                  |
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+
+## Personality Type
+
+```python
+mbti_ranking()
+```
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+
+|     | MBTI Type                                      | Number of Students |
+|-----|------------------------------------------------|--------------------|
+| 0   | INFP                                           | 91                 |
+| 1   | INFJ                                           | 72                 |
+| 2   | ENFP                                           | 51                 |
+| 3   | 不知道                                         | 43                 |
+| 4   | ISFJ                                           | 43                 |
+| 5   | ENFJ                                           | 26                 |
+| 6   | INTP                                           | 25                 |
+| 7   | ISFP                                           | 23                 |
+| 8   | ENTP                                           | 23                 |
+| 9   | ESFJ                                           | 19                 |
+| 10  | ESFP                                           | 16                 |
+| 11  | INTJ                                           | 15                 |
+| 12  | ESTJ                                           | 15                 |
+| 13  | ISTJ                                           | 12                 |
+| 14  | ENTJ                                           | 7                  |
+| 15  | ISTP                                           | 7                  |
+| 16  | ESTP                                           | 5                  |
+| 17  | INFP, INTP                                     | 2                  |
+| 18  | INTJ, INFJ                                     | 2                  |
+| 19  | ESFJ, ENFJ                                     | 1                  |
+| 20  | INFJ, ISFP, INFP                               | 1                  |
+| 21  | ISFJ, ESFJ                                     | 1                  |
+| 22  | ESTJ, ENFP, ENTP, ESFJ, ESTP, ESFP, INTP, INFP | 1                  |
+| 23  | ISFJ, INFP                                     | 1                  |
+| 24  | ENTP, ENFP                                     | 1                  |
+| 25  | INFP, ENFP                                     | 1                  |
+| 26  | INFP, ISFP                                     | 1                  |
+| 27  | ESFP, ENFP                                     | 1                  |
+| 28  | ISTJ, 不知道                                   | 1                  |
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
 # Old
 
