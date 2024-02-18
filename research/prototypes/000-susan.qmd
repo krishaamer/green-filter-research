@@ -1,0 +1,16 @@
+---
+title: 000 — Susan
+sidebar_position: 0
+---
+
+```{=mdx}
+import Figure from '/src/components/Figure'
+import Susan from '../images/susan-pink-app.png'
+```
+
+# Susan
+
+Imagine having a chat like this at the supermarket.
+
+<Figure caption="Susan" src={Susan} />
+

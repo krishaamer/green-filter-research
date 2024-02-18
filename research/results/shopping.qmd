@@ -1,0 +1,46 @@
+---
+title: Shopping
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 5
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+
+```{python}
+from data.shopping import boycott_count, why_boycott, trusted_brands, visualize_shopping_data
+```
+
+## Shopping
+
+### Boycott Count (Overall)
+```{python}
+boycott_count()
+```
+
+### Why Boycott
+```{python}
+why_boycott()
+```
+
+### Trusted Brands
+```{python}
+trusted_brands()
+```
+
+### Choice Experiments
+```{python}
+visualize_shopping_data()
+```
+
+## Personas from Clusters
+Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert-scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert-scale fields, transformed into the principal components that capture the most variance.
+
+- There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
+
+### Clustering Students to Build 3 Personas
+

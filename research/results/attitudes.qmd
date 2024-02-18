@@ -1,0 +1,28 @@
+---
+title: Attitudes
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 3
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+```{python}
+from data.attitudes import likert_charts, correlation_network, correlation_chart
+```
+
+## Attitudes
+These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas sectioon.
+
+### Student Attitudes (Overall)
+```{python}
+likert_charts()
+```
+
+### Correlations Between Fields
+```{python}
+ correlation_network()
+```

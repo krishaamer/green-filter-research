@@ -1,0 +1,18 @@
+---
+title: Database
+sidebar_position: 1
+---
+
+```{=mdx}
+import Embed from '/src/components/Embed'
+```
+
+# Intro
+
+Compile a database on relevant apps and companies in the space
+
+Easily access data used in this research project (please wait a bit until it loads below). The database includes sustainability-focused apps categorized by features and problems they try to solve, sustainable investing apps, and links to research papers.
+
+## Database
+
+ <Embed src="https://airtable.com/embed/shr4SJcuhnfPBKLXo?backgroundColor=red" text="Loading Database..." />
