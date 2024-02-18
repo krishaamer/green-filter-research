@@ -1,4 +1,6 @@
-import streamlit as st
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -37,7 +39,7 @@ def why_boycott():
     boycott_reasons = df["為什麼抵制？"].value_counts()
     summary = boycott_reasons.sort_values(ascending=False)
 
-    st.write("Summary of Why Boycott:")
+    print("Summary of Why Boycott:")
     print(summary)
 
 
@@ -68,7 +70,7 @@ def trusted_brands():
     summary = trusted_brands_combined.sort_values(ascending=False)
 
     # Return the sorted series with combined 'no brand' count
-    st.write("Summary of Trusted Brands:")
+    print("Summary of Trusted Brands:")
     print(summary)
 
 

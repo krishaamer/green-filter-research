@@ -1,4 +1,6 @@
-import streamlit as st
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 from kmodes.kmodes import KModes
 import pandas as pd
 from matplotlib.font_manager import FontProperties

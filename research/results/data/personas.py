@@ -1,4 +1,6 @@
-import streamlit as st
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import pandas as pd
 import numpy as np
 import textwrap
@@ -51,11 +53,11 @@ def show():
         new_biplot(df, cluster_id, cluster_names, chinese_font)
         
         
-    st.markdown(
+    print(
                 f"<h2 style='text-align: center;'>Mean Answer Scores</h2>", unsafe_allow_html=True)
     get_kmeans_table(df)
     show_clustering_heatmap(df, chinese_font)
-    st.markdown(
+    print(
             f"<h2 style='text-align: center;'>Agreement between personas</h2>", unsafe_allow_html=True)
     treemap()
 
@@ -77,7 +79,7 @@ def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_fon
     fig, ax = plt.subplots(figsize=(10, 15))
     ax.barh(top_features, top_loadings, color='skyblue')
     ax.set_xlabel('Loading', fontproperties=chinese_font)
-    st.markdown(f'<h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>', unsafe_allow_html=True)
+    print(f'<h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>', unsafe_allow_html=True)
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
 
@@ -95,7 +97,7 @@ def plot_loadings(cluster_id, pca, cluster_names, chinese_font):
     fig, ax = plt.subplots(figsize=(10, 15))  # Increase the height here
     ax.barh(top_features, top_loadings, color='skyblue')
     ax.set_xlabel('Loading', fontproperties=chinese_font)
-    st.markdown(f'<h2 style="text-align: center;">Feature Weights for Cluster {cluster_id+1}: "{cluster_names[cluster_id]}"</h2>', unsafe_allow_html=True)
+    print(f'<h2 style="text-align: center;">Feature Weights for Cluster {cluster_id+1}: "{cluster_names[cluster_id]}"</h2>')
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
     plt.show()
@@ -168,38 +170,49 @@ def pca_biplot(df, cluster_names, chinese_font):
     ax.axis('equal')  # Setting equal axes for better proportionality
     plt.show()
 
+def add_border(input_image, border_color, border_width):
+    from PIL import Image, ImageOps
+    img = Image.fromarray(input_image)
+    img_with_border = ImageOps.expand(img, border=border_width, fill=border_color)
+    return np.array(img_with_border)
+
 def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_features=30):
     components = pca.components_
     border_color = (0, 0, 0)
     border_width = 2
     
-    # Sort and select top features for each principal component
+    # Assuming likert_flat_fields is defined elsewhere in your code
     sorted_idx_1 = np.argsort(np.abs(components[0]))[::-1]
     sorted_idx_2 = np.argsort(np.abs(components[1]))[::-1]
     top_features_1 = np.array(likert_flat_fields)[sorted_idx_1][:num_top_features]
     top_features_2 = np.array(likert_flat_fields)[sorted_idx_2][:num_top_features]
     
-    # Create dictionaries for word clouds using only the top features for each component
     loadings1 = {feature: components[0, i] for i, feature in enumerate(likert_flat_fields) if feature in top_features_1}
     loadings2 = {feature: components[1, i] for i, feature in enumerate(likert_flat_fields) if feature in top_features_2}
     
-    # Create and generate word cloud images
-    wordcloud1 = WordCloud(width=800, height=400, background_color='white', colormap='viridis',
-                           font_path=chinese_font.get_file()).generate_from_frequencies(loadings1)
-    wordcloud2 = WordCloud(width=800, height=400, background_color='white', colormap='plasma',
-                           font_path=chinese_font.get_file()).generate_from_frequencies(loadings2)
+    wordcloud1 = WordCloud(width=800, height=400, background_color='white', colormap='viridis', font_path=chinese_font.get_file()).generate_from_frequencies(loadings1)
+    wordcloud2 = WordCloud(width=800, height=400, background_color='white', colormap='plasma', font_path=chinese_font.get_file()).generate_from_frequencies(loadings2)
+    
+    # Convert word clouds to images and then to arrays for adding borders
     wordcloud1_image = wordcloud1.to_image()
     wordcloud2_image = wordcloud2.to_image()
-    
-    # Convert images to arrays and add borders
     wordcloud1_array_with_border = add_border(np.array(wordcloud1_image), border_color, border_width)
     wordcloud2_array_with_border = add_border(np.array(wordcloud2_image), border_color, border_width)
     
-    # Display images with borders in Streamlit
-    st.write(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Principal Component 1')
-    st.image(wordcloud1_array_with_border, use_column_width=True)
-    st.write(f'Persona "{cluster_names[cluster_id]} - Word Cloud for Principal Component 2"')
-    st.image(wordcloud2_array_with_border, use_column_width=True)
+    # Display images using matplotlib for compatibility with Quarto
+    fig, axs = plt.subplots(1, 2, figsize=(20, 10))
+    
+    axs[0].imshow(wordcloud1_array_with_border)
+    axs[0].axis('off')
+    axs[0].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Principal Component 1')
+    
+    axs[1].imshow(wordcloud2_array_with_border)
+    axs[1].axis('off')
+    axs[1].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Principal Component 2')
+    
+    plt.tight_layout()
+    plt.show()
+
 
 def get_kmeans_table():
 
@@ -221,7 +234,7 @@ def get_kmeans_table():
         'Cluster').mean().reset_index()
 
     # Display the table
-    st.write("Mean response values for each likert question in each cluster:")
+    print("Mean response values for each likert question in each cluster:")
     print(cluster_means_real_data)
 
 
@@ -318,8 +331,8 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
                 ha='center', va='center', fontproperties=chinese_font)
         # Write custom descriptive text above each cluster if showing individual scatterplot
         if is_individual and label in cluster_descriptions:
-            st.markdown(f'<h2 style="text-align: center;">Persona {label+1}: "{cluster_names[label]}"</h2>', unsafe_allow_html=True)
-            st.write(cluster_descriptions[label])  # This will display the text in the Streamlit app
+            print(f'<h2 style="text-align: center;">Persona {label+1}: "{cluster_names[label]}"</h2>')
+            print(cluster_descriptions[label])
             ax.text(center[0], center[1]+0.1, cluster_names[label], color='black', 
                     ha='center', va='bottom', fontproperties=chinese_font)
 
@@ -385,6 +398,4 @@ def treemap():
     
     # Add a title to the plot
     plt.title('Average Agreement Level by Question Category', fontsize=15)
-
-    # Use the figure object (fig) in st.pyplot() to display the plot
     plt.show()

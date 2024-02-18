@@ -1,4 +1,6 @@
-import streamlit as st
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import pandas as pd
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
@@ -16,7 +18,10 @@ def investment_count():
     plt.figure(figsize=(10, 6))
     barplot = sns.barplot(x='Investment', y='Count', data=investment_count, palette='viridis')
     ax = plt.gca()  # Get the current Axes instance on the current figure matching the given keyword args, or create one.
-    ax.set_xticklabels(ax.get_xticklabels(), fontproperties=chinese_font)
+
+    tick_positions = range(len(investment_count['Investment']))  # Assuming 'Investment' is the correct column
+    ax.set_xticks(tick_positions)  # This explicitly sets tick positions
+    ax.set_xticklabels(investment_count['Investment'], fontproperties=chinese_font)  # Then, set custom labels
 
     # Add labels and title
     plt.xlabel('Do you currently have any investment?', fontsize=12, fontproperties=chinese_font)
