@@ -20,7 +20,11 @@ import Elephant from "./images/elephant-and-blind-men-midjourney.png";
 ```
 # Introduction
 
-Write new intro.
+The emerging field of ***Planetary Health*** recognizes profound interconnections between our economic behaviors, ecosystem services such as clean water, air, soil, the climate crisis, and human health. As of 2024, Earth's natural environment is being heavily degraded by the extractive business practices of companies that make many of the products and services we buy every day. The way we use our money to interact with companies - through shopping as consumers and saving / investing as investors - has an effect on the life-supporting biosphere we rely on to keep our planet inhabitable. In essence, from an ecological perspective, every financial action is either an investment decision to support more environmentally-friendly companies - or to support polluters.
+
+--
+
+Write new intro?
 
 How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, savings, and investing companion.
 
@@ -118,16 +122,6 @@ For the average person like myself, my experience with money is mostly limited t
 -   Could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals?
 -   In this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***AI companion Susan*** will ask me a personalized question:
 
-::: {.content-hidden unless-format="pdf"}
-![Early prototype of my Sustainable Finance AI Companion](./images/susan-pink-app.png){width="50%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Early prototype of my Sustainable Finance AI Companion"
-  src={Susan}
-/>
-```
 ## Research Objective
 
 The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.

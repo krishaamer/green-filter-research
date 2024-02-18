@@ -12,5 +12,13 @@ import Susan from '../images/susan-pink-app.png'
 
 Imagine having a chat like this at the supermarket.
 
-<Figure caption="Susan" src={Susan} />
+::: {.content-hidden unless-format="pdf"}
+![Early prototype of my Sustainable Finance AI Companion](./images/susan-pink-app.png){width="50%"}
+:::
 
+```{=mdx}
+<Figure
+  caption="Early prototype of my Sustainable Finance AI Companion"
+  src={Susan}
+/>
+```
