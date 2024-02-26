@@ -8,52 +8,19 @@ editor:
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:
-  - BoldFont=STHeiti
-  - ItalicFont=STKaiti
+ - BoldFont=STHeiti
+ - ItalicFont=STKaiti
 ---
 
 ```{=mdx}
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
-import Elephant from "./images/elephant-and-blind-men-midjourney.png";
-import Boundaries from "./images/boundaries.png";
-import Carbon from "./images/co2-concentration.png";
 ```
 # Introduction
 
-Overconsumption-driven extractive business practices contribute to the degradation of Earth's natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges \[cite\].
+How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, savings, and investing companion.
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
-
-In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
-
-::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
-:::
-
-```{=mdx}
-<Figure
-  caption="CO2 concentration in the atmosphere"
-  src={Carbon}
-  refURL="https://keelingcurve.ucsd.edu/"
-  refTitle="Scripps Institution of Oceanography at UC San Diego"
-/>
-```
-In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits; atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified [@perssonOutsideSafeOperating2022].
-
-::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Planetary Boundaries"
-  src={Boundaries}
-  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
-  refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
-/>
-```
 ## Research Relevance
 
 If used wisely, money can help build communities of sustainable impact.
@@ -72,42 +39,17 @@ This research is timely in 2023 because of the convergence of five trends:
 
 : Current trends backing the relevance of this research project.
 
-**There's evidence young people have money.** In the U.S. alone, the combined annual consumer spending of Gen-Z and Millennials was over 2.5T USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the coming decade, in the U.S., UK, and Australia, Millennials are inheriting 30T USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a @calastoneMillennialsInvestingDetailed2020 study (n=3000) surveying people in the Millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
-
-| Place     | Percentage |
-|-----------|------------|
-| Hong Kong | 48%        |
-| France    | 10%        |
-|           |            |
-
-: Millenial Investors [@calastoneMillennialsInvestingDetailed2020].
-
 Does individual climate action help?
 
 -   [Gen-Z college students (target users) may not have the capital to make a financial dent today however they can be early adopter and they will be the decision-makers in a few years.]{.underline}
 -   "Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the"carbon footprint", championed in a 2004 advertising campaign by British Petroleum" [@cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022].
 -   Individual efforts are too small to matter unless they're inspired by Community a effort
-
-<!-- -->
-
+-   atmospheric pollution and climate change
 -   The latest IPCC report @calvinIPCC2023Climate2023
-
 -   @dimockDefiningGenerationsWhere2019
-
--   kora 95% <https://kora.app/>
-
+-   kora 95% https://kora.app/
 -   I, as the researcher, am similar to the blind people in the elephant story; focusing on greening shopping, saving, and investing are only the trunk of the enormous elephant that is environmental disaster unfolding in front of our eyes.
 
-::: {.content-hidden unless-format="pdf"}
-![Illustration of the Jainist parable Anekāntavāda also known as "Blind Men and an Elephant". Generated by Midjourney on August 17, 2023. Prompt: "A simple pencil-drawn illustration of the the story"Blind men and an elephant. The man touching the elephant's trunk is a research scientist. Ohara Donshu, Itcho Hanabusa, Japanese woodcut Edo style"](./images/elephant-and-blind-men-midjourney.png){width="60%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Illustration of the Jainist parable Anekāntavāda also known as Blind Men and an Elephant. Generated by Midjourney on August 17, 2023. Prompt: 'A simple pencil-drawn illustration of the the story Blind men and an elephant. The man touching the elephant's trunk is a research scientist. Ohara Donshu, Itcho Hanabusa, Japanese woodcut Edo style'"
-  src={Elephant}
-/>
-```
 ## Research Background
 
 I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imaginary future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already integral part of our lives; this thesis proposal was partially written using Google's and Apple's Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.
@@ -122,9 +64,30 @@ I grew up reading science fiction books and their influence on my outlook toward
   src={Tricorder}
 />
 ```
-As a foreigner living in Taiwan, I've relied extensively on Google Maps' AI assistant to move around efficiently, including to find food and services, when writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字. Even when we don't realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO~2~, and investing in more eco-friendly businesses doesn't sound so much of a stretch.
+As a foreigner living in Taiwan, I've relied extensively on Google Maps (which can be considered a type of AI assistant) to move around efficiently, including to find food and services, when writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字. Even when we don't realize it, AI assistants are already helping us with many of our mundane tasks. While it takes incredibly complex computational algorithms to achieve this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help us with greener shopping decisions, saving CO~2~, and investing in more eco-friendly businesses doesn't sound so much of a stretch.
 
 ## Research Motivation
+
+in taiwan
+water is too pollutee can't swim
+
+air is too dirty can't breather (show my own stats)
+
+- start local then go global with backup data from global sources
+- 
+ask chatgpt how to organize my sections
+
+rq: how to connect env destruction pollution to source causes
+
+rq: how to connect everyday financial actions to environmental impact in a visual/ meaningful way
+
+- idea came riding my bike in annan can't swim in yhe annan river
+- show local pollution map?
+- show factories on the map
+- instead of the browser pluging just make a website where you can share the link of the product (and cache rhe results)
+- on ios can use the share screen to share to the app?
+
+- ICID calls upon us to have the courage to redesign entire industries
 
 -   This research takes place at the intersection of Taiwanese college students, sustainability, finance, AI, and design.
 
@@ -142,16 +105,6 @@ For the average person like myself, my experience with money is mostly limited t
 -   Could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals?
 -   In this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my ***AI companion Susan*** will ask me a personalized question:
 
-::: {.content-hidden unless-format="pdf"}
-![Early prototype of my Sustainable Finance AI Companion](./images/susan-pink-app.png){width="50%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Early prototype of my Sustainable Finance AI Companion"
-  src={Susan}
-/>
-```
 ## Research Objective
 
 The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.
@@ -168,6 +121,7 @@ My research targets potential respondents according to the following criteria.
 |------------|------------------|
 | Location   | Taiwan           |
 | Population | College Students |
+| Count      | 700              |
 
 Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.
 
@@ -175,15 +129,16 @@ Interviews with experts in finance and design, and a including a choice experime
 |------------|---------|
 | Location   | Global  |
 | Population | Experts |
+| Count      | 5       |
 
 ## Research Questions
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                                                                                                                                              | Methods                               |
-|-------------------|-------------------------------|-----------------------|
-| 1   | What are the ongoing efforts in sustainability? What can people do to aid sustainability efforts?                                                                                                                     | Literature Review                     |
-| 2   | In what ways is AI becoming an integral part of everyday human interactions and experiences? How might AI help college students evaluate the sustainability of shopping, saving, and investing opportunities?         | Literature Review + Expert Interviews |
-| 3   | What kind of sustainability info do college students care about? How would college students prefer to interact with an AI? What role would college students prefer the AI to take? How can college students trust AI? | Survey                                |
+| №   | Question                                                                                                  | Methods           |
+|------------------|-------------------------------|-----------------------|
+| 1   | How can artificial intelligence help college students take environmentally sustainable financial actions? | Literature Review |
+| 2   | How can design assist sustainability?                                                                     | Expert Interviews |
+| 3   | How to simplify AI interfaces help college students take sustainable financial action?                    | Student Survey    |
 
-: RQ Table.
+: Table of research questions.

@@ -7,21 +7,19 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
-          Green Your Money
+          Shop, save and invest with your mind at ease from climate anxiety 😊
         </h1>
         <p className="hero__subtitle">
-          <i>
-            Green Filter for Everything You Buy
-          </i>
+          Green Filter helps you see your money through the lens of
+          sustainability
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/research/abstract"
           >
             Read Research

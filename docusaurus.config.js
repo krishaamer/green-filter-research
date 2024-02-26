@@ -1,14 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Green Filter",
-  tagline:
-    "How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, savings, and investing companion.",
+  tagline: "Shop, Save, and Invest Sustainably",
   url: "https://www.greenfilter.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -52,22 +48,6 @@ const config = {
         disableInDev: true,
       },
     ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "prototypes",
-        path: "prototypes",
-        routeBasePath: "prototypes",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "surveys",
-        path: "surveys",
-        routeBasePath: "surveys",
-      },
-    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -86,23 +66,11 @@ const config = {
             position: "left",
             label: "Research",
           },
-          { to: "/surveys", label: "Surveys", position: "left" },
-          { to: "/database", label: "Database", position: "left" },
-          { to: "/prototypes", label: "Prototypes", position: "left" },
         ],
       },
       footer: {
         style: "light",
-        copyright: `Designing a Green Filter to Help College Students Shop, Save, and Invest Sustainably <br />Copyright © ${new Date().getFullYear()} GreenFilter.app `,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        appId: "DDJQF6998U",
-        apiKey: "4f4fed2b096bb254dfe7a7dbb8560de4",
-        indexName: "GreenFilter",
+        copyright: `Copyright © ${new Date().getFullYear()} GreenFilter.app `,
       },
     }),
 };

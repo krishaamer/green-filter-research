@@ -1,0 +1,11 @@
+---
+title: Personas
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 4
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---

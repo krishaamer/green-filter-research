@@ -54,8 +54,10 @@ h6 {
 }
 
 .hero__title {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--ifm-color-hero-title);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero__superapp {
@@ -83,6 +85,9 @@ h6 {
   font-size: 1.5rem;
   font-family: 'Inter', sans-serif;
   color: var(--ifm-color-hero-title);
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 figure {
@@ -177,6 +182,10 @@ figcaption {
 
 .px-1 {
   padding: 0 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
 }
 
 .main-wrapper {

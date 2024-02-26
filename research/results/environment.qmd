@@ -1,0 +1,24 @@
+---
+title: Environment
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 6
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+```{python}
+from data.environment import ecosystem_sensitivity
+```
+
+## Environment
+Attitudes towards the environment.
+
+### Ranking Experiment
+
+```{python}
+ecosystem_sensitivity()
+```

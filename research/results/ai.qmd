@@ -1,0 +1,45 @@
+---
+title: AI Companion
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 7
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+
+```{python}
+from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles
+```
+
+## AI Companion
+
+### Likert-Based Clustering
+AI-assistant feature choices per Likert-based Personas
+```{python}
+likert_cluster_and_visualize()
+```
+
+### Feature-Based Clustering
+Clustering students based on AI-assistant feature choices
+```{python}
+perform_kmodes_clustering()
+```
+
+### Feature Preferences (Overall)
+```{python}
+radar_chart()
+```
+
+### Feature Preferences (By Cluster)
+```{python}
+plot_feature_preferences()
+```
+
+### Preferred AI Roles (Overall)
+```{python}
+ai_roles()
+```

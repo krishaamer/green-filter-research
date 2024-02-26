@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence
+title: A.I.
 bibliography: [../ref.bib]
 csl: ../harvard.csl
 sidebar_position: 3
@@ -17,7 +17,9 @@ import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
 ## Human-AI Interaction
 
-There are structures in the world, things, languages. AI with Deep Learning is able to learn these structures and copy them into a computer model. These representations of the real world in a digital model enable humans to ask questions about these structures and to manipulate them to create synthetic experiments that may match the real world. This can be used for generating human-sounding language, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
+There are structures in the world: cultures, languages, human interactions all form patterns, which increasingly powerful computer systems are able to learn and copy them into a computer models. AI Approaches Deep Learning is these structures
+
+These representations of the real world in a digital model enable humans to ask questions about these structures and to manipulate them to create synthetic experiments that may match the real world. This can be used for generating human-sounding language, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
 
 90 years ago @mccullochLogicalCalculusIdeas1943 proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing's Test for Machine Intelligence followed in 1950. Turing's initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? [@turingCOMPUTINGMACHINERYINTELLIGENCE1950].
 
@@ -25,7 +27,7 @@ There are structures in the world, things, languages. AI with Deep Learning is a
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
-The nature--inspired approach was successful, and together with many other innovations, such as ***back-propagation***, ***transformers***, which allow tracking relationships in sequential data (for example sentences) [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022], Generative Adversarial Networks\*\*\* (GAN), (**CITE, 2016**), and ***Large Language Models (CITE, 2018)***, led to increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
+The nature-inspired approach was successful, and together with many other innovations, such as ***back-propagation***, ***transformers***, which allow tracking relationships in sequential data (for example sentences) [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022], Generative Adversarial Networks\*\*\* (GAN), (**CITE, 2016**), and ***Large Language Models (CITE, 2018)***, led to increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
 
 By the 2020s, AI-based models became a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles, including cars, delivery robots, drones in the sea and air, as well as AI-based assistants, which will be the focus here.
 
@@ -34,10 +36,13 @@ In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text @alextamkin
 Hinton likes to call AI an *idiot savant*, someone with exceptional aptitude yet serious mental disorder. Large AI models don't understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (CITE)*, whose role is to figure out what exactly is happening inside the 'AI brain'. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations @capinstituteGettingRealArtificial2023.
 
 -   big data: 97 zettabytes (and growing) of data are created in the world per year @soundaryajayaramanHowBigBig2023
+-   @worldgovernmentssummitConversationFounderNVIDIA2024
 
 ## Generative AI
 
 Today Artificial Intelligence is not only an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it. Yet AI has becoming mainstream conversation topic as now it's calling attention to itself.
+
+Much is still to be understood about deep learning [@sohl-dicksteinBoundaryNeuralNetwork2024]; the fractal structure of deep learning can only be called mysterious.
 
 Foundational AI models have given birth to ***generative AI***, which is able to generate ***tokens,*** such as text, speech, audio [@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022], and even music [@copetSimpleControllableMusic2023; @metaaiAudioCraftSimpleOnestop2023], video, in any language it's trained on, but also complex structures such 3D models and even genomes. Generative AI brought a revolution in human-AI interaction as AI models became increasingly capable of producing human--like content. The advances in the capabilities of large AI model mean we've reached a point, where ***it's possible to achieve a user experience (UX) which previously was science fiction***.
 
@@ -476,6 +481,7 @@ The Oxford Internet Institute defines AI simply as ***"computer programming that
 -   perplexity.ai chat-based search @hinesPerplexityAnnouncesAI2023
 
 -   **AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There's not avatar.**
+
 -   CO2e calculations will be part of our everyday experience
 
 ::: {.content-hidden unless-format="pdf"}

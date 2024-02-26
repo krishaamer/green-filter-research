@@ -1,0 +1,26 @@
+---
+title: Investing
+bibliography: [../ref.bib]
+csl: ../harvard.csl
+sidebar_position: 2
+execute:
+  echo: false
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+```{python}
+from data.investing import investment_count, investment_data
+```
+
+## Investing
+### Investing Experience (Overall)
+```{python}
+investment_count()
+```
+
+### Choice Experiment
+```{python}
+investment_data()
+```
