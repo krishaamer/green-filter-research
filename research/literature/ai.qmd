@@ -67,7 +67,7 @@ Foundational AI models enable ***Generative AIs***, a class of AI models which a
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
 
 | Problem                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Monolithicity              | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                  |
 | Opaqueness                 | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
 | Biases and Prejudices      | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become "partners in crime"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                  |
@@ -76,12 +76,9 @@ Given the widespread use of AI and its increasing power of foundational models, 
 | Competition with Humans    | AIs outperform humans on creativity assessment tests [@mollickAutomatingCreativity2023; @haaseArtificialMusesGenerative2023]. Bots are even better than humans in solving CAPTCHA tests designed to distinguish humans from robots [@matthewsparkesBotsAreBetter2023]. AI AlphaGO 2 outperforms even the 85% of programmers in one competitive coding competition @googleUsingAISolve2023. Open AI founder Sam Altman is also a co-founder of WorldCoin, and blockchain-based startup which aims to give a unique identity to each human by scanning human eye retinas (something which computer don't have).                                   |
 | Training Ethics            | Low-paid workers being used to train AI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Additional Issues          | @huyenOpenChallengesLLM2023 provides a long list of open problems in AI development; AI is still in very early stages.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Moderating AIs             | Currently algorithms are being moderated by humans. There are studies which show how low-paid workers used to moderate harmful content; terrible for mental health (ADD CITATION). Ironically, AIs could also be part of the solution to reduce such human–abusing work. @lilianwengUsingGPT4Content2023 shows how it's possible to use well-aligned AI moderate to harmful content.                                                                                                                                                                                                                                                            |
 
 : Some problems with contemporary AIs
-
-### Moderating AIs
-
-Currently algorithms are being moderated by humans. There are studies which show how low-paid workers used to moderate harmful content; terrible for mental health (ADD CITATION). Ironically, AIs could also be part of the solution to reduce such human–abusing work. @lilianwengUsingGPT4Content2023 shows how it's possible to use well-aligned AI moderate to harmful content.
 
 ### Human-in-The-Loop
 
@@ -102,7 +99,9 @@ There are many examples of combination of AI and human, also known as "human-in-
 
 : Examples of human-in-the-loop apps
 
-## \## Context of Use
+## Context of Use
+
+Where is the AI us
 
 ## Generative AIs Enable New UI Interactions
 
@@ -127,7 +126,7 @@ The advances in the capabilities of LLMs makes it possible to achieve ***user ex
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field of Usage    | Description                                                                                                                                 |
-|---------------|---------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Shipping          | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
 | Data Summarizaton | AI is great at summarizing data: @petersGoogleChromeWill2023                                                                                |
 |                   |                                                                                                                                             |
@@ -169,11 +168,9 @@ Because of the conversational nature of LLMs, they are very useful for ***affect
 
 -   @lvCutenessIrresistibleImpact2022 studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
 -   @liuMachineGazeOnline2021 meanwhile suggests higher ***algorithmic transparency may inhibit anthropomorphism.*** People are less likely to attribute humanness to the AI if they understand how the system works.
--   
 
-```{=html}
 <!-- -->
-```
+
 -   @hiittvWojciechSzpankowskiEmerging2021 data from all the processes around us will define the future of computing
 
 -   Electrodermal activity of the skin and heart-rate variance data are being used to detect the emotional state and stress level of the user [@zangronizElectrodermalActivitySensor2017; @velmovitskyUsingAppleWatch2022].
@@ -612,7 +609,7 @@ Everything that existed before OpenAI's GPT 4 has been blown out of the water.
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 | Category         | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Voice Assistants | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
 | Sustainability   | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.                                                                                                                                                                      |
 | Sustainability   | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
