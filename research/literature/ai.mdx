@@ -12,9 +12,6 @@ suppress-bibliography: true
 
 
 
-export const quartoRawHtml =
-[`<!-- -->`];
-
 ````mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
@@ -27,19 +24,19 @@ import ChatGPTMedical from '../images/chatgpt-medical.png'
 
 There world is filled with structures. Nature, cultures, languages,
 human interactions, all form intricate patterns. Computer systems are
-becoming increasingly powerful in their ability to learn and copy these
-patterns into computer models. As of 2023, 97 zettabytes (and growing)
-of data was created in the world per year (Soundarya Jayaraman, 2023).
-Big data is a basic requirement for AI which enables accurately learning
-the structures of the world and reducing bias in its responses.
-Representations of the real world in digital models enable humans to ask
-questions about the real-world structures and to manipulate them to
-create synthetic experiments that may match the real world (if the model
-is accurate enough). This can be used for generating human-sounding
-language and realistic images, finding mechanisms for novel medicines as
-well as understanding the fundamental functioning of life on its deep
-physical and chemical level (No Priors: AI, Machine Learning, Tech, &
-Startups, 2023).
+becoming increasingly powerful in their ability copy these patterns into
+computer models - also known as machine learning. As of 2023, 97
+zettabytes (and growing) of data was created in the world per year
+(Soundarya Jayaraman, 2023). Big data is a basic requirement for
+training AIs, enabling learning the structures of the world with
+increasing accuracy. Representations of the real world in digital models
+enable humans to ask questions about the real-world structures and to
+manipulate them to create synthetic experiments that may match the real
+world (if the model is accurate enough). This can be used for generating
+human-sounding language and realistic images, finding mechanisms for
+novel medicines as well as understanding the fundamental functioning of
+life on its deep physical and chemical level (No Priors: AI, Machine
+Learning, Tech, & Startups, 2023).
 
 Ninety years ago McCulloch and Pitts (1943) proposed the first
 mathematical model of a neural network inspired by the human brain. Alan
@@ -127,7 +124,7 @@ models trained of massive amounts of data is important because they are
 many disciplines using languages, instead of the reductionist way we as
 human think because of our limitations CapInstitute (2023).
 
-Foundational AI models enable ***Generative AIs***, a class of AI models
+Foundational AI models enable ***generative AIs***, a class of AI models
 which are able to generate many types of ***tokens,*** such as text,
 speech, audio (Kreuk et al., 2022; San Roman et al., 2023), music (Copet
 et al., 2023; Meta AI, 2023) and video, in any language it’s trained on.
@@ -148,7 +145,7 @@ collaboration between humans and AI. Widespread **Internet of Things
 integrates computing even deeper into the fabric of daily human
 existence. Several terms of different origin but considerable overlap
 describe this phenomenon, including ***Pervasive Computing (PC)***
-(Rogers (2022)) and ***Ubiquitous Computing***. Similar concepts are
+(Rogers, Y. (2022)) and ***Ubiquitous Computing***. Similar concepts are
 ***Ambient Computing***, which focuses more on the invisibility of
 technology, fading into the background, without us, humans, even
 noticing it, and ***Calm Technology***, which highlights how technology
@@ -159,9 +156,9 @@ concept but a mainstream reality, affecting our daily lives everywhere,
 even when we don’t notice it.
 
 | AI Model   | Released | Company                         | License                       |
-|------------------|------------------|-------------------|------------------|
-| GPT-1      | 2018     | OpenAI                          | Open Source, MIT              |
-| GTP-2      | 2019     | OpenAI                          | Open Source, MIT              |
+|-------------|-------------|------------------------|-----------------------|
+| GPT-1      | 2018     | OpenAI                          | Open Source                   |
+| GTP-2      | 2019     | OpenAI                          | Open Source                   |
 | Turing-NLG | 2020     | Microsoft                       | Proprietary                   |
 | GPT-3      | 2020     | OpenAI                          | Open Source                   |
 | GPT-3.5    | 2022     | OpenAI                          | Proprietary                   |
@@ -196,7 +193,7 @@ with the current generation of LLMs from OpenAI, Microsoft, Google,
 Nvidia, and others.
 
 | Problem                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|---------------------|---------------------------------------------------|
+|-----|-------------------------------------------------------------------|
 | Monolithicity              | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. Liu, S. et al. (2023) proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                               |
 | Opaqueness                 | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard (now renamed to Gemini): “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?” |
 | Biases and Prejudices      | AI bias is well-documented and a hard problem to solve (Liang, W. et al., 2023). **Humans don’t necessarily correct mistakes made by computers and may instead become “partners in crime”** (Krügel, Ostermaier and Uhl, 2023). People are prone to bias and prejudice. It’s a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                       |
@@ -205,17 +202,9 @@ Nvidia, and others.
 | Competition with Humans    | AIs outperform humans on creativity assessment tests (Haase and Hanel, 2023; Mollick, 2023). Bots are even better than humans in solving CAPTCHA tests designed to distinguish humans from robots (Matthew Sparkes, 2023). AI AlphaGO 2 outperforms even the 85% of programmers in one competitive coding competition Google (2023). Open AI founder Sam Altman is also a co-founder of WorldCoin, and blockchain-based startup which aims to give a unique identity to each human by scanning human eye retinas (something which computer don’t have).                                                                                         |
 | Training Ethics            | Low-paid workers being used to train AI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Additional Issues          | Huyen (2023) provides a long list of open problems in AI development; AI is still in very early stages.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Moderating AIs             | Currently algorithms are being moderated by humans. There are studies which show how low-paid workers used to moderate harmful content; terrible for mental health (ADD CITATION). Ironically, AIs could also be part of the solution to reduce such human–abusing work. Lilian Weng, Vik Goel and Andrea Vallone (2023) shows how it’s possible to use well-aligned AI moderate to harmful content.                                                                                                                                                                                                                                            |
 
 Some problems with contemporary AIs
-
-### Moderating AIs
-
-Currently algorithms are being moderated by humans. There are studies
-which show how low-paid workers used to moderate harmful content;
-terrible for mental health (ADD CITATION). Ironically, AIs could also be
-part of the solution to reduce such human–abusing work. Lilian Weng, Vik
-Goel and Andrea Vallone (2023) shows how it’s possible to use
-well-aligned AI moderate to harmful content.
 
 ### Human-in-The-Loop
 
@@ -228,7 +217,7 @@ can take the form of interventions from the AI-developer themselves as
 well as from the end-users of the AI system.
 
 There are many examples of combination of AI and human, also known as
-“human-in-the-loop”, used for fields as diverse as training computer
+*“human-in-the-loop”,* used for fields as diverse as training computer
 vision algorithms for self-driving cars and detection of disinformation
 in social media posts (Bonet-Jover et al., 2023; Wu et al., 2023).
 
@@ -236,7 +225,7 @@ in social media posts (Bonet-Jover et al., 2023; Wu et al., 2023).
     Wang (2019)
 
 | App             | Category | Use Case                                                                           |
-|-------------------|-------------------|------------------------------------|
+|------------|-----------|-------------------------------------------------|
 | Welltory        | Health   | Health data analysis                                                               |
 | Wellue          | Health   | Heart arrhythmia detection                                                         |
 | QALY            | Health   | Heart arrhythmia detection                                                         |
@@ -244,37 +233,74 @@ in social media posts (Bonet-Jover et al., 2023; Wu et al., 2023).
 
 Examples of human-in-the-loop apps
 
-## \## Context of Use {#context-of-use}
+## Context of Use
+
+Where is the AI used?
+
+Schoonderwoerd et al. (2021) focuses on human-centered design of AI-apps
+and multi-modal information display. It’s important to understand the
+domain where the AI is deployed in order to develop explanations.
+However, in the real world, how feasible is it to have control over the
+domain? Calisto et al. (2021) discusses **multi-modal AI-assistant** for
+breast cancer classification.
+
+## Multi-modality
+
+By early 2024, widely available LLMs front-ends such as Gemini, Claude
+and ChatGPT have all released basic features for multi-modal
+communication. In practice, this means combination several AI models
+within the same interface. For example, on the input side, one model is
+used for human speech or image recognition which are transcribed into
+tokens that can be ingested into an LLM. On the output side, the LLM can
+generate instructions which are fed into an image / audio generation
+model or even computer code which can be ran on a virtual machine and
+then the output displayed inside the conversation.
+
+The quality of LLM output depends on the quality of the provided prompt.
+Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which
+automatically generates instructions that outperform the baseline output
+quality by using another model in the AI pipeline in front of the LLM to
+enhance the human input with language that is known to produce better
+quality. This approach however is a moving target as foundational models
+keep changing rapidly and the baseline might differ from today to 6
+months later.
+
+Multimodal model development is also ongoing. In the case of Google’s
+Gemini 1.5 Pro, one model is able to handle several types of prompts
+from text to images. Multimodal prompting however requires larger
+context windows, as of writing, limited to 1 million tokens in a private
+version allows combining text and images in the question directed to the
+AI, used to reason in examples such as a 44-minute Buster Keaton silent
+film or Apollo 11 launch transcript (404 pages) Google (2024).
+
+## Open Source vs Closed-Source AI
+
+One of the large debates in the AI industry is whether closed-sourced or
+open-sourced development will be lead to more AI safety.
+
+Historically open-source has been useful for finding bugs in code as
+more pairs of eyes are looking at the code and someone may see a problem
+the programmers have not noticed. Proponents of closed-source
+development however worry about the dangers or releasing such powerful
+technology openly and the possibility of bad actors such as terrorists,
+hackers, violent governments using LLMs for malice.
+
+In any case, open or closed-sourced, real-world usage of LLMs may
+demonstrate the limitations and edge-cases of AI. Hackathons such as
+Pete (2023) help come up with new use-cases and disprove some potential
+ideas.
+
+Red-teaming means pushing the limits of LLMs, trying to get them to
+produce outputs that are racist, false, or otherwise unhelpful.
 
 ## Generative AIs Enable New UI Interactions
 
 The advances in the capabilities of LLMs makes it possible to achieve
 ***user experience (UX) which previously was science fiction***.
 
--   Multimodal prompting allows combining text and images in the
-    question directed to the AI Google (2024)
-
--   Schoonderwoerd et al. (2021) focuses on human-centered design of
-    AI-apps and multi-modal information display. It’s important to
-    understand the domain where the AI is deployed in order to develop
-    explanations. However, in the real world, how feasible is it to have
-    control over the domain? Calisto et al. (2021) discusses
-    **multi-modal AI-assistant** for breast cancer classification.
-
--   The quality of LLM output depends on the quality of the provided
-    prompt. Zhou et al. (2022) reports creating an “Automatic Prompt
-    Engineer” which automatically generates instructions that outperform
-    the baseline output quality.
-
 -   Towards Useful Personal Assistants
 
-Pete (2023) ChatGPT hackathon.
-
-Anon. (2023a) My bedtime story about shopping, saving, and investing.
-
-Tu et al. (2023) LLMs can be used as data analysts.
-
-Kobetz (2023)
+The history of *intelligent interfaces* is long (Kobetz, 2023)
 
 There’s wide literature available describing human-AI interactions
 across varied scientific disciplines. While the fields of application
@@ -282,12 +308,14 @@ are diverse, some key lessons can be transferred horizontally across
 fields of knowledge.
 
 | Field of Usage    | Description                                                                                                                              |
-|----------------|--------------------------------------------------------|
+|----------|--------------------------------------------------------------|
 | Shipping          | Veitch and Andreas Alsos (2022) highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
-| Data Summarizaton | AI is great at summarizing data: Peters (2023)                                                                                           |
-|                   |                                                                                                                                          |
+| Data Summarizaton | AI is great at summarizing and analyzing dataTu et al. (2023)                                                                            |
+| Childcare         | Generate personalized bedtime stories                                                                                                    |
+| Design Tools      | Anon. (2024)                                                                                                                             |
 
-AI usage across fields
+A very small illustration of generative AI usage across disparate fields
+of human life.
 
 -   Crompton (2021) highlights AI as decision-support for humans while
     differentiating between ***intended*** and ***unintended***
@@ -322,11 +350,11 @@ learning AI systems which adapt to human needs.
 
 ### Conversational AI
 
--   People are used to search engines and it will take a little bit time
-    to get familiar with talking to a computer in natural language
-    Bailey (2023). NVIDIA founder Jensen Huang makes the idea
-    exceedingly clear, saying “Everyone is a programmer. Now, you just
-    have to say something to the computer.” Leswing (2023)
+-   Bailey (2023) believes people are used to search engines and it will
+    take a little bit time to get familiar with talking to a computer in
+    natural language. NVIDIA founder Jensen Huang makes the idea
+    exceedingly clear, saying *“Everyone is a programmer. Now, you just
+    have to say something to the computer”* Leswing (2023).
 
 There are noticeable differences in the quality of the LLM output, which
 increases with model size. Levesque, Davis and Morgenstern (2012)
@@ -379,50 +407,48 @@ business processes.
 
 ### Affective Computing and AI UX
 
-Because of the conversational nature of LLMs, they are very useful for
-***affective computing***, an approach to recognizing human emotions
-with machines and providing users experiences that take human emotion
-into account Picard (1997).
+Rosalind Picard is the founder of the ***affective computing*** field.
+Her pioneering work aims to make computers more human-friendly. Because
+of the conversational nature of LLMs, they are very useful for affective
+computing, an approach to recognizing human emotions with machines and
+providing users experiences that take human emotion into account Picard
+(1997).
 
--   Lv et al. (2022) studies the effect of ***cuteness*** of AI apps on
-    users and found high perceived cuteness correlated with higher
-    willingness to use the apps, especially for emotional tasks.
+Just as LLMs, affective computing relies on input data. It’s not an
+overstatement to say data from all the processes around us will define
+the future of computing as HIITTV (2021a) puts it. In the early
+examples, electrodermal activity of the skin and heart-rate variance
+data were used to detect the emotional state and stress level of the
+user (Zangróniz et al., 2017; Velmovitsky et al., 2022). This technology
+has since become mainstream in products such as Fitbit and the Apple
+Watch among many others.
+
+On the output side, Lv et al. (2022) studies the effect of
+***cuteness*** of AI apps on users and found high perceived cuteness
+correlated with higher willingness to use the apps, especially for
+emotional tasks.
+
 -   Liu, B. and Wei (2021) meanwhile suggests higher ***algorithmic
     transparency may inhibit anthropomorphism.*** People are less likely
     to attribute humanness to the AI if they understand how the system
     works.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   HIITTV (2021a) data from all the processes around us will define the
-    future of computing
-
--   Electrodermal activity of the skin and heart-rate variance data are
-    being used to detect the emotional state and stress level of the
-    user (Zangróniz et al., 2017; Velmovitsky et al., 2022).
-
-Rosalind Picard is the founder of the affective computing field. Her
-pioneering work aims to make computers more human-friendly.
-
+-   
 -   TEDx Talks (2011)
-
 -   Lex Fridman (2019)
-
 -   HIITTV (2021b)
-
 -   BWH CNOC (2023)
-
 -   Singularity University (2023)
 
 Since the first mainframe computers with rudimentary computers able to
 respond with text messages, humans have been drawn to discussing their
 private lives with a machine that doesn’t judge you like a human could.
 A famous anecdote is about the lab assistant of the Joseph Weizenbaum
-MIT ELIZA project in the mid-1960s, who would dedicate time to talking
-to the machine in private. The machine was called DOCTOR and emulated a
-Rogerian psychotherapist, developed by Carl Rogers, from the core idea
-that positive psychological functioning is a inherently human motivation
-(Bassett, 2019).
+MIT ELIZA project in the mid-1960s, who would dedicate extended time to
+talking to the machine in private. The machine was called DOCTOR and
+emulated a Rogerian psychotherapist, person-centered therapy developed
+by Carl Rogers, from the core idea that positive psychological
+functioning is a inherently human motivation (Rogers, C. R., 1995;
+Bassett, 2019).
 
 Today’s machines are much more capable so it’s not a surprise humans
 would like to talk to them. One example is ***AI Friend*** is Replika, a
@@ -646,7 +672,7 @@ How do the tenets of user experience (UX) apply to AI?
 Gupta (2023) proposes 3 simple goals for AI:
 
 | 1                       | 2                    | 3                                            |
-|--------------------|-------------------|---------------------------------|
+|--------------------|------------------|----------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
 ### Explainable AI
@@ -808,7 +834,7 @@ analyzing medical data.
     change the ergonomics of the device in use in a physical sense,
     which as a starting point, should be “optimized for human
     well-being”.
--   Sarah Perez (2023) character AI, AI wife Anon. (2023b); mourning
+-   Sarah Perez (2023) character AI, AI wife Anon. (2023a); mourning
     ‘dead’ AI Phoebe Arslanagić-Wakefield (n.d.); AI for therapy
     Broderick (2023); bullying Sung (2023);
 -   Software interaction design goes beyond the form-factor and accounts
@@ -917,7 +943,7 @@ voice, so they could be visible for the viewers. Some include KITT
 (Knight Industries Two Thousand).
 
 | Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |
-|---------------|---------------|---------------|---------------|---------------|
+|-----------------------|------------------|----------|----------|----------|
 | 2001: A Space Odyssey          | HAL 9000               |          |            | X        |
 | Her                            | Samantha               | X        |            |          |
 | Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |
@@ -990,7 +1016,7 @@ think something is wrong.
 
 Likewise, inanimate objects with human form have had a role to play for
 adults too. Anthropomorphic paddle dolls have been found from Egyptian
-tombs dated 2000 years B.C. Anon. (2023c): We don’t know if these dolls
+tombs dated 2000 years B.C. Anon. (2023b): We don’t know if these dolls
 were for religious purposes, for play, or for something else, yet their
 burial with the body underlines their importance.
 
@@ -1083,7 +1109,7 @@ simply the complex system working behind the scenes to delivery a result
 in a barebones interface.
 
 | Product                 | Link                                      | Description          |
-|---------------------|--------------------------------|-------------------|
+|--------------------|---------------------------------|------------------|
 | Github CoPilot          | personal.ai                               | AI helper for coding |
 | Google Translate        | translate.google.com                      |                      |
 | Google Search           | google.com                                |                      |
@@ -1162,7 +1188,7 @@ This chapter looked at AI in general since its early history and then
 focused on AI assistants in particular.
 
 | Category         | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------|---------------------------------------------------|
+|----|--------------------------------------------------------------------|
 | Voice Assistants | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
 | Sustainability   | While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.                                                                                                                                                                      |
 | Sustainability   | Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
@@ -1173,8 +1199,8 @@ focused on AI assistants in particular.
 | Open Source      | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | User Experience  | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.                                                                                                                                                                                                                                                                                                                                                                                  |
 | LLMs             | Prompt engineering findings have significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.                                                                                                                                                                                                                                                                                                                              |
-|                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Cuteness         | Cuter apps have higher retention?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Transparency     | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
