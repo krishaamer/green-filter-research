@@ -1119,6 +1119,19 @@
   howpublished = {https://www.sciencedirect.com/science/article/pii/S0959652622030529}
 }
 
+@article{baiConstitutionalAIHarmlessness2022,
+  title = {Constitutional {{AI}}: {{Harmlessness}} from {{AI Feedback}}},
+  shorttitle = {Constitutional {{AI}}},
+  author = {Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and Chen, Carol and Olsson, Catherine and Olah, Christopher and Hernandez, Danny and Drain, Dawn and Ganguli, Deep and Li, Dustin and {Tran-Johnson}, Eli and Perez, Ethan and Kerr, Jamie and Mueller, Jared and Ladish, Jeffrey and Landau, Joshua and Ndousse, Kamal and Lukosuite, Kamile and Lovitt, Liane and Sellitto, Michael and Elhage, Nelson and Schiefer, Nicholas and Mercado, Noemi and DasSarma, Nova and Lasenby, Robert and Larson, Robin and Ringer, Sam and Johnston, Scott and Kravec, Shauna and Showk, Sheer El and Fort, Stanislav and Lanham, Tamera and {Telleen-Lawton}, Timothy and Conerly, Tom and Henighan, Tom and Hume, Tristan and Bowman, Samuel R. and {Hatfield-Dodds}, Zac and Mann, Ben and Amodei, Dario and Joseph, Nicholas and McCandlish, Sam and Brown, Tom and Kaplan, Jared},
+  year = {2022},
+  publisher = {[object Object]},
+  doi = {10.48550/ARXIV.2212.08073},
+  urldate = {2024-03-13},
+  abstract = {As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords = {Artificial Intelligence (cs.AI),Computation and Language (cs.CL),FOS: Computer and information sciences}
+}
+
 @misc{baileyAIEducation2023,
   title = {{{AI}} in {{Education}}},
   author = {Bailey, John},
@@ -1743,6 +1756,18 @@
   title = {Bolstering Supplies of Critical Raw Materials for Low-Carbon Technologies through Circular Economy Strategies - {{ScienceDirect}}},
   urldate = {2022-11-05},
   howpublished = {https://www.sciencedirect.com/science/article/pii/S221462962200041X}
+}
+
+@article{bommasaniOpportunitiesRisksFoundation2021,
+  title = {On the {{Opportunities}} and {{Risks}} of {{Foundation Models}}},
+  author = {Bommasani, Rishi and Hudson, Drew A. and Adeli, Ehsan and Altman, Russ and Arora, Simran and {von Arx}, Sydney and Bernstein, Michael S. and Bohg, Jeannette and Bosselut, Antoine and Brunskill, Emma and Brynjolfsson, Erik and Buch, Shyamal and Card, Dallas and Castellon, Rodrigo and Chatterji, Niladri and Chen, Annie and Creel, Kathleen and Davis, Jared Quincy and Demszky, Dora and Donahue, Chris and Doumbouya, Moussa and Durmus, Esin and Ermon, Stefano and Etchemendy, John and Ethayarajh, Kawin and {Fei-Fei}, Li and Finn, Chelsea and Gale, Trevor and Gillespie, Lauren and Goel, Karan and Goodman, Noah and Grossman, Shelby and Guha, Neel and Hashimoto, Tatsunori and Henderson, Peter and Hewitt, John and Ho, Daniel E. and Hong, Jenny and Hsu, Kyle and Huang, Jing and Icard, Thomas and Jain, Saahil and Jurafsky, Dan and Kalluri, Pratyusha and Karamcheti, Siddharth and Keeling, Geoff and Khani, Fereshte and Khattab, Omar and Koh, Pang Wei and Krass, Mark and Krishna, Ranjay and Kuditipudi, Rohith and Kumar, Ananya and Ladhak, Faisal and Lee, Mina and Lee, Tony and Leskovec, Jure and Levent, Isabelle and Li, Xiang Lisa and Li, Xuechen and Ma, Tengyu and Malik, Ali and Manning, Christopher D. and Mirchandani, Suvir and Mitchell, Eric and Munyikwa, Zanele and Nair, Suraj and Narayan, Avanika and Narayanan, Deepak and Newman, Ben and Nie, Allen and Niebles, Juan Carlos and Nilforoshan, Hamed and Nyarko, Julian and Ogut, Giray and Orr, Laurel and Papadimitriou, Isabel and Park, Joon Sung and Piech, Chris and Portelance, Eva and Potts, Christopher and Raghunathan, Aditi and Reich, Rob and Ren, Hongyu and Rong, Frieda and Roohani, Yusuf and Ruiz, Camilo and Ryan, Jack and R{\'e}, Christopher and Sadigh, Dorsa and Sagawa, Shiori and Santhanam, Keshav and Shih, Andy and Srinivasan, Krishnan and Tamkin, Alex and Taori, Rohan and Thomas, Armin W. and Tram{\`e}r, Florian and Wang, Rose E. and Wang, William and Wu, Bohan and Wu, Jiajun and Wu, Yuhuai and Xie, Sang Michael and Yasunaga, Michihiro and You, Jiaxuan and Zaharia, Matei and Zhang, Michael and Zhang, Tianyi and Zhang, Xikun and Zhang, Yuhui and Zheng, Lucia and Zhou, Kaitlyn and Liang, Percy},
+  year = {2021},
+  publisher = {[object Object]},
+  doi = {10.48550/ARXIV.2108.07258},
+  urldate = {2024-03-14},
+  abstract = {AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically central yet incomplete character. This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g., model architectures, training procedures, data, systems, security, evaluation, theory) to their applications (e.g., law, healthcare, education) and societal impact (e.g., inequity, misuse, economic and environmental impact, legal and ethical considerations). Though foundation models are based on standard deep learning and transfer learning, their scale results in new emergent capabilities,and their effectiveness across so many tasks incentivizes homogenization. Homogenization provides powerful leverage but demands caution, as the defects of the foundation model are inherited by all the adapted models downstream. Despite the impending widespread deployment of foundation models, we currently lack a clear understanding of how they work, when they fail, and what they are even capable of due to their emergent properties. To tackle these questions, we believe much of the critical research on foundation models will require deep interdisciplinary collaboration commensurate with their fundamentally sociotechnical nature.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords = {Artificial Intelligence (cs.AI),Computers and Society (cs.CY),FOS: Computer and information sciences,Machine Learning (cs.LG)}
 }
 
 @article{bonet-joverSemiautomaticAnnotationMethodology2023,
@@ -3406,6 +3431,13 @@
   howpublished = {https://uxdesign.cc/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe},
   langid = {english},
   file = {/Users/krishaamer/Zotero/storage/V9JKWRYZ/how-ai-driven-website-builders-will-change-the-digital-landscape-a5535c17bbe.html}
+}
+
+@misc{ConstitutionalAIHarmlessness,
+  title = {Constitutional {{AI}}: {{Harmlessness}} from {{AI Feedback}} {\textbackslash} {{Anthropic}}},
+  urldate = {2024-03-13},
+  howpublished = {https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback},
+  file = {/Users/krishaamer/Zotero/storage/SBX2S58Q/constitutional-ai-harmlessness-from-ai-feedback.html}
 }
 
 @misc{ConsumerAcceptanceProducts,
@@ -5160,6 +5192,15 @@
   howpublished = {https://replika.com},
   langid = {english},
   file = {/Users/krishaamer/Zotero/storage/W3KZXYB8/replika.com.html}
+}
+
+@misc{EugenieNewSustainability,
+  title = {Eugenie's New {{Sustainability Manager Module}} - {{Geospatial}}, {{Physics}}, and {{AI}} to Uncover Insights from Industrial Data},
+  journal = {Eugenie},
+  urldate = {2024-03-13},
+  abstract = {To know more about the new module and Eugenie's other offerings, contact us.},
+  howpublished = {https://cms.eugenie.ai/eugenie\_resources/eugenies-new-sustainability-manager-module-geospatial-physics-and-ai-to-uncover-insights-from-industrial-data/},
+  file = {/Users/krishaamer/Zotero/storage/59JYPQKW/eugenies-new-sustainability-manager-module-geospatial-physics-and-ai-to-uncover-insights-from-i.html}
 }
 
 @misc{EUReachesAgreement2022,
@@ -12813,6 +12854,14 @@
   langid = {english}
 }
 
+@misc{PerplexityBlog,
+  title = {Perplexity {{Blog}}},
+  urldate = {2024-03-14},
+  abstract = {Explore Perplexity's blog for articles, announcements, product updates, and tips to optimize your experience. Stay informed and make the most of Perplexity.},
+  howpublished = {https://www.perplexity.ai/hub},
+  langid = {english}
+}
+
 @article{perssonOutsideSafeOperating2022,
   title = {Outside the {{Safe Operating Space}} of the {{Planetary Boundary}} for {{Novel Entities}}},
   author = {Persson, Linn and Carney Almroth, Bethanie M. and Collins, Christopher D. and Cornell, Sarah and {de Wit}, Cynthia A. and Diamond, Miriam L. and Fantke, Peter and Hassell{\"o}v, Martin and MacLeod, Matthew and Ryberg, Morten W. and S{\o}gaard J{\o}rgensen, Peter and {Villarrubia-G{\'o}mez}, Patricia and Wang, Zhanyun and Hauschild, Michael Zwicky},
@@ -16865,6 +16914,18 @@
   urldate = {2023-08-12},
   langid = {english},
   file = {/Users/krishaamer/Zotero/storage/AAHQB5FU/world-investment-report-2023.html}
+}
+
+@misc{UnderstandingSearchesBetter2019,
+  title = {Understanding Searches Better than Ever Before},
+  year = {2019},
+  month = oct,
+  journal = {Google},
+  urldate = {2024-03-15},
+  abstract = {How new advances in the science of language understanding will help you find more useful information in Search.},
+  howpublished = {https://blog.google/products/search/search-language-understanding-bert/},
+  langid = {american},
+  file = {/Users/krishaamer/Zotero/storage/WQ7SSUIB/search-language-understanding-bert.html}
 }
 
 @book{undheimEcoTechInvesting2024,
