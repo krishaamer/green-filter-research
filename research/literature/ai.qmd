@@ -25,6 +25,10 @@ Ninety years ago @mccullochLogicalCalculusIdeas1943 proposed the first mathemati
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
+Combining deep learning with reinforcement learning and reinforcement learning with human feedback (RLHF) enabled AI to achieve intelligence to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017].
+
+"the models are just trained to produce a single message that gets high approval from a human reader"
+
 The nature-inspired approach was successful, and together with many other innovations, such as ***back-propagation***, ***transformers***, which allow tracking relationships in sequential data (for example sentences) [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022], Generative Adversarial Networks\*\*\* (GAN), (**ADD CITATION, 2016**), and ***Large Language Models (*****ADD CITATION*, 2018)***, led to increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
 
 By the 2020s, AI-based models became a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles, including cars, delivery robots, drones in the sea and air, as well as AI-based assistants. The existence of AI models has wide implications for all human activities from personal to professional. The founder of the largest chimp-maker NVIDIA calls upon all countries do develop their own AI-models which would encode their local knowledge, culture, and language to make sure these are accurately captured @worldgovernmentssummitConversationFounderNVIDIA2024.
@@ -64,12 +68,24 @@ Foundational AI models enable ***generative AIs***, a class of AI models which a
 
 : Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023].
 
+Mistral Large
+
+Metacognition -- claude 3 is the first model capable of it? ,like the zero waste workshop
+
+Metacognition defined as *knowing about knowing* @metcalfeMetacognitionKnowingKnowing1994 or "keeping track of your own learning" @zerowasteeuropeZeroWasteHandbook2022
+
 ## Responsible AI Seeks to Solve Generative AIs' Known Issues
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
 
+Anthropic *resposible scaling policy* @AnthropicResponsibleScaling2023
+
+METR – Model Evaluation & Threat Research incubated in the Alignment Research Center @METR2023
+
+@christianoMyViewsDoom2023 believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.
+
 | Problem                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|----------------------|--------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Monolithicity           | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                  |
 | Opaqueness              | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
 | Biases and Prejudices   | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become "partners in crime"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                  |
@@ -89,6 +105,8 @@ AI responses are unreliable some percentage and require constant oversight which
 One approach to reduce the issues with AI is to introduce some function for human feedback and oversight to automated systems. Human involvement can take the form of interventions from the AI-developer themselves as well as from the end-users of the AI system.
 
 There are many examples of combination of AI and human, also known as *"human-in-the-loop",* used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023].
+
+Also known as Human-based computation or human-aided artificial intelligence [@Shahaf2007TowardsAT; @muhlhoffHumanaidedArtificialIntelligence2019]
 
 -   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
 
@@ -136,7 +154,7 @@ The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field of Usage    | Description                                                                                                                                 |
-|----------------------|--------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Shipping          | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
 | Data Summarizaton | AI is great at summarizing and analyzing data[@petersGoogleChromeWill2023 @tuWhatShouldData2023]                                            |
 | Childcare         | Generate personalized bedtime stories                                                                                                       |
@@ -192,6 +210,8 @@ On the output side, @lvCutenessIrresistibleImpact2022 studies the effect of ***c
 
 Since the first mainframe computers with rudimentary computers able to respond with text messages, humans have been drawn to discussing their private lives with a machine that doesn't judge you like a human could. A famous anecdote is about the lab assistant of the Joseph Weizenbaum MIT ELIZA project in the mid-1960s, who would dedicate extended time to talking to the machine in private. The machine was called DOCTOR and emulated a Rogerian psychotherapist, person-centered therapy developed by Carl Rogers, from the core idea that positive psychological functioning is a inherently human motivation [@bassettComputationalTherapeuticExploring2019; @rogersWayBeing1995].
 
+Natural language generation exists since Eliza
+
 Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is ***AI Friend*** is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy.
 
 | How humans express empathy towards the Replika AI companion |
@@ -210,11 +230,11 @@ Today's machines are much more capable so it's not a surprise humans would like 
 
 ### Algorithmic Experience
 
-As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized ***algorithmic experience***. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(CITE)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
+As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized ***algorithmic experience***. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 
 @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
 
-@shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design. After many years of political outcry (CITE), social media platforms such Facebook and Twitter have begun to shed more light on how these algorithms work, in some cases releasing the source code (@nickcleggHowAIInfluences2023; @twitterTwitterRecommendationAlgorithm2023).
+@shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design. After many years of political outcry (ADD CITATION), social media platforms such Facebook and Twitter have begun to shed more light on how these algorithms work, in some cases releasing the source code (@nickcleggHowAIInfluences2023; @twitterTwitterRecommendationAlgorithm2023).
 
 AI systems may make use of several algorithms within one larger model. It follows that AI Explainability requires ***Algorithmic Transparency**.*
 
@@ -222,7 +242,9 @@ The content on the platform can be more important than the interface. Applicatio
 
 ### Guidelines
 
-Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design.
+Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004.
+
+As late as in 2017, scientists were trying to create a programm with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017
 
 Might we try again?
 
@@ -352,6 +374,8 @@ The problems of opaqueness creates the field of explainable AI.
 -   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses becomes good enough, people begin to get confused.
 
 @bowmanEightThingsKnow2023 says steering Large Language Models is unreliable; even experts don't fully understand the inner workings of the models. Work towards improving both ***AI steerability*** and ***AI alignment*** (doing what humans expect) is ongoing. @liangHolisticEvaluationLanguage2022 believes there's early evidence it's possible to assess the quality of LLM output transparently. @CABITZA2023118888 proposes a framework for quality criteria and explainability of AI-expressions. @khosraviExplainableArtificialIntelligence2022 proposes a framework for AI explainability, focused squarely on education. @holzingerMultimodalCausabilityGraph2021 highlights possible approaches to implementing transparency and explainability in AI models. While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields.
+
+-   Bigger models aren't necessarily better; rather models need human feedback to improve the quality of responses @ouyangTrainingLanguageModels2022
 
 -   The user experience (UX) of AI is a topic under active development by all the largest online platforms. The general public is familiar with the most famous AI helpers, ChatGPT, Apple's Siri, Amazon's Alexa, Microsoft's Cortana, Google's Assistant, Alibaba's Genie, Xiaomi's Xiao Ai, and many others. For general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city.
 
@@ -561,7 +585,7 @@ As AIs became more expressive and able to to **roleplay**, we can begin discussi
 
 -   RQ: Are animal-like, human-like or machine-like AI companions more palatable to college students?
 
-Humans (want to) see machines as human \[CITE\]
+Humans (want to) see machines as human \[ADD CITATION\]
 
 If we see the AI as being in human service. @davidjohnstonSmartAgentProtocol2023 proposes ***Smart Agents***, "general purpose AI that acts according to the goals of an individual human". AI agents can enable ***Intention Economy*** where one simply describes one's needs and a complex orchestration of services ensues, managed by the the AI, in order to fulfill human needs @searlsIntentionEconomyWhen2012. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
@@ -639,7 +663,7 @@ Some evergreen advice most relates to human psychology which has remained the sa
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 | Category          | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------|---------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Voice Assistants  | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
 | Sustainability    | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.                                                                                                                                                                      |
 | Sustainability    | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
