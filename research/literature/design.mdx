@@ -14,7 +14,7 @@ suppress-bibliography: true
 
 
 export const quartoRawHtml =
-[`<!-- -->`,`<!-- -->`];
+[`<!-- -->`,`<!-- -->`,`<!-- -->`];
 
 ````mdx-code-block
 import Figure from '/src/components/Figure'
@@ -25,32 +25,110 @@ import ResQClub from '../images/resq-club.png'
 
 ## Generative UI (User Interfaces)
 
--   AI-generated UI components
+In design there are many overlapping terms created by different people
+for diverse purposes from distinguishing a particular type of design to
+marketing oneself as the creator of the term.
 
-https://www.joe-blair.com/blog/the-new-front-end
-https://joefletcher.medium.com/generative-ui-and-the-downfall-of-digital-experiences-the-swift-path-to-average-5408f3fbdc6d
-https://jakobnielsenphd.substack.com/p/accessibility-generative-ui
-https://axbom.com/nielsen-generative-ui-failure/
-https://www.linkedin.com/pulse/generative-ui-how-ai-automating-creation-digital-matteo-sciortino-qa3yf
-https://blog.replit.com/openv0-spotlight https://lu.ma/gen-ai-rethink
-https://prototypr.io/post/generative-ai-design
-https://www.monterey.ai/newsroom/who-benefits-the-most-from-generative-ui
-https://www.sciencedirect.com/science/article/pii/S0020025513008207
-https://dribbble.com/tags/generative_ui
+There are many ways to structure design theory but for the purposes of
+this AI-focused research, I will begin from Generative UI.
 
-https://www.youtube.com/watch?v=By9wCB9IZp0
+structure: data-driven design, generative UI
 
-“Components are the foundation upon which user interfaces (UI) are
-built, and generative AI is unlocking component creation for front-end
-developers, transforming a once arduous process, and aiding them in
-swiftly transitioning from idea to working components.”
+AI will decide what kind of UI to show to you based on the data and
+context
+
+-   Replit, a startup known for allowing user build apps in the web
+    browser, released Openv0, a framework of AI-generated UI components
+    (Replit, 2023). “Components are the foundation upon which user
+    interfaces (UI) are built, and generative AI is unlocking component
+    creation for front-end developers, transforming a once arduous
+    process, and aiding them in swiftly transitioning from idea to
+    working components.”
+-   Vercel introduced an open-source prototype UI-generator called V0
+    which used large language models (LLMs) to create code for web pages
+    based on text prompts (Vercel, 2023). Other similar tools quickly
+    following including Galileo AI, Uizard AutoDesigner and Visily
+    (Anon., 2024a).
+-   In 2014, the eminent journal *Information Sciences* decided to
+    dedicate a special section to AI-generated software to call
+    attention to this tectonic shift in software development (Reformat,
+    2014).
+-   As machines become more capable, machines will eventually be capable
+    of producing machines.
+-   Generative UIs are largely invented in practice, based on user data
+    analysis and experimentation, rather than being built in theory.
+    Kelly Dern, a Senior Product Designer at Google lead a workshop in
+    early 2024 on *GenUI for product inclusion* aiming to create
+    ***“**more accessible and inclusive \[UIs for\] users of all
+    backgrounds**”.***
+-   (Anon., 2023a) gives an overview of the history of generative AI
+    design tools going back in time until 2012 when (Troiano and
+    Birtolo, 2014) proposed genetic algorithms for UI design.
+-   Joe Blair (2024) are worried UIs are becoming average; that is more
+    and more similar towards the lowest common denominator. We can
+    generate better ones that are based on user data and would be truly
+    personalized.
+-   \[Nielsen (2024)\] recounts how 30 years of work towards usability
+    has largely failed - computers are still not accessible enough
+    (***“difficult, slow, and unpleasant”***) - and has hope Generative
+    UI could offer a chance to provide levels of accessibility humans
+    could not.
+-   Matteo Sciortino (2024) coins the phrase RTAG UIs “real-time
+    automatically-generated UI interfaces” mainly drawing from the
+    example of how his Netflix interface looks different from that of
+    his sisters because of their dissimilar usage patterns.
+-   (Anon., 2024b) Meanwhile is very critical because for the following
+    reasons:
+
+| Problem            | Description                                       |
+|--------------------|---------------------------------------------------|
+| Low predictability | Does personalization mean the UI keeps changing?  |
+| High carbon cost   | AI-based personalization is computation-intensive |
+| Surveillance       | Personalization needs large-scale data capture    |
+
+Criticism of Generative UI
 
 Data is an interface?
 
+What is the user interface of the green transformation?
+
+McKeough (2018) business consultancies have begun to recognize the
+importance of design to business. They advise their corporate clients to
+bring user experience design to the core of their business operations.
+
+There’s a number of user interface design patterns that have provide
+successful across a range of social media apps. Such ***user experience
+/ user interface*** (UX/UI) patterns are copied from one app to another,
+to the extent that the largest apps share a similar look and feature
+set. Common UX/UI parts include the Feed and Stories. By using common UI
+parts from social media users have an easier time to accept the
+innovative parts. add Viz charts. Avatars are increasingly common and
+new generations are used to talking to computers.
+
+| Feature   | Examples                           |     |
+|-----------|------------------------------------|-----|
+| Feed      |                                    |     |
+| Post      | Apple App Store                    |     |
+| Stories   | IG, FB, WhatsApp, SnapChat, TikTok |     |
+| Comment   |                                    |     |
+| Reactions |                                    |     |
+
+Common Social Media UI Parts
+
+There are also more philosophical approaches to ***Interface Studies:***
+David Hoang (2022), the head of product design at Webflow, suggests
+taking cues from art studies to ***isolate the core problem***: *“An art
+study is any action done with the intention of learning about the
+subject you want to draw”*. As a former art student, Hoang looks at an
+interface as *“a piece of design is an artwork with function”*.
+
+Indeed, art can be a way to see new paths forward, practicing
+“*fictioning*” to deal with problematic legacies: Anon. (2023b)
+
 ## Data-Driven Design
 
-Interaction Design for Climate Change: how can we change common UIs so
-they take into account sustainability?
+-   Interaction Design for Climate Change: how can we change common UIs
+    so they take into account sustainability?
 
 As we humans go about our daily business, we produce massive amounts of
 data, which is useful for designing better products. There are many
@@ -62,28 +140,28 @@ for a good user experience.
 Interaction Design for Climate Change: how can we change common UIs so
 they take into account sustainability?
 
--   https://uxplanet.org/5-ways-ux-design-can-tackle-climate-change-issues-e38723000e1c
--   https://uxplanet.org/how-designers-can-help-deal-with-climate-change-81a931070f36
--   https://uia2023cph.org/design-for-climate-adaptation/
--   https://medium.com/r-g-strategic/fight-climate-change-with-great-ux-design-f766c6cc6601
--   https://sustainabledevelopment.un.org/content/documents/951013_Toolkit%20for%20Designing%20Climate%20Change%20Adaptation%20Initiatives.pdf
--   https://www.researchgate.net/publication/332130501_How_can_we_influence_human_behaviour_using_UX_to_accommodate_improvement_for_climate_change
--   https://www.researchgate.net/publication/221514572_Environmental_sustainability_and_interaction
--   https://www.sciencedirect.com/science/article/pii/S2666659622000099
--   https://www.oecd.org/environment/cc/policy-perspectives-climate-resilient-infrastructure.pdf
--   https://books.google.ee/books?id=71yYEAAAQBAJ&pg=PA41&lpg=PA41&dq=Interaction+Design+for+Climate+Change:+how+can+we+change+common+UIs+so+they+take+into+account+sustainability?&source=bl&ots=3SPcm5OnK9&sig=ACfU3U3IDa-ibvd8G7x3o8d6-Y08Z1GoZg&hl=en&sa=X&ved=2ahUKEwiDqNmruf2AAxWdFhAIHay5Cw0Q6AF6BAgmEAM#v=onepage&q=Interaction%20Design%20for%20Climate%20Change%3A%20how%20can%20we%20change%20common%20UIs%20so%20they%20take%20into%20account%20sustainability%3F&f=false
+Popular blogs such as Lose (2023a) offer many suggestions how designers
+can help people become more sustainable in their daily lives yet
+focusing on the end-user neglects the producers’ responsibility (termed
+as Extended Producer Responsibility or ERP) in waste management studies.
 
-Climate Change UX
+-   UIA World Congress of Architects (2023) “Design for climate
+    adaptation”
+-   Andrew Chaisson (2019)
+-   Dzigajev (2019)
+-   Mankoff et al. (2007)
+-   Borthwick, Tomitsch and Gaughwin (2022)
 
--   Lose (2023)
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+-   Lose (2023b) is worried about applying UX skills for Climate Change
 
 ### **Interaction Design**
 
-### Platform Economy
+-   Involving young HCI designers in AI-oriented workshops can show the
+    future of UI/UX ? (Battistoni et al., 2023)
 
-– lack of workers rights (ESG). for example gig workers are subjected to
-pollution:
-https://restofworld.org/2024/riders-in-the-smog-gig-workers-pollution
+### Platform Economy
 
 *Network Effects,* the more people use a platform, the more valuable it
 becomes. Rise of the *platform economy* has created global marketplace
@@ -125,6 +203,11 @@ their physical environments.
     consistency and quality of South–East Asian superapps Gojek and
     Grab.
 
+-   Platform economy companies have been criticized for their lack of
+    workers rights (ESG). (Anon., 2024c) uses portable air pollution
+    tracking devices to documents how gig workers are subjected to
+    pollution.
+
 -   Uber is creating an all-purpopse platform; only 4.1% of rides were
     electric Levy (2023)
 
@@ -164,8 +247,14 @@ Could there be Sustainability Superapps?
 
 ### Speculative Design
 
-In order to build a future, it’s relevant to imagine and critique a
-future.
+The cost of speculative design makes it into a niche activity yet
+Generative AI holds the promise to allow designers to dream up and
+prototype quicker. In order to build a future, it’s relevant to imagine
+and critique a future.
+
+The same is true for Participatory Design. By being quickly generate
+prototypes, once can test out ideas with the future users involving more
+of the community and stakeholders.
 
 Speculative design makes use of future scenarios to envision contexts
 and interactions in future use. The term ***speculative design*** was
@@ -185,41 +274,45 @@ inspired subsequent consumer product development. It took another 2
 decades, until the launch of the iPhone in 2007 - a total of 40 years.
 Imagination is crucial for change (Google Design, 2019).
 
-### Digital Health
+### Quantified Self
 
--   Quantified Self is an example
+-   Quantified Self is an example of Digital Healt
 -   Tracking air pollution and realizing how bad the over in my
     grandma’s house is: add picture
+-   There is a parallel in health to sustainability and indeed both are
+    inextricably linked.
+-   Use technology Wearables to be more aware of one’s health.
 
-There is a lot of research on ***quantified self***. Wearable devices
-like Apple Watch, Oura Ring, combined with apps help users track a
-variety of health metrics. Apart from health, wearable devices have been
-used to track other metrics. Giannakos et al. (2020) used wearable
-devices to measured physiological parameters of students at school to
-determine their learning efficiency. Could one track personal
-sustainability in a similar fashion?
+Research on ***quantified self*** is abundant. Wearable devices
+including the Apple Watch, Oura Ring, Fitbit and others, combined with
+apps, help users track a variety of health metrics. Apart from health,
+wearable devices have been used to track other metrics such as
+physiological parameters of students at school to determine their
+learning efficiency (Giannakos et al., 2020).
 
-Shin et al. (2019) synthesis review of 463 studies shows wearable
-devices have potential to influence behavior change towards healthier
-lifestyles. Saubade et al. (2016) finds health tracking is useful for
-motivating physical activity. Apple is a leader in health tracking.
-Apple (2022a): In a 2022 report Apple outlines its plans to :
-“Empowering people to live a healthier day”. Apple (2022b) Apple’s
-HealthKit provides a growing list of health metrics. Liu et al. (2019)
-tracks how wearable data is used for tracking sleep improvements from
-exercise. Grigsby-Toussaint et al. (2017) Sleep apps and behavioral
-constructs.
+Could one track personal sustainability in a similar fashion? (Shin et
+al., 2019)’s synthesis review of 463 studies shows wearable devices have
+potential to influence behavior change towards healthier lifestyles.
+Saubade et al. (2016) finds health tracking is useful for motivating
+physical activity.
 
-Blood sugar trackers. Bloog glucose tracking is popular even for people
-without diabetes, to optimize their activity Anon. (2021b)
+Apple is a leader in health tracking. In 2022 Apple outlined plans for
+***“empowering people to live a healthier day”*** and Apple’s HealthKit
+provides a growing list of health metrics, which app developers can tap
+into (Apple, 2022a, 2022b). Liu et al. (2019) tracks how wearable data
+is used for tracking sleep improvements from exercise. Grigsby-Toussaint
+et al. (2017) made use of sleep apps to construct humans behaviors also
+known as ***behavioral constructs***.
+
+-   Tracking blood sugar with app and patches. Blood sugar trackers.
+    Blood glucose tracking is popular even for people without diabetes,
+    to optimize their activity Anon. (2021b)..
 
 Another aspect is tracking one’s mental health. Tyler, Boldi and
 Cherubini (2022) surveys the use of self-reflection apps in the UK
 (n=998).
 
-Use technology Wearables to be more aware of one’s health.
-
--   Popular Strava (100 million users) sports assistant provides run
+-   Popular Strava (100+ million users) sports assistant provides run
     tracking and feedback (Strava, 2022).
 
 ````mdx-code-block
@@ -228,12 +321,7 @@ Use technology Wearables to be more aware of one’s health.
 
 -   AI Financial Advisors will need to go further to motivate users.
 
--   There is a parallel in health to sustainability and indeed both are
-    inextricably linked.
-
 -   Tracking urine consistency inside your toilet with WithThings
-
--   Tracking blood sugar with app and patches
 
 -   “urban metabolism” (Claire Moran, 2018; Shi et al., 2021), city
     in-out flows accounting method
@@ -270,7 +358,7 @@ Use technology Wearables to be more aware of one’s health.
 
 -   Bower and Sturman (2015)
 
--   Fletcher (2022)
+-   Fletcher, O. (2022)
 
 -   Ryan (2022) uses the “capability methodology” to evaluate if apps
     help people eat healthily.
@@ -286,42 +374,9 @@ flow through the economy not unlike the carbon cycle itself.
 
 ### Affective Design
 
-### User Interfaces
+Understanding user emotions
 
-What is the user interface of the green transformation?
-
-McKeough (2018) business consultancies have begun to recognize the
-importance of design to business. They advise their corporate clients to
-bring user experience design to the core of their business operations.
-
-There’s a number of user interface design patterns that have provide
-successful across a range of social media apps. Such ***user experience
-/ user interface*** (UX/UI) patterns are copied from one app to another,
-to the extent that the largest apps share a similar look and feature
-set. Common UX/UI parts include the Feed and Stories. By using common UI
-parts from social media users have an easier time to accept the
-innovative parts. add Viz charts. Avatars are increasingly common and
-new generations are used to talking to computers.
-
-| Feature   | Examples                           |     |
-|-----------|------------------------------------|-----|
-| Feed      |                                    |     |
-| Post      | Apple App Store                    |     |
-| Stories   | IG, FB, WhatsApp, SnapChat, TikTok |     |
-| Comment   |                                    |     |
-| Reactions |                                    |     |
-
-Common Social Media UI Parts
-
-There are also more philosophical approaches to ***Interface Studies:***
-David Hoang (2022), the head of product design at Webflow, suggests
-taking cues from art studies to ***isolate the core problem***. “An art
-study is any action done with the intention of learning about the
-subject you want to draw”. As a former art student, Hoang looks at an
-interface as *“a piece of design is an artwork with function”*.
-
-Indeed, art can be a way to see new paths forward, practicing
-“fictioning” to deal with problematic legacies: Anon. (2023a)
+elicit specific emotional responses
 
 ### Personal Carbon Trackers
 
@@ -351,8 +406,8 @@ Design is as much about how it works as it’s about the interface.
 
 Digital product design can be seen as a specific discipline under the
 umbrella of **Experience Design**. In Michael Abrash (2017) Meta Oculus
-augmented reality incubation general manager Laura Fryer: “People buy
-experiences, not technology.”
+augmented reality incubation general manager Laura Fryer: *“People buy
+experiences, not technology.”*
 
 Young people expect a product. Intelligent Interfaces use interaction
 design to provide relevant and personalized information in the right
@@ -361,24 +416,27 @@ context and at the right time.
 Ceschin and Gaziulusoy (2016) shows how design for sustainability has
 expanded from a product focus to systems-thinking focus placing the
 product inside a societal context of use. For example Anon. (n.d.a),
-Recycled clothing maker FREITAG offers sustainability-focused services
+recycled clothing maker FREITAG offers sustainability-focused services
 such ass cargo bikes so you can transport your purchases and a network
 for *shopping without payment* = swapping your items with other members,
 as well as repairs of their products. Loaning terminology from
 ***service design***, the user journey within an app needs to consider
 each touchpoint on the way to a state of success.
 
-Weinschenk (2011) says “People expect most online interactions to follow
-the same social rules as person-to-person interactions. It’s a shortcut
-that your brain uses to quickly evaluate trustworthiness.”
+Weinschenk (2011) says *“People expect most online interactions to
+follow the same social rules as person-to-person interactions. It’s a
+shortcut that your brain uses to quickly evaluate trustworthiness.”*
 
 The small screen estate space of mobiles phones and smart watches
 necessitates displaying content in a dynamic manner. Virtual reality
 glasses (called AR/VR or XR in marketing speak) need dynamic content
-because the user is able to move around the environment. Both are
+because the user is able to move around the environment. These are
 questions that interaction design is called upon to solve. Hoang (2022):
-“Dynamic interfaces might invoke a new design language for extended
-reality”.
+*“Dynamic interfaces might invoke a new design language for extended
+reality”.*
+
+The promise of ***Generative UI*** is to dynamically provide an
+interface appropriate for the particular user and context.
 
 Speaking is one mode of interaction that’s become increasingly possible
 as machines learn to interpret human language.
@@ -578,18 +636,20 @@ Types of nudge by Wee, Choong and Low (2021)
 
 #### Gamification
 
+-   Gamification makes uses of nudges.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
 -   Students in Indonesia enjoy using Kahoot and it’s gamification
     elements are perceived to have positive impact on individual
     learning outcomes so they are happy to continue using it (Wirani,
     Nabarian and Romadhon, 2022).
 -   Anon. (n.d.h) game company going green
--   Ant Forest (螞蟻森林) is a success story of gamified nature
-    protection. Success stories integrating previously distinct
-    experiences with sustainability have shown positive results, for
-    example, Alibaba’s Ant Forest simultaneously raising money for
-    planting forests and building loyalty, leading the company to
-    consider further avenues for gamification and eco-friendliness.
--   Gamification makes uses of nudges.
+-   Alibaba’s Ant Forest (螞蟻森林) has shown the potential gamified
+    nature protection, simultaneously raising money for planting forests
+    and building loyalty and brand recognition for their sustainable
+    action, leading the company to consider further avenues for
+    gamification and eco-friendliness.
 
 | Year | Users       | Trees       | Area                                 |
 |------|-------------|-------------|--------------------------------------|
@@ -603,7 +663,7 @@ Types of nudge by Wee, Choong and Low (2021)
 |      |             |             |                                      |
 |      |             |             |                                      |
 
-Table of Ant Forest assisted tree planting. Data compiled from (李连环
+Table of Ant Forest assisted tree planting; data compiled from (李连环
 and 姜舒译, 2017; Yang et al., 2018; UNFCCC, 2019; Wang, X. and Yao,
 2020; Anon., 2021f; Wang, S., Ibrahiem and Li, 2022; Zhang, Hu and Gu,
 2022; Cao and Liu, 2023; Zhou, F., Lin and Mou, 2023).
@@ -633,18 +693,20 @@ plt.show()
 
 ## Design for Sustainability
 
-### Life-Centered Design
-
-While Human-Centered Design has become popular, the effect humans are
-having on biodiversity leads to the idea of Life-Centered Design.
-Borthwick, Tomitsch and Gaughwin (2022) proposes a framework for
-life-centered design, “the design phase of a physical product accounts
-for 80% of its environmental impact”.
-
 Sustainability touches every facet of human existence and is thus an
 enormous undertaking. Making progress on sustainability is only possible
 if there’s a large-scale coordinated effort by humans around the planet.
-For this to happen, some technological tools are helpful.
+For this to happen, appropriate technological tools are required.
+
+### Life-Centered Design
+
+***Life-Centered Design*** recognizes human impact on our surrounding
+environment as well as other animals making sure to include them among
+stakeholders While ***Human-Centered Design*** has become popular, the
+effect humans are having on biodiversity should be considered when
+designing. *“\[T\]he design phase of a physical product accounts for 80%
+of its environmental impact”* notes(Borthwick, Tomitsch and Gaughwin,
+2022) in their framework for life-centered design.
 
 -   Sanchez et al. (2022) LoRaWAN
 
@@ -670,22 +732,15 @@ For this to happen, some technological tools are helpful.
 -   Inc (n.d.)
 -   Tim Nicolle (2017)
 
-#### Supply Chains
+#### Transport
 
-Freight (transport of goods by trucks, trains, planes, ships) accounts
-for 1.14 gigatons of CO<sub>2</sub> emissions as per 2015 data or 16% of
-total international supply chain emissions (Wang, Y. et al., 2022).
-
--   Platzer (2023), a scientist working on the Apollo space programme,
-    calls for emergency action to develop *green aviation*.
-
--   “Transport greenhouse gas emissions have increased every year since
-    2014” Anon. (2023b)
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
--   Finkenstadt and Handfield (2021) COVID19 pandemic highlighted the
-    need to have real-time visibility into supply chains.
+Products are made from resources distributed across the planet and
+transported to clients around the world which currently causes high
+levels (and increasing) of greenhouse gases. *“Transport greenhouse gas
+emissions have increased every year since 2014”* (Anon., 2023c). Freight
+(transport of goods by trucks, trains, planes, ships) accounts for 1.14
+gigatons of CO<sub>2</sub> emissions as per 2015 data or 16% of total
+international supply chain emissions (Wang, Y. et al., 2022).
 
 | Type of Transport           | Percentage |
 |-----------------------------|------------|
@@ -699,41 +754,57 @@ total international supply chain emissions (Wang, Y. et al., 2022).
 | Rail                        | 3%         |
 
 Share of CO<sub>2</sub> of CO<sub>2</sub> emissions by type of transport
-(Statista and IEA, 2022)
+globally (Statista and IEA, 2022).
 
-Circular design is possible if supply chains become circular.
+-   Platzer (2023), a scientist working on the Apollo space program,
+    calls for emergency action to develop *green aviation*.
 
--   Wagenvoort (2020) Self-driving supply chains.. (contact Japanese
-    factory?)
-
--   California Transparency in Supply Chains Act
+-   The California Transparency in Supply Chains Act which came into
+    effect in 2012 applies to large retailers and manufacturers focused
+    on pushing companies to to eradicate human trafficking and slavery
+    in their supply chains.
 
 #### How to Trace Supply Chains?
 
--   Knight et al. (2022) new tools are needed to map supply chains.
+Circular design is only possible if supply chains become circular as
+well.
 
--   Dutta et al. (2020) hundreds of paper researching blockchain use in
-    supply change operations since 2017.
+The complexity of resource and delivery networks necessitates more
+advanced tools to map supply chains (Knight et al., 2022). The COVID19
+pandemic and resulting blockages in resource delivery highlighted the
+need to have real-time visibility into supply chains (Finkenstadt and
+Handfield, 2021).
 
--   Van Wassenaer et al. (2023) Compares use cases for blockchains in
-    enhancing traceability, transparency and cleaning up the supply
-    chain. There are several technologies for tracking goods across the
-    supply chain, from shipping to client delivery.
+Blockchain is the main technology considered for accounting for the
+various inputs and complex web of interactions between many participants
+inside the supply chain networks. There are hundreds of paper
+researching blockchain use in supply change operations since 2017 (Dutta
+et al., 2020). Blockchains enable saving immutable records into
+distributed databases (also known as ledgers). It’s not possible to (or
+extremely difficult) to change the same record, only new records can be
+added on top of new ones. Blockchains are useful for data sharing and
+auditing, as the time and place of data input can be guaranteed, and it
+will be easier to conduct a search on who inputted incorrect data;
+however the system still relies on correct data input. As the saying
+goes, *“garbage in, garbage out”*.
 
--   Ashraf and Heavey (2023) Solana blockchain and Sigfox internet of
-    things (IoT) Integration for supply chain traceability.
+There are several technologies for tracking goods across the supply
+chain, from shipping to client delivery. Data entry is a combination of
+manual data input and automated record-keeping facilitated by sensors
+and integrated internet of things (IoT) capabilities. For example
+(Ashraf and Heavey, 2023) describes using the Solana blockchain and
+Sigfox internet of things (IoT) Integration for supply chain
+traceability where Sigfox does not need direct access to internet but
+can send low powered messages across long distances (for example
+shipping containers on the ocean). (Van Wassenaer et al., 2023) compares
+use cases for blockchains in enhancing traceability, transparency and
+cleaning up the supply chain in agricultural products.
 
--   Blockchain ledgers are useful for data sharing and auditing, as the
-    time and place of data input can be guaranteed, and it will be
-    easier to conduct a search on who inputted incorrect data, however
-    the system still relies on correct data input. As the saying goes,
-    “garbage in, garbage out”.
+-   Several startups are using to track source material arriving to the
+    factories and product movements from factories to markets.
 
--   Several startups are using distributed ledgers (blockchains) to
-    track source material arriving to the factories and product
-    movements from factories to markets. While blockchains enable
-    securely tracing data, which is immutable (no possible to change the
-    same record, only add data in new records).
+-   Wagenvoort (2020) Self-driving supply chains.. (contact Japanese
+    factory?)
 
 | Company        | Link              | Literature                                              | Comments                                      |
 |------------------|------------------|-------------------|------------------|
@@ -783,9 +854,8 @@ Can data transparency provide tools for reducing cruelty.
 
 #### Open Data
 
-taiwan is a proponent of Open Gov OP-MSF OGP
-https://www.opengovpartnership.org/ogp-participation-co-creation-standards/
-https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
+-   Taiwan is a proponent of Open Gov OP-MSF OGP (Lab, 2021; Open
+    Government Partnership, 2021)
 
 Data-driven design requires access to data, making the movement towards
 *open data sharing* very important. Some countries and cities are better
@@ -945,6 +1015,9 @@ In European Environment Agency (2022), European Environment Agency (EEA)
 estimates based on trade and production data that EU27 citizens consumed
 an average 15kg of textile products per person per year.
 
+-   Better Cotton Initiative
+    [https://bettercotton.org/https://bettercotton.org/](https://bettercotton.org/)
+
 Sustainable Fashion, Textile Design
 
 -   There are signs of young Chinese consumers valuing experiences over
@@ -998,9 +1071,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   imperfectidealist (2020) Fashion sustainability vs greenwashing
 
--   Anon. (2023c) Ethical Shopping
+-   Anon. (2023d) Ethical Shopping
 
--   Anon. (2023d) Ethical brand?
+-   Anon. (2023e) Ethical brand?
 
 -   Good On You (2023) Sustainable fashion company evaluations
 
@@ -1063,9 +1136,9 @@ Across industries, reports are saying there isn’t enough transparency.
 
 -   Cleantech Group (2023) Global cleantech 100
 
--   Anon. (2023e) Alterations and repairs made easy
+-   Anon. (2023f) Alterations and repairs made easy
 
--   Anon. (2023f) Ethical brand ratings
+-   Anon. (2023g) Ethical brand ratings
 
 ### Food
 
@@ -1115,9 +1188,9 @@ health (Santos et al., 2023). The same is true for cocoa beans, which
 are at risk from food fraud (Fanning et al., 2023).
 
 -   IARC warns aspartame (artificial sweetener found in many soft
-    drinks) could cause cancer \[CITE\].
+    drinks) could cause cancer \[ADD CITATION\].
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 -   Yap et al. (2023) Singapore disposes of 900,000 tonnes of plastic
     waste out of which only 4% is recycled.
@@ -1207,112 +1280,37 @@ Supply chain innovation in agriculture.
 
 ## *Design Implications*
 
--   App shows traceability.
-
--   Help consumers to demand more.
-
--   Make open data easy to use in everyday life.
-
--   The key idea is making CO<sub>2</sub> Visible.
-
--   Rank companies based on sustainability
-
--   Help you to decide: what to buy, how to save, where to invest.
-
--   What if there was a “Green Filter” on every product everywhere?
-
--   Become a Sustainability-Aware App or Game.
-
--   Focus on how college students can invest in specific industries?
-
--   Where to shop rankings for groceries: list worst offenders in terms
-    of products; shop and invest according to your values.
-
--   What Quantified Self look like for sustainability?
-
--   Empowering people to live a sustainable day
-
--   What if there was a “Green Filter” on every product everywhere?
-
--   Become a Sustainability-Aware App or Game.
-
--   Guidance could help young people beat climate anxiety by taking
-    meaningful action.
-
--   The app is just as much about helping people deal with climate
-    anxiety as it’s with solving the climate issue.
-
--   List of metrics that should be tracked to enable useful analytics.
-    Ex: % of beach pollution, air pollution, water pollution (I had this
-    idea while meditating). In essence, “green filter” is a central data
-    repository not unlike “Apple Health for Sustainability”.
-
--   Health and fitness category apps
-
--   Using “green filter” you can get a personalized sustainability plan
-    and personal coach to become healthy and nature-friendly.
-
--   All green categories — Green hub — Ask the user to prioritize
-
--   In my “green filter” AI advisor app’s scenario, the AI is scanning
-    for opportunities matching the user’s sustainable investment
-    appetite and risk profile, using different methods of analysis,
-    including alternative data sources. Traditionally, financial
-    analysts only looked at traditional data, such as company reports,
-    government reports, historic performance, etc., for preparing
-    advisory guidance to their clients. With the advent of AI and big
-    data analysis, many other options of research data have become
-    available, for example, accurate weather predictions for agriculture
-    can affect guidance, because of expected future weather disasters in
-    the area. Other examples include policy predictions, pollution
-    metrics, etc.
-
--   Professional financial advisors use automated tools to analyze data
-    and present it in human form to clients. Today’s ubiquitous mobile
-    interfaces, however, provide the opportunity to ‘cut out the
-    middleman’ and provide similar information to clients directly, at a
-    lower cost and a wider scale, often without human intervention.
-    Additional (more expensive) “human-judgment- as-a-service”, a
-    combination of robots + human input, can help provide further
-    personalized advice for the consumer, still at a cheaper price than
-    a dedicated human advisor. Everyone can have a financial advisor.
-
--   Narrative design bring together film school **storytelling**
-    experience with design.
-
--   Rebuilt the app as a personalized, narrative lifestyle feed.
-
--   Your shopping products mostly come from Protector and Gamble (3x)
-    and Nestle. These are large conglomerates with a massive
-    CO<sub>2</sub> footprint. See the index to find some alternatives.
-
--   How the design can connect people to sustainable outcomes while
-    shopping and investing? Perhaps even forming a community of
-    sustainable action. What I showed in class looks like an app but it
-    could also be a physical object (a speculative design). From the
-    presentations I saw most students seemed to be interested in form
-    and light (many lamps) and a couple were about medical uses. I don’t
-    remember seeing one that could be compatible with the environmental
-    sustainability focus unfortunately…
-
--   **Guided Sustainability** “refers to a concept of using technology,
-    such as AI and machine learning, to help individuals and
-    organizations make more sustainable decisions and take actions that
-    promote environmental and social sustainability. This can include
-    things like analyzing data on resource usage and emissions,
-    providing recommendations for reducing the environmental impact of
-    operations, or helping to identify and track progress towards
-    sustainability goals. The goal of guided sustainability is to make
-    it easier for people to understand their impact on the environment
-    and to take steps to reduce that impact.”
-
--   Young people are stuck inside platforms. You don’t own the data you
-    put on TikTok. You can’t leave because you’ll lose the audience.
-
--   With this perspective of scale, what would a shopping experience
-    look like if one knew at the point of sale, which products are
-    greener, and which are more environmentally polluting?
-
--   AI Financial Advisors will need to go further to motivate users.
-    because of the nature of the technology, which is based on the
-    quality of the data the systems ingest, they are prone to mistakes.
+| Category             | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|--------------------|----------------------------------------------------|
+| Greenwashing         | Personal CO2 tracking is ineffective and the focus should be on systematic change towards circular design and zero waste practices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                      | App shows traceability.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                      | Help consumers to demand more                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Lack of transparency | Make open data easy to use in everyday life                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Transparency         | The key idea is making CO<sub>2</sub> Visible.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Greenwashing         | Rank companies based on sustainability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                      | Help you to decide: what to buy, how to save, where to invest.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Decision Fatique     | What if there was a “Green Filter” on every product everywhere?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                      | Become a Sustainability-Aware App or Game.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                      | Focus on how college students can invest in specific industries?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                      | Where to shop rankings for groceries: list worst offenders in terms of products; shop and invest according to your values.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                      | What Quantified Self look like for sustainability?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                      | Empowering people to live a sustainable day                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                      | What if there was a “Green Filter” on every product everywhere?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                      | Become a Sustainability-Aware App or Game.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                      | Guidance could help young people beat climate anxiety by taking meaningful action.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                      | The app is just as much about helping people deal with climate anxiety as it’s with solving the climate issue.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                      | List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, “green filter” is a central data repository not unlike “Apple Health for Sustainability”.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                      | Health and fitness category apps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                      | Using “green filter” you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                      | All green categories — Green hub — Ask the user to prioritize                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                      | In my “green filter” AI advisor app’s scenario, the AI is scanning for opportunities matching the user’s sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc. |
+|                      | Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today’s ubiquitous mobile interfaces, however, provide the opportunity to ‘cut out the middleman’ and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) “human-judgment- as-a-service”, a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.                                                                                                                                            |
+|                      | Narrative design bring together film school **storytelling** experience with design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                      | Rebuilt the app as a personalized, narrative lifestyle feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                      | Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO<sub>2</sub> footprint. See the index to find some alternatives.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                      | How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don’t remember seeing one that could be compatible with the environmental sustainability focus unfortunately…                                                                                                                                                                                                                                       |
+|                      | **Guided Sustainability** “refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact.”                                                                                                       |
+|                      | Young people are stuck inside platforms. You don’t own the data you put on TikTok. You can’t leave because you’ll lose the audience.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                      | With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                      | AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Generative AI        | Allow producers to make use of Speculative and Participatory design to test out new product ideas?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

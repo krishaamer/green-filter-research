@@ -14,13 +14,11 @@ import Humboldt from '/research/images/humboldt.jpg'
 import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 ```
-### What is Sustainability?
+## From Sustainability to Planetary Boundaries to Planetary Health
 
-*Sustainability* was first mentioned in the seminal book *Sylvicultura oeconomica* in the context of forestry and discussing sustainable forest management [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713]. The field is known today as *sustainable yield* of *natural capital* required to maintain *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
+*Sustainability* was first mentioned in the seminal book *Sylvicultura oeconomica* in the context of forestry with the goal of achieving sustainable forest management [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713]. The field is known today as *sustainable yield* of *natural capital* with a focus on maintaining *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
 
-## Planetary Boundaries
-
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris climAgreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Climate Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO~2~ concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](../images/co2-concentration.png)
@@ -48,13 +46,20 @@ In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth
   refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
 />
 ```
-In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits; atmospheric aerosol loading and the biodiversity intactness index (BII) have not yet been fully quantified [@perssonOutsideSafeOperating2022].
+In addition the enormity of emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
+
+Atmospheric aerosol loading and the biodiversity intactness index (BII) were quantified recently (ADD CITATION)
+
+-   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
+-   @debalieKateRaworthCreating2018
+-   @houdiniPlanetaryBoundariesAssessment2018
+-   @haeggmanPlanetaryBoundariesAnalysis2018
 
 ### Planetary Health
 
 -   Planetary health https://unfccc.int/climate-action/un-global-climate-action-awards/planetary-health
 
--   @wardaniBoundariesSpacesKnowledge2023 "long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development.""
+-   @wardaniBoundariesSpacesKnowledge2023 *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
 
 ### Biodiversty Loss
 
@@ -148,13 +153,6 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-#### Planetary Boundaries
-
--   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. While my home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Occupy, we now in 2023, have indeed reached high-income status.
--   @debalieKateRaworthCreating2018
--   @houdiniPlanetaryBoundariesAssessment2018
--   @haeggmanPlanetaryBoundariesAnalysis2018
-
 ### Ecosystem Services
 
 @historyEcosystemServices2010 the history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free. In 1997 @dailyNatureServicesSocietal1997 proposed the idea of ecosystem services and @costanzaValueWorldEcosystem1997 attempted to assess the amount of ecosystem services provided.
@@ -221,10 +219,6 @@ Earth's population reached 8 Billion people In November 2022 and population proj
 -   While population growth puts higher pressure on Earth's resources, some research proposes the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012].
 
 -   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes (ATCs):
-
-#### Wellbeing Economy Governments
-
--   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
 
 #### Marine Heatwaves
 
@@ -309,15 +303,15 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
-+-----------------------+---------------------------------------------------------------------------------------+
-| View                  |                                                                                       |
-+=======================+=======================================================================================+
-| Narrowly Utilitarian  | Biodiversity is a resource of genetic novelties for the biotech industry.             |
-+-----------------------+---------------------------------------------------------------------------------------+
-| Broadly Utilitarian   | Humans depend upon biodiverse ecosystems.                                             |
-+-----------------------+---------------------------------------------------------------------------------------+
-| Ethical               | Humans have a responsibility to future generations to pass down a rich natural world. |
-+-----------------------+---------------------------------------------------------------------------------------+
++----------------------+---------------------------------------------------------------------------------------+
+| View                 |                                                                                       |
++======================+=======================================================================================+
+| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
++----------------------+---------------------------------------------------------------------------------------+
+| Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
++----------------------+---------------------------------------------------------------------------------------+
+| Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
++----------------------+---------------------------------------------------------------------------------------+
 
 : From @mayWhyShouldWe2011.
 
@@ -400,20 +394,6 @@ Agroforestry plays an active role in achieving Sustainable Development Goals (SD
 
 -   "Would you rather buy a DogeCoin or a regenerative food forest token?" Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo. @refidaoReFiPodcastS2E92022 (Use as a question for the survey?)
 
-### Biodesign
-
-MIT is a source of many fantastic innovations.
-
--   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
-
--   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client".
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a community
-
--   Processes sustain things: implication for design: built an app
-
 ### Quality of Life
 
 -   @kaklauskasSynergyClimateChange2023
@@ -432,7 +412,7 @@ MIT is a source of many fantastic innovations.
 
 ### **Environmental DNA**
 
--   @ogramExtractionPurificationMicrobial1987
+-   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types
 
 -   @peterandreysmitharchivepageHowEnvironmentalDNA2024
 
@@ -515,21 +495,21 @@ Retiring CO~2~ allowances
 
 As of 2023 there isn't a single global CO~2~ trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CO~2~ Market             | Launch Date     | Comments                                                                                                                                                                                       |
-+==========================+=================+================================================================================================================================================================================================+
-| European Union           | 2005            | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| South Korea              | 2015            |                                                                                                                                                                                                |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| China                    | 2021            | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| United States of America | 2013            | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| New Zealand              | 2008            | New Zealand @rontardPoliticalConstructionCarbon2022 (need access)                                                                                                                              |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Canada                   | 2013            |                                                                                                                                                                                                |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CO~2~ Market             | Launch Date | Comments                                                                                                                                                                                       |
++==========================+=============+================================================================================================================================================================================================+
+| European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| South Korea              | 2015        |                                                                                                                                                                                                |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| United States of America | 2013        | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| New Zealand              | 2008        | New Zealand @rontardPoliticalConstructionCarbon2022 (need access)                                                                                                                              |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Canada                   | 2013        |                                                                                                                                                                                                |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : CO~2~ credit trading markets around the world from @InternationalCarbonMarket.
 
@@ -679,14 +659,6 @@ TODO
 
 -   International Energy Agency (IEAs), Decarbonisation Enablers @ieaTrackingCleanEnergy2023
 
-## Regenerative design
-
--   dematerialize economies is not enough
-
-## **Biomimicry**
-
--   
-
 ## Eco-Design
 
 ***Designing for Sustainability aka Circular Design or Eco-Design*** encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
@@ -694,6 +666,28 @@ TODO
 -   "Evolution of design for sustainability: From product design to design for system innovations and transitions"
 -   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
 -   @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only." Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
+
+### Regenerative design
+
+-   dematerialize economies is not enough
+
+### **Biomimicry**
+
+-   following nature
+
+### Biodesign
+
+MIT is a source of many fantastic innovations.
+
+-   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
+
+-   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client".
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a community
+
+-   Processes sustain things: implication for design: built an app
 
 ### AI-Assisted Design
 
@@ -728,6 +722,10 @@ Timeline of the Policy Context:
 -   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
 
 -   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+
+#### Wellbeing Economy Governments
+
+-   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
 
 ### European Green Deal
 
@@ -863,7 +861,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 
 -   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
 
--   \[\@MakeYourWebsite; @Ecograder\] CO~2~ neutral websites
+-   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
 
 -   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
 
