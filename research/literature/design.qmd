@@ -32,7 +32,7 @@ AI will decide what kind of UI to show to you based on the data and context
 -   Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".***
 -   [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
 -   [@fletcherGenerativeUIDownfall2023 and @joeblairGenerativeUINew2024] are worried UIs are becoming average; that is more and more similar towards the lowest common denominator. We can generate better ones that are based on user data and would be truly personalized.
--   \[@nielsenAccessibilityHasFailed2024\] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (***"difficult, slow, and unpleasant"***) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
+-   [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (***"difficult, slow, and unpleasant"***) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
 -   @matteosciortinoGenerativeUIHow2024 coins the phrase RTAG UIs "real-time automatically-generated UI interfaces" mainly drawing from the example of how his Netflix interface looks different from that of his sisters because of their dissimilar usage patterns.
 -   [@NielsenIdeasGenerative2024] Meanwhile is very critical because for the following reasons:
 
@@ -84,9 +84,8 @@ Popular blogs such as [@kohliHowDesignersCan2019 and @loseWaysUXDesign2023] offe
 -   @mankoffEnvironmentalSustainabilityInteraction2007
 -   @borthwickHumancentredLifecentredDesign2022
 
-```{=html}
 <!-- -->
-```
+
 -   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
 
 ### **Interaction Design**
@@ -174,6 +173,8 @@ Another aspect is tracking one's mental health. @tylerContemporarySelfreflective
 ```
 -   AI Financial Advisors will need to go further to motivate users.
 
+-   dbs digibank app added a financial advisor named "Your Financial GPS" in 2018 @dbsDBSLaunchesSingapore2018
+
 -   Tracking urine consistency inside your toilet with WithThings
 
 -   "urban metabolism" [@shiUrbanInformatics2021; @clairemoranWhatUrbanMetabolism2018], city in-out flows accounting method
@@ -217,12 +218,6 @@ Another aspect is tracking one's mental health. @tylerContemporarySelfreflective
 In digital sustainability, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
 -   @panArtificialIntelligenceDigital2023 important
-
-### Affective Design
-
-Understanding user emotions
-
-elicit specific emotional responses
 
 ### Personal Carbon Trackers
 
@@ -391,9 +386,8 @@ Some notable examples:
 
 -   Gamification makes uses of nudges.
 
-```{=html}
 <!-- -->
-```
+
 -   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
 -   @SpaceApeGames game company going green
 -   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
@@ -480,6 +474,8 @@ Products are made from resources distributed across the planet and transported t
 -   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
 -   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
+
+-   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
 #### How to Trace Supply Chains?
 
@@ -600,7 +596,21 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   @cartoClimateResilienceGeography2023 Making advanced maps to convince people to make changes
 
+-   similar to Nutritional Facts Labeling
+
 #### Digital Product Passports
+
+-   Circularise has been working on a blockchain-based sustainability solution since 2016 and is the market leader providing Digital Product Passports for improving transparency across several industries @strettonDigitalProductPassports2022 "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time" "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
+-   product's history, composition, and environmental impact.
+
+| Goal                                                             | Description |
+|------------------------------------------------------------------|-------------|
+| **Sustainable Product Production**                               |             |
+| **Businesses to create value through Circular Business Models**  |             |
+| **Consumers to make more informed purchasing decisions**         |             |
+| **Verify compliance with legal obligations**                     |             |
+
+: Digital Product Passport goals @strettonDigitalProductPassports2022
 
 Digital product passports are a further development of the idea of carbon labels.
 
@@ -824,7 +834,7 @@ Supply chain innovation in agriculture.
 ## *Design Implications*
 
 | Category             | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|-------------------|-----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Greenwashing         | Personal CO2 tracking is ineffective and the focus should be on systematic change towards circular design and zero waste practices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                      | App shows traceability.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                      | Help consumers to demand more                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
