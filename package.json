@@ -12,7 +12,7 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@citation-js/core": "^0.7.6",
+    "@citation-js/core": "^0.7.9",
     "@docusaurus/core": "^3.1.1",
     "@docusaurus/mdx-loader": "^3.1.1",
     "@docusaurus/plugin-google-gtag": "^3.1.1",
