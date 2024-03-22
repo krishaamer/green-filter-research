@@ -19,13 +19,17 @@ Money is a system of trust where *something* is used as a medium of value exchan
 
 Traditionally it's created by governments by law using central banks which loan money to commercial banks. New types of money are increasingly created by companies and even individuals using cryptography methods such as blockchains to keep track of who-paid-whom.
 
-## Investing
+## Shopping, Saving and Investing are Forms of Capital Allocation
 
--- compliance and gen-ai in banking: @rahulagarwalHowGenerativeAI2024
+Sustainable Capital Allocation. Shopping, Saving, Investing are all forms of capital allocation. We're giving our money to companies.
 
--- "Lessons from banking to improve risk and compliance and speed up digital transformations" @jimboehmBetterRiskControls2021
+## Sustainability Lacks Trillions in Investment
 
-The theme for the 2023 Earth Day was *"Invest In Our Planet"*. Very apt as the estimate for the global **financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD** [@MappingGapRoad2016; @earthdayEarthDay20232023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional **4.1 Trillion USD** of financing in nature-based solution by 2050 to meet climate change, biodiversity, and land degradation targets [@unepUNEPGreenFinance2022]. And according to @therockefellerfoundationWhatGetsMeasured2022 a slightly lower **2.5-3.2 Trillion USD** would be sufficient.
+-- compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
+
+-- "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
+
+The theme for the 2023 Earth Day was *"Invest In Our Planet"*. Very apt as the estimate for the global **financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD** [@MappingGapRoad2016; @earthdayEarthDay20232023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional **4.1 Trillion USD** of financing in nature-based solution by 2050 to meet climate change, biodiversity, and land degradation targets [@unepUNEPGreenFinance2022]. And according to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower **2.5-3.2 Trillion USD** would be sufficient.
 
 In any case, even with massive financing going into sustainability, there's still a lack of investing. I
 
@@ -36,7 +40,7 @@ The lack of funding in green energy especially affects emerging economies, remin
 What if 10% of consumer spending went for climate?
 
 | High-Value Assets (Trillions of USD)                                                    |           |
-|----------------------------------------------------|--------------------|
+|--------------------------------------------------|----------------------|
 | Global Real Estate (2020, valuation)                                                    | \$326T    |
 | Global Equity Markets (2023, valuation)                                                 | \$108T    |
 | Global GDP (2023, per year)                                                             | \$105T    |
@@ -78,7 +82,7 @@ The first two decades of the 21st century have seen a flurry of new economic thi
 
 #### New Metrics
 
-degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
 Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
@@ -215,11 +219,11 @@ metrics and goals: ESG, SDGs,
 
 -   Adam Smith: Interdependence
 
-## Indexes
+## Indexes Enable Comparing Companies
 
 Does certification matter? Consumers are willing to pay more for bio-based products "72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products." @moroneConsumerWillingnessPay2021 (need access)
 
--   consumer awares of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat @mazzocchiConsumerAwarenessSustainable2022
+-   consumer awareness of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
 Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
 
@@ -322,17 +326,14 @@ All of the world's products are subject to one or another standard and although 
 
 -   @OpenFoodFacts app for nutrition and sustainability data
 
-## Banks
+## Banks and Fintechs Capture User Data
 
 Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan's O Bank makes use of Mastercard's data to calculate each transaction's CO~2~ emissions[@TaiwanOBankLaunches2022].
 
 -   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
-
-<!-- -->
-
 -   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments.
 
-## Fintech
+Banks and Fintech are becoming more similar than ever.
 
 -   39% of Millenials are willing to leave their bank for a better fintech (n=4,282); innovation in payments helps retention [@pymntsStayingAheadPayments2023].
 
@@ -352,7 +353,7 @@ Banks have access to each person's financial habits which makes it possible to m
 -   The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
 
 |               |                                                                              |              |
-|-----------------|--------------------------------------|-----------------|
+|------------------|------------------------------------|------------------|
 | Service       | Features                                                                     | Availability |
 | Goodments     | Matching investment vehicles to user's environmental, social, ethical values | USA          |
 | Wealthsimple  | AI-assisted saving & investing for Millennials                               | USA, UK      |
@@ -384,7 +385,7 @@ Banks have access to each person's financial habits which makes it possible to m
 : Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   @andresenglerBerkshireHathawayInvests2022
--   Tokenization is similar securitization which has been happening for a long time. - Art can be securitized @masterworksHowItWorks2023 - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
+-   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 -   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.
 
 ### Fintech UX
@@ -552,7 +553,7 @@ Building customer loyalty is a key part of repeat business and financial predict
 
 Conscious consumers make up a small percentage of the entire consumer public.
 
-#### Individual Climate Action
+#### Individual Climate Action is Ineffective
 
 -   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
 
@@ -574,9 +575,9 @@ Conscious consumers make up a small percentage of the entire consumer public.
 
 -   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
 
-### Payments
+### Payments are an Entry Point and Source of Consumer Action Data
 
--   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
+-   TSouurhe combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 -   Payments is the primary way consumers use money.
 -   Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, "every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices" [@fotheringhamHowCreateGreener2017].
 -   M-Pesa in Kenya since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
@@ -627,7 +628,7 @@ People are concerned with digital payments
 
 -   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-## Saving
+## Saving Can be Conflated with Investing
 
 There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
 
@@ -701,7 +702,7 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-#### Financial Inclusion
+#### Retain Investing in Financial Inclusion
 
 Retail investing can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
@@ -740,7 +741,7 @@ Retail investing can be seen as a form of financial inclusion. Ant Group's CEO E
 |           |      |
 |           |      |
 
-### Asset Classes
+### Increasing Number of Asset Classes
 
 There are many asset classes only some of which would be accessible to a retail investor.
 
@@ -782,10 +783,11 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Chinese green bond market is growing fast @pengManagingFinancingCosts2022
 
-### Community Investing
+### Community Investing Enables Financial Inclusion
 
+-   Inexperienced investor can copy other people when investing.
 -   You don't know how to invest? Build an investing community? Can follow others and raise capital together.
--   Savings in CO~2~ Equivalent Emissions: CO~2~ savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, eeskuju, or other means.
+-   Savings in CO~2~ Equivalent Emissions: CO~2~ savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
 -   In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of ***social proof***, which robo-advisor do not possess.
 
 #### Hedge Funds
@@ -847,7 +849,7 @@ There are many 'green investment platforms' who to trust?
 
 -   Open Banking: "Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. " investing into good companies
 
-### Sustainable Investing
+### Sustainable Investing is Based on Data
 
 Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies. Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
@@ -896,7 +898,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest, followed by China)\[\^5\] started a divestment trend in 2016 by divesting from coal. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions? The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
-### ESG
+### ESG Needs Standardisation
 
 -   Environmental, Social, and Corporate Governance (ESG)
 
@@ -919,6 +921,8 @@ There's literature suggesting it's possible to make investments that both make a
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
 #### ESG Crisis
+
+-   ESG companies don't emit less CO2 than non-ESG companies.
 
 -   https://www.openesg.com/ because you can't trust ESG @aikmanESGDAOOut2022 !
 
@@ -1006,7 +1010,7 @@ There's literature suggesting it's possible to make investments that both make a
 -   @ganuWhyBlockchainCan2021
 -   Improve product ***provenance***, blockchains offer this transparency
 
-## Greenwashing
+## Greenwashing Disturbs Sustainable Capital Allocation
 
 Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
@@ -1089,7 +1093,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 ## Design Implications
 
 | Category       | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|-----------------|-------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 |                | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
