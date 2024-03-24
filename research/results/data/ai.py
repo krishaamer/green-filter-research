@@ -1,5 +1,5 @@
 import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.filterwarnings("ignore")
 
 from kmodes.kmodes import KModes
 import pandas as pd

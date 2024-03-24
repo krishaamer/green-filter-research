@@ -1,5 +1,5 @@
 import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.filterwarnings("ignore")
 
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
