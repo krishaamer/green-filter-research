@@ -46,7 +46,7 @@ def perform_kmodes_clustering():
     cluster_data_encoded = cluster_data.astype(int)
 
     # Define the K-modes model
-    km = KModes(n_clusters=n_clusters, init='Huang', n_init=5, verbose=1)
+    km = KModes(n_clusters=n_clusters, init='Huang', n_init=5, verbose=False)
 
     # Fit the cluster model
     clusters = km.fit_predict(cluster_data_encoded)
@@ -179,7 +179,7 @@ def likert_cluster_and_visualize():
     df_likert_data = df[lff].dropna()
 
     # Perform k-means clustering
-    kmeans = KMeans(n_clusters=3, n_init=10, random_state=42).fit(df_likert_data)
+    kmeans = KMeans(n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_data)
     df_likert_data['Cluster'] = kmeans.labels_
 
     # Concatenate the cluster labels with the original data

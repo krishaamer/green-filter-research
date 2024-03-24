@@ -9,3 +9,9 @@ editor:
     render-on-save: false
 suppress-bibliography: true
 ---
+
+
+```{python}
+import warnings
+warnings.filterwarnings("ignore")
+```

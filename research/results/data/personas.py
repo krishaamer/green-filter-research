@@ -224,7 +224,7 @@ def get_kmeans_table():
 
     # Perform k-means clustering to group students into 3 clusters
     kmeans_real_data = KMeans(n_clusters=3, n_init=10,
-                              random_state=42).fit(df_likert_real_data)
+                              random_state=42, verbose=False).fit(df_likert_real_data)
 
     # Add the cluster labels to the DataFrame
     df_likert_real_data['Cluster'] = kmeans_real_data.labels_
@@ -247,7 +247,7 @@ def show_clustering_heatmap():
 
     # Perform k-means clustering with 3 clusters
     kmeans_likert_data = KMeans(
-        n_clusters=3, n_init=10, random_state=42).fit(df_likert_data)
+        n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_data)
 
     # Add the cluster labels to the DataFrame
     df_likert_data['Cluster'] = kmeans_likert_data.labels_
@@ -277,7 +277,7 @@ def prepare_data_for_pca():
     df_likert_data = df[likert_flat_fields].dropna()
 
     # Perform k-means clustering
-    kmeans = KMeans(n_clusters=3, n_init=10, random_state=42).fit(df_likert_data)
+    kmeans = KMeans(n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_data)
     df_likert_data['Cluster'] = kmeans.labels_
 
     # Fit PCA on the likert data (excluding the 'Cluster' column)

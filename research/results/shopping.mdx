@@ -14,65 +14,90 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<p>187 rows × 2 columns</p>
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<p>195 rows × 2 columns</p>
+</div>`];
+
 ## Shopping
 
 ### Boycott Count (Overall)
 
-``` text
-/Users/krishaamer/Desktop/current/thesis/green-filter-research/research/results/data/shopping.py:20: FutureWarning: 
-
-Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
-
-  barplot = sns.barplot(x='Boycott', y='Count', data=boycott_count, palette='viridis')
-/Users/krishaamer/Desktop/current/thesis/green-filter-research/research/results/data/shopping.py:22: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
-  ax.set_xticklabels(ax.get_xticklabels(), fontproperties=chinese_font)
-```
-
-![](shopping_files/figure-markdown_strict/cell-3-output-2.png)
+![](shopping_files/figure-markdown_strict/cell-3-output-1.png)
 
 ### Why Boycott
 
-``` text
-2024-02-18 10:45:39.700 
-  Warning: to view this Streamlit app on a browser, run it with the following
-  command:
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-    streamlit run /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/ipykernel_launcher.py [ARGUMENTS]
-```
+|     | Reason                                                         | Count |
+|-----|----------------------------------------------------------------|-------|
+| 0   | 食安問題                                                       | 33    |
+| 1   | 地溝油                                                         | 10    |
+| 2   | 黑心油                                                         | 8     |
+| 3   | 食安                                                           | 5     |
+| 4   | 政治因素                                                       | 4     |
+| ... | ...                                                            | ...   |
+| 182 | 因為有出新聞                                                   | 1     |
+| 183 | 此公司危害食安，以抵制這種行為讓公司更能意識到執行此行為的後果 | 1     |
+| 184 | 地溝油啊                                                       | 1     |
+| 185 | 不認同理念                                                     | 1     |
+| 186 | 因為這家公司壓榨員工                                           | 1     |
 
-``` text
-為什麼抵制？
-食安問題                               33
-地溝油                                10
-黑心油                                 8
-食安                                  5
-政治因素                                4
-                                   ..
-因為有出新聞                              1
-此公司危害食安，以抵制這種行為讓公司更能意識到執行此行為的後果     1
-地溝油啊                                1
-不認同理念                               1
-因為這家公司壓榨員工                          1
-Name: count, Length: 187, dtype: int64
-```
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 ### Trusted Brands
 
-``` text
-你/妳有信任的品牌嗎？
-No trusted brand          329
-Have but not specified    110
-義美                         42
-Apple                       9
-光泉                          7
-                         ... 
-自家種植                        1
-Casetify                    1
-Adidas                      1
-麥當勞                         1
-淨毒五郎                        1
-Name: count, Length: 195, dtype: int64
-```
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+|     | Brand                  | Count |
+|-----|------------------------|-------|
+| 193 | No trusted brand       | 329   |
+| 194 | Have but not specified | 56    |
+| 0   | 義美                   | 42    |
+| 1   | Apple                  | 9     |
+| 2   | 光泉                   | 7     |
+| ... | ...                    | ...   |
+| 83  | 自家種植               | 1     |
+| 84  | Casetify               | 1     |
+| 85  | Adidas                 | 1     |
+| 86  | 麥當勞                 | 1     |
+| 97  | 淨毒五郎               | 1     |
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+The following responses were counted as “no brand”: “無”, “沒有”,
+“沒有特別”, “🈚️”, “目前沒有”, “No”, “沒”, “沒有特別關注”,
+“沒有特別信任的”, “不知道”, “無特別選擇”, “目前沒有完全信任的”,
+“沒有特定的”, “沒有特定”, “沒有特別研究”, “目前沒有特別關注的品牌”,“N”,
+“none”, “無特別”, “目前無”, “沒有特別想到”, “沒有固定的”, “x”, “沒在買”,
+“nope”, “一時想不到…”, “沒有特別注意”, “無特別的品牌”,
+“無絕對信任的品牌”, “不確定你說的範圍”, “還沒有”
 
 ### Choice Experiments
 

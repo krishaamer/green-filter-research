@@ -12,6 +12,8 @@ suppress-bibliography: true
 
 ```{python}
 from data.attitudes import likert_charts, correlation_network, correlation_chart
+import warnings
+warnings.filterwarnings("ignore")
 ```
 
 ## Attitudes
@@ -24,5 +26,5 @@ likert_charts()
 
 ### Correlations Between Fields
 ```{python}
- correlation_network()
+correlation_network()
 ```

@@ -12,6 +12,8 @@ suppress-bibliography: true
 
 ```{python}
 from data.environment import ecosystem_sensitivity
+import warnings
+warnings.filterwarnings("ignore")
 ```
 
 ## Environment

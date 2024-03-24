@@ -11,11 +11,13 @@ suppress-bibliography: true
 ```{=mdx}
 import Embed from '/src/components/Embed'
 ```
-## Product Features
+## Prototypes of Product Features
+
+I developed a number of early prototypes to visualize product feature ideas.
 
 What's on the intersection of College Students, Sustainability, Investing, Data-Driven Design and Artificial Intelligence (AI)? AI-Driven Sustainable Investment Tools.
 
-The app aims to address the market failure by providing consumers sufficient sustainability information on the goods, services and invesments.
+The app aims to address the market failure by providing consumers sufficient sustainability information on the goods, services and investments.
 
 resource depletion
 
@@ -57,7 +59,7 @@ How can sustainability-minded college students find companies that meet their ex
 
 -   Your Green Helper
 
--   Make some initial prototype? make youtube video... hi, you have reached? spread... through estban and others?
+-   Make some initial prototype? make YoutTbe video... hi, you have reached? spread... through ESTBan and others?
 
 -   Currently CO~2~ footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
@@ -72,7 +74,7 @@ How can sustainability-minded college students find companies that meet their ex
 
 ## Affinity Diagrams
 
--   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information[@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
+-   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information [@karaperniceAffinityDiagrammingCollaboratively2018 ; @quignardUXAnalysisPhase2022]
 
 Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
 
@@ -131,23 +133,20 @@ How should the layout storyline be structured? Well it's like Strava (that runni
 
 -   GreenFilter is a product that combines AI, design and marketing to help people manage their social impact throughout the stages of their lives, from young adult years to retirement. Its primary goal is to give people the tools they need to invest responsibly in sustainable companies, while also educating them on this topic. Our project offers a responsive website and mobile app that leverages AI and other advanced technologies. In addition, our prototype includes a reality-based virtual assistant with voice command capabilities which can provide customers with new insights into the world of green finance
 
-```{=html}
 <!-- -->
-```
+
 -   GreenFilter introduces a novel, interactive point-of-sale technology that helps people make greener shopping decisions. The platform uses artificial intelligence to suggest green alternatives for products on your shopping list, and will also help you to find other companies that can make sustainable versions of the product you are buying.
 
 -   As people become aware of the impact their shopping is having on the environment, they become interested in finding alternatives to big brands and large companies. GreenFilter provides designers an AI companion design which helps people build relationships with sustainability-focused companies by providing personalized recommendations, giving product reviews and helping them shop sustainably. This new tool will empower consumers to make greener choices throughout their lives.
 
-```{=html}
 <!-- -->
-```
+
 -   Better management of planet Earth
 
 -   How can wee Shop, Save, Invest in line ecologic principles and planetary boundaries? individual action doesn't move the needle. how to group together
 
-```{=html}
 <!-- -->
-```
+
 -   App to build community
 
 -   Life within planetary boundaries
@@ -160,7 +159,6 @@ How should the layout storyline be structured? Well it's like Strava (that runni
 
 -   Cigarettes and pictures of lung cancer every product should be required to have photos of production conditions switch such as Rainforest and deforestation the products that include Palm oil.
 
-```{=html}
 <!-- -->
-```
+
 -   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don't believe the solutions work. They don't have trust. This is a user interface issue. How to build trust.

@@ -23,11 +23,8 @@ AI-assistant feature choices per Likert-based Personas
 likert_cluster_and_visualize()
 ```
 
-### Feature-Based Clustering
-Clustering students based on AI-assistant feature choices
-```{python}
-perform_kmodes_clustering()
-```
+## Feature-Based Clustering
+Clustering students based on AI-assistant feature choices.
 
 ### Feature Preferences (Overall)
 ```{python}

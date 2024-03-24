@@ -12,6 +12,8 @@ suppress-bibliography: true
 
 ```{python}
 from data.demographics import university_ranking_table, student_counts, mbti_ranking, field_of_study_ranking, student_age_ranking
+import warnings
+warnings.filterwarnings("ignore")
 ```
 
 ## Respondent Demographics
