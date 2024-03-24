@@ -25,8 +25,7 @@ def likert_charts():
 
     # Loop through each category in likert_fields to create visualizations
     for category, fields in likert_fields.items():
-        # print(f"## {translation_mapping[category]}")
-
+    
         # Calculate the number of rows needed for this category
         num_fields = len(fields)
         # Equivalent to ceil(num_fields / 2)
