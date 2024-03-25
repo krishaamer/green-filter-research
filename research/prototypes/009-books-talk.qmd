@@ -1,6 +1,11 @@
 ---
 title: 009 — Books can now talk to me
+bibliography: [../ref.bib]
+csl: ../harvard.csl
 sidebar_position: 9
+editor:
+    render-on-save: false
+suppress-bibliography: true
 ---
 
 # Books can now talk to me
