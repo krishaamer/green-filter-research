@@ -288,3 +288,7 @@ figcaption {
 .h700 {
   height: 700px;
 }
+
+.w100p {
+  width: 100%;
+}

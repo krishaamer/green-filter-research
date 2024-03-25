@@ -4,11 +4,11 @@ sidebar_position: 8
 ---
 
 ```{=mdx}
-import Embed from '/src/components/Embed'
+import MyEmbed from '/src/components/Embed'
 ```
 
 # How Far?
 
 How far did this product travel to reach you?
 
-<Embed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY1PlFrLRvyu7lI2KvAILe4%2FHow-Far%253F%3Fnode-id%3D0%253A1%26t%3Dn2uEPPaN4pknSaVh-1" text="Loading 'How Far?'..." />
+<MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY1PlFrLRvyu7lI2KvAILe4%2FHow-Far%253F%3Fnode-id%3D0%253A1%26t%3Dn2uEPPaN4pknSaVh-1" text="Loading 'How Far?'..." />
