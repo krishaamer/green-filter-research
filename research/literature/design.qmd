@@ -458,7 +458,11 @@ Products are made from resources distributed across the planet and transported t
 
 Circular design is only possible if supply chains become circular as well.
 
+It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteering a high level of data integrity, security, as well as energy usage of said data.
+
 The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic and resulting blockages in resource delivery highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021].
+
+Blockchains are a special type of database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsquent records in the chain and agreement of the majority of validators who host a version of the database.
 
 Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
 
