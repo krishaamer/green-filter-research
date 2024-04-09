@@ -7,14 +7,15 @@ editor:
     render-on-save: false
 suppress-bibliography: true
 ---
-
+/..
 ```{=mdx}
 import Embed from '/src/components/Embed'
-import Elephant from "./images/elephant-and-blind-men-midjourney.png";
+import Elephant from "./images/elephant.png";
 ```
 # Discussion
 
-College Student Willingness to pay (WTP)
+College Student Willingness to pay (
+  WTP)
 
 Defining the Problem Space.
 
