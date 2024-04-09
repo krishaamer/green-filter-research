@@ -9,8 +9,8 @@ suppress-bibliography: true
 ---
 
 ```{=mdx}
-import Figure from '/src/components/Figure'
-import Humboldt from '/research/images/humboldt.jpg'
+import Figure from '/src/components/Figure';
+import Humboldt from '/research/images/humboldt.jpg';
 import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 ```

@@ -9,7 +9,7 @@ suppress-bibliography: true
 ---
 
 ```{=mdx}
-import Embed from '/src/components/Embed'
+import MyEmbed from '/src/components/Embed'
 ```
 ## Prototypes of Product Features
 

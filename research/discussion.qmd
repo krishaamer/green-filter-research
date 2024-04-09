@@ -7,9 +7,10 @@ editor:
     render-on-save: false
 suppress-bibliography: true
 ---
-/..
+
 ```{=mdx}
-import Embed from '/src/components/Embed'
+import Figure from '/src/components/Figure';
+import MyEmbed from '/src/components/Embed';
 import Elephant from "./images/elephant.png";
 ```
 # Discussion
