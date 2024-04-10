@@ -57,19 +57,14 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 
 [@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.
 
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| # Problem             | # Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|-----------|-------------------------------------------------------------|
+| Problem               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Monolithicity         | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                  |
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Opaqueness            | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Biases and Prejudices | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become "partners in crime"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                  |
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Missing Data          | LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics [@Liu_LlamaIndex_2022].                                                                                                                                                                                                                                                                                                                                 |
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Lack of Legislation   | @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 @browneBritainHostWorld2023.                                                                                                                                                                                                                                                                                                                                                        |
-+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Table summarizing some problems with contemporary AIs.
 
@@ -87,51 +82,29 @@ In any case, open or closed-sourced, real-world usage of LLMs may demonstrate th
 
 Red-teaming means pushing the limits of LLMs, trying to get them to produce outputs that are racist, false, or otherwise unhelpful.
 
-+---------------+-------------+---------------------------------+-------------------------------+
-| AI Model      | Released    | Company                         | License                       |
-+===============+=============+=================================+===============================+
-| GPT-1         | 2018        | OpenAI                          | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GTP-2         | 2019        | OpenAI                          | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Turing-NLG    | 2020        | Microsoft                       | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GPT-3         | 2020        | OpenAI                          | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GPT-3.5       | 2022        | OpenAI                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GPT-4         | 2023        | OpenAI                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| AlexaTM       | 2022        | Amazon                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| NeMo          | 2022        | NVIDIA                          | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| PaLM          | 2022        | Google                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| LaMDA         | 2022        | Google                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GLaM          | 2022        | Google                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| BLOOM         | 2022        | Hugging Face                    | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Falcon        | 2023        | Technology Innovation Institute | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Tongyi        | 2023        | Alibaba                         | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Vicuna        | 2023        | Sapling                         | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Wu Dao 3      | 2023        | BAAI                            | Open Source                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| PaLM-2        | 2023        | Google                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Claude 3      | 2024        | Anthropic                       | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Mistral Large |             |                                 |                               |
-+---------------+-------------+---------------------------------+-------------------------------+
-| Gemini 1.5    | 2024        | Google                          | Proprietary                   |
-+---------------+-------------+---------------------------------+-------------------------------+
-| GPT-5         | 202?        | OpenAI                          | Unknown; trademark registered |
-+---------------+-------------+---------------------------------+-------------------------------+
+| AI Model      | Released | Company                         | License                       |
+|---------------|---------------|---------------------|--------------------|
+| GPT-1         | 2018     | OpenAI                          | Open Source                   |
+| GTP-2         | 2019     | OpenAI                          | Open Source                   |
+| Turing-NLG    | 2020     | Microsoft                       | Proprietary                   |
+| GPT-3         | 2020     | OpenAI                          | Open Source                   |
+| GPT-3.5       | 2022     | OpenAI                          | Proprietary                   |
+| GPT-4         | 2023     | OpenAI                          | Proprietary                   |
+| AlexaTM       | 2022     | Amazon                          | Proprietary                   |
+| NeMo          | 2022     | NVIDIA                          | Open Source                   |
+| PaLM          | 2022     | Google                          | Proprietary                   |
+| LaMDA         | 2022     | Google                          | Proprietary                   |
+| GLaM          | 2022     | Google                          | Proprietary                   |
+| BLOOM         | 2022     | Hugging Face                    | Open Source                   |
+| Falcon        | 2023     | Technology Innovation Institute | Open Source                   |
+| Tongyi        | 2023     | Alibaba                         | Proprietary                   |
+| Vicuna        | 2023     | Sapling                         | Open Source                   |
+| Wu Dao 3      | 2023     | BAAI                            | Open Source                   |
+| PaLM-2        | 2023     | Google                          | Proprietary                   |
+| Claude 3      | 2024     | Anthropic                       | Proprietary                   |
+| Mistral Large |          |                                 |                               |
+| Gemini 1.5    | 2024     | Google                          | Proprietary                   |
+| GPT-5         | 202?     | OpenAI                          | Unknown; trademark registered |
 
 : Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023].
 
@@ -151,17 +124,12 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 -   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
 
-+-----------------+-----------+------------------------------------------------------------------------------------+
-| App             | Category  | Use Case                                                                           |
-+=================+===========+====================================================================================+
-| Welltory        | Health    | Health data analysis                                                               |
-+-----------------+-----------+------------------------------------------------------------------------------------+
-| Wellue          | Health    | Heart arrhythmia detection                                                         |
-+-----------------+-----------+------------------------------------------------------------------------------------+
-| QALY            | Health    | Heart arrhythmia detection                                                         |
-+-----------------+-----------+------------------------------------------------------------------------------------+
-| Starship Robots | Delivery  | May ask for human help when crossing a difficult road or other confusing situation |
-+-----------------+-----------+------------------------------------------------------------------------------------+
+| App             | Category | Use Case                                                                           |
+|-------------|-------------|----------------------------------------------|
+| Welltory        | Health   | Health data analysis                                                               |
+| Wellue          | Health   | Heart arrhythmia detection                                                         |
+| QALY            | Health   | Heart arrhythmia detection                                                         |
+| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
 
 : Examples of human-in-the-loop apps
 
@@ -193,17 +161,12 @@ The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2
 
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
-+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | Field of Usage    | Description                                                                                                                                 |
-+===================+=============================================================================================================================================+
+|--------------|----------------------------------------------------------|
 | Shipping          | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
-+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | Data Summarizaton | AI is great at summarizing and analyzing data[@petersGoogleChromeWill2023 @tuWhatShouldData2023]                                            |
-+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | Childcare         | Generate personalized bedtime stories                                                                                                       |
-+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | Design Tools      | @DavidHoangHow2024                                                                                                                          |
-+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
 : A very small illustration of generative AI usage across disparate fields of human life.
 
@@ -407,11 +370,9 @@ How do the tenets of user experience (UX) apply to AI?
 
 @guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:
 
-+-------------------------+----------------------+----------------------------------------------+
 | 1                       | 2                    | 3                                            |
-+=========================+======================+==============================================+
+|-------------------|------------------|----------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
-+-------------------------+----------------------+----------------------------------------------+
 
 ### Explainable AI
 
@@ -529,19 +490,13 @@ What are the next features that could improve the UX/UI of AI-based assistants?
 
 Should AIs look anthropomorphic or fade in the background? It's an open question. Perhaps we can expect a mix of both depending on the context of use and goals of the particular AI.
 
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Anthropomorphic AI User Interfaces                                | Non-Anthropomorphic AI User Interfaces                                                                                                                   |
-+===================================================================+==========================================================================================================================================================+
+|----------------------|-------------------------------------------------|
 | AI wife [@MyWifeDead2023]                                         | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [@sarahperezCharacterAIA16zbacked2023] character AI               | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020]                                                                                       |
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | mourning 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023]                                           |
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | AI for therapy [@broderickPeopleAreUsing2023]                     | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023]                                                              |
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Mental health uses: AI for bullying [@sungParentsWorryTeens2023]  |                                                                                                                                                          |
-+-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Some notable examples of anthropomorphic AIs for human emotions.
 
@@ -572,43 +527,25 @@ How AIs are represented in popular media shapes the way we think about AIs. Some
 
 There have been dozens of AI-characters in the movies, TV-series, games, and (comic) books. In most cases, they have a physical presence or a voice, so they could be visible for the viewers. Some include KITT (Knight Industries Two Thousand).
 
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Movie / Series / Game / Book   | Character              | Positive  | Ambivalent | Negative  |
-+================================+========================+===========+============+===========+
-| 2001: A Space Odyssey          | HAL 9000               |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Her                            | Samantha               | X         |            |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Alien                          | MU/TH/UR 6000 (Mother) | X         |            |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Terminator                     | Skynet                 |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Summer Wars                    | Love Machine           |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Marvel Cinematic Universe      | Jarvis, Friday         | X         |            |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Knight Rider                   | KITT                   | X         |            |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-|                                | CARR                   |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Star Trek                      | Data                   | X         |            |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-|                                | Lore                   |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Ex Machina                     | Kyoko                  |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-|                                | Ava                    |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Tron                           | Tron                   |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Neuromancer                    | Wintermute             |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| The Robots of Dawn             | R. Giskard Reventlov   |           | X          |           |
-+--------------------------------+------------------------+-----------+------------+-----------+
-| Portal                         | GLaDOS                 |           |            | X         |
-+--------------------------------+------------------------+-----------+------------+-----------+
+| Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |
+|-------------------|-------------|-------------|-------------|-------------|
+| 2001: A Space Odyssey          | HAL 9000               |          |            | X        |
+| Her                            | Samantha               | X        |            |          |
+| Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |
+| Terminator                     | Skynet                 |          |            | X        |
+| Summer Wars                    | Love Machine           |          |            | X        |
+| Marvel Cinematic Universe      | Jarvis, Friday         | X        |            |          |
+| Knight Rider                   | KITT                   | X        |            |          |
+|                                | CARR                   |          |            | X        |
+| Star Trek                      | Data                   | X        |            |          |
+|                                | Lore                   |          |            | X        |
+| Ex Machina                     | Kyoko                  |          | X          |          |
+|                                | Ava                    |          | X          |          |
+| Tron                           | Tron                   |          | X          |          |
+| Neuromancer                    | Wintermute             |          | X          |          |
+| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |          | X          |          |
+| The Robots of Dawn             | R. Giskard Reventlov   |          | X          |          |
+| Portal                         | GLaDOS                 |          |            | X        |
 
 : AIs in different forms of media.
 
@@ -679,19 +616,13 @@ There is also the question of who takes responsibility for the actions take by t
 
 The Oxford Internet Institute defines AI simply as ***"computer programming that learns and adapts"*** @googleAZAI2022. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI @googleGooglePresentsAI2022. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
-+-------------------------+-------------------------------------------+---------------------------------+
 | Product                 | Link                                      | Description                     |
-+=========================+===========================================+=================================+
+|------------------|------------------------------|-----------------------|
 | Github CoPilot          | personal.ai                               | AI helper for coding            |
-+-------------------------+-------------------------------------------+---------------------------------+
 | Google Translate        | translate.google.com                      |                                 |
-+-------------------------+-------------------------------------------+---------------------------------+
 | Google Search           | google.com                                |                                 |
-+-------------------------+-------------------------------------------+---------------------------------+
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool                |
-+-------------------------+-------------------------------------------+---------------------------------+
 | Perplexity              | @hinesPerplexityAnnouncesAI2023           | perplexity.ai chat-based search |
-+-------------------------+-------------------------------------------+---------------------------------+
 
 ::: {.content-hidden unless-format="pdf"}
 ![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](../images/with-me.png){width="60%"}
@@ -746,31 +677,19 @@ Personal Carbon Trackers
 
 Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
-+-------------------------+--------------------------------------------------------+
 | App                     | Description                                            |
-+=========================+========================================================+
+|-----------------------|-------------------------------------------------|
 | Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
-+-------------------------+--------------------------------------------------------+
 | Klima                   | Offset Subscription                                    |
-+-------------------------+--------------------------------------------------------+
 | Wren                    | Offset Subscription                                    |
-+-------------------------+--------------------------------------------------------+
 | JouleBug                |                                                        |
-+-------------------------+--------------------------------------------------------+
 | eevie                   |                                                        |
-+-------------------------+--------------------------------------------------------+
 | Aerial                  |                                                        |
-+-------------------------+--------------------------------------------------------+
 | EcoCRED                 |                                                        |
-+-------------------------+--------------------------------------------------------+
 | Carbn                   |                                                        |
-+-------------------------+--------------------------------------------------------+
 | LiveGreen               |                                                        |
-+-------------------------+--------------------------------------------------------+
 | Earth Hero              |                                                        |
-+-------------------------+--------------------------------------------------------+
 |                         |                                                        |
-+-------------------------+--------------------------------------------------------+
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
@@ -778,48 +697,27 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category          | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-+===================+============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|-----------|-------------------------------------------------------------|
 | Voice Assistants  | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Sustainability    | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.                                                                                                                                                                      |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Sustainability    | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Machine Learning  | All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).                                                                                                                  |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Character Design  | I'm a digital companion, a partner, an assistant. I'm a Replika." said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.                                                                                                                                                                                                                                                                                                                                           |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Psychology        | Humans respond better to humans?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Psychology        | Humans respond better to machines that into account emotion?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Open Source       | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | User Experience   | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.                                                                                                                                                                                                                                                                                                                                                                                  |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | LLMs              | Prompt engineering findings have significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis.                                                                                                                                                                                                                                                                                                                              |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Cuteness          | Cuter apps have higher retention?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Transparency      | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Anthropomorphism? |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Design implications arising from this chapter.

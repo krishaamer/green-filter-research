@@ -21,7 +21,7 @@ import Carbon from "/research/images/co2-concentration.png";
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Climate Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere. Image Credit: Scripps Institution of Oceanography at UC San Diego.](../images/co2-concentration.png)
+![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](../images/co2-concentration.png)
 :::
 
 ```{=mdx}
@@ -188,15 +188,15 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 There are 2 approaches to protecting nature
 
-+-------------------------------------+---------------------------------------------------------------------+
-| Economics of Nature Commodification | Economics of the Sacred                                             |
-+=====================================+=====================================================================+
-| Measure and assign value to nature  | Say nature is sacred, such as Churches, and can't be touched.       |
-+-------------------------------------+---------------------------------------------------------------------+
-|                                     | @eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018 |
-+-------------------------------------+---------------------------------------------------------------------+
-|                                     |                                                                     |
-+-------------------------------------+---------------------------------------------------------------------+
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Economics of Nature Commodification | Economics of the Sacred                                                                                                            |
++=====================================+====================================================================================================================================+
+| Measure and assign value to nature  | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                                     |                                                                                                                                    |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                                     |                                                                                                                                    |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 
@@ -503,23 +503,23 @@ Retiring CO~2~ allowances
 
 As of 2023 there isn't a single global CO~2~ trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| # CO~2~ Market           | # Launch Date | # Comments                                                                                                                                                                                     |       |
-|                          |               |                                                                                                                                                                                                |       |
-| European Union           | 2005          | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                          |               |                                                                                                                                                                                                |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| South Korea              | 2015          |                                                                                                                                                                                                |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| China                    | 2021          | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| United States of America | 2013          | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| New Zealand              | 2008          | New Zealand @rontardPoliticalConstructionCarbon2022 (need access, important ncku doesn't subscribe)                                                                                            |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| Canada                   | 2013          |                                                                                                                                                                                                |       |
-+--------------------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **CO~2~ Market**         | **Launch Date** | **Comments**                                                                                                                                                                                   |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| European Union           | 2005            | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                          |                 |                                                                                                                                                                                                |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| South Korea              | 2015            |                                                                                                                                                                                                |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| China                    | 2021            | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| United States of America | 2013            | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| New Zealand              | 2008            | New Zealand @rontardPoliticalConstructionCarbon2022 (need access, important ncku doesn't subscribe)                                                                                            |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Canada                   | 2013            |                                                                                                                                                                                                |
++--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : CO~2~ credit trading markets around the world from @InternationalCarbonMarket.
 
@@ -540,18 +540,18 @@ For the individual person, there's no direct access to CO~2~ markets, however th
 
 -   @igeniusLetTalkSustainable2020
 
-#### **Compliance** Markets
+#### Compliance Markets
 
-| **Compliance** Markets | Price (Tonne of CO~2~) |
-|------------------------|------------------------|
-| EU                     | 83 EUR                 |
-| UK                     | 40 Pounds              |
-| US (California)        | 29 USD                 |
-| Australia              | 32 USD                 |
-| New Zealand            | 50 USD                 |
-| South Korea            | 5.84 USD               |
-| China                  | 8.29 USD               |
-|                        |                        |
+| Compliance Markets | Price (Tonne of CO~2~) |
+|--------------------|------------------------|
+| EU                 | 83 EUR                 |
+| UK                 | 40 Pounds              |
+| US (California)    | 29 USD                 |
+| Australia          | 32 USD                 |
+| New Zealand        | 50 USD                 |
+| South Korea        | 5.84 USD               |
+| China              | 8.29 USD               |
+|                    |                        |
 
 : Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
 
@@ -640,7 +640,7 @@ Sustainability is filled with complexities, where CO~2~ emission is compounded b
 
 While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries [@climateanalyticsClimateActionTracker2023].
 
-| Country or Region    | **NDC target**          |
+| Country or Region    | NDC target              |
 |----------------------|-------------------------|
 | China                | Highly insufficient     |
 | Indonesia            | Highly insufficient     |
