@@ -82,7 +82,15 @@ The needed investment doesn't seem so large, around 2.5-5.2 % of the global GDP,
 
 The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
+### Is Decoupling Economic Growth and CO2e Emissions Possible?
+
+-   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
+-   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fell 43% from 1990 to 2017 through use of less carbon-intensive energy sources and thu argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020] while [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeline.
+-   Green Growth Is Green Growth an oxymoron?
+
 #### New Metrics
+
+-   In taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].
 
 Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
@@ -98,7 +106,7 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 We should measure wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
 
--   Trucost, a company lauched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; m@ikehowerTrucostTruValueLabs2015;@indicesDowJonesIndices2016; @RollsOutTrucost2019]. 
+-   Trucost, a company lauched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015;@indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 -   @trucostNaturalCapitalRisk2023 finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
 
@@ -261,6 +269,10 @@ There are many different certifications
 -   Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023
 
 -   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores."
+
+-   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.
+
+-   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
 -   Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
@@ -560,6 +572,8 @@ Building customer loyalty is a key part of repeat business and financial predict
 ### Consumer Activism
 
 Conscious consumers make up a small percentage of the entire consumer public.
+
+[@milneMindfulConsumptionThree2020] coins the term mindful consumers, who do research and are aware of the impact of their shopping choices.
 
 #### Individual Climate Action is Ineffective
 
@@ -934,7 +948,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   ESG companies don't emit less CO2 than non-ESG companies.
 
--   https://www.openesg.com/ because you can't trust ESG @aikmanESGDAOOut2022 !
+-   https://www.openesg.com/ because you can't trust ESG [@aikmanESGDAOOut2022] !
 
 -   ESG is filled with greenwashing
 
@@ -955,6 +969,8 @@ There's literature suggesting it's possible to make investments that both make a
 -   @margarytakirakosianMethodologiesAreAll2022 suggests "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy."
 
 -   Trading ESG futures?? because climate is slow it makes sense to trade de climate future
+
+-   CFI2Z4 tracks Carbon Emissions Futures [@investing.comCarbonEmissionsFutures2024]
 
 -   While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
 
