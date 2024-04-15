@@ -77,7 +77,7 @@ Protecting biodiversity
 
 +-----------------------------------------------+----------------------------+
 | What Happened?                                | How Much?                  |
-+===============================================+============================+
++-----------------------------------------------+----------------------------+
 | Vertebrate species population average decline | 68% over the last 50 years |
 +-----------------------------------------------+----------------------------+
 | Land surface altered by humans                | 70% of Earth               |
@@ -96,8 +96,9 @@ Protecting biodiversity
 
 Consumer lifestyle contributes to environmental destruction. According to @ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019's models show 45% of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume. A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" @undpPeoplesClimateVote2021. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. @deyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
-| Age Group | Agree | Neutral or Disagree |
+|           |       |                     |
 |-----------|-------|---------------------|
+| Age Group | Agree | Neutral or Disagree |
 | 18-35     | 65%   | 35%                 |
 | 36-59     | 66%   | 34%                 |
 | Over 69   | 58%   | 42%                 |
@@ -173,8 +174,9 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 -   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 -   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
 
-| 9 Steps                                        |
+|                                                |
 |------------------------------------------------|
+| 9 Steps                                        |
 | Identify ecosystem functions                   |
 | Quantify ecosystem functions                   |
 | Identify ecosystem services                    |
@@ -190,7 +192,7 @@ There are 2 approaches to protecting nature
 
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Economics of Nature Commodification | Economics of the Sacred                                                                                                            |
-+=====================================+====================================================================================================================================+
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Measure and assign value to nature  | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 |                                     |                                                                                                                                    |
@@ -270,12 +272,17 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 
 -   @mobergMobilityFoodHousing2019 reports daily human activities emission contribution on average in four European countries (France, Germany, Norway and Sweden).
 
-| Emission Share | Category |
-|----------------|----------|
-| 21%            | Housing  |
-| 30%            | Food     |
-| 34%            | Mobility |
-| 15%            | Other    |
++-----------------------------------+-----------------------------------+
+| Emission Share                    | Category                          |
++-----------------------------------+-----------------------------------+
+| 21%                               | Housing                           |
++-----------------------------------+-----------------------------------+
+| 30%                               | Food                              |
++-----------------------------------+-----------------------------------+
+| 34%                               | Mobility                          |
++-----------------------------------+-----------------------------------+
+| 15%                               | Other                             |
++-----------------------------------+-----------------------------------+
 
 : Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
 
@@ -308,7 +315,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 
 +----------------------+---------------------------------------------------------------------------------------+
 | View                 |                                                                                       |
-+======================+=======================================================================================+
++----------------------+---------------------------------------------------------------------------------------+
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
 +----------------------+---------------------------------------------------------------------------------------+
 | Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
@@ -452,7 +459,7 @@ Data about green house gas emissions.
 
 +-----------------------------------------------+-------------------------------------+--------------------------------+
 | Regional Avergage Per Capita Emissions (2020) | Highest Per Capita Emissions (2021) | Highest Total Emissions (2021) |
-+===============================================+=====================================+================================+
++-----------------------------------------------+-------------------------------------+--------------------------------+
 | North America 13.4 CO~2~e tonnes              | Palau                               | China                          |
 +-----------------------------------------------+-------------------------------------+--------------------------------+
 | Europe 7.5 CO~2~e tonnes                      | Qatar                               | United States                  |
@@ -503,23 +510,23 @@ Retiring CO~2~ allowances
 
 As of 2023 there isn't a single global CO~2~ trading market but rather several local markets as described in the table below @InternationalCarbonMarket.
 
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **CO~2~ Market**         | **Launch Date** | **Comments**                                                                                                                                                                                   |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| European Union           | 2005            | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                          |                 |                                                                                                                                                                                                |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| South Korea              | 2015            |                                                                                                                                                                                                |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| China                    | 2021            | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| United States of America | 2013            | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| New Zealand              | 2008            | New Zealand @rontardPoliticalConstructionCarbon2022 (need access, important ncku doesn't subscribe)                                                                                            |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Canada                   | 2013            |                                                                                                                                                                                                |
-+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CO~2~ Market             | Launch Date | Comments                                                                                                                                                                                       |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| European Union           | 2005        | EU: @araujoEuropeanUnionMembership2020                                                                                                                                                         |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                          |             |                                                                                                                                                                                                |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| South Korea              | 2015        |                                                                                                                                                                                                |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| China                    | 2021        | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| United States of America | 2013        | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont                           |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| New Zealand              | 2008        | New Zealand @rontardPoliticalConstructionCarbon2022 (need access, important ncku doesn't subscribe)                                                                                            |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Canada                   | 2013        |                                                                                                                                                                                                |
++--------------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : CO~2~ credit trading markets around the world from @InternationalCarbonMarket.
 
@@ -539,11 +546,13 @@ For the individual person, there's no direct access to CO~2~ markets, however th
 @sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO~2~ prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently. @ritzGlobalCarbonPrice2022 argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
 
 -   @igeniusLetTalkSustainable2020
+-   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO2e trading [@lsegGlobalCarbonMarkets2024].
 
 #### Compliance Markets
 
-| Compliance Markets | Price (Tonne of CO~2~) |
+|                    |                        |
 |--------------------|------------------------|
+| Compliance Markets | Price (Tonne of CO~2~) |
 | EU                 | 83 EUR                 |
 | UK                 | 40 Pounds              |
 | US (California)    | 29 USD                 |
@@ -570,8 +579,9 @@ There are many companies which facilitate buy carbon credits as well as a few or
 -   Methodologies: @MethodologyGHGCoBenefits2022
 -   @klimadaoOpenCallAlternative2023 call for an open standard
 
-| Voluntary Markets        | Price (Tonne of CO~2~) |
+|                          |                        |
 |--------------------------|------------------------|
+| Voluntary Markets        | Price (Tonne of CO~2~) |
 | Aviation Industry Offset | \$0.93                 |
 | Nature Based Offset      | \$1.80                 |
 | Tech Based Offset        | \$0.77                 |
@@ -600,8 +610,9 @@ There's ample evidence from several countries suggesting moving to renewal energ
 
 The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
 
-| Emission Scope | Emission Source                |
+|                |                                |
 |----------------|--------------------------------|
+| Emission Scope | Emission Source                |
 | Scope 1        | Direct emissions               |
 | Scope 2        | Indirect electricity emissions |
 | Scope 3        | Value chain emissions          |
@@ -640,8 +651,9 @@ Sustainability is filled with complexities, where CO~2~ emission is compounded b
 
 While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries [@climateanalyticsClimateActionTracker2023].
 
-| Country or Region    | NDC target              |
+|                      |                         |
 |----------------------|-------------------------|
+| Country or Region    | NDC target              |
 | China                | Highly insufficient     |
 | Indonesia            | Highly insufficient     |
 | Russia               | Critically insufficient |
@@ -777,8 +789,9 @@ It's up to legislators to provide sustainable products on our marketplace... but
 
 A large part of the proposal by @commissionEcodesignYourFuture2014 is ***eco-design***, as a large part of product lifecycle environmental impact is defined in the design process.
 
-| Quality    |                   |                    |
+|            |                   |                    |
 |------------|-------------------|--------------------|
+| Quality    |                   |                    |
 | Durable    | Reparable         | Easy to recycle    |
 | Reusable   | Easy to maintain  | Energy efficient   |
 | Upgradable | Easy to refurbish | Resource efficient |
@@ -910,7 +923,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category         | Implication                                                                                                                                                                                                                                                                                |
-+==================+============================================================================================================================================================================================================================================================================================+
++------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Transparency     | In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions. |
 |                  |                                                                                                                                                                                                                                                                                            |
 | Speed            |                                                                                                                                                                                                                                                                                            |
