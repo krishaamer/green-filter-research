@@ -12,7 +12,7 @@ suppress-bibliography: true
 
 
 ```{python}
-from data.personas import treemap
+from data.personas import treemap, show_personas
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -21,6 +21,10 @@ Personas are created using K-means clustering, an unsupervised machine learning 
 
 
 ## Clustering Students to Build 3 Personas
+
+```{python}
+show_personas()
+```
 
 
 ### Persona 1: "Eco-Friendly"

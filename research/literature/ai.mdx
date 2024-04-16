@@ -12,6 +12,774 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<caption>Table summarizing some problems with contemporary AIs.</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Problem</td>
+<td>Description</td>
+</tr>
+<tr class="even">
+<td>Monolithicity</td>
+<td>LLMs are massive monolithic models requiring large amounts of computing power for training to offer <strong><em>multi-modal</em></strong> <strong><em>capabilities</em></strong> across diverse domains of knowledge, making training such models possible for very few companies. <span class="citation" data-cites="liuPrismerVisionLanguageModel2023">@liuPrismerVisionLanguageModel2023</span> proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.</td>
+</tr>
+<tr class="odd">
+<td>Opaqueness</td>
+<td>LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are <em><strong>hallucinations</strong>,</em> the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard (now renamed to Gemini): “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”</td>
+</tr>
+<tr class="even">
+<td>Biases and Prejudices</td>
+<td>AI bias is well-documented and a hard problem to solve <span class="citation" data-cites="liangGPTDetectorsAre2023">[@liangGPTDetectorsAre2023]</span>. <strong>Humans don’t necessarily correct mistakes made by computers and may instead become “partners in crime”</strong> <span class="citation" data-cites="krugelAlgorithmsPartnersCrime2023">[@krugelAlgorithmsPartnersCrime2023]</span>. People are prone to bias and prejudice. It’s a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.</td>
+</tr>
+<tr class="odd">
+<td>Missing Data</td>
+<td>LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics <span class="citation" data-cites="Liu_LlamaIndex_2022">[@Liu_LlamaIndex_2022]</span>.</td>
+</tr>
+<tr class="even">
+<td>Lack of Legislation</td>
+<td><span class="citation" data-cites="anderljungFrontierAIRegulation2023">@anderljungFrontierAIRegulation2023</span> OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It’s difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 <span class="citation" data-cites="browneBritainHostWorld2023">@browneBritainHostWorld2023</span>.</td>
+</tr>
+</tbody>
+</table>
+Table summarizing some problems with contemporary AIs.
+`,`
+<table>
+<caption>Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 <span class="citation" data-cites="brown2020language tamkin2021 alvarezGenerateChatbotTraining2021 hinesOpenAIFilesTrademark2023">[@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023]</span>.</caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 27%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>AI Model</th>
+<th>Released</th>
+<th>Company</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GPT-1</td>
+<td>2018</td>
+<td>OpenAI</td>
+<td>Open Source</td>
+</tr>
+<tr class="even">
+<td>GTP-2</td>
+<td>2019</td>
+<td>OpenAI</td>
+<td>Open Source</td>
+</tr>
+<tr class="odd">
+<td>Turing-NLG</td>
+<td>2020</td>
+<td>Microsoft</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>GPT-3</td>
+<td>2020</td>
+<td>OpenAI</td>
+<td>Open Source</td>
+</tr>
+<tr class="odd">
+<td>GPT-3.5</td>
+<td>2022</td>
+<td>OpenAI</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>GPT-4</td>
+<td>2023</td>
+<td>OpenAI</td>
+<td>Proprietary</td>
+</tr>
+<tr class="odd">
+<td>AlexaTM</td>
+<td>2022</td>
+<td>Amazon</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>NeMo</td>
+<td>2022</td>
+<td>NVIDIA</td>
+<td>Open Source</td>
+</tr>
+<tr class="odd">
+<td>PaLM</td>
+<td>2022</td>
+<td>Google</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>LaMDA</td>
+<td>2022</td>
+<td>Google</td>
+<td>Proprietary</td>
+</tr>
+<tr class="odd">
+<td>GLaM</td>
+<td>2022</td>
+<td>Google</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>BLOOM</td>
+<td>2022</td>
+<td>Hugging Face</td>
+<td>Open Source</td>
+</tr>
+<tr class="odd">
+<td>Falcon</td>
+<td>2023</td>
+<td>Technology Innovation Institute</td>
+<td>Open Source</td>
+</tr>
+<tr class="even">
+<td>Tongyi</td>
+<td>2023</td>
+<td>Alibaba</td>
+<td>Proprietary</td>
+</tr>
+<tr class="odd">
+<td>Vicuna</td>
+<td>2023</td>
+<td>Sapling</td>
+<td>Open Source</td>
+</tr>
+<tr class="even">
+<td>Wu Dao 3</td>
+<td>2023</td>
+<td>BAAI</td>
+<td>Open Source</td>
+</tr>
+<tr class="odd">
+<td>PaLM-2</td>
+<td>2023</td>
+<td>Google</td>
+<td>Proprietary</td>
+</tr>
+<tr class="even">
+<td>Claude 3</td>
+<td>2024</td>
+<td>Anthropic</td>
+<td>Proprietary</td>
+</tr>
+<tr class="odd">
+<td>Mistral Large</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gemini 1.5</td>
+<td>2024</td>
+<td>Google</td>
+<td>Proprietary</td>
+</tr>
+<tr class="odd">
+<td>GPT-5</td>
+<td>202?</td>
+<td>OpenAI</td>
+<td>Unknown; trademark registered</td>
+</tr>
+</tbody>
+</table>
+Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 \[@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023\].
+`,`
+<table>
+<caption>Examples of human-in-the-loop apps</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>App</th>
+<th>Category</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Welltory</td>
+<td>Health</td>
+<td>Health data analysis</td>
+</tr>
+<tr class="even">
+<td>Wellue</td>
+<td>Health</td>
+<td>Heart arrhythmia detection</td>
+</tr>
+<tr class="odd">
+<td>QALY</td>
+<td>Health</td>
+<td>Heart arrhythmia detection</td>
+</tr>
+<tr class="even">
+<td>Starship Robots</td>
+<td>Delivery</td>
+<td>May ask for human help when crossing a difficult road or other confusing situation</td>
+</tr>
+</tbody>
+</table>
+Examples of human-in-the-loop apps
+`,`
+<table>
+<caption>A very small illustration of generative AI usage across disparate fields of human life.</caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field of Usage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Shipping</td>
+<td><span class="citation" data-cites="veitchSystematicReviewHumanAI2022">@veitchSystematicReviewHumanAI2022</span> highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems.</td>
+</tr>
+<tr class="even">
+<td>Data Summarizaton</td>
+<td>AI is great at summarizing and analyzing data<span class="citation" data-cites="petersGoogleChromeWill2023">[@petersGoogleChromeWill2023 @tuWhatShouldData2023]</span></td>
+</tr>
+<tr class="odd">
+<td>Childcare</td>
+<td>Generate personalized bedtime stories</td>
+</tr>
+<tr class="even">
+<td>Design Tools</td>
+<td><span class="citation" data-cites="DavidHoangHow2024">@DavidHoangHow2024</span></td>
+</tr>
+</tbody>
+</table>
+A very small illustration of generative AI usage across disparate fields of human life.
+`,`
+<table>
+<caption>Replika AI users approach to interacting with the AI friend from <span class="citation" data-cites="jiangChatbotEmergencyExist2022">@jiangChatbotEmergencyExist2022</span>.</caption>
+<thead>
+<tr class="header">
+<th>How humans express empathy towards the Replika AI companion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Companion buddy</td>
+</tr>
+<tr class="even">
+<td>Responsive diary</td>
+</tr>
+<tr class="odd">
+<td>Emotion-handling program</td>
+</tr>
+<tr class="even">
+<td>Electronic pet</td>
+</tr>
+<tr class="odd">
+<td>Tool for venting</td>
+</tr>
+</tbody>
+</table>
+Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022.
+`,`
+<table>
+<caption>Microsoft’s heuristics categorized by context and time.</caption>
+<thead>
+<tr class="header">
+<th>Context</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Initially</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>During interaction</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>When wrong</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Over time</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+Microsoft’s heuristics categorized by context and time.
+`,`
+<table>
+<thead>
+<tr class="header">
+<th>UX</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Useful</td>
+</tr>
+<tr class="even">
+<td>Valuable</td>
+</tr>
+<tr class="odd">
+<td>Usable</td>
+</tr>
+<tr class="even">
+<td>Acessible</td>
+</tr>
+<tr class="odd">
+<td>Findable</td>
+</tr>
+<tr class="even">
+<td>Desirable</td>
+</tr>
+<tr class="odd">
+<td>Credible</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table style="width:100%;">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 26%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reduce the time to task</td>
+<td>Make the task easier</td>
+<td>Personalize the experience for an individual</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Charisma</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Replika</td>
+<td>Avatar, Emotion, Video Call, Audio</td>
+</tr>
+<tr class="odd">
+<td>Siri</td>
+<td>Audio</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<caption>Some notable examples of anthropomorphic AIs for human emotions.</caption>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Anthropomorphic AI User Interfaces</th>
+<th>Non-Anthropomorphic AI User Interfaces</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI wife <span class="citation" data-cites="MyWifeDead2023">[@MyWifeDead2023]</span></td>
+<td>Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders <span class="citation" data-cites="constandseHowAIdrivenWebsite2018">[@constandseHowAIdrivenWebsite2018]</span></td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="sarahperezCharacterAIA16zbacked2023">[@sarahperezCharacterAIA16zbacked2023]</span> character AI</td>
+<td>AI tools for web designers <span class="citation" data-cites="patrizia-slongoAIpoweredToolsWeb2020">[@patrizia-slongoAIpoweredToolsWeb2020]</span></td>
+</tr>
+<tr class="odd">
+<td>mourning ‘dead’ AI <span class="citation" data-cites="phoebearslanagic-wakefieldReplikaUsersMourn">[@phoebearslanagic-wakefieldReplikaUsersMourn]</span></td>
+<td>Microsoft Designer allows generating UIs just based on a text prompt <span class="citation" data-cites="microsoftMicrosoftDesignerStunning2023">[@microsoftMicrosoftDesignerStunning2023]</span></td>
+</tr>
+<tr class="even">
+<td>AI for therapy <span class="citation" data-cites="broderickPeopleAreUsing2023">[@broderickPeopleAreUsing2023]</span></td>
+<td>personalized bed-time stories for kids generated by AI <span class="citation" data-cites="bedtimestory.aiAIPoweredStory2023">[@bedtimestory.aiAIPoweredStory2023]</span></td>
+</tr>
+<tr class="odd">
+<td>Mental health uses: AI for bullying <span class="citation" data-cites="sungParentsWorryTeens2023">[@sungParentsWorryTeens2023]</span></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+Some notable examples of anthropomorphic AIs for human emotions.
+`,`
+<table style="width:100%;">
+<caption>AIs in different forms of media.</caption>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Movie / Series / Game / Book</th>
+<th>Character</th>
+<th>Positive</th>
+<th>Ambivalent</th>
+<th>Negative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2001: A Space Odyssey</td>
+<td>HAL 9000</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="even">
+<td>Her</td>
+<td>Samantha</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Alien</td>
+<td>MU/TH/UR 6000 (Mother)</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Terminator</td>
+<td>Skynet</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Summer Wars</td>
+<td>Love Machine</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="even">
+<td>Marvel Cinematic Universe</td>
+<td>Jarvis, Friday</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Knight Rider</td>
+<td>KITT</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>CARR</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Star Trek</td>
+<td>Data</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Lore</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Ex Machina</td>
+<td>Kyoko</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Ava</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Tron</td>
+<td>Tron</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Neuromancer</td>
+<td>Wintermute</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>The Caves of Steel / Naked Sun</td>
+<td>R. Daneel Olivaw</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>The Robots of Dawn</td>
+<td>R. Giskard Reventlov</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Portal</td>
+<td>GLaDOS</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+AIs in different forms of media.
+`,`
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 41%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Product</th>
+<th>Link</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Github CoPilot</td>
+<td>personal.ai</td>
+<td>AI helper for coding</td>
+</tr>
+<tr class="even">
+<td>Google Translate</td>
+<td>translate.google.com</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Google Search</td>
+<td>google.com</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Google Interview Warmup</td>
+<td>grow.google/certificates/interview-warmup</td>
+<td>AI training tool</td>
+</tr>
+<tr class="odd">
+<td>Perplexity</td>
+<td><span class="citation" data-cites="hinesPerplexityAnnouncesAI2023">@hinesPerplexityAnnouncesAI2023</span></td>
+<td>perplexity.ai chat-based search</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<caption>A selection of personal sustainability apps. See <em>greenfilter.app</em> for an updated database.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>App</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Commons (Formerly Joro)</td>
+<td>Finacial Sustainability Tracking + Sustainable Actions</td>
+</tr>
+<tr class="even">
+<td>Klima</td>
+<td>Offset Subscription</td>
+</tr>
+<tr class="odd">
+<td>Wren</td>
+<td>Offset Subscription</td>
+</tr>
+<tr class="even">
+<td>JouleBug</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>eevie</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Aerial</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>EcoCRED</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Carbn</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LiveGreen</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Earth Hero</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
+`,`
+<table>
+<caption>Design implications arising from this chapter.</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Voice Assistants</td>
+<td>There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.</td>
+</tr>
+<tr class="even">
+<td>Sustainability</td>
+<td>While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.</td>
+</tr>
+<tr class="odd">
+<td>Sustainability</td>
+<td>Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?</td>
+</tr>
+<tr class="even">
+<td>Machine Learning</td>
+<td>All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).</td>
+</tr>
+<tr class="odd">
+<td>Character Design</td>
+<td>I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.</td>
+</tr>
+<tr class="even">
+<td>Psychology</td>
+<td>Humans respond better to humans?</td>
+</tr>
+<tr class="odd">
+<td>Psychology</td>
+<td>Humans respond better to machines that into account emotion?</td>
+</tr>
+<tr class="even">
+<td>Open Source</td>
+<td>For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.</td>
+</tr>
+<tr class="odd">
+<td>User Experience</td>
+<td>User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.</td>
+</tr>
+<tr class="even">
+<td>LLMs</td>
+<td>Prompt engineering findings have significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.</td>
+</tr>
+<tr class="odd">
+<td>Cuteness</td>
+<td>Cuter apps have higher retention?</td>
+</tr>
+<tr class="even">
+<td>Transparency</td>
+<td>Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human</td>
+</tr>
+<tr class="odd">
+<td>Anthropomorphism?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+Design implications arising from this chapter.
+`];
+
 ````mdx-code-block
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility-heuristic-systematic-model.png'
@@ -188,16 +956,7 @@ Research Center (Anon., 2023b).
 (Christiano, 2023) believes there are plenty of ways for bad outcomes
 (existential risk) even without extinction risk.
 
-|                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|------------|------------------------------------------------------------|
-| Problem               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Monolithicity         | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. Liu, S. et al. (2023) proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                               |
-| Opaqueness            | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard (now renamed to Gemini): “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?” |
-| Biases and Prejudices | AI bias is well-documented and a hard problem to solve (Liang, W. et al., 2023). **Humans don’t necessarily correct mistakes made by computers and may instead become “partners in crime”** (Krügel, Ostermaier and Uhl, 2023). People are prone to bias and prejudice. It’s a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                       |
-| Missing Data          | LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics (Liu, J., 2022).                                                                                                                                                                                                                                                                                                                                        |
-| Lack of Legislation   | Anderljung et al. (2023) OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It’s difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 Browne (2023).                                                                                                                                                                                                                                                                                                                                                                                 |
-
-Table summarizing some problems with contemporary AIs.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 Foundation data-sets such as LAION-5B (Romain Beaumont, 2022; Schuhmann
 et al., 2022)
@@ -224,33 +983,12 @@ ideas.
 Red-teaming means pushing the limits of LLMs, trying to get them to
 produce outputs that are racist, false, or otherwise unhelpful.
 
-| AI Model      | Released | Company                         | License                       |
-|----------------|----------------|---------------------|--------------------|
-| GPT-1         | 2018     | OpenAI                          | Open Source                   |
-| GTP-2         | 2019     | OpenAI                          | Open Source                   |
-| Turing-NLG    | 2020     | Microsoft                       | Proprietary                   |
-| GPT-3         | 2020     | OpenAI                          | Open Source                   |
-| GPT-3.5       | 2022     | OpenAI                          | Proprietary                   |
-| GPT-4         | 2023     | OpenAI                          | Proprietary                   |
-| AlexaTM       | 2022     | Amazon                          | Proprietary                   |
-| NeMo          | 2022     | NVIDIA                          | Open Source                   |
-| PaLM          | 2022     | Google                          | Proprietary                   |
-| LaMDA         | 2022     | Google                          | Proprietary                   |
-| GLaM          | 2022     | Google                          | Proprietary                   |
-| BLOOM         | 2022     | Hugging Face                    | Open Source                   |
-| Falcon        | 2023     | Technology Innovation Institute | Open Source                   |
-| Tongyi        | 2023     | Alibaba                         | Proprietary                   |
-| Vicuna        | 2023     | Sapling                         | Open Source                   |
-| Wu Dao 3      | 2023     | BAAI                            | Open Source                   |
-| PaLM-2        | 2023     | Google                          | Proprietary                   |
-| Claude 3      | 2024     | Anthropic                       | Proprietary                   |
-| Mistral Large |          |                                 |                               |
-| Gemini 1.5    | 2024     | Google                          | Proprietary                   |
-| GPT-5         | 202?     | OpenAI                          | Unknown; trademark registered |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
-Summary of 7 years of rapid AI model innovation since the first LLM was
-publicly made available in 2018 (Brown, T. B. et al., 2020; Alvarez,
-2021; Tamkin et al., 2021; Hines, 2023a).
+(Chiang et al., 2024; lmsys.org, 2024) open-source AI-leaderboard
+project has collected over 500 thousand human-ranking of outputs from 82
+large-language models, evaluating reasoning capabilities, which
+currently rate GPT-4 and Claude 3 Opus as the top-performers.
 
 Metacognition – Claude 3 is the first model capable of it?, like the
 zero waste workshop training guidebook.
@@ -282,14 +1020,7 @@ intelligence (Shahaf and Amir, 2007; Mühlhoff, 2019)
 -   Stanford Institute for Human-Centered Artificial Intelligence Ge
     Wang (2019)
 
-| App             | Category | Use Case                                                                           |
-|--------------|--------------|---------------------------------------------|
-| Welltory        | Health   | Health data analysis                                                               |
-| Wellue          | Health   | Heart arrhythmia detection                                                         |
-| QALY            | Health   | Heart arrhythmia detection                                                         |
-| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |
-
-Examples of human-in-the-loop apps
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 ## What Role Should The AI Take?
 
@@ -341,15 +1072,7 @@ across varied scientific disciplines. While the fields of application
 are diverse, some key lessons can be transferred horizontally across
 fields of knowledge.
 
-| Field of Usage    | Description                                                                                                                              |
-|---------------|---------------------------------------------------------|
-| Shipping          | Veitch and Andreas Alsos (2022) highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
-| Data Summarizaton | AI is great at summarizing and analyzing dataTu et al. (2023)                                                                            |
-| Childcare         | Generate personalized bedtime stories                                                                                                    |
-| Design Tools      | Anon. (2024)                                                                                                                             |
-
-A very small illustration of generative AI usage across disparate fields
-of human life.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   Crompton (2021) highlights AI as decision-support for humans while
     differentiating between ***intended*** and ***unintended***
@@ -480,7 +1203,7 @@ On the output side, Lv et al. (2022) studies the effect of
 correlated with higher willingness to use the apps, especially for
 emotional tasks.
 
--   Liu, B. and Wei (2021) meanwhile suggests higher ***algorithmic
+-   Liu and Wei (2021) meanwhile suggests higher ***algorithmic
     transparency may inhibit anthropomorphism.*** People are less likely
     to attribute humanness to the AI if they understand how the system
     works.
@@ -511,16 +1234,7 @@ computer model trained to be your companion in daily life. (Jiang, Zhang
 and Pian, 2022) describes how Replika users in China using in 5 main
 ways, all of which rely on empathy.
 
-| How humans express empathy towards the Replika AI companion |
-|-------------------------------------------------------------|
-| Companion buddy                                             |
-| Responsive diary                                            |
-| Emotion-handling program                                    |
-| Electronic pet                                              |
-| Tool for venting                                            |
-
-Replika AI users approach to interacting with the AI friend from Jiang,
-Zhang and Pian (2022).
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   Google is developing an AI assistant for giving life advice Goswami
     (2023).
@@ -604,14 +1318,7 @@ Microsoft provides guidelines for Human-AI interaction (Li, T. et al.
 (2022); Amershi et al. (2019)) which provides useful heuristics
 categorized by context and time.
 
-| Context            | Time |
-|--------------------|------|
-| Initially          |      |
-| During interaction |      |
-| When wrong         |      |
-| Over time          |      |
-
-Microsoft’s heuristics categorized by context and time.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI
 based on Interpretability, Understandability, Usability, and Usefulness.
@@ -725,21 +1432,11 @@ based on Interpretability, Understandability, Usability, and Usefulness.
 
 How do the tenets of user experience (UX) apply to AI?
 
-| UX        |
-|-----------|
-| Useful    |
-| Valuable  |
-| Usable    |
-| Acessible |
-| Findable  |
-| Desirable |
-| Credible  |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 Gupta (2023) proposes 3 simple goals for AI:
 
-| 1                       | 2                    | 3                                            |
-|--------------------|-------------------|----------------------------------|
-| Reduce the time to task | Make the task easier | Personalize the experience for an individual |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
 ### Explainable AI
 
@@ -763,7 +1460,7 @@ acceptance***.
 Bowman (2023) says steering Large Language Models is unreliable; even
 experts don’t fully understand the inner workings of the models. Work
 towards improving both ***AI steerability*** and ***AI alignment***
-(doing what humans expect) is ongoing. Liang, P. et al. (2022) believes
+(doing what humans expect) is ongoing. Liang et al. (2022) believes
 there’s early evidence it’s possible to assess the quality of LLM output
 transparently. Cabitza et al. (2023) proposes a framework for quality
 criteria and explainability of AI-expressions. Khosravi et al. (2022)
@@ -889,11 +1586,7 @@ analyzing medical data.
     utilitarian and hedonic value are affected differently by social
     anxiety.”
 
-| Name     | Features                           |
-|----------|------------------------------------|
-| Charisma |                                    |
-| Replika  | Avatar, Emotion, Video Call, Audio |
-| Siri     | Audio                              |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
 
 ### How Does AI Affect Human-Computer Interactions?
 
@@ -988,15 +1681,7 @@ Should AIs look anthropomorphic or fade in the background? It’s an open
 question. Perhaps we can expect a mix of both depending on the context
 of use and goals of the particular AI.
 
-| Anthropomorphic AI User Interfaces                     | Non-Anthropomorphic AI User Interfaces                                                                                                  |
-|-----------------------|-------------------------------------------------|
-| AI wife (Anon., 2023c)                                 | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders (Constandse, 2018) |
-| (Sarah Perez, 2023) character AI                       | AI tools for web designers (patrizia-slongo, 2020)                                                                                      |
-| mourning ‘dead’ AI (Phoebe Arslanagić-Wakefield, n.d.) | Microsoft Designer allows generating UIs just based on a text prompt (Microsoft, 2023)                                                  |
-| AI for therapy (Broderick, 2023)                       | personalized bed-time stories for kids generated by AI (Bedtimestory.ai, 2023)                                                          |
-| Mental health uses: AI for bullying (Sung, 2023)       |                                                                                                                                         |
-
-Some notable examples of anthropomorphic AIs for human emotions.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
 -   (Costa and Silva, 2022) “Interaction Design for AI Systems”
 
@@ -1039,27 +1724,7 @@ and (comic) books. In most cases, they have a physical presence or a
 voice, so they could be visible for the viewers. Some include KITT
 (Knight Industries Two Thousand).
 
-| Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |
-|-------------------|--------------|--------------|--------------|--------------|
-| 2001: A Space Odyssey          | HAL 9000               |          |            | X        |
-| Her                            | Samantha               | X        |            |          |
-| Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |
-| Terminator                     | Skynet                 |          |            | X        |
-| Summer Wars                    | Love Machine           |          |            | X        |
-| Marvel Cinematic Universe      | Jarvis, Friday         | X        |            |          |
-| Knight Rider                   | KITT                   | X        |            |          |
-|                                | CARR                   |          |            | X        |
-| Star Trek                      | Data                   | X        |            |          |
-|                                | Lore                   |          |            | X        |
-| Ex Machina                     | Kyoko                  |          | X          |          |
-|                                | Ava                    |          | X          |          |
-| Tron                           | Tron                   |          | X          |          |
-| Neuromancer                    | Wintermute             |          | X          |          |
-| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |          | X          |          |
-| The Robots of Dawn             | R. Giskard Reventlov   |          | X          |          |
-| Portal                         | GLaDOS                 |          |            | X        |
-
-AIs in different forms of media.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
 
 ### Voice Assistants
 
@@ -1119,7 +1784,7 @@ think something is wrong.
 
 Likewise, inanimate objects with human form have had a role to play for
 adults too. Anthropomorphic paddle dolls have been found from Egyptian
-tombs dated 2000 years B.C. Anon. (2023d): We don’t know if these dolls
+tombs dated 2000 years B.C. Anon. (2023c): We don’t know if these dolls
 were for religious purposes, for play, or for something else, yet their
 burial with the body underlines their importance.
 
@@ -1217,13 +1882,7 @@ Google’s services, AI is hidden and calls no attention itself. It’s
 simply the complex system working behind the scenes to delivery a result
 in a barebones interface.
 
-| Product                 | Link                                      | Description                     |
-|-------------------|------------------------------|------------------------|
-| Github CoPilot          | personal.ai                               | AI helper for coding            |
-| Google Translate        | translate.google.com                      |                                 |
-| Google Search           | google.com                                |                                 |
-| Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool                |
-| Perplexity              | Hines (2023b)                             | perplexity.ai chat-based search |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
 
 ````mdx-code-block
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
@@ -1263,7 +1922,7 @@ relationship between emotions and financial AI.
 
 -   Lower (2017) “Chatbots: Too Good to Be True? (They Are, Here’sWhy).”
 
--   Brown, A. (2021) Financial chatbots
+-   Brown (2021) Financial chatbots
 
 -   Isabella Ghassemi Smith (2019)
 
@@ -1301,49 +1960,11 @@ Personal Carbon Trackers
 Similar to personal health trackers, personal CO<sub>2</sub> trackers
 help one track emissions and suggests sustainable actions.
 
-| App                     | Description                                            |
-|------------------------|------------------------------------------------|
-| Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
-| Klima                   | Offset Subscription                                    |
-| Wren                    | Offset Subscription                                    |
-| JouleBug                |                                                        |
-| eevie                   |                                                        |
-| Aerial                  |                                                        |
-| EcoCRED                 |                                                        |
-| Carbn                   |                                                        |
-| LiveGreen               |                                                        |
-| Earth Hero              |                                                        |
-|                         |                                                        |
-
-A selection of personal sustainability apps. See *greenfilter.app* for
-an updated database.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
 
 ## Design Implications
 
 This chapter looked at AI in general since its early history and then
 focused on AI assistants in particular.
 
-| Category          | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|------------|------------------------------------------------------------|
-| Voice Assistants  | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
-| Sustainability    | While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.                                                                                                                                                                      |
-| Sustainability    | Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
-| Machine Learning  | All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).                                                                                                                  |
-| Character Design  | I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.                                                                                                                                                                                                                                                                                                                                           |
-| Psychology        | Humans respond better to humans?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Psychology        | Humans respond better to machines that into account emotion?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Open Source       | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| User Experience   | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.                                                                                                                                                                                                                                                                                                                                                                                  |
-| LLMs              | Prompt engineering findings have significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.                                                                                                                                                                                                                                                                                                                              |
-| Cuteness          | Cuter apps have higher retention?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Transparency      | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Anthropomorphism? |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-
-Design implications arising from this chapter.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />

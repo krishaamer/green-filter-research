@@ -12,6 +12,7 @@ suppress-bibliography: true
 
 ```{python}
 from data.attitudes import likert_charts, correlation_network, correlation_chart
+from data.environment import ecosystem_sensitivity
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -27,4 +28,13 @@ likert_charts()
 ### Correlations Between Fields
 ```{python}
 correlation_network()
+```
+
+## Environment
+Attitudes towards the environment.
+
+### Ranking Experiment
+
+```{python}
+ecosystem_sensitivity()
 ```

@@ -12,6 +12,64 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 24%" />
+<col style="width: 24%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Product Idea</th>
+<th>Source</th>
+<th></th>
+<th>Prototype Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Speak Truth to Power</td>
+<td>Literature Review</td>
+<td>Consolidate user feedback for companies</td>
+<td>greenfilter.app/prototypes/truth-power</td>
+</tr>
+<tr class="even">
+<td>Shopping Divest</td>
+<td>Literature Review</td>
+<td>What if you could build communities based on what you buy?</td>
+<td>greenfilter.app/prototypes/shopping-divest</td>
+</tr>
+<tr class="odd">
+<td>True Cost</td>
+<td>Literature Review</td>
+<td>What if you could see the actual cost of each product including externalities?</td>
+<td>greenfilter.app/prototypes/true-cost-</td>
+</tr>
+<tr class="even">
+<td>Sunday Market</td>
+<td>Literature Review</td>
+<td>First prototype for going to the organic Sunday Market with friends.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYZ</td>
+<td>Expert Interview</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ABC</td>
+<td>User Survey</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+`];
+
 ````mdx-code-block
 import MyEmbed from '/src/components/Embed'
 ````
@@ -87,14 +145,7 @@ their expectations, standards and requirements?
     sustainability on a more nuanced level, like Apple Health, in order
     to encourage sustainable behavior?
 
-| Product Idea         | Source            |                                                                                | Prototype Link                             |
-|------------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
-| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
-| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
-| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
-| XYZ                  | Expert Interview  |                                                                                |                                            |
-| ABC                  | User Survey       |                                                                                |                                            |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 ## Affinity Diagrams
 

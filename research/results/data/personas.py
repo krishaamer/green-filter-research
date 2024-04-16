@@ -17,10 +17,10 @@ from data.fields.likert_flat_fields import likert_flat_fields
 df = pd.read_csv('data/clean.csv') 
 chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
 
-def show():
+def show_personas():
 
     # Prepare the data and perform clustering and PCA
-    df_clustered, pca, cluster_centers = prepare_data_for_pca(df)
+    df_clustered, pca, cluster_centers = prepare_data_for_pca()
 
     # Retain colors
     unique_clusters = df_clustered['Cluster'].unique()
@@ -54,11 +54,11 @@ def show():
         
         
     print(
-                f"<h2 style='text-align: center;'>Mean Answer Scores</h2>", unsafe_allow_html=True)
-    get_kmeans_table(df)
-    show_clustering_heatmap(df, chinese_font)
+                f"<h2 style='text-align: center;'>Mean Answer Scores</h2>")
+    get_kmeans_table()
+    show_clustering_heatmap()
     print(
-            f"<h2 style='text-align: center;'>Agreement between personas</h2>", unsafe_allow_html=True)
+            f"<h2 style='text-align: center;'>Agreement between personas</h2>")
     treemap()
 
 def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font, num_components=2, num_top_features=30):
@@ -79,7 +79,7 @@ def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_fon
     fig, ax = plt.subplots(figsize=(10, 15))
     ax.barh(top_features, top_loadings, color='skyblue')
     ax.set_xlabel('Loading', fontproperties=chinese_font)
-    print(f'<h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>', unsafe_allow_html=True)
+    print(f'<h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>')
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
 

@@ -16,6 +16,119 @@ CJKoptions:
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<caption>Current trends backing the relevance of this research project.</caption>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major Trending Themes (Supernarratives)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Increasing environmental degradation</td>
+</tr>
+<tr class="even">
+<td>Young people demand sustainability</td>
+</tr>
+<tr class="odd">
+<td>Intergenerational money transfer; relatively young people have money</td>
+</tr>
+<tr class="even">
+<td>Appearance of sustainability metrics and instruments such as ESG, B Corp, Green Bonds, etc</td>
+</tr>
+<tr class="odd">
+<td>Technology adoption and generative AI-based user interface availability</td>
+</tr>
+</tbody>
+</table>
+Current trends backing the relevance of this research project.
+`,`
+<table>
+<thead>
+<tr class="header">
+<th>Criteria</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Location</td>
+<td>Taiwan</td>
+</tr>
+<tr class="even">
+<td>Population</td>
+<td>College Students</td>
+</tr>
+<tr class="odd">
+<td>Count</td>
+<td>700</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<thead>
+<tr class="header">
+<th>Criteria</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Location</td>
+<td>Global</td>
+</tr>
+<tr class="even">
+<td>Population</td>
+<td>Experts</td>
+</tr>
+<tr class="odd">
+<td>Count</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<caption>Table of research questions.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 43%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>№</th>
+<th>Question</th>
+<th>Methods</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>How does environmental sustainability intersect with AI, design, and finance?</td>
+<td>Literature Review</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>How can AI assistants help college students participate in sustainable financial activism?</td>
+<td>Literature Review and Expert Interviews</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>What questions do college students prefer to ask a sustainability AI assistant?</td>
+<td>Student Survey</td>
+</tr>
+</tbody>
+</table>
+Table of research questions.
+`];
+
 ````mdx-code-block
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
@@ -34,15 +147,7 @@ If used wisely, money can help build communities of sustainable impact.
 This research is timely in 2023 because of the convergence of five
 trends:
 
-| Major Trending Themes (Supernarratives)                                                    |
-|------------------------------------------------------------------------|
-| Increasing environmental degradation                                                       |
-| Young people demand sustainability                                                         |
-| Intergenerational money transfer; relatively young people have money                       |
-| Appearance of sustainability metrics and instruments such as ESG, B Corp, Green Bonds, etc |
-| Technology adoption and generative AI-based user interface availability                    |
-
-Current trends backing the relevance of this research project.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 ## Research Background
 
@@ -97,30 +202,16 @@ prototype) informed by design research.
 
 My research targets respondents according to the following criteria.
 
-| Criteria   |                  |
-|------------|------------------|
-| Location   | Taiwan           |
-| Population | College Students |
-| Count      | 700              |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 Interviews with experts in finance and design, and a including a choice
 experiment between potential feature sets in consumption, savings, and
 investment.
 
-| Criteria   |         |
-|------------|---------|
-| Location   | Global  |
-| Population | Experts |
-| Count      | 5       |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 ## Research Questions
 
 My research aims to answer the following questions.
 
-| №   | Question                                                                                   | Methods                                 |
-|-------------------|-------------------------------|-----------------------|
-| 1   | What is the current state of AI and environmental sustainability?                          | Literature Review                       |
-| 2   | How can AI assistants help college students participate in sustainable financial activism? | Literature Review and Expert Interviews |
-| 3   | What do college students prefer to ask a sustainability AI assistant?                      | Student Survey                          |
-
-Table of research questions.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />

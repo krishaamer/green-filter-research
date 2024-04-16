@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-#import numpy as npy
-#from data.fields.likert_flat_fields import likert_flat_fields
-#from data.fields.boolean_fields import boolean_fields
 
 df = pd.read_csv('data/clean.csv') 
 chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
