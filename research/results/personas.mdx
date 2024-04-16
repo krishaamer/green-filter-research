@@ -14,6 +14,130 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Cluster</th>
+<th data-quarto-table-cell-role="th">如果你/妳懷疑你/妳要買的番茄可能是由強迫勞工（現代奴隸）採摘的，你/妳仍然會買它嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳關心食安嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳7年內買車嗎？🚘</th>
+<th data-quarto-table-cell-role="th">你/妳7年內買房嗎？🏡</th>
+<th data-quarto-table-cell-role="th">你/妳購物時知道產品環保嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳覺得認證環保的公司更好嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳支持肉稅嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳關心食用雞的生活嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳避免吃肉嗎？</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">你/妳知道許多植物和動物的名字嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳感覺自己和大自然很接近嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳努力實踐低碳生活嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳想做更多環保事嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳對環境相關政治議題有興趣嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳信任碳排放抵消額度嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳的環保行動對環境保護有效果嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳想在行業內推環保嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳得自己對新觀念開放嗎？</th>
+<th data-quarto-table-cell-role="th">你/妳的大學對可環保性支持嗎？</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>0</td>
+<td>2.026906</td>
+<td>3.991031</td>
+<td>2.206278</td>
+<td>1.663677</td>
+<td>3.681614</td>
+<td>4.300448</td>
+<td>3.434978</td>
+<td>3.533632</td>
+<td>2.269058</td>
+<td>...</td>
+<td>3.381166</td>
+<td>3.457399</td>
+<td>3.426009</td>
+<td>4.264574</td>
+<td>3.820628</td>
+<td>3.210762</td>
+<td>3.645740</td>
+<td>3.730942</td>
+<td>4.403587</td>
+<td>4.210762</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>1</td>
+<td>2.106742</td>
+<td>3.516854</td>
+<td>3.898876</td>
+<td>2.904494</td>
+<td>3.140449</td>
+<td>4.028090</td>
+<td>2.943820</td>
+<td>3.117978</td>
+<td>1.685393</td>
+<td>...</td>
+<td>2.814607</td>
+<td>3.039326</td>
+<td>2.808989</td>
+<td>3.679775</td>
+<td>3.101124</td>
+<td>2.865169</td>
+<td>3.202247</td>
+<td>3.117978</td>
+<td>4.016854</td>
+<td>3.719101</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>2</td>
+<td>2.214286</td>
+<td>3.225000</td>
+<td>1.575000</td>
+<td>1.282143</td>
+<td>2.853571</td>
+<td>3.864286</td>
+<td>2.642857</td>
+<td>2.610714</td>
+<td>1.600000</td>
+<td>...</td>
+<td>2.453571</td>
+<td>2.521429</td>
+<td>2.446429</td>
+<td>3.364286</td>
+<td>2.739286</td>
+<td>2.664286</td>
+<td>2.792857</td>
+<td>2.878571</td>
+<td>3.850000</td>
+<td>3.500000</td>
+</tr>
+</tbody>
+</table>
+`,`
+<p>3 rows × 37 columns</p>
+</div>`];
+
+# Personas
+
+## Clustering Students to Build 3 Personas
+
 Personas are created using K-means clustering, an unsupervised machine
 learning algorithm, which clusters college students based on their
 responses across 36 Likert-scale fields in the online survey. Clusters
@@ -22,19 +146,19 @@ principal component loadings on the X and Y axes represent the weights
 of the original Likert-scale fields, transformed into the principal
 components that capture the most variance.
 
-## Clustering Students to Build 3 Personas
+-   There is some similarity between clusters. All 3 personas report a
+    high level of financial anxiety and below-average satisfaction with
+    their financial literacy.
 
 ![](personas_files/figure-markdown_strict/cell-3-output-1.png)
 
 ### Persona 1: “Eco-Friendly”
 
+![](personas_files/figure-markdown_strict/cell-4-output-1.png)
+
 ``` text
-<h2 style="text-align: center;">Persona 1: "Eco-Friendly"</h2>
-desc 1
 <h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>
 ```
-
-![](personas_files/figure-markdown_strict/cell-4-output-2.png)
 
 ![](personas_files/figure-markdown_strict/cell-4-output-3.png)
 
@@ -46,13 +170,11 @@ Questions Most Affecting Persona Creation
 
 ### Persona 2: “Moderate”
 
+![](personas_files/figure-markdown_strict/cell-5-output-1.png)
+
 ``` text
-<h2 style="text-align: center;">Persona 2: "Moderate"</h2>
-desc 2
 <h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>
 ```
-
-![](personas_files/figure-markdown_strict/cell-5-output-2.png)
 
 ![](personas_files/figure-markdown_strict/cell-5-output-3.png)
 
@@ -64,13 +186,11 @@ Questions Most Affecting Persona Creation
 
 ### Persona 3: “Frugal”
 
+![](personas_files/figure-markdown_strict/cell-6-output-1.png)
+
 ``` text
-<h2 style="text-align: center;">Persona 3: "Frugal"</h2>
-desc 3
 <h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>
 ```
-
-![](personas_files/figure-markdown_strict/cell-6-output-2.png)
 
 ![](personas_files/figure-markdown_strict/cell-6-output-3.png)
 
@@ -86,35 +206,13 @@ Questions Most Affecting Persona Creation
 
 ### Mean Answer Scores
 
-``` text
-Mean response values for each likert question in each cluster:
-   Cluster  如果你/妳懷疑你/妳要買的番茄可能是由強迫勞工（現代奴隸）採摘的，你/妳仍然會買它嗎？  你/妳關心食安嗎？  \
-0        0                                     2.026906   3.991031   
-1        1                                     2.106742   3.516854   
-2        2                                     2.214286   3.225000   
+Mean response values for each Likert question in each cluster:
 
-   你/妳7年內買車嗎？🚘  你/妳7年內買房嗎？🏡  你/妳購物時知道產品環保嗎？  你/妳覺得認證環保的公司更好嗎？  你/妳支持肉稅嗎？  \
-0     2.206278     1.663677        3.681614          4.300448   3.434978   
-1     3.898876     2.904494        3.140449          4.028090   2.943820   
-2     1.575000     1.282143        2.853571          3.864286   2.642857   
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-   你/妳關心食用雞的生活嗎？  你/妳避免吃肉嗎？  ...  你/妳知道許多植物和動物的名字嗎？  你/妳感覺自己和大自然很接近嗎？  \
-0       3.533632   2.269058  ...           3.381166          3.457399   
-1       3.117978   1.685393  ...           2.814607          3.039326   
-2       2.610714   1.600000  ...           2.453571          2.521429   
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
-   你/妳努力實踐低碳生活嗎？  你/妳想做更多環保事嗎？  你/妳對環境相關政治議題有興趣嗎？  你/妳信任碳排放抵消額度嗎？  \
-0       3.426009      4.264574           3.820628        3.210762   
-1       2.808989      3.679775           3.101124        2.865169   
-2       2.446429      3.364286           2.739286        2.664286   
-
-   你/妳的環保行動對環境保護有效果嗎？  你/妳想在行業內推環保嗎？  你/妳得自己對新觀念開放嗎？  你/妳的大學對可環保性支持嗎？  
-0            3.645740       3.730942        4.403587         4.210762  
-1            3.202247       3.117978        4.016854         3.719101  
-2            2.792857       2.878571        3.850000         3.500000  
-
-[3 rows x 37 columns]
-```
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 ### Agreement between personas
 

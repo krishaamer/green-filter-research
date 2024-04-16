@@ -2,6 +2,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import pandas as pd
+from IPython.display import display
 import numpy as np
 import textwrap
 import matplotlib.pyplot as plt
@@ -228,7 +229,6 @@ def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_feature
 
 
 def get_kmeans_table():
-
     # Select only the relevant columns for clustering
     df_likert_real_data = df[likert_flat_fields]
 
@@ -236,19 +236,16 @@ def get_kmeans_table():
     df_likert_real_data = df_likert_real_data.dropna()
 
     # Perform k-means clustering to group students into 3 clusters
-    kmeans_real_data = KMeans(n_clusters=3, n_init=10,
-                              random_state=42, verbose=False).fit(df_likert_real_data)
+    kmeans_real_data = KMeans(n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_real_data)
 
     # Add the cluster labels to the DataFrame
     df_likert_real_data['Cluster'] = kmeans_real_data.labels_
 
     # Calculate the mean score for each question in each cluster
-    cluster_means_real_data = df_likert_real_data.groupby(
-        'Cluster').mean().reset_index()
+    cluster_means_real_data = df_likert_real_data.groupby('Cluster').mean().reset_index()
 
     # Display the table
-    print("Mean response values for each likert question in each cluster:")
-    print(cluster_means_real_data)
+    display(cluster_means_real_data)  # This will render the DataFrame as a HTML table in Quarto
 
 
 def show_clustering_heatmap():

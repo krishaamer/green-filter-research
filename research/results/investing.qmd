@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Investing
+# Investing
 Student attitudes towards investing.
 
 ### Investing Experience (Overall)
@@ -24,7 +24,10 @@ Student attitudes towards investing.
 investment_count()
 ```
 
-### Choice Experiment
+## Choice Experiment
+
+Question: 你/妳選哪個投資？Which investment do you choose?
+
 ```{python}
 investment_data()
 ```

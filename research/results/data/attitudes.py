@@ -59,6 +59,54 @@ def likert_charts():
         # Show the plot
         plt.show()
 
+def likert_single_chart(category_index):
+
+    # Retrieve the category key from the index
+    categories = list(likert_fields.keys())
+    if category_index < 0 or category_index >= len(categories):
+        print("Invalid category index")
+        return
+    selected_category = categories[category_index]
+    
+    # Rename the columns in the DataFrame for visualization
+    df_translated = df.rename(columns={
+        field: f"{field} ({field_translation_mapping[selected_category][i]})"
+        for i, field in enumerate(likert_fields[selected_category])
+    })
+
+    # Calculate the number of rows needed for this category
+    fields = likert_fields[selected_category]
+    num_fields = len(fields)
+    num_rows = -(-num_fields // 2)  # Equivalent to ceil(num_fields / 2)
+
+    # Create subplots with 2 columns for this category
+    fig, axs = plt.subplots(num_rows, 2, figsize=(15, 5 * num_rows))
+    axs = axs.flatten()  # Flatten the array of subplots
+
+    # Add padding to fit in the Chinese titles
+    plt.subplots_adjust(hspace=0.4)
+
+    # Loop through each field in the category to create individual bar plots
+    for i, field in enumerate(fields):
+        sns.countplot(
+            x=f"{field} ({field_translation_mapping[selected_category][i]})", data=df_translated, ax=axs[i], palette=sns.color_palette("pastel"), saturation=1)
+
+        # Add title and labels
+        title_chinese = field
+        title_english = field_translation_mapping[selected_category][i]
+        axs[i].set_title(
+            f"{title_chinese}\n{title_english}", fontproperties=chinese_font) 
+        axs[i].set_xlabel('← Disagreement — Neutral — Agreement →')
+        axs[i].set_ylabel('Frequency')
+
+    # Remove any unused subplots
+    for i in range(num_fields, num_rows * 2):
+        fig.delaxes(axs[i])
+
+    # Show the plot
+    plt.show()
+
+
 def correlation_network():
     
     threshold = 0.4

@@ -11,29 +11,57 @@ suppress-bibliography: true
 ---
 
 ```{python}
-from data.attitudes import likert_charts, correlation_network, correlation_chart
+from data.attitudes import likert_charts, likert_single_chart, correlation_network, correlation_chart
 from data.environment import ecosystem_sensitivity
 import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Attitudes
-These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas sectioon.
+# College Student Attitudes (Overall)
+These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
-### Student Attitudes (Overall)
+## Shopping
 ```{python}
-likert_charts()
+likert_single_chart(0)
 ```
 
-### Correlations Between Fields
+## Saving and Investing
+```{python}
+likert_single_chart(1)
+```
+
+## Economy
+```{python}
+likert_single_chart(2)
+```
+
+## AI Usage
+```{python}
+likert_single_chart(3)
+```
+
+## Nature
+```{python}
+likert_single_chart(4)
+```
+
+## Environmental Protection
+```{python}
+likert_single_chart(5)
+```
+
+## Learning Environment
+```{python}
+likert_single_chart(6)
+```
+
+## Correlations Between Fields
 ```{python}
 correlation_network()
 ```
 
-## Environment
-Attitudes towards the environment.
-
-### Ranking Experiment
+## Environmental Knowledge Ranking Experiment
+Test knowledge about the environment.
 
 ```{python}
 ecosystem_sensitivity()
