@@ -344,8 +344,6 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
                 ha='center', va='center', fontproperties=chinese_font)
         # Write custom descriptive text above each cluster if showing individual scatterplot
         if is_individual and label in cluster_descriptions:
-            print(f'<h2 style="text-align: center;">Persona {label+1}: "{cluster_names[label]}"</h2>')
-            print(cluster_descriptions[label])
             ax.text(center[0], center[1]+0.1, cluster_names[label], color='black', 
                     ha='center', va='bottom', fontproperties=chinese_font)
 
