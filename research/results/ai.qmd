@@ -31,12 +31,12 @@ Clustering students based on AI-assistant feature choices.
 radar_chart()
 ```
 
-### Feature Preferences (By Cluster)
+## Feature Preferences (By Cluster)
 ```{python}
 plot_feature_preferences()
 ```
 
-### Preferred AI Roles (Overall)
+## Preferred AI Roles (Overall)
 ```{python}
 ai_roles()
 ```

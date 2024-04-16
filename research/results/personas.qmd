@@ -32,47 +32,42 @@ show_personas()
 
 
 ### Persona 1: "Eco-Friendly"
+Questions Most Affecting Persona Creation include...
 
 ```{python}
 show_single_persona(0)
 ```
 
-Questions Most Affecting Persona Creation
-
-
 
 ### Persona 2: "Moderate"
+Questions Most Affecting Persona Creation include...
 ```{python}
 show_single_persona(1)
 ```
-Questions Most Affecting Persona Creation
-
 
 
 ### Persona 3: "Frugal"
+Questions Most Affecting Persona Creation include...
 ```{python}
 show_single_persona(2)
 ```
 
-
-Questions Most Affecting Persona Creation
-
-
-### Clustering Heatmap
+## Clustering Heatmap
 
 ```{python}
 show_clustering_heatmap()
 ```
 
 
-### Mean Answer Scores
+## Mean Answer Scores
 Mean response values for each Likert question in each cluster:
 
 ```{python}
 get_kmeans_table()
 ```
 
-### Agreement between personas
+## Agreement between personas
+Highest agreement between personas is about health, safety, pollution and climate concerns.
 
 ```{python}
 treemap()

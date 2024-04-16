@@ -93,7 +93,6 @@ def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_fon
     fig, ax = plt.subplots(figsize=(10, 15))
     ax.barh(top_features, top_loadings, color='skyblue')
     ax.set_xlabel('Loading', fontproperties=chinese_font)
-    print(f'<h3 style="text-align: center;">Questions Most Affecting Persona Creation</h3>')
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
 
