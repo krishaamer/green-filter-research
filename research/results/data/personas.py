@@ -35,31 +35,44 @@ def show_personas():
     }
 
     cluster_descriptions = {
-        0: '',
-        1: '',
-        2: '',
+        0: 'desc 1',
+        1: 'desc 2',
+        2: 'desc 3',
     }
 
     # Show a scatterplot with all clusters included
     plot_scatterplot(df_clustered, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, "Distinct Respondent Profiles Based on K-means Clustering")
 
-    # Show a scatterplot for each cluster separately
-    for cluster_id in range(3):
-        df_cluster = df_clustered[df_clustered['Cluster'] == cluster_id]
-        plot_scatterplot(df_cluster, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, title=f'Clustered Survey Responses')
-        plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font)
-        #plot_wordcloud(pca, cluster_id, cluster_names, chinese_font)
-        pca_biplot(df_cluster, cluster_names, chinese_font)
-        new_biplot(df, cluster_id, cluster_names, chinese_font)
-        
-        
-    print(
-                f"<h2 style='text-align: center;'>Mean Answer Scores</h2>")
-    get_kmeans_table()
-    show_clustering_heatmap()
-    print(
-            f"<h2 style='text-align: center;'>Agreement between personas</h2>")
-    treemap()
+
+def show_single_persona(cluster_id): 
+
+    # Prepare the data and perform clustering and PCA
+    df_clustered, pca, cluster_centers = prepare_data_for_pca()
+
+    # Retain colors
+    unique_clusters = df_clustered['Cluster'].unique()
+    palette = sns.color_palette('pastel', n_colors=len(unique_clusters))
+    cluster_palette = {cluster: color for cluster, color in zip(unique_clusters, palette)}
+
+    # Cluster names
+    cluster_names = {
+        0: 'Eco-Friendly',
+        1: 'Moderate',
+        2: 'Frugal',
+    }
+
+    cluster_descriptions = {
+        0: 'desc 1',
+        1: 'desc 2',
+        2: 'desc 3',
+    }
+
+    df_cluster = df_clustered[df_clustered['Cluster'] == cluster_id]
+    plot_scatterplot(df_cluster, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, title=f'Clustered Survey Responses')
+    plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font)
+    pca_biplot(df_cluster, cluster_names, chinese_font)
+    new_biplot(df, cluster_id, cluster_names, chinese_font)
+
 
 def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font, num_components=2, num_top_features=30):
 

@@ -12,7 +12,7 @@ suppress-bibliography: true
 
 
 ```{python}
-from data.personas import treemap, show_personas
+from data.personas import treemap, show_personas, show_single_persona, show_clustering_heatmap, get_kmeans_table
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -29,27 +29,45 @@ show_personas()
 
 ### Persona 1: "Eco-Friendly"
 
+```{python}
+show_single_persona(0)
+```
 
 Questions Most Affecting Persona Creation
 
 
 
 ### Persona 2: "Moderate"
+```{python}
+show_single_persona(1)
+```
 Questions Most Affecting Persona Creation
 
 
 
 ### Persona 3: "Frugal"
-
+```{python}
+show_single_persona(2)
+```
 
 
 Questions Most Affecting Persona Creation
 
 
+### Clustering Heatmap
+
+```{python}
+show_clustering_heatmap()
+```
+
+
 ### Mean Answer Scores
 
+```{python}
+get_kmeans_table()
+```
 
-Agreement between personas
+### Agreement between personas
 
 ```{python}
 treemap()
