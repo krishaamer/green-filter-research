@@ -1,0 +1,11 @@
+{
+  "hash": "c3c362018dce09d2472798efbac366af",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Features (AI)\nbibliography: [../ref.bib]\ncsl: ../harvard.csl\nsidebar_position: 7\nexecute:\n  echo: false\neditor:\n    render-on-save: false\nsuppress-bibliography: true\n---\n\n\n\n## AI Companion\n\n### Likert-Based Clustering\nAI-assistant feature choices per Likert-based Personas\n\n::: {.cell execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](ai_files/figure-markdown_strict/cell-3-output-1.png){width=1128 height=1088}\n:::\n:::\n\n\n## Feature-Based Clustering\nClustering students based on AI-assistant feature choices.\n\n### Feature Preferences (Overall)\n\n::: {.cell execution_count=3}\n\n::: {.cell-output .cell-output-display}\n![](ai_files/figure-markdown_strict/cell-4-output-1.png){width=1154 height=1088}\n:::\n:::\n\n\n### Feature Preferences (By Cluster)\n\n::: {.cell execution_count=4}\n\n::: {.cell-output .cell-output-display}\n![](ai_files/figure-markdown_strict/cell-5-output-1.png){width=1335 height=755}\n:::\n:::\n\n\n### Preferred AI Roles (Overall)\n\n::: {.cell execution_count=5}\n\n::: {.cell-output .cell-output-display}\n![](ai_files/figure-markdown_strict/cell-6-output-1.png){width=950 height=564}\n:::\n:::\n\n\n",
+    "supporting": [
+      "ai_files/figure-markdown_strict"
+    ],
+    "filters": []
+  }
+}
