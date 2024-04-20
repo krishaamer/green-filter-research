@@ -1,5 +1,5 @@
 ---
-title: Early Prototypes
+title: Early Feature Ideas
 bibliography: [../ref.bib]
 csl: ../harvard.csl
 sidebar_position: 1
@@ -14,7 +14,7 @@ import Figure from '/src/components/Figure'
 import Watch from '../images/ai-watch.png'
 import Susan from '../images/susan-pink-app.png'
 ```
-# Early Prototypes
+# Early Feature Ideas
 
 The following early prototypes are focused on particular feature ideas that occurred to me during the literature review process. They are naive and meant to allow thinking in terms of *what-if* a particular user experience was possible. These prototypes were not tested with users directly and formed a basis for directing the questions asked in a potential user survey.
 
