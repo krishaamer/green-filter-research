@@ -25,6 +25,8 @@ Personas are created using K-means clustering, an unsupervised machine learning 
 
 - There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
 
+- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings.
+
 
 ```{python}
 show_personas()

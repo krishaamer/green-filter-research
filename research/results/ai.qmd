@@ -23,8 +23,26 @@ AI-assistant feature choices per Likert-based Personas
 likert_cluster_and_visualize()
 ```
 
+Want:
+- Product origin
+- Product materials
+- Product packaging
+
+
+Don't Want:
+- News
+- Carbon tracking
+- Eco-friends
+- ...
+
 ## Feature-Based Clustering
 Clustering students based on AI-assistant feature choices.
+
+Want:
+- Product origin
+- Product materials
+- Product packaging
+- Eco services
 
 ### Feature Preferences (Overall)
 ```{python}

@@ -13,7 +13,44 @@ suppress-bibliography: true
 
 
 export const quartoRawHtml =
-[`<!-- -->`];
+[`
+<table>
+<thead>
+<tr class="header">
+<th>Col1</th>
+<th>Col2</th>
+<th>Col3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Donut Economy</td>
+<td>Unrolled Donut</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Regenerative Capitalism</td>
+<td>8 Principles</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Blue Economy</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ESG</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>B Corp</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+`,`<!-- -->`];
 
 ````mdx-code-block
 import Figure from '/src/components/Figure';
@@ -95,13 +132,7 @@ Take the metrics from the several frameworks and display them on the
 product and company level? People can choose their own framework and see
 product data through that lens and vocabularies.
 
-| Col1                    | Col2           | Col3 |
-|-------------------------|----------------|------|
-| Donut Economy           | Unrolled Donut |      |
-| Regenerative Capitalism | 8 Principles   |      |
-| Blue Economy            |                |      |
-| ESG                     |                |      |
-| B Corp                  |                |      |
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 -   “research for design”. design research is about expanding
     opportunities and exploration
@@ -314,7 +345,7 @@ The research helps me (and others) to
 -   It aims to help app developers maximize impact by aiding
     complementary additionality.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 -   Make high-quality products. If used wisely, money can help build
     communities of sustainable impact.
@@ -390,8 +421,13 @@ invest? Why?
 
 -   I don’t have access to user financial data.
 
+-   ESG data is expensive so couldn’t be used in this research.
+
 ## Future Research
 
 The literature is rich and there is ample space for future research. The
 following includes some suggestions for authors whose work deserves a
 deeper look.
+
+-   Does the specialized interface offer any advantages of a general UI
+    such as ChatGPT, Claude, Gemini, Mistral, and others?
