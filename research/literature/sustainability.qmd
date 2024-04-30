@@ -299,7 +299,27 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 
 ### Biodiversity is Decreasing Rapidly
 
-@livingPlanetReport2022 reports, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
+@livingPlanetReport2022 reported, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
+
+```{python}
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as font_manager
+
+categories = ['Worldwide', 'Latin America', 'Freshwater Species']
+declines = [69, 94, 83]
+colors = ['#fb81cb', '#3ec7b8', '#fee566']
+
+custom_font = font_manager.FontProperties(fname='fonts/notosans.ttf')
+
+plt.figure(figsize=(10, 6))
+bars = plt.bar(categories, declines, color=colors)
+
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval - 5, f"{yval}%", ha='center', va='bottom', fontproperties=custom_font, fontsize=20, color='black')
+
+plt.show()
+```
 
 Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. @wwfForestsReducingEU2022 case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
 
