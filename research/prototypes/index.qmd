@@ -1,7 +1,5 @@
 ---
 title: Prototypes
-bibliography: [../ref.bib]
-csl: ../harvard.csl
 sidebar_position: 7
 editor:
     render-on-save: false
@@ -11,6 +9,7 @@ suppress-bibliography: true
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 ```
+
 ## Prototypes of Product Features
 
 I developed a number of early prototypes to visualize product feature ideas.

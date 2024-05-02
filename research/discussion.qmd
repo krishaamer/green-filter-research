@@ -1,7 +1,5 @@
 ---
 title: Discussion
-bibliography: [ref.bib]
-csl: harvard.csl
 sidebar_position: 6
 editor:
     render-on-save: false
@@ -13,6 +11,7 @@ import Figure from '/src/components/Figure';
 import MyEmbed from '/src/components/Embed';
 import Elephant from "./images/elephant.png";
 ```
+
 # Discussion
 
 College Student Willingness to pay (

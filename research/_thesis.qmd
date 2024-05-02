@@ -1,0 +1,42 @@
+---
+title: "Full Thesis for Print"
+author: "Kris Haamer"
+format: pdf
+CJKmainfont: STSong
+CJKoptions:
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
+editor:
+  render-on-save: false
+---
+
+# Introduction
+
+{{< include "introduction.qmd" >}}
+
+# Abstract
+
+{{< include "abstract.qmd" >}}
+
+# Prototypes
+
+{{< include "prototypes/index.qmd" >}}
+
+
+# Discussion
+
+{{< include "discussion.qmd" >}}
+
+# Terminology
+
+{{< include "terminology.qmd" >}}
+
+# Conclusion
+
+{{< include "conclusion.qmd" >}}
+
+
+# References
+
+::: {#refs}
+:::
