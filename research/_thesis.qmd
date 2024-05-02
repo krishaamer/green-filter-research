@@ -1,6 +1,8 @@
 ---
 title: "Full Thesis for Print"
 author: "Kris Haamer"
+bibliography: [ref.bib]
+csl: harvard.csl
 format: pdf
 CJKmainfont: STSong
 CJKoptions:
@@ -10,13 +12,41 @@ editor:
   render-on-save: false
 ---
 
+# Abstract
+
+{{< include "abstract.qmd" >}}
+
 # Introduction
 
 {{< include "introduction.qmd" >}}
 
-# Abstract
+# Literature
 
-{{< include "abstract.qmd" >}}
+{{< include "literature/index.qmd" >}}
+
+# AI
+
+{{< include "literature/ai.qmd" >}}
+
+# Title-College
+
+{{< include "literature/college.qmd" >}}
+
+# Title-Design
+
+{{< include "literature/design.qmd" >}}
+
+# Title-Fintech
+
+{{< include "literature/fintech.qmd" >}}
+
+# Title-Sustainability
+
+{{< include "literature/sustainability.qmd" >}}
+
+# Methodology
+
+{{< include "methodology/index.qmd" >}}
 
 # Prototypes
 
@@ -37,6 +67,3 @@ editor:
 
 
 # References
-
-::: {#refs}
-:::

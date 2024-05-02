@@ -8,7 +8,7 @@ suppress-bibliography: true
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
-import AI from '../images/ai-credibility-heuristic-systematic-model.png'
+import AI from '../images/ai-credibility.png'
 import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
 import ChatGPTMedical from '../images/chatgpt-medical.png'
@@ -399,7 +399,7 @@ The problems of opaqueness creates the field of explainable AI.
 The AI Credibility Heuristic: A Systematic Model explains how... similar to Daniel Kahneman's book "Thinking, Fast and Slow".
 
 ::: {.content-hidden unless-format="pdf"}
-![Heuristic-Systematic Model of AI Credibility](../images/ai-credibility-heuristic-systematic-model.png){width="60%"}
+![Heuristic-Systematic Model of AI Credibility](./images/ai-credibility.png){width="60%"}
 :::
 
 ```{=mdx}
@@ -440,7 +440,7 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 -   Example of ChatGPT explaining medical terminology in a blood report.
 
 ::: {.content-hidden unless-format="pdf"}
-![Example of ChatGPT explaining medical terminology in a blood report.](../images/chatgpt-medical.png){width="60%"}
+![Example of ChatGPT explaining medical terminology in a blood report.](./images/chatgpt-medical.png){width="60%"}
 :::
 
 ```{=mdx}
@@ -633,7 +633,7 @@ The Oxford Internet Institute defines AI simply as ***"computer programming that
 | Perplexity              | @hinesPerplexityAnnouncesAI2023           | perplexity.ai chat-based search |
 
 ::: {.content-hidden unless-format="pdf"}
-![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](../images/with-me.png){width="60%"}
+![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/with-me.png){width="60%"}
 :::
 
 ```{=mdx}

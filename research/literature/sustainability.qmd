@@ -19,7 +19,7 @@ import Carbon from "/research/images/co2-concentration.png";
 In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Climate Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](../images/co2-concentration.png)
+![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
 :::
 
 ```{=mdx}
@@ -39,7 +39,7 @@ In 1948, the International Union for Conservation of Nature (IUCN) was founded, 
 LULUCF "Land Use, Land-Use Change, and Forestry" can be a source of greenhouse gas emissions or a carbon sink (removing CO2 from the atmosphere)
 
 ::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](../images/boundaries.png){width="80%"}
+![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}
 :::
 
 ```{=mdx}
@@ -134,7 +134,7 @@ Earth's physical systems are very sensitive to small changes in temperature, whi
 -   Tragedy of the commons: [@meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
 
 ::: {.content-hidden unless-format="pdf"}
-![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](../images/humboldt.jpg){width="60%"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="60%"}
 :::
 
 ```{=mdx}
