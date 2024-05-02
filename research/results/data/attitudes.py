@@ -12,8 +12,12 @@ from data.fields.likert_flat_fields import likert_flat_fields
 from data.fields.field_translation_mapping import field_translation_mapping
 from data.fields.translation_mapping import translation_mapping
 
-df = pd.read_csv('data/clean.csv') 
-chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, 'clean.csv')
+font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
+df = pd.read_csv(csv_path)
+chinese_font = FontProperties(fname=font_path, size=12)
 
 def likert_charts():
     # Rename the columns in the DataFrame for visualization

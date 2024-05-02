@@ -12,6 +12,11 @@ editor:
   render-on-save: false
 ---
 
+```{python}
+import sys
+sys.path.append('results/')
+```
+
 # Abstract
 
 {{< include "abstract.qmd" >}}
@@ -48,10 +53,21 @@ editor:
 
 {{< include "methodology/index.qmd" >}}
 
+# Results
+
+{{< include "results/index.qmd" >}}
+
+# Results AI
+
+{{< include "results/ai.qmd" >}}
+
+# Results Attitudes
+
+{{< include "results/attitudes.qmd" >}}
+
 # Prototypes
 
 {{< include "prototypes/index.qmd" >}}
-
 
 # Discussion
 

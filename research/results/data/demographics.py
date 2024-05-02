@@ -3,7 +3,12 @@ warnings.filterwarnings("ignore")
 
 import pandas as pd
 
-df = pd.read_csv('data/clean.csv') 
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, 'clean.csv')
+font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
+df = pd.read_csv(csv_path)
+chinese_font = FontProperties(fname=font_path, size=12)
 
 def university_ranking_table():
     # Count the number of respondents for each university and sort them

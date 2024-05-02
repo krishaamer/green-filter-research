@@ -6,8 +6,12 @@ from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('data/clean.csv') 
-chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, 'clean.csv')
+font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
+df = pd.read_csv(csv_path)
+chinese_font = FontProperties(fname=font_path, size=12)
 
 def investment_count():
     # Count the number of people who have invested and who have not

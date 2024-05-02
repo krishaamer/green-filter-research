@@ -15,8 +15,12 @@ from sklearn.cluster import KMeans
 from matplotlib.font_manager import FontProperties
 from data.fields.likert_flat_fields import likert_flat_fields
 
-df = pd.read_csv('data/clean.csv') 
-chinese_font = FontProperties(fname='data/fonts/notosans.ttf', size=12)
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, 'clean.csv')
+font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
+df = pd.read_csv(csv_path)
+chinese_font = FontProperties(fname=font_path, size=12)
 
 def show_personas():
 
