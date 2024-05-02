@@ -86,7 +86,7 @@ AI will decide what kind of UI to show to you based on the data and context
 -   As machines become more capable, machines will eventually be capable of producing machines.
 -   Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".***
 -   [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
--   [@fletcherGenerativeUIDownfall2023 and @joeblairGenerativeUINew2024] are worried UIs are becoming average; that is more and more similar towards the lowest common denominator. We can generate better ones that are based on user data and would be truly personalized.
+-   [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried UIs are becoming average; that is more and more similar towards the lowest common denominator. We can generate better ones that are based on user data and would be truly personalized.
 -   [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (***"difficult, slow, and unpleasant"***) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
 -   [@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sisters because of their dissimilar usage patterns.
 -   [@NielsenIdeasGenerative2024] Meanwhile is very critical because for the following reasons:
@@ -420,7 +420,7 @@ Sustainability touches every facet of human existence and is thus an enormous un
 
 Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
 
-Popular blogs such as [@kohliHowDesignersCan2019 and @loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
+Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
 
 -   @uiaworldcongressofarchitectsDesignClimateAdaptation2023 "Design for climate adaptation"
 -   @andrewchaissonHowFightClimate2019
@@ -573,7 +573,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   55% of emissions come from energy production.
 
--   1.7 trillion tons of CO2e emissions since the 1760s (start of the industrial revolution) [@globalcarbonbudgetCumulativeCOEmissions2023 @marvelOpinionClimateScientist2023].
+-   1.7 trillion tons of CO2e emissions since the 1760s (start of the industrial revolution) [@globalcarbonbudgetCumulativeCOEmissions2023; @marvelOpinionClimateScientist2023].
 
 -   @cartoClimateResilienceGeography2023 Making advanced maps to convince people to make changes
 
@@ -637,7 +637,7 @@ Sustainable Fashion, Textile Design
 
 Across industries, reports are saying there isn't enough transparency.
 
--   [@hannahritchieSectorSectorWhere2020 @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
+-   [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
 
 -   **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion:
 

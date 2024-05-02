@@ -1,9 +1,12 @@
 ---
 title: "Full Thesis for Print"
 author: "Kris Haamer"
-bibliography: [ref.bib]
+bibliography: ref.bib
 csl: harvard.csl
-format: pdf
+format:
+  pdf: 
+    cite-method: natbib
+suppress-bibliography: false
 CJKmainfont: STSong
 CJKoptions:
   - BoldFont=STHeiti
@@ -15,6 +18,8 @@ editor:
 ```{python}
 import sys
 sys.path.append('results/')
+import warnings
+warnings.filterwarnings("ignore")
 ```
 
 # Abstract
@@ -65,9 +70,37 @@ sys.path.append('results/')
 
 {{< include "results/attitudes.qmd" >}}
 
+# Results Experts
+
+{{< include "results/experts.qmd" >}}
+
+# Results Investing
+
+{{< include "results/investing.qmd" >}}
+
+# Results Personas
+
+{{< include "results/personas.qmd" >}}
+
+# Results Shopping
+
+{{< include "results/shopping.qmd" >}}
+
+# Results Testing
+
+{{< include "results/testing.qmd" >}}
+
 # Prototypes
 
 {{< include "prototypes/index.qmd" >}}
+
+# Prototypes Early Ideas
+
+{{< include "prototypes/ideas.qmd" >}}
+
+# Prototypes Interactive
+
+{{< include "prototypes/interactive.qmd" >}}
 
 # Discussion
 
