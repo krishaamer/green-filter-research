@@ -5,8 +5,12 @@ bibliography: ref.bib
 csl: harvard.csl
 format:
   pdf: 
+    toc: true
+    toc_depth: 3
     cite-method: natbib
 suppress-bibliography: false
+execute:
+  echo: false
 CJKmainfont: STSong
 CJKoptions:
   - BoldFont=STHeiti
@@ -16,103 +20,57 @@ editor:
 ---
 
 ```{python}
+#| echo: false
 import sys
 sys.path.append('results/')
 import warnings
 warnings.filterwarnings("ignore")
 ```
 
-# Abstract
-
 {{< include "abstract.qmd" >}}
-
-# Introduction
 
 {{< include "introduction.qmd" >}}
 
-# Literature
-
 {{< include "literature/index.qmd" >}}
-
-# AI
-
-{{< include "literature/ai.qmd" >}}
-
-# Title-College
 
 {{< include "literature/college.qmd" >}}
 
-# Title-Design
+{{< include "literature/sustainability.qmd" >}}
 
 {{< include "literature/design.qmd" >}}
 
-# Title-Fintech
+{{< include "literature/ai.qmd" >}}
 
 {{< include "literature/fintech.qmd" >}}
 
-# Title-Sustainability
-
-{{< include "literature/sustainability.qmd" >}}
-
-# Methodology
-
 {{< include "methodology/index.qmd" >}}
-
-# Results
 
 {{< include "results/index.qmd" >}}
 
-# Results AI
-
-{{< include "results/ai.qmd" >}}
-
-# Results Attitudes
+{{< include "results/shopping.qmd" >}}
 
 {{< include "results/attitudes.qmd" >}}
 
-# Results Experts
-
-{{< include "results/experts.qmd" >}}
-
-# Results Investing
-
 {{< include "results/investing.qmd" >}}
-
-# Results Personas
 
 {{< include "results/personas.qmd" >}}
 
-# Results Shopping
+{{< include "results/ai.qmd" >}}
 
-{{< include "results/shopping.qmd" >}}
-
-# Results Testing
+{{< include "results/experts.qmd" >}}
 
 {{< include "results/testing.qmd" >}}
 
-# Prototypes
+{{< include "discussion.qmd" >}}
 
 {{< include "prototypes/index.qmd" >}}
 
-# Prototypes Early Ideas
-
 {{< include "prototypes/ideas.qmd" >}}
-
-# Prototypes Interactive
 
 {{< include "prototypes/interactive.qmd" >}}
 
-# Discussion
-
-{{< include "discussion.qmd" >}}
-
-# Terminology
-
-{{< include "terminology.qmd" >}}
-
-# Conclusion
-
 {{< include "conclusion.qmd" >}}
 
+{{< include "terminology.qmd" >}}
 
 # References
