@@ -11,6 +11,7 @@ import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/humboldt.jpg';
 import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
+import EUPolicy from "/research/images/eu-policy-context.png";
 ```
 ## Evolving Sustainability Measurments from Planetary Boundaries to Planetary Health
 
@@ -372,7 +373,7 @@ Clean air is a requirement.
 
 #### Climate Change Disasters
 
--   A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity*  [@sherwoodAssessmentEarthClimate2020].
+-   A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020].
 
 -   [@FifthNationalClimate2023] The US Global Change Research Program comprehensive report to the US Congress links disaster-risk directly to global warming; for examples increased wildfires damage property, endager life and reduces air quality, which in effect increases health challenges.
 
@@ -710,7 +711,9 @@ TODO
 ***Designing for Sustainability aka Circular Design or Eco-Design*** encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
 
 -   "Evolution of design for sustainability: From product design to design for system innovations and transitions"
+
 -   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
+
 -   @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only." Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
 
 -   Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
@@ -778,6 +781,16 @@ Circular economy is a tiny part of the world economy. @circleeconomyCircularityG
 
 ### The Policy Context in Europe From 2023 to 2030
 
+::: {.content-hidden unless-format="pdf"}
+![EU Policy Context Timeline](./images/eu-policy-context.png){width="80%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="EU Policy Context Timeline'"
+  src={EUPolicy}
+/>
+```
 We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
 
 Timeline of the Policy Context:

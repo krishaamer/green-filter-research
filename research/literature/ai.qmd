@@ -75,7 +75,7 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 [@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.
 
 |                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Problem               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Monolithicity         | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                  |
 | Opaqueness            | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
@@ -84,6 +84,8 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 | Lack of Legislation   | @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 @browneBritainHostWorld2023.                                                                                                                                                                                                                                                                                                                                                        |
 
 : Table summarizing some problems with contemporary AIs.
+
+In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidlines for the RLHF approach. @openaiIntroducingModelSpec2024
 
 Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
 
@@ -168,9 +170,9 @@ The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field of Usage    | Description                                                                                                                                 |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Shipping          | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
-| Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023]                                            |
+| Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023]                                          |
 | Childcare         | Generate personalized bedtime stories                                                                                                       |
 | Design Tools      | @DavidHoangHow2024                                                                                                                          |
 
@@ -488,11 +490,13 @@ For the vast majority of this study's target audience (college students), social
 
 [@shinUserExperienceWhat2020] proposes the model (fig. 10) of Algorithmic Experience (AX) ***"investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance"*** highlighting how interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level.
 
-When I began writing this thesis in 2020, Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards ***understanding*** human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
+In 2020 (when I proposed this thesis topic), Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards ***understanding*** human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
 
 Intelligence may be besides the point as long as AI ***becomes very good at reasoning***. AI is a ***reasoning engine*** [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"**How do you transition from mass marketing to mass personalization?"***.
 
 What are the next features that could improve the UX/UI of AI-based assistants?
+
+- GPT 4o combines different abilities into the same model, preserving more information: https://openai.com/index/hello-gpt-4o/
 
 [@skipperHowAIChanging2022] sketches a vision of *"\[AI\] blend into our lives in a form of apps and services"* deeply ingrained into daily human activity.
 
@@ -569,9 +573,9 @@ Voice has a visceral effect on the human psyche; since birth we recognize the vo
 -   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
--   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI re
+-   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
 
-adings. - Focus on voice education?
+-- LLM evaluation: https://www.trulens.org/ @leinoInfluenceDirectedExplanationsDeep2018 -- https://docs.ragas.io/ "Metrics-Driven Development" -- https://www.langchain.com/langsmith
 
 \- [@CELINO2020102410:]\] There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
 
@@ -706,7 +710,7 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 | Category          | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Voice Assistants  | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |
 | Sustainability    | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.                                                                                                                                                                      |
 | Sustainability    | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |

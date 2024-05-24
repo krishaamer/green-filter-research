@@ -29,7 +29,11 @@ warnings.filterwarnings("ignore")
 
 {{< include "abstract.qmd" >}}
 
+\newpage
+
 {{< include "introduction.qmd" >}}
+
+\newpage
 
 {{< include "literature/index.qmd" >}}
 
@@ -43,7 +47,11 @@ warnings.filterwarnings("ignore")
 
 {{< include "literature/fintech.qmd" >}}
 
+\newpage
+
 {{< include "methodology/index.qmd" >}}
+
+\newpage
 
 {{< include "results/index.qmd" >}}
 
@@ -59,9 +67,11 @@ warnings.filterwarnings("ignore")
 
 {{< include "results/experts.qmd" >}}
 
-{{< include "results/testing.qmd" >}}
+\newpage
 
 {{< include "discussion.qmd" >}}
+
+\newpage
 
 {{< include "prototypes/index.qmd" >}}
 
@@ -69,8 +79,16 @@ warnings.filterwarnings("ignore")
 
 {{< include "prototypes/interactive.qmd" >}}
 
+{{< include "prototypes/testing.qmd" >}}
+
+\newpage
+
 {{< include "conclusion.qmd" >}}
 
+\newpage
+
 {{< include "terminology.qmd" >}}
+
+\newpage
 
 # References

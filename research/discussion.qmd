@@ -21,7 +21,7 @@ Defining the Problem Space.
 
 ## Data Analysis
 - Use K-Means clustering for survey data
-- 
+- K-means clustering is similar to vector distances for similarity used in large-language models (LLMs) word embeddings and deep learning.
 
 ## Mindmaps
 
@@ -182,6 +182,8 @@ Could the Green Supermarket become the entry point to Green Savings and Green In
 Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
 
 What can people who want to preserve Earth's environment, exactly do? How can networks of people come together?
+
+--- LLMs enable data journalists to create stories: @biglocalnewsExpertShareSimon2024
 
 Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model for simple interactions to dynamically track digital health data - also known as a quantified self. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stairs. Small interactions allow users to align their goals with their actions.
 

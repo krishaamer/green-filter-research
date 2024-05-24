@@ -6,6 +6,11 @@ editor:
 suppress-bibliography: true
 ---
 
+```{=mdx}
+import Figure from '/src/components/Figure';
+import Abstract from "./images/abstract.png";
+```
+
 # Abstract
 
 ## The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing
@@ -18,6 +23,16 @@ My research addresses the need for tools to make sustainable financial action co
 
 Keywords: Climate Anxiety, Human-AI Interaction, Digital Sustainability, Financial Activism, Transparency, Planetary Health
 
+::: {.content-hidden unless-format="pdf"}
+![Concept Map](./images/abstract.png){width="80%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Concept Map'"
+  src={Abstract}
+/>
+```
 
 # Abstract in Chinese *
 
