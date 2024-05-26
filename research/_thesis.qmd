@@ -1,12 +1,12 @@
 ---
-title: "Full Thesis for Print"
+title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
 author: "Kris Haamer"
 bibliography: ref.bib
 csl: harvard.csl
 format:
   pdf: 
     toc: true
-    toc_depth: 3
+    toc-depth: 3
     cite-method: natbib
 suppress-bibliography: false
 execute:
@@ -26,6 +26,8 @@ sys.path.append('results/')
 import warnings
 warnings.filterwarnings("ignore")
 ```
+
+\newpage
 
 {{< include "abstract.qmd" >}}
 
@@ -83,11 +85,11 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "conclusion.qmd" >}}
+
 
 \newpage
 
-{{< include "terminology.qmd" >}}
+
 
 \newpage
 

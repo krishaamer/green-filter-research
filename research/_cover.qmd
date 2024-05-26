@@ -1,0 +1,25 @@
+---
+title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
+author: "Kris Haamer"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+output: pdf_document
+---
+
+\newpage
+
+# Cover Page
+
+\begin{titlepage}
+    \centering
+    \vspace*{1in}
+    {\LARGE \textbf{The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing} \par}
+    \vspace{0.5in}
+    {\Large Kris Haamer \par}
+    \vfill
+    {\Large \today \par}
+    \vspace{1.5in}
+    {\Large NCKU \par}
+\end{titlepage}
+
+\newpage

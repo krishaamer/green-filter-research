@@ -6,8 +6,8 @@ editor:
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:
- - BoldFont=STHeiti
- - ItalicFont=STKaiti
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
 ---
 
 ```{=mdx}
@@ -70,7 +70,7 @@ Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023].
 
 -   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].
 
--   College students in tourism and related fields . and sustainabili
+-   College students in tourism and related fields . and sustainability
 
 ### Global Data
 
@@ -176,7 +176,7 @@ The focus on *group consciousness* suggests community-based sustainability actio
 
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
 
--   In one Australian study, green consumers still waste food similary to the baseline [@mccarthyFoodWasteGreen2017].
+-   In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021].
 

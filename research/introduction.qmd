@@ -2,12 +2,12 @@
 title: Introduction
 sidebar_position: 2
 editor:
-    render-on-save: false
+  render-on-save: false
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:
- - BoldFont=STHeiti
- - ItalicFont=STKaiti
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
 ---
 
 ```{=mdx}
