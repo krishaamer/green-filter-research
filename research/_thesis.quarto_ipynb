@@ -1,7 +1,7 @@
 {
   "cells": [
     {
-      "cell_type": "raw",
+      "cell_type": "markdown",
       "metadata": {},
       "source": [
         "---\n",
@@ -25,7 +25,7 @@
         "  render-on-save: false\n",
         "---"
       ],
-      "id": "ed46142b"
+      "id": "0b1666b4"
     },
     {
       "cell_type": "code",
@@ -37,36 +37,32 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "58b200a4",
+      "id": "1a3038c5",
       "execution_count": null,
       "outputs": []
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {},
-      "source": [
-        "\\newpage"
-      ],
-      "id": "54062c4f"
     },
     {
       "cell_type": "raw",
       "metadata": {},
       "source": [
-        "---\n",
-        "title: Abstract\n",
-        "sidebar_position: 1\n",
-        "editor:\n",
-        "    render-on-save: false\n",
-        "suppress-bibliography: true\n",
+        "\\newpage\n",
+        "\n",
+        "\n",
         "---"
       ],
-      "id": "bfdf4962"
+      "id": "e0223fdf"
     },
     {
       "cell_type": "markdown",
       "metadata": {},
       "source": [
+        "title: Abstract\n",
+        "sidebar_position: 1\n",
+        "editor:\n",
+        "    render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---\n",
+        "\n",
         "```{=mdx}\n",
         "import Figure from '/src/components/Figure';\n",
         "import Abstract from \"./images/abstract.png\";\n",
@@ -114,6 +110,7 @@
         "\n",
         "\\newpage\n",
         "\n",
+        "\n",
         "---\n",
         "title: Introduction\n",
         "sidebar_position: 2\n",
@@ -133,25 +130,25 @@
         "```\n",
         "# Introduction\n",
         "\n",
-        "How can people build closer relationships with sustainability-focused companies? A research project for designing a sustainable shopping, saving, and investing companion.\n",
+        "How can college students build closer relationships with sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact.\n",
         "\n",
         "## Research Relevance\n",
         "\n",
-        "If used wisely, money can help build communities of sustainable impact. This research is timely in 2023 because of the convergence of five trends:\n",
+        "My research is timely in 2024 because of the convergence of 5 trends:\n",
         "\n",
-        "| Major Trending Themes (Supernarratives)                                                    |\n",
+        "| Supernarratives aka Major Trending Themes |\n",
         "|------------------------------------------------------------------------|\n",
-        "| Increasing environmental degradation                                                       |\n",
-        "| Young people demand sustainability                                                         |\n",
-        "| Intergenerational money transfer; relatively young people have money                       |\n",
-        "| Appearance of sustainability metrics and instruments such as ESG, B Corp, Green Bonds, etc |\n",
-        "| Technology adoption and generative AI-based user interface availability                    |\n",
+        "| Increasing environmental degradation |\n",
+        "| Increasing interest in sustainability among young people |\n",
+        "| Intergenerational money transfer; in some countries relatively young people have money |\n",
+        "| Increasing availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments |\n",
+        "| Increasing availability and adoption of generative AI-based user interfaces |\n",
         "\n",
-        ": Current trends backing the relevance of this research project.\n",
+        ": Trends backing the relevance of this research.\n",
         "\n",
         "## Research Background\n",
         "\n",
-        "I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imaginary future humans fix all kinds of problems from scanning for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to do business with. Robots are already integral part of our lives; this thesis proposal was partially written using Google's and Apple's Voice recognition software, allowing me to transcribe notes with the help of an AI assistant.\n",
+        "I grew up reading science fiction books and their influence on my outlook towards future possibilities continues until present day. In particular, Star Trek has a portable device called a ***tricorder*** (fig. 1), which enables imaginary future humans fix all kinds of problems from looking for minerals inside a cave to scanning human bodies for medical information. I would love to have such a device for consumer choices and financial decisions in order to know what to buy and which businesses to do business with.\n",
         "\n",
         "::: {.content-hidden unless-format=\"pdf\"}\n",
         "![Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures](./images/tricorder.jpg){width=\"50%\"}\n",
@@ -165,11 +162,13 @@
         "```\n",
         "## Research Motivation\n",
         "\n",
-        "As a foreigner living in Taiwan, I've relied extensively on AI assistants for many aspects of my life: to communicate, move around efficiently, find food and services. Even when we don't realize it, AI assistants helping us with many of our mundane tasks. When writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字 and show the most likely character based on my previous writing, Google's maps find efficient and eco-friendly routes and recommend places to eat and ChatGPT provides statistically probable advice from the sum of human knowledge. While it takes incredibly complex computational algorithms to achieve all this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help humans with choosing more eco-friendly businesses to show, save, and invest doesn't sound so much of a stretch.\n",
+        "Environmental issues are largely caused by production and manufacturing processes of the companies that make the products we consume on a daily basis. Without reliable and easily accessible data, it's difficult to know which company is more sustainable than the other. We don't really know what's green, unless we spend a lot of time looking at the numbers, which may be costly to access (for example ESG reports are expensive).\n",
+        "\n",
+        "AIs are already integral to many parts of our lives; this thesis was partially written using Google's, Apple's, and OpenAIs voice recognition software, allowing me to transcribe notes with the help of an AI assistant. As a foreigner living in Taiwan, I've relied extensively on AI assistants for many aspects of my life: to communicate, move around efficiently, find food and services. Even when we don't realize it, AI assistants helping us with many of our mundane tasks. When writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字 and show the most likely character based on my previous writing, Google's maps find efficient and eco-friendly routes and recommend places to eat and ChatGPT provides statistically probable advice from the sum of human knowledge. While it takes incredibly complex computational algorithms to achieve all this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help humans with choosing more eco-friendly businesses to show, save, and invest doesn't sound so much of a stretch.\n",
         "\n",
         "## Research Objective\n",
         "\n",
-        "Without reliable and easily accessible data, it seems impossible to know which company is more sustainable than the other. We don't really know what's green, unless we spend a lot of time looking at the numbers. Environmental issues are caused by production and manufacturing processes of the companies that make the products we consume on a daily basis. The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.\n",
+        "The study presents an AI companion design which seeks to help people build relationships with sustainability-focused companies. The major contribution of this study is an interactive artefact (a prototype) informed by design research.\n",
         "\n",
         "## Research Demographics\n",
         "\n",
@@ -181,7 +180,7 @@
         "| Population | College Students |\n",
         "| Count      | 700              |\n",
         "\n",
-        "Interviews with experts in finance and design, and a including a choice experiment between potential feature sets in consumption, savings, and investment.\n",
+        "Interviews with experts (finance, design, sustainability).\n",
         "\n",
         "| Criteria   |         |\n",
         "|------------|---------|\n",
@@ -193,17 +192,18 @@
         "\n",
         "My research aims to answer the following questions.\n",
         "\n",
-        "| №   | Question                                                                                          | Methods                                 |\n",
-        "|------------------|-------------------------------|-----------------------|\n",
-        "| 1   | How does environmental sustainability intersect with AI, design, and finance?                                                                 | Literature Review                       |\n",
-        "| 2   | How can AI assistants help college students participate in sustainable financial activism? | Literature Review and Expert Interviews |\n",
-        "| 3   | What questions do college students prefer to ask a sustainability AI assistant?          | Student Survey                          |\n",
+        "| № | Question | Methods |\n",
+        "|------------------|--------------------------------|-----------------------|\n",
+        "| 1 | In general, what are some trends in how sustainability interacts with AI, design, and finance? | Literature Review |\n",
+        "| 2 | What are some fundamental requirements for designing an AI-assistant aiming to help college students participate in sustainable financial activism? | Literature Review and Expert Interviews |\n",
+        "| 3 | What features do college students prioritize and what questions would they prefer to ask a sustainability AI assistant? | Survey (Taiwanese College Student) |\n",
         "\n",
         ": Table of research questions.\n",
         "\n",
         "\n",
         "\n",
         "\\newpage\n",
+        "\n",
         "\n",
         "---\n",
         "title: Literature Review\n",
@@ -246,6 +246,7 @@
         "```{=mdx}\n",
         "<Figure caption=\"Select example papers from the Literature Review\" src={Literature} />\n",
         "```\n",
+        "\n",
         "\n",
         "---\n",
         "title: Students\n",
@@ -507,6 +508,7 @@
         "|                 | The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it's still difficult to pick and choose between 'good' and 'bad' financial vehicles to invest in. |\n",
         "|                 | This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience.                                                                                                                                                                                                                  |\n",
         "|                 | What would that experience look like? I've chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study.      |\n",
+        "\n",
         "\n",
         "---\n",
         "title: Sustainability\n",
@@ -810,7 +812,7 @@
         "\n",
         "@livingPlanetReport2022 reported, the number of species killed, mass destruction of nature. \"69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).\""
       ],
-      "id": "f7aac97d"
+      "id": "4c89965a"
     },
     {
       "cell_type": "code",
@@ -834,7 +836,7 @@
         "\n",
         "plt.show()"
       ],
-      "id": "3a24bfa1",
+      "id": "8f307990",
       "execution_count": null,
       "outputs": []
     },
@@ -1510,6 +1512,7 @@
         "\n",
         ": Implications\n",
         "\n",
+        "\n",
         "---\n",
         "title: Design\n",
         "sidebar_position: 2\n",
@@ -1900,7 +1903,7 @@
         "\n",
         ": Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023]."
       ],
-      "id": "a175987e"
+      "id": "c1169e11"
     },
     {
       "cell_type": "code",
@@ -1925,7 +1928,7 @@
         "plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])\n",
         "plt.show()"
       ],
-      "id": "c49e9730",
+      "id": "1788f0e5",
       "execution_count": null,
       "outputs": []
     },
@@ -2418,6 +2421,7 @@
         "\n",
         "human-centered design Explain ISO9241-210, user experience, iteration\n",
         "\n",
+        "\n",
         "---\n",
         "title: A.I.\n",
         "sidebar_position: 3\n",
@@ -2475,11 +2479,11 @@
         "\n",
         "-   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019\n",
         "\n",
-        "| App             | Category | Use Case                                                                           |\n",
+        "| App | Category | Use Case |\n",
         "|------------------|------------------|------------------------------------|\n",
-        "| Welltory        | Health   | Health data analysis                                                               |\n",
-        "| Wellue          | Health   | Heart arrhythmia detection                                                         |\n",
-        "| QALY            | Health   | Heart arrhythmia detection                                                         |\n",
+        "| Welltory | Health | Health data analysis |\n",
+        "| Wellue | Health | Heart arrhythmia detection |\n",
+        "| QALY | Health | Heart arrhythmia detection |\n",
         "| Starship Robots | Delivery | May ask for human help when crossing a difficult road or other confusing situation |\n",
         "\n",
         ": Examples of human-in-the-loop apps\n",
@@ -2494,18 +2498,20 @@
         "\n",
         "[@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.\n",
         "\n",
-        "|                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n",
-        "|-----------------------|-------------------------------------------------|\n",
-        "| Problem               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n",
-        "| Monolithicity         | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.                                                                                                                                                                                                                  |\n",
-        "| Opaqueness            | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): \"Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?\" |\n",
-        "| Biases and Prejudices | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become \"partners in crime\"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.                                  |\n",
-        "| Missing Data          | LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics [@Liu_LlamaIndex_2022].                                                                                                                                                                                                                                                                                                                                 |\n",
-        "| Lack of Legislation   | @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 @browneBritainHostWorld2023.                                                                                                                                                                                                                                                                                                                                                        |\n",
+        "|  |  |\n",
+        "|------------------------|------------------------------------------------|\n",
+        "| Problem | Description |\n",
+        "| Monolithicity | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. |\n",
+        "| Opaqueness | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): \"Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?\" |\n",
+        "| Biases and Prejudices | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become \"partners in crime\"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently. |\n",
+        "| Missing Data | LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics [@Liu_LlamaIndex_2022]. |\n",
+        "| Lack of Legislation | @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 @browneBritainHostWorld2023. |\n",
         "\n",
         ": Table summarizing some problems with contemporary AIs.\n",
         "\n",
         "In 2024, OpenAI released its \"Model Spec\" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach. @openaiIntroducingModelSpec2024\n",
+        "\n",
+        "OECD defines AI incident terms @DefiningAIIncidents2024\n",
         "\n",
         "Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]\n",
         "\n",
@@ -2521,31 +2527,31 @@
         "\n",
         "Red-teaming means pushing the limits of LLMs, trying to get them to produce outputs that are racist, false, or otherwise unhelpful.\n",
         "\n",
-        "| AI Model      | Released | Company                         | License                       |\n",
+        "| AI Model | Released | Company | License |\n",
         "|------------------|------------------|-------------------|------------------|\n",
-        "| GPT-1         | 2018     | OpenAI                          | Open Source                   |\n",
-        "| GTP-2         | 2019     | OpenAI                          | Open Source                   |\n",
-        "| Turing-NLG    | 2020     | Microsoft                       | Proprietary                   |\n",
-        "| GPT-3         | 2020     | OpenAI                          | Open Source                   |\n",
-        "| GPT-3.5       | 2022     | OpenAI                          | Proprietary                   |\n",
-        "| GPT-4         | 2023     | OpenAI                          | Proprietary                   |\n",
-        "| AlexaTM       | 2022     | Amazon                          | Proprietary                   |\n",
-        "| NeMo          | 2022     | NVIDIA                          | Open Source                   |\n",
-        "| PaLM          | 2022     | Google                          | Proprietary                   |\n",
-        "| LaMDA         | 2022     | Google                          | Proprietary                   |\n",
-        "| GLaM          | 2022     | Google                          | Proprietary                   |\n",
-        "| BLOOM         | 2022     | Hugging Face                    | Open Source                   |\n",
-        "| Falcon        | 2023     | Technology Innovation Institute | Open Source                   |\n",
-        "| Tongyi        | 2023     | Alibaba                         | Proprietary                   |\n",
-        "| Vicuna        | 2023     | Sapling                         | Open Source                   |\n",
-        "| Wu Dao 3      | 2023     | BAAI                            | Open Source                   |\n",
-        "| LLAMA 2       | 2023     | META                            | Open Source                   |\n",
-        "| PaLM-2        | 2023     | Google                          | Proprietary                   |\n",
-        "| Claude 3      | 2024     | Anthropic                       | Proprietary                   |\n",
-        "| Mistral Large | 2024     | Mistral                         | Proprietary                   |\n",
-        "| Gemini 1.5    | 2024     | Google                          | Proprietary                   |\n",
-        "| LLAMA 3       | 2024     | META                            | Open Source                   |\n",
-        "| GPT-5         | 202?     | OpenAI                          | Unknown; trademark registered |\n",
+        "| GPT-1 | 2018 | OpenAI | Open Source |\n",
+        "| GTP-2 | 2019 | OpenAI | Open Source |\n",
+        "| Turing-NLG | 2020 | Microsoft | Proprietary |\n",
+        "| GPT-3 | 2020 | OpenAI | Open Source |\n",
+        "| GPT-3.5 | 2022 | OpenAI | Proprietary |\n",
+        "| GPT-4 | 2023 | OpenAI | Proprietary |\n",
+        "| AlexaTM | 2022 | Amazon | Proprietary |\n",
+        "| NeMo | 2022 | NVIDIA | Open Source |\n",
+        "| PaLM | 2022 | Google | Proprietary |\n",
+        "| LaMDA | 2022 | Google | Proprietary |\n",
+        "| GLaM | 2022 | Google | Proprietary |\n",
+        "| BLOOM | 2022 | Hugging Face | Open Source |\n",
+        "| Falcon | 2023 | Technology Innovation Institute | Open Source |\n",
+        "| Tongyi | 2023 | Alibaba | Proprietary |\n",
+        "| Vicuna | 2023 | Sapling | Open Source |\n",
+        "| Wu Dao 3 | 2023 | BAAI | Open Source |\n",
+        "| LLAMA 2 | 2023 | META | Open Source |\n",
+        "| PaLM-2 | 2023 | Google | Proprietary |\n",
+        "| Claude 3 | 2024 | Anthropic | Proprietary |\n",
+        "| Mistral Large | 2024 | Mistral | Proprietary |\n",
+        "| Gemini 1.5 | 2024 | Google | Proprietary |\n",
+        "| LLAMA 3 | 2024 | META | Open Source |\n",
+        "| GPT-5 | 202? | OpenAI | Unknown; trademark registered |\n",
         "\n",
         ": Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024].\n",
         "\n",
@@ -2589,12 +2595,12 @@
         "\n",
         "There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.\n",
         "\n",
-        "| Field of Usage    | Description                                                                                                                                 |\n",
-        "|------------------------|------------------------------------------------|\n",
-        "| Shipping          | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |\n",
-        "| Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023]                                          |\n",
-        "| Childcare         | Generate personalized bedtime stories                                                                                                       |\n",
-        "| Design Tools      | @DavidHoangHow2024                                                                                                                          |\n",
+        "| Field of Usage | Description |\n",
+        "|-------------------------|------------------------------------------------|\n",
+        "| Shipping | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |\n",
+        "| Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023] |\n",
+        "| Childcare | Generate personalized bedtime stories |\n",
+        "| Design Tools | @DavidHoangHow2024 |\n",
         "\n",
         ": A very small illustration of generative AI usage across disparate fields of human life.\n",
         "\n",
@@ -2800,7 +2806,7 @@
         "\n",
         "@guptaDesigningAIChatbot2023 proposes 3 simple goals for AI:\n",
         "\n",
-        "| 1                       | 2                    | 3                                            |\n",
+        "| 1 | 2 | 3 |\n",
         "|--------------------|-------------------|---------------------------------|\n",
         "| Reduce the time to task | Make the task easier | Personalize the experience for an individual |\n",
         "\n",
@@ -2922,13 +2928,13 @@
         "\n",
         "Should AIs look anthropomorphic or fade in the background? It's an open question. Perhaps we can expect a mix of both depending on the context of use and goals of the particular AI.\n",
         "\n",
-        "| Anthropomorphic AI User Interfaces                                | Non-Anthropomorphic AI User Interfaces                                                                                                                   |\n",
+        "| Anthropomorphic AI User Interfaces | Non-Anthropomorphic AI User Interfaces |\n",
         "|-------------------------|-----------------------------------------------|\n",
-        "| AI wife [@MyWifeDead2023]                                         | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |\n",
-        "| [@sarahperezCharacterAIA16zbacked2023] character AI               | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020]                                                                                       |\n",
-        "| mourning 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023]                                           |\n",
-        "| AI for therapy [@broderickPeopleAreUsing2023]                     | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023]                                                              |\n",
-        "| Mental health uses: AI for bullying [@sungParentsWorryTeens2023]  |                                                                                                                                                          |\n",
+        "| AI wife [@MyWifeDead2023] | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |\n",
+        "| [@sarahperezCharacterAIA16zbacked2023] character AI | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020] |\n",
+        "| mourning 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023] |\n",
+        "| AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |\n",
+        "| Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |\n",
         "\n",
         ": Some notable examples of anthropomorphic AIs for human emotions.\n",
         "\n",
@@ -2959,25 +2965,25 @@
         "\n",
         "There have been dozens of AI-characters in the movies, TV-series, games, and (comic) books. In most cases, they have a physical presence or a voice, so they could be visible for the viewers. Some include KITT (Knight Industries Two Thousand).\n",
         "\n",
-        "| Movie / Series / Game / Book   | Character              | Positive | Ambivalent | Negative |\n",
+        "| Movie / Series / Game / Book | Character | Positive | Ambivalent | Negative |\n",
         "|---------------|---------------|---------------|---------------|---------------|\n",
-        "| 2001: A Space Odyssey          | HAL 9000               |          |            | X        |\n",
-        "| Her                            | Samantha               | X        |            |          |\n",
-        "| Alien                          | MU/TH/UR 6000 (Mother) | X        |            |          |\n",
-        "| Terminator                     | Skynet                 |          |            | X        |\n",
-        "| Summer Wars                    | Love Machine           |          |            | X        |\n",
-        "| Marvel Cinematic Universe      | Jarvis, Friday         | X        |            |          |\n",
-        "| Knight Rider                   | KITT                   | X        |            |          |\n",
-        "|                                | CARR                   |          |            | X        |\n",
-        "| Star Trek                      | Data                   | X        |            |          |\n",
-        "|                                | Lore                   |          |            | X        |\n",
-        "| Ex Machina                     | Kyoko                  |          | X          |          |\n",
-        "|                                | Ava                    |          | X          |          |\n",
-        "| Tron                           | Tron                   |          | X          |          |\n",
-        "| Neuromancer                    | Wintermute             |          | X          |          |\n",
-        "| The Caves of Steel / Naked Sun | R. Daneel Olivaw       |          | X          |          |\n",
-        "| The Robots of Dawn             | R. Giskard Reventlov   |          | X          |          |\n",
-        "| Portal                         | GLaDOS                 |          |            | X        |\n",
+        "| 2001: A Space Odyssey | HAL 9000 |  |  | X |\n",
+        "| Her | Samantha | X |  |  |\n",
+        "| Alien | MU/TH/UR 6000 (Mother) | X |  |  |\n",
+        "| Terminator | Skynet |  |  | X |\n",
+        "| Summer Wars | Love Machine |  |  | X |\n",
+        "| Marvel Cinematic Universe | Jarvis, Friday | X |  |  |\n",
+        "| Knight Rider | KITT | X |  |  |\n",
+        "|  | CARR |  |  | X |\n",
+        "| Star Trek | Data | X |  |  |\n",
+        "|  | Lore |  |  | X |\n",
+        "| Ex Machina | Kyoko |  | X |  |\n",
+        "|  | Ava |  | X |  |\n",
+        "| Tron | Tron |  | X |  |\n",
+        "| Neuromancer | Wintermute |  | X |  |\n",
+        "| The Caves of Steel / Naked Sun | R. Daneel Olivaw |  | X |  |\n",
+        "| The Robots of Dawn | R. Giskard Reventlov |  | X |  |\n",
+        "| Portal | GLaDOS |  |  | X |\n",
         "\n",
         ": AIs in different forms of media.\n",
         "\n",
@@ -3048,13 +3054,13 @@
         "\n",
         "The Oxford Internet Institute defines AI simply as ***\"computer programming that learns and adapts\"*** @googleAZAI2022. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI @googleGooglePresentsAI2022. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.\n",
         "\n",
-        "| Product                 | Link                                      | Description                     |\n",
+        "| Product | Link | Description |\n",
         "|-------------------|------------------------------|-----------------------|\n",
-        "| Github CoPilot          | personal.ai                               | AI helper for coding            |\n",
-        "| Google Translate        | translate.google.com                      |                                 |\n",
-        "| Google Search           | google.com                                |                                 |\n",
-        "| Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool                |\n",
-        "| Perplexity              | @hinesPerplexityAnnouncesAI2023           | perplexity.ai chat-based search |\n",
+        "| Github CoPilot | personal.ai | AI helper for coding |\n",
+        "| Google Translate | translate.google.com |  |\n",
+        "| Google Search | google.com |  |\n",
+        "| Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool |\n",
+        "| Perplexity | @hinesPerplexityAnnouncesAI2023 | perplexity.ai chat-based search |\n",
         "\n",
         "::: {.content-hidden unless-format=\"pdf\"}\n",
         "![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/with-me.png){width=\"60%\"}\n",
@@ -3109,19 +3115,19 @@
         "\n",
         "Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.\n",
         "\n",
-        "| App                     | Description                                            |\n",
+        "| App | Description |\n",
         "|-------------------------|-----------------------------------------------|\n",
         "| Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |\n",
-        "| Klima                   | Offset Subscription                                    |\n",
-        "| Wren                    | Offset Subscription                                    |\n",
-        "| JouleBug                |                                                        |\n",
-        "| eevie                   |                                                        |\n",
-        "| Aerial                  |                                                        |\n",
-        "| EcoCRED                 |                                                        |\n",
-        "| Carbn                   |                                                        |\n",
-        "| LiveGreen               |                                                        |\n",
-        "| Earth Hero              |                                                        |\n",
-        "|                         |                                                        |\n",
+        "| Klima | Offset Subscription |\n",
+        "| Wren | Offset Subscription |\n",
+        "| JouleBug |  |\n",
+        "| eevie |  |\n",
+        "| Aerial |  |\n",
+        "| EcoCRED |  |\n",
+        "| Carbn |  |\n",
+        "| LiveGreen |  |\n",
+        "| Earth Hero |  |\n",
+        "|  |  |\n",
         "\n",
         ": A selection of personal sustainability apps. See *greenfilter.app* for an updated database.\n",
         "\n",
@@ -3129,30 +3135,31 @@
         "\n",
         "This chapter looked at AI in general since its early history and then focused on AI assistants in particular.\n",
         "\n",
-        "| Category          | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n",
-        "|-----------------------|-------------------------------------------------|\n",
-        "| Voice Assistants  | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.                                                                                                                                                                                                                                                                                                               |\n",
-        "| Sustainability    | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products.                                                                                                                                                                      |\n",
-        "| Sustainability    | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |\n",
-        "| Machine Learning  | All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).                                                                                                                  |\n",
-        "| Character Design  | I'm a digital companion, a partner, an assistant. I'm a Replika.\" said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.                                                                                                                                                                                                                                                                                                                                           |\n",
-        "| Psychology        | Humans respond better to humans?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |\n",
-        "| Psychology        | Humans respond better to machines that into account emotion?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n",
-        "| Open Source       | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |\n",
-        "| User Experience   | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.                                                                                                                                                                                                                                                                                                                                                                                  |\n",
-        "| LLMs              | Prompt engineering findings have significance for \"green filter\" as it validates the idea of creating advanced prompts for improved responses. For \"green filter\", the input would consist of detailed user data + sustainability data for detailed analysis.                                                                                                                                                                                                                                                                                                                              |\n",
-        "| Cuteness          | Cuter apps have higher retention?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |\n",
-        "| Transparency      | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n",
-        "| Anthropomorphism? |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
+        "| Category | Implication |\n",
+        "|------------------------|------------------------------------------------|\n",
+        "| Voice Assistants | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine. |\n",
+        "| Sustainability | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products. |\n",
+        "| Sustainability | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |\n",
+        "| Machine Learning | All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot). |\n",
+        "| Character Design | I'm a digital companion, a partner, an assistant. I'm a Replika.\" said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives. |\n",
+        "| Psychology | Humans respond better to humans? |\n",
+        "| Psychology | Humans respond better to machines that into account emotion? |\n",
+        "| Open Source | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source. |\n",
+        "| User Experience | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations. |\n",
+        "| LLMs | Prompt engineering findings have significance for \"green filter\" as it validates the idea of creating advanced prompts for improved responses. For \"green filter\", the input would consist of detailed user data + sustainability data for detailed analysis. |\n",
+        "| Cuteness | Cuter apps have higher retention? |\n",
+        "| Transparency | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human |\n",
+        "| Anthropomorphism? |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
+        "|  |  |\n",
         "\n",
         ": Design implications arising from this chapter.\n",
+        "\n",
         "\n",
         "---\n",
         "title: Money\n",
@@ -4301,6 +4308,7 @@
         "\n",
         "\\newpage\n",
         "\n",
+        "\n",
         "---\n",
         "title: Methodology\n",
         "sidebar_position: 4\n",
@@ -4440,6 +4448,7 @@
         "\n",
         "\\newpage\n",
         "\n",
+        "\n",
         "---\n",
         "title: Results\n",
         "sidebar_position: 5\n",
@@ -4528,6 +4537,7 @@
         "\n",
         "For NW make a Loom with the interfaces and talk about them?\n",
         "\n",
+        "\n",
         "---\n",
         "title: Shopping\n",
         "sidebar_position: 2\n",
@@ -4538,7 +4548,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "e22a8b53"
+      "id": "632211c7"
     },
     {
       "cell_type": "code",
@@ -4548,7 +4558,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "f71dae0f",
+      "id": "32e2d88a",
       "execution_count": null,
       "outputs": []
     },
@@ -4560,7 +4570,7 @@
         "\n",
         "### Boycott Count (Overall)"
       ],
-      "id": "28b031c9"
+      "id": "e957f97a"
     },
     {
       "cell_type": "code",
@@ -4568,7 +4578,7 @@
       "source": [
         "boycott_count()"
       ],
-      "id": "2796bb11",
+      "id": "cfb72bd8",
       "execution_count": null,
       "outputs": []
     },
@@ -4578,7 +4588,7 @@
       "source": [
         "### Why Boycott"
       ],
-      "id": "38d4cb10"
+      "id": "7242d775"
     },
     {
       "cell_type": "code",
@@ -4586,7 +4596,7 @@
       "source": [
         "why_boycott()"
       ],
-      "id": "e9986e53",
+      "id": "3ba8c61f",
       "execution_count": null,
       "outputs": []
     },
@@ -4596,7 +4606,7 @@
       "source": [
         "### Trusted Brands"
       ],
-      "id": "c5f4a7ac"
+      "id": "05795938"
     },
     {
       "cell_type": "code",
@@ -4604,7 +4614,7 @@
       "source": [
         "trusted_brands()"
       ],
-      "id": "38c49d0f",
+      "id": "7d6012bf",
       "execution_count": null,
       "outputs": []
     },
@@ -4616,7 +4626,7 @@
         "\n",
         "## Choice Experiments"
       ],
-      "id": "b136a704"
+      "id": "a24cacd0"
     },
     {
       "cell_type": "code",
@@ -4624,7 +4634,7 @@
       "source": [
         "visualize_shopping_data()"
       ],
-      "id": "37ad938d",
+      "id": "8d81fe3b",
       "execution_count": null,
       "outputs": []
     },
@@ -4642,7 +4652,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "ac5894fc"
+      "id": "fac82b3a"
     },
     {
       "cell_type": "code",
@@ -4653,7 +4663,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "573bebf6",
+      "id": "b3ab5888",
       "execution_count": null,
       "outputs": []
     },
@@ -4666,7 +4676,7 @@
         "\n",
         "## Shopping"
       ],
-      "id": "bb91b2c9"
+      "id": "3698d075"
     },
     {
       "cell_type": "code",
@@ -4674,7 +4684,7 @@
       "source": [
         "likert_single_chart(0)"
       ],
-      "id": "832c43f1",
+      "id": "d96483a3",
       "execution_count": null,
       "outputs": []
     },
@@ -4684,7 +4694,7 @@
       "source": [
         "## Saving and Investing"
       ],
-      "id": "31f32064"
+      "id": "ebabb9f0"
     },
     {
       "cell_type": "code",
@@ -4692,7 +4702,7 @@
       "source": [
         "likert_single_chart(1)"
       ],
-      "id": "9ee04fbb",
+      "id": "576a474c",
       "execution_count": null,
       "outputs": []
     },
@@ -4702,7 +4712,7 @@
       "source": [
         "## Economy"
       ],
-      "id": "3f82c856"
+      "id": "1eb2dda5"
     },
     {
       "cell_type": "code",
@@ -4710,7 +4720,7 @@
       "source": [
         "likert_single_chart(2)"
       ],
-      "id": "f0a5d0b5",
+      "id": "f6596348",
       "execution_count": null,
       "outputs": []
     },
@@ -4720,7 +4730,7 @@
       "source": [
         "## AI Usage"
       ],
-      "id": "4b65a8d6"
+      "id": "4b471654"
     },
     {
       "cell_type": "code",
@@ -4728,7 +4738,7 @@
       "source": [
         "likert_single_chart(3)"
       ],
-      "id": "b4e3536c",
+      "id": "57d1ffeb",
       "execution_count": null,
       "outputs": []
     },
@@ -4738,7 +4748,7 @@
       "source": [
         "## Nature"
       ],
-      "id": "af78b1f8"
+      "id": "f62e0c71"
     },
     {
       "cell_type": "code",
@@ -4746,7 +4756,7 @@
       "source": [
         "likert_single_chart(4)"
       ],
-      "id": "fffa3eea",
+      "id": "da6c0d1d",
       "execution_count": null,
       "outputs": []
     },
@@ -4756,7 +4766,7 @@
       "source": [
         "## Environmental Protection"
       ],
-      "id": "0bc1361a"
+      "id": "aa79a1b3"
     },
     {
       "cell_type": "code",
@@ -4764,7 +4774,7 @@
       "source": [
         "likert_single_chart(5)"
       ],
-      "id": "f0f46201",
+      "id": "fcac3561",
       "execution_count": null,
       "outputs": []
     },
@@ -4774,7 +4784,7 @@
       "source": [
         "## Learning Environment"
       ],
-      "id": "3301afd7"
+      "id": "1f83d9a8"
     },
     {
       "cell_type": "code",
@@ -4782,7 +4792,7 @@
       "source": [
         "likert_single_chart(6)"
       ],
-      "id": "656d6345",
+      "id": "2fcee4c8",
       "execution_count": null,
       "outputs": []
     },
@@ -4792,7 +4802,7 @@
       "source": [
         "## Correlations Between Fields"
       ],
-      "id": "bb4a8a5d"
+      "id": "2e511eb0"
     },
     {
       "cell_type": "code",
@@ -4800,7 +4810,7 @@
       "source": [
         "correlation_network()"
       ],
-      "id": "a267b4db",
+      "id": "a5535c69",
       "execution_count": null,
       "outputs": []
     },
@@ -4811,7 +4821,7 @@
         "## Environmental Knowledge Ranking Experiment\n",
         "Test knowledge about the environment."
       ],
-      "id": "8a7cb083"
+      "id": "575a346a"
     },
     {
       "cell_type": "code",
@@ -4819,7 +4829,7 @@
       "source": [
         "ecosystem_sensitivity()"
       ],
-      "id": "c7458f7b",
+      "id": "c2d0a3f5",
       "execution_count": null,
       "outputs": []
     },
@@ -4837,7 +4847,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "26b26524"
+      "id": "565a779e"
     },
     {
       "cell_type": "code",
@@ -4847,7 +4857,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "67fc6e4b",
+      "id": "b6019244",
       "execution_count": null,
       "outputs": []
     },
@@ -4860,7 +4870,7 @@
         "\n",
         "### Investing Experience (Overall)"
       ],
-      "id": "67ff2919"
+      "id": "f3a9b4de"
     },
     {
       "cell_type": "code",
@@ -4868,7 +4878,7 @@
       "source": [
         "investment_count()"
       ],
-      "id": "6459df97",
+      "id": "9a6e31ef",
       "execution_count": null,
       "outputs": []
     },
@@ -4880,7 +4890,7 @@
         "\n",
         "Question: 你/妳選哪個投資？Which investment do you choose?"
       ],
-      "id": "846d6c22"
+      "id": "516c00a4"
     },
     {
       "cell_type": "code",
@@ -4888,7 +4898,7 @@
       "source": [
         "investment_data()"
       ],
-      "id": "d7a571ee",
+      "id": "0d4788ea",
       "execution_count": null,
       "outputs": []
     },
@@ -4906,7 +4916,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "77f153a5"
+      "id": "ba8080d9"
     },
     {
       "cell_type": "code",
@@ -4916,7 +4926,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "2acbc5a6",
+      "id": "f4f1f8d6",
       "execution_count": null,
       "outputs": []
     },
@@ -4934,7 +4944,7 @@
         "\n",
         "- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings.\n"
       ],
-      "id": "7f947ed5"
+      "id": "16e83f39"
     },
     {
       "cell_type": "code",
@@ -4942,7 +4952,7 @@
       "source": [
         "show_personas()"
       ],
-      "id": "e1e62774",
+      "id": "35b070f3",
       "execution_count": null,
       "outputs": []
     },
@@ -4953,7 +4963,7 @@
         "### Persona 1: \"Eco-Friendly\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "361ea8dd"
+      "id": "9ce38ce0"
     },
     {
       "cell_type": "code",
@@ -4961,7 +4971,7 @@
       "source": [
         "show_single_persona(0)"
       ],
-      "id": "e302183e",
+      "id": "d8663b63",
       "execution_count": null,
       "outputs": []
     },
@@ -4972,7 +4982,7 @@
         "### Persona 2: \"Moderate\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "63b0ab79"
+      "id": "ac88a26a"
     },
     {
       "cell_type": "code",
@@ -4980,7 +4990,7 @@
       "source": [
         "show_single_persona(1)"
       ],
-      "id": "8de49d9e",
+      "id": "bdeb2c49",
       "execution_count": null,
       "outputs": []
     },
@@ -4991,7 +5001,7 @@
         "### Persona 3: \"Frugal\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "110e597a"
+      "id": "150e794a"
     },
     {
       "cell_type": "code",
@@ -4999,7 +5009,7 @@
       "source": [
         "show_single_persona(2)"
       ],
-      "id": "8ae28bbd",
+      "id": "8e116949",
       "execution_count": null,
       "outputs": []
     },
@@ -5009,7 +5019,7 @@
       "source": [
         "## Clustering Heatmap"
       ],
-      "id": "cd913869"
+      "id": "4273681b"
     },
     {
       "cell_type": "code",
@@ -5017,7 +5027,7 @@
       "source": [
         "show_clustering_heatmap()"
       ],
-      "id": "797370f7",
+      "id": "49c38bea",
       "execution_count": null,
       "outputs": []
     },
@@ -5028,7 +5038,7 @@
         "## Mean Answer Scores\n",
         "Mean response values for each Likert question in each cluster:"
       ],
-      "id": "f6d48079"
+      "id": "b50b528e"
     },
     {
       "cell_type": "code",
@@ -5036,7 +5046,7 @@
       "source": [
         "get_kmeans_table()"
       ],
-      "id": "558d9288",
+      "id": "e0f5e015",
       "execution_count": null,
       "outputs": []
     },
@@ -5047,7 +5057,7 @@
         "## Agreement between personas\n",
         "Highest agreement between personas is about health, safety, pollution and climate concerns."
       ],
-      "id": "61b261b0"
+      "id": "f9eb453e"
     },
     {
       "cell_type": "code",
@@ -5055,7 +5065,7 @@
       "source": [
         "treemap()"
       ],
-      "id": "3fe9a5a8",
+      "id": "6db5b08c",
       "execution_count": null,
       "outputs": []
     },
@@ -5073,7 +5083,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "62719fa0"
+      "id": "c6c91f43"
     },
     {
       "cell_type": "code",
@@ -5081,7 +5091,7 @@
       "source": [
         "from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles"
       ],
-      "id": "f2533860",
+      "id": "d6c9ed5a",
       "execution_count": null,
       "outputs": []
     },
@@ -5094,7 +5104,7 @@
         "### Likert-Based Clustering\n",
         "AI-assistant feature choices per Likert-based Personas"
       ],
-      "id": "6bc26326"
+      "id": "509ca1af"
     },
     {
       "cell_type": "code",
@@ -5102,7 +5112,7 @@
       "source": [
         "likert_cluster_and_visualize()"
       ],
-      "id": "a633327e",
+      "id": "080284ca",
       "execution_count": null,
       "outputs": []
     },
@@ -5133,7 +5143,7 @@
         "\n",
         "### Feature Preferences (Overall)"
       ],
-      "id": "6dea1cd7"
+      "id": "3148a3c2"
     },
     {
       "cell_type": "code",
@@ -5141,7 +5151,7 @@
       "source": [
         "radar_chart()"
       ],
-      "id": "fad10d29",
+      "id": "89f8b9e1",
       "execution_count": null,
       "outputs": []
     },
@@ -5151,7 +5161,7 @@
       "source": [
         "## Feature Preferences (By Cluster)"
       ],
-      "id": "8b63d4b4"
+      "id": "42d832d8"
     },
     {
       "cell_type": "code",
@@ -5159,7 +5169,7 @@
       "source": [
         "plot_feature_preferences()"
       ],
-      "id": "aad4cd03",
+      "id": "ec0a59d2",
       "execution_count": null,
       "outputs": []
     },
@@ -5169,7 +5179,7 @@
       "source": [
         "## Preferred AI Roles (Overall)"
       ],
-      "id": "86a11221"
+      "id": "99fdae57"
     },
     {
       "cell_type": "code",
@@ -5177,7 +5187,7 @@
       "source": [
         "ai_roles()"
       ],
-      "id": "44c73996",
+      "id": "08984353",
       "execution_count": null,
       "outputs": []
     },
@@ -5203,6 +5213,7 @@
         "\n",
         "\n",
         "\\newpage\n",
+        "\n",
         "\n",
         "---\n",
         "title: Discussion\n",
@@ -5482,6 +5493,7 @@
         "\n",
         "## User Survey\n",
         "\n",
+        "and a including a choice experiment between potential feature sets in consumption, savings, and investment.\n",
         "\n",
         "Start with a simple but powerful question:\n",
         "— Does it matter what you buy?\n",
@@ -5515,6 +5527,7 @@
         "\n",
         "\n",
         "\\newpage\n",
+        "\n",
         "\n",
         "---\n",
         "title: Prototypes\n",
@@ -5647,6 +5660,7 @@
         "\n",
         "-   My thesis is that a lot of people want to do good, shop eco-friendly, invest green, etc. But they don't believe the solutions work. They don't have trust. This is a user interface issue. How to build trust.\n",
         "\n",
+        "\n",
         "---\n",
         "title: Early Feature Ideas\n",
         "sidebar_position: 1\n",
@@ -5763,6 +5777,7 @@
         "- [@raykurzweilIntroducingSemanticExperiences2018]\n",
         "- [@baileyAIEducation2023]\n",
         "\n",
+        "\n",
         "---\n",
         "title: Interactive Prototype\n",
         "sidebar_position: 1\n",
@@ -5825,6 +5840,7 @@
         "- 7 app wuestions\n",
         "- 63 pwrsonality wuestion\n",
         "\n",
+        "\n",
         "---\n",
         "title: Testing\n",
         "sidebar_position: 8\n",
@@ -5850,14 +5866,14 @@
         "![App Testing Flow](./images/app-testing-flow.png){width=\"100%\"}\n",
         ":::\n",
         "\n",
-        "```{=mdx}\n",
+        "```{=md977hjhbbhx}\n",
         "<Figure caption=\"App Testing Flow\" src={AppTestingFlow} />\n",
         "```\n",
         "\n",
         "## Testing Period\n",
         "\n",
         "- 1 month from 2024 April 2 to May 2, 2024\n",
-        "- 30 individual participants\n",
+        "- 30 individual participantsbö\n",
         "\n",
         "## Testing\n",
         "\n",
@@ -6111,14 +6127,14 @@
         "\n",
         "# References"
       ],
-      "id": "1ed03d11"
+      "id": "ee387ee3"
     }
   ],
   "metadata": {
     "kernelspec": {
-      "name": "python3",
+      "display_name": "Python 3",
       "language": "python",
-      "display_name": "Python 3 (ipykernel)"
+      "name": "python3"
     }
   },
   "nbformat": 4,
