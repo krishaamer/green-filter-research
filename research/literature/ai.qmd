@@ -133,6 +133,8 @@ Red-teaming means pushing the limits of LLMs, trying to get them to produce outp
 
 The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
 
+- Scaling laws of LLMs @kaplanScalingLawsNeural2020
+
 Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
 
 Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingKnowing1994] or "*keeping track of your own learning"* [@zerowasteeuropeZeroWasteHandbook2022].
@@ -183,6 +185,8 @@ There's wide literature available describing human-AI interactions across varied
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as decision-support for humans while differentiating between ***intended*** and ***unintended*** influence on human decisions.
 -   @chengInvestigationTrustAIenabled2022 describes AI-based support systems for collaboration and team-work.
 -   **Effective Accelerationism (often shortened to E\\acc) boils down to the idea that "**the potential for negative outcomes shouldn't deter rapid advancement"
+
+-   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
 
 ### Multi-modality
 
@@ -262,6 +266,10 @@ The content on the platform can be more important than the interface. Applicatio
 ### Guidelines
 
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004.
+
+Gates updated his ideas in 2023:
+https://www.gatesnotes.com/AI-agents
+
 
 As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="578.120462pt" height="584.32875pt" viewBox="0 0 578.120462 584.32875" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="597.760231pt" height="584.32875pt" viewBox="0 0 597.760231 584.32875" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-06-02T21:58:44.809058</dc:date>
+    <dc:date>2024-06-18T23:48:02.778543</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -22,51 +22,51 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 584.32875 
-L 578.120462 584.32875 
-L 578.120462 0 
+L 597.760231 584.32875 
+L 597.760231 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="LineCollection_1">
-    <path d="M 284.025419 425.726044 
-L 236.740584 424.852394 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.538682"/>
-    <path d="M 472.562847 529.019659 
-L 519.638744 526.740998 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.541787"/>
-    <path d="M 159.296844 374.765019 
-L 105.073673 391.519118 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.482188"/>
-    <path d="M 279.770229 248.494055 
-L 259.995479 279.282429 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.611205"/>
-    <path d="M 279.770229 248.494055 
-L 318.899921 204.033771 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.422027"/>
-    <path d="M 112.51339 88.617901 
-L 58.481719 70.837841 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.513995"/>
-    <path d="M 112.51339 88.617901 
-L 170.846697 79.026342 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.40776"/>
-    <path d="M 318.899921 204.033771 
-L 253.444659 188.108001 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.426699"/>
-    <path d="M 318.899921 204.033771 
-L 382.48013 215.622927 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.461191"/>
-    <path d="M 318.899921 204.033771 
-L 374.508312 164.277501 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.433664"/>
-    <path d="M 374.508312 164.277501 
-L 420.162225 134.305885 
-" clip-path="url(#p0f2b2715d6)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.449204"/>
+    <path d="M 542.138744 86.672643 
+L 505.219806 70.837841 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.538682"/>
+    <path d="M 318.924392 172.785595 
+L 348.779163 208.755752 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.541787"/>
+    <path d="M 447.52615 529.019659 
+L 475.906451 507.097291 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.482188"/>
+    <path d="M 227.779714 241.840039 
+L 244.076036 279.184992 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.611205"/>
+    <path d="M 227.779714 241.840039 
+L 228.783518 188.189883 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.422027"/>
+    <path d="M 85.383528 354.476013 
+L 92.173945 386.305567 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.513995"/>
+    <path d="M 85.383528 354.476013 
+L 80.981719 318.669527 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.40776"/>
+    <path d="M 228.783518 188.189883 
+L 195.881243 146.77436 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.426699"/>
+    <path d="M 228.783518 188.189883 
+L 155.874727 177.675067 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.461191"/>
+    <path d="M 228.783518 188.189883 
+L 328.762705 186.555338 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.433664"/>
+    <path d="M 328.762705 186.555338 
+L 406.863766 180.136348 
+" clip-path="url(#p8d17ea0eb5)" style="fill: none; stroke: #808080; stroke-opacity: 0.5; stroke-width: 0.449204"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="m8cacd26a43" d="M 0 11.18034 
+     <path id="m6ede789fc4" d="M 0 11.18034 
 C 2.965061 11.18034 5.80908 10.002309 7.905694 7.905694 
 C 10.002309 5.80908 11.18034 2.965061 11.18034 0 
 C 11.18034 -2.965061 10.002309 -5.80908 7.905694 -7.905694 
@@ -78,28 +78,28 @@ C -5.80908 10.002309 -2.965061 11.18034 0 11.18034
 z
 " style="stroke: #000000"/>
     </defs>
-    <g clip-path="url(#p0f2b2715d6)">
-     <use xlink:href="#m8cacd26a43" x="284.025419" y="425.726044" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="236.740584" y="424.852394" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="472.562847" y="529.019659" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="519.638744" y="526.740998" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="159.296844" y="374.765019" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="105.073673" y="391.519118" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="279.770229" y="248.494055" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="259.995479" y="279.282429" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="112.51339" y="88.617901" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="58.481719" y="70.837841" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="170.846697" y="79.026342" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="318.899921" y="204.033771" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="253.444659" y="188.108001" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="382.48013" y="215.622927" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="374.508312" y="164.277501" style="fill: #add8e6; stroke: #000000"/>
-     <use xlink:href="#m8cacd26a43" x="420.162225" y="134.305885" style="fill: #add8e6; stroke: #000000"/>
+    <g clip-path="url(#p8d17ea0eb5)">
+     <use xlink:href="#m6ede789fc4" x="542.138744" y="86.672643" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="505.219806" y="70.837841" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="318.924392" y="172.785595" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="348.779163" y="208.755752" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="447.52615" y="529.019659" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="475.906451" y="507.097291" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="227.779714" y="241.840039" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="244.076036" y="279.184992" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="85.383528" y="354.476013" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="92.173945" y="386.305567" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="80.981719" y="318.669527" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="228.783518" y="188.189883" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="195.881243" y="146.77436" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="155.874727" y="177.675067" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="328.762705" y="186.555338" style="fill: #add8e6; stroke: #000000"/>
+     <use xlink:href="#m6ede789fc4" x="406.863766" y="180.136348" style="fill: #add8e6; stroke: #000000"/>
     </g>
    </g>
    <g id="text_1">
     <!-- 你/妳7年內買房嗎？🏡 -->
-    <g transform="translate(239.399481 428.291044) scale(0.09 -0.09)">
+    <g transform="translate(497.512806 89.237643) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-4f60" d="M 3072 5280 
 L 3264 5242 
@@ -771,7 +771,7 @@ z
    </g>
    <g id="text_2">
     <!-- 你/妳7年內買車嗎？🚘 -->
-    <g transform="translate(192.114646 427.417394) scale(0.09 -0.09)">
+    <g transform="translate(460.593868 73.402841) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-8eca" d="M 621 4672 
 L 5792 4672 
@@ -853,7 +853,7 @@ z
    </g>
    <g id="text_3">
     <!-- 你/妳會經常存錢嗎？ -->
-    <g transform="translate(430.281128 531.499581) scale(0.09 -0.09)">
+    <g transform="translate(276.642673 175.265517) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-6703" d="M 1306 3302 
 L 1306 2182 
@@ -1419,7 +1419,7 @@ z
    </g>
    <g id="text_4">
     <!-- 你/妳會對金錢很節儉嗎？ -->
-    <g transform="translate(468.357025 529.22092) scale(0.09 -0.09)">
+    <g transform="translate(297.497444 211.235674) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-5c0d" d="M 3488 3494 
 L 6093 3494 
@@ -1954,7 +1954,7 @@ z
    </g>
    <g id="text_5">
     <!-- 你/妳會信任AI嗎？ -->
-    <g transform="translate(122.275203 377.244941) scale(0.09 -0.09)">
+    <g transform="translate(410.50451 531.499581) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-4fe1" d="M 2438 3322 
 L 5440 3322 
@@ -2105,7 +2105,7 @@ z
    </g>
    <g id="text_6">
     <!-- 你/妳會每天都用AI嗎？ -->
-    <g transform="translate(59.052033 393.99904) scale(0.09 -0.09)">
+    <g transform="translate(429.88481 509.577213) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-6bcf" d="M 1594 3622 
 L 5158 3622 
@@ -2420,7 +2420,7 @@ z
    </g>
    <g id="text_7">
     <!-- 你/妳對環境污染情況會感到焦慮嗎？ -->
-    <g transform="translate(205.98851 250.973977) scale(0.09 -0.09)">
+    <g transform="translate(153.997996 244.319961) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-74b0" d="M 314 4813 
 L 2016 4813 
@@ -3537,7 +3537,7 @@ z
    </g>
    <g id="text_8">
     <!-- 你/妳擔心氣候變化嗎？ -->
-    <g transform="translate(213.21376 281.762351) scale(0.09 -0.09)">
+    <g transform="translate(197.294317 281.664913) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-64d4" d="M 3328 5312 
 L 3520 5286 
@@ -4278,7 +4278,7 @@ z
    </g>
    <g id="text_9">
     <!-- 你/妳感覺自己和大自然很接近嗎？ -->
-    <g transform="translate(43.231671 91.097823) scale(0.09 -0.09)">
+    <g transform="translate(16.101809 356.955935) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-89ba" d="M 1645 1907 
 L 1645 1485 
@@ -5010,7 +5010,7 @@ z
    </g>
    <g id="text_10">
     <!-- 你/妳喜歡待在大自然嗎？ -->
-    <g transform="translate(7.2 73.317763) scale(0.09 -0.09)">
+    <g transform="translate(40.892226 388.785489) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-559c" d="M 1350 -32 
 L 5050 -32 
@@ -5385,7 +5385,7 @@ z
    </g>
    <g id="text_11">
     <!-- 你/妳知道許多植物和動物的名字嗎？ -->
-    <g transform="translate(97.064978 81.506264) scale(0.09 -0.09)">
+    <g transform="translate(7.2 321.149449) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-77e5" d="M 3635 474 
 L 5670 474 
@@ -6286,7 +6286,7 @@ z
    </g>
    <g id="text_12">
     <!-- 你/妳想做更多環保事嗎？ -->
-    <g transform="translate(267.618202 206.513693) scale(0.09 -0.09)">
+    <g transform="translate(177.501799 190.669805) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-60f3" d="M 1946 1235 
 L 2131 1235 
@@ -6691,7 +6691,7 @@ z
    </g>
    <g id="text_13">
     <!-- 你/妳努力實踐低碳生活嗎？ -->
-    <g transform="translate(197.662941 190.587923) scale(0.09 -0.09)">
+    <g transform="translate(140.099524 149.254282) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-52aa" d="M 3366 4890 
 L 5773 4890 
@@ -7424,7 +7424,7 @@ z
    </g>
    <g id="text_14">
     <!-- 你/妳對環境相關政治議題有興趣嗎？ -->
-    <g transform="translate(308.698411 218.102849) scale(0.09 -0.09)">
+    <g transform="translate(82.093008 180.154989) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-76f8" d="M 3194 3366 
 L 5741 3366 
@@ -8497,7 +8497,7 @@ z
    </g>
    <g id="text_15">
     <!-- 你/妳想在行業內推環保嗎？ -->
-    <g transform="translate(318.726593 166.757422) scale(0.09 -0.09)">
+    <g transform="translate(272.980986 189.03526) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-884c" d="M 2714 4909 
 L 5875 4909 
@@ -8758,7 +8758,7 @@ z
    </g>
    <g id="text_16">
     <!-- 你/妳的環保行動對環境保護有效果嗎？ -->
-    <g transform="translate(341.880506 136.785807) scale(0.09 -0.09)">
+    <g transform="translate(328.582047 182.61627) scale(0.09 -0.09)">
      <defs>
       <path id="NotoSansTC-Thin-8b77" d="M 570 3398 
 L 2246 3398 
@@ -9093,7 +9093,7 @@ z
    </g>
    <g id="text_17">
     <!-- Correlation Network -->
-    <g transform="translate(235.730544 16.72875) scale(0.12 -0.12)">
+    <g transform="translate(258.230544 16.72875) scale(0.12 -0.12)">
      <defs>
       <path id="NotoSansTC-Thin-43" d="M 2317 -83 
 Q 1888 -83 1536 86 
@@ -9409,8 +9409,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0f2b2715d6">
-   <rect x="10.060231" y="22.72875" width="558" height="554.4"/>
+  <clipPath id="p8d17ea0eb5">
+   <rect x="32.560231" y="22.72875" width="558" height="554.4"/>
   </clipPath>
  </defs>
 </svg>

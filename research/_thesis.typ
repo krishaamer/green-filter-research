@@ -162,10 +162,13 @@
         fill: background_color, 
         width: 100%, 
         inset: 8pt)[#text(icon_color, weight: 900)[#icon] #title]) +
-      block(
-        inset: 1pt, 
-        width: 100%, 
-        block(fill: white, width: 100%, inset: 8pt, body)))
+      if(body != []){
+        block(
+          inset: 1pt, 
+          width: 100%, 
+          block(fill: white, width: 100%, inset: 8pt, body))
+      }
+    )
 }
 
 
@@ -304,7 +307,7 @@ Keywords: Climate Anxiety, Human-AI Interaction, Digital Sustainability, Financi
 
 關鍵詞：氣候焦慮、人工智能互動、數位可持續性、財務行動主義、透明度、地球健康。
 
-- The abstract was translated to Chinese on May 22, 2024, using the Claude 3 Opus model and the translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.
+- The abstract was translated on May 22, 2024 using the Claude 3 Opus model. Translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.
 
 #horizontalrule
 
@@ -314,17 +317,17 @@ title: Introduction sidebar\_position: 2 editor: render-on-save: false suppress-
 
 = Introduction
 <introduction>
-How can college students build closer relationships with sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact.
+How can college students find sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact and helpo build closer relationships with sustainability.
 
 == Research Relevance
 <research-relevance>
-My research is timely in 2024 because of the convergence of 5 trends:
+My research is timely in 2024 because of the convergence of the following 5 major trending themes:
 
 #figure(
   align(center)[#table(
     columns: (100%),
     align: (auto,),
-    table.header([Supernarratives aka Major Trending Themes],),
+    table.header([Supernarratives],),
     table.hline(),
     [Increasing environmental degradation],
     [Increasing interest in sustainability among young people],
@@ -332,7 +335,7 @@ My research is timely in 2024 because of the convergence of 5 trends:
     [Increasing availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments],
     [Increasing availability and adoption of generative AI-based user interfaces],
   )]
-  , caption: [Trends backing the relevance of this research.]
+  , caption: [Current trends backing the relevance of this research.]
   , kind: table
   )
 
@@ -388,7 +391,7 @@ My research aims to answer the following questions.
 
 #figure(
   align(center)[#table(
-    columns: (24.66%, 43.84%, 31.51%),
+    columns: (26.39%, 41.67%, 31.94%),
     align: (auto,auto,auto,),
     table.header([№], [Question], [Methods],),
     table.hline(),
@@ -1743,7 +1746,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste #
 - #cite(<ChallengesOpportunitiesSustainable2022>, form: "prose")
 - #cite(<ProteinBrandsConsumers2022>, form: "prose")
 - #cite(<DetailrichSustainablePackaging2010>, form: "prose")
-- #cite(<lernerHowCocaColaUndermines2019>, form: "prose") Coca Cola plastic pollution
+- @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. @foleyRestoringTrustESG2024 notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
 - #cite(<SulapacReplacingPlastic>, form: "prose")
 
 === Factories Can Become More Transparent
@@ -3044,6 +3047,8 @@ The content on the platform can be more important than the interface. Applicatio
 <guidelines>
 Microsoft Co-Founder predicted in 1982 #emph["personal agents that help us get a variety of tasks"] @billgatesBillGatesNext1982 and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings @tashkeunemanWeLoveHate2022. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying #emph["If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"] #cite(<lohrMicrosoftDwindlingInterest2004>, form: "prose");.
 
+Gates updated his ideas in 2023: https:\/\/www.gatesnotes.com/AI-agents
+
 As late as in 2017, scientists were trying to create a program with enough #emph[natural-language understanding] to extract basic facts from scientific papers #cite(<stocktonIfAICan2017>, form: "prose")
 
 Might we try again?
@@ -3590,7 +3595,7 @@ What if 10% of consumer spending went for climate?
 
 #figure(
   align(center)[#table(
-    columns: (69.44%, 30.56%),
+    columns: (68.06%, 31.94%),
     align: (auto,auto,),
     table.header([High-Value Assets (Trillions of USD)], [],),
     table.hline(),
@@ -3643,7 +3648,7 @@ The first two decades of the 21st century have seen a flurry of new economic thi
 
 ==== New Metrics
 <new-metrics>
-- In taiwan, the #emph[FTSE4Good TIP Taiwan ESG Index] tracks ESG-rated companies on the Taipei stock market @taiwanindexTIPTaiWanZhiShuGongSi2024.
+- In Taiwan, the #emph[FTSE4Good TIP Taiwan ESG Index] tracks ESG-rated companies on the Taipei stock market @taiwanindexTIPTaiWanZhiShuGongSi2024.
 
 Degrowth proponents are pessimistic it’s possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
@@ -3939,7 +3944,7 @@ Banks and Fintech are becoming more similar than ever.
 
 #figure(
   align(center)[#table(
-    columns: (25%, 50%, 25%),
+    columns: (25.68%, 48.65%, 25.68%),
     align: (auto,auto,auto,),
     [Service], [Features], [Availability],
     [Goodments], [Matching investment vehicles to user’s environmental, social, ethical values], [USA],
@@ -4710,7 +4715,7 @@ There’s a growing number of companies helping businesses to measure CO2e emiss
 <design-implications-4>
 #figure(
   align(center)[#table(
-    columns: (26.39%, 73.61%),
+    columns: (27.78%, 72.22%),
     align: (auto,auto,),
     table.header([Category], [Implication],),
     table.hline(),
@@ -5941,11 +5946,6 @@ https:\/\/www.youtube.com/watch?v=GHMAboJvLCU
 https:\/\/www.youtube.com/watch?v=xLszCaeUWig
 
 https:\/\/www.carbonequity.com/what-we-offer
-
-= References
-<references>
-
-
 
 #bibliography("ref.bib")
 

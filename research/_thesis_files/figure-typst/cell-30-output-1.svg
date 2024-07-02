@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-06-02T21:58:54.344834</dc:date>
+    <dc:date>2024-06-18T23:48:09.784662</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,7 +35,7 @@ L 275.582186 468.117656
 L 275.582186 324.757656 
 L 7.2 324.757656 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #9e0142; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #9e0142; opacity: 0.8"/>
    </g>
    <g id="patch_3">
     <path d="M 7.2 324.757656 
@@ -43,7 +43,7 @@ L 275.582186 324.757656
 L 275.582186 154.517656 
 L 7.2 154.517656 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #e2514a; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #e2514a; opacity: 0.8"/>
    </g>
    <g id="patch_4">
     <path d="M 7.2 154.517656 
@@ -51,7 +51,7 @@ L 275.582186 154.517656
 L 275.582186 24.597656 
 L 7.2 24.597656 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #fca55d; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #fca55d; opacity: 0.8"/>
    </g>
    <g id="patch_5">
     <path d="M 275.582186 468.117656 
@@ -59,7 +59,7 @@ L 488.349209 468.117656
 L 488.349209 270.33171 
 L 275.582186 270.33171 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #fee999; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #fee999; opacity: 0.8"/>
    </g>
    <g id="patch_6">
     <path d="M 488.349209 468.117656 
@@ -67,7 +67,7 @@ L 676.8 468.117656
 L 676.8 270.33171 
 L 488.349209 270.33171 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #edf8a3; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #edf8a3; opacity: 0.8"/>
    </g>
    <g id="patch_7">
     <path d="M 275.582186 270.33171 
@@ -75,7 +75,7 @@ L 481.083993 270.33171
 L 481.083993 24.597656 
 L 275.582186 24.597656 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #a2d9a4; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #a2d9a4; opacity: 0.8"/>
    </g>
    <g id="patch_8">
     <path d="M 481.083993 270.33171 
@@ -83,7 +83,7 @@ L 676.8 270.33171
 L 676.8 24.597656 
 L 481.083993 24.597656 
 z
-" clip-path="url(#p6b8694731d)" style="fill: #47a0b3; opacity: 0.8"/>
+" clip-path="url(#pa0506df430)" style="fill: #47a0b3; opacity: 0.8"/>
    </g>
    <g id="text_1">
     <!-- Ethical Consumption and Labor Concerns -->
@@ -1369,7 +1369,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p6b8694731d">
+  <clipPath id="pa0506df430">
    <rect x="7.2" y="24.597656" width="669.6" height="443.52"/>
   </clipPath>
  </defs>

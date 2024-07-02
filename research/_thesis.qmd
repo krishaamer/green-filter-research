@@ -1,7 +1,7 @@
 ---
 title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
 author: "Kris Haamer"
-bibliography: ref.bib
+bibliography: [ref.bib]
 csl: harvard.csl
 format:
   pdf: 
@@ -84,13 +84,3 @@ warnings.filterwarnings("ignore")
 {{< include "prototypes/testing.qmd" >}}
 
 \newpage
-
-
-
-\newpage
-
-
-
-\newpage
-
-# References

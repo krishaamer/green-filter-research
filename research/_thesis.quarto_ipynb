@@ -7,7 +7,7 @@
         "---\n",
         "title: \"The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing\"\n",
         "author: \"Kris Haamer\"\n",
-        "bibliography: ref.bib\n",
+        "bibliography: [ref.bib]\n",
         "csl: harvard.csl\n",
         "format:\n",
         "  pdf: \n",
@@ -25,7 +25,7 @@
         "  render-on-save: false\n",
         "---"
       ],
-      "id": "0b1666b4"
+      "id": "8a72afdc"
     },
     {
       "cell_type": "code",
@@ -37,7 +37,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "1a3038c5",
+      "id": "92b92ef4",
       "execution_count": null,
       "outputs": []
     },
@@ -50,7 +50,7 @@
         "\n",
         "---"
       ],
-      "id": "e0223fdf"
+      "id": "72cea3ee"
     },
     {
       "cell_type": "markdown",
@@ -104,7 +104,7 @@
         "關鍵詞：氣候焦慮、人工智能互動、數位可持續性、財務行動主義、透明度、地球健康。\n",
         "\n",
         "\n",
-        "* The abstract was translated to Chinese on May 22, 2024, using the Claude 3 Opus model and the translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.\n",
+        "* The abstract was translated on May 22, 2024 using the Claude 3 Opus model. Translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.\n",
         "\n",
         "\n",
         "\n",
@@ -130,13 +130,13 @@
         "```\n",
         "# Introduction\n",
         "\n",
-        "How can college students build closer relationships with sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact.\n",
+        "How can college students find sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact and helpo build closer relationships with sustainability.\n",
         "\n",
         "## Research Relevance\n",
         "\n",
-        "My research is timely in 2024 because of the convergence of 5 trends:\n",
+        "My research is timely in 2024 because of the convergence of the following 5 major trending themes:\n",
         "\n",
-        "| Supernarratives aka Major Trending Themes |\n",
+        "| Supernarratives |\n",
         "|------------------------------------------------------------------------|\n",
         "| Increasing environmental degradation |\n",
         "| Increasing interest in sustainability among young people |\n",
@@ -144,7 +144,7 @@
         "| Increasing availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments |\n",
         "| Increasing availability and adoption of generative AI-based user interfaces |\n",
         "\n",
-        ": Trends backing the relevance of this research.\n",
+        ": Current trends backing the relevance of this research.\n",
         "\n",
         "## Research Background\n",
         "\n",
@@ -193,7 +193,7 @@
         "My research aims to answer the following questions.\n",
         "\n",
         "| № | Question | Methods |\n",
-        "|------------------|--------------------------------|-----------------------|\n",
+        "|-------------------|------------------------------|-----------------------|\n",
         "| 1 | In general, what are some trends in how sustainability interacts with AI, design, and finance? | Literature Review |\n",
         "| 2 | What are some fundamental requirements for designing an AI-assistant aiming to help college students participate in sustainable financial activism? | Literature Review and Expert Interviews |\n",
         "| 3 | What features do college students prioritize and what questions would they prefer to ask a sustainability AI assistant? | Survey (Taiwanese College Student) |\n",
@@ -812,7 +812,7 @@
         "\n",
         "@livingPlanetReport2022 reported, the number of species killed, mass destruction of nature. \"69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%).\""
       ],
-      "id": "4c89965a"
+      "id": "f9b8ae49"
     },
     {
       "cell_type": "code",
@@ -836,7 +836,7 @@
         "\n",
         "plt.show()"
       ],
-      "id": "8f307990",
+      "id": "bb77e990",
       "execution_count": null,
       "outputs": []
     },
@@ -1445,7 +1445,7 @@
         "-   @ChallengesOpportunitiesSustainable2022\n",
         "-   @ProteinBrandsConsumers2022\n",
         "-   @DetailrichSustainablePackaging2010\n",
-        "-   @lernerHowCocaColaUndermines2019 Coca Cola plastic pollution\n",
+        "-   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming \"water neutral\" and calls on companies to release more detailed information.\n",
         "-   @SulapacReplacingPlastic\n",
         "\n",
         "### Factories Can Become More Transparent\n",
@@ -1903,7 +1903,7 @@
         "\n",
         ": Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023]."
       ],
-      "id": "c1169e11"
+      "id": "894e1e30"
     },
     {
       "cell_type": "code",
@@ -1928,7 +1928,7 @@
         "plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])\n",
         "plt.show()"
       ],
-      "id": "1788f0e5",
+      "id": "796383f3",
       "execution_count": null,
       "outputs": []
     },
@@ -2687,6 +2687,10 @@
         "\n",
         "Microsoft Co-Founder predicted in 1982 *\"personal agents that help us get a variety of tasks\"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *\"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts\"* @lohrMicrosoftDwindlingInterest2004.\n",
         "\n",
+        "Gates updated his ideas in 2023:\n",
+        "https://www.gatesnotes.com/AI-agents\n",
+        "\n",
+        "\n",
         "As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017\n",
         "\n",
         "Might we try again?\n",
@@ -3192,7 +3196,7 @@
         "\n",
         "The theme for the 2023 Earth Day was *\"Invest In Our Planet\"*. The estimate for the global **financing gap for low-carbon energy production in 2016 was 5.2 Trillion USD** [@MappingGapRoad2016; @earthdayEarthDay20232023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional **4.1 Trillion USD** of financing in nature-based solution by 2050 to meet climate change, biodiversity, and land degradation targets [@unepUNEPGreenFinance2022]. And according to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower **2.5-3.2 Trillion USD** would be sufficient.\n",
         "\n",
-        "-   Robeco survey of 300 large global investors totalling $27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].\n",
+        "-   Robeco survey of 300 large global investors totalling \\$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].\n",
         "\n",
         "Even with massive financing going into sustainability, there's still a lack of investing.\n",
         "\n",
@@ -3202,38 +3206,38 @@
         "\n",
         "What if 10% of consumer spending went for climate?\n",
         "\n",
-        "| High-Value Assets (Trillions of USD)                                                    |           |\n",
-        "|--------------------------------------------------|----------------------|\n",
-        "| Global Real Estate (2020, valuation)                                                    | \\$326T    |\n",
-        "| Global Equity Markets (2023, valuation)                                                 | \\$108T    |\n",
-        "| Global GDP (2023, per year)                                                             | \\$105T    |\n",
-        "| Global GDP (2022, per year)                                                             | \\$100T    |\n",
-        "| *Global Pension Funds (2023, valuation)*                                                | *\\$47.9T* |\n",
-        "| U.S. Equity Markets (2023, valuation)                                                   | \\$46.2T   |\n",
-        "| U.S. National Debt (2023, valuation)                                                    | \\$32.6T   |\n",
-        "| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\\$30T*   |\n",
-        "| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \\$28.2T   |\n",
-        "| GDP of U.S.A. (2023, per year)                                                          | \\$26.8T   |\n",
-        "| GDP of China (2023, per year)                                                           | \\$19.3T   |\n",
-        "| Global Private Market Assets (2023, per year)                                           | \\$11.7T   |\n",
-        "| *Unpriced Externalities (2023, per year)*                                               | *\\$7.3T*  |\n",
-        "| Global E-Commerce Sales (2021, per year)                                                | \\$5.2T    |\n",
-        "| *Missing Climate Invesment (2022, total)*                                               | *\\$4.1T*  |\n",
-        "| Industrial & Commercial Bank of China (2019, total assets)                              | \\$4T      |\n",
-        "| Global Real Estate Sales (2021, per year)                                               | \\$3.7T    |\n",
-        "| Apple Computers (2023, market value)                                                    | \\$3T      |\n",
-        "| GDP of Japan (2023, per year)                                                           | \\$4.5T    |\n",
-        "| GDP of Germany (2023, per year)                                                         | \\$4.3T    |\n",
-        "| GDP of India (2023, per year)                                                           | \\$3.7T    |\n",
-        "| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \\$2.5T    |\n",
-        "| *Retail Investors (2023, liquid assets)*                                                | *\\$1.8T*  |\n",
-        "| Blackstone (2023, total assets)                                                         | \\$1T      |\n",
-        "| NVIDIA 英偉達 (2023, market value)                                                      | \\$0.9T    |\n",
-        "| GDP of Taiwan (2023, per year)                                                          | \\$0.8T    |\n",
-        "| Bitcoin (2023, market cap)                                                              | \\$0.5T    |\n",
-        "| GDP of Finland (2023)                                                                   | \\$0.3T    |\n",
-        "| Ethereum (2023, market cap)                                                             | \\$0.2T    |\n",
-        "| GDP of Estonia (2023, per year)                                                         | \\$0.04T   |\n",
+        "| High-Value Assets (Trillions of USD) |   |\n",
+        "|-------------------------------------------------|-----------------------|\n",
+        "| Global Real Estate (2020, valuation) | \\$326T |\n",
+        "| Global Equity Markets (2023, valuation) | \\$108T |\n",
+        "| Global GDP (2023, per year) | \\$105T |\n",
+        "| Global GDP (2022, per year) | \\$100T |\n",
+        "| *Global Pension Funds (2023, valuation)* | *\\$47.9T* |\n",
+        "| U.S. Equity Markets (2023, valuation) | \\$46.2T |\n",
+        "| U.S. National Debt (2023, valuation) | \\$32.6T |\n",
+        "| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\\$30T* |\n",
+        "| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \\$28.2T |\n",
+        "| GDP of U.S.A. (2023, per year) | \\$26.8T |\n",
+        "| GDP of China (2023, per year) | \\$19.3T |\n",
+        "| Global Private Market Assets (2023, per year) | \\$11.7T |\n",
+        "| *Unpriced Externalities (2023, per year)* | *\\$7.3T* |\n",
+        "| Global E-Commerce Sales (2021, per year) | \\$5.2T |\n",
+        "| *Missing Climate Invesment (2022, total)* | *\\$4.1T* |\n",
+        "| Industrial & Commercial Bank of China (2019, total assets) | \\$4T |\n",
+        "| Global Real Estate Sales (2021, per year) | \\$3.7T |\n",
+        "| Apple Computers (2023, market value) | \\$3T |\n",
+        "| GDP of Japan (2023, per year) | \\$4.5T |\n",
+        "| GDP of Germany (2023, per year) | \\$4.3T |\n",
+        "| GDP of India (2023, per year) | \\$3.7T |\n",
+        "| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \\$2.5T |\n",
+        "| *Retail Investors (2023, liquid assets)* | *\\$1.8T* |\n",
+        "| Blackstone (2023, total assets) | \\$1T |\n",
+        "| NVIDIA 英偉達 (2023, market value) | \\$0.9T |\n",
+        "| GDP of Taiwan (2023, per year) | \\$0.8T |\n",
+        "| Bitcoin (2023, market cap) | \\$0.5T |\n",
+        "| GDP of Finland (2023) | \\$0.3T |\n",
+        "| Ethereum (2023, market cap) | \\$0.2T |\n",
+        "| GDP of Estonia (2023, per year) | \\$0.04T |\n",
         "\n",
         ": Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]\n",
         "\n",
@@ -3251,7 +3255,7 @@
         "\n",
         "#### New Metrics\n",
         "\n",
-        "-   In taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].\n",
+        "-   In Taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].\n",
         "\n",
         "Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?\n",
         "\n",
@@ -3267,7 +3271,7 @@
         "\n",
         "We should measure wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a \"dashboard of indicators\" [@tedHealthyEconomyShould2018].\n",
         "\n",
-        "-   Trucost, a company lauched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015;@indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].\n",
+        "-   Trucost, a company lauched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].\n",
         "\n",
         "-   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.\n",
         "\n",
@@ -3508,9 +3512,10 @@
         "Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan's O Bank makes use of Mastercard's data to calculate each transaction's CO~2~ emissions[@TaiwanOBankLaunches2022].\n",
         "\n",
         "-   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.\n",
+        "\n",
         "-   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments.\n",
         "\n",
-        "- fundamenta analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.\n",
+        "-   fundamenta analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.\n",
         "\n",
         "Banks and Fintech are becoming more similar than ever.\n",
         "\n",
@@ -3531,35 +3536,35 @@
         "```\n",
         "-   The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:\n",
         "\n",
-        "|               |                                                                              |              |\n",
-        "|------------------|------------------------------------|------------------|\n",
-        "| Service       | Features                                                                     | Availability |\n",
-        "| Goodments     | Matching investment vehicles to user's environmental, social, ethical values | USA          |\n",
-        "| Wealthsimple  | AI-assisted saving & investing for Millennials                               | USA, UK      |\n",
-        "| Ellevest      | AI-assisted robo-advisory focused on female investors and women-led business | USA          |\n",
-        "| Betterment    | AI-assisted cash management, savings, retirement, and investing              | USA          |\n",
-        "| Earthfolio    | AI-assisted socially responsible investing                                   | USA          |\n",
-        "| Acorns        | AI-assisted micro-investing                                                  | USA          |\n",
-        "| Trine         | Loans to eco-projects                                                        | USA          |\n",
-        "| Single.Earth  | Nature-back cryptocurrency                                                   | Global       |\n",
-        "| Grünfin       | Invest in funds                                                              | EU           |\n",
-        "| M1 Finance    | Finance Super App                                                            | US           |\n",
-        "| Finimize      | Investment research for anyone                                               | US           |\n",
-        "| NerdWallet    | Financial clarity all in one place                                           | US           |\n",
-        "| Tomorrow Bank | Green Banking                                                                | EU           |\n",
-        "| Marcus Invest | Robo-Advisor                                                                 | US           |\n",
-        "| Chipper       | Digital cash app for African markets                                         | Africa       |\n",
-        "| Lightyear     | Simple UI for Stocks, ETFs, interest from Estonia                            | EU           |\n",
-        "| Ziglu         | UK simple investing app                                                      | UK           |\n",
-        "| Selma         | Finnish investing app                                                        | EU           |\n",
-        "| Monzo         |                                                                              | UK           |\n",
-        "| Nubank        |                                                                              | Brazil       |\n",
-        "| EToro         |                                                                              |              |\n",
-        "| Revolut       | From payments to investing                                                   | UK, EU       |\n",
-        "| Mos           | Banking for students                                                         |              |\n",
-        "| Robinhood     |                                                                              | US           |\n",
-        "| Mintos        | Buy bonds and loans                                                          | EU           |\n",
-        "|               |                                                                              |              |\n",
+        "|  |  |  |\n",
+        "|-------------------|------------------------------------|-------------------|\n",
+        "| Service | Features | Availability |\n",
+        "| Goodments | Matching investment vehicles to user's environmental, social, ethical values | USA |\n",
+        "| Wealthsimple | AI-assisted saving & investing for Millennials | USA, UK |\n",
+        "| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | USA |\n",
+        "| Betterment | AI-assisted cash management, savings, retirement, and investing | USA |\n",
+        "| Earthfolio | AI-assisted socially responsible investing | USA |\n",
+        "| Acorns | AI-assisted micro-investing | USA |\n",
+        "| Trine | Loans to eco-projects | USA |\n",
+        "| Single.Earth | Nature-back cryptocurrency | Global |\n",
+        "| Grünfin | Invest in funds | EU |\n",
+        "| M1 Finance | Finance Super App | US |\n",
+        "| Finimize | Investment research for anyone | US |\n",
+        "| NerdWallet | Financial clarity all in one place | US |\n",
+        "| Tomorrow Bank | Green Banking | EU |\n",
+        "| Marcus Invest | Robo-Advisor | US |\n",
+        "| Chipper | Digital cash app for African markets | Africa |\n",
+        "| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | EU |\n",
+        "| Ziglu | UK simple investing app | UK |\n",
+        "| Selma | Finnish investing app | EU |\n",
+        "| Monzo |  | UK |\n",
+        "| Nubank |  | Brazil |\n",
+        "| EToro |  |  |\n",
+        "| Revolut | From payments to investing | UK, EU |\n",
+        "| Mos | Banking for students |  |\n",
+        "| Robinhood |  | US |\n",
+        "| Mintos | Buy bonds and loans | EU |\n",
+        "|  |  |  |\n",
         "\n",
         ": Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).\n",
         "\n",
@@ -3819,7 +3824,7 @@
         "\n",
         "-   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.\n",
         "\n",
-        "-    The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companiess) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]\n",
+        "-   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companiess) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]\n",
         "\n",
         "-   @burkartClimateFinanceGets2022\n",
         "\n",
@@ -4279,30 +4284,30 @@
         "\n",
         "## Design Implications\n",
         "\n",
-        "| Category       | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |\n",
-        "|-------------------|-----------------------------------------------------|\n",
-        "|                | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n",
-        "|                | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n",
-        "|                | @10YearsGreen2019: \"Investors want to know where their money is going\", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n",
-        "|                | This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?                                                                                                                                                                                                                                                                                        |\n",
-        "|                | Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n",
-        "|                | ~~Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!~~                                                                                                                                                                                                                                                                                                                                                                                                                                                          |\n",
-        "| Greenwashing   | Laws against greenwashing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n",
-        "|                | Fintech Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment. Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |\n",
-        "|                | hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n",
-        "| Accountability | What if we gave consumers the tools to keep companies accountable?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n",
-        "|                | As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently \"good\" for one's life, in the same way, that doing sports is good, or eating healthy is good. It's one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?                                                                                                                                                                                  |\n",
-        "|                | Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors? |\n",
-        "| Community      | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |\n",
-        "|                | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |\n",
-        "|                | **Design:** **Feature**: Help me write me investment thesis first.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n",
-        "|                | If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns?                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n",
-        "|                | Where to invest for green impact? Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants' engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure? Currently, there is no easy way to do it, and the UX of traditional banks is too cumbersome and old-fashioned.                                                          |\n",
-        "|                | My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n",
-        "|                | This research is concerned with how billions of people might exclude polluting companies from their lives and elect to support companies that put sustainability in the core of their business instead. Why does it matter? Individual sacrifice is too small to have a meaningful impact. For societal change, we need to pool our resources.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n",
-        "| Accessibility  | **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n",
-        "| Loyalty        | Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |\n",
-        "|                | **Feature:** We need a dashboard of comparable public indicators about each company.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n",
+        "| Category | Implication |\n",
+        "|--------------------|----------------------------------------------------|\n",
+        "|  | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*. |\n",
+        "|  | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics. |\n",
+        "|  | @10YearsGreen2019: \"Investors want to know where their money is going\", says Heike Reichelt, Head of Investor Relations at World Bank. |\n",
+        "|  | This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers? |\n",
+        "|  | Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion. |\n",
+        "|  | ~~Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!~~ |\n",
+        "| Greenwashing | Laws against greenwashing |\n",
+        "|  | Fintech Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment. Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy? |\n",
+        "|  | hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make |\n",
+        "| Accountability | What if we gave consumers the tools to keep companies accountable? |\n",
+        "|  | As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently \"good\" for one's life, in the same way, that doing sports is good, or eating healthy is good. It's one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users? |\n",
+        "|  | Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors? |\n",
+        "| Community | **Feature**: Make a climate hedge fund with friends |\n",
+        "|  | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees |\n",
+        "|  | **Design:** **Feature**: Help me write me investment thesis first. |\n",
+        "|  | If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns? |\n",
+        "|  | Where to invest for green impact? Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants' engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure? Currently, there is no easy way to do it, and the UX of traditional banks is too cumbersome and old-fashioned. |\n",
+        "|  | My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4). |\n",
+        "|  | This research is concerned with how billions of people might exclude polluting companies from their lives and elect to support companies that put sustainability in the core of their business instead. Why does it matter? Individual sacrifice is too small to have a meaningful impact. For societal change, we need to pool our resources. |\n",
+        "| Accessibility | **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?** |\n",
+        "| Loyalty | Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day? |\n",
+        "|  | **Feature:** We need a dashboard of comparable public indicators about each company. |\n",
         "\n",
         "\n",
         "\n",
@@ -4548,7 +4553,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "632211c7"
+      "id": "1d63c275"
     },
     {
       "cell_type": "code",
@@ -4558,7 +4563,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "32e2d88a",
+      "id": "d18e22bf",
       "execution_count": null,
       "outputs": []
     },
@@ -4570,7 +4575,7 @@
         "\n",
         "### Boycott Count (Overall)"
       ],
-      "id": "e957f97a"
+      "id": "ca8a973e"
     },
     {
       "cell_type": "code",
@@ -4578,7 +4583,7 @@
       "source": [
         "boycott_count()"
       ],
-      "id": "cfb72bd8",
+      "id": "a26e04ca",
       "execution_count": null,
       "outputs": []
     },
@@ -4588,7 +4593,7 @@
       "source": [
         "### Why Boycott"
       ],
-      "id": "7242d775"
+      "id": "ef72fa8a"
     },
     {
       "cell_type": "code",
@@ -4596,7 +4601,7 @@
       "source": [
         "why_boycott()"
       ],
-      "id": "3ba8c61f",
+      "id": "dccd9ac6",
       "execution_count": null,
       "outputs": []
     },
@@ -4606,7 +4611,7 @@
       "source": [
         "### Trusted Brands"
       ],
-      "id": "05795938"
+      "id": "48055a68"
     },
     {
       "cell_type": "code",
@@ -4614,7 +4619,7 @@
       "source": [
         "trusted_brands()"
       ],
-      "id": "7d6012bf",
+      "id": "2370e626",
       "execution_count": null,
       "outputs": []
     },
@@ -4626,7 +4631,7 @@
         "\n",
         "## Choice Experiments"
       ],
-      "id": "a24cacd0"
+      "id": "cbc9d15e"
     },
     {
       "cell_type": "code",
@@ -4634,7 +4639,7 @@
       "source": [
         "visualize_shopping_data()"
       ],
-      "id": "8d81fe3b",
+      "id": "6b3f1880",
       "execution_count": null,
       "outputs": []
     },
@@ -4652,7 +4657,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "fac82b3a"
+      "id": "ecf9c56b"
     },
     {
       "cell_type": "code",
@@ -4663,7 +4668,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "b3ab5888",
+      "id": "deb9254d",
       "execution_count": null,
       "outputs": []
     },
@@ -4676,7 +4681,7 @@
         "\n",
         "## Shopping"
       ],
-      "id": "3698d075"
+      "id": "996f21d5"
     },
     {
       "cell_type": "code",
@@ -4684,7 +4689,7 @@
       "source": [
         "likert_single_chart(0)"
       ],
-      "id": "d96483a3",
+      "id": "16ba922a",
       "execution_count": null,
       "outputs": []
     },
@@ -4694,7 +4699,7 @@
       "source": [
         "## Saving and Investing"
       ],
-      "id": "ebabb9f0"
+      "id": "a9ce381a"
     },
     {
       "cell_type": "code",
@@ -4702,7 +4707,7 @@
       "source": [
         "likert_single_chart(1)"
       ],
-      "id": "576a474c",
+      "id": "07c93510",
       "execution_count": null,
       "outputs": []
     },
@@ -4712,7 +4717,7 @@
       "source": [
         "## Economy"
       ],
-      "id": "1eb2dda5"
+      "id": "da14bc21"
     },
     {
       "cell_type": "code",
@@ -4720,7 +4725,7 @@
       "source": [
         "likert_single_chart(2)"
       ],
-      "id": "f6596348",
+      "id": "f628160e",
       "execution_count": null,
       "outputs": []
     },
@@ -4730,7 +4735,7 @@
       "source": [
         "## AI Usage"
       ],
-      "id": "4b471654"
+      "id": "ad6e6cb0"
     },
     {
       "cell_type": "code",
@@ -4738,7 +4743,7 @@
       "source": [
         "likert_single_chart(3)"
       ],
-      "id": "57d1ffeb",
+      "id": "dcf695b0",
       "execution_count": null,
       "outputs": []
     },
@@ -4748,7 +4753,7 @@
       "source": [
         "## Nature"
       ],
-      "id": "f62e0c71"
+      "id": "172ec278"
     },
     {
       "cell_type": "code",
@@ -4756,7 +4761,7 @@
       "source": [
         "likert_single_chart(4)"
       ],
-      "id": "da6c0d1d",
+      "id": "933d5389",
       "execution_count": null,
       "outputs": []
     },
@@ -4766,7 +4771,7 @@
       "source": [
         "## Environmental Protection"
       ],
-      "id": "aa79a1b3"
+      "id": "9e6b63bc"
     },
     {
       "cell_type": "code",
@@ -4774,7 +4779,7 @@
       "source": [
         "likert_single_chart(5)"
       ],
-      "id": "fcac3561",
+      "id": "701d74c0",
       "execution_count": null,
       "outputs": []
     },
@@ -4784,7 +4789,7 @@
       "source": [
         "## Learning Environment"
       ],
-      "id": "1f83d9a8"
+      "id": "f73148ee"
     },
     {
       "cell_type": "code",
@@ -4792,7 +4797,7 @@
       "source": [
         "likert_single_chart(6)"
       ],
-      "id": "2fcee4c8",
+      "id": "67a7ef64",
       "execution_count": null,
       "outputs": []
     },
@@ -4802,7 +4807,7 @@
       "source": [
         "## Correlations Between Fields"
       ],
-      "id": "2e511eb0"
+      "id": "4977da48"
     },
     {
       "cell_type": "code",
@@ -4810,7 +4815,7 @@
       "source": [
         "correlation_network()"
       ],
-      "id": "a5535c69",
+      "id": "2fe52b2e",
       "execution_count": null,
       "outputs": []
     },
@@ -4821,7 +4826,7 @@
         "## Environmental Knowledge Ranking Experiment\n",
         "Test knowledge about the environment."
       ],
-      "id": "575a346a"
+      "id": "58c864b9"
     },
     {
       "cell_type": "code",
@@ -4829,7 +4834,7 @@
       "source": [
         "ecosystem_sensitivity()"
       ],
-      "id": "c2d0a3f5",
+      "id": "c2d76641",
       "execution_count": null,
       "outputs": []
     },
@@ -4847,7 +4852,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "565a779e"
+      "id": "a4c20a28"
     },
     {
       "cell_type": "code",
@@ -4857,7 +4862,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "b6019244",
+      "id": "89839d15",
       "execution_count": null,
       "outputs": []
     },
@@ -4870,7 +4875,7 @@
         "\n",
         "### Investing Experience (Overall)"
       ],
-      "id": "f3a9b4de"
+      "id": "b6bb34fe"
     },
     {
       "cell_type": "code",
@@ -4878,7 +4883,7 @@
       "source": [
         "investment_count()"
       ],
-      "id": "9a6e31ef",
+      "id": "c245fda4",
       "execution_count": null,
       "outputs": []
     },
@@ -4890,7 +4895,7 @@
         "\n",
         "Question: 你/妳選哪個投資？Which investment do you choose?"
       ],
-      "id": "516c00a4"
+      "id": "8f447e0e"
     },
     {
       "cell_type": "code",
@@ -4898,7 +4903,7 @@
       "source": [
         "investment_data()"
       ],
-      "id": "0d4788ea",
+      "id": "4a950313",
       "execution_count": null,
       "outputs": []
     },
@@ -4916,7 +4921,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "ba8080d9"
+      "id": "efd87e53"
     },
     {
       "cell_type": "code",
@@ -4926,7 +4931,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "f4f1f8d6",
+      "id": "3f9d102a",
       "execution_count": null,
       "outputs": []
     },
@@ -4944,7 +4949,7 @@
         "\n",
         "- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings.\n"
       ],
-      "id": "16e83f39"
+      "id": "b18f57c8"
     },
     {
       "cell_type": "code",
@@ -4952,7 +4957,7 @@
       "source": [
         "show_personas()"
       ],
-      "id": "35b070f3",
+      "id": "9a5d7648",
       "execution_count": null,
       "outputs": []
     },
@@ -4963,7 +4968,7 @@
         "### Persona 1: \"Eco-Friendly\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "9ce38ce0"
+      "id": "3ca513b0"
     },
     {
       "cell_type": "code",
@@ -4971,7 +4976,7 @@
       "source": [
         "show_single_persona(0)"
       ],
-      "id": "d8663b63",
+      "id": "6c5dc89f",
       "execution_count": null,
       "outputs": []
     },
@@ -4982,7 +4987,7 @@
         "### Persona 2: \"Moderate\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "ac88a26a"
+      "id": "bae79dcd"
     },
     {
       "cell_type": "code",
@@ -4990,7 +4995,7 @@
       "source": [
         "show_single_persona(1)"
       ],
-      "id": "bdeb2c49",
+      "id": "c7429916",
       "execution_count": null,
       "outputs": []
     },
@@ -5001,7 +5006,7 @@
         "### Persona 3: \"Frugal\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "150e794a"
+      "id": "ebae7909"
     },
     {
       "cell_type": "code",
@@ -5009,7 +5014,7 @@
       "source": [
         "show_single_persona(2)"
       ],
-      "id": "8e116949",
+      "id": "e54927fa",
       "execution_count": null,
       "outputs": []
     },
@@ -5019,7 +5024,7 @@
       "source": [
         "## Clustering Heatmap"
       ],
-      "id": "4273681b"
+      "id": "c7c7e89f"
     },
     {
       "cell_type": "code",
@@ -5027,7 +5032,7 @@
       "source": [
         "show_clustering_heatmap()"
       ],
-      "id": "49c38bea",
+      "id": "2aebb206",
       "execution_count": null,
       "outputs": []
     },
@@ -5038,7 +5043,7 @@
         "## Mean Answer Scores\n",
         "Mean response values for each Likert question in each cluster:"
       ],
-      "id": "b50b528e"
+      "id": "398bc7d6"
     },
     {
       "cell_type": "code",
@@ -5046,7 +5051,7 @@
       "source": [
         "get_kmeans_table()"
       ],
-      "id": "e0f5e015",
+      "id": "6637053e",
       "execution_count": null,
       "outputs": []
     },
@@ -5057,7 +5062,7 @@
         "## Agreement between personas\n",
         "Highest agreement between personas is about health, safety, pollution and climate concerns."
       ],
-      "id": "f9eb453e"
+      "id": "4811666d"
     },
     {
       "cell_type": "code",
@@ -5065,7 +5070,7 @@
       "source": [
         "treemap()"
       ],
-      "id": "6db5b08c",
+      "id": "cf728b11",
       "execution_count": null,
       "outputs": []
     },
@@ -5083,7 +5088,7 @@
         "suppress-bibliography: true\n",
         "---\n"
       ],
-      "id": "c6c91f43"
+      "id": "07611ce4"
     },
     {
       "cell_type": "code",
@@ -5091,7 +5096,7 @@
       "source": [
         "from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles"
       ],
-      "id": "d6c9ed5a",
+      "id": "b15d236f",
       "execution_count": null,
       "outputs": []
     },
@@ -5104,7 +5109,7 @@
         "### Likert-Based Clustering\n",
         "AI-assistant feature choices per Likert-based Personas"
       ],
-      "id": "509ca1af"
+      "id": "d545960a"
     },
     {
       "cell_type": "code",
@@ -5112,7 +5117,7 @@
       "source": [
         "likert_cluster_and_visualize()"
       ],
-      "id": "080284ca",
+      "id": "9733d07a",
       "execution_count": null,
       "outputs": []
     },
@@ -5143,7 +5148,7 @@
         "\n",
         "### Feature Preferences (Overall)"
       ],
-      "id": "3148a3c2"
+      "id": "1aa35688"
     },
     {
       "cell_type": "code",
@@ -5151,7 +5156,7 @@
       "source": [
         "radar_chart()"
       ],
-      "id": "89f8b9e1",
+      "id": "ecec594e",
       "execution_count": null,
       "outputs": []
     },
@@ -5161,7 +5166,7 @@
       "source": [
         "## Feature Preferences (By Cluster)"
       ],
-      "id": "42d832d8"
+      "id": "2bb01f0b"
     },
     {
       "cell_type": "code",
@@ -5169,7 +5174,7 @@
       "source": [
         "plot_feature_preferences()"
       ],
-      "id": "ec0a59d2",
+      "id": "cdb996f5",
       "execution_count": null,
       "outputs": []
     },
@@ -5179,7 +5184,7 @@
       "source": [
         "## Preferred AI Roles (Overall)"
       ],
-      "id": "99fdae57"
+      "id": "eb53d0e5"
     },
     {
       "cell_type": "code",
@@ -5187,7 +5192,7 @@
       "source": [
         "ai_roles()"
       ],
-      "id": "08984353",
+      "id": "49335b8e",
       "execution_count": null,
       "outputs": []
     },
@@ -6115,26 +6120,17 @@
         "\n",
         "\n",
         "\n",
-        "\\newpage\n",
-        "\n",
-        "\n",
-        "\n",
-        "\\newpage\n",
-        "\n",
-        "\n",
-        "\n",
-        "\\newpage\n",
-        "\n",
-        "# References"
+        "\\newpage"
       ],
-      "id": "ee387ee3"
+      "id": "d272591e"
     }
   ],
   "metadata": {
     "kernelspec": {
-      "display_name": "Python 3",
+      "name": "python3",
       "language": "python",
-      "name": "python3"
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/local/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,
