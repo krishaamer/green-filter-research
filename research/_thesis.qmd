@@ -1,23 +1,14 @@
 ---
 title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
 author: "Kris Haamer"
-bibliography: [ref.bib]
+bibliography: ref.bib
 csl: harvard.csl
 format:
-  pdf: 
-    toc: true
-    toc-depth: 3
-    cite-method: natbib
-suppress-bibliography: false
+  pdf
 execute:
   echo: false
-CJKmainfont: STSong
-CJKoptions:
-  - BoldFont=STHeiti
-  - ItalicFont=STKaiti
-editor:
-  render-on-save: false
 ---
+
 
 ```{python}
 #| echo: false
@@ -27,60 +18,4 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-\newpage
-
-{{< include "abstract.qmd" >}}
-
-\newpage
-
-{{< include "introduction.qmd" >}}
-
-\newpage
-
-{{< include "literature/index.qmd" >}}
-
-{{< include "literature/college.qmd" >}}
-
 {{< include "literature/sustainability.qmd" >}}
-
-{{< include "literature/design.qmd" >}}
-
-{{< include "literature/ai.qmd" >}}
-
-{{< include "literature/fintech.qmd" >}}
-
-\newpage
-
-{{< include "methodology/index.qmd" >}}
-
-\newpage
-
-{{< include "results/index.qmd" >}}
-
-{{< include "results/shopping.qmd" >}}
-
-{{< include "results/attitudes.qmd" >}}
-
-{{< include "results/investing.qmd" >}}
-
-{{< include "results/personas.qmd" >}}
-
-{{< include "results/ai.qmd" >}}
-
-{{< include "results/experts.qmd" >}}
-
-\newpage
-
-{{< include "discussion.qmd" >}}
-
-\newpage
-
-{{< include "prototypes/index.qmd" >}}
-
-{{< include "prototypes/ideas.qmd" >}}
-
-{{< include "prototypes/interactive.qmd" >}}
-
-{{< include "prototypes/testing.qmd" >}}
-
-\newpage

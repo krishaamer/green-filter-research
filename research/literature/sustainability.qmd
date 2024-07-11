@@ -13,11 +13,13 @@ import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ```
-## Evolving Sustainability Measurments from Planetary Boundaries to Planetary Health
+## *Measuring* Sustainability
 
-*Sustainability* was first mentioned in the seminal book *Sylvicultura oeconomica* in the context of forestry with the goal of achieving sustainable forest management [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713]. The field is known today as *sustainable yield* of *natural capital* with a focus on maintaining *ecosystem services* [@peterkareivaNaturalCapitalTheory2011]. Aldo Leopold proposed the idea of *land ethics* as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. The 1987 United Nations' Brundtland Report (Our Common Future) defined sustainable development as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987].
+***"Nachhaltigkeit"*** - meaning *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe deforestation pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainabilitystudy is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain *ecosystem services* - a contemporary term from the theory of *natural capital*, referring to benefits humans receiver from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale, necessitating a deeper understanding of human – nature interactions, such as in the case of climate change.
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Climate Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+## Measuring Climate Change
+
+Just as with sustainability, studies of Earth's climate go back for a long time. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. 120 years later, the Paris Climate Agreement came into effect, with countries agreeing on non-binding targets on how to keep CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. While awareness of Earth's warming climate was growing, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s when documentation of temperatures become available in ship records [@BrohanClimate2012]. Temperature estimations from tree-trunks allow some temperature comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
@@ -31,7 +33,7 @@ In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increas
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
-In 1938, Guy Stewart Callendar was the first to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
+In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. By the latest data from 2022, the current world population of 8 Billion people emitted 37.5 gigatonnes of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. To limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark \[MISSING CITATION\]. Given this model of climate change, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022]. The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
 News reports saying quoting the "The European Union’s Copernicus Climate Change Service (C3S)" 1.5 has already been breached [@WorldFirstYearlong2024; @FirstTimeWorld2024].
 
@@ -63,6 +65,8 @@ Atmospheric aerosol loading and the biodiversity intactness index (BII) were qua
 #### Planetary Boundaries
 
 -   As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
+
+Evolving Measurments from Planetary Boundaries to Planetary Health
 
 ### Planetary Health
 
@@ -367,7 +371,7 @@ Air pollution is widespread around the planet, with 99% of Earth's human populat
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", "All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health" [@sarahludwigrauschSustainabilityYourHealth2021].
 
-The main way to combat air pollution is through policy interventions. @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. @guHiddenCostsNongreen2023 links air pollution to credit interest rates for business loans in China; companies with low environmetal awareness and a history of environmental penalties pay 12 percent higher interest rates.
+The main way to combat air pollution is through policy interventions. @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. @guHiddenCostsNongreen2023 links air pollution to credit interest rates for business loans in China; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates.
 
 Clean air is a requirement.
 
@@ -375,7 +379,7 @@ Clean air is a requirement.
 
 -   A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020].
 
--   [@FifthNationalClimate2023] The US Global Change Research Program comprehensive report to the US Congress links disaster-risk directly to global warming; for examples increased wildfires damage property, endager life and reduces air quality, which in effect increases health challenges.
+-   [@FifthNationalClimate2023] The US Global Change Research Program comprehensive report to the US Congress links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces air quality, which in effect increases health challenges.
 
 Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989].
 
@@ -767,7 +771,7 @@ Circular economy is a tiny part of the world economy. @circleeconomyCircularityG
 
 -   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
 
--   Recycling Critical Raw Materials, digitalisation of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
+-   Recycling Critical Raw Materials, digitalization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
 
 -   EIT RawMaterials
 

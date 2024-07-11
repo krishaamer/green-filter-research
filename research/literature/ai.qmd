@@ -56,7 +56,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 -   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
 
 | App | Category | Use Case |
-|------------------|------------------|------------------------------------|
+|-------------------|-------------------|------------------------------------|
 | Welltory | Health | Health data analysis |
 | Wellue | Health | Heart arrhythmia detection |
 | QALY | Health | Heart arrhythmia detection |
@@ -75,7 +75,7 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 [@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.
 
 |  |  |
-|------------------------|------------------------------------------------|
+|------------------------|-----------------------------------------------|
 | Problem | Description |
 | Monolithicity | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. |
 | Opaqueness | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
@@ -133,7 +133,7 @@ Red-teaming means pushing the limits of LLMs, trying to get them to produce outp
 
 The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
 
-- Scaling laws of LLMs @kaplanScalingLawsNeural2020
+-   Scaling laws of LLMs @kaplanScalingLawsNeural2020
 
 Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
 
@@ -174,7 +174,7 @@ The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field of Usage | Description |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Shipping | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
 | Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023] |
 | Childcare | Generate personalized bedtime stories |
@@ -183,7 +183,9 @@ There's wide literature available describing human-AI interactions across varied
 : A very small illustration of generative AI usage across disparate fields of human life.
 
 -   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as decision-support for humans while differentiating between ***intended*** and ***unintended*** influence on human decisions.
+
 -   @chengInvestigationTrustAIenabled2022 describes AI-based support systems for collaboration and team-work.
+
 -   **Effective Accelerationism (often shortened to E\\acc) boils down to the idea that "**the potential for negative outcomes shouldn't deter rapid advancement"
 
 -   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
@@ -267,9 +269,7 @@ The content on the platform can be more important than the interface. Applicatio
 
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004.
 
-Gates updated his ideas in 2023:
-https://www.gatesnotes.com/AI-agents
-
+Gates updated his ideas in 2023: https://www.gatesnotes.com/AI-agents
 
 As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017
 
@@ -513,7 +513,7 @@ What are the next features that could improve the UX/UI of AI-based assistants?
 Should AIs look anthropomorphic or fade in the background? It's an open question. Perhaps we can expect a mix of both depending on the context of use and goals of the particular AI.
 
 | Anthropomorphic AI User Interfaces | Non-Anthropomorphic AI User Interfaces |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | AI wife [@MyWifeDead2023] | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |
 | [@sarahperezCharacterAIA16zbacked2023] character AI | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020] |
 | mourning 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023] |
@@ -700,7 +700,7 @@ Personal Carbon Trackers
 Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
 | App | Description |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
 | Klima | Offset Subscription |
 | Wren | Offset Subscription |
@@ -720,7 +720,7 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 | Category | Implication |
-|------------------------|------------------------------------------------|
+|------------------------|-----------------------------------------------|
 | Voice Assistants | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine. |
 | Sustainability | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products. |
 | Sustainability | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |
