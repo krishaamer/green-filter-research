@@ -18,6 +18,8 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
+{{< include "_cover.qmd" >}}
+
 \newpage
 
 {{< include "abstract.qmd" >}}
