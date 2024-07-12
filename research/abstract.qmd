@@ -1,40 +1,22 @@
 ---
 title: Abstract
 sidebar_position: 1
-editor:
-    render-on-save: false
-suppress-bibliography: true
 ---
-
-```{=mdx}
-import Figure from '/src/components/Figure';
-import Abstract from "./images/abstract.png";
-```
 
 # Abstract
 
 ## The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing
 
-College students are concerned with the environment, yet they are busy with school and hindered by unavailability of simple tools to affect systemic change. Stronger environmental policy from the European Union includes the concept of ***digital product passports***, which holds the promise to help distinguish ***eco-designed*** products made by ***circular economy*** companies trying to be zero-waste from companies that simply say they are. Tracking product data from the source materials until the consumer, combined with ***data-driven interaction design*** facilitates building transparency into opaque systems. Likewise, advances in the development of ***large-language models*** enables ***artificial intelligence assistants*** to become a translation layer between complex environmental data and human-comprehensible language.
+College students have some concern for the environment, yet they are hindered by lack of simple tools to affect systemic change. Strengthening environmental policy from the European Union includes the concept of ***digital product passports***, which aims to help distinguish ***eco-designed*** products made by ***circular economy*** companies striving to be zero-waste from companies that simply say they are. Tracking product data from the source materials until the consumer purchase and finally post-purchase recycling, combined with ***data-driven interaction design*** facilitates building transparency into opaque systems and enables ***circular economy***. Finally, advances in the development of ***large-language models*** enables ***artificial intelligence assistants*** to translate complex environmental data into human-comprehensible language.
 
 The emerging field of ***Planetary Health*** recognizes profound interconnections between our economic behaviors, ecosystem services such as clean water, air, soil, the climate crisis, and human health. As of 2024, Earth's natural environment is being heavily degraded by the extractive business practices of companies that make many of the products and services we buy every day. The way we use our money to interact with companies - through shopping as consumers and saving / investing as investors - has an effect on the life-supporting biosphere we rely on to keep our planet inhabitable. In essence, from an ecological perspective, every financial action is either an investment decision to support more environmentally-friendly companies - or to support polluters.
 
-My research addresses the need for tools to make sustainable financial action convenient for college students. I focus on leveraging ***design research*** to find design concepts for ***simple AI user interfaces*** also known as ***generative UI*** to help college students participate in ***sustainable financial activism***. A survey of 700 students across 10 universities in Taiwan was conducted, enhanced by 5 expert interviews providing industry insights. The major contribution of the study is an interactive AI-assistant prototype.
+My research addresses the need for tools to make sustainable financial action more convenient, focusing in particular on college students. I leverage ***design research*** to find design concepts for ***simple AI-based user interfaces*** also known as ***generative UIs*** to help college students participate in ***sustainable financial activism***. A survey of 700 students across 10 universities in Taiwan was conducted, enhanced by 7 expert interviews providing industry insights. The major contribution of the study is an interactive AI-assistant prototype.
 
-Keywords: Climate Anxiety, Human-AI Interaction, Digital Sustainability, Financial Activism, Transparency, Planetary Health
+Keywords: Climate Anxiety, Planetary Health, Human-AI Interaction, Digital Sustainability, Financial Activism, Transparency
 
-::: {.content-hidden unless-format="pdf"}
-![Concept Map](./images/abstract.png){width="80%"}
-:::
 
-```{=mdx}
-<Figure
-  caption="Concept Map'"
-  src={Abstract}
-/>
-```
-
-# Abstract in Chinese *
+# 摘要
 
 ## 從消費者到投資者的旅程：為年輕成人設計一個財務AI夥伴，幫助他們進行可持續購物、儲蓄和投資
 
@@ -47,4 +29,4 @@ Keywords: Climate Anxiety, Human-AI Interaction, Digital Sustainability, Financi
 關鍵詞：氣候焦慮、人工智能互動、數位可持續性、財務行動主義、透明度、地球健康。
 
 
-* The abstract was translated on May 22, 2024 using the Claude 3 Opus model. Translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.
+*The abstract was translated on May 22, 2024 using the Claude 3 Opus model. Translation quality was checked with OpenAI GPT4, Google Gemini, Mistral Large, Meta LLama as well as human reviewers. In case of any discrepancies, please refer to the English text.*

@@ -9,7 +9,6 @@ execute:
   echo: false
 ---
 
-
 ```{python}
 #| echo: false
 import sys
@@ -23,6 +22,10 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "abstract.qmd" >}}
+
+\newpage
+
+{{< include "abstract-tw.qmd" >}}
 
 \newpage
 

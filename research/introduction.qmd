@@ -14,22 +14,33 @@ CJKoptions:
 import Figure from "/src/components/Figure";
 import Susan from "./images/susan-pink-app.png";
 import Tricorder from "./images/tricorder.jpg";
+import Abstract from "./images/abstract.png";
 ```
 # Introduction
 
 How can college students find sustainability-focused companies? My research project describes the process of designing a sustainable shopping, saving, and investing companion. If used wisely, money can help build communities of sustainable impact and helpo build closer relationships with sustainability.
 
+::: {.content-hidden unless-format="pdf"}
+![Concept Map](./images/abstract.png){width="80%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Concept Map'"
+  src={Abstract}
+/>
+```
 ## Research Relevance
 
 My research is timely in 2024 because of the convergence of the following 5 major trending themes:
 
-| Supernarratives |
-|------------------------------------------------------------------------|
-| Increasing environmental degradation |
-| Increasing interest in sustainability among young people |
-| Intergenerational money transfer; in some countries relatively young people have money |
-| Increasing availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments |
-| Increasing availability and adoption of generative AI-based user interfaces |
+| Supernarrative | Trend |
+|------------------------------|------------------------------------------|
+| Environmental degradation | Increasing |
+| Interest in sustainability among young people | ? |
+| Intergenerational money transfer; in some countries relatively young people have money | ? |
+| Availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments | Increasing |
+| Availability of generative AI-based user interfaces (UIs) | Increasing |
 
 : Current trends backing the relevance of this research.
 

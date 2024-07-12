@@ -12,41 +12,6 @@ suppress-bibliography: true
 export const quartoRawHtml =
 [`
 <table>
-<caption>Biodiversity loss data from <span class="citation" data-cites="bradshawUnderestimatingChallengesAvoiding2021">[@bradshawUnderestimatingChallengesAvoiding2021]</span>.</caption>
-<colgroup>
-<col style="width: 62%" />
-<col style="width: 37%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>What Happened?</td>
-<td>How Much?</td>
-</tr>
-<tr class="even">
-<td>Vertebrate species population average decline</td>
-<td>68% over the last 50 years</td>
-</tr>
-<tr class="odd">
-<td>Land surface altered by humans</td>
-<td>70% of Earth</td>
-</tr>
-<tr class="even">
-<td>Vertebrate species extinct</td>
-<td>700 in 500 years</td>
-</tr>
-<tr class="odd">
-<td>Plant species extinct</td>
-<td>600 in 500 years</td>
-</tr>
-<tr class="even">
-<td>Species under threat of extinction</td>
-<td>1 million</td>
-</tr>
-</tbody>
-</table>
-Biodiversity loss data from \[@bradshawUnderestimatingChallengesAvoiding2021\].
-`,`
-<table>
 <caption>“Climate change is an emergency” <span class="citation" data-cites="undpPeoplesClimateVote2021">@undpPeoplesClimateVote2021</span>.</caption>
 <tbody>
 <tr class="odd">
@@ -72,6 +37,37 @@ Biodiversity loss data from \[@bradshawUnderestimatingChallengesAvoiding2021\].
 </tbody>
 </table>
 “Climate change is an emergency” @undpPeoplesClimateVote2021.
+`,`
+<table>
+<caption>Daily human activities emission contribution on average in France, Germany, Norway and Sweden from <span class="citation" data-cites="mobergMobilityFoodHousing2019">@mobergMobilityFoodHousing2019</span>.</caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Emission Share</td>
+<td>Category</td>
+</tr>
+<tr class="even">
+<td>21%</td>
+<td>Housing</td>
+</tr>
+<tr class="odd">
+<td>30%</td>
+<td>Food</td>
+</tr>
+<tr class="even">
+<td>34%</td>
+<td>Mobility</td>
+</tr>
+<tr class="odd">
+<td>15%</td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
 `,`
 <table>
 <caption>From <span class="citation" data-cites="MonetaryValuationNature2023">@MonetaryValuationNature2023</span></caption>
@@ -154,35 +150,39 @@ From @MonetaryValuationNature2023
 From @hanEmbeddingNaturebasedSolutions2022
 `,`
 <table>
-<caption>Daily human activities emission contribution on average in France, Germany, Norway and Sweden from <span class="citation" data-cites="mobergMobilityFoodHousing2019">@mobergMobilityFoodHousing2019</span>.</caption>
+<caption>Biodiversity loss data from <span class="citation" data-cites="bradshawUnderestimatingChallengesAvoiding2021">[@bradshawUnderestimatingChallengesAvoiding2021]</span>.</caption>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 62%" />
+<col style="width: 37%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Emission Share</td>
-<td>Category</td>
+<td>What Happened?</td>
+<td>How Much?</td>
 </tr>
 <tr class="even">
-<td>21%</td>
-<td>Housing</td>
+<td>Vertebrate species population average decline</td>
+<td>68% over the last 50 years</td>
 </tr>
 <tr class="odd">
-<td>30%</td>
-<td>Food</td>
+<td>Land surface altered by humans</td>
+<td>70% of Earth</td>
 </tr>
 <tr class="even">
-<td>34%</td>
-<td>Mobility</td>
+<td>Vertebrate species extinct</td>
+<td>700 in 500 years</td>
 </tr>
 <tr class="odd">
-<td>15%</td>
-<td>Other</td>
+<td>Plant species extinct</td>
+<td>600 in 500 years</td>
+</tr>
+<tr class="even">
+<td>Species under threat of extinction</td>
+<td>1 million</td>
 </tr>
 </tbody>
 </table>
-Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
+Biodiversity loss data from \[@bradshawUnderestimatingChallengesAvoiding2021\].
 `,`
 <table>
 <caption>From <span class="citation" data-cites="mayWhyShouldWe2011">@mayWhyShouldWe2011</span>.</caption>
@@ -580,13 +580,6 @@ Eco-design framework proposes 9 values to strive for in high quality products.
 Implications
 `];
 
-
-```python
-from charts.sustainability import biodiversity_chart
-import warnings
-warnings.filterwarnings("ignore")
-```
-
 ````mdx-code-block
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/humboldt.jpg';
@@ -605,7 +598,7 @@ achieving prudent forest management practices in his native Saxony in
 Southeastern Germany, which at the time was under severe deforestation
 pressure from mining, ship-building and agricultural production (Hannß
 Carl von Carlowitz, 1713; Gottschlich and Friedrich, 2014). This
-particular field of sustainabilitystudy is now known as *sustainable
+particular field of sustainability study is now known as *sustainable
 yield of natural capital* - the principal of a natural resource, such as
 in fishing and forestry shouldn’t be over-harvested in order to maintain
 *ecosystem services* - a contemporary term from the theory of *natural
@@ -622,30 +615,33 @@ present without compromising the ability of future generations to meet
 their own needs”* (World Commission on Environment and Development,
 1987). Given these varied ideas, it could be said people have been
 concerned with our planet’s natural environment and its preservation
-already for centuries. Yet it is only in the last century that human
+already for centuries. Yet, it is only in the last century that human
 activities have begun to affect Earth’s systems on a previously unseen
-scale, necessitating a deeper understanding of human – nature
-interactions, such as in the case of climate change.
+scale - termed Anthropocene -, necessitating a deeper understanding of
+human-nature interactions, such as in the case of climate change, which
+is deeply changing the face of our planet.
 
-## Measuring Climate Change
+## *Measuring* Climate Change
 
-Just as with sustainability, studies of Earth’s climate go back for a
-long time. Already in 1896, the Nobel Prize winner Svante Arrhenius
+Just as with sustainability, studies of Earth’s climate go back for more
+than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius
 first calculated how an increase in CO<sub>2</sub> levels could have a
 warming effect on our global climate (Anderson, Hawkins and Jones, 2016;
-Wulff, 2020). 120 years later, the Paris Climate Agreement came into
-effect, with countries agreeing on non-binding targets on how to keep
-CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United
-Nations, 2016). While awareness of Earth’s warming climate was growing,
-the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of
-CO<sub>2</sub> concentration since the industrial revolution is clear in
-the data from 1958 onward, following a steady annual increase, called
-the *Keeling Curve* (Keeling and Keeling, 2017). Written records of
-global temperature measurements are available starting from the 1880s
-when documentation of temperatures become available in ship records
-(Brohan et al., 2012). Temperature estimations from tree-trunks allow
-some temperature comparisons with the climate as far back as 2000 years
-ago (Rubino et al., 2019).
+Wulff, 2020). While the scientific case for human-induced climate change
+was building, it wasn’t until 120 years later, when the Paris Climate
+Agreement came into effect, that countries agreed on non-binding targets
+on keeping CO<sub>2</sub> levels 1.5 °C below pre-industrial levels
+(United Nations, 2016). Even though awareness of Earth’s warming climate
+was growing ever stronger, the CO<sub>2</sub> emissions kept rising too.
+The hockey-stick growth of CO<sub>2</sub> concentration since the
+industrial revolution is clear in the data from 1958 onward, following a
+steady annual increase, called the *Keeling Curve* (Keeling and Keeling,
+2017). Written records of global temperature measurements are available
+starting from the 1880s, when documentation of temperatures began to be
+recorded in ship logs (Brohan et al., 2012). Finally, although perhaps
+less accurately, temperature estimations from tree-trunks allow some
+comparisons with the climate as far back as 2000 years ago (Rubino et
+al., 2019).
 
 ````mdx-code-block
 <Figure
@@ -653,37 +649,70 @@ ago (Rubino et al., 2019).
   src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
-/>
+/>@
 ````
 
 In 1938, Guy Stewart Callendar was the first scientist to demonstrate
-the warming of Earth’s land surface as well as linking the production of
-fossil fuels to increased CO<sub>2</sub> and changing climate (Hawkins
-and Jones, 2013). By the latest data from 2022, the current world
-population of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub>
-per year, the highest emissions recorded in history (Statista, 2023). To
-limit global warming to 1.5 °C as agreed by the world nations in Paris,
-removal of 5-20 gigatons of CO<sub>2</sub> per year would be needed
-according to reduction pathways calculated by the Intergovernmental
-Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries
-are missing the mark \[MISSING CITATION\]. Given this model of climate
-change, the G7 countries (Canada, France, Germany, Italy, Japan, United
-Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP,
-2022). The monumental task of removing several gigatons of
-CO<sub>2</sub> from the atmosphere requires massive policy shifts and
-collaboration across countries and industries (Mackler, Fishman and
-Broberg, 2021).
+the warming of Earth’s land surface - as well as linking the production
+of fossil fuels to increased CO<sub>2</sub> and changing climate
+(Hawkins and Jones, 2013). The latest data from 2023 shows our current
+world population of 8 Billion people emitted 37.2 gigatonnes
+(i.e. billion metric tons) of CO<sub>2</sub> per year, the highest
+emissions recorded in history (Statista, 2023). In order to limit global
+warming to 1.5 °C as agreed by the world nations in Paris, removal of
+5-20 gigatons of CO<sub>2</sub> per year would be needed according to
+reduction pathways calculated by the Intergovernmental Panel on Climate
+Change (IPCC) (Wade et al., 2023). Yet, most countries are missing the
+mark (Climate Analytics and NewClimate Institute, 2023; United Nations
+Environment Programme, 2023). The European Union’s Copernicus Climate
+Change Service (C3S) reports 1.5 °C global warming has already been
+breached in 2024 temperatures (Anon., 2024a; Anon., 2024b). Given the
+current pace of climate change action, the G7 countries (Canada, France,
+Germany, Italy, Japan, United Kingdom, United States) are heading for
+2.7 °C of warming by 2050 (CDP, 2022).
 
-News reports saying quoting the “The European Union’s Copernicus Climate
-Change Service (C3S)” 1.5 has already been breached (Anon., 2024a;
-Anon., 2024b).
+Earth’s physical systems are very sensitive to small changes in
+temperature, which was not understood until 30 years ago (McKibben,
+2006).
 
-In 1948, the International Union for Conservation of Nature (IUCN) was
-founded, which in
+## *Mitigating* Climate Change
 
-LULUCF “Land Use, Land-Use Change, and Forestry” can be a source of
-greenhouse gas emissions or a carbon sink (removing CO2 from the
-atmosphere)
+The monumental task of removing several gigatons of CO<sub>2</sub> from
+the atmosphere requires massive policy shifts and collaboration across
+countries and industries (Mackler, Fishman and Broberg, 2021).
+
+Warming global climate has concrete effects on daily life. Warmer
+climate helps viruses and fungi spread (Press, 2023). (Williams and
+Joshi, 2013) higher CO<sub>2</sub> concentrations in the air can cause
+more turbulence for flights.
+
+## *Breaching* Planetary Boundaries
+
+In addition the enormity of CO<sub>2</sub> emissions, humanity is facing
+other massive problems. The Stockholm Resilience Centre reports we have
+already breached 4 out of our 9 planetary boundaries: in addition to
+climate change, biodiversity loss (Extinctions per Million Species per
+Year aka E/MSY), land-system change (deforestation, land degradation,
+etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus,
+etc); on a positive side, the challenges of fresh water use, ocean
+acidification and stratospheric ozone depletion are still within
+planetary limits (Persson et al., 2022).
+
+As long as humanity is a mono-planetary species, we have to come to
+terms with the limitations of our home, Earth.
+
+Atmospheric aerosol loading and the biodiversity intactness index (BII)
+were quantified recently (ADD CITATION)
+
+-   (Keeble, 1988) reported in April 1987 that *‘residents in
+    high-income countries lead lifestyles incompatible with planetary
+    boundaries’*. While my home country Estonia at the time was
+    considered low-income, a small nation in poverty behind the *Iron
+    Curtain* occupation of the Soviet Union, we now in 2024, have also
+    reached high-income status.
+-   De Balie (2018)
+-   Houdini (2018)
+-   Haeggman, Moberg and Sandin (2018)
 
 ````mdx-code-block
 <Figure
@@ -694,49 +723,48 @@ atmosphere)
 />
 ````
 
-In addition the enormity of emissions, humanity is facing other massive
-problems. The Stockholm Resilience Centre reports we have already
-breached 4 out of our 9 planetary boundaries: in addition to climate
-change, biodiversity loss (Extinctions per Million Species per Year aka
-E/MSY), land-system change (deforestation, land degradation, etc), and
-biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a
-positive side, the challenges of fresh water use, ocean acidification
-and stratospheric ozone depletion are still within planetary limits
-(Persson et al., 2022).
+In 1948, the International Union for Conservation of Nature (IUCN) was
+founded, which in
 
-Atmospheric aerosol loading and the biodiversity intactness index (BII)
-were quantified recently (ADD CITATION)
+LULUCF “Land Use, Land-Use Change, and Forestry” can be a source of
+greenhouse gas emissions or a carbon sink (removing CO2 from the
+atmosphere)
 
--   (Keeble, 1988) reported in April 1987 that *‘residents in
-    high-income countries lead lifestyles incompatible with planetary
-    boundaries’*. While my home country Estonia at the time was
-    considered low-income, a small nation in poverty behind the *Iron
-    Curtain* occupation of the Soviet Occupy, we now in 2023, have
-    indeed reached high-income status.
--   De Balie (2018)
--   Houdini (2018)
--   Haeggman, Moberg and Sandin (2018)
+## *Integrating* Planetary Health
 
-#### Planetary Boundaries
+Cross-disciplinary scientists have been working on integrating Earth
+systems into cohesive frameworks. Planetary Health and Earth System Law
+are 2 approaches to address the complex interdependence.
 
--   As long as humanity is a mono-planetary species, we have to come to
-    terms with the limitations of our home, Earth.
+Evolving Measurements from Planetary Boundaries to Planetary Health
 
-Evolving Measurments from Planetary Boundaries to Planetary Health
-
-### Planetary Health
-
--   Planetary health
-    https://unfccc.int/climate-action/un-global-climate-action-awards/planetary-health
+-   Planetary health (Planetary Health Alliance, 2024a, 2024b)
 
 -   Wardani et al. (2023) *“long-term human well-being is dependent on
     the well-being of the planet, including both biotic and abiotic
     systems. It recognizes interlinkages across environmental
     sustainability, public health, and socioeconomic development.”*
 
-### Biodiversty Loss
+### Earth System Law
 
-Protecting biodiversity
+-   (Du Toit and Kotzé, 2022) describes *Earth System Law* as a
+    framework for addressing interconnected environmental challenges.
+
+## *Consumer* Lifestyle
+
+Consumer lifestyle contributes to environmental destruction. According
+to (Ellen MacArthur Foundation, Material Economics, 2019)’s models 45%
+of CO<sub>2</sub> equivalent emissions come from our shopping; produced
+by companies to make the products we consume. A large scale study by
+Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946) reported
+people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *“climate
+change is mostly caused by human activities”.* An even larger survey
+(n=1.2 million) by the United Nations across 50 countries, distributed
+through mobile game ads, showed the majority of people agreeing climate
+change is an “emergency” UNDP (2021). While people express eco-conscious
+ideas, it’s non-trivial to practice sustainability in daily life. Deyan
+Georgiev (2023) reports only 30% of people in the Gen-Z age group
+believe technology can solve all problems.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
@@ -749,60 +777,52 @@ Protecting biodiversity
     the wrong pricing information. To achieve this, we need expert
     governance (G).
 
-Consumer lifestyle contributes to environmental destruction. According
-to Ellen MacArthur Foundation, Material Economics (2019)’s models show
-45% of CO<sub>2</sub> equivalent emissions come from our shopping;
-produced by companies to make the products we consume. A large scale
-study by Anthony Leiserowitz et al. (2022) on Meta’s Facebook (n=108946)
-reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe
-*“climate change is mostly caused by human activities”.* An even larger
-survey (n=1.2 million) by the United Nations across 50 countries,
-distributed through mobile game ads, showed the majority of people
-agreeing climate change is an “emergency” UNDP (2021). While people
-express eco-conscious ideas, it’s non-trivial to practice sustainability
-in daily life. Deyan Georgiev (2023) reports only 30% of people in the
-Gen-Z age group believe technology can solve all problems.
+Overconsumption Drive Climate Change
+
+Overconsumption is one of the main drivers of climate change. “2/3 of
+global GHG emissions are directly and indirectly linked to household
+consumption, with a global average of about 6 tonnes CO<sub>2</sub>
+equivalent per capita.” (Ivanova et al., 2020; Renee Cho, 2020)
+
+Overconsumption is also one of the root causes of plastic pollution.
+(Ford et al., 2022) and (Lavers, Bond and Rolsky, 2022) find strong
+linkage of climate change and marine plastic pollution “along with other
+stressors that threaten the resilience of species and habitats sensitive
+to both climate change and plastic pollution”.
+
+-   \[Lavers, Bond and Rolsky (2022)\] plastic pollution is pervasive
+    around the Earth and is fundamentally linked to climate change
+
+While the number on overconsumption are clear, the debate on
+overconsumption is so polarized, it’s difficult to have a meaningful
+discussion of the topic (Ianole and Cornescu, 2013).
+
+-   Overconsumption and underinvestment.
+
+-   Cities are responsible for 80% of the emissions Rosales Carreón and
+    Worrell (2018)
+
+-   Moberg et al. (2019) reports daily human activities emission
+    contribution on average in four European countries (France, Germany,
+    Norway and Sweden).
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
-AI is being used to maps icebergs and measure the change in size
-European Space Agency (2023)
+-   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan
+    (Eesti Rohepöörde Tegevusplaan).
+-   Armstrong McKay et al. (2022) discusses tipping points.
 
-## Ecological Indicators of the Biosphere
+AI is being used to map icebergs and measure the change in size European
+Space Agency (2023)
 
-Sustainability can be measured using a variety of ***ecological
-indicators***.
+## *Vizualizing* Climate Change
 
-Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
-
--   Svalbard Seed Vault
--   Jackson (1996) *preventive environmental management*
--   Jackson (2017) limits to growth update
--   Ecological Indicators (I like the name Ecomarkers) for Earth are
-    like Biomarkers in human health.
-
-Some argue sustainability is not enough and we should work on
-regeneration of natural habitats.
-
-### The Climate
-
-#### The Price of Climate Change
-
-Long term cost is more than short-term gains.
-
-#### Climate Data Vizualisation
-
-Climate data visualization has a long history, starting with
-***Alexander von Humboldt,*** the founder of climatology, who
-revolutionized cartography by inventing the first *isothermal maps*
-around the year 1816; these maps showed areas with similar temperature,
-variations in altitude and seasons in different colors (Honton, 2022).
-Humboldt’s isotherms are now available as 3D computer models in (Anon.,
-2023a).
-
-Earth’s physical systems are very sensitive to small changes in
-temperature, which was not understood until 30 years ago (McKibben,
-2006).
+Climate data visualization has a history of over 200 years, starting
+with ***Alexander von Humboldt,*** known as the founder of climatology,
+who revolutionized cartography by inventing the first *isothermal maps*
+in 1816; these maps showed areas with similar temperature, variations in
+altitude and seasons in different colors (Honton, 2022). Humboldt’s
+isotherms are now available as 3D computer models in (Anon., 2023a).
 
 -   Industrial revolution: : “transition to a low carbon economy
     presents challenges and potential economic benefits that are
@@ -859,20 +879,40 @@ law to have a level playing field for business (Greens EFA, 2023).
 
 -   Pathways to drawdown
 
-### Ecosystem Services Enable Life on Earth
+## *Measuring* Biosphere
 
-Gómez-Baggethun et al. (2010) the history of the valuation of nature’s
+Biosphere’s Ecological Indicators
+
+Sustainability can be measured using a variety of ***ecological
+indicators***.
+
+Dinerstein et al. (2017) identifies 846 terrestrial ecoregions.
+
+-   Svalbard Seed Vault
+-   Jackson (1996) *preventive environmental management*
+-   Jackson (2017) limits to growth update
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are
+    like Biomarkers in human health.
+
+Some argue sustainability is not enough and we should work on
+regeneration of natural habitats.
+
+## *Measuring* Ecosystem Services
+
+Ecosystem services enable human life on Earth
+
+(Gómez-Baggethun et al., 2010) the history of the valuation of nature’s
 services goes back to the 18th century when David Ricardo and Jean
 Baptiste Say discussed nature’s *work*, however both considered it
-should be free. In 1997 Daily (1997) proposed the idea of ecosystem
-services and Costanza et al. (1997) attempted to assess the amount of
+should be free. In 1997 (Daily, 1997) proposed the idea of ecosystem
+services and (Costanza et al., 1997) attempted to assess the amount of
 ecosystem services provided.
 
-Le Provost et al. (2022) study shows *biodiversity* as one key factor to
-maintain delivery of ecosystem services. Noriega et al. (2018) attempts
-to quantify the ecosystem services (ES) provided by insects. While it
-can be assumed much of the flora and fauna are crucial for Earth’s
-systems, science is still in the process of understanding and
+(Le Provost et al., 2022) study shows *biodiversity* as one key factor
+to maintain delivery of ecosystem services. Noriega et al. (2018)
+attempts to quantify the ecosystem services (ES) provided by insects.
+While it can be assumed much of the flora and fauna are crucial for
+Earth’s systems, science is still in the process of understanding and
 quantifying its contributions.
 
 -   Leverhulme Centre for Nature Recovery (2023) should we put a price
@@ -909,21 +949,18 @@ There are 2 approaches to protecting nature
     on ecosystem services. In Taiwan, (Lee, Jan and Liu, 2021) developed
     a framework of indicators to assess sustainable tourism.
 
-### **Environmental Degradation Is Cir**
+## ***Increasing*** **Environmental Degradation**
 
 #### Growing Population and Overpopulation
 
 Earth’s population reached 8 Billion people In November 2022 and
 population projections by predict 8.5B people by 2030 and 9.7B by 2050
 (The Economic Times, 2022; United Nations Department of Economic and
-Social Affairs, Population Division, 2022).
-
-(Hassoun et al., 2023) forecasts increase of global food demand by 62%
-including impact of climate change.
-
--   While population growth puts higher pressure on Earth’s resources,
-    some research proposes the effect is more from wasteful lifestyles
-    than the raw number of people (Cardinale et al., 2012).
+Social Affairs, Population Division, 2022). While population growth puts
+higher pressure on Earth’s resources, some research proposes the effect
+is more from wasteful lifestyles than the raw number of people
+(Cardinale et al., 2012).(Hassoun et al., 2023) forecasts increase of
+global food demand by 62% including impact of climate change.
 
 -   Bowler et al. (2020) Anthropogenic Threat Complexes (ATCs):
 
@@ -973,53 +1010,7 @@ slavery into a *subsidy* keeping environmental degradation happening.
 
 -   Modern Slavery Act.
 
-#### Overconsumption Drive Climate Change
-
-Overconsumption is one of the main drivers of climate change.” Around
-2/3 of global GHG emissions are directly and indirectly linked to
-household consumption, with a global average of about 6 tonnes
-CO<sub>2</sub> equivalent per capita.” (Ivanova et al., 2020; Renee Cho,
-2020)
-
-Overconsumption is also one of the root causes of plastic pollution.
-Ford et al. (2022) and Lavers, Bond and Rolsky (2022) find strong
-linkage of climate change and marine plastic pollution “along with other
-stressors that threaten the resilience of species and habitats sensitive
-to both climate change and plastic pollution”.
-
--   Lavers, Bond and Rolsky (2022) plastic pollution is pervasive around
-    the Earth and is fundamentally linked to climate change
-
-While the number on overconsumption are clear, the debate on
-overconsumption is so polarized, it’s difficult to have a meaningful
-discussion of the topic (Ianole and Cornescu, 2013).
-
--   Overconsumption and underinvestment.
-
--   Cities are responsible for 80% of the emissions Rosales Carreón and
-    Worrell (2018)
-
--   Moberg et al. (2019) reports daily human activities emission
-    contribution on average in four European countries (France, Germany,
-    Norway and Sweden).
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
-
--   Eesti Vabariigi Valitsus (2022) Estonian Green Deal Action Plan
-    (Eesti Rohepöörde Tegevusplaan).
--   Armstrong McKay et al. (2022) discusses tipping points.
-
-### Earth System Law
-
--   Du Toit and Kotzé (2022) describes Earth System Law as a framework
-    for addressing interconnected environmental challenges.
-
--   Williams and Joshi (2013) higher CO<sub>2</sub> concentrations in
-    the air can cause more turbulence for flights.
-
--   Warmer climate helps viruses and fungi spread Press (2023)
-
-### Biodiversity is Decreasing Rapidly
+## *Losing* Biodiversity
 
 Almond, R.E.A. et al. (2022) reported, the number of species killed,
 mass destruction of nature. “69% decline in the relative abundance of
@@ -1056,6 +1047,10 @@ Convention on Biodiversity goes back to 1988, when the working group was
 founded. UNEP (Tue, 12/20/2022 - 07:44): The Convention on Biodiversity
 2022 (COP15) adopted the first global biodiversity framework to
 accompany climate goals.
+
+Protecting biodiversity
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 #### ***Biodiversity Indicators***
 
@@ -1094,6 +1089,8 @@ biodiversity.
     and @pgreenfielduk, 2021)
 
 -   Burning of biomass undermines carbon capture.
+
+## Pollution
 
 #### Air and Water Pollution is Widespread
 
@@ -1195,6 +1192,10 @@ international news coverage include Exxon Valdez and Deepwater Horizon.
     et al. (2020).
 -   Disputes in Eerola (2022).
 
+#### Pricing Climate Change
+
+Long term cost is more than short-term gains.
+
 #### Carbon Accounting in Corporate Industry
 
 -   Watershed
@@ -1233,8 +1234,7 @@ Goals (SDGs) (Ruba and Talucder, 2023);
 
 -   “Would you rather buy a DogeCoin or a regenerative food forest
     token?” Curve Labs founder Pat Rawson quotes Shiller (2019) in ReFi
-    podcast about Kolektivo. ReFi DAO (2022) (Use as a question for the
-    survey?)
+    podcast about Kolektivo. ReFi DAO (2022)
 
 ### Quality of Life
 
@@ -1312,6 +1312,8 @@ Database for Global Atmospheric Research (EDGAR)
 
 The EU Copernicus satellite system reveals new greenhouse emissions
 previously undetected (Daniel Värjö, 2022).
+
+## *Trading* CO<sub>2</sub> Emissions
 
 ### Emissions Trading Schemes
 
@@ -1794,7 +1796,7 @@ producers who wish to sell in the EU common market.
 
 -   European Commission (2022c) Ecodesign for sustainable products
 
-### Waste Generation is Still Increasing
+## *Increasing* Waste Generation
 
 Liu et al. (2023) reports, e–waste is growing 3%–5% every year,
 globally. (Thukral and Singh, 2023) identifies several barriers to
