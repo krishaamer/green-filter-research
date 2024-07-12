@@ -18,4 +18,60 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
+\newpage
+
+{{< include "abstract.qmd" >}}
+
+\newpage
+
+{{< include "introduction.qmd" >}}
+
+\newpage
+
+{{< include "literature/index.qmd" >}}
+
+{{< include "literature/college.qmd" >}}
+
+{{< include "literature/design.qmd" >}}
+
+{{< include "literature/ai.qmd" >}}
+
+{{< include "literature/fintech.qmd" >}}
+
 {{< include "literature/sustainability.qmd" >}}
+
+\newpage
+
+{{< include "methodology/index.qmd" >}}
+
+\newpage
+
+{{< include "results/index.qmd" >}}
+
+{{< include "results/shopping.qmd" >}}
+
+{{< include "results/attitudes.qmd" >}}
+
+{{< include "results/investing.qmd" >}}
+
+{{< include "results/personas.qmd" >}}
+
+{{< include "results/ai.qmd" >}}
+
+{{< include "results/experts.qmd" >}}
+
+\newpage
+
+{{< include "discussion.qmd" >}}
+
+\newpage
+
+{{< include "prototypes/index.qmd" >}}
+
+{{< include "prototypes/ideas.qmd" >}}
+
+{{< include "prototypes/interactive.qmd" >}}
+
+{{< include "prototypes/testing.qmd" >}}
+
+\newpage

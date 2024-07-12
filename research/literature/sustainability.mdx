@@ -580,6 +580,13 @@ Eco-design framework proposes 9 values to strive for in high quality products.
 Implications
 `];
 
+
+```python
+from charts.sustainability import biodiversity_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 ````mdx-code-block
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/humboldt.jpg';
@@ -588,38 +595,57 @@ import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ````
 
-## Evolving Sustainability Measurments from Planetary Boundaries to Planetary Health
+## *Measuring* Sustainability
 
-*Sustainability* was first mentioned in the seminal book *Sylvicultura
-oeconomica* in the context of forestry with the goal of achieving
-sustainable forest management (Hannß Carl von Carlowitz, 1713). The
-field is known today as *sustainable yield* of *natural capital* with a
-focus on maintaining *ecosystem services* (Peter Kareiva et al., 2011).
-Aldo Leopold proposed the idea of *land ethics* as *“\[a\] thing is
-right when it tends to preserve the integrity, stability, and beauty of
-the biotic community. It is wrong when it tends otherwise”* in his
-landmark work *A Sand County Almanac* (Leopold, 1972). The 1987 United
-Nations’ Brundtland Report (Our Common Future) defined sustainable
-development as *“Development that meets the needs of the present without
-compromising the ability of future generations to meet their own needs”*
-(World Commission on Environment and Development, 1987).
+***“Nachhaltigkeit”*** - meaning *sustainability* in German - was likely
+the first use of the concept of preserving natural resources, conceived
+by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book
+on forestry - *Sylvicultura oeconomica -*, referring to the goal of
+achieving prudent forest management practices in his native Saxony in
+Southeastern Germany, which at the time was under severe deforestation
+pressure from mining, ship-building and agricultural production (Hannß
+Carl von Carlowitz, 1713; Gottschlich and Friedrich, 2014). This
+particular field of sustainabilitystudy is now known as *sustainable
+yield of natural capital* - the principal of a natural resource, such as
+in fishing and forestry shouldn’t be over-harvested in order to maintain
+*ecosystem services* - a contemporary term from the theory of *natural
+capital*, referring to benefits humans receiver from the stock of
+world’s natural resources (Peter Kareiva et al., 2011). Perhaps more
+poetically, the American wildlife ecologist Aldo Leopold proposed the
+idea of ***land ethics*** in 1972 as *“\[a\] thing is right when it
+tends to preserve the integrity, stability, and beauty of the biotic
+community. It is wrong when it tends otherwise”* in his landmark work *A
+Sand County Almanac* (Leopold, 1972). In a similar vein, the 1987 United
+Nations’ Brundtland Report titled “*Our Common Future”* defined
+*sustainable development* as *“Development that meets the needs of the
+present without compromising the ability of future generations to meet
+their own needs”* (World Commission on Environment and Development,
+1987). Given these varied ideas, it could be said people have been
+concerned with our planet’s natural environment and its preservation
+already for centuries. Yet it is only in the last century that human
+activities have begun to affect Earth’s systems on a previously unseen
+scale, necessitating a deeper understanding of human – nature
+interactions, such as in the case of climate change.
 
-In 1896, the Nobel Prize winner Svante Arrhenius first calculated how an
-increase in CO<sub>2</sub> levels could have a warming effect on our
-global climate (Anderson, Hawkins and Jones, 2016; Wulff, 2020). 120
-years later, the Paris Climate Agreement came into effect, with
-countries agreeing on non-binding targets on how to keep CO<sub>2</sub>
-levels 1.5 °C below pre-industrial levels (United Nations, 2016). While
-awareness of Earth’s warming climate was growing, the CO<sub>2</sub>
-emissions kept rising too. The hockey-stick growth of CO<sub>2</sub>
-concentration since the industrial revolution is clear in the data from
-1958 onward, following a steady annual increase, called the *Keeling
-Curve* (Keeling and Keeling, 2017). Written records of global
-temperature measurements are available starting from the 1880s when
-documentation of temperatures become available in ship records (Brohan
-et al., 2012). Temperature estimations from tree-trunks allow some
-temperature comparisons with the climate as far back as 2000 years ago
-(Rubino et al., 2019).
+## Measuring Climate Change
+
+Just as with sustainability, studies of Earth’s climate go back for a
+long time. Already in 1896, the Nobel Prize winner Svante Arrhenius
+first calculated how an increase in CO<sub>2</sub> levels could have a
+warming effect on our global climate (Anderson, Hawkins and Jones, 2016;
+Wulff, 2020). 120 years later, the Paris Climate Agreement came into
+effect, with countries agreeing on non-binding targets on how to keep
+CO<sub>2</sub> levels 1.5 °C below pre-industrial levels (United
+Nations, 2016). While awareness of Earth’s warming climate was growing,
+the CO<sub>2</sub> emissions kept rising too. The hockey-stick growth of
+CO<sub>2</sub> concentration since the industrial revolution is clear in
+the data from 1958 onward, following a steady annual increase, called
+the *Keeling Curve* (Keeling and Keeling, 2017). Written records of
+global temperature measurements are available starting from the 1880s
+when documentation of temperatures become available in ship records
+(Brohan et al., 2012). Temperature estimations from tree-trunks allow
+some temperature comparisons with the climate as far back as 2000 years
+ago (Rubino et al., 2019).
 
 ````mdx-code-block
 <Figure
@@ -630,22 +656,23 @@ temperature comparisons with the climate as far back as 2000 years ago
 />
 ````
 
-In 1938, Guy Stewart Callendar was the first to demonstrate the warming
-of Earth’s land surface as well as linking the production of fossil
-fuels to increased CO<sub>2</sub> and changing climate (Hawkins and
-Jones, 2013). By the latest data from 2022, the current world population
-of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub> per year,
-the highest emissions recorded in history (Statista, 2023). To limit
-global warming to 1.5 °C as agreed by the world nations in Paris,
+In 1938, Guy Stewart Callendar was the first scientist to demonstrate
+the warming of Earth’s land surface as well as linking the production of
+fossil fuels to increased CO<sub>2</sub> and changing climate (Hawkins
+and Jones, 2013). By the latest data from 2022, the current world
+population of 8 Billion people emitted 37.5 gigatonnes of CO<sub>2</sub>
+per year, the highest emissions recorded in history (Statista, 2023). To
+limit global warming to 1.5 °C as agreed by the world nations in Paris,
 removal of 5-20 gigatons of CO<sub>2</sub> per year would be needed
 according to reduction pathways calculated by the Intergovernmental
 Panel on Climate Change (IPCC) (Wade et al., 2023). Yet, most countries
-are missing the mark. Given this model of climate change, the G7
-countries (Canada, France, Germany, Italy, Japan, United Kingdom, United
-States) are heading for 2.7 °C of warming by 2050 (CDP, 2022). The
-monumental task of removing several gigatons of CO<sub>2</sub> from the
-atmosphere requires massive policy shifts and collaboration across
-countries and industries (Mackler, Fishman and Broberg, 2021).
+are missing the mark \[MISSING CITATION\]. Given this model of climate
+change, the G7 countries (Canada, France, Germany, Italy, Japan, United
+Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP,
+2022). The monumental task of removing several gigatons of
+CO<sub>2</sub> from the atmosphere requires massive policy shifts and
+collaboration across countries and industries (Mackler, Fishman and
+Broberg, 2021).
 
 News reports saying quoting the “The European Union’s Copernicus Climate
 Change Service (C3S)” 1.5 has already been breached (Anon., 2024a;
@@ -694,6 +721,8 @@ were quantified recently (ADD CITATION)
 
 -   As long as humanity is a mono-planetary species, we have to come to
     terms with the limitations of our home, Earth.
+
+Evolving Measurments from Planetary Boundaries to Planetary Health
 
 ### Planetary Health
 
@@ -1000,26 +1029,10 @@ abundance (94%), while freshwater species populations have seen the
 greatest overall global decline (83%).”
 
 ```python
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as font_manager
-
-categories = ['Worldwide', 'Latin America', 'Freshwater Species']
-declines = [69, 94, 83]
-colors = ['#fb81cb', '#3ec7b8', '#fee566']
-
-custom_font = font_manager.FontProperties(fname='fonts/notosans.ttf')
-
-plt.figure(figsize=(10, 6))
-bars = plt.bar(categories, declines, color=colors)
-
-for bar in bars:
-    yval = bar.get_height()
-    plt.text(bar.get_x() + bar.get_width()/2, yval - 5, f"{yval}%", ha='center', va='bottom', fontproperties=custom_font, fontsize=20, color='black')
-
-plt.show()
+biodiversity_chart()
 ```
 
-![](sustainability_files/figure-markdown_strict/cell-2-output-1.png)
+![](sustainability_files/figure-markdown_strict/cell-3-output-1.png)
 
 Biodiversity loss is linked to overconsumption, weak legislation and
 lack of oversight. (Crenna, Sinkko and Sala, 2019) recounts European
@@ -1114,8 +1127,8 @@ MARIA LUÍS FERNANDES (2023) EU has legislation in progress to curb
 industrial emissions. If legislation is in place, causing bad air
 quality can become bad for business. Gu et al. (2023) links air
 pollution to credit interest rates for business loans in China;
-companies with low environmetal awareness and a history of environmental
-penalties pay 12 percent higher interest rates.
+companies with low environmental awareness and a history of
+environmental penalties pay 12 percent higher interest rates.
 
 Clean air is a requirement.
 
@@ -1129,7 +1142,7 @@ Clean air is a requirement.
 
 -   (Anon., 2023b) The US Global Change Research Program comprehensive
     report to the US Congress links disaster-risk directly to global
-    warming; for examples increased wildfires damage property, endager
+    warming; for examples increased wildfires damage property, endanger
     life and reduces air quality, which in effect increases health
     challenges.
 
@@ -1625,7 +1638,7 @@ of virgin materials* are sourced every year.
 -   Supply chain transparency enables stakeholder accountability (Fox,
     2007; Doorey, 2011; Circularise, 2018).
 
--   Recycling Critical Raw Materials, digitalisation of mining allows
+-   Recycling Critical Raw Materials, digitalization of mining allows
     enhance the reliability of supply chains (CRM Alliance, 2020).
 
 -   EIT RawMaterials
@@ -1789,7 +1802,7 @@ e-waste management among producers including lack of awareness and
 infrastructure, attitudinal barriers, existing *informal* e-waste
 sector, and the need for an e-waste license.
 
-### Extended Producer Responsibility Enables Compannies to be Resposible
+### Extended Producer Responsibility Enables Companies to be Resposible
 
 Extended Producer Responsibility (EPR) is a policy tool first proposed
 by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to
@@ -1798,7 +1811,9 @@ their products, thus leading to more eco-friendly products. Nonetheless,
 EPR schemes do not guarantee circularity and may instead be designed
 around fees to finance waste management in linear economy models
 (Christiansen, Hasse and Tønder, 2021). The French EPR scheme was
-upgraded in 2020 to become more circular (Jacques Vernier, 2021).
+upgraded in 2020 to become more circular (Jacques Vernier, 2021). In
+July 2024, Latvia was the 4th EU country to join an textile-EPR scheme
+(Anon., 2024c).
 
 In any case, strong consumer legislation (such as EPR) has a direct
 influence on producers’ actions. For example, in HKTDC Research (2022),

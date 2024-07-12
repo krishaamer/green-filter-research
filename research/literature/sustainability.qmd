@@ -6,6 +6,13 @@ editor:
 suppress-bibliography: true
 ---
 
+```{python}
+#| echo: false
+from charts.sustainability import biodiversity_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 ```{=mdx}
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/humboldt.jpg';
@@ -13,6 +20,7 @@ import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ```
+
 ## *Measuring* Sustainability
 
 ***"Nachhaltigkeit"*** - meaning *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe deforestation pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainabilitystudy is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain *ecosystem services* - a contemporary term from the theory of *natural capital*, referring to benefits humans receiver from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale, necessitating a deeper understanding of human – nature interactions, such as in the case of climate change.
@@ -305,23 +313,7 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 @livingPlanetReport2022 reported, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
 
 ```{python}
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as font_manager
-
-categories = ['Worldwide', 'Latin America', 'Freshwater Species']
-declines = [69, 94, 83]
-colors = ['#fb81cb', '#3ec7b8', '#fee566']
-
-custom_font = font_manager.FontProperties(fname='fonts/notosans.ttf')
-
-plt.figure(figsize=(10, 6))
-bars = plt.bar(categories, declines, color=colors)
-
-for bar in bars:
-    yval = bar.get_height()
-    plt.text(bar.get_x() + bar.get_width()/2, yval - 5, f"{yval}%", ha='center', va='bottom', fontproperties=custom_font, fontsize=20, color='black')
-
-plt.show()
+biodiversity_chart()
 ```
 
 Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. @wwfForestsReducingEU2022 case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
@@ -889,9 +881,9 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 @liuGlobalPerspectiveEwaste2023 reports, e--waste is growing 3%--5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
-### Extended Producer Responsibility Enables Compannies to be Resposible
+### Extended Producer Responsibility Enables Companies to be Resposible
 
-Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021].
+Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join an textile-EPR scheme [@NewEPRRequirements2024].
 
 In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
 
