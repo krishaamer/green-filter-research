@@ -79,11 +79,11 @@ Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023].
 
 **There's evidence young people have money.** In the United States, the combined annual consumer spending of generation-z and millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
-| Place     | Percentage of Financial Security Ownerneship |
-|-----------|----------------------------------------------|
-| Hong Kong | 48%                                          |
-| France    | 10%                                          |
-|           |                                              |
+| Place of Comparison | Financial Security Ownership |
+|---------------------|------------------------------|
+| Hong Kong           | 48%                          |
+| France              | 10%                          |
+|                     |                              |
 
 : From millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
@@ -367,7 +367,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   Multi-year crops reduce inputs of gasoline, labor, etc. @aubreystreitkrugPathwaysPerennialFood2023
 
--   Large agritech like Monsanto rely on selling seeds annualy for profits, which has lead to farmer suicides when crops fail.
+-   Large agritech like Monsanto rely on selling seeds annually for profits, which has lead to farmer suicides when crops fail.
 
 #### Culture, Community, Cuisine, Storytelling
 
@@ -398,7 +398,7 @@ There are several initiatives to reduce food waste by helping people consume foo
 <Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
 | Name |   |
-|-----------------------|-------------------------|
+|-----------------------------------|-------------------------------------|
 | Karma |  |
 | ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
 | Kuri | @hajejankampsKuriAppThat2022 Less impact of food |

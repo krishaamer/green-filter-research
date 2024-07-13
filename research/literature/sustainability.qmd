@@ -20,11 +20,11 @@ import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ```
-## *Measuring* Sustainability
+## *Defining* "Sustainability"
 
-***"Nachhaltigkeit"*** - meaning *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe deforestation pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain *ecosystem services* - a contemporary term from the theory of *natural capital*, referring to benefits humans receiver from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale - termed Anthropocene -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is deeply changing the face of our planet.
+***"Nachhaltigkeit"*** - meaning *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## *Measuring* Climate Change
+## *Measuring* Earth's Climate
 
 Just as with sustainability, studies of Earth's climate go back for more than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. While the scientific case for human-induced climate change was building, it wasn't until 120 years later, when the Paris Climate Agreement came into effect, that countries agreed on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when documentation of temperatures began to be recorded in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
@@ -38,21 +38,89 @@ Just as with sustainability, studies of Earth's climate go back for more than a 
   src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
-/>@
+/>
 ```
-In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006].
+Annual greenhouse gas emissions by region.
 
-## *Mitigating* Climate Change
++----------------------------------------------+-------------------------------------+--------------------------------+
+| Regional Average Per Capita Emissions (2020) | Highest Per Capita Emissions (2021) | Highest Total Emissions (2021) |
++----------------------------------------------+-------------------------------------+--------------------------------+
+| North America 13.4 CO~2~e tonnes             | Palau                               | China                          |
++----------------------------------------------+-------------------------------------+--------------------------------+
+| Europe 7.5 CO~2~e tonnes                     | Qatar                               | United States                  |
++----------------------------------------------+-------------------------------------+--------------------------------+
+| Global Average 4.1 CO~2~e tonnes             | Kuwait                              | European Union                 |
++----------------------------------------------+-------------------------------------+--------------------------------+
+| Africa and the Middle East 1.7 CO~2~e tonnes | Bahrain                             | India                          |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Trinidad and Tobago                 | Russia                         |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | New Caledonia                       | Japan                          |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | United Arab Emirates                | Iran                           |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Gibraltar                           | Germany                        |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Falkland Islands                    | South Korea                    |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Oman                                | Indonesia                      |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Saudi Arabia                        | Saudi Arabia                   |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Brunei Darussalam                   | Canada                         |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Canada                              | Brazil                         |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | Australia                           | Turkey                         |
++----------------------------------------------+-------------------------------------+--------------------------------+
+|                                              | United States                       | South Africa                   |
++----------------------------------------------+-------------------------------------+--------------------------------+
 
-The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
+: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
 
-Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~ concentrations in the air can cause more turbulence for flights.
+"The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
-## *Breaching* Planetary Boundaries
+@crippaFossilCO2GHG2020 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
 
-In addition the enormity of CO~2~ emissions, humanity is facing other massive problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
+The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
+
+AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
+
+### Country-Level Nationally Determined Contributions (NDCs)
+
+-   @unfcccNDC2022 The State of Nationally Determined Contributions
+
+While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries [@climateanalyticsClimateActionTracker2023].
+
+|                      |                         |
+|----------------------|-------------------------|
+| Country or Region    | NDC target              |
+| China                | Highly insufficient     |
+| Indonesia            | Highly insufficient     |
+| Russia               | Critically insufficient |
+| EU                   | Insufficient            |
+| USA                  | Insufficient            |
+| United Arab Emirates | Highly insufficient     |
+| Japan                | Insufficient            |
+| South Korea          | Highly insufficient     |
+| Iran                 | Critically insufficient |
+| Saudi Arabia         | Highly insufficient     |
+
+: Climate Action Tracker's country comparison of the 10 top polluters' climate action.
+
+-   @fransenStateNationallyDetermined2022 notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
+
+TODO
+
+-   "triple turn"
+-   lack of transparency
+-   Call for GOP contributors' transparency
+
+## Earth's Boundaries?
+
+In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 planetary boundaries: in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
 
 As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
 
@@ -79,9 +147,9 @@ In 1948, the International Union for Conservation of Nature (IUCN) was founded, 
 
 LULUCF "Land Use, Land-Use Change, and Forestry" can be a source of greenhouse gas emissions or a carbon sink (removing CO2 from the atmosphere)
 
-## *Integrating* Planetary Health
+## Planetary Health
 
-Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. Planetary Health and Earth System Law are 2 approaches to address the complex interdependence.
+Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. *Planetary Health* and E*arth System Law* are 2 approaches to address the complex interdependence of humans with our physical environment.
 
 Evolving Measurements from Planetary Boundaries to Planetary Health
 
@@ -89,11 +157,9 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 
 -   @wardaniBoundariesSpacesKnowledge2023 *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
 
-### Earth System Law
-
 -   [@dutoitReimaginingInternationalEnvironmental2022] describes *Earth System Law* as a framework for addressing interconnected environmental challenges.
 
-## *Consumer* Lifestyle
+## Consumerism \< Overconsumption
 
 Consumer lifestyle contributes to environmental destruction. According to [@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019]'s models 45% of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume. A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" @undpPeoplesClimateVote2021. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. @deyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
@@ -104,12 +170,12 @@ Consumer lifestyle contributes to environmental destruction. According to [@elle
 | 36-59     | 66%   | 34%                 |
 | Over 69   | 58%   | 42%                 |
 
-: "Climate change is an emergency" @undpPeoplesClimateVote2021.
+: 1.2 million UN survey responses to the statement "Climate change is an emergency" @undpPeoplesClimateVote2021.
 
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before.
 -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
-Overconsumption Drive Climate Change
+## Overconsumption
 
 Overconsumption is one of the main drivers of climate change. "2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita." [@reneechoHowBuyingStuff2020; @ivanovaQuantifyingPotentialClimate2020]
 
@@ -142,9 +208,27 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
 
-AI is being used to map icebergs and measure the change in size @europeanspaceagencyAIMapsIcebergs2023
+## Overpopulation
 
-## *Vizualizing* Climate Change
+Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. While population growth puts higher pressure on Earth's resources, some research proposes the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012].[@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change.
+
+-   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes (ATCs).
+
+"Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left" [@cafaroOverpopulationMajorCause2022].
+
+## Social Cost of CO~2~
+
+Sustainability is filled with complexities, where CO~2~ emission is compounded by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+
+Social Cost of Carbon Measures Compound CO~2~ Impact.
+
+-   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
+
+-   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+
+-   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
+
+## *Vizualizing* Climate
 
 Climate data visualization has a history of over 200 years, starting with ***Alexander von Humboldt,*** known as the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023].
 
@@ -158,13 +242,23 @@ Climate data visualization has a history of over 200 years, starting with ***Ale
 ```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
-Earth System Models from the first calculation by Svante Arrhenius and Guy Stewart Callendar to today's complex models that integrate the various Earth systems and cycles ran on supercomputers @andersonCO2GreenhouseEffect2016
+Earth System Models from the first calculation by Svante Arrhenius and Guy Stewart Callendar to today's complex models that integrate the various Earth systems and cycles ran on supercomputers [@andersonCO2GreenhouseEffect2016].
 
-### Climatech
+### Digital Twins
+
+-   We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
+
+-   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023].
+
+-   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+
+## Corporate Responsibility
 
 How are large corporations responding to the climate crisis?
 
-Lack of leadership. @capgeminiWorldBalanceWhy2022: "Many business leaders see sustainability as costly obligation rather than investment in the future". @hoikkalaCEOSeesTerrible2019: for example the CEO of the Swedish clothing producer H&M, one of the largest fast-fashion in the world, recognizes the potential impact of conscious consumers as a threat.
+Lack of leadership. [@capgeminiWorldBalanceWhy2022]: "Many business leaders see sustainability as costly obligation rather than investment in the future".
+
+The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion in the world -, recognizes the potential impact of *conscious consumers* as a threat [@hoikkalaCEOSeesTerrible2019].
 
 Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
@@ -180,31 +274,82 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
+### Carbon Accounting in Corporate Industry
+
+-   Watershed
+
+-   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
+
+-   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
+
+-   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
+
+### Slavery Still Exists
+
+In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023].
+
+The UN SDG target 8.7 targets to eliminate all forms of slavery.
+
+Slavery is connected to environmental degradation and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
+
+-   @christBlockchainTechnologyModern2021 estimates 20 million people are stuck inside corporate blockchains. The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports @walkfreeGlobalSlaveryIndex2023.
+
+-   @hansvanleeuwenModernSlaveryGrace2023 slavery affects industries from fashion to technology, including sustainability enablers such as solar panels.
+
+-   "commodification of human beings"
+
+-   @anandchandrasekharWhySwitzerlandMatters2021: Trading commodities "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates." Can traders have more scrutiny over what they trade?
+
+-   Modern Slavery Act.
+
 ## *Measuring* Biosphere
 
 Biosphere's Ecological Indicators
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
-@dinersteinEcoregionBasedApproachProtecting2017 identifies 846 terrestrial ecoregions.
+[@dinersteinEcoregionBasedApproachProtecting2017] identifies 846 terrestrial ecoregions.
 
 -   Svalbard Seed Vault
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 -   @jacksonProsperityGrowthFoundations2017 limits to growth update
 -   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
 
-Some argue sustainability is not enough and we should work on regeneration of natural habitats.
+Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
+
+### **Environmental DNA**
+
+-   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types.
+
+-   @peterandreysmitharchivepageHowEnvironmentalDNA2024 describes
+
+### ***Biodiversity Indicators***
+
+Cutting edge research uses AI for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+
+@mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
+
++----------------------+---------------------------------------------------------------------------------------+
+| View                 |                                                                                       |
++----------------------+---------------------------------------------------------------------------------------+
+| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
++----------------------+---------------------------------------------------------------------------------------+
+| Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
++----------------------+---------------------------------------------------------------------------------------+
+| Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
++----------------------+---------------------------------------------------------------------------------------+
+
+: From @mayWhyShouldWe2011.
 
 ## *Measuring* Ecosystem Services
 
-Ecosystem services enable human life on Earth
+Ecosystem services enable human life on Earth.
 
 [@historyEcosystemServices2010] the history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of ecosystem services and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided.
 
 [@leprovostSupplyMultipleEcosystem2022] study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. @noriegaResearchTrendsEcosystem2018 attempts to quantify the ecosystem services (ES) provided by insects. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions.
 
 -   @MonetaryValuationNature2023 should we put a price on nature?
--   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 -   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
 
 |                                                |
@@ -253,39 +398,9 @@ There are 2 approaches to protecting nature
 
 -   @liDistinguishingImpactTourism2023 tourism is a large industrial sector which relies on ecosystem services. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
-## ***Increasing*** **Environmental Degradation**
+## **Environmental Degradation**
 
-#### Growing Population and Overpopulation
-
-Earth's population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. While population growth puts higher pressure on Earth's resources, some research proposes the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012].[@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change.
-
--   @bowlerMappingHumanPressures2020 Anthropogenic Threat Complexes (ATCs):
-
--   "Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left" @cafaroOverpopulationMajorCause2022.
-
-#### Marine Heatwaves
-
--   [@smaleMarineHeatwavesThreaten2019 and @gellesOceanDireMessage2023] describe how marine heatwaves threaten global biodiversity.
-
-#### Slavery Still Exists
-
-In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023].
-
-The UN SDG target 8.7 targets to eliminate all forms of slavery.
-
-Slavery is connected to environmental degradation and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
-
--   @christBlockchainTechnologyModern2021 estimates 20 million people are stuck inside corporate blockchains. The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports @walkfreeGlobalSlaveryIndex2023.
-
--   @hansvanleeuwenModernSlaveryGrace2023 slavery affects industries from fashion to technology, including sustainability enablers such as solar panels.
-
--   "commodification of human beings"
-
--   @anandchandrasekharWhySwitzerlandMatters2021: Trading commodities "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates." Can traders have more scrutiny over what they trade?
-
--   Modern Slavery Act.
-
-## *Losing* Biodiversity
+### *Losing* Biodiversity
 
 @livingPlanetReport2022 reported, the number of species killed, mass destruction of nature. "69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."
 
@@ -296,6 +411,8 @@ biodiversity_chart()
 Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. @wwfForestsReducingEU2022 case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
 
 Meanwhile, there is some progress in biodiversity conservation. @uebtBiodiversityBarometer2022 reports "Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009."
+
+### Convention on Biodiversity
 
 Similarly to climate protection, the UN has taken a leadership role in biodiversity protection. @unitHistoryConvention2023: The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. @unepCOP15EndsLandmark2022: The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
 
@@ -317,52 +434,37 @@ Protecting biodiversity
 
 : Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021].
 
-#### ***Biodiversity Indicators***
 
-Cutting edge research uses AI for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
 
-@mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
+### Marine Heatwaves
 
-+----------------------+---------------------------------------------------------------------------------------+
-| View                 |                                                                                       |
-+----------------------+---------------------------------------------------------------------------------------+
-| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry.             |
-+----------------------+---------------------------------------------------------------------------------------+
-| Broadly Utilitarian  | Humans depend upon biodiverse ecosystems.                                             |
-+----------------------+---------------------------------------------------------------------------------------+
-| Ethical              | Humans have a responsibility to future generations to pass down a rich natural world. |
-+----------------------+---------------------------------------------------------------------------------------+
+-   [@smaleMarineHeatwavesThreaten2019 and @gellesOceanDireMessage2023] describe how marine heatwaves threaten global biodiversity.
 
-: From @mayWhyShouldWe2011.
-
-#### Forest and Deforestion
+### Deforestion
 
 Around 27% of Earth's land area is still covered by forests yet deforestation is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022].
 
-Afforestation is different from reforestation, which takes into account biodiversity.
-
+-   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+-   Afforestation is different from reforestation, which takes into account biodiversity.
 -   @klostermanMappingGlobalPotential2022 using remote-sensing and machine-learning to assess reforestation potential; doesn't take into account political realities.
-
 -   Global Forest Cover Change, Earth Engine @hansenHighResolutionGlobalMaps2013
-
 -   1 billion tree project [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]
-
 -   Burning of biomass undermines carbon capture.
 
 ## Pollution
 
 #### Air and Water Pollution is Widespread
 
--   Clean water and water pollution
--   @kochOpinionArizonaRace2022 (**Need access! nyc times)**
-
 Air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year @worldhealthorganizationAmbientOutdoorAir2022. Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health and economic benefits across the board from air pollution reduction in France. In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the Chinese University of Hong Kong: "We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons".
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", "All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health" [@sarahludwigrauschSustainabilityYourHealth2021].
 
-The main way to combat air pollution is through policy interventions. @marialuisfernandesRealityCheckIndustrial2023 EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. @guHiddenCostsNongreen2023 links air pollution to credit interest rates for business loans in China; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates.
+The main way to combat air pollution is through policy interventions. [@marialuisfernandesRealityCheckIndustrial2023] the EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. @guHiddenCostsNongreen2023 links air pollution to credit interest rates for business loans in China; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates.
 
 Clean air is a requirement.
+
+-   Clean water and water pollution
+-   @kochOpinionArizonaRace2022 (**Need access! NYC times)**
 
 #### Climate Change Disasters
 
@@ -391,20 +493,6 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 -   EJAtlas tracks environmental justice cases around the world [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
 -   Disputes in @eerolaCorporateConductCommodity2022.
 
-#### Pricing Climate Change
-
-Long term cost is more than short-term gains.
-
-#### Carbon Accounting in Corporate Industry
-
--   Watershed
-
--   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
-
--   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
-
--   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
-
 ### Agroforestry & Permaculture
 
 -   Agroecology @balticseaactiongroupEITFoodRegenerative2023
@@ -427,41 +515,25 @@ Agroforestry plays an active role in achieving Sustainable Development Goals (SD
 
 -   "Would you rather buy a DogeCoin or a regenerative food forest token?" Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo. @refidaoReFiPodcastS2E92022
 
-### Quality of Life
+## *Mitigating* Climate Change
 
--   @kaklauskasSynergyClimateChange2023
+The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
--   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
+Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~ concentrations in the air can cause more turbulence for flights.
 
--   @fabrisCLIMATECHANGEQUALITY2022
-
--   Sustainability is part of product quality. If a product is hurting the environment, it's a low quality product.
-
-### Restoration Ecology
-
--   Bioswales
-
--   @fischerMakingDecadeEcosystem2021 UN announced 2021--2030 the Decade on Ecosystem Restoration
-
-### **Environmental DNA**
-
--   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types.
-
--   @peterandreysmitharchivepageHowEnvironmentalDNA2024 describes
-
-### Digital Twins
-
--   We can use all the data being recorded to provide a Digital Twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
-
--   The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023].
-
--   EU releases strategic foresight reports since 2020 @europeancommissionStrategicForesight2023
-
-## Mitigation & Adaption
+## *Adapting* to Climate Change
 
 Many companies are developing technologies for mitigation.
 
-#### Cap & Trade
+## Restoration Ecology
+
+The UN announced 2021-2030 the Decade on Ecosystem Restoration [@fischerMakingDecadeEcosystem2021].
+
+-   Bioswales
+
+## *Trading* CO~2~ Emissions
+
+### Cap & Trade
 
 The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
@@ -472,54 +544,6 @@ The share of CO~2~ emissions among people around the world is highly unequal acr
     -   @GreenDiceReinventingIdea2021 Estonian company "sustainable lifecycle management of IT equipment"
     -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone, FoxWay and Circular economy for PCs.
     -   @zhouCarboneconomicInequalityGlobal2022 ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
-
-### Emissions' Data
-
-Data about green house gas emissions.
-
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-| Regional Avergage Per Capita Emissions (2020) | Highest Per Capita Emissions (2021) | Highest Total Emissions (2021) |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-| North America 13.4 CO~2~e tonnes              | Palau                               | China                          |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-| Europe 7.5 CO~2~e tonnes                      | Qatar                               | United States                  |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-| Global Average 4.1 CO~2~e tonnes              | Kuwait                              | European Union                 |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-| Africa and the Middle East 1.7 CO~2~e tonnes  | Bahrain                             | India                          |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Trinidad and Tobago                 | Russia                         |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | New Caledonia                       | Japan                          |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | United Arab Emirates                | Iran                           |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Gibraltar                           | Germany                        |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Falkland Islands                    | South Korea                    |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Oman                                | Indonesia                      |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Saudi Arabia                        | Saudi Arabia                   |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Brunei Darussalam                   | Canada                         |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Canada                              | Brazil                         |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | Australia                           | Turkey                         |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-|                                               | United States                       | South Africa                   |
-+-----------------------------------------------+-------------------------------------+--------------------------------+
-
-: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
-
-"The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
-
-@crippaFossilCO2GHG2020 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
-
-The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
-
-## *Trading* CO~2~ Emissions
 
 ### Emissions Trading Schemes
 
@@ -563,14 +587,16 @@ Most of the world is not part of a CO~2~ market.
 
 For the individual person, there's no direct access to CO~2~ markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."
 
-#### The Price of CO~2~ Differs Across Markets
+### Pricing Climate Change
 
-@sternCarbonNeutralEconomy2022 reports carbon-neutral economy needs higher CO~2~ prices. @rennertComprehensiveEvidenceImplies2022: Carbon price should be 3,6x higher that it is currently. @ritzGlobalCarbonPrice2022 argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
+Long term cost is more than short-term gains.
+
+**The Price of CO~2~ Differs Across Markets.** [@sternCarbonNeutralEconomy2022] reports carbon-neutral economy needs higher CO~2~ prices. [@rennertComprehensiveEvidenceImplies2022] Carbon ton price should be 3,6x higher that it is currently. [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
 
 -   @igeniusLetTalkSustainable2020
 -   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO2e trading [@lsegGlobalCarbonMarkets2024].
 
-#### Compliance Markets
+### Compliance Markets
 
 |                    |                        |
 |--------------------|------------------------|
@@ -586,7 +612,7 @@ For the individual person, there's no direct access to CO~2~ markets, however th
 
 : Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
 
-#### Voluntary Carbon Markets
+### Voluntary Carbon Markets
 
 Voluntary Carbon Markets are ...
 
@@ -610,11 +636,27 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 : Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
 
-#### Fossil Fuels
+## Climatech
+
+### Carbon Capture
+
+Many technology startups focused on climate solutions (often referred to as climatech by the media), have proposed a range of approaches to CO~2~ reduction in the atmosphere.
+
+-   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
+
+-   @gaureTrueNotTrue2022 simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
+
+-   **Important: "creating sustainability trust in companies in realtime"**
+
+-   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
+
+## Transforming Energy Production
+
+### Fossil Fuels
 
 Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
-#### Renewable Energy
+### Renewable Energy
 
 -   10 countries use almost 100% renewable energy
 
@@ -628,7 +670,7 @@ There's ample evidence from several countries suggesting moving to renewal energ
 
 -   Montreal protocol eradicates CfCs and the ozone holes became whole again.
 
-#### Emission Scopes Organize Calculating CO2e
+### Emission Scopes Organize Calculating CO2e
 
 The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
 
@@ -645,59 +687,7 @@ One's scope 3 emissions are someone else's scope 1 emissions.
 
 -   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
-#### Carbon Capture
-
-Many technology startups focused on climate solutions (often referred to as climatech by the media), have proposed a range of approaches to CO~2~ reduction in the atmosphere.
-
--   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
-
--   @gaureTrueNotTrue2022 simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
-
--   **Important: "creating sustainability trust in companies in realtime"**
-
--   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
-
-#### Social Cost of Carbon Measures Compound CO~2~ Impact
-
-Sustainability is filled with complexities, where CO~2~ emission is compounded by biodiversity loss, child labor, slavery, poverty, prostitution, dangerous chemicals, and many other issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the Social Cost of Carbon (SCC) which is defined as "additional damage caused by an extra unit of emissions" [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
-
--   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
-
--   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
-
--   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
-
-#### Country-Level Nationally Determined Contributions (NDCs)
-
--   @unfcccNDC2022 The State of Nationally Determined Contributions
-
-While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries [@climateanalyticsClimateActionTracker2023].
-
-|                      |                         |
-|----------------------|-------------------------|
-| Country or Region    | NDC target              |
-| China                | Highly insufficient     |
-| Indonesia            | Highly insufficient     |
-| Russia               | Critically insufficient |
-| EU                   | Insufficient            |
-| USA                  | Insufficient            |
-| United Arab Emirates | Highly insufficient     |
-| Japan                | Insufficient            |
-| South Korea          | Highly insufficient     |
-| Iran                 | Critically insufficient |
-| Saudi Arabia         | Highly insufficient     |
-
-: Climate Action Tracker's country comparison of the 10 top polluters' climate action.
-
--   @fransenStateNationallyDetermined2022 notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
-
-TODO
-
--   "triple turn"
--   lack of transparency
--   Call for GOP contributors' transparency
-
-#### SDGs
+### SDGs
 
 -   SDGs need to discussed in their totality @popkovaTheoryDigitalTechnology2022.
 
@@ -705,48 +695,7 @@ TODO
 
 -   International Energy Agency (IEAs), Decarbonisation Enablers @ieaTrackingCleanEnergy2023
 
-## Eco-Design
-
-***Designing for Sustainability aka Circular Design or Eco-Design*** encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
-
--   "Evolution of design for sustainability: From product design to design for system innovations and transitions"
-
--   @DELAPUENTEDIAZDEOTAZU2022718 **Life Cycle Assessment and environmental impact analysis are needed to provide eco-design scenarios.**
-
--   @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only." Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
-
--   Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
-
-### Regenerative design
-
--   Dematerialize economies is not enough.
-
-### Biomimicry
-
--   following nature
-
-### Biodesign
-
-MIT is a source of many fantastic innovations.
-
--   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
-
--   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client".
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a community
-
--   Processes sustain things: implication for design: built an app
-
-### AI-Assisted Design Enables Desiging for Sustainability
-
-@guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO~2~ calculations inside their design software.
-
--   AI has the potential to provide the parameters for sustainability. @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
--   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
-
-### Circular Economy
+## Circular Economy
 
 Circular economy is a tiny part of the world economy. @circleeconomyCircularityGapReport2022 reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
@@ -802,7 +751,17 @@ Timeline of the Policy Context:
 
 -   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
 
-#### Wellbeing Economy Governments is an Example of Country-level Collaboration
+### Quality of Life
+
+-   @kaklauskasSynergyClimateChange2023
+
+-   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
+
+-   @fabrisCLIMATECHANGEQUALITY2022
+
+-   Sustainability is part of product quality. If a product is hurting the environment, it's a low quality product.
+
+### Wellbeing Economy Governments is an Example of Country-level Collaboration
 
 -   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
 
@@ -880,9 +839,9 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
 
-## *Increasing* Waste Generation
+## *\>*Waste Generation
 
-@liuGlobalPerspectiveEwaste2023 reports, e--waste is growing 3%--5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+[@liuGlobalPerspectiveEwaste2023] reports, e--waste is growing 3%--5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 ### Extended Producer Responsibility Enables Companies to be Resposible
 
@@ -974,7 +933,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | EPR              | ERP and CDP data should be part of Green Filter.                                                                                                                                                                                                                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                  |                                                                                                                                                                                                                                                                                            |
+| Eco-Design       | How to find eco-designed products?                                                                                                                                                                                                                                                         |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                  |                                                                                                                                                                                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
