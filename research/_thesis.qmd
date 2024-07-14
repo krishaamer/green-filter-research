@@ -35,15 +35,25 @@ warnings.filterwarnings("ignore")
 
 {{< include "literature/index.qmd" >}}
 
+\newpage
+
 {{< include "literature/college.qmd" >}}
+
+\newpage
+
+{{< include "literature/sustainability.qmd" >}}
+
+\newpage
 
 {{< include "literature/design.qmd" >}}
 
+\newpage
+
 {{< include "literature/ai.qmd" >}}
 
-{{< include "literature/fintech.qmd" >}}
+\newpage
 
-{{< include "literature/sustainability.qmd" >}}
+{{< include "literature/fintech.qmd" >}}
 
 \newpage
 
@@ -53,15 +63,27 @@ warnings.filterwarnings("ignore")
 
 {{< include "results/index.qmd" >}}
 
+\newpage
+
 {{< include "results/shopping.qmd" >}}
+
+\newpage
 
 {{< include "results/attitudes.qmd" >}}
 
+\newpage
+
 {{< include "results/investing.qmd" >}}
+
+\newpage
 
 {{< include "results/personas.qmd" >}}
 
+\newpage
+
 {{< include "results/ai.qmd" >}}
+
+\newpage
 
 {{< include "results/experts.qmd" >}}
 
@@ -73,9 +95,15 @@ warnings.filterwarnings("ignore")
 
 {{< include "prototypes/index.qmd" >}}
 
+\newpage
+
 {{< include "prototypes/ideas.qmd" >}}
 
+\newpage
+
 {{< include "prototypes/interactive.qmd" >}}
+
+\newpage
 
 {{< include "prototypes/testing.qmd" >}}
 
