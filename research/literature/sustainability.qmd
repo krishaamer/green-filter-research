@@ -29,7 +29,7 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 
 ## *Measuring* Earth's Climate
 
-Just as with sustainability, studies of Earth's climate go back for more than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. While the scientific case for human-induced climate change was building, it wasn't until 120 years later, when the Paris Climate Agreement came into effect, that countries agreed on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when documentation of temperatures began to be recorded in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+As with sustainability, studies of Earth's climate go back for more than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. While the scientific case for human-induced climate change was building, it wasn't until 120 years later, when the Paris Climate Agreement came into effect, that countries agreed on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
@@ -248,7 +248,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
 |  |  |
-|------------------|------------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | View |  |
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
 | Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
@@ -280,7 +280,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 There are 2 main approaches to protecting nature:
 
 |  |  |
-|-------------------|-----------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Economics of Nature Commodification | Measure and assign value to nature |
 | Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
@@ -450,7 +450,7 @@ Retiring CO~2~ allowances
 As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below.
 
 |  |  |  |
-|-------------|-------------|----------------------------------------------|
+|------------------|------------------|------------------------------------|
 | CO~2~ Market | Launch Date | Comments |
 | EU | 2005 | EU: @araujoEuropeanUnionMembership2020 |
 |  |  |  |
@@ -813,7 +813,7 @@ TODO
 -   Call for GOP contributors' transparency
 
 |  |  |
-|----------------|--------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Category | Implication |
 | Transparency | In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. |
 | Speed | Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions. |
