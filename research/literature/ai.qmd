@@ -89,6 +89,8 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 
 In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach. @openaiIntroducingModelSpec2024
 
+- OpenAI does not yet understand how the internal of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
+
 OECD defines AI incident terms @DefiningAIIncidents2024
 
 Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
@@ -136,6 +138,8 @@ Red-teaming means pushing the limits of LLMs, trying to get them to produce outp
 The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
 
 -   Scaling laws of LLMs @kaplanScalingLawsNeural2020
+
+-   English is over-represented in current models so Finnish @SiloAINew2024 focuses on Nordic languages.
 
 Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
 

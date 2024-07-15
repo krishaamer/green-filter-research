@@ -8,7 +8,136 @@ editor:
 suppress-bibliography: true
 ---
 
+```{=mdx}
+import Figure from '/src/components/Figure';
+import SankeyAll from "/research/images/sankey-all.png";
+import SankeyCathy from "/research/images/sankey-cathy.png";
+import SankeyChenying from "/research/images/sankey-chenying.png";
+import SankeyJessica from "/research/images/sankey-jessica.png";
+import SankeyPeijing from "/research/images/sankey-peijing.png";
+import SankeyYuping from "/research/images/sankey-yuping.png";
+```
+
 ## Experts
 
-Analysis of recorded conversation
+Analysis of recorded conversation from 5 experts. Thematic content analysis using ATLAS.ti for labeling/coding the data for grounded theory. Conversations were recorded and transcrinbed using Google Meet and Fireflies AI. Labeling and thematic analysis was performed using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
+
+## Interview 1: Designer - Cathy Wang
+
+Date: 2023-11-10
+Expert: Cathy Wang is a designer and business leader with 20 years of experience in bringing hypergrowth and hundreds of millions of EUR in revenue in digital transformation of industry.
+Country: Taiwan / Canada
+Topics: Design, Business
+
+Thematic Analysis.
+
+::: {.content-hidden unless-format="pdf"}
+![Cathy Wang](./images/sankey-cathy.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Cathy Wang"
+  src={SankeyCathy}
+/>
+```
+
+## Interview 2: Accountant - Peijing Li
+
+Date: 2023-11-18
+Expert: Peijing Li is an accomplished financial controller and accountant with experience in varied industries from dairy to education.
+Country: New Zealand
+Topics: Economics
+
+Thematic Analysis.
+
+::: {.content-hidden unless-format="pdf"}
+![Peijing Li](./images/sankey-peijing.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Peijing Li"
+  src={SankeyPeijing}
+/>
+```
+
+
+## Interview 3: Designer - Jessica Cheng
+
+Date: 2023-12-04 
+Expert: Jessica Cheng is a designer with cross-industry experience from the UK and Taiwan.
+Country: Taiwan
+Topics: Design, Business
+
+Thematic Analysis.
+
+::: {.content-hidden unless-format="pdf"}
+![Jessica Cheng](./images/sankey-jessica.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Jessica Cheng"
+  src={SankeyJessica}
+/>
+```
+
+
+## Interview 4: Economist - Chen-Ying Huang
+
+Date: 2024-05-19 
+Expert: Chen-Ying Huang is an economist and professor at National Taiwan University.
+Country: Taiwan
+Topics: Economics
+
+Thematic Analysis.
+
+::: {.content-hidden unless-format="pdf"}
+![Chen-Ying Huang](./images/sankey-chenying.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Chen-Ying Huang"
+  src={SankeyChenying}
+/>
+```
+
+## Interview 5: Economist - Yuping Chen
+
+Date: 2024-06-04
+Expert: Yuping Chen is an economist and professor at National Taiwan University with a focus on marketing and online shopping.
+Country: Taiwan
+Topics: Economics, Online Shopping
+
+Key learnings: "I think you are targeting experts instead of a general consumers"
+
+Thematic Analysis.
+
+::: {.content-hidden unless-format="pdf"}
+![Yuping Chen](./images/sankey-yuping.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Yuping Chen"
+  src={SankeyYuping}
+/>
+```
+
+
+## Overall
+Common topics between all conversations become visible in the overall Sankey Diagram.
+
+::: {.content-hidden unless-format="pdf"}
+![All](./images/sankey-all.png){width="90%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="All"
+  src={SankeyAll}
+/>
+```
 
