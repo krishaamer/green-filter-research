@@ -8,8 +8,8 @@ suppress-bibliography: true
 
 ```{python}
 #| echo: false
-#from literature.charts.sustainability import biodiversity_chart
-from charts.sustainability import biodiversity_chart
+from literature.charts.sustainability import biodiversity_chart
+#from charts.sustainability import biodiversity_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -248,7 +248,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
 |  |  |
-|----------------------|--------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | View |  |
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
 | Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
@@ -280,7 +280,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 There are 2 main approaches to protecting nature:
 
 |  |  |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Economics of Nature Commodification | Measure and assign value to nature |
 | Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
@@ -450,7 +450,7 @@ Retiring CO~2~ allowances
 As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below.
 
 |  |  |  |
-|------------------|------------------|------------------------------------|
+|-------------------|-------------------|------------------------------------|
 | CO~2~ Market | Launch Date | Comments |
 | EU | 2005 | EU: @araujoEuropeanUnionMembership2020 |
 |  |  |  |
@@ -813,7 +813,7 @@ TODO
 -   Call for GOP contributors' transparency
 
 |  |  |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Category | Implication |
 | Transparency | In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. |
 | Speed | Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions. |
