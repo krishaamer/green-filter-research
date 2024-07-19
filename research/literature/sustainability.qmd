@@ -45,7 +45,91 @@ As with sustainability, studies of Earth's climate go back for more than a centu
 ```
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-### Emissions 
+### Ecological Indicators
+
+Biosphere's Ecological Indicators
+
+Sustainability can be measured using a variety of ***ecological indicators***.
+
+[@dinersteinEcoregionBasedApproachProtecting2017] identifies 846 terrestrial ecoregions.
+
+-   Svalbard Seed Vault
+-   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
+-   @jacksonProsperityGrowthFoundations2017 limits to growth update
+-   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
+
+Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
+
+### **Environmental DNA**
+
+-   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types.
+
+-   @peterandreysmitharchivepageHowEnvironmentalDNA2024 describes
+
+### **Biodiversity *Indicators***
+
+Cutting edge research uses AI for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+
+@mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| View |  |
+| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
+| Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
+| Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
+
+: From @mayWhyShouldWe2011.
+
+### Ecosystem Services
+
+*Ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
+
+-   [@MonetaryValuationNature2023] asks should we put a price on nature?
+-   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
+
+|                                                |
+|------------------------------------------------|
+| 9 Steps                                        |
+| Identify ecosystem functions                   |
+| Quantify ecosystem functions                   |
+| Identify ecosystem services                    |
+| Quantify ecosystem services                    |
+| Quantify financial value of ecosystem services |
+| Assign property rights                         |
+| Create ecosystem service markets               |
+| Commodify nature                               |
+
+: From [@MonetaryValuationNature2023].
+
+There are 2 main approaches to protecting nature:
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| Economics of Nature Commodification | Measure and assign value to nature |
+| Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
+
+-   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
+
+| Non-Exhaustive list of |
+|------------------------|
+| Afforestation          |
+| Wetland restoration    |
+|                        |
+
+: From @hanEmbeddingNaturebasedSolutions2022
+
+-   Meanwhile the destruction pressure on ecosystems is rapidly increasing (ADD CITATION A B C).
+
+-   @espinosaImpactsEvolutionChanges2023 marine ecosystem services **(need access, ncku doesn't sub)**
+
+-   @chenResponseEcosystemVulnerability2023 Ecosystem vulnerability **(need access)**
+
+-   @zhangIntegratingEcosystemServices2023 Integrating ecosystem services conservation into urban planning **(need access)**
+
+-   @liDistinguishingImpactTourism2023 tourism is a large industrial sector which relies on ecosystem services. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
+
+### Emissions
 
 CO~2~e emissions by region (per year).
 
@@ -77,6 +161,25 @@ CO~2~e emissions by region (per year).
 The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
 
 AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
+
+### Scoping Emissions
+
+Emission Scopes Organize Calculating CO2e
+
+The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
+
+|                |                                |
+|----------------|--------------------------------|
+| Emission Scope | Emission Source                |
+| Scope 1        | Direct emissions               |
+| Scope 2        | Indirect electricity emissions |
+| Scope 3        | Value chain emissions          |
+
+: From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022.
+
+One's scope 3 emissions are someone else's scope 1 emissions.
+
+-   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
 ### Reduction Targets
 
@@ -222,93 +325,7 @@ Earth System Models from the first calculation by Svante Arrhenius and Guy Stewa
 
 Digital Twins - Complex computer models attempt to capture ever more interactions happening in the physical realm. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a *digital twin* of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-### Ecological Indicators
-
-Biosphere's Ecological Indicators
-
-Sustainability can be measured using a variety of ***ecological indicators***.
-
-[@dinersteinEcoregionBasedApproachProtecting2017] identifies 846 terrestrial ecoregions.
-
--   Svalbard Seed Vault
--   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
--   @jacksonProsperityGrowthFoundations2017 limits to growth update
--   Ecological Indicators (I like the name Ecomarkers) for Earth are like Biomarkers in human health.
-
-Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
-
-### **Environmental DNA**
-
--   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types.
-
--   @peterandreysmitharchivepageHowEnvironmentalDNA2024 describes
-
-### ***Biodiversity Indicators***
-
-Cutting edge research uses AI for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
-
-@mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
-
-|  |  |
-|--------------------------|----------------------------------------------|
-| View |  |
-| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
-| Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
-| Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
-
-: From @mayWhyShouldWe2011.
-
-### Ecosystem Services
-
-*Ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
-
--   [@MonetaryValuationNature2023] asks should we put a price on nature?
--   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
-
-|                                                |
-|------------------------------------------------|
-| 9 Steps                                        |
-| Identify ecosystem functions                   |
-| Quantify ecosystem functions                   |
-| Identify ecosystem services                    |
-| Quantify ecosystem services                    |
-| Quantify financial value of ecosystem services |
-| Assign property rights                         |
-| Create ecosystem service markets               |
-| Commodify nature                               |
-
-: From [@MonetaryValuationNature2023].
-
-There are 2 main approaches to protecting nature:
-
-|  |  |
-|--------------------------|----------------------------------------------|
-| Economics of Nature Commodification | Measure and assign value to nature |
-| Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
-
--   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
-
-| Non-Exhaustive list of |
-|------------------------|
-| Afforestation          |
-| Wetland restoration    |
-|                        |
-
-: From @hanEmbeddingNaturebasedSolutions2022
-
--   Meanwhile the destruction pressure on ecosystems is rapidly increasing (ADD CITATION A B C).
-
--   @espinosaImpactsEvolutionChanges2023 marine ecosystem services **(need access, ncku doesn't sub)**
-
--   @chenResponseEcosystemVulnerability2023 Ecosystem vulnerability **(need access)**
-
--   @zhangIntegratingEcosystemServices2023 Integrating ecosystem services conservation into urban planning **(need access)**
-
--   @liDistinguishingImpactTourism2023 tourism is a large industrial sector which relies on ecosystem services. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
-
 ## **Environmental Degradation**
-
-------------------------------------------------------------------------
 
 ### *Losing* Biodiversity
 
@@ -356,7 +373,7 @@ Around 27% of Earth's land area is still covered by forests yet deforestation is
 
 ### Air Pollution
 
-Air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year @worldhealthorganizationAmbientOutdoorAir2022. Grounbreaking research by @lim1MOAirPollutioninduced2022 analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. @bouscasseDesigningLocalAir2022 finds strong health and economic benefits across the board from air pollution reduction in France. In @hannahdevlinCancerBreakthroughWakeup2022, prof Tony Mok, of the Chinese University of Hong Kong: "We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons".
+Air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million premature deaths every year [@worldhealthorganizationAmbientOutdoorAir2022]. Grounbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals in England, South Korea and Taiwan establishes exposure to 2.5μm PM (PM2.5) air pollution as a cause for lung cancer. [@bouscasseDesigningLocalAir2022] finds strong health and economic benefits across the board from air pollution reduction in France. In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong: *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons"*.
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", "All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health" [@sarahludwigrauschSustainabilityYourHealth2021].
 
@@ -379,7 +396,7 @@ Environmental activists have been calling attention to global warming for decade
 
 -   Flood risk mapping might lower property prices in at risk areas [@sherrenFloodRiskMapping2024].
 
--   In Taiwan disaster risk and hazard mapping, early warning systems, and comprehensive response save lives @tsaiFrameworkEmergencyResponse2021
+-   In Taiwan disaster risk and hazard mapping, early warning systems, and comprehensive response save lives [@tsaiFrameworkEmergencyResponse2021].
 
 Global warming increases the risk of disasters and extreme weather events. As extreme temperatures are increasingly commonplace, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023]. As temperatures rise, certain cities may become uninhabitable for humans [@cbcradioExtremeHeatCould2021]. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii \[ADD CITATION\]. The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. Some parts of South America have seen summer heat in the winter, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
 
@@ -422,13 +439,34 @@ Agroforestry plays an active role in achieving Sustainable Development Goals (SD
 
 -   "Would you rather buy a DogeCoin or a regenerative food forest token?" Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo. @refidaoReFiPodcastS2E92022
 
-## *Trading* CO~2~ Emissions
-
-### Carbon Markets
+## Trading CO~2~ Emissions
 
 For the individual person, there's no direct access to CO~2~ markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."
 
-### Cap & Trade
+### Pricing Climate Change
+
+Long term cost is more than short-term gains.
+
+-   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
+-   *The price of CO~2~ differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2~ prices and believes [@rennertComprehensiveEvidenceImplies2022] *CO~2~* price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
+
+<!-- -->
+
+-   @igeniusLetTalkSustainable2020
+
+CO2 credits has given rise to *Carbon Accounting industry.*
+
+-   Watershed is a large carbon accounting company.
+
+-   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
+
+-   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
+
+-   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
+
+### Compliance Carbon Markets
+
+**Cap & Trade**
 
 The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
@@ -440,14 +478,15 @@ The share of CO~2~ emissions among people around the world is highly unequal acr
     -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone, FoxWay and Circular economy for PCs.
     -   @zhouCarboneconomicInequalityGlobal2022 ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
 
-### Emissions Trading Schemes
+**Emissions Trading Schemes**
 
 From Carbon Offsets to Carbon Credits
 
+-   "A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere" [@annawatsonCarbonCreditRetirements2023; @annawatsonDeepDiveCarbon2022].
+
 Retiring CO~2~ allowances
 
--   Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring @rousseEnvironmentalEconomicBenefits2008
--   "A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere" [@annawatsonCarbonCreditRetirements2023; @annawatsonDeepDiveCarbon2022].
+-   Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008].
 
 As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below.
 
@@ -455,7 +494,6 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 |-------------------|-------------------|----------------------------------|
 | CO~2~ Market | Launch Date | Comments |
 | EU | 2005 | EU: @araujoEuropeanUnionMembership2020 |
-|  |  |  |
 | South Korea | 2015 |  |
 | China | 2021 | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
 | U.S. | 2013 | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont |
@@ -470,29 +508,6 @@ Most of the world is not part of a CO~2~ market.
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
 -   [@unitednationsenvironmentprogrammeEmissionsGapReport2022] 2022 Emissions Gap report.
-
-### Pricing Climate Change
-
-Long term cost is more than short-term gains.
-
--   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
--   *The price of CO~2~ differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2~ prices and believes [@rennertComprehensiveEvidenceImplies2022] *CO~2~* price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
-
-<!-- -->
-
--   @igeniusLetTalkSustainable2020
-
-### Carbon Accounting
-
--   Watershed is a large carbon accounting company.
-
--   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
-
--   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
-
--   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
-
-### Compliance Markets
 
 |                    |                        |
 |--------------------|------------------------|
@@ -534,9 +549,7 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 ### Climatech
 
-### Carbon Capture
-
-Technology startups focused on climate solutions (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in the atmosphere.
+Technology startups focused on climate solutions (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in the atmosphere i.e. *carbon capture*.
 
 -   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
 
@@ -545,25 +558,6 @@ Technology startups focused on climate solutions (often referred to as *climatec
 -   **Important: "creating sustainability trust in companies in realtime"**
 
 -   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
-
-### Emission Scopes
-
-Emission Scopes Organize Calculating CO2e
-
-The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
-
-|                |                                |
-|----------------|--------------------------------|
-| Emission Scope | Emission Source                |
-| Scope 1        | Direct emissions               |
-| Scope 2        | Indirect electricity emissions |
-| Scope 3        | Value chain emissions          |
-
-: From @nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022.
-
-One's scope 3 emissions are someone else's scope 1 emissions.
-
--   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
 ## Circular Economy
 
@@ -591,7 +585,7 @@ Circular economy is a tiny part of the world economy. [@circleeconomyCircularity
 
 ### Waste
 
-[@liuGlobalPerspectiveEwaste2023] reports, e--waste is growing 3%--5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 ### Extended Producer Responsibility
 
@@ -605,11 +599,11 @@ In any case, strong consumer legislation (such as EPR) has a direct influence on
 
 One type of legislation that works?
 
--   @steenmansFosteringCircularEconomy2023 Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+-   [@steenmansFosteringCircularEconomy2023] Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
 
 -   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
 
--   Greyparrot AI to increase recycling rates @natashalomasUKAIStartup2024
+-   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
 
 Return, Repair, Reuse
 
