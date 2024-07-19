@@ -1,5 +1,5 @@
 ---
-title: Money
+title: Sustainable Finance
 sidebar_position: 4
 editor:
     render-on-save: false
@@ -11,7 +11,7 @@ import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
-# Finance
+# *Sustainable* Finance
 
 ## Money
 
@@ -1184,7 +1184,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 ## Design Implications
 
 | Category | Implication |
-|------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 |  | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*. |
 |  | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics. |
 |  | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank. |

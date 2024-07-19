@@ -1,5 +1,5 @@
 ---
-title: A.I.
+title: Sustainable A.I.
 sidebar_position: 3
 editor:
     render-on-save: false
@@ -13,7 +13,7 @@ import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
 import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
-# A.I.
+# *Sustainable* A.I.
 
 ## Human Patterns Enable Computers to Become AIs
 
@@ -58,7 +58,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 -   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
 
 | App | Category | Use Case |
-|-------------------|-------------------|-----------------------------------|
+|-------------------|-------------------|----------------------------------|
 | Welltory | Health | Health data analysis |
 | Wellue | Health | Heart arrhythmia detection |
 | QALY | Health | Heart arrhythmia detection |
@@ -77,7 +77,7 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 [@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.
 
 |  |  |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | Problem | Description |
 | Monolithicity | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. |
 | Opaqueness | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
@@ -89,7 +89,7 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 
 In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach. @openaiIntroducingModelSpec2024
 
-- OpenAI does not yet understand how the internal of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
+-   OpenAI does not yet understand how the internal of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
 
 OECD defines AI incident terms @DefiningAIIncidents2024
 
@@ -180,7 +180,7 @@ The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field of Usage | Description |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Shipping | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
 | Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023] |
 | Childcare | Generate personalized bedtime stories |
@@ -726,7 +726,7 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 This chapter looked at AI in general since its early history and then focused on AI assistants in particular.
 
 | Category | Implication |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | Voice Assistants | There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google's to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine. |
 | Sustainability | While I'm supportive of the idea of using AI assistants to highlight more sustainable choices, I'm critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers' conduct can be measured and businesses can bear responsibility for their processes, even if there's market demand for polluting products. |
 | Sustainability | Personal sustainability projects haven't so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses? |

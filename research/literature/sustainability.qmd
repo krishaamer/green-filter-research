@@ -27,7 +27,7 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 
 ***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## *Measuring* Earth's Climate
+## *Measuring* Earth's Climate and Biosphere
 
 As with sustainability, studies of Earth's climate go back for more than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. While the scientific case for human-induced climate change was building, it wasn't until 120 years later, when the Paris Climate Agreement came into effect, that countries agreed on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
@@ -43,9 +43,11 @@ As with sustainability, studies of Earth's climate go back for more than a centu
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
-Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~ and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~ per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~ per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-Annual greenhouse gas emissions by region.
+### Emissions 
+
+CO~2~e emissions by region (per year).
 
 |  |  |  |
 |----------------------------|-----------------------|---------------------|
@@ -76,7 +78,9 @@ The EU Copernicus satellite system reveals new greenhouse emissions previously u
 
 AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
 
-### Country-Level Nationally Determined Contributions (NDCs)
+### Reduction Targets
+
+Country-Level Nationally Determined Contributions (NDCs)
 
 -   @unfcccNDC2022 The State of Nationally Determined Contributions
 
@@ -112,7 +116,7 @@ Atmospheric aerosol loading and the biodiversity intactness index (BII) were qua
 -   @haeggmanPlanetaryBoundariesAnalysis2018
 
 ::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="80%"}
+![Planetary Boundaries. J. Lokrantz/Azote based on Steffen et al. 2015](./images/boundaries.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -129,7 +133,7 @@ LULUCF "Land Use, Land-Use Change, and Forestry" can be a source of greenhouse g
 
 As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
 
-## Planetary Health
+### Planetary Health
 
 Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. *Planetary Health* and E*arth System Law* are 2 approaches to address the complex interdependence of humans with our physical environment.
 
@@ -140,8 +144,6 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 -   @wardaniBoundariesSpacesKnowledge2023 *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
 
 -   [@dutoitReimaginingInternationalEnvironmental2022] describes *Earth System Law* as a framework for addressing interconnected environmental challenges.
-
-## Environmental Degradation
 
 ## Consumerism
 
@@ -220,7 +222,7 @@ Earth System Models from the first calculation by Svante Arrhenius and Guy Stewa
 
 Digital Twins - Complex computer models attempt to capture ever more interactions happening in the physical realm. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a *digital twin* of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-## *Measuring* Earth's Biosphere
+### Ecological Indicators
 
 Biosphere's Ecological Indicators
 
@@ -248,7 +250,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
 |  |  |
-|-----------------------|-------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | View |  |
 | Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
 | Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
@@ -280,7 +282,7 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 There are 2 main approaches to protecting nature:
 
 |  |  |
-|------------------------|------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Economics of Nature Commodification | Measure and assign value to nature |
 | Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
@@ -304,7 +306,7 @@ There are 2 main approaches to protecting nature:
 
 -   @liDistinguishingImpactTourism2023 tourism is a large industrial sector which relies on ecosystem services. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
-### **Environmental Degradation**
+## **Environmental Degradation**
 
 ------------------------------------------------------------------------
 
@@ -320,7 +322,7 @@ Biodiversity loss is linked to overconsumption, weak legislation and lack of ove
 
 Meanwhile, there is some progress in biodiversity conservation. @uebtBiodiversityBarometer2022 reports "Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009."
 
-### Convention on Biodiversity
+**Convention on Biodiversity**
 
 Similarly to climate protection, the UN has taken a leadership role in biodiversity protection. @unitHistoryConvention2023: The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded. @unepCOP15EndsLandmark2022: The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals.
 
@@ -337,7 +339,7 @@ Protecting biodiversity
 
 : Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021].
 
-### Marine Heatwaves
+**Marine Heatwaves**
 
 -   [@smaleMarineHeatwavesThreaten2019 and @gellesOceanDireMessage2023] describe how marine heatwaves threaten global biodiversity.
 
@@ -450,7 +452,7 @@ Retiring CO~2~ allowances
 As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below.
 
 |  |  |  |
-|-------------------|-------------------|------------------------------------|
+|-------------------|-------------------|----------------------------------|
 | CO~2~ Market | Launch Date | Comments |
 | EU | 2005 | EU: @araujoEuropeanUnionMembership2020 |
 |  |  |  |
@@ -473,14 +475,16 @@ Most of the world is not part of a CO~2~ market.
 
 Long term cost is more than short-term gains.
 
-**The Price of CO~2~ Differs Across Markets.** [@sternCarbonNeutralEconomy2022] reports carbon-neutral economy needs higher CO~2~ prices. [@rennertComprehensiveEvidenceImplies2022] Carbon ton price should be 3,6x higher that it is currently. [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
+-   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
+-   *The price of CO~2~ differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2~ prices and believes [@rennertComprehensiveEvidenceImplies2022] *CO~2~* price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
+
+<!-- -->
 
 -   @igeniusLetTalkSustainable2020
--   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO2e trading [@lsegGlobalCarbonMarkets2024].
 
 ### Carbon Accounting
 
--   Watershed
+-   Watershed is a large carbon accounting company.
 
 -   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
 
@@ -685,7 +689,7 @@ Sustainbility Policy context is Shifting Around the World
 -   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
 
 ::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/eu-policy-context.png){width="80%"}
+![EU Policy Context Timeline](./images/eu-policy-context.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -813,7 +817,7 @@ TODO
 -   Call for GOP contributors' transparency
 
 |  |  |
-|----------------------|--------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Category | Implication |
 | Transparency | In unison, the reviewed technologies and practices move us closer to enabling *realtime ESG*: up-do-date transparent information about how our product are produced. |
 | Speed | Realtime ESG is a building block to enable consumers and investors make more accurate, real-world purchase decisions. |

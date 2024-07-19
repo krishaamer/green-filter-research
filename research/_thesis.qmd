@@ -3,6 +3,9 @@ title: "The Journey from Consumer to Investor: Designing a Financial AI Companio
 author: "Kris Haamer"
 bibliography: ref.bib
 csl: harvard.csl
+toc: true
+toc-location: body
+toc-title: "Table of Contents"
 format:
   pdf
 execute:
@@ -53,7 +56,7 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "literature/fintech.qmd" >}}
+{{< include "literature/finance.qmd" >}}
 
 \newpage
 

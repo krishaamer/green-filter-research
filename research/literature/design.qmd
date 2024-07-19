@@ -1,5 +1,5 @@
 ---
-title: Design
+title: Sustainable Design
 sidebar_position: 2
 editor:
     render-on-save: false
@@ -12,7 +12,7 @@ import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
 ```
-# Design
+# *Sustainable* Design
 
 ## Eco-Design
 
@@ -487,6 +487,10 @@ Products are made from resources distributed across the planet and transported t
 -   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
 
 -   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+
+## Sustainable Products
+
+Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]
 
 ## *Tracing* Supply Chains
 
