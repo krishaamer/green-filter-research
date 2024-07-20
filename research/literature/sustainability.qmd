@@ -45,9 +45,7 @@ As with sustainability, studies of Earth's climate go back for more than a centu
 ```
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until 30 years ago [@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface - as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-### Ecological Indicators
-
-Biosphere's Ecological Indicators
+### Ecological and **Biodiversity** Indicators
 
 Sustainability can be measured using a variety of ***ecological indicators***.
 
@@ -60,15 +58,17 @@ Sustainability can be measured using a variety of ***ecological indicators***.
 
 Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
 
-### **Environmental DNA**
+-   ***Environmental DNA*** (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. [@ogramExtractionPurificationMicrobial1987] describes isolating cellular DNA from various sediment types.
 
--   @ogramExtractionPurificationMicrobial1987 isolating cellular DNA from various sediment types.
+-   Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
 
--   @peterandreysmitharchivepageHowEnvironmentalDNA2024 describes
+-   AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
 
-### **Biodiversity *Indicators***
+### Ecosystem Services
 
-Cutting edge research uses AI for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+*Ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
+
+Why Protect Biodiversity?
 
 @mayWhyShouldWe2011 argues biodiversity loss is a concern for 3 points of views:
 
@@ -80,10 +80,6 @@ Cutting edge research uses AI for listening to nature, assessing biodiversity ba
 | Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
 
 : From @mayWhyShouldWe2011.
-
-### Ecosystem Services
-
-*Ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
 
 -   [@MonetaryValuationNature2023] asks should we put a price on nature?
 -   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
@@ -107,7 +103,7 @@ There are 2 main approaches to protecting nature:
 |  |  |
 |--------------------------|----------------------------------------------|
 | Economics of Nature Commodification | Measure and assign value to nature |
-| Economics of the Sacred | Say nature is sacred, such as Churches, and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
+| Economics of the Sacred | Nature is sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
 -   @hanEmbeddingNaturebasedSolutions2022 identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 
@@ -129,7 +125,7 @@ There are 2 main approaches to protecting nature:
 
 -   @liDistinguishingImpactTourism2023 tourism is a large industrial sector which relies on ecosystem services. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
-### Emissions
+### Measuring Emissions
 
 CO~2~e emissions by region (per year).
 
@@ -160,13 +156,7 @@ CO~2~e emissions by region (per year).
 
 The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022].
 
-AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
-
-### Scoping Emissions
-
-Emission Scopes Organize Calculating CO2e
-
-The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies and for organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
+Scoping emissions helps Organize Calculating CO2e. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain @goodwinTargetingDegreesGlobal2023.
 
 |                |                                |
 |----------------|--------------------------------|
@@ -181,9 +171,7 @@ One's scope 3 emissions are someone else's scope 1 emissions.
 
 -   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
-### Reduction Targets
-
-Country-Level Nationally Determined Contributions (NDCs)
+Countries have agreed up CO2 Reduction Targets known as Country-Level Nationally Determined Contributions (NDCs)
 
 -   @unfcccNDC2022 The State of Nationally Determined Contributions
 
@@ -207,7 +195,19 @@ While most countries have not reached their Nationally Determined Contributions,
 
 -   @fransenStateNationallyDetermined2022 notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
-## Earth's Boundaries?
+## Social Cost of CO~2~
+
+Sustainability is filled with complexities, where CO~2~ emission is compounded by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+
+Social Cost of Carbon Measures Compound CO~2~ Impact.
+
+-   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
+
+-   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+
+-   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
+
+### Earth's Boundaries
 
 In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
 
@@ -293,19 +293,8 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 : Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
 
 -   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
+
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
-
-## Social Cost of CO~2~
-
-Sustainability is filled with complexities, where CO~2~ emission is compounded by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
-
-Social Cost of Carbon Measures Compound CO~2~ Impact.
-
--   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
-
--   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
-
--   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
 
 ## *Vizualizing* Climate
 
@@ -388,7 +377,7 @@ Clean air is a requirement.
 
 -   Bioswales help catch storm debris and reduce water pollution.
 
-### Climate Change Disasters
+### Global Warming Disaster Risk
 
 -   [@FifthNationalClimate2023] The US Global Change Research Program comprehensive report to the US Congress links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces air quality, which in effect increases health challenges.
 
@@ -437,7 +426,7 @@ Agroforestry plays an active role in achieving Sustainable Development Goals (SD
 
 -   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
 
--   "Would you rather buy a DogeCoin or a regenerative food forest token?" Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo. @refidaoReFiPodcastS2E92022
+-   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 
 ## Trading CO~2~ Emissions
 
@@ -445,7 +434,7 @@ For the individual person, there's no direct access to CO~2~ markets, however th
 
 ### Pricing Climate Change
 
-Long term cost is more than short-term gains.
+*Long term cost* is more than *short-term gains.*
 
 -   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 -   *The price of CO~2~ differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2~ prices and believes [@rennertComprehensiveEvidenceImplies2022] *CO~2~* price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
@@ -743,7 +732,9 @@ It's up to legislators to provide sustainable products on our marketplace... but
 -   @imanghoshMappedWhereAre2020
 -   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
 -   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
--   @rajagopalanInflationReductionAct2023: In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
+-   @rajagopalanInflationReductionAct2023: In the US, the *Inflation Reduction Act* provides funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
+
+### Kunming-Montreal Global Biodiversity Framework
 
 ### Eco-Design is a Key EU Sustainable Policy Design Tool
 
@@ -778,7 +769,7 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   @VANDOORSSELAER2022189 **(need access!)**
 
--   @NUEZ2022133252 shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting.
+-   [@NUEZ2022133252] shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting.
 
 -   @ROSSI2022823 shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs.
 
