@@ -1,0 +1,101 @@
+```{=mdx}
+import Figure from "/src/components/Figure";
+import Susan from "./images/susan-pink-app.png";
+import Tricorder from "./images/tricorder.jpg";
+import Abstract from "./images/abstract.png";
+```
+# Introduction
+
+How can college students find sustainable companies? Furthermore, if given appropriate tools, could college students leverage their purchasing power to reward sustainable companies?
+
+My research describes the process of designing an AI companion for college students to help with sustainable shopping, saving, and investing.
+
+Money spent shopping, saving, and investing in sustainable companies serves as an incentive to adopt more sustainable practices. If used wisely, money can reward companies for becoming more sustainable.
+
+Encourage the least sustainable companies to improve their performance, raising the overall baseline.
+
+Facilitate the formation of communities centered around environmental stewardship.
+
+Build closer relationships with sustainability.
+
+::: {.content-hidden unless-format="pdf"}
+![College Students](./images/abstract.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Concept Map'"
+  src={Abstract}
+/>
+```
+## Relevance
+
+The research addresses the ***"attitude-behavior gap"*** among Taiwanese college students in taking sustainable financial action.
+
+Convergence of the following 5 trends makes my research timely in 2024.
+
+| Trend | Direction |
+|------------------------------|------------------------------------------|
+| Environmental degradation | Increasing |
+| Interest in sustainability among young people | ? |
+| Intergenerational money transfer; in some countries relatively young people have money | ? |
+| Availability of sustainability tools such as ESG, B Corporations, Green Bonds, etc, among metrics and instruments | Increasing |
+| Availability of generative AI-based user interfaces (UIs) | Increasing |
+
+: Trending narratives.
+
+## Background
+
+I grew up as an avid science fiction reader, which influenced my outlook towards future possibilities. In particular, the Star Trek universe had an imaginary portable device called a ***tricorder*** (fig. 1) enabling scientists to scan anything for insights. Be it precious minerals inside a cave or scanning the human bodies for medical data, its sensors would show up with some useful data. In daily life, I would love to have such a device for consumer choices and financial decisions - to know what to buy and which businesses to support with my money and approval.
+
+::: {.content-hidden unless-format="pdf"}
+![Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures](./images/tricorder.jpg){width="50%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Captain Sulu using a Tricorder (Star Trek) - Photo copyright by Paramount Pictures"
+  src={Tricorder}
+/>
+```
+While a *tricorder* is still science fiction, technological advancements are getting closer and closer to producing something similar. AIs are already integral to many parts of our lives, with computer models producing increasingly useful outputs. The proposal for this thesis was first written using Google's and Apple's voice recognition software in 2020, and later switching to OpenAI's *Whisper* model, allowing me to transcribe notes with the help of an AI assistant. As a foreigner living in Taiwan since 2019, I relied on AI-based tools for many aspects of my life: speaking, moving, finding food and services. When writing in Chinese, Apple's text prediction algorithms translate pinyin to 漢字 and show the most likely character based on my previous writing, Google's maps find efficient and eco-friendly routes and recommend places to eat and ChatGPT provides statistically probable advice from the sum of human knowledge. Even when we don't realize it, AI is helping us with many mundane tasks. While it takes incredibly complex computational algorithms to achieve all this in the background, it's become so commonplace, we don't even think about it. From this point of view, another AI assistant to help students with choosing more eco-friendly businesses - to shop, save, and invest - doesn't sound so much of a stretch.
+
+## Motivation
+
+Environmental degradation is increasingly affecting human lives - and it's largely driven by manufacturing processes - of the products we consume daily. From resource extraction in the linear economy (mining raw materials and drilling for fossil fuels) to chemical processes (causing contamination and pollution of the air, water, and soil) to waste generation and greenhouse gas emissions, industries transform the natural world into consumer products. While industry practices have improved since the industrial revolution in the 19th century, and continue to improve, it's possible to further improve standards of production and raise the global baseline for sustainability, given enough societal pressure to do so.
+
+Nonetheless, without easily accessible and reliable data, it's difficult to know which company is more sustainable than another. As consumers and investors (even if only through passive ownership of savings), we don't really know much about enterprise production practices, unless we spend a lot of time looking at the numbers, which may be costly to access (for example ESG reports are expensive), and mostly rely on our governments and international bodies to keep us safe. Or just look at the brands themselves - and pick the ones which we like.
+
+## Objective
+
+The study presents design research for developing an AI companion to help college students find sustainable companies for shopping, saving and investing. The major contribution of my study is an interactive artefact (a prototype) informed by design research.
+
+## Demographics
+
+The research focuses on young adults, specifically Taiwanese college students studying in Taiwan.
+
+| Criteria   |                  |
+|------------|------------------|
+| Location   | Taiwan           |
+| Population | College Students |
+| Count      | 700              |
+
+Experts (finance, design, sustainability).
+
+| Criteria   |         |
+|------------|---------|
+| Location   | Global  |
+| Population | Experts |
+| Count      | 5       |
+
+## Research Questions
+
+My research answers the following questions.
+
+| Question | Methods |
+|----------------------------------------|--------------------------------|
+| How could an AI companion integrate scientific knowledge in sustainability, design, and finance to support college students? | Literature Review |
+| How could an AI companion help college students allocate capital to sustainable companies when shopping, saving, and investing? | Literature Review and Expert Interviews |
+| How do college students prioritize AI companion features? | Survey of College Students |
+
+: RQs.

@@ -1,0 +1,517 @@
+```{=mdx}
+import Figure from "/src/components/Figure";
+import Geneve from "../images/geneve.jpg";
+import ResQClub from '../images/resq-club.png'
+```
+# College Students
+
+## Student Protests Around the World
+
+In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her *Fridays for Future* protests. Time magazine named Thunberg person of the year for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019].
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
+  src={Geneve}
+  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
+  refTitle="Wikimedia Commons"
+/>
+```
+## College Students in Taiwan
+
+[@changExploringDialogicEducation2023] argues Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be ***teacher-centered***, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit ***dialogue-based*** education, where students would be encouraged to take a more active role and gain ownership of their education.
+
+Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023].
+
+## Taiwanese Companies
+
+TIME Magazine and Statista collaborative "World’s Most Sustainable Companies Of 2024" includes 17 Taiwanese companies \[@alanasemuelsWorldMostSustainable2024\].
+
+| **Rank** | **Company**               | **Score** |
+|---------:|:--------------------------|----------:|
+|       24 | Delta Electronics         |     77.18 |
+|       63 | Taishin Holdings          |     73.50 |
+|       68 | Fubon Financial           |     73.01 |
+|       80 | Chunghwa Telecom          |     71.69 |
+|       91 | Yuanta Financial Holdings |     70.94 |
+|       92 | Cathay Financial Holdings |     70.79 |
+|      108 | Taiwan Mobile             |     69.72 |
+|      200 | First Financial Holding   |     64.17 |
+|      300 | Far EasTone               |     60.04 |
+|      301 | SinoPac Holdings          |     60.04 |
+|      344 | Wistron                   |     58.44 |
+|      356 | Acer                      |     58.02 |
+|      395 | Nanya Technology          |     56.35 |
+|      409 | InnoLux                   |     55.82 |
+|      416 | Wiwynn                    |     55.67 |
+|      421 | Taiwan Cement             |     55.49 |
+|      497 | Advantech                 |     53.14 |
+
+: Data from [@alanasemuelsWorldMostSustainable2024].
+
+## Attitude-Behavior Gap
+
+-   @parkExploringAttitudeBehavior2020 positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea.
+-   @munroSustainableAttitudebehaviorGap2023 shopper trying to shop sustainably often fail to find sustainable products.
+-   @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition.
+-   @wareGreenSkillsGap2024 british workers lack skills for green transition. (2024 National Environmental Services Survey)
+
+## Online Shopping
+
+-   @momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership.
+
+### Teachers
+
+-   Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022]. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015].
+
+### Policy Environment
+
+-   In Portugal, Estonia, and elsewhere young people are suing companies for eco-problems: @florIstoNaoAcaba2024
+
+-   Comparing university students' education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583); Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform @berglundCrossculturalComparativeStudy2020.
+
+-   The En-ROADS climate change solutions simulator [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023].
+
+-   “Research shows that showing people research doesn’t work,” John Sterman https://www.climateinteractive.org/lead-an-even
+
+-   https://en-roads.climateinteractive.org/scenario.html?v=24.4.0
+
+<!-- -->
+
+-   Several Taiwanese studies focus on the physical environment of school campuses, for example the sustainability of **elementary school campuses** [@YanJiu2006].
+
+-   The devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education [@TiChuTan2011].
+
+### Students
+
+-   [@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among **junior high school students** in Da-an District, Taipei City (n=596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior **high school students** towards in Taipei City (n=328). [@chenMarineEnvironmentalAwareness2016] reports a ***positive attitude yet moderate knowledge*** about *ocean sustainability* among Taiwanese **college students** (n=825).
+
+-   [@liuDigitalCapabilityDigital2023] studied sustainability behavior of Taiwanese University students reporting the COVID-19 pandemic also brought more attention on environmental topics .
+
+-   When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017].
+
+-   I was unable to find similar research on university and post-graduate level students in Taiwan.
+
+-   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].
+
+-   College students in tourism and related fields . and sustainability
+
+### Global Data
+
+-   [@manchandaCultivatingSustainabilityConsciousness2023] survey (n=726) administered at shopping malls in New Delhi, India, found similar levels of sustainability consciousness between Millenial (n=206) and Generation-Z (n=360) age groups; people with high level of materialism were found to be less sustainability-conscious; the effect of mindfulness on sustainability was found to be stronger among females than males, supporting the hypothesis of the moderating effect of gender.
+
+**There's evidence young people have money.** In the United States, the combined annual consumer spending of generation-z and millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
+
+| Place of Comparison | Financial Security Ownership |
+|---------------------|------------------------------|
+| Hong Kong           | 48%                          |
+| France              | 10%                          |
+|                     |                              |
+
+: From millennial investors [@calastoneMillennialsInvestingDetailed2020].
+
+### Sustainability Tools in the Taiwanese Context
+
+Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
+
+The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: "garbage island", for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+
+Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
+
+-   Progress in other areas of environmental protection has not made similar progress.
+
+-   There are documentaries about oil product
+
+-   Plastic production documentary
+
+-   I've seen several.. find and cite them to show the progression of the environmental movement in Taiwan ADD CITATION
+
+-   The Taiwanese Green party
+
+-   Contact SOAS?
+
+### Developing Personas
+
+User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
+
+Humans have a long list of cognitive biases, which a good design should take into account.
+
+There is extensive research on the attitudes of U.S. college students towards climate change. [@americanpressinstituteKnowingNewsHow2022] reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. [@schwartzClimateChangeAnxiety2022] reports some adult US students in a small study (18-35, n = 284) express feelings of insignificance of their actions to achieve any meaningful impact. [@thomaesGreenTeensUnderstanding2023] reports U.S. adolescents don't find sustainability relevant to their daily life. [@rossClimateChangeChallenge2016] says most people in the U.S. don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology".
+
+-   Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].
+
+-   High levels of technology adoption worldwide
+
+-   [@creditsuisseYoungConsumersMay2022] suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question [@theeconomistHowSellYoung2023; @HowGenMillennials2023].
+
+-   @deyangeorgiev39SmartphoneStatistics2023
+
+-   @alexreiceMostEcoconsciousGeneration2021
+
+The above studies give foundation for creating a persona of a U.S. College Student who doesn't follow environmental news and thinks climate action doesn't make a difference. This doesn't necessarily mean this group of people with similar ideas would deny climate change is happening. Rather "Climate Denier" could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
+
+| Description           | Name  | Beliefs                       |
+|-----------------------|-------|-------------------------------|
+| Climate Change Denier | Jake  | Climate change doesn't exist. |
+|                       | Alice |                               |
+|                       | Sam   |                               |
+
+: College Student Personas
+
+-   @crabbRantTerriblePersonas2023
+
+@RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
+
+### Social Trust
+
+-   When disaster hits we need high levels of social trust.
+
+### Climate Anxiety
+
+A large worldwide study (n=10000, age 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+
+-   [@osakaWhyClimateDoomers2023] argues *doomerism* is an excuse for climate in-action. Hope is necessary for people to make changes in their habits [@marlonHowHopeDoubt2019].
+
+-   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. [@kjaergardHealthSustainability2014] shows how "understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"
+
+-   Design for Human Rights [@unfcccSharmElSheikhImplementation2023]\] text refers to "human right to a clean, healthy and sustainable environment".
+
+-   Refi podcast: "people need agency".
+
+-   @martiskainenContextualizingClimateJustice2020 (need access, ncku doesn't subscribe)
+
+-   @seabrookMusicTherapyEra2020 (need access)
+
+-   Older research on young adults (Millenials at the time) highlights how Millenials "use Google as a reference point for ease of use and simplicity" [@katemoranDesigningYoungAdults2016].
+
+### Embodied Carbon
+
+-   "embodied carbon"
+-   Carbon Neutral Cities Alliance
+-   @buildersforclimateactionMakingRealZero2021
+
+### Community
+
+Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
+
+-   Building a culture of sustainability? [@lakshmirebeccaManWhoGamifying2018; @armstrongCultivatingCulturesSustainability2021].
+
+The focus on *group consciousness* suggests community-based sustainability action may be effective.
+
+***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
+
+-   In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
+
+***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021].
+
+What are the building blocks of a thriving community?
+
+-   Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
+
+### Empowerment
+
+-   I would like to have an AI agent to set my requirements and preferences and give a "fuck you" middle finger to companies that don't meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
+
+### Trust
+
+-   plap
+
+### Memes
+
+-   Coined by Richard Dawkins in 1976 in the context of biology.
+
+-   Internet memes and meme stocks
+
+-   Memes from daily life, business to war, are relevant to penetrating through the noise of the web.
+
+-   Memes and sustainability?
+
+-   Meme research has become an academic discipline
+
+-   Memes have become a popular communication tool..
+
+-   @zidaniMessyInternetMemes2021
+
+-   @zidaniHowConductInternet2022
+
+-   @irinalyanWhenGangnamHits2015
+
+-   @zannettouOriginsMemesMeans2018
+
+-   @peters-lazaroPopularCultureCivic2020
+
+## Re-Designing Industries for Provenance and Traceability
+
+It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 2 industries that are relevant for college students.
+
+### Sustainable Fashion
+
+Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
+
+-   Better Cotton Initiative [@bettercottonBetterCottonAnnual2023]
+
+Sustainable Fashion, Textile Design
+
+-   There are signs of young Chinese consumers valuing experiences over possessions [@jiangHowHaveCovid2023].
+
+-   @millward-hopkinsMaterialFlowAnalysis2023 shows how half of the textile waste in the UK is exported to other countries.
+
+-   Story of Patagonia @chouinardLetMyPeople2005
+
+Across industries, reports are saying there isn't enough transparency.
+
+-   [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
+
+-   **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion:
+
+-   Fashion greenwashing, fashion is 2%-8% of total GHG emissions, 2.4 Trillion USD industry, 100B USD lost to lack of recycling, contributes 9% of microplastics: @adamkiewiczGreenwashingSustainableFashion2022
+
+-   @centobelliSlowingFastFashion2022 per year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste.
+
+-   @kohlerCircularEconomyPerspectives2021: Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+-   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets carbon footprint?
+
+-   @leungGreenDesign2021 There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design.
+
+-   @emilychanWill2022Be2022 New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets.
+
+-   @wikirateSharingDataCreating2022: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism."
+
+-   @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
+
+-   @gyabaahCharacterizationDumpsiteWaste2023 research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
+
+-   @imperfectidealistSustainableGreenwashingHow2020 Fashion sustainability vs greenwashing
+
+-   @TransparencySustainabilityPlatform2023 Ethical Shopping
+
+-   @SheepIncSoftcore2023 Ethical brand?
+
+-   @goodonyouGoodYouSustainable2023 Sustainable fashion company evaluations
+
+-   @LilyMindfulActive Garment Worker's rights
+
+-   @emilychanWillFashionIndustry2022: fashion companies can't be held accountable for their actions (or indeed, their lack of action).
+
+-   @wikirateWikiRate2023
+
+-   @InstantGratificationCollective2022: "Political consumerism", "Instant Gratification for Collective Awareness and Sustainable Consumerism"
+
+-   @fashioncheckerFashionCheckerWagesTransparency2023
+
+-   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
+
+-   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
+
+-   @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index
+
+-   @CleanClothesCampaign
+
+-   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
+
+-   @TextileGenesis
+
+-   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
+
+-   @stand.earthStandEarthPeople2023
+
+-   @NewStandardInstitute
+
+-   @BGMEAHome Bangladesh Garment Manufacturers and Exporters Association
+
+-   @errKomisjonTahabVahendada2022 European Commission wants to reduce the impact of fast fashion on EU market.
+
+-   Minimize shopping, buy quality, save CO~2~, invest.
+
+-   @textileexchangeTextileExchange2023 Ethical fashion materials matter
+
+-   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
+
+-   Free clothes
+
+-   @vanishukGENERATIONREWEARFull2021 "Generation rewear" documentary, sustainable fashion brands
+
+-   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020: Zalando says Fast fashion must disappear
+
+-   @infinitedfiberInfinitedFiber2023
+
+-   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
+
+-   @SOJODoortodoorClothing2023 Alterations and repairs made easy
+
+-   @GoodYouSustainable2023 Ethical brand ratings
+
+### Sustainable Food
+
+**provenance and traceability of food**
+
+-   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation
+
+-   Global Reporting Iniative
+
+-   @RealityLabsResearch2022
+
+-   @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood
+
+-   @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned.
+
+-   @RealTimeESG2021 "Real Time ESG Tracking From StockSnips"
+
+-   @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
+
+-   @watersEthicsChoiceAnimal2015 **(Need access!)**
+
+-   @cawthornControversialCuisineGlobal2016 **(Need access! ncku doesn't subsribe)**
+
+-   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
+
+-   @neethirajanDigitalLivestockFarming2021 using biometric sensors to track livestock sustainability.
+
+-   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
+
+-   @HumanCenteredWeb32022 human-centered web3
+
+-   @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018.
+
+-   @incGlanceAlexandriaRealTime
+
+-   @timnicolleFintechLendingWhose2017
+
+<!-- -->
+
+-   EAT-Lancet diet
+
+-   @eshenelsonHeatWarTrade2023 increased volatility in food prices
+
+-   @changAuthenticationFishSpecies2021 fish fraud is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan"
+
+#### Perennial Crops
+
+-   Multi-year crops reduce inputs of gasoline, labor, etc. @aubreystreitkrugPathwaysPerennialFood2023
+
+-   Large agritech like Monsanto rely on selling seeds annually for profits, which has lead to farmer suicides when crops fail.
+
+#### Culture, Community, Cuisine, Storytelling
+
+-   @tsingMushroomEndWorld2015 mushrooms
+
+Food is about enticing human imagination and taste buds.
+
+-   Potato used to be a newcomer and innovative crop in Europe, and not it's so common, we forget it's no originally from here.
+
+-   @aubreystreitkrugPathwaysPerennialFood2023 food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop.
+
+-   "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" @nabipourafrouziComprehensiveReviewCarbon2023. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
+
+Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
+
+-   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[ADD CITATION\].
+
+<!-- -->
+
+-   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+-   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+
+#### Food Waste
+
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+```{=mdx}
+<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+| Name |   |
+|-----------------------------------|-------------------------------------|
+| Karma |  |
+| ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
+| Kuri | @hajejankampsKuriAppThat2022 Less impact of food |
+| Social media groups (no app) |  |
+
+: Food saving apps
+
+-   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective | Content |
+|--------------------------|----------------------------------------------|
+| *"The diagnostic perspective"* | "*All hands on deck to fix the climate"* |
+| *"The regenerative perspective"* | "*Diversity, soil health and organic agriculture to the rescue"* |
+| *"The fossil-free perspective"* | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
+| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
+| "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
+
+: Perspective on food systems in Sweden.
+
+-   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
+
+-   @kommendaWouldCarbonFood2022 Carbon Food Labels
+
+-   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+
+-   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
+
+-   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
+
+-   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
+
+-   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
+
+-   Only make what is ordered.
+
+#### Farm to Fork
+
+Farm to fork is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system.
+
+Supply chain innovation in agriculture.
+
+-   Farm to Fork @financialtimesSustainabilityIdeasThat2022
+
+### Sustainable Construction
+
+-   According to @debnathSocialMediaEnables2022 39% of global CO~2~ emissions comes from the building sector.
+-   Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
+-   embodied carbon
+-   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
+-   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
+
+## Design Implications
+
+## College Students Need Tools for Action
+
+Environment shapes action.. create an environment where college students can influence companies.
+
+| Category | Implication |
+|--------------------------|----------------------------------------------|
+| Community | Taiwanese students are influenced by the actions of their peers; the app should show what other people are doing. |
+|  | People exist in relation to other people. |
+|  | Psychology of 'fundraising clubs' vs individual investing |
+|  | @UkraineDAOBiddingUkrainian Ukraine DAO to support Ukraine through web3. |
+|  | These social movements are small and require too much effort to be feasible for the app? Most college students are not zero waste or minimalist. |
+|  | Group Purchases. |
+|  | Find Your Composting Community. |
+|  | Provides a community for pooling money with like-minded investors. |
+| Climate Anxiety | How to support the youth? Design to reduce climate anxiety? Is getting people to go to nature more a good way to increase ecological awareness? Empowered by Design. Youth empowerment: The design should empower young people. |
+|  | Consumer branded carbon credits like angry teenagers? |
+|  | Invest time not money, student don't have money? |
+| Social Trust | **Show Success Scenarios!** |
+|  | Ask how much time you want to contribute. |
+|  | Match with other people based on time. |
+|  | Create a group chatroom. |
+|  | Use AI to help out with tips. |
+|  | Ask university students what do they study and match with that industry to become expert and sustainability leader in this field. |
+|  | People want to help and make a difference. Give people things to do. The @dontlookupMethodology part of the ***Don't Look Up*** movie's social campaign provides 5 user models / roles for the audience to follow: Consumer, Investor, Activist. |
+|  | Choose Your Climate Solutions. |
+|  | Younger people show higher motivation (participants in climate protests). How to be relevant for a younger audience? |
+|  | Yet action remains low. |
+|  | Targeted and gated to college students. |
+|  | FB, etc, Gas all had the same launch strategy - start with students |
+|  | @kuzminskiEcologyMoneyDebt2015 ecology of money |
+|  | Young people are mobile-first |
+|  | Persona: I care mostly about... fashion, art, ... |
+|  | Young people like to follow trends. |
+|  | Food ordering apps are popular. |
+|  | Monoculture to regenerative food forests Oil to electric cars / bicycles. |
+|  | Social Educational Edutainment Fun |
+|  | @aespaAespaEseupaMY2020: Karina from Korea. It makes sense your sustainability assistant would talk to you. Studies show gen N is speaking to computers all the time. Interacting with the user is on the rise. For example, Chime makes tipping suggestions on the place of purchase. |
+|  | The demographics that stand to win the most from the green transformation of business are the youngest generations, with more years of life ahead of them, and more exposure to future environmental and social risks. It would be advisable for Generation Z and their parents (Millennials) to invest their resources in greener assets, however, it's still difficult to pick and choose between 'good' and 'bad' financial vehicles to invest in. |
+|  | This creates an opportunity for a new generation of sustainable investment apps, focusing on the usability and accessibility of ESG for a mainstream audience. Generation Z and Millennials expect a consumer-grade user experience. |
+|  | What would that experience look like? I've chosen these demographics with the assumption that if given the right tools, the emotional demand for sustainability could be transformed into action. The exploration of systems of feedback to enable consumers to apply more direct positive and negative pressure to the businesses and consumers signal consequences for undesirable ecological performance is a major motivation of this study. |

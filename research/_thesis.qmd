@@ -6,6 +6,9 @@ csl: harvard.csl
 toc: true
 toc-location: body
 toc-title: "Table of Contents"
+geometry: margin=1in
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: pdf_document
 format:
   pdf
 execute:
@@ -20,94 +23,106 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-{{< include "_cover.qmd" >}}
+\begin{titlepage}
+    \centering
+    \vspace*{1in}
+    {\LARGE \textbf{The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing} \par}
+    \vspace{0.5in}
+    {\LARGE \textbf{從消費者到投資者的旅程：為年輕成人設計一個財務人工智慧夥伴，幫助他們進行可持續購物、儲蓄和投資} \par}
+    \vspace{0.5in}
+    {\Large Kris Haamer \par}
+    \vfill
+    {\Large \today \par}
+    \vspace{1.5in}
+    {\Large NCKU \par}
+\end{titlepage}
 
 \newpage
 
-{{< include "abstract.qmd" >}}
+{{< include "_abstract.qmd" >}}
 
 \newpage
 
-{{< include "abstract-tw.qmd" >}}
+{{< include "_abstract-tw.qmd" >}}
 
 \newpage
 
-{{< include "introduction.qmd" >}}
+{{< include "_introduction.qmd" >}}
 
 \newpage
 
-{{< include "literature/index.qmd" >}}
+{{< include "literature/_index.qmd" >}}
 
 \newpage
 
-{{< include "literature/college.qmd" >}}
+{{< include "literature/_college.qmd" >}}
 
 \newpage
 
-{{< include "literature/sustainability.qmd" >}}
+{{< include "literature/_sustainability.qmd" >}}
 
 \newpage
 
-{{< include "literature/design.qmd" >}}
+{{< include "literature/_design.qmd" >}}
 
 \newpage
 
-{{< include "literature/ai.qmd" >}}
+{{< include "literature/_ai.qmd" >}}
 
 \newpage
 
-{{< include "literature/finance.qmd" >}}
+{{< include "literature/_finance.qmd" >}}
 
 \newpage
 
-{{< include "methodology/index.qmd" >}}
+{{< include "methodology/_index.qmd" >}}
 
 \newpage
 
-{{< include "results/index.qmd" >}}
+{{< include "results/_index.qmd" >}}
 
 \newpage
 
-{{< include "results/shopping.qmd" >}}
+{{< include "results/_shopping.qmd" >}}
 
 \newpage
 
-{{< include "results/attitudes.qmd" >}}
+{{< include "results/_attitudes.qmd" >}}
 
 \newpage
 
-{{< include "results/investing.qmd" >}}
+{{< include "results/_investing.qmd" >}}
 
 \newpage
 
-{{< include "results/personas.qmd" >}}
+{{< include "results/_personas.qmd" >}}
 
 \newpage
 
-{{< include "results/ai.qmd" >}}
+{{< include "results/_ai.qmd" >}}
 
 \newpage
 
-{{< include "results/experts.qmd" >}}
+{{< include "results/_experts.qmd" >}}
 
 \newpage
 
-{{< include "discussion.qmd" >}}
+{{< include "_discussion.qmd" >}}
 
 \newpage
 
-{{< include "prototypes/index.qmd" >}}
+{{< include "prototypes/_index.qmd" >}}
 
 \newpage
 
-{{< include "prototypes/ideas.qmd" >}}
+{{< include "prototypes/_ideas.qmd" >}}
 
 \newpage
 
-{{< include "prototypes/interactive.qmd" >}}
+{{< include "prototypes/_interactive.qmd" >}}
 
 \newpage
 
-{{< include "prototypes/testing.qmd" >}}
+{{< include "prototypes/_testing.qmd" >}}
 
 \newpage

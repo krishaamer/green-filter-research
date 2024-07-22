@@ -1,0 +1,77 @@
+# Results
+
+## Expected Findings
+
+-   During the preparation of this research proposal, I conducted a preliminary round of face-to-face interviews using 21 open-ended probing questions using a convenience sampling of NCKU students on campus between ages 19 and 29, a total of 12 respondents. The interviews lasted between 9 and 21 minutes and were conducted to get some initial feedback on my research idea, the respondents' daily routines, app usage, feelings towards financial questions, including investing, relationship with nature, and environmental sustainability. These preliminary conversations led me to emphasize more on the financial journey, i.e., to consider the importance of the shopping, savings, and payments apps students already use daily, which could serve as an entry point to becoming an investor. I expect my future research findings to confirm this initial idea and offer diverse ways and examples of what that path could look like in practice.
+
+## Survey Overview / import from Ziran
+
+A survey of Taiwanese college students (excludes overseas Chinese-speaking students as well as foreign students) covering attitudes towards shopping, saving, investing, economy, nature, sustainability, and AI.
+
+Survey Oct. 13th - Nov. 3rd, 2023
+
+2000 cards with a QR code printed out
+
+Distribution conducted at 8 universities (handing out the cards)
+
+1289 people started the survey, 518 quit
+
+771 people completed the whole survey
+
+Data after filtering: 675 people aged 18-26 (Gen-Z), Taiwanese, current students in BA (large majority), MA (small minority) or PhD level (very few respondents)
+
+36 likert fields (5-point scale) used for clustering the students into 3 personas with K-means clustering
+
+14 product features (multiple-choice) used for K-modes clustering
+
+4 choice experiments
+
+2 option ranking questions
+
+10 text fields used to enrich the personas
+
+
+# Old
+
+## Findings
+
+-   Literature: AI assistants should integrate with Digital Product Passports
+-   Literature: AI assistants should show carbon label data.
+-   Literature: AI assistants should avoid taking ESG at face value (because it's a really low bar) and integrate other metrics such as B Corp.
+-   Literature: AI assistants should
+-   Literature: Do not make another investing app, make a sustainability filter for excisting investing platforms.
+-   Literature: College students can support extended producer responsibility
+
+### RQ 1
+
+**How might AI assistants empower regenerative shopping, saving, and investing?**
+
+Display the ESG, EPR, B-Corp, etc, etc credentials for each product and investment.
+
+EPR and B-Corp are success stories which shoul be highlighted while ESG is largely discredited.
+
+There are many existing and ongoing approaches to sustainability. The best approach might be to plug into excisting system and communities and legislation to support and empower them.
+
+### RQ 2
+
+**How might one design an intuitive sustainable shopping, saving, investing app?**
+
+Apple Watch app
+
+### RQ 3
+
+**What app features might college students rate as the highest priority?**
+
+Autopilot
+
+### RQ 4
+
+**How might one visualize ecological impact in digital product design?**
+
+Accuracy is more imprttant for hhuman trust tthan actual impact
+
+## Ideas for Interfaces
+
+Show all the different prototypes just likes architects do. And then defent why I chose the one I did.
+
+For NW make a Loom with the interfaces and talk about them?

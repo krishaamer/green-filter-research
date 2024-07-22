@@ -1,0 +1,31 @@
+```{python}
+from data.shopping import boycott_count, why_boycott, trusted_brands, visualize_shopping_data
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+## Shopping
+
+### Boycott Count (Overall)
+```{python}
+boycott_count()
+```
+
+### Why Boycott
+```{python}
+why_boycott()
+```
+
+### Trusted Brands
+```{python}
+trusted_brands()
+```
+
+The following responses were counted as "no brand": "無", "沒有", "沒有特別", "🈚️", "目前沒有", "No", "沒", "沒有特別關注", "沒有特別信任的", "不知道", "無特別選擇", "目前沒有完全信任的", "沒有特定的", "沒有特定", "沒有特別研究", "目前沒有特別關注的品牌","N", "none", "無特別", "目前無", "沒有特別想到", "沒有固定的", "x", "沒在買", "nope", "一時想不到…", "沒有特別注意", "無特別的品牌", "無絕對信任的品牌", "不確定你說的範圍", "還沒有"
+
+## Choice Experiments
+```{python}
+visualize_shopping_data()
+```
+
+

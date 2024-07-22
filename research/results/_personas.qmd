@@ -1,0 +1,66 @@
+```{python}
+from data.personas import treemap, show_personas, show_single_persona, show_clustering_heatmap, get_kmeans_table
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+# Personas
+
+## Clustering Students to Build 3 Personas
+
+Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert-scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert-scale fields, transformed into the principal components that capture the most variance.
+
+- There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
+
+- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings.
+
+
+```{python}
+show_personas()
+```
+
+
+### Persona 1: "Eco-Friendly"
+Questions Most Affecting Persona Creation include...
+
+```{python}
+show_single_persona(0)
+```
+
+
+### Persona 2: "Moderate"
+Questions Most Affecting Persona Creation include...
+```{python}
+show_single_persona(1)
+```
+
+
+### Persona 3: "Frugal"
+Questions Most Affecting Persona Creation include...
+```{python}
+show_single_persona(2)
+```
+
+## Clustering Heatmap
+
+```{python}
+show_clustering_heatmap()
+```
+
+
+## Mean Answer Scores
+Mean response values for each Likert question in each cluster:
+
+```{python}
+get_kmeans_table()
+```
+
+## Agreement between personas
+Highest agreement between personas is about health, safety, pollution and climate concerns.
+
+```{python}
+treemap()
+```
+
+
+

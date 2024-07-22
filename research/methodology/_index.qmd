@@ -1,0 +1,126 @@
+```{=mdx}
+import MyEmbed from '/src/components/Embed'
+import Figure from '/src/components/Figure'
+import Concepts from '../images/concept-map.png'
+import Methodology from '../images/research-methodology.png'
+```
+# Methodology
+
+Start with expert survey, then expert interviews (because so many questions from literature review).
+
+| Group                              | Task         |     |
+|------------------------------------|--------------|-----|
+| Experts (Finance)                  | Short Survey |     |
+| Experts (Design)                   | Short Survey |     |
+| Experts (Sustainability)           | Short Survey |     |
+| Target Audience (College Students) | Long Survey  |     |
+
+I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms getting verbal permission from educators in their ´ classrooms to distribute the survey flyer. The flyer included a colorful AI-generated visual with a futuristic game-link female figure, the title "climate anxiety survey", a website link (ziran.tw) and scannable QR-code.
+
+Similarly to [@liuDigitalCapabilityDigital2023] I distributed the survey in schools in the Northern, Soutern, Central, and East regions of Taiwan.
+
+The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to english for this table.
+
+| Original Question in Chinese                                                        | English Translation                                                                                                                   |
+|----------------------------------|--------------------------------------|
+| 如果你/妳懷疑你/妳要買的番茄可能是由強迫勞工（現代奴隸）採摘的，你/妳仍然會買它嗎？ | If you suspect that the tomatoes you are going to buy may have been picked by forced labor (modern slaves), would you still buy them? |
+| 你/妳關心食安嗎？                                                                   | Do you care about food safety?                                                                                                        |
+| 你/妳7年內買車嗎？🚘                                                                | Will you buy a car within 7 years? 🚘                                                                                                 |
+| 你/妳7年內買房嗎？🏡                                                                | Will you buy a house within 7 years? 🏡                                                                                               |
+| 你/妳購物時知道產品環保嗎？                                                         | Do you know if the products are environmentally friendly when you shop?                                                               |
+| 你/妳覺得認證環保的公司更好嗎？                                                     | Do you think companies certified as environmentally friendly are better?                                                              |
+| 你/妳支持肉稅嗎？                                                                   | Do you support a meat tax?                                                                                                            |
+| 你/妳關心食用雞的生活嗎？                                                           | Do you care about the lives of chickens raised for food?                                                                              |
+| 你/妳避免吃肉嗎？                                                                   | Do you avoid eating meat?                                                                                                             |
+| 你/妳覺得你/妳花錢會影響環境嗎？                                                    | Do you think your spending affects the environment?                                                                                   |
+| 你/妳會對金錢感到焦慮嗎？                                                           | Do you feel anxious about money?                                                                                                      |
+| 你/妳會對金錢很節儉嗎？                                                             | Are you very frugal with money?                                                                                                       |
+| 你/妳會經常存錢嗎？                                                                 | Do you often save money?                                                                                                              |
+| 你/妳對自己的財務知識滿意嗎？                                                       | Are you satisfied with your financial knowledge?                                                                                      |
+| 你/妳投資會考慮環保嗎？                                                             | Do you consider environmental protection when investing?                                                                              |
+| 你/妳覺得台灣的經濟目標是增長嗎？                                                   | Do you think Taiwan's economic goal is growth?                                                                                        |
+| 你/妳覺台灣的得環境退化是台灣的經濟增長的前提嗎？                                   | Do you think environmental degradation in Taiwan is a prerequisite for Taiwan's economic growth?                                      |
+| 你/妳覺得台灣的經濟增長有助於保護環境嗎？                                           | Do you think Taiwan's economic growth helps protect the environment?                                                                  |
+| 你/妳覺得經濟能不排CO2也增長嗎？                                                    | Do you think the economy can grow without emitting CO2?                                                                               |
+| 你/妳覺得經濟增長有物質限制嗎？                                                     | Do you think there are material limits to economic growth?                                                                            |
+| 你/妳會每天都用AI嗎？                                                               | Do you use AI every day?                                                                                                              |
+| 你/妳會信任AI嗎？                                                                   | Do you trust AI?                                                                                                                      |
+| 你/妳想要AI有個造型嗎？                                                             | Do you want AI to have a specific appearance?                                                                                         |
+| 你/妳喜歡待在大自然嗎？                                                             | Do you like being in nature?                                                                                                          |
+| 你/妳擔心氣候變化嗎？                                                               | Are you worried about climate change?                                                                                                 |
+| 你/妳對環境污染情況會感到焦慮嗎？                                                   | Do you feel anxious about environmental pollution?                                                                                    |
+| 你/妳知道許多植物和動物的名字嗎？                                                   | Do you know the names of many plants and animals?                                                                                     |
+| 你/妳感覺自己和大自然很接近嗎？                                                     | Do you feel close to nature?                                                                                                          |
+| 你/妳努力實踐低碳生活嗎？                                                           | Do you strive to live a low-carbon lifestyle?                                                                                         |
+| 你/妳想做更多環保事嗎？                                                             | Do you want to do more for environmental protection?                                                                                  |
+| 你/妳對環境相關政治議題有興趣嗎？                                                   | Are you interested in environmental political issues?                                                                                 |
+| 你/妳信任碳排放抵消額度嗎？                                                         | Do you trust carbon offset credits?                                                                                                   |
+| 你/妳的環保行動對環境保護有效果嗎？                                                 | Do your environmental actions have an effect on environmental protection?                                                             |
+| 你/妳想在行業內推環保嗎？                                                           | Do you want to promote environmental protection within your industry?                                                                 |
+| 你/妳得自己對新觀念開放嗎？                                                         | Are you open to new ideas?                                                                                                            |
+| 你/妳的大學對可環保性支持嗎？                                                       | Does your university support environmental sustainability?                                                                            |
+
+: 36 Likert Fields included in the survey
+
+Respondents who remained outside the survey parameters were disregarded from the data analysis.
+
+## Research Design
+
+-   @christianrohrerWhenUseWhich2022: Research methods
+
+**The research design of this study consists of 3 steps.**
+
+-   Qualitative research targeted at financial and interaction design experts, leading to a *wish list* of features.
+-   Survey potential users' preferences, including a choice experiment of the proposed features.
+-   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
+-   This mixed-method research design is divided into three stages (fig. 11).
+-   My purpose for the first qualitative stage is to explore the general themes arising from the literature review related to the design of AI advisors for investing. I will identify specific user experience factors, through interviewing experts in financial technology and user experience design and reviewing existing applications on the marketplace. At this stage in the research, the central concept being studied is defined generally as expectations towards a sustainable investment AI advisor.
+-   I will then proceed to the second, quantitative stage, informed by the previously identified factors, and prepare a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users aged 18-35, living in Sweden and Taiwan (see fig. 12 on next page), exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
+-   In the third stage, I will return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will use a focus group to discuss the prototype, and conduct a thematic analysis of the discussions' recordings, leading to further validation of previously gathered data and possible changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, will be the final outcome of my research.
+
+## Conceptual Framework
+
+-   The conceptual framework map (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
+
+```{=mdx}
+<Figure caption="Figure 13 - Concept map" src={Concepts} />
+```
+## Research Methods
+
+### Phase One - Qualitative Research
+
+The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
+
+#### Sampling
+
+My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts everywhere, including in Taiwan and Sweden, but also Estonia, Portugal, and elsewhere.
+
+**Method:** Semi-Structured Interviews
+
+I will conduct exploratory research in English using semi-structured interviews recorded online and offline.
+
+### Phase Two - Quantitative Research
+
+The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
+
+**Sampling** My quantitative sampling structure uses a judgmental criterion: age 18-35, located in Sweden or Taiwan, surveyed using an English-language online survey.
+
+**Method:** Likert The survey includes a Likert scale between 1 to 7 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge.
+
+**Method:** Choice Experiment The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
+
+### Phase Three - Qualitative Research
+
+In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. Sampling
+
+The phase three sampling structure uses a judgmental criterion: - age 18-35 - located in Taiwan - Using the English language for discussion
+
+A focus group of 6 to 10 people will be gathered in Tainan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I will post online ads in English to invite people who I don't know personally, to participate in a "financial AI application testing group" (wording may change).
+
+**Method:** Focus Group The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
+
+**Method:** Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
+
+```{=mdx}
+<Figure caption="Overview of research methodology" src={Methodology} />
+```

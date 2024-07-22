@@ -8,24 +8,4 @@ editor:
 suppress-bibliography: true
 ---
 
-```{python}
-from data.investing import investment_count, investment_data
-import warnings
-warnings.filterwarnings("ignore")
-```
-
-# Investing
-Student attitudes towards investing.
-
-### Investing Experience (Overall)
-```{python}
-investment_count()
-```
-
-## Choice Experiment
-
-Question: 你/妳選哪個投資？Which investment do you choose?
-
-```{python}
-investment_data()
-```
+{{< include "_investing.qmd" >}}
