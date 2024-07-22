@@ -4,7 +4,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Shopping
+### Shopping
 
 ### Boycott Count (Overall)
 ```{python}

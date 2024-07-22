@@ -21,7 +21,11 @@ How can design enable/help/encourage sustainability?
 
 Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019].
 
-## Designing Interfaces for Sustainable Interactions
+### Data-Driven Design Enables Sustainability
+
+Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
+
+### Designing Interfaces for Sustainable Interactions
 
 Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
@@ -31,6 +35,25 @@ Design encompasses most everything in our daily lives.
 
 -   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
 
+### Towards Life-Centered Design
+
+***Life-Centered Design*** recognizes human impact on our surrounding environment as well as other animals making sure to include them among stakeholders While ***Human-Centered Design*** has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
+
+-   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
+
+### Interaction Design for Climate Change
+
+Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
+
+Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
+
+-   @uiaworldcongressofarchitectsDesignClimateAdaptation2023 "Design for climate adaptation"
+-   @andrewchaissonHowFightClimate2019
+-   @dzigajevHowCanWe2019
+-   @mankoffEnvironmentalSustainabilityInteraction2007
+-   @borthwickHumancentredLifecentredDesign2022
+-   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
+
 ### Capturing User Data
 
 As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data.
@@ -39,7 +62,7 @@ Making *anything* consumes natural resources, which are limited on planet Earth.
 
 There are many approaches to design - from playful to practical to critical and to data-driven. Nonetheless, many types of design share a common goal designing for a good *user experience*. Simplifying.
 
-## Platform Economy Companies Popularise Data-Driven Design
+### Platform Economy Companies Popularise Data-Driven Design
 
 Platform economy companies capture large amounts of data from users.
 
@@ -98,7 +121,7 @@ Could there be Sustainability Superapps?
 
 -   Adaptive AI
 
-## Data-Driven Design Enables Generative User Interfaces
+### Data-Driven Design Enables Generative User Interfaces
 
 There are many partially overlapping design terms created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word.
 
@@ -392,7 +415,7 @@ Some notable examples:
 -   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-#### Gamification
+### Gamification
 
 -   Gamification makes uses of nudges.
 
@@ -437,53 +460,7 @@ plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch
 plt.show()
 ```
 
-## Data-Driven Design Enables Sustainability
-
-Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
-
-### Towards Life-Centered Design
-
-***Life-Centered Design*** recognizes human impact on our surrounding environment as well as other animals making sure to include them among stakeholders While ***Human-Centered Design*** has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
-
--   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
-
-### Interaction Design for Climate Change
-
-Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
-
-Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
-
--   @uiaworldcongressofarchitectsDesignClimateAdaptation2023 "Design for climate adaptation"
--   @andrewchaissonHowFightClimate2019
--   @dzigajevHowCanWe2019
--   @mankoffEnvironmentalSustainabilityInteraction2007
--   @borthwickHumancentredLifecentredDesign2022
--   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
-
-#### Tracking Transport
-
-Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
-
-| Type of Transport           | Percentage |
-|-----------------------------|------------|
-| Passenger cars              | 39%        |
-| **Medium and heavy trucks** | 23%        |
-| **Shipping**                | 11%        |
-| **Aviation**                | 9%         |
-| Buses and minibuses         | 7%         |
-| Light commercial vehicles   | 5%         |
-| Two/three-wheelers          | 3%         |
-| Rail                        | 3%         |
-
-: Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
-
--   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
-
--   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
-
--   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
-
-## *Tracing* Supply Chains
+## Transforming Industries and Supply Chains
 
 Circular design is only possible if supply chains become circular as well.
 
@@ -517,7 +494,30 @@ There are several technologies for tracking goods across the supply chain, from 
 
 : Blockchain supply chain companies as of summer 2023 include.
 
-#### Ethics & Cruelty
+### Tracking Transport
+
+Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
+
+| Type of Transport           | Percentage |
+|-----------------------------|------------|
+| Passenger cars              | 39%        |
+| **Medium and heavy trucks** | 23%        |
+| **Shipping**                | 11%        |
+| **Aviation**                | 9%         |
+| Buses and minibuses         | 7%         |
+| Light commercial vehicles   | 5%         |
+| Two/three-wheelers          | 3%         |
+| Rail                        | 3%         |
+
+: Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
+
+-   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
+
+-   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
+
+-   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+
+### Ethics & Cruelty
 
 Can data transparency provide tools for reducing cruelty.
 
@@ -537,7 +537,39 @@ Can data transparency provide tools for reducing cruelty.
 
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
 
-#### Open Data
+**Factories Can Become More Transparent**
+
+-   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study [@devlinRegionalSupplyChains2022].
+
+-   Transparency about the polluting factories where the products come from.. the product journey
+
+-   virtual factories
+
+-   Tracing emissions from factory pipes... what's the app?
+
+-   Factories should be local and make products that can be repaired.
+
+-   Carbon-neutral factories "made in carbon-neutral factory" list of products
+
+-   @stefanklebertCarbonneutralManufacturingPossible2022
+
+-   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
+
+-   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
+
+-   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
+
+-   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
+
+-   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
+
+-   @FFCFairFactories Factory compliance - Fair Factories
+
+-   Planet Factory
+
+-   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
+
+### Open Data
 
 -   Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]
 
@@ -570,11 +602,7 @@ Data-driven design requires access to data, making the movement towards *open da
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
 
-#### Taxes
-
--   There have been proposal of a "meat tax".
-
-#### Using Carbon Labels to Communicate CO~2~
+### Using Carbon Labels to Communicate CO~2~
 
 Adding CO~2~ labels for consumer products have been discussed for decades [@adamcornerWhyWeNeed2012]. @cohenPotentialRoleCarbon2012 argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019). There is some indication consumers are willing to pay a small premium for low-CO~2~ products (@xuLowcarbonEconomyCarbon2022). All else being equal, consumers choose the option with a lower CO~2~ number (@carlssonSustainableFoodCan2022). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
 
@@ -610,7 +638,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 -   similar to Nutritional Facts Labeling
 
-#### From Carbon Labels to Digital Product Passports
+### From Carbon Labels to Digital Product Passports
 
 -   Circularise introduced an early blockchain-based sustainability system in 2016 aiming to improve transparency across several industries and is currently the market leader in providing *Digital Product Passports* @strettonDigitalProductPassports2022 "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time" "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
 -   product's history, composition, and environmental impact.
@@ -652,13 +680,11 @@ Digital product passports are a further development of the idea of carbon labels
 
 -   Dematerialize economies is not enough.
 
-### Biomimicry
+### Biomimicry and Biodesign
 
 -   following nature
 -   Janine Benyus @benyusBiomimicryInnovationInspired2009
 -   @dicksBiomimicryRevolutionLearning2023
-
-### Biodesign
 
 MIT is a source of many fantastic innovations.
 

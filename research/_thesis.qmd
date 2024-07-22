@@ -2,10 +2,8 @@
 title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
 author: "Kris Haamer"
 bibliography: ref.bib
-csl: harvard.csl
+csl: harvard2.csl
 toc: true
-toc-location: body
-toc-title: "Table of Contents"
 geometry: margin=1in
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: pdf_document
@@ -13,6 +11,10 @@ format:
   pdf
 execute:
   echo: false
+CJKmainfont: STSong
+CJKoptions:
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
 ---
 
 ```{python}

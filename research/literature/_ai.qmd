@@ -9,7 +9,7 @@ import ChatGPTMedical from '../images/chatgpt-medical.png'
 
 How can AI enable/help/encourage sustainability?
 
-## Human Patterns Enable Computers to Become AIs
+## Human Patterns Enable AIs
 
 The fact that AI systems work so well is proof that we live in a measurable world. There world is filled with structures. Nature, cultures, languages, human interactions, all form intricate patterns. Computer systems are becoming increasingly powerful in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
 
@@ -19,7 +19,7 @@ Already ninety years ago [@mccullochLogicalCalculusIdeas1943] proposed the first
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
-#### Reinforcement Learning with Human Feedback (RLHF)
+### Reinforcement Learning with Human Feedback (RLHF)
 
 Combining deep learning with reinforcement learning and reinforcement learning with human feedback (RLHF) enabled AI to achieve intelligence to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017]. OpenAI co-founder John Schulman describes RLHF: "the models are just trained to produce a single message that gets high approval from a human reader" [@karamankeChatGPTArchitectBerkeley2022].
 
@@ -60,7 +60,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 : Examples of human-in-the-loop apps
 
-## Responsible AI Seeks to Mitigate Generative AIs' Known Issues
+### Responsible AI Seeks to Mitigate Generative AIs' Known Issues
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
 
@@ -93,7 +93,7 @@ Knowing Machines
 
 ### Open Source v.s. Closed-Source AI
 
-One of the large debates in the AI industry is whether closed-sourced or open-sourced development will be lead to more AI safety.
+The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry.
 
 Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice.
 
@@ -145,7 +145,7 @@ Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingK
 
 -   Measuring Massive Multitask Language Understanding (MMLU) @hendrycksMeasuringMassiveMultitask2020.
 
-## What Role Should The AI Take?
+## AI Companions
 
 Literature delves into human-AI interactions on almost human-like level discussing what kind of roles can the AIs take. [@seeberMachinesTeammatesResearch2020] proposes a future research agenda for regarding ***AI assistants as teammates*** rather than just tools and the implications of such mindset shift.
 
@@ -587,7 +587,7 @@ Voice has a visceral effect on the human psyche; since birth we recognize the vo
 
 -- LLM evaluation: https://www.trulens.org/ @leinoInfluenceDirectedExplanationsDeep2018 -- https://docs.ragas.io/ "Metrics-Driven Development" -- https://www.langchain.com/langsmith
 
-\- [@CELINO2020102410:]\] There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
+\- [@CELINO2020102410] There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
 
 There's evidence across disciplines about the usefulness of AI assistants:
 

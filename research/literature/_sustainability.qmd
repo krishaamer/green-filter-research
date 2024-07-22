@@ -1,4 +1,3 @@
-
 ```{python}
 #| echo: false
 from literature.charts.sustainability import biodiversity_chart
@@ -258,7 +257,7 @@ Consumer lifestyle - overconsumption - is one of the main drivers of climate cha
 
 Overconsumption is also one of the root causes of plastic pollution. [@FORD2022150392] and [@laversFarDistractionPlastic2022] find strong links between climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution". [@laversFarDistractionPlastic2022] plastic pollution is pervasive around the Earth and is fundamentally linked to climate change
 
-A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" @undpPeoplesClimateVote2021. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. @deyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. @deyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 |           |       |                     |
 |-----------|-------|---------------------|
@@ -268,9 +267,6 @@ A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta
 | Over 69   | 58%   | 42%                 |
 
 : 1.2 million UN survey responses to the statement *"Climate change is an emergency"* [@undpPeoplesClimateVote2021].
-
--   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before.
--   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
 
 While the number on overconsumption are clear, the debate on overconsumption is so polarized, it's difficult to have a meaningful discussion of the topic [@ianoleOverconsumptionSocietyLookingglass2013].
 
@@ -505,27 +501,49 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 -   EJAtlas tracks environmental justice cases around the world [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
 -   Disputes in @eerolaCorporateConductCommodity2022.
 
-## Regenerative Pathways
+## Regenerative Action
 
-There is no single solution. Given the enormity of environmental degradation, many different approaches are needed.
+There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
 
-### Restoration Ecology
+### Restoration Ecology, Agroforestry & Permaculture
 
 Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
 
 The UN announced 2021-2030 the Decade on Ecosystem Restoration [@fischerMakingDecadeEcosystem2021].
 
+-   Agroecology @balticseaactiongroupEITFoodRegenerative2023
+
+Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) [@rubaPotentialityHomesteadAgroforestry2023];
+
+-   Food forests for regenerative food systems.
+
+-   @irwinIncreasingTreeCover2023
+
+-   @yadavExploringInnovationSustainable2023
+
+-   @lowMixedFarmingAgroforestry2023
+
+-   @ollinahoSeparatingTwoFaces2023 "bioeconomy is not inherently sustainable and may pose considerable risks to biodiversity."
+
+-   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
+
+-   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
+
+-   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
+
 ### Circular Economy and Extended Producer Responsibility
 
-Encouraging Sustainable Design.
+Encouraging Sustainable Design and Reducing Waste.
+
+[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
--   @mcdonoughCradleCradleRemaking2002 book
+-   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
 
 -   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
 
--   @dullCircularSupplyChain2021 book
+-   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
 
 -   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for ***"Emotionally Durable Design"***, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. @roseEnchantedObjectsInnovation2015 has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away.
 
@@ -540,12 +558,6 @@ Circular economy is a tiny part of the world economy. [@circleeconomyCircularity
 -   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
 
 -   EIT RawMaterials
-
-### Reducing Waste
-
-[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
-### Extended Producer Responsibility
 
 Extended Producer Responsibility Enables Companies to be Resposible.
 
@@ -584,75 +596,55 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 -   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
 -   @SulapacReplacingPlastic
 
-### Climatech
+### Climatech, Renewable Energy and Transforming Energy Production
 
-Technology startups focused on climate solutions (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in the atmosphere i.e. *carbon capture*.
+Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
--   @vitilloRoleCarbonCapture2022 illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
+Large technology conglomerates and newly founded startups focused on climate solutions (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in the atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones.
 
--   @gaureTrueNotTrue2022 simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
+Each technology has their own pros and cons. [@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
+
+-   [@gaureTrueNotTrue2022] simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
 
 -   **Important: "creating sustainability trust in companies in realtime"**
 
 -   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
 
-**Factories Can Become More Transparent**
+-   **10 countries use almost 100% renewable energy**
 
--   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study [@devlinRegionalSupplyChains2022].
+There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
 
--   Transparency about the polluting factories where the products come from.. the product journey
+-   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
 
--   virtual factories
+-   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
--   Tracing emissions from factory pipes... what's the app?
+-   The true cost of products is hidden. The work is hidden.
 
--   Factories should be local and make products that can be repaired.
+-   Montreal protocol eradicates CfCs and the ozone holes became whole again.
 
--   Carbon-neutral factories "made in carbon-neutral factory" list of products
+### *Mitigating* Climate Change
 
--   @stefanklebertCarbonneutralManufacturingPossible2022
+The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
--   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
+Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~ concentrations in the air can cause more turbulence for flights.
 
--   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
+### *Adapting* to Climate Change
 
--   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
-
--   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
-
--   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
-
--   @FFCFairFactories Factory compliance - Fair Factories
-
--   Planet Factory
-
--   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
-
-### Agroforestry & Permaculture
-
--   Agroecology @balticseaactiongroupEITFoodRegenerative2023
-
-Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) [@rubaPotentialityHomesteadAgroforestry2023];
-
--   Food forests for regenerative food systems.
-
--   @irwinIncreasingTreeCover2023
-
--   @yadavExploringInnovationSustainable2023
-
--   @lowMixedFarmingAgroforestry2023
-
--   @ollinahoSeparatingTwoFaces2023 "bioeconomy is not inherently sustainable and may pose considerable risks to biodiversity."
-
--   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
-
--   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
-
--   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
+Many companies are developing technologies for mitigation.
 
 ### Political Action
 
 In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
+
+Politics matters in sustainability.
+
+In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
+
+-   [@EUTaxonomySustainable] report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
+
+**Taxes**
+
+-   There have been proposal of a "meat tax".
 
 **SDGs**
 
@@ -669,58 +661,6 @@ Sustainbility Policy context is Shifting Around the World
 -   "data-exchange protocol with privacy at its heart" @circulariseCirculariseRaisesMillion2020
 
 -   EU AI Law @lomasDealEUAI2024
-
-**Europe From 2023 to 2030**
-
--   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
-
-::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/eu-policy-context.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="EU Policy Context Timeline'"
-  src={EUPolicy}
-/>
-```
-We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-Timeline of the Policy Context:
-
--   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
-
--   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
-
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
-
--   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
-
-**Quality of Life**
-
-Wellbeing Economy Governments is an Example of Country-level Collaboration
-
--   Finland, Iceland, New Zealand, Scotland, Wales, Canada https://weall.org/wego
-
-<!-- -->
-
--   @kaklauskasSynergyClimateChange2023
-
--   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
-
--   @fabrisCLIMATECHANGEQUALITY2022
-
--   Sustainability is part of product quality. If a product is hurting the environment, it's a low quality product.
-
-### *Mitigating* Climate Change
-
-The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
-
-Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~ concentrations in the air can cause more turbulence for flights.
-
-### *Adapting* to Climate Change
-
-Many companies are developing technologies for mitigation.
 
 **European Green Deal**
 
@@ -751,12 +691,6 @@ A large part of the proposal by [@commissionEcodesignYourFuture2014] is ***eco-d
 | Upgradable | Easy to refurbish | Resource efficient |
 
 : Eco-design framework proposes 9 values to strive for in high quality products.
-
-Politics matters in sustainability.
-
-In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
-
--   [@EUTaxonomySustainable] report: The EU has a ***taxonomy of environmentally sustainable economic activities*** published by the Technical Expert Group (TEG) on sustainable finance.
 
 -   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed @ScientistsUrgeEuropean2023 and is facing a backlash @davidpintoBacklashNatureRestoration2023.
 
@@ -794,7 +728,51 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
 
+**Europe From 2023 to 2030**
+
+-   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+
+::: {.content-hidden unless-format="pdf"}
+![EU Policy Context Timeline](./images/eu-policy-context.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="EU Policy Context Timeline'"
+  src={EUPolicy}
+/>
+```
+We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
+
+Timeline of the Policy Context:
+
+-   In 2019 by the von der Leyen commission adopted the European Union (EU) **Green Deal** strategy.
+
+-   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
+
+-   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
+
+-   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+
+**Quality of Life**
+
+Wellbeing Economy Governments is an Example of Country-level Collaboration
+
+-   Finland, Iceland, New Zealand, Scotland, Wales, Canada [@fioramontiWellbeingEconomyEffective2022].
+
+<!-- -->
+
+-   @kaklauskasSynergyClimateChange2023
+
+-   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
+
+-   @fabrisCLIMATECHANGEQUALITY2022
+
+-   
+
 ## Design Implications
+
+-   Sustainability is part of product quality. If a product is hurting the environment, it's a low quality product.
 
 TODO
 
@@ -814,7 +792,7 @@ TODO
 | EPR | ERP and CDP data should be part of Green Filter. |
 | Eco-Design | How to find eco-designed products? |
 | CE and EPC | Encouraging Sustainable Design |
-|  |  |
+| Politics Matter |  |
 |  |  |
 |  |  |
 

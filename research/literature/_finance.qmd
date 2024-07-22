@@ -4,21 +4,26 @@ import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
 # *Sustainable* Finance
+
+## The Journey
+
 How can finance enable/help/encourage sustainability?
 
-## Money
+### Sustainable Capital Allocation Methods
 
-Money can be created by governments by law using central banks, which loan money to commercial banks. New types of money are created by companies and even individuals using cryptography methods such as blockchains to keep track of who-paid-whom. In essence, money is a system of trust where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
+Shopping, saving and investing are forms of capital allocation. In one way or another, we're giving our money to companies that provide the products and services we need. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
 
-## Capital Allocation
-
-Shopping, saving and investing are Forms of capital allocation. In one form or another, we're giving our money to companies. Do we choose sustainability-focused companies or those with less attention to sustainability?
+Money is created by governments by law: using central banks, which loan money to commercial banks. New types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
 Sustainability lacks Trillions in investment - even with massive financing going into sustainability, there's still a lack of investing. The estimate for the global *financing gap* for low-carbon energy production was 5.2 Trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional **4.1 Trillion USD** of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower **2.5-3.2 Trillion USD** would be sufficient.
 
-The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. "We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation" said the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+The needed investment doesn't seem so large - around 2.5-5.2 % of the global GDP - if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
 
-What if 10% of consumer spending went for climate?
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate?
+
+The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+
+The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
 
 | High-Value Assets (Trillions of USD) |   |
 |----------------------------------------------|--------------------------|
@@ -55,47 +60,33 @@ What if 10% of consumer spending went for climate?
 
 : Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
 
-The needed investment doesn't seem so large, around 2.5-5.2 % of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
-
-It's not happening fast enough.
-
 -   Robeco survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
 
 -   -- compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
 
     -- "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
 
-## Decoupling
+### Adopting New Metrics and Decoupling Economic Growth from CO2 Emissions
 
-Is Decoupling Economic Growth and CO2e Emissions Possible?
+The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
--   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
--   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fell 43% from 1990 to 2017 through use of less carbon-intensive energy sources and thu argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020] while [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeline.
--   Green Growth Is Green Growth an oxymoron?
-
-### Economics
-
-The first two decades of the 21st century have seen a flurry of new economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
-
-### New Metrics
-
--   In Taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].
-
-Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
-
-Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
+There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
 
 The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress.
 
-There are those looking for new metrics. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index.
-
-The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
-
-New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics.
+Econometrics is the science and art of measuring the economy. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
 We should measure wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
 
--   Trucost, a company lauched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
+***Ecological economics*** is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
+
+New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+
+-   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
+
+-   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeframe.
+
+-   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 -   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
 
@@ -106,10 +97,6 @@ We should measure wellbeing in addition to GDP and the metric should including r
 -   Securitization
 
 -   ESG greenwashing @baldiRoleESGScoring2022
-
-### Ecological Economics
-
-Ecological economics is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
 
 ### Doughnut Economics
 
@@ -131,7 +118,7 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 -   @RaworthDoughnut2021 Donut in practice
 -   @bbcreelHowDutchAre2020
 -   @circleeconomyKeynoteIlektraKouloumpi2021
--   <https://www.c40.org/> city coalition
+-   city coalition @C402024
 -   @goliasDonutCenteredDesign2019
 
 | Short Food Chains in Amsterdam                     |
@@ -218,7 +205,44 @@ metrics and goals: ESG, SDGs,
 
 -   Adam Smith: Interdependence
 
-## Comparing Companies
+### Payments are an Entry Point and Source of Consumer Action Data
+
+-   TSouurhe combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
+-   Payments is the primary way consumers use money.
+-   Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, "every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices" [@fotheringhamHowCreateGreener2017].
+-   M-Pesa in Kenya since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
+-   In Sweden point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience.
+-   Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing?
+-   A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface [@bunqBunq2020]. Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
+-   From Shopping to Investing @AcornsTargetsMillennials suggests "Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference."
+-   @ContactlessPaymentsPrevalent2023 in Macau Contactless Payments:
+-   Commons, formerly known as Joro, analysis your financials to estimate your CO~2~ footprint. @chantPersonalCarboncuttingApp2022
+
+@FirstPaperMoney China was a money innovator introducing paper money in the Tang Dynasty (618--907 AD).
+
+-   @CentralBankDigital2023 Digital currencies make tracking easier
+
+-   E-Naira find papers
+
+-   @yahoofinanceChallengesFacingChina2022: WeChat, Alipay, vs digital yuan by Eswar Prasad
+
+-   @marisaadangilCriptomoedasVaoAcabar2022
+
+-   @caiojobimBitcoinFalhouCriptomoedas2022
+
+-   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
+
+-   @EuropeanFintechsWatch2022
+
+People are concerned with digital payments
+
+-   Digital Currency @emeleonuNigeriaCapsATM2022 reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. "In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."
+-   @jeffbensonChinaReleasesDigital2022 "use the e-CNY network to increase financial surveillance."
+-   democratize financial surveillance!
+-   Crypto tools allow you to look at any wallet already
+-   green transparency
+
+## Companies
 
 Indexes Enable Comparing Companies
 
@@ -373,27 +397,7 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 
 -   Modern Slavery Act.
 
-## Transforming Energy Production
-
-### Fossil Fuels
-
-Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
-
-### Renewable Energy
-
--   10 countries use almost 100% renewable energy
-
-There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
-
--   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
-
--   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
-
--   The true cost of products is hidden. The work is hidden.
-
--   Montreal protocol eradicates CfCs and the ozone holes became whole again.
-
-## Banks and Fintechs Capture User Data
+### Banks and Fintechs Capture User Data
 
 Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan's O Bank makes use of Mastercard's data to calculate each transaction's CO~2~ emissions[@TaiwanOBankLaunches2022].
 
@@ -627,7 +631,7 @@ Conscious consumers make up a small percentage of the entire consumer public.
 
 [@milneMindfulConsumptionThree2020] coins the term mindful consumers, who do research and are aware of the impact of their shopping choices.
 
-#### Individual Climate Action is Ineffective
+### Individual Climate Action is Ineffective
 
 -   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
 
@@ -649,46 +653,9 @@ Conscious consumers make up a small percentage of the entire consumer public.
 
 -   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
 
-### Payments are an Entry Point and Source of Consumer Action Data
-
--   TSouurhe combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
--   Payments is the primary way consumers use money.
--   Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, "every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices" [@fotheringhamHowCreateGreener2017].
--   M-Pesa in Kenya since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
--   In Sweden point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience.
--   Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing?
--   A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface [@bunqBunq2020]. Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
--   From Shopping to Investing @AcornsTargetsMillennials suggests "Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference."
--   @ContactlessPaymentsPrevalent2023 in Macau Contactless Payments:
--   Commons, formerly known as Joro, analysis your financialss to estimate your CO~2~ footprint. @chantPersonalCarboncuttingApp2022
-
-@FirstPaperMoney China was a money innovator introducing paper money in the Tang Dynasty (618--907 AD).
-
--   @CentralBankDigital2023 Digital currencies make tracking easier
-
--   E-Naira find papers
-
--   @yahoofinanceChallengesFacingChina2022: WeChat, Alipay, vs digital yuan by Eswar Prasad
-
--   @marisaadangilCriptomoedasVaoAcabar2022
-
--   @caiojobimBitcoinFalhouCriptomoedas2022
-
--   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
-
--   @EuropeanFintechsWatch2022
-
-People are concerned with digital payments
-
--   Digital Currency @emeleonuNigeriaCapsATM2022 reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. "In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."
--   @jeffbensonChinaReleasesDigital2022 "use the e-CNY network to increase financial surveillance."
--   democratize financial surveillance!
--   Crypto tools allow you to look at any wallet already
--   green transparency
-
 ### From Payments to Investing
 
-#### Personalized Investing
+### Personalized Investing
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
 
@@ -702,9 +669,9 @@ People are concerned with digital payments
 
 -   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-## Saving and Investing
+## Saving
 
-### Saving Can Be Conflated With Investing
+Saving Precedes Investing
 
 There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
 
@@ -717,8 +684,6 @@ There are two ways to look at sustainable savings and this chapter is going to l
 -   @burkartClimateFinanceGets2022
 
 -   Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
-
--   
 
 -   Assumptions: --- where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
 
@@ -741,6 +706,8 @@ There are two ways to look at sustainable savings and this chapter is going to l
 -   @EthicalShopping2019
 
 -   @GoodShoppingGuide
+
+## Investing
 
 Young investors are typically ***retail investors*** investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
@@ -778,7 +745,7 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-#### Retain Investing in Financial Inclusion
+### Retain Investing in Financial Inclusion
 
 Retail investing can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
@@ -810,16 +777,16 @@ Retail investing can be seen as a form of financial inclusion. Ant Group's CEO E
 
 -   Nubanks, also known as challenger banks.
 
-| Company   | Link |
-|-----------|------|
-| SPARQAN   |      |
-| Robinhood |      |
-|           |      |
-|           |      |
+| Company   |
+|-----------|
+| SPARQAN   |
+| Robinhood |
+|           |
+|           |
 
 ### Increasing Number of Asset Classes
 
-There are many asset classes only some of which would be accessible to a retail investor.
+There are many asset classes only some of which would be accessible to a retail investors.
 
 -   The main categories of investment products are, based on the @InvestmentProductsInvestor
 
@@ -832,12 +799,12 @@ There are many asset classes only some of which would be accessible to a retail 
 | Insurance Products such as Variable Annuities |
 |                                               |
 
-#### Thematic Capital
+### Thematic Capital
 
 -   Build a thematic portfolio
 -   There's a wide range of investment products marketed as *sustainable*, however many of them are fake (**CITATION**).
 
-#### Green Bonds
+### Green Bonds
 
 -   Sustainability Linked Bonds: What this?
 
@@ -849,15 +816,15 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   @priscilaazevedorochaGreenwashingEnters222022: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak"
 
--   @priscilaazevedorochaGreenwashingEnters222022 suggests "So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."
+-   [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
 
 -   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 @macaskillThereGreenPremium2021
 
--   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond @liWhereGreenBond2022
+-   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@liWhereGreenBond2022].
 
--   Chinese green bond market is growing fast @pengManagingFinancingCosts2022
+-   Chinese *green bond market* is growing fast [@pengManagingFinancingCosts2022].
 
 ### Community Investing Enables Financial Inclusion
 
@@ -866,7 +833,7 @@ There are many asset classes only some of which would be accessible to a retail 
 -   Savings in CO~2~ Equivalent Emissions: CO~2~ savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
 -   In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of ***social proof***, which robo-advisor do not possess.
 
-#### Hedge Funds
+### Hedge Funds
 
 -   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
 
@@ -884,7 +851,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Angelist
 
-#### DAOs
+### DAOs
 
 Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. Also, the legislation affecting each would be different as hedge funds are an older and more established financial tool whereas DAOs still fall in somewhat of a gray area.
 
@@ -902,20 +869,22 @@ Decentralized Autonomous Organizations (DAOs) which have an investable treasury 
 
 -   Social + NFTs - What would investing look like at the scale of 1 billion people
 
-#### Green Investment Platforms
+### Green Investment Platforms
+
+Such as "green shops" there are green investing platforms, green etfs, etc. All of these are essentially forms of branding designed to make it easier for investors to find an investing product they trust.
 
 There are many 'green investment platforms' who to trust?
 
-| Name          | Description | Link                     |
-|---------------|-------------|--------------------------|
-| Trine         |             | https://trine.com/       |
-| The Many      |             | https://the-many.com     |
-| Sugi          |             | https://sugi.earth/      |
-| ClimateInvest |             | https://clim8invest.com/ |
-| Circa5000     |             | https://circa5000.com/   |
-| FairOwn       |             | https://www.fairown.com/ |
-|               |             |                          |
-|               |             |                          |
+| Name          | Description | Link            |
+|---------------|-------------|-----------------|
+| Trine         |             | trine.com       |
+| The Many      |             | the-many.com    |
+| Sugi          |             | sugi.earth      |
+| ClimateInvest |             | clim8invest.com |
+| Circa5000     |             | circa5000.com   |
+| FairOwn       |             | fairown.com     |
+|               |             |                 |
+|               |             |                 |
 
 -   @hankewitzEstonianFintechCompany2021
 
@@ -929,7 +898,7 @@ There are many 'green investment platforms' who to trust?
 
 Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies. Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
-#### Legislation
+### Legislation
 
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
@@ -951,7 +920,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however @hoAsianInvestorsAre2019 counters investors are not sure how to separate sustainable assets from less sustainable ones.
 
-#### Sustainable Finance
+### Sustainable Finance
 
 -   Money connects all industries. People want to shop, save, invest sustainably - how to do it?
 
@@ -959,7 +928,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   @WorldEconomicOutlook2023
 
-#### Regenerative Finance
+### Regenerative Finance
 
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
 -   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
@@ -996,7 +965,7 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
-#### ESG Crisis
+### ESG Crisis
 
 -   ESG companies don't emit less CO2 than non-ESG companies.
 
@@ -1016,7 +985,11 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   Implication for design: ESG can't trusted.
 
-#### ESG Investing
+### ESG Investing
+
+-   In Taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].
+
+<!-- -->
 
 -   @margarytakirakosianMethodologiesAreAll2022 suggests "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy."
 
@@ -1074,7 +1047,7 @@ There's literature suggesting it's possible to make investments that both make a
 |                                      |     |     |
 |                                      |     |     |
 
-#### How to Trace Worker's Rights?
+### How to Trace Worker's Rights?
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
     -   @WorkerVoice2022 Worker Voice apps.
@@ -1088,7 +1061,7 @@ There's literature suggesting it's possible to make investments that both make a
 -   @ganuWhyBlockchainCan2021
 -   Improve product ***provenance***, blockchains offer this transparency
 
-## Greenwashing Disturbs Sustainable Capital Allocation
+### Greenwashing Disturbs Sustainable Capital Allocation
 
 Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
@@ -1126,7 +1099,7 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
     -   @todd-ryanWhoAre100
 
-#### Oracles for Sustainability Data
+### Oracles for Sustainability Data
 
 Intersection with finance and Real World Data.
 
@@ -1142,7 +1115,7 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   @dgen&positiveblockchainBlockchainSDGsHow2021: Positive Blockchain Database of blockchain for good projects
 
-#### Realtime ESG
+### Realtime ESG
 
 There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
@@ -1162,7 +1135,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   @ESGAnalyticsRealtime: "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer."
 
-#### Transparency
+### Transparency
 
 -   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto
 

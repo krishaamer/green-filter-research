@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-# College Student Attitudes (Overall)
+## College Student Attitudes (Overall)
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
 ## Shopping
