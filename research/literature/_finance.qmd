@@ -9,6 +9,12 @@ import Bunq from '../images/bunq.jpg'
 
 How can finance enable/help/encourage sustainability?
 
+### Consumer Activism
+
+Conscious consumers make up a small percentage of the entire consumer public.
+
+[@milneMindfulConsumptionThree2020] coins the term mindful consumers, who do research and are aware of the impact of their shopping choices.
+
 ### Sustainable Capital Allocation Methods
 
 Shopping, saving and investing are forms of capital allocation. In one way or another, we're giving our money to companies that provide the products and services we need. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
@@ -96,7 +102,11 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 -   Securitization
 
--   ESG greenwashing @baldiRoleESGScoring2022
+<!-- -->
+
+-   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
+
+-   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
 ### Doughnut Economics
 
@@ -160,12 +170,6 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 -   Triodos Bank
 
 -   Global Alliance for Banking on Values
-
-### Intent Economics
-
--   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
-
--   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
 ### Varia
 
@@ -242,9 +246,16 @@ People are concerned with digital payments
 -   Crypto tools allow you to look at any wallet already
 -   green transparency
 
-## Companies
+### Indexes
 
 Indexes Enable Comparing Companies
+
+Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
+
+-   Rating Systems: Companies assess customer's credit score, however how can customers rate companies.
+-   ESG Shopping: "Changing our relationship with money"
+
+<!-- -->
 
 -   Nordic Climate Transparency Leadership: "companies with higher quality climate reporting also provide higher returns"
 
@@ -252,18 +263,13 @@ Does certification matter? Consumers are willing to pay more for bio-based produ
 
 -   consumer awareness of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
-Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
-
--   Rating Systems: Companies assess customer's credit score, however how can customers rate companies.
--   ESG Shopping: "Changing our relationship with money"
-
-| Rating System              | Link |
-|----------------------------|------|
-| B Corporation              |      |
-| ESG                        |      |
-| Fair Trade                 |      |
-| Responsible Business Index |      |
-| Greenly                    |      |
+| Rating System              |
+|----------------------------|
+| B Corporation              |
+| ESG                        |
+| Fair Trade                 |
+| Responsible Business Index |
+| Greenly                    |
 
 There are many different certifications
 
@@ -320,7 +326,7 @@ Existing rankings
 
 -   @Top100Consumer Largest consumer goods companies
 
-### B Corporations
+**B Corporations**
 
 B Corporations undergo strict assessment and adhere to stringent sustainability practices.
 
@@ -330,7 +336,7 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 -   @SocialEnterprisesCorps
 -   @ravenpackCorpMovementESG2021
 
-### Product Databases
+Product Databases
 
 All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product.
 
@@ -379,7 +385,7 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-### Slavery Still Exists
+### Slavery Still Exists and How to Trace Worker's Rights?
 
 In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023].
 
@@ -396,6 +402,27 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 -   @anandchandrasekharWhySwitzerlandMatters2021: Trading commodities "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates." Can traders have more scrutiny over what they trade?
 
 -   Modern Slavery Act.
+
+-   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+
+    -   @WorkerVoice2022 Worker Voice apps.
+    -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
+
+-   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008.
+
+-   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
+
+-   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
+
+-   Eisenstein?: "Money is a technology".
+
+-   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ...
+
+-   @BlockchainCompaniesTeam2021
+
+-   @ganuWhyBlockchainCan2021
+
+-   Improve product ***provenance***, blockchains offer this transparency
 
 ### Banks and Fintechs Capture User Data
 
@@ -625,12 +652,6 @@ Make use of indexes to compare companies.
 
 Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to a strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
 
-### Consumer Activism
-
-Conscious consumers make up a small percentage of the entire consumer public.
-
-[@milneMindfulConsumptionThree2020] coins the term mindful consumers, who do research and are aware of the impact of their shopping choices.
-
 ### Individual Climate Action is Ineffective
 
 -   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
@@ -669,7 +690,7 @@ Conscious consumers make up a small percentage of the entire consumer public.
 
 -   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-## Saving
+## Saving and Investing
 
 Saving Precedes Investing
 
@@ -706,8 +727,6 @@ There are two ways to look at sustainable savings and this chapter is going to l
 -   @EthicalShopping2019
 
 -   @GoodShoppingGuide
-
-## Investing
 
 Young investors are typically ***retail investors*** investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
@@ -943,7 +962,11 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest, followed by China)\[\^5\] started a divestment trend in 2016 by divesting from coal. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions? The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
-### ESG Needs Standardisation
+### ESG Crisis
+
+-   ESG greenwashing @baldiRoleESGScoring2022
+
+ESG Needs Standardisation
 
 -   Environmental, Social, and Corporate Governance (ESG)
 
@@ -965,8 +988,6 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
-### ESG Crisis
-
 -   ESG companies don't emit less CO2 than non-ESG companies.
 
 -   https://www.openesg.com/ because you can't trust ESG [@aikmanESGDAOOut2022] !
@@ -984,8 +1005,6 @@ There's literature suggesting it's possible to make investments that both make a
 -   ESG risk
 
 -   Implication for design: ESG can't trusted.
-
-### ESG Investing
 
 -   In Taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].
 
@@ -1046,20 +1065,6 @@ There's literature suggesting it's possible to make investments that both make a
 | ESG is an annual report not realtime |     |     |
 |                                      |     |     |
 |                                      |     |     |
-
-### How to Trace Worker's Rights?
-
--   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
-    -   @WorkerVoice2022 Worker Voice apps.
-    -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
--   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008.
--   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
--   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
--   Eisenstein?: "Money is a technology".
--   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ...
--   @BlockchainCompaniesTeam2021
--   @ganuWhyBlockchainCan2021
--   Improve product ***provenance***, blockchains offer this transparency
 
 ### Greenwashing Disturbs Sustainable Capital Allocation
 
