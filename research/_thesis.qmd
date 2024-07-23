@@ -2,7 +2,7 @@
 title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
 author: "Kris Haamer"
 bibliography: ref.bib
-csl: harvard2.csl
+csl: harvard.csl
 toc: true
 geometry: margin=1in
 date: "`r format(Sys.time(), '%B %d, %Y')`"
