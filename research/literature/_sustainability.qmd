@@ -53,7 +53,7 @@ Earth System Models from the first calculation by Svante Arrhenius and Guy Stewa
 
 In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-### - "Near-real time updates of key global climate variables from the **Copernicus Climate Change Service (C3S)"** <https://pulse.climate.copernicus.eu/>
+\- "Near-real time updates of key global climate variables from the **Copernicus Climate Change Service (C3S)"** <https://pulse.climate.copernicus.eu/>
 
 Digital Twins - Complex computer models attempt to capture ever more interactions happening in the physical realm. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a *digital twin* of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
@@ -82,13 +82,13 @@ CO~2~e emissions by region (per year).
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: Comparing highest per capita CO~2~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
+: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
 
 @crippaFossilCO2GHG2020 reports latest figures from the EU's Emissions Database for Global Atmospheric Research (EDGAR)
 
 **Scoping**
 
-Scoping emissions helps Organize Calculating CO2e. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of ***emission scopes*** applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023].
+*Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s \[@ghgprotocolUsGHGProtocol\]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 
 |                |                                |
 |----------------|--------------------------------|
@@ -96,6 +96,7 @@ Scoping emissions helps Organize Calculating CO2e. The U.S. National Public Util
 | Scope 1        | Direct emissions               |
 | Scope 2        | Indirect electricity emissions |
 | Scope 3        | Value chain emissions          |
+| Scope 4        | Avoided emissions              |
 
 : Definition of Emission Scopes From [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022].
 
@@ -103,7 +104,7 @@ One's scope 3 emissions are someone else's scope 1 emissions.
 
 -   Mapping pollution sources in China @xieEcologicalCivilizationChina2021
 
-Countries have agreed up CO2 Reduction Targets known as Country-Level Nationally Determined Contributions (NDCs)
+Countries have agreed up CO~2e~ Reduction Targets known as Country-Level Nationally Determined Contributions (NDCs)
 
 -   @unfcccNDC2022 The State of Nationally Determined Contributions
 
@@ -127,22 +128,28 @@ While most countries have not reached their Nationally Determined Contributions,
 
 -   [@fransenStateNationallyDetermined2022] notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
-### Trading Emissions
+### Pricing Climate Change and Trading CO~2e~ Emissions
 
-For the individual person, there's no direct access to CO~2~ markets, however there are different types of brokers who buy large amounts of carbon credits and resell them in smaller quantities to retail investors. "Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."
+-   CO~2e~ assigning a monetary value to carbon emissions.
 
-### Pricing Climate Change
+Trading CO~2e~ emissions can be divided into 2 categories - *Compliance Carbon Markets* (CCM) and *Voluntary Carbon Markets* (VCM).
 
-*Long term cost* is more than *short-term gains.*
+The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.*
+
+For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors.
+
+"Carbon pricing is not there to punish people," says Lion Hirth @lionhirthLionHirthTwitter. "It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."
+
+*Long term cost* of insufficient climate action is more than *short-term gains* from delaying efforts to reduce carbon emissions.
 
 -   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
--   *The price of CO~2~ differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2~ prices and believes [@rennertComprehensiveEvidenceImplies2022] *CO~2~* price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2~) in countries where production is very polluting.
+-   *The price of* CO~2e~ *differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting.
 
 <!-- -->
 
 -   @igeniusLetTalkSustainable2020
 
-CO2 credits has given rise to *Carbon Accounting industry.*
+CO~2~ credits has given rise to *Carbon Accounting industry.*
 
 -   Watershed is a large carbon accounting company.
 
@@ -152,7 +159,9 @@ CO2 credits has given rise to *Carbon Accounting industry.*
 
 -   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
 
-### Compliance Carbon Markets
+Compliance Carbon Markets
+
+meet legal emission reduction targets
 
 **Cap & Trade**
 
@@ -213,7 +222,9 @@ Most of the world is not part of a CO~2~ market.
 
 -   tree bark absorbs methane, [@gauciGlobalAtmosphericMethane2024].
 
-### Voluntary Carbon Markets
+Voluntary Carbon Markets
+
+Verified Carbon Standard (VCS) and the Gold Standard, Climate Action Reserve (CAR)‍, American Carbon Registry (ACR)
 
 Voluntary Carbon Markets are ...
 
