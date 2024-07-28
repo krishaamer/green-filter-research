@@ -169,14 +169,23 @@ structure: data-driven design, generative UI
 AI is able to predict what kind of UI would the user need right now, based on the data and context.
 
 -   Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components [@replitReplitOpenv0OpenSource2023]. "Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components."
+
 -   Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024].
+
 -   In 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014].
+
 -   As machines become more capable, machines will eventually be capable of producing machines.
+
 -   Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".***
+
 -   [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
+
 -   [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried UIs are becoming average; that is more and more similar towards the lowest common denominator. We can generate better ones that are based on user data and would be truly personalized.
+
 -   [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (***"difficult, slow, and unpleasant"***) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
+
 -   [@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sisters because of their dissimilar usage patterns.
+
 -   [@NielsenIdeasGenerative2024] Meanwhile is very critical because for the following reasons:
 
 -   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].

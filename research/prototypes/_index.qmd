@@ -1,6 +1,9 @@
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 ```
+## Ideas for Interfaces / Scenarios
+
+Show all the different prototypes just likes architects do. And then defend why I chose the one I did. For NW make a Loom with the interfaces and talk about them?
 
 ## Prototypes of Product Features
 
@@ -54,20 +57,17 @@ How can sustainability-minded college students find companies that meet their ex
 
 -   Currently CO~2~ footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
-| Product Idea         | Source            |                                                                                | Prototype Link                             |
+| Product Idea | Source |   | Prototype Link |
 |------------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
-| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
-| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
-| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
-| XYZ                  | Expert Interview  |                                                                                |                                            |
-| ABC                  | User Survey       |                                                                                |                                            |
+| Speak Truth to Power | Literature Review | Consolidate user feedback for companies | greenfilter.app/prototypes/truth-power |
+| Shopping Divest | Literature Review | What if you could build communities based on what you buy? | greenfilter.app/prototypes/shopping-divest |
+| True Cost | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost- |
+| Sunday Market | Literature Review | First prototype for going to the organic Sunday Market with friends. |  |
+| XYZ | Expert Interview |  |  |
+| ABC | User Survey |  |  |
 
-## Affinity Diagrams
-
--   Affinity diagrams help users organize ideas by brainstorming, sorting and labeling to cluster related information [@karaperniceAffinityDiagrammingCollaboratively2018; @quignardUXAnalysisPhase2022]
-
-Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
+-   *Affinity diagrams* help users organize ideas by brainstorming, sorting and labeling to cluster related information [@karaperniceAffinityDiagrammingCollaboratively2018; @quignardUXAnalysisPhase2022]
+-   Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
 
 Actionable Insights: Translate data into everyday actions the app can suggest.
 
@@ -88,8 +88,6 @@ Actionable Insights: Translate data into everyday actions the app can suggest.
 -   Gather requirements and build a prototype for the next-generation investment app for young adults. Improving the user experience for young adults getting started with (green) investing. What would a "Tinder for (Green) Investments" look like? How can we make the logistics of investing so easy to use and take into account my values?
 
 -   My thesis core message is : everyone should change from consumer to sustainability investor (define these terms in the thesis). how to do this? can help you become from consumer to investor i believe there's space for a product like that. your green investing friend find the companies tackling certain problems and invest in them using crypto business can be a force for good
-
-## 'Shopping-as-Investing'
 
 -   Consumer purchases are an indicator of demand. If demand trends down, companies will stop producing this product.
 
