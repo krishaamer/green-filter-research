@@ -13,15 +13,17 @@ import Boundaries from "/research/images/boundaries.png";
 import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ```
-# Sustainability (of Life on Earth)
+# Sustainability
 
-## *Defining* "Sustainability"
+## Defining "Sustainability"
 
-***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas, it could be said people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last century that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
+***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## *Measuring* Earth's Climate
+## Measuring, Modeling, and Visualizing Earth's Climate
 
-Studies of Earth's climate go back for more than a century. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. While the scientific case for human-induced climate change was building, it wasn't until 120 years later, when the Paris Climate Agreement came into effect, that countries agreed on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels [@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt***,*** the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
+
+While the scientific case for human-induced climate change was building, it took 120 years after Arrhenius' calculations, until the Paris Climate Agreement in 2016, that countries came to an agreement on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels (defined as 1850–1900)[@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
@@ -35,14 +37,9 @@ Studies of Earth's climate go back for more than a century. Already in 1896, the
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
+The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
+
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020].
-
-### Modeling Climate Data
-
-Climate data visualization has a history of over 200 years, starting with ***Alexander von Humboldt,*** the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022]. Humboldt's isotherms are now available as 3D computer models in [@IsothermsSimplyEarth2023].
-
--   Industrial revolution: : "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions" [@pearsonLowCarbonIndustrial2012].
--   Tragedy of the commons: [@meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="60%"}
@@ -51,15 +48,13 @@ Climate data visualization has a history of over 200 years, starting with ***Ale
 ```{=mdx}
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
-Earth System Models from the first calculation by Svante Arrhenius and Guy Stewart Callendar to today's complex models that integrate the various Earth systems and cycles ran on supercomputers [@andersonCO2GreenhouseEffect2016]. Digital Twins - complex computer models attempt to capture ever more interactions happening in the physical realm. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a *digital twin* of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
+The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called Digital Twins. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
+### Pricing and Trading CO~2~e Emissions
 
-### CO~2~e Emissions
+While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
 
-CO~2~e emissions are not completely accounted for; as technology improves, measurements become more accurate. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
-
-"The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
+Emissions production is highly unequal. "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
 CO~2~e emissions by region (per year).
 
@@ -125,8 +120,6 @@ While most countries have not reached their Nationally Determined Contributions,
 : Climate Action Tracker's country comparison of the 10 top polluters' climate action.
 
 -   [@fransenStateNationallyDetermined2022] notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
-
-### Pricing Climate Change and Trading CO~2e~ Emissions
 
 -   CO~2e~ assigning a monetary value to carbon emissions.
 
@@ -246,31 +239,19 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 : Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
 
-### Social Cost of CO~2~
+### Consumerism \> Earth's Boundaries
 
-Social Cost of Carbon Measures Compound CO~2~ Impact.
-
-Sustainability is filled with complexities, where CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
-
--   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
-
--   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
-
--   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
-
-### Consumerism
-
-Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. While population growth puts higher pressure on Earth's resources, some researchers propose the effect is more from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012] while others such as [@cafaroOverpopulationMajorCause2022] believe *"Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left"* .
+Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. While population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012] while others such as [@cafaroOverpopulationMajorCause2022] believe *"Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left"* .
 
 Environmental risks from human activities are known as Anthropogenic Threat Complexes (ATCs) [@bowlerMappingHumanPressures2020]*.*
 
-[@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change.
+-   @jacksonProsperityGrowthFoundations2017 limits to growth update
 
-Consumer lifestyle - overconsumption - is one of the main drivers of climate change and environmental destruction. "2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita" [@reneechoHowBuyingStuff2020; @ivanovaQuantifyingPotentialClimate2020]. According to [@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019]'s models 45% of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume.
+Consumer lifestyle - overconsumption - is one of the main drivers of climate change and environmental destruction. "2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita" [@reneechoHowBuyingStuff2020; @ivanovaQuantifyingPotentialClimate2020]. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% including impact of climate change. According to [@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019]'s models 45% of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume.
 
-Overconsumption is also one of the root causes of plastic pollution. [@FORD2022150392] and [@laversFarDistractionPlastic2022] find strong links between climate change and marine plastic pollution "along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution". [@laversFarDistractionPlastic2022] plastic pollution is pervasive around the Earth and is fundamentally linked to climate change
+Overconsumption is also one of the root causes of plastic pollution. [@FORD2022150392] and [@laversFarDistractionPlastic2022] find strong links between climate change and marine plastic pollution *"along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution"*. [@laversFarDistractionPlastic2022] plastic pollution is pervasive around the Earth and is fundamentally linked to climate change.
 
-A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. @deyangeorgievGenStatisticsWhat2023 reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+A large scale study by @anthonyleiserowitzInternationalPublicOpinion2022 on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 |           |       |                     |
 |-----------|-------|---------------------|
@@ -299,11 +280,7 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 
 : Daily human activities emission contribution on average in France, Germany, Norway and Sweden from @mobergMobilityFoodHousing2019.
 
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
-
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
-
-### Earth's Boundaries
 
 In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
 
@@ -328,13 +305,13 @@ Atmospheric aerosol loading and the biodiversity intactness index (BII) were qua
 ```
 In 1948, the International Union for Conservation of Nature (IUCN) was founded, which in
 
-LULUCF "Land Use, Land-Use Change, and Forestry" can be a source of greenhouse gas emissions or a carbon sink (removing CO2 from the atmosphere).
+LULUCF "Land Use, Land-Use Change, and Forestry" can both be a source of greenhouse gas emissions - or a carbon sink (removing CO2 from the atmosphere).
 
 As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth.
 
-### Planetary Health
+### Earth System Law, Planetary Health, and Social Cost of CO~2~
 
-Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. *Planetary Health* and E*arth System Law* are 2 approaches to address the complex interdependence of humans with our physical environment.
+Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. *Planetary Health* and *Earth System Law* are 2 approaches to address the complex interdependence of humans with our physical environment.
 
 Evolving Measurements from Planetary Boundaries to Planetary Health
 
@@ -346,21 +323,29 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 
 Earth system science
 
-## *Measuring* Earth's Biosphere
+Social Cost of Carbon Measures Compound CO~2~ Impact.
+
+Sustainability is filled with complexities. Fo where CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+
+-   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
+
+-   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
+
+-   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
+
+## Biosphere
 
 [@dinersteinEcoregionBasedApproachProtecting2017] identifies 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms, making up Earth's biosphere.
 
-### Ecological Indicators
+## Ecological Indicators
 
--   Ecological Indicators (I like the name Ecomarkers) for Earth are like *Biomarkers* in human health. Sustainability can be measured using a variety of ***ecological indicators***.
--   ***Environmental DNA*** (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. [@ogramExtractionPurificationMicrobial1987] describes isolating cellular DNA from various sediment types.
--   Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
--   AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
--   Svalbard Seed Vault
+Ecological Indicators (I like the name Ecomarkers) for Earth are like *Biomarkers* in human health. Sustainability can be measured using a variety of ***ecological indicators***.
+
+Many technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023]. *Environmental DNA* (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
+
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
--   @jacksonProsperityGrowthFoundations2017 limits to growth update
 
-### Ecosystem Services
+## Ecosystem Services
 
 *Ecosystem services measure the benefits humans receive from the biosphere.* Put most simply, *ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
 
@@ -516,7 +501,11 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 -   EJAtlas tracks environmental justice cases around the world [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
 -   Disputes in @eerolaCorporateConductCommodity2022.
 
-## Regenerative Action
+## Sustainable Action
+
+-   Ecologist Garrett Hardin described the concept of Tragedy of the commons in 1968, which relates how a public resource is over-used until breaking down as each user only bears a fraction of the cost: [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+
+Regenerative Action
 
 There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
 
@@ -531,6 +520,12 @@ The UN announced 2021-2030 the Decade on Ecosystem Restoration [@fischerMakingDe
 Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) [@rubaPotentialityHomesteadAgroforestry2023];
 
 -   Food forests for regenerative food systems.
+
+<!-- -->
+
+-   Svalbard Seed Vault
+
+<!-- -->
 
 -   @irwinIncreasingTreeCover2023
 
@@ -652,6 +647,8 @@ Many companies are developing technologies for mitigation.
 ### Political Action
 
 In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
+
+-   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
 
 Politics matters in sustainability.
 
