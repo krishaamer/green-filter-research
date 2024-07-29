@@ -3,7 +3,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Green Filter",
+  title: "綠濾",
   tagline: "Shop, Save, and Invest Sustainably",
   url: "https://www.greenfilter.app/",
   baseUrl: "/",
