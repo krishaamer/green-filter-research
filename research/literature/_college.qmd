@@ -5,7 +5,7 @@ import ResQClub from '../images/resq-club.png'
 ```
 # College Students
 
-## Student Protests Around the World
+## Student Protests Around the World and The Attitude-Behavior Gap
 
 In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her *Fridays for Future* protests. Time magazine named Thunberg person of the year for *creating a global attitudinal shift* [@deutschewelleFridaysFutureGlobal2019].
 
@@ -17,20 +17,59 @@ In August 2018, Swedish high-school student Greta Thunberg skipped class to star
   refTitle="Wikimedia Commons"
 />
 ```
-## College Students in Taiwan
+-   [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
+-   @munroSustainableAttitudebehaviorGap2023 shoppers trying to shop sustainably often fail to find sustainable products.
+-   @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition.
+-   @wareGreenSkillsGap2024 British workers lack skills for green transition. (2024 National Environmental Services Survey)
+
+## Taiwanese Education System and Policy Environment
 
 Taiwan has X young adults and Y percent of them are students.
 
-[@changExploringDialogicEducation2023] argues Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be ***teacher-centered***, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit ***dialogue-based*** education, where students would be encouraged to take a more active role and gain ownership of their education.
+Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023]. Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023]. In general, teachers have a positive attitude towards sustainability. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015]. Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
-Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023].
+When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n=596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n=328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006].
+
+I found less research on the university level. [@chenMarineEnvironmentalAwareness2016] reports a *positive attitude yet moderate knowledge* about *ocean sustainability* among Taiwanese college students (n=825). [@liuDigitalCapabilityDigital2023] studied sustainability behavior of Taiwanese University students, reporting the COVID-19 pandemic, in addition to prevalence of health issues, also spurred more attention on environmental topics. In a similar vein, the devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education [@TiChuTan2011].
+
+Comparing university students' education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583); Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform [@berglundCrossculturalComparativeStudy2020].
 
 -   The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before.
 -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).
+-   I was unable to find similar research on university and post-graduate level students in Taiwan.
+-   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].
+-   College students in tourism and related fields . and sustainability
+-   Consumers may be turned off by mentioning AI in product description. @cicekAdverseImpactsRevealing2024
 
-## Taiwanese Companies
+## Climate Change Effect on Taiwan
 
-TIME Magazine and Statista collaborative "World’s Most Sustainable Companies Of 2024" includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
+Taiwan has been affected by drought over 4 decades, rising temperatures and altered rainfall patterns, impacting water security and semiconductor manufacturing​[@voFourdecadeSpringDroughts2024]. Corals surrounding Taiwan are affected by marine heatwaves, ocean acidification and increased sea surface temperature affects coral bleaching level [@hsuInvestigationKuroshiocoastalCurrent2024]. Biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021]. Taiwan is affected by Kuroshio (黑潮) like Estonia is affected by the Gulf Stream. Both oceanic currents help regulate the climates of their respective regions and marine ecosystems. Kuroshio is a warm current of the Pacific Ocean. Rossby planetary waves driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Around 33% of Taiwanese CO2e emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
+
+## Sustainability Tools in the Taiwanese Context
+
+Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
+
+The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: "garbage island", for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+
+Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
+
+-   Progress in other areas of environmental protection has not made similar progress.
+
+-   There are documentaries about oil product
+
+-   Plastic production documentary
+
+-   I've seen several.. find and cite them to show the progression of the environmental movement in Taiwan ADD CITATION
+
+-   The Taiwanese Green party
+
+-   Contact SOAS?
+
+## Taiwanese Companies and Online Shopping
+
+Between 1970 and 2019 CO2 was a prerequisite of economic growth in Taiwan (check this again) [@changRevisitingEconomicGrowth2023]. Taiwan is a net CO2 exporter since 1990s through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020].
+
+TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies Of 2024"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
 
 | **Rank** | **Company**               | **Score** |
 |---------:|:--------------------------|----------:|
@@ -54,52 +93,7 @@ TIME Magazine and Statista collaborative "World’s Most Sustainable Companies O
 
 : Data from [@alanasemuelsWorldMostSustainable2024].
 
-## Attitude-Behavior Gap
-
--   @parkExploringAttitudeBehavior2020 positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea.
--   @munroSustainableAttitudebehaviorGap2023 shopper trying to shop sustainably often fail to find sustainable products.
--   @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition.
--   @wareGreenSkillsGap2024 british workers lack skills for green transition. (2024 National Environmental Services Survey)
-
-## Online Shopping
-
--   @momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership.
-
-### Teachers
-
--   Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022]. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015].
-
-### Policy Environment
-
--   In Portugal, Estonia, and elsewhere young people are suing companies for eco-problems: @florIstoNaoAcaba2024
-
--   Comparing university students' education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583); Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform @berglundCrossculturalComparativeStudy2020.
-
--   The En-ROADS climate change solutions simulator [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023].
-
--   “Research shows that showing people research doesn’t work,” John Sterman https://www.climateinteractive.org/lead-an-even
-
--   https://en-roads.climateinteractive.org/scenario.html?v=24.4.0
-
-<!-- -->
-
--   Several Taiwanese studies focus on the physical environment of school campuses, for example the sustainability of **elementary school campuses** [@YanJiu2006].
-
--   The devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education [@TiChuTan2011].
-
-### Students
-
--   [@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among **junior high school students** in Da-an District, Taipei City (n=596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior **high school students** towards in Taipei City (n=328). [@chenMarineEnvironmentalAwareness2016] reports a ***positive attitude yet moderate knowledge*** about *ocean sustainability* among Taiwanese **college students** (n=825).
-
--   [@liuDigitalCapabilityDigital2023] studied sustainability behavior of Taiwanese University students reporting the COVID-19 pandemic also brought more attention on environmental topics .
-
--   When it comes to learning about environmental issues at the pre-university level, Taiwanese government has been promoting green schools through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017].
-
--   I was unable to find similar research on university and post-graduate level students in Taiwan.
-
--   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].
-
--   College students in tourism and related fields . and sustainability
+-   In Online Shopping, [@momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership].
 
 ### Global Data
 
@@ -115,27 +109,15 @@ TIME Magazine and Statista collaborative "World’s Most Sustainable Companies O
 
 : From millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
-### Sustainability Tools in the Taiwanese Context
+-   In Portugal, Estonia, and elsewhere young people are suing companies for eco-problems: @florIstoNaoAcaba2024
 
-Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
+-   The En-ROADS climate change solutions simulator [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023].
 
-The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: "garbage island", for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+-   “Research shows that showing people research doesn’t work,” John Sterman https://www.climateinteractive.org/lead-an-even
 
-Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
+-   https://en-roads.climateinteractive.org/scenario.html?v=24.4.0
 
--   Progress in other areas of environmental protection has not made similar progress.
-
--   There are documentaries about oil product
-
--   Plastic production documentary
-
--   I've seen several.. find and cite them to show the progression of the environmental movement in Taiwan ADD CITATION
-
--   The Taiwanese Green party
-
--   Contact SOAS?
-
-### Developing Personas
+## Developing Personas
 
 User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
 
@@ -189,12 +171,6 @@ A large worldwide study (n=10000, age 16-25) by [@hickmanClimateAnxietyChildren2
 
 -   Older research on young adults (Millenials at the time) highlights how Millenials "use Google as a reference point for ease of use and simplicity" [@katemoranDesigningYoungAdults2016].
 
-### Embodied Carbon
-
--   "embodied carbon"
--   Carbon Neutral Cities Alliance
--   @buildersforclimateactionMakingRealZero2021
-
 ### Community
 
 Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
@@ -204,8 +180,6 @@ Humans working together are able to achieve more than single individuals. "Any c
 The focus on *group consciousness* suggests community-based sustainability action may be effective.
 
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
-
--   In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021].
 
@@ -217,11 +191,7 @@ What are the building blocks of a thriving community?
 
 -   I would like to have an AI agent to set my requirements and preferences and give a "fuck you" middle finger to companies that don't meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
 
-### Trust
-
--   plap
-
-### Trends
+### Trends and Memes
 
 -   2024 "underconsumption" and "deinfluencing" trends on TikTok.
 
@@ -232,8 +202,6 @@ What are the building blocks of a thriving community?
 -   <https://www.tiktok.com/tag/deinfluencing>
 
 -   <https://www.tiktok.com/tag/underconsumption>
-
-### Memes
 
 -   Coined by Richard Dawkins in 1976 in the context of biology.
 

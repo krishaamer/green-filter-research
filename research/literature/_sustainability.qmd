@@ -21,8 +21,15 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 
 ## Measuring, Modeling, and Visualizing Earth's Climate
 
-Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt***,*** the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
+Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
+::: {.content-hidden unless-format="pdf"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="60%"}
+:::
+
+```{=mdx}
+<Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
+```
 While the scientific case for human-induced climate change was building, it took 120 years after Arrhenius' calculations, until the Paris Climate Agreement in 2016, that countries came to an agreement on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels (defined as 1850–1900)[@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
@@ -39,15 +46,8 @@ While the scientific case for human-induced climate change was building, it took
 ```
 The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020].
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. Global warming may lead to the slowing down and complete stop of the Atlantic meridional overturning circulation (AMOC) which helps maintain climate stability [@ditlevsenWarningForthcomingCollapse2023].
 
-::: {.content-hidden unless-format="pdf"}
-![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="60%"}
-:::
-
-```{=mdx}
-<Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
-```
 The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called Digital Twins. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
 ### Pricing and Trading CO~2~e Emissions
@@ -311,7 +311,7 @@ As long as humanity is a mono-planetary species, we have to come to terms with t
 
 ### Earth System Law, Planetary Health, and Social Cost of CO~2~
 
-Cross-disciplinary scientists have been working on integrating Earth systems into cohesive frameworks. *Planetary Health* and *Earth System Law* are 2 approaches to address the complex interdependence of humans with our physical environment.
+Cross-disciplinary scientists have been working on integrating Earth systems and human society into cohesive frameworks. *Planetary Health*, *Earth System Law, and* Social Cost of Carbon are 3 approaches to address the complex interdependence of humans with our physical environment.
 
 Evolving Measurements from Planetary Boundaries to Planetary Health
 
@@ -325,7 +325,7 @@ Earth system science
 
 Social Cost of Carbon Measures Compound CO~2~ Impact.
 
-Sustainability is filled with complexities. Fo where CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+Sustainability is filled with complexities. CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
 -   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
 
@@ -469,6 +469,7 @@ Clean air is a requirement.
 -   Bioswales help catch storm debris and reduce water pollution.
 -   Clean water and water pollution
 -   @kochOpinionArizonaRace2022 (**Need access! NYC times)**
+-   Paris cleans Seine river for Paris Olympics
 
 **Soil Pollution**
 

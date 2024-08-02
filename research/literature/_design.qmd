@@ -13,6 +13,8 @@ import Strava from '../images/strava.png'
 
 ...for Sustainable Products
 
+Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024].
+
 How can design enable/help/encourage sustainability?
 
 Transformatiion towards Eco-design has strong political support from the European Union. @europeanparliamentEcodesignSustainableProducts2022 proposal "On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only." Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" @europeancommissionGreenDealNew2022
@@ -36,10 +38,6 @@ Climate-Reponsive Design embeds a building within the environmental constraints 
 -   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
 
 Regenerative design suggests de-materializing (digitizing) economies is not enough and design should look for avenues to regenerate damaged or destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
-
-### Data-Driven Design Enables Sustainability
-
-Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
 ### Biomimicry and Biodesign
 
@@ -66,7 +64,7 @@ MIT is a source of many fantastic innovations.
 -   AI has the potential to provide the parameters for sustainability. @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
 -   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
 
-### Designing Interfaces for Sustainable Interactions
+### Designing UIs for Sustainable Interactions
 
 Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
@@ -89,31 +87,19 @@ Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] of
 -   @borthwickHumancentredLifecentredDesign2022
 -   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
 
-## Data-Driven Design
+## Data-Driven Design Enables Sustainability
 
-### Platform Economy Companies Popularise Data-Driven Design
+Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
-**Capturing User Data**
+### Platform Economy
 
-As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data.
+Platform Economy Companies Popularise Data-Driven Design. Capturing User Data. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.**
 
 Making *anything* consumes natural resources, which are limited on planet Earth.
 
 There are many approaches to design - from playful to practical to critical and to data-driven. Nonetheless, many types of design share a common goal designing for a good *user experience*. Simplifying.
 
-Platform economy companies capture large amounts of data from users.
-
-Data is useful for designing better products.
-
-Designing for high retention (users keep coming back).
-
-*Network Effects,* the more people use a platform, the more valuable it becomes.
-
 *Platform economy* marketplace companies like Airbnb, Uber among many others match optimize how our cities work.
-
-Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs.
-
-Superapps are possible thanks to **Nudge, Economies of Scale, Network Effects, Behaviour Design.**
 
 Personalization at scale: the largest businesses today (measured in number of users) design the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) at the scale of hundreds of billions of users.
 
@@ -121,7 +107,7 @@ Superapps are honeypots of data that is used for many types of behavior modeling
 
 | Enablers of Platform Economics | Pros | Cons |
 |--------------------|--------------------------|--------------------------|
-| Network effects | The more people use a platform, the more valuable it becomes. | Data is not portable. You can't leave because you'll lose the audience. |
+| Network effects | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
 | Scalability |  |  |
 | Data-driven Design |  |  |
 | Behaviour Design |  |  |
@@ -158,7 +144,9 @@ Could there be Sustainability Superapps?
 
 -   Adaptive AI
 
-### Data-Driven Design Enables Generative User Interfaces
+### **Generative User Interfaces (GenUI)**
+
+Data-Driven Design Enables Generative User Interfaces
 
 There are many partially overlapping design terms created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word.
 
@@ -224,7 +212,7 @@ Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to 
 
 -   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
 
-### Speculative Design
+**Speculative Design**
 
 Speculative design makes use of future scenarios to envision contexts and interactions in future use. The term ***speculative design*** was invented by @dunneSpeculativeEverythingDesign2013 in their seminal book to question the intersection of user experience design and speculative fiction. For example @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
 
@@ -235,6 +223,10 @@ The cost of speculative design makes it into a niche activity yet Generative AI 
 The same is true for Participatory Design. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders.
 
 ### Quantified Self
+
+Research on ***quantified self*** is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020].
+
+Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity.
 
 Example of quantified self device. My personal air pollution exposure tracked using the Atmotube device attached to my backpack.
 
@@ -251,10 +243,6 @@ Example of quantified self device. My personal air pollution exposure tracked us
 -   EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub".
 
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
-
-Research on ***quantified self*** is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020].
-
-Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity.
 
 Apple is a leader in health tracking. In 2022 Apple outlined plans for ***"empowering people to live a healthier day"*** and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as ***behavioral constructs***.
 
@@ -378,7 +366,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
-### Narrative Design
+**Narrative Design**
 
 -   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
 
@@ -388,7 +376,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 -   Stories start with a character.
 
-### Behavioral Design
+### Behavioral Design and Gamification
 
 For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
@@ -445,26 +433,35 @@ Some notable examples:
 : Types of nudge by @WEE2021100364
 
 -   @bainPromotingProenvironmentalAction2012 "Promoting pro-environmental action in climate change deniers" **(Need access!)**
--   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!, ncku doesn't subscribe)**
--   @schuitemaAcceptabilityEnvironmentalPolicies2018 "Acceptability of Environmental Policies" **(Need access!)**
--   @nilssonRoadAcceptanceAttitude2016 "The road to acceptance: Attitude change before and after the implementation of a congestion tax" **(Need access!)**
--   @BERGER2022134716 **(Need access!)**
--   @SupportCleanEnergy2022
--   @UNCTADWorldInvestmentReport2023
--   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission calculations
--   @earthcheckEarthCheckGoodBusiness2023 sustainable tourism certification
--   @lfcaLeadersClimateAction2023 corporate climate action
--   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
--   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
-### Gamification
+-   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!, ncku doesn't subscribe)**
+
+-   @schuitemaAcceptabilityEnvironmentalPolicies2018 "Acceptability of Environmental Policies" **(Need access!)**
+
+-   @nilssonRoadAcceptanceAttitude2016 "The road to acceptance: Attitude change before and after the implementation of a congestion tax" **(Need access!)**
+
+-   @BERGER2022134716 **(Need access!)**
+
+-   @SupportCleanEnergy2022
+
+-   @UNCTADWorldInvestmentReport2023
+
+-   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission calculations
+
+-   @earthcheckEarthCheckGoodBusiness2023 sustainable tourism certification
+
+-   @lfcaLeadersClimateAction2023 corporate climate action
+
+-   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
+
+-   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
 -   Gamification makes uses of nudges.
 
-<!-- -->
-
 -   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
+
 -   @SpaceApeGames game company going green
+
 -   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
 | Year | Users       | Trees       | Area                                 |
@@ -502,21 +499,19 @@ plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch
 plt.show()
 ```
 
-### Generative UIs
-
-...
-
 ## Re-Designing Industries
 
--   Industrial revolution: : "transition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions" [@pearsonLowCarbonIndustrial2012].
--   6th industrial revolution @chourasiaSustainabilityIndustryGlobal2022
--   7th industrial revolution by 2050 @ruizestradaSeventhIndustrialRevolution2024
+We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 2 industries that are relevant for college students.
+
+Food, clothes, housing and transport are part of the immediate environmental impact of college students.
+
+-   5th industrial revolution, advanced robotics
+-   6th industrial revolution, quantum computing, nanotechnology @chourasiaSustainabilityIndustryGlobal2022
+-   7th industrial revolution futurists are looking at current trends and building scenarios for 2050 envisioning a world where the convergence of bio-based and mineral-based technologies, widespread sustainability and energy-abundance [@ruizestradaSeventhIndustrialRevolution2024].
 
 ...for Provenance and Traceability
 
-It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 2 industries that are relevant for college students.
-
-### Fashion
+### Clothes
 
 Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year.
 
@@ -615,6 +610,14 @@ Across industries, reports are saying there isn't enough transparency.
 -   @GoodYouSustainable2023 Ethical brand ratings
 
 ### Food
+
+Re-designing industrial food systems for an increasing global population is a challenge.
+
+**Fishing**
+
+-   75% of fishing is done using industrial Trawling, which has environmental impact
+
+-   Illegal, unreported and unregulated fishing (IIU) fishing is widespread and the EU is adopting countermeasures @kimEconomicImpactsEuropean2024
 
 **Perennial Crops**
 
@@ -737,13 +740,25 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   Only make what is ordered.
 
-### Construction
+### Housing
+
+Many students live in dorms and shared housing, their impact per square meter is low.
 
 -   According to @debnathSocialMediaEnables2022 39% of global CO~2~ emissions comes from the building sector.
 -   Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
 -   embodied carbon
 -   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
 -   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
+-   Embodied Carbon
+    -   "embodied carbon"
+    -   Carbon Neutral Cities Alliance
+    -   @buildersforclimateactionMakingRealZero2021
+
+### Transport
+
+Students ride bicycles and scooters.
+
+Many circular economy service such as YouBike and transport sharing platforms like Uber are available.
 
 ### Circular Economy
 
@@ -802,7 +817,7 @@ Products are made from resources distributed across the planet and transported t
 
 -   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
-### Ethics & Cruelty
+**Ethics & Cruelty**
 
 Can data transparency provide tools for reducing cruelty.
 
