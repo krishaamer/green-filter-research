@@ -192,7 +192,7 @@ What is the user interface of the green transformation?
 
 @mckeoughMcKinseyDesignLaunches2018 business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
 
-There's a number of user interface design patterns that have provide successful across a range of social media apps. Such ***user experience / user interface*** (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
+There's a number of user interface design patterns that have provide successful across a range of social media apps. Such *user experience / user interface* (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
 
 | Feature   | Examples                           |     |
 |-----------|------------------------------------|-----|
@@ -214,9 +214,7 @@ Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to 
 
 **Speculative Design**
 
-Speculative design makes use of future scenarios to envision contexts and interactions in future use. The term ***speculative design*** was invented by @dunneSpeculativeEverythingDesign2013 in their seminal book to question the intersection of user experience design and speculative fiction. For example @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer.
-
-Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a **magic device** (a term from participatory design), which then inspired subsequent consumer product development. It took another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years. Imagination is crucial for change [@googledesignDesignSpeculativeFutures2019].
+Speculative design makes use of future scenarios to envision contexts and interactions in future use. The term ***speculative design*** was invented by @dunneSpeculativeEverythingDesign2013 in their seminal book to question the intersection of user experience design and speculative fiction. For example @BARENDREGT2021374 explores the potential of speculative design to stimulate public engagement through thought experiments that spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. One of his examples, the Apple Knowledge Navigator, from an Apple vision video in 1987, took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a **magic device** (a term from participatory design), which then inspired subsequent consumer product development. It took another 2 decades, until the launch of the iPhone in 2007 - a total of 40 years. Imagination is crucial for change [@googledesignDesignSpeculativeFutures2019].
 
 The cost of speculative design makes it into a niche activity yet Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future.
 
@@ -244,7 +242,7 @@ Example of quantified self device. My personal air pollution exposure tracked us
 
 -   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 
-Apple is a leader in health tracking. In 2022 Apple outlined plans for ***"empowering people to live a healthier day"*** and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as ***behavioral constructs***.
+Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
 
 -   Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]..
 
@@ -866,21 +864,20 @@ Data-driven design requires access to data, making the movement towards *open da
 
 ### Digital Product Passports
 
-CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product.
+CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label \[@zhouCarbonLabelsHorizontal2019\]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. \[@cohenPotentialRoleCarbon2012\] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
-Using Carbon Labels to Communicate CO~2~
+Labels alone are not enough. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
 
-Adding CO~2~ labels for consumer products have been discussed for decades [@adamcornerWhyWeNeed2012]. @cohenPotentialRoleCarbon2012 argues carbon labels do influence consumer choice towards sustainability. Academic literature has looked at even minute detail such as color and positioning of the label (@zhouCarbonLabelsHorizontal2019). There is some indication consumers are willing to pay a small premium for low-CO~2~ products (@xuLowcarbonEconomyCarbon2022). All else being equal, consumers choose the option with a lower CO~2~ number (@carlssonSustainableFoodCan2022). Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
+however several studies show their effect is negligible. Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
 
-There's some evidence to suggest labeling low CO~2~ food enables people to choose a *climatarian diet* in a large-scale study @lohmannCarbonFootprintLabels2022 of UK university students, however the impact of carbon labels on the market share of low-carbon meals is negligible. Labels alone are not enough. underlines @edenbrandtConsumerPerceptionsAttitudes2022 in Sweden in a study which found a negative correlation between worrying about climate impact and interest in climate information on products; this finding may be interpreted suggesting a need for wider environmental education programs. @asioliConsumersValuationCultured2022 found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
-
-Carbon labeling is voluntary and practiced by only a handful of companies. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* are some example of companies that provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
+Carbon labeling is voluntary. Only a handful of companies practice carbon-labeling but the number is growing. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* are some example of companies that provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
 
 | Company    | Country |
 |------------|---------|
 | Just Salad | U.S.A.  |
 | Quorn      | U.K.    |
 | Oatly      | U.K.    |
+| IKEA       | Sweden  |
 
 : Companies with Carbon Labels [@briankatemanCarbonLabelsAre2020]
 
@@ -906,7 +903,7 @@ Carbon labeling is voluntary and practiced by only a handful of companies. The U
 
 Transitioning from simpler Carbon Labels to data-driven Digital Product Passports requires comprehensive data collection, digital infrastructure, industry collaboration, regulatory frameworks and consumer engagement.
 
--   Circularise introduced an early blockchain-based sustainability system in 2016 aiming to improve transparency across several industries and is currently the market leader in providing *Digital Product Passports* @strettonDigitalProductPassports2022 "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time" "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
+-   Circularise introduced an early blockchain-based sustainability system in 2016 aiming to improve transparency across several industries and is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022] "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
 -   product's history, composition, and environmental impact.
 
 | Goal | Description |
