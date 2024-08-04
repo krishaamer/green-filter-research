@@ -3,7 +3,7 @@ import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
-# *Sustainable* Finance
+# Sustainable Finance
 
 ## The Journey
 
@@ -76,7 +76,7 @@ The lack of funding in green energy especially affects emerging economies [@Mobi
 
     -- "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
 
-### Adopting New Metrics and Decoupling Economic Growth from CO2 Emissions
+### Adopting New Metrics
 
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called ***New Economics.*** Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
@@ -91,6 +91,8 @@ We should measure wellbeing in addition to GDP and the metric should including r
 ***Ecological economics*** is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
 
 -   Sacred Economics is use as-is as a framework and visualization tool.
+
+### Decoupling Economic Growth from CO2 Emissions
 
 New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
@@ -108,10 +110,7 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 -   Securitization
 
-
 -   Bank inside of Whatsapp for the underbanked gig workers in Latin America: https://www.kontigo.lat/
-
-<!-- -->
 
 -   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
 
@@ -220,6 +219,7 @@ metrics and goals: ESG, SDGs,
 
 ### Payments are an Entry Point and Source of Consumer Action Data
 
+-   From Payments to Investing
 -   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 -   Payments is the primary way consumers use money.
 -   Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, "every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices" [@fotheringhamHowCreateGreener2017].
@@ -661,30 +661,6 @@ Make use of indexes to compare companies.
 
 Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to a strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
 
-### Individual Climate Action is Ineffective
-
--   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
-
--   **Give Gen-Z the tools to turn climate anger into positive change to transform companies**
-
--   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
-
--   @hymanShoppingChangeConsumer2017
-
--   @brantleyBrewingBoycottHow2021
-
--   Contact Kalle Lasn, Culture Jam
-
--   "ESG Accessibility", Large-scale accessibility to ESG,
-
--   increase ESG accessibility
-
--   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
-
--   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
-
-### From Payments to Investing
-
 ### Personalized Investing
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
@@ -699,13 +675,17 @@ Building customer loyalty is a key part of repeat business and financial predict
 
 -   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-## Saving and Investing
+## Saving
 
 Saving Precedes Investing
 
 There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
 
 -   Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action.
+
+-   College students might not have a pension fund yet.
+
+## Investing
 
 -   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
 
