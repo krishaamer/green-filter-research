@@ -15,11 +15,9 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 ```
 # Sustainability
 
-## Defining "Sustainability"
+***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital* - the principal of a natural resource, such as in fishing and forestry shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
-
-## Measuring, Modeling, and Visualizing Earth's Climate
+## Measuring and Visualizing Earth's Climate
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
@@ -50,9 +48,21 @@ Earth's physical systems are very sensitive to small changes in temperature, whi
 
 The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called Digital Twins. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
+### Biosphere and Ecological Indicators
+
+Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
+
+Ecological Indicators (I like the name Ecomarkers) for Earth are like *Biomarkers* in human health. Sustainability can be measured using a variety of ***ecological indicators***.
+
+Many technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023]. *Environmental DNA* (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
+
+-   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
+
 ### Pricing and Trading CO~2~e Emissions
 
 While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
+
+-   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
 
 Emissions production is highly unequal. "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
@@ -333,18 +343,6 @@ Sustainability is filled with complexities. CO~2~ emissions are complicated by b
 
 -   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
 
-## Biosphere
-
-[@dinersteinEcoregionBasedApproachProtecting2017] identifies 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms, making up Earth's biosphere.
-
-## Ecological Indicators
-
-Ecological Indicators (I like the name Ecomarkers) for Earth are like *Biomarkers* in human health. Sustainability can be measured using a variety of ***ecological indicators***.
-
-Many technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023]. *Environmental DNA* (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
-
--   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
-
 ## Ecosystem Services
 
 *Ecosystem services measure the benefits humans receive from the biosphere.* Put most simply, *ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
@@ -504,7 +502,7 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 
 ## Sustainable Action
 
--   Ecologist Garrett Hardin described the concept of Tragedy of the commons in 1968, which relates how a public resource is over-used until breaking down as each user only bears a fraction of the cost: [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+-   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* -was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
 
 Regenerative Action
 
@@ -521,91 +519,14 @@ The UN announced 2021-2030 the Decade on Ecosystem Restoration [@fischerMakingDe
 Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) [@rubaPotentialityHomesteadAgroforestry2023];
 
 -   Food forests for regenerative food systems.
-
-<!-- -->
-
 -   Svalbard Seed Vault
-
-<!-- -->
-
 -   @irwinIncreasingTreeCover2023
-
 -   @yadavExploringInnovationSustainable2023
-
 -   @lowMixedFarmingAgroforestry2023
-
 -   @ollinahoSeparatingTwoFaces2023 "bioeconomy is not inherently sustainable and may pose considerable risks to biodiversity."
-
 -   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
-
 -   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
-
 -   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
-
-### Circular Economy and Extended Producer Responsibility
-
-Encouraging Sustainable Design and Reducing Waste.
-
-[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
-Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
-
--   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
-
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
-
--   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
-
--   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for ***"Emotionally Durable Design"***, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. @roseEnchantedObjectsInnovation2015 has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away.
-
--   Growing public understanding of how nature works and intersects with our use of money.
-
--   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
-
--   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
-
--   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
-
--   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
-
--   EIT RawMaterials
-
-Extended Producer Responsibility Enables Companies to be Resposible.
-
-Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join an textile-EPR scheme [@NewEPRRequirements2024].
-
-In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
-
--   The success of EPR can vary per type of product. For car tires, the EPR scheme in the Netherlands claims a 100% recovery rate @campbell-johnstonHowCircularYour2020.
-
-One type of legislation that works?
-
--   [@steenmansFosteringCircularEconomy2023] Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
-
--   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
-
-Return, Repair, Reuse
-
--   There's a growing number of companies providing re-use of existing items.
--   @SmartSwap For example, Swap furniture in Estonia
-
-Bring back your bottle and cup after use.
-
--   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
--   @formentiniDesignCircularDisassembly2023
--   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
--   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
--   @zeynepfalayvonflittnerFalayTransitionDesign
-
-Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
-
--   @ChallengesOpportunitiesSustainable2022
--   @ProteinBrandsConsumers2022
--   @DetailrichSustainablePackaging2010
--   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
--   @SulapacReplacingPlastic
 
 **Technology**
 
@@ -622,6 +543,8 @@ Each technology has their own pros and cons. [@vitilloRoleCarbonCapture2022] ill
 -   **Important: "creating sustainability trust in companies in realtime"**
 
 -   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
+
+### Political Action
 
 -   **10 countries use almost 100% renewable energy**
 
@@ -645,7 +568,7 @@ Warming global climate has concrete effects on daily life. Warmer climate helps 
 
 Many companies are developing technologies for mitigation.
 
-### Political Action
+
 
 In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
 

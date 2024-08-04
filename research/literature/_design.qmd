@@ -33,9 +33,13 @@ Because sustainability is so complex, sustainable design makes use of scenarios.
 
 -   High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
 
-Climate-Reponsive Design embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019].
+*Climate-Reponsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019].
 
 -   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
+
+influences UI design patterns @joyceRiseGenerativeAIdriven2024
+
+human-centered design Explain ISO9241-210, user experience, iteration
 
 Regenerative design suggests de-materializing (digitizing) economies is not enough and design should look for avenues to regenerate damaged or destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
@@ -45,26 +49,28 @@ Regenerative design suggests de-materializing (digitizing) economies is not enou
 -   Janine Benyus @benyusBiomimicryInnovationInspired2009
 -   @dicksBiomimicryRevolutionLearning2023
 
-MIT is a source of many fantastic innovations.
+Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations.
 
--   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020
+-   Neri Oxman, biomaterials MIT media lab, 15. sept. 2020.
 
--   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client".
+-   Neri Oxman's expressions: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client" remind me how language shapes human thinking.
 
 -   Use imagination
 
 -   Societal movements change things: implication for design: build a community
 
--   Processes sustain things: implication for design: built an app
+### AI Enables Design for Sustainability
 
-### AI-Assisted Design Enables Desiging for Sustainability
+AI-Assisted Design Enables Design for Sustainability
 
 @guptaAnalysisArtificialIntelligencebased2023 argues software is key to building more sustainable products, already for decades. More recently, companies like AutoDesk are putting CO~2~ calculations inside their design software.
 
 -   AI has the potential to provide the parameters for sustainability. @singhArtificialNeuralNetwork2023 proposes an AI tool for deciding the suitable life cycle design parameters.
 -   @SustainabilityStartsDesign: "Sustainability starts in the design process, and AI can help".
 
-### Designing UIs for Sustainable Interactions
+### Designing Sustainable Interactions
+
+Designing UIs for Sustainable Interactions
 
 Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
@@ -87,7 +93,9 @@ Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] of
 -   @borthwickHumancentredLifecentredDesign2022
 -   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
 
-## Data-Driven Design Enables Sustainability
+## Data-Driven Design
+
+Data-Driven Design Enables Sustainability
 
 Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
@@ -105,12 +113,17 @@ Personalization at scale: the largest businesses today (measured in number of us
 
 Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
 
-| Enablers of Platform Economics | Pros | Cons |
-|--------------------|--------------------------|--------------------------|
-| Network effects | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
-| Scalability |  |  |
-| Data-driven Design |  |  |
-| Behaviour Design |  |  |
++--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Enablers of Platform Economics | Pros                                                                                            | Cons                                                                                                                      |
++================================+=================================================================================================+===========================================================================================================================+
+| Network effects                | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
++--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Scalability                    |                                                                                                 |                                                                                                                           |
++--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Data-driven Design             |                                                                                                 |                                                                                                                           |
++--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Behaviour Design               |                                                                                                 |                                                                                                                           |
++--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
 
 -   Superapps are prevalent in China and South-East Asia.
 
@@ -143,6 +156,53 @@ Could there be Sustainability Superapps?
 -   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear ***Fordism*** through platform economy and logistics' revolution which allows for circular economies to happen in a city.
 
 -   Adaptive AI
+
+### Open Data
+
+-   Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]
+
+Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
+
+| Country | Project                  | Reference           |
+|---------|--------------------------|---------------------|
+| Sweden  | Swedish open data portal | @SverigesDataportal |
+|         |                          |                     |
+|         |                          |                     |
+
+: Examples of cities and countries that share data openly.
+
+-   When will Bolt show CO~2~ emissions per every trip?
+-   Sustainable finance data platform:
+-   @wikirateWebinarEnvisioningFinding2021 WikiRate defines Data Sharing Archetypes
+
++--------------------------------------+---------------------------------------------------------------+
+| Type                                 | Example                                                       |
++======================================+===============================================================+
+| Transparency Accountability Advocate |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Compliance Data Aggregator           |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Data Intelligence Hub                |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Worker Voice Tool                    | @caravanstudiosStrengthenYourWorker2022: **"Worker Connect"** |
++--------------------------------------+---------------------------------------------------------------+
+| Traceability tool                    | trustrace.com                                                 |
++--------------------------------------+---------------------------------------------------------------+
+| Open data platform                   |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Knowledge sharing platform           | business-humanrights.org                                      |
++--------------------------------------+---------------------------------------------------------------+
+
+-   WikiRate is a tool for checking green credentials Transparency
+-   @laureenvanbreenPanelScalingCorporate2023
+-   @wikirateIntroducingFacilityChecker2022
+-   @HomeChainReact
+
+<!-- -->
+
+-   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
+
+-   @HumanCenteredWeb32022 human-centered web3
 
 ### **Generative User Interfaces (GenUI)**
 
@@ -178,11 +238,15 @@ AI is able to predict what kind of UI would the user need right now, based on th
 
 -   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
 
++--------------------+---------------------------------------------------+
 | Problem            | Description                                       |
-|--------------------|---------------------------------------------------|
++====================+===================================================+
 | Low predictability | Does personalization mean the UI keeps changing?  |
++--------------------+---------------------------------------------------+
 | High carbon cost   | AI-based personalization is computation-intensive |
++--------------------+---------------------------------------------------+
 | Surveillance       | Personalization needs large-scale data capture    |
++--------------------+---------------------------------------------------+
 
 : Criticism of Generative UI by [@NielsenIdeasGenerative2024].
 
@@ -396,10 +460,13 @@ Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
 
 Wizzair Check carbon impact @OffsetYourFlight
 
-| Feature | Product | Nudge |
-|----------------------------------|-------------------|-------------------|
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps | Show routes with lower CO~2~ emissions |
-| Google Flights suggests flights with lower CO~2~ emissions | Google Flights | Show flights with lower CO~2~ emissions |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Feature                                                                                       | Product        | Nudge                                   |
++===============================================================================================+================+=========================================+
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions  |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
 
 : Examples of CO~2~ visibility in Google's products.
 
@@ -418,15 +485,23 @@ Some notable examples:
 -   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
 -   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
 
-| Name | Technique |
-|--------------------------|----------------------------------------------|
-| Prompting | Create cues and reminders to perform a certain behavior |
-| Sizing | Decrease or increase the size of items or portions |
-| Proximity | Change the physical (or temporal) distance of options |
-| Presentation | Change the way items are displayed |
-| Priming | Expose users to certain stimuli before decision-making |
-| Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
++-------------------+-------------------------------------------------------------------------------------------+
+| Name              | Technique                                                                                 |
++===================+===========================================================================================+
+| Prompting         | Create cues and reminders to perform a certain behavior                                   |
++-------------------+-------------------------------------------------------------------------------------------+
+| Sizing            | Decrease or increase the size of items or portions                                        |
++-------------------+-------------------------------------------------------------------------------------------+
+| Proximity         | Change the physical (or temporal) distance of options                                     |
++-------------------+-------------------------------------------------------------------------------------------+
+| Presentation      | Change the way items are displayed                                                        |
++-------------------+-------------------------------------------------------------------------------------------+
+| Priming           | Expose users to certain stimuli before decision-making                                    |
++-------------------+-------------------------------------------------------------------------------------------+
+| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                   |
++-------------------+-------------------------------------------------------------------------------------------+
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
++-------------------+-------------------------------------------------------------------------------------------+
 
 : Types of nudge by @WEE2021100364
 
@@ -462,17 +537,27 @@ Some notable examples:
 
 -   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
-| Year | Users       | Trees       | Area                                 |
-|------|-------------|-------------|--------------------------------------|
-| 2016 | ?           | 0           |                                      |
-| 2017 | 230 million | 10 million  |                                      |
-| 2018 | 350 million | 55 million  | 6500 acres??                         |
-| 2019 | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
-| 2020 | 550 million | 200 million | 2,7 million acres?                   |
-| 2021 | 600 million | 326 million |                                      |
-| 2022 | 650 million | 400 million | 2 million hectares                   |
-|      |             |             |                                      |
-|      |             |             |                                      |
++------------+-------------+-------------+--------------------------------------+
+| Year       | Users       | Trees       | Area                                 |
++============+=============+=============+======================================+
+| 2016       | ?           | 0           |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2017       | 230 million | 10 million  |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2018       | 350 million | 55 million  | 6500 acres??                         |
++------------+-------------+-------------+--------------------------------------+
+| 2019       | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
++------------+-------------+-------------+--------------------------------------+
+| 2020       | 550 million | 200 million | 2,7 million acres?                   |
++------------+-------------+-------------+--------------------------------------+
+| 2021       | 600 million | 326 million |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2022       | 650 million | 400 million | 2 million hectares                   |
++------------+-------------+-------------+--------------------------------------+
+|            |             |             |                                      |
++------------+-------------+-------------+--------------------------------------+
+|            |             |             |                                      |
++------------+-------------+-------------+--------------------------------------+
 
 : Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
 
@@ -501,7 +586,7 @@ plt.show()
 
 We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
-Food, clothes, housing and transport are part of the immediate environmental impact of college students.
+Food and clothes (I'm omitting housing and transport here) are part of the immediate environmental impact of college students.
 
 -   5th industrial revolution, advanced robotics
 -   6th industrial revolution, quantum computing, nanotechnology @chourasiaSustainabilityIndustryGlobal2022
@@ -609,7 +694,7 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 
 -   75% of fishing is done using industrial Trawling, which has environmental impact
 
--   Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures \[@kimEconomicImpactsEuropean2024\]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
+-   Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures [@kimEconomicImpactsEuropean2024]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 
 <!-- -->
 
@@ -651,9 +736,8 @@ Food is about enticing human imagination and taste buds.
 
 -   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[ADD CITATION\].
 
-<!-- -->
-
 -   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+
 -   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
 
 **Food Waste**
@@ -663,24 +747,35 @@ There are several initiatives to reduce food waste by helping people consume foo
 ```{=mdx}
 <Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
 ```
-| Name |   |
-|-----------------------------------|-------------------------------------|
-| Karma |  |
-| ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
-| Kuri | @hajejankampsKuriAppThat2022 Less impact of food |
-| Social media groups (no app) |  |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Name                         |                                                                                                                                                                                   |
++==============================+===================================================================================================================================================================================+
+| Karma                        |                                                                                                                                                                                   |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ResQ Club                    | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Kuri                         | @hajejankampsKuriAppThat2022 Less impact of food                                                                                                                                  |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Social media groups (no app) |                                                                                                                                                                                   |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Food saving apps
 
 -   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
 
-| Perspective | Content |
-|--------------------------|----------------------------------------------|
-| *"The diagnostic perspective"* | "*All hands on deck to fix the climate"* |
-| *"The regenerative perspective"* | "*Diversity, soil health and organic agriculture to the rescue"* |
-| *"The fossil-free perspective"* | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
-| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
-| "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
++-------------------------------------+---------------------------------------------------------------------------------------+
+| Perspective                         | Content                                                                               |
++=====================================+=======================================================================================+
+| *"The diagnostic perspective"*      | "*All hands on deck to fix the climate"*                                              |
++-------------------------------------+---------------------------------------------------------------------------------------+
+| *"The regenerative perspective"*    | "*Diversity, soil health and organic agriculture to the rescue"*                      |
++-------------------------------------+---------------------------------------------------------------------------------------+
+| *"The fossil-free perspective"*     | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
++-------------------------------------+---------------------------------------------------------------------------------------+
+| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"*                   |
++-------------------------------------+---------------------------------------------------------------------------------------+
+| "The hands-on perspective"          | "Tangible solutions within the reach of consumers and the food industry"              |
++-------------------------------------+---------------------------------------------------------------------------------------+
 
 : Perspective on food systems in Sweden.
 
@@ -700,31 +795,80 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   Only make what is ordered.
 
-### Housing
+## Circular Economy and Extended Producer Responsibility
 
-Many students live in dorms and shared housing, meaning their impact per square meter is low.
+Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
--   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
--   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
--   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
--   Embodied Carbon
-    -   "embodied carbon"
-    -   Carbon Neutral Cities Alliance
-    -   @buildersforclimateactionMakingRealZero2021
+Encouraging Sustainable Design and Reducing Waste.
 
-### Transport
+[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
-Students ride bicycles and scooters. Many circular economy service such as YouBike and transport sharing platforms like Uber are available.
+-   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
 
-### Circular Economy
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+
+-   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
+
+-   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for ***"Emotionally Durable Design"***, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. @roseEnchantedObjectsInnovation2015 has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away.
+
+-   Growing public understanding of how nature works and intersects with our use of money.
+
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
+
+-   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
+
+-   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
+
+-   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
+
+-   EIT RawMaterials
+
+Extended Producer Responsibility Enables Companies to be Resposible.
+
+Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join an textile-EPR scheme [@NewEPRRequirements2024].
+
+In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
+
+-   The success of EPR can vary per type of product. For car tires, the EPR scheme in the Netherlands claims a 100% recovery rate @campbell-johnstonHowCircularYour2020.
+
+One type of legislation that works?
+
+-   [@steenmansFosteringCircularEconomy2023] Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+
+-   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
+
+Return, Repair, Reuse
+
+-   There's a growing number of companies providing re-use of existing items.
+-   @SmartSwap For example, Swap furniture in Estonia
+
+Bring back your bottle and cup after use.
+
+-   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
+-   @formentiniDesignCircularDisassembly2023
+-   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
+-   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
+-   @zeynepfalayvonflittnerFalayTransitionDesign
+
+Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
+
+-   @ChallengesOpportunitiesSustainable2022
+-   @ProteinBrandsConsumers2022
+-   @DetailrichSustainablePackaging2010
+-   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
+-   @SulapacReplacingPlastic
+
+## Circular Design
 
 Circular design is only possible if supply chains become circular as well.
 
-It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteering a high level of data integrity, security, as well as energy usage of said data.
+It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data.
 
 The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic and resulting blockages in resource delivery highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021].
 
-Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsquent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
+Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
 
 There are several technologies for tracking goods across the supply chain, from shipping to client delivery. Data entry is a combination of manual data input and automated record-keeping facilitated by sensors and integrated internet of things (IoT) capabilities. For example [@ashrafPrototypeSupplyChain2023] describes using the Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability where Sigfox does not need direct access to internet but can send low powered messages across long distances (for example shipping containers on the ocean). [@vanwassenaerTokenizingCircularityAgrifood2023] compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain in agricultural products.
 
@@ -732,23 +876,42 @@ There are several technologies for tracking goods across the supply chain, from 
 
 -   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact Japanese factory?)
 
-| Company | Link | Literature | Comments |
-|------------------|------------------|-------------------|------------------|
-| Ocean Protocol | oceanprotocol.com |  |  |
-| Provenance | provenance.io |  |  |
-| Ambrosius | ambrosus.io |  |  |
-| Modum | modum.io |  |  |
-| OriginTrail | origintrail.io |  |  |
-| Everledger | everledger.io |  |  |
-| VeChain | vechain.org |  |  |
-| Wabi | wabi.io |  |  |
-| FairFood | fairfood.org |  |  |
-| Bext360 | bext360.com |  |  |
-| SUKU | suku.world | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Company        | Link              | Literature                                                                   | Comments                                      |
++================+===================+==============================================================================+===============================================+
+| Ocean Protocol | oceanprotocol.com |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Provenance     | provenance.io     |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Ambrosius      | ambrosus.io       |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Modum          | modum.io          |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| OriginTrail    | origintrail.io    |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Everledger     | everledger.io     |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| VeChain        | vechain.org       |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Wabi           | wabi.io           |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| FairFood       | fairfood.org      |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Bext360        | bext360.com       |                                                                              |                                               |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| SUKU           | suku.world        | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
++----------------+-------------------+------------------------------------------------------------------------------+-----------------------------------------------+
 
 : Blockchain supply chain companies as of summer 2023 include.
 
-**Tracking Transport**
+-   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
+-   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
+-   Embodied Carbon
+    -   "embodied carbon"
+    -   Carbon Neutral Cities Alliance
+    -   @buildersforclimateactionMakingRealZero2021
+
+**Tracking Transport Supply Chains**
 
 Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
 
@@ -823,48 +986,9 @@ Can data transparency provide tools for reducing cruelty.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-### Open Data
+## Digital Product Passports
 
--   Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]
-
-Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
-
-| Country | Project                  | Reference           |
-|---------|--------------------------|---------------------|
-| Sweden  | Swedish open data portal | @SverigesDataportal |
-|         |                          |                     |
-|         |                          |                     |
-
-: Examples of cities and countries that share data openly.
-
--   When will Bolt show CO~2~ emissions per every trip?
--   Sustainable finance data platform:
--   @wikirateWebinarEnvisioningFinding2021 WikiRate defines Data Sharing Archetypes
-
-| Type | Example |
-|----------------------------------|--------------------------------------|
-| Transparency Accountability Advocate |  |
-| Compliance Data Aggregator |  |
-| Data Intelligence Hub |  |
-| Worker Voice Tool | @caravanstudiosStrengthenYourWorker2022: **"Worker Connect"** |
-| Traceability tool | trustrace.com |
-| Open data platform |  |
-| Knowledge sharing platform | business-humanrights.org |
-
--   WikiRate is a tool for checking green credentials Transparency
--   @laureenvanbreenPanelScalingCorporate2023
--   @wikirateIntroducingFacilityChecker2022
--   @HomeChainReact
-
-<!-- -->
-
--   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
-
--   @HumanCenteredWeb32022 human-centered web3
-
-### Digital Product Passports
-
-CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label \[@zhouCarbonLabelsHorizontal2019\]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. \[@cohenPotentialRoleCarbon2012\] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
+CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
 Labels alone are not enough. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
 
@@ -906,12 +1030,17 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 -   Circularise introduced an early blockchain-based sustainability system in 2016 aiming to improve transparency across several industries and is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022] "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
 -   product's history, composition, and environmental impact.
 
-| Goal | Description |
-|----------------------------------------------|--------------------------|
-| **Sustainable Product Production** |  |
-| **Businesses to create value through Circular Business Models** |  |
-| **Consumers to make more informed purchasing decisions** |  |
-| **Verify compliance with legal obligations** |  |
++-----------------------------------------------------------------+---------------+
+| Goal                                                            | Description   |
++=================================================================+===============+
+| **Sustainable Product Production**                              |               |
++-----------------------------------------------------------------+---------------+
+| **Businesses to create value through Circular Business Models** |               |
++-----------------------------------------------------------------+---------------+
+| **Consumers to make more informed purchasing decisions**        |               |
++-----------------------------------------------------------------+---------------+
+| **Verify compliance with legal obligations**                    |               |
++-----------------------------------------------------------------+---------------+
 
 : Digital Product Passport goals @strettonDigitalProductPassports2022
 
@@ -941,41 +1070,72 @@ Digital product passports are a further development of the idea of carbon labels
 
 ## Design Implications
 
-| Category | Implication |
-|--------------------------|----------------------------------------------|
-| Greenwashing | Personal CO2 tracking is ineffective and the focus should be on systematic change towards circular design and zero waste practices. |
-|  | App shows traceability. |
-|  | Help consumers to demand more |
-| Lack of transparency | Make open data easy to use in everyday life |
-| Transparency | The key idea is making CO~2~ Visible. |
-| Greenwashing | Rank companies based on sustainability |
-|  | Help you to decide: what to buy, how to save, where to invest. |
-| Decision Fatique | What if there was a "Green Filter" on every product everywhere? |
-|  | Become a Sustainability-Aware App or Game. |
-|  | Focus on how college students can invest in specific industries? |
-|  | Where to shop rankings for groceries: list worst offenders in terms of products; shop and invest according to your values. |
-|  | What Quantified Self look like for sustainability? |
-|  | Empowering people to live a sustainable day |
-|  | What if there was a "Green Filter" on every product everywhere? |
-|  | Become a Sustainability-Aware App or Game. |
-|  | Guidance could help young people beat climate anxiety by taking meaningful action. |
-|  | The app is just as much about helping people deal with climate anxiety as it's with solving the climate issue. |
-|  | List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, "green filter" is a central data repository not unlike "Apple Health for Sustainability". |
-|  | Health and fitness category apps |
-|  | Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly. |
-|  | All green categories --- Green hub --- Ask the user to prioritize |
-|  | In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc. |
-|  | Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor. |
-|  | Narrative design bring together film school **storytelling** experience with design. |
-|  | Rebuilt the app as a personalized, narrative lifestyle feed. |
-|  | Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives. |
-|  | How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately... |
-|  | **Guided Sustainability** "refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact." |
-|  | Young people are stuck inside platforms. You don't own the data you put on TikTok. You can't leave because you'll lose the audience. |
-|  | With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting? |
-|  | AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes. |
-| Generative AI | Allow producers to make use of Speculative and Participatory design to test out new product ideas? |
-
-influences UI design patterns @joyceRiseGenerativeAIdriven2024
-
-human-centered design Explain ISO9241-210, user experience, iteration
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Category             | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++======================+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+| Greenwashing         | Personal CO2 tracking is ineffective and the focus should be on systematic change towards circular design and zero waste practices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | App shows traceability.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Help consumers to demand more                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Lack of transparency | Make open data easy to use in everyday life                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Transparency         | The key idea is making CO~2~ Visible.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Greenwashing         | Rank companies based on sustainability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Help you to decide: what to buy, how to save, where to invest.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Decision Fatique     | What if there was a "Green Filter" on every product everywhere?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Become a Sustainability-Aware App or Game.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Focus on how college students can invest in specific industries?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Where to shop rankings for groceries: list worst offenders in terms of products; shop and invest according to your values.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | What Quantified Self look like for sustainability?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Empowering people to live a sustainable day                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | What if there was a "Green Filter" on every product everywhere?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Become a Sustainability-Aware App or Game.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Guidance could help young people beat climate anxiety by taking meaningful action.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | The app is just as much about helping people deal with climate anxiety as it's with solving the climate issue.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | List of metrics that should be tracked to enable useful analytics. Ex: % of beach pollution, air pollution, water pollution (I had this idea while meditating). In essence, "green filter" is a central data repository not unlike "Apple Health for Sustainability".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Health and fitness category apps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Using "green filter" you can get a personalized sustainability plan and personal coach to become healthy and nature-friendly.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | All green categories --- Green hub --- Ask the user to prioritize                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | In my "green filter" AI advisor app's scenario, the AI is scanning for opportunities matching the user's sustainable investment appetite and risk profile, using different methods of analysis, including alternative data sources. Traditionally, financial analysts only looked at traditional data, such as company reports, government reports, historic performance, etc., for preparing advisory guidance to their clients. With the advent of AI and big data analysis, many other options of research data have become available, for example, accurate weather predictions for agriculture can affect guidance, because of expected future weather disasters in the area. Other examples include policy predictions, pollution metrics, etc. |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Professional financial advisors use automated tools to analyze data and present it in human form to clients. Today's ubiquitous mobile interfaces, however, provide the opportunity to 'cut out the middleman' and provide similar information to clients directly, at a lower cost and a wider scale, often without human intervention. Additional (more expensive) "human-judgment- as-a-service", a combination of robots + human input, can help provide further personalized advice for the consumer, still at a cheaper price than a dedicated human advisor. Everyone can have a financial advisor.                                                                                                                                            |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Narrative design bring together film school **storytelling** experience with design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Rebuilt the app as a personalized, narrative lifestyle feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...                                                                                                                                                                                                                                     |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | **Guided Sustainability** "refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."                                                                                                       |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | Young people are stuck inside platforms. You don't own the data you put on TikTok. You can't leave because you'll lose the audience.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | With this perspective of scale, what would a shopping experience look like if one knew at the point of sale, which products are greener, and which are more environmentally polluting?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | AI Financial Advisors will need to go further to motivate users. because of the nature of the technology, which is based on the quality of the data the systems ingest, they are prone to mistakes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Generative AI        | Allow producers to make use of Speculative and Participatory design to test out new product ideas?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | -   Processes sustain things: implication for design: built an app                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -8,12 +8,12 @@ import Methodology from '../images/research-methodology.png'
 
 Start with expert survey, then expert interviews (because so many questions from literature review).
 
-| Group                              | Task         |     |
-|------------------------------------|--------------|-----|
-| Experts (Finance)                  | Short Survey |     |
-| Experts (Design)                   | Short Survey |     |
-| Experts (Sustainability)           | Short Survey |     |
-| Target Audience (College Students) | Long Survey  |     |
+| Group                              | Task                       |     |
+|------------------------------------|----------------------------|-----|
+| Experts (Finance)                  | Interview                  |     |
+| Experts (Design)                   | Interview                  |     |
+| Experts (Sustainability)           | Interview                  |     |
+| Target Audience (College Students) | Survey + Prototype Testing |     |
 
 I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms getting verbal permission from educators in their ´ classrooms to distribute the survey flyer. The flyer included a colorful AI-generated visual with a futuristic game-link female figure, the title "climate anxiety survey", a website link (ziran.tw) and scannable QR-code.
 
@@ -21,44 +21,44 @@ Similarly to [@liuDigitalCapabilityDigital2023] I distributed the survey in scho
 
 The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to english for this table.
 
-| Original Question in Chinese                                                        | English Translation                                                                                                                   |
+| Original Question in Chinese | English Translation |
 |----------------------------------|--------------------------------------|
 | 如果你/妳懷疑你/妳要買的番茄可能是由強迫勞工（現代奴隸）採摘的，你/妳仍然會買它嗎？ | If you suspect that the tomatoes you are going to buy may have been picked by forced labor (modern slaves), would you still buy them? |
-| 你/妳關心食安嗎？                                                                   | Do you care about food safety?                                                                                                        |
-| 你/妳7年內買車嗎？🚘                                                                | Will you buy a car within 7 years? 🚘                                                                                                 |
-| 你/妳7年內買房嗎？🏡                                                                | Will you buy a house within 7 years? 🏡                                                                                               |
-| 你/妳購物時知道產品環保嗎？                                                         | Do you know if the products are environmentally friendly when you shop?                                                               |
-| 你/妳覺得認證環保的公司更好嗎？                                                     | Do you think companies certified as environmentally friendly are better?                                                              |
-| 你/妳支持肉稅嗎？                                                                   | Do you support a meat tax?                                                                                                            |
-| 你/妳關心食用雞的生活嗎？                                                           | Do you care about the lives of chickens raised for food?                                                                              |
-| 你/妳避免吃肉嗎？                                                                   | Do you avoid eating meat?                                                                                                             |
-| 你/妳覺得你/妳花錢會影響環境嗎？                                                    | Do you think your spending affects the environment?                                                                                   |
-| 你/妳會對金錢感到焦慮嗎？                                                           | Do you feel anxious about money?                                                                                                      |
-| 你/妳會對金錢很節儉嗎？                                                             | Are you very frugal with money?                                                                                                       |
-| 你/妳會經常存錢嗎？                                                                 | Do you often save money?                                                                                                              |
-| 你/妳對自己的財務知識滿意嗎？                                                       | Are you satisfied with your financial knowledge?                                                                                      |
-| 你/妳投資會考慮環保嗎？                                                             | Do you consider environmental protection when investing?                                                                              |
-| 你/妳覺得台灣的經濟目標是增長嗎？                                                   | Do you think Taiwan's economic goal is growth?                                                                                        |
-| 你/妳覺台灣的得環境退化是台灣的經濟增長的前提嗎？                                   | Do you think environmental degradation in Taiwan is a prerequisite for Taiwan's economic growth?                                      |
-| 你/妳覺得台灣的經濟增長有助於保護環境嗎？                                           | Do you think Taiwan's economic growth helps protect the environment?                                                                  |
-| 你/妳覺得經濟能不排CO2也增長嗎？                                                    | Do you think the economy can grow without emitting CO2?                                                                               |
-| 你/妳覺得經濟增長有物質限制嗎？                                                     | Do you think there are material limits to economic growth?                                                                            |
-| 你/妳會每天都用AI嗎？                                                               | Do you use AI every day?                                                                                                              |
-| 你/妳會信任AI嗎？                                                                   | Do you trust AI?                                                                                                                      |
-| 你/妳想要AI有個造型嗎？                                                             | Do you want AI to have a specific appearance?                                                                                         |
-| 你/妳喜歡待在大自然嗎？                                                             | Do you like being in nature?                                                                                                          |
-| 你/妳擔心氣候變化嗎？                                                               | Are you worried about climate change?                                                                                                 |
-| 你/妳對環境污染情況會感到焦慮嗎？                                                   | Do you feel anxious about environmental pollution?                                                                                    |
-| 你/妳知道許多植物和動物的名字嗎？                                                   | Do you know the names of many plants and animals?                                                                                     |
-| 你/妳感覺自己和大自然很接近嗎？                                                     | Do you feel close to nature?                                                                                                          |
-| 你/妳努力實踐低碳生活嗎？                                                           | Do you strive to live a low-carbon lifestyle?                                                                                         |
-| 你/妳想做更多環保事嗎？                                                             | Do you want to do more for environmental protection?                                                                                  |
-| 你/妳對環境相關政治議題有興趣嗎？                                                   | Are you interested in environmental political issues?                                                                                 |
-| 你/妳信任碳排放抵消額度嗎？                                                         | Do you trust carbon offset credits?                                                                                                   |
-| 你/妳的環保行動對環境保護有效果嗎？                                                 | Do your environmental actions have an effect on environmental protection?                                                             |
-| 你/妳想在行業內推環保嗎？                                                           | Do you want to promote environmental protection within your industry?                                                                 |
-| 你/妳得自己對新觀念開放嗎？                                                         | Are you open to new ideas?                                                                                                            |
-| 你/妳的大學對可環保性支持嗎？                                                       | Does your university support environmental sustainability?                                                                            |
+| 你/妳關心食安嗎？ | Do you care about food safety? |
+| 你/妳7年內買車嗎？🚘 | Will you buy a car within 7 years? 🚘 |
+| 你/妳7年內買房嗎？🏡 | Will you buy a house within 7 years? 🏡 |
+| 你/妳購物時知道產品環保嗎？ | Do you know if the products are environmentally friendly when you shop? |
+| 你/妳覺得認證環保的公司更好嗎？ | Do you think companies certified as environmentally friendly are better? |
+| 你/妳支持肉稅嗎？ | Do you support a meat tax? |
+| 你/妳關心食用雞的生活嗎？ | Do you care about the lives of chickens raised for food? |
+| 你/妳避免吃肉嗎？ | Do you avoid eating meat? |
+| 你/妳覺得你/妳花錢會影響環境嗎？ | Do you think your spending affects the environment? |
+| 你/妳會對金錢感到焦慮嗎？ | Do you feel anxious about money? |
+| 你/妳會對金錢很節儉嗎？ | Are you very frugal with money? |
+| 你/妳會經常存錢嗎？ | Do you often save money? |
+| 你/妳對自己的財務知識滿意嗎？ | Are you satisfied with your financial knowledge? |
+| 你/妳投資會考慮環保嗎？ | Do you consider environmental protection when investing? |
+| 你/妳覺得台灣的經濟目標是增長嗎？ | Do you think Taiwan's economic goal is growth? |
+| 你/妳覺台灣的得環境退化是台灣的經濟增長的前提嗎？ | Do you think environmental degradation in Taiwan is a prerequisite for Taiwan's economic growth? |
+| 你/妳覺得台灣的經濟增長有助於保護環境嗎？ | Do you think Taiwan's economic growth helps protect the environment? |
+| 你/妳覺得經濟能不排CO2也增長嗎？ | Do you think the economy can grow without emitting CO2? |
+| 你/妳覺得經濟增長有物質限制嗎？ | Do you think there are material limits to economic growth? |
+| 你/妳會每天都用AI嗎？ | Do you use AI every day? |
+| 你/妳會信任AI嗎？ | Do you trust AI? |
+| 你/妳想要AI有個造型嗎？ | Do you want AI to have a specific appearance? |
+| 你/妳喜歡待在大自然嗎？ | Do you like being in nature? |
+| 你/妳擔心氣候變化嗎？ | Are you worried about climate change? |
+| 你/妳對環境污染情況會感到焦慮嗎？ | Do you feel anxious about environmental pollution? |
+| 你/妳知道許多植物和動物的名字嗎？ | Do you know the names of many plants and animals? |
+| 你/妳感覺自己和大自然很接近嗎？ | Do you feel close to nature? |
+| 你/妳努力實踐低碳生活嗎？ | Do you strive to live a low-carbon lifestyle? |
+| 你/妳想做更多環保事嗎？ | Do you want to do more for environmental protection? |
+| 你/妳對環境相關政治議題有興趣嗎？ | Are you interested in environmental political issues? |
+| 你/妳信任碳排放抵消額度嗎？ | Do you trust carbon offset credits? |
+| 你/妳的環保行動對環境保護有效果嗎？ | Do your environmental actions have an effect on environmental protection? |
+| 你/妳想在行業內推環保嗎？ | Do you want to promote environmental protection within your industry? |
+| 你/妳得自己對新觀念開放嗎？ | Are you open to new ideas? |
+| 你/妳的大學對可環保性支持嗎？ | Does your university support environmental sustainability? |
 
 : 36 Likert Fields included in the survey
 

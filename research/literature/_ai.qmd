@@ -9,9 +9,9 @@ import ChatGPTMedical from '../images/chatgpt-medical.png'
 
 How can AI enable/help/encourage sustainability?
 
-## How Human Patterns Enable AIs
+## Human Patterns Enable AIs
 
-The fact that AI systems work so well is proof that we live in a measurable world. There world is filled with structures. Nature, cultures, languages, human interactions, all form intricate patterns. Computer systems are becoming increasingly powerful in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
+The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are becoming increasingly powerful in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
 
 Already ninety years ago [@mccullochLogicalCalculusIdeas1943] proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing's Test for Machine Intelligence followed in 1950. Turing's initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? [@turingCOMPUTINGMACHINERYINTELLIGENCE1950].
 
@@ -19,7 +19,7 @@ Already ninety years ago [@mccullochLogicalCalculusIdeas1943] proposed the first
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
-### Reinforcement Learning with Human Feedback (RLHF)
+**Reinforcement Learning with Human Feedback (RLHF)**
 
 Combining deep learning with reinforcement learning and reinforcement learning with human feedback (RLHF) enabled AI to achieve intelligence to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017]. OpenAI co-founder John Schulman describes RLHF: "the models are just trained to produce a single message that gets high approval from a human reader" [@karamankeChatGPTArchitectBerkeley2022].
 
@@ -39,7 +39,7 @@ Foundational AI models enable ***generative AIs***, a class of AI models which a
 
 [@nobleFifthIndustrialRevolution2022] proposes AI has reached a stage of development marking beginning of the ***5th industrial revolution***, a time of collaboration between humans and AI. Widespread **Internet of Things (IoT)** sensor networks that gather data analyzed by AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including ***Pervasive Computing (PC)*** [@rogersFourPhasesPervasive2022] and ***Ubiquitous Computing***. Similar concepts are ***Ambient Computing***, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and ***Calm Technology***, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere. Today AI is not an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it.
 
-### Human-in-the-Loop (HITL)
+**Human-in-the-Loop (HITL)**
 
 AI responses are probabilistic and need some function for ranking response quality. Achieving higher percentage or correct responses requires oversight which can come in the form of human feedback (human-in-the-loop) - or by using other AIs systems which are deemed to be already well-aligned (termed Constitutional AI by Anthropic) [@baileyAIEducation2023; @baiConstitutionalAIHarmlessness2022]. Less powerful AIs areFor example META used LLAMA 2 for aligning LLAMA 3.
 
@@ -60,7 +60,9 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 : Examples of human-in-the-loop apps
 
-### Responsible AI Seeks to Mitigate Generative AIs' Known Issues
+### Responsible AI
+
+Responsible AI Seeks to Mitigate Generative AIs' Known Issues
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
 
@@ -84,14 +86,12 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach. @openaiIntroducingModelSpec2024
 
 -   OpenAI does not yet understand how the internal of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
+-   AI co-founder launches AI Safety Superalignment [@janleikeIntroducingSuperalignment2023].
+-   OECD defines AI incident terms @DefiningAIIncidents2024
+-   Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
+-   Knowing Machines
 
-OECD defines AI incident terms @DefiningAIIncidents2024
-
-Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
-
-Knowing Machines
-
-### Open Source v.s. Closed-Source AI
+**Open Source v.s. Closed-Source AI**
 
 The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry.
 
@@ -144,10 +144,6 @@ Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingK
 -   Image-generation is now fast it's possible to create images in real-time while the user is typing @dwarkeshpatelMarkZuckerbergLlama2024
 
 -   Measuring Massive Multitask Language Understanding (MMLU) @hendrycksMeasuringMassiveMultitask2020.
-
-## AI Safety Superalignment
-
-https://openai.com/index/introducing-superalignment/
 
 ## AI Companions
 
@@ -370,7 +366,7 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @orozcoBudapestBicycleNetwork2020
 
-### AI UX Design
+### AI UX
 
 -   Privacy UX @jarovskyYouAreProbably2022
 
