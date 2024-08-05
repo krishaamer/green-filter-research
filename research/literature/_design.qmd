@@ -15,6 +15,8 @@ Transformation towards *eco-design* has strong political support from the Europe
 
 While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
+*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, user experience, iteration [@googledesignDesignSpeculativeFutures2019].
+
 *Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
 *Climate-Responsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]. The sentiment is echoed by [@leeAestheticsSustainableArchitecture2011] who edited a volume on sustainable approaches of world-renowned architects: "The principles of sustainable design are rooted in the building’s relationship to the site and its environmental conditions such as topography, vegetation, and climate."
@@ -23,25 +25,19 @@ While the ESPR regulation chose *Eco-Design* as the overarching terminology, des
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough. Design should look for avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
+*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
+
+As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products.
+
 ## Future Scenarios
+
+Sustainability is fundamentally a hopeful word imbibed with the dream a healthier world is possible.
 
 *Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
 *Speculative Design* makes use of future scenarios to envision contexts and interactions of use. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
 
 *Participatory Design* focuses on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change
-
-*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
-
-As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products.
-
--   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
-
-influences UI design patterns @joyceRiseGenerativeAIdriven2024
-
-human-centered design Explain ISO9241-210, user experience, iteration
-
-[@googledesignDesignSpeculativeFutures2019].
 
 ## Sustainability Begins in Software
 
@@ -55,7 +51,7 @@ Design encompasses most everything in our daily lives. Humans live in artificial
 
 -   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
 
-In *digital sustainability*, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
+*Digital Sustainability*, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
 -   @panArtificialIntelligenceDigital2023 important
 
@@ -82,6 +78,8 @@ AI-Assisted Design
 ## Data-Driven Design
 
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
+
+Data-driven design has limitations.
 
 ### Platform Economy
 
@@ -193,10 +191,6 @@ Data-driven design requires access to data. making the movement towards *open da
 -   @HomeChainReact
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
-
-### Does Individual Climate Action Matter?
-
-Does Individual Climate Action is Ineffective
 
 ### Personal Data
 
@@ -391,6 +385,18 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 +-------------------------+--------------------------------------------------------+
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
+
+### Does Individual Climate Action Matter?
+
+Does Individual Climate Action is Ineffective.
+
+The effect of individual climate action is limited.
+
+### Privacy
+
+Sustainability needs to be balanced with privacy.
+
+-   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
 ### Behavioral Design
 

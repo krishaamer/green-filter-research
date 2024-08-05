@@ -35,7 +35,7 @@ Hinton likes to call AI an *idiot savant*: someone with exceptional aptitude yet
 
 Standford "thorough account of the opportunities and risks of foundation models" [@bommasaniOpportunitiesRisksFoundation2021].
 
-Foundational AI models enable ***generative AIs***, a class of AI models which are able to generate many types of ***tokens,*** such as text, speech, audio [@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022], music [@copetSimpleControllableMusic2023; @metaaiAudioCraftSimpleOnestop2023] and video, in any language it's trained on. Even complex structures such 3D models and even genomes are possible to generate. Generative AI is a revolution in human-AI interaction as AI models became increasingly capable of producing human-like content which is hard to separate from actual human creations. This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
+Foundational AI models enable *generative AIs*, a class of AI models which are able to generate many types of ***tokens,*** such as text, speech, audio [@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022], music [@copetSimpleControllableMusic2023; @metaaiAudioCraftSimpleOnestop2023] and video, in any language it's trained on. Even complex structures such 3D models and even genomes are possible to generate. Generative AI is a revolution in human-AI interaction as AI models became increasingly capable of producing human-like content which is hard to separate from actual human creations. This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
 
 [@nobleFifthIndustrialRevolution2022] proposes AI has reached a stage of development marking beginning of the ***5th industrial revolution***, a time of collaboration between humans and AI. Widespread **Internet of Things (IoT)** sensor networks that gather data analyzed by AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including ***Pervasive Computing (PC)*** [@rogersFourPhasesPervasive2022] and ***Ubiquitous Computing***. Similar concepts are ***Ambient Computing***, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and ***Calm Technology***, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere. Today AI is not an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it.
 
@@ -62,7 +62,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 ## Algorithmic Experience
 
-As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized ***algorithmic experience***. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
+As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized *algorithmic experience*. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 
 @lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
 
@@ -220,13 +220,15 @@ Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartne
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
 
-### **Generative User Interfaces**
+### **Generative UIs**
 
 Artificial intelligence user experience (AI UX)
 
 The promise of *Generative User Interfaces* (GenUI) is to dynamically provide an interface appropriate for the particular user and context.
 
 Data-Driven Design Enables Generative User Interfaces (GenUI)
+
+influences UI design patterns @joyceRiseGenerativeAIdriven2024
 
 Generative AIs Enable New UI Interactions
 
@@ -517,6 +519,8 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 ### Health
 
+-   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024].
+
 Fitness Guides, AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There's not avatar.
 
 AI in Medicine, AI has been in medicine since early days with the promise to improve health outcomes.
@@ -525,7 +529,7 @@ Human Augmentation, Technology for augmenting human skills or replacing skills t
 
 -   [@dotgoDotGo2023] makes the camera the interaction device for people with vision impairment.
 
-**AI is being use in high--Stakes Situations (Medical, Cars, Etc).**
+AI is being use in high--Stakes Situations (Medical, Cars, Etc).
 
 AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s [in @kanzaAIScientificDiscovery2021], the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. [@calistoBreastScreeningAIEvaluatingMedical2022] focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. [@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
 
