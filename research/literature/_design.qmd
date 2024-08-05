@@ -5,52 +5,35 @@ import Strava from '../images/strava.png'
 ```
 # Sustainable Design
 
-Looking for ways to design for sustainability there are many approaches.
-
--   Designing for Sustainability requires a higher level of systems thinking than traditional design methods.
-
--   AI allows us to look at a larger number of design scenarios thank previously feasible.
+*Designing for Sustainability* requires a higher level of systems thinking than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability.
 
 ## Eco-Design
 
-Transformatiion towards *eco-design* has strong political support from the European Union. The [@europeanparliamentEcodesignSustainableProducts2022] proposal *"On 30 March 2022, the European Commission put forward a proposal for a regulation establishing a general framework for setting eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only."* Virginijus Sinkevičius, EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design "respects the boundaries of our planet" [@europeancommissionGreenDealNew2022]. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024].
+Transformation towards *eco-design* has strong political support from the European Union. The Ecodesign for Sustainable Products Regulation (ESPR) legislation entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *"eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* thus setting up the standards and a level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-...for Sustainable Products
+## Approaches to Design for Sustainability
 
-How can design enable/help/encourage sustainability?
+While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
-Designing for Sustainability has many names, with subtle differences of emphasis, Circular Design, Eco-Design, Cradle-to-Cradle Design, Green Design, Regenerative Design, Climate-Responsive Design, Life-Centered Design, and possibly others. In any case, designing for sustainability makes use of *systems thinking*, looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+*Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
-*Life-Centered Design* recognizes human impact on our surrounding environment as well as other animals making sure to include them among stakeholders While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
+*Climate-Responsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]. The sentiment is echoed by [@leeAestheticsSustainableArchitecture2011] who edited a volume on sustainable approaches of world-renowned architects: "The principles of sustainable design are rooted in the building’s relationship to the site and its environmental conditions such as topography, vegetation, and climate."
 
-*Scenario-Building* is a key tool. Because sustainability is so complex, sustainable design makes use of scenarios. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
-
-*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
-
-*Climate-Reponsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019].
+*Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client" remind me how language shapes human thinking. Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations, and another
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough. Design should look for avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
-*Biomimicry* is about following nature.
+## Future Scenarios
 
--   Janine Benyus @benyusBiomimicryInnovationInspired2009
--   Philosophical account of following the example of nature [@dicksBiomimicryRevolutionLearning2023].
+*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
-*Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client" remind me how language shapes human thinking.
+*Speculative Design* makes use of future scenarios to envision contexts and interactions of use. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
 
--   Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations.
+*Participatory Design* focuses on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change
 
--   Use imagination
+*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. This has implications for sustainability as the object is less likely to be thrown away.
 
--   Societal movements change things: implication for design: build a community
-
-*Biodesign* focuses on involving biology in the design itself.
-
-### Approaches to Design for Sustainability
-
--   "Evolution of design for sustainability: From product design to design for system innovations and transitions" [@ceschinEvolutionDesignSustainability2016].
-
-There are many partially overlapping design terms created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products.
+As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products.
 
 -   @sanchezGreenBearLoRaWANbased2022 LoRaWAN
 
@@ -58,7 +41,9 @@ influences UI design patterns @joyceRiseGenerativeAIdriven2024
 
 human-centered design Explain ISO9241-210, user experience, iteration
 
-### Sustainability Begins in Software
+[@googledesignDesignSpeculativeFutures2019].
+
+## Sustainability Begins in Software
 
 Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
@@ -85,9 +70,7 @@ Interaction Design for Climate Change: how can we change common UIs so they take
 
 AI-Assisted Design
 
-**Tool vs Assistant? (Tools are mostly non-anthropomorphic?)**
-
-Tools do not call attention to themselves. They don't necessarily rely on human-like representations that call attention to themselves but rather are available in-context to help streamline specific tasks.
+**Tool vs Assistant? (Tools are mostly non-anthropomorphic?).** Tools do not call attention to themselves. They don't necessarily rely on human-like representations that call attention to themselves but rather are available in-context to help streamline specific tasks.
 
 -   @september162020WhatAIassistedDesign2020 "What is AI-assisted Design?"
 -   @clipdropCreateStunningVisuals AI Design Assistants
@@ -98,19 +81,23 @@ Tools do not call attention to themselves. They don't necessarily rely on human-
 
 ## Data-Driven Design
 
-Data-Driven Design Enables Sustainability
-
-Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
+Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
 ### Platform Economy
 
 Platform Economy Companies Popularise Data-Driven Design. Capturing User Data. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design.
 
-Continuous Feedback Loop
+Digital Product Design is increasingly data-driven
 
-Personalization
+Design is as much about how it works as it's about the interface.
 
-Predictive Analytics
+Digital product design can be seen as a specific discipline under the umbrella of Experience Design. In @michaelabrashInventingFuture2017 Meta Oculus augmented reality incubation general manager Laura Fryer: *"People buy experiences, not technology."*
+
+Young people expect a product. Intelligent Interfaces use interaction design to provide relevant and personalized information in the right context and at the right time.
+
+Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
+
+Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture.
 
 Making *anything* consumes natural resources, which are limited on planet Earth.
 
@@ -164,6 +151,8 @@ Could there be Sustainability Superapps?
 
 ### Open Data
 
+Open Data Enables Collaboration
+
 -   Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]
 
 Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
@@ -205,109 +194,47 @@ Data-driven design requires access to data. making the movement towards *open da
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
 
-### **Generative User Interfaces**
+### Does Individual Climate Action Matter?
 
-The promise of *Generative UIs* is to dynamically provide an interface appropriate for the particular user and context.
+Does Individual Climate Action is Ineffective
 
-Data-Driven Design Enables Generative User Interfaces (GenUI)
+### Personal Data
 
-There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI.
+Personal data enables behavior change.
 
-structure: data-driven design, generative UI
+While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
 
-AI is able to predict what kind of UI would the user need right now, based on the data and context.
+-   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
 
--   Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components [@replitReplitOpenv0OpenSource2023]. "Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components."
+-   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023].
 
--   Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024].
+-   **Give Gen-Z the tools to turn climate anger into positive change to transform companies**
 
--   In 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014].
+-   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
 
--   As machines become more capable, machines will eventually be capable of producing machines.
+-   @hymanShoppingChangeConsumer2017
 
--   Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".***
+-   @brantleyBrewingBoycottHow2021
 
--   [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
+-   Contact Kalle Lasn, Culture Jam
 
--   [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried UIs are becoming average; that is more and more similar towards the lowest common denominator. We can generate better ones that are based on user data and would be truly personalized.
+-   "ESG Accessibility", Large-scale accessibility to ESG,
 
--   [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (***"difficult, slow, and unpleasant"***) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
+-   increase ESG accessibility
 
--   [@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sisters because of their dissimilar usage patterns.
+-   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
 
--   [@NielsenIdeasGenerative2024] Meanwhile is very critical because for the following reasons:
-
--   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
-
-+--------------------+---------------------------------------------------+
-| Problem            | Description                                       |
-+====================+===================================================+
-| Low predictability | Does personalization mean the UI keeps changing?  |
-+--------------------+---------------------------------------------------+
-| High carbon cost   | AI-based personalization is computation-intensive |
-+--------------------+---------------------------------------------------+
-| Surveillance       | Personalization needs large-scale data capture    |
-+--------------------+---------------------------------------------------+
-
-: Criticism of Generative UI by [@NielsenIdeasGenerative2024].
-
-What is the user interface of the green transformation?
-
--   @katemoranGenerativeUIOutcomeOriented2024 "highly personalized, tailor-made interfaces that suit the needs of each individual" "Outcome-Oriented Design"
-
-@mckeoughMcKinseyDesignLaunches2018 business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
-
-There's a number of user interface design patterns that have provide successful across a range of social media apps. Such *user experience / user interface* (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
-
-| Feature   | Examples                           |     |
-|-----------|------------------------------------|-----|
-| Feed      |                                    |     |
-| Post      | Apple App Store                    |     |
-| Stories   | IG, FB, WhatsApp, SnapChat, TikTok |     |
-| Comment   |                                    |     |
-| Reactions |                                    |     |
-
-: Common Social Media UI Parts
-
-There are also more philosophical approaches to ***Interface Studies:*** @davidhoangCreatingInterfaceStudies2022, the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*.
-
-Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies: @Review2023Helsinki2023
-
-### Future Scenarios
-
-To be able to build something, one first needs to imagine it. Imagination is crucial for change \[@googledesignDesignSpeculativeFutures2019\].
-
-*Speculative design* makes use of future scenarios to envision contexts and interactions of use. Invented by \[@dunneSpeculativeEverythingDesign2013\] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. \[@BARENDREGT2021374\] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
-
-*Participatory design* focuses on engaging users deep in the design process to truly understand their needs on a non-superficial level.
-
-For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders.
-
-### Personal Data Tracking
+-   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
 
 Research on Personal Data Tracking also known as *quantified self* or self-monitoring is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020].
 
-Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity.
+Use technology Wearables to be more aware of one's health. Example of quantified self device. My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
 
-Example of quantified self device. My personal air pollution exposure tracked using the Atmotube device attached to my backpack.
+Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health. @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
 
--   Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
-
--   Quantified Self is an example of Digital Health
-
--   Tracking air pollution and realizing how bad the over in my grandma's house is: add picture
-
--   There is a parallel in health to sustainability and indeed both are inextricably linked.
-
--   Use technology Wearables to be more aware of one's health.
-
--   EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub".
-
--   Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 
 Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
-
--   Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]..
 
 Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n=998).
 
@@ -324,11 +251,7 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 
 -   DBS digibank app added a financial advisor named "Your Financial GPS" in 2018 @dbsDBSLaunchesSingapore2018
 
--   Tracking urine consistency inside your toilet with WithThings
-
 -   "urban metabolism" [@shiUrbanInformatics2021; @clairemoranWhatUrbanMetabolism2018], city in-out flows accounting method
-
--   The urban environment has an influence on health. @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
 
 -   @tsaiTranslationValidationTaiwan2019
 
@@ -361,14 +284,6 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 -   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
-
-**Digital Product Design is increasingly data-driven**
-
-Design is as much about how it works as it's about the interface.
-
-Digital product design can be seen as a specific discipline under the umbrella of **Experience Design**. In @michaelabrashInventingFuture2017 Meta Oculus augmented reality incubation general manager Laura Fryer: *"People buy experiences, not technology."*
-
-Young people expect a product. Intelligent Interfaces use interaction design to provide relevant and personalized information in the right context and at the right time.
 
 @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from ***service design***, the user journey within an app needs to consider each touchpoint on the way to a state of success.
 
@@ -413,9 +328,7 @@ One mode
 
 The concept of ***Social Objects*** is People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
 
-***Red Route Analysis*** is an user experience optimization idea inspired by the public transport system of London (@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021 and @xuanHowPrioritiseProduct2022).
-
-Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on ***Data-Driven Design.***
+*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
 -   Product marketers focus on the ***stickiness*** of the product, meaning low attrition, meaning people keep coming back.
 -   What percent of all design is "sustainable design" ? Promoting sustainable design.
@@ -425,7 +338,7 @@ Large Digital Platforms have a very small number of workers relative to the numb
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
-**Narrative Design**
+*Narrative Design*
 
 -   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
 
@@ -435,9 +348,9 @@ Large Digital Platforms have a very small number of workers relative to the numb
 
 -   Stories start with a character.
 
-### CO2 Calculators
+### Carbon Footprint Tracking
 
-Carbon footprint tracking apps in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
+Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
 
 We have a limited carbon budget so calculating CO2e-cost become integrated into every activity.
 
@@ -479,32 +392,6 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
-### Individual Climate Action is Ineffective
-
-While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
-
--   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
-
--   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world \[@unfcccClimateCreditCard2023\].
-
--   **Give Gen-Z the tools to turn climate anger into positive change to transform companies**
-
--   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
-
--   @hymanShoppingChangeConsumer2017
-
--   @brantleyBrewingBoycottHow2021
-
--   Contact Kalle Lasn, Culture Jam
-
--   "ESG Accessibility", Large-scale accessibility to ESG,
-
--   increase ESG accessibility
-
--   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
-
--   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
-
 ### Behavioral Design
 
 For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
@@ -515,17 +402,7 @@ Google uses nudges in Google Flights and Google Maps, which allow filtering flig
 
 In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
-@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options
-
-@justinecalmaGoogleLaunchesNew2021 Google UX eco features
-
-How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
-
-Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021
-
-@GoogleMostraraPor2021 Google green routes
-
-Wizzair Check carbon impact @OffsetYourFlight
+Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
 
 +-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
 | Feature                                                                                       | Product        | Nudge                                   |
@@ -533,6 +410,8 @@ Wizzair Check carbon impact @OffsetYourFlight
 | Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions  |
 +-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
 | Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Wizzair Check carbon impact @OffsetYourFlight                                                 | WizzAir        | Offset on Checkout                      |
 +-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
 
 : Examples of CO~2~ visibility in Google's products.
@@ -602,7 +481,7 @@ Some notable examples:
 
 -   @SpaceApeGames game company going green
 
-### Gamification
+**Gamification**
 
 -   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
@@ -854,7 +733,7 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   Only make what is ordered.
 
-### Circular Economy 
+## Circular Economy
 
 Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
@@ -867,6 +746,18 @@ Encouraging Sustainable Design and Reducing Waste.
 -   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
 
 -   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
+
+also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+
+...for Sustainable Products
+
+How can design enable/help/encourage sustainability?
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a community
+
+<!-- -->
 
 -   @chapmanDesignEmotionalDurability2009 argues in his seminal paper (and later in his book) for ***"Emotionally Durable Design"***, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. @roseEnchantedObjectsInnovation2015 has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away.
 
@@ -882,7 +773,7 @@ Encouraging Sustainable Design and Reducing Waste.
 
 -   EIT RawMaterials
 
-### Circular Design
+## Circular Design
 
 Circular design is only possible if supply chains become circular as well.
 
@@ -1008,7 +899,7 @@ Can data transparency provide tools for reducing cruelty.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-### Extended Producer Responsibility
+## Extended Producer Responsibility
 
 Extended Producer Responsibility Enables Companies to be Resposible.
 
@@ -1093,17 +984,17 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 -   Circularise introduced an early blockchain-based sustainability system in 2016 aiming to improve transparency across several industries and is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022] "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) and one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least three key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
 -   product's history, composition, and environmental impact.
 
-+-----------------------------------------------------------------+---------------+
-| Goal                                                            | Description   |
-+=================================================================+===============+
-| **Sustainable Product Production**                              |               |
-+-----------------------------------------------------------------+---------------+
-| **Businesses to create value through Circular Business Models** |               |
-+-----------------------------------------------------------------+---------------+
-| **Consumers to make more informed purchasing decisions**        |               |
-+-----------------------------------------------------------------+---------------+
-| **Verify compliance with legal obligations**                    |               |
-+-----------------------------------------------------------------+---------------+
++-----------------------------------------------------------------+--------------+
+| Goal                                                            | Description  |
++=================================================================+==============+
+| **Sustainable Product Production**                              |              |
++-----------------------------------------------------------------+--------------+
+| **Businesses to create value through Circular Business Models** |              |
++-----------------------------------------------------------------+--------------+
+| **Consumers to make more informed purchasing decisions**        |              |
++-----------------------------------------------------------------+--------------+
+| **Verify compliance with legal obligations**                    |              |
++-----------------------------------------------------------------+--------------+
 
 : Digital Product Passport goals @strettonDigitalProductPassports2022
 
@@ -1201,4 +1092,8 @@ Digital product passports are a further development of the idea of carbon labels
 | Generative AI        | Allow producers to make use of Speculative and Participatory design to test out new product ideas?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      | -   Processes sustain things: implication for design: built an app                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | -   If sustainability can't be automated, give the user buttons to choose a sustainable option.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      | -   The power of defaults. Make the sustainable option the default option. @gigerenzerWhyHeuristicsWork2008                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
