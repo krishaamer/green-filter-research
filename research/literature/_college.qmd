@@ -1,11 +1,10 @@
 ```{python}
 #| echo: false
 #from literature.charts.college import company_rank_chart
-from charts.college import company_rank_chart
+from charts.college import company_rank_chart, genz_students_chart, college_decline_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
-
 
 ```{=mdx}
 import Figure from "/src/components/Figure";
@@ -32,7 +31,19 @@ In August 2018, Swedish high-school student Greta Thunberg skipped class to star
 
 ## Taiwanese Education System and Policy Environment
 
-Taiwan has X young adults and Y percent of them are students.
+Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education [@ministryofeducationoftaiwanNetEnrollmentRate2024].
+
+```{python}
+genz_students_chart()
+```
+
+As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024].
+
+xuDeclinedQualityPoststructural2024
+
+```{python}
+college_decline_chart()
+```
 
 Taiwan has an aging population [@gohLongrunMacroeconomicConsequences2023]. Taiwanese culture is influenced by Confucianism and Daoism, which affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; there are open opportunities to revisit *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023]. In general, teachers have a positive attitude towards sustainability. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015]. Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
