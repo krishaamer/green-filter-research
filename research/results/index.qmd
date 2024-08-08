@@ -6,6 +6,10 @@ execute:
 editor:
     render-on-save: false
 suppress-bibliography: true
+CJKmainfont: STSong
+CJKoptions:
+  - BoldFont=STHeiti
+  - ItalicFont=STKaiti
 ---
 
 {{< include "_index.qmd" >}}
