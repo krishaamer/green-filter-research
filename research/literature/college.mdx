@@ -370,9 +370,9 @@ genz_students_chart()
 As of 2024, Taiwan has a total of 148 universities, colleges, and junior
 colleges (Ministry of Education of Taiwan, 2024c). Education funding is
 4.26% of Taiwan’s GDP in 2023-24 and has been on a decline for a decade
-(Ministry of Education of Taiwan, 2024a).
-
-xuDeclinedQualityPoststructural2024
+(Ministry of Education of Taiwan, 2024a). Taiwan has an aging population
+and declining birth rates have forced several schools to close down (Goh
+et al., 2023; Davidson & Chi-hui, 2024).
 
 ```python
 college_decline_chart()
@@ -380,23 +380,30 @@ college_decline_chart()
 
 ![](college_files/figure-markdown_strict/cell-4-output-1.png)
 
-Taiwan has an aging population (Goh et al., 2023). Taiwanese culture is
-influenced by Confucianism and Daoism, which affect education to be
+While the overall number of students is declining, the share of
+international students is increasing.
+
+```python
+higher_education_chart()
+```
+
+![](college_files/figure-markdown_strict/cell-5-output-1.png)
+
+### Confucianism
+
+Taiwanese culture is deeply influenced by Confucianism, valuing academic
+excellence, effort, and the role of education in achieving social status
+(Xu, 2024). Both Confucianism and Daoism affect education to be
 *teacher-centered*, where traditionally the role of students is to
-listen and absorb knowledge; there are open opportunities to revisit
-*dialogue-based* education, where students would be encouraged to take a
-more active role and gain ownership of their education (Chang, Wegerif &
-Hennessy, 2023). In general, teachers have a positive attitude towards
-sustainability. Taiwanese government launched the Sustainable Council in
-1997 to promote of environmental and sustainable development; a survey
-of university-level teachers (n=100) in central Taiwan (Taichung,
-Changhua, and Yunlin) shows a positive attitude toward environmental
-sustainability among teachers however implementation of environmental
-sustainability practices is from low to medium range (林 & 莊, 2015).
-Elementary-school teachers in Taichung (n=536), have positive attitudes
-towards environmental education are positive, proactive and demonstrate
-high awareness; they have participated in many sustainability-related
-workshops (Liao et al., 2022).
+listen and absorb knowledge; in today’s society, there’s space to open
+opportunities for revisiting *dialogue-based* education, where students
+would be encouraged to take a more active role and gain ownership of
+their education (Chang, Wegerif & Hennessy, 2023).
+
+### Sustainability Attitudes
+
+In general, Taiwanese teachers at all levels of education have a
+positive attitude towards sustainability.
 
 At the pre-university level, Taiwanese government has been promoting
 environmental education through a green school network; however surveys
@@ -411,22 +418,43 @@ attitude and good knowledge of environmental sustainable development
 among senior *high school students* towards in Taipei City (n=328).
 Several Taiwanese studies also focus on the physical environment of
 school campuses, for example the sustainability of elementary school
-campuses (潘智謙 & Chih-Chien, 2006).
+campuses (潘智謙 & Chih-Chien, 2006). Elementary-school teachers in
+Taichung (n=536), have positive attitudes towards environmental
+education are positive, proactive and demonstrate high awareness; they
+have participated in many sustainability-related workshops (Liao et al.,
+2022).
 
+At the university level, (Chen & Tsai, 2016) reports a *positive
+attitude yet moderate knowledge* about *ocean sustainability* among
+Taiwanese college students (n=825). (Liu et al., 2023) studied
+sustainability behavior of Taiwanese University students, reporting the
+COVID-19 pandemic, in addition to prevalence of health issues, also
+spurred more attention on environmental topics. In a similar vein, the
+devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake,
+had an effect on Taiwanese energy and sustainability education (姚 & 侯,
+2011). Taiwanese government launched the Sustainable Council in 1997 to
+promote of environmental and sustainable development; a survey of
+university-level teachers (n=100) in central Taiwan (Taichung, Changhua,
+and Yunlin) shows a positive attitude toward environmental
+sustainability among teachers however implementation of environmental
+sustainability practices is from low to medium range (林 & 莊, 2015).
 Taiwanese government has also launched funding for University Social
 Responsibility (USR) programs to train college students in social
 innovation and local revitalization (Chen & Chou, 2023; Liu et al.,
 2022).
 
-I found less research on the university level. (Chen & Tsai, 2016)
-reports a *positive attitude yet moderate knowledge* about *ocean
-sustainability* among Taiwanese college students (n=825). (Liu et al.,
-2023) studied sustainability behavior of Taiwanese University students,
-reporting the COVID-19 pandemic, in addition to prevalence of health
-issues, also spurred more attention on environmental topics. In a
-similar vein, the devastating nuclear disaster in Fukushima, Japan,
-after 2011 earthquake, had an effect on Taiwanese energy and
-sustainability education (姚 & 侯, 2011).
+Comparing college students’ education for sustainable development (ESD)
+in Taiwan (n=617) and Sweden (n=583) found Sweden has a long history in
+environmental education while in Taiwan environment became a focus area
+with the 1998 educational reform (Berglund et al., 2020).
+
+```python
+compare_taiwan_sweden()
+```
+
+![](college_files/figure-markdown_strict/cell-6-output-1.png)
+
+### Eco-Friendly Diet
 
 An older study in 5 university in Taipei and Taichung (n=255) found
 78.04% of respondents consumed beef in the month prior and were
@@ -435,26 +463,6 @@ concerned with food safety, freshness, and quality (Hsu, Lu & Chen,
 abstract (I was unable to access the full study) that most college
 students in all observed countries including Taiwan (n=534) regarded
 “*plant-based diets to have health benefits”*.
-
-Comparing college students’ education for sustainable development (ESD)
-in Taiwan (n=617) and Sweden (n=583) found Sweden has a long history in
-environmental education while in Taiwan environment became a focus area
-with the 1998 educational reform (Berglund et al., 2020).
-
--   The current environmental upheaval, led by Gen-Z and Millennials,
-    and the business adaptation (or lack thereof) to sustainable
-    economic models, taking into account the hidden social and
-    environmental costs we didn’t calculate in our pricing before.
--   We also need to consider environmental effects (E in ESG). We
-    haven’t taken into account the whole cost of production, leading to
-    the wrong pricing information. To achieve this, we need expert
-    governance (G).
--   I was unable to find similar research on university and
-    post-graduate level students in Taiwan.
--   Taiwanese college students and SDGs (Ho et al., 2022).
--   College students in tourism and related fields . and sustainability
--   Consumers may be turned off by mentioning AI in product description.
-    Cicek, Gursoy & Lu (2024)
 
 ## Climate Change Effect on Taiwan
 
@@ -512,20 +520,6 @@ people can have an outsized impact on the whole country. Their activity
 didn’t stop there and (財團法人主婦聯盟環境保護基金會, 2020) recounts a
 timeline of their achievements on their website until the present day.
 
--   Progress in other areas of environmental protection has not made
-    similar progress.
-
--   There are documentaries about oil product
-
--   Plastic production documentary
-
--   I’ve seen several.. find and cite them to show the progression of
-    the environmental movement in Taiwan ADD CITATION
-
--   The Taiwanese Green party
-
--   Contact SOAS?
-
 ## Taiwanese Companies and Online Shopping
 
 Between 1970 and 2019 CO2 was a prerequisite of economic growth in
@@ -546,9 +540,9 @@ Companies Of 2024”* includes 17 Taiwanese companies (Alana Semuels,
 company_rank_chart()
 ```
 
-![](college_files/figure-markdown_strict/cell-5-output-1.png)
+![](college_files/figure-markdown_strict/cell-7-output-1.png)
 
-### Global Data
+### Gen-Z Data From Other Countries
 
 -   (Manchanda et al., 2023) survey (n=726) administered at shopping
     malls in New Delhi, India, found similar levels of sustainability
@@ -572,6 +566,18 @@ the figure was just 10% in France.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
+There is extensive research on the attitudes of U.S. college students
+towards climate change. (American Press Institute, 2022) reports only
+37% percent of U.S. Generation-Z and Millenials follow news related to
+environmental issues. (Schwartz et al., 2022) reports some adult US
+students in a small study (18-35, n = 284) express feelings of
+insignificance of their actions to achieve any meaningful impact.
+(Thomaes et al., 2023) reports U.S. adolescents don’t find
+sustainability relevant to their daily life. (Ross et al., 2016) says
+most people in the U.S. don’t act on climate change. “Action on climate
+change has been compromised by uncertainty, aspects of human
+psychology”.
+
 -   In Portugal, Estonia, and elsewhere young people are suing companies
     for eco-problems: Flor (2024)
 
@@ -586,17 +592,15 @@ the figure was just 10% in France.
 ## Pollution Levels
 
 Taiwanese college students are subjected to high levels of pollution.
-
-University campuses are somewhat healthier than other areas.
-
-There are several decades of research on pollution levels in Taiwan,
-most with very scary correlations to health.
+University campuses are somewhat healthier than other areas. There are
+several decades of research on pollution levels in Taiwan, most with
+very scary correlations to health.
 
 -   Taiwan air pollution, the worst (highest PM2.5 concentration) were
     found in Changhua (24.5 µg/m³), Tainan (20.9 µg/m³), and Pingtong
     (20.7 µg/m³) (Chang Hsiung-feng, Wu Che-hao & Wu Kuan-hsien, 2024).
 
-religion plays a role in pollution:
+Religion plays a role in air pollution:
 [https://www.taipeitimes.com/News/taiwan/archives/2014/08/10/2003597086](https://www.taipeitimes.com/News/taiwan/archives/2014/08/10/2003597086)
 
 ## Developing Personas
@@ -610,22 +614,10 @@ larger cohort of college students several different personas could be
 defined, for example grouping people by interests, knowledge, habits,
 levels of anxiety, and other attributes.
 
-There have been concerns about food safety in Taiwan
+There have been concerns about food safety in Taiwan.
 
 Humans have a long list of cognitive biases, which a good design should
 take into account.
-
-There is extensive research on the attitudes of U.S. college students
-towards climate change. (American Press Institute, 2022) reports only
-37% percent of U.S. Generation-Z and Millenials follow news related to
-environmental issues. (Schwartz et al., 2022) reports some adult US
-students in a small study (18-35, n = 284) express feelings of
-insignificance of their actions to achieve any meaningful impact.
-(Thomaes et al., 2023) reports U.S. adolescents don’t find
-sustainability relevant to their daily life. (Ross et al., 2016) says
-most people in the U.S. don’t act on climate change. “Action on climate
-change has been compromised by uncertainty, aspects of human
-psychology”.
 
 Students ride bicycles and scooters. Many circular economy service such
 as YouBike and transport sharing platforms like Uber are available.
@@ -793,3 +785,37 @@ Environment shapes action.. create an environment where college students
 can influence companies.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+-   The current environmental upheaval, led by Gen-Z and Millennials,
+    and the business adaptation (or lack thereof) to sustainable
+    economic models, taking into account the hidden social and
+    environmental costs we didn’t calculate in our pricing before.
+
+-   We also need to consider environmental effects (E in ESG). We
+    haven’t taken into account the whole cost of production, leading to
+    the wrong pricing information. To achieve this, we need expert
+    governance (G).
+
+-   I was unable to find similar research on university and
+    post-graduate level students in Taiwan.
+
+-   Taiwanese college students and SDGs (Ho et al., 2022).
+
+-   College students in tourism and related fields . and sustainability
+
+-   Consumers may be turned off by mentioning AI in product description.
+    Cicek, Gursoy & Lu (2024)
+
+-   Progress in other areas of environmental protection has not made
+    similar progress.
+
+-   There are documentaries about oil product
+
+-   Plastic production documentary
+
+-   I’ve seen several.. find and cite them to show the progression of
+    the environmental movement in Taiwan ADD CITATION
+
+-   The Taiwanese Green party
+
+-   Contact SOAS?
