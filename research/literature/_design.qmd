@@ -1,3 +1,11 @@
+```{python}
+#| echo: false
+from literature.charts.atmotube import air_chart
+#from charts.atmotube import air_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/flight-emissions.png'
@@ -15,7 +23,8 @@ Transformation towards *eco-design* has strong political support from the Europe
 
 While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
-*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, user experience, iteration [@googledesignDesignSpeculativeFutures2019].
+*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, revised as ISO 9241-210:2019 user experience, iteration [@googledesignDesignSpeculativeFutures2019].
+https://www.iso.org/standard/77520.html
 
 *Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
@@ -81,11 +90,9 @@ Data-Driven Design Enables Sustainability. Sustainability touches every facet of
 
 Data-driven design has limitations.
 
-### Platform Economy
+### Platform Economy Growth
 
-Platform Economy Companies Popularise Data-Driven Design. Capturing User Data. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design.
-
-Digital Product Design is increasingly data-driven
+Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloqialluu as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
 Design is as much about how it works as it's about the interface.
 
@@ -93,15 +100,11 @@ Digital product design can be seen as a specific discipline under the umbrella o
 
 Young people expect a product. Intelligent Interfaces use interaction design to provide relevant and personalized information in the right context and at the right time.
 
-Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
-
-Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture.
-
-Making *anything* consumes natural resources, which are limited on planet Earth.
-
 There are many approaches to design - from playful to practical to critical and to data-driven. Nonetheless, many types of design share a common goal designing for a good *user experience*. Simplifying.
 
-*Personalization at Scale*: the largest businesses today (measured in number of users) design the whole user experience. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) at the scale of hundreds of billions of users.
+*Personalization*: the largest businesses today (measured in number of users) design the whole user experience.
+
+*Scale,* Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) at the scale of hundreds of billions of users.
 
 Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
 
@@ -147,7 +150,7 @@ Could there be Sustainability Superapps?
 
 -   Adaptive AI
 
-### Open Data
+### Open Data Sharing
 
 Open Data Enables Collaboration
 
@@ -192,7 +195,13 @@ Data-driven design requires access to data. making the movement towards *open da
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
 
-### Personal Data
+### Pollution Exposure Tracking
+
+```{python}
+air_chart()
+```
+
+### Health Tracking
 
 Personal data enables behavior change.
 
@@ -235,7 +244,7 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 -   Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
 
 ::: {.content-hidden unless-format="pdf"}
-![Popular Strava sports assistant provides run tracking and feedback](./images/strava.png){width="60%"}
+![Popular Strava sports assistant provides run tracking and feedback](./images/strava.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -342,7 +351,7 @@ The concept of ***Social Objects*** is People need something to gather around an
 
 -   Stories start with a character.
 
-### Carbon Footprint Tracking
+### Carbon Tracking
 
 Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
 
@@ -392,7 +401,7 @@ Does Individual Climate Action is Ineffective.
 
 The effect of individual climate action is limited.
 
-### Privacy
+### Data Privacy
 
 Sustainability needs to be balanced with privacy.
 
@@ -423,7 +432,7 @@ Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoog
 : Examples of CO~2~ visibility in Google's products.
 
 ::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/flight-emissions.png){width="60%"}
+![Google's view of flight emissions](./images/flight-emissions.png){width="100%"}
 :::
 
 ```{=mdx}

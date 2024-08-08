@@ -5,33 +5,23 @@ import Literature from '/research/images/literature.png'
 ```
 ## Literature Review
 
-Sources and Literature Map
+Scientific papers from ScienceDirect, Nature, the Lancet, Oxford Academic. There is currently no single platform that hosts all scientific journals, even though JSTor comes closse?
 
-Given the goal of designing an app to integrate shopping, saving, and investing sustainably, the literature is quite broad. The literature review maps out relationships between sustainability and AI interaction design. The reviewed content consists of 3 main sources:
+The literature review branched out to 5 main directions and maps out relationships Sources and Literature Map:
 
--   Scientific papers from ScienceDirect, Nature, the Lancet, Oxford Academic,  related to:
-there is currently no single platform that hosts all scientific journals, even though JSTor comes closse?
+- Taiwanese college students, generation-z demographics, 
 
--   Sustainability, ecology, ecosystem services
+- Sustainability, ecology, ecosystem services, EU legislation.
 
--   Sustaimable investing, savings, circular economy
+- Sustainable finance, sustainable investing, savings, circular economy, economics.
 
--   UX/UI, service design, sustainable design, speculative design, interaction design
+- AI, rewiew of existing software. Review of Mobile apps (Apple iOS / Google Android) and web app related to Sustainable shopping apps, savings, and investing and Apps using algorithmic interfaces (AI-based UI).
 
--   Generation-Z demographics, behavior change, nudge
+- Design, UX/UI, service design, sustainable design, speculative design, interaction design, behavior change, nudge.
 
--   Review of Mobile apps (Apple iOS / Google Android) and web app related to:
+Given the goal of designing an app to integrate shopping, saving, and investing sustainably. The goal of the literature review is to find ideas of app features. In order to keep track more easily, each literature review section includes **design implications** in context.
 
--   Sustainable shopping apps, savings, and investing
-
--   Apps using algorithmic interfaces (AI-based UI)
-
--   EU legislation
-
-In order to keep track more easily, each literature review section includes **design implications** in context.
-
-The goal of the literature review is to find ideas of app features.
 
 ```{=mdx}
-<Figure caption="Select example papers from the Literature Review" src={Literature} />
+<Figure caption="Example papers from the Literature Review" src={Literature} />
 ```

@@ -15,14 +15,14 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 ```
 # Sustainability
 
-***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
+*Defining* “Sustainability” - ***"Nachhaltigkeit"*** - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011]. Perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of ***land ethics*** in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
 ## Measuring and Visualizing Earth's Climate
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
 ::: {.content-hidden unless-format="pdf"}
-![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="60%"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="100%"}
 :::
 
 ```{=mdx}
@@ -58,7 +58,7 @@ Many technological advances help scientist better understand nature. Cutting edg
 
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 
-### Pricing and Trading CO~2~e Emissions
+### Pricing, Tracing and Trading CO~2~e Emissions
 
 While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
 
@@ -253,6 +253,8 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. While population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012] while others such as [@cafaroOverpopulationMajorCause2022] believe *"Overpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left"* .
 
+Making *anything* consumes natural resources, which are limited on planet Earth.
+
 Environmental risks from human activities are known as Anthropogenic Threat Complexes (ATCs) [@bowlerMappingHumanPressures2020]*.*
 
 -   @jacksonProsperityGrowthFoundations2017 limits to growth update
@@ -293,6 +295,11 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
 
 In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
+
+- @ceballosBiologicalAnnihilationOngoing2017 mass extinctions
+- IUCN Red List: 45,300 species (28% of all assessed) under threat of extinction @iucnIUCNRedList2024
+
+
 
 Atmospheric aerosol loading and the biodiversity intactness index (BII) were quantified recently (ADD CITATION)
 
