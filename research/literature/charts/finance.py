@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.font_manager as fm
+import pandas as pd
 
 def money_chart():
 
@@ -45,3 +46,49 @@ def money_chart():
     plt.title('High-Value Assets (Trillions of USD) with Missing Climate Investment Highlighted', fontsize=16, fontweight='bold', color='black')
 
     plt.show()
+
+
+def fintech_chart():
+
+    # Adding the new events to the data
+    new_events = {
+        "Date": ["2010-01-01", "2014-01-01", "2020-12-01", "2021-01-01", "2023-01-01", "2023-11-01", "2024-01-01"],
+        "Event": [
+            "eToro releases copy-trading",
+            "Acorn micro-investing app launched",
+            "Thesis Proposal",
+            "App Release",
+            "Acorn launches savings debit card",
+            "Feature Release",
+            "Revolut Launches stocks, ETFs, bonds and crypto investing"
+        ]
+    }
+
+    # Creating a new DataFrame
+    df_new_events = pd.DataFrame(new_events)
+
+    # Convert dates to datetime format for plotting
+    df_new_events['Date'] = pd.to_datetime(df_new_events['Date'])
+
+    # Plotting with the new events
+    plt.figure(figsize=(18, 8))
+    plt.plot(df_new_events['Date'], [1] * len(df_new_events), 'ro')  # Plot points
+    plt.yticks([])  # Remove y-axis ticks
+    plt.gca().get_yaxis().set_visible(False)  # Hide y-axis
+
+    # Adding relevant dates manually for clearer spacing
+    relevant_dates = pd.to_datetime(["2010-01-01", "2014-01-01", "2020-12-01", "2021-01-01", "2023-01-01", "2023-11-01", "2024-01-01"])
+    relevant_labels = ["2010", "2014", "Dec 2020", "Jan 2021", "Jan 2023", "Nov 2023", "Jan 2024"]
+
+    # Setting x-axis with specific relevant years and improving text size
+    plt.xticks(relevant_dates, relevant_labels, rotation=45, ha='right', fontsize=12)
+
+    # Adding annotations with better spacing and multiple lines
+    for i, (date, event) in enumerate(zip(df_new_events['Date'], df_new_events['Event'])):
+        plt.annotate('\n'.join(event.split(' ')), (date, 1), textcoords="offset points", xytext=(0,20), ha='center', rotation=45, fontsize=12)
+
+    plt.title('Timeline of Events', fontsize=14)
+    plt.grid(axis='x', linestyle='--')
+    plt.tight_layout()
+    plt.show()
+

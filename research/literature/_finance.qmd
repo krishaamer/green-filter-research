@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.money import money_chart
+from charts.finance import money_chart, fintech_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -18,6 +18,10 @@ import Bunq from '../images/bunq.jpg'
 Digital financial technologies (aka fintechs) enable new modes of interaction design which increasingly blur boundaries between shopping, saving, and investing, giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy and entice consumers to learn more about financial markets. Shopping, saving, and investing are converging on the same digital banking platforms, with features such as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
 
 Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
+
+```{python}
+fintech_chart()
+```
 
 ## The Democratization of Financial Markets
 
