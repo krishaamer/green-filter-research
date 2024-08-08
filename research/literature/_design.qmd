@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
-#from literature.charts.atmotube import air_chart
-from charts.atmotube import air_chart
+#from literature.charts.design import air_chart
+from charts.design import air_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```

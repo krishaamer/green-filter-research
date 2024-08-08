@@ -1,3 +1,12 @@
+```{python}
+#| echo: false
+#from literature.charts.college import company_rank_chart
+from charts.college import company_rank_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+
 ```{=mdx}
 import Figure from "/src/components/Figure";
 import Geneve from "../images/geneve.jpg";
@@ -97,6 +106,11 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 : Data from [@alanasemuelsWorldMostSustainable2024].
 
 -   In Online Shopping, [@momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership].
+
+```{python}
+company_rank_chart()
+```
+
 
 ### Global Data
 
