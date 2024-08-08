@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
-from literature.charts.sustainability import biodiversity_chart
-#from charts.sustainability import biodiversity_chart
+#from literature.charts.sustainability import biodiversity_chart
+from charts.sustainability import biodiversity_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```

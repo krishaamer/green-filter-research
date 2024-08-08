@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
-from literature.charts.money import money_chart
-#from charts.money import money_chart
+#from literature.charts.money import money_chart
+from charts.money import money_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
