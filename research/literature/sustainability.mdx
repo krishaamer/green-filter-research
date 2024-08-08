@@ -180,7 +180,7 @@ Definition of Emission Scopes From \[@nationalpublicutilitiescouncilAnnualUtilit
 </tbody>
 </table>
 Climate Action Tracker’s country comparison of the 10 top polluters’ climate action.
-`,`<!-- -->`,`
+`,`
 <table>
 <caption>CO<sub>2</sub> credit trading markets around the world from <span class="citation" data-cites="InternationalCarbonMarket">@InternationalCarbonMarket</span>.</caption>
 <colgroup>
@@ -576,7 +576,7 @@ Implications
 ````mdx-code-block
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/humboldt.jpg';
-import Boundaries from "/research/images/boundaries.png";
+import Boundaries from "/research/images/planetary-boundaries-2023.png";
 import Carbon from "/research/images/co2-concentration.png";
 import EUPolicy from "/research/images/eu-policy-context.png";
 ````
@@ -780,6 +780,13 @@ countries (Climate Analytics & NewClimate Institute, 2023).
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
+
+```python
+ndc_chart()
+```
+
+![](sustainability_files/figure-markdown_strict/cell-3-output-1.png)
+
 -   (Fransen et al., 2022) notes that the majority of Nationally
     Determined Contributions (NDCs) are dependent on financial
     assistance from the international community.
@@ -809,6 +816,7 @@ gains* from delaying efforts to reduce carbon emissions.
 -   The total size of carbon markets reached 949 billion USD in 2023,
     including Chinese, European, and North American CO<sub>2</sub>
     trading (LSEG & Susanna Twidale, 02/12/2024, 02:37 PM).
+
 -   *The price of* CO<sub>2e</sub> *differs across markets.*
     (Stern, 2022) argues carbon-neutral economy needs higher
     CO<sub>2e</sub> prices and believes (Rennert et al., 2022)
@@ -817,8 +825,6 @@ gains* from delaying efforts to reduce carbon emissions.
     prices could be highly asymmetric, low in some countries and high
     (above the social cost of CO<sub>2e</sub>) in countries where
     production is very polluting.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 -   iGenius (2020)
 
@@ -876,7 +882,7 @@ Retiring CO<sub>2</sub> allowances
 As of 2024 there’s no single global CO<sub>2</sub> trading market but
 rather several local markets as described in the table below.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 Most of the world is not part of a CO<sub>2</sub> market.
 
@@ -905,7 +911,7 @@ Most of the world is not part of a CO<sub>2</sub> market.
 -   (United Nations Environment Programme, 2022) 2022 Emissions Gap
     report.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   tree bark absorbs methane, (Gauci et al., 2024).
 
@@ -933,7 +939,14 @@ a few organizations focused on carbon credit verification.
 -   Methodologies: Anon (2022c)
 -   KlimaDAO (2023) call for an open standard
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+
+
+```python
+carbon_credits_chart()
+```
+
+![](sustainability_files/figure-markdown_strict/cell-4-output-1.png)
 
 ### Consumerism \> Earth’s Boundaries {#consumerism-earths-boundaries}
 
@@ -986,7 +999,7 @@ practice sustainability in daily life. (Deyan Georgiev, 2023) reports
 only 30% of people in the Gen-Z age group believe technology can solve
 all problems.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 While the number on overconsumption are clear, the debate on
 overconsumption is so polarized, it’s difficult to have a meaningful
@@ -1001,7 +1014,7 @@ discussion of the topic (Ianole & Cornescu, 2013).
     contribution on average in four European countries (France, Germany,
     Norway and Sweden).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
 -   Armstrong McKay et al. (2022) discusses tipping points.
 
@@ -1025,20 +1038,20 @@ were quantified recently (ADD CITATION)
 
 -   (Keeble, 1988) reported in April 1987 that *‘residents in
     high-income countries lead lifestyles incompatible with planetary
-    boundaries’*. While my home country Estonia at the time was
-    considered low-income, a small nation in poverty behind the *Iron
-    Curtain* occupation of the Soviet Union, we now in 2024, have also
-    reached high-income status.
--   De Balie (2018)
--   Houdini (2018)
--   Haeggman, Moberg & Sandin (2018)
+    boundaries’*.
+
+My home country Estonia at the time was considered low-income, a small
+nation in poverty behind the *Iron Curtain* occupation of the Soviet
+Union, we now in 2024, have also reached high-income status. - De Balie
+(2018) - Houdini (2018) - Haeggman, Moberg & Sandin (2018) - Richardson
+et al. (2023)
 
 ````mdx-code-block
 <Figure
-  caption="Planetary Boundaries"
+  caption="Planetary Boundaries 2023 update"
   src={Boundaries}
   refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
-  refTitle="J. Lokrantz/Azote based on Steffen et al. 2015"
+  refTitle="Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023"
 />
 ````
 
@@ -1122,23 +1135,23 @@ Why Protect Biodiversity?
 
 May (2011) argues biodiversity loss is a concern for 3 points of views:
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
 
 -   (Leverhulme Centre for Nature Recovery, 2023) asks should we put a
     price on nature?
 -   Is it time to leave utilitarian environmentalism behind? Muradian &
     Gómez-Baggethun (2021)
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
 There are 2 main approaches to protecting nature:
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
 
 -   Han & Chen (2022) identifies nature-based solutions “land
     re-naturalization (such as afforestation and wetland restoration)”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
 
 -   Meanwhile the destruction pressure on ecosystems is rapidly
     increasing (ADD CITATION A B C).
@@ -1170,7 +1183,7 @@ greatest overall global decline (83%).”
 biodiversity_chart()
 ```
 
-![](sustainability_files/figure-markdown_strict/cell-3-output-1.png)
+![](sustainability_files/figure-markdown_strict/cell-5-output-1.png)
 
 Biodiversity loss is linked to overconsumption, weak legislation and
 lack of oversight. (Crenna, Sinkko & Sala, 2019) recounts European Union
@@ -1199,7 +1212,7 @@ accompany climate goals.
 
 Protecting biodiversity
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
 
 **Marine Heatwaves**
 
@@ -1539,7 +1552,7 @@ A large part of the proposal by (Commission et al., 2014) is
 ***eco-design***, as a large part of product lifecycle environmental
 impact is defined in the design process.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
 
 -   The proposal for a Nature Restoration Law by the European Commission
     requiring member countries to restore 20% of EU’s degraded
@@ -1638,7 +1651,7 @@ Collaboration
 -   Finland, Iceland, New Zealand, Scotland, Wales, Canada (Fioramonti
     et al., 2022).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[15] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
 
 -   Kaklauskas et al. (2023)
 
@@ -1659,4 +1672,4 @@ TODO
 -   lack of transparency
 -   Call for GOP contributors’ transparency
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[16] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[15] }} />

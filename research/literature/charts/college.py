@@ -35,21 +35,27 @@ def company_rank_chart():
     plt.show()
 
 def genz_students_chart():
-
     # Age groups
     ages = list(range(18, 27))
+    
+    # Corresponding years
+    years = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"]
 
     # Enrollment rates for males and females
     enrollment_rates_male_18_26 = [63.88, 72.18, 70.20, 68.39, 71.05, 70.59, 63.88, 65.00, 67.00]
     enrollment_rates_female_18_26 = [72.56, 82.11, 80.23, 77.63, 80.48, 79.59, 72.56, 75.00, 78.00]
 
+    # Calculate the average enrollment rates
+    enrollment_rates_avg_18_26 = [(male + female) / 2 for male, female in zip(enrollment_rates_male_18_26, enrollment_rates_female_18_26)]
+
     plt.figure(figsize=(14, 8))
 
-    # Plot for males
-    plt.plot(ages, enrollment_rates_male_18_26, label="Males", marker='o')
+    # Plot for average enrollment rates
+    plt.plot(ages, enrollment_rates_avg_18_26, label="Average", marker='o')
 
-    # Plot for females
-    plt.plot(ages, enrollment_rates_female_18_26, label="Females", marker='o')
+    # Adding year annotations
+    for i, year in enumerate(years):
+        plt.annotate(year, (ages[i], enrollment_rates_avg_18_26[i]), textcoords="offset points", xytext=(0,10), ha='center')
 
     # Adding titles and labels
     plt.title("Net Enrollment Rate of Tertiary Education (Ages 18 to 26)")
