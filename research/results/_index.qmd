@@ -1,6 +1,3 @@
-```{=mdx}
-import Figure from '/src/components/Figure';
-```
 ## Results
 
 Expected Findings
@@ -9,37 +6,46 @@ During the preparation of this research proposal I conducted a preliminary round
 
 Survey Overview
 
-import from Ziran
-
 A survey of Taiwanese college students excludes overseas Chinesespeaking students as well as foreign students covering attitudes towards shopping saving investing economy nature sustainability and AI
 
 Survey Oct 13th  Nov 3rd 2023
 
-   2000 cards with a QR code printed out
+2000 cards with a QR code printed out
 
-   Distribution conducted at 8 universities handing out the cards
+Distribution conducted at 8 universities handing out the cards
 
-   1289 people started the survey 518 quit
+1289 people started the survey 518 quit
 
-   771 people completed the whole survey
+771 people completed the whole survey
 
-   Data after filtering 675 people aged 1826 GenZ Taiwanese current students in BA large majority MA small minority or PhD level very few respondents
+Data after filtering 675 people aged 1826 GenZ Taiwanese current students in BA large majority MA small minority or PhD level very few respondents
 
-   36 likert fields 5point scale used for clustering the students into 3 personas with Kmeans clustering
+36 likert fields 5point scale used for clustering the students into 3 personas with Kmeans clustering
 
-   14 product features multiplechoice used for Kmodes clustering
+14 product features multiplechoice used for Kmodes clustering
 
-   4 choice experiments
+4 choice experiments
 
-   2 option ranking questions
+2 option ranking questions
 
-   10 text fields used to enrich the personas
+10 text fields used to enrich the personas
+
+
+
+
+
+
+
 
 Data Analysis
 
-   Use KMeans clustering for survey data Kmeans clustering is similar to vector distances for similarity used in largelanguage models LLMs word embeddings and deep learning
+KMeans clustering for survey data Kmeans clustering is similar to vector distances for similarity used in largelanguage models LLMs word embeddings and deep learning
 
-Findings
+
+
+
+
+   Findings
 
    Literature AI assistants should integrate with Digital Product Passports
    Literature AI assistants should show carbon label data
