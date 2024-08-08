@@ -27,7 +27,9 @@ def company_rank_chart():
 
     # Adding annotations with manual adjustments
     for i in range(len(df_sustainability)):
-        plt.text(df_sustainability['Score'][i], df_sustainability['Rank'][i] + 10, df_sustainability['Company'][i], fontsize=9, ha='right')
+        # Adjust text position based on the rank to minimize overlap
+        y_offset = 10 if i % 2 == 0 else -10  # Alternate offset for better spacing
+        plt.text(df_sustainability['Score'][i], df_sustainability['Rank'][i] + y_offset, df_sustainability['Company'][i], fontsize=9, ha='right')
 
     plt.grid(True)
     plt.show()
