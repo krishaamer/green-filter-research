@@ -20,12 +20,11 @@ import ResQClub from '../images/resq-club.png'
 
 Transformation towards *eco-design* has strong political support from the European Union. The Ecodesign for Sustainable Products Regulation (ESPR) legislation entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *"eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* thus setting up the standards and a level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-## Approaches to Design for Sustainability
+## Designing for Sustainability
 
 While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
-*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, revised as ISO 9241-210:2019 user experience, iteration [@googledesignDesignSpeculativeFutures2019].
-https://www.iso.org/standard/77520.html
+*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, revised as ISO 9241-210:2019 user experience, iteration [@googledesignDesignSpeculativeFutures2019]. https://www.iso.org/standard/77520.html
 
 *Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
@@ -90,6 +89,22 @@ AI-Assisted Design
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
 Data-driven design has limitations.
+
+### Growth Design
+
+-   For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+
+-   Hypothesis and validation for iterating on features.
+
+-   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
+
+### Designing for College Students
+
+-   plap
+
+### Personal User Experience
+
+-   social apps require personalization, trust and k-factors (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
 
 ### Platform Economy Growth
 
