@@ -11,7 +11,7 @@ import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
-# Sustainable Finance
+# Finance
 
 ## The Journey from Consumer to Investor
 
@@ -23,7 +23,7 @@ Digital money in it's various forms connects industries on the same apps, which 
 fintech_chart()
 ```
 
-## The Democratization of Financial Markets
+## Democratization of Financial Markets
 
 trend. good news.
 
@@ -64,6 +64,8 @@ How can finance enable/help/encourage sustainability?
 Shopping, saving and investing are forms of capital allocation. In one way or another, we're giving our money to companies that provide the products and services we need. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
 
 Money is created by governments by law: using central banks, which loan money to commercial banks. New types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
+
+new asset classes
 
 ### Increasing Number of Asset Classes
 
@@ -227,6 +229,16 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 -   @naturalinvestMalaikaMaphalalaNatural2020
 -   @marquisRSFLeadingWay2021
 
+Efforts to connec carbon markets, carbonmark.com
+
+"We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
+
+"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the $200 trillion of assets in global financial markets." @bezeroFocusRatings2022
+
+"climate action as an asset-liability problem"
+
+"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." https://www.carbonchain.com/measure Ratings for mines https://www.carbonchain.com/reports
+
 ## The Gargantuan Eco-Investment Gap
 
 bad news.
@@ -300,9 +312,11 @@ Slightly more fun way to look at this data.
 money_chart()
 ```
 
-## The Economics of Decoupling Growth from Environmental Degradation
+## Decoupling Economic Growth from Environmental Degradation
 
 Eco-economic decoupling
+
+Decarbonizing Economics
 
 ### New Metrics
 
@@ -721,6 +735,14 @@ Retail investors face many challenges in comparison with their institutional cou
 
 Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
+-   Climate Neutral Certified Standard
+
+-   The Conservation Alliance: <https://www.changeclimate.org/standards>
+
+-   1% For the Planet
+
+For example **Flickr invested 3000 USD in carbon credits.**
+
 ### Personalized Investing
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
@@ -736,6 +758,8 @@ Sustainability indices need transparency and standardization [@bolognesiMappingS
 -   How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
 ### Retail Investing is Financial Inclusion
+
+"**Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"**
 
 *Retail Investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 

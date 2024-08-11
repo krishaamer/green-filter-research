@@ -60,6 +60,12 @@ Many technological advances help scientist better understand nature. Cutting edg
 
 ### Pricing, Tracing and Trading CO~2~e Emissions
 
+### Financialization of Nature
+
+-   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millenia to develop. humans create hugely complex systems instead of simply conserving nature.
+
+### markets for ecosystem assets
+
 While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
 
 -   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
@@ -148,6 +154,7 @@ For the individual person, there's no direct access to CO~2~ markets. However, b
 *Long term cost* of insufficient climate action is more than *short-term gains* from delaying efforts to reduce carbon emissions.
 
 -   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
+
 -   *The price of* CO~2e~ *differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting.
 
 -   @igeniusLetTalkSustainable2020
@@ -205,8 +212,13 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 Most of the world is not part of a CO~2~ market.
 
 -   [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading.
+
+-   "Blockchain solutions for carbon markets are nearing maturity" and offer many improvements. enhancing transparency, trust, and efficiency.
+
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
+
 -   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
+
 -   [@unitednationsenvironmentprogrammeEmissionsGapReport2022] 2022 Emissions Gap report.
 
 |                    |                        |
@@ -228,6 +240,10 @@ Most of the world is not part of a CO~2~ market.
 Voluntary Carbon Markets
 
 Verified Carbon Standard (VCS) and the Gold Standard, Climate Action Reserve (CAR)‍, American Carbon Registry (ACR)
+
+"BeZero Carbon is a ratings agency for the Voluntary Carbon Market."
+
+https://bezerocarbonmarkets.com/
 
 Voluntary Carbon Markets are ...
 
@@ -302,20 +318,14 @@ While the number on overconsumption are clear, the debate on overconsumption is 
 
 In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
 
-- @ceballosBiologicalAnnihilationOngoing2017 mass extinctions
-- IUCN Red List: 45,300 species (28% of all assessed) under threat of extinction @iucnIUCNRedList2024
-
-
+-   @ceballosBiologicalAnnihilationOngoing2017 mass extinctions
+-   IUCN Red List: 45,300 species (28% of all assessed) under threat of extinction @iucnIUCNRedList2024
 
 Atmospheric aerosol loading and the biodiversity intactness index (BII) were quantified recently (ADD CITATION)
 
--   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. 
+-   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*.
 
-My home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Union, we now in 2024, have also reached high-income status.
--   @debalieKateRaworthCreating2018
--   @houdiniPlanetaryBoundariesAssessment2018
--   @haeggmanPlanetaryBoundariesAnalysis2018
--   @richardsonEarthSixNine2023
+My home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Union, we now in 2024, have also reached high-income status. - @debalieKateRaworthCreating2018 - @houdiniPlanetaryBoundariesAssessment2018 - @haeggmanPlanetaryBoundariesAnalysis2018 - @richardsonEarthSixNine2023
 
 ::: {.content-hidden unless-format="pdf"}
 ![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/planetary-boundaries-2023.png){width="100%"}
@@ -494,6 +504,9 @@ Clean air is a requirement.
 Extreme Weather
 
 -   [@FifthNationalClimate2023] The US Global Change Research Program comprehensive report to the US Congress links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces air quality, which in effect increases health challenges.
+-   <https://www.nature.com/articles/s41612-024-00707-0>
+-   <https://www.nature.com/articles/s41598-023-42669-y>
+-   
 
 Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989].
 
