@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.font_manager as fm
 import pandas as pd
 
 def money_chart():
@@ -49,7 +48,6 @@ def money_chart():
 
 
 def fintech_chart():
-
     # Adding the new events to the data
     new_events = {
         "Date": ["2010-01-01", "2014-01-01", "2020-12-01", "2021-01-01", "2023-01-01", "2023-11-01", "2024-01-01"],
@@ -60,7 +58,7 @@ def fintech_chart():
             "App Release",
             "Acorn launches savings debit card",
             "Feature Release",
-            "Revolut Launches stocks, ETFs, bonds and crypto investing"
+            "Revolut launches stocks, ETFs, bonds, crypto"
         ]
     }
 
@@ -70,25 +68,39 @@ def fintech_chart():
     # Convert dates to datetime format for plotting
     df_new_events['Date'] = pd.to_datetime(df_new_events['Date'])
 
+    # Calculate the number of days since the first event
+    days_since_start = (df_new_events['Date'] - df_new_events['Date'].min()).dt.days
+
+    # Apply a square root transformation to days to adjust spacing
+    adjusted_positions = np.sqrt(days_since_start).astype(float)
+
+    # Normalize positions to fit within the vertical space, ensuring minimum pixel distance
+    fig_height = 8  # Same height as used in the figure
+    min_pixel_gap = 100 / fig_height  # Minimum gap as a fraction of figure height
+    total_height = (len(df_new_events) - 1) * min_pixel_gap
+    adjusted_positions = np.linspace(0, total_height, len(adjusted_positions))
+
     # Plotting with the new events
-    plt.figure(figsize=(18, 8))
-    plt.plot(df_new_events['Date'], [1] * len(df_new_events), 'ro')  # Plot points
-    plt.yticks([])  # Remove y-axis ticks
-    plt.gca().get_yaxis().set_visible(False)  # Hide y-axis
+    plt.figure(figsize=(10, 8))
+    plt.plot([1] * len(df_new_events), adjusted_positions, 'ro')  # Plot points on y-axis
+    plt.xticks([])  # Remove x-axis ticks
+    plt.gca().get_xaxis().set_visible(False)  # Hide x-axis
 
     # Adding relevant dates manually for clearer spacing
     relevant_dates = pd.to_datetime(["2010-01-01", "2014-01-01", "2020-12-01", "2021-01-01", "2023-01-01", "2023-11-01", "2024-01-01"])
-    relevant_labels = ["2010", "2014", "Dec 2020", "Jan 2021", "Jan 2023", "Nov 2023", "Jan 2024"]
+    relevant_days_since_start = (relevant_dates - df_new_events['Date'].min()).days
+    relevant_adjusted_positions = np.linspace(0, total_height, len(relevant_dates))
 
-    # Setting x-axis with specific relevant years and improving text size
-    plt.xticks(relevant_dates, relevant_labels, rotation=45, ha='right', fontsize=12)
+    # Adjust relevant dates for plotting
+    plt.yticks(relevant_adjusted_positions, ["2010", "2014", "Dec 2020", "Jan 2021", "Jan 2023", "Nov 2023", "Jan 2024"], fontsize=10)
 
-    # Adding annotations with better spacing and multiple lines
-    for i, (date, event) in enumerate(zip(df_new_events['Date'], df_new_events['Event'])):
-        plt.annotate('\n'.join(event.split(' ')), (date, 1), textcoords="offset points", xytext=(0,20), ha='center', rotation=45, fontsize=12)
+    # Adding annotations with staggered positions to prevent overlap
+    for i, (date, event) in enumerate(zip(adjusted_positions, df_new_events['Event'])):
+        offset = -10 if i % 2 == 0 else 10  # Increase offset for more spacing
+        plt.annotate(event, (1, date), textcoords="offset points", xytext=(offset, 0), ha='left' if offset > 0 else 'right', fontsize=10)
 
-    plt.title('Timeline of Events', fontsize=14)
-    plt.grid(axis='x', linestyle='--')
+    plt.title('Shopping + Investing apps', fontsize=14)
+    plt.grid(axis='y', linestyle='--')
     plt.tight_layout()
     plt.show()
 
@@ -125,5 +137,41 @@ def asset_classes():
     ax.axis('off')
 
     # Display the graph
+    plt.tight_layout()
+    plt.show()
+
+def shopping_growth():
+
+    # Data from the Forrester report
+    years = [2023, 2028]
+    global_sales = [4.4, 6.8]  # in trillion USD
+    us_sales = [1.4, 1.6]  # in trillion USD
+    canada_sales = [72, 83]  # in billion USD
+    latam_sales = [109, 192]  # in billion USD
+    western_europe_sales = [508, 773]  # in billion USD
+    eastern_europe_sales = [72, 126]  # in billion USD
+    asia_pacific_sales = [2.2, 3.2]  # in trillion USD
+    sea_sales = [93, 193]  # in billion USD
+
+    # Create a figure and axis for each region
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plot data
+    ax.plot(years, global_sales, marker='o', label='Global')
+    ax.plot(years, us_sales, marker='o', label='US')
+    ax.plot(years, [x/1000 for x in canada_sales], marker='o', label='Canada')
+    ax.plot(years, [x/1000 for x in latam_sales], marker='o', label='Latin America')
+    ax.plot(years, [x/1000 for x in western_europe_sales], marker='o', label='Western Europe')
+    ax.plot(years, [x/1000 for x in eastern_europe_sales], marker='o', label='Eastern Europe')
+    ax.plot(years, asia_pacific_sales, marker='o', label='Asia-Pacific')
+    ax.plot(years, [x/1000 for x in sea_sales], marker='o', label='Southeast Asia')
+
+    # Labels and title
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Online Retail Sales (Trillion USD)')
+    ax.set_title('Projected Growth of Online Retail Sales (2023-2028)')
+    ax.legend()
+
+    # Show plot
     plt.tight_layout()
     plt.show()

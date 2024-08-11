@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -29,6 +29,10 @@ trend. good news.
 
 ### Legislation
 
+-   Legislation sets higher standards. [@EUBanForestkilling] Ban polluting products campaign success story, EU shops can't sell deforestation products.
+
+<!-- -->
+
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
 -   @houseofcommonsEnvironmentalAuditSecond2002: Already in 2001, the UK government was discussing ways to promote sustainable investment "fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment".
@@ -37,7 +41,7 @@ trend. good news.
 
 -   @kentonMiFIDII2020: Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors". @europeansecuritiesandmarketsauthorityMiFIDII2017: "MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants".
 
--   @ChancellorSetsOut Taxonomy of sustainable activities in the UK
+-   @hmtreasuryChancellorSetsOut2020 Taxonomy of sustainable activities in the UK
 
 -   @WorldEconomicOutlook2023
 
@@ -53,7 +57,9 @@ There's literature suggesting it's possible to make investments that both make a
 
 -   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however @hoAsianInvestorsAre2019 counters investors are not sure how to separate sustainable assets from less sustainable ones.
 
-### Financial and Sustainability Literacy
+### Financial Literacy
+
+### Sustainability Literacy
 
 Financial and Sustainability Literacy are intertwined.
 
@@ -96,6 +102,8 @@ There are many asset classes only some of which would be accessible to a retail 
 -   In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of ***social proof***, which robo-advisor do not possess.
 
 ### Fintech
+
+**Financial technology to automate the delivery of financial services.**
 
 The user interface and user experience (UI/UX) of consumer-focused investing apps in Europe has improved a over the past decade. The changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of investing apps and the lessons learned.
 
@@ -222,9 +230,12 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 -   @dgen&positiveblockchainBlockchainSDGsHow2021: Positive Blockchain Database of blockchain for good projects
 
-### Regenerative Finance
+### Regenerative Finance (REFI)
+
+On the intersection of cryptocurrencies, blockchains, and nature-backed assets.
 
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
+-   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 -   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
 -   @smithOneYearLater2021
 -   @KlimaDAO2023 KlimaDAO
@@ -237,13 +248,15 @@ Efforts to connec carbon markets, carbonmark.com
 
 "We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
 
-"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the $200 trillion of assets in global financial markets." @bezeroFocusRatings2022
+"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
 
 "climate action as an asset-liability problem"
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." https://www.carbonchain.com/measure Ratings for mines https://www.carbonchain.com/reports
 
-## The Gargantuan Eco-Investment Gap
+## The Investment Gap
+
+The Gargantuan Eco-Investment Gap
 
 bad news.
 
@@ -264,6 +277,10 @@ What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went
 The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
 
 The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
+
+```{python}
+money_chart()
+```
 
 | High-Value Assets (Trillions of USD) |   |
 |----------------------------------------------|--------------------------|
@@ -311,10 +328,6 @@ While these assets and GDP values reflect different aspects of the global econom
     -- "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
 
 Slightly more fun way to look at this data.
-
-```{python}
-money_chart()
-```
 
 ## Decoupling Economic Growth from Environmental Degradation
 
@@ -397,7 +410,9 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 
 -   Global Alliance for Banking on Values
 
-### Externalities need to be priced in
+### Externalities
+
+Externalities need to be priced in
 
 metrics and goals: ESG, SDGs,
 
@@ -433,7 +448,9 @@ metrics and goals: ESG, SDGs,
 
 -   Adam Smith: Interdependence
 
-### Debating Decoupling Economic Growth from CO2 Emissions
+### Decoupling
+
+Debating Decoupling Economic Growth from CO2 Emissions
 
 New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
@@ -457,67 +474,36 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 ## Shopping
 
-### Payments are an Entry Point and Source of Consumer Action Data
+Banks and Fintechs Capture User Data. Payments are an Entry Point and Source of Consumer Action Data, Shopping Data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing?
 
--   Shopping Data
--   From Payments to Investing
--   The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
--   Payments is the primary way consumers use money.
--   Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, "every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices" [@fotheringhamHowCreateGreener2017].
--   M-Pesa in Kenya since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
--   In Sweden point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience.
--   Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing?
--   A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface [@bunqBunq2020]. Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
--   From Shopping to Investing @AcornsTargetsMillennials suggests "Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference."
--   @ContactlessPaymentsPrevalent2023 in Macau Contactless Payments:
--   Commons, formerly known as Joro, analysis your financials to estimate your CO~2~ footprint. @chantPersonalCarboncuttingApp2022
+Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
-@FirstPaperMoney China was a money innovator introducing paper money in the Tang Dynasty (618--907 AD).
+Digitalisation of payments creates lots of Point of Sale (PoS) data that's valuable to understand what people buy. Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
 
--   @CentralBankDigital2023 Digital currencies make tracking easier
+In Taiwan, O Bank makes use of Mastercard's data to calculate each transaction's CO~2~ emissions and offer Taiwanese clients "Consumer Spending Carbon Calculator" and "Low-Carbon Lifestyle Debit Card" products [@TaiwanOBankLaunches2022]. Mastercard has developed a service that banks can offer consumers sustainability reports [@mastercardMastercardUnveilsNew2021]. Similarly, Commons, formerly known as Joro, an independent app, analyses your personal financial data to estimate your CO~2~ footprint [@chantPersonalCarboncuttingApp2022].
 
--   E-Naira find papers
+A Dutch fintech company Bunq offers payment cards for sustainability, provided by MasterCard, which connects everyday payments to green projects, such as planting trees and donations to charities within the same user interface [@bunqBunq2020]. At the same time this can be considered greenwashing as Bunq only plants 1 tree per every €1,000 spend with a Bunq card. The example marketed at students cites *8 trees planted this month* while students scarcely would have €8,000 to spend every month.
 
--   @yahoofinanceChallengesFacingChina2022: WeChat, Alipay, vs digital yuan by Eswar Prasad
+Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 
--   @marisaadangilCriptomoedasVaoAcabar2022
+In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eNaira digital currency use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs *"In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account." **\[*****E-Naira find papers\]**
 
--   @caiojobimBitcoinFalhouCriptomoedas2022
+In Kenya, M-Pesa started since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability.
 
--   Digitalisation of payments creates lots of Point of Sale (PoS) data that would be valuable to understand what people buy.
+In Sweden, point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience. Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing? And there is, called "round-up apps". @AcornsTargetsMillennials suggests "Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference." - and example of From Shopping to Investing.
 
--   @EuropeanFintechsWatch2022
+Many banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
-People are concerned with digital payments
+While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments.
 
--   Digital Currency @emeleonuNigeriaCapsATM2022 reports how in order to promote eNaira use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs. "In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."
--   @jeffbensonChinaReleasesDigital2022 "use the e-CNY network to increase financial surveillance."
--   democratize financial surveillance!
--   Crypto tools allow you to look at any wallet already
--   green transparency
+Banks and Fintech are becoming more similar than ever. 39% of Millenials are willing to leave their bank for a better fintech (n=4,282); innovation in payments helps retention [@pymntsStayingAheadPayments2023]. The European Central Bank describes fintech as improving the user experience across the board, making interactions more convenient, user-friendly, cheaper, and faster. "Fintech has had a more pronounced impact in the payments market \[...\] where the incumbents have accumulated the most glaring shortcomings, often resulting in inefficient and overpriced products," Yves Mersch, Member of the Executive Board of the ECB says in @europeancentralbankLendingPaymentSystems2019.
 
-### Banks and Fintechs Capture User Data
+There are also people who are concerned with digital payments. There are concerns digital currencies also help to *"democratize financial surveillance".* China was a money innovator introducing paper money in the Tang Dynasty (618-907 AD) [@FirstPaperMoney]. @jeffbensonChinaReleasesDigital2022 "use the e-CNY network to increase financial surveillance." @CentralBankDigital2023 Digital currencies make tracking easier. @yahoofinanceChallengesFacingChina2022: WeChat, Alipay, vs digital yuan by Eswar Prasad. @ContactlessPaymentsPrevalent2023 in Macau Contactless Payments are prevalent.
 
-Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Taiwan's O Bank makes use of Mastercard's data to calculate each transaction's CO~2~ emissions[@TaiwanOBankLaunches2022].
-
--   Banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
-
--   While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments.
-
--   fundamental analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.
-
-Banks and Fintech are becoming more similar than ever.
-
--   39% of Millenials are willing to leave their bank for a better fintech (n=4,282); innovation in payments helps retention [@pymntsStayingAheadPayments2023].
-
--   The European Central Bank describes fintech as improving the user experience across the board, making interactions more convenient, user-friendly, cheaper, and faster. "Fintech has had a more pronounced impact in the payments market \[...\] where the incumbents have accumulated the most glaring shortcomings, often resulting in inefficient and overpriced products," Yves Mersch, Member of the Executive Board of the ECB says in @europeancentralbankLendingPaymentSystems2019.
-
--   There are far too many ***neobanks***, or challenger banks to list. The table only includes a small sample of banks and the landscape is even larger if one includes the wider array of fintechs. Neo-banks often use sustainability marketing.
-
--   O bank carbon calculator (Brasil): "Consumer Spending Carbon Calculator" and "Low-Carbon Lifestyle Debit Card"
+There are many *neobanks*, or challenger banks, far too many to list. The table only includes a small sample of banks and the landscape is even larger if one includes the wider array of fintechs. Neo-banks often use sustainability marketing.
 
 ::: {.content-hidden unless-format="pdf"}
-![Bunq promises to combine banking and eco-friendly actions in the same user interface](./images/bunq.jpg){width="100%"}
+![Bunq promises to combine banking and eco-friendly actions in the same user interface - yet is this greenwashing?](./images/bunq.jpg){width="100%"}
 :::
 
 ```{=mdx}
@@ -548,18 +534,23 @@ Banks and Fintech are becoming more similar than ever.
 | Selma | Finnish investing app | EU |
 | Monzo |  | UK |
 | Nubank |  | Brazil |
-| EToro |  |  |
+| EToro |  | EU |
 | Revolut | From payments to investing | UK, EU |
 | Mos | Banking for students |  |
 | Robinhood |  | US |
 | Mintos | Buy bonds and loans | EU |
-|  |  |  |
 
 : Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   @andresenglerBerkshireHathawayInvests2022
+-   Crypto tools allow you to look at any wallet already
 -   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchai makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 -   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.
+-   @marisaadangilCriptomoedasVaoAcabar2022
+-   @caiojobimBitcoinFalhouCriptomoedas2022
+-   @EuropeanFintechsWatch2022
+-   green transparency
+-   fundamental analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.
 
 Does Individual Climate Action Matter?
 
@@ -567,9 +558,8 @@ Does Individual Climate Action Matter?
 
 *Conscious consumers* make up a small percentage of the entire consumer public. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
-### Sustainable Shopping
-
-Is it possible?
+-   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@gklinglmayrSustainableConsumerismSelfRegulation2016]
+-   Is Sustainable Shopping possible?
 
 Make use of indexes to compare companies.
 
@@ -579,11 +569,17 @@ Make use of indexes to compare companies.
 
 ### Shopping Footprint
 
-Double Eleven celebrated on November 11th (11/11) is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce livestreams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
+Double Eleven celebrated on November 11th (11/11) is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
 
--   
+-   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc. Impossible to turn the tide?
 
--   Legislation sets higher standards. [@EUBanForestkilling] Ban polluting products campaign success story, EU shops can't sell deforestation products.
+-   "Asia is set to account for 50% of the world's total online retail sales"
+
+Projected growth in online shopping [@forresterForresterGlobalOnline2024]
+
+```{python}
+shopping_growth()
+```
 
 -   Shop CO2e emissions for each company who i buy from? "get rid of brands"!! cause they hide and lie
 
@@ -599,17 +595,9 @@ Double Eleven celebrated on November 11th (11/11) is the world's largest shoppin
 
 -   Current shopping is like having a one-night stand. you barely know the name of your company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
 
--   **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practicies and deforestation".
-
--   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@gklinglmayrSustainableConsumerismSelfRegulation2016]
-
 -   @emilywaterfieldAppsThatCan2019
 
 -   Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers. @thegreenfactorEP62Gamification2022
-
--   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc. Impossible to turn the tide?
-
--   "Asia is set to account for 50% of the world's total online retail sales"
 
 -   What is the consumer CO~2~ contribution? What is the target?
 
@@ -624,8 +612,6 @@ Double Eleven celebrated on November 11th (11/11) is the world's largest shoppin
 -   @franklintempletondistributorsincConsumerCloutDriving2021
 
 -   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
-
--   **Live more sustainably with 10 minutes per day.**
 
 -   @mckinseyRiseInclusiveConsumer2022 Inclusive consumer
 
@@ -763,7 +749,7 @@ For example **Flickr invested 3000 USD in carbon credits.**
 
 ### Retail Investing is Financial Inclusion
 
-"**Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"**
+"Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"
 
 *Retail Investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in @turrinCashlessChinaDigital2021: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
@@ -804,13 +790,25 @@ For example **Flickr invested 3000 USD in carbon credits.**
 
 ### Green Bonds
 
+Green bonds are released by organizations (companies, cities) to raise money for green transformation, usually for building something.
+
 -   Sustainability Linked Bonds: What this?
 
 -   In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city \[
 
+-   Hong Kong multi-currency green bond (on the blockchain?): <https://www.globalgovernmentfintech.com/hong-kong-multi-currency-digital-green-bonds/>
+
+-   <https://www.nomuraconnects.com/focused-thinking-posts/hong-kong-harnesses-blockchain-in-green-finance-push/>
+
 -   @anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022: Aramco, Saudi Arabian public petroleum and natural gas company 'Fake green bonds' under scrutiny.
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
+
+-   monitoring green bonds on EU blockchain <https://www.sciencedirect.com/science/article/abs/pii/S1544612323007699>
+
+-   in china <https://www.sciencedirect.com/science/article/abs/pii/S0140988322006302>
+
+-   <https://www.sciencedirect.com/science/article/pii/S0959652623036995>
 
 -   @priscilaazevedorochaGreenwashingEnters222022: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak"
 
@@ -1249,3 +1247,5 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 | Accessibility | **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?** |
 | Loyalty | Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day? |
 |  | **Feature:** We need a dashboard of comparable public indicators about each company. |
+|  | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation". |
+|  | Live more sustainably with 10 minutes per day. |
