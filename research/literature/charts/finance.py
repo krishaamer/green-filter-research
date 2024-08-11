@@ -92,3 +92,38 @@ def fintech_chart():
     plt.tight_layout()
     plt.show()
 
+
+def asset_classes():
+
+    fig, ax = plt.subplots(figsize=(6, 8))
+
+    # Re-defining a simple list for years and corresponding asset classes
+    years = [
+        "Pre-1600s", "1600s–1700s", "1800s", "1900s",
+        "2000s", "2010s", "2020s"
+    ]
+    asset_classes = [
+        "Precious Metals, Land, Livestock",
+        "Government Bonds, Stocks",
+        "Corporate Bonds, Commodities Futures",
+        "Mutual Funds, Derivatives, Venture Capital, REITs",
+        "Hedge Funds, Private Equity, Cryptocurrencies, P2P Lending",
+        "ETFs, Green Bonds, ICOs, NFTs",
+        "DeFi, Metaverse Land, Tokenized Real Assets, ESG Investing, Data as an Asset"
+    ]
+
+    # Create a simplified vertical timeline
+    for i, (year, assets) in enumerate(zip(years, asset_classes)):
+        y_pos = (len(years) - i - 1) * 0.26  # Adjust spacing by multiplying by 0.35
+        ax.text(0.5, y_pos, year, ha='center', va='center', fontsize=12, bbox=dict(facecolor='white', edgecolor='black'))
+        ax.text(0.5, y_pos - 0.1, assets, ha='center', va='center', fontsize=10)
+
+    # Draw a central line to indicate the timeline
+    ax.axvline(x=0.5, ymin=0, ymax=1, color='red', linestyle='-', linewidth=1)
+
+    # Remove axes for clarity
+    ax.axis('off')
+
+    # Display the graph
+    plt.tight_layout()
+    plt.show()

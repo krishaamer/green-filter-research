@@ -866,6 +866,9 @@ networks*** of the biological (human) brain, returning to the idea of
 connections between neurons, but digitally, on layers much deeper than
 attempted before.
 
+“Generating structured data from unstructured inputs is one of the core
+use cases for AI” Pokrass (2024)
+
 **Reinforcement Learning with Human Feedback (RLHF)**
 
 Combining deep learning with reinforcement learning and reinforcement
@@ -1199,24 +1202,24 @@ ConversionError: Failed to convert value(s) to axis units: masked_array(data=[--
             dtype=float64)
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mTypeError[0m                                 Traceback (most recent call last)
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/axis.py:1804[0m, in [0;36mAxis.convert_units[0;34m(self, x)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/axis.py:1804[0m, in [0;36mAxis.convert_units[0;34m(self, x)[0m
 [1;32m   1803[0m [38;5;28;01mtry[39;00m:
 [0;32m-> 1804[0m     ret [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mconverter[49m[38;5;241;43m.[39;49m[43mconvert[49m[43m([49m[43mx[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43munits[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[43m)[49m
 [1;32m   1805[0m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m [38;5;28;01mas[39;00m e:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/category.py:57[0m, in [0;36mStrCategoryConverter.convert[0;34m(value, unit, axis)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/category.py:57[0m, in [0;36mStrCategoryConverter.convert[0;34m(value, unit, axis)[0m
 [1;32m     56[0m [38;5;66;03m# force an update so it also does type checking[39;00m
 [0;32m---> 57[0m [43munit[49m[38;5;241;43m.[39;49m[43mupdate[49m[43m([49m[43mvalues[49m[43m)[49m
 [1;32m     58[0m [38;5;28;01mreturn[39;00m np[38;5;241m.[39mvectorize(unit[38;5;241m.[39m_mapping[38;5;241m.[39m[38;5;21m__getitem__[39m, otypes[38;5;241m=[39m[[38;5;28mfloat[39m])(values)
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/category.py:216[0m, in [0;36mUnitData.update[0;34m(self, data)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/category.py:216[0m, in [0;36mUnitData.update[0;34m(self, data)[0m
 [1;32m    214[0m [38;5;28;01mfor[39;00m val [38;5;129;01min[39;00m OrderedDict[38;5;241m.[39mfromkeys(data):
 [1;32m    215[0m     [38;5;66;03m# OrderedDict just iterates over unique values in data.[39;00m
 [0;32m--> 216[0m     [43m_api[49m[38;5;241;43m.[39;49m[43mcheck_isinstance[49m[43m([49m[43m([49m[38;5;28;43mstr[39;49m[43m,[49m[43m [49m[38;5;28;43mbytes[39;49m[43m)[49m[43m,[49m[43m [49m[43mvalue[49m[38;5;241;43m=[39;49m[43mval[49m[43m)[49m
 [1;32m    217[0m     [38;5;28;01mif[39;00m convertible:
 [1;32m    218[0m         [38;5;66;03m# this will only be called so long as convertible is True.[39;00m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/_api/__init__.py:91[0m, in [0;36mcheck_isinstance[0;34m(types, **kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/_api/__init__.py:91[0m, in [0;36mcheck_isinstance[0;34m(types, **kwargs)[0m
 [1;32m     90[0m     names[38;5;241m.[39mappend([38;5;124m"[39m[38;5;124mNone[39m[38;5;124m"[39m)
 [0;32m---> 91[0m [38;5;28;01mraise[39;00m [38;5;167;01mTypeError[39;00m(
 [1;32m     92[0m     [38;5;124m"[39m[38;5;132;01m{!r}[39;00m[38;5;124m must be an instance of [39m[38;5;132;01m{}[39;00m[38;5;124m, not a [39m[38;5;132;01m{}[39;00m[38;5;124m"[39m[38;5;241m.[39mformat(
@@ -1230,34 +1233,34 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/_api/__init__.py
 The above exception was the direct cause of the following exception:
 
 [0;31mConversionError[0m                           Traceback (most recent call last)
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/formatters.py:338[0m, in [0;36mBaseFormatter.__call__[0;34m(self, obj)[0m
-[1;32m    336[0m     [38;5;28;01mpass[39;00m
-[1;32m    337[0m [38;5;28;01melse[39;00m:
-[0;32m--> 338[0m     [38;5;28;01mreturn[39;00m [43mprinter[49m[43m([49m[43mobj[49m[43m)[49m
-[1;32m    339[0m [38;5;66;03m# Finally look for special method names[39;00m
-[1;32m    340[0m method [38;5;241m=[39m get_real_method(obj, [38;5;28mself[39m[38;5;241m.[39mprint_method)
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/formatters.py:343[0m, in [0;36mBaseFormatter.__call__[0;34m(self, obj)[0m
+[1;32m    341[0m     [38;5;28;01mpass[39;00m
+[1;32m    342[0m [38;5;28;01melse[39;00m:
+[0;32m--> 343[0m     [38;5;28;01mreturn[39;00m [43mprinter[49m[43m([49m[43mobj[49m[43m)[49m
+[1;32m    344[0m [38;5;66;03m# Finally look for special method names[39;00m
+[1;32m    345[0m method [38;5;241m=[39m get_real_method(obj, [38;5;28mself[39m[38;5;241m.[39mprint_method)
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/pylabtools.py:169[0m, in [0;36mretina_figure[0;34m(fig, base64, **kwargs)[0m
-[1;32m    160[0m [38;5;28;01mdef[39;00m [38;5;21mretina_figure[39m(fig, base64[38;5;241m=[39m[38;5;28;01mFalse[39;00m, [38;5;241m*[39m[38;5;241m*[39mkwargs):
-[1;32m    161[0m     [38;5;124;03m"""format a figure as a pixel-doubled (retina) PNG[39;00m
-[1;32m    162[0m 
-[1;32m    163[0m [38;5;124;03m    If `base64` is True, return base64-encoded str instead of raw bytes[39;00m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/pylabtools.py:187[0m, in [0;36mretina_figure[0;34m(fig, base64, **kwargs)[0m
+[1;32m    178[0m [38;5;28;01mdef[39;00m [38;5;21mretina_figure[39m(fig, base64[38;5;241m=[39m[38;5;28;01mFalse[39;00m, [38;5;241m*[39m[38;5;241m*[39mkwargs):
+[1;32m    179[0m [38;5;250m    [39m[38;5;124;03m"""format a figure as a pixel-doubled (retina) PNG[39;00m
+[1;32m    180[0m 
+[1;32m    181[0m [38;5;124;03m    If `base64` is True, return base64-encoded str instead of raw bytes[39;00m
 [0;32m   (...)[0m
-[1;32m    167[0m [38;5;124;03m        base64 argument[39;00m
-[1;32m    168[0m [38;5;124;03m    """[39;00m
-[0;32m--> 169[0m     pngdata [38;5;241m=[39m [43mprint_figure[49m[43m([49m[43mfig[49m[43m,[49m[43m [49m[43mfmt[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mretina[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[43mbase64[49m[38;5;241;43m=[39;49m[38;5;28;43;01mFalse[39;49;00m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
-[1;32m    170[0m     [38;5;66;03m# Make sure that retina_figure acts just like print_figure and returns[39;00m
-[1;32m    171[0m     [38;5;66;03m# None when the figure is empty.[39;00m
-[1;32m    172[0m     [38;5;28;01mif[39;00m pngdata [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
+[1;32m    185[0m [38;5;124;03m        base64 argument[39;00m
+[1;32m    186[0m [38;5;124;03m    """[39;00m
+[0;32m--> 187[0m     pngdata [38;5;241m=[39m [43mprint_figure[49m[43m([49m[43mfig[49m[43m,[49m[43m [49m[43mfmt[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mretina[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[43mbase64[49m[38;5;241;43m=[39;49m[38;5;28;43;01mFalse[39;49;00m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
+[1;32m    188[0m     [38;5;66;03m# Make sure that retina_figure acts just like print_figure and returns[39;00m
+[1;32m    189[0m     [38;5;66;03m# None when the figure is empty.[39;00m
+[1;32m    190[0m     [38;5;28;01mif[39;00m pngdata [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/pylabtools.py:152[0m, in [0;36mprint_figure[0;34m(fig, fmt, bbox_inches, base64, **kwargs)[0m
-[1;32m    149[0m     [38;5;28;01mfrom[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mbackend_bases[39;00m [38;5;28;01mimport[39;00m FigureCanvasBase
-[1;32m    150[0m     FigureCanvasBase(fig)
-[0;32m--> 152[0m [43mfig[49m[38;5;241;43m.[39;49m[43mcanvas[49m[38;5;241;43m.[39;49m[43mprint_figure[49m[43m([49m[43mbytes_io[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkw[49m[43m)[49m
-[1;32m    153[0m data [38;5;241m=[39m bytes_io[38;5;241m.[39mgetvalue()
-[1;32m    154[0m [38;5;28;01mif[39;00m fmt [38;5;241m==[39m [38;5;124m'[39m[38;5;124msvg[39m[38;5;124m'[39m:
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/pylabtools.py:170[0m, in [0;36mprint_figure[0;34m(fig, fmt, bbox_inches, base64, **kwargs)[0m
+[1;32m    167[0m     [38;5;28;01mfrom[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mbackend_bases[39;00m [38;5;28;01mimport[39;00m FigureCanvasBase
+[1;32m    168[0m     FigureCanvasBase(fig)
+[0;32m--> 170[0m [43mfig[49m[38;5;241;43m.[39;49m[43mcanvas[49m[38;5;241;43m.[39;49m[43mprint_figure[49m[43m([49m[43mbytes_io[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkw[49m[43m)[49m
+[1;32m    171[0m data [38;5;241m=[39m bytes_io[38;5;241m.[39mgetvalue()
+[1;32m    172[0m [38;5;28;01mif[39;00m fmt [38;5;241m==[39m [38;5;124m'[39m[38;5;124msvg[39m[38;5;124m'[39m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py:2175[0m, in [0;36mFigureCanvasBase.print_figure[0;34m(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backend_bases.py:2175[0m, in [0;36mFigureCanvasBase.print_figure[0;34m(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)[0m
 [1;32m   2172[0m     [38;5;66;03m# we do this instead of `self.figure.draw_without_rendering`[39;00m
 [1;32m   2173[0m     [38;5;66;03m# so that we can inject the orientation[39;00m
 [1;32m   2174[0m     [38;5;28;01mwith[39;00m [38;5;28mgetattr[39m(renderer, [38;5;124m"[39m[38;5;124m_draw_disabled[39m[38;5;124m"[39m, nullcontext)():
@@ -1265,21 +1268,21 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py
 [1;32m   2176[0m [38;5;28;01mif[39;00m bbox_inches:
 [1;32m   2177[0m     [38;5;28;01mif[39;00m bbox_inches [38;5;241m==[39m [38;5;124m"[39m[38;5;124mtight[39m[38;5;124m"[39m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:95[0m, in [0;36m_finalize_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer, *args, **kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:95[0m, in [0;36m_finalize_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer, *args, **kwargs)[0m
 [1;32m     93[0m [38;5;129m@wraps[39m(draw)
 [1;32m     94[0m [38;5;28;01mdef[39;00m [38;5;21mdraw_wrapper[39m(artist, renderer, [38;5;241m*[39margs, [38;5;241m*[39m[38;5;241m*[39mkwargs):
 [0;32m---> 95[0m     result [38;5;241m=[39m [43mdraw[49m[43m([49m[43martist[49m[43m,[49m[43m [49m[43mrenderer[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
 [1;32m     96[0m     [38;5;28;01mif[39;00m renderer[38;5;241m.[39m_rasterizing:
 [1;32m     97[0m         renderer[38;5;241m.[39mstop_rasterizing()
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
 [1;32m     69[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 [1;32m     70[0m         renderer[38;5;241m.[39mstart_filter()
 [0;32m---> 72[0m     [38;5;28;01mreturn[39;00m [43mdraw[49m[43m([49m[43martist[49m[43m,[49m[43m [49m[43mrenderer[49m[43m)[49m
 [1;32m     73[0m [38;5;28;01mfinally[39;00m:
 [1;32m     74[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/figure.py:3162[0m, in [0;36mFigure.draw[0;34m(self, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/figure.py:3162[0m, in [0;36mFigure.draw[0;34m(self, renderer)[0m
 [1;32m   3159[0m             [38;5;66;03m# ValueError can occur when resizing a window.[39;00m
 [1;32m   3161[0m     [38;5;28mself[39m[38;5;241m.[39mpatch[38;5;241m.[39mdraw(renderer)
 [0;32m-> 3162[0m     [43mmimage[49m[38;5;241;43m.[39;49m[43m_draw_list_compositing_images[49m[43m([49m
@@ -1287,7 +1290,7 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/figure.py:3162[
 [1;32m   3165[0m     renderer[38;5;241m.[39mclose_group([38;5;124m'[39m[38;5;124mfigure[39m[38;5;124m'[39m)
 [1;32m   3166[0m [38;5;28;01mfinally[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/image.py:132[0m, in [0;36m_draw_list_compositing_images[0;34m(renderer, parent, artists, suppress_composite)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/image.py:132[0m, in [0;36m_draw_list_compositing_images[0;34m(renderer, parent, artists, suppress_composite)[0m
 [1;32m    130[0m [38;5;28;01mif[39;00m not_composite [38;5;129;01mor[39;00m [38;5;129;01mnot[39;00m has_images:
 [1;32m    131[0m     [38;5;28;01mfor[39;00m a [38;5;129;01min[39;00m artists:
 [0;32m--> 132[0m         [43ma[49m[38;5;241;43m.[39;49m[43mdraw[49m[43m([49m[43mrenderer[49m[43m)[49m
@@ -1295,14 +1298,14 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/image.py:132[0m
 [1;32m    134[0m     [38;5;66;03m# Composite any adjacent images together[39;00m
 [1;32m    135[0m     image_group [38;5;241m=[39m []
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
 [1;32m     69[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 [1;32m     70[0m         renderer[38;5;241m.[39mstart_filter()
 [0;32m---> 72[0m     [38;5;28;01mreturn[39;00m [43mdraw[49m[43m([49m[43martist[49m[43m,[49m[43m [49m[43mrenderer[49m[43m)[49m
 [1;32m     73[0m [38;5;28;01mfinally[39;00m:
 [1;32m     74[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/axes/_base.py:3143[0m, in [0;36m_AxesBase.draw[0;34m(self, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/axes/_base.py:3143[0m, in [0;36m_AxesBase.draw[0;34m(self, renderer)[0m
 [1;32m   3140[0m [38;5;28;01mif[39;00m artists_rasterized:
 [1;32m   3141[0m     _draw_rasterized([38;5;28mself[39m[38;5;241m.[39mfigure, artists_rasterized, renderer)
 [0;32m-> 3143[0m [43mmimage[49m[38;5;241;43m.[39;49m[43m_draw_list_compositing_images[49m[43m([49m
@@ -1310,7 +1313,7 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/axes/_base.py:31
 [1;32m   3146[0m renderer[38;5;241m.[39mclose_group([38;5;124m'[39m[38;5;124maxes[39m[38;5;124m'[39m)
 [1;32m   3147[0m [38;5;28mself[39m[38;5;241m.[39mstale [38;5;241m=[39m [38;5;28;01mFalse[39;00m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/image.py:132[0m, in [0;36m_draw_list_compositing_images[0;34m(renderer, parent, artists, suppress_composite)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/image.py:132[0m, in [0;36m_draw_list_compositing_images[0;34m(renderer, parent, artists, suppress_composite)[0m
 [1;32m    130[0m [38;5;28;01mif[39;00m not_composite [38;5;129;01mor[39;00m [38;5;129;01mnot[39;00m has_images:
 [1;32m    131[0m     [38;5;28;01mfor[39;00m a [38;5;129;01min[39;00m artists:
 [0;32m--> 132[0m         [43ma[49m[38;5;241;43m.[39;49m[43mdraw[49m[43m([49m[43mrenderer[49m[43m)[49m
@@ -1318,46 +1321,46 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/image.py:132[0m
 [1;32m    134[0m     [38;5;66;03m# Composite any adjacent images together[39;00m
 [1;32m    135[0m     image_group [38;5;241m=[39m []
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
 [1;32m     69[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 [1;32m     70[0m         renderer[38;5;241m.[39mstart_filter()
 [0;32m---> 72[0m     [38;5;28;01mreturn[39;00m [43mdraw[49m[43m([49m[43martist[49m[43m,[49m[43m [49m[43mrenderer[49m[43m)[49m
 [1;32m     73[0m [38;5;28;01mfinally[39;00m:
 [1;32m     74[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/collections.py:1005[0m, in [0;36m_CollectionWithSizes.draw[0;34m(self, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/collections.py:1005[0m, in [0;36m_CollectionWithSizes.draw[0;34m(self, renderer)[0m
 [1;32m   1002[0m [38;5;129m@artist[39m[38;5;241m.[39mallow_rasterization
 [1;32m   1003[0m [38;5;28;01mdef[39;00m [38;5;21mdraw[39m([38;5;28mself[39m, renderer):
 [1;32m   1004[0m     [38;5;28mself[39m[38;5;241m.[39mset_sizes([38;5;28mself[39m[38;5;241m.[39m_sizes, [38;5;28mself[39m[38;5;241m.[39mfigure[38;5;241m.[39mdpi)
 [0;32m-> 1005[0m     [38;5;28;43msuper[39;49m[43m([49m[43m)[49m[38;5;241;43m.[39;49m[43mdraw[49m[43m([49m[43mrenderer[49m[43m)[49m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:72[0m, in [0;36mallow_rasterization.<locals>.draw_wrapper[0;34m(artist, renderer)[0m
 [1;32m     69[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 [1;32m     70[0m         renderer[38;5;241m.[39mstart_filter()
 [0;32m---> 72[0m     [38;5;28;01mreturn[39;00m [43mdraw[49m[43m([49m[43martist[49m[43m,[49m[43m [49m[43mrenderer[49m[43m)[49m
 [1;32m     73[0m [38;5;28;01mfinally[39;00m:
 [1;32m     74[0m     [38;5;28;01mif[39;00m artist[38;5;241m.[39mget_agg_filter() [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/collections.py:357[0m, in [0;36mCollection.draw[0;34m(self, renderer)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/collections.py:357[0m, in [0;36mCollection.draw[0;34m(self, renderer)[0m
 [1;32m    353[0m renderer[38;5;241m.[39mopen_group([38;5;28mself[39m[38;5;241m.[39m[38;5;18m__class__[39m[38;5;241m.[39m[38;5;18m__name__[39m, [38;5;28mself[39m[38;5;241m.[39mget_gid())
 [1;32m    355[0m [38;5;28mself[39m[38;5;241m.[39mupdate_scalarmappable()
 [0;32m--> 357[0m transform, offset_trf, offsets, paths [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_prepare_points[49m[43m([49m[43m)[49m
 [1;32m    359[0m gc [38;5;241m=[39m renderer[38;5;241m.[39mnew_gc()
 [1;32m    360[0m [38;5;28mself[39m[38;5;241m.[39m_set_gc_clip(gc)
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/collections.py:330[0m, in [0;36mCollection._prepare_points[0;34m(self)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/collections.py:330[0m, in [0;36mCollection._prepare_points[0;34m(self)[0m
 [1;32m    328[0m         paths[38;5;241m.[39mappend(mpath[38;5;241m.[39mPath(np[38;5;241m.[39mcolumn_stack([xs, ys]), path[38;5;241m.[39mcodes))
 [1;32m    329[0m     xs [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39mconvert_xunits(offsets[:, [38;5;241m0[39m])
 [0;32m--> 330[0m     ys [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mconvert_yunits[49m[43m([49m[43moffsets[49m[43m[[49m[43m:[49m[43m,[49m[43m [49m[38;5;241;43m1[39;49m[43m][49m[43m)[49m
 [1;32m    331[0m     offsets [38;5;241m=[39m np[38;5;241m.[39mma[38;5;241m.[39mcolumn_stack([xs, ys])
 [1;32m    333[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m transform[38;5;241m.[39mis_affine:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/artist.py:291[0m, in [0;36mArtist.convert_yunits[0;34m(self, y)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/artist.py:291[0m, in [0;36mArtist.convert_yunits[0;34m(self, y)[0m
 [1;32m    289[0m [38;5;28;01mif[39;00m ax [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m [38;5;129;01mor[39;00m ax[38;5;241m.[39myaxis [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
 [1;32m    290[0m     [38;5;28;01mreturn[39;00m y
 [0;32m--> 291[0m [38;5;28;01mreturn[39;00m [43max[49m[38;5;241;43m.[39;49m[43myaxis[49m[38;5;241;43m.[39;49m[43mconvert_units[49m[43m([49m[43my[49m[43m)[49m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/axis.py:1806[0m, in [0;36mAxis.convert_units[0;34m(self, x)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/axis.py:1806[0m, in [0;36mAxis.convert_units[0;34m(self, x)[0m
 [1;32m   1804[0m     ret [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39mconverter[38;5;241m.[39mconvert(x, [38;5;28mself[39m[38;5;241m.[39munits, [38;5;28mself[39m)
 [1;32m   1805[0m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m [38;5;28;01mas[39;00m e:
 [0;32m-> 1806[0m     [38;5;28;01mraise[39;00m munits[38;5;241m.[39mConversionError([38;5;124m'[39m[38;5;124mFailed to convert value(s) to axis [39m[38;5;124m'[39m

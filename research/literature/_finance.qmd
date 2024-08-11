@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart
+from charts.finance import money_chart, fintech_chart, asset_classes
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -65,9 +65,13 @@ Shopping, saving and investing are forms of capital allocation. In one way or an
 
 Money is created by governments by law: using central banks, which loan money to commercial banks. New types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
+### Increasing Number of Asset Classes
+
 new asset classes
 
-### Increasing Number of Asset Classes
+```{python}
+asset_classes()
+```
 
 There are many asset classes only some of which would be accessible to a retail investors.
 
