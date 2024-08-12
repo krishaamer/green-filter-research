@@ -55,6 +55,33 @@ export const quartoRawHtml =
 Examples of human-in-the-loop apps
 `,`
 <table>
+<thead>
+<tr class="header">
+<th>App</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>socratic.org</td>
+<td>Study buddy</td>
+</tr>
+<tr class="even">
+<td>youper.ai</td>
+<td>Mental health helper</td>
+</tr>
+<tr class="odd">
+<td>fireflies.ai</td>
+<td>Video call transcription</td>
+</tr>
+<tr class="even">
+<td>murf.ai</td>
+<td>Voice generator</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
 <caption>Table summarizing some problems with contemporary AIs.</caption>
 <colgroup>
 <col style="width: 36%" />
@@ -770,6 +797,15 @@ AIs in different forms of media.
 </tbody>
 </table>
 Design implications arising from this chapter.
+`,`
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Plap</td>
+</tr>
+</tbody>
+</table>
 `];
 
 ````mdx-code-block
@@ -1030,8 +1066,17 @@ building trust in AI systems and would form the foundations for ***AI
 acceptance***.
 
 There’s an increasing number of tools for LLM evaluation:
-https://www.trulens.org/ Leino et al. (2018) – https://docs.ragas.io/
-“Metrics-Driven Development” – https://www.langchain.com/langsmith
+
+-   “Evaluate and Track LLM Applications, Explainability for Neural
+    Networks” (**trueraTruLens2023?**; Leino et al., 2018)
+
+-   “evaluate your Retrieval Augmented Generation (RAG) pipelines,
+    Metrics-Driven Development” (**ragasMetricsDrivenDevelopment2023?**)
+
+-   LangSmith “developer platform for every step of the LLM-powered
+    application lifecycle, whether you’re building with LangChain or
+    not. Debug, collaborate, test, and monitor your LLM applications.”
+    (**langchainDynamicFewshotExamples2024?**)
 
 -   Tristan Greene (2022): when the quality of AI responses becomes good
     enough, people begin to get confused.
@@ -1092,10 +1137,8 @@ Personal AI Assistants to date have we created by large tech companies.
 even individuals for creating many new AI-assistants.**
 
 -   An explosion of personal AI assistants powered by GPT models.
--   https://socratic.org/
--   https://www.youper.ai/
--   https://app.fireflies.ai/login
--   Murf
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 Responsible AI Seeks to Mitigate Generative AIs’ Known Issues.
 
@@ -1115,7 +1158,7 @@ Research Center (Anon, 2023c).
 (Christiano, 2023) believes there are plenty of ways for bad outcomes
 (existential risk) even without extinction risk.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 In 2024, OpenAI released its “Model Spec” to define clearly their
 approach to AI safety with the stated intention to provide clear
@@ -1162,7 +1205,7 @@ ideas.
 Red-teaming means pushing the limits of LLMs, trying to get them to
 produce outputs that are racist, false, or otherwise unhelpful.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 
 ```python
@@ -1386,6 +1429,8 @@ Metacognition defined as *knowing about knowing* (Anon, 1994) or
 
 ## Companions
 
+**Natural Interaction**
+
 Literature delves into human-AI interactions on almost human-like level
 discussing what kind of roles can the AIs take. (Seeber et al., 2020)
 proposes a future research agenda for regarding ***AI assistants as
@@ -1442,7 +1487,7 @@ across varied scientific disciplines. While the fields of application
 are diverse, some key lessons can be transferred horizontally across
 fields of knowledge.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 -   Crompton (2021) highlights AI as decision-support for humans while
     differentiating between ***intended*** and ***unintended***
@@ -1524,7 +1569,7 @@ based on the data and context.
 -   Nielsen (2024b) information scent from Information Foraging theory
     (Pirolli & Card, 1999).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
 
 What is the user interface of the green transformation?
 
@@ -1545,7 +1590,7 @@ parts from social media users have an easier time to accept the
 innovative parts. add Viz charts. Avatars are increasingly common and
 new generations are used to talking to computers.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 There are also more philosophical approaches to ***Interface Studies:***
 David Hoang (2022), the head of product design at Webflow, suggests
@@ -1648,7 +1693,7 @@ business processes.
 
 -   Fu et al. (2022) Learning towards conversational AI: Survey
 
-### Affective Computing for Human-Friendly Machines
+### Affective Computing Enables Human-Friendly Machines
 
 Rosalind Picard is the founder of the *affective computing* field. Her
 pioneering work aims to make computers more human-friendly. Because of
@@ -1706,7 +1751,7 @@ functioning is a inherently human motivation (Bassett, 2019; Rogers,
 
 Natural language generation exists since Eliza
 
-### Empathy Enables Trust
+### Empathy Builds Trust
 
 Today’s machines are much more capable so it’s not a surprise humans
 would like to talk to them. One example is ***AI Friend*** is Replika, a
@@ -1714,7 +1759,7 @@ computer model trained to be your companion in daily life. (Jiang, Zhang
 & Pian, 2022) describes how Replika users in China using in 5 main ways,
 all of which rely on empathy.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
 -   Google is developing an AI assistant for giving life advice Goswami
     (2023).
@@ -1747,11 +1792,11 @@ Usability sets the baseline but AI-interfaces are capable of more.
 
 How do the tenets of user experience (UX) apply to AI?
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
 
 Gupta (2023) proposes 3 simple goals for AI:
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
 Usability Guidelines
 
@@ -1792,7 +1837,7 @@ Microsoft provides guidelines for Human-AI interaction (Li et al.
 (2022); Amershi et al. (2019)) which provides useful heuristics
 categorized by context and time.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
 
 Combi et al. (2022) proposes a conceptual framework for XAI, analysis AI
 based on Interpretability, Understandability, Usability, and Usefulness.
@@ -1962,7 +2007,7 @@ analyzing medical data.
     utilitarian and hedonic value are affected differently by social
     anxiety.”
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
 
 ### Human-Computer Interactions Without the “Computer”
 
@@ -2062,7 +2107,7 @@ Should AIs look anthropomorphic or fade in the background? It’s an open
 question. Perhaps we can expect a mix of both depending on the context
 of use and goals of the particular AI.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
 
 -   (Costa & Silva, 2022) “Interaction Design for AI Systems”
 
@@ -2084,7 +2129,7 @@ and (comic) books. In most cases, they have a physical presence or a
 voice, so they could be visible for the viewers. Some include KITT
 (Knight Industries Two Thousand).
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
 
 
 ```python
@@ -2133,7 +2178,7 @@ assistants:
     ‘human-like’ presence. Standford research: “humans expect computers
     to be like humans or places”
 
-### Roleplay Enables Computers to Fit in Social Contexts
+### Roleplay Enables Computers to Fit Into Social Contexts
 
 Should AIs be required to disclose they are AIs?
 
@@ -2247,7 +2292,7 @@ Google’s services, AI is hidden and calls no attention itself. It’s
 simply the complex system working behind the scenes to delivery a result
 in a barebones interface.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
 
 ````mdx-code-block
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
@@ -2303,6 +2348,8 @@ relationship between emotions and financial AI.
 This chapter looked at AI in general since its early history and then
 focused on AI assistants in particular.
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[15] }} />
 
 ## Feature Ideas
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[16] }} />

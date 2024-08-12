@@ -11,11 +11,13 @@ import Figure from '/src/components/Figure'
 import ETF from '../images/etfmatic.png'
 import Bunq from '../images/bunq.jpg'
 ```
-# Finance
+# Sustainable Finance
 
 ## The Journey from Consumer to Investor
 
 *Fintechs* (digital financial technologies) enable new modes of interaction design which increasingly blur boundaries between shopping, saving, and investing, giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy and entice consumers to learn more about financial markets. Shopping, saving, and investing are converging on the same digital banking platforms, with features such as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
+
+Apps that started out with payments such as Revolut and N26 have branched out into offering savings accounts and investing options.
 
 Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
@@ -29,16 +31,21 @@ trend. good news.
 
 ### Legislation
 
--   Legislation sets higher standards. [@EUBanForestkilling] Ban polluting products campaign success story, EU shops can't sell deforestation products.
--   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
--   @houseofcommonsEnvironmentalAuditSecond2002: Already in 2001, the UK government was discussing ways to promote sustainable investment "fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment".
--   @europeanparliamentDirective2014652014 Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: "more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments".
--   @kentonMiFIDII2020: Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors". @europeansecuritiesandmarketsauthorityMiFIDII2017: "MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants".
--   @hmtreasuryChancellorSetsOut2020 Taxonomy of sustainable activities in the UK
--   @WorldEconomicOutlook2023
--   @quinsonTrumpPlanBlock2020 While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
+Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants" [@europeansecuritiesandmarketsauthorityMiFIDII2017].
 
-There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
+Already in 2001, while still part of the EU, the UK government was discussing ways to promote sustainable investment *"fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment"* [@houseofcommonsEnvironmentalAuditSecond2002]. More recently, [@hmtreasuryChancellorSetsOut2020] released a taxonomy of sustainable activities in the UK.
+
+Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024]
+
+While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
+
+-   Legislation sets higher standards.
+
+-   [@EUBanForestkilling2022] Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures.
+
+-   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
+
+-   @WorldEconomicOutlook2023
 
 -   For example - In Sweden "Preferences for sustainable and responsible equity funds
 
@@ -246,9 +253,9 @@ Efforts to connec carbon markets, carbonmark.com
 
 "climate action as an asset-liability problem"
 
-"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." https://www.carbonchain.com/measure Ratings for mines https://www.carbonchain.com/reports
+"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-## The Investment Gap
+## Eco-Investment Gap
 
 The Gargantuan Eco-Investment Gap
 
@@ -330,6 +337,28 @@ Decoupling Economic Growth from Environmental Degradation
 Eco-economic decoupling
 
 Decarbonizing Economics
+
+### Decoupling Economic Growth from CO2 Emissions
+
+New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+
+-   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
+
+-   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeframe.
+
+-   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
+
+-   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
+
+-   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. @amabileProgressPrincipleUsing2011
+
+-   Capital misallocation
+
+-   Securitization
+
+-   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
+
+-   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
 ### New Metrics
 
@@ -442,31 +471,7 @@ metrics and goals: ESG, SDGs,
 
 -   @stockholmresiliencecentretvKateRaworthPresenting2017
 
--   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors \[@atalAdamSmithHis2024\]
-
-### Decoupling
-
-Debating Decoupling Economic Growth from CO2 Emissions
-
-New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
-
--   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
-
--   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeframe.
-
--   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
-
--   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
-
--   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. @amabileProgressPrincipleUsing2011
-
--   Capital misallocation
-
--   Securitization
-
--   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
-
--   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
+-   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors [@atalAdamSmithHis2024]
 
 ## Shopping
 
@@ -565,7 +570,7 @@ Make use of indexes to compare companies.
 
 ### Shopping Footprint
 
-Double Eleven celebrated on November 11th (11/11) is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
+*Double Eleven* celebrated on November 11th (11/11) is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
 
 -   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc. Impossible to turn the tide?
 
@@ -647,9 +652,11 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 -   College students might not have a pension fund yet.
 
--   Bank inside of Whatsapp for the underbanked gig workers in Latin America: https://www.kontigo.lat/
+-   Bank inside of Whatsapp for the underbanked gig workers in Latin America @ycombinatorKontigoUSDCneobankLatinos2023
 
 ## Investing
+
+-   There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
 
 -   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
 
@@ -717,18 +724,6 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-### Indices
-
-Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
-
--   Climate Neutral Certified Standard
-
--   The Conservation Alliance: <https://www.changeclimate.org/standards>
-
--   1% For the Planet
-
-For example **Flickr invested 3000 USD in carbon credits.**
-
 ### Personalized Investing
 
 -   2022 saw a wave of new platforms aiming to make investing easier for retail investors
@@ -784,37 +779,33 @@ For example **Flickr invested 3000 USD in carbon credits.**
 |           |
 |           |
 
-### Green Bonds
+### Green and Sustainability-Linked Bonds
 
-Green bonds are released by organizations (companies, cities) to raise money for green transformation, usually for building something.
+Bonds are a form of debt investment. Sustainability Linked Bonds also known as green bonds.
 
--   Sustainability Linked Bonds: What this?
+Green bonds are released by organizations (companies, cities) to raise money for green transformation, usually for building something to improve sustainability.
 
--   world bank raise 110 million on blockchain green bond <https://www.worldbank.org/en/news/press-release/2018/08/23/world-bank-prices-first-global-blockchain-bond-raising-a110-million>
+-   Sustainability Linked Bonds: What this? @priscilaazevedorochaGreenwashingEnters222022: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
--   individuals can't emit a green bond but they can invest in them. it can be a way to invest locally. In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city \[<https://www.sei.org/wp-content/uploads/2020/03/discussion-brief-oct-2020-financing-sustainable-city-goals-in-sweden.pdf> bonds not emitted for finacial reasons but to improve the reputation and city image , lower interest rate (greenium), difficult to certify, monitor report, measure impact, similar in returns to traditiional bonds.
+-   world bank raise 110 million on blockchain green bond [@worldbankWorldBankPrices2018].
 
--   Hong Kong multi-currency green bond (on the blockchain?): <https://www.globalgovernmentfintech.com/hong-kong-multi-currency-digital-green-bonds/>
+-   individuals can't emit a green bond but they can invest in them. it can be a way to invest locally. In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city \[ bonds not emitted for financial reasons but to improve the reputation and city image , lower interest rate (aptly named *greenium*), difficult to certify, monitor report, measure impact, similar in returns to traditional bonds.
 
--   <https://www.nomuraconnects.com/focused-thinking-posts/hong-kong-harnesses-blockchain-in-green-finance-push/>
+-   Hong Kong multi-currency green bond (on the blockchain?): [@hallHKBreaksNew2024]. The issuer (Hong Kong gov) hopes to reduce greenwashing [@kitanoHongKongHarnesses2024]
 
 -   @anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022: Aramco, Saudi Arabian public petroleum and natural gas company 'Fake green bonds' under scrutiny.
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
 
--   monitoring green bonds on EU blockchain <https://www.sciencedirect.com/science/article/abs/pii/S1544612323007699>
+-   monitoring green bonds on EU blockchain [@christodoulouBlockchainbasedFrameworkEffective2023].
 
--   in china <https://www.sciencedirect.com/science/article/abs/pii/S0140988322006302>
+-   in china [@qinBlockchainMarketGreen2023].
 
--   <https://www.sciencedirect.com/science/article/pii/S0959652623036995>
-
--   @priscilaazevedorochaGreenwashingEnters222022: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak"
-
--   [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
+-   overview of 23 low-carbon blockchains @alzoubiGreenBlockchainMove2023
 
 -   Green Bonds ESG data needs to be visualized Passive Investing Why focus on PI instead of daily investing like Robinhood?
 
--   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 trillion usd by 2030 @macaskillThereGreenPremium2021
+-   257 billion USD worth of green bonds issues annually in 2019, expected to reach 1 Trillion USD by 2030 @macaskillThereGreenPremium2021
 
 -   China has the 2nd largest green bond market in the world; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@liWhereGreenBond2022].
 
@@ -870,9 +861,19 @@ There are many 'green investment platforms' who to trust?
 
 ## Benchmarks
 
-"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU."
+"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU." [@europeancommissionEULabelsBenchmarks2019].
 
-<https://finance.ec.europa.eu/sustainable-finance/disclosures/eu-labels-benchmarks-climate-esg-and-benchmarks-esg-disclosures_en>
+### Indices
+
+Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
+
+-   Climate Neutral Certified Standard
+
+-   The Conservation Alliance: [@climateneutralcertifiedClimateNeutralStandards2023].
+
+-   1% For the Planet
+
+For example **Flickr invested 3000 USD in carbon credits.**
 
 ### Indexes
 
@@ -920,13 +921,13 @@ There are many different certifications
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
--   Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
+-   Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
 -   ESG apps in Singapore:
 
--   DBS LiveBetter consumer sustainbility app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
+-   DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
 
--   https://www.gprnt.ai/
+-   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
 ESG Complicance Systems: - MEET - EXCEED - LEAD
 
@@ -986,7 +987,9 @@ All of the world's products are subject to one or another standard and although 
 
 -   @OpenFoodFacts app for nutrition and sustainability data
 
-### ESG Crisis
+## ESG Crisis
+
+"Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]\].
 
 -   ESG greenwashing @baldiRoleESGScoring2022
 
@@ -1014,7 +1017,7 @@ ESG Needs Standardisation
 
 -   ESG companies don't emit less CO2 than non-ESG companies.
 
--   https://www.openesg.com/ because you can't trust ESG [@aikmanESGDAOOut2022] !
+-   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
 -   ESG is filled with greenwashing
 
@@ -1031,10 +1034,6 @@ ESG Needs Standardisation
 -   Implication for design: ESG can't trusted.
 
 -   In Taiwan, the *FTSE4Good TIP Taiwan ESG Index* tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024].
-
-<!-- -->
-
--   @margarytakirakosianMethodologiesAreAll2022 suggests "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy."
 
 -   Trading ESG futures?? because climate is slow it makes sense to trade de climate future
 
@@ -1090,7 +1089,11 @@ ESG Needs Standardisation
 |                                      |     |     |
 |                                      |     |     |
 
-### Greenwashing Disturbs Sustainable Capital Allocation
+## Greenwashing
+
+Greenwashing Disturbs Sustainable Capital Allocation
+
+Greenwashing erodes trust.
 
 Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
@@ -1134,6 +1137,8 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
 ### Realtime ESG
 
+-   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
+
 There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
 -   @kylewiggersMakersiteLands18M2022 proposes makersite, instant sustainability impact from supply chain.
@@ -1150,9 +1155,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   People working at the factories can report conditions
 
--   @ESGAnalyticsRealtime: "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer."
-
-### Governance or Corporate Responsibility
+-   @ESGAnalyticsRealtime: Governance or Corporate Responsibility
 
 How are large corporations responding to the climate crisis?
 
@@ -1160,7 +1163,7 @@ Lack of leadership. [@capgeminiWorldBalanceWhy2022]: "Many business leaders see 
 
 The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion in the world -, recognizes the potential impact of *conscious consumers* as a threat [@hoikkalaCEOSeesTerrible2019].
 
-Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers @walmartProjectGigaton2023. These examples underlines how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
+Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers [@walmartProjectGigaton2023]. These examples underline how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
 Large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business [@greensefaNatureVoteSuccess2023].
 
@@ -1247,3 +1250,11 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 |  | **Feature:** We need a dashboard of comparable public indicators about each company. |
 |  | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation". |
 |  | Live more sustainably with 10 minutes per day. |
+
+Features
+
+## Feature Ideas
+
+|     |      |
+|-----|------|
+|     | Plap |

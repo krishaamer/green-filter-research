@@ -90,7 +90,12 @@ The problems of opaqueness creates the field of explainable AI.
 
 "As humans we tend to fear what we don't understand" is a common sentiment which has been confirmed psychology [@allportNaturePrejudice1979]. Current AI-models are opaque '*black boxes'*, where it's difficult to pin-point exactly why a certain decision was made or how a certain expression was reached, not unlike inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought patterns*** inside the model. Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which could lead to building trust in AI systems and would form the foundations for ***AI acceptance***.
 
-There's an increasing number of tools for LLM evaluation: https://www.trulens.org/ @leinoInfluenceDirectedExplanationsDeep2018 -- https://docs.ragas.io/ "Metrics-Driven Development" -- https://www.langchain.com/langsmith
+There's an increasing number of tools for LLM evaluation:
+
+-  "Evaluate and Track LLM Applications, Explainability for
+Neural Networks" [@trueraTruLens2023; @leinoInfluenceDirectedExplanationsDeep2018]
+- "evaluate your Retrieval Augmented Generation (RAG) pipelines, Metrics-Driven Development" @ragasMetricsDrivenDevelopment2023 
+- LangSmith "developer platform for every step of the LLM-powered application lifecycle, whether you’re building with LangChain or not. Debug, collaborate, test, and monitor your LLM applications." @langchainDynamicFewshotExamples2024
 
 -   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses becomes good enough, people begin to get confused.
 
@@ -122,10 +127,13 @@ The AI Credibility Heuristic: A Systematic Model explains how... similar to Dani
 Personal AI Assistants to date have we created by large tech companies. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
 
 -   An explosion of personal AI assistants powered by GPT models.
--   https://socratic.org/
--   https://www.youper.ai/
--   https://app.fireflies.ai/login
--   Murf
+
+| App          | Features                 |
+|--------------|--------------------------|
+| socratic.org | Study buddy              |
+| youper.ai    | Mental health helper     |
+| fireflies.ai | Video call transcription |
+| murf.ai      | Voice generator          |
 
 Responsible AI Seeks to Mitigate Generative AIs' Known Issues.
 
@@ -800,3 +808,7 @@ This chapter looked at AI in general since its early history and then focused on
 : Design implications arising from this chapter.
 
 ## Feature Ideas
+
+|     |      |
+|-----|------|
+|     | Plap |
