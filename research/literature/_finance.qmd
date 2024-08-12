@@ -15,7 +15,7 @@ import Bunq from '../images/bunq.jpg'
 
 ## The Journey from Consumer to Investor
 
-Digital financial technologies (aka fintechs) enable new modes of interaction design which increasingly blur boundaries between shopping, saving, and investing, giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy and entice consumers to learn more about financial markets. Shopping, saving, and investing are converging on the same digital banking platforms, with features such as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
+*Fintechs* (digital financial technologies) enable new modes of interaction design which increasingly blur boundaries between shopping, saving, and investing, giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy and entice consumers to learn more about financial markets. Shopping, saving, and investing are converging on the same digital banking platforms, with features such as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
 
 Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
@@ -30,21 +30,12 @@ trend. good news.
 ### Legislation
 
 -   Legislation sets higher standards. [@EUBanForestkilling] Ban polluting products campaign success story, EU shops can't sell deforestation products.
-
-<!-- -->
-
 -   @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
-
 -   @houseofcommonsEnvironmentalAuditSecond2002: Already in 2001, the UK government was discussing ways to promote sustainable investment "fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment".
-
 -   @europeanparliamentDirective2014652014 Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: "more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments".
-
 -   @kentonMiFIDII2020: Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors". @europeansecuritiesandmarketsauthorityMiFIDII2017: "MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants".
-
 -   @hmtreasuryChancellorSetsOut2020 Taxonomy of sustainable activities in the UK
-
 -   @WorldEconomicOutlook2023
-
 -   @quinsonTrumpPlanBlock2020 While the larger trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, the policies supported by U.S. President Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets. Helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies.
 
 There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
@@ -103,7 +94,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 ### Fintech
 
-**Financial technology to automate the delivery of financial services.**
+Financial technology to automate the delivery of financial services.
 
 The user interface and user experience (UI/UX) of consumer-focused investing apps in Europe has improved a over the past decade. The changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of investing apps and the lessons learned.
 
@@ -232,8 +223,11 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 ### Regenerative Finance (REFI)
 
+Cryptocurrencies
+
 On the intersection of cryptocurrencies, blockchains, and nature-backed assets.
 
+-   Celo's protocol invests in carbon credits on the protocol level: @CeloRegenerativeFinance2021
 -   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
 -   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 -   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
@@ -329,7 +323,9 @@ While these assets and GDP values reflect different aspects of the global econom
 
 Slightly more fun way to look at this data.
 
-## Decoupling Economic Growth from Environmental Degradation
+## Decarbonizing Economics
+
+Decoupling Economic Growth from Environmental Degradation
 
 Eco-economic decoupling
 
@@ -340,6 +336,8 @@ Decarbonizing Economics
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
 There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
+
+There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
 *Econometrics* is the science and art of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
 
@@ -416,8 +414,6 @@ Externalities need to be priced in
 
 metrics and goals: ESG, SDGs,
 
--   Celo's protocol invests in carbon credits on the protocol level: @CeloRegenerativeFinance2021
-
 -   @mazzucatoMissionEconomyMoonshot2021
 
 -   @krausmannResourceExtractionOutflows2018
@@ -446,7 +442,7 @@ metrics and goals: ESG, SDGs,
 
 -   @stockholmresiliencecentretvKateRaworthPresenting2017
 
--   Adam Smith: Interdependence
+-   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors \[@atalAdamSmithHis2024\]
 
 ### Decoupling
 
@@ -794,7 +790,9 @@ Green bonds are released by organizations (companies, cities) to raise money for
 
 -   Sustainability Linked Bonds: What this?
 
--   In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city \[
+-   world bank raise 110 million on blockchain green bond <https://www.worldbank.org/en/news/press-release/2018/08/23/world-bank-prices-first-global-blockchain-bond-raising-a110-million>
+
+-   individuals can't emit a green bond but they can invest in them. it can be a way to invest locally. In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city \[<https://www.sei.org/wp-content/uploads/2020/03/discussion-brief-oct-2020-financing-sustainable-city-goals-in-sweden.pdf> bonds not emitted for finacial reasons but to improve the reputation and city image , lower interest rate (greenium), difficult to certify, monitor report, measure impact, similar in returns to traditiional bonds.
 
 -   Hong Kong multi-currency green bond (on the blockchain?): <https://www.globalgovernmentfintech.com/hong-kong-multi-currency-digital-green-bonds/>
 

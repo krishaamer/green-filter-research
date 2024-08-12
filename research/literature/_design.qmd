@@ -32,11 +32,15 @@ While the ESPR regulation chose *Eco-Design* as the overarching terminology, des
 
 *Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
+*Designing for Trust*, @weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
+
 *Climate-Responsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]. The sentiment is echoed by [@leeAestheticsSustainableArchitecture2011] who edited a volume on sustainable approaches of world-renowned architects: "The principles of sustainable design are rooted in the building’s relationship to the site and its environmental conditions such as topography, vegetation, and climate."
 
 *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview: "ecology-indifferent", "naturing", "mother naturing", "design is a practice of letting go of all that is unnecessary", "nature should be our single client" remind me how language shapes human thinking. Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations, and another
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough. Design should look for avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
+
+*Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from ***service design***, the user journey within an app needs to consider each touchpoint on the way to a state of success.
 
 *Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. [@chapmanDesignEmotionalDurability2009] argues in his seminal paper (and later in his book) for *"Emotionally Durable Design"*, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. [@roseEnchantedObjectsInnovation2015] has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away. This has implications for sustainability as the object is less likely to be thrown away.
 
@@ -52,7 +56,7 @@ Sustainability is fundamentally a hopeful word imbibed with the dream a healthie
 
 *Speculative Design* makes use of future scenarios to envision contexts and interactions of use. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
 
-For example, speculative design can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures \[@pintoCreationDystopiasAlternative2021\].
+For example, speculative design can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021].
 
 [@neuhoffFormsParticipatoryFuturing2023] makes use of *Participatory Design* for Speculative Design together, focusing on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change
 
@@ -98,6 +102,59 @@ Data-Driven Design Enables Sustainability. Sustainability touches every facet of
 
 Data-driven design has limitations.
 
+Coputer
+
+One mode
+
+-   @koningsHowPrepareYour2020
+-   "Digital sustainability principles"
+-   Eminent journal Design Studies, 1st design journal
+-   Part of digital product design are **design systems** to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
+    -   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
+    -   @ComprehensiveGuideDesign
+    -   @suarezDesignSystemsHandbook
+    -   @MethodPodcastEpisode
+    -   @AtomicDesignBrad
+-   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+-   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
+-   @PeopleAIGuidebook
+-   @LanguageModelSketchbook
+-   @parundekarEssentialGuideCreating2021
+-   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
+-   AI for design: @figmaAINextChapter2023
+
+The concept of ***Social Objects*** is People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
+
+*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
+
+-   Product marketers focus on the ***stickiness*** of the product, meaning low attrition, meaning people keep coming back.
+-   What percent of all design is "sustainable design" ? Promoting sustainable design.
+-   @joshluberTradingCardsAre2021 Trading cards are cool again
+-   @jesseeinhornNewBalance6502020
+-   @connieloizosMarcyVenturePartners2021
+-   @natashamascarenhasQueenlyMarketplaceFormalwear2021
+-   @jeffjohnrobertsDigitalArtAwaits2020
+
+*Narrative Design*
+
+-   Humans respond well to ***storytelling***, making ***character design*** and ***narrative design*** relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
+
+-   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
+
+-   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating a personality.
+
+-   Writing as training data? large language models. GTP3.
+
+-   Stories start with a character.
+
+### Designing for College Students
+
+-   plap
+
+### Personalization
+
+-   Personal User Experience. social apps require personalization, trust and k-factors (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
+
 ### Growth Design
 
 -   For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
@@ -106,17 +163,9 @@ Data-driven design has limitations.
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
 
-### Designing for College Students
-
--   plap
-
-### Personal User Experience
-
--   social apps require personalization, trust and k-factors (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
-
 ### Platform Economy Growth
 
-Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloqialluu as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
+Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
 Design is as much about how it works as it's about the interface.
 
@@ -174,6 +223,144 @@ Could there be Sustainability Superapps?
 
 -   Adaptive AI
 
+### Behavioral Design
+
+Aka Gamification
+
+For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
+
+The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n=200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
+
+Google uses nudges in Google Flights and Google Maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products [@sundarpichaiGivingYouMore2021]. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by [@implementconsultinggroupHowDigitalSector2022] as *"Maximising the enabling role of digital technologies by accelerating already available digital solutions"*.
+
+In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
+
+Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Feature                                                                                       | Product        | Nudge                                   |
++===============================================================================================+================+=========================================+
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions  |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+| Wizzair Check carbon impact @OffsetYourFlight                                                 | WizzAir        | Offset on Checkout                      |
++-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
+
+: Examples of CO~2~ visibility in Google's products.
+
+::: {.content-hidden unless-format="pdf"}
+![Google's view of flight emissions](./images/flight-emissions.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
+```
+-   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
+
+Some notable examples:
+
+-   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
+-   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
+-   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
+
++-------------------+-------------------------------------------------------------------------------------------+
+| Name              | Technique                                                                                 |
++===================+===========================================================================================+
+| Prompting         | Create cues and reminders to perform a certain behavior                                   |
++-------------------+-------------------------------------------------------------------------------------------+
+| Sizing            | Decrease or increase the size of items or portions                                        |
++-------------------+-------------------------------------------------------------------------------------------+
+| Proximity         | Change the physical (or temporal) distance of options                                     |
++-------------------+-------------------------------------------------------------------------------------------+
+| Presentation      | Change the way items are displayed                                                        |
++-------------------+-------------------------------------------------------------------------------------------+
+| Priming           | Expose users to certain stimuli before decision-making                                    |
++-------------------+-------------------------------------------------------------------------------------------+
+| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                   |
++-------------------+-------------------------------------------------------------------------------------------+
+| Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
++-------------------+-------------------------------------------------------------------------------------------+
+
+: Types of nudge by @WEE2021100364
+
+-   @bainPromotingProenvironmentalAction2012 "Promoting pro-environmental action in climate change deniers" **(Need access!)**
+
+-   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!, ncku doesn't subscribe)**
+
+-   @schuitemaAcceptabilityEnvironmentalPolicies2018 "Acceptability of Environmental Policies" **(Need access!)**
+
+-   @nilssonRoadAcceptanceAttitude2016 "The road to acceptance: Attitude change before and after the implementation of a congestion tax" **(Need access!)**
+
+-   @BERGER2022134716 **(Need access!)**
+
+-   @SupportCleanEnergy2022
+
+-   @UNCTADWorldInvestmentReport2023
+
+-   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission calculations
+
+-   @earthcheckEarthCheckGoodBusiness2023 sustainable tourism certification
+
+-   @lfcaLeadersClimateAction2023 corporate climate action
+
+-   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
+
+-   @playingfortheplanetalliancePlayingPlanetAnnual2021
+
+-   Gamification makes uses of nudges.
+
+-   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
+
+-   @SpaceApeGames game company going green
+
+-   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
+
++------------+-------------+-------------+--------------------------------------+
+| Year       | Users       | Trees       | Area                                 |
++============+=============+=============+======================================+
+| 2016       | ?           | 0           |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2017       | 230 million | 10 million  |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2018       | 350 million | 55 million  | 6500 acres??                         |
++------------+-------------+-------------+--------------------------------------+
+| 2019       | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
++------------+-------------+-------------+--------------------------------------+
+| 2020       | 550 million | 200 million | 2,7 million acres?                   |
++------------+-------------+-------------+--------------------------------------+
+| 2021       | 600 million | 326 million |                                      |
++------------+-------------+-------------+--------------------------------------+
+| 2022       | 650 million | 400 million | 2 million hectares                   |
++------------+-------------+-------------+--------------------------------------+
+|            |             |             |                                      |
++------------+-------------+-------------+--------------------------------------+
+|            |             |             |                                      |
++------------+-------------+-------------+--------------------------------------+
+
+: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
+
+```{python}
+# importing the modules
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# data to be plotted
+x_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
+y_trees = [0, 10000000, 55000000, 100000000, 200000000, 326000000, 400000000]
+y_users = [0, 23000000, 35000000, 500000000, 550000000, 600000000, 650000000]
+
+# plotting
+plt.title("Ant Forest Growth")
+plt.xlabel("Years")
+plt.ylabel("Trees and Users")
+plt.plot(x_years, y_trees, color = "green")
+plt.plot(x_years, y_users, color = "black")
+plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
+plt.show()
+```
+
 ### Open Data Sharing
 
 Open Data Enables Collaboration
@@ -218,6 +405,60 @@ Data-driven design requires access to data. making the movement towards *open da
 -   @HomeChainReact
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
+
+### Data Privacy
+
+Sustainability needs to be balanced with privacy.
+
+-   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
+
+## Self-Monitoring
+
+-   Is this a good title?
+
+### Carbon Tracking
+
+Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
+
+We have a limited carbon budget so calculating CO2e-cost become integrated into every activity.
+
+-   CO2e calculations will be part of our everyday experience
+
+-   Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects.
+
+-   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018].
+
+Personal Carbon Trackers
+
+Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
+
++-------------------------+--------------------------------------------------------+
+| App                     | Description                                            |
++=========================+========================================================+
+| Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
++-------------------------+--------------------------------------------------------+
+| Klima                   | Offset Subscription                                    |
++-------------------------+--------------------------------------------------------+
+| Wren                    | Offset Subscription                                    |
++-------------------------+--------------------------------------------------------+
+| JouleBug                |                                                        |
++-------------------------+--------------------------------------------------------+
+| eevie                   |                                                        |
++-------------------------+--------------------------------------------------------+
+| Aerial                  |                                                        |
++-------------------------+--------------------------------------------------------+
+| EcoCRED                 |                                                        |
++-------------------------+--------------------------------------------------------+
+| Carbn                   |                                                        |
++-------------------------+--------------------------------------------------------+
+| LiveGreen               |                                                        |
++-------------------------+--------------------------------------------------------+
+| Earth Hero              |                                                        |
++-------------------------+--------------------------------------------------------+
+|                         |                                                        |
++-------------------------+--------------------------------------------------------+
+
+: A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
 ### Pollution Exposure Tracking
 
@@ -312,10 +553,6 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
-@ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from ***service design***, the user journey within an app needs to consider each touchpoint on the way to a state of success.
-
-@weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
-
 The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality".*
 
 Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
@@ -329,249 +566,6 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 |                     |     |
 
 : Modes of interaction
-
-Coputer
-
-Humans respond well to ***storytelling***, making ***character design*** and ***narrative design*** relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
-
-One mode
-
--   @koningsHowPrepareYour2020
--   "Digital sustainability principles"
--   Eminent journal Design Studies, 1st design journal
--   Part of digital product design are **design systems** to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
-    -   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
-    -   @ComprehensiveGuideDesign
-    -   @suarezDesignSystemsHandbook
-    -   @MethodPodcastEpisode
-    -   @AtomicDesignBrad
--   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
--   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
--   @PeopleAIGuidebook
--   @LanguageModelSketchbook
--   @parundekarEssentialGuideCreating2021
--   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
--   AI for design: @figmaAINextChapter2023
-
-The concept of ***Social Objects*** is People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
-
-*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
-
--   Product marketers focus on the ***stickiness*** of the product, meaning low attrition, meaning people keep coming back.
--   What percent of all design is "sustainable design" ? Promoting sustainable design.
--   @joshluberTradingCardsAre2021 Trading cards are cool again
--   @jesseeinhornNewBalance6502020
--   @connieloizosMarcyVenturePartners2021
--   @natashamascarenhasQueenlyMarketplaceFormalwear2021
--   @jeffjohnrobertsDigitalArtAwaits2020
-
-*Narrative Design*
-
--   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
-
--   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating a personality.
-
--   Writing as training data? large language models. GTP3.
-
--   Stories start with a character.
-
-### Self-Monitoring
-
--   Is this a good title?
-
-### Carbon Tracking
-
-Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
-
-We have a limited carbon budget so calculating CO2e-cost become integrated into every activity.
-
--   CO2e calculations will be part of our everyday experience
-
--   Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects.
-
--   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018].
-
-Personal Carbon Trackers
-
-Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
-
-+-------------------------+--------------------------------------------------------+
-| App                     | Description                                            |
-+=========================+========================================================+
-| Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
-+-------------------------+--------------------------------------------------------+
-| Klima                   | Offset Subscription                                    |
-+-------------------------+--------------------------------------------------------+
-| Wren                    | Offset Subscription                                    |
-+-------------------------+--------------------------------------------------------+
-| JouleBug                |                                                        |
-+-------------------------+--------------------------------------------------------+
-| eevie                   |                                                        |
-+-------------------------+--------------------------------------------------------+
-| Aerial                  |                                                        |
-+-------------------------+--------------------------------------------------------+
-| EcoCRED                 |                                                        |
-+-------------------------+--------------------------------------------------------+
-| Carbn                   |                                                        |
-+-------------------------+--------------------------------------------------------+
-| LiveGreen               |                                                        |
-+-------------------------+--------------------------------------------------------+
-| Earth Hero              |                                                        |
-+-------------------------+--------------------------------------------------------+
-|                         |                                                        |
-+-------------------------+--------------------------------------------------------+
-
-: A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
-
-### Does Individual Climate Action Matter?
-
-Does Individual Climate Action is Ineffective.
-
-The effect of individual climate action is limited.
-
-### Data Privacy
-
-Sustainability needs to be balanced with privacy.
-
--   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
-
-### Behavioral Design
-
-For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
-
-The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n=200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
-
-Google uses nudges in Google Flights and Google Maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products [@sundarpichaiGivingYouMore2021]. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by [@implementconsultinggroupHowDigitalSector2022] as *"Maximising the enabling role of digital technologies by accelerating already available digital solutions"*.
-
-In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
-
-Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
-
-+-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
-| Feature                                                                                       | Product        | Nudge                                   |
-+===============================================================================================+================+=========================================+
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions  |
-+-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
-| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions |
-+-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
-| Wizzair Check carbon impact @OffsetYourFlight                                                 | WizzAir        | Offset on Checkout                      |
-+-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
-
-: Examples of CO~2~ visibility in Google's products.
-
-::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/flight-emissions.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
-```
--   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
-
-Some notable examples:
-
--   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
--   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
--   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
-
-+-------------------+-------------------------------------------------------------------------------------------+
-| Name              | Technique                                                                                 |
-+===================+===========================================================================================+
-| Prompting         | Create cues and reminders to perform a certain behavior                                   |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Sizing            | Decrease or increase the size of items or portions                                        |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Proximity         | Change the physical (or temporal) distance of options                                     |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Presentation      | Change the way items are displayed                                                        |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Priming           | Expose users to certain stimuli before decision-making                                    |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Labelling         | Provide labels to influence choice (for example CO~2~ footprint labels)                   |
-+-------------------+-------------------------------------------------------------------------------------------+
-| Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
-+-------------------+-------------------------------------------------------------------------------------------+
-
-: Types of nudge by @WEE2021100364
-
--   @bainPromotingProenvironmentalAction2012 "Promoting pro-environmental action in climate change deniers" **(Need access!)**
-
--   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!, ncku doesn't subscribe)**
-
--   @schuitemaAcceptabilityEnvironmentalPolicies2018 "Acceptability of Environmental Policies" **(Need access!)**
-
--   @nilssonRoadAcceptanceAttitude2016 "The road to acceptance: Attitude change before and after the implementation of a congestion tax" **(Need access!)**
-
--   @BERGER2022134716 **(Need access!)**
-
--   @SupportCleanEnergy2022
-
--   @UNCTADWorldInvestmentReport2023
-
--   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission calculations
-
--   @earthcheckEarthCheckGoodBusiness2023 sustainable tourism certification
-
--   @lfcaLeadersClimateAction2023 corporate climate action
-
--   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
-
--   @playingfortheplanetalliancePlayingPlanetAnnual2021
-
--   Gamification makes uses of nudges.
-
--   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
-
--   @SpaceApeGames game company going green
-
-**Gamification**
-
--   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
-
-+------------+-------------+-------------+--------------------------------------+
-| Year       | Users       | Trees       | Area                                 |
-+============+=============+=============+======================================+
-| 2016       | ?           | 0           |                                      |
-+------------+-------------+-------------+--------------------------------------+
-| 2017       | 230 million | 10 million  |                                      |
-+------------+-------------+-------------+--------------------------------------+
-| 2018       | 350 million | 55 million  | 6500 acres??                         |
-+------------+-------------+-------------+--------------------------------------+
-| 2019       | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
-+------------+-------------+-------------+--------------------------------------+
-| 2020       | 550 million | 200 million | 2,7 million acres?                   |
-+------------+-------------+-------------+--------------------------------------+
-| 2021       | 600 million | 326 million |                                      |
-+------------+-------------+-------------+--------------------------------------+
-| 2022       | 650 million | 400 million | 2 million hectares                   |
-+------------+-------------+-------------+--------------------------------------+
-|            |             |             |                                      |
-+------------+-------------+-------------+--------------------------------------+
-|            |             |             |                                      |
-+------------+-------------+-------------+--------------------------------------+
-
-: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
-
-```{python}
-# importing the modules
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-
-# data to be plotted
-x_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
-y_trees = [0, 10000000, 55000000, 100000000, 200000000, 326000000, 400000000]
-y_users = [0, 23000000, 35000000, 500000000, 550000000, 600000000, 650000000]
-
-# plotting
-plt.title("Ant Forest Growth")
-plt.xlabel("Years")
-plt.ylabel("Trees and Users")
-plt.plot(x_years, y_trees, color = "green")
-plt.plot(x_years, y_users, color = "black")
-plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
-plt.show()
-```
 
 ## Re-Designing Industries
 
@@ -801,10 +795,6 @@ How can design enable/help/encourage sustainability?
 -   Use imagination
 
 -   Societal movements change things: implication for design: build a community
-
-<!-- -->
-
--   
 
 -   Growing public understanding of how nature works and intersects with our use of money.
 

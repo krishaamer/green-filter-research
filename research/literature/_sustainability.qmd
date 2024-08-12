@@ -46,15 +46,21 @@ The latest data from 2023 shows our current world population of 8 Billion people
 
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. Global warming may lead to the slowing down and complete stop of the Atlantic meridional overturning circulation (AMOC) which helps maintain climate stability [@ditlevsenWarningForthcomingCollapse2023].
 
-The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called Digital Twins. The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
+The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called *digital twins.* The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc, into a single model [@hoffmannDestinationEarthDigital2023 and @DestinationEarthShaping2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-### Biosphere and Ecological Indicators
+### Biosphere
 
 Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
 
-Ecological Indicators (I like the name Ecomarkers) for Earth are like *Biomarkers* in human health. Sustainability can be measured using a variety of ***ecological indicators***.
+### Ecological Indicators
 
-Many technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023]. *Environmental DNA* (eDNA) helps scientists measure species without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
+Sustainability can be measured using a variety of *ecological indicators*.
+
+Ecological indicators for Earth *- may I coin the name "ecomarkers" -* are like *biomarkers* in human health. Many technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+
+*Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNa is being used to generate biodiversity credits by environmental asset rating companies such as BeZero [@ojoatreTriallingEDNABiodiversity2023].
+
+AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
 
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 
@@ -62,13 +68,13 @@ Many technological advances help scientist better understand nature. Cutting edg
 
 ### Financialization of Nature
 
--   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millenia to develop. humans create hugely complex systems instead of simply conserving nature.
+-   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millennia to develop. humans create hugely complex systems instead of simply conserving nature.
 
-### markets for ecosystem assets
+### Markets for Ecosystem Assets
 
 While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
 
--   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015].
+-   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for exampe the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023].
 
 Emissions production is highly unequal. "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
@@ -359,11 +365,9 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 
 Earth system science
 
-Social Cost of Carbon Measures Compound CO~2~ Impact.
+Social Cost of Carbon Measures Compound CO~2~ Impact. Sustainability is filled with complexities. CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
-Sustainability is filled with complexities. CO~2~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exists between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
-
--   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, "businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards". [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
+-   As shown in the Phillipines by [@chengAssessingEconomicLoss2022], with increasing extreme weather events, *"businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards"*. [@jerrettSmokeCaliforniaGreenhouse2022] says, In California, "Wildfires are the second most important source of emissions in 2020" and "Wildfires in 2020 negate reductions in greenhouse gas emissions from other sectors."
 
 -   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
@@ -463,17 +467,13 @@ Protecting biodiversity
 
 **Marine Heatwaves**
 
--   [@smaleMarineHeatwavesThreaten2019 and @gellesOceanDireMessage2023] describe how marine heatwaves threaten global biodiversity.
+-   [@smaleMarineHeatwavesThreaten2019 and @gellesOceanDireMessage2023] describe how marine heatwaves threaten global biodiversity. Ocean warming leads to coral bleaching of the Great Barrier Reef in Queensland, east coast of Australia [@pfeifferCoralGiantsSound2024].
 
 ### Deforestion
 
 Around 27% of Earth's land area is still covered by forests yet deforestation is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022].
 
--   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
--   Afforestation is different from reforestation, which takes into account biodiversity.
--   @klostermanMappingGlobalPotential2022 using remote-sensing and machine-learning to assess reforestation potential; doesn't take into account political realities.
 -   Global Forest Cover Change, Earth Engine @hansenHighResolutionGlobalMaps2013
--   1 billion tree project [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]
 -   Burning of biomass undermines carbon capture.
 
 ### Pollution
@@ -532,6 +532,24 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 ## Sustainable Action
 
 -   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* -was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+
+### Re-Forestation
+
+-   1 billion tree project [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]
+
+-   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+
+-   Afforestation is different from reforestation, which takes into account biodiversity.
+
+-   @klostermanMappingGlobalPotential2022 using remote-sensing and machine-learning to assess reforestation potential; doesn't take into account political realities.
+
+nature-based solutions.
+
+### Does Individual Climate Action Matter?
+
+Does Individual Climate Action is Ineffective.
+
+The effect of individual climate action is limited.
 
 Regenerative Action
 
