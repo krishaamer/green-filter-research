@@ -1,8 +1,8 @@
 ---
-title: Terminology
+title: Glossary
 sidebar_position: 9
 editor:
     render-on-save: false
 ---
 
-{{< include "_terminology.qmd" >}}
+{{< include "_glossary.qmd" >}}

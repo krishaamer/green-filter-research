@@ -128,3 +128,11 @@ warnings.filterwarnings("ignore")
 {{< include "prototypes/_testing.qmd" >}}
 
 \newpage
+
+{{< include "_glossary.qmd" >}}
+
+\newpage
+
+{{< include "_appendices.qmd" >}}
+
+\newpage

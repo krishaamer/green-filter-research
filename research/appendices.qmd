@@ -1,0 +1,8 @@
+---
+title: Appendices
+sidebar_position: 10
+editor:
+    render-on-save: false
+---
+
+{{< include "_appendices.qmd" >}}
