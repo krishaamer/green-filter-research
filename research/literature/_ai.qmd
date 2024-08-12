@@ -13,7 +13,7 @@ import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
 import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
-# *Sustainable* AI
+# Towards AI Interfaces for Sustainability
 
 How can AI enable/help/encourage sustainability?
 
@@ -70,7 +70,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 : Examples of human-in-the-loop apps
 
-## Algorithmic Experience
+### Algorithmic Experience Before Non-Deterministic Systems
 
 As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized *algorithmic experience*. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 
@@ -84,11 +84,13 @@ The content on the platform can be more important than the interface. Applicatio
 
 AIs are non-deterministic, which requires a new set of consideration when designing AI.
 
-## Explainability
+### Transitioning to Complexity while Being Responsible, Explainable, and Safe
 
 The problems of opaqueness creates the field of explainable AI.
 
 "As humans we tend to fear what we don't understand" is a common sentiment which has been confirmed psychology [@allportNaturePrejudice1979]. Current AI-models are opaque '*black boxes'*, where it's difficult to pin-point exactly why a certain decision was made or how a certain expression was reached, not unlike inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought patterns*** inside the model. Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which could lead to building trust in AI systems and would form the foundations for ***AI acceptance***.
+
+There's an increasing number of tools for LLM evaluation: https://www.trulens.org/ @leinoInfluenceDirectedExplanationsDeep2018 -- https://docs.ragas.io/ "Metrics-Driven Development" -- https://www.langchain.com/langsmith
 
 -   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses becomes good enough, people begin to get confused.
 
@@ -124,8 +126,6 @@ Personal AI Assistants to date have we created by large tech companies. **Open-S
 -   https://www.youper.ai/
 -   https://app.fireflies.ai/login
 -   Murf
-
-## Safety
 
 Responsible AI Seeks to Mitigate Generative AIs' Known Issues.
 
@@ -164,9 +164,9 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 
 RQ: Does AI acceptance increase with Affective Computing?
 
-## Evolution of Models
+### Evolution of Models
 
-**The debate between Open Source v.s. Closed-Source AI.** The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry.
+The debate between Open Source v.s. Closed-Source AI. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry.
 
 Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice.
 
@@ -224,6 +224,8 @@ Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingK
 
 ## Companions
 
+**Natural Interaction**
+
 Literature delves into human-AI interactions on almost human-like level discussing what kind of roles can the AIs take. [@seeberMachinesTeammatesResearch2020] proposes a future research agenda for regarding ***AI assistants as teammates*** rather than just tools and the implications of such mindset shift.
 
 From Assistance to Collaboration
@@ -236,7 +238,7 @@ Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartne
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
 
-### **Generative UIs**
+### **Generative UIs Enable Flexibility of Use**
 
 Artificial intelligence user experience (AI UX)
 
@@ -333,7 +335,7 @@ There are also more philosophical approaches to ***Interface Studies:*** @davidh
 
 Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies: @Review2023Helsinki2023
 
-### Multi-modality
+### Multi-Modality Enhances the Humanity of Artificial Systems
 
 By early 2024, widely available LLMs front-ends such as Gemini, Claude and ChatGPT have all released basic features for multi-modal communication. In practice, this means combination several AI models within the same interface. For example, on the input side, one model is used for human speech or image recognition which are transcribed into tokens that can be ingested into an LLM. On the output side, the LLM can generate instructions which are fed into an image / audio generation model or even computer code which can be ran on a virtual machine and then the output displayed inside the conversation.
 
@@ -341,7 +343,9 @@ The quality of LLM output depends on the quality of the provided prompt. @zhouLa
 
 Multimodal model development is also ongoing. In the case of Google's Gemini 1.5 Pro, one model is able to handle several types of prompts from text to images. Multimodal prompting however requires larger context windows, as of writing, limited to 1 million tokens in a private version allows combining text and images in the question directed to the AI, used to reason in examples such as a 44-minute Buster Keaton silent film or Apollo 11 launch transcript (404 pages) @googleMultimodalPrompting44minute2024.
 
-### Conversations
+### Conversations Are the Starting Point of a Relationship
+
+-   [@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
 
 Conversational AI
 
@@ -357,9 +361,9 @@ ChatGPT makes it possible to ***evaluate AI models*** just by talking, i.e. havi
 
 -   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
 
-### Affective Computing
+### Affective Computing Enables Human-Friendly Machines
 
-Rosalind Picard is the founder of the *affective computing* field. Her pioneering work aims to make computers more human-friendly. Because of the conversational nature of LLMs, they are very useful for affective computing, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account @picardAffectiveComputing1997.
+Rosalind Picard is the founder of the *affective computing* field. Her pioneering work aims to make computers more human-friendly. Because of the conversational nature of LLMs, they are very useful for affective computing, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
 
 Just as LLMs, affective computing relies on input data. It's not an overstatement to say data from all the processes around us will define the future of computing as @hiittvWojciechSzpankowskiEmerging2021 puts it. In the early examples, electrodermal activity of the skin and heart-rate variance data were used to detect the emotional state and stress level of the user [@zangronizElectrodermalActivitySensor2017; @velmovitskyUsingAppleWatch2022]. This technology has since become mainstream in products such as Fitbit and the Apple Watch among many others.
 
@@ -369,7 +373,7 @@ Apple Watch features Fall Detection which I've experienced personally. Riding my
 
 On the output side, @lvCutenessIrresistibleImpact2022 studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
 
--   @liuMachineGazeOnline2021 meanwhile suggests higher ***algorithmic transparency may inhibit anthropomorphism.*** People are less likely to attribute humanness to the AI if they understand how the system works.
+-   [@liuMachineGazeOnline2021] suggests higher *algorithmic transparency may inhibit anthropomorphismI*; people are less likely to attribute humanness to an AI if they understand how the system works.
 -   @tedxTechEmotionsRoz2011
 -   @lexfridmanRosalindPicardAffective2019
 -   @hiittvRosalindPicardAdventures2021
@@ -381,6 +385,8 @@ Since the first mainframe computers with rudimentary computers able to respond w
 -   ELIZA is an early examples of a language model
 
 Natural language generation exists since Eliza
+
+### Empathy Builds Trust
 
 Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is ***AI Friend*** is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy.
 
@@ -398,11 +404,13 @@ Today's machines are much more capable so it's not a surprise humans would like 
 -   GPT-4 is able to solve difficult task in chemistry with natural-language instructions @whiteFutureChemistryLanguage2023
 -   Emojis are a part of natural language @tayWhyScienceNeeds2023
 
-### Empathy
-
 Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses more empathetic than human responses, at times by a significant marring; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]
 
-### AI UX
+### Usability is the Minimum of Good User Experience
+
+Usability sets the baseline but AI-interfaces are capable of more.
+
+-   AI UX
 
 -   Privacy UX @jarovskyYouAreProbably2022
 
@@ -430,13 +438,11 @@ How do the tenets of user experience (UX) apply to AI?
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
-### Usability
-
 Usability Guidelines
 
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004.
 
-Gates updated his ideas in 2023: https://www.gatesnotes.com/AI-agents
+Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
 As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017
 
@@ -533,7 +539,7 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @orozcoBudapestBicycleNetwork2020
 
-### Health
+### Performing Under High-Stakes Situations
 
 -   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024].
 
@@ -586,7 +592,7 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 | Replika  | Avatar, Emotion, Video Call, Audio |
 | Siri     | Audio                              |
 
-### HCI
+### Human-Computer Interactions Without the "Computer"
 
 AI Affects Human-Computer Interactions
 
@@ -608,7 +614,7 @@ Intelligence may be besides the point as long as AI ***becomes very good at reas
 
 What are the next features that could improve the UX/UI of AI-based assistants?
 
--   GPT 4o combines different abilities into the same model, preserving more information: https://openai.com/index/hello-gpt-4o/
+-   GPT 4o combines different abilities into the same model, preserving more information: [@openaiHelloGPT4o2024].
 
 [@skipperHowAIChanging2022] sketches a vision of *"\[AI\] blend into our lives in a form of apps and services"* deeply ingrained into daily human activity.
 
@@ -626,7 +632,7 @@ Should AIs look anthropomorphic or fade in the background? It's an open question
 
 -   [@costaInteractionDesignAI2022] "Interaction Design for AI Systems"
 
-### Media
+### Mediated Experiences Set User Expectations
 
 AI Assistants in Media Portrayals (Mostly anthropomorphic to be able to film)
 
@@ -660,13 +666,11 @@ There have been dozens of AI-characters in the movies, TV-series, games, and (co
 scifi_chart()
 ```
 
-### Speech
-
-Voice Assistants
+### Speech Makes Computers Feel Real
 
 Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
 
-**Apple's Siri and Amazon's Alexa** are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion."
+Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion" [@prasadHowWillAlexa2022].
 
 -   LLMs combined with voice provide a unnerving user experience @ethanmollick2023
 -   Ethical issues: Voice assistants need to continuously record human speech and process it in data centers in the cloud.
@@ -676,16 +680,13 @@ Voice has a visceral effect on the human psyche; since birth we recognize the vo
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
 
--- LLM evaluation: https://www.trulens.org/ @leinoInfluenceDirectedExplanationsDeep2018 -- https://docs.ragas.io/ "Metrics-Driven Development" -- https://www.langchain.com/langsmith
-
-\- [@CELINO2020102410] There's research suggesting that voice UI accompanied by a *physical embodied system* is preffered by users in comparison with voice-only UI. This suggests adding an avatar to the AI design may be worthwhile.
+Some research suggests that voice UI accompanied by a *physical embodied system* is the preffered by users in comparison with voice-only UI [@CELINO2020102410]. This suggests adding an avatar to the AI design may be worthwhile.
 
 There's evidence across disciplines about the usefulness of AI assistants:
 
 -   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
--   [@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
 
-### Roleplay
+### Roleplay Enables Computers to Fit Into Social Contexts
 
 Should AIs be required to disclose they are AIs?
 
@@ -792,15 +793,10 @@ This chapter looked at AI in general since its early history and then focused on
 | Open Source | For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source. |
 | User Experience | User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations. |
 | LLMs | Prompt engineering findings have significance for "green filter" as it validates the idea of creating advanced prompts for improved responses. For "green filter", the input would consist of detailed user data + sustainability data for detailed analysis. |
-| Cuteness | Cuter apps have higher retention? |
+| Cuteness | Cuter apps have higher retention |
 | Transparency | Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human |
-| Anthropomorphism? |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Anthropomorphism |  |
 
 : Design implications arising from this chapter.
+
+## Feature Ideas

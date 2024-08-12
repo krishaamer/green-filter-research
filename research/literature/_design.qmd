@@ -12,23 +12,23 @@ import FlightEmissions from '../images/flight-emissions.png'
 import Strava from '../images/strava.png'
 import ResQClub from '../images/resq-club.png'
 ```
-# Sustainable Design
+# Design
 
-*Designing for Sustainability* requires a higher level of systems thinking than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability.
+*Designing for Sustainability* requires a higher level of systems thinking than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
 
-While there are many design words, X lists over Y design words Specialized Design Fields:, and there are designers who define / brand themselves by their design method, I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I only look at a small number of design practices I find relevant to desining a sustainability app for college students.
+While there are many design words, X lists over Y design words Specialized Design Fields:, and there are designers who define / brand themselves by their design method, I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I only look at a small number of design practices I find relevant to designing a sustainability app for college students.
 
-Design Studies, a field that sudies *design* as a subject.
+Design Studies, a field that studies *design* as a subject.
 
-## Eco-Design
+## Eco-Design from the Legislative Perspective
 
 Transformation towards *eco-design* has strong political support from the European Union. The Ecodesign for Sustainable Products Regulation (ESPR) legislation entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *"eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* thus setting up the standards and a level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-## Designing for Sustainability
+## Approaches to Designing for Sustainability
 
 While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
-*Human-Centered Design*, the grandfather of design with attitude. Explain ISO9241-210, revised as ISO 9241-210:2019 user experience, iteration [@googledesignDesignSpeculativeFutures2019]. https://www.iso.org/standard/77520.html
+*Human-Centered Design*, the grandfather of design with attitude. There's an ISO standard for human-centered design, with the designated code ISO9241-210, revised as ISO 9241-210:2019 and up for revision as ISO standards are reviewed every 5 years [@2019HumancentredDesignInteractive].
 
 *Life-Centered Design* recognizes human impact on our surrounding environment as well as non-human animals making sure to include them among stakeholders. While *Human-Centered Design* has become popular, the effect humans are having on biodiversity should be considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
@@ -48,19 +48,21 @@ As the above shows, there are many partially overlapping design words created by
 
 Architecture of the Well-Tempered Environment @banhamArchitectureWelltemperedEnvironment1999
 
-## Future Scenarios
+## Choosing and Avoiding Future Scenarios
 
-Sustainability is fundamentally a hopeful word imbibed with the dream a healthier world is possible.
+*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios.
 
-*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
+*Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
 *Speculative Design* makes use of future scenarios to envision contexts and interactions of use. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
 
-For example, speculative design can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021].
+user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
-[@neuhoffFormsParticipatoryFuturing2023] makes use of *Participatory Design* for Speculative Design together, focusing on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change
+Speculative design can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021].
 
-## Sustainability Begins in Software
+*Participatory Design* and Speculative Design can be complementary as in the work of [@neuhoffFormsParticipatoryFuturing2023], used together to focus on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change.
+
+## In Practice Sustainability Begins in Software
 
 Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
@@ -96,7 +98,7 @@ AI-Assisted Design
 -   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
 -   @CharismaStorytellingPowered storytelling by AI
 
-## Data-Driven Design
+## Data-Driven Design Enables Decision-Making
 
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
@@ -412,9 +414,9 @@ Sustainability needs to be balanced with privacy.
 
 -   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
-## Self-Monitoring
+## Focusing on Self-Monitoring for Personal Insights
 
--   Is this a good title?
+Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
 
 ### Carbon Tracking
 
@@ -462,11 +464,27 @@ Similar to personal health trackers, personal CO~2~ trackers help one track emis
 
 ### Pollution Exposure Tracking
 
+My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
+
 ```{python}
 air_chart()
 ```
 
 ### Health Tracking
+
+EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+
+Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*. The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024].
+
+Use technology Wearables to be more aware of one's health. Example of quantified self device.
+
+### Fitness Tracking
+
+fitness metrics
+
+Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health.
+
+While so of the behavior changes may sound simple - like switching from driving to walking - and would have a large environmental effect, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
 
 Personal data enables behavior change.
 
@@ -476,7 +494,7 @@ While the scale of climate change is too big for individual action to make a dif
 
 -   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023].
 
--   **Give Gen-Z the tools to turn climate anger into positive change to transform companies**
+-   Give Gen-Z the tools to turn climate anger into positive change to transform companies
 
 -   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
 
@@ -493,16 +511,6 @@ While the scale of climate change is too big for individual action to make a dif
 -   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
 
 -   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
-
-Research on Personal Data Tracking also known as *quantified self* or self-monitoring is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020].
-
-Use technology Wearables to be more aware of one's health. Example of quantified self device. My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
-
-Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health. @delclos-alioWalkingTransportationLarge2022 discusses walking in Latin American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
-
-EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
-
-Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
 
 Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n=998).
 
@@ -567,7 +575,7 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 
 : Modes of interaction
 
-## Re-Designing Industries
+## Re-Designing Industries for Circularity
 
 We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
@@ -581,7 +589,43 @@ Food and clothes (I'm omitting housing and transport here) are part of the immed
 
 Companies like Qima provide inspection and certification services [https://www.qima.com](https://www.qima.com/about)
 
-### Clothes
+### Circular Economy
+
+Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
+
+Encouraging Sustainable Design and Reducing Waste.
+
+[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
+-   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
+
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+
+-   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
+
+also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+
+...for Sustainable Products
+
+How can design enable/help/encourage sustainability?
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a community
+
+-   Growing public understanding of how nature works and intersects with our use of money.
+
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
+
+-   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
+
+-   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
+
+-   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
+
+-   EIT RawMaterials
+
+### Case: Towards Sustainable Clothes
 
 Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
 
@@ -665,7 +709,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-### Food
+### Case: Towards Sustainable Food
 
 Re-designing industrial food systems for an increasing global population is a challenge. Supply chain innovation in food industries may enable more transparency. **provenance and traceability of food has implications for sustainability and health.**
 
@@ -772,43 +816,7 @@ There are several initiatives to reduce food waste by helping people consume foo
 
 -   Only make what is ordered.
 
-## Circular Economy
-
-Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
-
-Encouraging Sustainable Design and Reducing Waste.
-
-[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
--   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
-
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
-
--   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
-
-also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
-
-...for Sustainable Products
-
-How can design enable/help/encourage sustainability?
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a community
-
--   Growing public understanding of how nature works and intersects with our use of money.
-
--   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
-
--   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
-
--   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
-
--   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
-
--   EIT RawMaterials
-
-## Circular Design
+### Circular Design
 
 Circular design is only possible if supply chains become circular as well.
 
@@ -934,7 +942,7 @@ Can data transparency provide tools for reducing cruelty.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-## Extended Producer Responsibility
+### Extended Producer Responsibility
 
 Extended Producer Responsibility Enables Companies to be Resposible.
 
@@ -975,9 +983,11 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 -   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
 -   @SulapacReplacingPlastic
 
-## Digital Product Passports
+## Key Technology: Digital Product Passports
 
-CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
+Even though this topic belongs under Circular Economy, I've chose to highlight *digital product passports* here as it's the main design implication from this chapter - an emerging technology which needs to be designed for the user.
+
+I will being with a bit of history to contextualize what has already been tried. CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
 Labels alone are not enough. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
 
@@ -1059,6 +1069,8 @@ Digital product passports are a further development of the idea of carbon labels
 
 ## Design Implications
 
+This chapter has the following design implications.
+
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category             | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +======================+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
@@ -1112,8 +1124,6 @@ Digital product passports are a further development of the idea of carbon labels
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      | Rebuilt the app as a personalized, narrative lifestyle feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      | How the design can connect people to sustainable outcomes while shopping and investing? Perhaps even forming a community of sustainable action. What I showed in class looks like an app but it could also be a physical object (a speculative design). From the presentations I saw most students seemed to be interested in form and light (many lamps) and a couple were about medical uses. I don't remember seeing one that could be compatible with the environmental sustainability focus unfortunately...                                                                                                                                                                                                                                     |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      | **Guided Sustainability** "refers to a concept of using technology, such as AI and machine learning, to help individuals and organizations make more sustainable decisions and take actions that promote environmental and social sustainability. This can include things like analyzing data on resource usage and emissions, providing recommendations for reducing the environmental impact of operations, or helping to identify and track progress towards sustainability goals. The goal of guided sustainability is to make it easier for people to understand their impact on the environment and to take steps to reduce that impact."                                                                                                       |
@@ -1132,3 +1142,11 @@ Digital product passports are a further development of the idea of carbon labels
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      | -   The power of defaults. Make the sustainable option the default option. @gigerenzerWhyHeuristicsWork2008                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Feature Ideas
+
+This chapter and design implications spurred the following feature ideas.
+
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Alerts  | Your shopping products mostly come from Protector and Gamble (3x) and Nestle. These are large conglomerates with a massive CO~2~ footprint. See the index to find some alternatives. |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
