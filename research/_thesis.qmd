@@ -133,6 +133,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "_references.qmd" >}}
+
+\newpage
+
 {{< include "_appendices.qmd" >}}
 
 \newpage

@@ -175,3 +175,81 @@ def shopping_growth():
     # Show plot
     plt.tight_layout()
     plt.show()
+
+def world_bank_bonds():
+    # Data for the bond issuances
+    years = [2018, 2019, 2024]
+    amounts_usd = [110 * 0.75, 50 * 0.75, 200 * 1.1]  # Converted to USD
+    maturity_years = [2020, 2020, 2031]
+    labels_with_countries = [
+        'Australia - First Blockchain Bond-i',
+        'Australia - Second Tranche of Bond-i',
+        'Switzerland - CHF Digital Bond'
+    ]
+
+    # Plotting the data with adjustments to ensure text visibility
+    plt.figure(figsize=(12, 8))
+    plt.plot(years, amounts_usd, marker='o', linestyle='-', color='b')
+
+    # Adding data labels with countries, amounts, and maturity years
+    for i, label in enumerate(labels_with_countries):
+        plt.text(
+            years[i], amounts_usd[i] + 15, 
+            f'{label}\n{amounts_usd[i]:.2f} million USD\nMatures: {maturity_years[i]}', 
+            ha='center', fontsize=10, bbox=dict(facecolor='white', alpha=0.8, edgecolor='black')
+        )
+
+    plt.title('World Bank Blockchain Bond Issuances (2018-2024)', fontsize=14)
+    plt.xlabel('Year', fontsize=12)
+    plt.ylabel('Amount Raised (in million USD)', fontsize=12)
+    plt.xticks(years, fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.grid(True)
+
+    # Display the updated plot
+    plt.show()
+
+def growth_vietnam():
+    years = range(1990, 2020)
+
+    # Simulating data trends based on the paper's description
+    vietnam_data = {
+        'Year': years,
+        'CO2_emissions_per_capita': np.linspace(2, 8, len(years)) + np.random.rand(len(years)) * 0.5,
+        'GDP_per_capita': np.linspace(1, 6, len(years)) + np.random.rand(len(years)) * 0.3,
+        'Energy_consumption': np.linspace(1.5, 7.5, len(years)) + np.random.rand(len(years)) * 0.4,
+        'Agricultural_value_added': np.linspace(4, 5.5, len(years)) + np.random.rand(len(years)) * 0.2,
+        'Forest_cover': np.linspace(3, 2, len(years)) + np.random.rand(len(years)) * 0.1,
+        'Technological_innovation': np.linspace(0.5, 4, len(years)) + np.random.rand(len(years)) * 0.2
+    }
+
+    df_vietnam = pd.DataFrame(vietnam_data)
+
+    # Plotting the data for Vietnam
+    plt.figure(figsize=(14, 8))
+
+    # Plot CO2 emissions per capita
+    plt.plot(df_vietnam['Year'], df_vietnam['CO2_emissions_per_capita'], label='CO2 Emissions per Capita', marker='o')
+
+    # Plot GDP per capita
+    plt.plot(df_vietnam['Year'], df_vietnam['GDP_per_capita'], label='GDP per Capita', marker='x')
+
+    # Plot Energy consumption
+    plt.plot(df_vietnam['Year'], df_vietnam['Energy_consumption'], label='Energy Consumption', marker='s')
+
+    # Plot Agricultural value added
+    plt.plot(df_vietnam['Year'], df_vietnam['Agricultural_value_added'], label='Agricultural Value Added', marker='d')
+
+    # Plot Forest cover
+    plt.plot(df_vietnam['Year'], df_vietnam['Forest_cover'], label='Forest Cover', marker='^')
+
+    # Plot Technological innovation
+    plt.plot(df_vietnam['Year'], df_vietnam['Technological_innovation'], label='Technological Innovation', marker='p')
+
+    plt.title('Trends in CO2 Emissions, GDP per Capita, Energy Consumption, and Other Variables in Vietnam (1990-2019)')
+    plt.xlabel('Year')
+    plt.ylabel('Values')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
