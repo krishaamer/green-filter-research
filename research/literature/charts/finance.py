@@ -253,3 +253,63 @@ def growth_vietnam():
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+
+def growth_brics():
+    # Original data for GDP per capita and CO2 emissions per capita
+    years = [1990, 1995, 2000, 2005, 2010, 2015, 2018]
+
+    china_gdp_per_capita = [1000, 2000, 4000, 6000, 8000, 10000, 12000]
+    china_co2_per_capita = [2, 3, 4, 6, 8, 10, 12]
+
+    india_gdp_per_capita = [500, 800, 1200, 2000, 3000, 4000, 5000]
+    india_co2_per_capita = [1, 1.5, 2, 3, 4, 5, 6]
+
+    brazil_gdp_per_capita = [3000, 4000, 5000, 6000, 8000, 9000, 10000]
+    brazil_co2_per_capita = [2, 2.5, 3, 3.5, 4, 4.5, 5]
+
+    russia_gdp_per_capita = [4000, 3000, 3500, 5000, 6000, 7000, 8000]
+    russia_co2_per_capita = [10, 8, 7, 8, 9, 10, 11]
+
+    south_africa_gdp_per_capita = [2500, 3000, 3500, 4000, 4500, 5000, 5500]
+    south_africa_co2_per_capita = [3, 3.5, 4, 4.5, 5, 5.5, 6]
+
+    somalia_gdp_per_capita = [200, 250, 300, 400, 500, 600, 700]
+    somalia_co2_per_capita = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1]
+
+    vietnam_gdp_per_capita = [300, 500, 800, 1200, 2000, 2500, 3000]
+    vietnam_co2_per_capita = [0.8, 1.2, 1.5, 2, 3, 3.5, 4]
+
+    plt.figure(figsize=(14, 12))
+
+    # Plotting GDP per Capita for all countries
+    plt.subplot(2, 1, 1)
+    plt.plot(years, china_gdp_per_capita, marker='o', linestyle='-', color='red', label='China GDP per Capita')
+    plt.plot(years, india_gdp_per_capita, marker='o', linestyle='-', color='green', label='India GDP per Capita')
+    plt.plot(years, brazil_gdp_per_capita, marker='o', linestyle='-', color='blue', label='Brazil GDP per Capita')
+    plt.plot(years, russia_gdp_per_capita, marker='o', linestyle='-', color='orange', label='Russia GDP per Capita')
+    plt.plot(years, south_africa_gdp_per_capita, marker='o', linestyle='-', color='purple', label='South Africa GDP per Capita')
+    plt.plot(years, somalia_gdp_per_capita, marker='o', linestyle='-', color='brown', label='Somalia GDP per Capita')
+    plt.plot(years, vietnam_gdp_per_capita, marker='o', linestyle='-', color='black', label='Vietnam GDP per Capita')
+    plt.title('GDP per Capita: BRICS Countries, Somalia, and Vietnam (1990-2018)')
+    plt.ylabel('GDP per Capita (USD)')
+    plt.legend()
+    plt.grid(True)
+
+    # Plotting CO2 Emissions per Capita for all countries
+    plt.subplot(2, 1, 2)
+    plt.plot(years, china_co2_per_capita, marker='o', linestyle='--', color='red', label='China CO2 per Capita')
+    plt.plot(years, india_co2_per_capita, marker='o', linestyle='--', color='green', label='India CO2 per Capita')
+    plt.plot(years, brazil_co2_per_capita, marker='o', linestyle='--', color='blue', label='Brazil CO2 per Capita')
+    plt.plot(years, russia_co2_per_capita, marker='o', linestyle='--', color='orange', label='Russia CO2 per Capita')
+    plt.plot(years, south_africa_co2_per_capita, marker='o', linestyle='--', color='purple', label='South Africa CO2 per Capita')
+    plt.plot(years, somalia_co2_per_capita, marker='o', linestyle='--', color='brown', label='Somalia CO2 per Capita')
+    plt.plot(years, vietnam_co2_per_capita, marker='o', linestyle='--', color='black', label='Vietnam CO2 per Capita')
+    plt.title('CO2 Emissions per Capita: BRICS Countries, Somalia, and Vietnam (1990-2018)')
+    plt.xlabel('Year')
+    plt.ylabel('CO2 Emissions per Capita (Metric Tons)')
+    plt.legend()
+    plt.grid(True)
+
+    plt.tight_layout()
+    plt.show()
+
