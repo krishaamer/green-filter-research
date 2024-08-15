@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -955,6 +955,8 @@ Externalities need to be priced in
 
 ## Countering Greenwashing with Data-Driven Benchmarks
 
+### What's the Problem with Greenwashing
+
 Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
@@ -963,7 +965,7 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
 While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. @boothBurningCarbonSink2022 describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
 
-Counteracting Misinformation:
+### Counteracting Misinformation
 
 Sustainable Investing is Based on Data
 
@@ -988,6 +990,14 @@ Sustainable Investing is Based on Data
     -   @earth.orgWorld50Most2022
 
     -   @todd-ryanWhoAre100
+
+### ESG + Fintech
+
+-   Fintech Index and ESG Scores have a positive correlation, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality.
+
+```{python}
+esg_fintech_heatmap()
+```
 
 ### Indices
 

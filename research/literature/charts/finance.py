@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore")
-
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -316,3 +316,47 @@ def growth_brics():
     plt.tight_layout()
     plt.show()
 
+def esg_fintech_chart():
+  
+    # Data for the ESG performance and FinTech integration
+    # Hypothetical data for illustration purposes
+    esg_scores = np.array([45, 50, 60, 65, 70, 75, 80, 85, 90, 95])
+    fintech_integration = np.array([30, 40, 55, 60, 70, 72, 75, 78, 82, 85])
+
+    # Plotting the scatter plot
+    plt.figure(figsize=(10, 6))
+    plt.scatter(esg_scores, fintech_integration, color='blue', marker='o')
+    plt.title('Correlation between ESG Scores and FinTech Integration')
+    plt.xlabel('ESG Scores')
+    plt.ylabel('FinTech Integration Level')
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.show()
+
+
+def esg_fintech_heatmap():
+    # Data for plotting
+    variables = ["ESG Score", "Fintech Index", "Board Size", "Board Independence", 
+                "Women on Board", "Bank Size", "Leverage", "ROA", "Age"]
+    means = [44.51, 42.69, 11.42, 80.21, 26.33, 87539, 0.06, 1.25, 32.86]
+    std_devs = [16.02, 44.56, 2.85, 14.55, 12.65, 333566, 0.09, 0.75, 23.93]
+    mins = [10.95, 0, 5, 11, 0, 889, 0, -0.84, 0]
+    maxs = [92.25, 266, 21, 100, 62.5, 2755813, 1, 9.19, 148]
+
+    # Correlation Matrix
+    correlation_data = np.array([[1, 0.558, 0.101, -0.157, 0.635, 0.731, 0.442, -0.066, 0.296],
+                                [0.558, 1, 0.115, -0.239, 0.288, 0.573, 0.204, -0.018, 0.229],
+                                [0.101, 0.115, 1, 0.013, -0.106, 0.346, -0.083, -0.074, 0.297],
+                                [-0.157, -0.239, 0.013, 1, -0.205, -0.273, -0.380, -0.019, -0.081],
+                                [0.635, 0.288, -0.106, -0.205, 1, 0.484, 0.499, -0.107, 0.195],
+                                [0.731, 0.573, 0.346, -0.273, 0.484, 1, 0.511, -0.162, 0.386],
+                                [0.442, 0.204, -0.083, -0.380, 0.499, 0.511, 1, -0.015, 0.249],
+                                [-0.066, -0.018, -0.074, -0.019, -0.107, -0.162, -0.015, 1, -0.122],
+                                [0.296, 0.229, 0.297, -0.081, 0.195, 0.386, 0.249, -0.122, 1]])
+
+    corr_variables = ["ESG Score", "Fintech Index", "Board Size", "Board Independence", 
+                    "Women on Board", "Bank Size", "Leverage", "ROA", "Age"]
+
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(correlation_data, annot=True, fmt=".2f", cmap="coolwarm", xticklabels=corr_variables, yticklabels=corr_variables)
+    plt.title('Correlation Matrix Heatmap')
+    plt.show()
