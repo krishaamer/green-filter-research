@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore")
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

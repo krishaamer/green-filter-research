@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.ai import models_chart
-from charts.ai import models_chart, scifi_chart
+from charts.ai import models_chart, scifi_chart, growth_compute_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -13,9 +13,9 @@ import Replika from '../images/with-me.png'
 import Runaround from '../images/runaround.png'
 import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
-# Towards AI Interfaces for Sustainability
+# AI-fying User Interfaces (for Sustainability)
 
-How can AI enable/help/encourage sustainability?
+How can AI interfaces enable/help/encourage sustainability?
 
 ## Human Patterns
 
@@ -29,11 +29,15 @@ By the 2010s AI models became capable enough to beat humans in games of Go and C
 
 "Generating structured data from unstructured inputs is one of the core use cases for AI" @pokrassIntroducingStructuredOutputs2024
 
-**Reinforcement Learning with Human Feedback (RLHF)**
+### **Reinforcement Learning with Human Feedback (RLHF)**
 
-Combining deep learning with reinforcement learning and reinforcement learning with human feedback (RLHF) enabled AI to achieve intelligence to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017]. OpenAI co-founder John Schulman describes RLHF: "the models are just trained to produce a single message that gets high approval from a human reader" [@karamankeChatGPTArchitectBerkeley2022].
+Combining deep learning and reinforcement learning with human feedback (RLHF) enabled to achieve levels of intelligence high enough to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017]. OpenAI co-founder John Schulman describes RLHF simply: *"the models are just trained to produce a single message that gets high approval from a human reader"* [@karamankeChatGPTArchitectBerkeley2022].
 
-The nature-inspired approach was successful. Innovations such as ***back-propagation***for reducing errors through updating model weights and ***transformers*** for tracking relationships in sequential data (for example sentences), AI models became increasingly capable [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022]. Generative Adversarial Networks\*\*\* (GAN), (**ADD CITATION, 2016**), and ***Large Language Models (*****ADD CITATION*, 2018)***, enabled increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how "the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power" [@cbsmorningsFullInterviewGodfather2023].
+The nature-inspired approach was successful. Innovations such as *back-propagation* for reducing errors through updating model weights and *transformers* for tracking relationships in sequential data (for example in sentences), enabled AI models to became increasingly capable [@vaswaniAttentionAllYou2017; @merrittWhatTransformerModel2022]. Generative Adversarial Networks\*\*\* (GAN), (**ADD CITATION, 2016**), and ***Large Language Models (*****ADD CITATION*, 2018)***, enabled increasingly generalized models, capable of more complex tasks, such as language generation. One of the leading scientists in this field of research, Geoffrey Hinton, had attempted back-propagation already in the 1980s and reminiscents how *"the only reason neural networks didn't work in the 1980s was because we didn't have have enough data and we didn't have enough computing power"* [@cbsmorningsFullInterviewGodfather2023]. [@epochaiDataNotableAI2024] reports the growth in computing power and the evolution of more than 800 AI models since the 1950s. Very simply, more data and more computing power means more intelligent models.
+
+```{python}
+growth_compute_chart()
+```
 
 -   How do transformers work? Illustration @alammarIllustratedTransformer2018
 
@@ -41,15 +45,17 @@ By the 2020s, AI-based models became a mainstay in medical research, drug develo
 
 OpenAI has researched a wide range of approaches towards artificial general intelligence (AGI), work which has led to advances in large language models[@ilyasutskeverIlyaSutskeverAI2018; @aifrontiersIlyaSutskeverAI2018]. In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text [@alextamkinHowLargeLanguage2021] which was adept in text-generation. [@Singer2022MakeAVideoTG] describes how collecting billions of images with descriptive data (for example the descriptive *alt* text which accompanies images on websites) enabled researchers to train AI models such as ***stable diffusion*** for image-generation based on human-language. These training make use of ***Deep Learning***, a layered approach to AI training, where increasing depth of the computer model captures minute details of the world. Much is still to be understood about how deep learning works; the fractal structure of deep learning can only be called mysterious [@sohl-dicksteinBoundaryNeuralNetwork2024].
 
-Hinton likes to call AI an *idiot savant*: someone with exceptional aptitude yet serious mental disorder [@cbsmorningsFullInterviewGodfather2023]. Large AI models don't understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison may be apt, as the AI field now offers jobs for *AI psychologists (ADD CITATION)*, whose role is to figure out what exactly is happening inside the 'AI brain'. Understading the insides of AI models trained of massive amounts of data is important because they are ***foundational***, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations [@capinstituteGettingRealArtificial2023].
+### The Idiot Savant
+
+Hinton likes to call AI an *idiot savant*: someone with exceptional aptitude yet serious mental disorder [@cbsmorningsFullInterviewGodfather2023]. Large AI models don't understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison is apt, as the AI field now offers jobs for *AI psychologists (ADD CITATION)*, whose role is to figure out what exactly is happening inside the 'AI brain'. Understading the insides of AI models trained of massive amounts of data is important because they are *foundational*, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations [@capinstituteGettingRealArtificial2023].
 
 Standford "thorough account of the opportunities and risks of foundation models" [@bommasaniOpportunitiesRisksFoundation2021].
 
-Foundational AI models enable *generative AIs*, a class of AI models which are able to generate many types of ***tokens,*** such as text, speech, audio [@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022], music [@copetSimpleControllableMusic2023; @metaaiAudioCraftSimpleOnestop2023] and video, in any language it's trained on. Even complex structures such 3D models and even genomes are possible to generate. Generative AI is a revolution in human-AI interaction as AI models became increasingly capable of producing human-like content which is hard to separate from actual human creations. This power comes with ***increased need for responsibility***, drawing growing interest in fields like ***AI ethics*** and ***AI explainability.*** Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to distinguish one from the other with certainty.
+Foundation models in turn enabled *generative AIs*, a class of models which are able to generate many types of *tokens**,*** such as text, speech, audio [@sanroman2023fromdi; @kreukAudioGenTextuallyGuided2022], music [@copetSimpleControllableMusic2023; @metaaiAudioCraftSimpleOnestop2023], video, and even complex structures such 3D models and DNA structures, in any language it's trained on. The advent of generative AIs was a revolution in human-computer interaction as AI models became increasingly capable of producing human-like content which is hard to distinguish from actual human creations. This power comes with *increased need for responsibility*, drawing growing interest in fields like *AI ethics* and *AI explainability.* Generative has a potential for misuse, as humans are increasingly confused by what is computer-generated and what is human-created, unable to separate one from the other with certainty.
 
-[@nobleFifthIndustrialRevolution2022] proposes AI has reached a stage of development marking beginning of the ***5th industrial revolution***, a time of collaboration between humans and AI. Widespread **Internet of Things (IoT)** sensor networks that gather data analyzed by AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including ***Pervasive Computing (PC)*** [@rogersFourPhasesPervasive2022] and ***Ubiquitous Computing***. Similar concepts are ***Ambient Computing***, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and ***Calm Technology***, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere. Today AI is not an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it.
+The technological leap is great enough for people to start calling it a start of a new era.[@nobleFifthIndustrialRevolution2022] proposes AI has reached a stage of development marking beginning of the *5th industrial revolution*, a time of collaboration between humans and AI. Widespread Internet of Things (IoT) sensor networks that gather data analyzed by AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including *Pervasive Computing (PC)* [@rogersFourPhasesPervasive2022] and *Ubiquitous Computing*. Similar concepts are *Ambient Computing*, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and *Calm Technology*, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere. Today AI is not an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it.
 
-**Human-in-the-Loop (HITL)**
+### **Human-in-the-Loop (HITL)**
 
 AI responses are probabilistic and need some function for ranking response quality. Achieving higher percentage or correct responses requires oversight which can come in the form of human feedback (human-in-the-loop) - or by using other AIs systems which are deemed to be already well-aligned (termed Constitutional AI by Anthropic) [@baileyAIEducation2023; @baiConstitutionalAIHarmlessness2022]. Less powerful AIs areFor example META used LLAMA 2 for aligning LLAMA 3.
 
@@ -70,7 +76,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 : Examples of human-in-the-loop apps
 
-### Algorithmic Experience Before Non-Deterministic Systems
+### Algorithmic Experiences Before Non-Deterministic Systems
 
 As a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized *algorithmic experience*. Algorithms are more deterministic than AI, meaning they produce predictable output than AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**. Design is increasingly relevant to algorithms, and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 

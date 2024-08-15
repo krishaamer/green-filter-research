@@ -1,5 +1,9 @@
+import warnings
+warnings.filterwarnings("ignore")
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 def models_chart():
 
@@ -178,4 +182,56 @@ def scifi_dates_chart():
     ], title='Sentiment')
     plt.grid(True)
     plt.xticks(rotation=45)
+    plt.show()
+
+def growth_compute_chart():
+
+    # Load the CSV data
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, 'notable_ai_models.csv')
+    df = pd.read_csv(file_path)
+
+    # Convert 'Publication date' to datetime and 'Training compute (FLOP)' to numeric
+    df['Publication date'] = pd.to_datetime(df['Publication date'], errors='coerce')
+    df['Training compute (FLOP)'] = pd.to_numeric(df['Training compute (FLOP)'], errors='coerce')
+
+    # Drop rows with missing data in these columns
+    df_filtered = df.dropna(subset=['Training compute (FLOP)', 'Publication date'])
+
+    # Extract the year from the publication date for the x-axis
+    df_filtered['Publication year'] = df_filtered['Publication date'].dt.year
+
+    # Set up the plot
+    plt.figure(figsize=(12, 6))
+
+    # Scatter plot for training compute (log scale) vs. publication date
+    plt.scatter(df_filtered['Publication year'], df_filtered['Training compute (FLOP)'], color='cyan', alpha=0.7, s=50)
+
+    # Set log scale for y-axis (Training compute FLOP)
+    plt.yscale('log')
+
+    # Titles and labels
+    plt.title('Notable AI Models: Training Compute vs. Publication Date', fontsize=14)
+    plt.xlabel('Publication Date', fontsize=12)
+    plt.ylabel('Training compute (FLOP)', fontsize=12)
+
+    # Annotate a few selected notable models
+    notable_models_to_annotate = ['AFM-server', 'GPT-4', 'BERT', 'AlphaFold', 'Llama 3.1-405B']
+    for _, row in df_filtered[df_filtered['System'].isin(notable_models_to_annotate)].iterrows():
+        plt.text(row['Publication year'], row['Training compute (FLOP)'] * 1.1, row['System'], fontsize=8, rotation=45)
+
+    # Add a trend line (logarithmic)
+    x = df_filtered['Publication year']
+    y = df_filtered['Training compute (FLOP)']
+    z = np.polyfit(x, np.log(y), 1)  # Fit a logarithmic trend line
+    plt.plot(x, np.exp(z[0]*x + z[1]), linestyle='--', color='gray', label=f'1.4x/year')
+
+    # Highlight the Deep Learning Era (approximately 2012 onwards)
+    plt.axvspan(2012, max(df_filtered['Publication year']), color='lightblue', alpha=0.3, label="Deep Learning Era")
+
+    # Adding a legend
+    plt.legend(loc='upper left')
+
+    # Display the plot
+    plt.tight_layout()
     plt.show()
