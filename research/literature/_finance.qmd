@@ -165,6 +165,9 @@ Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success st
 -   44.1% of Gen-Z in the US had used BNPL in 2022 [@emarketerAlmost75BNPL2021].
 -   ***Design Implication:*** This suggests users are already used to having more options in the payment flow.
 
+https://www.emarketer.com/content/almost-75-of-bnpl-users-us-gen-z-millennials
+https://www.lhv.ee/en/blog/buy-now-pay-later-option-more-popular-than-ever-before
+
 #### Consumer Activism
 
 *Conscious consumers* make up a small percentage of the entire consumer public. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
@@ -284,6 +287,10 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   Information evavõrdsus disparity between pro and novice investors
 
+<!-- -->
+
+-   Literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals.
+
 #### Influencers
 
 -   Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
@@ -306,9 +313,11 @@ Retail investors face many challenges in comparison with their institutional cou
 
 #### Plap
 
--   There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
+-   In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
 
--   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+-   There's also a trend of investors looking for sustainability in addition to profits in a few countries.
+
+-   
 
 -   @burkartClimateFinanceGets2022
 
@@ -466,11 +475,17 @@ It's how the wealthier people invest.
 
 -   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
 
+[@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies.
+
+-   
+
+<!-- -->
+
 -   @nathanreiffDecentralizedAutonomousOrganization2023
 
 -   @ianbezekItTimeEveryone2021
 
--   @blackrockESGInvestingHedge notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies"
+-   
 
 -   @ESGHedgeFunds2021
 
@@ -953,9 +968,9 @@ Externalities need to be priced in
 
 -   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors [@atalAdamSmithHis2024]
 
-## Countering Greenwashing with Data-Driven Benchmarks
+## Defeating Greenwashing with Data-Driven Benchmarks
 
-### What's the Problem with Greenwashing
+### The Problem of Greenwashing
 
 Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
@@ -965,7 +980,7 @@ Upcoming EU greenwashing legislation hopes to curb misleading communications by 
 
 While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. @boothBurningCarbonSink2022 describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
 
-### Counteracting Misinformation
+### Countering Misinformation
 
 Sustainable Investing is Based on Data
 
@@ -991,17 +1006,27 @@ Sustainable Investing is Based on Data
 
     -   @todd-ryanWhoAre100
 
+### Environmental Information Disclosure (EID)
+
+-   
+
 ### ESG + Fintech
 
--   Fintech Index and ESG Scores have a positive correlation, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality.
+In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 180 banks' data. Fintech Index and ESG Scores have a positive correlation, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible). On the flip side, out of the initial 1551 banks considered the majority did not have ESG data available to be able to perform the comparison.
 
 ```{python}
 esg_fintech_heatmap()
 ```
 
+In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
+
 ### Indices
 
-Indexes Enable Comparing Companies. Indexes make comparison possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
+-   [@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
+
+Companies assess customer's credit score to decide credit-worthiness, however how can customers rate companies? Indexes make comparing companies possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
+
+-   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
 
 Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
@@ -1013,7 +1038,7 @@ Sustainability indices need transparency and standardization [@bolognesiMappingS
 
 -   For example **Flickr invested 3000 USD in carbon credits.**
 
--   Rating Systems: Companies assess customer's credit score, however how can customers rate companies.
+-   Rating Systems:
 
 -   ESG Shopping: "Changing our relationship with money"
 

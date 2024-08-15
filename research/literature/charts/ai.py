@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import os
 
 def models_chart():
-
     data_corrected = {
         "AI Model": ["GPT-1", "GTP-2", "Turing-NLG", "GPT-3", "GPT-3.5", "GPT-4", "AlexaTM", "NeMo", "PaLM", "LaMDA", 
                     "GLaM", "BLOOM", "Falcon", "Tongyi", "Vicuna", "Wu Dao 3", "LLAMA 2", "PaLM-2", "Claude 3", 
@@ -24,18 +23,22 @@ def models_chart():
 
     df_corrected = pd.DataFrame(data_corrected)
 
-    # Plotting with the corrected data
+    # Remove rows where 'Released' is None
+    df_filtered = df_corrected.dropna(subset=['Released'])
+
+    # Plotting with the filtered data
     plt.figure(figsize=(14, 10))
     colors = {'Open Source': 'green', 'Proprietary': 'red', 'Unknown': 'gray'}
 
     # Scatter plot
-    for license_type in df_corrected['License'].unique():
-        subset = df_corrected[df_corrected['License'] == license_type]
+    for license_type in df_filtered['License'].unique():
+        subset = df_filtered[df_filtered['License'] == license_type]
         plt.scatter(subset['Released'], subset['AI Model'], s=100, label=license_type, c=colors[license_type])
 
     # Annotate each point with the company name
-    for i in range(len(df_corrected)):
-        plt.annotate(df_corrected['Company'][i], (df_corrected['Released'][i], df_corrected['AI Model'][i]), textcoords="offset points", xytext=(0,5), ha='center', fontsize=8)
+    for i in range(len(df_filtered)):
+        plt.annotate(df_filtered['Company'][i], (df_filtered['Released'][i], df_filtered['AI Model'][i]), 
+                     textcoords="offset points", xytext=(0,5), ha='center', fontsize=8)
 
     plt.xlabel('Year Released')
     plt.ylabel('AI Model')
