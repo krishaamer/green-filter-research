@@ -19,7 +19,7 @@ import EUPolicy from "/research/images/eu-policy-context.png";
 
 Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## Measuring and Visualizing Earth's Climate
+## Measuring and Visualizing Earth's Environment and Climate
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
@@ -67,10 +67,6 @@ AI is being used to map icebergs and measure the change in size [@europeanspacea
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 
 ### Pricing, Tracing and Trading CO~2~e Emissions
-
-### Financialization of Nature
-
--   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millennia to develop. humans create hugely complex systems instead of simply conserving nature.
 
 ### Markets for Ecosystem Assets
 
@@ -375,7 +371,7 @@ Social Cost of Carbon Measures Compound CO~2~ Impact. Sustainability is filled w
 
 -   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
 
-## Ecosystem Services
+## Quantifying Ecosystem Services
 
 *Ecosystem services measure the benefits humans receive from the biosphere.* Put most simply, *ecosystem services* enable human life on Earth. While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
 
@@ -526,8 +522,9 @@ The fossil energy production that's a large part of global CO2 emissions has cau
 -   EJAtlas tracks environmental justice cases around the world [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
 -   Disputes in @eerolaCorporateConductCommodity2022.
 
-## Sustainable Action
+## Debating Financialization of Nature to Enable Sustainable Action
 
+-   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millennia to develop. humans create hugely complex systems instead of simply conserving nature.
 -   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* -was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
 
 ### Re-Forestation

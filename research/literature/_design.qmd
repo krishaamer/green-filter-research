@@ -20,11 +20,11 @@ While there are many design words, X lists over Y design words Specialized Desig
 
 Design Studies, a field that studies *design* as a subject.
 
-## Eco-Design from the Legislative Perspective
+## Eco-Design for Sustainability from the Legislative Perspective
 
 Transformation towards *eco-design* has strong political support from the European Union. The Ecodesign for Sustainable Products Regulation (ESPR) legislation entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *"eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* thus setting up the standards and a level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-## Approaches to Designing for Sustainability
+## Prioritizing Useful Approaches to Design for Sustainability
 
 While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
@@ -48,7 +48,9 @@ As the above shows, there are many partially overlapping design words created by
 
 Architecture of the Well-Tempered Environment @banhamArchitectureWelltemperedEnvironment1999
 
-## Choosing and Avoiding Future Scenarios
+## Avoiding the Worst Case Future Scenarios
+
+In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
 
 *Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios.
 
@@ -98,7 +100,7 @@ AI-Assisted Design
 -   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
 -   @CharismaStorytellingPowered storytelling by AI
 
-## Data-Driven Design Enables Decision-Making
+## Data-Driven Design Enables Sustainable Personalizaton at Scale
 
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
@@ -165,7 +167,7 @@ The concept of ***Social Objects*** is People need something to gather around an
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
 
-### Platform Economy Growth
+## Digital Platform Economy Growth Leads to Superapps
 
 Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
@@ -414,7 +416,7 @@ Sustainability needs to be balanced with privacy.
 
 -   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
-## Focusing on Self-Monitoring for Personal Insights
+## Focusing on Self-Monitoring for Health and Personal Insights
 
 Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
 
@@ -575,7 +577,7 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 
 : Modes of interaction
 
-## Re-Designing Industries for Circularity
+## Re-Designing Industries for Circular Economy
 
 We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
@@ -983,7 +985,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 -   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
 -   @SulapacReplacingPlastic
 
-## Key Technology: Digital Product Passports
+## Designing Digital Product Passports
 
 Even though this topic belongs under Circular Economy, I've chose to highlight *digital product passports* here as it's the main design implication from this chapter - an emerging technology which needs to be designed for the user.
 

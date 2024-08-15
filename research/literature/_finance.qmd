@@ -17,17 +17,23 @@ import Bunq from '../images/bunq.jpg'
 
 ### Sustainable Capital Allocation Methods
 
-Shopping, saving and investing are forms of capital allocation. In one way or another, we're giving our money to companies that provide the products and services we need. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
+*Fintech* - financial technologies - linked to *ESG* (Environmental, Social, and Corporate Governance) may hold the potential to drive consumers on a pathway towards sustainable investing. Does this funnel work - and it's indeed a complex multi–step funnel -, depends on whether we can deliver a simple user experience and curb greenwashing to a level that allows consumer to distinguish eco–friendly businesses from the heavy polluters.
 
-*Fintech* apps (digital financial technologies) enable new modes of interaction design which increasingly blur boundaries between shopping, saving, and investing. Apps that started out with payments such as Revolut and N26 have branched out into offering savings accounts and investing options. Giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy and entice consumers to learn more about financial markets. Shopping, saving, and investing are converging on the same digital banking platforms, with features such as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
+This chapter explores the larger trend of *Democratization of Financial Markets* through consumer-facing apps that enable new interactions which increasingly blur boundaries between shopping, saving, and investing. Efforts to boost user numbers have made apps that started out with payments-only - such as Revolut and N26 - branch out into offering savings accounts and investing options. Regardless of if it's money spent on shopping or saved and invested, these are all decision of capital allocation, and in one way or another, we're giving our money to companies. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
 
-Money is created by governments by law: using central banks, which loan money to commercial banks. New types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
+Users are beginning to become money-savvy yet are still missing many key ideas from financial literacy. Giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
+
+Shopping, saving, and investing are converging on digital platforms (superapps) that permeate our daily financial lives, with features such basic banking, payments, transfers, as well as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
+
+Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
 ```{python}
 fintech_chart()
 ```
 
 ### Legislation
+
+Legislation is Catching Up With Fintechs
 
 Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants" [@europeansecuritiesandmarketsauthorityMiFIDII2017].
 
@@ -142,7 +148,7 @@ There are many *neobanks*, or challenger banks, far too many to list. The table 
 
 -   @andresenglerBerkshireHathawayInvests2022
 -   Crypto tools allow you to look at any wallet already
--   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.
+-   
 -   @marisaadangilCriptomoedasVaoAcabar2022
 -   @caiojobimBitcoinFalhouCriptomoedas2022
 -   @EuropeanFintechsWatch2022
@@ -153,7 +159,11 @@ Does Individual Climate Action Matter?
 
 #### Buy Now Pay Later
 
--   adasd
+Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success story innovated by Klarna in Sweden in 2005 and Afterpay in Australia in 2015 but with roots in Layaway Programs created during the 1930's US Great Depression \[kentonWhatLayawayPlan2023\].
+
+-   Gen-Z mostly used BNPL to buy clothes.
+-   44.1% of Gen-Z in the US had used BNPL in 2022 [@emarketerAlmost75BNPL2021].
+-   ***Design Implication:*** This suggests users are already used to having more options in the payment flow.
 
 #### Consumer Activism
 
@@ -182,7 +192,7 @@ Projected growth in online shopping [@forresterForresterGlobalOnline2024]
 shopping_growth()
 ```
 
--   Shop CO2e emissions for each company who i buy from? "get rid of brands"!! cause they hide and lie
+-   
 
 -   Make commerce more transparent
 
@@ -224,6 +234,8 @@ shopping_growth()
 
 ### Saving
 
+#### OOO
+
 People will only save nature if it also saves money.
 
 -   Nerdwallet's @tommytindallFinancialActionsSpeak2023 suggests making financial commitments instead of resolutions.
@@ -233,6 +245,12 @@ People will only save nature if it also saves money.
 -   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
 
 -   "Environmental savings", "means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
+
+-   Ethical Savings
+
+-   @EthicalSavingsEverything2023
+
+-   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
 
 #### Anthropomorphism
 
@@ -260,41 +278,13 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 ### Investing
 
--   There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
-
--   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
-
--   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
-
--   @burkartClimateFinanceGets2022
-
--   Assumptions: --- where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
-
--   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.
-
--   Hypothesis?
-
--   @M1FinanceReview2023
-
--   @ENVIRONMENTALSAVINGSDefinition
-
--   Ethical Savings
-
--   @EthicalSavingsEverything2023
-
--   @EthicalShopping2019
-
--   @GoodShoppingGuide
-
-Young investors are typically ***retail investors*** investing small amounts of money for themselves. (Unless they work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
+Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
 Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
--   Information evavõrdsus between pro and novice investors
+-   Information evavõrdsus disparity between pro and novice investors
 
--   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
-
--   *For young people, investing mostly means buying cryptocurrencies?*
+#### Influencers
 
 -   Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
 
@@ -302,7 +292,61 @@ Retail investors face many challenges in comparison with their institutional cou
 
     Influencer - crypto twitter connections
 
--   There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility
+-   There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
+
+-   Entertainmenization of investing
+
+-   Meme Stocks
+
+-   Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing.
+
+-   Encourage impulsive short-term buying and selling with a focus on speculation over fundamentals.
+
+-   Cause FOMO (fear of missing out)
+
+#### Plap
+
+-   There's literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' (@oyedokunGreenPremiumDriver2017). There's also a trend of investors looking for sustainability in addition to profits in a few countries.
+
+-   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+
+-   @burkartClimateFinanceGets2022
+
+-   Assumptions: --- where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
+
+-   Hypothesis?
+
+-   @M1FinanceReview2023
+
+-   @ENVIRONMENTALSAVINGSDefinition
+
+-   @EthicalShopping2019
+
+-   @GoodShoppingGuide
+
+-   SPARQAN
+
+-   @rupertjonesGreenMoneyHow2022
+
+-   @jacksonEcoFriendlyGuideFinances2020
+
+-   @stefSustainableMoneyDesign2019
+
+-   @MakeMyMoney2023
+
+-   @seekingalphaBooksThatChanged2020
+
+-   @markoTeekondMiljoniliseInvesteerimisportfellini2022
+
+-   Consumer debt in the USA
+
+-   Nubanks, also known as challenger banks.
+
+-   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
+
+-   *For young people, investing mostly means buying cryptocurrencies?*
+
+-   
 
 -   Copy-investing is a popular feature of retail investing platforms like EToro
 
@@ -315,10 +359,6 @@ Retail investors face many challenges in comparison with their institutional cou
 -   In 2021 the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
 
 -   @garygenslerWeHaveActive2022 Investor protection, making investing accessible, climate risk disclosure
-
--   @LetsDeFiDeFi Crypto DeFi education
-
--   @MeetFintechsLeading2021 ***Swedish green fintech (important article)***
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
@@ -338,45 +378,35 @@ Retail investors face many challenges in comparison with their institutional cou
 
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
--   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019].
+
+@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
+
+-   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however
 
 -   @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level"
 
--   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
-
--   Celo and Impact Market
-
--   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference?
-
--   SPARQAN
-
--   MicroLending
-
--   Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
-
--   @rupertjonesGreenMoneyHow2022
-
--   @jacksonEcoFriendlyGuideFinances2020
-
--   @stefSustainableMoneyDesign2019
-
--   @MakeMyMoney2023
-
--   @seekingalphaBooksThatChanged2020
-
--   @markoTeekondMiljoniliseInvesteerimisportfellini2022
-
--   Consumer debt in the USA
-
--   Nubanks, also known as challenger banks.
+-   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
 
 -   For example - In Sweden "Preferences for sustainable and responsible equity funds
 
 -   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice experiment with Swedish private investors.
 
--   @smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
+-   @MeetFintechsLeading2021 ***Swedish green fintech (important article)***
 
--   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however @hoAsianInvestorsAre2019 counters investors are not sure how to separate sustainable assets from less sustainable ones.
+#### **Financial Ecologies**
+
+-   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+
+-   ESG apps in Singapore:
+
+-   DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
+
+-   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
+
+#### Financial Literacy
+
+-   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
 
 #### Community Investing Enables Financial Inclusion
 
@@ -464,7 +494,7 @@ University of California also followed suit with divestment of its \$126B USD po
 
 -   
 
-#### Increasing Number of Asset Classes
+#### Growing Choice of Asset Classes
 
 new asset classes
 
@@ -582,6 +612,16 @@ In India, research is being conducted on how AI advisors could assist with inves
 
 -   Increasingly available to co-invest on investing platforms.
 
+#### Stocks
+
+-   Most popular
+
+#### Lending
+
+\- peer-to-peer (P2P) lending, twino
+
+-   MicroLending
+
 #### Crypto
 
 Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people (ADD CITATION) yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 600 million cryptocurrency users worldwide.
@@ -592,6 +632,8 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 
 -   Taiwan bans buying cryptocurrencies with credit card because the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
 
+-   @LetsDeFiDeFi Crypto DeFi education
+
 -   Volatile national currencies lead people to find other assets to hold.
 
 -   Crypto enables financial innovation and financial engineering by anyone with some programming skills.
@@ -599,6 +641,8 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 
 -   @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in crypto
+
+-   Celo and Impact Market
 
 -   @raidotonissonSedaAktsionaridOstaksid2022 due to a law change Estonian could take out their pensions and invest or spend them however they wanted. @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse cryptocurrency Sandbox
 
@@ -669,7 +713,7 @@ Efforts to connec carbon markets, carbonmark.com
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-## Measuring the Gargantuan Eco-Investment Gap
+## Measuring the Eco-Investment Gap
 
 Bad news. How Much Money Is Needed? It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
@@ -689,69 +733,69 @@ The lack of funding in green energy especially affects emerging economies [@Mobi
 money_chart()
 ```
 
-+-----------------------------------------------------------------------------------------+-------------+
-| High-Value Assets (Trillions of USD)                                                    |             |
-+=========================================================================================+=============+
-| Global Real Estate (2020, valuation)                                                    | \$326T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global Equity Markets (2023, valuation)                                                 | \$108T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global GDP (2023, per year)                                                             | \$105T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global GDP (2022, per year)                                                             | \$100T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T*   |
-+-----------------------------------------------------------------------------------------+-------------+
-| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| U.S. National Debt (2023, valuation)                                                    | \$32.6T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*     |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of U.S.A. (2023, per year)                                                          | \$26.8T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of China (2023, per year)                                                           | \$19.3T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global Private Market Assets (2023, per year)                                           | \$11.7T     |
-+-----------------------------------------------------------------------------------------+-------------+
-| *Unpriced Externalities (2023, per year)*                                               | *\$7.3T*    |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global E-Commerce Sales (2021, per year)                                                | \$5.2T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*    |
-+-----------------------------------------------------------------------------------------+-------------+
-| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T        |
-+-----------------------------------------------------------------------------------------+-------------+
-| Global Real Estate Sales (2021, per year)                                               | \$3.7T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| Apple Computers (2024, market value)                                                    | \$3.1T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of Japan (2023, per year)                                                           | \$4.5T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of Germany (2023, per year)                                                         | \$4.3T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of India (2023, per year)                                                           | \$3.7T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| NVIDIA 英偉達 (2024, market value)                                                      | \$2.5T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*    |
-+-----------------------------------------------------------------------------------------+-------------+
-| Blackstone (2023, total assets)                                                         | \$1T        |
-+-----------------------------------------------------------------------------------------+-------------+
-| Bitcoin (2024, market cap)                                                              | \$1T        |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of Taiwan (2023, per year)                                                          | \$0.8T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of Finland (2023)                                                                   | \$0.3T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| Ethereum (2024, market cap)                                                             | \$0.3T      |
-+-----------------------------------------------------------------------------------------+-------------+
-| GDP of Estonia (2023, per year)                                                         | \$0.04T     |
-+-----------------------------------------------------------------------------------------+-------------+
++-----------------------------------------------------------------------------------------+------------+
+| High-Value Assets (Trillions of USD)                                                    |            |
++=========================================================================================+============+
+| Global Real Estate (2020, valuation)                                                    | \$326T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global Equity Markets (2023, valuation)                                                 | \$108T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global GDP (2023, per year)                                                             | \$105T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global GDP (2022, per year)                                                             | \$100T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T*  |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T    |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. National Debt (2023, valuation)                                                    | \$32.6T    |
++-----------------------------------------------------------------------------------------+------------+
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*    |
++-----------------------------------------------------------------------------------------+------------+
+| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T    |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of U.S.A. (2023, per year)                                                          | \$26.8T    |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of China (2023, per year)                                                           | \$19.3T    |
++-----------------------------------------------------------------------------------------+------------+
+| Global Private Market Assets (2023, per year)                                           | \$11.7T    |
++-----------------------------------------------------------------------------------------+------------+
+| *Unpriced Externalities (2023, per year)*                                               | *\$7.3T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Global E-Commerce Sales (2021, per year)                                                | \$5.2T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T       |
++-----------------------------------------------------------------------------------------+------------+
+| Global Real Estate Sales (2021, per year)                                               | \$3.7T     |
++-----------------------------------------------------------------------------------------+------------+
+| Apple Computers (2024, market value)                                                    | \$3.1T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Japan (2023, per year)                                                           | \$4.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Germany (2023, per year)                                                         | \$4.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of India (2023, per year)                                                           | \$3.7T     |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| NVIDIA 英偉達 (2024, market value)                                                      | \$2.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Blackstone (2023, total assets)                                                         | \$1T       |
++-----------------------------------------------------------------------------------------+------------+
+| Bitcoin (2024, market cap)                                                              | \$1T       |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Taiwan (2023, per year)                                                          | \$0.8T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Finland (2023)                                                                   | \$0.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| Ethereum (2024, market cap)                                                             | \$0.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Estonia (2023, per year)                                                         | \$0.04T    |
++-----------------------------------------------------------------------------------------+------------+
 
 : Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
 
@@ -773,7 +817,7 @@ The possibility of decoupling economic growth from CO2 emissions (sometimes call
 
 <!-- -->
 
--   [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile [@globalcarbonbudgetCumulativeCOEmissions2023] data shows an increasing CO2e emissions trend in the UK in the same timeframe.
+-   In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile, contrarily, [@globalcarbonbudgetCumulativeCOEmissions2023]'s data shows an increasing CO2e emissions trend in the UK in the same timeframe.
 
 ```{python}
 growth_brics()
@@ -872,11 +916,12 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 
 ### Externalities
 
+Prices Do Not Capture All Costs "CONSUMPTION, PRODUCTION, AND INVESTMENT decisions of individuals, households, and firms often affect people not directly involved in the transactions." @helblingExternalitiesPricesNot
+
 -   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
+-   Conceived by Alfred Marshall and Arthur Cecil Pigou
 
 Externalities need to be priced in
-
-metrics and goals: ESG, SDGs,
 
 -   @mazzucatoMissionEconomyMoonshot2021
 
@@ -964,11 +1009,15 @@ Sustainability indices need transparency and standardization [@bolognesiMappingS
 
 -   Nordic Climate Transparency Leadership: "companies with higher quality climate reporting also provide higher returns"
 
-### *Certification*
+### Certification
 
-Does certification matter? Consumers are willing to pay more for bio-based products "72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products." @moroneConsumerWillingnessPay2021 (need access)
+Research shows certification does matter. Consumers are willing to pay more for bio-based products "72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products." @moroneConsumerWillingnessPay2021 (need access).
 
--   consumer awareness of Sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
+-   In Italy, consumer awareness of sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
+
+***Design Implications:*** Display certificates.
+
+-   
 
 | Rating System              |
 |----------------------------|
@@ -977,12 +1026,15 @@ Does certification matter? Consumers are willing to pay more for bio-based produ
 | Fair Trade                 |
 | Responsible Business Index |
 | Greenly                    |
+|                            |
 
 There are many different certifications
 
 -   @EthicalConsumer
 
 -   B Impact Assessment
+
+-   Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements.
 
 -   sustainable brands
 
@@ -996,21 +1048,15 @@ There are many different certifications
 
 -   Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023
 
--   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores."
-
--   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.
+-   
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
 -   Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
--   ESG apps in Singapore:
+-   
 
--   DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
-
--   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
-
-ESG Complicance Systems: - MEET - EXCEED - LEAD
+-   
 
 Existing rankings
 
@@ -1027,8 +1073,6 @@ Existing rankings
 
 -   Fashion brand ratings
 
--   B Impact Assessment
-
 -   Ethical Shopping
 
 -   @Top100Consumer Largest consumer goods companies
@@ -1037,6 +1081,7 @@ Existing rankings
 
 B Corporations undergo strict assessment and adhere to stringent sustainability practices.
 
+-   B Impact Assessment
 -   @FindCorp BCorporation listings by country
 -   @EtsyMadeMistakes2017
 -   @citywealthESGBrandingBCorps2021
@@ -1060,7 +1105,7 @@ All of the world's products are subject to one or another standard and although 
 
 ### Standards
 
-[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+There are many standards. [@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
 
 -   Most sustainable companies. Make a database?
 
@@ -1080,53 +1125,100 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 
 ### ESG Crisis
 
+-   metrics and goals: ESG, SDGs,
+
+-   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores."
+
+-   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.
+
 -   @chenxiyuHowAICan2021 ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
 
-<!-- -->
+-   ESG Complicance Systems: - MEET - EXCEED - LEAD.
 
 -   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
+
 -   ESG greenwashing @baldiRoleESGScoring2022
+
 -   ESG Needs Standardisation
+
 -   Environmental, Social, and Corporate Governance (ESG)
+
 -   @doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
+
 -   @kirakosianLOIMLaunchesCircular2020 Digital payments and circular bio-economy, even using tactics such as co-branding with famous individuals.
+
 -   @pwc2022GrowthOpportunity2020 PWC suggests "asset managers educate their staff and client base. 'It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent'".
+
 -   The advice consultancies are providing to banks establishes a common language and helps banks to sell strategical alignment for long-term institutional sustainability in terms of finance, social, and governance.
+
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
+
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
+
 -   ESG companies don't emit less CO2 than non-ESG companies.
+
 -   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
+
 -   ESG is filled with greenwashing
+
 -   ESG is a really low bad
+
 -   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud
+
 -   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
+
 -   Improving ESG Accessibility
+
 -   ESG risk
+
 -   Implication for design: ESG can't be trusted.
+
 -   Trading ESG futures?? because climate is slow it makes sense to trade de climate future
+
 -   CFI2Z4 tracks Carbon Emissions Futures [@investing.comCarbonEmissionsFutures2024]
+
 -   While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
+
 -   Gov launching ESG funds. Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus.
+
 -   @ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022
+
 -   Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products \[\^8\].
+
 -   While promising to become sustainable, oil companies are increasing production @noorBigOilQuietly2023; Sunak, UK Primise Minister announced 100 news licenses for oil drilling in the UK.
+
 -   Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock\[\^6\]. Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance \[\^7\]. However they later backtracked from their decision.
+
 -   Banks are required by law to apply the principle of Know Your Customer (KYC).
+
 -   
+
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
+
 -   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023 ESG Not delivering on it's hopes
+
 -   @tedxtalksDisruptiveNewModel2022 large corporations are using ESG for greenwashing by investing in token-projects but not changing their fundamental polluting practices.
+
 -   @margarytakirakosianRedFlagsPrivate2022
+
 -   Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects @wilkesExclusiveBanksVote2023
+
 -   @dailyHereOurList2021 best ESG list
+
 -   ESG UAE FutureESGInvesting
+
 -   @sanjaibhagatInconvenientTruthESG2022: Not better environmental performance, ESG poor performance
+
 -   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG
+
 -   @pietrocecereItTotalMess2023 calls ESG labeling confusing and arbitrary.
+
 -   ESG is a Marketing Tool
+
     -   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
     -   @agnewRIPESG2022 RIP ESG
     -   @luoESGLiquidityStock2022 found firms with a lower ESG score are more profitable.
+
 -   Analysis: Messari: investor education, information asymmetry
 
 | Problems                             |     |     |
@@ -1276,6 +1368,12 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 |                | Live more sustainably with 10 minutes per day.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Saving         | Anthropomorphism                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | -   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | -   Shop CO2e emissions for each company who i buy from? "get rid of brands"!! cause they hide and lie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Features
