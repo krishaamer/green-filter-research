@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -267,9 +267,111 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 ### Investing
 
+#### Measuring the Eco-Investment Gap
+
+By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022].
+
+According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
+
+```{python}
+climate_finance_gap_sectors_timeline()
+```
+
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate? The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+
+```{python}
+climate_finance_gap_sectors()
+```
+
+The needed investment doesn't seem so large - around 2.5-5.2 % of the global GDP - if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
+
+Bad news. How Much Money Is Needed? It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
+
+The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
+
+```{python}
+money_chart()
+```
+
++-----------------------------------------------------------------------------------------+------------+
+| High-Value Assets (Trillions of USD)                                                    |            |
++=========================================================================================+============+
+| Global Real Estate (2020, valuation)                                                    | \$326T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global Equity Markets (2023, valuation)                                                 | \$108T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global GDP (2023, per year)                                                             | \$105T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global GDP (2022, per year)                                                             | \$100T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T*  |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T    |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. National Debt (2023, valuation)                                                    | \$32.6T    |
++-----------------------------------------------------------------------------------------+------------+
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*    |
++-----------------------------------------------------------------------------------------+------------+
+| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T    |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of U.S.A. (2023, per year)                                                          | \$26.8T    |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of China (2023, per year)                                                           | \$19.3T    |
++-----------------------------------------------------------------------------------------+------------+
+| Global Private Market Assets (2023, per year)                                           | \$11.7T    |
++-----------------------------------------------------------------------------------------+------------+
+| *Unpriced Externalities (2023, per year)*                                               | *\$7.3T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Global E-Commerce Sales (2021, per year)                                                | \$5.2T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T       |
++-----------------------------------------------------------------------------------------+------------+
+| Global Real Estate Sales (2021, per year)                                               | \$3.7T     |
++-----------------------------------------------------------------------------------------+------------+
+| Apple Computers (2024, market value)                                                    | \$3.1T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Japan (2023, per year)                                                           | \$4.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Germany (2023, per year)                                                         | \$4.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of India (2023, per year)                                                           | \$3.7T     |
++-----------------------------------------------------------------------------------------+------------+
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| NVIDIA 英偉達 (2024, market value)                                                      | \$2.5T     |
++-----------------------------------------------------------------------------------------+------------+
+| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*   |
++-----------------------------------------------------------------------------------------+------------+
+| Blackstone (2023, total assets)                                                         | \$1T       |
++-----------------------------------------------------------------------------------------+------------+
+| Bitcoin (2024, market cap)                                                              | \$1T       |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Taiwan (2023, per year)                                                          | \$0.8T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Finland (2023)                                                                   | \$0.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| Ethereum (2024, market cap)                                                             | \$0.3T     |
++-----------------------------------------------------------------------------------------+------------+
+| GDP of Estonia (2023, per year)                                                         | \$0.04T    |
++-----------------------------------------------------------------------------------------+------------+
+
+: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
+
+While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support.
+
+-   Robeco survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
+
+-   Compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
+
+-   "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
+
 #### Sustainable Investing
 
 While literature has been debating if it's possible to "do well while doing good", latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
+
+"Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
 #### Young Investors
 
@@ -348,7 +450,7 @@ Among retail investors, there's some appetite for sustainability however investo
 -   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
 -   Invetors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
 
-#### **Financial Ecologies**
+#### Financial Ecologies
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
@@ -632,107 +734,11 @@ University of California also followed suit with divestment of its \$126B USD po
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-## Measuring the Eco-Investment Gap
-
-Bad news. How Much Money Is Needed? It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
-
-Sustainability lacks Trillions of USD in investment - even with massive financing going into sustainability, there's still a lack of investing. The estimate for the global *financing gap* for low-carbon energy production was 5.2 Trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional **4.1 Trillion USD** of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower **2.5-3.2 Trillion USD** would be sufficient.
-
-The needed investment doesn't seem so large - around 2.5-5.2 % of the global GDP - if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
-
-"Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
-
-What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate?
-
-The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
-
-The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
-
-```{python}
-money_chart()
-```
-
-+-----------------------------------------------------------------------------------------+------------+
-| High-Value Assets (Trillions of USD)                                                    |            |
-+=========================================================================================+============+
-| Global Real Estate (2020, valuation)                                                    | \$326T     |
-+-----------------------------------------------------------------------------------------+------------+
-| Global Equity Markets (2023, valuation)                                                 | \$108T     |
-+-----------------------------------------------------------------------------------------+------------+
-| Global GDP (2023, per year)                                                             | \$105T     |
-+-----------------------------------------------------------------------------------------+------------+
-| Global GDP (2022, per year)                                                             | \$100T     |
-+-----------------------------------------------------------------------------------------+------------+
-| *Global Pension Funds (2023, valuation)*                                                | *\$47.9T*  |
-+-----------------------------------------------------------------------------------------+------------+
-| U.S. Equity Markets (2023, valuation)                                                   | \$46.2T    |
-+-----------------------------------------------------------------------------------------+------------+
-| U.S. National Debt (2023, valuation)                                                    | \$32.6T    |
-+-----------------------------------------------------------------------------------------+------------+
-| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T*    |
-+-----------------------------------------------------------------------------------------+------------+
-| Global Retail Sales of Goods and Services to Consumers (2023, per year)                 | \$28.2T    |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of U.S.A. (2023, per year)                                                          | \$26.8T    |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of China (2023, per year)                                                           | \$19.3T    |
-+-----------------------------------------------------------------------------------------+------------+
-| Global Private Market Assets (2023, per year)                                           | \$11.7T    |
-+-----------------------------------------------------------------------------------------+------------+
-| *Unpriced Externalities (2023, per year)*                                               | *\$7.3T*   |
-+-----------------------------------------------------------------------------------------+------------+
-| Global E-Commerce Sales (2021, per year)                                                | \$5.2T     |
-+-----------------------------------------------------------------------------------------+------------+
-| *Missing Climate Invesment (2022, total)*                                               | *\$4.1T*   |
-+-----------------------------------------------------------------------------------------+------------+
-| Industrial & Commercial Bank of China (2019, total assets)                              | \$4T       |
-+-----------------------------------------------------------------------------------------+------------+
-| Global Real Estate Sales (2021, per year)                                               | \$3.7T     |
-+-----------------------------------------------------------------------------------------+------------+
-| Apple Computers (2024, market value)                                                    | \$3.1T     |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of Japan (2023, per year)                                                           | \$4.5T     |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of Germany (2023, per year)                                                         | \$4.3T     |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of India (2023, per year)                                                           | \$3.7T     |
-+-----------------------------------------------------------------------------------------+------------+
-| U.S. Gen-Z and Millennials Consumer Spending (2022, per year)                           | \$2.5T     |
-+-----------------------------------------------------------------------------------------+------------+
-| NVIDIA 英偉達 (2024, market value)                                                      | \$2.5T     |
-+-----------------------------------------------------------------------------------------+------------+
-| *Retail Investors (2023, liquid assets)*                                                | *\$1.8T*   |
-+-----------------------------------------------------------------------------------------+------------+
-| Blackstone (2023, total assets)                                                         | \$1T       |
-+-----------------------------------------------------------------------------------------+------------+
-| Bitcoin (2024, market cap)                                                              | \$1T       |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of Taiwan (2023, per year)                                                          | \$0.8T     |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of Finland (2023)                                                                   | \$0.3T     |
-+-----------------------------------------------------------------------------------------+------------+
-| Ethereum (2024, market cap)                                                             | \$0.3T     |
-+-----------------------------------------------------------------------------------------+------------+
-| GDP of Estonia (2023, per year)                                                         | \$0.04T    |
-+-----------------------------------------------------------------------------------------+------------+
-
-: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
-
-While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support.
-
--   Robeco survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
-
--   Ray Dalio puts the needed climate investment at \$5T yet believes these financial goals won't be met @raydalioFourthBigForce2023
-
--   Compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
-
--   "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
-
 ## Decoupling Economic Growth from Environmental Degradation
 
-### Decarbonization Scenarios
+### Scenarios
 
-The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation - is a topic debated among scientists.
+Decarbonization Scenarios. The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation - is a topic debated among scientists.
 
 -   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
 -   In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile, contrarily, [@globalcarbonbudgetCumulativeCOEmissions2023]'s data shows an increasing CO2e emissions trend in the UK in the same timeframe.
@@ -757,17 +763,13 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 ### Econometrics
 
+*Econometrics* is the art and science of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
+
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
 There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
 
 There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
-
-*Econometrics* is the science and art of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
-
-*Ecological Economics* is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
-
--   Sacred Economics is use as-is as a framework and visualization tool.
 
 ### Pricing Externalities
 
@@ -807,6 +809,12 @@ Externalities need to be priced in
 -   @stockholmresiliencecentretvKateRaworthPresenting2017
 
 -   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors [@atalAdamSmithHis2024]
+
+### Ecological Economics
+
+*Ecological Economics* is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
+
+-   Sacred Economics is use as-is as a framework and visualization tool.
 
 ### Doughnut Economics
 

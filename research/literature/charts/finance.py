@@ -558,3 +558,52 @@ def esg_rating_agencies_chart():
 
     # Display the pie chart
     plt.show()
+
+
+def climate_finance_gap_sectors():
+    # Data in trillions
+    sectors = ['Power', 'Buildings', 'Transport', 'Agriculture & Nature-based Solutions', 'Industry']
+    needs_2020_2025_trillions = [1.95, 0.66, 0.38, 0.14, 0.4]  # Values converted to trillions
+    flows_2020_trillions = [0.75, 0.26, 0.14, 0.05, 0.14]
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    bar_width = 0.35
+    index = np.arange(len(sectors))
+
+    # Create bars for needs and flows in trillions
+    bars1 = ax.bar(index, needs_2020_2025_trillions, bar_width, label='Annual Financing Needs (2020-2025)')
+    bars2 = ax.bar(index + bar_width, flows_2020_trillions, bar_width, label='Annual Flows (2020)')
+
+    # Add labels, title, and legend
+    ax.set_xlabel('Sector', fontsize=12)
+    ax.set_ylabel('Financing (in $ trillions)', fontsize=12)
+    ax.set_title('Climate Finance Gaps by Sector (2020-2025)', fontsize=14)
+    ax.set_xticks(index + bar_width / 2)
+    ax.set_xticklabels(sectors, rotation=20, ha='right', fontsize=11)
+    ax.legend()
+
+    plt.tight_layout()
+    plt.show()
+
+def climate_finance_gap_sectors_timeline():
+    # Data in trillions
+    years = np.array([2020, 2030, 2040, 2050])
+    power_needs_trillions = np.array([1.95, 1.8, 1.4, 1.1])  # Converted to trillions
+    transport_needs_trillions = np.array([0.38, 0.5, 0.9, 1.2])
+    buildings_needs_trillions = np.array([0.66, 0.7, 0.5, 0.3])
+    industry_needs_trillions = np.array([0.4, 0.7, 0.9, 1.5])
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.plot(years, power_needs_trillions, label='Power', marker='o')
+    ax.plot(years, transport_needs_trillions, label='Transport', marker='o')
+    ax.plot(years, buildings_needs_trillions, label='Buildings', marker='o')
+    ax.plot(years, industry_needs_trillions, label='Industry', marker='o')
+
+    # Add labels, title, and legend
+    ax.set_xlabel('Year', fontsize=12)
+    ax.set_ylabel('Investment Needs (in $ trillions)', fontsize=12)
+    ax.set_title('Sectoral Financing Needs Over Time (2020-2050)', fontsize=14)
+    ax.legend()
+
+    plt.tight_layout()
+    plt.show()
