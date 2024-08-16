@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -27,13 +27,15 @@ Shopping, saving, and investing are converging on digital platforms (superapps) 
 
 Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
+-   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ... Eisenstein?: "Money is a technology".
+
 ```{python}
 fintech_chart()
 ```
 
 ### Legislation
 
-Legislation is Catching Up With Fintechs
+Legislation is Catching Up With Fintechs. Legislation sets higher standards.
 
 Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants" [@europeansecuritiesandmarketsauthorityMiFIDII2017].
 
@@ -45,13 +47,13 @@ While the above trend is for governments to adapt to and work towards their envi
 
 @pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
--   Legislation sets higher standards.
-
 -   @WorldEconomicOutlook2023
 
 ### Shopping
 
-Banks and Fintechs Capture User Data. Payments are an Entry Point and Source of Consumer Action Data, Shopping Data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing?
+Banks and Fintechs Capture User Data. Payments are an Entry Point and Source of Consumer Action Data, Shopping Data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing? ESG Shopping is about Changing our relationship with money. Make commerce more transparent. Current shopping is like having a one-night stand. you barely know the name of your company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
+
+#### Payments
 
 Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
@@ -72,6 +74,7 @@ In Sweden, point of sales (PoS) lending is a common practice, and one of the rea
 Many banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
 -   Bank inside of Whatsapp for the underbanked gig workers in Latin America @ycombinatorKontigoUSDCneobankLatinos2023
+-   @kirakosianLOIMLaunchesCircular2020 Digital payments and circular bio-economy, even using tactics such as co-branding with famous individuals.
 
 While the financial industry is highly digitized, plenty of banks are still paper-oriented, running digital and offline processes simultaneously, making them slower and less competitive, than startups. Indeed, the new baseline for customer-facing finance is set by fintech, taking cues from the successful mobile apps in a variety of sectors, foregoing physical offices, and focusing on offering the best possible online experience for a specific financial service, such as payments.
 
@@ -88,7 +91,7 @@ There are many *neobanks*, or challenger banks, far too many to list. The table 
 ```{=mdx}
 <Figure caption="Bunq promises to combine banking and eco-friendly actions in the same user interface" src={Bunq} />
 ```
--   The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing (fig. 6) - however, they are mostly only available on the US market:
+The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing however, they are mostly only available on the US market.
 
 +---------------+------------------------------------------------------------------------------+--------------+
 | Service       | Features                                                                     | Availability |
@@ -148,7 +151,6 @@ There are many *neobanks*, or challenger banks, far too many to list. The table 
 
 -   @andresenglerBerkshireHathawayInvests2022
 -   Crypto tools allow you to look at any wallet already
--   
 -   @marisaadangilCriptomoedasVaoAcabar2022
 -   @caiojobimBitcoinFalhouCriptomoedas2022
 -   @EuropeanFintechsWatch2022
@@ -172,13 +174,15 @@ https://www.emarketer.com/content/almost-75-of-bnpl-users-us-gen-z-millennials h
 social_commerce_chart()
 ```
 
-
 #### Consumer Activism
 
 *Conscious consumers* make up a small percentage of the entire consumer public. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
+-   Is Sustainable Shopping possible? "Learn to notice so we can preserve", "Õpetame märkama, et oskaksime hoida". "Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design"
+
+<!-- -->
+
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@gklinglmayrSustainableConsumerismSelfRegulation2016]
--   Is Sustainable Shopping possible?
 
 Make use of indexes to compare companies.
 
@@ -202,8 +206,6 @@ shopping_growth()
 
 -   
 
--   Make commerce more transparent
-
 -   @DecreasingCarbonFootprint2019
 
 -   @sallyparkerWantLowerFood2022
@@ -211,8 +213,6 @@ shopping_growth()
 -   "The sustainable market for Fast Moving Consumer Goods is 2.5 Trillion USD, that includes an untapped market opportunity worth 1 Trillion USD. Nearly 40% of customers say they would switch from their current preferred brand to one that offers more transparency"
 
 -   @BurningBridgesAllbridges
-
--   Current shopping is like having a one-night stand. you barely know the name of your company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
 
 -   @emilywaterfieldAppsThatCan2019
 
@@ -226,15 +226,11 @@ shopping_growth()
 
 -   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
 
--   "Learn to notice so we can preserve", "Õpetame märkama, et oskaksime hoida"
-
 -   @franklintempletondistributorsincConsumerCloutDriving2021
 
 -   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
 
 -   @mckinseyRiseInclusiveConsumer2022 Inclusive consumer
-
--   "Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design"
 
 -   @TaiWanSheJiYanJiuYuanTDRIInstagram2021 and @HuoDongTongBeiOuXunHuanSheJiLunTanNordicCircular Cradle to Cradle Nordic circular design in Taiwan
 
@@ -296,6 +292,16 @@ Young investors are typically *retail investors* investing small amounts of mone
 
 Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
+-   *For young people, investing mostly means buying cryptocurrencies?*
+
+-   Copy-investing is a popular feature of retail investing platforms like EToro
+
+-   @irenezhaoHereWhy0xIreneDao2022
+
+-   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
+
+<!-- -->
+
 -   Information evavõrdsus disparity between pro and novice investors
 
 #### Influencers
@@ -320,11 +326,7 @@ Retail investors face many challenges in comparison with their institutional cou
 
 #### Plap
 
--   In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
-
 -   There's also a trend of investors looking for sustainability in addition to profits in a few countries.
-
--   
 
 -   @burkartClimateFinanceGets2022
 
@@ -358,18 +360,6 @@ Retail investors face many challenges in comparison with their institutional cou
 
 -   Nubanks, also known as challenger banks.
 
--   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
-
--   *For young people, investing mostly means buying cryptocurrencies?*
-
--   
-
--   Copy-investing is a popular feature of retail investing platforms like EToro
-
--   @irenezhaoHereWhy0xIreneDao2022
-
--   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
-
 -   The world will be very different in 30 years - it's time to invest in services that make our societies resilient, able to robustly respond to rapid change. Research and product development go hand-in-hand; the outcome of this study can provide insights for new financial product and service development. Related to SDG 9: "Build resilient infrastructure, promote sustainable industrialization and foster innovation". The complexity of the situation offers an opportunity for design to make it understandable for humans
 
 -   In 2021 the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
@@ -377,12 +367,6 @@ Retail investors face many challenges in comparison with their institutional cou
 -   @garygenslerWeHaveActive2022 Investor protection, making investing accessible, climate risk disclosure
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
-
--   Personalized Investing
-
--   2022 saw a wave of new platforms aiming to make investing easier for retail investors
-
--   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
 
 -   Twitter (now X) is becoming a financial app.
 
@@ -395,6 +379,8 @@ Retail investors face many challenges in comparison with their institutional cou
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing says in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
 Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019].
+
+@doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
 
 @smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
 
@@ -409,6 +395,16 @@ Among retail investors, there's some appetite for sustainability however investo
 -   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice experiment with Swedish private investors.
 
 -   @MeetFintechsLeading2021 ***Swedish green fintech (important article)***
+
+-   Gov launching ESG funds.
+
+-   Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products.
+
+-   Personalized Investing
+
+-   2022 saw a wave of new platforms aiming to make investing easier for retail investors
+
+-   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
 
 #### **Financial Ecologies**
 
@@ -501,20 +497,6 @@ It's how the wealthier people invest.
 -   Most successful investor invest together
 
 -   Angelist
-
-#### Divesting
-
-Divesting is the inverse of investing.
-
-In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
-
-University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
-
--   <https://www.sciencedirect.com/science/article/pii/S2212567115011223>
-
--   <https://www.sciencedirect.com/science/article/pii/S1877343523001410>
-
--   
 
 #### Growing Choice of Asset Classes
 
@@ -634,7 +616,9 @@ In India, research is being conducted on how AI advisors could assist with inves
 
 #### Real Estate
 
--   Increasingly available to co-invest on investing platforms.
+According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
+
+Investing into real-estate is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, also providing a passive income stream in the form of rent.
 
 #### Stocks
 
@@ -657,6 +641,8 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 -   Taiwan bans buying cryptocurrencies with credit card because the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
 
 -   @LetsDeFiDeFi Crypto DeFi education
+
+-   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
 
 -   Volatile national currencies lead people to find other assets to hold.
 
@@ -736,6 +722,18 @@ Efforts to connec carbon markets, carbonmark.com
 -   overview of 23 low-carbon blockchains @alzoubiGreenBlockchainMove2023
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
+
+#### Divesting
+
+Divesting is the inverse of investing. Divesting may have a meaningful impact on companies if large numbers of retail investors collaborate on 'banning' the company to send a message to the board. Small individual divestment has no impact on the governance decisions.
+
+In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
+
+University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
+
+-   <https://www.sciencedirect.com/science/article/pii/S2212567115011223>
+
+-   <https://www.sciencedirect.com/science/article/pii/S1877343523001410>
 
 ## Measuring the Eco-Investment Gap
 
@@ -985,39 +983,27 @@ Greenwashing is one of the largest blockers of sustainability; humans will feel 
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
-Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. "Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU." [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is in place (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
+Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is ramped up (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
 
-While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. @boothBurningCarbonSink2022 describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
+While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
+
+EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023.
+
+In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
+
+### Tools
+
+"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
+
+Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
 ### Countering Misinformation
 
-Sustainable Investing is Based on Data
+Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
--   For example @purkissBigCompostExperiment2022 highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months".
+-   Marketing - Sustainability Marketing
 
--   @napperEnvironmentalDeteriorationBiodegradable2019: Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment ..
-
--   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
-
--   @sahotaAIAnalysis8002021: "thanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say."
-
--   Marketing
-
-    Sustainability Marketing
-
-    -   @ames15MostEnvironmentally2022
-
-    -   @themuseeditorsCompaniesMakingPlanet2020
-
-    -   @shradhabhattaTop10Companies2021
-
-    -   @earth.orgWorld50Most2022
-
-    -   @todd-ryanWhoAre100
-
-### Environmental Information Disclosure (EID)
-
--   
+-   Environmental Information Disclosure (EID)
 
 ### ESG + Fintech
 
@@ -1029,103 +1015,106 @@ esg_fintech_heatmap()
 
 In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
 
--   Determinants of high esg performance are board member diversity, firm size, ceo attributes @martinyDeterminantsEnvironmentalSocial2024.
+### ESG (Governance)
 
-Design: show the board members in the app product view.
+A systematic meta-review of 153 research papers of ESG literature around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes [@martinyDeterminantsEnvironmentalSocial2024].
+
+***Design Implications:*** show the board membership in the app product view.
+
+Board diversity in the TOP 5 companies based on Corporate Knights data [@corporateknightsGlobal1002024].
+
+```{python}
+ck_board_diversity()
+```
+
+### Risk-Based Assessment
+
+-   @francesschwartzkopffFirmsArenReporting2022 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
+
+-   BeZero
 
 ### Indices
 
+Based on Corporate Knights data [@corporateknightsGlobal1002024]
+
+Energy productivity
+
+```{python}
+ck_energy_productivity()
+```
+
+Carbon productivity
+
+```{python}
+ck_carbon_productivity()
+```
+
+Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indexes make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
+
 -   [@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
-
-Companies assess customer's credit score to decide credit-worthiness, however how can customers rate companies? Indexes make comparing companies possible. There are many-many Indexes, Scoring Systems, Ratings, Certifications, etc.
-
 -   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
 
 Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
--   Climate Neutral Certified Standard
-
--   The Conservation Alliance: [@climateneutralcertifiedClimateNeutralStandards2023].
-
--   1% For the Planet
-
 -   For example **Flickr invested 3000 USD in carbon credits.**
-
--   Rating Systems:
-
--   ESG Shopping: "Changing our relationship with money"
-
--   Nordic Climate Transparency Leadership: "companies with higher quality climate reporting also provide higher returns"
 
 ### Certification
 
-Research shows certification does matter. Consumers are willing to pay more for bio-based products "72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products." @moroneConsumerWillingnessPay2021 (need access).
-
--   In Italy, consumer awareness of sustainable supply chains, Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
+Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
 ***Design Implications:*** Display certificates.
 
--   
-
-| Rating System              |
-|----------------------------|
-| B Corporation              |
-| ESG                        |
-| Fair Trade                 |
-| Responsible Business Index |
-| Greenly                    |
-|                            |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type        | Rating System                          | What it does                                                                                                                                                                             |
++=============+========================================+==========================================================================================================================================================================================+
+|             | B Corporation                          | B Impact Assessment                                                                                                                                                                      |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | ESG                                    |                                                                                                                                                                                          |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Fair Trade                             | -   Fair Trade...                                                                                                                                                                        |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Ranking     | Responsible Business Index             | -   @EstonianResponsibleBusiness Responsible business index                                                                                                                              |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Greenly                                | -   Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023                                                                                                                   |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Science-Based Targets                  | Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements. |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Certificate | Green Web Foundation                   | -   @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.                                                         |
+|             |                                        |                                                                                                                                                                                          |
+|             |                                        | -   Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023                                                                                                                       |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Leafscore for product                  | @leafscoreLeafScoreLeadingOnline2023                                                                                                                                                     |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rating      | Ethical consumer ratings               | @EthicalConsumer                                                                                                                                                                         |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | -   1% For the Planet                  |                                                                                                                                                                                          |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | -   Climate Neutral Certified Standard |                                                                                                                                                                                          |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | -   Rating Systems:                    |                                                                                                                                                                                          |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | -   The Conservation Alliance          | -   [@climateneutralcertifiedClimateNeutralStandards2023].                                                                                                                               |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |                                        |                                                                                                                                                                                          |
++-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 There are many different certifications
 
 -   @EthicalConsumer
 
--   B Impact Assessment
-
--   Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements.
-
 -   sustainable brands
 
--   Fair Trade
-
--   @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.
-
--   @EstonianResponsibleBusiness Responsible business index
-
--   Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023
-
--   Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023
-
--   
-
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
-
--   Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
-
--   
-
--   
 
 Existing rankings
 
 -   @earth.orgWorld50Most2022
 -   @staff2021Global1002021
-
-| References                           | What it does             |
-|--------------------------------------|--------------------------|
-| @leafscoreLeafScoreLeadingOnline2023 | Leafscore for product    |
-| @EthicalConsumer                     | Ethical consumer ratings |
-|                                      |                          |
-
--   @francesschwartzkopffFirmsArenReporting2022 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
-
 -   Fashion brand ratings
-
 -   Ethical Shopping
-
 -   @Top100Consumer Largest consumer goods companies
 
-**B Corporations**
+### **B Corporations**
 
 B Corporations undergo strict assessment and adhere to stringent sustainability practices.
 
@@ -1136,13 +1125,12 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 -   @SocialEnterprisesCorps
 -   @ravenpackCorpMovementESG2021
 
-Product Databases
+### Product Databases
 
-All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product.
+All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. GS1 is the organization providing EAN/UPC barcodes on most consumer products [@gs1EANUPCBarcodes].
 
 -   @OpenProductData: Open Knowledge Foundation's Open Product Data website shut down
 -   @hakonbogenThereGlobalDatabase2016: "Is there a global database of all products with EAN 13 barcodes?"
--   @gs1EANUPCBarcodes EAN/UPC barcodes on most consumer products
 -   @semantics3WhyUPCDoesn2017
 -   World product database
     -   @DatakickOpenProduct: "open product database"
@@ -1151,7 +1139,7 @@ All of the world's products are subject to one or another standard and although 
 
     -   @PackagingWorld packaging database
 
-### Standards
+### Sustainability Standards
 
 There are many standards. [@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
 
@@ -1169,6 +1157,10 @@ ESG gives banks a new tool to market and sell environmentally conscious opportun
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
+-   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: "companies with higher quality climate reporting also provide higher returns"
+
+<!-- -->
+
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 ### ESG Crisis
@@ -1176,6 +1168,8 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 -   metrics and goals: ESG, SDGs,
 
 -   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
+
+-   ESG companies don't emit less CO2 than non-ESG companies.
 
 [@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
 
@@ -1197,19 +1191,19 @@ conventional_vs_sri_funds()
 
 -   Environmental, Social, and Corporate Governance (ESG)
 
--   @doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
+### ESG Becomes a Shared Language
 
--   @kirakosianLOIMLaunchesCircular2020 Digital payments and circular bio-economy, even using tactics such as co-branding with famous individuals.
+The advice consultancies are providing to banks establishes a common language and helps banks to sell strategical alignment for long-term institutional sustainability in terms of environmental, social, and governance performance. PWC suggests *"asset managers educate their staff and client base. 'It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent'"* [@pwc2022GrowthOpportunity2020]
 
--   @pwc2022GrowthOpportunity2020 PWC suggests "asset managers educate their staff and client base. 'It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent'".
+While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
 
--   The advice consultancies are providing to banks establishes a common language and helps banks to sell strategical alignment for long-term institutional sustainability in terms of finance, social, and governance.
+-   
 
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
 
--   ESG companies don't emit less CO2 than non-ESG companies.
+-   
 
 -   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
@@ -1231,13 +1225,7 @@ conventional_vs_sri_funds()
 
 -   CFI2Z4 tracks Carbon Emissions Futures [@investing.comCarbonEmissionsFutures2024]
 
--   While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
-
--   Gov launching ESG funds. Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus.
-
 -   @ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022
-
--   Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products \[\^8\].
 
 -   While promising to become sustainable, oil companies are increasing production @noorBigOilQuietly2023; Sunak, UK Primise Minister announced 100 news licenses for oil drilling in the UK.
 
@@ -1323,11 +1311,13 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-### Slavery Still Exists and How to Trace Worker's Rights?
+### ESG (Social): Slavery Still Exists and How to Trace Worker's Rights
 
 In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023].
 
 The UN SDG target 8.7 targets to eliminate all forms of slavery.
+
+-   Modern Slavery Act.
 
 Slavery is connected to environmental degradation and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
 
@@ -1339,22 +1329,14 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 
 -   @anandchandrasekharWhySwitzerlandMatters2021: Trading commodities "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates." Can traders have more scrutiny over what they trade?
 
--   Modern Slavery Act.
+-   
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
 
     -   @WorkerVoice2022 Worker Voice apps.
     -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 
--   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008.
-
 -   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
-
--   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
-
--   Eisenstein?: "Money is a technology".
-
--   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ...
 
 -   @BlockchainCompaniesTeam2021
 
@@ -1370,72 +1352,82 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 
 ## Design Implications
 
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Category       | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-+================+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-|                | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?                                                                                                                                                                                                                                                                                        |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | ~~Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!~~                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Greenwashing   | Laws against greenwashing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | Fintech Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment. Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Accountability | What if we gave consumers the tools to keep companies accountable?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently "good" for one's life, in the same way, that doing sports is good, or eating healthy is good. It's one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?                                                                                                                                                                                  |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors? |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Community      | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | **Design:** **Feature**: Help me write me investment thesis first.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns?                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | Where to invest for green impact? Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants' engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure? Currently, there is no easy way to do it, and the UX of traditional banks is too cumbersome and old-fashioned.                                                          |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | This research is concerned with how billions of people might exclude polluting companies from their lives and elect to support companies that put sustainability in the core of their business instead. Why does it matter? Individual sacrifice is too small to have a meaningful impact. For societal change, we need to pool our resources.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Accessibility  | **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Loyalty        | Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | **Feature:** We need a dashboard of comparable public indicators about each company.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | Live more sustainably with 10 minutes per day.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Saving         | Anthropomorphism                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | -   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | -   Shop CO2e emissions for each company who i buy from? "get rid of brands"!! cause they hide and lie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                | -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Category       | Role     | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++================+==========+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|                | Consumer | *As a consumer, I can get notified by the app about highlights of poor legislation refuted by science*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | Company  | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | Investor | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?                                                                                                                                                                                                                                                                                        |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | ~~Reading EU Commission's proposals, one might think the politicians have everything under control, we can relax and continue the same lifestyles as before. Unfortunately, this is not true. As with ESG, while the good intentions may be there, the reality is emissions keep rising, while they should be falling. It's possible to curb greenwashing!~~                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Greenwashing   |          | Laws against greenwashing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Fintech Like a Robinhood stock symbol page for brands including live ESG metrics and ability to register divestment. Same for crypto can be automated? - People will start to discuss ESG vs price discrepancy?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | hetkel hinna info liigub aga toidu kvaliteedi info ei liigu roheline filter finding good wuality products stock are disconnected from the products companies make                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Accountability |          | What if we gave consumers the tools to keep companies accountable?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | As an interaction design student who cares about the environment, I ask myself how can interaction design contribute to increase sustainability? I make the assumption that investing is inherently "good" for one's life, in the same way, that doing sports is good, or eating healthy is good. It's one of the human activities that is required for an improved quality of life as we age - and started investing sooner, rather than later, is best because of the compound interest. Nonetheless, investment also includes higher risk than sports or food. How to communicate the risk effectively while educating the users?                                                                                                                                                                                  |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors? |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | If corporate social responsibility (CSR) loyalty programs, driven by points systems are useful, can we go a step further, and create a pathway to enable the consumer to become an investor in the company they like to buy from? Could this strategy provide more meaning for the consumer, leading to higher customer retention, as well as financial returns?                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Where to invest for green impact? Which investment vehicles are the most suitable for green investments? When a person wants to make a sustainable investment, where to put your money if you want to make the world greener? If young people are worried about climate, why are they not investing in green assets? To what extent can interaction design increase market participants' engagement with sustainability? What are some suitable user interfaces for millennial green investors? Is design relevant to investing decisions? Direct investment AI assistant vs marketplace of existing investment products? But how to measure? Currently, there is no easy way to do it, and the UX of traditional banks is too cumbersome and old-fashioned.                                                          |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | My research aims to find ways to enable a wider audience to access sustainable investment opportunities. This chapter gives an overview of the current (as of late 2020) sustainable investing landscape as well as future trends related to interaction design and user experience innovations (fig. 4).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | This research is concerned with how billions of people might exclude polluting companies from their lives and elect to support companies that put sustainability in the core of their business instead. Why does it matter? Individual sacrifice is too small to have a meaningful impact. For societal change, we need to pool our resources.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Accessibility  |          | **How can ESG (environment, social, and governance) become accessible to our everyday experience, while avoiding greenwashing?**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Loyalty        |          | Loyalty to investment. What are the standard conversations about money and savings that I would traditionally have with a financial advisor, that could be converted into a portable, mobile form, in my pocket every day?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Live more sustainably with 10 minutes per day.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Saving         |          | Anthropomorphism                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | -   Given the large number of fraud cases in finance, *trust* is the number one concern for users (ADD CITATION). Good design is crucial for creating transparency, and transparency leads to trust.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | -   Shop CO2e emissions for each company who i buy from? "get rid of brands"!! cause they hide and lie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | -   Investing is a stronger signal to business than interactions on social media. Design Stakeholder capitalism. In future company every company should get a sustainability plan. this can be a push in that direction if companies with a sustainability plan become more competitive because of higher consumer demand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Features
 
 ## Feature Ideas
 
-+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|         | -   *Design implication*: *As a user, I can use the app to compare banks available in my country*                                                                                                                                                                |
-+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|         | -   **Feature:** How could people apply the same principle (**Know Your Company**) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital. |
-+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Category** | **Role** |                                                                                                                                                                                                                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              | Consumer | -   *Design implication*: *As a user, I can use the app to compare banks available in my country*                                                                                                                                                                |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              | Consumer | -   **Feature:** How could people apply the same principle (**Know Your Company**) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital. |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              | Consumer | **Feature:** We need a dashboard of comparable public indicators about each company.                                                                                                                                                                             |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Community    |          | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                              |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation".                                                                                            |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              | User     | **Design:** **Feature**: Help me write me investment thesis first.                                                                                                                                                                                               |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          |                                                                                                                                                                                                                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          |                                                                                                                                                                                                                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          |                                                                                                                                                                                                                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|              |          |                                                                                                                                                                                                                                                                  |
++--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

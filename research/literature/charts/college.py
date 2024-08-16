@@ -276,3 +276,51 @@ def compare_taiwan_sweden():
     plt.tight_layout()
     plt.show()
 
+
+def taiwanese_company_ranking_chart():
+    data = {
+        '2021': [20, None, None],
+        '2022': [44, None, None],
+        '2023': [None, 9, 51],
+        '2024': [None, 4, 21]
+    }
+
+    # Create a DataFrame for the data
+    companies = ['TSMC', 'THSR', 'Giant']
+    combined_rankings = pd.DataFrame(data, index=companies)
+
+    # Convert column names (years) to integers
+    combined_rankings.columns = combined_rankings.columns.astype(int)
+
+    # Convert years to numeric for plotting
+    years_as_numeric = combined_rankings.columns.astype(int)
+
+    # Plot the data with different colors
+    plt.figure(figsize=(10, 6))
+    colors = ['blue', 'green', 'red']
+
+    for i, company in enumerate(combined_rankings.index):
+        plt.plot(years_as_numeric, combined_rankings.loc[company], marker='o', label=company, linewidth=2, color=colors[i])
+        
+        # Plot the ranking on each point for the line
+        for year in years_as_numeric:
+            rank = combined_rankings.loc[company, year]
+            if not pd.isna(rank):
+                plt.text(year, rank, f'{int(rank)}', fontsize=9, ha='center', va='bottom')
+        
+        # Adding the company label next to the last valid data point
+        valid_rankings = combined_rankings.loc[company].dropna()
+        if len(valid_rankings) > 0:
+            last_year = valid_rankings.index[-1]
+            last_value = valid_rankings.iloc[-1]
+            plt.text(last_year + 0.1, last_value, company, fontsize=10, va='center', ha='left')  # Offset label slightly to the right
+
+    # Invert the y-axis to show rank 1 at the top
+    plt.gca().invert_yaxis()
+    plt.xticks(years_as_numeric, years_as_numeric.astype(int))  # Format year labels as integers
+    plt.ylim(100, 1)
+    plt.title('Sustainability Ranking Trends (2021 to 2024) for Taiwanese Companies')
+    plt.xlabel('Year')
+    plt.ylabel('Rank (1-100)')
+    plt.legend().set_visible(False)  # Hide the legend as we are adding labels directly
+    plt.show()

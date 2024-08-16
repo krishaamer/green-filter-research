@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.college import company_rank_chart
-from charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden
+from charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -118,6 +118,13 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 |      497 | Advantech                 |     53.14 |
 
 : Data from [@alanasemuelsWorldMostSustainable2024].
+
+Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and  Taiwan High Speed Rail Corp and 	Giant Manufacturing Co Ltd since 2023. [@corporateknightsGlobal1002024]
+
+```{python}
+taiwanese_company_ranking_chart
+```
+
 
 ## Online Shopping Trends in Taiwan
 

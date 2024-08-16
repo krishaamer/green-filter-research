@@ -70,9 +70,12 @@ AI is being used to map icebergs and measure the change in size [@europeanspacea
 
 ### Markets for Ecosystem Assets
 
-While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@*\*thecopernicusclimatechangeserviceClimatePulse2024].
+While technology improves and measurements become more accurate, CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables**"*** \*\*[@thecopernicusclimatechangeserviceClimatePulse2024].
 
--   According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023].
+-   
+
+-   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008.
+-   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
 
 Emissions production is highly unequal. "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
 
@@ -444,7 +447,7 @@ biodiversity_chart()
 
 Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. @wwfForestsReducingEU2022 case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
 
-Meanwhile, there is some progress in biodiversity conservation. @uebtBiodiversityBarometer2022 reports "Biodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009."
+Meanwhile, there is some progress in biodiversity conservation as "[*b]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"* [@uebtBiodiversityBarometer2022]
 
 **Convention on Biodiversity**
 

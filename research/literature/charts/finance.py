@@ -4,6 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 def money_chart():
 
@@ -419,3 +421,119 @@ def conventional_vs_sri_funds():
     plt.tight_layout()
 
     plt.show()
+
+def ck_carbon_productivity():
+
+    # Load the CSV files
+    data_2021 = pd.read_csv(os.path.join(script_dir, 'ck-2021.csv'))
+    data_2022 = pd.read_csv(os.path.join(script_dir, 'ck-2022.csv'))
+    data_2023 = pd.read_csv(os.path.join(script_dir, 'ck-2023.csv'))
+    data_2024 = pd.read_csv(os.path.join(script_dir, 'ck-2024.csv'))
+
+    # Add a 'Year' column to each dataframe
+    data_2021['Year'] = 2021
+    data_2022['Year'] = 2022
+    data_2023['Year'] = 2023
+    data_2024['Year'] = 2024
+
+    # Concatenate all datasets
+    combined_data = pd.concat([data_2021, data_2022, data_2023, data_2024])
+
+    # Ensure numeric columns
+    combined_data['Carbon Productivity Score'] = pd.to_numeric(combined_data['Carbon Productivity Score'].str.rstrip('%'), errors='coerce')
+
+    # Group data by year and calculate the mean for Carbon Productivity
+    trend_summary = combined_data.groupby('Year')['Carbon Productivity Score'].mean()
+
+    # Plot Carbon Productivity Score
+    plt.figure()
+    plt.plot(trend_summary.index.astype(int), trend_summary, marker='o', color='green')
+    plt.title('Carbon Productivity Score (2021-2024)')
+    plt.xlabel('Year')
+    plt.ylabel('Carbon Productivity Score (%)')
+    plt.grid(True)
+    plt.xticks(trend_summary.index.astype(int))  # Set the ticks as integer years
+    plt.show()
+
+def ck_energy_productivity():
+
+    # Load the CSV files
+    data_2021 = pd.read_csv(os.path.join(script_dir, 'ck-2021.csv'))
+    data_2022 = pd.read_csv(os.path.join(script_dir, 'ck-2022.csv'))
+    data_2023 = pd.read_csv(os.path.join(script_dir, 'ck-2023.csv'))
+    data_2024 = pd.read_csv(os.path.join(script_dir, 'ck-2024.csv'))
+
+    # Add a 'Year' column to each dataframe
+    data_2021['Year'] = 2021
+    data_2022['Year'] = 2022
+    data_2023['Year'] = 2023
+    data_2024['Year'] = 2024
+
+    # Concatenate all datasets
+    combined_data = pd.concat([data_2021, data_2022, data_2023, data_2024])
+
+    # Ensure numeric columns
+    combined_data['Energy Productivity Score'] = pd.to_numeric(combined_data['Energy Productivity Score'].str.rstrip('%'), errors='coerce')
+
+    # Group data by year and calculate the mean for Energy Productivity
+    trend_summary = combined_data.groupby('Year')['Energy Productivity Score'].mean()
+
+    # Plot Energy Productivity Score
+    plt.figure()
+    plt.plot(trend_summary.index.astype(int), trend_summary, marker='o')
+    plt.title('Energy Productivity Score (2021-2024)')
+    plt.xlabel('Year')
+    plt.ylabel('Energy Productivity Score (%)')
+    plt.grid(True)
+    plt.xticks(trend_summary.index.astype(int))  # Set the ticks as integer years
+    plt.show()
+
+def ck_board_diversity():
+
+    data = {
+        'Year': [2021, 2021, 2021, 2021, 2021, 2022, 2022, 2022, 2022, 2022, 2023, 2023, 2023, 2023, 2023, 2024, 2024, 2024, 2024, 2024],
+        'Company': [
+            'Schneider Electric SE', 'Orsted A/S', 'Banco do Brasil SA', 'Neste Oyj', 'Stantec Inc',
+            'Vestas Wind Systems A/S', 'Chr Hansen Holding A/S', 'Neste Oyj', 'Orsted A/S', 'Schneider Electric SE',
+            'Schneider Electric SE', 'Orsted A/S', 'Banco do Brasil SA', 'Neste Oyj', 'Stantec Inc',
+            'Schneider Electric SE', 'Orsted A/S', 'Banco do Brasil SA', 'Neste Oyj', 'Stantec Inc'
+        ],
+        'Board Diversity Score': [3.0, 3.0, 3.0, 3.0, 3.0, 79.0, 83.0, 3.0, 3.0, 3.0, 85.0, 84.0, 80.0, 3.0, 3.0, 86.0, 85.0, 84.0, 3.0, 3.0],
+        'Rank': [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+    }
+
+    # Convert the data into a DataFrame
+    top_5_companies = pd.DataFrame(data)
+
+    # Creating the plot
+    plt.figure(figsize=(12, 8))
+    for i, company in enumerate(top_5_companies['Company'].unique()):
+        company_data = top_5_companies[top_5_companies['Company'] == company]
+        # Plotting diversity scores
+        plt.plot(company_data['Year'], company_data['Board Diversity Score'], marker='o', linestyle='-', label=f"{company} (Diversity)", color=f"C{i}")
+        # Plotting rankings
+        plt.plot(company_data['Year'], -company_data['Rank'], marker='x', linestyle='--', label=f"{company} (Ranking)", color=f"C{i}")
+
+    # Setting the title and axis labels
+    plt.title('Connected Dot Plot: Board Diversity and Ranking Trends')
+    plt.xlabel('Year')
+    plt.ylabel('Board Diversity Score (%) and Ranking (Inverted)')
+
+    # Removing decimals from the axes labels
+    plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{int(abs(x))}'))
+    plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{int(x)}'))
+
+    # Splitting the legend into two sections: Diversity and Ranking
+    handles, labels = plt.gca().get_legend_handles_labels()
+    diversity_handles = [h for h, l in zip(handles, labels) if "(Diversity)" in l]
+    ranking_handles = [h for h, l in zip(handles, labels) if "(Ranking)" in l]
+
+    # Creating separate legends for diversity and ranking, positioning them to avoid overlap
+    first_legend = plt.legend(diversity_handles, [l.replace(" (Diversity)", "") for l in labels if "(Diversity)" in l], title="Diversity", bbox_to_anchor=(1.25, 1), loc='upper left')
+    ax = plt.gca().add_artist(first_legend)
+    plt.legend(ranking_handles, [l.replace(" (Ranking)", "") for l in labels if "(Ranking)" in l], title="Ranking", bbox_to_anchor=(1.25, 0.6), loc='upper left')
+
+    # Adjusting layout to ensure everything fits
+    plt.tight_layout()
+    plt.show()
+
