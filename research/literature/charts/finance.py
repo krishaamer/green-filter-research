@@ -360,3 +360,62 @@ def esg_fintech_heatmap():
     sns.heatmap(correlation_data, annot=True, fmt=".2f", cmap="coolwarm", xticklabels=corr_variables, yticklabels=corr_variables)
     plt.title('Correlation Matrix Heatmap')
     plt.show()
+
+
+def social_commerce_chart():
+
+    # Creating a colorful line chart to show the growth trends over time
+    # Data for the line chart (values in billions for markets, millions for users)
+    years = ["2020/2019", "2027"]
+    categories_line = ["Global Social Commerce Market", "US Social Commerce Buyers", "Chinese Live-Stream Market", "Buy Now Pay Later Market"]
+    values_2020 = [89.4, 80.1, 66, 7.3]
+    values_2027 = [604.5, 90.4, 170, 33.6]
+
+    # Create a line chart
+    plt.figure(figsize=(10, 6))
+
+    # Plotting lines for each category
+    plt.plot(years, [values_2020[0], values_2027[0]], label=categories_line[0], marker='o', linestyle='-', linewidth=2, color='orange')
+    plt.plot(years, [values_2020[1], values_2027[1]], label=categories_line[1], marker='o', linestyle='-', linewidth=2, color='green')
+    plt.plot(years, [values_2020[2], values_2027[2]], label=categories_line[2], marker='o', linestyle='-', linewidth=2, color='blue')
+    plt.plot(years, [values_2020[3], values_2027[3]], label=categories_line[3], marker='o', linestyle='-', linewidth=2, color='purple')
+
+    # Add labels and title
+    plt.title("Social Commerce Growth Trends: 2020 vs Projected 2027")
+    plt.xlabel("Year")
+    plt.ylabel("Amount in Billions (USD) / Millions (People)")
+    plt.legend()
+
+    # Display the line chart
+    plt.tight_layout()
+    plt.show()
+
+def conventional_vs_sri_funds():
+    # Reformatting data for side-by-side comparison
+    data_comparison_side_by_side = {
+        "Metric": ["Carbon Footprint (RCF)", "Carbon Footprint (RCF)", "Carbon Intensity (WACI)", "Carbon Intensity (WACI)"],
+        "Fund Type": ["SRI Funds", "Conventional Funds", "SRI Funds", "Conventional Funds"],
+        "Value": [346, 408, 475, 479]
+    }
+
+    # Create DataFrame
+    df_side_by_side = pd.DataFrame(data_comparison_side_by_side)
+
+    # Create a bar chart for side-by-side comparison
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    # Corrected pivot method with keyword arguments
+    df_pivot = df_side_by_side.pivot(index="Metric", columns="Fund Type", values="Value")
+    
+    # Plotting the data
+    df_pivot.plot(kind="bar", ax=ax)
+
+    # Adding labels and title
+    ax.set_ylabel("Carbon Metrics")
+    ax.set_title("Side-by-Side Comparison of Carbon Footprint and Intensity")
+
+    # Display plot
+    plt.xticks(rotation=0)
+    plt.tight_layout()
+
+    plt.show()

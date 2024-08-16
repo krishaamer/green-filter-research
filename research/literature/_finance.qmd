@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -164,9 +164,14 @@ Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success st
 -   Gen-Z mostly used BNPL to buy clothes.
 -   44.1% of Gen-Z in the US had used BNPL in 2022 [@emarketerAlmost75BNPL2021].
 -   ***Design Implication:*** This suggests users are already used to having more options in the payment flow.
+-   However @theinfluencerfactoryStatusSocialCommerce2021 suggest Chinese and U.S. markets may be mature and growth will come from emerging markets (SEA, Latin-America); China is the furthest ahead in social shopping.
 
-https://www.emarketer.com/content/almost-75-of-bnpl-users-us-gen-z-millennials
-https://www.lhv.ee/en/blog/buy-now-pay-later-option-more-popular-than-ever-before
+https://www.emarketer.com/content/almost-75-of-bnpl-users-us-gen-z-millennials https://www.lhv.ee/en/blog/buy-now-pay-later-option-more-popular-than-ever-before
+
+```{python}
+social_commerce_chart()
+```
+
 
 #### Consumer Activism
 
@@ -281,15 +286,17 @@ There are two ways to look at sustainable savings and this chapter is going to l
 
 ### Investing
 
+#### Sustainable Investing
+
+While literature has been debating if it's possible to "do well while doing good", latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
+
+#### Young Investors
+
 Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
 Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
 -   Information evavõrdsus disparity between pro and novice investors
-
-<!-- -->
-
--   Literature suggesting it's possible to make investments that both make an attractive financial return and adhere to sustainability goals.
 
 #### Influencers
 
@@ -537,6 +544,8 @@ There are many asset classes only some of which would be accessible to a retail 
 #### Robo-Advisors
 
 *Robo-advisors* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply. Human advisors are very expensive and not affordable for most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*.
+
+-   Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. -- Athropomorphism: human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphized robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research**
 
 In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts [@altfiETFmaticAppDownloaded2017]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
 
@@ -1020,6 +1029,10 @@ esg_fintech_heatmap()
 
 In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
 
+-   Determinants of high esg performance are board member diversity, firm size, ceo attributes @martinyDeterminantsEnvironmentalSocial2024.
+
+Design: show the board members in the app product view.
+
 ### Indices
 
 -   [@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
@@ -1162,7 +1175,13 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 
 -   metrics and goals: ESG, SDGs,
 
--   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores."
+-   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
+
+[@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
+
+```{python}
+conventional_vs_sri_funds()
+```
 
 -   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.
 
