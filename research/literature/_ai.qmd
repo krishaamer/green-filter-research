@@ -89,13 +89,17 @@ AI systems may make use of several algorithms within one larger model. It follow
 
 The content on the platform can be more important than the interface. Applications with a similar UI depend on the community as well as the content and how the content is shown to the user.
 
+### Transitioning to Complexity
+
 AIs are non-deterministic, which requires a new set of consideration when designing AI.
 
-### Transitioning to Complexity while Being Responsible, Explainable, and Safe
+### Being Responsible, Explainable, and Safe
 
 The problems of opaqueness creates the field of explainable AI.
 
-"As humans we tend to fear what we don't understand" is a common sentiment which has been confirmed psychology [@allportNaturePrejudice1979]. Current AI-models are opaque '*black boxes'*, where it's difficult to pin-point exactly why a certain decision was made or how a certain expression was reached, not unlike inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought patterns*** inside the model. Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which could lead to building trust in AI systems and would form the foundations for ***AI acceptance***.
+*"As humans we tend to fear what we don't understand"* is a common sentiment which has been confirmed psychology [@allportNaturePrejudice1979]. Current AI-models are opaque '*black boxes'*, where it's difficult to pin-point exactly why a certain decision was made or how a certain expression was reached, not unlike inside the human brain. This line of thought leads me to the idea of ***AI psychologists,*** who might figure out the ***thought patterns*** inside the model. Research in AI-explainability (XAI in literature) is on the lookout for ways to create more ***transparency and credibility*** in AI systems, which could lead to building trust in AI systems and would form the foundations for ***AI acceptance***.
+
+Red-teaming means pushing the limits of LLMs, trying to get them to produce outputs that are racist, false, or otherwise unhelpful.
 
 There's an increasing number of tools for LLM evaluation:
 
@@ -179,44 +183,37 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc.
 
-RQ: Does AI acceptance increase with Affective Computing?
+### Mapping the Evolution of Models and their Emerging Abilities
 
-### Mapping the Evolution of Models and Emerging Abilities
+The debate between Open Source v.s. Closed-Source AI is ongoing. Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas.
 
-The debate between Open Source v.s. Closed-Source AI. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry.
-
-Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice.
-
-In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as @peteWeHostedEmergencychatgpthackathon2023 help come up with new use-cases and disprove some potential ideas.
-
-Red-teaming means pushing the limits of LLMs, trying to get them to produce outputs that are racist, false, or otherwise unhelpful.
-
-| AI Model | Released | Company | License |
-|------------------|------------------|-------------------|------------------|
-| GPT-1 | 2018 | OpenAI | Open Source |
-| GTP-2 | 2019 | OpenAI | Open Source |
-| Turing-NLG | 2020 | Microsoft | Proprietary |
-| GPT-3 | 2020 | OpenAI | Open Source |
-| GPT-3.5 | 2022 | OpenAI | Proprietary |
-| GPT-4 | 2023 | OpenAI | Proprietary |
-| AlexaTM | 2022 | Amazon | Proprietary |
-| NeMo | 2022 | NVIDIA | Open Source |
-| PaLM | 2022 | Google | Proprietary |
-| LaMDA | 2022 | Google | Proprietary |
-| GLaM | 2022 | Google | Proprietary |
-| BLOOM | 2022 | Hugging Face | Open Source |
-| Falcon | 2023 | Technology Innovation Institute | Open Source |
-| Tongyi | 2023 | Alibaba | Proprietary |
-| Vicuna | 2023 | Sapling | Open Source |
-| Wu Dao 3 | 2023 | BAAI | Open Source |
-| LLAMA 2 | 2023 | META | Open Source |
-| PaLM-2 | 2023 | Google | Proprietary |
-| Claude 3 | 2024 | Anthropic | Proprietary |
-| Mistral Large | 2024 | Mistral | Proprietary |
-| Gemini 1.5 | 2024 | Google | Proprietary |
-| LLAMA 3 | 2024 | META | Open Source |
-| AFM | 2024 | Apple | Proprietary |
-| GPT-5 | 202? | OpenAI | Unknown; trademark registered |
+| AI Model | Released | Company | License | Country |
+|------------------|------------------|------------------|-----------|--------|
+| GPT-1 | 2018 | OpenAI | Open Source | U.S. |
+| GTP-2 | 2019 | OpenAI | Open Source | U.S. |
+| Turing-NLG | 2020 | Microsoft | Proprietary | U.S. |
+| GPT-3 | 2020 | OpenAI | Open Source | U.S. |
+| GPT-3.5 | 2022 | OpenAI | Proprietary | U.S. |
+| GPT-4 | 2023 | OpenAI | Proprietary | U.S. |
+| AlexaTM | 2022 | Amazon | Proprietary | U.S. |
+| NeMo | 2022 | NVIDIA | Open Source | U.S. |
+| PaLM | 2022 | Google | Proprietary | U.S. |
+| LaMDA | 2022 | Google | Proprietary | U.S. |
+| GLaM | 2022 | Google | Proprietary | U.S. |
+| BLOOM | 2022 | Hugging Face | Open Source | U.S. |
+| Falcon | 2023 | Technology Innovation Institute | Open Source | U.A.E. |
+| Tongyi | 2023 | Alibaba | Proprietary | China |
+| Vicuna | 2023 | Sapling | Open Source | U.S. |
+| Wu Dao 3 | 2023 | BAAI | Open Source | China |
+| LLAMA 2 | 2023 | META | Open Source | U.S. |
+| PaLM-2 | 2023 | Google | Proprietary | U.S. |
+| Claude 3 | 2024 | Anthropic | Proprietary | U.S. |
+| Mistral Large | 2024 | Mistral | Proprietary | France |
+| Gemini 1.5 | 2024 | Google | Proprietary | U.S. |
+| LLAMA 3 | 2024 | META | Open Source | U.S. |
+| AFM | 2024 | Apple | Proprietary | U.S. |
+| Viking 7B | 2024 | Silo | Open Source | Finland |
+| GPT-5 | 202? | OpenAI | Unknown; trademark registered | U.S. |
 
 : Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024].
 
@@ -229,8 +226,6 @@ The proliferation of different models enables comparisons of performance based o
 -   Scaling laws of LLMs @kaplanScalingLawsNeural2020
 
 -   English is over-represented in current models so Finnish @SiloAINew2024 focuses on Nordic languages.
-
--   
 
 Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
 
@@ -246,7 +241,60 @@ Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingK
 
 ## Companions
 
-**Natural Interaction**
+### Affective Computing Enables Human-Friendly Machines
+
+Rosalind Picard is the founder of the *affective computing* field. Her pioneering work aims to make computers more human-friendly. Because of the conversational nature of LLMs, they are very useful for affective computing, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
+
+Just as LLMs, affective computing relies on input data. It's not an overstatement to say data from all the processes around us will define the future of computing as @hiittvWojciechSzpankowskiEmerging2021 puts it. In the early examples, electrodermal activity of the skin and heart-rate variance data were used to detect the emotional state and stress level of the user [@zangronizElectrodermalActivitySensor2017; @velmovitskyUsingAppleWatch2022]. This technology has since become mainstream in products such as Fitbit and the Apple Watch among many others.
+
+Affective Design emerged from affective computing with a focus on understanding user emotions to design UI/UX to which elicits specific emotional responses [@Reynolds2001DesigningFA].
+
+Apple Watch features Fall Detection which I've experienced personally. Riding my bicycle to the NCKU library I slipped and landed on my stomach on the pavement. Watch immediately asked me: "It looks like you've taken a hard fall" and offered an option to call the ambulance. Fortunately I was OK but if I did need assistance, this AI algorithm delivered contextual help which could save my health.
+
+On the output side, @lvCutenessIrresistibleImpact2022 studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
+
+-   [@liuMachineGazeOnline2021] suggests higher *algorithmic transparency may inhibit anthropomorphismI*; people are less likely to attribute humanness to an AI if they understand how the system works.
+-   @tedxTechEmotionsRoz2011
+-   @lexfridmanRosalindPicardAffective2019
+-   @hiittvRosalindPicardAdventures2021
+-   @bwhcnocRosalindPicard4th2023
+-   @singularityuniversityEngineeringEmotionAI2023
+
+Since the first mainframe computers with rudimentary computers able to respond with text messages, humans have been drawn to discussing their private lives with a machine that doesn't judge you like a human could. A famous anecdote is about the lab assistant of the Joseph Weizenbaum MIT ELIZA project in the mid-1960s (1996), who would dedicate extended time to talking to the machine in private. The machine was called DOCTOR and emulated a Rogerian psychotherapist, person-centered therapy developed by Carl Rogers, from the core idea that positive psychological functioning is a inherently human motivation [@bassettComputationalTherapeuticExploring2019; @rogersWayBeing1995].
+
+-   ELIZA is an early examples of a language model
+
+Natural language generation exists since Eliza
+
+### Conversations Are the Starting Point of a Relationship
+
+High quality conversations are somewhat magical in that they can establish trust and build rapport which humans.
+
+[@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
+
+Conversational AI
+
+-   @baileyAIEducation2023 believes people are used to search engines and it will take a little bit time to get familiar with talking to a computer in natural language. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* @leswingNvidiaRevealsNew2023.
+
+There are noticeable differences in the quality of the LLM output, which increases with model size. @levesqueWinograd2012 developed the *Winograd Schema Challenge*, looking to improve on the Turing test, by requiring the AI to display an understanding of language and context. The test consists of a story and a question, which has a different meaning as the context changes: "The trophy would not fit in the brown suitcase because it was too big" - what does the *it* refer to? Humans are able to understand this from context while a computer models would fail. Even GPT-3 still failed the test, but later LLMs have been able to solve this test correctly (90% accuracy) @kocijanDefeatWinogradSchema2022. This is to say AI is in constant development and improving it's ability to make sense of language.
+
+*ChatGPT* is the first *user interface (UI)* built on top of GPT-4 by OpenAI and is able to communicate in a human-like way - using first-person, making coherent sentences that sound plausible, and even - confident and convincing. @wangEconomicCaseGenerative2023 ChatGPT reached 1 million users in 5 days and 6 months after launch has 230 million monthly active users. While it was the first, competing offers from Google (Gemini), Anthrophic (Claude), Meta (Llama) and others quickly followed starting a race for best performance across specific tasks including standardized tests from math to science to general knowledge and reasoning abilities.
+
+OpenAI provides AI-as-a-service through its *application programming interfaces (APIs),* allowing 3rd party developers to build custom UIs to serve the specific needs of their customer. For example Snapchat has created a *virtual friend* called "My AI" who lives inside the chat section of the Snapchat app and helps people write faster with predictive text completion and answering questions. The APIs make state-of-the-art AI models easy to use without needing much technical knowledge. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
+
+ChatGPT makes it possible to *evaluate AI models* just by talking, i.e. having conversations with the machine and judging the output with some sort of structured content analysis tools. [@oconnorOpenArtificialIntelligence2023 and @cahanConversationChatGPTRole2023] have conversations about science with AI. @pavlikCollaboratingChatGPTConsidering2023 and @brenta.andersWhyChatGPTSuch2022 report on AI in education. [@kechtQuantifyingChatbotsAbility2023]\] suggests AI is even capable of learning business processes.
+
+-   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
+
+### Multi-Modality: **Natural Interactions** Enhance the Humanity of Artificial Systems
+
+Humans are multi-modal creatures by birth. To varied ability, we speak, see, listen using our biological bodies. AIs are becoming multi-modal by design to be able to match all the human modes of communication.
+
+By early 2024, widely available LLMs front-ends such as Gemini, Claude and ChatGPT have all released basic features for multi-modal communication. In practice, this means combination several AI models within the same interface. For example, on the input side, one model is used for human speech or image recognition which are transcribed into tokens that can be ingested into an LLM. On the output side, the LLM can generate instructions which are fed into an image / audio generation model or even computer code which can be ran on a virtual machine and then the output displayed inside the conversation.
+
+The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality by using another model in the AI pipeline in front of the LLM to enhance the human input with language that is known to produce better quality. This approach however is a moving target as foundational models keep changing rapidly and the baseline might differ from today to 6 months later.
+
+Multimodal model development is also ongoing. In the case of Google's Gemini 1.5 Pro, one model is able to handle several types of prompts from text to images. Multimodal prompting however requires larger context windows, as of writing, limited to 1 million tokens in a private version allows combining text and images in the question directed to the AI, used to reason in examples such as a 44-minute Buster Keaton silent film or Apollo 11 launch transcript (404 pages) @googleMultimodalPrompting44minute2024.
 
 Literature delves into human-AI interactions on almost human-like level discussing what kind of roles can the AIs take. [@seeberMachinesTeammatesResearch2020] proposes a future research agenda for regarding ***AI assistants as teammates*** rather than just tools and the implications of such mindset shift.
 
@@ -259,6 +307,26 @@ It's not only what role the AI takes but how that affects the human. As humans h
 Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartnerships2021 discusses positive feedback loops in continually learning AI systems which adapt to human needs.
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
+
+### Multi-Modality: Speech Makes Computers Feel Real
+
+Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
+
+Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion" [@prasadHowWillAlexa2022].
+
+-   LLMs combined with voice provide a unnerving user experience @ethanmollick2023
+-   Ethical issues: Voice assistants need to continuously record human speech and process it in data centers in the cloud.
+-   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
+-   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
+-   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
+-   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
+-   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
+
+Some research suggests that voice UI accompanied by a *physical embodied system* is the preffered by users in comparison with voice-only UI [@CELINO2020102410]. This suggests adding an avatar to the AI design may be worthwhile.
+
+There's evidence across disciplines about the usefulness of AI assistants:
+
+-   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
 
 ### **Generative UIs Enable Flexibility of Use**
 
@@ -357,57 +425,6 @@ There are also more philosophical approaches to ***Interface Studies:*** @davidh
 
 Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies: @Review2023Helsinki2023
 
-### Multi-Modality Enhances the Humanity of Artificial Systems
-
-By early 2024, widely available LLMs front-ends such as Gemini, Claude and ChatGPT have all released basic features for multi-modal communication. In practice, this means combination several AI models within the same interface. For example, on the input side, one model is used for human speech or image recognition which are transcribed into tokens that can be ingested into an LLM. On the output side, the LLM can generate instructions which are fed into an image / audio generation model or even computer code which can be ran on a virtual machine and then the output displayed inside the conversation.
-
-The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality by using another model in the AI pipeline in front of the LLM to enhance the human input with language that is known to produce better quality. This approach however is a moving target as foundational models keep changing rapidly and the baseline might differ from today to 6 months later.
-
-Multimodal model development is also ongoing. In the case of Google's Gemini 1.5 Pro, one model is able to handle several types of prompts from text to images. Multimodal prompting however requires larger context windows, as of writing, limited to 1 million tokens in a private version allows combining text and images in the question directed to the AI, used to reason in examples such as a 44-minute Buster Keaton silent film or Apollo 11 launch transcript (404 pages) @googleMultimodalPrompting44minute2024.
-
-### Conversations Are the Starting Point of a Relationship
-
--   [@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
-
-Conversational AI
-
--   @baileyAIEducation2023 believes people are used to search engines and it will take a little bit time to get familiar with talking to a computer in natural language. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* @leswingNvidiaRevealsNew2023.
-
-There are noticeable differences in the quality of the LLM output, which increases with model size. @levesqueWinograd2012 developed the *Winograd Schema Challenge*, looking to improve on the Turing test, by requiring the AI to display an understanding of language and context. The test consists of a story and a question, which has a different meaning as the context changes: "The trophy would not fit in the brown suitcase because it was too big" - what does the *it* refer to? Humans are able to understand this from context while a computer models would fail. Even GPT-3 still failed the test, but later LLMs have been able to solve this test correctly (90% accuracy) @kocijanDefeatWinogradSchema2022. This is to say AI is in constant development and improving it's ability to make sense of language.
-
-***ChatGPT*** is the first ***user interface (UI)*** built on top of GPT-4 by OpenAI and is able to communicate in a human-like way - using first-person, making coherent sentences that sound plausible, and even - confident and convincing. @wangEconomicCaseGenerative2023 ChatGPT reached 1 million users in 5 days and 6 months after launch has 230 million monthly active users. While it was the first, competing offers from Google (Gemini), Anthrophic (Claude), Meta (Llama) and others quickly followed starting a race for best performance across specific tasks including standardized tests from math to science to general knowledge and reasoning abilities.
-
-OpenAI provides AI-as-a-service through its ***application programming interfaces (APIs),*** allowing 3rd party developers to build custom UIs to serve the specific needs of their customer. For example Snapchat has created a ***virtual friend*** called "My AI" who lives inside the chat section of the Snapchat app and helps people write faster with predictive text completion and answering questions. The APIs make state-of-the-art AI models easy to use without needing much technical knowledge. Teams at AI-hackathons have produced interfaces for problems as diverse as humanitarian crises communication, briefing generation, code-completion, and many others. For instance, [@unleashSebastianAi2017] used BJ Fogg's ***tiny habits model*** to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
-
-ChatGPT makes it possible to ***evaluate AI models*** just by talking, i.e. having conversations with the machine and judging the output with some sort of structured content analysis tools. @oconnorOpenArtificialIntelligence2023 and @cahanConversationChatGPTRole2023 have conversations about science with AI. @pavlikCollaboratingChatGPTConsidering2023 and @brenta.andersWhyChatGPTSuch2022 report on AI in education. @kechtQuantifyingChatbotsAbility2023 suggests AI is even capable of learning business processes.
-
--   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
-
-### Affective Computing Enables Human-Friendly Machines
-
-Rosalind Picard is the founder of the *affective computing* field. Her pioneering work aims to make computers more human-friendly. Because of the conversational nature of LLMs, they are very useful for affective computing, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
-
-Just as LLMs, affective computing relies on input data. It's not an overstatement to say data from all the processes around us will define the future of computing as @hiittvWojciechSzpankowskiEmerging2021 puts it. In the early examples, electrodermal activity of the skin and heart-rate variance data were used to detect the emotional state and stress level of the user [@zangronizElectrodermalActivitySensor2017; @velmovitskyUsingAppleWatch2022]. This technology has since become mainstream in products such as Fitbit and the Apple Watch among many others.
-
-Affective Design emerged from affective computing with a focus on understanding user emotions to design UI/UX to which elicits specific emotional responses [@Reynolds2001DesigningFA].
-
-Apple Watch features Fall Detection which I've experienced personally. Riding my bicycle to the NCKU library I slipped and landed on my stomach on the pavement. Watch immediately asked me: "It looks like you've taken a hard fall" and offered an option to call the ambulance. Fortunately I was OK but if I did need assistance, this AI algorithm delivered contextual help which could save my health.
-
-On the output side, @lvCutenessIrresistibleImpact2022 studies the effect of ***cuteness*** of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
-
--   [@liuMachineGazeOnline2021] suggests higher *algorithmic transparency may inhibit anthropomorphismI*; people are less likely to attribute humanness to an AI if they understand how the system works.
--   @tedxTechEmotionsRoz2011
--   @lexfridmanRosalindPicardAffective2019
--   @hiittvRosalindPicardAdventures2021
--   @bwhcnocRosalindPicard4th2023
--   @singularityuniversityEngineeringEmotionAI2023
-
-Since the first mainframe computers with rudimentary computers able to respond with text messages, humans have been drawn to discussing their private lives with a machine that doesn't judge you like a human could. A famous anecdote is about the lab assistant of the Joseph Weizenbaum MIT ELIZA project in the mid-1960s (1996), who would dedicate extended time to talking to the machine in private. The machine was called DOCTOR and emulated a Rogerian psychotherapist, person-centered therapy developed by Carl Rogers, from the core idea that positive psychological functioning is a inherently human motivation [@bassettComputationalTherapeuticExploring2019; @rogersWayBeing1995].
-
--   ELIZA is an early examples of a language model
-
-Natural language generation exists since Eliza
-
 ### Artificial Empathy Also Builds Trust
 
 Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is ***AI Friend*** is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
@@ -428,7 +445,7 @@ Today's machines are much more capable so it's not a surprise humans would like 
 
 Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses more empathetic than human responses, at times by a significant marring; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]
 
-### Usability is the Minimum of a Good User Experience
+### Interface: Usability is the Minimum of a Good User Experience
 
 Usability sets the baseline but AI-interfaces are capable of more.
 
@@ -614,27 +631,27 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 | Replika  | Avatar, Emotion, Video Call, Audio |
 | Siri     | Audio                              |
 
-### Human-Computer Interactions Without the "Computer"
+### Interface: Human-Computer Interactions Without the "Computer"
 
 AI Affects Human-Computer Interactions
 
 The field of Human Factors and Ergonomics (HFE) emphasizes designing user experiences (UX) that cater to human needs [@theinternationalergonomicsassociationHumanFactorsErgonomics2019]. Designers think through every interaction of the user with a system and consider a set of metrics at each point of interaction including the user's context of use and emotional needs.
 
-Software designers, unlike industrial designers, can't physically alter the ergonomics of a device, which should be optimized for human well-being to begin with and form a cohesive experience together with the software. However, software designers can significantly reduce mental strain by crafting easy-to-use software and user-friendly user journeys. Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content at the right time, making a profound difference to the experience, keeping the user engaged and returning for more. In the words of [@babichInteractionDesignVs2019], ***"\[T\*\*\*\]***he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system".\*\*\*
+Software designers, unlike industrial designers, can't physically alter the ergonomics of a device, which should be optimized for human well-being to begin with and form a cohesive experience together with the software. However, software designers can significantly reduce mental strain by crafting easy-to-use software and user-friendly user journeys. Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content at the right time, making a profound difference to the experience, keeping the user engaged and returning for more. In the words of [@babichInteractionDesignVs2019], ***"***\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system".
 
 Drawing a parallel from narrative studies terminology, we can view user interaction as a heroic journey of the user to achieve their goals, by navigating through the interface until a success state - or facing failure. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
 
-[@tubikstudioUXDesignGlossary2018] argues ***affordance*** measures the clarity of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
+[@tubikstudioUXDesignGlossary2018] argues *affordance* measures the clarity of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
 
 For the vast majority of this study's target audience (college students), social media can be assumed as the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations (as of writing in 2020).
 
-[@shinUserExperienceWhat2020] proposes the model (fig. 10) of Algorithmic Experience (AX) ***"investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance"*** highlighting how interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level.
+[@shinUserExperienceWhat2020] proposes the model (fig. 10) of Algorithmic Experience (AX) ***"**investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance"* highlighting how interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level.
 
-In 2020 (when I proposed this thesis topic), Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards ***understanding*** human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
+In 2020 (when I proposed this thesis topic), Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards *understanding* human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
 
 Intelligence may be besides the point as long as AI *becomes very good at reasoning*. AI is a *reasoning engine* [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"How do you transition from mass marketing to mass personalization?"*
 
-### Do AI-Agents Need Anthropomorcism
+### Interface: Do AI-Agents Need Anthropomorphism
 
 What are the next features that could improve the next-generation UX/UI of AI-based assistants?
 
@@ -691,26 +708,6 @@ There have been dozens of AI-characters in the movies, TV-series, games, and (co
 ```{python}
 scifi_chart()
 ```
-
-### Speech Makes Computers Feel Real
-
-Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
-
-Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion" [@prasadHowWillAlexa2022].
-
--   LLMs combined with voice provide a unnerving user experience @ethanmollick2023
--   Ethical issues: Voice assistants need to continuously record human speech and process it in data centers in the cloud.
--   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
--   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
--   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
--   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
--   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
-
-Some research suggests that voice UI accompanied by a *physical embodied system* is the preffered by users in comparison with voice-only UI [@CELINO2020102410]. This suggests adding an avatar to the AI design may be worthwhile.
-
-There's evidence across disciplines about the usefulness of AI assistants:
-
--   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
 
 ### Roleplay Fits Computers Into Social Contexts
 
@@ -777,7 +774,7 @@ The Oxford Internet Institute defines AI simply as ***"computer programming that
 ```
 Everything that existed before OpenAI's GPT 4 has been blown out of the water.
 
-Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. 
+Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations.
 
 Some evergreen advice most relates to human psychology which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses ***hedonic user experience*** in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI.
 
@@ -797,7 +794,7 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations.
 
-### Robo-Advisors
+### Roleplay Case: Financial Robo-Advisors
 
 *Robo-advisors* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply. Human advisors are very expensive and not affordable for most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*.
 
@@ -812,7 +809,6 @@ In the early days in Europe, Germany and the United Kingdom led the way with the
 ```{=mdx}
 <Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
 ```
-
 Some relevant papers include a comparison of robot advisors by [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021]'s account of how before Generative AI, financial chatbots were developed manually using a painstaking process that was slow and error-prone, for example using the Atura Process. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront are forced to upgrade their technology to keep up.
 
 The user interface and user experience (UI/UX) of consumer-focused investing apps in Europe has improved a over the past decade. The changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of rudimentary investing apps and the lessons learned on how to automate the delivery of financial services while increasing user satisfaction.
@@ -824,7 +820,6 @@ In India, research is being conducted on how AI advisors could assist with inves
 -   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants?
 
 -   @brownHowFinancialChatbots2021 Financial chatbots
-
 
 -   Robo-advisors compete with community investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do not have the type of social proof a community-based investment vehicle has. The question is, does the user trust the robot or a human.
 
@@ -879,7 +874,6 @@ In India, research is being conducted on how AI advisors could assist with inves
 -   @ThaiFintechAssociation
 
 -   @renatocapeljMobileHedgeFund2021
-
 
 ## Design Implications
 

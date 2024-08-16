@@ -537,3 +537,24 @@ def ck_board_diversity():
     plt.tight_layout()
     plt.show()
 
+def esg_rating_agencies_chart():
+
+    # Correct percentages for ESG data providers
+    providers = [
+        "Refinitiv", "Huazheng", "Sustainalytics", "MSCI Stats", 
+        "KLD", "Bloomberg", "S&P", "VigeoEiris", "Sino-Securities Index", 
+        "SIRIS"
+    ]
+    percentages = [33.6, 4.0, 4.8, 7.2, 13.6, 12.8, 2.4, 2.4, 4.8, 0.8]
+
+    # Colors to match each provider
+    colors = ['brown', 'yellow', 'lightgreen', 'turquoise', 
+            'darkorange', 'purple', 'red', 'blue', 'pink', 'grey']
+
+    # Create the pie chart
+    plt.figure(figsize=(8, 8))
+    plt.pie(percentages, labels=providers, autopct='%1.1f%%', startangle=140, colors=colors)
+    plt.title('Distribution of Providers used among the Selected Articles (Final Correct Data)')
+
+    # Display the pie chart
+    plt.show()

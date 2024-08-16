@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -873,29 +873,32 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 
 -   Global Alliance for Banking on Values
 
-## Defeating Greenwashing with Data-Driven Benchmarks
+## Curbing Greenwashing with Data-Driven Benchmarks
 
 ### The Problem of Greenwashing
 
-Greenwashing is one of the largest blockers of sustainability; humans will feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are."* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
+Greenwashing is one of the largest blockers of sustainability. Humans feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
+
+EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023.
 
 Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is ramped up (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
 
 While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
 
-EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023.
-
 In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
 
-### Tools
+### ESG Promise: Countering Misinformation with Transparency
 
-"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
+Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
-Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
+ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities - a case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another recent example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
 
-### Countering Misinformation with Transparency
+In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
+
+-   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: "companies with higher quality climate reporting also provide higher returns"
+-   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
@@ -908,6 +911,12 @@ Sustainable Investing is Based on Data. Greenwashing is a large detractor from e
 -   Snowflake analysis like Simply Wallstreet
 
 -   Improve product ***provenance***, blockchains offer this transparency
+
+### ESG (Tools)
+
+"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
+
+Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
 ### ESG (Fintech)
 
@@ -931,13 +940,17 @@ Board diversity in the TOP 5 companies based on Corporate Knights data [@corpora
 ck_board_diversity()
 ```
 
+Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+
 ### Risk-Based Assessment
 
 -   @francesschwartzkopffFirmsArenReporting2022 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
 
--   BeZero
+-   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with.
 
 ### Indices
+
+Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
 Based on Corporate Knights data [@corporateknightsGlobal1002024]
 
@@ -953,14 +966,13 @@ Carbon productivity
 ck_carbon_productivity()
 ```
 
+### Credit-Scoring
+
 Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indexes make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
 
--   [@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
--   The As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+### Financialization
 
-Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
-
--   For example **Flickr invested 3000 USD in carbon credits.**
+[@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
 ### Certification
 
@@ -1059,25 +1071,29 @@ There are many standards. [@internationaltradecentreStandardsMap2022] currently 
 
 -   @OpenFoodFacts app for nutrition and sustainability data
 
-### ESG Promise
-
-Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
-
-ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities - a case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another recent example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
-
-In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
-
--   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: "companies with higher quality climate reporting also provide higher returns"
-
-<!-- -->
-
--   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
-
 ### ESG Crisis
 
 -   metrics and goals: ESG, SDGs,
 
 -   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
+
+-   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
+
+-   ESG risk
+
+-   Implication for design: ESG can't be trusted.
+
+-   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
+
+-   ESG is filled with greenwashing
+
+-   ESG is a really low bad
+
+-   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud
+
+-   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
+
+-   ESG greenwashing @baldiRoleESGScoring2022
 
 -   ESG companies don't emit less CO2 than non-ESG companies.
 
@@ -1091,15 +1107,20 @@ conventional_vs_sri_funds()
 
 -   @chenxiyuHowAICan2021 ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
 
--   ESG Complicance Systems: - MEET - EXCEED - LEAD.
+Three frameworks for corporates to think about ESG complicance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
 
--   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
-
--   ESG greenwashing @baldiRoleESGScoring2022
+### ESG Methodologies
 
 -   ESG Needs Standardisation
-
 -   Environmental, Social, and Corporate Governance (ESG)
+
+A meta-review of 136 research articles discovered the following ESG-rating agencies.
+
+```{python}
+esg_rating_agencies_chart()
+```
+
+-   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
 
 ### ESG Language
 
@@ -1109,29 +1130,9 @@ The advice consultancies are providing to banks establishes a common language an
 
 While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
 
--   
-
 -   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
--   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
-
--   
-
--   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
-
--   ESG is filled with greenwashing
-
--   ESG is a really low bad
-
--   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud
-
--   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
-
 -   Improving ESG Accessibility
-
--   ESG risk
-
--   Implication for design: ESG can't be trusted.
 
 -   Trading ESG futures?? because climate is slow it makes sense to trade de climate future
 
