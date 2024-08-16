@@ -10,6 +10,7 @@ warnings.filterwarnings("ignore")
 import Figure from '/src/components/Figure'
 import AI from '../images/ai-credibility.png'
 import Replika from '../images/with-me.png'
+import ETF from '../images/etfmatic.png'
 import Runaround from '../images/runaround.png'
 import ChatGPTMedical from '../images/chatgpt-medical.png'
 ```
@@ -733,7 +734,7 @@ The AI startups like Inworld and Character.AI have raised large rounds of fundin
 
 **Human-like**
 
-Is anthropomorphism necessary?
+Is anthropomorphism necessary? (Savings literature says it is)
 
 As AIs became more expressive and able to to **roleplay**, we can begin discussing some human-centric concepts and how people relate to other people. AI companions, AI partners, AI assistants, AI trainers - there's are many **roles** for the automated systems that help humans in many activities, powered by artificial intelligence models and algorithms.
 
@@ -776,7 +777,7 @@ The Oxford Internet Institute defines AI simply as ***"computer programming that
 ```
 Everything that existed before OpenAI's GPT 4 has been blown out of the water.
 
-Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Some relevant papers include a comparison of robot advisors by [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021]'s account of how before Generative AI, financial chatbots were developed manually using a painstaking process that was slow and error-prone, for example using the Atura Process. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront are forced to upgrade their technology to keep up.
+Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. 
 
 Some evergreen advice most relates to human psychology which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses ***hedonic user experience*** in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI.
 
@@ -786,21 +787,99 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   @nathanbenaichStateAIReport2022 State of AI Report
 
--   @neuralnineFinancialAIAssistant2021 Financial AI assistant in Python
-
--   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants?
-
 -   @qorusGreatReinventionGlobal2023 Digital banking revolution
 
 -   @lowerChatbotsTooGood2017 "Chatbots: Too Good to Be True? (They Are, Here’sWhy)."
-
--   @brownHowFinancialChatbots2021 Financial chatbots
 
 -   @isabellaghassemismithInterviewDanielBaeriswyl2019
 
 -   @josephinewaktareheintzCleo Cleo copywriter
 
 -   Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations.
+
+### Robo-Advisors
+
+*Robo-advisors* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply. Human advisors are very expensive and not affordable for most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*.
+
+-   Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. -- Athropomorphism: human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphized robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research**
+
+In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts [@altfiETFmaticAppDownloaded2017]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
+
+::: {.content-hidden unless-format="pdf"}
+![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/etfmatic.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
+```
+
+Some relevant papers include a comparison of robot advisors by [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021]'s account of how before Generative AI, financial chatbots were developed manually using a painstaking process that was slow and error-prone, for example using the Atura Process. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront are forced to upgrade their technology to keep up.
+
+The user interface and user experience (UI/UX) of consumer-focused investing apps in Europe has improved a over the past decade. The changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of rudimentary investing apps and the lessons learned on how to automate the delivery of financial services while increasing user satisfaction.
+
+In India, research is being conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success [@bhatiaRoboAdvisoryIts2020]. India had more than 2000 fintechs since 2015 [@migozziYouShouldWhat2023].
+
+-   @neuralnineFinancialAIAssistant2021 Financial AI assistant in Python
+
+-   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants?
+
+-   @brownHowFinancialChatbots2021 Financial chatbots
+
+
+-   Robo-advisors compete with community investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do not have the type of social proof a community-based investment vehicle has. The question is, does the user trust the robot or a human.
+
+-   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers. Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.
+
+-   @WhyDesignKey2021
+
+-   @seanmcgowanUXDesignFinTech2018
+
+-   @robindhanwaniFintechUIUX2021
+
+-   @DesigningFintechApp2021
+
+-   @cordeiroDesignNoLonger2016
+
+-   @ungrammaryProductDesignCase2020
+
+-   Raha maraton etv investeerimissaade.. raadios on ka mingi saade
+
+-   @EmpoweringDigitalAsset: digital assets bank
+
+-   @MyclimateYourPartner2023 calculate climate cost
+
+-   @GreenCentralBanking
+
+-   @hydeGiftHowCreative2006 Money as a gift
+
+-   @johnssenkeeziVeBeenInvited2022: Small stock investments
+
+-   Financial empowerment
+
+-   Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself
+
+-   @PhaseTwoInvesting
+
+-   @qayyumrajanESGAnalyticsIntroduction2021 ESG pulse
+
+-   @NGFS Network for Greening the Financial System
+
+-   @smartwealthHowBecomeInvestor2021 How do consumer become investors? marketing materials say: "One of the greatest hurdles to financial independence is a consumer mindset." One of the greatest hurdles to sustainability is a consumer mindset?
+
+-   @outlawTurnYourCustomers2015
+
+-   @malliarisUsingNeuralNetworks1996 **(Need to pay for paper!)**
+
+-   @CMBNewFuture Huawei
+
+-   @Vise2023 Personalised portfolios
+
+-   @WalletAppsGoogle Thai finance app
+
+-   @ThaiFintechAssociation
+
+-   @renatocapeljMobileHedgeFund2021
+
 
 ## Design Implications
 
