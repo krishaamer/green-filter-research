@@ -134,3 +134,53 @@ def ndc_chart():
 
     # Show the chart
     plt.show()
+
+def eu_energy_breakdown():
+    # Data for the first chart: Electricity Generation Breakdown (2024 H1)
+    labels_1 = ['Wind & Solar', 'Fossil Fuels', 'Hydropower', 'Nuclear']
+    sizes_1 = [30, 27, 21, 3]
+    explode_1 = (0.1, 0, 0, 0)  # Explode the wind & solar slice
+
+    # Pie Chart: Electricity Generation Breakdown
+    plt.figure(figsize=(7,7))
+    plt.pie(sizes_1, explode=explode_1, labels=labels_1, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.title('EU Electricity Generation Breakdown (H1 2024)')
+    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    plt.show()
+
+def eu_renewable_vs_fossil():
+    # Data for the third chart: Renewable vs. Fossil Energy Share Over Time
+    years_3 = [2019, 2020, 2021, 2022, 2023, 2024]
+    renewables_share_3 = [25, 27, 28, 29, 30, 30]
+    fossil_share_3 = [40, 38, 35, 33, 27, 27]
+
+    # Line Chart: Renewable vs. Fossil Energy Share Over Time
+    plt.figure(figsize=(10,6))
+    plt.plot(years_3, renewables_share_3, label='Renewables', marker='o', color='green')
+    plt.plot(years_3, fossil_share_3, label='Fossil Fuels', marker='o', color='red')
+    plt.title('Renewable vs. Fossil Energy Share Over Time in the EU')
+    plt.xlabel('Year')
+    plt.ylabel('Percentage of Electricity Generation')
+    plt.legend()
+    plt.show()
+
+def eu_coal_reduction():
+    # Data for the fourth chart: Country-Specific Reductions in Fossil Fuel Use
+    countries_4 = ['Germany', 'Italy', 'Spain', 'Belgium', 'France', 'Poland']
+    coal_use_2019 = [26, 30, 10, 15, 10, 80]
+    coal_use_2024 = [20, 15, 5, 7, 5, 57]
+
+    # Bar Chart: Country-Specific Reductions in Fossil Fuel Use
+    plt.figure(figsize=(12,6))
+    bar_width = 0.35
+    index = range(len(countries_4))
+
+    plt.bar(index, coal_use_2019, bar_width, label='2019', color='blue')
+    plt.bar([i + bar_width for i in index], coal_use_2024, bar_width, label='2024', color='orange')
+
+    plt.xlabel('Country')
+    plt.ylabel('Coal Share (%)')
+    plt.title('Country-Specific Coal Use Reduction (2019 vs 2024)')
+    plt.xticks([i + bar_width / 2 for i in index], countries_4)
+    plt.legend()
+    plt.show()

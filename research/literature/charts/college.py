@@ -324,3 +324,34 @@ def taiwanese_company_ranking_chart():
     plt.ylabel('Rank (1-100)')
     plt.legend().set_visible(False)  # Hide the legend as we are adding labels directly
     plt.show()
+
+
+def green_millenials():
+    # Data from the findings section that can be charted
+    data = {
+        'Psychographic Factor': ['Selfless Altruism', 'Frugality', 'Future Orientation', 'Risk Aversion'],
+        'Influence on Green Behavior': [-0.08, 0.34, 0.18, -0.07],
+        'Significance': [False, True, True, False]
+    }
+
+    df = pd.DataFrame(data)
+
+    # Plotting the data
+    plt.figure(figsize=(10, 6))
+    bars = plt.bar(df['Psychographic Factor'], df['Influence on Green Behavior'], color=['red' if not sig else 'green' for sig in df['Significance']])
+    plt.axhline(0, color='black', linewidth=0.5)
+    plt.title('Influence of Psychographic Factors on Green Behavior in Millennials')
+    plt.xlabel('Psychographic Factor')
+    plt.ylabel('Influence on Green Behavior (Coefficient)')
+    plt.ylim(-0.2, 0.4)
+
+    # Adding the significance markers
+    for bar, sig in zip(bars, df['Significance']):
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2, height - 0.05 if height < 0 else height + 0.05, 
+                'Significant' if sig else 'Not Sig.', 
+                ha='center', color='black')
+
+    # Display the plot
+    plt.tight_layout()
+    plt.show()

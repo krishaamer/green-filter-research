@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.design import air_chart
-from charts.design import air_chart
+from charts.design import air_chart, fast_consumer_goods, ant_forest
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -355,24 +355,7 @@ Some notable examples:
 : Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
 
 ```{python}
-# importing the modules
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-
-# data to be plotted
-x_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
-y_trees = [0, 10000000, 55000000, 100000000, 200000000, 326000000, 400000000]
-y_users = [0, 23000000, 35000000, 500000000, 550000000, 600000000, 650000000]
-
-# plotting
-plt.title("Ant Forest Growth")
-plt.xlabel("Years")
-plt.ylabel("Trees and Users")
-plt.plot(x_years, y_trees, color = "green")
-plt.plot(x_years, y_users, color = "black")
-plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
-plt.show()
+ant_forest()
 ```
 
 ### Open Data Sharing
@@ -481,6 +464,7 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 ```{python}
 air_chart()
 ```
+
 
 ### Health Tracking
 
@@ -637,15 +621,29 @@ How can design enable/help/encourage sustainability?
 
 -   EIT RawMaterials
 
-### Case: Towards Sustainable Clothes
+### Case: Fast-Moving Consumer Goods (FMCG)
 
-Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
+Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global congloremates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024].
+
+```{python}
+fast_consumer_goods()
+```
+
+Rise of e-commerce has pushed logistics companies to increase  delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
+
+### Case: Fast Fashion
+
+Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
 
 "26 million tons of clothing end up in China’s landfills each year, propelled by fast fashion" [@tianmacleodjiFastFashionDominates2024].
 
 Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion. @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index. [@wikirateSharingDataCreating2022]: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism". Consumer understanding of sustainability is limited. @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
 
 2.4 Trillion USD fashion industry contributing 2%-8% of total global GHG emissions, 100B USD lost to lack of recycling, contributes 9% of microplastics [@adamkiewiczGreenwashingSustainableFashion2022]. [@centobelliSlowingFastFashion2022] Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste. @kohlerCircularEconomyPerspectives2021 Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+
+
+#### Towards Sustainable Clothes
 
 -   There are local policy initiatives aiming to tackle the waste problem. For example the New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets [@emilychanWill2022Be2022] .
 

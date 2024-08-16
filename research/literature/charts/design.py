@@ -1,8 +1,10 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import pandas as pd
 
 def air_chart():
 
@@ -37,4 +39,48 @@ def air_chart():
     plt.tight_layout()
 
     # Displaying the plot
+    plt.show()
+
+def fast_consumer_goods():
+    # Data for the 10 largest FMCG companies by revenue in 2023 (in billion USD)
+    companies = ['Nestlé', 'PepsiCo', 'Procter & Gamble', 'JBS Foods', 'Unilever', 
+                'Anheuser-Busch InBev', 'Tyson Foods', 'Coca-Cola', 'L\'Oréal', 'British American Tobacco']
+    revenues = [99.32, 91.47, 84.06, 72.92, 63.91, 59.40, 52.88, 45.75, 44.57, 34.80]
+
+    # Custom colors for the bars
+    colors = ['#FF6F61', '#6B5B95', '#88B04B', '#FFA07A', '#009B77', 
+            '#FFD700', '#EFC050', '#45B8AC', '#5B5EA6', '#9B2335']
+
+    # Create a bar chart with customized colors and add annotations
+    plt.figure(figsize=(10,6))
+    bars = plt.barh(companies, revenues, color=colors)
+
+    # Add labels and title with improved styling
+    plt.xlabel('Revenue (Billion USD)', fontsize=12, color='darkblue')
+    plt.title('Top 10 FMCG Companies by Revenue in 2023', fontsize=14, color='darkgreen', fontweight='bold')
+    plt.gca().invert_yaxis()  # Invert y-axis for better readability
+
+    # Adding annotations to each bar
+    for bar in bars:
+        plt.text(bar.get_width() - 10, bar.get_y() + bar.get_height()/2, 
+                f'{bar.get_width():.2f}B', va='center', ha='right', color='white', fontweight='bold')
+
+    plt.tight_layout()
+
+    # Show the chart
+    plt.show()
+
+def ant_forest():
+    # data to be plotted
+    x_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
+    y_trees = [0, 10000000, 55000000, 100000000, 200000000, 326000000, 400000000]
+    y_users = [0, 23000000, 35000000, 500000000, 550000000, 600000000, 650000000]
+
+    # plotting
+    plt.title("Ant Forest Growth")
+    plt.xlabel("Years")
+    plt.ylabel("Trees and Users")
+    plt.plot(x_years, y_trees, color = "green")
+    plt.plot(x_years, y_users, color = "black")
+    plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
     plt.show()

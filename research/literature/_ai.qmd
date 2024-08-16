@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.ai import models_chart
-from charts.ai import models_chart, scifi_chart, growth_compute_chart
+from charts.ai import models_chart, scifi_chart, growth_compute_chart, models_rag_performance
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -39,6 +39,7 @@ The nature-inspired approach was successful. Innovations such as *back-propagati
 ```{python}
 growth_compute_chart()
 ```
+
 
 -   How do transformers work? Illustration @alammarIllustratedTransformer2018
 
@@ -238,6 +239,12 @@ Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingK
 -   Image-generation is now fast it's possible to create images in real-time while the user is typing @dwarkeshpatelMarkZuckerbergLlama2024
 
 -   Measuring Massive Multitask Language Understanding (MMLU) @hendrycksMeasuringMassiveMultitask2020.
+
+Another important metric is Retrieval Augmented Generation (RAG) performace. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024].
+
+```{python}
+models_rag_performance()
+```
 
 ## Companions
 

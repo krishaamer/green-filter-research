@@ -1445,24 +1445,7 @@ Some notable examples:
 
 
 ```python
-# importing the modules
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-
-# data to be plotted
-x_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
-y_trees = [0, 10000000, 55000000, 100000000, 200000000, 326000000, 400000000]
-y_users = [0, 23000000, 35000000, 500000000, 550000000, 600000000, 650000000]
-
-# plotting
-plt.title("Ant Forest Growth")
-plt.xlabel("Years")
-plt.ylabel("Trees and Users")
-plt.plot(x_years, y_trees, color = "green")
-plt.plot(x_years, y_users, color = "black")
-plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
-plt.show()
+ant_forest()
 ```
 
 ![](design_files/figure-markdown_strict/cell-3-output-1.png)
@@ -1788,15 +1771,33 @@ How can design enable/help/encourage sustainability?
 
 -   EIT RawMaterials
 
-### Case: Towards Sustainable Clothes
+### Case: Fast-Moving Consumer Goods (FMCG)
 
-Young people are the largest consumers of fast fashion (Anon, n.d.z).
-(In European Environment Agency, 2022 European Environment Agency (EEA))
-estimates based on trade and production data that EU27 citizens consumed
-an average 15kg of textile products per person per year. The European
-Commission wants to reduce the impact of fast fashion on EU market (ERR,
-2022). (Millward-Hopkins, Purnell & Baurley, 2023) shows how 50% of the
-textile waste in the UK is exported to other countries.
+Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods
+(CPG) are large global congloremates operating with low margins and high
+volumes (Toh, 2024). The largest of them have several billions in
+revenue (Kenton, 2024).
+
+```python
+fast_consumer_goods()
+```
+
+![](design_files/figure-markdown_strict/cell-5-output-1.png)
+
+Rise of e-commerce has pushed logistics companies to increase delivery
+efficiency to keep up with FMCG sales (Deliverect, 2024).
+
+### Case: Fast Fashion
+
+Just like Fast-Moving Consumer Goods, fast fashion operates with low
+margins and follows consumer trends. Young people are the largest
+consumers of fast fashion (Anon, n.d.z). (In European Environment
+Agency, 2022 European Environment Agency (EEA)) estimates based on trade
+and production data that EU27 citizens consumed an average 15kg of
+textile products per person per year. The European Commission wants to
+reduce the impact of fast fashion on EU market (ERR, 2022).
+(Millward-Hopkins, Purnell & Baurley, 2023) shows how 50% of the textile
+waste in the UK is exported to other countries.
 
 “26 million tons of clothing end up in China’s landfills each year,
 propelled by fast fashion” (Tian Macleod Ji, 2024).
@@ -1820,6 +1821,8 @@ Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of
 CO<sub>2</sub>, 92 million tonnes of textile waste. Köhler et al. (2021)
 Globally 87% of textile products are burned or landfilled after 1st
 consumer use.
+
+#### Towards Sustainable Clothes
 
 -   There are local policy initiatives aiming to tackle the waste
     problem. For example the New Standard Institute’s proposed “Fashion

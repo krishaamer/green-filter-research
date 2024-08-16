@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.college import company_rank_chart
-from charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart
+from charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -191,6 +191,8 @@ Many students live in dorms and shared housing, meaning their impact per square 
 
 -   @alexreiceMostEcoconsciousGeneration2021
 
+-   [@woodGenCaresSustainability2022] suggests in the U.S. Gen-Z is willing to pay 10% more for ethically goods, spend 24% more on sustainable products than Generation X and 75% of Gen Z would prioritize sustainability over brand loyalty.
+
 The above studies give foundation for creating a persona of a U.S. College Student who doesn't follow environmental news and thinks climate action doesn't make a difference. This doesn't necessarily mean this group of people with similar ideas would deny climate change is happening. Rather "Climate Denier" could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
 
 | Description           | Name  | Beliefs                       |
@@ -227,6 +229,12 @@ A large worldwide study (n=10000, age 16-25) by [@hickmanClimateAnxietyChildren2
 
 -   Older research on young adults (Millenials at the time) highlights how Millenials "use Google as a reference point for ease of use and simplicity" [@katemoranDesigningYoungAdults2016].
 
+Psychological factors influencing millenials to engage with sustainability [@naderiMeFirstThen2018]
+
+```{python}
+green_millenials()
+```
+
 ### Community
 
 Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
@@ -238,10 +246,12 @@ The focus on *group consciousness* suggests community-based sustainability actio
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021].
+- consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
 
 What are the building blocks of a thriving community?
 
--   Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
+***Luxury***
+-   Conversely, Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
 
 ### Empowerment
 
@@ -249,7 +259,8 @@ What are the building blocks of a thriving community?
 
 ### Trends and Memes
 
--   2024 "underconsumption" and "deinfluencing" are trends on TikTok.
+-   2024 "underconsumption" and "deinfluencing" are trends on TikTok @faresHowTikTokUnderconsumption2024
+
 
 -   <https://www.tiktok.com/search?q=underconsumption>
 

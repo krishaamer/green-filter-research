@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -44,9 +44,7 @@ Campain to ban polluting products campaign success story, EU shops can't sell de
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
-@pwc2022GrowthOpportunity2020 Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
-
--   @WorldEconomicOutlook2023
+\[@pwc2022GrowthOpportunity2020\] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
 ### Shopping
 
@@ -283,9 +281,9 @@ What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went
 climate_finance_gap_sectors()
 ```
 
-The needed investment doesn't seem so large - around 2.5-5.2 % of the global GDP - if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
+The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
 
-Bad news. How Much Money Is Needed? It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
+Bad news. It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
 The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
 
@@ -299,6 +297,8 @@ money_chart()
 | Global Real Estate (2020, valuation)                                                    | \$326T     |
 +-----------------------------------------------------------------------------------------+------------+
 | Global Equity Markets (2023, valuation)                                                 | \$108T     |
++-----------------------------------------------------------------------------------------+------------+
+| Global GDP (2024, estimated)                                                            | \$110T     |
 +-----------------------------------------------------------------------------------------+------------+
 | Global GDP (2023, per year)                                                             | \$105T     |
 +-----------------------------------------------------------------------------------------+------------+
@@ -354,6 +354,8 @@ money_chart()
 +-----------------------------------------------------------------------------------------+------------+
 | Ethereum (2024, market cap)                                                             | \$0.3T     |
 +-----------------------------------------------------------------------------------------+------------+
+| *Individual Climate Investors* (2020, per year)                                         | \$0.1T     |
++-----------------------------------------------------------------------------------------+------------+
 | GDP of Estonia (2023, per year)                                                         | \$0.04T    |
 +-----------------------------------------------------------------------------------------+------------+
 
@@ -367,9 +369,13 @@ While these assets and GDP values reflect different aspects of the global econom
 
 -   "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
 
+-   @oecdOECDEconomicOutlook2024 projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the @worldbankGlobalEconomicProspects2024 is more conservative projecting 2.6% and 2.7% respectively.
+
 #### Sustainable Investing
 
 While literature has been debating if it's possible to "do well while doing good", latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
+
+" sustainable investing is now part of mainstream financial strategy" @morganstanleySustainableSignalsIndividual2019
 
 "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
@@ -889,6 +895,10 @@ Green investing only makes sense if it's possible to distinguish sustainable inv
 
 EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023.
 
+```{python}
+csrd_timeline()
+```
+
 Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is ramped up (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
 
 While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
@@ -960,6 +970,12 @@ ESG gives banks a new tool to market and sell environmentally conscious opportun
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
+[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years.
+
+```{python}
+msci_esg_leaders()
+```
+
 -   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: "companies with higher quality climate reporting also provide higher returns"
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
@@ -994,6 +1010,10 @@ In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the path
 ### ESG (Governance)
 
 A systematic meta-review of 153 research papers of ESG literature around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes [@martinyDeterminantsEnvironmentalSocial2024].
+
+```{python}
+esg_vs_board_diversity()
+```
 
 ***Design Implications:*** show the board membership in the app product view.
 
@@ -1083,9 +1103,15 @@ Existing rankings
 
 -   metrics and goals: ESG, SDGs,
 
+-   @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
+
 -   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
+
+```{python}
+fund_types_chart()
+```
 
 -   ESG risk
 

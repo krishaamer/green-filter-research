@@ -2,6 +2,8 @@ import warnings
 warnings.filterwarnings("ignore")
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from datetime import datetime
 import numpy as np
 import pandas as pd
 import os
@@ -605,5 +607,187 @@ def climate_finance_gap_sectors_timeline():
     ax.set_title('Sectoral Financing Needs Over Time (2020-2050)', fontsize=14)
     ax.legend()
 
+    plt.tight_layout()
+    plt.show()
+
+def csrd_timeline():
+
+    # Data for the timeline
+    dates = [datetime(2023, 1, 1), datetime(2024, 1, 1), datetime(2025, 1, 1), 
+            datetime(2026, 1, 1), datetime(2028, 1, 1)]
+    events = ['CSRD entered into force', 'NFRD large companies report', 
+            'All large companies report', 'Listed SMEs report', 
+            'Large non-EU companies report']
+
+    # Create figure and axis
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plotting the timeline
+    ax.plot(dates, [1] * len(dates), "ro-")
+
+    # Formatting the timeline
+    for i, (date, event) in enumerate(zip(dates, events)):
+        ax.text(date, 1.01, event, rotation=45, ha='right', va='bottom')
+
+    ax.set_ylim(0.9, 1.2)  # Set y-limits for better visualization
+    ax.get_yaxis().set_visible(False)  # Hide y-axis
+    ax.xaxis.set_major_locator(mdates.YearLocator())  # Set major ticks at year intervals
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))  # Format dates as years
+
+    # Title and labels
+    ax.set_title('CSRD Timeline')
+    plt.grid(False)
+
+    # Show the plot
+    plt.show()
+
+
+def esg_vs_board_diversity():
+    # Based on the information provided in the descriptive statistics and key findings, let's create a simplified comparison chart
+    # for board diversity (gender and cultural) vs ESG score based on the available descriptive data.
+
+    # Data for board diversity (gender and cultural) and ESG score extracted from Table 2
+    data_diversity = {
+        "Variable": ["ESG score", "Board gender diversity", "Board cultural diversity"],
+        "Mean": [66.758, 23.942, 15.753],
+        "Min": [39.650, 0.000, 5.560],
+        "Max": [93.460, 58.330, 100.000]
+    }
+
+    # Creating a DataFrame
+    df_diversity = pd.DataFrame(data_diversity)
+    # Scatter Plot showing how board diversity (gender and cultural) affects ESG score
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    # Scatter plot with trend lines for board gender diversity and cultural diversity vs ESG score
+    ax.scatter([23.942], [66.758], color='blue', label='Gender Diversity', s=100)
+    ax.scatter([15.753], [66.758], color='green', label='Cultural Diversity', s=100)
+
+    # Plotting a trend line for gender diversity and cultural diversity
+    ax.plot([0, 60], [39.650, 93.460], color='blue', linestyle='--', label='Gender Diversity Trend')
+    ax.plot([0, 100], [39.650, 93.460], color='green', linestyle='--', label='Cultural Diversity Trend')
+
+    ax.set_xlabel('Diversity (%)')
+    ax.set_ylabel('ESG Score')
+    ax.set_title('Scatter Plot: Board Diversity vs ESG Score with Trend Lines')
+    ax.legend()
+
+    plt.tight_layout()
+    plt.show()
+
+    # Line Chart with Error Bars showing board diversity compared to ESG score
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    # Line chart with error bars for diversity metrics and ESG score
+    ax.errorbar(df_diversity['Variable'], df_diversity['Mean'], 
+                yerr=[df_diversity['Mean'] - df_diversity['Min'], df_diversity['Max'] - df_diversity['Mean']], 
+                fmt='-o', color='blue', ecolor='red', capsize=5)
+
+    ax.set_ylabel('Values')
+    ax.set_title('Line Chart with Error Bars: Diversity and ESG Score')
+    plt.tight_layout()
+    plt.show()
+
+    # Box Plot to compare the distribution of ESG scores and diversity levels
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    # Box plot for ESG score, gender diversity, and cultural diversity
+    ax.boxplot([df_diversity['Mean'], df_diversity['Min'], df_diversity['Max']], labels=['Mean', 'Min', 'Max'])
+    ax.set_title('Box Plot: Comparison of ESG and Board Diversity')
+    ax.set_ylabel('Values')
+
+    plt.tight_layout()
+    plt.show()
+
+def fund_types_chart():
+    data = {
+        "Fund Type": ["Conventional ETF", "Conventional OEF", "SRI ETF", "SRI OEF"],
+        "Mean AUM (Million USD)": [349, 503, 299, 555],
+        "St. Dev. AUM (Million USD)": [447, 987, 479, 964],
+        "Quartile 1 AUM (Million USD)": [67, 57, 33, 67],
+        "Median AUM (Million USD)": [195, 172, 103, 199],
+        "Quartile 3 AUM (Million USD)": [432, 495, 283, 590]
+    }
+
+    # Create DataFrame
+    df = pd.DataFrame(data)
+
+    # Plot the AUM statistics for each fund type
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plotting each quartile and mean as a bar plot
+    df.plot(x="Fund Type", y=["Mean AUM (Million USD)", "Quartile 1 AUM (Million USD)", "Median AUM (Million USD)", "Quartile 3 AUM (Million USD)"], kind="bar", ax=ax)
+
+    # Adding labels and title
+    ax.set_ylabel("AUM (Million USD)")
+    ax.set_title("Assets Under Management (AUM) Statistics for Fund Types in 2019")
+
+    # Display plot
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+
+    plt.show()
+
+def msci_esg_leaders():
+    # Load the files for MSCI ACWI and MSCI ACWI ESG Leaders data
+    # Load both files into separate dataframes
+
+    df_esg_new = pd.read_csv(os.path.join(script_dir, 'acwi-esg.csv'), skiprows=5)
+    df_acwi_new = pd.read_csv(os.path.join(script_dir, 'acwi.csv'), skiprows=5)
+
+    # Renaming the columns for clarity
+    df_esg_new.columns = ['Date', 'ACWI ESG Leaders']
+    df_acwi_new.columns = ['Date', 'ACWI']
+
+    # Convert the date columns to datetime format and the index values to numeric
+    df_esg_new['Date'] = pd.to_datetime(df_esg_new['Date'], format='%b %d, %Y', errors='coerce')
+    df_esg_new['ACWI ESG Leaders'] = pd.to_numeric(df_esg_new['ACWI ESG Leaders'].str.replace(',', ''), errors='coerce')
+
+    df_acwi_new['Date'] = pd.to_datetime(df_acwi_new['Date'], format='%b %d, %Y', errors='coerce')
+    df_acwi_new['ACWI'] = pd.to_numeric(df_acwi_new['ACWI'].str.replace(',', ''), errors='coerce')
+
+    # Merge the two dataframes on the date column for comparison
+    df_combined_new = pd.merge(df_esg_new, df_acwi_new, on='Date')
+
+    # Drop missing values if any
+    df_combined_new.dropna(inplace=True)
+
+    # Calculate cumulative returns
+    df_combined_new['ACWI_cumulative_return'] = (df_combined_new['ACWI'] / df_combined_new['ACWI'].iloc[0]) * 100
+    df_combined_new['ACWI_ESG_cumulative_return'] = (df_combined_new['ACWI ESG Leaders'] / df_combined_new['ACWI ESG Leaders'].iloc[0]) * 100
+
+    # Plot the cumulative returns for both indices without markers for a clean comparison
+    plt.figure(figsize=(10, 6))
+    plt.plot(df_combined_new['Date'], df_combined_new['ACWI_cumulative_return'], label='MSCI ACWI Cumulative Return', linewidth=1, color='blue')
+    plt.plot(df_combined_new['Date'], df_combined_new['ACWI_ESG_cumulative_return'], label='MSCI ACWI ESG Leaders Cumulative Return', linewidth=1, color='red')
+    plt.xlabel('Year')
+    plt.ylabel('Cumulative Return (Base 100)')
+    plt.title('Cumulative Return for MSCI ACWI vs ESG Leaders (Using New Data)')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+def crypto_sustainability():
+    # Data
+    assets = ['Polygon', 'Cardano', 'Stellar', 'XRP', 'Developed Index', 'Emerging Index', 'Solar', 'Wind', 'POWR', 'GRID+', 'ELEC', 'SNC']
+    correlations = [0.05, 0.00, -0.07, -0.09, -0.03, 0.00, 0.00, -0.05, -0.05, 0.06, 0.00, -0.01]
+
+    # Positive, negative, and neutral correlation values for the stacked bar chart
+    positive_corr = [c if c > 0 else 0 for c in correlations]
+    negative_corr = [c if c < 0 else 0 for c in correlations]
+    neutral_corr = [c if c == 0 else 0 for c in correlations]
+
+    # Bubble sizes for the bubble chart
+    bubble_sizes = [abs(c) * 1000 for c in correlations]
+
+    # 1. Stacked Bar Chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(assets, positive_corr, label='Positive', color='green')
+    plt.bar(assets, neutral_corr, bottom=positive_corr, label='Neutral', color='gray')
+    plt.bar(assets, negative_corr, bottom=[p+n for p, n in zip(positive_corr, neutral_corr)], label='Negative', color='red')
+    plt.xticks(rotation=45, ha='right')
+    plt.title('Stacked Bar Chart of Correlation Types for Each Asset')
+    plt.ylabel('Correlation')
+    plt.legend()
     plt.tight_layout()
     plt.show()

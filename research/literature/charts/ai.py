@@ -238,3 +238,33 @@ def growth_compute_chart():
     # Display the plot
     plt.tight_layout()
     plt.show()
+
+def models_rag_performance():
+    # Data for the long context RAG performance table (values extracted from the table provided by the user)
+    context_lengths_table = [2, 4, 8, 16, 32, 64, 96, 125]
+
+    # Performance data for various models
+    performance_gpt4o_table = [0.467, 0.671, 0.721, 0.752, 0.759, 0.769, 0.769, 0.767]
+    performance_claude3_5_sonnet = [0.506, 0.684, 0.723, 0.718, 0.748, 0.741, 0.732, 0.706]
+    performance_claude3_opus = [0.463, 0.652, 0.702, 0.716, 0.725, 0.755, 0.732, 0.741]
+    performance_claude3_haiku = [0.466, 0.666, 0.678, 0.705, 0.69, 0.668, 0.663, 0.656]
+    performance_gpt4o_mini = [0.424, 0.587, 0.624, 0.649, 0.662, 0.648, 0.646, 0.643]
+    performance_gpt4_turbo = [0.465, 0.6, 0.634, 0.641, 0.623, 0.623, 0.562, 0.56]
+
+    # Creating the plot for long context RAG performance across context lengths for different models
+    plt.figure(figsize=(10, 6))
+
+    plt.plot(context_lengths_table, performance_gpt4o_table, label="GPT-4o", marker='o')
+    plt.plot(context_lengths_table, performance_claude3_5_sonnet, label="Claude-3-5 Sonnet", marker='s')
+    plt.plot(context_lengths_table, performance_claude3_opus, label="Claude-3 Opus", marker='^')
+    plt.plot(context_lengths_table, performance_claude3_haiku, label="Claude-3 Haiku", marker='d')
+    plt.plot(context_lengths_table, performance_gpt4o_mini, label="GPT-4o Mini", marker='x')
+    plt.plot(context_lengths_table, performance_gpt4_turbo, label="GPT-4 Turbo", marker='*')
+
+    plt.xlabel('Context Length (k tokens)')
+    plt.ylabel('RAG Performance')
+    plt.title('Long Context RAG Performance Across Context Lengths for Various Models')
+    plt.legend()
+    plt.grid(True)
+
+    plt.show()
