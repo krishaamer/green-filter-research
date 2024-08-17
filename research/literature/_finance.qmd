@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -16,17 +16,17 @@ import Bunq from '../images/bunq.jpg'
 
 ### Sustainable Capital Allocation Methods
 
-*Fintech* - financial technologies - linked to *ESG* (Environmental, Social, and Corporate Governance) may hold the potential to drive consumers on a pathway towards sustainable investing. Does this funnel work - and it's indeed a complex multi–step funnel -, depends on whether we can deliver a simple user experience and curb greenwashing to a level that allows consumer to distinguish eco–friendly businesses from the heavy polluters.
+Fintech (financial technologies) holds the potential to drive consumers on a pathway towards ESG (Environmental, Social, and Corporate Governance) investing. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters - and delivering a simple UX (user experience).
 
-This chapter explores the larger trend of *Democratization of Financial Markets* through consumer-facing apps that enable new interactions which increasingly blur boundaries between shopping, saving, and investing. Efforts to boost user numbers have made apps that started out with payments-only - such as Revolut and N26 - branch out into offering savings accounts and investing options. Regardless of if it's money spent on shopping or saved and invested, these are all decision of capital allocation, and in one way or another, we're giving our money to companies. The critical question is: do we choose to support sustainability-focused companies or those that pay less attention to sustainability?
+This chapter explores the larger trend of *Democratization of Financial Markets* through consumer-facing applications that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing (SSI). The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options. Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies for continued economic growth. The critical question is: do we choose to support sustainability-focused companies that invest deeply into green innovation and eco-friendly practices - or those that pay less attention to sustainability?
 
-Users are beginning to become money-savvy yet are still missing many key ideas from financial literacy. Giving users exposure to investment opportunities through familiar activities that may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
+Consumers are beginning to become more money-savvy yet are still missing many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
 
 Shopping, saving, and investing are converging on digital platforms (superapps) that permeate our daily financial lives, with features such basic banking, payments, transfers, as well as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
 
-Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money is also created by companies and individuals using cryptography on blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping. Added to that the trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
+Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping.
 
--   @eisensteinSacredEconomicsMoney2011: 5 things, UBI, demurrage, ... Eisenstein?: "Money is a technology".
+Trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
 ```{python}
 fintech_chart()
@@ -44,7 +44,7 @@ Campain to ban polluting products campaign success story, EU shops can't sell de
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
-\[@pwc2022GrowthOpportunity2020\] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
+[@pwc2022GrowthOpportunity2020] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
 ### Shopping
 
@@ -505,8 +505,6 @@ There are many 'green investment platforms' who to trust?
 | ClimateInvest |             | clim8invest.com |
 | Circa5000     |             | circa5000.com   |
 | FairOwn       |             | fairown.com     |
-|               |             |                 |
-|               |             |                 |
 
 -   @hankewitzEstonianFintechCompany2021
 
@@ -557,7 +555,6 @@ There are many asset classes only some of which would be accessible to a retail 
 | Mutual Funds                                  |
 | ETFs                                          |
 | Insurance Products such as Variable Annuities |
-|                                               |
 
 *Thematic Capital,* Build a thematic portfolio. There's a wide range of investment products marketed as *sustainable*, however many of them are fake (**CITATION**).
 
@@ -742,20 +739,33 @@ University of California also followed suit with divestment of its \$126B USD po
 
 ## Decoupling Economic Growth from Environmental Degradation
 
-### Scenarios
+### Decarbonization Scenarios
 
-Decarbonization Scenarios. The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation - is a topic debated among scientists.
+The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation - is a topic debated among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
 
--   [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
--   In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020]. Meanwhile, contrarily, [@globalcarbonbudgetCumulativeCOEmissions2023]'s data shows an increasing CO2e emissions trend in the UK in the same timeframe.
+In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
+
+```{python}
+uk_energy_emissions_trend()
+```
+
+-   Meanwhile cumulative CO2e emissions trend in the UK in the same timeframe [@globalcarbonbudgetCumulativeCOEmissions2023].
+
+CO2 emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
 
 ```{python}
 growth_brics()
 ```
 
-CO2 emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
+### Econometrics: New Metrics
 
-New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
+*Econometrics* is the art and science of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
+
+The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
+
+There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
+
+There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
 -   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. @amabileProgressPrincipleUsing2011
 
@@ -767,85 +777,33 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 -   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
-### Econometrics
+### Econometrics: Pricing Externalities
 
-*Econometrics* is the art and science of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
+As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year finds [@trucostNaturalCapitalRisk2023].
 
-The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
+Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare".
 
-There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
+Prices do not capture all costs. "CONSUMPTION, PRODUCTION, AND INVESTMENT decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]
 
-There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
+### Classical Economics vs Ecological Economics
 
-### Pricing Externalities
+While Adam Smith is most famous for his concept of the *invisible hand* first appearing in *The Theory of Moral Sentiments* (1759) and further developed in his seminal work *The Wealth of Nations*, published in 1776, his writings also highlight the interdependence of economic actors, who through specialization increase productivity, but also increasingly dependent on each another as well as the role of empathy in individual actions [@atalAdamSmithHis2024].
 
-Prices Do Not Capture All Costs "CONSUMPTION, PRODUCTION, AND INVESTMENT decisions of individuals, households, and firms often affect people not directly involved in the transactions." @helblingExternalitiesPricesNot
+Ecological economics doesn't necessarily argue with the foundation of classical economics, rather ecological economics finds the classical economics model *incomplete,* ignoring the physical limits of natural resources. Ecological economics draws attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources.
 
--   [@trucostNaturalCapitalRisk2023] finds the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year.
--   Conceived by Alfred Marshall and Arthur Cecil Pigou
+The biggest point of contention is the necessity of *economic growth*. The founder of ecological economics Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. More recently.[@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] have expanded on these ideas with recipes for a *post-growth* world, making the ideas seem more tangible and precise, yet mostly untested in the real world.
 
-Externalities need to be priced in
+New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
--   @mazzucatoMissionEconomyMoonshot2021
+### Doughnut Economics and Regenerative Capitalism
 
--   @krausmannResourceExtractionOutflows2018
+*Doughnut Economics*, introduced in the eponymous book uses a simple visualization of a doughnut (donut) to help us grasp the big picture of the economy *embedded* inside the physical and social worlds [@raworthDoughnutEconomicsSeven2017]. It allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. The doughnut concept is simple and deep at the same time, a useful as social object to enable starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a *"self-portrait of humanity in the beginning of the 21st century"**.*** Combining the *SDGs (Sustainable Development Goals)* inside the doughnut and the *Planetary Boundaries* (Earth's ecological ceiling) outside the doughnut, leaves a space inside the donut represents a state of equilibrium and balance on spaceship Earth.
 
--   @WhatRegenerativeCapitalism2022
+Doughnut Economics Action Labs enable local communities to build local donuts customized to local problems. While the ideas have not yet been implemented on a country-level, smaller scale doughnut economics' success stories have inspired cities to take a comprehensive view of the doughnut of their own city with several EU cities adopting the vision [@teicherDoughnutEconomicsHas2021]. While critics say doughnut economics would expand the role of the government [@horwitzThereHoleMiddle2017], doughnut practitioners in Brussels believe everything can be adapted to the place and context [@oikosdenktankWebinarDoughnutEconomics2021; @brusselsdonutHomeBrusselsDonut2022].
 
--   @support_llBookReviewGreen2021
+The city of Amsterdam is developing shorter food chains (which save CO~2e~) and linking residents with food production and reconnecting people to the food which foster collaboration in the community [@circleeconomyKeynoteIlektraKouloumpi2021]. Amsterdam has also built comprehensive dashboards called the Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 [@waterstaatCircularDutchEconomy2019; @gemeenteamsterdamCircularEconomyMonitor2022].
 
--   @pauliBlueEconomyMarriage2017 Blue economy
-
--   @standingBlueCommonsRescuing2022
-
--   @bullerValueWhaleIllusions2022
-
--   @pauliBlueEconomyMarriage2017
-
--   @lovinsFinerFutureCreating2018
-
--   @bardiLimits50Years2022
-
--   @circlRegenerativeEconomicsReset2021
-
--   @michaelkramerTEDxHiloMichaelKramer2012
-
--   @elkingtonGreenSwansComing2020
-
--   @stockholmresiliencecentretvKateRaworthPresenting2017
-
--   Whie Adam Smith is most famous for his concept of the invisible hand, his writings also highlight the interdependence of economic actors [@atalAdamSmithHis2024]
-
-### Ecological Economics
-
-*Ecological Economics* is the prime suspect for eco-conscious ideas to incorporate into design, drawing attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources. The founder of the field Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. [@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] expanded on these ideas with recipes for a post-growth world, making the ideas seem more tangible and precise.
-
--   Sacred Economics is use as-is as a framework and visualization tool.
-
-### Doughnut Economics
-
-The doughnut (donut) is a simple visualization that helps to grasp the big picture of the economy and the physical and social worlds. It allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. Doughnut Economics has not been implemented on a country--level however has inspired cities to take a comprehensive view of the doughnut of their own city.
-
-Several EU cities have adopted the vision [@teicherDoughnutEconomicsHas2021]. Doughnut in Brussels, Belgium. Everything has to be adapted to the place and context [@oikosdenktankWebinarDoughnutEconomics2021; @brusselsdonutHomeBrusselsDonut2022]. The city of Amsterdam is developing shorter food chains (which save CO~2~) and linking residents with food production and reconnecting people to the food. Food become a sort of ***social object***, which foster collaboration in the community [@circleeconomyKeynoteIlektraKouloumpi2021]. Amsterdam also has a Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 [@waterstaatCircularDutchEconomy2019; @gemeenteamsterdamCircularEconomyMonitor2022].
-
-The Doughnut concept is a useful social object that's simple and deep at the same time, enabling starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a ***"self-portrait of humanity in the beginning of the 21st century".*** Combining the SDGs inside the doughnut and the Planetary Boundaries outside the doughnut. The space donut represents a state of equilibrium and balance on spaceship Earth.
-
--   Kate Raworth was inspired by ecological economics among other things.
--   @baileyMappingActorsArguments2020 shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
--   @gadlevanonDonutEffectReal2022 the donut effect is real, shift away from city centers. Not related to donut economy per se.
--   @salaEnvironmentalSustainabilityEuropean2020
--   Resource footprint, ecological footprint
--   @oliverSafeJustOperating2022
--   Donut quantified @luukkanenQuantificationDoughnutEconomy2021
--   @defidonutPoolTogether732021 Savings Lottery
--   @jolijnhooghwinkelVergeetGroteBedrijven2023 donut essay winner
--   @RaworthDoughnut2021 Donut in practice
--   @bbcreelHowDutchAre2020
--   @circleeconomyKeynoteIlektraKouloumpi2021
--   city coalition @C402024
--   @goliasDonutCenteredDesign2019
-
-| Short Food Chains in Amsterdam                     |
+| Shortening Food Chains in Amsterdam                |
 |----------------------------------------------------|
 | Spatial planning for food place-making in the city |
 | Circular agriculture                               |
@@ -853,37 +811,13 @@ The Doughnut concept is a useful social object that's simple and deep at the sam
 | Collaboration between chain members                |
 | Food education                                     |
 
-: From @circleeconomyKeynoteIlektraKouloumpi2021.
+: From [@circleeconomyKeynoteIlektraKouloumpi2021].
 
--   @AmsterdamUses2023
+*In his 2015 paper Regenerative Capitalism*, investor, capital markets and derivatives expert John Fullerton builds his economic theory on the ideas of Club of Rome and the Limits to Growth[@meadowsLimitsGrowthReport1972] as well as taking inspiration from R. Buckminster Fuller.
 
--   @wetenschappelijkbureaugroenlinksKateRaworthDoughnut2023
+> *"Nature is a totally efficient, self-regenerating system. If we discover the laws that govern this system and live synergistically within them, sustainability will follow and humankind will be a success."* [@fullerGrunchGiants1983]
 
--   100 cities generate more than 70% of their electricity, circular city design
-
--   Circular City Currency
-
--   Earth's ecological ceiling
-
--   Doughnut Economics Action Lab
-
--   @raworthDoughnutEconomicsSeven2017 book
-
--   Doughnut economics' @bbcreelHowDutchAre2020
-
--   Donut and Design Thinking both focus on sustainability and human-centeredness.
-
--   @horwitzThereHoleMiddle2017 critics would say doughnut economics would expand the role of the government
-
-### Regenerative Capitalism
-
--   @fullerGrunchGiants1983: "Nature is a totally efficient, self-regenerating system. If we discover the laws that govern this system and live synergistically within them, sustainability will follow and humankind will be a success."
-
--   @RegenerativeCapitalismNew2023 "The quality of growth matters". @johnfullertonJohnFullertonWhen2011: John Fullerton: Balance efficiency with resiliency so the whole system doesn't become brittle and break. @johnfullertonRegenerativeBusinessPart2022: "human civilization is embedded in the biosphere". Fullerton builds on the ideas of Club of Rome and @meadowsLimitsGrowthReport1972.
-
--   Fuller brings the example of a local bank: Triodos Bank
-
--   Global Alliance for Banking on Values
+"\[H\]uman civilization is embedded in the biosphere," Fullerton's ideas aim to balance efficiency with resiliency so the whole system doesn't become brittle and break [@johnfullertonJohnFullertonWhen2011; @confinoCapitalismSocialismCould2015; @johnfullertonRegenerativeBusinessPart2022]. While regenerative capitalism recognizes the need for economic growth it also deems "\[t\]he quality of growth matters" [@RegenerativeCapitalismNew2023]. For example, he cites the example of Triodos Bank which already in the 1980s focused on sustainable banking championing responsibility, transparency, and business ethics. A member of the Global Alliance for Banking on Values, Triodos finances projects in nature preservation and restoration [@gabvTriodosBankUK2023].
 
 ## Reducing Greenwashing with Data-Driven Benchmarks
 

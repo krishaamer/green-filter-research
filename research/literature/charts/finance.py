@@ -556,7 +556,7 @@ def esg_rating_agencies_chart():
     # Create the pie chart
     plt.figure(figsize=(8, 8))
     plt.pie(percentages, labels=providers, autopct='%1.1f%%', startangle=140, colors=colors)
-    plt.title('Distribution of Providers used among the Selected Articles (Final Correct Data)')
+    plt.title('Distribution of Providers used among the Selected Articles')
 
     # Display the pie chart
     plt.show()
@@ -762,7 +762,7 @@ def msci_esg_leaders():
     plt.plot(df_combined_new['Date'], df_combined_new['ACWI_ESG_cumulative_return'], label='MSCI ACWI ESG Leaders Cumulative Return', linewidth=1, color='red')
     plt.xlabel('Year')
     plt.ylabel('Cumulative Return (Base 100)')
-    plt.title('Cumulative Return for MSCI ACWI vs ESG Leaders (Using New Data)')
+    plt.title('Cumulative Return for MSCI ACWI vs ESG Leaders')
     plt.legend()
     plt.grid(True)
     plt.show()
@@ -790,4 +790,23 @@ def crypto_sustainability():
     plt.ylabel('Correlation')
     plt.legend()
     plt.tight_layout()
+    plt.show()
+
+def uk_energy_emissions_trend():
+    # Assuming fuel_emissions dataset is already loaded
+    # Rename the "Fuel Type" column to "Year" for clarity
+    fuel_emissions = pd.read_csv(os.path.join(script_dir, 'uk-energy-type.csv'))
+    fuel_emissions.rename(columns={'Fuel Type': 'Year'}, inplace=True)
+
+    # Plot CO₂ Emissions by Fuel Sources (Gas, Oil, Coal, etc.)
+    plt.figure(figsize=(10, 6))
+    plt.plot(fuel_emissions['Year'], fuel_emissions['Coal'], label='Coal')
+    plt.plot(fuel_emissions['Year'], fuel_emissions['Oil'], label='Oil')
+    plt.plot(fuel_emissions['Year'], fuel_emissions['Gas'], label='Gas')
+    plt.plot(fuel_emissions['Year'], fuel_emissions['Other solid fuels'], label='Other solid fuels')
+    plt.title('CO₂ Emissions by Fuel Sources (1990-2017)')
+    plt.xlabel('Year')
+    plt.ylabel('CO₂ Emissions (MtCO2)')
+    plt.legend(loc='upper right')
+    plt.grid(True)
     plt.show()

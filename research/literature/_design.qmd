@@ -465,7 +465,6 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 air_chart()
 ```
 
-
 ### Health Tracking
 
 EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
@@ -629,7 +628,7 @@ Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) ar
 fast_consumer_goods()
 ```
 
-Rise of e-commerce has pushed logistics companies to increase  delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
+Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
 
 ### Case: Fast Fashion
 
@@ -640,8 +639,6 @@ Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and
 Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion. @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index. [@wikirateSharingDataCreating2022]: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism". Consumer understanding of sustainability is limited. @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
 
 2.4 Trillion USD fashion industry contributing 2%-8% of total global GHG emissions, 100B USD lost to lack of recycling, contributes 9% of microplastics [@adamkiewiczGreenwashingSustainableFashion2022]. [@centobelliSlowingFastFashion2022] Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste. @kohlerCircularEconomyPerspectives2021 Globally 87% of textile products are burned or landfilled after 1st consumer use.
-
-
 
 #### Towards Sustainable Clothes
 
@@ -734,6 +731,8 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 **Fishing**
 
 -   75% of fishing is done using industrial Trawling, which has environmental impact
+
+-   @baileyMappingActorsArguments2020 shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable?
 
 -   Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures [@kimEconomicImpactsEuropean2024]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 
