@@ -810,3 +810,55 @@ def uk_energy_emissions_trend():
     plt.legend(loc='upper right')
     plt.grid(True)
     plt.show()
+
+def econ_history_chart():
+    # Data for the timeline: list of tuples (year, theory)
+    timeline_data = [
+        (1776, "Classical Economics - Adam Smith"),
+        (1817, "Comparative Advantage - David Ricardo"),
+        (1867, "Marxism - Karl Marx"),
+        (1871, "Marginalism - William Stanley Jevons, Carl Menger"),
+        (1890, "Neoclassical Economics - Alfred Marshall"),
+        (1936, "Keynesian Economics - John Maynard Keynes"),
+        (1950, "Monetarism - Milton Friedman"),
+        (1944, "Game Theory - John von Neumann, Oskar Morgenstern"),
+        (1979, "Behavioral Economics - Daniel Kahneman, Amos Tversky"),
+        (1990, "Ecological Economics - Herman Daly"),
+        (2017, "Doughnut Economics - Kate Raworth"),
+        (2015, "Regenerative Capitalism - John Fullerton"),
+        (2003, "Degrowth - Serge Latouche"),
+        (1942, "Creative Destruction - Joseph Schumpeter"),
+        (1960, "Coase Theorem - Ronald Coase"),
+        (1990, "Governing the Commons - Elinor Ostrom"),
+        (1964, "Economics of Human Behavior - Gary Becker"),
+        (1958, "The Affluent Society - John Kenneth Galbraith"),
+        (1980, "Capability Approach - Amartya Sen"),
+        (1944, "Spontaneous Order - Friedrich Hayek"),
+        (2013, "Capital in the Twenty-First Century - Thomas Piketty"),
+        (1956, "Solow Growth Model - Robert Solow"),
+        (1990, "Institutional Economics - Douglass North"),
+        (1990, "Endogenous Growth Theory - Paul Romer"),
+        (1933, "Imperfect Competition - Joan Robinson")
+    ]
+
+    # Separate years and theories for plotting
+    years, theories = zip(*timeline_data)
+
+    # Create the timeline chart
+    plt.figure(figsize=(6, 12))
+    plt.scatter([1] * len(years), years, color='blue', s=100)
+
+    # Add labels for each theory, ensuring no overlap
+    for i, theory in enumerate(theories):
+        plt.text(1.02, years[i], theory, va='center', fontsize=9)
+
+    # Customize the chart
+    plt.xticks([])
+    plt.yticks(years)
+    plt.title("Timeline of Notable Economic Theories and Authors", pad=20)
+    plt.ylabel("Year")
+    plt.grid(True, axis='y', linestyle='--', alpha=0.7)
+
+    # Display the chart
+    plt.tight_layout()
+    plt.show()

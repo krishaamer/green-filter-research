@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -84,7 +84,7 @@ shopping_growth()
 
 -   Is Sustainable Shopping possible? "Learn to notice so we can preserve", "Õpetame märkama, et oskaksime hoida". "Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target?
 
--   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@gklinglmayrSustainableConsumerismSelfRegulation2016]
+-   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
 Make use of indexes to compare companies.
 
@@ -757,7 +757,9 @@ CO2 emissions and GDP growth per capita follow a similar path in the BRICS count
 growth_brics()
 ```
 
-### Econometrics: New Metrics
+### Econometrics
+
+#### New Metrics
 
 *Econometrics* is the art and science of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
 
@@ -777,15 +779,22 @@ There's work ongoing on macroeconomic modeling, aiming to create a *digital twin
 
 -   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
 
-### Econometrics: Pricing Externalities
+#### Pricing Externalities
 
 As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year finds [@trucostNaturalCapitalRisk2023].
 
-Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare".
+Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002].
 
 Prices do not capture all costs. "CONSUMPTION, PRODUCTION, AND INVESTMENT decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]
 
-### Classical Economics vs Ecological Economics
+### Evolution of Economics
+
+```{python}
+econ_history_chart()
+```
+
+
+#### Classical Economics vs Ecological Economics
 
 While Adam Smith is most famous for his concept of the *invisible hand* first appearing in *The Theory of Moral Sentiments* (1759) and further developed in his seminal work *The Wealth of Nations*, published in 1776, his writings also highlight the interdependence of economic actors, who through specialization increase productivity, but also increasingly dependent on each another as well as the role of empathy in individual actions [@atalAdamSmithHis2024].
 
@@ -795,7 +804,7 @@ The biggest point of contention is the necessity of *economic growth*. The found
 
 New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
-### Doughnut Economics and Regenerative Capitalism
+#### Doughnut Economics and Regenerative Capitalism
 
 *Doughnut Economics*, introduced in the eponymous book uses a simple visualization of a doughnut (donut) to help us grasp the big picture of the economy *embedded* inside the physical and social worlds [@raworthDoughnutEconomicsSeven2017]. It allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. The doughnut concept is simple and deep at the same time, a useful as social object to enable starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a *"self-portrait of humanity in the beginning of the 21st century"**.*** Combining the *SDGs (Sustainable Development Goals)* inside the doughnut and the *Planetary Boundaries* (Earth's ecological ceiling) outside the doughnut, leaves a space inside the donut represents a state of equilibrium and balance on spaceship Earth.
 
