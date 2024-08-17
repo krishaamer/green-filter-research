@@ -75,6 +75,7 @@ While technology improves and measurements become more accurate, CO~2~e emission
 -   
 
 -   @matthewgoreEmissionsRegulationsShipping2022 reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008.
+
 -   @verraVerraReleasesRevised2023 Verra new Methodology Announcement Webinar
 
 Emissions production is highly unequal. "The world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%" @ieaWorldTopEmitters2023
@@ -448,7 +449,7 @@ biodiversity_chart()
 
 Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. @wwfForestsReducingEU2022 case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
 
-Meanwhile, there is some progress in biodiversity conservation as "[*b]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"* [@uebtBiodiversityBarometer2022]
+Meanwhile, there is some progress in biodiversity conservation as "\[\*b\]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"\* [@uebtBiodiversityBarometer2022]
 
 **Convention on Biodiversity**
 
@@ -495,8 +496,11 @@ Clean air is a requirement.
 -   Globally, 4.4 billion people only have access to water that's not safe for drinking [@solimanUnacceptableStaggeringBillion2024]
 
 -   Bioswales help catch storm debris and reduce water pollution.
+
 -   Clean water and water pollution
+
 -   @kochOpinionArizonaRace2022 (**Need access! NYC times)**
+
 -   Paris cleans Seine river for Paris Olympics
 
 **Soil Pollution**
@@ -574,24 +578,24 @@ Agroforestry plays an active role in achieving Sustainable Development Goals (SD
 -   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
 -   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
 
-**Technology**
-Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
-
+**Technology** Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
 Geopolitical situations can affect technology adoption; after Russia's war in Ukraine, Europe needed to quickly reduce consuming cheap Russan fossil fuel energy (in the form of gas) [@bonasiaWindSolarEnergy2024]. In 2024, for first time in Europe, renewables in the form of wind and solar energy surged past production of fossil fuels [@grahamWindSolarOvertake2024; @beerWindSolarOvertake2024]
 
 EU energy mix in 2024
+
 ```{python}
 eu_energy_breakdown()
 ```
 
-
 Wind and solar energy overtook fossil energy.
+
 ```{python}
 eu_renewable_vs_fossil()
 ```
 
 Meanwhile reduction in coal-power was also possible. Coal is a large CO2 emitter.
+
 ```{python}
 eu_coal_reduction()
 ```

@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -50,31 +50,17 @@ While the above trend is for governments to adapt to and work towards their envi
 
 #### Shopping Footprint
 
-*Double Eleven* celebrated on November 11th (11/11) is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
+Double Eleven 11/11 celebrated on November 11th is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
 
--   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc. Impossible to turn the tide?
-
--   "Asia is set to account for 50% of the world's total online retail sales"
-
-Projected growth in online shopping [@forresterForresterGlobalOnline2024]
+It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
 
 ```{python}
 shopping_growth()
 ```
 
--   @DecreasingCarbonFootprint2019
+-   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc.
 
--   @sallyparkerWantLowerFood2022
-
--   @BurningBridgesAllbridges
-
--   @emilywaterfieldAppsThatCan2019
-
--   @franklintempletondistributorsincConsumerCloutDriving2021
-
--   @mckinseyRiseInclusiveConsumer2022 Inclusive consumer
-
--   @mckinseyESGEssentialCompanies2022
+-   "Asia is set to account for 50% of the world's total online retail sales"
 
 #### Consumer Activism
 
@@ -108,7 +94,14 @@ A Dutch fintech company Bunq offers payment cards for sustainability, provided b
 
 Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 
-In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eNaira digital currency use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs *"In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account." **\[*****E-Naira find papers\]**
+::: {.content-hidden unless-format="pdf"}
+![Bunq promises to combine banking and eco-friendly actions in the same user interface - yet is this greenwashing?](./images/bunq.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Bunq promises to combine banking and eco-friendly actions in the same user interface" src={Bunq} />
+```
+In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eNaira digital currency use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs *"In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."* **\[E-Naira find papers\]**
 
 In Kenya, M-Pesa started since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability.
 
@@ -127,13 +120,6 @@ There are also people who are concerned with digital payments. There are concern
 
 There are many *neobanks*, or challenger banks, far too many to list. The table only includes a small sample of banks and the landscape is even larger if one includes the wider array of fintechs. Neo-banks often use sustainability marketing.
 
-::: {.content-hidden unless-format="pdf"}
-![Bunq promises to combine banking and eco-friendly actions in the same user interface - yet is this greenwashing?](./images/bunq.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Bunq promises to combine banking and eco-friendly actions in the same user interface" src={Bunq} />
-```
 The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing however, they are mostly only available on the US market.
 
 +---------------+------------------------------------------------------------------------------+--------------+
@@ -175,17 +161,17 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 +---------------+------------------------------------------------------------------------------+--------------+
 | Selma         | Finnish investing app                                                        | EU           |
 +---------------+------------------------------------------------------------------------------+--------------+
-| Monzo         |                                                                              | UK           |
+| Monzo         | Bank                                                                         | UK           |
 +---------------+------------------------------------------------------------------------------+--------------+
-| Nubank        |                                                                              | Brazil       |
+| Nubank        | Bank                                                                         | Brazil       |
 +---------------+------------------------------------------------------------------------------+--------------+
-| EToro         |                                                                              | EU           |
+| EToro         | Investing and copy-investing                                                 | EU           |
 +---------------+------------------------------------------------------------------------------+--------------+
 | Revolut       | From payments to investing                                                   | UK, EU       |
 +---------------+------------------------------------------------------------------------------+--------------+
-| Mos           | Banking for students                                                         |              |
+| Mos           | Banking for students                                                         | US           |
 +---------------+------------------------------------------------------------------------------+--------------+
-| Robinhood     |                                                                              | US           |
+| Robinhood     | Investing                                                                    | US           |
 +---------------+------------------------------------------------------------------------------+--------------+
 | Mintos        | Buy bonds and loans                                                          | EU           |
 +---------------+------------------------------------------------------------------------------+--------------+
@@ -204,14 +190,13 @@ Does Individual Climate Action Matter?
 
 #### Buy Now Pay Later
 
-Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success story innovated by Klarna in Sweden in 2005 and Afterpay in Australia in 2015 but with roots in Layaway Programs created during the 1930's US Great Depression \[kentonWhatLayawayPlan2023\].
+Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success story innovated by Klarna in Sweden in 2005 and Afterpay in Australia in 2015 but with roots in Layaway Programs created during the 1930's US Great Depression [@kentonWhatLayawayPlan2023]. By 2021, 44.1% of Gen-Z in the US had used BNPL according to [@emarketerAlmost75BNPL2021]. Gen-Z mostly use BNPL to buy clothes [@lhvBuyNowPay2024].
 
--   Gen-Z mostly used BNPL to buy clothes.
--   44.1% of Gen-Z in the US had used BNPL in 2022 [@emarketerAlmost75BNPL2021].
 -   ***Design Implication:*** This suggests users are already used to having more options in the payment flow.
--   However @theinfluencerfactoryStatusSocialCommerce2021 suggest Chinese and U.S. markets may be mature and growth will come from emerging markets (SEA, Latin-America); China is the furthest ahead in social shopping.
 
-https://www.emarketer.com/content/almost-75-of-bnpl-users-us-gen-z-millennials https://www.lhv.ee/en/blog/buy-now-pay-later-option-more-popular-than-ever-before
+#### Social Commerce
+
+[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in social shopping, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
 
 ```{python}
 social_commerce_chart()
@@ -219,23 +204,25 @@ social_commerce_chart()
 
 ### Saving
 
+There are two ways to look at sustainable saving. This section is going to look at savings in the financial sense of the word. Savings in the sense of CO2e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
+
+> *Environmental Savings* means *"the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future*" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
+
+#### Saving Money
+
+Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
+
 #### Psychology of Saving
 
 People will only save nature if it also saves money.
 
 -   Nerdwallet's @tommytindallFinancialActionsSpeak2023 suggests making financial commitments instead of resolutions.
 
--   Savings and Investing are conflate into the same chapter because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
+-   Savings and investing are conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
 
 -   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
 
--   "Environmental savings", "means the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future. If there is no way to estimate environmental savings for a particular project, then the amount of" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
-
--   Ethical Savings
-
--   @EthicalSavingsEverything2023
-
--   From building loyalty to building ownership, the first step is to start saving money to invest. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
+-   Ethical Savings [@EthicalSavingsEverything2023]
 
 #### Anthropomorphism
 
@@ -255,13 +242,11 @@ help consumers save money and business increase repeat business. Building custom
 
 -   **The Body Shop** "Return, Recycle, Repeat"
 
-Saving Precedes Investing
-
 Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
 
-There are two ways to look at sustainable savings and this chapter is going to look at both of them. 1) Savings in CO2e emissions 2) Savings in the financial sense of the word.
-
 -   Savings in CO~2~ Equivalent Emissions: CO~2~ savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means. Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet.
+
+#### Saving CO2
 
 ### Investing
 
@@ -741,7 +726,13 @@ University of California also followed suit with divestment of its \$126B USD po
 
 ### Decarbonization Scenarios
 
-The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation - is a topic debated among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling.
+The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation is a topic hotly (pun intended) debated among scientists.
+
+[@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+
+```{python}
+climate_scenarios_chart()
+```
 
 In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
 
@@ -792,7 +783,6 @@ Prices do not capture all costs. "CONSUMPTION, PRODUCTION, AND INVESTMENT decisi
 ```{python}
 econ_history_chart()
 ```
-
 
 #### Classical Economics vs Ecological Economics
 

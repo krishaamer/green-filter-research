@@ -804,7 +804,7 @@ def uk_energy_emissions_trend():
     plt.plot(fuel_emissions['Year'], fuel_emissions['Oil'], label='Oil')
     plt.plot(fuel_emissions['Year'], fuel_emissions['Gas'], label='Gas')
     plt.plot(fuel_emissions['Year'], fuel_emissions['Other solid fuels'], label='Other solid fuels')
-    plt.title('CO₂ Emissions by Fuel Sources (1990-2017)')
+    plt.title('UK CO₂ Emissions by Fuel Sources (1990-2017)')
     plt.xlabel('Year')
     plt.ylabel('CO₂ Emissions (MtCO2)')
     plt.legend(loc='upper right')
@@ -861,4 +861,60 @@ def econ_history_chart():
 
     # Display the chart
     plt.tight_layout()
+    plt.show()
+
+
+def climate_scenarios_chart():
+    # Creating the actual data based on the table "Summary of the main results of the different scenarios"
+    data_real = {
+        'Year': [2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100],
+        'Degrowth_CO2': [580, 500, 400, 300, 250, 200, 150, 100, 50],
+        'IPCC_CO2': [600, 580, 550, 520, 480, 450, 420, 400, 380],
+        'Dec_Extreme_CO2': [577, 540, 500, 460, 420, 380, 340, 300, 260],
+        'Degrowth_Temp': [1.5, 1.45, 1.4, 1.35, 1.3, 1.25, 1.2, 1.15, 1.1],
+        'IPCC_Temp': [1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85, 1.9],
+        'Dec_Extreme_Temp': [1.5, 1.48, 1.45, 1.43, 1.4, 1.37, 1.35, 1.32, 1.3]
+    }
+
+    # Converting to a DataFrame
+    df_real = pd.DataFrame(data_real)
+
+    # Plotting the real CO2 and temperature change pathways
+    fig, ax1 = plt.subplots(figsize=(10, 6))
+
+    # Plotting CO2 emissions for each scenario
+    ax1.plot(df_real['Year'], df_real['Degrowth_CO2'], label='Degrowth CO2', marker='o')
+    ax1.plot(df_real['Year'], df_real['IPCC_CO2'], label='IPCC CO2', marker='o')
+    ax1.plot(df_real['Year'], df_real['Dec_Extreme_CO2'], label='Dec-Extreme CO2', marker='o')
+
+    # Labeling the first y-axis
+    ax1.set_xlabel('Year')
+    ax1.set_ylabel('CO2 Emissions (GtCO2)')
+    ax1.grid(True)
+    ax1.legend(loc='upper left')
+
+    # Creating a secondary axis for temperature change
+    ax2 = ax1.twinx()
+
+    # Plotting temperature change
+    ax2.plot(df_real['Year'], df_real['Degrowth_Temp'], label='Degrowth Temp Change', linestyle='--')
+    ax2.plot(df_real['Year'], df_real['IPCC_Temp'], label='IPCC Temp Change', linestyle='--')
+    ax2.plot(df_real['Year'], df_real['Dec_Extreme_Temp'], label='Dec-Extreme Temp Change', linestyle='--')
+
+    # Adding temperature labels directly on the chart
+    for i, txt in enumerate(df_real['Degrowth_Temp']):
+        ax2.annotate(f'{txt}°C', (df_real['Year'][i], df_real['Degrowth_Temp'][i]), textcoords="offset points", xytext=(0,10), ha='center')
+    for i, txt in enumerate(df_real['IPCC_Temp']):
+        ax2.annotate(f'{txt}°C', (df_real['Year'][i], df_real['IPCC_Temp'][i]), textcoords="offset points", xytext=(0,10), ha='center')
+    for i, txt in enumerate(df_real['Dec_Extreme_Temp']):
+        ax2.annotate(f'{txt}°C', (df_real['Year'][i], df_real['Dec_Extreme_Temp'][i]), textcoords="offset points", xytext=(0,10), ha='center')
+
+    # Labeling the second y-axis
+    ax2.set_ylabel('Temperature Change (°C)')
+    ax2.legend(loc='upper right')
+
+    # Adding a title
+    plt.title('Real CO2 Emissions and Temperature Change Pathways (2020-2100)')
+
+    # Displaying the plot
     plt.show()
