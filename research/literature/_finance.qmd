@@ -358,9 +358,9 @@ While these assets and GDP values reflect different aspects of the global econom
 
 #### Sustainable Investing
 
-While literature has been debating if it's possible to "do well while doing good", latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
+While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
 
-" sustainable investing is now part of mainstream financial strategy" @morganstanleySustainableSignalsIndividual2019
+"sustainable investing is now part of mainstream financial strategy" @morganstanleySustainableSignalsIndividual2019
 
 "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
@@ -373,8 +373,6 @@ Retail investors face many challenges in comparison with their institutional cou
 -   *For young people, investing mostly means buying cryptocurrencies?*
 
 -   Copy-investing is a popular feature of retail investing platforms like EToro
-
--   @irenezhaoHereWhy0xIreneDao2022
 
 -   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
 
@@ -399,6 +397,8 @@ Retail investors face many challenges in comparison with their institutional cou
 -   Encourage impulsive short-term buying and selling with a focus on speculation over fundamentals.
 
 -   Cause FOMO (fear of missing out)
+
+-   Cryto influences @irenezhaoHereWhy0xIreneDao2022
 
 #### Retail Investing Enables Financial Inclusion
 
@@ -436,7 +436,9 @@ Among retail investors, there's some appetite for sustainability however investo
 
 -   Gamestop for climate massively collaborative investing by gen-z?
 
-#### Community Investing Enables Financial Inclusion
+#### Investment Communities
+
+Community Investing Enables Financial Inclusion
 
 -   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
 -   Invetors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
@@ -456,11 +458,15 @@ Among retail investors, there's some appetite for sustainability however investo
 -   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
 -   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
 
-#### Green and Sustainability-Linked Bonds
+#### Traditional Bonds
 
-Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps. Access is not universal and availability depends on the geography of the user and local legislation; for example Revolut, the most downloaded finance app in the EU, only enabled bond investing for European customer in summer 2024 [@revolutRevolutUnlocksBonds2024; @revolutOur2023Annual2024]. Investing in bonds is a form of *Passive Investing* and allows investors focus on low-risk passive income instead of daily stock investing most popular on Robinhood and Revolut - albeit with much less potential for returns.
+Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps.
 
--   @ClimateBondsInitiative2022: Climate Bonds Initiative greening the \$55 trillion short-term debt market
+Access is not universal and availability depends on the geography of the user and local legislation; for example Revolut, the most downloaded finance app in the EU, only enabled bond investing for European customers in summer 2024 [@revolutRevolutUnlocksBonds2024; @revolutOur2023Annual2024]. Investing in bonds is a form of *Passive Investing* and allows investors focus on low-risk passive income instead of daily stock investing most popular on Robinhood and Revolut - albeit with much less potential for returns.
+
+-   Climate Bonds Initiative is working on greening the \$55 trillion short-term debt (bond) market [@ClimateBondsInitiative2022].
+
+#### Green Bonds
 
 *Green bonds* are released by companies, international organizations, and cities to raise money for green transformation, usually for building something to improve sustainability, tied to specific projects. There's a growing global trend in green bond emission, with 257 Billion USD worth of green bonds issued in 2019, expected to reach 1 Trillion USD annually by 2030 [@macaskillThereGreenPremium2021]. That prediction was too low with 870 Billion USD green bond emissions reached already in 2023; currently Europe is the largest emitter of green bonds [@climatebondsClimateBondsInteractive2023]. China has the 2nd largest green bond market in the world and it's growing fast; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@pengManagingFinancingCosts2022; @liWhereGreenBond2022].
 
@@ -471,6 +477,8 @@ Making sure a green bond is truly supporting sustainability is a challenge. For 
 ```{python}
 world_bank_bonds()
 ```
+
+#### Sustainability-Linked Bonds
 
 Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
@@ -724,65 +732,37 @@ University of California also followed suit with divestment of its \$126B USD po
 
 ## Decoupling Economic Growth from Environmental Degradation
 
-### Decarbonization Scenarios
-
-The possibility of decoupling economic growth from CO2 emissions (sometimes called eco-economic decoupling or decarbonizing economies) or even decoupling from environmental degradation is a topic hotly (pun intended) debated among scientists.
-
-[@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
-
-```{python}
-climate_scenarios_chart()
-```
-
-In the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO2e emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
-
-```{python}
-uk_energy_emissions_trend()
-```
-
--   Meanwhile cumulative CO2e emissions trend in the UK in the same timeframe [@globalcarbonbudgetCumulativeCOEmissions2023].
-
-CO2 emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
-
-```{python}
-growth_brics()
-```
-
 ### Econometrics
 
-#### New Metrics
+#### How to Measure the Economy
 
-*Econometrics* is the art and science of measuring the economy. The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934]. GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century @rockoffGoodStartNBER2020. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001]. Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a "dashboard of indicators" [@tedHealthyEconomyShould2018].
+*Econometrics* is the science of measuring the economy.
 
-The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve or upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
+> The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934].
 
-There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021]. @giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index. The award-winning economist Mariana Mazzucato argues in @guptaElectrifyingEconomistGuide2020 we have to include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018].
+GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century [@rockoffGoodStartNBER2020]. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
-There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
+Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a *"dashboard of indicators"* [@tedHealthyEconomyShould2018].
 
--   The Progress Principle is a term coined by Teresa Amabile and Steven Kramer, says people like to see the number go up. @amabileProgressPrincipleUsing2011
+#### Evolution of Economics: New Metrics
 
--   Capital misallocation
-
--   Securitization
-
--   In *intent economics*, could I define what are my expectations towards companies, before I engage in any transactions @searlsIntentionEconomyWhen2012. Old-school businesses only expect me to spend money but I have so many more concerns. I'm human. I'm not just a piece of currency.
-
--   In the context of this study, is it possible to make financial decisions that follow our guidelines and preferences but without moment-to-moment involvement needed so as to save up our precious time?
-
-#### Pricing Externalities
-
-As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year finds [@trucostNaturalCapitalRisk2023].
-
-Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002].
-
-Prices do not capture all costs. "CONSUMPTION, PRODUCTION, AND INVESTMENT decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]
-
-### Evolution of Economics
+The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
 ```{python}
 econ_history_chart()
 ```
+
+There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021].
+
+The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 looking to involve more broad-based metrics in developing their societies[@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022].
+
+@giacaloneWellbeingAnalysisItalian2022 looks at wellbeing of Italian communities and proposes a new composite index.
+
+There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
+
+#### Pricing Externalities
+
+In the simplest sense, prices do not capture all costs. "Consumption, production, and investment decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]. Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002]. As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year [@trucostNaturalCapitalRisk2023]. The award-winning economist Mariana Mazzucato argues in [@guptaElectrifyingEconomistGuide2020] we should include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018] as part of our metrics.
 
 #### Classical Economics vs Ecological Economics
 
@@ -798,7 +778,7 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 *Doughnut Economics*, introduced in the eponymous book uses a simple visualization of a doughnut (donut) to help us grasp the big picture of the economy *embedded* inside the physical and social worlds [@raworthDoughnutEconomicsSeven2017]. It allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. The doughnut concept is simple and deep at the same time, a useful as social object to enable starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a *"self-portrait of humanity in the beginning of the 21st century"**.*** Combining the *SDGs (Sustainable Development Goals)* inside the doughnut and the *Planetary Boundaries* (Earth's ecological ceiling) outside the doughnut, leaves a space inside the donut represents a state of equilibrium and balance on spaceship Earth.
 
-Doughnut Economics Action Labs enable local communities to build local donuts customized to local problems. While the ideas have not yet been implemented on a country-level, smaller scale doughnut economics' success stories have inspired cities to take a comprehensive view of the doughnut of their own city with several EU cities adopting the vision [@teicherDoughnutEconomicsHas2021]. While critics say doughnut economics would expand the role of the government [@horwitzThereHoleMiddle2017], doughnut practitioners in Brussels believe everything can be adapted to the place and context [@oikosdenktankWebinarDoughnutEconomics2021; @brusselsdonutHomeBrusselsDonut2022].
+In some ways this Doughnut Economics can be described as a movement. Doughnut Action Labs enable local communities to build local donuts customized to local problems. While the ideas have not yet been implemented on a country-level, smaller scale doughnut economics' success stories have inspired cities to take a comprehensive view of the doughnut of their own city with several EU cities adopting the vision [@teicherDoughnutEconomicsHas2021]. While critics say doughnut economics would expand the role of the government [@horwitzThereHoleMiddle2017], doughnut practitioners in Brussels believe everything can be adapted to the place and context [@oikosdenktankWebinarDoughnutEconomics2021; @brusselsdonutHomeBrusselsDonut2022].
 
 The city of Amsterdam is developing shorter food chains (which save CO~2e~) and linking residents with food production and reconnecting people to the food which foster collaboration in the community [@circleeconomyKeynoteIlektraKouloumpi2021]. Amsterdam has also built comprehensive dashboards called the Circular Economy Monitor which makes it easy for anyone to see the progress being made towards the Dutch goal to be a circular economy by 2050 [@waterstaatCircularDutchEconomy2019; @gemeenteamsterdamCircularEconomyMonitor2022].
 
@@ -812,21 +792,41 @@ The city of Amsterdam is developing shorter food chains (which save CO~2e~) and 
 
 : From [@circleeconomyKeynoteIlektraKouloumpi2021].
 
-*In his 2015 paper Regenerative Capitalism*, investor, capital markets and derivatives expert John Fullerton builds his economic theory on the ideas of Club of Rome and the Limits to Growth[@meadowsLimitsGrowthReport1972] as well as taking inspiration from R. Buckminster Fuller.
+*In his 2015 paper Regenerative Capitalism*, John Fullerton, an investor and a capital markets and derivatives expert, builds his economic theory on the ideas of Club of Rome and the Limits to Growth [@meadowsLimitsGrowthReport1972] as well as taking inspiration from R. Buckminster Fuller.
 
 > *"Nature is a totally efficient, self-regenerating system. If we discover the laws that govern this system and live synergistically within them, sustainability will follow and humankind will be a success."* [@fullerGrunchGiants1983]
 
 "\[H\]uman civilization is embedded in the biosphere," Fullerton's ideas aim to balance efficiency with resiliency so the whole system doesn't become brittle and break [@johnfullertonJohnFullertonWhen2011; @confinoCapitalismSocialismCould2015; @johnfullertonRegenerativeBusinessPart2022]. While regenerative capitalism recognizes the need for economic growth it also deems "\[t\]he quality of growth matters" [@RegenerativeCapitalismNew2023]. For example, he cites the example of Triodos Bank which already in the 1980s focused on sustainable banking championing responsibility, transparency, and business ethics. A member of the Global Alliance for Banking on Values, Triodos finances projects in nature preservation and restoration [@gabvTriodosBankUK2023].
 
+### Decarbonization Scenarios
+
+The possibility of decoupling economic growth from CO~2e~ emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+
+```{python}
+climate_scenarios_chart()
+```
+
+Looking a the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2e~ emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
+
+```{python}
+uk_energy_emissions_trend()
+```
+
+Meanwhile the cumulative CO~2e~ emissions trend in the UK in the same timeframe show the historic responsibility of UK [@globalcarbonbudgetCumulativeCOEmissions2023].
+
+CO2e emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as in Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
+
+```{python}
+growth_brics()
+```
+
 ## Reducing Greenwashing with Data-Driven Benchmarks
 
 ### The Problem of Greenwashing
 
-Greenwashing is one of the largest blockers of sustainability. Humans feel as if choosing green is useless and give up. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
+Greenwashing is one of the largest blockers of sustainability. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
-Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
-
-EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023.
+Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
 ```{python}
 csrd_timeline()
@@ -840,21 +840,19 @@ In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion
 
 ### Sustainability Standards
 
-There are many standards. [@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+
+-   There are many standards.
 
 -   Most sustainable companies. Make a database?
 
--   @SustainabilityIntelligenceFood
-
--   @OpenFoodFacts app for nutrition and sustainability data
-
 ### Product Databases
+
+In order to consider the sustainability on a product level, there should be a directory of all the world's products.
 
 All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. GS1 is the organization providing EAN/UPC barcodes on most consumer products [@gs1EANUPCBarcodes].
 
 -   @konradA16zCryptoLeads "an internet-wide directory of purchasable products, reminiscent of how the much of the world's music is made available on streaming platform Spotify."
-
--   All the world's product directory
 
 -   @OpenProductData: Open Knowledge Foundation's Open Product Data website shut down
 
@@ -922,7 +920,9 @@ Sustainable Investing is Based on Data. Greenwashing is a large detractor from e
 
 -   Snowflake analysis like Simply Wallstreet
 
--   Improve product ***provenance***, blockchains offer this transparency
+### ESG (Blockchains)
+
+-   Improve product *provenance*, blockchains offer this transparency
 
 ### ESG (Tools)
 
@@ -947,8 +947,6 @@ A systematic meta-review of 153 research papers of ESG literature around the wor
 ```{python}
 esg_vs_board_diversity()
 ```
-
-***Design Implications:*** show the board membership in the app product view.
 
 Board diversity in the TOP 5 companies based on Corporate Knights data [@corporateknightsGlobal1002024].
 
@@ -982,39 +980,37 @@ Research shows certification does matter. In Europe, consumers are willing to pa
 
 ***Design Implications:*** Display certificates.
 
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Type        | Rating System                          | What it does                                                                                                                                                                             |
-+=============+========================================+==========================================================================================================================================================================================+
-|             | B Corporation                          | B Impact Assessment                                                                                                                                                                      |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | ESG                                    |                                                                                                                                                                                          |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Fair Trade                             | -   Fair Trade...                                                                                                                                                                        |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Ranking     | Responsible Business Index             | -   @EstonianResponsibleBusiness Responsible business index                                                                                                                              |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Greenly                                | -   Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023                                                                                                                   |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Science-Based Targets                  | Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements. |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Certificate | Green Web Foundation                   | -   @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.                                                         |
-|             |                                        |                                                                                                                                                                                          |
-|             |                                        | -   Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023                                                                                                                       |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Leafscore for product                  | @leafscoreLeafScoreLeadingOnline2023                                                                                                                                                     |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rating      | Ethical consumer ratings               | @EthicalConsumer                                                                                                                                                                         |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | -   1% For the Planet                  |                                                                                                                                                                                          |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Standard    | -   Climate Neutral Certified Standard |                                                                                                                                                                                          |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | -   Rating Systems:                    |                                                                                                                                                                                          |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Standard    | -   The Conservation Alliance          | -   [@climateneutralcertifiedClimateNeutralStandards2023].                                                                                                                               |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |                                        |                                                                                                                                                                                          |
-+-------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type        | Rating System                      | What it does                                                                                                                                                                             |
++=============+====================================+==========================================================================================================================================================================================+
+| Certificate | B Corporation                      | B Impact Assessment                                                                                                                                                                      |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | ESG                                |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Certificate | Fair Trade                         |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Ranking     | Responsible Business Index         | @EstonianResponsibleBusiness Responsible business index                                                                                                                                  |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Index       | Greenly                            | Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023                                                                                                                       |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Science-Based Targets              | Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements. |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Certificate | Green Web Foundation               | @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.                                                             |
+|             |                                    |                                                                                                                                                                                          |
+|             |                                    | Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023                                                                                                                           |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Leafscore for product              | @leafscoreLeafScoreLeadingOnline2023                                                                                                                                                     |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rating      | Ethical consumer ratings           | @EthicalConsumer                                                                                                                                                                         |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | 1% For the Planet                  |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | Climate Neutral Certified Standard |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | The Conservation Alliance          | [@climateneutralcertifiedClimateNeutralStandards2023].                                                                                                                                   |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Index       | Impakter Sustainability Inde       |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 There are many different certifications
 
@@ -1034,11 +1030,21 @@ Existing rankings
 
 ### ESG Crisis
 
+-   ESG is filled with greenwashing. ESG is a really low bad.
+
+-   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
+
+-   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
+
+-   
+
+<!-- -->
+
 -   metrics and goals: ESG, SDGs,
 
 -   @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
 
--   ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
+-   
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
 
@@ -1048,21 +1054,11 @@ fund_types_chart()
 
 -   ESG risk
 
--   Implication for design: ESG can't be trusted.
-
--   openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
-
--   ESG is filled with greenwashing
-
--   ESG is a really low bad
-
--   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud
-
--   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
+-   
 
 -   ESG greenwashing @baldiRoleESGScoring2022
 
--   ESG companies don't emit less CO2 than non-ESG companies.
+-   ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
 
 [@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
 
@@ -1233,6 +1229,8 @@ Slavery is connected to environmental degradation and climate change [@deckerspa
 +----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                | Investor | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |          | Implication for design: ESG can't be trusted.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
++----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                |          | This applies to both institutional and increasingly retail investors. Sustainable investing is possible due to consumer demand for greener products and services, and new tools such as ESG for measuring sustainable businesses and assets, as well as advancements in large-scale computational technologies to analyze large amounts of tracking data, comparing performance between different assets. Given these developments, might it be possible to create a practical sustainable investing AI advisor for consumers?                                                                                                                                                                                                                                                                                        |
 +----------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                |          | Sustainability is fragmented. How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? Greenwashing is widespread, how can we feel trust, honesty, and transparency? A research project for designing a sustainable shopping, savings, and investing companion.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -1297,7 +1295,7 @@ Features
 +--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |              |          |                                                                                                                                                                                                                                                                  |
 +--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          |                                                                                                                                                                                                                                                                  |
+| Governance   |          | ***Design Implications:*** show company board membership in the app product view.                                                                                                                                                                                |
 +--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |              |          |                                                                                                                                                                                                                                                                  |
 +--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
