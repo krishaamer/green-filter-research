@@ -918,3 +918,64 @@ def climate_scenarios_chart():
 
     # Displaying the plot
     plt.show()
+
+def crypto_pricing_theories():
+    # Data for trends in research focus over time (2015-2022)
+    years_trend = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
+    pricing_theories = [5, 6, 8, 15, 18, 25, 46, 42]
+    forecasting = [2, 3, 6, 10, 15, 21, 35, 30]
+    influence_factors = [1, 2, 4, 7, 12, 18, 28, 32]
+    other_focus = [3, 4, 5, 6, 9, 10, 14, 16]
+
+    # Labels for the focus areas
+    labels = ['Pricing Theories', 'Forecasting', 'Influence Factors', 'Other Focus']
+
+    # Combine the data into an array for the heatmap
+    focus_data = np.array([pricing_theories, forecasting, influence_factors, other_focus])
+
+    # Plot the heatmap
+    plt.figure(figsize=(10, 6))
+    plt.imshow(focus_data, cmap='YlGnBu', aspect='auto', interpolation='nearest')
+
+    # Add colorbar and labels
+    plt.colorbar(label='Number of Publications')
+    plt.xticks(ticks=np.arange(len(years_trend)), labels=years_trend)
+    plt.yticks(ticks=np.arange(len(labels)), labels=labels)
+    plt.title('Heatmap: Research Focus Over Time (2015-2022)')
+    plt.xlabel('Year')
+    plt.ylabel('Research Focus')
+
+    # Show the heatmap
+    plt.show()
+
+def companies_triple_perf():
+    categories_tsr = [
+        "Triple outperformers",
+        "Profit and growth outperformers, ESG laggard",
+        "ESG and growth outperformers, profit laggard",
+        "Profit and ESG outperformers, growth laggard",
+        "Profit, growth, and ESG laggard"
+    ]
+    tsr_values = [7, 5, 3, -1, -5]
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(categories_tsr, tsr_values, marker='o', linestyle='-', color='blue', label="Excess TSR (%)")
+
+    plt.title('Excess TSR for Different Performance Categories')
+    plt.xlabel('Performance Category')
+    plt.ylabel('Excess TSR (%)')
+    plt.xticks(rotation=45, ha="right")
+    plt.tight_layout()
+    plt.show()
+
+def retail_green_vs_nongreen():
+    # Data for investment share
+    invest_share = [44, 56]  # 44% in green, rest non-green
+    labels = ['Green Projects', 'Non-Green Projects']
+    colors = ['#66b3ff', '#ff9999']
+
+    # Creating the Donut Chart (Pie Chart with a hole in the middle)
+    plt.figure(figsize=(6,6))
+    plt.pie(invest_share, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90, wedgeprops={'width': 0.3})
+    plt.title('Investment Share in Green vs Non-Green Projects (Donut Chart)')
+    plt.show()
