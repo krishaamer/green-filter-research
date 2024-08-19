@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "@citation-js/core": "^0.7.14",
-    "@docusaurus/core": "0.0.0-6016",
-    "@docusaurus/mdx-loader": "0.0.0-6016",
-    "@docusaurus/plugin-google-gtag": "0.0.0-6016",
-    "@docusaurus/plugin-ideal-image": "0.0.0-6016",
-    "@docusaurus/plugin-pwa": "0.0.0-6016",
-    "@docusaurus/plugin-sitemap": "0.0.0-6016",
-    "@docusaurus/preset-classic": "0.0.0-6016",
+    "@docusaurus/core": "3.5.2",
+    "@docusaurus/mdx-loader": "3.5.2",
+    "@docusaurus/plugin-google-gtag": "3.5.2",
+    "@docusaurus/plugin-ideal-image": "3.5.2",
+    "@docusaurus/plugin-pwa": "3.5.2",
+    "@docusaurus/plugin-sitemap": "3.5.2",
+    "@docusaurus/preset-classic": "3.5.2",
     "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.1",
     "lottie-react": "^2.4.0",
@@ -28,7 +28,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "0.0.0-6016"
+    "@docusaurus/module-type-aliases": "3.5.2",
+    "@docusaurus/types": "^3.5.2"
   },
   "browserslist": {
     "production": [
