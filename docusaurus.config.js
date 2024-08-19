@@ -57,6 +57,11 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      prism: {
+        // Disable syntax highlighting globally
+        defaultLanguage: "none",
+        additionalLanguages: [],
+      },
       navbar: {
         title: "Green Filter",
         items: [
