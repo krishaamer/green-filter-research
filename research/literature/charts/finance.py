@@ -4,6 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from datetime import datetime
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
 import numpy as np
 import pandas as pd
 import os
@@ -517,7 +519,7 @@ def ck_board_diversity():
         plt.plot(company_data['Year'], -company_data['Rank'], marker='x', linestyle='--', label=f"{company} (Ranking)", color=f"C{i}")
 
     # Setting the title and axis labels
-    plt.title('Connected Dot Plot: Board Diversity and Ranking Trends')
+    plt.title('Board Diversity and Ranking Trends')
     plt.xlabel('Year')
     plt.ylabel('Board Diversity Score (%) and Ranking (Inverted)')
 
@@ -977,7 +979,7 @@ def retail_green_vs_nongreen():
     # Creating the Donut Chart (Pie Chart with a hole in the middle)
     plt.figure(figsize=(6,6))
     plt.pie(invest_share, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90, wedgeprops={'width': 0.3})
-    plt.title('Investment Share in Green vs Non-Green Projects (Donut Chart)')
+    plt.title('Investment Share in Green vs Non-Green Projects')
     plt.show()
 
 def bitcoin_vs_gold_futures():
@@ -1020,4 +1022,86 @@ def bitcoin_vs_gold_futures():
     plt.xticks(rotation=45)
     plt.tight_layout()
 
+    plt.show()
+
+def slavery_laws():
+    # Data for the timeline (years of adoption of modern slavery acts or related laws)
+    countries = [
+        "United Kingdom (Modern Slavery Act)", 
+        "France (Duty of Vigilance Law)", 
+        "United States (CA Trafficking Victims Act)", 
+        "Australia (Modern Slavery Act)", 
+        "Canada (ON Human Trafficking Act)", 
+        "New Zealand (Modern Slavery Bill)",
+        "California (Transparency in Supply Chains Act)", 
+        "European Union (Non-Financial Reporting Directive)", 
+        "Netherlands (Child Labour Due Diligence Act)", 
+        "Germany (Supply Chain Due Diligence Act)", 
+        "Norway (Transparency Act)", 
+        "Brazil (Dirty List Law)", 
+        "Switzerland (Responsible Business Initiative - Rejected)"
+    ]
+    years = [2015, 2017, 2012, 2018, 2017, 2023, 2010, 2014, 2019, 2021, 2021, 2003, 2020]
+
+    # Adding the related UN SDG 8.7 for reference
+    sdg_year = 2015
+    sdg_description = "UN SDG 8.7 (Adopted)"
+
+    # Adjust the countries list to include the SDG at the bottom
+    countries_with_sdg = countries + [sdg_description]
+
+    # Create the updated timeline plot
+    plt.figure(figsize=(10, 8))
+
+    # Plot the countries and years, making the rejected Swiss initiative red
+    for i, (year, country) in enumerate(zip(years, countries)):
+        color = 'red' if "Rejected" in country else 'blue'
+        plt.scatter(year, country, color=color, s=100, zorder=5)
+        plt.text(year + 0.4, i, f"{year}", verticalalignment='center', fontsize=10)  # Adjusting label position slightly more
+
+    # Add the UN SDG 8.7 point in blue
+    plt.scatter(sdg_year, len(countries), color='blue', s=150, zorder=10, label="UN SDG 8.7")
+    plt.text(sdg_year + 0.4, len(countries), f"{sdg_year}", verticalalignment='center', fontsize=10)
+
+    # Add labels and title
+    plt.title('Timeline of Global Modern Slavery Laws', fontsize=14)
+    plt.xlabel('Year of Adoption', fontsize=12)
+    plt.xticks(range(min(years), max(years) + 1, 2))  # Keep only full years on x-axis
+    plt.yticks(range(len(countries_with_sdg)), countries_with_sdg)
+    plt.grid(True, linestyle='--', alpha=0.6)
+
+    # Show the chart
+    plt.tight_layout()
+    plt.show()
+
+def slavery_map():
+    # Create a figure with a global projection (PlateCarree, which shows the whole world)
+    fig = plt.figure(figsize=(12, 6))
+    ax = plt.axes(projection=ccrs.PlateCarree())
+
+    # Add basic map features: land, coastlines, and borders
+    ax.add_feature(cfeature.LAND)
+    ax.add_feature(cfeature.COASTLINE)
+    ax.add_feature(cfeature.BORDERS, linestyle=':')
+
+    # Set global extent to show the entire world
+    ax.set_global()
+
+    # Data for regions and illegal profits
+    data = {
+        "Asia and the Pacific": {"coords": [34.0479, 100.6197], "profits": 62.4},
+        "Europe and Central Asia": {"coords": [50.1109, 8.6821], "profits": 84.2},
+        "Africa": {"coords": [-8.7832, 34.5085], "profits": 19.8},
+        "Americas": {"coords": [37.0902, -95.7129], "profits": 52.1},
+        "Arab States": {"coords": [23.4241, 53.8478], "profits": 18.0},
+    }
+
+    # Add markers and labels for each region
+    for region, info in data.items():
+        ax.plot(info["coords"][1], info["coords"][0], marker='o', color='red', markersize=info['profits'] / 5, transform=ccrs.PlateCarree())
+        plt.text(info["coords"][1] + 7, info["coords"][0] - 2, f"{region}: {info['profits']}B", 
+                transform=ccrs.PlateCarree(), fontsize=12, weight='bold', color='black', bbox=dict(facecolor='white', alpha=0.7))
+
+    # Set title
+    plt.title("Illegal Profits from Forced Labor by Region", fontsize=15)
     plt.show()

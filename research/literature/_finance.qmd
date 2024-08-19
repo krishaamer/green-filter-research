@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -384,25 +384,33 @@ retail_green_vs_nongreen()
 
 #### Influencers
 
+Retail investing also heavily influenced by social media influencers.
+
+Retail investing apps blend entertainment into the UX/UI of investing. For example Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing. Retail investing UI/UX is simplified and gamified, which encourage impulsive short-term buying and selling with a focus on speculation over fundamentals and cause FOMO (fear of missing out).
+
+*Meme stocks* are another aspect of the *entertainmenization* of investing. There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
+
+Community Investing Enables Financial Inclusion
+
+-   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
+-   Investors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
+
+In South Korea,
+
 -   Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
 
--   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok @TikTokItImportantWe
+-   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok [@TikTokItImportantWe].
 
     Influencer - crypto twitter connections
 
--   There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
+-   Cryto influencers like combine beauty with investing @irenezhaoHereWhy0xIreneDao2022
 
--   Entertainmenization of investing
+#### Financial Literacy
 
--   Meme Stocks
+-   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
+-   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
 
--   Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing.
-
--   Encourage impulsive short-term buying and selling with a focus on speculation over fundamentals.
-
--   Cause FOMO (fear of missing out)
-
--   Cryto influences @irenezhaoHereWhy0xIreneDao2022
+Retail investors typically have less financial literacy.
 
 #### Retail Investing Enables Financial Inclusion
 
@@ -440,13 +448,6 @@ Among retail investors, there's some appetite for sustainability however investo
 
 -   Gamestop for climate massively collaborative investing by gen-z?
 
-#### Investment Communities
-
-Community Investing Enables Financial Inclusion
-
--   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
--   Invetors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
-
 #### Financial Ecologies
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
@@ -457,12 +458,7 @@ Community Investing Enables Financial Inclusion
 
 -   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
-#### Financial Literacy
-
--   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
--   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
-
-#### Traditional Bonds
+#### Bonds
 
 Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps.
 
@@ -585,8 +581,6 @@ Crypto investing removes most entry barriers while having high risk. Cryptocurre
 
 Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
-
-
 -   @LetsDeFiDeFi Crypto DeFi education
 
 -   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
@@ -604,7 +598,9 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 **Pricing Crypto**
 
 -   Taiwan bans buying cryptocurrencies with credit card because the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
+
 -   However volatility is relative. Volatile national currencies lead people to find other assets to hold. If your national currency is collapsing, you might find crypto has a relative safe haven to keep your funds.
+
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 
 -   Bitcoin is by far the most popular crypocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
@@ -744,7 +740,7 @@ University of California also followed suit with divestment of its \$126B USD po
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-## Decoupling Economic Growth from Environmental Degradation
+## Economic Growth: Decoupling from Environmental Degradation
 
 ### Econometrics
 
@@ -782,7 +778,7 @@ In the simplest sense, prices do not capture all costs. "Consumption, production
 
 While Adam Smith is most famous for his concept of the *invisible hand* first appearing in *The Theory of Moral Sentiments* (1759) and further developed in his seminal work *The Wealth of Nations*, published in 1776, his writings also highlight the interdependence of economic actors, who through specialization increase productivity, but also increasingly dependent on each another as well as the role of empathy in individual actions [@atalAdamSmithHis2024].
 
-Ecological economics doesn't necessarily argue with the foundation of classical economics, rather ecological economics finds the classical economics model *incomplete,* ignoring the physical limits of natural resources. Ecological economics draws attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources.
+Ecological economics doesn't necessarily argue with the foundation of classical economics, rather ecological economics finds the classical economics model and by extension neoclassical economics are *incomplete,* ignoring the physical limits of natural resources. Ecological economics draws attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources.
 
 The biggest point of contention is the necessity of *economic growth*. The founder of ecological economics Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. More recently.[@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] have expanded on these ideas with recipes for a *post-growth* world, making the ideas seem more tangible and precise, yet mostly untested in the real world.
 
@@ -834,7 +830,7 @@ CO2e emissions and GDP growth per capita follow a similar path in the BRICS coun
 growth_brics()
 ```
 
-## Reducing Greenwashing with Data-Driven Benchmarks
+## Greenwashing: Data-Driven Benchmarks
 
 ### The Problem of Greenwashing
 
@@ -852,13 +848,9 @@ While the EU has proposed legislation to curb greenwashing, EU climate policy it
 
 In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
 
-### Sustainability Standards
+### Corruption
 
-[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
-
--   There are many standards.
-
--   Most sustainable companies. Make a database?
+Put very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
 ### Product Databases
 
@@ -896,18 +888,7 @@ Companies assess customer's credit score to decide credit-worthiness, however in
 
 -   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with.
 
-### **B Corporations**
-
-B Corporations undergo strict assessment and adhere to stringent sustainability practices.
-
--   B Impact Assessment
--   @FindCorp BCorporation listings by country
--   @EtsyMadeMistakes2017
--   @citywealthESGBrandingBCorps2021
--   @SocialEnterprisesCorps
--   @ravenpackCorpMovementESG2021
-
-### ESG Promise: Countering Misinformation with Transparency
+### ESG (Promise): Countering Misinformation with Transparency
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
@@ -926,7 +907,6 @@ msci_esg_leaders()
 
 Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
-
 ```{python}
 companies_triple_perf()
 ```
@@ -939,10 +919,15 @@ companies_triple_perf()
 
 -   Snowflake analysis like Simply Wallstreet
 
-
 ### ESG (Blockchains)
 
 -   Improve product *provenance*, blockchains offer this transparency
+
+-   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
+
+-   @BlockchainCompaniesTeam2021
+
+-   @ganuWhyBlockchainCan2021
 
 ### ESG (Tools)
 
@@ -975,6 +960,25 @@ ck_board_diversity()
 ```
 
 Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+
+### Sustainability Standards
+
+[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+
+-   There are many standards.
+
+-   Most sustainable companies. Make a database?
+
+### B Corporations
+
+B Corporations undergo strict assessment and adhere to stringent sustainability practices.
+
+-   B Impact Assessment
+-   @FindCorp BCorporation listings by country
+-   @EtsyMadeMistakes2017
+-   @citywealthESGBrandingBCorps2021
+-   @SocialEnterprisesCorps
+-   @ravenpackCorpMovementESG2021
 
 ### Indices
 
@@ -1048,7 +1052,7 @@ Existing rankings
 -   Ethical Shopping
 -   @Top100Consumer Largest consumer goods companies
 
-### ESG Crisis
+### ESG (Crisis)
 
 -   ESG is filled with greenwashing. ESG is a really low bad.
 
@@ -1056,15 +1060,11 @@ Existing rankings
 
 -   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
--   
-
 <!-- -->
 
 -   metrics and goals: ESG, SDGs,
 
 -   @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
-
--   
 
 -   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
 
@@ -1073,8 +1073,6 @@ fund_types_chart()
 ```
 
 -   ESG risk
-
--   
 
 -   ESG greenwashing @baldiRoleESGScoring2022
 
@@ -1092,7 +1090,7 @@ conventional_vs_sri_funds()
 
 Three frameworks for corporates to think about ESG complicance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
 
-### ESG Methodologies
+### ESG (Methodologies)
 
 -   ESG Needs Standardisation
 -   Environmental, Social, and Corporate Governance (ESG)
@@ -1105,7 +1103,7 @@ esg_rating_agencies_chart()
 
 -   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
 
-### ESG Language
+### ESG (Language): Shared Language
 
 ESG Becomes a Shared Language.
 
@@ -1128,8 +1126,6 @@ While ESG is riddled with problems, it has started a common language and there a
 -   Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock\[\^6\]. Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance \[\^7\]. However they later backtracked from their decision.
 
 -   Banks are required by law to apply the principle of Know Your Customer (KYC).
-
--   
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
 
@@ -1165,7 +1161,7 @@ While ESG is riddled with problems, it has started a common language and there a
 |                                      |     |     |
 |                                      |     |     |
 
-### ESG (Data Streams): Support Realtime Reporting
+### ESG (Data Streams): Realtime Reporting
 
 -   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
 
@@ -1209,34 +1205,27 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 ### ESG (Social): Slavery Still Exists and How to Trace Worker's Rights
 
-In 2023, an estimated 50 million people are still in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023].
+In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. ILO estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024].
 
-The UN SDG target 8.7 targets to eliminate all forms of slavery.
+```{python}
+slavery_map()
+```
 
--   Modern Slavery Act.
+The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015 [@ukparliamentModernSlaveryAct2024]. The United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020]. [@anandchandrasekharWhySwitzerlandMatters2021] Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"[@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade?
+
+```{python}
+slavery_laws()
+```
 
 Slavery is connected to environmental degradation and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
 
--   @christBlockchainTechnologyModern2021 estimates 20 million people are stuck inside corporate blockchains. The Global Slavery Index measures the ***Import Risk*** of having slavery inside its imports @walkfreeGlobalSlaveryIndex2023.
-
--   @hansvanleeuwenModernSlaveryGrace2023 slavery affects industries from fashion to technology, including sustainability enablers such as solar panels.
-
 -   "commodification of human beings"
-
--   @anandchandrasekharWhySwitzerlandMatters2021: Trading commodities "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates." Can traders have more scrutiny over what they trade?
-
--   
 
 -   Another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
 
     -   @WorkerVoice2022 Worker Voice apps.
     -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 
--   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
-
--   @BlockchainCompaniesTeam2021
-
--   @ganuWhyBlockchainCan2021
 
 ## Design Implications
 

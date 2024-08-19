@@ -40,7 +40,6 @@ The nature-inspired approach was successful. Innovations such as *back-propagati
 growth_compute_chart()
 ```
 
-
 -   How do transformers work? Illustration @alammarIllustratedTransformer2018
 
 By the 2020s, AI-based models became a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023a], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles, including cars, delivery robots, drones in the sea and air, as well as AI-based assistants. The existence of AI models has wide implications for all human activities from personal to professional. The founder of the largest chimp-maker NVIDIA calls upon all countries do develop their own AI-models which would encode their local knowledge, culture, and language to make sure these are accurately captured [@worldgovernmentssummitConversationFounderNVIDIA2024].
@@ -189,7 +188,7 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 The debate between Open Source v.s. Closed-Source AI is ongoing. Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas.
 
 | AI Model | Released | Company | License | Country |
-|------------------|------------------|------------------|-----------|--------|
+|---------------|---------------|---------------|---------------|---------------|
 | GPT-1 | 2018 | OpenAI | Open Source | U.S. |
 | GTP-2 | 2019 | OpenAI | Open Source | U.S. |
 | Turing-NLG | 2020 | Microsoft | Proprietary | U.S. |
@@ -248,7 +247,7 @@ models_rag_performance()
 
 ## Companions
 
-### Affective Computing Enables Human-Friendly Machines
+### Acceptance: Affective Computing Enables Human-Friendly Machines
 
 Rosalind Picard is the founder of the *affective computing* field. Her pioneering work aims to make computers more human-friendly. Because of the conversational nature of LLMs, they are very useful for affective computing, an approach to recognizing human emotions with machines and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
 
@@ -273,7 +272,7 @@ Since the first mainframe computers with rudimentary computers able to respond w
 
 Natural language generation exists since Eliza
 
-### Conversations Are the Starting Point of a Relationship
+### Acceptance: Conversations Are the Starting Point of a Relationship
 
 High quality conversations are somewhat magical in that they can establish trust and build rapport which humans.
 
@@ -293,7 +292,7 @@ ChatGPT makes it possible to *evaluate AI models* just by talking, i.e. having c
 
 -   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
 
-### Multi-Modality: **Natural Interactions** Enhance the Humanity of Artificial Systems
+### Acceptance: **Natural** Multi-Modal **Interactions** Enhance the Humanity of Artificial Systems
 
 Humans are multi-modal creatures by birth. To varied ability, we speak, see, listen using our biological bodies. AIs are becoming multi-modal by design to be able to match all the human modes of communication.
 
@@ -315,7 +314,7 @@ Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartne
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
 
-### Multi-Modality: Speech Makes Computers Feel Real
+### Interfaces: Speech Makes Computers Feel Real
 
 Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
 
@@ -335,7 +334,7 @@ There's evidence across disciplines about the usefulness of AI assistants:
 
 -   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
 
-### **Generative UIs Enable Flexibility of Use**
+### Interfaces: **Generative UIs Enable Flexibility of Use**
 
 Artificial intelligence user experience (AI UX)
 
@@ -432,7 +431,7 @@ There are also more philosophical approaches to ***Interface Studies:*** @davidh
 
 Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies: @Review2023Helsinki2023
 
-### Artificial Empathy Also Builds Trust
+### Acceptance: Artificial Empathy Also Builds Trust
 
 Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is ***AI Friend*** is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
 
@@ -452,7 +451,7 @@ Today's machines are much more capable so it's not a surprise humans would like 
 
 Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses more empathetic than human responses, at times by a significant marring; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]
 
-### Interface: Usability is the Minimum of a Good User Experience
+### Interfaces: Usability is the Minimum of a Good User Experience
 
 Usability sets the baseline but AI-interfaces are capable of more.
 
@@ -585,7 +584,7 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @orozcoBudapestBicycleNetwork2020
 
-### Performing Under High-Stakes Situations
+### Interfaces: Performing Under High-Stakes Situations
 
 -   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024].
 
@@ -638,7 +637,7 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 | Replika  | Avatar, Emotion, Video Call, Audio |
 | Siri     | Audio                              |
 
-### Interface: Human-Computer Interactions Without the "Computer"
+### Interfaces: Human-Computer Interactions Without the "Computer"
 
 AI Affects Human-Computer Interactions
 
@@ -658,7 +657,7 @@ In 2020 (when I proposed this thesis topic), Google had recently launched an imp
 
 Intelligence may be besides the point as long as AI *becomes very good at reasoning*. AI is a *reasoning engine* [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"How do you transition from mass marketing to mass personalization?"*
 
-### Interface: Do AI-Agents Need Anthropomorphism
+### Interfaces: Do AI-Agents Need Anthropomorphism
 
 What are the next features that could improve the next-generation UX/UI of AI-based assistants?
 
@@ -682,7 +681,7 @@ Should AIs look anthropomorphic or fade in the background? It's an open question
 
 -   [@costaInteractionDesignAI2022] "Interaction Design for AI Systems"
 
-### Mediated Experiences Set User Expectations
+### Acceptance: Mediated Experiences Set User Expectations
 
 How AIs are represented in popular media shapes the way we think about AI companions. Some stories have AIs both in positive and negative roles, such as Star Trek and Knight Rider. In some cases like Her and Ex Machina, the characters may be complex and ambivalent rather than fitting into a simple positive or negative box. In Isaac Asimov's books, the AIs (mostly in robot form) struggle with the 3 laws of robotics, raising thought-provoking questions.
 
@@ -716,7 +715,7 @@ There have been dozens of AI-characters in the movies, TV-series, games, and (co
 scifi_chart()
 ```
 
-### Roleplay Fits Computers Into Social Contexts
+### Acceptance: Roleplay Fits Computers Into Social Contexts
 
 Should AIs be required to disclose they are AIs?
 
@@ -801,7 +800,7 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations.
 
-### Roleplay Case: Financial Robo-Advisors
+### Interfaces: Roleplay for Financial Robo-Advisors
 
 *Robo-advisors* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply. Human advisors are very expensive and not affordable for most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*.
 

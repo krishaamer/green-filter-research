@@ -269,7 +269,7 @@ def compare_taiwan_sweden():
     ax.set_yticklabels(yticklabels)
     ax.set_ylabel('Sustainability Items', fontweight='bold')
     ax.set_xlabel('Mean Score', fontweight='bold')
-    ax.set_title('Horizontal Line Chart of Sustainability Consciousness Items\n(Sections by Type)', fontweight='bold')
+    ax.set_title('Sustainability Consciousness: College Students in Taiwan and Sweden', fontweight='bold')
     ax.legend(['Taiwan', 'Sweden'], loc='upper right')
 
     # Display the plot
