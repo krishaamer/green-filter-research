@@ -1,2 +1,5 @@
 bibliography: [../ref.bib]
 csl: ../harvard.csl
+format:
+  html:
+    highlight: false
