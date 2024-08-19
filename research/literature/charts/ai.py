@@ -191,7 +191,7 @@ def growth_compute_chart():
 
     # Load the CSV data
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(script_dir, 'notable_ai_models.csv')
+    file_path = os.path.join(script_dir, 'data', 'notable_ai_models.csv')
     df = pd.read_csv(file_path)
 
     # Convert 'Publication date' to datetime and 'Training compute (FLOP)' to numeric

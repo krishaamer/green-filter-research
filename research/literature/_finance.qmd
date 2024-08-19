@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories
+from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -585,6 +585,8 @@ Crypto investing removes most entry barriers while having high risk. Cryptocurre
 
 Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
+
+
 -   @LetsDeFiDeFi Crypto DeFi education
 
 -   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
@@ -605,11 +607,19 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 -   However volatility is relative. Volatile national currencies lead people to find other assets to hold. If your national currency is collapsing, you might find crypto has a relative safe haven to keep your funds.
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 
-The volatility of the market has notably shifted crypto research towards pricing theories
+-   Bitcoin is by far the most popular crypocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
+
+```{python}
+bitcoin_vs_gold_futures()
+```
+
+The volatility of the markets has notably shifted crypto research towards pricing theories.
 
 ```{python}
 crypto_pricing_theories()
 ```
+
+For example, in X research an index of major sustainability news was compared with crypto prices, which may have negative, positive, or no correlation with the following cryptocurrencies.
 
 **Insitutional Funds Enter Crypto** Crypto ETFs enable people to have exposure to crypto without ever buying cryptocurrencies directly themselves. - @swissinfo.ch/ursSwissCryptoValley2022 "More than half of the Swiss banks plan to offer digital assets services over the next few years." - @BankNewEconomy: Crypto bank - @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse cryptocurrency Sandbox
 

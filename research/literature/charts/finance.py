@@ -7,7 +7,7 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 import os
-script_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
 def money_chart():
 
@@ -427,10 +427,10 @@ def conventional_vs_sri_funds():
 def ck_carbon_productivity():
 
     # Load the CSV files
-    data_2021 = pd.read_csv(os.path.join(script_dir, 'ck-2021.csv'))
-    data_2022 = pd.read_csv(os.path.join(script_dir, 'ck-2022.csv'))
-    data_2023 = pd.read_csv(os.path.join(script_dir, 'ck-2023.csv'))
-    data_2024 = pd.read_csv(os.path.join(script_dir, 'ck-2024.csv'))
+    data_2021 = pd.read_csv(os.path.join(data_dir, 'ck-2021.csv'))
+    data_2022 = pd.read_csv(os.path.join(data_dir, 'ck-2022.csv'))
+    data_2023 = pd.read_csv(os.path.join(data_dir, 'ck-2023.csv'))
+    data_2024 = pd.read_csv(os.path.join(data_dir, 'ck-2024.csv'))
 
     # Add a 'Year' column to each dataframe
     data_2021['Year'] = 2021
@@ -460,10 +460,10 @@ def ck_carbon_productivity():
 def ck_energy_productivity():
 
     # Load the CSV files
-    data_2021 = pd.read_csv(os.path.join(script_dir, 'ck-2021.csv'))
-    data_2022 = pd.read_csv(os.path.join(script_dir, 'ck-2022.csv'))
-    data_2023 = pd.read_csv(os.path.join(script_dir, 'ck-2023.csv'))
-    data_2024 = pd.read_csv(os.path.join(script_dir, 'ck-2024.csv'))
+    data_2021 = pd.read_csv(os.path.join(data_dir, 'ck-2021.csv'))
+    data_2022 = pd.read_csv(os.path.join(data_dir, 'ck-2022.csv'))
+    data_2023 = pd.read_csv(os.path.join(data_dir, 'ck-2023.csv'))
+    data_2024 = pd.read_csv(os.path.join(data_dir, 'ck-2024.csv'))
 
     # Add a 'Year' column to each dataframe
     data_2021['Year'] = 2021
@@ -732,8 +732,8 @@ def msci_esg_leaders():
     # Load the files for MSCI ACWI and MSCI ACWI ESG Leaders data
     # Load both files into separate dataframes
 
-    df_esg_new = pd.read_csv(os.path.join(script_dir, 'acwi-esg.csv'), skiprows=5)
-    df_acwi_new = pd.read_csv(os.path.join(script_dir, 'acwi.csv'), skiprows=5)
+    df_esg_new = pd.read_csv(os.path.join(data_dir, 'acwi-esg.csv'), skiprows=5)
+    df_acwi_new = pd.read_csv(os.path.join(data_dir, 'acwi.csv'), skiprows=5)
 
     # Renaming the columns for clarity
     df_esg_new.columns = ['Date', 'ACWI ESG Leaders']
@@ -795,7 +795,7 @@ def crypto_sustainability():
 def uk_energy_emissions_trend():
     # Assuming fuel_emissions dataset is already loaded
     # Rename the "Fuel Type" column to "Year" for clarity
-    fuel_emissions = pd.read_csv(os.path.join(script_dir, 'uk-energy-type.csv'))
+    fuel_emissions = pd.read_csv(os.path.join(data_dir, 'uk-energy-type.csv'))
     fuel_emissions.rename(columns={'Fuel Type': 'Year'}, inplace=True)
 
     # Plot CO₂ Emissions by Fuel Sources (Gas, Oil, Coal, etc.)
@@ -978,4 +978,46 @@ def retail_green_vs_nongreen():
     plt.figure(figsize=(6,6))
     plt.pie(invest_share, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90, wedgeprops={'width': 0.3})
     plt.title('Investment Share in Green vs Non-Green Projects (Donut Chart)')
+    plt.show()
+
+def bitcoin_vs_gold_futures():
+    # Load the Bitcoin and Gold data files
+    bitcoin_data = pd.read_csv(os.path.join(data_dir, 'bitcoin-spot.csv'))
+    gold_data = pd.read_csv(os.path.join(data_dir, 'gold-futures.csv'))
+
+    # Convert 'Date' columns to datetime
+    bitcoin_data['Date'] = pd.to_datetime(bitcoin_data['Date'], format='%m/%d/%Y')
+    gold_data['Date'] = pd.to_datetime(gold_data['Date'], format='%m/%d/%Y')
+
+    # Sort both datasets by date
+    bitcoin_data = bitcoin_data.sort_values(by='Date')
+    gold_data = gold_data.sort_values(by='Date')
+
+    # Extract relevant columns for comparison: Date and Price
+    bitcoin_prices = bitcoin_data[['Date', 'Price']].copy()
+    gold_prices = gold_data[['Date', 'Price']].copy()
+
+    # Convert Price columns to numeric
+    bitcoin_prices['Price'] = pd.to_numeric(bitcoin_prices['Price'].str.replace(',', ''))
+    gold_prices['Price'] = pd.to_numeric(gold_prices['Price'].str.replace(',', ''))
+
+    # Merge both datasets on Date
+    combined_data = pd.merge(bitcoin_prices, gold_prices, on='Date', how='inner', suffixes=('_Bitcoin', '_Gold'))
+
+    # Calculate percentage change from the initial price for both Bitcoin and Gold
+    combined_data['Pct_Change_Bitcoin'] = (combined_data['Price_Bitcoin'].pct_change()) * 100
+    combined_data['Pct_Change_Gold'] = (combined_data['Price_Gold'].pct_change()) * 100
+
+    # Plot the percentage change
+    plt.figure(figsize=(12, 6))
+    plt.plot(combined_data['Date'], combined_data['Pct_Change_Bitcoin'], label='Bitcoin % Change', color='blue')
+    plt.plot(combined_data['Date'], combined_data['Pct_Change_Gold'], label='Gold % Change', color='gold')
+    plt.xlabel('Date')
+    plt.ylabel('Percentage Change (%)')
+    plt.title('Percentage Change Comparison: Bitcoin vs Gold')
+    plt.legend()
+    plt.grid(True)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+
     plt.show()
