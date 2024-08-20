@@ -32,6 +32,10 @@ compare_ps_epr_ecodesign()
 
 In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependencies contained within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
+R. Buckminster Fuller "Operating Manual for Spaceship Earth", Victor Papanek "Design for the Real World", Jonathan Chapman "Emotionally Durable Design", Carlo Vezzoli "Product-Service System Design for Sustainability", Ezio Manzini "Design, When Everybody Designs".
+
+*Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
+
 ```{python}
 dfs_history()
 ```
@@ -42,35 +46,37 @@ I will start with *Human-Centered Design*, the grandfather of design with attitu
 
 While *Human-Centered Design* focuses exactly on what it says - humans - *Life-Centered Design* recognizes human impact on our surrounding environment as well - making sure we include non-human animals among our stakeholders. This is where we are getting on the *territory* of sustainability. While *Human-Centered Design* is ever popular, the effect humans are having on biodiversity is rarely considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
 
-If we're including *other* lifeforms among our stakeholders, what can we learn from them? *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives un child-like freedom to imagine new worlds.
+If we're including *other* lifeforms among our stakeholders, what can we learn from them? *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s philosophical account advocates for an "inside-out" design pattern, much like natural systems, starting from the smallest structures to guarantee resilience and survival, instead of trying to control their external environment.
 
-*Speculative Design* makes use of future scenarios to envision contexts and interactions of use. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
+In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives un child-like freedom to imagine new worlds.
+
+*Speculative Design* can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021]. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
+
+*Participatory Design* and *Speculative Design* can be complementary as in the work of [@neuhoffFormsParticipatoryFuturing2023], used together to focus on engaging users deep in the design process to truly understand their needs, contexts and interactions on a non-superficial level. For both speculative and participatory design, the cost and makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change.
+
+*Speculative Design* helps us envision future scenarios
 
 Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations, and another.
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough to be sustainable (by reduction of physical impact). Design should look beyond reducing harm and find avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
+Sufficiency
+
 Moving from products and (digital) experiences towards the built environment and architecture, *Climate-Responsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]. The sentiment is echoed by [@leeAestheticsSustainableArchitecture2011] who edited a volume on sustainable approaches of world-renowned architects: *"The principles of sustainable design are rooted in the building’s relationship to the site and its environmental conditions such as topography, vegetation, and climate."*
+
+Architecture of the Well-Tempered Environment [@banhamArchitectureWelltemperedEnvironment1999]
 
 *Designing for Trust*, @weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
 
 *Cradle-to-Cradle Design*, focusing on recyclability of products. @TaiWanSheJiYanJiuYuanTDRIInstagram2021 and @HuoDongTongBeiOuXunHuanSheJiLunTanNordicCircular Cradle to Cradle Nordic circular design in Taiwan
 
-Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s philosophical account advocates for an "inside-out" design pattern, much like natural systems, starting from the smallest structures to guarantee resilience and survival, instead of trying to control their external environment.
-
-*Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
-
 *Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. [@chapmanDesignEmotionalDurability2009] argues in his seminal paper (and later in his book) for *"Emotionally Durable Design"*, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. [@roseEnchantedObjectsInnovation2015] has a similar idea, where *"Enchanted Objects"* become so interlinked with us, we're unlikely to throw them away. This has implications for sustainability as the object is less likely to be thrown away.
 
-As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products. I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I look at a small number of design practices I find relevant to designing a sustainability app for college students.
+As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. There are designers who define / brand themselves by their design method. Design Studies, a field that studies *design* as a subject.
+
+Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products. I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I look at a small number of design practices I find relevant to designing a sustainability app for college students.
 
 than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
-
-There are designers who define / brand themselves by their design method,
-
-Design Studies, a field that studies *design* as a subject.
-
-Architecture of the Well-Tempered Environment [@banhamArchitectureWelltemperedEnvironment1999]
 
 ## Future Scenarios: Avoiding the Worst Cases
 
@@ -81,10 +87,6 @@ In sustainability there are rarely good choices. Rather it's a question of avoid
 *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
 user experience, iteration [@googledesignDesignSpeculativeFutures2019]
-
-Speculative design can help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023]as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021].
-
-*Participatory Design* and Speculative Design can be complementary as in the work of [@neuhoffFormsParticipatoryFuturing2023], used together to focus on engaging users deep in the design process to truly understand their needs on a non-superficial level. For both speculative and participatory design, the cost makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change.
 
 ## In Practice Sustainability Begins in Software
 
@@ -122,7 +124,7 @@ AI-Assisted Design
 -   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
 -   @CharismaStorytellingPowered storytelling by AI
 
-## Data-Driven Design Enables Sustainable Personalizaton at Scale
+## Data-Driven Design: Sustainable Personalization at Scale
 
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
@@ -149,11 +151,11 @@ One mode
 -   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
 -   AI for design: @figmaAINextChapter2023
 
-The concept of ***Social Objects*** is People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
+The concept of *Social Objects*: People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
 
 *Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
--   Product marketers focus on the ***stickiness*** of the product, meaning low attrition, meaning people keep coming back.
+-   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
 -   What percent of all design is "sustainable design" ? Promoting sustainable design.
 -   @joshluberTradingCardsAre2021 Trading cards are cool again
 -   @jesseeinhornNewBalance6502020
@@ -161,9 +163,7 @@ The concept of ***Social Objects*** is People need something to gather around an
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
-*Narrative Design*
-
--   Humans respond well to ***storytelling***, making ***character design*** and ***narrative design*** relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
+*Narrative Design,* Humans respond well to ***storytelling***, making ***character design*** and ***narrative design*** relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
 
 -   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
 
@@ -189,7 +189,7 @@ The concept of ***Social Objects*** is People need something to gather around an
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
 
-## Digital Platform Economy: Growth Leads to Superapps
+## Digital Platform Economy: Growth into Superapps
 
 Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
@@ -256,8 +256,6 @@ Could there be Sustainability Superapps?
 -   Adaptive AI
 
 ### Behavioral Design
-
-Aka Gamification
 
 For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
@@ -340,13 +338,11 @@ Some notable examples:
 
 -   @playingfortheplanetalliancePlayingPlanetAnnual2021
 
--   Gamification makes uses of nudges.
-
--   Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
+-   Aka Gamification. Gamification makes uses of nudges. Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
 
 -   @SpaceApeGames game company going green
 
--   Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
+Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
 +------------+-------------+-------------+--------------------------------------+
 | Year       | Users       | Trees       | Area                                 |
@@ -427,7 +423,7 @@ Sustainability needs to be balanced with privacy.
 
 -   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
-## Self-Monitoring: Personal Health Insights
+## Self-Monitoring Insights
 
 Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
 
@@ -439,13 +435,11 @@ We have a limited carbon budget so calculating CO2e-cost become integrated into 
 
 -   CO2e calculations will be part of our everyday experience
 
--   Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects.
-
 -   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018].
 
 Personal Carbon Trackers
 
-Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
+Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
 +-------------------------+--------------------------------------------------------+
 | App                     | Description                                            |
@@ -648,7 +642,7 @@ fast_consumer_goods()
 
 Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
 
-### Case: Fast Fashion
+### Case: Fashion
 
 Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
 
@@ -734,7 +728,7 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @GoodYouSustainable2023 Ethical brand ratings
 
-### Case: Towards Sustainable Food
+### Case: Food
 
 Re-designing industrial food systems for an increasing global population is a challenge. Supply chain innovation in food industries may enable more transparency. **provenance and traceability of food has implications for sustainability and health.**
 

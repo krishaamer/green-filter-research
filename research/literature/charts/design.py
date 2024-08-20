@@ -101,26 +101,28 @@ def dfs_history():
     # Plot the stacked area chart
     ax.stackplot(years_extended, product_innovation_corrected, product_service_system_extended, spatio_social_extended, socio_technical_system_extended, 
                 labels=[
-                    'Socio-Technical System Innovation',
-                    'Spatio-Social Innovation', 
+                    'Product Innovation Level', 
                     'Product-Service System Innovation',
-                    'Product Innovation Level' 
+                    'Spatio-Social Innovation', 
+                    'Socio-Technical System Innovation'
                 ])
 
     # Repositioning annotations for designers
     ax.text(1955, 0.3, 'Buckminster Fuller\n& Victor Papanek', fontsize=10, color='black', ha='center')
-    ax.text(1990, 0.6, 'Jonathan Lilley\n(Product-Service System)', fontsize=10, color='black', ha='center')
+    ax.text(1990, 0.6, 'Arnold Tukker\n(Product-Service System)', fontsize=10, color='black', ha='center')
     ax.text(2005, 0.95, 'John Chapman\n(Spatio-Social Innovation)', fontsize=10, color='black', ha='center')
+    ax.text(2015, 0.15, '(Socio-Technical System)', fontsize=10, color='black', ha='center')
 
     # Update labels
     ax.set_xlabel('Year')
-    ax.set_ylabel('Innovation Progression')  # Changed from "Development Level"
-    ax.set_title('Evolution of DfS Approaches Over Time (Stacked Area Chart)')
+    ax.set_ylabel('Innovation Levels') 
+    ax.set_title('Evolution of design for sustainability:\nFrom product design to design for system innovations and transitions')
     ax.legend(loc='upper left')
 
     # Show the chart
     plt.tight_layout()
     plt.show()
+
 
 def compare_ps_epr_ecodesign():
     # Define the categories for the radar chart (including proactive vs reactive concepts)
