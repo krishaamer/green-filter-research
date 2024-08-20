@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.design import air_chart
-from charts.design import air_chart, fast_consumer_goods, ant_forest
+from charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -14,19 +14,21 @@ import ResQClub from '../images/resq-club.png'
 ```
 # Design
 
-*Designing for Sustainability* requires a higher level of systems thinking than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
+## Eco-Design: The Legislative Perspective
 
-While there are many design words, X lists over Y design words Specialized Design Fields:, and there are designers who define / brand themselves by their design method, I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I only look at a small number of design practices I find relevant to designing a sustainability app for college students.
+In Europe, *eco-design* has strong political support from the European Union as part of the "Green Deal" set of legislation, aiming to transform European economies towards sustainability. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* setting up ta level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-Design Studies, a field that studies *design* as a subject.
+## How to Design for Sustainability: A Diversity of Approaches
 
-## Eco-Design: Legislative Perspective
+*Designing for Sustainability* *(DfS)* has many names, with subtle differences of emphasis and nuance. While the ESPR regulation chose *Eco-Design* as the overarching title, researchers and practitioners discuss and use *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and many others.
 
-Transformation towards *eco-design* has strong political support from the European Union. The Ecodesign for Sustainable Products Regulation (ESPR) legislation entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal in 2022 whereby the European Commission established a general framework for *"eco-design requirements for sustainable products, repealing rules currently in force which concentrate on energy-related products only,"* thus setting up the standards and a level playing-field for the organizations operating on the EU market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependencies contained within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
-## Design for Sustainability: Prioritizing Useful Approaches
+```{python}
+dfs_history()
+```
 
-While the ESPR regulation chose *Eco-Design* as the overarching terminology, designing for sustainability has many names, with subtle differences of emphasis and nuance. Researchers and practitioners discuss *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and others. In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries with the complex interdependencies within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of main the themes sustainable design and their main contributions and limitations in their well–researched "Evolution of design for sustainability: From product design to design for system innovations and transitions". As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
+As this research is *practice-oriented* (i.e., my goal here is to find design approaches that could provide context for and at the end of the day - influence my prototype), I will refrain myself to looking at some key design fields which I find relevant to my project.
 
 *Human-Centered Design*, the grandfather of design with attitude. There's an ISO standard for human-centered design, with the designated code ISO9241-210, revised as ISO 9241-210:2019 and up for revision as ISO standards are reviewed every 5 years [@2019HumancentredDesignInteractive].
 
@@ -44,13 +46,19 @@ Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s p
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough. Design should look for avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
-*Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from ***service design***, the user journey within an app needs to consider each touchpoint on the way to a state of success.
+*Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such ass cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
 
-*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. [@chapmanDesignEmotionalDurability2009] argues in his seminal paper (and later in his book) for *"Emotionally Durable Design"*, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. [@roseEnchantedObjectsInnovation2015] has a similar idea, where ***"Enchanted Objects"*** become so interlinked with us, we're unlikely to throw them away. This has implications for sustainability as the object is less likely to be thrown away.
+*Durability* is an important dimension for sustainability. High quality durable products are more sustainable as they last longer and less likely to be thrown away. Forming an emotional bond with the product makes it feel more valuable [@zonneveldEmotionalConnectionsObjects2014]. [@chapmanDesignEmotionalDurability2009] argues in his seminal paper (and later in his book) for *"Emotionally Durable Design"*, the simple idea that we hold to things we value and thus they are sustainable. We don't throw away a necklace gifted to us by mom, indeed this object might be passed down for centuries. [@roseEnchantedObjectsInnovation2015] has a similar idea, where *"Enchanted Objects"* become so interlinked with us, we're unlikely to throw them away. This has implications for sustainability as the object is less likely to be thrown away.
 
-As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products.
+As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products. I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I look at a small number of design practices I find relevant to designing a sustainability app for college students.
 
-Architecture of the Well-Tempered Environment @banhamArchitectureWelltemperedEnvironment1999
+than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
+
+There are designers who define / brand themselves by their design method,
+
+Design Studies, a field that studies *design* as a subject.
+
+Architecture of the Well-Tempered Environment [@banhamArchitectureWelltemperedEnvironment1999]
 
 ## Future Scenarios: Avoiding the Worst Cases
 

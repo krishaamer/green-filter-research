@@ -1,4 +1,5 @@
 ```{python}
+from data.attitudes import likert_single_chart
 from data.investing import investment_count, investment_data
 import warnings
 warnings.filterwarnings("ignore")
@@ -6,6 +7,11 @@ warnings.filterwarnings("ignore")
 
 ## Investing
 Student attitudes towards investing.
+
+### Saving and Investing
+```{python}
+likert_single_chart(1)
+```
 
 ### Investing Experience (Overall)
 ```{python}

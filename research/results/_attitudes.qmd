@@ -8,16 +8,6 @@ warnings.filterwarnings("ignore")
 ## College Student Attitudes (Overall)
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
-## Shopping
-```{python}
-likert_single_chart(0)
-```
-
-## Saving and Investing
-```{python}
-likert_single_chart(1)
-```
-
 ## Economy
 ```{python}
 likert_single_chart(2)
@@ -57,4 +47,4 @@ ecosystem_sensitivity()
 
 
 
-Design implication: majority don't plan to buy a house or car within 7 years, don't focus on these categories. Majority don't fly much, don't focus on flights.
+Design implications: majority don't plan to buy a house or car within 7 years, don't focus on these categories. Majority don't fly much, don't focus on flights.

@@ -84,3 +84,40 @@ def ant_forest():
     plt.plot(x_years, y_users, color = "black")
     plt.legend(handles=[mpatches.Patch(color='black', label='Users'), mpatches.Patch(color='green', label='Trees')])
     plt.show()
+
+def dfs_history():
+    # Updated timeline and data to start from the mid-20th century
+    years_extended = [1950, 1980, 1990, 2000, 2010]
+
+    # Corrected data to ensure the lowest area touches the axis
+    product_innovation_corrected = [0, 1, 1, 0.8, 0.6]
+    product_service_system_extended = [0, 0, 0.5, 1, 1]
+    spatio_social_extended = [0, 0, 0, 0.7, 1]
+    socio_technical_system_extended = [0, 0, 0, 0, 1]
+
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plot the stacked area chart
+    ax.stackplot(years_extended, product_innovation_corrected, product_service_system_extended, spatio_social_extended, socio_technical_system_extended, 
+                labels=[
+                    'Socio-Technical System Innovation',
+                    'Spatio-Social Innovation', 
+                    'Product-Service System Innovation',
+                    'Product Innovation Level' 
+                ])
+
+    # Repositioning annotations for designers
+    ax.text(1955, 0.3, 'Buckminster Fuller\n& Victor Papanek', fontsize=10, color='black', ha='center')
+    ax.text(1990, 0.6, 'Jonathan Lilley\n(Product-Service System)', fontsize=10, color='black', ha='center')
+    ax.text(2005, 0.95, 'John Chapman\n(Spatio-Social Innovation)', fontsize=10, color='black', ha='center')
+
+    # Update labels
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Innovation Progression')  # Changed from "Development Level"
+    ax.set_title('Evolution of DfS Approaches Over Time (Stacked Area Chart)')
+    ax.legend(loc='upper left')
+
+    # Show the chart
+    plt.tight_layout()
+    plt.show()

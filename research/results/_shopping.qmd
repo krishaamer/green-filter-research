@@ -1,10 +1,15 @@
 ```{python}
+from data.attitudes import likert_single_chart
 from data.shopping import boycott_count, why_boycott, trusted_brands, visualize_shopping_data
 import warnings
 warnings.filterwarnings("ignore")
 ```
 
 ### Shopping
+
+```{python}
+likert_single_chart(0)
+```
 
 ### Boycott Count (Overall)
 ```{python}
