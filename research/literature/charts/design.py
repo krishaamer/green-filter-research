@@ -121,3 +121,42 @@ def dfs_history():
     # Show the chart
     plt.tight_layout()
     plt.show()
+
+def compare_ps_epr_ecodesign():
+    # Define the categories for the radar chart (including proactive vs reactive concepts)
+    categories = ["End of Life Focus (Reactive)", "Producer Responsibility", "Comprehensive Design (Proactive)"]
+
+    # Assign values for proactive vs reactive comparison (scaled 1 to 5)
+    values_proactive_reactive = {
+        'Product Stewardship': [4, 3, 1],  # More reactive, less proactive
+        'EPR': [4, 4, 2],  # Slightly more proactive, still mostly reactive
+        'Eco-Design': [1, 5, 5],  # Highly proactive, focuses on design and sustainability
+    }
+
+    # Number of variables/categories
+    num_vars = len(categories)
+
+    # Compute angle for each axis
+    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    angles += angles[:1]  # Complete the loop for radar chart
+
+    # Create radar chart with label adjustments
+    fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
+
+    # Plot each line and fill with background for the labels
+    for label, value in values_proactive_reactive.items():
+        stats = value + value[:1]
+        ax.fill(angles, stats, alpha=0.25, label=label)
+        ax.plot(angles, stats, linewidth=2)
+
+    # Set axis labels with better visibility (background and multiple rows)
+    labels = ["End of Life Focus\n(Reactive)", "Producer\nResponsibility", "Comprehensive Design\n(Proactive)"]
+    ax.set_yticklabels([])
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(labels, bbox=dict(facecolor="white", edgecolor="black", boxstyle="round,pad=0.5"))
+
+    # Add title and legend (clean labels)
+    plt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
+
+    # Display the updated chart
+    plt.show()
