@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 #from literature.charts.design import air_chart
-from charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign
+from charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -11,8 +11,13 @@ import Figure from '/src/components/Figure'
 import FlightEmissions from '../images/design/flight-emissions.png'
 import Strava from '../images/design/strava.png'
 import ResQClub from '../images/design/resq-club.png'
+import AbstractDesign from '../images/design/abstract-design.png'
 ```
 # Design
+
+```{=mdx}
+<Figure caption="Visual abstract for the design chapter" src={AbstractFinance} />
+```
 
 ## Eco-Design: The Legislative Perspective
 
@@ -24,11 +29,15 @@ EUDR applies to all products placed on the market from 30 December 2024 and 30 J
 
 ESPR, EUDR
 
-ESRS, CSRD
+ESRS, CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive)
 
 EU "Green Deal" legislative is comprehensive.
 
 ESRS reporting standard to meet CSRD requirements.
+
+```{python}
+eu_green_deal()
+```
 
 Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles. For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\]. While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
 
@@ -100,7 +109,7 @@ In sustainability there are rarely good choices. Rather it's a question of avoid
 
 user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
-## In Practice Sustainability Begins in Software
+### In Practice Sustainability Begins in Software
 
 Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
@@ -201,7 +210,7 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
 
-## Digital Platform Economy: Growth into Superapps
+## Digital Platforms Grow into Superapps
 
 Superapps are the latter stage of the Digital Platform Economy.
 
@@ -491,15 +500,13 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 air_chart()
 ```
 
-### Health Tracking
+### **Health and Fitness Tracking**
 
 EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 
 Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*. The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024].
 
 Use technology Wearables to be more aware of one's health. Example of quantified self device.
-
-### Fitness Tracking
 
 fitness metrics
 

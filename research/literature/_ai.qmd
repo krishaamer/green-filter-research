@@ -13,10 +13,13 @@ import Replika from '../images/ai/with-me.png'
 import ETF from '../images/ai/etfmatic.png'
 import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
+import AbstractAI from '../images/ai/abstract-ai.png'
 ```
 # AI
 
-How can AI interfaces enable/help/encourage sustainability? AI-fying User Interfaces (for Sustainability)
+```{=mdx}
+<Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
+```
 
 ## Human Patterns
 
@@ -29,6 +32,7 @@ In essence, Human Patterns Enable AIs. Already ninety years ago [@mccullochLogic
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
 "Generating structured data from unstructured inputs is one of the core use cases for AI" @pokrassIntroducingStructuredOutputs2024
+How can AI interfaces enable/help/encourage sustainability? AI-fying User Interfaces (for Sustainability)
 
 ### **Reinforcement Learning with Human Feedback (RLHF)**
 

@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
+import networkx as nx
 
 def air_chart():
 
@@ -161,4 +162,74 @@ def compare_ps_epr_ecodesign():
     plt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
 
     # Display the updated chart
+    plt.show()
+
+def eu_green_deal():
+    # Define the edges for the combined mind map
+    combined_edges = [
+        ("European Green Deal", "Fit for 55"),
+        ("European Green Deal", "EUDR"),
+        ("European Green Deal", "ESPR"),
+        ("European Green Deal", "Circular Economy Action Plan"),
+        ("European Green Deal", "Farm to Fork Strategy"),
+        ("European Green Deal", "Biodiversity Strategy 2030"),
+        ("European Green Deal", "EU Climate Law"),
+        ("European Green Deal", "Waste Framework Directive"),
+        ("European Green Deal", "Corporate Sustainability Due Diligence"),
+        ("European Green Deal", "Sustainable Finance (EU Taxonomy)"),
+        ("European Green Deal", "Energy Taxation Directive"),
+        ("European Green Deal", "Carbon Border Adjustment Mechanism"),
+        ("European Green Deal", "EU Emissions Trading System"),
+    ]
+
+    # Initialize the graph for the combined structure
+    G_combined = nx.Graph()
+    G_combined.add_edges_from(combined_edges)
+
+    # Generate the layout for the graph
+    pos_combined = nx.spring_layout(G_combined, seed=42)
+
+    # Define a color scheme for different categories
+    node_colors_combined = {
+        'European Green Deal': 'lightgreen',
+        'Fit for 55': 'lightcoral',
+        'EUDR': 'lightblue',
+        'ESPR': 'lightblue',
+        'Circular Economy Action Plan': 'lightcoral',
+        'Farm to Fork Strategy': 'lightyellow',
+        'Biodiversity Strategy 2030': 'lightyellow',
+        'EU Climate Law': 'lightgreen',
+        'Waste Framework Directive': 'lightcoral',
+        'Corporate Sustainability Due Diligence': 'lightblue',
+        'Sustainable Finance (EU Taxonomy)': 'lightgreen',
+        'Energy Taxation Directive': 'lightcoral',
+        'Carbon Border Adjustment Mechanism': 'lightcoral',
+        'EU Emissions Trading System': 'lightcoral',
+    }
+
+    # Define node border color and edge color
+    node_border_color_combined = 'gray'
+    edge_colors_combined = 'lightgray'
+
+    # Create the combined visualization
+    plt.figure(figsize=(12, 12))
+
+    # Draw the graph with a spring layout to make it visually appealing and incorporate categories
+    nx.draw(
+        G_combined, pos_combined, 
+        with_labels=True, 
+        node_size=4000, 
+        node_color=[node_colors_combined.get(node, 'skyblue') for node in G_combined.nodes()], 
+        font_size=10, 
+        font_weight='bold', 
+        edge_color=edge_colors_combined, 
+        arrowsize=20,
+        linewidths=2,
+        edgecolors=node_border_color_combined,
+    )
+
+    # Adding a title for clarity
+    plt.title("Combined Concept Map of EU Green Deal Regulations and Categories", fontsize=16, fontweight='bold')
+
+    # Show the chart
     plt.show()

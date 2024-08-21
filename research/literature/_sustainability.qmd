@@ -12,8 +12,13 @@ import Humboldt from '/research/images/sustainability/humboldt.jpg';
 import Boundaries from "/research/images/sustainability/planetary-boundaries-2023.png";
 import Carbon from "/research/images/sustainability/co2-concentration.png";
 import EUPolicy from "/research/images/sustainability/eu-policy-context.png";
+import AbstractSustainability from "/research/images/sustainability/abstract-sustainability.png";
 ```
 # Sustainability
+
+```{=mdx}
+<Figure caption="Visual abstract for the sustainability chapter" src={AbstractSustainability} />
+```
 
 *"Nachhaltigkeit"* - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011].
 
