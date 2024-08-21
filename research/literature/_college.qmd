@@ -8,13 +8,17 @@ warnings.filterwarnings("ignore")
 
 ```{=mdx}
 import Figure from "/src/components/Figure";
-import Geneve from "../images/geneve.jpg";
+import Geneve from "../images/college/geneve.jpg";
 ```
-# College Students
+# Students
 
 ## Student Protests Around the World
 
 In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her *Fridays for Future* protests. Time magazine named Thunberg person of the year for *creating a global attitudinal shift.* [@deutschewelleFridaysFutureGlobal2019].
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
+:::
 
 ```{=mdx}
 <Figure
@@ -36,6 +40,16 @@ Willingness too pay research.
 -   @munroSustainableAttitudebehaviorGap2023 shoppers trying to shop sustainably often fail to find sustainable products.
 -   @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition.
 -   @wareGreenSkillsGap2024 British workers lack skills for green transition. (2024 National Environmental Services Survey)
+
+## Credit Cards
+
+- an older study, @i-chengyehDefaultCreditCard2009 provides data from credit card usage from an unnamed "important" bank in Taiwan. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now.
+
+data donated [@misc_default_of_credit_card_clients_350].
+
+
+https://www.semanticscholar.org/paper/The-comparisons-of-data-mining-techniques-for-the-Yeh-Lien/1cacac4f0ea9fdff3cd88c151c94115a9fddcf33
+
 
 ## Taiwanese Education System and Policy Environment
 

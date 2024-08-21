@@ -8,9 +8,9 @@ warnings.filterwarnings("ignore")
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
-import FlightEmissions from '../images/flight-emissions.png'
-import Strava from '../images/strava.png'
-import ResQClub from '../images/resq-club.png'
+import FlightEmissions from '../images/design/flight-emissions.png'
+import Strava from '../images/design/strava.png'
+import ResQClub from '../images/design/resq-club.png'
 ```
 # Design
 
@@ -78,7 +78,7 @@ Here I will use the lens of *sustainability* - another complex term - to look at
 
 than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
 
-## Future Scenarios: Avoiding the Worst Cases
+### Future Scenarios: Avoiding the Worst Cases
 
 In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
 
@@ -88,7 +88,7 @@ In sustainability there are rarely good choices. Rather it's a question of avoid
 
 user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
-## In Practice Sustainability Begins in Software
+## In Practice: Sustainability Begins in Software
 
 Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
@@ -191,6 +191,8 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 ## Digital Platform Economy: Growth into Superapps
 
+Superapps are the latter stage of the Digital Platform Economy.
+
 Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
 Design is as much about how it works as it's about the interface.
@@ -280,7 +282,7 @@ Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoog
 : Examples of CO~2~ visibility in Google's products.
 
 ::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/flight-emissions.png){width="100%"}
+![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -423,7 +425,7 @@ Sustainability needs to be balanced with privacy.
 
 -   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
-## Self-Monitoring Insights
+## Self-Monitoring
 
 Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
 
@@ -524,7 +526,7 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 -   Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
 
 ::: {.content-hidden unless-format="pdf"}
-![Popular Strava sports assistant provides run tracking and feedback](./images/strava.png){width="100%"}
+![Popular Strava sports assistant provides run tracking and feedback](./images/design/strava.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -582,7 +584,9 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 
 : Modes of interaction
 
-## Re-Designing Industries for Circular Economy
+## Re-Designing Industries for Circularity
+
+Circular Economy
 
 We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
@@ -795,6 +799,10 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 **Food Waste**
 
 There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+::: {.content-hidden unless-format="pdf"}
+![ResQ Club saves food waste by selling left-over foods cheaply](./images/design/resq-club.png){width="100%"}
+:::
 
 ```{=mdx}
 <Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
@@ -1014,7 +1022,7 @@ Packaging is a rapidly growing industry which generates large amounts of waste @
 -   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
 -   @SulapacReplacingPlastic
 
-## Designing Digital Product Passports
+### Digital Product Passports
 
 Even though this topic belongs under Circular Economy, I've chose to highlight *digital product passports* here as it's the main design implication from this chapter - an emerging technology which needs to be designed for the user.
 

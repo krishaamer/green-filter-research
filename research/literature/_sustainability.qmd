@@ -8,10 +8,10 @@ warnings.filterwarnings("ignore")
 
 ```{=mdx}
 import Figure from '/src/components/Figure';
-import Humboldt from '/research/images/humboldt.jpg';
-import Boundaries from "/research/images/planetary-boundaries-2023.png";
-import Carbon from "/research/images/co2-concentration.png";
-import EUPolicy from "/research/images/eu-policy-context.png";
+import Humboldt from '/research/images/sustainability/humboldt.jpg';
+import Boundaries from "/research/images/sustainability/planetary-boundaries-2023.png";
+import Carbon from "/research/images/sustainability/co2-concentration.png";
+import EUPolicy from "/research/images/sustainability&eu-policy-context.png";
 ```
 # Sustainability
 
@@ -24,7 +24,7 @@ Defining sustainability perhaps more poetically, the American wildlife ecologist
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
 ::: {.content-hidden unless-format="pdf"}
-![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/humboldt.jpg){width="100%"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/sustainability/humboldt.jpg){width="100%"}
 :::
 
 ```{=mdx}
@@ -33,7 +33,7 @@ Studies of Earth's climate go back for over 200 years, starting with Alexander v
 Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989]. While the scientific case for human-induced climate change was building, it took 120 years after Arrhenius' calculations, until the Paris Climate Agreement in 2016, that countries came to an agreement on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels (defined as 1850–1900)[@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/co2-concentration.png)
+![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png)
 :::
 
 ```{=mdx}
@@ -337,7 +337,7 @@ Atmospheric aerosol loading and the biodiversity intactness index (BII) were qua
 My home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Union, we now in 2024, have also reached high-income status. - @debalieKateRaworthCreating2018 - @houdiniPlanetaryBoundariesAssessment2018 - @haeggmanPlanetaryBoundariesAnalysis2018 - @richardsonEarthSixNine2023
 
 ::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/planetary-boundaries-2023.png){width="100%"}
+![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -737,7 +737,7 @@ A large part of the proposal by [@commissionEcodesignYourFuture2014] is ***eco-d
 -   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
 
 ::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/eu-policy-context.png){width="100%"}
+![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
 :::
 
 ```{=mdx}

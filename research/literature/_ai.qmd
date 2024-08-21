@@ -8,15 +8,16 @@ warnings.filterwarnings("ignore")
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
-import AI from '../images/ai-credibility.png'
-import Replika from '../images/with-me.png'
-import ETF from '../images/etfmatic.png'
-import Runaround from '../images/runaround.png'
-import ChatGPTMedical from '../images/chatgpt-medical.png'
+import AI from '../images/ai/ai-credibility.png'
+import Replika from '../images/ai/with-me.png'
+import ETF from '../images/ai/etfmatic.png'
+import Runaround from '../images/ai/runaround.png'
+import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 ```
-# AI-fying User Interfaces (for Sustainability)
+# AI
 
 How can AI interfaces enable/help/encourage sustainability?
+AI-fying User Interfaces (for Sustainability)
 
 ## Human Patterns
 
@@ -603,7 +604,7 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 -   Example of ChatGPT explaining medical terminology in a blood report.
 
 ::: {.content-hidden unless-format="pdf"}
-![Example of ChatGPT explaining medical terminology in a blood report.](./images/chatgpt-medical.png){width="100%"}
+![Example of ChatGPT explaining medical terminology in a blood report.](./images/ai/chatgpt-medical.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -806,10 +807,10 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. -- Athropomorphism: human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphized robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research**
 
-In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts [@altfiETFmaticAppDownloaded2017]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
+In the early days in Europe, Germany and the United Kingdom led the way with the most robo-advisory usage [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts [ibid]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
 
 ::: {.content-hidden unless-format="pdf"}
-![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/etfmatic.png){width="100%"}
+![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/ai/etfmatic.png){width="100%"}
 :::
 
 ```{=mdx}

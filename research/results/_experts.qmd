@@ -1,11 +1,11 @@
 ```{=mdx}
 import Figure from '/src/components/Figure';
-import SankeyAll from "/research/images/sankey-all.png";
-import SankeyCathy from "/research/images/sankey-cathy.png";
-import SankeyChenying from "/research/images/sankey-chenying.png";
-import SankeyJessica from "/research/images/sankey-jessica.png";
-import SankeyPeijing from "/research/images/sankey-peijing.png";
-import SankeyYuping from "/research/images/sankey-yuping.png";
+import SankeyAll from "/research/images/experts/sankey-all.png";
+import SankeyCathy from "/research/images/experts/sankey-cathy.png";
+import SankeyChenying from "/research/images/experts/sankey-chenying.png";
+import SankeyJessica from "/research/images/experts/sankey-jessica.png";
+import SankeyPeijing from "/research/images/experts/sankey-peijing.png";
+import SankeyYuping from "/research/images/experts/sankey-yuping.png";
 ```
 ## Experts
 
@@ -18,7 +18,7 @@ Date: 2023-11-10 Expert: Cathy Wang is a designer and business leader with 20 ye
 Thematic Analysis.
 
 ::: {.content-hidden unless-format="pdf"}
-![Cathy Wang](./images/sankey-cathy.png){width="100%"}
+![Cathy Wang](./images/experts/sankey-cathy.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -34,7 +34,7 @@ Date: 2023-11-18 Expert: Peijing Li is an accomplished financial controller and 
 Thematic Analysis.
 
 ::: {.content-hidden unless-format="pdf"}
-![Peijing Li](./images/sankey-peijing.png){width="100%"}
+![Peijing Li](./images/experts/sankey-peijing.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -50,7 +50,7 @@ Date: 2023-12-04 Expert: Jessica Cheng is a designer with cross-industry experie
 Thematic Analysis.
 
 ::: {.content-hidden unless-format="pdf"}
-![Jessica Cheng](./images/sankey-jessica.png){width="100%"}
+![Jessica Cheng](./images/experts/sankey-jessica.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -66,7 +66,7 @@ Date: 2024-05-19 Expert: Chen-Ying Huang is an economist and professor at Nation
 Thematic Analysis.
 
 ::: {.content-hidden unless-format="pdf"}
-![Chen-Ying Huang](./images/sankey-chenying.png){width="100%"}
+![Chen-Ying Huang](./images/experts/sankey-chenying.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -84,7 +84,7 @@ Key learnings: "I think you are targeting experts instead of a general consumers
 Thematic Analysis.
 
 ::: {.content-hidden unless-format="pdf"}
-![Yuping Chen](./images/sankey-yuping.png){width="100%"}
+![Yuping Chen](./images/experts/sankey-yuping.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -98,7 +98,7 @@ Thematic Analysis.
 Common topics between all conversations become visible in the overall Sankey Diagram.
 
 ::: {.content-hidden unless-format="pdf"}
-![All](./images/sankey-all.png){width="100%"}
+![All](./images/experts/sankey-all.png){width="100%"}
 :::
 
 ```{=mdx}

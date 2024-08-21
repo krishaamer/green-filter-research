@@ -1,8 +1,8 @@
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 import Figure from '/src/components/Figure'
-import Concepts from '../images/concept-map.png'
-import Methodology from '../images/research-methodology.png'
+import Concepts from '../images/methodology/concept-map.png'
+import Methodology from '../images/methodology/research-methodology.png'
 ```
 # Methodology
 
@@ -82,8 +82,12 @@ Respondents who remained outside the survey parameters were disregarded from the
 
 -   The conceptual framework map (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
 
+::: {.content-hidden unless-format="pdf"}
+![Concept map](./images/methodology/concept-map.png){width="100%"}
+:::
+
 ```{=mdx}
-<Figure caption="Figure 13 - Concept map" src={Concepts} />
+<Figure caption="Concept map" src={Concepts} />
 ```
 Conceptual Model
 
@@ -122,6 +126,10 @@ A focus group of 6 to 10 people will be gathered in Tainan. Because in-person pr
 **Method:** Focus Group The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
 
 **Method:** Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
+
+::: {.content-hidden unless-format="pdf"}
+![Overview of research methodology](./images/methodology/research-methodology.png){width="100%"}
+:::
 
 ```{=mdx}
 <Figure caption="Overview of research methodology" src={Methodology} />

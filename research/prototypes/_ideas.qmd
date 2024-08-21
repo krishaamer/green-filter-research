@@ -1,8 +1,8 @@
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 import Figure from '/src/components/Figure'
-import Watch from '../images/ai-watch.png'
-import Susan from '../images/susan-pink-app.png'
+import Watch from '../images/prototypes/ai-watch.png'
+import Susan from '../images/prototypes/susan-pink-app.png'
 ```
 # Early Feature Ideas
 
@@ -28,7 +28,7 @@ https://scontent.ftpe6-1.fna.fbcdn.net/v/t39.8562-6/333078981_693988129081760_47
 provides many examples conversations between AI and humans from Meta's LLAMA mmodel
 
 ::: {.content-hidden unless-format="pdf"}
-![Early prototype of my Sustainable Finance AI Companion (Nov. 2020)](./images/susan-pink-app.png){width="50%"}
+![Early prototype of my Sustainable Finance AI Companion (Nov. 2020)](./images/prototypes/susan-pink-app.png){width="50%"}
 :::
 
 ```{=mdx}

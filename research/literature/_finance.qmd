@@ -8,9 +8,9 @@ warnings.filterwarnings("ignore")
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
-import Bunq from '../images/bunq.jpg'
+import Bunq from '../images/finance/bunq.jpg'
 ```
-# Sustainable Finance
+# Finance
 
 ## The Journey from Consumer to Investor: Democratization of Financial Markets
 
@@ -95,7 +95,7 @@ A Dutch fintech company Bunq offers payment cards for sustainability, provided b
 Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new interaction dynamic in a familiar context (card payments), enabling customers to effortlessly contribute to sustainability. However, it lacks the level of gamification which makes Alibaba's offering so addictive, while also not differentiating between the types of purchases the consumer makes, in terms of the level of eco-friendliness.
 
 ::: {.content-hidden unless-format="pdf"}
-![Bunq promises to combine banking and eco-friendly actions in the same user interface - yet is this greenwashing?](./images/bunq.jpg){width="100%"}
+![Bunq promises to combine banking and eco-friendly actions in the same user interface - yet is this greenwashing?](./images/finance/bunq.jpg){width="100%"}
 :::
 
 ```{=mdx}
@@ -179,6 +179,7 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 : Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
 
 -   @andresenglerBerkshireHathawayInvests2022
+-   DUB, another copy-trading app: https://apps.apple.com/us/app/dub-copy-trade-anyone/id1598920501?mt=8
 -   Nubanks, also known as challenger banks.
 -   @marisaadangilCriptomoedasVaoAcabar2022
 -   @caiojobimBitcoinFalhouCriptomoedas2022
@@ -831,6 +832,13 @@ growth_brics()
 ```
 
 ## Greenwashing: Data-Driven Benchmarks
+
+### Anti-greenwashing efforts in Taiwan
+
+-   https://gcaa.org.tw/10468/
+-   https://esg.fsc.gov.tw/SinglePage/Product/
+-   https://cgc.twse.com.tw/frontEN/aboutCorp21t23
+
 
 ### The Problem of Greenwashing
 
