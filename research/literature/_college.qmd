@@ -43,13 +43,11 @@ Willingness too pay research.
 
 ## Credit Cards
 
-- an older study, @i-chengyehDefaultCreditCard2009 provides data from credit card usage from an unnamed "important" bank in Taiwan. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now.
+-   an older study, @i-chengyehDefaultCreditCard2009 provides data from credit card usage from an unnamed "important" bank in Taiwan. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now.
 
 data donated [@misc_default_of_credit_card_clients_350].
 
-
 https://www.semanticscholar.org/paper/The-comparisons-of-data-mining-techniques-for-the-Yeh-Lien/1cacac4f0ea9fdff3cd88c151c94115a9fddcf33
-
 
 ## Taiwanese Education System and Policy Environment
 
@@ -93,7 +91,7 @@ compare_taiwan_sweden()
 
 An older study in 5 university in Taipei and Taichung (n=255) found 78.04% of respondents consumed beef in the month prior and were concerned with food safety, freshness, and quality [@hsuEffectFamilyBeef2014]. [@thiagarajahPlantbasedDietsWhat2017] reports a general observation in their abstract (I was unable to access the full study) that most college students in all observed countries including Taiwan (n=534) regarded "*plant-based diets to have health benefits"*.
 
-## The Effect of Climate Change  on Taiwan
+## The Effect of Climate Change on Taiwan
 
 Taiwan has been affected by drought over 4 decades, rising temperatures and altered rainfall patterns, impacting water security and semiconductor manufacturing​[@voFourdecadeSpringDroughts2024]. Corals surrounding Taiwan are affected by marine heatwaves, ocean acidification and increased sea surface temperature affects coral bleaching level [@hsuInvestigationKuroshiocoastalCurrent2024]. Biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021]. Taiwan is affected by Kuroshio (黑潮) like Estonia is affected by the Gulf Stream. Both oceanic currents help regulate the climates of their respective regions and marine ecosystems. Kuroshio is a warm current of the Pacific Ocean. Rossby planetary waves driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Around 33% of Taiwanese CO2e emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
 
@@ -133,12 +131,11 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 
 : Data from [@alanasemuelsWorldMostSustainable2024].
 
-Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and  Taiwan High Speed Rail Corp and 	Giant Manufacturing Co Ltd since 2023. [@corporateknightsGlobal1002024]
+Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp and Giant Manufacturing Co Ltd since 2023. [@corporateknightsGlobal1002024]
 
 ```{python}
 taiwanese_company_ranking_chart
 ```
-
 
 ## Online Shopping Trends in Taiwan
 
@@ -153,7 +150,7 @@ company_rank_chart()
 
 ### Gen-Z in Other Countries
 
--   In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data https://www.mckinsey.com/~/media/mckinsey/email/genz/2022/06/07/2022-06-07b.html
+-   In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data https://www.mckinsey.com/\~/media/mckinsey/email/genz/2022/06/07/2022-06-07b.html
 
 -   [@manchandaCultivatingSustainabilityConsciousness2023] survey (n=726) administered at shopping malls in New Delhi, India, found similar levels of sustainability consciousness between Millenial (n=206) and Generation-Z (n=360) age groups; people with high level of materialism were found to be less sustainability-conscious; the effect of mindfulness on sustainability was found to be stronger among females than males, supporting the hypothesis of the moderating effect of gender.
 
@@ -259,13 +256,11 @@ The focus on *group consciousness* suggests community-based sustainability actio
 
 ***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
 
-***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021].
-- consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
+***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021]. - consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
 
 What are the building blocks of a thriving community?
 
-***Luxury***
--   Conversely, Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
+***Luxury*** - Conversely, Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
 
 ### Empowerment
 
@@ -274,7 +269,6 @@ What are the building blocks of a thriving community?
 ### Trends and Memes
 
 -   2024 "underconsumption" and "deinfluencing" are trends on TikTok @faresHowTikTokUnderconsumption2024
-
 
 -   <https://www.tiktok.com/search?q=underconsumption>
 
@@ -386,28 +380,28 @@ Environment shapes action.. create an environment where college students can inf
 
 ## Feature Ideas
 
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|           | The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before. |
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|           | -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).                                     |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   I was unable to find similar research on university and post-graduate level students in Taiwan.                                                                                                                                                      |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].                                                                                                                                                                              |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   College students in tourism and related fields . and sustainability                                                                                                                                                                                  |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   Consumers may be turned off by mentioning AI in product description. @cicekAdverseImpactsRevealing2024                                                                                                                                               |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   Progress in other areas of environmental protection has not made similar progress.                                                                                                                                                                   |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   There are documentaries about oil product                                                                                                                                                                                                            |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   Plastic production documentary                                                                                                                                                                                                                       |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   I've seen several.. find and cite them to show the progression of the environmental movement in Taiwan ADD CITATION                                                                                                                                  |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   The Taiwanese Green party                                                                                                                                                                                                                            |
-|           |                                                                                                                                                                                                                                                          |
-|           | -   Contact SOAS?                                                                                                                                                                                                                                        |
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|         | The current environmental upheaval, led by Gen-Z and Millennials, and the business adaptation (or lack thereof) to sustainable economic models, taking into account the hidden social and environmental costs we didn't calculate in our pricing before. |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|         | -   We also need to consider environmental effects (E in ESG). We haven't taken into account the whole cost of production, leading to the wrong pricing information. To achieve this, we need expert governance (G).                                     |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   I was unable to find similar research on university and post-graduate level students in Taiwan.                                                                                                                                                      |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   Taiwanese college students and SDGs [@hoImportancePerformanceSDGs2022].                                                                                                                                                                              |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   College students in tourism and related fields . and sustainability                                                                                                                                                                                  |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   Consumers may be turned off by mentioning AI in product description. @cicekAdverseImpactsRevealing2024                                                                                                                                               |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   Progress in other areas of environmental protection has not made similar progress.                                                                                                                                                                   |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   There are documentaries about oil product                                                                                                                                                                                                            |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   Plastic production documentary                                                                                                                                                                                                                       |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   I've seen several.. find and cite them to show the progression of the environmental movement in Taiwan ADD CITATION                                                                                                                                  |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   The Taiwanese Green party                                                                                                                                                                                                                            |
+|         |                                                                                                                                                                                                                                                          |
+|         | -   Contact SOAS?                                                                                                                                                                                                                                        |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

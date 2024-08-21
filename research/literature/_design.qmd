@@ -18,6 +18,18 @@ import ResQClub from '../images/design/resq-club.png'
 
 In Europe, *eco-design* has strong political support as part of the European Union's (EU) "Green Deal" legislation, aiming to transform European economies towards sustainability. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
+Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability.
+
+EUDR applies to all products placed on the market from 30 December 2024 and 30 June 2025 for small businesses.
+
+ESPR, EUDR
+
+ESRS, CSRD
+
+EU "Green Deal" legislative is comprehensive.
+
+ESRS reporting standard to meet CSRD requirements.
+
 Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles. For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\]. While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
 
 The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart below. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product lifecycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), Eco-Design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
@@ -88,7 +100,7 @@ In sustainability there are rarely good choices. Rather it's a question of avoid
 
 user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
-## In Practice: Sustainability Begins in Software
+## In Practice Sustainability Begins in Software
 
 Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
