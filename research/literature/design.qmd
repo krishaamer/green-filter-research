@@ -9,5 +9,9 @@ CJKoptions:
   - BoldFont=STHeiti
   - ItalicFont=STKaiti
 ---
+```{python}
+import sys
+sys.path.append('..')
+```
 
 {{< include "_design.qmd" >}}

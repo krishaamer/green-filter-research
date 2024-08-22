@@ -1,7 +1,6 @@
 ```{python}
 #| echo: false
-#from literature.charts.ai import models_chart
-from charts.ai import models_chart, scifi_chart, growth_compute_chart, models_rag_performance
+from literature.charts.ai import models_chart, scifi_chart, growth_compute_chart, models_rag_performance
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -122,7 +121,7 @@ There's an increasing number of tools for LLM evaluation:
 The AI Credibility Heuristic: A Systematic Model explains how... similar to Daniel Kahneman's book "Thinking, Fast and Slow".
 
 ::: {.content-hidden unless-format="pdf"}
-![Heuristic-Systematic Model of AI Credibility](./images/ai-credibility.png){width="100%"}
+![Heuristic-Systematic Model of AI Credibility](./images/ai/ai-credibility.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -774,7 +773,7 @@ The Oxford Internet Institute defines AI simply as ***"computer programming that
 | Perplexity | @hinesPerplexityAnnouncesAI2023 | perplexity.ai chat-based search |
 
 ::: {.content-hidden unless-format="pdf"}
-![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/with-me.png){width="100%"}
+![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
 :::
 
 ```{=mdx}

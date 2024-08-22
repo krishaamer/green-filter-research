@@ -1,7 +1,6 @@
 ```{python}
 #| echo: false
-#from literature.charts.college import company_rank_chart
-from charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
+from literature.charts.college import company_rank_chart, genz_students_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -36,7 +35,7 @@ Willingness too pay research.
 
 ## The Attitude-Behavior Gap
 
-A large-scale global study by [@anthonyleiserowitzInternationalPublicOpinion2022] on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+A large-EUPolicyscale global study by [@anthonyleiserowitzInternationalPublicOpinion2022] on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 |           |       |                     |
 |-----------|-------|---------------------|

@@ -5,5 +5,9 @@ editor:
     render-on-save: false
 suppress-bibliography: true
 ---
+```{python}
+import sys
+sys.path.append('..')
+```
 
 {{< include "_sustainability.qmd" >}}

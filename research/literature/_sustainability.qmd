@@ -1,9 +1,9 @@
 ```{python}
 #| echo: false
-#from literature.charts.sustainability import biodiversity_chart
-from charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, eu_coal_reduction
 import warnings
 warnings.filterwarnings("ignore")
+
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, eu_coal_reduction
 ```
 
 ```{=mdx}

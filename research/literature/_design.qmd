@@ -1,7 +1,6 @@
 ```{python}
 #| echo: false
-#from literature.charts.design import air_chart
-from charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -22,6 +21,15 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ## Eco-Design: The Legislative Perspective
 
 In Europe, *eco-design* has strong political support as part of the European Union's (EU) "Green Deal" legislative strategy, aiming to transform European economies into sustainability leaders. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+
+Eco-Design is a Key EU Sustainable Policy Design Tool. A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process.
+
+|            |                   |                    |
+|------------|-------------------|--------------------|
+| Quality    |                   |                    |
+| Durable    | Reparable         | Easy to recycle    |
+| Reusable   | Easy to maintain  | Energy efficient   |
+| Upgradable | Easy to refurbish | Resource efficient |
 
 Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability.
 
@@ -46,7 +54,7 @@ It's up to legislators to provide sustainable products on our marketplace... but
 -   @imanghoshMappedWhereAre2020
 -   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
 -   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
--   @rajagopalanInflationReductionAct2023: In the US, the *Inflation Reduction Act* provides funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices.
+-   In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023].
 
 ```{python}
 eu_green_deal()
@@ -59,17 +67,6 @@ The key to comparing Product Stewardship, Extended Producer Responsibility (EPR)
 ```{python}
 compare_ps_epr_ecodesign()
 ```
-
-**Eco-Design is a Key EU Sustainable Policy Design Tool**
-
-A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process.
-
-|            |                   |                    |
-|------------|-------------------|--------------------|
-| Quality    |                   |                    |
-| Durable    | Reparable         | Easy to recycle    |
-| Reusable   | Easy to maintain  | Energy efficient   |
-| Upgradable | Easy to refurbish | Resource efficient |
 
 ## Political Action
 
@@ -85,8 +82,6 @@ There's ample evidence from several countries suggesting moving to renewal energ
 -   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
-
--   The true cost of products is hidden. The work is hidden.
 
 -   Montreal protocol eradicates CfCs and the ozone holes became whole again.
 

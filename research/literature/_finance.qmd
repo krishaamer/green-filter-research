@@ -1,7 +1,6 @@
 ```{python}
 #| echo: false
-#from literature.charts.money import money_chart
-from charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map
+from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -349,7 +348,7 @@ money_chart()
 | GDP of Estonia (2023, per year)                                                         | \$0.04T    |
 +-----------------------------------------------------------------------------------------+------------+
 
-: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @IMFWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
+: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
 
 While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support.
 
@@ -745,9 +744,7 @@ University of California also followed suit with divestment of its \$126B USD po
 
 -   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
-## Economic Growth: Decoupling from Environmental Degradation
-
-### Econometrics
+## Econometrics: Decoupling Economic Growth from Environmental Degradation
 
 #### How to Measure the Economy
 
@@ -758,6 +755,8 @@ University of California also followed suit with divestment of its \$126B USD po
 GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century [@rockoffGoodStartNBER2020]. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
 Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a *"dashboard of indicators"* [@tedHealthyEconomyShould2018].
+
+-   The true cost of products is hidden. The work is hidden.
 
 #### Evolution of Economics: New Metrics
 
@@ -837,6 +836,30 @@ growth_brics()
 
 ## Greenwashing: Data-Driven Benchmarks
 
+### The Problem of Greenwashing
+
+Greenwashing is one of the largest blockers of sustainability. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
+
+Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
+
+```{python}
+csrd_timeline()
+```
+
+Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is ramped up (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
+
+While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
+
+In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
+
+### Sustainability Standards
+
+[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+
+-   There are many standards.
+
+-   Most sustainable companies. Make a database?
+
 ### Anti-greenwashing efforts in Taiwan
 
 -   https://gcaa.org.tw/10468/
@@ -856,22 +879,6 @@ What data should be surfaced to the consumer?
 Supply Chain Mapping
 
 Transaction Traceability
-
-### The Problem of Greenwashing
-
-Greenwashing is one of the largest blockers of sustainability. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
-
-Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
-
-```{python}
-csrd_timeline()
-```
-
-Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. Until new legislation is ramped up (2030 in the EU), building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
-
-While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
-
-In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
 
 ### Corruption
 
@@ -912,6 +919,96 @@ Companies assess customer's credit score to decide credit-worthiness, however in
 -   @francesschwartzkopffFirmsArenReporting2022 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
 
 -   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with.
+
+### Indices
+
+Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
+
+Based on Corporate Knights data [@corporateknightsGlobal1002024]
+
+Energy productivity
+
+```{python}
+ck_energy_productivity()
+```
+
+Carbon productivity
+
+```{python}
+ck_carbon_productivity()
+```
+
+### Certification
+
+Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
+
+***Design Implications:*** Display certificates.
+
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type        | Rating System                      | What it does                                                                                                                                                                             |
++=============+====================================+==========================================================================================================================================================================================+
+| Certificate | B Corporation                      | B Impact Assessment                                                                                                                                                                      |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | ESG                                |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Certificate | Fair Trade                         |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Ranking     | Responsible Business Index         | @EstonianResponsibleBusiness Responsible business index                                                                                                                                  |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Index       | Greenly                            | Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023                                                                                                                       |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Science-Based Targets              | Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements. |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Certificate | Green Web Foundation               | @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.                                                             |
+|             |                                    |                                                                                                                                                                                          |
+|             |                                    | Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023                                                                                                                           |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | Leafscore for product              | @leafscoreLeafScoreLeadingOnline2023                                                                                                                                                     |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rating      | Ethical consumer ratings           | @EthicalConsumer                                                                                                                                                                         |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             | 1% For the Planet                  |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | Climate Neutral Certified Standard |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Standard    | The Conservation Alliance          | [@climateneutralcertifiedClimateNeutralStandards2023].                                                                                                                                   |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Index       | Impakter Sustainability Inde       |                                                                                                                                                                                          |
++-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+There are many different certifications
+
+-   @EthicalConsumer
+
+-   sustainable brands
+
+-   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
+
+Existing rankings
+
+-   @earth.orgWorld50Most2022
+-   @staff2021Global1002021
+-   Fashion brand ratings
+-   Ethical Shopping
+-   @Top100Consumer Largest consumer goods companies
+
+### B Corporations
+
+B Corporations undergo strict assessment and adhere to stringent sustainability practices.
+
+-   B Impact Assessment
+
+-   @FindCorp BCorporation listings by country
+
+-   @EtsyMadeMistakes2017
+
+-   @citywealthESGBrandingBCorps2021
+
+-   @SocialEnterprisesCorps
+
+-   @ravenpackCorpMovementESG2021
+
+## ESG
 
 ### ESG (Promise): Countering Misinformation with Transparency
 
@@ -985,97 +1082,6 @@ ck_board_diversity()
 ```
 
 Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
-
-### Sustainability Standards
-
-[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
-
--   There are many standards.
-
--   Most sustainable companies. Make a database?
-
-### B Corporations
-
-B Corporations undergo strict assessment and adhere to stringent sustainability practices.
-
--   B Impact Assessment
--   @FindCorp BCorporation listings by country
--   @EtsyMadeMistakes2017
--   @citywealthESGBrandingBCorps2021
--   @SocialEnterprisesCorps
--   @ravenpackCorpMovementESG2021
-
-### Indices
-
-Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
-
-Based on Corporate Knights data [@corporateknightsGlobal1002024]
-
-Energy productivity
-
-```{python}
-ck_energy_productivity()
-```
-
-Carbon productivity
-
-```{python}
-ck_carbon_productivity()
-```
-
-### Certification
-
-Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
-
-***Design Implications:*** Display certificates.
-
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Type        | Rating System                      | What it does                                                                                                                                                                             |
-+=============+====================================+==========================================================================================================================================================================================+
-| Certificate | B Corporation                      | B Impact Assessment                                                                                                                                                                      |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | ESG                                |                                                                                                                                                                                          |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Certificate | Fair Trade                         |                                                                                                                                                                                          |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Ranking     | Responsible Business Index         | @EstonianResponsibleBusiness Responsible business index                                                                                                                                  |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Index       | Greenly                            | Greenly Decarborization Index @greenlyGreenlyIntroducesClimate2023                                                                                                                       |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Science-Based Targets              | Science-Based Targets initiative (SBTi) provides step-by–step guidance per economic sector help companies get started with meeting climate criteria and emission reduction requirements. |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Certificate | Green Web Foundation               | @GreenWebFoundation2023 For example, the Green Web Foundation certifies how sustainable is the web hosting used by websites.                                                             |
-|             |                                    |                                                                                                                                                                                          |
-|             |                                    | Testing website CO~2~ emissions @wholegraindigitaHowDoesIt2023                                                                                                                           |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | Leafscore for product              | @leafscoreLeafScoreLeadingOnline2023                                                                                                                                                     |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rating      | Ethical consumer ratings           | @EthicalConsumer                                                                                                                                                                         |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             | 1% For the Planet                  |                                                                                                                                                                                          |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Standard    | Climate Neutral Certified Standard |                                                                                                                                                                                          |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Standard    | The Conservation Alliance          | [@climateneutralcertifiedClimateNeutralStandards2023].                                                                                                                                   |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Index       | Impakter Sustainability Inde       |                                                                                                                                                                                          |
-+-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-There are many different certifications
-
--   @EthicalConsumer
-
--   sustainable brands
-
--   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
-
-Existing rankings
-
--   @earth.orgWorld50Most2022
--   @staff2021Global1002021
--   Fashion brand ratings
--   Ethical Shopping
--   @Top100Consumer Largest consumer goods companies
 
 ### ESG (Crisis)
 
