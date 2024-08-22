@@ -18,7 +18,6 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```
-
 ## Eco-Design: The Legislative Perspective
 
 In Europe, *eco-design* has strong political support as part of the European Union's (EU) "Green Deal" legislation, aiming to transform European economies towards sustainability. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
@@ -46,6 +45,17 @@ The key to comparing Product Stewardship, Extended Producer Responsibility (EPR)
 ```{python}
 compare_ps_epr_ecodesign()
 ```
+
+**Eco-Design is a Key EU Sustainable Policy Design Tool**
+
+A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process.
+
+|            |                   |                    |
+|------------|-------------------|--------------------|
+| Quality    |                   |                    |
+| Durable    | Reparable         | Easy to recycle    |
+| Reusable   | Easy to maintain  | Energy efficient   |
+| Upgradable | Easy to refurbish | Resource efficient |
 
 ## How to Design for Sustainability: A Diversity of Approaches
 
@@ -674,6 +684,9 @@ Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and
 Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion. @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index. [@wikirateSharingDataCreating2022]: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism". Consumer understanding of sustainability is limited. @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
 
 2.4 Trillion USD fashion industry contributing 2%-8% of total global GHG emissions, 100B USD lost to lack of recycling, contributes 9% of microplastics [@adamkiewiczGreenwashingSustainableFashion2022]. [@centobelliSlowingFastFashion2022] Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste. @kohlerCircularEconomyPerspectives2021 Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+-   @TIERNAN2022169 microplastics are a real concern
+-   Several international studies report recent findings of microplastics everywhere in human bodies: the brain, lungs, digestive tissues, bone marrow, penis, testis, seminal fluid (semen), and placenta - causing serious health and reproductive concerns [@mainMicroplasticsAreInfiltrating2024; @guoDiscoveryAnalysisMicroplastics2024; @huMicroplasticPresenceDog2024; @codringtonDetectionMicroplasticsHuman2024; @liPrevalenceImplicationsMicroplastic2024; @montanoRamanMicrospectroscopyEvidence2023; @garciaQuantitationIdentificationMicroplastics2024; @zhuTissueAccumulationMicroplastics2024]
 
 #### Towards Sustainable Clothes
 
