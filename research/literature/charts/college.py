@@ -38,9 +38,6 @@ def company_rank_chart():
     plt.show()
 
 def genz_students_chart():
-    # Age groups
-    ages = list(range(18, 27))
-    
     # Corresponding years
     years = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"]
 
@@ -53,21 +50,46 @@ def genz_students_chart():
 
     plt.figure(figsize=(14, 8))
 
-    # Plot for average enrollment rates
-    plt.plot(ages, enrollment_rates_avg_18_26, label="Average", marker='o')
+    # Plot for average enrollment rates over years
+    plt.plot(years, enrollment_rates_avg_18_26, label="Average", marker='o')
 
     # Adding year annotations
     for i, year in enumerate(years):
-        plt.annotate(year, (ages[i], enrollment_rates_avg_18_26[i]), textcoords="offset points", xytext=(0,10), ha='center')
+        plt.annotate(year, (years[i], enrollment_rates_avg_18_26[i]), textcoords="offset points", xytext=(0,10), ha='center')
 
     # Adding titles and labels
-    plt.title("Net Enrollment Rate of Tertiary Education (Ages 18 to 26)")
-    plt.xlabel("Age")
+    plt.title("Net Enrollment Rate of Tertiary Education (Years 2016-2024)")
+    plt.xlabel("Year")
     plt.ylabel("Enrollment Rate (%)")
     plt.legend()
     plt.grid(True)
 
     # Show plot
+    plt.show()
+
+def genz_enrollment_chart():
+    # Data for the years 2013-2023 (enrollment trends)
+    data_years = {
+        'Year': ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
+        'Enrolled (%)': [63.54, 64.55, 64.35, 64.66, 66.57, 65.99, 63.07, 66.18, 68.62, 69.21, 68.05],
+        'Not Enrolled (%)': [100-63.54, 100-64.55, 100-64.35, 100-64.66, 100-66.57, 100-65.99, 100-63.07, 100-66.18, 100-68.62, 100-69.21, 100-68.05]
+    }
+
+    df_years = pd.DataFrame(data_years)
+
+    # Creating a stacked bar chart
+    plt.figure(figsize=(12, 6))
+    plt.bar(df_years['Year'], df_years['Enrolled (%)'], label='Enrolled', color='#66b3ff')
+    plt.bar(df_years['Year'], df_years['Not Enrolled (%)'], bottom=df_years['Enrolled (%)'], label='Not Enrolled', color='#ffcc99')
+
+    # Adding titles and labels
+    plt.title('Enrollment Trends for Ages 18-26 in Taiwan (2013-2023)')
+    plt.xlabel('Year')
+    plt.ylabel('Percentage (%)')
+    plt.xticks(df_years['Year'])
+    plt.legend()
+
+    # Displaying the stacked bar chart
     plt.show()
 
 

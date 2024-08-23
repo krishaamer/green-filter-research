@@ -16,7 +16,7 @@ sys.path.append('..')
 
 {{< include "_design.qmd" >}}
 
-# References
+## References
 
 ::: {#refs}
 :::

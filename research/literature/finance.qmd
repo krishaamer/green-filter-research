@@ -16,7 +16,7 @@ sys.path.append('..')
 
 {{< include "_finance.qmd" >}}
 
-# References
+## References
 
 ::: {#refs}
 :::
