@@ -11,3 +11,8 @@ sys.path.append('..')
 ```
 
 {{< include "_sustainability.qmd" >}}
+
+# References
+
+::: {#refs}
+:::

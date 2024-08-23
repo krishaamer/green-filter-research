@@ -15,3 +15,8 @@ sys.path.append('..')
 ```
 
 {{< include "_ai.qmd" >}}
+
+# References
+
+::: {#refs}
+:::

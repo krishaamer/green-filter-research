@@ -188,7 +188,7 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc.
 
-### Evolution of Models
+### Evolution of Models and Emerging Abilities
 
 Mapping the emerging abilities of new models.
 
@@ -228,8 +228,6 @@ The debate between Open Source v.s. Closed-Source AI is ongoing. Historically op
 models_chart()
 ```
 
-### Emerging Abilities
-
 The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
 
 -   Scaling laws of LLMs @kaplanScalingLawsNeural2020
@@ -261,12 +259,6 @@ models_rag_performance()
 ### Human Expectations Take Time to Change
 
 Humans still need some time to adjust their expectations of *what's possible* using conversational AI interfaces. [@baileyAIEducation2023] believes people are used to *search engines* and it will take a little bit time to get familiar with talking to a computer in natural language to accomplish their tasks. For example, new users of v0, an AI assistant for building user interfaces through conversation, would tell humans (the company make this app) about the issues they encounter, instead of telling the AI assistant directly, even though the AI in many cases would be able to fix the problem instantly; human users don't yet necessarily expect computers to behave like another human, there's *inertia* in the mental model of what computers are capable of, requiring the user interfaces to provide context and teaching humans how to interact with their AI coworkers[@rauchFascinatingFindingV02024]. Indeed, ChatGPT is already using buttons to explain context [@feifeiliuLiuFeiFeiPromptControlsGenAI].
-
-NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
-
-[@liuMachineGazeOnline2021] suggests higher *algorithmic transparency may inhibit anthropomorphism*; people are less likely to attribute humanness to an AI companin if they understand how the system works.
-
-On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
 
 ### Affective Computing Enables Friendly Machines
 
@@ -305,7 +297,7 @@ Weizenbaum later expressed concerns about how easily humans might be misled by A
 
 ### Artificial Empathy Also Builds Trust
 
-Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is ***AI Friend*** is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
+Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is *AI Friend* is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
 
 | How humans express empathy towards the Replika AI companion |
 |-------------------------------------------------------------|
@@ -321,9 +313,13 @@ Today's machines are much more capable so it's not a surprise humans would like 
 -   GPT-4 is able to solve difficult task in chemistry with natural-language instructions @whiteFutureChemistryLanguage2023
 -   Emojis are a part of natural language @tayWhyScienceNeeds2023
 
-Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses more empathetic than human responses, at times by a significant marring; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]
+Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024].
 
-### Conversation: the Magical Starting Point of a Relationship
+[@liuMachineGazeOnline2021] suggests higher *algorithmic transparency may inhibit anthropomorphism*; people are less likely to attribute humanness to an AI companion if they understand how the system works.
+
+On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
+
+### Conversation: Magical Starting Point of a Relationship
 
 High quality conversations are somewhat magical in that they can establish trust and build rapport which humans.
 
@@ -512,7 +508,7 @@ The 'grandfather' of user experience design, [@nielsenAccessibilityHasFailed2024
 
 -   Meanwhile [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried about UIs becoming average: more and more similar to the lowest common denominator. We can generate better UIs that are based on user data and would be truly personalized.
 
-Software itself can increasingly be generated by AI systems (i.e. machines making machines). As machines become more capable, machines will eventually be capable of producing machines. Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024].
+Software itself can increasingly be generated by AI systems (i.e. machines making machines). As machines become more capable, machines will eventually be capable of producing machines. Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
 
 The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2023]. [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
 
@@ -559,6 +555,12 @@ What is the user interface of the green transformation?
 
 -   @katemoranGenerativeUIOutcomeOriented2024 "highly personalized, tailor-made interfaces that suit the needs of each individual" "Outcome-Oriented Design"
 
+### Usability is the Bare Minimum of User Experience
+
+Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
+
+-   
+
 @mckeoughMcKinseyDesignLaunches2018 business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
 
 There's a number of user interface design patterns that have provide successful across a range of social media apps. Such *user experience / user interface* (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
@@ -576,8 +578,6 @@ There's a number of user interface design patterns that have provide successful 
 There are also more philosophical approaches to ***Interface Studies:*** @davidhoangCreatingInterfaceStudies2022, the head of product design at Webflow, suggests taking cues from art studies to ***isolate the core problem***: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*.
 
 Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies: @Review2023Helsinki2023
-
-### Usability is the Minimum of User Experience
 
 Usability sets the baseline but AI-interfaces are capable of more.
 
@@ -611,9 +611,7 @@ How do the tenets of user experience (UX) apply to AI?
 
 Usability Guidelines
 
-Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004.
-
-Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
+Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004. Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
 As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers @stocktonIfAICan2017
 
@@ -688,8 +686,6 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   What is Personalized AI?
 
--   Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
-
 -   Google's AI Principles and provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
 
 -   @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
@@ -712,6 +708,17 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 ### Performing Under High-Stakes Situations
 
+AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s [in @kanzaAIScientificDiscovery2021], the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. [@calistoBreastScreeningAIEvaluatingMedical2022] focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. [@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
+
+-   Example of ChatGPT explaining medical terminology in a blood report.
+
+::: {.content-hidden unless-format="pdf"}
+![Example of ChatGPT explaining medical terminology in a blood report.](./images/ai/chatgpt-medical.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Example of ChatGPT explaining medical terminology in my blood report." src={ChatGPTMedical} />
+```
 -   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024].
 
 Fitness Guides, AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There's not avatar.
@@ -724,17 +731,6 @@ Human Augmentation, Technology for augmenting human skills or replacing skills t
 
 AI is being use in high--Stakes Situations (Medical, Cars, Etc).
 
-AI-based systems are being implemented in medicine, where stakes are high raising the need for ethical considerations. Since CADUCEUS in the 1970s [in @kanzaAIScientificDiscovery2021], the first automated medical decision making system, medical AI now provides Health Diagnosic Symptoms and AI-assistants in medical imaging. [@calistoBreastScreeningAIEvaluatingMedical2022] focuses on AI-human interactions in medical workflows and underscores the importance of output explainability. Medical professionals who were given AI results with an explanation trusted the results more. [@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data.
-
--   Example of ChatGPT explaining medical terminology in a blood report.
-
-::: {.content-hidden unless-format="pdf"}
-![Example of ChatGPT explaining medical terminology in a blood report.](./images/ai/chatgpt-medical.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Example of ChatGPT explaining medical terminology in my blood report." src={ChatGPTMedical} />
-```
 -   @singhalExpertLevelMedicalQuestion2023 medial AI reaching expert-level question-answering ability.
 
 -   @ayersComparingPhysicianArtificial2023 in an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors.
@@ -765,7 +761,7 @@ AI-based systems are being implemented in medicine, where stakes are high raisin
 
 ### Human-Computer Interactions Without a "Computer"
 
-AI Affects Human-Computer Interactions
+How does AI affect Human-Computer Interactions
 
 The field of Human Factors and Ergonomics (HFE) emphasizes designing user experiences (UX) that cater to human needs [@theinternationalergonomicsassociationHumanFactorsErgonomics2019]. Designers think through every interaction of the user with a system and consider a set of metrics at each point of interaction including the user's context of use and emotional needs.
 
@@ -773,7 +769,7 @@ Software designers, unlike industrial designers, can't physically alter the ergo
 
 Drawing a parallel from narrative studies terminology, we can view user interaction as a heroic journey of the user to achieve their goals, by navigating through the interface until a success state - or facing failure. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
 
-[@tubikstudioUXDesignGlossary2018] argues *affordance* measures the clarity of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
+[@tubikstudioUXDesignGlossary2018] argues *affordance* measures the *clarity* of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
 
 For the vast majority of this study's target audience (college students), social media can be assumed as the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations (as of writing in 2020).
 
