@@ -37,56 +37,27 @@ def company_rank_chart():
     plt.grid(True)
     plt.show()
 
-def genz_students_chart():
-    # Corresponding years
-    years = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"]
 
-    # Enrollment rates for males and females
-    enrollment_rates_male_18_26 = [63.88, 72.18, 70.20, 68.39, 71.05, 70.59, 63.88, 65.00, 67.00]
-    enrollment_rates_female_18_26 = [72.56, 82.11, 80.23, 77.63, 80.48, 79.59, 72.56, 75.00, 78.00]
-
-    # Calculate the average enrollment rates
-    enrollment_rates_avg_18_26 = [(male + female) / 2 for male, female in zip(enrollment_rates_male_18_26, enrollment_rates_female_18_26)]
-
-    plt.figure(figsize=(14, 8))
-
-    # Plot for average enrollment rates over years
-    plt.plot(years, enrollment_rates_avg_18_26, label="Average", marker='o')
-
-    # Adding year annotations
-    for i, year in enumerate(years):
-        plt.annotate(year, (years[i], enrollment_rates_avg_18_26[i]), textcoords="offset points", xytext=(0,10), ha='center')
-
-    # Adding titles and labels
-    plt.title("Net Enrollment Rate of Tertiary Education (Years 2016-2024)")
-    plt.xlabel("Year")
-    plt.ylabel("Enrollment Rate (%)")
-    plt.legend()
-    plt.grid(True)
-
-    # Show plot
-    plt.show()
 
 def genz_enrollment_chart():
-    # Data for the years 2013-2023 (enrollment trends)
-    data_years = {
+    data_years_2013_2023 = {
         'Year': ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
-        'Enrolled (%)': [63.54, 64.55, 64.35, 64.66, 66.57, 65.99, 63.07, 66.18, 68.62, 69.21, 68.05],
-        'Not Enrolled (%)': [100-63.54, 100-64.55, 100-64.35, 100-64.66, 100-66.57, 100-65.99, 100-63.07, 100-66.18, 100-68.62, 100-69.21, 100-68.05]
+        'Enrolled (%)': [63.54, 64.55, 64.35, 64.66, 66.57, 65.99, 63.07, 66.18, 68.62, 77.53, 82.14],
+        'Not Enrolled (%)': [100-63.54, 100-64.55, 100-64.35, 100-64.66, 100-66.57, 100-65.99, 100-63.07, 100-66.18, 100-68.62, 100-77.53, 100-82.14]
     }
 
-    df_years = pd.DataFrame(data_years)
+    df_years_2013_2023 = pd.DataFrame(data_years_2013_2023)
 
-    # Creating a stacked bar chart
+    # Creating a stacked bar chart for 2013-2023
     plt.figure(figsize=(12, 6))
-    plt.bar(df_years['Year'], df_years['Enrolled (%)'], label='Enrolled', color='#66b3ff')
-    plt.bar(df_years['Year'], df_years['Not Enrolled (%)'], bottom=df_years['Enrolled (%)'], label='Not Enrolled', color='#ffcc99')
+    plt.bar(df_years_2013_2023['Year'], df_years_2013_2023['Enrolled (%)'], label='Enrolled', color='#66b3ff')
+    plt.bar(df_years_2013_2023['Year'], df_years_2013_2023['Not Enrolled (%)'], bottom=df_years_2013_2023['Enrolled (%)'], label='Not Enrolled', color='#ffcc99')
 
     # Adding titles and labels
     plt.title('Enrollment Trends for Ages 18-26 in Taiwan (2013-2023)')
     plt.xlabel('Year')
     plt.ylabel('Percentage (%)')
-    plt.xticks(df_years['Year'])
+    plt.xticks(df_years_2013_2023['Year'])
     plt.legend()
 
     # Displaying the stacked bar chart

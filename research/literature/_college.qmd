@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.college import company_rank_chart, genz_students_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
+from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -61,14 +61,10 @@ https://www.semanticscholar.org/paper/The-comparisons-of-data-mining-techniques-
 
 ## Taiwanese Education System and Policy Environment
 
-Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education [@ministryofeducationoftaiwanNetEnrollmentRate2024].
+Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
 
 ```{python}
 genz_enrollment_chart()
-```
-
-```{python}
-genz_students_chart()
 ```
 
 As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
