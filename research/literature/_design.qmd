@@ -15,6 +15,10 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```
 # Design
 
+::: {.content-hidden unless-format="pdf"}
+![Visual abstract for the design chapter](./images/design/abstract-design.png)
+:::
+
 ```{=mdx}
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```

@@ -15,6 +15,10 @@ import AbstractSustainability from "/research/images/sustainability/abstract-sus
 ```
 # Sustainability
 
+::: {.content-hidden unless-format="pdf"}
+![Visual abstract for the sustainability chapter](./images/sustainability/abstract-sustainability.png)
+:::
+
 ```{=mdx}
 <Figure caption="Visual abstract for the sustainability chapter" src={AbstractSustainability} />
 ```
@@ -405,7 +409,7 @@ Why Protect Biodiversity?
 | Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
 | Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
 
-: From [@mayWhyShouldWe2011]\@.
+: From [@mayWhyShouldWe2011].
 
 -   
 

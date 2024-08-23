@@ -12,6 +12,10 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```
 # Finance
 
+::: {.content-hidden unless-format="pdf"}
+![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
+:::
+
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
