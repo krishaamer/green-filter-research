@@ -1,3 +1,10 @@
+---
+title: Experts
+sidebar_position: 1
+editor:
+    render-on-save: false
+---
+
 ```{=mdx}
 import Figure from '/src/components/Figure';
 import SankeyAll from "/research/images/experts/sankey-all.png";
@@ -7,7 +14,7 @@ import SankeyJessica from "/research/images/experts/sankey-jessica.png";
 import SankeyPeijing from "/research/images/experts/sankey-peijing.png";
 import SankeyYuping from "/research/images/experts/sankey-yuping.png";
 ```
-## Experts
+# Experts
 
 Analysis of recorded conversation from 5 experts. Thematic content analysis using ATLAS.ti for labeling/coding the data for grounded theory. Conversations were recorded and transcribed using Google Meet and Fireflies AI. Labeling and thematic analysis was performed using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
 

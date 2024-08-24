@@ -1,3 +1,10 @@
+---
+title: Attitudes
+sidebar_position: 1
+editor:
+    render-on-save: false
+---
+
 ```{python}
 from data.attitudes import likert_charts, likert_single_chart, correlation_network, correlation_chart
 from data.environment import ecosystem_sensitivity
@@ -5,7 +12,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## College Student Attitudes (Overall)
+## Taiwanese College Student Attitudes (Overall)
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
 ## Economy

@@ -1,10 +1,17 @@
+---
+title: Personas
+sidebar_position: 1
+editor:
+    render-on-save: false
+---
+
 ```{python}
 from data.personas import treemap, show_personas, show_single_persona, show_clustering_heatmap, get_kmeans_table
 import warnings
 warnings.filterwarnings("ignore")
 ```
 
-### Personas
+# Personas
 
 ### Clustering Students to Build 3 Personas
 

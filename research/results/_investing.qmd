@@ -1,3 +1,10 @@
+---
+title: Investing
+sidebar_position: 1
+editor:
+    render-on-save: false
+---
+
 ```{python}
 from data.attitudes import likert_single_chart
 from data.investing import investment_count, investment_data
@@ -5,7 +12,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Investing
+# Investing
 Student attitudes towards investing.
 
 ### Saving and Investing

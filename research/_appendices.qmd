@@ -1,62 +1,64 @@
 # Appendices
 
 ## Appendix 1
+
 ### Research Tech Stack
 
-The research project made use of the following software.
+For anyone who would like to repeat this research, here's a table with the software that this research project made use of.
 
--   Matplotlib
--   NumPy
--   jupyter
--   seaborn
--   Python
--   VSCode
--   GitHub
--   fireflies.ai
--   Google Meet
+| Tool/Service | Category                 |
+|--------------|--------------------------|
+| Matplotlib   | Data Visualization       |
+| NumPy        | Scientific Computing     |
+| jupyter      | Development Environment  |
+| seaborn      | Data Visualization       |
+| Python       | Programming Language     |
+| VSCode       | Code Editor              |
+| GitHub       | Version Control          |
+| fireflies.ai | AI Meeting Assistant     |
+| Google Meet  | Communication            |
+| databricks   | Data Platform            |
+| HuggingFace  | Machine Learning         |
+| TypeScript   | Programming Language     |
+| Tally        | Form Builder             |
+| Zotero       | Reference Manager        |
+| Quarto       | Publishing/Documentation |
 
--   databricks
--   HuggingFace
--   TypeScript
+| Tool/Service     | Category                |
+|------------------|-------------------------|
+| Apache Parquet   | Data Storage Format     |
+| Haystack         | Search Framework        |
+| MongoDB          | NoSQL Database          |
+| langchain        | AI/ML Development       |
+| GitHub Copilot   | AI Coding Assistant     |
+| Figma            | Design Tool             |
+| Sketch           | Design Tool             |
+| OpenAI ChatGPT   | AI Assistant            |
+| Anthropic Claude | AI Assistant            |
+| Google Gemini    | AI Assistant            |
+| Google Colab     | Development Environment |
+| Google Sheets    | Spreadsheet             |
+| META Llama       | AI Model                |
+| Mistral          | AI Model                |
+| OpenAI API       | API Service             |
+| Postman          | API Testing Tool        |
 
--   Tally
--   Zotero
--   Quarto
--   Apache Parquet
--   Haystack
--   MongoDB
--   langchain
--   GitHub Copilot
-
-
--   Figma
--   Sketch
--   OpenAI ChatGPT
--   Anthropic Claude
--   Google Gemini
--   Google Colab
--   Google Sheets
--   META Llama
--   Mistral
--   OpenAI API
--   Postman
-
-
--   Next.js
--   fullstory
--   Polygon.io
--   Hotjar
--   Lottie
--   Docusaurus
--   Google Analytics
--   Google Maps
--   vis.gl
--   Pinecone
--   Vercel
--   Vercel AI SDK
--   Radix UI
--   highcharts
--   React
--   Tailwind
--   Markdown
-
+| Tool/Service     | Category                     |
+|------------------|------------------------------|
+| Next.js          | Web Framework                |
+| fullstory        | Analytics                    |
+| Polygon.io       | Financial Data API           |
+| Hotjar           | Behavior Analytics           |
+| Lottie           | Animation Library            |
+| Docusaurus       | Documentation                |
+| Google Analytics | Web Analytics                |
+| Google Maps      | Maps/Location Service        |
+| vis.gl           | Data Visualization Framework |
+| Pinecone         | Vector Database              |
+| Vercel           | Deployment Platform          |
+| Vercel AI SDK    | AI SDK                       |
+| Radix UI         | UI Library                   |
+| highcharts       | Data Visualization           |
+| React            | Web Framework                |
+| Tailwind         | CSS Framework                |
+| Markdown         | Markup Language              |
