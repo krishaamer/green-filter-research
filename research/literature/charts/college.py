@@ -348,3 +348,54 @@ def green_millenials():
     # Display the plot
     plt.tight_layout()
     plt.show()
+
+def mean_global_attitudes():
+    # Updated data for 2010 and 2020 with change values
+    data_correct_comparison_2010_2020 = {
+        'Country': ['Switzerland', 'France', 'Germany', 'Norway', 'Great Britain', 'Sweden', 'Finland', 'Japan', 'Iceland', 'Australia', 'Denmark', 
+                    'Austria', 'Slovenia', 'New Zealand', 'United States', 'Taiwan', 'South Korea', 'Spain', 'Russia', 'Slovakia'],
+        'Environmental Concern 2010': [60.2, 50.8, 51.9, 52.1, 46.6, 54.1, 54.8, 53.9, 50.8, 50.1, 55.3, 50.8, 50.0, 51.7, 50.3, 52.6, 53.9, 50.4, 41.4, 45.5],
+        'Environmental Concern 2020': [61.8, 58.6, 58.2, 58.0, 57.6, 57.3, 57.2, 57.1, 56.8, 56.6, 55.9, 55.9, 55.1, 54.9, 54.2, 54.1, 52.5, 51.3, 40.7, 40.4],
+        'Change': [1.6, 7.8, 6.3, 5.9, 11.0, 3.2, 2.4, 3.2, 6.0, 6.5, 0.6, 5.1, 5.1, 3.2, 3.9, 1.5, -1.4, 0.9, -0.7, -5.1]
+    }
+
+    # Creating a DataFrame
+    df_correct_comparison_2010_2020 = pd.DataFrame(data_correct_comparison_2010_2020)
+
+    # Splitting the data into increased and decreased concern
+    df_increased_correct = df_correct_comparison_2010_2020[df_correct_comparison_2010_2020['Change'] > 0]
+    df_decreased_correct = df_correct_comparison_2010_2020[df_correct_comparison_2010_2020['Change'] < 0]
+
+    # Sorting the decreased concern countries properly by Environmental Concern 2020
+    df_decreased_correct = df_decreased_correct.sort_values(by='Environmental Concern 2020', ascending=True)
+
+    # Plotting the two side-by-side charts
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8), sharey=True)
+
+    bar_width = 0.35
+
+    # Plot for countries with increased environmental concern, sorted by 2020 values
+    index_increased_correct = range(len(df_increased_correct['Country']))
+    ax1.bar(index_increased_correct, df_increased_correct['Environmental Concern 2010'], bar_width, label='2010', color='lightblue')
+    ax1.bar([i + bar_width for i in index_increased_correct], df_increased_correct['Environmental Concern 2020'], bar_width, label='2020', color='lightgreen')
+    ax1.set_title('Countries with Increased Environmental Concern (2010 vs 2020)')
+    ax1.set_xlabel('Country')
+    ax1.set_ylabel('Environmental Concern Index')
+    ax1.set_xticks([i + bar_width / 2 for i in index_increased_correct])
+    ax1.set_xticklabels(df_increased_correct['Country'], rotation=90)
+
+    # Plot for countries with decreased environmental concern, properly sorted by 2020 values
+    index_decreased_correct = range(len(df_decreased_correct['Country']))
+    ax2.bar(index_decreased_correct, df_decreased_correct['Environmental Concern 2010'], bar_width, label='2010', color='lightblue')
+    ax2.bar([i + bar_width for i in index_decreased_correct], df_decreased_correct['Environmental Concern 2020'], bar_width, label='2020', color='salmon')
+    ax2.set_title('Countries with Decreased Environmental Concern (2010 vs 2020)')
+    ax2.set_xlabel('Country')
+    ax2.set_ylabel('Environmental Concern Index')
+    ax2.set_xticks([i + bar_width / 2 for i in index_decreased_correct])
+    ax2.set_xticklabels(df_decreased_correct['Country'], rotation=90)
+
+    # Display the legend
+    fig.legend(['2010', '2020'], loc='upper center', ncol=2)
+
+    plt.tight_layout()
+    plt.show()

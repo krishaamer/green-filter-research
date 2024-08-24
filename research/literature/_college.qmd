@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials
+from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -27,15 +27,28 @@ In August 2018, Swedish high-school student Greta Thunberg skipped class to star
   refTitle="Wikimedia Commons"
 />
 ```
+
+
+In Taiwan, the Fridays for Future protests were small scale, in no more than hundreds of people [@hioeFridaysFutureProtest2019].
+Meanwhile Indonesia, Philippines, have had larger protests.
+
 The protest trend is subsiding.
 
 McKinsey says people want eco-products but aren't willing to pay more.
 
 Willingness too pay research.
 
-## The Attitude-Behavior Gap
+## Global and Local Attitudes
 
-A large-EUPolicyscale global study by [@anthonyleiserowitzInternationalPublicOpinion2022] on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".* An even larger survey (n=1.2 million) by the United Nations across 50 countries, distributed through mobile game ads, showed the majority of people agreeing climate change is an "emergency" [@undpPeoplesClimateVote2021]. While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
+[@franzenDevelopmentGlobalEnvironmental2024] measures *"mean environmental concern"* to look at decade-level changes in societal environmental attitudes across countries. Taiwan's general attitudes have stayed almost the same (slight increase). The UK has had the largest jump in concern. Curiously, South Korea has had a slight decrease in concern. Slovakia and Russia were not very concerned with the environment a decade ago and are even less concerned now.
+
+A large-scale global study by [@anthonyleiserowitzInternationalPublicOpinion2022] administered on Meta's Facebook (n=108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities".*
+
+```{python}
+mean_global_attitudes()
+```
+
+The largest study to date, conducted by the United Nations across 50 countries, surveying 1.2 million people, distributed through mobile game ads, showed the majority of people agreeing climate change is an *"emergency"* [@undpPeoplesClimateVote2021].
 
 |           |       |                     |
 |-----------|-------|---------------------|
@@ -45,6 +58,10 @@ A large-EUPolicyscale global study by [@anthonyleiserowitzInternationalPublicOpi
 | Over 69   | 58%   | 42%                 |
 
 : 1.2 million UN survey responses to the statement *"Climate change is an emergency"* [@undpPeoplesClimateVote2021].
+
+## The Attitude-Behavior Gap
+
+While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can solve all problems.
 
 -   [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
 -   @munroSustainableAttitudebehaviorGap2023 shoppers trying to shop sustainably often fail to find sustainable products.
