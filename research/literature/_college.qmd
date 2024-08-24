@@ -8,6 +8,7 @@ warnings.filterwarnings("ignore")
 ```{=mdx}
 import Figure from "/src/components/Figure";
 import Geneve from "../images/college/geneve.jpg";
+import Taipei from "../images/college/taipei.jpg";
 ```
 # Students
 
@@ -30,6 +31,21 @@ In August 2018, Swedish high-school student Greta Thunberg skipped class to star
 
 
 In Taiwan, the Fridays for Future protests were small scale, in no more than hundreds of people [@hioeFridaysFutureProtest2019].
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
+  src={Taipei}
+  refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
+  refTitle="New Bloom Magazine"
+/>
+```
+
+
 Meanwhile Indonesia, Philippines, have had larger protests.
 
 The protest trend is subsiding.
