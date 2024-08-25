@@ -7,6 +7,8 @@ toc: true
 geometry: margin=1in
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: pdf_document
+project:
+  output-dir: _output
 format:
   pdf
 execute:

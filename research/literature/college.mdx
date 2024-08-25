@@ -404,37 +404,37 @@ materalistic.
 World Values Survey
 
 ``` text
-ValueError: Image size of 2399x98714 pixels is too large. It must be less than 2^16 in each direction.
+ValueError: Image size of 2000x82261 pixels is too large. It must be less than 2^16 in each direction.
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mValueError[0m                                Traceback (most recent call last)
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/formatters.py:338[0m, in [0;36mBaseFormatter.__call__[0;34m(self, obj)[0m
-[1;32m    336[0m     [38;5;28;01mpass[39;00m
-[1;32m    337[0m [38;5;28;01melse[39;00m:
-[0;32m--> 338[0m     [38;5;28;01mreturn[39;00m [43mprinter[49m[43m([49m[43mobj[49m[43m)[49m
-[1;32m    339[0m [38;5;66;03m# Finally look for special method names[39;00m
-[1;32m    340[0m method [38;5;241m=[39m get_real_method(obj, [38;5;28mself[39m[38;5;241m.[39mprint_method)
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/formatters.py:343[0m, in [0;36mBaseFormatter.__call__[0;34m(self, obj)[0m
+[1;32m    341[0m     [38;5;28;01mpass[39;00m
+[1;32m    342[0m [38;5;28;01melse[39;00m:
+[0;32m--> 343[0m     [38;5;28;01mreturn[39;00m [43mprinter[49m[43m([49m[43mobj[49m[43m)[49m
+[1;32m    344[0m [38;5;66;03m# Finally look for special method names[39;00m
+[1;32m    345[0m method [38;5;241m=[39m get_real_method(obj, [38;5;28mself[39m[38;5;241m.[39mprint_method)
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/pylabtools.py:169[0m, in [0;36mretina_figure[0;34m(fig, base64, **kwargs)[0m
-[1;32m    160[0m [38;5;28;01mdef[39;00m [38;5;21mretina_figure[39m(fig, base64[38;5;241m=[39m[38;5;28;01mFalse[39;00m, [38;5;241m*[39m[38;5;241m*[39mkwargs):
-[1;32m    161[0m     [38;5;124;03m"""format a figure as a pixel-doubled (retina) PNG[39;00m
-[1;32m    162[0m 
-[1;32m    163[0m [38;5;124;03m    If `base64` is True, return base64-encoded str instead of raw bytes[39;00m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/pylabtools.py:187[0m, in [0;36mretina_figure[0;34m(fig, base64, **kwargs)[0m
+[1;32m    178[0m [38;5;28;01mdef[39;00m [38;5;21mretina_figure[39m(fig, base64[38;5;241m=[39m[38;5;28;01mFalse[39;00m, [38;5;241m*[39m[38;5;241m*[39mkwargs):
+[1;32m    179[0m [38;5;250m    [39m[38;5;124;03m"""format a figure as a pixel-doubled (retina) PNG[39;00m
+[1;32m    180[0m 
+[1;32m    181[0m [38;5;124;03m    If `base64` is True, return base64-encoded str instead of raw bytes[39;00m
 [0;32m   (...)[0m
-[1;32m    167[0m [38;5;124;03m        base64 argument[39;00m
-[1;32m    168[0m [38;5;124;03m    """[39;00m
-[0;32m--> 169[0m     pngdata [38;5;241m=[39m [43mprint_figure[49m[43m([49m[43mfig[49m[43m,[49m[43m [49m[43mfmt[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mretina[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[43mbase64[49m[38;5;241;43m=[39;49m[38;5;28;43;01mFalse[39;49;00m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
-[1;32m    170[0m     [38;5;66;03m# Make sure that retina_figure acts just like print_figure and returns[39;00m
-[1;32m    171[0m     [38;5;66;03m# None when the figure is empty.[39;00m
-[1;32m    172[0m     [38;5;28;01mif[39;00m pngdata [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
+[1;32m    185[0m [38;5;124;03m        base64 argument[39;00m
+[1;32m    186[0m [38;5;124;03m    """[39;00m
+[0;32m--> 187[0m     pngdata [38;5;241m=[39m [43mprint_figure[49m[43m([49m[43mfig[49m[43m,[49m[43m [49m[43mfmt[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mretina[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[43mbase64[49m[38;5;241;43m=[39;49m[38;5;28;43;01mFalse[39;49;00m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
+[1;32m    188[0m     [38;5;66;03m# Make sure that retina_figure acts just like print_figure and returns[39;00m
+[1;32m    189[0m     [38;5;66;03m# None when the figure is empty.[39;00m
+[1;32m    190[0m     [38;5;28;01mif[39;00m pngdata [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/IPython/core/pylabtools.py:152[0m, in [0;36mprint_figure[0;34m(fig, fmt, bbox_inches, base64, **kwargs)[0m
-[1;32m    149[0m     [38;5;28;01mfrom[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mbackend_bases[39;00m [38;5;28;01mimport[39;00m FigureCanvasBase
-[1;32m    150[0m     FigureCanvasBase(fig)
-[0;32m--> 152[0m [43mfig[49m[38;5;241;43m.[39;49m[43mcanvas[49m[38;5;241;43m.[39;49m[43mprint_figure[49m[43m([49m[43mbytes_io[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkw[49m[43m)[49m
-[1;32m    153[0m data [38;5;241m=[39m bytes_io[38;5;241m.[39mgetvalue()
-[1;32m    154[0m [38;5;28;01mif[39;00m fmt [38;5;241m==[39m [38;5;124m'[39m[38;5;124msvg[39m[38;5;124m'[39m:
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/IPython/core/pylabtools.py:170[0m, in [0;36mprint_figure[0;34m(fig, fmt, bbox_inches, base64, **kwargs)[0m
+[1;32m    167[0m     [38;5;28;01mfrom[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mbackend_bases[39;00m [38;5;28;01mimport[39;00m FigureCanvasBase
+[1;32m    168[0m     FigureCanvasBase(fig)
+[0;32m--> 170[0m [43mfig[49m[38;5;241;43m.[39;49m[43mcanvas[49m[38;5;241;43m.[39;49m[43mprint_figure[49m[43m([49m[43mbytes_io[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkw[49m[43m)[49m
+[1;32m    171[0m data [38;5;241m=[39m bytes_io[38;5;241m.[39mgetvalue()
+[1;32m    172[0m [38;5;28;01mif[39;00m fmt [38;5;241m==[39m [38;5;124m'[39m[38;5;124msvg[39m[38;5;124m'[39m:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py:2204[0m, in [0;36mFigureCanvasBase.print_figure[0;34m(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backend_bases.py:2204[0m, in [0;36mFigureCanvasBase.print_figure[0;34m(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)[0m
 [1;32m   2200[0m [38;5;28;01mtry[39;00m:
 [1;32m   2201[0m     [38;5;66;03m# _get_renderer may change the figure dpi (as vector formats[39;00m
 [1;32m   2202[0m     [38;5;66;03m# force the figure dpi to 72), so we need to set it again here.[39;00m
@@ -449,7 +449,7 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py
 [1;32m   2211[0m [38;5;28;01mfinally[39;00m:
 [1;32m   2212[0m     [38;5;28;01mif[39;00m bbox_inches [38;5;129;01mand[39;00m restore_bbox:
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py:2054[0m, in [0;36mFigureCanvasBase._switch_canvas_and_return_print_method.<locals>.<lambda>[0;34m(*args, **kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backend_bases.py:2054[0m, in [0;36mFigureCanvasBase._switch_canvas_and_return_print_method.<locals>.<lambda>[0;34m(*args, **kwargs)[0m
 [1;32m   2050[0m     optional_kws [38;5;241m=[39m {  [38;5;66;03m# Passed by print_figure for other renderers.[39;00m
 [1;32m   2051[0m         [38;5;124m"[39m[38;5;124mdpi[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124mfacecolor[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124medgecolor[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124morientation[39m[38;5;124m"[39m,
 [1;32m   2052[0m         [38;5;124m"[39m[38;5;124mbbox_inches_restore[39m[38;5;124m"[39m}
@@ -459,9 +459,9 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backend_bases.py
 [1;32m   2056[0m [38;5;28;01melse[39;00m:  [38;5;66;03m# Let third-parties do as they see fit.[39;00m
 [1;32m   2057[0m     print_method [38;5;241m=[39m meth
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:496[0m, in [0;36mFigureCanvasAgg.print_png[0;34m(self, filename_or_obj, metadata, pil_kwargs)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:496[0m, in [0;36mFigureCanvasAgg.print_png[0;34m(self, filename_or_obj, metadata, pil_kwargs)[0m
 [1;32m    449[0m [38;5;28;01mdef[39;00m [38;5;21mprint_png[39m([38;5;28mself[39m, filename_or_obj, [38;5;241m*[39m, metadata[38;5;241m=[39m[38;5;28;01mNone[39;00m, pil_kwargs[38;5;241m=[39m[38;5;28;01mNone[39;00m):
-[1;32m    450[0m     [38;5;124;03m"""[39;00m
+[1;32m    450[0m [38;5;250m    [39m[38;5;124;03m"""[39;00m
 [1;32m    451[0m [38;5;124;03m    Write the figure to a PNG file.[39;00m
 [1;32m    452[0m 
 [0;32m   (...)[0m
@@ -469,9 +469,9 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend
 [1;32m    495[0m [38;5;124;03m    """[39;00m
 [0;32m--> 496[0m     [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_print_pil[49m[43m([49m[43mfilename_or_obj[49m[43m,[49m[43m [49m[38;5;124;43m"[39;49m[38;5;124;43mpng[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[43mpil_kwargs[49m[43m,[49m[43m [49m[43mmetadata[49m[43m)[49m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:444[0m, in [0;36mFigureCanvasAgg._print_pil[0;34m(self, filename_or_obj, fmt, pil_kwargs, metadata)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:444[0m, in [0;36mFigureCanvasAgg._print_pil[0;34m(self, filename_or_obj, fmt, pil_kwargs, metadata)[0m
 [1;32m    439[0m [38;5;28;01mdef[39;00m [38;5;21m_print_pil[39m([38;5;28mself[39m, filename_or_obj, fmt, pil_kwargs, metadata[38;5;241m=[39m[38;5;28;01mNone[39;00m):
-[1;32m    440[0m     [38;5;124;03m"""[39;00m
+[1;32m    440[0m [38;5;250m    [39m[38;5;124;03m"""[39;00m
 [1;32m    441[0m [38;5;124;03m    Draw the canvas, then save it using `.image.imsave` (to which[39;00m
 [1;32m    442[0m [38;5;124;03m    *pil_kwargs* and *metadata* are forwarded).[39;00m
 [1;32m    443[0m [38;5;124;03m    """[39;00m
@@ -480,32 +480,32 @@ File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend
 [1;32m    446[0m         filename_or_obj, [38;5;28mself[39m[38;5;241m.[39mbuffer_rgba(), [38;5;28mformat[39m[38;5;241m=[39mfmt, origin[38;5;241m=[39m[38;5;124m"[39m[38;5;124mupper[39m[38;5;124m"[39m,
 [1;32m    447[0m         dpi[38;5;241m=[39m[38;5;28mself[39m[38;5;241m.[39mfigure[38;5;241m.[39mdpi, metadata[38;5;241m=[39mmetadata, pil_kwargs[38;5;241m=[39mpil_kwargs)
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:382[0m, in [0;36mFigureCanvasAgg.draw[0;34m(self)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:382[0m, in [0;36mFigureCanvasAgg.draw[0;34m(self)[0m
 [1;32m    380[0m [38;5;28;01mdef[39;00m [38;5;21mdraw[39m([38;5;28mself[39m):
 [1;32m    381[0m     [38;5;66;03m# docstring inherited[39;00m
 [0;32m--> 382[0m     [38;5;28mself[39m[38;5;241m.[39mrenderer [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mget_renderer[49m[43m([49m[43m)[49m
 [1;32m    383[0m     [38;5;28mself[39m[38;5;241m.[39mrenderer[38;5;241m.[39mclear()
 [1;32m    384[0m     [38;5;66;03m# Acquire a lock on the shared font cache.[39;00m
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:397[0m, in [0;36mFigureCanvasAgg.get_renderer[0;34m(self)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:397[0m, in [0;36mFigureCanvasAgg.get_renderer[0;34m(self)[0m
 [1;32m    395[0m reuse_renderer [38;5;241m=[39m ([38;5;28mself[39m[38;5;241m.[39m_lastKey [38;5;241m==[39m key)
 [1;32m    396[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m reuse_renderer:
 [0;32m--> 397[0m     [38;5;28mself[39m[38;5;241m.[39mrenderer [38;5;241m=[39m [43mRendererAgg[49m[43m([49m[43mw[49m[43m,[49m[43m [49m[43mh[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mfigure[49m[38;5;241;43m.[39;49m[43mdpi[49m[43m)[49m
 [1;32m    398[0m     [38;5;28mself[39m[38;5;241m.[39m_lastKey [38;5;241m=[39m key
 [1;32m    399[0m [38;5;28;01mreturn[39;00m [38;5;28mself[39m[38;5;241m.[39mrenderer
 
-File [0;32m~/anaconda3/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:70[0m, in [0;36mRendererAgg.__init__[0;34m(self, width, height, dpi)[0m
+File [0;32m~/Desktop/current/thesis/green-filter-research/myenv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py:70[0m, in [0;36mRendererAgg.__init__[0;34m(self, width, height, dpi)[0m
 [1;32m     68[0m [38;5;28mself[39m[38;5;241m.[39mwidth [38;5;241m=[39m width
 [1;32m     69[0m [38;5;28mself[39m[38;5;241m.[39mheight [38;5;241m=[39m height
 [0;32m---> 70[0m [38;5;28mself[39m[38;5;241m.[39m_renderer [38;5;241m=[39m [43m_RendererAgg[49m[43m([49m[38;5;28;43mint[39;49m[43m([49m[43mwidth[49m[43m)[49m[43m,[49m[43m [49m[38;5;28;43mint[39;49m[43m([49m[43mheight[49m[43m)[49m[43m,[49m[43m [49m[43mdpi[49m[43m)[49m
 [1;32m     71[0m [38;5;28mself[39m[38;5;241m.[39m_filter_renderers [38;5;241m=[39m []
 [1;32m     73[0m [38;5;28mself[39m[38;5;241m.[39m_update_methods()
 
-[0;31mValueError[0m: Image size of 2399x98714 pixels is too large. It must be less than 2^16 in each direction.
+[0;31mValueError[0m: Image size of 2000x82261 pixels is too large. It must be less than 2^16 in each direction.
 ```
 
 ``` text
-<Figure size 1152x672 with 1 Axes>
+<Figure size 960x560 with 1 Axes>
 ```
 
 (Franzen & Bahr, 2024) measures *“mean environmental concern”* to look
@@ -769,9 +769,7 @@ revenue over US\$1 billion, only includes TSMC in the top 100 (placed
 Speed Rail Corp and Giant Manufacturing Co Ltd since 2023. (Corporate
 Knights, 2024)
 
-``` text
-<function literature.charts.college.taiwanese_company_ranking_chart()>
-```
+![](college_files/figure-markdown_strict/cell-11-output-1.png)
 
 ## Online Shopping Trends in Taiwan
 

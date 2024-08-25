@@ -468,14 +468,17 @@ def world_values_chart():
         gen_data = importance_dict[gen]
         total_respondents = gen_totals[gen]
         for level in [1, 2, 3, 4]:
-            percentage = gen_data.loc[level].sum() / total_respondents * 100
+            if level in gen_data.index:
+                percentage = gen_data.loc[level].sum() / total_respondents * 100
+            else:
+                percentage = 0
             stacked_data_percentage[['Very Important', 'Quite Important', 'Not Very Important', 'Not At All Important'][level-1]].append(percentage)
 
     # Create a DataFrame to summarize the stacked percentages
     summary_data = pd.DataFrame(stacked_data_percentage, index=importance_dict.keys())
 
     # Plotting the stacked bar chart
-    fig, ax = plt.subplots(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(12, 6))  # Reduced the height to 6 for better management
 
     # Plotting the stacked bar chart with percentage values
     bottom_values = np.zeros(len(importance_dict))
@@ -493,11 +496,6 @@ def world_values_chart():
 
     # Adding legend
     ax.legend(title='Importance Level', bbox_to_anchor=(1.05, 1), loc='upper left')
-
-    # Adding labels for aspects of life (if needed, here assuming Q1-Q6 are related to these aspects)
-    aspect_labels = ['Family', 'Friends', 'Leisure', 'Politics', 'Work', 'Religion']
-    for i, label in enumerate(aspect_labels):
-        ax.text(0.5, 95 - i*15, label, horizontalalignment='center', fontsize=12, transform=ax.transAxes, bbox=dict(facecolor='white', alpha=0.8))
 
     plt.tight_layout()
     plt.show()

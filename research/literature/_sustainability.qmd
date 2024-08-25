@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, eu_coal_reduction
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, eu_coal_reduction, microplastics_body_chart
 ```
 
 ```{=mdx}
@@ -309,11 +309,14 @@ Overconsumption is also one of the root causes of plastic pollution. [@FORD20221
 
 Plastic pollution is pervasive around the Earth and is fundamentally linked to climate change, while microplastics are increasingly a real concern [@TIERNAN2022169; @laversFarDistractionPlastic2022]. Several international studies report recent findings of microplastics everywhere in human bodies: the brain, lungs, digestive tissues, bone marrow, penis, testis, seminal fluid (semen), and placenta - causing serious health and reproductive concerns [@mainMicroplasticsAreInfiltrating2024; @guoDiscoveryAnalysisMicroplastics2024; @huMicroplasticPresenceDog2024; @codringtonDetectionMicroplasticsHuman2024; @liPrevalenceImplicationsMicroplastic2024; @montanoRamanMicrospectroscopyEvidence2023; @garciaQuantitationIdentificationMicroplastics2024; @zhuTissueAccumulationMicroplastics2024]
 
+```{python}
+microplastics_body_chart()
+```
+
 -   @jacksonProsperityGrowthFoundations2017 limits to growth update
 -   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*.
 -   Overconsumption and underinvestment.
 
-<!-- -->
 
 **tipping points**
 -   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.

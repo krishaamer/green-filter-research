@@ -184,3 +184,105 @@ def eu_coal_reduction():
     plt.xticks([i + bar_width / 2 for i in index], countries_4)
     plt.legend()
     plt.show()
+
+def microplastics_body_chart():
+    # Adjusting the figure for a more anatomically correct representation of the human body
+
+    fig, ax = plt.subplots(figsize=(6, 9))  # Adjusting figure size to give more space
+
+    # Head (ellipse)
+    head = plt.Circle((0.5, 0.85), 0.08, edgecolor='black', facecolor='none')
+
+    # Body (rectangle for torso)
+    torso = plt.Rectangle((0.4, 0.55), 0.2, 0.3, edgecolor='black', facecolor='none')
+
+    # Left arm (rectangle)
+    left_arm = plt.Rectangle((0.25, 0.6), 0.15, 0.05, edgecolor='black', facecolor='none')
+
+    # Right arm (rectangle)
+    right_arm = plt.Rectangle((0.6, 0.6), 0.15, 0.05, edgecolor='black', facecolor='none')
+
+    # Left leg (rectangle)
+    left_leg = plt.Rectangle((0.43, 0.25), 0.05, 0.3, edgecolor='black', facecolor='none')
+
+    # Right leg (rectangle)
+    right_leg = plt.Rectangle((0.52, 0.25), 0.05, 0.3, edgecolor='black', facecolor='none')
+
+    # Brain (ellipse inside head)
+    brain = plt.Circle((0.5, 0.85), 0.05, edgecolor='blue', facecolor='none', linestyle='dashed')
+
+    # Lungs (ellipses inside torso)
+    left_lung = plt.Circle((0.45, 0.7), 0.03, edgecolor='green', facecolor='none', linestyle='dashed')
+    right_lung = plt.Circle((0.55, 0.7), 0.03, edgecolor='green', facecolor='none', linestyle='dashed')
+
+    # Digestive tissues (inside torso as part of stomach area)
+    digestive_tissues = plt.Rectangle((0.45, 0.55), 0.1, 0.15, edgecolor='orange', facecolor='none', linestyle='dashed')
+
+    # Bone marrow (represented in both legs)
+    left_leg_bone_marrow = plt.Line2D([0.445, 0.445], [0.25, 0.55], color='purple', linestyle='dashed')
+    right_leg_bone_marrow = plt.Line2D([0.545, 0.545], [0.25, 0.55], color='purple', linestyle='dashed')
+
+    # Placenta (represented inside the torso below digestive area)
+    placenta = plt.Rectangle((0.45, 0.45), 0.1, 0.05, edgecolor='pink', facecolor='none', linestyle='dashed')
+
+    # Penis and testis (located in lower body more anatomically correct)
+    penis = plt.Rectangle((0.48, 0.2), 0.04, 0.07, edgecolor='brown', facecolor='none', linestyle='dashed')
+    testis_left = plt.Circle((0.485, 0.17), 0.02, edgecolor='brown', facecolor='none', linestyle='dashed')
+    testis_right = plt.Circle((0.515, 0.17), 0.02, edgecolor='brown', facecolor='none', linestyle='dashed')
+
+    # Add shapes to plot
+    ax.add_artist(head)
+    ax.add_artist(torso)
+    ax.add_artist(left_arm)
+    ax.add_artist(right_arm)
+    ax.add_artist(left_leg)
+    ax.add_artist(right_leg)
+
+    # Add organs
+    ax.add_artist(brain)
+    ax.add_artist(left_lung)
+    ax.add_artist(right_lung)
+    ax.add_artist(digestive_tissues)
+    ax.add_line(left_leg_bone_marrow)
+    ax.add_line(right_leg_bone_marrow)
+    ax.add_artist(penis)
+    ax.add_artist(testis_left)
+    ax.add_artist(testis_right)
+    ax.add_artist(placenta)
+
+    # Add labels for the organs mentioned in the text using arrows pointing to the body parts
+    ax.annotate('Brain', xy=(0.5, 0.85), xytext=(0.75, 0.9),
+                arrowprops=dict(facecolor='blue', shrink=0.05), fontsize=10, color='blue')
+
+    ax.annotate('Lungs', xy=(0.45, 0.7), xytext=(0.2, 0.7),
+                arrowprops=dict(facecolor='green', shrink=0.05), fontsize=10, color='green')
+
+    ax.annotate('Digestive Tissues', xy=(0.5, 0.6), xytext=(0.75, 0.6),
+                arrowprops=dict(facecolor='orange', shrink=0.05), fontsize=10, color='orange')
+
+    ax.annotate('Bone Marrow', xy=(0.445, 0.4), xytext=(0.1, 0.4),
+                arrowprops=dict(facecolor='purple', shrink=0.05), fontsize=10, color='purple')
+
+    ax.annotate('Penis', xy=(0.5, 0.22), xytext=(0.8, 0.25),
+                arrowprops=dict(facecolor='brown', shrink=0.05), fontsize=10, color='brown')
+
+    ax.annotate('Testis', xy=(0.5, 0.17), xytext=(0.2, 0.15),
+                arrowprops=dict(facecolor='brown', shrink=0.05), fontsize=10, color='brown')
+
+    ax.annotate('Placenta', xy=(0.5, 0.47), xytext=(0.8, 0.5),
+                arrowprops=dict(facecolor='pink', shrink=0.05), fontsize=10, color='pink')
+
+    # Add title
+    plt.title('Microplastics Inside the Human Body', fontsize=14)
+
+    # Set limits for better viewing
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+
+    # Remove axis for cleaner look
+    ax.set_xticks([])
+    ax.set_yticks([])
+
+    # Show the plot
+    plt.gca().set_aspect('equal', adjustable='box')
+    plt.show()
