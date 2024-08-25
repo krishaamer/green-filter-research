@@ -1,8 +1,11 @@
 import warnings
 warnings.filterwarnings("ignore")
 
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
 def company_rank_chart():
 
@@ -36,7 +39,6 @@ def company_rank_chart():
 
     plt.grid(True)
     plt.show()
-
 
 
 def genz_enrollment_chart():
@@ -396,6 +398,106 @@ def mean_global_attitudes():
 
     # Display the legend
     fig.legend(['2010', '2020'], loc='upper center', ncol=2)
+
+    plt.tight_layout()
+    plt.show()
+
+def postmaterialist_chart():
+    # Full dataset for Postmaterialist Index from the document
+    countries_full_corrected = [
+        "Sweden", "Germany", "Bahrain", "Chile", "Uruguay", "Pakistan", "Netherlands", "Slovenia",
+        "Colombia", "Mexico", "Philippines", "Spain", "Hong Kong", "Poland", "New Zealand", "India",
+        "Japan", "Singapore", "Zimbabwe", "South Africa", "Lebanon", "Brazil", "Ecuador", "Estonia",
+        "Turkey", "Argentina", "South Korea", "Algeria", "Peru", "Romania", "Thailand", 
+        "Nigeria", "Australia", "USA", "Malaysia", "Azerbaijan", "Belgium", "Ukraine", "Trinidad",
+        "Palestine", "Liberia", "Cyprus", "Rwanda", "Ghana", "Taiwan", "Kyrgyzstan", "Iran", "Russia",
+        "Uzbekistan", "Morocco", "Kazakhstan", "Georgia", "China", "Jordan", "Armenia", "Yemen", 
+        "Egypt", "Tunisia"
+    ]
+
+    postmaterialist_scores_full = [
+        2.81, 2.74, 2.69, 2.53, 2.45, 2.35, 2.33, 2.32, 2.29, 2.27, 2.24, 2.21, 2.21, 2.21, 2.18, 2.16,
+        2.13, 2.11, 2.11, 2.09, 2.08, 2.08, 2.07, 2.07, 2.06, 2.05, 2.00, 1.99, 1.98, 1.97, 1.97, 1.96, 
+        1.95, 1.94, 1.90, 1.78, 1.77, 1.74, 1.74, 1.72, 1.72, 1.70, 1.69, 1.67, 1.64, 1.63, 1.63, 1.58,
+        1.58, 1.50, 1.49, 1.44, 1.38, 1.27, 1.19, 1.15, 1.11, 0.94
+    ]
+
+    # Create a bar chart with a highlighted circle around Taiwan's score
+    plt.figure(figsize=(12, 8))
+    bars = plt.bar(countries_full_corrected, postmaterialist_scores_full, color='lightblue')
+
+    # Highlight Taiwan
+    taiwan_index = countries_full_corrected.index("Taiwan")
+    bars[taiwan_index].set_color('red')
+
+    # Draw a circle around Taiwan
+    plt.gca().add_patch(plt.Circle((taiwan_index, postmaterialist_scores_full[taiwan_index]), 0.5, color='red', fill=False, lw=2))
+
+    # Add labels and title
+    plt.xticks(rotation=90, fontsize=8)
+    plt.ylabel('Postmaterialist Index')
+    plt.title('Postmaterialist Index Comparison for 59 Countries (Taiwan Highlighted)')
+    plt.tight_layout()
+    plt.show()
+
+def world_values_chart():
+    # Load the dataset
+    data = pd.read_csv(os.path.join(data_dir, 'world-values.csv'), delimiter=';')
+
+    # Define the generational groups
+    gen_z_data = data[(data['Q261'] >= 1997) & (data['Q261'] <= 2012)]
+    millennials_data = data[(data['Q261'] >= 1981) & (data['Q261'] <= 1996)]
+    gen_x_data = data[(data['Q261'] >= 1965) & (data['Q261'] <= 1980)]
+    boomers_data = data[(data['Q261'] >= 1946) & (data['Q261'] <= 1964)]
+    silent_data = data[data['Q261'] < 1946]
+
+    # Extract importance data (Q1 to Q6)
+    importance_dict = {
+        'Generation Z (1997-2012)': gen_z_data[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6']].apply(pd.Series.value_counts),
+        'Millennials (1981-1996)': millennials_data[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6']].apply(pd.Series.value_counts),
+        'Generation X (1965-1980)': gen_x_data[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6']].apply(pd.Series.value_counts),
+        'Baby Boomers (1946-1964)': boomers_data[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6']].apply(pd.Series.value_counts),
+        'Silent Generation (<1946)': silent_data[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6']].apply(pd.Series.value_counts)
+    }
+
+    # Calculate percentages for each importance level (1 to 4) by dividing the count by the total number of respondents in each generation
+    stacked_data_percentage = {level: [] for level in ['Very Important', 'Quite Important', 'Not Very Important', 'Not At All Important']}
+    gen_totals = {gen: importance_dict[gen].sum().sum() for gen in importance_dict}
+
+    for gen in importance_dict:
+        gen_data = importance_dict[gen]
+        total_respondents = gen_totals[gen]
+        for level in [1, 2, 3, 4]:
+            percentage = gen_data.loc[level].sum() / total_respondents * 100
+            stacked_data_percentage[['Very Important', 'Quite Important', 'Not Very Important', 'Not At All Important'][level-1]].append(percentage)
+
+    # Create a DataFrame to summarize the stacked percentages
+    summary_data = pd.DataFrame(stacked_data_percentage, index=importance_dict.keys())
+
+    # Plotting the stacked bar chart
+    fig, ax = plt.subplots(figsize=(12, 7))
+
+    # Plotting the stacked bar chart with percentage values
+    bottom_values = np.zeros(len(importance_dict))
+    for level in ['Very Important', 'Quite Important', 'Not Very Important', 'Not At All Important']:
+        ax.bar(importance_dict.keys(), summary_data[level], bottom=bottom_values, label=level)
+        bottom_values += summary_data[level]
+
+    # Setting labels and formatting
+    ax.set_title('Importance of Various Aspects of Life by Generation (Percentage)', fontsize=14)
+    ax.set_xlabel('Generations', fontsize=12)
+    ax.set_ylabel('Percentage of Respondents', fontsize=12)
+
+    # Ensure aspect labels are visible
+    ax.tick_params(axis='x', rotation=45)
+
+    # Adding legend
+    ax.legend(title='Importance Level', bbox_to_anchor=(1.05, 1), loc='upper left')
+
+    # Adding labels for aspects of life (if needed, here assuming Q1-Q6 are related to these aspects)
+    aspect_labels = ['Family', 'Friends', 'Leisure', 'Politics', 'Work', 'Religion']
+    for i, label in enumerate(aspect_labels):
+        ax.text(0.5, 95 - i*15, label, horizontalalignment='center', fontsize=12, transform=ax.transAxes, bbox=dict(facecolor='white', alpha=0.8))
 
     plt.tight_layout()
     plt.show()

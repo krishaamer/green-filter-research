@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map
+from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -1072,6 +1072,14 @@ esg_fintech_heatmap()
 In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
 
 ### ESG (Governance)
+
+
+```{python}
+msci_board_sustainability_experts()
+```
+
+
+MSCI research finds company boards severly lacking in climate experts [@sommerWhoClimateExpert2024].
 
 A systematic meta-review of 153 research papers of ESG literature around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes [@martinyDeterminantsEnvironmentalSocial2024].
 

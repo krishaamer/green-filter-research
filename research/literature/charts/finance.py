@@ -1105,3 +1105,52 @@ def slavery_map():
     # Set title
     plt.title("Illegal Profits from Forced Labor by Region", fontsize=15)
     plt.show()
+
+def msci_board_sustainability_experts():
+    # Data for Climate Expertise by Type
+    expertise_types = ['Executive-Level Experience', 'Designations and Qualifications', 'Professional Network', 
+                    'Public-Sector Expert', 'Academic', 'Consultant']
+    expertise_percentages = [50, 20, 10, 5, 10, 5]  # Example percentages
+
+    # Data for Number of Climate Experts per Firm
+    num_experts = ['No Experts', 'One Expert', 'Two Experts', 'Three or More Experts']
+    num_expert_firms = [107, 39, 10, 8]  # Number of firms
+
+    # Data for Regional Distribution
+    regions = ['EMEA', 'Americas', 'APAC']
+    region_percentages = [48, 36, 20]  # Percentages of firms with at least one climate expert
+
+    # Data for Sector Analysis
+    sectors = ['Energy', 'Materials', 'Utilities', 'Industrials', 'Consumer Discretionary', 'Consumer Staples']
+    sector_percentages = [44, 35, 30, 25, 22, 20]  # Percentages of firms with at least one climate expert
+
+    # Create Subplots
+    fig, axs = plt.subplots(2, 2, figsize=(14, 10))
+    fig.suptitle('Climate Expertise on Boards', fontsize=16)
+
+    # Climate Expertise by Type
+    sns.barplot(x=expertise_types, y=expertise_percentages, ax=axs[0, 0], palette='viridis')
+    axs[0, 0].set_title('Climate Expertise by Type')
+    axs[0, 0].set_ylabel('Percentage (%)')
+    axs[0, 0].set_xticklabels(expertise_types, rotation=45, ha='right')
+
+    # Number of Climate Experts per Firm
+    axs[0, 1].pie(num_expert_firms, labels=num_experts, autopct='%1.1f%%', colors=sns.color_palette('pastel'), startangle=140)
+    axs[0, 1].set_title('Number of Climate Experts per Firm')
+
+    # Regional Distribution of Climate Expertise
+    sns.barplot(x=regions, y=region_percentages, ax=axs[1, 0], palette='magma')
+    axs[1, 0].set_title('Regional Distribution of Climate Expertise')
+    axs[1, 0].set_ylabel('Percentage (%)')
+
+    # Sector Analysis of Climate Expertise
+    sns.barplot(x=sectors, y=sector_percentages, ax=axs[1, 1], palette='coolwarm')
+    axs[1, 1].set_title('Sector Analysis of Climate Expertise')
+    axs[1, 1].set_ylabel('Percentage (%)')
+    axs[1, 1].set_xticklabels(sectors, rotation=45, ha='right')
+
+    # Adjust layout
+    plt.tight_layout(rect=[0, 0, 1, 0.96])
+
+    # Show plot
+    plt.show()
