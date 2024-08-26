@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
 import networkx as nx
+import os
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
 def air_chart():
 
@@ -232,4 +234,38 @@ def eu_green_deal():
     plt.title("Combined Concept Map of EU Green Deal Regulations and Categories", fontsize=16, fontweight='bold')
 
     # Show the chart
+    plt.show()
+
+def open_data_vs_civic_engagement():
+    hello = "plap"
+
+def open_data_index():
+    # Load the data
+    data = pd.read_csv(os.path.join(data_dir, 'open-data.csv'))
+
+    # Sorting data so that the highest score country (best) is at the top
+    sorted_data = data.sort_values(by='score', ascending=False)
+
+    # Increase the figure height and padding to improve legibility
+    plt.figure(figsize=(10, 16))  # Further increase height for better spacing
+
+    # Set the bar width and spacing between the bars
+    bar_width = 0.7
+    bar_spacing = 1  # Increase the padding for better legibility
+
+    # Plot the bars with the increased spacing
+    bars = plt.barh(sorted_data['name'], sorted_data['score'], color='lightblue', height=bar_width)
+
+    # Highlight Taiwan with a red bar
+    taiwan_sorted = sorted_data[sorted_data['name'] == 'Taiwan']
+    plt.barh(taiwan_sorted['name'], taiwan_sorted['score'], color='red', height=bar_width)
+
+    # Set title and labels
+    plt.title('Scores by Country (Best at the Top, Taiwan Highlighted)')
+    plt.xlabel('Score')
+    plt.ylabel('Country')
+
+    # Adjust spacing between the bars
+    plt.tight_layout(pad=bar_spacing)
+    plt.gca().invert_yaxis()  # Invert y-axis so the best is at the top
     plt.show()

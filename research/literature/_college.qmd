@@ -24,12 +24,11 @@ There's lack of scientific research when it comes to Taiwanese college students,
 postmaterialist_chart()
 ```
 
-
 World Values Survey
+
 ```{python}
 world_values_chart()
 ```
-
 
 [@franzenDevelopmentGlobalEnvironmental2024] measures *"mean environmental concern"* to look at decade-level changes in societal environmental attitudes across countries. Taiwan's general attitudes have stayed almost the same (slight increase). The UK has had the largest jump in concern. Curiously, South Korea has had a slight decrease in concern. Slovakia and Russia were not very concerned with the environment a decade ago and are even less concerned now.
 
@@ -236,7 +235,7 @@ Taiwanese college students are subjected to high levels of pollution. University
 
 Religion plays a role in air pollution: @tangRitualBurningThreatens2014
 
-## Developing Personas for College Students
+## Designing for College Students: Developing Personas
 
 User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
 

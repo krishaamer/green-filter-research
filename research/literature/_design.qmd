@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -206,6 +206,8 @@ In most cases, designing for sustainability makes use of *systems thinking*, und
 
 R. Buckminster Fuller "Operating Manual for Spaceship Earth", Victor Papanek "Design for the Real World", Jonathan Chapman "Emotionally Durable Design", Carlo Vezzoli "Product-Service System Design for Sustainability", Ezio Manzini "Design, When Everybody Designs".
 
+[@engkvistWhyArenThere2024] calls for *Design Sociology*, design should take account the product's effect on society, giving the example of highly individualized understanding of individualized psychology and dopamine cycles for creating social media, while disregarding the societal effects spread of misinformation.
+
 *Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
 
 ```{python}
@@ -262,13 +264,13 @@ user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
 ### In Practice Sustainability Begins in Software
 
-Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
+Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
 Design encompasses most everything in our daily lives. Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
 -   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
 
-*Data is the interface* between idle resources and retail demand, which makes *exchange of value* possible.
+Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible.
 
 -   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
 
@@ -287,7 +289,7 @@ Interaction Design for Climate Change: how can we change common UIs so they take
 
 AI-Assisted Design
 
-**Tool vs Assistant? (Tools are mostly non-anthropomorphic?).** Tools do not call attention to themselves. They don't necessarily rely on human-like representations that call attention to themselves but rather are available in-context to help streamline specific tasks.
+Tools do not call attention to themselves. They don't necessarily rely on human-like representations that call attention to themselves but rather are available in-context to help streamline specific tasks. Tool vs Assistant? Tools are mostly non-anthropomorphic.
 
 -   @september162020WhatAIassistedDesign2020 "What is AI-assisted Design?"
 -   @clipdropCreateStunningVisuals AI Design Assistants
@@ -296,7 +298,9 @@ AI-Assisted Design
 -   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
 -   @CharismaStorytellingPowered storytelling by AI
 
-## Data-Driven Design: Sustainable Personalization at Scale
+## Data-Driven Design: What Can Sustainability Learn from Personalization at Scale
+
+-   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
 
 Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
@@ -309,7 +313,7 @@ One mode
 -   @koningsHowPrepareYour2020
 -   "Digital sustainability principles"
 -   Eminent journal Design Studies, 1st design journal
--   Part of digital product design are **design systems** to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
+-   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
     -   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
     -   @ComprehensiveGuideDesign
     -   @suarezDesignSystemsHandbook
@@ -335,7 +339,7 @@ The concept of *Social Objects*: People need something to gather around and disc
 -   @natashamascarenhasQueenlyMarketplaceFormalwear2021
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
-*Narrative Design,* Humans respond well to ***storytelling***, making ***character design*** and ***narrative design*** relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
+*Narrative Design,* Humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
 
 -   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
 
@@ -345,25 +349,15 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Stories start with a character.
 
-### Designing for College Students
+## Digital Platforms Grow into Superapps
 
--   plap
+Superapps are the latter stage of the Digital Platform Economy.
 
-### Personalization
-
--   Personal User Experience. social apps require personalization, trust and k-factors (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
-
-### Growth Design
-
--   For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
 -   Hypothesis and validation for iterating on features.
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
-
-## Digital Platforms Grow into Superapps
-
-Superapps are the latter stage of the Digital Platform Economy.
 
 Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
@@ -546,7 +540,17 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 ant_forest()
 ```
 
-### Open Data Sharing
+## Open Data Sharing vs Data Privacy
+
+Open data is needed for civic engagement.
+
+Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+
+```{python}
+open_data_index()
+```
+
+Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
 Open Data Enables Collaboration
 
@@ -564,7 +568,8 @@ Data-driven design requires access to data. making the movement towards *open da
 
 -   When will Bolt show CO~2~ emissions per every trip?
 -   Sustainable finance data platform:
--   @wikirateWebinarEnvisioningFinding2021 WikiRate defines Data Sharing Archetypes
+
+WikiRate is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
 
 +--------------------------------------+---------------------------------------------------------------+
 | Type                                 | Example                                                       |
@@ -584,18 +589,11 @@ Data-driven design requires access to data. making the movement towards *open da
 | Knowledge sharing platform           | business-humanrights.org                                      |
 +--------------------------------------+---------------------------------------------------------------+
 
--   WikiRate is a tool for checking green credentials Transparency
 -   @laureenvanbreenPanelScalingCorporate2023
 -   @wikirateIntroducingFacilityChecker2022
 -   @HomeChainReact
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
-
-### Data Privacy
-
-Sustainability needs to be balanced with privacy.
-
--   @sanchezGreenBearLoRaWANbased2022 suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
 
 ## Self-Monitoring
 

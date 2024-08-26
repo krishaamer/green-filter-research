@@ -1187,7 +1187,7 @@ def companies_large_emitters_criteria():
     plt.gca().add_artist(center_circle)
 
     # Set title and layout
-    plt.title('Overall Accounting and Audit Assessment\n(Company Count)')
+    plt.title('Overall Accounting and Audit Assessment')
     plt.tight_layout()
 
     # Show the chart
@@ -1204,7 +1204,7 @@ def companies_large_emitters_climate_experts():
     plt.pie(sizes, labels=labels, autopct='%1.0f%%', startangle=90, colors=colors, wedgeprops={'width': 0.3})
 
     # Title for the chart
-    plt.title('Firms by Number of Climate Experts (with Firm Counts)')
+    plt.title('Firms by Number of Climate Experts')
 
     # Display the chart
     plt.show()

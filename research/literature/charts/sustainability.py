@@ -1,10 +1,11 @@
 import warnings
 warnings.filterwarnings("ignore")
 
+import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-
 import os
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 script_dir = os.path.dirname(os.path.abspath(__file__))
 font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
 chinese_font = FontProperties(fname=font_path, size=12)
@@ -311,4 +312,22 @@ def microplastics_body_chart():
 
     # Show the plot
     plt.gca().set_aspect('equal', adjustable='box')
+    plt.show()
+
+def taiwan_pollution_reports():
+    data = pd.read_csv(os.path.join(data_dir, 'taiwan-pollution-reports.csv'))
+    data_sorted_by_value1 = data.sort_values('value1', ascending=False)
+
+    plt.figure(figsize=(10, 6))
+
+    # Bar plot: Pollution reports by location (district) with updated font
+    plt.barh(data_sorted_by_value1['district'], data_sorted_by_value1['value1'], color='orange', alpha=0.8)
+
+    # Add titles and labels with the new font
+    plt.title('Pollution Reports by District (Location)', fontproperties=chinese_font)
+    plt.xlabel('Number of Pollution Reports (Value1)', fontproperties=chinese_font)
+    plt.ylabel('District (Location)', fontproperties=chinese_font)
+
+    # Show the chart
+    plt.tight_layout()
     plt.show()

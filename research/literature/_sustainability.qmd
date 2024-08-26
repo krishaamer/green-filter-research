@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports
 ```
 
 ```{=mdx}
@@ -317,10 +317,7 @@ microplastics_body_chart()
 -   [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*.
 -   Overconsumption and underinvestment.
 
-
-**tipping points**
--   @armstrongmckayExceedingGlobalWarming2022 discusses tipping points.
--   @tedTippingPointsClimate2024
+**tipping points** - @armstrongmckayExceedingGlobalWarming2022 discusses tipping points. - @tedTippingPointsClimate2024
 
 In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
 
@@ -477,7 +474,15 @@ Around the world, there are many initiatives to increase forest cover, for examp
 
 ### Pollution
 
+In, Taiwan this is the ranking of pollution reports by citizens:
+
+```{python}
+taiwan_pollution_reports()
+```
+
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].
+
+*Design Implications* Start with the most polluted regigons as priority?
 
 **Air Pollution**
 
@@ -608,7 +613,7 @@ Wind and solar energy overtook fossil energy in Europe.
 eu_renewable_vs_fossil()
 ```
 
-Globally, renewables also overtook fossil fuels.
+Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate2024].
 
 ```{python}
 global_renewables_vs_fossil()

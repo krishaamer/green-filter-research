@@ -1073,24 +1073,27 @@ In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the path
 
 ### ESG (Governance)
 
-MSCI research finds company boards severly lacking in climate experts; among the 164 large CO2 emitters benchmarked by the *Climate Action 100+* alliance [@sommerWhoClimateExpert2024].
+Governance drives social and environmental initiatives at companies.
+
+MSCI research finds company boards severely lacking in climate experts; among the 164 large CO2 emitters benchmarks by the *Climate Action 100+* alliance [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
+
+[@climateaction100+Companies2023] tracks large emitters around the world with combined market cap of \$10.3 Trillion USD.
 
 ```{python}
 msci_board_sustainability_experts()
 ```
 
-Most companies don't have climate experts
+Majority of large emitters companies don't have climate experts [@climateaction100+Companies2023].
 
 ```{python}
 companies_large_emitters_climate_experts()
 ```
 
-Most companies do not meet criteria.
+Most companies do not meet criteria [@climateaction100+Companies2023].
 
 ```{python}
 companies_large_emitters_criteria()
 ```
-
 
 A systematic meta-review of 153 research papers of ESG literature around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes [@martinyDeterminantsEnvironmentalSocial2024].
 
@@ -1108,29 +1111,11 @@ Shareholders can leverage their numbers and join forces in order to affect the b
 
 ### ESG (Crisis)
 
--   ESG is filled with greenwashing. ESG is a really low bad.
+ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023].
 
--   Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG?
-
--   Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
-
-<!-- -->
-
--   metrics and goals: ESG, SDGs,
-
--   @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
-
--   @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative"
-
-```{python}
-fund_types_chart()
-```
-
--   ESG risk
+The lack of rigor is creating a backlash against ESG reporting.[@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative". @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
 
 -   ESG greenwashing @baldiRoleESGScoring2022
-
--   ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - "well-rated companies do not emit significantly less carbon than those with lower scores." @amencGreenDilutionHow2023
 
 [@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
 
@@ -1138,11 +1123,13 @@ fund_types_chart()
 conventional_vs_sri_funds()
 ```
 
--   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.
+-   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
--   @chenxiyuHowAICan2021 ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.
+```{python}
+fund_types_chart()
+```
 
-Three frameworks for corporates to think about ESG complicance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
+Three frameworks for corporate to think about ESG compliance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
 
 ### ESG (Methodologies)
 
