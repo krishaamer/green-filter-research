@@ -164,6 +164,32 @@ def eu_renewable_vs_fossil():
     plt.legend()
     plt.show()
 
+def global_renewables_vs_fossil():
+    # Data for renewable and fossil fuel shares in global electricity generation
+    years_comparison = [2023, 2024, 2025]
+    renewable_share = [30, 32, 35]  # Renewable share projected to grow
+    fossil_fuel_share = [36, 34, 33]  # Fossil fuel share projected to decline
+
+    # Create a comparison chart
+    plt.figure(figsize=(8, 6))
+
+    # Plot the data
+    plt.plot(years_comparison, renewable_share, label="Renewables", marker='o')
+    plt.plot(years_comparison, fossil_fuel_share, label="Fossil Fuels", marker='o')
+
+    # Adjusting ticks to only show full years
+    plt.xticks(years_comparison)
+
+    # Add titles and labels
+    plt.title("Renewables vs Fossil Fuels (2023-2025)")
+    plt.xlabel("Year")
+    plt.ylabel("Share of Electricity Generation (%)")
+    plt.legend()
+    plt.grid(True)
+
+    # Show the plot
+    plt.show()
+
 def eu_coal_reduction():
     # Data for the fourth chart: Country-Specific Reductions in Fossil Fuel Use
     countries_4 = ['Germany', 'Italy', 'Spain', 'Belgium', 'France', 'Poland']

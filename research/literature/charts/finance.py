@@ -1154,3 +1154,57 @@ def msci_board_sustainability_experts():
 
     # Show plot
     plt.show()
+
+def companies_large_emitters_criteria():
+    # Corrected data for the chart
+    audit_assessment_data = {
+        'No, does not meet any criteria': 84,
+        'Partial, meets some criteria': 56
+    }
+
+    # Convert dictionary to values for plotting
+    labels = list(audit_assessment_data.keys())
+    sizes = list(audit_assessment_data.values())
+
+    # Define colors
+    colors = ['#ff6666', '#ffcc66', '#66b3ff', '#99ff99']
+
+    # Function to display both percentage and actual counts
+    def autopct_format(values):
+        def my_format(pct):
+            total = sum(values)
+            val = int(round(pct * total / 100.0))
+            return f'{pct:.1f}%\n({val:d})'
+        return my_format
+
+    # Create the donut chart
+    plt.figure(figsize=(8, 8))
+    plt.pie(sizes, labels=labels, autopct=autopct_format(sizes),
+            startangle=90, colors=colors, wedgeprops={'linewidth': 3, 'edgecolor': 'white'})
+
+    # Add a center circle to make it a donut
+    center_circle = plt.Circle((0, 0), 0.70, fc='white')
+    plt.gca().add_artist(center_circle)
+
+    # Set title and layout
+    plt.title('Overall Accounting and Audit Assessment\n(Company Count)')
+    plt.tight_layout()
+
+    # Show the chart
+    plt.show()
+
+def companies_large_emitters_climate_experts():
+    # Data for the donut chart with company numbers and adjusted colors to show gravity of the situation
+    labels = ['No climate experts (107 firms)', 'One climate expert (39 firms)', 'Two climate experts (10 firms)', 'Three or more climate experts (8 firms)']
+    sizes = [107, 39, 10, 8]
+    colors = ['#d73027', '#fc8d59', '#fee08b', '#91cf60']  # Colors reflecting severity: red for lack of experts, green for more
+
+    # Create a donut chart with gravity-emphasized colors
+    plt.figure(figsize=(8, 8))
+    plt.pie(sizes, labels=labels, autopct='%1.0f%%', startangle=90, colors=colors, wedgeprops={'width': 0.3})
+
+    # Title for the chart
+    plt.title('Firms by Number of Climate Experts (with Firm Counts)')
+
+    # Display the chart
+    plt.show()

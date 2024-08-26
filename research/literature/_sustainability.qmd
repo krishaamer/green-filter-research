@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, eu_coal_reduction, microplastics_body_chart
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart
 ```
 
 ```{=mdx}
@@ -602,10 +602,16 @@ EU energy mix in 2024
 eu_energy_breakdown()
 ```
 
-Wind and solar energy overtook fossil energy.
+Wind and solar energy overtook fossil energy in Europe.
 
 ```{python}
 eu_renewable_vs_fossil()
+```
+
+Globally, renewables also overtook fossil fuels.
+
+```{python}
+global_renewables_vs_fossil()
 ```
 
 Meanwhile reduction in coal-power was also possible. Coal is a large CO2 emitter.
