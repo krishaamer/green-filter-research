@@ -269,3 +269,82 @@ def open_data_index():
     plt.tight_layout(pad=bar_spacing)
     plt.gca().invert_yaxis()  # Invert y-axis so the best is at the top
     plt.show()
+
+def open_data_compare():
+    # Data from the rankings across different open data benchmarks
+    countries = ['Canada', 'UK', 'Taiwan', 'Australia', 'Ireland', 'Spain', 'Denmark', 'Norway', 'Korea', 'France', 'Singapore']
+    ranks_barometer = [1, 1, None, None, None, None, None, None, None, None, None]  # Open Data Barometer
+    ranks_index = [None, None, 1, 2, None, None, None, None, None, None, None]  # Open Data Index
+    ranks_maturity = [None, None, None, None, 1, 2, None, None, None, None, None]  # Open Data Maturity
+    ranks_wjp = [None, None, None, None, None, None, 1, 2, None, None, None]  # WJP Open Government Index
+    ranks_oecd = [None, None, None, None, None, None, None, None, 1, 2, None]  # OECD Report
+    ranks_watch = [None, None, None, None, None, None, None, None, None, None, 1]  # Open Data Watch
+
+    # Plotting the ranking comparison for each country across the benchmarks
+    plt.figure(figsize=(12, 6))
+    plt.plot(countries, ranks_barometer, marker='o', label='Open Data Barometer', color='blue')
+    plt.plot(countries, ranks_index, marker='o', label='Open Data Index', color='green')
+    plt.plot(countries, ranks_maturity, marker='o', label='Open Data Maturity', color='orange')
+    plt.plot(countries, ranks_wjp, marker='o', label='WJP Open Government Index', color='purple')
+    plt.plot(countries, ranks_oecd, marker='o', label='OECD Report', color='red')
+    plt.plot(countries, ranks_watch, marker='o', label='Open Data Watch', color='cyan')
+
+    # Adding titles and labels
+    plt.title('Comparative Ranking of Countries in Various Open Data Benchmarks')
+    plt.xlabel('Country')
+    plt.ylabel('Rank (1 = Best)')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.gca().invert_yaxis()  # Invert y-axis so that Rank 1 appears at the top
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+def pandemic():
+    # Data for incidents before and after the pandemic
+    bp_counts = [1643, 16850, 21386, 750, 1481]
+    pp_counts = [1938, 22366, 26656, 670, 1522]
+    categories = ['Urination & Defecation', 'Littering', 'Graffiti & Physical Damage', 'Abandoned Cars', 'Poor Bike Parking']
+
+    # Radar chart requires the data to be circular, so append the first value to the end
+    bp_counts_circular = bp_counts + [bp_counts[0]]  # Append first value to close the loop
+    pp_counts_circular = pp_counts + [pp_counts[0]]  # Append first value to close the loop
+    labels = categories + [categories[0]]  # Append first category to close the loop
+
+    # Set up the radar chart
+    angles = np.linspace(0, 2 * np.pi, len(categories), endpoint=False).tolist()
+    angles += angles[:1]  # Close the loop in the angles
+
+    fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
+    ax.fill(angles, bp_counts_circular, color='blue', alpha=0.25, label='Before Pandemic')
+    ax.plot(angles, bp_counts_circular, color='blue', linewidth=2)
+
+    ax.fill(angles, pp_counts_circular, color='green', alpha=0.25, label='After Pandemic')
+    ax.plot(angles, pp_counts_circular, color='green', linewidth=2)
+
+    # Add labels and title
+    ax.set_yticklabels([])
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(categories, size=12, rotation=30, ha='right')
+    ax.set_title('Incidents Distribution (Before vs After)', size=15, color='darkblue')
+    ax.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
+
+    plt.tight_layout()
+    plt.show()
+
+def malaysia_forests():
+    forest_reserve_data = pd.read_csv(os.path.join(data_dir, 'malaysia-forest-reserve.csv'))
+
+    # Convert the date column to datetime format for better plotting
+    forest_reserve_data['date'] = pd.to_datetime(forest_reserve_data['date'])
+
+    # Create the plot
+    plt.figure(figsize=(10, 6))
+    plt.plot(forest_reserve_data['date'], forest_reserve_data['area'], marker='o', linestyle='-', color='b')
+    plt.title('Decline in Malaysian Permanent Forest Reserves (2003 onwards)')
+    plt.xlabel('Year')
+    plt.ylabel('Area of Forest Reserves (in hectares)')
+    plt.grid(True)
+
+    # Show the plot
+    plt.show()

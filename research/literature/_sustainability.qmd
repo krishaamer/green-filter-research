@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked
 ```
 
 ```{=mdx}
@@ -478,6 +478,10 @@ In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigi
 
 ```{python}
 taiwan_pollution_reports()
+```
+
+```{python}
+taiwan_pollution_reports_stacked()
 ```
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].

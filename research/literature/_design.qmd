@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -72,11 +72,13 @@ The key to comparing Product Stewardship, Extended Producer Responsibility (EPR)
 compare_ps_epr_ecodesign()
 ```
 
-## Political Action
-
-I was torn whether to put politics under Sustainability or Design, and decided for the latter - as sustainability is most descriptive, using science to measure and present the real situation, while Design - like politics - is prescriptive: making decisions about how do we live.
+## Design is Political Action
 
 Design *is* political.
+
+I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services.
+
+Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
 
 -   @paterPoliticsDesignNot2021
 -   10 countries use almost 100% renewable energy
@@ -99,13 +101,10 @@ Warming global climate has concrete effects on daily life. Warmer climate helps 
 
 Many companies are developing technologies for mitigation.
 
-Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
-
--   @eestivabariigivalitsusRohepoordeTegevusplaan2022 Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan).
-
 In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
 
 -   [@EUTaxonomySustainable] report: The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance.
+-   National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022].
 
 **Taxes**
 
@@ -198,15 +197,54 @@ Wellbeing Economy Governments is an Example of Country-level Collaboration
 -   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
 -   @fabrisCLIMATECHANGEQUALITY2022
 
-## How to Design for Sustainability: A Diversity of Approaches
+## Design with Open Data
 
-*Designing for Sustainability* *(DfS)* has many names, with subtle differences of emphasis and nuance. While the ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss and use *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and many others.
+Open data is needed for civic engagement. Sharing vs Privacy is a political question. Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
+
+Open Data Enables Collaboration. Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021].
+
+Enhance interoperability @WhatOpenData
+
+Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+
+```{python}
+open_data_index()
+```
+
+Other indexes do not include Taiwan in the TOP 10.
+
+```{python}
+open_data_compare()
+```
+
+Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
+
+| Country  | Project                    | Reference           |
+|----------|----------------------------|---------------------|
+| Sweden   | Swedish open data portal   | @SverigesDataportal |
+| Malaysia | Malaysian open data portal | data.gov.my         |
+| Estonia  |                            |                     |
+
+: Examples of cities and countries that share data openly.
+
+-   When will Bolt show CO~2~ emissions per every trip?
+-   Sustainable finance data platform:
+
+For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024].
+
+```{python}
+malaysia_forests()
+```
+
+## Design for Sustainability: Diversity of Approaches
+
+*Designing for Sustainability* *(DfS)* has been called with many names, with subtle differences of emphasis and nuance. While the ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss and use *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and many others.
 
 In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependencies contained within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
 R. Buckminster Fuller "Operating Manual for Spaceship Earth", Victor Papanek "Design for the Real World", Jonathan Chapman "Emotionally Durable Design", Carlo Vezzoli "Product-Service System Design for Sustainability", Ezio Manzini "Design, When Everybody Designs".
 
-[@engkvistWhyArenThere2024] calls for *Design Sociology*, design should take account the product's effect on society, giving the example of highly individualized understanding of individualized psychology and dopamine cycles for creating social media, while disregarding the societal effects spread of misinformation.
+[@engkvistWhyArenThere2024] calls for *Design Sociology*, design should take account the product's effect on society, giving the example of highly individualized understanding of individualized psychology and dopamine cycles for creating social media, while disregarding the societal effects, such as spread of misinformation. Lack of sustainability in the design process is a *bug* in the design approach.
 
 *Service Design*, @ceschinEvolutionDesignSustainability2016 shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example @CargoBikeFREITAG, recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
 
@@ -298,68 +336,19 @@ Tools do not call attention to themselves. They don't necessarily rely on human-
 -   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
 -   @CharismaStorytellingPowered storytelling by AI
 
-## Data-Driven Design: What Can Sustainability Learn from Personalization at Scale
+## Data-Driven Design: Learning from the Growth of Digital Platforms and Superapps
 
--   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
+Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. Superapps are the latter stage of the Digital Platform Economy, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services.
 
-Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
-
-Data-driven design has limitations.
-
-Coputer
-
-One mode
-
--   @koningsHowPrepareYour2020
--   "Digital sustainability principles"
--   Eminent journal Design Studies, 1st design journal
--   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
-    -   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
-    -   @ComprehensiveGuideDesign
-    -   @suarezDesignSystemsHandbook
-    -   @MethodPodcastEpisode
-    -   @AtomicDesignBrad
--   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
--   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
--   @PeopleAIGuidebook
--   @LanguageModelSketchbook
--   @parundekarEssentialGuideCreating2021
--   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
--   AI for design: @figmaAINextChapter2023
-
-The concept of *Social Objects*: People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
-
-*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
-
--   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
--   What percent of all design is "sustainable design" ? Promoting sustainable design.
--   @joshluberTradingCardsAre2021 Trading cards are cool again
--   @jesseeinhornNewBalance6502020
--   @connieloizosMarcyVenturePartners2021
--   @natashamascarenhasQueenlyMarketplaceFormalwear2021
--   @jeffjohnrobertsDigitalArtAwaits2020
-
-*Narrative Design,* Humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design.
-
--   The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
-
--   @aletheaaiAletheaAIAI2021: discusses writing AI Characters, creating a personality.
-
--   Writing as training data? large language models. GTP3.
-
--   Stories start with a character.
-
-## Digital Platforms Grow into Superapps
-
-Superapps are the latter stage of the Digital Platform Economy.
-
-Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
 -   Hypothesis and validation for iterating on features.
 
 -   Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA)
 
-Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data. Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
+Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data.
+
+Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
 Design is as much about how it works as it's about the interface.
 
@@ -425,7 +414,7 @@ Could there be Sustainability Superapps?
 
 ### Behavioral Design
 
-For decades, marketers and researchers have been researching how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
+For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
 The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n=200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
 
@@ -433,7 +422,7 @@ Google uses nudges in Google Flights and Google Maps, which allow filtering flig
 
 In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
-Google VERY IMPORTANTT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
 
 +-----------------------------------------------------------------------------------------------+----------------+-----------------------------------------+
 | Feature                                                                                       | Product        | Nudge                                   |
@@ -540,62 +529,52 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 ant_forest()
 ```
 
-## Open Data Sharing vs Data Privacy
+## Personalizing: Sustainability at Scale
 
-Open data is needed for civic engagement.
+-   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
 
-Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
-```{python}
-open_data_index()
-```
+Data-driven design has limitations.
 
-Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
+Coputer
 
-Open Data Enables Collaboration
+One mode
 
--   Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]
+-   @koningsHowPrepareYour2020
+-   "Digital sustainability principles"
+-   Eminent journal Design Studies, 1st design journal
+-   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
+    -   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
+    -   @ComprehensiveGuideDesign
+    -   @suarezDesignSystemsHandbook
+    -   @MethodPodcastEpisode
+    -   @AtomicDesignBrad
+-   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+-   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
+-   @PeopleAIGuidebook
+-   @LanguageModelSketchbook
+-   @parundekarEssentialGuideCreating2021
+-   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
+-   AI for design: @figmaAINextChapter2023
 
-Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
+The concept of *Social Objects*: People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
 
-| Country | Project                  | Reference           |
-|---------|--------------------------|---------------------|
-| Sweden  | Swedish open data portal | @SverigesDataportal |
-|         |                          |                     |
-|         |                          |                     |
+*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
-: Examples of cities and countries that share data openly.
+-   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
+-   What percent of all design is "sustainable design" ? Promoting sustainable design.
+-   @joshluberTradingCardsAre2021 Trading cards are cool again
+-   @jesseeinhornNewBalance6502020
+-   @connieloizosMarcyVenturePartners2021
+-   @natashamascarenhasQueenlyMarketplaceFormalwear2021
+-   @jeffjohnrobertsDigitalArtAwaits2020
 
--   When will Bolt show CO~2~ emissions per every trip?
--   Sustainable finance data platform:
+*Narrative Design,* humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality, Stories start with a character..
 
-WikiRate is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+-   Writing as training data? large language models. GTP3.
 
-+--------------------------------------+---------------------------------------------------------------+
-| Type                                 | Example                                                       |
-+======================================+===============================================================+
-| Transparency Accountability Advocate |                                                               |
-+--------------------------------------+---------------------------------------------------------------+
-| Compliance Data Aggregator           |                                                               |
-+--------------------------------------+---------------------------------------------------------------+
-| Data Intelligence Hub                |                                                               |
-+--------------------------------------+---------------------------------------------------------------+
-| Worker Voice Tool                    | @caravanstudiosStrengthenYourWorker2022: **"Worker Connect"** |
-+--------------------------------------+---------------------------------------------------------------+
-| Traceability tool                    | trustrace.com                                                 |
-+--------------------------------------+---------------------------------------------------------------+
-| Open data platform                   |                                                               |
-+--------------------------------------+---------------------------------------------------------------+
-| Knowledge sharing platform           | business-humanrights.org                                      |
-+--------------------------------------+---------------------------------------------------------------+
-
--   @laureenvanbreenPanelScalingCorporate2023
--   @wikirateIntroducingFacilityChecker2022
--   @HomeChainReact
--   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
--   @HumanCenteredWeb32022 human-centered web3
-
-## Self-Monitoring
+## Personalized Design: Self-Monitoring
 
 Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
 
@@ -622,7 +601,9 @@ Personal carbon footprint calculators have been released online, ranging from th
 +-------------------------+--------------------------------------------------------+
 | Wren                    | Offset Subscription                                    |
 +-------------------------+--------------------------------------------------------+
-| JouleBug                |      CO2 tracking                                      |
+| JouleBug                | ```                                                    |
+|                         |  CO2 tracking                                          |
+|                         | ```                                                    |
 +-------------------------+--------------------------------------------------------+
 | eevie                   |                                                        |
 +-------------------------+--------------------------------------------------------+
@@ -649,7 +630,7 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 air_chart()
 ```
 
-### **Health and Fitness Tracking**
+### Health and Fitness Tracking
 
 EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 
@@ -752,9 +733,15 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 
 : Modes of interaction
 
-## Re-Designing Industries for Circularity
+Human behaviour is affected by the environment; example in case, the insidence of bad behavior during the pandemic increased significately.
 
-Circular Economy
+```{python}
+pandemic()
+```
+
+## Re-Designing Industries: Circular Design
+
+As of 2024, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
 We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
@@ -769,8 +756,6 @@ Food and clothes (I'm omitting housing and transport here) are part of the immed
 Companies like Qima provide inspection and certification services @qimaGlobalSupplyChain2024
 
 ### Circular Economy
-
-Circular economy is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
 Encouraging Sustainable Design and Reducing Waste.
 
@@ -968,8 +953,7 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 
 There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
 
-
-Olio, Too Good To Go 
+Olio, Too Good To Go
 
 ::: {.content-hidden unless-format="pdf"}
 ![ResQ Club saves food waste by selling left-over foods cheaply](./images/design/resq-club.png){width="100%"}

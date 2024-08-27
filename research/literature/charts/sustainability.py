@@ -316,18 +316,90 @@ def microplastics_body_chart():
 
 def taiwan_pollution_reports():
     data = pd.read_csv(os.path.join(data_dir, 'taiwan-pollution-reports.csv'))
-    data_sorted_by_value1 = data.sort_values('value1', ascending=False)
 
-    plt.figure(figsize=(10, 6))
+    # Create a dictionary for district translations
+    translations = {
+        '臺北市': 'Taipei City',
+        '新北市': 'New Taipei City',
+        '桃園市': 'Taoyuan City',
+        '臺中市': 'Taichung City',
+        '臺南市': 'Tainan City',
+        '高雄市': 'Kaohsiung City',
+        '基隆市': 'Keelung City',
+        '新竹市': 'Hsinchu City',
+        '嘉義市': 'Chiayi City',
+        '新竹縣': 'Hsinchu County',
+        '苗栗縣': 'Miaoli County',
+        '彰化縣': 'Changhua County',
+        '南投縣': 'Nantou County',
+        '雲林縣': 'Yunlin County',
+        '嘉義縣': 'Chiayi County',
+        '屏東縣': 'Pingtung County',
+        '宜蘭縣': 'Yilan County',
+        '花蓮縣': 'Hualien County',
+        '臺東縣': 'Taitung County',
+        '澎湖縣': 'Penghu County',
+        '金門縣': 'Kinmen County',
+        '連江縣': 'Lienchiang County',
+        '總計': 'Total'
+    }
 
-    # Bar plot: Pollution reports by location (district) with updated font
-    plt.barh(data_sorted_by_value1['district'], data_sorted_by_value1['value1'], color='orange', alpha=0.8)
+    # Remove commas from the 'value1' column and convert to integer
+    data['value1'] = data['value1'].str.replace(',', '').astype(int)
 
-    # Add titles and labels with the new font
-    plt.title('Pollution Reports by District (Location)', fontproperties=chinese_font)
-    plt.xlabel('Number of Pollution Reports (Value1)', fontproperties=chinese_font)
-    plt.ylabel('District (Location)', fontproperties=chinese_font)
+    # Apply translations and exclude 'Total'
+    data['district_english'] = data['district'].map(translations) + ' (' + data['district'] + ')'
+    data_filtered = data[data['district'] != '總計']
+
+    # Aggregate the data by district (sum reports across all years)
+    data_aggregated = data_filtered.groupby(['district_english'])['value1'].sum().reset_index()
+
+    # Sort the aggregated data by total reports in ascending order
+    data_aggregated_sorted = data_aggregated.sort_values('value1', ascending=True)
+
+    # Create the bar plot ordered by number of reports (low to high)
+    plt.figure(figsize=(12, 8))
+    plt.bar(data_aggregated_sorted['district_english'], data_aggregated_sorted['value1'], color='orange', alpha=0.8)
+
+    # Rotate the x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right', fontproperties=chinese_font)
+
+    # Add title and label
+    plt.title('Total Pollution Reports by District (Location)', fontproperties=chinese_font)
+    plt.xlabel('District (Location)', fontproperties=chinese_font)
+
+    # Remove the y-axis label
+    plt.ylabel('')
 
     # Show the chart
+    plt.tight_layout()
+    plt.show()
+
+def taiwan_pollution_reports_stacked():
+    data = pd.read_csv(os.path.join(data_dir, 'taiwan-pollution-reports.csv'))
+
+    # Remove commas and convert 'value1' and 'population' to numeric values
+    data['value1'] = data['value1'].str.replace(',', '').astype(int)
+    data['population'] = data['population'].str.replace(',', '').astype(int)
+
+    # Filter out the row where district is "總計"
+    data_filtered = data[data['district'] != '總計']
+
+    # Convert the year to Gregorian (Taiwanese years start from 1911)
+    data_filtered['gregorian_year'] = data_filtered['year'] + 1911
+
+    # Pivot the data for the stacked bar chart
+    pivot_data = data_filtered.pivot(index='gregorian_year', columns='district', values='value1')
+
+    # Plot the horizontal stacked bar chart
+    plt.figure(figsize=(12, 8))
+    pivot_data.plot(kind='barh', stacked=True, figsize=(12, 8), colormap='tab20')
+
+    # Add title and labels
+    plt.title('Horizontal Stacked Bar Chart: Pollution Reports by District Over the Years', fontproperties=chinese_font)
+    plt.ylabel('Year', fontproperties=chinese_font)
+    plt.xlabel('Number of Pollution Reports', fontproperties=chinese_font)
+
+    # Show the chart with tight layout
     plt.tight_layout()
     plt.show()

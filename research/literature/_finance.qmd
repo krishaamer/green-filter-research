@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria
+from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -76,6 +76,12 @@ shopping_growth()
 -   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
 
 -   Is Sustainable Shopping possible? "Learn to notice so we can preserve", "Õpetame märkama, et oskaksime hoida". "Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target?
+
+sustainable consumption relationships in Europe.
+
+```{python}
+sustainable_consumption_relationships()
+```
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
@@ -987,6 +993,33 @@ There are many different certifications
 -   sustainable brands
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
+
+WikiRate is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+
++--------------------------------------+---------------------------------------------------------------+
+| Type                                 | Example                                                       |
++======================================+===============================================================+
+| Transparency Accountability Advocate |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Compliance Data Aggregator           |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Data Intelligence Hub                |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Worker Voice Tool                    | @caravanstudiosStrengthenYourWorker2022: **"Worker Connect"** |
++--------------------------------------+---------------------------------------------------------------+
+| Traceability tool                    | trustrace.com                                                 |
++--------------------------------------+---------------------------------------------------------------+
+| Open data platform                   |                                                               |
++--------------------------------------+---------------------------------------------------------------+
+| Knowledge sharing platform           | business-humanrights.org                                      |
++--------------------------------------+---------------------------------------------------------------+
+
+-   @laureenvanbreenPanelScalingCorporate2023
+-   @wikirateIntroducingFacilityChecker2022
+-   @HomeChainReact
+-   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
+-   @HumanCenteredWeb32022 human-centered web3
+
 
 Existing rankings
 

@@ -1208,3 +1208,69 @@ def companies_large_emitters_climate_experts():
 
     # Display the chart
     plt.show()
+
+def sustainable_consumption_relationships():
+    # Path Coefficients for the relationships
+    path_relationships = ['EK -> SC', 'RP -> SC', 'EC -> SC', 'BI -> SC']
+    path_coefficients = [0.179, 0.107, 0.113, 0.191]  # Real data from the document
+
+    # R² values for variance explanation
+    variance_explained = {
+        'Environmental Concern (EC)': 0.322,
+        'Behavioral Intention (BI)': 0.234,
+        'Sustainable Consumption (SC)': 0.289
+    }
+
+    # Importance-Performance data
+    importance = [0.179, 0.107, 0.113, 0.191]
+    performance = [53.124, 64.018, 57.197, 43.870]
+    factors = ['Environmental Knowledge', 'Risk Perception', 'Environmental Concern', 'Behavioral Intention']
+
+    # 1. Bar Chart: Path Coefficients
+    plt.figure(figsize=(8, 6))
+    plt.barh(path_relationships, path_coefficients, color=['blue', 'green', 'red', 'orange'])
+    plt.title('Path Coefficients for Factors Influencing Sustainable Consumption')
+    plt.xlabel('Path Coefficient')
+    plt.tight_layout()
+    plt.show()
+
+    # 2. Flow Chart for Mediation
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Draw arrows based on path coefficients
+    ax.arrow(0.1, 0.9, 0.3, 0, head_width=0.05, head_length=0.03, fc='blue', ec='blue', lw=path_coefficients[0]*10)
+    ax.arrow(0.1, 0.7, 0.3, 0, head_width=0.05, head_length=0.03, fc='green', ec='green', lw=path_coefficients[1]*10)
+    ax.arrow(0.1, 0.5, 0.3, 0, head_width=0.05, head_length=0.03, fc='red', ec='red', lw=path_coefficients[2]*10)
+    ax.arrow(0.1, 0.3, 0.3, 0, head_width=0.05, head_length=0.03, fc='orange', ec='orange', lw=path_coefficients[3]*10)
+
+    # Labeling
+    ax.text(0.05, 0.9, 'Environmental Knowledge (EK)', fontsize=12)
+    ax.text(0.05, 0.7, 'Risk Perception (RP)', fontsize=12)
+    ax.text(0.05, 0.5, 'Environmental Concern (EC)', fontsize=12)
+    ax.text(0.05, 0.3, 'Behavioral Intention (BI)', fontsize=12)
+
+    ax.text(0.5, 0.5, 'Sustainable Consumption Behavior (SC)', fontsize=12, color='black', bbox=dict(facecolor='lightgray', edgecolor='black'))
+
+    plt.axis('off')
+    plt.title('Mediation Flow Chart for Sustainable Consumption')
+    plt.tight_layout()
+    plt.show()
+
+    # 3. Importance-Performance Map
+    plt.figure(figsize=(8, 6))
+    plt.scatter(importance, performance, s=200, alpha=0.7)
+    for i, factor in enumerate(factors):
+        plt.text(importance[i], performance[i], factor, fontsize=12)
+    plt.title('Importance-Performance Matrix')
+    plt.xlabel('Importance (Path Coefficients)')
+    plt.ylabel('Performance')
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # 4. Variance Explained Pie Chart
+    plt.figure(figsize=(8, 6))
+    plt.pie(variance_explained.values(), labels=variance_explained.keys(), autopct='%1.1f%%', colors=['yellow', 'lightblue', 'lightgreen'])
+    plt.title('Variance Explained by Factors')
+    plt.tight_layout()
+    plt.show()
