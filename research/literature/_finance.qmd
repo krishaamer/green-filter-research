@@ -396,7 +396,7 @@ retail_green_vs_nongreen()
 
 -   Information evavõrdsus disparity between pro and novice investors
 
-#### Influencers
+#### Financial Influencers
 
 Retail investing also heavily influenced by social media influencers.
 
@@ -543,7 +543,7 @@ It's how the wealthier people invest.
 
 -   Angelist
 
-#### Assets: Growing Choice of Asset Classes
+#### Investable Asset Classes: Growing Choice for Retail Investors
 
 new asset classes
 
@@ -590,6 +590,10 @@ Investing into real-estate is increasingly available on co-investing platforms a
 Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
 
 #### Assets: Crypto
+
+There's a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024].
+
+[\@parkAaveLabsProposes2024]: "expand yield sources into real-world assets and future partnership opportunities with BlackRock, the world’s leading financial institution."
 
 Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people (ADD CITATION) yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 600 million cryptocurrency users worldwide.
 
@@ -708,51 +712,9 @@ In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the wo
 
 University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
+While divesting makes news headlines, even divestment by large institutional investors, such as the Norwegian National Pension Fund (GPFG), has a negligible effect on the heavy polluters' business; by the same logic, it can be deducted, the financial effect of retail investors divesting, is meaningless. If retail investors act in aggregate, the reputational effect needs further research. *"To halt climate change, some investors have decided to divest from fossil fuel companies. Reviewing the literature suggests that divestment from fossil fuel has limited financial consequences; it slightly increases divested firms’ risk and their cost of capital, while reducing divested firms’ market value,"* is the pessimistic conclusion by[@plantingaFinancePerspectiveFossil2024]
+
 -   <https://www.sciencedirect.com/science/article/pii/S2212567115011223>
-
--   <https://www.sciencedirect.com/science/article/pii/S1877343523001410>
-
-#### Plap
-
--   There's also a trend of investors looking for sustainability in addition to profits in a few countries.
-
--   @burkartClimateFinanceGets2022
-
--   Assumptions: --- where to put money makes a difference to sustainability. i.e. it matters what we buy, what we save, and where we invest
-
--   Hypothesis?
-
--   @M1FinanceReview2023
-
--   @ENVIRONMENTALSAVINGSDefinition
-
--   @EthicalShopping2019
-
--   @GoodShoppingGuide
-
--   SPARQAN
-
--   @rupertjonesGreenMoneyHow2022
-
--   @jacksonEcoFriendlyGuideFinances2020
-
--   @stefSustainableMoneyDesign2019
-
--   @MakeMyMoney2023
-
--   @seekingalphaBooksThatChanged2020
-
--   @markoTeekondMiljoniliseInvesteerimisportfellini2022
-
--   Consumer debt in the USA
-
--   The world will be very different in 30 years - it's time to invest in services that make our societies resilient, able to robustly respond to rapid change. Research and product development go hand-in-hand; the outcome of this study can provide insights for new financial product and service development. Related to SDG 9: "Build resilient infrastructure, promote sustainable industrialization and foster innovation". The complexity of the situation offers an opportunity for design to make it understandable for humans
-
--   In 2021 the Estonian government decided to free up mandatory retirement savings so people can exercise their own judgment on how to invest (or spend it). Financial analysts are worried the Estonian population will spend their retirement savings right away - instead of investing.
-
--   @garygenslerWeHaveActive2022 Investor protection, making investing accessible, climate risk disclosure
-
--   @DoconomyAnnouncesLargest2021 Doconomy Business footprint
 
 ## Econometrics: Decoupling Economic Growth from Environmental Degradation
 
@@ -851,6 +813,8 @@ growth_brics()
 Greenwashing is one of the largest blockers of sustainability. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
+
+Wikirate currently lists 4282 metrics https://wikirate.org/Metric
 
 ```{python}
 csrd_timeline()
@@ -994,7 +958,17 @@ There are many different certifications
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
-WikiRate is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+
+https://opencorporates.com/ attempts to map all the companies around the world
+WikiRate, started in 2010, is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+-   @wikirateWikiRate2023 "The largest open registry of corporate sustainability data in the world" @millsWikiRateOrgLeveraging2016
+
+"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises.
+https://x.com/opencorporates/status/1819025679804973411
+https://blog.opencorporates.com/2023/03/14/unsd-oecd-use-opencorporates-data-to-help-the-world-understand-multinational-enterprises/"
+
+
+
 
 +--------------------------------------+---------------------------------------------------------------+
 | Type                                 | Example                                                       |
@@ -1019,7 +993,6 @@ WikiRate is a tool for checking green credentials Transparency; they define Data
 -   @HomeChainReact
 -   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
 -   @HumanCenteredWeb32022 human-centered web3
-
 
 Existing rankings
 
