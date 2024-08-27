@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -24,49 +24,31 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```
 ## Eco-Design: The Legislative Perspective
 
-In Europe, *eco-design* has strong political support as part of the European Union's (EU) "Green Deal" legislative strategy, aiming to transform European economies into sustainability leaders. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+In Europe, *eco-design* has strong political support as part of the European Union's (EU) *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders. A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-Eco-Design is a Key EU Sustainable Policy Design Tool. A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process.
+It's not that the EU didn't have an environmental policy before, it's that it was too vague and filled with loop-holes. CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive). ESRS reporting is a standard to meet CSRD requirements.
+
+The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from 30 December 2024 and 30 June 2025 for small businesses.
+
+The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
+
+Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
+
+The 9 qualities of *eco-designed products* include
 
 |            |                   |                    |
 |------------|-------------------|--------------------|
-| Quality    |                   |                    |
-| Durable    | Reparable         | Easy to recycle    |
-| Reusable   | Easy to maintain  | Energy efficient   |
-| Upgradable | Easy to refurbish | Resource efficient |
-
-Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability.
-
-EUDR applies to all products placed on the market from 30 December 2024 and 30 June 2025 for small businesses.
-
-ESPR, EUDR
-
-ESRS, CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive)
-
-EU "Green Deal" legislative is comprehensive.
-
-ESRS reporting standard to meet CSRD requirements.
-
--   @EuropeanGreenDeal2021
--   @switch2greenEUGreenDeal2023
-
-It's up to legislators to provide sustainable products on our marketplace... but until we do, use the green filter.
-
--   One of the EU goals is reducing consumption
--   Tacking our consumption habits
--   Europe is the hotbed of sustainability
--   @imanghoshMappedWhereAre2020
--   @lamoureuxNotableSustainableCompanies2018 Florida sustainable companies
--   @michaelhoulihanItOfficialCustomers2018 customers prefer sustainable companies
--   In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023].
+| Durable    | Reparable         | Easy to Recycle    |
+| Reusable   | Easy to Maintain  | Energy Efficient   |
+| Upgradable | Easy to Refurbish | Resource Efficient |
 
 ```{python}
 eu_green_deal()
 ```
 
-Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles. For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\]. While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
+Europe is not the only region undertaking legislative efforts to promote sustainability. In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023]. Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles. For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\]. While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
 
-The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart below. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product lifecycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), Eco-Design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
+The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart above. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product lifecycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), Eco-Design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
 
 ```{python}
 compare_ps_epr_ecodesign()
@@ -314,27 +296,13 @@ Data is the *interface* between idle resources and retail demand, which makes *e
 
 *Digital Sustainability*, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
--   @panArtificialIntelligenceDigital2023 important
+[@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *Digital Sustainability.*
 
-Interaction Design for Climate Change: how can we change common UIs so they take into account sustainability?
+Notice: The chart is purely illustrative to highlight the value of AI for sustainablity; it's not based on numeric metrics.
 
--   @uiaworldcongressofarchitectsDesignClimateAdaptation2023 "Design for climate adaptation"
--   @andrewchaissonHowFightClimate2019
--   @dzigajevHowCanWe2019
--   @mankoffEnvironmentalSustainabilityInteraction2007
--   @borthwickHumancentredLifecentredDesign2022
--   @loseUsingMySkills2023 is worried about applying UX skills for Climate Change
-
-AI-Assisted Design
-
-Tools do not call attention to themselves. They don't necessarily rely on human-like representations that call attention to themselves but rather are available in-context to help streamline specific tasks. Tool vs Assistant? Tools are mostly non-anthropomorphic.
-
--   @september162020WhatAIassistedDesign2020 "What is AI-assisted Design?"
--   @clipdropCreateStunningVisuals AI Design Assistants
--   @architechturesWhatArtificialIntelligence2020 Architecture with the help of AI
--   @zakariyaStopUsingJasper2022 Canva image generator
--   @kore.aiHomepage2023 Kore.ai developing custom AI-chatbots for business usage.
--   @CharismaStorytellingPowered storytelling by AI
+```{python}
+sustainability_ai_six_dimensions()
+```
 
 ## Data-Driven Design: Learning from the Growth of Digital Platforms and Superapps
 
@@ -364,51 +332,33 @@ There are many approaches to design - from playful to practical to critical and 
 
 Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
 
-Twitter (now X) is becoming a financial app.
+-   Inspiration from WeChat. Twitter (now X) is becoming a financial app. X (formerly Twitter) is becoming a superapp?
 
-Inspiration from WeChat.
+-   Uber is creating an all-purpose platform; only 4.1% of rides were electric [@levyUberCEOSays2023].
 
 How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-+--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Enablers of Platform Economics | Pros                                                                                            | Cons                                                                                                                      |
-+================================+=================================================================================================+===========================================================================================================================+
-| Network effects                | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
-+--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Scalability                    |                                                                                                 |                                                                                                                           |
-+--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Data-driven Design             |                                                                                                 |                                                                                                                           |
-+--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Behaviour Design               |                                                                                                 |                                                                                                                           |
-+--------------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
++---------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Platform Economy Enablers | Pros                                                                                            | Cons                                                                                                                      |
++===========================+=================================================================================================+===========================================================================================================================+
+| Network effects           | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
++---------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Scalability               |                                                                                                 |                                                                                                                           |
++---------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Data-driven Design        |                                                                                                 |                                                                                                                           |
++---------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| Behaviour Design          |                                                                                                 |                                                                                                                           |
++---------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
 
 -   *Platform Economy* marketplace companies like Airbnb, Uber among many others match optimize how our cities work.Superapps are prevalent in China and South-East Asia. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. China is the home of many superapps and [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to other markets. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
 -   Platform economy companies have been criticized for their lack of workers rights (ESG). [@RidersSmogPollution2024] uses portable air pollution tracking devices to documents how gig workers are subjected to pollution.
 
--   Uber is creating an all-purpose platform; only 4.1% of rides were electric [@levyUberCEOSays2023].
-
--   X (formerly Twitter) is becoming a superapp?
-
 Could there be Sustainability Superapps?
 
 -   How to design sustainability superapps? Lots of options in a single app. [@fleetmanagementweeklySustainableSuperappShows2022] "Sustainability and superapps top Gartner's Top 10 2023 Trends List". [@davewallaceRiseCarboncentricSuper2021] "The rise of carbon-centric super apps". [@goodbagGoodbagSustainableSuper2023] "goodbag: Sustainable Super App". What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also [@bernardSustainabilitySuperappsTop2022].
 
--   @undheimEcoTechInvesting2024 Ecotech
-
--   @loriperriWhatSuperapp2022
-
--   @PartnershipBringsSustainability2022
-
--   @CompanyNowDominating2021 PayPal dominance
-
--   @zengThreeParadoxesBuilding2015 **(need to pay for article!)**
-
--   @huangRedomesticatingSocialMedia2021 **(need to pay for article!)**
-
--   @WillEuropeGet2022
-
--   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear ***Fordism*** through platform economy and logistics' revolution which allows for circular economies to happen in a city.
+-   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear *Fordism* through platform economy and logistics' revolution which allows for circular economies to happen in a city.
 
 -   Adaptive AI
 
@@ -443,8 +393,6 @@ Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogl
 ```{=mdx}
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
 ```
--   The founder of the Commons (Joro) consumer CO~2~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily and daily CO~2~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
-
 Some notable examples:
 
 -   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
@@ -470,34 +418,6 @@ Some notable examples:
 +-------------------+-------------------------------------------------------------------------------------------+
 
 : Types of nudge by @WEE2021100364
-
--   @bainPromotingProenvironmentalAction2012 "Promoting pro-environmental action in climate change deniers" **(Need access!)**
-
--   @allcottSocialNormsEnergy2011 "Social norms and energy conservation" **(Need access!, ncku doesn't subscribe)**
-
--   @schuitemaAcceptabilityEnvironmentalPolicies2018 "Acceptability of Environmental Policies" **(Need access!)**
-
--   @nilssonRoadAcceptanceAttitude2016 "The road to acceptance: Attitude change before and after the implementation of a congestion tax" **(Need access!)**
-
--   @BERGER2022134716 **(Need access!)**
-
--   @SupportCleanEnergy2022
-
--   @UNCTADWorldInvestmentReport2023
-
--   @climatiqClimatiqCarbonEmissions2023 Automate GHG emission calculations
-
--   @earthcheckEarthCheckGoodBusiness2023 sustainable tourism certification
-
--   @lfcaLeadersClimateAction2023 corporate climate action
-
--   @greenhousegasprotocolHomepageGHGProtocol2023 standards to measure and manage emissions
-
--   @playingfortheplanetalliancePlayingPlanetAnnual2021
-
--   Aka Gamification. Gamification makes uses of nudges. Students in Indonesia enjoy using Kahoot and it's gamification elements are perceived to have positive impact on individual learning outcomes so they are happy to continue using it [@wiraniEvaluationContinuedUse2022].
-
--   @SpaceApeGames game company going green
 
 Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
@@ -576,9 +496,92 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 ## Personalized Design: Self-Monitoring
 
-Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent trackable (if not traceable).
+Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
 
-### Carbon Tracking
+Personal data enables behavior change.
+
+### Health and Fitness Tracking
+
+Tracking one's health and fitness is a familiar mode of *quantified self*, available to many smartwatch users - and even pretty much to anyone who has a phone made in the past decade. Apple is a leader in health tracking, releasing Apple Health in 2008 as an iOS 8 software feature and the Apple Watch in 2015, filled with health-focused sensors and features [@appleHowAppleEmpowering2022]. In 2022 Apple outlined plans for *"empowering people to live a healthier day,"* promising a new set of health-features with every release, such as the rumored temperature measurement inside of Apple Aipord earphones; and providing most of this data to developers through Apple's HealthKit health metrics APIs, which app builders can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022].
+
+Sleep quality is an important aspect of health and many devices and apps focus on helping people get enough high quality sleep. There's plenty of academic literature on how physical activity, as well as environmental aspects, such as air quality, affect sleep [@liuHowPhysicalExercise2019] tracks how wearable data is used for tracking sleep improvements from exercise. [@grigsby-toussaintSleepAppsBehavioral2017] made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
+
+The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024].
+
+EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: *"brain music sounds like a warm bathtub"*. Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+
+Use technology Wearables to be more aware of one's health. Example of quantified self device.
+
+There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards.
+
+Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health.
+
+While so of the behavior changes may sound simple - like switching from driving to walking - and would have a large environmental effect, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
+
+While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
+
+-   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
+
+-   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023].
+
+-   Give Gen-Z the tools to turn climate anger into positive change to transform companies
+
+-   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
+
+-   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
+
+-   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
+
+Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n=998).
+
+-   Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
+
+::: {.content-hidden unless-format="pdf"}
+![Popular Strava sports assistant provides run tracking and feedback](./images/design/strava.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
+```
+-   
+
+-   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
+
+-   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
+
+The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
+
+Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
+
+| Mode of Interaction |     |
+|---------------------|-----|
+| Writing             |     |
+| Speaking            |     |
+| Touching            |     |
+| Moving              |     |
+|                     |     |
+
+: Modes of interaction
+
+Human behavior is affected by the environment; example in case, the incidence of bad behavior during the pandemic increased significantly.
+
+```{python}
+pandemic()
+```
+
+### Pollution Exposure Tracking
+
+My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
+
+```{python}
+air_chart()
+```
+
+### Towards Tracking Sustainability: Carbon Tracking
+
+The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
+
+-   
 
 Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
 
@@ -601,9 +604,7 @@ Personal carbon footprint calculators have been released online, ranging from th
 +-------------------------+--------------------------------------------------------+
 | Wren                    | Offset Subscription                                    |
 +-------------------------+--------------------------------------------------------+
-| JouleBug                | ```                                                    |
-|                         |  CO2 tracking                                          |
-|                         | ```                                                    |
+| JouleBug                | CO2 tracking                                           |
 +-------------------------+--------------------------------------------------------+
 | eevie                   |                                                        |
 +-------------------------+--------------------------------------------------------+
@@ -622,124 +623,7 @@ Personal carbon footprint calculators have been released online, ranging from th
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
-### Pollution Exposure Tracking
-
-My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
-
-```{python}
-air_chart()
-```
-
-### Health and Fitness Tracking
-
-EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: "brain music sounds like a warm bathtub". Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
-
-Apple is a leader in health tracking. In 2022 Apple outlined plans for *"empowering people to live a healthier day"* and Apple's HealthKit provides a growing list of health metrics, which app developers can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022]. @liuHowPhysicalExercise2019 tracks how wearable data is used for tracking sleep improvements from exercise. @grigsby-toussaintSleepAppsBehavioral2017 made use of sleep apps to construct humans behaviors also known as *behavioral constructs*. The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024].
-
-Use technology Wearables to be more aware of one's health. Example of quantified self device.
-
-fitness metrics
-
-Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health.
-
-While so of the behavior changes may sound simple - like switching from driving to walking - and would have a large environmental effect, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
-
-Personal data enables behavior change.
-
-While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
-
--   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
-
--   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023].
-
--   Give Gen-Z the tools to turn climate anger into positive change to transform companies
-
--   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
-
--   @hymanShoppingChangeConsumer2017
-
--   @brantleyBrewingBoycottHow2021
-
--   Contact Kalle Lasn, Culture Jam
-
--   "ESG Accessibility", Large-scale accessibility to ESG,
-
--   increase ESG accessibility
-
--   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
-
--   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
-
-Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n=998).
-
--   Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
-
-::: {.content-hidden unless-format="pdf"}
-![Popular Strava sports assistant provides run tracking and feedback](./images/design/strava.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
-```
--   AI Financial Advisors will need to go further to motivate users.
-
--   DBS digibank app added a financial advisor named "Your Financial GPS" in 2018 @dbsDBSLaunchesSingapore2018
-
--   "urban metabolism" [@shiUrbanInformatics2021; @clairemoranWhatUrbanMetabolism2018], city in-out flows accounting method
-
--   @tsaiTranslationValidationTaiwan2019
-
--   @burgerDevelopingSmartOperational2019
-
--   @aromatarioHowMobileHealth2019 behavior changes
-
--   @ayoolaCHANGEPlatformServicebased2018 wellbeing data
-
--   @godfreyWearableTechnologyExplained2018
-
--   @thomasExploringDigitalRemediation2018
-
--   @tonneNewFrontiersEnvironmental2017
-
--   @anselmaArtificialIntelligenceFramework2017
-
--   @forlanoPosthumanismDesign2017 post-humanism and design
-
--   @greenbaumWhoOwnsYour2016
-
--   @millingsCanEffectivenessOnline2015
-
--   @reisIntegratingModellingSmart2015
-
--   @bowerWhatAreEducational2015
-
--   @fletcherFriendlyNoisySurveillance2022
-
--   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
-
--   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
-
-The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality".*
-
-Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
-
-| Mode of Interaction |     |
-|---------------------|-----|
-| Writing             |     |
-| Speaking            |     |
-| Touching            |     |
-| Moving              |     |
-|                     |     |
-
-: Modes of interaction
-
-Human behaviour is affected by the environment; example in case, the insidence of bad behavior during the pandemic increased significately.
-
-```{python}
-pandemic()
-```
-
-## Re-Designing Industries: Circular Design
+## Re-Designing Industries: Circularity
 
 As of 2024, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
 
@@ -755,7 +639,7 @@ Food and clothes (I'm omitting housing and transport here) are part of the immed
 
 Companies like Qima provide inspection and certification services @qimaGlobalSupplyChain2024
 
-### Circular Economy
+### Circular Design for a Circular Economy
 
 Encouraging Sustainable Design and Reducing Waste.
 

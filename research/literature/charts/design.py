@@ -348,3 +348,42 @@ def malaysia_forests():
 
     # Show the plot
     plt.show()
+
+def sustainability_ai_six_dimensions():
+
+    # The six dimensions identified
+    categories = ['Sensemaking', 'Supply Chain Relationships', 'Green Creativity Skills', 'Metrics', 'Strategies', 'AI Tool Improvement']
+
+    # Number of variables we're plotting
+    num_vars = len(categories)
+
+    # Example values (replace these with your own values if needed)
+    values = [6, 8, 7, 9, 8, 7]  # Arbitrary values for illustration
+    values += values[:1]  # to close the circle
+
+    # Compute angle for each category
+    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    angles += angles[:1]
+
+    # Initialize the spider plot
+    fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
+
+    # Set the position and direction of the plot
+    ax.set_theta_offset(np.pi / 2)
+    ax.set_theta_direction(-1)
+
+    # Draw the plot
+    ax.plot(angles, values, linewidth=2, linestyle='solid')
+
+    # Fill in the area
+    ax.fill(angles, values, 'skyblue', alpha=0.4)
+
+    # Add category labels
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(categories)
+
+    # Set title
+    plt.title('Six Dimensions of AI for Digital Sustainability', size=14)
+
+    # Show the spider graph
+    plt.show()
