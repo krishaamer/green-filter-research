@@ -499,3 +499,45 @@ def world_values_chart():
 
     plt.tight_layout()
     plt.show()
+
+def college_chatbot():
+    # Data for radar chart: comparing males, females, and field of study on key metrics
+    categories = ['ChatGPT Usage', 'Positive Attitude', 'Concern About Impact', 'Cheating Perception']
+    num_vars = len(categories)
+
+    # Data for Males, Females, Field Tech, and Field Humanities
+    values_males = [16.2, 55.9, -5.6, -6.1]
+    values_females = [-16.2, 31.4, 5.6, 6.1]
+    values_field_tech = [3, 55.9, 47.7, 24.3]
+    values_field_humanities = [1, 31.4, 54.2, 61.9]
+
+    # Adding the first value to close the radar chart loop
+    values_males += values_males[:1]
+    values_females += values_females[:1]
+    values_field_tech += values_field_tech[:1]
+    values_field_humanities += values_field_humanities[:1]
+
+    # Radar chart angles
+    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    angles += angles[:1]
+
+    # Plot Radar Chart
+    fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
+
+    # Fill and plot data for each group
+    ax.fill(angles, values_males, color='blue', alpha=0.25, label='Males')
+    ax.fill(angles, values_females, color='red', alpha=0.25, label='Females')
+    ax.fill(angles, values_field_tech, color='green', alpha=0.25, label='Field Tech')
+    ax.fill(angles, values_field_humanities, color='orange', alpha=0.25, label='Field Humanities')
+
+    # Set chart labels and title
+    ax.set_yticklabels([])
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(categories)
+    ax.set_title('Radar Chart: Comparison of Chatbot Usage, Attitudes, and Field of Study')
+
+    # Add legend
+    ax.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
+
+    # Show radar chart
+    plt.show()

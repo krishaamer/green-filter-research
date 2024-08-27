@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart
+from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -18,7 +18,7 @@ There's lack of scientific research when it comes to Taiwanese college students,
 
 ## Taiwan in the Global Context: Global and Local Attitudes
 
-[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of Postmaterialist Index Comparison, noting Taiwanese society is materalistic.
+[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of Postmaterialist Index Comparison, noting Taiwanese society is materialistic.
 
 ```{python}
 postmaterialist_chart()
@@ -272,6 +272,14 @@ The above studies give foundation for creating a persona of a U.S. College Stude
 -   @crabbRantTerriblePersonas2023
 
 @RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
+
+### AI Usage
+
+A large-scale (N=6000) survey of college students in Sweden showed these attitudes towards AI assistants (ChatGPT was by far the most prevalent app)
+
+```{python}
+college_chatbot()
+```
 
 ### Social Trust
 

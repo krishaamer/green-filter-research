@@ -474,7 +474,7 @@ Around the world, there are many initiatives to increase forest cover, for examp
 
 ### Pollution
 
-In, Taiwan this is the ranking of pollution reports by citizens:
+In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
 
 ```{python}
 taiwan_pollution_reports()
