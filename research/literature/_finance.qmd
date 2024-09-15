@@ -748,6 +748,7 @@ The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland,
 
 There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
+
 #### Pricing Externalities
 
 In the simplest sense, prices do not capture all costs. "Consumption, production, and investment decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]. Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002]. As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year [@trucostNaturalCapitalRisk2023]. The award-winning economist Mariana Mazzucato argues in [@guptaElectrifyingEconomistGuide2020] we should include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018] as part of our metrics.
@@ -758,7 +759,11 @@ While Adam Smith is most famous for his concept of the *invisible hand* first ap
 
 Ecological economics doesn't necessarily argue with the foundation of classical economics, rather ecological economics finds the classical economics model and by extension neoclassical economics are *incomplete,* ignoring the physical limits of natural resources. Ecological economics draws attention to the interdependence of economy and the ecosystem; there are physical limits to economic growth on a planet with finite resources.
 
-The biggest point of contention is the necessity of *economic growth*. The founder of ecological economics Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. More recently.[@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] have expanded on these ideas with recipes for a *post-growth* world, making the ideas seem more tangible and precise, yet mostly untested in the real world.
+The biggest point of contention is the necessity of *economic growth*. The founder of ecological economics Herman Daly was talking about *prosperity without growth* more than two decades ago, focusing on the diminishing natural resources [@dalyGrowthEconomicsSustainable1997]. Daly was teaching economics to undergraduates at Louisina State University when he grew disstatisfied with the standard model of the market, which didn't include any inputs (resources) or outputs (pollution), and later modeled his work by placing the economy *within* the larger system of the ecosphere [@ketchamWhenIdiotSavants2023]. More recently.[@jacksonProsperityGrowthEconomics2009; @jacksonProsperityGrowthFoundations2017] have expanded on these ideas with recipes for a *post-growth* world, making the ideas seem more tangible and precise, yet mostly untested in the real world.
+
+Writing in 1973, E. F. Schumacher argued economics overlooks both natural resource depletion and environmental degradation and draws on religion (particularly Buddhism) to suggest a simpler way of life:
+
+> *"Simplicity and non-violence are obviously closely related. The optimal pattern of consumption, producing a high degree of human satisfaction by means of a relatively low rate of consumption, allows people to live without great pressure and strain and to fulfil the primary injunction of Buddhist teaching: 'Cease to do evil; try to do good.'"* [@schumacherSmallBeautifulEconomics1985]
 
 New economic thinkers are asking how can economic growth and sustainability be compatible. Some even ask if *economic growth* itself is the wrong goal? [@diduchEconomicGrowthWrong2020]. Degrowth is the most famous contender in that branch of economics. Is Decoupling Economic Growth and CO2e Emissions Possible? Is Green Growth an oxymoron? No-one knows as it hasn't been done before. Degrowth proponents are pessimistic it's possible to decouple greenhouse gas emissions from economic growth; historical data shows does not show any decoupling. Some data from China shows decoupling?
 
@@ -807,6 +812,15 @@ CO2e emissions and GDP growth per capita follow a similar path in the BRICS coun
 ```{python}
 growth_brics()
 ```
+
+
+#### Reducing the Gap Between Climate Science and Climate Economics
+
+William Northaus won a Novel Prize in 2018 for attempting to combine climate change and economics in a single model, however his predictions are considered inaccurate by climate scientists, underestimating the risk of catastrophic warming, tipping point and the probability of higher temperatures leading to mass death [@etchamWhenIdiotSavants2023; @sternEconomicsImmenseRisk2022; @sternTimeActionClimate2022; @kempClimateEndgameExploring2022; @jonesOurClimateReckless2019; @xuWellMitigationStrategies2017]. 
+
+-   @nordhausClimateCasinoRisk2013
+-   @instituteofinternationalandeuropeanaffairsiieaCanWorldStill2023
+-   While discussion of sustainability economics is spread out over 100 different scientific journals, there's little interaction between research clusters. Elinor Ostrom vs William Nordhaus @druppOstromNordhausResearch2020 found their analysis of researche between 1987 to 2013.
 
 ## Greenwashing: Data-Driven Benchmarks
 
