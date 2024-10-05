@@ -19,13 +19,19 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## The Journey from Consumer to Investor: Democratization of Financial Markets
+## Democratization of Finance
 
-### Sustainable Capital Allocation Methods
+This chapter explores the larger trend of *Democratization of Financial Markets* which includes consumer apps that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing (termed here *SSI*). The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options.
 
-Fintech (financial technologies) holds the potential to drive consumers on a pathway towards ESG (Environmental, Social, and Corporate Governance) investing. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters - and delivering a simple UX (user experience).
+Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies pushing economic growth.
 
-This chapter explores the larger trend of *Democratization of Financial Markets* through consumer-facing applications that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing (SSI). The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options. Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies for continued economic growth. The critical question is: do we choose to support sustainability-focused companies that invest deeply into green innovation and eco-friendly practices - or those that pay less attention to sustainability?
+The critical question is: do we choose to support sustainability-focused companies that invest deeply into green innovation and eco-friendly practices - or those that pay less attention to sustainability? Sustainable capital allocation methods are many.
+
+The journey from consumer to investor is increasingly possible because of the *democratization of financial markets*.
+
+Empowering consumers to access finance through digital technologies and delivering a simple UX (user experience) – i.e. the fintech trend of the last 2 decades -, includes financial products creating pathways towards sustainability-focused investing. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
+
+ESG (Environmental, Social, and Corporate Governance)
 
 Consumers are beginning to become more money-savvy yet are still missing many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
 
@@ -239,8 +245,6 @@ People will only save nature if it also saves money.
 -   Ethical Savings [@EthicalSavingsEverything2023]
 
 -   The fact that money on a Wise account will accrue value while on Monese it's just static, immediately makes Wise more attractive, even if the amounts are small.
-
-    ###### 
 
 #### Anthropomorphism
 
