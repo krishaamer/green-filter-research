@@ -7,7 +7,7 @@ import time
 import pytest
 
 import numpy as np
-from numpy.testing import assert_array_equal, IS_WASM
+from numpy.testing import assert_array_equal, IS_WASM, IS_EDITABLE
 
 # This import is copied from random.tests.test_extending
 try:
@@ -25,6 +25,13 @@ else:
         cython = None
 
 pytestmark = pytest.mark.skipif(cython is None, reason="requires cython")
+
+
+if IS_EDITABLE:
+    pytest.skip(
+        "Editable install doesn't support tests with a compile step",
+        allow_module_level=True
+    )
 
 
 @pytest.fixture(scope='module')
@@ -145,6 +152,13 @@ def test_default_int(install_temp):
     import checks
 
     assert checks.get_default_integer() is np.dtype(int)
+
+
+def test_ravel_axis(install_temp):
+    import checks
+
+    assert checks.get_ravel_axis() == np.iinfo("intc").min
+
 
 def test_convert_datetime64_to_datetimestruct(install_temp):
     # GH#21199

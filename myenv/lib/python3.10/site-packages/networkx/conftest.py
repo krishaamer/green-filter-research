@@ -11,6 +11,7 @@ General guidelines for writing good tests:
   and add the module to the relevant entries below.
 
 """
+
 import os
 import sys
 import warnings
@@ -45,37 +46,47 @@ def pytest_configure(config):
     backend = config.getoption("--backend")
     if backend is None:
         backend = os.environ.get("NETWORKX_TEST_BACKEND")
-    # nx-loopback backend is only available when testing
-    backends = entry_points(name="nx-loopback", group="networkx.backends")
-    if backends:
-        networkx.utils.backends.backends["nx-loopback"] = next(iter(backends))
-    else:
+    # nx_loopback backend is only available when testing with a backend
+    loopback_ep = entry_points(name="nx_loopback", group="networkx.backends")
+    if not loopback_ep:
         warnings.warn(
             "\n\n             WARNING: Mixed NetworkX configuration! \n\n"
             "        This environment has mixed configuration for networkx.\n"
-            "        The test object nx-loopback is not configured correctly.\n"
+            "        The test object nx_loopback is not configured correctly.\n"
             "        You should not be seeing this message.\n"
             "        Try `pip install -e .`, or change your PYTHONPATH\n"
             "        Make sure python finds the networkx repo you are testing\n\n"
         )
+    config.backend = backend
     if backend:
-        networkx.config["backend_priority"] = [backend]
+        # We will update `networkx.config.backend_priority` below in `*_modify_items`
+        # to allow tests to get set up with normal networkx graphs.
+        networkx.utils.backends.backends["nx_loopback"] = loopback_ep["nx_loopback"]
+        networkx.utils.backends.backend_info["nx_loopback"] = {}
+        networkx.config.backends = networkx.utils.Config(
+            nx_loopback=networkx.utils.Config(),
+            **networkx.config.backends,
+        )
         fallback_to_nx = config.getoption("--fallback-to-nx")
         if not fallback_to_nx:
             fallback_to_nx = os.environ.get("NETWORKX_FALLBACK_TO_NX")
-        networkx.utils.backends._dispatchable._fallback_to_nx = bool(fallback_to_nx)
+        networkx.config.fallback_to_nx = bool(fallback_to_nx)
 
 
 def pytest_collection_modifyitems(config, items):
     # Setting this to True here allows tests to be set up before dispatching
     # any function call to a backend.
-    networkx.utils.backends._dispatchable._is_testing = True
-    if backend_priority := networkx.config["backend_priority"]:
+    if config.backend:
         # Allow pluggable backends to add markers to tests (such as skip or xfail)
         # when running in auto-conversion test mode
-        backend = networkx.utils.backends.backends[backend_priority[0]].load()
-        if hasattr(backend, "on_start_tests"):
-            getattr(backend, "on_start_tests")(items)
+        backend_name = config.backend
+        if backend_name != "networkx":
+            networkx.utils.backends._dispatchable._is_testing = True
+            networkx.config.backend_priority.algos = [backend_name]
+            networkx.config.backend_priority.generators = [backend_name]
+            backend = networkx.utils.backends.backends[backend_name].load()
+            if hasattr(backend, "on_start_tests"):
+                getattr(backend, "on_start_tests")(items)
 
     if config.getoption("--runslow"):
         # --runslow given in cli: do not skip slow tests
@@ -100,31 +111,7 @@ def set_warnings():
         message="\n\nshortest_path",
     )
     warnings.filterwarnings(
-        "ignore", category=DeprecationWarning, message="\nforest_str is deprecated"
-    )
-    warnings.filterwarnings(
-        "ignore", category=DeprecationWarning, message="\n\nrandom_tree"
-    )
-    warnings.filterwarnings(
-        "ignore", category=DeprecationWarning, message="Edmonds has been deprecated"
-    )
-    warnings.filterwarnings(
-        "ignore",
-        category=DeprecationWarning,
-        message="MultiDiGraph_EdgeKey has been deprecated",
-    )
-    warnings.filterwarnings(
         "ignore", category=DeprecationWarning, message="\n\nThe `normalized`"
-    )
-    warnings.filterwarnings(
-        "ignore",
-        category=DeprecationWarning,
-        message="The function `join` is deprecated",
-    )
-    warnings.filterwarnings(
-        "ignore",
-        category=DeprecationWarning,
-        message="\n\nstrongly_connected_components_recursive",
     )
     warnings.filterwarnings(
         "ignore", category=DeprecationWarning, message="\n\nall_triplets"
@@ -153,6 +140,12 @@ def set_warnings():
     )
     warnings.filterwarnings(
         "ignore", category=DeprecationWarning, message=r"\n\nThe 'create=matrix'"
+    )
+    warnings.filterwarnings(
+        "ignore", category=DeprecationWarning, message="\n\n`compute_v_structures"
+    )
+    warnings.filterwarnings(
+        "ignore", category=DeprecationWarning, message="Keyword argument 'link'"
     )
 
 
@@ -220,15 +213,17 @@ collect_ignore = []
 needs_numpy = [
     "algorithms/approximation/traveling_salesman.py",
     "algorithms/centrality/current_flow_closeness.py",
+    "algorithms/centrality/laplacian.py",
     "algorithms/node_classification.py",
     "algorithms/non_randomness.py",
+    "algorithms/polynomials.py",
     "algorithms/shortest_paths/dense.py",
     "algorithms/tree/mst.py",
+    "drawing/nx_latex.py",
     "generators/expanders.py",
     "linalg/bethehessianmatrix.py",
     "linalg/laplacianmatrix.py",
     "utils/misc.py",
-    "algorithms/centrality/laplacian.py",
 ]
 needs_scipy = [
     "algorithms/approximation/traveling_salesman.py",
@@ -267,7 +262,7 @@ needs_scipy = [
     "linalg/spectrum.py",
     "utils/rcm.py",
 ]
-needs_matplotlib = ["drawing/nx_pylab.py"]
+needs_matplotlib = ["drawing/nx_pylab.py", "generators/classic.py"]
 needs_pandas = ["convert_matrix.py"]
 needs_pygraphviz = ["drawing/nx_agraph.py"]
 needs_pydot = ["drawing/nx_pydot.py"]
