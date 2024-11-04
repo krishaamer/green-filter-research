@@ -14,6 +14,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  future: {
+    experimental_faster: true,
+  },
 
   presets: [
     [
