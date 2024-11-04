@@ -22,58 +22,57 @@ export const quartoRawHtml =
 <col style="width: 47%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>App</th>
 <th>Category</th>
 <th>Use Case</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Welltory</td>
 <td>Health</td>
 <td>Health data analysis</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Wellue</td>
 <td>Health</td>
 <td>Heart arrhythmia detection</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>QALY</td>
 <td>Health</td>
 <td>Heart arrhythmia detection</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Starship Robots</td>
 <td>Delivery</td>
 <td>The robot may ask for human help in a confusing situation, such as when crossing a difficult road</td>
 </tr>
 </tbody>
 </table>
-Examples of human-in-the-loop apps
 `,`
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>App</th>
 <th>Features</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>socratic.org</td>
 <td>Study buddy</td>
 </tr>
-<tr class="even">
+<tr>
 <td>youper.ai</td>
 <td>Mental health helper</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>fireflies.ai</td>
 <td>Video call transcription</td>
 </tr>
-<tr class="even">
+<tr>
 <td>murf.ai</td>
 <td>Voice generator</td>
 </tr>
@@ -87,37 +86,36 @@ Examples of human-in-the-loop apps
 <col style="width: 63%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Problem</td>
 <td>Description</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Monolithicity</td>
 <td>LLMs are massive monolithic models requiring large amounts of computing power for training to offer <strong><em>multi-modal</em></strong> <strong><em>capabilities</em></strong> across diverse domains of knowledge, making training such models possible for very few companies. <span class="citation" data-cites="liuPrismerVisionLanguageModel2023">@liuPrismerVisionLanguageModel2023</span> proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Opaqueness</td>
 <td>LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are <em><strong>hallucinations</strong>,</em> the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google’s Bard (now renamed to Gemini): “Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?”</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Biases and Prejudices</td>
 <td>AI bias is well-documented and a hard problem to solve <span class="citation" data-cites="liangGPTDetectorsAre2023">[@liangGPTDetectorsAre2023]</span>. <strong>Humans don’t necessarily correct mistakes made by computers and may instead become “partners in crime”</strong> <span class="citation" data-cites="krugelAlgorithmsPartnersCrime2023">[@krugelAlgorithmsPartnersCrime2023]</span>. People are prone to bias and prejudice. It’s a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Missing Data</td>
 <td>LLMs have been pre-trained on massive amounts of public data, which gives them the ability for for reasoning and generating in a human-like way, yet they are missing specific private data, which needs to be ingested to augment LLMs ability to respond to questions on niche topics <span class="citation" data-cites="Liu_LlamaIndex_2022">[@Liu_LlamaIndex_2022]</span>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Data Contamination</td>
 <td>Concerns with the math ability of LLMs. “performance actually reflects dataset contamination, where data closely resembling benchmark questions leaks into the training data, instead of true reasoning ability” <span class="citation" data-cites="zhangCarefulExaminationLarge2024">@zhangCarefulExaminationLarge2024</span></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Lack of Legislation</td>
 <td><span class="citation" data-cites="anderljungFrontierAIRegulation2023">@anderljungFrontierAIRegulation2023</span> OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It’s difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 <span class="citation" data-cites="browneBritainHostWorld2023">@browneBritainHostWorld2023</span>.</td>
 </tr>
 </tbody>
 </table>
-Table summarizing some problems with contemporary AIs.
 `,`
 <table>
 <caption>Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 <span class="citation" data-cites="brown2020language tamkin2021 alvarezGenerateChatbotTraining2021 hinesOpenAIFilesTrademark2023 metaIntroducingMetaLlama2024">[@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024]</span>.</caption>
@@ -129,7 +127,7 @@ Table summarizing some problems with contemporary AIs.
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>AI Model</th>
 <th>Released</th>
 <th>Company</th>
@@ -138,175 +136,175 @@ Table summarizing some problems with contemporary AIs.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>GPT-1</td>
 <td>2018</td>
 <td>OpenAI</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GTP-2</td>
 <td>2019</td>
 <td>OpenAI</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Turing-NLG</td>
 <td>2020</td>
 <td>Microsoft</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GPT-3</td>
 <td>2020</td>
 <td>OpenAI</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GPT-3.5</td>
 <td>2022</td>
 <td>OpenAI</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GPT-4</td>
 <td>2023</td>
 <td>OpenAI</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>AlexaTM</td>
 <td>2022</td>
 <td>Amazon</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NeMo</td>
 <td>2022</td>
 <td>NVIDIA</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PaLM</td>
 <td>2022</td>
 <td>Google</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LaMDA</td>
 <td>2022</td>
 <td>Google</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GLaM</td>
 <td>2022</td>
 <td>Google</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>BLOOM</td>
 <td>2022</td>
 <td>Hugging Face</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Falcon</td>
 <td>2023</td>
 <td>Technology Innovation Institute</td>
 <td>Open Source</td>
 <td>U.A.E.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tongyi</td>
 <td>2023</td>
 <td>Alibaba</td>
 <td>Proprietary</td>
 <td>China</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Vicuna</td>
 <td>2023</td>
 <td>Sapling</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Wu Dao 3</td>
 <td>2023</td>
 <td>BAAI</td>
 <td>Open Source</td>
 <td>China</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LLAMA 2</td>
 <td>2023</td>
 <td>META</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>PaLM-2</td>
 <td>2023</td>
 <td>Google</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Claude 3</td>
 <td>2024</td>
 <td>Anthropic</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Mistral Large</td>
 <td>2024</td>
 <td>Mistral</td>
 <td>Proprietary</td>
 <td>France</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Gemini 1.5</td>
 <td>2024</td>
 <td>Google</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LLAMA 3</td>
 <td>2024</td>
 <td>META</td>
 <td>Open Source</td>
 <td>U.S.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>AFM</td>
 <td>2024</td>
 <td>Apple</td>
 <td>Proprietary</td>
 <td>U.S.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Viking 7B</td>
 <td>2024</td>
 <td>Silo</td>
 <td>Open Source</td>
 <td>Finland</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GPT-5</td>
 <td>202?</td>
 <td>OpenAI</td>
@@ -315,34 +313,32 @@ Table summarizing some problems with contemporary AIs.
 </tr>
 </tbody>
 </table>
-Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 \[@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024\].
 `,`
 <table>
 <caption>Replika AI users approach to interacting with the AI friend from <span class="citation" data-cites="jiangChatbotEmergencyExist2022">@jiangChatbotEmergencyExist2022</span>.</caption>
 <thead>
-<tr class="header">
+<tr>
 <th>How humans express empathy towards the Replika AI companion</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Companion buddy</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Responsive diary</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Emotion-handling program</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Electronic pet</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Tool for venting</td>
 </tr>
 </tbody>
 </table>
-Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022.
 `,`
 <table>
 <caption>AIs in different forms of media.</caption>
@@ -354,7 +350,7 @@ Replika AI users approach to interacting with the AI friend from @jiangChatbotEm
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Movie / Series / Game / Book</th>
 <th>Character</th>
 <th>Positive</th>
@@ -363,119 +359,119 @@ Replika AI users approach to interacting with the AI friend from @jiangChatbotEm
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>2001: A Space Odyssey</td>
 <td>HAL 9000</td>
 <td></td>
 <td></td>
 <td>X</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Her</td>
 <td>Samantha</td>
 <td>X</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Alien</td>
 <td>MU/TH/UR 6000 (Mother)</td>
 <td>X</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Terminator</td>
 <td>Skynet</td>
 <td></td>
 <td></td>
 <td>X</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Summer Wars</td>
 <td>Love Machine</td>
 <td></td>
 <td></td>
 <td>X</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Marvel Cinematic Universe</td>
 <td>Jarvis, Friday</td>
 <td>X</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Knight Rider</td>
 <td>KITT</td>
 <td>X</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>CARR</td>
 <td></td>
 <td></td>
 <td>X</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Star Trek</td>
 <td>Data</td>
 <td>X</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>Lore</td>
 <td></td>
 <td></td>
 <td>X</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Ex Machina</td>
 <td>Kyoko</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>Ava</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Tron</td>
 <td>Tron</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Neuromancer</td>
 <td>Wintermute</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>The Caves of Steel / Naked Sun</td>
 <td>R. Daneel Olivaw</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>The Robots of Dawn</td>
 <td>R. Giskard Reventlov</td>
 <td></td>
 <td>X</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Portal</td>
 <td>GLaDOS</td>
 <td></td>
@@ -484,7 +480,6 @@ Replika AI users approach to interacting with the AI friend from @jiangChatbotEm
 </tr>
 </tbody>
 </table>
-AIs in different forms of media.
 `,`
 <table>
 <colgroup>
@@ -493,34 +488,34 @@ AIs in different forms of media.
 <col style="width: 31%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Product</th>
 <th>Link</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Github CoPilot</td>
 <td>personal.ai</td>
 <td>AI helper for coding</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Google Translate</td>
 <td>translate.google.com</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Google Search</td>
 <td>google.com</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Google Interview Warmup</td>
 <td>grow.google/certificates/interview-warmup</td>
 <td>AI training tool</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Perplexity</td>
 <td><span class="citation" data-cites="hinesPerplexityAnnouncesAI2023">@hinesPerplexityAnnouncesAI2023</span></td>
 <td>perplexity.ai chat-based search</td>
@@ -535,31 +530,30 @@ AIs in different forms of media.
 <col style="width: 63%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Field</th>
 <th>Usage</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Shipping</td>
 <td><span class="citation" data-cites="veitchSystematicReviewHumanAI2022">@veitchSystematicReviewHumanAI2022</span> highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Data Summarizaton</td>
 <td>AI is great at summarizing and analyzing data <span class="citation" data-cites="petersGoogleChromeWill2023 tuWhatShouldData2023">[@petersGoogleChromeWill2023; @tuWhatShouldData2023]</span></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Childcare</td>
 <td>Generate personalized bedtime stories</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Design Tools</td>
 <td><span class="citation" data-cites="DavidHoangHow2024">@DavidHoangHow2024</span></td>
 </tr>
 </tbody>
 </table>
-A very small illustration of generative AI usage across disparate fields of human life.
 `,`
 <table>
 <caption>Criticism of Generative UI by <span class="citation" data-cites="NielsenIdeasGenerative2024">[@NielsenIdeasGenerative2024]</span>.</caption>
@@ -568,93 +562,91 @@ A very small illustration of generative AI usage across disparate fields of huma
 <col style="width: 71%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Problem</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Low predictability</td>
 <td>Does personalization mean the UI keeps changing?</td>
 </tr>
-<tr class="even">
+<tr>
 <td>High carbon cost</td>
 <td>AI-based personalization is computation-intensive</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Surveillance</td>
 <td>Personalization needs large-scale data capture</td>
 </tr>
 </tbody>
 </table>
-Criticism of Generative UI by \[@NielsenIdeasGenerative2024\].
 `,`
 <table>
 <caption>Common Social Media UI Parts</caption>
 <thead>
-<tr class="header">
+<tr>
 <th>Feature</th>
 <th>Examples</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Feed</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Post</td>
 <td>Apple App Store</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Stories</td>
 <td>IG, FB, WhatsApp, SnapChat, TikTok</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Comment</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Reactions</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-Common Social Media UI Parts
 `,`
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>UX</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Useful</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Valuable</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Usable</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Acessible</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Findable</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Desirable</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Credible</td>
 </tr>
 </tbody>
@@ -667,14 +659,14 @@ Common Social Media UI Parts
 <col style="width: 45%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>1</th>
 <th>2</th>
 <th>3</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Reduce the time to task</td>
 <td>Make the task easier</td>
 <td>Personalize the experience for an individual</td>
@@ -685,49 +677,48 @@ Common Social Media UI Parts
 <table>
 <caption>Microsoft’s heuristics categorized by context and time.</caption>
 <thead>
-<tr class="header">
+<tr>
 <th>Context</th>
 <th>Time</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Initially</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>During interaction</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>When wrong</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Over time</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-Microsoft’s heuristics categorized by context and time.
 `,`
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Name</th>
 <th>Features</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Charisma</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Replika</td>
 <td>Avatar, Emotion, Video Call, Audio</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Siri</td>
 <td>Audio</td>
 </tr>
@@ -741,35 +732,34 @@ Microsoft’s heuristics categorized by context and time.
 <col style="width: 63%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Anthropomorphic AI User Interfaces</th>
 <th>Non-Anthropomorphic AI User Interfaces</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>AI wife <span class="citation" data-cites="MyWifeDead2023">[@MyWifeDead2023]</span></td>
 <td>Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders <span class="citation" data-cites="constandseHowAIdrivenWebsite2018">[@constandseHowAIdrivenWebsite2018]</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td><span class="citation" data-cites="sarahperezCharacterAIA16zbacked2023">[@sarahperezCharacterAIA16zbacked2023]</span> character AI</td>
 <td>AI tools for web designers <span class="citation" data-cites="patrizia-slongoAIpoweredToolsWeb2020">[@patrizia-slongoAIpoweredToolsWeb2020]</span></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Mourning for the ‘dead’ AI <span class="citation" data-cites="phoebearslanagic-wakefieldReplikaUsersMourn">[@phoebearslanagic-wakefieldReplikaUsersMourn]</span></td>
 <td>Microsoft Designer allows generating UIs just based on a text prompt <span class="citation" data-cites="microsoftMicrosoftDesignerStunning2023">[@microsoftMicrosoftDesignerStunning2023]</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td>AI for therapy <span class="citation" data-cites="broderickPeopleAreUsing2023">[@broderickPeopleAreUsing2023]</span></td>
 <td>personalized bed-time stories for kids generated by AI <span class="citation" data-cites="bedtimestory.aiAIPoweredStory2023">[@bedtimestory.aiAIPoweredStory2023]</span></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Mental health uses: AI for bullying <span class="citation" data-cites="sungParentsWorryTeens2023">[@sungParentsWorryTeens2023]</span></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-Some notable examples of anthropomorphic AIs for human emotions.
 `,`
 <table>
 <caption>Design implications arising from this chapter.</caption>
@@ -778,71 +768,70 @@ Some notable examples of anthropomorphic AIs for human emotions.
 <col style="width: 63%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Category</th>
 <th>Implication</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Voice Assistants</td>
 <td>There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Sustainability</td>
 <td>While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Sustainability</td>
 <td>Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Machine Learning</td>
 <td>All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Character Design</td>
 <td>I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Psychology</td>
 <td>Humans respond better to humans?</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Psychology</td>
 <td>Humans respond better to machines that into account emotion?</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Open Source</td>
 <td>For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>User Experience</td>
 <td>User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LLMs</td>
 <td>Prompt engineering findings have significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cuteness</td>
 <td>Cuter apps have higher retention</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Transparency</td>
 <td>Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Anthropomorphism</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-Design implications arising from this chapter.
 `,`
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td></td>
 <td>Plap</td>
 </tr>
