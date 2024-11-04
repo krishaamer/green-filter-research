@@ -1,7 +1,0 @@
-bibliography: [../ref.bib]
-csl: ../harvard.csl
-execute:
-  echo: false
-  warning: false
-  message: false
-  error: false

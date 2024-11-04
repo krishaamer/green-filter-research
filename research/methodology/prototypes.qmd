@@ -6,4 +6,4 @@ editor:
 suppress-bibliography: true
 ---
 
-{{< include "_index.qmd" >}}
+{{< include "_prototypes.qmd" >}}
