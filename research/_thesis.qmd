@@ -1,19 +1,28 @@
 ---
-title: "The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing"
-author: "Kris Haamer"
+title: ""
+author: ""
 bibliography: ref.bib
-csl: harvard.csl
-toc: true
-geometry: margin=1in
-date: "`r format(Sys.time(), '%B %d, %Y')`"
+csl: apa.csl
+toc: false
+geometry: top=23mm, bottom=30mm, left=20mm, right=20mm
+code-blocks: false
 format:
-  pdf
+  pdf:
+    document:
+      title: false
+      author: false
+      number-sections: true
+      keep-title: false
 execute:
   echo: false
+  highlight: false
 CJKmainfont: STSong
 CJKoptions:
   - BoldFont=STHeiti
   - ItalicFont=STKaiti
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{hidelinks}
 ---
 
 ```{python}
@@ -37,6 +46,9 @@ warnings.filterwarnings("ignore")
     \vspace{1.5in}
     {\Large NCKU \par}
 \end{titlepage}
+
+\newpage
+\tableofcontents
 
 \newpage
 
@@ -80,6 +92,22 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "methodology/_prototypes.qmd" >}}
+
+\newpage
+
+{{< include "methodology/_ideas.qmd" >}}
+
+\newpage
+
+{{< include "methodology/_interactive.qmd" >}}
+
+\newpage
+
+{{< include "methodology/_testing.qmd" >}}
+
+\newpage
+
 {{< include "results/_index.qmd" >}}
 
 \newpage
@@ -109,22 +137,6 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "_discussion.qmd" >}}
-
-\newpage
-
-{{< include "prototypes/_index.qmd" >}}
-
-\newpage
-
-{{< include "prototypes/_ideas.qmd" >}}
-
-\newpage
-
-{{< include "prototypes/_interactive.qmd" >}}
-
-\newpage
-
-{{< include "prototypes/_testing.qmd" >}}
 
 \newpage
 
