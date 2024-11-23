@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-# Shopping
+## Shopping
 
 ```{python}
 likert_single_chart(0)
