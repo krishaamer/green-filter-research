@@ -35,19 +35,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-\begin{titlepage}
-    \centering
-    \vspace*{1in}
-    {\LARGE \textbf{The Journey from Consumer to Investor: Designing a Financial AI Companion for Young Adults to Help With Sustainable Shopping, Saving, and Investing} \par}
-    \vspace{0.5in}
-    {\LARGE \textbf{從消費者到投資者的旅程：為年輕成人設計一個財務人工智慧夥伴，幫助他們進行可持續購物、儲蓄和投資} \par}
-    \vspace{0.5in}
-    {\Large Kris Haamer 漢默可 \par}
-    \vfill
-    {\Large \today \par}
-    \vspace{1.5in}
-    {\Large NCKU \par}
-\end{titlepage}
+{{< include "_cover.qmd" >}}
 
 \newpage
 \tableofcontents

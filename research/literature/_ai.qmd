@@ -14,7 +14,14 @@ import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
+
+::: {.content-hidden unless-format="pdf"}
+# Artificial Intelligence
+:::
+
+::: {.content-hidden unless-format="html"}
 # AI
+:::
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
@@ -255,7 +262,7 @@ models_rag_performance()
 ## Price of Tokens
 At the end of the day, the adoption of AI to everyday life, even in the smallest of contexts, will come down to the price. Long-time AI-engineer [@ngAIRestoresALS2024] predicts, having seen the roadmaps for the microchip industries, as well as incoming hardware and software innovations, the price of tokens will be very low, and much lower than a comparative human worker.
 
-# Companions
+## Companions
 
 ## Acceptance
 
