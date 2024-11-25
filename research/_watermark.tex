@@ -1,8 +1,12 @@
 \usepackage{graphicx}
-\usepackage{eso-pic}
-
-\AddToShipoutPictureBG{
-  \AtPageLowerLeft{
-    \includegraphics[width=\paperwidth,height=\paperheight]{/images/watermark.jpg}
-  }
+\usepackage{background}
+\backgroundsetup{
+  scale=1,
+  color=black,
+  opacity=0.1,
+  angle=0,
+  position=current page.south,
+  vshift=5cm,
+  hshift=0cm,
+  contents={\includegraphics[width=\paperwidth]{images/watermark.png}}
 }

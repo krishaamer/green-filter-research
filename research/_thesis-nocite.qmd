@@ -13,9 +13,10 @@ format:
       author: false
       number-sections: true
       keep-title: false
-      keep-tex: true
-      include-in-header: 
-        - _watermark.tex
+      toc-title: "TABLE OF CONTENTS"
+    include-in-header: 
+      - file: _watermark.tex
+      - file: _style.tex
 execute:
   echo: false
   highlight: false
@@ -42,15 +43,23 @@ warnings.filterwarnings("ignore")
 {{< include "_cover.qmd" >}}
 
 \newpage
-\tableofcontents
-
-\newpage
 
 {{< include "_abstract.qmd" >}}
 
 \newpage
 
 {{< include "_abstract-tw.qmd" >}}
+
+\newpage
+
+{{< include "_acknowledgments.qmd" >}}
+
+\newpage
+\tableofcontents
+
+\newpage
+
+{{< include "_glossary.qmd" >}}
 
 \newpage
 
@@ -131,10 +140,6 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "_discussion.qmd" >}}
-
-\newpage
-
-{{< include "_glossary.qmd" >}}
 
 \newpage
 
