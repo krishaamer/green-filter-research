@@ -1,0 +1,49 @@
+\usepackage{graphicx}
+% \usepackage{background}
+\usepackage[normalem]{ulem} % For underlining in subsubsection titles
+\usepackage{appendix}       % For appendix support
+\usepackage{chngcntr}       % For resetting counters
+
+% Background image setup
+% \backgroundsetup{
+% scale=1,
+% color=black,
+% opacity=1,
+% angle=0,
+% position=current page.center,
+% vshift=0cm,
+% hshift=0cm,
+% contents={\includegraphics[width=0.2\paperwidth]{images/watermark.png}}
+% }
+
+% Section heading customization
+\RedeclareSectionCommand[
+  beforeskip=0pt,
+  afterskip=1em,
+  font=\normalfont\bfseries\centering\MakeUppercase
+]{section}
+
+% Subsection heading customization
+\RedeclareSectionCommand[
+  beforeskip=1em,
+  afterskip=1em,
+  font=\normalfont\bfseries\MakeUppercase
+]{subsection}
+
+% Subsubsection heading customization
+\RedeclareSectionCommand[
+  beforeskip=1em,
+  afterskip=1em,
+  font=\normalfont\underline,
+  afterindent=false
+]{subsubsection}
+
+% Adjust numbering in the appendix
+\newcommand{\appendixnumbering}{
+  \renewcommand{\thesection}{\Alph{section}}
+  \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+  \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+  \setcounter{section}{0}
+  \setcounter{subsection}{0}
+  \setcounter{subsubsection}{0}
+}

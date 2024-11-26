@@ -1,10 +1,3 @@
----
-title: AI Companion
-sidebar_position: 1
-editor:
-    render-on-save: false
----
-
 ```{python}
 from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles
 ```

@@ -4,7 +4,7 @@ sidebar_position: 7
 execute:
   echo: false
 editor:
-    render-on-save: false
+  render-on-save: false
 suppress-bibliography: true
 CJKmainfont: STSong
 CJKoptions:

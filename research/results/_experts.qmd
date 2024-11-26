@@ -1,15 +1,3 @@
----
-title: ""
-sidebar_position: 1
-editor:
-  render-on-save: false
-format:
-  pdf:
-    title: "Expert Interviews"
-  html:
-    title: "Experts"
----
-
 ```{=mdx}
 import Figure from '/src/components/Figure';
 import SankeyAll from "/research/images/experts/sankey-all.png";

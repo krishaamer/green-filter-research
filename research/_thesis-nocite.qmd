@@ -13,10 +13,10 @@ format:
       author: false
       number-sections: true
       keep-title: false
+      keep-tex: true
       toc-title: "TABLE OF CONTENTS"
-    include-in-header: 
-      - file: _watermark.tex
-      - file: _style.tex
+    include-in-header:
+      - _headers.tex
 execute:
   echo: false
   highlight: false
@@ -30,7 +30,6 @@ urlcolor: black
 citecolor: black
 suppress-bibliography: true
 ---
-
 
 ```{python}
 #| echo: false
@@ -55,7 +54,8 @@ warnings.filterwarnings("ignore")
 {{< include "_acknowledgments.qmd" >}}
 
 \newpage
-\tableofcontents
+
+{{< include "_toc.qmd" >}}
 
 \newpage
 
