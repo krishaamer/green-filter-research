@@ -1,49 +1,69 @@
 \usepackage{graphicx}
-% \usepackage{background}
-\usepackage[normalem]{ulem} % For underlining in subsubsection titles
-\usepackage{appendix}       % For appendix support
-\usepackage{chngcntr}       % For resetting counters
+% \usepackage{background}      % For background images
+\usepackage[normalem]{ulem}  % For underlining
+\usepackage{appendix}        % For appendix support
+\usepackage{chngcntr}        % For resetting counters
 
 % Background image setup
 % \backgroundsetup{
-% scale=1,
-% color=black,
-% opacity=1,
-% angle=0,
-% position=current page.center,
-% vshift=0cm,
-% hshift=0cm,
-% contents={\includegraphics[width=0.2\paperwidth]{images/watermark.png}}
+%   scale=1,
+%   color=black,
+%   opacity=1,
+%   angle=0,
+%   position=current page.center,
+%   vshift=0cm,
+%   hshift=0cm,
+%   contents={\includegraphics[width=0.2\paperwidth]{images/watermark.png}}
 % }
 
-% Section heading customization
+% Set numbering depth to include \paragraph
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% Customize \section (Chapter-Level Headings)
 \RedeclareSectionCommand[
-  beforeskip=0pt,
+  beforeskip=1em plus 0.5em minus 0.2em,
   afterskip=1em,
+  indent=0pt,
   font=\normalfont\bfseries\centering\MakeUppercase
 ]{section}
 
-% Subsection heading customization
+% Customize \subsection (First-Level Subheadings)
 \RedeclareSectionCommand[
-  beforeskip=1em,
+  beforeskip=1em plus 0.5em minus 0.2em,
   afterskip=1em,
-  font=\normalfont\bfseries\MakeUppercase
+  indent=0pt,
+  font=\normalfont\bfseries\centering
 ]{subsection}
 
-% Subsubsection heading customization
+% Customize \subsubsection (Second-Level Subheadings)
 \RedeclareSectionCommand[
-  beforeskip=1em,
+  beforeskip=1em plus 0.5em minus 0.2em,
   afterskip=1em,
-  font=\normalfont\underline,
-  afterindent=false
+  indent=0pt,
+  font=\normalfont\bfseries
 ]{subsubsection}
+
+% Customize \paragraph (Third-Level Subheadings)
+\RedeclareSectionCommand[
+  beforeskip=1em plus 0.5em minus 0.2em,
+  afterskip=1em,
+  indent=0pt,
+  afterindent=false, % Do not indent the first paragraph
+  font=\normalfont\underline,
+  numbers=left,      % Corrected option to enable numbering
+  level=4,
+  style=section
+]{paragraph}
 
 % Adjust numbering in the appendix
 \newcommand{\appendixnumbering}{
   \renewcommand{\thesection}{\Alph{section}}
   \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
   \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+  \renewcommand{\theparagraph}{\thesubsubsection.\arabic{paragraph}}
   \setcounter{section}{0}
   \setcounter{subsection}{0}
   \setcounter{subsubsection}{0}
+  \setcounter{paragraph}{0}
 }
