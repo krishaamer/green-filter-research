@@ -347,7 +347,7 @@ ChatGPT makes it possible to *evaluate AI models* just by talking, i.e. having c
 
 -   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
 
-### Multi-Modality: **Natural** **Interactions with** AI Systems
+### Multi-Modality: Natural Interactions with AI Systems
 
 Humans are multi-modal creatures by birth. To varied ability, we speak, see, listen using our biological bodies. AIs are becoming multi-modal by design to be able to match all the human modes of communication - increasing their humanity.
 
@@ -515,7 +515,7 @@ There's evidence across disciplines about the usefulness of AI assistants:
 
 ***Design Implications:*** This suggests adding an avatar to the AI design may be worthwhile.
 
-### **Generative UIs Enable Flexibility of Use**
+### Generative UIs Enable Flexibility of Use
 
 The 'grandfather' of user experience design, [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (*"difficult, slow, and unpleasant"*) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not. The promise of *Generative User Interfaces* (GenUI) is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".*** [@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns.
 
