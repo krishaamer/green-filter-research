@@ -1,4 +1,10 @@
-`{.{python} #| echo: false from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions import warnings warnings.filterwarnings("ignore")`
+```{python}
+#| echo: false 
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions 
+
+import warnings 
+warnings.filterwarnings("ignore")
+```
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
