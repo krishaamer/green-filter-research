@@ -1,9 +1,4 @@
-```{python}
-#| echo: false
-from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions
-import warnings
-warnings.filterwarnings("ignore")
-```
+`{.{python} #| echo: false from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions import warnings warnings.filterwarnings("ignore")`
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
@@ -24,9 +19,9 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```
 ## Eco-Design: The Legislative Perspective
 
-In Europe, *eco-design* has strong political support as part of the European Union's (EU) *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders. A large part of the proposal by [@commissionEcodesignYourFuture2014] is *eco-design*, as a large part of product lifecycle environmental impact is defined in the design process. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+In the European Union, *eco-design* has political support as part of the EU *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders. Eco-design playslarge part of the proposal by [@commissionEcodesignYourFuture2014] because the product lifecycle's environmental impact is defined in the design process. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
-It's not that the EU didn't have an environmental policy before, it's that it was too vague and filled with loop-holes. CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive). ESRS reporting is a standard to meet CSRD requirements.
+It's not that the EU didn't have an environmental policy before; rather it was more vague and filled with loop-holes. CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive). ESRS reporting is a standard to meet CSRD requirements.
 
 The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from 30 December 2024 and 30 June 2025 for small businesses.
 
@@ -83,10 +78,9 @@ Warming global climate has concrete effects on daily life. Warmer climate helps 
 
 Many companies are developing technologies for mitigation.
 
-In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market.
+In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022].
 
--   [@EUTaxonomySustainable] report: The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance.
--   National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022].
+-   The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable].
 
 **Taxes**
 
@@ -494,15 +488,13 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Writing as training data? large language models. GTP3.
 
-
 ## Multispecies Design
 
-- @kosovaBioGeoEcotileImproving2023; @selvanMultispeciesBuildingEnvelopes2023; @hernandez-santinIntegratingBiodiversityNonhuman2023
-- gallery @marcusMultispeciesMaterialitiesCohabitation2023
-- PhD Disseration: "The devastating effects that unsustainable design practices have on the natural world and other species with whom we share this planet" @metcalfeMULTISPECIESDESIGN2015
-- Participatory design and multispecies design @haldrupDesigningMultispeciesCommons2022
-- @theuniversityofmelbourneaustraliaMultispeciesCohabitationFuture2020
-
+-   @kosovaBioGeoEcotileImproving2023; @selvanMultispeciesBuildingEnvelopes2023; @hernandez-santinIntegratingBiodiversityNonhuman2023
+-   gallery @marcusMultispeciesMaterialitiesCohabitation2023
+-   PhD Disseration: "The devastating effects that unsustainable design practices have on the natural world and other species with whom we share this planet" @metcalfeMULTISPECIESDESIGN2015
+-   Participatory design and multispecies design @haldrupDesigningMultispeciesCommons2022
+-   @theuniversityofmelbourneaustraliaMultispeciesCohabitationFuture2020
 
 ## Personalized Design: Self-Monitoring
 
