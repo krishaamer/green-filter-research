@@ -834,11 +834,11 @@ William Northaus won a Novel Prize in 2018 for attempting to combine climate cha
 
 ### The Problem of Greenwashing
 
-Greenwashing is one of the largest blockers of sustainability. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
+Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
-Wikirate currently lists 4282 metrics https://wikirate.org/Metric
+Open ESG data platform Wikirate currently lists 4316 different metrics, essentially questions which companies should answer [@wikirateMetricsIntroduction2025].
 
 ```{python}
 csrd_timeline()
@@ -860,9 +860,11 @@ In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion
 
 ### Anti-greenwashing efforts in Taiwan
 
--   https://gcaa.org.tw/10468/
--   https://esg.fsc.gov.tw/SinglePage/Product/
--   https://cgc.twse.com.tw/frontEN/aboutCorp21t23
+The Taiwanese Green Citizens Action Alliance published a comprehensive report in 2024 tracking Taiwanese Corporate Sustainability Reporting focused directly at fighting corporate greenwashing [@LuSeGongMinXingDongLianMengDaZaoFanPiaoLuShengTaiXi2024].
+
+The Taiwanese Corporate Governance 3.0 - Sustainable Development Roadmap 3.0, published by the Corporate Governance Reform Task Force established by the Executive Yuan (Taiwanese Government), identifies *lack of diversity and independence in boards* and *insufficient ESG and financial information transparency* as key issues [@taiwanstockexchangecorporationTWSEGongSiZhiLiZhongXin2023].
+
+The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]
 
 ### Traceability
 
@@ -870,7 +872,9 @@ Traceability
 
 EU Deforestation Regulation (EUDR)
 
-Know your suppliers' suppliers: <https://www.sourcemap.com/technology/supply-chain-mapping>
+Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]
+
+**The founder of Sourcemap** Leonardo Bonanni \*\*started with doing product autopsy in 2015 to assess products [@*\*FastFashionLere2023]
 
 What data should be surfaced to the consumer?
 
@@ -880,13 +884,11 @@ Transaction Traceability
 
 ### Corruption
 
-Put very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
+To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
 ### Product Databases
 
-In order to consider the sustainability on a product level, there should be a directory of all the world's products.
-
-All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. GS1 is the organization providing EAN/UPC barcodes on most consumer products [@gs1EANUPCBarcodes].
+In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. GS1 is the organization providing EAN/UPC barcodes on most consumer products [@gs1EANUPCBarcodes]. There are many existing specialized databases, the open product database ([@DatakickOpenProduct]), the green technology database ([@WIPOGREENGlobal]), the world packaging database ([@PackagingWorld]), just to name a few.
 
 -   @konradA16zCryptoLeads "an internet-wide directory of purchasable products, reminiscent of how the much of the world's music is made available on streaming platform Spotify."
 
@@ -896,27 +898,19 @@ All of the world's products are subject to one or another standard and although 
 
 -   @semantics3WhyUPCDoesn2017
 
--   World product database
-
-    -   @DatakickOpenProduct: "open product database"
-
-    -   @WIPOGREENGlobal green tech database
-
-    -   @PackagingWorld packaging database
-
 ### Financialization
 
-[@yukselConstructingIndexParticipation2023] criticizes excessive financialization for the 2008 economic crisis where the real economy and financial markets disconnected, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
+[@yukselConstructingIndexParticipation2023] criticizes excessive financialization where the real economy and financial markets disconnected, blaming it for the the 2008 economic crisis, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
 ### Credit-Scoring
 
 Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indexes make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
 
-### Risk-Based Assessment
+### Risk-Based Assessment of Sustainability Credits
 
--   @francesschwartzkopffFirmsArenReporting2022 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
+-   [@francesschwartzkopffFirmsArenReporting2022] "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
 
--   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with.
+-   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyricketts77NavigatingNet2023]
 
 ### Indices
 
@@ -982,9 +976,11 @@ There are many different certifications
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
-https://opencorporates.com/ attempts to map all the companies around the world WikiRate, started in 2010, is a tool for checking green credentials Transparency; they define Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021]. - @wikirateWikiRate2023 "The largest open registry of corporate sustainability data in the world" @millsWikiRateOrgLeveraging2016
+-   WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he largest open registry of corporate sustainability data in the world" [@millsWikiRateOrgLeveraging2016; @wikirateWikiRate2023].
 
-"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises. https://x.com/opencorporates/status/1819025679804973411 https://blog.opencorporates.com/2023/03/14/unsd-oecd-use-opencorporates-data-to-help-the-world-understand-multinational-enterprises/"
+-   Transparency is about culture but also mechanisms and tools, which is why WikiRate defines Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+
+-   OpenCorporates attempts to map all the companies around the world  - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
 
 +--------------------------------------+---------------------------------------------------------------+
 | Type                                 | Example                                                       |
@@ -1050,7 +1046,7 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 msci_esg_leaders()
 ```
 
--   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: "companies with higher quality climate reporting also provide higher returns"
+-   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*.
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
@@ -1067,32 +1063,6 @@ companies_triple_perf()
 
 -   Snowflake analysis like Simply Wallstreet
 
-### ESG (Blockchains)
-
--   Improve product *provenance*, blockchains offer this transparency
-
--   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
-
--   @BlockchainCompaniesTeam2021
-
--   @ganuWhyBlockchainCan2021
-
-### ESG (Tools)
-
-"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
-
-Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
-
-### ESG (Fintech)
-
-In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 180 banks' data. Fintech Index and ESG Scores have a positive correlation, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible). On the flip side, out of the initial 1551 banks considered the majority did not have ESG data available to be able to perform the comparison.
-
-```{python}
-esg_fintech_heatmap()
-```
-
-In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
-
 ### ESG (Governance)
 
 Governance drives social and environmental initiatives at companies.
@@ -1105,25 +1075,7 @@ MSCI research finds company boards severely lacking in climate experts; among th
 msci_board_sustainability_experts()
 ```
 
-Majority of large emitters companies don't have climate experts [@climateaction100+Companies2023].
-
-```{python}
-companies_large_emitters_climate_experts()
-```
-
-Most companies do not meet criteria [@climateaction100+Companies2023].
-
-```{python}
-companies_large_emitters_criteria()
-```
-
 A systematic meta-review of 153 research papers of ESG literature around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes [@martinyDeterminantsEnvironmentalSocial2024].
-
-```{python}
-esg_vs_board_diversity()
-```
-
-Board diversity in the TOP 5 companies based on Corporate Knights data [@corporateknightsGlobal1002024].
 
 ```{python}
 ck_board_diversity()
@@ -1131,13 +1083,44 @@ ck_board_diversity()
 
 Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
 
+Majority of large emitters companies don't have climate experts [@climateaction100+Companies2023].
+
+```{python}
+companies_large_emitters_climate_experts()
+```
+
+Most companies do not meet the criteria [@climateaction100+Companies2023].
+
+```{python}
+companies_large_emitters_criteria()
+```
+
+```{python}
+esg_vs_board_diversity()
+```
+
+Board diversity in the top 5 sustainable companies in 2024 based on Corporate Knights rankings [@corporateknightsGlobal1002024].
+
+In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 180 banks' data. Fintech Index and ESG Scores have a positive correlation, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible). On the flip side, out of the initial 1551 banks considered the majority did not have ESG data available to be able to perform the comparison.
+
+```{python}
+esg_fintech_heatmap()
+```
+
+In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
+
 ### ESG (Crisis)
+
+The promise of ESG is to counter misinformation with transparency.
 
 ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023].
 
 The lack of rigor is creating a backlash against ESG reporting.[@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative". @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
 
 -   ESG greenwashing @baldiRoleESGScoring2022
+-   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
+-   @agnewRIPESG2022 RIP ESG
+-   @luoESGLiquidityStock2022 found firms with a lower ESG score are more profitable.
 
 [@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
 
@@ -1166,7 +1149,7 @@ esg_rating_agencies_chart()
 
 -   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
 
-### ESG (Language): Shared Language
+### ESG (Shared Language)
 
 ESG Becomes a Shared Language.
 
@@ -1212,10 +1195,6 @@ While ESG is riddled with problems, it has started a common language and there a
 
 -   ESG is a Marketing Tool
 
-    -   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
-    -   @agnewRIPESG2022 RIP ESG
-    -   @luoESGLiquidityStock2022 found firms with a lower ESG score are more profitable.
-
 -   Analysis: Messari: investor education, information asymmetry
 
 | Problems                             |     |     |
@@ -1226,7 +1205,21 @@ While ESG is riddled with problems, it has started a common language and there a
 
 ### ESG (Data Streams): Realtime Reporting
 
+"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
+
+Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
+
 -   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
+
+<!-- -->
+
+-   Improve product *provenance*, blockchains offer this transparency
+
+-   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
+
+-   @BlockchainCompaniesTeam2021
+
+-   @ganuWhyBlockchainCan2021
 
 There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
@@ -1293,14 +1286,14 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
     -   @WorkerVoice2022 Worker Voice apps.
     -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 
-## Design Implications
+## Design Implications and Feature Ideas
 
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category       | Role              | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +================+===================+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-| Legislation    | Consumer          | As a consumer, I can get notified by the app about highlights of poor legislation refuted by science. \|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Legislation    | Consumer          | As a consumer, I can get notified by the app about highlights of poor legislation refuted by science.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Metrics        | Company           | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Metrics        | Company           | ESG alone is not a sufficient metric to prove sustainability of a company and needs to be accompanied by other metrics?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Transparency   | Investor          | @10YearsGreen2019: "Investors want to know where their money is going", says Heike Reichelt, Head of Investor Relations at World Bank.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1324,33 +1317,19 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Engagement     | Consumer          | Airbnb for Investments platform for projects linked to your consumption habits. Can provide better products for you as well as invest in these companies. The consumer can feel closer connection to the businesses they interact with through shared values, leads to participatory design and stakeholder capitalism. Platform to understand investment products. Green crowdfunding already allows people to invest into projects to make new green products, for example from recycled materials. but what about getting involved on a deeper level. Bigger than projects, scalable solutions. Kickstarter has green projects section. Startups vs large businesses. The design of the user interface helps the adoption of a new technology. What is the suitable user interface for millennial green investors? |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-Features
-
-## Feature Ideas
-
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Category** | **Role** |                                                                                                                                                                                                                                                                  |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              | Consumer | -   *Design implication*: *As a user, I can use the app to compare banks available in my country.*                                                                                                                                                               |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              | Consumer | -   **Feature:** How could people apply the same principle (**Know Your Company**) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital. |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              | Consumer | **Feature:** We need a dashboard of comparable public indicators about each company.                                                                                                                                                                             |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Community    |          | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                              |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                  |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation".                                                                                            |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              | User     | **Design:** **Feature**: Help me write me investment thesis first.                                                                                                                                                                                               |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          |                                                                                                                                                                                                                                                                  |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Governance   |          | ***Design Implications:*** show company board membership in the app product view.                                                                                                                                                                                |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          |                                                                                                                                                                                                                                                                  |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|              |          |                                                                                                                                                                                                                                                                  |
-+--------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | Consumer          | -   *Design implication*: *As a user, I can use the app to compare banks available in my country.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | Consumer          | -   **Feature:** How could people apply the same principle (**Know Your Company**) when buying a product or investing? Would building an ESG community help push polluting companies towards greener practices? - or starving them from cheap access to capital.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | Consumer          | **Feature:** We need a dashboard of comparable public indicators about each company.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Community      |                   | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |                   | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |                   | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                | User              | **Design:** **Feature**: Help me write me investment thesis first.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Governance     |                   | ***Design Implications:*** show company board membership in the app product view.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
