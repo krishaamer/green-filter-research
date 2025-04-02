@@ -199,7 +199,7 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 | Mintos        | Buy bonds and loans                                                          | EU           |
 +---------------+------------------------------------------------------------------------------+--------------+
 
-: Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An updated database is available at [greenfilter.app/database](https://www.greenfilter.app/database).
+: Data from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. An up to date database (as of April 2025) is available at [greenfilter.app/data](https://www.greenfilter.app/data).
 
 -   @andresenglerBerkshireHathawayInvests2022
 -   DUB, another copy-trading app available on the Apple app store: @dubCopyTradeAnyone2025
@@ -210,7 +210,83 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 -   green transparency
 -   fundamental analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.
 
-Does Individual Climate Action Matter?
+An Australian fintech Douugh released it's robo-advisor in 2024 @paulDouughFintechBudgeting2024
+
+Douugh's tagline explain the ethos of a unified financial app simply: "One app to spend and grow your money".
+
+The newest generation of robo-advisors are integrating large-language modules, for example Reuters highlights the Chinese brokerage firm Tiger Brokers as one among 20 Chinese companies integrating DeepSeek deeply into asset management from simple chat functionality all the way to executing trades.
+
+Alipay already provides two investment services within it's payments app, at first launching Yu'e Bao (餘額寶) in 2013, which automatially invests small amounts on the users' accounts for returns typically above those of tradional banks' saving accounts, and later in 2015 Ant Fortune (螞蟻財富), offering access to thousands of invetment products from partner companies [@kranesharesAntGroup101202]. Alibaba ows over 30% of Alipay and both companies are pushing for increased use of AI within their services [@ChineseBillionaireJack2024]. Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and Naver, though Naver Pay, have been on a path for several years evolving into comprehensive financial platforms [@linecorporationJapanInvestmentMade2019; @annaj.parkNaverPayExpand2023].
+
+**Tier 1: Established Consumer Payment Giants**
+
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Service     | Features                                                  | Website             | Availability            | User Base         | Investing | Savings | Shopping (Payments) | Sustainability Focus |
++:============+:==========================================================+:====================+:========================+:==================+:==========+:========+:====================+:=====================+
+| Alipay      | Payments, banking, Yu'e Bao, Ant Fortune investing        | alipay.com          | China, Global (limited) | 1.3 billion users | Yes       | Yes     | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| WeChat Pay  | Payments, financial services, Licaitong investing         | wechat.com          | China, Global (limited) | 900 million users | Yes       | No      | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Apple Pay   | Contactless payments                                      | apple.com/apple-pay | Global                  | 744 million users | No        | No      | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| PhonePe     | Payments, mutual funds, digital gold                      | phonepe.com         | India                   | 590 million users | Yes       | Yes     | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Paytm       | Payments, banking, Paytm Money for stock & fund investing | paytm.com           | India                   | 350 million users | Yes       | Yes     | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Google Pay  | Payments, loyalty, transit                                | pay.google.com      | Global                  | 150 million users | No        | No      | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Samsung Pay | Mobile payments                                           | samsung.com         | Global                  | ?                 | No        | No      | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Zelle       | Bank-to-bank P2P payments                                 | zellepay.com        | USA                     | ?                 | No        | Yes     | TRUE                | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+| Nubank      | Bank                                                      | nubank.com.br       | Brazil                  | ?                 | No        | Yes     | FALSE               | FALSE                |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+
+**Tier 2: Established Growth Companies / Major Players**
+
+| Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
+|:------|:-----------|:------|:------|:------|:------|:------|:------|:------|-------|
+| Venmo | P2P payments, crypto investing | venmo.com | USA | 70 million users | Yes | No | TRUE | FALSE |  |
+| Cash App | P2P payments, stock & Bitcoin investing | cash.app | USA, UK | 57 million | Yes | No | TRUE | FALSE |  |
+| Chime | Online banking services including spending accounts, savings accounts | chime.com | USA | 22 million | No | Yes | TRUE | FALSE |  |
+| MoneyLion | Banking, investing, credit-building loans, financial tracking tools | moneylion.com | USA | 20 million | Yes | Yes | TRUE | FALSE |  |
+| NerdWallet | Financial clarity all in one place | nerdwallet.com | USA | 19 million | No | No | FALSE | FALSE |  |
+| SoFi | Loans, banking, robo-investing, stock & crypto | sofi.com | USA | 10 million users | Yes | Yes | TRUE | FALSE |  |
+| Albert | Budgeting, saving, spending, investing, access to financial advisors | albert.com | USA | 10 million users | Yes | Yes | FALSE | FALSE |  |
+| Acorns | AI-assisted micro-investing | acorns.com | USA | 5.7 million users | Yes | No | FALSE | FALSE |  |
+| Wealthsimple | AI-assisted saving & investing for Millennials | wealthsimple.com | Canada, USA, UK | 2.6 million users | Yes | Yes | FALSE | FALSE |  |
+| Qapital | Saving and investing with gamification features | qapital.com | USA | 2 million users | Yes | Yes | FALSE | FALSE |  |
+| M1 Finance | Finance Super App | m1.com | USA | 1 million users | Yes | No | FALSE | FALSE |  |
+| Finimize | Investment research for anyone | finimize.com | Global | 1 million | Yes | No | FALSE | FALSE |  |
+| Robinhood | Investing | robinhood.com | US | ? | Yes | No | FALSE | FALSE |  |
+| Betterment | AI-assisted cash management, savings, retirement, and investing | betterment.com | USA | ? | Yes | Yes | FALSE | FALSE |  |
+| Revolut | From payments to investing | revolut.com | UK, EU | ? | Yes | No | TRUE | FALSE |  |
+| Monzo | Bank | monzo.com | UK | ? | No | Yes | FALSE | FALSE |  |
+| EToro / eToro | Investing and copy-investing | etoro.com | EU | ? | Yes | No | FALSE | FALSE |  |
+| Marcus Invest | Robo-Advisor | marcusinvest.com | US | ? | Yes | No | FALSE | FALSE |  |
+| Varo Bank | Online banking services including checking and high-yield savings | varomoney.com | USA | ? | No | Yes | TRUE | FALSE |  |
+| Stash | Micro-investing platform enabling small investments | stash.com | USA | ? | Yes | No | FALSE | FALSE |  |
+| Mint | Budgeting tools, bill tracking, free credit score monitoring | mint.com | USA | ? | No | No | FALSE | FALSE | Ceased operations |
+
+**Tier 3: Up-and-Coming Startups & Niche Players**
+
+| Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
+|:------|:--------|:------|:------|:------|:------|:------|:------|:------|:------|
+| Chipper Cash | Digital cash app for African markets | chippercash.com | Ghana, Nigeria, Uganda, USA | ? | No | No | TRUE | FALSE |  |
+| Douugh | AI financial wellness app, smart account, saving tools | douugh.com | USA, Australia | ? | Yes | Yes | TRUE | FALSE | Merged with Goodments |
+| DUB | Copy-trading, mirror trades of notable figures | dubapp.com | USA | 1 million downloads | Yes | No | FALSE | FALSE |  |
+| Earthfolio | AI-assisted socially responsible investing | earthfolio.com | USA | ? | Yes | No | FALSE | TRUE |  |
+| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | ellevest.com | USA | ? | Yes | No | FALSE | FALSE |  |
+| Goodments | Matching investment vehicles to user's environmental, social, ethical values | goodments.com | USA | ? | Yes | No | FALSE | TRUE | Merged with Douugh |
+| Grünfin | Invest in funds | grunfin.com | EU | ? | Yes | Yes | FALSE | FALSE | Ceased operations |
+| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | lightyear.com | EU | ? | Yes | No | FALSE | FALSE |  |
+| Mintos | Buy bonds and loans | mintos.com | EU | ? | Yes | No | FALSE | FALSE |  |
+| Mos | Banking for students | mos.com | US | ? | No | Yes | TRUE | FALSE |  |
+| Selma | Finnish investing app | selma.com | EU | ? | Yes | No | FALSE | FALSE |  |
+| Single.Earth | Nature-backed cryptocurrency | single.earth | Global | ? | Yes | No | FALSE | TRUE |  |
+| Tomorrow Bank | Green Banking | tomorrow.one | EU | 120,000 | No | Yes | TRUE | TRUE |  |
+| Trine | Loans to eco-projects | trine.com | USA | ? | Yes | No | FALSE | TRUE |  |
+| Ziglu | UK simple investing app | ziglu.io | UK | ? | Yes | No | FALSE | FALSE |  |
 
 #### Buy Now Pay Later
 
@@ -982,7 +1058,7 @@ There are many different certifications
 
 -   Transparency is about culture but also mechanisms and tools, which is why WikiRate defines Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
 
--   OpenCorporates attempts to map all the companies around the world  - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
+-   OpenCorporates attempts to map all the companies around the world - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
 
 +--------------------------------------+---------------------------------------------------------------+
 | Type                                 | Example                                                       |
