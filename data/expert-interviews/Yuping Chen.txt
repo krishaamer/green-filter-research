@@ -1,0 +1,492 @@
+﻿MA Thesis: "Green Filter" (綠濾) (2024-06-04 14:00 GMT+8) - Transcript
+Attendees
+Fireflies.ai Notetaker Kris, Kris Haamer, Kris Haamer's Presentation, Yuping Chen
+Transcript
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+Kris Haamer: All Yes, so I'm not sure how much time you had, a little look at what I sent you. so basically I'm doing my Master's thesis and the initial kind of ambition was. Star Trek you start tractors this kind of device like a scanner and…
+Yuping Chen: Okay. Yeah, yeah.
+Kris Haamer: you can use this scanner to understand Anything pretty much. So I've always been concerned about the products I buy. And I feel like there's a lack of transparency, there are many Brands but I don't really know who's behind that brand and what they're doing. So without if I had this kind of device? and not only that what if
+Kris Haamer: I mean investing so what if the product kind of became an entry point into finding companies that I agree with, I share values with not based on what they say on the website, but based on the actual quality of their products. And I think that happens a lot, with very small businesses, someone is making good quality cakes in your neighborhood and you trust them and trust the materials they go in there. But once you get the scale. so many people are involved so many factories, because International and suddenly, it's really hard to know who you're dealing with.
+Kris Haamer: And there are many efforts towards that, with ESG or different credentials or a lot of people are talking about how to make companies were green. But at the end of the day all of this usually produces some kind of PDF reports And who will read this reports.
+Kris Haamer: so what if I could take, some information is put in the context that I'm find a product. But let me just share my screen here.
+Yuping Chen: I think you're pretty ID. Your ideal idea will be a scanner so that you can use it in your everyday life. right
+Kris Haamer: My ideal would be that I don't need it. my idea would be that they are responsible and…
+Yuping Chen: You don't need it.
+Yuping Chen: Okay.
+Kris Haamer: I have to do anything.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: 
+Yuping Chen: So since I see your prototype where I don't see the scanner part, I only see that I need to key in my questions and I get the answer. So I don't expect that. It will be some scanner for me to shop with me every day.
+Kris Haamer: so there are technically limitations what you can do. So at first I thought maybe I'll make a mobile app,…
+Yuping Chen: But yeah for online shopping first.
+Kris Haamer: for iPhone or something. Actually not online shopping.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: First I thought in the supermarket you could use your phone, but then I realized that it's so difficult. Because you have to scan something.
+Kris Haamer: And maybe they once or advice but it gets boring very easily.
+Yuping Chen: Yeah.
+Kris Haamer: And also the Apple phone ecosystem is so close. They actually doesn't allow you too much. It's very limited.
+Yuping Chen: Okay.
+Kris Haamer: So I realized that I can do more when I use the browser. even though even…
+Yuping Chen: Okay.
+Kris Haamer: though Yeah, most people they will use the phone right? So let me just Pocket through hard work.
+Yuping Chen: Yeah. Sure.
+Kris Haamer: Can you tell me a product you would like to buy on Mama?
+Kris Haamer: anything that they will sell is fine.
+Yuping Chen: I don't know maybe some T-shirts. So yeah.
+Kris Haamer: tissues
+Yuping Chen: It is a best selling products on mobile. Yeah.
+Kris Haamer: uh-huh.
+Kris Haamer: What comes up. right I need to write in Chinese…
+Yuping Chen: No, maybe you need to. Yeah, yeah.
+Kris Haamer: but writings and
+Yuping Chen: Maybe play next The Brand let's keep playing next.
+Kris Haamer: okay. Thank you.
+Yuping Chen: Whatever you can try everything. Yeah, yeah.
+Kris Haamer: Yeah, yeah, let me just right in Chinese and probably will write something.
+Yuping Chen: So it's just right a plug in to normal so they don't know you are working on it. Do they know? Okay, okay.
+Kris Haamer: They don't know and it works not only more but pretty much. Any shopping website that I set it up? so
+00:05:00
+Yuping Chen: it's just
+Kris Haamer: So I choose Mama because the layout makes it easy to put it right next to the price.
+Yuping Chen: yeah. Yeah.
+Kris Haamer: Also on shopee and on what's a coupon? And some other sites the layout is more difficult to modify.
+Yuping Chen: Okay, okay. Okay. Okay, okay.
+Kris Haamer: So it's just one more species. Okay, tell me which one would you pick here.
+Yuping Chen: Maybe the cleanest left the second editing.
+Kris Haamer: second left
+Yuping Chen: I think you can click anything. Yeah, so sure.
+Kris Haamer: Okay, so you mean this one? Okay. so once you get there a product page You have kind of have this.
+Yuping Chen: Mm-hmm
+Kris Haamer: My Internet is slow…
+Yuping Chen: Yeah.
+Kris Haamer: but pretty machines inside this red box. once it loads
+Kris Haamer: Okay, finally.
+Yuping Chen: So you put And you cook the for me?
+Kris Haamer: Yeah, you have kind of this button.
+Kris Haamer: Yes, and then. kind of what it does. It takes the information from this page.
+Yuping Chen: Mm- Okay, okay.
+Kris Haamer: And then it sends it to the AI. and it uses kind of the data that catchy DPT has But also I've given it some more data so it doesn't know about Kleenex,…
+Yuping Chen: Yeah.
+Kris Haamer: but maybe some other brands.
+Yuping Chen: Okay.
+Kris Haamer: It will have more data. basically and generates the speeding report.
+Yuping Chen: Yeah, can I completed this to another product? Can you click another yeah.
+Kris Haamer: So that was kind of the suggestion also from Professor from changing.
+Yuping Chen: Okay.
+Kris Haamer: She told me that that would be a good thing to do, but I haven't done that yet secured it only gives you the data for this particular product.
+Yuping Chen: Okay.
+Yuping Chen: Yeah.
+Kris Haamer: and then Down here just kind of like this ratings.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: and it generates this kind of ID because currently what I'm doing is I'm trying to test it with users and the users are Anonymous so they get this report and then after that they fill out the survey that's Anonymous and in the survey, they will input this code so I could match the survey result to the report that they have.
+Yuping Chen: Okay.
+Kris Haamer: And kind of my testing so far, it's like pre-testing I would say, I just used basically my friends from school. To understand if the testing works, but I realized that the testing current doesn't work because people cannot find a button on the page.
+Yuping Chen: Yeah.
+Kris Haamer: So, even like this red button they don't see it because they think it's not advertisement or…
+Yuping Chen: Yeah.
+Kris Haamer: something. So mostly they will notice the price and then the road is the pictures of the product and then just this left sidebar that has alternatives.
+Yuping Chen: Okay.
+Kris Haamer: I realized that before I actually start my official, more scientific testing I should. Maybe just change the button and the colors and things like that. So I ended up making it yellow and red because I thought that will catch my attention because when I tested me my friends he was great. Yeah.
+Yuping Chen: So they notice about the information they know the information, but they just don't want to click that.
+Kris Haamer: No, no, I tested in my friends and I don't tell them anything.
+Yuping Chen: isn't
+Kris Haamer: I just tell them okay, I tell them do you know this something on this page?
+Yuping Chen: okay, okay. Yeah.
+Kris Haamer: That catches her attention and they didn't I think out of the 20 people only two actually noticed the button.
+Yuping Chen: Okay, so usually for Momo if they want to introduce any new features, they will advertise at the front end. So maybe what you first load the mobile they will pop up some information about.
+Kris Haamer: Mm-hmm
+Yuping Chen: No notice that we have a new feature. You can click that.
+Kris Haamer: right Wow, that's interesting. I can actually do that with the plugin. I could rewrite their phone face.
+Yuping Chen: So for example, if you open the Momo app, they will show something. There was just something at the front they were pop up add or something to let you know that new there.
+Kris Haamer: Yeah. okay that
+Yuping Chen: As well as we should be. Yeah, they understand their customer will not notice any new feature.
+00:10:00
+Kris Haamer: That's interesting.
+Yuping Chen: They provide. so just tell them if we explicitly
+Kris Haamer: Right, right. That makes sense. so
+Yuping Chen: Yeah, yeah, so I'm not sure whether you are able to do this but usually if you use the Momo app, they will have something up. So here's a new feature. You can try this one.
+Kris Haamer: I can do that. I can revive the whole page to be honest.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: But you would have to download my plugin first.
+Yuping Chen: Okay.
+Kris Haamer: so if you download My Block in you already know that it exists,…
+Yuping Chen: Yeah, yeah.
+Kris Haamer: right It so currently.
+Kris Haamer: I have it on the let me show you.
+Yuping Chen: So usually when the Momo app or something, I think there their app. in my memory when the average updated they will show you some new features whenever you cross that. Yeah.
+Kris Haamer: Right, right. But currently I can only do it on the browser. So if you use your mobile phone,…
+Yuping Chen: Yeah.
+Kris Haamer: I cannot do it because Apple doesn't let me. But yes currently with you will have to go to Google Webster and…
+Yuping Chen: …
+Kris Haamer: and download this kind of blocking plugin for your browser.
+Yuping Chen: that first yeah.
+Kris Haamer: so you will already know it But honestly out of the 20 people only I think one had I ever download any blocking for their browser…
+Yuping Chen: Yeah.
+Kris Haamer: because it's not a common thing. It's Advanced feature.
+Yuping Chen: Yeah, yeah. I can understand it will be if it is not the official one. You'll be difficult to let participant notice the new thing. So, yeah,…
+Kris Haamer: exactly
+Yuping Chen: so usually We will let them know what to so we call this top down or bottom up. So if you rely on their own experience to see what's new it may be very difficult. So just out there.
+Kris Haamer: Right, right.
+Yuping Chen: There's a new thing for you to explore. Yeah. so for
+Kris Haamer: So I like on this page. So out of the 20 people the most they will notice the numbers.
+Yuping Chen: yeah, yeah.
+Kris Haamer: So if I'm kind of score. But funny enough, they don't know these numbers down there because out of the 20 people Nobody understands what this is.
+Yuping Chen: Okay.
+Kris Haamer: Because this one I guess just doesn't make sense because initially my idea was maybe you can have some kind of social score or…
+Yuping Chen: Yeah, yeah.
+Kris Haamer: rating. what other users think. But maybe I should provide some kind of Avatar so, some pictures of faces or something like that on social media to understand. This is a social score. because
+Yuping Chen: I think the translation is a little bit weird. And yeah in Chinese it is a community support or…
+Kris Haamer: maybe that's the reason yeah.
+Yuping Chen: something. Is that coming?
+Kris Haamer: Yeah. that
+Yuping Chen: But you translate into so to it really weird.
+Kris Haamer: So it's exactly like maybe just changing things like even the main title, why it's so General like this wording here…
+Yuping Chen: Yeah.
+Kris Haamer: because my main idea was I didn't want to exclude anyone.
+Yuping Chen: Yeah.
+Yuping Chen: this
+Kris Haamer: People care about money right…
+Yuping Chen: yeah.
+Kris Haamer: but not everyone care about environment. So in the beginning might high level was more related to check that the environmental sustainability of this product. But then I change it to more like money Focus.
+Yuping Chen: Uh-huh.
+Kris Haamer: Until now, I'm still little bit unsure. if I change it to only American Environmental sustainability and targeting this specific people and…
+Yuping Chen: Yeah. Yeah.
+Kris Haamer: maybe because they will click it. And right now it's so General that.
+Yuping Chen: So I think so you are concerned that you expect that people will pay attention to all information. So usually it is not our assumption. We say that our attention is very limited. So usually I tried the green filter by myself and I find the information was overwhelmed. There are too much information. I cannot pay attention to every detail. Yeah, so yeah.
+00:15:00
+Yuping Chen: Or something very simple or It is a good choice it is 10 trees versus one Some Converse and they can click through it if they want to know more information, but show the summary first.
+Yuping Chen: Yeah.
+Yuping Chen: Yeah, yeah. Okay. Okay. Okay. So your ideas that the plug is summarized information from the web page and you can Search for the information using the green filter.
+Yuping Chen: Okay.
+Yuping Chen: Sorry, I cannot hear you.
+Kris Haamer: Can you hear me now?
+Yuping Chen: Yeah.
+Kris Haamer: Right, so I would think that why I kind of made two different pages because of that technical problem. so Inside the plugin on Momo. I cannot track users…
+Yuping Chen: Okay. Okay.
+Kris Haamer: because Google doesn't to Contracting but once you click Button and code to my own page, then I can do mouse tracking and I can do heat maps and all kids kind of things see what users are actually doing. and also because as I said in the beginning kind of My initial ambition was to turn those consumers into investors.
+Yuping Chen: Yeah.
+Kris Haamer: if you scroll down you can see this kind of I'm not sure if you can see the presentation right now and
+Yuping Chen: Then now I cannot see the place right now.
+Kris Haamer: Yeah. Yeah,…
+Yuping Chen: Yeah. Something yes.
+Kris Haamer: Tennessee right now.
+Yuping Chen: Your ideas that yeah.
+Kris Haamer: yeah, so if You will scroll down. I mean how do you think I'm in there? what is the funnel? I'm realizing that my funnel is very long.
+Yuping Chen: Yeah.
+Kris Haamer: Yeah at the end of The Funnel you are the green investor.
+Yuping Chen: Okay, okay.
+Kris Haamer: So that's why I had here the shopping the savings…
+Yuping Chen: Yeah, no,…
+Kris Haamer: investing, right?
+Yuping Chen: I try this.
+Kris Haamer: And …
+Yuping Chen: Yeah.
+Kris Haamer: I had all the features that I came up with so you do a lot of stuff.
+Yuping Chen: Yeah.
+Kris Haamer: But when I start to do testing I realized that my funnel is along I can't even get to step three. You…
+Yuping Chen: Yeah. Yeah.
+Kris Haamer: I'm losing most of the people like us one or two.
+Yuping Chen: Yeah, so I think your ideas how to encourage the click to rain if they see that information a momoc. They should click that and go to more detail.
+Kris Haamer: so, my PCS died tit. He had issues right? So let me show you my thesis.
+Kris Haamer: So this is my thesis web page and this is my thesis title.
+Yuping Chen: Yeah.
+Kris Haamer: It's a journey right? And so how do I get them like that one to step 10, which is investing part.
+Yuping Chen: Yeah.
+Kris Haamer: Currently I'm not getting anyone to step 10. I'm having trouble getting them for step 3 and…
+Yuping Chen: Yes.
+Kris Haamer: but I still don't want to change my title. I still want to keep my thesis title like that.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: Maybe when I present my thesis, which I'm gonna do next semester, then we'll just be very honest kind of show the whole funnel. And say that, nobody actually gets to that and parts.
+Yuping Chen: So I think yeah,…
+Kris Haamer: Yeah.
+Yuping Chen: so I think for you so your goal first is to increase the click through rate. And second you want them to go deeper into the invested investment part in addition to the shopping part.
+Kris Haamer: Okay.
+Yuping Chen: So is that my own?
+Kris Haamer: Right, right. I think so because actually The app it works on one more shopee and all this kind of shopping sites, but actually all works in investing sites.
+00:20:00
+Yuping Chen: yeah. Yeah.
+Kris Haamer: so you could open
+Kris Haamer: Like a dog portfolio site and it will take the information for desktop site. Stop portfolio site and…
+Yuping Chen: And yeah, yeah.
+Kris Haamer: it tell you the ability information about that company. but if I let me go to my
+Kris Haamer: second
+Kris Haamer: So I did this survey.
+Yuping Chen: Yeah, I checked that. Yeah.
+Kris Haamer: and so How cool first? So that was almost seven Harry students at the end of the day. I think this is the most relevant kind of which.
+Yuping Chen: Yeah.
+Kris Haamer: And so college students. They didn't really do much investing but most of them care about the origin.
+Kris Haamer: So that's why I kind of changed the focus words having the AI to tell you about the product or is it first?
+Yuping Chen: Yeah.
+Kris Haamer: And maybe that could increase the click to rate to the second step and then I can start teaching them the other stuff that are less interested about.
+Kris Haamer: Yes, but I was talking to my professor from McQ and…
+Yuping Chen: Okay.
+Kris Haamer: because I have three different personas. And all the different personas they care about origin.
+Yuping Chen: Yeah.
+Kris Haamer: And based on personal if they're more friendly they will, one more information like materials. or All the company practices or all kind of this kind of stuff. But if you Frugal which means pretty much means that you have less money spent.
+Yuping Chen: Yeah, yeah.
+Kris Haamer: you don't care that so much. you will care more about they are more concerned just about the priority.
+Yuping Chen: so I think let's go ahead don't yeah.
+Kris Haamer: so my professor I would always feel like they have three different personas. So I should somehow find different features that work for different personas
+Kris Haamer: and based on that different ideas. What could I put inside the mobile app? for everything origin? But then if it's the Frugal sauna who cares more about the money. That should let show them something different.
+Yuping Chen: Okay.
+Kris Haamer: And I'm not sure in your own research, what do you develop any kind of personas because I miss different things that then designers try to have personas in Mexico.
+Yuping Chen: Yeah.
+Kris Haamer: It's easier to think about and then, all this data.
+Yuping Chen: Yeah, so I think practically it's difficult to Target subject based on their Persona since nowadays much difficult to track their identity. So usually we will try to find something that is fit most of the people.
+Kris Haamer: right
+Kris Haamer: Really? Okay.
+Yuping Chen: At least at the very beginning about increasing your Crystal rate, unless you have a lot of information about the customer. You don't know anything about that. So it's very difficult to design customized. Features based on your own data.
+Kris Haamer: right just Now with AI there's something called generative UI.
+Yuping Chen: So usually people I
+Yuping Chen: yeah.
+Kris Haamer: So you can generate a different UI for any people person and…
+Yuping Chen: yeah, but Yeah,…
+Kris Haamer: give a very specific.
+Yuping Chen: but it's difficult to know whenever they visit your website. It's difficult to know who they are. before they took you
+Kris Haamer: Right, right. but once they become like a registered user and…
+Yuping Chen: yeah. yeah.
+Kris Haamer: a buy a product.
+Yuping Chen: but
+Kris Haamer: And I don't know if you did any research or retargeting. Google tries to retargeting that based on an anonymous data. So even…
+Yuping Chen: yeah.
+Kris Haamer: though they don't have specifically about you, but can still track you based on your users patterns.
+Yuping Chen: I know but You need to buy from Google. We need to pay for this.
+Kris Haamer: right
+Yuping Chen: In terms of I don't so if someday you really collaborate with Momo or Sharpie. And they shared data with you.
+00:25:00
+Kris Haamer: Yeah.
+Yuping Chen: Of course, you can do the persona. So this is a good idea to use Persona to show the information. They are interesting in however a very early State especially your third party provider. It's very difficult to use for soul not to Second your customer.
+Kris Haamer: right
+Kris Haamer: That's the interesting.
+Yuping Chen: So yeah, so I will expect that if I am third party for provider, I don't have any information about the customer. So usually what design something that most people will find interested in. Not customers.
+Yuping Chen: 
+Kris Haamer: right
+Yuping Chen: I think the customization is a good idea the later process of the development, but the early stage you want to design something that most people will pay at least a little attention.
+Kris Haamer: So you collaborated with Mama, Do you have any inside that you're allowed to share with me or…
+Yuping Chen: Yeah.
+Kris Haamer: the way that they do targeting with the data? they Do any personalization?
+Yuping Chen: I think they just buy their service from Google. Something I think they're the Momo company.
+Kris Haamer: Okay.
+Yuping Chen: They are not very data driven they try to but I think the man Focus was the design different campaign and include different products to attract their customer, so I don't think they are very data driven company. Yeah.
+Kris Haamer: Good, right, but have you done any presentation like data prevent shopping environments. For example, Shane became really big quickly…
+Yuping Chen: Yeah.
+Kris Haamer: because they were so data driven, right they like practice friends and then product in one week.
+Yuping Chen: Yeah, yeah. Yeah, so do to ask me whether I do no, I don't do anything that if I so for research, we are required somewhere rigorous data, so we don't care about how fast we can do.
+Kris Haamer: Right, right. That's very interesting…
+Yuping Chen: Yeah.
+Kris Haamer: because I see that the way I kind of missed three data is much more rigorous and…
+Yuping Chen: Yeah. yeah,…
+Kris Haamer: designers. we don't have data we just make up the data.
+Yuping Chen: yeah, so we …
+Kris Haamer: Are we interviewed a slight people? Maybe we guess
+Yuping Chen: I know so I think from now but I realized your question is first is to increase the click through rate and your solution is to provide customized way to encourage them to click through it. Second you want to after the yeah.
+Kris Haamer: yeah, that's what it's all thinking. Yes.
+Yuping Chen: If the second part after the click you want to encourage them to read more especially to the investment part is from my understanding. Yeah.
+Kris Haamer: Exactly exactly. because my background is more from engineering so I can build those things.
+Yuping Chen: Yeah. Yeah.
+Kris Haamer: But I went to design school and I try to understand the user first. Because sometimes we just build stuff without understanding the ability because they think that technology is cool.
+Yuping Chen: But for me, I will start from very practical perspective. So I would like to them notice there's some new feature and…
+Kris Haamer: Okay.
+Yuping Chen: you should relay this idea into investment. So for me when I go through the green filter website, it is very not clear for me why this related to investment? So I think this homepage is very clear.
+Kris Haamer: Right, right.
+Yuping Chen: But when I use the green filter the interface, I ever realized it is something related to investment.
+Kris Haamer: Yes, I think so too. I think it's very confusing and why not try to explain to people nobody understands it…
+Yuping Chen: Yeah.
+Kris Haamer: because this kind of service really doesn't exist.
+Yuping Chen: Yeah.
+Kris Haamer: Usually it try to investment to go to investing website and…
+Yuping Chen: Yeah, yeah. So for me,…
+Kris Haamer: nobody is looking for investing website.
+Yuping Chen: I was suggest you have a very clear front page just like your sasses website. To say that you can buy something good for the Earth. You can invest the company. So maybe some front story can guide their attention to investment.
+Kris Haamer: Right, right.
+Yuping Chen: The first part is that I think you have to make everything very expensively. Social this is the app and showing which one is more Earth friendly and you can relate the shopping Behavior into investment. So if I am doing the project I will do a very clear from and to tell them what I planted to.
+00:30:00
+Kris Haamer: Yeah recently. There's a new app but I think it's called. No, thanks and…
+Yuping Chen: Mm-hmm
+Kris Haamer: that it's a app about avoiding companies that do business Russia or Are supporting Israel's boring and…
+Yuping Chen: Yeah, yeah.
+Kris Haamer: Gaza. That's a really new app that came a couple of weeks ago. So they make it so simple,…
+Yuping Chen: Yeah, yeah.
+Kris Haamer: no. Thanks.
+Yuping Chen: And just tell them that at the very beginning you can buy something for the Earth as well.
+Kris Haamer: 
+Yuping Chen: You can invest something good for you or money and go for the So Mickey at the front end. So that I think the first information is very important. And secondly for you when I use the green filter and…
+Kris Haamer: right
+Yuping Chen: I see the sample question about the investment. I think it is less relevant securing investment. So they are six sample questions. I think only two question related to Green investment.
+Kris Haamer: Yes.
+Yuping Chen: So this make me very confused. So this should be some.
+Kris Haamer: right
+Yuping Chen: Something about green but when you talk about investment, there are much information related to the basic information you should know about investment. So this is less rational and screen so this one, so the first second third and fours are basing information nothing related to Green. so
+Kris Haamer: I just from the survey because the color students they don't know anything about investing usually.
+Yuping Chen: I know I know I know.
+Yuping Chen: Yeah, but the title
+Kris Haamer: Yes. Yes.
+Kris Haamer: That's right. But I understand that what your point that is actually not related to such at all.
+Yuping Chen: Yeah. yeah, maybe so since your title is growing investment
+Yuping Chen: So it will at least make me confused. So maybe right so part one is investment.
+Kris Haamer: Through at this connect.
+Yuping Chen: Second is green investment. Maybe I'll feel more comfortable about. Yeah.
+Kris Haamer: What's the difference between investigating investment?
+Yuping Chen: Yeah.
+Kris Haamer: just the one thing that I'm selling you right now Was just another feature that I was.
+Yuping Chen: Show me the fact that I tried it.
+Kris Haamer: I was building just so I could know that right here.
+Yuping Chen: I tried this. Yeah, it's interesting. Yeah.
+Kris Haamer: But this one I even continue building it because none of the users will get to this point.
+Yuping Chen: Look, okay, son.
+Kris Haamer: so I want to focus on the other step, per second step first because I need to finish my pieces,…
+Yuping Chen: Okay. Yeah.
+Kris Haamer: I was so fun to write this semester, but I postpone it an excellent answer…
+Yuping Chen: Yeah.
+Kris Haamer: because I had this too many things in this app.
+Yuping Chen: so I think
+Kris Haamer: And that's the reason I Wanted to talk to you also because your focused on that.
+Yuping Chen: yeah, yeah. So what I was just first, can you go back to the Momo page?
+Kris Haamer: Yes.
+Yuping Chen: so what I was just first is to Show them at the very beginning that there's a new feature. You can know whether you're purchase is bringing or Try this button. So I show everything at the front so that I can test so in the future maybe it will be successful and…
+Kris Haamer: right
+Yuping Chen: people will know this before that. what's going on about this features. I will show them at the very beginning now, so I wanna depend on day. they figure out themself by themself. I will not rely on this. So usually customer paid no attention to everything you provide.
+Kris Haamer: right
+Kris Haamer: so I just have Some kind of Banner new feature and…
+Yuping Chen: so if you want to
+Yuping Chen: Yeah, yeah, you try that first is new features to show the exclusively secondly for here.
+Kris Haamer: then they will notice any of it.
+Yuping Chen: So you're working is continued discussion tissue download So the click so usually people will do something that make people curious about this and they will continue to seek for more information. So now you use another continue the discussion the wording is really like this.
+Kris Haamer: right
+Yuping Chen: So maybe try to use some questions. Do you want to know more or do you can do more for the planet or do you want to know what this related to investment? so to attract their attention or curiosity
+00:35:00
+Kris Haamer: right I was also think it may be Personalized because this at the moment. Mama blogging is anonymous. But the other side actually just official you can even log in and…
+Yuping Chen: Mm-hmm
+Kris Haamer: I haven't sown it to you, but you can actually log in then. why your own Financial goal and things like that? But when I was doing the testing I realized that the students financial goals are by everybody tell me the same thing.
+Yuping Chen: 
+Yuping Chen: yes. Yeah, yeah.
+Kris Haamer: They want to go to your graduate school and everybody saying that exact same thing.
+Yuping Chen: Yeah, so I think so. Usually what we do that if you see any the social media post utility will attract more interaction would be something that make you curious about what's going up. So you will see a lot about do you want to know the answer of this question click here? Do you want to see the feature full photo of this one? Click here?
+Kris Haamer: Right, right. It's like crazy curiosity, something is hidden.
+Yuping Chen: Yeah, yeah, so you need to urge them to click so usually a question or something attract their attention or attractive curiosity something isn't to you.
+Kris Haamer: Or maybe it fill out the quiz because Little People very loud those personality quizzes.
+Yuping Chen: Yeah. Yeah, yeah, something like that. So I think for here you use the click button. Is that continue discussion? I think it's very difficult to attract.
+Kris Haamer: so boring
+Yuping Chen: Yeah, so maybe try to make the more fun what's investment is it's more suitable for myself or something like that. So I think for me I will change the word on the click button and use the question subtract their attention to they want to figure out what's going.
+Kris Haamer: Right, right. I was thinking maybe the shortest would be interesting because that's how I would get their personality. very easy.
+Yuping Chen: Yeah.
+Kris Haamer: And then I could very easily give them some kind of results. You…
+Yuping Chen: Yeah. Yeah,…
+Kris Haamer: I could generate some kind of animal speaker or…
+Yuping Chen: yeah. Yeah,…
+Kris Haamer: something fun.
+Yuping Chen: so I think stage one make it very explicit. What's going out? It's a new feature. You should try secondly for the click button make it fun and encourage them to do something. So I think the issue is continued discussion. I am not interested in it's too many words.
+Kris Haamer: Right
+Yuping Chen: I don't want to continue. So me take the sound personal take some personality test so that I can show you are you a green person? What investments should you do? Something that attract their attention and make them to want to do something. So this second part, I will change the information on the click button. And certainly I would change the information under green filter page. So as I say I cannot relate it to Green investment. from the information provided Simon makes the yeah.
+Kris Haamer: Right just change the text. Okay.
+Yuping Chen: Yeah. I think what do the three parts so that at least people know I have some new feature. they will never notice any new feature. that can ever
+Kris Haamer: I think that's really cool. How about that the tech stuff is report here. do you think this test any relevance? or maybe it's too long or just
+Yuping Chen: it's a little bit too long for me, but I think for now just Let them know that we are trying to do something new and you should try a little bit. So I think for now I will not modify this as the first priority. So I think don't pay attention…
+Kris Haamer: okay, right.
+Yuping Chen: if they don't pay any attention no matter the test it attractive informative or not. They don't care. So you need to do something to understand what we are doing. Yeah, so what I was I will modify the button so that they will attract their attention.
+Kris Haamer: I was out thinking just making explicit that there are several steps. That you…
+Yuping Chen: Yeah.
+Kris Haamer: this is like step one and if you continue There are other steps you could do.
+Yuping Chen: Usually customer will be scared. if there will be so usually we will not at least you try and…
+Kris Haamer: Okay, it's scary.
+Yuping Chen: at the end will have more so if this eight so we 80% will go to that too. 80% will go to step three. So usually we try to increase the proportion people will continue. As long as they say we are happy.
+00:40:00
+Kris Haamer: Okay.
+Yuping Chen: And third for this I don't think that question is the information that provided. So for me,…
+Kris Haamer: That's why.
+Yuping Chen: maybe I will change the display figure of the information. So for now, it's like a person.
+Kris Haamer: Yes. Yes, you…
+Yuping Chen: 
+Kris Haamer: there's that kind of two characters. They wanted the kids one because people told me they want to see something cute and then the AI assistant some people tell me that they want to have the AI to have a human figure. you use this kind of thing,…
+Yuping Chen: Yeah, yeah. Yeah.
+Kris Haamer: but actually this has been tested, it's very random dependent agencies.
+Yuping Chen: So usually people will change the photo that shows who tell you the information and if you use eye tracking people will pay attention to faces. So I guess for this page people will pay little attention to the sentences, but they will pay attention to the faces or figures. More try to make the faces larger or…
+Kris Haamer: Right, right.
+Yuping Chen: more attractive or use some green filter. So the word like this information is provided by Green filter. and Greenfield
+Kris Haamer: Do you have any Insight what kind of faces are adjectives for consumer
+Yuping Chen: I think I don't know maybe so usually what design avatar for everything. So for it here,…
+Kris Haamer: Okay.
+Yuping Chen: usually people pay attention to cute female.
+Kris Haamer: Yeah, yeah,…
+Yuping Chen: Yeah.
+Kris Haamer: I look at line stickers that popular.
+Yuping Chen: Yeah.
+Kris Haamer: And I realized that people line stickers more than Facebook sticker or…
+Yuping Chen: Yeah, yeah. Yeah. So usually I suggest that present at least I will make the color brighter.
+Kris Haamer: something or other stickers.
+Yuping Chen: So now the color is very difficult to notice.
+Kris Haamer: Yeah, yeah. So this actually came because the way I got people to do my survey was to hand them like a small card and…
+Yuping Chen: Yeah.
+Kris Haamer: car has this kind of image. And you know that the college students, they're Peace A lot of them they like the computer games so that's…
+Yuping Chen: Yeah. Yeah.
+Kris Haamer: why I took this kind of style but it works on a car but it doesn't work inside of this small other perfect. You can't really see it.
+Yuping Chen: Yeah, yeah. So I think my goal will be so I don't think about the later step. But if we can attract more customer in each step that at the end will have more Customs saying there.
+Kris Haamer: Okay step by step just
+Yuping Chen: so, yeah, So first, I will tell them very clearly. Here's a new feature. You should try. And second. This is fun. Just go ahead to take a try. But it really going to the low when they go really going to the green filter page. They should at least spend some time to do something interaction. So this is what?
+Kris Haamer: so I think they're telling me so many useful things. So really thank you for that. I have one last question,…
+Yuping Chen: 
+Kris Haamer: which is my professor told me that the test app. Because my service said that users are mostly interested in the product. origin So the test that I should test…
+Yuping Chen: Mm-hmm
+Kris Haamer: if my app provide their misinformation if they're satisfied with information product origin. But honestly, I'm not really sure how to test that. should I ask them in the survey explicit on scale of one two, five how satisfied are you with the day but for everything seems very stupid to act like that.
+Yuping Chen: Yeah, we can do a very simple experimental design. So one information with the second version we sell the origin as father house in this fight.
+Kris Haamer: He right
+Yuping Chen: Are you So thankful hypothesis, if there's information about origin they should rate higher but if they don't include information it's a rated lower.
+Kris Haamer: Right. I'm thinking…
+Yuping Chen: So we'll
+Kris Haamer: if I should do this testing inside that survey, but in that case I would Maybe a single product they don't like because I would be picking the product.
+Yuping Chen: Mm-hmm
+Kris Haamer: I could try to engineer this inside of this mama extension.
+Yuping Chen: Yeah, yeah and.
+00:45:00
+Kris Haamer: And ask them to do it two times, find two products you set up any one product.
+Yuping Chen: yeah, so If you want to test I think so far the data you collected are good enough.
+Kris Haamer: and in
+Yuping Chen: But if you want to really test about the origin, so I would suggest to a very simple experiment no matter in survey or more. So what we do usually is to pick two product category, they are interested in. Maybe I provide 10 category you pick two and I show the two information to product for you and ask you to raise something. so
+Kris Haamer: so should I have two different products or should I just information about the same product?
+Yuping Chen: I think the same product should be fine. So we call this experimental design so you are worried about they don't care about the product.
+Kris Haamer: Okay. Yeah.
+Yuping Chen: So in this situation, what we usually do is to extend to pick the product they are interesting first. So the
+Kris Haamer: So that's the way I did it so far,…
+Yuping Chen: yeah, yeah.
+Kris Haamer: but then a lot of times they will take aspirational brand. So something they kind of afford, …
+Yuping Chen: Okay, so I will.
+Kris Haamer: some luxury handbag or something very expensive. So that is the most common place.
+Yuping Chen: And so I would do some product Arginine shoes or…
+Kris Haamer: Uh-huh.
+Yuping Chen: shoes or shoes or cookies something very less. related to the
+Kris Haamer: Okay,'s That's right. Because in the survey I realized students able buy clothes and…
+Yuping Chen: Yeah, yeah.
+Kris Haamer: food. That's the two things.
+Yuping Chen: Yeah. Yeah, so just providing and…
+Kris Haamer: I will buy.
+Yuping Chen: close of your little bit difficult shoes will be Close that something related to design or…
+Kris Haamer: mmm
+Yuping Chen: She'll be simple like the Nike shoes something they are very familiar with.
+Kris Haamer: Yeah. Yeah, everybody buys shoes.
+Yuping Chen: Yeah, so it's cookies or…
+Kris Haamer: That's true.
+Yuping Chen: snacks. They are familiar with and just test the origin.
+Kris Haamer: Okay, that's really useful.
+Yuping Chen: Yeah. Yeah.
+Kris Haamer: That's very specific and familiar.
+Yuping Chen: Yes.
+Kris Haamer: Okay, awesome. I think that's very good.
+Yuping Chen: I think it is really cool. so customer nowadays pay a lot of information they face every day. So we are complete for their attention.
+Yuping Chen: So you will be very pessimistic or I cannot get It's very difficult to make them pay attention to what I told them. So usually I will try that.
+Kris Haamer: Yeah, I feel that also even testing my friends. I feel like they don't care so much.
+Yuping Chen: Yeah. Yeah, it's very difficult. So I will do very extreme. I really need you to click the button. I really need you to try so I will make everything very explicit. I'm testing this.
+Kris Haamer: Right. okay.
+Yuping Chen: This is a new feature. Just try for worry about some. Minor features I customization on others. So as long as I get some more usage data, I can optimize everything. But before…
+Kris Haamer: My friend, right?
+Yuping Chen: then answered encourage more people to stay at least one or two minutes on this.
+Kris Haamer: Okay, I think this is already so to help so I thanks much.
+Yuping Chen: Yeah.
+Kris Haamer: I don't have any more questions. So
+Yuping Chen: So you can feel free to email me that further question like that. This is a mental disawar something. I think things really cool and…
+Kris Haamer: Thank you so much.
+Yuping Chen: good But let's just email me back for the question.
+Kris Haamer: yeah, just okay.
+Kris Haamer: All right. Thank you.
+Yuping Chen: Okay. Bye.
+Yuping Chen: Good luck.
+Meeting ended after 00:50:46 👋
