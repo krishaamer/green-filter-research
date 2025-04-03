@@ -10,7 +10,7 @@ import Figure from '/src/components/Figure'
 import Bunq from '../images/finance/bunq.jpg'
 import AbstractFinance from '../images/finance/abstract-finance.png'
 ```
-# Finance
+# Money
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -19,25 +19,25 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## Sustainable Finance Democratization of Finance
+## The Convergence of Money: Shopping, Saving, and Investing
 
-This chapter explores the larger trend of *Democratization of Financial Markets* which includes consumer apps that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing (termed here *SSI*). The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options.
+### Does the Democratization of Finance Create a Path for Sustainability Superapps?
 
-Sustainable capital allocation methods are many. Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies pushing economic growth.
+This chapter explores the growing trend of financial democratization, which includes consumer apps that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options.
 
-The critical question is: do people choose to support sustainability-focused companies - companies which invest deeply into green innovation and eco-friendly practices - or those that pay less attention to sustainability?
+While the journey from consumer to investor is increasingly simple because of the *democratization of finance*, the critical question is: do people choose to support sustainability-focused companies - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability?
 
-The journey from consumer to investor is increasingly possible because of the *democratization of financial markets*.
-
-Empowering consumers to access finance through digital technologies and delivering a simple UX (user experience) – i.e. the fintech trend of the last 2 decades -, includes financial products creating pathways towards sustainability-focused investing. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
-
-ESG (Environmental, Social, and Corporate Governance)
+Shopping, saving, and investing are converging on digital platforms (super-apps) that permeate our daily financial lives, with features such basic banking, payments, transfers, as well as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
 
 Consumers are beginning to become more money-savvy yet are still missing many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
 
-Shopping, saving, and investing are converging on digital platforms (superapps) that permeate our daily financial lives, with features such basic banking, payments, transfers, as well as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
-
 Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping.
+
+### Capital Allocation and Sustainability
+
+Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies pushing economic growth. Empowering consumers to access finance through digital technologies and delivering a simple UX (user experience) – i.e. the fintech trend of the last 2 decades -, includes financial products creating pathways towards sustainability-focused investing. Sustainable capital allocation methods are many. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
+
+ESG (Environmental, Social, and Corporate Governance)
 
 Trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
@@ -63,17 +63,19 @@ While the above trend is for governments to adapt to and work towards their envi
 
 #### Shopping Footprint
 
-Double Eleven 11/11 celebrated on November 11th is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
+-   "Asia is set to account for 50% of the world's total online retail sales" @iginiEnvironmentalImpactOnline2024
+
+<!-- -->
+
+-   Online Shopping impact. Single's day, etc.
+
+Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
 
 It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
 
 ```{python}
 shopping_growth()
 ```
-
--   @iginiEnvironmentalImpactOnline2022 Online Shopping impact. Single's day, etc.
-
--   "Asia is set to account for 50% of the world's total online retail sales"
 
 #### AI shopping assistants
 
@@ -128,7 +130,7 @@ In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eN
 
 In Kenya, M-Pesa started since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability.
 
-In Sweden, point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience. Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing? And there is, called "round-up apps". @AcornsTargetsMillennials suggests "Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference." - and example of From Shopping to Investing.
+In Sweden, point of sales (PoS) lending is a common practice, and one of the reasons for the success of Klarna, the Swedish banking startup, which has managed to lend money to more consumers than ever, through this improved user experience. Taking out loans for consumption is a questionable personal financial strategy at best. If people can loan money at the point of sales, why couldn't there be 180 degrees opposite service - point of sales investing? And there is, called "round-up apps". @AcornsTargetsMillennials suggests *"Targeted at millennials, Acorns is the investing app that rounds up purchases to the nearest dollar and invests the difference."* - and example of From Shopping to Investing.
 
 Many banks have started offering a service to automatically save and invest tiny amounts of money collected from shopping expenses. Every purchase one makes contributes a small percentage - usually rounded up to the nearest whole number - to one's investment accounts. For example, @swedbankEasySaver2022, the leading bank in the Estonian market, offers a savings service where everyday payments made with one's debit card are rounded up to the next Euro, and this amount is transferred to a separate savings account. Similarly, the Estonian bank @lhvMicroinvestmentGrowthAccount2020 offers micro-investing and micro-savings services, with an interesting user experience innovation showing how for an average Estonian means additional savings of about 400€ per year.
 
@@ -210,83 +212,83 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 -   green transparency
 -   fundamental analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.
 
-An Australian fintech Douugh released it's robo-advisor in 2024 @paulDouughFintechBudgeting2024
-
-Douugh's tagline explain the ethos of a unified financial app simply: "One app to spend and grow your money".
+An Australian fintech Douugh released it's robo-advisor in 2024 [@paulDouughFintechBudgeting2024]. Douugh's tagline explain the ethos of a unified financial app simply: *"One app to spend and grow your money".*
 
 The newest generation of robo-advisors are integrating large-language modules, for example Reuters highlights the Chinese brokerage firm Tiger Brokers as one among 20 Chinese companies integrating DeepSeek deeply into asset management from simple chat functionality all the way to executing trades.
 
-Alipay already provides two investment services within it's payments app, at first launching Yu'e Bao (餘額寶) in 2013, which automatially invests small amounts on the users' accounts for returns typically above those of tradional banks' saving accounts, and later in 2015 Ant Fortune (螞蟻財富), offering access to thousands of invetment products from partner companies [@kranesharesAntGroup101202]. Alibaba ows over 30% of Alipay and both companies are pushing for increased use of AI within their services [@ChineseBillionaireJack2024]. Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and Naver, though Naver Pay, have been on a path for several years evolving into comprehensive financial platforms [@linecorporationJapanInvestmentMade2019; @annaj.parkNaverPayExpand2023].
-
 **Tier 1: Established Consumer Payment Giants**
 
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Service     | Features                                                  | Website             | Availability            | User Base         | Investing | Savings | Shopping (Payments) | Sustainability Focus |
-+:============+:==========================================================+:====================+:========================+:==================+:==========+:========+:====================+:=====================+
-| Alipay      | Payments, banking, Yu'e Bao, Ant Fortune investing        | alipay.com          | China, Global (limited) | 1.3 billion users | Yes       | Yes     | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| WeChat Pay  | Payments, financial services, Licaitong investing         | wechat.com          | China, Global (limited) | 900 million users | Yes       | No      | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Apple Pay   | Contactless payments                                      | apple.com/apple-pay | Global                  | 744 million users | No        | No      | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| PhonePe     | Payments, mutual funds, digital gold                      | phonepe.com         | India                   | 590 million users | Yes       | Yes     | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Paytm       | Payments, banking, Paytm Money for stock & fund investing | paytm.com           | India                   | 350 million users | Yes       | Yes     | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Google Pay  | Payments, loyalty, transit                                | pay.google.com      | Global                  | 150 million users | No        | No      | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Samsung Pay | Mobile payments                                           | samsung.com         | Global                  | ?                 | No        | No      | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Zelle       | Bank-to-bank P2P payments                                 | zellepay.com        | USA                     | ?                 | No        | Yes     | TRUE                | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
-| Nubank      | Bank                                                      | nubank.com.br       | Brazil                  | ?                 | No        | Yes     | FALSE               | FALSE                |
-+-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------------+-----------+---------+---------------------+----------------------+
+Alipay is by far the largest payments super-app and provides two investment services within it's payments platform, first launching Yu'e Bao (餘額寶) in 2013, which automatically invests small amounts on the users' accounts for returns typically above those of traditional banks' saving accounts, and later in 2015 Ant Fortune (螞蟻財富), offering access to thousands of investment products from partner companies [@kranesharesAntGroup101202]. Alibaba owns over 30% of Alipay and both companies are pushing for increased use of AI within their services [@ChineseBillionaireJack2024]. Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and Naver, though Naver Pay, have been on a path for several years evolving into comprehensive financial platforms [@linecorporationJapanInvestmentMade2019; @annaj.parkNaverPayExpand2023]. Payment apps created by Apple and Google are less-feature rich focusing on payments only. None of the largest payment apps have a specific focus on sustainability while Alipay does have a separate sustainability-focused service called Ant Forest for planting treess.
+
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Service     | Features                                                  | Website             | Availability            | Users       | Investing | Savings | Shopping (Payments) | Sustainability Focus |
++:============+:==========================================================+:====================+:========================+:============+:==========+:========+:====================+:=====================+
+| Alipay      | Payments, banking, Yu'e Bao, Ant Fortune investing        | alipay.com          | China, Global (limited) | 1.3 billion | Yes       | Yes     | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| WeChat Pay  | Payments, financial services, Licaitong investing         | wechat.com          | China, Global (limited) | 900 million | Yes       | No      | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Apple Pay   | Contactless payments                                      | apple.com/apple-pay | Global                  | 744 million | No        | No      | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| PhonePe     | Payments, mutual funds, digital gold                      | phonepe.com         | India                   | 590 million | Yes       | Yes     | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Paytm       | Payments, banking, Paytm Money for stock & fund investing | paytm.com           | India                   | 350 million | Yes       | Yes     | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Google Pay  | Payments, loyalty, transit                                | pay.google.com      | Global                  | 150 million | No        | No      | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Samsung Pay | Mobile payments                                           | samsung.com         | Global                  | ?           | No        | No      | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Zelle       | Bank-to-bank P2P payments                                 | zellepay.com        | USA                     | ?           | No        | Yes     | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
+| Nubank      | Bank                                                      | nubank.com.br       | Brazil                  | ?           | No        | Yes     | Yes                 | No                   |
++-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
 
 **Tier 2: Established Growth Companies / Major Players**
 
+-   The fact that money on a Wise account will accrue value while on Monese it's just static, immediately makes Wise more attractive, even if the amounts are small.
+
 | Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
-|:------|:-----------|:------|:------|:------|:------|:------|:------|:------|-------|
-| Venmo | P2P payments, crypto investing | venmo.com | USA | 70 million users | Yes | No | TRUE | FALSE |  |
-| Cash App | P2P payments, stock & Bitcoin investing | cash.app | USA, UK | 57 million | Yes | No | TRUE | FALSE |  |
-| Chime | Online banking services including spending accounts, savings accounts | chime.com | USA | 22 million | No | Yes | TRUE | FALSE |  |
-| MoneyLion | Banking, investing, credit-building loans, financial tracking tools | moneylion.com | USA | 20 million | Yes | Yes | TRUE | FALSE |  |
-| NerdWallet | Financial clarity all in one place | nerdwallet.com | USA | 19 million | No | No | FALSE | FALSE |  |
-| SoFi | Loans, banking, robo-investing, stock & crypto | sofi.com | USA | 10 million users | Yes | Yes | TRUE | FALSE |  |
-| Albert | Budgeting, saving, spending, investing, access to financial advisors | albert.com | USA | 10 million users | Yes | Yes | FALSE | FALSE |  |
-| Acorns | AI-assisted micro-investing | acorns.com | USA | 5.7 million users | Yes | No | FALSE | FALSE |  |
-| Wealthsimple | AI-assisted saving & investing for Millennials | wealthsimple.com | Canada, USA, UK | 2.6 million users | Yes | Yes | FALSE | FALSE |  |
-| Qapital | Saving and investing with gamification features | qapital.com | USA | 2 million users | Yes | Yes | FALSE | FALSE |  |
-| M1 Finance | Finance Super App | m1.com | USA | 1 million users | Yes | No | FALSE | FALSE |  |
-| Finimize | Investment research for anyone | finimize.com | Global | 1 million | Yes | No | FALSE | FALSE |  |
-| Robinhood | Investing | robinhood.com | US | ? | Yes | No | FALSE | FALSE |  |
-| Betterment | AI-assisted cash management, savings, retirement, and investing | betterment.com | USA | ? | Yes | Yes | FALSE | FALSE |  |
-| Revolut | From payments to investing | revolut.com | UK, EU | ? | Yes | No | TRUE | FALSE |  |
-| Monzo | Bank | monzo.com | UK | ? | No | Yes | FALSE | FALSE |  |
-| EToro / eToro | Investing and copy-investing | etoro.com | EU | ? | Yes | No | FALSE | FALSE |  |
-| Marcus Invest | Robo-Advisor | marcusinvest.com | US | ? | Yes | No | FALSE | FALSE |  |
-| Varo Bank | Online banking services including checking and high-yield savings | varomoney.com | USA | ? | No | Yes | TRUE | FALSE |  |
-| Stash | Micro-investing platform enabling small investments | stash.com | USA | ? | Yes | No | FALSE | FALSE |  |
-| Mint | Budgeting tools, bill tracking, free credit score monitoring | mint.com | USA | ? | No | No | FALSE | FALSE | Ceased operations |
+|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|--------|
+| Venmo | P2P payments, crypto investing | venmo.com | USA | 70 million | Yes | No | Yes | No |  |
+| Cash App | P2P payments, stock & Bitcoin investing | cash.app | USA, UK | 57 million | Yes | No | Yes | No |  |
+| Chime | Online banking services including spending accounts, savings accounts | chime.com | USA | 22 million | No | Yes | Yes | No |  |
+| MoneyLion | Banking, investing, credit-building loans, financial tracking tools | moneylion.com | USA | 20 million | Yes | Yes | Yes | No |  |
+| NerdWallet | Financial clarity all in one place | nerdwallet.com | USA | 19 million | No | No | Yes | No |  |
+| SoFi | Loans, banking, robo-investing, stock & crypto | sofi.com | USA | 10 million | Yes | Yes | Yes | No |  |
+| Albert | Budgeting, saving, spending, investing, access to financial advisors | albert.com | USA | 10 million | Yes | Yes | No | No |  |
+| Acorns | AI-assisted micro-investing | acorns.com | USA | 5.7 million | Yes | No | No | No |  |
+| Wealthsimple | AI-assisted saving & investing for Millennials | wealthsimple.com | Canada, USA, UK | 2.6 million | Yes | Yes | No | No |  |
+| Qapital | Saving and investing with gamification features | qapital.com | USA | 2 million | Yes | Yes | No | No |  |
+| M1 Finance | Finance Super App | m1.com | USA | 1 million | Yes | No | No | No |  |
+| Finimize | Investment research for anyone | finimize.com | Global | 1 million | Yes | No | No | No |  |
+| Robinhood | Investing | robinhood.com | US | ? | Yes | No | No | No |  |
+| Betterment | AI-assisted cash management, savings, retirement, and investing | betterment.com | USA | ? | Yes | Yes | No | No |  |
+| Revolut | From payments to investing | revolut.com | UK, EU | ? | Yes | No | TRUE | No |  |
+| Monzo | Bank | monzo.com | UK | ? | No | Yes | No | No |  |
+| eToro | Investing and copy-investing | etoro.com | EU | ? | Yes | No | No | No |  |
+| Marcus Invest | Robo-Advisor | marcusinvest.com | USA | ? | Yes | No | No | No |  |
+| Varo Bank | Online banking services including checking and high-yield savings | varomoney.com | USA | ? | No | Yes | Yes | No |  |
+| Stash | Micro-investing platform enabling small investments | stash.com | USA | ? | Yes | No | No | No |  |
+| Mint | Budgeting tools, bill tracking, free credit score monitoring | mint.com | USA | ? | No | No | No | No | Ceased operations |
 
 **Tier 3: Up-and-Coming Startups & Niche Players**
 
 | Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
-|:------|:--------|:------|:------|:------|:------|:------|:------|:------|:------|
-| Chipper Cash | Digital cash app for African markets | chippercash.com | Ghana, Nigeria, Uganda, USA | ? | No | No | TRUE | FALSE |  |
-| Douugh | AI financial wellness app, smart account, saving tools | douugh.com | USA, Australia | ? | Yes | Yes | TRUE | FALSE | Merged with Goodments |
-| DUB | Copy-trading, mirror trades of notable figures | dubapp.com | USA | 1 million downloads | Yes | No | FALSE | FALSE |  |
-| Earthfolio | AI-assisted socially responsible investing | earthfolio.com | USA | ? | Yes | No | FALSE | TRUE |  |
-| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | ellevest.com | USA | ? | Yes | No | FALSE | FALSE |  |
-| Goodments | Matching investment vehicles to user's environmental, social, ethical values | goodments.com | USA | ? | Yes | No | FALSE | TRUE | Merged with Douugh |
-| Grünfin | Invest in funds | grunfin.com | EU | ? | Yes | Yes | FALSE | FALSE | Ceased operations |
-| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | lightyear.com | EU | ? | Yes | No | FALSE | FALSE |  |
-| Mintos | Buy bonds and loans | mintos.com | EU | ? | Yes | No | FALSE | FALSE |  |
-| Mos | Banking for students | mos.com | US | ? | No | Yes | TRUE | FALSE |  |
-| Selma | Finnish investing app | selma.com | EU | ? | Yes | No | FALSE | FALSE |  |
-| Single.Earth | Nature-backed cryptocurrency | single.earth | Global | ? | Yes | No | FALSE | TRUE |  |
-| Tomorrow Bank | Green Banking | tomorrow.one | EU | 120,000 | No | Yes | TRUE | TRUE |  |
-| Trine | Loans to eco-projects | trine.com | USA | ? | Yes | No | FALSE | TRUE |  |
-| Ziglu | UK simple investing app | ziglu.io | UK | ? | Yes | No | FALSE | FALSE |  |
+|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
+| Chipper Cash | Digital cash app for African markets | chippercash.com | Ghana, Nigeria, Uganda, USA | ? | No | No | Yes | No |  |
+| Douugh | AI financial wellness app, smart account, saving tools | douugh.com | USA, Australia | ? | Yes | Yes | Yes | No | Merged with Goodments |
+| DUB | Copy-trading, mirror trades of notable figures | dubapp.com | USA | 1 million downloads | Yes | No | No | No |  |
+| Earthfolio | AI-assisted socially responsible investing | earthfolio.com | USA | ? | Yes | No | No | Yes |  |
+| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | ellevest.com | USA | ? | Yes | No | No | No |  |
+| Goodments | Matching investment vehicles to user's environmental, social, ethical values | goodments.com | USA | ? | Yes | No | No | Yes | Merged with Douugh |
+| Grünfin | Invest in funds | grunfin.com | EU | ? | Yes | Yes | No | No | Ceased operations |
+| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | lightyear.com | EU | ? | Yes | No | No | No |  |
+| Mintos | Buy bonds and loans | mintos.com | EU | ? | Yes | No | No | No |  |
+| Mos | Banking for students | mos.com | US | ? | No | Yes | Yes | No |  |
+| Selma | Finnish investing app | selma.com | EU | ? | Yes | No | No | No |  |
+| Single.Earth | Nature-backed cryptocurrency | single.earth | Global | ? | Yes | No | No | Yes |  |
+| Tomorrow Bank | Green Banking | tomorrow.one | EU | 120,000 | No | Yes | Yes | Yes |  |
+| Trine | Loans to eco-projects | trine.com | USA | ? | Yes | No | No | Yes |  |
+| Ziglu | UK simple investing app | ziglu.io | UK | ? | Yes | No | No | No |  |
 
 #### Buy Now Pay Later
 
@@ -314,17 +316,13 @@ Saving precedes investing. From building loyalty to building ownership, the firs
 
 #### Psychology of Saving
 
+Savings and investing are conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
+
+Nerdwallet's @tommytindallFinancialActionsSpeak2023 suggests making financial commitments instead of resolutions.
+
 People will only save nature if it also saves money.
 
--   Nerdwallet's @tommytindallFinancialActionsSpeak2023 suggests making financial commitments instead of resolutions.
-
--   Savings and investing are conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability.
-
--   Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
-
 -   Ethical Savings [@EthicalSavingsEverything2023]
-
--   The fact that money on a Wise account will accrue value while on Monese it's just static, immediately makes Wise more attractive, even if the amounts are small.
 
 #### Anthropomorphism
 
@@ -332,7 +330,7 @@ People will only save nature if it also saves money.
 
 -   Mobile money users are better at saving [@naitoEffectMobileMoney2021].
 
--   Design Implication: make saving money look like an avatar or piggy bank or smth.
+-   ***Design Implication***: make saving money look like an avatar or piggy bank or smth.
 
 #### Loyalty Schemes
 
@@ -709,7 +707,7 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 
 -   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 
--   Bitcoin is by far the most popular crypocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
+-   Bitcoin is by far the most popular cryptocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
 
 ```{python}
 bitcoin_vs_gold_futures()
@@ -1307,7 +1305,7 @@ There's a growing number of companies helping businesses to measure CO2e emissio
 
 -   @timnicolleRealtimeESGData2021 "Real-time ESG data is more difficult to greenwash", "supply chain is a significant source of ESG content"
 
--   Automate CO~2~ calculations realtime:
+-   Automate CO~2~ calculations real-time:
 
 -   @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO~2~ counting
 
@@ -1403,7 +1401,7 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Community      |                   | **Feature**: Make a climate hedge fund with friends                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                |                   | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young ppl in crypto retail investors without needing to pay bank fees                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                |                   | **Feature**: Sustainable investing product for young people everyday use Crypto, NFT provide everyday excitement trend of young people in crypto retail investors without needing to pay bank fees                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                |                   | **AI alert**: "The company you've purchased from 3x in the past month is owned by Unilevel, which is under investigation for poor labor practices and deforestation".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
