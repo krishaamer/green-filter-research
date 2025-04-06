@@ -10,7 +10,7 @@ import Figure from '/src/components/Figure'
 import Bunq from '../images/finance/bunq.jpg'
 import AbstractFinance from '../images/finance/abstract-finance.png'
 ```
-# Money
+# Money 
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -19,9 +19,9 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## The Convergence of Money: Shopping, Saving, and Investing
+## The Convergence of Money: How the Democratization of Finance is Leading Consumers Towards All-in-One Shopping, Saving, and Investing Superapps
 
-### Does the Democratization of Finance Create a Path for Sustainability Superapps?
+### Does the Democratization of Finance Create a Path for Sustainability in Superapps?
 
 This chapter explores the growing trend of financial democratization, which includes consumer apps that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options.
 
@@ -63,13 +63,10 @@ While the above trend is for governments to adapt to and work towards their envi
 
 #### Shopping Footprint
 
--   "Asia is set to account for 50% of the world's total online retail sales" @iginiEnvironmentalImpactOnline2024
+Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to "Asia is set to account for 50% of the world's total online retail sales" [@iginiEnvironmentalImpactOnline2024].
 
-<!-- -->
-
+-   
 -   Online Shopping impact. Single's day, etc.
-
-Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024].
 
 It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
 
