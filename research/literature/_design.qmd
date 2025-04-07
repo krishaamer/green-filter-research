@@ -367,13 +367,25 @@ Google uses nudges in Google Flights and Google Maps, which allow filtering flig
 
 In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
-Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021. @justinecalmaGoogleLaunchesNew2021 Google UX eco features. @GoogleMostraraPor2021 Google green routes. @sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
 
-| Feature | Product | Nudge |
-|----------------------------------------|---------------|-----------------|
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps | Show routes with lower CO~2~ emissions |
-| Google Flights suggests flights with lower CO~2~ emissions | Google Flights | Show flights with lower CO~2~ emissions |
-| Wizzair Check carbon impact @OffsetYourFlight | WizzAir | Offset on Checkout |
+Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping @GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025
+
+While Google has launched several climate-focused initiatives, it missed its CO2 reduction targets due to growing need for AI models @worthingtonGooglesClimateTightrope2025
+
+@justinecalmaGoogleLaunchesNew2021 Google UX eco features.
+
+@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+
++-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
+| Feature                                                                                       | Product        | Nudge                                                                                      |
++===============================================================================================+================+============================================================================================+
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions; reduce stopping by using data from traffic lights. |
++-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
+| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions                                                    |
++-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
+| Wizzair Check carbon impact @OffsetYourFlight                                                 | WizzAir        | Offset on Checkout                                                                         |
++-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
 
 : Examples of CO~2~ visibility in Google's products.
 
