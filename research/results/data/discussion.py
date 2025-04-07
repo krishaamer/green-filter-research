@@ -9,12 +9,55 @@ import numpy as np
 import geopandas as gpd
 import contextily as ctx
 from shapely.geometry import Point
+from matplotlib.dates import DateFormatter
 
 import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
+app_installs_csv_path = os.path.join(script_dir, 'app-installs.csv')
 font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
-df = pd.read_csv(csv_path)
 chinese_font = FontProperties(fname=font_path, size=12)
+
+def app_installs():
+    # Load your data
+    df = pd.read_csv(app_installs_csv_path, skiprows=1)
+    df["Date"] = pd.to_datetime(df["Date"])
+    df["Installs"] = pd.to_numeric(df["Installs"], errors="coerce")
+
+    # Filter from the first non-zero install
+    df = df[df["Installs"] > 0]
+
+    # Group by month, remove May 2025 and later
+    df_monthly = df.set_index("Date").resample("M").sum().reset_index()
+    df_monthly = df_monthly[df_monthly["Date"] < pd.to_datetime("2025-05-01")]
+    df_monthly["Cumulative"] = df_monthly["Installs"].cumsum()
+
+    # Plot
+    plt.figure(figsize=(14, 7))
+    bars = plt.bar(df_monthly["Date"], df_monthly["Installs"], width=20, label="Monthly Installs")
+    plt.plot(df_monthly["Date"], df_monthly["Cumulative"], color='orange', marker='o', linewidth=2, label="Cumulative Installs")
+
+    # Add labels
+    for idx, row in df_monthly.iterrows():
+        plt.text(row["Date"], row["Installs"] + 2, str(row["Installs"]), ha='center', va='bottom', fontsize=9)
+        plt.text(row["Date"], row["Cumulative"] + 5, str(row["Cumulative"]), ha='center', va='bottom', fontsize=9, color='orange')
+
+    # Set clean x-axis
+    plt.xlim([df_monthly["Date"].min() - pd.Timedelta(days=15), df_monthly["Date"].max() + pd.Timedelta(days=15)])
+    plt.gca().set_xticks(df_monthly["Date"])
+    plt.gca().xaxis.set_major_formatter(DateFormatter("%Y-%m"))
+    plt.xticks(rotation=45)
+
+    # Labels and legend
+    plt.title("Monthly and Cumulative App Installs (Up to April 2025)", fontsize=16)
+    plt.xlabel("Month", fontsize=12)
+    plt.ylabel("Number of Installs", fontsize=12)
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+    plt.legend()
+    plt.tight_layout()
+
+    # Show
+    plt.show()
+
 
 def testing_map():
     # Load Taiwan shape
