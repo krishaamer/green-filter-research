@@ -4,9 +4,8 @@ import MyEmbed from '/src/components/Embed';
 import Elephant from "./images/discussion/elephant.png";
 import Everything from "./images/discussion/everything.png";
 ```
-
 ```{python}
-from data.discussion import app_installs
+from results.data.discussion import app_installs
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -536,7 +535,7 @@ Easily access data used in this research project (please wait a bit until it loa
 
 <MyEmbed src="https://airtable.com/embed/shr4SJcuhnfPBKLXo?backgroundColor=red" text="Loading Database..." />
 
-##  User Survey
+## User Survey
 
 -   Factorial Surveys [@li2022assessing]: "Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations"
 

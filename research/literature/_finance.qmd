@@ -53,7 +53,7 @@ Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing 
 
 Already in 2001, while still part of the EU, the UK government was discussing ways to promote sustainable investment *"fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment"* [@houseofcommonsEnvironmentalAuditSecond2002]. More recently, [@hmtreasuryChancellorSetsOut2020] released a taxonomy of sustainable activities in the UK.
 
-Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures [@EUBanForestkilling2022]. Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024]
+Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
@@ -61,11 +61,16 @@ While the above trend is for governments to adapt to and work towards their envi
 
 ### Shopping
 
-#### Shopping Footprint
+
+#### Mobile Wallets In Taiwan
+
+
+
+#### Shopping Environmental Footprint Driven by Social Commerce
+
+Online Shopping impact. Single's day, etc.
 
 Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] "Asia is set to account for 50% of the world's total online retail sales".
-
--   Online Shopping impact. Single's day, etc.
 
 It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
 
@@ -73,15 +78,15 @@ It may seem impossible to turn the tide of consumerism, given the projected grow
 shopping_growth()
 ```
 
-#### Social Commerce
-
-[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in social shopping, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
+[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
 
 ```{python}
 social_commerce_chart()
 ```
 
-#### AI shopping assistants
+In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
+
+#### Shopping Driven by AI Assistants
 
 important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
 
