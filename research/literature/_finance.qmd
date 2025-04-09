@@ -19,7 +19,13 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## The Convergence of Money: How the Democratization of Finance is Leading Consumers Towards All-in-One Shopping, Saving, and Investing Superapps
+## Convergence of Money
+
+Democratization of Finance
+
+All-in-One Shopping, Saving, and Investing Superapps
+
+### Sustainability-as-a-Feature
 
 ### Does the Democratization of Finance Create a Path for Sustainability in Superapps?
 
@@ -33,7 +39,7 @@ Consumers are beginning to become more money-savvy yet are still missing many ke
 
 Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping.
 
-### Capital Allocation and Sustainability
+### Capital Allocation for Sustainability
 
 Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies pushing economic growth. Empowering consumers to access finance through digital technologies and delivering a simple UX (user experience) – i.e. the fintech trend of the last 2 decades -, includes financial products creating pathways towards sustainability-focused investing. Sustainable capital allocation methods are many. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
 
@@ -53,7 +59,7 @@ Directive 14 2014/65/EU, 2014: The European Union fully recognizes the changing 
 
 Already in 2001, while still part of the EU, the UK government was discussing ways to promote sustainable investment *"fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment"* [@houseofcommonsEnvironmentalAuditSecond2002]. More recently, [@hmtreasuryChancellorSetsOut2020] released a taxonomy of sustainable activities in the UK.
 
-Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures [@EUBanForestkilling2022]. Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024]
+Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
@@ -61,11 +67,41 @@ While the above trend is for governments to adapt to and work towards their envi
 
 ### Shopping
 
-#### Shopping Footprint
+#### Mobile Wallets In Taiwan
+
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| Payment App                   | Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Users in Taiwan | Origin        |
++:==============================+:================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+:================+===============+
+| **LINE Pay**                  | Most popular payment app accepted all over Taiwan. Works stand-alone and inside the LINE messenger. Supports both in-store and online shopping payments, also direct P2P transfers to contacts (requires LINE Bank). Displays a map of its merchant network with discounts and coupons; integrates iPASS MONEY.                                                                                                                                                                                                                                 | \> 12 Million   | Japan / Korea |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **JKOPay (街口支付)**         | QR code payments and P2P transfers to contacts; paying for bills.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | \> 7 Million    | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Taiwan Pay (台灣Pay)**      | Official Taiwanese Government app in collaboration with Taiwanese banks. Supports payments directly from bank accounts (without the need for a card). Supports QR code payments, P2P transfers to contacts and paying bills. A unique feature is cash withdrawal from ATMs without the need for a bank card.                                                                                                                                                                                                                                    | \> 6 Million    | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Apple Pay**                 | Requires an Apple iOS device; uses credit/debit cards via NFC, Secure, In-app & web payments                                                                                                                                                                                                                                                                                                                                                                                                                                                    | ?               | USA           |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Google Pay**                | Supports NFC and credit/debit cards, in-app and online payments as well as public transport.                                                                                                                                                                                                                                                                                                                                                                                                                                                    | ?               | USA           |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **iPASS MONEY (一卡通MONEY)** | Digital version of the iPASS card which can be used for QR code payments, P2P transfers to contacts, paying bills and public transport.                                                                                                                                                                                                                                                                                                                                                                                                         | ?               | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **E.Sun Wallet (玉山Wallet)** | Requires the Taiwanese E.Sun Bank and allows QR payments, P2P transfers to contacts and paying bills as well as financial management tools.                                                                                                                                                                                                                                                                                                                                                                                                     | ?               | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Pi Wallet (Pi 拍錢包)**     | Payment app by the PChome online shop supporting in-store QR and online payments, and paying for bills a parking.                                                                                                                                                                                                                                                                                                                                                                                                                               | ?               | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **PXPay (全聯福利中心)**      | Payment app by PX Mart, the largest domestic Taiwanese supermarket chain, supporting QR code payments, offering rewards and discounts and loyalty plans. Recently expanded to Korea quoting the interest of Taiwanese young people in Korean culture. **In early 2025, PXPay began offering a saving and investing service called "Digital Hen" in collaboration with J.P Morgan Asset Management.** According to the press release, the service aims to be a beginner-friendly financial innovation helping shoppers get into micro-investing. | ?               | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Hami Pay (中華電信)**       | Payment app by the largest phone company Chunghwa Telecom supporting NFC payments, public transport, and paying bills.                                                                                                                                                                                                                                                                                                                                                                                                                          | ?               | Taiwan        |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+| **Samsung Pay (悠遊卡)**      | Requires a Samsung device; uses NFC; integrates EasyCard and credit/debit cards; supports public transport.                                                                                                                                                                                                                                                                                                                                                                                                                                     | ?               | Korea         |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
+
+: Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan]
+
+#### Shopping Environmental Footprint Driven by Social Commerce
+
+Online Shopping impact. Single's day, etc.
 
 Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] "Asia is set to account for 50% of the world's total online retail sales".
-
--   Online Shopping impact. Single's day, etc.
 
 It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
 
@@ -73,15 +109,15 @@ It may seem impossible to turn the tide of consumerism, given the projected grow
 shopping_growth()
 ```
 
-#### Social Commerce
-
-[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in social shopping, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
+[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
 
 ```{python}
 social_commerce_chart()
 ```
 
-#### AI shopping assistants
+In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
+
+#### Shopping Driven by AI Assistants
 
 important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
 
@@ -796,7 +832,7 @@ While divesting makes news headlines, even divestment by large institutional inv
 
 ## Econometrics: Decoupling Economic Growth from Environmental Degradation
 
-#### How to Measure the Economy
+#### The Many Ways to Measure an Economy
 
 *Econometrics* is the science of measuring the economy.
 
@@ -808,7 +844,7 @@ Measuring wellbeing in addition to GDP and the metric should including resilienc
 
 -   The true cost of products is hidden. The work is hidden.
 
-#### Evolution of Economics: New Metrics
+#### The Evolution of Economics: New Metrics
 
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
@@ -830,7 +866,7 @@ Co-founder of Generation Capital with 50 Billion under management David Blood "t
 
 In the simplest sense, prices do not capture all costs. "Consumption, production, and investment decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]. Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002]. As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year [@trucostNaturalCapitalRisk2023]. The award-winning economist Mariana Mazzucato argues in [@guptaElectrifyingEconomistGuide2020] we should include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018] as part of our metrics.
 
-#### Classical Economics vs Ecological Economics
+#### Ecological Economics Builds Upon Classical Economics
 
 While Adam Smith is most famous for his concept of the *invisible hand* first appearing in *The Theory of Moral Sentiments* (1759) and further developed in his seminal work *The Wealth of Nations*, published in 1776, his writings also highlight the interdependence of economic actors, who through specialization increase productivity, but also increasingly dependent on each another as well as the role of empathy in individual actions [@atalAdamSmithHis2024].
 

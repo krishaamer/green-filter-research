@@ -4,6 +4,12 @@ import MyEmbed from '/src/components/Embed';
 import Elephant from "./images/discussion/elephant.png";
 import Everything from "./images/discussion/everything.png";
 ```
+```{python}
+from results.data.discussion import app_installs
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 # Discussion
 
 College Student Willingness to pay ( WTP)
@@ -12,7 +18,15 @@ Defining the Problem Space.
 
 -   college students can get used to looking at financial charts
 
-## Finance: Design Implications and Feature Ideas
+## App Installs
+
+```{python}
+app_installs()
+```
+
+## Design Implications and Feature Ideas
+
+### Finance
 
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category       | Role              | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -60,7 +74,7 @@ Defining the Problem Space.
 | Governance     |                   | ***Design Implications:*** show company board membership in the app product view.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 +----------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Design: Design Implications and Feature Ideas
+### Design
 
 This chapter has the following design implications. This chapter and design implications spurred the following feature ideas.
 
@@ -138,7 +152,7 @@ This chapter has the following design implications. This chapter and design impl
 |                      | App shows traceability.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## College: Design Implications and Feature Ideas
+### College
 
 College Students Need Tools for Action
 
@@ -240,7 +254,7 @@ Environment shapes action.. create an environment where college students can inf
 |                 | -   Contact SOAS?                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Sustainability: Design Implications and Feature Ideas
+### Sustainability
 
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category         | Implication                                                                                                                                                                                   |
@@ -471,11 +485,11 @@ The latest IPCC report @calvinIPCC2023Climate2023
 
 -   Latvian Kora app for tracking personal CO2 footprint, Earn KORA coins for reducing CO2 emissions [@korasustainabilityKoraSustainability2019].
 
-### Google Chrome Extenstion
+## Google Chrome Extentsion
 
-While Google is the most popular browser with 3 billion users, extentions are a relatively less knwn feature of the browser. Most popular extenstions are Grammarly, for Taiwanese students End Note is familiar.
+While Google is the most popular browser with 3 billion users, extensions are a relatively less known feature of the browser. Most popular extensions are Grammarly, for Taiwanese students End Note is familiar.
 
-However it's only available for computers (extenntiions don't run on phones and tablets).
+However it's only available for computers (extensions don't run on phones and tablets).
 
 ## Results
 

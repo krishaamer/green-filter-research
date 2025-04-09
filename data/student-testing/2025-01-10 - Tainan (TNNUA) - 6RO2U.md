@@ -1,10 +1,10 @@
 # Transcript Comparison: Traditional Chinese & English
 
 **Source Files:**
-*   `2025-01-10 - Tainan (TNNUA) - 6R02U-2.json`
-*   `2025-01-10 - Tainan (TNNUA) - 6R02U-2.txt`
+*   `2025-01-10 - Tainan (TNNUA) - 6RO2U.json`
+*   `2025-01-10 - Tainan (TNNUA) - 6RO2U.txt`
 
-**Ziran ID code:** 6R02U-2
+**Ziran ID code:** 6RO2U
 
 ------------------------------------------------------------------------
 
