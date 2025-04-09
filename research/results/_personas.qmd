@@ -6,9 +6,13 @@ warnings.filterwarnings("ignore")
 
 ## Personas
 
-### Clustering Students to Build 3 Personas
+### Clustering Students to Build Personas
+
+Customer segmentation
 
 Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert-scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert-scale fields, transformed into the principal components that capture the most variance.
+
+K-prototypes combines K-mean and K-modes unsupervised machine learning algorithms.
 
 - There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
 
