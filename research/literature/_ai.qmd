@@ -1,9 +1,17 @@
+---
+title: AI
+editor:
+  render-on-save: false
+---
+
 ```{python}
 #| echo: false
 from literature.charts.ai import models_chart, scifi_chart, growth_compute_chart, models_rag_performance
 import warnings
 warnings.filterwarnings("ignore")
 ```
+
+# AI
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
@@ -15,21 +23,8 @@ import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
 
-::: {.content-hidden unless-format="pdf"}
-# Artificial Intelligence
-:::
-
-::: {.content-hidden unless-format="html"}
-# AI
-:::
-
-::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
-:::
 
-```{=mdx}
-<Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
-```
 ## Human Patterns
 
 The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are increasingly capable in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
