@@ -95,22 +95,6 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "methodology/_prototypes.qmd" >}}
-
-\newpage
-
-{{< include "methodology/_ideas.qmd" >}}
-
-\newpage
-
-{{< include "methodology/_interactive.qmd" >}}
-
-\newpage
-
-{{< include "methodology/_testing.qmd" >}}
-
-\newpage
-
 {{< include "results/_index.qmd" >}}
 
 \newpage
@@ -136,6 +120,18 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "results/_experts.qmd" >}}
+
+\newpage
+
+{{< include "results/_prototypes.qmd" >}}
+
+\newpage
+
+{{< include "results/_ideas.qmd" >}}
+
+\newpage
+
+{{< include "results/_interactive.qmd" >}}
 
 \newpage
 

@@ -3,6 +3,7 @@ import MyEmbed from '/src/components/Embed'
 import Figure from '/src/components/Figure'
 import Concepts from '../images/methodology/concept-map.png'
 import Methodology from '../images/methodology/research-methodology.png'
+import AppTestingFlow from '../images/testing/app-testing-flow.png'
 ```
 # Methodology
 
@@ -69,9 +70,7 @@ Respondents who remained outside the survey parameters were disregarded from the
 
 ## Research Design
 
--   @christianrohrerWhenUseWhich2022: Research methods
-
--   Interview transcript from Descript and Google Speech-to-Text model were combined using Gemini 2.5 Pro Experimental 03-25 (gemini-2.5-pro-exp-03-25) model.
+When developing my research design, I relied on the advice of [@christianrohrerWhenUseWhich2022] to decide when to choose which User-Experience Research methods.s
 
 **The research design of this study consists of 3 steps.**
 
@@ -85,7 +84,7 @@ Respondents who remained outside the survey parameters were disregarded from the
 
 ## Conceptual Framework
 
--   The conceptual framework map (fig. 13) presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
+-   The conceptual framework map presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Concept map](./images/methodology/concept-map.png){width="100%"}
@@ -124,7 +123,7 @@ The strength of quantitative research is to enable me to access a larger sample 
 
 In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. Sampling
 
-The phase three sampling structure uses a judgmental criterion: - age 18-35 - located in Taiwan - Using the English language for discussion
+The phase three sampling structure uses a judgmental criterion: - age 18-35 - located in Taiwan - Using the Chinese language for discussion
 
 Individual face-to-face interviews with be organized at universities around Taiwan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I will post online ads in Chinese and reach out to varied student clubs to invite people who I don't know personally, to participate in a "sustainable AI application testing" (wording may change).
 
@@ -139,3 +138,208 @@ Individual face-to-face interviews with be organized at universities around Taiw
 ```{=mdx}
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
+
+-   Interview transcript from Descript and Google Speech-to-Text model were combined using Gemini 2.5 Pro Experimental 03-25 (gemini-2.5-pro-exp-03-25) model.
+
+## Testing
+
+Does the prototype match user needs?
+
+Testing was the most difficult part of the thesis process.
+
+-   Testing with friends and acquaintances.
+
+-   Testing with experts.
+
+-   Testing with unknown people in the target audience.
+
+### App Testing Flow
+
+::: {.content-hidden unless-format="pdf"}
+![App Testing Flow](./images/testing/app-testing-flow.png){width="100%"}
+:::
+
+```{=md977hjhbbhx}
+<Figure caption="App Testing Flow" src={AppTestingFlow} />
+```
+### 1st Wave of Testing (Spring 2024)
+
+-   1 month from 2024 April 2 to May 2, 2024
+-   8 anonymous participants at NCKU
+-   Participant observation
+-   No audio recording
+
+Prototype Testing results
+
+sun, 14. april. 22h at D24
+
+-   NCKU student, gen-z
+-   searches for lancome brand
+-   chooses LANCOME 蘭蔻 小黑瓶100ml(買一送一/超未來肌因賦活露國際航空版) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome
+-   notices 買一送一
+-   doesn't notice analysis button at first
+-   would only click on this if it's really expensive
+-   would not click on "continue chat button"
+-   asked "why is it so expensive in taiwan2
+-   considers report result useful
+
+note: there's dropoff on evey step of the user journey
+
+RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
+
+Testing overview
+
+-   Tested with 30 participants individually
+-   Testing is anonymous
+-   Generate
+-   
+
+有意識的消費主義
+
+-   add carbon indicators, other labels to the analsysi, add report code, calculate report code from URL? ssave as kv
+
+|  |
+|------------------------------------------------------------------------|
+| may 8 czuta |
+| \- investment help useless.. needs simpler intro - wants to see real cows - very curious abouut companes - wants to see profit percentage. why is margin so high if polluution is bad. - real environmental impact of the coompany. |
+
+06 may - Seeing factory photos is useful only if they are trustworthy photos. Who will provide them? -
+
+|                              |
+|------------------------------|
+| may 5                        |
+| \- user: it looks like an ad |
+
+|                                                         |
+|---------------------------------------------------------|
+| may 3                                                   |
+| \- uses google to look for "fashion brand eco friendly" |
+| \- thinks "goodonyou.eco" looks like a brand website    |
+
+|  |
+|------------------------------------------------------------------------|
+| may3 - first looked for NET clothes but Momo doesn't sell it - Looked for Sony camera lens |
+
+1 may prof suggestion - make connection between biodibersity and production and consumption clearer - what is the incentive for companies to share their data?
+
+my own idea: like the switch of going from traditional banking with ATM machines on the street (or even the physica bank office) to online banking with mobile payments
+
+-   hypothesis: esg accessibility can push companies to increase production standards
+
+-   what if you can see ESG in near-realtime such as the stock market price
+
+-   i can imagine esg derivative product like siemens gamesa
+
+-   ai can help integrate esg derivatives into daily life to drive esg adoption
+
+-   "effective altruism (EA)"
+
+-   "Blockchain technology can improve price transparency in product distribution by allowing consumers to know the exact pricing from raw materials to distributors to suppliers."
+
+-   
+
+Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
+
+-   ziran chrome extension is unable to record activity due to browser security restrictions for plugins
+-   ai.ziran.tw record user activity
+-   semi-structured interviews were conducted in chinese
+-   the interviewer (me) took notes of the interviews
+-   some gaps in the data exist due to the limited chinese language skills of the interviewer (me)
+
+basic interview script - momo: what is a brand that you like'd or would like to buy - search - please pick a product (or search again) - on product page: what do you notice on this page? - what kind of information is important for you on this page? - do you notice anything else - (if the user doesn't notice the green filter, direct their attention to it and ask: what do you think this does?) - would you click on it - if the user says yes, continue - if thhe user says no, make note and continue - as the extension generates a response: what do you think about this content? - is there any information that you consider important? - anything else you see that you think looks special - do you see anywhere you can click? - would you click on it? - if yes, continue - if no, make note, and continue - explain: due to the limitation of the prototype, the test will continue on a separate page where you can ask questions - is there anything you would like to ask the helper? - notice if the user picks from sample questions - remind the user they can come up with their own question - as the ai is generating content ask: do you see any information in this content - did you know this before or is there any info you didn't know before? make note. - front page: explain the helper takes into account your personal info and goals. - ask: what kind of information do you think important to share with the helper?
+
+Tuesday 30. April 14:05-14:45 - 7CYQ6
+
+-   Momo
+-   Looks for Levis pants
+-   Looks for recommendations on the sidebar
+-   Looks at the photos
+-   Looks at the price and options
+-   Didn't notice the helper as it looks like an ad
+-   When helped
+-   Ignores 社區支持： 購物 69% 儲蓄 80% 投資 65% as doesn't know what these mean
+-   on ai.ziran
+-   shares personal info: 四年後想考研究所，還不想工作，所以不會存到錢，希望可以考到台北的學校，每個月有兩萬生活費。
+-   
+-   DJmoney
+-   https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=0050.tw
+-   Still didn't notice the helper
+-   Doesn't understand investing (Understands it's Taiwanese stocks) so the helper is useful for explaining new concepts
+
+Monday 29. april 10:10-10.25 - Momo - buy new balance sneakers
+
+-   DJmoney
+-   wants compare EFTs
+
+Monday 29. april 14:50-15:10 - Momo - buy apple iphone - bad internet - app was slow - app crashed
+
+-   green filter analysis on DJmoney seems more trustworthy than other 2 eft sites
+-   button placement is important (too low on other sites than djmoney)
+
+Sunday 28. april 16:00 - momo: wants to buy ice cream
+
+sun, 14. april. 22h at D24
+
+-   ncku student, gen-z
+-   searches for lancome brand
+-   chooses LANCOME 蘭蔻 小黑瓶100ml(買一送一/超未來肌因賦活露國際航空版) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome
+-   notices 買一送一
+-   doesn't notice analysis button at first
+-   would only click on this if it's really expensive
+-   would not click on "continue chat button"
+-   asked "why is it so expensive in taiwan2
+-   considers report result useful
+
+note: there's dropoff on evey step of the user journey
+
+RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
+
+Testing overview
+
+-   Tested with 30 participants individually
+-   Testing is anonymous
+-   Generate
+-   
+
+有意識的消費主義
+
+-   add carbon indicators, other labels to the analsysi, add report code, calculate report code from URL? ssave as kv
+
+https://www.youtube.com/watch?v=xLszCaeUWig
+
+https://www.youtube.com/watch?v=GHMAboJvLCU
+
+https://www.youtube.com/watch?v=xLszCaeUWig
+
+https://www.carbonequity.com/what-we-offer
+
+### Expert Feedback
+
+-   Provide alternatives
+
+-   Simplify text
+
+-   Use images
+
+-   Put a "New Feature" ad on the front page
+
+-   Change 繼續討論 to something more actionable
+
+    -   I tried changing to "see alternatives"
+
+### 2nd Wave of Testing (Autumn 2024 - Spring 2025)
+
+In-Person Face-to-Face Testing
+
+I conducted in-person testing individually with 32 students at 7 universities. Interviews were conducted in Chinese and transcribed and translated to English using Google Voice to Text AI as well as Describe AI. Face-to-face testing was concluded in several universities across Taiwan.
+
+|  |  |  |
+|------------------|---------------------------|---------------------------|
+| Region | University | No of Testees |
+| Taichung | 國立中興大學 National Chung Hsing University (NCHU) | 7 |
+| Chiayi | 國立中正大學 National Chung Cheng University (CCU) | 5 |
+| Tainan | 國立成功大學 National Cheng Kung University (NCKU) | 6 |
+| Tainan | 國立臺南藝術大學 Tainan National University of the Arts (TNNUA) | 2 |
+| Tainan | 長榮大學 Chang Jung Christian University (CJCU) | 5 |
+| Tainan | 南臺科技大學 Southern Taiwan University of Science and Technology (STUST) | 5 |
+| Pingtung | 國立屏東科技大學 National Pingtung University of Science and Technology (NPUST) | 2 |
