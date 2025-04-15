@@ -8,18 +8,18 @@ import Methodology from '../images/methodology/research-methodology.png'
 
 Start with expert survey, then expert interviews (because so many questions from literature review).
 
-| Group                              | Task                       |     |
-|------------------------------------|----------------------------|-----|
-| Experts (Finance)                  | Interview                  |     |
-| Experts (Design)                   | Interview                  |     |
-| Experts (Sustainability)           | Interview                  |     |
-| Target Audience (College Students) | Survey + Prototype Testing |     |
+| Group                              | Task                       |
+|------------------------------------|----------------------------|
+| Experts (Finance)                  | Interview                  |
+| Experts (Design)                   | Interview                  |
+| Experts (Sustainability)           | Interview                  |
+| Target Audience (College Students) | Survey + Prototype Testing |
 
 I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms getting verbal permission from educators in their ´ classrooms to distribute the survey flyer. The flyer included a colorful AI-generated visual with a futuristic game-link female figure, the title "climate anxiety survey", a website link (ziran.tw) and scannable QR-code.
 
 Similarly to [@liuDigitalCapabilityDigital2023] I distributed the survey in schools in the Northern, Soutern, Central, and East regions of Taiwan.
 
-The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to english for this table.
+The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to English for this table.
 
 | Original Question in Chinese | English Translation |
 |----------------------------------|--------------------------------------|
@@ -64,17 +64,12 @@ The survey only included questions and descriptions in Chinese. I have used the 
 
 Respondents who remained outside the survey parameters were disregarded from the data analysis.
 
-
-
-- References were stored in the Zotero paid version with 6 GB storage.
-- Bibtex and Better Bibtex were used to export the references to the .bib format consumable by Quarto.
-
+-   References were stored in the Zotero paid version with 6 GB storage.
+-   Bibtex and Better Bibtex were used to export the references to the .bib format consumable by Quarto.
 
 ## Research Design
 
 -   @christianrohrerWhenUseWhich2022: Research methods
-
-
 
 -   Interview transcript from Descript and Google Speech-to-Text model were combined using Gemini 2.5 Pro Experimental 03-25 (gemini-2.5-pro-exp-03-25) model.
 
