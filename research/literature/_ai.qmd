@@ -1,17 +1,9 @@
----
-title: AI
-editor:
-  render-on-save: false
----
-
 ```{python}
 #| echo: false
 from literature.charts.ai import models_chart, scifi_chart, growth_compute_chart, models_rag_performance
 import warnings
 warnings.filterwarnings("ignore")
 ```
-
-# AI
 
 ```{=mdx}
 import Figure from '/src/components/Figure'
@@ -23,7 +15,7 @@ import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
 
-![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
+# AI
 
 ## Human Patterns
 
@@ -257,6 +249,7 @@ models_rag_performance()
 ```
 
 ## Price of Tokens
+
 At the end of the day, the adoption of AI to everyday life, even in the smallest of contexts, will come down to the price. Long-time AI-engineer [@ngAIRestoresALS2024] predicts, having seen the roadmaps for the microchip industries, as well as incoming hardware and software innovations, the price of tokens will be very low, and much lower than a comparative human worker.
 
 ## Companions
@@ -350,7 +343,7 @@ Humans are multi-modal creatures by birth. To varied ability, we speak, see, lis
 
 By early 2024, widely available LLMs front-ends such as Gemini, Claude and ChatGPT have all released basic features for multi-modal communication. In practice, this means combination several AI models within the same interface. For example, on the input side, one model is used for human speech or image recognition which are transcribed into tokens that can be ingested into an LLM. On the output side, the LLM can generate instructions which are fed into an image / audio generation model or even computer code which can be ran on a virtual machine and then the output displayed inside the conversation.
 
-The quality of LLM output depends on the quality of the provided prompt. @zhouLargeLanguageModels2022 reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality by using another model in the AI pipeline in front of the LLM to enhance the human input with language that is known to produce better quality. This approach however is a moving target as foundational models keep changing rapidly and the baseline might differ from today to 6 months later.
+The quality of LLM output depends on the quality of the provided prompt. [@zhouLargeLanguageModels2022] reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality by using another model in the AI pipeline in front of the LLM to enhance the human input with language that is known to produce better quality. This approach however is a moving target as foundational models keep changing rapidly and the baseline might differ from today to 6 months later.
 
 Multimodal model development is also ongoing. In the case of Google's Gemini 1.5 Pro, one model is able to handle several types of prompts from text to images. Multimodal prompting however requires larger context windows, as of writing, limited to 1 million tokens in a private version allows combining text and images in the question directed to the AI, used to reason in examples such as a 44-minute Buster Keaton silent film or Apollo 11 launch transcript (404 pages) @googleMultimodalPrompting44minute2024.
 
@@ -449,7 +442,6 @@ There is also the question of who takes responsibility for the actions take by t
 The Oxford Internet Institute defines AI simply as ***"computer programming that learns and adapts"*** @googleAZAI2022. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI @googleGooglePresentsAI2022. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
 The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
-
 
 | Product | Link | Description |
 |-------------------|------------------------------|-----------------------|
