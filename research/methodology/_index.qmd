@@ -138,7 +138,6 @@ Individual face-to-face interviews with be organized at universities around Taiw
 ```{=mdx}
 <Figure caption="Overview of research methodology" src={Methodology} />
 ```
-
 -   Interview transcript from Descript and Google Speech-to-Text model were combined using Gemini 2.5 Pro Experimental 03-25 (gemini-2.5-pro-exp-03-25) model.
 
 ## Testing
@@ -334,7 +333,7 @@ In-Person Face-to-Face Testing
 I conducted in-person testing individually with 32 students at 7 universities. Interviews were conducted in Chinese and transcribed and translated to English using Google Voice to Text AI as well as Describe AI. Face-to-face testing was concluded in several universities across Taiwan.
 
 |  |  |  |
-|------------------|---------------------------|---------------------------|
+|-------------------|---------------------------|---------------------------|
 | Region | University | No of Testees |
 | Taichung | 國立中興大學 National Chung Hsing University (NCHU) | 7 |
 | Chiayi | 國立中正大學 National Chung Cheng University (CCU) | 5 |
