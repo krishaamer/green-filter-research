@@ -23,7 +23,8 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```
--   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
+-   Design makes complexity comprehensible. @normanLivingComplexity2016
+-    like the Helsinki chapel. there's either or a priest or a social worker present. it's the perfect public service. Limit the barrier of entry for people to discover. Elegant.
 
 ## Eco-Design: Design as Political Action at Scale
 
@@ -85,7 +86,7 @@ Europe is transforming into a hotbed of sustainability. One of the EU goals is r
 -   @SmartSwap For example, Swap furniture in Estonia
 
 | Feature | Benefit |
-|----|----|
+|------------------------------------|------------------------------------|
 | Durable | Reduces the need to frequently replace the product |
 | Reusable | Extends the product's life-cycle; sell or share to the next user |
 | Reparable | Extends the product's life-cycle; fix instead of discarding |
@@ -181,7 +182,7 @@ There's ample evidence from several countries suggesting moving to renewal energ
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
--   Montreal protocol eradicates CfCs and the ozone holes became whole again.
+-   Montreal protocol near-eradication of chlorofluorocarbons (CfCs) and the ozone holes became whole again.
 
 ***Mitigating*** and ***Adapting to*** **Climate Change**
 
@@ -571,13 +572,13 @@ There are many approaches to design - from playful to practical to critical and 
 
 ### Circular Design
 
-Circular design is only possible if supply chains become circular as well.
-
-It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data.
+Circular design is only possible if supply chains become circular as well. @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact. For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
 
 The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic and resulting blockages in resource delivery highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021].
 
-Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
+It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data. Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks.
+
+There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
 
 There are several technologies for tracking goods across the supply chain, from shipping to client delivery. Data entry is a combination of manual data input and automated record-keeping facilitated by sensors and integrated internet of things (IoT) capabilities. For example [@ashrafPrototypeSupplyChain2023] describes using the Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability where Sigfox does not need direct access to internet but can send low powered messages across long distances (for example shipping containers on the ocean). [@vanwassenaerTokenizingCircularityAgrifood2023] compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain in agricultural products.
 
@@ -601,8 +602,6 @@ There are several technologies for tracking goods across the supply chain, from 
 
 : Blockchain supply chain companies as of summer 2023 include.
 
--   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
--   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
 -   Embodied Carbon
     -   "embodied carbon"
     -   Carbon Neutral Cities Alliance
@@ -663,13 +662,11 @@ Products are made from resources distributed across the planet and transported t
 
 -   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
--   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
-
--   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+-   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
 ### **Tracking Ethics & Cruelty**
 
-Can data transparency provide tools for reducing cruelty.
+Data transparency may help reduce cruelty by improving traceability.
 
 -   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be"free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims."
 
@@ -686,6 +683,8 @@ Can data transparency provide tools for reducing cruelty.
 -   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this?
 
 -   Precision Fermentation and Cultivated Meat: Meat products without farm animals
+
+-   Doconomyoffers an Åland Index that links financial transactions to carbon impact
 
 ### **Tracking Factories Can Become Transparent**
 
@@ -1023,7 +1022,7 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 | Speaking            |     |
 | Touching            |     |
 | Moving              |     |
-|                     |     |
+| Seeing              |     |
 
 : Modes of interaction
 
@@ -1089,7 +1088,7 @@ Labels alone are not enough - they are insufficient to drive significant behavio
 
 Despite ongoing interest, several studies have shown that the overall impact of carbon labeling on consumer behavior remains negligible. The idea of *Carbon Labelling* is yet to find mainstream adoption.
 
-Participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all o provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
+Participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all of which provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
 
 | Company    | Country |
 |------------|---------|
