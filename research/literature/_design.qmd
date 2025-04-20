@@ -23,6 +23,8 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```
+-   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
+
 ## Eco-Design: Design as Political Action at Scale
 
 Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
@@ -59,6 +61,10 @@ Timeline of the Policy Context:
 
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products. The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
 
+```{python}
+eu_green_deal()
+```
+
 In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals have exists across diverse countries. It's not that the EU didn't have an overarching environmental policy before; rather it was more vague and filled with loop-holes. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022]. From the legislative perspective, NFRD (Non-Financial Reporting Directive) is replaced by CSRD (Corporate Sustainability Reporting Directive) and ESRS reporting is the standard to meet CSRD requirements.
 
 Director of the French environmental NGO Pôle Eco-conception, eco-design is "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
@@ -73,17 +79,24 @@ The EU has a *taxonomy of environmentally sustainable economic activities* publi
 
 Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
 
-The 9 qualities of *eco-designed products* include
+### Return, Repair, Reuse
 
-|            |                   |                    |
-|------------|-------------------|--------------------|
-| Durable    | Reparable         | Easy to Recycle    |
-| Reusable   | Easy to Maintain  | Energy Efficient   |
-| Upgradable | Easy to Refurbish | Resource Efficient |
+-   There's a growing number of companies providing re-use of existing items.
+-   @SmartSwap For example, Swap furniture in Estonia
 
-```{python}
-eu_green_deal()
-```
+| Feature | Benefit |
+|----|----|
+| Durable | Reduces the need to frequently replace the product |
+| Reusable | Extends the product's life-cycle; sell or share to the next user |
+| Reparable | Extends the product's life-cycle; fix instead of discarding |
+| Upgradable | Extends the product's life-cycle; improve performance without complete replacement. |
+| Easy to Maintain | Reduce resources needed to keep the product functional |
+| Easy to Refurbish | Support second-hand use and circular economy |
+| Easy to Recycle | Support material recovery at end of the product's life to reduce new resource extraction and pollution |
+| Energy Efficient | Reduce product's CO2 footprint and operating costs |
+| Resource Efficient | Reduce product's use of raw materials and energy during production and life-cycle |
+
+: The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022].
 
 ### Legislative Efforts Around the World
 
@@ -121,17 +134,11 @@ One type of legislation that works?
 
 -   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
 
-### Return, Repair, Reuse
-
--   There's a growing number of companies providing re-use of existing items.
--   @SmartSwap For example, Swap furniture in Estonia
-
 Bring back your bottle and cup after use.
 
 -   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
 -   @formentiniDesignCircularDisassembly2023
 -   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
--   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
 -   @zeynepfalayvonflittnerFalayTransitionDesign
 
 Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
@@ -222,9 +229,9 @@ Sustainbility Policy context is Shifting Around the World
 
 -   @nastaraanvadoodiEcodesignRequirementsDrive2022
 
-## Thinking in Systems to Design for Circularity
+## Thinking in Systems
 
-*Eco-Design*, *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design -* designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While the European ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
+*Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Multispecies Design -* designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While the European ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
 In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire life-cycle of a product or service.
 
@@ -712,7 +719,7 @@ Can data transparency provide tools for reducing cruelty.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-## Superapps for Sustainability
+## Superapps Towards Sustainability
 
 Could there be Sustainability Superapps?
 
@@ -725,9 +732,9 @@ Could there be Sustainability Superapps?
 Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and India leading the way.[@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
 | **Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
-|---------|---------|-------------|------------|--------|---------|----------|---------|-----------|--------------|
-| 微信 **/ WeChat (Tencent)** | China | China | Monthly Active Users (MAU) combined 微信 (China) & WeChat (International) | YES ✅ |  YES ✅ | YES ✅ | 1,4 billion | 2024 | @tecentTecentHoldings20242024 |
-| 支付寶 **Alipay (Ant Group)** | China | China | Annual Active Users (AAU) | YES ✅ |  YES ✅ | YES ✅ | 1.3 billion | 2020 | @geUpdateAlibabasAnt2020 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| 微信 **/ WeChat (Tencent)** | China | China | Monthly Active Users (MAU) combined 微信 (China) & WeChat (International) | YES ✅ | YES ✅ | YES ✅ | 1,4 billion | 2024 | @tecentTecentHoldings20242024 |
+| 支付寶 **Alipay (Ant Group)** | China | China | Annual Active Users (AAU) | YES ✅ | YES ✅ | YES ✅ | 1.3 billion | 2020 | @geUpdateAlibabasAnt2020 |
 | 美團 **Meituan** | China | China | Annual Transacting Users (ATU) | YES ✅ | NO ❌ | NO ❌ | 700 million | 2024 | @jingMeituan0369020242025 |
 | **PhonePe** | India | India | Registered Users (Lifetime) | YES ✅ | YES ✅ | YES ✅ | 500 million | 2023 | @phonepePhonePeCrosses500202 |
 | **LINE** | Japan | Japan, Taiwan, Indonesia, Thailand | Monthly Active Users (MAU) | YES ✅ | YES ✅ | YES ✅ | 200 million | 2023 | @lycorporationLYCorporationTakes2023 |
@@ -749,13 +756,13 @@ Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and 
 Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as
 
 | **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
-|---------|---------|-------------|------------|--------|---------|----------|---------|-----------|--------------|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Uber | USA | Global | Users per month | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 171 million | 2025 | @uberUberAnnouncesResults2025 |
 | Bolt | Estonia | Global | Lifetime users | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 200 million | 2025 | @garciaBoltAcquiresDanish2025 |
 
 In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination @uberukUberTakesSkies2023
 
-Superapps are honeypots of data that is used for many types of behavior modeling. Guido Becher from Rappi defines their super-app as "customer-centric high frequency multi-vertical ecosystem" this enables cross-promotion, for example a hotel in Argentina targeted people people who buy almond milk on Rappi with their offer of a yoga retreat @phocuswrightSuperConnectedRappi2023 [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments, such as the collaboration between Bolt and the city of Seville in Spain \[@boltSevilleModernisingPublic2025\].
+Superapps are honeypots of data that is used for many types of behavior modeling. Guido Becher from Rappi defines their super-app as "customer-centric high frequency multi-vertical ecosystem" this enables cross-promotion, for example a hotel in Argentina targeted people people who buy almond milk on Rappi with their offer of a yoga retreat [@phocuswrightSuperConnectedRappi2023; @suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments, such as the collaboration between Bolt and the city of Seville in Spain [@boltSevilleModernisingPublic2025].
 
 Kakao Pay was found guilty of mishandling 40 million users' data by handing it over to Alipay without user consent; Alipay owns a 32 percent stake in Kakao Pay [@leeKakaoPayHanded2024].
 
@@ -949,7 +956,7 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 ant_forest()
 ```
 
-## Quantified Self: Health and Lifestyle Tracking
+## Quantified Self: Tracking Health and Lifestyle
 
 Personalized Design: Self-Monitoring
 
@@ -1031,6 +1038,7 @@ pandemic()
 My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
 
 -   add picture of the device
+
 -   add picture of air pollution in China
 
 ```{python}
@@ -1069,19 +1077,19 @@ Personal carbon footprint calculators have been released online, ranging from th
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
-## Superapps + Digital Product Passports
+## Digital Product Passports + Superapps
 
 Towards Tracking Sustainability
 
 Even though this topic belongs under Circular Economy, I've chose to highlight *digital product passports* here as it's the main design implication from this chapter - an emerging technology which needs to be designed for the user.
 
-I will being with a bit of history to contextualize what has already been tried. CO~2e~ labeling initiatives are an early form of communicating the environmental cost of each product. Using carbon labels to communicate CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
+To contextualize the discussion, a brief historical overview of previous efforts in this area may be helpful. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
-Labels alone are not enough. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
+Labels alone are not enough - they are insufficient to drive significant behavioral change. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
 
-however several studies show their effect is negligible. Nonetheless, the idea of *Carbon Labelling* is yet to find mainstream adoption.
+Despite ongoing interest, several studies have shown that the overall impact of carbon labeling on consumer behavior remains negligible. The idea of *Carbon Labelling* is yet to find mainstream adoption.
 
-Carbon labeling is voluntary. Only a handful of companies practice carbon-labeling but the number is growing. The U.S. restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn* and plant milk *Oatly* are some example of companies that provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
+Participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all o provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
 
 | Company    | Country |
 |------------|---------|
