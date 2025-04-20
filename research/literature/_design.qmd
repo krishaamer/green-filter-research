@@ -23,15 +23,53 @@ import AbstractDesign from '../images/design/abstract-design.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```
-## Eco-Design: The Legislative Perspective
+## Eco-Design: Design as Political Action at Scale
 
-In the European Union, *eco-design* has political support as part of the EU *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders. Eco-design playslarge part of the proposal by [@commissionEcodesignYourFuture2014] because the product lifecycle's environmental impact is defined in the design process. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in the EU on July 18, 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
 
-It's not that the EU didn't have an environmental policy before; rather it was more vague and filled with loop-holes. CSRD (Corporate Sustainability Reporting Directive) replaces NFRD (Non-Financial Reporting Directive). ESRS reporting is a standard to meet CSRD requirements.
+We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
 
-The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from 30 December 2024 and 30 June 2025 for small businesses.
+The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
-The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
+Designing the right legislative measures can be hugely impactful. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+
+Europe has been of a path of transformation from 2023 to 2030.
+
+::: {.content-hidden unless-format="pdf"}
+![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="EU Policy Context Timeline'"
+  src={EUPolicy}
+/>
+```
+The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+
+Timeline of the Policy Context:
+
+-   In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy.
+
+-   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
+
+-   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
+
+-   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+
+-   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products. The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
+
+In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals have exists across diverse countries. It's not that the EU didn't have an overarching environmental policy before; rather it was more vague and filled with loop-holes. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022]. From the legislative perspective, NFRD (Non-Financial Reporting Directive) is replaced by CSRD (Corporate Sustainability Reporting Directive) and ESRS reporting is the standard to meet CSRD requirements.
+
+Director of the French environmental NGO Pôle Eco-conception, eco-design is "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
+
+"In the context of the EU Plastics Strategy, the European Commission has launched a pledge to increase the use of recycled content to 10 million tons by 2025. To address this, Circularise Plastics Group launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" @circulariseEuPCCircularisePlastics2020
+
+The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from December 2024 and June 2025 for small businesses.
+
+The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed (as of writing) [@ScientistsUrgeEuropean2023] and is facing a backlash [@davidpintoBacklashNatureRestoration2023].
+
+The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable].
 
 Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
 
@@ -47,46 +85,102 @@ The 9 qualities of *eco-designed products* include
 eu_green_deal()
 ```
 
-Europe is not the only region undertaking legislative efforts to promote sustainability. In the US, the *Inflation Reduction Act* provides funding to development of decarbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023]. Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles. For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\]. While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
+### Legislative Efforts
 
-The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart above. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product lifecycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), Eco-Design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
+Europe is not the only region undertaking legislative efforts to promote sustainability. In the US, the *Inflation Reduction Act* provided funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023].
+
+Many other jurisdictions also have laws that aim to reduce the environmental impact of products throughout their life cycles.
+
+For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\].
+
+### Building Upon Product Stewardship and Extended Producer Responsibility
+
+While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
+
+The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart below. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product life-cycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), eco-design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
 
 ```{python}
 compare_ps_epr_ecodesign()
 ```
 
-## Design is Political Action
+Extended Producer Responsibility Enables Companies to be Resposible.
 
-Design *is* political.
+Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
+
+Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join an textile-EPR scheme [@NewEPRRequirements2024].
+
+In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the *Carbon Disclosure Project* has been a crucial tool to empower ERP in Chinese auto-producers.
+
+-   The success of EPR can vary per type of product. For car tires, the EPR scheme in the Netherlands claims a 100% recovery rate @campbell-johnstonHowCircularYour2020.
+
+One type of legislation that works?
+
+-   [@steenmansFosteringCircularEconomy2023] Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
+
+-   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
+
+-   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
+
+### Return, Repair, Reuse
+
+-   There's a growing number of companies providing re-use of existing items.
+-   @SmartSwap For example, Swap furniture in Estonia
+
+Bring back your bottle and cup after use.
+
+-   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
+-   @formentiniDesignCircularDisassembly2023
+-   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
+-   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
+-   @zeynepfalayvonflittnerFalayTransitionDesign
+
+Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
+
+-   @ChallengesOpportunitiesSustainable2022
+-   @ProteinBrandsConsumers2022
+-   @DetailrichSustainablePackaging2010
+-   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
+-   @SulapacReplacingPlastic
+
+### Avoiding the Worst Future Scenarios
+
+*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios.
+
+In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
+
+*Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
+
+user experience, iteration [@googledesignDesignSpeculativeFutures2019]
+
+### **Quality of Life**
+
+Wellbeing Economy Governments is an Example of Country-level Collaboration
+
+-   Finland, Iceland, New Zealand, Scotland, Wales, Canada [@fioramontiWellbeingEconomyEffective2022].
+-   @kaklauskasSynergyClimateChange2023
+-   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
+-   @fabrisCLIMATECHANGEQUALITY2022
 
 I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services.
 
-Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
+Design *is* political.
 
 -   @paterPoliticsDesignNot2021
 -   10 countries use almost 100% renewable energy
 
-There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits:
+There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits.
 
--   @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment in Bangladesh.
+-   In Bangladesh, @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment.
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
 -   Montreal protocol eradicates CfCs and the ozone holes became whole again.
 
-***Mitigating*** **Climate Change**
-
-The monumental task of removing several gigatons of CO~2~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
-
-Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~ concentrations in the air can cause more turbulence for flights.
+***Mitigating*** and ***Adapting to*** **Climate Change**
 
 ***Adapting*** **to Climate Change**
 
 Many companies are developing technologies for mitigation.
-
-In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals already exists across diverse countries. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022].
-
--   The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable].
 
 **Taxes**
 
@@ -102,15 +196,11 @@ In the European Union (EU), a wide range of legislative proposals, targets, orga
 
 Sustainbility Policy context is Shifting Around the World
 
--   "In the context of the EU Plastics Strategy, the European Commission has launched a pledge to increase the use of recycled content to 10 million tons by 2025. To address this, Circularise Plastics Group launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" @circulariseEuPCCircularisePlastics2020
-
 -   "data-exchange protocol with privacy at its heart" @circulariseCirculariseRaisesMillion2020
 
 -   EU AI Law @lomasDealEUAI2024
 
 **Kunming-Montreal Global Biodiversity Framework**
-
--   The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed @ScientistsUrgeEuropean2023 and is facing a backlash @davidpintoBacklashNatureRestoration2023.
 
 -   @MANZARDO2021149507 **(need access!)**
 
@@ -122,10 +212,6 @@ Sustainbility Policy context is Shifting Around the World
 
 -   @VANDOORSSELAER2022189 **(need access!)**
 
-Calculating what's sustainable is hugely complex because decisions may have unforeseen ramifications. For example [@NUEZ2022133252] shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting.
-
--   @ROSSI2022823 shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs.
-
 -   @ARRANZ2022131738 developing circular economy is really complex
 
 -   @CHEBA2022108601
@@ -134,95 +220,19 @@ Calculating what's sustainable is hugely complex because decisions may have unfo
 
 -   @MIYOSHI2022267 takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
 
--   Finding green products and supporting companies making them
-
--   Supporting legislative changes
-
--   Track you consumption, saving, investing. Shift balance towards saving and investing.
-
 -   @nastaraanvadoodiEcodesignRequirementsDrive2022
 
--   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products
+## Thinking in Systems to Design for Circularity
 
-**Europe From 2023 to 2030**
+*Eco-Design*, *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design -* designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While the European ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
--   EU releases strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire life-cycle of a product or service.
 
-::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
-:::
+Calculating what's sustainable is hugely complex because decisions may have unforeseen ramifications. To take a single example [@NUEZ2022133252] shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting.
 
-```{=mdx}
-<Figure
-  caption="EU Policy Context Timeline'"
-  src={EUPolicy}
-/>
-```
-We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
+Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependence contained within these interactions.
 
-Timeline of the Policy Context:
-
--   In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy.
-
--   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
-
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
-
--   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a ***Digital Product Passport*** which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
-
-**Quality of Life**
-
-Wellbeing Economy Governments is an Example of Country-level Collaboration
-
--   Finland, Iceland, New Zealand, Scotland, Wales, Canada [@fioramontiWellbeingEconomyEffective2022].
--   @kaklauskasSynergyClimateChange2023
--   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
--   @fabrisCLIMATECHANGEQUALITY2022
-
-## Design with Open Data
-
-Open data is needed for civic engagement. Sharing vs Privacy is a political question. Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial yet this has potentially privacy issues.
-
-Open Data Enables Collaboration. Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021].
-
-Enhance interoperability @WhatOpenData
-
-Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
-
-```{python}
-open_data_index()
-```
-
-Other indexes do not include Taiwan in the TOP 10.
-
-```{python}
-open_data_compare()
-```
-
-Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
-
-| Country  | Project                    | Reference           |
-|----------|----------------------------|---------------------|
-| Sweden   | Swedish open data portal   | @SverigesDataportal |
-| Malaysia | Malaysian open data portal | data.gov.my         |
-| Estonia  |                            |                     |
-
-: Examples of cities and countries that share data openly.
-
--   When will Bolt show CO~2~ emissions per every trip?
--   Sustainable finance data platform:
-
-For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024].
-
-```{python}
-malaysia_forests()
-```
-
-## Design for Sustainability: Diversity of Approaches
-
-*Designing for Sustainability* *(DfS)* has been called with many names, with subtle differences of emphasis and nuance. While the ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss and use *Circular Design*, *Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design*, and many others.
-
-In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire lifecycle of a product or service. Sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependencies contained within. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
+@ROSSI2022823 shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs.
 
 R. Buckminster Fuller "Operating Manual for Spaceship Earth", Victor Papanek "Design for the Real World", Jonathan Chapman "Emotionally Durable Design", Carlo Vezzoli "Product-Service System Design for Sustainability", Ezio Manzini "Design, When Everybody Designs".
 
@@ -272,19 +282,237 @@ Here I will use the lens of *sustainability* - another complex term - to look at
 
 than traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible.
 
-### Future Scenarios: Avoiding the Worst Cases
+*Multispecies Design* refers to the idea of considering non-human life-forms as stakeholders of our design. [@metcalfeMULTISPECIESDESIGN2015]'s PhD Disseration titled *"The devastating effects that unsustainable design practices have on the natural world and other species with whom we share this planet"* gives a good overview of the work done is this branch of design.
 
-In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
+-   @kosovaBioGeoEcotileImproving2023; @selvanMultispeciesBuildingEnvelopes2023; @hernandez-santinIntegratingBiodiversityNonhuman2023
+-   gallery @marcusMultispeciesMaterialitiesCohabitation2023
+-   Participatory design and multi-species design @haldrupDesigningMultispeciesCommons2022
+-   @theuniversityofmelbourneaustraliaMultispeciesCohabitationFuture2020
 
-*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios.
+### Re-Designing Industries: Fast-Moving Consumer Goods, Clothes, and Food
 
-*Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
+As of 2025, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reported in 2022 only 8.6% of world economy was circular and *100B tonnes of virgin materials* was sourced every year.
 
-user experience, iteration [@googledesignDesignSpeculativeFutures2019]
+We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
 
-### In Practice Sustainability Begins in Software
+Food and clothes (I'm omitting housing and transport here) are part of the immediate environmental impact of college students.
 
-Designing user interfaces for sustainable interactions means incorporating data and toolsets to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
+-   5th industrial revolution, advanced robotics
+-   6th industrial revolution, quantum computing, nanotechnology @chourasiaSustainabilityIndustryGlobal2022
+-   7th industrial revolution futurists are looking at current trends and building scenarios for 2050 envisioning a world where the convergence of bio-based and mineral-based technologies, widespread sustainability and energy-abundance [@ruizestradaSeventhIndustrialRevolution2024].
+
+...for Provenance and Traceability
+
+Companies like Qima provide inspection and certification services @qimaGlobalSupplyChain2024
+
+Student Essentials: Clothes, Food, Fast-Moving Consumer Goods (FMCG)
+
+Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global congloremates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024].
+
+```{python}
+fast_consumer_goods()
+```
+
+Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
+
+Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
+
+"26 million tons of clothing end up in China’s landfills each year, propelled by fast fashion" [@tianmacleodjiFastFashionDominates2024].
+
+Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion. @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index. [@wikirateSharingDataCreating2022]: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism". Consumer understanding of sustainability is limited. @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
+
+2.4 Trillion USD fashion industry contributing 2%-8% of total global GHG emissions, 100B USD lost to lack of recycling, contributes 9% of microplastics [@adamkiewiczGreenwashingSustainableFashion2022]. [@centobelliSlowingFastFashion2022] Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste. @kohlerCircularEconomyPerspectives2021 Globally 87% of textile products are burned or landfilled after 1st consumer use.
+
+Towards Sustainable Clothes
+
+-   There are local policy initiatives aiming to tackle the waste problem. For example the New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets [@emilychanWill2022Be2022] .
+
+-   [@leungGreenDesign2021] There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design. Industry collaboration can raise the bar for everyone, such as the Better Cotton Initiative [@bettercottonBetterCottonAnnual2023].
+
+-   Story of Patagonia [@chouinardLetMyPeople2005]\].
+
+Sustainable Fashion, Textile Design
+
+-   There are signs of young Chinese consumers valuing experiences over possessions [@jiangHowHaveCovid2023].
+
+Across industries, reports are saying there isn't enough transparency.
+
+-   [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
+
+-   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets carbon footprint?
+
+-   @gyabaahCharacterizationDumpsiteWaste2023 research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
+
+-   @imperfectidealistSustainableGreenwashingHow2020 Fashion sustainability vs greenwashing
+
+-   @TransparencySustainabilityPlatform2023 Ethical Shopping
+
+-   @SheepIncSoftcore2023 Ethical brand?
+
+-   @goodonyouGoodYouSustainable2023 Sustainable fashion company evaluations
+
+-   @LilyMindfulActive Garment Worker's rights
+
+-   @emilychanWillFashionIndustry2022: fashion companies can't be held accountable for their actions (or indeed, their lack of action).
+
+-   @InstantGratificationCollective2022: "Political consumerism", "Instant Gratification for Collective Awareness and Sustainable Consumerism"
+
+-   @fashioncheckerFashionCheckerWagesTransparency2023
+
+-   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
+
+-   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
+
+-   @CleanClothesCampaign
+
+-   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
+
+-   @TextileGenesis
+
+-   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
+
+-   @stand.earthStandEarthPeople2023
+
+-   @NewStandardInstitute
+
+-   @BGMEAHome Bangladesh Garment Manufacturers and Exporters Association
+
+-   Minimize shopping, buy quality, save CO~2~, invest.
+
+-   @textileexchangeTextileExchange2023 Ethical fashion materials matter
+
+-   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
+
+-   Free clothes
+
+-   @vanishukGENERATIONREWEARFull2021 "Generation rewear" documentary, sustainable fashion brands
+
+-   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020: Zalando says Fast fashion must disappear
+
+-   @infinitedfiberInfinitedFiber2023
+
+-   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
+
+-   @SOJODoortodoorClothing2023 Alterations and repairs made easy
+
+-   @GoodYouSustainable2023 Ethical brand ratings
+
+Re-designing industrial food systems for an increasing global population is a challenge. Supply chain innovation in food industries may enable more transparency. **provenance and traceability of food has implications for sustainability and health.**
+
+Global warming leading to droughts and extreme weather, wars and conflicts increased volatility in food prices [@eshenelsonHeatWarTrade2023].
+
+"The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" [@nabipourafrouziComprehensiveReviewCarbon2023]. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
+
+*Farm to Fork* is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system. @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally.
+
+-   Farm to Fork @financialtimesSustainabilityIdeasThat2022
+
+-   Fake honey, DNA-analysis to find real honey, synthetic honey can pass laboratorty tests [@errEstonianBeekeepersMaintain2023]
+
+-   China is the largest honey producer.
+
+-   Food fraud
+
+@SustainabilityIntelligenceFood
+
+@OpenFoodFacts app for nutrition and sustainability data
+
+**Fishing**
+
+-   75% of fishing is done using industrial Trawling, which has environmental impact
+
+-   @baileyMappingActorsArguments2020 shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable? Mostly this means fish-farming
+
+-   Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures [@kimEconomicImpactsEuropean2024]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
+
+-   The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
+
+-   **Perennial Crops,** Multi-year crops reduce inputs of gasoline, labor, etc. [@aubreystreitkrugPathwaysPerennialFood2023]. Large agritech companies like Monsanto rely on selling seeds annually for profits putting them at odds with **Perennial crops**. Single-year seeds have led to farmer suicides when crops fail in poor communities.
+
+-   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation
+
+-   Global Reporting Iniative
+
+-   @RealityLabsResearch2022
+
+-   @RealTimeESG2021 "Real Time ESG Tracking From StockSnips"
+
+-   @watersEthicsChoiceAnimal2015 **(Need access!)**
+
+-   @cawthornControversialCuisineGlobal2016 **(Need access! ncku doesn't subsribe)**
+
+-   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
+
+-   @neethirajanDigitalLivestockFarming2021 using biometric sensors to track livestock sustainability.
+
+-   @incGlanceAlexandriaRealTime
+
+-   @timnicolleFintechLendingWhose2017
+
+-   EAT-Lancet diet
+
+**Culture, Community, Cuisine, Storytelling**
+
+Culture can be a proponent of sustainability. Food is about enticing human imagination and taste buds. Potato used to be a newcomer and innovative crop in Europe, and now it's so common, Europeans forget it's no originally from Europe. Food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop [@aubreystreitkrugPathwaysPerennialFood2023].
+
+-   @tsingMushroomEndWorld2015 mushrooms
+-   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[ADD CITATION\].
+-   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+-   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+
+**Food Waste**
+
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
+
+Olio, Too Good To Go
+
+::: {.content-hidden unless-format="pdf"}
+![ResQ Club saves food waste by selling left-over foods cheaply](./images/design/resq-club.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
+```
+| Name |   |
+|--------------------------|----------------------------------------------|
+| Karma |  |
+| ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
+| Kuri | @hajejankampsKuriAppThat2022 Less impact of food |
+| Social media groups (no app) |  |
+
+: Food saving apps
+
+-   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
+
+| Perspective | Content |
+|--------------------------|----------------------------------------------|
+| *"The diagnostic perspective"* | "*All hands on deck to fix the climate"* |
+| *"The regenerative perspective"* | "*Diversity, soil health and organic agriculture to the rescue"* |
+| *"The fossil-free perspective"* | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
+| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
+| "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
+
+: Perspective on food systems in Sweden.
+
+-   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
+
+-   @kommendaWouldCarbonFood2022 Carbon Food Labels
+
+-   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
+
+-   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
+
+-   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
+
+-   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
+
+-   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
+
+-   Only make what is ordered.
+
+## In Practice Sustainability Begins in Software
+
+Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
 Design encompasses most everything in our daily lives. Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
@@ -298,17 +526,21 @@ Data is the *interface* between idle resources and retail demand, which makes *e
 
 [@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *Digital Sustainability.*
 
-Notice: The chart is purely illustrative to highlight the value of AI for sustainablity; it's not based on numeric metrics.
+Notice: The chart is purely illustrative to highlight the value of AI for sustainability; it's not based on numeric metrics.
 
 ```{python}
 sustainability_ai_six_dimensions()
 ```
 
-## Data-Driven Design: Learning from the Growth of Digital Platforms and Superapps
+### Data-Driven Design
+
+Learning from the Growth of Digital Platforms and Superapps.
+
+Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
 Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. Superapps are the latter stage of the Digital Platform Economy, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services.
 
-For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing onboarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
 -   Hypothesis and validation for iterating on features.
 
@@ -330,24 +562,157 @@ There are many approaches to design - from playful to practical to critical and 
 
 *Scale,* Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) at the scale of hundreds of billions of users.
 
-Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: Personal Information, Consumption Patterns, Payment Information, and Financial services. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
+### Circular Design
 
--   Inspiration from WeChat. Twitter (now X) is becoming a financial app. X (formerly Twitter) is becoming a superapp?
+Circular design is only possible if supply chains become circular as well.
 
--   Uber is creating an all-purpose platform; only 4.1% of rides were electric [@levyUberCEOSays2023].
+It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data.
 
-How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
+The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic and resulting blockages in resource delivery highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021].
 
-| Platform Economy Enablers | Pros | Cons |
-|---------------|-------------------------|--------------------------------|
-| Network effects | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
-| Scalability |  |  |
-| Data-driven Design |  |  |
-| Behaviour Design |  |  |
+Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
 
--   *Platform Economy* marketplace companies like Airbnb, Uber among many others match optimize how our cities work.Superapps are prevalent in China and South-East Asia. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. China is the home of many superapps and [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to other markets. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
+There are several technologies for tracking goods across the supply chain, from shipping to client delivery. Data entry is a combination of manual data input and automated record-keeping facilitated by sensors and integrated internet of things (IoT) capabilities. For example [@ashrafPrototypeSupplyChain2023] describes using the Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability where Sigfox does not need direct access to internet but can send low powered messages across long distances (for example shipping containers on the ocean). [@vanwassenaerTokenizingCircularityAgrifood2023] compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain in agricultural products.
 
--   Platform economy companies have been criticized for their lack of workers rights (ESG). [@RidersSmogPollution2024] uses portable air pollution tracking devices to documents how gig workers are subjected to pollution.
+-   Several startups are using to track source material arriving to the factories and product movements from factories to markets.
+
+-   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact Japanese factory?)
+
+| Company | Link | Literature | Comments |
+|------------------|------------------|-------------------|------------------|
+| Ocean Protocol | oceanprotocol.com |  |  |
+| Provenance | provenance.io |  |  |
+| Ambrosius | ambrosus.io |  |  |
+| Modum | modum.io |  |  |
+| OriginTrail | origintrail.io |  |  |
+| Everledger | everledger.io |  |  |
+| VeChain | vechain.org |  |  |
+| Wabi | wabi.io |  |  |
+| FairFood | fairfood.org |  |  |
+| Bext360 | bext360.com |  |  |
+| SUKU | suku.world | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
+
+: Blockchain supply chain companies as of summer 2023 include.
+
+-   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
+-   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
+-   Embodied Carbon
+    -   "embodied carbon"
+    -   Carbon Neutral Cities Alliance
+    -   @buildersforclimateactionMakingRealZero2021
+
+Circular Design for a Circular Economy
+
+Encouraging Sustainable Design and Reducing Waste.
+
+[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
+-   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
+
+-   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
+
+-   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
+
+also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+
+...for Sustainable Products
+
+How can design enable/help/encourage sustainability?
+
+-   Use imagination
+
+-   Societal movements change things: implication for design: build a community
+
+-   Growing public understanding of how nature works and intersects with our use of money.
+
+-   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
+
+-   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
+
+-   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
+
+-   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
+
+-   EIT RawMaterials
+
+Sustainable Supply Chain
+
+### **Tracking Transport Supply Chains**
+
+Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
+
+| Type of Transport           | Percentage |
+|-----------------------------|------------|
+| Passenger cars              | 39%        |
+| **Medium and heavy trucks** | 23%        |
+| **Shipping**                | 11%        |
+| **Aviation**                | 9%         |
+| Buses and minibuses         | 7%         |
+| Light commercial vehicles   | 5%         |
+| Two/three-wheelers          | 3%         |
+| Rail                        | 3%         |
+
+: Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
+
+-   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
+
+-   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
+
+-   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+
+### **Tracking Ethics & Cruelty**
+
+Can data transparency provide tools for reducing cruelty.
+
+-   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be"free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims."
+
+-   Cruelty free brands
+
+-   BCorp
+
+-   ESG
+
+-   Trash found in ocean / nature etc
+
+-   Increase your investment point by matching with your contribution /.
+
+-   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this?
+
+-   Precision Fermentation and Cultivated Meat: Meat products without farm animals
+
+### **Tracking Factories Can Become Transparent**
+
+-   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study [@devlinRegionalSupplyChains2022].
+
+-   Transparency about the polluting factories where the products come from.. the product journey
+
+-   virtual factories
+
+-   Tracing emissions from factory pipes... what's the app?
+
+-   Factories should be local and make products that can be repaired.
+
+-   Carbon-neutral factories "made in carbon-neutral factory" list of products
+
+-   @stefanklebertCarbonneutralManufacturingPossible2022
+
+-   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
+
+-   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
+
+-   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
+
+-   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
+
+-   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
+
+-   @FFCFairFactories Factory compliance - Fair Factories
+
+-   Planet Factory
+
+-   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
+
+## Superapps for Sustainability
 
 Could there be Sustainability Superapps?
 
@@ -357,88 +722,82 @@ Could there be Sustainability Superapps?
 
 -   Adaptive AI
 
-### Behavioral Design
+Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and India leading the way.[@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
-For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
+Got it. I’ll look up the most recent, credible sources for user figures (active, registered, MAU, MTU, etc.) for each of the listed superapps, using official company disclosures, earnings reports, press releases, or other reputable sources. I’ll report back with verified numbers and links where available.
 
-The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n=200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
+Got it. I’ll look up the most recent, credible sources for user figures (active, registered, MAU, MTU, etc.) for each of the listed superapps, using official company disclosures, earnings reports, press releases, or other reputable sources. I’ll report back with verified numbers and links where available.
 
-Google uses nudges in Google Flights and Google Maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products [@sundarpichaiGivingYouMore2021]. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by [@implementconsultinggroupHowDigitalSector2022] as *"Maximising the enabling role of digital technologies by accelerating already available digital solutions"*.
+# Superapp User Metrics (Most Recent Figures)
 
-In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
+| **Superapp** | **Metric** | **Users (Billions)** | **Date** | **Source** |
+|---------------|---------------|------------|------------|---------------|
+| **Alipay (Ant Group)** | Annual Active Users (AAU) | 1.3 | 2020 | @geUpdateAlibabasAnt2020 |
+| **Weixin/WeChat (Tencent)** | Monthly Active Users (MAU) – Combined Weixin & WeChat | 1,385 | 2024 | @tecentTecentHoldings20242024 |
+| **Meituan** | Annual Transacting Users (ATU) | 0,77 | 2024 |  |
+| **PhonePe** | Registered Users (Lifetime) | 0.5 | 2023 |  |
+| **LINE** | Monthly Active Users (MAU) | 0,2 | 2023 |  |
+| **Tata Neu** | NeuPass Loyalty Members | 0,027 | 2023 |  |
+| **Nubank** | Customers | 0,114 | 2024 |  |
+| **Zalo** | Monthly Active Users (MAU) | 0,075 | 2023 |  |
+| **Paytm** | Monthly Transacting Users (MTU) | 0,1 | 2023 |  |
+| **M-Pesa** | Active Customers (Kenya) | 0,034 | 2024 |  |
+| **Mercado Pago** | Monthly Active Users (MAU) | 0,061 | 2023 |  |
+| **PicPay** | Active Customers | 0,035 | 2023 |  |
+| **Cash App (Block)** | Monthly Active Users (MAU) | 0,056 | 2023 |  |
+| **KakaoTalk** | Monthly Active Users (MAU) | 0,054 | 2024 |  |
+| **GoTo (Gojek/Tokopedia)** | Annual Transacting Users (ATU) | 0,05 | 2023 |  |
+| **Revolut** | Customers | 0,05 | 2024 |  |
+| **Careem** | Registered Customers | 0,07 | 2024 |  |
+| **Grab** | Monthly Transacting Users (MTU) | 0,038 | 2024 |  |
+| **Rappi** | Users (Total) | 0,03 | 2023 |  |
 
-Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
+Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest credible data as of 2023–2024.
 
-Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping @GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025
+Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest credible data as of 2023–2024.
 
-While Google has launched several climate-focused initiatives, it missed its CO2 reduction targets due to growing need for AI models @worthingtonGooglesClimateTightrope2025
+:   Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity.
 
-@justinecalmaGoogleLaunchesNew2021 Google UX eco features.
+Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
 
-@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+Kakao Pay was found guilty of mishandling 40 million users' data by handing it over to Alipay without user consent; Alipay owns a 32 percent stake in Kakao Pay [@leeKakaoPayHanded2024].
 
-+-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
-| Feature                                                                                       | Product        | Nudge                                                                                      |
-+===============================================================================================+================+============================================================================================+
-| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps    | Show routes with lower CO~2~ emissions; reduce stopping by using data from traffic lights. |
-+-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
-| Google Flights suggests flights with lower CO~2~ emissions                                    | Google Flights | Show flights with lower CO~2~ emissions                                                    |
-+-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
-| Wizzair Check carbon impact @OffsetYourFlight                                                 | WizzAir        | Offset on Checkout                                                                         |
-+-----------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------+
+59 million people use Zhixiaobao, an Al financial assistant inside the Ant Fortune and Ant Insurance mini-apps inside Alipay [@finextraAntGroupsSmart2024].
 
-: Examples of CO~2~ visibility in Google's products.
+Antpay has build the digital infrastructure to provide thousands of services to billions of users
 
-::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
-:::
+Superapps offer a platform with key infrastructure such as payments, where miniapps thrive @perriWhatSuperapp2022; @heathRiseSuperApp2021
 
-```{=mdx}
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
-```
-Some notable examples:
+### Aspiring Superapps
 
--   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
--   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
--   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
+There are many companies which aspire to build superapps but are hindered by various challenges.
 
-| Name | Technique |
-|----------------|--------------------------------------------------------|
-| Prompting | Create cues and reminders to perform a certain behavior |
-| Sizing | Decrease or increase the size of items or portions |
-| Proximity | Change the physical (or temporal) distance of options |
-| Presentation | Change the way items are displayed |
-| Priming | Expose users to certain stimuli before decision-making |
-| Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
-| Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
+Telegram integrates web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. @pylarinouTelegramsJourneyWeb32024
 
-: Types of nudge by @WEE2021100364
+LINE is integrating web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions @hintzyLINEsEvolutionSuper2025
 
-Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
+[@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to other markets.
 
-| Year | Users       | Trees       | Area                                 |
-|------|-------------|-------------|--------------------------------------|
-| 2016 | ?           | 0           |                                      |
-| 2017 | 230 million | 10 million  |                                      |
-| 2018 | 350 million | 55 million  | 6500 acres??                         |
-| 2019 | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
-| 2020 | 550 million | 200 million | 2,7 million acres?                   |
-| 2021 | 600 million | 326 million |                                      |
-| 2022 | 650 million | 400 million | 2 million hectares                   |
-|      |             |             |                                      |
-|      |             |             |                                      |
+-   Inspiration from WeChat. X (previously known as Twitter) is becoming a financial app. X (formerly Twitter) is becoming a superapp?
 
-: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
+-   Uber is creating an all-purpose platform; only 4.1% of rides were electric [@levyUberCEOSays2023].
 
-```{python}
-ant_forest()
-```
+How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
 
-## Personalizing: Sustainability at Scale
+| Platform Economy Enablers | Pros | Cons |
+|-------------------|------------------------|-----------------------------|
+| Network effects | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
+| Scalability |  |  |
+| Data-driven Design |  |  |
+| Behaviour Design |  |  |
+
+-   *Platform Economy* marketplace companies like Airbnb, Uber among many others match optimize how our cities work.
+
+-   Platform economy companies have been criticized for their lack of workers rights (ESG). [@RidersSmogPollution2024] uses portable air pollution tracking devices to documents how gig workers are subjected to pollution.
+
+### Personalization
 
 -   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
-
-Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
 Data-driven design has limitations.
 
@@ -479,15 +838,123 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Writing as training data? large language models. GTP3.
 
-## Multispecies Design
+### Open Data
 
--   @kosovaBioGeoEcotileImproving2023; @selvanMultispeciesBuildingEnvelopes2023; @hernandez-santinIntegratingBiodiversityNonhuman2023
--   gallery @marcusMultispeciesMaterialitiesCohabitation2023
--   PhD Disseration: "The devastating effects that unsustainable design practices have on the natural world and other species with whom we share this planet" @metcalfeMULTISPECIESDESIGN2015
--   Participatory design and multispecies design @haldrupDesigningMultispeciesCommons2022
--   @theuniversityofmelbourneaustraliaMultispeciesCohabitationFuture2020
+Open data is needed for civic engagement. Sharing vs privacy is a political question. Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues.
 
-## Personalized Design: Self-Monitoring
+Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
+
+Open Data Enables Collaboration. Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021].
+
+Enhance interoperability @WhatOpenData
+
+Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+
+```{python}
+open_data_index()
+```
+
+Other indexes do not include Taiwan in the TOP 10.
+
+```{python}
+open_data_compare()
+```
+
+Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
+
+| Country  | Project                    | Reference           |
+|----------|----------------------------|---------------------|
+| Sweden   | Swedish open data portal   | @SverigesDataportal |
+| Malaysia | Malaysian open data portal | data.gov.my         |
+| Estonia  |                            |                     |
+
+: Examples of cities and countries that share data openly.
+
+-   When will Bolt show CO~2~ emissions per every trip?
+-   Sustainable finance data platform:
+
+For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024].
+
+```{python}
+malaysia_forests()
+```
+
+## Behavioral Design: Nudge + Sustainability
+
+For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
+
+The principles of nudge have also been applied to sustainability. For example, a small study (n=33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n=200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
+
+Google uses nudges in Google Flights and Google Maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products [@sundarpichaiGivingYouMore2021]. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by [@implementconsultinggroupHowDigitalSector2022] as *"Maximising the enabling role of digital technologies by accelerating already available digital solutions"*.
+
+In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
+
+Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
+
+Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping @GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025
+
+While Google has launched several climate-focused initiatives, it missed its CO2 reduction targets due to growing need for AI models @worthingtonGooglesClimateTightrope2025
+
+@justinecalmaGoogleLaunchesNew2021 Google UX eco features.
+
+@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+
+| Feature | Product | Nudge |
+|---------------------------|-------------------|---------------------------|
+| Google Maps AI suggests more eco-friendly driving routes @mohitmoondraNavigateMoreSustainably | Google Maps | Show routes with lower CO~2~ emissions; reduce stopping by using data from traffic lights. |
+| Google Flights suggests flights with lower CO~2~ emissions | Google Flights | Show flights with lower CO~2~ emissions |
+| Wizzair Check carbon impact @OffsetYourFlight | WizzAir | Offset on Checkout |
+
+: Examples of CO~2~ visibility in Google's products.
+
+::: {.content-hidden unless-format="pdf"}
+![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
+```
+Some notable examples:
+
+-   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
+-   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
+-   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
+
+| Name | Technique |
+|--------------------------|----------------------------------------------|
+| Prompting | Create cues and reminders to perform a certain behavior |
+| Sizing | Decrease or increase the size of items or portions |
+| Proximity | Change the physical (or temporal) distance of options |
+| Presentation | Change the way items are displayed |
+| Priming | Expose users to certain stimuli before decision-making |
+| Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
+| Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
+
+: Types of nudge by @WEE2021100364
+
+Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
+
+| Year | Users       | Trees       | Area                                 |
+|------|-------------|-------------|--------------------------------------|
+| 2016 | ?           | 0           |                                      |
+| 2017 | 230 million | 10 million  |                                      |
+| 2018 | 350 million | 55 million  | 6500 acres??                         |
+| 2019 | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
+| 2020 | 550 million | 200 million | 2,7 million acres?                   |
+| 2021 | 600 million | 326 million |                                      |
+| 2022 | 650 million | 400 million | 2 million hectares                   |
+|      |             |             |                                      |
+|      |             |             |                                      |
+
+: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
+
+```{python}
+ant_forest()
+```
+
+## Quantified Self: Health and Lifestyle Tracking
+
+Personalized Design: Self-Monitoring
 
 Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
 
@@ -573,11 +1040,9 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 air_chart()
 ```
 
-### Towards Tracking Sustainability: Carbon Tracking
+### Carbon Tracking
 
 The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
-
--   
 
 Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
 
@@ -592,7 +1057,7 @@ Personal Carbon Trackers
 Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
 | App | Description |
-|-----------------------|-------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Commons (Formerly Joro) | Finacial Sustainability Tracking + Sustainable Actions |
 | Klima | Offset Subscription |
 | Wren | Offset Subscription |
@@ -607,427 +1072,9 @@ Personal carbon footprint calculators have been released online, ranging from th
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
-## Re-Designing Industries: Circularity
+## Superapps + Digital Product Passports
 
-As of 2024, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reports only 8.6% of world economy is circular and *100B tonnes of virgin materials* are sourced every year.
-
-We're in an industrial revolution. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
-
-Food and clothes (I'm omitting housing and transport here) are part of the immediate environmental impact of college students.
-
--   5th industrial revolution, advanced robotics
--   6th industrial revolution, quantum computing, nanotechnology @chourasiaSustainabilityIndustryGlobal2022
--   7th industrial revolution futurists are looking at current trends and building scenarios for 2050 envisioning a world where the convergence of bio-based and mineral-based technologies, widespread sustainability and energy-abundance [@ruizestradaSeventhIndustrialRevolution2024].
-
-...for Provenance and Traceability
-
-Companies like Qima provide inspection and certification services @qimaGlobalSupplyChain2024
-
-### Circular Design for a Circular Economy
-
-Encouraging Sustainable Design and Reducing Waste.
-
-[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
-
--   @mcdonoughCradleCradleRemaking2002 from Cradle to Grave book was released over 2 decades ago, change is slow.
-
--   @mcgintyHowBuildCircular2020: How to Build a Circular Economy
-
--   @dullCircularSupplyChain2021 book, many current technological hurdles can be overcome by supply chain professionals who are experts in connecting supply streams.
-
-also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
-
-...for Sustainable Products
-
-How can design enable/help/encourage sustainability?
-
--   Use imagination
-
--   Societal movements change things: implication for design: build a community
-
--   Growing public understanding of how nature works and intersects with our use of money.
-
--   @hedbergCircularEconomyRole2021 argues digitization and data sharing is a requirement for building a circular economy.
-
--   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
-
--   Supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007].
-
--   Recycling Critical Raw Materials, digitization of mining allows enhance the reliability of supply chains [@crmallianceEITRawMaterials2020].
-
--   EIT RawMaterials
-
-
-### Student Essentials: Clothes, Food, Fast-Moving Consumer Goods (FMCG)
-
-Sustainable Supply Chain
-
-### Case: Fast-Moving Consumer Goods (FMCG)
-
-Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global congloremates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024].
-
-```{python}
-fast_consumer_goods()
-```
-
-Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
-
-### Case: Fashion
-
-Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. [@millward-hopkinsMaterialFlowAnalysis2023] shows how 50% of the textile waste in the UK is exported to other countries.
-
-"26 million tons of clothing end up in China’s landfills each year, propelled by fast fashion" [@tianmacleodjiFastFashionDominates2024].
-
-Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStillDon2022 report says there's not enough transparency in fashion. @fashionrevolutionfoundationFASHIONTRANSPARENCYINDEX2022 Fashion transparency index. [@wikirateSharingDataCreating2022]: "Among the Index's main goals are to help different stakeholders to better understand what data and information is being disclosed by the world's largest fashion brands and retailers, raise public awareness, educate citizens about the social and environmental challenges facing the global fashion industry and support people's activism". Consumer understanding of sustainability is limited. @mabuzaNaturalSyntheticDyes2023 shows consumer knowledge of apparel coloration is very limited.
-
-2.4 Trillion USD fashion industry contributing 2%-8% of total global GHG emissions, 100B USD lost to lack of recycling, contributes 9% of microplastics [@adamkiewiczGreenwashingSustainableFashion2022]. [@centobelliSlowingFastFashion2022] Fashion industry year uses 9B cubic meters of water, 1.7B tonnes of CO~2~, 92 million tonnes of textile waste. @kohlerCircularEconomyPerspectives2021 Globally 87% of textile products are burned or landfilled after 1st consumer use.
-
-Towards Sustainable Clothes
-
--   There are local policy initiatives aiming to tackle the waste problem. For example the New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets [@emilychanWill2022Be2022] .
-
--   [@leungGreenDesign2021] There's a growing know-how on how to produce sustainably and which materials to use. "Handbook of Footwear Design and Manufacture" Chapter 18 - Green design. Industry collaboration can raise the bar for everyone, such as the Better Cotton Initiative [@bettercottonBetterCottonAnnual2023].
-
--   Story of Patagonia [@chouinardLetMyPeople2005]\].
-
-Sustainable Fashion, Textile Design
-
--   There are signs of young Chinese consumers valuing experiences over possessions [@jiangHowHaveCovid2023].
-
-Across industries, reports are saying there isn't enough transparency.
-
--   [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] GHG emission inventory by sector
-
--   @marrucciImprovingCarbonFootprint2020 Italian retail supermarkets carbon footprint?
-
--   @gyabaahCharacterizationDumpsiteWaste2023 research across several dumpsites across Ghana revealed up to 12% of the landfill consisted of textile waste.
-
--   @imperfectidealistSustainableGreenwashingHow2020 Fashion sustainability vs greenwashing
-
--   @TransparencySustainabilityPlatform2023 Ethical Shopping
-
--   @SheepIncSoftcore2023 Ethical brand?
-
--   @goodonyouGoodYouSustainable2023 Sustainable fashion company evaluations
-
--   @LilyMindfulActive Garment Worker's rights
-
--   @emilychanWillFashionIndustry2022: fashion companies can't be held accountable for their actions (or indeed, their lack of action).
-
--   @InstantGratificationCollective2022: "Political consumerism", "Instant Gratification for Collective Awareness and Sustainable Consumerism"
-
--   @fashioncheckerFashionCheckerWagesTransparency2023
-
--   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
-
--   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
-
--   @CleanClothesCampaign
-
--   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
-
--   @TextileGenesis
-
--   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
-
--   @stand.earthStandEarthPeople2023
-
--   @NewStandardInstitute
-
--   @BGMEAHome Bangladesh Garment Manufacturers and Exporters Association
-
--   Minimize shopping, buy quality, save CO~2~, invest.
-
--   @textileexchangeTextileExchange2023 Ethical fashion materials matter
-
--   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
-
--   Free clothes
-
--   @vanishukGENERATIONREWEARFull2021 "Generation rewear" documentary, sustainable fashion brands
-
--   @storbeckFastFashionMust2021 and @remingtonZalandoZignLabel2020: Zalando says Fast fashion must disappear
-
--   @infinitedfiberInfinitedFiber2023
-
--   @cleantechgroupGlobalCleantech1002023 Global cleantech 100
-
--   @SOJODoortodoorClothing2023 Alterations and repairs made easy
-
--   @GoodYouSustainable2023 Ethical brand ratings
-
-### Case: Food
-
-Re-designing industrial food systems for an increasing global population is a challenge. Supply chain innovation in food industries may enable more transparency. **provenance and traceability of food has implications for sustainability and health.**
-
-Global warming leading to droughts and extreme weather, wars and conflicts increased volatility in food prices [@eshenelsonHeatWarTrade2023].
-
-"The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" [@nabipourafrouziComprehensiveReviewCarbon2023]. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
-
-*Farm to Fork* is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system. @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally.
-
--   Farm to Fork @financialtimesSustainabilityIdeasThat2022
-
--   Fake honey, DNA-analysis to find real honey, synthetic honey can pass laboratorty tests [@errEstonianBeekeepersMaintain2023]
-
--   China is the largest honey producer.
-
--   Food fraud
-
-@SustainabilityIntelligenceFood
-
-@OpenFoodFacts app for nutrition and sustainability data
-
-**Fishing**
-
--   75% of fishing is done using industrial Trawling, which has environmental impact
-
--   @baileyMappingActorsArguments2020 shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable? Mostly this means fish-farming
-
--   Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures [@kimEconomicImpactsEuropean2024]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
-
--   The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
-
--   **Perennial Crops,** Multi-year crops reduce inputs of gasoline, labor, etc. [@aubreystreitkrugPathwaysPerennialFood2023]. Large agritech companies like Monsanto rely on selling seeds annually for profits putting them at odds with **Perennial crops**. Single-year seeds have led to farmer suicides when crops fail in poor communities.
-
--   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation
-
--   Global Reporting Iniative
-
--   @RealityLabsResearch2022
-
--   @RealTimeESG2021 "Real Time ESG Tracking From StockSnips"
-
--   @watersEthicsChoiceAnimal2015 **(Need access!)**
-
--   @cawthornControversialCuisineGlobal2016 **(Need access! ncku doesn't subsribe)**
-
--   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
-
--   @neethirajanDigitalLivestockFarming2021 using biometric sensors to track livestock sustainability.
-
--   @incGlanceAlexandriaRealTime
-
--   @timnicolleFintechLendingWhose2017
-
--   EAT-Lancet diet
-
-**Culture, Community, Cuisine, Storytelling**
-
-Culture can be a proponent of sustainability. Food is about enticing human imagination and taste buds. Potato used to be a newcomer and innovative crop in Europe, and now it's so common, Europeans forget it's no originally from Europe. Food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop [@aubreystreitkrugPathwaysPerennialFood2023].
-
-
--   @tsingMushroomEndWorld2015 mushrooms
--   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[ADD CITATION\].
--   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
--   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
-
-**Food Waste**
-
-There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
-
-Olio, Too Good To Go
-
-::: {.content-hidden unless-format="pdf"}
-![ResQ Club saves food waste by selling left-over foods cheaply](./images/design/resq-club.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="ResQ Club saves food waste by selling left-over foods cheaply" src={ResQClub} />
-```
-| Name |   |
-|---------------|---------------------------------------------------------|
-| Karma |  |
-| ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
-| Kuri | @hajejankampsKuriAppThat2022 Less impact of food |
-| Social media groups (no app) |  |
-
-: Food saving apps
-
--   @ROOS2023107623 identified 5 perspectives in a small study (*n=106*) of views on the Swedish food system:
-
-| Perspective | Content |
-|----------------------|--------------------------------------------------|
-| *"The diagnostic perspective"* | "*All hands on deck to fix the climate"* |
-| *"The regenerative perspective"* | "*Diversity, soil health and organic agriculture to the rescue"* |
-| *"The fossil-free perspective"* | "*Profitable Swedish companies to rid agriculture and the food chain of fossil fuel"* |
-| *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
-| "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
-
-: Perspective on food systems in Sweden.
-
--   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
-
--   @kommendaWouldCarbonFood2022 Carbon Food Labels
-
--   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers."
-
--   @caitlinstall-paquetFreshCityRise2021: "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce."
-
--   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
-
--   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
-
--   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
-
--   Only make what is ordered.
-
-### Circular Design
-
-Circular design is only possible if supply chains become circular as well.
-
-It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data.
-
-The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic and resulting blockages in resource delivery highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021].
-
-Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks. There are hundreds of paper researching blockchain use in supply change operations since 2017 [@duttaBlockchainTechnologySupply2020]. Blockchains enable saving immutable records into distributed databases (also known as ledgers). It's not possible to (or extremely difficult) to change the same record, only new records can be added on top of new ones. Blockchains are useful for data sharing and auditing, as the time and place of data input can be guaranteed, and it will be easier to conduct a search on who inputted incorrect data; however the system still relies on correct data input. As the saying goes, *"garbage in, garbage out"*.
-
-There are several technologies for tracking goods across the supply chain, from shipping to client delivery. Data entry is a combination of manual data input and automated record-keeping facilitated by sensors and integrated internet of things (IoT) capabilities. For example [@ashrafPrototypeSupplyChain2023] describes using the Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability where Sigfox does not need direct access to internet but can send low powered messages across long distances (for example shipping containers on the ocean). [@vanwassenaerTokenizingCircularityAgrifood2023] compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain in agricultural products.
-
--   Several startups are using to track source material arriving to the factories and product movements from factories to markets.
-
--   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact Japanese factory?)
-
-| Company | Link | Literature | Comments |
-|--------------|--------------|-----------------------------|----------------|
-| Ocean Protocol | oceanprotocol.com |  |  |
-| Provenance | provenance.io |  |  |
-| Ambrosius | ambrosus.io |  |  |
-| Modum | modum.io |  |  |
-| OriginTrail | origintrail.io |  |  |
-| Everledger | everledger.io |  |  |
-| VeChain | vechain.org |  |  |
-| Wabi | wabi.io |  |  |
-| FairFood | fairfood.org |  |  |
-| Bext360 | bext360.com |  |  |
-| SUKU | suku.world | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
-
-: Blockchain supply chain companies as of summer 2023 include.
-
--   @oikosdenktankWebinarDoughnutEconomics2021 circular material procurement requires new skills. How to reuse old paint? Small projects can have large social impact.
--   For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
--   Embodied Carbon
-    -   "embodied carbon"
-    -   Carbon Neutral Cities Alliance
-    -   @buildersforclimateactionMakingRealZero2021
-
-**Tracking Transport Supply Chains**
-
-Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
-
-| Type of Transport           | Percentage |
-|-----------------------------|------------|
-| Passenger cars              | 39%        |
-| **Medium and heavy trucks** | 23%        |
-| **Shipping**                | 11%        |
-| **Aviation**                | 9%         |
-| Buses and minibuses         | 7%         |
-| Light commercial vehicles   | 5%         |
-| Two/three-wheelers          | 3%         |
-| Rail                        | 3%         |
-
-: Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
-
--   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
-
--   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains.
-
--   The German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
-
-**Ethics & Cruelty**
-
-Can data transparency provide tools for reducing cruelty.
-
--   Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be"free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims."
-
--   Cruelty free brands
-
--   BCorp
-
--   ESG
-
--   Trash found in ocean / nature etc
-
--   Increase your investment point by matching with your contribution /.
-
--   Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this?
-
--   Precision Fermentation and Cultivated Meat: Meat products without farm animals
-
-**Factories Can Become More Transparent**
-
--   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study [@devlinRegionalSupplyChains2022].
-
--   Transparency about the polluting factories where the products come from.. the product journey
-
--   virtual factories
-
--   Tracing emissions from factory pipes... what's the app?
-
--   Factories should be local and make products that can be repaired.
-
--   Carbon-neutral factories "made in carbon-neutral factory" list of products
-
--   @stefanklebertCarbonneutralManufacturingPossible2022
-
--   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
-
--   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
-
--   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
-
--   @ericfoggWhatLightsOut2020 Lights-Out Manufacturing
-
--   @mowbrayWorldFirstFree2018 "World's first free digital map of apparel factories"
-
--   @FFCFairFactories Factory compliance - Fair Factories
-
--   Planet Factory
-
--   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
-
-### Extended Producer Responsibility
-
-Extended Producer Responsibility Enables Companies to be Resposible.
-
-Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] offer many suggestions how designers can help people become more sustainable in their daily lives yet focusing on the end-user neglects the producers' responsibility (termed as Extended Producer Responsibility or ERP) in waste management studies.
-
-Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 \[ADD CITATION\], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join an textile-EPR scheme [@NewEPRRequirements2024].
-
-In any case, strong consumer legislation (such as EPR) has a direct influence on producers' actions. For example, in @hktdcresearchFranceExpandsProducer2022, the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able enter the EU market. @pengExtendedProducerResponsibility2023 finds that the ***Carbon Disclosure Project*** has been a crucial tool to empower ERP in Chinese auto-producers.
-
--   The success of EPR can vary per type of product. For car tires, the EPR scheme in the Netherlands claims a 100% recovery rate @campbell-johnstonHowCircularYour2020.
-
-One type of legislation that works?
-
--   [@steenmansFosteringCircularEconomy2023] Argues for the need to engage companies through legislation and shift from waste-centered laws to product design regulations.
-
--   In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator in 2018 while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery rates (Ibid).
-
--   Greyparrot AI to increase recycling rates [@natashalomasUKAIStartup2024].
-
-Return, Repair, Reuse
-
--   There's a growing number of companies providing re-use of existing items.
--   @SmartSwap For example, Swap furniture in Estonia
-
-Bring back your bottle and cup after use.
-
--   @pastorProposingIntegratedIndicator2023 proposes a **product repairability index (PRI)**
--   @formentiniDesignCircularDisassembly2023
--   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
--   "design is a tool to make complexity comprehensible" like the Helsinki chapel. there's either or a priest or a social worker. it's the perfect public service. "limit the barrier of entry for people to discover". elegant.
--   @zeynepfalayvonflittnerFalayTransitionDesign
-
-Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
-
--   @ChallengesOpportunitiesSustainable2022
--   @ProteinBrandsConsumers2022
--   @DetailrichSustainablePackaging2010
--   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
--   @SulapacReplacingPlastic
-
-### Digital Product Passports
+Towards Tracking Sustainability
 
 Even though this topic belongs under Circular Economy, I've chose to highlight *digital product passports* here as it's the main design implication from this chapter - an emerging technology which needs to be designed for the user.
 
@@ -1074,7 +1121,7 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 -   product's history, composition, and environmental impact.
 
 | Goal | Description |
-|-------------------------------------------------------|----------------|
+|----------------------------------------------|--------------------------|
 | **Sustainable Product Production** |  |
 | **Businesses to create value through Circular Business Models** |  |
 | **Consumers to make more informed purchasing decisions** |  |
@@ -1105,5 +1152,3 @@ Digital product passports are a further development of the idea of carbon labels
 -   What data does a digital product passport hold? @tiandaphneWhatDataGoes2023
 
 -   @gitcoinpassport2023 discusses ow to build an antifragile scoring system (antifragile passport) inspired by Nassim Taleb's popular book that discusses antifragile systems that get better in difficult situations [@talebAntifragileThingsThat2012].
-
--

@@ -28,7 +28,7 @@ app_installs()
 
 What percentage of people uninstalled it?
 
-## Design Implications and Feature Ideas
+## Design Implications and Feature Ideas from Literature Review
 
 ### Finance
 
@@ -83,6 +83,8 @@ Design implications results from the literature review on design.
 ### Design
 
 This chapter has the following design implications. This chapter and design implications spurred the following feature ideas.
+
+-   Several Superapps already contain features for payments (shopping), savings, and investing - yet don't integrate Digital Product Passports to understand the products' journey, including the origin and manufacturing conditions, materials, components, CO~2~ footprint and environmental impact, post-consumer repair, recycling, and end-of-life disposal guidelines.
 
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Category             | Implication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -541,7 +543,27 @@ Easily access data used in this research project (please wait a bit until it loa
 
 <MyEmbed src="https://airtable.com/embed/shr4SJcuhnfPBKLXo?backgroundColor=red" text="Loading Database..." />
 
-## User Survey
+## Design Implications from the User Survey
+
+### Group-Related Features
+
+General theory about Taiwanese society suggests that it's low-context and people need groups to do activities. But my survey about my sustainability app shows that people don't pick the features for joining groups. Joining groups was one of the least interesting choices in the survey.
+
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Factor                                                           | Potential explanation                                                                                                                                                                                                                                                                                                                 |
++==================================================================+=======================================================================================================================================================================================================================================================================================================================================+
+| **Survey framing effect**                                        | Survey respondents may feel the way I framed the survey question for "joining groups" made it sound like an extra commitment they didn't want to make.                                                                                                                                                                                |
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Group fatigue**                                                | Survey respondents may already have too many group obligations to attend to (school, work, family, etc). Joining another new group may feel like a burden, not a benefit.                                                                                                                                                             |
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Fear of awkwardness**                                          | Survey respondents may feel joining strangers in online group is risky, uncomfortable or unnecessary.                                                                                                                                                                                                                                 |
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Desire for personal achievement and changing cultural trends** | Survey respondents may be more motivated by *individual achievement* to personally feel they are making a difference instead of waiting for the group. Possibly they are more individualistic than my expectations in their behavior (particularly in a digital context) and the traditional "group society" stereotype is weakening. |
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Are "group" and "sustainability" concepts related enough?**    | Survey respondents may not clearly understand the benefit for sustainability from their joining a group.                                                                                                                                                                                                                              |
++------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### 
 
 -   Factorial Surveys [@li2022assessing]: "Factorial surveys is a research method that combines classical experiments with survey methodologies. Factorial surveys use short narratives, called vignettes, to represent various levels of independent variables that are too complex or unethical to create and manipulate in real-world or lab situations"
 
