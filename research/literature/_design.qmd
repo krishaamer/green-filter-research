@@ -85,7 +85,7 @@ The 9 qualities of *eco-designed products* include
 eu_green_deal()
 ```
 
-### Legislative Efforts
+### Legislative Efforts Around the World
 
 Europe is not the only region undertaking legislative efforts to promote sustainability. In the US, the *Inflation Reduction Act* provided funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023].
 
@@ -724,10 +724,6 @@ Could there be Sustainability Superapps?
 
 Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and India leading the way.[@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
-Got it. I’ll look up the most recent, credible sources for user figures (active, registered, MAU, MTU, etc.) for each of the listed superapps, using official company disclosures, earnings reports, press releases, or other reputable sources. I’ll report back with verified numbers and links where available.
-
-Got it. I’ll look up the most recent, credible sources for user figures (active, registered, MAU, MTU, etc.) for each of the listed superapps, using official company disclosures, earnings reports, press releases, or other reputable sources. I’ll report back with verified numbers and links where available.
-
 | **Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
 |---------|---------|-------------|------------|--------|---------|----------|---------|-----------|--------------|
 | 微信 **/ WeChat (Tencent)** | China | China | Monthly Active Users (MAU) combined 微信 (China) & WeChat (International) | YES ✅ |  YES ✅ | YES ✅ | 1,4 billion | 2024 | @tecentTecentHoldings20242024 |
@@ -746,20 +742,20 @@ Got it. I’ll look up the most recent, credible sources for user figures (activ
 | **KakaoTalk** | Korea | Korea | Monthly Active Users (MAU) | YES ✅ | YES ✅ | YES ✅ | 48 million | 2024 | @leeKakao2024Revenue2025 |
 | **GoTo (Gojek/Tokopedia)** | Indonesia | Indonesia | Annual Transacting Users (ATU) | YES ✅ | YES ✅ | YES ✅ | 51 million | 2023 | @gotoTransformationProgres2023 |
 | **Revolut** | UK | UK / EU | Customers | YES ✅ | YES ✅ | YES ✅ | 50 million | 2024 | @revolutRevolutHits502024 |
-| Uber | USA | Global | Users | NO ❌ | NO ❌ | NO ❌ | 150 million |  |  |
 | **Careem** | UAE (Aqcuired by US-based Uber and Etisalat but still keeps a separate brand) | United Arab Emirates, Saudi Arabia, Jordan, Iraq, Kuwait, Morocco Bahrain, Pakistan, Egypt, Morocco | Customers | YES ✅ | NO ❌ | NO ❌ | 70 million | 2024 | @careemCareems2024Wrapup2025 |
 | **Grab** | Singapore / Malaysia | SEA | Monthly Transacting Users (MTU) | YES ✅ | YES ✅ | NO ❌ | 41 million | 2024 | @grabholdingslimitedGrabReportsFourth2025 |
 | **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | YES ✅ | YES ✅ | NO ❌ | 30 million | 2023 | @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024 |
 
 Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as
 
-Guido Becher from Rappi defines their super-app as "customer-centric high frequency multi-vertical ecosystem"
-
 | **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
 |---------|---------|-------------|------------|--------|---------|----------|---------|-----------|--------------|
-| Uber | USA | Global | Users | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 171 million | @uberUberAnnouncesResults2025 |  |
+| Uber | USA | Global | Users per month | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 171 million | 2025 | @uberUberAnnouncesResults2025 |
+| Bolt | Estonia | Global | Lifetime users | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 200 million | 2025 | @garciaBoltAcquiresDanish2025 |
 
-Superapps are honeypots of data that is used for many types of behavior modeling. [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments.
+In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination @uberukUberTakesSkies2023
+
+Superapps are honeypots of data that is used for many types of behavior modeling. Guido Becher from Rappi defines their super-app as "customer-centric high frequency multi-vertical ecosystem" this enables cross-promotion, for example a hotel in Argentina targeted people people who buy almond milk on Rappi with their offer of a yoga retreat @phocuswrightSuperConnectedRappi2023 [@suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments, such as the collaboration between Bolt and the city of Seville in Spain \[@boltSevilleModernisingPublic2025\].
 
 Kakao Pay was found guilty of mishandling 40 million users' data by handing it over to Alipay without user consent; Alipay owns a 32 percent stake in Kakao Pay [@leeKakaoPayHanded2024].
 
