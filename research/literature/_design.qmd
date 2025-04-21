@@ -24,7 +24,7 @@ import AbstractDesign from '../images/design/abstract-design.png'
 <Figure caption="Visual abstract for the design chapter" src={AbstractDesign} />
 ```
 -   Design makes complexity comprehensible. @normanLivingComplexity2016
--    like the Helsinki chapel. there's either or a priest or a social worker present. it's the perfect public service. Limit the barrier of entry for people to discover. Elegant.
+-   like the Helsinki chapel. there's either or a priest or a social worker present. it's the perfect public service. Limit the barrier of entry for people to discover. Elegant.
 
 ## Eco-Design: Design as Political Action at Scale
 
@@ -718,7 +718,7 @@ Data transparency may help reduce cruelty by improving traceability.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-## Superapps Towards Sustainability
+## Superapps Create Context for Sustainability
 
 Could there be Sustainability Superapps?
 
@@ -882,7 +882,9 @@ For example the Open Data Portal of Malaysia shows a steady decline in Permanent
 malaysia_forests()
 ```
 
-## Behavioral Design: Nudge + Sustainability
+## Context Design: Creating the Environment for Sustainability to Happen
+
+The Behavioral Design: Nudge
 
 For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
