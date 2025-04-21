@@ -252,6 +252,8 @@ Another important metric is Retrieval Augmented Generation (RAG) performance. Ge
 models_rag_performance()
 ```
 
+Meta's head AI researcherr Yann LeCun predicts LLMs may have reached their limitations, for innovation AIs need to understand the physical world and do reasoning in abstract space, which does not require a language, i.e. something a cat could do when figuring out where to jump; in comparison, languages are simple because they are discrete, with very little noise [@nvidiadeveloperFrontiersAIComputing2025].
+
 ### Price of Tokens vs Human Labor
 
 At the end of the day, the adoption of AI to everyday life, even in the smallest of contexts, will come down to the price. Long-time AI-engineer [@ngAIRestoresALS2024] predicts, having seen the roadmaps for the microchip industries, as well as incoming hardware and software innovations, the price of tokens will be very low, and much lower than a comparative human worker.
@@ -436,6 +438,8 @@ Humans (want to) see machines as human \[ADD CITATION\]
 -   AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve.
 
 -   OpenAI's "A practical guide to building agents" defins and AI agents as "Agents are systems that independently accomplish tasks on your behalf." and details step-by-step how to build one. 
+
+-   AI can debug problem automatically. Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
 
 - It's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new @fanelliBoltnewFlowEngineering2024
 

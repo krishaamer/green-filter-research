@@ -230,7 +230,7 @@ Sustainbility Policy context is Shifting Around the World
 
 -   @nastaraanvadoodiEcodesignRequirementsDrive2022
 
-## Thinking in Systems
+## Thinking in Systems to Re-Design Industries
 
 *Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Multispecies Design -* designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While the European ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
@@ -520,13 +520,11 @@ Olio, Too Good To Go
 
 ## In Practice Sustainability Begins in Software
 
-Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce emissions of their design. Companies like AutoDesk are putting CO~2~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
-
 Design encompasses most everything in our daily lives. Humans live in artificial environments where *most* *things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
 
--   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
+Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce the emissions of their designs. Companies like AutoDesk have introduced CO~2e~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing potential for reuse and recyclability[@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
-Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible.
+-   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
 
 -   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
 
@@ -718,7 +716,7 @@ Data transparency may help reduce cruelty by improving traceability.
 
 -   @CompaniesWeHave Plastic waste makers index, sources of plastic waste
 
-## Superapps Create Context for Sustainability
+## Superapps Already Integrate Shopping, Savings, and Investing
 
 Could there be Sustainability Superapps?
 
@@ -841,15 +839,15 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Writing as training data? large language models. GTP3.
 
-### Open Data
+## Open Data Enables Eco-Interoperability
+
+Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible.
 
 Open data is needed for civic engagement. Sharing vs privacy is a political question. Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues.
 
-Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
-
 Open Data Enables Collaboration. Taiwan is a proponent of Open Gov OP-MSF OGP [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021].
 
-Enhance interoperability @WhatOpenData
+open data can Enhance interoperability @WhatOpenData
 
 Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
 
@@ -873,18 +871,13 @@ Data-driven design requires access to data. making the movement towards *open da
 
 : Examples of cities and countries that share data openly.
 
--   When will Bolt show CO~2~ emissions per every trip?
--   Sustainable finance data platform:
-
 For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024].
 
 ```{python}
 malaysia_forests()
 ```
 
-## Context Design: Creating the Environment for Sustainability to Happen
-
-The Behavioral Design: Nudge
+## Context Design Enables Behavioral Nudges Towards Green Defaults
 
 For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
@@ -941,29 +934,48 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 
 | Year | Users       | Trees       | Area                                 |
 |------|-------------|-------------|--------------------------------------|
-| 2016 | ?           | 0           |                                      |
-| 2017 | 230 million | 10 million  |                                      |
+| 2016 | N/A         | N/A         | N/A                                  |
+| 2017 | 230 million | 10 million  | N/A                                  |
 | 2018 | 350 million | 55 million  | 6500 acres??                         |
 | 2019 | 500 million | 100 million | 112,000 hectares / 66, 000 hectares? |
 | 2020 | 550 million | 200 million | 2,7 million acres?                   |
-| 2021 | 600 million | 326 million |                                      |
+| 2021 | 600 million | 326 million | N/A                                  |
 | 2022 | 650 million | 400 million | 2 million hectares                   |
-|      |             |             |                                      |
-|      |             |             |                                      |
+| 2023 | 690 million | 475 million | N/A                                  |
+| 2024 | N/A         | 548 million | 3.87 million hectares                |
+| 2025 | N/A         | N/A         | N/A                                  |
 
-: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023].
+: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian].
 
 ```{python}
 ant_forest()
 ```
 
-## Quantified Self: Tracking Health and Lifestyle
+**New User Interfaces**
 
-Personalized Design: Self-Monitoring
+-   AR / VR
 
-Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
+-   AI Chatbots
 
-Personal data enables behavior change.
+-   Generative UIs
+
+The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
+
+Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
+
+| Mode of Interaction |     |
+|---------------------|-----|
+| Writing             |     |
+| Speaking            |     |
+| Touching            |     |
+| Moving              |     |
+| Seeing              |     |
+
+: Modes of interaction
+
+## Learning from Quantified Self: Tracking Health and Lifestyle
+
+An early example of how tracking personal data enables behavior change, are health and lifestyle tracking apps. Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. There's substantial academic evidence indicating that health tracking apps can have a measurable impact on user health behaviors and increase positive health outcomes. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
 
 ### Health and Fitness Tracking
 
@@ -975,7 +987,7 @@ The Oura ring is an example of *calm technology*, providing helpful data without
 
 EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: *"brain music sounds like a warm bathtub"*. Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
 
-Use technology Wearables to be more aware of one's health. Example of quantified self device.
+Use technology Wearables to be more aware of one's health. Example of quantified self device. an example of Personalized Design: Self-Monitoring feels personal.
 
 There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards.
 
@@ -1008,25 +1020,9 @@ Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectiv
 ```{=mdx}
 <Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
 ```
--   
-
 -   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
 
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
-
-The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
-
-Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
-
-| Mode of Interaction |     |
-|---------------------|-----|
-| Writing             |     |
-| Speaking            |     |
-| Touching            |     |
-| Moving              |     |
-| Seeing              |     |
-
-: Modes of interaction
 
 Human behavior is affected by the environment; example in case, the incidence of bad behavior during the pandemic increased significantly.
 
@@ -1035,6 +1031,8 @@ pandemic()
 ```
 
 ### Pollution Exposure Tracking
+
+Pollution exposure tracking may be considered a cobination of health tracking and sustainability tracking.
 
 My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
 
@@ -1050,7 +1048,9 @@ air_chart()
 
 The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
 
-Personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
+Tracking sustainability may have collective benefits but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users.
+
+However, sustainability tracking, while perhaps less than health tracking, can have a measurable impact. One study of personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (N=216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
 
 We have a limited carbon budget so calculating CO2e-cost become integrated into every activity.
 
@@ -1078,7 +1078,9 @@ Personal carbon footprint calculators have been released online, ranging from th
 
 : A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
 
-## Digital Product Passports + Superapps
+## Digital Product Passports: Toward Sustainability Superapps
+
+Sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​
 
 Towards Tracking Sustainability
 
