@@ -70,7 +70,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 
 Oura Ring launched an AI-advisor to help explain the health data recorded by its device @teamIntroducingOuraAdvisor2025.
 
-### The Idiot Savant
+### AI as the *Idiot Savant*
 
 Hinton likes to call AI an *idiot savant*: someone with exceptional aptitude yet serious mental disorder [@cbsmorningsFullInterviewGodfather2023]. Large AI models don't understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison is apt, as the AI field now offers jobs for *AI psychologists (ADD CITATION)*, whose role is to figure out what exactly is happening inside the 'AI brain'. Understading the insides of AI models trained of massive amounts of data is important because they are *foundational*, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations [@capinstituteGettingRealArtificial2023].
 
@@ -260,8 +260,6 @@ At the end of the day, the adoption of AI to everyday life, even in the smallest
 
 ## Human Acceptance of Artificial Companions
 
-## Human Acceptance of Artificial Companions
-
 ### Human Expectations Take Time to Change
 
 Humans still need some time to adjust their expectations of *what's possible* using conversational AI interfaces. [@baileyAIEducation2023] believes people are used to *search engines* and it will take a little bit time to get familiar with talking to a computer in natural language to accomplish their tasks. For example, new users of v0, an AI assistant for building user interfaces through conversation, would tell humans (the company make this app) about the issues they encounter, instead of telling the AI assistant directly, even though the AI in many cases would be able to fix the problem instantly; human users don't yet necessarily expect computers to behave like another human, there's *inertia* in the mental model of what computers are capable of, requiring the user interfaces to provide context and teaching humans how to interact with their AI coworkers[@rauchFascinatingFindingV02024]. Indeed, ChatGPT is already using buttons to explain context [@feifeiliuLiuFeiFeiPromptControlsGenAI].
@@ -365,6 +363,18 @@ Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartne
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
 
+### Agents and the Intention Economy
+
+-   As models get smarter, there's less and less need to build workflows (chains of thought) manually, as they end up restricting the model instead of improving the output; the one use case would be to use a cheaper model with less intelligence and more guardrails set in code @sengottuveluRethinkingHowWe2025; @latentspaceBuildingManusAI2025
+
+-   AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve.
+
+-   OpenAI's "A practical guide to building agents" defins and AI agents as "Agents are systems that independently accomplish tasks on your behalf." and details step-by-step how to build one.
+
+-   AI can debug problem automatically. Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
+
+-   It's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new @fanelliBoltnewFlowEngineering2024
+
 ### Mediated Experiences Set User Expectations
 
 How AIs are represented in popular media shapes the way we think about AI companions. Some stories have AIs both in positive and negative roles, such as Star Trek and Knight Rider. In some cases like Her and Ex Machina, the characters may be complex and ambivalent rather than fitting into a simple positive or negative box. In Isaac Asimov's books, the AIs (mostly in robot form) struggle with the 3 laws of robotics, raising thought-provoking questions.
@@ -431,18 +441,6 @@ As AIs became more expressive and able to to **roleplay**, we can begin discussi
 
 Humans (want to) see machines as human \[ADD CITATION\]
 
-## AI agents Intention Economy
-
-- As models get smarter, there's less and less need to build workflows (chains of thought) manually, as they end up restricting the model instead of improving the output; the one use case would be to use a cheaper model with less intelligence and more guardrails set in code @sengottuveluRethinkingHowWe2025; @latentspaceBuildingManusAI2025
-
--   AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve.
-
--   OpenAI's "A practical guide to building agents" defins and AI agents as "Agents are systems that independently accomplish tasks on your behalf." and details step-by-step how to build one. 
-
--   AI can debug problem automatically. Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
-
-- It's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new @fanelliBoltnewFlowEngineering2024
-
 If we see the AI as being in human service. @davidjohnstonSmartAgentProtocol2023 proposes ***Smart Agents***, "general purpose AI that acts according to the goals of an individual human". AI agents can enable ***Intention Economy*** where one simply describes one's needs and a complex orchestration of services ensues, managed by the the AI, in order to fulfill human needs @searlsIntentionEconomyWhen2012. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
 There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." @gratchPowerHarmAI2022
@@ -498,7 +496,7 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   Smaller startups have created digital companions such as Replika (fig. 8), which aims to become your friend, by asking probing questions, telling jokes, and learning about your personality and preferences - to generate more natural-sounding conversations.
 
-## Human-Computer Interfaces
+## Interfaces for Human-Computer Interaction
 
 ### Speech Makes Computers Feel Real
 
