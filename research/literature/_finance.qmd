@@ -51,7 +51,7 @@ Trend of sustainably, how can sustainability become more accessible? People want
 fintech_chart()
 ```
 
-### Legislation
+### The New Rules of Money: Evolving Financial Legislation From MiFID II to ESG
 
 Legislation is Catching Up With Fintechs. Legislation sets higher standards.
 
@@ -709,7 +709,7 @@ Retail investors can lend small amounts of money (also known as MicroLending) on
 
 There's a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024].
 
-Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people (ADD CITATION) yet in some ways crypto needs even more financial literacy than traditional financial assets. @statistaCryptocurrenciesWorldwideStatista2024 estimates over 860 million cryptocurrency users worldwide by 2025.
+Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people (ADD CITATION) yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025.
 
 Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
@@ -930,7 +930,7 @@ growth_brics()
 
 ### Reducing the Gap Between Climate Science and Climate Economics
 
-William Northaus won a Novel Prize in 2018 for attempting to combine climate change and economics in a single, integrated assessment model, named *Dynamic Integrated Climate-Economy (DICE)*, however his predictions are considered inaccurate by climate scientists, underestimating the risk of catastrophic warming, tipping point and the probability of higher temperatures leading to mass death [@etchamWhenIdiotSavants2023; @sternEconomicsImmenseRisk2022; @sternTimeActionClimate2022; @kempClimateEndgameExploring2022; @jonesOurClimateReckless2019; @xuWellMitigationStrategies2017].
+William Northaus won a Novel Prize in 2018 for attempting to combine climate change and economics in a single, integrated assessment model, named *Dynamic Integrated Climate-Economy (DICE)*, however his predictions are considered inaccurate by climate scientists, underestimating the risk of catastrophic warming, tipping point and the probability of higher temperatures leading to mass death [@ketchamWhenIdiotSavants2023; @sternEconomicsImmenseRisk2022; @sternTimeActionClimate2022; @kempClimateEndgameExploring2022; @jonesOurClimateReckless2019; @xuWellMitigationStrategies2017].
 
 -   @nordhausClimateCasinoRisk2013
 -   @instituteofinternationalandeuropeanaffairsiieaCanWorldStill2023
@@ -1016,7 +1016,7 @@ Companies assess customer's credit score to decide credit-worthiness, however in
 
 -   [@francesschwartzkopffFirmsArenReporting2022] "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
 
--   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyricketts77NavigatingNet2023]
+-   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
 
 ### Indices
 
@@ -1136,7 +1136,9 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   @ravenpackCorpMovementESG2021
 
-## ESG's Promise: Countering Misinformation with Transparency
+## ESG: Promise, Practice, and Pitfalls
+
+Countering Misinformation with Transparency
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
@@ -1167,7 +1169,9 @@ companies_triple_perf()
 
 -   Snowflake analysis like Simply Wallstreet
 
-### ESG (Governance)
+### Governance: Boards, Policy, and Investor Pressure
+
+Governance is the “G that makes E and S happen.”
 
 Governance drives social and environmental initiatives at companies.
 
@@ -1314,7 +1318,6 @@ While ESG is riddled with problems, it has started a common language and there a
 Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
 -   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
--   
 -   Improve product *provenance*, blockchains offer this transparency
 -   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
 -   @BlockchainCompaniesTeam2021

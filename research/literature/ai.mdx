@@ -760,74 +760,6 @@ export const quartoRawHtml =
 </tr>
 </tbody>
 </table>
-`,`
-<table>
-<caption>Design implications arising from this chapter.</caption>
-<colgroup>
-<col style="width: 36%" />
-<col style="width: 63%" />
-</colgroup>
-<thead>
-<tr>
-<th>Category</th>
-<th>Implication</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Voice Assistants</td>
-<td>There are many distinct ways how an algorithm can communicate with a human. From a simple search box such as Google’s to chatbots, voices, avatars, videos, to full physical manifestation, there are interfaces to make it easier for the human communicate with a machine.</td>
-</tr>
-<tr>
-<td>Sustainability</td>
-<td>While I’m supportive of the idea of using AI assistants to highlight more sustainable choices, I’m critical of the tendency of the above examples to shift full environmental responsibility to the consumer. Sustainability is a complex interaction, where the producers’ conduct can be measured and businesses can bear responsibility for their processes, even if there’s market demand for polluting products.</td>
-</tr>
-<tr>
-<td>Sustainability</td>
-<td>Personal sustainability projects haven’t so far achieved widespread adoption, making the endeavor to influence human behaviors towards sustainability with just an app - like its commonplace for health and sports activity trackers such as Strava (fig. 9) -, seem unlikely. Personal notifications and chat messages are not enough unless they provide the right motivation. Could visualizing a connection to a larger system, showing the impact of the eco-friendly actions taken by the user, provide a meaningful motivation to the user, and a strong signal to the businesses?</td>
-</tr>
-<tr>
-<td>Machine Learning</td>
-<td>All of the interfaces mentioned above make use of machine learning (ML), a tool in the AI programming paradigm for finding patterns in large sets of data, which enables making predictions useful in various contexts, including financial decisions. These software innovations enable new user experiences, providing an interactive experience through chat (chatbots), using voice generation (voice assistants), virtual avatars (adds a visual face to the robot).</td>
-</tr>
-<tr>
-<td>Character Design</td>
-<td>I’m a digital companion, a partner, an assistant. I’m a Replika.” said Replika, a digital companion app via Github CO Pilot, another digital assistant for writing code, is also an example of how AI can be used to help us in our daily lives.</td>
-</tr>
-<tr>
-<td>Psychology</td>
-<td>Humans respond better to humans?</td>
-</tr>
-<tr>
-<td>Psychology</td>
-<td>Humans respond better to machines that into account emotion?</td>
-</tr>
-<tr>
-<td>Open Source</td>
-<td>For public discussion to be possible on how content is displayed, sorted, and hidden, algorithms need to be open source.</td>
-</tr>
-<tr>
-<td>User Experience</td>
-<td>User experience design (AI UX) plays a crucial role in improving the consumer to investing journey. The missed opportunity to provide an even more interactive experience in line with user expectations.</td>
-</tr>
-<tr>
-<td>LLMs</td>
-<td>Prompt engineering findings have significance for “green filter” as it validates the idea of creating advanced prompts for improved responses. For “green filter”, the input would consist of detailed user data + sustainability data for detailed analysis.</td>
-</tr>
-<tr>
-<td>Cuteness</td>
-<td>Cuter apps have higher retention</td>
-</tr>
-<tr>
-<td>Transparency</td>
-<td>Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human</td>
-</tr>
-<tr>
-<td>Anthropomorphism</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 `];
 
 ````mdx-code-block
@@ -839,6 +771,9 @@ import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ````
+
+# AI
+
 ````mdx-code-block
 <Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
 ````
@@ -986,7 +921,10 @@ intelligence (Mühlhoff, 2019; Shahaf & Amir, 2007)
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-### The Idiot Savant
+Oura Ring launched an AI-advisor to help explain the health data
+recorded by its device Team (2025).
+
+### AI as the *Idiot Savant*
 
 Hinton likes to call AI an *idiot savant*: someone with exceptional
 aptitude yet serious mental disorder (CBS Mornings, 2023). Large AI
@@ -1213,8 +1151,7 @@ guidelines for the RLHF approach. OpenAI (2024c)
 -   AI co-founder launches AI Safety Superalignment (Jan Leike & Ilya
     Sutskever, 2023).
 
--   OECD defines AI incident terms *Defining AI Incidents and Related
-    Terms* (2024)
+-   OECD defines AI incident terms (**DefiningAIIncidents2024?**)
 
 -   Foundation data-sets such as LAION-5B (Romain Beaumont, 2022;
     Schuhmann et al., 2022)
@@ -1292,7 +1229,14 @@ current information (Leng et al., Mon, 08/12/2024 - 19:46).
 
 ![](ai_files/figure-markdown_strict/cell-6-output-1.png)
 
-## Price of Tokens
+Meta’s head AI researcherr Yann LeCun predicts LLMs may have reached
+their limitations, for innovation AIs need to understand the physical
+world and do reasoning in abstract space, which does not require a
+language, i.e. something a cat could do when figuring out where to jump;
+in comparison, languages are simple because they are discrete, with very
+little noise (NVIDIA Developer, 2025).
+
+### Price of Tokens vs Human Labor
 
 At the end of the day, the adoption of AI to everyday life, even in the
 smallest of contexts, will come down to the price. Long-time AI-engineer
@@ -1301,9 +1245,7 @@ industries, as well as incoming hardware and software innovations, the
 price of tokens will be very low, and much lower than a comparative
 human worker.
 
-## Companions
-
-## Acceptance
+## Human Acceptance of Artificial Companions
 
 ### Human Expectations Take Time to Change
 
@@ -1508,13 +1450,13 @@ model or even computer code which can be ran on a virtual machine and
 then the output displayed inside the conversation.
 
 The quality of LLM output depends on the quality of the provided prompt.
-Zhou et al. (2022) reports creating an “Automatic Prompt Engineer” which
-automatically generates instructions that outperform the baseline output
-quality by using another model in the AI pipeline in front of the LLM to
-enhance the human input with language that is known to produce better
-quality. This approach however is a moving target as foundational models
-keep changing rapidly and the baseline might differ from today to 6
-months later.
+(Zhou et al., 2022) reports creating an “Automatic Prompt Engineer”
+which automatically generates instructions that outperform the baseline
+output quality by using another model in the AI pipeline in front of the
+LLM to enhance the human input with language that is known to produce
+better quality. This approach however is a moving target as foundational
+models keep changing rapidly and the baseline might differ from today to
+6 months later.
 
 Multimodal model development is also ongoing. In the case of Google’s
 Gemini 1.5 Pro, one model is able to handle several types of prompts
@@ -1554,6 +1496,29 @@ deployed in order to develop explanations. However, in the real world,
 how feasible is it to have control over the domain? Calisto et al.
 (2021) discusses **multi-modal AI-assistant** for breast cancer
 classification.
+
+### Agents and the Intention Economy
+
+-   As models get smarter, there’s less and less need to build workflows
+    (chains of thought) manually, as they end up restricting the model
+    instead of improving the output; the one use case would be to use a
+    cheaper model with less intelligence and more guardrails set in code
+    Sengottuvelu (2025); Latent Space (2025)
+
+-   AI agents enable workflow automation, with reasoning capability, and
+    taking actions across different tools, achieving the user’s original
+    *intent*; what’s left for the user to do is to say what they want to
+    achieve.
+
+-   OpenAI’s “A practical guide to building agents” defins and AI agents
+    as “Agents are systems that independently accomplish tasks on your
+    behalf.” and details step-by-step how to build one.
+
+-   AI can debug problem automatically. Apple uses data from bug reports
+    to train AI models for improving their software Saini (2025)
+
+-   It’s increasingly possible to generate entire apps from a prompt,
+    using tools such as Bolt.new Fanelli (2024)
 
 ### Mediated Experiences Set User Expectations
 
@@ -1736,7 +1701,7 @@ relationship between emotions and financial AI.
     questions, telling jokes, and learning about your personality and
     preferences - to generate more natural-sounding conversations.
 
-## Interfaces
+## Interfaces for Human-Computer Interaction
 
 ### Speech Makes Computers Feel Real
 
@@ -2280,8 +2245,8 @@ in the UK (AltFi, 2017). ETFmatic gained the largest number of downloads
 by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking
 stock-market indexes automatically, with much less sophistication, than
 their US counterparts \[ibid\]. The app was bought by a bank in 2021 and
-closed down in 2023 (AltFi, 2021; “ETFmatic - Account Funding of EURO
-Accounts Ceases,” 2023; Silva, 2023).
+closed down in 2023 (“ETFmatic - Account Funding of EURO Accounts
+Ceases,” 2023; Silva, 2023; **altfiBelgiumAionBank2021?**).
 
 ````mdx-code-block
 <Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
@@ -2357,7 +2322,7 @@ albeit without much success (Bhatia et al., 2020). India had more than
 
 -   Hyde (2006) Money as a gift
 
--   John Ssenkeezi (2022): Small stock investments
+-   (**johnssenkeeziVeBeenInvited2022?**): Small stock investments
 
 -   Financial empowerment
 
@@ -2388,13 +2353,6 @@ albeit without much success (Bhatia et al., 2020). India had more than
 -   “Thai Fintech Association (TFA)” (n.d.)
 
 -   Renato Capelj (February 16, 2021 6:47 PM)
-
-## Design Implications and Feature Ideas
-
-This chapter looked at AI in general since its early history and then
-focused on AI assistants in particular.
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[15] }} />
 
 ## References
 
@@ -2429,10 +2387,6 @@ anniversary ed). Addison-Wesley Pub. Co.
 
 AltFi. (2017). ETFmatic app downloaded 100,000 times. In *AltFi*.
 https://www.altfi.com/article/3433_etfmatic_app_downloaded_100000_times.
-
-AltFi. (2021). Belgium’s Aion Bank has acquired London robo-advisor
-ETFmatic. In *AltFi*.
-https://www.altfi.com/article/7686_belgiums-aion-bank-has-acquired-london-robo-advisor-etfmatic.
 
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B.,
 Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J.,
@@ -2651,11 +2605,6 @@ https://docs.google.com/document/d/1cutU1SerC3V7B8epopRtZUrmy34bf38W–w4oOyRs2A
 Dávid Pásztor. (2018). *AI UX: 7 Principles of Designing Good AI
 Products*. https://uxstudioteam.com/ux-blog/ai-ux/.
 
-*Defining AI incidents and related terms* ({{OECD Artificial
-Intelligence Papers}} No. 16; OECD Artificial Intelligence Papers, Vol.
-16). (2024). (Vol. 16).
-[https://doi.org/10.1787/d1a8d965-en](https://doi.org/10.1787/d1a8d965-en)
-
 Design Portland. (2018). Humans Have the Final Say — Stories. In *Design
 Portland*. https://designportland.org/.
 
@@ -2691,18 +2640,21 @@ Erik Brynjolfsson. (2022). The Turing Trap: The Promise & Peril of
 Human-Like Artificial Intelligence. In *Stanford Digital Economy Lab*.
 https://digitaleconomy.stanford.edu/news/the-turing-trap-the-promise-peril-of-human-like-artificial-intelligence/.
 
-ETFmatic - Account funding of EURO accounts ceases. (2023). \[Reddit
-{{Post}}\]. In *r/eupersonalfinance*.
+ETFmatic - Account funding of EURO accounts ceases. (2023). In
+*r/eupersonalfinance*.
 
 Ethan Mollick \[@emollick\]. (2023). I think most interesting/unnerving
 fast demo of the future of AI chatbots is to use the
 <span class="nocase">Pi iOS</span> app, which lets you have a phone call
 with a Large Language Model optimized for chat It isn’t the AI from
 “Her” yet, but you can start to see the path towards AI companions.
-<span class="nocase">https://t.co/agJU14ukBB</span> \[Tweet\]. In
-*Twitter*.
+<span class="nocase">https://t.co/agJU14ukBB</span>. In *Twitter*.
 
 Eugenia Kuyda. (2023). Replika. In *replika.com*. https://replika.com.
+
+Fanelli, A. (2024). *Bolt.new, Flow Engineering for Code Agents, and
+$>\$$8m ARR in 2 months as a Claude Wrapper*.
+https://www.latent.space/p/bolt.
 
 Feifei Liu 刘菲菲. (n.d.). Prompt Controls in GenAI Chatbots: 4 Main
 Uses and Best Practices. In *Nielsen Norman Group*.
@@ -2831,12 +2783,6 @@ COVID-19 pandemic. *Information Processing & Management*, *59*(6),
 Joe Blair. (2024). *Generative UI: The new front end of the internet? —
 Joe Blair*. https://www.joe-blair.com/blog/the-new-front-end.
 
-John Ssenkeezi. (2022). I’ve been invited to vote at @Apple’s 2022
-Annual Meeting as a shareholder. Yes, you read that right! You can own
-shares in any company listed on @NYSE from as little as \$1 with
-@chippercashapp. <span class="nocase">https://t.co/dNr8UPb7ND</span>
-\[Tweet\]. In *Twitter*.
-
 Josephine Wäktare Heintz. (n.d.). Cleo. In *👀*.
 http://www.josephineheintzwaktare.com/cleo.
 
@@ -2904,6 +2850,8 @@ LangChain. (2024). Dynamic few-shot examples with LangSmith datasets. In
 *LangChain Blog*.
 https://blog.langchain.dev/dynamic-few-shot-examples-langsmith-datasets/.
 
+Latent Space. (2025). *Building Manus AI (first ever Manus Meetup)*.
+
 Lee, P., Goldberg, C. & Kohane, I. (2023). *The AI revolution in
 medicine: GPT-4 and beyond* (1st ed.). Pearson.
 
@@ -2967,7 +2915,7 @@ influence. *Computers in Human Behavior*, *124*, 106926.
 lmsys.org. (2024). GPT-4-Turbo has just reclaimed the No. 1 spot on the
 Arena leaderboard again! Woah! We collect over 8K user votes from
 diverse domains and observe its strong coding & reasoning capability
-over others. \[Tweet\]. In *Twitter*.
+over others. In *Twitter*.
 
 Lohr, S. (2004). Microsoft, Amid Dwindling Interest, Talks Up Computing
 as a Career. *The New York Times*.
@@ -3054,15 +3002,14 @@ Nick Clegg. (2023). How AI Influences What You See on Facebook and
 Instagram. In *Meta*.
 
 Nielsen, J. (2024a). Accessibility Has Failed: Try Generative UI =
-Individualized UX \[Substack Newsletter\]. In *Jakob Nielsen on UX*.
+Individualized UX. In *Jakob Nielsen on UX*.
 
-Nielsen, J. (2024b). Information Scent: How Users Decide Where to Click
-\[Substack Newsletter\]. In *Jakob Nielsen on UX*.
+Nielsen, J. (2024b). Information Scent: How Users Decide Where to Click.
+In *Jakob Nielsen on UX*.
 
 Nielsen, J. (2024c). UX Roundup: AI Empathy Submit Buttons European Job
 Changes Runway AI Video Writing Questions for User Research Leonardo
-Sold Midjourney New Release \[Substack Newsletter\]. In *Jakob Nielsen
-on UX*.
+Sold Midjourney New Release. In *Jakob Nielsen on UX*.
 
 No Priors: AI, Machine Learning, Tech, & Startups. (2023). *With
 Inceptive CEO Jakob Uszkoreit: Vols. Ep. 29*.
@@ -3072,6 +3019,9 @@ Industrial Revolution: How Harmonious Human–Machine Collaboration is
 Triggering a Retail and Service \[R\]evolution. *Journal of Retailing*,
 *98*(2), 199–208.
 [https://doi.org/10.1016/j.jretai.2022.04.003](https://doi.org/10.1016/j.jretai.2022.04.003)
+
+NVIDIA Developer. (2025). *Frontiers of AI and Computing: A Conversation
+With Yann LeCun and Bill Dally NVIDIA GTC 2025*.
 
 O’Connor, S. & ChatGPT. (2023). Open artificial intelligence platforms
 in nursing education: Tools for academic progress or abuse? *Nurse
@@ -3123,7 +3073,7 @@ Media Education. *Journalism & Mass Communication Educator*, *78*(1),
 Pete. (2023). We hosted #emergencychatgpthackathon this past Sunday for
 the new ChatGPT and Whisper APIs. It all came together in just 4 days,
 but we had 250+ people and 70+ teams demo! Here’s a recap of our winning
-demos: <span class="nocase">https://t.co/6o1PvR9gRJ</span> \[Tweet\]. In
+demos: <span class="nocase">https://t.co/6o1PvR9gRJ</span>. In
 *Twitter*.
 
 *Phase Two: Investing is a Financial and Social Network — Syndicate*.
@@ -3167,7 +3117,7 @@ Rauch, G. (2024). A fascinating finding from @v0 has been that when
 something fails, newcomers’ instincts are to tell \*us\*, @vercel, about
 it, but if they had told the AI, in most cases it would fix the issue
 immediately and flawlessly. I think the inertia comes from the fact that
-it’s so \[Tweet\]. In *Twitter*.
+it’s so. In *Twitter*.
 
 ReadyAI. (2020). *Human-AI Interaction: How We Work with Artificial
 Intelligence*.
@@ -3204,6 +3154,9 @@ Vision-Inspired to Societal-Challenged. *IEEE Pervasive Computing*,
 Romain Beaumont. (2022). *LAION-5B: A NEW ERA OF OPEN LARGE-SCALE
 MULTI-MODAL DATASETS*. https://laion.ai/blog/laion-5b.
 
+Saini, R. (2025). Apple Uses Bug Report Data for AI Training in
+<span class="nocase">iOS</span> 18.5 Beta. In *The Mac Observer*.
+
 San Roman, R., Adi, Y., Deleforge, A., Serizel, R., Synnaeve, G. &
 Défossez, A. (2023). From discrete tokens to high-fidelity audio using
 multi-band diffusion. *arXiv Preprint arXiv:*
@@ -3234,6 +3187,9 @@ Schwabe, G. & Söllner, M. (2020). Machines as teammates: A research
 agenda on AI in team collaboration. *Information & Management*, *57*(2),
 103174.
 [https://doi.org/10.1016/j.im.2019.103174](https://doi.org/10.1016/j.im.2019.103174)
+
+Sengottuvelu, R. (2025). *Rethinking how we Scaffold AI Agents - Rahul
+Sengottuvelu, Ramp*. YouTube.
 
 Şerban, C. & Todericiu, I.-A. (2020). Alexa, what classes do I have
 today? The use of artificial intelligence via smart speakers in
@@ -3347,7 +3303,7 @@ Child-Computer Interaction*, *33*, 100460.
 
 Tang, J., LeBel, A., Jain, S. & Huth, A. G. (2022). *Semantic
 reconstruction of continuous language from non-invasive brain
-recordings* \[Preprint\]. Neuroscience.
+recordings*. Neuroscience.
 [https://doi.org/10.1101/2022.09.29.509744](https://doi.org/10.1101/2022.09.29.509744)
 
 Tarnoff, B. (2023). Weizenbaum’s nightmares: How the inventor of the
@@ -3359,6 +3315,10 @@ https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c5
 
 Tay, A. (2023). Why science needs a protein emoji. *Nature*.
 [https://doi.org/10.1038/d41586-023-00674-1](https://doi.org/10.1038/d41586-023-00674-1)
+
+Team, O. (2025). Introducing Oura Advisor: Your AI-Powered Personal
+Health Companion. In *The Pulse Blog*.
+https://ouraring.com/blog/oura-advisor/.
 
 Thai Fintech Association (TFA). (n.d.). In *TFA*. https://52.77.46.193/.
 

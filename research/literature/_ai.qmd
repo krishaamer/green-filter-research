@@ -16,7 +16,9 @@ import AbstractAI from '../images/ai/abstract-ai.png'
 ```
 # AI
 
+::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
+:::
 
 ```{=mdx}
 <Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
