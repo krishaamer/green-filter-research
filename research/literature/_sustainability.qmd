@@ -28,7 +28,7 @@ import AbstractSustainability from "/research/images/sustainability/abstract-sus
 
 Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## Measuring, Visualizing Earth's Climate
+## Measuring and Visualizing Earth's Climate Systems
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt,the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models[@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
@@ -134,7 +134,7 @@ ndc_chart()
 
 Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
-### Markets for Ecosystem Assets: Pricing, Tracing and Trading
+### Markets for Ecosystem Services: Pricing, Tracing, and Trading Nature's Assets
 
 Markets for ecosystems assets are centered around *carbon credits*, a type of nature-backed financial derivative dependent on science-based methodologies for measurement, reporting, and verification (MRV), which are managed and regularly updated by certification organizations such as Gold Standard, Verra, and others.
 
@@ -385,11 +385,11 @@ The most complex computer models which attempt to capture ever more interactions
 
 -   @jacksonMaterialConcernsPollution1996 *preventive environmental management*
 
-### Biosphere
+### The Biosphere: Earth's Life Support System
 
 Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
 
-### Ecological Indicators
+### Using Ecological Indicators to Track Environmental Health
 
 Sustainability can be measured using a variety of *ecological indicators*.
 
@@ -401,7 +401,7 @@ Technological advances help scientist better understand nature. Cutting edge res
 
 AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
 
-### Biodiversity
+### Biodiversity Loss: Causes, Impacts, and Solutions
 
 Why Protect Biodiversity?
 
@@ -415,8 +415,6 @@ Why Protect Biodiversity?
 | Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
 
 : From [@mayWhyShouldWe2011].
-
--   
 
 -   Meanwhile the destruction pressure on ecosystems is rapidly increasing (ADD CITATION A B C).
 
@@ -455,7 +453,7 @@ Protecting biodiversity
 
 : Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021].
 
-### Oceans
+### Oceans and Marine Ecosystem Sustainability
 
 Blue carbon.
 
@@ -465,7 +463,7 @@ Blue carbon.
 -   @espinosaImpactsEvolutionChanges2023 marine ecosystem services **(need access, ncku doesn't sub)**
 -   @howardPotentialIntegrateBlue2017 argues Oceans play crucial role in carbon capture.
 
-### Forest
+### Forests: Carbon Sinks and Biodiversity Reservoirs
 
 Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022]. Around 27% of Earth's land area is still covered by forests yet *deforestation* is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38,5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. The global forest cover change is visible on Google's Earth Engine [@hansenHighResolutionGlobalMaps2013].
 
@@ -475,7 +473,7 @@ Around the world, there are many initiatives to increase forest cover, for examp
 -   @bousfieldCarbonPaymentsCan2022 reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 -   nature-based solutions.
 
-### Pollution
+### Pollution: Air, Water, and Soil Degradation
 
 In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
 
@@ -517,11 +515,11 @@ Globally, 4.4 billion people only have access to water that's not safe for drink
 -   Bioindicators of anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals.
 -   Both Abha and Riyadh showed notable levels of pollutants while Riyadh with more industry showed higher levels.
 
-### Ready for Disaster
+### Disaster Preparedness and Climate Resilience
 
 The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport].
 
-### Weather
+### Weather Patterns and Climate Extremes
 
 Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO2 concentrations in the air can cause more turbulence for flights.
 
@@ -539,7 +537,7 @@ Climate-related disasters can spur action as extreme weather becomes visible to 
 -   the Great Pacific Garbage Patch
 -   Disputes in @eerolaCorporateConductCommodity2022.
 
-## Financialization of Nature vs Nature is Sacred: Scaling Up Sustainable Action:
+## Financialization of Nature vs Nature's Sacred Value: Scaling Up Sustainable Action
 
 There are 2 main approaches to protecting nature:
 
@@ -573,7 +571,7 @@ However, for most of us individual climate action is *ineffective*. The effect o
 
 There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
 
-### Restoration
+### Ecological Restoration: Healing Damaged Ecosystems
 
 Regenerative Action
 
@@ -642,7 +640,7 @@ Each technology has their own pros and cons. [@vitilloRoleCarbonCapture2022] ill
 
 -   **Important: "creating sustainability trust in companies in realtime"**
 
-## Complexity: Towards Probabilistic Risk-Based Assessment
+## Navigating Complexity: Towards Probabilistic Risk-Based Assessment in Sustainability
 
 Sustainability is a complex web of interconnections.
 
