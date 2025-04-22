@@ -936,9 +936,9 @@ growth_brics()
 
 ### Reducing the Gap Between Climate Science and Climate Economics
 
-William Nordhaus won a Nobel Prize in 2018 for attempting to combine climate change and economics in a single, integrated assessment model, named *Dynamic Integrated Climate-Economy (DICE)*, however his predictions are considered inaccurate by climate scientists, underestimating the risk of catastrophic warming, tippings points and the probability of higher temperatures leading to mass death [@ketchamWhenIdiotSavants2023; @sternEconomicsImmenseRisk2022; @sternTimeActionClimate2022; @kempClimateEndgameExploring2022; @jonesOurClimateReckless2019; @xuWellMitigationStrategies2017].
+William Nordhaus won a Nobel Prize in 2018 for attempting to combine climate change and economics in a single, integrated assessment model, named *Dynamic Integrated Climate-Economy (DICE)*, however his predictions are considered inaccurate by climate scientists, underestimating the risk of catastrophic warming, tippings points, and the probability of higher temperatures leading to mass death [@ketchamWhenIdiotSavants2023; @sternEconomicsImmenseRisk2022; @sternTimeActionClimate2022; @kempClimateEndgameExploring2022; @jonesOurClimateReckless2019; @xuWellMitigationStrategies2017].
 
-Energy and climate change economist Noah Kaufman says economists don't understand climate and climate scientists don't understand economics; and calls out economic calculations which try to estimate climate damages over hundreds of years or find a price for climate equilibrium, as non-sensical [@dessler2ClimateEconomicsNoah2024]. Instead, in a recent paper, co-written with another Nobel prize-winning economist, Joseph Stiglitz, they argue economics can solve climate change though a risk-management approach for policy support, focusing on lowering climate risk by achieving net-zero carbon emissions [@stiglitzHowEconomicsCan2024].
+Energy and climate change economist Noah Kaufman says economists don't understand climate and climate scientists don't understand economics; and calls out economic calculations which try to estimate climate damages over hundreds of years or find a price for climate equilibrium, as nonsensical [@dessler2ClimateEconomicsNoah2024]. Instead, in a recent paper, co-written with another Nobel prize-winning economist, Joseph Stiglitz, they argue economics can solve climate change though a risk-management approach for policy support, focusing on lowering climate risk by achieving net-zero carbon emissions [@stiglitzHowEconomicsCan2024].
 
 While Nordhaus has been critized for his numbers, the general idea of his early book titled "The Climate Casino" doesn't disagree. Nordhaus himself likens the current trajectory of climate change to humanity entering a "climate casino," where we're is gambling with the planet's future [@nordhausClimateCasinoRisk2013]. Written a decade later, Nordhaus asks if we can still exit the casino, and is much more pessimistic than in his early work [@instituteofinternationalandeuropeanaffairsiieaCanWorldStill2023]. 
 
@@ -1004,15 +1004,19 @@ To put it very simply (knowingly oversimplifying), in traditional finance legisl
 
 ### Product Databases
 
-In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. GS1 is the organization providing EAN/UPC barcodes on most consumer products [@gs1EANUPCBarcodes]. There are many existing specialized databases, the open product database ([@DatakickOpenProduct]), the green technology database ([@WIPOGREENGlobal]), the world packaging database ([@PackagingWorld]), just to name a few.
+In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. All of the world's products are subject to one or another standard and although they are not uniform, there's some documentation existing about every product. 
 
--   @konradA16zCryptoLeads "an internet-wide directory of purchasable products, reminiscent of how the much of the world's music is made available on streaming platform Spotify."
+In fact, while the UPC stands for Universal Product Code, there is no truly centralized, authoritative database of all UPCs, which has led to duplication and inconsistency across products sharing the same codes, especially with the rise of e-commerce marketplaces [@semantics3WhyUPCDoesn2017].
 
--   @OpenProductData: Open Knowledge Foundation's Open Product Data website shut down
+One important existing standard comes from GS1, the organization responsible for issuing EAN/UPC barcodes found on most consumer products worldwide [@gs1EANUPCBarcodes]. These barcodes help identify products within supply chains and retail systems, but they do not alone create a central product registry.
 
--   @hakonbogenThereGlobalDatabase2016: "Is there a global database of all products with EAN 13 barcodes?"
+A number of specialized product databases have been created to fill specific needs. The Open Product Database maintained by Datakick [@DatakickOpenProduct] aimed to crowdsource product information but faced limitations and is no longer widely active. WIPO GREEN, the global green technology database, catalogs environmentally sustainable innovations [@WIPOGREENGlobal]. The World Packaging Database provides detailed information about product packaging worldwide, important for understanding material impacts [@PackagingWorld].
 
--   @semantics3WhyUPCDoesn2017
+In a similar vein, @konradA16zCryptoLeads imagines the possibility of an internet-wide directory of purchasable products, akin to how platforms like Spotify have made nearly all of the world's music easily searchable and accessible. However, despite the obvious need, attempts to build such directories have faced significant challenges. For example, the Open Knowledge Foundation's Open Product Data initiative (@OpenProductData) was eventually shut down, highlighting how difficult it is to maintain open, comprehensive, and up-to-date product information at a global scale.
+
+As early as 2016, questions were being raised about whether a truly global database of all EAN-13 barcoded products could be created [@hakonbogenThereGlobalDatabase2016]. The answer, unfortunately, remains "not yet."
+
+While some infrastructure exists, including bar and qr-codes, standards, and partial databases, the world still lacks a unified, reliable, open-access product database. Building such a system could be improve sustainability assessments, supply chain transparency, and informed consumer choices at the global scale.
 
 ### Financialization
 
