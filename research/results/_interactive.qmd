@@ -7,14 +7,6 @@ import Susan from '../images/prototypes/susan-pink-app.png'
 ## Interactive Prototype
 
 -   https://ai.ziran.tw/
--   
-
-## Testing
-
-
-## Retrieval-Augmented Generation (RAG) 
-
-- "make contextual decisions on-the-fly, thereby opening up a more dynamic and responsive way to handle knowledge search tasks" @dewyBuildingRAGTool2024
 
 
 ## Prototype Development
@@ -30,6 +22,13 @@ postman for API testing
 - Retrieval-Augmented Generation (RAG) to enhance AI content with domain-spefic (close-to realtime) knowledge.
 - technique first proposed by researchers at META [@lewisRetrievalAugmentedGenerationKnowledgeIntensive2020] some RAG benefits include [@gaoRetrievalAugmentedGenerationLarge2023;]
 
+## Retrieval-Augmented Generation (RAG) 
+
+- "make contextual decisions on-the-fly, thereby opening up a more dynamic and responsive way to handle knowledge search tasks" @dewyBuildingRAGTool2024
+
+
+
+## Testing
 
 Prototype architecture
 

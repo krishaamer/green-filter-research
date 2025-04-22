@@ -12,17 +12,17 @@ import Taipei from "../images/college/taipei.jpg";
 ```
 # College Students
 
-## Research Gap When it Comes to Taiwanese College Students
+## Addressing the Research Gap When it Comes to Taiwanese College Students
 
 There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regards to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
 
-## Taiwan's Digital Receipt System
+## Digital Sustainability: Taiwan's Digital Receipt System
 
 @DuJiaGuanChaDianZiFaPiao2025 reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receiptts are mandatory for all businesses. Taiwan's longstanding receipt lottery also hass specific prizes available only for digital receipts. @XingDongZhiFuJieHeYunDuanFaPiao2018
 
 Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
 
-## Taiwan in the Global Context: Global and Local Attitudes
+## Taiwan in the Global Context: Global and Local Attitudes Towards Sustainability
 
 [@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of Postmaterialist Index Comparison, noting Taiwanese society is materialistic.
 
@@ -166,7 +166,7 @@ Progress in sustainability is possible but achieving results takes time and inno
 
 ## Trends in Taiwanese Companies
 
-Between 1970 and 2019 CO2 was a prerequisite of economic growth in Taiwan (check this again) [@changRevisitingEconomicGrowth2023]. Taiwan is a net CO2 exporter since 1990s through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020].
+Between 1970 and 2019 CO2e was a prerequisite of economic growth in Taiwan (check this again) [@changRevisitingEconomicGrowth2023]. Taiwan is a net CO2e exporter since 1990s through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020].
 
 TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies Of 2024"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
 
@@ -293,9 +293,13 @@ college_chatbot()
 
 ### Climate Anxiety
 
-A large worldwide study (n=10000, age 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action.
 
--   [@osakaWhyClimateDoomers2023] argues *doomerism* is an excuse for climate in-action. Hope is necessary for people to make changes in their habits [@marlonHowHopeDoubt2019].
+A large worldwide study in (n=10000, age 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in 10 countries: Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n=1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+
+[@osakaWhyClimateDoomers2023] argues *doomerism* is an excuse for climate in-action. Hope is necessary for people to make changes in their habits [@marlonHowHopeDoubt2019].
+
+A recent special issue of Behavioral Sciences magazine on Behavioral Science for Climate Change (2025) provides further evidence. A review of 50 studies supports the idea that climate activism shifts public opinion towards climate concern [@thomas-waltersImpactsClimateActivism2025]. Climate change negative affect braing health through heat, air pollution, extreme weather; the study finds links to neurological, psychiatric, and cognitive disorders [@todorovaNeuroscienceClimateAction2025].
 
 -   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. [@kjaergardHealthSustainability2014] shows how "understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"
 
@@ -335,21 +339,14 @@ What are the building blocks of a thriving community?
 
 -   I would like to have an AI agent to set my requirements and preferences and give a "fuck you" middle finger to companies that don't meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
 
-### Trends and Memes
+### Trends, Memes, and Media Currents
 
-In 2024 "underconsumption" and "deinfluencing" were trending on TikTok [@faresHowTikTokUnderconsumption2024]
+In 2024 "underconsumption" and "deinfluencing" were trending on TikTok [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; tiktokDeinfluencing2024]
 
--   <https://www.tiktok.com/search?q=underconsumption>
 
--   <https://www.tiktok.com/search?q=deinfluence>
+-   The word "meme" was Coined by Richard Dawkins in 1976 in the context of biology.
 
--   <https://www.tiktok.com/tag/deinfluencing>
-
--   <https://www.tiktok.com/tag/underconsumption>
-
--   Coined by Richard Dawkins in 1976 in the context of biology.
-
--   Internet memes and meme stocks
+-   today it also refers to Internet memes and meme stocks
 
 -   Memes from daily life, business to war, are relevant to penetrating through the noise of the web.
 
