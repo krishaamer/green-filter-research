@@ -13,6 +13,38 @@ import Taipei from "../images/college/taipei.jpg";
 ```
 # Young Adults and College Students
 
+## Student Protests for Climate Change In Taiwan and Around the World
+
+In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her *Fridays for Future* protests. Time magazine named Thunberg person of the year for *creating a global attitudinal shift.* [@deutschewelleFridaysFutureGlobal2019].
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
+  src={Geneve}
+  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
+  refTitle="Wikimedia Commons"
+/>
+```
+In Taiwan, the Fridays for Future protests were small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile 2000 Taiwanese students joined the initative by participating in environmental activities without protesting [@daiQuanQiuDeLu2019]; Indonesia and Philippines, at the same time, had large protests.
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
+  src={Taipei}
+  refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
+  refTitle="New Bloom Magazine"
+/>
+```
+This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. Both Confucianism and Daoism affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].
+
 Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
 
 ```{python}
@@ -74,39 +106,7 @@ The largest study to date, conducted by the United Nations across 50 countries, 
 
 : 1.2 million UN survey responses to the statement *"Climate change is an emergency"* [@undpPeoplesClimateVote2021].
 
-## Student Protests: In Taiwan vs Around the World
-
-In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate strike in front of the Swedish parliament Riksdag. Millions of people around the world joined her *Fridays for Future* protests. Time magazine named Thunberg person of the year for *creating a global attitudinal shift.* [@deutschewelleFridaysFutureGlobal2019].
-
-::: {.content-hidden unless-format="pdf"}
-![Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
-  src={Geneve}
-  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
-  refTitle="Wikimedia Commons"
-/>
-```
-In Taiwan, the Fridays for Future protests were small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile 2000 Taiwanese students joined the initative by participating in environmental activities without protesting [@daiQuanQiuXueShengQiHouYunDongTaiWanXueShengZouChuZiJiDeLu2019]; Meanwhile Indonesia, Philippines, have had larger protests.
-
-::: {.content-hidden unless-format="pdf"}
-![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
-  src={Taipei}
-  refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
-  refTitle="New Bloom Magazine"
-/>
-```
-This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. Both Confucianism and Daoism affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].
-
-### Sustainability Attitudes from Eco-Friendly Diet to Climate Action
+## Sustainability Attitudes from Eco-Friendly Diet to Climate Action
 
 At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n=596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n=328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
@@ -142,7 +142,7 @@ Taiwanese college students are subjected to high levels of pollution. University
 
 -   When disaster hits we need high levels of *social trust*. being part of community of trust makes it easier to act in unison. Religion is a type of community of trust. conversely, that can also have negative effects, as in Taiwan the expected behaviour of burning joss sticks and paper money, is a cause of air pollution [@tangRitualBurningThreatens2014]
 
-### Climate Anxiety
+## Climate Anxiety
 
 A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action.
 
@@ -277,8 +277,8 @@ The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a
 
 | Knowledge Gap (2022) | \% Unaware |
 |-----------------------------------------------------------|------------:|
-| Uncertain that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |
-| Unaware which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |
+| Unsure that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |
+| Unsure which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |
 | Unsure how education level affects starting salary | 61% |
 | Unaware of methods to lower loan interest rates | 59% |
 | Cannot identify which auto insurance covers vehicle damage | 55% |
@@ -326,28 +326,10 @@ college_chatbot()
 
 -   I would like to have an AI agent to set my requirements and preferences and give a "fuck you" middle finger to companies that don't meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
 
-### Trends, Memes, and Media Currents
+## Trends, Memes, and Media Currents
 
-In 2024 "underconsumption" and "deinfluencing" were trending on TikTok [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; tiktokDeinfluencing2024]
+The term “meme,” first coined by Richard Dawkins in 1976 in his book "The Selfish Gene" to describe units of cultural evolution, analogous to that of biological evolution, which may evolve by natural selection, and now encompasses internet artifacts and even stocks. Beyond mere entertainment, memes have emerged as an academic discipline, where memes are sampled, coded, and analysed from cultural and ethical viewspoints, among others [@zidaniHowConductInternet2022]. [@peters-lazaroPopularCultureCivic2020] argues memes are no merely jokes but tools for communal critique and collective visioning. suggesting that Taiwanese Gen-Z memes scaffold deeper conversations about consumerism, climate action, and social change. Memes from daily life, business to war, are relevant to penetrating through the noise of the web.
 
--   The word "meme" was Coined by Richard Dawkins in 1976 in the context of biology.
+In Taiwan, homegrown memes may start with global templates but quickly take on a local flavor. [@LiuYunJiaTaiWan2024]'s 2021 study of 150 Taiwanese memes written in Mandarin shows most rely on friendly and indirect humor: inside jokes and wordplay that bond peers together. [@ZhuYingJieying2021] surveyed 737 Taiwanese Facebook users and discovered that a meme’s funniness, shareability, and shock value “hellish gags” (地獄梗) drive people to post it for social approval. [@HuQiZhen2024] collected 217 “tired of life” / “I’m just trash” meme texts from Instagram and PTT, then interviewed 13 Gen-Z enthusiasts, revealing how self-deprecating jokes help Gen Z cope with stress, feel part of a group, and quietly push back against social pressure. Memes have a long history, and even almost a decade ago in 2016, a casual news comment—like the "canoing man" (泛舟哥) remark during a typhoon exploded into LINE stickers and PTT threads, proving that Taiwanese can transform everyday media moments into collective satire or tongue-in-cheek commentary [@HuangYiNeng2016].
 
--   today it also refers to Internet memes and meme stocks
-
--   Memes from daily life, business to war, are relevant to penetrating through the noise of the web.
-
--   Memes and sustainability?
-
--   Meme research has become an academic discipline
-
--   Memes have become a popular communication tool..
-
--   @zidaniMessyInternetMemes2021
-
--   @zidaniHowConductInternet2022
-
--   @irinalyanWhenGangnamHits2015
-
--   @zannettouOriginsMemesMeans2018
-
--   @peters-lazaroPopularCultureCivic2020
+Internationally, the sustainability-focused topics “underconsumption” and “deinfluencing” were trending on TikTok in 2024 however have since subdued [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; @tiktokDeinfluencing2024]. While this particular trend may be over, memes still hold potential for communicating about sustainability to young Taiwanese.
