@@ -10,11 +10,37 @@ import Figure from "/src/components/Figure";
 import Geneve from "../images/college/geneve.jpg";
 import Taipei from "../images/college/taipei.jpg";
 ```
-# College Students
+# Young Adults and College Students
+
+Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
+
+```{python}
+genz_enrollment_chart()
+```
+
+As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
+
+```{python}
+college_decline_chart()
+```
+
+While the overall number of students is declining, the share of international students is increasing.
+
+```{python}
+higher_education_chart()
+```
+
+## Designing for College Students: Developing Personas
+
+Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. High levels of technology adoption worldwide [@deyangeorgiev39SmartphoneStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].
+
+Designing for College Students: Developing Personas. User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes. Humans have a long list of cognitive biases, which a good design should take into account.
+
+Many general observations can be made, however to create meaningful personas, these should be backed up with data. Students ride bicycles and scooters. Many circular economy service such as YouBike and transport sharing platforms like Uber are available in Taiwan. Many students live in dorms and shared housing, meaning their impact per square meter is low.
 
 ## Taiwanese Youth in the Global Context: Global and Local Attitudes Towards Sustainability
 
-Addressing the Research Gap When it Comes to Taiwanese College Students.  There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regards to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
+Addressing the Research Gap When it Comes to Taiwanese College Students. There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regards to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
 
 [@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of Postmaterialist Index Comparison, noting Taiwanese society is materialistic.
 
@@ -65,7 +91,6 @@ In August 2018, Swedish high-school student Greta Thunberg skipped class to star
 ```
 In Taiwan, the Fridays for Future protests were small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile 2000 Taiwanese students joined the initative by participating in environmental activities without protesting [@daiQuanQiuXueShengQiHouYunDongTaiWanXueShengZouChuZiJiDeLu2019]; Meanwhile Indonesia, Philippines, have had larger protests.
 
-
 ::: {.content-hidden unless-format="pdf"}
 ![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
 :::
@@ -78,37 +103,15 @@ In Taiwan, the Fridays for Future protests were small in scale, with no more tha
   refTitle="New Bloom Magazine"
 />
 ```
-
 This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. Both Confucianism and Daoism affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].
 
-## Taiwanese Education System, Confucianism, and Policy Environment
-
-Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
-
-```{python}
-genz_enrollment_chart()
-```
-
-As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
-
-```{python}
-college_decline_chart()
-```
-
-While the overall number of students is declining, the share of international students is increasing.
-
-```{python}
-higher_education_chart()
-```
-
-
 ### Sustainability Attitudes from Eco-Friendly Diet to Climate Action
-
-In general, Taiwanese teachers at all levels of education have a positive attitude towards sustainability.
 
 At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n=596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n=328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n=536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
 At the university level, [@chenMarineEnvironmentalAwareness2016] reports a *positive attitude yet moderate knowledge* about *ocean sustainability* among Taiwanese college students (n=825). [@liuDigitalCapabilityDigital2023] studied sustainability behavior of Taiwanese University students, reporting the COVID-19 pandemic, in addition to prevalence of health issues, also spurred more attention on environmental topics. In a similar vein, the devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education [@TiChuTan2011]. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n=100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015]. Taiwanese government has also launched funding for University Social Responsibility (USR) programs to train college students in social innovation and local revitalization [@chenSocialInnovationTaiwan2023; @liuRolesTaiwaneseUniversities2022].
+
+In general, it could concluded, Taiwanese students and teachers at all levels of education have a positive attitude towards sustainability, which is not a very actionable finding.
 
 Comparing college students' education for sustainable development (ESD) in Taiwan (n=617) and Sweden (n=583) found Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform [@berglundCrossculturalComparativeStudy2020].
 
@@ -118,7 +121,9 @@ compare_taiwan_sweden()
 
 An older study in 5 university in Taipei and Taichung (n=255) found 78.04% of respondents consumed beef in the month prior and were concerned with food safety, freshness, and quality [@hsuEffectFamilyBeef2014]. [@thiagarajahPlantbasedDietsWhat2017] reports a general observation in their abstract (I was unable to access the full study) that most college students in all observed countries including Taiwan (n=534) regarded "*plant-based diets to have health benefits"*.
 
-Internationally, there is extensive research on the attitudes of U.S. college students towards climate change. [@americanpressinstituteKnowingNewsHow2022] reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. [@schwartzClimateChangeAnxiety2022] reports some adult US students in a small study (18-35, n = 284) express feelings of insignificance of their actions to achieve any meaningful impact. [@thomaesGreenTeensUnderstanding2023] reports U.S. adolescents don't find sustainability relevant to their daily life. [@rossClimateChangeChallenge2016] says most people in the U.S. don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology".
+Internationally, there is extensive research on the attitudes of U.S. college students towards climate change. [@americanpressinstituteKnowingNewsHow2022] reports only 37% percent of U.S. Generation-Z and Millenials follow news related to environmental issues. [@schwartzClimateChangeAnxiety2022] reports some adult US students in a small study (18-35, n = 284) express feelings of insignificance of their actions to achieve any meaningful impact. [@thomaesGreenTeensUnderstanding2023] reports U.S. adolescents don't find sustainability relevant to their daily life. [@rossClimateChangeChallenge2016] says most people in the U.S. don't act on climate change. "Action on climate change has been compromised by uncertainty, aspects of human psychology". -
+
+[@creditsuisseYoungConsumersMay2022] suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question [@theeconomistHowSellYoung2023; @HowGenMillennials2023]. - [@woodGenCaresSustainability2022] suggests in the U.S. Gen-Z is willing to pay 10% more for ethically goods, spend 24% more on sustainable products than Generation X and 75% of Gen Z would prioritize sustainability over brand loyalty. Meanwhile Gen-Z in the U.S. are heavy users of online fashion shopping, Chinese cheap online store Shein overtakes Amazon as the most downloaded shopping app, while clothes resale apps such as Depop and ThredUp grow in popularity [@alexreiceMostEcoconsciousGeneration2021].
 
 -   In Portugal, Estonia, and elsewhere young people are suing companies for eco-problems: @florIstoNaoAcaba2024
 
@@ -132,7 +137,9 @@ Taiwanese college students are subjected to high levels of pollution. University
 
 -   Taiwan air pollution, the worst (highest PM2.5 concentration) were found in Changhua (24.5 µg/m³), Tainan (20.9 µg/m³), and Pingtong (20.7 µg/m³) [@changhsiung-fengTaiwanAir45th2024].
 
-Religion plays a role in air pollution: @tangRitualBurningThreatens2014
+-   There have been concerns about food safety in Taiwan.
+
+-   When disaster hits we need high levels of *social trust*. being part of community of trust makes it easier to act in unison. Religion is a type of community of trust. conversely, that can also have negative effects, as in Taiwan the expected behaviour of burning joss sticks and paper money, is a cause of air pollution [@tangRitualBurningThreatens2014]
 
 ### Climate Anxiety
 
@@ -146,7 +153,7 @@ A recent special issue of Behavioral Sciences magazine on Behavioral Science for
 
 -   Designing for Health and Sustainability: Health and sustainability are intrinsically connected. [@kjaergardHealthSustainability2014] shows how "understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"
 
--   Design for Human Rights [@unfcccSharmElSheikhImplementation2023]\] text refers to "human right to a clean, healthy and sustainable environment".
+-   Design for Human Rights [@unfcccSharmElSheikhImplementation2023] text refers to "human right to a clean, healthy and sustainable environment".
 
 -   Refi podcast: "people need agency".
 
@@ -161,7 +168,6 @@ Psychological factors influencing millenials to engage with sustainability [@nad
 ```{python}
 green_millenials()
 ```
-
 
 ## The Attitude-Behavior Gap
 
@@ -184,7 +190,6 @@ Progress in sustainability is possible but achieving results takes time and inno
 @DuJiaGuanChaDianZiFaPiao2025 reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receiptts are mandatory for all businesses. Taiwan's longstanding receipt lottery also hass specific prizes available only for digital receipts. @XingDongZhiFuJieHeYunDuanFaPiao2018
 
 Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
-
 
 ## Trends in Taiwanese Companies from Industry to Online Shopping
 
@@ -231,14 +236,29 @@ Meanwhile, @marclienHowGreenGap2022 Four millions British SMEs have no plan for 
 company_rank_chart()
 ```
 
-
 ## Financial Literacy Among Taiwanese Youth and Worldwide
 
-I was unable to find research on the Taiwanese gen-z financial literacy. 
+A recent nationwide study titled Youth Financial Health Basics (青少年財務健康基礎大調查) jointly conducted by the Taipei Fubon Bank and the Parent-Child Innovation Center (親子天下教育創新中心) between February 11 and March 9, 2025 found that over 65% of secondary schools incorporated financial-literacy courses into their curricula however 64% of Taiwanese youths (aged 15–18) exhibit low confidence and understanding of financial products and face significant fraud risk, with nearly 1/5 of the respondents encountering a scam in the past year [@LianHeXinWenWangTaiWan2025].
 
-However, in an older study, @i-chengyehDefaultCreditCard2009 analyzed usage data from 30,000 credit-card clients at an undisclosed major Taiwanese bank to predict next-month defaults, using 6 data-mining techniques including ANNs (AI Neural Networks) [@yehComparisonsDataMining2009]. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now. the data was donated by [@misc_default_of_credit_card_clients_350] and roughly 1 in 5 credit card clients (22.1%) of the dataset defaulted on their payment in the next month. Among the 9,618 clients aged 18–29 at the time of the study, 2,197 defaulted on their next‐month payment, yielding a default rate of 22.8%, slightly higher than the overall average. Meanwhile, among the 5,127 clients aged 18–26, 1,285 defaulted, yielding a rate of 25.1%, considerable higher than their older counterparts. Finally, among the 1,558 clients aged 18–23, 430 defaulted, a rate of 27.6%, pointing to a trend of younger people having higher default rates.
+| **Bank Accounts**                   | \% of Respondents |
+|-------------------------------------|------------------:|
+| Have at least one financial account |               80% |
+| **Have Heard of Financial Product** |  **% Unfamiliar** |
+| Savings accounts                    |               70% |
+| Mutual funds                        |               63% |
+| Stocks                              |               46% |
+| Deposit accounts                    |               30% |
+| **Prefers Payment Method**          |  **% Preference** |
+| Cash                                |               47% |
+| Family member pays                  |               47% |
+| EasyCard                            |                4% |
+| Mobile payments                     |                1% |
 
-**There's evidence young people have money.** In the United States, the combined annual consumer spending of Gen-Z and Millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
+: Compiled table of respondent account ownership, familiarity with financial products, and preferred payment methods, as reported in [@LianHeXinWenWangTaiWan2025].
+
+In a much older study, @i-chengyehDefaultCreditCard2009 analyzed usage data from 30,000 credit-card clients at an undisclosed major Taiwanese bank to predict next-month defaults, using 6 data-mining techniques including ANNs (AI Neural Networks) [@yehComparisonsDataMining2009]. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now. the data was donated by [@misc_default_of_credit_card_clients_350] and roughly 1 in 5 credit card clients (22.1%) of the dataset defaulted on their payment in the next month. Among the 9,618 clients aged 18–29 at the time of the study, 2,197 defaulted on their next‐month payment, yielding a default rate of 22.8%, slightly higher than the overall average. Meanwhile, among the 5,127 clients aged 18–26, 1,285 defaulted, yielding a rate of 25.1%, considerable higher than their older counterparts. Finally, among the 1,558 clients aged 18–23, 430 defaulted, a rate of 27.6%, pointing to a trend of younger people having higher default rates.
+
+Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
 | Place of Comparison | Financial Security Ownership |
 |---------------------|------------------------------|
@@ -248,45 +268,6 @@ However, in an older study, @i-chengyehDefaultCreditCard2009 analyzed usage data
 
 : From millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
-
-## Designing for College Students: Developing Personas
-
-User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes.
-
-There have been concerns about food safety in Taiwan.
-
-Humans have a long list of cognitive biases, which a good design should take into account.
-
-Students ride bicycles and scooters. Many circular economy service such as YouBike and transport sharing platforms like Uber are available.
-
-Many students live in dorms and shared housing, meaning their impact per square meter is low.
-
--   Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].
-
--   High levels of technology adoption worldwide
-
--   [@creditsuisseYoungConsumersMay2022] suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has ran a few anonymous articles calling gen-z green ideals into question [@theeconomistHowSellYoung2023; @HowGenMillennials2023].
-
--   @deyangeorgiev39SmartphoneStatistics2023
-
--   @alexreiceMostEcoconsciousGeneration2021
-
--   [@woodGenCaresSustainability2022] suggests in the U.S. Gen-Z is willing to pay 10% more for ethically goods, spend 24% more on sustainable products than Generation X and 75% of Gen Z would prioritize sustainability over brand loyalty.
-
-The above studies give foundation for creating a persona of a U.S. College Student who doesn't follow environmental news and thinks climate action doesn't make a difference. This doesn't necessarily mean this group of people with similar ideas would deny climate change is happening. Rather "Climate Denier" could be another persona, grouping people into a cohort who thinks climate change is not real. Further research would be needed to define relevant personas which have meaningful predictive and generalizing power.
-
-| Description           | Name  | Beliefs                       |
-|-----------------------|-------|-------------------------------|
-| Climate Change Denier | Jake  | Climate change doesn't exist. |
-|                       | Alice |                               |
-|                       | Sam   |                               |
-
-: College Student Personas
-
--   @crabbRantTerriblePersonas2023
-
-@RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
-
 ### AI Usage
 
 A large-scale (N=6000) survey of college students in Sweden showed these attitudes towards AI assistants (ChatGPT was by far the most prevalent app)
@@ -295,27 +276,7 @@ A large-scale (N=6000) survey of college students in Sweden showed these attitud
 college_chatbot()
 ```
 
-### Social Trust
-
--   When disaster hits we need high levels of social trust.
-
-
 -   In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
-
-
-### Community
-
-Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
-
--   Building a culture of sustainability? [@lakshmirebeccaManWhoGamifying2018; @armstrongCultivatingCulturesSustainability2021].
-
-The focus on *group consciousness* suggests community-based sustainability action may be effective.
-
-***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
-
-***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021]. - consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
-
-What are the building blocks of a thriving community?
 
 ***Luxury*** - Conversely, Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
 
@@ -326,7 +287,6 @@ What are the building blocks of a thriving community?
 ### Trends, Memes, and Media Currents
 
 In 2024 "underconsumption" and "deinfluencing" were trending on TikTok [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; tiktokDeinfluencing2024]
-
 
 -   The word "meme" was Coined by Richard Dawkins in 1976 in the context of biology.
 
