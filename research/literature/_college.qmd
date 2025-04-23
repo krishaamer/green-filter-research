@@ -8,6 +8,7 @@ warnings.filterwarnings("ignore")
 ```{=mdx}
 import Figure from "/src/components/Figure";
 import Geneve from "../images/college/geneve.jpg";
+import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literacy-youtube.png";
 import Taipei from "../images/college/taipei.jpg";
 ```
 # Young Adults and College Students
@@ -227,10 +228,10 @@ Meanwhile, Corporate Knights which has been ranking global sustainable companies
 taiwanese_company_ranking_chart()
 ```
 
-Meanwhile, @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transitio and @wareGreenSkillsGap2024 British workers lack skills for green transition. (2024 National Environmental Services Survey)
+Meanwhile, @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition and @wareGreenSkillsGap2024 British workers lack skills for green transition. (2024 National Environmental Services Survey)
 
 -   In Online Shopping, [@momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership].
--   intsifying competition, Coupang stepping on Shopee's and MOMO's toes @ShunFengFuChanKeSunpungSanbuingwa2024
+-   intensifying competition, Coupang stepping on Shopee's and MOMO's toes @ShunFengFuChanKeSunpungSanbuingwa2024
 
 ```{python}
 company_rank_chart()
@@ -238,25 +239,55 @@ company_rank_chart()
 
 ## Financial Literacy Among Taiwanese Youth and Worldwide
 
-A recent nationwide study titled Youth Financial Health Basics (青少年財務健康基礎大調查) jointly conducted by the Taipei Fubon Bank and the Parent-Child Innovation Center (親子天下教育創新中心) between February 11 and March 9, 2025 found that over 65% of secondary schools incorporated financial-literacy courses into their curricula however 64% of Taiwanese youths (aged 15–18) exhibit low confidence and understanding of financial products and face significant fraud risk, with nearly 1/5 of the respondents encountering a scam in the past year [@LianHeXinWenWangTaiWan2025].
+A recent nationwide study (n=1997) titled Youth Financial Health Basics (青少年財務健康基礎大調查) jointly conducted by the Taipei Fubon Bank and the Parent-Child Innovation Center (親子天下教育創新中心) between February 11 and March 9, 2025 found that over 65% of secondary schools incorporated financial-literacy courses into their curricula however 64% of Taiwanese youths (aged 15–18) exhibit low confidence and understanding of financial products and face significant fraud risk, with nearly 1/5 of the respondents encountering a scam in the past year, while 18% suffered actual financial losses [@LianHeXinWenWangTaiWan2025; @DiaoCha9XiJinRongZhiShi2025].
 
-| **Bank Accounts**                   | \% of Respondents |
-|-------------------------------------|------------------:|
-| Have at least one financial account |               80% |
-| **Have Heard of Financial Product** |  **% Unfamiliar** |
-| Savings accounts                    |               70% |
-| Mutual funds                        |               63% |
-| Stocks                              |               46% |
-| Deposit accounts                    |               30% |
-| **Prefers Payment Method**          |  **% Preference** |
-| Cash                                |               47% |
-| Family member pays                  |               47% |
-| EasyCard                            |                4% |
-| Mobile payments                     |                1% |
+| [**Banking**]{.underline}           | [% of Respondents]{.underline} |
+|-------------------------------------|-------------------------------:|
+| Have at least one financial account |                            80% |
+| [**Familiarity**]{.underline}       | [**% Unfamiliar**]{.underline} |
+| Savings accounts                    |                            70% |
+| Mutual funds                        |                            63% |
+| Stocks                              |                            46% |
+| Deposit accounts                    |                            30% |
+| [**Payments**]{.underline}          | [**% Preference**]{.underline} |
+| Cash                                |                            47% |
+| Family member pays                  |                            47% |
+| EasyCard                            |                             4% |
+| Mobile payments                     |                             1% |
 
 : Compiled table of respondent account ownership, familiarity with financial products, and preferred payment methods, as reported in [@LianHeXinWenWangTaiWan2025].
 
+Importantly for designing a financial app, while 80% of the survey respondents had received financial education at school, 90% of the students deemed the primary learning channel about financial knowledge to be on social media; and only 15% remember to have learned about credit-card usage [@DiaoCha9XiJinRongZhiShi2025].
+
 In a much older study, @i-chengyehDefaultCreditCard2009 analyzed usage data from 30,000 credit-card clients at an undisclosed major Taiwanese bank to predict next-month defaults, using 6 data-mining techniques including ANNs (AI Neural Networks) [@yehComparisonsDataMining2009]. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millenials or Gen-X by now. the data was donated by [@misc_default_of_credit_card_clients_350] and roughly 1 in 5 credit card clients (22.1%) of the dataset defaulted on their payment in the next month. Among the 9,618 clients aged 18–29 at the time of the study, 2,197 defaulted on their next‐month payment, yielding a default rate of 22.8%, slightly higher than the overall average. Meanwhile, among the 5,127 clients aged 18–26, 1,285 defaulted, yielding a rate of 25.1%, considerable higher than their older counterparts. Finally, among the 1,558 clients aged 18–23, 430 defaulted, a rate of 27.6%, pointing to a trend of younger people having higher default rates.
+
+A over-the-phone study (n=3000) conducted in 2022, found Taiwanese savings habits to have polarized, with over 60% either having no savings whatsoever or saving more than 1/2 of their annual income; 27% of respondents reported total savings below NT\$40,000; young adults' (aged 20–29) were the only group whose financial risk worsened, with 43% of the respondents having extremely low financial literacy, described as 金融文盲 (near “financial illiterate”) [@ZhongYangSheTaiWanJin2022].
+
+| Financial Literacy Among Taiwanese   | Very Low |   Low | Medium | High |
+|--------------------------------------|---------:|------:|-------:|-----:|
+| Overall financial literacy           |    43.2% | 34.9% |  19.4% | 2.5% |
+| Understanding products & services    |    34.0% | 38.6% |  23.1% | 4.3% |
+| Confidence using products & services |    30.0% | 26.8% |  37.6% | 5.6% |
+| Seeking financial advice             |    71.0% |  3.2% |  17.8% | 8.0% |
+| Personal money management            |    21.8% | 42.9% |  28.4% | 6.9% |
+
+: Financial literacy data from phone interviews, as reported in [@ZhongYangSheTaiWanJin2022].
+
+The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their survey in 2022 rated financial literacy among all youths 56.3 out of 100, below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].
+財金智慧FINLEA does publish online videos targeted at young people, however as of early 2025, they only have around 1000 subscribers on YouTube [@CaiJinZhiHuifinleaCaiJinZhiHuiFINLEAYouTube2020]. 
+
+::: {.content-hidden unless-format="pdf"}
+![財金智慧FINLEA YouTube Channel](./images/college/taiwan-financial-literacy-youtube.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="財金智慧FINLEA YouTube Channel"
+  src={FinancialLiteracyYouTube}
+  refURL="https://www.youtube.com/@FINLEAorgtw/featured"
+  refTitle="YouTube"
+/>
+```
 
 Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over 2.5 Trillion USD in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit 30 trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. There's also some evidence of investment interest, however there's large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
@@ -277,8 +308,6 @@ college_chatbot()
 ```
 
 -   In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
-
-***Luxury*** - Conversely, Taiwan is a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].
 
 ### Empowerment
 
