@@ -107,9 +107,11 @@ Many other jurisdictions also have laws that aim to reduce the environmental imp
 
 For instance Australia has a Product Stewardship (PS) scheme, which also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\].
 
-### Eco-Modulation: Building Upon Product Stewardship and Extended Producer Responsibility
+### Eco-Modulation: Incentive Design for Extended Producer Responsibility and Product Stewardship
 
 Eco-modulation means harder to recycle items are more expensive for the producer. Recycling fees take into account eco-design: an item from a single material is easier (cheaper) to recycle than product from composite materials.
+
+Eco-modulation makes the hidden cost of hard-to-recycle formats directly visible on the invoice.
 
 While Taiwan doesn't yet have a specific eco-design law, there are various pieces of legislation promoting circular economy \[ADD CITATION\]. Already in 1988 Taiwan implemented an Extended Producer Responsibility (EPR) scheme, followed by a recycling system (initially focused on electronic items) in 1998 [@chongProductStewardshipSchemes2009]. Eco-design initiatives in Taiwan started at least as early as 1994, when Taiwanese companies and universities noticed international sustainability trends and began to implement their own sustainable design initiatives [@jahaulewischenEcodesignActivitiesTaiwan2005].
 
@@ -1009,6 +1011,8 @@ World Cleanup Day has attracted 10s of millions of people to do beach and forest
 ## Learning from Quantified Self: Tracking Health and Lifestyle
 
 An early example of how tracking personal data enables behavior change, are health and lifestyle tracking apps. Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. There's substantial academic evidence indicating that health tracking apps can have a measurable impact on user health behaviors and increase positive health outcomes. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
+
+Recently, npj Biosensing published a device from the MIT Media Lab that can track cells inside the human body from a wrist-worn device [@jarvisWearableDeviceTracks2025; @jangWearableDeviceContinuous2025]
 
 ### Health and Fitness Tracking
 
