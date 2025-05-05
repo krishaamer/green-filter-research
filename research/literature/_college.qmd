@@ -143,7 +143,7 @@ A recent study demonstrate extreme industrial pollution in numerous sites at the
 The table below illustrates the types of emissions and environmental impacts large corporations in Taiwan produce. It should be noted, some of the corporations do buy carbon credits to offset their local adverse impact; for instance, 台積電 TSCM has purchased carbon credits, renewable energy, invested in the Taiwan Carbon Exchange to support greener companies, and joined international reporting initiatives, such as the Task Force on Climaterelated Financial Disclosures (TCFD) and Taskforce on Nature-related Financial Disclosures (TNFD) \[tsmcQiHouJiZiRan2023\].
 
 | Company | 2023 Mt CO₂e | Notable Problems | Data Source |
-|--------------------|----------------:|-----------------|-----------------|
+|-------------------|-----------------:|------------------|------------------|
 | 台電 Taipower | **93.33** | A single power plant in Taichung produces 26 Mt CO₂e | @JinZhouKanCOP29TaiZhong2024 |
 | 台塑化 (台塑集團) Formosa Petrochemical | **24.23** | 16 cases of fires and explosions between 2010 and 2020 | @OuYuXiang2023 |
 | 中鋼 China Steel | **18.07** | 60% of theCO₂e emissions come from 1 steel mill in Kaohsiung | @XiaoTingFangKongQiPin2021; @HuanJingZiXunZhongXinJiZheZongT2022 |
@@ -236,6 +236,7 @@ Meanwhile, @marclienHowGreenGap2022 Four millions British SMEs have no plan for 
 
 -   In Online Shopping, [@momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership].
 -   intensifying competition, Coupang stepping on Shopee's and MOMO's toes @ShunFengFuChanKeSunpungSanbuingwa2024
+-   Taiwanese environmental ministry is cracking down on illegal waste, with over 70 cases being prosecuted @HuanJing2025
 
 ```{python}
 company_rank_chart()
@@ -280,7 +281,7 @@ A over-the-phone study (n=3000) conducted in 2022, found Taiwanese savings habit
 The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their longtitudinal study, with the latest survey conducted in 2022 (n=2014; 1055 high-school; 959 university) rated financial literacy among all youths 56.3 out of 100 (53.8 in 2016 and 56.7 in 2007), always below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].
 
 | Knowledge Gap (2022) | \% Unaware |
-|---------------------------------------------------|--------------------:|
+|-------------------------------------------------|----------------------:|
 | Unsure that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |
 | Unsure which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |
 | Unsure how education level affects starting salary | 61% |

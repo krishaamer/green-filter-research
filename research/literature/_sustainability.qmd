@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production
 ```
 
 ```{=mdx}
@@ -40,6 +40,10 @@ Studies of Earth's climate go back for over 200 years, starting with Alexander v
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
 ```
 Environmental activists have been calling attention to global warming for decades, yet the world has been slow to act [@mckibbenEndNature1989]. While the scientific case for human-induced climate change was building, it took 120 years after Arrhenius' calculations, until the Paris Climate Agreement in 2016, that countries came to an agreement on non-binding targets on keeping CO~2~ levels 1.5 °C below pre-industrial levels (defined as 1850–1900)[@unitednationsParisAgreement2016]. Even though awareness of Earth's warming climate was growing ever stronger, the CO~2~ emissions kept rising too. The hockey-stick growth of CO~2~ concentration since the industrial revolution is clear in the data from 1958 onward, following a steady annual increase, called the *Keeling Curve* [@keelingAtmosphericMonthlySitu2017]. Written records of global temperature measurements are available starting from the 1880s, when temperatures began to be documented in ship logs [@BrohanClimate2012]. Finally, although perhaps less accurately, temperature estimations from tree-trunks allow some comparisons with the climate as far back as 2000 years ago [@rubinoLawDomeIce2019].
+
+Keeling Curve funding is Ralph Keeling is under thread, Scripps Institue
+
+The apparatures measures the absorbion of infrared light, which allows one to detect the amount of CO2 in the air. It also has an advanced calibration system where it makes measurements in air with a known quantity of gases. @worthingtonMakingAmericaDumb2025
 
 ::: {.content-hidden unless-format="pdf"}
 ![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png)
@@ -133,6 +137,9 @@ ndc_chart()
 ```
 
 Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
+
+
+@ministryofdigitalaffairsPingTai2024; @emberElectricityDataExplorer2025 based on data from Taiwanese government.
 
 ### Markets for Ecosystem Services: Pricing, Tracing, and Trading Nature's Assets
 
@@ -371,7 +378,6 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 
 *Social Cost of Carbon* attempts to measures the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
--   
 
 -   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
@@ -487,13 +493,13 @@ taiwan_pollution_reports_stacked()
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].
 
-*Design Implications* Start with the most polluted regigons as priority?
-
 **Air Pollution**
 
 Clean air is a proposed as a *human right* [@baronessjonesofmoulsecoombCleanAirHuman2023] yet air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million *premature deaths* every year [@worldhealthorganizationAmbientOutdoorAir2022].
 
-Air pollution is linked to cancer incidence. In Taiwan, South Korea, and England, groundbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals establishes exposure to 2.5μm PM (PM2.5) air pollution as a *cause for lung cancer.* In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong: *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."*
+Air pollution is linked to cancer incidence. In Taiwan, South Korea, and England, groundbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals establishes exposure to 2.5μm PM (PM2.5) air pollution as a *cause for lung cancer.* In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong explains it plainly, which I want to quote here in verbatim:
+
+> *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."*
 
 The main way to combat air pollution is through policy interventions. [@marialuisfernandesRealityCheckIndustrial2023] the EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. In China, [@guHiddenCostsNongreen2023] links air pollution to credit interest rates for business loans; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates. In France, [@bouscasseDesigningLocalAir2022] finds strong health and economic benefits across the board from air pollution reduction.
 
@@ -505,15 +511,13 @@ Globally, 4.4 billion people only have access to water that's not safe for drink
 
 -   Clean water and water pollution
 
--   @kochOpinionArizonaRace2022 (**Need access! NYC times)**
+-   In situations of water scarcity and draught, issues of water ownership become increasingly dire. [@naishadhamDroughtstrickenArizonaFresh2023 and @kochOpinionArizonaRace2022] describes a fight in the US over water usage rights in Arizona, where Fondomonte, a subsidiary of a Saudi Arabian company grows a water-hungry crop alfalfa, exacerbating the local water crisis, leading to public outcry and being sued for "public nuisance" for its excessive groundwater pumping, and finally cessation of its lease and operations on state land; but continuing operations on private land [@naishadhamArizonaCancelLeases2023].
 
 -   Paris cleans Seine river for Paris Olympics
 
 **Soil Pollution**
 
--   *"Wild and ruderal plants as bioindicators of global urban pollution by air, water and soil in Riyadh and Abha, Saudi Arabia"* [@picoWildRuderalPlants2023] uses wild and ruderal plants to detect pollution by air, water and soil.
--   Bioindicators of anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals.
--   Both Abha and Riyadh showed notable levels of pollutants while Riyadh with more industry showed higher levels.
+-   *"Wild and ruderal plants as bioindicators of global urban pollution by air, water and soil in Riyadh and Abha, Saudi Arabia"* [@picoWildRuderalPlants2023] uses wild and ruderal plants to detect pollution by air, water and soil. Bioindicators of anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals. Both Abha and Riyadh showed notable levels of pollutants while Riyadh with more industry showed higher levels.
 
 ### Disaster Preparedness and Climate Resilience
 
@@ -563,21 +567,11 @@ There are 2 main approaches to protecting nature:
 
 : From [@MonetaryValuationNature2023].
 
-### Individual Action
+### Ecological Restoration: Healing Damaged Ecosystems Through Agroforestry & Permaculture
 
-Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
+Some argue sustainability is not enough and we should work on *regeneration* of natural habitat. The UN announced 2021-2030 the Decade on Ecosystem Restoration, which includes a wide range of regenerative action [@fischerMakingDecadeEcosystem2021]. For instance, [@hanEmbeddingNaturebasedSolutions2022] identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 
-However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
-
-There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
-
-### Ecological Restoration: Healing Damaged Ecosystems
-
-Regenerative Action
-
--   [@hanEmbeddingNaturebasedSolutions2022] identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
-
-| Non-Exhaustive list of |
+| Non-Exhaustive list of Regenerative Actions |
 |------------------------|
 | Afforestation          |
 | Wetland restoration    |
@@ -585,28 +579,19 @@ Regenerative Action
 
 : From @hanEmbeddingNaturebasedSolutions2022
 
-Ecology, Agroforestry & Permaculture
+The organic food and drink market is growing worldwide, with gross sales in 2019 totalling over 106 billion euros, albeid being a small percentage of total food industry [@gamageRoleOrganicFarming2023]. Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO2 storage in the soil through agriculture and forestry using agroecological practices.
 
-Some argue sustainability is not enough and we should work on *regeneration* of natural habitats.
+In Ireland, [@irwinIncreasingTreeCover2023] studied dairy farmers' willingness to plant trees to increase vegetation cover on their land, finding that economic incentives alone are insufficient, and support in the form of advisory and education is needed. Similarly, in the Brazilian Amazon rainforest [@yadavExploringInnovationSustainable2023] finds the active participation of the local community in planning permaculture practices, enhances their acceptance and effectiveness. In Bangladesh, [@rubaPotentialityHomesteadAgroforestry2023] found agroforestry plays an active role in achieving the country's Sustainable Development Goals (SDGs), including zero hunger, climate action, mitigating climate change impacts through CO2 sequestration, life on land through biodiversity conservation and improving soil fertility, yet is hindered by the lack of policy support and educational level of the farmers. In the Baltic Sea region in North-Eastern Europe and Central Europe face similar challenges, [@balticseaactiongroupEITFoodRegenerative2023] pointing out farmers' traditional mindset as the biggest obstacle, describing the paradigm shift from extractive farming to regenerative agriculture, using techniques such as no-till farming, which reduces soil erosion and improve soil health by reducing synhetic imputs; yet, it's not only a single practice that is enough, regenerative agriculture is a holistic approach and agroecology education programmes need to be comprehehnsive.
 
-The UN announced 2021-2030 the Decade on Ecosystem Restoration [@fischerMakingDecadeEcosystem2021].
+[@lowMixedFarmingAgroforestry2023] futher studies how agroforestry deep integration into food value chains unlocks opportunties for recognition and rewards from economic actors in the network, underlining how complex and knowledge-heavy nature of value-capture, calling for further standardisation of practices to reward sustainability practices and ecosystem services. The challenge lies in that bioeconomy is not inherently sustainable and may put biodiversity at risk, depending on the level of industrialisation of agriculture and specific practices, which require deep knowledge and understanding of natural and artifical interactions the ecological systems; the authors advocate for a precise distinction between extractive and regenerative practices in "bioeconomy" [@ollinahoSeparatingTwoFaces2023]. Finally, taking Brazil as and example, [@dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023] argues for an integration of competing and comflicting bioeconomy policies, in order to achieve the goals of a sustainable bioeconomy.
 
--   Agroecology @balticseaactiongroupEITFoodRegenerative2023
+Svalbard Seed Vault is an example of seed conservation to safeguard biodiversity by storing backup seeds of plants from around the world in cold storage [@westengenGlobalExSituCrop2013]. Since its opening in 2008, the storage solution provided by the Norwegian government has stored seeds from from 123 genebanks in 85 countries around the world [@newSeedSamples2025]. [@vitalettiShareTinySpace2025] proposes using a blockchain-based lottery system to storage seeds in local refridgerators, in order to enhance resliance and ensure survivial of seeds, by storing seeds in many locations.
 
-Agroforestry plays an active role in achieving Sustainable Development Goals (SDGs) [@rubaPotentialityHomesteadAgroforestry2023];
+## Energy Production
 
--   Food forests for regenerative food systems.
--   Svalbard Seed Vault
--   @irwinIncreasingTreeCover2023
--   @yadavExploringInnovationSustainable2023
--   @lowMixedFarmingAgroforestry2023
--   @ollinahoSeparatingTwoFaces2023 "bioeconomy is not inherently sustainable and may pose considerable risks to biodiversity."
--   @dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023
--   @gamageRoleOrganicFarming2023 "Organic food and drink sales in 2019 totaled more than 106 billion euros worldwide."
+Geopolitical situations can affect technology adoption; after Russia's war in Ukraine, Europe needed to quickly reduce consuming cheap Russian fossil fuel energy (in the form of gas) [@bonasiaWindSolarEnergy2024]. In 2024, for first time in Europe, renewables in the form of wind and solar energy surged past production of fossil fuels [@grahamWindSolarOvertake2024; @beerWindSolarOvertake2024].
 
-Geopolitical situations can affect technology adoption; after Russia's war in Ukraine, Europe needed to quickly reduce consuming cheap Russan fossil fuel energy (in the form of gas) [@bonasiaWindSolarEnergy2024]. In 2024, for first time in Europe, renewables in the form of wind and solar energy surged past production of fossil fuels [@grahamWindSolarOvertake2024; @beerWindSolarOvertake2024]
-
-EU energy mix in 2024
+EU's energy mix in 2024
 
 ```{python}
 eu_energy_breakdown()
@@ -630,6 +615,10 @@ Meanwhile reduction in coal-power was also possible. Coal is a large CO2 emitter
 eu_coal_reduction()
 ```
 
+```{python}
+taiwan_energy_production()
+```
+
 "Climatech", Renewable Energy and Transforming Energy Production
 
 Large technology conglomerates and newly founded startups working in climate solutions space (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones.
@@ -640,10 +629,18 @@ Each technology has their own pros and cons. [@vitilloRoleCarbonCapture2022] ill
 
 -   **Important: "creating sustainability trust in companies in realtime"**
 
-## Navigating Complexity: Towards Probabilistic Risk-Based Assessment in Sustainability
+## Navigating Complexity with Data: Towards Probabilistic Risk-Based Assessment in Sustainability
 
 Sustainability is a complex web of interconnections.
 
 -   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millennia to develop. humans create hugely complex systems instead of simply conserving nature.
 
 -   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* -was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+
+### Individual Action
+
+Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high [see coverage by @martinez-alierMappingEcologicalDistribution2021 and @martinez-alierReplyOrihuelaExtractivism2022 as well as @scheidelEnvironmentalConflictsDefenders2020].
+
+However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
+
+There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.

@@ -1,0 +1,201 @@
+country_or_region,year,variable,generation_twh
+Taiwan,2000,Wind,0.0
+Taiwan,2001,Wind,0.01
+Taiwan,2002,Wind,0.02
+Taiwan,2003,Wind,0.02
+Taiwan,2004,Wind,0.03
+Taiwan,2005,Wind,0.09
+Taiwan,2006,Wind,0.28
+Taiwan,2007,Wind,0.44
+Taiwan,2008,Wind,0.59
+Taiwan,2009,Wind,0.79
+Taiwan,2010,Wind,1.03
+Taiwan,2011,Wind,1.49
+Taiwan,2012,Wind,1.41
+Taiwan,2013,Wind,1.64
+Taiwan,2014,Wind,1.5
+Taiwan,2015,Wind,1.53
+Taiwan,2016,Wind,1.46
+Taiwan,2017,Wind,1.72
+Taiwan,2018,Wind,1.71
+Taiwan,2019,Wind,1.89
+Taiwan,2020,Wind,2.31
+Taiwan,2021,Wind,2.27
+Taiwan,2022,Wind,3.58
+Taiwan,2023,Wind,6.2
+Taiwan,2024,Wind,10.3
+Taiwan,2000,Other Fossil,32.2
+Taiwan,2001,Other Fossil,26.9
+Taiwan,2002,Other Fossil,21.74
+Taiwan,2003,Other Fossil,20.05
+Taiwan,2004,Other Fossil,17.99
+Taiwan,2005,Other Fossil,17.72
+Taiwan,2006,Other Fossil,20.43
+Taiwan,2007,Other Fossil,17.31
+Taiwan,2008,Other Fossil,15.44
+Taiwan,2009,Other Fossil,9.66
+Taiwan,2010,Other Fossil,11.4
+Taiwan,2011,Other Fossil,9.7
+Taiwan,2012,Other Fossil,7.8
+Taiwan,2013,Other Fossil,6.98
+Taiwan,2014,Other Fossil,8.2
+Taiwan,2015,Other Fossil,12.26
+Taiwan,2016,Other Fossil,12.17
+Taiwan,2017,Other Fossil,12.99
+Taiwan,2018,Other Fossil,8.35
+Taiwan,2019,Other Fossil,5.98
+Taiwan,2020,Other Fossil,4.51
+Taiwan,2021,Other Fossil,5.44
+Taiwan,2022,Other Fossil,4.54
+Taiwan,2023,Other Fossil,3.85
+Taiwan,2024,Other Fossil,4.39
+Taiwan,2000,Bioenergy,1.05
+Taiwan,2001,Bioenergy,1.32
+Taiwan,2002,Bioenergy,1.6
+Taiwan,2003,Bioenergy,1.77
+Taiwan,2004,Bioenergy,1.85
+Taiwan,2005,Bioenergy,1.85
+Taiwan,2006,Bioenergy,1.85
+Taiwan,2007,Bioenergy,1.88
+Taiwan,2008,Bioenergy,1.82
+Taiwan,2009,Bioenergy,1.75
+Taiwan,2010,Bioenergy,1.83
+Taiwan,2011,Bioenergy,1.83
+Taiwan,2012,Bioenergy,1.83
+Taiwan,2013,Bioenergy,1.85
+Taiwan,2014,Bioenergy,1.91
+Taiwan,2015,Bioenergy,1.94
+Taiwan,2016,Bioenergy,1.9
+Taiwan,2017,Bioenergy,1.86
+Taiwan,2018,Bioenergy,1.97
+Taiwan,2019,Bioenergy,1.99
+Taiwan,2020,Bioenergy,1.99
+Taiwan,2021,Bioenergy,2.01
+Taiwan,2022,Bioenergy,1.98
+Taiwan,2023,Bioenergy,1.95
+Taiwan,2024,Bioenergy,1.93
+Taiwan,2000,Gas,18.32
+Taiwan,2001,Gas,21.25
+Taiwan,2002,Gas,27.07
+Taiwan,2003,Gas,29.29
+Taiwan,2004,Gas,37.2
+Taiwan,2005,Gas,40.1
+Taiwan,2006,Gas,41.3
+Taiwan,2007,Gas,46.34
+Taiwan,2008,Gas,49.82
+Taiwan,2009,Gas,48.57
+Taiwan,2010,Gas,61.68
+Taiwan,2011,Gas,65.66
+Taiwan,2012,Gas,67.82
+Taiwan,2013,Gas,70.06
+Taiwan,2014,Gas,74.78
+Taiwan,2015,Gas,80.8
+Taiwan,2016,Gas,85.23
+Taiwan,2017,Gas,93.41
+Taiwan,2018,Gas,94.46
+Taiwan,2019,Gas,93.2
+Taiwan,2020,Gas,102.03
+Taiwan,2021,Gas,110.59
+Taiwan,2022,Gas,114.3
+Taiwan,2023,Gas,113.89
+Taiwan,2024,Gas,124.72
+Taiwan,2000,Hydro,4.56
+Taiwan,2001,Hydro,5.09
+Taiwan,2002,Hydro,2.78
+Taiwan,2003,Hydro,3.03
+Taiwan,2004,Hydro,3.21
+Taiwan,2005,Hydro,4.07
+Taiwan,2006,Hydro,4.09
+Taiwan,2007,Hydro,4.42
+Taiwan,2008,Hydro,4.31
+Taiwan,2009,Hydro,3.75
+Taiwan,2010,Hydro,4.19
+Taiwan,2011,Hydro,4.0
+Taiwan,2012,Hydro,5.67
+Taiwan,2013,Hydro,5.42
+Taiwan,2014,Hydro,4.32
+Taiwan,2015,Hydro,4.47
+Taiwan,2016,Hydro,6.56
+Taiwan,2017,Hydro,5.45
+Taiwan,2018,Hydro,4.48
+Taiwan,2019,Hydro,5.54
+Taiwan,2020,Hydro,3.02
+Taiwan,2021,Hydro,3.47
+Taiwan,2022,Hydro,5.84
+Taiwan,2023,Hydro,3.96
+Taiwan,2024,Hydro,4.2
+Taiwan,2000,Nuclear,38.5
+Taiwan,2001,Nuclear,35.49
+Taiwan,2002,Nuclear,39.55
+Taiwan,2003,Nuclear,38.89
+Taiwan,2004,Nuclear,39.49
+Taiwan,2005,Nuclear,39.97
+Taiwan,2006,Nuclear,39.87
+Taiwan,2007,Nuclear,40.54
+Taiwan,2008,Nuclear,40.83
+Taiwan,2009,Nuclear,41.57
+Taiwan,2010,Nuclear,41.63
+Taiwan,2011,Nuclear,42.12
+Taiwan,2012,Nuclear,40.42
+Taiwan,2013,Nuclear,41.64
+Taiwan,2014,Nuclear,42.39
+Taiwan,2015,Nuclear,36.47
+Taiwan,2016,Nuclear,31.66
+Taiwan,2017,Nuclear,22.45
+Taiwan,2018,Nuclear,27.68
+Taiwan,2019,Nuclear,32.32
+Taiwan,2020,Nuclear,31.44
+Taiwan,2021,Nuclear,27.79
+Taiwan,2022,Nuclear,23.75
+Taiwan,2023,Nuclear,17.8
+Taiwan,2024,Nuclear,12.17
+Taiwan,2000,Coal,90.21
+Taiwan,2001,Coal,98.47
+Taiwan,2002,Coal,106.08
+Taiwan,2003,Coal,116.01
+Taiwan,2004,Coal,118.64
+Taiwan,2005,Coal,123.7
+Taiwan,2006,Coal,127.72
+Taiwan,2007,Coal,132.18
+Taiwan,2008,Coal,125.5
+Taiwan,2009,Coal,123.95
+Taiwan,2010,Coal,125.27
+Taiwan,2011,Coal,127.29
+Taiwan,2012,Coal,125.26
+Taiwan,2013,Coal,124.42
+Taiwan,2014,Coal,126.33
+Taiwan,2015,Coal,119.82
+Taiwan,2016,Coal,124.02
+Taiwan,2017,Coal,130.71
+Taiwan,2018,Coal,134.18
+Taiwan,2019,Coal,129.25
+Taiwan,2020,Coal,128.62
+Taiwan,2021,Coal,131.49
+Taiwan,2022,Coal,123.52
+Taiwan,2023,Coal,121.58
+Taiwan,2024,Coal,115.73
+Taiwan,2000,Solar,0.0
+Taiwan,2001,Solar,0.0
+Taiwan,2002,Solar,0.0
+Taiwan,2003,Solar,0.0
+Taiwan,2004,Solar,0.0
+Taiwan,2005,Solar,0.0
+Taiwan,2006,Solar,0.0
+Taiwan,2007,Solar,0.0
+Taiwan,2008,Solar,0.0
+Taiwan,2009,Solar,0.01
+Taiwan,2010,Solar,0.02
+Taiwan,2011,Solar,0.06
+Taiwan,2012,Solar,0.16
+Taiwan,2013,Solar,0.32
+Taiwan,2014,Solar,0.53
+Taiwan,2015,Solar,0.85
+Taiwan,2016,Solar,1.11
+Taiwan,2017,Solar,1.67
+Taiwan,2018,Solar,2.7
+Taiwan,2019,Solar,4.02
+Taiwan,2020,Solar,6.07
+Taiwan,2021,Solar,7.97
+Taiwan,2022,Solar,10.68
+Taiwan,2023,Solar,12.91
+Taiwan,2024,Solar,14.91

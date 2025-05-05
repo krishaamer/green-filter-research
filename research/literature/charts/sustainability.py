@@ -403,3 +403,52 @@ def taiwan_pollution_reports_stacked():
     # Show the chart with tight layout
     plt.tight_layout()
     plt.show()
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+
+def taiwan_energy_production():
+    file_path = os.path.join(data_dir, 'ember-taiwan-energy.csv')
+    df = pd.read_csv(file_path)
+    
+    df_taiwan = df[df['country_or_region'] == 'Taiwan']
+    pivot = df_taiwan.pivot(index='year', columns='variable', values='generation_twh')
+    
+    # Prepare callout labels
+    last_year = pivot.index.max()
+    end_vals = pivot.loc[last_year]
+    labels = end_vals.index.tolist()
+    vals = end_vals.values
+    
+    sorted_idx = np.argsort(vals)
+    sorted_labels = [labels[i] for i in sorted_idx]
+    y_min, y_max = vals.min(), vals.max()
+    spaced_ys = np.linspace(y_min, y_max, len(sorted_labels))
+    label_y = {sorted_labels[i]: spaced_ys[i] for i in range(len(sorted_labels))}
+    
+    # Plot
+    plt.figure(figsize=(12, 6))
+    for src in pivot.columns:
+        plt.plot(pivot.index, pivot[src], linewidth=2)
+        plt.annotate(
+            src,
+            xy=(last_year, pivot[src].iloc[-1]),
+            xytext=(last_year + 1, label_y[src]),
+            textcoords='data',
+            va='center',
+            fontsize=10,
+            weight='bold',
+            bbox=dict(boxstyle='round,pad=0.3', alpha=0.5),
+            arrowprops=dict(arrowstyle='-', lw=0.5)
+        )
+    
+    plt.title("Electricity Generation by Source in Taiwan (Absolute TWh)")
+    plt.xlabel("Year")
+    plt.ylabel("Generation (TWh)")
+    plt.xlim(pivot.index.min(), last_year + 3)
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
