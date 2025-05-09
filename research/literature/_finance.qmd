@@ -19,31 +19,31 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## Convergence of Money
+## The Convergence of Money
 
-“Money is information… it shouldn’t be more expensive or slower than sending an email.” (K. Käärmann, Co-Founder of the Wise money transfer )
+### From Democratization of Finance to Sustainability Superapps
 
-Democratization of Finance
+This chapter explores how money could incorporate sustainability as a feature.
 
-All-in-One Shopping, Saving, and Investing Superapps
+> “Money is information… it shouldn’t be more expensive or slower than sending an email.” (K. Käärmann, Co-Founder of the Wise , formerly known as Transferwise, money transfer platform), said in 2018 [@kaarmannWhyDoesTransferWise2018]
 
-### Sustainability-as-a-Feature
+*Money* itself is changing and the meaning of money is becoming more diverse. Traditionally money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. We also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, which are all types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
-### Does the Democratization of Finance Create a Path for Sustainability in Superapps?
+Digital money in it's various forms connects industries on popular financial mobile apps, which make money more accessible and socially engaging, appealing to people who are active online. Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
 
-This chapter explores the growing trend of financial democratization, which includes consumer apps that enable new user interactions which increasingly blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. The efforts to boost user numbers have driven apps that started out with only payments-focused businesses - such as Revolut and N26 - branch out into offering savings accounts and investing options.
+The journey from consumer to investor is increasingly simple because of the *democratization of finance.* While consumers are beginning to become more money-savvy, they still lack many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved.
 
-While the journey from consumer to investor is increasingly simple because of the *democratization of finance*, the critical question is: do people choose to support sustainability-focused companies - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability?
+Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
 
-Shopping, saving, and investing are converging on digital platforms (super-apps) that permeate our daily financial lives, with features such basic banking, payments, transfers, as well as reward and cashback programs (Rakuten), round-up to next dollar with automated micro-investing (e.g. Acorn, Stash, Swedbank), and retail investing (Robinhood, Public) and copy-trading (eToro) into various (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and other alternative assets.
+### Helping Consumers Allocate Capital to Sustainability
 
-Consumers are beginning to become more money-savvy yet are still missing many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may have the potential to boost financial literacy levels and entice consumers to learn more about taking advantage of their opportunities financial markets - as well as how to manage the types or risk involved.
+Regardless if it's money spent on shopping or money saved and invested, these are all consumers' financial decisions of *capital allocation*. In one way or another, people are giving their money to companies. The critical question is: *do people choose to support sustainability-focused companies* - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability? While all financial transactions support economic growth in the sense of being reflected in the Gross Domestic Product (GDP), not all money flows equally support sustainable economic growth.
 
-Money is becoming more diverse and the meaning of money itself is changing. We have the fiat money created by governments by law, using central banks, which loan money to commercial banks. And we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases, which keep track of transactions (who-paid-whom). Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment. Digital money in it's various forms connects industries on the same apps, which make investing more accessible and socially engaging, appealing to younger people who are active in social media and online shopping.
+Sustainable capital allocation methods are many. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
 
-### Capital Allocation for Sustainability
+, Can the democratization of various uses of money include sustainability as a feature?
 
-Regardless of if it's money spent on shopping or money saved and invested, these are all financial decisions of *capital allocation*, and in one way or another, we're giving our money to companies pushing economic growth. Empowering consumers to access finance through digital technologies and delivering a simple UX (user experience) – i.e. the fintech trend of the last 2 decades -, includes financial products creating pathways towards sustainability-focused investing. Sustainable capital allocation methods are many. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
+-, includes financial products creating pathways towards sustainability-focused investing.
 
 ESG (Environmental, Social, and Corporate Governance)
 
@@ -53,9 +53,9 @@ Trend of sustainably, how can sustainability become more accessible? People want
 fintech_chart()
 ```
 
-Fintechs can growth fast; Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% doing $75M - $100M in revenue per annum, and 1.3 million customers [@RankingCanadasTop2024].
+Fintechs can growth fast; Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, in Canada, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
 
-### The New Rules of Money: Evolving Financial Legislation From MiFID II to ESG
+### The New Rules of Money: Evolving Financial Legislation From ESG to MiFID II
 
 Legislation is Catching Up With Fintechs. Legislation sets higher standards.
 
@@ -944,9 +944,9 @@ William Nordhaus won a Nobel Prize in 2018 for attempting to combine climate cha
 
 Energy and climate change economist Noah Kaufman says economists don't understand climate and climate scientists don't understand economics; and calls out economic calculations which try to estimate climate damages over hundreds of years or find a price for climate equilibrium, as nonsensical [@dessler2ClimateEconomicsNoah2024]. Instead, in a recent paper, co-written with another Nobel prize-winning economist, Joseph Stiglitz, they argue economics can solve climate change though a risk-management approach for policy support, focusing on lowering climate risk by achieving net-zero carbon emissions [@stiglitzHowEconomicsCan2024].
 
-While Nordhaus has been critized for his numbers, the general idea of his early book titled "The Climate Casino" doesn't disagree. Nordhaus himself likens the current trajectory of climate change to humanity entering a "climate casino," where we're is gambling with the planet's future [@nordhausClimateCasinoRisk2013]. Written a decade later, Nordhaus asks if we can still exit the casino, and is much more pessimistic than in his early work [@instituteofinternationalandeuropeanaffairsiieaCanWorldStill2023].
+While Nordhaus has been criticized for his numbers, the general idea of his early book titled "The Climate Casino" doesn't disagree. Nordhaus himself likens the current trajectory of climate change to humanity entering a "climate casino," where we're is gambling with the planet's future [@nordhausClimateCasinoRisk2013]. Written a decade later, Nordhaus asks if we can still exit the casino, and is much more pessimistic than in his early work [@instituteofinternationalandeuropeanaffairsiieaCanWorldStill2023].
 
-Although over 100 different scientific journals now publish work on sustainability economics, the field remains highly fragmented, with little interaction between research clusters. A bibliometric study of 1987–2013 publications found 11 largely self‑contained research clusters, with minimal cross‑citation; for example the Nordhaus‑style integrated‑assessment‑modelling literature had almost no overlap with another promiment researcher, Elinor Ostrom, whose work focuses on commons governance within sustainability economics [@druppOstromNordhausResearch2020].
+Although over 100 different scientific journals now publish work on sustainability economics, the field remains highly fragmented, with little interaction between research clusters. A bibliometric study of 1987–2013 publications found 11 largely self‑contained research clusters, with minimal cross‑citation; for example the Nordhaus‑style integrated‑assessment‑modeling literature had almost no overlap with another prominent researcher, Elinor Ostrom, whose work focuses on commons governance within sustainability economics [@druppOstromNordhausResearch2020].
 
 Kaufman decries the lack of real-world data in the economic-climate models, and believes the simple assumptions should be replaced with much more complex scientific analysis [@dessler2ClimateEconomicsNoah2024].
 
@@ -1057,7 +1057,6 @@ ck_carbon_productivity()
 ### Certification
 
 Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
-
 
 +-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Type        | Rating System                      | What it does                                                                                                                                                                             |
