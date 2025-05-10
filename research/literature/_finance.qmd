@@ -27,21 +27,26 @@ This chapter explores how money could incorporate sustainability as a feature.
 
 *Money* itself is changing and the meaning of money is becoming more diverse. Traditionally money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. We also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, which are all types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
-### Fintech: Democratization of Finance as a Precursor to Building Sustainability Superapps
+### Spurred by Fintech: The Democratization of Finance as a Precursor to Sustainable Superapps
 
-Digital money in it's various forms connects industries on popular financial mobile apps, which make money more accessible and socially engaging, appealing to people who are active online. Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
+Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance*enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
 
-The journey from consumer to investor is increasingly simple because of the *democratization of finance.* While consumers are beginning to become more money-savvy, they still lack many key concepts from financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved.
-
-Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
+Fintechs can growth really fast. Just last year in Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
 
 ```{python}
 fintech_chart()
 ```
 
-Fintechs can growth fast. In Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
+While consumers are beginning to become more money-savvy, they still lack financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved.
 
-### New Rules of Money: Legislative Efforts Empower Consumers to Allocate Capital to Sustainability
+-   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
+-   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
+
+Retail investors typically have less financial literacy.
+
+Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
+
+### New Rules of Money: Legislative Efforts to Empower Consumers Direct Capital to Sustainability
 
 Regardless if it's money spent on shopping or money saved and invested, these are all consumers' financial decisions of *capital allocation*. In one way or another, people are giving their money to companies. The critical question is: *do people choose to support sustainability-focused companies* - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability? While all financial transactions support economic growth in the sense of being reflected in the Gross Domestic Product (GDP), not all money flows equally support sustainable economic growth.
 
@@ -63,11 +68,9 @@ Sustainable capital allocation methods are many. The extent to which this funnel
 
 Trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
-### ESG Criteria Provides a Shared Language Yet Falls Short From Promise
+### Environmental, Social, and Corporate Governance (ESG) Criteria Provides a Shared Language
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
-
-ESG is in crisis
 
 Countering Misinformation with Transparency
 
@@ -130,9 +133,7 @@ fund_types_chart()
 
 Three frameworks for corporate to think about ESG compliance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
 
-### Governance: Boards, Policy, and Investor Pressure
-
-Governance in ESG is the *“G that makes E and S happen”* or put in another way: governance drives social and environmental initiatives at companies.
+Governance: Boards, Policy, and Investor Pressure Governance in ESG is the *“G that makes E and S happen”* or put in another way: governance drives social and environmental initiatives at companies.
 
 MSCI research finds company boards severely lacking in climate experts; among the 164 large CO2 emitters benchmarks by the *Climate Action 100+* alliance [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
 
@@ -276,7 +277,9 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-### ESG (Social): Slavery Still Exists and Worsens Sustainability
+### Modern Slavery Persists and Worsens Sustainability: ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
+
+ESG is in crisis.
 
 In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. ILO estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024].
 
@@ -292,8 +295,6 @@ slavery_laws()
 
 Slavery is connected to environmental degradation, and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
 
-### ESG (Social): How to Trace Worker's Rights
-
 While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions.
 
 -   "commodification of human beings"
@@ -302,33 +303,9 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
     -   @WorkerVoice2022 Worker Voice apps.
 
-## One Wallet to Rule Them All: Shopping, Saving, and Investings
+## Shopping, Saving, and Investings: One Wallet to Rule Them All
 
-## Shopping
-
-#### Shopping Environmental Footprint Driven by Social Commerce and AI Assistants
-
-Online Shopping impact. Single's day, etc.
-
-Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] "Asia is set to account for 50% of the world's total online retail sales".
-
-It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
-
-```{python}
-shopping_growth()
-```
-
-[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
-
-```{python}
-social_commerce_chart()
-```
-
-In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
-
-important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
-
-#### Consumer Activits are a Small Minority
+#### Consumer Activits are Only a Small Minority
 
 *Conscious consumers* make up a small percentage of the entire consumer public. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
@@ -354,7 +331,31 @@ Make use of indexes to compare companies.
 
 For consumer activism to become mainstream it needs to much simpler.
 
-#### Mobile Wallets In Taiwan
+#### Shopping's Environmental Footprint is Driven by Digital Platforms, Social Commerce, and AI Assistants
+
+Online Shopping impact. Single's day, etc.
+
+Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] "Asia is set to account for 50% of the world's total online retail sales".
+
+It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
+
+```{python}
+shopping_growth()
+```
+
+[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
+
+```{python}
+social_commerce_chart()
+```
+
+In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
+
+important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
+
+#### The Evolution of Payments from Mobile Wallets to Buy Now Pay Later Globally and In Taiwan
+
+Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
 | Payment App                   | Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Users in Taiwan | Origin        |
@@ -384,11 +385,7 @@ For consumer activism to become mainstream it needs to much simpler.
 
 : Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan]
 
-#### Payments
-
 Banks and Fintechs Capture User Data. Payments are an Entry Point and Source of Consumer Action Data, Shopping Data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing? ESG Shopping is about Changing our relationship with money. Make commerce more transparent. Current shopping is like having a one-night stand. you barely know the name of your company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
-
-Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
 Digitalisation of payments creates lots of Point of Sale (PoS) data that's valuable to understand what people buy. Banks have access to each person's financial habits which makes it possible to model sustainable behavior using big data analysis. Asian markets have shown the fastest growth in the use of digital payments [@mckinseyNextFrontierAsia2020].
 
@@ -571,39 +568,25 @@ Alipay is by far the largest payments super-app and provides two investment serv
 | Trine | Loans to eco-projects | trine.com | USA | ? | Yes | No | No | Yes |  |
 | Ziglu | UK simple investing app | ziglu.io | UK | ? | Yes | No | No | No |  |
 
-#### Buy Now Pay Later
-
 Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success story innovated by Klarna in Sweden in 2005 and Afterpay in Australia in 2015 but with roots in Layaway Programs created during the 1930's US Great Depression [@kentonWhatLayawayPlan2023]. By 2021, 44.1% of Gen-Z in the US had used BNPL according to [@emarketerAlmost75BNPL2021]. Gen-Z mostly use BNPL to buy clothes [@lhvBuyNowPay2024].
 
-## Saving
+### The Psychology Saving: Anthropomorphism and Loyalty Schemes
 
-There are two ways to look at sustainable saving. This section is going to look at savings in the financial sense of the word. Savings in the sense of CO2e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
+There are at least two ways to look at sustainable savings, however related. This section looks at savings in the *financial* sense of the word. Savings in the sense of CO~2~e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
 
 > *Environmental Savings* means *"the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future*" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
 
-Savings in CO~2~ Equivalent Emissions: CO~2~ savings are the amount of CO2e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means. Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet.
+Savings in CO~2~e equivalent emissions: CO~2~e savings are the amount of CO~2~e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
 
-#### Saving Money
+Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022].
 
-Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world.
+Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. One experimental study showed people think about putting money in a “safe” place and *money anthropomorphism* increased saving behavior by 18%[@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021]. Nerdwallet's [@tommytindallFinancialActionsSpeak2023] suggests making *financial commitment*s instead of resolutions, in order to successfully save money.
 
-#### Psychology of Saving
-
-Savings and investing are conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves.
-
-Nerdwallet's @tommytindallFinancialActionsSpeak2023 suggests making financial commitments instead of resolutions.
-
-People will only save nature if it also saves money.
+In general, people will save nature if it also saves money.
 
 -   Ethical Savings [@EthicalSavingsEverything2023]
 
-#### Anthropomorphism
-
-People think about putting money in a “Safe” place: money anthropomorphism increases saving behavior [@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021].
-
-#### Loyalty Schemes
-
-help consumers save money and business increase repeat business. Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to a strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
+Help consumers save money and business increase repeat business. Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to a strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
 
 | Company           | Scheme                     |
 |-------------------|----------------------------|
@@ -615,9 +598,7 @@ help consumers save money and business increase repeat business. Building custom
 
 Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
 
-## Investing
-
-#### Measuring the Eco-Investment Gap
+### Measuring the Eco-Investment Gap and Growing Money Sustainably
 
 By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022].
 
@@ -723,7 +704,7 @@ While these assets and GDP values reflect different aspects of the global econom
 
 -   @oecdOECDEconomicOutlook2024 projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the @worldbankGlobalEconomicProspects2024 is more conservative projecting 2.6% and 2.7% respectively.
 
-#### Sustainable Investing
+### Sustainable Investing
 
 While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
 
@@ -731,7 +712,7 @@ While literature has been debating if it's possible to *"do well while doing goo
 
 "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
-#### Young Investors Follow Financial Influencers
+### Young Investors Follow Financial Influencers
 
 Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
 
@@ -769,13 +750,6 @@ In South Korea,
     Influencer - crypto twitter connections
 
 -   Cryto influencers like combine beauty with investing @irenezhaoHereWhy0xIreneDao2022
-
-#### Financial Literacy
-
--   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
--   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
-
-Retail investors typically have less financial literacy.
 
 #### Retail Investing Enables Financial Inclusion
 
@@ -815,7 +789,7 @@ Among retail investors, there's some appetite for sustainability however investo
 
 -   Gamestop for climate massively collaborative investing by gen-z?
 
-#### Financial Ecologies
+### Financial Ecologies
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
@@ -825,7 +799,7 @@ Among retail investors, there's some appetite for sustainability however investo
 
 -   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
-#### Green and Sustainability-Linked Bonds
+### Green and Sustainability-Linked Bonds
 
 Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps.
 
@@ -845,7 +819,7 @@ world_bank_bonds()
 
 Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
-#### Investment Platforms
+### Investment Platforms
 
 "Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"
 
@@ -870,7 +844,7 @@ There are many 'green investment platforms' who to trust?
 
 -   Open Banking: "Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. " investing into good companies
 
-#### Hedge Funds
+### Hedge Funds
 
 Hedge funds generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
 
@@ -892,7 +866,7 @@ It's how the wealthier people invest.
 
 -   Angelist
 
-#### Investable Asset Classes: Growing Choice for Retail Investors
+### Growing Choice of Investable Asset Classes for Retail Investors from Stocks and Commodities to Real-Estate, Digital Tokens, and Lending
 
 new asset classes
 
@@ -916,35 +890,29 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchain makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 
-#### Assets: Nature-Backed Assets
+### Assets: Nature-Backed Assets
 
 -   single.earth etc
 
-#### Assets: Commodities
+Commodities are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut.
 
--   Retail investors can now buy cold and silver.
+Real-estate is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, potentally providing a passive income stream in the form of rent. According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
 
-#### Assets: Real Estate
+Stocks are the most popular assets class with a long history and highly accessible to retail investor, albeit usually at the cost of a trading fee.
 
-According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
+Lending is an attractive assets class with a significant social impacts providing opportunities to small farmers and other participants in the money markets while offering the lender a return, all possible through online apps and platforms. Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
 
-Investing into real-estate is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, also providing a passive income stream in the form of rent.
+### Increasing Fusion of Traditional Finance and Decentralized Finance (DeFi)
 
-#### Assets: Stocks
+Crypto-assets and digital tokens (known as DeFi or decentralized finance) are a highly accessible yet risky asset class, offering investment opportunities to anyone with a mobile phone and internet access. The low entry barrier makes crypto among the most potentially inclusive forms of investment, though bearing significant risks, as well as regulatory challenges in some countries. Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025. A Brazilian study (N=573) found "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
--   Most popular
+Taiwan has an active market for crypto-assets while with some limitations. In 2022, the Taiwan government banned buying cryptocurrencies with credit card quoting the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
 
-#### Assets: Lending
+Crypto enables significant potential for financial engineering and innovation by anyone with some programming skills.
 
-Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
+Centralized Crypto Exchanges vs Self-Wallets - Centralized Crypto Exchanges are in essence loaning assets from the user. "The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards" [@hesterm.peirceSECGovStatement2022].
 
-#### Assets: Crypto
-
-There's a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024].
-
-Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people (ADD CITATION) yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025.
-
-Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
+There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024].
 
 -   @LetsDeFiDeFi Crypto DeFi education
 
@@ -954,15 +922,7 @@ Brazilian (N=573 ) "Crypto investors in Brazil are generally younger, male, and 
 
 -   @finmaApprovalFirstSwiss2021 First crypto fund
 
--   @raidotonissonSedaAktsionaridOstaksid2022 due to a law change Estonian could take out their pensions and invest or spend them however they wanted.
-
-**Centralized Crypto Exchanges vs Self-Wallets** - Centralized Crypto Exchanges are in essence loaning assets from the user. "The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards" [@hesterm.peirceSECGovStatement2022].
-
-**Financial Engineering** - Crypto enables financial innovation and financial engineering by anyone with some programming skills.
-
 **Pricing Crypto**
-
--   Taiwan bans buying cryptocurrencies with credit card because the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
 
 -   However volatility is relative. Volatile national currencies lead people to find other assets to hold. If your national currency is collapsing, you might find crypto has a relative safe haven to keep your funds.
 
@@ -1051,19 +1011,19 @@ Efforts to connec carbon markets, carbonmark.com
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-### Divesting
+### Divesting as a Form of Supporting Sustainability
 
-Divesting is the inverse of investing. Divesting may have a meaningful impact on companies if large numbers of retail investors collaborate on 'banning' the company to send a message to the board. Small individual divestment has no impact on the governance decisions.
-
-In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
+If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
 
 University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
+
+Divesting is the inverse of investing. Divesting may have a meaningful impact on companies if large numbers of retail investors collaborate on 'banning' the company to send a message to the board. Small individual divestment has no impact on the governance decisions.
 
 While divesting makes news headlines, even divestment by large institutional investors, such as the Norwegian National Pension Fund (GPFG), has a negligible effect on the heavy polluters' business; by the same logic, it can be deducted, the financial effect of retail investors divesting, is meaningless. If retail investors act in aggregate, the reputational effect needs further research. *"To halt climate change, some investors have decided to divest from fossil fuel companies. Reviewing the literature suggests that divestment from fossil fuel has limited financial consequences; it slightly increases divested firms’ risk and their cost of capital, while reducing divested firms’ market value,"* is the pessimistic conclusion by[@plantingaFinancePerspectiveFossil2024]
 
 -   Even with divesting from oil and has, Norway Government Pension Fund Global (GPFG) still adheres to the Markowitz's Modern Portfolio Theory (MPT), with enough diversification between assets [@papaioannouSovereignWealthFund2015]
 
-## Economics: Attempts to Decouple Economic Growth from Eco-Degradation
+## The Economics of Decoupling: Attempts to Disconnect Economic Growth from Eco-Degradation
 
 Is the "eco" in ecology and economy the same? Oîkos, the Greek word for “household”, seeds two modern disciplines: ecology studies how the home works; economy sets the rules for managing it. The two have drifted apart: one guarding planetary health, the other chasing growth. This chapter reunites them by asking: how do we measure prosperity without wrecking our home?
 
@@ -1181,7 +1141,7 @@ Although over 100 different scientific journals now publish work on sustainabili
 
 Kaufman decries the lack of real-world data in the economic-climate models, and believes the simple assumptions should be replaced with much more complex scientific analysis [@dessler2ClimateEconomicsNoah2024].
 
-## Battling the Problem of Greenwashing: From Data-Driven Benchmarks to Transparency
+## Efforts to Curb Greenwashing: From Data-Driven Benchmarks to Fighting for Transparency
 
 Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
@@ -1203,8 +1163,6 @@ The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the
 
 ### Traceability Curbs Corruption
 
-Traceability
-
 EU Deforestation Regulation (EUDR)
 
 Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]
@@ -1219,7 +1177,7 @@ Transaction Traceability
 
 To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
-### Product Databases
+### Product Databases as a Precursor for Traceability and Supply Chain Mapping
 
 In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. GS1 is the organization responsible for issuing EAN/UPC barcodes found on most consumer products worldwide [@gs1EANUPCBarcodes]. However, while the UPC stands for Universal Product Code, there is no truly centralized, authoritative database of all UPCs, which has led to duplication and inconsistency across products sharing the same codes, especially with the rise of e-commerce marketplaces [@semantics3WhyUPCDoesn2017]. As early as 2016, [@hakonbogenThereGlobalDatabase2016] raised questions whether a global database of all EAN (European Article Number) barcoded products could be created. Barcodes help identify products within supply chains and retail systems, but they do not alone create a central product registry. On a basic level, standardized product codes ensures product inventory, traceability, automated checkout, and support global trade. All of the world's products already are subject to one or another standard and although they are not uniform, some documentation does exist about every product.
 
@@ -1229,7 +1187,7 @@ In a similar vein, @konradA16zCryptoLeads imagines the possibility of an interne
 
 While some infrastructure exists, including bar and qr-codes, standards, and partial databases, the world still lacks a unified, reliable, open-access product database. Building such a system could be improve sustainability assessments, supply chain transparency, and informed consumer choices at the global scale.
 
-### Indices From Certifications and Sustainability Standards Do Matter
+### Indices, Certifications and Sustainability Standards Enable Product Comparisons
 
 Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
@@ -1245,7 +1203,7 @@ Sustainability indices need transparency and standardization [@bolognesiMappingS
 
 Based on Corporate Knights data [@corporateknightsGlobal1002024]
 
-Energy productivity and carbon productivity are a measure how intensive the product is per unit of productivity
+Energy productivity and carbon productivity are a measure how intensive the product is per unit of productivity.
 
 Energy productivity
 
@@ -1358,7 +1316,7 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   @ravenpackCorpMovementESG2021
 
-## Risk-Based Assessment of Sustainability Credits
+### Risk-Based Assessment of Sustainability Credits
 
 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
