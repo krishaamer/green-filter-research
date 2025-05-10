@@ -1109,7 +1109,7 @@ The city of Amsterdam is developing shorter food chains (which save CO~2e~) and 
 
 ### Decarbonization Scenarios
 
-The possibility of decoupling economic growth from CO~2e~ emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+The possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
 
 ```{python}
 climate_scenarios_chart()
