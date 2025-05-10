@@ -70,15 +70,13 @@ Trend of sustainably, how can sustainability become more accessible? People want
 
 ### Environmental, Social, and Corporate Governance (ESG) Criteria Provides a Shared Language
 
-Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
-
-Countering Misinformation with Transparency
-
-ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities - a case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another recent example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
+Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. The ESG criteria has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics holding the potential for countering misinformation with transparency.
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
-[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years.
+ESG ratings give banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities. A case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
+
+[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG began to outperform the traditional ACWI only in the past few years.
 
 ```{python}
 msci_esg_leaders()
@@ -86,8 +84,6 @@ msci_esg_leaders()
 
 -   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
-
-Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
 ```{python}
 companies_triple_perf()
@@ -900,11 +896,13 @@ world_bank_bonds()
 
 Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
-### Fusion of Traditional Finance and Decentralized Finance (DeFi)
+### Fusion of Traditional and Decentralized Finance (DeFi): The Rise of Stablecoins
 
 Crypto-assets and digital tokens (known as DeFi or decentralized finance) are a highly accessible yet risky asset class, offering investment opportunities to anyone with a mobile phone and internet access. The low entry barrier makes crypto among the most potentially inclusive forms of investment, though bearing significant risks, as well as regulatory challenges in some countries. Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025. A Brazilian study (N=573) found "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
 Taiwan has an active market for crypto-assets while with some limitations. In 2022, the Taiwan government banned buying cryptocurrencies with credit card quoting the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
+
+In 2024-25, stablecoins emerged as the prominent technology to link traditional and decentralized finance, bridging different forms of money between systems, enabling seamless integration. This is a key design feature, as the users likely won’t care about “crypto” vs “bank” as it's all just *digital money*.
 
 Crypto enables significant potential for financial engineering and innovation by anyone with some programming skills.
 
@@ -1162,6 +1160,8 @@ The Taiwanese Corporate Governance 3.0 - Sustainable Development Roadmap 3.0, pu
 The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]
 
 ### Traceability Curbs Corruption
+
+Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
 EU Deforestation Regulation (EUDR)
 
