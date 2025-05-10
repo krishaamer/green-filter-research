@@ -21,7 +21,7 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```
 ## The Convergence of Money
 
-### From Democratization of Finance to Sustainability Superapps
+### Democratization of Finance as a Precursor to Sustainability
 
 This chapter explores how money could incorporate sustainability as a feature.
 
@@ -69,7 +69,7 @@ While the above trend is for governments to adapt to and work towards their envi
 
 [@pwc2022GrowthOpportunity2020] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
-## One Wallet to Rule Them All: Shopping, Saving, and Investings
+## One Wallet to Rule Them All: Shopping, Saving, and Investings Superapps
 
 ### Shopping
 
@@ -852,7 +852,7 @@ Measuring wellbeing in addition to GDP and the metric should including resilienc
 
 -   The true cost of products is hidden. The work is hidden.
 
-#### The Evolution of Economics: New Metrics
+#### The Evolution of Economic Metrics
 
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
@@ -868,7 +868,7 @@ The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland,
 
 There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
-#### Uncovering Hidden Costs: Pricing Externalities
+#### Hidden Costs: Pricing Externalities
 
 Markets mis‑price “home maintenance.”
 
@@ -970,14 +970,6 @@ While the EU has proposed legislation to curb greenwashing, EU climate policy it
 
 In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
 
-### Sustainability Standards
-
-[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
-
--   There are many standards.
-
--   Most sustainable companies. Make a database?
-
 ### Anti-greenwashing efforts in Taiwan
 
 The Taiwanese Green Citizens Action Alliance published a comprehensive report in 2024 tracking Taiwanese Corporate Sustainability Reporting focused directly at fighting corporate greenwashing [@LuSeGongMinXingDongLianMengDaZaoFanPiaoLuShengTaiXi2024].
@@ -986,7 +978,7 @@ The Taiwanese Corporate Governance 3.0 - Sustainable Development Roadmap 3.0, pu
 
 The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]
 
-### Traceability
+### Traceability Curbs Corruption
 
 Traceability
 
@@ -994,15 +986,13 @@ EU Deforestation Regulation (EUDR)
 
 Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]
 
-**The founder of Sourcemap** Leonardo Bonanni \*\*started with doing product autopsy in 2015 to assess products [@*\*FastFashionLere2023]
+**The founder of Sourcemap** Leonardo Bonanni \*\*started with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
 
 What data should be surfaced to the consumer?
 
 Supply Chain Mapping
 
 Transaction Traceability
-
-### Corruption
 
 To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
@@ -1026,17 +1016,15 @@ While some infrastructure exists, including bar and qr-codes, standards, and par
 
 [@yukselConstructingIndexParticipation2023] criticizes excessive financialization where the real economy and financial markets disconnected, blaming it for the the 2008 economic crisis, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
-### Credit-Scoring
-
-Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indexes make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
-
 ### Risk-Based Assessment of Sustainability Credits
 
--   [@francesschwartzkopffFirmsArenReporting2022] "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative."
+"Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
 -   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
 
-### Indices
+### Indices: Certification From Sustainability Standards to B-Corporations
+
+Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indices make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
 
 Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
@@ -1054,7 +1042,11 @@ Carbon productivity
 ck_carbon_productivity()
 ```
 
-### Certification
+[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
+
+-   There are many standards.
+
+-   Most sustainable companies. Make a database?
 
 Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a "green premium" and a "certified green premium," indicating increased WTP for bio-based and certified bio-based products"* [@moroneConsumerWillingnessPay2021]. Particulary in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
@@ -1137,8 +1129,6 @@ Existing rankings
 -   Ethical Shopping
 -   @Top100Consumer Largest consumer goods companies
 
-### B Corporations
-
 B Corporations undergo strict assessment and adhere to stringent sustainability practices.
 
 -   B Impact Assessment
@@ -1153,7 +1143,7 @@ B Corporations undergo strict assessment and adhere to stringent sustainability 
 
 -   @ravenpackCorpMovementESG2021
 
-## ESG: Promise, Practice, and Pitfalls
+## ESG Crisis: Promise and Pitfalls
 
 Countering Misinformation with Transparency
 
@@ -1169,7 +1159,7 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 msci_esg_leaders()
 ```
 
--   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*.
+-   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
@@ -1185,6 +1175,38 @@ companies_triple_perf()
 -   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto
 
 -   Snowflake analysis like Simply Wallstreet
+
+The promise of ESG is to counter misinformation with transparency.
+
+ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023].
+
+The lack of rigor is creating a backlash against ESG reporting.[@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative". @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
+
+ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
+
+A meta-review of 136 research articles discovered the following ESG-rating agencies.
+
+```{python}
+esg_rating_agencies_chart()
+```
+
+-   ESG greenwashing @baldiRoleESGScoring2022
+-   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
+-   @agnewRIPESG2022 RIP ESG
+
+[@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
+
+```{python}
+conventional_vs_sri_funds()
+```
+
+-   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
+
+```{python}
+fund_types_chart()
+```
+
+Three frameworks for corporate to think about ESG compliance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
 
 ### Governance: Boards, Policy, and Investor Pressure
 
@@ -1234,47 +1256,7 @@ esg_fintech_heatmap()
 
 In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
 
-### ESG (Crisis)
-
-The promise of ESG is to counter misinformation with transparency.
-
-ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023].
-
-The lack of rigor is creating a backlash against ESG reporting.[@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative". @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
-
--   ESG greenwashing @baldiRoleESGScoring2022
--   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
--   @agnewRIPESG2022 RIP ESG
--   @luoESGLiquidityStock2022 found firms with a lower ESG score are more profitable.
-
-[@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
-
-```{python}
-conventional_vs_sri_funds()
-```
-
--   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
-
-```{python}
-fund_types_chart()
-```
-
-Three frameworks for corporate to think about ESG compliance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
-
-### ESG (Methodologies)
-
--   ESG Needs Standardisation
--   Environmental, Social, and Corporate Governance (ESG)
-
-A meta-review of 136 research articles discovered the following ESG-rating agencies.
-
-```{python}
-esg_rating_agencies_chart()
-```
-
--   "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
-
-### ESG (Shared Language)
+### ESG Provides a Shared Language
 
 ESG Becomes a Shared Language.
 
@@ -1400,7 +1382,6 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
 -   "commodification of human beings"
 
--   Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*.
+-   Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*. \[@timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
 
     -   @WorkerVoice2022 Worker Voice apps.
-    -   @timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
