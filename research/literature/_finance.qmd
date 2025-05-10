@@ -696,11 +696,11 @@ While these assets and GDP values reflect different aspects of the global econom
 
 -   @oecdOECDEconomicOutlook2024 projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the @worldbankGlobalEconomicProspects2024 is more conservative projecting 2.6% and 2.7% respectively.
 
-### Retail Investing Enables Financial Inclusion
+### Retail Investing Enables Financial Inclusion and Growing Money Sustainably
 
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
-Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019].
+Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019]. While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals [@tanPerformanceESGintegratedSmart2023]. "sustainable investing is now part of mainstream financial strategy" [@morganstanleySustainableSignalsIndividual2019].
 
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
 
@@ -733,14 +733,6 @@ Among retail investors, there's some appetite for sustainability however investo
 -   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
 
 -   Gamestop for climate massively collaborative investing by gen-z?
-
-### Growing Money Sustainably
-
-While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
-
-"sustainable investing is now part of mainstream financial strategy" @morganstanleySustainableSignalsIndividual2019
-
-"Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
 ### Young Investors Follow Financial Influencers
 
@@ -781,8 +773,6 @@ In South Korea,
 
 -   Cryto influencers like combine beauty with investing @irenezhaoHereWhy0xIreneDao2022
 
--   
-
 ### Financial Ecologies
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
@@ -793,29 +783,9 @@ In South Korea,
 
 -   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
-### Green and Sustainability-Linked Bonds
+### Inaccesible for Retail Investors: Futures, Hedge Funds, Private Equity, and Venture Capital
 
-Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps.
-
-Access is not universal and availability depends on the geography of the user and local legislation; for example Revolut, the most downloaded finance app in the EU, only enabled bond investing for European customers in summer 2024 [@revolutRevolutUnlocksBonds2024; @revolutOur2023Annual2024]. Investing in bonds is a form of *Passive Investing* and allows investors focus on low-risk passive income instead of daily stock investing most popular on Robinhood and Revolut - albeit with much less potential for returns.
-
--   Climate Bonds Initiative is working on greening the \$55 trillion short-term debt (bond) market [@ClimateBondsInitiative2022].
-
-*Green bonds* are released by companies, international organizations, and cities to raise money for green transformation, usually for building something to improve sustainability, tied to specific projects. There's a growing global trend in green bond emission, with 257 Billion USD worth of green bonds issued in 2019, expected to reach 1 Trillion USD annually by 2030 [@macaskillThereGreenPremium2021]. That prediction was too low with 870 Billion USD green bond emissions reached already in 2023; currently Europe is the largest emitter of green bonds [@climatebondsClimateBondsInteractive2023]. China has the 2nd largest green bond market in the world and it's growing fast; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@pengManagingFinancingCosts2022; @liWhereGreenBond2022].
-
-In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city [@cityofmalmoGreenBondFramework2017]. An independent analysis found bonds may not be emitted for financial reasons but to improve the reputation and city image, lower interest rate (aptly named *greenium*) with a similar in returns to traditional bonds - and have their share of challenges, namely being difficult to certify, monitor, report and measure impact of [@sjostromFinancingSustainableCity2020].
-
-Making sure a green bond is truly supporting sustainability is a challenge. For example, Aramco, the Saudi Arabian public petroleum and natural gas company faced scrutiny for what critics deemed as 'Fake green bonds' [@anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022]. Green bonds can also be emitted on blockchains with the stated goal of improving transparency. Hong Kong multi-currency green bond on the blockchain. The issuer (Hong Kong government) hopes to reduce greenwashing [@hallHKBreaksNew2024; @kitanoHongKongHarnesses2024]. In the EU as well, there are emerging tools for monitoring green bonds on blockchain [@christodoulouBlockchainbasedFrameworkEffective2023]. [@qinBlockchainMarketGreen2023] finds evidence that the combination of green bonds and blockchains are an enabler carbon neutrality in China. The World Bank successfully raised 110 Million USD in Australia in 2018-19 and has since doubled the amount in a new 220 Million USD emission in Switzerland using bonds on a blockchain ledger for SDG-related projects [@worldbankWorldBankPartners2024; @worldbankWorldBankIssues2019; @worldbankWorldBankPrices2018].
-
-```{python}
-world_bank_bonds()
-```
-
-Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
-
-### Hedge Funds
-
-Hedge funds generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
+*Hedge funds* generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
 
 It's how the wealthier people invest.
 
@@ -835,7 +805,7 @@ It's how the wealthier people invest.
 
 -   Angelist
 
-### Investable Asset Classes and Platforms: Growing Choice for Retail Investors from Stocks and Commodities to Real-Estate, Digital Tokens, and Lending
+### Investable Asset Classes and Platforms: Retail Investors' Increasing Exposure to Stocks, Bonds, Commodities, Real-Estate, Digital Tokens, Lending, and Alternatives
 
 "Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"
 
@@ -882,19 +852,55 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchain makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 
-### Assets: Towards Nature-Backed Assets
+### Nature-Backed Assets
+
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Asset Type**                       | **Description**                                                                                                                                        |
++======================================+========================================================================================================================================================+
+| **Carbon Credits and Offsets**       | Represent avoided or removed CO₂e emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Biodiversity Credits**             | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard    |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Water Rights and Wetland Credits** | Represent rights to access water or preserve/restore wetlands which can be traded                                                                      |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Conservation Finance Instruments** | Represent bonds or funds that protect forests, coral reefs, or species habitats                                                                        |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Natural Asset Companies (NACs)**   | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights                                                                |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Tokenized Natural Resources**      | Represent blockchain-based representations of nature (e.g., tokenized forest hectares)                                                                 |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 -   single.earth etc
 
-Commodities are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut.
+*Commodities* are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut.
 
-Real-estate is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, potentally providing a passive income stream in the form of rent. According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
+*Real-estate* is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, potentally providing a passive income stream in the form of rent. According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
 
-Stocks are the most popular assets class with a long history and highly accessible to retail investor, albeit usually at the cost of a trading fee.
+*Stocks* are the most popular assets class with a long history and highly accessible to retail investor, albeit usually at the cost of a trading fee.
 
-Lending is an attractive assets class with a significant social impacts providing opportunities to small farmers and other participants in the money markets while offering the lender a return, all possible through online apps and platforms. Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
+*Lending* is an attractive assets class with a significant social impacts providing opportunities to small farmers and other participants in the money markets while offering the lender a return, all possible through online apps and platforms. Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
 
-### Increasing Fusion of Traditional Finance and Decentralized Finance (DeFi)
+### Green and Sustainability-Linked Bonds
+
+Bonds are a form of debt investment also known as an fixed-income asset where the principal is repaid at the maturation date of the bond (usually in years) with an added premium. Individuals can't emit bonds but they can invest in them. It can be a way to invest locally in one's own city - or globally. For individuals, there's access to some green bond exposure through ETFs (exchange-traded funds) available on retail investing apps.
+
+Access is not universal and availability depends on the geography of the user and local legislation; for example Revolut, the most downloaded finance app in the EU, only enabled bond investing for European customers in summer 2024 [@revolutRevolutUnlocksBonds2024; @revolutOur2023Annual2024]. Investing in bonds is a form of *Passive Investing* and allows investors focus on low-risk passive income instead of daily stock investing most popular on Robinhood and Revolut - albeit with much less potential for returns.
+
+-   Climate Bonds Initiative is working on greening the \$55 trillion short-term debt (bond) market [@ClimateBondsInitiative2022].
+
+*Green bonds* are released by companies, international organizations, and cities to raise money for green transformation, usually for building something to improve sustainability, tied to specific projects. There's a growing global trend in green bond emission, with 257 Billion USD worth of green bonds issued in 2019, expected to reach 1 Trillion USD annually by 2030 [@macaskillThereGreenPremium2021]. That prediction was too low with 870 Billion USD green bond emissions reached already in 2023; currently Europe is the largest emitter of green bonds [@climatebondsClimateBondsInteractive2023]. China has the 2nd largest green bond market in the world and it's growing fast; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@pengManagingFinancingCosts2022; @liWhereGreenBond2022].
+
+In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city [@cityofmalmoGreenBondFramework2017]. An independent analysis found bonds may not be emitted for financial reasons but to improve the reputation and city image, lower interest rate (aptly named *greenium*) with a similar in returns to traditional bonds - and have their share of challenges, namely being difficult to certify, monitor, report and measure impact of [@sjostromFinancingSustainableCity2020].
+
+Making sure a green bond is truly supporting sustainability is a challenge. For example, Aramco, the Saudi Arabian public petroleum and natural gas company faced scrutiny for what critics deemed as 'Fake green bonds' [@anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022]. Green bonds can also be emitted on blockchains with the stated goal of improving transparency. Hong Kong multi-currency green bond on the blockchain. The issuer (Hong Kong government) hopes to reduce greenwashing [@hallHKBreaksNew2024; @kitanoHongKongHarnesses2024]. In the EU as well, there are emerging tools for monitoring green bonds on blockchain [@christodoulouBlockchainbasedFrameworkEffective2023]. [@qinBlockchainMarketGreen2023] finds evidence that the combination of green bonds and blockchains are an enabler carbon neutrality in China. The World Bank successfully raised 110 Million USD in Australia in 2018-19 and has since doubled the amount in a new 220 Million USD emission in Switzerland using bonds on a blockchain ledger for SDG-related projects [@worldbankWorldBankPartners2024; @worldbankWorldBankIssues2019; @worldbankWorldBankPrices2018].
+
+```{python}
+world_bank_bonds()
+```
+
+Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
+
+### Fusion of Traditional Finance and Decentralized Finance (DeFi)
 
 Crypto-assets and digital tokens (known as DeFi or decentralized finance) are a highly accessible yet risky asset class, offering investment opportunities to anyone with a mobile phone and internet access. The low entry barrier makes crypto among the most potentially inclusive forms of investment, though bearing significant risks, as well as regulatory challenges in some countries. Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025. A Brazilian study (N=573) found "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
@@ -1003,9 +1009,11 @@ Efforts to connec carbon markets, carbonmark.com
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-### Divesting as a Form of Supporting Sustainability
+### Divestment as a Form of Supporting Sustainability
 
 If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
+
+"Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
 University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
 
