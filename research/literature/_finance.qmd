@@ -19,7 +19,7 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## The Convergence of Money
+## The Convergence of Money: One Wallet to Rule Shopping, Saving, and Investing
 
 This chapter explores how money could incorporate sustainability as a feature.
 
@@ -29,7 +29,7 @@ This chapter explores how money could incorporate sustainability as a feature.
 
 ### Spurred by Fintech: The Democratization of Finance as a Precursor to Sustainable Superapps
 
-Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance*enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
+Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance* enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
 
 Fintechs can growth really fast. Just last year in Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
 
@@ -46,7 +46,7 @@ Retail investors typically have less financial literacy.
 
 Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
 
-### New Rules of Money: Legislative Efforts to Empower Consumers Direct Capital to Sustainability
+### New Rules of Money: Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
 
 Regardless if it's money spent on shopping or money saved and invested, these are all consumers' financial decisions of *capital allocation*. In one way or another, people are giving their money to companies. The critical question is: *do people choose to support sustainability-focused companies* - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability? While all financial transactions support economic growth in the sense of being reflected in the Gross Domestic Product (GDP), not all money flows equally support sustainable economic growth.
 
@@ -303,23 +303,15 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
     -   @WorkerVoice2022 Worker Voice apps.
 
-## Shopping, Saving, and Investings: One Wallet to Rule Them All
-
 #### Consumer Activits are Only a Small Minority
 
-*Conscious consumers* make up a small percentage of the entire consumer public. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
+Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. Yet *conscious consumers* only make up a small percentage of the entire consumer public, making individual action close to meaningless. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
--   Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
-
--   Is Sustainable Shopping possible? "Learn to notice so we can preserve", "Õpetame märkama, et oskaksime hoida". "Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target?
-
-Recognition precedes protection. An Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019].
+-   Is Sustainable Shopping possible? Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target? Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
 
 sustainable consumption relationships in Europe.
 
-```{python}1}
-sustainable_consumption_relationships()
-```
+`{python}1} sustainable_consumption_relationships()`
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
@@ -598,7 +590,7 @@ Help consumers save money and business increase repeat business. Building custom
 
 Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
 
-### Measuring the Eco-Investment Gap and Growing Money Sustainably
+### Sustainable Investing: Measuring the Eco-Investment Gap
 
 By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022].
 
@@ -704,7 +696,45 @@ While these assets and GDP values reflect different aspects of the global econom
 
 -   @oecdOECDEconomicOutlook2024 projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the @worldbankGlobalEconomicProspects2024 is more conservative projecting 2.6% and 2.7% respectively.
 
-### Sustainable Investing
+### Retail Investing Enables Financial Inclusion
+
+*Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
+
+Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019].
+
+-   Consumption is ruining the world the world thinking as an investor the investor mindset
+
+@doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
+
+@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
+
+-   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however
+
+-   @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level"
+
+-   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
+
+-   For example - In Sweden "Preferences for sustainable and responsible equity funds
+
+-   Sweden is a in countries with highly developed financial markets and active social campaigns demanding sustainability (Sweden)
+
+-   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice experiment with Swedish private investors.
+
+-   @MeetFintechsLeading2021 Sweden is the home for several green fintech companies, including Doconomy and Trine.
+
+-   Gov launching ESG funds.
+
+-   Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products.
+
+-   Personalized Investing
+
+-   2022 saw a wave of new platforms aiming to make investing easier for retail investors
+
+-   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
+
+-   Gamestop for climate massively collaborative investing by gen-z?
+
+### Growing Money Sustainably
 
 While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals. @tanPerformanceESGintegratedSmart2023
 
@@ -751,43 +781,7 @@ In South Korea,
 
 -   Cryto influencers like combine beauty with investing @irenezhaoHereWhy0xIreneDao2022
 
-#### Retail Investing Enables Financial Inclusion
-
-*Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
-
-Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019].
-
--   Consumption is ruining the world the world thinking as an investor the investor mindset
-
-@doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
-
-@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
-
--   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however
-
--   @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level"
-
--   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
-
--   For example - In Sweden "Preferences for sustainable and responsible equity funds
-
--   Sweden is a in countries with highly developed financial markets and active social campaigns demanding sustainability (Sweden)
-
--   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice experiment with Swedish private investors.
-
--   @MeetFintechsLeading2021 Sweden is the home for several green fintech companies, including Doconomy and Trine.
-
--   Gov launching ESG funds.
-
--   Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products.
-
--   Personalized Investing
-
--   2022 saw a wave of new platforms aiming to make investing easier for retail investors
-
--   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
-
--   Gamestop for climate massively collaborative investing by gen-z?
+-   
 
 ### Financial Ecologies
 
@@ -819,7 +813,29 @@ world_bank_bonds()
 
 Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
-### Investment Platforms
+### Hedge Funds
+
+Hedge funds generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
+
+It's how the wealthier people invest.
+
+-   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
+
+[@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies.
+
+-   @nathanreiffDecentralizedAutonomousOrganization2023
+
+-   @ianbezekItTimeEveryone2021
+
+-   @ESGHedgeFunds2021
+
+-   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
+
+-   Most successful investor invest together
+
+-   Angelist
+
+### Investable Asset Classes and Platforms: Growing Choice for Retail Investors from Stocks and Commodities to Real-Estate, Digital Tokens, and Lending
 
 "Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"
 
@@ -844,30 +860,6 @@ There are many 'green investment platforms' who to trust?
 
 -   Open Banking: "Open Banking offers massive potential for improving online customer experience. That potential starts with the payment experience, which then generates a positive ripple effect through the entire customer journey. " investing into good companies
 
-### Hedge Funds
-
-Hedge funds generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
-
-It's how the wealthier people invest.
-
--   While hedge funds used to be available for professional investors, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing.
-
-[@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies.
-
--   @nathanreiffDecentralizedAutonomousOrganization2023
-
--   @ianbezekItTimeEveryone2021
-
--   @ESGHedgeFunds2021
-
--   @hedgeHedgeMakeHedge2023: Make a hedge fund with your friends
-
--   Most successful investor invest together
-
--   Angelist
-
-### Growing Choice of Investable Asset Classes for Retail Investors from Stocks and Commodities to Real-Estate, Digital Tokens, and Lending
-
 new asset classes
 
 ```{python}
@@ -890,7 +882,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchain makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 
-### Assets: Nature-Backed Assets
+### Assets: Towards Nature-Backed Assets
 
 -   single.earth etc
 
