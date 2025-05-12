@@ -84,15 +84,15 @@ Foundation models in turn enabled *generative AIs*, a class of models which are 
 
 The technological leap is great enough for people to start calling it a start of a new era.[@nobleFifthIndustrialRevolution2022] proposes AI has reached a stage of development marking beginning of the *5th industrial revolution*, a time of collaboration between humans and AI. Widespread Internet of Things (IoT) sensor networks that gather data analyzed by AI algorithms, integrates computing even deeper into the fabric of daily human existence. Several terms of different origin but considerable overlap describe this phenomenon, including *Pervasive Computing (PC)* [@rogersFourPhasesPervasive2022] and *Ubiquitous Computing*. Similar concepts are *Ambient Computing*, which focuses more on the invisibility of technology, fading into the background, without us, humans, even noticing it, and *Calm Technology*, which highlights how technology respects humans and our limited attention spans, and doesn't call attention to itself. In all cases, AI is integral part of our everyday life, inside everything and everywhere. Today AI is not an academic concept but a mainstream reality, affecting our daily lives everywhere, even when we don't notice it.
 
-### Algorithmic Transparency: Before AIs
+### Algorithmic Experience and Transparency: Before AIs
 
 Before AIs, as a user of social media, one may be accustomed to interacting with the feed algorithms that provide a personalized *algorithmic experience*. Social media user feed algorithms are more *deterministic* than AI, meaning they would produce more predictable output in comparison AI models. Nonetheless, there are many reports about effects these algorithms have on human psychology **(ADD CITATION)**.
 
 Design is increasingly relevant to algorithms, - *algorithm design* - and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 
-@lorenzoDaisyGinsbergImagines2015 underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
+\[@lorenzoDaisyGinsbergImagines2015\] underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
 
-@shenoiParticipatoryDesignFuture2018 argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design. After many years of political outcry (ADD CITATION), social media platforms such Meta Facebook and Twitter (later renamed to X) have begun to shed more light on how these algorithms work, in some cases releasing the source code [@nickcleggHowAIInfluences2023; @twitterTwitterRecommendationAlgorithm2023].
+[@shenoiParticipatoryDesignFuture2018] argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design. After many years of political outcry (ADD CITATION), social media platforms such Meta Facebook and Twitter (later renamed to X) have begun to shed more light on how these algorithms work, in some cases releasing the source code [@nickcleggHowAIInfluences2023; @twitterTwitterRecommendationAlgorithm2023].
 
 The content on the platform can be more important than the interface. Applications with a similar UI depend on the community as well as the content and how the content is shown to the user.
 
@@ -102,7 +102,7 @@ AIs are non-deterministic, which requires a new set of consideration when design
 
 AI systems may make use of several algorithms within one larger model. It follows that AI Explainability requires ***Algorithmic Transparency**.*
 
-### Being Responsible, Explainable, and Safe
+### Being Responsible, Explainable, and Safe: Legislation Adapts and Sets Boundaries for AI
 
 The problems of opaqueness creates the field of explainable AI.
 
@@ -168,7 +168,7 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 
 |  |  |
 |--------------------------|----------------------------------------------|
-| Problem | Description |
+| **Problem** | **Description** |
 | Monolithicity | LLMs are massive monolithic models requiring large amounts of computing power for training to offer ***multi-modal*** ***capabilities*** across diverse domains of knowledge, making training such models possible for very few companies. @liuPrismerVisionLanguageModel2023 proposes future AI models may instead consist of a number networked domain-specific models to increase efficiency and thus become more scalable. |
 | Opaqueness | LLMs are opaque, making it difficult to explain why a certain prediction was made by the AI model. One visible expression of this problem are ***hallucinations**,* the language models are able to generate text that is confident and eloquent yet entirely wrong. Jack Krawczyk, the product lead for Google's Bard (now renamed to Gemini): "Bard and ChatGPT are large language models, not knowledge models. They are great at generating human-sounding text, they are not good at ensuring their text is fact-based. Why do we think the big first application should be Search, which at its heart is about finding true information?" |
 | Biases and Prejudices | AI bias is well-documented and a hard problem to solve [@liangGPTDetectorsAre2023]. **Humans don't necessarily correct mistakes made by computers and may instead become "partners in crime"** [@krugelAlgorithmsPartnersCrime2023]. People are prone to bias and prejudice. It's a part of the human psyche. Human brains are limited and actively avoid learning to save energy. These same biases are likely to appear in LLM outputs as they are trained on human-produced content. Unless there is active work to try to counter and eliminate these biases from LLM output, they will appear frequently. |
@@ -192,6 +192,8 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc.
 
+As AI-based solutions permeate every aspect of human life, legislation is starting to catch up. The EU Artificial Intelligence Act (Regulation EU 2024/1689) establishes the first comprehensive legal framework for AI in the world, aiming to harmonize rules to ensure that AI systems are safe, human-centric, and rights-respecting; the act defines a tiered system that bans unacceptable risks and regulates high-risk uses, imposing transparency duties on developers of AI systems, for example near-realtime (hourly) CO2 emissions reports from the AI models[@EUAIAct2024].
+
 ### Evolution of Models and Emerging Abilities
 
 Mapping the emerging abilities of new models.
@@ -199,7 +201,7 @@ Mapping the emerging abilities of new models.
 The debate between Open Source v.s. Closed-Source AI is ongoing. Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas.
 
 | AI Model | Released | Company | License | Country |
-|---------------|---------------|---------------|---------------|---------------|
+|---------------|---------------|-------------------|---------------|---------------|
 | GPT-1 | 2018 | OpenAI | Open Source | U.S. |
 | GTP-2 | 2019 | OpenAI | Open Source | U.S. |
 | Turing-NLG | 2020 | Microsoft | Proprietary | U.S. |
@@ -224,9 +226,11 @@ The debate between Open Source v.s. Closed-Source AI is ongoing. Historically op
 | LLAMA 3 | 2024 | META | Open Source | U.S. |
 | AFM | 2024 | Apple | Proprietary | U.S. |
 | Viking 7B | 2024 | Silo | Open Source | Finland |
+| GPT-4.5 | 2025 | OpenAI | Proprietary | U.S. |
+| DeepSeek-R1 | 2025 | Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd 杭州深度求索人工智慧基礎技術研究有限公司 | Open Source | China |
 | GPT-5 | 202? | OpenAI | Unknown; trademark registered | U.S. |
 
-: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024].
+: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025].
 
 ```{python}
 models_chart()
@@ -256,9 +260,9 @@ Another important metric is Retrieval Augmented Generation (RAG) performance. Ge
 models_rag_performance()
 ```
 
-Meta's head AI researcherr Yann LeCun predicts LLMs may have reached their limitations, for innovation AIs need to understand the physical world and do reasoning in abstract space, which does not require a language, i.e. something a cat could do when figuring out where to jump; in comparison, languages are simple because they are discrete, with very little noise [@nvidiadeveloperFrontiersAIComputing2025].
+Meta's head AI researcher Yann LeCun predicts LLMs may have reached their limitations, for innovation AIs need to understand the physical world and do reasoning in abstract space, which does not require a language, i.e. something a cat could do when figuring out where to jump; in comparison, languages are simple because they are discrete, with very little noise [@nvidiadeveloperFrontiersAIComputing2025].
 
-### Price of Tokens vs Human Labor
+### Price of Tokens vs Price of Human Labor
 
 At the end of the day, the adoption of AI to everyday life, even in the smallest of contexts, will come down to the price. Long-time AI-engineer [@ngAIRestoresALS2024] predicts, having seen the roadmaps for the microchip industries, as well as incoming hardware and software innovations, the price of tokens will be very low, and much lower than a comparative human worker.
 
@@ -268,7 +272,7 @@ At the end of the day, the adoption of AI to everyday life, even in the smallest
 
 Humans still need some time to adjust their expectations of *what's possible* using conversational AI interfaces. [@baileyAIEducation2023] believes people are used to *search engines* and it will take a little bit time to get familiar with talking to a computer in natural language to accomplish their tasks. For example, new users of v0, an AI assistant for building user interfaces through conversation, would tell humans (the company make this app) about the issues they encounter, instead of telling the AI assistant directly, even though the AI in many cases would be able to fix the problem instantly; human users don't yet necessarily expect computers to behave like another human, there's *inertia* in the mental model of what computers are capable of, requiring the user interfaces to provide context and teaching humans how to interact with their AI coworkers[@rauchFascinatingFindingV02024]. Indeed, ChatGPT is already using buttons to explain context [@feifeiliuLiuFeiFeiPromptControlsGenAI].
 
-### Affective Computing Enables Friendly Machines
+### Affective Computing: Towards Friendly Machines
 
 *Rosalind Picard* founded the field of *affective computing*, aiming to make computers more human-friendly, pioneering early approaches to recognizing human emotions with sensors and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
 
@@ -325,7 +329,7 @@ Jakob Nielsen notes two recent studies suggesting human deem AI-generated respon
 
 On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
 
-### Conversation: Magical Starting Point of a Relationship
+### Conversation: A Magical Starting Point of a Relationship
 
 High quality conversations are somewhat magical in that they can establish trust and build rapport which humans.
 
@@ -394,11 +398,11 @@ There have been dozens of AI-characters in the movies, TV-series, games, and (co
 | Summer Wars | Love Machine |  |  | X |
 | Marvel Cinematic Universe | Jarvis, Friday | X |  |  |
 | Knight Rider | KITT | X |  |  |
-|  | CARR |  |  | X |
+| Knight Rider | CARR |  |  | X |
 | Star Trek | Data | X |  |  |
-|  | Lore |  |  | X |
+| Star Trek | Lore |  |  | X |
 | Ex Machina | Kyoko |  | X |  |
-|  | Ava |  | X |  |
+| Ex Machina | Ava |  | X |  |
 | Tron | Tron |  | X |  |
 | Neuromancer | Wintermute |  | X |  |
 | The Caves of Steel / Naked Sun | R. Daneel Olivaw |  | X |  |
@@ -519,7 +523,6 @@ Some research suggests that voice UI accompanied by a *physical embodied system*
 There's evidence across disciplines about the usefulness of AI assistants:
 
 -   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
-
 
 ### Generative UIs Enable Flexibility of Use
 
