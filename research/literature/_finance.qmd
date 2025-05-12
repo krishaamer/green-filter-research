@@ -25,9 +25,9 @@ This chapter explores how money could incorporate sustainability as a feature.
 
 > “Money is information… it shouldn’t be more expensive or slower than sending an email.” (K. Käärmann, Co-Founder of the Wise , formerly known as Transferwise, money transfer platform), said in 2018 [@kaarmannWhyDoesTransferWise2018]
 
-*Money* itself is changing and the meaning of money is becoming more diverse. Traditionally money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. We also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, which are all types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
+*Money* itself is changing and the meaning of money is becoming more diverse. Traditionally, money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc, which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
-### Spurred by Fintech: The Democratization of Finance as a Precursor to Sustainable Superapps
+### Spurred by Fintech: The Democratization of Finance: A Precursor for Sustainable Superapps
 
 Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance* enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
 
@@ -70,13 +70,15 @@ Trend of sustainably, how can sustainability become more accessible? People want
 
 ### Environmental, Social, and Corporate Governance (ESG) Criteria Provides a Shared Language
 
-Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. The ESG criteria has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics holding the potential for countering misinformation with transparency.
+Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
+
+Countering Misinformation with Transparency
+
+ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities - a case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another recent example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
-ESG ratings give banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities. A case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
-
-[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG began to outperform the traditional ACWI only in the past few years.
+[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years.
 
 ```{python}
 msci_esg_leaders()
@@ -84,6 +86,8 @@ msci_esg_leaders()
 
 -   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 -   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
+
+Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
 ```{python}
 companies_triple_perf()
@@ -273,7 +277,7 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-### Modern Slavery Persists and Worsens Sustainability: ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
+### Modern Slavery Persists: ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
 
 ESG is in crisis.
 
@@ -299,7 +303,7 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
     -   @WorkerVoice2022 Worker Voice apps.
 
-#### Consumer Activits are Only a Small Minority
+### Consumer Activits: a Small Minority
 
 Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. Yet *conscious consumers* only make up a small percentage of the entire consumer public, making individual action close to meaningless. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
@@ -307,9 +311,7 @@ Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkam
 
 sustainable consumption relationships in Europe.
 
-```{python}
-sustainable_consumption_relationships()
-```
+`{python}1} sustainable_consumption_relationships()`
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
@@ -321,7 +323,7 @@ Make use of indexes to compare companies.
 
 For consumer activism to become mainstream it needs to much simpler.
 
-#### Shopping's Environmental Footprint is Driven by Digital Platforms, Social Commerce, and AI Assistants
+### Shopping's Environmental Footprint: Increasingly Driven by Digital Platforms, Social Commerce, AI Assistants
 
 Online Shopping impact. Single's day, etc.
 
@@ -343,7 +345,7 @@ In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
 
 important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
 
-#### The Evolution of Payments from Mobile Wallets to Buy Now Pay Later Globally and In Taiwan
+### The Evolution of Payments as the Entry Point for Personal Finance: From Mobile Wallets to Buy Now Pay Later (BNPL) - Globally, and In Taiwan
 
 Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
@@ -781,7 +783,7 @@ In South Korea,
 
 -   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
-### Inaccesible for Retail Investors: Futures, Hedge Funds, Private Equity, and Venture Capital
+### Inaccesible Asset Classes for Retail Investors: Futures, Hedge Funds, Private Equity, and Venture Capital Remain Limited
 
 *Hedge funds* generally are not accessible to retail investors, requiring a substantial minimum investment. However some Hedge Fund ETFs and Mutual Funds with Hedge Fund Strategies may try to mimic hedge fund strategies investing in the same assets.
 
@@ -803,7 +805,7 @@ It's how the wealthier people invest.
 
 -   Angelist
 
-### Investable Asset Classes and Platforms: Retail Investors' Increasing Exposure to Stocks, Bonds, Commodities, Real-Estate, Digital Tokens, Lending, and Alternatives
+### Investable Asset Classes for Retail Investors: Increasing Exposure to Stocks, Bonds, Commodities, Real-Estate, Digital Tokens, Lending, and Alternatives
 
 "Green Bonds, Sustainable Equities, ESG-focused Mutual Funds and ETFs, Impact Investing (through platforms), Renewable Energy Infrastructure (via ETFs or mutual funds), Sustainable Real Estate (through REITs or ETFs), Social Bonds, Carbon Credits (via ETFs or specialized funds), Sustainable Commodities (via ETFs or funds), Community Investing (through CDFIs or crowdfunding platforms), Sustainable Infrastructure Funds (available as ETFs or mutual funds), Environmental, Social, and Governance (ESG) Metrics Integration (through broad ESG-focused ETFs or funds)"
 
@@ -850,7 +852,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   Tokenization is similar financial securitization which has been happening for a long time. - Art can be securitized and tokenized @masterworksHowItWorks2023 - Blockchain makes this kind of financial engineering easier as any developer can do it; one does not need to be a bank.
 
-### Nature-Backed Assets
+### Nature-Backed Assets Financialize the Natural World
 
 +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Asset Type**                       | **Description**                                                                                                                                        |
@@ -898,13 +900,11 @@ world_bank_bonds()
 
 Sustainability-Linked Bonds are less stringent than green bonds; they are not tied to specific projects but more broad sustainability targets [@priscilaazevedorochaGreenwashingEnters222022]: "Sustainability-linked bonds let companies borrow cheaply if they meet environmental, social, and governance targets. A Bloomberg News analysis found those goals are weak". [@priscilaazevedorochaGreenwashingEnters222022] suggests *"So far, most ESG investing is in the stock market. But the the \$22 trillion corporate bond market, where mature global companies such as Chanel go to borrow money from investors, has a particularly powerful role to play. Companies rely on debt much more than they do on stocks."*
 
-### Fusion of Traditional and Decentralized Finance (DeFi): The Rise of Stablecoins
+### Fusion of Traditional Finance and Decentralized Finance (DeFi)
 
 Crypto-assets and digital tokens (known as DeFi or decentralized finance) are a highly accessible yet risky asset class, offering investment opportunities to anyone with a mobile phone and internet access. The low entry barrier makes crypto among the most potentially inclusive forms of investment, though bearing significant risks, as well as regulatory challenges in some countries. Crypto investing removes most entry barriers while having high risk. Cryptocurrencies are the most popular financial action among young people yet in some ways crypto needs even more financial literacy than traditional financial assets. @CryptocurrenciesWorldwideStatista estimates over 860 million cryptocurrency users worldwide by 2025. A Brazilian study (N=573) found "Crypto investors in Brazil are generally younger, male, and exhibit higher risk tolerance compared to non-crypto investors." @colomboAreCryptoNoncrypto2024 "Brazil's planned adoption of CBDC (Central Bank Digital Currency)." "It finds that risk tolerance, economic pessimism, and a belief in better investment acumen are significant predictors of crypto investment."
 
 Taiwan has an active market for crypto-assets while with some limitations. In 2022, the Taiwan government banned buying cryptocurrencies with credit card quoting the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022].
-
-In 2024-25, stablecoins emerged as the prominent technology to link traditional and decentralized finance, bridging different forms of money between systems, enabling seamless integration. This is a key design feature, as the users likely won’t care about “crypto” vs “bank” as it's all just *digital money*.
 
 Crypto enables significant potential for financial engineering and innovation by anyone with some programming skills.
 
@@ -1009,7 +1009,7 @@ Efforts to connec carbon markets, carbonmark.com
 
 "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-### Divestment as a Form of Supporting Sustainability
+### Divestment: Supporting Sustainability by Avoiding the Worst Polluting Companies
 
 If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
 
@@ -1027,7 +1027,11 @@ While divesting makes news headlines, even divestment by large institutional inv
 
 Is the "eco" in ecology and economy the same? Oîkos, the Greek word for “household”, seeds two modern disciplines: ecology studies how the home works; economy sets the rules for managing it. The two have drifted apart: one guarding planetary health, the other chasing growth. This chapter reunites them by asking: how do we measure prosperity without wrecking our home?
 
-#### Econometrics: The Many Ways to Measure an Economy
+### Post-AI Economics
+
+People around the world are discussing how traditional economics can adjust to the abundance provided by AI, known as *Post-AI, Post-Labor, or even Post-Scarcity economics*. Last year, the Seoul AI Summit pushed for voluntary safety standards to manage systemic risks while the French AI Summit tackled energy consumption and environmental costs, highlighting the need to embed AI sustainability into economic planning, regulatory frameworks, and corporate accountability [@milmoFrenchAISummit2024; @hernTechScapeWhatWe2024]. More recently, the Anthropic Economic Index tried to capture how AI impacts human work and economics in general, noting that among millions of work tasks submitted to Claude (studied as anonymized conversations), 43% could be categorized as automating and 57% as augmenting human activities [@handaWhichEconomicTasks2025].
+
+### Econometrics: The Many Ways to Measure an Economy
 
 *Econometrics* is the science of measuring the economy.
 
@@ -1039,11 +1043,11 @@ Measuring wellbeing in addition to GDP and the metric should including resilienc
 
 -   The true cost of products is hidden. The work is hidden.
 
-#### **Financialization**
+### **Financialization**
 
 [@yukselConstructingIndexParticipation2023] criticizes excessive financialization where the real economy and financial markets disconnected, blaming it for the the 2008 economic crisis, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
-#### The Evolution of Economic Metrics
+### The Evolution of Economic Metrics
 
 The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
@@ -1059,7 +1063,7 @@ The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland,
 
 There's work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
-#### Hidden Costs: Pricing Externalities
+### Hidden Costs: Pricing Externalities
 
 Markets mis‑price “home maintenance.”
 
@@ -1067,7 +1071,7 @@ Co-founder of Generation Capital with 50 Billion under management David Blood "t
 
 In the simplest sense, prices do not capture all costs. "Consumption, production, and investment decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]. Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002]. As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year [@trucostNaturalCapitalRisk2023]. The award-winning economist Mariana Mazzucato argues in [@guptaElectrifyingEconomistGuide2020] we should include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018] as part of our metrics.
 
-#### Ecological Economics Builds Upon Classical Economics
+### Ecological Economics Builds Upon Classical Economics
 
 While Adam Smith is most famous for his concept of the *invisible hand* first appearing in *The Theory of Moral Sentiments* (1759) and further developed in his seminal work *The Wealth of Nations*, published in 1776, his writings also highlight the interdependence of economic actors, who through specialization increase productivity, but also increasingly dependent on each another as well as the role of empathy in individual actions [@atalAdamSmithHis2024].
 
@@ -1083,7 +1087,7 @@ New economic thinkers are asking how can economic growth and sustainability be c
 
 The original Ramsey model introduced by Frank P. Ramsey in 1928, becoming foundational for traditional economic growth theory, does not assume infinite economic growth [@attanasioFrankRamseysMathematical2015]. [@marcgermainSimpleDegrowthModel2016] has adoped the Ramsey Model and introduced constraints such as pollution, distinguishing renewable and non-renewable capital.
 
-#### Doughnut Economics and Regenerative Capitalism
+### Doughnut Economics and Regenerative Capitalism
 
 *Doughnut Economics*, introduced in the eponymous book uses a simple visualization of a doughnut (donut) to help us grasp the big picture of the economy *embedded* inside the physical and social worlds [@raworthDoughnutEconomicsSeven2017]. It allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. The doughnut concept is simple and deep at the same time, a useful as social object to enable starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a *"self-portrait of humanity in the beginning of the 21st century"**.*** Combining the *SDGs (Sustainable Development Goals)* inside the doughnut and the *Planetary Boundaries* (Earth's ecological ceiling) outside the doughnut, leaves a space inside the donut represents a state of equilibrium and balance on spaceship Earth.
 
@@ -1109,7 +1113,7 @@ The city of Amsterdam is developing shorter food chains (which save CO~2e~) and 
 
 ### Decarbonization Scenarios
 
-The possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+The possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
 
 ```{python}
 climate_scenarios_chart()
@@ -1141,7 +1145,7 @@ Although over 100 different scientific journals now publish work on sustainabili
 
 Kaufman decries the lack of real-world data in the economic-climate models, and believes the simple assumptions should be replaced with much more complex scientific analysis [@dessler2ClimateEconomicsNoah2024].
 
-## Efforts to Curb Greenwashing: From Data-Driven Benchmarks to Fighting for Transparency
+## Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
 
 Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
@@ -1162,8 +1166,6 @@ The Taiwanese Corporate Governance 3.0 - Sustainable Development Roadmap 3.0, pu
 The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]
 
 ### Traceability Curbs Corruption
-
-Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
 
 EU Deforestation Regulation (EUDR)
 
