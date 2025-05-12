@@ -307,7 +307,9 @@ Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkam
 
 sustainable consumption relationships in Europe.
 
-`{python}1} sustainable_consumption_relationships()`
+```{python}
+sustainable_consumption_relationships()
+```
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
