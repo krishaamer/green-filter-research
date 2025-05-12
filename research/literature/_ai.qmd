@@ -184,7 +184,7 @@ In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI
 
 -   AI co-founder launches AI Safety Superalignment [@janleikeIntroducingSuperalignment2023].
 
--   OECD defines AI incident terms @DefiningAIIncidents2024
+-   OECD defines AI incident terms [@oecdDefiningAIIncidents2024].
 
 -   Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
 
@@ -831,7 +831,7 @@ Should AIs look anthropomorphic or fade in the background? It's an open question
 
 -   Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. -- Athropomorphism: human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphic robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research**
 
-In the early days of robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts \[ibid\]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
+In the early days of robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts \[ibid\]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumsAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/ai/etfmatic.png){width="100%"}
