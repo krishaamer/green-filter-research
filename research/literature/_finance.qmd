@@ -1029,7 +1029,7 @@ Is the "eco" in ecology and economy the same? Oîkos, the Greek word for “hous
 
 ### Post-AI Economics
 
-People around the world are discussing how traditional economics can adjust to the abundance provided by AI, known as *Post-AI, Post-Labor, or even Post-Scarcity economics*. Last year, the Seoul AI Summit pushed for voluntary safety standards to manage systemic risks while the French AI Summit tackled energy consumption and environmental costs, highlighting the need to embed AI sustainability into economic planning, regulatory frameworks, and corporate accountability [@milmoFrenchAISummit2024; @hernTechScapeWhatWe2024]. More recently, the Anthropic Economic Index tried to capture how AI impacts human work and economics in general, noting that among millions of work tasks submitted to Claude (studied as anonymized conversations), 43% could be categorized as automating and 57% as augmenting human activities [@handaWhichEconomicTasks2025].
+People around the world are discussing how traditional economics can adjust to the abundance provided by AI, known as *Post-AI, Post-Labor, or even Post-Scarcity economics*. Last year, the Seoul AI Summit pushed for voluntary safety standards to manage systemic risks while the French AI Summit tackled energy consumption and environmental costs, highlighting the need to embed AI sustainability into economic planning, regulatory frameworks, and corporate accountability [@milmoFrenchAISummit2024; @hernTechScapeWhatWe2024]. More recently, the Anthropic Economic Index tried to capture how AI impacts human work and economics in general, noting that among millions of work tasks submitted to Claude - studied as anonymized conversations using a privacy-preserving clustering tool Clio, separately described in [@tamkinClioPrivacyPreservingInsights2024] -, that 43% of the work could be categorized as automation and 57% as augmentation of human economic activities [@handaWhichEconomicTasks2025]. At the same time, economists' predictions of the future impact of AI are far from uniform, for instance MIT economist Daron Acemoglu estimating that in the U.S. only 5% of the tasks can be profitably automated and AI will only contribute a modest 1.1% to the GDP until 2035 [@acemogluSimpleMacroeconomicsAI2024].
 
 ### Econometrics: The Many Ways to Measure an Economy
 
@@ -1042,10 +1042,6 @@ GDP was the culmination of previous work by many authors, beginning with William
 Measuring wellbeing in addition to GDP and the metric should including resiliency dashboards, to to visualize metrics beyond GDP and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a *"dashboard of indicators"* [@tedHealthyEconomyShould2018].
 
 -   The true cost of products is hidden. The work is hidden.
-
-### **Financialization**
-
-[@yukselConstructingIndexParticipation2023] criticizes excessive financialization where the real economy and financial markets disconnected, blaming it for the the 2008 economic crisis, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
 ### The Evolution of Economic Metrics
 
@@ -1070,6 +1066,10 @@ Markets mis‑price “home maintenance.”
 Co-founder of Generation Capital with 50 Billion under management David Blood "the most sifinifcat thing we can do as capital allocators is to price in those difficult to price externnalities" @liebreichAreBigInvestors2025
 
 In the simplest sense, prices do not capture all costs. "Consumption, production, and investment decisions of individuals, households, and firms often affect people not directly involved in the transactions" [@helblingExternalitiesPricesNot2012]. Externalities as an economic concept was implied by Alfred Marshall, one of the founders of neoclassical economics, in his 1890 treatise "Principles of Economics," and further developed by Arthur Cecil Pigou in his 1920 book "The Economics of Welfare" [@marshallPrinciplesEconomics1997; @pigouEconomicsWelfare2002]. As of 2023, the value of unpriced externalities which are not included in the GDP is 7.3 trillion USD per year [@trucostNaturalCapitalRisk2023]. The award-winning economist Mariana Mazzucato argues in [@guptaElectrifyingEconomistGuide2020] we should include more into how we value unpaid labor, relating to the social (S in ESG) [@mazzucatoValueEverythingMaking2018] as part of our metrics.
+
+### **Financialization**
+
+[@yukselConstructingIndexParticipation2023] criticizes excessive financialization where the real economy and financial markets disconnected, blaming it for the the 2008 economic crisis, proposing a new index for *participation finance* aiming to ground the financial economy in the real economy; rooted in Islamic banking, participation finance avoids highly speculative activities, which are seen as exploitative, looking to promote stability, transparency, and fairness.
 
 ### Ecological Economics Builds Upon Classical Economics
 
