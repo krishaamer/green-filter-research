@@ -90,7 +90,7 @@ Before AIs, as a user of social media, one may be accustomed to interacting with
 
 Design is increasingly relevant to algorithms, - *algorithm design* - and more specifically to algorithms that affect user experience and user interfaces. ***When the design is concerned with the ethical, environmental, socioeconomic, resource-saving, and participatory aspects of human-machine interactions and aims to affect technology in a more human direction, it can hope to create an experience designed for sustainability.***
 
-\[@lorenzoDaisyGinsbergImagines2015\] underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
+[@lorenzoDaisyGinsbergImagines2015] underlines the role of design beyond *designing* as a tool for envisioning; in her words, *"design can set agendas and not necessarily be in service, but be used to find ways to explore our world and how we want it to be"*. Practitioners of Participatory Design (PD) have for decades advocated for designers to become more activist through ***action research***. This means to influencing outcomes, not only being a passive observer of phenomena as a researcher, or only focusing on usability as a designer, without taking into account the wider context.
 
 [@shenoiParticipatoryDesignFuture2018] argues inviting domain expertise into the discussion while having a sustainable design process enables designers to design for experiences where they are not a domain expert; this applies to highly technical fields, such as medicine, education, governance, and in our case here - finance and sustainability -, while building respectful dialogue through participatory design. After many years of political outcry (ADD CITATION), social media platforms such Meta Facebook and Twitter (later renamed to X) have begun to shed more light on how these algorithms work, in some cases releasing the source code [@nickcleggHowAIInfluences2023; @twitterTwitterRecommendationAlgorithm2023].
 
@@ -135,9 +135,9 @@ The AI Credibility Heuristic: A Systematic Model explains how... similar to Dani
 ```{=mdx}
 <Figure caption="Heuristic-Systematic Model of AI Credibility" src={AI} />
 ```
--   @slackAturaProcess2021
+-   @slackAturaProcess2021 bot design process
 
--   @shinHowUsersInteract2020: "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
+-   @shinHowUsersInteract2020 "user experience and usability of algorithms by focusing on users' cognitive process to understand how qualities/features are received and transformed into experiences and interaction"
 
 -   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
 
@@ -201,7 +201,7 @@ Mapping the emerging abilities of new models.
 The debate between Open Source v.s. Closed-Source AI is ongoing. Historically open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas.
 
 | AI Model | Released | Company | License | Country |
-|---------------|---------------|-------------------|---------------|---------------|
+|---------------|---------------|---------------|---------------|---------------|
 | GPT-1 | 2018 | OpenAI | Open Source | U.S. |
 | GTP-2 | 2019 | OpenAI | Open Source | U.S. |
 | Turing-NLG | 2020 | Microsoft | Proprietary | U.S. |
@@ -496,7 +496,7 @@ Some evergreen advice most relates to human psychology which has remained the sa
 
 -   @lowerChatbotsTooGood2017 "Chatbots: Too Good to Be True? (They Are, Here’sWhy)."
 
--   @isabellaghassemismithInterviewDanielBaeriswyl2019
+-   @isabellaghassemismithInterviewDanielBaeriswyl2019 Interview Daniel Baeriswyl Magic Carpet
 
 -   @josephinewaktareheintzCleo Cleo copywriter
 
@@ -664,15 +664,15 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @simonsterneUnlockingPowerDesign2023 UX is about helping the user make decisions
 
--   @davidpasztorAIUXPrinciples2018
+-   @davidpasztorAIUXPrinciples2018 AI UX Principles of Designing AI Products
 
--   @andersonWaysArtificialIntelligence2020
+-   @andersonWaysArtificialIntelligence2020 AI  usability
 
 -   @lennartziburskiUXAI2018 UX of AI
 
--   @stephaniedonaholeHowArtificialIntelligence2021
+-   @stephaniedonaholeHowArtificialIntelligence2021 ai Impacting UX Design
 
--   @lexowDesigningAIUX2021
+-   @lexowDesigningAIUX2021 Silicon Valley, automation, artificial systems
 
 -   @davidpasztorAIUXPrinciples2018 AI UX principles
 
@@ -716,17 +716,17 @@ Microsoft provides guidelines for Human-AI interaction (@li2022assessing; @amers
 
 -   @haiyizhuHumanAIInteractionFall2021
 
--   @akataResearchAgendaHybrid2020
+-   @akataResearchAgendaHybrid2020 "Hybrid Intelligence, Augmenting Human Intellect With Collaborative, Adaptive, Responsible, and Explainable Artificial Intelligence"
 
 -   @dignumAIPeoplePlaces2021
 
--   @boleizhouCVPR22Tutorial2022
+-   @boleizhouCVPR22Tutorial2022 Human-Centered AI for Computer Vision.
 
--   @readyaiHumanAIInteractionHow2020
+-   @readyaiHumanAIInteractionHow2020 Human-AI Interaction
 
--   @vinuesaRoleArtificialIntelligence2020
+-   @vinuesaRoleArtificialIntelligence2020 ai for Sustainable Development Goals, "consensus-based expert elicitation process"
 
--   @orozcoBudapestBicycleNetwork2020
+-   @orozcoBudapestBicycleNetwork2020 sustainable Urban transportation networks, sidewalks, bicycle paths, streets and rails, movement and socioeconomic life in cities, bicycle networks
 
 ### Performing Under High-Stakes Situations
 
@@ -846,21 +846,23 @@ The user interface and user experience (UI/UX) of consumer-focused investing app
 
 In India, research is being conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success [@bhatiaRoboAdvisoryIts2020]. India had more than 2000 fintechs since 2015 [@migozziYouShouldWhat2023].
 
+-   Robo-advisors compete with community investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do not have the type of social proof a community-based investment vehicle has. The question is, does the user trust the robot or a human.
+
+-   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers. Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.
+
+
 -   @neuralnineFinancialAIAssistant2021 Financial AI assistant in Python
 
 -   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants?
 
 -   @brownHowFinancialChatbots2021 Financial chatbots
 
--   Robo-advisors compete with community investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do not have the type of social proof a community-based investment vehicle has. The question is, does the user trust the robot or a human.
 
--   While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Generation Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers. Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid.
+-   @WhyDesignKey2021 building trust in FinTech
 
--   @WhyDesignKey2021
+-   @seanmcgowanUXDesignFinTech2018 
 
--   @seanmcgowanUXDesignFinTech2018
-
--   @robindhanwaniFintechUIUX2021
+-   @robindhanwaniFintechUIUX2021 Design Jams for collaboration
 
 -   @DesigningFintechApp2021
 
@@ -868,40 +870,10 @@ In India, research is being conducted on how AI advisors could assist with inves
 
 -   @ungrammaryProductDesignCase2020
 
--   Raha maraton etv investeerimissaade.. raadios on ka mingi saade
 
--   @EmpoweringDigitalAsset: digital assets bank
-
--   @MyclimateYourPartner2023 calculate climate cost
-
--   @GreenCentralBanking
-
--   @hydeGiftHowCreative2006 Money as a gift
-
--   [@johnssenkeeziIveBeenInvited2022] Small stock investments
-
--   Financial empowerment
-
--   Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself
-
--   @PhaseTwoInvesting
-
--   @qayyumrajanESGAnalyticsIntroduction2021 ESG pulse
-
--   @NGFS Network for Greening the Financial System
-
--   @smartwealthHowBecomeInvestor2021 How do consumer become investors? marketing materials say: "One of the greatest hurdles to financial independence is a consumer mindset." One of the greatest hurdles to sustainability is a consumer mindset?
-
--   @outlawTurnYourCustomers2015
+-   @outlawTurnYourCustomers2015: Regulation D 506c
 
 -   @malliarisUsingNeuralNetworks1996 **(Need to pay for paper!)**
 
 -   @CMBNewFuture Huawei
 
--   @Vise2023 Personalised portfolios
-
--   @WalletAppsGoogle Thai finance app
-
--   @ThaiFintechAssociation
-
--   @renatocapeljMobileHedgeFund2021
