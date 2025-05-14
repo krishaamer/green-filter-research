@@ -226,7 +226,9 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 
 : Data from [@alanasemuelsWorldMostSustainable2024].
 
-Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp and Giant Manufacturing Co Ltd since 2023. [@corporateknightsGlobal1002024]
+Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023. [@corporateknightsGlobal1002024; @staff2021Global1002021]
+
+@earth.orgWorld50Most2022 – earth.org’s list of the world’s 50 most sustainable companies in 2022
 
 ```{python}
 taiwanese_company_ranking_chart()

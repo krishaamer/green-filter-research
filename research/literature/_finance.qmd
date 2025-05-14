@@ -181,7 +181,7 @@ The advice consultancies are providing to banks establishes a common language an
 
 While ESG is riddled with problems, it has started a common language and there are many ways how to improve it
 
--   For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
+For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices back to the business through infringement discovery.
 
 -   Improving ESG Accessibility
 
@@ -230,6 +230,7 @@ While ESG is riddled with problems, it has started a common language and there a
 **ESG (Data Streams): Realtime Reporting**
 
 "\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
+
 
 Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
@@ -480,13 +481,15 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 -   green transparency
 -   fundamental analysis such as the Piotroski F-score is not effective for startups because of high capital burn rates.
 
+Becoming a major payments player requires navigating the maze of global directives, including legislation regarding finance, privacy, data protection, money laundering, localized licensing regimes, and more. For an example, Google Wallet’s privacy notice sheds some light on how a unified payments profile links services under one's Google account while following its broader data‑use policies [@googleGooglePaymentsPrivacy2025].
+
 An Australian fintech Douugh released it's robo-advisor in 2024 [@paulDouughFintechBudgeting2024]. Douugh's tagline explain the ethos of a unified financial app simply: *"One app to spend and grow your money".*
 
 The newest generation of robo-advisors are integrating large-language modules, for example Reuters highlights the Chinese brokerage firm Tiger Brokers as one among 20 Chinese companies integrating DeepSeek deeply into asset management from simple chat functionality all the way to executing trades.
 
 Alipay already provides two investment services within it's payments app, at first launching Yu'e Bao (餘額寶) in 2013, which automatially invests small amounts on the users' accounts for returns typically above those of traditional banks' saving accounts, and later in 2015 Ant Fortune (螞蟻財富), offering access to thousands of investment products from partner companies [@kranesharesAntGroup1012020]. Alibaba owns over 30% of Alipay and both companies are pushing for increased use of AI within their services [@ChineseBillionaireJack2024]. Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and Naver, though Naver Pay, have been on a path for several years evolving into comprehensive financial platforms [@linecorporationJapanInvestmentMade2019; @annaj.parkNaverPayExpand2023].
 
-**Tier 1: Established Consumer Payment Giants**
+**Established Consumer Payment Giants**
 
 Alipay is by far the largest payments super-app and provides two investment services within it's payments platform, first launching Yu'e Bao (餘額寶) in 2013, which automatically invests small amounts on the users' accounts for returns typically above those of traditional banks' saving accounts, and later in 2015 Ant Fortune (螞蟻財富), offering access to thousands of investment products from partner companies [@kranesharesAntGroup1012020]. Alibaba owns over 30% of Alipay and both companies are pushing for increased use of AI within their services [@ChineseBillionaireJack2024]. Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and Naver, though Naver Pay, have been on a path for several years evolving into comprehensive financial platforms [@linecorporationJapanInvestmentMade2019; @annaj.parkNaverPayExpand2023]. Payment apps created by Apple and Google are less-feature rich focusing on payments only. None of the largest payment apps have a specific focus on sustainability while Alipay does have a separate sustainability-focused service called Ant Forest for planting treess.
 
@@ -512,7 +515,7 @@ Alipay is by far the largest payments super-app and provides two investment serv
 | Nubank      | Bank                                                      | nubank.com.br       | Brazil                  | ?           | No        | Yes     | Yes                 | No                   |
 +-------------+-----------------------------------------------------------+---------------------+-------------------------+-------------+-----------+---------+---------------------+----------------------+
 
-**Tier 2: Established Growth Companies / Major Players**
+**Growth Companies / Major Players**
 
 -   The fact that money on a Wise account will accrue value while on Monese it's just static, immediately makes Wise more attractive, even if the amounts are small.
 
@@ -540,7 +543,7 @@ Alipay is by far the largest payments super-app and provides two investment serv
 | Stash | Micro-investing platform enabling small investments | stash.com | USA | ? | Yes | No | No | No |  |
 | Mint | Budgeting tools, bill tracking, free credit score monitoring | mint.com | USA | ? | No | No | No | No | Ceased operations |
 
-**Tier 3: Up-and-Coming Startups & Niche Players**
+**Up-and-Coming Startups**
 
 | Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
@@ -785,11 +788,10 @@ In South Korea,
 
 -   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
--   @WalletAppsGoogle – Google Wallet’s privacy notice describes how a unified payments profile links cards, transit passes and IDs under your Google account while following its broader data‑use policies. Thai finance app
-
 ESG pulse
 
-[@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies. Barclays' 2021 investor survey found hedge‑fund LPs (limited partners) adding screening for ESG data and willingness to start new "green alpha" funds if performance can be proven by robust data [@ESGHedgeFunds2021]. High quality data is the key to unlocking this potential. ESG Analytics founder Qayyum Rajan introduces a sentiment‑driven, alternative‑data platform that maps real‑time ESG events to SASB topics for deeper, faster screening [@qayyumrajanESGAnalyticsIntroduction2021]. In addition to finance being increasingly data-driven, it's also increasingly personalized, for example Vise showcases its AI‑powered portfolio‑builder that lets RIAs customise, manage and explain client portfolios at scale, pitching itself as the “Copilot for wealth managers”, allowing creation of highly personalised portfolios [@Vise2023]. 
+[@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies. Barclays' 2021 investor survey found hedge‑fund LPs (limited partners) adding screening for ESG data and willingness to start new "green alpha" funds if performance can be proven by robust data [@ESGHedgeFunds2021]. High quality data is the key to unlocking this potential. ESG Analytics founder Qayyum Rajan introduces a sentiment‑driven, alternative‑data platform that maps real‑time ESG events to SASB topics for deeper, faster screening [@qayyumrajanESGAnalyticsIntroduction2021]. In addition to finance being increasingly data-driven, it's also increasingly personalized, for example Vise showcases its AI‑powered portfolio‑builder that lets RIAs customise, manage and explain client portfolios at scale, pitching itself as the “Copilot for wealth managers”, allowing creation of highly personalised portfolios [@Vise2023]. RavenPack provides an analysis tool tracking media and sentiment to gauge capital flows driven by ESG [@ravenpackCorpMovementESG2021].
+
 
 Companies themselves need to better understand their emissions, giving birth to the industry of climate accounting. The myclimate NGO is among the many providers or detailed calculate climate cost calculators, consulting and verified carbon‑offset projects aimed at helping firms net‑zero targets [@MyclimateYourPartner2023].
 
@@ -810,11 +812,16 @@ While hedge funds used to be available for professional investors, online platfo
 
 Small cash apps like African market Investment Clubs Invest in sustainability with people smarter than myself
 
-In the world of Web3 and cryptocurrencies, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing. Social features has always been a weakness of Web3, and [@syndicatePhaseTwoInvesting2022] contends that it's not enough to build decentralized financial rails to democratise wealth creation, crypto investing must also redesign the social networks around capital. The Web3-based attempt to achieve these goals is called DAO or Decentralised Autonomous Organizations, which allow wallet holders to collaborate and vote on issues. [@ianbezekItTimeEveryone2021]  argues that DAOs and governance tokens could replace stock exchanges and corporations by using programmable blockchains for digital ownership and control of assets registered in on-chain distributed databases. [@nathanreiffDecentralizedAutonomousOrganization2023] explains how DAOs use smart contracts and cryptographic voting to manage organisations without a central authority; some advantages include transparency and community ownership, while excisting challenges of being in a legal grey zones (one still needs to register a legal entitiy) and risks of security hacks, are real. Finally, [@EmpoweringDigitalAsset] notes it's not only retail investor entering the crypto world, large institutions are doing the same, with tokenisation, crypto custody and asset‑management increasingly becoming a part of mainstream finance.
+In the world of Web3 and cryptocurrencies, *smart contracts* make it possible to create decentralized organizations which pool member resources for investing. Social features has always been a weakness of Web3, and [@syndicatePhaseTwoInvesting2022] contends that it's not enough to build decentralized financial rails to democratise wealth creation, crypto investing must also redesign the social networks around capital. The Web3-based attempt to achieve these goals is called DAO or Decentralised Autonomous Organizations, which allow wallet holders to collaborate and vote on issues. [@ianbezekItTimeEveryone2021]  argues that DAOs and governance tokens could replace stock exchanges and corporations by using programmable blockchains for digital ownership and control of assets registered in on-chain distributed databases. [@nathanreiffDecentralizedAutonomousOrganization2023] explains how DAOs use smart contracts and cryptographic voting to manage organisations without a central authority; some advantages include transparency and community ownership, while excisting challenges of being in a legal grey zones (one still needs to register a legal entitiy) and risks of security hacks, are real. [@HumanCenteredWeb32022] insists that people and not just code must be the north star in Web3 design frameworks to achieve a truly human-centered Web3. Yet, the first wave of Web3 users were privacy-conscious and wouldn't answer questions, making it challenging to create good personas, making design difficult [@crabbRantTerriblePersonas2023]
+
+Finally, [@EmpoweringDigitalAsset] notes it's not only retail investor entering the crypto world, large institutions are doing the same, with tokenisation, crypto custody and asset‑management increasingly becoming a part of mainstream finance.
+
 
 Indepedent of what is the technology used, access to investing is about financial empowerment. Ugandan investor John Ssenkeezi celebrated on X (formerly know as Twitter) being able to vote at Apple’s 2022 AGM stockholder meeting using stock investments app Chipper Cash, which allows users by fractional‑shares, illustrating shareholder democracy for emerging‑market users  [@johnssenkeeziIveBeenInvited2022].
 
 Angelist was a first-runner in allowing users invest into companies, similar to how Angel investors or Venture Capitals would have access to a dealflow.
+
+While somewhat out of date, [@rayWeb3ComprehensiveReview2023] offers a comprehensive review mapping the Web3 technology landscape which serves as a good introduction.
 
 ### Investable Asset Classes for Retail Investors: Increasing Exposure to Stocks, Bonds, Commodities, Real-Estate, Digital Tokens, Lending, and Alternatives
 
@@ -897,9 +904,7 @@ Bonds are a form of debt investment also known as an fixed-income asset where th
 
 Access is not universal and availability depends on the geography of the user and local legislation; for example Revolut, the most downloaded finance app in the EU, only enabled bond investing for European customers in summer 2024 [@revolutRevolutUnlocksBonds2024; @revolutOur2023Annual2024]. Investing in bonds is a form of *Passive Investing* and allows investors focus on low-risk passive income instead of daily stock investing most popular on Robinhood and Revolut - albeit with much less potential for returns.
 
--   Climate Bonds Initiative is working on greening the \$55 trillion short-term debt (bond) market [@ClimateBondsInitiative2022].
-
-*Green bonds* are released by companies, international organizations, and cities to raise money for green transformation, usually for building something to improve sustainability, tied to specific projects. There's a growing global trend in green bond emission, with 257 Billion USD worth of green bonds issued in 2019, expected to reach 1 Trillion USD annually by 2030 [@macaskillThereGreenPremium2021]. That prediction was too low with 870 Billion USD green bond emissions reached already in 2023; currently Europe is the largest emitter of green bonds [@climatebondsClimateBondsInteractive2023]. China has the 2nd largest green bond market in the world and it's growing fast; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@pengManagingFinancingCosts2022; @liWhereGreenBond2022].
+*Green bonds* are released by companies, international organizations, and cities to raise money for green transformation, usually for building something to improve sustainability, tied to specific projects. There's a growing global trend in green bond emission, with 257 Billion USD worth of green bonds issued in 2019, expected to reach 1 Trillion USD annually by 2030 [@macaskillThereGreenPremium2021]. That prediction was too low with 870 Billion USD green bond emissions reached already in 2023; currently Europe is the largest emitter of green bonds [@climatebondsClimateBondsInteractive2023]. China has the 2nd largest green bond market in the world and it's growing fast; buyers are looking for green bond certification to reduce yield spread, meaning the price of the green bond is becoming more similar to the price of a 'regular' bond [@pengManagingFinancingCosts2022; @liWhereGreenBond2022]. The Climate Bonds Initiative, which is working on greening the entire short-term debt (bond) market, puts the size of the entire market at \$55 trillion, underlining the relative percentage of green bonds is tiny [@ClimateBondsInitiative2022].
 
 In 2017 the Malmö city in Sweden released green bonds to finance a sustainable transition of the city [@cityofmalmoGreenBondFramework2017]. An independent analysis found bonds may not be emitted for financial reasons but to improve the reputation and city image, lower interest rate (aptly named *greenium*) with a similar in returns to traditional bonds - and have their share of challenges, namely being difficult to certify, monitor, report and measure impact of [@sjostromFinancingSustainableCity2020].
 
@@ -1182,7 +1187,7 @@ EU Deforestation Regulation (EUDR)
 
 Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]
 
-**The founder of Sourcemap** Leonardo Bonanni \*\*started with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
+**The founder of Sourcemap** Leonardo Bonanni started out with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
 
 What data should be surfaced to the consumer?
 
@@ -1278,11 +1283,11 @@ There are many different certifications
 
 -   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
 
--   WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he largest open registry of corporate sustainability data in the world" [@millsWikiRateOrgLeveraging2016; @wikirateWikiRate2023].
 
--   Transparency is about culture but also mechanisms and tools, which is why WikiRate defines Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
+OpenCorporates attempts to map all the companies around the world - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
 
--   OpenCorporates attempts to map all the companies around the world - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
+
+WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he largest open registry of corporate sustainability data in the world" [@millsWikiRateOrgLeveraging2016; @wikirateWikiRate2023]. Transparency is about culture but also mechanisms and tools, which is why WikiRate defines Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
 
 +--------------------------------------+---------------------------------------------------------------+
 | Type                                 | Example                                                       |
@@ -1302,37 +1307,23 @@ There are many different certifications
 | Knowledge sharing platform           | business-humanrights.org                                      |
 +--------------------------------------+---------------------------------------------------------------+
 
--   @laureenvanbreenPanelScalingCorporate2023
--   @wikirateIntroducingFacilityChecker2022
--   @HomeChainReact
--   @rayWeb3ComprehensiveReview2023 comprehensive overview of Web3.
--   @HumanCenteredWeb32022 human-centered web3
--   Web3 users are privacy-conscious and won't answer questions, making it challenging to create good personas @crabbRantTerriblePersonas2023
 
-Existing rankings
+At the 2023 Scottish AI Summit, practitioners demoed how AI pipelines can analyse modern slavery statements to flag missing disclosures, suggesting how humans and machines can "scale corporate accountability" like never before [@laureenvanbreenPanelScalingCorporate2023]. Meanwhile, WikiRate’s Facility Checker uncovers living-wage gaps in real time for advocacy organizations [@wikirateIntroducingFacilityChecker2022]
 
--   @earth.orgWorld50Most2022
--   @staff2021Global1002021
--   Fashion brand ratings
--   Ethical Shopping
--   @Top100Consumer Largest consumer goods companies
 
-B Corporations undergo strict assessment and adhere to stringent sustainability practices.
+Existing rankings include fashion brand ratings and ethical shopping
 
--   B Impact Assessment
+-   The Top 100 Consumer Brands report showing brands ranked by consumer sustainability preferences from the largest consumer goods companies [@Top100Consumer]
 
--   @FindCorp BCorporation listings by country
+Certified B Corporations undergo a rigorous B Impact Assessment (only those scoring 80 or above can earn the B Corp seal) and adhere to strict sustainability practices, which gives as placement in the B Lab global directory. Stakeholders can explore B Corps by country and industry, complete with verified impact scores and performance details. This digital platform is used by over 150 thousand businesses to manage their ESG performance [@bcorpFindCorp2025]. 
 
--   @EtsyMadeMistakes2017
+Maintaining that trust matters. In 2017, Etsy lost the certification after failing to convert a public company into a public benefit company for fear of shareholder reaction [@silvermanBusinessForceGood2017; @albaEtsyNeedsPreserve2017]. Instead, Etsy launched a campaign to focus on transparency, called "Made Mistakes", publicly sharing user-experience errors to build trust [@EtsyMadeMistakes2017].
 
--   @citywealthESGBrandingBCorps2021
 
--   @SocialEnterprisesCorps
-
--   @ravenpackCorpMovementESG2021
+Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors  [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
 ### Risk-Based Assessment of Sustainability Credits
 
 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
--   BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
+BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
