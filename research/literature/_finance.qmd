@@ -964,48 +964,31 @@ DAOs (Decentralized Autonomous Organization) can be use in a similar way to Hedg
 
 A lot of financial tooling and more than trad-fi has been replicated in crypto.
 
-Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. Also, the legislation affecting each would be different as hedge funds are an older and more established financial tool whereas DAOs still fall in somewhat of a gray area.
+Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. [@blockchannelWhatDAOHow2017] defines a DAO as a Decentralized Autonomous Organization on blockchain, using smart contracts and token-weighted voting to enable permissionless, community-driven governance. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. A notable example, [@carrawuInvestingFriendsBenefits2021] details how the Friends With Benefits (FWB) DAO transformed consumers into investors by requiring an application review and token buy-in, granting members governance rights and meaningful ownership in a token-gated community.
 
--   @TreesFuture2023 DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
+The legislation affecting Hedge Funds and DAOs would be different as hedge funds are an older and more established financial tool whereas DAOs still fall in somewhat of a gray area. For example, in the U.S.a federal judge ruled that crypto collectives (crypto investment clubs) like Lido DAO are general partnerships liable for unregistered securities offerings [@InvestmentClubsCollectives]. In order to overcome these legal hurdles, VC-backed startups have launched platforms to support a new generation of DAOs, providing regulatory navigation and smart-contract tooling that broaden blockchain dependencies beyond DeFi protocols [@lucasmatneyVCbackedDAOStartups2022].
 
--   @carrawuInvestingFriendsBenefits2021 DAO consumer to investor
 
--   @lucasmatneyVCbackedDAOStartups2022
+With a specific sustainability focus, [@TreesFuture2023] DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
 
--   @blockchannelWhatDAOHow2017
-
--   @InvestmentClubsCollectives: Crypto investment clubs canceled
-
--   @IBISANetworkEnabling: Crypto crop insurance
 
 -   Social + NFTs - What would investing look like at the scale of 1 billion people
 
-**Oracles for Sustainability Data**
-
-Intersection with finance and Real World Data.
-
-A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste.
+Oracles provide the intersection between finance and real world sustainability data. A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste. For example, crypto crop insurance provided by IBISA Network uses blockchain triggers and satellite data to offer transparent, automated payouts for farmers facing weather-related risks [@IBISANetworkEnabling]. While [@caldarelliOvercomingBlockchainOracle2020] notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles, the largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy. [@bradydaleChainlinkFounderSays2021; @chainlinkNewReportBlockchains2022].
 
 -   @ethereumOracles2023
-
--   @caldarelliOvercomingBlockchainOracle2020 notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles.
-
--   @bradydaleChainlinkFounderSays2021 and @chainlinkNewReportBlockchains2022: The largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy.
-
--   IPCI OpenLitterMap G.I.D Coin Regen Network
-
--   @dgen&positiveblockchainBlockchainSDGsHow2021: Positive Blockchain Database of blockchain for good projects
 
 **Regenerative Finance (REFI)**
 
 > *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 
-While Bitcoin uses proof-of-work, and protocol which is highly energy intensive (and thus, unsustainable), later innovations such as proof-of-stake enabled the creation of blockchains, which are energy-efficient; an overview details 23 low-carbon blockchains [@alzoubiGreenBlockchainMove2023].
+While Bitcoin uses proof-of-work, and protocol which is highly energy intensive (and thus, unsustainable), later innovations such as proof-of-stake enabled the creation of blockchains, which are energy-efficient; an overview details 23 low-carbon blockchains [@alzoubiGreenBlockchainMove2023]. @dgen&positiveblockchainBlockchainSDGsHow2021 built a positive Blockchain Database of blockchain for good projects.
 
 Inspired by the decentralized finance (DeFi) Summer of 2020, when projects like Compound, Yearn, and Uniswap demonstrated blockchain-based financial tools could go viral, followed by COVID-19, which exposed systemic fragility and served as a a wake-up call about global interconnectedness and ecological risk, crypto pioneers attempted to use their native tools for public good, instead of only financial goals, giving birth to the regenerative Finance (ReFi) movement, applying technology to carbon accounting, market development, and governance [@smithOneYearLater2021]. Innovating on the intersection of blockchains, tokenization, nature-backed assets, and cryptocurrencies, ReFi leveraged DeFi to create financial systems that aimed to restore ecosystems and empower communities by prioritizing positive environmental and social impact [@WhatReFiRegenerative2023].
 
-An early example is the Celo proof-of-stake blockchain, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserver, which buys green assests, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. Similarly, the [@KlimaDAO2023] KlimaDAO protocol tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality. Regen Network founded a blockchain for ecological data & credits. [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]
+Founded already in 2018, Regen Network built a blockchain for ecological data and carbon credits [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]. Another early example is the Celo proof-of-stake blockchain, founded in 2020, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserver, which buys green assests, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. Similarly, the [@KlimaDAO2023] KlimaDAO protocol, founded in 2021, tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality, which has $4 billion in total transaction volume.
 
+-   IPCI OpenLitterMap G.I.D Coin Regen Network
 
 Some traditional green investors have started to take note. [@marquisRSFLeadingWay2021] reports on RSF Social Finance’s shifting from impact investing to regenerative finance, detailing its $230 million under management and community-pricing innovations.
 
