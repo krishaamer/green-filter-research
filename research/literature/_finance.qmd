@@ -37,14 +37,60 @@ Fintechs can growth really fast. Just last year in Canada, Neo Financial, which 
 fintech_chart()
 ```
 
-While consumers are beginning to become more money-savvy, they still lack financial literacy. Giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved.
+### Financial Literacy and Education: Young Investors Follow Financial Influencers
 
--   Financial Literacy. Sustainability Literacy. Financial and Sustainability Literacy are intertwined. How can finance enable/help/encourage sustainability?
--   @austinryderHowBecomeInvestor2020 Define your habits: are you consumer or investor?
+Financial and sustainability literacy are intertwined. How can finance enable/help/encourage sustainability?
 
-Retail investors typically have less financial literacy.
+The common expectation is that young retail investors typically have less financial literacy. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. 
+
+Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good starting point is ask the user to define their habits: are you consumer or investor? This helps users recognise whether their spending habits define them primarily as consumers or as investors. [@smartwealthHowBecomeInvestor2021] urges readers to "consume knowledge, not products"; for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments. Consumer mindset is the main obstacle that keeps people from financial independence and investing.
+
+The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a dual journey: first, helping users recognise whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
+
+
+-  The Information evavõrdsus disparity between pro and novice investors creates a big gap in knowledge.
+
+Retail investing also heavily influenced by social media influencers.
+
+Media plays a huge role. 
+
+
+In Estonia, Raha maraton etv investeerimissaade.. raadios on ka mingi saade
+
 
 Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
+
+Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
+
+Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
+
+-   *For young people, investing mostly means buying cryptocurrencies?*
+
+-   Copy-investing is a popular feature of retail investing platforms like EToro
+
+-   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
+
+```{python}
+retail_green_vs_nongreen()
+```
+
+Retail investing apps blend entertainment into the UX/UI of investing. For example Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing. Retail investing UI/UX is simplified and gamified, which encourage impulsive short-term buying and selling with a focus on speculation over fundamentals and cause FOMO (fear of missing out).
+
+*Meme stocks* are another aspect of the *entertainmenization* of investing. There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
+
+Community Investing Enables Financial Inclusion
+
+-   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
+
+-   Investors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
+
+In South Korea, Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
+
+-   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok [@TikTokItImportantWe].
+
+    Influencer - crypto twitter connections
+
+-   Cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
 
 ### New Rules of Money: Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
 
@@ -737,44 +783,6 @@ Among retail investors, there's some appetite for sustainability however investo
 
 -   Gamestop for climate massively collaborative investing by gen-z?
 
-### Young Investors Follow Financial Influencers
-
-Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
-
-Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
-
--   *For young people, investing mostly means buying cryptocurrencies?*
-
--   Copy-investing is a popular feature of retail investing platforms like EToro
-
--   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
-
-```{python}
-retail_green_vs_nongreen()
-```
-
--   Information evavõrdsus disparity between pro and novice investors
-
-Retail investing also heavily influenced by social media influencers.
-
-Retail investing apps blend entertainment into the UX/UI of investing. For example Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing. Retail investing UI/UX is simplified and gamified, which encourage impulsive short-term buying and selling with a focus on speculation over fundamentals and cause FOMO (fear of missing out).
-
-*Meme stocks* are another aspect of the *entertainmenization* of investing. There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
-
-Community Investing Enables Financial Inclusion
-
--   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
--   Investors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
-
-In South Korea,
-
--   Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
-
--   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok [@TikTokItImportantWe].
-
-    Influencer - crypto twitter connections
-
--   Cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
 
 ### Financial Ecologies
 
@@ -796,13 +804,6 @@ ESG pulse
 Companies themselves need to better understand their emissions, giving birth to the industry of climate accounting. The myclimate NGO is among the many providers or detailed calculate climate cost calculators, consulting and verified carbon‑offset projects aimed at helping firms net‑zero targets [@MyclimateYourPartner2023].
 
 Institutional finance is highly linked and constantly learning from each-other. For example, The Network for Greening the Financial System (NGFS) is a coalition of 140+ central banks that publishes scenarios, best‑practice guides and policy papers on climate‑related financial risk [@NGFS2023]. In Thailand, the Thai Fintech Association site lists its ecosystem map, events and membership tiers aimed at fostering fintech innovation and regulatory dialogue in Thailand [@ThaiFintechAssociation]. Online news platforms such as [@GreenCentralBanking] aggregate research and daily news on how central banks integrate climate risk—scorecards, policy trackers and expert commentary.
-
-### Financial Education
-
--   In Estonia, Raha maraton etv investeerimissaade.. raadios on ka mingi saade
-
-[@smartwealthHowBecomeInvestor2021] urges readers to "consume knowledge, not products"; for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments. Consumer mindset is the main obstacle that keeps people from financial independence and investing.
-
 
 ### Limited Asset Classes for Retail Investors: Futures, Hedge Funds, Private Equity, and Venture Capital
 
