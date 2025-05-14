@@ -149,23 +149,19 @@ companies_triple_perf()
 
 The promise of ESG is to counter misinformation with transparency.
 
-ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023].
-
-The lack of rigor is creating a backlash against ESG reporting.[@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. @AntiESGCrusadeUS2023 several US states are introducing regulation for ESGs to curb greenwashing. @francesschwartzkopffEUExploresTighter2022 suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. @shashwatmohantyGreenPushGreenwash2022: "sustainable funds don't buy Zomato's ESG narrative". @bindmanESGFundsFunnel2024 reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
-
-ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022].
-
 A meta-review of 136 research articles discovered the following ESG-rating agencies.
 
 ```{python}
 esg_rating_agencies_chart()
 ```
 
--   ESG greenwashing @baldiRoleESGScoring2022
--   @gemmawoodwardGoodRiddanceESG2022 8 problems with ESG
--   @agnewRIPESG2022 RIP ESG
+[@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include inconsistent data and superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]. This is supported by econometric analysis showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. 
 
-[@popescuAreSRIFunds2023] shows SRI companies have a little bit smaller carbon footprint.
+In theory, Socially Responsible Investing (SRI) integrates ESG criteria to screen out harmful industries and direct capital to companies with positive social and environmental impacts for both ethical and financial returns [@SociallyResponsibleInvesting]. Nonetheless, a large-scale input–output life-cycle assessment of 1340 European equity funds (11275 unique holdings) including sustainable (SRI) funds, and found that 24% of the sampled SRI funds actually show higher total CO2 emissions exposure within their assets than a conventional market index [@popescuAreSRIFunds2023]. ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023]. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond checkbox ESG. 
+
+The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESGs to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. ][@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
+
+
 
 ```{python}
 conventional_vs_sri_funds()
@@ -237,7 +233,7 @@ For AI-powered assistants to be able to provide guidance, metrics are needed to 
 
 -   @ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022
 
--   While promising to become sustainable, oil companies are increasing production @noorBigOilQuietly2023; Sunak, UK Primise Minister announced 100 news licenses for oil drilling in the UK.
+-   While promising to become sustainable, oil companies are increasing production; Sunak, the UK Primise Minister announced 100 new licenses for oil drilling in the UK [@noorBigOilQuietly2023].
 
 -   Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock\[\^6\]. Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance \[\^7\]. However they later backtracked from their decision.
 
@@ -999,20 +995,31 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 **Regenerative Finance (REFI)**
 
+> *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
+
+Regenerative Finance (ReFi) leverages blockchain, DeFi, and tokenization to create financial systems that restore ecosystems and empower communities by prioritizing positive environmental and social impact over profit [@WhatReFiRegenerative2023]
+
+
 Cryptocurrencies - Celo and Impact Market - Celo invests into ReFi on the code level - @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in crypto
 
 On the intersection of cryptocurrencies, blockchains, and nature-backed assets.
 
--   Celo's protocol invests in carbon credits on the protocol level: @CeloRegenerativeFinance2021
--   @WhatReFiRegenerative2023: What is Reggenerative Finance (ReFi).
--   *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
+Celo protocol invests in carbon credits on the protocol level: Celo’s protocol offsets carbon emissions at the protocol level by integrating proof-of-stake efficiency and tokenized carbon credits (e.g. Moss MCO₂) into its reserve, laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] Luis’s PlanetKlimate series on Moss.Earth details the issuance and tokenization of tropical-forest carbon credits (MCO₂) and biodiversity tokens within the Celo ecosystem.
+
+
+
 -   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
 -   @smithOneYearLater2021
--   @KlimaDAO2023 KlimaDAO
--   @PlanetKlimatesLuis Moss.earth
--   @SociallyResponsibleInvesting
+
+
+-   @KlimaDAO2023 KlimaDAO’s 2023 protocol tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality 
+
+
+
 -   @naturalinvestMalaikaMaphalalaNatural2020
--   @marquisRSFLeadingWay2021
+
+-   @marquisRSFLeadingWay2021 In his Sept 2021 Forbes article, Christopher Marquis highlights RSF Social Finance’s pioneering shift from impact investing to regenerative finance, detailing its $230 million under management and community-pricing innovations 
+
 
 Efforts to connec carbon markets, carbonmark.com
 
@@ -1276,7 +1283,11 @@ ck_carbon_productivity()
 | Index       | Impakter Sustainability Inde       |                                                                                                                                                                                          |
 +-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-There are many different certifications
+There are many different certifications. Existing rankings include fashion brand ratings and ethical shopping. The Top 100 Consumer Brands report showing brands ranked by consumer sustainability preferences from the largest consumer goods companies [@Top100Consumer]
+-   sustainable brands
+
+-   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
+
 
 
 the Ethical Consumer Research Association active since 1989 publishes a magazine and keeps an active list of boycotts, which currently (as of May 15, 2025) includes 47 boycott campaigns [@EthicalConsumerEthical2018; @BoycottsListEthical2018].
@@ -1332,13 +1343,7 @@ the Ethical Consumer Research Association active since 1989 publishes a magazine
 | 47 | World Wildlife Fund (WWF)       | Human Rights         | WTF WWF coalition               | 2020          |
 
 
--   sustainable brands
-
--   Product-level reporting can be a basis for investing in companies. "Product-investing". I want to invest in particular products.
-
-
 OpenCorporates attempts to map all the companies around the world - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
-
 
 WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he largest open registry of corporate sustainability data in the world" [@millsWikiRateOrgLeveraging2016; @wikirateWikiRate2023]. Transparency is about culture but also mechanisms and tools, which is why WikiRate defines Data Sharing Archetypes [@wikirateWebinarEnvisioningFinding2021].
 
@@ -1363,15 +1368,9 @@ WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he
 
 At the 2023 Scottish AI Summit, practitioners demoed how AI pipelines can analyse modern slavery statements to flag missing disclosures, suggesting how humans and machines can "scale corporate accountability" like never before [@laureenvanbreenPanelScalingCorporate2023]. Meanwhile, WikiRate’s Facility Checker uncovers living-wage gaps in real time for advocacy organizations [@wikirateIntroducingFacilityChecker2022]
 
-
-Existing rankings include fashion brand ratings and ethical shopping
-
--   The Top 100 Consumer Brands report showing brands ranked by consumer sustainability preferences from the largest consumer goods companies [@Top100Consumer]
-
 Certified B Corporations undergo a rigorous B Impact Assessment (only those scoring 80 or above can earn the B Corp seal) and adhere to strict sustainability practices, which gives as placement in the B Lab global directory. Stakeholders can explore B Corps by country and industry, complete with verified impact scores and performance details. This digital platform is used by over 150 thousand businesses to manage their ESG performance [@bcorpFindCorp2025]. 
 
 Maintaining that trust matters. In 2017, Etsy lost the certification after failing to convert a public company into a public benefit company for fear of shareholder reaction [@silvermanBusinessForceGood2017; @albaEtsyNeedsPreserve2017]. Instead, Etsy launched a campaign to focus on transparency, called "Made Mistakes", publicly sharing user-experience errors to build trust [@EtsyMadeMistakes2017].
-
 
 Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors  [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
