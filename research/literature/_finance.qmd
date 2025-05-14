@@ -114,6 +114,9 @@ Sustainable capital allocation methods are many. The extent to which this funnel
 
 Trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
 
+-   @naturalinvestMalaikaMaphalalaNatural2020 During COVID-19, people like financial advisor Malaika Maphalala who co-led the “Invest in Black Economic Liberation” started calling for racial justice investing to direct flows into sustainable funds.
+
+
 ### Environmental, Social, and Corporate Governance (ESG) Criteria Provides a Shared Language
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
@@ -615,7 +618,7 @@ There are at least two ways to look at sustainable savings, however related. Thi
 
 Savings in CO~2~e equivalent emissions: CO~2~e savings are the amount of CO~2~e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
 
-Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022].
+Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022]. While many Estonians used the money for consumption, some people invested their retirement funds in crypto[@martenpollumeesKuhuInvesteeritiLHV2022].
 
 Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. One experimental study showed people think about putting money in a “safe” place and *money anthropomorphism* increased saving behavior by 18%[@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021]. Nerdwallet's [@tommytindallFinancialActionsSpeak2023] suggests making *financial commitment*s instead of resolutions, in order to successfully save money.
 
@@ -997,41 +1000,14 @@ A data oracle is the concept of a source of real-world data which can be ingeste
 
 > *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 
-Regenerative Finance (ReFi) leverages blockchain, DeFi, and tokenization to create financial systems that restore ecosystems and empower communities by prioritizing positive environmental and social impact over profit [@WhatReFiRegenerative2023]
+While Bitcoin uses proof-of-work, and protocol which is highly energy intensive (and thus, unsustainable), later innovations such as proof-of-stake enabled the creation of blockchains, which are energy-efficient; an overview details 23 low-carbon blockchains [@alzoubiGreenBlockchainMove2023].
+
+Inspired by the decentralized finance (DeFi) Summer of 2020, when projects like Compound, Yearn, and Uniswap demonstrated blockchain-based financial tools could go viral, followed by COVID-19, which exposed systemic fragility and served as a a wake-up call about global interconnectedness and ecological risk, crypto pioneers attempted to use their native tools for public good, instead of only financial goals, giving birth to the regenerative Finance (ReFi) movement, applying technology to carbon accounting, market development, and governance [@smithOneYearLater2021]. Innovating on the intersection of blockchains, tokenization, nature-backed assets, and cryptocurrencies, ReFi leveraged DeFi to create financial systems that aimed to restore ecosystems and empower communities by prioritizing positive environmental and social impact [@WhatReFiRegenerative2023].
+
+An early example is the Celo proof-of-stake blockchain, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserver, which buys green assests, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. Similarly, the [@KlimaDAO2023] KlimaDAO protocol tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality. Regen Network founded a blockchain for ecological data & credits. [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]
 
 
-Cryptocurrencies - Celo and Impact Market - Celo invests into ReFi on the code level - @martenpollumeesKuhuInvesteeritiLHV2022 retirement funds invested in crypto
-
-On the intersection of cryptocurrencies, blockchains, and nature-backed assets.
-
-Celo protocol invests in carbon credits on the protocol level: Celo’s protocol offsets carbon emissions at the protocol level by integrating proof-of-stake efficiency and tokenized carbon credits (e.g. Moss MCO₂) into its reserve, laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] Luis’s PlanetKlimate series on Moss.Earth details the issuance and tokenization of tropical-forest carbon credits (MCO₂) and biodiversity tokens within the Celo ecosystem.
-
-
-
--   @regennetworkCommunityDevelopmentCall22 and @regennetworkRegenNetworkInvest2023 regen network
--   @smithOneYearLater2021
-
-
--   @KlimaDAO2023 KlimaDAO’s 2023 protocol tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality 
-
-
-
--   @naturalinvestMalaikaMaphalalaNatural2020
-
--   @marquisRSFLeadingWay2021 In his Sept 2021 Forbes article, Christopher Marquis highlights RSF Social Finance’s pioneering shift from impact investing to regenerative finance, detailing its $230 million under management and community-pricing innovations 
-
-
-Efforts to connec carbon markets, carbonmark.com
-
-"We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
-
-"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
-
-"climate action as an asset-liability problem"
-
--   overview of 23 low-carbon blockchains @alzoubiGreenBlockchainMove2023
-
-"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
+Some traditional green investors have started to take note. [@marquisRSFLeadingWay2021] reports on RSF Social Finance’s shifting from impact investing to regenerative finance, detailing its $230 million under management and community-pricing innovations.
 
 ### Divestment: Supporting Sustainability by Avoiding the Worst Polluting Companies
 
@@ -1379,3 +1355,13 @@ Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverag
 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
 BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
+
+"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
+
+Efforts to connec carbon markets, carbonmark.com
+
+"We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
+
+"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
+
+"climate action as an asset-liability problem"
