@@ -49,6 +49,8 @@ The next step is to provide frictionless digital pathways that let everyday purc
 
 -   Analysis: Messari: investor education, information asymmetry
 -  The Information evavõrdsus disparity between pro and novice investors creates a big gap in knowledge.
+-   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto. Snowflake analysis like Simply Wallstreet.
+
 
 Retail investing also heavily influenced by social media influencers.
 
@@ -125,13 +127,12 @@ Trend of sustainably, how can sustainability become more accessible? People want
 
 In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region inthe world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with $326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage $1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025]. 
 
-Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Banks the form the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions  [@wilkesExclusiveBanksVote2023].
+ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example: universities. A case in point being the partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund marketed using the words of The Prince of Wales, *"Building a sustainable future is, in fact, the growth story of our time"* [@jerseyeveningpostCharlesAchievingSustainable2020]. The Investor’s Business Daily’s 2021 roundup named the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection [@dailyHereOurList2021].
+
+Yet the question remains, whether one can trust the banks to hold ESG to a high standard. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Banks that form the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions  [@wilkesExclusiveBanksVote2023].
+
 
 [@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for 
-
-
--   [@dailyHereOurList2021] best ESG list Investor’s Business Daily’s 2021 roundup names the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection 
-
 
 -   [@simoes-coelhoBalancingGlobalCorporate2023] Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
 
@@ -139,51 +140,33 @@ Banks are hiding emissions related to capital markets, which is a major financin
 
 In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The Internaional Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020]. 
 
-The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015, yet commodification of human beings is still practiced worldwide [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies. Not everyone is in favor of more stringent labor practices either. Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"[@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade.
+The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015, yet commodification of human beings is still practiced worldwide [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies. Not everyone is in favor of more stringent labor practices either. Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. *"Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"* [@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade.
 
 ```{python}
 slavery_laws()
 ```
-Slavery is connected to environmental degradation, and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
+Slavery is connected to environmental degradation, and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping prices lower, and environmental degradation happening.
 
-While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions. Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*. [@timnicolleRealtimeESGData2021; @primadollarmediaPrimaDollarGivingSupply2021] PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
-
-    -   @WorkerVoice2022 Worker Voice apps.
+While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions. Companies that create "worker voice apps", intending to to *"give the supply chain a voice"* by connecting workers directly to the consumer (even if anonymously, to protect the workers from retribution), include CTMFile, Alexandria, and PrimaDollar [@timnicolleRealtimeESGData2021; @primadollarmediaPrimaDollarGivingSupply2021; @WorkerVoice2022].
 
 ### ESG Opportunity: Environmental, Social, and Corporate Governance Criteria Provide a Shared Language
 
-Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
-
-Countering Misinformation with Transparency
-
-ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example, universities - a case in point being the recent partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another recent example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund inspired by the words of The Prince of Wales, 'Building a sustainable future is, in fact, the growth story of our time' [@jerseyeveningpostCharlesAchievingSustainable2020].
+Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics. 
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
-[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years.
+[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years. Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 
 ```{python}
 msci_esg_leaders()
 ```
 
--   Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
--   Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
-
-Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility.
+Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 ```{python}
 companies_triple_perf()
 ```
 
--   Marketing - Sustainability Marketing
-
--   Environmental Information Disclosure (EID)
-
--   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto
-
--   Snowflake analysis like Simply Wallstreet
-
-The promise of ESG is to counter misinformation with transparency.
 
 A meta-review of 136 research articles discovered the following ESG-rating agencies.
 
@@ -1105,6 +1088,8 @@ Although over 100 different scientific journals now publish work on sustainabili
 Kaufman decries the lack of real-world data in the economic-climate models, and believes the simple assumptions should be replaced with much more complex scientific analysis [@dessler2ClimateEconomicsNoah2024].
 
 ## Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
+
+Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility. The promise of ESG is to counter misinformation with transparency. Environmental Information Disclosure (EID). Marketing - Sustainability Marketing. Countering Misinformation with Transparency.
 
 Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
 
