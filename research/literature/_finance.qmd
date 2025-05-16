@@ -305,13 +305,10 @@ How are large corporations responding to the climate crisis?
 
 -   @PublicHealthLinkages2013
 
--   @guidottiHealthSustainabilityIntroduction2015
-
--   "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
+-   @guidottiHealthSustainabilityIntroduction2015: "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
 
 -   @lowRethinkingNetZeroSystems2022 considering pathways to drawdown finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
 
--   
 
 ### Consumer Activits are a Small Minority
 
@@ -715,15 +712,12 @@ Sweden is a country with highly developed financial markets and active social ca
 
 ### Financial Ecologies
 
--   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management. However, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+-   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management; however, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
 -   [@hydeGiftHowCreative2006] Money as a gift: Lewis Hyde’s book The Gift argues creativity thrives in "gift economies"; reciprocity is more important for creativity than market exchanges.
 
--   ESG apps in Singapore:
+-   ESG apps in Singapore: DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
 
--   DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
-
--   Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
 ESG pulse
 
@@ -858,6 +852,8 @@ In general, crypto owernship can be divided into self-custody (you own the keys 
 
 There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. In Switzerland, insitutional funds entered crypto early. Licensed already in 2019 by the Swiss financial authority FINMA, AMINA, formerly known as SEBA Bank, was among the first regulated cryptocurrency banks [@aminabankagSEBABankRebrands2023]. The first crypto fund was launched in September 2021, when FINMA approved Switzerland’s first regulated crypto-asset fund—the "Crypto Market Index Fund" from the same AMINA bank, giving investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with the AMINA Bank's custody [@finmaApprovalFirstSwiss2021]. AMINA of course was not the only bank interested in crypto, with "[m]ore than half" of Swiss banks planning to offer digital assets services in the near future [@swissinfo.ch/ursSwissCryptoValley2022]. Banks launching Crypto ETFs (Exchange Traded Funds) enable their clients to have exposure to crypto without ever buying cryptocurrencies directly themselves. However, while owning cryptocurrency directly allows one to use crypto tools to look at any wallet balance, ETFs hide that transparency.
 
+To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
+
 Pricing crypto is not based on any single fundamental metric, but comes from tokenomics, which is a catch-all word for token design and internal economics, such as supply schedules, emissions cuts, burns and staking yields to frame the basic scarcity curve as well as demand side narratives, and real world utility and user sentiment. Crypto enables significant potential for financial engineering and innovation by anyone with enough programming skills.
 
 Bitcoin is by far the most popular cryptocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
@@ -894,23 +890,16 @@ A lot of financial tooling from traditional finance (called trad-fi in crypto ci
 
 Oracles provide the intersection between finance and real world sustainability data. A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste. For example, crypto crop insurance provided by IBISA Network uses blockchain triggers and satellite data to offer transparent, automated payouts for farmers facing weather-related risks [@IBISANetworkEnabling]. While [@caldarelliOvercomingBlockchainOracle2020] notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles, the largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy. [@bradydaleChainlinkFounderSays2021; @chainlinkNewReportBlockchains2022].
 
--   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud.
-
 ### Divestment: Supporting Sustainability by Avoiding the Worst Polluting Companies
 
-If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market.
+Divesting is the inverse of investing. If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
+In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. Even with divesting from oil and has, Norway Government Pension Fund Global (GPFG) still adheres to the Markowitz's Modern Portfolio Theory (MPT), with enough diversification between assets [@papaioannouSovereignWealthFund2015].
 
-"Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
+University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas. Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock.
 
-University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
+While divesting makes news headlines, even divestment by large institutional investors, such as the Norwegian National Pension Fund (GPFG), has a negligible effect on the heavy polluters' business; by the same logic, it can be deducted, the financial effect of retail investors divesting, is meaningless. If retail investors act in aggregate, the reputational effect needs further research. *"To halt climate change, some investors have decided to divest from fossil fuel companies. Reviewing the literature suggests that divestment from fossil fuel has limited financial consequences; it slightly increases divested firms’ risk and their cost of capital, while reducing divested firms’ market value,"* is the pessimistic conclusion by [@plantingaFinancePerspectiveFossil2024].
 
-Large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock.
-
-Divesting is the inverse of investing. Divesting may have a meaningful impact on companies if large numbers of retail investors collaborate on 'banning' the company to send a message to the board. Small individual divestment has no impact on the governance decisions.
-
-While divesting makes news headlines, even divestment by large institutional investors, such as the Norwegian National Pension Fund (GPFG), has a negligible effect on the heavy polluters' business; by the same logic, it can be deducted, the financial effect of retail investors divesting, is meaningless. If retail investors act in aggregate, the reputational effect needs further research. *"To halt climate change, some investors have decided to divest from fossil fuel companies. Reviewing the literature suggests that divestment from fossil fuel has limited financial consequences; it slightly increases divested firms’ risk and their cost of capital, while reducing divested firms’ market value,"* is the pessimistic conclusion by[@plantingaFinancePerspectiveFossil2024]
-
--   Even with divesting from oil and has, Norway Government Pension Fund Global (GPFG) still adheres to the Markowitz's Modern Portfolio Theory (MPT), with enough diversification between assets [@papaioannouSovereignWealthFund2015]
+By extension, it may sound feasible that divesting could have a meaningful impact on companies if a large numbers of retail investors collaborate on 'banning' the company to send a message to the board, yet in practice small individual divestments may be neglible to governance decisions.
 
 ## The Economics of Decoupling: Attempts to Disconnect Economic Growth from Eco-Degradation
 
@@ -1058,19 +1047,15 @@ The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the
 
 ### Traceability Curbs Corruption
 
+Supply Chain Mapping improves Transaction Traceability
+
 EU Deforestation Regulation (EUDR)
 
 Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]
 
-**The founder of Sourcemap** Leonardo Bonanni started out with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
+The founder of Sourcemap Leonardo Bonanni started out with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
 
 What data should be surfaced to the consumer?
-
-Supply Chain Mapping
-
-Transaction Traceability
-
-To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
 ### Product Databases as a Precursor for Traceability and Supply Chain Mapping
 
@@ -1275,6 +1260,8 @@ WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he
 +--------------------------------------+---------------------------------------------------------------+
 | Knowledge sharing platform           | business-humanrights.org                                      |
 +--------------------------------------+---------------------------------------------------------------+
+
+Singapore ESG open data platform [@monetaryauthorityofsingaporeMASLaunchesDigital2023]
 
 At the 2023 Scottish AI Summit, practitioners demoed how AI pipelines can analyse modern slavery statements to flag missing disclosures, suggesting how humans and machines can "scale corporate accountability" like never before [@laureenvanbreenPanelScalingCorporate2023]. Meanwhile, WikiRate’s Facility Checker uncovers living-wage gaps in real time for advocacy organizations [@wikirateIntroducingFacilityChecker2022]
 
