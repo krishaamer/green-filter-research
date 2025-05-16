@@ -47,7 +47,7 @@ Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good st
 
 The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a dual journey: first, helping users recognise whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
 
-
+-   Analysis: Messari: investor education, information asymmetry
 -  The Information evavõrdsus disparity between pro and novice investors creates a big gap in knowledge.
 
 Retail investing also heavily influenced by social media influencers.
@@ -119,8 +119,47 @@ Trend of sustainably, how can sustainability become more accessible? People want
 
 -   @naturalinvestMalaikaMaphalalaNatural2020 During COVID-19, people like financial advisor Malaika Maphalala who co-led the “Invest in Black Economic Liberation” started calling for racial justice investing to direct flows into sustainable funds.
 
+### ESG Crisis: Opaque Metrics and Lack of Standardisation
 
-### Environmental, Social, and Corporate Governance (ESG) Criteria Provides a Shared Language
+[@sanjaibhagatInconvenientTruthESG2022] argues that despite more than $2.7 trillion in ESG-rated AUM as of December 2021, (assets under management, the total market value of all the investments including stocks, bonds, crypto, etc.), that investment managers are looking after on behalf of their clients (81% in Europe and 13% in U.S.), funds marketed as 'sustainable' fail to deliver improvements to environmental and social metrics; the inconvenient truth is that ESG ratings don't deliver better ESG performance.  In the face a crisis of underperformance and mounting scandals, [@jamesphillippsESGCrisisJust2022] questions whether ESG is fundamentally broken or simply misunderstood. [@pietrocecereItTotalMess2023] calls ESG labeling confusing and arbitrary; fund selectors describe ESG labelling as "a total mess," pointing to confusing definitions, inconsistent methodologies, and overlapping ratings that undermine clarity. [@FinancialMaterialityMarks2023] argues that the main challenge in credible ESG investing is defining which sustainability factors are genuinely financially material; the market is confused by inconsistent scoring methods and needs more government-backed policies that create incentives to align short- and long-term risk assessments. ESG-activist Georgia Elliott-Smith argues in her TEDx talk that large corporations are using ESG for greenwashing - but not changing their fundamental polluting practices [@tedxtalksDisruptiveNewModel2022].
+
+In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region inthe world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with $326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage $1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025]. 
+
+Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Banks the form the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions  [@wilkesExclusiveBanksVote2023].
+
+[@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for 
+
+
+-   [@dailyHereOurList2021] best ESG list Investor’s Business Daily’s 2021 roundup names the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection 
+
+
+-   [@simoes-coelhoBalancingGlobalCorporate2023] Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
+
+### ESG Crisis: Modern Slavery Persists and ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
+
+In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. ILO estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024].
+
+The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015 [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies.
+
+On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
+
+Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"[@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade?
+
+```{python}
+slavery_laws()
+```
+
+Slavery is connected to environmental degradation, and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
+
+While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions.
+
+-   "commodification of human beings"
+
+-   Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*. \[@timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
+
+    -   @WorkerVoice2022 Worker Voice apps.
+
+### ESG Opportunity: Environmental, Social, and Corporate Governance Criteria Provide a Shared Language
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
@@ -242,32 +281,7 @@ For AI-powered assistants to be able to provide guidance, metrics are needed to 
 
 -   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance.
 
-
-### ESG Crisis
-
-[@sanjaibhagatInconvenientTruthESG2022] argues that despite more than $2.7 trillion in ESG-rated AUM as of December 2021, (assets under management, the total market value of all the investments including stocks, bonds, crypto, etc.), that investment managers are looking after on behalf of their clients (81% in Europe and 13% in U.S.), funds marketed as 'sustainable' fail to deliver improvements to environmental and social metrics; the inconvenient truth is that ESG ratings don't deliver better ESG performance. [@jamesphillippsESGCrisisJust2022] questions whether ESG is fundamentally broken or simply misunderstood, in the face a crisis of underperformance and mounting scandals [@FinancialMaterialityMarks2023] argues the main challenge in credible ESG investing is defining which sustainability factors are genuinely financially material; the market is confused by inconsistent scoring methods and needs more government-backed policies that create incentives to align short- and long-term risk assessments. [@pietrocecereItTotalMess2023] calls ESG labeling confusing and arbitrary; fund selectors describe ESG labelling as “a total mess,” pointing to confusing definitions, inconsistent methodologies, and overlapping ratings that undermine clarity. ESG-activist Georgia Elliott-Smith argues in her TEDx talk that large corporations are using ESG for greenwashing - but not changing their fundamental polluting practices [@tedxtalksDisruptiveNewModel2022].
-
-In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region inthe world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with $326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage $1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025]. 
-
-Large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock. 
-
-
-[@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for 
-
-
--   Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Major banks voted to cap their responsibility for financed emissions at just 33%—a move that effectively hides most carbon impacts linked to bond and equity underwriting [@wilkesExclusiveBanksVote2023].
-
-
--   @dailyHereOurList2021 best ESG list Investor’s Business Daily’s 2021 roundup names the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection 
-
-
-
--   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
-
-
--   Analysis: Messari: investor education, information asymmetry
-
-**ESG (Data Streams): Realtime Reporting**
+### ESG Opportunity: Realtime Reporting and Data Streams
 
 ESG is a marketing tool but it could achieve more. One of the key emerging issues is that ESG is an annual report not real-time, actionable data. [@sahotaAIAnalysis8002021] argues that "\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." 
 
@@ -319,33 +333,8 @@ Large corporations such as Nestle and Coca Cola support the biodiversity law to 
 
 -   Pathways to drawdown
 
-### Modern Slavery Persists: ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
 
-ESG is in crisis.
-
-In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. ILO estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024].
-
-The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015 [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies.
-
-On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
-
-Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. "Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"[@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade?
-
-```{python}
-slavery_laws()
-```
-
-Slavery is connected to environmental degradation, and climate change [@deckersparksGrowingEvidenceInterconnections2021]. Enslaved people are used in environmental crimes such as 40% of deforestation globally. Cobalt used in technological products is in risk of being produced under forced labor in the D.R. Congo [@sovacoolWhenSubterraneanSlavery2021]. In India and Pakistan, forced labor in brick kiln farms is possible to capture remotely from satellite images [@boydSlaverySpaceDemonstrating2018]. In effect, the need for cheap labor turns slavery into a *subsidy* keeping environmental degradation happening.
-
-While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions.
-
--   "commodification of human beings"
-
--   Companies that intend to to give supply chain a voice" by connecting workers directly to the consumer (even in anonymously, to protect the workers from retribution), include *CTMFile* and *Alexandria*. \[@timnicolleRealtimeESGData2021 and @primadollarmediaPrimaDollarGivingSupply2021 PrimaDollar Realtime ESG Give supply chain a voice by connecting workers directly to the consumer.
-
-    -   @WorkerVoice2022 Worker Voice apps.
-
-### Consumer Activits: a Small Minority
+### Consumer Activits are a Small Minority
 
 Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. Yet *conscious consumers* only make up a small percentage of the entire consumer public, making individual action close to meaningless. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
@@ -353,7 +342,9 @@ Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkam
 
 sustainable consumption relationships in Europe.
 
-`{python}1} sustainable_consumption_relationships()`
+```{python}  
+sustainable_consumption_relationships()
+```
 
 -   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
 
@@ -990,6 +981,9 @@ If no sustainable alternative can be found, at least taking one's money out from
 "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
 
 University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas.
+
+Large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock. 
+
 
 Divesting is the inverse of investing. Divesting may have a meaningful impact on companies if large numbers of retail investors collaborate on 'banning' the company to send a message to the board. Small individual divestment has no impact on the governance decisions.
 
