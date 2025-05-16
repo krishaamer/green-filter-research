@@ -123,6 +123,16 @@ Trend of sustainably, how can sustainability become more accessible? People want
 
 ### ESG Crisis: Opaque Metrics and Lack of Standardisation
 
+[@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include inconsistent data and superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]. This is supported by econometric analysis showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. 
+
+In theory, Socially Responsible Investing (SRI) integrates ESG criteria to screen out harmful industries and direct capital to companies with positive social and environmental impacts for both ethical and financial returns [@SociallyResponsibleInvesting]. Nonetheless, a large-scale input–output life-cycle assessment of 1340 European equity funds (11275 unique holdings) including sustainable (SRI) funds, and found that 24% of the sampled SRI funds actually show higher total CO2 emissions exposure within their assets than a conventional market index [@popescuAreSRIFunds2023]. ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023]. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond checkbox ESG. 
+
+The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESGs to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. ][@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
+
+```{python}
+conventional_vs_sri_funds()
+```
+
 [@sanjaibhagatInconvenientTruthESG2022] argues that despite more than $2.7 trillion in ESG-rated AUM as of December 2021, (assets under management, the total market value of all the investments including stocks, bonds, crypto, etc.), that investment managers are looking after on behalf of their clients (81% in Europe and 13% in U.S.), funds marketed as 'sustainable' fail to deliver improvements to environmental and social metrics; the inconvenient truth is that ESG ratings don't deliver better ESG performance.  In the face a crisis of underperformance and mounting scandals, [@jamesphillippsESGCrisisJust2022] questions whether ESG is fundamentally broken or simply misunderstood. [@pietrocecereItTotalMess2023] calls ESG labeling confusing and arbitrary; fund selectors describe ESG labelling as "a total mess," pointing to confusing definitions, inconsistent methodologies, and overlapping ratings that undermine clarity. [@FinancialMaterialityMarks2023] argues that the main challenge in credible ESG investing is defining which sustainability factors are genuinely financially material; the market is confused by inconsistent scoring methods and needs more government-backed policies that create incentives to align short- and long-term risk assessments. ESG-activist Georgia Elliott-Smith argues in her TEDx talk that large corporations are using ESG for greenwashing - but not changing their fundamental polluting practices [@tedxtalksDisruptiveNewModel2022].
 
 In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region inthe world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with $326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage $1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025]. 
@@ -131,10 +141,9 @@ ESG gives banks a new tool to market and sell environmentally conscious opportun
 
 Yet the question remains, whether one can trust the banks to hold ESG to a high standard. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Banks that form the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions  [@wilkesExclusiveBanksVote2023].
 
-
 [@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for 
 
--   [@simoes-coelhoBalancingGlobalCorporate2023] Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
+-   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
 ### ESG Crisis: Modern Slavery Persists and ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
 
@@ -153,6 +162,12 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics. 
 
+Robeco's survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
+
+
+-   Compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
+
+
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
 [@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years. Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
@@ -167,34 +182,22 @@ Trucost, a company launched in 2000 to calculate the hidden environmental costs 
 companies_triple_perf()
 ```
 
-
 A meta-review of 136 research articles discovered the following ESG-rating agencies.
 
 ```{python}
 esg_rating_agencies_chart()
 ```
 
-[@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include inconsistent data and superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]. This is supported by econometric analysis showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. 
-
-In theory, Socially Responsible Investing (SRI) integrates ESG criteria to screen out harmful industries and direct capital to companies with positive social and environmental impacts for both ethical and financial returns [@SociallyResponsibleInvesting]. Nonetheless, a large-scale input–output life-cycle assessment of 1340 European equity funds (11275 unique holdings) including sustainable (SRI) funds, and found that 24% of the sampled SRI funds actually show higher total CO2 emissions exposure within their assets than a conventional market index [@popescuAreSRIFunds2023]. ESG companies don't emit less CO2 than non-ESG companies.. ESG Criticism "25 ESG ratings from three major providers (Moody's Analytics, MSCI Inc., and Refinitiv)" - *"well-rated companies do not emit significantly less carbon than those with lower scores."* [@amencGreenDilutionHow2023]. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond checkbox ESG. 
-
-The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESGs to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. ][@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
-
-```{python}
-conventional_vs_sri_funds()
-```
-
--   ESG reports are very general and opaque. We need product-level analytics and reporting to be able to compare products.. ESG is filled with greenwashing. ESG is a really low bad. metrics and goals: ESG, SDGs, ESG risk. Q: Reflection on the ESG wave: Does a company that performs well in carbon reduction but whose products are harmful to health conform to the spirit of ESG? Sest ei saa ESG ja teisi mõõdikuid usaldada, crowdsourced mõõdikud. openesg.com/because you can't trust ESG [@aikmanESGDAOOut2022] !
 
 ```{python}
 fund_types_chart()
 ```
 
-Three frameworks for corporate to think about ESG compliance is to position their company on the MEET - EXCEED - LEAD scale based on the size, complexity and available resources of the company.
+Three frameworks for corporate to think about ESG compliance is to position their company on the MEET, EXCEED, and LEAD scale based on the size, complexity and available resources of the company.
 
-Governance: Boards, Policy, and Investor Pressure Governance in ESG is the *“G that makes E and S happen”* or put in another way: governance drives social and environmental initiatives at companies.
+Governance in ESG is the *“G that makes E and S happen”* or put in another way: governance drives social and environmental initiatives at companies yet MSCI research finds company boards severely lacking in climate experts; among the 164 large CO2 emitters benchmarks by the *Climate Action 100+* alliance [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
 
-MSCI research finds company boards severely lacking in climate experts; among the 164 large CO2 emitters benchmarks by the *Climate Action 100+* alliance [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
+Governance: Boards, Policy, and Investor Pressure 
 
 [@climateaction100+Companies2023] tracks large emitters around the world with combined market cap of \$10.3 Trillion USD.
 
@@ -235,6 +238,8 @@ esg_fintech_heatmap()
 ```
 
 In a paper focused on industrial changes in China, [@luDoesEnvironmentalInformation2023] finds that *digitization* is the pathway to increased Environmental Information Disclosure (EID) and Green Innovation.
+
+"Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
 
 The advice consultancies are providing to banks establishes a common language and helps banks to sell strategical alignment for long-term institutional sustainability in terms of environmental, social, and governance performance. PWC suggests *"asset managers educate their staff and client base. 'It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent'"* [@pwc2022GrowthOpportunity2020]
 
@@ -296,6 +301,9 @@ The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion i
 Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers [@walmartProjectGigaton2023]. These examples underline how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
 Large corporations such as Nestle and Coca Cola support the biodiversity law to have a level playing field for business [@greensefaNatureVoteSuccess2023].
+
+-   [@simoes-coelhoBalancingGlobalCorporate2023] Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
+
 
 -   @PublicHealthLinkages2013
 
@@ -609,13 +617,13 @@ According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.
 climate_finance_gap_sectors_timeline()
 ```
 
-What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate? The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
 
 ```{python}
 climate_finance_gap_sectors()
 ```
 
-The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1 year of the global economy.
+The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1-2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
 
 Bad news. It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
@@ -697,52 +705,30 @@ money_chart()
 
 While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support.
 
--   Robeco survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
-
--   Compliance and GenAI in banking: [@rahulagarwalHowGenerativeAI2024].
-
--   "Lessons from banking to improve risk and compliance and speed up digital transformations" [@jimboehmBetterRiskControls2021].
-
--   @oecdOECDEconomicOutlook2024 projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the @worldbankGlobalEconomicProspects2024 is more conservative projecting 2.6% and 2.7% respectively.
-
 ### Retail Investing Enables Financial Inclusion and Growing Money Sustainably
 
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
 Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019]. While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals [@tanPerformanceESGintegratedSmart2023]. "sustainable investing is now part of mainstream financial strategy" [@morganstanleySustainableSignalsIndividual2019].
 
+Many ecologically-focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management; thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends [@doornStocksThatShould2020].
+
+@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact" and [@lingeswaranLevellingShatteringMyths2019] suggest philanthropy is on the rise in Asia in general. @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level".
+
+-   
+
+Sweden is a country with highly developed financial markets and active social campaigns demanding sustainability as well as well as the home for several green fintech companies, including Doconomy and Trine [@MeetFintechsLeading2021]. [@lagerkvistPreferencesSustainableResponsible2020] undertook a choice experiment "Preferences for sustainable and responsible equity funds" with 559 Swedish private investors In Sweden, and found that sustainability strategies and an environmental focus carry more weight than fees, past performance or fund size.
+  
+
+  -   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
+
 -   Consumption is ruining the world the world thinking as an investor the investor mindset
-
-@doornStocksThatShould2020: Many ecologically focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management. Thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends.
-
-@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact".
-
--   @lingeswaranLevellingShatteringMyths2019 suggest philanthropy is on the rise in Asia however
-
--   @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level"
-
--   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
-
--   For example - In Sweden "Preferences for sustainable and responsible equity funds
-
--   Sweden is a in countries with highly developed financial markets and active social campaigns demanding sustainability (Sweden)
-
--   @lagerkvistPreferencesSustainableResponsible2020 undertook a choice experiment with Swedish private investors.
-
--   @MeetFintechsLeading2021 Sweden is the home for several green fintech companies, including Doconomy and Trine.
 
 -   Gov launching ESG funds.
 
--   Why is this important to research now? People in their twenties should invest in their future. Millennials and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products.
-
--   Personalized Investing
-
--   2022 saw a wave of new platforms aiming to make investing easier for retail investors
-
--   One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
+-   2022 saw a wave of new platforms aiming to make investing easier for retail investors, Personalized Investing. One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
 
 -   Gamestop for climate massively collaborative investing by gen-z?
-
 
 ### Financial Ecologies
 
@@ -1091,7 +1077,7 @@ Kaufman decries the lack of real-world data in the economic-climate models, and 
 
 Sustainable Investing is Based on Data. Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not. Greenwashing Disturbs Sustainable Capital Allocation. Greenwashing erodes trust. Greenwashing has a negative Impact on Credibility. The promise of ESG is to counter misinformation with transparency. Environmental Information Disclosure (EID). Marketing - Sustainability Marketing. Countering Misinformation with Transparency.
 
-Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 as is being gradually ramped up until 2027.
+Corporate hypocrisy is an important blocker of sustainable action. Both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if"green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022]. EU regulation for standardizing sustainability reporting is called the Corporate Sustainability Reporting Directive (CSRD) entered into force in 2023 and is being gradually ramped up until 2027.
 
 Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. Humans feel as if choosing green is useless and give up. Sustainabile investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
 
