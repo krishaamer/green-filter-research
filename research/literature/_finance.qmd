@@ -271,13 +271,13 @@ For AI-powered assistants to be able to provide guidance, metrics are needed to 
 
 ESG is a marketing tool but it could achieve more. One of the key emerging issues is that ESG is an annual report not real-time, actionable data. [@sahotaAIAnalysis8002021] argues that "\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say."
 
-Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
+[@timnicolleRealtimeESGData2021] argues "Real-time ESG data is more difficult to greenwash", "supply chain is a significant source of ESG content". "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023].
 
--   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
+[@kylewiggersMakersiteLands18M2022] a startup called Makersite proposes instant sustainability impact from supply chain, deep supply-chain data can surface product–level environmental footprints in minutes instead of months, which they call "Product Lifecycle Intelligence". [@makersiteImproveYourProduct] proposes *product sustainability modeling*.
+
+Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021].
 
 -   Improve product *provenance*, blockchains offer this transparency
-
--   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
 
 -   @BlockchainCompaniesTeam2021
 
@@ -285,15 +285,7 @@ Google Environmental Insights Explorer enables local governments (cities) to mea
 
 There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
--   @kylewiggersMakersiteLands18M2022 proposes makersite, instant sustainability impact from supply chain.
-
--   @makersiteImproveYourProduct proposes ***product sustainability modeling***.
-
--   @timnicolleRealtimeESGData2021 "Real-time ESG data is more difficult to greenwash", "supply chain is a significant source of ESG content"
-
--   Automate CO~2~ calculations real-time:
-
--   @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO~2~ counting
+-   Automate CO~2~ calculations real-time: @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO~2~ counting
 
 -   "Factory social score".
 
@@ -307,16 +299,22 @@ How are large corporations responding to the climate crisis?
 
 -   @guidottiHealthSustainabilityIntroduction2015: "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
 
--   @lowRethinkingNetZeroSystems2022 considering pathways to drawdown finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
-
 
 ### Consumer Activits are a Small Minority
 
 Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. Yet *conscious consumers* only make up a small percentage of the entire consumer public, making individual action close to meaningless. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
 
+For consumer activism to become mainstream it needs to much simpler.
+
 -   Is Sustainable Shopping possible? Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target? Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
 
-sustainable consumption relationships in Europe.
+[@fuentesUnpackingPackageFree2019] employed a shopping-as-practice ethnography in a Swedish zero-waste grocery store to show that removing packaging requires reinventing the shopping practice itself, e.g. introducing reusable containers, new retail setups, and consumer routines.
+
+[@weberMobileAppsSustainable2021] proposes a sustainable shopping guide in a study which demonstrates that embedding eco-score rankings into a mobile shopping app significantly increases consumers’ selection of low-impact food products by improving decision support and reducing information overload.
+
+[@vanderwalParadoxGreenBe2016] discusses how status motives make people publicly display sustainable behavior, revealing that shoppers purchase branded reusable bags rather than bring their own, exposing a "paradox of green to be seen" and its hidden environmental costs.
+
+Sustainable consumption relationships in Europe.
 
 ```{python}
 sustainable_consumption_relationships()
@@ -326,11 +324,6 @@ sustainable_consumption_relationships()
 
 Make use of indexes to compare companies.
 
--   @weberMobileAppsSustainable2021 proposes a sustainable shopping guide.
--   @fuentesUnpackingPackageFree2019 discusses package free shopping.
--   @vanderwalParadoxGreenBe2016 discusses "status motives make people publicly display sustainable behavior".
-
-For consumer activism to become mainstream it needs to much simpler.
 
 ### Shopping's Environmental Footprint: Increasingly Driven by Digital Platforms, Social Commerce, AI Assistants
 
@@ -850,7 +843,7 @@ Taiwan has an active market for crypto-assets while with some limitations. In 20
 
 In general, crypto owernship can be divided into self-custody (you own the keys to your wallet) and custodial ownership, where you trust someone else (i.e. a centralized exchange or a bank) to hold the cryptocurrency for you. Both have their risks (self-custody, losing your keys; custodial: the exchange steals your tokens or goes bankrupt). Centralized crypto exchanges are in essence loaning assets from the user. *"The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards"* [@hesterm.peirceSECGovStatement2022].
 
-There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. In Switzerland, insitutional funds entered crypto early. Licensed already in 2019 by the Swiss financial authority FINMA, AMINA, formerly known as SEBA Bank, was among the first regulated cryptocurrency banks [@aminabankagSEBABankRebrands2023]. The first crypto fund was launched in September 2021, when FINMA approved Switzerland’s first regulated crypto-asset fund—the "Crypto Market Index Fund" from the same AMINA bank, giving investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with the AMINA Bank's custody [@finmaApprovalFirstSwiss2021]. AMINA of course was not the only bank interested in crypto, with "[m]ore than half" of Swiss banks planning to offer digital assets services in the near future [@swissinfo.ch/ursSwissCryptoValley2022]. Banks launching Crypto ETFs (Exchange Traded Funds) enable their clients to have exposure to crypto without ever buying cryptocurrencies directly themselves. However, while owning cryptocurrency directly allows one to use crypto tools to look at any wallet balance, ETFs hide that transparency.
+There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. In Switzerland, insitutional funds entered crypto early. Licensed already in 2019 by the Swiss Financial Market Supervisory Authority (FINMA), AMINA, formerly known as SEBA Bank, was among the first regulated cryptocurrency banks [@aminabankagSEBABankRebrands2023]. The first crypto fund was launched in September 2021, when FINMA approved Switzerland’s first regulated crypto-asset fund—the "Crypto Market Index Fund" from the same AMINA bank, giving investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with the AMINA Bank's custody [@finmaApprovalFirstSwiss2021]. AMINA of course was not the only bank interested in crypto, with "[m]ore than half" of Swiss banks planning to offer digital assets services in the near future [@swissinfo.ch/ursSwissCryptoValley2022]. Banks launching Crypto ETFs (Exchange Traded Funds) enable their clients to have exposure to crypto without ever buying cryptocurrencies directly themselves. However, while owning cryptocurrency directly allows one to use crypto tools to look at any wallet balance, ETFs hide that transparency.
 
 To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
@@ -870,7 +863,7 @@ crypto_pricing_theories()
 
 For example, in X research an index of major sustainability news was compared with crypto prices, which may have negative, positive, or no correlation with the following cryptocurrencies.
 
-### Regenerative Finance (ReFi) and **DAOs**
+### Regenerative Finance (ReFi) and DAOs
 
 > *"Would you rather buy a DogeCoin or a regenerative food forest token?"* Curve Labs founder Pat Rawson quotes @shillerNarrativeEconomicsHow2019 in ReFi podcast about Kolektivo [@refidaoReFiPodcastS2E92022].
 
@@ -878,7 +871,9 @@ While Bitcoin uses proof-of-work, and protocol which is highly energy intensive 
 
 Inspired by the decentralized finance (DeFi) Summer of 2020, when projects like Compound, Yearn, and Uniswap demonstrated blockchain-based financial tools could go viral, followed by COVID-19, which exposed systemic fragility and served as a a wake-up call about global interconnectedness and ecological risk, crypto pioneers attempted to use their native tools for public good, instead of only financial goals, giving birth to the regenerative Finance (ReFi) movement, applying technology to carbon accounting, market development, and governance [@smithOneYearLater2021]. Innovating on the intersection of blockchains, tokenization, nature-backed assets, and cryptocurrencies, ReFi leveraged DeFi to create financial systems that aimed to restore ecosystems and empower communities by prioritizing positive environmental and social impact [@WhatReFiRegenerative2023].
 
-Founded already in 2018, Regen Network built a blockchain for ecological data and carbon credits, using the Cosmos blockchain SDK [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]. Another early example is the Celo proof-of-stake blockchain, founded in 2020, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserve, which buys green assets, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. Similarly, the [@KlimaDAO2023] KlimaDAO protocol, founded in 2021, tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality, which has \$4 billion in total transaction volume.
+Founded already in 2018, Regen Network built a blockchain for ecological data and carbon credits, using the Cosmos blockchain SDK [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]. Another early example is the Celo proof-of-stake blockchain, founded in 2020, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserve, which buys green assets, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. [@sepandarkamvarSepKamvarCelo2022] Sepandar Kamvar, co-founder of Celo, famously calls "[a] blockchain is a database without a database admin".
+
+Similarly, the [@KlimaDAO2023] KlimaDAO protocol, founded in 2021, tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality, which has \$4 billion in total transaction volume.
 
 Some traditional green investors have started to take note. [@marquisRSFLeadingWay2021] reports on RSF Social Finance’s shifting from impact investing to regenerative finance, detailing its \$230 million under management and community-pricing innovations.
 
