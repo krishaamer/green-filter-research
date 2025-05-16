@@ -90,6 +90,9 @@ In South Korea, Koreans investing in influencers? Koreans investing into media p
 
     Influencer - crypto twitter connections
 
+    -   @LetsDeFiDeFi Crypto DeFi education The DeFi Education Fund is a nonprofit dedicated to DeFi education and policy advocacy, offering “DeFi 101” readings, workshops, and research to help policymakers and developers shape a welcoming regulatory environment for DeFi 
+
+
 -   Cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
 
 ### New Rules of Money: Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
@@ -164,8 +167,6 @@ In theory, Socially Responsible Investing (SRI) integrates ESG criteria to scree
 
 The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESGs to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. ][@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
 
-
-
 ```{python}
 conventional_vs_sri_funds()
 ```
@@ -220,7 +221,7 @@ In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] pe
 esg_fintech_heatmap()
 ```
 
-In China, [@luDoesEnvironmentalInformation2023] finds *digitization* is the pathway to Environmental Information Disclosure (EID) and Green Innovation.
+In a paper focused on industrial changes in China, [@luDoesEnvironmentalInformation2023] finds that *digitization* is the pathway to increased Environmental Information Disclosure (EID) and Green Innovation.
 
 The advice consultancies are providing to banks establishes a common language and helps banks to sell strategical alignment for long-term institutional sustainability in terms of environmental, social, and governance performance. PWC suggests *"asset managers educate their staff and client base. 'It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent'"* [@pwc2022GrowthOpportunity2020]
 
@@ -236,50 +237,45 @@ For AI-powered assistants to be able to provide guidance, metrics are needed to 
 
 -   @ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022
 
--   While promising to become sustainable, oil companies are increasing production; Sunak, the UK Primise Minister announced 100 new licenses for oil drilling in the UK [@noorBigOilQuietly2023].
-
--   Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock\[\^6\]. Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on Environmental, Social, and Governance (ESG) performance \[\^7\]. However they later backtracked from their decision.
 
 -   Banks are required by law to apply the principle of Know Your Customer (KYC).
 
--   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance. x \#### ESG Crisis
+-   It can be as mundane as choosing the next eco-friendly product instead of the polluting one we purchase in the supermarket make a difference? How to invest in the growth of companies that put ESG at the center of their activities instead of using it for greenwashing? Creating direct ties will improve ESG. A journey from consumption to investing, in line with users' personal values, by providing relevant sustainable finance guidance.
 
--   @jamesphillippsESGCrisisJust2022 and @FinancialMaterialityMarks2023 ESG Not delivering on it's hopes
 
--   @tedxtalksDisruptiveNewModel2022 large corporations are using ESG for greenwashing by investing in token-projects but not changing their fundamental polluting practices.
+### ESG Crisis
 
--   @margarytakirakosianRedFlagsPrivate2022
+[@sanjaibhagatInconvenientTruthESG2022] argues that despite more than $2.7 trillion in ESG-rated AUM as of December 2021, (assets under management, the total market value of all the investments including stocks, bonds, crypto, etc.), that investment managers are looking after on behalf of their clients (81% in Europe and 13% in U.S.), funds marketed as 'sustainable' fail to deliver improvements to environmental and social metrics; the inconvenient truth is that ESG ratings don't deliver better ESG performance. [@jamesphillippsESGCrisisJust2022] questions whether ESG is fundamentally broken or simply misunderstood, in the face a crisis of underperformance and mounting scandals [@FinancialMaterialityMarks2023] argues the main challenge in credible ESG investing is defining which sustainability factors are genuinely financially material; the market is confused by inconsistent scoring methods and needs more government-backed policies that create incentives to align short- and long-term risk assessments. [@pietrocecereItTotalMess2023] calls ESG labeling confusing and arbitrary; fund selectors describe ESG labelling as “a total mess,” pointing to confusing definitions, inconsistent methodologies, and overlapping ratings that undermine clarity. ESG-activist Georgia Elliott-Smith argues in her TEDx talk that large corporations are using ESG for greenwashing - but not changing their fundamental polluting practices [@tedxtalksDisruptiveNewModel2022].
 
--   Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects @wilkesExclusiveBanksVote2023
+In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region inthe world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with $326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage $1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025]. 
 
--   @dailyHereOurList2021 best ESG list
+Large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock. 
 
--   ESG UAE FutureESGInvesting
 
--   @sanjaibhagatInconvenientTruthESG2022: Not better environmental performance, ESG poor performance
+[@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for 
 
--   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG
 
--   @pietrocecereItTotalMess2023 calls ESG labeling confusing and arbitrary.
+-   Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Major banks voted to cap their responsibility for financed emissions at just 33%—a move that effectively hides most carbon impacts linked to bond and equity underwriting [@wilkesExclusiveBanksVote2023].
 
--   ESG is a Marketing Tool
+
+-   @dailyHereOurList2021 best ESG list Investor’s Business Daily’s 2021 roundup names the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection 
+
+
+
+-   @simoes-coelhoBalancingGlobalCorporate2023 Coca Cola ESG Simões-Coelho et al.’s case study of Coca-Cola shows how adjusting sustainability engagement across different markets—such as achieving 90% global packaging recycling—addresses asymmetric ESG challenges 
+
 
 -   Analysis: Messari: investor education, information asymmetry
 
-| Problems                             |     |     |
-|--------------------------------------|-----|-----|
-| ESG is an annual report not realtime |     |     |
-|                                      |     |     |
-|                                      |     |     |
-
 **ESG (Data Streams): Realtime Reporting**
 
-"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." [@sahotaAIAnalysis8002021]
-
+ESG is a marketing tool but it could achieve more. One of the key emerging issues is that ESG is an annual report not real-time, actionable data. [@sahotaAIAnalysis8002021] argues that "\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say." 
 
 Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]
 
 -   "But the real breakthrough is how we can surface that real-time ESG data directly to individuals in the shops and online, linked to the products that they are browsing and potentially buying. This means that ESG change will finally be driven by the ultimate judge of business success -- the customer." [@ratkovicLeadingWayRealTime2023]
+
+
 -   Improve product *provenance*, blockchains offer this transparency
 -   @sepandarkamvarSepKamvarCelo2022 "A blockchain is a database without a database admin"
 -   @BlockchainCompaniesTeam2021
@@ -799,7 +795,6 @@ ESG pulse
 
 [@blackrockESGInvestingHedge2022] notes some ESG-oriented hedge funds can be "highly engaged with management teams" in order to influence management towards ESG practices in said companies. Barclays' 2021 investor survey found hedge‑fund LPs (limited partners) adding screening for ESG data and willingness to start new "green alpha" funds if performance can be proven by robust data [@ESGHedgeFunds2021]. High quality data is the key to unlocking this potential. ESG Analytics founder Qayyum Rajan introduces a sentiment‑driven, alternative‑data platform that maps real‑time ESG events to SASB topics for deeper, faster screening [@qayyumrajanESGAnalyticsIntroduction2021]. In addition to finance being increasingly data-driven, it's also increasingly personalized, for example Vise showcases its AI‑powered portfolio‑builder that lets RIAs customise, manage and explain client portfolios at scale, pitching itself as the “Copilot for wealth managers”, allowing creation of highly personalised portfolios [@Vise2023]. RavenPack provides an analysis tool tracking media and sentiment to gauge capital flows driven by ESG [@ravenpackCorpMovementESG2021].
 
-
 Companies themselves need to better understand their emissions, giving birth to the industry of climate accounting. The myclimate NGO is among the many providers or detailed calculate climate cost calculators, consulting and verified carbon‑offset projects aimed at helping firms net‑zero targets [@MyclimateYourPartner2023].
 
 Institutional finance is highly linked and constantly learning from each-other. For example, The Network for Greening the Financial System (NGFS) is a coalition of 140+ central banks that publishes scenarios, best‑practice guides and policy papers on climate‑related financial risk [@NGFS2023]. In Thailand, the Thai Fintech Association site lists its ecosystem map, events and membership tiers aimed at fostering fintech innovation and regulatory dialogue in Thailand [@ThaiFintechAssociation]. Online news platforms such as [@GreenCentralBanking] aggregate research and daily news on how central banks integrate climate risk—scorecards, policy trackers and expert commentary.
@@ -926,29 +921,28 @@ Crypto enables significant potential for financial engineering and innovation by
 
 Centralized Crypto Exchanges vs Self-Wallets - Centralized Crypto Exchanges are in essence loaning assets from the user. "The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards" [@hesterm.peirceSECGovStatement2022].
 
-There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024].
+There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. The First crypto fund was launched already in September 2021, FINMA approved Switzerland’s first regulated crypto-asset fund—the Crypto Market Index Fund—giving qualified investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with SEBA Bank custody [@finmaApprovalFirstSwiss2021].
 
--   @LetsDeFiDeFi Crypto DeFi education
+**Insitutional Funds Enter Crypto** Crypto ETFs enable people to have exposure to crypto without ever buying cryptocurrencies directly themselves. - @swissinfo.ch/ursSwissCryptoValley2022 "More than half of the Swiss banks plan to offer digital assets services over the next few years." - @BankNewEconomy: Crypto bank - @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse cryptocurrency Sandbox
 
--   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs.
+
+-   @openseaTopTaiwanInfluencers2022 Taiwanese digital influencers as NFTs. In January 2022, BlockTempo and OpenSea teamed up to mint the “Top Taiwan Influencers” collection—21 unique, limited-edition NFTs depicting Taiwan’s leading blockchain figures, designed to honor their industry contributions in digital art 
+
 
 -   Crypto tools allow you to look at any wallet already
 
--   @finmaApprovalFirstSwiss2021 First crypto fund
+-   
+
 
 **Pricing Crypto**
 
--   However volatility is relative. Volatile national currencies lead people to find other assets to hold. If your national currency is collapsing, you might find crypto has a relative safe haven to keep your funds.
-
--   People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
-
--   Bitcoin is by far the most popular cryptocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
+Bitcoin is by far the most popular cryptocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
 
 ```{python}
 bitcoin_vs_gold_futures()
 ```
 
-The volatility of the markets has notably shifted crypto research towards pricing theories.
+The volatility of the markets has notably shifted crypto research towards pricing theories. However volatility is relative. Volatile national currencies lead people to find other assets to hold. If your national currency is collapsing, you might find crypto has a relative safe haven to keep your funds. People like Turkey losing 75% of the value of their assets when currency collapses, why people buy crypto.
 
 ```{python}
 crypto_pricing_theories()
@@ -956,7 +950,6 @@ crypto_pricing_theories()
 
 For example, in X research an index of major sustainability news was compared with crypto prices, which may have negative, positive, or no correlation with the following cryptocurrencies.
 
-**Insitutional Funds Enter Crypto** Crypto ETFs enable people to have exposure to crypto without ever buying cryptocurrencies directly themselves. - @swissinfo.ch/ursSwissCryptoValley2022 "More than half of the Swiss banks plan to offer digital assets services over the next few years." - @BankNewEconomy: Crypto bank - @raidotonissonLHVToiKlientideni2022 Estonian bank selling Metaverse cryptocurrency Sandbox
 
 **DAOs**
 
@@ -964,19 +957,17 @@ DAOs (Decentralized Autonomous Organization) can be use in a similar way to Hedg
 
 A lot of financial tooling and more than trad-fi has been replicated in crypto.
 
-Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. [@blockchannelWhatDAOHow2017] defines a DAO as a Decentralized Autonomous Organization on blockchain, using smart contracts and token-weighted voting to enable permissionless, community-driven governance. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. A notable example, [@carrawuInvestingFriendsBenefits2021] details how the Friends With Benefits (FWB) DAO transformed consumers into investors by requiring an application review and token buy-in, granting members governance rights and meaningful ownership in a token-gated community.
+Decentralized Autonomous Organizations (DAOs) which have an investable treasury may be compare to Hedge Funds as a collective form of investing. [@blockchannelWhatDAOHow2017] defines a DAO as a Decentralized Autonomous Organization on blockchain, using smart contracts and token-weighted voting to enable permissionless, community-driven governance. Because of the on-chain nature where transactions are visible to anyone, they may be seen as more transparent. Typically DAOs have a voting system to make decision while Hedge Funds may be more centrally controlled. A notable example, [@carrawuInvestingFriendsBenefits2021] details how the Friends With Benefits (FWB) DAO transformed consumers into investors by requiring an application review and token buy-in, granting members governance rights and meaningful ownership in a token-gated community. With a specific sustainability focus, [@TreesFuture2023] DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
+
 
 The legislation affecting Hedge Funds and DAOs would be different as hedge funds are an older and more established financial tool whereas DAOs still fall in somewhat of a gray area. For example, in the U.S.a federal judge ruled that crypto collectives (crypto investment clubs) like Lido DAO are general partnerships liable for unregistered securities offerings [@InvestmentClubsCollectives]. In order to overcome these legal hurdles, VC-backed startups have launched platforms to support a new generation of DAOs, providing regulatory navigation and smart-contract tooling that broaden blockchain dependencies beyond DeFi protocols [@lucasmatneyVCbackedDAOStartups2022].
-
-
-With a specific sustainability focus, [@TreesFuture2023] DAOs to enable concerted action towards climate goals using the pooled resources in a treasury, a blockchain (on-chain), similar to how hedge funds work.
-
-
--   Social + NFTs - What would investing look like at the scale of 1 billion people
 
 Oracles provide the intersection between finance and real world sustainability data. A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste. For example, crypto crop insurance provided by IBISA Network uses blockchain triggers and satellite data to offer transparent, automated payouts for farmers facing weather-related risks [@IBISANetworkEnabling]. While [@caldarelliOvercomingBlockchainOracle2020] notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles, the largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy. [@bradydaleChainlinkFounderSays2021; @chainlinkNewReportBlockchains2022].
 
 -   @ethereumOracles2023
+
+-   Social + NFTs - What would investing look like at the scale of 1 billion people
+
 
 **Regenerative Finance (REFI)**
 
