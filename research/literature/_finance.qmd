@@ -29,9 +29,9 @@ This chapter explores how money could incorporate sustainability as a feature.
 
 ### Spurred by Fintech: The Democratization of Finance: A Precursor for Sustainable Superapps
 
-Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance* enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. More recently, motivated by boosting user numbers, apps such as Revolut and N26, that started out with only payments-focused businesses, begun making efforts to become all-in-one financial superapps offering saving and investing services.
+Digital money in it's various forms connects industries on popular financial mobile apps, which makes digital money more accessible and socially engaging, appealing to people who are active online. Because of the *democratization of finance* enabled by digitization and financial technologies*,* the journey from consumer to investor is becoming increasingly simple*.* Consumer-oriented financial apps increasingly enable new user interactions which blur boundaries between shopping, saving, and investing - termed here *"money convergence"*. Empowering consumers to access finance through digital technologies and delivering a simple user experience is the fintech trend of the last decade. Motivated by boosting user numbers, apps such as N26 and Revolut, that started out with only payments-focused businesses, founded in 2013 and 2015, respectively, began making efforts to expand into all-in-one financial superapps offering varied saving and investing services [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
 
-Fintechs can growth really fast. Just last year in Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
+While it took N26 and Revolut more than a decade to grow into a globa business, fintechs can growth really fast. Just last year in Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431% earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024].
 
 ```{python}
 fintech_chart()
@@ -39,35 +39,15 @@ fintech_chart()
 
 ### Financial Literacy and Education: Young Investors Follow Financial Influencers
 
-Financial and sustainability literacy are intertwined. How can finance enable/help/encourage sustainability?
+Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.) Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
 
-The common expectation is that young retail investors typically have less financial literacy. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses.
+The common expectation is that young investors typically have less understanding financial concepts. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Financial and sustainability literacy are intertwined. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. Media plays a significant role here, with retail investing being heavily influenced by social media influencers.
 
 Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good starting point is ask the user to define their habits: are you consumer or investor? This helps users recognise whether their spending habits define them primarily as consumers or as investors. [@smartwealthHowBecomeInvestor2021] urges readers to "consume knowledge, not products"; for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments. Consumer mindset is the main obstacle that keeps people from financial independence and investing.
 
 The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a dual journey: first, helping users recognise whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
 
--   Analysis: Messari: investor education, information asymmetry
--   The Information evavõrdsus disparity between pro and novice investors creates a big gap in knowledge.
--   @SimplyWallSt: Sites like Simply Wallstreet provide in-depth analysis: Simply Wallstreet also same for crypto. Snowflake analysis like Simply Wallstreet.
-
-Retail investing also heavily influenced by social media influencers.
-
-Media plays a huge role.
-
-In Estonia, Raha maraton etv investeerimissaade.. raadios on ka mingi saade
-
-Financial superapps shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
-
-Young investors are typically *retail investors* investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in an institution such as an investment firm, university endowment, pension fund or mutual fund, and have a say in where to invest large amounts of other peoples' money.)
-
-Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
-
--   *For young people, investing mostly means buying cryptocurrencies?*
-
--   Copy-investing is a popular feature of retail investing platforms like EToro
-
--   Investing is a fundamentally hopeful act. It means I think there's a future. Specifically, 'green investing' is investing in the future of our planet - but can we trust the sustainability practices the 'green' investment vehicles aggregate, promising to have a positive impact? For example, the European Union for many years counted biomass as 'green' energy, even while forestry companies were cutting down trees to produce the biomass - the regulation was not specific enough to curb this practice. So, in effect, a 'green investor' might be supporting deforestation. How can an easy-to-use investment app address such complexities without alienating the users?
+Financial superapps for shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
 
 ```{python}
 retail_green_vs_nongreen()
@@ -83,7 +63,7 @@ Community Investing Enables Financial Inclusion
 
 -   Investors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
 
-In South Korea, Koreans investing in influencers? Koreans investing into media personalities: @yuqingzhao2021
+In South Korea, Koreans investing in influencers? Koreans investing into media personalities [@yuqingzhao2021]. Likewise, cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
 
 -   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok [@TikTokItImportantWe].
 
@@ -91,7 +71,7 @@ In South Korea, Koreans investing in influencers? Koreans investing into media p
 
     -   @LetsDeFiDeFi Crypto DeFi education The DeFi Education Fund is a nonprofit dedicated to DeFi education and policy advocacy, offering “DeFi 101” readings, workshops, and research to help policymakers and developers shape a welcoming regulatory environment for DeFi
 
--   Cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
+-   
 
 ### New Rules of Money: Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
 
@@ -99,23 +79,15 @@ Regardless if it's money spent on shopping or money saved and invested, these ar
 
 Legislation is catching up with fintechs and setting higher standards for consumer protection. For example the Directive 14 2014/65/EU, 2014 of The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants" [@europeansecuritiesandmarketsauthorityMiFIDII2017].
 
-Already in 2001, while still part of the EU, the UK government was discussing ways to promote sustainable investment *"fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment"* [@houseofcommonsEnvironmentalAuditSecond2002]. More recently, [@hmtreasuryChancellorSetsOut2020] released a taxonomy of sustainable activities in the UK.
+[@pwc2022GrowthOpportunity2020] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
-Campain to ban polluting products campaign success story, EU shops can't sell deforestation products gathered over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
+Already in 2001, while still part of the EU, the UK government was discussing ways to promote sustainable investment *"fundamental changes in VAT or corporation taxes could be used to promote greener consumption and investment"* [@houseofcommonsEnvironmentalAuditSecond2002]. More recently, [@hmtreasuryChancellorSetsOut2020] released a taxonomy of sustainable activities in the UK.
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
-[@pwc2022GrowthOpportunity2020] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
+Governments are powerful in passing legislation, with a strong positive or negative ESG impact, and people do have a voice. Among the many grassroots campaigns, one environmental success story is about success story, asking that EU shops can't sell deforestation products, gathering over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Subsequently, legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024]. 
 
-Sustainable capital allocation methods are many. The extent to which this funnel works - and it's indeed a complex, multi–step funnel - depends on curbing greenwashing to a level that allows consumers to distinguish eco–friendly businesses from the heavy polluters.
-
-, Can the democratization of various uses of money include sustainability as a feature?
-
--, includes financial products creating pathways towards sustainability-focused investing.
-
-Trend of sustainably, how can sustainability become more accessible? People want to shop, save, and invest sustainably - how to do it?
-
--   @naturalinvestMalaikaMaphalalaNatural2020 During COVID-19, people like financial advisor Malaika Maphalala who co-led the “Invest in Black Economic Liberation” started calling for racial justice investing to direct flows into sustainable funds.
+In the social sector of ESG, there are also stories worth sharing. For example, during COVID-19, financial advisor Malaika Maphalala co-led the “Invest in Black Economic Liberation” calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020].
 
 ### ESG Crisis: Opaque Metrics and Lack of Standardisation
 
@@ -734,25 +706,12 @@ While these assets and GDP values reflect different aspects of the global econom
 
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
-Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019]. While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals [@tanPerformanceESGintegratedSmart2023]. "sustainable investing is now part of mainstream financial strategy" [@morganstanleySustainableSignalsIndividual2019].
+Many ecologically-focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management; thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends [@doornStocksThatShould2020]. Among retail investors, there's some appetite for sustainability however investors are not sure how to separate sustainable assets from less sustainable ones [@hoAsianInvestorsAre2019]. While literature has been debating if it's possible to *"do well while doing good"*, latest research suggests it's possible to make investments that both make an attractive financial return and adhere to sustainability goals [@tanPerformanceESGintegratedSmart2023]. "sustainable investing is now part of mainstream financial strategy" [@morganstanleySustainableSignalsIndividual2019].
 
-Many ecologically-focused funds with different approaches have been launched in recent years, with variations in asset mix and style of management; thematic asset management is expected to grow, with investors packaging opportunities based on consumer trends [@doornStocksThatShould2020].
-
-@smithChinaUltraElite2019 suggests 74% of Chinese youth are looking for "positive impact" and [@lingeswaranLevellingShatteringMyths2019] suggest philanthropy is on the rise in Asia in general. @liCanRetailInvestors2022 suggests retail "investor attention can significantly improve enterprises' green innovation level".
-
--   
+[@smithChinaUltraElite2019] suggests 74% of Chinese youth are looking for "positive impact" and [@lingeswaranLevellingShatteringMyths2019] suggest philanthropy is on the rise in Asia in general. [@liCanRetailInvestors2022] suggests retail "investor attention can significantly improve enterprises' green innovation level".
 
 Sweden is a country with highly developed financial markets and active social campaigns demanding sustainability as well as well as the home for several green fintech companies, including Doconomy and Trine [@MeetFintechsLeading2021]. [@lagerkvistPreferencesSustainableResponsible2020] undertook a choice experiment "Preferences for sustainable and responsible equity funds" with 559 Swedish private investors In Sweden, and found that sustainability strategies and an environmental focus carry more weight than fees, past performance or fund size.
 
--   But there's so much capital in large funds retails investor money doesn't matter at all. does retail money make any difference? Retail Investor Helpers: A wide number of banks are offering services marketed a sustainable. It's hard to decide.
-
--   Consumption is ruining the world the world thinking as an investor the investor mindset
-
--   Gov launching ESG funds.
-
--   2022 saw a wave of new platforms aiming to make investing easier for retail investors, Personalized Investing. One example is Revolut, which expanded from a simple payments app to support varied saving and investment types [@RevolutLaunchesETF2023; @KickstartYourInvestment2023].
-
--   Gamestop for climate massively collaborative investing by gen-z?
 
 ### Financial Ecologies
 
@@ -859,7 +818,7 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   single.earth etc
 
-*Commodities* are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut.
+*Commodities* are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut. 
 
 *Real-estate* is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, potentally providing a passive income stream in the form of rent. According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
 
