@@ -53,25 +53,41 @@ Financial superapps for shopping, saving, and investing are converging on digita
 retail_green_vs_nongreen()
 ```
 
-Retail investing apps blend entertainment into the UX/UI of investing. For example Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing. Retail investing UI/UX is simplified and gamified, which encourage impulsive short-term buying and selling with a focus on speculation over fundamentals and cause FOMO (fear of missing out).
+Community-based copy-trading apps live on the intersection of social media and investing, enabling financial inclusion through letting novice, inexperienced investors piggy-back on more sophisticated investors by copying their investments. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Because of this investing leadership aspect, investor communities can have the type of *social proof*, which robo-advisor do not possess. eToro's, Robinhood’s and Dub's copy trade feature turn portfolios, watch-lists and trade votes into public content. The visible social proof approach can feel safer than robo-adviser; retail investors cite seeing what others do an important trust trigger [@andraszewiczInfluenceUpwardSocial2023].
 
-*Meme stocks* are another aspect of the *entertainmenization* of investing. There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility.
+Evidence of a similar phenomenon of peer behaviour measurably shifting sustainability choices has been documented in the entreprise sector in green financing of Chinese industries, albeit in a modest 1–2% increase (incremental nudges); companies tend to invest green when they see when other companies signal a green preference [@yangPeerEffectsEnterprise2022]. In a Swedish study, investors' belief in sustainable investing was found to be affected by other investors: an online coordination game with 559 private investors showed that 2nd-order pro-sustainable beliefs (*what one thinks others care about*) also drove up sustainable asset allocations, underlining the social dimension of ESG investing [@luzPreferencesBeliefsSustainable2024].
 
-Community Investing Enables Financial Inclusion
+Build a community can be lucrative. In Singapore, Chinese influencer Yuqing “Irene” Zhao’s photos generated S\$7.5 million in 10 days as NFT sales; she tokenized her selfies as non-fungible tokens (NFTs) via IreneDAO, a decentralised version of OnlyFans, Discord, Twitch and Patreon, arguing that Web3 empowers creators to earn directly from their communities, turning fans into investors and aligning content creation with tokenized membership rights — evidence that retail capital can flow directly to media personalities through crypto communities [@yuqingzhao2021; @irenezhaoHeresWhy0xIreneDao2022]. Similarly, in South Korea, media personalities have become "investable," through more traditional financial vehicles, such as K-pop idols as the focus for "thematic" ETFs, including KPOP and Korean Entertainment ETF and the Mirae Asset Global X K-pop and Culture ETF, enabling fans and investors to financially participate in the growth of the Korean entertainment and celebrity-driven cultural capital [@darwyneUtilitiesKpopDividend2025].
 
--   Inexperienced investor can copy other people when investing. You don't know how to invest? Build an investing community? Can follow others and raise capital together. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Investor communities can have the type of *social proof*, which robo-advisor do not possess.
+[@TikTokItImportantWe] promotes the IMPACT investing app by Interactive Brokers which is a mobile trading platform focused on socially conscious investors interested in sustainability [@trahantInteractiveBrokersBuilt2022].
 
--   Investors' belief in sustainable investing is affected by other investors [@luzPreferencesBeliefsSustainable2024].
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| Feature                      | **IMPACT by Interactive Brokers**                                                              | **Lightyear**                                                   | **Revolut**                                                                                     |
++==============================+================================================================================================+=================================================================+=================================================================================================+
+| **Target Audience**          | Sustainability-focused investors; value-driven alignment                                       | European retail investors                                       | Everyday users with casual interest in investing                                                |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Investment Products**      | Stocks, ETFs, mutual funds, options, bonds, fractional shares                                  | Stocks, ETFs, multi-currency accounts                           | US & EU stocks, crypto, commodities, fractional shares                                          |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Sustainability Focus**     | Strong. Core to the app. Lets users filter companies by ESG values and track portfolio impact. | None. Focuses on transparency and low fees                      | Minimal. Some ESG ETFs; no impact tracking or custom filters                                    |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Fees**                     | Very low (starting at \$0 commissions, with some market/data fees)                             | Low, with no account fee; FX markup 0.35% outside base currency | Free plan has high spreads; paid tiers offer lower fees; several FX and withdrawal limits apply |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Currency Conversion (FX)** | Interbank FX rates; low spreads                                                                | 0.35% FX fee                                                    | Free plan: 1% FX fee; better rates in Premium accounts                                          |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Fractional Shares**        | Yes                                                                                            | Yes                                                             | Yes                                                                                             |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Tax Documents**            | Yes, detailed reports                                                                          | Yes, supports Estonian tax system                               | Limited; may need to do manual tracking for taxes                                               |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Mobile App Experience**    | Professional, ESG-focused UI                                                                   | Clean, simple, intuitive                                        | Gamified, casual, integrated with other Revolut services                                        |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Extra Features**           | Voting rights, ethical filters, carbon impact metrics                                          | Interest on cash (like a bank account); multi-currency accounts | Cashback, budgeting, crypto, P2P payments, travel perks                                         |
++------------------------------+------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 
-In South Korea, Koreans investing in influencers? Koreans investing into media personalities [@yuqingzhao2021]. Likewise, cryto influencers like combine beauty with investing [@irenezhaoHeresWhy0xIreneDao2022]
+: Data compiled from [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025]
 
--   An open question is whether young investors are more easily than professionals swayed by ***influencers***? Influencers are terrible for investing... but? Sustainable investing, kids watch TikTok [@TikTokItImportantWe].
+Influencer - crypto twitter connections
 
-    Influencer - crypto twitter connections
-
-    -   @LetsDeFiDeFi Crypto DeFi education The DeFi Education Fund is a nonprofit dedicated to DeFi education and policy advocacy, offering “DeFi 101” readings, workshops, and research to help policymakers and developers shape a welcoming regulatory environment for DeFi
-
--   
+-   @LetsDeFiDeFi Crypto DeFi education The DeFi Education Fund is a nonprofit dedicated to DeFi education and policy advocacy, offering “DeFi 101” readings, workshops, and research to help policymakers and developers shape a welcoming regulatory environment for DeFi
 
 ### New Rules of Money: Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
 
@@ -85,7 +101,7 @@ Already in 2001, while still part of the EU, the UK government was discussing wa
 
 While the above trend is for governments to adapt to and work towards their environmental climate commitments and public demand, the sovereign risk remains an issue. For example, in the U.S. the policies supported by President Donald Trump during his presidency ran counter to many sustainability recommendations, including those directed at the financial markets, helping legacy industries stay competitive for longer through subsidies, and lack of regulation, or even regulation supporting legacy technologies [@quinsonTrumpPlanBlock2020].
 
-Governments are powerful in passing legislation, with a strong positive or negative ESG impact, and people do have a voice. Among the many grassroots campaigns, one environmental success story is about success story, asking that EU shops can't sell deforestation products, gathering over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Subsequently, legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024]. 
+Governments are powerful in passing legislation, with a strong positive or negative ESG impact, and people do have a voice. Among the many grassroots campaigns, one environmental success story is about success story, asking that EU shops can't sell deforestation products, gathering over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Subsequently, legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
 
 In the social sector of ESG, there are also stories worth sharing. For example, during COVID-19, financial advisor Malaika Maphalala co-led the “Invest in Black Economic Liberation” calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020].
 
@@ -93,11 +109,13 @@ In the social sector of ESG, there are also stories worth sharing. For example, 
 
 [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include inconsistent data and superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]. This is supported by econometric analysis showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022].
 
-In theory, Socially Responsible Investing (SRI) integrates ESG criteria to screen out harmful industries and direct capital to companies with positive social and environmental impacts for both ethical and financial returns [@SociallyResponsibleInvesting]. Nonetheless, a large-scale input–output life-cycle assessment of 1340 European equity funds (11275 unique holdings) including sustainable (SRI) funds, and found that 24% of the sampled SRI funds actually show higher total CO2 emissions exposure within their assets than a conventional market index [@popescuAreSRIFunds2023].
+There are those rebuffing misleading claims made by asset managers. Prominent investment research firm Morningstar conducted a forensic analysis of the industry, and re-classified 1/5 of the tracked funds (over 1200 in total) or over \$1 trillion USD in total valuation, as non-ESG; Hortense Bioy, Morningstar's Head of Sustainability Research, commented these funds don't integrate ESG factors "in a determinative way for their investment selection" [@schwartzkopffESGFundsManaging2022].
 
-[@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond ticking the ESG checkbox.[@amencGreenDilutionHow2023] reviewed ESG ratings from 3 major providers (Moody's Analytics, MSCI Inc., and Refinitiv), finding that "*well-rated companies do not emit significantly less carbon than those with lower scores"*. [@ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022] critiques leading ESG rating methodologies (e.g., MSCI, Sustainalytics), showing they assess a company’s ability to withstand ESG-related financial risk (not its actual environmental, social, or governance performance), allowing firms like Philip Morris, which joined the Dow Jones Sustainability Indices (DJSI) in 2020 despite selling 7 trillion cigarettes per year, to score highly, and calls for urgent re-calibration of these frameworks.
+In theory, Socially Responsible Investing (SRI) integrates ESG criteria to screen out harmful industries and direct capital to companies with positive social and environmental impacts for both ethical and financial returns [@SociallyResponsibleInvesting]. Nonetheless, a large-scale input–output life-cycle assessment of 1340 European equity funds (11275 unique holdings) including sustainable (SRI) funds, and found that 24% of the sampled SRI funds actually show higher total CO2 emissions exposure within their assets than a conventional market index [@popescuAreSRIFunds2023]. [@amencGreenDilutionHow2023] reviewed ESG ratings from 3 major providers (Moody's Analytics, MSCI Inc., and Refinitiv), finding that *"well-rated companies do not emit significantly less carbon than those with lower scores"*.
 
-The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESGs to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing.[@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
+[@ESGLangChaoFanSiYiJianJianTanBiaoXianYouYi2022] critiques leading ESG rating methodologies (e.g., MSCI, Sustainalytics), showing they assess a company’s ability to withstand ESG-related financial risk (not its actual environmental, social, or governance performance), allowing firms like Philip Morris, which joined the Dow Jones Sustainability Indices (DJSI) in 2020 despite selling 7 trillion cigarettes per year, to score highly, and calls for urgent re-calibration of these frameworks.
+
+The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESG to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. [@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through it's supply chain.
 
 ```{python}
 conventional_vs_sri_funds()
@@ -105,13 +123,11 @@ conventional_vs_sri_funds()
 
 [@sanjaibhagatInconvenientTruthESG2022] argues that despite more than \$2.7 trillion in ESG-rated AUM as of December 2021, (assets under management, the total market value of all the investments including stocks, bonds, crypto, etc.), that investment managers are looking after on behalf of their clients (81% in Europe and 13% in U.S.), funds marketed as 'sustainable' fail to deliver improvements to environmental and social metrics; the inconvenient truth is that ESG ratings don't deliver better ESG performance. In the face a crisis of underperformance and mounting scandals, [@jamesphillippsESGCrisisJust2022] questions whether ESG is fundamentally broken or simply misunderstood. [@pietrocecereItTotalMess2023] calls ESG labeling confusing and arbitrary; fund selectors describe ESG labeling as "a total mess," pointing to confusing definitions, inconsistent methodologies, and overlapping ratings that undermine clarity. [@FinancialMaterialityMarks2023] argues that the main challenge in credible ESG investing is defining which sustainability factors are genuinely financially material; the market is confused by inconsistent scoring methods and needs more government-backed policies that create incentives to align short- and long-term risk assessments. ESG-activist Georgia Elliott-Smith argues in her TEDx talk that large corporations are using ESG for greenwashing - but not changing their fundamental polluting practices [@tedxtalksDisruptiveNewModel2022].
 
-In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint. In the United Emirates, the richest oil-drilling region in the world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with \$326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage \$1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025].
+ESG gave banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example: universities. A case in point being the partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. One of the largest private banks in Switzerland, Lombard Odier & Co, launched a thematic bio-economy fund marketed using the words of The Prince of Wales, *"Building a sustainable future is, in fact, the growth story of our time"*. In the United Emirates, the richest oil-drilling region in the world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with \$326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage \$1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025].
 
-ESG gives banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example: universities. A case in point being the partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Another example is one of the largest private banks in Switzerland, Lombard Odier & Co, when they launched a thematic bio-economy fund marketed using the words of The Prince of Wales, *"Building a sustainable future is, in fact, the growth story of our time"* [@jerseyeveningpostCharlesAchievingSustainable2020]. The Investor’s Business Daily’s 2021 roundup named the top 100 ESG companies by blending financial returns with transparent sustainability metrics to guide stock selection [@dailyHereOurList2021].
+Yet, the question remains, whether one can trust financial professional to hold ESG to a high standard. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond ticking the ESG checkbox. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects; the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions [@wilkesExclusiveBanksVote2023]. In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint.
 
-Yet the question remains, whether one can trust the banks to hold ESG to a high standard. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects. Banks that form the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO2 emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions [@wilkesExclusiveBanksVote2023].
-
-[@margarytakirakosianRedFlagsPrivate2022] because of the pitfalls of ESG, over-reliance on opaque ratings and a lack of measurable targets, private banks aren’t just excluding poor ESG performers but also watching for
+In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
 ### ESG Crisis: Modern Slavery Persists and ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
 
@@ -133,7 +149,7 @@ Since the 1970s, international bodies, governments, and private corporations hav
 
 In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hailed by Bloomberg as a regional leader in ESG reporting [@grauerTaiwanLeadingWay2017]. In December 2017, the *FTSE4Good TIP Taiwan ESG Index* was launched, which tracks ESG-rated companies on the Taipei stock market [@taiwanindexTIPTaiWanZhiShuGongSi2024]. Nasdaq Nordic introduced an ESG index in 2018, and Euronext, the largest stock market in Europe, introduced an ESG index and a series of derivative instruments in the summer of 2020 [@euronextEuronextLaunchesSuite2020].
 
-[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years. Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
+[@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG starts to outperform the traditional ACWI only in the past few years (evidence that capital markets are starting to price sustainability, but still inconsistently). Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 
 ```{python}
 msci_esg_leaders()
@@ -221,41 +237,41 @@ In the context of China’s industrial modernization,[@luDoesEnvironmentalInform
 
 The ability to build sustainability into the organization requires deep understanding of how the complex structure works and what drives change and innovation within business units. [@jimboehmBetterRiskControls2021] distilled key strategies from the banking sector to speed up digital transformation, while improving risk management and compliance.
 
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Strategy                                     | Description                                                                                                                                                    |
-+==============================================+================================================================================================================================================================+
-| Enterprise-level Risk Taxonomy               | A unified classification system that defines and categorizes all risk types across the entire organization.                                                    |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Embedded Controls in Agile Delivery          | Risk-and-compliance integration directly into agile development sprints (a type of management style in building software) to catch issues as code is written.  |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Cross-functional Risk–Business Collaboration | Joint ownership of risk by compliance teams and business units, ensuring controls are practical and business-aligned.                                          |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Metrics-driven Monitoring                    | Continuous tracking of key risk indicators through quantifiable metrics to spot trends and trigger alerts.                                                     |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Proactive Remediation                        | Early detection and rapid resolution of control defects before they escalate into larger compliance or security gaps.                                          |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Continuous Capability Building               | Ongoing training and tooling updates; best-practice sharing to keep risk-management skills and processes current.                                              |
-+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Strategy                                     | Description                                                                                                                                                   |
++==============================================+===============================================================================================================================================================+
+| Enterprise-level Risk Taxonomy               | A unified classification system that defines and categorizes all risk types across the entire organization.                                                   |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Embedded Controls in Agile Delivery          | Risk-and-compliance integration directly into agile development sprints (a type of management style in building software) to catch issues as code is written. |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Cross-functional Risk–Business Collaboration | Joint ownership of risk by compliance teams and business units, ensuring controls are practical and business-aligned.                                         |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Metrics-driven Monitoring                    | Continuous tracking of key risk indicators through quantifiable metrics to spot trends and trigger alerts.                                                    |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Proactive Remediation                        | Early detection and rapid resolution of control defects before they escalate into larger compliance or security gaps.                                         |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Continuous Capability Building               | Ongoing training and tooling updates; best-practice sharing to keep risk-management skills and processes current.                                             |
++----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Banking transformation strategies from [@jimboehmBetterRiskControls2021]
 
 These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how genAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
 
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| GenAI Use Case              | Description                                                                                                                                                      |
-+=============================+==================================================================================================================================================================+
-| **Regulatory Compliance**   | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals.                                    |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Financial Crime**         | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns.                                                        |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Credit Risk**             | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Analytics and Modeling**  | Build and validate risk models; run scenario analysis; summarize complex data sets for insights.                                                                 |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cyber Risk**              | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps.                             |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Climate Risk**            | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments.                                           |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GenAI Use Case             | Description                                                                                                                                                      |
++============================+==================================================================================================================================================================+
+| **Regulatory Compliance**  | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals.                                    |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Financial Crime**        | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns.                                                        |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Credit Risk**            | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Analytics and Modeling** | Build and validate risk models; run scenario analysis; summarize complex data sets for insights.                                                                 |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cyber Risk**             | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps.                             |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Climate Risk**           | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments.                                           |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024].
 
@@ -299,20 +315,11 @@ How are large corporations responding to the climate crisis?
 
 -   @guidottiHealthSustainabilityIntroduction2015: "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
 
-
 ### Consumer Activits are a Small Minority
 
-Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. Yet *conscious consumers* only make up a small percentage of the entire consumer public, making individual action close to meaningless. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices.
+Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices. Yet these types of *mindful consumers* and *conscious consumers* only make up a small percentage of the entire consumer public, which may make individual action seem close to meaningless. For consumer activism to become mainstream it needs to much simpler. Consumers do have increasing power to use their money to reinforces certain types of businesses; as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target? Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk.
 
-For consumer activism to become mainstream it needs to much simpler.
-
--   Is Sustainable Shopping possible? Consumers have increasing power. Where we put our money reinforces certain types of businesses, as conscious consumers we can vote with our dollars. How can we do it？ Sustainable brands, ESG, etc, etc. Pushing highers Standards and choose companies that adopt circular design" What is the consumer CO~2~ contribution? What is the target? Consume pressure to advance ESG regulatory standards to add a baseline ESG dynamic pricing of risk like climate, mandatory climate disclosures, carbon pricing knowing your supply chain, analyze supply chain risk
-
-[@fuentesUnpackingPackageFree2019] employed a shopping-as-practice ethnography in a Swedish zero-waste grocery store to show that removing packaging requires reinventing the shopping practice itself, e.g. introducing reusable containers, new retail setups, and consumer routines.
-
-[@weberMobileAppsSustainable2021] proposes a sustainable shopping guide in a study which demonstrates that embedding eco-score rankings into a mobile shopping app significantly increases consumers’ selection of low-impact food products by improving decision support and reducing information overload.
-
-[@vanderwalParadoxGreenBe2016] discusses how status motives make people publicly display sustainable behavior, revealing that shoppers purchase branded reusable bags rather than bring their own, exposing a "paradox of green to be seen" and its hidden environmental costs.
+There is plenty of research on if and how sustainable shopping could be possible. Already in 2016, [@klinglmayrSustainableConsumerismSelfRegulation2016] proposed a mobile app to channel "political consumerism" into sustainable shopping through self-regulation: personalized recommendations could be provided by aggregating vast product datasets into distilled advice, empowering individuals follow clear sustainable-shopping rules, discover like-minded peers, and communicate concerns directly to retailers, in theory turning vague ESG ideals into a transparent, data-driven, community-backed approach to sustainable consumption - however the €2M EUR project failed to gain users. [@fuentesUnpackingPackageFree2019] employed a shopping-as-practice ethnography in a Swedish zero-waste grocery store to show that removing packaging requires reinventing the shopping practice itself, e.g. introducing reusable containers, new retail setups, and consumer routines. [@weberMobileAppsSustainable2021] proposes a sustainable shopping guide in a study which demonstrates that embedding eco-score rankings into a mobile shopping app significantly increases consumers’ selection of low-impact food products by improving decision support and reducing information overload. [@vanderwalParadoxGreenBe2016] discusses how status motives make people publicly display sustainable behavior, revealing that shoppers purchase branded reusable bags rather than bring their own, exposing a "paradox of green to be seen" and its hidden environmental costs.
 
 Sustainable consumption relationships in Europe.
 
@@ -320,10 +327,7 @@ Sustainable consumption relationships in Europe.
 sustainable_consumption_relationships()
 ```
 
--   Sustainable Consumerism via Self-Regulation. 2M EUR project for the shopping app. [@klinglmayrSustainableConsumerismSelfRegulation2016]
-
 Make use of indexes to compare companies.
-
 
 ### Shopping's Environmental Footprint: Increasingly Driven by Digital Platforms, Social Commerce, AI Assistants
 
@@ -702,7 +706,6 @@ Many ecologically-focused funds with different approaches have been launched in 
 
 Sweden is a country with highly developed financial markets and active social campaigns demanding sustainability as well as well as the home for several green fintech companies, including Doconomy and Trine [@MeetFintechsLeading2021]. [@lagerkvistPreferencesSustainableResponsible2020] undertook a choice experiment "Preferences for sustainable and responsible equity funds" with 559 Swedish private investors In Sweden, and found that sustainability strategies and an environmental focus carry more weight than fees, past performance or fund size.
 
-
 ### Financial Ecologies
 
 -   @TAN202046 proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management; however, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
@@ -710,7 +713,6 @@ Sweden is a country with highly developed financial markets and active social ca
 -   [@hydeGiftHowCreative2006] Money as a gift: Lewis Hyde’s book The Gift argues creativity thrives in "gift economies"; reciprocity is more important for creativity than market exchanges.
 
 -   ESG apps in Singapore: DBS LiveBetter consumer sustainability app [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
-
 
 ESG pulse
 
@@ -805,11 +807,11 @@ There are many asset classes only some of which would be accessible to a retail 
 
 -   single.earth etc
 
-*Commodities* are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut. 
+*Commodities* are investable, with retail investors can now buy cold and silver as well as rare metals on financial platforms such as Revolut.
 
 *Real-estate* is increasingly available on co-investing platforms allowing retail investors access into this asset class with a relatively low starting price. Thus investing in sustainable architecture can be an attractive proposal both from an environmental as from a financial standpoint, potentally providing a passive income stream in the form of rent. According to [@debnathSocialMediaEnables2022] 39% of global CO~2~ emissions comes from the building sector. Construction is large emitter because of the use of concrete; super tall buildings are very CO~2~ intensive [@zhaoEmbodiedCarbonBased2015]. Building emissions can be reduced by using sustainable design and materials, *digital twins* of architecture enable pre-visualization of different designs [@panaroHowCanPairing2024] as well modeling the usage of the building, for example the interior shop floors in commercial real-estate [@jiaSimpleDigitalTwin2023]. In housing development, there's evidence of 'green' buildings achieving a 'higher financial return than conventional buildings, both in terms of rent and sale price' [@oyedokunGreenPremiumDriver2017].
 
-*Stocks* are the most popular assets class with a long history and highly accessible to retail investor, albeit usually at the cost of a trading fee.
+*Stocks* are the most popular assets class with a long history and highly accessible to retail investor, albeit usually at the cost of a trading fee. *Meme stocks* are another aspect of the *entertainmenization* of investing. There are many groups of Twitter, Reddit, and elsewhere, where investing trends start, causing more volatility. Retail investing apps blend entertainment into the UX/UI of investing. For example stock-trading app Robinhood uses game-like features such as displaying a confetti animation to create a sense of excitement around trading investing. Retail investing UI/UX is simplified and gamified, which encourage impulsive short-term buying and selling with a focus on speculation over fundamentals and cause FOMO (fear of missing out).
 
 *Lending* is an attractive assets class with a significant social impacts providing opportunities to small farmers and other participants in the money markets while offering the lender a return, all possible through online apps and platforms. Retail investors can lend small amounts of money (also known as MicroLending) on peer-to-peer (P2P) lending platforms such as Twino. These loans and pooled and the risk is borne in aggregate as a form of risk-management.
 
@@ -839,11 +841,11 @@ Crypto-assets and digital tokens (known as decentralized finance or DeFi) are a 
 
 The large number of crypto users begs the question: what would investing look like at the scale of 1 Billion people? The most popular use cases for crypto have been NFTs, online smart contracts attached to some type of asset, typically a picture. Social media is even bigger, with over 2 Billion users, so it's not difficult to image the combination of Social + Crypto (NFTs?) to become the largest retails investing revolution, albeit a risky one, with many users losing their assets. This is the vision behind Sandbox, a Metaverse cryptocurrency sold by banks such as LHV in Estonia [@raidotonissonLHVToiKlientideni2022].
 
-Taiwan has an active market for crypto-assets while with some limitations. In 2022, the Taiwan government banned buying cryptocurrencies with credit card quoting the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022]. In January 2022, BlockTempo and OpenSea teamed up to mint the “Top Taiwan Influencers” collection—21 unique, limited-edition Taiwanese digital influencers as NFTs, depicting Taiwan’s leading blockchain figures, designed to honor their industry contributions in digital art [@openseaTopTaiwanInfluencers2022]. 
+Taiwan has an active market for crypto-assets while with some limitations. In 2022, the Taiwan government banned buying cryptocurrencies with credit card quoting the volatility makes it similar to gambling [@davidattleeBuyingCryptoCredit2022; @MiHuoBi2022]. In January 2022, BlockTempo and OpenSea teamed up to mint the “Top Taiwan Influencers” collection—21 unique, limited-edition Taiwanese digital influencers as NFTs, depicting Taiwan’s leading blockchain figures, designed to honor their industry contributions in digital art [@openseaTopTaiwanInfluencers2022].
 
 In general, crypto owernship can be divided into self-custody (you own the keys to your wallet) and custodial ownership, where you trust someone else (i.e. a centralized exchange or a bank) to hold the cryptocurrency for you. Both have their risks (self-custody, losing your keys; custodial: the exchange steals your tokens or goes bankrupt). Centralized crypto exchanges are in essence loaning assets from the user. *"The piece of the settlement aimed at getting important information to customers is more understandable from a retail protection standpoint. Customers who lend crypto assets to a company in exchange for a promised return should get the information they need to assess the risks against the rewards"* [@hesterm.peirceSECGovStatement2022].
 
-There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. In Switzerland, insitutional funds entered crypto early. Licensed already in 2019 by the Swiss Financial Market Supervisory Authority (FINMA), AMINA, formerly known as SEBA Bank, was among the first regulated cryptocurrency banks [@aminabankagSEBABankRebrands2023]. The first crypto fund was launched in September 2021, when FINMA approved Switzerland’s first regulated crypto-asset fund—the "Crypto Market Index Fund" from the same AMINA bank, giving investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with the AMINA Bank's custody [@finmaApprovalFirstSwiss2021]. AMINA of course was not the only bank interested in crypto, with "[m]ore than half" of Swiss banks planning to offer digital assets services in the near future [@swissinfo.ch/ursSwissCryptoValley2022]. Banks launching Crypto ETFs (Exchange Traded Funds) enable their clients to have exposure to crypto without ever buying cryptocurrencies directly themselves. However, while owning cryptocurrency directly allows one to use crypto tools to look at any wallet balance, ETFs hide that transparency.
+There's also a large trend of fusion of decentralized finance (DeFi) and traditional finance (TradFi), with the largest established investors, such as BlackRock, launching tokenized funds [@sandorTokenizedTreasuryFunds2024; @matosAaveLabsUnveils2024; @securitizeBlackRockLaunchesIts2024]. In Switzerland, insitutional funds entered crypto early. Licensed already in 2019 by the Swiss Financial Market Supervisory Authority (FINMA), AMINA, formerly known as SEBA Bank, was among the first regulated cryptocurrency banks [@aminabankagSEBABankRebrands2023]. The first crypto fund was launched in September 2021, when FINMA approved Switzerland’s first regulated crypto-asset fund—the "Crypto Market Index Fund" from the same AMINA bank, giving investors access to a FINMA-supervised vehicle that tracks a diversified basket of blockchain-based assets with the AMINA Bank's custody [@finmaApprovalFirstSwiss2021]. AMINA of course was not the only bank interested in crypto, with "\[m\]ore than half" of Swiss banks planning to offer digital assets services in the near future [@swissinfo.ch/ursSwissCryptoValley2022]. Banks launching Crypto ETFs (Exchange Traded Funds) enable their clients to have exposure to crypto without ever buying cryptocurrencies directly themselves. However, while owning cryptocurrency directly allows one to use crypto tools to look at any wallet balance, ETFs hide that transparency.
 
 To put it very simply (knowingly oversimplifying), in traditional finance legislation is an enabler of corruption as in the case of Swiss privacy laws, where illegal funds can be hidden, while in cryptocurrencies, the lack of clear and comprehensive regulation is an enabler of corruption.
 
@@ -871,7 +873,7 @@ While Bitcoin uses proof-of-work, and protocol which is highly energy intensive 
 
 Inspired by the decentralized finance (DeFi) Summer of 2020, when projects like Compound, Yearn, and Uniswap demonstrated blockchain-based financial tools could go viral, followed by COVID-19, which exposed systemic fragility and served as a a wake-up call about global interconnectedness and ecological risk, crypto pioneers attempted to use their native tools for public good, instead of only financial goals, giving birth to the regenerative Finance (ReFi) movement, applying technology to carbon accounting, market development, and governance [@smithOneYearLater2021]. Innovating on the intersection of blockchains, tokenization, nature-backed assets, and cryptocurrencies, ReFi leveraged DeFi to create financial systems that aimed to restore ecosystems and empower communities by prioritizing positive environmental and social impact [@WhatReFiRegenerative2023].
 
-Founded already in 2018, Regen Network built a blockchain for ecological data and carbon credits, using the Cosmos blockchain SDK [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]. Another early example is the Celo proof-of-stake blockchain, founded in 2020, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserve, which buys green assets, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. [@sepandarkamvarSepKamvarCelo2022] Sepandar Kamvar, co-founder of Celo, famously calls "[a] blockchain is a database without a database admin".
+Founded already in 2018, Regen Network built a blockchain for ecological data and carbon credits, using the Cosmos blockchain SDK [@regennetworkCommunityDevelopmentCall22; @regennetworkRegenNetworkInvest2023]. Another early example is the Celo proof-of-stake blockchain, founded in 2020, which offsets carbon emissions at the protocol level, automatically investing a small percentage of each transaction into a reserve, which buys green assets, such as tokenized carbon credits (e.g. Moss MCO₂), laying the groundwork for a regenerative financial system [@CeloRegenerativeFinance2021]. [@PlanetKlimatesLuis] details the issuance and tokenization of tropical-forest carbon credits (Moss.Earth MCO₂) and biodiversity tokens within the Celo ecosystem. [@sepandarkamvarSepKamvarCelo2022] Sepandar Kamvar, co-founder of Celo, famously calls "\[a\] blockchain is a database without a database admin".
 
 Similarly, the [@KlimaDAO2023] KlimaDAO protocol, founded in 2021, tokenizes real-world carbon assets into liquid Klima tokens, establishing a DAO-governed, transparent market for carbon neutrality, which has \$4 billion in total transaction volume.
 
@@ -887,8 +889,7 @@ Oracles provide the intersection between finance and real world sustainability d
 
 ### Divestment: Supporting Sustainability by Avoiding the Worst Polluting Companies
 
-Divesting is the inverse of investing. If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023].
-In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. Even with divesting from oil and has, Norway Government Pension Fund Global (GPFG) still adheres to the Markowitz's Modern Portfolio Theory (MPT), with enough diversification between assets [@papaioannouSovereignWealthFund2015].
+Divesting is the inverse of investing. If no sustainable alternative can be found, at least taking one's money out from polluting companies signals one's green preferences. "Sustainable development requires more investment in sustainable companies and less in unsustainable firms." [@vanzantenWhoOwnsSustainable2023]. In institutional finance, the Norwegian \$1.3T USD sovereign wealth fund (the world's largest) started a divestment trend in 2016 by divesting first from coal following by divesting from oil, gas and coal extracting companies [@benmartinWorldLargestWealth2017; @holgerNorwaySovereignWealthFund2019]. Their plan to reach net zero CO2e nonetheless only targets 2050. Furthermore, who would be the counterpart for such large transactions. The fund also announced divesting from Russia after its invasion of Ukraine, however has yet to sell any shares citing lack of buyers on the Moscow stock market. Even with divesting from oil and has, Norway Government Pension Fund Global (GPFG) still adheres to the Markowitz's Modern Portfolio Theory (MPT), with enough diversification between assets [@papaioannouSovereignWealthFund2015].
 
 University of California also followed suit with divestment of its \$126B USD portfolio from oil and gas. Other large university endowments, such as managed by Yale, Stanford and MIT are in decision gridlock.
 
@@ -1136,103 +1137,103 @@ There are many different certifications. Existing rankings include fashion brand
 
 the Ethical Consumer Research Association active since 1989 publishes a magazine and keeps an active list of boycotts, which currently (as of May 15, 2025) includes 47 boycott campaigns [@EthicalConsumerEthical2018; @BoycottsListEthical2018].
 
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| \#        | Target / Product                | Category             | Called by (lead organisation)   | Year launched |
-+===========+=================================+======================+=================================+===============+
-| 1         | Airbnb                          | Human Rights         | BDS National Committee          | 2016          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 2         | Amazon                          | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 3         | Amazon (tax-avoidance)          | Tax Avoidance        | Ethical Consumer                | 2012          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 4         | AXA                             | Human Rights         | BDS National Committee          | 2019          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 5         | Barclays Bank                   | Human Rights         | Palestine Solidarity Campaign   | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 6         | Booking.com                     | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 7         | Burger King                     | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 8         | Chevron                         | Human Rights         | BDS National Committee          | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 9         | Coca-Cola                       | Human Rights         | Friends of Al-Aqsa              | 2014          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 10        | Coconut milk (from Thailand)    | Animal Rights        | PETA                            | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 11        | Crufts dog show                 | Animal Rights        | PETA                            | 2014          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 12        | Disney / Marvel                 | Human Rights         | BDS National Committee & allies | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 13        | Ecover                          | Animal Testing       | Naturewatch Foundation          | 2018          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 14        | eToro                           | Human Rights         | Tech for Palestine              | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 15        | Expedia                         | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 16        | Get Your Guide                  | Animal Rights        | World Animal Protection         | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 17        | Google                          | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 18        | Groupon                         | Animal Rights        | World Animal Protection         | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 19        | Hewlett Packard Enterprise (HP) | Human Rights         | BDS National Committee          | 2012          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 20        | Israeli dates                   | Human Rights         | American Muslims for Palestine  | 2012          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 21        | Israeli produce in supermarkets | Human Rights         | BDS National Committee          | 2005          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 22        | JCB                             | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 23        | Kellogg’s                       | Environment          | GMO-Free USA                    | 2012          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 24        | L’Oréal                         | Animal Testing       | Naturewatch Foundation          | 2000          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 25        | “Made in China” goods           | Human Rights         | Friends of Tibet & others       | 2020          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 26        | McDonald’s                      | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 27        | Method                          | Animal Testing       | Naturewatch Foundation          | 2018          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 28        | Mitie                           | Human Rights         | Women for Refugee Women         | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 29        | Nestlé (baby-milk)              | Human Rights         | Baby Milk Action                | 1977          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 30        | Nestlé (water extraction)       | Environment          | Lakota People’s Law Project     | 2018          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 31        | Papa John’s                     | Human Rights         | BDS National Committee          | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 32        | Pizza Hut                       | Human Rights         | BDS National Committee          | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 33        | Russia (national boycott)       | Oppressive Regimes   | Government of Ukraine           | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 34        | Sabra Hummus                    | Human Rights         | BDS National Committee          | 2010          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 35        | Siemens                         | Human Rights         | BDS National Committee          | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 36        | SodaStream                      | Human Rights         | BDS National Committee          | 2012          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 37        | Starbucks                       | Habitats & Resources | Lakota People’s Law Project     | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 38        | Tesco Bank                      | Human Rights         | Palestine Solidarity Campaign   | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 39        | Texaco                          | Human Rights         | BDS National Committee          | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 40        | Trip.com                        | Animal Rights        | World Animal Protection         | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 41        | Tui                             | Animal Rights        | World Animal Protection         | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 42        | Twitter / X                     | Human Rights         | Stop Toxic Twitter coalition    | 2022          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 43        | Unilever (Russia operations)    | Human Rights         | B4Ukraine                       | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 44        | Volvo (AB Volvo trucks)         | Human Rights         | BDS National Committee          | 2024          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 45        | Wendy’s                         | Workers’ Rights      | Coalition of Immokalee Workers  | 2005          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 46        | Wix                             | Human Rights         | Tech for Palestine              | 2023          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
-| 47        | World Wildlife Fund (WWF)       | Human Rights         | WTF WWF coalition               | 2020          |
-+-----------+---------------------------------+----------------------+---------------------------------+---------------+
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| \#         | Target / Product                | Category             | Called by (lead organisation)   | Year launched |
++============+=================================+======================+=================================+===============+
+| 1          | Airbnb                          | Human Rights         | BDS National Committee          | 2016          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 2          | Amazon                          | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 3          | Amazon (tax-avoidance)          | Tax Avoidance        | Ethical Consumer                | 2012          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 4          | AXA                             | Human Rights         | BDS National Committee          | 2019          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 5          | Barclays Bank                   | Human Rights         | Palestine Solidarity Campaign   | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 6          | Booking.com                     | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 7          | Burger King                     | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 8          | Chevron                         | Human Rights         | BDS National Committee          | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 9          | Coca-Cola                       | Human Rights         | Friends of Al-Aqsa              | 2014          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 10         | Coconut milk (from Thailand)    | Animal Rights        | PETA                            | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 11         | Crufts dog show                 | Animal Rights        | PETA                            | 2014          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 12         | Disney / Marvel                 | Human Rights         | BDS National Committee & allies | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 13         | Ecover                          | Animal Testing       | Naturewatch Foundation          | 2018          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 14         | eToro                           | Human Rights         | Tech for Palestine              | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 15         | Expedia                         | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 16         | Get Your Guide                  | Animal Rights        | World Animal Protection         | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 17         | Google                          | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 18         | Groupon                         | Animal Rights        | World Animal Protection         | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 19         | Hewlett Packard Enterprise (HP) | Human Rights         | BDS National Committee          | 2012          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 20         | Israeli dates                   | Human Rights         | American Muslims for Palestine  | 2012          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 21         | Israeli produce in supermarkets | Human Rights         | BDS National Committee          | 2005          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 22         | JCB                             | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 23         | Kellogg’s                       | Environment          | GMO-Free USA                    | 2012          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 24         | L’Oréal                         | Animal Testing       | Naturewatch Foundation          | 2000          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 25         | “Made in China” goods           | Human Rights         | Friends of Tibet & others       | 2020          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 26         | McDonald’s                      | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 27         | Method                          | Animal Testing       | Naturewatch Foundation          | 2018          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 28         | Mitie                           | Human Rights         | Women for Refugee Women         | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 29         | Nestlé (baby-milk)              | Human Rights         | Baby Milk Action                | 1977          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 30         | Nestlé (water extraction)       | Environment          | Lakota People’s Law Project     | 2018          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 31         | Papa John’s                     | Human Rights         | BDS National Committee          | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 32         | Pizza Hut                       | Human Rights         | BDS National Committee          | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 33         | Russia (national boycott)       | Oppressive Regimes   | Government of Ukraine           | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 34         | Sabra Hummus                    | Human Rights         | BDS National Committee          | 2010          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 35         | Siemens                         | Human Rights         | BDS National Committee          | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 36         | SodaStream                      | Human Rights         | BDS National Committee          | 2012          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 37         | Starbucks                       | Habitats & Resources | Lakota People’s Law Project     | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 38         | Tesco Bank                      | Human Rights         | Palestine Solidarity Campaign   | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 39         | Texaco                          | Human Rights         | BDS National Committee          | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 40         | Trip.com                        | Animal Rights        | World Animal Protection         | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 41         | Tui                             | Animal Rights        | World Animal Protection         | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 42         | Twitter / X                     | Human Rights         | Stop Toxic Twitter coalition    | 2022          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 43         | Unilever (Russia operations)    | Human Rights         | B4Ukraine                       | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 44         | Volvo (AB Volvo trucks)         | Human Rights         | BDS National Committee          | 2024          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 45         | Wendy’s                         | Workers’ Rights      | Coalition of Immokalee Workers  | 2005          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 46         | Wix                             | Human Rights         | Tech for Palestine              | 2023          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
+| 47         | World Wildlife Fund (WWF)       | Human Rights         | WTF WWF coalition               | 2020          |
++------------+---------------------------------+----------------------+---------------------------------+---------------+
 
 OpenCorporates attempts to map all the companies around the world - *"the largest open database of companies in the world,"* - as per their tagline, launched a collaboration with the UNSD (United Nations Statistics Division) and the OECD (Organisation for Economic Co-operation and Development) to close the information gap on the 500 largest multinational enterprises (termed *MNEs*) to tackle the problem (as per their tweet on X, formerly know as Twitter): *"Hidden data is a big problem, and it's limiting our understanding of the world’s largest #Multinational enterprises"* [@communicationsUNSDOECDUse2023; @opencorporatesHiddenDataBig2024]
 
