@@ -289,27 +289,24 @@ ESG is a marketing tool but it could achieve more. One of the key emerging issue
 
 Google Environmental Insights Explorer enables local governments (cities) to measure CO2 emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021].
 
--   Improve product *provenance*, blockchains offer this transparency
+-   Improve product *provenance*, blockchains offer this transparency. There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
 
--   @BlockchainCompaniesTeam2021
 
--   @ganuWhyBlockchainCan2021
+Several enterprise blockchain offerings from vendor such as Hyperledger Fabric and ConsenSys use immutable supply‐chain ledgers to record origin, certifications, and product movements end‐to‐end [@BlockchainCompaniesTeam2021]. Blockchain’s immutable data and programmable incentives enable transparent ESG tracking, secure carbon‐credit registries and tokenized rewards that align corporate behaviour with climate goals [@ganuWhyBlockchainCan2021].
 
-There's a growing number of companies helping businesses to measure CO2e emissions in their product lifecycle.
-
--   Automate CO~2~ calculations real-time: @indrekkaldEestiITfirmaAutomatiseeris2022: FlowIT automate CO~2~ counting
+- Flowit Estonia automated real‐time CO2e accounting in 2022 by combining invoices and sensor data to generating instant per‐transaction emission footprints [@indrekkaldEestiITfirmaAutomatiseeris2022].
 
 -   "Factory social score".
 
 -   People working at the factories can report conditions
 
--   @ESGAnalyticsRealtime: Governance or Corporate Responsibility
+-   @ESGAnalyticsRealtime: LSEG’s MarketPsych ESG Analytics platform mines global news and social feeds via AI‐NLP to deliver near‐real‐time controversy alerts and ESG risk‐scores for 100,000+ companies - Governance or Corporate Responsibility
 
 How are large corporations responding to the climate crisis?
 
--   @PublicHealthLinkages2013
+-   @PublicHealthLinkages2013 	The National Academies’ 2013 workshop summary links public health outcomes—air quality, water safety, food systems—with sustainability actions, calling for integrated cross‐sector strategies to protect community well‐being .
 
--   @guidottiHealthSustainabilityIntroduction2015: "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment."
+-   @guidottiHealthSustainabilityIntroduction2015: "Sustainability is important for many reasons including: Environmental Quality -- In order to have healthy communities, we need clean air, natural resources, and a nontoxic environment." environmental quality—clean air, pure water, toxin‐free surroundings—is foundational to public health and urges embedding sustainability principles across healthcare systems and policies .
 
 ### Consumer Activits are a Small Minority
 
@@ -1063,7 +1060,7 @@ Open ESG data platform Wikirate currently lists 4316 different metrics, essentia
 csrd_timeline()
 ```
 
-Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indices make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc.
+Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indices make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc. Most sustainable companies. Make a database?
 
 Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
@@ -1083,11 +1080,7 @@ Carbon productivity
 ck_carbon_productivity()
 ```
 
-[@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
-
--   There are many standards.
-
--   Most sustainable companies. Make a database?
+There are many standards. [@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
 
 +-------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Type        | Rating System                      | What it does                                                                                                                                                                             |
