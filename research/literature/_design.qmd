@@ -155,43 +155,46 @@ Bring back your bottle and cup after use.
 -   Recycling [@lenovoFastTechUnsustainable2022] "rethinking product design and inspiring consumers to expect more from their devices"
 -   @zeynepfalayvonflittnerFalayTransitionDesign
 
-Packaging is a rapidly growing industry which generates large amounts of waste @adaChallengesCircularFood2023. @bradleyLiteratureReviewAnalytical2023: "Over 161 million tonnes of plastic packaging is produced annually."
+Packaging is a rapidly growing industry, expanding on the back of online shopping, which generates large amounts of waste.[@bradleyLiteratureReviewAnalytical2023] developed an analytical framework of key sustainability factors, from an overview of 107 studies on reusable packaging, found customer acceptance, high return rates, supply-chain shortening, and system standardisation, are critical to unlocking reusable solutions at scale. In food packaging specifically, [@adaChallengesCircularFood2023] identified distinct challenges from consumer acceptance to material-supply mismatches, collection logistics,and regulatory gaps, underscoring the multifaceted barriers to circular food packaging.  
+
+
+"Over 161 million tonnes of plastic packaging is produced annually." [@bradleyLiteratureReviewAnalytical2023] 
+
 
 -   @ChallengesOpportunitiesSustainable2022
 -   @ProteinBrandsConsumers2022
 -   @DetailrichSustainablePackaging2010
+
 -   [@lernerHowCocaColaUndermines2019] Coca Cola plastic pollution. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information.
+
 -   @SulapacReplacingPlastic
 
 ### Scenario-Building: Avoiding the Worst Future
 
-*Scenario-building* is a key tool for sustainability. Because sustainability is so complex, sustainable design makes use of scenarios.
+Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
 
-In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
+
+Scenario-building is a key tool for sustainability. Because sustainability is so complex, sustainable design cannot always predict certain outcomes but rather can use scenarios to prepare for several possibilities. In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices.
 
 *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
 user experience, iteration [@googledesignDesignSpeculativeFutures2019]
 
-### **Quality of Life**
+### Design for Quality of Life
 
-Wellbeing Economy Governments is an Example of Country-level Collaboration
+While traditional economic thinking is based on a conflict between nature and development, some new models find there is potential for synergy between economic, social, political, cultural, and environmental metrics. [@kaklauskasSynergyClimateChange2023] models multi-criteria analysis of 169 countries and 238 cities, finding 71% average correlation between Climate Change and Country Success (C3S) and Quality of Life (C3QL) indicators. In a similar vein, [@riegerIntegratedScienceWellbeing2023] develops an integrated science of wellbeing, linking humans' psychological, biological, societal and environmental domains to guide research and public policy, based on interactions between domain experts. 
 
--   Finland, Iceland, New Zealand, Scotland, Wales, Canada [@fioramontiWellbeingEconomyEffective2022].
--   @kaklauskasSynergyClimateChange2023
--   @riegerIntegratedScienceWellbeing2023 Integrated science of wellbeing
--   @fabrisCLIMATECHANGEQUALITY2022
+Wellbeing Economy Governments is an example of country-level collaboration in sharing expertise on sustainable development, looking to bring post growth strategies and policy frameworks to the mainstream. The concept of a wellbeing economy  focuses on human and ecological wellbeing rather than material growth since 2018 and includes Finland, Iceland, New Zealand, Scotland, Wales, and Canada as founding members of the network [@fioramontiWellbeingEconomyEffective2022].
 
-I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services.
+For example, there's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits. In Bangladesh, [@AMIN2022113224] suggests *"removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits"* for both the economy and the environment. In other words, green energy was a win-win solution, for both the evironmental health and financial wealth.
 
-Design *is* political.
+I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services. Design *is* political.
 
 -   @paterPoliticsDesignNot2021
 -   10 countries use almost 100% renewable energy
 
-There's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits.
 
--   In Bangladesh, @AMIN2022113224 suggests "removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits" for both the economy and the environment.
+Sustainbility Policy context is Shifting Around the World
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
@@ -215,16 +218,13 @@ Many companies are developing technologies for mitigation.
 
 -   International Energy Agency (IEAs), Decarbonisation Enablers @ieaTrackingCleanEnergy2023
 
-Sustainbility Policy context is Shifting Around the World
-
 -   "data-exchange protocol with privacy at its heart" @circulariseCirculariseRaisesMillion2020
 
 -   EU AI Law @lomasDealEUAI2024
 
 **Kunming-Montreal Global Biodiversity Framework**
 
-
-Eco-Design is about improving processes and optimizing resources. While the goal of reducing harm is shared, the specifics will depend on the industry. [@VANDOORSSELAER2022189] Defines ecodesign as "design for X" in a circular economy, thinking through the life cycle of a product, tools, materials, production, use, and end-of-life phases.
+Eco-Design is about improving processes and optimizing resources. While the goal of reducing harm is shared, the specifics will depend on the industry. [@VANDOORSSELAER2022189] Defines ecodesign as "design for X" in a circular economy, thinking through the life cycle of a product, tools, materials, production, use, and end-of-life phases. 
 
 In wine-making, [@MANZARDO2021149507] presents an Italian vinery case study, where a redesigned Merlot red wine procedure reduced in environmental impacts from fuel and pesticide use in vineyards; the 8-step procedure included calculating the product's environmental footprint and following the ISO 14006 standard, titled *"Environmental management systems — Guidelines for incorporating ecodesign"*. Finding uses for by-products, can improve sustainability even more. [@INARRA2022100727] designed a circular scheme for brewery left-overs, producing feed ingredients for aquaculture; in a further step, using life-cycle assessment (LCA) and optimising logistics, reduced the aquafeed's environmental footprint also by 6%.
 
@@ -237,8 +237,6 @@ In the printing industry, [@MIYOSHI2022267] takes the example of ink toner bottl
 While these examples underline the industry-specifity of eco-design, some authors attempt to come up with mores holistics approaches. For instance [@RUIZPASTOR2022130495] developed "CN_Con", a metric for conceptual design, trying to measure circularity and novelty in conjuction, by analysing product functions, durability, material origins, and end-of-life, while at the same time supporting creative and circular design solutions in early stages.
 
 On an international level, looking at companies operating on the European Single Market, [@ARRANZ2022131738] conducted a large-scale study using machine learning on firm survey data from 870 organisations across diverse economic sectors, aqcuired from the 2015 EU Public Consultation on the Circular Economy conducted by European Commission, comparing coercive pressures (regulations, subsidies, grants), normative pressures (industry standards, professional networks), and mimetic pressures (competitive imitation), finding normative and mimetic pressure only enhance sustainability, if coercive pressure already exists - i.e. regulations are a key point of leverage. In summary, enacting laws which support sustainability can shift complex systems with many parties towards a circular economy, and be enhanced by additional voluntary forces. However, a comparative analysis of OECD green growth indicators for the periods 2004–2005 and 2019 across EU member states found that green transformation do not correlate directly with development level - instead each country’s unique socio-economic context plays a role: governance quality and income distribution shape the effectiveness of regulatory frameworks, suggesting that coercive policies must be tailored to national circumstances in order to reinforce circular-economy adoption at scale[@CHEBA2022108601]. 
-
--   @nastaraanvadoodiEcodesignRequirementsDrive2022
 
 ## Thinking in Systems to Re-Design Industries
 
