@@ -223,23 +223,24 @@ Sustainbility Policy context is Shifting Around the World
 
 **Kunming-Montreal Global Biodiversity Framework**
 
--   @MANZARDO2021149507 **(need access!)**
 
--   @INARRA2022100727 **(need access!)**
+Eco-Design is about improving processes and optimizing resources. While the goal of reducing harm is shared, the specifics will depend on the industry. [@VANDOORSSELAER2022189] Defines ecodesign as "design for X" in a circular economy, thinking through the life cycle of a product, tools, materials, production, use, and end-of-life phases.
 
--   @MUNARO2022566 **(need access!)**
+In wine-making, [@MANZARDO2021149507] presents an Italian vinery case study, where a redesigned Merlot red wine procedure reduced in environmental impacts from fuel and pesticide use in vineyards; the 8-step procedure included calculating the product's environmental footprint and following the ISO 14006 standard, titled *"Environmental management systems — Guidelines for incorporating ecodesign"*. Finding uses for by-products, can improve sustainability even more. [@INARRA2022100727] designed a circular scheme for brewery left-overs, producing feed ingredients for aquaculture; in a further step, using life-cycle assessment (LCA) and optimising logistics, reduced the aquafeed's environmental footprint also by 6%.
 
--   @BASSANI2022151565 **(need access!)**
+In architecture and the built environment, [@MUNARO202256] conducted a comprehensive reviews of ecodesign 288 articles, identifying *Design for Adaptability* and *Disassembly* as the most inclusive strategies, coining a new term DfAD; a framework linking DfAD with lifecycle assessment tools is a promising are for research to support sustainable construction.
 
--   @VANDOORSSELAER2022189 **(need access!)**
+In pharmaceuticals, [@BASSANI2022151565] proposes an approach to eco-design using life-cycle assessment: optimizing packaging types, alternative materials, transport, and weight reduction. A follow-up study from the same group in 2023 extended the eco-design to a full cradle-to-grave assessment and evaluated end-of-life alternatives [@bassaniLifeCycleAssessment2024].
+
+In the printing industry, [@MIYOSHI2022267] takes the example of ink toner bottles and applies Life Cycle Simulation to show in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings, highlighting how remanufacturing is an important strategy in circularity for reducing CO₂ emissions and life cycle costs.
+
+While these examples underline the industry-specifity of eco-design, some authors attempt to come up with mores holistics approaches. For instance [@RUIZPASTOR2022130495] developed "CN_Con", a metric for conceptual design, trying to measure circularity and novelty in conjuction, by analysing product functions, durability, material origins, and end-of-life, while at the same time supporting creative and circular design solutions in early stages.
+
 
 -   @ARRANZ2022131738 developing circular economy is really complex
 
 -   @CHEBA2022108601
 
--   @RUIZPASTOR2022130495
-
--   @MIYOSHI2022267 takes the example of ink toner bottles and shows in a case study how standardized compatibility between older and newer systems can save resources and results in sustainability savings.
 
 -   @nastaraanvadoodiEcodesignRequirementsDrive2022
 
@@ -676,7 +677,7 @@ Products are made from resources distributed across the planet and transported t
 
 : Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
 
--   @platzerPerspectiveUrgencyGreen2023, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
+In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, [@platzerPerspectiveUrgencyGreen2023}, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
 -   The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
