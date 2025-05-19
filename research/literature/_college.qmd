@@ -275,7 +275,7 @@ A over-the-phone study (n=3000) conducted in 2022, found Taiwanese savings habit
 The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their longtitudinal study, with the latest survey conducted in 2022 (n=2014; 1055 high-school; 959 university) rated financial literacy among all youths 56.3 out of 100 (53.8 in 2016 and 56.7 in 2007), always below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].
 
 | Knowledge Gap (2022) | \% Unaware |
-|-------------------------------------------------|----------------------:|
+|------------------------------------------------|----------------------:|
 | Unsure that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |
 | Unsure which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |
 | Unsure how education level affects starting salary | 61% |
@@ -301,7 +301,7 @@ The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a
   refTitle="YouTube"
 />
 ```
-Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over $2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit $30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at an higher $73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (N=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
+Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over \$2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit \$30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at an higher \$73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (N=3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
 | Place of Comparison | Financial Security Ownership |
 |---------------------|------------------------------|
@@ -319,9 +319,19 @@ In Taiwan, homegrown memes may start with global templates but quickly take on a
 
 Internationally, the sustainability-focused topics "underconsumption" and "deinfluencing" were trending on TikTok in 2024 however have since subdued [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; @tiktokDeinfluencing2024]. While this particular trend may be over, memes still hold potential for communicating about sustainability to young Taiwanese. Still, looking at older international data, [@zannettouOriginsMemesMeans2018] built a large-scale machine-learning pipeline to trace the origin of memes in the US, with 160M images and 2.6B posts within about 1 year (July 2016-2017) from Twitter, Reddit, 4chan and Gab, finding that often memes originate from fringe communities and then spread across mainstream media, highlighting how fringe communities can be surprising impactul.
 
-- Gap here about Taiwanese social media
+In Taiwan, Internet usage among young people is nearly ubi universal, with over to 98% of 18–29 (roughly Gen-Z) year‐olds reporting they have gone online at least once recently, and close to 96% of respondents aged 18-29 used some form of social media [@TWNIC2023].
 
-Meanwhile, In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
+| Metric                     | 18–29   | 30–39   |
+|----------------------------|---------|---------|
+| Daily Internet usage       | 98.79 % | 98.40 % |
+| Overall social-media usage | 95.98 % | 94.84 % |
+| TikTok usage               | 33.03 % | 24.28 % |
+
+: As reported by [@TWNIC2023].
+
+[@LinGaoXianShiKong2024] analyzed (N=1175) Taiwanese high school students, mostly aged Gen-Z, finding that Instagram (IG) dominates, used by close to 85% percent of the respondents; they use IG for about 2 hours per day, 5-6 days per week; moreover, respondents often feel anxious (1-2 days per week), and anxiety correlates with several motivations of using IG, such as recording life moments, documenting travel, food, and fitness with photos, was tied to higher anxiety, possibly related to the photo-centric self-presentation on Instagram, why can be theorized to heighten sensitivity to feedback and criticism. In contrast, [@ChenSiNingIG2023] conducted a survey of 458 Taiwanese Gen Z Instagram users, finding that higher Instagram use intensity is directly associated with greater online subjective well-being; however, intense use also leads to information overload and social comparison, which induce social media fatigue and in turn erode well-being; moreover, users’ perceived intimacy with the platform amplifies the link between use intensity and social comparison frequency. An online survey by [@LiaoBoYaSheQunMeiTi2024] (where the Gen-Z cohort n = 125) found respondents to be highly motivated by social and entertainment use; the user's fear of missing out (FoMO) was found to be related to the motive; e.g. people with social and entertainment drives experience greater FoMO than those motivated primarily by information seeking.
+
+A large-scale (N=2075) representative face-to-face survey among people aged 18 to 93 years in Taiwan (no age-based categorization was published for Gen-Z specifically), found that in general sharing one's thoughts online (known academically as "self-disclosure") boosts perceived social support and significantly boosts bonding and bridging social capital, which increases life satisfaction and lowers loneliness [@FanYiZhuYuRenFen2024]. Conversely, in Japan, while not directly comparable, Gen-Z reports wanting privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
 
 ## AI Usage Among Taiwanese Students
 
