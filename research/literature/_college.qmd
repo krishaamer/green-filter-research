@@ -164,8 +164,6 @@ A recent special issue of Behavioral Sciences magazine on Behavioral Science for
 
 When disaster hits we need high levels of *social trust*. being part of community of trust makes it easier to act in unison. Religion is a type of community of trust. conversely, that can also have negative effects, as in Taiwan the expected behaviour of burning joss sticks and paper money, is a cause of air pollution [@tangRitualBurningThreatens2014]
 
--   Designing for Health and Sustainability and Design for Human Rights: Health and sustainability are intrinsically connected.
-
 Psychological factors influencing millenials to engage with sustainability [@naderiMeFirstThen2018]
 
 ```{python}
@@ -196,11 +194,11 @@ Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, P
 
 ## Trends in Taiwanese Companies from Industry to Online Shopping
 
-KANTAR reports Taiwan’s consumer spending on fast-moving consumer-goods (FMCG) grew over 5% in 2024, speeding up towards the end of the year: +2.5% in Q1, +4.1% in Q2, +5.7 % in Q3 and +9.1% in Q4, with e-commerce crossing the 20 % share mark (traditionally FMCG are purchased physical stores, as convenience stores are so readily available all over Taiwan). [@DongNaoChang2024; @kantarworldpanelFMCG2024; @foodnext20242024; @ShiLifoodnext2024Di42025].
+In the intensifying competition of online shopping in Taiwan, [@momovscoupang2024] predicts Momo and Coupang will compete for Taiwanese market leadership, with Coupang increasingly stepping on Shopee's and MOMO's toes, as per [@ShunFengFuChanKeSunpungSanbuingwa2024].
 
-Between 1970 and 2019 CO2e was a prerequisite of economic growth in Taiwan (check this again) [@changRevisitingEconomicGrowth2023]. Taiwan is a net CO2e exporter since 1990s through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020].
+Across online and offline, KANTAR reports Taiwan’s consumer spending on fast-moving consumer-goods (FMCG) grew over 5% in 2024, speeding up towards the end of the year: +2.5% in Q1, +4.1% in Q2, +5.7 % in Q3 and +9.1% in Q4, with e-commerce crossing the 20 % share mark (traditionally FMCG are purchased physical stores, as convenience stores are so readily available all over Taiwan) [@DongNaoChang2024; @kantarworldpanelFMCG2024; @foodnext20242024; @ShiLifoodnext2024Di42025].
 
--   "Taiwan’s Financial Supervisory Commission’s (FSC) requirements for Taiwan’s corporates to disclose their carbon emissions starting in 2023," @reformosatwAntiGreenwashing2024
+Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO2 was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO2e exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added "requirements for Taiwan’s corporates to disclose their carbon emissions," [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].
 
 TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies Of 2024"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
 
@@ -226,19 +224,13 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 
 : Data from [@alanasemuelsWorldMostSustainable2024].
 
-Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021].
-
-@earth.orgWorld50Most2022 – earth.org’s list of the world’s 50 most sustainable companies in 2022
+Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021]. Meanwhile, earth.org’s list of the world’s 50 most sustainable companies in 2022, only includes 1 Taiwanese company - TSMC [@earth.orgWorld50Most2022].
 
 ```{python}
 taiwanese_company_ranking_chart()
 ```
 
-Meanwhile, @marclienHowGreenGap2022 Four millions British SMEs have no plan for net-zero transition and @wareGreenSkillsGap2024 British workers lack skills for green transition. (2024 National Environmental Services Survey)
-
--   In Online Shopping, [@momovscoupang2024 predicts Momo and Coupang will compete for Taiwanese market leadership].
--   intensifying competition, Coupang stepping on Shopee's and MOMO's toes @ShunFengFuChanKeSunpungSanbuingwa2024
--   Taiwanese environmental ministry is cracking down on illegal waste, with over 70 cases being prosecuted @HuanJing2025
+Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey.
 
 ```{python}
 company_rank_chart()
@@ -325,17 +317,11 @@ The term “meme,” first coined by Richard Dawkins in 1976 in his book "The Se
 
 In Taiwan, homegrown memes may start with global templates but quickly take on a local flavor. [@LiuYunJiaTaiWan2024]'s 2021 study of 150 Taiwanese memes written in Mandarin shows most rely on friendly and indirect humor: inside jokes and wordplay that bond peers together. [@ZhuYingJieying2021] surveyed 737 Taiwanese Facebook users and discovered that a meme’s funniness, shareability, and shock value “hellish gags” (地獄梗) drive people to post it for social approval. [@HuQiZhen2024] collected 217 “tired of life” / “I’m just trash” meme texts from Instagram and PTT, then interviewed 13 Gen-Z enthusiasts, revealing how self-deprecating jokes help Gen Z cope with stress, feel part of a group, and quietly push back against social pressure. Memes have a long history, and even almost a decade ago in 2016, a casual news comment—like the "canoing man" (泛舟哥) remark during a typhoon exploded into LINE stickers and PTT threads, proving that Taiwanese can transform everyday media moments into collective satire or tongue-in-cheek commentary [@HuangYiNeng2016].
 
-Internationally, the sustainability-focused topics “underconsumption” and “deinfluencing” were trending on TikTok in 2024 however have since subdued [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; @tiktokDeinfluencing2024]. While this particular trend may be over, memes still hold potential for communicating about sustainability to young Taiwanese.
+Internationally, the sustainability-focused topics "underconsumption" and "deinfluencing" were trending on TikTok in 2024 however have since subdued [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; @tiktokDeinfluencing2024]. While this particular trend may be over, memes still hold potential for communicating about sustainability to young Taiwanese. Still, looking at older international data, [@zannettouOriginsMemesMeans2018] built a large-scale machine-learning pipeline to trace the origin of memes in the US, with 160M images and 2.6B posts within about 1 year (July 2016-2017) from Twitter, Reddit, 4chan and Gab, finding that often memes originate from fringe communities and then spread across mainstream media, highlighting how fringe communities can be surprising impactul.
 
-Memes and AI assistant can be a tool for empowerment. I would like to have an AI agent to set my requirements and preferences and give a "fuck you" middle finger to companies that don't meet them. I could also give a thumbs up to companies that meet my expectations. Perhaps the user interface could like Tinder where I can swipe left and right.
+- Gap here about Taiwanese social media
 
--   Refi podcast: "people need agency".
-
--   Posting memes feels like having agency
-
--   In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
-
--   [@zannettouOriginsMemesMeans2018] built a large-scale machine-learning pipeline to trace the origin of memes in the US, with 160M images and 2.6B posts within about 1 year (July 2016-2017) from Twitter, Reddit, 4chan and Gab, finding that often memes originate from fringe communities and then spread across mainstream media.
+Meanwhile, In Japan, Gen-Z wants privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].
 
 ## AI Usage Among Taiwanese Students
 
