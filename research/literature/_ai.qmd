@@ -25,15 +25,15 @@ import AbstractAI from '../images/ai/abstract-ai.png'
 ```
 ## Human Patterns
 
-The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are increasingly capable in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
+The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are increasingly capable in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Large data-sets such as the LAION-5B of 5.85 billion image-text pairs, were foundational for training AI to recognize images [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]; similarly huge data-sets exist about other types of media - and the open Internet itself, albeit less structured, is a data-source frequently scraped by AI-model builders. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023].
 
-In essence, Human Patterns Enable AIs. Already ninety years ago [@mccullochLogicalCalculusIdeas1943] proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing's Test for Machine Intelligence followed in 1950. Turing's initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? [@turingCOMPUTINGMACHINERYINTELLIGENCE1950].
+In essence, *human patterns* enable AIs. Already 90 years ago [@mccullochLogicalCalculusIdeas1943] proposed the first mathematical model of a neural network inspired by the human brain. Alan Turing's Test for Machine Intelligence followed in 1950. Turing's initial idea was to design a game of imitation to test human-computer interaction using text messages between a human and 2 other participants, one of which was a human, and the other - a computer. The question was, if the human was simultaneously speaking to another human and a machine, could the messages from the machine be clearly distinguished or would they resemble a human being so much, that the person asking questions would be deceived, unable to realize which one is the human and which one is the machine? [@turingCOMPUTINGMACHINERYINTELLIGENCE1950].
 
 > Alan Turing: *"I believe that in about fifty years' time it will be possible to program computers, with a storage capacity of about 10^9^, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. ... I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted."* - from [@stanfordencyclopediaofphilosophyTuringTest2021]
 
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an ***increase in computing power*** and an approach called ***deep learning***, a variation of ***machine learning (1980s),*** largely modeled after the ***neural networks*** of the biological (human) brain, returning to the idea of ***biomimicry***, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before.
 
-"Generating structured data from unstructured inputs is one of the core use cases for AI" @pokrassIntroducingStructuredOutputs2024 How can AI interfaces enable/help/encourage sustainability? AI-fying User Interfaces (for Sustainability)
+Founder of NVIDIA, Jensen Huang, whose computer chips power much of this revolution, calls it the *"Intelligence Infrastructure"*, produced by intelligence factories, and integrated into everything, just like electricity was [@nvidiaNVIDIACEOJensen2025]. In order to produce this intelligence, huge AI factories are being built around the world, measured in the energy requirements. The 500B USD Stargate project, is currently building 1.2 gigawatts of AI capacity in the Texas, and expanding to other areas around the U.S., and data center in Abu Dhabi, U.A.E., which requires 5GW of energy, and is physically bigger than the country of Monaco [@loizosOpenAIsPlannedData2025; @mossOpenAICFOStargate2025]. In comparison, the 500MW xAI AI factory, built by Elon Musk's company, powered by natural gas generators, is moderate in size [@wangOpenAIStargatePhase2025].
 
 ### Human Feedback
 
@@ -45,21 +45,15 @@ The nature-inspired approach was successful. Innovations such as *back-propagati
 growth_compute_chart()
 ```
 
--   How do transformers work? Illustration @alammarIllustratedTransformer2018
+Illustration of how transformers work by [@alammarIllustratedTransformer2018].
 
 By the 2020s, AI-based models became a mainstay in medical research, drug development, patient care [@LEITE20212515; @holzingerAILifeTrends2023a], quickly finding potential vaccine candidates during the COVID19 pandemic [@ZAFAR2022249], self-driving vehicles, including cars, delivery robots, drones in the sea and air, as well as AI-based assistants. The existence of AI models has wide implications for all human activities from personal to professional. The founder of the largest chimp-maker NVIDIA calls upon all countries do develop their own AI-models which would encode their local knowledge, culture, and language to make sure these are accurately captured [@worldgovernmentssummitConversationFounderNVIDIA2024].
 
 OpenAI has researched a wide range of approaches towards artificial general intelligence (AGI), work which has led to advances in large language models[@ilyasutskeverIlyaSutskeverAI2018; @aifrontiersIlyaSutskeverAI2018]. In 2020 OpenAI released a LLM called GPT-3 trained on 570 GB of text [@alextamkinHowLargeLanguage2021] which was adept in text-generation. [@Singer2022MakeAVideoTG] describes how collecting billions of images with descriptive data (for example the descriptive *alt* text which accompanies images on websites) enabled researchers to train AI models such as ***stable diffusion*** for image-generation based on human-language. These training make use of *Deep Learning*, a layered approach to AI training, where increasing depth of the computer model captures minute details of the world. Much is still to be understood about how deep learning works; even for specialists, the fractal structure of deep learning can only be called *mysterious* [@sohl-dicksteinBoundaryNeuralNetwork2024].
 
-AI responses are probabilistic and need some function for ranking response quality. Achieving higher percentage or correct responses requires oversight which can come in the form of human feedback or by using other AIs systems which are deemed to be already well-aligned (termed Constitutional AI by Anthropic) [@baileyAIEducation2023; @baiConstitutionalAIHarmlessness2022]. Less powerful AIs areFor example META used LLAMA 2 for aligning LLAMA 3.
+AI responses are probabilistic and need some function for ranking response quality. Achieving higher percentage or correct responses requires oversight which can come in the form of human feedback or by using other AIs systems which are deemed to be already well-aligned (termed Constitutional AI by Anthropic) [@baileyAIEducation2023; @baiConstitutionalAIHarmlessness2022]. One approach to reduce non-alignmnet issues with AI is to introduce some function for human feedback and oversight to automated systems. Human involvement can take the form of interventions from the AI-developer themselves as well as from the end-users of the AI system. Such feedback is not only provided by humans, computer can give feedback to computers too. Less powerful AIs are taught by more poweful and aligned AIs, which understand the world better, to follow human values: for example META used LLAMA 2 for aligning LLAMA 3.
 
-One approach to reduce the issues with AI is to introduce some function for human feedback and oversight to automated systems. Human involvement can take the form of interventions from the AI-developer themselves as well as from the end-users of the AI system.
-
-There are many examples of combination of AI and human, also known as *"human-in-the-loop",* used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023].
-
-Also known as Human-based computation or human-aided artificial intelligence [@Shahaf2007TowardsAT; @muhlhoffHumanaidedArtificialIntelligence2019]
-
--   Stanford Institute for Human-Centered Artificial Intelligence @gewangHumansLoopDesign2019
+There are many examples of combination of AI and human, also known as *"human-in-the-loop",* used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023]. Also known as Human-based computation or Human-aided Artificial Intelligence [@Shahaf2007TowardsAT; @muhlhoffHumanaidedArtificialIntelligence2019]. [@gewangHumansLoopDesign2019] from the Stanford Institute for Human-Centered Artificial Intelligence, describes core design principles for building interactive AI systems that augment rather than replace people: value human agency, granularity of control, transparent interfaces.
 
 | App | Category | Use Case |
 |-------------------|-------------------|----------------------------------|
@@ -68,9 +62,7 @@ Also known as Human-based computation or human-aided artificial intelligence [@S
 | QALY | Health | Heart arrhythmia detection |
 | Starship Robots | Delivery | The robot may ask for human help in a confusing situation, such as when crossing a difficult road |
 
-: Examples of human-in-the-loop apps
-
-Oura Ring launched an AI-advisor to help explain the health data recorded by its device @teamIntroducingOuraAdvisor2025.
+: Examples of human-in-the-loop apps.
 
 ### AI as the *Idiot Savant*
 
@@ -180,17 +172,13 @@ METR – Model Evaluation & Threat Research incubated in the Alignment Research 
 
 : Table summarizing some problems with contemporary AIs.
 
-In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach. @openaiIntroducingModelSpec2024
-
--   OpenAI does not yet understand how the internal of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
+In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach [@openaiIntroducingModelSpec2024]. However, OpenAI does not yet fully understand how the internals of an neural network work; they are developing tools to represent NNs concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024].
 
 -   AI co-founder launches AI Safety Superalignment [@janleikeIntroducingSuperalignment2023].
 
 -   OECD defines AI incident terms [@oecdDefiningAIIncidents2024].
 
--   Foundation data-sets such as LAION-5B [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]
 
--   Knowing Machines
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc.
 
@@ -240,23 +228,27 @@ models_chart()
 
 The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
 
+
+
+
 -   Scaling laws of LLMs @kaplanScalingLawsNeural2020
 
--   English is over-represented in current models so Finnish @SiloAINew2024 focuses on Nordic languages.
+-   English is still over-represented in current models so some local models focus on better understanding local context, such as the Finnish [@SiloAINew2024] focuses on Nordic languages. However, as time progresses, large, general-purpose LLMs may catch up and integrate all this knowledge - or even potentially being taught by the local models.
 
-Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
+-   complex decision-making systems.  Apple’s Foundation Language Models (AFM) is split into a smaller on-device model and a server-side model. @dangAppleAIUnderstanding2024
 
--   complex decision-making systems. Apple’s Foundation Language Models (AFM) is split into a smaller on-device model and a server-side model. @dangAppleAIUnderstanding2024
+-   Knowing Machines
 
-Metacognition defined as *knowing about knowing* [@metcalfeMetacognitionKnowingKnowing1994] or "*keeping track of your own learning"* [@zerowasteeuropeZeroWasteHandbook2022].
+Metacognition is defined as *knowing about knowing* [@metcalfeMetacognitionKnowingKnowing1994] or "*keeping track of your own learning"* [@zerowasteeuropeZeroWasteHandbook2022]. Metacognition -- Claude 3 is the first model capable of it?, like the zero waste workshop training guidebook.
 
--   @dwarkeshpatelMarkZuckerbergLlama2024 META open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models.
+
+-   [@dwarkeshpatelMarkZuckerbergLlama2024] META open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models.
 
 -   Image-generation is now fast it's possible to create images in real-time while the user is typing @dwarkeshpatelMarkZuckerbergLlama2024
 
 -   Measuring Massive Multitask Language Understanding (MMLU) @hendrycksMeasuringMassiveMultitask2020.
 
-Another important metric is Retrieval Augmented Generation (RAG) performance. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024].
+Another important metric is Retrieval Augmented Generation (RAG) performance. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024]. "Generating structured data from unstructured inputs is one of the core use cases for AI" [@pokrassIntroducingStructuredOutputs2024].
 
 ```{python}
 models_rag_performance()
@@ -333,11 +325,7 @@ On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *c
 
 ### Conversation: A Magical Starting Point of a Relationship
 
-High quality conversations are somewhat magical in that they can establish trust and build rapport which humans.
-
-*Affective Design* emerged from affective computing, with a focus on understanding user emotions to design UI/UX which elicits specific emotional responses [@Reynolds2001DesigningFA].
-
-[@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
+High quality conversations are somewhat magical in that they can establish trust and build rapport which humans. [@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
 
 There are noticeable differences in the quality of the LLM output, which increases with model size. [@levesqueWinograd2012] developed the *Winograd Schema Challenge*, looking to improve on the Turing test, by requiring the AI to display an understanding of language and context. The test consists of a story and a question, which has a different meaning as the context changes: "The trophy would not fit in the brown suitcase because it was too big" - what does the *it* refer to? Humans are able to understand this from context while a computer models would fail. Even GPT-3 still failed the test, but later LLMs have been able to solve this test correctly (90% accuracy) @kocijanDefeatWinogradSchema2022. This is to say AI is in constant development and improving it's ability to make sense of language.
 
@@ -367,21 +355,21 @@ It's not only what role the AI takes but how that affects the human. As humans h
 
 -   From assistant -\> teammate -\> companion -\> friend The best help for anxiety is a friend. AIs are able to assume different roles based on user requirements and usage context. This makes AI-generated content flexible and malleable.
 
+-   @lenharoChatGPTGivesExtra2023 experimental study reports AI productivity gains, DALL-E and ChatGPT are qualitatively better than former automation systems.
+
 Just as humans, AIs are continuously learning. @ramchurnTrustworthyHumanAIPartnerships2021 discusses positive feedback loops in continually learning AI systems which adapt to human needs.
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? @calistoIntroductionHumancentricAI2021 discusses **multi-modal AI-assistant** for breast cancer classification.
 
 ### Agents and the Intention Economy
 
--   As models get smarter, there's less and less need to build workflows (chains of thought) manually, as they end up restricting the model instead of improving the output; the one use case would be to use a cheaper model with less intelligence and more guardrails set in code @sengottuveluRethinkingHowWe2025; @latentspaceBuildingManusAI2025
+If we see the AI as being in human service. [@davidjohnstonSmartAgentProtocol2023] proposes ***Smart Agents***, "general purpose AI that acts according to the goals of an individual human". AI agents can enable ***Intention Economy*** where one simply describes one's needs and a complex orchestration of services ensues, managed by the the AI, in order to fulfill human needs @searlsIntentionEconomyWhen2012. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
--   AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve.
-
--   OpenAI's "A practical guide to building agents" defins and AI agents as "Agents are systems that independently accomplish tasks on your behalf." and details step-by-step how to build one.
+AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve. As models get smarter, there's less and less need to build workflows (chains of thought) manually, as they end up restricting the model instead of improving the output; the one use case would be to use a cheaper model with less intelligence and more guardrails set in code [@sengottuveluRethinkingHowWe2025; @latentspaceBuildingManusAI2025]. OpenAI's "A practical guide to building agents" defines and AI agents as "Agents are systems that independently accomplish tasks on your behalf." and details step-by-step how to build one [@openaiPracticalGuideBuilding2025].
 
 -   AI can debug problem automatically. Apple uses data from bug reports to train AI models for improving their software @sainiAppleUsesBug2025
 
--   It's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new @fanelliBoltnewFlowEngineering2024
+-   It's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new [@fanelliBoltnewFlowEngineering2024].
 
 ### Mediated Experiences Set User Expectations
 
@@ -419,9 +407,11 @@ scifi_chart()
 
 ### Roleplay Fits Computers Into Social Contexts
 
-Should AIs be required to disclose they are AIs?
+*Affective Design* emerged from affective computing, with a focus on understanding user emotions to design UI/UX which elicits specific emotional responses [@Reynolds2001DesigningFA].
 
-AI Friends and Roleplay (Anthropomorphic)
+- Should AIs be required to disclose they are AIs?
+
+- AI Friends and Roleplay (Anthropomorphic)
 
 Calling a machine a friend is a proposal bound to turn heads. But if we take a step back and think about how children have been playing with toys since before we have records of history. It's very common for children to imagine stories and characters in play - it's a way to develop one's imagination ***learn through roleplay***. A child might have toys with human names and an imaginary friend and it all seems very normal. Indeed, if a child doesn't like to play with toys, we might think something is wrong.
 
@@ -435,7 +425,6 @@ Should the AI play a human, animal, or robot? Anthropomorphism can have its draw
 
 The AI startups like Inworld and Character.AI have raised large rounds of funding to create characters, which can be plugged in into online worlds, and more importantly, remember key facts about the player, such as their likes and dislikes, to generate more natural-sounding dialogues @wiggersInworldGenerativeAI2023
 
--   @lenharoChatGPTGivesExtra2023 experimental study reports AI productivity gains, DALL-E and ChatGPT are qualitatively better than former automation systems.
 
 **Human-like**
 
@@ -449,11 +438,11 @@ As AIs became more expressive and able to to **roleplay**, we can begin discussi
 
 Humans (want to) see machines as human \[ADD CITATION\]
 
-If we see the AI as being in human service. @davidjohnstonSmartAgentProtocol2023 proposes ***Smart Agents***, "general purpose AI that acts according to the goals of an individual human". AI agents can enable ***Intention Economy*** where one simply describes one's needs and a complex orchestration of services ensues, managed by the the AI, in order to fulfill human needs @searlsIntentionEconomyWhen2012. AI assistants provide help at scale with little to no human intervention in a variety of fields from finance to healthcare to logistics to customer support.
 
-There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." @gratchPowerHarmAI2022
+- There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
 
 -   Anthropomorphism literature @liAnthropomorphismBringsUs2021 "high-anthropomorphism (vs. low-anthropomorphism) condition, participants had more positive attitudes toward the AI assistant, and the effect was mediated by psychological distance. Though several studies have demonstrated the effect of anthropomorphism, few have probed the underlying mechanism of anthropomorphism thoroughly"
+
 -   @erikbrynjolfssonTuringTrapPromise2022 "The Turing Trap: The Promise & Peril ofHuman-Like Artificial Intelligence"
 -   @xuWeSeeMachines2018 "Do We See Machines TheSame Way As We See Humans? A Survey On Mind Perception Of Machines AndHuman Beings"
 -   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels"
