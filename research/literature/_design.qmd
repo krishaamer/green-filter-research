@@ -376,15 +376,18 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 
 "The agricultural sector contributes to approximately 13.5% of the total global anthropogenic greenhouse gas emissions and accounts for 25% of the total CO~2~ emission" [@nabipourafrouziComprehensiveReviewCarbon2023]. @pooreReducingFoodEnvironmental2018 suggests 26% of carbon emissions come from food production. @FoodPrints2015 reports dairy (46%) and meat and fish (29%) products making up the largest GHG emission potential. @springmannGlobalRegionalCosts2021 proposes veganism is the most effective decision to reduce personal CO~2~ emissions.
 
-*Farm to Fork* is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system. @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally.
+**Perennial Crops,** multi-year crops reduce inputs of gasoline, labor, etc. [@aubreystreitkrugPathwaysPerennialFood2023]. Large agritech companies like Monsanto rely on selling seeds annually for profits putting them at odds with **Perennial crops**. Single-year seeds have led to farmer suicides when crops fail in poor communities.
 
--   Farm to Fork @financialtimesSustainabilityIdeasThat2022
+*Farm to Fork* is a European Union policy to shorten the supply chain from the producer to the consumer and add transparency to the system [@financialtimesSustainabilityIdeasThat2022]. @patelBlockchainTechnologyFood2023 livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally.
+
+Food fraud is a contentius issue which can be solved with science. 
 
 -   Fake honey, DNA-analysis to find real honey, synthetic honey can pass laboratorty tests [@errEstonianBeekeepersMaintain2023]
 
+-   The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
+
 -   China is the largest honey producer.
 
--   Food fraud
 
 @SustainabilityIntelligenceFood
 
@@ -398,9 +401,6 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 
 Complex supply chains make seafood (marine Bivalvia, mollusks) logistics prone to fraud, leading to financial losses and threats to consumer health [@santosCurrentTrendsTraceability2023]. [@changAuthenticationFishSpecies2021] *fish fraud* is a large global problem but it's possible to use DNA-tracking to prove where the fish came from. In "2019, the 27 KURA SUSHI branches in Taiwan sold more than 46 million plates of sushi. in Taiwan". Illegal, unreported and unregulated fishing (IIU) fishing is widespread; the EU is adopting countermeasures [@kimEconomicImpactsEuropean2024]. @munozCarbonFootprintEconomic2023 Is there such a thing as sustainable fishing? Bottom trawling is the worst and should be banned. @katiegustafsonWhyTracingSeafood2022 proposes a **"Uniform traceability system for the entire supply chain"** for seafood. @mamedeElementalFingerprintingSea2022 proposes *Seafood tracing*: Fingerprinting of Sea Urchin.
 
--   The same is true for cocoa beans, which are at risk from food fraud [@fanningLinkingCocoaQuality2023].
-
--   **Perennial Crops,** Multi-year crops reduce inputs of gasoline, labor, etc. [@aubreystreitkrugPathwaysPerennialFood2023]. Large agritech companies like Monsanto rely on selling seeds annually for profits putting them at odds with **Perennial crops**. Single-year seeds have led to farmer suicides when crops fail in poor communities.
 
 -   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation
 
@@ -435,9 +435,7 @@ Culture can be a proponent of sustainability. Food is about enticing human imagi
 
 **Food Waste**
 
-There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away.
-
-Olio, Too Good To Go
+There are several initiatives to reduce food waste by helping people consume food that would otherwise be throw away including Olio and Too Good To Go.
 
 ::: {.content-hidden unless-format="pdf"}
 ![ResQ Club saves food waste by selling left-over foods cheaply](./images/design/resq-club.png){width="100%"}
@@ -455,7 +453,7 @@ Olio, Too Good To Go
 
 : Food saving apps
 
-As with any contentius issue, when it comes to food, people have differing points of view. [@ROOS2023107623] identified 5 perspectives in a small study (n = 106) of views on the Swedish food system.
+As with any contentius issue, when it comes to food, people have differing points of view. [@ERIKSSON2023229] discusses best practices for reducing food waste in Sweden and [@ROOS2023107623] identified 5 perspectives in a small study (n = 106) of views on the Swedish food system.
 
 | Perspective | Content |
 |--------------------------|----------------------------------------------|
@@ -465,9 +463,8 @@ As with any contentius issue, when it comes to food, people have differing point
 | *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
 | "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
 
-: Perspective on food systems in Sweden.
+: Perspective on food systems in Sweden from [@ROOS2023107623].
 
--   @ERIKSSON2023229 discusses best practices for reducing food waste in Sweden.
 
 -   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
 
@@ -773,16 +770,12 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Writing as training data? large language models. GTP3.
 
-## Open Data Enables Eco-Interoperability
-
-Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData]. While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021].
+## Open Data Enables Interoperability
 
 
-[@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues.
+Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData].
 
-
-
-- 
+While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024].
 
 Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
 
@@ -796,7 +789,7 @@ Other indexes do not include Taiwan in the TOP 10.
 open_data_compare()
 ```
 
-Data-driven design requires access to data. making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
+Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
 | Country  | Project                    | Reference           |
 |----------|----------------------------|---------------------|
@@ -822,15 +815,15 @@ Google uses nudges in Google Flights and Google Maps, which allow filtering flig
 
 In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
-Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
+- Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
 
 Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping @GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025
 
 While Google has launched several climate-focused initiatives, it missed its CO2 reduction targets due to growing need for AI models @worthingtonGooglesClimateTightrope2025
 
-@justinecalmaGoogleLaunchesNew2021 Google UX eco features.
+- @justinecalmaGoogleLaunchesNew2021 Google UX eco features.
 
-@sarahperezGoogleRollsOut2022 shows how google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+@sarahperezGoogleRollsOut2022 shows how Google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
 
 | Feature | Product | Nudge |
 |---------------------------|-------------------|---------------------------|
@@ -912,9 +905,7 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 
 **Community**
 
-Building a community is a way to design a context, where the culture creates certain expectations of behavior.
-
-Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
+Building a community is a way to design a context, where the culture creates certain expectations of behavior. Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
 
 -   Building a culture of sustainability? [@lakshmirebeccaManWhoGamifying2018; @armstrongCultivatingCulturesSustainability2021].
 
@@ -924,9 +915,9 @@ The focus on *group consciousness* suggests community-based sustainability actio
 
 ***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021]. - consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
 
-What are the building blocks of a thriving community?
+- What are the building blocks of a thriving community?
 
-Experience instead of read..
+- Experience instead of read..
 
 @RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
 
@@ -944,35 +935,17 @@ Tracking one's health and fitness is a familiar mode of *quantified self*, avail
 
 Sleep quality is an important aspect of health and many devices and apps focus on helping people get enough high quality sleep. There's plenty of academic literature on how physical activity, as well as environmental aspects, such as air quality, affect sleep [@liuHowPhysicalExercise2019] tracks how wearable data is used for tracking sleep improvements from exercise. [@grigsby-toussaintSleepAppsBehavioral2017] made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
 
-The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024]. More recently, Oura Ring launched an AI-advisor to help explain the health data recorded by its device: deliver contextual and personalized guidance, remember past interactions while emphasizing privacy, and analyze both short- and long-term biometric trends [@teamIntroducingOuraAdvisor2025].
+The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024]. More recently, Oura Ring launched an AI-advisor to help explain the health data recorded by its device: deliver contextual and personalized guidance, remember past interactions while emphasizing privacy, and analyze both short- and long-term biometric trends [@teamIntroducingOuraAdvisor2025]. There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards.
 
-EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: *"brain music sounds like a warm bathtub"*. Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG).
+Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
 
-Use technology Wearables to be more aware of one's health. Example of quantified self device. an example of Personalized Design: Self-Monitoring feels personal.
+[@saubadePromotingPhysicalActivity2016] finds health tracking is useful for motivating physical activity. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022]. 
 
-There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards.
+@GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty. The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023]. Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
 
-Could one track personal sustainability in a similar fashion? [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. @saubadePromotingPhysicalActivity2016 finds health tracking is useful for motivating physical activity. The urban environment has an influence on health.
+- Use of Wearables enables one to be more aware of one's health. Example of quantified self device. an example of Personalized Design: Self-Monitoring feels personal. EEG (electroencephalogram), ECG (Electrocardiogram), EDA (Electrodermal Activity): tracking features of brain, heart and nervous system activity. Brain Music Lab founder and brain researcher Grace Leslie: *"brain music sounds like a warm bathtub"*. Tracking blood sugar with app and patches. Blood sugar trackers. Blood glucose tracking is popular even for people without diabetes, to optimize their activity [@BloodSugarMonitoring2021]. Tracking urine consistency inside your toilet with WithThings. Companies like NeuralLink are building devices to build meaningful interactions from brain waves (EEG). Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n = 998).
 
-While so of the behavior changes may sound simple - like switching from driving to walking - and would have a large environmental effect, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack.
-
-While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
-
--   @kristiansteensennielsenArgumentsIndividualClimate2022 **Individual climate action!!!**
-
--   The UN has been handing out Global Climate Action Awards since 2011 for idea such as the Climate Credit Card in Switzerland, which automatically tracks emissions of purchases, creates emissions' reports for the user which can then be offset with investments in climate projects around the world [@unfcccClimateCreditCard2023].
-
--   Give Gen-Z the tools to turn climate anger into positive change to transform companies
-
--   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
-
--   Shop sustainability in Estonia [@lillevaliUuringVastutustundlikkusEesti2022; @EstwatchEstwatchiVarskest]. Tarbimise jalajälg poes [@helensaarmetsTarbimiselSilmagaNahtamatu2021]. Offsets at the point of sale [@GrenpayHeastaOma].
-
--   @GreenFintechTrends2020 report predicts the rise of personalizing sustainable finance, because of its potential to grow customer loyalty, through improving the user experience. Similarly to good design, interacting with sustainable finance for the 'green-minded' demographics, providing a reliable green product is a way to build customer loyalty.
-
-Another aspect is tracking one's mental health. [@tylerContemporarySelfreflectivePractices2022] surveys the use of self-reflection apps in the UK (n = 998).
-
--   Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
+Popular Strava (100+ million users) sports assistant provides run tracking and feedback [@stravaStravaGlobalCommunity2022].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Popular Strava sports assistant provides run tracking and feedback](./images/design/strava.png){width="100%"}
@@ -1005,7 +978,7 @@ My personal air pollution exposure tracked using the Atmotube device attached to
 air_chart()
 ```
 
-### Carbon Tracking
+### Carbon Tracking: Personal Emissions Trackers
 
 The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
 
@@ -1019,7 +992,7 @@ We have a limited carbon budget so calculating CO2e-cost become integrated into 
 
 -   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018].
 
-Personal Carbon Trackers
+-   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
 
 Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
@@ -1083,8 +1056,6 @@ Participation in carbon labeling schemes remains voluntary, with only a limited 
 -   similar to Nutritional Facts Labeling
 
 Transitioning from simpler Carbon Labels to data-driven Digital Product Passports requires comprehensive data collection, digital infrastructure, industry collaboration, regulatory frameworks and consumer engagement.
-
-
 
 -   product's history, composition, and environmental impact.
 
