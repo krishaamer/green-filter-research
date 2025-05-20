@@ -59,13 +59,13 @@ The Keeling Curve apparatus measures absorbion of infrared light, which allows o
 ```
 The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
-Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. Global warming may lead to the slowing down and complete stop of the Atlantic meridional overturning circulation (AMOC) which helps maintain climate stability [@ditlevsenWarningForthcomingCollapse2023].
+Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. Global warming may lead to the slowing down and complete stop of the Atlantic meridional overturning circulation (AMOC) which helps maintain climate stability [@ditlevsenWarningForthcomingCollapse2023]. Apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability [@linOpportunitiesTackleShortlived2022].
 
 ### Measuring CO~2~e Emissions
 
 Technology improves and measurements have become more accurate yet CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports the latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables*"[@thecopernicusclimatechangeserviceClimatePulse2024].
 
-Emissions production is highly unequal, with *"\[t\]he world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%"* [@ieaWorldTopEmitters2023]
+Emissions production is highly unequal, with *"\[t\]he world's top 1% of emitters produce over 1000 times more CO2 than the bottom 1%"* [@ieaWorldTopEmitters2023]. The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
 CO~2~e emissions by region (per year).
 
@@ -165,7 +165,8 @@ The legislative baseline for Compliance Carbon Markets is so low, people want to
 
 The price of CO~2e~ differs across markets. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
--   @igeniusLetTalkSustainable2020
+
+
 
 The fossil energy production that's a large part of global CO2 emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
 
@@ -180,7 +181,6 @@ CO~2e~ credits have given rise to Carbon Accounting industry, to help companies 
 
 **Cap & Trade**
 
-The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
 -   One example is the ICT sector.
 -   @bajarinPCSalesAre Over 300 million PCs sold in 2022
@@ -301,22 +301,11 @@ microplastics_body_chart()
 
 **tipping points** - @armstrongmckayExceedingGlobalWarming2022 discusses tipping points. - @tedTippingPointsClimate2024
 
-In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre reports we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
+In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre report in 2022 we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022]. 
 
--   @ceballosBiologicalAnnihilationOngoing2017 mass extinctions
--   IUCN Red List: 45,300 species (28% of all assessed) under threat of extinction @iucnIUCNRedList2024
+An update to the  planetary boundaries framework a year later found the actual number to be 6 of 9 boundaries (climate, biosphere integrity, land use, biogeochemical flows, freshwater use, novel entities) already transgressed, with ocean acidification nearing its limit and only stratospheric ozone recovering; atmospheric aerosol loading and the biodiversity intactness index (BII), which belongs under biodiversity loss and measures how depleted are the species that are still around (but not yet extinct), were quantified recently  [@richardsonEarthSixNine2023; @newboldHasLandUse2016]. 
 
-Atmospheric aerosol loading and the biodiversity intactness index (BII) were quantified recently (ADD CITATION)
-
-My home country Estonia at the time was considered low-income, a small nation in poverty behind the *Iron Curtain* occupation of the Soviet Union, we now in 2024, have also reached high-income status.
-
--   @debalieKateRaworthCreating2018
-
--   @houdiniPlanetaryBoundariesAssessment2018
-
--   @haeggmanPlanetaryBoundariesAnalysis2018
-
--   @richardsonEarthSixNine2023
+In the biospehere, mass extinctions are underway. An analysis of population trends for 27600 terrestrial vertebrate species (including a detailed sample of 177 mammals), found 32% (8851 species) are undergoing severe range contractions; the authors name this "biological annihilation" to signal Earth’s ongoing 6 mass extinction and call for immediate conservation action [@ceballosBiologicalAnnihilationOngoing2017]. As of last year, the Red List curated by the International Union for Conservation of Nature (IUCN), includes 45,300 species (28% of all assessed, since IUCN was founded in 1948), under threat of extinction [@iucnIUCNRedList2024].
 
 ::: {.content-hidden unless-format="pdf"}
 ![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){width="100%"}
@@ -330,9 +319,11 @@ My home country Estonia at the time was considered low-income, a small nation in
   refTitle="Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023"
 />
 ```
-In 1948, the International Union for Conservation of Nature (IUCN) was founded, which in
 
-LULUCF "Land Use, Land-Use Change, and Forestry" can both be a source of greenhouse gas emissions - or a carbon sink (removing CO2 from the atmosphere).
+In 2018 Swedish Sportswear brand Houdini launched the first corporate planetary boundaries assessment in partnership with Albaeco and Stockholm Resilience Centre to establish a baseline for its "impact positive" ambition [@houdiniPlanetaryBoundariesAssessment2018]. While it's a pilot study, it demonstrates how companies can integrate system-level science into sustainability reporting [@haeggmanPlanetaryBoundariesAnalysis2018]. At the 2024 update for the report, Houdini invited, Johan Rockström, a renown conservation and climate scientist, envisions a global dashboard of the development of the economy and the state of the planetary boundaries, with high resolution maps, to help visualize Earth's situation in real-time [@houdinisportswear2024PlanetaryBoundaries2024].
+
+
+- LULUCF "Land Use, Land-Use Change, and Forestry" can both be a source of greenhouse gas emissions - or a carbon sink (removing CO2 from the atmosphere).
 
 ### Earth System Law, Planetary Health, and Social Cost of CO~2~
 
@@ -340,7 +331,7 @@ LULUCF "Land Use, Land-Use Change, and Forestry" can both be a source of greenho
 
 Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks.
 
-Evolving Measurements from Planetary Boundaries to Planetary Health
+Evolving Measurements from Planetary Boundaries to Planetary Health, and Social Cost of Carbon
 
 -   Planetary health [@planetaryhealthalliancePlanetaryHealth2024; @planetaryhealthalliancePlanetaryHealthRoadmap2024]
 
@@ -350,8 +341,6 @@ Evolving Measurements from Planetary Boundaries to Planetary Health
 
 *Social Cost of Carbon* attempts to measures the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
-
--   [@linOpportunitiesTackleShortlived2022] says, apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability.
 
 -   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
 
@@ -478,20 +467,19 @@ Lack of access to sufficient clean water and water pollution are issues in sever
 
 Once pollution is in the environment, cleaning it up is very expensive. For instance, in France, where stormwater washed pollution into the waterways feeding into the Seine river, making it unsuitable for swimming, the city of Paris invested 1.4 Billion Euros to create a massive underground reservoir and a water cleaning system by the opening of the Paris Olympics in 2024 - and still the water quality would be variable based on rain incidentce [@waltBillionDollarEffortClean2023].
 
--   Bioswales help catch storm debris and reduce water pollution.
+In the U.S., the national government recently rolled back rules for water safety, which had been implemented last year, to protect the consumer from per- and polyfluoroalkyl substances (PFAS) [@tragerPFASRegulationsUS2025].
 
+-   Bioswales help catch storm debris and reduce water pollution.
 
 **Soil Pollution**
 
 In Saudi Arabia, [@picoWildRuderalPlants2023] used wild and ruderal plants as bioindicators to detect pollution of air, water and soil,specifically anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals, concluding both Abha and Riyadh showed notable levels of pollutants while Riyadh (a city with more industry) showed higher levels of pollution.
 
-### Disaster Preparedness and Climate Resilience
-
-The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport].
-
-### Weather Patterns and Climate Extremes
+### Climate and Disaster Preparedness: Building Resilience Extreme Weather Patterns 
 
 Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO2 concentrations in the air can cause more turbulence for flights.
+
+The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport].
 
 Global warming increases the risk of disasters and extreme weather events. The US Global Change Research Program presented a comprehensive report to the US Congress, which links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces *air quality,* which in effect increases health challenges [@FifthNationalClimate2023]. As extreme temperatures are increasingly commonplace, with observed changes in heatwaves, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021; @perkins-kirkpatrickExtremeHeatClimate2023], while flood risk mapping might lower property prices in at risk areas [@sherrenFloodRiskMapping2024]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023].
 
@@ -505,7 +493,10 @@ Climate-related disasters can spur action as extreme weather becomes visible to 
 
 -   Chernobyl and Fukushima
 -   the Great Pacific Garbage Patch
--   Disputes in @eerolaCorporateConductCommodity2022.
+
+
+
+While this rarely makes the international media, [@eerolaCorporateConductCommodity2022] maps 20 ongoing mining and mineral-exploration disputes in Finland, calling for systematic dispute monitoring, in order to maintain a social license to operate.
 
 ## Financialization of Nature vs Nature's Sacred Value: Scaling Up Sustainable Action
 
@@ -535,6 +526,8 @@ There are 2 main approaches to protecting nature:
 
 ### Ecological Restoration: Healing Damaged Ecosystems Through Agroforestry & Permaculture
 
+-   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* - was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
+
 Some argue sustainability is not enough and we should work on *regeneration* of natural habitat. The UN announced 2021-2030 the Decade on Ecosystem Restoration, which includes a wide range of regenerative action [@fischerMakingDecadeEcosystem2021]. For instance, [@hanEmbeddingNaturebasedSolutions2022] identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 
 | Non-Exhaustive list of Regenerative Actions |
@@ -553,7 +546,7 @@ In Ireland, [@irwinIncreasingTreeCover2023] studied dairy farmers' willingness t
 
 Svalbard Seed Vault is an example of seed conservation to safeguard biodiversity by storing backup seeds of plants from around the world in cold storage [@westengenGlobalExSituCrop2013; @asdalSvalbardGlobalSeed2018]. Since its opening in 2008, the storage solution provided by the Norwegian government has stored seeds from from 123 genebanks in 85 countries around the world [@newSeedSamples2025; @ArcticDoomsdaySeed2025]. [@vitalettiShareTinySpace2025] proposes using a blockchain-based lottery system to storage seeds in local refridgerators, in order to enhance resliance and ensure survivial of seeds, by storing seeds in many locations.
 
-## Energy Production
+## Energy Production: "Climatech", Renewable Energy and Decarbonisation Pathways
 
 -   55% of emissions come from energy production.
 
@@ -563,25 +556,25 @@ Geopolitical situations can affect technology adoption; after Russia's war in Uk
 
 [@gaureTrueNotTrue2022] simulate a CO~2~ free electricity generation system in the European Union where "98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology.". The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
 
-EU's energy mix in 2024
+EU's energy mix in 2024:
 
 ```{python}
 eu_energy_breakdown()
 ```
 
-Wind and solar energy overtook fossil energy in Europe.
+Wind and solar energy overtook fossil energy in Europe:
 
 ```{python}
 eu_renewable_vs_fossil()
 ```
 
-Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate2024].
+Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate2024]:
 
 ```{python}
 global_renewables_vs_fossil()
 ```
 
-Meanwhile reduction in coal-power was also possible. Coal is a large CO2 emitter.
+Meanwhile, reduction in coal-power was also possible. Coal is a large CO2 emitter.
 
 ```{python}
 eu_coal_reduction()
@@ -591,23 +584,12 @@ eu_coal_reduction()
 taiwan_energy_production()
 ```
 
-"Climatech", Renewable Energy and Transforming Energy Production
-
-Large technology conglomerates and newly founded startups working in climate solutions space (often referred to as *climatech* by the media) have proposed a range of approaches to CO~2~ reduction in Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones.
-
-Each technology has their own pros and cons. [@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible.
-
-@lowRethinkingNetZeroSystems2022 considering pathways to drawdown finds considerable uncertainty exists among experts which CO2 reduction methods among nature-based and technology-based are the most effective.
-
--   **Important: "creating sustainability trust in companies in realtime"**
+Large technology conglomerates and newly founded startups alike are working in the climate solutions space (often referred to as *climatech* by the media), have proposed a range of approaches to CO~2~ reduction in the Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones. Each technology has their own pros and cons. For instance,[@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible. Overall, considering pathways to carbon drawdown finds considerable uncertainty exists among experts which CO2 reduction among nature- and technology-based methods are the most effective [@lowRethinkingNetZeroSystems2022].
 
 ## Navigating Complexity with Data: Towards Probabilistic Risk-Based Assessment in Sustainability
 
-Sustainability is a complex web of interconnections.
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
 
--   thread of commodification of nature. category mistake. impossible to bring back already destroyed biodiversity which took millennia to develop. humans create hugely complex systems instead of simply conserving nature.
-
--   The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* -was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018].
 
 ### Individual Action
 
