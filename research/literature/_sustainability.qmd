@@ -136,7 +136,7 @@ ndc_chart()
 
 Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
-@ministryofdigitalaffairsPingTai2024; @emberElectricityDataExplorer2025 based on data from Taiwanese government.
+- Taiwanese energy usage based on data from Taiwanese government [@ministryofdigitalaffairsPingTai2024; @emberElectricityDataExplorer2025].
 
 ### Markets for Ecosystem Services: Pricing, Tracing, and Trading Nature's Assets
 
@@ -165,12 +165,7 @@ The legislative baseline for Compliance Carbon Markets is so low, people want to
 
 The price of CO~2e~ differs across markets. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
-
-
-
 The fossil energy production that's a large part of global CO2 emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
-
--   @lentonQuantifyingHumanCost2023 quantifying human cost of global warming.
 
 Google purchases 10MW of geothermal energy for its Taiwanese AI chip projects, doubling current Taiwanese geothermal capacity [@wuGoogleAnnouncesMilestone2025; @potterGoogleJustFlipped2025; @hagstrom-ilievskaMajorStepGeothermal2025]. Geothermal energy provides 24/7 clean energy from the Earth's core, however is limited due to lack of acccess; Taiwan happens to be in geologically active spot on the ring of fire, where drilling for geothermal energy is more feasible [@lGoogleIgnitesTaiwans2025; @changOurFirstGeothermal2025].
 
@@ -325,13 +320,14 @@ In 2018 Swedish Sportswear brand Houdini launched the first corporate planetary 
 
 - LULUCF "Land Use, Land-Use Change, and Forestry" can both be a source of greenhouse gas emissions - or a carbon sink (removing CO2 from the atmosphere).
 
-### Earth System Law, Planetary Health, and Social Cost of CO~2~
+### Evolving Measurements from Social Cost of Carbon, Planetary Health, and Earth System Law 
 
-*Planetary Health*, *Earth System Law, and* Social Cost of Carbon are 3 approaches to address the complex interdependence of humans with our physical environment.
+Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. *Planetary Health*, *Earth System Law*, and *Social Cost of Carbon* are another three approaches to address the complex interdependence of humans with our physical environment. 
 
-Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks.
+More recently, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most of humanity); climate change has already exposed ≈9% of today’s population (>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, ~2.7 °C , 21–39 % or 2–4 billion people will be exposed by 2080–2100.
 
-Evolving Measurements from Planetary Boundaries to Planetary Health, and Social Cost of Carbon
+*Social Cost of Carbon* attempts to measures the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+
 
 -   Planetary health [@planetaryhealthalliancePlanetaryHealth2024; @planetaryhealthalliancePlanetaryHealthRoadmap2024]
 
@@ -339,7 +335,6 @@ Evolving Measurements from Planetary Boundaries to Planetary Health, and Social 
 
 *Earth System Law* is a framework for addressing interconnected environmental challenges [@dutoitReimaginingInternationalEnvironmental2022].
 
-*Social Cost of Carbon* attempts to measures the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
 
 -   [@wangMultimodelAssessmentClimate2022]: Quantifying climate damage proposes scenarios of climate damage.
@@ -491,14 +486,7 @@ In the Phillipines, with increasing extreme weather events, *"businesses are mor
 
 Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
 
--   Chernobyl and Fukushima
--   the Great Pacific Garbage Patch
-
-
-
-While this rarely makes the international media, [@eerolaCorporateConductCommodity2022] maps 20 ongoing mining and mineral-exploration disputes in Finland, calling for systematic dispute monitoring, in order to maintain a social license to operate.
-
-## Financialization of Nature vs Nature's Sacred Value: Scaling Up Sustainable Action
+## Financialization of Nature vs Nature's Sacred Value: How to Scale Up Sustainable Action
 
 There are 2 main approaches to protecting nature:
 
@@ -507,8 +495,9 @@ There are 2 main approaches to protecting nature:
 | **Economics of Nature Commodification** | **Economics of the Sacred** |
 | Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
--   [@MonetaryValuationNature2023] asks should we put a price on nature?
--   Is it time to leave utilitarian environmentalism behind? @muradianEcosystemServicesNature2021
+The question of whether we should we put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commotize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
+
+Ecosystem services literature defines a "Nature’s Contributions to People" framework, originally proposed by the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). [@diazAssessingNaturesContributions2018]. [@muradianEcosystemServicesNature2021] critically assess the framework, arguing utilitarian and anthropocentric views of the ecosystem services concept perpetuates problematic dualisms (humans and nature are separate) - and call for a new approach centered on ecology.
 
 |                                                |
 |------------------------------------------------|
@@ -548,9 +537,7 @@ Svalbard Seed Vault is an example of seed conservation to safeguard biodiversity
 
 ## Energy Production: "Climatech", Renewable Energy and Decarbonisation Pathways
 
--   55% of emissions come from energy production.
-
-International Energy Agency (IEAs), Tracking Clean Energy Progress report on 50 distinct decarbonisation enablers and finds that only 3 components - solar PV, PV electric vehicles, and building lighting - are on track with the net zero by 2050 scenario, while 28 need more effort and 22 are "not on track" [@ieaTrackingCleanEnergy2023].
+Globally, 34% of all emissions come from energy production [@usepaGlobalGreenhouseGas2016], making it the key sector to require innovate for reducing carbon emissions. The International Energy Agency's (IEAs), "Tracking Clean Energy Progress" report on 50 distinct decarbonisation enablers and finds that only 3 components - solar PV, PV electric vehicles, and building lighting - are on track with the net zero by 2050 scenario, while 28 need more effort and 22 are "not on track" [@ieaTrackingCleanEnergy2023].
 
 Geopolitical situations can affect technology adoption; after Russia's war in Ukraine, Europe needed to quickly reduce consuming cheap Russian fossil fuel energy (in the form of gas) [@bonasiaWindSolarEnergy2024]. In 2024, for first time in Europe, renewables in the form of wind and solar energy surged past production of fossil fuels [@grahamWindSolarOvertake2024; @beerWindSolarOvertake2024].
 
@@ -585,11 +572,6 @@ taiwan_energy_production()
 ```
 
 Large technology conglomerates and newly founded startups alike are working in the climate solutions space (often referred to as *climatech* by the media), have proposed a range of approaches to CO~2~ reduction in the Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones. Each technology has their own pros and cons. For instance,[@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible. Overall, considering pathways to carbon drawdown finds considerable uncertainty exists among experts which CO2 reduction among nature- and technology-based methods are the most effective [@lowRethinkingNetZeroSystems2022].
-
-## Navigating Complexity with Data: Towards Probabilistic Risk-Based Assessment in Sustainability
-
-Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
-
 
 ### Individual Action
 

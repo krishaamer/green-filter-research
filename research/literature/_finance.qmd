@@ -131,6 +131,8 @@ In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to
 
 In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The Internaional Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
 
+The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+
 The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015, yet commodification of human beings is still practiced worldwide [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies. Not everyone is in favor of more stringent labor practices either. Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. *"Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"* [@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade.
 
 ```{python}
@@ -1205,7 +1207,9 @@ Maintaining that trust matters. In 2017, Etsy lost the certification after faili
 
 Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
-### Risk-Based Assessment of Sustainability Credits
+## Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
+
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
 
 "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
