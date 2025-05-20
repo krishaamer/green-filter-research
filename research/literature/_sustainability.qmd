@@ -136,7 +136,6 @@ ndc_chart()
 
 Fossil fuels are what powers humanity as well as the largest source of CO~2~ emissions. @ieaGlobalEnergyReview2022 reports "Global CO~2~ emissions from energy combustion and industrial processes rebounded in 2021 to reach their highest ever annual level. A 6% increase from 2020 pushed emissions to 36.3 gigatonnes". As on June 2023, fossil fuel based energy makes up 82% of energy and is still growing @instituteEnergySystemStruggles2023. The 425 largest fossil fuel projects represent a total of over 1 gigatons in CO~2~ emissions, 40% of which were new projects @kuhneCarbonBombsMapping2022. @tilstedEndingFossilbasedGrowth2023 expects the fossil fuel industry to continue grow even faster. In July 2023, the U.K. granted hundreds of new oil and gas of project licenses in the North Sea [@RishiSunakGreenlight2023].
 
-
 @ministryofdigitalaffairsPingTai2024; @emberElectricityDataExplorer2025 based on data from Taiwanese government.
 
 ### Markets for Ecosystem Services: Pricing, Tracing, and Trading Nature's Assets
@@ -158,17 +157,13 @@ CO~2e~ assigning a monetary value to carbon emissions.
 
 Trading CO~2e~ emissions can be divided into 2 categories - *Compliance Carbon Markets* (CCM) and *Voluntary Carbon Markets* (VCM).
 
-The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.*
-
-For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors.
+The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.* 
 
 *"Carbon pricing is not there to punish people,"* says Lion Hirth @lionhirthLionHirthTwitter. *"It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."*
 
 *Long term cost* of insufficient climate action is more than *short-term gains* from delaying efforts to reduce carbon emissions.
 
--   The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
-
--   *The price of* CO~2e~ *differs across markets.* [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting.
+The price of CO~2e~ differs across markets. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
 -   @igeniusLetTalkSustainable2020
 
@@ -181,43 +176,27 @@ Google purchases 10MW of geothermal energy for its Taiwanese AI chip projects, d
 
 ## Carbon Accounting
 
-CO~2e~ credits has given rise to *Carbon Accounting industry.*
-
--   Watershed is a large carbon accounting company.
-
--   The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc.
-
--   @quatriniChallengesOpportunitiesScale2021 sustainability assessments are complex and may give flawed results.
-
--   Nonetheles, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
-
-Compliance Carbon Markets
-
-meet legal emission reduction targets
+CO~2e~ credits have given rise to Carbon Accounting industry, to help companies meet legal emissions reduction targets in Compliance Carbon Markets. The legislation has created an industry of CO~2~ accounting with many companies like Greenly, Sustaxo, etc. Watershed is a large carbon accounting company. [@quatriniChallengesOpportunitiesScale2021] admits sustainability assessments are often complex and may give flawed results. Nonetheless, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
 
 **Cap & Trade**
 
 The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as ***Carbon Inequality***). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%".
 
 -   One example is the ICT sector.
-
 -   @bajarinPCSalesAre Over 300 million PCs sold in 2022
-
-    -   @GreenDiceReinventingIdea2021 Estonian company "sustainable lifecycle management of IT equipment"
-    -   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone, FoxWay and Circular economy for PCs.
-    -   @zhouCarboneconomicInequalityGlobal2022 ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
+-   @GreenDiceReinventingIdea2021 Estonian company "sustainable lifecycle management of IT equipment"
+-   @arilehtKestlikkuseSuunanaitajadSaadavad2022 Recycle your phone, FoxWay and Circular economy for PCs.
+-   @zhouCarboneconomicInequalityGlobal2022 ICT is an example of inequality, while emerging economies bear 82% of the emissions, developed countries gain 58% of value.
 
 **Emissions Trading Schemes**
 
 From Carbon Offsets to Carbon Credits
 
--   "A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere" [@annawatsonCarbonCreditRetirements2023; @annawatsonCarbonDioxideRemoval2022].
-
 Retiring CO~2~ allowances
 
--   Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008].
+For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors. Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008]. [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading, arguqing that blockchain solutions for CO2 markets are nearing maturity, and offer many improvements, such as enhancing transparency, trust, and efficiency.
 
-As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below.
+As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below. Most of the world is not part of a CO~2~ market.
 
 |  |  |  |
 |-------------------|-------------------|----------------------------------|
@@ -229,19 +208,9 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 | New Zealand | 2008 | New Zealand @rontardPoliticalConstructionCarbon2022 (need access, important ncku doesn't subscribe) |
 | Canada | 2013 |  |
 
-: CO~2~ credit trading markets around the world from @InternationalCarbonMarket.
+: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket].
 
-Most of the world is not part of a CO~2~ market.
-
--   [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading.
-
--   "Blockchain solutions for carbon markets are nearing maturity" and offer many improvements. enhancing transparency, trust, and efficiency.
-
--   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report. "The Emissions Gap Report (EGR) 2021: The Heat Is On shows that new national climate pledges combined with other mitigation measures put the world on track for a global temperature rise of 2.7°C by the end of the century. That is well above the goals of the Paris climate agreement and would lead to catastrophic changes in the Earth's climate. To keep global warming below 1.5°C this century, the aspirational goal of the Paris Agreement, the world needs to halve annual greenhouse gas emissions in the next eight years.
-
--   [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] report "If implemented effectively, net-zero emissions pledges could limit warming to 2.2°C, closer to the well-below 2°C goal of the Paris Agreement. However, many national climate plans delay action until after 2030. The reduction of methane emissions from the fossil fuel, waste and agriculture sectors could help close the emissions gap and reduce warming in the short term, the report finds. Carbon markets could also help slash emissions. But that would only happen if rules are clearly defined and target actual reductions in emissions, while being supported by arrangements to track progress and provide transparency."
-
--   [@unitednationsenvironmentprogrammeEmissionsGapReport2022] 2022 Emissions Gap report.
+[@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] reported as of 2021 updated national climate pledges (NDCs) and other mitigation measures are projected to lead to a global temperature increase of approximately 2.7°C by 2100, significantly surpassing the Paris Agreement's aspirational goal to keep global warming below 1.5°C this century; effective implementation of net-zero emissions pledges could still keep warming around 2.2°C (approaching the Paris Agreement’s goal of below 2°C), if countries cut methane emissions from fossil fuel, waste, and agricultural sectors, bridging the current emissions gap - and carbon markets might significantly cut emissions, if they are governed by clear rules ensuring genuine emission reductions, alongside transparent systems for monitoring and tracking progress - however, numerous national climate strategies postpone substantial action until after 2030. A year later, the 2022 Emissions Gap report showed a somewhat worsening situation, with existing national pledges leading the world for around 2.8 °C of warming by 2100 [@unitednationsenvironmentprogrammeEmissionsGapReport2022] 
 
 |                    |                        |
 |--------------------|------------------------|
@@ -263,20 +232,22 @@ Voluntary Carbon Markets
 
 Verified Carbon Standard (VCS) and the Gold Standard, Climate Action Reserve (CAR)‍, American Carbon Registry (ACR)
 
-"BeZero Carbon is a ratings agency for the Voluntary Carbon Market."
-
 
 
 Voluntary Carbon Markets are ...
 
 Voluntary Carbon Markets (VCM) lack standardization and transparency [@elakhodaiWhyVCMNeeds2023].
 
-*Carbon Credits* are useful for private companies who wish to claim *carbon neutrality, climate positivity*, or other related claim, which might be viewed in good light by their clients or allow the companies to adhere to certain legislative requirements.
 
-There are many companies which facilitate buy carbon credits as well as a few organizations focused on carbon credit verification.
 
--   In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
--   For example Flickr invested 3000 USD in carbon credits and got a carbon-neutral rating (?!).
+*Carbon Credits* are useful for private companies who wish to claim *carbon neutrality, climate positivity*, or other related claim, which might be viewed in good light by their clients or allow the companies to adhere to certain legislative requirements. However it's important to look at the details of these deal. For example, Flickr invested 3000 USD in carbon credits and got a carbon-neutral rating, which hardly seems enough for an organization of its size [@climateneutralFlickrClimateLabel2024]. 
+
+"A carbon credit represents one tonne of carbon dioxide that has been prevented from entering or has been removed from the atmosphere" [@annawatsonCarbonCreditRetirements2023; @annawatsonCarbonDioxideRemoval2022].
+
+
+There are many companies which facilitate buy carbon credits as well as a few organizations focused on carbon credit verification. In Estonia, startups Arbonic and Single.Earth are trialing this approach in several forests.
+
+
 -   Carbon Credit Retirement?
 -   Methodologies: @MethodologyGHGCoBenefits2022
 -   @klimadaoOpenCallAlternative2023 call for an open standard
@@ -404,7 +375,7 @@ Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -*
 
 Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
 
-*Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNa is being used to generate biodiversity credits by environmental asset rating companies such as BeZero [@ojoatreTriallingEDNABiodiversity2023].
+*Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNa is being used to generate biodiversity credits by environmental asset rating companies such as BeZero, a ratings agency for the Voluntary Carbon Market [@ojoatreTriallingEDNABiodiversity2023].
 
 AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023].
 
