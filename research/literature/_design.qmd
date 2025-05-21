@@ -794,11 +794,11 @@ Data-driven design requires access to data, making the movement towards *open da
 |----------|----------------------------|---------------------|
 | Sweden   | Swedish open data portal   | @SverigesDataportal |
 | Malaysia | Malaysian open data portal | data.gov.my         |
-| Estonia  |                            |                     |
+| Singapore | Singapore ESG open data platform  |  [@monetaryauthorityofsingaporeMASLaunchesDigital2023] |
 
 : Examples of cities and countries that share data openly.
 
-For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024].
+For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore the Monetary Authority has launched an open data portal for ESG information [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
 
 ```{python}
 malaysia_forests()
@@ -855,7 +855,7 @@ Some notable examples:
 | Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-: Types of nudge by @WEE2021100364
+: Types of nudge documented by [@WEE2021100364]
 
 Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
