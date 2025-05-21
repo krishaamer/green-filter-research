@@ -103,7 +103,9 @@ Governments are powerful in passing legislation, with a strong positive or negat
 
 In the social sector of ESG, there are also stories worth sharing. For example, during COVID-19, financial advisor Malaika Maphalala co-led the “Invest in Black Economic Liberation” calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020].
 
-### ESG Crisis: Opaque Metrics and Lack of Standardisation
+## ESG Crisis and Opportunity
+
+### Opaque Metrics and Lack of Standardisation
 
 [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include inconsistent data and superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. ESG Needs Standardisation of Methodologies. "Disparity between ESG methodologies was one of the key hurdles to finding the right sustainable strategy" [@margarytakirakosianMethodologiesAreAll2022]. This is supported by econometric analysis showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022].
 
@@ -127,7 +129,7 @@ Yet, the question remains, whether one can trust financial professional to hold 
 
 In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
-### ESG Crisis: Modern Slavery Persists and ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
+### Modern Slavery Persists and ESG Falls Short in Protecting Workers' Rights and Mitigating Environmental Harm
 
 In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The Internaional Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
 
@@ -143,7 +145,7 @@ Slavery is connected to environmental degradation, and climate change [@deckersp
 
 While reducing slavery in the supply chain sets very low bar for ESG, another aspect of supply tracing is the treatment of workers and working conditions. Companies that create "worker voice apps", intending to to *"give the supply chain a voice"* by connecting workers directly to the consumer (even if anonymously, to protect the workers from retribution), include CTMFile, Alexandria, and PrimaDollar [@timnicolleRealtimeESGData2021; @primadollarmediaPrimaDollarGivingSupply2021; @WorkerVoice2022]. If people working at the factories can directly report working conditions to a safe and anonymous tool, it could serve as a data source for further investigation of labor issues. While there are certainly pitfalls to this approach, one could imagine assigning each factory a social score based on the S-band of their general ESG performance.
 
-### ESG Opportunity: Environmental, Social, and Corporate Governance Criteria Provide a Shared Language
+### Environmental, Social, and Corporate Governance Criteria Provide a Shared Language
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.
 
@@ -155,7 +157,7 @@ In Taiwan, the Taipei stock market has listed ESG stocks since 2017 and was hail
 msci_esg_leaders()
 ```
 
-### ESG Opportunity: Green Transparency - But Who Does the Rating?
+### Towards Green Transparency - But Who Does the Rating?
 
 Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
@@ -258,19 +260,19 @@ The ability to build sustainability into the organization requires deep understa
 These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how genAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
 
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| GenAI Use Case             | Description                                                                                                                                                      |
+| **GenAI Use Case**             | **Description**                                                                                                                                                      |
 +============================+==================================================================================================================================================================+
-| **Regulatory Compliance**  | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals.                                    |
+| Regulatory Compliance  | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals.                                    |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Financial Crime**        | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns.                                                        |
+| Financial Crime        | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns.                                                        |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Credit Risk**            | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
+| Credit Risk            | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Analytics and Modeling** | Build and validate risk models; run scenario analysis; summarize complex data sets for insights.                                                                 |
+| Analytics and Modeling | Build and validate risk models; run scenario analysis; summarize complex data sets for insights.                                                                 |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cyber Risk**             | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps.                             |
+| Cyber Risk             | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps.                             |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Climate Risk**           | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments.                                           |
+| Climate Risk           | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments.                                           |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024].
@@ -300,6 +302,8 @@ Supply Chain Mapping improves Transaction Traceability. What data should be surf
 EU Deforestation Regulation (EUDR) is a success story.
 
 Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]: "Sourcemap’s **Supply Chain Mapping** platform (2025) offers a SaaS solution to document and monitor every tier of a company’s physical supply chain. It collects supplier-attested data and continuously verifies it through integrity checks and cross-referencing with third-party registries and watchlists. Real-time transaction traceability lets users audit all movements and detect fraud or non-compliance instantly, while an expert supplier-engagement team handles onboarding, training and ongoing support to keep maps current and compliant with global due-diligence laws"
+
+## Payments
 
 ### Consumer Activits are a Small Minority
 
