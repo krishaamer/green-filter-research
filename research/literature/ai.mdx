@@ -15,7 +15,7 @@ CJKoptions:
 export const quartoRawHtml =
 [`
 <table>
-<caption>Examples of human-in-the-loop apps</caption>
+<caption>Examples of human-in-the-loop apps.</caption>
 <colgroup>
 <col style="width: 26%" />
 <col style="width: 26%" />
@@ -802,27 +802,37 @@ into computer models - known as machine learning. As of 2023, 97
 zettabytes (and growing) of data was created in the world per year
 (Soundarya Jayaraman, 2023). Big data is a basic requirement for
 training AIs, enabling learning from the structures of the world with
-increasing accuracy. Representations of the real world in digital models
-enable humans to ask questions about the real-world structures and to
-manipulate them to create synthetic experiments that may match the real
-world (if the model is accurate enough). This can be used for generating
-human-sounding language and realistic images, finding mechanisms for
-novel medicines as well as understanding the fundamental functioning of
-life on its deep physical and chemical level (No Priors: AI, Machine
-Learning, Tech, & Startups, 2023).
+increasing accuracy. Large data-sets such as the LAION-5B of 5.85
+billion image-text pairs, were foundational for training AI to recognize
+images (Romain Beaumont, 2022; Schuhmann et al., 2022). Just 3 years
+later, *generating* images with GenAI models is now fast enought to
+create images in real-time while the user is typing (Dwarkesh Patel,
+2024). Similarly huge data-sets exist about other types of media - and
+the open Internet itself, albeit less structured, is a data-source
+frequently scraped by AI-model builders. Representations of the real
+world in digital models enable humans to ask questions about the
+real-world structures and to manipulate them to create synthetic
+experiments that may match the real world (if the model is accurate
+enough). This can be used for generating human-sounding language and
+realistic images, finding mechanisms for novel medicines as well as
+understanding the fundamental functioning of life on its deep physical
+and chemical level (No Priors: AI, Machine Learning, Tech, & Startups,
+2023). Venture capitalists backing OpenAI describe AI as a foundational
+technology, which will unlock human potential across all fields of human
+activity (Greylock, 2022).
 
-In essence, Human Patterns Enable AIs. Already ninety years ago
-(McCulloch & Pitts, 1943) proposed the first mathematical model of a
-neural network inspired by the human brain. Alan Turing’s Test for
-Machine Intelligence followed in 1950. Turing’s initial idea was to
-design a game of imitation to test human-computer interaction using text
-messages between a human and 2 other participants, one of which was a
-human, and the other - a computer. The question was, if the human was
-simultaneously speaking to another human and a machine, could the
-messages from the machine be clearly distinguished or would they
-resemble a human being so much, that the person asking questions would
-be deceived, unable to realize which one is the human and which one is
-the machine? (Turing, 1950).
+In essence, *human patterns* enable AIs. Already 90 years ago (McCulloch
+& Pitts, 1943) proposed the first mathematical model of a neural network
+inspired by the human brain. Alan Turing’s Test for Machine Intelligence
+followed in 1950. Turing’s initial idea was to design a game of
+imitation to test human-computer interaction using text messages between
+a human and 2 other participants, one of which was a human, and the
+other - a computer. The question was, if the human was simultaneously
+speaking to another human and a machine, could the messages from the
+machine be clearly distinguished or would they resemble a human being so
+much, that the person asking questions would be deceived, unable to
+realize which one is the human and which one is the machine? (Turing,
+1950).
 
 > Alan Turing: *“I believe that in about fifty years’ time it will be
 > possible to program computers, with a storage capacity of about
@@ -846,10 +856,25 @@ networks*** of the biological (human) brain, returning to the idea of
 connections between neurons, but digitally, on layers much deeper than
 attempted before.
 
-“Generating structured data from unstructured inputs is one of the core
-use cases for AI” Pokrass (2024) How can AI interfaces
-enable/help/encourage sustainability? AI-fying User Interfaces (for
-Sustainability)
+Founder of NVIDIA, Jensen Huang, whose computer chips power much of this
+revolution, calls it the *“Intelligence Infrastructure”*, produced by
+intelligence factories, and integrated into everything, just like
+electricity was (NVIDIA, 2025). In order to produce this intelligence,
+huge AI factories are being built around the world, measured in the
+energy requirements. The 500B USD Stargate project, is currently
+building 1.2 gigawatts of AI capacity in the Texas, and expanding to
+other areas around the U.S., and data center in Abu Dhabi, U.A.E., which
+requires 5GW of energy, and is physically bigger than the country of
+Monaco (Loizos, 2025; Moss, 2025). In comparison, the 500MW xAI AI
+factory, built by Elon Musk’s company, powered by natural gas
+generators, is moderate in size (B. Wang, 2025). While OpenAIs Sam
+Altman is repeatedly quoted as saying the productivity gains created by
+AI will far offset any of its environmental footprint or other words to
+that effect (Altman, 2024; Di Pizio, 2023), critics like (iGenius, 2020)
+argue that AI cannot enable a sustainable future if it is not
+sustainable by design; training and delivery of AI products must include
+sustainability considerations tied into data intelligence and business
+analytics.
 
 ### Human Feedback
 
@@ -858,7 +883,9 @@ Combining deep learning and *reinforcement learning with human feedback
 the Turing test (Christiano et al., 2017; Christiano, 2021; Kara Manke,
 2022). John Schulman, a co-founder of OpenAI describes RLHF simply:
 *“the models are just trained to produce a single message that gets high
-approval from a human reader”* (Kara Manke, 2022).
+approval from a human reader”* (Kara Manke, 2022). Bigger models aren’t
+necessarily better; rather models need human feedback to improve the
+quality of responses (Ouyang et al., 2022).
 
 The nature-inspired approach was successful. Innovations such as
 *back-propagation* for reducing errors through updating model weights
@@ -879,7 +906,7 @@ intelligent models.
 
 ![](ai_files/figure-markdown_strict/cell-4-output-1.png)
 
--   How do transformers work? Illustration Alammar (2018)
+Illustration of how transformers work by (Alammar, 2018).
 
 By the 2020s, AI-based models became a mainstay in medical research,
 drug development, patient care (Holzinger et al., 2023; Leite et al.,
@@ -914,29 +941,27 @@ response quality. Achieving higher percentage or correct responses
 requires oversight which can come in the form of human feedback or by
 using other AIs systems which are deemed to be already well-aligned
 (termed Constitutional AI by Anthropic) (Bai et al., 2022; Bailey,
-2023). Less powerful AIs areFor example META used LLAMA 2 for aligning
-LLAMA 3.
-
-One approach to reduce the issues with AI is to introduce some function
-for human feedback and oversight to automated systems. Human involvement
-can take the form of interventions from the AI-developer themselves as
-well as from the end-users of the AI system.
+2023). One approach to reduce non-alignmnet issues with AI is to
+introduce some function for human feedback and oversight to automated
+systems. Human involvement can take the form of interventions from the
+AI-developer themselves as well as from the end-users of the AI system.
+Such feedback is not only provided by humans, computer can give feedback
+to computers too. Less powerful AIs are taught by more poweful and
+aligned AIs, which understand the world better, to follow human values:
+for example META used LLAMA 2 for aligning LLAMA 3.
 
 There are many examples of combination of AI and human, also known as
 *“human-in-the-loop”,* used for fields as diverse as training computer
 vision algorithms for self-driving cars and detection of disinformation
-in social media posts (Bonet-Jover et al., 2023; Wu et al., 2023).
-
-Also known as Human-based computation or human-aided artificial
-intelligence (Mühlhoff, 2019; Shahaf & Amir, 2007)
-
--   Stanford Institute for Human-Centered Artificial Intelligence Ge
-    Wang (2019)
+in social media posts (Bonet-Jover et al., 2023; Wu et al., 2023). Also
+known as Human-based computation or Human-aided Artificial Intelligence
+(Mühlhoff, 2019; Shahaf & Amir, 2007). (Ge Wang, 2019) from the Stanford
+Institute for Human-Centered Artificial Intelligence, describes core
+design principles for building interactive AI systems that augment
+rather than replace people: value human agency, granularity of control,
+transparent interfaces.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
-
-Oura Ring launched an AI-advisor to help explain the health data
-recorded by its device Team (2025).
 
 ### AI as the *Idiot Savant*
 
@@ -952,10 +977,10 @@ models trained of massive amounts of data is important because they are
 disciplines using languages, instead of the reductionist way we as human
 think because of our limitations (CapInstitute, 2023).
 
-Hinton received a Nobe prize for modeling how the brain works and coming
-up with the idea of predicting the next word in a sequence, already in
-1986, which later became the basis for large language models CBS
-Mornings (2025)
+Hinton received a Nobel prize for modeling how the brain works and
+coming up with the idea of predicting the next word in a sequence,
+already in 1986, which later became the basis for large language models
+CBS Mornings (2025)
 
 Standford “thorough account of the opportunities and risks of foundation
 models” (Bommasani et al., 2021).
@@ -1046,62 +1071,62 @@ Transparency**.*
 
 ### Being Responsible, Explainable, and Safe: Legislation Adapts and Sets Boundaries for AI
 
-The problems of opaqueness creates the field of explainable AI.
+On March 13 2024, the European Parliament (with 523 votes for and 46
+against) the EU AI Law, taking a risk-based approach to a regulatory
+framework, which aims to support innovation, while safeguarding
+democracy and environmental sustainability (Lomas, 2024). Specifically,
+the EU Artificial Intelligence Act (Regulation EU 2024/1689) establishes
+the first comprehensive legal framework for AI in the world, aiming to
+harmonize rules to ensure that AI systems are safe, human-centric, and
+rights-respecting; the act defines a tiered system that bans
+unacceptable risks and regulates high-risk uses, imposing transparency
+duties on developers of AI systems, for example near-realtime (hourly)
+CO2 emissions reports from the AI models (European Union, 2024). As
+AI-based solutions permeate every aspect of human life, legislation is
+starting to catch up. In order to help international jurisdictions
+tailor which incidents and hazards they track and enable
+interoperability, the Organization for Economic Cooperation and
+Development (OECD) later also defined 2 types of AI risk, “AI
+incident” - AI system causes real harm; “AI hazard” - potential‐harm
+scenario, both which can be raised to “serious” variants (OECD, 2024).
 
 *“As humans we tend to fear what we don’t understand”* is a common
 sentiment which has been confirmed psychology (Allport, 1979). Current
 AI-models are opaque ’*black boxes’*, where it’s difficult to pin-point
 exactly why a certain decision was made or how a certain expression was
 reached, not unlike inside the human brain. This line of thought leads
-me to the idea of ***AI psychologists,*** who might figure out the
-***thought patterns*** inside the model. Research in AI-explainability
+me to the idea of ***AI Psychologists,*** who might figure out the
+***Thought Patterns*** inside the model. Research in AI-explainability
 (XAI in literature) is on the lookout for ways to create more
-***transparency and credibility*** in AI systems, which could lead to
+***Transparency and Credibility*** in AI systems, which could lead to
 building trust in AI systems and would form the foundations for ***AI
-acceptance***.
+Acceptance***.
 
-Red-teaming means pushing the limits of LLMs, trying to get them to
-produce outputs that are racist, false, or otherwise unhelpful.
-
-There’s an increasing number of tools for LLM evaluation:
-
--   “Evaluate and Track LLM Applications, Explainability for Neural
-    Networks” (Leino et al., 2018; TruEra, 2023)
-
--   “evaluate your Retrieval Augmented Generation (RAG) pipelines,
-    Metrics-Driven Development” Ragas (2023)
-
--   LangSmith “developer platform for every step of the LLM-powered
-    application lifecycle, whether you’re building with LangChain or
-    not. Debug, collaborate, test, and monitor your LLM applications.”
-    LangChain (2024)
-
--   Tristan Greene (2022): when the quality of AI responses becomes good
-    enough, people begin to get confused.
-
-Bowman (2023) says steering Large Language Models is unreliable; even
+The problems of opaqueness creates the field of *Explainable AI*.
+(Bowman, 2023) says steering Large Language Models is unreliable; even
 experts don’t fully understand the inner workings of the models. Work
-towards improving both ***AI steerability*** and ***AI alignment***
-(doing what humans expect) is ongoing. Liang et al. (2022) believes
-there’s early evidence it’s possible to assess the quality of LLM output
-transparently. Cabitza et al. (2023) proposes a framework for quality
-criteria and explainability of AI-expressions. Khosravi et al. (2022)
-proposes a framework for AI explainability, focused squarely on
-education. Holzinger et al. (2021) highlights possible approaches to
-implementing transparency and explainability in AI models. While AI
-outperforms humans on many tasks, humans are experts in multi-modal
-thinking, bridging diverse fields.
+towards improving both ***AI steerability*** and ***AI Alignment***
+(doing what humans expect) is ongoing. (Holbrook, 2018) argues that in
+order to reduce errors which only humans can detect, and provide a way
+to stop automation from going in the wrong direction, it’s important to
+focus on making users feel in control of the technology. There’s an
+increasing number of tools for LLM evaluation. “Evaluate and Track LLM
+Applications, Explainability for Neural Networks” (Leino et al., 2018;
+TruEra, 2023). (Liang et al., 2022) believes there’s early evidence it’s
+possible to assess the quality of LLM output transparently. (Cabitza et
+al., 2023) proposes a framework for explainability of AI-expressions to
+guide XAI research, focusing on the quality of formal soundness and
+cognitive clarity. (Khosravi et al., 2022) proposes a framework for AI
+explainability, focused squarely on education, which brings in
+communication with stakeholders and human-centered interface design
+(Holzinger et al., 2021) highlights possible approaches to implementing
+transparency and explainability in AI models, introducing the concept of
+*multimodal causability*, where an AI system uses pictures, text, and
+charts all at once, which could help the human user see cause and effect
+across different kinds of data.
 
--   Bigger models aren’t necessarily better; rather models need human
-    feedback to improve the quality of responses Ouyang et al. (2022)
-
--   The user experience (UX) of AI is a topic under active development
-    by all the largest online platforms. The general public is familiar
-    with the most famous AI helpers, ChatGPT, Apple’s Siri, Amazon’s
-    Alexa, Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie,
-    Xiaomi’s Xiao Ai, and many others. For general, everyday tasks, such
-    as asking factual questions, controlling home devices, playing
-    media, making orders, and navigating the smart city.
+-   X. Xu & Sar (2018) “Do We See Machines TheSame Way As We See Humans?
+    A Survey On Mind Perception Of Machines AndHuman Beings”
 
 The AI Credibility Heuristic: A Systematic Model explains how… similar
 to Daniel Kahneman’s book “Thinking, Fast and Slow”.
@@ -1112,23 +1137,8 @@ to Daniel Kahneman’s book “Thinking, Fast and Slow”.
 
 -   Slack (2021) bot design process
 
--   Donghee Shin (2020) “user experience and usability of algorithms by
-    focusing on users’ cognitive process to understand how
-    qualities/features are received and transformed into experiences and
-    interaction”
-
 -   Zerilli et al. (2022) focuses on human factors and ergonomics and
     argues that transparency should be task-specific.
-
--   Holbrook (2018): To reduce errors which only humans can detect, and
-    provide a way to stop automation from going in the wrong direction,
-    it’s important to focus on making users feel in control of the
-    technology.
-
--   Zhang et al. (2023) found humans are more likely to trust an AI
-    teammate if they are not deceived by it’s identity. It’s better for
-    collaboration to make it clear, one is talking to a machine. One
-    step towards trust is the explainability of AI-systems.
 
 Personal AI Assistants to date have we created by large tech companies.
 **Open-Source AI-models open up the avenue for smaller companies and
@@ -1148,55 +1158,41 @@ could catch up, this is unlikely to happen. There are several problems
 with the current generation of LLMs from OpenAI, Microsoft, Google,
 Nvidia, and others.
 
-Anthropic responsible *scaling policy* (*Anthropic’s Responsible Scaling
-Policy*, 2023)
-
-METR – Model Evaluation & Threat Research incubated in the Alignment
+(Christiano, 2023) believes there are plenty of ways for bad outcomes
+(existential risk) even without extinction risk. In order to mitigate
+these risks (and perhaps to appease the public), all the major AI labs
+have taken steps to be more safe. Anthropic, which was founded by former
+OpenAI employees, after leaving the OpenAI over this very issue, led the
+movement by announcing responsible *scaling policy* (*Anthropic’s
+Responsible Scaling Policy*, 2023). OpenAI itself announced a dedicated
+“Superalignment” team, co-led by Ilya Sutskever and Jan Leike; they made
+a specific promise to commit 20% of its compute budget to build an AI
+system in the next 4 years, that can itself research and refine
+alignment methods, effectively solving the alignment problem for
+superintelligent AI (which is considered the highest risk) (Jan Leike &
+Ilya Sutskever, 2023). OpenAI has previously admitted, it does not yet
+fully understand how the internals of an neural network work; they are
+developing tools to represent neural network concepts for humans (Gao et
+al., 2024; OpenAI, 2024a). Outside of the major labs, several
+intependent AI safety organizations have also been launched, for example
+METR, the Model Evaluation & Threat Research incubated in the Alignment
 Research Center (*METR*, 2023).
 
-(Christiano, 2023) believes there are plenty of ways for bad outcomes
-(existential risk) even without extinction risk.
+A popular approach to AI safety is *red-teaming*, which means pushing
+the limits of LLMs, trying to get them to produce outputs that are
+racist, false, or otherwise unhelpful. Mapping the emerging abilities of
+new models is a job in itself.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 In 2024, OpenAI released its “Model Spec” to define clearly their
 approach to AI safety with the stated intention to provide clear
-guidelines for the RLHF approach. OpenAI (2024c)
-
--   OpenAI does not yet understand how the internal of an neural network
-    work; they are developing tools to represent NNs concepts for humans
-    (Gao et al., 2024; OpenAI, 2024a).
-
--   AI co-founder launches AI Safety Superalignment (Jan Leike & Ilya
-    Sutskever, 2023).
-
--   OECD defines AI incident terms (OECD, 2024).
-
--   Foundation data-sets such as LAION-5B (Romain Beaumont, 2022;
-    Schuhmann et al., 2022)
-
--   Knowing Machines
-
-*AI acceptance* is incumbent on traits that are increasingly human-like
-and would make a human be acceptable: credibility, trustworthiness,
-reliability, dependability, integrity, character, etc.
-
-As AI-based solutions permeate every aspect of human life, legislation
-is starting to catch up. The EU Artificial Intelligence Act (Regulation
-EU 2024/1689) establishes the first comprehensive legal framework for AI
-in the world, aiming to harmonize rules to ensure that AI systems are
-safe, human-centric, and rights-respecting; the act defines a tiered
-system that bans unacceptable risks and regulates high-risk uses,
-imposing transparency duties on developers of AI systems, for example
-near-realtime (hourly) CO2 emissions reports from the AI models(European
-Union, 2024).
+guidelines for the RLHF approach (OpenAI, 2024c).
 
 ### Evolution of Models and Emerging Abilities
 
-Mapping the emerging abilities of new models.
-
-The debate between Open Source v.s. Closed-Source AI is ongoing.
-Historically open-source has been useful for finding bugs in code as
+The debate between open source vs closed-source AI is ongoing.
+Historically, open-source has been useful for finding bugs in code as
 more pairs of eyes are looking at the code and someone may see a problem
 the programmers have not noticed. Proponents of closed-source
 development however worry about the dangers or releasing such powerful
@@ -1206,7 +1202,13 @@ closed-sourced or open-sourced development will be lead to more AI
 safety is one of the large debates in the AI industry. In any case, open
 or closed-sourced, real-world usage of LLMs may demonstrate the
 limitations and edge-cases of AI. Hackathons such as (Pete, 2023) help
-come up with new use-cases and disprove some potential ideas.
+come up with new use-cases and disprove some potential ideas. The
+strongest proponent of Open Source AI, META, open-sourced the largest
+language model (70 billion parameters) which with performance rivaling
+several of the proprietary models; because META’s core business is not
+AI, rather it would benefit from having access to cheaper, better AI
+across the board, open-sourcing may be their best strategy (Dwarkesh
+Patel, 2024).
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
@@ -1226,35 +1228,30 @@ publication) listing AI model performance most recent entry April 16,
 
 -   Scaling laws of LLMs Kaplan et al. (2020)
 
--   English is over-represented in current models so Finnish “Silo AI’s
-    New Release Viking 7B, Bridges the Gap for Low-Resource
-    Languages” (2024) focuses on Nordic languages.
+-   Knowing Machines, complex decision-making systems. Apple’s
+    Foundation Language Models (AFM) is split into a smaller on-device
+    model and a server-side model. Dang (2024)
 
-Metacognition – Claude 3 is the first model capable of it?, like the
-zero waste workshop training guidebook.
-
--   complex decision-making systems. Apple’s Foundation Language Models
-    (AFM) is split into a smaller on-device model and a server-side
-    model. Dang (2024)
-
-Metacognition defined as *knowing about knowing* (Metcalfe & Shimamura,
-1994) or “*keeping track of your own learning”* (Zero Waste Europe et
-al., 2022).
-
--   Dwarkesh Patel (2024) META open-sourced the largest language model
-    (70 billion parameters) which with performance rivaling several of
-    the proprietary models.
-
--   Image-generation is now fast it’s possible to create images in
-    real-time while the user is typing Dwarkesh Patel (2024)
-
--   Measuring Massive Multitask Language Understanding (MMLU) Hendrycks
-    et al. (2020).
+Metacognition is defined as *knowing about knowing* (Metcalfe &
+Shimamura, 1994) or “*keeping track of your own learning”* (Zero Waste
+Europe et al., 2022). Anthropic’s Claude 3 was the first model capable
+of Metacognition, promoting it as a feature.
 
 Another important metric is Retrieval Augmented Generation (RAG)
 performance. Generative AI applications retrieve data from unstructured
 external sources in order to augment LLMs existing knowledge with
-current information (Leng et al., Mon, 08/12/2024 - 19:46).
+current information (Leng et al., Mon, 08/12/2024 - 19:46). (Ragas,
+2023) suggests evaluating one’s RAG pipelines enables *Metrics-Driven
+Development*. Likewise, LangSmith, the developer platform for
+LLM-powered apps (which makes extensive use of RAG), dissects the LLM
+app lifecycle into a pipeline: debug, collaborate, test, and monitor
+(LangChain, 2024).
+
+-   Measuring Massive Multitask Language Understanding (MMLU) Hendrycks
+    et al. (2020).
+
+-   “Generating structured data from unstructured inputs is one of the
+    core use cases for AI” (Pokrass, 2024).
 
 ![](ai_files/figure-markdown_strict/cell-6-output-1.png)
 
@@ -1278,6 +1275,15 @@ human worker.
 
 ### Human Expectations Take Time to Change
 
+*AI acceptance* is incumbent on traits that are increasingly human-like
+and would make a human be acceptable: credibility, trustworthiness,
+reliability, dependability, integrity, character, etc. Should AIs be
+required to disclose they are AIs? (Zhang et al., 2023) found humans are
+more likely to trust an AI teammate if they are not deceived by it’s
+identity. It’s better for collaboration to make it clear, one is talking
+to a machine. One step towards trust is the explainability of
+AI-systems.
+
 Humans still need some time to adjust their expectations of *what’s
 possible* using conversational AI interfaces. (Bailey, 2023) believes
 people are used to *search engines* and it will take a little bit time
@@ -1292,6 +1298,14 @@ necessarily expect computers to behave like another human, there’s
 requiring the user interfaces to provide context and teaching humans how
 to interact with their AI coworkers(Rauch, 2024). Indeed, ChatGPT is
 already using buttons to explain context (Feifei Liu 刘菲菲, n.d.).
+
+Speaking in the mother language of the users is a way to gain trust.
+English is still over-represented in current models so some local models
+focus on better understanding local context, such as the Finnish (“Silo
+AI’s New Release Viking 7B, Bridges the Gap for Low-Resource Languages,”
+2024) focuses on Nordic languages. However, as time progresses, large,
+general-purpose LLMs may catch up and integrate all this knowledge - or
+even potentially being taught by the local models.
 
 ### Affective Computing: Towards Friendly Machines
 
@@ -1386,10 +1400,6 @@ by a significant margin; however telling users the response is
 AI-generated reduces the perceived empathy (Ayers et al., 2023; Nielsen,
 2024c; Yin et al., 2024).
 
-(Liu & Wei, 2021) suggests higher *algorithmic transparency may inhibit
-anthropomorphism*; people are less likely to attribute humanness to an
-AI companion if they understand how the system works.
-
 On the output side, (Lv et al., 2022) studies the effect of *cuteness*
 of AI apps on users and found high perceived cuteness correlated with
 higher willingness to use the apps, especially for emotional tasks.
@@ -1397,15 +1407,9 @@ higher willingness to use the apps, especially for emotional tasks.
 ### Conversation: A Magical Starting Point of a Relationship
 
 High quality conversations are somewhat magical in that they can
-establish trust and build rapport which humans.
-
-*Affective Design* emerged from affective computing, with a focus on
-understanding user emotions to design UI/UX which elicits specific
-emotional responses (Reynolds, 2001).
-
-(Celino & Re Calegari, 2020) found in testing chatbots for survey
-interfaces that “\[c\]onversational survey lead to an improved response
-data quality.”
+establish trust and build rapport which humans. (Celino & Re Calegari,
+2020) found in testing chatbots for survey interfaces that
+“\[c\]onversational survey lead to an improved response data quality.”
 
 There are noticeable differences in the quality of the LLM output, which
 increases with model size. (Levesque et al., 2012) developed the
@@ -1449,18 +1453,21 @@ by a chatbot buddy.
 ChatGPT makes it possible to *evaluate AI models* just by talking,
 i.e. having conversations with the machine and judging the output with
 some sort of structured content analysis tools. Cahan & Treutlein (2023)
-have conversations about science with AI. Pavlik (2023) and Brent A.
-Anders (2022/2023) report on AI in education. (Kecht et al., 2023)\]
-suggests AI is even capable of learning business processes.
+have conversations about science with AI. Brent A. Anders (2022/2023)
+report on AI in education. Just as humans, AIs are continuously
+learning. (Ramchurn et al., 2021) discusses positive feedback loops in
+continually learning AI systems which adapt to human needs. (Kecht et
+al., 2023) suggests AI is even capable of learning business processes.
+
+### Multi-Modality: Natural Interactions with AI Systems, Agents and the Intention Economy
+
+While AI outperforms humans on many tasks, humans are experts in
+multi-modal thinking, bridging diverse fields. Humans are multi-modal
+creatures by birth. To varied ability, we speak, see, listen using our
+biological bodies. AIs are becoming multi-modal by design to be able to
+match all the human modes of communication - increasing their humanity.
 
 -   Fu et al. (2022) Learning towards conversational AI: Survey
-
-### Multi-Modality: Natural Interactions with AI Systems
-
-Humans are multi-modal creatures by birth. To varied ability, we speak,
-see, listen using our biological bodies. AIs are becoming multi-modal by
-design to be able to match all the human modes of communication -
-increasing their humanity.
 
 By early 2024, widely available LLMs front-ends such as Gemini, Claude
 and ChatGPT have all released basic features for multi-modal
@@ -1487,30 +1494,30 @@ from text to images. Multimodal prompting however requires larger
 context windows, as of writing, limited to 1 million tokens in a private
 version allows combining text and images in the question directed to the
 AI, used to reason in examples such as a 44-minute Buster Keaton silent
-film or Apollo 11 launch transcript (404 pages) Google (2024).
+film or Apollo 11 launch transcript (404 pages) (Google, 2024).
 
 Literature delves into human-AI interactions on almost human-like level
 discussing what kind of roles can the AIs take. (Seeber et al., 2020)
 proposes a future research agenda for regarding ***AI assistants as
 teammates*** rather than just tools and the implications of such mindset
-shift.
+shift. From assistant -\> teammate -\> companion -\> friend The best
+help for anxiety is a friend. AIs are able to assume different roles
+based on user requirements and usage context. This makes AI-generated
+content flexible and malleable.
 
-From Assistance to Collaboration
-
-It’s not only what role the AI takes but how that affects the human. As
-humans have ample experience relating to other humans and as such the
-approach towards an assistants vs a teammate will vary. One researcher
-in this field Karpus et al. (2021) is concerned with humans treating AI
-badly and coins the term **“*algorithm exploitation”****.*
-
--   From assistant -\> teammate -\> companion -\> friend The best help
-    for anxiety is a friend. AIs are able to assume different roles
-    based on user requirements and usage context. This makes
-    AI-generated content flexible and malleable.
-
-Just as humans, AIs are continuously learning. Ramchurn et al. (2021)
-discusses positive feedback loops in continually learning AI systems
-which adapt to human needs.
+The path from Assistance to Collaboration requires another level of
+trust. It’s not only what role the AI takes but how that affects the
+human. As humans have ample experience relating to other humans and as
+such the approach towards an assistants vs a teammate will vary. While
+(Lenharo, 2023) experimental study reports AI productivity gains, with
+DALL-E and ChatGPT being qualitatively better than former automation
+systems, we might still be 1-3 years away from systems that qualify as
+team-mates. Once AI reaches that level, would it change how do humans
+treat it? Not because the AI might be hurt, but because how it affects
+the psyche of the user: this is an area which needs much more attention.
+One researcher in this field Karpus et al. (2021) is concerned with
+humans treating AI badly and coins the term \*\*“\*algorithm
+exploitation”\*\*.
 
 *Context of Use,* Where is the AI used? (Schoonderwoerd et al., 2021)
 focuses on human-centered design of AI-apps and multi-modal information
@@ -1520,28 +1527,30 @@ how feasible is it to have control over the domain? Calisto et al.
 (2021) discusses **multi-modal AI-assistant** for breast cancer
 classification.
 
-### Agents and the Intention Economy
+If we see the AI as being in human service. (David Johnston, 2023)
+proposes ***Smart Agents***, “general purpose AI that acts according to
+the goals of an individual human”. AI agents can enable ***Intention
+Economy*** where one simply describes one’s needs and a complex
+orchestration of services ensues, managed by the the AI, in order to
+fulfill human needs Searls (2012). AI assistants provide help at scale
+with little to no human intervention in a variety of fields from finance
+to healthcare to logistics to customer support. OpenAI’s “A practical
+guide to building agents” defines and AI agents as “Agents are systems
+that independently accomplish tasks on your behalf.” and details
+step-by-step how to build one (OpenAI, 2025).
 
--   As models get smarter, there’s less and less need to build workflows
-    (chains of thought) manually, as they end up restricting the model
-    instead of improving the output; the one use case would be to use a
-    cheaper model with less intelligence and more guardrails set in code
-    Sengottuvelu (2025); Latent Space (2025)
-
--   AI agents enable workflow automation, with reasoning capability, and
-    taking actions across different tools, achieving the user’s original
-    *intent*; what’s left for the user to do is to say what they want to
-    achieve.
-
--   OpenAI’s “A practical guide to building agents” defins and AI agents
-    as “Agents are systems that independently accomplish tasks on your
-    behalf.” and details step-by-step how to build one.
-
--   AI can debug problem automatically. Apple uses data from bug reports
-    to train AI models for improving their software Saini (2025)
-
--   It’s increasingly possible to generate entire apps from a prompt,
-    using tools such as Bolt.new Fanelli (2024)
+AI agents enable workflow automation, with reasoning capability, and
+taking actions across different tools, achieving the user’s original
+*intent*; what’s left for the user to do is to say what they want to
+achieve. As models get smarter, there’s less and less need to build
+workflows (chains of thought) manually, as they end up restricting the
+model instead of improving the output; the one use case would be to use
+a cheaper model with less intelligence and more guardrails set in code
+(Latent Space, 2025; Sengottuvelu, 2025). In software development, AI
+can already debug problems automatically. Apple uses data from bug
+reports to train AI models for improving their software (Saini, 2025).
+And it’s increasingly possible to generate entire apps from a prompt,
+using tools such as Bolt.new (Fanelli, 2024).
 
 ### Mediated Experiences Set User Expectations
 
@@ -1566,27 +1575,34 @@ voice, so they could be visible for the viewers. Some include KITT
 
 ![](ai_files/figure-markdown_strict/cell-7-output-1.png)
 
-### Roleplay Fits Computers Into Social Contexts
+### Roleplay Fits Computers Into Social Contexts: AI Friends and Anthropomorphism
 
-Should AIs be required to disclose they are AIs?
+*Affective Design* emerged from affective computing, with a focus on
+understanding user emotions to design UI/UX which elicits specific
+emotional responses (Reynolds, 2001). Calling a machine a friend is a
+proposal bound to turn heads. But if we take a step back and think about
+how children have been playing with toys since before we have records of
+history. It’s very common for children to imagine stories and characters
+in play - it’s a way to develop one’s imagination ***learn through
+roleplay***. A child might have toys with human names and an imaginary
+friend and it all seems very normal. Indeed, if a child doesn’t like to
+play with toys, we might think something is wrong. Likewise, inanimate
+objects with human form have had a role to play for adults too.
+Anthropomorphic paddle dolls have been found from Egyptian tombs dated
+2000 years B.C. (“Paddle Doll Middle Kingdom,” 2023): we don’t know if
+these dolls were for religious purposes, for play, or for something
+else, yet their burial with the body underlines their importance.
 
-AI Friends and Roleplay (Anthropomorphic)
-
-Calling a machine a friend is a proposal bound to turn heads. But if we
-take a step back and think about how children have been playing with
-toys since before we have records of history. It’s very common for
-children to imagine stories and characters in play - it’s a way to
-develop one’s imagination ***learn through roleplay***. A child might
-have toys with human names and an imaginary friend and it all seems very
-normal. Indeed, if a child doesn’t like to play with toys, we might
-think something is wrong.
-
-Likewise, inanimate objects with human form have had a role to play for
-adults too. Anthropomorphic paddle dolls have been found from Egyptian
-tombs dated 2000 years B.C. “Paddle Doll Middle Kingdom” (2023): We
-don’t know if these dolls were for religious purposes, for play, or for
-something else, yet their burial with the body underlines their
-importance.
+Research on anthropomorphism suggests that giving an AI assistant
+stronger human-like cues (high-anthropomorphism) rather than weaker ones
+(low-anthropomorphism) leads users to view it more favorably, and this
+effect operates through a shorter perceived psychological distance;yet,
+even though many studies confirm the benefits of anthropomorphism, the
+precise psychological pathway behind those benefits has rarely been
+dissected in depth (X. Li & Sung, 2021). Nonetheless, people are less
+likely to attribute humanness to an AI companion if they understand how
+the system works, thus higher *algorithmic transparency may inhibit
+anthropomorphism* (Liu & Wei, 2021).
 
 Coming back closer to our own time, Barbie dolls are popular since their
 release in 1959 till today. Throughout the years, the doll would follow
@@ -1603,22 +1619,20 @@ we still playing?
 
 Should the AI play a human, animal, or robot? Anthropomorphism can have
 its drawbacks; humans have certain biases and preconceptions that can
-affect human-computer interactions (Pilacinski et al., 2023) reports
-humans were less likely to collaborate with red-eyed robots.
+affect human-computer interactions. For example, somewhat curiously,
+(Pilacinski et al., 2023) reports humans were less likely to collaborate
+with red-eyed robots.
 
 The AI startups like Inworld and Character.AI have raised large rounds
 of funding to create characters, which can be plugged in into online
 worlds, and more importantly, remember key facts about the player, such
 as their likes and dislikes, to generate more natural-sounding dialogues
-Wiggers (2023)
+(Wiggers, 2023).
 
--   Lenharo (2023) experimental study reports AI productivity gains,
-    DALL-E and ChatGPT are qualitatively better than former automation
-    systems.
-
-**Human-like**
-
-Is anthropomorphism necessary? (Savings literature says it is)
+Is anthropomorphism, being human-like necessary? (Savings literature
+says it is) Or does being another animal also work? Animal-like: Some
+have an avatar, some not. I’ve created a framework for categorization.
+Human-like or not… etc
 
 As AIs became more expressive and able to to **roleplay**, we can begin
 discussing some human-centric concepts and how people relate to other
@@ -1634,49 +1648,30 @@ activities, powered by artificial intelligence models and algorithms.
 
 Humans (want to) see machines as human \[ADD CITATION\]
 
-If we see the AI as being in human service. David Johnston (2023)
-proposes ***Smart Agents***, “general purpose AI that acts according to
-the goals of an individual human”. AI agents can enable ***Intention
-Economy*** where one simply describes one’s needs and a complex
-orchestration of services ensues, managed by the the AI, in order to
-fulfill human needs Searls (2012). AI assistants provide help at scale
-with little to no human intervention in a variety of fields from finance
-to healthcare to logistics to customer support.
+-   There is also the question of who takes responsibility for the
+    actions take by the AI agent. “Organization research suggests that
+    acting through human agents (i.e., the problem of indirect agency)
+    can undermine ethical forecasting such that actors believe they are
+    acting ethically, yet a) show less benevolence for the recipients of
+    their power, b) receive less blame for ethical lapses, and c)
+    anticipate less retribution for unethical behavior.” (Gratch & Fast,
+    2022)
 
-There is also the question of who takes responsibility for the actions
-take by the AI agent. “Organization research suggests that acting
-through human agents (i.e., the problem of indirect agency) can
-undermine ethical forecasting such that actors believe they are acting
-ethically, yet a) show less benevolence for the recipients of their
-power, b) receive less blame for ethical lapses, and c) anticipate less
-retribution for unethical behavior.” Gratch & Fast (2022)
+-   Erik Brynjolfsson (2022) “The Turing Trap: The Promise & Peril of
+    Human-Like Artificial Intelligence”
 
--   Anthropomorphism literature X. Li & Sung (2021)
-    “high-anthropomorphism (vs. low-anthropomorphism) condition,
-    participants had more positive attitudes toward the AI assistant,
-    and the effect was mediated by psychological distance. Though
-    several studies have demonstrated the effect of anthropomorphism,
-    few have probed the underlying mechanism of anthropomorphism
-    thoroughly”
--   Erik Brynjolfsson (2022) “The Turing Trap: The Promise & Peril
-    ofHuman-Like Artificial Intelligence”
--   X. Xu & Sar (2018) “Do We See Machines TheSame Way As We See Humans?
-    A Survey On Mind Perception Of Machines AndHuman Beings”
 -   Martínez-Plumed et al. (2021) envisions the future of AI “Futures of
     artificial intelligence through technology readiness levels”
+
 -   The number of AI-powered assistants is too large to list here. I’ve
     chosen a few select examples in the table below.
 
-**Animal-like: Some have an avatar, some not. I’ve created a framework
-for categorization. Human-like or not… etc**
-
-**Machine-like**
-
-The Oxford Internet Institute defines AI simply as ***“computer
-programming that learns and adapts”*** Google & The Oxford Internet
-Institute (2022). Google started using AI in 2001, when a simple machine
-learning model improved spelling mistakes while searching; now in 2023
-most of Google’s products are are based on AI Google (2022). Throughout
+Non-Anthropomorphic, machine-like AIs have been with us for a while. The
+Oxford Internet Institute defines AI simply as ***“computer programming
+that learns and adapts”*** (Google & The Oxford Internet Institute,
+2022). Google started using AI in 2001, when a simple machine learning
+model improved spelling mistakes while searching; now in 2023 most of
+Google’s products are are based on AI (Google, 2022). Throughout
 Google’s services, AI is hidden and calls no attention itself. It’s
 simply the complex system working behind the scenes to delivery a result
 in a barebones interface.
@@ -1705,25 +1700,24 @@ remained the same. (Haugeland et al., 2022) discusses ***hedonic user
 experience*** in chatbots and (Steph Hay, 2017) explains the
 relationship between emotions and financial AI.
 
--   Eugenia Kuyda (2023) Conversational AI - Replika
-
--   Greylock (2022) Natural language chatbots such as ChatGPT
+Conversational chatbot Replika was launched in 2017 and in 2024 was used
+by 30 million people; the focus is on empathetic dialogue to support
+mental well being, sort of like a friend, a digital companion, (or even
+a romantic partner, in paid versions of the app), and includes an
+animated avatar interface (Eugenia Kuyda, 2023). Replika can ask probing
+questions, tell jokes, and learning about your personality and
+preferences to generate more natural-sounding conversations.
 
 -   Nathan Benaich & Ian Hogarth (2022) State of AI Report
 
--   Qorus (2023) Digital banking revolution
+Before AI, chatbots struggled with evolving human language,
+understanding the complexity of context, irregular grammar, slang, etc
+(Lower, 2017).
 
--   Lower (2017) “Chatbots: Too Good to Be True? (They Are, Here’sWhy).”
-
--   Isabella Ghassemi Smith (2019) Interview Daniel Baeriswyl Magic
-    Carpet
-
--   Josephine Wäktare Heintz (n.d.) Cleo copywriter
-
--   Smaller startups have created digital companions such as Replika
-    (fig. 8), which aims to become your friend, by asking probing
-    questions, telling jokes, and learning about your personality and
-    preferences - to generate more natural-sounding conversations.
+(Isabella Ghassemi Smith, 2019) early performance metrics of AI-driven
+features across financial markets show that AI outperforms traditional
+quant strategies, which will lead to wider adoption of autonomously
+generated investment signals.
 
 ## Interfaces for Human-Computer Interaction
 
@@ -1788,30 +1782,30 @@ interfaces”* mainly drawing from the example of how his Netflix
 interface looks different from that of his sister’s because of their
 distinct usage patterns.
 
--   Meanwhile (Fletcher, 2023) and (Joe Blair, 2024) are worried about
-    UIs becoming average: more and more similar to the lowest common
-    denominator. We can generate better UIs that are based on user data
-    and would be truly personalized.
-
-Software itself can increasingly be generated by AI systems
-(i.e. machines making machines). As machines become more capable,
-machines will eventually be capable of producing machines. Already a
-decade ago in 2014, the eminent journal *Information Sciences* decided
-to dedicate a special section to AI-generated software to call attention
-to this tectonic shift in software development (Reformat, 2014). Replit,
-a startup known for allowing user build apps in the web browser,
-released Openv0, a framework of AI-generated UI components. *“Components
-are the foundation upon which user interfaces (UI) are built, and
-generative AI is unlocking component creation for front-end developers,
-transforming a once arduous process, and aiding them in swiftly
-transitioning from idea to working components”* (Replit, 2023). Vercel
-introduced an open-source prototype UI-generator called V0 which used
-large language models (LLMs) to create code for web pages based on text
-prompts (Vercel, 2023). Other similar tools quickly following including
-Galileo AI, Uizard AutoDesigner and Visily (*Who Benefits the Most from
-Generative UI*, 2024). NVIDIA founder Jensen Huang makes the idea
-exceedingly clear, saying *“Everyone is a programmer. Now, you just have
-to say something to the computer”* (Leswing, 2023).
+While (Fletcher, 2023) and (Joe Blair, 2024) are worried about UIs
+becoming average: more and more similar to the lowest common
+denominator. Yet, when we can generate better UIs (UI orchestration,
+crafting “systems of intent”, as (Nielsen, 2025) calls it) that are
+based on user data and would be truly personalized. Software itself can
+increasingly be generated by AI systems (i.e. machines making machines).
+As machines become more capable, machines will eventually be capable of
+producing machines. Already a decade ago in 2014, the eminent journal
+*Information Sciences* decided to dedicate a special section to
+AI-generated software to call attention to this tectonic shift in
+software development (Reformat, 2014). Replit, a startup known for
+allowing user build apps in the web browser, released Openv0, a
+framework of AI-generated UI components. *“Components are the foundation
+upon which user interfaces (UI) are built, and generative AI is
+unlocking component creation for front-end developers, transforming a
+once arduous process, and aiding them in swiftly transitioning from idea
+to working components”* (Replit, 2023). Vercel introduced an open-source
+prototype UI-generator called V0 which used large language models (LLMs)
+to create code for web pages based on text prompts (Vercel, 2023). Other
+similar tools quickly following including Galileo AI, Uizard
+AutoDesigner and Visily (*Who Benefits the Most from Generative UI*,
+2024). NVIDIA founder Jensen Huang makes the idea exceedingly clear,
+saying *“Everyone is a programmer. Now, you just have to say something
+to the computer”* (Leswing, 2023).
 
 The history of *intelligent interfaces* is long (Kobetz, 2023).
 (“Generative UI Design,” 2023) gives an overview of the history of
@@ -1870,8 +1864,6 @@ Many large corporations have released guidelines for Human-AI
 interaction. Mikael Eriksson Björling & Ahmed H. Ali (n.d.) Ericcson AI
 UX.
 
--   
-
 McKeough (2018) business consultancies have begun to recognize the
 importance of design to business. They advise their corporate clients to
 bring user experience design to the core of their business operations.
@@ -1887,37 +1879,49 @@ new generations are used to talking to computers.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
 
-There are also more philosophical approaches to ***Interface Studies:***
-David Hoang (2022), the head of product design at Webflow, suggests
-taking cues from art studies to ***isolate the core problem***: *“An art
+There are also more philosophical approaches to *Interface Studies*.
+(David Hoang, 2022), the head of product design at Webflow, suggests
+taking cues from art studies to *isolate the core problem*: *“An art
 study is any action done with the intention of learning about the
 subject you want to draw”*. As a former art student, Hoang looks at an
-interface as *“a piece of design is an artwork with function”*.
-
-Indeed, art can be a way to see new paths forward, practicing
-“*fictioning*” to deal with problematic legacies: “Review of the 2023
-Helsinki Biennial” (2023)
+interface as *“a piece of design is an artwork with function”*. Indeed,
+art can be a way to see new paths forward, practicing “*fictioning*” to
+deal with problematic legacies (“Review of the 2023 Helsinki Biennial,”
+2023).
 
 Usability sets the baseline but AI-interfaces are capable of more.
 
--   AI UX
+-   Tristan Greene (2022): when the quality of AI responses becomes good
+    enough, people begin to get confused.
 
--   Privacy UX Jarovsky (2022b)
+The user experience (UX) of AI is a topic under active development by
+all the largest online platforms. The general public is familiar with
+the most famous AI helpers, ChatGPT, Apple’s Siri, Amazon’s Alexa,
+Microsoft’s Cortana, Google’s Assistant, Alibaba’s Genie, Xiaomi’s Xiao
+Ai, and many others. For general, everyday tasks, such as asking factual
+questions, controlling home devices, playing media, making orders, and
+navigating the smart city.
 
--   AI UX dark patterns Jarovsky (2022a)
+-   AI UX dark patterns Jarovsky (2022)
 
 -   AI is usually a model that spits out a number between 0 and 1, a
     probability score or prediction. UX is what we do with this number.
 
--   Bailey (2023) believes people will increasingly use AI capabilities
-    through UIs that are specific to a task rather than generalist
-    interfaces like ChatGPT.
+Design starts with understanding human psychology. (Donghee Shin, 2020)
+looks at user experience through the lens of *usability of algorithms* -
+focusing on users’ cognitive process allows one appreciate how product
+features are received by the brain and transformed into experiences by
+interacting with the algorithm.
+
+(Bailey, 2023) believes people will increasingly use AI capabilities
+through UIs that are specific to a task rather than generalist
+interfaces like ChatGPT.
 
 How do the tenets of user experience (UX) apply to AI?
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
 
-Gupta (2023) proposes 3 simple goals for AI:
+(Gupta, 2023) proposes 3 simple goals for AI:
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
 
@@ -1938,7 +1942,7 @@ that is worth 10 Microsofts”* Lohr (2004). Gates updated his ideas in
 
 As late as in 2017, scientists were trying to create a program with
 enough *natural-language understanding* to extract basic facts from
-scientific papers Stockton (2017)
+scientific papers (Stockton, 2017).
 
 Might we try again?
 
@@ -1951,12 +1955,11 @@ Clippy was right?”
 -   Life-like speaking faces from Microsoft Research turn a single image
     and voice clip into a life-like representation (S. Xu et al., 2024).
 
-Many researchers have discussed the user experience (UX) of AI to
-provide ***usability guidelines***.
-
-Microsoft provides guidelines for Human-AI interaction (T. Li et al.
-(2022); Amershi et al. (2019)) which provides useful heuristics
-categorized by context and time.
+Many researchers have discussed the user experience (UX) of AI (term
+such as AIUX and XAI are also used) to provide *usability guidelines*.
+Microsoft provides guidelines for Human-AI interaction (Amershi et al.,
+2019; T. Li et al., 2022) which provides useful heuristics categorized
+by context and time.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
 
@@ -2103,10 +2106,9 @@ AI is being use in high–Stakes Situations (Medical, Cars, Etc).
     answers from the AI better, and more empathetic, than answers from
     human doctors.
 
--   Daisy Wolf & Pande Vijay (2023) criticizes US healthcare’s slow
-    adoption of technology and predicts AI will help healthcare leapfrog
-    into a new era of productivity by acting more like a human
-    assistant.
+(Daisy Wolf & Pande Vijay, 2023) criticizes US healthcare’s slow
+adoption of technology and predicts AI will help healthcare leapfrog
+into a new era of productivity by acting more like a human assistant.
 
 -   Eliza Strickland (2023) Chat interface for medical communication
 
@@ -2252,13 +2254,6 @@ which the robo-advisor’s investment performance criterion dynamically
 adapts”*. The key improvement of *personalized financial advice* is
 understanding the user’s *dynamic risk profile*.
 
--   Newer literature notes robo-advisor related research is scattered
-    across disciplines (Zhu et al., 2024). – Athropomorphism: human-like
-    attributes in robo-advisors, such as conversational chatbots, can
-    affect adoption and risk preferences among customers. Studies show
-    that anthropomorphic robo-advisors increase customer trust and
-    reduce algorithm aversion.” **similar to my research**
-
 In the early days of robo-advisory, Germany and the United Kingdom led
 the way with the most robo-advisory usage in Europe (Cowan, 2018). While
 Germany had 30+ robot-advisors on the market in 2019, with a total of
@@ -2285,6 +2280,16 @@ aiming to provide personalized suggestions for making investments such
 as Betterment and Wealthfront are forced to upgrade their technology to
 keep up.
 
+While the financial AI companion apps in the US market are ahead
+globally, they are not yet using many of the user experience innovations
+that are prevalent on social media platforms targeted at Gen-Z and/or
+Millennials, possibly presenting an opportunity for cross-industry
+knowledge transfer, from businesses that are traditionally closer to the
+consumer - such as retailers. Financial AI companion apps have not yet
+grown to mainstream scale in Asia, Africa, Latin America, and Europe,
+being for the moment a largely US-based retail investor trend. The apps
+outside of the US are niche products in a nascent stage, however, they
+still provide relevant design directions or stories of what to avoid.
 The user interface and user experience (UI/UX) of consumer-focused
 investing apps in Europe has improved a over the past decade. The
 changing landscape is related to the earlier availability of better
@@ -2293,30 +2298,24 @@ generation of rudimentary investing apps and the lessons learned on how
 to automate the delivery of financial services while increasing user
 satisfaction.
 
+Robo-advisors compete with community investing such as hedge funds,
+mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do
+not have the type of social proof a community-based investment vehicle
+has. The question is, does the user trust the robot or a human.
+
 In India, research is being conducted on how AI advisors could assist
 with investors’ erratic behavior in stock market volatility situations,
 albeit without much success (Bhatia et al., 2020). India had more than
 2000 fintechs since 2015 (Migozzi et al., 2023).
 
--   Robo-advisors compete with community investing such as hedge funds,
-    mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor
-    do not have the type of social proof a community-based investment
-    vehicle has. The question is, does the user trust the robot or a
-    human.
+Newer literature notes robo-advisor related research is scattered across
+disciplines (Zhu et al., 2024).
 
--   While the financial AI companion apps in the US market are ahead
-    globally, they are not yet using many of the user experience
-    innovations that are prevalent on social media platforms targeted at
-    Generation Z and/or Millennials, possibly presenting an opportunity
-    for cross-industry knowledge transfer, from businesses that are
-    traditionally closer to the consumer - such as retailers. Financial
-    AI companion apps have not yet grown to mainstream scale in Asia,
-    Africa, Latin America, and Europe, being for the moment a largely
-    US-based retail investor trend. The apps outside of the US are niche
-    products in a nascent stage, however, they still provide relevant
-    design directions or stories of what to avoid.
-
--   NeuralNine (2021) Financial AI assistant in Python
+Athropomorphism: human-like attributes in robo-advisors, such as
+conversational chatbots, can affect adoption and risk preferences among
+customers. Studies show that anthropomorphic robo-advisors increase
+customer trust and reduce algorithm aversion.” **similar to my
+research**
 
 -   David et al. (2021) Can explainable AI help adoption of Financial AI
     assistants?
@@ -2383,6 +2382,8 @@ https://www.altfi.com/article/3433_etfmatic_app_downloaded_100000_times.
 AltFi. (2021). Belgium’s Aion Bank has acquired London robo-advisor
 ETFmatic. In *AltFi*.
 https://www.altfi.com/article/7686_belgiums-aion-bank-has-acquired-london-robo-advisor-etfmatic.
+
+Altman, S. (2024). *The Intelligence Age*. https://ia.samaltman.com/.
 
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B.,
 Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J.,
@@ -2615,6 +2616,11 @@ on Mental Health in the Contemporary Family. *Behavior Modification*,
 *15*(4), 501–544.
 [https://doi.org/10.1177/01454455910154004](https://doi.org/10.1177/01454455910154004)
 
+Di Pizio, A. (2023). Sam Altman Says AI Will Make Businesses 30 Times
+More Productive: 2 Stocks Investors Will Want to Buy. In *NASDAQ The
+Motley Fool*.
+https://www.fool.com/investing/2023/06/23/sam-altman-ai-30-times-productive-2-stocks-buy/.
+
 Dignum, V. (2021). AI — the people and places that make, use and manage
 it. *Nature*, *593*(7860), 499–500.
 [https://doi.org/10.1038/d41586-021-01397-x](https://doi.org/10.1038/d41586-021-01397-x)
@@ -2745,6 +2751,8 @@ fusion for explainable AI. *Information Fusion*, *71*, 28–37.
 
 *Home - Lark Health*. (n.d.). https://www.lark.com/.
 
+iGenius. (2020). Let’s talk about sustainable AI. In *Ideas @ iGenius*.
+
 Ilya Sutskever. (2018). *Ilya Sutskever at AI Frontiers : Progress
 towards the OpenAI mission*.
 
@@ -2755,11 +2763,8 @@ https://seedlegals.com/resources/magic-carpet-the-ai-investor-technology-transfo
 Jan Leike & Ilya Sutskever. (2023). *Introducing Superalignment*.
 https://openai.com/index/introducing-superalignment/.
 
-Jarovsky, L. (2022a). *Dark Patterns in AI: Privacy Implications*.
+Jarovsky, L. (2022). *Dark Patterns in AI: Privacy Implications*.
 https://www.theprivacywhisperer.com/p/dark-patterns-in-ai-privacy-implications.
-
-Jarovsky, L. (2022b). *You Are Probably Doing Privacy UX Wrong*.
-https://www.theprivacywhisperer.com/p/you-are-probably-doing-privacy-ux.
 
 Jeblick, K., Schachtner, B., Dexl, J., Mittermeier, A., Stüber, A. T.,
 Topalis, J., Weber, T., Wesp, P., Sabel, B., Ricke, J. & Ingrisch, M.
@@ -2775,9 +2780,6 @@ COVID-19 pandemic. *Information Processing & Management*, *59*(6),
 
 Joe Blair. (2024). *Generative UI: The new front end of the internet? —
 Joe Blair*. https://www.joe-blair.com/blog/the-new-front-end.
-
-Josephine Wäktare Heintz. (n.d.). Cleo. In *👀*.
-http://www.josephineheintzwaktare.com/cleo.
 
 Josh Lovejoy. (n.d.). The UX of AI. In *Google Design*.
 https://design.google/library/ux-ai.
@@ -2910,6 +2912,12 @@ over others. In *Twitter*.
 Lohr, S. (2004). Microsoft, Amid Dwindling Interest, Talks Up Computing
 as a Career. *The New York Times*.
 
+Loizos, C. (2025). OpenAI’s planned data center in Abu Dhabi would be
+bigger than Monaco. In *TechCrunch*.
+
+Lomas, N. (2024). Deal on EU AI Act gets thumbs up from European
+Parliament. In *TechCrunch*.
+
 Loo, L. (2025). *Something exciting I’ve been quietly working on*.
 
 Lorenzo, D., Lorenzo, D. & Lorenzo, D. (2015). Daisy Ginsberg Imagines A
@@ -2971,6 +2979,10 @@ does”: FinTech ecosystems in India reshaping the geography of finance.
 Mikael Eriksson Björling & Ahmed H. Ali. (n.d.). UX design in AI, A
 trustworthy face for the AI brain. In *Ericsson*.
 
+Moss, S. (2025). *OpenAI CFO: Stargate targeting multiple locations in
+Texas, considering AI data centers in Pennsylvania, Oregon, and
+Wisconsin - DCD*.
+
 Mühlhoff, R. (2019). *Human-aided artificial intelligence: Or, how to
 run large computations in human brains? Toward a media sociology of
 machine learning*.
@@ -2978,8 +2990,6 @@ machine learning*.
 
 Nathan Benaich & Ian Hogarth. (2022). *State of AI Report 2022*.
 https://www.stateof.ai/.
-
-NeuralNine. (2021). *Financial AI Assistant in Python*.
 
 Ng, A. (2024). AI Restores ALS Patient’s Voice, AI Lobby Grows, and
 more. In *AI Restores ALS Patient’s Voice, AI Lobby Grows, and more*.
@@ -2998,6 +3008,9 @@ Nielsen, J. (2024c). UX Roundup: AI Empathy Submit Buttons European Job
 Changes Runway AI Video Writing Questions for User Research Leonardo
 Sold Midjourney New Release. In *Jakob Nielsen on UX*.
 
+Nielsen, J. (2025). No More User Interface? \[Substack Newsletter\]. In
+*Jakob Nielsen on UX*.
+
 No Priors: AI, Machine Learning, Tech, & Startups. (2023). *With
 Inceptive CEO Jakob Uszkoreit: Vols. Ep. 29*.
 
@@ -3006,6 +3019,8 @@ Industrial Revolution: How Harmonious Human–Machine Collaboration is
 Triggering a Retail and Service \[R\]evolution. *Journal of Retailing*,
 *98*(2), 199–208.
 [https://doi.org/10.1016/j.jretai.2022.04.003](https://doi.org/10.1016/j.jretai.2022.04.003)
+
+NVIDIA. (2025). *NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2025*.
 
 NVIDIA Developer. (2025). *Frontiers of AI and Computing: A Conversation
 With Yann LeCun and Bill Dally NVIDIA GTC 2025*.
@@ -3028,6 +3043,8 @@ OpenAI. (2024b). *Hello GPT-4o*. https://openai.com/index/hello-gpt-4o/.
 
 OpenAI. (2024c). *Introducing the Model Spec*.
 https://openai.com/index/introducing-the-model-spec/.
+
+OpenAI. (2025). *A practical guide to building agents*.
 
 Orozco, L. G. N., Battiston, F., Iñiguez, G. & Szell, M. (2020).
 *Budapest bicycle network growth; Manhattan bicycle network growth from
@@ -3085,9 +3102,6 @@ https://openai.com/index/introducing-structured-outputs-in-the-api/.
 Prasad, R. (2022). How will Alexa, Amazon’s AI voice assistant, advance
 by talking to us less? In *Web Summit*.
 https://websummit.com/blog/tech/alexa-amazon-ai-voice-assistant-podcast/.
-
-Qorus. (2023). *The Great Reinvention: The Global Digital Banking Radar
-2023*.
 
 Ragas. (2023). *Metrics-Driven Development*.
 https://docs.ragas.io/en/stable/concepts/metrics_driven.html.
@@ -3292,10 +3306,6 @@ https://uxdesign.cc/we-love-to-hate-clippy-but-what-if-clippy-was-right-472883c5
 Tay, A. (2023). Why science needs a protein emoji. *Nature*.
 [https://doi.org/10.1038/d41586-023-00674-1](https://doi.org/10.1038/d41586-023-00674-1)
 
-Team, O. (2025). Introducing Oura Advisor: Your AI-Powered Personal
-Health Companion. In *The Pulse Blog*.
-https://ouraring.com/blog/oura-advisor/.
-
 The International Ergonomics Association. (2019). *Human
 Factors/Ergonomics (HF/E)*. https://iea.cc/what-is-ergonomics/.
 
@@ -3352,6 +3362,9 @@ S., Felländer, A., Langhans, S. D., Tegmark, M. & Fuso Nerini, F.
 (2020). The role of artificial intelligence in achieving the Sustainable
 Development Goals. *Nature Communications*, *11*(1), 233.
 [https://doi.org/10.1038/s41467-019-14108-y](https://doi.org/10.1038/s41467-019-14108-y)
+
+Wang, B. (2025). OpenAI Stargate Phase 1 Construction of 200 Megawatts
+and 980,000 Square Feet. In *NextBigFuture*.
 
 Wang, M. C., Sarah. (2023). The Economic Case for Generative AI and
 Foundation Models. In *Andreessen Horowitz*.
