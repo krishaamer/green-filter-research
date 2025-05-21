@@ -40,11 +40,22 @@ A comprehensive literature review in the interconnected economic behavior and ec
 
 ## RQ2: How can AI companions support college students with sustainability knowledge in the context of financial decisions?	
 
-***From Literature Review and Expert Interviews.***
+***From Literature Review, User Survey, Expert Interviews, and User Testing the Prototype.***
 
-Identify key concepts from expert discussion.
+*Design for Visibility & Simplicity*
+Testers often overlooked the AI analysis feature, thinking it was part of the website, not a 3rd party service. The interface must make key actions obvious. Use prominent announcements to announce new features (e.g. a pop‐up tour highlighting what's new). Minimize extra clicks: as one expert (Huang) noted, "people are lazy... if it’s easier to get the information that I don’t have to click a button, I will pay attention". In short, design a streamlined UI with clear one-step interactions and in-context prompts.
 
-Expert interviews to gain industry insights.
+*Design for Intuitive Visuals & Feedback*
+Replace dense text with clear graphics and simple ratings. Huang observed that users tune out long reports but immediately grasp an icon or "eco score" (e.g. a polar bear or 0–100 scale). Similarly, testers noticed numeric eco-scores  more than textual features. Thus, represent sustainability metrics as concise visuals or scores, with brief tooltips explaining meaning.
+
+*Design for Engaging Tone & Fun Elements*
+Use approachable language and interactive cues. Experts advised avoiding jargon: e.g. change button text from “Continue discussion” to a playful prompt to spark curiosity and intriguing to capture user interest. Gamification (e.g. progress bars, “unlocking” sustainable tips) may sustain engagement, given users’ limited patience for lengthy explanations.
+
+*Design for Trust and Transparency*
+Students expressed moderate trust in AI (survey results show many neutral-to-skeptical responses). To build credibility, the companion must cite verifiable data (certifications, carbon labels, etc.) rather than vague claims. For example, testers distrusted offsetting alone (“I still feel like I'm not really doing it right” when just buying carbon credits.), so the app should provide concrete evidence of impact. Avoid taking ESG scores at face value – include context (e.g. B Corp or supply-chain data) as advised by literature. In practice, feature designs should highlight third-party credentials (green certifications) and explain methodology to counter skepticism.
+
+*Design Mobile-First*
+For technical reasons the prototype testing was done using laptop computers (Apple does not allow adding 3rd party overlays on iOS apps the same way Google allows with Chrome Browser Extensions). However, given 96% of students use smartphones (majority iOS), mobile-first is a must, even given all the technical limitations. The design should favor a mobile app or browser extension that integrates with their existing shopping/payment tools. Survey clustering suggests leveraging daily habits (shopping/savings apps) as entry points. Ensure compatibility (notably, iOS imposes browser restrictions) and consider platform-specific design (e.g. integrating with Momo app interface as envisioned). Shopee was consistenly mentioned by testers and could serve for the next round of testing instead of Momo.
 
 ## RQ3: What AI companion features do college students prioritize as the highest?
 
