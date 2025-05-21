@@ -396,7 +396,7 @@ def taiwan_pollution_reports_stacked():
     pivot_data.plot(kind='barh', stacked=True, figsize=(12, 8), colormap='tab20')
 
     # Add title and labels
-    plt.title('Horizontal Stacked Bar Chart: Pollution Reports by District Over the Years', fontproperties=chinese_font)
+    plt.title('Pollution Reports by District Over the Years', fontproperties=chinese_font)
     plt.ylabel('Year', fontproperties=chinese_font)
     plt.xlabel('Number of Pollution Reports', fontproperties=chinese_font)
 

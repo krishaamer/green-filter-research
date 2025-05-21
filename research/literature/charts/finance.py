@@ -671,7 +671,7 @@ def esg_vs_board_diversity():
 
     ax.set_xlabel('Diversity (%)')
     ax.set_ylabel('ESG Score')
-    ax.set_title('Scatter Plot: Board Diversity vs ESG Score with Trend Lines')
+    ax.set_title('Board Diversity vs ESG Score with Trend Lines')
     ax.legend()
 
     plt.tight_layout()
@@ -686,7 +686,7 @@ def esg_vs_board_diversity():
                 fmt='-o', color='blue', ecolor='red', capsize=5)
 
     ax.set_ylabel('Values')
-    ax.set_title('Line Chart with Error Bars: Diversity and ESG Score')
+    ax.set_title('Diversity and ESG Score')
     plt.tight_layout()
     plt.show()
 
@@ -695,7 +695,7 @@ def esg_vs_board_diversity():
 
     # Box plot for ESG score, gender diversity, and cultural diversity
     ax.boxplot([df_diversity['Mean'], df_diversity['Min'], df_diversity['Max']], labels=['Mean', 'Min', 'Max'])
-    ax.set_title('Box Plot: Comparison of ESG and Board Diversity')
+    ax.set_title('Comparison of ESG and Board Diversity')
     ax.set_ylabel('Values')
 
     plt.tight_layout()
@@ -788,7 +788,7 @@ def crypto_sustainability():
     plt.bar(assets, neutral_corr, bottom=positive_corr, label='Neutral', color='gray')
     plt.bar(assets, negative_corr, bottom=[p+n for p, n in zip(positive_corr, neutral_corr)], label='Negative', color='red')
     plt.xticks(rotation=45, ha='right')
-    plt.title('Stacked Bar Chart of Correlation Types for Each Asset')
+    plt.title('Correlation Types for Each Asset')
     plt.ylabel('Correlation')
     plt.legend()
     plt.tight_layout()
@@ -943,7 +943,7 @@ def crypto_pricing_theories():
     plt.colorbar(label='Number of Publications')
     plt.xticks(ticks=np.arange(len(years_trend)), labels=years_trend)
     plt.yticks(ticks=np.arange(len(labels)), labels=labels)
-    plt.title('Heatmap: Research Focus Over Time (2015-2022)')
+    plt.title('Research Focus Over Time (2015-2022)')
     plt.xlabel('Year')
     plt.ylabel('Research Focus')
 

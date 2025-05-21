@@ -534,7 +534,7 @@ def college_chatbot():
     ax.set_yticklabels([])
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(categories)
-    ax.set_title('Radar Chart: Comparison of Chatbot Usage, Attitudes, and Field of Study')
+    ax.set_title('Comparison of Chatbot Usage, Attitudes, and Field of Study')
 
     # Add legend
     ax.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
