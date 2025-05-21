@@ -1,9 +1,9 @@
 ---
-title: Prototypes
+title: Testing
 sidebar_position: 7
 editor:
     render-on-save: false
 suppress-bibliography: true
 ---
 
-{{< include "_prototypes.qmd" >}}
+{{< include "_testing.qmd" >}}
