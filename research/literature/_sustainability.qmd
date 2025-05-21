@@ -3,7 +3,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production, climate_tipping_points
 ```
 
 ```{=mdx}
@@ -63,9 +63,11 @@ The latest data from 2023 shows our current world population of 8 Billion people
 
 Earth's physical systems are very sensitive to small changes in temperature, which was not understood until the 1970s[@mckibbenEndNature2006]. A comprehensive review of evidence from paleoclimate records until current time, including ocean, atmosphere, and land surface of points towards substantial climate change if high levels of greenhouse gas emissions continue, termed by the authors as *climate sensitivity* [@sherwoodAssessmentEarthClimate2020]. Global warming may lead to the slowing down and complete stop of the Atlantic meridional overturning circulation (AMOC) which helps maintain climate stability [@ditlevsenWarningForthcomingCollapse2023]. Apart from CO~2~, reduction of other atmospheric pollutants, such as non-CO~2~ greenhouse gases (GHGs) and short-lived climate pollutants (SLCPs) is required for climate stability [@linOpportunitiesTackleShortlived2022].
 
-[@tedTippingPointsClimate2024; @armstrongmckayExceedingGlobalWarming2022] warns that climate is not a linear system, rather there are several non-linear tipping points, where change accelerates: at the current warming ice‐sheet collapse, permafrost thaw, Amazon dieback and coral‐reef loss are likely climate tipping points, underscoring that the Paris Agreement range is far from a safe limit.
+[@tedTippingPointsClimate2024; @armstrongmckayExceedingGlobalWarming2022] warns that climate is not a linear system, rather there are several non-linear climate tipping points, where change accelerates: at the current warming ice‐sheet collapse, permafrost thaw, Amazon dieback and coral‐reef loss are likely to tip between 1.5 °C and 2 °C, underscoring that the Paris Agreement range is far from a safe limit. [@armstrongmckayExceeding15degCGlobal2022] synthesize paleoclimate records, observations, and model projections to revise and rank both global "core" and regional "impact" climate tipping elements by their warming thresholds, visualized in the chart below.
 
-[@armstrongmckayExceeding15degCGlobal2022]
+```{python}
+climate_tipping_points()
+```
 
 ### Measuring CO~2~e Emissions
 

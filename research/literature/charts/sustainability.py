@@ -452,3 +452,54 @@ def taiwan_energy_production():
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+
+def climate_tipping_points():
+    tipping_elements = [
+        "Greenland ice sheet collapse",
+        "West Antarctic ice sheet collapse",
+        "Labrador Sea current collapse",
+        "Tropical coral reef die off",
+        "Northern permafrost abrupt thaw",
+        "Barents Sea ice loss",
+        "Mountain glaciers loss",
+        "Atlantic current collapse",
+        "Northern forests dieback (South)",
+        "Northern forests expansion (North)",
+        "West African monsoon shift",
+        "East Antarctic glacier collapse",
+        "Amazon rainforest dieback",
+        "Northern permafrost collapse",
+        "Arctic winter sea ice collapse",
+        "East Antarctic ice sheet collapse"
+    ]
+
+    min_warming = [0.8, 1.0, 1.1, 1.0, 1.0, 1.5, 1.5, 1.4, 1.4, 1.5, 2.0, 2.0, 2.0, 3.0, 4.5, 5.0]
+    central_estimate = [1.5, 1.5, 1.8, 1.5, 1.5, 1.6, 2.0, 4.0, 4.0, 4.0, 2.8, 3.0, 3.5, 4.0, 6.3, 7.5]
+    max_warming = [3.0, 3.0, 3.8, 2.0, 2.3, 1.7, 3.0, 8.0, 5.0, 7.2, 3.5, 6.0, 6.0, 6.0, 8.7, 10.0]
+
+    # Compute the range widths
+    widths = [max_warming[i] - min_warming[i] for i in range(len(min_warming))]
+
+    # Create the figure and axis
+    fig, ax = plt.subplots(figsize=(10, 8))
+    y_positions = range(len(tipping_elements))
+
+    # Plot range bars
+    ax.barh(y_positions, widths, left=min_warming)
+
+    # Plot central estimates
+    ax.scatter(central_estimate, y_positions, marker='x')
+
+    # Configure axes
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(tipping_elements)
+    ax.invert_yaxis()  # Highest threshold on top
+    ax.set_xlabel("Global Warming (°C)")
+    ax.set_title("Warming Thresholds for Climate Tipping Points")
+    plt.tight_layout()
+
+    return fig, ax
+
+    # Generate the chart
+    fig, ax = plot_tipping_thresholds()
+    plt.show()
