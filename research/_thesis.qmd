@@ -4,7 +4,7 @@ author: ""
 bibliography: ref.bib
 csl: apa.csl
 toc: false
-geometry: top=23mm, bottom=30mm, left=20mm, right=20mm
+geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
 format:
   pdf:
@@ -20,10 +20,11 @@ format:
 execute:
   echo: false
   highlight: false
-CJKmainfont: STSong
+mainfont: "Times New Roman"
+CJKmainfont: "Noto Serif CJK TC"
 CJKoptions:
-  - BoldFont=STHeiti
-  - ItalicFont=STKaiti
+  - AutoFakeSlant=0.15
+fontsize: 12pt
 colorlinks: true
 linkcolor: black
 urlcolor: black
@@ -38,7 +39,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-{{< include "_cover.qmd" >}}
+{{< include "_cover.pages.qmd" >}}
 
 \newpage
 
