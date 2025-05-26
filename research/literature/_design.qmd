@@ -78,7 +78,7 @@ The EU has a *taxonomy of environmentally sustainable economic activities* publi
 
 Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
 
-### Beyond Return, Repair, Reuse
+### Beyond Recycling: Return, Repair, and Reuse
 
 -   There's a growing number of companies providing re-use of existing items.
 -   @SmartSwap For example, Swap furniture in Estonia
@@ -164,9 +164,11 @@ ESG ratings have faced criticism for lack of standards and failing to account fo
 
 Scenario-building is a key tool for sustainability. Because sustainability is so complex, sustainable design cannot always predict certain outcomes but rather can use scenarios to prepare for several possibilities. In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
+- [@RooneyVargaClimateActionSimulation2019] shows the effectiveness of ***The Climate Action Simulation*** in educating users about *success scenarios*.
+
 Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
 
-In the world of software production, user experience and iteration have been the mainstay for a over a decade [@googledesignDesignSpeculativeFutures2019]
+In the world of software production, user experience and iteration have been the mainstay for a over a decade [@googledesignDesignSpeculativeFutures2019].
 
 ### Design for Quality of Life
 
@@ -181,16 +183,15 @@ I was torn whether to place *politics* under *sustainability* or *design*, and d
 -   @paterPoliticsDesignNot2021
 -   10 countries use almost 100% renewable energy
 
-
 Sustainbility Policy context is Shifting Around the World
 
 -   @luoControllingCommercialCooling2022 suggests using reinforcement learning to reduce energy use in cooling systems.
 
 -   Montreal protocol near-eradication of chlorofluorocarbons (CfCs) and the ozone holes became whole again.
 
-***Mitigating*** and ***Adapting to*** **Climate Change**
+-   ***Mitigating*** and ***Adapting to*** **Climate Change**
 
-***Adapting*** **to Climate Change**
+-   ***Adapting*** **to Climate Change**
 
 Many companies are developing technologies for mitigation.
 
@@ -198,11 +199,12 @@ Many companies are developing technologies for mitigation.
 
 -   There have been proposal of a "meat tax".
 
-**Sustainable Development Goals (SDGs)**
+-   Sustainable Development Goals (SDGs)**
+
+-   Kunming-Montreal Global Biodiversity Framework**
 
 [@popkovaTheoryDigitalTechnology2022] argues that SDGs need to discussed in their totality and uses factor analysis to link SDGs to institutions and digital technologies; findings include SDG 3 (Good Health and Well-Being) and SDG 17 (Partnerships for the Goals) progress through institutions in developed countries and are most impacted by digital technologies and digital knowledge index, meanwhile SDG 16 (Peace, Justice and Strong Institutions) makes the most headway in developing countries, which are starting from a lower base. Likewise, the German Institute of Development and Sustainability (IDOS) has built a tool to connect SDGs and their 169 targets to NDCs (Nationally Determined Contributions), looking for synergies for effective climate action plans and sustainable development strategies, visualizing a clear skew  which SDGs receive the most climate‐related commitments - SDG 2 (Zero Hunger), SDG 6 (Clean Water and Sanitation), SDG 7 (Affordable and Clean Energy); meanwhile SDG 14 (Life Below Water), and the SDG 3 social goals discussed above, SDG 4 (Quality Education) and SDG 5 (Gender Equality), are the least adressed to climate plans [@dzeboParisAgreementSustainable2023].
 
-**Kunming-Montreal Global Biodiversity Framework**
 
 Eco-Design is about improving processes and optimizing resources. While the goal of reducing harm is shared, the specifics will depend on the industry. [@VANDOORSSELAER2022189] Defines ecodesign as "design for X" in a circular economy, thinking through the life cycle of a product, tools, materials, production, use, and end-of-life phases. 
 
@@ -220,15 +222,13 @@ On an international level, looking at companies operating on the European Single
 
 ## Thinking in Systems to Re-Design Industries
 
-Here I will use the lens of *sustainability* - another complex term - to look at how design can contribute to eco-friendly products. I advocate looking at design methods as a toolbox, where I can pick the tool suitable for the problem set in front of me. Here I look at a small number of design practices I find relevant to designing a sustainability app for college students that may improve on traditional design methods. While AI allows us to look at a larger number of design scenarios thank previously feasible, there are many approaches looking for ways to design for sustainability. Designing for Sustainability is fundamentally a hopeful act imbibed with the dream a healthier world is possible - because health and sustainability are intrinsically connected.
+As of 2025, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reported in 2022 only 8.6% of world economy was circular and *100B tonnes of virgin materials* was sourced every year. An early pioneering innovator, [@jacksonMaterialConcernsPollution1996] showed through detailed case studies how *preventive environmental management*, redesigning industrial production at the source can avert pollution, laying the conceptual groundwork for today’s circular-economy models. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. 
 
-*Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Design for Human Rights, Multispecies Design, Designing for Health* - designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While the European ESPR legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
+Futurists and visionaries adept at naming things have already listed the 5th, 6th, and even the 7th industrial revolution, pointing at robotics, quantum computing, nanotechnology, and more, looking at current trends and building scenarios for 2050 to envisioning a world with convergence of bio-based and mineral-based technologies, widespread sustainability, and energy-abundance [@chourasiaSustainabilityIndustryGlobal2022; @ruizestradaSeventhIndustrialRevolution2024]. If indeed, we're in an industrial revolution, it's possible to re-design entire industries, and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. 
 
-In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire life-cycle of a product or service. [@ROSSI2022823] shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs. Yet, calculating what's sustainable is hugely complex because decisions may have unforeseen ramifications. To take a single example [@NUEZ2022133252] shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting. In sum, sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependence contained within these interactions.
+I use the lens of *sustainability* - a complex term - to look at how design can contribute to eco-friendly products, advocating a diverse set design methods as a toolbox, where one can pick a suitable tool to match the problem. While AI allows us to look at a larger number of design scenarios than previously feasible, there are many approaches to design for sustainability, with varied design practices that may be relevant at different times in the process. Designing for sustainability is fundamentally a hopeful act, imbibed with the belief that a healthier world is possible - because health and sustainability are intrinsically connected.
 
-[@engkvistWhyArenThere2024] calls for *Design Sociology*, design should take account the product's effect on society, giving the example of highly individualized understanding of individualized psychology and dopamine cycles for creating social media, while disregarding the societal effects, such as spread of misinformation. Lack of sustainability in the design process is a *bug* in the design approach.
-
-*Service Design*, [@ceschinEvolutionDesignSustainability2016] shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example [@CargoBikeFREITAG], recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success.
+*Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Design for Human Rights, Multispecies Design, Designing for Health* - designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While EU legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
 ```{python}
 dfs_history()
@@ -238,25 +238,21 @@ As this research is *practice-oriented* (i.e., my goal here is to find design ap
 
 I will start with *Human-Centered Design*, the grandfather of design with attitude. There's even an ISO standard for human-centered design, with the designated code ISO9241-210, revised as ISO 9241-210:2019 titled *"Ergonomics of human-system interaction"* and up for revision soon (ISO standards are reviewed every 5 years). Some of the key takeaways include "Understanding and specifying the context of use", "Involving users throughout design and development", "Specifying user requirements", "Evaluating designs", "Multi-disciplinary Collaboration", "Iterative process" and "Continual Improvement", and finally - usability is not enough, the design should provide a user experience (UX) for human "emotional responses and satisfaction" [@isoHumancentredDesignInteractive2019].
 
-While *Human-Centered Design* focuses exactly on what it says - humans - *Life-Centered Design* recognizes human impact on our surrounding environment as well - making sure we include non-human animals among our stakeholders. This is where we are getting on the *territory* of sustainability. While *Human-Centered Design* is ever popular, the effect humans are having on biodiversity is rarely considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design.
+While *Human-Centered Design* focuses exactly on what it says - humans - *Life-Centered Design* recognizes human impact on our surrounding environment as well - making sure we include non-human animals among our stakeholders. This is where we are getting on the *territory* of sustainability. While *Human-Centered Design* is ever popular, the effect humans are having on biodiversity is rarely considered when designing. *"\[T\]he design phase of a physical product accounts for 80% of its environmental impact"* notes[@borthwickHumancentredLifecentredDesign2022] in their framework for life-centered design. If we're including *other* lifeforms among our stakeholders, what can we learn from them? *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s philosophical account advocates for an "inside-out" design pattern, much like natural systems, starting from the smallest structures to guarantee resilience and survival, instead of trying to control their external environment. In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives un child-like freedom to imagine new worlds. 
 
-If we're including *other* lifeforms among our stakeholders, what can we learn from them? *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s philosophical account advocates for an "inside-out" design pattern, much like natural systems, starting from the smallest structures to guarantee resilience and survival, instead of trying to control their external environment.
-
-In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives un child-like freedom to imagine new worlds.
+*Regenerative Design* suggests *de*materializing (digitizing) economies is not enough to be sustainable (by reduction of physical impact). Design should look beyond reducing harm and find avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
 *Multi-Species Design* refers to the idea of considering non-human life-forms as stakeholders of our design. [@metcalfeMULTISPECIESDESIGN2015]'s PhD Disseration titled *"The devastating effects that unsustainable design practices have on the natural world and other species with whom we share this planet"* gives a good overview of the work done is this branch of design. In a similar vein, *Biodiversity Inclusive Design (BID)*, developed by [@hernandez-santinIntegratingBiodiversityNonhuman2023] through a systematic review of 14 design frameworks, presents a *'participatory ladder for non-humans'*; including core design principles that position species’ needs within urban planning to achieve a biodiversity-positive multi-species environment. Multi-species design and participatory design can work together. [@haldrupDesigningMultispeciesCommons2022] examines how participatory design can include non-human species as co-creators of the urban commons; drawing on cases from Copenhagen, Denmark and the Viskan River (in the textile town, Borås, Sweden), the authors highlight sensory and aesthetic encounters, and attempts to perceive the agency of non-human species in a collaborative design processes [@theuniversityofmelbourneaustraliaMultispeciesCohabitationFuture2020]. Multi-Species Design has also entered the art-world thanks to [@marcusMultispeciesMaterialitiesCohabitation2023] who uses artworks to think about how material design strategies, surface textures, substrates, and bio-inspired composites, can foster biodiversity and interspecies cohabitation in the built environment. A very practical example helps one visualize this field the best. [@kosovaBioGeoEcotileImproving2023] introduces the BioGeo Ecotile, a eco-engineering tile combining pits, holes, grooves, and crevices to mimic natural rocky shores and provide multi-species living-environments; deployed on rock armour and flood walls along Edinburgh’s coast in Scotland, Ecotiles supported significantly higher intertidal species richness compared to smooth tiles, helping animals make a life there. [@selvanMultispeciesBuildingEnvelopes2023] goes deep into data modeling multi-variate calculations on how to build buildings, which support ecology, coming up with a general framework for the architecture of building envelopes, that resulted in 20% higher local species richness and up to 77% higher abundance for individual species.
+
+In most cases, designing for sustainability makes use of *systems thinking*, underlining the importance of looking at the entire life-cycle of a product or service. [@ROSSI2022823] shows how introducing sustainability early in the design process and providing scenarios where sustainability is a metric, it's possible to achieve more eco-friendly designs. Yet, calculating what's sustainable is hugely complex because decisions may have unforeseen ramifications. To take a single example [@NUEZ2022133252] shows how electric vehicles may increase CO~2~ emissions in some areas, such as Canary Islands, where electricity production is polluting. In sum, sustainable design encompasses all human activities, making this pursuit an over-arching challenge across all industries and all human activities with the complex interdependence contained within these interactions. [@engkvistWhyArenThere2024] calls for *Design Sociology*, design should take account the product's effect on society, giving the example of highly individualized understanding of individualized psychology and dopamine cycles for creating social media, while disregarding the societal effects, such as spread of misinformation. Lack of sustainability in the design process is a *bug* in the design approach.
+
+*Service Design*, [@ceschinEvolutionDesignSustainability2016] shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example [@CargoBikeFREITAG], recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success. *Designing for Trust*, @weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
 
 *Speculative Design* can also help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023] as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021]. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
 
 *Participatory Design* and *Speculative Design* can be complementary as in the work of [@neuhoffFormsParticipatoryFuturing2023], used together to focus on engaging users deep in the design process to truly understand their needs, contexts and interactions on a non-superficial level. For both speculative and participatory design, the cost and makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change. Speculative Design helps us envision future scenarios and be critical of the current reality, by taking an alternative view-point. A related field, *Design Fiction*, goes even further by creating narratives and artifacts that immerse participants in detailed visions of possible futures, blending storytelling and tangible experiences. The Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations, used to host The Design Fiction group (from September 2013 to May 2018), which designed projects to *"stimulate discussion about the social, cultural, and ethical implications of emerging technologies"*, coming up with design such as a Brain-Controlled Interface for Spermatozoa, the Human Perfume, capturing the smell of the people significant to the author, as well as Pop Roach, for designing edible cockroaches [@liuOverviewBrainControlledInterface2017; @designfictiongroupGroupOverviewDesign2018].
 
-*Regenerative Design* suggests *de*materializing (digitizing) economies is not enough to be sustainable (by reduction of physical impact). Design should look beyond reducing harm and find avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
-
-- Sufficiency
-
 Moving from products and (digital) experiences towards the built environment and architecture, *Climate-Responsive Design* embeds a building within the environmental constraints of a place and looks for opportunities use the land, wind, sun, local materials, and local vernacular history and culture when considering a design. Architect Susanne Brorson suggests sustainability should be considered in the earlier phases of design instead of trying to fix problems later, discussing *climate-responsive design principles* [@evmmaaarhitektuurikeskusClimateresponsiveDesignPrinciples2019]. The sentiment is echoed by [@leeAestheticsSustainableArchitecture2011] who edited a volume on sustainable approaches of world-renowned architects: *"The principles of sustainable design are rooted in the building’s relationship to the site and its environmental conditions such as topography, vegetation, and climate."* The pioneering book *Architecture of the Well-Tempered Environment* laid out ideas for integrating environmental concerns as part of architecture already in 1980s [@banhamArchitectureWelltemperedEnvironment1999].
-
-*Designing for Trust*, @weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
 
 *Cradle-to-Cradle Design* uses systems thinking focusing on the reuse, re-manufacturing, and finally - recyclability - of products. The Taiwanese Design Research Institute (TDRI) hosted a Nordic Circular Design Forum in Taipei, where Scandinavian circular design practicioners shared projects from several industries, highlighting how design requires building relationships; it's not feasible to create a sustainable product by oneself, as it takes a whole ecosystem [@TaiWanSheJiYanJiuYuanTDRIInstagram2021; @tdriBeiOuXunHuanSheJiLunTanNordicCircular2021].
 
@@ -264,21 +260,21 @@ Moving from products and (digital) experiences towards the built environment and
 
 As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. There are designers who define / brand themselves by their design method. Design Studies, a field that studies *design* as a subject. 
 
-### Student Essentials: Fast-Moving Consumer Goods, Clothes, and Food
-Student Essentials: Clothes, Food, Fast-Moving Consumer Goods (FMCG). 
-Food and clothes (I'm omitting housing and transport here) are part of the immediate environmental impact of college students.
+- Sufficiency
 
-As of 2025, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reported in 2022 only 8.6% of world economy was circular and *100B tonnes of virgin materials* was sourced every year. An early pioneering innovator, [@jacksonMaterialConcernsPollution1996] showed through detailed case studies how *preventive environmental management*, redesigning industrial production at the source can avert pollution, laying the conceptual groundwork for today’s circular-economy models. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012]. 
+### Student Essentials: Consumer Goods, Clothes and Food
 
--   5th industrial revolution, advanced robotics
--   6th industrial revolution, quantum computing, nanotechnology @chourasiaSustainabilityIndustryGlobal2022
--   7th industrial revolution futurists are looking at current trends and building scenarios for 2050 envisioning a world where the convergence of bio-based and mineral-based technologies, widespread sustainability and energy-abundance [@ruizestradaSeventhIndustrialRevolution2024].
+Food, clothes, and consumer goods (I'm omitting housing and transport here) are part of the immediate environmental impact of college students.
 
-We're in an industrial revolution. It's possible to re-design entire industries and that is exactly the expectation sustainability sets on businesses. Across all industries, there's a call for more transparency. Conversations about sustainability are too general and one needs to look at the specific sustainability metrics at specific industries to be able to design for meaningful interaction. There's plentiful domain-specific research showing how varied industries can develop eco-designed products. I will here focus on 3 industries that are relevant for college students.
+
+
+I will here focus on 3 industries that are relevant for college students.
 
 ...for Provenance and Traceability
 
 Companies like Qima provide inspection and certification services @qimaGlobalSupplyChain2024
+
+### Fast-Moving Consumer Goods
 
 Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global congloremates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024].
 
@@ -287,6 +283,8 @@ fast_consumer_goods()
 ```
 
 Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
+
+### Fashion Industry
 
 Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. There are also other local policy initiatives aiming to tackle the waste problem. For example the New Standard Institute's proposed "Fashion Act" to require brands doing business in New York City to disclose sustainability data and set waste reduction targets [@emilychanWill2022Be2022] .
 
@@ -300,7 +298,7 @@ Greenwashing is prevalent in the fashion industry. **Problem**: @emilychanWeStil
 
 Towards Sustainable Clothes
 
--   [@leungGreenDesign2021] There's a growing know-how on how to produce sustainably and which materials to use; the "Handbook of Footwear Design and Manufacture" includes a special Chapter on green design. Industry collaboration can raise the bar for everyone, such as the Better Cotton Initiative [@bettercottonBetterCottonAnnual2023].
+-   [@leungGreenDesign2021] There's a growing know-how on how to produce sustainably and which materials to use; for instance the *"Handbook of Footwear Design and Manufacture"* includes a special chapter on green design. Industry collaboration can raise the bar for everyone, such as the Better Cotton Initiative [@bettercottonBetterCottonAnnual2023].
 
 -   Story of Patagonia [@chouinardLetMyPeople2005].
 
@@ -330,19 +328,12 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @InstantGratificationCollective2022: "Political consumerism", "Instant Gratification for Collective Awareness and Sustainable Consumerism"
 
--   @fashioncheckerFashionCheckerWagesTransparency2023
-
--   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
-
--   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
-
--   @CleanClothesCampaign
-
--   "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
-
--   @TextileGenesis
+-   @CleanClothesCampaign "The mainstream fashion industry is built upon the exploitation of labor, natural resources and the knowledge of historically marginalized peoples."
 
 -   "Secrecy is the linchpin of abuse of power...its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist.
+
+-   Free clothes, Minimize shopping, buy quality, save CO~2~, invest.
+
 
 -   @stand.earthStandEarthPeople2023
 
@@ -350,13 +341,19 @@ Across industries, reports are saying there isn't enough transparency.
 
 -   @BGMEAHome Bangladesh Garment Manufacturers and Exporters Association
 
--   Minimize shopping, buy quality, save CO~2~, invest.
+-   @fashioncheckerFashionCheckerWagesTransparency2023
+
+-   @eestidisainikeskusiestoniandesigncentreCircularDesignHOW2021 Circular textiles
+
+-   @eestikunstiakadeemiaEKAArendasEuroopa2022 Sustainable Fashion education
+
+-   @TextileGenesis
 
 -   @textileexchangeTextileExchange2023 Ethical fashion materials matter
 
 -   @textileexchangeFASHIONINDUSTRYTRADE2021: Policy request
 
--   Free clothes
+
 
 -   @vanishukGENERATIONREWEARFull2021 "Generation rewear" documentary, sustainable fashion brands
 
@@ -369,6 +366,8 @@ Across industries, reports are saying there isn't enough transparency.
 -   @SOJODoortodoorClothing2023 Alterations and repairs made easy
 
 -   @GoodYouSustainable2023 Ethical brand ratings
+
+
 
 Re-designing industrial food systems for an increasing global population is a challenge. Supply chain innovation in food industries may enable more transparency. **provenance and traceability of food has implications for sustainability and health.**
 
@@ -534,7 +533,7 @@ The complexity of resource and delivery networks necessitates more advanced tool
 
 Already in 2020, a company founded to solve these exact issues, Circularise, and funded in part by the EU Commission H2020 SME Instrument, developed a privacy-focused blockchain-based data exchange protocol for tracing plastics across supply chains, aiming to boost transparency and circularity [@circulariseCirculariseRaisesMillion2020]. Circularise launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" @circulariseEuPCCircularisePlastics2020. Circularise is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022].
 
-- "Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) is one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least 3 key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."
+- *"Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) is one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least 3 key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."*
 
 It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data. Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks.
 
@@ -877,17 +876,13 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 ant_forest()
 ```
 
-Ecosia, a German search engine which invest all its profits to planting trees has invested €92 million into climate action since 2009, planting 225 million trees worldwide [@garciaGermanSearchEngine2025].
+Ecosia is a search engine with an unconventional business models, investing all its profits into planting trees, pourin €92 million into climate action since 2009, planting 225 million trees worldwide [@garciaGermanSearchEngine2025]. The founder Christian Kroll recalls travelling in South America in 2006 and being shocked to see vast areas of rainforests converted into soy plantations, which inspired him to research the causes of deforestation and start Ecosia; the company employs partners around the world to improve soil, biodiversity, the water cycle, reducing droughts and floods, and monitor the treets it plants [@hirshEcosiaFounderChristian2021].
 
-**New User Interfaces**
+### Sustainability Potential of New User Interfaces
 
--   AR / VR
+Immersive communication technologies such as AR / VR hold the potential to reduce business travel, if productive meetings can be held online, reducing emissions. AI Chatbots and Generative UIs are hugely energy-intentsive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
 
--   AI Chatbots
-
--   Generative UIs
-
-The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve. @hoangEnterDynamicIsland2022: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
+The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve.[@hoangEnterDynamicIsland2022]: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
 
 Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
 
@@ -900,26 +895,6 @@ Speaking is one mode of interaction that's become increasingly possible as machi
 | Seeing              |     |
 
 : Modes of interaction
-
-**Community**
-
-Building a community is a way to design a context, where the culture creates certain expectations of behavior. Humans working together are able to achieve more than single individuals. "Any community on the internet should be able to come together, with capital, and work towards any shared vision. That starts with empowering creators and artists to create and own the culture they're creating. In the long term this moves to internet communities taking on societal endeavors."
-
--   Building a culture of sustainability? [; @armstrongCultivatingCulturesSustainability2021].
-
-The focus on *group consciousness* suggests community-based sustainability action may be effective.
-
-***Zero Waste Lifestyle*** is the opposite of overconsumption. Zero waste suggests people buy in bulk to save. Buying in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. - Zero waste municipality in Treviso
-
-***Minimalism*** is a movement of people living a simple life. This is always going to be a small percentage of people. [@costaHowFinnishCulture2018]: Finnish socialists: minimalism. Tokyo [@tokyosimpleecolifeWhatLearnedMy2021]. - consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021].
-
-- What are the building blocks of a thriving community?
-
-- Experience instead of read..
-
-@RooneyVargaClimateActionSimulation2019 shows the effectiveness of ***The Climate Action Simulation*** in educating users about **success scenarios**.
-
-World Cleanup Day has attracted 10s of millions of people to do beach and forest cleanups.
 
 ## Learning from Quantified Self: Tracking Health and Lifestyle
 
