@@ -156,8 +156,7 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 
 : CO~2~ credit trading markets around the world from [@InternationalCarbonMarket].
 
-The price of CO~2e~ differs across markets, as assigning a monetary value to reducing CO~2e~ emissions depends on several variables.
- [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
+The price of CO~2e~ differs across markets, as assigning a monetary value to reducing CO~2e~ emissions depends on several variables. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
 The prices between compliance and voluntary markets differ substantially.
 
@@ -172,7 +171,6 @@ The prices between compliance and voluntary markets differ substantially.
 | South Korea        | 5.84 USD               |
 | China              | 8.29 USD               |
 |                    |                        |
-
 
 : Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
 
@@ -210,25 +208,19 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 *"Carbon pricing is not there to punish people,"* says Lion Hirth [@lionhirthLionHirthTwitter]. *"It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."* Long term cost of insufficient climate action is more than short-term gains from delaying efforts to reduce carbon emissions. In addition to the damages from global warming, the fossil energy production that's a large part of global CO2 emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
 
-### Markets Financialize the Natural World: Pricing, Tracing, and Trading Ecosystem Services and Nature-backed Assets 
+### Markets Financialize the Natural World: Pricing, Tracing, and Trading Ecosystem Services and Nature-backed Assets
 
 Similarly to carbon markets, markets for nature-backed assets and ecosystem services are centered around different types of credits.
 
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Asset Type**                       | **Description**                                                                                                                                        |
-+======================================+========================================================================================================================================================+
-| Carbon Credits and Offsets       | Represent avoided or removed CO₂e emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Biodiversity Credits**             | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard    |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Water Rights and Wetland Credits | Represent rights to access water or preserve/restore wetlands which can be traded                                                                      |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Conservation Finance Instruments | Represent bonds or funds that protect forests, coral reefs, or species habitats                                                                        |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-|*Natural Asset Companies (NACs)   | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights                                                                |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tokenized Natural Resources     | Represent blockchain-based representations of nature (e.g., tokenized forest hectares)                                                                 |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Asset Type** | **Description** |
+|-------------------------|-------------------------------------------------------|
+| Carbon Credits and Offsets | Represent avoided or removed CO₂e emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
+| Biodiversity Credits | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard |
+| Water Rights and Wetland Credits | Represent rights to access water or preserve/restore wetlands which can be traded |
+| Conservation Finance Instruments | Represent bonds or funds that protect forests, coral reefs, or species habitats |
+| Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
+| Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
+
 : Types of nature-backed assets and tradable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023]
 
 ### Overconsumption \> Earth's Boundaries
@@ -246,6 +238,17 @@ While the numbers on overconsumption are clear, the debate on overconsumption is
 | 15%            | Other    |
 
 : Daily human activities emission contribution on average in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019].
+
+Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] dissect GHG emissions inventory by sector and put the blame squarely on the type of energy used.
+
+| Sector | Share | Description |
+|---------------|--------------:|-------------------------------------------|
+| Energy Use (inc. electricity, heat and transport) | 73.2 % | Total CO2 emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%) |
+| Direct Industrial Processes | 5.2 % | Direct CO2 emissions from chemical reactions in cement and in chemicals and petrochemicals. |
+| Waste | 3.2 % | Wastewater methane and NO2 emissions; landfill methane. |
+| Agriculture + LULUCF (Land Use, Land-Use Change & Forestry) | 18.4 % | Emissions from grassland, cropland, deforestation, crop burning, rice cultivation, agricultural soils, livestock and manure. |
+
+: Data from [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016].
 
 Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. Indeed, making *anything* consumes natural resources, which are limited on planet Earth. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% driven by the impact of climate change. Yet, while population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012]. Meanwhile others, such as [@cafaroOverpopulationMajorCause2022], believe *\[o\]verpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left."*
 
@@ -281,7 +284,7 @@ In 2018 Swedish Sportswear brand Houdini launched the first corporate planetary 
 
 ### Evolving Measurements from Planetary Health to Earth System Law, and Social Cost of Carbon
 
-Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks.  [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilisation: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."* 
+Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilisation: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
 
 There are 3 approaches that address the complex interdependence of humans with our physical environment, that have the potential to be complementary - *Planetary Health*, *Social Cost of Carbon*, and *Earth System Law*.
 
@@ -441,7 +444,6 @@ Ecosystem services literature defines a "Nature’s Contributions to People" fra
 : Concepts from [@MonetaryValuationNature2023].
 
 A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
-
 
 ### Ecological Restoration: Healing Damaged Ecosystems Through Agroforestry & Permaculture
 
