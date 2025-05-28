@@ -28,11 +28,9 @@ import AbstractDesign from '../images/design/abstract-design.png'
 
 ## Eco-Design: Design as Political Action at Scale
 
-Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023].
+Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
 We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
 Designing the right legislative measures can be hugely impactful. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
@@ -538,27 +536,27 @@ Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and 
 | 美團 **Meituan** | China | China | Annual Transacting Users (ATU) | Yes | No | No | 700 million | 2024 | @jingMeituan0369020242025 |
 | **PhonePe** | India | India | Registered Users (Lifetime) | Yes | Yes | Yes | 500 million | 2023 | @phonepePhonePeCrosses5002023 |
 | **LINE** | Japan | Japan, Taiwan, Indonesia, Thailand | Monthly Active Users (MAU) | Yes | Yes | Yes | 200 million | 2023 | @lycorporationLYCorporationTakes2023 |
-| **Tata Neu** | India | India | Members | YES ✅ | YES ✅ | NO ❌ | 27 million | 2023 | @shindeTataNeu202023 |
-| **Nubank** | Brazil | Brazil, Mexico | Customers | YES ✅ | YES ✅ | YES ✅ | 114 million | 2024 | @polloNuHoldingsLtd2025 |
-| **Zalo** | Vietnam | Vietnam | Monthly Active Users (MAU) | YES ✅ | NO ❌ | NO ❌ | 75 million | 2023 | @nguyenVietnamsFirstUnicorn2023 |
-| **Paytm** | India | India | Monthly Transacting Users (MTU) | YES ✅ | YES ✅ | YES ✅ | 100 million | 2023 | @vermaPaytmQ3FY242024 |
-| **M-Pesa** | Kenya | Kenya, Tanzania, South Africa, Afghanistan, Lesotho, DRC, Ghana, Mozambique, Egypt, Ethiopia | Active Customers | YES ✅ | YES ✅ | NO ❌ | 34 million | 2024 | @safaricomSafaricomsMPESAHits2024 |
-| **Mercado Pago** | Argentina | Argentina, Uruguay, Mexico, Chile | Monthly Active Users (MAU) | YES ✅ | YES ✅ | YES ✅ | 61 million | 2023 | @mercadolibre2024ImpactReport2024 |
-| **PicPay** | Brazil | Brazil | Active Customers | YES ✅ | YES ✅ | YES ✅ | 35 million | 2023 | @oostBrazilianFinTechPicPay2024 |
-| **Cash App (Block)** | USA | USA | Monthly Active Users (MAU) | YES ✅ | YES ✅ | YES ✅ | 56 million | 2023 | @kazaninsWhyCashApp2024 |
-| **KakaoTalk** | Korea | Korea | Monthly Active Users (MAU) | YES ✅ | YES ✅ | YES ✅ | 48 million | 2024 | @leeKakao2024Revenue2025 |
-| **GoTo (Gojek/Tokopedia)** | Indonesia | Indonesia | Annual Transacting Users (ATU) | YES ✅ | YES ✅ | YES ✅ | 51 million | 2023 | @gotoTransformationProgres2023 |
-| **Revolut** | UK | UK / EU | Customers | YES ✅ | YES ✅ | YES ✅ | 50 million | 2024 | @revolutRevolutHits502024 |
-| **Careem** | UAE (Aqcuired by US-based Uber and Etisalat but still keeps a separate brand) | United Arab Emirates, Saudi Arabia, Jordan, Iraq, Kuwait, Morocco Bahrain, Pakistan, Egypt, Morocco | Customers | YES ✅ | NO ❌ | NO ❌ | 70 million | 2024 | @careemCareems2024Wrapup2025 |
-| **Grab** | Singapore / Malaysia | SEA | Monthly Transacting Users (MTU) | YES ✅ | YES ✅ | NO ❌ | 41 million | 2024 | @grabholdingslimitedGrabReportsFourth2025 |
-| **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | YES ✅ | YES ✅ | NO ❌ | 30 million | 2023 | @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024 |
+| **Tata Neu** | India | India | Members | Yes | Yes | No | 27 million | 2023 | @shindeTataNeu202023 |
+| **Nubank** | Brazil | Brazil, Mexico | Customers | Yes | Yes | Yes | 114 million | 2024 | @polloNuHoldingsLtd2025 |
+| **Zalo** | Vietnam | Vietnam | Monthly Active Users (MAU) | Yes | No | No | 75 million | 2023 | @nguyenVietnamsFirstUnicorn2023 |
+| **Paytm** | India | India | Monthly Transacting Users (MTU) | Yes | Yes | Yes | 100 million | 2023 | @vermaPaytmQ3FY242024 |
+| **M-Pesa** | Kenya | Kenya, Tanzania, South Africa, Afghanistan, Lesotho, DRC, Ghana, Mozambique, Egypt, Ethiopia | Active Customers | Yes | Yes | No | 34 million | 2024 | @safaricomSafaricomsMPESAHits2024 |
+| **Mercado Pago** | Argentina | Argentina, Uruguay, Mexico, Chile | Monthly Active Users (MAU) | Yes | Yes | Yes | 61 million | 2023 | @mercadolibre2024ImpactReport2024 |
+| **PicPay** | Brazil | Brazil | Active Customers | Yes | Yes | Yes | 35 million | 2023 | @oostBrazilianFinTechPicPay2024 |
+| **Cash App (Block)** | USA | USA | Monthly Active Users (MAU) | Yes | Yes | Yes | 56 million | 2023 | @kazaninsWhyCashApp2024 |
+| **KakaoTalk** | Korea | Korea | Monthly Active Users (MAU) | Yes | Yes | Yes | 48 million | 2024 | @leeKakao2024Revenue2025 |
+| **GoTo (Gojek/Tokopedia)** | Indonesia | Indonesia | Annual Transacting Users (ATU) | Yes | Yes | Yes | 51 million | 2023 | @gotoTransformationProgres2023 |
+| **Revolut** | UK | UK / EU | Customers | Yes | Yes | Yes | 50 million | 2024 | @revolutRevolutHits502024 |
+| **Careem** | UAE (Aqcuired by US-based Uber and Etisalat but still keeps a separate brand) | United Arab Emirates, Saudi Arabia, Jordan, Iraq, Kuwait, Morocco Bahrain, Pakistan, Egypt, Morocco | Customers | Yes | No | No | 70 million | 2024 | @careemCareems2024Wrapup2025 |
+| **Grab** | Singapore / Malaysia | SEA | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 | @grabholdingslimitedGrabReportsFourth2025 |
+| **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | Yes | Yes | No | 30 million | 2023 | @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024 |
 
 Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as
 
 | **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Uber | USA | Global | Users per month | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 171 million | 2025 | @uberUberAnnouncesResults2025 |
-| Bolt | Estonia | Global | Lifetime users | NO ❌ (Only for ride-hailing) | NO ❌ | NO ❌ | 200 million | 2025 | @garciaBoltAcquiresDanish2025 |
+| Uber | USA | Global | Users per month | No (Only for ride-hailing) | No | No | 171 million | 2025 | @uberUberAnnouncesResults2025 |
+| Bolt | Estonia | Global | Lifetime users | No (Only for ride-hailing) | No | No | 200 million | 2025 | @garciaBoltAcquiresDanish2025 |
 
 Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
 
@@ -670,7 +668,7 @@ open_data_compare()
 Data-driven design requires access to data, making the movement towards *open data sharing* very important. Some countries and cities are better than others at sharing data openly.
 
 | Country | Project | Reference |
-|-----------------|--------------------------------|------------------------|
+|------------------|-------------------------------|-----------------------|
 | Sweden | Swedish open data portal | @SverigesDataportal |
 | Malaysia | Malaysian open data portal | data.gov.my |
 | Singapore | Singapore ESG open data platform | [@monetaryauthorityofsingaporeMASLaunchesDigital2023] |
@@ -833,21 +831,15 @@ air_chart()
 
 ### Carbon Tracking: Personal Emissions Trackers
 
-The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019].
+We have a limited carbon budget so calculating CO2e-cost become integrated into every activity. Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratification for Collective Awareness and Sustainable Consumerism"* piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were (environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
 
-Tracking sustainability may have collective benefits but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users.
+The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019]. Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018]. These type of app suggest CO2e calculations will be part of our everyday experience. Nonetheless, sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​ Tracking sustainability may have collective benefits but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users. 
 
-Sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​ However, sustainability tracking, while perhaps less than health tracking, can also have a measurable impact. One study of personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (n = 216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12%[@hoffmannCarbonFootprintTracking2024].
+Sustainability tracking, while perhaps less than health tracking, can also have a measurable impact. One study of personal carbon footprint tracking apps (aka CO2 calculators) in a mid-sized German city (n = 216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12% [@hoffmannCarbonFootprintTracking2024]. Better maps can also convince people to make changes; advanced maps which visualize erosion, heat, flooding, fire, drought, extreme weather, and other climate risks, can inform resilience planning; a map for transport, such as taxis, can visualize pickup/dropoff imbalances, coloring areas green where pickups exceed dropoffs and orange where dropoffs exceed pickups, can help users see spatial patterns and inform climate-resilient transport planning [@cartoClimateResilienceGeography2023].
 
-We have a limited carbon budget so calculating CO2e-cost become integrated into every activity.
+Because of the large emission fooprint of transport, offering a steep emissions reduction potential, greener modes of mobility have been heavily researched, for decades. Already more than a decade ago, a survey from April 2014 to December 2015 (n = 4586, total 29930 travel episodes), rating enjoyment on a liker scale from 1 to 7, tracked the type of travel (work, unpaid work, personal care, childcare, leisure, etc); private car 79% of personal care 55% of leisure trips; key findings show walking and cycling significantly increase enjoyment across all trip purposes; public transit reduces enjoyment for childcare and work-related travel; overall transport infrastructure can both lower green house gas emissions and boost traveler wellbeing [@echeverriaGreenMobilityWellbeing2022].
 
--   CO2e calculations will be part of our everyday experience
-
--   Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018].
-
--   @echeverriaGreenMobilityWellbeing2022 suggests greener modes of mobility.
-
-Personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
+A wide range of personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
 
 | App | Description |
 |--------------------------|----------------------------------------------|
@@ -873,11 +865,11 @@ In Singapore, the DBS bank released a consumer sustainability ESG app called DBS
 
 [@nissinenMakeCarbonFootprints2022] calls for emissions data to be made available to manufacturers, retailers, and consumers so they can make low-carbon choices; moreover, metrics must move beyond a single aggregated number to assessing life-cycle emissions' variability. One way to achieve this is called Digital Product Passports (DPP), a further development of the idea of carbon labels, capturing a comprehensive trace of data needed for green transformation.
 
-[@reichDefiningGoalsProduct2023] identifies *information gaps* as one of the major obstacles to realizing a circular economy; a study of 28 experts across academia, industry, government, consultancy and NGOs, showed Digital Product Passports (DPPs) can enhance the 9 "R" in circular strategies. The first full articulation of the 9 R‐strategies came from the report \
+[@reichDefiningGoalsProduct2023] identifies *information gaps* as one of the major obstacles to realizing a circular economy; a study of 28 experts across academia, industry, government, consultancy and NGOs, showed Digital Product Passports (DPPs) can enhance the 9 "R" in circular strategies. The first full articulation of the 9 R‐strategies came from the report\
 *"Circular Economy – Measuring Innovation in the Product Chain"*, where [@potting2017circular] laid out a hierarchy of circular‐economy options; the framework was later adopted and popularized in peer-reviewed literature, for example [@kirchherrConceptualizingCircularEconomy2017].
 
 | R-Strategy | Definition |
-|---------------|---------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | R9 Recover | Incineration of material (energy recovery) |
 | R8 Recycle | Process materials, obtaining the same (high grade) or lower grade quality |
 | R7 Repurpose | Use discarded product (or its parts) in a new product (with a different function) |
@@ -893,13 +885,7 @@ In Singapore, the DBS bank released a consumer sustainability ESG app called DBS
 
 Even though *digital product passports* relate to circular economy, I've chosen to highlight this topic here, as it's the main design implication from this Design chapter - an emerging technology which needs to be *designed* for the user. To contextualize the discussion, a brief historical overview of previous efforts in this area may be helpful. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
-Labels alone are not enough - they are insufficient to drive significant behavioral change. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products.
-
-Already in 2017, a project funded by the EU Horizon 2020 title "Instant Gratification for Collective Awareness and Sustainable Consumerism" piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were(environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
-
-Despite ongoing interest, several studies have shown that the overall impact of carbon labeling on consumer behavior remains negligible. The idea of *Carbon Labelling* is yet to find mainstream adoption.
-
-Participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all of which provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020]: Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour]: The Carbon Trust reports it's certified 27 thousand product footprints.
+Similar to to *Nutritional Facts Labeling*, *Carbon Labels* provide basic information regarding the emissions' profile of each product,yet taken alone, without a systemic push for carbon reduction, they are insufficient to drive significant behavioral change. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'No antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products. Despite ongoing interest, several studies have shown that the overall impact of carbon labeling on consumer behavior remains negligible. The idea is yet to find mainstream adoption and participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all of which provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020] Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour] The Carbon Trust reports it's certified 270000 product emissions' footprints.
 
 | Company    | Country |
 |------------|---------|
@@ -918,16 +904,6 @@ Participation in carbon labeling schemes remains voluntary, with only a limited 
 
 : Organization to Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020].
 
--   Digitalisation and digital transformation; Digital Receipts are one data source for tracking one's carbon footprint [@DigitalReceiptsCustomer].
-
--   @ivanovaQuantifyingPotentialClimate2020 "establish consumption options with a high mitigation potential measured in tonnes of CO~2~ equivalent per capita per year."
-
--   1.7 trillion tons of CO2e emissions since the 1760s (start of the industrial revolution) [@globalcarbonbudgetCumulativeCOEmissions2023; @marvelOpinionClimateScientist2023].
-
--   @cartoClimateResilienceGeography2023 Making advanced maps to convince people to make changes
-
--   similar to Nutritional Facts Labeling
-
 Transitioning from simpler Carbon Labels to data-driven Digital Product Passports requires comprehensive data collection, digital infrastructure, industry collaboration, regulatory frameworks and consumer engagement.
 
 -   product's history, composition, and environmental impact.
@@ -941,17 +917,21 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 
 : Digital Product Passport goals [@strettonDigitalProductPassports2022].
 
--   
 
--   @jensenDigitalProductPassports2023 "support decision-making throughout product life cycles in favor of a circular economy."
+-   @jensenDigitalProductPassports2023 "support decision-making throughout product life cycles in favor of a circular economy."  "Jensen et al. study three mechatronics supply chains and identify 28 data points for DPPs, clustered into 7 categories: (1) usage & maintenance (2) identification (3) materials (4) guidelines (5) supply-chain & reverse logistics (6) environmental data (7) compliance "
 
--   @kingProposedUniversalDefinition2023 "influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle."
+-   @kingProposedUniversalDefinition2023 "influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle." "King et al. propose a universal definition of a Digital Product Passport Ecosystem (DPPE) as a “system-of-systems,” synthesizing stakeholder requirements and concerns from the EU’s open consultation on the Sustainable Products Initiative 
+"
 
--   @bergerConfidentialitypreservingDataExchange2023 "support Sustainable Product Management by gathering and containing product life cycle data. However, some life cycle data are considered sensitive by stakeholders, leading to a reluctance to share such data."
+-   @bergerConfidentialitypreservingDataExchange2023 "support Sustainable Product Management by gathering and containing product life cycle data. However, some life cycle data are considered sensitive by stakeholders, leading to a reluctance to share such data." "Berger et al. (Proc. CIRP ‘23) outline five data-science & machine-learning approaches (e.g. model-sharing) to enable confidentiality-preserving exchange of sensitive EV-battery life-cycle data via DPPs, helping overcome stakeholder reluctance to share "
 
--   @plociennikDigitalLifecyclePassport2022 "Digital Lifecycle Passport (DLCP) hosted on a cloud platform and can be accessed by producers, users, recyclers"
+-   @plociennikDigitalLifecyclePassport2022 "Digital Lifecycle Passport (DLCP) hosted on a cloud platform and can be accessed by producers, users, recyclers"  "Plociennik et al. (Proc. CIRP ‘22) introduce a cloud-hosted Digital Lifecycle Passport (DLCP) based on the Asset Administration Shell. A SaaS web app lets producers, users and recyclers write/read DLCPs—demoing improved e-waste sorting when paired with ML-based object detection 
+"
 
--   @bergerFactorsDigitalProduct2023 challenges with Electric Vehicle Batterys. @bergerDataRequirementsAvailabilities2023 proposes Digital Battery Passports
+-   @bergerFactorsDigitalProduct2023 challenges with Electric Vehicle Batterys."This study provides empirical insights into the perceived potential of DPP adoption for electric-vehicle batteries within Sustainable Product Management (SPM), highlighting technical, organizational and policy barriers 
+
+" @bergerDataRequirementsAvailabilities2023 proposes Digital Battery Passports "Berger et al. (Sci. Dir. 2023) survey EV-battery value-chain actors to map their data requirements and current availabilities, laying groundwork for a future Digital Battery Passport 
+"
 
 -   @vancapelleveenAnatomyPassportCircular2023 literature overview
 
