@@ -884,6 +884,8 @@ Even though *digital product passports* relate heavily to adopting a circular ec
 
 : The 9 R strategies from [@potting2017circular].
 
+[@kingProposedUniversalDefinition2023] propose a universal definition of a Digital Product Passport Ecosystem (DPPE) as a “system-of-systems,” synthesizing stakeholder requirements and concerns from the EU’s open consultation on the Sustainable Products Initiative, aimingto influence consumer behavior towards sustainable purchasing - and responsible product ownership - by making the sustainability aspects of a product life cycle clearly apparent.
+
 There's extensive literature on the use Digital Product Passports (DPP) at specific industries and for particular use cases, often focused on improved efficiencies. [@plociennikDigitalLifecyclePassport2022] details the use of Digital Product Passports and the cloud platform infrastructure to improve e-waste sorting when paired with ML-based object detection.
 [@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance. [@jensenDigitalProductPassports2023] study of mechatronics supply chains found DPPs *"support decision-making throughout product life cycles in favor of a circular economy"*; specifically: 
 
@@ -895,7 +897,23 @@ There's extensive literature on the use Digital Product Passports (DPP) at speci
 > (6) environmental data
 > (7) compliance
 
-To contextualize the discussion, a brief historical overview of previous efforts in this area may be helpful. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
+With the increasing electrification of transport, finding ways to deal with the batteries is a crucial area of research. [@bergerDataRequirementsAvailabilities2023] examined the stakeholers of electric vehicle (EV) battery value-chain and mapped their data requirements and current availabilities, laying groundwork to propose a *Digital Battery Passport*.[@bergerFactorsDigitalProduct2023] lists current challenges with EV batteries, providing empirical insights into difficulties with DPP adoption, including technical, organizational, and policy barriers; an interesting part of the research is the introduction go *"Sustainable Product Management"* (SPM) as a specific field of management in the context of circular economy.
+
+They key barriers to adoption from [@bergerFactorsDigitalProduct2023] include:
+
+> Uncertainty of stakeholders (n = 59)
+> Technological barriers (n = 45)
+> Insufficient willingness to share information (n = 42)
+> Lack of clear legal requirements & standards (n = 24)
+
+Meanwhile the enablers include:
+
+> Relative advantages (IPR concerns, reputation gains, new-market access, risk avoidance, marketing)
+> Clear legal requirements
+> Monetary incentives (payments for data)
+> Intrinsic motivation (compatibility with values)
+
+Focusing on food production industries, a brief historical overview of previous efforts in this area may be helpful, to contextualize the discussion. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
 Similar to to *Nutritional Facts Labeling*, *Carbon Labels* provide basic information regarding the emissions' profile of each product,yet taken alone, without a systemic push for carbon reduction, they are insufficient to drive significant behavioral change. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'no antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products. Despite ongoing interest, several studies have shown that the overall impact of carbon labeling on consumer behavior remains negligible. The idea is yet to find mainstream adoption and participation in carbon labeling schemes remains voluntary, with only a limited number of companies implementing such practices, although their numbers are gradually increasing. Notable examples include the U.S.-based restaurant chain *Just Salad* , U.K.-based vegan meat-alternative *Quorn*, and plant milk *Oatly*, all of which provide carbon labeling on their products [@briankatemanCarbonLabelsAre2020]. [@climatepartnerLabellingCarbonFootprint2020] Companies like ClimatePartner and Carbon Calories offers labeling consumer goods with emission data as a service. [@thecarbontrustHowReduceYour] The Carbon Trust reports it's certified 270000 product emissions' footprints.
 
@@ -930,14 +948,6 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 : Digital Product Passport goals [@strettonDigitalProductPassports2022].
 
 
-
--   @kingProposedUniversalDefinition2023 "influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle." "King et al. propose a universal definition of a Digital Product Passport Ecosystem (DPPE) as a “system-of-systems,” synthesizing stakeholder requirements and concerns from the EU’s open consultation on the Sustainable Products Initiative 
-"
-
--   @bergerFactorsDigitalProduct2023 challenges with Electric Vehicle Batterys."This study provides empirical insights into the perceived potential of DPP adoption for electric-vehicle batteries within Sustainable Product Management (SPM), highlighting technical, organizational and policy barriers 
-
-" @bergerDataRequirementsAvailabilities2023 proposes Digital Battery Passports "Berger et al. (Sci. Dir. 2023) survey EV-battery value-chain actors to map their data requirements and current availabilities, laying groundwork for a future Digital Battery Passport 
-"
 
 -   @vancapelleveenAnatomyPassportCircular2023 literature overview
 
