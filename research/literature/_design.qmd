@@ -885,7 +885,15 @@ Even though *digital product passports* relate heavily to adopting a circular ec
 : The 9 R strategies from [@potting2017circular].
 
 There's extensive literature on the use Digital Product Passports (DPP) at specific industries and for particular use cases, often focused on improved efficiencies. [@plociennikDigitalLifecyclePassport2022] details the use of Digital Product Passports and the cloud platform infrastructure to improve e-waste sorting when paired with ML-based object detection.
-[@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance.
+[@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance. [@jensenDigitalProductPassports2023] study of mechatronics supply chains found DPPs *"support decision-making throughout product life cycles in favor of a circular economy"*; specifically: 
+
+> (1) usage and maintenance 
+> (2) identification
+> (3) materials
+> (4) guidelines
+> (5) supply-chain and reverse logistics
+> (6) environmental data
+> (7) compliance
 
 To contextualize the discussion, a brief historical overview of previous efforts in this area may be helpful. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
@@ -922,7 +930,6 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 : Digital Product Passport goals [@strettonDigitalProductPassports2022].
 
 
--   @jensenDigitalProductPassports2023 "support decision-making throughout product life cycles in favor of a circular economy."  "Jensen et al. study three mechatronics supply chains and identify 28 data points for DPPs, clustered into 7 categories: (1) usage & maintenance (2) identification (3) materials (4) guidelines (5) supply-chain & reverse logistics (6) environmental data (7) compliance "
 
 -   @kingProposedUniversalDefinition2023 "influence consumer behavior towards sustainable purchasing and responsible product ownership by making apparent sustainability aspects of a product life cycle." "King et al. propose a universal definition of a Digital Product Passport Ecosystem (DPPE) as a “system-of-systems,” synthesizing stakeholder requirements and concerns from the EU’s open consultation on the Sustainable Products Initiative 
 "
