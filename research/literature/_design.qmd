@@ -366,21 +366,15 @@ As with any contentius issue, when it comes to food, people have differing point
 
 ## In Practice Sustainability Begins in Software
 
-Design encompasses most everything in our daily lives. Humans live in artificial environments where *most things* are designed by humans. The *experiences* we take part in are increasingly created based on some type of data.
+Humans live in artificial environments where *most things* are designed by humans. Design encompasses most everything in our daily lives. The *experiences* we take part in are increasingly created based on some type of data. *Digital Sustainability* refers to the idea that *Digital* enables *Sustainability*: information pertaining to emissions would flow through the economy not unlike the carbon cycle itself. 
 
-Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce the emissions of their designs. Companies like AutoDesk have introduced CO~2e~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing potential for reuse and recyclability [@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
+Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce the emissions of their designs. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. Increasingly, AI-assisted design is where sustainability begins: AI provides the parameters for sustainability. Companies like AutoDesk have introduced CO~2e~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing potential for reuse and recyclability [@mikehaleySustainabilityStartsDesign2022]. As AI tools and data quality improve, a increasing number of parameters for deciding the suitable life cycle design, will become available [@singhArtificialNeuralNetwork2023].
 
--   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
-
--   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
-
-*Digital Sustainability*, information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.[@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *Digital Sustainability*. The chart is purely illustrative to highlight the value of AI for sustainability; it's not based on numeric metrics.
+[@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *Digital Sustainability*. The chart is purely illustrative to highlight the value of AI for sustainability; it's not based on numeric metrics.
 
 ```{python}
 sustainability_ai_six_dimensions()
 ```
-
--   “Research shows that showing people research doesn’t work,” John Sterman
 
 ### Data-Driven Design
 
@@ -480,12 +474,7 @@ In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the Internat
 
 -   Data transparency may help reduce cruelty by improving traceability. Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be"free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims." Cruelty free brands. BCorp. ESG. Increase your investment point by matching with your contribution /. Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this? Precision Fermentation and Cultivated Meat: Meat products without farm animals. Transparency about the polluting factories where the products come from.. the product journey. Tracing emissions from factory pipes... what's the app? virtual factories. Carbon-neutral factories "made in carbon-neutral factory" list of products. Factories should be local and make products that can be repaired. Doconomyoffers an Åland Index that links financial transactions to carbon impact. Planet Factory.
 
--   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
-
 -   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
-
--   @FFCFairFactories Factory compliance - Fair Factories
-
 
 ## Superapps Already Integrate Shopping, Savings, and Investing
 
@@ -583,9 +572,16 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
 
+
 -   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
 
--   @PeopleAIGuidebook
+People working at Google have been designing with AI for a long time and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
+
+The  (Published May 8 2019 Updated May 18 2021) is “a set of methods, best practices and examples for designing with AI.” It draws on “data and insights from over a hundred Googlers, industry experts, and academic research” to organize guidance into patterns and chapters for human-centered AI products 
+
+
+
+
 
 -   @LanguageModelSketchbook
 
@@ -594,6 +590,8 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 -   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
 
 -   AI for design: @figmaAINextChapter2023
+
+
 
 The concept of *Social Objects*: People need something to gather around and discuss. [@labWhatSocialObject2015] I'm interested in the concept of a "social object".
 
