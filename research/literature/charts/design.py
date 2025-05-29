@@ -425,7 +425,7 @@ def sustainability_ai_six_dimensions():
     plt.show()
 
 
-def plot_digital_product_passport_data_categories():
+def digital_product_passport_data_categories():
 
     # Main categories
     main_categories = [

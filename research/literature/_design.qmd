@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false 
-from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions 
+from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions, digital_product_passport_data_categories
 
 import warnings 
 warnings.filterwarnings("ignore")
@@ -936,7 +936,7 @@ Transitioning from simpler carbon labels to data-driven *Digital Product Passpor
 Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be include in a DPP [@tiandaphneWhatDataGoes2023]. A case study of rigid polyurethane foam (PU foam), a lightweight insulation material, explains how Circularise used blockchain and zero-knowledge proof (ZKP) to allow for DPP data-sharing, while retaining privacy and control over the data [@leonTerritorialCircularEcosystems2025; @daphneZeroknowledgeProofsExplained2022].
 
 ```{python}
-plot_digital_product_passport_data_categories()
+digital_product_passport_data_categories()
 ```
 
 The above chart shows data categories used in Digital Product Passports (DPPs) as defined by Circularise.

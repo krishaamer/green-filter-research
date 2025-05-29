@@ -1,6 +1,6 @@
 ```{python}
 #| echo: false
-from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships
+from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships, air_quality_southasia_vs_taiwan
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -1191,18 +1191,18 @@ Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverag
 
 ## Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
 
-Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
+-   Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
 
-"Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
+-   "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
 BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
 
-"Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
+-   "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
-Efforts to connect carbon markets, carbonmark.com
+-   Efforts to connect carbon markets, carbonmark.com
 
-"We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradeable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
+-   "We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradeable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
 
-"Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
+-   "Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
 
-"climate action as an asset-liability problem"
+-   "climate action as an asset-liability problem"
