@@ -46,17 +46,9 @@ Europe has been of a path of transformation from 2023 to 2030.
   src={EUPolicy}
 />
 ```
-The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+-   The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
 
-Timeline of the Policy Context:
-
--   In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy.
-
--   In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures.
-
--   In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022).
-
--   In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+Timeline of the policy context in Europe: In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022). In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
 
 -   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products. The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
 
@@ -486,17 +478,11 @@ In the most general sense, supply chain transparency enables stakeholder account
 
 In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, \[@platzerPerspectiveUrgencyGreen2023}, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
-### Tracking Ethics & Cruelty: Factories Can Become Transparent\*\*
+### Tracking Ethics & Cruelty: Factories Can Become Transparent
 
 -   Data transparency may help reduce cruelty by improving traceability. Traceability and animal rights. Animal rights vs animal welfare. Ethereum blockchain and animal rights. "Blockchain can provide a transparent, immutable record of the provenance of products. This can be especially useful for verifying claims made about animal welfare. For example, products claiming to be"free-range," "organic," or "sustainably sourced" could have their entire lifecycle recorded on the blockchain, from birth to shelf, allowing consumers to verify these claims." Cruelty free brands. BCorp. ESG. Increase your investment point by matching with your contribution /. Point of Sales integration (know the SKU you buy). Integrate to the financial eco footprint (no need to scan the product). What's the name of the startup that does this? Precision Fermentation and Cultivated Meat: Meat products without farm animals. Transparency about the polluting factories where the products come from.. the product journey. Tracing emissions from factory pipes... what's the app? virtual factories. Carbon-neutral factories "made in carbon-neutral factory" list of products. Factories should be local and make products that can be repaired. Doconomyoffers an Åland Index that links financial transactions to carbon impact. Planet Factory.
 
--   Regional supply chains for decarbonising steel: "co-locating manufacturing processes with renewable energy resources offers the highest energy efficiency and cost reduction" Japanese-Australia study [@devlinRegionalSupplyChains2022].
-
--   @stefanklebertCarbonneutralManufacturingPossible2022
-
 -   @vdizentrumressourceneffizienzCarbonneutralGreenFactory2020
-
--   @CO2neutralFactories and @InnocentOpens200m CO~2~ neutral factories?
 
 -   [@MakeYourWebsite; @Ecograder] CO~2~ neutral websites
 
@@ -743,7 +729,9 @@ Ecosia is a search engine with an unconventional business models, investing all 
 
 ### Sustainability Potential of New User Interfaces
 
-Immersive communication technologies such as AR / VR hold the potential to reduce business travel, if productive meetings can be held online, reducing emissions. AI Chatbots and Generative UIs are hugely energy-intentsive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
+Immersive communication technologies such as AR/VR hold the potential to reduce business travel, if productive meetings can be held online, reducing emissions. Likewise, visualizing large architectural projects as well as simulating product design in various industries can reduce cost by detecting problems in the 3D environment, early on in the design process, especially for collaboration in teams located all over the world [@varjoVRDEADStories2025].
+
+AI Chatbots and Generative UIs are hugely energy-intensive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
 
 The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve.[@hoangEnterDynamicIsland2022]: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
 
