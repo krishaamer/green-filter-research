@@ -161,13 +161,16 @@ ESG ratings have faced criticism for lack of standards and failing to account fo
 
 ### Scenario-Building: Avoiding the Worst Futures
 
-Scenario-building is a key tool for sustainability. Because sustainability is so complex, sustainable design cannot always predict certain outcomes but rather can use scenarios to prepare for several possibilities. In sustainability there are rarely good choices. Rather it's a question of avoiding the worst choices. *Life Cycle Assessment* and *Environmental Impact Analysis* are needed to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
+Scenario-building is a key tool for sustainability. Because sustainability is so complex, sustainable design cannot always predict certain outcomes - instead, it can make use of scenarios to prepare for several possibilities. In sustainability, there are rarely good choices. Rather it's a question of avoiding the worst choices. 
 
--   [@RooneyVargaClimateActionSimulation2019] shows the effectiveness of ***The Climate Action Simulation*** in educating users about *success scenarios*.
+One existing tool, which has been widely used is the En-ROADS climate change solutions simulator; governments, organizations and individuals around the world have used it explore climate scenarios based on interactive changes and visualizations [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023; @climateinteractiveEnROADSOnlineSimulator]. Likewise, [@RooneyVargaClimateActionSimulation2019] shows the effectiveness of *The Climate Action Simulation* in educating users about *success scenarios*. *Life Cycle Assessment* and *Environmental Impact Analysis* are another set of useful tools to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
 Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
 
-In the world of software production, user experience and iteration have been the mainstay for a over a decade [@googledesignDesignSpeculativeFutures2019].
+-   @gitcoinpassport2023 discusses ow to build an antifragile scoring system (antifragile passport) inspired by Nassim Taleb's popular book that discusses antifragile systems that get better in difficult situations [@talebAntifragileThingsThat2012]. 
+"Taleb defines “antifragility” as systems that benefit from volatility and stressors, summarizing it in a letter to Nature as “a convex response to a stressor or source of harm (for some range of variation), leading to a positive sensitivity to increase in volatility”" - "Gitcoin Passport’s Unique Humanity Score combines weighted “stamps” (e.g. verified social accounts, GTC/ETH holdings, past Grants participation). Two scoring modes—Gradual and Boolean—are used. To qualify for matching in Gitcoin Grants, users must achieve a score ≥ 15. The team is exploring “Cost of Forgery” metrics to raise the economic barrier against Sybil attacks, making fake identities progressively more expensive to create"
+
+
 
 ### Design for Quality of Life
 
@@ -177,16 +180,12 @@ Wellbeing Economy Governments is an example of country-level collaboration in sh
 
 For example, there's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits. In Bangladesh, [@AMIN2022113224] suggests *"removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits"* for both the economy and the environment. In other words, green energy was a win-win solution, for both the evironmental health and financial wealth.
 
-I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services. Design *is* political.
+Sustainability policy context is shifting around the world. I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services. Design *is* political.
 
 -   @paterPoliticsDesignNot2021
--   10 countries use almost 100% renewable energy
 
-Sustainbility Policy context is Shifting Around the World
 
--   Mitigating Climate Change vs Adapting to Climate Change. Many companies are developing technologies for mitigation.
-
--   Taxes. There have been proposal of a "meat tax". Sustainable Development Goals (SDGs). Kunming-Montreal Global Biodiversity Framework. Montreal protocol near-eradication of chlorofluorocarbons (CfCs) and the ozone holes became whole again.
+-   Mitigating Climate Change vs Adapting to Climate Change. Many companies are developing technologies for mitigation. 10 countries use almost 100% renewable energy. Taxes. There have been proposal of a "meat tax". Sustainable Development Goals (SDGs). Kunming-Montreal Global Biodiversity Framework. Montreal protocol near-eradication of chlorofluorocarbons (CfCs) and the ozone holes became whole again.
 
 [@popkovaTheoryDigitalTechnology2022] argues that SDGs need to discussed in their totality and uses factor analysis to link SDGs to institutions and digital technologies; findings include SDG 3 (Good Health and Well-Being) and SDG 17 (Partnerships for the Goals) progress through institutions in developed countries and are most impacted by digital technologies and digital knowledge index, meanwhile SDG 16 (Peace, Justice and Strong Institutions) makes the most headway in developing countries, which are starting from a lower base. Likewise, the German Institute of Development and Sustainability (IDOS) has built a tool to connect SDGs and their 169 targets to NDCs (Nationally Determined Contributions), looking for synergies for effective climate action plans and sustainable development strategies, visualizing a clear skew which SDGs receive the most climate‐related commitments - SDG 2 (Zero Hunger), SDG 6 (Clean Water and Sanitation), SDG 7 (Affordable and Clean Energy); meanwhile SDG 14 (Life Below Water), and the SDG 3 social goals discussed above, SDG 4 (Quality Education) and SDG 5 (Gender Equality), are the least adressed to climate plans [@dzeboParisAgreementSustainable2023].
 
@@ -232,7 +231,7 @@ In most cases, designing for sustainability makes use of *systems thinking*, und
 
 *Service Design*, [@ceschinEvolutionDesignSustainability2016] shows how design for sustainability has expanded from a product focus to systems-thinking focus placing the product inside a societal context of use. For example [@CargoBikeFREITAG], recycled clothing maker FREITAG offers sustainability-focused services such as cargo bikes so you can transport your purchases and a network for *shopping without payment* = swapping your items with other members, as well as repairs of their products. Loaning terminology from *service design*, the user journey within an app needs to consider each touchpoint on the way to a state of success. *Designing for Trust*, @weinschenk100ThingsEvery2011 says *"People expect most online interactions to follow the same social rules as person-to-person interactions. It's a shortcut that your brain uses to quickly evaluate trustworthiness."*
 
-*Speculative Design* can also help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023] as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021]. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years.
+*Speculative Design* can also help us imagine *non-anthropocentric* [@hupkesShiftingNonanthropocentrismDialogue2022; @edwardsSpeculativeDesignEnvisioning2023] as well as *dystopian* futures [@pintoCreationDystopiasAlternative2021]. First introduced by [@dunneSpeculativeEverythingDesign2013] in their seminal book, the field aims to question the intersection of *user experience design* and *speculative fiction*. [@BARENDREGT2021374] explores the potential of speculative design to stimulate public engagement; thought experiments can spur public debate on an issue chosen by the designer. Phil Balagtas, founder of The Design Futures Initiative at McKinsey, discusses the value of building future scenarios at his talk at Google. His favorite example, the Apple Knowledge Navigator, first appeared in an Apple vision video in 1987 and took two decades to materialize in the real world. It was inspired by a similar device first shown in a 1970s episode of Star Trek as a *magic device* (a term from participatory design), which then inspired subsequent consumer product development. It took another two decades, until the launch of the iPhone in 2007 - a total of 40 years. Iteration has been the mainstay of software design, incrementally improving the user experience, through a continuous feedback loop; yet speculative design can help explore and imagine possible futures by manifesting them in stories, artifacts, and scenarios, empowering stakeholders to prepare for challenges and shape policy, as well as ethical frameworks, beyond strictly product-centered thinking [@googledesignDesignSpeculativeFutures2019].
 
 *Participatory Design* and *Speculative Design* can be complementary as in the work of [@neuhoffFormsParticipatoryFuturing2023], used together to focus on engaging users deep in the design process to truly understand their needs, contexts and interactions on a non-superficial level. For both speculative and participatory design, the cost and makes it into a niche activity. Generative AI holds the promise to allow designers to dream up and prototype quicker. In order to build a future, it's relevant to imagine and critique a future. By being quickly generate prototypes, once can test out ideas with the future users involving more of the community and stakeholders. To be able to build something, one first needs to imagine it; imagination is crucial for change. Speculative Design helps us envision future scenarios and be critical of the current reality, by taking an alternative view-point. A related field, *Design Fiction*, goes even further by creating narratives and artifacts that immerse participants in detailed visions of possible futures, blending storytelling and tangible experiences. The Massachusetts Institute of Technology (MIT) is a source of many fantastic innovations, used to host The Design Fiction group (from September 2013 to May 2018), which designed projects to *"stimulate discussion about the social, cultural, and ethical implications of emerging technologies"*, coming up with design such as a Brain-Controlled Interface for Spermatozoa, the Human Perfume, capturing the smell of the people significant to the author, as well as Pop Roach, for designing edible cockroaches [@liuOverviewBrainControlledInterface2017; @designfictiongroupGroupOverviewDesign2018].
 
@@ -386,8 +385,6 @@ Design encompasses most everything in our daily lives. Humans live in artificial
 
 Designing user interfaces for sustainable interactions means incorporating data and tools to enable designers to make decisions which reduce the emissions of their designs. Companies like AutoDesk have introduced CO~2e~ calculations inside their design software, helping designers reduce material usage, energy consumption, CO~2e~ emissions, while increasing potential for reuse and recyclability [@mikehaleySustainabilityStartsDesign2022]. Software is key to building more sustainable products, already for decades [@guptaAnalysisArtificialIntelligencebased2023]. AI-assisted design enables design for sustainability because the design process is where sustainability begins. AI has the potential to provide the parameters for sustainability. [@singhArtificialNeuralNetwork2023] proposes an AI tool for deciding the suitable life cycle design parameters.
 
-One existing tool, which has been widely used is the En-ROADS climate change solutions simulator; governments, organizations and individuals around the world have used it explore climate scenarios based on interactive changes and visualizations [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023; @climateinteractiveEnROADSOnlineSimulator].
-
 -   Involving young HCI designers in AI-oriented workshops can show the future of UI/UX ? [@battistoniCanAIOrientedRequirements2023]
 
 -   Different Gets Ignored @lukewroblewskiDifferentGetsIgnored2024
@@ -460,8 +457,7 @@ There are several technologies for tracking goods across the supply chain, from 
 
 : Blockchain supply chain companies as of summer 2023 include.
 
--   Embodied Carbon
--   Carbon Neutral Cities Alliance
+-   Embodied Carbon. Carbon Neutral Cities Alliance
 -   @buildersforclimateactionMakingRealZero2021
 
 Encouraging Sustainable Design and Reducing Waste.
@@ -519,9 +515,7 @@ In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the Internat
 
 ## Superapps Already Integrate Shopping, Savings, and Investing
 
-Could there be Sustainability Superapps?
-
--   How to design sustainability superapps? Lots of options in a single app. [@fleetmanagementweeklySustainableSuperappShows2022] "Sustainability and superapps top Gartner's Top 10 2023 Trends List". [@davewallaceRiseCarboncentricSuper2021] "The rise of carbon-centric super apps". [@goodbagGoodbagSustainableSuper2023] "goodbag: Sustainable Super App". What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also [@bernardSustainabilitySuperappsTop2022].
+-   Could there be Sustainability Superapps? How to design sustainability superapps? Lots of options in a single app. [@fleetmanagementweeklySustainableSuperappShows2022] "Sustainability and superapps top Gartner's Top 10 2023 Trends List". [@davewallaceRiseCarboncentricSuper2021] "The rise of carbon-centric super apps". [@goodbagGoodbagSustainableSuper2023] "goodbag: Sustainable Super App". What would a sustainable investment platform that matches green investments with the consumers look like, if one saw the side-by-side comparison of investment vehicles on their ESG performance? Also [@bernardSustainabilitySuperappsTop2022].
 
 -   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear *Fordism* through platform economy and logistics' revolution which allows for circular economies to happen in a city.
 
@@ -576,7 +570,7 @@ Telegram integrates Web3 apps into the chat and supports investing into cryptocu
 
 -   Inspiration from WeChat. X (previously known as Twitter) is becoming a financial app. X (formerly Twitter) is becoming a superapp?
 
-How can the mobile devices which the majority of us are carrying with us every day, help us make decisions about the businesses we engage with? In terms of user experience, can personalized AI advisors empower our financial actions from shopping to saving and investing?
+*Platform Economy* marketplace companies like Airbnb, Uber, among many others match demand to offer, the process optimizing how our cities work.
 
 | Platform Economy Enablers | Pros | Cons |
 |-------------------|------------------------|-----------------------------|
@@ -584,10 +578,6 @@ How can the mobile devices which the majority of us are carrying with us every d
 | Scalability |  |  |
 | Data-driven Design |  |  |
 | Behaviour Design |  |  |
-
--   *Platform Economy* marketplace companies like Airbnb, Uber among many others match optimize how our cities work.
-
--   Platform economy companies have been criticized for their lack of workers rights (ESG). [@RidersSmogPollution2024] uses portable air pollution tracking devices to documents how gig workers are subjected to pollution.
 
 ### Personalization: Personality Engineering and Persuasion
 
@@ -901,17 +891,17 @@ With the increasing electrification of transport, finding ways to deal with the 
 
 They key barriers to adoption from [@bergerFactorsDigitalProduct2023] include:
 
-> Uncertainty of stakeholders (n = 59)
-> Technological barriers (n = 45)
-> Insufficient willingness to share information (n = 42)
-> Lack of clear legal requirements & standards (n = 24)
+> Uncertainty of stakeholders
+> Technological barriers
+> Insufficient willingness to share information
+> Lack of clear legal requirements and standards
 
 Meanwhile the enablers include:
 
-> Relative advantages (IPR concerns, reputation gains, new-market access, risk avoidance, marketing)
 > Clear legal requirements
-> Monetary incentives (payments for data)
-> Intrinsic motivation (compatibility with values)
+> Relative advantages (reputation gains, access to new markets access, risk avoidance, marketing)
+> Monetary incentives (such as payments for data)
+> Intrinsic motivation (compatibility with the values)
 
 Focusing on food production industries, a brief historical overview of previous efforts in this area may be helpful, to contextualize the discussion. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
@@ -934,9 +924,7 @@ Similar to to *Nutritional Facts Labeling*, *Carbon Labels* provide basic inform
 
 : Organization to Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020].
 
-Transitioning from simpler Carbon Labels to data-driven Digital Product Passports requires comprehensive data collection, digital infrastructure, industry collaboration, regulatory frameworks and consumer engagement.
-
--   product's history, composition, and environmental impact.
+Transitioning from simpler carbon labels to data-driven *Digital Product Passports* requires comprehensive data collection on product's history, composition, and environmental impact, digital infrastructure, industry collaboration, regulatory frameworks, and consumer engagement.
 
 | Goal | Description |
 |----------------------------------------------|--------------------------|
@@ -947,12 +935,13 @@ Transitioning from simpler Carbon Labels to data-driven Digital Product Passport
 
 : Digital Product Passport goals [@strettonDigitalProductPassports2022].
 
+[@vancapelleveenAnatomyPassportCircular2023] conducted a comprehensive, structured review of 200 academic papers on Digital Product Passports and related concepts, including circular, product, material, resource, recycling, and cradle-to-cradle variants, assessing dimensions such as historical developments, stakeholders, goals, challenges, and designs for solutions, in order to formalize the concept and its boundaries, finally synthesizing a unified definition:
+
+> *“a digital interface composing a certified identity of a single identifiable product by accessing the set of life cycle registrations linked to this object in order to yield insight into the sustainability and circularity characteristics, the circular value estimation, and the circular opportunities for both that product and its underlying components and materials.”*
+
+Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be include in a DPP [@tiandaphneWhatDataGoes2023].
 
 
--   @vancapelleveenAnatomyPassportCircular2023 literature overview
+### Towards Sustainable Product Management 
 
--   Sustainable Product Management: @korzhovaSustainableProductManagement2020
-
--   What data does a digital product passport hold? @tiandaphneWhatDataGoes2023
-
--   @gitcoinpassport2023 discusses ow to build an antifragile scoring system (antifragile passport) inspired by Nassim Taleb's popular book that discusses antifragile systems that get better in difficult situations [@talebAntifragileThingsThat2012].
+[@gnanasambandamSustainabilityPrivacyDiversity2022] describes responsible product management as embedding privacy, sustainability, and inclusion into product design as core priorities, not afterthoughts. [@korzhovaSustainableProductManagement2020] works as a Sustainable Product Manager at Grover, an online platform which offers product for rent; she details how rentals-based business model has saved 360 tons of devices from going to waste (the author compares the amount to about 15 truckloads of devices), which sums up to 4275 tons of CO₂ savings.
