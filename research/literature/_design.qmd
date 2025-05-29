@@ -581,23 +581,19 @@ Telegram integrates Web3 apps into the chat and supports investing into cryptocu
 
 ### Personalization: Personality Engineering and Persuasion
 
+Kazuo Ishiguro’s book *"Klara and the Sun"*, narrated through the eyes of an AF (artifical friend) - Klara - describes the feeling of loneliness of a robot; the story offers a cautionary counterpoint, illustrating how even the most loyal and emotionally attuned AI companion could be perceived as uncanny or insufficiently human (at least, this is how it happens in the book); this example, while fictional, underscores the delicate balance required when designing AI companions for sustainability: persuasion must feel personal, but not performative [@ishiguroKlaraSun2021; @waterstonesKazuoIshiguroKlara2021; @lifelessonsfrombooksKlaraSunKazuo2023].
+
 AI labs are putting a lot of effort into engineering likable AIs, working on honesty of the modelds, teaching them to convey their own uncertainty [@anthropicClaudesCharacter2024; @anthropicWhatShouldAIs2024]; Which sometimes can go wrong. ChatGPT-4o overnight became your biggest fan, which users found annoying; the abrupt shift to an overly enthusiastic persona drew user backlash [@mollickPersonalityPersuasion2025]. And it also felt jarring, if you already got used to a certain persona and it suddenly changed.
 
--   "Kazuo Ishiguro’s Klara and the Sun offers a cautionary counterpoint, illustrating how even the most loyal and emotionally attuned AI can be perceived as uncanny or insufficiently human. These examples underscore the delicate balance required when designing AI companions for sustainability: persuasion must feel personal, but not performative."" the book, an AF (artifical friend) Klara describes loneliness @ishiguroKlaraSun2021; @waterstonesKazuoIshiguroKlara2021; @lifelessonsfrombooksKlaraSunKazuo2023
+
 
 -   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
 
--   Data-driven design has limitations. Coputer,One mode
+-   Data-driven design has limitations. Coputer,One mode. "Digital sustainability principles". Eminent journal Design Studies, 1st design journal
 
 -   @koningsHowPrepareYour2020
 
--   "Digital sustainability principles"
-
--   Eminent journal Design Studies, 1st design journal
-
--   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills:
-
--   Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
+-   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills: Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
 
 -   @ComprehensiveGuideDesign
 
@@ -621,7 +617,7 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   AI for design: @figmaAINextChapter2023
 
-The concept of *Social Objects*: People need something to gather around and discuss. @labWhatSocialObject2015: I'm interested in the concept of a "social object".
+The concept of *Social Objects*: People need something to gather around and discuss. [@labWhatSocialObject2015] I'm interested in the concept of a "social object".
 
 *Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
@@ -796,7 +792,6 @@ Popular Strava (100+ million users) sports assistant provides run tracking and f
 <Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
 ```
 -   @ryanEthicsDietaryApps2022 uses the "capability methodology" to evaluate if apps help people eat healthily.
-
 -   @baptistaSystematicReviewSmartphone2022 apps for sleep apnea
 
 Human behavior is affected by the environment; example in case, the incidence of bad behavior during the pandemic increased significantly.
@@ -939,7 +934,7 @@ Transitioning from simpler carbon labels to data-driven *Digital Product Passpor
 
 > *“a digital interface composing a certified identity of a single identifiable product by accessing the set of life cycle registrations linked to this object in order to yield insight into the sustainability and circularity characteristics, the circular value estimation, and the circular opportunities for both that product and its underlying components and materials.”*
 
-Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be include in a DPP [@tiandaphneWhatDataGoes2023].
+Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be include in a DPP [@tiandaphneWhatDataGoes2023]. A case study of rigid polyurethane foam (PU foam), a lightweight insulation material, explains how Circularise used blockchain and zero-knowledge proof (ZKP) to allow for DPP data-sharing, while retaining privacy and control over the data [@leonTerritorialCircularEcosystems2025; @daphneZeroknowledgeProofsExplained2022].
 
 
 ### Towards Sustainable Product Management 
