@@ -1274,3 +1274,25 @@ def sustainable_consumption_relationships():
     plt.title('Variance Explained by Factors')
     plt.tight_layout()
     plt.show()
+
+
+def air_quality_southasia_vs_taiwan():
+
+    df = pd.read_csv(os.path.join(data_dir, 'aqli_global.csv'))
+    countries = ['India', 'Bangladesh', 'Pakistan', 'Taiwan']
+    years = list(range(1998, 2023))
+    
+    plt.figure()
+    for country in countries:
+        row = df[df['name'] == country]
+        if row.empty:
+            continue
+        pm_values = [row[f'pm{year}'].values[0] for year in years]
+        plt.plot(years, pm_values, label=country)
+
+    plt.xlabel('Year')
+    plt.ylabel('PM2.5 concentration (µg/m³)')
+    plt.title('PM2.5 Trends: ' + ', '.join(countries) + ' (1998–2022)')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()

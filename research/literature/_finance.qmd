@@ -157,6 +157,12 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 
 These issues do not pertain only to legacy industries. With the increase of gig-work, platform economy companies have been criticized for their lack of concerns for workers rights (S in ESG). In the absence of continunous assessment, sometimes intrepid journalists come in to cover the issues. One example is the coverage by [@siddiquiRidersSmogPollution2024], using portable Atmotube Pro air pollution tracking devices (the same device I use myself) to document how gig workers across South Asia, from India to Bangladesh to Pakistan are subjected to pollution, finding PM2.5 exposure 10x over the WHO daily guideline, shortening lives (according to the Air Quality Life Index) by 11.9 years in New Delhi, 8.1 years in Dhaka, and 7.5 years in Lahore, respectively. Air quality varies dramatically between places, however taking the global average in 2022, if fine particulate pollution were reduced to meet the WHO guideline, a person would have gained 1 year and 11 months of life expectancy [@AirQualityLife2022].
 
+```{python}
+air_quality_southasia_vs_taiwan()
+```
+
+The above charts shows a comparions of air quality trends in South Asia vs Taiwan; while air pollution has increased in India, Bangladesh, and Pakistan, Taiwan has returned to the pollution levels of 1990s.
+
 ### Environmental, Social, and Corporate Governance: Criteria for a Shared Language
 
 Since the 1970s, international bodies, governments, and private corporations have developed sustainability measurement metrics, the prominent one being ESG (Environmental, Social, and Corporate Governance) developed by the UN in 2005. This rating system has already been implemented or is in the process of being adopted on stock markets all over the world and has implications beyond the stock markets, allowing analysts to measure companies' performance on the triple bottom line: the financial, social, and environmental metrics.

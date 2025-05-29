@@ -423,3 +423,61 @@ def sustainability_ai_six_dimensions():
 
     # Show the spider graph
     plt.show()
+
+
+def plot_digital_product_passport_data_categories():
+
+    # Main categories
+    main_categories = [
+        "Product Identification", "Materials", "Product Design",
+        "Technical Specifications", "Product Lifecycle",
+        "Installation & Maintenance", "Material Composition",
+        "Microplastics", "Environmental Impact", "Repair & Replace",
+        "Reuse & Recycling Information", "Product Maintenance",
+        "Warranty Information", "Energy Recovery"
+    ]
+
+    # Subcategories for "Substances of Concern"
+    subcategories = [
+        "Substances: Identification",
+        "Substances: Usage & Handling",
+        "Substances: Lifecycle Tracking",
+        "Substances: End-of-Life Management"
+    ]
+
+    # Combine into one list of labels and equal sizes
+    labels = main_categories + subcategories
+    sizes = [1] * len(labels)
+
+    # Generate distinct colors using a colormap
+    cmap = plt.get_cmap('tab20')
+    colors = cmap(np.linspace(0, 1, len(labels)))
+
+    fig, ax = plt.subplots(figsize=(8, 8))
+
+    # Create the donut chart
+    wedges, _ = ax.pie(
+        sizes,
+        colors=colors,
+        startangle=90,
+        counterclock=False,
+        wedgeprops=dict(width=0.3, edgecolor='white')
+    )
+
+    # Center text
+    ax.text(0, 0, 'Digital Product\nPassport', ha='center', va='center', fontsize=14, weight='bold')
+
+    # Add legend listing all labels
+    ax.legend(
+        wedges,
+        labels,
+        title='Data Categories',
+        loc='center left',
+        bbox_to_anchor=(1, 0.5),
+        frameon=False
+    )
+
+    ax.set_aspect('equal')
+    plt.title("Digital Product Passport Data Categories", pad=20)
+    plt.tight_layout()
+    plt.show()
