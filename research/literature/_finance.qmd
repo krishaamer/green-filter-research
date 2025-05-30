@@ -855,9 +855,11 @@ Traditionally, the true cost of products is hidden. The work is hidden. The firs
 econ_history_chart()
 ```
 
+-   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear *Fordism* through platform economy and logistics' revolution which allows for circular economies to happen in a city.
+
 There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021].
 
-The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 looking to involve more broad-based metrics in developing their societies[@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. [@giacaloneWellbeingAnalysisItalian2022] looks at wellbeing of Italian communities and proposes a new composite index. There's also work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
+The Wellbeing Economy Alliance (WEAll) countries (New Zealand, Iceland, Finland, Scotland, Wales) as well as the EU and Canada, started the coalition in 2018 looking to involve more broad-based metrics in developing their societies [@ellsmoorNewZealandDitches2019; @davidsuzukifoundationWellbeingEconomies2021; @ceprFairSustainableProsperous2022; @scottishgovernmentWellbeingEconomyGovernments2022; @wellbeingeconomyallianceWhatWellbeingEconomy2022]. [@giacaloneWellbeingAnalysisItalian2022] looks at wellbeing of Italian communities and proposes a new composite index. There's also work ongoing on macroeconomic modeling, aiming to create a *digital twin* of the economy. Some of the most complex computer models of the economy include the Global Integrated Monetary and Fiscal Model (GIMF) [@laxtonGlobalIntegratedMonetary2010] and DSGE (Dynamic stochastic general equilibrium).
 
 ### Hidden Costs: Pricing Externalities
 
@@ -934,6 +936,8 @@ CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS co
 ```{python}
 growth_brics()
 ```
+
+In practice, there's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits. In Bangladesh, [@AMIN2022113224] suggests *"removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits"* for both the economy and the environment. In other words, green energy is a win-win solution, for both the evironmental health and financial wealth.
 
 There are still low-hanging fruits to be picked in terms of energy efficiency. [@devlinRegionalSupplyChains2022] analysed regional steel supply chains between Australia and Japan, finding that co-locating steel manufacturing with renewable energy sources would provide the highest energy efficiency, reducing energy consumption by up to 45%; moreover, a carbon tax of 43-123 USD per tonne of CO₂e would mitigate the "green premium". [@stefanklebertCarbonneutralManufacturingPossible2022] CEO of GEA, a large producer of machinery and heat pumps, highlights that heating and cooling account for between 50-90% of energy use in processing plants; deploying state-of-the-art heat pump technology can half CO₂e emissions; large-scale carbon-neutral manufacturing is already possible with existing technologies. 
 
