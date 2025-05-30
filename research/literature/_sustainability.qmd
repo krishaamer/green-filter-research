@@ -71,7 +71,7 @@ climate_tipping_points()
 
 ### Measuring CO~2~e Emissions
 
-Technology improves and measurements have become more accurate yet CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports the latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables*"[@thecopernicusclimatechangeserviceClimatePulse2024].
+Technology improves and measurements have become more accurate yet CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports the latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables*"[@thecopernicusclimatechangeserviceClimatePulse2024]. Using simple python code and freely available images from online datasets, it's increasingly possible for anyone to detect deforestion, as in this example of geospatial analysis from Amazon AWS [@patelAwssamplesAwssmslgeospatialanalysisdeforestation2025; @awsSageMakerStudioLab2022].
 
 One major cross-cutting category the IPCC tracks separately is LULUCF (Land Use, Land-Use Change, and Forestry). Depending on whether forests are being cleared or restored, LULUCF can act as a net greenhouse-gas source or as a powerful carbon sink that removes CO₂ from the atmosphere. LULUCF also links to biodiversity protection. [@chenResponseEcosystemVulnerability2023] looked at the Poyang Lake in China between 2010-2020, finding ecosystem vulnerability rose by 18% with human activities (land-use change, urban expansion, components of LULUCF, also reported in international media, see [@scarrDevoured2021] for images) as the dominant driver, followed by climate factors. [@xieEcologicalCivilizationChina2021] mapped pollution sources in 14 vulnerable areas in China, including the Poyang Lake, and underlined the need for real-time monitoring of ecosytem health.
 
@@ -295,9 +295,9 @@ There are 3 approaches that address the complex interdependence of humans with o
 
 *Social Cost of Carbon* attempts to measures the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
 
-*Earth System Law* is a framework rooted in the legal sciences for addressing interconnected environmental challenges in a hyper-connected Earth, where climate feedbacks and environmental thresholds don't respect country borders; in practice, this line of thinking helps to develop carbon-budget clauses inside trade deals and biodiversity "safety brakes" that trigger when monitoring data shows an Earth boundary overshoot, potentially acting as the legal scaffolding that lets Planetary Health prescriptions and Social Cost of Carbon price signals be effective [@dutoitReimaginingInternationalEnvironmental2022].
+*Earth System Law* is a framework rooted in the legal sciences for addressing interconnected environmental challenges in a hyper-connected Earth, where climate feedbacks and environmental thresholds don't respect country borders; in practice, this line of thinking helps to develop carbon-budget clauses inside trade deals and biodiversity "safety brakes" that trigger when monitoring data shows an Earth boundary overshoot, potentially acting as the legal scaffolding that lets Planetary Health prescriptions and Social Cost of Carbon price signals be effective [@dutoitReimaginingInternationalEnvironmental2022]. 
 
-More recently, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most of humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C , 21–39 % or 2–4 billion people will be exposed by 2080–2100.
+More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposes a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most of humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C , 21–39 % or 2–4 billion people will be exposed by 2080–2100.
 
 ## Ecosystem Services: Quantifying Human Benefits from Nature
 
@@ -311,11 +311,7 @@ Earth's biosphere is made up of 846 terrestrial ecoregions, which are distribute
 
 ### Using Ecological Indicators to Track Environmental Health
 
-Sustainability can be measured using a variety of *ecological indicators*.
-
-Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health.
-
-Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+Sustainability can be measured using a variety of *ecological indicators*. Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health. Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
 
 *Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNa is being used to generate biodiversity credits by environmental asset rating companies such as BeZero, a ratings agency for the Voluntary Carbon Market [@ojoatreTriallingEDNABiodiversity2023].
 
@@ -382,6 +378,8 @@ taiwan_pollution_reports_stacked()
 ```
 
 Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].
+
+[@abuelkheir-matariaClimateChangeWomens2025] finds warming climate in the MENA region (Middle East and North Africa) increases cancer risk in women, mediated through air pollution and other environmental stressors.
 
 **Air Pollution**
 

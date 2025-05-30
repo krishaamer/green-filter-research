@@ -378,13 +378,9 @@ sustainability_ai_six_dimensions()
 
 ### Data-Driven Design
 
-Learning from the Growth of Digital Platforms and Superapps.
+I believe it's possible to learn from the growth of digital platforms and superapps to see how data-driven design could enable sustainability to become mainstream. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
 
-Data-Driven Design Enables Sustainability. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
-
-Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. Superapps are the latter stage of the Digital Platform Economy, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services.
-
-For digital products (apps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+Digital platforms are focused on *Growth Design*, how to *attract* and *retain* users. Superapps are the latter stage of the economies of digital platforms, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services. For digital products (including superapps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
 Platform economy companies popularized and expanded Data-Driven Design in the service of growth marketing (also known colloquially as growth hacking). Capturing User Data was part of this strategy which enabled improving the products. Digital Product Design is increasingly data-driven. Digital platforms operate a *design as a process* in a continuous feedback loop, where *measurements*, *experiments,* predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data.
 
@@ -395,6 +391,8 @@ Design is as much about how it works as it's about the interface. There are many
 Simplifying.
 
 *Personalization*: the largest businesses today (measured in number of users) design the whole user experience in order to reach *Scale*. Intelligent Interfaces use interaction design to provide relevant and personalized information in the right context and at the right time. Popular consumer platforms strive to design solutions that feel personalized at every touchpoint on the user journey (to use the language of service design) at the scale of hundreds of billions of users. Businesses care about Total addressable market (TAM), serviceable addressable market (SAM), target audience (TA), and use hypothesis and validation for iterating on features, to reach these lofty goals.
+
+- Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
 
 ### Circular Design for a Circular Economy
 
@@ -554,13 +552,13 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 
 
--   Personalization, Personal User Experience. social apps require personalization, *trust* and *k-factors* (sharing and inviting your friends). [@baronLessonsBuildingViral2023; @kimYouHaveLightning2023].
+
 
 -   Data-driven design has limitations. Coputer,One mode. "Digital sustainability principles". Eminent journal Design Studies, 1st design journal
 
 -   @koningsHowPrepareYour2020
 
--   Part of digital product design are *design systems* to keep consistency across the experience. Create a design system to best to showcase my analytic skills: Design System: https://zeroheight.com/8bf57183c/p/82fe98-introduction
+-   Part of digital product design are *design systems* to keep consistency across the experience yet the latest[@DesignSystems2025] survey (n = 294) showed that over 53% of design systems are minimally or not automated and only 10% of the designer actively use AI, with 36% having experimented. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
 
 -   @ComprehensiveGuideDesign
 
@@ -570,17 +568,12 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   @AtomicDesignBrad
 
--   @kolkoThoughtsInteractionDesign2010 and @ixdfWhatInteractionDesign believe interaction design is still an emerging (and changing) field and there are many definitions. I prefer the simplest version: interaction design is about creating a conversation between the product and the user.
+
 
 
 -   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
 
 People working at Google have been designing with AI for a long time and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
-
-The  (Published May 8 2019 Updated May 18 2021) is “a set of methods, best practices and examples for designing with AI.” It draws on “data and insights from over a hundred Googlers, industry experts, and academic research” to organize guidance into patterns and chapters for human-centered AI products 
-
-
-
 
 
 -   @LanguageModelSketchbook
@@ -606,6 +599,8 @@ The concept of *Social Objects*: People need something to gather around and disc
 -   @jeffjohnrobertsDigitalArtAwaits2020
 
 *Narrative Design,* humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality, Stories start with a character..
+
+*Interaction Design*, according to [@kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign], who believe it's still an emerging (and changing) field (at least it was in 2010) and there are many versions of definitions. I prefer to simply say: interaction design is about creating a conversation between the product and the user.
 
 -   Writing as training data? large language models. GTP3.
 
