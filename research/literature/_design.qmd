@@ -28,11 +28,9 @@ import AbstractDesign from '../images/design/abstract-design.png'
 
 ## Eco-Design: Design as Political Action at Scale
 
-Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
+Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021]. The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023] and has been a driving force of transformative climate legislation in Europe.
 
-We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-Designing the right legislative measures can be hugely impactful. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+Designing the right legislative measures can be hugely impactful. The EU "Green Deal" legislative strategy is comprehensive. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
 Europe has been of a path of transformation from 2023 to 2030.
 
@@ -46,11 +44,20 @@ Europe has been of a path of transformation from 2023 to 2030.
   src={EUPolicy}
 />
 ```
--   The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023].
+-   .
 
-Timeline of the policy context in Europe: In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries (@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022). In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in @europeancommissionCircularEconomyAction2022. Each product covered by the policy is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases. It's safe to say the large majority of products available today do not meet these criteria.
+Timeline of the policy context in Europe: 
 
--   @europeancommissionEcodesignSustainableProducts2022 Ecodesign for sustainable products. The EU "Green Deal" legislative strategy is comprehensive. Eco-Design is a Key EU Sustainable Policy Design Tool.
+* In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. 
+* In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries [@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022]. 
+* In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in [@europeancommissionCircularEconomyAction2022]. 
+
+* The European Commission is planning to propose a legally-binding 90% emissions reduction from 1990 levels to be achieved by 2040; however political pushback by governments is likely to weaken the goal, by for example allowing the use of carbon credits (thus far, all the goals needed to be achieved within the borders of EU; buying carbon credits from places outside the EU would not be counted as emissions reduction) [@weiseBrusselsProposePragmatic2025].
+
+Each product covered by the Ecodesign for sustainable products policy is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022]. It's safe to say the large majority of products available today do not meet these criteria.
+
+-    Ecodesign for sustainable products. . Eco-Design is a Key EU Sustainable Policy Design Tool. We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
+
 
 ```{python}
 eu_green_deal()
@@ -571,24 +578,29 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 
 
--   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021
-
-People working at Google have been designing with AI for a long time and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
+-   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021 "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
 
 
--   @LanguageModelSketchbook
+People working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
 
--   @parundekarEssentialGuideCreating2021
+
+-   @LanguageModelSketchbook "Maggie Appleton’s note “Language Model Sketchbook, or Why I Hate Chatbots” (Planted almost 2 years ago) argues that chatbots are “the lazy solution” and only “the obvious tip of the iceberg.” She presents three prototype concepts—Daemons, Branches, and Epi—for more subtle, “epistemic rubber-ducky” interfaces to interact with language models "
+
+-   @parundekarEssentialGuideCreating2021 "Rahul Parundekar’s “The Essential Guide to Creating an AI Product in 2020” (28 min read · Mar 14 2020) presents a lean, MVP-driven approach. He warns of “costly AI project pitfalls that could end up causing delays running into months” and links UX metrics to ML targets, noting that an 80 percent accurate model means “1 in 5 user requests being unsatisfied” and UX can break if prediction time exceeds one second"
 
 -   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
 
--   AI for design: @figmaAINextChapter2023
+-   @richardyangInteractionDesignMore2021“Interaction design is more than just user flows and clicks” (9 min read · Feb 14 2021) introduces “interaction cost” as the sum of mental and physical efforts, cites Nielsen Norman’s frameworks, and highlights that “Miller’s Law states that the average person can only keep 5 to 11 items in their working memory,” while advising designers to focus on three core skills for mastery"
+
+*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
+
+-   @justinbakerRedRoutesCritical2018 "Justin Baker’s “Red Routes — Critical Design Paths That Make or Break Your App” (Apr 14 2018) defines red routes as end-to-end tasks that “capture 90 percent or more of your user’s actions.” He traces the concept back to London roads introduced in 1991, notes that “over 2 million developers have joined DZone,” and shows how identifying these routes drives business metrics"
+
+-   AI for design: @figmaAINextChapter2023 "Noah Levin’s “AI: The next chapter in design” (June 21 2023) recounts that “Three years ago, Jordan tweeted a GPT-3 based plugin” and “Two years later, he founded Diagram,” and celebrates that the Figma community has built “nearly 100 AI-powered plugins,” framing AI as a core platform capability that will elevate design workflows"
 
 
 
 The concept of *Social Objects*: People need something to gather around and discuss. [@labWhatSocialObject2015] I'm interested in the concept of a "social object".
-
-*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
 -   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
 -   What percent of all design is "sustainable design" ? Promoting sustainable design.
