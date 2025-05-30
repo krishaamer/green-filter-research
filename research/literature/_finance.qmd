@@ -592,9 +592,7 @@ Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made
 
 ### Sustainable Investing: Measuring the Eco-Investment Gap
 
-By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022].
-
-According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
+By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
 
 ```{python}
 climate_finance_gap_sectors_timeline()
@@ -608,7 +606,7 @@ climate_finance_gap_sectors()
 
 The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1-2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
 
-Bad news. It would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
+-   Bad news. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
 The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
 
@@ -799,8 +797,7 @@ The volatility of the markets has notably shifted crypto research towards pricin
 crypto_pricing_theories()
 ```
 
-For example, in X research an index of major sustainability news was compared with crypto prices, which may have negative, positive, or no correlation with the following cryptocurrencies.
-
+-   For example, in X research an index of major sustainability news was compared with crypto prices, which may have negative, positive, or no correlation with the following cryptocurrencies.
 
 ### Regenerative Finance (ReFi) and DAOs
 
@@ -942,7 +939,7 @@ growth_brics()
 
 There are still low-hanging fruits to be picked in terms of energy efficiency. [@devlinRegionalSupplyChains2022] analysed regional steel supply chains between Australia and Japan, finding that co-locating steel manufacturing with renewable energy sources would provide the highest energy efficiency, reducing energy consumption by up to 45%; moreover, a carbon tax of 43-123 USD per tonne of CO₂e would mitigate the "green premium". [@stefanklebertCarbonneutralManufacturingPossible2022] CEO of GEA, a large producer of machinery and heat pumps, highlights that heating and cooling account for between 50-90% of energy use in processing plants; deploying state-of-the-art heat pump technology can half CO₂e emissions; large-scale carbon-neutral manufacturing is already possible with existing technologies. 
 
-One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilisers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydro-power in Denmark) sources [@CO2neutralFactories]. 
+One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilisers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydro-power in Denmark) sources [@CO2neutralFactories]. The Green Transition Denmark think-thank has published a report calculating that the complete decarbonization of Denmark by 2040 would cost about 6.2 billion Danish krone (close to $1 Billion USD) per year, achieving full net-zero emissions, full electrification of road transport, electrification of 75% of industry and 30% of heating, capping biomass use at 10.5 PJ (petajoules) to boost forest carbon storage by 1.6 Mt CO₂, expand forests by 290 000 ha, and reduce farmland by 34%, while producing 90 PJ of green fuels [@mollerEnergyPlanetaryBoundaries2024].
 
 Already in 2019, Alois Müller built an example "Green Factory" in Ungerhausen, where a 1.1 MW rooftop photovoltaic system supplies 2/3 of the electricity (feeding excess power to the grid), combined with a heat and power boiler powered by biogas and pellets (note: pellets have become very controversial as their sustainability highly depends on the source material), a 100000 liter buffer tank for waste heat, and a 230 kWh lithium battery [@vdizentrumressourceneffizienzCarbonneutralGreenFactory2020].
 
@@ -983,7 +980,11 @@ Green investing only makes sense if it's possible to distinguish sustainable inv
 
 Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019]. EU’s Ecodesign Regulation for Sustainable Products (ESPR) requires mandatory documentation of environmental impacts for all product categories, bans self-declared green claims by, and sets out specific design criteria, including durability, reparability, recycled content, remanufacturing, lifecycle impacts, and waste prevention [@nastaraanvadoodiEcodesignRequirementsDrive2022]. Until new legislation is ramped up to shift from linear to circular product development, building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
 
-While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection [@fredericsimonCommissionFireIncluding2020 and @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how "A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program".
+While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection, due to oversight or private business interests and lobbists [@fredericsimonCommissionFireIncluding2020; @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how wood pellets may be counted as an sustaiable energy source, even though they cause deforestation:
+
+>  *"A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program"* - [@boothBurningCarbonSink2022].
+
+While new EU legislation for deforestation-free products may eventually solve this issue (or at least mitigate the worst outcomes), the application of these laws is delayed as of writing [@europeancommissionApplicationEUDRRegulation2024; @parrishOverviewUpdatedEUDR2025]. In the US, a large wood pellet producer Enviva filed for bankruptcy protection after being sued for misleading the public about the sustainability of its products, yet managed to survive and is now again expanding its biomass business; likewise, Drax Group, another large pellet producer managed continues business after a public backlash [@diverClearCutTruthBiomass2025; @millardDraxMisledGovernment2025; @catanosoEnvivaBankruptcyFallout2024].
 
 In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as"home compostable" don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
 
@@ -1203,7 +1204,7 @@ Citywealth’s "ESG branding with B-Corps" guide shows how companies can leverag
 
 ## Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
 
--   Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature.
 
 -   "Companies in industries with the biggest carbon footprints aren't reporting how their emissions feed into financial risk, according to an analysis of corporate reports by the Carbon Tracker Initiative." [@francesschwartzkopffFirmsArenReporting2022]
 
