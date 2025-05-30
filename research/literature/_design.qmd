@@ -167,7 +167,6 @@ Sustainability policy context is shifting around the world. I was torn whether t
 
 -   @paterPoliticsDesignNot2021
 
-
 -   Mitigating Climate Change vs Adapting to Climate Change. Many companies are developing technologies for mitigation. 10 countries use almost 100% renewable energy. Taxes. There have been proposal of a "meat tax". Sustainable Development Goals (SDGs). Kunming-Montreal Global Biodiversity Framework. Montreal protocol near-eradication of chlorofluorocarbons (CfCs) and the ozone holes became whole again.
 
 [@popkovaTheoryDigitalTechnology2022] argues that SDGs need to discussed in their totality and uses factor analysis to link SDGs to institutions and digital technologies; findings include SDG 3 (Good Health and Well-Being) and SDG 17 (Partnerships for the Goals) progress through institutions in developed countries and are most impacted by digital technologies and digital knowledge index, meanwhile SDG 16 (Peace, Justice and Strong Institutions) makes the most headway in developing countries, which are starting from a lower base. Likewise, the German Institute of Development and Sustainability (IDOS) has built a tool to connect SDGs and their 169 targets to NDCs (Nationally Determined Contributions), looking for synergies for effective climate action plans and sustainable development strategies, visualizing a clear skew which SDGs receive the most climate‐related commitments - SDG 2 (Zero Hunger), SDG 6 (Clean Water and Sanitation), SDG 7 (Affordable and Clean Energy); meanwhile SDG 14 (Life Below Water), and the SDG 3 social goals discussed above, SDG 4 (Quality Education) and SDG 5 (Gender Equality), are the least adressed to climate plans [@dzeboParisAgreementSustainable2023].
@@ -273,43 +272,43 @@ Global warming leading to droughts and extreme weather, wars and conflicts incre
 
 [@patelBlockchainTechnologyFood2023] livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally.
 
+-   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation. Global Reporting Iniative.
 
-@SustainabilityIntelligenceFood
 
-@OpenFoodFacts app for nutrition and sustainability data
+-   [@SustainabilityIntelligenceFood]
+
+-   [@OpenFoodFacts] app for nutrition and sustainability data
 
 **Fishing**
 
--   75% of fishing is done using industrial Trawling, which has environmental impact
+In total, the world catches around 200 million tonnes of fish and seafood every year [@ritchieFishOverfishing2021]. Precise and recent data about the fishing industry is hard to come by. However, by some estimates, industrial fishing accounts for approximately 75% of the entire global catch, the rest being artisanal fishing; 26% of the catch is caught using bottom trawling and dredges, which are highly damaging to the natural environment; and 10-12% using mid-water (pelagic) trawls, which are somewhat less intrusive; around 20-30% of the fish is caught using large nets; around 6-7% using industrial longlines (both surface level and deep-set); and the rest is caught using a variety of other fishing gear [@jacquetReimaginingSustainableFisheries2022; @hilbornEvaluatingSustainabilityEnvironmental2023; @cashionReconstructingGlobalMarine2018; @amorosoBottomTrawlFishing2018]. About 10.8 % of total catch is discarded; bottom-trawling alone accounts for 46% of discards [@perezrodaThirdAssessmentGlobal2019].[@salaProtectingGlobalOcean2021] notes that only 2.7% of the world ocean is highly protected and calls for a globally coordinated effort to protect marine biodiversity.
 
--   @baileyMappingActorsArguments2020 shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable? Mostly this means fish-farming
+-   [@baileyMappingActorsArguments2020] shows how the Norwegian government plans to increase salmon production 5x by 2050. How can this be sustainable? Mostly this means fish-farming
 
--   Sustainability Accounting Standards Board, part of the International Financial Reporting Standards Foundation. Global Reporting Iniative.
 
--   @RealityLabsResearch2022
+-   [@RealityLabsResearch2022]
 
--   @watersEthicsChoiceAnimal2015 **(Need access!)**
+-   [@watersEthicsChoiceAnimal2015]
 
--   @cawthornControversialCuisineGlobal2016 **(Need access! ncku doesn't subsribe)**
+-   [@cawthornControversialCuisineGlobal2016]
 
--   @gamborgAttitudesRecreationalHunting2017 **(Need access!)**
+-   [@gamborgAttitudesRecreationalHunting2017]
 
--   @neethirajanDigitalLivestockFarming2021 using biometric sensors to track livestock sustainability.
+-   [@neethirajanDigitalLivestockFarming2021] using biometric sensors to track livestock sustainability.
 
--   @incGlanceAlexandriaRealTime
+-   [@incGlanceAlexandriaRealTime]
 
--   @timnicolleFintechLendingWhose2017
+-   [@timnicolleFintechLendingWhose2017]
 
--   EAT-Lancet diet
 
 **Culture, Community, Cuisine, Storytelling**
 
 Culture can be a proponent of sustainability. Food is about enticing human imagination and taste buds. Potato used to be a newcomer and innovative crop in Europe, and now it's so common, Europeans forget it's no originally from Europe. Food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop [@aubreystreitkrugPathwaysPerennialFood2023].
 
--   @tsingMushroomEndWorld2015 mushrooms
+-   [@tsingMushroomEndWorld2015] mushrooms
 -   IARC warns aspartame (artificial sweetener found in many soft drinks) could cause cancer \[ADD CITATION\].
--   @yapLifeCycleAssessment2023 Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
--   @kiesslingWhatPotentialDoes2023 Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
+-   [@yapLifeCycleAssessment2023] Singapore disposes of 900,000 tonnes of plastic waste out of which only 4% is recycled.
+-   [@kiesslingWhatPotentialDoes2023] Single-use plastics make up 44-68% of all waste mapped by citizen scientists.
 
 **Food Waste**
 
@@ -326,7 +325,7 @@ There are several initiatives to reduce food waste by helping people consume foo
 |--------------------------|----------------------------------------------|
 | Karma |  |
 | ResQ Club | [@kristinakostapLEVITASONAUus2022] ResQ Club in Finland and Estonia for reducing food waste by offering a 50% discount on left-over restaurant meals before they are thrown away. |
-| Kuri | @hajejankampsKuriAppThat2022 Less impact of food |
+| Kuri | [@hajejankampsKuriAppThat2022] Less impact of food |
 | Social media groups (no app) |  |
 
 : Food saving apps
@@ -343,17 +342,17 @@ As with any contentius issue, when it comes to food, people have differing point
 
 : Perspective on food systems in Sweden from [@ROOS2023107623].
 
--   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture @balticseaactiongroupEITFoodRegenerative2023
+-   "regenag", Václav Kurel, we need help consumers demand regenerative agriculture [@balticseaactiongroupEITFoodRegenerative2023]
 
--   @kommendaWouldCarbonFood2022 Carbon Food Labels
+-   [@kommendaWouldCarbonFood2022] Carbon Food Labels
 
 -   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers." "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce." [@stall-paquetFreshCityRise2021]
 
--   @reneesalmonsenAsiaLargestVertical2018: Vertical farm in Taoyuan
+-   [@reneesalmonsenAsiaLargestVertical2018]: Vertical farm in Taoyuan
 
--   @catherineshuSoutheastAsiaFarmtotable2023: *Intensive Farming Practices vs* Farm to table
+-   [@catherineshuSoutheastAsiaFarmtotable2023]: *Intensive Farming Practices vs* Farm to table
 
--   @akshatrathiChrisSaccaReturns2021 and @lowercarboncapitalLowercarbonCapital2023 climate startup funding.
+-   [@akshatrathiChrisSaccaReturns2021; @lowercarboncapitalLowercarbonCapital2023] climate startup funding.
 
 -   Only make what is ordered.
 
@@ -397,7 +396,7 @@ To take a specific industry, digitization of mining systems allows enhance the r
 
 The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic - and resulting blockages in resource delivery - highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021]. Moreover, in the context of the EU Plastics Strategy, "the European Commission has launched a pledge to increase the use of recycled content to 10 million tons by 2025".
 
-Already in 2020, a company founded to solve these exact issues, Circularise, and funded in part by the EU Commission H2020 SME Instrument, developed a privacy-focused blockchain-based data exchange protocol for tracing plastics across supply chains, aiming to boost transparency and circularity [@circulariseCirculariseRaisesMillion2020]. Circularise launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" @circulariseEuPCCircularisePlastics2020. Circularise is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022].
+Already in 2020, a company founded to solve these exact issues, Circularise, and funded in part by the EU Commission H2020 SME Instrument, developed a privacy-focused blockchain-based data exchange protocol for tracing plastics across supply chains, aiming to boost transparency and circularity [@circulariseCirculariseRaisesMillion2020]. Circularise launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" [@circulariseEuPCCircularisePlastics2020]. Circularise is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022].
 
 -   *"Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) is one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least 3 key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."*
 
@@ -407,9 +406,9 @@ Several startups are using to track source material arriving to the factories an
 
 There are several technologies for tracking goods across the supply chain, from shipping to client delivery. Data entry is a combination of manual data input and automated record-keeping facilitated by sensors and integrated internet of things (IoT) capabilities. For example [@ashrafPrototypeSupplyChain2023] describes using the Solana blockchain and Sigfox internet of things (IoT) Integration for supply chain traceability where Sigfox does not need direct access to internet but can send low powered messages across long distances (for example shipping containers on the ocean). [@vanwassenaerTokenizingCircularityAgrifood2023] compares use cases for blockchains in enhancing traceability, transparency and cleaning up the supply chain in agricultural products.
 
--   . How to reuse old paint? Small projects can have large social impact. For example, @DURIEZ2022454 shows how simply by reducing material weight it's possible to design more sustainable transportation.
+-   For example, [@DURIEZ2022454] shows how simply by reducing material weight it's possible to design more sustainable transportation.
 
--   @wagenvoortSelfdrivingSupplyChains2020 Self-driving supply chains.. (contact Japanese factory?)
+-   [@wagenvoortSelfdrivingSupplyChains2020] Self-driving supply chains.. (contact Japanese factory?)
 
 | Company | Link | Literature | Comments |
 |------------------|------------------|-------------------|------------------|
@@ -423,20 +422,20 @@ There are several technologies for tracking goods across the supply chain, from 
 | Wabi | wabi.io |  |  |
 | FairFood | fairfood.org |  |  |
 | Bext360 | bext360.com |  |  |
-| SUKU | suku.world | @millerCitizensReserveBuilding2019 SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
+| SUKU | suku.world | [@millerCitizensReserveBuilding2019] SUKU makes supply chains more transparent | Seems to have pivoted away from supply chains |
 
 : Blockchain supply chain companies as of summer 2023 include.
 
 -   Embodied Carbon. Carbon Neutral Cities Alliance
--   @buildersforclimateactionMakingRealZero2021
+-   [@buildersforclimateactionMakingRealZero2021]
 
 Encouraging Sustainable Design and Reducing Waste.
 
 [@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
--   @mcgintyHowBuildCircular2020: How to Build a Circular Econom
+-   [@mcgintyHowBuildCircular2020]: How to Build a Circular Econom
 
--   "Circular Petrochemicals" @langeCircularCarbochemicalsMetamorphosis2021
+-   "Circular Petrochemicals" [@langeCircularCarbochemicalsMetamorphosis2021]
 
 -   Recycling critical raw materials, EIT RawMaterials
 
@@ -459,7 +458,7 @@ In the most general sense, supply chain transparency enables stakeholder account
 
 : Share of CO~2~ of CO~2~ emissions by type of transport globally [@statistaGlobalTransportCO22022].
 
-In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, \[@platzerPerspectiveUrgencyGreen2023}, a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
+In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, \[@platzerPerspectiveUrgencyGreen2023], a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
 ### Tracking Ethics & Cruelty: Factories Can Become Transparent
 
@@ -497,14 +496,14 @@ Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and 
 | **Revolut** | UK | UK / EU | Customers | Yes | Yes | Yes | 50 million | 2024 | @revolutRevolutHits502024 |
 | **Careem** | UAE (Aqcuired by US-based Uber and Etisalat but still keeps a separate brand) | United Arab Emirates, Saudi Arabia, Jordan, Iraq, Kuwait, Morocco Bahrain, Pakistan, Egypt, Morocco | Customers | Yes | No | No | 70 million | 2024 | @careemCareems2024Wrapup2025 |
 | **Grab** | Singapore / Malaysia | SEA | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 | @grabholdingslimitedGrabReportsFourth2025 |
-| **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | Yes | Yes | No | 30 million | 2023 | @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024 |
+| **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | Yes | Yes | No | 30 million | 2023 | [@phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024] |
 
 Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as
 
 | **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Uber | USA | Global | Users per month | No (Only for ride-hailing) | No | No | 171 million | 2025 | @uberUberAnnouncesResults2025 |
-| Bolt | Estonia | Global | Lifetime users | No (Only for ride-hailing) | No | No | 200 million | 2025 | @garciaBoltAcquiresDanish2025 |
+| Uber | USA | Global | Users per month | No (Only for ride-hailing) | No | No | 171 million | 2025 | [@uberUberAnnouncesResults2025] |
+| Bolt | Estonia | Global | Lifetime users | No (Only for ride-hailing) | No | No | 200 million | 2025 | [@garciaBoltAcquiresDanish2025] |
 
 Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
 
@@ -514,13 +513,13 @@ Alipay has build the digital infrastructure to provide thousands of services to 
 
 
 
-Superapps offer a platform with key infrastructure such as payments, where miniapps thrive @perriWhatSuperapp2022; [@heathRiseSuperApp2021].
+Superapps offer a platform with key infrastructure such as payments, where miniapps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021].
 
 ### Aspiring Superapps
 
 There are many companies which aspire to build superapps but are hindered by various challenges.
 
-Telegram integrates Web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. [@pylarinouTelegramsJourneyWeb32024]. Likewise, LINE is integrating Web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions @hintzyLINEsEvolutionSuper2025
+Telegram integrates Web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. [@pylarinouTelegramsJourneyWeb32024]. Likewise, LINE is integrating Web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions [@hintzyLINEsEvolutionSuper2025].
 
 [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to other markets.
 
@@ -549,40 +548,40 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   Data-driven design has limitations. Coputer,One mode. "Digital sustainability principles". Eminent journal Design Studies, 1st design journal
 
--   @koningsHowPrepareYour2020
+-   [@koningsHowPrepareYour2020]
 
--   Part of digital product design are *design systems* to keep consistency across the experience yet the latest[@DesignSystems2025] survey (n = 294) showed that over 53% of design systems are minimally or not automated and only 10% of the designer actively use AI, with 36% having experimented. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
+-   Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) showed that over 53% of design systems are minimally or not automated and only 10% of the designer actively use AI, with 36% having experimented. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
 
--   @ComprehensiveGuideDesign
+-   [@ComprehensiveGuideDesign]
 
--   @suarezDesignSystemsHandbook
+-   [@suarezDesignSystemsHandbook]
 
--   @MethodPodcastEpisode
+-   [@MethodPodcastEpisode]
 
--   @AtomicDesignBrad
-
-
+-   [@AtomicDesignBrad]
 
 
--   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? @lindenWhatRoleAI2021 "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
+
+
+-   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? [@lindenWhatRoleAI2021] "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
 
 
 People working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
 
 
--   @LanguageModelSketchbook "Maggie Appleton’s note “Language Model Sketchbook, or Why I Hate Chatbots” (Planted almost 2 years ago) argues that chatbots are “the lazy solution” and only “the obvious tip of the iceberg.” She presents three prototype concepts—Daemons, Branches, and Epi—for more subtle, “epistemic rubber-ducky” interfaces to interact with language models "
+-   [@LanguageModelSketchbook] "Maggie Appleton’s note “Language Model Sketchbook, or Why I Hate Chatbots” (Planted almost 2 years ago) argues that chatbots are “the lazy solution” and only “the obvious tip of the iceberg.” She presents three prototype concepts—Daemons, Branches, and Epi—for more subtle, “epistemic rubber-ducky” interfaces to interact with language models "
 
--   @parundekarEssentialGuideCreating2021 "Rahul Parundekar’s “The Essential Guide to Creating an AI Product in 2020” (28 min read · Mar 14 2020) presents a lean, MVP-driven approach. He warns of “costly AI project pitfalls that could end up causing delays running into months” and links UX metrics to ML targets, noting that an 80 percent accurate model means “1 in 5 user requests being unsatisfied” and UX can break if prediction time exceeds one second"
+-   [@parundekarEssentialGuideCreating2021] "Rahul Parundekar’s “The Essential Guide to Creating an AI Product in 2020” (28 min read · Mar 14 2020) presents a lean, MVP-driven approach. He warns of “costly AI project pitfalls that could end up causing delays running into months” and links UX metrics to ML targets, noting that an 80 percent accurate model means “1 in 5 user requests being unsatisfied” and UX can break if prediction time exceeds one second"
 
--   @richardyangInteractionDesignMore2021 and @justinbakerRedRoutesCritical2018 say some of the tools used by interaction designers include
+-   [@richardyangInteractionDesignMore2021; @justinbakerRedRoutesCritical2018] say some of the tools used by interaction designers include
 
--   @richardyangInteractionDesignMore2021“Interaction design is more than just user flows and clicks” (9 min read · Feb 14 2021) introduces “interaction cost” as the sum of mental and physical efforts, cites Nielsen Norman’s frameworks, and highlights that “Miller’s Law states that the average person can only keep 5 to 11 items in their working memory,” while advising designers to focus on three core skills for mastery"
+-   [@richardyangInteractionDesignMore2021] Interaction design is more than just user flows and clicks” (9 min read · Feb 14 2021) introduces “interaction cost” as the sum of mental and physical efforts, cites Nielsen Norman’s frameworks, and highlights that “Miller’s Law states that the average person can only keep 5 to 11 items in their working memory,” while advising designers to focus on three core skills for mastery"
 
 *Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
 
--   @justinbakerRedRoutesCritical2018 "Justin Baker’s “Red Routes — Critical Design Paths That Make or Break Your App” (Apr 14 2018) defines red routes as end-to-end tasks that “capture 90 percent or more of your user’s actions.” He traces the concept back to London roads introduced in 1991, notes that “over 2 million developers have joined DZone,” and shows how identifying these routes drives business metrics"
+-   [@justinbakerRedRoutesCritical2018] "Justin Baker’s “Red Routes — Critical Design Paths That Make or Break Your App” (Apr 14 2018) defines red routes as end-to-end tasks that “capture 90 percent or more of your user’s actions.” He traces the concept back to London roads introduced in 1991, notes that “over 2 million developers have joined DZone,” and shows how identifying these routes drives business metrics"
 
--   AI for design: @figmaAINextChapter2023 "Noah Levin’s “AI: The next chapter in design” (June 21 2023) recounts that “Three years ago, Jordan tweeted a GPT-3 based plugin” and “Two years later, he founded Diagram,” and celebrates that the Figma community has built “nearly 100 AI-powered plugins,” framing AI as a core platform capability that will elevate design workflows"
+-   AI for design: [@figmaAINextChapter2023] "Noah Levin’s “AI: The next chapter in design” (June 21 2023) recounts that “Three years ago, Jordan tweeted a GPT-3 based plugin” and “Two years later, he founded Diagram,” and celebrates that the Figma community has built “nearly 100 AI-powered plugins,” framing AI as a core platform capability that will elevate design workflows"
 
 
 
@@ -590,11 +589,11 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 -   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
 -   What percent of all design is "sustainable design" ? Promoting sustainable design.
--   @joshluberTradingCardsAre2021 Trading cards are cool again
--   @jesseeinhornNewBalance6502020
--   @connieloizosMarcyVenturePartners2021
--   @natashamascarenhasQueenlyMarketplaceFormalwear2021
--   @jeffjohnrobertsDigitalArtAwaits2020
+-   [@joshluberTradingCardsAre2021] Trading cards are cool again
+-   [@jesseeinhornNewBalance6502020]
+-   [@connieloizosMarcyVenturePartners2021]
+-   [@natashamascarenhasQueenlyMarketplaceFormalwear2021]
+-   [@jeffjohnrobertsDigitalArtAwaits2020]
 
 *Narrative Design,* humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality, Stories start with a character..
 
@@ -624,7 +623,7 @@ Data-driven design requires access to data, making the movement towards *open da
 
 | Country | Project | Reference |
 |------------------|-------------------------------|-----------------------|
-| Sweden | Swedish open data portal | @SverigesDataportal |
+| Sweden | Swedish open data portal | [@SverigesDataportal] |
 | Malaysia | Malaysian open data portal | data.gov.my |
 | Singapore | Singapore ESG open data platform | [@monetaryauthorityofsingaporeMASLaunchesDigital2023] |
 
@@ -646,15 +645,15 @@ Google uses nudges in Google Flights and Google Maps, which allow filtering flig
 
 In [@katebrandtGoogleClimateAction2022], Google's Chief Sustainability Officer Kate Brandt set a target of "at least 20-25%" CO~2~ emission reductions in Europe to reach a net-zero economy and the global announcement set a target of helping 1 billion people make more sustainable choices around the world [@jenimilesBecomingSustainabilityAwareApp2022]. In addition to end--users, Google offers digital decarbonization software for developers, including the Google Cloud Carbon Footprint tool and invests in regenerative agriculture projects [@GoogleRegenerativeAgriculture2021; @googleCarbonFootprint2023].
 
--   Google VERY IMPORTANT @googleGoogleSustainabilityHelping2021.
+-   Google VERY IMPORTANT [@googleGoogleSustainabilityHelping2021].
 
-Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping @GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025
+Google has launched eco–focused features across its range of products, most famously Google green routes for driving, which collaborate with local city governments to have data from the semaphores, which allows the map to suggest routes which would reduce stopping [@GoogleMostraraPor2021; @worthingtonGooglesClimateTightrope2025]
 
 While Google has launched several climate-focused initiatives, it missed its CO2 reduction targets due to growing need for AI models @worthingtonGooglesClimateTightrope2025
 
--   @justinecalmaGoogleLaunchesNew2021 Google UX eco features.
+-   [@justinecalmaGoogleLaunchesNew2021] Google UX eco features.
 
-@sarahperezGoogleRollsOut2022 shows how Google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? @GoogleAirbrushesOut2022
+[@sarahperezGoogleRollsOut2022] shows how Google added features to Flights and Maps to filter more sustainable options. How CO2 is shown by Google starts hiding emissions? [@GoogleAirbrushesOut2022]
 
 | Feature | Product | Nudge |
 |---------------------------|-------------------|---------------------------|
@@ -669,7 +668,7 @@ While Google has launched several climate-focused initiatives, it missed its CO2
 :::
 
 ```{=mdx}
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />w
+<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
 ```
 Some notable examples:
 
@@ -717,7 +716,7 @@ Immersive communication technologies such as AR/VR hold the potential to reduce 
 
 AI Chatbots and Generative UIs are hugely energy-intensive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
 
-The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve.[@hoangEnterDynamicIsland2022]: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space.
+The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. These are questions that interaction design is called upon to solve.[@hoangEnterDynamicIsland2022]: *"Dynamic interfaces might invoke a new design language for extended reality". it's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space).
 
 Speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language.
 
