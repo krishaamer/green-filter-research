@@ -33,6 +33,8 @@ Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year,
 
 Timeline of the policy context in Europe: In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990, set to become a binding law for all EU member countries [@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022]. In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in [@europeancommissionCircularEconomyAction2022]. 
 
+-   *"Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) is one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least 3 key markets by 2024" "Connecting the Value Chain, One Product at a Time".
+
 Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
 | Feature | Benefit |
@@ -76,15 +78,15 @@ In the countries that make up the European Union (EU), a wide range of legislati
 
 The EU is also concerned with supply-chain deforestation. The ESPR (Sustainable Products) and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from December 2024 and June 2025 for small businesses. The EU also has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable]. The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed (as of writing) [@ScientistsUrgeEuropean2023] and is facing a backlash [@davidpintoBacklashNatureRestoration2023].
 
-Certainly Europe is not the only region legislating to promote sustainability. There are legislative efforts around the world and several jurisdictions have passed laws which aim to reduce the environmental impact of products throughout their lifecycles. In the US, the *Inflation Reduction Act* provided funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023]. In Australia, the Product Stewardship (PS) scheme also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have Sustainable Procurement schemes prioritizing greener products in public purchases \[ADD CITATION\].
+Certainly Europe is not the only region legislating to promote sustainability. There are legislative efforts around the world and several jurisdictions have passed laws which aim to reduce the environmental impact of products throughout their lifecycles. In the US, the *Inflation Reduction Act* provided funding to development of de-carbonizing technologies and includes plans to combat air pollution, reduce green house gases and address environmental injustices [@rajagopalanInflationReductionAct2023]. In Australia, the Product Stewardship (PS) scheme also includes an investment fund targeted at increasing the recycling rates of specific products [@australiangovernmentProductStewardshipAustralia2024]. Australia, Japan, and Taiwan all have sustainable procurement schemes, prioritizing greener products in public purchases [@australia_sustainable_procurement_2025; @taiwan_moenv_green_procurement_2024; @japan_act_promoting_green_procurement_2000].
 
 Sustainability policy context is shifting around the world. I was torn whether to place *politics* under *sustainability* or *design*, and decided for the latter - as sustainability is mostly *descriptive*, using science to measure and present the real situation, while design is *prescriptive*: codifying decisions about how do we live - in products and services. Design *is* political.
 
 ### Beyond Recycling: Return, Repair, Reuse
 
-There's a growing number of companies providing re-use of existing items.
+The universal recycling symbol creator Gary Anderson created the symbol when he was an architecture student at USC (University of Southern California) in 1970 at the age of 23, inspired by Silent Spring, Earth Day, the Bauhaus, Bucky Fuller, Spaceship Earth, printing presses, and the Woolmark logo for wool industry certification, and even the Mobius strip, for a competition held by a packaging firm that was making paper containers for packaging [@swapsocietyRecyclingSymbolDesigner2023].
 
--   The universal recycling symbol creator Gary Anderson created the symbol when he was an architecture student in California, USC (uni southern california) in 1970 at the age of 23, inspired by Silent Spring, Earth Day, and Bauhaus, Buccky Fuller, Spaceship Earth, printing presses, and the Woolmark logo for wool industry certification, and the Mobius strip, for a competition hold by a packaging firm that was making paper containers for packaging [@swapsocietyRecyclingSymbolDesigner2023].
+There's a growing number of companies providing re-use of existing items.
 
 -   The power of defaults. Make the sustainable option the default @gigerenzerWhyHeuristicsWork2008 "simple heuristics built from basic rules; how heuristics are selected and structured in social and physical environments; concept of ecological rationality to identify the environmental conditions under which particular heuristics succeed or fail"
 
@@ -296,6 +298,8 @@ Designing user interfaces for sustainable interactions means incorporating data 
 sustainability_ai_six_dimensions()
 ```
 
+Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) shows that over 53% of design systems are minimally automated or not automated at all - and only 10% of the designers actively use AI, with 36% having experimented with AI-driven design. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
+
 ### Data-Driven Design
 
 I believe it's possible to learn from the growth of digital platforms and superapps to see how data-driven design could enable sustainability to become mainstream. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required.
@@ -322,11 +326,11 @@ Circular design is only possible if supply chains become circular as well. [@hed
 
 To take a specific industry, digitization of mining systems allows enhance the reliability of supply chains, and provides better supply chain transparency [@crmallianceEITRawMaterials2020]. This does not only include tracking the critical raw materials, but also the social aspects surround the mine. While this rarely makes the international media, [@eerolaCorporateConductCommodity2022] maps 20 ongoing mining and mineral-exploration disputes in Finland, calling for systematic dispute monitoring, in order to maintain a social license to operate.
 
-The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic - and resulting blockages in resource delivery - highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021]. Moreover, in the context of the EU Plastics Strategy, "the European Commission has launched a pledge to increase the use of recycled content to 10 million tons by 2025".
+The complexity of resource and delivery networks necessitates more advanced tools to map supply chains [@knightFutureBusinessRole2022]. The COVID19 pandemic - and resulting blockages in resource delivery - highlighted the need to have real-time visibility into supply chains [@finkenstadtBlurryVisionSupply2021]. Moreover, in the context of the EU Plastics Strategy, *"the European Commission has launched a pledge to increase the use of recycled content to 10 million tons by 2025"*.
+
+-   "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."*
 
 Already in 2020, a company founded to solve these exact issues, Circularise, and funded in part by the EU Commission H2020 SME Instrument, developed a privacy-focused blockchain-based data exchange protocol for tracing plastics across supply chains, aiming to boost transparency and circularity [@circulariseCirculariseRaisesMillion2020]. Circularise launched an “Open Standard for Sustainability and Transparency” based on blockchain technology & Zero-knowledge Proofs" [@circulariseEuPCCircularisePlastics2020]. Circularise is currently the market leader in providing *Digital Product Passports* [@strettonDigitalProductPassports2022].
-
--   *"Ecodesign for Sustainable Products Regulation (part of the Sustainable Products Initiative) is one of the key actions under the Circular Economy Action Plan (CEAP). The goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passport in at least 3 key markets by 2024" "Connecting the Value Chain, One Product at a Time". "Circularise aims to overcome the communication barrier that is limiting the transition to a circular economy with an open, distributed and secure communications protocol based on blockchain technology."*
 
 It's important in which structure data is stored, affecting the ability to efficiently access and manage the data while guaranteeing a high level of data integrity, security, as well as energy usage of said data. Blockchains are a type of shared database where the data is stored in several locations with a focus on making the data secure and very difficult to modify after it's been written to the database. Once data is written to the blockchain, modifying it would require changing all subsequent records in the chain and agreement of the majority of validators who host a version of the database. Blockchain is the main technology considered for accounting for the various inputs and complex web of interactions between many participants inside the supply chain networks.
 
@@ -350,12 +354,12 @@ There are several technologies for tracking goods across the supply chain, from 
 
 : Blockchain supply chain companies as of summer 2023 include.
 
+Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+
 -   Embodied Carbon. Carbon Neutral Cities Alliance
 -   [@buildersforclimateactionMakingRealZero2021]
 
 Encouraging Sustainable Design and Reducing Waste.
-
-[@liuGlobalPerspectiveEwaste2023] reports, e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 -   [@mcgintyHowBuildCircular2020]: How to Build a Circular Econom
 
@@ -467,8 +471,6 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 -   Data-driven design has limitations. Coputer,One mode. "Digital sustainability principles". Eminent journal Design Studies, 1st design journal
 
 -   [@koningsHowPrepareYour2020]
-
--   Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) showed that over 53% of design systems are minimally or not automated and only 10% of the designer actively use AI, with 36% having experimented. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
 
 -   [@ComprehensiveGuideDesign]
 
