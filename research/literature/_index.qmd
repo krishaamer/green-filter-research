@@ -13,38 +13,37 @@ The literature review branches out to 5 main directions and maps out relationshi
 ```{=mdx}
 <Figure caption="Example papers from the Literature Review" src={Literature} />
 ```
-
 ::: {.content-hidden unless-format="pdf"}
 ![Example papers from the Literature Review](./images/literature/literature.png){width="100%"}
 :::
 
 ### Sources
 
-There is currently no single platform that hosts all scientific journals leading me to source scientific papers from 
+There is currently no single platform that hosts all scientific journals leading me to source scientific papers from
 
--   ScienceDirect
--   Nature
--   the Lancet
--   Oxford Academic
--   Semantic Scholar
--   JSTor
--   Google search.
+1.  ScienceDirect
+2.  Nature
+3.  the Lancet
+4.  Oxford Academic
+5.  Semantic Scholar
+6.  JSTor
+7.  Google search.
 
+### Statement of AI Usage in Research
 
-### AI Usage in Research
+I'm a long time AI-assistant user.
 
-I'm a long time AI-assistant user. AI was used for
+AI was used for
 
-- search
-- data comparison
-- data science
-- chart-building
-- translation
-- feedback
-- editing
-- ranking citations' relevance to excisting body of writing
+1.  Search
+2.  Data comparison
+3.  Data science
+4.  Chart-building
+5.  Translation
+6.  Feedback
+7.  Editing
+8.  Ranking citations' relevance to excising body of writing
 
 AI was *NOT* used for writing.
 
-a visulisation of incremental changes to the thesis can be seen on the github repository as update commits as well as in the visualisation below.
-
+A visualization of incremental changes to the thesis can be seen on the GitHub repository as update commits as well as in the visualization below.
