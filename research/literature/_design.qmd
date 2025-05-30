@@ -28,64 +28,11 @@ import AbstractDesign from '../images/design/abstract-design.png'
 
 ## Eco-Design: Design as Political Action at Scale
 
-Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021]. The EU Commission has been releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023] and has been a driving force of transformative climate legislation in Europe.
+Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. The monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021]. Designing the right legislative measures can be hugely impactful. The EU "Green Deal" legislative strategy is comprehensive and backed by science, with the EU Commission has releasing strategic foresight reports since 2020 [@europeancommissionStrategicForesight2023] and becoming a driving force of transformative climate legislation in Europe. 
 
-Designing the right legislative measures can be hugely impactful. The EU "Green Deal" legislative strategy is comprehensive. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
+Timeline of the policy context in Europe: In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990, set to become a binding law for all EU member countries [@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022]. In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in [@europeancommissionCircularEconomyAction2022]. 
 
-Europe has been of a path of transformation from 2023 to 2030.
-
-::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="EU Policy Context Timeline'"
-  src={EUPolicy}
-/>
-```
--   .
-
-Timeline of the policy context in Europe: 
-
-* In 2019 by the von der Leyen commission adopted the European Union (EU) Green Deal strategy. In 2021 the Commision proposed a goal of reducing CO2e emissions by 55% by 2030 under the *Fit for 55* policy package consisting of a wide range of economic measures. 
-* In November 2022, the proposal was adopted by the EU Council and EU Parliament with an updated goal of 57% of CO2e reductions compared to 1990. This proposal is set to become a binding law for all EU member countries [@europeancommissionEuropeanGreenDeal2019; @europeancommissionSustainableEurope20302019; @EUReachesAgreement2022; @europeancouncilFit55EU2022]. 
-* In March 2022, the EU Circular Economy Action Plan was adopted, looking to make sustainable products *the norm* in EU and *empowering consumers* as described in [@europeancommissionCircularEconomyAction2022]. 
-
-* The European Commission is planning to propose a legally-binding 90% emissions reduction from 1990 levels to be achieved by 2040; however political pushback by governments is likely to weaken the goal, by for example allowing the use of carbon credits (thus far, all the goals needed to be achieved within the borders of EU; buying carbon credits from places outside the EU would not be counted as emissions reduction) [@weiseBrusselsProposePragmatic2025].
-
-Each product covered by the Ecodesign for sustainable products policy is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022]. It's safe to say the large majority of products available today do not meet these criteria.
-
--    Ecodesign for sustainable products. . Eco-Design is a Key EU Sustainable Policy Design Tool. We have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy.
-
-
-```{python}
-eu_green_deal()
-```
-
-In the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals have exists across diverse countries. It's not that the EU didn't have an overarching environmental policy before; rather it was more vague and filled with loop-holes. Upcoming laws aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022]. From the legislative perspective, NFRD (Non-Financial Reporting Directive) is replaced by CSRD (Corporate Sustainability Reporting Directive) and ESRS reporting is the standard to meet CSRD requirements.
-
-Director of the French environmental NGO Pôle Eco-conception, eco-design is "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
-
-The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from December 2024 and June 2025 for small businesses.
-
-The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed (as of writing) [@ScientistsUrgeEuropean2023] and is facing a backlash [@davidpintoBacklashNatureRestoration2023].
-
-The EU has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable].
-
-Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
-
-### Beyond Recycling: Return, Repair, Reuse
-
--   There's a growing number of companies providing re-use of existing items.
-
--   @SmartSwap For example, Swap furniture in Estonia
-
--   universal recycling symbol creator Gary Anderson created the symbol when he was an architecture student in California, USC (uni southern california) in 1970 at the age of 23, inspired by Silent Spring, Earth Day, and Bauhaus, Buccky Fuller, Spaceship Earth, printing presses, and the Woolmark logo for wool industry certification, and the Mobius strip, for a competition hold by a packaging firm that was making paper containers for packaging @swapsocietyRecyclingSymbolDesigner2023
-
--   The power of defaults. Make the sustainable option the default @gigerenzerWhyHeuristicsWork2008 "simple heuristics built from basic rules; how heuristics are selected and structured in social and physical environments; concept of ecological rationality to identify the environmental conditions under which particular heuristics succeed or fail"
-
--   standardising reuse across the globe, a body to create a reuse standard is holding a competition to create e reuse symbol
+Consumer products' overall life-cycle environmental impact is defined in the design process by the materials and energy resources needed and the post-consumer potential for reuse or recycling. In the context of the European Union, *eco-design* has gained political support from European Commission as part of the EU's *"Green Deal"* legislative strategy, aiming to transform European economies into sustainability leaders [@commissionEcodesignYourFuture2014]. The Ecodesign for Sustainable Products Regulation (ESPR) entered into force in July 2024 [@europeancommissionEcodesignSustainableProducts2024] following the [@europeanparliamentEcodesignSustainableProducts2022] proposal whereby the European Commission established a general framework for *eco-design: "requirements for sustainable products, repealing rules \[referring to the previous Eco-Design Directive (2009/125/EC)\] currently in force which concentrate on energy-related products only,"* setting up a level playing-field for the organizations operating on the EU single market. Virginijus Sinkevičius, the EU Commissioner for the Environment, Oceans and Fisheries, is quoted as describing eco-design as design that *"respects the boundaries of our planet"* [@europeancommissionGreenDealNew2022].
 
 | Feature | Benefit |
 |------------------------------------|------------------------------------|
@@ -100,6 +47,49 @@ Europe is transforming into a hotbed of sustainability. One of the EU goals is r
 | Resource Efficient | Reduce product's use of raw materials and energy during production and life-cycle |
 
 : The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022].
+
+Eco-Design for sustainable products is a key EU sustainable policy design tool and each product covered by the ESPR is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022]. It's safe to say the large majority of products available today do not meet these criteria. Given this far-reaching legislative effort, we have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy. The Director of the French environmental NGO Pôle Eco-conception describes eco-design as "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
+
+The European Commission is set to propose a legally-binding 90% emissions reduction from 1990 levels to be achieved by 2040; however, political pushback by governments is likely to weaken the goal; the EU climate chief Teresa Ribera is looking for ways to find pragmatic solutions, by, for example, considering some use of carbon credits (thus far, all the goals needed to be achieved within the borders of EU; buying carbon credits from places outside the EU would not be counted as emissions reduction) [@weiseBrusselsProposePragmatic2025].
+
+::: {.content-hidden unless-format="pdf"}
+![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="EU Policy Context Timeline'"
+  src={EUPolicy}
+/>
+```
+
+The above chart shows how the European Union has been on a path of climate legislation transformation.
+
+```{python}
+eu_green_deal()
+```
+
+The above chart illustrated the European "Green Deal".
+
+In the countries that make up the European Union (EU), a wide range of legislative proposals, targets, organizations, and goals have existed for decades. It's not that the EU didn't have an overarching environmental policy before; rather it was  vague and filled with loop-holes. Upcoming laws cited above aim to harmonize approaches to sustainability and raise standards for all members states, in turn influencing producers who wish to sell in the EU common market. National governments need to adapt EU legislation to local contexts. For example Estonian government adopted the Estonian Green Deal Action Plan (Eesti Rohepöörde Tegevusplaan) [@eestivabariigivalitsusRohepoordeTegevusplaan2022]. From the legislative perspective, NFRD (Non-Financial Reporting Directive) is replaced by CSRD (Corporate Sustainability Reporting Directive) and ESRS reporting is the standard to meet CSRD requirements.
+
+The EU also has a *taxonomy of environmentally sustainable economic activities* published by the Technical Expert Group (TEG) on sustainable finance, as detailed in the report by [@EUTaxonomySustainable].
+
+The EU is also concerned with supply-chain deforestation. Sustainable Products and EUDR (European Union Deforestation Regulation) work hand-in-hand as part of EU's legislative efforts to promote sustainability. EUDR applies to all products placed on the market from December 2024 and June 2025 for small businesses. The proposal for a Nature Restoration Law by the European Commission requiring member countries to restore 20% of EU's degraded ecosystems by 2030 and full restoration by 2050 has not yet passed (as of writing) [@ScientistsUrgeEuropean2023] and is facing a backlash [@davidpintoBacklashNatureRestoration2023].
+
+-   Europe is transforming into a hotbed of sustainability. One of the EU goals is reducing careless consumption. Tacking our consumption habits can help support eco-designed products. It's up to legislators to provide sustainable products on our marketplace... but until this happens, we can use the green filter.
+
+### Beyond Recycling: Return, Repair, Reuse
+
+-   There's a growing number of companies providing re-use of existing items.
+
+-   @SmartSwap For example, Swap furniture in Estonia
+
+-   The universal recycling symbol creator Gary Anderson created the symbol when he was an architecture student in California, USC (uni southern california) in 1970 at the age of 23, inspired by Silent Spring, Earth Day, and Bauhaus, Buccky Fuller, Spaceship Earth, printing presses, and the Woolmark logo for wool industry certification, and the Mobius strip, for a competition hold by a packaging firm that was making paper containers for packaging [@swapsocietyRecyclingSymbolDesigner2023].
+
+-   The power of defaults. Make the sustainable option the default @gigerenzerWhyHeuristicsWork2008 "simple heuristics built from basic rules; how heuristics are selected and structured in social and physical environments; concept of ecological rationality to identify the environmental conditions under which particular heuristics succeed or fail"
+
+-   standardising reuse across the globe, a body to create a reuse standard is holding a competition to create e reuse symbol
 
 ### Legislative Efforts Around the World
 
