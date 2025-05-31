@@ -12,6 +12,9 @@ warnings.filterwarnings("ignore")
 
 # Discussion
 
+
+Design implication: aspartame has not been banned or reduced after 2 years; provide warning for possible cancer-causing ingredients in the ai assistant.
+
 How can finance enable/help/encourage sustainability? Personalized Investing
 
 Most sustainability plans rely on carbon credits to achieve their goals, making carbon credits a single point of failure. If the credits are not accurate, the whole system collapses.
@@ -496,6 +499,11 @@ User experiments
 
 Financial statistics
 
+-  The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Likewise, speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. All these are multi-modal communication questions that interaction design is called upon to solve. 
+
+
+
+
 Analyzing existing apps and user pain-points
 
 List of topics gleaned from literature review for discussion with the experts:
@@ -539,6 +547,8 @@ Societal movements change things: implication for design: build a community
 Growing public understanding of how nature works and intersects with our use of money to buy products, creates interest in understanding "where does stuff come from". Sustainable supply chains.
 
 "Systemic change through financial actions driving policy and market changes encourage broader industry shifts towards greener practices".
+
+AI Chatbots and Generative UIs are hugely energy-intensive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
 
 Overconsumption-driven extractive business practices contribute to the degradation of Earth's natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges (ADD CITATION). Companies are attuned to consumer demand however widespread greenwashing makes it tiring to find sustainability-focused companies and requires extensive time for research. Even for highly motivated people, it’s difficult to know what’s sustainable.
 
