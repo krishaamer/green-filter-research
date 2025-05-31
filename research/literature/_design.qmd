@@ -236,9 +236,7 @@ In total, the world consumes around 200 million tonnes of fish and seafood every
 
 **Culture, Community, Cuisine, Storytelling to Reduce Food Waste**
 
-Given these statistics, [@springmannGlobalRegionalCosts2021] proposes veganism is the most effective decision to reduce personal CO~2~ emissions. Food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop [@aubreystreitkrugPathwaysPerennialFood2023].
-
--   Food Sovereignty: "The global food sovereignty movement, which had been building momentum since its grassroots conception in the late '90s, quickly gained traction with its focus on the rights of people everywhere to access healthy and sustainable food. One of the pillars of the movement lies in using local food systems to reduce the distance between producers and consumers." "We can grow foods just as well in the inner city as we can out in the country because we're agnostic to arable land," says Woods. "Because we grow indoors and create our own weather, \[climate change\] doesn't affect our produce." [@stall-paquetFreshCityRise2021]
+Given these statistics, [@springmannGlobalRegionalCosts2021] proposes veganism is the most effective decision to reduce personal CO~2~ emissions. Food is also about cuisine and culture; foods become popular if we hear stories and see cuisine around a particular crop [@aubreystreitkrugPathwaysPerennialFood2023]. The food sovereignty movement, born in the late 1990s, champions everyone’s right to healthy and sustainable food, focusing on *local food systems* to bring producers and consumers closer together, planting seeds and growing food in the cities, countryside, and even indoors [@stall-paquetFreshCityRise2021].
 
 Food is about enticing human imagination and taste buds. Potato used to be a newcomer and innovative crop in Europe, and now it's so common, Europeans forget it's no originally from Europe. Culture can be a proponent of sustainability.
 
@@ -284,7 +282,6 @@ As with any contentius issue, when it comes to food, people have differing point
 
 -   [@akshatrathiChrisSaccaReturns2021; @lowercarboncapitalLowercarbonCapital2023] climate startup funding.
 
--   Only make what is ordered.
 
 ## In Practice: Sustainability Begins in Software
 
@@ -299,6 +296,8 @@ sustainability_ai_six_dimensions()
 ```
 
 Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) shows that over 53% of design systems are minimally automated or not automated at all - and only 10% of the designers actively use AI, with 36% having experimented with AI-driven design. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
+
+Designers working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
 
 ### Data-Driven Design
 
@@ -356,16 +355,12 @@ There are several technologies for tracking goods across the supply chain, from 
 
 Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
--   Embodied Carbon. Carbon Neutral Cities Alliance
 -   [@buildersforclimateactionMakingRealZero2021]
-
-Encouraging Sustainable Design and Reducing Waste.
 
 -   [@mcgintyHowBuildCircular2020]: How to Build a Circular Econom
 
 -   "Circular Petrochemicals" [@langeCircularCarbochemicalsMetamorphosis2021]
 
--   Recycling critical raw materials, EIT RawMaterials
 
 ### Tracking Transport Supply Chains: Towards Sustainable Supply Chains
 
@@ -422,7 +417,7 @@ Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and 
 | **Grab** | Singapore / Malaysia | SEA | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 | @grabholdingslimitedGrabReportsFourth2025 |
 | **Rappi** | Colombia | Argentina, Colombia, Brazil, Chile, Mexico | Users | Yes | Yes | No | 30 million | 2023 | [@phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024] |
 
-Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as
+Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025.
 
 | **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -431,21 +426,11 @@ Global overview of superapps (or near-superapps) compiled from official company 
 
 Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
 
+Superapps offer a platform with key infrastructure such as payments already included, where ecosystem of miniapps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021]. Alipay, originaly a payments app, has build the digital infrastructure to provide thousands of services to billions of users across China. 59 million people use 支小寶 (Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to international markets.
+
 Superapps are honeypots of data that is used for many types of behavior modeling. Guido Becher from Rappi defines their super-app as "customer-centric high frequency multi-vertical ecosystem" this enables cross-promotion, for example a hotel in Argentina targeted people people who buy almond milk on Rappi with their offer of a yoga retreat [@phocuswrightSuperConnectedRappi2023; @suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. However, data privacy is always a concern. For instance, Kakao Pay was found guilty of mishandling 40 million users' data by handing it over to Alipay without user consent; Alipay owns a 32 percent stake in Kakao Pay [@leeKakaoPayHanded2024].
 
-Alipay has build the digital infrastructure to provide thousands of services to billions of users. 59 million people use 支小寶(Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. 
-
-
-
-Superapps offer a platform with key infrastructure such as payments, where miniapps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021].
-
-### Aspiring Superapps
-
-There are many companies which aspire to build superapps but are hindered by various challenges. Telegram integrates Web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. [@pylarinouTelegramsJourneyWeb32024]. Likewise, LINE is integrating Web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions [@hintzyLINEsEvolutionSuper2025].
-
-[@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to other markets.
-
--   Inspiration from WeChat. X (previously known as Twitter) aspires to become a financial app. X (formerly Twitter) is becoming a superapp?
+There are also many aspiring superapps, companies which aspire to build multi-vertical platforms but are hindered by various challenges. Telegram integrates Web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. [@pylarinouTelegramsJourneyWeb32024]. Likewise, LINE is integrating Web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions [@hintzyLINEsEvolutionSuper2025].
 
 *Platform Economy* marketplace companies like Airbnb and Uber, among many others, match demand to offer, in the process optimizing how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments, such as the collaboration between Bolt and the city of Seville in Spain [@boltSevilleModernisingPublic2025].
 
@@ -467,9 +452,6 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 
 
-
--   Data-driven design has limitations. Coputer,One mode. "Digital sustainability principles". Eminent journal Design Studies, 1st design journal
-
 -   [@koningsHowPrepareYour2020]
 
 -   [@ComprehensiveGuideDesign]
@@ -484,10 +466,6 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 
 -   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? [@lindenWhatRoleAI2021] "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
-
-
-People working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
-
 
 -   [@LanguageModelSketchbook] "Maggie Appleton’s note “Language Model Sketchbook, or Why I Hate Chatbots” (Planted almost 2 years ago) argues that chatbots are “the lazy solution” and only “the obvious tip of the iceberg.” She presents three prototype concepts—Daemons, Branches, and Epi—for more subtle, “epistemic rubber-ducky” interfaces to interact with language models "
 
@@ -508,7 +486,7 @@ People working at Google have been designing in collaboratiom with AI for a whil
 The concept of *Social Objects*: People need something to gather around and discuss. [@labWhatSocialObject2015] I'm interested in the concept of a "social object".
 
 -   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
--   What percent of all design is "sustainable design" ? Promoting sustainable design.
+
 -   [@joshluberTradingCardsAre2021] Trading cards are cool again
 -   [@jesseeinhornNewBalance6502020]
 -   [@connieloizosMarcyVenturePartners2021]
@@ -523,9 +501,7 @@ The concept of *Social Objects*: People need something to gather around and disc
 
 Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData].
 
-While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024].
-
-Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024]. Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
 
 ```{python}
 open_data_index()
@@ -687,17 +663,13 @@ pandemic()
 
 ### Pollution Exposure Tracking
 
-Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking.
-
-My personal air pollution exposure tracked using the Atmotube device attached to my backpack. Tracking air pollution and realizing how bad the over in my grandma's house is: add picture. Quantified Self is an example of Digital Health. There is a parallel in health to sustainability and indeed both are inextricably linked. Open Source code for calculating air pollution exposure AQI [@atmotechAtmotubeAqipy2024].
-
--   add picture of the device
-
--   add picture of air pollution in China
+Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the Atmotube Pro device attached to my backpack. 
 
 ```{python}
 air_chart()
 ```
+
+The above chart shows my exposure to pollutants while traveling, ranked from worst to best.
 
 ### Carbon Tracking: Personal Emissions Trackers
 
