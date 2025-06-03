@@ -409,7 +409,7 @@ Superapps are prevalent in Asia, with China, South-East Asia, Korea, Japan, and 
 
 Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025.
 
-| **Not-Quite-Superapp** | Origin | Markets | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** | **Source** |
+|*Not-Quite-Superapp | Origin | Markets | Metric | Payments (Wallet) | Savings | Investing | Users | Date | Source |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Uber | USA | Global | Users per month | No (Only for ride-hailing) | No | No | 171 million | 2025 | [@uberUberAnnouncesResults2025] |
 | Bolt | Estonia | Global | Lifetime users | No (Only for ride-hailing) | No | No | 200 million | 2025 | [@garciaBoltAcquiresDanish2025] |
@@ -440,8 +440,6 @@ Kazuo Ishiguro’s book *"Klara and the Sun"*, narrated through the eyes of an A
 AI labs are putting a lot of effort into engineering likable AIs, working on honesty of the modelds, teaching them to convey their own uncertainty [@anthropicClaudesCharacter2024; @anthropicWhatShouldAIs2024]; Which sometimes can go wrong. ChatGPT-4o overnight became your biggest fan, which users found annoying; the abrupt shift to an overly enthusiastic persona drew user backlash [@mollickPersonalityPersuasion2025]. And it also felt jarring, if you already got used to a certain persona and it suddenly changed.
 
 
-
-
 -   [@koningsHowPrepareYour2020]
 
 -   [@ComprehensiveGuideDesign]
@@ -453,15 +451,7 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 -   [@AtomicDesignBrad]
 
 
-
-
 -   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? [@lindenWhatRoleAI2021] "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
-
--   [@LanguageModelSketchbook] "Maggie Appleton’s note “Language Model Sketchbook, or Why I Hate Chatbots” (Planted almost 2 years ago) argues that chatbots are “the lazy solution” and only “the obvious tip of the iceberg.” She presents three prototype concepts—Daemons, Branches, and Epi—for more subtle, “epistemic rubber-ducky” interfaces to interact with language models "
-
--   [@parundekarEssentialGuideCreating2021] "Rahul Parundekar’s “The Essential Guide to Creating an AI Product in 2020” (28 min read · Mar 14 2020) presents a lean, MVP-driven approach. He warns of “costly AI project pitfalls that could end up causing delays running into months” and links UX metrics to ML targets, noting that an 80 percent accurate model means “1 in 5 user requests being unsatisfied” and UX can break if prediction time exceeds one second"
-
--   [@richardyangInteractionDesignMore2021; @justinbakerRedRoutesCritical2018] say some of the tools used by interaction designers include
 
 *Interaction Design*, according to [@kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign], who believe it's still an emerging (and changing) field (at least it was in 2010) and there are many versions of definitions. I prefer to simply say: interaction design is about creating a conversation between the product and the user.
 
@@ -471,7 +461,10 @@ The concept of *Social Objects* is relevant for interaction design as people nee
 
 > *"Interaction design isn’t about how interfaces behave, it’s about how people behave, and then adapting technology accordingly."* - [@uxpinInteractionDesignBest2020]
 
-This can mean that the product *has character* or literally - charaters. Large language models are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality; stories start with a character. Noah Levin, one of the first employees and VP of Design at Figma, the most popular digital design app, believes AI is the next chapter in design, starting with small experimental AI-based plugins to becoming a core design platform capability, accelerating most design workflows [@figmaAINextChapter2023].
+This can mean that the product *has character* or literally - charaters. Large language models are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@appletonLanguageModelSketchbook2023] pushes for more creativity in UX for AI, calling chatbots the lazy and obvious solution; there is much more to be done for integrating AI into UX.
+[@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality; stories start with a character. Noah Levin, one of the first employees and VP of Design at Figma, the most popular digital design app, believes AI is the next chapter in design, starting with small experimental AI-based plugins to becoming a core design platform capability, accelerating most design workflows [@figmaAINextChapter2023].
+
+The quality of AI-generated UX has improved rapidly. In 2020, less than 5 years ago [@parundekarEssentialGuideCreating2021]'s extensive guide on creating an AI products warned that an 80% accurate model would mean *"1 in 5 user requests being unsatisfied"*, underlining that a 1-second delay would break the UX flow for many users: AI peformance should be linked to UX metrics. It can be safely said, today's AI products can already satisfy these requirements with ease.
 
 ## Open Data Enables Interoperability
 
@@ -493,8 +486,8 @@ Data-driven design requires access to data, making the movement towards *open da
 
 | Country | Project | Reference |
 |------------------|-------------------------------|-----------------------|
-| Sweden | Swedish open data portal | [@SverigesDataportal] |
-| Malaysia | Malaysian open data portal | data.gov.my |
+| Sweden | Swedish open data portal | [@SverigesDataportal2025] |
+| Malaysia | Malaysian open data portal | [@governmentofmalaysiaDatagovmy2025] |
 | Singapore | Singapore ESG open data platform | [@monetaryauthorityofsingaporeMASLaunchesDigital2023] |
 
 : Examples of cities and countries that share data openly.
