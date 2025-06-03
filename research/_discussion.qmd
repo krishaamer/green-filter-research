@@ -12,7 +12,6 @@ warnings.filterwarnings("ignore")
 
 # Discussion
 
-
 Design implication: aspartame has not been banned or reduced after 2 years; provide warning for possible cancer-causing ingredients in the ai assistant.
 
 How can finance enable/help/encourage sustainability? Personalized Investing
@@ -396,6 +395,8 @@ This chapter looked at AI in general since its early history and then focused on
 +--------------+------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | AI           | Anthropomorphism | Company    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +--------------+------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| AI           |                  |            | AIs should disclose they are AIs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
++--------------+------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Design implications arising from the AI chapter.
 
@@ -499,10 +500,7 @@ User experiments
 
 Financial statistics
 
--  The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Likewise, speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. All these are multi-modal communication questions that interaction design is called upon to solve. 
-
-
-
+-   The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Likewise, speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. All these are multi-modal communication questions that interaction design is called upon to solve.
 
 Analyzing existing apps and user pain-points
 
@@ -716,7 +714,6 @@ Sustainable Investing - activity of thinking longer-term
 
 <MyEmbed src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_pNqBliyn1oAzMJkabtSFGouXBxS9MyPpsO5fPMN25Y_ag/viewform?embedded=true" text="Loading Survey..." />
 
-
 ## Early Ideas for Interfaces / Scenarios / Product Features
 
 Show all the different prototypes just likes architects do. And then defend why I chose the one I did. For NW make a Loom with the interfaces and talk about them?
@@ -769,14 +766,21 @@ How can sustainability-minded college students find companies that meet their ex
 
 -   Currently CO~2~ footprint calculators ask you a couple of questions and give a ballpark estimate. Does it make sense to track sustainability on a more nuanced level, like Apple Health, in order to encourage sustainable behavior?
 
-| Product Idea | Source |   | Prototype Link |
-|------------------|------------------|------------------|-------------------|
-| Speak Truth to Power | Literature Review | Consolidate user feedback for companies | greenfilter.app/prototypes/truth-power |
-| Shopping Divest | Literature Review | What if you could build communities based on what you buy? | greenfilter.app/prototypes/shopping-divest |
-| True Cost | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost- |
-| Sunday Market | Literature Review | First prototype for going to the organic Sunday Market with friends. |  |
-| XYZ | Expert Interview |  |  |
-| ABC | User Survey |  |  |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| Product Idea         | Source            |                                                                                | Prototype Link                             |
++======================+===================+================================================================================+============================================+
+| Speak Truth to Power | Literature Review | Consolidate user feedback for companies                                        | greenfilter.app/prototypes/truth-power     |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| Shopping Divest      | Literature Review | What if you could build communities based on what you buy?                     | greenfilter.app/prototypes/shopping-divest |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| True Cost            | Literature Review | What if you could see the actual cost of each product including externalities? | greenfilter.app/prototypes/true-cost-      |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| Sunday Market        | Literature Review | First prototype for going to the organic Sunday Market with friends.           |                                            |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| XYZ                  | Expert Interview  |                                                                                |                                            |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
+| ABC                  | User Survey       |                                                                                |                                            |
++----------------------+-------------------+--------------------------------------------------------------------------------+--------------------------------------------+
 
 -   *Affinity diagrams* help users organize ideas by brainstorming, sorting and labeling to cluster related information [@karaperniceAffinityDiagrammingCollaboratively2018; @quignardUXAnalysisPhase2022]
 -   Scan a product to see the company and start investing or divesting from them Current economics is lowering the quality of life on the planet
