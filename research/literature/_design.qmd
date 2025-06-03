@@ -287,6 +287,12 @@ sustainability_ai_six_dimensions()
 
 Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) shows that over 53% of design systems are minimally automated or not automated at all - and only 10% of the designers actively use AI, with 36% having experimented with AI-driven design. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
 
+-   [@ComprehensiveGuideDesign]
+
+-   [@suarezDesignSystemsHandbook]
+
+-   "design system reduces design debt, accelerates development, and fosters a cohesive user experience across products."
+
 Designers working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
 
 ### Data-Driven Design
@@ -441,9 +447,6 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   [@koningsHowPrepareYour2020]
 
--   [@ComprehensiveGuideDesign]
-
--   [@suarezDesignSystemsHandbook]
 
 -   [@MethodPodcastEpisode]
 
@@ -558,6 +561,7 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 : Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian].
 
 ```{python}
+# Combined data from various sources
 ant_forest()
 ```
 
@@ -624,7 +628,7 @@ The above examples of tracking various aspects of health beg the question if one
 
 Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratification for Collective Awareness and Sustainable Consumerism"* piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were (environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
 
--   More recently, [@kommendaWouldCarbonFood2022]  *"interactive Carbon Food Labels experience in the Financial Times, exploring how showing carbon footprints on food packages could influence purchasing behavior; the demo shows Life Cycle Assessment (LCA) data to display products’ greenhouse gas emissions in CO₂e per kilogram, for example beef mince appears at around 27 kg CO₂e per kg, while lentils register under 1 kg CO₂e per kg, vividly illustrating the contrast in climate impact; The interactive tool allows users to stack items and instantly see cumulative emissions in their shopping cart; for instance, a typical UK supermarket basket (milk, bread, cheese, chicken, and vegetables) might total over 50 kg CO₂e for a week’s shopping;  Through real-time comparisons, the report finds that 68 percent of surveyed consumers say they’d switch to lower-impact foods if labels were straightforward, but only 22 percent trust the underlying data fully. Kommenda and colleagues argue that clear labeling could drive demand for lower-emission products, but they also highlight challenges: data standardization, verifying supply-chain emissions, and ensuring labels remain up to date as production practices evolve"*
+More recently, [@kommendaWouldCarbonFood2022] describes an interactive demo of Carbon Food Labels in the Financial Times, aimed at influence purchasing behavior by displaying Life Cycle Assessment (LCA) data directly on the products; for example - lentils (1kg CO₂e per 1 kg) v.s. beef (27kg CO₂e per 1 kg) - cleary illustrating the contrasting climate impact of different foods; moreover, shoppers could see the emissions in their shopping cart,enabling real-time comparisons and decision-making; an accompaying survey showed 68% of users were interested in choosing lower-emission products while a low 22% of the respondents trusted the data, highlighting a key challenge: standardizing and verifying supply-chain data.
 
 The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019]. Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018]. These type of app suggest CO2e calculations will be part of our everyday experience. Nonetheless, sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​ Tracking sustainability may have collective benefits but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users. 
 
