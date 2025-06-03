@@ -463,25 +463,18 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 -   [@richardyangInteractionDesignMore2021; @justinbakerRedRoutesCritical2018] say some of the tools used by interaction designers include
 
+[@justinbakerRedRoutesCritical2018] introduced the concept of *Red Route Analysis*, an user experience optimization idea inspired by the public transport system of London, focusing on the *critical design paths* which capture over 90% of users' actions. Prioritizing the user journey of the most popular features is key to driving business metrics [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
+
 -   [@richardyangInteractionDesignMore2021] Interaction design is more than just user flows and clicks” (9 min read · Feb 14 2021) introduces “interaction cost” as the sum of mental and physical efforts, cites Nielsen Norman’s frameworks, and highlights that “Miller’s Law states that the average person can only keep 5 to 11 items in their working memory,” while advising designers to focus on three core skills for mastery"
 
-*Red Route Analysis* is an user experience optimization idea inspired by the public transport system of London [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022].
-
--   [@justinbakerRedRoutesCritical2018] "Justin Baker’s “Red Routes — Critical Design Paths That Make or Break Your App” (Apr 14 2018) defines red routes as end-to-end tasks that “capture 90 percent or more of your user’s actions.” He traces the concept back to London roads introduced in 1991, notes that “over 2 million developers have joined DZone,” and shows how identifying these routes drives business metrics"
-
--   AI for design: [@figmaAINextChapter2023] "Noah Levin’s “AI: The next chapter in design” (June 21 2023) recounts that “Three years ago, Jordan tweeted a GPT-3 based plugin” and “Two years later, he founded Diagram,” and celebrates that the Figma community has built “nearly 100 AI-powered plugins,” framing AI as a core platform capability that will elevate design workflows"
 
 
+
+Noah Levin, one of the first employees and VP of Design at Figma, the most popular digital design app, believes AI is the next chapter in design, starting with small experimental AI-based plugins to becoming a core design platform capability, accelerating most design workflows [@figmaAINextChapter2023].
 
 The concept of *Social Objects*: People need something to gather around and discuss. [@labWhatSocialObject2015] I'm interested in the concept of a "social object".
 
 -   Product marketers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back.
-
--   [@joshluberTradingCardsAre2021] Trading cards are cool again
--   [@jesseeinhornNewBalance6502020]
--   [@connieloizosMarcyVenturePartners2021]
--   [@natashamascarenhasQueenlyMarketplaceFormalwear2021]
--   [@jeffjohnrobertsDigitalArtAwaits2020]
 
 *Narrative Design,* humans respond well to *storytelling*, making *character design* and *narrative design* relevant to interaction design. Large language models (LLMs) such as ChatGPT are able to assume the personality of any character that exists inside of its training data, creating opportunities for automated narrative design. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality, Stories start with a character..
 
@@ -631,16 +624,6 @@ Tracking one's food intake helps understanding how healthy and nutrient-rich is 
 
 The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024]. More recently, Oura Ring launched an AI-advisor to help explain the health data recorded by its device: deliver contextual and personalized guidance, remember past interactions while emphasizing privacy, and analyze both short- and long-term biometric trends [@teamIntroducingOuraAdvisor2025]. There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards. OpenAI is collaboratin with ex-Apple designer Jony Ive, to bring such ambient AI devices to live, which they believe has the potential for a new product category [@wsjnewsOpenAICOOJony2025].
 
-The above examples of tracking various aspects of health beg the question if one could track personal sustainability in a similar fashion. [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
-
-Human behavior is affected by the environment.
-
-```{python}
-pandemic()
-```
-
-The above chart shows the incidence of bad behavior during the pandemic increased significantly.
-
 ### Pollution Exposure Tracking
 
 Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the Atmotube Pro device attached to my backpack. 
@@ -651,9 +634,9 @@ air_chart()
 
 The above chart shows my exposure to pollutants while traveling, ranked from worst to best.
 
-### Carbon Tracking: Personal Emissions Trackers
+### Towards Tracking Sustainability: Carbon Tracking and Personal Emissions Trackers
 
-We have a limited carbon budget so calculating CO2e-cost become integrated into every activity. 
+The above examples of tracking various aspects of health beg the question if one could track personal sustainability in a similar fashion. We have a limited carbon budget so calculating CO2e-cost could be expressly integrated into every activity. 
 
 Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratification for Collective Awareness and Sustainable Consumerism"* piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were (environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
 
@@ -665,7 +648,7 @@ Sustainability tracking, while perhaps less than health tracking, can also have 
 
 Because of the large emission fooprint of transport, offering a steep emissions reduction potential, greener modes of mobility have been heavily researched. Already more than a decade ago, a survey from April 2014 to December 2015 (n = 4586, total 29930 travel episodes) across the United Kingdom, asked participants to rate their enjoyment (on a liker scale from 1 to 7) and tracked the type of travel (work, unpaid work, personal care, childcare, leisure, etc); resuls showed private car was used for 79% of personal care and 55% of leisure trips; key findings showed *walking and cycling significantly increase enjoyment* across all trip purposes, while public transit reduced enjoyment for childcare and work-related travel; overall findings show improvements in transport infrastructure can both lower green house gas emissions and boost traveler wellbeing [@echeverriaGreenMobilityWellbeing2022].
 
-A wide range of personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions.
+A wide range of personal carbon footprint calculators have been released online, ranging from those made by governments and companies to student projects. Similar to personal health trackers, personal CO~2~ trackers help one track emissions and suggests sustainable actions. In Singapore, the DBS bank released a consumer sustainability ESG app called DBS LiveBetter [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
 
 | App | Description |
 |--------------------------|----------------------------------------------|
@@ -679,13 +662,17 @@ A wide range of personal carbon footprint calculators have been released online,
 | Carbn |  |
 | LiveGreen |  |
 | Earth Hero |  |
-|  |  |
 
-: A selection of personal sustainability apps. See *greenfilter.app* for an updated database.
+: A selection of personal sustainability apps.
 
-In Singapore, the DBS bank released a consumer sustainability ESG app called DBS LiveBetter [@dbssingaporeDBSLiveBetter; @dbsDBSLaunchesSingapore2018]
+[@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
-[@TAN202046] proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management; however, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
+```{python}
+# Data from @ceccatoDefecationLitteringOther2023
+pandemic()
+```
+
+Human behavior is affected by the environment. The above chart shows the incidence of bad behavior during the pandemic increased significantly in Sweden based on data from [@ceccatoDefecationLitteringOther2023].
 
 ## Digital Product Passports: Towards Tracking Sustainability Superapps
 

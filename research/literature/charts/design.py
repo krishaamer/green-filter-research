@@ -337,6 +337,7 @@ def open_data_compare():
     plt.show()
 
 def pandemic():
+    # Data from @ceccatoDefecationLitteringOther2023
     # Data for incidents before and after the pandemic
     bp_counts = [1643, 16850, 21386, 750, 1481]
     pp_counts = [1938, 22366, 26656, 670, 1522]
