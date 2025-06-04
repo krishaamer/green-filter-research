@@ -2,6 +2,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import pandas as pd
+from matplotlib.font_manager import FontProperties
 
 import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
