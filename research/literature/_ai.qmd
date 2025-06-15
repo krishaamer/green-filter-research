@@ -286,16 +286,11 @@ Today's machines are much more capable so it's not a surprise humans would like 
 
 : Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022.
 
--   Google is developing an AI assistant for giving life advice @goswamiGoogleReportedlyBuilding2023.
+Suprisingly, humans can have emotionally deep conversations with robots. Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]. LLMs combined with voice, such as the Pi iOS app, provide an user experience, which [@ethanmollick2023] calls *unnerving*. The company provides *emotional intelligence* as a service and has developed its own proprietary LLM, called Inflection AI, which has raised over 1B USD in funding [@mittalInflection25PowerhouseLLM2024]. While startups are moving fast, traditional AI companies, with decades of AI experience, such as Google, are also developing an AI assistants for giving life advice [@goswamiGoogleReportedlyBuilding2023]. The conversations can be topic-specific. For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
+
+On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks. Part of this is learning how to uses emojis in the right amount and at the right time; increasingly, emojis are a part of natural human language [@tayWhyScienceNeeds2023].
+
 -   GPT-4 is able to solve difficult task in chemistry with natural-language instructions @whiteFutureChemistryLanguage2023
--   Emojis are a part of natural language @tayWhyScienceNeeds2023
-
-
-For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
-
-Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024].
-
-On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks.
 
 ### Conversation: A Magical Starting Point of a Relationship
 
@@ -435,12 +430,14 @@ Before AI, chatbots struggled with evolving human language, understanding the co
 
 Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
 
-Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, "Alexa is not just an AI assistant -- it's a trusted advisor and a companion" [@prasadHowWillAlexa2022].
+Purely on economic side, processing human voice is several times more expensive than processing text messages [@mittalLittleLittleLittle2025].
 
--   LLMs combined with voice provide a unnerving user experience @ethanmollick2023
--   Ethical issues: Voice assistants need to continuously record human speech and process it in data centers in the cloud.
--   Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba AliGenie all rely on voice only.
--   @szczukaHowChildrenAcquire2022 provides guidelines for Voice AI and kids
+Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, *"Alexa is not just an AI assistant - it's a trusted advisor and a companion"* [@prasadHowWillAlexa2022].
+
+Providing voice for the AI raises new ethical issues. Voice assistants need to continuously record human speech and process it in data centers in the cloud. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie all rely on voice as their main interface.
+
+The Alpha (born since 2010) and Beta (since 2025) generations will be the true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets.
+
 -   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
 -   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
@@ -616,11 +613,7 @@ Many researchers have discussed the user experience (UX) of AI (term such as AIU
 
 -   @lewAIUXWhy2020 AI UX book
 
--   AI IXD is about human-centered seamless design
-
--   Storytelling
-
--   Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialized skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
+-   AI IXD is about human-centered seamless design, Storytelling. Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialized skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
 
 -   @soleimani10UIPatterns2018: UI patterns for AI, new Section for Thesis background: "Human-Friendly UX For AI"?
 

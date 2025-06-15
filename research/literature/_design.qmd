@@ -287,15 +287,7 @@ Designing user interfaces for sustainable interactions means incorporating data 
 sustainability_ai_six_dimensions()
 ```
 
-Part of digital product design are *design systems* to keep consistency across the experience yet the latest [@DesignSystems2025] survey (n = 294) shows that over 53% of design systems are minimally automated or not automated at all - and only 10% of the designers actively use AI, with 36% having experimented with AI-driven design. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023].
-
--   [@ComprehensiveGuideDesign]
-
--   [@suarezDesignSystemsHandbook]
-
--   "design system reduces design debt, accelerates development, and fosters a cohesive user experience across products."
-
-Designers working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook].
+Part of digital product design are *design systems* to keep consistency across the experience. *"[D]esign system reduces design debt, accelerates development, and fosters a cohesive user experience across products" [@suarezDesignSystemsHandbook2020]. Yet the latest [@DesignSystems2025] survey (n = 294) shows that over 53% of design systems are minimally automated or not automated at all - and only 10% of the designers actively use AI, with 36% having experimented with AI-driven design. AI-usage for design across industry is uneven. Designers working at Google have been designing in collaboratiom with AI for a while and already in 2019 published the People + AI Guidebook, outlining best practices for designing with AI - to make human-centered AI products [@PeopleAIGuidebook]. These findings underline, there's still work to be done involving young HCI designers in AI-oriented workshops to show support them building the future of UI/UX [@battistoniCanAIOrientedRequirements2023]. 
 
 ### Data-Driven Design
 
@@ -354,11 +346,6 @@ There are several technologies for tracking goods across the supply chain, from 
 Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 [@buildersforclimateactionMakingRealZero2021] finds embodied carbon averages 250 kg CO₂-eq per m² of floor area for new Canadian homes, varying from 175-400 kg CO₂-eq per m² based on building material choices; one standard house emits 32–75 t CO₂-eq; the authors believe however, using *biogenic materials* (e.g. naturally grown materials including wood, bamboo, straw, hemp, cork, and mycelium), could make the houses carbon negative, storing 9–60 t CO₂-eq emissions - enough to meet the 2030 of the entire building sector.
-
--   [@mcgintyHowBuildCircular2020]: How to Build a Circular Econom
-
--   "Circular Petrochemicals" [@langeCircularCarbochemicalsMetamorphosis2021]
-
 
 ### Tracking Transport Supply Chains: Towards Sustainable Supply Chains
 
@@ -447,12 +434,6 @@ Kazuo Ishiguro’s book *"Klara and the Sun"*, narrated through the eyes of an A
 
 AI labs are putting a lot of effort into engineering likable AIs, working on honesty of the modelds, teaching them to convey their own uncertainty [@anthropicClaudesCharacter2024; @anthropicWhatShouldAIs2024]; Which sometimes can go wrong. ChatGPT-4o overnight became your biggest fan, which users found annoying; the abrupt shift to an overly enthusiastic persona drew user backlash [@mollickPersonalityPersuasion2025]. And it also felt jarring, if you already got used to a certain persona and it suddenly changed.
 
--   [@koningsHowPrepareYour2020]
-
--   [@MethodPodcastEpisode]
-
--   [@AtomicDesignBrad]
-
 -   AI gives designers new tools. In AI development, design is called alignment. What is the role of an AI Designer? [@lindenWhatRoleAI2021] "Amanda Linden explains that “AI capabilities might take 2 to 3 years to develop” and that for AI designers the primary deliverable is “clarity for engineers on how the technology could be applied” rather than a visible UI feature. She outlines five core tasks: Designing AI prototypes, Shaping new technology, Developing AI-centered products, Collecting data for AI to learn, and Designing AI developer tools "
 
 *Interaction Design*, according to [@kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign], who believe it's still an emerging (and changing) field (at least it was in 2010) and there are many versions of definitions. I prefer to simply say: interaction design is about creating a conversation between the product and the user.
@@ -527,10 +508,8 @@ Google has launched eco–focused features across its range of products: search 
 ```{=mdx}
 <Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
 ```
-Some notable examples:
 
--   @ACUTI2023122151 makes the point that physical proximity to a drop-off point helps people participate in sustainability.
--   @WEE2021100364 proposes types of nudging technique based on an overview of 37 papers in the field.
+[@WEE2021100364] proposes 7 types of nudging technique based on an overview of 37 papers which explore nudging people to be more environmentally friendly.
 
 | Name | Technique |
 |--------------------------|----------------------------------------------|
@@ -543,6 +522,8 @@ Some notable examples:
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
 : Types of nudge documented by [@WEE2021100364]
+
+[@ACUTI2023122151] makes the point that physical proximity to a drop-off point helps people participate in sustainability and metaphorical messaging alongside proximity can be powerful, enhancing the ease of information processing. In a field study in Northern Italy, a metaphor‐based message reframed the factual statement "1g of mercury can pollute 1000L of water" as "7 bathtubs", and 354000000L as "140 Olympic swimming pools," (a projection of potential Italian mercury pollution at current disposal rates), which significantly boosted willingness to recycle mercury.
 
 Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature protection, simultaneously raising money for planting forests and building loyalty and brand recognition for their sustainable action, leading the company to consider further avenues for gamification and eco-friendliness.
 
@@ -663,7 +644,7 @@ pandemic()
 
 Human behavior is affected by the environment. The above chart shows the incidence of bad behavior during the pandemic increased significantly in Sweden based on data from [@ceccatoDefecationLitteringOther2023].
 
-## Digital Product Passports: Towards Tracking Sustainability Superapps
+## Digital Product Passports: Tracking Data for Building Sustainability Superapps
 
 Even though *digital product passports* relate heavily to adopting a circular economy, I've chosen to highlight this topic under Design, as it's the main design implication from this chapter - an emerging technology which needs to be *designed*.
 
