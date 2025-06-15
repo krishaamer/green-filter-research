@@ -134,6 +134,20 @@ Design implications results from the literature review on design.
 
 This chapter has the following design implications. This chapter and design implications spurred the following feature ideas.
 
+
+It's a balancing at: while* AI enables generative UIs while users need some type of stability (think: text input stays in the same place but different types of interfaces appear within a clearly defined space).
+
+| Mode of Interaction |     |
+|---------------------|-----|
+| Writing             |     |
+| Speaking            |     |
+| Touching            |     |
+| Moving              |     |
+| Seeing              |     |
+
+: Modes of interaction
+
+
 Several Superapps already contain features for payments (shopping), savings, and investing - yet don't integrate Digital Product Passports to understand the products' journey, including the origin and manufacturing conditions, materials, components, CO~2~ footprint and environmental impact, post-consumer repair, recycling, and end-of-life disposal guidelines.
 
 +-----------+-----------------------+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

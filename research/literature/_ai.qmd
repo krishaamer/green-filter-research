@@ -290,7 +290,7 @@ Suprisingly, humans can have emotionally deep conversations with robots. Jakob N
 
 On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *cuteness* of AI apps on users and found high perceived cuteness correlated with higher willingness to use the apps, especially for emotional tasks. Part of this is learning how to uses emojis in the right amount and at the right time; increasingly, emojis are a part of natural human language [@tayWhyScienceNeeds2023].
 
--   GPT-4 is able to solve difficult task in chemistry with natural-language instructions @whiteFutureChemistryLanguage2023
+Already more than two decades ago, [@reevesMediaEquationHow1998] argued that humans expect computers to be like social actors, (not unlike humans or places), with very minimal cues from a machine (like a voice or screen avatar) triggering social behaviors.
 
 ### Conversation: A Magical Starting Point of a Relationship
 
@@ -406,79 +406,68 @@ The rising availability of AI assistants may displace Google search with a more 
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-Everything that existed before OpenAI's GPT 4 has been blown out of the water.
+Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023].
 
-Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations.
-
-Some evergreen advice most relates to human psychology which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses ***hedonic user experience*** in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI.
+Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
 
 Conversational chatbot Replika was launched in 2017 and in 2024 was used by 30 million people; the focus is on empathetic dialogue to support mental well being, sort of like a friend, a digital companion, (or even a romantic partner, in paid versions of the app), and includes an animated avatar interface [@eugeniakuydaReplika2023]. Replika can ask probing questions, tell jokes, and learning about your personality and preferences to generate more natural-sounding conversations.
 
-
 -   @nathanbenaichStateAIReport2022 State of AI Report
-
-
-Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017].
-
-
-[@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
-
 
 ## Interfaces for Human-Computer Interaction
 
 ### Speech Makes Computers Feel Real
 
-Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions.
+There's evidence across disciplines about the usefulness of AI assistants while concerns exit about the possibility of implementing privacy. Providing voice for the AI raises new ethical issues. Voice assistants need to continuously record human speech and process it in data centers in the cloud Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie all rely on voice as their main interface.
 
-Purely on economic side, processing human voice is several times more expensive than processing text messages [@mittalLittleLittleLittle2025].
+Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions. Voice assistants such as Apple's Siri and Amazon's Alexa are well-known yet Amazon's Rohit Prasad thinks it can do so much more:
 
-Voice assistants such as Apple's Siri and Amazon's Alexa are well-known examples of AI technology in the world. Amazon's Rohit Prasad thinks it can do so much more, *"Alexa is not just an AI assistant - it's a trusted advisor and a companion"* [@prasadHowWillAlexa2022].
+> *"Alexa is not just an AI assistant - it's a trusted advisor and a companion"* [@prasadHowWillAlexa2022].
 
-Providing voice for the AI raises new ethical issues. Voice assistants need to continuously record human speech and process it in data centers in the cloud. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie all rely on voice as their main interface.
+[@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 
+*human-like* presence. The Alpha generation (born since 2010) and Beta (since 2025) are be first true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets.
 
-The Alpha (born since 2010) and Beta (since 2025) generations will be the true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets.
+Purely on the economic side, processing human voice is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, voice is likely less sustainable.
 
 Design guidelines for optimal design performance can be extremely specific. [@casperkesselsGuidelinesDesigningInCar2022] details 18 concrete do’s and don’ts, drawing on prior *distraction research*, to support driving safety and integrate seamlessly with the other interfaces in the vehicle, for instance:
 
 > “Auditory information should come from the same location as visual information” to minimize spatial attention shifts 
 > “Be aware of visual distraction. [S]ome drivers tend to direct their gaze towards the ‘source’ of the voice assistant when speaking. Make sure an interaction sequence does not cause unnecessary visual distraction” - example guidelines for voice assistants from [@casperkesselsGuidelinesDesigningInCar2022]. 
 
--   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
-
-Some research suggests that voice UI accompanied by a *physical embodied system* is the preffered by users in comparison with voice-only UI [@CELINO2020102410].
-
-There's evidence across disciplines about the usefulness of AI assistants:
-
--   [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 'human-like' presence. Standford research: "humans expect computers to be like humans or places"
+Some research suggests that voice UI accompanied by a *physical embodied system* is the preferred by users in comparison with voice-only UI [@CELINO2020102410].
 
 ### Generative UIs Enable Flexibility of Use
 
-The 'grandfather' of user experience design, [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough (*"difficult, slow, and unpleasant"*) - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not. The promise of *Generative User Interfaces* (GenUI) is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create ***"**more accessible and inclusive \[UIs for\] users of all backgrounds**".*** [@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns. 
+The 'grandfather' of user experience design, [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough - and has hope Generative UI could offer a chance to provide levels of accessibility humans could not. 
 
-While [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried about UIs becoming average: more and more similar to the lowest common denominator. Yet, when we can generate better UIs (UI orchestration, crafting "systems of intent", as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. Software itself can increasingly be generated by AI systems (i.e. machines making machines). As machines become more capable, machines will eventually be capable of producing machines. Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
+> Computers are *"difficult, slow, and unpleasant"* [@nielsenAccessibilityHasFailed2024] 
 
-The history of *intelligent interfaces* is long [@kobetzDecodingFutureEvolution2023]. [@GenerativeUIDesign2023] gives an overview of the history of generative AI design tools going back in time until 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design.
+The promise of *Generative User Interfaces* (GenUI) is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create *"more accessible and inclusive \[UIs for\] users of all backgrounds"*.[@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns. 
+
+[@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized.
+[@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the key word is *intent*, expressing what the human wants - and having the machines deliver that.
+
+The history of *intelligent interfaces* is long and [@GenerativeUIDesign2023; @kobetzDecodingFutureEvolution2023] give a good overview of the history of generative AI design tools going back in time as far as 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design. As the old adage goes, as machines become more capable, machines will eventually be capable of producing machines. Before that happens, at least the software part of the machine can increasingly be generated by AI systems (i.e. machines making machines). Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
 
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field | Usage |
 |--------------------------|----------------------------------------------|
-| Shipping | @veitchSystematicReviewHumanAI2022 highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
+| Shipping | [@veitchSystematicReviewHumanAI2022] highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
 | Data Summarizaton | AI is great at summarizing and analyzing data [@petersGoogleChromeWill2023; @tuWhatShouldData2023] |
 | Childcare | Generate personalized bedtime stories |
-| Design Tools | @DavidHoangHow2024 |
+| Design Tools | [@DavidHoangHow2024] |
 
 : A very small illustration of generative AI usage across disparate fields of human life.
 
--   @cromptonDecisionpointdilemmaAnotherProblem2021 highlights AI as decision-support for humans while differentiating between ***intended*** and ***unintended*** influence on human decisions.
+-   While [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] are worried about UIs becoming average: more and more similar to the lowest common denominator. 
+
 
 -   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX). Data-Driven Design Enables Generative User Interfaces (GenUI). Generative AIs Enable New UI Interactions.
 
-    influences UI design patterns @joyceRiseGenerativeAIdriven2024
+-   influences UI design patterns @joyceRiseGenerativeAIdriven2024
 
 -   @chengInvestigationTrustAIenabled2022 describes AI-based support systems for collaboration and team-work.
-
--   **Effective Accelerationism (often shortened to E\\acc) boils down to the idea that "**the potential for negative outcomes shouldn't deter rapid advancement"
 
 -   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
 
@@ -498,8 +487,6 @@ There are many ways to structure design theory. For the purposes of this AI-focu
 
 What is the user interface of the green transformation?
 
--   @katemoranGenerativeUIOutcomeOriented2024 "highly personalized, tailor-made interfaces that suit the needs of each individual" "Outcome-Oriented Design"
-
 ### Usability is the Bare Minimum of User Experience
 
 Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
@@ -517,6 +504,7 @@ There's a number of user interface design patterns that have provide successful 
 | Reactions |                                    |     |
 
 : Common Social Media UI Parts
+
 
 There are also more philosophical approaches to *Interface Studies*. [@davidhoangCreatingInterfaceStudies2022], the head of product design at Webflow, suggests taking cues from art studies to *isolate the core problem*: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*. Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies [@Review2023Helsinki2023].
 
@@ -578,7 +566,7 @@ Many researchers have discussed the user experience (UX) of AI (term such as AIU
 
 @combiManifestoExplainabilityArtificial2022 proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
 
--   @zimmermanUXDesignersPushing2021 "UX designers pushing AI in the enterprise: a case for adaptive UIs"
+-   in the enterprise context, [@zimmermanUXDesignersPushing2021] delves into the proposition of UX designers as pioneers pushing AI-based adaptive UIs, as UX designers are the ones who will best notice the broken workflows.
 
 -   @WhyUXShould2021 "Why UX should guide AI"
 
@@ -595,8 +583,6 @@ Many researchers have discussed the user experience (UX) of AI (term such as AIU
 -   @lexowDesigningAIUX2021 Silicon Valley, automation, artificial systems
 
 -   @davidpasztorAIUXPrinciples2018 AI UX principles
-
--   @bubeckSparksArtificialGeneral2023 finds ChatGPT passes many exams meant for humans.
 
 -   @suenBuildingTrustAutomatic2023 discusses AI systems used for evaluating candidates at job interviews
 
