@@ -438,8 +438,11 @@ Providing voice for the AI raises new ethical issues. Voice assistants need to c
 
 The Alpha (born since 2010) and Beta (since 2025) generations will be the true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets.
 
--   @casperkesselsGuidelinesDesigningInCar2022: "Guidelines for Designing an In-Car Voice Assistant"
--   @casperkesselsVoiceInteractionSolution2022: "Is Voice Interaction a Solution to Driver Distraction?"
+Design guidelines for optimal design performance can be extremely specific. [@casperkesselsGuidelinesDesigningInCar2022] details 18 concrete do’s and don’ts, drawing on prior *distraction research*, to support driving safety and integrate seamlessly with the other interfaces in the vehicle, for instance:
+
+> “Auditory information should come from the same location as visual information” to minimize spatial attention shifts 
+> “Be aware of visual distraction. [S]ome drivers tend to direct their gaze towards the ‘source’ of the voice assistant when speaking. Make sure an interaction sequence does not cause unnecessary visual distraction” - example guidelines for voice assistants from [@casperkesselsGuidelinesDesigningInCar2022]. 
+
 -   @tangSemanticReconstructionContinuous2022 reports new findings enable computers to reconstruct language from fMRI readings. - Focus on voice education?
 
 Some research suggests that voice UI accompanied by a *physical embodied system* is the preffered by users in comparison with voice-only UI [@CELINO2020102410].
