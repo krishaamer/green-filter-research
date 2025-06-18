@@ -144,7 +144,7 @@ Responsible AI Seeks to Mitigate Generative AIs' Known Issues.
 
 Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others. 
 
-[@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk. In order to mitigate these risks (and perhaps to appease the public), all the major AI labs have taken steps to be more safe. Anthropic, which was founded by former OpenAI employees, after leaving the OpenAI over this very issue, led the movement by announcing responsible *scaling policy* [@AnthropicResponsibleScaling2023]. OpenAI itself announced a dedicated "Superalignment" team, co-led by Ilya Sutskever and Jan Leike; they made a specific promise to commit 20% of its compute budget to build an AI system in the next 4 years, that can itself research and refine alignment methods, effectively solving the alignment problem for superintelligent AI (which is considered the highest risk) [@janleikeIntroducingSuperalignment2023]. OpenAI has previously admitted, it does not yet fully understand how the internals of an neural network work; they are developing tools to represent neural network concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024]. Outside of the major labs, several intependent AI safety organizations have also been launched, for example METR, the Model Evaluation & Threat Research incubated in the Alignment Research Center [@METR2023].
+[@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk.  In order to mitigate these risks (and perhaps to appease the public), all the major AI labs have taken steps to be more safe. Anthropic, which was founded by former OpenAI employees, after leaving the OpenAI over this very issue, led the movement by announcing responsible *scaling policy* [@AnthropicResponsibleScaling2023]. OpenAI itself announced a dedicated "Superalignment" team, co-led by Ilya Sutskever and Jan Leike; they made a specific promise to commit 20% of its compute budget to build an AI system in the next 4 years, that can itself research and refine alignment methods, effectively solving the alignment problem for superintelligent AI (which is considered the highest risk) [@janleikeIntroducingSuperalignment2023]. OpenAI has previously admitted, it does not yet fully understand how the internals of an neural network work; they are developing tools to represent neural network concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024]. Outside of the major labs, several intependent AI safety organizations have also been launched, for example METR, the Model Evaluation & Threat Research incubated in the Alignment Research Center [@METR2023].
 
 A popular approach to AI safety is *red-teaming*, which means pushing the limits of LLMs, trying to get them to produce outputs that are racist, false, or otherwise unhelpful. Mapping the emerging abilities of new models is a job in itself.
 
@@ -274,7 +274,7 @@ Weizenbaum later expressed concerns about how easily humans might be misled by A
 
 ### Artificial Empathy Also Builds Trust
 
-Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is *AI Friend* is Replika, a computer model trained to be your companion in daily life. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
+Today's machines are much more capable so it's not a surprise humans would like to talk to them. One example is a conversational chatbot - or *AI Friend* -, called Replika, a computer model trained to be your companion in daily life.  Replika was launched in 2017 and in 2024 was used by 30 million people; the focus is on empathetic dialogue to support mental well being, sort of like a friend, a digital companion, (or even a romantic partner, in paid versions of the app), and includes an animated avatar interface [@eugeniakuydaReplika2023]. Replika can ask probing questions, tell jokes, and learning about your personality and preferences to generate more natural-sounding conversations.[@tristangreeneConfusedReplikaAI2022; @bardhanMenAreCreating2022] report on anecdotal evidence from Reddit boards which shows how some users of the Replika AI companion app feel so much empathy towards the robot, they confuse it with a sentient being, while others are using verbal abuse and gendered slurs to fight with their AI companions. When the quality of AI responses becomes good enough, people begin to get confused. [@jiangChatbotEmergencyExist2022] describes how Replika users in China using in 5 main ways, all of which rely on empathy. The company's CEO insists it's not trying to replace human relationship but to create an entirely new relationship category with the AI companion; there's value for the users in more realistic avatars, integrating the experience further into users' daily lives through various activities and interactions [@patelReplikaCEOEugenia2024].
 
 | How humans express empathy towards the Replika AI companion |
 |-------------------------------------------------------------|
@@ -389,7 +389,7 @@ As AIs became more expressive and able to to *roleplay*, we can begin discussing
 
 Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as ***"computer programming that learns and adapts"*** [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
-The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and large investments into LLMs.
+The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and massive investments into new LLMs.
 
 | Product | Link | Description |
 |-------------------|------------------------------|-----------------------|
@@ -406,11 +406,9 @@ The rising availability of AI assistants may displace Google search with a more 
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023].
+Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
-
-Conversational chatbot Replika was launched in 2017 and in 2024 was used by 30 million people; the focus is on empathetic dialogue to support mental well being, sort of like a friend, a digital companion, (or even a romantic partner, in paid versions of the app), and includes an animated avatar interface [@eugeniakuydaReplika2023]. Replika can ask probing questions, tell jokes, and learning about your personality and preferences to generate more natural-sounding conversations.
 
 -   @nathanbenaichStateAIReport2022 State of AI Report
 
@@ -418,14 +416,14 @@ Conversational chatbot Replika was launched in 2017 and in 2024 was used by 30 m
 
 ### Speech Makes Computers Feel Real
 
-There's evidence across disciplines about the usefulness of AI assistants while concerns exit about the possibility of implementing privacy. Providing voice for the AI raises new ethical issues. Voice assistants need to continuously record human speech and process it in data centers in the cloud Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie all rely on voice as their main interface.
+There's evidence across disciplines about the usefulness of AI assistants while concerns exist about the possibility of implementing privacy. Providing voice for the AI raises new ethical issues. Voice assistants need to continuously record human speech and process it in data centers in the cloud Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie all rely on voice as their main interface.
 
 Voice has a visceral effect on the human psyche; since birth we recognize the voice of our mother. The voice of a loved one has a special effect. Voice is a integral part of the human experience. Machines that can use voice in an effective way are closer to representing and affecting human emotions. Voice assistants such as Apple's Siri and Amazon's Alexa are well-known yet Amazon's Rohit Prasad thinks it can do so much more:
 
 > *"Alexa is not just an AI assistant - it's a trusted advisor and a companion"* [@prasadHowWillAlexa2022].
 
 [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers 
-*human-like* presence. The Alpha generation (born since 2010) and Beta (since 2025) are be first true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets.
+*human-like* presence. The Alpha generation (born since 2010) and Beta (since 2025) are be first true native AI users.[@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets. In order to cover these knowledge gaps in the earliest age, educational materials on AI have been  available for children in kindergarten to primary school; for instance the [@readyaiHumanAIInteractionHow2020] book introduces the 5 big ideas of Human-AI interaction for children aged 2-8: perception (the use of sensors), representation and reasoning (data structures, algorithms, predictions), learning (recognizing patterns in data), natural interaction (emotion, language, expression recognition, even cultural knowledge), and finally, societal impact (biases, ethics, guidelines to avoid unfair outcomes).
 
 Purely on the economic side, processing human voice is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, voice is likely less sustainable.
 
@@ -447,7 +445,7 @@ The promise of *Generative User Interfaces* (GenUI) is to dynamically provide an
 [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized.
 [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the key word is *intent*, expressing what the human wants - and having the machines deliver that.
 
-The history of *intelligent interfaces* is long and [@GenerativeUIDesign2023; @kobetzDecodingFutureEvolution2023] give a good overview of the history of generative AI design tools going back in time as far as 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design. As the old adage goes, as machines become more capable, machines will eventually be capable of producing machines. Before that happens, at least the software part of the machine can increasingly be generated by AI systems (i.e. machines making machines). Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
+The history of *intelligent interfaces* is extensive. [@GenerativeUIDesign2023; @kobetzDecodingFutureEvolution2023] give an overview of the history of generative AI design tools, going back in time as far as 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design. As the old science fiction adage goes, when machines become more capable, they will eventually be capable of producing machines themselves. Before that happens, at least the software part of the machine can increasingly be generated by AI systems (i.e. machines making machines). Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
 
 There's wide literature available describing human-AI interactions across varied scientific disciplines. While the fields of application are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
@@ -473,7 +471,7 @@ There's wide literature available describing human-AI interactions across varied
 
 There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI
 
--   [@NielsenIdeasGenerative2024] Meanwhile is very critical because for the following reasons:
+-   [@NielsenIdeasGenerative2024] Meanwhile is critical because for the following reasons:
 
 -   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
 
@@ -487,13 +485,20 @@ There are many ways to structure design theory. For the purposes of this AI-focu
 
 What is the user interface of the green transformation?
 
-### Usability is the Bare Minimum of User Experience
+### Usability Is the Bare Minimum of User Experience
 
-Many large corporations have released guidelines for Human-AI interaction. @mikaelerikssonbjorlingUXDesignAI Ericcson AI UX.
+Many researchers have discussed the user experience (UX) of AI (terms such as AIUX and XAI have been used) to provide *usability guidelines* for AI. [@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on 1) Interpretability, 2) Understandability, 3) Usability, and 4) Usefulness. Many large corporations have released guidelines for Human-AI interaction as well. The AI UX team from Ericsson’s Experience Design Lab released one of the early reports, exploring the role of trust in AI services, suggesting to treat AIs an *agents* rather than tools; for the design to be successful, trust must embedded into the interface front and center, best measured on 4 categories, inspired by human relationships: 1) Competence, 2) Benevolence, 3) Integrity, and 4) Charisma [@mikaelerikssonbjorlingUXDesignAI2020]. Microsoft provides guidelines for Human-AI interaction [@li2022assessing; @amershiGuidelinesHumanAIInteraction2019] which provides useful heuristics categorized by context and time.
 
-@mckeoughMcKinseyDesignLaunches2018 business consultancies have begun to recognize the importance of design to business. They advise their corporate clients to bring user experience design to the core of their business operations.
+| Context            | Time |
+|--------------------|------|
+| Initially          |      |
+| During interaction |      |
+| When wrong         |      |
+| Over time          |      |
 
-There's a number of user interface design patterns that have provide successful across a range of social media apps. Such *user experience / user interface* (UX/UI) patterns are copied from one app to another, to the extent that the largest apps share a similar look and feature set. Common UX/UI parts include the Feed and Stories. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
+: Microsoft's heuristics categorized by context and time.
+
+The previous design wave before UX for AI was corporations understanding how crucial design is to their business. In the 2010s business consultancies began to recognize the importance of design and advising their clients on putting design in the center of their strategy, bringing user experience design to the core of their business operations. [@mckeoughMcKinseyDesignLaunches2018]. There's a number of user interface design patterns that have proven successful across a range of social media apps. Such *user interface* (UX/UI) patterns have been copied from one app to another, to the extent that the largest apps share a similar look and feature set and the users are used to the same user experience. Common UX/UI parts include features such as the *Feed* and *Stories*, among many others. By using common UI parts from social media users have an easier time to accept the innovative parts. add Viz charts. Avatars are increasingly common and new generations are used to talking to computers.
 
 | Feature   | Examples                           |     |
 |-----------|------------------------------------|-----|
@@ -505,23 +510,9 @@ There's a number of user interface design patterns that have provide successful 
 
 : Common Social Media UI Parts
 
+There are also more philosophical approaches to *Interface Studies*. [@davidhoangCreatingInterfaceStudies2022], the head of product design at Webflow, an AI-enabled website development platform, suggests taking cues from art studies to *isolate the core problem*: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*. Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies [@Review2023Helsinki2023]. [@jarovskyDarkPatternsAI2022] lists the numerous ways how AIs can mislead people, which she calls the AI UX dark patterns, and the U.S. FTC Act and the EU AI Act are attempting to manage.
 
-There are also more philosophical approaches to *Interface Studies*. [@davidhoangCreatingInterfaceStudies2022], the head of product design at Webflow, suggests taking cues from art studies to *isolate the core problem*: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*. Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies [@Review2023Helsinki2023].
-
-Usability sets the baseline but AI-interfaces are capable of more.
-
--   @tristangreeneConfusedReplikaAI2022: when the quality of AI responses becomes good enough, people begin to get confused.
-
-The user experience (UX) of AI is a topic under active development by all the largest online platforms. The general public is familiar with the most famous AI helpers, ChatGPT, Apple's Siri, Amazon's Alexa, Microsoft's Cortana, Google's Assistant, Alibaba's Genie, Xiaomi's Xiao Ai, and many others. For general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. 
-
-
--   AI UX dark patterns @jarovskyDarkPatternsAI2022
-
--   AI is usually a model that spits out a number between 0 and 1, a probability score or prediction. UX is what we do with this number.
-
-Design starts with understanding human psychology. [@shinHowUsersInteract2020] looks at user experience through the lens of *usability of algorithms* - focusing on users' cognitive process allows one appreciate how product features are received by the brain and transformed into experiences by interacting with the algorithm. 
-
-[@baileyAIEducation2023] believes people will increasingly use AI capabilities through UIs that are specific to a task rather than generalist interfaces like ChatGPT.
+Usability sets the baseline - but AI-interfaces are capable of much more. The user experience (UX) of AI is a topic under active development by all the largest online platforms. AI is usually a computer model that spits out a number between 0 and 1, a probability score or a prediction. UX is what we do with this number. Design starts with understanding human psychology. [@shinHowUsersInteract2020] looks at user experience through the lens of *usability of algorithms*; focusing on users' cognitive processes allows one to appreciate how product features are received by the brain and transformed into experiences by interacting with the algorithm. The general public is familiar with the most famous AI helpers, ChatGPT, Apple's Siri, Amazon's Alexa, Microsoft's Cortana, Google's Assistant, Alibaba's Genie, Xiaomi's Xiao Ai, and many others. For general, everyday tasks, such as asking factual questions, controlling home devices, playing media, making orders, and navigating the smart city. Yet, as AI permeates all types of devices, [@baileyAIEducation2023] believes people will increasingly use AI capabilities through UIs that are specific to a task rather than generalist interfaces like ChatGPT. Nonetheless, a generalist AI interface may still control those services, if asked to do so, so it may an 'and' rather than an 'either/or', when it comes to AI usage.
 
 How do the tenets of user experience (UX) apply to AI?
 
@@ -541,30 +532,13 @@ How do the tenets of user experience (UX) apply to AI?
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
-Usability Guidelines
-
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004. Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
-As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017].
+With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again?
 
-Might we try again?
 
-With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. @benjamincassidyTwistedLifeClippy2022 and @abigailcainLifeDeathMicrosoft2017 illustrate beautifully the story of Clippy and @tashkeunemanWeLoveHate2022 ask poignantly: "We love to hate Clippy --- but what if Clippy was right?"
 
 -   Life-like speaking faces from Microsoft Research turn a single image and voice clip into a life-like representation [@xuVASA1LifelikeAudioDriven2024].
-
-Many researchers have discussed the user experience (UX) of AI (term such as AIUX and XAI are also used) to provide *usability guidelines*. Microsoft provides guidelines for Human-AI interaction [@li2022assessing; @amershiGuidelinesHumanAIInteraction2019] which provides useful heuristics categorized by context and time.
-
-| Context            | Time |
-|--------------------|------|
-| Initially          |      |
-| During interaction |      |
-| When wrong         |      |
-| Over time          |      |
-
-: Microsoft's heuristics categorized by context and time.
-
-@combiManifestoExplainabilityArtificial2022 proposes a conceptual framework for XAI, analysis AI based on Interpretability, Understandability, Usability, and Usefulness.
 
 -   @WhyUXShould2021 "Why UX should guide AI"
 
@@ -621,8 +595,6 @@ Many researchers have discussed the user experience (UX) of AI (term such as AIU
 -   @dignumAIPeoplePlaces2021
 
 -   @boleizhouCVPR22Tutorial2022 Human-Centered AI for Computer Vision.
-
--   @readyaiHumanAIInteractionHow2020 Human-AI Interaction
 
 -   @vinuesaRoleArtificialIntelligence2020 ai for Sustainable Development Goals, "consensus-based expert elicitation process"
 
