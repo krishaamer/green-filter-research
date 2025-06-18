@@ -442,8 +442,6 @@ There's a wide range of literature available, describing human-AI interactions, 
 
 AI IXD is about human-centered seamless design, Storytelling. Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialized skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computer more human-friendly.
 
-
-
 | Field | Usage |
 |--------------------------|----------------------------------------------|
 | Shipping | [@veitchSystematicReviewHumanAI2022] highlights the active role of humans in Human-AI interaction is autonomous self-navigating ship systems. |
@@ -473,7 +471,7 @@ There are many ways to structure design theory. For the purposes of this AI-focu
 
 : Criticism of Generative UI by [@NielsenIdeasGenerative2024].
 
-### Usability Is the Bare Minimum of User Experience 
+### Usability Is the Bare Minimum of User Experience
 
 Many researchers have discussed the user experience (UX) of AI (terms such as AIUX and XAI have been used) to provide *usability guidelines* for AI. [@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on 1) Interpretability, 2) Understandability, 3) Usability, and 4) Usefulness. Many large corporations have released guidelines for Human-AI interaction as well. The AI UX team from Ericsson’s Experience Design Lab released one of the early reports, exploring the role of trust in AI services, suggesting to treat AIs an *agents* rather than tools; for the design to be successful, trust must embedded into the interface front and center, best measured on 4 categories, inspired by human relationships: 1) Competence, 2) Benevolence, 3) Integrity, and 4) Charisma [@mikaelerikssonbjorlingUXDesignAI2020]. [@chengInvestigationTrustAIenabled2022] describes AI-based support systems for collaboration and team-work, underlining how higher trust leads to willingness to reuse the AI in the future, collaboration satisfaction, and perceived task quality. Google's AI Principles project provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
 
@@ -484,19 +482,19 @@ Microsoft provides guidelines for Human-AI interaction, which provides useful he
 | Initially | Clarify what it does; what are the limitations. |
 | During interaction | Offer timely help, show only what matters, while respecting norms and avoiding bias |
 | When wrong | Let users retry fast and make corrections; empower users to dismiss easily; explain why the system acted; be precise and in-scope |
-| Over time | Track changes and adapt from use; announce changes and update with care (so not to break the user's work);  invite feedback; show outcome of actions clearly; provide global settings |
+| Over time | Track changes and adapt from use; announce changes and update with care (so not to break the user's work); invite feedback; show outcome of actions clearly; provide global settings |
 
 : Microsoft's heuristics categorized by context and time.
 
 The previous design wave before UX for AI was corporations understanding how crucial design is to their business. In the 2010s business consultancies began to recognize the importance of design and advising their clients on putting design in the center of their strategy, bringing user experience design to the core of their business operations. [@mckeoughMcKinseyDesignLaunches2018]. There's a number of user interface design patterns that have proven successful across a range of social media apps. Such *user interface* (UX/UI) patterns have been copied from one app to another, to the extent that the largest apps share a similar look and feature set and the users are used to the same user experience. Common UX/UI parts include features such as the *Feed*, *Stories*, and *Avatars*, among many others. This phenomenon (or trend) has led some designers such as [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] to be worried about UIs becoming average: more and more similar to the lowest common denominator. Yet, by using common UI parts from social media, users may have an easier time to accept the innovative parts, as they just look like new features inside the old interface. As new generations become increasingly used to talking to computers in natural language, the older interface patterns may gradually fade away.
 
-| Feature   | Examples                           |
-|-----------|------------------------------------|
-| Feed      |                                    |
-| Post      | Apple App Store                    |
-| Stories   | IG, FB, WhatsApp, SnapChat, TikTok |
-| Comment   |                                    |
-| Reactions |                                    |
+| Feature | Examples | Notes |
+|----|----|----|
+| Feed | Facebook, Instagram, Twitter, TikTok, etc |  |
+| Post | Facebook, Instagram, Twitter, TikTok, etc, even Apple's App Store |  |
+| Stories | IG, FB, WhatsApp, SnapChat, TikTok, etc |  |
+| Comment | YouTube, Threads, Reddit, Medium, etc |  |
+| Reactions | Facebook, Instagram, Slack, Threads, but even LinkedIn and Github. | The feature has involved from a simple like button to more expressive emotions. |
 
 : Common social media UI parts.
 
@@ -525,7 +523,6 @@ The application of user experience (UX) tenets to AI.
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004. Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
-
 
 -   @WhyUXShould2021 "Why UX should guide AI"
 
@@ -565,7 +562,6 @@ With the advent of ChatGPT, the story of Clippy has new relevance as part of the
 
 -   What is Personalized AI?
 
-
 -   @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
 
 -   @videolectureschannelCommunicationHumanAIInteraction2022 "Communication in Human-AI Interaction"
@@ -586,7 +582,6 @@ With the advent of ChatGPT, the story of Clippy has new relevance as part of the
 
 AI-based systems are being used in high-stakes situations (medical, cars, etc).
 
-
 Attempts to implemented AI in medicine, where stakes are high raising the need for ethical considerations, have been made since the early days of computing, as the promise to improve health outcomes is so high. Since CADUCEUS in the 1970s [in @kanzaAIScientificDiscovery2021], the first automated medical decision making system, medical AI now provides diagnosic systems for symptoms and AI-assistants in medical imaging. Complicated radiology reports can be explained to patients using AI chatbots [@jeblickChatGPTMakesMedicine2022]. The explanations are not only useful for patients but for doctors (and other medical professionals) as well. [@calistoBreastScreeningAIEvaluatingMedical2022] focuses on AI-human interactions in medical workflows and underscores the importance of output explainability; medical professionals who were given AI results with an explanation trusted the results more. [@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data. For administrative tasks such as responding to patients' questions, medical AI has already reached - or even exceeded - expert-level question-answering ability [@singhalExpertLevelMedicalQuestion2023]. In an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors [@ayersComparingPhysicianArtificial2023]. If anything, the adoption has been too cautious. [@daisywolfWhereWillAI2023] criticizes US healthcare's slow adoption of technology and predicts AI will help healthcare leapfrog into a new era of productivity by acting more like a human assistant.
 
 Example of ChatGPT explaining medical terminology in a blood report.
@@ -598,9 +593,7 @@ Example of ChatGPT explaining medical terminology in a blood report.
 ```{=mdx}
 <Figure caption="Example of ChatGPT explaining medical terminology in my blood report." src={ChatGPTMedical} />
 ```
-
 Today's AI is already a technology which can augment human skills or replace skills that were lost due to an accident. For instance, [@dotgoDotGo2023] makes the camera the interaction device for people with vision impairment.
-
 
 -   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024].
 
