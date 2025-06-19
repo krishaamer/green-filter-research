@@ -443,7 +443,6 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 
 -   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
 
-
 AI UX is about human-centered seamless design, psychology, storytelling. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the keyword is *intent*, expressing what the human wants - and having the machines deliver that.
 
 -   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX). What is the user interface of the green transformation? There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI. Knowing Machines, complex decision-making systems. 
@@ -452,8 +451,7 @@ Human-computer interaction (HCI) has a long storied history since the early days
 
 The usefulness of AI systems increases profoundly as they are integrated into existing products as services, which become akin to tools the AI can use when appropriate. [@joyceRiseGenerativeAIdriven2024] highlights how Notion AI enables collaborating across teams, where AI becomes akin to one of the co-workers; AI influences UI design patterns and boost productivity by providing new features such as memory, recalling important discussions from past meetings, surfacing key insights, and generating reports in a variety of formats, personalized to the intended receiver.
 
-There's a wide range of literature available, describing human-AI interactions, spread out over varied scientific disciplines. While the fields of application for AI are diverse, some key lessons can be transferred horizontally across fields of knowledge.
-
+A wide range of literature describes human-AI interactions, spread out over varied scientific disciplines. While the fields of application for AI are diverse, some key lessons can be transferred horizontally across fields of knowledge.
 
 | Field | Usage |
 |--------------------------|----------------------------------------------|
@@ -465,15 +463,16 @@ There's a wide range of literature available, describing human-AI interactions, 
 : A very small illustration of generative AI usage across disparate fields of human life.
 
 
-
-
-
 -   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
 
 
 ### Usability Is the Bare Minimum of Good User Experience
 
-Many researchers have discussed the user experience (UX) principles of designing AI products. The UX of AI (terms such as AI UX, IXD, and XAI have been used) is the subject of several *usability guidelines* for AI, which provide actionable advice for improving AI usability and UX - some of which I will list here. [@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on (1) Interpretability, (2) Understandability, (3) Usability, and (4) Usefulness. [@costaInteractionDesignAI2022] highlights key UI/UX patterns for interaction design in AI systems and stragies to make AI behaviors transparent and controllable: including (1) interactive explanations, (2) human-in-the-loop controls, (3) logging of contextual decisions - all seamlessly integrated into user workflows. [@WhyUXShould2021] argues that in order to avoid *context blindness*, (where the AI lacks awareness of the broader human intent) and foster trust and safe use, UX should clarify limitations, build clear feedback, embed user override mechanisms, and in general ensure users retain meaningful control over specialized AI algorithms. [@davidpasztorAIUXPrinciples2018] offers seven principles for AI-powered products: (1) visually distinguish GenAI content, (2) explain underlying processes and data privacy, (3) set realistic user expectations, (4) test edge cases proactively, (5) ensure AI engineers have access to high quality training data, (6) deploy rigorous user-testing (7) use immediate feedback channels for continuous improvement. [@lennartziburskiUXAI2018] emphasizes human-centered design for AI, including five key tenets: (1) starting from existing user workflows which can be augmented by AI, (2) under-promising/over-delivering on AI capabilities, (3) transparently explaining how the system works (data sources, trade-offs), (4) involving users in the learning loop, and (5) designing AI as an empowering tool rather than a black box.
+Many researchers have discussed the user experience (UX) principles of designing AI products. The UX of AI (terms such as AI UX, IXD, and XAI have been used) is the subject of several *usability guidelines* for AI, which provide actionable advice for improving AI usability and UX - some of which I will list here. 
+
+[@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on (1) Interpretability, (2) Understandability, (3) Usability, and (4) Usefulness. [@costaInteractionDesignAI2022] highlights key UI/UX patterns for interaction design in AI systems and stragies to make AI behaviors transparent and controllable: including (1) interactive explanations, (2) human-in-the-loop controls, (3) logging of contextual decisions - all seamlessly integrated into user workflows. [@WhyUXShould2021] argues that in order to avoid *context blindness*, (where the AI lacks awareness of the broader human intent) and foster trust and safe use, UX should clarify limitations, build clear feedback, embed user override mechanisms, and in general ensure users retain meaningful control over specialized AI algorithms.
+
+[@lennartziburskiUXAI2018] emphasizes human-centered design for AI, including five key tenets: (1) starting from existing user workflows which can be augmented by AI, (2) under-promising/over-delivering on AI capabilities, (3) transparently explaining how the system works (data sources, trade-offs), (4) involving users in the learning loop, and (5) designing AI as an empowering tool rather than a black box. [@davidpasztorAIUXPrinciples2018] offers seven principles for AI-powered products: (1) visually distinguish GenAI content, (2) explain underlying processes and data privacy, (3) set realistic user expectations, (4) test edge cases proactively, (5) ensure AI engineers have access to high quality training data, (6) deploy rigorous user-testing (7) use immediate feedback channels for continuous improvement. [@lewAIUXWhy2020] likewise focuses on (1) high data quality, (2) context-sensitive feedback, and (3) transparent controls. [@soleimani10UIPatterns2018] provides the longest list of human-friendly UI/UX patterns for AI, with very specific suggestions including like/dislike toggles, confidence indicators and criteria sliders, "why" insights, risk alerts, and opt-in controls: all to foster transparency, user control, and trust in algorithmic decisions. [@harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021] focuses on principle for effective human–AI interaction in adaptive interfaces, illustrating a case of Semantic Scholar, where researchers’ intelligence is augmented  via recommendation, summarization, and question-answering, while emphasizing user control and verification mechanisms.
 
 Many large corporations have released guidelines for Human-AI interaction as well. The AI UX team from Ericsson’s Experience Design Lab released one of the early reports, exploring the role of trust in AI services, suggesting to treat AIs an *agents* rather than tools; for the design to be successful, trust must embedded into the interface front and center, best measured on 4 categories, inspired by human relationships: (1) Competence, (2) Benevolence, (3) Integrity, and (4) Charisma [@mikaelerikssonbjorlingUXDesignAI2020]. [@chengInvestigationTrustAIenabled2022] describes AI-based support systems for collaboration and team-work, underlining how higher trust leads to willingness to reuse the AI in the future, collaboration satisfaction, and perceived task quality. Google's AI Principles project provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In [@designportlandHumansHaveFinal2018], Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
 
@@ -526,16 +525,7 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
-
- 
-
--   @andersonWaysArtificialIntelligence2020 
-
--   @stephaniedonaholeHowArtificialIntelligence2021 ai Impacting UX Design
-
 -   @lexowDesigningAIUX2021 Silicon Valley, automation, artificial systems
-
--   @davidpasztorAIUXPrinciples2018 AI UX principles
 
 -   @suenBuildingTrustAutomatic2023 discusses AI systems used for evaluating candidates at job interviews
 
@@ -550,14 +540,6 @@ With the advent of ChatGPT, the story of Clippy has new relevance as part of the
 -   @StudiesConversationalUX2018 chatbot book
 
 -   @tomhathawayChattingHumansUser2021 chatbot book
-
--   @lewAIUXWhy2020 AI UX book
-
--   @soleimani10UIPatterns2018: UI patterns for AI, new Section for Thesis background: "Human-Friendly UX For AI"?
-
--   What is Personalized AI?
-
--   @harvardadvancedleadershipinitiativeHumanAIInteractionArtificial2021
 
 -   @videolectureschannelCommunicationHumanAIInteraction2022 "Communication in Human-AI Interaction"
 
