@@ -472,7 +472,9 @@ There's a wide range of literature available, describing human-AI interactions, 
 
 ### Usability Is the Bare Minimum of User Experience
 
-Many researchers have discussed the user experience (UX) of AI (terms such as AIUX, IXD, and XAI have been used) to provide *usability guidelines* for AI. [@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on 1) Interpretability, 2) Understandability, 3) Usability, and 4) Usefulness. Many large corporations have released guidelines for Human-AI interaction as well. The AI UX team from Ericsson’s Experience Design Lab released one of the early reports, exploring the role of trust in AI services, suggesting to treat AIs an *agents* rather than tools; for the design to be successful, trust must embedded into the interface front and center, best measured on 4 categories, inspired by human relationships: 1) Competence, 2) Benevolence, 3) Integrity, and 4) Charisma [@mikaelerikssonbjorlingUXDesignAI2020]. [@chengInvestigationTrustAIenabled2022] describes AI-based support systems for collaboration and team-work, underlining how higher trust leads to willingness to reuse the AI in the future, collaboration satisfaction, and perceived task quality. Google's AI Principles project provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
+Many researchers have discussed the user experience (UX) of AI (terms such as AIUX, IXD, and XAI have been used) to provide *usability guidelines* for AI. [@combiManifestoExplainabilityArtificial2022] proposes a conceptual framework for XAI, analysis AI based on (1) Interpretability, (2) Understandability, (3) Usability, and (4) Usefulness. [@costaInteractionDesignAI2022] highlights key UI/UX patterns for interaction design in AI systems and stragies to make AI behaviors transparent and controllable: including (1) interactive explanations, (2) human-in-the-loop controls, (3) logging of contextual decisions - all seamlessly integrated into user workflows. [@WhyUXShould2021] argues that in order to avoid *context blindness*, (where the AI lacks awareness of the broader human intent) and foster trust and safe use, UX should clarify limitations, build clear feedback, embed user override mechanisms, and in general ensure users retain meaningful control over specialized AI algorithms. [@davidpasztorAIUXPrinciples2018] offers seven principles for AI-powered products: (1) visually distinguish GenAI content, (2) explain underlying processes and data privacy, (3) set realistic user expectations, (4) test edge cases proactively, (5) ensure AI engineers have access to high quality training data, (6) deploy rigorous user-testing (7) use immediate feedback channels for continuous improvement.
+
+Many large corporations have released guidelines for Human-AI interaction as well. The AI UX team from Ericsson’s Experience Design Lab released one of the early reports, exploring the role of trust in AI services, suggesting to treat AIs an *agents* rather than tools; for the design to be successful, trust must embedded into the interface front and center, best measured on 4 categories, inspired by human relationships: (1) Competence, (2) Benevolence, (3) Integrity, and (4) Charisma [@mikaelerikssonbjorlingUXDesignAI2020]. [@chengInvestigationTrustAIenabled2022] describes AI-based support systems for collaboration and team-work, underlining how higher trust leads to willingness to reuse the AI in the future, collaboration satisfaction, and perceived task quality. Google's AI Principles project provides Google's UX for AI library [@joshlovejoyUXAI; @googleOurPrinciplesGoogle]. In @designportlandHumansHaveFinal2018, Lovejoy, lead UX designer at Google's people-centric AI systems department (PAIR), reminds us that while AI offers need tools, user experience design needs to remain human-centered. While AI can find patterns and offer suggestions, humans should always have the final say.
 
 Microsoft provides guidelines for Human-AI interaction, which provides useful heuristics categorized by context and time [@li2022assessing; @amershiGuidelinesHumanAIInteraction2019].
 
@@ -523,11 +525,8 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
--   @WhyUXShould2021 "Why UX should guide AI"
 
--   @simonsterneUnlockingPowerDesign2023 UX is about helping the user make decisions
-
--   @davidpasztorAIUXPrinciples2018 AI UX Principles of Designing AI Products
+ UX Principles of Designing AI Products
 
 -   @andersonWaysArtificialIntelligence2020 AI usability
 
@@ -658,8 +657,6 @@ Should AIs look anthropomorphic or fade in the background? It's an open question
 
 : Some notable examples of anthropomorphic AIs for human emotions.
 
--   [@costaInteractionDesignAI2022] "Interaction Design for AI Systems"
-
 ### Roleplay for Financial Robo-Advisors
 
 *Robo-advisors* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply. Human advisors are very expensive and not affordable for most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*.
@@ -673,17 +670,20 @@ In the early days of robo-advisory, Germany and the United Kingdom led the way w
 ```{=mdx}
 <Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
 ```
-Some relevant papers include a comparison of robot advisors by [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021]'s account of how before Generative AI, financial chatbots were developed manually using a painstaking process that was slow and error-prone, for example using the Atura Process. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront are forced to upgrade their technology to keep up.
 
-While the financial AI companion apps in the US market are ahead globally, they are not yet using many of the user experience innovations that are prevalent on social media platforms targeted at Gen-Z and/or Millennials, possibly presenting an opportunity for cross-industry knowledge transfer, from businesses that are traditionally closer to the consumer - such as retailers. Financial AI companion apps have not yet grown to mainstream scale in Asia, Africa, Latin America, and Europe, being for the moment a largely US-based retail investor trend. The apps outside of the US are niche products in a nascent stage, however, they still provide relevant design directions or stories of what to avoid. The user interface and user experience (UI/UX) of consumer-focused investing apps in Europe has improved a over the past decade. The changing landscape is related to the earlier availability of better quality apps available in the US and the disappearance of the 1st generation of rudimentary investing apps and the lessons learned on how to automate the delivery of financial services while increasing user satisfaction.
+[@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021] compare robo-advisors and share show before GenAI, financial chatbots were developed manually using a painstaking process that was slow and error-prone. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront were forced to upgrade their technology to keep up.
 
-Robo-advisors compete with community investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries. Robo-Advisor do not have the type of social proof a community-based investment vehicle has. The question is, does the user trust the robot or a human.
+Robo-advisors can compete with community-investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries or act as entry-point for the aforementioned vehicles. However, robo-advisors typically do not have the type of social proof that community-based investment vehicle have, where the user may see the actions of other investors.
 
-In India, research is being conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success [@bhatiaRoboAdvisoryIts2020]. India had more than 2000 fintechs since 2015 [@migozziYouShouldWhat2023].
+The question - does the user trust a robot or a human, or is there a possible combination - has been researched in literature.
+
+-   Athropomorphism: "human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphic robo-advisors increase customer trust and reduce algorithm aversion. **similar to my research** [@deng2021anthropomorphized]
+
+
+In India, research has been conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success [@bhatiaRoboAdvisoryIts2020]. India is a large market with more than 2000 fintechs (financial technology startups) since 2015 [@migozziYouShouldWhat2023].
 
 Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024].
 
--   Athropomorphism: "human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphic robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research** [@deng2021anthropomorphized]
 
 -   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants? (n = 210) players of an  online investment game had to choose between: (a) human advice, (b) AI advice without explanation, or (c) AI advice paired with an explanation.
 
