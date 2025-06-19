@@ -200,7 +200,7 @@ The debate between open source vs closed-source AI is ongoing. Historically, ope
 models_chart()
 ```
 
-The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which currently rate GPT-4 and Claude 3 Opus as the top-performers. [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024).
+The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which as of 2024 rate GPT-4 and Claude 3 Opus as the top-performers. Model performance is not one-dimensional; @openaiHelloGPT4o2024 show how  GPT 4o combines different abilities into the same model, preserving more information, which in previous models was lost in data conversion (for example for images). [@zellersHellaSwagCanMachine2019]'s HellaSwag paper is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024.
 
 -   Scaling laws of LLMs @kaplanScalingLawsNeural2020
 
@@ -379,7 +379,7 @@ As AIs became more expressive and able to to *roleplay*, we can begin discussing
 
 -   The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
 
-Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as ***"computer programming that learns and adapts"*** [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
+Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as *"computer programming that learns and adapts"* [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
 The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and massive investments into new LLMs.
 
@@ -430,7 +430,22 @@ The "grandfather" of user experience design, [@nielsenAccessibilityHasFailed2024
 
 Data-driven design combined with GenAIs enables *Generative User Interfaces* (GenUI), with new UI interactions. The promise of GenUI is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create *"more accessible and inclusive \[UIs for\] users of all backgrounds"*.[@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns.
 
-AI UX is about human-centered seamless design, Storytelling. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the key word is *intent*, expressing what the human wants - and having the machines deliver that.
+Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the following reasons:
+
+| Problem            | Description                                       |
+|--------------------|---------------------------------------------------|
+| Low predictability | Does personalization mean the UI keeps changing?  |
+| High carbon cost   | AI-based personalization is computation-intensive |
+| Surveillance       | Personalization needs large-scale data capture    |
+
+: Criticism of Generative UI by [@NielsenIdeasGenerative2024].
+
+-   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
+
+
+AI UX is about human-centered seamless design, psychology, storytelling. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the keyword is *intent*, expressing what the human wants - and having the machines deliver that.
+
+-   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX). What is the user interface of the green transformation? There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI. Knowing Machines, complex decision-making systems. 
 
 Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialized skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computers more human-friendly. Likewise, the history of attempts at making *intelligent interfaces* is extensive. [@GenerativeUIDesign2023; @kobetzDecodingFutureEvolution2023] give an overview of the history of generative AI design tools, going back in time as far as 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design. As the old science fiction adage goes, when machines become more capable, they will eventually be capable of producing machines themselves. Before that happens, at least the software part of the machine can increasingly be generated by AI systems (i.e. machines making machines). Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
 
@@ -449,27 +464,11 @@ There's a wide range of literature available, describing human-AI interactions, 
 : A very small illustration of generative AI usage across disparate fields of human life.
 
 
-Knowing Machines, complex decision-making systems. 
 
--   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX).
 
-What is the user interface of the green transformation?
 
 -   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
 
-There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI
-
--   [@NielsenIdeasGenerative2024] Meanwhile is critical because for the following reasons:
-
--   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
-
-| Problem            | Description                                       |
-|--------------------|---------------------------------------------------|
-| Low predictability | Does personalization mean the UI keeps changing?  |
-| High carbon cost   | AI-based personalization is computation-intensive |
-| Surveillance       | Personalization needs large-scale data capture    |
-
-: Criticism of Generative UI by [@NielsenIdeasGenerative2024].
 
 ### Usability Is the Bare Minimum of User Experience
 
@@ -643,8 +642,6 @@ Intelligence may be besides the point as long as AI *becomes very good at reason
 
 What are the next features that could improve the next-generation UX/UI of AI-based assistants?
 
--   GPT 4o combines different abilities into the same model, preserving more information: [@openaiHelloGPT4o2024].
-
 [@skipperHowAIChanging2022] sketches a vision of *"\[AI\] blend into our lives in a form of apps and services"* deeply ingrained into daily human activity.
 
 Should AIs look anthropomorphic or fade in the background? It's an open question. Perhaps we can expect a mix of both depending on the context of use and goals of the particular AI.
@@ -686,9 +683,9 @@ In India, research is being conducted on how AI advisors could assist with inves
 
 Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024].
 
-Athropomorphism: human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphic robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research**
+-   Athropomorphism: "human-like attributes in robo-advisors, such as conversational chatbots, can affect adoption and risk preferences among customers. Studies show that anthropomorphic robo-advisors increase customer trust and reduce algorithm aversion." **similar to my research** [@deng2021anthropomorphized]
 
--   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants?
+-   @davidExplainableAIAdoption2021 Can explainable AI help adoption of Financial AI assistants? (n = 210) players of an  online investment game had to choose between: (a) human advice, (b) AI advice without explanation, or (c) AI advice paired with an explanation.
 
 -   @brownHowFinancialChatbots2021 Financial chatbots
 
