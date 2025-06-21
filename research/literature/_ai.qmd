@@ -123,22 +123,8 @@ The problems of opaqueness creates the field of *Explainable AI*. [@bowmanEightT
 ```{=mdx}
 <Figure caption="Heuristic-Systematic Model of AI Credibility" src={AI} />
 ```
--   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
 
-Personal AI Assistants to date have we created by large tech companies. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
-
--   An explosion of personal AI assistants powered by GPT models.
-
-| App          | Features                 |
-|--------------|--------------------------|
-| socratic.org | Study buddy              |
-| youper.ai    | Mental health helper     |
-| fireflies.ai | Video call transcription |
-| murf.ai      | Voice generator          |
-
-Responsible AI Seeks to Mitigate Generative AIs' Known Issues.
-
-Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
+A movement called *Responsible AI* seeks to mitigate generative AIs' known issues. Given the widespread use of AI and its increasing power of foundational models, it's important these systems are created in a safe and responsible manner. While there have been calls to pause the development of large AI experiments [@futureoflifeinstitutePauseGiantAI2023] so the world could catch up, this is unlikely to happen. There are several problems with the current generation of LLMs from OpenAI, Microsoft, Google, Nvidia, and others.
 
 [@christianoMyViewsDoom2023] believes there are plenty of ways for bad outcomes (existential risk) even without extinction risk. In order to mitigate these risks (and perhaps to appease the public), all the major AI labs have taken steps to be more safe. Anthropic, which was founded by former OpenAI employees, after leaving the OpenAI over this very issue, led the movement by announcing responsible *scaling policy* [@AnthropicResponsibleScaling2023]. OpenAI itself announced a dedicated "Superalignment" team, co-led by Ilya Sutskever and Jan Leike; they made a specific promise to commit 20% of its compute budget to build an AI system in the next 4 years, that can itself research and refine alignment methods, effectively solving the alignment problem for superintelligent AI (which is considered the highest risk) [@janleikeIntroducingSuperalignment2023]. OpenAI has previously admitted, it does not yet fully understand how the internals of an neural network work; they are developing tools to represent neural network concepts for humans [@openaiExtractingConceptsGPT42024; @gaoScalingEvaluatingSparse2024]. Outside of the major labs, several intependent AI safety organizations have also been launched, for example METR, the Model Evaluation & Threat Research incubated in the Alignment Research Center [@METR2023].
 
@@ -156,11 +142,22 @@ A popular approach to AI safety is *red-teaming*, which means pushing the limits
 
 : Table summarizing some problems with contemporary AIs.
 
-In 2024, OpenAI released its "Model Spec" to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach [@openaiIntroducingModelSpec2024].
+In 2024, OpenAI released its *"Model Spec"* to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach [@openaiIntroducingModelSpec2024].
 
 ### Evolution of Models and Emerging Abilities
 
-The debate between open source vs closed-source AI is ongoing. Historically, open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas. The strongest proponent of Open Source AI, META, open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models; because META's core business is not AI, rather it would benefit from having access to cheaper, better AI across the board, open-sourcing may be their best strategy [@dwarkeshpatelMarkZuckerbergLlama2024].
+The debate between open source vs closed-source AI is ongoing. Historically, open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. The question whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. 
+
+Personal AI assistants to date have been created by large tech companies, mostly using closed-source AI. However, open-source AI-models have opened up the avenue for smaller companies and even individuals for creating new AI-assistants - perhaps using the same underlying foundation model as the base, but adding new data, abilities, tools, or just innovating on the UI/UX stack. An explosion of personal AI assistants powered by foundation models can be found across use-cases. The following table only lists a tiny sample of such products.
+
+| App          | Features                 |
+|--------------|--------------------------|
+| socratic.org | Study buddy              |
+| youper.ai    | Mental health helper     |
+| fireflies.ai | Video call transcription |
+| murf.ai      | Voice generator          |
+
+In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas. The strongest proponent of Open Source AI, META, open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models; because META's core business is not AI, rather it would benefit from having access to cheaper, better AI across the board, open-sourcing may be their best strategy [@dwarkeshpatelMarkZuckerbergLlama2024].
 
 | AI Model | Released | Company | License | Country |
 |---------------|---------------|---------------|---------------|---------------|
@@ -198,15 +195,11 @@ The debate between open source vs closed-source AI is ongoing. Historically, ope
 models_chart()
 ```
 
-A foundational paper on the scaling laws of LLMs by [@kaplanScalingLawsNeural2020] provided a quantitative "road-map" linking model, data, and compute to predict performance; helpful to guide large-scale invesment into LLMs. The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which as of 2024 rate GPT-4 and Claude 3 Opus as the top-performers. Model performance is not one-dimensional; [@openaiHelloGPT4o2024] show how GPT 4o combines different abilities into the same model, preserving more information, which in previous models was lost in data conversion (for example for images). Another metric is metacognition, defined as *knowing about knowing* [@metcalfeMetacognitionKnowingKnowing1994] or "*keeping track of your own learning"* [@zerowasteeuropeZeroWasteHandbook2022]. Anthropic's Claude 3 was the first model capable of metacognition, promoting it as a feature. 
+A foundational paper on the scaling laws of LLMs by [@kaplanScalingLawsNeural2020] provided a quantitative road-map linking model, data, and compute to predict performance; helpful to guide large-scale invesment into LLMs. The proliferation of different models enables comparisons of performance based on several metrics from accuracy of responses to standardized tests such as GMAT usually taken my humans to reasoning about less well defined problem spaces. [@chiang2024chatbot; @lmsys.orgGPT4TurboHasJust2024] open-source AI-leaderboard project has collected over 500 thousand human-ranking of outputs from 82 large-language models, evaluating reasoning capabilities, which as of 2024 rate GPT-4 and Claude 3 Opus as the top-performers. Model performance is not one-dimensional; [@openaiHelloGPT4o2024] show how GPT 4o combines different abilities into the same model, preserving more information, which in previous models was lost in data conversion (for example for images). Another metric is metacognition, defined as *knowing about knowing* [@metcalfeMetacognitionKnowingKnowing1994] or "*keeping track of your own learning"* as defined by educators in sustainability (an example of how the same term is useful across academic fields) [@zerowasteeuropeZeroWasteHandbook2022]. Anthropic's Claude 3 was the first model capable of metacognition, promoting it as a feature, calling out a mistake made by itself [@shibuModelOpenAIRival2024].
 
-Also, interactions with other systems are important to measures, such as Retrieval Augmented Generation (RAG) performance. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024]. [@ragasMetricsDrivenDevelopment2023] suggests evaluating one's RAG pipelines enables *Metrics-Driven Development*. Likewise, LangSmith, the developer platform for LLM-powered apps (which makes extensive use of RAG), dissects the LLM app lifecycle into a pipeline: debug, collaborate, test, and monitor [@langchainDynamicFewshotExamples2024]. 
+With the proliferation of AI models, AI benchmarking has developed into its own industry, with many ways to measure a model's performance. In the early days [@hendrycksMeasuringMassiveMultitask2020] revealed models' uneven knowledge and lack in calibration, with the introduction of MMLU (Measuring Massive Multitask Language Understanding), a 57-task benchmark covering domains from elementary math to law, showing GPT-3 43.9% accuracy vs 89.8% human experts (19 points above random chance but far below human-expert level). Later models have reached or surpassed humans in this particular benchmark, necessitating the creation of newer, more difficult tests for AI. Anoter foundational AI paper, [@zellersHellaSwagCanMachine2019]'s HellaSwag, is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024.
 
-A foundational paper, [@zellersHellaSwagCanMachine2019]'s HellaSwag, is also accompanied by a leaderboard website (still being updated after publication) listing AI model performance most recent entry April 16, 2024.
-
--   Measuring Massive Multitask Language Understanding (MMLU) @hendrycksMeasuringMassiveMultitask2020.
-
--   "Generating structured data from unstructured inputs is one of the core use cases for AI" [@pokrassIntroducingStructuredOutputs2024].
+Moreover, benchmarking is not only about the abilities, knowledge and aligment of the model itself. Interactions with other systems are equally important to measure, such as Retrieval Augmented Generation (RAG) performance. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024]. [@ragasMetricsDrivenDevelopment2023] suggests evaluating one's RAG pipelines enables *Metrics-Driven Development*. Likewise, LangSmith, the developer platform for LLM-powered apps (which makes extensive use of RAG), dissects the LLM app lifecycle into a pipeline: debug, collaborate, test, and monitor [@langchainDynamicFewshotExamples2024]. As using unstructured inputs to generated structured data, is one of the core use cases of LLMs, conforming the outputs strictly to standards such as JSON is crucial (otherwise the production app might even break) - which is why OpenAI’s Structured Outputs, which guaranteed 100% reliability, was an important jump in AI adoption to mainstream app development [@pokrassIntroducingStructuredOutputs2024].
 
 ```{python}
 models_rag_performance()
@@ -223,6 +216,8 @@ At the end of the day, the adoption of AI to everyday life, even in the smallest
 ### Human Expectations Take Time to Change
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc. [@ZHANG2023107536] found humans are more likely to trust an AI teammate if they are not deceived by it's identity. It's better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems. AIs should disclose they are AIs.
+
+[@zerilliHowTransparencyModulates2022] focuses on human factors and ergonomics and argues that transparency should be task-specific: while transparency is key to trust and system monitoring, it should extend beyond explainability; after AI makes an error, different forms of AI transparency: (1) explanations, (2) confidence metrics, (3) human control over *task allocation* - affect human confidence in the system and have diverse levels of ability to repair human trust in the AI. To expand on the third point discussed by this author, in *adaptable allocation*, the user always decides when to keep a task and when to hand it to the AI algorithm - and in *adaptive allocation*, the system decides itself (by monitoring its own uncertainty) when to give difficult or risky cases back to the human.
 
 Humans still need some time to adjust their expectations of *what's possible* using conversational AI interfaces. [@baileyAIEducation2023] believes people are used to *search engines* and it will take a little bit time to get familiar with talking to a computer in natural language to accomplish their tasks. For example, new users of v0, an AI assistant for building user interfaces through conversation, would tell humans (the company make this app) about the issues they encounter, instead of telling the AI assistant directly, even though the AI in many cases would be able to fix the problem instantly; human users don't yet necessarily expect computers to behave like another human, there's *inertia* in the mental model of what computers are capable of, requiring the user interfaces to provide context and teaching humans how to interact with their AI coworkers[@rauchFascinatingFindingV02024]. Indeed, ChatGPT is already using buttons to explain context [@feifeiliuLiuFeiFeiPromptControlsGenAI].
 
@@ -297,7 +292,13 @@ ChatGPT makes it possible to *evaluate AI models* just by talking, i.e. having c
 
 While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields. Humans are multi-modal creatures by birth. To varied ability, we speak, see, listen using our biological bodies. AIs are becoming multi-modal by design to be able to match all the human modes of communication - increasing their humanity.
 
--   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey
+-   @fuLearningConversationalAI2022 Learning towards conversational AI: Survey "100-plus peer-reviewed papers (2018 – 2021)" "map the landscape for NLP researchers and highlight what still blocks “informative + controllable” conversation systems." "rule-based, retrieval-based, or generative" "models & algorithms" key results "Generative transformers dominate recent progress but still struggle with long-term coherence and factual grounding" "Retrieval-augmented hybrids show promise for informativeness, and reinforcement-learning/fine-tuning loops help steer style and safety.". "Current automatic metrics (BLEU, ROUGE, BERTScore) correlate only weakly with human judgements, so human evaluation remains indispensable."
+
+Challenges from @fuLearningConversationalAI2022
+
+"(1) Long-context reasoning across 10–20 turns, (2) Multi-domain adaptability without catastrophic forgetting, (3) Personalization vs. privacy, (4) Robust evaluation that captures safety, ethics, and conversational quality."
+
+
 
 By early 2024, widely available LLMs front-ends such as Gemini, Claude and ChatGPT have all released basic features for multi-modal communication. In practice, this means combination several AI models within the same interface. For example, on the input side, one model is used for human speech or image recognition which are transcribed into tokens that can be ingested into an LLM. On the output side, the LLM can generate instructions which are fed into an image / audio generation model or even computer code which can be ran on a virtual machine and then the output displayed inside the conversation.
 
@@ -371,7 +372,7 @@ As AIs became more expressive and able to to *roleplay*, we can begin discussing
 
 -   @erikbrynjolfssonTuringTrapPromise2022 "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence"
 
--   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels"
+-   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels", "Technology Readiness Levels, offering a framework for assessing which AI advances are mature enough for real-world deployment "
 
 -   The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
 
