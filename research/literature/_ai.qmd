@@ -358,7 +358,7 @@ Research on anthropomorphism suggests that giving an AI assistant stronger human
 
 Coming back closer to our own time, Barbie dolls are popular since their release in 1959 till today. Throughout the years, the doll would follow changing social norms, but retain in human figure. In the 1990s, a Tamagotchi is perhaps not a human-like friend but an animal-like friend, who can interact in limited ways.
 
-How are conversational AIs different from dolls? They can respond coherently and perhaps that's the issue - they are too much like humans in their communication. We have crossed the ***Uncanny Valley*** (where the computer-generated is nearly human and thus unsettling) to a place where is really hard to tell a difference. And if that's the case, are we still playing?
+How are conversational AIs different from dolls? They can respond coherently and perhaps that's the issue - they are too much like humans in their communication. We have crossed the *Uncanny Valley* (where the computer-generated is nearly human and thus unsettling) to a place where is really hard to tell a difference. And if that's the case, are we still playing?
 
 Should the AI play a human, animal, or robot? Anthropomorphism can have its drawbacks; humans have certain biases and preconceptions that can affect human-computer interactions. For example, somewhat curiously, [@pilacinskiRobotEyesDon2023] reports humans were less likely to collaborate with red-eyed robots.
 
@@ -366,19 +366,21 @@ The AI startups like Inworld and Character.AI have raised large rounds of fundin
 
 -   Is anthropomorphism, being human-like necessary? (Savings literature says it is) Or does being another animal also work? Animal-like: Some have an avatar, some not. I've created a framework for categorization. Human-like or not... etc
 
+-   @moranaEffectAnthropomorphismInvestment2020 conducted a lab-based experiment (n = 183) showing a more anthropomorphic chatbot design boosts perceived *social presence* of the virtual advisor; social presence in turn influences recommendation adherence indirectly via trust; trust mediates the likelihood to follow its recommendations.
+
 As AIs became more expressive and able to to *roleplay*, we can begin discussing some human-centric concepts and how people relate to other people. AI companions, AI partners, AI assistants, AI trainers - there are many *roles* for the automated systems that help humans in many activities, powered by AI models and algorithms.
 
--   There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet a) show less benevolence for the recipients of their power, b) receive less blame for ethical lapses, and c) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
+-   There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet (1) show less benevolence for the recipients of their power, (2) receive less blame for ethical lapses, and (3) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
 
--   @erikbrynjolfssonTuringTrapPromise2022 "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence"
+-   @erikbrynjolfssonTuringTrapPromise2022 contrasts AI which emulates human intelligence with AI that augments human abilities, arguing that although the former can offer productivity gains, it risks concentrating wealth and reducing economic power of workers, coining the term *Turing Trap*,  
 
 -   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels", "Technology Readiness Levels, offering a framework for assessing which AI advances are mature enough for real-world deployment "
-
--   The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
 
 Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as *"computer programming that learns and adapts"* [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
 The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and massive investments into new LLMs.
+
+The number of AI-powered assistants is too large to list here. I've chosen a few select examples in the table below.
 
 | Product | Link | Description |
 |-------------------|------------------------------|-----------------------|
@@ -386,7 +388,7 @@ The rising availability of AI assistants may displace Google search with a more 
 | Google Translate | translate.google.com |  |
 | Google Search | google.com |  |
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool |
-| Perplexity | @hinesPerplexityAnnouncesAI2023 | perplexity.ai chat-based search |
+| Perplexity | [@hinesPerplexityAnnouncesAI2023] | perplexity.ai chat-based search |
 
 ::: {.content-hidden unless-format="pdf"}
 ![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
@@ -395,6 +397,7 @@ The rising availability of AI assistants may displace Google search with a more 
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
+
 Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
@@ -432,15 +435,15 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 
 | Problem            | Description                                       |
 |--------------------|---------------------------------------------------|
-| Low predictability | Does personalization mean the UI keeps changing?  |
-| High carbon cost   | AI-based personalization is computation-intensive |
+| Low Predictability | Does personalization mean the UI keeps changing?  |
+| High Carbon Cost   | AI-based personalization is computation-intensive |
 | Surveillance       | Personalization needs large-scale data capture    |
 
 : Criticism of Generative UI by [@NielsenIdeasGenerative2024].
 
--   @nielsenInformationScentHow2024 information scent from Information Foraging theory [@pirolliInformationForaging1999].
+-   [@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximise their rate of information gain. 
 
-AI UX is about human-centered seamless design, psychology, storytelling. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"* which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the keyword is *intent*, expressing what the human wants - and having the machines deliver that.
+However, with AI-chat and voice based interfaces, links lose some of their relevance, as users can receive more info from the AI, without having to navigate to a new page. With less focus on links, current AI UX is more about storytelling, psychology, and seamless design, with more focus on human-centered communication patterns, such as conversations. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"*, which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the keyword is *intent*, expressing what the human wants - and having the machines deliver that.
 
 -   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX). What is the user interface of the green transformation? There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI. Knowing Machines, complex decision-making systems. 
 
