@@ -114,7 +114,7 @@ The problems of opaqueness creates the field of *Explainable AI*. [@bowmanEightT
 
 -   @xuWeSeeMachines2018 "Do We See Machines TheSame Way As We See Humans? A Survey On Mind Perception Of Machines AndHuman Beings"
 
-The AI Credibility Heuristic: A Systematic Model explains how... similar to Daniel Kahneman's book "Thinking, Fast and Slow".
+-   The AI Credibility Heuristic: A Systematic Model explains how... similar to Daniel Kahneman's book "Thinking, Fast and Slow".
 
 ::: {.content-hidden unless-format="pdf"}
 ![Heuristic-Systematic Model of AI Credibility](./images/ai/ai-credibility.png){width="100%"}
@@ -123,8 +123,6 @@ The AI Credibility Heuristic: A Systematic Model explains how... similar to Dani
 ```{=mdx}
 <Figure caption="Heuristic-Systematic Model of AI Credibility" src={AI} />
 ```
--   @slackAturaProcess2021 bot design process
-
 -   @zerilliHowTransparencyModulates2022 focuses on human factors and ergonomics and argues that transparency should be task-specific.
 
 Personal AI Assistants to date have we created by large tech companies. **Open-Source AI-models open up the avenue for smaller companies and even individuals for creating many new AI-assistants.**
@@ -632,11 +630,13 @@ Should AIs look anthropomorphic or fade in the background? It's an open question
 
 ### Roleplay for Financial Robo-Advisors
 
-*Robo-advisors* is a fintech (financial technology) term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply, while human financial advisors are expensive and not affordable to most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues dynamism in understanding the client's financial situation - which AI excels at - is a key component to providing the best advice.
+Using AI and computerised models for financial prediction is not new. [@malliarisUsingNeuralNetworks1996] applied neural networks to financial forecasting nearly three decades ago, using training data on past volatilities and factors of the options market to predict future (next-day) implied volatility (i.e. volatility not observed directly in the market but back-calculated from option prices) of the S&P 100 index (tracks the largest companies) in the U.S., demonstrating early potential of AI in financial prediction. Such tools were intially of academic interest or only accessible to financial professional. Later on fintech (financial technology) startups began bringing computerized predictive power into user interfaces available to retail investors.
+
+*Robo-advisory*g is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply, while human financial advisors are expensive and not affordable to most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues dynamism in understanding the client's financial situation - which AI excels at - is a key component to providing the best advice.
 
 > *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*. - [@capponiPersonalizedRoboAdvisingInteractive2019]
 
-In the early days of robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps have shut down in the UK [@altfiETFmaticAppDownloaded2017]. ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts \[ibid\]. The app was bought by a bank in 2021 and closed down in 2023 [@altfiBelgiumsAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
+In the early days of consumer-direct robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps shut down in the UK; ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts - the app was bought by a bank in 2021 and closed down in 2023 [@altfiETFmaticAppDownloaded2017; @altfiBelgiumsAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023]. 
 
 ::: {.content-hidden unless-format="pdf"}
 ![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/ai/etfmatic.png){width="100%"}
@@ -650,20 +650,12 @@ Newer literature notes robo-advisor related research is scattered across discipl
 
 There's research of anthropomorphism or the human-like attributes of robo-advisors, such as the aforemenetioned conversational chatbots, and whether anthropomorphism can affect adoption and risk preferences among customers. Several show that anthropomorphic robo-advisors, with stronger visual human-likeness, increase customer trust and reduce algorithm aversion [@ganboldIncreasingRelianceFinancial2022; @plotkinaGiveMeHuman2024; @hildebrandConversationalRoboAdvisors2021; @deng2021anthropomorphized]. However it's not clear, if this explantion is tied to the avatar. The question - does the user trust a robot or a human, or is there a possible combination - has been researched in other literature, which does not rely on images. [@davidExplainableAIAdoption2021] looks at the whether explainable AI could help adoption of financial AI assistants in an experimental study with players (n = 210) of an online investment game had to choose between: (a) human advice, (b) AI advice without explanation, or (c) AI advice paired with an explanation; the results showed no evidence of algorithm aversion (players did not prefer human advice over AI advice).
 
--   @WhyDesignKey2021 building trust in FinTech
+-   Chatbot Research provides an Taxonomy of Social Cues for Conversational Agents, including Verbal Cue, visual, audtitory cues such as age, posture shirt, yawning and laughing: https://chatbotresearch.org/social-cue-taxonomy/
 
--   @seanmcgowanUXDesignFinTech2018
+-   @WhyDesignKey2021 essential tactics for building trust in FinTech: (1) consistency in UI patterns, (2) transparent feedback, (3) clear error handling, and (4) educating users about data usage
 
--   @robindhanwaniFintechUIUX2021 Design Jams for collaboration
+-   @seanmcgowanUXDesignFinTech2018 offer four guidelines for fintech apps: (1) understand domain complexities, (2) friction is necessary for safety - embrace it, (3) provide continuous and clear feedback, and (4) simplify complex financial information - this can build user confidence and reduce errors.
 
--   @DesigningFintechApp2021
+-   @robindhanwaniFintechUIUX2021 UX problems in organiations stem for lack of alignment between teams; Design Jams for collaboration, design jams are cross-functional workshops, which can help teams align on user needs, generate rapid prototypes, and iteratively refine interfaces - a potential solution for following the guidelines above.
 
--   @cordeiroDesignNoLonger2016
-
--   @ungrammaryProductDesignCase2020
-
--   @outlawTurnYourCustomers2015: Regulation D 506c
-
--   @malliarisUsingNeuralNetworks1996 **(Need to pay for paper!)**
-
--   @CMBNewFuture Huawei
+-   @cordeiroDesignNoLonger2016 emphasizes designing for the "unhappy path" - negative experiences shape users’ memories strongly - products which handle failures and edge cases gracefully, stand out and maintain satisfaction.
