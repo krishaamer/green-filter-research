@@ -59,7 +59,7 @@ OpenAI has researched a wide range of approaches towards artificial general inte
 
 AI responses are probabilistic and need some function for ranking response quality. Achieving higher percentage or correct responses requires oversight which can come in the form of human feedback or by using other AIs systems which are deemed to be already well-aligned (termed Constitutional AI by Anthropic) [@baileyAIEducation2023; @baiConstitutionalAIHarmlessness2022]. One approach to reduce non-alignmnet issues with AI is to introduce some function for human feedback and oversight to automated systems. Human involvement can take the form of interventions from the AI-developer themselves as well as from the end-users of the AI system. Such feedback is not only provided by humans, computer can give feedback to computers too. Less powerful AIs are taught by more poweful and aligned AIs, which understand the world better, to follow human values: for example META used LLAMA 2 for aligning LLAMA 3.
 
-There are many examples of combination of AI and human, also known as *"human-in-the-loop",* used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023]. Also known as Human-based computation or Human-aided Artificial Intelligence [@Shahaf2007TowardsAT; @muhlhoffHumanaidedArtificialIntelligence2019]. [@gewangHumansLoopDesign2019] from the Stanford Institute for Human-Centered Artificial Intelligence, describes core design principles for building interactive AI systems that augment rather than replace people: value human agency, granularity of control, transparent interfaces.
+There are many examples of combination of AI and human, also known as *"human-in-the-loop",* used for fields as diverse as training computer vision algorithms for self-driving cars and detection of disinformation in social media posts [@wuHumanintheLoopAIEnhancing2023; @bonet-joverSemiautomaticAnnotationMethodology2023]. Also known as Human-based computation or Human-aided Artificial Intelligence [@Shahaf2007TowardsAT; @muhlhoffHumanaidedArtificialIntelligence2019]. [@gewangHumansLoopDesign2019] from the Stanford Institute for Human-Centered Artificial Intelligence, describes core design principles for building interactive AI systems that augment rather than replace people: (1) value human agency, (2) offer granularity of control, and (3) provide transparency interfaces.
 
 | App | Category | Use Case |
 |-------------------|-------------------|----------------------------------|
@@ -366,13 +366,12 @@ The AI startups like Inworld and Character.AI have raised large rounds of fundin
 
 -   Is anthropomorphism, being human-like necessary? (Savings literature says it is) Or does being another animal also work? Animal-like: Some have an avatar, some not. I've created a framework for categorization. Human-like or not... etc
 
--   @moranaEffectAnthropomorphismInvestment2020 conducted a lab-based experiment (n = 183) showing a more anthropomorphic chatbot design boosts perceived *social presence* of the virtual advisor; social presence in turn influences recommendation adherence indirectly via trust; trust mediates the likelihood to follow its recommendations.
+[@moranaEffectAnthropomorphismInvestment2020] conducted a lab-based experiment (n = 183) showing a more anthropomorphic chatbot design boosts perceived *social presence* of the virtual advisor; social presence in turn influences recommendation adherence indirectly via trust; trust mediates the likelihood to follow its recommendations. As AIs became more expressive - socially present - and able to to *roleplay*, we can begin discussing some human-centric concepts and how people relate to other people. AI companions, AI partners, AI assistants, AI trainers - there are many *roles* for the automated systems that help humans in many activities, powered by AI models and algorithms.
 
-As AIs became more expressive and able to to *roleplay*, we can begin discussing some human-centric concepts and how people relate to other people. AI companions, AI partners, AI assistants, AI trainers - there are many *roles* for the automated systems that help humans in many activities, powered by AI models and algorithms.
+[@erikbrynjolfssonTuringTrapPromise2022] contrasts AI which emulates human intelligence with AI that augments human abilities, arguing that although the former can offer productivity gains, it risks concentrating wealth and reducing economic power of workers, coining the term *Turing Trap*. Plenty of research - both before and after AI-induces job losses - has documented the negative effects of unemployment on mental health [@dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023].
 
--   There is also the question of who takes responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet (1) show less benevolence for the recipients of their power, (2) receive less blame for ethical lapses, and (3) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
+-   There is also the question of who bares the responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet (1) show less benevolence for the recipients of their power, (2) receive less blame for ethical lapses, and (3) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
 
--   @erikbrynjolfssonTuringTrapPromise2022 contrasts AI which emulates human intelligence with AI that augments human abilities, arguing that although the former can offer productivity gains, it risks concentrating wealth and reducing economic power of workers, coining the term *Turing Trap*,  
 
 -   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels", "Technology Readiness Levels, offering a framework for assessing which AI advances are mature enough for real-world deployment "
 
@@ -441,11 +440,9 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 
 : Criticism of Generative UI by [@NielsenIdeasGenerative2024].
 
--   [@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximise their rate of information gain. 
+[@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximise their rate of information gain. 
 
 However, with AI-chat and voice based interfaces, links lose some of their relevance, as users can receive more info from the AI, without having to navigate to a new page. With less focus on links, current AI UX is more about storytelling, psychology, and seamless design, with more focus on human-centered communication patterns, such as conversations. [@katemoranGenerativeUIOutcomeOriented2024] calls for *"highly personalized, tailor-made interfaces that suit the needs of each individual"*, which she terms *Outcome-Oriented Design*. We can generate better UIs (UI orchestration, crafting *"systems of intent"*, as [@nielsenNoMoreUser2025] calls it) that are based on user data and would be truly personalized. [@cromptonDecisionpointdilemmaAnotherProblem2021] highlights AI as decision-support for humans while differentiating between *intended* and *unintended* influence on human decisions. In all this literature and more, the keyword is *intent*, expressing what the human wants - and having the machines deliver that.
-
--   Towards Useful Personal Assistants. Artificial intelligence user experience (AI UX). What is the user interface of the green transformation? There are many ways to structure design theory. For the purposes of this AI-focused research, I will begin from Generative UI. structure: data-driven design, generative UI. Knowing Machines, complex decision-making systems. 
 
 Human-computer interaction (HCI) has a long storied history since the early days of computing when getting a copy machine to work required specialized skill. Xerox Sparc lab focused on early human factors work and inspired a the field of HCI to make computers more human-friendly. Likewise, the history of attempts at making *intelligent interfaces* is extensive. [@GenerativeUIDesign2023; @kobetzDecodingFutureEvolution2023] give an overview of the history of generative AI design tools, going back in time as far as 2012 when [@troianoGeneticAlgorithmsSupporting2014] proposed genetic algorithms for UI design. As the old science fiction adage goes, when machines become more capable, they will eventually be capable of producing machines themselves. Before that happens, at least the software part of the machine can increasingly be generated by AI systems (i.e. machines making machines). Already a decade ago in 2014, the eminent journal *Information Sciences* decided to dedicate a special section to AI-generated software to call attention to this tectonic shift in software development [@reformatSpecialSectionApplications2014]. Replit, a startup known for allowing user build apps in the web browser, released Openv0, a framework of AI-generated UI components. *"Components are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components"* [@replitReplitOpenv0OpenSource2023]. Vercel introduced an open-source prototype UI-generator called V0 which used large language models (LLMs) to create code for web pages based on text prompts [@vercelIntroducingV0Generative2023]. Other similar tools quickly following including Galileo AI, Uizard AutoDesigner and Visily [@WhoBenefitsMost2024]. NVIDIA founder Jensen Huang makes the idea exceedingly clear, saying *"Everyone is a programmer. Now, you just have to say something to the computer"* [@leswingNvidiaRevealsNew2023].
 
@@ -461,10 +458,6 @@ A wide range of literature describes human-AI interactions, spread out over vari
 | Design Tools | [@DavidHoangHow2024] |
 
 : A very small illustration of generative AI usage across disparate fields of human life.
-
-
--   effects of unemployment on mental health. @dewEffectsUnemploymentMental1991; @Susskind2017AMO; @antonkorinekScenarioPlanningAGI2023
-
 
 ### Usability Is the Bare Minimum of Good User Experience
 
@@ -525,35 +518,33 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
--   @lexowDesigningAIUX2021 Silicon Valley, automation, artificial systems
+-   @lexowDesigningAIUX2021 Silicon Valley, automation, artificial systems "Marielle Lexow’s UX Collective piece synthesizes expert interviews into five foundational AI-UX principles: deeply understand the user’s task context, clearly communicate AI limitations, balance automation with user control, build fast iterative feedback paths into the interface, and ensure AI behaviour aligns ethically and with brand voice"
 
--   @suenBuildingTrustAutomatic2023 discusses AI systems used for evaluating candidates at job interviews
+-   @suenBuildingTrustAutomatic2023 discusses AI systems used for evaluating candidates at job interviews "Reports a field study with 152 real job applicants showing that asynchronous AI‐powered video interviews (AI‐AVI) boost cognitive trust versus non-AI versions; adding tangibility and transparency features further increases both cognitive and affective trust, whereas immediacy has no significant impact"
 
--   @wangSyntheticNeuroscoreUsingNeuroAI2020 propose Neuroscore to reflect perception of images.
+-   @wangSyntheticNeuroscoreUsingNeuroAI2020 propose Neuroscore to reflect perception of images. "Introduces “Neuroscore,” a brain-signal–based metric for GAN evaluation that aligns more closely with human perceptual judgments than statistical metrics, requires far fewer samples, and supports per-model quality ranking via a CNN-based neuro-AI interface trained with EEG responses"
 
--   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids.
+-   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids. "Yang et al. (2022) propose an “AI for Kids” curriculum for early childhood that explains why AI literacy is essential, identifies core concepts (data-driven pattern recognition, prediction, algorithmic limitations) that young children can grasp, and outlines an embodied, culturally responsive, inquiry-based pedagogy to engage learners meaningfully with AI technologies"
 
--   @ericschmidtUXAdvancedMethod2022 audiobook
+-   @ericschmidtUXAdvancedMethod2022 audiobook "Schmidt’s UX handbook (2022) delivers a compendium of advanced methods and actionable solutions for product-design success—covering strategic use of motion design, robust documentation for design handoffs, integration of scalable design systems, and alignment of UX processes with business goals to ensure products are both user-centered and market-ready"
 
--   @akshaykoreDesigningHumanCentricAI2022 Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence
+-   @akshaykoreDesigningHumanCentricAI2022 Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence "Kore (2022) compiles best practices for human-centric AI design across modalities (voice, text, visual) by teaching designers how to spot AI opportunities, collaborate effectively with ML teams, anticipate ethical and accessibility concerns, and apply inclusive UX patterns so that AI systems empower users rather than alienate them"
 
--   @StudiesConversationalUX2018 chatbot book
+-   @StudiesConversationalUX2018 chatbot book "This edited volume (Moore et al., 2018) brings together HCI researchers and practitioners to explore conversational UX design—leveraging Conversation Analysis and Discourse Analysis insights to craft UX patterns for both text- and voice-based virtual agents that feel natural and interactionally robust"
 
--   @tomhathawayChattingHumansUser2021 chatbot book
+-   @tomhathawayChattingHumansUser2021 chatbot book "Hathaway & Hathaway (2021) offer a neuroscience-informed UX framework for chatbot design, guiding practitioners through decision-flow mapping, conversational tree structuring, and brain-based messaging techniques that boost engagement and conversion in both rule-based and AI-driven chatbots"
 
 -   @videolectureschannelCommunicationHumanAIInteraction2022 "Communication in Human-AI Interaction"
 
 -   @haiyizhuHumanAIInteractionFall2021
 
--   @akataResearchAgendaHybrid2020 "Hybrid Intelligence, Augmenting Human Intellect With Collaborative, Adaptive, Responsible, and Explainable Artificial Intelligence"
+-   @akataResearchAgendaHybrid2020 "Hybrid Intelligence, Augmenting Human Intellect With Collaborative, Adaptive, Responsible, and Explainable Artificial Intelligence" "Akata et al. define hybrid intelligence as the synergistic collaboration of human and machine intellect to augment human capabilities, and outline a research agenda around four challenges—collaborative, adaptive, responsible, and explainable AI "
 
--   @dignumAIPeoplePlaces2021
+-   @dignumAIPeoplePlaces2021 "In her Nature commentary, Dignum reviews two books to offer complementary insights into how AI shapes society, emphasizing the importance of understanding the diverse people, institutions, and contexts involved in creating, using, and governing AI"
 
 -   @boleizhouCVPR22Tutorial2022 Human-Centered AI for Computer Vision.
 
--   @vinuesaRoleArtificialIntelligence2020 ai for Sustainable Development Goals, "consensus-based expert elicitation process"
-
--   @orozcoBudapestBicycleNetwork2020 sustainable Urban transportation networks, sidewalks, bicycle paths, streets and rails, movement and socioeconomic life in cities, bicycle networks
+-   @vinuesaRoleArtificialIntelligence2020 ai for Sustainable Development Goals, "consensus-based expert elicitation process" "Vinuesa et al. assess AI’s impact on the Sustainable Development Goals, finding AI can enable 134 targets but may inhibit 59, and call for policy, regulation, and further research to address potential negative effects and governance gaps"
 
 ### AI Performance Under High-Stakes Situations
 
