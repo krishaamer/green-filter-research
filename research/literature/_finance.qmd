@@ -319,8 +319,6 @@ There's also a growing number of companies helping businesses to measure CO2e em
 
 -   Supply Chain Mapping improves Transaction Traceability. What data should be surfaced to the consumer? The founder of Sourcemap Leonardo Bonanni started out with doing product autopsy in 2015 to assess products [@FastFashionLere2023]
 
--   EU Deforestation Regulation (EUDR) is a success story.
-
 -   Know your suppliers' suppliers [@sourcemapSupplyChainMapping2025]: "Sourcemap’s **Supply Chain Mapping** platform (2025) offers a SaaS solution to document and monitor every tier of a company’s physical supply chain. It collects supplier-attested data and continuously verifies it through integrity checks and cross-referencing with third-party registries and watchlists. Real-time transaction traceability lets users audit all movements and detect fraud or non-compliance instantly, while an expert supplier-engagement team handles onboarding, training and ongoing support to keep maps current and compliant with global due-diligence laws"
 
 ## Payments
@@ -343,25 +341,19 @@ Make use of indexes to compare companies.
 
 ### Shopping's Environmental Footprint: Increasingly Driven by Digital Platforms, Social Commerce, AI Assistants
 
--   Online Shopping impact. Single's day, etc.
-
-Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] "Asia is set to account for 50% of the world's total online retail sales".
-
-It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping [@forresterForresterGlobalOnline2024]
+It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping, Single's day, etc [@forresterForresterGlobalOnline2024]. However, importantly - more and more consumers are using AI assistants to find alternative products, make shopping lists, which may have an effect on *what type* of products are bought [@pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025]
 
 ```{python}
 shopping_growth()
 ```
 
-[@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
+Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] *"Asia is set to account for 50% of the world's total online retail sales"*. [@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
 
 ```{python}
 social_commerce_chart()
 ```
 
-In the US, TikTok is the leader in social commerce @loystTikTokLiveShopping2024
-
-important - more and more consumers using AI assistants to find alternative products, make shopping lists, etc @pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025
+In the US, TikTok is the leader in social commerce [@loystTikTokLiveShopping2024].
 
 ### The Evolution of Payments: The Entry Point for Personal Finance from Mobile Wallets to Buy Now Pay Later (BNPL) Services - Globally, and In Taiwan
 
@@ -856,7 +848,7 @@ Traditionally, the true cost of products is hidden. The work is hidden. The firs
 econ_history_chart()
 ```
 
--   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear *Fordism* through platform economy and logistics' revolution which allows for circular economies to happen in a city.
+-   [@cuppiniWhenCitiesMeet2022] historical overview of the development of capitalism from linear *Fordism* through platform economy and logistics' revolution which allows for circular economies to happen in a city. "Cuppini et al. (2022) examine how the rise and spread of digital platforms reshape cities into sites of production and circulation by altering actors and roles in urban planning and policy. They trace this process through the long-term “Logistics Revolution,” analyze how lean platform business models territorialize and generate conflicts at the urban scale, and then introduce a novel trans-urban approach—a methodological framework to study the globalized, variegated impacts of platform economy on urban space as a field of tension between multiple perspectives"
 
 There are those looking for *new metrics*. One of the first innovators, already in 1972, was Buthan, with the *Gross National Happiness Index (GNH)*, which in turn inspired the UN, decades later, in 2012, to create the International Wellbeing and Happiness Conference and the International Happiness Day[@ribeiroGrossNationalHappiness2017; @kameiUrbanizationCarbonNeutrality2021]. The World Bank talks about the comprehensive GDD+ metrics in its Changing the Wealth of Nations report [@worldbankChangingWealthNations2021].
 
@@ -1213,11 +1205,11 @@ Sustainability is a complex web of interconnections. To treat nature as commodit
 
 BeZero is innovating in the voluntary carbon credit market (VCM) by providing risk-scoring, a language financial professionals are accustomed with [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]
 
+-   "We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradeable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
+
 -   "Automate your carbon accounting. Make data-driven decisions, across your entire supply chain." Ratings for mines @carbonchainCarbonChainSummer2024
 
 -   Efforts to connect carbon markets, carbonmark.com
-
--   "We believe that markets for ecosystem assets need to scale urgently, starting with carbon markets. The challenge is to make these instruments as recognizable as tradeable assets, as measurable as financial securities, and as investable as other asset classes. Capital must flow into the environment at scale to deliver climate action." "Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information. " @bezeroScalingCarbonMarkets2022
 
 -   "Everyone in the market is struggling to effectively price and manage risk.. the Voluntary Carbon Market (VCM); a rapidly recovering market, forecasted to grow by as much as 100x, but constrained by a nascent market structure." "The BCR is a carbon-only expected return model. It utilises a risk-based approach and seeks to give everyone a common language of risk. One that is translatable to that used by the \$200 trillion of assets in global financial markets." @bezeroFocusRatings2022
 
