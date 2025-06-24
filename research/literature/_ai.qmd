@@ -372,9 +372,6 @@ The AI startups like Inworld and Character.AI have raised large rounds of fundin
 
 -   There is also the question of who bares the responsibility for the actions take by the AI agent. "Organization research suggests that acting through human agents (i.e., the problem of indirect agency) can undermine ethical forecasting such that actors believe they are acting ethically, yet (1) show less benevolence for the recipients of their power, (2) receive less blame for ethical lapses, and (3) anticipate less retribution for unethical behavior." [@gratchPowerHarmAI2022]
 
-
--   @martinez-plumedFuturesArtificialIntelligence2021 envisions the future of AI "Futures of artificial intelligence through technology readiness levels", "Technology Readiness Levels, offering a framework for assessing which AI advances are mature enough for real-world deployment "
-
 Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as *"computer programming that learns and adapts"* [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a barebones interface.
 
 The rising availability of AI assistants may displace Google search with a more conversational user experience. Google itself is working on tools that could cannibalize their search product. The examples include Google Assistant, Google Gemini (previously known as Bard) and massive investments into new LLMs.
@@ -415,6 +412,8 @@ Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba'
 
 [@SERBAN20202849] suggests using the Alexa AI assistant in *education* during the pandemic, supported students and teachers *human-like* presence. The Alpha generation (born since 2010) and Beta (since 2025) are be first true native AI users.
 [@suArtificialIntelligenceEarly2022] and [@suArtificialIntelligenceAI2023] reviewed papers on AI literacy in early childhood education and found a lack of guidelines and teacher expertise. [@szczukaHowChildrenAcquire2022] provides guidelines for voice AI and kids based on a longitudinal field study, which delved into children’s knowledge regarding the storage and data processing performed by AI voice assistants; published in the International Journal of Child-Computer Interaction, the study tracked children (n = 20, age M = 8.65 years) across 3 home visits over 5 weeks (each visit lasted 45–90 min), including interviews and hands-on interactions designed to probe children’s mental models, with the following key findings: 1) children made significantly more accurate statements about data processing than storage, 2) parental discussion predicted storage knowledge, and 3) better storage knowledge negatively correlated with willingness to share secrets. In order to cover these knowledge gaps in the earliest age, educational materials on AI have been available for children in kindergarten to primary school; for instance the [@readyaiHumanAIInteractionHow2020] book introduces the 5 big ideas of Human-AI interaction for children aged 2-8: perception (the use of sensors), representation and reasoning (data structures, algorithms, predictions), learning (recognizing patterns in data), natural interaction (emotion, language, expression recognition, even cultural knowledge), and finally, societal impact (biases, ethics, guidelines to avoid unfair outcomes).
+
+-   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids. "Yang et al. (2022) propose an “AI for Kids” curriculum for early childhood that explains why AI literacy is essential, identifies core concepts (data-driven pattern recognition, prediction, algorithmic limitations) that young children can grasp, and outlines an embodied, culturally responsive, inquiry-based pedagogy to engage learners meaningfully with AI technologies"
 
 Design guidelines for optimal design performance can be extremely specific. [@casperkesselsGuidelinesDesigningInCar2022] details 18 concrete do’s and don’ts, drawing on prior *distraction research*, to support driving safety and integrate seamlessly with the other interfaces in the vehicle, for instance:
 
@@ -518,46 +517,13 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
--   @wangSyntheticNeuroscoreUsingNeuroAI2020 propose Neuroscore to reflect perception of images. "Introduces “Neuroscore,” a brain-signal–based metric for GAN evaluation that aligns more closely with human perceptual judgments than statistical metrics, requires far fewer samples, and supports per-model quality ranking via a CNN-based neuro-AI interface trained with EEG responses"
-
--   @yangArtificialIntelligenceEducation2022 proposes a curriculum for in-context teaching of AI for kids. "Yang et al. (2022) propose an “AI for Kids” curriculum for early childhood that explains why AI literacy is essential, identifies core concepts (data-driven pattern recognition, prediction, algorithmic limitations) that young children can grasp, and outlines an embodied, culturally responsive, inquiry-based pedagogy to engage learners meaningfully with AI technologies"
-
--   @ericschmidtUXAdvancedMethod2022 audiobook "Schmidt’s UX handbook (2022) delivers a compendium of advanced methods and actionable solutions for product-design success—covering strategic use of motion design, robust documentation for design handoffs, integration of scalable design systems, and alignment of UX processes with business goals to ensure products are both user-centered and market-ready"
-
--   @akshaykoreDesigningHumanCentricAI2022 Designing Human-Centric AI Experiences: Applied UX Design for Artificial Intelligence "Kore (2022) compiles best practices for human-centric AI design across modalities (voice, text, visual) by teaching designers how to spot AI opportunities, collaborate effectively with ML teams, anticipate ethical and accessibility concerns, and apply inclusive UX patterns so that AI systems empower users rather than alienate them"
-
--   @StudiesConversationalUX2018 chatbot book "This edited volume (Moore et al., 2018) brings together HCI researchers and practitioners to explore conversational UX design—leveraging Conversation Analysis and Discourse Analysis insights to craft UX patterns for both text- and voice-based virtual agents that feel natural and interactionally robust"
-
--   @tomhathawayChattingHumansUser2021 chatbot book "Hathaway & Hathaway (2021) offer a neuroscience-informed UX framework for chatbot design, guiding practitioners through decision-flow mapping, conversational tree structuring, and brain-based messaging techniques that boost engagement and conversion in both rule-based and AI-driven chatbots"
-
--   @videolectureschannelCommunicationHumanAIInteraction2022 "Communication in Human-AI Interaction"
-
--   @haiyizhuHumanAIInteractionFall2021
-
--   @akataResearchAgendaHybrid2020 "Hybrid Intelligence, Augmenting Human Intellect With Collaborative, Adaptive, Responsible, and Explainable Artificial Intelligence" "Akata et al. define hybrid intelligence as the synergistic collaboration of human and machine intellect to augment human capabilities, and outline a research agenda around four challenges—collaborative, adaptive, responsible, and explainable AI "
-
--   @dignumAIPeoplePlaces2021 "In her Nature commentary, Dignum reviews two books to offer complementary insights into how AI shapes society, emphasizing the importance of understanding the diverse people, institutions, and contexts involved in creating, using, and governing AI"
-
--   @boleizhouCVPR22Tutorial2022 Human-Centered AI for Computer Vision.
-
--   @vinuesaRoleArtificialIntelligence2020 ai for Sustainable Development Goals, "consensus-based expert elicitation process" "Vinuesa et al. assess AI’s impact on the Sustainable Development Goals, finding AI can enable 134 targets but may inhibit 59, and call for policy, regulation, and further research to address potential negative effects and governance gaps"
-
 ### AI Performance Under High-Stakes Situations
 
 Today AI-based systems are already being used in high-stakes situations (medical, self-driving cars). Attempts to implement AI in medicine, where stakes are perhaps the highest, raising the requirements for ethical considerations, have been made since the early days of computing, as the potential to improve health outcomes is so high. Since CADUCEUS in the 1970s [in @kanzaAIScientificDiscovery2021], the first automated medical decision making system, medical AI now provides diagnostic systems for symptoms and AI-assistants in medical imaging. Complicated radiology reports can be explained to patients using AI chatbots [@jeblickChatGPTMakesMedicine2022]. The explanations are not only useful for patients but for doctors (and other medical professionals) as well. [@calistoBreastScreeningAIEvaluatingMedical2022] focuses on AI-human interactions in medical workflows and underscores the importance of output explainability; medical professionals who were given AI results with an explanation trusted the results more. 
 
-[@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data. For administrative tasks such as responding to patients' questions, medical AI has already reached - or even exceeded - expert-level question-answering ability [@singhalExpertLevelMedicalQuestion2023]. In an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors [@ayersComparingPhysicianArtificial2023]. 
+[@leeAIRevolutionMedicine2023] imagines an AI revolution in medicine using GPT models, providing improved tools for decreasing the time and money spent on administrative paperwork while providing a support system for analyzing medical data. For administrative tasks such as responding to patients' questions, medical AI has already reached - or even exceeded - expert-level question-answering ability [@singhalExpertLevelMedicalQuestion2023]. In an online text-based setting, patients rated answers from the AI better, and more empathetic, than answers from human doctors [@ayersComparingPhysicianArtificial2023]. If anything, the adoption of AI in medicine has been too cautious. [@daisywolfWhereWillAI2023] criticizes US healthcare's slow adoption of technology and predicts AI will help healthcare leapfrog into a new era of productivity by acting more like a human assistant.
 
-Communication with the patient is perhaps the low-hanging fruit as there a numerous examples of AI-driven symptom checkers and AI-based FAQ-answering chatbots already commercially available.
-
--   @HealthPoweredAda health app, "Know and track your symptoms", “AI-driven health platform offering a symptom-checker app for consumers and enterprise solutions to help partners improve care through intelligent triage and data insights.
-
--   @BuoyHealthCheck AI symptom checker,  "Buoy Health’s AI symptom checker guides users through a brief questionnaire to generate a preliminary possible diagnosis and care recommendations, freeing up clinical resources and empowering informed patient decisions"
-
--   @womeninaiHowCanAI2018 AI-based health monitoring
-
-
-If anything, the adoption of AI in medicine has been too cautious. [@daisywolfWhereWillAI2023] criticizes US healthcare's slow adoption of technology and predicts AI will help healthcare leapfrog into a new era of productivity by acting more like a human assistant.
+Communication with the patient is perhaps a low-hanging fruit, as there are numerous examples of AI-driven symptom checkers and AI-based FAQ-answering chatbots already commercially available, such as [@HealthPoweredAda] and [@BuoyHealthCheck], which offer AI-based platforms to survey, track and understand one's symptoms over time, while providing doctors patient data, which can be used for generating preliminary possible diagnosis, freeing up clinical resources. The Lark digital health coaching platform delivers support for diabetes, hypertension, and weight management, by integrating smart watches and smart scales, to provide evidence-based behavior change [@HomeLarkHealth]. The VP of user experience at Senseley discusses the Molly AI assistant, to chat, answer questions, and measure blood pressure; the main challenge is the healthcare system, where a small pilot project might work well, bureaucracy keeps the technology from being widely adopted [@womeninaiHowCanAI2018]. While discussion of these kind of tools and proposals of AI-based health monitoring systems have existed for a over a decade, recent advances in AI reliability have made it feasible to deploy them at scale. While ChatGPT is not built to be a medical tool, the interface is so easily available, its very common for patients to decode lab results using ChatGPT or ask for diagnosis when doctor time is scarce.[@elizastricklandDrChatGPTWill2023].
 
 Example of ChatGPT explaining medical terminology in a blood report.
 
@@ -571,14 +537,6 @@ Example of ChatGPT explaining medical terminology in a blood report.
 Today's AI is already a technology which can augment human skills or replace skills that were lost due to an accident. For instance, [@dotgoDotGo2023] makes the camera the interaction device for people with vision impairment.
 
 -   The Paris Olympic games make heavy use of AI [@kulkarniThreeWaysAI2024]. "Kulkarni (2024) identifies three key AI use cases at the Paris 2024 Olympics—advanced athlete performance analytics, AI-assisted real-time officiating, and enhanced broadcast personalization for fans—demonstrating AI’s expanding role in elite sports"
-
--   Human Augmentation, Fitness Guides, AI Guides have been shown to improve sports performance, etc, etc. Can this idea be applied to sustainability? MyFitness Pal, AI training assistant. There's not avatar.
-
--   @elizastricklandDrChatGPTWill2023 Chat interface for medical communication. "its common for patients to use ChatGPT to decode lab results or suggest diagnoses when doctor time is scarce. The model gives plausible answers but bundles them with the familiar disclaimer, I am not a doctor.""
-
-
-
--   @HomeLarkHealth track chronic condition with AI-chat "Lark Health’s digital coaching platform (formerly “Health at Home”) delivers 24/7 AI-driven support for diabetes, hypertension, weight management, and more—integrating smart scales, Fitbit rewards, and evidence-based behavior change to match live coaching outcomes at no cost with eligible insurance "
 
 -   @yuanSocialAnxietyModerator2022: "AI assistant advantages are important factors affecting the *utilitarian/hedonic* value perceived by users, which further influence user willingness to accept AI assistants. The relationships between AI assistant advantages and utilitarian and hedonic value are affected differently by social anxiety." "Yuan, Zhang & Wang (2022) examine social anxiety as a moderator of consumers’ willingness to accept AI assistants based on utilitarian and hedonic values, showing that high anxiety heightens avoidance and shapes acceptance paths—highlighting the need for anxiety-reducing design strategies"
 
