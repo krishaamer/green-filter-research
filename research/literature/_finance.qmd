@@ -757,7 +757,7 @@ Bitcoin is by far the most popular cryptocurrency with it's high price volatilit
 bitcoin_vs_gold_futures()
 ```
 
-The volatility of the markets has notably shifted crypto research towards pricing theories. However volatility is relative. Volatile national currencies lead people to find other assets to hold. If one's national currency is collapsing, one might find crypto has a relative safe haven to keep one's funds. People in Turkey losing 75% of the value of their assets when currency collapses, is one of the reasons why people buy crypto.
+The volatility of the markets has notably shifted crypto research towards pricing theories [@pengSystematicLiteratureReview2024]. However volatility is relative. Volatile national currencies lead people to find other assets to hold. If one's national currency is collapsing, one might find crypto has a relative safe haven to keep one's funds. People in Turkey losing 75% of the value of their assets when currency collapses, is one of the reasons why people might buy crypto [@wilkesTurkeysLiraDives2021; @sabaMENAEmergesWorlds2022].
 
 ```{python}
 crypto_pricing_theories()
