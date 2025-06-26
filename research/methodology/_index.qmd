@@ -7,7 +7,9 @@ import AppTestingFlow from '../images/testing/app-testing-flow.png'
 ```
 # Methodology
 
-Start with expert survey, then expert interviews (because so many questions from literature review). Identify key concepts from expert discussion and gain industry insights.
+[@baytas3KindsDesign2020] categorizes design research into three modes: (1) conducting research to inform design decisions, (2)studying designs to generate knowledge, and (3) using design itself as a means of inquiry. My research is of the first category, aiming make better design design decisions for my sustainability-focused financial app.
+
+I started with literature review, which led into expert interviews (because of the many questions arising from the literature). I identified key concepts from expert discussions and gained exposure to their industry insights.
 
 | Group                              | Task                       |
 |------------------------------------|----------------------------|
@@ -16,9 +18,7 @@ Start with expert survey, then expert interviews (because so many questions from
 | Experts (Sustainability)           | Interview                  |
 | Target Audience (College Students) | Survey + Prototype Testing |
 
-I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms getting verbal permission from educators in their ´ classrooms to distribute the survey flyer. The flyer included a colorful AI-generated visual with a futuristic game-link female figure, the title "climate anxiety survey", a website link (ziran.tw) and scannable QR-code.
-
-Similarly to [@liuDigitalCapabilityDigital2023] I distributed the survey in schools in the Northern, Soutern, Central, and East regions of Taiwan.
+For my survey, I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms, getting verbal permission from educators in their classrooms to distribute the survey flyer. Similarly to the approach take by [@liuDigitalCapabilityDigital2023], I distributed the survey flyer at universities located in the Northern, Soutern, Central, and East regions of Taiwan. The flyer included a colorful AI-generated visual with a futuristic game-like female figure, and the title "climate anxiety survey" in Chinese, as well as a website link (ziran.tw) and scannable QR-code. 
 
 The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to English for this table.
 
@@ -63,11 +63,10 @@ The survey only included questions and descriptions in Chinese. I have used the 
 
 : 36 Likert Fields included in the survey
 
-Respondents who remained outside the survey parameters were disregarded from the data analysis. References were stored in the Zotero paid version with 6 GB storage. Bibtex and Better Bibtex were used to export the references to the .bib format consumable by Quarto.
+Respondents who remained outside the survey parameters were allowed to answer the survey however their responses were disregarded from the data analysis. References were stored in the Zotero paid version with 6 GB storage. Bibtex and Better Bibtex were used to export the references to the .bib format consumable by the Quarto scientific writing system.
 
 ## Research Design
 
-[@baytas3KindsDesign2020] categorizes design research into three modes: (1) conducting research to inform design decisions, (2)studying designs to generate knowledge, and (3) using design itself as a means of inquiry. My research is of the first category, aiming make better design design decisions for a sustainability-focused financial app.
 
 When developing my research design, I relied on the advice of [@christianrohrerWhenUseWhich2022] to decide when to choose which User-Experience Research methods. 
 
@@ -179,18 +178,13 @@ Testing was the most difficult part of the thesis process.
 ```{=md977hjhbbhx}
 <Figure caption="App Testing Flow" src={AppTestingFlow} />
 ```
-### 1st Wave of Testing (Spring 2024)
+### 1st Wave of (Preliminary) Testing (Spring 2024)
 
--   1 month from 2024 April 2 to May 2, 2024
--   8 anonymous participants at NCKU
--   Participant observation
--   No audio recording
+The 1st wave of preliminary testing took place during 1 month from 2024 April 2 to May 2, 2024 at the NCKU campus. I found 8 anonymous participants at different NCKU locations, such as the student canteens and the medical library, confirmed the people I approached were Taiwanese students studying at NCKU, and then simply asked them to test my app, using my own laptop. I made used of *participant observation* and took notes myself. There was no audio or video recording.
 
-### 2nd Wave of Testing (Autumn 2024 - Spring 2025)
+### 2nd Wave of (In Production) Testing (Autumn 2024 - Spring 2025)
 
-In-Person Face-to-Face Testing
-
-I conducted in-person testing individually with 32 students at 7 universities. Interviews were conducted in Chinese and transcribed and translated to English using Google Voice to Text AI as well as Describe AI. Face-to-face testing was concluded in several universities across Taiwan.
+The 2nd wave of testing took place from Autumn 2024 to Spring 2025 and was more comprehensive. I conducted in-person face-to-face testing individually with 32 students at 7 universities. Interviews were conducted in Chinese and transcribed and translated to English using Google Voice to Text AI as well as Describe AI.
 
 |  |  |  |
 |-------------------|---------------------------|---------------------------|
@@ -205,4 +199,4 @@ I conducted in-person testing individually with 32 students at 7 universities. I
 
 ### Expert Feedback
 
-Talk to 5 experts over video call and 1 one face-to-face in English; record, transcribe, and perform thematic analysis of the contents.
+Talked to 5 experts over video call and 1 one expert face-to-face; all interviews were in English. I recorded audio and video, transcribed the conversations, and then perform thematic analysis of the contents.

@@ -10,7 +10,7 @@ from literature.charts.sustainability import biodiversity_chart, carbon_credits_
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/sustainability/humboldt.jpg';
 import Boundaries from "/research/images/sustainability/planetary-boundaries-2023.png";
-import Carbon from "/research/images/sustainability/CO₂eq-concentration.png";
+import Carbon from "/research/images/sustainability/co2-concentration.png";
 import AbstractSustainability from "/research/images/sustainability/abstract-sustainability.png";
 ```
 # Sustainability
@@ -46,7 +46,7 @@ April 2025 was Earth's 2nd-warmest April on record, with global temperatures rea
 The Keeling Curve apparatus measures absorbion of infrared light, which allows one to detect the amount of CO₂eq in the air. It also has an advanced calibration system where it makes measurements in air with a known quantity of gases [@worthingtonMakingAmericaDumb2025].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/CO₂eq-concentration.png)
+![CO~2~ concentration in the atmosphere as of Ap. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png)
 :::
 
 ```{=mdx}
@@ -98,7 +98,7 @@ CO~2~e emissions by region (per year).
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO₂eqmissionsMetric2020; @europeancommission.jointresearchcentre.CO₂eqmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
+: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
 
 *Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s [@ghgprotocolUsGHGProtocol]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 
