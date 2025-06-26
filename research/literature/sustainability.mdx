@@ -11,7 +11,7 @@ editor:
 export const quartoRawHtml =
 [`
 <table>
-<caption>Comparing highest per capita CO<sub>2e</sub> emissions (mostly from oil producers) vs regional average per capita CO<sub>2</sub> emissions vs total CO<sub>2</sub> emissions<span class="citation" data-cites="ivanovaQuantifyingPotentialClimate2020 worldresourcesinstituteCO2EmissionsMetric2020 europeancommission.jointresearchcentre.CO2EmissionsAll2022 crippaFossilCO2GHG2020 liuMonitoringGlobalCarbon2023">[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]</span>.</caption>
+<caption>Comparing highest per capita CO<sub>2e</sub> emissions (mostly from oil producers) vs regional average per capita CO<sub>2</sub> emissions vs total CO<sub>2</sub> emissions<span class="citation" data-cites="ivanovaQuantifyingPotentialClimate2020 worldresourcesinstituteCO₂eqmissionsMetric2020 europeancommission.jointresearchcentre.CO₂eqmissionsAll2022 crippaFossilCO₂eqGHG2020 liuMonitoringGlobalCarbon2023">[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO₂eqmissionsMetric2020; @europeancommission.jointresearchcentre.CO₂eqmissionsAll2022; @crippaFossilCO₂eqGHG2020; @liuMonitoringGlobalCarbon2023]</span>.</caption>
 <colgroup>
 <col style="width: 38%" />
 <col style="width: 31%" />
@@ -334,7 +334,7 @@ export const quartoRawHtml =
 <tbody>
 <tr>
 <td>Carbon Credits and Offsets</td>
-<td>Represent avoided or removed CO₂e emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc</td>
+<td>Represent avoided or removed CO₂eq emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc</td>
 </tr>
 <tr>
 <td>Biodiversity Credits</td>
@@ -403,12 +403,12 @@ export const quartoRawHtml =
 <tr>
 <td>Energy Use (inc. electricity, heat and transport)</td>
 <td style="text-align: right;">73.2 %</td>
-<td>Total CO2 emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%)</td>
+<td>Total CO₂eq emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%)</td>
 </tr>
 <tr>
 <td>Direct Industrial Processes</td>
 <td style="text-align: right;">5.2 %</td>
-<td>Direct CO2 emissions from chemical reactions in cement and in chemicals and petrochemicals.</td>
+<td>Direct CO₂eq emissions from chemical reactions in cement and in chemicals and petrochemicals.</td>
 </tr>
 <tr>
 <td>Waste</td>
@@ -558,7 +558,7 @@ export const quartoRawHtml =
 import Figure from '/src/components/Figure';
 import Humboldt from '/research/images/sustainability/humboldt.jpg';
 import Boundaries from "/research/images/sustainability/planetary-boundaries-2023.png";
-import Carbon from "/research/images/sustainability/co2-concentration.png";
+import Carbon from "/research/images/sustainability/CO₂eq-concentration.png";
 import AbstractSustainability from "/research/images/sustainability/abstract-sustainability.png";
 ````
 
@@ -615,14 +615,15 @@ seasons in different colors (Honton, 2022) now available as 3D computer
 models(*Alexander von Humboldt’s Original Isotherms Circa 1838*, 2023).
 Already in 1896, the Nobel Prize winner Svante Arrhenius first
 calculated how an increase in CO<sub>2</sub> levels could have a warming
-effect on our global climate (Anderson et al., 2016; Wulff, 2020). In
-1938, Guy Stewart Callendar was the first scientist to demonstrate the
-warming of Earth’s land surface as well as linking the production of
-fossil fuels to increased CO<sub>2</sub>e and changing climate (Hawkins
-& Jones, 2013). Early scientists pioneered climate modeling by
-calculating the first climate interactions which precede today’s complex
-computer-based *Earth System Models (ESMs)* that integrate the various
-Earth systems and cycles run on supercomputers (Anderson et al., 2016).
+effect on our global climate (Wulff, 2020;
+**andersonCO₂eqGreenhouseEffect2016?**). In 1938, Guy Stewart Callendar
+was the first scientist to demonstrate the warming of Earth’s land
+surface as well as linking the production of fossil fuels to increased
+CO<sub>2</sub>e and changing climate (Hawkins & Jones, 2013). Early
+scientists pioneered climate modeling by calculating the first climate
+interactions which precede today’s complex computer-based *Earth System
+Models (ESMs)* that integrate the various Earth systems and cycles run
+on supercomputers (**andersonCO₂eqGreenhouseEffect2016?**).
 
 ````mdx-code-block
 <Figure caption="Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc" src={Humboldt} refURL="https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg" refTitle="Public Domain, WikiMedia Commons" />
@@ -661,13 +662,13 @@ Likewise, funding for the Scripps Institute, responsible for the Keeling
 Curve, is under threat, according to its caretaker, Ralph Keeling.
 
 The Keeling Curve apparatus measures absorbion of infrared light, which
-allows one to detect the amount of CO2 in the air. It also has an
+allows one to detect the amount of CO₂eq in the air. It also has an
 advanced calibration system where it makes measurements in air with a
 known quantity of gases (Worthington, 2025).
 
 ````mdx-code-block
 <Figure
-  caption="CO2 concentration in the atmosphere"
+  caption="CO₂eq concentration in the atmosphere"
   src={Carbon}
   refURL="https://keelingcurve.ucsd.edu/"
   refTitle="Scripps Institution of Oceanography at UC San Diego"
@@ -677,24 +678,25 @@ known quantity of gases (Worthington, 2025).
 The latest data from 2023 shows our current world population of 8
 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of
 CO<sub>2</sub>e per year, the highest emissions recorded in history
-(Statista, 2023). Since 1751, cumulative CO₂e emissions have exceeded
-1.5 trillion tonnes globally or when expressed in CO₂e for all green
-house gases, total historic emissions would reach roughly 1.7 trillion
-tonnes CO₂e since the start of the Industrial Revolution.(Global Carbon
-Budget, 2023; Marvel, 2023). In order to limit global warming to 1.5 °C
-as agreed by the world nations in Paris, removal of 5-20 gigatons of
-CO<sub>2</sub>e per year would be needed according to reduction pathways
-calculated by the Intergovernmental Panel on Climate Change (IPCC)
-(UNFCCC. Secretariat, 2022; Wade et al., 2023). Yet, most countries are
-missing the mark (Climate Analytics & NewClimate Institute, 2023; United
-Nations Environment Programme, 2023). The European Union’s Copernicus
-Climate Change Service (C3S) reports 1.5 °C global warming has already
-been breached in 2024 temperatures (“First Time World Exceeds 1.5C
-Warming Limit over 12-Month Period,” 2024; *World’s First Year-Long
-Breach of Key 1.5C Warming Limit*, 2024). Given the current pace of
-climate change action, the G7 countries (Canada, France, Germany, Italy,
-Japan, United Kingdom, United States) are heading for 2.7 °C of warming
-by 2050 (CDP, 2022).
+(**statistaAnnualCO₂eqmissions2023?**). Since 1751, cumulative CO₂eq
+emissions have exceeded 1.5 trillion tonnes globally or when expressed
+in CO₂eq for all green house gases, total historic emissions would reach
+roughly 1.7 trillion tonnes CO₂eq since the start of the Industrial
+Revolution.(Global Carbon Budget, 2023; Marvel, 2023). In order to limit
+global warming to 1.5 °C as agreed by the world nations in Paris,
+removal of 5-20 gigatons of CO<sub>2</sub>e per year would be needed
+according to reduction pathways calculated by the Intergovernmental
+Panel on Climate Change (IPCC) (UNFCCC. Secretariat, 2022;
+**wadeMoisturedrivenCO₂eqPump2023?**). Yet, most countries are missing
+the mark (Climate Analytics & NewClimate Institute, 2023; United Nations
+Environment Programme, 2023). The European Union’s Copernicus Climate
+Change Service (C3S) reports 1.5 °C global warming has already been
+breached in 2024 temperatures (“First Time World Exceeds 1.5C Warming
+Limit over 12-Month Period,” 2024; *World’s First Year-Long Breach of
+Key 1.5C Warming Limit*, 2024). Given the current pace of climate change
+action, the G7 countries (Canada, France, Germany, Italy, Japan, United
+Kingdom, United States) are heading for 2.7 °C of warming by 2050 (CDP,
+2022).
 
 (United Nations Environment Programme (UNEP), 2021) reported as of 2021
 updated national climate pledges (NDCs) and other mitigation measures
@@ -747,16 +749,17 @@ elements by their warming thresholds, visualized in the chart below.
 ### Measuring CO<sub>2</sub>e Emissions
 
 Technology improves and measurements have become more accurate yet
-CO<sub>2</sub>e emissions are not yet completely accounted for. (Crippa
-et al., 2020) reports the latest figures CO<sub>2</sub>e from the EU’s
-Emissions Database for Global Atmospheric Research (EDGAR). The EU
-Copernicus satellite system reveals new greenhouse emissions previously
-undetected (Daniel Värjö, 2022). *Copernicus Climate Change Service
-(C3S) provides “\[n\]ear-real time updates of key global climate
-variables*”(The Copernicus Climate Change Service, 2024). Using simple
-python code and freely available images from online datasets, it’s
-increasingly possible for anyone to detect deforestion, as in this
-example of geospatial analysis from Amazon AWS (AWS, 2022; Patel, 2025).
+CO<sub>2</sub>e emissions are not yet completely accounted for.
+(**crippaFossilCO₂eqGHG2020?**) reports the latest figures
+CO<sub>2</sub>e from the EU’s Emissions Database for Global Atmospheric
+Research (EDGAR). The EU Copernicus satellite system reveals new
+greenhouse emissions previously undetected (Daniel Värjö, 2022).
+*Copernicus Climate Change Service (C3S) provides “\[n\]ear-real time
+updates of key global climate variables*”(The Copernicus Climate Change
+Service, 2024). Using simple python code and freely available images
+from online datasets, it’s increasingly possible for anyone to detect
+deforestion, as in this example of geospatial analysis from Amazon AWS
+(AWS, 2022; Patel, 2025).
 
 One major cross-cutting category the IPCC tracks separately is LULUCF
 (Land Use, Land-Use Change, and Forestry). Depending on whether forests
@@ -773,7 +776,7 @@ Lake, and underlined the need for real-time monitoring of ecosytem
 health.
 
 Emissions production is highly unequal, with *“\[t\]he world’s top 1% of
-emitters produce over 1000 times more CO2 than the bottom 1%”* (IEA,
+emitters produce over 1000 times more CO₂eq than the bottom 1%”* (IEA,
 2023a). The share of CO<sub>2</sub> emissions among people around the
 world is highly unequal across the world (referred to as *Carbon
 Inequality*). (Chancel, 2022) reports “one-tenth of the global
@@ -892,7 +895,7 @@ credits are useful for private companies who wish to claim *carbon
 neutrality, climate positivity*, or other related claim, which might be
 viewed in good light by their clients or allow the companies to adhere
 to certain legislative requirements. In the simplest terms, a carbon
-credit represents 1T of CO2 that has been prevented from entering the
+credit represents 1T of CO₂eq that has been prevented from entering the
 atmosphere - or has been removed from circulation (aka Carbon Credit
 Retirement) (Anna Watson, 2022, 2023). However it’s important to look at
 the details of these deal as Voluntary Carbon Markets (VCM) lack
@@ -928,7 +931,7 @@ resell in smaller quantities to retail investors. Facilitating citizens’
 access to CO<sub>2</sub> emissions trading may be an efficient method to
 organize large-scale CO<sub>2</sub> retiring (Rousse, 2008). (Sipthorpe
 et al., 2022) compares traditional and blockchain-based solutions to
-carbon trading, arguqing that blockchain solutions for CO2 markets are
+carbon trading, arguqing that blockchain solutions for CO₂eq markets are
 nearing maturity, and offer many improvements, such as enhancing
 transparency, trust, and efficiency.
 
@@ -954,8 +957,8 @@ only mining and processing, but also the damage done by the
 CO<sub>2</sub> they release.”* Long term cost of insufficient climate
 action is more than short-term gains from delaying efforts to reduce
 carbon emissions. In addition to the damages from global warming, the
-fossil energy production that’s a large part of global CO2 emissions has
-caused several high-profile pollution events. Large ones that got
+fossil energy production that’s a large part of global CO₂eq emissions
+has caused several high-profile pollution events. Large ones that got
 international news coverage include Exxon Valdez and Deepwater Horizon.
 
 Carbon credit prices should reflect the quality of the carbon reduction.
@@ -965,7 +968,7 @@ require price signals that reflect their true value; Pachama’s (an
 AI-based carbon removal company) calculation from bottom up cost
 modelling across more than 150 reforestation projects indicate that high
 quality forest carbon removal credits must trade at a minimum of USD
-50-82 per tonne of CO₂e to be competitive with alternative land uses
+50-82 per tonne of CO₂eq to be competitive with alternative land uses
 (IPCC AR6 guidance sets the price spread wider, from USD 50-200);
 reduced land-use change (basically this means not cutting down forests,
 IPCC groups together as LULUCF, Land Use, Land-Use Change and Forestry)
@@ -993,11 +996,11 @@ our shopping; produced by companies to make the products we consume.
 (Keeble, 1988) reported in April 1987 that *‘residents in high-income
 countries lead lifestyles incompatible with planetary boundaries’*.
 (Ivanova et al., 2020) reports the average footprint in North America
-and Europe is 13.4 t CO₂e, in Africa and the Middle East 1.7t CO₂e;
+and Europe is 13.4 t CO₂eq, in Africa and the Middle East 1.7t CO₂eq;
 consumption options with a high mitigation potential measured in tonnes
 of CO<sub>2</sub> equivalent per capita per year include *“living
 car-free”* and avoiding flying, which could each save upwards of 1.7t
-CO₂e per person annually.
+CO₂eq per person annually.
 
 While the numbers on overconsumption are clear, the debate on
 overconsumption is so polarized, it’s difficult to have a meaningful
@@ -1080,6 +1083,12 @@ immediate conservation action (Ceballos et al., 2017). As of last year,
 the Red List curated by the International Union for Conservation of
 Nature (IUCN), includes 45,300 species (28% of all assessed, since IUCN
 was founded in 1948), under threat of extinction (IUCN, 2024).
+
+-   Responding to the crisis, the Guardian newspaper in the UK has take
+    a clear stance, covering stories of exctinction; the *Area de
+    Conservación Guanacaste* is one of the protected areas listed by the
+    UNESCO World Heritage Centre, providing data on the State of
+    Conservation (SOC) by year (Centre, 1999; McClure, 2025)
 
 ````mdx-code-block
 <Figure
@@ -1460,8 +1469,8 @@ property, endanger life and reduces *air quality,* which in effect
 increases health challenges (*Fifth National Climate Assessment*, 2023).
 Warming global climate has concrete effects on daily life. Warmer
 climate helps viruses and fungi spread (Press, 2023). (Williams & Joshi,
-2013) higher CO2 concentrations in the air can cause more turbulence for
-flights. As extreme temperatures are increasingly commonplace, with
+2013) higher CO₂eq concentrations in the air can cause more turbulence
+for flights. As extreme temperatures are increasingly commonplace, with
 observed changes in heatwaves, there’s increased risk of wildfires
 (Perkins-Kirkpatrick & Green, 2023; Volkova et al., 2021), while flood
 risk mapping might lower property prices in at risk areas (Sherren,
@@ -1566,7 +1575,7 @@ percentage of total food industry (Gamage et al., 2023). Growing organic
 food poses many challenges, which farmers need to adapt to, in order to
 participate in regenerative food systems. One approach is growing food
 forests, also known as agroforestry, which integrates farming into
-natural environments, achieving CO2 storage in the soil through
+natural environments, achieving CO₂eq storage in the soil through
 agriculture and forestry using agroecological practices.
 
 In Ireland, (Irwin et al., 2023) studied dairy farmers’ willingness to
@@ -1578,7 +1587,7 @@ local community in planning permaculture practices, enhances their
 acceptance and effectiveness. In Bangladesh, (Ruba & Talucder, 2023)
 found agroforestry plays an active role in achieving the country’s
 Sustainable Development Goals (SDGs), including zero hunger, climate
-action, mitigating climate change impacts through CO2 sequestration,
+action, mitigating climate change impacts through CO₂eq sequestration,
 life on land through biodiversity conservation and improving soil
 fertility, yet is hindered by the lack of policy support and educational
 level of the farmers. In the Baltic Sea region in North-Eastern Europe
@@ -1622,8 +1631,8 @@ ensure survivial of seeds, by storing seeds in many locations.
 
 Globally, 34% of all emissions come from energy production (US EPA,
 2016), making it the key sector to require innovate for reducing carbon
-emissions. The International Energy Agency’s (IEAs), “Tracking Clean
-Energy Progress” report on 50 distinct decarbonisation enablers and
+emissions. The International Energy Agency’s (IEAs), *“Tracking Clean
+Energy Progress”* report on 50 distinct decarbonisation enablers and
 finds that only 3 components - solar PV, PV electric vehicles, and
 building lighting - are on track with the net zero by 2050 scenario,
 while 28 need more effort and 22 are “not on track” (IEA, 2023b).
@@ -1659,11 +1668,24 @@ Globally, renewables also overtook fossil fuels (IEA, 2024):
 ![](sustainability_files/figure-markdown_strict/cell-13-output-1.png)
 
 Meanwhile, reduction in coal-power was also possible. Coal is a large
-CO2 emitter.
+CO₂eq emitter.
 
 ![](sustainability_files/figure-markdown_strict/cell-14-output-1.png)
 
 ![](sustainability_files/figure-markdown_strict/cell-15-output-1.png)
+
+Beyond electricity and heat, the chemical sector is a massive CO₂eq
+source. (Lange, 2021) reports the petrochemical industry uses about 10%
+of global fossil carbon as feedstock and another 7% to power its
+processes, producing some 400Mt of base chemicals each year, 36% of
+which becomes packaging; the cradle-to-gate CO₂eq emissions for base
+chemicals are roughly 1–2.5kg CO₂eq per kg or 5t CO₂eq per tonne of
+plastic, when including use and end-of-life, the entire lifecycle
+emissions are 1.7Gt CO₂eq (∼4% of all anthropogenic emissions) per year;
+a true circular-carbon economy would require renewable carbon feedstocks
+(e.g. biomass or CO₂-derived monomers), electrified green heat,
+closed-loop catalytic recycling of molecular building blocks, and
+modular low-temperature reactors to slash energy demand.
 
 Large technology conglomerates and newly founded startups alike are
 working in the climate solutions space (often referred to as *climatech*
@@ -1680,7 +1702,7 @@ is more feasible. (Cleantech Group, 2023) profiles 100 innovators across
 agriculture, food, energy, mobility, and waste that Cleantech Group
 judges most likely to enable a future with sub-2 degrees warming.
 Overall, considering pathways to carbon drawdown finds considerable
-uncertainty exists among experts which CO2 reduction among nature- and
+uncertainty exists among experts which CO₂eq reduction among nature- and
 technology-based methods are the most effective (S. Low et al., 2022).
 
 ### Individual Action
@@ -1727,11 +1749,6 @@ https://www.aljazeera.com/news/2023/7/17/yoon-orders-all-out-effort-after-heavy-
 Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen & T. (Eds).
 (2022). *Living Planet Report 2022 – Building a Naturepositive Society*.
 WWF (World Wide Fund for Nature).
-
-Anderson, T. R., Hawkins, E. & Jones, P. D. (2016). CO2, the greenhouse
-effect and global warming: From the pioneering work of Arrhenius and
-Callendar to today’s Earth System Models. *Endeavour*, *40*(3), 178–187.
-[https://doi.org/10.1016/j.endeavour.2016.07.002](https://doi.org/10.1016/j.endeavour.2016.07.002)
 
 Anna Watson. (2022). Carbon dioxide removal solutions. In *Toucan
 Protocol*.
@@ -1851,6 +1868,9 @@ losses and declines. *Proceedings of the National Academy of Sciences*,
 *114*(30).
 [https://doi.org/10.1073/pnas.1704949114](https://doi.org/10.1073/pnas.1704949114)
 
+Centre, U. W. H. (1999). Area de Conservaci&oacute;n Guanacaste. In
+*UNESCO World Heritage Centre*. https://whc.unesco.org/en/list/928/.
+
 Chancel, L. (2022). Global carbon inequality over 1990–2019. *Nature
 Sustainability*, *5*(11), 931–938.
 [https://doi.org/10.1038/s41893-022-00955-z](https://doi.org/10.1038/s41893-022-00955-z)
@@ -1899,11 +1919,6 @@ Crenna, E., Sinkko, T. & Sala, S. (2019). Biodiversity impacts due to
 food consumption in Europe. *Journal of Cleaner Production*, *227*,
 378–391.
 [https://doi.org/10.1016/j.jclepro.2019.04.054](https://doi.org/10.1016/j.jclepro.2019.04.054)
-
-Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Solazzo, E.,
-Monforti-Ferrario, F., Olivier, J. & Vignati, E. (2020). *Fossil CO2 and
-GHG emissions of all world countries – 2020 report*. Publications
-Office.
 
 Daily, G. C. (Ed.). (1997). *Nature’s services: Societal dependence on
 natural ecosystems*. Island Press.
@@ -2289,6 +2304,11 @@ L, J. (2025b). Google Ignites Taiwan’s First Corporate Geothermal Deal
 for 24/7 Clean Energy. In *Carbon Credits*.
 https://carboncredits.com/google-ignites-taiwans-first-corporate-geothermal-deal-for-24-7-clean-energy/.
 
+Lange, J.-P. (2021). Towards circular carbo-chemicals – the
+metamorphosis of petrochemicals. *Energy & Environmental Science*,
+*14*(8), 4358–4376.
+[https://doi.org/10.1039/D1EE00532D](https://doi.org/10.1039/D1EE00532D)
+
 Lavers, J. L., Bond, A. L. & Rolsky, C. (2022). Far from a distraction:
 Plastic pollution and the planetary emergency. *Biological
 Conservation*, *272*, 109655.
@@ -2415,6 +2435,10 @@ Recent Decades. *AGU Advances*, *6*(3), e2024AV001636.
 May, R. M. (2011). Why should we be concerned about loss of
 biodiversity. *Comptes Rendus Biologies*, *334*(5-6), 346–350.
 [https://doi.org/10.1016/j.crvi.2010.12.002](https://doi.org/10.1016/j.crvi.2010.12.002)
+
+McClure, T. (2025). *“Half the tree of life”: Ecologists’ horror as
+nature reserves are emptied of insects*.
+https://www.theguardian.com/environment/2025/jun/03/climate-species-collapse-ecology-insects-nature-reserves-aoe.
 
 McKibben, B. (1989). *The end of nature* (1st ed). Random House.
 
@@ -2686,10 +2710,6 @@ safe drinking water, study finds. *Nature*, d41586-024-02621-0.
 Stanford University. (2021). Professors explain the social cost of
 carbon. In *Stanford News*.
 
-Statista. (2023). Annual CO2 emissions worldwide 1940-2022. In
-*Statista*.
-https://www.statista.com/statistics/276629/global-co2-emissions/.
-
 Stern, N. (2022). Towards a carbon neutral economy: How government
 should respond to market failures and market absence. *Journal of
 Government and Economics*, *6*, 100036.
@@ -2799,11 +2819,6 @@ prescribed fire frequency on wildfire emissions and carbon sequestration
 in a fire adapted ecosystem using a comprehensive carbon model. *Journal
 of Environmental Management*, *290*, 112673.
 [https://doi.org/10.1016/j.jenvman.2021.112673](https://doi.org/10.1016/j.jenvman.2021.112673)
-
-Wade, J. L., Lopez Marques, H., Wang, W., Flory, J. & Freeman, B.
-(2023). Moisture-driven CO2 pump for direct air capture. *Journal of
-Membrane Science*, *685*, 121954.
-[https://doi.org/10.1016/j.memsci.2023.121954](https://doi.org/10.1016/j.memsci.2023.121954)
 
 Walt, V. (2023). Inside the Billion-Dollar Effort to Clean Up the Seine.
 *TIME*.
