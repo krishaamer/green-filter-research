@@ -7,17 +7,70 @@ import AppTestingFlow from '../images/testing/app-testing-flow.png'
 ```
 # Methodology
 
-[@baytas3KindsDesign2020] categorizes design research into three modes: (1) conducting research to inform design decisions, (2)studying designs to generate knowledge, and (3) using design itself as a means of inquiry. My research is of the first category, aiming make better design design decisions for my sustainability-focused financial app.
+## Research Design and Methods
 
-I started with literature review, which led into expert interviews (because of the many questions arising from the literature). I identified key concepts from expert discussions and gained exposure to their industry insights.
+[@baytas3KindsDesign2020] categorizes design research into three modes: (1) conducting research to inform design decisions, (2)studying designs to generate knowledge, and (3) using design itself as a means of inquiry. My research is of the 1st category, aiming make better design design decisions for my sustainability-focused financial app. When developing my research design, I relied on the advice of [@christianrohrerWhenUseWhich2022] to decide when to choose which user experience research methods. 
+
+Overview of research methods.
 
 | Group                              | Task                       |
 |------------------------------------|----------------------------|
 | Experts (Finance)                  | Interview                  |
 | Experts (Design)                   | Interview                  |
 | Experts (Sustainability)           | Interview                  |
-| Target Audience (College Students) | Survey + Prototype Testing |
+| Target Audience (College Students) | Survey                     |
+| Target Audience (College Students) | Prototype Testing          |
 
+This mixed-method research design is divided into three stages.
+
+### Phase One - Qualitative Research
+
+My purpose for the first qualitative stage is to explore the general themes arising from the literature review related to the design of AI advisors for investing. I identifed specific user experience factors, through interviewing experts in financial technology and user experience design and reviewing existing applications on the marketplace. At this stage in the research, the central concept being studied was defined generally as expectations towards a sustainable investment AI advisor.
+
+I started with literature review, which led into expert interviews (there were many questions arising from the literature). I identified key concepts from expert discussions and gained exposure to their industry insights.
+
+The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
+
+#### Sampling
+
+My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts; located everywhere.
+
+#### Methods
+
+Semi-Structured Interviews
+
+I conducted exploratory research in English using semi-structured interviews recorded online and offline. Talked to 5 experts over video call and 1 one expert face-to-face; all interviews were in English. I recorded audio and video, transcribed the conversations, and then perform thematic analysis of the contents.
+
+-   Qualitative research targeted at financial, design, and sustainability experts, leading to a *wish list* of features.
+
+#### Conceptual Framework
+
+The conceptual framework map presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Green Filter AI Companion for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
+
+::: {.content-hidden unless-format="pdf"}
+![Concept map](./images/methodology/concept-map.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Concept map" src={Concepts} />
+```
+Conceptual Model
+
+### Phase Two - Quantitative Research
+
+I then proceeded to the second, quantitative stage, informed by the previously identified factors, and prepared a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users in generation-z aged 18-29, living in Taiwan, exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
+
+The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
+
+-   Survey potential users' preferences, including a choice experiment of the proposed features.
+
+#### Sampling
+My quantitative sampling structure uses a judgmental criterion: adults aged in Generation-Z (18-29), located in Taiwan, surveyed using a Chinese-language online survey.
+
+#### Methods
+Likert: The survey includes a Likert scale between 1 to 5 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge.Choice Experiment: The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
+
+#### Data Collection
 For my survey, I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms, getting verbal permission from educators in their classrooms to distribute the survey flyer. Similarly to the approach take by [@liuDigitalCapabilityDigital2023], I distributed the survey flyer at universities located in the Northern, Soutern, Central, and East regions of Taiwan. The flyer included a colorful AI-generated visual with a futuristic game-like female figure, and the title "climate anxiety survey" in Chinese, as well as a website link (ziran.tw) and scannable QR-code. 
 
 The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to English for this table.
@@ -65,88 +118,24 @@ The survey only included questions and descriptions in Chinese. I have used the 
 
 Respondents who remained outside the survey parameters were allowed to answer the survey however their responses were disregarded from the data analysis. References were stored in the Zotero paid version with 6 GB storage. Bibtex and Better Bibtex were used to export the references to the .bib format consumable by the Quarto scientific writing system.
 
-## Research Design
-
-
-When developing my research design, I relied on the advice of [@christianrohrerWhenUseWhich2022] to decide when to choose which User-Experience Research methods. 
-
--   @erikahallDesignResearchDone "In “Design Research Done Right,” Erika Hall presents principles for effective design research: starting with clear objectives, choosing methods that yield actionable insights, and communicating findings to inform design decisions, ensuring research directly supports and improves design outcomes"
-
-Designing the research approach I was inspired by these sources:
-
-"research for design". design research is about expanding opportunities and exploration
-
--   @ranywayzResearchDesign2016 "breaks down research design into exploratory, descriptive, and causal approaches They define research aims objectives and questions and show how each design type aligns methods of data collection and analysis to answer specific investigative goals"
-
--   @047WordCreative "introduces how “research” functions within creative technology projects, defining research in a creative context and offering initial resources and frameworks for practitioners to integrate research methods into artistic-tech work"
-
--   @QualitativeVsQuantitative "The video “Qualitative vs Quantitative UX Research” contrasts qualitative methods (e.g., interviews, observations) for uncovering user attitudes with quantitative methods (e.g., surveys, analytics) for measuring behaviors, emphasizing that both are complementary and chosen based on research goals"
-
--   @WhenUseWhich “When to Use Which UX Research Method” advises selecting methods according to five criteria—research objectives, resource availability, timeline, participant access, and fidelity needs—rather than defaulting to usability testing, to ensure appropriate and effective UX research
-
--   @GreatUXResearch Steve Portigal’s Awwwards San Francisco talk “Great UX Research for Non-Researchers” outlines three phases—planning (defining goals and recruiting participants), conducting (interviews, observations, testing), and acting on insights (synthesizing findings into design recommendations)—to help non-researchers leverage UX research"
-
-**The research design of this study consists of 3 steps.**
-
--   Qualitative research targeted at financial, design, and sustainability experts, leading to a *wish list* of features.
-
--   Survey potential users' preferences, including a choice experiment of the proposed features.
--   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
--   This mixed-method research design is divided into three stages (fig. 11).
--   My purpose for the first qualitative stage is to explore the general themes arising from the literature review related to the design of AI advisors for investing. I will identify specific user experience factors, through interviewing experts in financial technology and user experience design and reviewing existing applications on the marketplace. At this stage in the research, the central concept being studied is defined generally as expectations towards a sustainable investment AI advisor.
--   I will then proceed to the second, quantitative stage, informed by the previously identified factors, and prepare a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users in generation-z aged 18-29, living in Taiwan (see fig. 12 on next page), exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
--   In the third stage, I will return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will use a focus group to discuss the prototype, and conduct a thematic analysis of the discussions' recordings, leading to further validation of previously gathered data and possible changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, will be the final outcome of my research.
-
-## Conceptual Framework
-
-The conceptual framework map presents the key concepts arising from the literature review thus far in the research process. I'm using these concepts when developing interview strategies for phase one of the research, developing the survey questionnaire for phase two, as well as for building the Personal Sustainable AI Financial Advisor (PSAA) for young adults at the final stage of the process. However, I expect the conceptual framework to further evolve with additional findings while conducting my research.
-
-::: {.content-hidden unless-format="pdf"}
-![Concept map](./images/methodology/concept-map.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Concept map" src={Concepts} />
-```
-Conceptual Model
-
-## Research Methods
-
-### Phase One - Qualitative Research
-
-The qualitative research methods employed in the first stage of the research design enables me to explore concepts arising for literature review further, using a more open approach, without limiting the conversation only to pre-ascribed notions. The strength of the qualitative approach in the first stage is to encourage the discovery of new ideas, not yet common in literature and potential user experience factors related to sustainable investing and user experience.
-
-**Sampling**
-
-My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts everywhere.
-
-**Method:** Semi-Structured Interviews
-
-I will conduct exploratory research in English using semi-structured interviews recorded online and offline.
-
-### Phase Two - Quantitative Research
-
-The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
-
-**Sampling** My quantitative sampling structure uses a judgmental criterion: adults aged in Generation-Z (18-29), located in Taiwan, surveyed using a Chinese-language online survey.
-
-**Method:** Likert The survey includes a Likert scale between 1 to 5 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge.
-
-**Method:** Choice Experiment The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
-
 ### Phase Three - Qualitative Research
+
+In the third stage, I return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will used face-to-face interview to discuss the prototype, and conducted a thematic analysis of the discussions' recordings, leading to further validation of previously gathered data and changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, are the final outcome of my research.
 
 In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. 
 
-**Sampling**
+-   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
 
-The phase three sampling structure uses a judgmental criterion: - age Gen-Z cohort - located in Taiwan - Using the Chinese language for discussion.
+#### Sampling
+
+The phase three sampling structure uses a judgmental criterion: - age Gen-Z cohort - located in Taiwan - Using Chinese for discussion.
 
 Individual face-to-face interviews were organized at universities around Taiwan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I posted online ads in Chinese and reach out to varied student clubs to invite people who I don't know personally, to participate in a "sustainable AI application testing" (wording may change).
 
-**Method:** Focus Group The strength of a focus group is the ability to observe potential users in a social setting, where knowledge can be exchanged between the participants. The whole experience, including emerging conversations, will be recorded and transcribed.
+#### Methods 
+Face-to-face prototype testing. The strength of in-person is the ability to observe potential users, where knowledge can be exchanged directly. The interviews were recorded and transcribed.
 
-**Method:** Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
+Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Overview of research methodology](./images/methodology/research-methodology.png){width="100%"}
@@ -157,32 +146,33 @@ Individual face-to-face interviews were organized at universities around Taiwan.
 ```
 Interview transcripts from Descript and Google Speech-to-Text model were combined using Gemini 2.5 Pro Experimental 03-25 (gemini-2.5-pro-exp-03-25) model.
 
-## Testing
+#### Prototype Testing
 
 Does the prototype match user needs?
 
 Testing was the most difficult part of the thesis process.
 
--   Testing with random people found at the university.
+* Testing with random people found at the university.
 
--   Testing with experts.
+* Testing with experts.
 
--   Testing with unknown people in the target audience.
+* Testing with unknown people in the target audience.
 
-### App Testing Flow
+App Testing Flow
 
 ::: {.content-hidden unless-format="pdf"}
 ![App Testing Flow](./images/testing/app-testing-flow.png){width="100%"}
 :::
 
-```{=md977hjhbbhx}
+```{=mdx}
 <Figure caption="App Testing Flow" src={AppTestingFlow} />
 ```
-### 1st Wave of (Preliminary) Testing (Spring 2024)
+
+#### 1st Wave of (Preliminary) Prototype Testing (Spring 2024)
 
 The 1st wave of preliminary testing took place during 1 month from 2024 April 2 to May 2, 2024 at the NCKU campus. I found 8 anonymous participants at different NCKU locations, such as the student canteens and the medical library, confirmed the people I approached were Taiwanese students studying at NCKU, and then simply asked them to test my app, using my own laptop. I made used of *participant observation* and took notes myself. There was no audio or video recording.
 
-### 2nd Wave of (In Production) Testing (Autumn 2024 - Spring 2025)
+#### 2nd Wave of (In Production) Prototype Testing (Autumn 2024 - Spring 2025)
 
 The 2nd wave of testing took place from Autumn 2024 to Spring 2025 and was more comprehensive. I conducted in-person face-to-face testing individually with 32 students at 7 universities. Interviews were conducted in Chinese and transcribed and translated to English using Google Voice to Text AI as well as Describe AI.
 
@@ -197,6 +187,5 @@ The 2nd wave of testing took place from Autumn 2024 to Spring 2025 and was more 
 | Tainan | 南臺科技大學 Southern Taiwan University of Science and Technology (STUST) | 5 |
 | Pingtung | 國立屏東科技大學 National Pingtung University of Science and Technology (NPUST) | 2 |
 
-### Expert Feedback
 
-Talked to 5 experts over video call and 1 one expert face-to-face; all interviews were in English. I recorded audio and video, transcribed the conversations, and then perform thematic analysis of the contents.
+

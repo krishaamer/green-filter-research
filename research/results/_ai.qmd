@@ -10,11 +10,12 @@ AI-assistant feature choices per Likert-based Personas
 likert_cluster_and_visualize()
 ```
 
+This chart visualizes three distinct personas based on 36 Likert answers: Eco-Friendly (n=340), Moderate (n=215), and Frugal (n=126) based on their overall sentiment profiles.
+
 Want:
 - Product origin
 - Product materials
 - Product packaging
-
 
 Don't Want:
 - News
