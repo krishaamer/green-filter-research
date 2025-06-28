@@ -14,18 +14,13 @@ The following early prototypes are focused on particular feature ideas that occu
 
 Example Suggestions of the AI companion:
 
-- "Don't buy a car, use a car sharing service instead to save XYZ CO₂eq. Service available near you: Bolt,* Uber."
+* "Don't buy a car, use a car sharing service instead to save XYZ CO₂eq. Service available near you: Bolt,* Uber."
 
-- "Use a refillable shampoo bottle to save XYZ plastic pollution"
+* "Use a refillable shampoo bottle to save XYZ plastic pollution"
 
-- "Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
+* "Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
 
-
-Figure 3: Speculative scenario of an interaction between a human user and a robo-advisor through the interface of chat messages in the context of retail shopping for daily products.
-
-https://scontent.ftpe6-1.fna.fbcdn.net/v/t39.8562-6/333078981_693988129081760_4712707815225756708_n.pdf
-
-provides many examples conversations between AI and humans from Meta's LLAMA mmodel
+Speculative scenario of an interaction between a human user and a robo-advisor through the interface of chat messages in the context of retail shopping for daily products.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Early prototype of my Sustainable Finance AI Companion (Nov. 2020)](./images/prototypes/susan-pink-app.png){width="50%"}
@@ -37,7 +32,6 @@ provides many examples conversations between AI and humans from Meta's LLAMA mmo
   src={Susan}
 />
 ```
-
 
 ## Sunday Market
 
@@ -65,7 +59,7 @@ provides many examples conversations between AI and humans from Meta's LLAMA mmo
 
 ## How Far?
 
-*What if* I knew how far did this product travel to reach me?
+*What if* the exact distance traveled by a product to reach me was clearly displayed during shopping? Seeing precise transportation distances and associated emissions could immediately clarify the environmental impact of buying local versus imported goods. Such transparency might encourage consumers to prioritize local and sustainable sourcing.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Feature idea: How far? (Nov. 2020)](./images/prototypes/how-far.png){width="50%"}
@@ -78,6 +72,8 @@ provides many examples conversations between AI and humans from Meta's LLAMA mmo
 
 *What if* I knew my country's top pollution sources?
 
+*What if* I could instantly access detailed insights into my country’s primary sources of pollution? Having clear, accessible data on national environmental challenges might empower consumers to support policies, businesses, and lifestyle changes that address critical sustainability issues.
+
 ::: {.content-hidden unless-format="pdf"}
 ![Feature idea: Country Profile (Nov. 2020)](./images/prototypes/country-profile.png){width="50%"}
 :::
@@ -88,13 +84,17 @@ provides many examples conversations between AI and humans from Meta's LLAMA mmo
 
 *What if* I could KYC the companies I interact with? Like the banks KYC, consumers can KYC.
 
+*What if* I could apply a "Know Your Company" (KYC) approach similar to banking protocols use "Know Your Customer" directly to my daily interactions with businesses? Detailed transparency about corporate sustainability, ethics, and practices would enable consumers to engage only with companies whose values align closely with my own.
+
 ## CO₂eq Flex
 
-*What if* I could show off how much CO₂eq I have retired?
+*What if* I could show off how much CO₂eq I have retired? What if I could showcase my contributions to reducing carbon emissions, similar to how fitness achievements are shared? A visual display or "badge" reflecting my environmental impact could encourage others, creating a ripple effect of positive behavior and raising community awareness about personal sustainability efforts.
 
 ## Sustainability Watch
 
 *What if* I could see all my sustainability data on a wearable device in the right context?
+
+*What if* my wearable device provided instant, contextually relevant sustainability data throughout my day? Imagine checking my watch during shopping or commuting and instantly seeing personalized, actionable insights that help me make more eco-friendly decisions seamlessly integrated into my daily routine.
 
 <Figure caption="Sustainability Watch" src={Watch} />
 
@@ -111,7 +111,7 @@ provides many examples conversations between AI and humans from Meta's LLAMA mmo
 
 ## Shopping Divest
 
-*What if* I you could build a community based on what I buy?
+*What if* I you could build a community based on what I buy? Or join existing communities based explicitly on sustainable consumption habits? By sharing my purchasing choices and sustainability experiences with others, perhaps we could collectively amplify the positive impact of our eco-conscious decisions.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Feature idea: Narrative (Nov. 2020)](./images/prototypes/shopping-divest.png){width="50%"}
