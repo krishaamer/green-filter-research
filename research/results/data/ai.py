@@ -68,52 +68,55 @@ def perform_kmodes_clustering():
 
 
 def radar_chart():
-    # run your clustering and grab each cluster dataframe
-    clusters = perform_kmodes_clustering()
+    # 1. cluster and grab dataframes
+    cluster_dict = perform_kmodes_clustering()
+    sorted_keys = sorted(cluster_dict.keys())
+    df_list = [cluster_dict[k] for k in sorted_keys]
 
-    # compute the size of each cluster
-    cluster_counts = [len(df) for df in clusters]
-    persona_labels = ['Conscious', 'Interested', 'Advocate']
-
-    # build your dict with dynamic n values
+    # 2. dynamic labels
+    counts = [len(df) for df in df_list]
+    persona_names = ['Conscious', 'Interested', 'Advocate']
     df_dict = {
-        f'{label} (n={count})': df
-        for label, count, df in zip(persona_labels, cluster_counts, clusters)
+        f'{name} (n={count})': df
+        for name, count, df in zip(persona_names, counts, df_list)
     }
 
-    # map your feature keys to translations
+    # 3. compute averages using your original translation dict
     feature_translations_dict = dict(zip(prod_feat_flat_fields, feature_translations))
+    feature_keys = list(feature_translations_dict.keys())
     persona_averages = [
-        df[list(feature_translations_dict.keys())].mean().tolist()
+        df[feature_keys].mean().tolist()
         for df in df_dict.values()
     ]
 
-    # close each radar loop
+    # 4. append first value to close each loop
     for avgs in persona_averages:
         avgs += avgs[:1]
 
-    # prepare labels
+    # 5. prepare labels and angles
     english_feature_labels = list(feature_translations) + [feature_translations[0]]
-
     num_vars = len(english_feature_labels)
-    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    angles = np.linspace(0, 2*np.pi, num_vars, endpoint=False).tolist()
     angles += angles[:1]
 
-    fig, ax = plt.subplots(figsize=(12, 12), subplot_kw=dict(polar=True))
+    # 6. plot setup
+    fig, ax = plt.subplots(figsize=(12,12), subplot_kw=dict(polar=True))
     fig.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
-
     plt.xticks(angles[:-1], english_feature_labels, color='grey', size=12, fontproperties=chinese_font)
     ax.set_rlabel_position(0)
-    plt.yticks([0.2, 0.4, 0.6, 0.8, 1], ['0.2', '0.4', '0.6', '0.8', '1'], color='grey', size=7)
-    plt.ylim(0, 1)
+    plt.yticks([0.2,0.4,0.6,0.8,1], ['0.2','0.4','0.6','0.8','1'], color='grey', size=7)
+    plt.ylim(0,1)
 
-    # plot each persona
+    # 7. draw each persona
     for label, data in zip(df_dict.keys(), persona_averages):
         ax.plot(angles, data, label=label, linewidth=1, linestyle='solid')
         ax.fill(angles, data, alpha=0.25)
 
-    plt.legend(title='Personas', loc='upper right', bbox_to_anchor=(0.1, 0.1))
+    # 8. legend & title
+    plt.legend(title='Personas', loc='upper right', bbox_to_anchor=(0.1,0.1))
     plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=chinese_font)
+
+    # 9. show
     plt.show()
 
 def plot_feature_preferences():
