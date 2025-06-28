@@ -6,7 +6,7 @@ import Susan from '../images/prototypes/susan-pink-app.png'
 ```
 ## Early Feature Ideas
 
-The following early prototypes are focused on particular feature ideas that occurred to me during the literature review process. They are naive and meant to allow thinking in terms of *what-if* a particular user experience was possible. These prototypes were not tested with users directly and formed a basis for directing the questions asked in a potential user survey.
+The following early feature ideas occurred to me during the literature review process. They are naive and meant to allow thinking in terms of *what-if* a particular user experience was possible. These prototypes were not tested with users directly and rather formed a basis for directing the questions asked in a potential user survey.
 
 ## Susan (Sustainability Conversation)
 
@@ -14,11 +14,11 @@ The following early prototypes are focused on particular feature ideas that occu
 
 Example Suggestions of the AI companion:
 
-* "Don't buy a car, use a car sharing service instead to save XYZ CO₂eq. Service available near you: Bolt,* Uber."
+* *"Don't buy a car, use a car sharing service instead to save XYZ CO₂eq. Services available near you: Bolt, Uber, Line Taxi"*
 
-* "Use a refillable shampoo bottle to save XYZ plastic pollution"
+* *"Use a refillable shampoo bottle to save XYZ plastic pollution"*
 
-* "Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
+* *"Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
 
 Speculative scenario of an interaction between a human user and a robo-advisor through the interface of chat messages in the context of retail shopping for daily products.
 
@@ -47,15 +47,11 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 *What if* I you could see the actual cost of each product including externalities?
 
-<MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcAgbLs3UzAI5TnmjOipjZ5%2FTrue-Cost%3Fnode-id%3D0%253A1" text="Loading True Cost..." />
-
-
-## Speak Truth to Power
-
-*What if* I could affect companies with truth? Consolidate user feedback for companies.
+::: {.content-hidden unless-format="pdf"}
+![Feature idea: True Cost (Nov. 2020)](./images/prototypes/true-cost.png){width="50%"}
+:::
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcAgbLs3UzAI5TnmjOipjZ5%2FTrue-Cost%3Fnode-id%3D0%253A1" text="Loading True Cost..." />
-
 
 ## How Far?
 
@@ -70,9 +66,7 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 ## Country Profiles
 
-*What if* I knew my country's top pollution sources?
-
-*What if* I could instantly access detailed insights into my country’s primary sources of pollution? Having clear, accessible data on national environmental challenges might empower consumers to support policies, businesses, and lifestyle changes that address critical sustainability issues.
+*What if* I knew my country's top pollution sources? I could instantly access detailed insights into my country’s primary sources of pollution? Having clear, accessible data on national environmental challenges might empower consumers to support policies, businesses, and lifestyle changes that address critical sustainability issues.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Feature idea: Country Profile (Nov. 2020)](./images/prototypes/country-profile.png){width="50%"}
@@ -80,11 +74,9 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fx2OIzYHACJTr6xnzHkrdeQ%2FCountry-Profiles%3Fnode-id%3D0%253A1%26t%3DW82SgRzgzbAaHImo-1" text="Loading Country Profiles..." />
 
-## Know Your Company
+## Know Your Company (KYC)
 
-*What if* I could KYC the companies I interact with? Like the banks KYC, consumers can KYC.
-
-*What if* I could apply a "Know Your Company" (KYC) approach similar to banking protocols use "Know Your Customer" directly to my daily interactions with businesses? Detailed transparency about corporate sustainability, ethics, and practices would enable consumers to engage only with companies whose values align closely with my own.
+*What if* I could KYC the companies I interact with? This is a common practice for banks, they need to KYC "Know Your Client". As a consumer, could I approach companies in a similar way to banks - using "Know Your Company" (KYC) for daily interactions with businesses? Possibly detailed transparency about corporate sustainability, ethics, and practices would enable consumers to engage only with companies whose values align closely with my own. Similary, *What if* I could "Speak Truth to Power", affecting companies with truth? Consolidate user feedback for companies.
 
 ## CO₂eq Flex
 
@@ -92,19 +84,21 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 ## Sustainability Watch
 
-*What if* I could see all my sustainability data on a wearable device in the right context?
+*What if* I could see all my sustainability data on a wearable device in the right context? My wearable device could provide instant, contextually relevant sustainability data throughout my day? Imagine checking my watch during shopping or commuting and instantly seeing personalized, actionable insights that help me make more eco-friendly decisions seamlessly integrated into my daily routine.
 
-*What if* my wearable device provided instant, contextually relevant sustainability data throughout my day? Imagine checking my watch during shopping or commuting and instantly seeing personalized, actionable insights that help me make more eco-friendly decisions seamlessly integrated into my daily routine.
+::: {.content-hidden unless-format="pdf"}
+![Feature idea: Sustainability Watch (Nov. 2020)](./images/prototypes/ai-watch.png){width="50%"}
+:::
 
 <Figure caption="Sustainability Watch" src={Watch} />
 
 ## Narrative Layouts
 
-::: {.content-hidden unless-format="pdf"}
-![Feature idea: Narrative (Nov. 2020)](./images/prototypes/narrative.png){width="50%"}
-:::
-
 *What if* I spent 5 minutes every day with a guide who could help me make more eco-friendly choices? How should the layout storyline be structured? Well it’s like Strava (that running app) for sustainability… or if you have heard of Welltory. I believe sustainable choices that would improve my life.. be it what I consume, save, invest, etc.. so I’m trying to design an app around this idea. I'm basically building the UX of AI.. focused on sustainability. How should the layout storyline be structured? Well it's like Strava (that running app) for sustainability... or if you have heard of Welltory. I believe if I spent 5 minutes every day with a guide who could help me make more eco-friendly choices that would improve my life.. be it what I consume, save, invest, etc.. so I'm trying to design an app around this idea.
+
+::: {.content-hidden unless-format="pdf"}
+![Feature idea: Narrative Layouts (Nov. 2020)](./images/prototypes/narrative.png){width="50%"}
+:::
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FnTh1LsECxFABEZPE7pSFgw%2FDid-you-know%253F%3Fnode-id%3D0%253A1" text="Loading Prototype..." />
 
@@ -118,10 +112,3 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 :::
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fw7LqdSzACgz9ghuTcrSxgk%2FDivest%3Fnode-id%3D0%253A1" text="Loading Shopping Divest..." />
-
-## Books Can Talk
-
-*What if* sustainability literature could chat with me? Books can now talk to me. My bedtime story about shopping, saving, and investing. [@SustainableShoppingSaving2023] 
-
-- [@raykurzweilIntroducingSemanticExperiences2018]
-- [@baileyAIEducation2023]
