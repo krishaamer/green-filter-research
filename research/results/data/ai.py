@@ -68,61 +68,53 @@ def perform_kmodes_clustering():
 
 
 def radar_chart():
-
+    # run your clustering and grab each cluster dataframe
     clusters = perform_kmodes_clustering()
 
-    df_dict={
-        'Conscious (n=340)': clusters[0],
-        'Interested (n=215)': clusters[1],
-        'Advocate (n=126)': clusters[2]
+    # compute the size of each cluster
+    cluster_counts = [len(df) for df in clusters]
+    persona_labels = ['Conscious', 'Interested', 'Advocate']
+
+    # build your dict with dynamic n values
+    df_dict = {
+        f'{label} (n={count})': df
+        for label, count, df in zip(persona_labels, cluster_counts, clusters)
     }
 
+    # map your feature keys to translations
     feature_translations_dict = dict(zip(prod_feat_flat_fields, feature_translations))
-    persona_averages = [df[list(feature_translations_dict.keys())].mean().tolist() for df in df_dict.values()]
-      
-    # Append the first value at the end of each list for the radar chart
-    for averages in persona_averages:
-        averages += averages[:1]
-    
-    # Prepare the English labels for plotting
-    english_feature_labels = list(feature_translations)
-    english_feature_labels += [english_feature_labels[0]]  # Repeat the first label to close the loop
-    
-    # Number of variables we're plotting
+    persona_averages = [
+        df[list(feature_translations_dict.keys())].mean().tolist()
+        for df in df_dict.values()
+    ]
+
+    # close each radar loop
+    for avgs in persona_averages:
+        avgs += avgs[:1]
+
+    # prepare labels
+    english_feature_labels = list(feature_translations) + [feature_translations[0]]
+
     num_vars = len(english_feature_labels)
-    
-    # Split the circle into even parts and save the angles
     angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
-    angles += angles[:1]  # Complete the loop
-    
-    # Set up the font properties for using a custom font
+    angles += angles[:1]
+
     fig, ax = plt.subplots(figsize=(12, 12), subplot_kw=dict(polar=True))
     fig.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
 
-    # Draw one axe per variable and add labels
     plt.xticks(angles[:-1], english_feature_labels, color='grey', size=12, fontproperties=chinese_font)
-    
-    # Draw ylabels
     ax.set_rlabel_position(0)
-    plt.yticks([0.2, 0.4, 0.6, 0.8, 1], ["0.2", "0.4", "0.6", "0.8", "1"], color="grey", size=7)
+    plt.yticks([0.2, 0.4, 0.6, 0.8, 1], ['0.2', '0.4', '0.6', '0.8', '1'], color='grey', size=7)
     plt.ylim(0, 1)
-    
-    # Plot data and fill with color
+
+    # plot each persona
     for label, data in zip(df_dict.keys(), persona_averages):
-        data += data[:1]  # Complete the loop
         ax.plot(angles, data, label=label, linewidth=1, linestyle='solid')
         ax.fill(angles, data, alpha=0.25)
-    
-    # Add legend
-    plt.legend(title='Personas')
-    plt.legend(loc='upper right', bbox_to_anchor=(0.1, 0.1))
-    
-    # Add a title
-    plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=chinese_font)
-    
-    # Display the radar chart
-    plt.show()
 
+    plt.legend(title='Personas', loc='upper right', bbox_to_anchor=(0.1, 0.1))
+    plt.title('Product Feature Preferences by Persona', size=20, color='grey', y=1.1, fontproperties=chinese_font)
+    plt.show()
 
 def plot_feature_preferences():
     # Given comparative table data
