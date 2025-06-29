@@ -13,7 +13,7 @@ import Taipei from "../images/college/taipei.jpg";
 ```
 # Young Adults and College Students
 
-## Student Protests for Climate Justice: Around the World and In Taiwan
+## Student Protests for Climate Justice: The World and Taiwan
 
 In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. In 2019, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
 
@@ -73,7 +73,7 @@ Designing for College Students: Developing Personas. User research makes extensi
 
 Many general observations can be made, however to create meaningful personas, these should be backed up with data. Students ride bicycles and scooters. Many circular economy service such as YouBike and transport sharing platforms like Uber are available in Taiwan. Many students live in dorms and shared housing, meaning their impact per square meter is low.
 
-## Taiwanese Youth in the Global Context: Attitudes Towards Sustainability From Eco-Friendly Diet to Climate Action
+## Taiwanese Youth in Global Context: Sustainability Attitudes From Eco-Friendly Diet to Climate Action
 
 Addressing the Research Gap When it Comes to Taiwanese College Students. There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regards to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
 
@@ -128,7 +128,7 @@ Internationally, there is extensive research on the attitudes of college student
 
 ## The Experience of Climate Change and Pollution Levels in Taiwan
 
-Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO₂eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
+Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
 
 Similarly to how Northern Europe, including Estonia, is affected by the Gulf Stream, making the climate warmer, Taiwan is affected by the Kuroshio (黑潮) warm current of the Pacific Ocean, which helps regulate the climate and marine ecosystem of the region. The strength and trajectory of the Kuroshio is influenced by Rossby planetary waves, driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Going back on a larger time scale, biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021].
 
@@ -140,19 +140,19 @@ A recent study demonstrate extreme industrial pollution in numerous sites at the
 
 The table below illustrates the types of emissions and environmental impacts large corporations in Taiwan produce. It should be noted, some of the corporations do buy carbon credits to offset their local adverse impact; for instance, 台積電 TSCM has purchased carbon credits, renewable energy, invested in the Taiwan Carbon Exchange to support greener companies, and joined international reporting initiatives, such as the Task Force on Climaterelated Financial Disclosures (TCFD) and Taskforce on Nature-related Financial Disclosures (TNFD) [@tsmcQiHouJiZiRan2023].
 
-| Company | 2023 Mt CO₂eq | Notable Problems | Data Source |
+| Company | 2023 Mt CO~2~eq | Notable Problems | Data Source |
 |-------------------|-----------------:|------------------|------------------|
-| 台電 Taipower | **93.33** | A single power plant in Taichung produces 26 Mt CO₂eq | @JinZhouKanCOP29TaiZhong2024 |
+| 台電 Taipower | **93.33** | A single power plant in Taichung produces 26 Mt CO~2~eq | @JinZhouKanCOP29TaiZhong2024 |
 | 台塑化 (台塑集團) Formosa Petrochemical | **24.23** | 16 cases of fires and explosions between 2010 and 2020 | @OuYuXiang2023 |
-| 中鋼 China Steel | **18.07** | 60% of theCO₂eq emissions come from 1 steel mill in Kaohsiung | @XiaoTingFangKongQiPin2021; @HuanJingZiXunZhongXinJiZheZongT2022 |
+| 中鋼 China Steel | **18.07** | 60% of theCO~2~eq emissions come from 1 steel mill in Kaohsiung | @XiaoTingFangKongQiPin2021; @HuanJingZiXunZhongXinJiZheZongT2022 |
 | 台積電 TSMC | **11.42** | Extreme water consumption used 82.82 Mt of water in 2022, straining local reservoirs and requiring water-truck deliveries during droughts | @JinZhouKanCOP29TaiZhong2024; @ShangShiGongSiYongShui2022; @ZhongYangSheZhuKe5212021; @tscmShuiGuanLi2019 |
 | 台灣中油 CPC | N/A | From 2019 to 2023 paid government air pollution penalties 146 times; there were 4 fire incidents as well as 3 odor leakages in 2022 | @LuSeGongMinXing2022; @2022NianKongShuiWu |
-| 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO₂eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
+| 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
 | 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |
 
 : Examples of large industrial polluters in Taiwan as reported in academic papers and the media.
 
-## Climate Anxiety and How to Respond
+## Climate Anxiety Responses
 
 A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action. A large worldwide study in (n = 10000, aged 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in 10 countries: Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n = 1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
 
@@ -168,7 +168,7 @@ Psychological factors influencing millennials to engage with sustainability [@na
 green_millenials()
 ```
 
-## The Attitude-Behavior Gap
+## Attitude-Behavior Gap
 
 While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. Translating eco-conscious attitudes into concrete sustainable actions remains challenging. Empirical evidence illustrates this gap between intention and behavior. [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
 
@@ -178,23 +178,23 @@ However, changing habits is important if technology alone is not the solution. [
 
 - Willingness to pay research.
 
-## Sustainability Tools in the Taiwanese Context, Digital Sustainability: Taiwan's Digital Receipt System
+## Sustainability in Taiwan: Garbage Trucks and Digital Receipts
 
 Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
 
-The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: "garbage island", for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: *"garbage island"*, for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
 
 Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
 
-@DuJiaGuanChaDianZiFaPiao2025 reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
+[@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
 
-## Trends in Taiwanese Companies from Industry to Online Shopping
+## Trends in Taiwanese Industry and Online Shopping
 
 In the intensifying competition of online shopping in Taiwan, [@momovscoupang2024] predicts Momo and Coupang will compete for Taiwanese market leadership, with Coupang increasingly stepping on Shopee's and MOMO's toes, as per [@ShunFengFuChanKeSunpungSanbuingwa2024].
 
 Across online and offline, KANTAR reports Taiwan’s consumer spending on fast-moving consumer-goods (FMCG) grew over 5% in 2024, speeding up towards the end of the year: +2.5% in Q1, +4.1% in Q2, +5.7 % in Q3 and +9.1% in Q4, with e-commerce crossing the 20 % share mark (traditionally FMCG are purchased physical stores, as convenience stores are so readily available all over Taiwan) [@DongNaoChang2024; @kantarworldpanelFMCG2024; @foodnext20242024; @ShiLifoodnext2024Di42025].
 
-Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO₂eq was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO₂eq exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added "requirements for Taiwan’s corporates to disclose their carbon emissions," [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].
+Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO~2~eq was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO~2~eq exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added "requirements for Taiwan’s corporates to disclose their carbon emissions," [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].
 
 TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies Of 2024"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
 
@@ -307,7 +307,7 @@ Internationally, there's evidence young people have money. In the United States,
 
 : Data from millennial investors [@calastoneMillennialsInvestingDetailed2020].
 
-## Social Media Usage, Trends, Memes, Media Currents, and Youth Empowerment
+## Social Media, Trends, Memes, and Youth Empowerment
 
 The term “meme,” first coined by Richard Dawkins in 1976 in his book "The Selfish Gene" to describe units of cultural evolution, analogous to that of biological evolution, which may evolve by natural selection, and now encompasses internet artifacts and even stocks. Beyond mere entertainment, memes have emerged as an academic discipline, where memes are sampled, coded, and analysed from cultural and ethical viewpoints, among others [@zidaniHowConductInternet2022]. [@peters-lazaroPopularCultureCivic2020] argues memes are no merely jokes but tools for communal critique and collective visioning. suggesting that Taiwanese Gen-Z memes scaffold deeper conversations about consumerism, climate action, and social change. Memes from daily life, business to war, are relevant to penetrating through the noise of the web.
 
