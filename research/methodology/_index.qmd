@@ -33,15 +33,11 @@ The qualitative research methods employed in the first stage of the research des
 
 #### Sampling
 
-My qualitative sampling structure uses non-probability snowball sampling, with the following criteria: financial industry, fintech, and design experts; located everywhere.
+My qualitative sampling structure used non-probability snowball sampling, with the following criteria: targeting financial industry, fintech, design, and sustainability experts; located everywhere.
 
 #### Methods
 
-Semi-Structured Interviews
-
-I conducted exploratory research in English using semi-structured interviews recorded online and offline. Talked to 5 experts over video call and 1 one expert face-to-face; all interviews were in English. I recorded audio and video, transcribed the conversations, and then perform thematic analysis of the contents.
-
--   Qualitative research targeted at financial, design, and sustainability experts, leading to a *wish list* of features.
+I conducted exploratory research in English using semi-structured interviews recorded online and offline. I talked to 5 experts over video call and 1 one expert face-to-face; all interviews were conducted in English. I recorded audio and video, transcribed the conversations, and then performed thematic analysis of the contents, leading to a *wish list* of features.
 
 #### Conceptual Framework
 
@@ -57,21 +53,29 @@ The conceptual framework map presents the key concepts arising from the literatu
 Conceptual Model
 
 ### Phase Two - Quantitative Research
-
-I then proceeded to the second, quantitative stage, informed by the previously identified factors, and prepared a survey, including a Likert scale, and a choice experiment, focusing on the preferences of the potential users in generation-z aged 18-29, living in Taiwan, exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
+I then proceeded to the second, quantitative stage, informed by the previously identified factors, and prepared a survey to understand potential users' preferences, including a Likert scale, a choice experiment, and a selection of proposed features, focusing on the preferences of the potential users in gen-z, aged 18-29, living in Taiwan, exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
 
 The strength of quantitative research is to enable me to access a larger sample of potential users in two countries, using online survey methods, and to validate some of the qualitative findings from stage one.
-
--   Survey potential users' preferences, including a choice experiment of the proposed features.
 
 #### Sampling
 My quantitative sampling structure uses a judgmental criterion: adults aged in Generation-Z (18-29), located in Taiwan, surveyed using a Chinese-language online survey.
 
 #### Methods
-Likert: The survey includes a Likert scale between 1 to 5 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge.Choice Experiment: The survey includes a choice experiment between different sets of potential features available when communicating with the sustainable finance AI companion.
+Likert: The survey includes a Likert scale between 1 to 5 to validate key findings from the first stage of the research by assessing responses to statements regarding the app's design, features, and other criteria that may still emerge. 
 
-#### Data Collection
-For my survey, I adopted a face-to-face method to increase response rates distributing flyers to students on college campuses, canteens, and classrooms, getting verbal permission from educators in their classrooms to distribute the survey flyer. Similarly to the approach take by [@liuDigitalCapabilityDigital2023], I distributed the survey flyer at universities located in the Northern, Soutern, Central, and East regions of Taiwan. The flyer included a colorful AI-generated visual with a futuristic game-like female figure, and the title "climate anxiety survey" in Chinese, as well as a website link (ziran.tw) and scannable QR-code. 
+Choice Experiment: The survey includes a *choice experiment* between different sets of potential features available when communicating with the sustainable finance AI companion.
+
+#### Survey Development and Expected Findings
+
+In December 2020, in preparation for the final version of the survey, I ran a preliminary questionaire, testing open-ended and close-ended questions, as way to prepare for the proposal of this research. I conducted a preliminary round of face-to-face interviews using 21 open-ended, probing questions and a convenience sampling of NCKU foreign students (n = 12) on campus between ages 19 and 29. The interviews were conducted in English and lasted between 9 and 21 minutes; they gave me some initial feedback on my research idea, the respondents' daily routines, app usage, and feelings towards financial questions, including investing, relationship with nature, and environmental sustainability 
+
+This preliminary version of the survey was only used to develop the questionaire itself and the data collected (even though the recorde audio was transcribed), is not part of the research results. These preliminary conversations led me to emphasize more on the financial journey of the user, i.e. to consider the importance of the shopping, savings, and payments, with the apps students already use daily, serving as an entry point to becoming an investor (this approach later became known as embedded finance). I expected my future research findings to confirm this initial idea and to offer diverse ways and examples of what that path could look like in practice.
+
+I then proceeded to change my target audience to Taiwanese students and developed the survey to include more specific questions, including more close-ended multiple-choice varieties.
+
+#### Final Survey: Data Collection
+
+For the actual survey, I developed 63 close-ended and open-ended questions. For survey distribution, I adopted a face-to-face method to increase response rates, distributing flyers to students on college campuses, canteens, and classrooms, getting verbal permission from educators in their classrooms to distribute the survey flyer. Similarly to the approach take by [@liuDigitalCapabilityDigital2023], I distributed the survey flyer at universities located in the Northern, Soutern, Central, and East regions of Taiwan. The flyer included a colorful AI-generated visual with a futuristic game-like female figure, and the title "climate anxiety survey" in Chinese, as well as a website link (ziran.tw) and scannable QR-code. 
 
 The survey only included questions and descriptions in Chinese. I have used the Claude 3 Opus model to translate them to English for this table.
 
@@ -120,22 +124,17 @@ Respondents who remained outside the survey parameters were allowed to answer th
 
 ### Phase Three - Qualitative Research
 
-In the third stage, I return to the qualitative methods, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. I will used face-to-face interview to discuss the prototype, and conducted a thematic analysis of the discussions' recordings, leading to further validation of previously gathered data and changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, are the final outcome of my research.
+In the third and last phase, I returned to qualitative methods, to further validate the quantitative findings from stage two, by building a prototype of the sustainable investing AI companion, taking into account insights gathered in the previous stage. Here my focus was on operationalizing the gathered insights into a prototype that users can experiment with. I designed and refined a prototype of the personal sustainable finance AI assistant. I used face-to-face interviews to discuss the prototype, and conducted a thematic analysis of the discussions' recordings, leading to further validation of previously gathered data and changes in the prototype. The gained insights, accompanied by the app prototype, which embodies my findings, are the final outcome of my research.
 
-In the last phase, I will return to the qualitative methods to further validate the quantitative findings from stage two. Here my focus will be on operationalizing the gathered insights into a prototype that users can experiment with and discuss with their peers in a focus group setting. 
-
--   Design a prototype of the personal sustainable finance AI assistant, tested using qualitative methods in a focus group.
 
 #### Sampling
 
-The phase three sampling structure uses a judgmental criterion: - age Gen-Z cohort - located in Taiwan - Using Chinese for discussion.
+The phase three sampling structure used a judgmental criterion: - age Gen-Z cohort - located in Taiwan - Using Chinese for discussion.
 
 Individual face-to-face interviews were organized at universities around Taiwan. Because in-person presence is required in this stage, the prototype will only be tested by potential users physically present in Taiwan. To avoid convenience sampling, I posted online ads in Chinese and reach out to varied student clubs to invite people who I don't know personally, to participate in a "sustainable AI application testing" (wording may change).
 
 #### Methods 
-Face-to-face prototype testing. The strength of in-person is the ability to observe potential users, where knowledge can be exchanged directly. The interviews were recorded and transcribed.
-
-Thematic Analysis Finally, I will perform a thematic analysis of the focus group transcriptions in order to validate previous findings, and open avenues for future research.
+Face-to-face prototype testing. The strength of in-person is the ability to observe potential users, where knowledge can be exchanged directly. The interviews were recorded and transcribed. Finally, I performed a thematic analysis of the interview transcriptions in order to validate previous findings, and open avenues for future research.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Overview of research methodology](./images/methodology/research-methodology.png){width="100%"}
