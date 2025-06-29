@@ -52,6 +52,24 @@ The conceptual framework map presents the key concepts arising from the literatu
 ```
 Conceptual Model
 
+
+Initial version of the concept map focused on the app itself. <MyEmbed src="https://xmind.works/share/Yu5h5ikA" text="Loading Mindmap..." />
+
+Current concept map focusing on sustainability.
+
+<MyEmbed src="https://miro.com/app/live-embed/uXjVPEUthh4=/?moveToViewport=-768,-439,1536,876&embedId=523854480229" text="Loading Concept Map..." />
+
+::: {.content-hidden unless-format="pdf"}
+![Everything](./images/discussion/everything.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Everything"
+  src={Everything}
+/>
+```
+
 ### Phase Two - Quantitative Research
 I then proceeded to the second, quantitative stage, informed by the previously identified factors, and prepared a survey to understand potential users' preferences, including a Likert scale, a choice experiment, and a selection of proposed features, focusing on the preferences of the potential users in gen-z, aged 18-29, living in Taiwan, exploring the relationship between independent variables: - "Interest in Sustainability" - "Interest in Investing" - "Preferred Features" - and the dependent variable "User Sign-ups".
 

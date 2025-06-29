@@ -17,6 +17,8 @@ format:
       toc-title: "TABLE OF CONTENTS"
     include-in-header:
       - _headers.tex
+    lof: true
+    lot: true
 execute:
   echo: false
   highlight: false

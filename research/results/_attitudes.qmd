@@ -13,7 +13,7 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 likert_single_chart(2)
 ```
 
-## AI Usage
+## AI Use
 ```{python}
 likert_single_chart(3)
 ```

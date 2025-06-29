@@ -46,7 +46,7 @@ The common expectation is that young investors typically have less understanding
 Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good starting point is to ask the user to define their financial habits: are you consumer or investor? This helps users recognize whether their spending habits define them primarily as consumers or as investors. [@smartwealthHowBecomeInvestor2021] urges readers to *"consume knowledge, not products"*: for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments; consumer mindset is the main obstacle that keeps people from financial independence and investing. Investing can intersect with gender and race, as for example, during COVID-19, the financial advisor Malaika Maphalala co-led the *"Invest in Black Economic Liberation"* calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020]. On TikTok, [@TikTokItImportantWe] promotes the IMPACT investing app by Interactive Brokers which is a mobile trading platform focused on socially conscious investors interested in sustainability [@trahantInteractiveBrokersBuilt2022].
 
 | Feature | **IMPACT by Interactive Brokers** | **Lightyear** | **Revolut** |
-|---------------|---------------------|---------------|---------------------|
+|------------------|-------------------|------------------|-------------------|
 | **Target Audience** | Sustainability-focused investors; value-driven alignment | European retail investors | Everyday users with casual interest in investing |
 | **Investment Products** | Stocks, ETFs, mutual funds, options, bonds, fractional shares | Stocks, ETFs, multi-currency accounts | US & EU stocks, crypto, commodities, fractional shares |
 | **Sustainability Focus** | Strong. Core to the app. Lets users filter companies by ESG values and track portfolio impact. | None. Focuses on transparency and low fees | Minimal. Some ESG ETFs; no impact tracking or custom filters |
@@ -232,7 +232,7 @@ esg_fintech_heatmap()
 The ability to build sustainability into the organization requires deep understanding of how the complex structure works and what drives change and innovation within business units. [@jimboehmBetterRiskControls2021] distilled key strategies from the banking sector to speed up digital transformation, while improving risk management and compliance (see table below).
 
 | Strategy | Description |
-|------------------|------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Enterprise-level Risk Taxonomy | A unified classification system that defines and categorizes all risk types across the entire organization. |
 | Embedded Controls in Agile Delivery | Risk-and-compliance integration directly into agile development sprints (a type of management style in building software) to catch issues as code is written. |
 | Cross-functional Risk–Business Collaboration | Joint ownership of risk by compliance teams and business units, ensuring controls are practical and business-aligned. |
@@ -310,7 +310,7 @@ In the US, TikTok is the leader in social commerce [@loystTikTokLiveShopping2024
 Payments is one way consumers can take individual climate action. In the words of a Canadian investment blogger, *"every dollar you spend or invest is a vote for the companies and their ethical and sustainability practices"* [@fotheringhamHowCreateGreener2017]. The combination of consumption and investment is an access point to get the consumer thinking about investing. Even if the amount are small, they are a starting point for a thought process.
 
 | Payment App | Features | Users in Taiwan | Origin |
-|:-------|:-------------------------------------------------|:-------|--------|
+|:------------|:--------------------------------|:------------|-------------|
 | **LINE Pay** | Most popular payment app accepted all over Taiwan. Works stand-alone and inside the LINE messenger. Supports both in-store and online shopping payments, also direct P2P transfers to contacts (requires LINE Bank). Displays a map of its merchant network with discounts and coupons; integrates iPASS MONEY. | \> 12 Million | Japan / Korea |
 | **JKOPay (街口支付)** | QR code payments and P2P transfers to contacts; paying for bills. | \> 7 Million | Taiwan |
 | **Taiwan Pay (台灣Pay)** | Official Taiwanese Government app in collaboration with Taiwanese banks. Supports payments directly from bank accounts (without the need for a card). Supports QR code payments, P2P transfers to contacts and paying bills. A unique feature is cash withdrawal from ATMs without the need for a bank card. | \> 6 Million | Taiwan |
@@ -359,7 +359,7 @@ There are many *neobanks*, or challenger banks, far too many to list. The table 
 The following popular (totaling millions of users) robo-advisory apps combine sustainability, personalization, ethics, and investing however, they are mostly only available on the U.S. market.
 
 |  |  |  |
-|-------------|---------------------------------------------|-------------|
+|-----------------|---------------------------------------|-----------------|
 | Service | Features | Availability |
 | Goodments | Matching investment vehicles to user's environmental, social, ethical values | USA |
 | Wealthsimple | AI-assisted saving & investing for Millennials | USA, UK |
@@ -397,65 +397,71 @@ Similary, both Line, through it's Line Pay, Line Securities, and Line Bank, and 
 
 **Established Consumer Payment Giants**
 
-| Service | Features | Website | Availability | Users | Investing | Savings | Shopping (Payments) | Sustainability Focus |
-|:-------|:---------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-| Alipay | Payments, banking, Yu'e Bao, Ant Fortune investing | alipay.com | China, Global (limited) | 1.3 billion | Yes | Yes | Yes | No |
-| WeChat Pay | Payments, financial services, Licaitong investing | wechat.com | China, Global (limited) | 900 million | Yes | No | Yes | No |
-| Apple Pay | Contactless payments | apple.com/apple-pay | Global | 744 million | No | No | Yes | No |
-| PhonePe | Payments, mutual funds, digital gold | phonepe.com | India | 590 million | Yes | Yes | Yes | No |
-| Paytm | Payments, banking, Paytm Money for stock & fund investing | paytm.com | India | 350 million | Yes | Yes | Yes | No |
-| Google Pay | Payments, loyalty, transit | pay.google.com | Global | 150 million | No | No | Yes | No |
-| Samsung Pay | Mobile payments | samsung.com | Global | ? | No | No | Yes | No |
-| Zelle | Bank-to-bank P2P payments | zellepay.com | USA | ? | No | Yes | Yes | No |
-| Nubank | Full features of a traditional bank in a digital form | nubank.com.br | Brazil | ? | No | Yes | Yes | No |
+| Service | Features | Users | Investing | Savings | Shopping (Payments) |
+|:----------|:----------|:----------|:----------|:----------|:----------|
+| Alipay | Payments, banking, Yu'e Bao, Ant Fortune investing | 1.3 billion | Yes | Yes | Yes |
+| WeChat Pay | Payments, financial services, Licaitong investing | 900 million | Yes | No | Yes |
+| Apple Pay | Contactless payments | 744 million | No | No | Yes |
+| PhonePe | Payments, mutual funds, digital gold | 590 million | Yes | Yes | Yes |
+| Paytm | Payments, banking, Paytm Money for stock & fund investing | 350 million | Yes | Yes | Yes |
+| Google Pay | Payments, loyalty, transit | 150 million | No | No | Yes |
+| Samsung Pay | Mobile payments | ? | No | No | Yes |
+| Zelle | Bank-to-bank P2P payments | ? | No | Yes | Yes |
+| Nubank | Full features of a traditional bank in a digital form | ? | No | Yes | Yes |
+
+: Established consumer payment giants, none of which has a specific sustainability focus.
 
 **Growth Companies**
 
 For human psychology, the fact that money on a Wise account will accrue value while on Monese it's just static, immediately makes Wise more attractive, even if the amounts are small.
 
-| Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
-|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|--------|
-| Venmo | P2P payments, crypto investing | venmo.com | USA | 70 million | Yes | No | Yes | No |  |
-| Cash App | P2P payments, stock & Bitcoin investing | cash.app | USA, UK | 57 million | Yes | No | Yes | No |  |
-| Chime | Online banking services including spending accounts, savings accounts | chime.com | USA | 22 million | No | Yes | Yes | No |  |
-| MoneyLion | Banking, investing, credit-building loans, financial tracking tools | moneylion.com | USA | 20 million | Yes | Yes | Yes | No |  |
-| NerdWallet | Financial clarity all in one place | nerdwallet.com | USA | 19 million | No | No | Yes | No |  |
-| SoFi | Loans, banking, robo-investing, stock & crypto | sofi.com | USA | 10 million | Yes | Yes | Yes | No |  |
-| Albert | Budgeting, saving, spending, investing, access to financial advisors | albert.com | USA | 10 million | Yes | Yes | No | No |  |
-| Acorns | AI-assisted micro-investing | acorns.com | USA | 5.7 million | Yes | No | No | No |  |
-| Wealthsimple | AI-assisted saving & investing for Millennials | wealthsimple.com | Canada, USA, UK | 2.6 million | Yes | Yes | No | No |  |
-| Qapital | Saving and investing with gamification features | qapital.com | USA | 2 million | Yes | Yes | No | No |  |
-| M1 Finance | Finance Super App | m1.com | USA | 1 million | Yes | No | No | No |  |
-| Finimize | Investment research for anyone | finimize.com | Global | 1 million | Yes | No | No | No |  |
-| Robinhood | Investing | robinhood.com | US | ? | Yes | No | No | No |  |
-| Betterment | AI-assisted cash management, savings, retirement, and investing | betterment.com | USA | ? | Yes | Yes | No | No |  |
-| Revolut | From payments to investing | revolut.com | UK, EU | ? | Yes | No | TRUE | No |  |
-| Monzo | Bank | monzo.com | UK | ? | No | Yes | No | No |  |
-| eToro | Investing and copy-investing | etoro.com | EU | ? | Yes | No | No | No |  |
-| Marcus Invest | Robo-Advisor | marcusinvest.com | USA | ? | Yes | No | No | No |  |
-| Varo Bank | Online banking services including checking and high-yield savings | varomoney.com | USA | ? | No | Yes | Yes | No |  |
-| Stash | Micro-investing platform enabling small investments | stash.com | USA | ? | Yes | No | No | No |  |
-| Mint | Budgeting tools, bill tracking, free credit score monitoring | mint.com | USA | ? | No | No | No | No | Ceased operations |
+| Service | Features | Availability | User Base | Investing | Savings | Shopping (Payments) |
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
+| Venmo | P2P payments, crypto investing | USA | 70 million | Yes | No | Yes |
+| Cash App | P2P payments, stock & Bitcoin investing | USA, UK | 57 million | Yes | No | Yes |
+| Chime | Online banking services including spending accounts, savings accounts | USA | 22 million | No | Yes | Yes |
+| MoneyLion | Banking, investing, credit-building loans, financial tracking tools | USA | 20 million | Yes | Yes | Yes |
+| NerdWallet | Financial clarity all in one place | USA | 19 million | No | No | Yes |
+| SoFi | Loans, banking, robo-investing, stock & crypto | USA | 10 million | Yes | Yes | Yes |
+| Albert | Budgeting, saving, spending, investing, access to financial advisors | USA | 10 million | Yes | Yes | No |
+| Acorns | AI-assisted micro-investing | USA | 5.7 million | Yes | No | No |
+| Wealthsimple | AI-assisted saving & investing for Millennials | Canada, USA, UK | 2.6 million | Yes | Yes | No |
+| Qapital | Saving and investing with gamification features | USA | 2 million | Yes | Yes | No |
+| M1 Finance | Finance Super App | USA | 1 million | Yes | No | No |
+| Finimize | Investment research for anyone | Global | 1 million | Yes | No | No |
+| Robinhood | Investing | US | ? | Yes | No | No |
+| Betterment | AI-assisted cash management, savings, retirement, and investing | USA | ? | Yes | Yes | No |
+| Revolut | From payments to investing | UK, EU | ? | Yes | No | TRUE |
+| Monzo | Bank | UK | ? | No | Yes | No |
+| eToro | Investing and copy-investing | EU | ? | Yes | No | No |
+| Marcus Invest | Robo-Advisor | USA | ? | Yes | No | No |
+| Varo Bank | Online banking services including checking and high-yield savings | USA | ? | No | Yes | Yes |
+| Stash | Micro-investing platform enabling small investments | USA | ? | Yes | No | No |
+| Mint (Ceased operations) | Budgeting tools, bill tracking, free credit score monitoring | USA | ? | No | No | No |
+
+: Growth companies in fintech, none has a sustainability focus.
 
 **Up-and-Coming Startups**
 
-| Service | Features | Website | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus | Notes |
-|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-| Chipper Cash | Digital cash app for African markets | chippercash.com | Ghana, Nigeria, Uganda, USA | ? | No | No | Yes | No |  |
-| Douugh | AI financial wellness app, smart account, saving tools | douugh.com | USA, Australia | ? | Yes | Yes | Yes | No | Merged with Goodments |
-| DUB | Copy-trading, mirror trades of notable figures | dubapp.com | USA | 1 million downloads | Yes | No | No | No |  |
-| Earthfolio | AI-assisted socially responsible investing | earthfolio.com | USA | ? | Yes | No | No | Yes |  |
-| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | ellevest.com | USA | ? | Yes | No | No | No |  |
-| Goodments | Matching investment vehicles to user's environmental, social, ethical values | goodments.com | USA | ? | Yes | No | No | Yes | Merged with Douugh |
-| Grünfin | Invest in funds | grunfin.com | EU | ? | Yes | Yes | No | No | Ceased operations |
-| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | lightyear.com | EU | ? | Yes | No | No | No |  |
-| Mintos | Buy bonds and loans | mintos.com | EU | ? | Yes | No | No | No |  |
-| Mos | Banking for students | mos.com | US | ? | No | Yes | Yes | No |  |
-| Selma | Finnish investing app | selma.com | EU | ? | Yes | No | No | No |  |
-| Single.Earth | Nature-backed cryptocurrency | single.earth | Global | ? | Yes | No | No | Yes |  |
-| Tomorrow Bank | Green Banking | tomorrow.one | EU | 120,000 | No | Yes | Yes | Yes |  |
-| Trine | Loans to eco-projects | trine.com | USA | ? | Yes | No | No | Yes |  |
-| Ziglu | UK simple investing app | ziglu.io | UK | ? | Yes | No | No | No |  |
+| Service | Features | Availability | User Base | Investing | Savings | Shopping (Payments) | Sustainability Focus |
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
+| Chipper Cash | Digital cash app for African markets | Ghana, Nigeria, Uganda, USA | ? | No | No | Yes | No |
+| Douugh (Merged with Goodments) | AI financial wellness app, smart account, saving tools | USA, Australia | ? | Yes | Yes | Yes | No |
+| DUB | Copy-trading, mirror trades of notable figures | USA | 1 million downloads | Yes | No | No | No |
+| Earthfolio | AI-assisted socially responsible investing | USA | ? | Yes | No | No | Yes |
+| Ellevest | AI-assisted robo-advisory focused on female investors and women-led business | USA | ? | Yes | No | No | No |
+| Goodments (Merged with Douugh) | Matching investment vehicles to user's environmental, social, ethical values | USA | ? | Yes | No | No | Yes |
+| Grünfin (Ceased operations) | Invest in funds | EU | ? | Yes | Yes | No | No |
+| Lightyear | Simple UI for Stocks, ETFs, interest from Estonia | EU | ? | Yes | No | No | No |
+| Mintos | Buy bonds and loans | EU | ? | Yes | No | No | No |
+| Mos | Banking for students | US | ? | No | Yes | Yes | No |
+| Selma | Finnish investing app | EU | ? | Yes | No | No | No |
+| Single.Earth | Nature-backed cryptocurrency | Global | ? | Yes | No | No | Yes |
+| Tomorrow Bank | Green Banking | EU | 120,000 | No | Yes | Yes | Yes |
+| Trine | Loans to eco-projects | USA | ? | Yes | No | No | Yes |
+| Ziglu | UK simple investing app | UK | ? | Yes | No | No | No |
+
+: Among up-and-coming startups there are some examples of sustainability-focused apps.
 
 Considering AI assistant for ESG investing, [@TAN202046] proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management; however, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
 
@@ -508,7 +514,7 @@ money_chart()
 ```
 
 | High-Value Assets (Trillions of USD) |   |
-|---------------------------------------------------------|--------------|
+|------------------------------------------------------|------------------|
 | Global Real Estate (2020, valuation) | \$326T |
 | Global Equity Markets (2023, valuation) | \$108T |
 | Global GDP (2024, estimated) | \$110T |
@@ -765,7 +771,7 @@ The city of Amsterdam is developing shorter food chains (which save CO~2e~) and 
 | Collaboration between chain members                |
 | Food education                                     |
 
-: From [@circleeconomyKeynoteIlektraKouloumpi2021].
+: From [@circleeconomyKeynoteIlektraKouloumpi2021]. {#tbl-label}
 
 *In his 2015 paper Regenerative Capitalism*, John Fullerton, an investor and a capital markets and derivatives expert, builds his economic theory on the ideas of Club of Rome and the Limits to Growth [@meadowsLimitsGrowthReport1972] as well as taking inspiration from R. Buckminster Fuller.
 
@@ -828,7 +834,7 @@ Kaufman decries the lack of real-world data in the economic-climate models, and 
 | Worst-case reduction in climate damage: 2 °C target (China) | 80 % reduction | vs business-as-usual in the worst-case damage scenario |
 | Worst-case reduction in climate damage: 2 °C target (global) | 84 % reduction | vs business-as-usual in the worst-case damage scenario |
 
-: Quantifying climate damage scenarios using integrated assessment models [@wangMultimodelAssessmentClimate2022].
+: Quantifying climate damage scenarios using integrated assessment models [@wangMultimodelAssessmentClimate2022]. {#tbl-label}
 
 ## Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
 
@@ -911,7 +917,7 @@ ck_carbon_productivity()
 There are many standards. [@internationaltradecentreStandardsMap2022] currently lists 334 different sustainability standards: "Towards a meaningful economy" "The world's largest database for sustainability standards", "We provide free, accessible, comprehensive, verified and transparent information on over 300 standards for environmental protection, worker and labor rights, economic development, quality and food safety, as well as business ethics."
 
 | Type | Rating System | What It Does? |
-|------------|---------------|--------------------------------------------------|
+|-----------------|-----------------|---------------------------------------|
 | Certificate | B Corporation | B Impact Assessment |
 |  | ESG |  |
 | Certificate | Fair Trade |  |
@@ -931,7 +937,7 @@ There are many different certifications for sustainable brands. Existing ranking
 The Ethical Consumer Research Association active since 1989 publishes a magazine and keeps an active list of boycotts, which currently (as of May 15, 2025) includes 47 boycott campaigns [@EthicalConsumerEthical2018; @BoycottsListEthical2018].
 
 | Target | Category | Organizer | Launch |
-|----------------|--------------|----------------|--------------|
+|------------------|------------------|------------------|------------------|
 | Airbnb | Human Rights | BDS National Committee | 2016 |
 | Amazon | Human Rights | BDS National Committee | 2024 |
 | Amazon (tax-avoidance) | Tax Avoidance | Ethical Consumer | 2012 |
@@ -994,7 +1000,7 @@ WikiRate, started in 2010, is a tool for checking green credentials and "\[t\]he
 | Open data platform |  |
 | Knowledge sharing platform | business-humanrights.org |
 
-: Data Sharing Archetypes defined by WikiRate.
+: Data Sharing Archetypes defined by WikiRate. {#tbl-label}
 
 At the 2023 Scottish AI Summit, practitioners demoed how AI pipelines can analyze modern slavery statements to flag missing disclosures, suggesting how humans and machines can "scale corporate accountability" like never before [@laureenvanbreenPanelScalingCorporate2023]. Meanwhile, WikiRate’s Facility Checker uncovers living-wage gaps in real time for advocacy organizations [@wikirateIntroducingFacilityChecker2022]
 
@@ -1011,7 +1017,7 @@ In order to make a difference in sustainability, with large capital flowing into
 > *"The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information."* [@bezeroScalingCarbonMarkets2022]
 
 | Bottleneck in VCM | BeZero | Carbonmark |
-|------------------|------------------------|-------------------------------|
+|------------------|------------------------|------------------------------|
 | Hard to gauge quality and downside risk | Provides probabilistic ratings investors already understand | — |
 | Fragmented, slow, OTC trading | — | Consolidates registries, offers 24/7 liquidity and smart-contract settlement |
 | Need to move big capital fast | Gives financiers a common risk language | Cuts friction so large orders can clear quickly |
