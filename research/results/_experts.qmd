@@ -10,7 +10,7 @@ import SankeyYuping from "/research/images/experts/sankey-yuping.png";
 
 ## Experts
 
-Analysis of recorded conversation from 5 experts. Thematic content analysis using ATLAS.ti for labeling/coding the data for grounded theory. Conversations were recorded and transcribed using Google Meet and Fireflies AI. Labeling and thematic analysis was performed using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
+Analysis of recorded conversation from 7 experts. Thematic content analysis using ATLAS.ti for labeling/coding the data for grounded theory. Conversations were recorded and transcribed using Google Meet, Fireflies AI, and WhatsApp. Labeling and thematic analysis was performed using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
 
 ### Interview 1: Designer - Cathy Wang
 
@@ -78,7 +78,7 @@ Thematic Analysis.
 ```
 ### Interview 5: Economist - Yuping Chen
 
-Date: 2024-06-04 Expert: Yuping Chen is an economist and professor at National Taiwan University with a focus on marketing and online shopping. Country: Taiwan Topics: Economics, Online Shopping
+Date: 2024-06-04 Expert: Yuping Chen is an economist and professor at National Taiwan University with a focus on marketing and online shopping. Country: Taiwan Topics: Economics, Online Shopping.
 
 Key learnings: "I think you are targeting experts instead of a general consumers"
 
@@ -94,6 +94,19 @@ Thematic Analysis.
   src={SankeyYuping}
 />
 ```
+
+### Interview 6: Technology Expert - Audrey Tang
+
+Date: 2025-02-28 Expert: Audrey Tang is a technology expert and former digital minister of Taiwan. Country: Taiwan. Topics: Sustainability, digitalization.
+
+> "The 17 and the 70-year-olds are the natural allies... because they care more about the long term. They don't care about the next quarter." - Audrey Tang
+
+### Interview 7: Sustainability Expert - Carlos Serra
+
+Date: 2025-06-30 Expert: Carlos Serra is a sustainability expert and zero waste activist. Country: Mozambique. Topics: Sustainability, corporate responsibility.
+
+> “I believe certification is, obviously, a powerful means of providing positive visibility, motivating, encouraging, and even creating an attraction for eco-friendly, sustainable businesses.” - Carlos Serra
+
 ### Expert Feedback Summary
 
 Common topics between all conversations become visible in the overall Sankey Diagram.
