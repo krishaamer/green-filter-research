@@ -4,6 +4,18 @@
 \usepackage{appendix}        % For appendix support
 \usepackage{chngcntr}        % For resetting counters
 \usepackage{pdfpages} 
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable}
+
+\usepackage{caption}
+\DeclareCaptionListFormat{lot}{#1} % Force LOT to use first bracket
+\captionsetup[table]{
+  listformat=lot,
+  labelsep=period
+}
+\captionsetup[table]{singlelinecheck=false}
+\captionsetup[table]{list=yes}      % tables go into .lot
+\captionsetup[figure]{list=yes}     % figures go into .lof (optional)
 
 % Background image setup
 % \backgroundsetup{
@@ -69,3 +81,8 @@
   \setcounter{subsubsection}{0}
   \setcounter{paragraph}{0}
 }
+
+% keep the real command
+\let\SavedLoT\listoftables
+% replace the auto page with an empty stub
+\renewcommand{\listoftables}{}

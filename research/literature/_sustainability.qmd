@@ -98,7 +98,7 @@ CO~2~e emissions by region (per year).
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
+: **[CO₂ Emissions Comparison]** *Full analysis*: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. {#tbl-financial-survey}
 
 *Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s [@ghgprotocolUsGHGProtocol]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 
@@ -272,7 +272,7 @@ In the biospehere, mass extinctions are underway. An analysis of population tren
 -   Responding to the crisis, the Guardian newspaper in the UK has take a clear stance, covering stories of exctinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
 
 ::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){width="100%"}
+![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary Boundaries 2023 Update"}
 :::
 
 ```{=mdx}
