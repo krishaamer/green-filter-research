@@ -53,7 +53,7 @@ Consumer products' overall life-cycle environmental impact is defined in the des
 | Energy Efficient | Reduce product's CO~2~eq footprint and operating costs |
 | Resource Efficient | Reduce product's use of raw materials and energy during production and life-cycle |
 
-: The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022].
+: The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022]. {shortcaption="Brief LoT entry"}
 
 Eco-Design for Sustainable Products is a key EU sustainable policy design tool and each product covered by the ESPR is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022]. It's safe to say the large majority of products available today do not meet these criteria. Given this far-reaching legislative effort, we have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy. The Director of the French environmental NGO Pôle Eco-conception describes eco-design as "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
 
@@ -270,7 +270,7 @@ As with any contentious issue, when it comes to food, people have differing poin
 | *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
 | "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
 
-: Perspective on food systems in Sweden from [@ROOS2023107623].
+: Perspective on food systems in Sweden from [@ROOS2023107623]. {shortcaption="Perspectives on the food systems in Sweden"}
 
 ## In Practice: Sustainability Begins in Software
 
@@ -396,7 +396,7 @@ Uber is creating an all-purpose platform for travel; only 4.1% of rides were ele
 | Uber | USA | Users per month | No (Only for ride-hailing) | No | No | 171 million |
 | Bolt | Estonia | Lifetime users | No (Only for ride-hailing) | No | No | 200 million |
 
-: Not quite super-app yet. Data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025]
+: Not quite super-app yet. Data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025] {shortcaption="Not Quite Superapps"}
 
 Superapps offer a platform with key infrastructure such as payments already included, where ecosystem of mini-apps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021]. Alipay, originally a payments app, has build the digital infrastructure to provide thousands of services to billions of users across China. 59 million people use 支小寶 (Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to international markets. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
@@ -413,7 +413,7 @@ There are also many aspiring superapps, companies which aspire to build multi-ve
 | Data-driven Design |  |  |
 | Behaviour Design |  |  |
 
-: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012].
+: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012].  {shortcaption="Platform Economy Concepts"}
 
 [@cuppiniWhenCitiesMeet2022] give a historical overview of how the rise of digital platforms, taking an expansive point of view, all the way from linear *Fordism*, the development of capitalism, through platform economy and the app-based logistics' revolution, which can provide data for circular economies to happen in a city; reshaping the cities through data-sharing with stakeholder from the citizens, to urban planner and policy-makers - not without conflict, as there is often tension between multiple perspectives.
 
@@ -461,9 +461,9 @@ Data-driven design requires access to data, making the movement towards *open da
 | Malaysia  | Malaysian open data portal       |
 | Singapore | Singapore ESG open data platform |
 
-: Examples of cities and countries that share data openly. Data source from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023]
+: Examples of cities and countries that share data openly. Data sourced from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023]  {shortcaption="Examples of cities and countries that share data openly"}
 
-For example the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore the Monetary Authority has launched an open data portal for ESG information [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
+To give a concrete example of the usefulness of open data, for instance, the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore, the Monetary Authority has launched an open data portal for ESG information, allowing anyone to delve into environmental, social, and governmental topics [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
 
 ```{python}
 malaysia_forests()

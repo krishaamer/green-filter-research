@@ -67,7 +67,7 @@ Data after filtering 675 people aged 18-26 GenZ Taiwanese current students in BA
 
 ## Data Analysis
 
-KMeans clustering for survey data Kmeans clustering is similar to vector distances for similarity used in largelanguage models LLMs word embeddings and deep learning
+KMeans clustering for survey data is similar to vector distances for similarity used in large language models (LLMs), word embeddings, and deep learning.
 
 
    Findings
@@ -99,10 +99,10 @@ How might one visualize ecological impact in digital product design
 
 RQ 1
 
-   the AI companion is informed by the latest scientific insights and can provide accurate evidencebased recommendations 
-   The AI is designed to offer personalized guidance by analyzing complex environmental data and translating it into userfriendly information helping students make more sustainable choices in their daily lives 
-   It explores various AI interaction designs including chatbots voice assistants and virtual avatars to find the most engaging and supportive formats for college students 
-   address the attitudebehavior gap among college students by providing tools that make sustainable financial actions more convenient and impactful 
+   The AI companion is informed by the latest scientific insights and can provide accurate evidence-based recommendations 
+   The AI is designed to offer personalized guidance by analyzing complex environmental data and translating it into user-friendly information helping students make more sustainable choices in their daily lives.
+   It explores various AI interaction designs including chatbots,voice assistants and virtual avatars to find the most engaging and supportive formats for college students.
+   Address the attitude-behavior gap among college students by providing tools that make sustainable financial actions more convenient and impactful.
 
 RQ 2
 
@@ -114,7 +114,6 @@ RQ 3
 todo
 
 ## What is Research?
-
 I, as the researcher, am similar to the blind people in the elephant story; focusing on greening shopping, saving, and investing are only the trunk of the enormous elephant that is environmental disaster unfolding in front of our eyes.
 
 ::: {.content-hidden unless-format="pdf"}
@@ -127,44 +126,6 @@ I, as the researcher, am similar to the blind people in the elephant story; focu
   src={Elephant}
 />
 ```
-Design research books
-
--   @koskinenDesignResearchPractice2011
-
--   @riesLeanStartupHow2011
-
-Design Studies Journal
-
-*Research through design* is a method for *interaction design research* in Human-Computer Interaction (HCI).
-
--   @zimmermanResearchDesignMethod2007
-
--   @salovaaraHowDefineResearch2020 defining a research question
-
--   @nunnallyUXResearchPractical2016
-
-interview people at google who made the green filter options
-
-Design artefacts
-
-"design's nature as a 'problem-solving' science" @oulasvirtaHCIResearchProblemSolving2016
-
-my contribution is the design artefact, "HCI researchers also make constructive contributions by developing new technologies and design"
-
--   @affairsCardSorting2013 Card sorting
-
--   @HowModelsWork
-
-
-## GreenFilter Sustainability Index (GFSI)
-
-The GFSI is an index resulting from my thesis research; an attempt to combine the underlying cross-disciplinary findings into a usable tool to make better healh and sustainability decisions when managing one's money.
-
-The Goals of the Index:
-*  Provide a single, composite score that reflects both personal health and environmental impact.
-*  Encourage users to make actionable financial, consumption, and lifestyle choices that benefit planetary health (e.g., reducing CO~2~eq emissions, preserving biodiversity) while also supporting individual well-being (e.g., pollution exposure, physical activity).
-*  Leverage digital data sources—digital product passports (ESPR), open ESG data, wearable sensors, and personal financial accounts—through an AI companion (generative UI) to compute, visualize, and recommend improvements.
-
 
 ### Quotes from the Survey
 
@@ -178,4 +139,21 @@ Even though most of the survey questions were numeric, the respondents did have 
 
 > "When we were kids, Dad made us bring a shopping bag and reuse it. Even if it got dirty, we could turn it into a trash bag.", anonymous student at Taoyuan Ming Chuan University.
 
-> 
+> “Take our school as an example. We boast about being the top green university in the country and we run plenty of green research projects, yet students’ eco-awareness has not really improved. Even with constant green messaging, the cafeterias are still flooded with ‘eco’ chopsticks and plastic spoons.”, anonymous student at National Pingtung University of Science and Technology (NPUST)
+
+> “Every purchase is a vote for our own future. College students can keep choosing green brands and changing their habits. Paying attention to these issues puts pressure on companies and pushes them toward cleaner production.”, anonymous student at Fu Jen Catholic University (FJU)
+
+> “AI can handle the time-consuming math and analysis, but I can only use it effectively if I have baseline knowledge of what I am asking.”, anonymous student at National Taiwan University (NTU)
+
+> “If eco-friendly products use fewer materials, they ought to be cheaper. No one should strong-arm me into buying something expensive.”,
+anonymous student at National Chung Hsing University (NCHU)
+
+> “Probably eco-education. Taiwan’s education system is lousy in many ways, yet the part that builds environmental awareness in students is actually useful.”, anonymous student at Fu Jen Catholic University (FJU)
+
+> “Let’s talk about why people want sustainability, what benefits it brings to the environment, how we can see the results, and how much worse things get if we ignore it.”, anonymous student at Chang Gung University (CGU)
+
+> “Your survey is interesting, but in my opinion most Taiwanese citizens will find it hard to fill out. There are specialised terms without explanations. Otherwise it is great. A few typos could be fixed, but you are a foreigner, you are already doing awesome.”, anonymous student at National Dong Hwa University (NDHU)
+
+> “You could ask Taiwanese friends to review the survey’s wording. Keep going. Thank you for your bright smile, a smile can advance sustainability. I believe in the power of the spirit.”, anonymous student at National Tsing Hua University (NTHU)
+
+There are many, the above is a sample of the responses.

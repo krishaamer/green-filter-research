@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 # Discussion
 
-## Design Implications from Literature Review:
+## Design Implications from Literature Review
 
 The following tables have been categories by chapter and list some of the key implications which can lead to Feature Ideas.
 
@@ -503,12 +503,10 @@ Latvian Kora app for tracking personal CO~2~eq footprint, Earn KORA coins for re
 
 ## Design Implications from the User Survey
 
-### Group-Related Features
-
 General theory about Taiwanese society suggests that it's low-context and people need groups to do activities. But my survey about my sustainability app shows that people don't pick the features for joining groups. Joining groups was one of the least interesting choices in the survey.
 
 +--------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Design Factor                                                | Potential Explanation                                                                                                                                                                                                                                                                                                                 |
+| Design Factor                                                | Potential Explanation for Group-Related Features                                                                                                                                                                                                                                                                                      |
 +==============================================================+=======================================================================================================================================================================================================================================================================================================================================+
 | Survey framing effect                                        | Survey respondents may feel the way I framed the survey question for "joining groups" made it sound like an extra commitment they didn't want to make.                                                                                                                                                                                |
 +--------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
