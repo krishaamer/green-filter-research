@@ -46,7 +46,7 @@ April 2025 was Earth's 2nd-warmest April on record, with global temperatures rea
 The Keeling Curve apparatus measures absorption of infrared light, which allows one to detect the amount of CO~2~eq in the air. It also has an advanced calibration system where it makes measurements in air with a known quantity of gases [@worthingtonMakingAmericaDumb2025].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere as of 2025. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png){#fig-co2-concentration fig-lof-cap="Atmospheric CO~2~ Concentration (2025)"}
+![CO~2~ concentration in the atmosphere as of 2025. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png){#fig-co2-concentration fig-scap="Atmospheric CO~2~ Concentration (2025)"}
 :::
 
 ```{=mdx}
@@ -436,7 +436,7 @@ Ecosystem services literature defines a "Nature’s Contributions to People" fra
 | Create ecosystem service markets               |
 | Commodify nature                               |
 
-: Concepts from [@MonetaryValuationNature2023].
+: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] {shortcaption="Defining Ecosystem Services Concepts} 
 
 A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
@@ -449,7 +449,7 @@ The concept of how a public resource is over-used until breaking down as each us
 | Wetland restoration                         |
 |                                             |
 
-: From @hanEmbeddingNaturebasedSolutions2022
+: Non-Exhaustive list of Regenerative Actions from [@hanEmbeddingNaturebasedSolutions2022] {shortcaption="Non-Exhaustive list of Regenerative Actions}
 
 The organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023]. Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices.
 
