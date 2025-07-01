@@ -9,85 +9,380 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 81%" />
+</colgroup>
+<thead>
+<tr>
+<th>Speaker</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>This app is part of my thesis about sustainability. First, may I record our conversation?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>Uh, yes.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Have you used Momo before?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>Yes.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Which platform do you use most, Momo or Shopee?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>I use Shopee more often.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>What kind of things do you usually buy online?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>On Momo I once bought a set of speakers.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Anything you want to shop for right now?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>Maybe some movies… but let me browse shoes instead.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Sure, pick any item.</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>(Searches) Found a pair of Timberland boat shoes.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Why that model?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>I have eyed this pair for a long time and it looks good when others wear it.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Let us open my prototype overlay. What do you notice first?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>The company score says forty five, which feels low, so maybe it is not very eco friendly.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>The green tab shows “Reduce carbon emission thirty eight percent”. What does that mean to you?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>It lists brands with lower carbon footprints so I could choose them instead. I have tried Timberland before; the others are new to me.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>The purple tab suggests investment options. Thoughts?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>It looks like I could invest in companies similar to Timberland, check stock prices and trends. I have never bought stocks though.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>If Apple scored badly on the environment, would you switch brands?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>I would research alternatives. Environmental impact matters to me.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Try the “Ask AI” button.</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>(Types) “How much carbon does this product emit?” The answer breaks down production, packaging, transport, even end of life disposal. I never considered water and electricity used during use.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Which part of the overlay feels most useful?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>The detailed material and ESG section, environmental and labor issues, plus the alternative brands list.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Any information missing before you decide?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>Safety data and warranty, especially for products used near the face; also clearer brand logos and Chinese names.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>At the top there is a code. Please read it aloud.</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>Three G one R L.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Could you take a photo of the most important screen and write that code on the card?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>(Takes photo and writes code) Done.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Last question, will the sustainability data change your purchase?</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>I might still buy these shoes if I really love them, but I will think twice and compare with greener options first.</td>
+</tr>
+<tr>
+<td><strong>Interviewer</strong></td>
+<td>Great. Thanks for your help today.</td>
+</tr>
+<tr>
+<td><strong>Participant</strong></td>
+<td>No problem.</td>
+</tr>
+</tbody>
+</table>
+`];
+
 ````mdx-code-block
-import MyEmbed from '/src/components/Embed'
+import Figure from "/src/components/Figure";
+import Screenshots from "../images/testing/user-screenshots-2.jpg";
 ````
 
-## 1st Wave of Testing (Spring 2024) Prototype Testing results {#st-wave-of-testing-spring-2024-prototype-testing-results}
+## Interview Template
 
-Sun, 14. April. 22h at D24
+This is the basic interview script, which was used with small
+modifications at each interview.
 
-NCKU student, Gen-Z.
+On Momo:
 
-Searches for Lancome brand
+-   What is a brand that you like’d or would like to buy - search -
+    please pick a product (or search again)
+-   After reaching Momo product page: what do you notice on this page?
+-   What kind of information is important for you on this page?
+-   Do you notice anything else?
+-   (If the user doesn’t notice the green filter, direct their attention
+    to it and ask: what do you think this does?)
+-   Would you click on it - if the user says yes, continue - if the user
+    says no, make note and continue
+-   As the extension generates a response: what do you think about this
+    content?
+-   Is there any information that you consider important?
+-   Anything else you see that you think looks special
+-   Do you see anywhere you can click?
+-   Would you click on it? - if yes, continue - if no, make note, and
+    continue
+-   Explain: due to the limitation of the prototype, the test will
+    continue on a separate page where you can ask questions
+-   Is there anything you would like to ask the helper?
+-   Notice if the user picks from sample questions
+-   Remind the user they can come up with their own question
+-   As the AI is generating content ask: do you see any information in
+    this content
+-   Did you know this before or is there any info you didn’t know
+    before? make note.
+-   Front page: explain the helper takes into account your personal info
+    and goals.
+-   Ask: what kind of information do you think important to share with
+    the helper?
 
-Chooses LANCOME 蘭蔻 小黑瓶100ml(買一送一/超未來肌因賦活露國際航空版)
-https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome
+## 2nd Wave of Testing (Fall 2024 - Spring 2025) - Prototype {#nd-wave-of-testing-fall-2024---spring-2025---prototype}
 
-Notices 買一送一.
+Interviews and testing survey were conducted anonymously in hopes to
+have more honest responses from the responders.
 
-Doesn’t notice analysis button at first.
+-   32 anonymous Gen-Z participants in face-to-face interviews at 7
+    universities
+-   Over 100 anonymous self-testing participants at over 20 universities
+-   Testing is anonymous
 
-Would only click on this if it’s really expensive.
+Below you can see some of the images testers uploaded from their own
+devices (there were too many to be displayed here fully).
 
-Would not click on “continue chat button”
+````mdx-code-block
+<Figure
+  caption="User-uploaded screenshots of the Green Filter prototype"
+  src={Screenshots}
+  refURL="https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg?hl=zh-TW"
+  refTitle="Green Filter"
+/>
+````
 
-Asked “why is it so expensive in taiwan”.
+### Testing Summary
 
-Considers report result useful.
+In-person interviews highlighted that participants generally appreciated
+the transparency provided by the Green Filter app regarding
+sustainability of products. Interviewees mentioned that the visibility
+of *“Material Sustainability”* and the historical and environmental
+impact of products influenced their perception and purchasing
+intentions, sometimes causing them to reconsider previously unquestioned
+consumption habits. Participants were particularly intrigued by the
+comprehensive information on carbon emissions, labor issues, and
+potential health risks from certain ingredients, emphasizing that such
+details were rarely accessible in typical shopping experiences.
+Additionally, participants valued AI-generated comparative data that
+offered alternative sustainable brands and products, which helped them
+better understand environmental impacts and make more informed choices.
 
-Note: There’s dropoff on evey step of the user journey.
+However, usability issues surfaced regarding terminology and interface
+clarity. Some users misunderstood the labeling related to financial
+savings and carbon emission reductions, indicating the importance of
+precise and intuitive wording in Chinese.
+
+### Known Issues
+
+-   The Green Filter (Ziran) Chrome Extension is unable to record
+    activity due to browser security restrictions for plugins.
+-   Meanwhile, the web-only version at “ai.ziran.tw” (without direct
+    access to user’s screen), can record user activity.
+
+### Notable Quotes from In-Person Testing
+
+> “But I didn’t think that maybe the facial mask could contain some
+> unknown plant extracts and chemical preservatives.”, anonymous student
+> at Tainan Chang Jung Christian University (CJCU)
+
+> “Since I was young, they often said… if something is made locally, the
+> carbon footprint won’t be as high.”, anonymous student at National
+> Pingtung University of Science and Technology (NPUST)
+
+> “It gives me more choices.”, anonymous student at Tainan Southern
+> Taiwan University of Science and Technology (STUST)
+
+> “I hadn’t thought that the final use and disposal… would also affect
+> carbon emissions.”, anonymous student at Tainan University of
+> Technology (STUST)
+
+> “What I see now is that it has listed the carbon footprint… it listed
+> it very detailedly.”, anonymous student at Tainan National Cheng Kung
+> University (NCKU)
+
+> “I don’t care, I just look at the price, see what else there is, and
+> then buy it directly.”, anonymous student at Chiayi National Chung
+> Cheng University (CCU)
+
+> “You can understand the product better. Before buying, you’ll know its
+> info in more detail and what happens after you buy it…”, anonymous
+> student at Tainan National Cheng Kung University (NCKU)
+
+### Example Interview: 25 December 2024
+
+Location: Taichung, National Chung Hsing University (NCHU) Anonymous
+Tester Code: \[3G1RL\]
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+## 1st Wave of Testing (Spring 2024) - Prototype {#st-wave-of-testing-spring-2024---prototype}
+
+Semi-structured interviews were conducted in Chinese. The interviewer
+(me) took notes of the interviews. Some gaps in the data exist due to
+the limited chinese language skills of the interviewer (me).
+
+### 1st Wave Interview Samples {#st-wave-interview-samples}
+
+#### Sun, 14. April 2024, 22h at D24 {#sun-14.-april-2024-22h-at-d24}
+
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
+
+-   Searches for *Lancome* brand.
+-   Chooses LANCOME 蘭蔻 小黑瓶100ml
+    (買一送一/超未來肌因賦活露國際航空版) [Link to Momo
+    page](https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome).
+-   Notices 買一送一 (buy one, get one free).
+-   Doesn’t notice the analysis button at first.
+-   Would only click on this button if the product is really expensive.
+-   Would not click on “continue chat button”
+-   Asked “why is it so expensive in taiwan”.
+-   Considers the report result useful.
+
+Note: There’s dropoff on evey step of the user journey. Note 2: Add
+carbon indicators, other labels to the analysis, add report code,
+calculate report code from URL? Save as KV. Note 3: Make use of the
+Chinese term: 有意識的消費主義
 
 RQ: To what extend can shopping become and entry point for saving and
 investing. RQ: Can shopping serve as an entry point for sustainable
 saving and investing?
 
-Generate
+#### May 8
 
-有意識的消費主義
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[CZUTA\].
 
-add carbon indicators, other labels to the analsysi, add report code,
-calculate report code from URL? ssave as kv
+On Momo: \* Investment help is useless.. \* Needs a simpler introduction
+\* Wants to see real cows \[in the product source view\] \* Very curious
+about companies \* Wants to see the company profit and margin
+percentage. Why is margin so high if pollution is bad? \* Wants to see
+the real environmental impact of the company.
 
-may 8 czuta
+#### May 6
 
--   investment help useless.. needs simpler intro - wants to see real
-    cows - very curious abouut companes - wants to see profit
-    percentage. why is margin so high if polluution is bad. - real
-    environmental impact of the coompany.
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
-06 may - Seeing factory photos is useful only if they are trustworthy
-photos. Who will provide them? -
+On Momo: \* Is concerned that seeing factory photos is useful only if
+they are trustworthy photos. Who will provide them?
 
-may 5
+#### May 5
 
--   user: it looks like an ad
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\].
 
-may 3
+On Momo: \* Does not find the Green Filter AI at all. \* User: it looks
+like an ad
 
--   uses google to look for “fashion brand eco friendly”
+#### May 3
 
--   thinks “goodonyou.eco” looks like a brand website
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\].
 
-may3 - first looked for NET clothes but Momo doesn’t sell it - Looked
-for Sony camera lens
+User first does an online Search: - Uses Google to look for “fashion
+brand eco friendly” - Thinks “goodonyou.eco” looks like a brand website.
 
-1 may prof suggestion - make connection between biodibersity and
-production and consumption clearer - what is the incentive for companies
-to share their data?
+On Momo: - first looked for NET clothes but Momo doesn’t sell it -
+Looked for Sony camera lens
+
+#### May 1
+
+Notes: *Professor Feedback*: 1st of May Prof. suggestion - make
+connection between biodiversity and production and consumption clearer -
+what is the incentive for companies to share their data?
 
 my own idea: like the switch of going from traditional banking with ATM
-machines on the street (or even the physica bank office) to online
-banking with mobile payments
+machines on the street (or even the physical bank office) to online
+banking with mobile payments.
 
-hypothesis: esg accessibility can push companies to increase production
-standards
+Hypothesis: ESG accessibility can push companies to increase production
+standards.
 
-what if you can see ESG in near-realtime such as the stock market price
+What if you can see ESG in near-realtime such as the stock market price?
 
-i can imagine esg derivative product like siemens gamesa
+I can imagine ESG derivative product like siemens gamesa
 
-ai can help integrate esg derivatives into daily life to drive esg
+AI can help integrate esg derivatives into daily life to drive esg
 adoption
 
 “effective altruism (EA)”
@@ -96,141 +391,45 @@ adoption
 distribution by allowing consumers to know the exact pricing from raw
 materials to distributors to suppliers.”
 
-Interviews and testing survey were conducted anonymously in hopes to
-have more honest responses from the responders.
+#### Tuesday 30. April 14:05-14:45 {#tuesday-30.-april-1405-1445}
 
-ziran chrome extension is unable to record activity due to browser
-security restrictions for plugins
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[7CYQ6\]
 
-ai.ziran.tw record user activity
+On Momo: - Looks for Levis pants - Looks for recommendations on the
+sidebar - Looks at the photos - Looks at the price and options - Didn’t
+notice the helper as it looks like an ad - When helped… - Ignores
+社區支持： 購物 69% 儲蓄 80% 投資 65% as doesn’t know what these mean
 
-semi-structured interviews were conducted in chinese
-
-the interviewer (me) took notes of the interviews
-
-some gaps in the data exist due to the limited chinese language skills
-of the interviewer (me)
-
-basic interview script - momo: what is a brand that you like’d or would
-like to buy - search - please pick a product (or search again) - on
-product page: what do you notice on this page? - what kind of
-information is important for you on this page? - do you notice anything
-else - (if the user doesn’t notice the green filter, direct their
-attention to it and ask: what do you think this does?) - would you click
-on it - if the user says yes, continue - if thhe user says no, make note
-and continue - as the extension generates a response: what do you think
-about this content? - is there any information that you consider
-important? - anything else you see that you think looks special - do you
-see anywhere you can click? - would you click on it? - if yes,
-continue - if no, make note, and continue - explain: due to the
-limitation of the prototype, the test will continue on a separate page
-where you can ask questions - is there anything you would like to ask
-the helper? - notice if the user picks from sample questions - remind
-the user they can come up with their own question - as the ai is
-generating content ask: do you see any information in this content - did
-you know this before or is there any info you didn’t know before? make
-note. - front page: explain the helper takes into account your personal
-info and goals. - ask: what kind of information do you think important
-to share with the helper?
-
-Tuesday 30. April 14:05-14:45 - 7CYQ6
-
-Momo
-
-Looks for Levis pants
-
-Looks for recommendations on the sidebar
-
-Looks at the photos
-
-Looks at the price and options
-
-Didn’t notice the helper as it looks like an ad
-
-When helped
-
-Ignores 社區支持： 購物 69% 儲蓄 80% 投資 65% as doesn’t know what these
-mean
-
-on ai.ziran
-
-shares personal info:
+On ai.ziran: - Shares personal info:
 四年後想考研究所，還不想工作，所以不會存到錢，希望可以考到台北的學校，每個月有兩萬生活費。
 
-DJmoney
+On DJmoney: [Link to DJmoney
+page](https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=0050.tw) -
+Still didn’t notice the helper - Doesn’t understand investing
+(Understands it’s Taiwanese stocks) so the helper is useful for
+explaining new concepts
 
-https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=0050.tw
+#### Monday 29. April 10:10-10.25 {#monday-29.-april-1010-10.25}
 
-Still didn’t notice the helper
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
-Doesn’t understand investing (Understands it’s Taiwanese stocks) so the
-helper is useful for explaining new concepts
+On Momo: \* Wants to buy New Balance sneakers
 
-Monday 29. april 10:10-10.25 - Momo - buy new balance sneakers
+On DJmoney: \* Wants compare EFTs
 
-DJmoney
+#### Monday 29. april 14:50-15:10 {#monday-29.-april-1450-1510}
 
-wants compare EFTs
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
-Monday 29. april 14:50-15:10 - Momo - buy apple iphone - bad internet -
-app was slow - app crashed
+On Momo: \* Wants to buy an Apple iPhone (older model). \* Bad internet
+(very slow) \* App was slow \* App crashed
 
-green filter analysis on DJmoney seems more trustworthy than other 2 eft
-sites
+Note: Green Filter analysis on DJmoney seems more trustworthy than the
+other 2 ETF sites Note 2: Button placement is important (too low on
+sites other than djmoney)
 
-button placement is important (too low on other sites than djmoney)
+#### Sunday 28. april 16:00 {#sunday-28.-april-1600}
 
-Sunday 28. april 16:00 - momo: wants to buy ice cream
+User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
-sun, 14. april. 22h at D24
-
-ncku student, gen-z
-
-searches for lancome brand
-
-chooses LANCOME 蘭蔻 小黑瓶100ml(買一送一/超未來肌因賦活露國際航空版)
-https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome
-
-notices 買一送一
-
-doesn’t notice analysis button at first
-
-would only click on this if it’s really expensive
-
-would not click on “continue chat button”
-
-asked “why is it so expensive in taiwan2
-
-considers report result useful
-
-note: there’s dropoff on evey step of the user journey
-
-RQ: To what extend can shopping become and entry point for saving and
-investing. RQ: Can shopping serve as an entry point for sustainable
-saving and investing?
-
-Testing overview
-
-Tested with 30 participants individually
-
-Testing is anonymous
-
-Generate
-
-有意識的消費主義
-
-add carbon indicators, other labels to the analsysi, add report code,
-calculate report code from URL? ssave as kv
-
-## 2nd Wave of Testing (Fall 2024 - Spring 2025) Prototype Testing results {#nd-wave-of-testing-fall-2024---spring-2025-prototype-testing-results}
-
-TODO
-
-Testing overview
-
-Tested with 32 participants individually
-
-Testing is anonymous
-
--   32 anonymous gen-z participants in face-to face interviews
--   100+ anonymous self-testing participants
+On Momo: \* Wants to buy ice cream

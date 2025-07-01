@@ -13,18 +13,17 @@ font_path = os.path.join(script_dir, 'fonts', 'notosans.ttf')
 df = pd.read_csv(csv_path)
 chinese_font = FontProperties(fname=font_path, size=12)
 
-
 def saving_to_investing():
     saving_col = "你/妳會經常存錢嗎？"
     invest_col = "你/妳覺得目前有任何投資嗎？"
-    df = df[[saving_col, invest_col]].dropna()
-    df = df[df[saving_col].astype(str).str.isdigit()]
-    df[saving_col] = df[saving_col].astype(int)
-    df['invest_bin'] = df[invest_col].apply(lambda x: 'Yes' if str(x).strip() == '有' else 'No')
+    df_filtered = df[[saving_col, invest_col]].dropna()
+    df_filtered = df_filtered[df_filtered[saving_col].astype(str).str.isdigit()]
+    df_filtered[saving_col] = df_filtered[saving_col].astype(int)
+    df_filtered['invest_bin'] = df_filtered[invest_col].apply(lambda x: 'Yes' if str(x).strip() == '有' else 'No')
 
     # Compute counts for each saving level
     levels = [1, 2, 3, 4, 5]
-    counts = df.groupby([saving_col, 'invest_bin']).size().unstack(fill_value=0)
+    counts = df_filtered.groupby([saving_col, 'invest_bin']).size().unstack(fill_value=0)
 
     # Palette matched earlier
     palette = ['#8bc9d1', '#d5c374', '#be7cb1', '#c5a17f', '#79b880']
