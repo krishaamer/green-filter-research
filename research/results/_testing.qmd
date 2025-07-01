@@ -1,36 +1,39 @@
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 ```
+## Interview Template
+This is the basic interview script - momo: what is a brand that you like'd or would like to buy - search - please pick a product (or search again) - on product page: what do you notice on this page? - what kind of information is important for you on this page? - do you notice anything else - (if the user doesn't notice the green filter, direct their attention to it and ask: what do you think this does?) - would you click on it - if the user says yes, continue - if thhe user says no, make note and continue - as the extension generates a response: what do you think about this content? - is there any information that you consider important? - anything else you see that you think looks special - do you see anywhere you can click? - would you click on it? - if yes, continue - if no, make note, and continue - explain: due to the limitation of the prototype, the test will continue on a separate page where you can ask questions - is there anything you would like to ask the helper? - notice if the user picks from sample questions - remind the user they can come up with their own question - as the ai is generating content ask: do you see any information in this content - did you know this before or is there any info you didn't know before? make note. - front page: explain the helper takes into account your personal info and goals. - ask: what kind of information do you think important to share with the helper?
 
-## 1st Wave of Testing (Spring 2024) Prototype Testing results
+## 1st Wave of Testing (Spring 2024) - Prototype
 
-Sun, 14. April, 22h at D24
+Semi-structured interviews were conducted in Chinese. The interviewer (me) took notes of the interviews. Some gaps in the data exist due to the limited chinese language skills of the interviewer (me).
+
+### Interview Samples
+
+Sun, 14. April 2024, 22h at D24
 
 NCKU student, Gen-Z.
 
--   Searches for Lancome brand.
-
-Chooses LANCOME 蘭蔻 小黑瓶100ml(買一送一/超未來肌因賦活露國際航空版) (Link: https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome).
-
--   Notices 買一送一.
--   Doesn't notice the analysis button at first.
--   Would only click on this if it's really expensive.
--   Would not click on "continue chat button"
--   Asked "why is it so expensive in taiwan".
--   Considers report result useful.
+* Searches for *Lancome* brand.
+* Chooses LANCOME 蘭蔻 小黑瓶100ml (買一送一/超未來肌因賦活露國際航空版) [Link to Momo page](https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome).
+* Notices 買一送一 (buy one, get one free).
+* Doesn't notice the analysis button at first.
+* Would only click on this button if the product is really expensive.
+* Would not click on "continue chat button"
+* Asked "why is it so expensive in taiwan".
+* Considers the report result useful.
 
 Note: There's dropoff on evey step of the user journey.
 
 RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
 
-
 Generate
 
 有意識的消費主義
 
-add carbon indicators, other labels to the analsysi, add report code, calculate report code from URL? ssave as kv
+Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV.
 
-May 8 czuta
+May 8 CZUTA
 
 -   Investment help is useless.. 
 -   Needs a simpler introduction
@@ -44,26 +47,19 @@ May 6
 
 May 5
 
-- user: it looks like an ad
+- User: it looks like an ad
 
 May 3
 
 - Uses Google to look for "fashion brand eco friendly"
 - Thinks "goodonyou.eco" looks like a brand website
 
-may3 
+May 3 
 - first looked for NET clothes but Momo doesn't sell it 
 - Looked for Sony camera lens
 
-semi-structured interviews were conducted in chinese
-
-the interviewer (me) took notes of the interviews
-
-some gaps in the data exist due to the limited chinese language skills of the interviewer (me)
-
-
 *Professor Feedback*
-1 may prof suggestion - make connection between biodibersity and production and consumption clearer - what is the incentive for companies to share their data?
+1 may prof suggestion - make connection between biodiversity and production and consumption clearer - what is the incentive for companies to share their data?
 
 my own idea: like the switch of going from traditional banking with ATM machines on the street (or even the physica bank office) to online banking with mobile payments
 
@@ -79,8 +75,6 @@ ai can help integrate esg derivatives into daily life to drive esg adoption
 
 "Blockchain technology can improve price transparency in product distribution by allowing consumers to know the exact pricing from raw materials to distributors to suppliers."
 
-## Interview Template
-basic interview script - momo: what is a brand that you like'd or would like to buy - search - please pick a product (or search again) - on product page: what do you notice on this page? - what kind of information is important for you on this page? - do you notice anything else - (if the user doesn't notice the green filter, direct their attention to it and ask: what do you think this does?) - would you click on it - if the user says yes, continue - if thhe user says no, make note and continue - as the extension generates a response: what do you think about this content? - is there any information that you consider important? - anything else you see that you think looks special - do you see anywhere you can click? - would you click on it? - if yes, continue - if no, make note, and continue - explain: due to the limitation of the prototype, the test will continue on a separate page where you can ask questions - is there anything you would like to ask the helper? - notice if the user picks from sample questions - remind the user they can come up with their own question - as the ai is generating content ask: do you see any information in this content - did you know this before or is there any info you didn't know before? make note. - front page: explain the helper takes into account your personal info and goals. - ask: what kind of information do you think important to share with the helper?
 
 Tuesday 30. April 14:05-14:45 - 7CYQ6
 
@@ -126,27 +120,36 @@ Sunday 28. april 16:00 - momo: wants to buy ice cream
 add carbon indicators, other labels to the analsysi, add report code, calculate report code from URL? ssave as kv
 
 
-## 2nd Wave of Testing (Fall 2024 - Spring 2025) Prototype Testing results
-
-Testing overview
+## 2nd Wave of Testing (Fall 2024 - Spring 2025) - Prototype
 
 Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
 
-ziran chrome extension is unable to record activity due to browser security restrictions for plugins
+*  32 anonymous gen-z participants in face-to face interviews
+*  100+ anonymous self-testing participants
+* Testing is anonymous
 
-ai.ziran.tw record user activity
+### Testing Summary
 
-Tested with 30 participants individually
+In-person interviews highlighted that participants generally appreciated the transparency provided by the app regarding sustainability and carbon footprint data of products. Interviewees mentioned that the visibility of "Material Sustainability" and the historical and environmental impact of products influenced their perception and purchasing intentions, often causing them to reconsider previously unquestioned consumption habits. Participants were particularly intrigued by the comprehensive information on carbon emissions, labor issues, and potential health risks from certain ingredients, emphasizing that such details were rarely accessible in typical shopping experiences.
 
-Testing is anonymous
+However, usability issues surfaced regarding terminology and interface clarity. Some users misunderstood the labeling related to financial savings and carbon emission reductions, indicating the importance of precise and intuitive wording in Chinese. Additionally, participants valued AI-generated comparative data that offered alternative sustainable brands and products, which helped them better understand environmental impacts and make more informed choices. Overall, the interviews underscored the significance of presenting detailed sustainability insights clearly and accessibly to effectively support sustainable consumer behavior.
 
-TODO
+### Known Issues
+* The Green Filter (Ziran) Chrome Extension is unable to record activity due to browser security restrictions for plugins.
+* Meanwhile, the web-only version at "ai.ziran.tw" (without direct access to user's screen), can record user activity.
 
-Testing overview
+### Notable Quotes from In-Person Testing
 
-Tested with 32 participants individually
+> “But I didn’t think that maybe the facial mask could contain some unknown plant extracts and chemical preservatives.”, anonymous student at Tainan Chang Jung Christian University (CJCU)
 
-Testing is anonymous.
+> “Since I was young, they often said… if something is made locally, the carbon footprint won’t be as high.”, anonymous student at National Pingtung University of Science and Technology (NPUST)
 
-- 32 anonymous gen-z participants in face-to face interviews
-- 100+ anonymous self-testing participants
+> “It gives me more choices.”, anonymous student at Tainan Southern Taiwan University of Science and Technology (STUST)
+
+> “I hadn’t thought that the final use and disposal… would also affect carbon emissions.”, anonymous student at Tainan University of Technology (STUST)
+
+> “What I see now is that it has listed the carbon footprint… it listed it very detailedly.”, anonymous student at Tainan National Cheng Kung University (NCKU)
+
+> “I don’t care, I just look at the price, see what else there is, and then buy it directly.”, anonymous student at Chiayi National Chung Cheng University (CCU)
+
+> “You can understand the product better. Before buying, you’ll know its info in more detail and what happens after you buy it...”, anonymous student at Tainan National Cheng Kung University (NCKU)
