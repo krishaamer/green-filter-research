@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@citation-js/core": "^0.7.18",
-    "@docusaurus/core": "3.7.0",
-    "@docusaurus/faster": "^3.7.0",
-    "@docusaurus/mdx-loader": "3.7.0",
-    "@docusaurus/plugin-google-gtag": "3.7.0",
-    "@docusaurus/plugin-ideal-image": "3.7.0",
-    "@docusaurus/plugin-pwa": "3.7.0",
-    "@docusaurus/plugin-sitemap": "3.7.0",
-    "@docusaurus/preset-classic": "3.7.0",
+    "@docusaurus/core": "3.8.1",
+    "@docusaurus/faster": "^3.8.1",
+    "@docusaurus/mdx-loader": "3.8.1",
+    "@docusaurus/plugin-google-gtag": "3.8.1",
+    "@docusaurus/plugin-ideal-image": "3.8.1",
+    "@docusaurus/plugin-pwa": "3.8.1",
+    "@docusaurus/plugin-sitemap": "3.8.1",
+    "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.1.0",
     "clsx": "^2.1.1",
     "lottie-react": "^2.4.1",
@@ -29,8 +29,8 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.7.0",
-    "@docusaurus/types": "^3.7.0",
+    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/types": "^3.8.1",
     "@types/google.maps": "^3.58.1"
   },
   "browserslist": {
