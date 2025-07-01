@@ -5,3 +5,11 @@ execute:
   warning: false
   message: false
   error: false
+filters:
+  - _table-short-captions.lua
+format:
+  pdf:
+    filters:
+      - _table-short-captions.lua
+    variables:
+      longtable: true

@@ -538,6 +538,18 @@ Ecosia is a search engine with an unconventional business models, investing all 
 
 New user interfaces hold some potential for sustainability improvements. In particular, immersive communication technologies such as AR/VR hold the potential to reduce business travel, if productive meetings can be held online, reducing emissions. Likewise, visualizing large architectural projects as well as simulating product design in various industries can reduce cost by detecting problems in the 3D environment, early on in the design process, especially for collaboration in teams located all over the world [@varjoVRDEADStories2025]. Dynamic interfaces might invoke a new, natural-interaction-focused design language, for taking full advanced of extended reality [@hoangEnterDynamicIsland2022]. First encouraging findings from reconstructing language from fMRI readings (brain scans) even show potential for enabling computers to directly read human minds; contemporary AI models have already been shown capable of generating full sentences from human thoughts [@tangSemanticReconstructionContinuous2022].
 
+The small screen estate space of mobiles phones and smart watches necessitates displaying content in a dynamic manner. Likewise, speaking is one mode of interaction that's become increasingly possible as machines learn to interpret human language. Virtual reality glasses (called AR/VR or XR in marketing speak) need dynamic content because the user is able to move around the environment. All these are multi-modal communication questions that interaction design is called upon to solve.
+
+| Modes of Interaction |
+|----------------------|
+| Writing              |
+| Speaking             |
+| Touching             |
+| Moving               |
+| Seeing               |
+
+: Modes of interaction
+
 ## Learning from Quantified Self: Tracking Health and Lifestyle
 
 An early example of how tracking personal data enables behavior change, are health and lifestyle tracking apps. Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. There's substantial academic evidence indicating that health tracking apps can have a measurable impact on user health behaviors and increase positive health outcomes. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Recently, npj Biosensing even published a device from the MIT Media Lab that can track cells inside the human body from a wrist-worn device [@jarvisWearableDeviceTracks2025; @jangWearableDeviceContinuous2025].

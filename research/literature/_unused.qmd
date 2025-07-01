@@ -378,3 +378,192 @@ my contribution is the design artefact, "HCI researchers also make constructive 
 
 -   @HowModelsWork
 
+Behaviour kit:
+
+Take the metrics from the several frameworks and display them on the product and company level? People can choose their own framework and see product data through that lens and vocabularies.
+
+Donut Economy
+
+Unrolled Donut
+
+Regenerative Capitalism
+
+8 Principles
+
+Blue Economy
+
+ESG
+
+B Corp
+
+online/offline ethnographic participant observation At this stage in the research, the central concept being studied is defined generally as user expectations for a sustainable investment app.
+
+What are my hypotheses?
+
+User experiments
+
+Financial statistics
+
+Analyzing existing apps and user pain-points
+
+List of topics gleaned from literature review for discussion with the experts:
+
+Transparency and sources of ESG and similar data
+
+I will test the prototype with potential users using an online choice experiment survey.
+
+Research Process In terms of literature review, academic inquiry in social sciences largely follows phenomena, while the issues and technologies discussed here are emergent. Not many studies exist yet (they might in a few years), which is why some of my references are to company press releases and news stories, or for public companies, their advisory for investors.
+
+Target potential retail investors aged in generation-z 20-29, all gender in Taiwan. In general, the Taiwanese culture is savings oriented: I'm in a good location for financial user experience research.
+
+Set your target goals
+
+Access to health care
+
+Access to education
+
+Climate action
+
+I propose interfaces and workflows to see financial interactions through the filter of sustainability.
+
+What kind of sustainability info do college students care about? How would college students prefer to interact with the AI? What role would college students prefer the AI to take? How can college students trust AI? What can college students do to aid sustainability efforts? How might AI assistants help college students find shopping, saving, and investing opportunities?
+
+How can design enable/help/encourage sustainability?
+
+also known as circular economy. Assuming that as individuals we want to act in a sustainable way, how exactly would be go about doing that?
+
+...for Sustainable Products
+
+Results: Open data is needed for civic engagement. Sharing vs privacy is a political question. Privacy and data-sharing are not in opposition. Sustainability needs to be balanced with privacy.
+
+Give Gen-Z the tools to turn climate anger into positive change to transform companies
+
+Use imagination
+
+Young people expect a product.
+
+Societal movements change things: implication for design: build a community
+
+Growing public understanding of how nature works and intersects with our use of money to buy products, creates interest in understanding "where does stuff come from". Sustainable supply chains.
+
+"Systemic change through financial actions driving policy and market changes encourage broader industry shifts towards greener practices".
+
+AI Chatbots and Generative UIs are hugely energy-intensive and it's an open question whether the resulting productivity gains could offsett the emissions caused by these technologies.
+
+Overconsumption-driven extractive business practices contribute to the degradation of Earth's natural ecosystems, pollution of water, air, and soil, deforestation, diminishing biodiversity, climate instability, extreme weather, modern slavery, worsening human health, and other environmental and social challenges (ADD CITATION). Companies are attuned to consumer demand however widespread greenwashing makes it tiring to find sustainability-focused companies and requires extensive time for research. Even for highly motivated people, it’s difficult to know what’s sustainable.
+
+My interest lies in understanding how AI assistants can help conscious consumers become sustainable investors. The purpose of this study is to explore how to provide the best user experience to potential sustainable financial AI companion users. In their sustainability report every company looks perfect. How can people shop, save and invest sustainably? Where does our money go and what are some greener alternatives? The companion enables people to be more transparent and responsible in their consumption behavior.
+
+In Taiwan water is too polluted can't swim
+
+air is too dirty can't breather (show my own stats)
+
+Start local then go global with backup data from global sources
+
+Ask chatgpt how to organize my sections
+
+rq: how to connect env destruction pollution to source causes
+
+rq: how to connect everyday financial actions to environmental impact in a visual/ meaningful way
+
+idea came riding my bike in annan can't swim in yhe annan river
+
+show local pollution map?
+
+show factories on the map
+
+Instead of the browser plugin make a website where you can share the link of the product (and cache the results).
+
+On iOS can use the share screen to share to the app?
+
+This research takes place at the intersection of Taiwanese college students, sustainability, finance, AI, and design.
+
+For the average person like myself, my experience with money is mostly limited to buying things at the supermarket. Food, clothes, furniture, soap, mobile phone. This leaves very few options on how to start with something new like saving and investing.
+
+Could the Green Supermarket become the entry point to Green Savings and Green Investing?
+
+Oboarding more people for sustainable practices is a complex interaction design issue hindered by ambiguous data (what is sustainable?) and messy human motivations (we love buying things).
+
+What can people who want to preserve Earth's environment, exactly do? How can networks of people come together?
+
+--- LLMs enable data journalists to create stories: @biglocalnewsExpertShareSimon2024
+
+Health tracking apps paired with connected devices such as Apple Watch filled with sensors provide one model for simple interactions to dynamically track digital health data - also known as a quantified self. This data allows apps to provide tips how to improve health outcomes through small daily actions such as climbing more stairs. Small interactions allow users to align their goals with their actions.
+
+What would be a good interface to track sustainability? What is the user interface at scale, useful for billions of people?
+
+One way to influence societal outcomes is to decide where to put our money. While our financial decisions are a vote towards the type of businesses we want to support, is it enough?
+
+While some people are demanding sustainability, and some governments and companies are announcing green investment opportunities, how can consumers discover the most suitable investment options for their situation?
+
+How can retail investors access and differentiate between eco-friendly sustainability-focused investable assets?
+
+The level of knowledge of and exposure to investing varies widely between countries and people.
+
+Could linking green consumption patterns with sustainable investing provide another pathway to speed up achieving climate justice as well as personal financial goals?
+
+In this simplified scenario, I'm in a physical offline store, doing some shopping. When putting a bottle of Coca Cola in my basket, my AI companion Susan will ask me a personalized question:
+
+Does individual climate action help?
+
+Gen-Z college students (target users) may not have the capital to make a financial dent today however they can be early adopter and they will be the decision-makers in a few years.
+
+"Like climate change, the focus on individual actions as a solution is often misplaced, though it remains a focus of media and industry. For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the"carbon footprint", championed in a 2004 advertising campaign by British Petroleum" [@cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022].
+
+Individual efforts are too small to matter unless they're inspired by Community a effort
+
+atmospheric pollution and climate change
+
+The latest IPCC report @calvinIPCC2023Climate2023
+
+@dimockDefiningGenerationsWhere2019
+
+Latvian Kora app for tracking personal CO2eq footprint, Earn KORA coins for reducing CO2eq emissions [@korasustainabilityKoraSustainability2019].
+
+How can billions of people find greener alternatives and build closer relationships with sustainability-focused companies? 
+
+research project for designing 
+
+## Conclusion
+Survey results from 900 college students across universities in the Northern, Western, Southern and Eastern parts of Taiwan highlights the concern among young adults regarding environmental degradation. However, my survey results acknowledges the barriers these individuals face, including a lack of tools and clear information, which hinders their ability to contribute effectively to environmental sustainability.
+
+Their preferences and attitudes.
+
+In interaction design, it doesn't matter how the system works in the background. What's important is understanding the mental model, the user has of the system and tuning the design to fit that model.
+
+College students are concerned with environmental issues but lack tools to affect systemic change. This research introduces an AI companion to help young adults engage in sustainable shopping, saving, and investing.
+
+College students can set their *Intention* and the AI companion can help them fulfill that intention in a variety of financial situation from shopping to saving and investing.
+
+
+"enabling data-driven decision making"
+
+When will Bolt show CO~2~eq emissions per every trip?
+
+Sustainable finance data platform:
+
+As long as humanity is a mono-planetary species, we have to come to terms with the limitations of our home, Earth, which is becoming increasingly urbanized. 
+
+"The study employed a mixed-methods approach, starting with a , followed by . A survey of 900 college students across 21 universities in Taiwan was then conducted to understand . The major contribution is the interactive AI-assistant prototype, informed by the design research findings.
+
+Prototype informed by design research aims to empower young adults to make informed decisions that align with their environmental values, whether through sustainable shopping, saving, or investing.
+
+In-person face-to-face testing with 32 students at 7 universities provided additional changed in the app design. It allowed to better understand the struggles students face with technology: old laptops, slow wi-fi, lack of power plugs and dieing batteries.
+
+Foster environmental stewardship through financial activism.
+
+Finding green products and supporting companies making them
+
+Supporting legislative changes
+
+Track you consumption, saving, investing. Shift balance towards saving and investing.
+
+mixed-methods
+
+Designing AI systems that are capable of translating complex environmental data into actionable insights.
+
+In conclusion, this research addresses the need for convenient tools to enable college students to take sustainable financial actions in their daily lives. By leveraging advancements in AI and data-driven interaction design, the proposed AI companion aims to act as a translation layer between complex environmental data and human-comprehensible language. The prototype demonstrates how thoughtful design can empower the next generation to align their consumption and investment behaviors with their concern for the environment, driving positive change through their financial choices."
+
+Drive companies to be more transparent with ESG data
+
+Increase ESG accessibility

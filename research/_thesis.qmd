@@ -9,19 +9,22 @@ geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
 filters:
   - _table-short-captions.lua
-  - quarto
 format:
   pdf:
     lot: true 
+    keep-tex: true
     document:
       title: false
       author: false
       number-sections: true
       keep-title: false
-      keep-tex: true
       toc-title: "TABLE OF CONTENTS"
     include-in-header:
       - _headers.tex
+    filters:
+      - _table-short-captions.lua
+    variables:
+      longtable: true
 execute:
   echo: false
   highlight: false

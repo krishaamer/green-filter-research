@@ -1,3 +1,13 @@
+```{python}
+from data.saving import saving_to_investing
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 ## Saving
 
-TODO
+```{python}
+saving_to_investing()
+```
+
+Correlation between saving levels and investing: the students with higher level of saving invest more. 
