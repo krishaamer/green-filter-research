@@ -162,7 +162,6 @@
  
 
 
-\usepackage{longtable}
 \usepackage{graphicx}
 % \usepackage{background}      % For background images
 \usepackage[normalem]{ulem}  % For underlining
@@ -171,15 +170,6 @@
 \usepackage{pdfpages} 
 \usepackage{booktabs}
 \usepackage[flushleft]{threeparttable}
-\usepackage{caption}
-\DeclareCaptionListFormat{lot}{#1} % Force LOT to use first bracket
-\captionsetup[table]{
-  listformat=lot,
-  labelsep=period
-}
-\captionsetup[table]{singlelinecheck=false}
-\captionsetup[table]{list=yes}      % tables go into .lot
-\captionsetup[figure]{list=yes}     % figures go into .lof (optional)
 
 % Background image setup
 % \backgroundsetup{
@@ -1469,10 +1459,12 @@ with nearly 1/5 of the respondents encountering a scam in the past year,
 while 18\% suffered actual financial losses (江昭倫, 2025; 陳美君,
 n.d.).
 
+\def\pandoctableshortcapt{Taiwanese Financial Product Familiarity}
+
 \begin{longtable}[]{@{}lr@{}}
-\caption{Familiarity with financial products and preferred payment
-methods, as reported in (陳美君,
-n.d.).}\label{tbl-financial-survey}\tabularnewline
+\caption[Taiwanese Financial Product Familiarity]{Familiarity with
+financial products and preferred payment methods, as reported in
+(陳美君, n.d.). \{\#tbl-financial-survey\}}\tabularnewline
 \toprule\noalign{}
 \ul{\textbf{Banking}} & \ul{\% of Respondents} \\
 \midrule\noalign{}
@@ -1495,6 +1487,8 @@ Family member pays & 47\% \\
 EasyCard & 4\% \\
 Mobile payments & 1\% \\
 \end{longtable}
+
+\let\pandoctableshortcapt\relax
 
 Importantly for designing a financial app, while 80\% of the survey
 respondents had received financial education at school, 90\% of the

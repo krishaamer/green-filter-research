@@ -7,8 +7,6 @@ toc: false
 lof: false
 geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
-filters:
-  - _table-short-captions.lua
 format:
   pdf:
     lot: true 
@@ -23,8 +21,6 @@ format:
       - _headers.tex
     filters:
       - _table-short-captions.lua
-    variables:
-      longtable: true
 execute:
   echo: false
   highlight: false
