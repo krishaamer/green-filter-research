@@ -10,9 +10,10 @@ Semi-structured interviews were conducted in Chinese. The interviewer (me) took 
 
 ### Interview Samples
 
-Sun, 14. April 2024, 22h at D24
+#### Sun, 14. April 2024, 22h at D24
 
-NCKU student, Gen-Z.
+User Profile: NCKU student, Gen-Z.
+Anonymous Tester Code: [REDACTED]
 
 * Searches for *Lancome* brand.
 * Chooses LANCOME 蘭蔻 小黑瓶100ml (買一送一/超未來肌因賦活露國際航空版) [Link to Momo page](https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12028429&Area=search&oid=1_8&cid=index&kw=lancome).
@@ -24,115 +25,121 @@ NCKU student, Gen-Z.
 * Considers the report result useful.
 
 Note: There's dropoff on evey step of the user journey.
+Note 2: Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV.
+Note 3: Make use of the Chinese term: 有意識的消費主義
 
 RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
 
-Generate
+#### May 8 
 
-有意識的消費主義
-
-Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV.
-
-May 8 CZUTA
+Anonymous Tester Code: [CZUTA]
 
 -   Investment help is useless.. 
 -   Needs a simpler introduction
--   wants to see real cows
--   very curious about companes
--   wants to see profit percentage. why is margin so high if polluution is bad.
--   real environmental impact of the coompany.
+-   Wants to see real cows
+-   Very curious about companes
+-   Wants to see profit percentage. why is margin so high if polluution is bad.
+-   Real environmental impact of the company.
 
-May 6
+#### May 6
 - Seeing factory photos is useful only if they are trustworthy photos. Who will provide them? -
 
-May 5
+#### May 5
 
 - User: it looks like an ad
 
-May 3
+#### May 3
 
 - Uses Google to look for "fashion brand eco friendly"
 - Thinks "goodonyou.eco" looks like a brand website
 
-May 3 
+#### May 3 
 - first looked for NET clothes but Momo doesn't sell it 
 - Looked for Sony camera lens
 
-*Professor Feedback*
-1 may prof suggestion - make connection between biodiversity and production and consumption clearer - what is the incentive for companies to share their data?
 
-my own idea: like the switch of going from traditional banking with ATM machines on the street (or even the physica bank office) to online banking with mobile payments
+#### May 1
 
-hypothesis: esg accessibility can push companies to increase production standards
+Notes: *Professor Feedback*:
+1st of May Prof. suggestion - make connection between biodiversity and production and consumption clearer - what is the incentive for companies to share their data?
 
-what if you can see ESG in near-realtime such as the stock market price
+my own idea: like the switch of going from traditional banking with ATM machines on the street (or even the physical bank office) to online banking with mobile payments.
 
-i can imagine esg derivative product like siemens gamesa
+Hypothesis: ESG accessibility can push companies to increase production standards.
 
-ai can help integrate esg derivatives into daily life to drive esg adoption
+What if you can see ESG in near-realtime such as the stock market price?
+
+I can imagine ESG derivative product like siemens gamesa
+
+AI can help integrate esg derivatives into daily life to drive esg adoption
 
 "effective altruism (EA)"
 
 "Blockchain technology can improve price transparency in product distribution by allowing consumers to know the exact pricing from raw materials to distributors to suppliers."
 
 
-Tuesday 30. April 14:05-14:45 - 7CYQ6
+#### Tuesday 30. April 14:05-14:45 - 7CYQ6
 
-Momo
-
--   Looks for Levis pants
--   Looks for recommendations on the sidebar
--   Looks at the photos
--   Looks at the price and options
--   Didn't notice the helper as it looks like an ad
--   When helped...
--   Ignores 社區支持： 購物 69% 儲蓄 80% 投資 65% as doesn't know what these mean
+On Momo:
+-  Looks for Levis pants
+-  Looks for recommendations on the sidebar
+-  Looks at the photos
+-  Looks at the price and options
+-  Didn't notice the helper as it looks like an ad
+-  When helped...
+-  Ignores 社區支持： 購物 69% 儲蓄 80% 投資 65% as doesn't know what these mean
 
 On ai.ziran:
 -   Shares personal info: 四年後想考研究所，還不想工作，所以不會存到錢，希望可以考到台北的學校，每個月有兩萬生活費。
 
-On DJmoney:
-
-https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=0050.tw
-
+On DJmoney: [Link to DJmoney page](https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=0050.tw)
 -   Still didn't notice the helper
 -   Doesn't understand investing (Understands it's Taiwanese stocks) so the helper is useful for explaining new concepts
 
-Monday 29. april 10:10-10.25 - Momo - buy new balance sneakers
+#### Monday 29. april 10:10-10.25
 
-DJmoney
+On Momo
+* Buy New Balance sneakers
 
-wants compare EFTs
+On DJmoney
+* Wants compare EFTs
 
-Monday 29. april 14:50-15:10 
+#### Monday 29. april 14:50-15:10 
 
-- Momo - buy apple iphone - bad internet - app was slow - app crashed
+- Momo 
+- buy apple iphone 
+- bad internet 
+- app was slow 
+- app crashed
 
 green filter analysis on DJmoney seems more trustworthy than other 2 eft sites
 
 button placement is important (too low on other sites than djmoney)
 
-Sunday 28. april 16:00 - momo: wants to buy ice cream
+#### Sunday 28. april 16:00 
+
+On Momo:
+* Wants to buy ice cream
 
 
 有意識的消費主義
 
-add carbon indicators, other labels to the analsysi, add report code, calculate report code from URL? ssave as kv
+add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? ssave as kv
 
 
 ## 2nd Wave of Testing (Fall 2024 - Spring 2025) - Prototype
 
 Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
 
-*  32 anonymous gen-z participants in face-to face interviews
-*  100+ anonymous self-testing participants
+* 32 anonymous gen-z participants in face-to face interviews
+* 100+ anonymous self-testing participants
 * Testing is anonymous
 
 ### Testing Summary
 
-In-person interviews highlighted that participants generally appreciated the transparency provided by the app regarding sustainability and carbon footprint data of products. Interviewees mentioned that the visibility of "Material Sustainability" and the historical and environmental impact of products influenced their perception and purchasing intentions, often causing them to reconsider previously unquestioned consumption habits. Participants were particularly intrigued by the comprehensive information on carbon emissions, labor issues, and potential health risks from certain ingredients, emphasizing that such details were rarely accessible in typical shopping experiences.
+In-person interviews highlighted that participants generally appreciated the transparency provided by the Green Filter app regarding sustainability of products. Interviewees mentioned that the visibility of *"Material Sustainability"* and the historical and environmental impact of products influenced their perception and purchasing intentions, sometimes causing them to reconsider previously unquestioned consumption habits. Participants were particularly intrigued by the comprehensive information on carbon emissions, labor issues, and potential health risks from certain ingredients, emphasizing that such details were rarely accessible in typical shopping experiences. Additionally, participants valued AI-generated comparative data that offered alternative sustainable brands and products, which helped them better understand environmental impacts and make more informed choices.
 
-However, usability issues surfaced regarding terminology and interface clarity. Some users misunderstood the labeling related to financial savings and carbon emission reductions, indicating the importance of precise and intuitive wording in Chinese. Additionally, participants valued AI-generated comparative data that offered alternative sustainable brands and products, which helped them better understand environmental impacts and make more informed choices. Overall, the interviews underscored the significance of presenting detailed sustainability insights clearly and accessibly to effectively support sustainable consumer behavior.
+However, usability issues surfaced regarding terminology and interface clarity. Some users misunderstood the labeling related to financial savings and carbon emission reductions, indicating the importance of precise and intuitive wording in Chinese. 
 
 ### Known Issues
 * The Green Filter (Ziran) Chrome Extension is unable to record activity due to browser security restrictions for plugins.
