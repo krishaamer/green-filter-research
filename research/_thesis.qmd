@@ -147,6 +147,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "_conclusion.qmd" >}}
+
+\newpage
+
 {{< include "_references.qmd" >}}
 
 \newpage

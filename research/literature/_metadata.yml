@@ -5,3 +5,5 @@ execute:
   warning: false
   message: false
   error: false
+filters:
+  - _table-short-captions.lua

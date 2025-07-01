@@ -77,7 +77,7 @@ One major cross-cutting category the IPCC tracks separately is LULUCF (Land Use,
 
 Emissions production is highly unequal, with *"\[t\]he world's top 1% of emitters produce over 1000 times more CO~2~eq than the bottom 1%"* [@ieaWorldTopEmitters2023]. The share of CO~2~ emissions among people around the world is highly unequal across the world (referred to as *Carbon Inequality*). [@chancelGlobalCarbonInequality2022] reports "one-tenth of the global population is responsible for nearly half of all emissions, half of the population emits less than 12%". Information and communications technology (ICT) sector is an example of carbon inequality, where emerging economies bear 82% of the emissions, developed countries gain 58% of value, of the over 300 million PCs sold per year [@zhouCarboneconomicInequalityGlobal2022; @bajarinPCSalesAre2022].
 
-CO~2~e emissions by region (per year).
+CO~2~e emissions by region (per year), comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions.
 
 |  |  |  |
 |----------------------------|-----------------------|---------------------|
@@ -98,7 +98,7 @@ CO~2~e emissions by region (per year).
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: **[CO~2~ Emissions Comparison]** *Full analysis*: Comparing highest per capita CO~2e~ emissions (mostly from oil producers) vs regional average per capita CO~2~ emissions vs total CO~2~ emissions[@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. {#tbl-financial-survey}
+: CO~2~ Emissions Comparison [@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. {#tbl-financial-survey}
 
 *Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s [@ghgprotocolUsGHGProtocol]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 

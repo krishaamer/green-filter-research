@@ -1,14 +1,11 @@
-# _quarto.yml
+bibliography: [ref.bib]
+csl: apa.csl
+defaults:
+  - _pandoc.yml
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: false
 filters:
   - _table-short-captions.lua
-
-format:
-  pdf:
-    filters:
-      - _table-short-captions.lua
-    variables:
-      longtable: true
-    include-in-header:
-      - _headers.tex
-    lot: true
-    keep-tex: true

@@ -1,5 +1,6 @@
 ```{=mdx}
-import MyEmbed from '/src/components/Embed'
+import Figure from "/src/components/Figure";
+import Screenshots from "../images/testing/user-screenshots-2.jpg";
 ```
 ## Interview Template
 
@@ -31,9 +32,24 @@ On Momo:
 
 Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
 
--   32 anonymous gen-z participants in face-to face interviews
--   100+ anonymous self-testing participants
+-   32 anonymous Gen-Z participants in face-to-face interviews at 7 universities
+-   Over 100 anonymous self-testing participants at over 20 universities
 -   Testing is anonymous
+
+Below you can see some of the images testers uploaded from their own devices (there were too many to be displayed here fully).
+
+::: {.content-hidden unless-format="pdf"}
+![User-uploaded screenshots of the Green Filter prototype](./images/testing/user-screenshots-2.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="User-uploaded screenshots of the Green Filter prototype"
+  src={Screenshots}
+  refURL="https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg?hl=zh-TW"
+  refTitle="Green Filter"
+/>
+```
 
 ### Testing Summary
 
