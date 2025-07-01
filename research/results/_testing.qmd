@@ -60,11 +60,55 @@ However, usability issues surfaced regarding terminology and interface clarity. 
 
 > “You can understand the product better. Before buying, you’ll know its info in more detail and what happens after you buy it...”, anonymous student at Tainan National Cheng Kung University (NCKU)
 
+### Example Interview: 25 December 2024 
+
+Location: Taichung, National Chung Hsing University (NCHU)
+Anonymous Tester Code: [3G1RL]
+
+| Speaker         | Content                                                                                                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Interviewer** | This app is part of my thesis about sustainability. First, may I record our conversation?                                                                                                       |
+| **Participant** | Uh, yes.                                                                                                                                                                                        |
+| **Interviewer** | Have you used Momo before?                                                                                                                                                                      |
+| **Participant** | Yes.                                                                                                                                                                                            |
+| **Interviewer** | Which platform do you use most, Momo or Shopee?                                                                                                                                                 |
+| **Participant** | I use Shopee more often.                                                                                                                                                                        |
+| **Interviewer** | What kind of things do you usually buy online?                                                                                                                                                  |
+| **Participant** | On Momo I once bought a set of speakers.                                                                                                                                                        |
+| **Interviewer** | Anything you want to shop for right now?                                                                                                                                                        |
+| **Participant** | Maybe some movies… but let me browse shoes instead.                                                                                                                                             |
+| **Interviewer** | Sure, pick any item.                                                                                                                                                                            |
+| **Participant** | (Searches) Found a pair of Timberland boat shoes.                                                                                                                                               |
+| **Interviewer** | Why that model?                                                                                                                                                                                 |
+| **Participant** | I have eyed this pair for a long time and it looks good when others wear it.                                                                                                                    |
+| **Interviewer** | Let us open my prototype overlay. What do you notice first?                                                                                                                                     |
+| **Participant** | The company score says forty five, which feels low, so maybe it is not very eco friendly.                                                                                                       |
+| **Interviewer** | The green tab shows “Reduce carbon emission thirty eight percent”. What does that mean to you?                                                                                                  |
+| **Participant** | It lists brands with lower carbon footprints so I could choose them instead. I have tried Timberland before; the others are new to me.                                                          |
+| **Interviewer** | The purple tab suggests investment options. Thoughts?                                                                                                                                           |
+| **Participant** | It looks like I could invest in companies similar to Timberland, check stock prices and trends. I have never bought stocks though.                                                              |
+| **Interviewer** | If Apple scored badly on the environment, would you switch brands?                                                                                                                              |
+| **Participant** | I would research alternatives. Environmental impact matters to me.                                                                                                                              |
+| **Interviewer** | Try the “Ask AI” button.                                                                                                                                                                        |
+| **Participant** | (Types) “How much carbon does this product emit?” The answer breaks down production, packaging, transport, even end of life disposal. I never considered water and electricity used during use. |
+| **Interviewer** | Which part of the overlay feels most useful?                                                                                                                                                    |
+| **Participant** | The detailed material and ESG section, environmental and labor issues, plus the alternative brands list.                                                                                        |
+| **Interviewer** | Any information missing before you decide?                                                                                                                                                      |
+| **Participant** | Safety data and warranty, especially for products used near the face; also clearer brand logos and Chinese names.                                                                               |
+| **Interviewer** | At the top there is a code. Please read it aloud.                                                                                                                                               |
+| **Participant** | Three G one R L.                                                                                                                                                                                |
+| **Interviewer** | Could you take a photo of the most important screen and write that code on the card?                                                                                                            |
+| **Participant** | (Takes photo and writes code) Done.                                                                                                                                                             |
+| **Interviewer** | Last question, will the sustainability data change your purchase?                                                                                                                               |
+| **Participant** | I might still buy these shoes if I really love them, but I will think twice and compare with greener options first.                                                                             |
+| **Interviewer** | Great. Thanks for your help today.                                                                                                                                                              |
+| **Participant** | No problem.                                                                                                                                                                                     |
+
 ## 1st Wave of Testing (Spring 2024) - Prototype
 
 Semi-structured interviews were conducted in Chinese. The interviewer (me) took notes of the interviews. Some gaps in the data exist due to the limited chinese language skills of the interviewer (me).
 
-### Interview Samples
+### 1st Wave Interview Samples
 
 #### Sun, 14. April 2024, 22h at D24
 
