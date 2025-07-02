@@ -244,7 +244,7 @@ taiwanese_company_ranking_chart()
 Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey.
 
 ```{python}
-#| label: fig-tw-comp-rank
+#| label: fig-br-comp-rank
 #| fig-cap: "British Company Ranking"
 #| fig-scap: "British Company Ranking"
 company_rank_chart()
