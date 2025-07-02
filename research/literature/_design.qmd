@@ -53,7 +53,7 @@ Consumer products' overall life-cycle environmental impact is defined in the des
 | Energy Efficient | Reduce product's CO~2~eq footprint and operating costs |
 | Resource Efficient | Reduce product's use of raw materials and energy during production and life-cycle |
 
-: The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022]. {short-caption="Brief LoT entry"}
+Table: The 9 qualities of *eco-designed products* based on the Ecodesign for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022].[]{short-caption="The Qualities of *Eco-Designed Products*"}
 
 Eco-Design for Sustainable Products is a key EU sustainable policy design tool and each product covered by the ESPR is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022]. It's safe to say the large majority of products available today do not meet these criteria. Given this far-reaching legislative effort, we have an opportunity to re-imagine how every product can be an eco-product and how they circulate in our circular economy. The Director of the French environmental NGO Pôle Eco-conception describes eco-design as "\[l\]ocated at the interface between consumption and production patterns, eco-design helps to structure the market for products and services using a life cycle approach and tangible criteria" [@chouaiBLOGEcodesignObsolete2024].
 
@@ -258,7 +258,7 @@ Coming back to apps, there are several initiatives aimed at reducing food waste 
 | Kuri | [@hajejankampsKuriAppThat2022] Less impact of food |
 | Social media groups (no app) |  |
 
-: Food saving apps
+Table: Food saving apps []{short-caption="Food Saving Apps"}
 
 As with any contentious issue, when it comes to food, people have differing points of view. [@ERIKSSON2023229] discusses best practices for reducing food waste in Sweden and [@ROOS2023107623] identified 5 perspectives in a small study (n = 106) of views on the Swedish food system.
 
@@ -270,7 +270,7 @@ As with any contentious issue, when it comes to food, people have differing poin
 | *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
 | "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
 
-: Perspective on food systems in Sweden from [@ROOS2023107623]. {short-caption="Perspectives on the food systems in Sweden"}
+Table: Perspective on food systems in Sweden from [@ROOS2023107623]. []{short-caption="Perspectives on the Food Systems in Sweden"}
 
 ## In Practice: Sustainability Begins in Software
 
@@ -332,7 +332,7 @@ There are several technologies for tracking goods across the supply chain, from 
 | Bext360 | bext360.com |  |
 | SUKU | suku.world | [@millerCitizensReserveBuilding2019] SUKU makes supply chains more transparent yet seems to have pivoted away from supply chains |
 
-: A sample of blockchain-based supply chain companies as of summer 2023.
+Table: A sample of blockchain-based supply chain companies as of summer 2023. []{short-caption="A Sample of Blockchain-based Supply Chain Companies"}
 
 Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
@@ -355,7 +355,7 @@ In the most general sense, supply chain transparency enables stakeholder account
 | Two/three-wheelers          | 3%         |
 | Rail                        | 3%         |
 
-: Share of CO~2~eq emissions by type of transport globally [@statistaGlobalTransportCO22022].
+Table: Share of CO~2~eq emissions by type of transport globally [@statistaGlobalTransportCO22022]. []{short-caption="Share of CO~2~eq Emissions by Type of Transport Globally"}
 
 In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, [@platzerPerspectiveUrgencyGreen2023], a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
@@ -387,7 +387,7 @@ Superapps are the most prevalent across Asia, with China, South-East Asia, Korea
 | **Grab** | Singapore / Malaysia | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 |
 | **Rappi** | Colombia | Users | Yes | Yes | No | 30 million | 2023 |
 
-: Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025. Data sourced from [@geUpdateAlibabasAnt2020; @jingMeituan0369020242025; @phonepePhonePeCrosses5002023; @lycorporationLYCorporationTakes2023; @shindeTataNeu202023; @shindeTataNeu202023; @polloNuHoldingsLtd2025; @nguyenVietnamsFirstUnicorn2023; @vermaPaytmQ3FY242024; @safaricomSafaricomsMPESAHits2024; @mercadolibre2024ImpactReport2024; @oostBrazilianFinTechPicPay2024; @kazaninsWhyCashApp2024; @tecentTecentHoldings20242024; @leeKakao2024Revenue2025; @gotoTransformationProgres2023; @revolutRevolutHits502024; @careemCareems2024Wrapup2025; @grabholdingslimitedGrabReportsFourth2025; @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024].
+Table: Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025. Data sourced from [@geUpdateAlibabasAnt2020; @jingMeituan0369020242025; @phonepePhonePeCrosses5002023; @lycorporationLYCorporationTakes2023; @shindeTataNeu202023; @shindeTataNeu202023; @polloNuHoldingsLtd2025; @nguyenVietnamsFirstUnicorn2023; @vermaPaytmQ3FY242024; @safaricomSafaricomsMPESAHits2024; @mercadolibre2024ImpactReport2024; @oostBrazilianFinTechPicPay2024; @kazaninsWhyCashApp2024; @tecentTecentHoldings20242024; @leeKakao2024Revenue2025; @gotoTransformationProgres2023; @revolutRevolutHits502024; @careemCareems2024Wrapup2025; @grabholdingslimitedGrabReportsFourth2025; @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024]. []{short-caption="Global Overview of Superapps"}
 
 Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
 
@@ -396,7 +396,7 @@ Uber is creating an all-purpose platform for travel; only 4.1% of rides were ele
 | Uber | USA | Users per month | No (Only for ride-hailing) | No | No | 171 million |
 | Bolt | Estonia | Lifetime users | No (Only for ride-hailing) | No | No | 200 million |
 
-: Not quite super-app yet. Data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025] {short-caption="Not Quite Superapps"}
+Table: Not quite super-app yet. Data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025] []{short-caption="Not Quite Superapps"}
 
 Superapps offer a platform with key infrastructure such as payments already included, where ecosystem of mini-apps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021]. Alipay, originally a payments app, has build the digital infrastructure to provide thousands of services to billions of users across China. 59 million people use 支小寶 (Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to international markets. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
@@ -413,7 +413,7 @@ There are also many aspiring superapps, companies which aspire to build multi-ve
 | Data-driven Design |  |  |
 | Behaviour Design |  |  |
 
-: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012].  {short-caption="Platform Economy Concepts"}
+Table: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012]. []{short-caption="Platform Economy Concepts"}
 
 [@cuppiniWhenCitiesMeet2022] give a historical overview of how the rise of digital platforms, taking an expansive point of view, all the way from linear *Fordism*, the development of capitalism, through platform economy and the app-based logistics' revolution, which can provide data for circular economies to happen in a city; reshaping the cities through data-sharing with stakeholder from the citizens, to urban planner and policy-makers - not without conflict, as there is often tension between multiple perspectives.
 
@@ -461,7 +461,7 @@ Data-driven design requires access to data, making the movement towards *open da
 | Malaysia  | Malaysian open data portal       |
 | Singapore | Singapore ESG open data platform |
 
-: Examples of cities and countries that share data openly. Data sourced from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023]  {short-caption="Examples of cities and countries that share data openly"}
+Table: Examples of cities and countries that share data openly. Data sourced from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023] []{short-caption="Examples of Cities and Countries That Share Data Openly"}
 
 To give a concrete example of the usefulness of open data, for instance, the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore, the Monetary Authority has launched an open data portal for ESG information, allowing anyone to delve into environmental, social, and governmental topics [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
 
@@ -487,7 +487,7 @@ Google has launched eco–focused features across its range of products: search 
 | Google Flights suggests flights with lower CO~2~ emissions | Google Flights | Show flights with lower CO~2~ emissions |
 | Wizzair Check carbon impact [@OffsetYourFlight] | WizzAir | Offset on Checkout |
 
-: Examples of CO~2~ visibility in Google's products.
+Table: Examples of CO~2~ visibility in Google's products. []{short-caption="Examples of CO~2~ Visibility in Google's Products"}
 
 ::: {.content-hidden unless-format="pdf"}
 ![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
@@ -508,7 +508,7 @@ Google has launched eco–focused features across its range of products: search 
 | Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-: Types of nudge documented by [@WEE2021100364]
+Table: Types of nudge documented by [@WEE2021100364] []{short-caption="Types of Nudge"}
 
 [@ACUTI2023122151] makes the point that physical proximity to a drop-off point helps people participate in sustainability and metaphorical messaging alongside proximity can be powerful, enhancing the ease of information processing. In a field study in Northern Italy, a metaphor‐based message re-framed the factual statement "1g of mercury can pollute 1000L of water" as "7 bathtubs", and 354000000L as "140 Olympic swimming pools," (a projection of potential Italian mercury pollution at current disposal rates), which significantly boosted willingness to recycle mercury.
 
@@ -527,7 +527,7 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 | 2024 | N/A         | 548 million | 3.87 million hectares                |
 | 2025 | N/A         | N/A         | N/A                                  |
 
-: Table of Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian].
+Table: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption="Ant Forest Assisted Tree Planting - Growth Story"}
 
 ```{python}
 # Combined data from various sources
@@ -548,7 +548,7 @@ The small screen estate space of mobiles phones and smart watches necessitates d
 | Moving               |
 | Seeing               |
 
-: Modes of interaction
+Table: Modes of Interaction []{short-caption="Modes of Interaction"}
 
 ## Learning from Quantified Self: Tracking Health and Lifestyle
 
@@ -618,7 +618,7 @@ A wide range of personal carbon footprint calculators have been released online,
 | LiveGreen |  |
 | Earth Hero |  |
 
-: A selection of personal sustainability apps.
+Table: A selection of personal sustainability apps. []{short-caption="A Selection of Personal Sustainability Apps"}
 
 [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
@@ -648,7 +648,7 @@ In theory, DPPs are able to capture and make usable the comprehensive trace of d
 | R1 Rethink | Use the product more intensively (sharing the product via online platforms, etc) |
 | R0 Refuse | Don't use product at all (or replace the function with a better alternative) |
 
-: The 9 R strategies from [@potting2017circular].
+Table: The 9 R strategies from [@potting2017circular]. []{short-caption="The R Strategies"}
 
 There's extensive literature on the use Digital Product Passports (DPP) at specific industries and for particular use cases, often focused on improved efficiencies. [@plociennikDigitalLifecyclePassport2022] details the use of Digital Product Passports and the cloud platform infrastructure to improve e-waste sorting when paired with ML-based object detection. [@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance. [@jensenDigitalProductPassports2023] study of mechatronics supply chains found DPPs *"support decision-making throughout product life cycles in favor of a circular economy"*; specifically:
 
@@ -681,7 +681,7 @@ Similar to to *Nutritional Facts Labeling*, *Carbon Labels* provide basic inform
 | Oatly      | U.K.    |
 | IKEA       | Sweden  |
 
-: Companies with Carbon Labels [@briankatemanCarbonLabelsAre2020]
+Table: Companies with Carbon Labels [@briankatemanCarbonLabelsAre2020] []{short-caption="Companies With Carbon Labels"}
 
 | Organization    | Number of Certified Products |
 |-----------------|------------------------------|
@@ -689,7 +689,7 @@ Similar to to *Nutritional Facts Labeling*, *Carbon Labels* provide basic inform
 | Carbon Calories |                              |
 | Carbon Trust    | 27000                        |
 
-: Organization to Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020].
+Table: Organizations Who Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020]. []{short-caption="Organizations Who Certify Carbon Labels"}
 
 Transitioning from simpler carbon labels to data-driven *Digital Product Passports* requires comprehensive data collection on product's history, composition, and environmental impact, digital infrastructure, industry collaboration, regulatory frameworks, and consumer engagement.
 
@@ -700,7 +700,7 @@ Transitioning from simpler carbon labels to data-driven *Digital Product Passpor
 | Consumers to make more informed purchasing decisions        |
 | Verify compliance with legal obligations                    |
 
-: Digital Product Passport goals [@strettonDigitalProductPassports2022].
+Table: Digital Product Passport goals [@strettonDigitalProductPassports2022]. []{short-caption="Digital Product Passport Goals"}
 
 [@vancapelleveenAnatomyPassportCircular2023] conducted a comprehensive, structured review of 200 academic papers on Digital Product Passports and related concepts, including circular, product, material, resource, recycling, and cradle-to-cradle variants, assessing dimensions such as historical developments, stakeholders, goals, challenges, and designs for solutions, in order to formalize the concept and its boundaries, finally synthesizing a unified definition:
 

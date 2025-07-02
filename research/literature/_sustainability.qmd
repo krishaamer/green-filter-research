@@ -98,7 +98,7 @@ CO~2~e emissions by region (per year), comparing highest per capita CO~2e~ emiss
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: CO~2~ Emissions Comparison [@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. {#tbl-financial-survey}
+Table: CO~2~ Emissions Comparison [@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. []{short-caption="Regional CO~2~ Emissions Comparison"}
 
 *Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organizing emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s [@ghgprotocolUsGHGProtocol]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 
@@ -110,7 +110,7 @@ CO~2~e emissions by region (per year), comparing highest per capita CO~2e~ emiss
 | Scope 3        | Value chain emissions          |
 | Scope 4        | Avoided emissions              |
 
-: Definition of Emission Scopes From [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. One's scope 3 emissions are someone else's scope 1 emissions.
+Table: Definition of Emission Scopes From [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. One's scope 3 emissions are someone else's scope 1 emissions. []{short-caption="Definition of Emission Scopes"}
 
 Countries have agreed up CO~2e~ Reduction Targets known as Country-Level Nationally Determined Contributions (NDCs). While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows to compare countries by their NDC performance [@climateanalyticsClimateActionTracker2023]. [@fransenStateNationallyDetermined2022] notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
@@ -128,7 +128,7 @@ Countries have agreed up CO~2e~ Reduction Targets known as Country-Level Nationa
 | Iran                 | Critically insufficient |
 | Saudi Arabia         | Highly insufficient     |
 
-: Climate Action Tracker's country comparison of the 10 top polluters' climate action [@climateanalyticsClimateActionTracker2023].
+Table: Climate Action Tracker's country comparison of the 10 top polluters' climate action [@climateanalyticsClimateActionTracker2023]. []{short-caption="Top 10 Polluters"}
 
 ```{python}
 ndc_chart()
@@ -154,7 +154,7 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 | New Zealand | 2008 | New Zealand [@rontardPoliticalConstructionCarbon2022] (need access, important NCKU doesn't subscribe) |
 | Canada | 2013 |  |
 
-: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket].
+Table: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket]. []{short-caption="CO~2~ Credit Trading Markets"}
 
 The price of CO~2e~ differs across markets, as assigning a monetary value to reducing CO~2e~ emissions depends on several variables. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
@@ -171,7 +171,7 @@ The prices between compliance and voluntary markets differ substantially.
 | South Korea               | 5.84 USD               |
 | China                     | 8.29 USD               |
 
-: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
+Table: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023]. []{short-caption="Compliance Market CO~2~ Prices"}
 
 |                          |                        |
 |--------------------------|------------------------|
@@ -180,7 +180,7 @@ The prices between compliance and voluntary markets differ substantially.
 | Nature Based Offset      | \$1.80                 |
 | Tech Based Offset        | \$0.77                 |
 
-: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
+Table: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023]. []{short-caption="Voluntary Market CO~2~ Prices"}
 
 ```{python}
 carbon_credits_chart()
@@ -197,7 +197,7 @@ Markets are centered around carbon credits, nature-backed financial derivatives 
 | Permanence | Carbon storage time (should be long-term) |
 | Leakage | Risk of shift to causing emissions (for example because of deforestation) |
 
-: Criteria for carbon credit projects from [@verraVerraReleasesRevised2023].
+Table: Criteria for carbon credit projects from [@verraVerraReleasesRevised2023]. []{short-caption="Criteria for Carbon Credit Projects"}
 
 For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors. Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008]. [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading, arguing that blockchain solutions for CO~2~eq markets are nearing maturity, and offer many improvements, such as enhancing transparency, trust, and efficiency.
 
@@ -222,7 +222,7 @@ Similarly to carbon markets, markets for nature-backed assets and ecosystem serv
 | Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
 | Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
 
-: Types of nature-backed assets and tradeable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023]
+Table: Types of nature-backed assets and tradeable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023] []{short-caption="Types of Nature-Backed Assets and Tradeable Ecosystem Services"}
 
 ### Overconsumption \> Earth's Boundaries
 
@@ -238,7 +238,7 @@ While the numbers on overconsumption are clear, the debate on overconsumption is
 | 34%            | Mobility |
 | 15%            | Other    |
 
-: Daily human activities emission contribution on average in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019].
+Table: Daily human activities emission contribution on average in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019]. []{short-caption="Daily Human Activities' Emission Contribution"}
 
 Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] dissect GHG emissions inventory by sector and put the blame squarely on the type of energy used.
 
@@ -249,7 +249,7 @@ Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenho
 | Waste | 3.2 % | Wastewater methane and NO2 emissions; landfill methane. |
 | Agriculture + LULUCF (Land Use, Land-Use Change & Forestry) | 18.4 % | Emissions from grassland, cropland, deforestation, crop burning, rice cultivation, agricultural soils, livestock and manure. |
 
-: Data from [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016].
+Table: Industrial Emissions [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016]. []{short-caption="Industrial Emissions "}
 
 Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. Indeed, making *anything* consumes natural resources, which are limited on planet Earth. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% driven by the impact of climate change. Yet, while population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012]. Meanwhile others, such as [@cafaroOverpopulationMajorCause2022], believe *\[o\]verpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left."*
 
@@ -269,7 +269,7 @@ An update to the planetary boundaries framework a year later found the actual nu
 
 In the biospehere, mass extinctions are underway. An analysis of population trends for 27600 terrestrial vertebrate species (including a detailed sample of 177 mammals), found 32% (8851 species) are undergoing severe range contractions; the authors name this "biological annihilation" to signal Earth’s ongoing 6 mass extinction and call for immediate conservation action [@ceballosBiologicalAnnihilationOngoing2017]. As of last year, the Red List curated by the International Union for Conservation of Nature (IUCN), includes 45,300 species (28% of all assessed, since IUCN was founded in 1948), under threat of extinction [@iucnIUCNRedList2024].
 
--   Responding to the crisis, the Guardian newspaper in the UK has take a clear stance, covering stories of exctinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
+Responding to the crisis, the Guardian newspaper in the UK has take a clear stance, covering stories of exctinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
 
 ::: {.content-hidden unless-format="pdf"}
 ![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary Boundaries 2023 Update"}
@@ -332,7 +332,7 @@ Similarly to climate protection, the UN has taken a leadership role in biodivers
 | Plant species extinct                         | 600 in 500 years           |
 | Species under threat of extinction            | 1 million                  |
 
-: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021].
+Table: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021]. []{short-caption="Biodiversity Loss"}
 
 ```{python}
 biodiversity_chart()
@@ -349,7 +349,7 @@ Starting with the simple question: why protect biodiversity. [@mayWhyShouldWe201
 | Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
 | Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
 
-: Concepts from [@mayWhyShouldWe2011]. {short-caption="Concepts"} 
+Table: Ethical and Utilitarian Concepts of Biodiversity Protection from [@mayWhyShouldWe2011]. []{short-caption="Ethical and Utilitarian Concepts of Biodiversity Protection"}
 
 There is some progress in biodiversity conservation as "\[\*b\]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"\* [@uebtBiodiversityBarometer2022]
 
@@ -420,6 +420,8 @@ There are 2 main approaches to protecting nature:
 | **Economics of Nature Commodification** | **Economics of the Sacred** |
 | Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
+Table: Economics of Nature Commodification vs Sacred Economics []{short-caption="Economics of Nature Commodification vs Sacred Economics"}
+
 The question of whether we should we put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commoditize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
 
 Ecosystem services literature defines a "Nature’s Contributions to People" framework, originally proposed by the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). [@diazAssessingNaturesContributions2018]. [@muradianEcosystemServicesNature2021] critically assess the framework, arguing utilitarian and anthropocentric views of the ecosystem services concept perpetuates problematic dualisms (humans and nature are separate) - and call for a new approach centered on ecology.
@@ -436,7 +438,7 @@ Ecosystem services literature defines a "Nature’s Contributions to People" fra
 | Create ecosystem service markets               |
 | Commodify nature                               |
 
-: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] {short-caption="Defining Ecosystem Services Concepts"} 
+Table: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] {short-caption="Defining Ecosystem Services Concepts"} 
 
 A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
@@ -449,7 +451,7 @@ The concept of how a public resource is over-used until breaking down as each us
 | Wetland restoration                         |
 |                                             |
 
-: Non-Exhaustive list of Regenerative Actions from [@hanEmbeddingNaturebasedSolutions2022] {short-caption="Non-Exhaustive list of Regenerative Actions"}
+Table: Non-Exhaustive list of Regenerative Actions from [@hanEmbeddingNaturebasedSolutions2022] []{short-caption="Regenerative Actions"}
 
 The organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023]. Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices.
 

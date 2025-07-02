@@ -68,7 +68,7 @@ There are many examples of combination of AI and human, also known as *"human-in
 | QALY | Health | Heart arrhythmia detection |
 | Starship Robots | Delivery | The robot may ask for human help in a confusing situation, such as when crossing a difficult road |
 
-: Examples of human-in-the-loop apps.
+Table: Examples of human-in-the-loop apps. []{short-caption="Human-in-the-Loop Apps"}
 
 In order to provide human feedback, systems need to be able to distinguish humans from AIs. To that end, several "Proof of Humanity" toolsets are in the process of being built. [@gitcoinpassport2023] discusses how to build Gitcoin Passport’s Unique Humanity Score, an antifragile passport, inspired by Nassim Taleb's popular book [@talebAntifragileThingsThat2012]. Taleb defines "antifragility" as "systems that benefit from volatility and stressors", summarizing it in a letter to Nature thus:
 
@@ -135,7 +135,7 @@ A popular approach to AI safety is *red-teaming*, which means pushing the limits
 | Data Contamination | Concerns with the math ability of LLMs. "performance actually reflects dataset contamination, where data closely resembling benchmark questions leaks into the training data, instead of true reasoning ability" @zhangCarefulExaminationLarge2024 |
 | Lack of Legislation | @anderljungFrontierAIRegulation2023 OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 @browneBritainHostWorld2023. |
 
-: Table summarizing some problems with contemporary AIs.
+Table: Summarizing some problems with contemporary AIs. []{short-caption="Problems with contemporary AIs"}
 
 In 2024, OpenAI released its *"Model Spec"* to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach [@openaiIntroducingModelSpec2024].
 
@@ -151,6 +151,8 @@ Personal AI assistants to date have been created by large tech companies, mostly
 | youper.ai    | Mental health helper     |
 | fireflies.ai | Video call transcription |
 | murf.ai      | Voice generator          |
+
+Table: AI-based Assistants []{short-caption="AI-based Assistants"}
 
 In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas. The strongest proponent of Open Source AI, META, open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models; because META's core business is not AI, rather it would benefit from having access to cheaper, better AI across the board, open-sourcing may be their best strategy [@dwarkeshpatelMarkZuckerbergLlama2024].
 
@@ -184,7 +186,7 @@ In any case, open or closed-sourced, real-world usage of LLMs may demonstrate th
 | DeepSeek-R1 | 2025 | Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd 杭州深度求索人工智慧基礎技術研究有限公司 | Open Source | China |
 | GPT-5 | 202? | OpenAI | Unknown; trademark registered | U.S. |
 
-: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025].
+Table: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption="7 Years of Rapid AI Model Innovation"}
 
 ```{python}
 models_chart()
@@ -263,7 +265,7 @@ Today's machines are much more capable so it's not a surprise humans would like 
 | Electronic pet                                              |
 | Tool for venting                                            |
 
-: Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022.
+Table: Replika AI users approach to interacting with the AI friend from @jiangChatbotEmergencyExist2022. []{short-caption="Replika AI Users and AI Friends"}
 
 Suprisingly, humans can have emotionally deep conversations with robots. Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]. LLMs combined with voice, such as the Pi iOS app, provide an user experience, which [@ethanmollick2023] calls *unnerving*. The company provides *emotional intelligence* as a service and has developed its own proprietary LLM, called Inflection AI, which has raised over 1B USD in funding [@mittalInflection25PowerhouseLLM2024]. While startups are moving fast, traditional AI companies, with decades of AI experience, such as Google, are also developing an AI assistants for giving life advice [@goswamiGoogleReportedlyBuilding2023]. The conversations can be topic-specific. For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
 
@@ -297,7 +299,7 @@ Multimodal model development is ongoing. Previously, providing multi-model featu
 | Retrieval-augmented hybrids (RAG) | Retrieval methods enhance truthfulness | Improved factual grounding | Difficulty in integrating retrieved content |
 | Reinforcement-learning | Fine-tuning can steer conversational style and safety | Flexible style and safety alignment | High resource usage, sensitive to reward design |
 
-: Three areas of focus in conversational AI development in from [@fuLearningConversationalAI2022].
+Table: Three areas of focus in conversational AI development in from [@fuLearningConversationalAI2022]. []{short-caption="Areas of Focus in Conversational AI Development"}
 
 Literature also delves into human-AI interactions on almost human-like level discussing what kind of roles can the AIs take. [@seeberMachinesTeammatesResearch2020] proposes a future research agenda for regarding *AI assistants as teammates* rather than just tools and the implications of such mindset shift. From assistant -\> teammate -\> companion -\> friend The best help for anxiety is a friend. AIs are able to assume different roles based on user requirements and usage context. This makes AI-generated content flexible and malleable. The path from \*\*Assistance\* to *Collaboration* requires another level of trust. It's not only what role the AI takes but how that affects the human. As humans have ample experience relating to other humans and as such the approach towards an assistants vs a teammate will vary. While [@lenharoChatGPTGivesExtra2023] experimental study reports AI productivity gains, with DALL-E and ChatGPT being qualitatively better than former automation systems, we might still be 1-3 years away from systems that qualify as team-mates. Once AI reaches that level, would it change how do humans treat it? Not because the AI might be hurt, but because how it affects the psyche of the user: this is an area which needs much more attention. One researcher in this field @karpusAlgorithmExploitationHumans2021 is concerned with humans treating AI badly and coins the term *algorithm exploitation*.
 
@@ -335,7 +337,7 @@ There have been dozens of AI-characters in the movies, TV-series, games, and (co
 | The Robots of Dawn | R. Giskard Reventlov |  | X |  |
 | Portal | GLaDOS |  |  | X |
 
-: AIs in different forms of media.
+Table: AIs in different forms of media. []{short-caption="AIs in Different Forms of Media"}
 
 ```{python}
 scifi_chart()
@@ -372,6 +374,8 @@ The number of AI-powered assistants is too large to list here. I've chosen a few
 | Google Search | google.com |  |
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool |
 | Perplexity | [@hinesPerplexityAnnouncesAI2023] | perplexity.ai chat-based search |
+
+Table: AI Assistants []{short-caption="AI Assistants"}
 
 ::: {.content-hidden unless-format="pdf"}
 ![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
@@ -418,7 +422,7 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 | High Carbon Cost   | AI-based personalization is computation-intensive |
 | Surveillance       | Personalization needs large-scale data capture    |
 
-: Criticism of Generative UI by [@NielsenIdeasGenerative2024].
+Table: Criticism of Generative UI by [@NielsenIdeasGenerative2024]. []{short-caption="Criticism of Generative UI"}
 
 [@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximise their rate of information gain.
 
@@ -437,7 +441,7 @@ A wide range of literature describes human-AI interactions, spread out over vari
 | Childcare | Generate personalized bedtime stories |
 | Design Tools | [@DavidHoangHow2024] |
 
-: A very small illustration of generative AI usage across disparate fields of human life.
+Table: A very small illustration of generative AI usage across disparate fields of human life. []{short-caption="GenAI Use Across Fields"}
 
 ### Usability Is the Bare Minimum of Good User Experience
 
@@ -458,7 +462,7 @@ Microsoft provides guidelines for Human-AI interaction, which provides useful he
 | When wrong | Let users retry fast and make corrections; empower users to dismiss easily; explain why the system acted; be precise and in-scope |
 | Over time | Track changes and adapt from use; announce changes and update with care (so not to break the user's work); invite feedback; show outcome of actions clearly; provide global settings |
 
-: Microsoft's heuristics categorized by context and time.
+Table: Microsoft's heuristics categorized by context and time. []{short-caption="Microsoft's Heuristics"}
 
 The previous design wave before UX for AI was corporations understanding how crucial design is to their business. In the 2010s business consultancies began to recognize the importance of design and advising their clients on putting design in the center of their strategy, bringing user experience design to the core of their business operations. [@mckeoughMcKinseyDesignLaunches2018]. There's a number of user interface design patterns that have proven successful across a range of social media apps. Such *user interface* (UX/UI) patterns have been copied from one app to another, to the extent that the largest apps share a similar look and feature set and the users are used to the same user experience. Common UX/UI parts include features such as the *Feed*, *Stories*, and *Avatars*, among many others. This phenomenon (or trend) has led some designers such as [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] to be worried about UIs becoming average: more and more similar to the lowest common denominator. Yet, by using common UI parts from social media, users may have an easier time to accept the innovative parts, as they just look like new features inside the old interface. As new generations become increasingly used to talking to computers in natural language, the older interface patterns may gradually fade away.
 
@@ -470,7 +474,7 @@ The previous design wave before UX for AI was corporations understanding how cru
 | Comment | YouTube, Threads, Reddit, Medium, etc | Threaded conversationsfuel community engagementand discussion |
 | Reactions | Facebook, Instagram, Slack, Threads, but even LinkedIn and Github. | The feature has involved from a simple like button to more expressive emotions. |
 
-: Common social media UI parts.
+Table: Common social media UI parts. []{short-caption="Common Social Media UI Parts"}
 
 There are also more philosophical approaches to *Interface Studies*. [@davidhoangCreatingInterfaceStudies2022], the head of product design at Webflow, an AI-enabled website development platform, suggests taking cues from art studies to *isolate the core problem*: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*. Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies [@Review2023Helsinki2023]. [@jarovskyDarkPatternsAI2022] lists the numerous ways how AIs can mislead people, which she calls the AI UX dark patterns, and the U.S. FTC Act and the EU AI Act are attempting to manage.
 
@@ -488,11 +492,13 @@ The application of user experience (UX) tenets to AI.
 | Desirable |
 | Credible  |
 
-[@guptaDesigningAIChatbot2023] proposes 3 simple goals for AI:
+Table: UX Tenets in AI. []{short-caption="UX Tenets in AI"}
 
 | 1 | 2 | 3 |
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
+
+Table: [@guptaDesigningAIChatbot2023] proposes 3 simple goals for AI: []{short-caption="Simple Goals for AI"}
 
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsofts"* @lohrMicrosoftDwindlingInterest2004. Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
@@ -549,7 +555,7 @@ What are the next features that could improve the next-generation UX/UI of AI-ba
 | AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |
 | Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |
 
-: Some notable examples of anthropomorphic AIs for human emotions.
+Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
 
 ### Roleplay for Financial Robo-Advisors
 
@@ -627,6 +633,6 @@ The most comprehensive meta-review of research on how AI chatbots could mimic hu
 | **Invisible** | **Haptics** | Tactile touch | Device vibration or touch feedback |
 |  |  | Temperature | Warmth or coolness cues |
 
-: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019].
+Table: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
 
 Literature on fintech UX does share some basic tenets with AI UX on building user confidence. [@WhyDesignKey2021] lists essential tactics for building trust in fintech: (1) consistency in UI patterns, (2) transparent feedback, (3) clear error handling, and (4) educating users about data usage. [@seanmcgowanUXDesignFinTech2018] offers four guidelines for fintech apps: (1) understand domain complexities, (2) friction is necessary for safety - embrace it, (3) provide continuous and clear feedback, and (4) simplify complex financial information - this can build user confidence and reduce errors. [@cordeiroDesignNoLonger2016] emphasizes designing for the "unhappy path" - negative experiences can shape users’ perception deeply, as bad memories carve strongly in their user experience - products which handle failures and edge cases gracefully, however, stand out and maintain satisfaction. [@robindhanwaniFintechUIUX2021] approaches UX problems from an organizational perspective, noting that in large organizations, UX issues can stem for lack of alignment between teams; the authors propose *Design Jams* as a potential solution to improve cross-team collaboration - design jams are cross-functional workshops, which can help teams align on user needs, generate rapid prototypes, and iteratively refine interfaces - which, in theory, could improve the adherence to the guidelines above noted.
