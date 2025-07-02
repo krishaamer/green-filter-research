@@ -128,7 +128,7 @@ Countries have agreed up CO~2e~ Reduction Targets known as Country-Level Nationa
 | Iran                 | Critically insufficient |
 | Saudi Arabia         | Highly insufficient     |
 
-Table: Climate Action Tracker's country comparison of the 10 top polluters' climate action [@climateanalyticsClimateActionTracker2023]. []{short-caption="Top 10 Polluters"}
+Table: Climate Action Tracker's country comparison of the 10 top polluters' climate action [@climateanalyticsClimateActionTracker2023]. []{short-caption="Top Polluters"}
 
 ```{python}
 ndc_chart()
@@ -438,7 +438,7 @@ Ecosystem services literature defines a "Nature’s Contributions to People" fra
 | Create ecosystem service markets               |
 | Commodify nature                               |
 
-Table: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] {short-caption="Defining Ecosystem Services Concepts"} 
+Table: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] []{short-caption="Defining Ecosystem Services Concepts"} 
 
 A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 

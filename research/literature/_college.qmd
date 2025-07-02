@@ -77,15 +77,21 @@ Many general observations can be made, however to create meaningful personas, th
 
 Addressing the Research Gap When it Comes to Taiwanese College Students. There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regards to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
 
-[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of Postmaterialist Index Comparison, noting Taiwanese society is materialistic.
+[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Postmaterialist Index Comparison*, noting Taiwanese society is materialistic.
 
 ```{python}
+#| label: fig-postmat-index
+#| fig-cap: "Postmaterialist Index across 59 countries (Taiwan highlighted)"
+#| fig-scap: "Postmaterialist Index (Taiwan Highlighted)"
 postmaterialist_chart()
 ```
 
 World Values Survey
 
 ```{python}
+#| label: fig-world-values
+#| fig-cap: "World Values Survey"
+#| fig-scap: "World Values Survey"
 world_values_chart()
 ```
 
@@ -106,7 +112,7 @@ The largest study to date, conducted by the United Nations across 50 countries, 
 | 36-59     | 66%   | 34%                 |
 | Over 69   | 58%   | 42%                 |
 
-: 1.2 million UN survey responses to the statement "Climate change is an emergency". {#tbl-label}
+Table: 1.2 million UN survey responses to the statement "Climate change is an emergency". []{short-caption="UN Survey: 1.2 Million Responses to the Statement *Climate Change Is An Emergency*"}
 
 At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n =596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n = 328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n = 536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
@@ -115,6 +121,9 @@ At the university level, [@chenMarineEnvironmentalAwareness2016] reports a *posi
 Comparing college students' education for sustainable development (ESD) in Taiwan (n = 617) and Sweden (n = 583) found Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform [@berglundCrossculturalComparativeStudy2020].
 
 ```{python}
+#| label: fig-tw-swe
+#| fig-cap: "Comparing college students' education for sustainable development in Taiwan and Sweden"
+#| fig-scap: "College Students' Sustainability Education: Taiwan vs Sweden"
 compare_taiwan_sweden()
 ```
 
@@ -150,7 +159,7 @@ The table below illustrates the types of emissions and environmental impacts lar
 | 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
 | 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |
 
-: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. {#tbl-label}
+Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large Industrial Polluters in Taiwan"}
 
 ## Climate Anxiety Responses
 
@@ -165,6 +174,9 @@ When disaster hits we need high levels of *social trust*. being part of communit
 Psychological factors influencing millennials to engage with sustainability [@naderiMeFirstThen2018]
 
 ```{python}
+#| label: fig-mil-psych-sust
+#| fig-cap: "Psychological factors influencing millennials to engage with sustainability"
+#| fig-scap: "Psychological Factors Influencing Millennials to Engage with Sustainability"
 green_millenials()
 ```
 
@@ -218,17 +230,23 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 |                     421 | Taiwan Cement             |                  55.49 |
 |                     497 | Advantech                 |                  53.14 |
 
-: Data from [@alanasemuelsWorldMostSustainable2024]. {#tbl-label}
+Table: World’s Most Sustainable Companies; data from [@alanasemuelsWorldMostSustainable2024]. []{short-caption="World’s Most Sustainable Companies"}
 
 Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021]. Meanwhile, earth.org’s list of the world’s 50 most sustainable companies in 2022, only includes 1 Taiwanese company - TSMC [@earth.orgWorld50Most2022].
 
 ```{python}
+#| label: fig-tw-comp-rank
+#| fig-cap: "Taiwanese Company Ranking"
+#| fig-scap: "Taiwanese Company Ranking"
 taiwanese_company_ranking_chart()
 ```
 
 Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey.
 
 ```{python}
+#| label: fig-tw-comp-rank
+#| fig-cap: "British Company Ranking"
+#| fig-scap: "British Company Ranking"
 company_rank_chart()
 ```
 
