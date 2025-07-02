@@ -72,6 +72,9 @@ The European Commission is set to propose a legally-binding 90% emissions reduct
 The above chart shows how the European Union has been on a path of climate legislation transformation.
 
 ```{python}
+#| label: fig-eu-green-deal
+#| fig-cap: "The EU's Green Deal"
+#| fig-scap: "The EU's Green Deal"
 eu_green_deal()
 ```
 
@@ -102,6 +105,9 @@ While Taiwan doesn't yet have a specific eco-design law, there are various piece
 The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart below. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product life-cycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), eco-design moves sustainability up the design chain (being *pro-active*), setting standards for making better products - in essence, attempting to *design-out* the waste.
 
 ```{python}
+#| label: fig-ps-epr
+#| fig-cap: "Extended Producer Responsibility vs Product Stewardship vs Eco-Design"
+#| fig-scap: "Extended Producer Responsibility vs Product Stewardship vs Eco-Design"
 compare_ps_epr_ecodesign()
 ```
 

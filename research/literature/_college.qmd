@@ -97,9 +97,12 @@ world_values_chart()
 
 [@franzenDevelopmentGlobalEnvironmental2024] measures *"mean environmental concern"* to look at decade-level changes in societal environmental attitudes across countries. Taiwan's general attitudes have stayed almost the same (slight increase). The UK has had the largest jump in concern. Curiously, South Korea has had a slight decrease in concern. Slovakia and Russia were not very concerned with the environment a decade ago and are even less concerned now.
 
-A large-scale global study by [@anthonyleiserowitzInternationalPublicOpinion2022] administered on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe "climate change is mostly caused by human activities".
+A large, global-scale study by [@anthonyleiserowitzInternationalPublicOpinion2022] administered on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *"climate change is mostly caused by human activities"*.
 
 ```{python}
+#| label: fig-global-climate-attitudes
+#| fig-cap: "Global Attitudes Towards Climate Change"
+#| fig-scap: "Global Attitudes Towards Climate Change"
 mean_global_attitudes()
 ```
 
@@ -358,5 +361,8 @@ A Chinese study from two authors at the Minzu University and Beijing Normal Univ
 In Sweden, a large-scale (n = 5894) survey across several Swedish universities showed college students' attitudes towards AI assistants (ChatGPT was by far the most prevalent app, 95 % of respondents had heard of ChatGPT and 35 % used it regularly); 55.9% held a positive attitude toward AIs; integrity was a hotly debated question, 62% calling AI use in exams "cheating," but 60% rejecting an outright ban, and 58% saying it doesn’t violate the purpose of education [@stohrPerceptionsUsageAI2024].
 
 ```{python}
+#| label: fig-college-chatbot
+#| fig-cap: "Swedish College Students' Attitudes Towards AI Assistants"
+#| fig-scap: "Swedish College Students' Attitudes Towards AI Assistants"
 college_chatbot()
 ```
