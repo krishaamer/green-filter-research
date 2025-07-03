@@ -12,19 +12,28 @@ Student attitudes towards investing.
 ### Saving and Investing
 
 ```{python}
+#| label: fig-survey-att-inve
+#| fig-cap: "Student Attitudes Towards Saving and Investing"
+#| fig-scap: "Student Attitudes Towards Saving and Investing"
 likert_single_chart(1)
 ```
 
 ### Investing Experience (Overall)
 
 ```{python}
+#| label: fig-survey-invest-xp
+#| fig-cap: "Students' Investing Experience"
+#| fig-scap: "Students' Investing Experience"
 investment_count()
 ```
 
 ## Choice Experiment
 
-Question: 你/妳選哪個投資？Which investment do you choose?
+Question: 你/妳選哪個投資？ Which investment do you choose?
 
 ```{python}
+#| label: fig-survey-invest-choice-xp
+#| fig-cap: "Investing Choice Experiment"
+#| fig-scap: "Investing Choice Experiment"
 investment_data()
 ```

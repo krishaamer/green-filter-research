@@ -10,31 +10,49 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 
 ## Economy
 ```{python}
+#| label: fig-survey-econ-res
+#| fig-cap: "Student Attitudes Towards Economics Issues"
+#| fig-scap: "Student Attitudes Towards Economics Issues"
 likert_single_chart(2)
 ```
 
 ## AI Use
 ```{python}
+#| label: fig-survey-ai-use
+#| fig-cap: "Student Attitudes Towards AI Use"
+#| fig-scap: "Student Attitudes Towards AI Use"
 likert_single_chart(3)
 ```
 
 ## Nature
 ```{python}
+#| label: fig-survey-nature
+#| fig-cap: "Student Attitudes Towards Nature"
+#| fig-scap: "Student Attitudes Towards Nature"
 likert_single_chart(4)
 ```
 
 ## Environmental Protection
 ```{python}
+#| label: fig-survey-envir-protect
+#| fig-cap: "Student Attitudes Towards Environmental Protection"
+#| fig-scap: "Student Attitudes Towards Environmental Protection"
 likert_single_chart(5)
 ```
 
 ## Learning Environment
 ```{python}
+#| label: fig-survey-learn-env
+#| fig-cap: "Students' Learning Environment"
+#| fig-scap: "Students' Learning Environment"
 likert_single_chart(6)
 ```
 
 ## Correlations Between Fields
 ```{python}
+#| label: fig-survey-corr
+#| fig-cap: "Correlations Between Student Attitudes"
+#| fig-scap: "Correlations Between Student Attitudes"
 correlation_network()
 ```
 
@@ -42,6 +60,9 @@ correlation_network()
 Test knowledge about the environment.
 
 ```{python}
+#| label: fig-survey-envir-know
+#| fig-cap: "Students' Environmental Knowledge"
+#| fig-scap: "Students' Environmental Knowledge"
 ecosystem_sensitivity()
 ```
 

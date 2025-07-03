@@ -8,21 +8,33 @@ warnings.filterwarnings("ignore")
 ## Shopping
 
 ```{python}
+#| label: fig-survey-student-shopping
+#| fig-cap: "College Student Attitudes Towards Shopping"
+#| fig-scap: "College Student Attitudes Towards Shopping"
 likert_single_chart(0)
 ```
 
 ### Boycott Count (Overall)
 ```{python}
+#| label: fig-survey-student-boycott
+#| fig-cap: "College Students Boycott Experience"
+#| fig-scap: "College Students Boycott Experience"
 boycott_count()
 ```
 
 ### Why Boycott
 ```{python}
+#| label: fig-survey-student-boycott-reasons
+#| fig-cap: "College Students Boycott Reasons"
+#| fig-scap: "College Students Boycott Reasons"
 why_boycott()
 ```
 
 ### Trusted Brands
 ```{python}
+#| label: fig-survey-student-trusted-brands
+#| fig-cap: "College Student Trusted Brands"
+#| fig-scap: "College Student Trusted Brands"
 trusted_brands()
 ```
 
@@ -30,6 +42,9 @@ The following responses were counted as "no brand": "無", "沒有", "沒有特�
 
 ## Choice Experiments
 ```{python}
+#| label: fig-survey-student-shopping-choice
+#| fig-cap: "College Student Shopping Choice Experiment"
+#| fig-scap: "College Student Shopping Choice Experiment"
 visualize_shopping_data()
 ```
 

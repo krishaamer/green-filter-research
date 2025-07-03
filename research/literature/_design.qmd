@@ -201,6 +201,9 @@ Food, clothes, and consumer goods (I'm omitting housing and transport here) are 
 Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global conglomerates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024]. Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
 
 ```{python}
+#| label: fig-consumer-goods
+#| fig-cap: "Consumer Goods"
+#| fig-scap: "Consumer Goods"
 fast_consumer_goods()
 ```
 
@@ -465,6 +468,9 @@ open_data_index()
 Other indexes do not include Taiwan in the TOP 10.
 
 ```{python}
+#| label: fig-open-data-compare
+#| fig-cap: "Alternative Open Data Indexes"
+#| fig-scap: "Alternative Open Data Indexes"
 open_data_compare()
 ```
 
@@ -481,6 +487,9 @@ Table: Examples of cities and countries that share data openly. Data sourced fro
 To give a concrete example of the usefulness of open data, for instance, the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore, the Monetary Authority has launched an open data portal for ESG information, allowing anyone to delve into environmental, social, and governmental topics [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
 
 ```{python}
+#| label: fig-mal-forests
+#| fig-cap: "Open Data As An Information Source for Environmental Decline"
+#| fig-scap: "Open Data As An Information Source for Environmental Decline"
 malaysia_forests()
 ```
 

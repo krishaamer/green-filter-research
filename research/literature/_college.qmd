@@ -50,18 +50,27 @@ Meanwhile, as the climate-justice protests unfolded around the world, in Taiwan,
 Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
 
 ```{python}
+#| label: fig-tw-high-ed-enrollment
+#| fig-cap: "Enrollment in Taiwanese Higher Education"
+#| fig-scap: "Enrollment in Taiwanese Higher Education"
 genz_enrollment_chart()
 ```
 
 As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
 
 ```{python}
+#| label: fig-tw-high-ed-funding
+#| fig-cap: "Funding for Taiwanese Higher Education"
+#| fig-scap: "Funding for Taiwanese Higher Education"
 college_decline_chart()
 ```
 
 While the overall number of students is declining, the share of international students is increasing.
 
 ```{python}
+#| label: fig-tw-high-ed
+#| fig-cap: "Demographics of Taiwanese Higher Education"
+#| fig-scap: "Demographics of Taiwanese Higher Education"
 higher_education_chart()
 ```
 

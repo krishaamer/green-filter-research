@@ -20,6 +20,9 @@ K-prototypes combines K-mean and K-modes unsupervised machine learning algorithm
 
 
 ```{python}
+#| label: fig-survey-personas
+#| fig-cap: "College Student Personas"
+#| fig-scap: "College Student Personas"
 show_personas()
 ```
 
@@ -28,6 +31,9 @@ show_personas()
 Questions Most Affecting Persona Creation include...
 
 ```{python}
+#| label: fig-survey-personas-one
+#| fig-cap: "Persona 1: *Eco-Friendly*"
+#| fig-scap: "Persona 1: *Eco-Friendly*"
 show_single_persona(0)
 ```
 
@@ -35,6 +41,9 @@ show_single_persona(0)
 ### Persona 2: "Moderate"
 Questions Most Affecting Persona Creation include...
 ```{python}
+#| label: fig-survey-personas-two
+#| fig-cap: "Persona 1: *Moderate*"
+#| fig-scap: "Persona 1: *Moderate*"
 show_single_persona(1)
 ```
 
@@ -42,12 +51,18 @@ show_single_persona(1)
 ### Persona 3: "Frugal"
 Questions Most Affecting Persona Creation include...
 ```{python}
+#| label: fig-survey-personas-three
+#| fig-cap: "Persona 1: *Frugal*"
+#| fig-scap: "Persona 1: *Frugal*"
 show_single_persona(2)
 ```
 
 ## Clustering Heatmap
 
 ```{python}
+#| label: fig-survey-heatmap
+#| fig-cap: "College Students' Clustering Heatmap"
+#| fig-scap: "College Students' Clustering Heatmap"
 show_clustering_heatmap()
 ```
 
@@ -56,6 +71,9 @@ show_clustering_heatmap()
 Mean response values for each Likert question in each cluster:
 
 ```{python}
+#| label: fig-survey-mean-answ
+#| fig-cap: "Mean Values of Survey Responses"
+#| fig-scap: "Mean Values of Survey Responses"
 get_kmeans_table()
 ```
 
@@ -63,6 +81,9 @@ get_kmeans_table()
 Highest agreement between personas is about health, safety, pollution and climate concerns.
 
 ```{python}
+#| label: fig-survey-high-agree
+#| fig-cap: "Topics With Highest Agreement Between Personas"
+#| fig-scap: "Topics With Highest Agreement Between Personas"
 treemap()
 ```
 

@@ -51,6 +51,9 @@ While Google is the most popular browser with 3 billion users, extensions are a 
 However it's only available for computers (extensions don't run on phones and tablets).
 
 ```{python}
+#| label: fig-app-installs
+#| fig-cap: "Green Filter Google Chrome Extension Installs"
+#| fig-scap: "Green Filter Google Chrome Extension Installs"
 app_installs()
 ```
 

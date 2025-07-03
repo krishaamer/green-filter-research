@@ -7,6 +7,9 @@ warnings.filterwarnings("ignore")
 ## Saving
 
 ```{python}
+#| label: fig-survey-corr-invest
+#| fig-cap: "Correlation Between Saving Levels and Investing"
+#| fig-scap: "Correlation Between Saving Levels and Investing"
 saving_to_investing()
 ```
 

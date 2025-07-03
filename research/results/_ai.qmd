@@ -7,6 +7,9 @@ from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, rad
 ### Likert-Based Clustering
 AI-assistant feature choices per Likert-based Personas
 ```{python}
+#| label: fig-ai-features-likert
+#| fig-cap: "AI-Assistant Feature Choices per Likert-based Personas"
+#| fig-scap: "AI-Assistant Feature Choices per Likert-based Personas"
 likert_cluster_and_visualize()
 ```
 
@@ -34,15 +37,24 @@ Want:
 
 ### Feature Preferences (Overall)
 ```{python}
+#| label: fig-ai-features-pref-overall
+#| fig-cap: "AI-Assistant Feature Preferences (Overall)"
+#| fig-scap: "AI-Assistant Feature Preferences (Overall)"
 radar_chart()
 ```
 
 ## Feature Preferences (By Cluster)
 ```{python}
+#| label: fig-ai-features-pref-cluster
+#| fig-cap: "AI-Assistant Feature Preferences (By Cluster)"
+#| fig-scap: "AI-Assistant Feature Preferences (By Cluster)"
 plot_feature_preferences()
 ```
 
 ## Preferred AI Roles (Overall)
 ```{python}
+#| label: fig-ai-role-pref
+#| fig-cap: "AI-Assistant Role Preferences"
+#| fig-scap: "AI-Assistant Role Preferences"
 ai_roles()
 ```

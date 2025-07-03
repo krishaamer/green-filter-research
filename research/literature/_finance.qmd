@@ -34,6 +34,9 @@ Digital money in it's various forms connects industries on popular financial mob
 While it took N26 and Revolut more than a decade to grow into global businesses, fintechs can growth really fast. Just last year in Canada, Neo Financial, which offers a mobile app and credit cards to consumers featuring cashback rewards on payments, savings and investing, won Canada's fastest growing company award in 2024, posting a 3-year revenue growth of 38,431%, earning between \$75M and \$100M USD in annual revenue from 1.3 million customers [@RankingCanadasTop2024]. [@qorusGreatReinventionGlobal2023] a survey of 200 banking executives worldwide, revealed we're in a digital banking revolution, with growing adoption of personalization, automation, and *embedded finance* - the availability of savings, loans, insurance, debit cards, and investment opportunities embedded within the apps of non-financial platforms, like e-commerce or social media platforms.
 
 ```{python}
+#| label: fig-fintech-growth
+#| fig-cap: "Fintech Growth"
+#| fig-scap: "Fintech Growth"
 fintech_chart()
 ```
 
@@ -64,6 +67,9 @@ The next step is to provide frictionless digital pathways that let everyday purc
 Financial superapps for shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
 
 ```{python}
+#| label: fig-retail-green-nongreen
+#| fig-cap: "Green Retail vs Non-Green Retail"
+#| fig-scap: "Green Retail vs Non-Green Retail"
 retail_green_vs_nongreen()
 ```
 
@@ -108,6 +114,9 @@ In theory, *Socially Responsible Investing* (SRI) integrates ESG criteria to scr
 The lack of rigor is creating a backlash against ESG reporting. [@chenxiyuHowAICan2021] reports ESG is filled with greenwashing. [@AntiESGCrusadeUS2023] several US states are introducing regulation for ESG to curb greenwashing. [@francesschwartzkopffEUExploresTighter2022] suggests the ESMA and EU has strengthened legislation to counter ESG greenwashing. [@shashwatmohantyGreenPushGreenwash2022] "sustainable funds don't buy Zomato's ESG narrative". [@bindmanESGFundsFunnel2024] reports large ESG funds managed by BlackRock and Vanguard are investing into JBS, a meat-packing company which is linked to deforestation of the Amazon rainforest through its supply chain.
 
 ```{python}
+#| label: fig-conv-vs-sri
+#| fig-cap: "Conventional vs Socially Responsible Funds"
+#| fig-scap: "Conventional vs Socially Responsible Funds"
 conventional_vs_sri_funds()
 ```
 
@@ -128,6 +137,9 @@ The California Transparency in Supply Chains Act which came into effect in 2012 
 The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015, yet commodification of human beings is still practiced worldwide [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies. Not everyone is in favor of more stringent labor practices either. Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. *"Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"* [@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade.
 
 ```{python}
+#| label: fig-slavery-laws
+#| fig-cap: "Slavery Laws"
+#| fig-scap: "Slavery Laws"
 slavery_laws()
 ```
 
@@ -138,6 +150,9 @@ While reducing slavery in the supply chain sets very low bar for ESG, another as
 These issues do not pertain only to legacy industries. With the increase of gig-work, platform economy companies have been criticized for their lack of concerns for workers rights (S in ESG). In the absence of continuous assessment, sometimes intrepid journalists come in to cover the issues. One example is the coverage by [@siddiquiRidersSmogPollution2024], using portable Atmotube Pro air pollution tracking devices (the same device I use myself) to document how gig workers across South Asia, from India to Bangladesh to Pakistan are subjected to pollution, finding PM2.5 exposure 10x over the WHO daily guideline, shortening lives (according to the Air Quality Life Index) by 11.9 years in New Delhi, 8.1 years in Dhaka, and 7.5 years in Lahore, respectively. Air quality varies dramatically between places, however taking the global average in 2022, if fine particulate pollution were reduced to meet the WHO guideline, a person would have gained 1 year and 11 months of life expectancy [@AirQualityLife2022].
 
 ```{python}
+#| label: fig-air-quality-sea
+#| fig-cap: "Air Quality in Taiwan vs South-East Asia"
+#| fig-scap: "Air Quality in Taiwan vs South-East Asia"
 air_quality_southasia_vs_taiwan()
 ```
 
@@ -152,6 +167,9 @@ Taiwan has listed ESG stocks since 2017 and was hailed by Bloomberg as a regiona
 [@ImportanceESGMeasurement2022] suggests ACWI ESG leaders outperform the non-ESG screened ACWI based on comparing MSCI indexes. It's notable that ACWI ESG started to outperform the traditional ACWI only in the past few years (evidence that capital markets are starting to price sustainability, but still inconsistently). Nordic Climate Transparency Leadership analysis of Nasdaq OMX Nordic 120 companies: *"companies with higher quality climate reporting also provide higher returns"*. In contrast, [@luoESGLiquidityStock2022] found firms with a lower ESG score are more profitable.
 
 ```{python}
+#| label: fig-esg-leaders
+#| fig-cap: "ESG Funds vs Non-ESG Funds"
+#| fig-scap: "ESG Funds vs Non-ESG Funds"
 msci_esg_leaders()
 ```
 
@@ -160,16 +178,25 @@ msci_esg_leaders()
 Trucost, a company launched in 2000 to calculate the hidden environmental costs of large corporations and advance circular-economy practices was acquired in 2016 by S&P Dow Jones Indices, which by 2019 became a part of its ESG product offering [@toffelTrucostValuingCorporate2011; @mikehowerTrucostTruValueLabs2015; @indicesDowJonesIndices2016; @RollsOutTrucost2019]. It's parent company S&P Global also acquired RobecoSAM’s ESG rating business, consolidating S&P's control of ESG ratings [@georgegeddesGlobalAcquiresRobecoSAM2019].
 
 ```{python}
+#| label: fig-triple-perf
+#| fig-cap: "Company Performance"
+#| fig-scap: "Company Performance"
 companies_triple_perf()
 ```
 
 A meta-review of 136 research articles discovered the following ESG-rating agencies.
 
 ```{python}
+#| label: fig-esg-rating-agencies
+#| fig-cap: "ESG Rating Agencies"
+#| fig-scap: "ESG Rating Agencies"
 esg_rating_agencies_chart()
 ```
 
 ```{python}
+#| label: fig-fund-types
+#| fig-cap: "Types of Investment Funds"
+#| fig-scap: "Types of Investment Funds"
 fund_types_chart()
 ```
 
@@ -190,16 +217,25 @@ Governance in ESG is the G that makes E and S happen - or put in another way: go
 Table: Climate Experts on Company Boards []{short-caption="Climate Experts on Company Boards"}
 
 ```{python}
+#| label: fig-board-sust-expert
+#| fig-cap: "Lack of Board Members With Sustainability Expertise"
+#| fig-scap: "Lack of Board Members With Sustainability Expertise"
 msci_board_sustainability_experts()
 ```
 
 ```{python}
+#| label: fig-board-sust-expert-large
+#| fig-cap: "Large Carbon Emitters Lack Sustainability Experts"
+#| fig-scap: "Large Carbon Emitters Lack Sustainability Experts"
 companies_large_emitters_climate_experts()
 ```
 
 Most companies do not meet the criteria [@climateaction100+Companies2023].
 
 ```{python}
+#| label: fig-companies-carbon-criteria
+#| fig-cap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
+#| fig-scap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
 companies_large_emitters_criteria()
 ```
 
@@ -208,6 +244,9 @@ Lack of leadership is a key challenge for sustainability. [@capgeminiWorldBalanc
 A systematic study of 153 peer-reviewed papers of ESG literature published between 2006 and 2023 around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes; actively diversifying boards, especially adding members with sustainability expertise, and aligning executive compensation with ESG targets to translate strategic ambitions into operational results, may boost ESG outcomes [@martinyDeterminantsEnvironmentalSocial2024].
 
 ```{python}
+#| label: fig-board-diversity
+#| fig-cap: "Board Diversity"
+#| fig-scap: "Board Diversity"
 ck_board_diversity()
 ```
 
@@ -218,6 +257,9 @@ Many large businesses have tried to find solutions by launching climate-focused 
 Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
 
 ```{python}
+#| label: fig-esg-board-div
+#| fig-cap: "ESG vs Board Diversity"
+#| fig-scap: "ESG vs Board Diversity"
 esg_vs_board_diversity()
 ```
 
@@ -225,9 +267,12 @@ Board diversity in the top 5 sustainable companies in 2024 based on Corporate Kn
 
 ### ESG Success Depends on Digitization and GenAI
 
-In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 1551 banks, of which only 180 banks disclosed sufficient ESG data for comparison, building an Fintech Adoption Index; the key findings included a positive correlation between Fintech Index and ESG Scores , suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible).
+In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 1551 banks, of which only 180 banks disclosed sufficient ESG data for comparison, building an *Fintech Adoption Index*; the key findings included a positive correlation between Fintech Index and ESG Scores, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible).
 
 ```{python}
+#| label: fig-esg-fintech
+#| fig-cap: "Fintech Adoption Predicts Higher ESG"
+#| fig-scap: intech Adoption Predicts Higher ESG"
 esg_fintech_heatmap()
 ```
 
@@ -286,6 +331,9 @@ There is plenty of research on if and how sustainable shopping could be possible
 Sustainable consumption relationships in Europe.
 
 ```{python}
+#| label: fig-sust-consum
+#| fig-cap: "Sustainable Consumption"
+#| fig-scap: "Sustainable Consumption"
 sustainable_consumption_relationships()
 ```
 
@@ -296,12 +344,18 @@ Make use of indexes to compare companies.
 It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping, Single's day, etc [@forresterForresterGlobalOnline2024]. However, importantly - more and more consumers are using AI assistants to find alternative products, make shopping lists, which may have an effect on *what type* of products are bought [@pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025]
 
 ```{python}
+#| label: fig-shopping-growth
+#| fig-cap: "Growth of Consumerism"
+#| fig-scap: "Growth of Consumerism"
 shopping_growth()
 ```
 
 Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] *"Asia is set to account for 50% of the world's total online retail sales"*. [@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
 
 ```{python}
+#| label: fig-soc-com
+#| fig-cap: "Social Commerce"
+#| fig-scap: "Social Commerce"
 social_commerce_chart()
 ```
 
@@ -498,12 +552,18 @@ Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made
 By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
 
 ```{python}
+#| label: fig-climate-fin-funding
+#| fig-cap: "Climate Finance Funding Gap"
+#| fig-scap: "Climate Finance Funding Gap"
 climate_finance_gap_sectors_timeline()
 ```
 
 What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
 
 ```{python}
+#| label: fig-climate-fin-funding-sectors
+#| fig-cap: "Climate Finance By Sector"
+#| fig-scap: "Climate Finance By Sector"
 climate_finance_gap_sectors()
 ```
 
@@ -512,6 +572,9 @@ The needed investment doesn't seem so large, around 5% of the global GDP, if one
 The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
 
 ```{python}
+#| label: fig-high-value-assets
+#| fig-cap: "Climate Funding Gap vs High Value Assets"
+#| fig-scap: "Climate Funding Gap vs High Value Assets"
 money_chart()
 ```
 
@@ -587,6 +650,9 @@ Table: Investment Types []{short-caption="Investment Types"}
 There are also newer asset classes.
 
 ```{python}
+#| label: fig-asset-classes
+#| fig-cap: "Asset Classes"
+#| fig-scap: "Asset Classes"
 asset_classes()
 ```
 
@@ -630,6 +696,9 @@ In 2017 the Malmö city in Sweden released green bonds to finance a sustainable 
 Making sure a green bond is truly supporting sustainability is a challenge. For example, Aramco, the Saudi Arabian public petroleum and natural gas company faced scrutiny for what critics deemed as 'Fake green bonds' [@anthropocenefixedincomeinstituteafiiAFIIAramcoReplacement2022]. Green bonds can also be emitted on blockchains with the stated goal of improving transparency. Hong Kong multi-currency green bond on the blockchain. The issuer (Hong Kong government) hopes to reduce greenwashing [@hallHKBreaksNew2024; @kitanoHongKongHarnesses2024]. In the EU as well, there are emerging tools for monitoring green bonds on blockchain [@christodoulouBlockchainbasedFrameworkEffective2023]. [@qinBlockchainMarketGreen2023] finds evidence that the combination of green bonds and blockchains are an enabler carbon neutrality in China. The World Bank successfully raised 110 Million USD in Australia in 2018-19 and has since doubled the amount in a new 220 Million USD emission in Switzerland using bonds on a blockchain ledger for SDG-related projects [@worldbankWorldBankPartners2024; @worldbankWorldBankIssues2019; @worldbankWorldBankPrices2018].
 
 ```{python}
+#| label: fig-world-bank-bonds
+#| fig-cap: "World Bank Bonds"
+#| fig-scap: "World Bank Bonds"
 world_bank_bonds()
 ```
 
@@ -658,12 +727,18 @@ Pricing crypto is not based on any single fundamental metric, but comes from tok
 Bitcoin is by far the most popular cryptocurrency with it's high price volatility creating opportunities for high gains and high losses. While bitcoin has been called a "digital gold" for store of value, its volatility characteristics are very different from gold, as seen on this chart.
 
 ```{python}
+#| label: fig-bitcoin-vs-gold
+#| fig-cap: "Bitcoin vs Gold Futures"
+#| fig-scap: "Bitcoin vs Gold Futures"
 bitcoin_vs_gold_futures()
 ```
 
 The volatility of the markets has notably shifted crypto research towards pricing theories [@pengSystematicLiteratureReview2024]. However volatility is relative. Volatile national currencies lead people to find other assets to hold. If one's national currency is collapsing, one might find crypto has a relative safe haven to keep one's funds. People in Turkey losing 75% of the value of their assets when currency collapses, is one of the reasons why people might buy crypto [@wilkesTurkeysLiraDives2021; @sabaMENAEmergesWorlds2022].
 
 ```{python}
+#| label: fig-crypto-price-theory
+#| fig-cap: "Crypto Pricing Theories"
+#| fig-scap: "Crypto Pricing Theories"
 crypto_pricing_theories()
 ```
 
@@ -724,6 +799,9 @@ The National Academies links public health outcomes (air quality, water safety, 
 Traditionally, the true cost of products is hidden. The work is hidden. The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 
 ```{python}
+#| label: fig-econ-history
+#| fig-cap: "Economic History"
+#| fig-scap: "Economic History"
 econ_history_chart()
 ```
 
@@ -790,12 +868,18 @@ Table: Circular Economics in Amsterdam's Food Industry [@circleeconomyKeynoteIle
 The possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
 
 ```{python}
+#| label: fig-clim-scen
+#| fig-cap: "Climate Scenarios"
+#| fig-scap: "Climate Scenarios"
 climate_scenarios_chart()
 ```
 
 Looking a the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2e~ emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
 
 ```{python}
+#| label: fig-uk-emissions-trends
+#| fig-cap: "UK Energy Emissions' Trends"
+#| fig-scap: "UK Energy Emissions' Trends"
 uk_energy_emissions_trend()
 ```
 
@@ -804,6 +888,9 @@ Meanwhile the cumulative CO~2e~ emissions trend in the UK in the same time-frame
 CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as in Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
 
 ```{python}
+#| label: fig-brics-emissions-trends
+#| fig-cap: "BRICS Emissions' vs GDP Growth Trends"
+#| fig-scap: "BRICS Emissions' vs GDP Growth Trends"
 growth_brics()
 ```
 
@@ -897,6 +984,9 @@ Research shows certification does matter. In Europe, consumers are willing to pa
 Open ESG data platform Wikirate currently lists 4316 different metrics, essentially questions which companies should answer [@wikirateMetricsIntroduction2025].
 
 ```{python}
+#| label: fig-csrd_timeline
+#| fig-cap: "Corporate Sustainability Reporting Directive (CSRD) Timeline"
+#| fig-scap: "Corporate Sustainability Reporting Directive (CSRD) Timeline"
 csrd_timeline()
 ```
 
@@ -911,12 +1001,18 @@ Energy productivity and carbon productivity are a measures of how energy intensi
 Energy productivity
 
 ```{python}
+#| label: fig-energy-prod
+#| fig-cap: "Energy Productivity"
+#| fig-scap: "Energy Productivity"
 ck_energy_productivity()
 ```
 
 Carbon productivity
 
 ```{python}
+#| label: fig-cabon-prod
+#| fig-cap: "Carbon Productivity"
+#| fig-scap: "Carbon Productivity"
 ck_carbon_productivity()
 ```
 
