@@ -382,7 +382,7 @@ Around the world, there are many initiatives to increase forest cover, for examp
 
 ### Pollution: Air, Water, and Soil Degradation
 
-In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
+In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
 
 ```{python}
 #| label: fig-tw-poll-reports
@@ -390,6 +390,8 @@ In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigi
 #| fig-scap: "Pollution Reports in Taiwan by County"
 taiwan_pollution_reports()
 ```
+
+Pollution Reports in Taiwan by District.
 
 ```{python}
 #| label: fig-tw-poll-reports-stack
@@ -404,7 +406,7 @@ Health and sustainability are inextricably linked. "Human health is central to a
 
 Clean air is a proposed as a *human right* [@baronessjonesofmoulsecoombCleanAirHuman2023] yet air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million *premature deaths* every year [@worldhealthorganizationAmbientOutdoorAir2022]. Air pollution is linked to cancer incidence. In Taiwan, South Korea, and England, groundbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals establishes exposure to 2.5μm PM (PM2.5) air pollution as a *cause for lung cancer.* In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong explains it plainly, which I want to quote here in verbatim:
 
-> *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."*
+> *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."* - [@hannahdevlinCancerBreakthroughWakeup2022]
 
 The main way to combat air pollution is through policy interventions. [@marialuisfernandesRealityCheckIndustrial2023] the EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. In China, [@guHiddenCostsNongreen2023] links air pollution to credit interest rates for business loans; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates. In France, [@bouscasseDesigningLocalAir2022] finds strong health and economic benefits across the board from air pollution reduction.
 

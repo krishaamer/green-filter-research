@@ -291,14 +291,14 @@ Table: Banking transformation strategies from [@jimboehmBetterRiskControls2021] 
 
 These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how genAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
 
-|  |
-|------------------------------------------------------------------------|
-| **GenAI Use Case** \| **Description** ============================+==================================================================================================================================================================+ Regulatory Compliance \| Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals. \| |
-| Financial Crime \| Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns. \| |
-| Credit Risk \| Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. \| |
-| Analytics and Modeling \| Build and validate risk models; run scenario analysis; summarize complex data sets for insights. \| |
-| Cyber Risk \| Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps. \| |
-| Climate Risk \| Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments. \| |
+| GenAI Use Case          | Description                                                                                                                                                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Regulatory Compliance   | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals.                                                                                                     |
+| Financial Crime         | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns.                                                                                                                         |
+| Credit Risk             | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments.                                                                   |
+| Analytics and Modeling  | Build and validate risk models; run scenario analysis; summarize complex data sets for insights.                                                                                                                                 |
+| Cyber Risk              | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps.                                                                                                |
+| Climate Risk            | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments.                                                                                                             |
 
 Table: GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024]. []{short-caption="GenAI In Modern Banking"}
 

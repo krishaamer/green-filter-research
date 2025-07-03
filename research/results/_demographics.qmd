@@ -17,8 +17,8 @@ student_counts()
 ### Age Distribution
 ```{python}
 #| label: fig-survey-age-dist
-#| fig-cap: "Study Level"
-#| fig-scap: "Study Level"
+#| fig-cap: "Age Distribution"
+#| fig-scap: "Age Distribution"
 student_age_ranking()
 ```
 
