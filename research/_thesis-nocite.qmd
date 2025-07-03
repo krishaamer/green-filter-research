@@ -3,21 +3,25 @@ title: ""
 author: ""
 bibliography: ref.bib
 csl: apa.csl
-toc: false
 suppress-bibliography: true
+toc: false
+lof: false
 geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
 format:
   pdf:
+    lot: true 
+    keep-tex: true
     document:
       title: false
       author: false
       number-sections: true
       keep-title: false
-      keep-tex: true
       toc-title: "TABLE OF CONTENTS"
     include-in-header:
       - _headers.tex
+    filters:
+      - _table-short-captions.lua
 execute:
   echo: false
   highlight: false
@@ -108,6 +112,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "results/_saving.qmd" >}}
+
+\newpage
+
 {{< include "results/_investing.qmd" >}}
 
 \newpage
@@ -137,6 +145,10 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "_discussion.qmd" >}}
+
+\newpage
+
+{{< include "_conclusion.qmd" >}}
 
 \newpage
 

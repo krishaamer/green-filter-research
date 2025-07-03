@@ -164,6 +164,9 @@ I use the lens of *sustainability* - a complex term - to look at how design can 
 *Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Design for Human Rights, Multispecies Design, Designing for Health* - designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While EU legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *"Evolution of design for sustainability: From product design to design for system innovations and transitions"*.
 
 ```{python}
+#| label: fig-dfs-history
+#| fig-cap: "History of Design for Sustainability"
+#| fig-scap: "History of Design for Sustainability"
 dfs_history()
 ```
 
@@ -287,6 +290,9 @@ Designing user interfaces for sustainable interactions means incorporating data 
 [@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *digital sustainability*. The chart is purely illustrative to highlight the value of AI for sustainability; it's not based on numeric metrics.
 
 ```{python}
+#| label: fig-ai-sust-six
+#| fig-cap: "AI Use in Sustainability"
+#| fig-scap: "AI Use in Sustainability"
 sustainability_ai_six_dimensions()
 ```
 
@@ -450,6 +456,9 @@ Data is the *interface* between idle resources and retail demand, which makes *e
 While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024]. Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
 
 ```{python}
+#| label: fig-open-data-index
+#| fig-cap: "Open Data Index"
+#| fig-scap: "Open Data Index"
 open_data_index()
 ```
 
@@ -536,7 +545,9 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 Table: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption="Ant Forest Assisted Tree Planting - Growth Story"}
 
 ```{python}
-# Combined data from various sources
+#| label: fig-ant-forest-growth
+#| fig-cap: "Growth of Ant Forest"
+#| fig-scap: "Growth of Ant Forest"
 ant_forest()
 ```
 
@@ -590,6 +601,9 @@ The Oura ring is an example of *calm technology*, providing helpful data without
 Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the Atmotube Pro device attached to my backpack.
 
 ```{python}
+#| label: fig-air-pollution-personal
+#| fig-cap: "My Personal Exposure to Air Pollution"
+#| fig-scap: "My Personal Exposure to Air Pollution"
 air_chart()
 ```
 
@@ -629,8 +643,11 @@ Table: A selection of personal sustainability apps. []{short-caption="A Selectio
 [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
 ```{python}
-# Data from @ceccatoDefecationLitteringOther2023
+#| label: fig-bad-behav
+#| fig-cap: "Increase of Bad Behavior During the COVID19 Pandemic"
+#| fig-scap: "Increase of Bad Behavior During the COVID19 Pandemic"
 pandemic()
+# Data from @ceccatoDefecationLitteringOther2023
 ```
 
 Human behavior is affected by the environment. The above chart shows the incidence of bad behavior during the pandemic increased significantly in Sweden based on data from [@ceccatoDefecationLitteringOther2023].
@@ -715,6 +732,9 @@ Table: Digital Product Passport goals [@strettonDigitalProductPassports2022]. []
 Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be include in a DPP [@tiandaphneWhatDataGoes2023]. A case study of rigid polyurethane foam (PU foam), a lightweight insulation material, explains how Circularise used blockchain and zero-knowledge proof (ZKP) to allow for DPP data-sharing, while retaining privacy and control over the data [@leonTerritorialCircularEcosystems2025; @daphneZeroknowledgeProofsExplained2022].
 
 ```{python}
+#| label: fig-digit-prod-pass
+#| fig-cap: "Digital Product Passport Data Categories"
+#| fig-scap: "Digital Product Passport Data Categories"
 digital_product_passport_data_categories()
 ```
 
