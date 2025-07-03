@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 ## Taiwanese College Student Attitudes (Overall)
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
-## Economy
+### Economy
 ```{python}
 #| label: fig-survey-econ-res
 #| fig-cap: "Student Attitudes Towards Economics Issues"
@@ -16,7 +16,7 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 likert_single_chart(2)
 ```
 
-## AI Use
+### AI Use
 ```{python}
 #| label: fig-survey-ai-use
 #| fig-cap: "Student Attitudes Towards AI Use"
@@ -24,7 +24,7 @@ likert_single_chart(2)
 likert_single_chart(3)
 ```
 
-## Nature
+### Nature
 ```{python}
 #| label: fig-survey-nature
 #| fig-cap: "Student Attitudes Towards Nature"
@@ -32,7 +32,7 @@ likert_single_chart(3)
 likert_single_chart(4)
 ```
 
-## Environmental Protection
+### Environmental Protection
 ```{python}
 #| label: fig-survey-envir-protect
 #| fig-cap: "Student Attitudes Towards Environmental Protection"
@@ -40,7 +40,7 @@ likert_single_chart(4)
 likert_single_chart(5)
 ```
 
-## Learning Environment
+### Learning Environment
 ```{python}
 #| label: fig-survey-learn-env
 #| fig-cap: "Students' Learning Environment"
@@ -48,7 +48,7 @@ likert_single_chart(5)
 likert_single_chart(6)
 ```
 
-## Correlations Between Fields
+### Correlations Between Fields
 ```{python}
 #| label: fig-survey-corr
 #| fig-cap: "Correlations Between Student Attitudes"
@@ -56,7 +56,7 @@ likert_single_chart(6)
 correlation_network()
 ```
 
-## Environmental Knowledge Ranking Experiment
+### Environmental Knowledge Ranking Experiment
 Test knowledge about the environment.
 
 ```{python}
@@ -67,5 +67,6 @@ ecosystem_sensitivity()
 ```
 
 
-
-Design implications: majority don't plan to buy a house or car within 7 years, don't focus on these categories. Majority don't fly much, don't focus on flights.
+Design implications: 
+-   A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories
+-   Majority don't fly much: don't focus on flights.

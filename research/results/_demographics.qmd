@@ -1,0 +1,50 @@
+```{python}
+from data.attitudes import likert_single_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+## Respondent Demographics
+
+### Study Level
+```{python}
+#| label: fig-survey-study-level
+#| fig-cap: "Study Level"
+#| fig-scap: "Study Level"
+student_counts()
+```
+
+### Age Distribution
+```{python}
+#| label: fig-survey-study-level
+#| fig-cap: "Study Level"
+#| fig-scap: "Study Level"
+student_age_ranking()
+```
+
+### University
+```{python}
+#| label: fig-survey-list-uni
+#| fig-cap: "Universities"
+#| fig-scap: "Universities"
+university_ranking_table()
+```
+
+### Field of Study
+Fields of study have not been normalized: there may be several expressions of the same academic department, written slightly differently.
+
+```{python}
+#| label: fig-survey-field-of-study
+#| fig-cap: "Field of Study"
+#| fig-scap: "Field of Study"
+field_of_study_ranking()
+```
+
+### Personality Type
+
+```{python}
+#| label: fig-survey-mbti
+#| fig-cap: "Personality Type (MBTI)"
+#| fig-scap: "Personality Type (MBTI)"
+mbti_ranking()
+```

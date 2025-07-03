@@ -103,6 +103,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "results/_demographics.qmd" >}}
+
+\newpage
+
 {{< include "results/_shopping.qmd" >}}
 
 \newpage
