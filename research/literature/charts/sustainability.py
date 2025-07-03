@@ -472,29 +472,18 @@ def climate_tipping_points():
     central_estimate = [1.5, 1.5, 1.8, 1.5, 1.5, 1.6, 2.0, 4.0, 4.0, 4.0, 2.8, 3.0, 3.5, 4.0, 6.3, 7.5]
     max_warming = [3.0, 3.0, 3.8, 2.0, 2.3, 1.7, 3.0, 8.0, 5.0, 7.2, 3.5, 6.0, 6.0, 6.0, 8.7, 10.0]
 
-    # Compute the range widths
     widths = [max_warming[i] - min_warming[i] for i in range(len(min_warming))]
 
-    # Create the figure and axis
     fig, ax = plt.subplots(figsize=(10, 8))
     y_positions = range(len(tipping_elements))
 
-    # Plot range bars
     ax.barh(y_positions, widths, left=min_warming)
-
-    # Plot central estimates
     ax.scatter(central_estimate, y_positions, marker='x')
 
-    # Configure axes
     ax.set_yticks(y_positions)
     ax.set_yticklabels(tipping_elements)
-    ax.invert_yaxis()  # Highest threshold on top
+    ax.invert_yaxis()
     ax.set_xlabel("Global Warming (°C)")
     ax.set_title("Warming Thresholds for Climate Tipping Points")
     plt.tight_layout()
-
-    return fig, ax
-
-    # Generate the chart
-    fig, ax = plot_tipping_thresholds()
     plt.show()

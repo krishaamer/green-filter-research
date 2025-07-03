@@ -254,16 +254,16 @@ The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion c
 
 Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers [@walmartProjectGigaton2023]. These examples underline how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
 
-Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project Invest in Your Values rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024]
+Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project *Invest in Your Values* rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024].
+
+Board diversity in the top 5 sustainable companies in 2024 based on Corporate Knights rankings [@corporateknightsGlobal1002024].
 
 ```{python}
-#| label: fig-esg-board-div
-#| fig-cap: "ESG vs Board Diversity"
+#| label: fig-esg-board-div-comp
+#| fig-cap: "Simplified comparison chart for board diversity (gender and cultural) vs ESG score"
 #| fig-scap: "ESG vs Board Diversity"
 esg_vs_board_diversity()
 ```
-
-Board diversity in the top 5 sustainable companies in 2024 based on Corporate Knights rankings [@corporateknightsGlobal1002024].
 
 ### ESG Success Depends on Digitization and GenAI
 

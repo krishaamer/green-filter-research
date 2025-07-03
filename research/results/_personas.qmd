@@ -30,8 +30,8 @@ Questions Most Affecting Persona Creation include...
 
 ```{python}
 #| label: fig-survey-personas-one
-#| fig-cap: "Persona 1: Eco-Friendly"
-#| fig-scap: "Persona 1: Eco-Friendly"
+#| fig-cap: "Persona 1 - Eco-Friendly"
+#| fig-scap: "Persona 1 - Eco-Friendly"
 show_single_persona(0)
 ```
 
@@ -40,8 +40,8 @@ show_single_persona(0)
 Questions Most Affecting Persona Creation include...
 ```{python}
 #| label: fig-survey-personas-two
-#| fig-cap: "Persona 2: Moderate"
-#| fig-scap: "Persona 2: Moderate"
+#| fig-cap: "Persona 2 - Moderate"
+#| fig-scap: "Persona 2 - Moderate"
 show_single_persona(1)
 ```
 
@@ -50,8 +50,8 @@ show_single_persona(1)
 Questions Most Affecting Persona Creation include...
 ```{python}
 #| label: fig-survey-personas-three
-#| fig-cap: "Persona 3: Frugal"
-#| fig-scap: "Persona 3: Frugal"
+#| fig-cap: "Persona 3 - Frugal"
+#| fig-scap: "Persona 3 - Frugal"
 show_single_persona(2)
 ```
 

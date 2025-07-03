@@ -120,12 +120,12 @@ Date: 2025-06-30 Expert: Carlos Serra is a sustainability expert and zero waste 
 Common topics between all conversations become visible in the overall Sankey Diagram.
 
 ::: {.content-hidden unless-format="pdf"}
-![All](./images/experts/sankey-all.png){width="100%"}
+![Common Topics Between All Experts](./images/experts/sankey-all.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="All"
+  caption="Common Topics Between All Experts"
   src={SankeyAll}
 />
 ```

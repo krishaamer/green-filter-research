@@ -671,7 +671,7 @@ def esg_vs_board_diversity():
 
     ax.set_xlabel('Diversity (%)')
     ax.set_ylabel('ESG Score')
-    ax.set_title('Board Diversity vs ESG Score with Trend Lines')
+    ax.set_title('Board Diversity vs ESG Score')
     ax.legend()
 
     plt.tight_layout()
