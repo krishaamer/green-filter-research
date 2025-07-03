@@ -3,6 +3,7 @@ warnings.filterwarnings("ignore")
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from matplotlib.font_manager import FontProperties
 import os
 data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
@@ -403,12 +404,6 @@ def taiwan_pollution_reports_stacked():
     # Show the chart with tight layout
     plt.tight_layout()
     plt.show()
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import os
 
 def taiwan_energy_production():
     file_path = os.path.join(data_dir, 'ember-taiwan-energy.csv')

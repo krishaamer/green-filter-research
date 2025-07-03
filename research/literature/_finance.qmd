@@ -270,9 +270,9 @@ Board diversity in the top 5 sustainable companies in 2024 based on Corporate Kn
 In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 1551 banks, of which only 180 banks disclosed sufficient ESG data for comparison, building an *Fintech Adoption Index*; the key findings included a positive correlation between Fintech Index and ESG Scores, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even larger predictors of high ESG score were than were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible).
 
 ```{python}
-#| label: fig-esg-fintech
+#| label: fig-esg-fintech-pred
 #| fig-cap: "Fintech Adoption Predicts Higher ESG"
-#| fig-scap: intech Adoption Predicts Higher ESG"
+#| fig-scap: "Fintech Adoption Predicts Higher ESG"
 esg_fintech_heatmap()
 ```
 

@@ -386,15 +386,15 @@ In, Taiwan this is the ranking of pollution reports by citizens [@ministryofdigi
 
 ```{python}
 #| label: fig-tw-poll-reports
-#| fig-cap: "Pollution Reports in Taiwan"
-#| fig-scap: "Pollution Reports in Taiwan"
+#| fig-cap: "Pollution Reports in Taiwan by County"
+#| fig-scap: "Pollution Reports in Taiwan by County"
 taiwan_pollution_reports()
 ```
 
 ```{python}
 #| label: fig-tw-poll-reports-stack
-#| fig-cap: "Pollution Reports in Taiwan Con't"
-#| fig-scap: "Pollution Reports in Taiwan Con't"
+#| fig-cap: "Pollution Reports in Taiwan by District"
+#| fig-scap: "Pollution Reports in Taiwan by District"
 taiwan_pollution_reports_stacked()
 ```
 

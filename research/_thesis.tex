@@ -2186,12 +2186,34 @@ revise and rank both global ``core'' and regional ``impact'' climate
 tipping elements by their warming thresholds, visualized in the chart
 below.
 
+\begin{figure}
+
+\centering{
+
+\centering{
+
 \begin{verbatim}
 (<Figure size 3000x2400 with 1 Axes>,
  <Axes: title={'center': 'Warming Thresholds for Climate Tipping Points'}, xlabel='Global Warming (°C)'>)
 \end{verbatim}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-16-output-2.pdf}}
+}
+
+\subcaption{\label{fig-climate-tip-1}Climate Tipping Points}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-climate-tip-output-2.pdf}}
+
+}
+
+\subcaption[Climate Tipping Points]{\label{fig-climate-tip-2}}
+
+}
+
+\caption{\label{fig-climate-tip}}
+
+\end{figure}%
 
 \subsubsection{\texorpdfstring{Measuring CO\textsubscript{2}e
 Emissions}{Measuring CO2e Emissions}}\label{measuring-co2e-emissions}
@@ -2349,7 +2371,18 @@ Saudi Arabia & Highly insufficient \\
 
 \let\pandoctableshortcapt\relax
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-17-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-ndcs-output-1.pdf}}
+
+}
+
+\caption[Nationally Determined Contributions
+(NDCs)]{\label{fig-ndcs}Nationally Determined Contributions (NDCs)}
+
+\end{figure}%
 
 Fossil fuels are what powers humanity as well as the largest source of
 CO\textsubscript{2} emissions. (IEA, 2022) reports ``Global
@@ -2487,7 +2520,17 @@ Tech Based Offset & \$0.77 \\
 
 \let\pandoctableshortcapt\relax
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-18-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-carbon-cred-output-1.pdf}}
+
+}
+
+\caption[Carbon Credits]{\label{fig-carbon-cred}Carbon Credits}
+
+\end{figure}%
 
 Voluntary Carbon Markets are a decentralized system where private
 entities voluntarily buy and sell carbon credits (ICVCM, 2025). Carbon
@@ -2804,7 +2847,18 @@ health and reproductive concerns (Codrington et al., 2024; M. A. Garcia
 et al., 2024; Guo et al., 2024; Hu et al., 2024; N. Li et al., 2024;
 Main, 2024; Montano et al., 2023; L. Zhu et al., 2024)
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-19-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-microplastics-output-1.pdf}}
+
+}
+
+\caption[Microplastics in the Human
+Body]{\label{fig-microplastics}Microplastics in the Human Body}
+
+\end{figure}%
 
 In addition to the enormity of over-reaching CO\textsubscript{2}
 emissions, humanity is facing other massive environmental problems. The
@@ -3038,7 +3092,17 @@ Species under threat of extinction & 1 million \\
 
 \let\pandoctableshortcapt\relax
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-20-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-biod-loss-output-1.pdf}}
+
+}
+
+\caption[Biodiversity Loss]{\label{fig-biod-loss}Biodiversity Loss}
+
+\end{figure}%
 
 Biodiversity loss is linked to overconsumption, weak legislation and
 lack of oversight. (Crenna et al., 2019) recounts European Union
@@ -3152,13 +3216,48 @@ Degradation}\label{pollution-air-water-and-soil-degradation}
 In, Taiwan this is the ranking of pollution reports by citizens
 (Ministry of Digital Affairs, 2024b):
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-21-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-tw-poll-reports-output-1.pdf}}
+
+}
+
+\caption[Pollution Reports in
+Taiwan]{\label{fig-tw-poll-reports}Pollution Reports in Taiwan}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\centering{
 
 \begin{verbatim}
 <Figure size 3600x2400 with 0 Axes>
 \end{verbatim}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-22-output-2.pdf}}
+}
+
+\subcaption{\label{fig-tw-poll-reports-stack-1}Pollution Reports in
+Taiwan Con't}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-tw-poll-reports-stack-output-2.pdf}}
+
+}
+
+\subcaption[Pollution Reports in Taiwan
+Con't]{\label{fig-tw-poll-reports-stack-2}}
+
+}
+
+\caption{\label{fig-tw-poll-reports-stack}}
+
+\end{figure}%
 
 Health and sustainability are inextricably linked. ``Human health is
 central to all sustainability efforts.'', \emph{``All of these (food,
@@ -3533,30 +3632,88 @@ to make solar power China's main energy source in 2026(Carrie Xiao,
 2025; L, 2025a; Redazione, 2025; Weaver, 2023; Y. Zhu, 2023).
 
 (Gaure \& Golombek, 2022) simulate a CO\textsubscript{2} free
-electricity generation system in the European Union where ``98\% of
-total electricity production is generated by wind power and solar; the
-remainder is covered by a backup technology.''. The authors stipulate
-it's possible to power the EU without producing CO\textsubscript{2}
-emissions.
+electricity generation system in the European Union where \emph{``98\%
+of total electricity production is generated by wind power and solar;
+the remainder is covered by a backup technology.''}. The authors
+stipulate it's possible to power the EU without producing
+CO\textsubscript{2} emissions.
 
 EU's energy mix in 2024:
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-23-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-eu-energy-brakdown-output-1.pdf}}
+
+}
+
+\caption[The EU's Energy Production
+Breakdown]{\label{fig-eu-energy-brakdown}The EU's Energy Production
+Breakdown}
+
+\end{figure}%
 
 Wind and solar energy overtook fossil energy in Europe:
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-24-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-eu-renew-vs-fossil-output-1.pdf}}
+
+}
+
+\caption[The EU's Renewables vs Fossil
+Energy]{\label{fig-eu-renew-vs-fossil}The EU's Renewables vs Fossil
+Energy}
+
+\end{figure}%
 
 Globally, renewables also overtook fossil fuels (IEA, 2024):
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-25-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-global-renew-vs-fossil-output-1.pdf}}
+
+}
+
+\caption[Global Renewables vs Fossil
+Energy]{\label{fig-global-renew-vs-fossil}Global Renewables vs Fossil
+Energy}
+
+\end{figure}%
 
 Meanwhile, reduction in coal-power was also possible. Coal is a large
 CO\textsubscript{2}eq emitter.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-26-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-27-output-1.pdf}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-renew-vs-fossil-output-1.pdf}}
+
+}
+
+\caption[The EU's Reduction of Coal
+Energy]{\label{fig-renew-vs-fossil}The EU's Reduction of Coal Energy}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-tw-energy-prod-output-1.pdf}}
+
+}
+
+\caption[Taiwanese Energy
+Production]{\label{fig-tw-energy-prod}Taiwanese Energy Production}
+
+\end{figure}%
 
 Beyond electricity and heat, the chemical sector is a massive
 CO\textsubscript{2}eq source. (Lange, 2021) reports the petrochemical
@@ -9228,7 +9385,17 @@ finance} - the availability of savings, loans, insurance, debit cards,
 and investment opportunities embedded within the apps of non-financial
 platforms, like e-commerce or social media platforms.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-47-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-fintech-growth-output-1.pdf}}
+
+}
+
+\caption[Fintech Growth]{\label{fig-fintech-growth}Fintech Growth}
+
+\end{figure}%
 
 \subsubsection{Financial Literacy and Education: Young Investors Follow
 Financial
@@ -9367,7 +9534,19 @@ physical assets such as real estate, land, forest and digital assets
 such as cryptocurrencies, NFTs, and many other alternative assets of
 varied price, volatility, liquidity, and risk profile.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-48-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-retail-green-nongreen-output-1.pdf}}
+
+}
+
+\caption[Green Retail vs Non-Green
+Retail]{\label{fig-retail-green-nongreen}Green Retail vs Non-Green
+Retail}
+
+\end{figure}%
 
 Community-based copy-trading apps live on the intersection of social
 media and investing, enabling financial inclusion through letting
@@ -9590,7 +9769,19 @@ legislation to counter ESG greenwashing. (Shashwat Mohanty, 2022)
 investing into JBS, a meat-packing company which is linked to
 deforestation of the Amazon rainforest through its supply chain.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-49-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-conv-vs-sri-output-1.pdf}}
+
+}
+
+\caption[Conventional vs Socially Responsible
+Funds]{\label{fig-conv-vs-sri}Conventional vs Socially Responsible
+Funds}
+
+\end{figure}%
 
 (Sanjai Bhagat, 2022) argues that despite more than \$2.7 trillion in
 ESG-rated AUM as of December 2021, (assets under management, the total
@@ -9707,7 +9898,17 @@ to government estimates''} (Anand Chandrasekhar \& Andreas Gefe, 2021)
 begging the question can Swiss traders have more scrutiny over what they
 trade.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-50-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-slavery-laws-output-1.pdf}}
+
+}
+
+\caption[Slavery Laws]{\label{fig-slavery-laws}Slavery Laws}
+
+\end{figure}%
 
 Slavery is connected to environmental degradation, and climate change
 (Decker Sparks et al., 2021). Enslaved people are used in environmental
@@ -9756,7 +9957,19 @@ varies dramatically between places, however taking the global average in
 guideline, a person would have gained 1 year and 11 months of life
 expectancy (Institute for Climate and Sustainable Growth, 2022).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-51-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-air-quality-sea-output-1.pdf}}
+
+}
+
+\caption[Air Quality in Taiwan vs South-East
+Asia]{\label{fig-air-quality-sea}Air Quality in Taiwan vs South-East
+Asia}
+
+\end{figure}%
 
 The above charts shows a comparison of air quality trends in South Asia
 vs Taiwan; while air pollution has increased in India, Bangladesh, and
@@ -9794,7 +10007,18 @@ Leadership analysis of Nasdaq OMX Nordic 120 companies:
 higher returns''}. In contrast, (D. Luo, 2022) found firms with a lower
 ESG score are more profitable.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-52-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-leaders-output-1.pdf}}
+
+}
+
+\caption[ESG Funds vs Non-ESG Funds]{\label{fig-esg-leaders}ESG Funds vs
+Non-ESG Funds}
+
+\end{figure}%
 
 \subsubsection{Towards Green Transparency - But Who Does the
 Rating?}\label{towards-green-transparency---but-who-does-the-rating}
@@ -9808,14 +10032,47 @@ Data to Its Customers,''} 2019; Toffel \& Sice, 2011). It's parent
 company S\&P Global also acquired RobecoSAM's ESG rating business,
 consolidating S\&P's control of ESG ratings (George Geddes, 2019).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-53-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-triple-perf-output-1.pdf}}
+
+}
+
+\caption[Company Performance]{\label{fig-triple-perf}Company
+Performance}
+
+\end{figure}%
 
 A meta-review of 136 research articles discovered the following
 ESG-rating agencies.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-54-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-55-output-1.pdf}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-rating-agencies-output-1.pdf}}
+
+}
+
+\caption[ESG Rating Agencies]{\label{fig-esg-rating-agencies}ESG Rating
+Agencies}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-fund-types-output-1.pdf}}
+
+}
+
+\caption[Types of Investment Funds]{\label{fig-fund-types}Types of
+Investment Funds}
+
+\end{figure}%
 
 Three frameworks for corporate to think about ESG compliance is to
 position their company on the MEET, EXCEED, and LEAD scale based on the
@@ -9890,13 +10147,49 @@ No Experts (count)
 
 \let\pandoctableshortcapt\relax
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-56-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-57-output-1.pdf}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-board-sust-expert-output-1.pdf}}
+
+}
+
+\caption[Lack of Board Members With Sustainability
+Expertise]{\label{fig-board-sust-expert}Lack of Board Members With
+Sustainability Expertise}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-board-sust-expert-large-output-1.pdf}}
+
+}
+
+\caption[Large Carbon Emitters Lack Sustainability
+Experts]{\label{fig-board-sust-expert-large}Large Carbon Emitters Lack
+Sustainability Experts}
+
+\end{figure}%
 
 Most companies do not meet the criteria (Climate Action 100+, 2023).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-58-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-companies-carbon-criteria-output-1.pdf}}
+
+}
+
+\caption[Large Carbon Emitters Do Not Meet Sustainability
+Criteria]{\label{fig-companies-carbon-criteria}Large Carbon Emitters Do
+Not Meet Sustainability Criteria}
+
+\end{figure}%
 
 Lack of leadership is a key challenge for sustainability. (Capgemini,
 2022) \emph{``Many business leaders see sustainability as costly
@@ -9917,7 +10210,17 @@ adding members with sustainability expertise, and aligning executive
 compensation with ESG targets to translate strategic ambitions into
 operational results, may boost ESG outcomes (Martiny et al., 2024).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-59-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-board-diversity-output-1.pdf}}
+
+}
+
+\caption[Board Diversity]{\label{fig-board-diversity}Board Diversity}
+
+\end{figure}%
 
 The CEO of the Swedish clothing producer H\&M - one of the largest
 fast-fashion companies in the world -, recognized the potential impact
@@ -9955,11 +10258,40 @@ which researches and rates funds' exposure to fossil fuels finance and
 its sister project Invest in Your Values rates retirement plans offered
 by employers (mostly US technology companies) (As You Sow, 2024a, 2024b)
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-60-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-60-output-2.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-60-output-3.pdf}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-board-div-output-1.pdf}}
+
+}
+
+\subcaption[ESG vs Board Diversity]{\label{fig-esg-board-div-1}ESG vs
+Board Diversity}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-board-div-output-2.pdf}}
+
+}
+
+\subcaption[ESG vs Board Diversity]{\label{fig-esg-board-div-2}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-board-div-output-3.pdf}}
+
+}
+
+\subcaption[ESG vs Board Diversity]{\label{fig-esg-board-div-3}}
+
+}
+
+\caption{\label{fig-esg-board-div}}
+
+\end{figure}%
 
 Board diversity in the top 5 sustainable companies in 2024 based on
 Corporate Knights rankings (Corporate Knights, 2024).
@@ -9969,9 +10301,9 @@ GenAI}\label{esg-success-depends-on-digitization-and-genai}
 
 In the U.S. and European banking sector (Dicuonzo et al., 2024)
 performed an analysis of 1551 banks, of which only 180 banks disclosed
-sufficient ESG data for comparison, building an Fintech Adoption Index;
-the key findings included a positive correlation between Fintech Index
-and ESG Scores , suggesting the adoption of technology has a
+sufficient ESG data for comparison, building an \emph{Fintech Adoption
+Index}; the key findings included a positive correlation between Fintech
+Index and ESG Scores, suggesting the adoption of technology has a
 statistically significant influence on better environmental stewardship,
 social and governance quality. Even larger predictors of high ESG score
 were than were Board Gender Diversity (Women on Board), the Size of the
@@ -9979,7 +10311,18 @@ Bank, and Board Independence (governance structures with more
 independent directors could be more socially and environmentally
 responsible).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-61-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-esg-fintech-output-1.pdf}}
+
+}
+
+\caption[intech Adoption Predicts Higher
+ESG'']{\label{fig-esg-fintech}Fintech Adoption Predicts Higher ESG}
+
+\end{figure}%
 
 The ability to build sustainability into the organization requires deep
 understanding of how the complex structure works and what drives change
@@ -10254,13 +10597,48 @@ hidden environmental costs.
 
 Sustainable consumption relationships in Europe.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-62-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-62-output-2.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-62-output-3.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-62-output-4.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-sust-consum-output-1.pdf}}
+
+}
+
+\subcaption[Sustainable
+Consumption]{\label{fig-sust-consum-1}Sustainable Consumption}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-sust-consum-output-2.pdf}}
+
+}
+
+\subcaption[Sustainable Consumption]{\label{fig-sust-consum-2}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-sust-consum-output-3.pdf}}
+
+}
+
+\subcaption[Sustainable Consumption]{\label{fig-sust-consum-3}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-sust-consum-output-4.pdf}}
+
+}
+
+\subcaption[Sustainable Consumption]{\label{fig-sust-consum-4}}
+
+}
+
+\caption{\label{fig-sust-consum}}
+
+\end{figure}%
 
 Make use of indexes to compare companies.
 
@@ -10275,7 +10653,18 @@ assistants to find alternative products, make shopping lists, which may
 have an effect on \emph{what type} of products are bought (Neuron, 2025;
 Pandya, 2025; Pastore, 2025)
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-63-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-shopping-growth-output-1.pdf}}
+
+}
+
+\caption[Growth of Consumerism]{\label{fig-shopping-growth}Growth of
+Consumerism}
+
+\end{figure}%
 
 Double Eleven 11/11 celebrated on November 11 is the world's largest
 shopping festival (時代財經, 2023). In June 2023, 526 million people
@@ -10286,7 +10675,17 @@ retail sales''}. (The Influencer Factory, 2021) China is the furthest
 ahead in \emph{social shopping}, the Chinese and U.S. market may be
 mature and growth will come from emerging markets (SEA, Latin-America).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-64-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-soc-com-output-1.pdf}}
+
+}
+
+\caption[Social Commerce]{\label{fig-soc-com}Social Commerce}
+
+\end{figure}%
 
 In the US, TikTok is the leader in social commerce (Loyst, 2024).
 
@@ -11025,13 +11424,36 @@ land degradation reduction targets (UNEP, 2022). According to (The
 Rockefeller Foundation, 2022) a slightly lower 2.5-3.2 Trillion USD
 would be sufficient.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-65-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-climate-fin-funding-output-1.pdf}}
+
+}
+
+\caption[Climate Finance Funding
+Gap]{\label{fig-climate-fin-funding}Climate Finance Funding Gap}
+
+\end{figure}%
 
 What if 10\% of annual consumer spending -- \emph{ten percent is about
 \$2,8T} - went towards protecting our climate. The theme for the 2023
 Earth Day was \emph{``Invest In Our Planet''}.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-66-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-climate-fin-funding-sectors-output-1.pdf}}
+
+}
+
+\caption[Climate Finance By
+Sector]{\label{fig-climate-fin-funding-sectors}Climate Finance By
+Sector}
+
+\end{figure}%
 
 The needed investment doesn't seem so large, around 5\% of the global
 GDP, if one compares it to the \emph{per year} Global Gross Domestic
@@ -11052,7 +11474,19 @@ Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt
 (\emph{Green {Finance Institute}}, 2023). It's not happening fast
 enough.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-67-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-high-value-assets-output-1.pdf}}
+
+}
+
+\caption[Climate Funding Gap vs High Value
+Assets]{\label{fig-high-value-assets}Climate Funding Gap vs High Value
+Assets}
+
+\end{figure}%
 
 \def\pandoctableshortcapt{Comparing Required Climate Investment and
 Valuable Assets}
@@ -11246,7 +11680,17 @@ Insurance Products such as Variable Annuities \\
 
 There are also newer asset classes.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-68-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-asset-classes-output-1.pdf}}
+
+}
+
+\caption[Asset Classes]{\label{fig-asset-classes}Asset Classes}
+
+\end{figure}%
 
 \emph{Stocks} are the most popular assets class with a long history and
 highly accessible to retail investor, albeit usually at the cost of a
@@ -11465,7 +11909,17 @@ The World Bank successfully raised 110 Million USD in Australia in
 emission in Switzerland using bonds on a blockchain ledger for
 SDG-related projects (World Bank, 2018, 2019, 2024).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-69-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-world-bank-bonds-output-1.pdf}}
+
+}
+
+\caption[World Bank Bonds]{\label{fig-world-bank-bonds}World Bank Bonds}
+
+\end{figure}%
 
 \emph{Sustainability-Linked Bonds} are less stringent than green bonds;
 they are not tied to specific projects but more broad sustainability
@@ -11579,7 +12033,18 @@ bitcoin has been called a ``digital gold'' for store of value, its
 volatility characteristics are very different from gold, as seen on this
 chart.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-70-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-bitcoin-vs-gold-output-1.pdf}}
+
+}
+
+\caption[Bitcoin vs Gold Futures]{\label{fig-bitcoin-vs-gold}Bitcoin vs
+Gold Futures}
+
+\end{figure}%
 
 The volatility of the markets has notably shifted crypto research
 towards pricing theories (S. Peng et al., 2024). However volatility is
@@ -11590,7 +12055,18 @@ has a relative safe haven to keep one's funds. People in Turkey losing
 reasons why people might buy crypto (Saba \& Saba, 2022; T. R. Wilkes et
 al., 2021).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-71-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-crypto-price-theory-output-1.pdf}}
+
+}
+
+\caption[Crypto Pricing Theories]{\label{fig-crypto-price-theory}Crypto
+Pricing Theories}
+
+\end{figure}%
 
 For example, an index of major sustainability news can be compared with
 crypto prices, which may have negative, positive, or no correlation with
@@ -11872,7 +12348,17 @@ these ideas. Build a new economic theory is out of scope for my thesis
 design, however I'll focus on the parts of economic theory I believe are
 relevant for \emph{interaction design}-ing for sustainability.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-72-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-econ-history-output-1.pdf}}
+
+}
+
+\caption[Economic History]{\label{fig-econ-history}Economic History}
+
+\end{figure}%
 
 There are those looking for \emph{new metrics}. One of the first
 innovators, already in 1972, was Buthan, with the \emph{Gross National
@@ -12095,14 +12581,35 @@ decoupling) or is hotly debated (pun intended) among scientists. (Keyßer
 \& Lenzen, 2021) provides several scenarios for low, medium, and high
 levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-73-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-clim-scen-output-1.pdf}}
+
+}
+
+\caption[Climate Scenarios]{\label{fig-clim-scen}Climate Scenarios}
+
+\end{figure}%
 
 Looking a the United Kingdom, (harrisson, 2019) concludes UK's
 CO\textsubscript{2e} emissions have fallen 43\% from 1990 to 2017
 through the use of less carbon-intensive energy sources and argues for
 moderate policies in (Hausfather \& Peters, 2020).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-74-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-uk-emissions-trends-output-1.pdf}}
+
+}
+
+\caption[UK Energy Emissions' Trends]{\label{fig-uk-emissions-trends}UK
+Energy Emissions' Trends}
+
+\end{figure}%
 
 Meanwhile the cumulative CO\textsubscript{2e} emissions trend in the UK
 in the same time-frame show the historic responsibility of UK (Global
@@ -12113,7 +12620,19 @@ similar path in the BRICS countries (Brazil, Russia, India, China, South
 Africa) as well as in Vietnam and Somalia (Raihan et al., 2024; Viana
 Espinosa De Oliveira \& Moutinho, 2022; Warsame et al., 2024).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-75-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-brics-emissions-trends-output-1.pdf}}
+
+}
+
+\caption[BRICS Emissions' vs GDP Growth
+Trends]{\label{fig-brics-emissions-trends}BRICS Emissions' vs GDP Growth
+Trends}
+
+\end{figure}%
 
 In practice, there's ample evidence from several countries suggesting
 moving to renewal energy brings environmental benefits. In Bangladesh,
@@ -12464,7 +12983,19 @@ have a strong preference for antibiotic-free meat (Mazzocchi et al.,
 Open ESG data platform Wikirate currently lists 4316 different metrics,
 essentially questions which companies should answer (Wikirate, 2025).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-76-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-csrd_timeline-output-1.pdf}}
+
+}
+
+\caption[Corporate Sustainability Reporting Directive (CSRD)
+Timeline]{\label{fig-csrd_timeline}Corporate Sustainability Reporting
+Directive (CSRD) Timeline}
+
+\end{figure}%
 
 Companies assess customer's credit score to decide credit-worthiness,
 however inversely, how can customers rate companies? Indices make
@@ -12485,11 +13016,32 @@ systems.
 
 Energy productivity
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-77-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-energy-prod-output-1.pdf}}
+
+}
+
+\caption[Energy Productivity]{\label{fig-energy-prod}Energy
+Productivity}
+
+\end{figure}%
 
 Carbon productivity
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-78-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-cabon-prod-output-1.pdf}}
+
+}
+
+\caption[Carbon Productivity]{\label{fig-cabon-prod}Carbon Productivity}
+
+\end{figure}%
 
 There are many standards. (International Trade Centre, 2022) currently
 lists 334 different sustainability standards: ``Towards a meaningful
@@ -13394,15 +13946,43 @@ There are many, the above is a sample of the responses.
 
 \subsection{Shopping}\label{shopping}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-80-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-student-shopping-output-1.pdf}}
+
+}
+
+\caption[College Student Attitudes Towards
+Shopping]{\label{fig-survey-student-shopping}College Student Attitudes
+Towards Shopping}
+
+\end{figure}%
 
 \subsubsection{Boycott Count (Overall)}\label{boycott-count-overall}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-81-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-student-boycott-output-1.pdf}}
+
+}
+
+\caption[College Students Boycott
+Experience]{\label{fig-survey-student-boycott}College Students Boycott
+Experience}
+
+\end{figure}%
 
 \subsubsection{Why Boycott}\label{why-boycott}
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{figure}
+
+\centering{
+
+\begin{longtable*}[]{@{}lll@{}}
 \toprule\noalign{}
 & Reason & Count \\
 \midrule\noalign{}
@@ -13420,11 +14000,22 @@ There are many, the above is a sample of the responses.
 221 & 沒有社會企業良心 & 1 \\
 222 & 因為黑心 & 1 \\
 223 & 有食安問題，避免自己吃了出事 & 1 \\
-\end{longtable}
+\end{longtable*}
+
+}
+
+\caption{\label{fig-survey-student-boycott-reasons}College Students
+Boycott Reasons}
+
+\end{figure}%
 
 \subsubsection{Trusted Brands}\label{trusted-brands}
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{figure}
+
+\centering{
+
+\begin{longtable*}[]{@{}lll@{}}
 \toprule\noalign{}
 & Brand & Count \\
 \midrule\noalign{}
@@ -13442,7 +14033,14 @@ There are many, the above is a sample of the responses.
 111 & Canon & 1 \\
 112 & 統一企業 & 1 \\
 124 & muji & 1 \\
-\end{longtable}
+\end{longtable*}
+
+}
+
+\caption{\label{fig-survey-student-trusted-brands}College Student
+Trusted Brands}
+
+\end{figure}%
 
 The following responses were counted as ``no brand'': ``無'', ``沒有'',
 ``沒有特別'', ``🈚️'', ``目前沒有'', ``No'', ``沒'', ``沒有特別關注'',
@@ -13455,7 +14053,19 @@ The following responses were counted as ``no brand'': ``無'', ``沒有'',
 
 \subsection{Choice Experiments}\label{choice-experiments}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-84-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-student-shopping-choice-output-1.pdf}}
+
+}
+
+\caption[College Student Shopping Choice
+Experiment]{\label{fig-survey-student-shopping-choice}College Student
+Shopping Choice Experiment}
+
+\end{figure}%
 
 \newpage
 
@@ -13467,35 +14077,116 @@ clustering. Clustered results are available under the Personas section.
 
 \subsection{Economy}\label{economy}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-86-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-econ-res-output-1.pdf}}
+
+}
+
+\caption[Student Attitudes Towards Economics
+Issues]{\label{fig-survey-econ-res}Student Attitudes Towards Economics
+Issues}
+
+\end{figure}%
 
 \subsection{AI Use}\label{ai-use-1}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-87-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-ai-use-output-1.pdf}}
+
+}
+
+\caption[Student Attitudes Towards AI
+Use]{\label{fig-survey-ai-use}Student Attitudes Towards AI Use}
+
+\end{figure}%
 
 \subsection{Nature}\label{nature}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-88-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-nature-output-1.pdf}}
+
+}
+
+\caption[Student Attitudes Towards
+Nature]{\label{fig-survey-nature}Student Attitudes Towards Nature}
+
+\end{figure}%
 
 \subsection{Environmental Protection}\label{environmental-protection}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-89-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-envir-protect-output-1.pdf}}
+
+}
+
+\caption[Student Attitudes Towards Environmental
+Protection]{\label{fig-survey-envir-protect}Student Attitudes Towards
+Environmental Protection}
+
+\end{figure}%
 
 \subsection{Learning Environment}\label{learning-environment}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-90-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-learn-env-output-1.pdf}}
+
+}
+
+\caption[Students' Learning
+Environment]{\label{fig-survey-learn-env}Students' Learning Environment}
+
+\end{figure}%
 
 \subsection{Correlations Between
 Fields}\label{correlations-between-fields}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-91-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-corr-output-1.pdf}}
+
+}
+
+\caption[Correlations Between Student
+Attitudes]{\label{fig-survey-corr}Correlations Between Student
+Attitudes}
+
+\end{figure}%
 
 \subsection{Environmental Knowledge Ranking
 Experiment}\label{environmental-knowledge-ranking-experiment}
 
 Test knowledge about the environment.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-92-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-envir-know-output-1.pdf}}
+
+}
+
+\caption[Students' Environmental
+Knowledge]{\label{fig-survey-envir-know}Students' Environmental
+Knowledge}
+
+\end{figure}%
 
 Design implications: majority don't plan to buy a house or car within 7
 years, don't focus on these categories. Majority don't fly much, don't
@@ -13505,7 +14196,19 @@ focus on flights.
 
 \subsection{Saving}\label{saving}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-94-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-corr-invest-output-1.pdf}}
+
+}
+
+\caption[Correlation Between Saving Levels and
+Investing]{\label{fig-survey-corr-invest}Correlation Between Saving
+Levels and Investing}
+
+\end{figure}%
 
 Correlation between saving levels and investing: the students with
 higher level of saving invest more.
@@ -13518,18 +14221,53 @@ Student attitudes towards investing.
 
 \subsubsection{Saving and Investing}\label{saving-and-investing}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-96-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-att-inve-output-1.pdf}}
+
+}
+
+\caption[Student Attitudes Towards Saving and
+Investing]{\label{fig-survey-att-inve}Student Attitudes Towards Saving
+and Investing}
+
+\end{figure}%
 
 \subsubsection{Investing Experience
 (Overall)}\label{investing-experience-overall}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-97-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-invest-xp-output-1.pdf}}
+
+}
+
+\caption[Students' Investing
+Experience]{\label{fig-survey-invest-xp}Students' Investing Experience}
+
+\end{figure}%
 
 \subsection{Choice Experiment}\label{choice-experiment}
 
-Question: 你/妳選哪個投資？Which investment do you choose?
+Question: 你/妳選哪個投資？ Which investment do you choose?
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-98-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-invest-choice-xp-output-1.pdf}}
+
+}
+
+\caption[Investing Choice
+Experiment]{\label{fig-survey-invest-choice-xp}Investing Choice
+Experiment}
+
+\end{figure}%
 
 \newpage
 
@@ -13561,54 +14299,197 @@ algorithms.
   dimension space. This is a predecessor of embeddings.
 \end{itemize}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-100-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-output-1.pdf}}
+
+}
+
+\caption[College Student Personas]{\label{fig-survey-personas}College
+Student Personas}
+
+\end{figure}%
 
 \subsubsection{Persona 1:
 ``Eco-Friendly''}\label{persona-1-eco-friendly}
 
 Questions Most Affecting Persona Creation include\ldots{}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-101-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-101-output-2.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-101-output-3.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-101-output-4.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-one-output-1.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Eco-Friendly}]{\label{fig-survey-personas-one-1}Persona 1:
+\emph{Eco-Friendly}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-one-output-2.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Eco-Friendly}]{\label{fig-survey-personas-one-2}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-one-output-3.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Eco-Friendly}]{\label{fig-survey-personas-one-3}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-one-output-4.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Eco-Friendly}]{\label{fig-survey-personas-one-4}}
+
+}
+
+\caption{\label{fig-survey-personas-one}}
+
+\end{figure}%
 
 \subsubsection{Persona 2: ``Moderate''}\label{persona-2-moderate}
 
 Questions Most Affecting Persona Creation include\ldots{}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-102-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-102-output-2.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-102-output-3.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-102-output-4.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-two-output-1.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Moderate}]{\label{fig-survey-personas-two-1}Persona 1:
+\emph{Moderate}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-two-output-2.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Moderate}]{\label{fig-survey-personas-two-2}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-two-output-3.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Moderate}]{\label{fig-survey-personas-two-3}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-two-output-4.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Moderate}]{\label{fig-survey-personas-two-4}}
+
+}
+
+\caption{\label{fig-survey-personas-two}}
+
+\end{figure}%
 
 \subsubsection{Persona 3: ``Frugal''}\label{persona-3-frugal}
 
 Questions Most Affecting Persona Creation include\ldots{}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-103-output-1.pdf}}
+\begin{figure}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-103-output-2.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-103-output-3.pdf}}
+\centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-103-output-4.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-three-output-1.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Frugal}]{\label{fig-survey-personas-three-1}Persona 1:
+\emph{Frugal}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-three-output-2.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Frugal}]{\label{fig-survey-personas-three-2}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-three-output-3.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Frugal}]{\label{fig-survey-personas-three-3}}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-personas-three-output-4.pdf}}
+
+}
+
+\subcaption[Persona 1:
+\emph{Frugal}]{\label{fig-survey-personas-three-4}}
+
+}
+
+\caption{\label{fig-survey-personas-three}}
+
+\end{figure}%
 
 \subsection{Clustering Heatmap}\label{clustering-heatmap}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-104-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-heatmap-output-1.pdf}}
+
+}
+
+\caption[College Students' Clustering
+Heatmap]{\label{fig-survey-heatmap}College Students' Clustering Heatmap}
+
+\end{figure}%
 
 \subsection{Mean Answer Scores}\label{mean-answer-scores}
 
 Mean response values for each Likert question in each cluster:
 
-\begin{longtable}[]{@{}llllllllllllllllllllll@{}}
+\begin{figure}
+
+\centering{
+
+\begin{longtable*}[]{@{}llllllllllllllllllllll@{}}
 \toprule\noalign{}
 & Cluster &
 如果你/妳懷疑你/妳要買的番茄可能是由強迫勞工（現代奴隸）採摘的，你/妳仍然會買它嗎？
@@ -13636,7 +14517,13 @@ Mean response values for each Likert question in each cluster:
 & 2.458678 & 2.603306 & 1.533058 & ... & 2.235537 & 2.409091 & 2.309917
 & 2.983471 & 2.438017 & 2.557851 & 2.611570 & 2.541322 & 3.495868 &
 3.280992 \\
-\end{longtable}
+\end{longtable*}
+
+}
+
+\caption{\label{fig-survey-mean-answ}Mean Values of Survey Responses}
+
+\end{figure}%
 
 \subsection{Agreement between
 personas}\label{agreement-between-personas}
@@ -13644,7 +14531,19 @@ personas}\label{agreement-between-personas}
 Highest agreement between personas is about health, safety, pollution
 and climate concerns.
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-106-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-survey-high-agree-output-1.pdf}}
+
+}
+
+\caption[Topics With Highest Agreement Between
+Personas]{\label{fig-survey-high-agree}Topics With Highest Agreement
+Between Personas}
+
+\end{figure}%
 
 \newpage
 
@@ -13654,7 +14553,19 @@ and climate concerns.
 
 AI-assistant feature choices per Likert-based Personas
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-108-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-ai-features-likert-output-1.pdf}}
+
+}
+
+\caption[AI-Assistant Feature Choices per Likert-based
+Personas]{\label{fig-ai-features-likert}AI-Assistant Feature Choices per
+Likert-based Personas}
+
+\end{figure}%
 
 This chart visualizes three distinct personas based on 36 Likert
 answers: Eco-Friendly (n=340), Moderate (n=215), and Frugal (n=126)
@@ -13674,17 +14585,52 @@ services
 \subsubsection{Feature Preferences
 (Overall)}\label{feature-preferences-overall}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-109-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-ai-features-pref-overall-output-1.pdf}}
+
+}
+
+\caption[AI-Assistant Feature Preferences
+(Overall)]{\label{fig-ai-features-pref-overall}AI-Assistant Feature
+Preferences (Overall)}
+
+\end{figure}%
 
 \subsection{Feature Preferences (By
 Cluster)}\label{feature-preferences-by-cluster}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-110-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-ai-features-pref-cluster-output-1.pdf}}
+
+}
+
+\caption[AI-Assistant Feature Preferences (By
+Cluster)]{\label{fig-ai-features-pref-cluster}AI-Assistant Feature
+Preferences (By Cluster)}
+
+\end{figure}%
 
 \subsection{Preferred AI Roles
 (Overall)}\label{preferred-ai-roles-overall}
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-111-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-ai-role-pref-output-1.pdf}}
+
+}
+
+\caption[AI-Assistant Role
+Preferences]{\label{fig-ai-role-pref}AI-Assistant Role Preferences}
+
+\end{figure}%
 
 \newpage
 
@@ -14550,7 +15496,19 @@ familiar.
 However it's only available for computers (extensions don't run on
 phones and tablets).
 
-\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/cell-113-output-1.pdf}}
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{_thesis_files/figure-pdf/fig-app-installs-output-1.pdf}}
+
+}
+
+\caption[Green Filter Google Chrome Extension
+Installs]{\label{fig-app-installs}Green Filter Google Chrome Extension
+Installs}
+
+\end{figure}%
 
 \textbf{Uninstalls}
 
