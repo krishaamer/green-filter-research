@@ -1,0 +1,767 @@
+---
+title: Demographics
+sidebar_position: 3
+execute:
+  echo: false
+editor:
+  render-on-save: false
+suppress-bibliography: true
+---
+
+
+
+
+export const quartoRawHtml =
+[`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Study Level</th>
+<th data-quarto-table-cell-role="th">Number of Students</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-quarto-table-cell-role="th">0</td>
+<td>學士</td>
+<td>780</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">1</td>
+<td>碩士</td>
+<td>88</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">2</td>
+<td>博士</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+`,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Age</th>
+<th data-quarto-table-cell-role="th">Number of Students</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-quarto-table-cell-role="th">0</td>
+<td>18.0</td>
+<td>214</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">1</td>
+<td>21.0</td>
+<td>167</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">2</td>
+<td>19.0</td>
+<td>163</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">3</td>
+<td>20.0</td>
+<td>146</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">4</td>
+<td>22.0</td>
+<td>82</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">5</td>
+<td>23.0</td>
+<td>45</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">6</td>
+<td>24.0</td>
+<td>25</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">7</td>
+<td>25.0</td>
+<td>17</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">8</td>
+<td>29.0</td>
+<td>6</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">9</td>
+<td>26.0</td>
+<td>6</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">10</td>
+<td>27.0</td>
+<td>4</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">11</td>
+<td>28.0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+`,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">University</th>
+<th data-quarto-table-cell-role="th">Number of Respondents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-quarto-table-cell-role="th">0</td>
+<td>國立成功大學 National Cheng Kung University (NCKU)</td>
+<td>188</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">1</td>
+<td>輔仁大學 Fu Jen Catholic University (FJU)</td>
+<td>159</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">2</td>
+<td>銘傳大學 Ming Chuan University (MCU)</td>
+<td>134</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">3</td>
+<td>國立臺灣大學 National Taiwan University (NTU)</td>
+<td>101</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">4</td>
+<td>逢甲大學 Feng Chia University (FCU)</td>
+<td>52</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">5</td>
+<td>國立東華大學 National Dong Hwa University (NDHU)</td>
+<td>45</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">6</td>
+<td>國立臺東大學 National Taitung University (NTTU)</td>
+<td>24</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">7</td>
+<td>長榮大學 Chang Jung Christian University (CJCU)</td>
+<td>22</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">8</td>
+<td>國立臺南大學 National University of Tainan (NUTN)</td>
+<td>19</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">9</td>
+<td>南臺科技大學 Southern Taiwan University of Science a...</td>
+<td>18</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">10</td>
+<td>國立中興大學 National Chung Hsing University (NCHU)</td>
+<td>15</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">11</td>
+<td>開南大學 Kainan University (KNU)</td>
+<td>14</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">12</td>
+<td>國立高雄師範大學 National Kaohsiung Normal University ...</td>
+<td>9</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">13</td>
+<td>嘉南藥理大學 Chia Nan University of Pharmacy and Sci...</td>
+<td>8</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">14</td>
+<td>臺南應用科技大學 Tainan University of Technology (TUT)</td>
+<td>7</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">15</td>
+<td>僑光科技大學 Overseas Chinese University (OCU)</td>
+<td>5</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">16</td>
+<td>國立屏東科技大學 National Pingtung University of Scien...</td>
+<td>4</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">17</td>
+<td>國立臺灣科技大學 National Taiwan University of Science...</td>
+<td>4</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">18</td>
+<td>國立清華大學 National Tsing Hua University (NTHU)</td>
+<td>3</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">19</td>
+<td>國立政治大學 National Chengchi University (NCCU)</td>
+<td>3</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">20</td>
+<td>國立中央大學 National Central University (NCU)</td>
+<td>3</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">21</td>
+<td>國立臺灣師範大學 National Taiwan Normal University (NTNU)</td>
+<td>3</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">22</td>
+<td>臺北醫學大學 Taipei Medical University (TMU)</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">23</td>
+<td>東海大學 Tunghai University (THU)</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">24</td>
+<td>高雄醫學大學 Kaohsiung Medical University (KMU)</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">25</td>
+<td>國立臺灣海洋大學 National Taiwan Ocean University (NTOU)</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">26</td>
+<td>中華醫事科技大學 Chung Hwa University of Medical Techn...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">27</td>
+<td>國立臺北大學 National Taipei University (NTPU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">28</td>
+<td>南台科技大學</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">29</td>
+<td>國立中正大學 National Chung Cheng University (CCU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">30</td>
+<td>國立嘉義大學 National Chiayi University (NCYU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">31</td>
+<td>國立高雄科技大學 National Kaohsiung University of Scie...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">32</td>
+<td>元智大學 Yuan Ze University (YZU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">33</td>
+<td>我是台南一中的高三生</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">34</td>
+<td>國立臺東專科學校 National Taitung Junior College (NTC)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">35</td>
+<td>東吳大學 Soochow University (SCU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">36</td>
+<td>國立臺南藝術大學 Tainan National University of the Art...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">37</td>
+<td>明道大學 MingDao University (MDU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">38</td>
+<td>國立臺北科技大學 National Taipei University of Technol...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">39</td>
+<td>玉山神學院</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">40</td>
+<td>國立金門大學 National Quemoy University (NQU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">41</td>
+<td>台南應用科技大學</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">42</td>
+<td>南港高中</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">43</td>
+<td>經國管理暨健康學院 Ching Kuo Institute of Management an...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">44</td>
+<td>國立暨南國際大學 National Chi Nan University (NCNU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">45</td>
+<td>佛光大學 Fo Guang University (FGU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">46</td>
+<td>亞洲大學 Asia University (ASIA)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">47</td>
+<td>國立中山大學 National Sun Yat-sen University (NSYSU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">48</td>
+<td>國立雲林科技大學 National Yunlin University of Science...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">49</td>
+<td>臺北城市科技大學 Taipei City University of Science and...</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">50</td>
+<td>國立虎尾科技大學 National Formosa University (NFU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">51</td>
+<td>國立屏東大學 National Pingtung University (NPTU)</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">52</td>
+<td>輔仁大學</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+`,`
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Field of Study</th>
+<th data-quarto-table-cell-role="th">Number of Students</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-quarto-table-cell-role="th">0</td>
+<td>犯罪防治學系</td>
+<td>26</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">1</td>
+<td>影像傳播學系</td>
+<td>20</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">2</td>
+<td>影像傳播</td>
+<td>17</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">3</td>
+<td>華語文學系</td>
+<td>13</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">4</td>
+<td>外文系</td>
+<td>12</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">407</td>
+<td>英文</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">408</td>
+<td>行銷流通系</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">409</td>
+<td>科技管理研究所</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">410</td>
+<td>行流系</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">411</td>
+<td>保健營養系</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+`,`
+<p>412 rows × 2 columns</p>
+</div>`,`<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+`,`
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">MBTI Type</th>
+<th data-quarto-table-cell-role="th">Number of Students</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-quarto-table-cell-role="th">0</td>
+<td>INFP</td>
+<td>121</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">1</td>
+<td>INFJ</td>
+<td>91</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">2</td>
+<td>ENFP</td>
+<td>63</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">3</td>
+<td>不知道</td>
+<td>55</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">4</td>
+<td>ISFJ</td>
+<td>48</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">5</td>
+<td>ENFJ</td>
+<td>39</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">6</td>
+<td>INTP</td>
+<td>37</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">7</td>
+<td>ISFP</td>
+<td>31</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">8</td>
+<td>ENTP</td>
+<td>29</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">9</td>
+<td>ESFJ</td>
+<td>23</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">10</td>
+<td>ESFP</td>
+<td>22</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">11</td>
+<td>INTJ</td>
+<td>20</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">12</td>
+<td>ESTJ</td>
+<td>16</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">13</td>
+<td>ISTJ</td>
+<td>15</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">14</td>
+<td>ESTP</td>
+<td>11</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">15</td>
+<td>ISTP</td>
+<td>11</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">16</td>
+<td>ENTJ</td>
+<td>9</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">17</td>
+<td>INTJ, INFJ</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">18</td>
+<td>INFP, INTP</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">19</td>
+<td>INFP, ISFP</td>
+<td>2</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">20</td>
+<td>INFP, ENFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">21</td>
+<td>INTP, INFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">22</td>
+<td>ISTJ, 不知道</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">23</td>
+<td>ESFP, ENFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">24</td>
+<td>ESTJ, ENFP, ENTP, ESFJ, ESTP, ESFP, INTP, INFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">25</td>
+<td>ENTP, ENFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">26</td>
+<td>ISFJ, INFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">27</td>
+<td>ISFJ, ESFJ</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">28</td>
+<td>INFJ, ISFP, INFP</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">29</td>
+<td>ESFJ, ENFJ</td>
+<td>1</td>
+</tr>
+<tr>
+<td data-quarto-table-cell-role="th">30</td>
+<td>ENTJ, ISTJ</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+`,`
+</div>`];
+
+## Respondent Demographics
+
+### Study Level
+
+<div id="fig-survey-study-level">
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+Figure 1: Study Level
+
+</div>
+
+### Age Distribution
+
+<div id="fig-survey-age-dist">
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+
+Figure 2: Study Level
+
+</div>
+
+### University
+
+<div id="fig-survey-list-uni">
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+
+Figure 3: Universities
+
+</div>
+
+### Field of Study
+
+Fields of study have not been normalized: there may be several
+expressions of the same academic department, written slightly
+differently.
+
+<div id="fig-survey-field-of-study">
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[11] }} />
+
+Figure 4: Field of Study
+
+</div>
+
+### Personality Type
+
+<div id="fig-survey-mbti">
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[12] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[13] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[14] }} />
+
+Figure 5: Personality Type (MBTI)
+
+</div>

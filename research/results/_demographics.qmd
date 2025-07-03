@@ -1,5 +1,5 @@
 ```{python}
-from data.attitudes import likert_single_chart
+from data.demographics import student_counts, student_age_ranking, university_ranking_table, field_of_study_ranking, mbti_ranking
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -16,7 +16,7 @@ student_counts()
 
 ### Age Distribution
 ```{python}
-#| label: fig-survey-study-level
+#| label: fig-survey-age-dist
 #| fig-cap: "Study Level"
 #| fig-scap: "Study Level"
 student_age_ranking()

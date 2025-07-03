@@ -1,0 +1,11 @@
+---
+title: Demographics
+sidebar_position: 3
+execute:
+  echo: false
+editor:
+  render-on-save: false
+suppress-bibliography: true
+---
+
+{{< include "_demographics.qmd" >}}
