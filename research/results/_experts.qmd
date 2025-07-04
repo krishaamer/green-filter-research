@@ -8,7 +8,7 @@ import SankeyPeijing from "/research/images/experts/sankey-peijing.png";
 import SankeyYuping from "/research/images/experts/sankey-yuping.png";
 ```
 
-## Experts
+## First Wave of Experts (2023-2024)
 
 Analysis of recorded conversation from 7 experts. Thematic content analysis using ATLAS.ti for labeling/coding the data for grounded theory. Conversations were recorded and transcribed using Google Meet, Fireflies AI, and WhatsApp. Labeling and thematic analysis was performed using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
 
@@ -103,21 +103,9 @@ Thematic Analysis.
 />
 ```
 
-### Interview 6: Technology Expert - Audrey Tang
+### First Wave Expert Feedback Summary
 
-Date: 2025-02-28 Expert: Audrey Tang is a technology expert and former digital minister of Taiwan. Country: Taiwan. Topics: Sustainability, digitalization.
-
-> "The 17 and the 70-year-olds are the natural allies... because they care more about the long term. They don't care about the next quarter." - Audrey Tang
-
-### Interview 7: Sustainability Expert - Carlos Serra
-
-Date: 2025-06-30 Expert: Carlos Serra is a sustainability expert and zero waste activist. Country: Mozambique. Topics: Sustainability, corporate responsibility.
-
-> “I believe certification is, obviously, a powerful means of providing positive visibility, motivating, encouraging, and even creating an attraction for eco-friendly, sustainable businesses.” - Carlos Serra
-
-### Expert Feedback Summary
-
-Common topics between all conversations become visible in the overall Sankey Diagram.
+Common topics between all the first wave conversations become visible in the overall Sankey Diagram.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Common Topics Between All Experts](./images/experts/sankey-all.png){width="100%"}
@@ -130,10 +118,24 @@ Common topics between all conversations become visible in the overall Sankey Dia
 />
 ```
 
-Key actionable takeaways include:
-* Provide alternatives
-* Simplify text
-* Use images
-* Put a "New Feature" ad on the front page
-* Change 繼續討論 to something more actionable (I tried changing to "see alternatives")
+Key actionable takeaways from the first wave include:
+- Provide alternatives
+- Simplify text
+- Use images
+- Put a "New Feature" ad on the front page
+- Change 繼續討論 to something more actionable (I tried changing to "see alternatives")
 
+
+## Second Wave of Experts (2025)
+
+### Interview 1: Technology Expert - Audrey Tang
+
+Date: 2025-02-28 Expert: Audrey Tang is a technology expert and former digital minister of Taiwan. Country: Taiwan. Topics: Sustainability, digitalization.
+
+> "The 17 and the 70-year-olds are the natural allies... because they care more about the long term. They don't care about the next quarter." - Audrey Tang
+
+### Interview 2: Sustainability Expert - Carlos Serra
+
+Date: 2025-06-30 Expert: Carlos Serra is a sustainability expert and zero waste activist. Country: Mozambique. Topics: Sustainability, corporate responsibility.
+
+> “I believe certification is, obviously, a powerful means of providing positive visibility, motivating, encouraging, and even creating an attraction for eco-friendly, sustainable businesses.” - Carlos Serra
