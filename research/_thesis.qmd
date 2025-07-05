@@ -4,13 +4,14 @@ author: ""
 bibliography: ref.bib
 csl: apa.csl
 toc: false
+toc-depth: 3
 lof: false
 geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
 format:
   pdf:
     lot: true 
-    keep-tex: true
+    keep-tex: false
     document:
       title: false
       author: false
