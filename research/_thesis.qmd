@@ -72,6 +72,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "methodology/_index.qmd" >}}
+
+\newpage
+
 {{< include "literature/_index.qmd" >}}
 
 \newpage
@@ -93,10 +97,6 @@ warnings.filterwarnings("ignore")
 \newpage
 
 {{< include "literature/_finance.qmd" >}}
-
-\newpage
-
-{{< include "methodology/_index.qmd" >}}
 
 \newpage
 
