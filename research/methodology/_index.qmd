@@ -7,11 +7,31 @@ import Everything from "../images/discussion/everything.png";
 import AppTestingFlow from '../images/testing/app-testing-flow.png'
 import Elephant from '../images/discussion/elephant.png'
 ```
+
+```{python}
+from data.personas import planned_behavior_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 # Methodology
 
 ## Research Design and Methods
 
 [@baytas3KindsDesign2020] categorizes design research into three modes: (1) conducting research to inform design decisions, (2)studying designs to generate knowledge, and (3) using design itself as a means of inquiry. My research is of the 1st category, aiming to make better design decisions for my sustainability-focused financial app. When developing my research design, I relied on the advice of [@christianrohrerWhenUseWhich2022] to decide when to choose which user experience research methods. 
+
+The Theory of Planned Behaviour (TPB) is used to organize the overal results of my research from a theoretical points of view. [@haggerProgressTheoryPlanned2025] extensive meta-meta-study (study of several underlying meta-studies) summarize 40 years of TPB research, showing strong, consistent effects of *attitude*, *subjective norm*, and *perceived behavioral control* on *intentions*, and of intentions on behavior; the effect is found to be robust across various behaviors, populations, and study designs.
+
+The graph below shows the basic structure of TPB.
+
+```{python}
+#| label: fig-plan-beh
+#| fig-cap: "Theory of Planned Behaviour"
+#| fig-scap: "Theory of Planned Behaviour "
+planned_behavior_chart()
+```
+
+Additional theoretical lenses used in my work include the Planetary Boundaries framework, Circular Economy principles, and the Fogg Behaviour Model.
 
 Overview of research methods.
 
