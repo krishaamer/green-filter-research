@@ -6,7 +6,7 @@ import Abstract from "./images/introduction/abstract.png";
 ```
 # Introduction
 
-How can college students find sustainable companies? Furthermore, if given appropriate tools, could college students leverage their purchasing power to reward sustainable companies? Why is this important to research now? Young people should invest in their future and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products. Does Individual Climate Action Matter? 
+How can college students find sustainable companies? Furthermore, if given appropriate tools, could college students leverage their purchasing power to reward sustainable companies? Why is this important to research now? Young people should invest in their future and younger generations like services with a green, eco-conscious focus. Given our combined power (I'm a Millennial) with Generation Z, we are willing to pay more for sustainable products. Does Individual Climate Action Matter?
 
 My research describes the process of designing an AI companion for college students to help with sustainable shopping, saving, and investing. Money spent shopping, saving, and investing in sustainable companies serves as an incentive to adopt more sustainable practices. If used wisely, money can reward companies for becoming more sustainable. Encourage the least sustainable companies to improve their performance, raising the overall baseline. Facilitate the formation of communities centered around environmental stewardship. Build closer relationships with sustainability.
 
@@ -35,7 +35,7 @@ In terms of the global context, the convergence of the following 5 trends makes 
 | Availability of generative AI-based user interfaces (UIs) | Increasing |
 | Democratization of Financial Markets | Increasing |
 
-: Trending Narratives.
+: Trending narratives.
 
 ## Background
 
@@ -71,7 +71,7 @@ The research focuses on young adults, specifically Taiwanese college students st
 |------------|------------------|
 | Location   | Taiwan           |
 | Population | College Students |
-| Count      | 700              |
+| Count      | 900              |
 
 Experts (finance, design, sustainability).
 
@@ -79,16 +79,26 @@ Experts (finance, design, sustainability).
 |------------|---------|
 | Location   | Global  |
 | Population | Experts |
-| Count      | 5       |
+| Count      | 7       |
 
 ## Research Questions
 
-My research answers the following questions.
+My research attempts to answer the following questions.
 
 | Question | Methods |
 |----------------------------------------|--------------------------------|
-| What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance? | Literature Review |
-| How can AI companions support college students with sustainability knowledge in the context of financial decisions? | Literature Review and Expert Interviews |
-| What AI companion features do college students prioritize as the highest? | Survey of College Students |
+| What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance? | Literature Review and Expert Interviews |
+| How can AI companions support college students with sustainability knowledge in the context of financial decisions? | Literature Review, Expert Interviews and Survey of College Students |
+| What AI companion features do college students prioritize as the highest? | Survey of College Students and Prototype Testing |
 
 : Research Questions
+
+### Why These Research Questions?
+
+| Lens | **RQ1**: Design Considerations | **RQ2:** Support Mechanisms | **RQ3**: User-Priority Features |
+|----------------|-------------------|----------------------|----------------|
+| Level of Abstraction | High-level and comprehensive | Mid-level (mechanisms) | Concrete and granular |
+| Core Focus | *What should I keep in mind while building?* | *How does the companion actually help students learn and decide?* | *Which specific features matter most to students?* |
+| Primary Stakeholder | Designers / Developers | End Users (College Students) | End Users (College Students) |
+| Outputs | Design guidelines, UX principles, tech constraints, ethical guardrails | Framework of nudges, learning aids, information flows. | Ranked feature list, must-have vs nice-to-have. |
+| Data Sources | Literature Review and Expert Interviews | Literature Review, Expert Interviews and Survey of College Students | Survey of College Students and Prototype Testing |
