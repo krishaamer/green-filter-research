@@ -8,7 +8,7 @@ import AppTestingFlow from '../images/testing/app-testing-flow.png'
 import Elephant from '../images/discussion/elephant.png'
 ```
 ```{python}
-from data.personas import planned_behavior_chart
+from charts.methods import planned_behavior_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```

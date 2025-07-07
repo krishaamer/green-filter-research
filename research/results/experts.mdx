@@ -11,17 +11,639 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<caption>Overview of the experts interviewed.</caption>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 36%" />
+<col style="width: 12%" />
+<col style="width: 36%" />
+<col style="width: 1%" />
+<col style="width: 1%" />
+</colgroup>
+<thead>
+<tr>
+<th>Interviewee</th>
+<th>Expertise</th>
+<th>Thematics Codes</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chen-Ying Huang</td>
+<td>Economics, Behavioral Research, Survey Design</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Cathy Wang</td>
+<td>Interaction Design, Business &amp; Org Dev</td>
+<td>25</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Audrey Tang</td>
+<td>Digital Democracy, Civic Tech, Policy</td>
+<td>36</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Yuping Chen</td>
+<td>Economics, UX Research, Information Systems</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Peijing Li</td>
+<td>Accounting, Data Analysis, Governance,</td>
+<td>28</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jessica Cheng</td>
+<td>Venture &amp; Service Design, Strategy</td>
+<td>22</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Carlos Serra</td>
+<td>Sustainability, Environmental Law, Zero Waste, Circular Economy</td>
+<td>23</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Code</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI Strategies</td>
+<td>→ Technology</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Engagement</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Interaction</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Data Collection</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>→ AI Tools</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Common Language</td>
+<td>→ Engagement</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Transparency</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Accessibility</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Engagement</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Experience</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Design Principles</td>
+<td>→ User Engagement</td>
+<td>13</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Sustainability</td>
+<td>12</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Collaboration</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Integration</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Transparency</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Feedback Loops</td>
+<td>→ Continuous Improvement</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Refinement</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Feedback</td>
+<td>3</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Experience</td>
+<td>2</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Testing</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Long-term Impact</td>
+<td>→ Sustainability</td>
+<td>9</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Sustained Engagement</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Long-term Impact</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Consumer Behavior</td>
+<td>2</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Continuous Improvement</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Simplicity</td>
+<td>→ Simplicity</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Accessibility</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Clarity</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Straightforwardness</td>
+<td>4</td>
+</tr>
+<tr>
+<td></td>
+<td>→ User Engagement</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Systems Thinking</td>
+<td>→ Interconnectedness</td>
+<td>31</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Holistic Approach</td>
+<td>15</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Integration</td>
+<td>12</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Consumer Behavior</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Systemic Approach</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Transparency</td>
+<td>→ Transparency</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Clarity</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Clear Communication</td>
+<td>7</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Visibility</td>
+<td>4</td>
+</tr>
+<tr>
+<td></td>
+<td>→ Product Origin</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>User Engagement Challenges</strong></td>
+<td>Difficulties in attracting user attention to features in apps like Momo; suggestions include curiosity-driven prompts, quizzes, and intuitive design</td>
+</tr>
+<tr>
+<td><strong>Sustainability Focus</strong></td>
+<td>Shared need for transparent product info, especially on environmental impact; desire for clear labeling on sustainability and investment value</td>
+</tr>
+<tr>
+<td><strong>Improving User Experience</strong></td>
+<td>Tactics to boost click-through rates, such as eye-catching visuals and smart contextual prompts to encourage feature exploration</td>
+</tr>
+<tr>
+<td><strong>Technical Constraints</strong></td>
+<td>Discussion of platform limits (e.g., Chrome) on tracking; proposes tracking once users enter a more controlled environment</td>
+</tr>
+<tr>
+<td><strong>Educational Perspectives</strong></td>
+<td>Need to educate users on sustainable investing; propose accessible metrics and user flows that guide them from casual to informed consumers</td>
+</tr>
+<tr>
+<td><strong>Cultural Insights</strong></td>
+<td>Taiwan-specific views on sustainability; food safety concerns seen as a gateway to broader sustainable practice awareness</td>
+</tr>
+<tr>
+<td><strong>Future of AI in Design</strong></td>
+<td>AI can simplify design and personalize interfaces; discussion includes ethical use of AI and its role in user engagement</td>
+</tr>
+<tr>
+<td><strong>Collaborative Approach</strong></td>
+<td>Importance of collaboration among designers, developers, and businesses to overcome user resistance and data challenges</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>User Engagement</strong></td>
+<td>Users show initial interest but rarely go deeper; main issue is the analysis button being overlooked.</td>
+</tr>
+<tr>
+<td><strong>App Features and UX</strong></td>
+<td>Proposed adding a personality quiz and refining button design/colors to boost curiosity and clicks.</td>
+</tr>
+<tr>
+<td><strong>Data Analysis and Personas</strong></td>
+<td>3 user personas guide feature customization, aligning content with differing sustainability interests.</td>
+</tr>
+<tr>
+<td><strong>Testing and Iteration</strong></td>
+<td>Emphasis on refining testing, possibly using a control version to compare user behavior and preferences.</td>
+</tr>
+<tr>
+<td><strong>Sustainability Metrics</strong></td>
+<td>Aim to show clear, simple info about product origins and sustainability to sustain user interest.</td>
+</tr>
+<tr>
+<td><strong>Technological Integration</strong></td>
+<td>Suggestions include using tech to track and visualize sustainability data, enhancing transparency and usability.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Emotional Connections in Digital Content</strong></td>
+<td>AI can mimic emotional presence, creating bonds (e.g., with digital personas), especially for older users.</td>
+</tr>
+<tr>
+<td><strong>ESG Reporting and Corporate Responsibility</strong></td>
+<td>ESG affects investment decisions; there’s a need for clearer, more honest sustainability communication.</td>
+</tr>
+<tr>
+<td><strong>Design Thinking and User Engagement</strong></td>
+<td>UX must reflect user emotions; feedback and intuitive interfaces are key to engaging digital products.</td>
+</tr>
+<tr>
+<td><strong>Personalization in Consumer Platforms</strong></td>
+<td>Users expect tailored content; platforms like Momo and Shopee benefit from adaptive recommendations.</td>
+</tr>
+<tr>
+<td><strong>Impact of Grassroots Movements</strong></td>
+<td>Youth-led efforts (e.g., against plastic straws) can influence corporate behavior and policy shifts.</td>
+</tr>
+<tr>
+<td><strong>Access to Information and Accountability</strong></td>
+<td>ESG data must be more transparent and consumer-friendly to foster trust and real accountability.</td>
+</tr>
+<tr>
+<td><strong>The Role of Design in Social Change</strong></td>
+<td>Design drives social impact when aligned with emotional storytelling and community needs.</td>
+</tr>
+<tr>
+<td><strong>Holistic and Systemic Perspectives</strong></td>
+<td>Solving big issues (e.g., climate change) requires integrated, cross-sectoral thinking.</td>
+</tr>
+<tr>
+<td><strong>Practical Applications of Research in Design</strong></td>
+<td>Design theory should lead to action; involve users and students in real-life design practice.</td>
+</tr>
+<tr>
+<td><strong>Future Directions in Sustainability</strong></td>
+<td>Emphasis on youth-led activism, intergenerational collaboration, real-time transparency tools, personalized user journeys, and regulatory pressure (e.g., EU ESG mandates) as drivers of future sustainability innovation. Experts highlight the need for planetary thinking, upstream design changes, and grassroots movements enabled by accessible digital technology.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Continuous Improvement</strong></td>
+<td>Improving visibility of key features on Momo; clearer prompts and in-app guidance can boost engagement.</td>
+</tr>
+<tr>
+<td><strong>Refinement</strong></td>
+<td>Early tests showed users overlooked important buttons; need for redesigning layout and color to capture attention more effectively.</td>
+</tr>
+<tr>
+<td><strong>User Feedback</strong></td>
+<td>Yuping shares tips on using surveys to collect actionable input; user responses help guide feature prioritization and messaging clarity.</td>
+</tr>
+<tr>
+<td><strong>User Experience</strong></td>
+<td>Simplicity and visual cues are essential; persona-driven design helps match product info (like origin) to user preferences.</td>
+</tr>
+<tr>
+<td><strong>User Testing</strong></td>
+<td>They emphasize A/B testing and user observation; tracking interaction data can help improve app flow and retention strategies.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>User Personas &amp; Engagement</strong></td>
+<td>Outline of personas focused on product origin, especially for college students; highlights issues in feature visibility and drop-off.</td>
+</tr>
+<tr>
+<td><strong>Interface Design &amp; Feedback</strong></td>
+<td>Yuping suggests clearer buttons and upfront prompts to guide users; the use of surveys to link feedback with app interactions.</td>
+</tr>
+<tr>
+<td><strong>Sustainability &amp; Business Impact</strong></td>
+<td>Cathy emphasizes emotional drivers in consumer behavior and how sustainability is reshaping business, especially under new regulations.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sustainability Tools</strong></td>
+<td>The concept originated from a desire for a tool that instantly reveals the sustainability and origins of products, inspired by sci-fi ideas.</td>
+</tr>
+<tr>
+<td><strong>Sustained Engagement</strong></td>
+<td>Maintaining user interest requires visual design, gamified features, and clear prompts that simplify sustainability insights.</td>
+</tr>
+<tr>
+<td><strong>Long-term Impact</strong></td>
+<td>The goal is to transform casual purchases into informed, value-aligned decisions that support long-term sustainable habits.</td>
+</tr>
+<tr>
+<td><strong>Consumer Behavior</strong></td>
+<td>Users often avoid detailed reports and prefer quick, intuitive visuals; simplifying data presentation is key to influencing decisions.</td>
+</tr>
+<tr>
+<td><strong>Continuous Improvement</strong></td>
+<td>Iterative feedback from testing helps refine design and communication; using familiar product types makes sustainability info more relatable.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Economic Impact and Externalities</strong></td>
+<td>Peijing Li highlights the importance of considering external costs in economics, using the example of cigarette smoking, where the price does not reflect the full societal harm caused.</td>
+</tr>
+<tr>
+<td><strong>Sustainability and Consumer Awareness</strong>:</td>
+<td>There is a focus on how consumers perceive products, particularly regarding sustainability. Many college student survey participants express a lack of trust in “green” claims, suggesting that they want more transparency in product origins and environmental impacts. Consumer skepticism toward green claims signals demand for clearer, verifiable data on product origins and environmental impact.</td>
+</tr>
+<tr>
+<td><strong>Tech-Driven Transparency</strong></td>
+<td>Technology (such as apps, AI , blockchains, etc) can be used to enhance consumer understanding of products. There’s a vision for real-time data on product origins, manufacturing practices, and company sustainability scores.</td>
+</tr>
+<tr>
+<td><strong>Behavioral Insights</strong></td>
+<td>How consumers interact with sustainability-related information reveal that many are overwhelmed and confused. Thus, there’s a need for simplified, engaging communication about sustainable practices.</td>
+</tr>
+<tr>
+<td><strong>Behavioral Economics</strong></td>
+<td>The idea of “sunrise” (growing industries) and “sunset” (declining industries) companies is raised, emphasizing that consumers might change their habits out of risk avoidance rather than a genuine commitment to sustainability.</td>
+</tr>
+<tr>
+<td><strong>Marketing Strategies</strong></td>
+<td>Recommends using curiosity-based prompts, interactive features, and clear messaging to drive sustainable user engagement.</td>
+</tr>
+<tr>
+<td><strong>Research, Testing &amp; Experimentation</strong></td>
+<td>Advocates for A/B testing of sustainability labels and features, linking product origin data to user satisfaction.</td>
+</tr>
+<tr>
+<td><strong>Community Collaboration</strong></td>
+<td>Community-based actions and local engagement can strengthen sustainable habits and promote systems-level change.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Consumer Awareness</strong></td>
+<td>The app aims to reveal hidden layers behind products, empowering users through simple, trustworthy insights into ethical practices. Users who understand product origins and company ethics are more empowered to make informed, sustainable choices.</td>
+</tr>
+<tr>
+<td><strong>Feature Design and User Interaction</strong></td>
+<td>Simplify the user journey while boosting user engagement with playful interactions. Test UIs to make sustainability information more intuitive and accessible.</td>
+</tr>
+<tr>
+<td><strong>Investment Education</strong></td>
+<td>Connects purchases with green investing, teaching users how spending links to broader financial and environmental outcomes.</td>
+</tr>
+<tr>
+<td><strong>Data and Trust</strong></td>
+<td>Recognizes challenges in ESG data reliability; seeks transparent reporting standards users can trust.</td>
+</tr>
+<tr>
+<td><strong>Research and Testing</strong></td>
+<td>Uses user testing and analytics to refine features, identify pain points, and improve click-through.</td>
+</tr>
+<tr>
+<td><strong>Label Skepticism</strong></td>
+<td>Questions the credibility of existing sustainability labels; calls for clearer, more accountable rating systems.</td>
+</tr>
+</tbody>
+</table>
+`];
+
 ````mdx-code-block
 import Figure from '/src/components/Figure';
 import SankeyAll from "/research/images/experts/sankey-all.png";
+import SankeyAll2 from "/research/images/experts/sankey-all2.png";
 import SankeyCathy from "/research/images/experts/sankey-cathy.png";
 import SankeyChenying from "/research/images/experts/sankey-chenying.png";
 import SankeyJessica from "/research/images/experts/sankey-jessica.png";
 import SankeyPeijing from "/research/images/experts/sankey-peijing.png";
 import SankeyYuping from "/research/images/experts/sankey-yuping.png";
+import SankeyAudrey from "/research/images/experts/sankey-audrey.png";
+import SankeyCarlos from "/research/images/experts/sankey-carlos.png";
 ````
 
-## Experts
+## First Wave of Experts (2023-2024)
 
 Analysis of recorded conversation from 7 experts. Thematic content
 analysis using ATLAS.ti for labeling/coding the data for grounded
@@ -29,17 +651,27 @@ theory. Conversations were recorded and transcribed using Google Meet,
 Fireflies AI, and WhatsApp. Labeling and thematic analysis was performed
 using Atlas.ti. Visualisations were produced using Atlas.ti and Python.
 
+For thematic analysis, I conducted 2 types of coding: -
+
+-   Unsupervised AI-coding which discovered topics and patterns in the
+    interviews.
+
+-   Intentional AI-coding, directed by my own judgment towards keywords
+    most relevant to developing my AI assistant.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
+
 ### Interview 1: Designer - Cathy Wang
 
 Date: 2023-11-10 Expert: Cathy Wang is a designer and business leader
-with 20 years of experience in bringing hypergrowth and hundreds of
+with 20 years of experience in bringing hyper-growth and hundreds of
 millions of EUR in revenue in digital transformation of industry.
 Country: Taiwan / Canada Topics: Design, Business.
 
-> “Design is more of a mindset for me… how do you actually unpack a
+> *“Design is more of a mindset for me… how do you actually unpack a
 > problem? How do you think about the problem… and find the different
 > intricate parts in a very system thinking way to be able to find a
-> solution?” - Cathy Wang
+> solution?”* - Cathy Wang
 
 Thematic Analysis.
 
@@ -123,7 +755,30 @@ Thematic Analysis.
 />
 ````
 
-### Interview 6: Technology Expert - Audrey Tang
+### First Wave Expert Feedback Summary
+
+Common topics between all the first wave conversations become visible in
+the overall Sankey Diagram.
+
+````mdx-code-block
+<Figure
+  caption="Common Topics Between All Experts in the First Phase"
+  src={SankeyAll}
+/>
+````
+
+Key actionable takeaways from the first wave include:
+
+-   Provide alternatives
+-   Simplify text
+-   Use images
+-   Put a “New Feature” ad on the front page
+-   Change 繼續討論 to something more actionable (I tried changing to
+    “see alternatives”)
+
+## Second Wave of Experts (2025)
+
+### Interview 1: Technology Expert - Audrey Tang
 
 Date: 2025-02-28 Expert: Audrey Tang is a technology expert and former
 digital minister of Taiwan. Country: Taiwan. Topics: Sustainability,
@@ -133,7 +788,14 @@ digitalization.
 > more about the long term. They don’t care about the next quarter.” -
 > Audrey Tang
 
-### Interview 7: Sustainability Expert - Carlos Serra
+````mdx-code-block
+<Figure
+  caption="Audrey Tang"
+  src={SankeyAudrey}
+/>
+````
+
+### Interview 2: Sustainability Expert - Carlos Serra
 
 Date: 2025-06-30 Expert: Carlos Serra is a sustainability expert and
 zero waste activist. Country: Mozambique. Topics: Sustainability,
@@ -143,19 +805,176 @@ corporate responsibility.
 > positive visibility, motivating, encouraging, and even creating an
 > attraction for eco-friendly, sustainable businesses.” - Carlos Serra
 
-### Expert Feedback Summary
-
-Common topics between all conversations become visible in the overall
-Sankey Diagram.
-
 ````mdx-code-block
 <Figure
-  caption="Common Topics Between All Experts"
-  src={SankeyAll}
+  caption="Carlos Serra"
+  src={SankeyCarlos}
 />
 ````
 
-Key actionable takeaways include: \* Provide alternatives \* Simplify
-text \* Use images \* Put a “New Feature” ad on the front page \* Change
-繼續討論 to something more actionable (I tried changing to “see
-alternatives”)
+## Thematic Codes
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+## Overall Expert Feedback Summary
+
+````mdx-code-block
+<Figure
+  caption="Common Topics Between All Experts in the First and Second Phase"
+  src={SankeyAll2}
+/>
+````
+
+The following summaries were generated by Atlas.ti for each of the 8
+thematic keywords, combining insights from all of the interviews, then
+heavily edited for brevity and formatted into tables.
+
+#### 1) AI Strategies {#ai-strategies}
+
+This line of discussion focuses on digital AI tool design and preferred
+functionality to enhance consumer awareness of product origins and
+sustainable consumption and investments.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+In this line of discussion on AI strategies, experts provide ideas to
+build a framework for developing a sustainable consumer application
+while addressing user engagement, technological limitations, and the
+educational aspects of sustainability.
+
+#### 2) Common Language {#common-language}
+
+Challenges in user engagement and data collection, particularly how to
+move users from initial engagement to deeper interactions with the app.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+This line of discussion seeks practical solutions to enhance the app’s
+functionality and ensure it resonates with its users more effectively;
+the discourse focuses on a complex interplay between user experience
+design, data utilization, and the overarching goal of promoting more
+sustainable consumer habits through increased awareness and engagement.
+
+#### 3) Design Principles {#design-principles}
+
+This line of discussion centers around environmental sustainability, the
+influence of AI and technology in business, and the interface of design
+thinking with social and economic changes.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
+
+#### 4) Feedback Loops {#feedback-loops}
+
+This line of discussion focuses on the challenges in user tracking,
+specifically on the Momo platform. Initial testing has shown that many
+can’t find critical buttons, highlighting design flaws that need to be
+addressed. Yuping Chen provides insights on user engagement and suggests
+ways to improve the visibility of new features. They discuss user
+funnels, the difficulty of capturing attention from users, and the
+importance of clear communication about new features.
+
+The conversation explores the concept of persona-driven design and
+generative UI, noting that understanding user preferences (like product
+origins) can help in tailoring the app’s offerings. The need for
+simplicity and engagement in user interfaces to keep users interested.
+
+Feedback is exchanged on testing methods, where Yuping provides
+suggestions for effective user surveys and experimental designs to gauge
+user satisfaction, especially regarding product origins. The discussion
+emphasizes the need for user-friendly features and clear communication
+to enhance user interaction and retention within the app. They conclude
+that making the app’s intentions explicit and engaging users
+interactively is crucial to success.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+
+#### 5) Long-term Impact {#long-term-impact}
+
+This line of discussion revolves around the development of an app
+focused on transparency in product origins and investments, exploring
+various user personas and their interests, emphasizing the importance of
+product origin in attracting users, particularly college students,
+sharing insights about user testing, highlighting challenges in
+engagement and visibility of app features.
+
+Yuping Chen suggests strategies for improving user interaction, such as
+making buttons more noticeable and providing explicit information about
+new features, reflecting on changing consumer behavior regarding
+sustainability and the importance of communicating the ethical
+dimensions of products. Cathy Wang adds to the discussion by
+highlighting the emotional aspects of consumer behavior and the
+regulatory environment impacting businesses, especially in relation to
+sustainability. Exploration of concepts like “sunrise” and “sunset”
+industries, touches on the implications of economic growth versus
+sustainable practices.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
+
+Overall, the conversation navigates the intersection of technology,
+consumer behavior, and sustainability, emphasizing the need for
+innovative approaches to engage users effectively while addressing their
+concerns about product origins and environmental impact.
+
+#### 6) Simplicity {#simplicity}
+
+This line of conversation discusses the origins for the research,
+stemming from a desire to create a product that allows users to easily
+access information about the sustainability of products they purchase,
+inspired by the science fiction show Star Trek, indicating a wish for a
+scanner-like tool that could provide instant information on product
+quality.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
+
+The experts brainstorm ways to enhance the user interface and make it
+more intuitive, such as using *familiar product categories* for testing
+purposes.
+
+Chen-Ying Huang highlights the role of AI in analyzing products and
+providing insights, emphasizing that users often prefer quick,
+easy-to-understand visual representations over detailed reports and the
+importance of gathering user feedback to refine the product,
+particularly regarding the clarity and relevance of information about
+product origins and sustainability.
+
+The dialogue also touches on the need to adapt existing technology to
+improve user experience, especially focusing on the limitations of
+platforms like the Apple app ecosystem compared to more flexible ones
+like Google Chrome, exploring various strategies to encourage users to
+engage with the application, such as gamifying the experience or
+providing attractive prompts.
+
+Throughout the conversation, there is a focus on how to make the
+initiative relevant to the general public, addressing their concerns
+about sustainability and helping them make informed purchasing
+decisions. The discussion implies a significant challenge ahead in
+creating a compelling, user-friendly tool that can bridge the gap
+between consumer behavior and sustainable practices.
+
+#### 7) Systems thinking {#systems-thinking}
+
+This lengthy discussion primarily revolves around sustainability,
+consumer behavior, and technological solutions aimed at improving
+transparency in the marketplace, when it comes to products and their
+environmental impact.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[8] }} />
+
+Altogether, the conversation emphasizes the intersection of technology,
+consumer behavior, and economic theories in shaping a more sustainable
+market environment, while identifying the ongoing challenges in
+achieving greater transparency and consumer engagement in sustainability
+efforts.
+
+#### 8) Transparency {#transparency}
+
+Finally, the discussion on transparency centers around the concept of
+improving consumer awareness of sustainability and ethical practices in
+products through the *“Green Filter”* app.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[9] }} />
+
+The conversation revolves around creating an informative AI-based tool
+that empowers consumers to make more sustainable choices while
+addressing the realistic challenges in obtaining and presenting such
+information effectively.

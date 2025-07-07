@@ -1547,20 +1547,19 @@ Google, Nvidia, and others.
 these risks (and perhaps to appease the public), all the major AI labs
 have taken steps to be more safe. Anthropic, which was founded by former
 OpenAI employees, after leaving the OpenAI over this very issue, led the
-movement by announcing responsible *scaling policy* (*Anthropic’s
-Responsible Scaling Policy*, 2023). OpenAI itself announced a dedicated
-“Superalignment” team, co-led by Ilya Sutskever and Jan Leike; they made
-a specific promise to commit 20% of its compute budget to build an AI
-system in the next 4 years, that can itself research and refine
-alignment methods, effectively solving the alignment problem for
-superintelligent AI (which is considered the highest risk) (Jan Leike &
-Ilya Sutskever, 2023). OpenAI has previously admitted, it does not yet
-fully understand how the internals of an neural network work; they are
-developing tools to represent neural network concepts for humans (Gao et
-al., 2024; OpenAI, 2024a). Outside of the major labs, several
-intependent AI safety organizations have also been launched, for example
-METR, the Model Evaluation & Threat Research incubated in the Alignment
-Research Center (*METR*, 2023).
+movement by announcing responsible *scaling policy* (Anthropic, 2023).
+OpenAI itself announced a dedicated “Superalignment” team, co-led by
+Ilya Sutskever and Jan Leike; they made a specific promise to commit 20%
+of its compute budget to build an AI system in the next 4 years, that
+can itself research and refine alignment methods, effectively solving
+the alignment problem for superintelligent AI (which is considered the
+highest risk) (Jan Leike & Ilya Sutskever, 2023). OpenAI has previously
+admitted, it does not yet fully understand how the internals of an
+neural network work; they are developing tools to represent neural
+network concepts for humans (L. Gao et al., 2024; OpenAI, 2024a).
+Outside of the major labs, several intependent AI safety organizations
+have also been launched, for example METR, the Model Evaluation & Threat
+Research incubated in the Alignment Research Center (*METR*, 2023).
 
 A popular approach to AI safety is *red-teaming*, which means pushing
 the limits of LLMs, trying to get them to produce outputs that are
@@ -1648,19 +1647,24 @@ performance most recent entry April 16, 2024.
 Moreover, benchmarking is not only about the abilities, knowledge and
 aligment of the model itself. Interactions with other systems are
 equally important to measure, such as Retrieval Augmented Generation
-(RAG) performance. Generative AI applications retrieve data from
-unstructured external sources in order to augment LLMs existing
-knowledge with current information (Leng et al., Mon, 08/12/2024 -
-19:46). (Ragas, 2023) suggests evaluating one’s RAG pipelines enables
-*Metrics-Driven Development*. Likewise, LangSmith, the developer
-platform for LLM-powered apps (which makes extensive use of RAG),
-dissects the LLM app lifecycle into a pipeline: debug, collaborate,
-test, and monitor (LangChain, 2024). As using unstructured inputs to
-generated structured data, is one of the core use cases of LLMs,
-conforming the outputs strictly to standards such as JSON is crucial
-(otherwise the production app might even break) - which is why OpenAI’s
-Structured Outputs, which guaranteed 100% reliability, was an important
-jump in AI adoption to mainstream app development (Pokrass, 2024).
+(RAG) performance. RAG is used to enhance AI content with domain-spefic
+(close-to realtime) knowledge. A technique first proposed by researchers
+at META (Lewis et al., 2020) some RAG benefits include *“make contextual
+decisions on-the-fly, thereby opening up a more dynamic and responsive
+way to handle knowledge search tasks”* (Dewy, 2024; Y. Gao et al.,
+2023). Generative AI applications retrieve data from unstructured
+external sources in order to augment LLMs existing knowledge with
+current information (Leng et al., Mon, 08/12/2024 - 19:46). (Ragas,
+2023) suggests evaluating one’s RAG pipelines enables *Metrics-Driven
+Development*. Likewise, LangSmith, the developer platform for
+LLM-powered apps (which makes extensive use of RAG), dissects the LLM
+app lifecycle into a pipeline: debug, collaborate, test, and monitor
+(LangChain, 2024). As using unstructured inputs to generated structured
+data, is one of the core use cases of LLMs, conforming the outputs
+strictly to standards such as JSON is crucial (otherwise the production
+app might even break), explaing why OpenAI’s Structured Outputs, which
+guaranteed 100% reliability, was an important jump in AI adoption to
+mainstream app development (Pokrass, 2024).
 
 ![](ai_files/figure-markdown_strict/cell-6-output-1.png)
 
@@ -2836,7 +2840,7 @@ Collisson, P., Suh, J., Iqbal, S., Bennett, P., Inkpen, K., Teevan, J.,
 Kikin-Gil, R. & Horvitz, E. (2019, May). Guidelines for human-AI
 interaction. *CHI 2019*.
 
-*Anthropic’s Responsible Scaling Policy*. (2023).
+Anthropic. (2023). *Anthropic’s Responsible Scaling Policy*.
 https://www.anthropic.com/news/anthropics-responsible-scaling-policy.
 
 Anton Korinek. (2023). Scenario Planning for an AGI Future. In *IMF*.
@@ -3069,6 +3073,9 @@ on Mental Health in the Contemporary Family. *Behavior Modification*,
 *15*(4), 501–544.
 [https://doi.org/10.1177/01454455910154004](https://doi.org/10.1177/01454455910154004)
 
+Dewy. (2024). *Building a RAG "tool" with Dewy and Vercel’s Generative
+UI components*. https://DewyKB.github.io/blog/rag-tool-vercel-gen-ai/.
+
 Di Pizio, A. (2023). Sam Altman Says AI Will Make Businesses 30 Times
 More Productive: 2 Stocks Investors Will Want to Buy. In *NASDAQ The
 Motley Fool*.
@@ -3136,6 +3143,11 @@ Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A.,
 Sutskever, I., Leike, J. & Wu, J. (2024). *Scaling and evaluating sparse
 autoencoders*. arXiv.
 [https://doi.org/10.48550/ARXIV.2406.04093](https://doi.org/10.48550/ARXIV.2406.04093)
+
+Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J.,
+Wang, M. & Wang, H. (2023). *Retrieval-Augmented Generation for Large
+Language Models: A Survey*.
+[https://doi.org/10.48550/ARXIV.2312.10997](https://doi.org/10.48550/ARXIV.2312.10997)
 
 Gates, B. (2023). AI is about to completely change how you use
 computers. In *gatesnotes.com*. https://www.gatesnotes.com/AI-agents.
@@ -3354,6 +3366,12 @@ Principles of Knowledge Representation and Reasoning*, 552–561.
 
 Lew, G. & Schumacher, R. M. J. (2020). *AI and UX: Why artificial
 intelligence needs user experience*. Apress.
+
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N.,
+Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S. & Kiela, D.
+(2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP
+Tasks*.
+[https://doi.org/10.48550/ARXIV.2005.11401](https://doi.org/10.48550/ARXIV.2005.11401)
 
 Lexow, M. (2021). Designing for AI — a UX approach. In *Medium*.
 https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762.

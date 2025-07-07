@@ -9,6 +9,150 @@ suppress-bibliography: true
 
 
 
+export const quartoRawHtml =
+[`
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 43%" />
+<col style="width: 21%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Design Principle</th>
+<th>Design Implications</th>
+<th>Actionable Design Advice</th>
+<th>TPB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Design for Visibility &amp; Simplicity</em></td>
+<td>Testers often overlooked the AI analysis feature, thinking it was part of the website, not a 3rd party service. The interface must make key actions obvious. Use prominent announcements to announce new features (e.g., a pop-up tour highlighting what’s new). Minimize extra clicks: as one expert (Huang) noted, “people are lazy… if it’s easier to get the information that I don’t have to click a button, I will pay attention”. In short, design a streamlined UI with clear one-step interactions and in-context prompts, thereby strengthening positive <strong>attitudes</strong>.</td>
+<td>Make key actions obvious, use pop-up tours, cut extra clicks; boosts positive feelings toward using the tool.</td>
+<td>Attitude</td>
+</tr>
+<tr>
+<td><em>Design for Intuitive Visuals &amp; Feedback</em></td>
+<td>Replace dense text with clear graphics and simple ratings. Huang observed that users tune out long reports but immediately grasp an icon or “eco score” (e.g., a polar bear or 0–100 scale). Similarly, testers noticed numeric eco-scores more than textual features. Thus, represent sustainability metrics as concise visuals or scores, with brief tooltips explaining meaning to bolster <strong>attitudes</strong>.</td>
+<td>Replace dense text with icons and scores; quick comprehension lifts perceived value.</td>
+<td>Attitude</td>
+</tr>
+<tr>
+<td><em>Design for Engaging Tone &amp; Fun Elements</em></td>
+<td>Use approachable language and interactive cues. Experts advised avoiding jargon: e.g., change button text from “Continue discussion” to a playful prompt to spark curiosity and intrigue user interest. Gamification (e.g., progress bars, “unlocking” sustainable tips) may sustain engagement, given users’ limited patience for lengthy explanations.</td>
+<td>Gamified language and progress bars spark curiosity and enjoyment.</td>
+<td>Attitude</td>
+</tr>
+<tr>
+<td><em>Design for Trust and Transparency</em></td>
+<td>Students expressed moderate trust in AI (survey results show many neutral-to-skeptical responses). To build credibility, the companion must cite verifiable data (certifications, carbon labels, etc.) rather than vague claims. For example, testers distrusted offsetting alone (“I still feel like I’m not really doing it right” when just buying carbon credits), so the app should provide concrete evidence of impact. Avoid taking ESG scores at face value – include context (e.g., B Corp or supply-chain data) to align with <strong>perceived behavioural control</strong> over accurate information.</td>
+<td>Cite verifiable data and give context so students feel info is credible and actionable.</td>
+<td>Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td><em>Design Mobile-First</em></td>
+<td>For technical reasons the prototype testing was done using laptop computers (Apple does not allow adding 3rd party overlays on iOS apps the same way Google allows with Chrome Browser Extensions). However, given 96% of students use smartphones (majority iOS), mobile-first is a must, even given all the technical limitations. The design should favor a mobile app or browser extension that integrates with their existing shopping/payment tools. Survey clustering suggests leveraging daily habits (shopping/savings apps) as entry points. Ensure compatibility (notably, iOS imposes browser restrictions) and consider platform-specific design (e.g., integrating with Momo app interface as envisioned). Shopee was consistently mentioned by testers and could serve for the next round of testing instead of Momo.</td>
+<td>Meet students on their primary device and integrate with familiar apps, reducing friction.</td>
+<td>Perceived Behavioral Control</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 44%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Design Implications</th>
+<th>Actionable Design Advice</th>
+<th>TPB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contextualized Information at Point-of-Decision</td>
+<td>Embed sustainability data into shopping and investment flows. In prototype testing, participants valued seeing hidden product info (ingredients, manufacturing “history”) that they normally don’t encounter. For example, revealing that a facial mask contained problematic chemicals led a student to switch to an aloe-based alternative. This suggests the AI should surface concise ecological/health facts (e.g. “contains X chemical linked to…”) whenever users view a product. Similarly, in the investment context the AI showed company ESG scores and stock info. Users reacted positively: one noted, “Buying things is also an investment… I can help you analyze if the money spent is good or bad”. Thus, frame purchases as “investments” in sustainable companies to link finance and ecology.</td>
+<td>Surface hidden ingredients, ESG scores, frame purchases as “investments”.</td>
+<td>Attitude and Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td>Sustainable Alternatives and Comparisons</td>
+<td>Provide actionable recommendations. Testers frequently clicked a “Find Alternatives” feature, and Cathy Wang confirms that students want alerts on “the most dangerous products” to avoid. Accordingly, the companion should automatically flag high-impact products in the user’s list and suggest greener options or categories. In finance mode, it should compare companies’ performance (e.g. “Company X is high-ESG, Company Y is not”) so students can weigh investment choices. Survey data underscores this: roughly one-third of respondents want pre-investment checks of company eco-credentials (31% for certifications, 26% for consumer reviews) and comparisons (26%) of environmental performance. The AI can fulfill these by summarizing third-party eco-reports or consumer sentiments on companies.</td>
+<td>Auto-flag high-impact items and show greener options or stock comparisons.</td>
+<td>Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td>Personal Sustainability Dashboard</td>
+<td>Many students expressed interest in tracking their own impact (25% wanted a monthly “eco-score” of spending). Building on this, the app can maintain a simple personal report (e.g. “Your spending this month saved X kg CO₂” or “you’re now 20% greener”). This aligns with providing “carbon score” feedback that testers noticed. The dashboard should be succinct, using visuals (progress bars, infographics) rather than verbose text, so students quickly grasp progress (Huang’s scale idea).</td>
+<td>Monthly eco-score and progress visuals reinforce learning and self-efficacy.</td>
+<td>Attitude and Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td>Educational Nudges &amp; Explanations</td>
+<td>Use the AI chat (or chat-like prompts) to elaborate on sustainability concepts as needed. Although few testers clicked the “Chat with AI” button during prototyping, it can serve as a fallback for curious users. For example, when a student sees a product’s green score, they could ask “Why?” and the AI could briefly explain (“This brand was rated low because it uses high-carbon packaging”, sort of like in the earliest prototype). Encouraging exploration without overwhelming users aligns with Audrey Tang’s insight that youth are eager to engage but need clear, relatable contexts (e.g. connecting a bubble-tea straw ban to personal habits). Overall, the AI should act as an informed guide: contextualizing data, answering “what-if” questions, and helping students internalize how their financial choices affect sustainability.</td>
+<td>Chat prompts explain the “why” behind scores, linking knowledge to choices.</td>
+<td>Attitude</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 44%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Design Implications</th>
+<th>Why Students Want It?</th>
+<th>TPB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1) Eco-Impact Product Filters</strong></td>
+<td>The highest-priority feature is product-level sustainability comparison. In the survey, 63% of students wanted to “see which products are most polluting so I can avoid them,” far above other categories. This aligns with testing observations: Wang notes “the main feature…was to avoid the most…dangerous products” via an alert on the shopping list. Accordingly, the companion should prominently offer “sustainability filters” (e.g. sort products by carbon footprint or toxin content) and alternative suggestions, just as users clicked the “Find Alternatives” button in our prototype.</td>
+<td>Lets them avoid polluting products quickly, aligning with personal values.</td>
+<td>Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td><strong>2) Supply Chain Transparency</strong></td>
+<td>Other top features relate to sourcing. About 41% of respondents want to check product origin (e.g. local vs. imported) and 40% want to know how eco-friendly the production process is. Designing a simple icon or tag for “local” or “certified eco-friendly factory” (as Chen-Ying Huang recommends using recognizable symbols) would meet these needs. Similarly, one-third favored an “organic” product search. The prototype’s green-colored “Analysis” tab (showing carbon emissions by product type) was also used by testers, indicating interest in seeing how choices impact emissions cumulatively.</td>
+<td>Origin tags and factory eco-labels give socially accepted proof of ethics.</td>
+<td>Subjective Norm and Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td><strong>3) Personal Eco-Score and History</strong></td>
+<td>A quarter of students (25%) expressed interest in a monthly report of their own eco-score. In testing, participants took screenshots of the carbon-reduction analysis, suggesting value in recording progress. We should include a lightweight “eco-dashboard” feature: an overview of past decisions, scores, and tips. Crucially, it must be eye-catching and concise (e.g. a single visual per month) so students will actually review it.</td>
+<td>Visible progress boosts motivation and perceived capability.</td>
+<td>Attitude and Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td><strong>4) Sustainable Investing</strong></td>
+<td>Roughly 26–32% of respondents wanted to see company eco-scores, certifications, or performance comparisons before investing. Testers saw company ESG ratings and stock info (they asked “what is this company’s stock code?”) and even got recommendations for similar sustainable companies. Thus, the feature set should include an investment tab with clear “sustainability ratings” for companies alongside stock data, and suggestions of alternative stocks aligned with the student’s values.</td>
+<td>Company eco-scores inform responsible investment, meeting peer expectations.</td>
+<td>Subjective Norm and Perceived Behavioral Control</td>
+</tr>
+<tr>
+<td><strong>5) Lower-Priority Features</strong></td>
+<td>Given the high usage of social media in Taiwan, I was surprised community-related and social features ranked low in the survey. Only around 12% of the respondents wanted social networking with eco-peers, and indeed testers rarely engaged even with the AI’s chat option to ask more questions. These findings suggest focusing development effort on concrete decision aids (filtering, scoring, recommendations) rather than social networking or open-ended chat.</td>
+<td>Ranked low, so less impact on key TPB levers for now.</td>
+<td>(n/a)</td>
+</tr>
+</tbody>
+</table>
+`];
+
 # Conclusion
 
 A survey of over 900 students from over 48 universities across Taiwan
@@ -20,213 +164,94 @@ design student, I began my research by trying to understand my potential
 users’ mental model. If my design system meets that model, change
 becomes possible.
 
+According to the *Theory of Planned Behaviour*, **attitudes**,
+**subjective norms**, and **perceived behavioral control**, drive
+intentions and behavior. My findings align with these constructs and
+inform how Green Filter supports them. My prototype *“Green Filter”* app
+introduced here is an AI companion that translates raw environmental and
+financial data into plain language, revealing facts like the ESG record
+and CO₂eq emission of a product, the materials used, the factory where
+it came from, etc. It aims to nudge users toward greener shopping,
+treating purchases as a type of investing – i.e.,
+“Shopping-as-Investing”. In-person prototype testing with 32 students
+across 7 campuses uncovered everyday hurdles still matter: slow Wi-Fi,
+aging laptops, and dying batteries, all became challenges, stopping the
+users from achieving their goals. Yet, these problems are a reminder to
+design a lighter, mobile, more resilient version of the app, thereby
+increasing **perceived control**.
+
+Nonetheless, the prototype helped students imagine how everyday spending
+could become a form of financial activism, shifting budgets toward green
+products, and pressuring companies to share honest ESG numbers. Giving
+young adults a convenient digital ally equips them to fold
+sustainability into daily life, empowers them to advocate for stronger
+legislation (**subjective norms**), and pushes both markets and
+policymakers toward greater transparency, accountability, and a
+healthier Earth. A comprehensive literature review in the interconnected
+economic behavior and ecological sustainability underscores the critical
+role that financial decisions play in impacting the planet’s health.
 Literature shows that for high ESG performance, Governance, Board
 Diversity, Board Experts on Climate, and Fintech Adoption
 (Digitalisation) matter. These are the main predictors of high ESG
 performance and should be highlighted to the users who wish to buy
 sustainable products.
 
-My prototype *“Green Filter”* app introduced here is an AI companion
-that translates raw environmental and financial data into plain
-language, revealing facts like the ESG record and CO₂eq emission of a
-product, the materials used, the factory where it came from, etc. It
-aims to nudge users toward greener shopping, treating purchases as a
-type of investing - i.e “Shopping-as-Investing”. In-person prototype
-testing with 32 students across 7 campuses uncovered everyday hurdles
-still matter: slow Wi-Fi, aging laptops, and dying batteries, all became
-challenges, stopping the users from achieving their goals. Yet, these
-problems are a reminder to design a lighter, mobile, more resilient
-version of the app.
+## RQ1: What Design Considerations Should Be Addressed When Designing an AI Companion for College Students IIntegrating Sustainability and Finance?
 
-Nonetheless, the prototype helped students imagine how everyday spending
-could become a form of financial activism, shifting budgets toward green
-products, and pressure companies to share honest ESG numbers. Giving
-young adults a convenient digital ally equips them to fold
-sustainability into daily life, empowers them to advocate for stronger
-legislation, and push both markets and policymakers toward greater
-transparency, accountability, and a healthier Earth.
+The goal of this question was to give the widest understanding, mapping
+out the design space: transparency, sustainability, accessibility, data
+ethics, integration with campus tools, cultural tone, etc. The
+deliverable is a set of “design commandments” that every future sprint
+has to respect.
 
-## RQ1: What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance?
-
-***From Literature Review, User Survey, Expert Interviews, and User
+***Data From Literature Review, User Survey, Expert Interviews, and User
 Testing the Prototype.***
 
-A comprehensive literature review in the interconnected economic
-behavior and ecological sustainability underscores the critical role
-that financial decisions play in impacting the planet’s health.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
-*Design for Visibility & Simplicity* Testers often overlooked the AI
-analysis feature, thinking it was part of the website, not a 3rd party
-service. The interface must make key actions obvious. Use prominent
-announcements to announce new features (e.g. a pop‐up tour highlighting
-what’s new). Minimize extra clicks: as one expert (Huang) noted, “people
-are lazy… if it’s easier to get the information that I don’t have to
-click a button, I will pay attention”. In short, design a streamlined UI
-with clear one-step interactions and in-context prompts.
+## RQ2: How can AI Companions Support College Students with Sustainability Knowledge in the Context of Financial Decisions?
 
-*Design for Intuitive Visuals & Feedback* Replace dense text with clear
-graphics and simple ratings. Huang observed that users tune out long
-reports but immediately grasp an icon or “eco score” (e.g. a polar bear
-or 0–100 scale). Similarly, testers noticed numeric eco-scores more than
-textual features. Thus, represent sustainability metrics as concise
-visuals or scores, with brief tooltips explaining meaning.
+The goal of this question was to zoom into *how* the green filter app
+moves the needle on sustainability when money is on the line: when does
+the AI surface eco-facts, what modes (chat, visual score) stick, what UI
+patterns are effective?
 
-*Design for Engaging Tone & Fun Elements* Use approachable language and
-interactive cues. Experts advised avoiding jargon: e.g. change button
-text from “Continue discussion” to a playful prompt to spark curiosity
-and intriguing to capture user interest. Gamification (e.g. progress
-bars, “unlocking” sustainable tips) may sustain engagement, given users’
-limited patience for lengthy explanations.
-
-*Design for Trust and Transparency* Students expressed moderate trust in
-AI (survey results show many neutral-to-skeptical responses). To build
-credibility, the companion must cite verifiable data (certifications,
-carbon labels, etc.) rather than vague claims. For example, testers
-distrusted offsetting alone (“I still feel like I’m not really doing it
-right” when just buying carbon credits.), so the app should provide
-concrete evidence of impact. Avoid taking ESG scores at face value –
-include context (e.g. B Corp or supply-chain data) as advised by
-literature. In practice, feature designs should highlight third-party
-credentials (green certifications) and explain methodology to counter
-skepticism.
-
-*Design Mobile-First* For technical reasons the prototype testing was
-done using laptop computers (Apple does not allow adding 3rd party
-overlays on iOS apps the same way Google allows with Chrome Browser
-Extensions). However, given 96% of students use smartphones (majority
-iOS), mobile-first is a must, even given all the technical limitations.
-The design should favor a mobile app or browser extension that
-integrates with their existing shopping/payment tools. Survey clustering
-suggests leveraging daily habits (shopping/savings apps) as entry
-points. Ensure compatibility (notably, iOS imposes browser restrictions)
-and consider platform-specific design (e.g. integrating with Momo app
-interface as envisioned). Shopee was consistenly mentioned by testers
-and could serve for the next round of testing instead of Momo.
-
-## RQ2: How can AI companions support college students with sustainability knowledge in the context of financial decisions?
-
-***From Literature Review, User Survey, Expert Interviews, and User
+***Data From Literature Review, User Survey, Expert Interviews, and User
 Testing the Prototype.***
 
-*Contextualized Information at Point-of-Decision* Embed sustainability
-data into shopping and investment flows. In prototype testing,
-participants valued seeing hidden product info (ingredients,
-manufacturing “history”) that they normally don’t encounter. For
-example, revealing that a facial mask contained problematic chemicals
-led a student to switch to an aloe-based alternative. This suggests the
-AI should surface concise ecological/health facts (e.g. “contains X
-chemical linked to…”) whenever users view a product. Similarly, in the
-investment context the AI showed company ESG scores and stock info.
-Users reacted positively: one noted, “Buying things is also an
-investment… I can help you analyze if the money spent is good or bad”.
-Thus, frame purchases as “investments” in sustainable companies to link
-finance and ecology.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
-*Sustainable Alternatives and Comparisons* Provide actionable
-recommendations. Testers frequently clicked a “Find Alternatives”
-feature, and Cathy Wang confirms that students want alerts on “the most
-dangerous products” to avoid. Accordingly, the companion should
-automatically flag high-impact products in the user’s list and suggest
-greener options or categories. In finance mode, it should compare
-companies’ performance (e.g. “Company X is high-ESG, Company Y is not”)
-so students can weigh investment choices. Survey data underscores this:
-roughly one-third of respondents want pre-investment checks of company
-eco-credentials (31% for certifications, 26% for consumer reviews) and
-comparisons (26%) of environmental performance. The AI can fulfill these
-by summarizing third-party eco-reports or consumer sentiments on
-companies.
+## RQ3: What AI Companion Features do College Students Prioritize as the Highest?
 
-*Personal Sustainability Dashboard* Many students expressed interest in
-tracking their own impact (25% wanted a monthly “eco-score” of
-spending). Building on this, the app can maintain a simple personal
-report (e.g. “Your spending this month saved X kg CO<sub>2</sub>” or
-“you’re now 20% greener”). This aligns with providing “carbon score”
-feedback that testers noticed. The dashboard should be succinct, using
-visuals (progress bars, infographics) rather than verbose text, so
-students quickly grasp progress (Huang’s scale idea).
+The goal of this question was to directly understand the users’ voice: a
+list of features that the users would crave.
 
-*Educational Nudges & Explanations* Use the AI chat (or chat-like
-prompts) to elaborate on sustainability concepts as needed. Although few
-testers clicked the “Chat with AI” button during prototyping, it can
-serve as a fallback for curious users. For example, when a student sees
-a product’s green score, they could ask “Why?” and the AI could briefly
-explain (“This brand was rated low because it uses high-carbon
-packaging”, sort of like in ther earliest prototype). Encouraging
-exploration without overwhelming users aligns with Audrey Tang’s insight
-that youth are eager to engage but need clear, relatable contexts
-(e.g. connecting a bubble-tea straw ban to personal habits). Overall,
-the AI should act as an informed guide: contextualizing data, answering
-“what-if” questions, and helping students internalize how their
-financial choices affect sustainability.
-
-## RQ3: What AI companion features do college students prioritize as the highest?
-
-***From User Survey, Expert Interviews, and User Testing the
+***Data From User Survey, Expert Interviews, and User Testing the
 Prototype.***
 
-*Eco-Impact Product Filters:* The highest-priority feature is
-product-level sustainability comparison. In the survey, 63% of students
-wanted to “see which products are most polluting so I can avoid them,””
-far above other categories. This aligns with testing observations: Cathy
-notes “the main feature…was to avoid the most…dangerous products” via an
-alert on the shopping list. Accordingly, the companion should
-prominently offer “sustainability filters” (e.g. sort products by carbon
-footprint or toxin content) and alternative suggestions, just as users
-clicked the “Find Alternatives” button in our prototype.
-
-*Supply Chain Transparency:* Other top features relate to sourcing.
-About 41% of respondents want to check product origin (e.g. local
-vs. imported) and 40% want to know how eco-friendly the production
-process is. Designing a simple icon or tag for “local” or “certified
-eco-friendly factory” (as Chen‑Ying Huang recommends using recognizable
-symbols) would meet these needs. Similarly, one-third favored an
-“organic” product search. The prototype’s green-colored “Analysis” tab
-(showing carbon emissions by product type) was also used by testers,
-indicating interest in seeing how choices impact emissions cumulatively.
-
-*Personal Eco-Score and History:* A quarter of students (25%) expressed
-interest in a monthly report of their own eco-score. In testing,
-participants took screenshots of the carbon-reduction analysis,
-suggesting value in recording progress. We should include a lightweight
-“eco-dashboard” feature: an overview of past decisions, scores, and
-tips. Crucially, it must be eye-catching and concise (e.g. a single
-visual per month) so students will actually review it.
-
-*Sustainable Investing:* Many students expect the AI to support green
-investing. Roughly 26–32% of respondents wanted to see company
-eco-scores, certifications, or performance comparisons before investing.
-Testers saw company ESG ratings and stock info (they asked “what is this
-company’s stock code?”) and even got recommendations for similar
-sustainable companies. Thus, the feature set should include an
-investment tab with clear “sustainability ratings” for companies
-alongside stock data, and suggestions of alternative stocks aligned with
-the student’s values.
-
-*Lower-Priority Features* Give the high usage of social media in Taiwan,
-I was surpised community-related and social features ranked low in the
-survey. Only around 12% of the respondents wanted social networking with
-eco-peers, and indeed testers rarely engaged even with the AI’s chat
-option to ask more questions. These findings suggest focusing
-development effort on concrete decision aids (filtering, scoring,
-recommendations) rather than social networking or open-ended chat.
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
 
 ## Final Takeaway
 
 In this research, I have integrated quantitative survey trends with
 qualitative insights from testing and interviews. For instance, strong
 survey interest in product comparisons (63%) is consistent with testers
-clicking the “Find Alternatives” feature and the experts (Huang, Wang)
+clicking the *“Find Alternatives”* feature and the experts (Huang, Wang)
 emphasizing clear eco-indicators. By aligning the AI companion’s design
 closely with the above patterns: favoring concise visual info, high
 discoverability of features, and actionable eco-insights, I can better
 meet student needs, providing sustainable financial decision support
 exactly at the right context and the right time.
 
-Even if college students don’t have enough money to affect companies
-directly, they can demand financial tools work better (higher baseline
-for sustainability) to galvanize and encourage institutional investment
-into sustainability and encreasing ESG accessibility. Influencing
-business governance is the main point of leverage. G-\>S-\>E, not
-E-\>S-\>G. Aggregating Consumer Demand, Amplifying Consumer Influence,
-Enhancing Market Standards. Design is Political Action, Eco-Design
-Democratizes ESG Accessibility.
+Moreover, by mapping my findings onto the *Theory of Planned Behaviour*,
+I have ensured that the Green Filter app strengthens **attitudes**,
+leverages **subjective norms**, and enhances **perceived behavioral
+control**, paving the way for genuine, sustained sustainable financial
+behaviors among Gen Z students. Even if college students don’t have
+enough money to affect companies directly, they can demand financial
+tools work better (higher baseline for sustainability) to galvanize and
+encourage institutional investment into sustainability and increasing
+ESG accessibility.
+
+Influencing business governance is the main point of leverage. In
+essence, Gov-\>Soc-\>Env, not Env-\>Soc-\>Gov.
