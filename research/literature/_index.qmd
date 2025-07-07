@@ -2,11 +2,7 @@
 import Figure from '/src/components/Figure'
 import Literature from '/research/images/literature/literature.png'
 ```
-## Literature Review               
-
-### Goals
-
-Given the goal of designing an app to integrate sustainable shopping, saving, and investing. The goal of the literature review is to find insights about the target audience (Taiwanese college students), understand what kind of sustainable actions are effective, and translate these into specific ideas for app features. In order to keep track more easily, each literature review chapter provides *design implications* which are shown in the results section.
+## Literature Review
 
 The literature review branches out to 5 main directions and maps out relationships sources and the literature map, namely Taiwanese college students, generation-z demographics, sustainability, ecology, ecosystem services, EU legislation, sustainable finance, sustainable investing, savings, circular economy, economics, AI, existing sustainability, software, sustainability–related mobile apps (Apple iOS / Google Android), and web apps related to sustainable shopping, savings, and investing; apps using algorithmic interfaces (AI-based UI), design, UX/UI, service design, sustainable design, speculative design, interaction design, behavior change, nudge.
 
@@ -16,6 +12,10 @@ The literature review branches out to 5 main directions and maps out relationshi
 ::: {.content-hidden unless-format="pdf"}
 ![Example papers from the Literature Review](./images/literature/literature.png){width="100%"}
 :::
+
+### Goals
+
+Given the ambition of designing an app to integrate sustainable shopping, saving, and investing, the goal of the literature review is to find insights about the target audience (Taiwanese college students), understand what kind of sustainable actions are effective, and translate these into specific ideas for app features. In order to keep track more easily, each literature review chapter provides *design implications* which are shown in the results section.
 
 ### Sources
 
