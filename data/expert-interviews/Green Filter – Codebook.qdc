@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBook xmlns="urn:QDA-XML:codebook:0:4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:QDA-XML:codebook:0:4 Codebook.xsd" origin="ATLAS.ti Mac 22.0.0 (3140)">
+  <Codes>
+    <Code color="#FFDB27" isCodable="true" name="Systems Thinking" guid="6E3C68B6-F579-4A1A-B2D6-9FB7586B6BE3">
+      <Code color="#FFDB27" isCodable="true" name="Product Attributes" guid="2974331E-3673-4013-8157-531E24F3EFDA"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Emotional Needs" guid="60FE32CD-24D2-4A70-A34A-42D47466FE37"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Experience" guid="40EA6C81-7E08-4D77-AA1C-3A967D365CBC"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Problem-Solving" guid="0C4E312D-E60D-4C32-9B04-989F3CE552CE"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Understanding" guid="BA3C37C5-255E-45B0-A4B0-BF13631920A8"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Components" guid="57089903-AAC1-4A08-97D9-472F11AD6A81"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Product Journey" guid="C8498F92-6ECA-4D47-8580-EE5AEFB0ABE2"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Design Choices" guid="208DBCB2-CF3A-487C-9E8C-B9FDAC1DBF76"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Consumer Behavior" guid="D84F9204-8891-4662-8C54-8DD8128D8DA4"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Collaboration" guid="8ACE8E01-B984-47C2-9CEE-F5C1E4EB1B21"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Kindness" guid="93E219B7-FB86-4AC6-A8CE-E606DDE7FBC6"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Interdependencies" guid="1937682F-00A8-42AE-941C-7E91E4D8DC7F"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Consumer Trust" guid="578A67BA-46A4-4BE3-84C8-338A1917ED39"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Digital Recognition" guid="DE349E73-E68F-439D-9258-74F39D82CE53"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Ethical Behavior" guid="BCB9F6AB-E452-49D0-BC47-F1329ABB2D7E"></Code>
+      <Code color="#FFDB27" isCodable="true" name="System Interaction" guid="70528DDD-1E9A-46A0-934F-D05116210DF3"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Sustainability Outcomes" guid="0FA1733E-2D1D-42F0-95E4-338FC376BF4F"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Journey" guid="094832B0-9303-4256-99CC-9DB728B55AC8"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Decision Impact" guid="A0F49870-5373-407C-B6DB-0985C1A60F7D"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Consumer Preferences" guid="E8508B77-AC5B-479F-99D8-789D8DF9786A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Streamlining" guid="C4E9D312-C0B0-41E8-B3A3-BEFA0B5BFA4E"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Iterative Design" guid="C8FE459D-3F91-4FC3-9FA9-295DCCB23D35"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Consumer Personas" guid="E0CAF1DA-8643-43A1-9679-00BC418DF415"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Functionality" guid="EA5F9D5A-0478-4020-86B8-3E103C255161"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Systemic Approach" guid="46036677-865C-4E2C-AE89-2BCAD46CD492"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Interconnectedness" guid="ED711D26-C831-4FDD-A46B-85368E4B8AA2"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User-Centric Approach" guid="81F3CC9B-9509-45B6-ACA2-006F179A77FA"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Holistic Approach" guid="60E9805E-DB86-4750-9413-9A1B763CCD4C"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Engagement" guid="A586D90F-CBAE-4A4B-9C0A-91E9F7B9CF0D"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Impact" guid="D7C9C9FE-2E97-497D-85D3-DD7967E18334"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Feedback" guid="4B4F3CEC-4CAF-49D9-AC3A-C4433D21A674"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Awareness" guid="A4DF502B-49A4-418D-93BD-0EEDEFD74C92"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Engagement Strategies" guid="C60753C6-B7E3-4F47-9341-5E3A217AE5B8"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Corporate Implications" guid="789F606A-A25C-4C52-8827-BC183C967495"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Integration" guid="4A400AD3-A0FA-44AB-87EB-6E4D03878D32"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Effectiveness" guid="4BA8D50D-3681-4C0F-A197-135CB33C34D8"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Communication" guid="C5BB6CAB-5D23-4A7D-B786-C5F82B092BC5"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Continuous Improvement" guid="5C72D236-3F0C-4873-919F-CC65F43F3461"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Service Design" guid="EA9D2CA4-C544-4EEC-9342-7CFA0FAB69A5"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Impact Consideration" guid="4A710BF5-26A0-474E-B9E5-76DE175BA659"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Economic Practices" guid="48F8FC53-54A4-4DC5-B061-530CCB55057A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Integrated Approach" guid="8E242BDA-D73C-45A8-BDE6-B29FFF2A8A97"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Comprehensive Solutions" guid="F3D649A0-599F-4757-8AED-D4AD312FD829"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Step-by-Step" guid="B1F9EF97-365A-48DE-BC07-A4B873AA5109"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Iterative Process" guid="6A2FFE69-3D15-4E86-B966-E84A1A5B3B8B"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Financial Performance" guid="FFA0DB20-3588-468A-9D76-A0C055201108"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Exploration" guid="1700F0CC-EEAC-46EF-B18D-B02D3B2F74FB"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Holistic View" guid="A54D71F2-7AD7-4D0D-A787-156C901194BE"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Needs" guid="DBD0E4E9-FEE5-48CB-AFF1-BB80AB3ABA3A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Lifecycle" guid="6D15C261-9D3A-4538-91C3-14FB2132F50B"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Economic Impacts" guid="EDF044C4-D9C2-4C24-AC87-5903E189159F"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Economic Response" guid="B700AFD2-6D70-471F-A018-DAC0EE4B4D47"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Interdisciplinary" guid="5E5BE015-5398-41C1-8D05-5C925CC6124F"></Code>
+      <Code color="#FFDB27" isCodable="true" name="System Thinking" guid="C03FF2B1-F76A-4877-A061-B4C0B1A72C2D"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Financial Goals" guid="EF13E42D-7B9A-414F-8AFE-89909BFCD600"></Code>
+      <Code color="#FFDB27" isCodable="true" name="AI Insights" guid="090BEC8E-D673-4D3C-A737-1EE0629EBA7A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Structured Approach" guid="8D8D1719-4389-4241-9293-6C7407E072B6"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Information Flow" guid="AAB2DD4F-A24D-4ABE-8DC8-D0193DEF4947"></Code>
+      <Code color="#FFDB27" isCodable="true" name="ESG Factors" guid="C0C39166-3E5B-441D-9AC7-97B5BE7A2322"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Data" guid="95E26169-AC28-419F-9CB4-3BD1276B68AF"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Interaction" guid="DEFCD99B-120B-4EF2-B670-025A632BCAED"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Feedback" guid="18E2F43F-B9D1-4179-A03C-8B0900C1C33E"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Pathways" guid="DC0565CD-80F9-47CE-A8C0-49B11D000A20"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Behavior" guid="C99C4A1D-5488-4ABE-81D9-0EFD6A844B07"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Stakeholder Engagement" guid="EFBFA7A4-6FAC-4F4F-B95E-F49771C6D3F5"></Code>
+      <Code color="#FFDB27" isCodable="true" name="System Approach" guid="649C21F3-D713-429E-A736-7F1878A576E2"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Efficiency" guid="203B231D-49BC-49B6-8843-0205168D33A9"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Interconnected Systems" guid="34A71269-CBF3-43C7-8616-667BCCF7438E"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Cohesion" guid="1C65336F-1911-449E-95E9-237C56B548CF"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Waste Management" guid="2431B289-5E87-4DB3-AAC7-E9E26A303AC0"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Technological Solutions" guid="078BC2D3-0392-467F-B27A-2A9641D0A6F9"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Product Quality" guid="2FD3E2D0-24E6-4845-A7C9-5D09FE3F2651"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Mental Health" guid="8BA738C8-9009-401A-8BEC-FF80F066D402"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Guidance" guid="7F0FF2C0-0433-4B63-987C-56BC044E9A50"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Ecosystem" guid="59497E20-2686-458C-8440-F6F1E1B96A36"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Systematic Approach" guid="45A3C9EB-E68E-4B2B-81B0-19C2427D04D2"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Sustainability" guid="DC762888-1E57-4731-BBDE-C2E3416AC46B"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Systemic Issues" guid="5644F3EE-599D-4171-98A1-66BDEE856526"></Code>
+      <Code color="#FFDB27" isCodable="true" name="User Comfort" guid="999491A9-6E7C-458A-A6A0-56344EA1DE10"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Community Needs" guid="98BE2C09-17D8-4B33-A1F1-5A2A2FBA6F8A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Consumer Decision-Making" guid="6FD6149A-D14E-477B-B707-39B100C41B2A"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Interplay" guid="CC8A0553-7771-4159-BBFF-45FF42641FFA"></Code>
+      <Code color="#FFDB27" isCodable="true" name="Practicality" guid="799BB7F1-7047-482E-9E35-788EC02FD937"></Code>
+    </Code>
+    <Code color="#46B04F" isCodable="true" name="Feedback Loops" guid="EA06429E-81E7-4638-B66B-F1C968E6A45C">
+      <Code color="#46B04F" isCodable="true" name="Testing" guid="4F126930-7C40-4EAB-AAF7-DFE1BBBAFC72"></Code>
+      <Code color="#46B04F" isCodable="true" name="Refinement" guid="58F33B07-9531-45B1-AA7B-2824044DF9D0"></Code>
+      <Code color="#46B04F" isCodable="true" name="Sustainability" guid="977AAAFB-A69B-49F2-A44B-7F0EA6386F47"></Code>
+      <Code color="#46B04F" isCodable="true" name="Consumer Engagement" guid="DFDADDFB-9777-4877-940B-E06D1CAEEED6"></Code>
+      <Code color="#46B04F" isCodable="true" name="Design Improvement" guid="770366E8-0E22-4EF6-A41D-5DA45ABA54E7"></Code>
+      <Code color="#46B04F" isCodable="true" name="Feature Optimization" guid="E1950DDE-6647-4A97-8275-F57A17F249A8"></Code>
+      <Code color="#46B04F" isCodable="true" name="Data Tracking" guid="5858B9D2-F77B-4E1A-9D51-18996597430C"></Code>
+      <Code color="#46B04F" isCodable="true" name="Satisfaction" guid="3F8B73A1-314F-4370-9E8E-28A69A6CA38F"></Code>
+      <Code color="#46B04F" isCodable="true" name="Improvement" guid="FC174678-827A-474E-BA55-F1EF6B539296"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Awareness" guid="82161658-0EC9-4B9D-954B-09C67646944C"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Experience" guid="FACB103B-1454-4B6F-BB85-62F979168E88"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Input" guid="EB49327A-E9B1-4BC8-A100-51D232C5E081"></Code>
+      <Code color="#46B04F" isCodable="true" name="Strategies" guid="4E669BCB-14C1-4949-9CE6-BCC57242E7EB"></Code>
+      <Code color="#46B04F" isCodable="true" name="Iterative Process" guid="1BDA54A1-6C79-43AD-9FDD-153650117FB4"></Code>
+      <Code color="#46B04F" isCodable="true" name="Adjustment" guid="E2AEF229-3A64-496E-BFA2-BE81550DDF2D"></Code>
+      <Code color="#46B04F" isCodable="true" name="Adaptation" guid="C70B4159-1733-4B0F-9E6C-AEAF24CEAE4C"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Testing" guid="F4F47A01-9000-41DD-AAED-8A62A2E8D3E0"></Code>
+      <Code color="#46B04F" isCodable="true" name="Service Delivery" guid="177ED54D-47D5-4815-80B9-4F67DFF0BA2E"></Code>
+      <Code color="#46B04F" isCodable="true" name="Engagement" guid="661CD87A-4947-41C0-81EB-2B7230C0437C"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Feedback" guid="8DCFB356-D325-4677-84D3-AC6B97C2CC9C"></Code>
+      <Code color="#46B04F" isCodable="true" name="Feedback" guid="928AC0EF-7C16-4CCE-8DAE-EE8AA5480127"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Behavior" guid="FD900B49-A66C-4035-ADA5-1D602C115794"></Code>
+      <Code color="#46B04F" isCodable="true" name="Product Effectiveness" guid="2A9C5A4B-79AE-472E-8486-A2B00ECB1536"></Code>
+      <Code color="#46B04F" isCodable="true" name="Continuous Improvement" guid="A8025AE2-1F9C-4EC1-A5B0-E100FE714EDD"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Needs" guid="F3F3BCD4-FA23-4609-B30D-80F87E09ACD4"></Code>
+      <Code color="#46B04F" isCodable="true" name="Consumer Responses" guid="F87994DA-DFC2-40AA-BE5A-8B728EBDF955"></Code>
+      <Code color="#46B04F" isCodable="true" name="Design Decisions" guid="EE17194A-1D58-4A04-840C-571554C3A1A2"></Code>
+      <Code color="#46B04F" isCodable="true" name="Usage Data" guid="A067029E-6443-4810-8699-CF537FBBA880"></Code>
+    </Code>
+    <Code color="#3D4DB5" isCodable="true" name="AI Strategies" guid="FE28C444-7AC1-479E-825D-12704453249F">
+      <Code color="#3D4DB5" isCodable="true" name="Supply Chain" guid="F962AFB4-E78D-49B4-8925-852F8996CCCC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Assistant" guid="F0AE5A95-6597-4306-A937-6D642BD2FCBC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Generative UI" guid="E979767B-B347-478A-A579-04EA12F97891"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Coordination" guid="8A8BEF31-F6D5-48B8-ABAB-B18E95A87D5D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Engagement" guid="22A4B36A-D29C-4039-9E73-96F4F8F9DE05"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Tracking" guid="FADB4F9F-5203-491A-A4A7-25EC3B157FDC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Control Apps" guid="96F17DF6-8D34-4C9B-ACAE-1DBD82488480"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Human Behavior" guid="CE0F8063-75E5-4518-86B4-34B158ABFD95"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Sustainability Assistant" guid="59696310-D125-4434-B60A-3CB3A179BF16"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Deadline Management" guid="2B88F1B4-A5F5-422B-AE54-81D3E0C641D2"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI" guid="219EA0C6-07DA-48FB-A54C-26E624F11FAA"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Environmental Impact" guid="EDF83B7B-B464-4317-AE7C-9304EA7DE30C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Talent" guid="8374E051-B5C0-4115-89EA-46C656831368"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Experimentation" guid="5BB760AB-26E0-4AFD-8B33-E578BB46DDC1"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="K-means" guid="A8C6A7A6-9B9C-4B08-8C10-D7226EBE3D38"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Consumer Attention" guid="9D3A8FFB-8A6A-427E-8874-7F228AC934BA"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Communication Technology" guid="3E55098D-B84B-4BB7-A579-5567B29E38C1"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Problem-Solving" guid="D721BFB2-177C-4F89-8191-A515E6B65399"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Needs" guid="E41B8501-F1E0-44B6-9652-FC30D526B2C4"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Scanning Device" guid="0F933E86-95C1-4B64-AEE3-07347E5D5665"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Behavior Analysis" guid="E0E86BD4-D9E2-42AD-9890-BB97D8C2F295"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Visual Representation" guid="BED5AE6E-077B-4EB8-953F-B7F038C25519"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Online Platforms" guid="3FAC86E2-2E27-4CE2-98A4-2014A232D5FE"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Open Platforms" guid="FC2BB522-C38D-4E9E-8EB0-83064E39CDBF"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Plugins" guid="7F81758C-8CCB-457E-8CB8-1A303AB812E8"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Service Scaling" guid="D8B26EA5-02C0-455F-AD39-5C1B70F8FB3A"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Experience" guid="D4E67705-7F7C-4AC1-9303-1B33CCC6DFCD"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Impact" guid="51E0C95A-5593-4E01-A322-D0B931107CF8"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Retention" guid="388C315A-5D66-4B80-98E7-21F75832C71D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Contextualization" guid="89B0833F-E815-4BAE-812E-00CD9129A315"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Factory Mapping" guid="500C4620-1647-4943-9EA0-7ED50EAC8C8D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Technology Use" guid="6C4BE69A-667A-4925-A8E8-5D73A81C9E49"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Feedback" guid="9393AE91-92CE-4C4B-86A0-972849CB388B"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Technology" guid="58F2D174-24FF-4A8A-A2FA-EC2BBC3129F1"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Digital Identity" guid="626B1BCA-FDAA-4DCC-8890-CA02D35019FF"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Integration" guid="80466D9B-70C4-435F-BCB3-73E44CE7175E"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Text Analysis" guid="CCA0BD16-2C0E-4CCE-B8F1-639AE88074F1"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Surveys" guid="714AF193-4CF6-44E0-BFFC-437BE2F9F10E"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Tools" guid="927AA95B-E138-41F5-AC72-F52F795E2872"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Transparency" guid="911B0888-B6FF-4B55-AD69-4DEBA343B5B0"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Technology Innovation" guid="A934E378-02E8-435E-BC54-36062D936273"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Differentiation" guid="A75A4B9F-4336-4EBD-93CC-D6DD102F587C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Targeting" guid="1A2D474F-66C7-48C0-8889-ACD859335AE7"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Social Scores" guid="42EED27F-E34A-4D7C-9A1A-16E56985FF9C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User-Centric" guid="92C8DA35-40BA-482A-837E-DF74FF73A5B0"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Challenges" guid="965FB61F-6E1A-4E4B-B915-7B7C249A13CC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Survey Data" guid="FD50B904-FDA7-44BB-A7C6-8D272B713B8B"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Interaction" guid="AC1611A1-2C8B-4F52-8654-3784CFB9C483"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Safety Alerts" guid="9B063153-2AFA-4641-92E0-E20BE5316FF4"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User-Friendly Design" guid="E3CF1627-C0EE-471E-A481-44B895AD16A3"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Personalization" guid="0744640F-86AE-43DA-8BD2-7CB82EB329EF"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Consumer Preferences" guid="CEBDACC2-11EB-4BF5-B90F-7241FF7968BB"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Behavior Analysis" guid="C6FFE692-9A14-45F4-857E-EB4C919E7E33"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Communication" guid="F5E62C1C-7E03-4094-8F57-5F340B9AA85E"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Complexity" guid="CBE05146-0F48-4AF9-B340-C8BD9FE4DA7D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Interface" guid="75A06A34-26A4-48D7-BBFC-90CCDB89525B"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="External Services" guid="B2F3D765-996F-46F7-B8F5-F44917FC7A4C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Accessibility" guid="65EEA734-ED9F-4F89-BA26-51256EF5851B"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Optimization" guid="5279B8F6-8B40-4B4A-9335-962FFBDB528C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Consumer Awareness" guid="7E87D2FA-5179-4005-A2F9-32D65AED29F5"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Utilization" guid="EC5A347E-0CE4-4BFA-9F69-F7BADEADD816"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Feedback" guid="DE1AC0C0-BCF7-48C1-8D2F-5ACFC19B11C9"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Positive Reinforcement" guid="C3C3D1E1-F375-4A43-A806-3DF7D8E92BAE"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Processing" guid="DCBC2EFC-5679-4D65-8F43-B43D09249976"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Chatbot" guid="C0E86E23-B3EF-4301-8B5D-84B765999F9A"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Business Transformation" guid="230C1768-EF05-4237-90CF-4F89BA305D6F"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Utility" guid="2B62155B-6A1A-40FF-853D-599665862A63"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Technical Limitations" guid="434D5F8F-3D70-45B0-AE66-E2B1DB686967"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Application" guid="A00A00AC-148A-4F74-A13E-8F426ED8A868"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Product Comparison" guid="2BAABFB2-E405-4EC6-83EF-90BDD3542147"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Integration" guid="4A4D0069-B17F-4FE3-B180-9720E06A1910"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Feature Development" guid="91911037-D154-42B6-B58D-1B4F4E5A32E2"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Contextual Understanding" guid="2A88133F-DBD6-4CBE-A862-9992DDD40906"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Technology Development" guid="4AADF5F0-98E7-4844-AEBC-884F9A1209A0"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Collection" guid="F3F037AD-CE99-4BA2-A0A6-EC09C76E1756"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Flexibility" guid="0B3E276C-60AC-4C4B-8095-0F2079B8EB54"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Language Assistance" guid="B2619C37-A8A4-41B6-A8E8-3CF53D655AD0"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Responsiveness" guid="95455AE7-1B62-4D2B-B0F4-162E0149BE3C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Mainstream Adoption" guid="FC70BA24-6229-4D46-8EEC-9ECDD839AFCE"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Attention-Grabbing" guid="649191D6-D02B-4FE7-A564-73E90438CB32"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Specific Advice" guid="A7D2460F-71BD-4C1E-BF61-7D6C1AD48A58"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Functionality" guid="FDD10B20-94B9-4E78-910E-7FBBF57C8A76"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Utilization" guid="2A248171-11E6-4782-A81C-FF6FFC060D2C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Behavior" guid="93EEF2E3-CE2D-4F26-9443-2A2A3C667F50"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Scanners" guid="7D77122C-9200-4C18-BB7C-5E11DAB218D5"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Relatability" guid="6F060629-1D8A-4B94-9A81-4139748AB58D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Blockchain" guid="C1150A33-31AF-4D98-B6B7-83B7C61C18FC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Transcription" guid="9D80F2CA-B291-42DD-B10A-1CF7429C6A08"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Feature Communication" guid="8F8C722C-142E-4178-B84B-38267E8920B3"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Intergenerational Engagement" guid="E09FE6B2-1C73-499D-BEE4-EDDAB01ECFC6"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Navigation" guid="1CDDA7D9-425A-46F6-8166-C75786148B6B"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="ESG Visibility" guid="D8304E05-7BB4-4754-9ABE-5C09E36BAB4F"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Capture" guid="A92EEC37-95BB-4B49-9B51-E8482463E966"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Companionship" guid="F803059F-01F1-45E9-A3F6-7E6FA1EE7C7D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Profile Creation" guid="4025388F-90D0-4105-A9C9-03A1D513CE28"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Tracking" guid="7D25DDE0-6580-467B-9F91-B8F27B1A5105"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Education" guid="DB608099-1693-430C-AB3C-22CA877EE22D"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="User Involvement" guid="734BC386-DE0A-428D-92DC-C3344E9D3C0F"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Browser Utilization" guid="0721C50E-C031-43C4-A655-A7434922DA4F"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Informed Investment" guid="163628B5-6657-4C5F-A59A-E3FB7B2DB173"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Product Insights" guid="09EB05CC-482F-454C-AFCA-C3461AC04856"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Click-Through Rates" guid="7E38CB71-D202-416E-9138-311DADE2FC5E"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Generation" guid="DE202325-D13E-4E02-809A-A57C0625F0D8"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Mobile Applications" guid="483A4EFB-B108-4400-A47F-AD3F53A6BF9C"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Consumer Influence" guid="652046B7-A40D-44E8-A73F-94B4F0CC0D7A"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Data Analysis" guid="1F1A8D4C-02B2-4A18-9071-8D2CCBDBC2DE"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="AI Technology" guid="5C7EE85A-A570-4ACE-9B5A-49E7717004C1"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Eye Tracking" guid="AF17F943-6A25-402B-BC32-92FF49E51701"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Click-Through" guid="E12EE606-B6C8-4875-91DE-5B197400BBF9"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Emotional Engagement" guid="AED0D53C-5EE4-4585-A638-D6371BD1EC8F"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Engagement" guid="561F4CE1-F6EB-4152-AB6E-7A3572A2E0BD"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Growth-oriented" guid="D960B677-279F-4D86-A77B-F012FD134361"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Product Development" guid="BBFE4DB5-4631-40EA-AB27-35133D17EEBF"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Public Engagement" guid="AF9F7866-1853-4AB2-AB8D-F0E290C8B327"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Design Strategy" guid="7A34AE60-9E83-477F-8ECD-9BB769B077DC"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Efficiency" guid="1B70DD28-FE74-4710-8C41-F9C03E646BB5"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Innovation" guid="756F619F-2405-4A6B-90B1-8B1D152D5E88"></Code>
+      <Code color="#3D4DB5" isCodable="true" name="Quizzes" guid="0096737F-52E9-436B-BF71-95A80BD90465"></Code>
+    </Code>
+    <Code color="#6834B7" isCodable="true" name="Design Principles" guid="DF0D4823-872B-48F5-BE34-7A0138EFBE6B">
+      <Code color="#6834B7" isCodable="true" name="User-Friendly" guid="F2476432-68A0-4512-91FF-6FC3D8991809"></Code>
+      <Code color="#6834B7" isCodable="true" name="Visual Communication" guid="D5AB5465-E317-419A-9745-A19CB2A4EBB3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Visibility" guid="210E211D-7F1E-43AA-B4EE-D4D8546BE753"></Code>
+      <Code color="#6834B7" isCodable="true" name="Engagement" guid="DFD4C3DA-ABDA-44DD-8648-CF96810C3ED6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Complexity" guid="A22410D5-FCB9-41C2-86A1-094FBA54D594"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Flexibility" guid="3116E1EF-10E6-4CB7-BEA0-3C243CE31EEC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Public Perception" guid="D032C0E6-56B0-4529-94AB-AB1CD891CD97"></Code>
+      <Code color="#6834B7" isCodable="true" name="Specifications" guid="A518FA8B-FF94-4BE7-8833-31A7ED8141A3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Guidelines" guid="C8C633B2-942D-45ED-80BD-452E4CDE30AE"></Code>
+      <Code color="#6834B7" isCodable="true" name="Broad Appeal" guid="1BE2A1B5-5CCB-48CE-9D61-04B0DC7635BB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Problem-Solving" guid="A53888D9-71EF-4261-8B84-0894B293A781"></Code>
+      <Code color="#6834B7" isCodable="true" name="Passion" guid="B9DE96F2-E613-4D6E-9DEE-6606F1799077"></Code>
+      <Code color="#6834B7" isCodable="true" name="Concrete Solutions" guid="61B18F60-1E88-4645-A8F9-7D9343EDFFB0"></Code>
+      <Code color="#6834B7" isCodable="true" name="Integration" guid="BC1AB696-02B2-4B5B-A43E-E02DEE0F8EC1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Misalignment" guid="46EDB588-2C7C-4743-B9D7-5C3C216C3429"></Code>
+      <Code color="#6834B7" isCodable="true" name="Ethereum" guid="DD08E409-CA3B-4847-A14A-F9FAFA4BB98F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Investment" guid="25A42A15-33D8-4DD0-84BC-E848AF317A35"></Code>
+      <Code color="#6834B7" isCodable="true" name="Internal Research" guid="5B3945ED-1138-4803-A94B-66571E009E1A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Visual Clarity" guid="24972F5D-4419-4CD5-AF0B-F8BEE25D0BD7"></Code>
+      <Code color="#6834B7" isCodable="true" name="Quasi-Research" guid="946748E9-117A-4A42-8B12-1667A0BF16AF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Impact Assessment" guid="E6ECA781-0CAB-4D7B-97EF-7656709D296A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Values" guid="85E8BB43-B57F-4232-9F25-A9C72E1FCA53"></Code>
+      <Code color="#6834B7" isCodable="true" name="Grassroots Movements" guid="F4F70030-FE4F-4C95-B386-617FCAEC35FC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Service Design" guid="4AD54A24-D3DA-4E73-B758-98A7A830AB0A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainable Fashion" guid="F7471C5E-1DC9-4234-B224-49EBDF6AC767"></Code>
+      <Code color="#6834B7" isCodable="true" name="System Interaction" guid="972CCB1A-6E56-440B-A2A0-55A6994024E5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Feature Interaction" guid="C66C790E-8384-47B8-91FB-5D5817FAB18A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Performance" guid="92B4B20A-DB97-4885-AA18-1A2466598696"></Code>
+      <Code color="#6834B7" isCodable="true" name="Corporate Behavior" guid="FCD14CEB-B675-41B5-AEAE-3FD920AFFBD9"></Code>
+      <Code color="#6834B7" isCodable="true" name="Green Investment" guid="8C15841F-20EF-4672-A1C6-EEE6CB2D5F4D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Reporting" guid="8B8349F3-97EA-49A4-98C9-BCC295A1AE23"></Code>
+      <Code color="#6834B7" isCodable="true" name="Transparency" guid="2AFAAA3F-8101-4F40-BBF3-59925811DD24"></Code>
+      <Code color="#6834B7" isCodable="true" name="MVP" guid="91F6B872-2160-410B-A561-706B8DF982BE"></Code>
+      <Code color="#6834B7" isCodable="true" name="Budget Constraints" guid="E52785D7-F41F-4694-9C0B-4D01ACE74724"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Research" guid="FF37CA2D-03D7-410D-9653-62B4E2103179"></Code>
+      <Code color="#6834B7" isCodable="true" name="Understanding" guid="1BE1B2FA-B353-4615-92C4-BCBCD11BBD31"></Code>
+      <Code color="#6834B7" isCodable="true" name="Operational Organization" guid="19C52556-A98D-41B6-8B39-139D8C3041ED"></Code>
+      <Code color="#6834B7" isCodable="true" name="Practical Applications" guid="A69A7E25-447D-4FD2-8386-47B6F8478DE1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Quality over Quantity" guid="EB9224FF-1C48-4A83-9B95-DBB458133AE1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Core Business" guid="B1D8B0A4-4089-4EF4-B691-02859821469D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Venture Design" guid="C58260E1-338E-4D91-B647-006764C02E97"></Code>
+      <Code color="#6834B7" isCodable="true" name="Regulation" guid="DE0F7A0C-0A10-422E-BD48-ED82BBA53846"></Code>
+      <Code color="#6834B7" isCodable="true" name="Comfort" guid="2FBDAEE4-8B6F-4206-80EA-F0A707C76799"></Code>
+      <Code color="#6834B7" isCodable="true" name="Product Origin" guid="E8D904C6-62A3-4554-8F90-5957B7AAFC9A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Ethics" guid="C0A35E01-680E-422F-A0DB-35EAE36C84C3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Commercial Awareness" guid="1CD57315-DB37-4ACF-B37A-D4A86AB94556"></Code>
+      <Code color="#6834B7" isCodable="true" name="Long-term Investment" guid="39401B79-F7ED-4475-980D-C93959B9FAEF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Value" guid="B516FFBC-8296-47EF-9462-91B6D692B848"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Contradictions" guid="380E99C7-1B4E-48D9-8F7B-701A3F0F5ED6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Accountability" guid="66A453AC-53BA-42E1-AD1A-67AB00B08853"></Code>
+      <Code color="#6834B7" isCodable="true" name="Community Engagement" guid="87FCB754-963E-4FF3-9B72-30772294CA4E"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Awareness" guid="86EEAA36-ED76-4482-9C28-FBFAD3FB1D08"></Code>
+      <Code color="#6834B7" isCodable="true" name="Travel Concerns" guid="D91CA39B-5490-4110-9761-88D488470AE9"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainable Business Models" guid="83D1DE6D-FF66-4119-8BB7-43741306A99C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Technology Use" guid="6FA13D50-CC03-4EE0-80B1-1C4E614E0D6B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Emotional Well-being" guid="A7D73DE9-F0D7-442C-826E-BC8D1930718C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Teamwork" guid="0558606D-A9ED-4A1D-B43F-7EC638AF6225"></Code>
+      <Code color="#6834B7" isCodable="true" name="Inclusivity" guid="B1E5F8B7-643D-4604-9D63-476BFBD10AFA"></Code>
+      <Code color="#6834B7" isCodable="true" name="Durability" guid="2A531E57-07F9-4D8B-8065-09961CC88B42"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Goals" guid="B3F71234-5CEE-493B-84B6-ED91A8DF5F17"></Code>
+      <Code color="#6834B7" isCodable="true" name="Creative Design" guid="71495B4E-6DEB-4DAC-8257-08D28FF58917"></Code>
+      <Code color="#6834B7" isCodable="true" name="Corporate Structure" guid="0AFD3846-2B67-4203-8E29-7EA00D90B085"></Code>
+      <Code color="#6834B7" isCodable="true" name="Attention" guid="9DDCE33F-D43C-40A0-BF8D-EE666964DAFF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Environmental Impact" guid="A4A65382-1070-446F-ACD1-8A3CFCCC3F30"></Code>
+      <Code color="#6834B7" isCodable="true" name="Risk Avoidance" guid="139842B6-A038-4ACE-AC50-072C15C02955"></Code>
+      <Code color="#6834B7" isCodable="true" name="Transition" guid="6B99E3BE-311C-4528-A863-0D9981094F3B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Price Control" guid="865EE742-9908-4164-B2BC-771F49105107"></Code>
+      <Code color="#6834B7" isCodable="true" name="Longevity" guid="287AB90C-BCC6-4BD4-98CC-8576242DF0CD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Practicality" guid="392C9856-A388-4B62-8976-FDCC41F52D6F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Human-Centered" guid="FC6138C1-7994-440C-8A37-6BC2815BE666"></Code>
+      <Code color="#6834B7" isCodable="true" name="Brand Values" guid="229F6475-8AA1-4B76-9378-A53FA3B995F6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Homogeneity" guid="AE98A89A-83C2-48DE-8F41-C4B2C3BEFF46"></Code>
+      <Code color="#6834B7" isCodable="true" name="Nuanced Understanding" guid="48341D53-C7AC-4F07-A948-B447369D2BB4"></Code>
+      <Code color="#6834B7" isCodable="true" name="Decoy Options" guid="577FFB84-F2D5-4AF5-BFF0-297C3E363B27"></Code>
+      <Code color="#6834B7" isCodable="true" name="Personalization" guid="E8BC8358-E4C5-47C2-981B-8D2A897DAB6D"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Interaction" guid="4DDB07EE-0335-4F53-8CAA-A8DC8E2F6E15"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Needs" guid="31F8550C-2E6D-447D-815F-B031BED2FB5D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Simplification" guid="8D67D2D8-01C5-47D2-808A-A33C087895FF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Patient-Centric" guid="00F2D881-F36E-4E21-9254-E4CA0C87C7A8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Pricing" guid="58B38226-4198-41F2-99E0-5E44428E1DE9"></Code>
+      <Code color="#6834B7" isCodable="true" name="Accessibility" guid="2B1234CC-EC03-4FBE-AEC4-BEDC836162A5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Awareness" guid="F743DA33-BD47-4F87-9327-F5DDE0863AE6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Communication" guid="490CC375-201D-446E-BF6E-C1ADA7B97458"></Code>
+      <Code color="#6834B7" isCodable="true" name="Navigation" guid="901FDA58-7079-44B1-9AAF-8F0DB975A782"></Code>
+      <Code color="#6834B7" isCodable="true" name="Meaning" guid="AB3C4588-DEA2-4CE4-BF94-3FB5A1F78E51"></Code>
+      <Code color="#6834B7" isCodable="true" name="Environmental Concern" guid="AA3009C6-A4C0-41C0-A07E-B3A1AC768553"></Code>
+      <Code color="#6834B7" isCodable="true" name="Viability" guid="78933B93-FEDD-42EE-B1E5-EE081D55307C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Positive-Sum Mentality" guid="0D08DABE-8F49-4F68-A079-5BB87B596E51"></Code>
+      <Code color="#6834B7" isCodable="true" name="Global Participation" guid="4DF53088-C5CB-4449-A395-1BA459B1BBAA"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Limits" guid="E0F79BEC-2D7E-443C-A1EA-2DBD63759418"></Code>
+      <Code color="#6834B7" isCodable="true" name="Purpose" guid="F642E562-9C1B-436E-B0BD-9341330BE942"></Code>
+      <Code color="#6834B7" isCodable="true" name="Intuition" guid="930DF0D2-2A13-481A-B920-07265C70E47B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Green Industries" guid="DAAC85FD-8900-43E9-87F9-425553913BEF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Support" guid="8F3861E2-5E30-4C1D-9E3A-25B6B64E1B9F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Agile Methodology" guid="6D6A55FB-8E72-414D-9F29-CE6272285CB6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Aspirational Design" guid="DF57AE68-21C6-4245-8180-43A372915FF6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Execution" guid="C89A1AED-1E8E-4CC5-9AE1-994E7A6A194F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Honesty" guid="96E9DDD7-47B1-4EDF-BE9F-38E9CADDE274"></Code>
+      <Code color="#6834B7" isCodable="true" name="Social Interaction" guid="2F355946-15EE-4B74-8BDF-B9D95ED6AE7D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Operational Efficiency" guid="1475BFF5-504D-4038-B329-34A8FF86B4D7"></Code>
+      <Code color="#6834B7" isCodable="true" name="Clarity" guid="8F317C50-6B4C-4E5E-AC09-2E14033B60BB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Localization" guid="FC09BC0D-1061-4ED2-99C0-3F2E69990D00"></Code>
+      <Code color="#6834B7" isCodable="true" name="Materials" guid="DBA8358C-E3F6-476B-BA2C-A7D4773C4139"></Code>
+      <Code color="#6834B7" isCodable="true" name="Change" guid="DFF115C8-7B22-4CCE-9807-F8D2C43BC12C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Confusion" guid="6CE5AA7A-C088-4AAB-90AD-7411A4A60452"></Code>
+      <Code color="#6834B7" isCodable="true" name="Green Products" guid="5AEE0745-BDE3-4394-87C2-93921310F31E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Real-time Analysis" guid="3A934A6F-44B3-45A3-BAE1-B6C152D01CDC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Decentralization" guid="B5D7BF61-FB4E-4323-BA9F-BB61A00E50B7"></Code>
+      <Code color="#6834B7" isCodable="true" name="Information Flow" guid="93533021-2469-422B-8BA8-EDFD6B75D7B1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Thoughtful Approach" guid="58FE2184-689C-4F9B-BE6B-6029C85ECBF8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Civic Engagement" guid="7094C859-E18D-408E-A563-F0424D1098C3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Flexibility" guid="8BC531B3-3E4B-47E0-97A7-8FD532453D5A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Interest" guid="64ED4FE3-ABD2-432C-9469-A55B49CCFEC2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Skepticism" guid="3E46C81F-EAE4-4E89-B202-CC44A4856E0D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Evolving Principles" guid="A0BEF285-3F29-4026-9D02-7C4B32A8DE18"></Code>
+      <Code color="#6834B7" isCodable="true" name="Externalities" guid="47630944-3294-4DCA-A2E0-70F7ADD5BC60"></Code>
+      <Code color="#6834B7" isCodable="true" name="Certification" guid="6022A578-C288-452B-9E0E-8BA986F9CAED"></Code>
+      <Code color="#6834B7" isCodable="true" name="Business Growth" guid="223C058D-E865-4963-93FB-CAF0C4B53973"></Code>
+      <Code color="#6834B7" isCodable="true" name="Ecosystem Understanding" guid="2BBD849C-5D0E-46D8-84A7-4B113B76344B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Commercial Focus" guid="023063C4-B2ED-46B4-BCE4-EF9A2C0C9D5E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Education" guid="8A914F80-EAB3-4243-ADFC-AB930BD032D8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Zero Waste" guid="5436EABB-CCA2-4883-A499-1E75440E93AD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Interior Design" guid="08361FFA-73C4-4F9F-9D9E-DF312A5DBEF9"></Code>
+      <Code color="#6834B7" isCodable="true" name="Business Proposition" guid="0BF14650-1516-4C8C-B93A-1179889940FD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Feature Awareness" guid="9642EC4E-C126-402F-A53D-25BA633E9092"></Code>
+      <Code color="#6834B7" isCodable="true" name="Aesthetics" guid="89E50B75-BCA1-40BA-B26D-7F74C4025252"></Code>
+      <Code color="#6834B7" isCodable="true" name="Curiosity" guid="E755FB9D-7954-4065-AC8C-C99809DD7480"></Code>
+      <Code color="#6834B7" isCodable="true" name="Marketing" guid="828F44E5-EE9D-4EB2-9280-AD60A2E3D424"></Code>
+      <Code color="#6834B7" isCodable="true" name="Inequality Awareness" guid="0CFDBA71-C4AC-4E60-BCEB-33C7A2437AF8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Human-Computer Interaction" guid="FC1D2447-CC27-4D2B-A446-3349FA3C83D1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Effective Communication" guid="B122A159-037E-413F-81F8-01F7C4B9CE72"></Code>
+      <Code color="#6834B7" isCodable="true" name="Substance" guid="341C9879-D5E8-4B66-AEB3-52F343390960"></Code>
+      <Code color="#6834B7" isCodable="true" name="Digital Identity" guid="C0861BFD-8F28-44CF-8505-6432402B14F4"></Code>
+      <Code color="#6834B7" isCodable="true" name="Adaptation" guid="6C5FED1C-3408-4A74-9B36-8290538C631B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Awareness" guid="B4299F77-0421-4C22-8467-894056F4356E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Human Stories" guid="A73DFD30-EADC-45E2-B99D-70D22041141E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Quantitative" guid="62DED49A-244F-4688-916D-447576301BE1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Beneficial Solutions" guid="8DB767EF-136F-45B1-9834-FED4439BF031"></Code>
+      <Code color="#6834B7" isCodable="true" name="Genuine Engagement" guid="2E1C5360-3706-41E2-8892-EFB86A4E0628"></Code>
+      <Code color="#6834B7" isCodable="true" name="Trends" guid="D5512741-BD97-4D18-9F51-B32F72B60891"></Code>
+      <Code color="#6834B7" isCodable="true" name="Planetary Perspective" guid="C05CE17E-3B2C-4446-B55F-B098FF60A490"></Code>
+      <Code color="#6834B7" isCodable="true" name="Functionality" guid="B2CC60CA-10B2-4A38-B819-E6D554C7A999"></Code>
+      <Code color="#6834B7" isCodable="true" name="Aspirational Brands" guid="B08CBAC6-4A9E-4884-AEDB-3325863F0728"></Code>
+      <Code color="#6834B7" isCodable="true" name="Belief Systems" guid="8B5AB512-084A-4F16-9835-5E917FF25B3D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Impact" guid="92269DFC-6CEF-4FAC-ADE2-76A2547B76C2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Cost Optimization" guid="11045536-0E32-4157-B107-D1F903CA6D80"></Code>
+      <Code color="#6834B7" isCodable="true" name="Ease of Use" guid="E23A2C89-054D-4EE5-8D29-DCF8784338D8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Blockchain" guid="9FD4141E-DF2B-46A3-BCB6-5D23CB768282"></Code>
+      <Code color="#6834B7" isCodable="true" name="Personas" guid="192B58FC-AB68-47A3-8312-140E8244F124"></Code>
+      <Code color="#6834B7" isCodable="true" name="Economic Theory" guid="E87D3864-4636-41D5-B1B9-E42D0F824D27"></Code>
+      <Code color="#6834B7" isCodable="true" name="Commercial Value" guid="A6C03CC3-04CF-4A26-B60E-EA83B00A58E3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Local Engagement" guid="0A9CE885-0BB9-4CBE-9720-F1896DA1EF90"></Code>
+      <Code color="#6834B7" isCodable="true" name="Resilience" guid="5BE429BA-6E07-47EC-B952-EF16E1F514CB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Broader Scope" guid="41C753E5-EE81-46C1-AB1D-A9EEAB5C2847"></Code>
+      <Code color="#6834B7" isCodable="true" name="Multiple Perspectives" guid="96FD2AA3-BA15-425B-84BE-98B1F7D057BA"></Code>
+      <Code color="#6834B7" isCodable="true" name="Adaptability" guid="8FAA8176-277C-437A-B192-87F355FEC027"></Code>
+      <Code color="#6834B7" isCodable="true" name="ESG" guid="E3B99220-2A81-44F8-BB7C-0F2CB9836395"></Code>
+      <Code color="#6834B7" isCodable="true" name="Relevance" guid="A12DF73E-9D62-45FE-8C03-123150365451"></Code>
+      <Code color="#6834B7" isCodable="true" name="Research" guid="6120010C-69F4-49F1-9554-CE23EC0F25AF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Collaboration" guid="CB97E548-B648-466C-A22A-E064D5BA0EE2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Modification" guid="C912DA95-1279-42CD-9A1B-5AA7A80B939F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Design Limitations" guid="7F44C3AD-19E4-4E7E-85BD-6C40276587EE"></Code>
+      <Code color="#6834B7" isCodable="true" name="Worker Support" guid="89F750D7-DC10-476D-8B17-EAFF9FBDFFA5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Mutual Aid" guid="BEF08A86-B60C-47A3-A078-6390460E65B0"></Code>
+      <Code color="#6834B7" isCodable="true" name="Financial Considerations" guid="FFD078E3-D282-4B4B-8985-3BE52152AAD8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Exploration" guid="DA634A19-9528-4E26-96A5-545DF0CCB77D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Conceptual Framework" guid="E5CE1E9A-5E0F-45B0-977A-0F4B9454E35D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Process" guid="B8B82848-AF5D-49B0-B0B4-E9F0BA8E36DB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Operational Support" guid="8765C827-22DE-45D8-83A3-70EEE30AF657"></Code>
+      <Code color="#6834B7" isCodable="true" name="Feature Prioritization" guid="38A6D8F1-98EF-45C4-995E-FE5405614E6F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Attention to Detail" guid="3C1FD8F3-D38D-4BBC-BD14-05D51AAD5500"></Code>
+      <Code color="#6834B7" isCodable="true" name="Design Practice" guid="79471724-95C1-458E-9B3E-F6EC97911411"></Code>
+      <Code color="#6834B7" isCodable="true" name="Emotions" guid="BC4777A7-8466-4569-A732-E435089CF6B3"></Code>
+      <Code color="#6834B7" isCodable="true" name="Community Organization" guid="993BD60F-DD5C-4F68-92DA-34EA0B9AD979"></Code>
+      <Code color="#6834B7" isCodable="true" name="User-Centric Design" guid="898CAC76-5C2A-437E-86C0-CE9983626CE5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Interaction" guid="C9CAF46F-0A4F-49F8-88E6-CCC72D9151BE"></Code>
+      <Code color="#6834B7" isCodable="true" name="Data-Driven" guid="FD706087-A5EB-4453-944F-761779C4E3BC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Emotional Connection" guid="3554461B-0421-4EAA-8580-68F4BE62C4B4"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainable Production" guid="560249DD-69BD-4DA6-9BB6-0491CB5CE5BB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Product Analysis" guid="540203AB-5DD0-4A3A-AC0B-294D02AB551F"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sensory Experience" guid="3D04775B-5707-4B9F-ADBD-B9419C3EA3C0"></Code>
+      <Code color="#6834B7" isCodable="true" name="Corporate Responsibility" guid="E1E01225-4D88-45FE-89C3-F4A641F03567"></Code>
+      <Code color="#6834B7" isCodable="true" name="Color Usage" guid="FE3F75A6-A0F1-4141-A8A2-D8295E6A0E46"></Code>
+      <Code color="#6834B7" isCodable="true" name="System Thinking" guid="866E7807-30E1-472B-9B06-1FC5CB5D3175"></Code>
+      <Code color="#6834B7" isCodable="true" name="Deterrence Effect" guid="F24B094D-6E12-4F04-BF7A-B2548BCA0BDB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Qualitative" guid="A4BD7214-65EC-49A5-8C3D-C0A3C1992452"></Code>
+      <Code color="#6834B7" isCodable="true" name="Community-Oriented" guid="011F810E-A814-4612-90B6-A72351BA1797"></Code>
+      <Code color="#6834B7" isCodable="true" name="Design Challenges" guid="D3236581-5931-4360-8472-6E27840125D5"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Guidance" guid="F3568AE2-A6ED-45A6-B6DA-029421C286BD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Green Economy" guid="3C8847F0-FF79-448E-B5E8-4230F5602EC1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Strategy" guid="72ECA466-82E9-4DFD-8A85-31A056AE4556"></Code>
+      <Code color="#6834B7" isCodable="true" name="Iterative Approach" guid="3DBE1F4D-AEFF-4788-8FCA-EA01F9AFC22C"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Experience" guid="E729BB23-4031-487B-8D0B-38942CAFE810"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Engagement" guid="CFE8DEE7-5047-484B-9F25-FB3422D42391"></Code>
+      <Code color="#6834B7" isCodable="true" name="Mentorship" guid="984DAD05-D4C8-4CFF-94C4-39DDA40BA24B"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Testing" guid="FA19777F-EB1F-42B4-A201-7D933E402739"></Code>
+      <Code color="#6834B7" isCodable="true" name="Ethical Considerations" guid="E3B30633-A0C1-49FC-805A-056E40CA6BF1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Genuine Commitment" guid="ADE5B870-5D12-44E0-9BF3-77A975E640F8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Simplicity" guid="BB16B0B2-57CF-4E8D-A8AF-60DF4DBCD327"></Code>
+      <Code color="#6834B7" isCodable="true" name="Redesign" guid="45323C73-2C8C-4D99-8F98-C276F407D43A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Green Criteria" guid="C1DA5EAC-A988-4C77-8859-554E2F205737"></Code>
+      <Code color="#6834B7" isCodable="true" name="Team Development" guid="3BB5ED19-E549-4982-951C-D1C43A8D3825"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Behavior" guid="306DC27E-4107-441C-ADC1-82D157906435"></Code>
+      <Code color="#6834B7" isCodable="true" name="Environmental Focus" guid="2751EAD0-2C3E-4121-BED5-A032F52BDE3D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Alternatives" guid="E6434D95-DC8F-45B7-AC97-BF6CC7A2794A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Emotional Support" guid="5610B86D-0374-4F85-913C-91020CF82445"></Code>
+      <Code color="#6834B7" isCodable="true" name="Operationalization" guid="DD313755-A0C3-4940-AD5F-429B07397424"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Engagement" guid="8CBFF59D-CB19-43FC-95C0-2DCB297808E5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Impact Reporting" guid="D772964F-09FD-4486-B08B-A0D55C830F1A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Familiarity" guid="BB987471-EB4C-4767-85B5-66749279EC13"></Code>
+      <Code color="#6834B7" isCodable="true" name="ESG Ratings" guid="76F45232-512C-4C45-A205-7F3E3DBC1C80"></Code>
+      <Code color="#6834B7" isCodable="true" name="Social Good" guid="EDC33D92-43CF-4EDC-9E79-4257F058990E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Vulnerable Populations" guid="F3F510FF-25BC-4F72-8174-E8684B27F446"></Code>
+      <Code color="#6834B7" isCodable="true" name="Capabilities" guid="6E94818A-5578-4FA2-BAB0-D98E7406AA35"></Code>
+      <Code color="#6834B7" isCodable="true" name="Explicit Communication" guid="93477FD6-ECF6-4D64-B8F9-6439D7D2CB04"></Code>
+      <Code color="#6834B7" isCodable="true" name="Personal Connection" guid="E9A0399C-4064-4CE4-9F6B-47FB7CC20D5C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Governance" guid="D425A43B-27D7-4DB8-B803-19103482807A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Societal Influence" guid="E6853B45-D446-420E-B2B7-D81279163AA8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Neutrality" guid="D985634C-F730-4DB8-ACAB-5BD5CDC248CA"></Code>
+      <Code color="#6834B7" isCodable="true" name="Long-term Value" guid="D43004D8-6FDD-484E-9266-24C751AD250B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Social Business" guid="0E5580C1-A808-4A7E-8847-07727F644030"></Code>
+      <Code color="#6834B7" isCodable="true" name="Narrow Definition" guid="AA9B0DB1-DCCB-4CE7-B1DC-D239A87569C5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Crisis Response" guid="7CB0D1F8-B767-44F6-A200-A9C8D468F605"></Code>
+      <Code color="#6834B7" isCodable="true" name="Adaptable" guid="7B21B7A7-261D-4F9B-9105-C6A230B2E56E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Long-term Future" guid="F6E33291-E028-48F3-A0EF-7E6A9301B002"></Code>
+      <Code color="#6834B7" isCodable="true" name="Experimental Design" guid="9C9632C4-562C-4D10-BD7D-B81C1DF01EE5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Humanity" guid="A8972CDB-5D1A-4E07-88B9-4ED4BEFF25F2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Mindset" guid="1D4D56FC-54C6-481B-9354-E1DBA0EF0418"></Code>
+      <Code color="#6834B7" isCodable="true" name="Quality" guid="2D765258-8600-4A0C-BD34-AF81907C1AF1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Patient Experience" guid="B3637863-4CCA-43E3-9A98-63F5CED8C3D5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Local Sourcing" guid="06F991D5-00AF-4F58-8FEC-F3B0E67FA115"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Integration" guid="D9876DE7-29D1-4704-B96E-7A525D6AC4E6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Visual Appeal" guid="D354B4CB-1BF9-4C2C-8C6C-15E7DA418026"></Code>
+      <Code color="#6834B7" isCodable="true" name="Marketing Strategies" guid="3795E370-B0F2-4CE1-8227-9F13C7165FC0"></Code>
+      <Code color="#6834B7" isCodable="true" name="Methodology" guid="D09663D3-DDCE-4A33-9D15-36ABA4C2F181"></Code>
+      <Code color="#6834B7" isCodable="true" name="Insights" guid="AB826984-C71E-48F7-8CB6-45BEE829A160"></Code>
+      <Code color="#6834B7" isCodable="true" name="Triple Bottom Line" guid="2D891A7C-124D-45BF-B018-9B611CFCD239"></Code>
+      <Code color="#6834B7" isCodable="true" name="Lifecycle" guid="34A00169-2330-4797-86DA-C43F2444D0CD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Food Safety" guid="2CB5E2FC-5015-48D2-88F9-1E4EE37C0E48"></Code>
+      <Code color="#6834B7" isCodable="true" name="Community" guid="C42BBC9B-B40B-4601-89A7-0B1AACE76B6B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Innovation" guid="E27D0777-B03C-4981-94A9-3B4C0F3315B1"></Code>
+      <Code color="#6834B7" isCodable="true" name="Nature" guid="ADA54F0E-68AD-4F4D-8092-98F1EA71768D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Data Analysis" guid="986D47BF-CC64-4F89-83B6-E1D8A6F3B356"></Code>
+      <Code color="#6834B7" isCodable="true" name="Motivation" guid="0D72B143-D5BD-4B7A-9703-1DD1F763A559"></Code>
+      <Code color="#6834B7" isCodable="true" name="Regeneration" guid="A2D1B97E-E163-4300-9A31-296B8E6DBDCB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Creativity" guid="9B1BFBB5-2FAE-45E9-9542-9A4AD95EF2CF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Utility" guid="ED6DE4CF-371E-4BD6-A231-CFDC6CF0498D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Consumer Protection" guid="17CD16EA-57ED-4533-ABA8-6F54C30596A6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Intention" guid="477C6BB9-57F3-4325-B4D9-3D8888881FE5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Positive Shift" guid="70C60C96-DA07-4756-AE2A-414A22BBAED2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Responsibility" guid="71F524B5-AB07-4D8E-8275-A23982459411"></Code>
+      <Code color="#6834B7" isCodable="true" name="Regulatory Measures" guid="48F86DB5-F76C-469D-B24C-EDB1EA44537E"></Code>
+      <Code color="#6834B7" isCodable="true" name="Investment in People" guid="D7D82B92-E297-4844-9FF6-6E2E37D94E4B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Diversity" guid="8F8D080C-0E43-44CF-B885-807F1F0726B8"></Code>
+      <Code color="#6834B7" isCodable="true" name="Empathy" guid="E5DBDB2A-F056-4348-94EB-23875A8A40AC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Positive Interaction" guid="32B492D7-AEF6-4A57-B256-3FF45D2F16E3"></Code>
+      <Code color="#6834B7" isCodable="true" name="General Interest" guid="12146254-9875-491F-86BA-708AC3F2BC9C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Climate Change" guid="F671739F-AD3C-4F13-8E24-2994F5507A45"></Code>
+      <Code color="#6834B7" isCodable="true" name="Profit Focus" guid="B98BCE4E-ACB2-4E50-8243-505F4D30FD20"></Code>
+      <Code color="#6834B7" isCodable="true" name="Attractiveness" guid="668FEE40-E1F8-47F1-94B3-C9A3ECC30F95"></Code>
+      <Code color="#6834B7" isCodable="true" name="Understanding Needs" guid="8757B72C-5B86-45C5-956B-3C4B5F23768D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Prioritization" guid="9E87AE5D-70D7-483C-B0BD-515FDF9BF3E0"></Code>
+      <Code color="#6834B7" isCodable="true" name="Intergenerational Collaboration" guid="EAF20056-19D9-457B-A96B-C5A793907911"></Code>
+      <Code color="#6834B7" isCodable="true" name="ESG Integration" guid="156B0EFA-527B-46E5-B680-6135C71E2915"></Code>
+      <Code color="#6834B7" isCodable="true" name="Exploratory" guid="E55EAA6F-6D76-456A-8CFC-A3D224E0C143"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability Focus" guid="7B06A436-630B-4B51-B486-4A158468D67A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Economic Growth" guid="B8A551C4-E231-4009-9908-C908D9FDDDF6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Resource Availability" guid="A884A510-8DD6-4EEC-8467-626543874EEB"></Code>
+      <Code color="#6834B7" isCodable="true" name="Inspirational" guid="32D5457C-98EF-4A3E-A04B-84F41F7D03D7"></Code>
+      <Code color="#6834B7" isCodable="true" name="User-Centric" guid="42FF68B5-31E9-4FA1-B579-1810926272D2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Holistic Approach" guid="2488CF71-00FE-4E6A-A7D9-DBE14891BDCD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Commitment" guid="E048D7FA-A03E-4B3E-B689-2EA515DC5053"></Code>
+      <Code color="#6834B7" isCodable="true" name="Superficiality" guid="4373D30D-E239-458E-9773-F22B492C874C"></Code>
+      <Code color="#6834B7" isCodable="true" name="User Personas" guid="9028DFCA-5985-464D-9525-5A12F9E614DD"></Code>
+      <Code color="#6834B7" isCodable="true" name="Intuitive Design" guid="C62F731A-0057-4E6A-ABAD-F52A911F9EEC"></Code>
+      <Code color="#6834B7" isCodable="true" name="Efficiency" guid="C9ADBADD-DF00-44AB-8ADE-A167B09F2DC2"></Code>
+      <Code color="#6834B7" isCodable="true" name="Social Issues" guid="B3332A99-7DA8-48AB-A7A5-EE8903CD8B96"></Code>
+      <Code color="#6834B7" isCodable="true" name="Technological Solutions" guid="648A109B-6C8C-46BC-8F16-B293003A9865"></Code>
+      <Code color="#6834B7" isCodable="true" name="Standardization" guid="F7F74605-C8A6-4694-A1CA-2EAD7920858A"></Code>
+      <Code color="#6834B7" isCodable="true" name="Design Evolution" guid="3B5A5CCD-7FA2-409B-9288-C2D17636FF6C"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainability" guid="78B21134-DD6D-4880-A8B1-D57616F89FDF"></Code>
+      <Code color="#6834B7" isCodable="true" name="Business Model" guid="3836B7BA-64FC-46CE-A8E2-345A24B1266B"></Code>
+      <Code color="#6834B7" isCodable="true" name="Resource Allocation" guid="A8128A70-7A72-4133-87C7-65FD5A43E8F4"></Code>
+      <Code color="#6834B7" isCodable="true" name="Kindness" guid="ED00281F-344E-425A-BE96-25CE2784EB77"></Code>
+      <Code color="#6834B7" isCodable="true" name="Human-Centric" guid="DB1A241B-1ADD-4D01-94C8-05135BC6B3A5"></Code>
+      <Code color="#6834B7" isCodable="true" name="Financial Concerns" guid="F9B858AB-8993-4EC3-9B0B-9C861CBCBB2D"></Code>
+      <Code color="#6834B7" isCodable="true" name="Design Thinking" guid="52517449-E8BE-49DF-A824-F72B0B1FDCA6"></Code>
+      <Code color="#6834B7" isCodable="true" name="Workshops" guid="8D470B07-5FE0-4F14-A95B-EE9620648246"></Code>
+      <Code color="#6834B7" isCodable="true" name="Purpose-driven" guid="D85BDA9B-3307-46AC-8659-9FD30D83CB71"></Code>
+      <Code color="#6834B7" isCodable="true" name="Sustainable Behavior" guid="25B6FAF9-332C-4AB8-A5D7-8D1752C49ADA"></Code>
+    </Code>
+    <Code color="#FFC197" isCodable="true" name="Long-term Impact" guid="ADC804DC-40FF-4231-A402-D1F4D0A6DECF">
+      <Code color="#FFC197" isCodable="true" name="Long-term Impact" guid="DDB27229-9326-4214-84A4-416656E0D0C7"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustained Change" guid="671D58FB-C698-4BFF-9BA3-5E50E8721183"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustainable Integration" guid="0F9E2C59-0683-4CBE-A3B8-0FDC5196A05C"></Code>
+      <Code color="#FFC197" isCodable="true" name="Awareness" guid="87225252-BD61-4C6A-8CFB-7F56F9E415FC"></Code>
+      <Code color="#FFC197" isCodable="true" name="Interaction" guid="3888D2C8-E9D2-4269-B90D-B815C4F87DAA"></Code>
+      <Code color="#FFC197" isCodable="true" name="Nuance" guid="60ECAE5C-E2DA-42CE-9905-44E01EE5FE90"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustainability" guid="8BC6B536-FCA0-40EB-9C9E-E27A476F1167"></Code>
+      <Code color="#FFC197" isCodable="true" name="Lasting Benefits" guid="1975B35D-1781-4EC0-9556-1156003E3E92"></Code>
+      <Code color="#FFC197" isCodable="true" name="Creativity" guid="02FF72EC-081E-4285-BE8F-2797AA5B830A"></Code>
+      <Code color="#FFC197" isCodable="true" name="Ongoing Data Collection" guid="1E8782FB-B650-44D6-8A40-B6E49AEE068E"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustainable Practices" guid="A8FE2F1E-5CFB-47D3-A658-BFB43BAE9579"></Code>
+      <Code color="#FFC197" isCodable="true" name="Consumer Behavior" guid="81471777-F096-4BB2-8D29-637168B6D835"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustained Support" guid="512FE5DB-1DC8-4AB7-A48A-F6C07ABC6669"></Code>
+      <Code color="#FFC197" isCodable="true" name="Long-term vs Short-term" guid="E528D9A5-F4F5-4B08-B3C6-E58D71FD7DD0"></Code>
+      <Code color="#FFC197" isCodable="true" name="Investment" guid="0D5239E3-0A48-4D45-B80E-C5B5745BE546"></Code>
+      <Code color="#FFC197" isCodable="true" name="Nudges" guid="093D63FE-C92F-420D-810A-8F55C15FD8CC"></Code>
+      <Code color="#FFC197" isCodable="true" name="Strategic Investment" guid="337B8100-640A-4F07-97F7-99769A748262"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustained Engagement" guid="DB9E3531-1879-4D0C-BC22-668033F3A951"></Code>
+      <Code color="#FFC197" isCodable="true" name="Industry Viability" guid="2689596F-EFF7-4A5E-9204-67494C6F1850"></Code>
+      <Code color="#FFC197" isCodable="true" name="Product Prioritization" guid="2330828C-B035-483C-92B0-1D253B4B83F3"></Code>
+      <Code color="#FFC197" isCodable="true" name="Future Focus" guid="0867B0C3-1D7E-4E08-A1BB-D0E31029105B"></Code>
+      <Code color="#FFC197" isCodable="true" name="Environmental Impact" guid="9D024A16-6BC4-4FBF-812C-AC5B4F9DCAA5"></Code>
+      <Code color="#FFC197" isCodable="true" name="Financial Priorities" guid="D9109DAE-F75B-4895-A69A-AE2D059FAFBA"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustainable Growth" guid="D601EB05-8E03-40DF-ACD5-CF31DCB5C79E"></Code>
+      <Code color="#FFC197" isCodable="true" name="Future Success" guid="6E44E896-B524-4398-8BF4-EEDB64B284A9"></Code>
+      <Code color="#FFC197" isCodable="true" name="User Needs" guid="84702FDB-97D1-4A09-AB95-C0419DCD3E3A"></Code>
+      <Code color="#FFC197" isCodable="true" name="User Retention" guid="BA8F00B7-9750-400E-95F0-4273E7F1A9C5"></Code>
+      <Code color="#FFC197" isCodable="true" name="Quality" guid="944ED041-26AC-4EDB-8657-8FFD8FA43217"></Code>
+      <Code color="#FFC197" isCodable="true" name="Customer Retention" guid="2399E810-B4D0-48B2-8BF9-4DA044A08C22"></Code>
+      <Code color="#FFC197" isCodable="true" name="Selective Industry Promotion" guid="DFB73C9A-CBB7-4E9C-B00C-139D4C60A31F"></Code>
+      <Code color="#FFC197" isCodable="true" name="Nuanced Approach" guid="F329013C-B09B-46CC-897C-AB785121DC7C"></Code>
+      <Code color="#FFC197" isCodable="true" name="Informed Decisions" guid="E51FC4DC-88D3-4D30-BE9B-776C21534448"></Code>
+      <Code color="#FFC197" isCodable="true" name="Balanced Growth" guid="8F022763-543E-44A5-9F50-362362A23656"></Code>
+      <Code color="#FFC197" isCodable="true" name="Engagement" guid="70791C19-7D94-44D3-BED2-785510361861"></Code>
+      <Code color="#FFC197" isCodable="true" name="Ethical Practices" guid="9B5095F3-2BD4-462F-B997-DF8DB77AE661"></Code>
+      <Code color="#FFC197" isCodable="true" name="Long-term Support" guid="7E8700F9-3A3D-4962-B47B-A1C8D49CEB50"></Code>
+      <Code color="#FFC197" isCodable="true" name="Economic Growth" guid="B9A089F7-644B-44DA-B529-5453E02F9E20"></Code>
+      <Code color="#FFC197" isCodable="true" name="Effectiveness" guid="44F12123-EAEE-41BA-A5A3-98947BDC1092"></Code>
+      <Code color="#FFC197" isCodable="true" name="Continuous Improvement" guid="CF58AC11-0AA9-4D8E-B9B2-F6B6156EAF5E"></Code>
+      <Code color="#FFC197" isCodable="true" name="Sustainability Urgency" guid="3A79BF77-11CF-4550-A5D3-24FE3AB10CF8"></Code>
+      <Code color="#FFC197" isCodable="true" name="Genuine Practices" guid="BC20886B-7B66-4489-A507-E57EE5FE1F86"></Code>
+      <Code color="#FFC197" isCodable="true" name="Growth Metrics" guid="1D565ABD-3818-4205-A247-A7FB2EE6F1B1"></Code>
+      <Code color="#FFC197" isCodable="true" name="AI Influence" guid="B18C59B9-49BC-401F-85CD-8AB1985CCC83"></Code>
+      <Code color="#FFC197" isCodable="true" name="Resource Management" guid="6EF774BF-F650-45A1-B590-329D3E75904B"></Code>
+      <Code color="#FFC197" isCodable="true" name="Financial Awareness" guid="BA9FCF86-E603-4BE0-8E57-2843FAEF2475"></Code>
+      <Code color="#FFC197" isCodable="true" name="Emotional Factors" guid="173BDF3F-A22D-4360-8408-2C1DB5FDBC7E"></Code>
+      <Code color="#FFC197" isCodable="true" name="User Engagement" guid="429B57B5-08A1-413A-8D0A-636731908446"></Code>
+      <Code color="#FFC197" isCodable="true" name="Digital Identity" guid="AFA281B5-1575-4BCB-8747-E59E3D34B164"></Code>
+      <Code color="#FFC197" isCodable="true" name="Usability" guid="0155AC98-1265-433D-B146-F746F866A262"></Code>
+    </Code>
+    <Code color="#46B04F" isCodable="true" name="Transparency" guid="CC748911-BA15-4B5B-966F-45072409BC28">
+      <Code color="#46B04F" isCodable="true" name="Access" guid="11FBB6F7-EBBE-428C-B4E3-B3D9B4D71308"></Code>
+      <Code color="#46B04F" isCodable="true" name="Authenticity" guid="33152E9F-93E0-45AD-B0F2-DE2CD73501F6"></Code>
+      <Code color="#46B04F" isCodable="true" name="Community" guid="B6FA9A38-3DFF-42F6-9AAF-A1A1A3C4F4B4"></Code>
+      <Code color="#46B04F" isCodable="true" name="Clear Communication" guid="AE94CFA4-B95B-4B02-A7ED-EF59E5D01AD5"></Code>
+      <Code color="#46B04F" isCodable="true" name="Trust" guid="F2734162-95B9-480E-913D-925EDCA30416"></Code>
+      <Code color="#46B04F" isCodable="true" name="Product Origins" guid="4A216E9E-05D1-4333-9251-DEE4ACD20AF8"></Code>
+      <Code color="#46B04F" isCodable="true" name="Informed Decision-Making" guid="B08E5161-3DDB-4BBC-A011-DF3CE44CC968"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Identification" guid="0A583DA5-E10A-4DAF-A053-20DCBF7750C7"></Code>
+      <Code color="#46B04F" isCodable="true" name="Brand Disconnect" guid="F2EB78F6-CD7D-410E-84D5-9ECB9F2B40FF"></Code>
+      <Code color="#46B04F" isCodable="true" name="Data Sharing" guid="CDAA8228-9595-499E-A63F-ADF24B5AD7DB"></Code>
+      <Code color="#46B04F" isCodable="true" name="Data Interpretation" guid="8059A744-DECE-497D-A111-161F3A8091BC"></Code>
+      <Code color="#46B04F" isCodable="true" name="Updates" guid="9BC474D3-4216-47D3-B3D9-72D6FCD1C6D0"></Code>
+      <Code color="#46B04F" isCodable="true" name="Information Display" guid="02A8E5CC-169B-4FC0-BF16-CE5F0475A6C7"></Code>
+      <Code color="#46B04F" isCodable="true" name="Consumer Access" guid="E5671E64-E2FC-4F20-A670-398E2495852E"></Code>
+      <Code color="#46B04F" isCodable="true" name="Product Origin" guid="E2850D5F-9DD0-4B33-A64E-D74FD3853B61"></Code>
+      <Code color="#46B04F" isCodable="true" name="Identification" guid="39BCD0F3-4172-47E0-B4F1-C792BBC82829"></Code>
+      <Code color="#46B04F" isCodable="true" name="Reporting" guid="A35B9139-1EA9-4585-B2B8-9CE75202276D"></Code>
+      <Code color="#46B04F" isCodable="true" name="ESG Data" guid="B1611CEC-94CD-4205-A29A-38410E046346"></Code>
+      <Code color="#46B04F" isCodable="true" name="Investment Transparency" guid="D8344CA1-21D1-4215-BC15-B74F72955ACD"></Code>
+      <Code color="#46B04F" isCodable="true" name="Information" guid="72CDDDC8-FA1B-4921-8A57-2C62749FD6AA"></Code>
+      <Code color="#46B04F" isCodable="true" name="Collaboration" guid="EE03F2C7-6C6B-48C3-97E7-B12FF70C9EEB"></Code>
+      <Code color="#46B04F" isCodable="true" name="ESG Information" guid="A109032A-B96B-4086-A3E9-88DC075F87AD"></Code>
+      <Code color="#46B04F" isCodable="true" name="Engagement" guid="ECF954A9-0FE5-4E73-92B5-3C8480D7B112"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Understanding" guid="D8238E29-7AF7-4653-B01C-7B1DBBF20BC8"></Code>
+      <Code color="#46B04F" isCodable="true" name="Clarity" guid="7AAB2338-73C9-413B-80E5-CBE3C2E51CDB"></Code>
+      <Code color="#46B04F" isCodable="true" name="Clear Intentions" guid="1B114946-4E88-47BE-9C95-ADDC537787CA"></Code>
+      <Code color="#46B04F" isCodable="true" name="Production Conditions" guid="AA54BD14-E1D4-416F-A50B-7700CB5E942B"></Code>
+      <Code color="#46B04F" isCodable="true" name="Accountability" guid="CAE630AB-21F4-4E8D-A7F5-4D97E29C103F"></Code>
+      <Code color="#46B04F" isCodable="true" name="Data Accuracy" guid="B7CE90B4-23DA-4F0F-8737-C427BF718E5F"></Code>
+      <Code color="#46B04F" isCodable="true" name="Product Quality" guid="D8CD3698-FA95-4C5A-8A2C-A8958CBC722C"></Code>
+      <Code color="#46B04F" isCodable="true" name="Sustainability Claims" guid="45E9EC74-BC1B-4FB0-B7CA-C402CD029F52"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Interaction" guid="B4D2CCBC-E1E2-4604-8FF2-DB2211B579F4"></Code>
+      <Code color="#46B04F" isCodable="true" name="Transparency" guid="4064835B-AF93-4F34-8450-AAD670E1A8AC"></Code>
+      <Code color="#46B04F" isCodable="true" name="Open Communication" guid="0ED2AEFE-4D60-4614-A82A-CBF977ABC6DD"></Code>
+      <Code color="#46B04F" isCodable="true" name="Green Initiatives" guid="E76C45D4-E20E-413E-A879-F16CB0F1EA6E"></Code>
+      <Code color="#46B04F" isCodable="true" name="Communication" guid="BFA18713-242C-460B-BC13-2780A182BC56"></Code>
+      <Code color="#46B04F" isCodable="true" name="Visibility" guid="F11424FB-D1D9-4782-B71F-61431864F1D0"></Code>
+      <Code color="#46B04F" isCodable="true" name="Brand Integrity" guid="5464D913-514C-451C-9EC0-89B96211FCDA"></Code>
+      <Code color="#46B04F" isCodable="true" name="Consumer Awareness" guid="676A5529-E9CD-46C9-84CA-B76FA4E434F1"></Code>
+      <Code color="#46B04F" isCodable="true" name="Consumer Trust" guid="BEE7CBEB-0AEF-452C-8EE2-D7F40DAEDB01"></Code>
+      <Code color="#46B04F" isCodable="true" name="Scrutiny" guid="5C9AF45F-6406-4820-BFF1-0C77F05E3F25"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Input" guid="1956018F-8446-4763-8158-8659E1205AF8"></Code>
+      <Code color="#46B04F" isCodable="true" name="Investment" guid="E3C0DF40-4F7F-4850-A641-2147AFB49A58"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Awareness" guid="29A66510-8625-4A31-802A-88762A216BA5"></Code>
+      <Code color="#46B04F" isCodable="true" name="Digital Passport" guid="36D51274-E3C6-487A-9DB3-6B1609E680DE"></Code>
+      <Code color="#46B04F" isCodable="true" name="Renewable Energy" guid="14571E8E-E52B-4D47-9982-6FEB97E48ED5"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Behavior" guid="97C98738-2438-47CF-A20B-730D136D751A"></Code>
+      <Code color="#46B04F" isCodable="true" name="Stakeholder Engagement" guid="7A7A7C7B-21F0-4474-955E-06D75029A879"></Code>
+      <Code color="#46B04F" isCodable="true" name="Sustainability" guid="A9C3819D-0251-4132-997F-7CB57385F2E9"></Code>
+      <Code color="#46B04F" isCodable="true" name="Immediate Information" guid="EC3EC73D-1049-46C2-8C09-D7D8345F3501"></Code>
+      <Code color="#46B04F" isCodable="true" name="Clear Methods" guid="E0222A3D-08FA-43E3-AB30-74EF4D8541C6"></Code>
+      <Code color="#46B04F" isCodable="true" name="Overlooked Reports" guid="1F575410-C0BE-4F21-9F1A-668E1B95B46B"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Tracking" guid="14319533-6150-4828-9DD1-3B1A4B082055"></Code>
+      <Code color="#46B04F" isCodable="true" name="Legislation" guid="098690C1-0DC6-4F3E-B31B-EAB4BBCE64E2"></Code>
+      <Code color="#46B04F" isCodable="true" name="Feature Benefits" guid="245905CE-741A-48EE-85CF-B6F20DCA361D"></Code>
+      <Code color="#46B04F" isCodable="true" name="Detailed Analysis" guid="0F7BB395-3218-426D-AD5B-DF97826AD3D6"></Code>
+      <Code color="#46B04F" isCodable="true" name="Data Usage" guid="1093E401-54FA-4F09-819D-18554FAB418B"></Code>
+      <Code color="#46B04F" isCodable="true" name="Insights" guid="6033E0C1-976B-4D5C-ADB8-60214607E311"></Code>
+      <Code color="#46B04F" isCodable="true" name="Impact" guid="D495FD37-B95A-4F92-B2BB-C93303651155"></Code>
+      <Code color="#46B04F" isCodable="true" name="Live Streaming" guid="7805F63E-A60B-4E26-A01E-04D128BE7452"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Engagement" guid="67AF5FCF-D221-41A0-ADF6-225A246DF285"></Code>
+      <Code color="#46B04F" isCodable="true" name="Honesty" guid="845634FA-16CB-4FE1-B888-4021B5770B62"></Code>
+      <Code color="#46B04F" isCodable="true" name="Detailed Information" guid="A9C7372F-3E7D-4D48-9997-4B3C09587D24"></Code>
+      <Code color="#46B04F" isCodable="true" name="User Information" guid="BB63BEE1-7190-46F2-8D16-F81B60DC41B4"></Code>
+    </Code>
+    <Code color="#1B1616" isCodable="true" name="Common Language" guid="DEAC3786-0D9B-48CF-B5DA-E7AF9D5B49B1">
+      <Code color="#1B1616" isCodable="true" name="Safety" guid="6C149876-4877-47C9-85CA-B24DC2E1178F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Capabilities" guid="3CB3CBF5-2F32-4E28-B717-ADFAB44EC002"></Code>
+      <Code color="#1B1616" isCodable="true" name="Connection" guid="D001D531-FDB2-4EF3-9A21-57F250BC2318"></Code>
+      <Code color="#1B1616" isCodable="true" name="Consumer Understanding" guid="1BCCC679-A111-4E1A-BAB7-739D45439C09"></Code>
+      <Code color="#1B1616" isCodable="true" name="Industry Classification" guid="898C4DF6-277A-4600-A1D0-EC2EC00EED41"></Code>
+      <Code color="#1B1616" isCodable="true" name="Kindness" guid="E88CF1A5-95EE-49EA-AB4C-27149E5DFA35"></Code>
+      <Code color="#1B1616" isCodable="true" name="Consumer Awareness" guid="804D5EC6-21D7-4232-8546-9A0100B3E553"></Code>
+      <Code color="#1B1616" isCodable="true" name="Quality" guid="18CFCD8E-02B8-4BEE-AEA3-C6F3F8D8DB16"></Code>
+      <Code color="#1B1616" isCodable="true" name="Digital Identity" guid="50A15209-65AE-4511-AD3F-446DBE4ED7AB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Regeneration" guid="ABB1B922-765D-409D-95B4-BFDF75BEA4F1"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Data" guid="EDDFA665-66F1-424D-894D-044AA559DBBB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Financial Contributions" guid="DBBFA540-74A0-4BBB-95E7-CFFD9698C395"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Needs" guid="BE6849B0-3C1B-46E7-98BE-D325C8BAED7D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Effectiveness" guid="EAC1EC6F-A28B-4B0F-AF9A-954651A876A7"></Code>
+      <Code color="#1B1616" isCodable="true" name="Transparency" guid="BD9E2DEC-F3AF-4352-B77E-4E5E02EE0247"></Code>
+      <Code color="#1B1616" isCodable="true" name="Aspirations" guid="DEA27C36-BFDF-4E9C-BB94-9DE40EF7B078"></Code>
+      <Code color="#1B1616" isCodable="true" name="Communication" guid="E5F9A61A-6DA4-4623-9D96-91CB5D2D8FBA"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Satisfaction" guid="61184FA8-881E-4762-B690-43BC1BD7753A"></Code>
+      <Code color="#1B1616" isCodable="true" name="Risk Management" guid="DAAD2272-D677-41A8-822B-F6B7758C19DF"></Code>
+      <Code color="#1B1616" isCodable="true" name="Community Support" guid="7734301A-FA6B-4131-85E9-81981B8F1264"></Code>
+      <Code color="#1B1616" isCodable="true" name="Team Growth" guid="4ECD0E82-3B7B-4F77-B60B-09C5198ABFA3"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Understanding" guid="A5236DAD-5D3F-4D51-BAD8-76856EB66E22"></Code>
+      <Code color="#1B1616" isCodable="true" name="Cost" guid="5DABDC57-5ACE-4A1C-AA49-BFB49EC96900"></Code>
+      <Code color="#1B1616" isCodable="true" name="Tailored Services" guid="D72AE2A9-EDCF-4A80-851B-5E04C2135D3C"></Code>
+      <Code color="#1B1616" isCodable="true" name="Evaluation" guid="4B6479FF-A904-4D8E-B0DB-8EA28AD3F168"></Code>
+      <Code color="#1B1616" isCodable="true" name="Innovation" guid="7EBD4028-AC1D-402E-AE68-B3B19630A6A7"></Code>
+      <Code color="#1B1616" isCodable="true" name="Motivation" guid="2F70BAF6-75D7-4641-B1FE-D0140701B8E2"></Code>
+      <Code color="#1B1616" isCodable="true" name="Tracking" guid="5CC2A011-1B0E-40A0-A2F1-5F6BA85DB6AD"></Code>
+      <Code color="#1B1616" isCodable="true" name="Logistics" guid="B2C40FAB-C0BE-4550-B53E-BD5F5BEF53BE"></Code>
+      <Code color="#1B1616" isCodable="true" name="Sustainability" guid="3640D868-2511-4ADF-A721-9AC857E59D66"></Code>
+      <Code color="#1B1616" isCodable="true" name="New Models" guid="CA8E89A5-C9F0-4F89-A7CD-67E57674249D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Visibility" guid="BE5B4213-EB31-4C44-AA38-EE21FBE760FB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Community Engagement" guid="AFA7C06C-37F8-4EDA-8FFD-2105B306DB13"></Code>
+      <Code color="#1B1616" isCodable="true" name="Trust" guid="3C2E726F-9D6F-479C-B2CC-7952B7C1DBBB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Product Origin" guid="AAA4F995-8ACD-4215-BEA4-66C682614B79"></Code>
+      <Code color="#1B1616" isCodable="true" name="Data Integrity" guid="215B101C-8F5D-4EC3-97A1-2DD67F2306DF"></Code>
+      <Code color="#1B1616" isCodable="true" name="Material Importance" guid="FCD3C150-1FEF-4E69-B1F8-00D13F71B1AB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Humanity" guid="00CA1E97-0A07-46CC-BE3F-E179754ABCC3"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Engagement" guid="5D4C8CB2-DBAD-460D-BF65-DC8B4F84BB84"></Code>
+      <Code color="#1B1616" isCodable="true" name="Positive Interaction" guid="49141F43-D246-4FC5-9CDA-434C90C4B6A7"></Code>
+      <Code color="#1B1616" isCodable="true" name="Value Creation" guid="C79477B8-9161-460D-B486-D425C0AA3607"></Code>
+      <Code color="#1B1616" isCodable="true" name="Feedback" guid="16F9E077-636F-4331-B988-F6FA7CE4B5C3"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Experience" guid="E33200FA-2B14-4EAB-8C13-810A559F5D7C"></Code>
+      <Code color="#1B1616" isCodable="true" name="Integration" guid="221A2521-0872-4975-ABC8-87DD5E9A16D8"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Interaction" guid="E068135B-0897-45F4-BE3C-DE9EFD16B339"></Code>
+      <Code color="#1B1616" isCodable="true" name="Funnels" guid="5F474308-8C4D-4B43-8C49-0A376DE99D5F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Feature Transparency" guid="4AC00409-38A6-4F00-A3E1-C3F960B0ECE7"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Awareness" guid="1E970FD2-40FA-4B48-8CF3-721408D0501F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Relevance" guid="AAC7595E-23AB-493E-B735-7B9969BEDCE5"></Code>
+      <Code color="#1B1616" isCodable="true" name="Attributes" guid="A66B66F9-0816-4E19-9AE5-DB0B2F47ADF4"></Code>
+      <Code color="#1B1616" isCodable="true" name="Product Evaluation" guid="C33F8DA3-CD8E-447B-B2D2-12BFA6F59FEB"></Code>
+      <Code color="#1B1616" isCodable="true" name="Product Comparisons" guid="653BB8C3-36F3-42A3-A210-033456A5B671"></Code>
+      <Code color="#1B1616" isCodable="true" name="User Feedback" guid="1C3265DB-6A26-4491-BA38-A1D2C36A0781"></Code>
+      <Code color="#1B1616" isCodable="true" name="Process Guidance" guid="D2900F37-690F-4277-95F6-1DDCD61EA956"></Code>
+      <Code color="#1B1616" isCodable="true" name="Data-Driven" guid="2F5DA7FE-1AB3-4272-B1E8-69F2903FEC7F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Investment" guid="05D6A062-0F97-47EF-9530-D2BF97043EA5"></Code>
+      <Code color="#1B1616" isCodable="true" name="Product Origins" guid="F15C2177-83AF-4B47-9848-68492B3AFE90"></Code>
+      <Code color="#1B1616" isCodable="true" name="Expertise" guid="DF97A669-3AF3-4922-8C7E-C7F00596537F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Emotional Connection" guid="47717D86-D2DA-4422-B364-59317C426CB9"></Code>
+      <Code color="#1B1616" isCodable="true" name="Practical Application" guid="6F2270F6-09D1-4416-AE09-0D97CC9D0409"></Code>
+      <Code color="#1B1616" isCodable="true" name="Financial Implications" guid="42DDD136-3B3D-4387-8636-47378FEB9F4A"></Code>
+      <Code color="#1B1616" isCodable="true" name="Ethical Practices" guid="B98EA9BC-85CD-48AE-9F43-D677AE788C41"></Code>
+      <Code color="#1B1616" isCodable="true" name="Collaboration" guid="B2108B12-3A4A-441A-9EF3-C569921925BD"></Code>
+      <Code color="#1B1616" isCodable="true" name="Ethics" guid="380ADABC-FCCA-48CB-9E4F-4E182B3DA755"></Code>
+      <Code color="#1B1616" isCodable="true" name="Learning" guid="54A43935-578B-40D7-9B1B-2C7AD033D4E4"></Code>
+      <Code color="#1B1616" isCodable="true" name="Human Values" guid="07A05BA9-0E2B-4731-924F-11ABFA76D0CC"></Code>
+      <Code color="#1B1616" isCodable="true" name="Interconnectedness" guid="9EFB48EE-5952-4005-A6C9-0E1F96D9EA36"></Code>
+      <Code color="#1B1616" isCodable="true" name="Adaptation" guid="D69C4A19-F604-45E4-8D32-8463D2A11B8D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Relatability" guid="6AFCFF05-E46F-4407-BDBF-B56EEE25937E"></Code>
+      <Code color="#1B1616" isCodable="true" name="Curiosity" guid="66E1B209-9448-41E5-B5A2-646ED9C29DDE"></Code>
+      <Code color="#1B1616" isCodable="true" name="Effective Communication" guid="6C341D2B-D6C7-45CE-ACB2-2B6BF6748D67"></Code>
+      <Code color="#1B1616" isCodable="true" name="Action" guid="0970B9E1-8BC1-4D2D-8D15-BA8212609F5C"></Code>
+      <Code color="#1B1616" isCodable="true" name="Behavior Modification" guid="66A63B53-84CF-4AFB-BDE1-196198A8A7CC"></Code>
+      <Code color="#1B1616" isCodable="true" name="Simplification" guid="89F82691-45A1-42FC-B646-ADA12343CF8E"></Code>
+      <Code color="#1B1616" isCodable="true" name="Engagement" guid="BEF01C64-052F-4147-B5F0-1FF4D111E122"></Code>
+      <Code color="#1B1616" isCodable="true" name="Economic Growth" guid="B8E630E3-590C-4321-996D-6948D54C5F03"></Code>
+      <Code color="#1B1616" isCodable="true" name="Data Integration" guid="C08E3AF8-0629-4CEF-AE9C-81E9B523EC6D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Data Usage" guid="4E23A188-122E-4A53-91D2-81CDEB54E42E"></Code>
+      <Code color="#1B1616" isCodable="true" name="Knowledge" guid="58A50978-2929-436D-877B-32E7678FBE49"></Code>
+      <Code color="#1B1616" isCodable="true" name="Data" guid="18EEBC6C-1B9A-422B-8287-7E8BD0CEEFEA"></Code>
+      <Code color="#1B1616" isCodable="true" name="Affordability" guid="6C30FEF5-77C3-4936-8848-9E36DF1527D0"></Code>
+      <Code color="#1B1616" isCodable="true" name="Daily Concerns" guid="740890A6-E6F2-4CB8-87A0-5CFD0B9F3C4D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Economic Principles" guid="BBB9ADA7-82D2-4771-A06A-F522DFF9009D"></Code>
+      <Code color="#1B1616" isCodable="true" name="Technology Role" guid="FFE04CB9-16FA-4351-9E1D-3A5E03B5118F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Interaction" guid="D5C2A087-0CB1-4D66-B774-6CB841F4B1E3"></Code>
+      <Code color="#1B1616" isCodable="true" name="Relevant Information" guid="94C19513-F357-4C98-98B2-85491B504CC8"></Code>
+      <Code color="#1B1616" isCodable="true" name="Shared Values" guid="8C4A9B0F-A870-4A78-84CA-0DDB1F5E12F0"></Code>
+      <Code color="#1B1616" isCodable="true" name="User-Friendly" guid="1CBF8B7B-4F66-476C-9FFC-D5DC4294D336"></Code>
+      <Code color="#1B1616" isCodable="true" name="Personalization" guid="B0457CCD-55CB-479F-85D1-AA2E8C86C35F"></Code>
+      <Code color="#1B1616" isCodable="true" name="Resource Management" guid="11AAFC70-1C3B-4754-AC92-57A6FA2F740A"></Code>
+      <Code color="#1B1616" isCodable="true" name="Emotional Well-being" guid="3B9ADFB7-1325-46EC-9CD1-EDF7CF231A5A"></Code>
+      <Code color="#1B1616" isCodable="true" name="Accessibility" guid="518D2296-6D43-468B-8368-7E43BD09F0EC"></Code>
+      <Code color="#1B1616" isCodable="true" name="Clarity" guid="AACF32A8-08B6-4FC1-930D-33515C7DFB12"></Code>
+      <Code color="#1B1616" isCodable="true" name="Simplicity" guid="0E469D03-B396-45C3-B55B-9522113BF5FD"></Code>
+      <Code color="#1B1616" isCodable="true" name="Consumer Concerns" guid="995E3130-961E-4968-868D-FD41A158CB24"></Code>
+      <Code color="#1B1616" isCodable="true" name="Testing" guid="16D2E2DF-8A9A-467D-9C87-BCB93A0D9386"></Code>
+      <Code color="#1B1616" isCodable="true" name="Technology" guid="514777EE-D598-4265-AAE4-6BEEB6BC4481"></Code>
+    </Code>
+    <Code color="#CFB11B" isCodable="true" name="Simplicity" guid="4CA3F3F8-C12E-4FB5-88C8-BE58A048BD07">
+      <Code color="#CFB11B" isCodable="true" name="Quality Focus" guid="71A0EBF7-419E-419A-BBA7-76972BC034E1"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Complexity" guid="22F7D348-8B96-4DEB-9207-1530AEC0C1C2"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Consumer Understanding" guid="6989929C-1D99-406B-9C0D-57B8EB0360CA"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Human Well-being" guid="63024FCA-9AC3-4816-BEB2-FFEABC87C2DA"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Avoid Overload" guid="0DE8360E-469B-4DEB-9DE5-CEEB83F73C81"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Engagement" guid="0B5AA84A-538A-44C0-A81D-DB5A2A443379"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforward Interaction" guid="900EA463-04AB-4640-9795-B428E43FEAC9"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Eco-friendly" guid="AB6A3070-DE33-438B-8BAE-282A60246922"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Simplified Outputs" guid="4D21575E-B446-4365-8373-FC9CA88022B4"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Streamlining" guid="72260480-EBD4-4D83-962C-5315D0B6270F"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Clarity" guid="1024C150-6418-4986-9C32-D552FFD1F78F"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforward Design" guid="FF1298D4-6FCC-478E-8C7D-163B3A3D4654"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Decision-Making" guid="40A90A74-B371-4F09-B9B7-63C486C6DD36"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Access" guid="B53D6D75-DE62-4D22-9253-37547C613C8E"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Minimal Thought" guid="003E6A4E-AFC3-4CF9-8BF1-7969CA224D09"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Consumer Influence" guid="4825F12E-B01A-4EF3-A6C9-A07316AC2A61"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Functionality" guid="6029191A-18F2-43EF-BE44-3BE4FC3A4FDD"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Reduced Production" guid="466D108A-0514-4E5D-B99A-14301AFE4FB0"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Relevance" guid="7B4FD25E-AE8C-4430-9F21-92E2E33292DC"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Ease of Understanding" guid="547026BC-6050-4D3D-9ABF-960AFCC8DF53"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Engagement" guid="FFB11E54-E1D7-4F0D-B3EF-C9C070693FBB"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforward Processes" guid="114BF8F9-D6CB-41A1-9EF6-01D9712BD577"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Sustainability" guid="AE273F5D-B8F5-4163-A495-796988BD134B"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Clear Comparisons" guid="333C11B0-8875-4546-9E19-378AF8AC859C"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Explicit Communication" guid="54138926-16DE-4AB2-ADFC-622273D159F5"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Understanding" guid="6FADC3F9-1EC1-4FAF-A523-A2335F3BE6B8"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Grasp" guid="52DCD6F5-3E63-499C-B92D-89286C827792"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Familiar Products" guid="F9432C69-AEA5-4DDF-9C7A-3A8B3C81B7CA"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Manageable Steps" guid="253BD7B9-52FA-44FC-B81F-29327D59CFB7"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Simplicity" guid="0F700CB6-C217-41A4-8C01-C2D152EB7691"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Ease of Use" guid="9A115324-6066-469C-88DA-655138ADC11F"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Streamlined Processes" guid="B2810242-132B-4A9D-9E44-4EB12F086644"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Technological Solutions" guid="E6F1DE0F-B663-415F-96BC-0E22FA50304B"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Comfort" guid="E56F0EAE-B36D-4F4F-A8D2-B83B4E9C5F85"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Experience" guid="C299DD1E-8F4E-481A-A664-84065913DA80"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Understandability" guid="CBE86902-49B7-4B64-AA59-026486934CFB"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Accessibility" guid="E44CEC39-5251-428D-8850-06322EEB9CBE"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Essential Information" guid="961EEA29-5F5C-406E-AAD9-EE5C9FBF1011"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforward" guid="E662EF6E-E378-4C06-9516-AF577709C0A6"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Navigation" guid="01A5EC0A-BCDE-481C-BD56-C1E6B35930D5"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Resource Distribution" guid="703064EE-35CA-457B-B404-57370E4D30B1"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User-Friendly" guid="C5850B44-2C13-4DE8-9350-2160CAF25690"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Experimental Design" guid="5DA2ADF6-B506-4524-BB2F-6C66A9470546"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Interaction" guid="C8ADC16A-CF98-4889-93A4-6A3FEB1F97FA"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Design" guid="652FD1A9-D7B4-44A7-80BF-D691ACF6BFD0"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Business Operations" guid="E695139F-B3B9-45BC-915A-81FE612628D8"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Minimalism" guid="680655AA-061D-4831-B9D9-B68A79C0152B"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Clear Communication" guid="037B569E-7AA9-4854-A545-E1A70030A7DF"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Product Safety" guid="6F526246-38BC-4278-B48D-97543734CAF2"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Reduction" guid="4717C230-DE9D-4C4D-983D-E4442576343C"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Visuals" guid="90D3BE0D-0CEB-4C3E-84A2-7ECFA2E6F698"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Behavior Change" guid="6DF5522F-6462-451A-807A-C9343F10BC7E"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Attention-Grabbing" guid="A72F47D1-303E-4B05-AD4A-716AF0DD14C1"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Information Clarity" guid="0917F56C-FD69-46AC-89BF-94ACCF0C680A"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Reduced Complexity" guid="90C54165-16D9-4EB4-88E0-250483C355AC"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Consumer Information" guid="7E9FC732-A82A-4DE8-B02C-2A69BC02860F"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforward Metrics" guid="ACD41219-A55B-4AA8-B8A8-B42E4A6F7790"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Ease" guid="760310B2-C0D4-4515-B719-8EB1CD05E8AD"></Code>
+      <Code color="#CFB11B" isCodable="true" name="User Prompts" guid="43A70045-E7F3-4985-97C7-37D6C9523004"></Code>
+      <Code color="#CFB11B" isCodable="true" name="Straightforwardness" guid="E8036253-5AB0-48AB-9CDE-652BBE88D250"></Code>
+    </Code>
+  </Codes>
+  <Sets>
+    <Set guid="9B1C9233-987C-4904-AD98-883FD1F26805" name="AI Codes">
+      <MemberCode guid="B8B82848-AF5D-49B0-B0B4-E9F0BA8E36DB"></MemberCode>
+      <MemberCode guid="90C54165-16D9-4EB4-88E0-250483C355AC"></MemberCode>
+      <MemberCode guid="9FD4141E-DF2B-46A3-BCB6-5D23CB768282"></MemberCode>
+      <MemberCode guid="59497E20-2686-458C-8440-F6F1E1B96A36"></MemberCode>
+      <MemberCode guid="93E219B7-FB86-4AC6-A8CE-E606DDE7FBC6"></MemberCode>
+      <MemberCode guid="2F70BAF6-75D7-4641-B1FE-D0140701B8E2"></MemberCode>
+      <MemberCode guid="4B4F3CEC-4CAF-49D9-AC3A-C4433D21A674"></MemberCode>
+      <MemberCode guid="E44CEC39-5251-428D-8850-06322EEB9CBE"></MemberCode>
+      <MemberCode guid="DE349E73-E68F-439D-9258-74F39D82CE53"></MemberCode>
+      <MemberCode guid="82161658-0EC9-4B9D-954B-09C67646944C"></MemberCode>
+      <MemberCode guid="ED00281F-344E-425A-BE96-25CE2784EB77"></MemberCode>
+      <MemberCode guid="8D470B07-5FE0-4F14-A95B-EE9620648246"></MemberCode>
+      <MemberCode guid="E6F1DE0F-B663-415F-96BC-0E22FA50304B"></MemberCode>
+      <MemberCode guid="46EDB588-2C7C-4743-B9D7-5C3C216C3429"></MemberCode>
+      <MemberCode guid="7E8700F9-3A3D-4962-B47B-A1C8D49CEB50"></MemberCode>
+      <MemberCode guid="07A05BA9-0E2B-4731-924F-11ABFA76D0CC"></MemberCode>
+      <MemberCode guid="8CBFF59D-CB19-43FC-95C0-2DCB297808E5"></MemberCode>
+      <MemberCode guid="66A63B53-84CF-4AFB-BDE1-196198A8A7CC"></MemberCode>
+      <MemberCode guid="944ED041-26AC-4EDB-8657-8FFD8FA43217"></MemberCode>
+      <MemberCode guid="B4D2CCBC-E1E2-4604-8FF2-DB2211B579F4"></MemberCode>
+      <MemberCode guid="A8972CDB-5D1A-4E07-88B9-4ED4BEFF25F2"></MemberCode>
+      <MemberCode guid="D985634C-F730-4DB8-ACAB-5BD5CDC248CA"></MemberCode>
+      <MemberCode guid="54A43935-578B-40D7-9B1B-2C7AD033D4E4"></MemberCode>
+      <MemberCode guid="40A90A74-B371-4F09-B9B7-63C486C6DD36"></MemberCode>
+      <MemberCode guid="DFF115C8-7B22-4CCE-9807-F8D2C43BC12C"></MemberCode>
+      <MemberCode guid="3BB5ED19-E549-4982-951C-D1C43A8D3825"></MemberCode>
+      <MemberCode guid="EF13E42D-7B9A-414F-8AFE-89909BFCD600"></MemberCode>
+      <MemberCode guid="3D04775B-5707-4B9F-ADBD-B9419C3EA3C0"></MemberCode>
+      <MemberCode guid="1E8782FB-B650-44D6-8A40-B6E49AEE068E"></MemberCode>
+      <MemberCode guid="BBFE4DB5-4631-40EA-AB27-35133D17EEBF"></MemberCode>
+      <MemberCode guid="6CE5AA7A-C088-4AAB-90AD-7411A4A60452"></MemberCode>
+      <MemberCode guid="48341D53-C7AC-4F07-A948-B447369D2BB4"></MemberCode>
+      <MemberCode guid="D032C0E6-56B0-4529-94AB-AB1CD891CD97"></MemberCode>
+      <MemberCode guid="D601EB05-8E03-40DF-ACD5-CF31DCB5C79E"></MemberCode>
+      <MemberCode guid="F87994DA-DFC2-40AA-BE5A-8B728EBDF955"></MemberCode>
+      <MemberCode guid="65EEA734-ED9F-4F89-BA26-51256EF5851B"></MemberCode>
+      <MemberCode guid="A35B9139-1EA9-4585-B2B8-9CE75202276D"></MemberCode>
+      <MemberCode guid="ABB1B922-765D-409D-95B4-BFDF75BEA4F1"></MemberCode>
+      <MemberCode guid="4AC00409-38A6-4F00-A3E1-C3F960B0ECE7"></MemberCode>
+      <MemberCode guid="AAB2DD4F-A24D-4ABE-8DC8-D0193DEF4947"></MemberCode>
+      <MemberCode guid="A00A00AC-148A-4F74-A13E-8F426ED8A868"></MemberCode>
+      <MemberCode guid="0BF14650-1516-4C8C-B93A-1179889940FD"></MemberCode>
+      <MemberCode guid="F2EB78F6-CD7D-410E-84D5-9ECB9F2B40FF"></MemberCode>
+      <MemberCode guid="E5CE1E9A-5E0F-45B0-977A-0F4B9454E35D"></MemberCode>
+      <MemberCode guid="38A6D8F1-98EF-45C4-995E-FE5405614E6F"></MemberCode>
+      <MemberCode guid="DDB27229-9326-4214-84A4-416656E0D0C7"></MemberCode>
+      <MemberCode guid="2BBD849C-5D0E-46D8-84A7-4B113B76344B"></MemberCode>
+      <MemberCode guid="E2850D5F-9DD0-4B33-A64E-D74FD3853B61"></MemberCode>
+      <MemberCode guid="561F4CE1-F6EB-4152-AB6E-7A3572A2E0BD"></MemberCode>
+      <MemberCode guid="95E26169-AC28-419F-9CB4-3BD1276B68AF"></MemberCode>
+      <MemberCode guid="FC6138C1-7994-440C-8A37-6BC2815BE666"></MemberCode>
+      <MemberCode guid="7EBD4028-AC1D-402E-AE68-B3B19630A6A7"></MemberCode>
+      <MemberCode guid="337B8100-640A-4F07-97F7-99769A748262"></MemberCode>
+      <MemberCode guid="B1D8B0A4-4089-4EF4-B691-02859821469D"></MemberCode>
+      <MemberCode guid="490CC375-201D-446E-BF6E-C1ADA7B97458"></MemberCode>
+      <MemberCode guid="52DCD6F5-3E63-499C-B92D-89286C827792"></MemberCode>
+      <MemberCode guid="0B3E276C-60AC-4C4B-8095-0F2079B8EB54"></MemberCode>
+      <MemberCode guid="799BB7F1-7047-482E-9E35-788EC02FD937"></MemberCode>
+      <MemberCode guid="DBA8358C-E3F6-476B-BA2C-A7D4773C4139"></MemberCode>
+      <MemberCode guid="E9A0399C-4064-4CE4-9F6B-47FB7CC20D5C"></MemberCode>
+      <MemberCode guid="6D15C261-9D3A-4538-91C3-14FB2132F50B"></MemberCode>
+      <MemberCode guid="B98BCE4E-ACB2-4E50-8243-505F4D30FD20"></MemberCode>
+      <MemberCode guid="E23A2C89-054D-4EE5-8D29-DCF8784338D8"></MemberCode>
+      <MemberCode guid="4A216E9E-05D1-4333-9251-DEE4ACD20AF8"></MemberCode>
+      <MemberCode guid="930DF0D2-2A13-481A-B920-07265C70E47B"></MemberCode>
+      <MemberCode guid="50A15209-65AE-4511-AD3F-446DBE4ED7AB"></MemberCode>
+      <MemberCode guid="AE98A89A-83C2-48DE-8F41-C4B2C3BEFF46"></MemberCode>
+      <MemberCode guid="5610B86D-0374-4F85-913C-91020CF82445"></MemberCode>
+      <MemberCode guid="8F022763-543E-44A5-9F50-362362A23656"></MemberCode>
+      <MemberCode guid="3C8847F0-FF79-448E-B5E8-4230F5602EC1"></MemberCode>
+      <MemberCode guid="230C1768-EF05-4237-90CF-4F89BA305D6F"></MemberCode>
+      <MemberCode guid="429B57B5-08A1-413A-8D0A-636731908446"></MemberCode>
+      <MemberCode guid="DF57AE68-21C6-4245-8180-43A372915FF6"></MemberCode>
+      <MemberCode guid="BE6849B0-3C1B-46E7-98BE-D325C8BAED7D"></MemberCode>
+      <MemberCode guid="E76C45D4-E20E-413E-A879-F16CB0F1EA6E"></MemberCode>
+      <MemberCode guid="B2C40FAB-C0BE-4550-B53E-BD5F5BEF53BE"></MemberCode>
+      <MemberCode guid="B3332A99-7DA8-48AB-A7A5-EE8903CD8B96"></MemberCode>
+      <MemberCode guid="2431B289-5E87-4DB3-AAC7-E9E26A303AC0"></MemberCode>
+      <MemberCode guid="1F1A8D4C-02B2-4A18-9071-8D2CCBDBC2DE"></MemberCode>
+      <MemberCode guid="003E6A4E-AFC3-4CF9-8BF1-7969CA224D09"></MemberCode>
+      <MemberCode guid="C6FFE692-9A14-45F4-857E-EB4C919E7E33"></MemberCode>
+      <MemberCode guid="946748E9-117A-4A42-8B12-1667A0BF16AF"></MemberCode>
+      <MemberCode guid="3F8B73A1-314F-4370-9E8E-28A69A6CA38F"></MemberCode>
+      <MemberCode guid="E33200FA-2B14-4EAB-8C13-810A559F5D7C"></MemberCode>
+      <MemberCode guid="4064835B-AF93-4F34-8450-AAD670E1A8AC"></MemberCode>
+      <MemberCode guid="18EEBC6C-1B9A-422B-8287-7E8BD0CEEFEA"></MemberCode>
+      <MemberCode guid="CB97E548-B648-466C-A22A-E064D5BA0EE2"></MemberCode>
+      <MemberCode guid="8DCFB356-D325-4677-84D3-AC6B97C2CC9C"></MemberCode>
+      <MemberCode guid="093D63FE-C92F-420D-810A-8F55C15FD8CC"></MemberCode>
+      <MemberCode guid="0558606D-A9ED-4A1D-B43F-7EC638AF6225"></MemberCode>
+      <MemberCode guid="64ED4FE3-ABD2-432C-9469-A55B49CCFEC2"></MemberCode>
+      <MemberCode guid="DB9E3531-1879-4D0C-BC22-668033F3A951"></MemberCode>
+      <MemberCode guid="6E3C68B6-F579-4A1A-B2D6-9FB7586B6BE3"></MemberCode>
+      <MemberCode guid="61B18F60-1E88-4645-A8F9-7D9343EDFFB0"></MemberCode>
+      <MemberCode guid="F0AE5A95-6597-4306-A937-6D642BD2FCBC"></MemberCode>
+      <MemberCode guid="114BF8F9-D6CB-41A1-9EF6-01D9712BD577"></MemberCode>
+      <MemberCode guid="C08E3AF8-0629-4CEF-AE9C-81E9B523EC6D"></MemberCode>
+      <MemberCode guid="83D1DE6D-FF66-4119-8BB7-43741306A99C"></MemberCode>
+      <MemberCode guid="D8CD3698-FA95-4C5A-8A2C-A8958CBC722C"></MemberCode>
+      <MemberCode guid="D5512741-BD97-4D18-9F51-B32F72B60891"></MemberCode>
+      <MemberCode guid="D09663D3-DDCE-4A33-9D15-36ABA4C2F181"></MemberCode>
+      <MemberCode guid="7A7A7C7B-21F0-4474-955E-06D75029A879"></MemberCode>
+      <MemberCode guid="F803059F-01F1-45E9-A3F6-7E6FA1EE7C7D"></MemberCode>
+      <MemberCode guid="B6FA9A38-3DFF-42F6-9AAF-A1A1A3C4F4B4"></MemberCode>
+      <MemberCode guid="4ECD0E82-3B7B-4F77-B60B-09C5198ABFA3"></MemberCode>
+      <MemberCode guid="58F2D174-24FF-4A8A-A2FA-EC2BBC3129F1"></MemberCode>
+      <MemberCode guid="B9A089F7-644B-44DA-B529-5453E02F9E20"></MemberCode>
+      <MemberCode guid="02FF72EC-081E-4285-BE8F-2797AA5B830A"></MemberCode>
+      <MemberCode guid="BE5B4213-EB31-4C44-AA38-EE21FBE760FB"></MemberCode>
+      <MemberCode guid="E695139F-B3B9-45BC-915A-81FE612628D8"></MemberCode>
+      <MemberCode guid="D3236581-5931-4360-8472-6E27840125D5"></MemberCode>
+      <MemberCode guid="961EEA29-5F5C-406E-AAD9-EE5C9FBF1011"></MemberCode>
+      <MemberCode guid="AE273F5D-B8F5-4163-A495-796988BD134B"></MemberCode>
+      <MemberCode guid="8C4A9B0F-A870-4A78-84CA-0DDB1F5E12F0"></MemberCode>
+      <MemberCode guid="8BC6B536-FCA0-40EB-9C9E-E27A476F1167"></MemberCode>
+      <MemberCode guid="577FFB84-F2D5-4AF5-BFF0-297C3E363B27"></MemberCode>
+      <MemberCode guid="A0F49870-5373-407C-B6DB-0985C1A60F7D"></MemberCode>
+      <MemberCode guid="8DB767EF-136F-45B1-9834-FED4439BF031"></MemberCode>
+      <MemberCode guid="A53888D9-71EF-4261-8B84-0894B293A781"></MemberCode>
+      <MemberCode guid="ED711D26-C831-4FDD-A46B-85368E4B8AA2"></MemberCode>
+      <MemberCode guid="BBB9ADA7-82D2-4771-A06A-F522DFF9009D"></MemberCode>
+      <MemberCode guid="7094C859-E18D-408E-A563-F0424D1098C3"></MemberCode>
+      <MemberCode guid="2A88133F-DBD6-4CBE-A862-9992DDD40906"></MemberCode>
+      <MemberCode guid="DEFCD99B-120B-4EF2-B670-025A632BCAED"></MemberCode>
+      <MemberCode guid="5644F3EE-599D-4171-98A1-66BDEE856526"></MemberCode>
+      <MemberCode guid="84702FDB-97D1-4A09-AB95-C0419DCD3E3A"></MemberCode>
+      <MemberCode guid="AFA7C06C-37F8-4EDA-8FFD-2105B306DB13"></MemberCode>
+      <MemberCode guid="7E87D2FA-5179-4005-A2F9-32D65AED29F5"></MemberCode>
+      <MemberCode guid="560249DD-69BD-4DA6-9BB6-0491CB5CE5BB"></MemberCode>
+      <MemberCode guid="DA634A19-9528-4E26-96A5-545DF0CCB77D"></MemberCode>
+      <MemberCode guid="FC2BB522-C38D-4E9E-8EB0-83064E39CDBF"></MemberCode>
+      <MemberCode guid="DC762888-1E57-4731-BBDE-C2E3416AC46B"></MemberCode>
+      <MemberCode guid="33152E9F-93E0-45AD-B0F2-DE2CD73501F6"></MemberCode>
+      <MemberCode guid="EE17194A-1D58-4A04-840C-571554C3A1A2"></MemberCode>
+      <MemberCode guid="6989929C-1D99-406B-9C0D-57B8EB0360CA"></MemberCode>
+      <MemberCode guid="92B4B20A-DB97-4885-AA18-1A2466598696"></MemberCode>
+      <MemberCode guid="01A5EC0A-BCDE-481C-BD56-C1E6B35930D5"></MemberCode>
+      <MemberCode guid="FC09BC0D-1061-4ED2-99C0-3F2E69990D00"></MemberCode>
+      <MemberCode guid="81F3CC9B-9509-45B6-ACA2-006F179A77FA"></MemberCode>
+      <MemberCode guid="70528DDD-1E9A-46A0-934F-D05116210DF3"></MemberCode>
+      <MemberCode guid="E5671E64-E2FC-4F20-A670-398E2495852E"></MemberCode>
+      <MemberCode guid="C8ADC16A-CF98-4889-93A4-6A3FEB1F97FA"></MemberCode>
+      <MemberCode guid="2974331E-3673-4013-8157-531E24F3EFDA"></MemberCode>
+      <MemberCode guid="FC174678-827A-474E-BA55-F1EF6B539296"></MemberCode>
+      <MemberCode guid="17CD16EA-57ED-4533-ABA8-6F54C30596A6"></MemberCode>
+      <MemberCode guid="090BEC8E-D673-4D3C-A737-1EE0629EBA7A"></MemberCode>
+      <MemberCode guid="1093E401-54FA-4F09-819D-18554FAB418B"></MemberCode>
+      <MemberCode guid="78B21134-DD6D-4880-A8B1-D57616F89FDF"></MemberCode>
+      <MemberCode guid="D8238E29-7AF7-4653-B01C-7B1DBBF20BC8"></MemberCode>
+      <MemberCode guid="0F700CB6-C217-41A4-8C01-C2D152EB7691"></MemberCode>
+      <MemberCode guid="BEE7CBEB-0AEF-452C-8EE2-D7F40DAEDB01"></MemberCode>
+      <MemberCode guid="477C6BB9-57F3-4325-B4D9-3D8888881FE5"></MemberCode>
+      <MemberCode guid="96FD2AA3-BA15-425B-84BE-98B1F7D057BA"></MemberCode>
+      <MemberCode guid="86EEAA36-ED76-4482-9C28-FBFAD3FB1D08"></MemberCode>
+      <MemberCode guid="72260480-EBD4-4D83-962C-5315D0B6270F"></MemberCode>
+      <MemberCode guid="D91CA39B-5490-4110-9761-88D488470AE9"></MemberCode>
+      <MemberCode guid="3795E370-B0F2-4CE1-8227-9F13C7165FC0"></MemberCode>
+      <MemberCode guid="D69C4A19-F604-45E4-8D32-8463D2A11B8D"></MemberCode>
+      <MemberCode guid="7D77122C-9200-4C18-BB7C-5E11DAB218D5"></MemberCode>
+      <MemberCode guid="72CDDDC8-FA1B-4921-8A57-2C62749FD6AA"></MemberCode>
+      <MemberCode guid="DB608099-1693-430C-AB3C-22CA877EE22D"></MemberCode>
+      <MemberCode guid="0B5AA84A-538A-44C0-A81D-DB5A2A443379"></MemberCode>
+      <MemberCode guid="D5C2A087-0CB1-4D66-B774-6CB841F4B1E3"></MemberCode>
+      <MemberCode guid="A8C6A7A6-9B9C-4B08-8C10-D7226EBE3D38"></MemberCode>
+      <MemberCode guid="F9B858AB-8993-4EC3-9B0B-9C861CBCBB2D"></MemberCode>
+      <MemberCode guid="5B3945ED-1138-4803-A94B-66571E009E1A"></MemberCode>
+      <MemberCode guid="E09FE6B2-1C73-499D-BEE4-EDDAB01ECFC6"></MemberCode>
+      <MemberCode guid="023063C4-B2ED-46B4-BCE4-EF9A2C0C9D5E"></MemberCode>
+      <MemberCode guid="FD706087-A5EB-4453-944F-761779C4E3BC"></MemberCode>
+      <MemberCode guid="173BDF3F-A22D-4360-8408-2C1DB5FDBC7E"></MemberCode>
+      <MemberCode guid="0A9CE885-0BB9-4CBE-9720-F1896DA1EF90"></MemberCode>
+      <MemberCode guid="89F82691-45A1-42FC-B646-ADA12343CF8E"></MemberCode>
+      <MemberCode guid="E0222A3D-08FA-43E3-AB30-74EF4D8541C6"></MemberCode>
+      <MemberCode guid="540203AB-5DD0-4A3A-AC0B-294D02AB551F"></MemberCode>
+      <MemberCode guid="E41B8501-F1E0-44B6-9652-FC30D526B2C4"></MemberCode>
+      <MemberCode guid="0DE8360E-469B-4DEB-9DE5-CEEB83F73C81"></MemberCode>
+      <MemberCode guid="7A34AE60-9E83-477F-8ECD-9BB769B077DC"></MemberCode>
+      <MemberCode guid="5C7EE85A-A570-4ACE-9B5A-49E7717004C1"></MemberCode>
+      <MemberCode guid="C79477B8-9161-460D-B486-D425C0AA3607"></MemberCode>
+      <MemberCode guid="6E94818A-5578-4FA2-BAB0-D98E7406AA35"></MemberCode>
+      <MemberCode guid="984DAD05-D4C8-4CFF-94C4-39DDA40BA24B"></MemberCode>
+      <MemberCode guid="32D5457C-98EF-4A3E-A04B-84F41F7D03D7"></MemberCode>
+      <MemberCode guid="3A79BF77-11CF-4550-A5D3-24FE3AB10CF8"></MemberCode>
+      <MemberCode guid="CAE630AB-21F4-4E8D-A7F5-4D97E29C103F"></MemberCode>
+      <MemberCode guid="EA9D2CA4-C544-4EEC-9342-7CFA0FAB69A5"></MemberCode>
+      <MemberCode guid="41C753E5-EE81-46C1-AB1D-A9EEAB5C2847"></MemberCode>
+      <MemberCode guid="BEF01C64-052F-4147-B5F0-1FF4D111E122"></MemberCode>
+      <MemberCode guid="58F33B07-9531-45B1-AA7B-2824044DF9D0"></MemberCode>
+      <MemberCode guid="F3F037AD-CE99-4BA2-A0A6-EC09C76E1756"></MemberCode>
+      <MemberCode guid="C9ADBADD-DF00-44AB-8ADE-A167B09F2DC2"></MemberCode>
+      <MemberCode guid="0C4E312D-E60D-4C32-9B04-989F3CE552CE"></MemberCode>
+      <MemberCode guid="652FD1A9-D7B4-44A7-80BF-D691ACF6BFD0"></MemberCode>
+      <MemberCode guid="547026BC-6050-4D3D-9ABF-960AFCC8DF53"></MemberCode>
+      <MemberCode guid="898CAC76-5C2A-437E-86C0-CE9983626CE5"></MemberCode>
+      <MemberCode guid="4E669BCB-14C1-4949-9CE6-BCC57242E7EB"></MemberCode>
+      <MemberCode guid="C5850B44-2C13-4DE8-9350-2160CAF25690"></MemberCode>
+      <MemberCode guid="770366E8-0E22-4EF6-A41D-5DA45ABA54E7"></MemberCode>
+      <MemberCode guid="1475BFF5-504D-4038-B329-34A8FF86B4D7"></MemberCode>
+      <MemberCode guid="71495B4E-6DEB-4DAC-8257-08D28FF58917"></MemberCode>
+      <MemberCode guid="2A9C5A4B-79AE-472E-8486-A2B00ECB1536"></MemberCode>
+      <MemberCode guid="EAC1EC6F-A28B-4B0F-AF9A-954651A876A7"></MemberCode>
+      <MemberCode guid="1BE2A1B5-5CCB-48CE-9D61-04B0DC7635BB"></MemberCode>
+      <MemberCode guid="6FD6149A-D14E-477B-B707-39B100C41B2A"></MemberCode>
+      <MemberCode guid="219EA0C6-07DA-48FB-A54C-26E624F11FAA"></MemberCode>
+      <MemberCode guid="3A934A6F-44B3-45A3-BAE1-B6C152D01CDC"></MemberCode>
+      <MemberCode guid="2AFAAA3F-8101-4F40-BBF3-59925811DD24"></MemberCode>
+      <MemberCode guid="12146254-9875-491F-86BA-708AC3F2BC9C"></MemberCode>
+      <MemberCode guid="6029191A-18F2-43EF-BE44-3BE4FC3A4FDD"></MemberCode>
+      <MemberCode guid="B2F3D765-996F-46F7-B8F5-F44917FC7A4C"></MemberCode>
+      <MemberCode guid="A4A65382-1070-446F-ACD1-8A3CFCCC3F30"></MemberCode>
+      <MemberCode guid="FA19777F-EB1F-42B4-A201-7D933E402739"></MemberCode>
+      <MemberCode guid="078BC2D3-0392-467F-B27A-2A9641D0A6F9"></MemberCode>
+      <MemberCode guid="76F45232-512C-4C45-A205-7F3E3DBC1C80"></MemberCode>
+      <MemberCode guid="FFB11E54-E1D7-4F0D-B3EF-C9C070693FBB"></MemberCode>
+      <MemberCode guid="36D51274-E3C6-487A-9DB3-6B1609E680DE"></MemberCode>
+      <MemberCode guid="E88CF1A5-95EE-49EA-AB4C-27149E5DFA35"></MemberCode>
+      <MemberCode guid="B18C59B9-49BC-401F-85CD-8AB1985CCC83"></MemberCode>
+      <MemberCode guid="60ECAE5C-E2DA-42CE-9905-44E01EE5FE90"></MemberCode>
+      <MemberCode guid="A7D73DE9-F0D7-442C-826E-BC8D1930718C"></MemberCode>
+      <MemberCode guid="71A0EBF7-419E-419A-BBA7-76972BC034E1"></MemberCode>
+      <MemberCode guid="B122A159-037E-413F-81F8-01F7C4B9CE72"></MemberCode>
+      <MemberCode guid="661CD87A-4947-41C0-81EB-2B7230C0437C"></MemberCode>
+      <MemberCode guid="DD313755-A0C3-4940-AD5F-429B07397424"></MemberCode>
+      <MemberCode guid="0721C50E-C031-43C4-A655-A7434922DA4F"></MemberCode>
+      <MemberCode guid="B1611CEC-94CD-4205-A29A-38410E046346"></MemberCode>
+      <MemberCode guid="D721BFB2-177C-4F89-8191-A515E6B65399"></MemberCode>
+      <MemberCode guid="DCBC2EFC-5679-4D65-8F43-B43D09249976"></MemberCode>
+      <MemberCode guid="A518FA8B-FF94-4BE7-8833-31A7ED8141A3"></MemberCode>
+      <MemberCode guid="9D80F2CA-B291-42DD-B10A-1CF7429C6A08"></MemberCode>
+      <MemberCode guid="6C4BE69A-667A-4925-A8E8-5D73A81C9E49"></MemberCode>
+      <MemberCode guid="EC3EC73D-1049-46C2-8C09-D7D8345F3501"></MemberCode>
+      <MemberCode guid="FF1298D4-6FCC-478E-8C7D-163B3A3D4654"></MemberCode>
+      <MemberCode guid="B3637863-4CCA-43E3-9A98-63F5CED8C3D5"></MemberCode>
+      <MemberCode guid="32B492D7-AEF6-4A57-B256-3FF45D2F16E3"></MemberCode>
+      <MemberCode guid="29A66510-8625-4A31-802A-88762A216BA5"></MemberCode>
+      <MemberCode guid="804D5EC6-21D7-4232-8546-9A0100B3E553"></MemberCode>
+      <MemberCode guid="60FE32CD-24D2-4A70-A34A-42D47466FE37"></MemberCode>
+      <MemberCode guid="EFBFA7A4-6FAC-4F4F-B95E-F49771C6D3F5"></MemberCode>
+      <MemberCode guid="483A4EFB-B108-4400-A47F-AD3F53A6BF9C"></MemberCode>
+      <MemberCode guid="8F8C722C-142E-4178-B84B-38267E8920B3"></MemberCode>
+      <MemberCode guid="BEF08A86-B60C-47A3-A078-6390460E65B0"></MemberCode>
+      <MemberCode guid="518D2296-6D43-468B-8368-7E43BD09F0EC"></MemberCode>
+      <MemberCode guid="4AD54A24-D3DA-4E73-B758-98A7A830AB0A"></MemberCode>
+      <MemberCode guid="B2810242-132B-4A9D-9E44-4EB12F086644"></MemberCode>
+      <MemberCode guid="A9C7372F-3E7D-4D48-9997-4B3C09587D24"></MemberCode>
+      <MemberCode guid="E3B99220-2A81-44F8-BB7C-0F2CB9836395"></MemberCode>
+      <MemberCode guid="58A50978-2929-436D-877B-32E7678FBE49"></MemberCode>
+      <MemberCode guid="680655AA-061D-4831-B9D9-B68A79C0152B"></MemberCode>
+      <MemberCode guid="EA5F9D5A-0478-4020-86B8-3E103C255161"></MemberCode>
+      <MemberCode guid="6DF5522F-6462-451A-807A-C9343F10BC7E"></MemberCode>
+      <MemberCode guid="A8128A70-7A72-4133-87C7-65FD5A43E8F4"></MemberCode>
+      <MemberCode guid="ED6DE4CF-371E-4BD6-A231-CFDC6CF0498D"></MemberCode>
+      <MemberCode guid="16F9E077-636F-4331-B988-F6FA7CE4B5C3"></MemberCode>
+      <MemberCode guid="1024C150-6418-4986-9C32-D552FFD1F78F"></MemberCode>
+      <MemberCode guid="DE1AC0C0-BCF7-48C1-8D2F-5ACFC19B11C9"></MemberCode>
+      <MemberCode guid="995E3130-961E-4968-868D-FD41A158CB24"></MemberCode>
+      <MemberCode guid="094832B0-9303-4256-99CC-9DB728B55AC8"></MemberCode>
+      <MemberCode guid="5BE429BA-6E07-47EC-B952-EF16E1F514CB"></MemberCode>
+      <MemberCode guid="AFA281B5-1575-4BCB-8747-E59E3D34B164"></MemberCode>
+      <MemberCode guid="3E55098D-B84B-4BB7-A579-5567B29E38C1"></MemberCode>
+      <MemberCode guid="756F619F-2405-4A6B-90B1-8B1D152D5E88"></MemberCode>
+      <MemberCode guid="89E50B75-BCA1-40BA-B26D-7F74C4025252"></MemberCode>
+      <MemberCode guid="6AFCFF05-E46F-4407-BDBF-B56EEE25937E"></MemberCode>
+      <MemberCode guid="898C4DF6-277A-4600-A1D0-EC2EC00EED41"></MemberCode>
+      <MemberCode guid="A69A7E25-447D-4FD2-8386-47B6F8478DE1"></MemberCode>
+      <MemberCode guid="7734301A-FA6B-4131-85E9-81981B8F1264"></MemberCode>
+      <MemberCode guid="72ECA466-82E9-4DFD-8A85-31A056AE4556"></MemberCode>
+      <MemberCode guid="C58260E1-338E-4D91-B647-006764C02E97"></MemberCode>
+      <MemberCode guid="2B1234CC-EC03-4FBE-AEC4-BEDC836162A5"></MemberCode>
+      <MemberCode guid="E048D7FA-A03E-4B3E-B689-2EA515DC5053"></MemberCode>
+      <MemberCode guid="89B0833F-E815-4BAE-812E-00CD9129A315"></MemberCode>
+      <MemberCode guid="392C9856-A388-4B62-8976-FDCC41F52D6F"></MemberCode>
+      <MemberCode guid="A067029E-6443-4810-8699-CF537FBBA880"></MemberCode>
+      <MemberCode guid="B2CC60CA-10B2-4A38-B819-E6D554C7A999"></MemberCode>
+      <MemberCode guid="E068135B-0897-45F4-BE3C-DE9EFD16B339"></MemberCode>
+      <MemberCode guid="5464D913-514C-451C-9EC0-89B96211FCDA"></MemberCode>
+      <MemberCode guid="0AFD3846-2B67-4203-8E29-7EA00D90B085"></MemberCode>
+      <MemberCode guid="8BA738C8-9009-401A-8BEC-FF80F066D402"></MemberCode>
+      <MemberCode guid="C912DA95-1279-42CD-9A1B-5AA7A80B939F"></MemberCode>
+      <MemberCode guid="648A109B-6C8C-46BC-8F16-B293003A9865"></MemberCode>
+      <MemberCode guid="46036677-865C-4E2C-AE89-2BCAD46CD492"></MemberCode>
+      <MemberCode guid="AACF32A8-08B6-4FC1-930D-33515C7DFB12"></MemberCode>
+      <MemberCode guid="96F17DF6-8D34-4C9B-ACAE-1DBD82488480"></MemberCode>
+      <MemberCode guid="D9109DAE-F75B-4895-A69A-AE2D059FAFBA"></MemberCode>
+      <MemberCode guid="4A710BF5-26A0-474E-B9E5-76DE175BA659"></MemberCode>
+      <MemberCode guid="177ED54D-47D5-4815-80B9-4F67DFF0BA2E"></MemberCode>
+      <MemberCode guid="4DF53088-C5CB-4449-A395-1BA459B1BBAA"></MemberCode>
+      <MemberCode guid="2F5DA7FE-1AB3-4272-B1E8-69F2903FEC7F"></MemberCode>
+      <MemberCode guid="0F933E86-95C1-4B64-AEE3-07347E5D5665"></MemberCode>
+      <MemberCode guid="BC4777A7-8466-4569-A732-E435089CF6B3"></MemberCode>
+      <MemberCode guid="972CCB1A-6E56-440B-A2A0-55A6994024E5"></MemberCode>
+      <MemberCode guid="139842B6-A038-4ACE-AC50-072C15C02955"></MemberCode>
+      <MemberCode guid="61184FA8-881E-4762-B690-43BC1BD7753A"></MemberCode>
+      <MemberCode guid="87225252-BD61-4C6A-8CFB-7F56F9E415FC"></MemberCode>
+      <MemberCode guid="E979767B-B347-478A-A579-04EA12F97891"></MemberCode>
+      <MemberCode guid="FADB4F9F-5203-491A-A4A7-25EC3B157FDC"></MemberCode>
+      <MemberCode guid="0744640F-86AE-43DA-8BD2-7CB82EB329EF"></MemberCode>
+      <MemberCode guid="22F7D348-8B96-4DEB-9207-1530AEC0C1C2"></MemberCode>
+      <MemberCode guid="31F8550C-2E6D-447D-815F-B031BED2FB5D"></MemberCode>
+      <MemberCode guid="BB987471-EB4C-4767-85B5-66749279EC13"></MemberCode>
+      <MemberCode guid="B7CE90B4-23DA-4F0F-8737-C427BF718E5F"></MemberCode>
+      <MemberCode guid="928AC0EF-7C16-4CCE-8DAE-EE8AA5480127"></MemberCode>
+      <MemberCode guid="8F8D080C-0E43-44CF-B885-807F1F0726B8"></MemberCode>
+      <MemberCode guid="E12EE606-B6C8-4875-91DE-5B197400BBF9"></MemberCode>
+      <MemberCode guid="DE0F7A0C-0A10-422E-BD48-ED82BBA53846"></MemberCode>
+      <MemberCode guid="6C149876-4877-47C9-85CA-B24DC2E1178F"></MemberCode>
+      <MemberCode guid="95455AE7-1B62-4D2B-B0F4-162E0149BE3C"></MemberCode>
+      <MemberCode guid="57089903-AAC1-4A08-97D9-472F11AD6A81"></MemberCode>
+      <MemberCode guid="E528D9A5-F4F5-4B08-B3C6-E58D71FD7DD0"></MemberCode>
+      <MemberCode guid="42FF68B5-31E9-4FA1-B579-1810926272D2"></MemberCode>
+      <MemberCode guid="0FA1733E-2D1D-42F0-95E4-338FC376BF4F"></MemberCode>
+      <MemberCode guid="3CB3CBF5-2F32-4E28-B717-ADFAB44EC002"></MemberCode>
+      <MemberCode guid="4E23A188-122E-4A53-91D2-81CDEB54E42E"></MemberCode>
+      <MemberCode guid="8D67D2D8-01C5-47D2-808A-A33C087895FF"></MemberCode>
+      <MemberCode guid="1956018F-8446-4763-8158-8659E1205AF8"></MemberCode>
+      <MemberCode guid="C70B4159-1733-4B0F-9E6C-AEAF24CEAE4C"></MemberCode>
+      <MemberCode guid="901FDA58-7079-44B1-9AAF-8F0DB975A782"></MemberCode>
+      <MemberCode guid="DFDADDFB-9777-4877-940B-E06D1CAEEED6"></MemberCode>
+      <MemberCode guid="97C98738-2438-47CF-A20B-730D136D751A"></MemberCode>
+      <MemberCode guid="2BAABFB2-E405-4EC6-83EF-90BDD3542147"></MemberCode>
+      <MemberCode guid="E8036253-5AB0-48AB-9CDE-652BBE88D250"></MemberCode>
+      <MemberCode guid="A6C03CC3-04CF-4A26-B60E-EA83B00A58E3"></MemberCode>
+      <MemberCode guid="A4DF502B-49A4-418D-93BD-0EEDEFD74C92"></MemberCode>
+      <MemberCode guid="D495FD37-B95A-4F92-B2BB-C93303651155"></MemberCode>
+      <MemberCode guid="434D5F8F-3D70-45B0-AE66-E2B1DB686967"></MemberCode>
+      <MemberCode guid="AC1611A1-2C8B-4F52-8654-3784CFB9C483"></MemberCode>
+      <MemberCode guid="DF97A669-3AF3-4922-8C7E-C7F00596537F"></MemberCode>
+      <MemberCode guid="2D891A7C-124D-45BF-B018-9B611CFCD239"></MemberCode>
+      <MemberCode guid="1F575410-C0BE-4F21-9F1A-668E1B95B46B"></MemberCode>
+      <MemberCode guid="6022A578-C288-452B-9E0E-8BA986F9CAED"></MemberCode>
+      <MemberCode guid="5858B9D2-F77B-4E1A-9D51-18996597430C"></MemberCode>
+      <MemberCode guid="AA54BD14-E1D4-416F-A50B-7700CB5E942B"></MemberCode>
+      <MemberCode guid="8FAA8176-277C-437A-B192-87F355FEC027"></MemberCode>
+      <MemberCode guid="DEAC3786-0D9B-48CF-B5DA-E7AF9D5B49B1"></MemberCode>
+      <MemberCode guid="49141F43-D246-4FC5-9CDA-434C90C4B6A7"></MemberCode>
+      <MemberCode guid="66A453AC-53BA-42E1-AD1A-67AB00B08853"></MemberCode>
+      <MemberCode guid="D001D531-FDB2-4EF3-9A21-57F250BC2318"></MemberCode>
+      <MemberCode guid="E8508B77-AC5B-479F-99D8-789D8DF9786A"></MemberCode>
+      <MemberCode guid="F6E33291-E028-48F3-A0EF-7E6A9301B002"></MemberCode>
+      <MemberCode guid="B2108B12-3A4A-441A-9EF3-C569921925BD"></MemberCode>
+      <MemberCode guid="1975B35D-1781-4EC0-9556-1156003E3E92"></MemberCode>
+      <MemberCode guid="45323C73-2C8C-4D99-8F98-C276F407D43A"></MemberCode>
+      <MemberCode guid="380E99C7-1B4E-48D9-8F7B-701A3F0F5ED6"></MemberCode>
+      <MemberCode guid="4CA3F3F8-C12E-4FB5-88C8-BE58A048BD07"></MemberCode>
+      <MemberCode guid="0D5239E3-0A48-4D45-B80E-C5B5745BE546"></MemberCode>
+      <MemberCode guid="AB3C4588-DEA2-4CE4-BF94-3FB5A1F78E51"></MemberCode>
+      <MemberCode guid="1D4D56FC-54C6-481B-9354-E1DBA0EF0418"></MemberCode>
+      <MemberCode guid="927AA95B-E138-41F5-AC72-F52F795E2872"></MemberCode>
+      <MemberCode guid="A22410D5-FCB9-41C2-86A1-094FBA54D594"></MemberCode>
+      <MemberCode guid="CEBDACC2-11EB-4BF5-B90F-7241FF7968BB"></MemberCode>
+      <MemberCode guid="E87D3864-4636-41D5-B1B9-E42D0F824D27"></MemberCode>
+      <MemberCode guid="FD50B904-FDA7-44BB-A7C6-8D272B713B8B"></MemberCode>
+      <MemberCode guid="AED0D53C-5EE4-4585-A638-D6371BD1EC8F"></MemberCode>
+      <MemberCode guid="CE0F8063-75E5-4518-86B4-34B158ABFD95"></MemberCode>
+      <MemberCode guid="5CC2A011-1B0E-40A0-A2F1-5F6BA85DB6AD"></MemberCode>
+      <MemberCode guid="BD9E2DEC-F3AF-4352-B77E-4E5E02EE0247"></MemberCode>
+      <MemberCode guid="EB9224FF-1C48-4A83-9B95-DBB458133AE1"></MemberCode>
+      <MemberCode guid="16D2E2DF-8A9A-467D-9C87-BCB93A0D9386"></MemberCode>
+      <MemberCode guid="B4299F77-0421-4C22-8467-894056F4356E"></MemberCode>
+      <MemberCode guid="D5AB5465-E317-419A-9745-A19CB2A4EBB3"></MemberCode>
+      <MemberCode guid="2FBDAEE4-8B6F-4206-80EA-F0A707C76799"></MemberCode>
+      <MemberCode guid="C4E9D312-C0B0-41E8-B3A3-BEFA0B5BFA4E"></MemberCode>
+      <MemberCode guid="828F44E5-EE9D-4EB2-9280-AD60A2E3D424"></MemberCode>
+      <MemberCode guid="B1F9EF97-365A-48DE-BC07-A4B873AA5109"></MemberCode>
+      <MemberCode guid="B0457CCD-55CB-479F-85D1-AA2E8C86C35F"></MemberCode>
+      <MemberCode guid="A54D71F2-7AD7-4D0D-A787-156C901194BE"></MemberCode>
+      <MemberCode guid="45E9EC74-BC1B-4FB0-B7CA-C402CD029F52"></MemberCode>
+      <MemberCode guid="A7D2460F-71BD-4C1E-BF61-7D6C1AD48A58"></MemberCode>
+      <MemberCode guid="865EE742-9908-4164-B2BC-771F49105107"></MemberCode>
+      <MemberCode guid="1CBF8B7B-4F66-476C-9FFC-D5DC4294D336"></MemberCode>
+      <MemberCode guid="F7471C5E-1DC9-4234-B224-49EBDF6AC767"></MemberCode>
+      <MemberCode guid="0E469D03-B396-45C3-B55B-9522113BF5FD"></MemberCode>
+      <MemberCode guid="14319533-6150-4828-9DD1-3B1A4B082055"></MemberCode>
+      <MemberCode guid="7F81758C-8CCB-457E-8CB8-1A303AB812E8"></MemberCode>
+      <MemberCode guid="6F2270F6-09D1-4416-AE09-0D97CC9D0409"></MemberCode>
+      <MemberCode guid="714AF193-4CF6-44E0-BFFC-437BE2F9F10E"></MemberCode>
+      <MemberCode guid="F9432C69-AEA5-4DDF-9C7A-3A8B3C81B7CA"></MemberCode>
+      <MemberCode guid="7AAB2338-73C9-413B-80E5-CBE3C2E51CDB"></MemberCode>
+      <MemberCode guid="C0C39166-3E5B-441D-9AC7-97B5BE7A2322"></MemberCode>
+      <MemberCode guid="C89A1AED-1E8E-4CC5-9AE1-994E7A6A194F"></MemberCode>
+      <MemberCode guid="93477FD6-ECF6-4D64-B8F9-6439D7D2CB04"></MemberCode>
+      <MemberCode guid="00CA1E97-0A07-46CC-BE3F-E179754ABCC3"></MemberCode>
+      <MemberCode guid="C0E86E23-B3EF-4301-8B5D-84B765999F9A"></MemberCode>
+      <MemberCode guid="500C4620-1647-4943-9EA0-7ED50EAC8C8D"></MemberCode>
+      <MemberCode guid="ADE5B870-5D12-44E0-9BF3-77A975E640F8"></MemberCode>
+      <MemberCode guid="D8B26EA5-02C0-455F-AD39-5C1B70F8FB3A"></MemberCode>
+      <MemberCode guid="EE03F2C7-6C6B-48C3-97E7-B12FF70C9EEB"></MemberCode>
+      <MemberCode guid="A8FE2F1E-5CFB-47D3-A658-BFB43BAE9579"></MemberCode>
+      <MemberCode guid="78933B93-FEDD-42EE-B1E5-EE081D55307C"></MemberCode>
+      <MemberCode guid="BA8F00B7-9750-400E-95F0-4273E7F1A9C5"></MemberCode>
+      <MemberCode guid="FD900B49-A66C-4035-ADA5-1D602C115794"></MemberCode>
+      <MemberCode guid="2689596F-EFF7-4A5E-9204-67494C6F1850"></MemberCode>
+      <MemberCode guid="0CFDBA71-C4AC-4E60-BCEB-33C7A2437AF8"></MemberCode>
+      <MemberCode guid="223C058D-E865-4963-93FB-CAF0C4B53973"></MemberCode>
+      <MemberCode guid="2D765258-8600-4A0C-BD34-AF81907C1AF1"></MemberCode>
+      <MemberCode guid="E6434D95-DC8F-45B7-AC97-BF6CC7A2794A"></MemberCode>
+      <MemberCode guid="11045536-0E32-4157-B107-D1F903CA6D80"></MemberCode>
+      <MemberCode guid="0ED2AEFE-4D60-4614-A82A-CBF977ABC6DD"></MemberCode>
+      <MemberCode guid="3836B7BA-64FC-46CE-A8E2-345A24B1266B"></MemberCode>
+      <MemberCode guid="F3568AE2-A6ED-45A6-B6DA-029421C286BD"></MemberCode>
+      <MemberCode guid="AB6A3070-DE33-438B-8BAE-282A60246922"></MemberCode>
+      <MemberCode guid="47630944-3294-4DCA-A2E0-70F7ADD5BC60"></MemberCode>
+      <MemberCode guid="7B21B7A7-261D-4F9B-9105-C6A230B2E56E"></MemberCode>
+      <MemberCode guid="3B9ADFB7-1325-46EC-9CD1-EDF7CF231A5A"></MemberCode>
+      <MemberCode guid="4825F12E-B01A-4EF3-A6C9-A07316AC2A61"></MemberCode>
+      <MemberCode guid="D354B4CB-1BF9-4C2C-8C6C-15E7DA418026"></MemberCode>
+      <MemberCode guid="7E9FC732-A82A-4DE8-B02C-2A69BC02860F"></MemberCode>
+      <MemberCode guid="C05CE17E-3B2C-4446-B55F-B098FF60A490"></MemberCode>
+      <MemberCode guid="DF0D4823-872B-48F5-BE34-7A0138EFBE6B"></MemberCode>
+      <MemberCode guid="F5E62C1C-7E03-4094-8F57-5F340B9AA85E"></MemberCode>
+      <MemberCode guid="BA3C37C5-255E-45B0-A4B0-BF13631920A8"></MemberCode>
+      <MemberCode guid="192B58FC-AB68-47A3-8312-140E8244F124"></MemberCode>
+      <MemberCode guid="8BC531B3-3E4B-47E0-97A7-8FD532453D5A"></MemberCode>
+      <MemberCode guid="253BD7B9-52FA-44FC-B81F-29327D59CFB7"></MemberCode>
+      <MemberCode guid="F11424FB-D1D9-4782-B71F-61431864F1D0"></MemberCode>
+      <MemberCode guid="098690C1-0DC6-4F3E-B31B-EAB4BBCE64E2"></MemberCode>
+      <MemberCode guid="0917F56C-FD69-46AC-89BF-94ACCF0C680A"></MemberCode>
+      <MemberCode guid="A75A4B9F-4336-4EBD-93CC-D6DD102F587C"></MemberCode>
+      <MemberCode guid="8E242BDA-D73C-45A8-BDE6-B29FFF2A8A97"></MemberCode>
+      <MemberCode guid="08361FFA-73C4-4F9F-9D9E-DF312A5DBEF9"></MemberCode>
+      <MemberCode guid="C8FE459D-3F91-4FC3-9FA9-295DCCB23D35"></MemberCode>
+      <MemberCode guid="E662EF6E-E378-4C06-9516-AF577709C0A6"></MemberCode>
+      <MemberCode guid="A934E378-02E8-435E-BC54-36062D936273"></MemberCode>
+      <MemberCode guid="4717C230-DE9D-4C4D-983D-E4442576343C"></MemberCode>
+      <MemberCode guid="668FEE40-E1F8-47F1-94B3-C9A3ECC30F95"></MemberCode>
+      <MemberCode guid="06F991D5-00AF-4F58-8FEC-F3B0E67FA115"></MemberCode>
+      <MemberCode guid="11FBB6F7-EBBE-428C-B4E3-B3D9B4D71308"></MemberCode>
+      <MemberCode guid="4025388F-90D0-4105-A9C9-03A1D513CE28"></MemberCode>
+      <MemberCode guid="C99C4A1D-5488-4ABE-81D9-0EFD6A844B07"></MemberCode>
+      <MemberCode guid="42EED27F-E34A-4D7C-9A1A-16E56985FF9C"></MemberCode>
+      <MemberCode guid="1B70DD28-FE74-4710-8C41-F9C03E646BB5"></MemberCode>
+      <MemberCode guid="14571E8E-E52B-4D47-9982-6FEB97E48ED5"></MemberCode>
+      <MemberCode guid="67AF5FCF-D221-41A0-ADF6-225A246DF285"></MemberCode>
+      <MemberCode guid="B08CBAC6-4A9E-4884-AEDB-3325863F0728"></MemberCode>
+      <MemberCode guid="6C5FED1C-3408-4A74-9B36-8290538C631B"></MemberCode>
+      <MemberCode guid="9B5095F3-2BD4-462F-B997-DF8DB77AE661"></MemberCode>
+      <MemberCode guid="D7C9C9FE-2E97-497D-85D3-DD7967E18334"></MemberCode>
+      <MemberCode guid="2F355946-15EE-4B74-8BDF-B9D95ED6AE7D"></MemberCode>
+      <MemberCode guid="5E5BE015-5398-41C1-8D05-5C925CC6124F"></MemberCode>
+      <MemberCode guid="CBE86902-49B7-4B64-AA59-026486934CFB"></MemberCode>
+      <MemberCode guid="92269DFC-6CEF-4FAC-ADE2-76A2547B76C2"></MemberCode>
+      <MemberCode guid="9D024A16-6BC4-4FBF-812C-AC5B4F9DCAA5"></MemberCode>
+      <MemberCode guid="DFD4C3DA-ABDA-44DD-8648-CF96810C3ED6"></MemberCode>
+      <MemberCode guid="740890A6-E6F2-4CB8-87A0-5CFD0B9F3C4D"></MemberCode>
+      <MemberCode guid="45A3C9EB-E68E-4B2B-81B0-19C2427D04D2"></MemberCode>
+      <MemberCode guid="E51FC4DC-88D3-4D30-BE9B-776C21534448"></MemberCode>
+      <MemberCode guid="0867B0C3-1D7E-4E08-A1BB-D0E31029105B"></MemberCode>
+      <MemberCode guid="6033E0C1-976B-4D5C-ADB8-60214607E311"></MemberCode>
+      <MemberCode guid="B9DE96F2-E613-4D6E-9DEE-6606F1799077"></MemberCode>
+      <MemberCode guid="3554461B-0421-4EAA-8580-68F4BE62C4B4"></MemberCode>
+      <MemberCode guid="ADA54F0E-68AD-4F4D-8092-98F1EA71768D"></MemberCode>
+      <MemberCode guid="2B88F1B4-A5F5-422B-AE54-81D3E0C641D2"></MemberCode>
+      <MemberCode guid="789F606A-A25C-4C52-8827-BC183C967495"></MemberCode>
+      <MemberCode guid="FC70BA24-6229-4D46-8EEC-9ECDD839AFCE"></MemberCode>
+      <MemberCode guid="94C19513-F357-4C98-98B2-85491B504CC8"></MemberCode>
+      <MemberCode guid="48F86DB5-F76C-469D-B24C-EDB1EA44537E"></MemberCode>
+      <MemberCode guid="A92EEC37-95BB-4B49-9B51-E8482463E966"></MemberCode>
+      <MemberCode guid="DBBFA540-74A0-4BBB-95E7-CFFD9698C395"></MemberCode>
+      <MemberCode guid="F642E562-9C1B-436E-B0BD-9341330BE942"></MemberCode>
+      <MemberCode guid="653BB8C3-36F3-42A3-A210-033456A5B671"></MemberCode>
+      <MemberCode guid="AE94CFA4-B95B-4B02-A7ED-EF59E5D01AD5"></MemberCode>
+      <MemberCode guid="F329013C-B09B-46CC-897C-AB785121DC7C"></MemberCode>
+      <MemberCode guid="245905CE-741A-48EE-85CF-B6F20DCA361D"></MemberCode>
+      <MemberCode guid="6FADC3F9-1EC1-4FAF-A523-A2335F3BE6B8"></MemberCode>
+      <MemberCode guid="4A4D0069-B17F-4FE3-B180-9720E06A1910"></MemberCode>
+      <MemberCode guid="1BE1B2FA-B353-4615-92C4-BCBCD11BBD31"></MemberCode>
+      <MemberCode guid="DAAC85FD-8900-43E9-87F9-425553913BEF"></MemberCode>
+      <MemberCode guid="E1E01225-4D88-45FE-89C3-F4A641F03567"></MemberCode>
+      <MemberCode guid="A5236DAD-5D3F-4D51-BAD8-76856EB66E22"></MemberCode>
+      <MemberCode guid="6F060629-1D8A-4B94-9A81-4139748AB58D"></MemberCode>
+      <MemberCode guid="C0861BFD-8F28-44CF-8505-6432402B14F4"></MemberCode>
+      <MemberCode guid="FDD10B20-94B9-4E78-910E-7FBBF57C8A76"></MemberCode>
+      <MemberCode guid="AA3009C6-A4C0-41C0-A07E-B3A1AC768553"></MemberCode>
+      <MemberCode guid="DC0565CD-80F9-47CE-A8C0-49B11D000A20"></MemberCode>
+      <MemberCode guid="ADC804DC-40FF-4231-A402-D1F4D0A6DECF"></MemberCode>
+      <MemberCode guid="AA9B0DB1-DCCB-4CE7-B1DC-D239A87569C5"></MemberCode>
+      <MemberCode guid="BB16B0B2-57CF-4E8D-A8AF-60DF4DBCD327"></MemberCode>
+      <MemberCode guid="66E1B209-9448-41E5-B5A2-646ED9C29DDE"></MemberCode>
+      <MemberCode guid="70C60C96-DA07-4756-AE2A-414A22BBAED2"></MemberCode>
+      <MemberCode guid="2FD3E2D0-24E6-4845-A7C9-5D09FE3F2651"></MemberCode>
+      <MemberCode guid="59696310-D125-4434-B60A-3CB3A179BF16"></MemberCode>
+      <MemberCode guid="C0A35E01-680E-422F-A0DB-35EAE36C84C3"></MemberCode>
+      <MemberCode guid="6C341D2B-D6C7-45CE-ACB2-2B6BF6748D67"></MemberCode>
+      <MemberCode guid="F24B094D-6E12-4F04-BF7A-B2548BCA0BDB"></MemberCode>
+      <MemberCode guid="8374E051-B5C0-4115-89EA-46C656831368"></MemberCode>
+      <MemberCode guid="25B6FAF9-332C-4AB8-A5D7-8D1752C49ADA"></MemberCode>
+      <MemberCode guid="85E8BB43-B57F-4232-9F25-A9C72E1FCA53"></MemberCode>
+      <MemberCode guid="1937682F-00A8-42AE-941C-7E91E4D8DC7F"></MemberCode>
+      <MemberCode guid="42DDD136-3B3D-4387-8636-47378FEB9F4A"></MemberCode>
+      <MemberCode guid="A72F47D1-303E-4B05-AD4A-716AF0DD14C1"></MemberCode>
+      <MemberCode guid="A66B66F9-0816-4E19-9AE5-DB0B2F47ADF4"></MemberCode>
+      <MemberCode guid="5C9AF45F-6406-4820-BFF1-0C77F05E3F25"></MemberCode>
+      <MemberCode guid="986D47BF-CC64-4F89-83B6-E1D8A6F3B356"></MemberCode>
+      <MemberCode guid="87FCB754-963E-4FF3-9B72-30772294CA4E"></MemberCode>
+      <MemberCode guid="306DC27E-4107-441C-ADC1-82D157906435"></MemberCode>
+      <MemberCode guid="BCB9F6AB-E452-49D0-BC47-F1329ABB2D7E"></MemberCode>
+      <MemberCode guid="D7D82B92-E297-4844-9FF6-6E2E37D94E4B"></MemberCode>
+      <MemberCode guid="9BC474D3-4216-47D3-B3D9-72D6FCD1C6D0"></MemberCode>
+      <MemberCode guid="E3CF1627-C0EE-471E-A481-44B895AD16A3"></MemberCode>
+      <MemberCode guid="9A115324-6066-469C-88DA-655138ADC11F"></MemberCode>
+      <MemberCode guid="E0E86BD4-D9E2-42AD-9890-BB97D8C2F295"></MemberCode>
+      <MemberCode guid="C9CAF46F-0A4F-49F8-88E6-CCC72D9151BE"></MemberCode>
+      <MemberCode guid="0155AC98-1265-433D-B146-F746F866A262"></MemberCode>
+      <MemberCode guid="5BB760AB-26E0-4AFD-8B33-E578BB46DDC1"></MemberCode>
+      <MemberCode guid="81471777-F096-4BB2-8D29-637168B6D835"></MemberCode>
+      <MemberCode guid="E8BC8358-E4C5-47C2-981B-8D2A897DAB6D"></MemberCode>
+      <MemberCode guid="5279B8F6-8B40-4B4A-9335-962FFBDB528C"></MemberCode>
+      <MemberCode guid="0F7BB395-3218-426D-AD5B-DF97826AD3D6"></MemberCode>
+      <MemberCode guid="993BD60F-DD5C-4F68-92DA-34EA0B9AD979"></MemberCode>
+      <MemberCode guid="22A4B36A-D29C-4039-9E73-96F4F8F9DE05"></MemberCode>
+      <MemberCode guid="EDC33D92-43CF-4EDC-9E79-4257F058990E"></MemberCode>
+      <MemberCode guid="EAF20056-19D9-457B-A96B-C5A793907911"></MemberCode>
+      <MemberCode guid="1CDDA7D9-425A-46F6-8166-C75786148B6B"></MemberCode>
+      <MemberCode guid="5436EABB-CCA2-4883-A499-1E75440E93AD"></MemberCode>
+      <MemberCode guid="B08E5161-3DDB-4BBC-A011-DF3CE44CC968"></MemberCode>
+      <MemberCode guid="6C30FEF5-77C3-4936-8848-9E36DF1527D0"></MemberCode>
+      <MemberCode guid="1BCCC679-A111-4E1A-BAB7-739D45439C09"></MemberCode>
+      <MemberCode guid="A8025AE2-1F9C-4EC1-A5B0-E100FE714EDD"></MemberCode>
+      <MemberCode guid="210E211D-7F1E-43AA-B4EE-D4D8546BE753"></MemberCode>
+      <MemberCode guid="BED5AE6E-077B-4EB8-953F-B7F038C25519"></MemberCode>
+      <MemberCode guid="19C52556-A98D-41B6-8B39-139D8C3041ED"></MemberCode>
+      <MemberCode guid="3888D2C8-E9D2-4269-B90D-B815C4F87DAA"></MemberCode>
+      <MemberCode guid="4373D30D-E239-458E-9773-F22B492C874C"></MemberCode>
+      <MemberCode guid="341C9879-D5E8-4B66-AEB3-52F343390960"></MemberCode>
+      <MemberCode guid="DAAD2272-D677-41A8-822B-F6B7758C19DF"></MemberCode>
+      <MemberCode guid="E27D0777-B03C-4981-94A9-3B4C0F3315B1"></MemberCode>
+      <MemberCode guid="221A2521-0872-4975-ABC8-87DD5E9A16D8"></MemberCode>
+      <MemberCode guid="1B114946-4E88-47BE-9C95-ADDC537787CA"></MemberCode>
+      <MemberCode guid="1A2D474F-66C7-48C0-8889-ACD859335AE7"></MemberCode>
+      <MemberCode guid="0D72B143-D5BD-4B7A-9703-1DD1F763A559"></MemberCode>
+      <MemberCode guid="C1DA5EAC-A988-4C77-8859-554E2F205737"></MemberCode>
+      <MemberCode guid="6B99E3BE-311C-4528-A863-0D9981094F3B"></MemberCode>
+      <MemberCode guid="A9C3819D-0251-4132-997F-7CB57385F2E9"></MemberCode>
+      <MemberCode guid="1BDA54A1-6C79-43AD-9FDD-153650117FB4"></MemberCode>
+      <MemberCode guid="9B1BFBB5-2FAE-45E9-9542-9A4AD95EF2CF"></MemberCode>
+      <MemberCode guid="91911037-D154-42B6-B58D-1B4F4E5A32E2"></MemberCode>
+      <MemberCode guid="C3C3D1E1-F375-4A43-A806-3DF7D8E92BAE"></MemberCode>
+      <MemberCode guid="7F0FF2C0-0433-4B63-987C-56BC044E9A50"></MemberCode>
+      <MemberCode guid="F3D649A0-599F-4757-8AED-D4AD312FD829"></MemberCode>
+      <MemberCode guid="C33F8DA3-CD8E-447B-B2D2-12BFA6F59FEB"></MemberCode>
+      <MemberCode guid="71F524B5-AB07-4D8E-8275-A23982459411"></MemberCode>
+      <MemberCode guid="D72AE2A9-EDCF-4A80-851B-5E04C2135D3C"></MemberCode>
+      <MemberCode guid="6EF774BF-F650-45A1-B590-329D3E75904B"></MemberCode>
+      <MemberCode guid="9E87AE5D-70D7-483C-B0BD-515FDF9BF3E0"></MemberCode>
+      <MemberCode guid="34A71269-CBF3-43C7-8616-667BCCF7438E"></MemberCode>
+      <MemberCode guid="9D3A8FFB-8A6A-427E-8874-7F228AC934BA"></MemberCode>
+      <MemberCode guid="89F750D7-DC10-476D-8B17-EAFF9FBDFFA5"></MemberCode>
+      <MemberCode guid="3116E1EF-10E6-4CB7-BEA0-3C243CE31EEC"></MemberCode>
+      <MemberCode guid="F962AFB4-E78D-49B4-8925-852F8996CCCC"></MemberCode>
+      <MemberCode guid="7E38CB71-D202-416E-9138-311DADE2FC5E"></MemberCode>
+      <MemberCode guid="9DDCE33F-D43C-40A0-BF8D-EE666964DAFF"></MemberCode>
+      <MemberCode guid="F4F47A01-9000-41DD-AAED-8A62A2E8D3E0"></MemberCode>
+      <MemberCode guid="FC1D2447-CC27-4D2B-A446-3349FA3C83D1"></MemberCode>
+      <MemberCode guid="70791C19-7D94-44D3-BED2-785510361861"></MemberCode>
+      <MemberCode guid="DEA27C36-BFDF-4E9C-BB94-9DE40EF7B078"></MemberCode>
+      <MemberCode guid="900EA463-04AB-4640-9795-B428E43FEAC9"></MemberCode>
+      <MemberCode guid="7B06A436-630B-4B51-B486-4A158468D67A"></MemberCode>
+      <MemberCode guid="965FB61F-6E1A-4E4B-B915-7B7C249A13CC"></MemberCode>
+      <MemberCode guid="02A8E5CC-169B-4FC0-BF16-CE5F0475A6C7"></MemberCode>
+      <MemberCode guid="C60753C6-B7E3-4F47-9341-5E3A217AE5B8"></MemberCode>
+      <MemberCode guid="F3F510FF-25BC-4F72-8174-E8684B27F446"></MemberCode>
+      <MemberCode guid="E0CAF1DA-8643-43A1-9679-00BC418DF415"></MemberCode>
+      <MemberCode guid="18E2F43F-B9D1-4179-A03C-8B0900C1C33E"></MemberCode>
+      <MemberCode guid="760310B2-C0D4-4515-B719-8EB1CD05E8AD"></MemberCode>
+      <MemberCode guid="3B5A5CCD-7FA2-409B-9288-C2D17636FF6C"></MemberCode>
+      <MemberCode guid="626B1BCA-FDAA-4DCC-8890-CA02D35019FF"></MemberCode>
+      <MemberCode guid="EC5A347E-0CE4-4BFA-9F69-F7BADEADD816"></MemberCode>
+      <MemberCode guid="DD08E409-CA3B-4847-A14A-F9FAFA4BB98F"></MemberCode>
+      <MemberCode guid="E0F79BEC-2D7E-443C-A1EA-2DBD63759418"></MemberCode>
+      <MemberCode guid="90D3BE0D-0CEB-4C3E-84A2-7ECFA2E6F698"></MemberCode>
+      <MemberCode guid="8A8BEF31-F6D5-48B8-ABAB-B18E95A87D5D"></MemberCode>
+      <MemberCode guid="98BE2C09-17D8-4B33-A1F1-5A2A2FBA6F8A"></MemberCode>
+      <MemberCode guid="C03FF2B1-F76A-4877-A061-B4C0B1A72C2D"></MemberCode>
+      <MemberCode guid="ECF954A9-0FE5-4E73-92B5-3C8480D7B112"></MemberCode>
+      <MemberCode guid="91F6B872-2160-410B-A561-706B8DF982BE"></MemberCode>
+      <MemberCode guid="512FE5DB-1DC8-4AB7-A48A-F6C07ABC6669"></MemberCode>
+      <MemberCode guid="2330828C-B035-483C-92B0-1D253B4B83F3"></MemberCode>
+      <MemberCode guid="11AAFC70-1C3B-4754-AC92-57A6FA2F740A"></MemberCode>
+      <MemberCode guid="4D21575E-B446-4365-8373-FC9CA88022B4"></MemberCode>
+      <MemberCode guid="0F9E2C59-0683-4CBE-A3B8-0FDC5196A05C"></MemberCode>
+      <MemberCode guid="8B5AB512-084A-4F16-9835-5E917FF25B3D"></MemberCode>
+      <MemberCode guid="51E0C95A-5593-4E01-A322-D0B931107CF8"></MemberCode>
+      <MemberCode guid="2399E810-B4D0-48B2-8BF9-4DA044A08C22"></MemberCode>
+      <MemberCode guid="CC748911-BA15-4B5B-966F-45072409BC28"></MemberCode>
+      <MemberCode guid="A4BD7214-65EC-49A5-8C3D-C0A3C1992452"></MemberCode>
+      <MemberCode guid="B5D7BF61-FB4E-4323-BA9F-BB61A00E50B7"></MemberCode>
+      <MemberCode guid="00F2D881-F36E-4E21-9254-E4CA0C87C7A8"></MemberCode>
+      <MemberCode guid="BA9FCF86-E603-4BE0-8E57-2843FAEF2475"></MemberCode>
+      <MemberCode guid="D43004D8-6FDD-484E-9266-24C751AD250B"></MemberCode>
+      <MemberCode guid="388C315A-5D66-4B80-98E7-21F75832C71D"></MemberCode>
+      <MemberCode guid="8757B72C-5B86-45C5-956B-3C4B5F23768D"></MemberCode>
+      <MemberCode guid="2488CF71-00FE-4E6A-A7D9-DBE14891BDCD"></MemberCode>
+      <MemberCode guid="18CFCD8E-02B8-4BEE-AEA3-C6F3F8D8DB16"></MemberCode>
+      <MemberCode guid="649C21F3-D713-429E-A736-7F1878A576E2"></MemberCode>
+      <MemberCode guid="8059A744-DECE-497D-A111-161F3A8091BC"></MemberCode>
+      <MemberCode guid="DE202325-D13E-4E02-809A-A57C0625F0D8"></MemberCode>
+      <MemberCode guid="F2734162-95B9-480E-913D-925EDCA30416"></MemberCode>
+      <MemberCode guid="24972F5D-4419-4CD5-AF0B-F8BEE25D0BD7"></MemberCode>
+      <MemberCode guid="FF37CA2D-03D7-410D-9653-62B4E2103179"></MemberCode>
+      <MemberCode guid="F15C2177-83AF-4B47-9848-68492B3AFE90"></MemberCode>
+      <MemberCode guid="208DBCB2-CF3A-487C-9E8C-B9FDAC1DBF76"></MemberCode>
+      <MemberCode guid="5DA2ADF6-B506-4524-BB2F-6C66A9470546"></MemberCode>
+      <MemberCode guid="92C8DA35-40BA-482A-837E-DF74FF73A5B0"></MemberCode>
+      <MemberCode guid="8C15841F-20EF-4672-A1C6-EEE6CB2D5F4D"></MemberCode>
+      <MemberCode guid="D84F9204-8891-4662-8C54-8DD8128D8DA4"></MemberCode>
+      <MemberCode guid="215B101C-8F5D-4EC3-97A1-2DD67F2306DF"></MemberCode>
+      <MemberCode guid="96E9DDD7-47B1-4EDF-BE9F-38E9CADDE274"></MemberCode>
+      <MemberCode guid="734BC386-DE0A-428D-92DC-C3344E9D3C0F"></MemberCode>
+      <MemberCode guid="911B0888-B6FF-4B55-AD69-4DEBA343B5B0"></MemberCode>
+      <MemberCode guid="D9876DE7-29D1-4704-B96E-7A525D6AC4E6"></MemberCode>
+      <MemberCode guid="0E5580C1-A808-4A7E-8847-07727F644030"></MemberCode>
+      <MemberCode guid="3640D868-2511-4ADF-A721-9AC857E59D66"></MemberCode>
+      <MemberCode guid="3C2E726F-9D6F-479C-B2CC-7952B7C1DBBB"></MemberCode>
+      <MemberCode guid="2B62155B-6A1A-40FF-853D-599665862A63"></MemberCode>
+      <MemberCode guid="C299DD1E-8F4E-481A-A664-84065913DA80"></MemberCode>
+      <MemberCode guid="5F474308-8C4D-4B43-8C49-0A376DE99D5F"></MemberCode>
+      <MemberCode guid="380ADABC-FCCA-48CB-9E4F-4E182B3DA755"></MemberCode>
+      <MemberCode guid="A884A510-8DD6-4EEC-8467-626543874EEB"></MemberCode>
+      <MemberCode guid="D4E67705-7F7C-4AC1-9303-1B33CCC6DFCD"></MemberCode>
+      <MemberCode guid="D772964F-09FD-4486-B08B-A0D55C830F1A"></MemberCode>
+      <MemberCode guid="8D8D1719-4389-4241-9293-6C7407E072B6"></MemberCode>
+      <MemberCode guid="7B4FD25E-AE8C-4430-9F21-92E2E33292DC"></MemberCode>
+      <MemberCode guid="C8498F92-6ECA-4D47-8580-EE5AEFB0ABE2"></MemberCode>
+      <MemberCode guid="E5F9A61A-6DA4-4623-9D96-91CB5D2D8FBA"></MemberCode>
+      <MemberCode guid="75A06A34-26A4-48D7-BBFC-90CCDB89525B"></MemberCode>
+      <MemberCode guid="58FE2184-689C-4F9B-BE6B-6029C85ECBF8"></MemberCode>
+      <MemberCode guid="48F8FC53-54A4-4DC5-B061-530CCB55057A"></MemberCode>
+      <MemberCode guid="8F317C50-6B4C-4E5E-AC09-2E14033B60BB"></MemberCode>
+      <MemberCode guid="4B6479FF-A904-4D8E-B0DB-8EA28AD3F168"></MemberCode>
+      <MemberCode guid="1C65336F-1911-449E-95E9-237C56B548CF"></MemberCode>
+      <MemberCode guid="FCD14CEB-B675-41B5-AEAE-3FD920AFFBD9"></MemberCode>
+      <MemberCode guid="C62F731A-0057-4E6A-ABAD-F52A911F9EEC"></MemberCode>
+      <MemberCode guid="FACB103B-1454-4B6F-BB85-62F979168E88"></MemberCode>
+      <MemberCode guid="8A914F80-EAB3-4243-ADFC-AB930BD032D8"></MemberCode>
+      <MemberCode guid="62DED49A-244F-4688-916D-447576301BE1"></MemberCode>
+      <MemberCode guid="FE3F75A6-A0F1-4141-A8A2-D8295E6A0E46"></MemberCode>
+      <MemberCode guid="4AADF5F0-98E7-4844-AEBC-884F9A1209A0"></MemberCode>
+      <MemberCode guid="E3B30633-A0C1-49FC-805A-056E40CA6BF1"></MemberCode>
+      <MemberCode guid="AF17F943-6A25-402B-BC32-92FF49E51701"></MemberCode>
+      <MemberCode guid="163628B5-6657-4C5F-A59A-E3FB7B2DB173"></MemberCode>
+      <MemberCode guid="CF58AC11-0AA9-4D8E-B9B2-F6B6156EAF5E"></MemberCode>
+      <MemberCode guid="44F12123-EAEE-41BA-A5A3-98947BDC1092"></MemberCode>
+      <MemberCode guid="DB1A241B-1ADD-4D01-94C8-05135BC6B3A5"></MemberCode>
+      <MemberCode guid="9028DFCA-5985-464D-9525-5A12F9E614DD"></MemberCode>
+      <MemberCode guid="E729BB23-4031-487B-8D0B-38942CAFE810"></MemberCode>
+      <MemberCode guid="CA8E89A5-C9F0-4F89-A7CD-67E57674249D"></MemberCode>
+      <MemberCode guid="7CB0D1F8-B767-44F6-A200-A9C8D468F605"></MemberCode>
+      <MemberCode guid="4BA8D50D-3681-4C0F-A197-135CB33C34D8"></MemberCode>
+      <MemberCode guid="F743DA33-BD47-4F87-9327-F5DDE0863AE6"></MemberCode>
+      <MemberCode guid="79471724-95C1-458E-9B3E-F6EC97911411"></MemberCode>
+      <MemberCode guid="4DDB07EE-0335-4F53-8CAA-A8DC8E2F6E15"></MemberCode>
+      <MemberCode guid="333C11B0-8875-4546-9E19-378AF8AC859C"></MemberCode>
+      <MemberCode guid="E55EAA6F-6D76-456A-8CFC-A3D224E0C143"></MemberCode>
+      <MemberCode guid="FFE04CB9-16FA-4351-9E1D-3A5E03B5118F"></MemberCode>
+      <MemberCode guid="2A531E57-07F9-4D8B-8065-09961CC88B42"></MemberCode>
+      <MemberCode guid="3FAC86E2-2E27-4CE2-98A4-2014A232D5FE"></MemberCode>
+      <MemberCode guid="47717D86-D2DA-4422-B364-59317C426CB9"></MemberCode>
+      <MemberCode guid="EDF83B7B-B464-4317-AE7C-9304EA7DE30C"></MemberCode>
+      <MemberCode guid="25A42A15-33D8-4DD0-84BC-E848AF317A35"></MemberCode>
+      <MemberCode guid="B700AFD2-6D70-471F-A018-DAC0EE4B4D47"></MemberCode>
+      <MemberCode guid="F4F70030-FE4F-4C95-B386-617FCAEC35FC"></MemberCode>
+      <MemberCode guid="1700F0CC-EEAC-46EF-B18D-B02D3B2F74FB"></MemberCode>
+      <MemberCode guid="09EB05CC-482F-454C-AFCA-C3461AC04856"></MemberCode>
+      <MemberCode guid="43A70045-E7F3-4985-97C7-37D6C9523004"></MemberCode>
+      <MemberCode guid="C66C790E-8384-47B8-91FB-5D5817FAB18A"></MemberCode>
+      <MemberCode guid="E1950DDE-6647-4A97-8275-F57A17F249A8"></MemberCode>
+      <MemberCode guid="BFA18713-242C-460B-BC13-2780A182BC56"></MemberCode>
+      <MemberCode guid="9C9632C4-562C-4D10-BD7D-B81C1DF01EE5"></MemberCode>
+      <MemberCode guid="3DBE1F4D-AEFF-4788-8FCA-EA01F9AFC22C"></MemberCode>
+      <MemberCode guid="C42BBC9B-B40B-4601-89A7-0B1AACE76B6B"></MemberCode>
+      <MemberCode guid="671D58FB-C698-4BFF-9BA3-5E50E8721183"></MemberCode>
+      <MemberCode guid="6A2FFE69-3D15-4E86-B966-E84A1A5B3B8B"></MemberCode>
+      <MemberCode guid="C1150A33-31AF-4D98-B6B7-83B7C61C18FC"></MemberCode>
+      <MemberCode guid="93533021-2469-422B-8BA8-EDFD6B75D7B1"></MemberCode>
+      <MemberCode guid="D8344CA1-21D1-4215-BC15-B74F72955ACD"></MemberCode>
+      <MemberCode guid="63024FCA-9AC3-4816-BEB2-FFEABC87C2DA"></MemberCode>
+      <MemberCode guid="703064EE-35CA-457B-B404-57370E4D30B1"></MemberCode>
+      <MemberCode guid="BC1AB696-02B2-4B5B-A43E-E02DEE0F8EC1"></MemberCode>
+      <MemberCode guid="A0BEF285-3F29-4026-9D02-7C4B32A8DE18"></MemberCode>
+      <MemberCode guid="156B0EFA-527B-46E5-B680-6135C71E2915"></MemberCode>
+      <MemberCode guid="2E1C5360-3706-41E2-8892-EFB86A4E0628"></MemberCode>
+      <MemberCode guid="7D25DDE0-6580-467B-9F91-B8F27B1A5105"></MemberCode>
+      <MemberCode guid="9393AE91-92CE-4C4B-86A0-972849CB388B"></MemberCode>
+      <MemberCode guid="CBE05146-0F48-4AF9-B340-C8BD9FE4DA7D"></MemberCode>
+      <MemberCode guid="203B231D-49BC-49B6-8843-0205168D33A9"></MemberCode>
+      <MemberCode guid="9EFB48EE-5952-4005-A6C9-0E1F96D9EA36"></MemberCode>
+      <MemberCode guid="E6853B45-D446-420E-B2B7-D81279163AA8"></MemberCode>
+      <MemberCode guid="C5BB6CAB-5D23-4A7D-B786-C5F82B092BC5"></MemberCode>
+      <MemberCode guid="CC8A0553-7771-4159-BBFF-45FF42641FFA"></MemberCode>
+      <MemberCode guid="E56F0EAE-B36D-4F4F-A8D2-B83B4E9C5F85"></MemberCode>
+      <MemberCode guid="0D08DABE-8F49-4F68-A079-5BB87B596E51"></MemberCode>
+      <MemberCode guid="3C1FD8F3-D38D-4BBC-BD14-05D51AAD5500"></MemberCode>
+      <MemberCode guid="0970B9E1-8BC1-4D2D-8D15-BA8212609F5C"></MemberCode>
+      <MemberCode guid="6F526246-38BC-4278-B48D-97543734CAF2"></MemberCode>
+      <MemberCode guid="F671739F-AD3C-4F13-8E24-2994F5507A45"></MemberCode>
+      <MemberCode guid="9B063153-2AFA-4641-92E0-E20BE5316FF4"></MemberCode>
+      <MemberCode guid="6D6A55FB-8E72-414D-9F29-CE6272285CB6"></MemberCode>
+      <MemberCode guid="6E44E896-B524-4398-8BF4-EEDB64B284A9"></MemberCode>
+      <MemberCode guid="FE28C444-7AC1-479E-825D-12704453249F"></MemberCode>
+      <MemberCode guid="E2AEF229-3A64-496E-BFA2-BE81550DDF2D"></MemberCode>
+      <MemberCode guid="A12DF73E-9D62-45FE-8C03-123150365451"></MemberCode>
+      <MemberCode guid="ACD41219-A55B-4AA8-B8A8-B42E4A6F7790"></MemberCode>
+      <MemberCode guid="B1E5F8B7-643D-4604-9D63-476BFBD10AFA"></MemberCode>
+      <MemberCode guid="4A400AD3-A0FA-44AB-87EB-6E4D03878D32"></MemberCode>
+      <MemberCode guid="977AAAFB-A69B-49F2-A44B-7F0EA6386F47"></MemberCode>
+      <MemberCode guid="D85BDA9B-3307-46AC-8659-9FD30D83CB71"></MemberCode>
+      <MemberCode guid="AAC7595E-23AB-493E-B735-7B9969BEDCE5"></MemberCode>
+      <MemberCode guid="5C72D236-3F0C-4873-919F-CC65F43F3461"></MemberCode>
+      <MemberCode guid="FFA0DB20-3588-468A-9D76-A0C055201108"></MemberCode>
+      <MemberCode guid="E5DBDB2A-F056-4348-94EB-23875A8A40AC"></MemberCode>
+      <MemberCode guid="6120010C-69F4-49F1-9554-CE23EC0F25AF"></MemberCode>
+      <MemberCode guid="011F810E-A814-4612-90B6-A72351BA1797"></MemberCode>
+      <MemberCode guid="B3F71234-5CEE-493B-84B6-ED91A8DF5F17"></MemberCode>
+      <MemberCode guid="52517449-E8BE-49DF-A824-F72B0B1FDCA6"></MemberCode>
+      <MemberCode guid="1C3265DB-6A26-4491-BA38-A1D2C36A0781"></MemberCode>
+      <MemberCode guid="D960B677-279F-4D86-A77B-F012FD134361"></MemberCode>
+      <MemberCode guid="E52785D7-F41F-4694-9C0B-4D01ACE74724"></MemberCode>
+      <MemberCode guid="D425A43B-27D7-4DB8-B803-19103482807A"></MemberCode>
+      <MemberCode guid="58B38226-4198-41F2-99E0-5E44428E1DE9"></MemberCode>
+      <MemberCode guid="CDAA8228-9595-499E-A63F-ADF24B5AD7DB"></MemberCode>
+      <MemberCode guid="3E46C81F-EAE4-4E89-B202-CC44A4856E0D"></MemberCode>
+      <MemberCode guid="6FA13D50-CC03-4EE0-80B1-1C4E614E0D6B"></MemberCode>
+      <MemberCode guid="0A583DA5-E10A-4DAF-A053-20DCBF7750C7"></MemberCode>
+      <MemberCode guid="CCA0BD16-2C0E-4CCE-B8F1-639AE88074F1"></MemberCode>
+      <MemberCode guid="E6ECA781-0CAB-4D7B-97EF-7656709D296A"></MemberCode>
+      <MemberCode guid="39401B79-F7ED-4475-980D-C93959B9FAEF"></MemberCode>
+      <MemberCode guid="05D6A062-0F97-47EF-9530-D2BF97043EA5"></MemberCode>
+      <MemberCode guid="1CD57315-DB37-4ACF-B37A-D4A86AB94556"></MemberCode>
+      <MemberCode guid="229F6475-8AA1-4B76-9378-A53FA3B995F6"></MemberCode>
+      <MemberCode guid="0096737F-52E9-436B-BF71-95A80BD90465"></MemberCode>
+      <MemberCode guid="EB49327A-E9B1-4BC8-A100-51D232C5E081"></MemberCode>
+      <MemberCode guid="866E7807-30E1-472B-9B06-1FC5CB5D3175"></MemberCode>
+      <MemberCode guid="39BCD0F3-4172-47E0-B4F1-C792BBC82829"></MemberCode>
+      <MemberCode guid="8B8349F3-97EA-49A4-98C9-BCC295A1AE23"></MemberCode>
+      <MemberCode guid="BC20886B-7B66-4489-A507-E57EE5FE1F86"></MemberCode>
+      <MemberCode guid="C8C633B2-942D-45ED-80BD-452E4CDE30AE"></MemberCode>
+      <MemberCode guid="93EEF2E3-CE2D-4F26-9443-2A2A3C667F50"></MemberCode>
+      <MemberCode guid="D2900F37-690F-4277-95F6-1DDCD61EA956"></MemberCode>
+      <MemberCode guid="CFE8DEE7-5047-484B-9F25-FB3422D42391"></MemberCode>
+      <MemberCode guid="B8E630E3-590C-4321-996D-6948D54C5F03"></MemberCode>
+      <MemberCode guid="A2D1B97E-E163-4300-9A31-296B8E6DBDCB"></MemberCode>
+      <MemberCode guid="E3C0DF40-4F7F-4850-A641-2147AFB49A58"></MemberCode>
+      <MemberCode guid="8ACE8E01-B984-47C2-9CEE-F5C1E4EB1B21"></MemberCode>
+      <MemberCode guid="EDDFA665-66F1-424D-894D-044AA559DBBB"></MemberCode>
+      <MemberCode guid="652046B7-A40D-44E8-A73F-94B4F0CC0D7A"></MemberCode>
+      <MemberCode guid="54138926-16DE-4AB2-ADFC-622273D159F5"></MemberCode>
+      <MemberCode guid="999491A9-6E7C-458A-A6A0-56344EA1DE10"></MemberCode>
+      <MemberCode guid="B516FFBC-8296-47EF-9462-91B6D692B848"></MemberCode>
+      <MemberCode guid="E8D904C6-62A3-4554-8F90-5957B7AAFC9A"></MemberCode>
+      <MemberCode guid="A109032A-B96B-4086-A3E9-88DC075F87AD"></MemberCode>
+      <MemberCode guid="578A67BA-46A4-4BE3-84C8-338A1917ED39"></MemberCode>
+      <MemberCode guid="7F44C3AD-19E4-4E7E-85BD-6C40276587EE"></MemberCode>
+      <MemberCode guid="D8304E05-7BB4-4754-9ABE-5C09E36BAB4F"></MemberCode>
+      <MemberCode guid="FFD078E3-D282-4B4B-8985-3BE52152AAD8"></MemberCode>
+      <MemberCode guid="5AEE0745-BDE3-4394-87C2-93921310F31E"></MemberCode>
+      <MemberCode guid="649191D6-D02B-4FE7-A564-73E90438CB32"></MemberCode>
+      <MemberCode guid="4F126930-7C40-4EAB-AAF7-DFE1BBBAFC72"></MemberCode>
+      <MemberCode guid="B53D6D75-DE62-4D22-9253-37547C613C8E"></MemberCode>
+      <MemberCode guid="466D108A-0514-4E5D-B99A-14301AFE4FB0"></MemberCode>
+      <MemberCode guid="8765C827-22DE-45D8-83A3-70EEE30AF657"></MemberCode>
+      <MemberCode guid="5D4C8CB2-DBAD-460D-BF65-DC8B4F84BB84"></MemberCode>
+      <MemberCode guid="287AB90C-BCC6-4BD4-98CC-8576242DF0CD"></MemberCode>
+      <MemberCode guid="F3F3BCD4-FA23-4609-B30D-80F87E09ACD4"></MemberCode>
+      <MemberCode guid="037B569E-7AA9-4854-A545-E1A70030A7DF"></MemberCode>
+      <MemberCode guid="B2619C37-A8A4-41B6-A8E8-3CF53D655AD0"></MemberCode>
+      <MemberCode guid="9642EC4E-C126-402F-A53D-25BA633E9092"></MemberCode>
+      <MemberCode guid="AB826984-C71E-48F7-8CB6-45BEE829A160"></MemberCode>
+      <MemberCode guid="676A5529-E9CD-46C9-84CA-B76FA4E434F1"></MemberCode>
+      <MemberCode guid="60E9805E-DB86-4750-9413-9A1B763CCD4C"></MemberCode>
+      <MemberCode guid="2751EAD0-2C3E-4121-BED5-A032F52BDE3D"></MemberCode>
+      <MemberCode guid="7805F63E-A60B-4E26-A01E-04D128BE7452"></MemberCode>
+      <MemberCode guid="514777EE-D598-4265-AAE4-6BEEB6BC4481"></MemberCode>
+      <MemberCode guid="EDF044C4-D9C2-4C24-AC87-5903E189159F"></MemberCode>
+      <MemberCode guid="34A00169-2330-4797-86DA-C43F2444D0CD"></MemberCode>
+      <MemberCode guid="1D565ABD-3818-4205-A247-A7FB2EE6F1B1"></MemberCode>
+      <MemberCode guid="A73DFD30-EADC-45E2-B99D-70D22041141E"></MemberCode>
+      <MemberCode guid="5DABDC57-5ACE-4A1C-AA49-BFB49EC96900"></MemberCode>
+      <MemberCode guid="40EA6C81-7E08-4D77-AA1C-3A967D365CBC"></MemberCode>
+      <MemberCode guid="AAA4F995-8ACD-4215-BEA4-66C682614B79"></MemberCode>
+      <MemberCode guid="8F3861E2-5E30-4C1D-9E3A-25B6B64E1B9F"></MemberCode>
+      <MemberCode guid="2CB5E2FC-5015-48D2-88F9-1E4EE37C0E48"></MemberCode>
+      <MemberCode guid="80466D9B-70C4-435F-BCB3-73E44CE7175E"></MemberCode>
+      <MemberCode guid="DBD0E4E9-FEE5-48CB-AFF1-BB80AB3ABA3A"></MemberCode>
+      <MemberCode guid="2A248171-11E6-4782-A81C-FF6FFC060D2C"></MemberCode>
+      <MemberCode guid="E755FB9D-7954-4065-AC8C-C99809DD7480"></MemberCode>
+      <MemberCode guid="DFB73C9A-CBB7-4E9C-B00C-139D4C60A31F"></MemberCode>
+      <MemberCode guid="BB63BEE1-7190-46F2-8D16-F81B60DC41B4"></MemberCode>
+      <MemberCode guid="AF9F7866-1853-4AB2-AB8D-F0E290C8B327"></MemberCode>
+      <MemberCode guid="845634FA-16CB-4FE1-B888-4021B5770B62"></MemberCode>
+      <MemberCode guid="F2476432-68A0-4512-91FF-6FC3D8991809"></MemberCode>
+      <MemberCode guid="B98EA9BC-85CD-48AE-9F43-D677AE788C41"></MemberCode>
+      <MemberCode guid="FCD3C150-1FEF-4E69-B1F8-00D13F71B1AB"></MemberCode>
+      <MemberCode guid="B8A551C4-E231-4009-9908-C908D9FDDDF6"></MemberCode>
+      <MemberCode guid="A586D90F-CBAE-4A4B-9C0A-91E9F7B9CF0D"></MemberCode>
+      <MemberCode guid="EA06429E-81E7-4638-B66B-F1C968E6A45C"></MemberCode>
+      <MemberCode guid="F7F74605-C8A6-4694-A1CA-2EAD7920858A"></MemberCode>
+      <MemberCode guid="1E970FD2-40FA-4B48-8CF3-721408D0501F"></MemberCode>
+    </Set>
+  </Sets>
+</CodeBook>
