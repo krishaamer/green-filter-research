@@ -4,6 +4,7 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import networkx as nx
 import os
 data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
