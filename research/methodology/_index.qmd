@@ -1,3 +1,10 @@
+```{python}
+#| echo: false
+from methodology.charts import planned_behavior_chart
+import warnings
+warnings.filterwarnings("ignore")
+```
+
 ```{=mdx}
 import MyEmbed from '/src/components/Embed'
 import Figure from '/src/components/Figure'
@@ -6,11 +13,6 @@ import Methodology from '../images/methodology/research-methodology.png'
 import Everything from "../images/discussion/everything.png";
 import AppTestingFlow from '../images/testing/app-testing-flow.png'
 import Elephant from '../images/discussion/elephant.png'
-```
-```{python}
-from data.personas import planned_behavior_chart
-import warnings
-warnings.filterwarnings("ignore")
 ```
 
 # Methodology

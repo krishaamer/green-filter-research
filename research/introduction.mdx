@@ -12,7 +12,7 @@ suppress-bibliography: true
 export const quartoRawHtml =
 [`
 <table>
-<caption>Trending Narratives.</caption>
+<caption>Trending global narratives.</caption>
 <colgroup>
 <col style="width: 41%" />
 <col style="width: 58%" />
@@ -69,7 +69,7 @@ export const quartoRawHtml =
 </tr>
 <tr>
 <td>Count</td>
-<td>700</td>
+<td>900</td>
 </tr>
 </tbody>
 </table>
@@ -92,7 +92,7 @@ export const quartoRawHtml =
 </tr>
 <tr>
 <td>Count</td>
-<td>5</td>
+<td>7</td>
 </tr>
 </tbody>
 </table>
@@ -112,15 +112,64 @@ export const quartoRawHtml =
 <tbody>
 <tr>
 <td>What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance?</td>
-<td>Literature Review</td>
-</tr>
-<tr>
-<td>How can AI companions support college students with sustainability knowledge in the context of financial decisions?</td>
 <td>Literature Review and Expert Interviews</td>
 </tr>
 <tr>
+<td>How can AI companions support college students with sustainability knowledge in the context of financial decisions?</td>
+<td>Literature Review, Expert Interviews and Survey of College Students</td>
+</tr>
+<tr>
 <td>What AI companion features do college students prioritize as the highest?</td>
-<td>Survey of College Students</td>
+<td>Survey of College Students and Prototype Testing</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 26%" />
+<col style="width: 30%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr>
+<th>Lens</th>
+<th><strong>RQ1</strong>: Design Considerations</th>
+<th><strong>RQ2:</strong> Support Mechanisms</th>
+<th><strong>RQ3</strong>: User-Priority Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level of Abstraction</td>
+<td>High-level and comprehensive</td>
+<td>Mid-level (mechanisms)</td>
+<td>Concrete and granular</td>
+</tr>
+<tr>
+<td>Core Focus</td>
+<td><em>What should I keep in mind while building?</em></td>
+<td><em>How does the companion actually help students learn and decide?</em></td>
+<td><em>Which specific features matter most to students?</em></td>
+</tr>
+<tr>
+<td>Primary Stakeholder</td>
+<td>Designers / Developers</td>
+<td>End Users (College Students)</td>
+<td>End Users (College Students)</td>
+</tr>
+<tr>
+<td>Outputs</td>
+<td>Design guidelines, UX principles, tech constraints, ethical guardrails</td>
+<td>Framework of nudges, learning aids, information flows.</td>
+<td>Ranked feature list, must-have vs nice-to-have.</td>
+</tr>
+<tr>
+<td>Data Sources</td>
+<td>Literature Review and Expert Interviews</td>
+<td>Literature Review, Expert Interviews and Survey of College Students</td>
+<td>Survey of College Students and Prototype Testing</td>
 </tr>
 </tbody>
 </table>
@@ -161,11 +210,18 @@ with sustainability.
 />
 ````
 
-## Relevance
+## Relevance and Research Gap
 
-The research addresses the *“attitude-behavior gap”* among Taiwanese
-college students in taking sustainable financial action. Convergence of
-the following 5 trends makes my research timely in 2024.
+My research addresses the *“attitude-behavior gap”* among Taiwanese
+college students in taking sustainable financial action. In general,
+Icek Ajzen’s *Theory of Planned Behavior* frames the gap between
+attitude and behavior by showing that (1) attitude, (2) perceived social
+norms, and (3) perceived control, must all converge, before intention
+can translate into any action (Ajzen, 1991) - in this case, taking
+sustainable financial action.
+
+In terms of the global context, the convergence of the following 5
+trends makes my research timely in 2025.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
@@ -251,6 +307,10 @@ Experts (finance, design, sustainability).
 
 ## Research Questions
 
-My research answers the following questions.
+My research attempts to answer the following questions.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
+
+### Why These Research Questions?
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
