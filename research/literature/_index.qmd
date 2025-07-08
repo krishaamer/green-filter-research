@@ -1,16 +1,28 @@
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import Literature from '/research/images/literature/literature.png'
+import AllConcepts from '/research/images/literature/all.png'
 ```
 ## Literature Review
 
 The literature review branches out to 5 main directions and maps out relationships sources and the literature map, namely Taiwanese college students, generation-z demographics, sustainability, ecology, ecosystem services, EU legislation, sustainable finance, sustainable investing, savings, circular economy, economics, AI, existing sustainability, software, sustainability–related mobile apps (Apple iOS / Google Android), and web apps related to sustainable shopping, savings, and investing; apps using algorithmic interfaces (AI-based UI), design, UX/UI, service design, sustainable design, speculative design, interaction design, behavior change, nudge.
+
+The following chart shows a tiny portion of the papers considered in this research.
 
 ```{=mdx}
 <Figure caption="Example papers from the Literature Review" src={Literature} />
 ```
 ::: {.content-hidden unless-format="pdf"}
 ![Example papers from the Literature Review](./images/literature/literature.png){width="100%"}
+:::
+
+This is a more complete concept map of the topics relevant to my research.
+
+```{=mdx}
+<Figure caption="Nearly Complete Concept Map" src={AllConcepts} />
+```
+::: {.content-hidden unless-format="pdf"}
+![Nearly Complete Concept Map](./images/literature/all.png){width="100%"}
 :::
 
 ### Goals
