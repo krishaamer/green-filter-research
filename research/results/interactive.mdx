@@ -12,14 +12,32 @@ suppress-bibliography: true
 ````mdx-code-block
 import MyEmbed from '/src/components/Embed'
 import Figure from '/src/components/Figure'
+// On Momo
+import Momo from "/research/images/interactive/momo/momo.png";
+import Review from "/research/images/interactive/momo/review.png";
+import Save from "/research/images/interactive/momo/save.png";
+import Invest from "/research/images/interactive/momo/invest.png";
+// On Ziran
+import Home from "/research/images/interactive/companion/home.png";
+import ChatCompare from "/research/images/interactive/companion/chat-compare.png";
+import Factory from "/research/images/interactive/companion/factory.png";
+import FAQShop from "/research/images/interactive/companion/faq-shop.png";
+import FAQSave from "/research/images/interactive/companion/faq-save.png";
+import FAQInvest from "/research/images/interactive/companion/faq-invest.png";
+import Map from "/research/images/interactive/companion/map.png";
+import ChatAsk from "/research/images/interactive/companion/chat-ask.png";
+
 ````
 
 ## Prototype Development
 
-The interactive prototype is publicy available at the Google Chrome
-extensions store and separately at the website: https://ai.ziran.tw/
+The interactive prototype of Green Filter is publicly available at the
+Google Chrome extensions store and separately at the AI companion’s
+website. - Google Chrome Store:
+https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg -
+Website: https://ai.ziran.tw/
 
-### Prototype architecture
+### Prototype Architecture
 
 -   Google Chrome browser extension
 -   API microservice
@@ -28,8 +46,8 @@ extensions store and separately at the website: https://ai.ziran.tw/
 -   Ratings API
 -   Redis testing AI results
 -   Redis Page cache / from page / separate scraping service
--   Documentation: GreenFilter: thesis website / github
--   AI API got / Claude
+-   Documentation: Green Filter thesis website / GitHub
+-   AI API GPT / Claude
 -   Stock ratings API
 -   Community ratings API
 
@@ -38,7 +56,7 @@ track the usage - 7 app questions - 63 personality questions
 
 Other Tools Used: - QR generator in Canva - Postman for API testing
 
-### Google Chrome Extentsion App Installs
+### Google Chrome Extension App Installs
 
 While Google is the most popular browser with over 3.45 billion users
 (“Google Chrome Statistics for 2024,” 2023), extensions are a relatively
@@ -54,3 +72,104 @@ tablets).
 Figure 1: Green Filter Google Chrome Extension Installs
 
 </div>
+
+## Prototype Design and Features
+
+### Momo AI Extension
+
+````mdx-code-block
+<Figure
+  caption="Momo"
+  src={Momo}
+/>
+````
+
+#### Review
+
+````mdx-code-block
+<Figure
+  caption="Review"
+  src={Review}
+/>
+````
+
+#### Save
+
+````mdx-code-block
+<Figure
+  caption="Save"
+  src={Save}
+/>
+````
+
+#### Invest
+
+````mdx-code-block
+<Figure
+  caption="Invest"
+  src={Invest}
+/>
+````
+
+### AI Companion
+
+````mdx-code-block
+<Figure
+  caption="Home"
+  src={Home}
+/>
+````
+
+#### Factory
+
+````mdx-code-block
+<Figure
+  caption="Factory"
+  src={Factory}
+/>
+````
+
+#### Map
+
+````mdx-code-block
+<Figure
+  caption="Map"
+  src={Map}
+/>
+````
+
+#### FAQ
+
+````mdx-code-block
+<Figure
+  caption="FAQ Shop"
+  src={FAQShop}
+/>
+````
+````mdx-code-block
+<Figure
+  caption="FAQ Save"
+  src={FAQSave}
+/>
+````
+````mdx-code-block
+<Figure
+  caption="FAQ Invest"
+  src={FAQInvest}
+/>
+````
+
+#### Chat
+
+````mdx-code-block
+<Figure
+  caption="Chat Compare"
+  src={ChatAsk}
+/>
+````
+````mdx-code-block
+<Figure
+  caption="Chat Compare"
+  src={ChatCompare}
+/>
+````
