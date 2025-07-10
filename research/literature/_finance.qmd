@@ -1118,16 +1118,18 @@ Citywealth’s *"ESG branding with B-Corps"* guide shows how companies can lever
 
 ## Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
 
-In order to make a difference in sustainability, with large capital flowing into the environment at scale to deliver climate action, the markets for ecosystem assets would need to scale urgently, starting with carbon credits. BeZero is a startup innovating in the Voluntary Carbon Credit Market (VCM) by providing *risk-scoring*, a language financial professionals are accustomed to working with in other types of asset classes [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]. The VCM is limited by immature market structures, which means market participants still struggle to price and manage risk properly; BeZero ratings frames carbon credits in a probabilistic, risk-based language familiar to large investors who oversee roughly 200 Trillion USD of global assets [@bezeroFocusRatings2022].
+In order to make a difference in sustainability, with large capital flowing into the environment at scale to deliver climate action, the markets for ecosystem assets would need to scale urgently, starting with carbon credits. **BeZero** is a startup innovating in the Voluntary Carbon Credit Market (VCM) by providing *risk-scoring*, a language financial professionals are accustomed to working with in other types of asset classes [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]. The VCM is limited by immature market structures, which means market participants still struggle to price and manage risk properly; BeZero ratings frame carbon credits in a probabilistic, risk-based language familiar to large investors who oversee roughly 200 trillion USD of global assets [@bezeroFocusRatings2022].
 
-> *"The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information."* [@bezeroScalingCarbonMarkets2022]
+> *“The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information.”* [@bezeroScalingCarbonMarkets2022]
+
+Founded a few months before BeZero in early 2020, **Sylvera** tackles the same quality-signal problem in carbon, utilizing a scientific toolkit including analysis of high-resolution satellite imagery, LiDAR point clouds, and machine-learning models to assign granular AAA–D scores that break out carbon efficacy, additionality, permanence, and co-benefits; the company is active world-wide, including opening a regional hub in Singapore and holding an event earlier this year in Taiwan to promote carbon credit accountancy as a pathway to sustainability in collaboration with the Welhunt Group [@welhuntWelhuntSylveraCohost2025; @sylveraSylveraSingaporeEmpowering2023].
 
 | Bottleneck in VCM | BeZero | Carbonmark |
 |-------------------|------------------------|-----------------------------|
-| Hard to gauge quality and downside risk | Provides probabilistic ratings investors already understand | — |
-| Fragmented, slow, OTC trading | — | Consolidates registries, offers 24/7 liquidity and smart-contract settlement |
+| Hard to gauge quality and downside risk | Provides probabilistic ratings investors already understand | N/A |
+| Fragmented, slow, OTC trading | N/A | Consolidates registries, offers 24 / 7 liquidity and smart-contract settlement |
 | Need to move big capital fast | Gives financiers a common risk language | Cuts friction so large orders can clear quickly |
 
-: Bottlenecks in Carbon Markets
+*Bottlenecks in Carbon Markets*
 
-Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it's impossible to bring back already destroyed biodiversity which took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature. In a sense, climate action as an asset-liability problem, however the assets are non-fungible. They are rare and incredibly valuable.
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it is impossible to bring back already destroyed biodiversity that took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature. In a sense, climate action as an asset-liability problem, however the assets are non-fungible. They are rare and incredibly valuable.
