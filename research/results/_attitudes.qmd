@@ -75,7 +75,7 @@ correlation_network()
 
 ### Environmental Knowledge Ranking Experiment
 
-Test knowledge about the environment.
+Testing student knowledge about the environment. College students see coral reefs, tropical rainforests, and wetlands as the most sensitive ecosystems, aligning with global climate narratives. However, the long tail of unique combos suggests mixed ecological knowledge and a strong opportunity to educate and personalize ecosystem awareness, especially in a Taiwanese context.
 
 ```{python}
 #| label: fig-survey-envir-know
@@ -83,5 +83,3 @@ Test knowledge about the environment.
 #| fig-scap: "Students' Environmental Knowledge"
 ecosystem_sensitivity()
 ```
-
-Design implications: - A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories - Majority don't fly much: don't focus on flights.
