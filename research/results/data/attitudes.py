@@ -64,8 +64,7 @@ def likert_charts():
         plt.show()
 
 def likert_single_chart(category_index):
-
-    # Retrieve the category key from the index
+    # --- Prep ---------------------------------------------------------------
     categories = list(likert_fields.keys())
     if category_index < 0 or category_index >= len(categories):
         print("Invalid category index")
@@ -78,38 +77,57 @@ def likert_single_chart(category_index):
         for i, field in enumerate(likert_fields[selected_category])
     })
 
-    # Calculate the number of rows needed for this category
     fields = likert_fields[selected_category]
     num_fields = len(fields)
     num_rows = -(-num_fields // 2)  # Equivalent to ceil(num_fields / 2)
 
-    # Create subplots with 2 columns for this category
-    fig, axs = plt.subplots(num_rows, 2, figsize=(15, 5 * num_rows))
-    axs = axs.flatten()  # Flatten the array of subplots
+    # Pre-compute response counts (non-NA rows) for every item
+    respondent_counts = {
+        field: df_translated[f"{field} ({field_translation_mapping[selected_category][i]})"].notna().sum()
+        for i, field in enumerate(fields)
+    }
+    # Overall N for this category (largest n among its items)
+    total_n = max(respondent_counts.values())
 
     # Add padding to fit in the Chinese titles
+    fig, axs = plt.subplots(num_rows, 2, figsize=(15, 5 * num_rows))
+    axs = axs.flatten()
     plt.subplots_adjust(hspace=0.4)
 
     # Loop through each field in the category to create individual bar plots
     for i, field in enumerate(fields):
+        col_name = f"{field} ({field_translation_mapping[selected_category][i]})"
         sns.countplot(
-            x=f"{field} ({field_translation_mapping[selected_category][i]})", data=df_translated, ax=axs[i], palette=sns.color_palette("pastel"), saturation=1)
+            x=col_name,
+            data=df_translated,
+            ax=axs[i],
+            palette=sns.color_palette("pastel"),
+            saturation=1,
+        )
 
-        # Add title and labels
-        title_chinese = field
-        title_english = field_translation_mapping[selected_category][i]
+        # Build title with bilingual text + N
+        title_ch = field
+        title_en = field_translation_mapping[selected_category][i]
+        n = respondent_counts[field]
         axs[i].set_title(
-            f"{title_chinese}\n{title_english}", fontproperties=chinese_font) 
-        axs[i].set_xlabel('← Disagreement — Neutral — Agreement →')
-        axs[i].set_ylabel('Frequency')
+            f"{title_ch} (n={n})\n{title_en}",
+            fontproperties=chinese_font
+        )
+        axs[i].set_xlabel("← Disagreement — Neutral — Agreement →")
+        axs[i].set_ylabel("Frequency")
 
-    # Remove any unused subplots
+    # Remove any unused axes
     for i in range(num_fields, num_rows * 2):
         fig.delaxes(axs[i])
 
-    # Show the plot
-    plt.show()
+    # Add a figure-level title showing overall respondents
+    fig.suptitle(
+        f"{selected_category} — total respondents: {total_n}",
+        fontsize=16,
+        y=1.02,
+    )
 
+    plt.show()
 
 def correlation_network():
     

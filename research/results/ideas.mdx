@@ -10,7 +10,83 @@ suppress-bibliography: true
 
 
 export const quartoRawHtml =
-[`<Figure caption="Sustainability Watch" src={Watch} />`];
+[`<Figure caption="Sustainability Watch" src={Watch} />`,`
+<table>
+<caption>Categorizing early feature ideas by purpose and rationale.</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Type of Feature</th>
+<th>Specific Features</th>
+<th>Purpose</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Transparency &amp; Impact Intel</strong></td>
+<td><strong>True Cost, How Far?, Country Profiles, KYC</strong></td>
+<td>Surface hard-to-see facts so choices feel data-backed</td>
+<td>Make sense of complex sustainability data, so the user can quickly grasp hidden externalities, supply-chain distance, CO2 footprints, or a comapny’s ESG record.</td>
+</tr>
+<tr>
+<td><strong>Personal Coach &amp; Nudge Engine</strong></td>
+<td><strong>Susan Chatbot, Sustainability Watch, Narrative Layouts</strong></td>
+<td>Give real-time, context-aware advice that steers decisions</td>
+<td>These features work like a pocket mentor: chat UI, wearable devices, or daily storylines that nudge the user toward greener action.</td>
+</tr>
+<tr>
+<td><strong>Social &amp; Collective Flex</strong></td>
+<td><strong>Sunday Market, Shopping Divest, CO₂ Flex</strong></td>
+<td>Use friends, status, or crowd power to boost motivation</td>
+<td>These ideas thrive on group shopping, community leaderboards, or brag-worthy carbon “badges,” focusing on social proof and friendly competition.</td>
+</tr>
+</tbody>
+</table>
+`,`
+<table>
+<caption>Early feature ideas mapped to Theory of Planned Behavior.</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Type of Feature</th>
+<th>TPB Construct</th>
+<th>Meaning</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Transparency &amp; Impact Intel</strong></td>
+<td><strong>Attitude towards the behavior</strong></td>
+<td><em>“Do I think acting sustainably is good and worth it?”</em></td>
+<td>By exposing hidden costs, supply-chain distance, and ESG scores, these features shape positive (or negative) evaluations of a purchase.</td>
+</tr>
+<tr>
+<td><strong>Personal Coach &amp; Nudge Engine</strong></td>
+<td><strong>Perceived behavioral control</strong></td>
+<td><em>“Can I actually pull this off?”</em></td>
+<td>Real-time tips from Susan or a smartwatch lower friction, boosting a user’s sense that greener behaviour is doable.</td>
+</tr>
+<tr>
+<td><strong>Social &amp; Collective Flex</strong></td>
+<td><strong>Subjective norms</strong></td>
+<td><em>“Do the people around me expect this?”</em></td>
+<td>Sunday-Market meet-ups, carbon badges, and community feeds make sustainable choices visible and socially reinforced.</td>
+</tr>
+</tbody>
+</table>
+`];
 
 ````mdx-code-block
 import MyEmbed from '/src/components/Embed'
@@ -31,7 +107,7 @@ directing the questions asked in a potential user survey.
 
 *What if* I could have a chat like this at the supermarket? Imagine what
 questions I would ask before buying a product. AI: “Kris, do you still
-remember Coca Cola’s packaging is a large contributor to ocean plastic?
+remember Coca-Cola’s packaging is a large contributor to ocean plastic?
 You even went to a beach cleanup!” Me: “That’s so sad but it’s tasty!”
 AI. “Remember your values. Would you like to start saving for investing
 in insect farms in Indonesia instead? Predicted return 4% per year,
@@ -105,7 +181,7 @@ that address critical sustainability issues.
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fx2OIzYHACJTr6xnzHkrdeQ%2FCountry-Profiles%3Fnode-id%3D0%253A1%26t%3DW82SgRzgzbAaHImo-1" text="Loading Country Profiles..." />
 
-## Know Your Company (KYC)
+### Know Your Company (KYC)
 
 *What if* I could KYC the companies I interact with? This is a common
 practice for banks, they need to KYC “Know Your Client”. As a consumer,
@@ -162,3 +238,13 @@ others, perhaps we could collectively amplify the positive impact of our
 eco-conscious decisions.
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fw7LqdSzACgz9ghuTcrSxgk%2FDivest%3Fnode-id%3D0%253A1" text="Loading Shopping Divest..." />
+
+## Mapping Feature Ideas to Theory of Planned Behavior
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
+
+While these feature ideas were developed independently, before I knew
+the Theory of Planned Behavior existed, the following is an attempt to
+organize the features according to TPB constructs.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />

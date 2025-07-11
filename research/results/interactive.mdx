@@ -26,23 +26,26 @@ import FAQSave from "/research/images/interactive/companion/faq-save.png";
 import FAQInvest from "/research/images/interactive/companion/faq-invest.png";
 import Map from "/research/images/interactive/companion/map.png";
 import ChatAsk from "/research/images/interactive/companion/chat-ask.png";
-
 ````
 
 ## Prototype Development
 
 The interactive prototype of Green Filter is publicly available at the
 Google Chrome extensions store and separately at the AI companion’s
-website. - Google Chrome Store:
-https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg -
-Website: https://ai.ziran.tw/
+website.
+
+-   Google Chrome Extension Store:
+    https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg
+    -
+
+-   Green Filter “Ziran AI” Website: https://ai.ziran.tw/
 
 ### Prototype Architecture
 
 -   Google Chrome browser extension
--   API microservice
+-   API micro-service
 -   Ziran AI
--   AI backend
+-   AI back-end
 -   Ratings API
 -   Redis testing AI results
 -   Redis Page cache / from page / separate scraping service
@@ -51,10 +54,21 @@ Website: https://ai.ziran.tw/
 -   Stock ratings API
 -   Community ratings API
 
-70 Questions - Use report ID to do anonymous testing - Page tracking to
-track the usage - 7 app questions - 63 personality questions
+70 Questions
 
-Other Tools Used: - QR generator in Canva - Postman for API testing
+-   Use of *Report ID* to do anonymous testing
+
+-   Page tracking to track the usage -
+
+-   7 app questions
+
+-   63 personality questions
+
+Other Tools Used:
+
+-   QR generator in Canva
+
+-   Postman for API testing
 
 ### Google Chrome Extension App Installs
 
@@ -140,24 +154,38 @@ Figure 1: Green Filter Google Chrome Extension Installs
 
 #### FAQ
 
+The AI companion lists a number of basic questions to prompt the user to
+start a conversation. Feasibly, these could be personalized as the AI
+better understand the user and their experience thus far.
+
 ````mdx-code-block
 <Figure
   caption="FAQ Shop"
   src={FAQShop}
 />
 ````
+
+Everything starts with shopping; this is the first use-case for money.
+
 ````mdx-code-block
 <Figure
   caption="FAQ Save"
   src={FAQSave}
 />
 ````
+
+One the user begins saving money, they’ll have a source of funds to
+direct to investing.
+
 ````mdx-code-block
 <Figure
   caption="FAQ Invest"
   src={FAQInvest}
 />
 ````
+
+Investing is the last, and most complicated step. This is where user
+probably needs the most help.
 
 #### Chat
 

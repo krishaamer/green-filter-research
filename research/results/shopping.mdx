@@ -12,7 +12,74 @@ suppress-bibliography: true
 
 
 export const quartoRawHtml =
-[`<div>
+[`
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 26%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Question</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><em>Would you still buy a tomato if you suspected it was picked by forced labor?</em></td>
+<td>Most respondents chose <strong>2</strong> or <strong>1</strong> which I interpret as <em>“Nope, I wouldn’t buy it.”</em> - only a small fraction of the respondents choosing 4-5 would ignore the labor issue.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><em>Do you care about food safety?</em></td>
+<td>The choices peaks at <strong>4</strong>, then <strong>5</strong>. Nearly everyone is on the caring side; indifference and denial are tiny.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><em>Will you buy a car within 7 years?</em></td>
+<td>The mode is <strong>1</strong>, plus decent counts at <strong>2</strong>. A clear majority of respondents do <strong>not</strong> expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><em>Will you buy a house within 7 years?</em></td>
+<td>Even more lopsided: a mountain at <strong>1</strong>. Housing feels out of reach for the respondents.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><em>Do you know if a product is environmentally friendly when shopping?</em></td>
+<td>Bell-ish curve peaking at <strong>3-4</strong>. People feel <strong>some</strong> awareness, but confidence isn’t universal. This might also reflect they don’t fully understand the question.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><em>Do you think companies with environmental certifications are better?</em></td>
+<td>Strong skew right: bars climb from 3 → 4 → 5. The badge matters and most respondents see certified firms as the good guys.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><em>Do you support a meat tax?</em></td>
+<td>Centered on <strong>3</strong>, with noticeable flanks at 2 and 4. Opinion is split; lots are neutral, some yay, some nay. Again, this might indicate respondents don’t fully understand the question.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><em>Do you care about the living conditions of chickens you consume?</em></td>
+<td>Mode at <strong>3</strong>, healthy bump at <strong>4</strong>. People lean caring, but not super strongly.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><em>Do you avoid eating meat?</em></td>
+<td>Tall stack on <strong>1</strong>, smaller on <strong>2</strong>. So most <strong>do not</strong> avoid meat; only a sliver sits at 4-5.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><em>Do you think your spending affects the environment?</em></td>
+<td>Big jump at <strong>4</strong>, next at <strong>5</strong>, tiny left tail. Consensus: “My wallet choices matter.” This is an important finding to justify <em>Green Filter</em>.</td>
+</tr>
+</tbody>
+</table>
+`,`<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -176,7 +243,7 @@ export const quartoRawHtml =
 <p>248 rows × 2 columns</p>
 </div>`];
 
-## Shopping
+## Shopping Attitudes
 
 <div id="fig-survey-student-shopping">
 
@@ -185,6 +252,10 @@ export const quartoRawHtml =
 Figure 1: College Student Attitudes Towards Shopping
 
 </div>
+
+Interpreting the findings.
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 ### Boycott Count (Overall)
 
@@ -196,15 +267,15 @@ Figure 2: College Students Boycott Experience
 
 </div>
 
-### Why Boycott
+### Why Boycott?
 
 <div id="fig-survey-student-boycott-reasons">
-
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[2] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
 
 Figure 3: College Students Boycott Reasons
 
@@ -214,11 +285,11 @@ Figure 3: College Students Boycott Reasons
 
 <div id="fig-survey-student-trusted-brands">
 
-<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[3] }} />
-
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[5] }} />
+
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[6] }} />
 
 Figure 4: College Student Trusted Brands
 
