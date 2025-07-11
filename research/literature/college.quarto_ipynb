@@ -1,0 +1,569 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Students\n",
+        "sidebar_position: 1\n",
+        "editor:\n",
+        "    render-on-save: false\n",
+        "CJKmainfont: STSong\n",
+        "CJKoptions:\n",
+        "  - BoldFont=STHeiti\n",
+        "  - ItalicFont=STKaiti\n",
+        "---"
+      ],
+      "id": "5d420b5f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import sys\n",
+        "sys.path.append('..')"
+      ],
+      "id": "e5060dd5",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot\n",
+        "import warnings\n",
+        "warnings.filterwarnings(\"ignore\")"
+      ],
+      "id": "5a5679e9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "```{=mdx}\n",
+        "import Figure from \"/src/components/Figure\";\n",
+        "import Geneve from \"../images/college/geneve.jpg\";\n",
+        "import FinancialLiteracyYouTube from \"../images/college/taiwan-financial-literacy-youtube.png\";\n",
+        "import Taipei from \"../images/college/taipei.jpg\";\n",
+        "```\n",
+        "# Young Adults and College Students\n",
+        "\n",
+        "## Student Protests for Climate Justice: The World and Taiwan\n",
+        "\n",
+        "In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. In 2019, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].\n",
+        "\n",
+        "::: {.content-hidden unless-format=\"pdf\"}\n",
+        "![Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width=\"100%\"}\n",
+        ":::\n",
+        "\n",
+        "```{=mdx}\n",
+        "<Figure\n",
+        "  caption=\"Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future\"\n",
+        "  src={Geneve}\n",
+        "  refURL=\"https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg\"\n",
+        "  refTitle=\"Wikimedia Commons\"\n",
+        "/>\n",
+        "```\n",
+        "In Indonesia, which had large protests at the time, now 7 years later activists are expressing disillusionment and frustration with the lack of progress and upholding environmental promises. [@dwitamaraGenClimateJustice2025] reports on a survey of 382 Gen-Z respondents in 5 areas of Jakarta, with 99.5% of the respondents having experienced extreme weather events first-hand, highlighting how respondents were affected by climate-related calamities, such as frequent flooding, which led to students missing school days, - education which they are entitled to. The Sharm El Sheikh climate policy implementation [@unfcccSharmElSheikhImplementation2023] text refers to \"human right to a clean, healthy and sustainable environment\". In Portugal, Estonia, and elsewhere young people have moved on from strikes to actually taking legal action at the courts suing companies for the environmental problems they have caused [@florIstoNaoAcaba2024].\n",
+        "\n",
+        "::: {.content-hidden unless-format=\"pdf\"}\n",
+        "![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width=\"100%\"}\n",
+        ":::\n",
+        "\n",
+        "```{=mdx}\n",
+        "<Figure\n",
+        "  caption=\"Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters\"\n",
+        "  src={Taipei}\n",
+        "  refURL=\"https://newbloommag.net/2019/05/24/fridays-for-future-protest/\"\n",
+        "  refTitle=\"New Bloom Magazine\"\n",
+        "/>\n",
+        "```\n",
+        "Meanwhile, as the climate-justice protests unfolded around the world, in Taiwan, the Fridays for Future protests were very small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile 2000 Taiwanese students joined the initative by participating in environmental activities without protesting [@daiQuanQiuDeLu2019]. This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing stability, hierarchical relationships, academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. [@changClimateStrikeNot2022] goes a step further to say that Taiwanese youth are effectively unable to stage formal “strikes” due to intersecting cultural constraints: obsession with academic performance, low awareness of legal strike rights, and parental intervention — so they instead reframe actions as campus “climate actions,” exercising agency within those limits. In addition, both Confucianism and Daoism, the prevalent belief systems in Taiwan, affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].\n",
+        "\n",
+        "## Taiwanese Educational System in Numbers\n",
+        "\n",
+        "Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024]."
+      ],
+      "id": "3628184a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-tw-high-ed-enrollment\n",
+        "#| fig-cap: Enrollment in Taiwanese Higher Education\n",
+        "#| fig-scap: Enrollment in Taiwanese Higher Education\n",
+        "genz_enrollment_chart()"
+      ],
+      "id": "fig-tw-high-ed-enrollment",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024]."
+      ],
+      "id": "6e648118"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-tw-high-ed-funding\n",
+        "#| fig-cap: Funding for Taiwanese Higher Education\n",
+        "#| fig-scap: Funding for Taiwanese Higher Education\n",
+        "college_decline_chart()"
+      ],
+      "id": "fig-tw-high-ed-funding",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "While the overall number of students is declining, the share of international students is increasing."
+      ],
+      "id": "3f8ccce7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-tw-high-ed\n",
+        "#| fig-cap: Demographics of Taiwanese Higher Education\n",
+        "#| fig-scap: Demographics of Taiwanese Higher Education\n",
+        "higher_education_chart()"
+      ],
+      "id": "fig-tw-high-ed",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Designing for College Students: Developing Personas\n",
+        "\n",
+        "Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. High levels of technology adoption worldwide [@deyangeorgiev39SmartphoneStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022].\n",
+        "\n",
+        "Designing for College Students: Developing Personas. User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes. Humans have a long list of cognitive biases, which a good design should take into account.\n",
+        "\n",
+        "Many general observations can be made, however to create meaningful personas, these should be backed up with data. Students ride bicycles and scooters. Many circular economy service such as YouBike and transport sharing platforms like Uber are available in Taiwan. Many students live in dorms and shared housing, meaning their impact per square meter is low.\n",
+        "\n",
+        "## Taiwanese Youth in Global Context: Sustainability Attitudes From Eco-Friendly Diet to Climate Action\n",
+        "\n",
+        "Addressing the Research Gap When it Comes to Taiwanese College Students. There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regard to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.\n",
+        "\n",
+        "[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Postmaterialist Index Comparison*, noting Taiwanese society is materialistic."
+      ],
+      "id": "fce3f983"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-postmat-index\n",
+        "#| fig-cap: Postmaterialist Index across 59 countries (Taiwan highlighted)\n",
+        "#| fig-scap: Postmaterialist Index (Taiwan Highlighted)\n",
+        "postmaterialist_chart()"
+      ],
+      "id": "fig-postmat-index",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "World Values Survey"
+      ],
+      "id": "0eaaab54"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-world-values\n",
+        "#| fig-cap: World Values Survey\n",
+        "#| fig-scap: World Values Survey\n",
+        "world_values_chart()"
+      ],
+      "id": "fig-world-values",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "[@franzenDevelopmentGlobalEnvironmental2024] measures *\"mean environmental concern\"* to look at decade-level changes in societal environmental attitudes across countries. Taiwan's general attitudes have stayed almost the same (slight increase). The UK has had the largest jump in concern. Curiously, South Korea has had a slight decrease in concern. Slovakia and Russia were not very concerned with the environment a decade ago and are even less concerned now.\n",
+        "\n",
+        "A large, global-scale study by [@anthonyleiserowitzInternationalPublicOpinion2022] administered on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *\"climate change is mostly caused by human activities\"*."
+      ],
+      "id": "949514ff"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-global-climate-attitudes\n",
+        "#| fig-cap: Global Attitudes Towards Climate Change\n",
+        "#| fig-scap: Global Attitudes Towards Climate Change\n",
+        "mean_global_attitudes()"
+      ],
+      "id": "fig-global-climate-attitudes",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "The largest study to date, conducted by the United Nations across 50 countries, surveying 1.2 million people, distributed through mobile game ads, showed the majority of people agreeing climate change is an \"emergency\" [@undpPeoplesClimateVote2021].\n",
+        "\n",
+        "|           |       |                     |\n",
+        "|-----------|-------|---------------------|\n",
+        "| Age Group | Agree | Neutral or Disagree |\n",
+        "| 18-35     | 65%   | 35%                 |\n",
+        "| 36-59     | 66%   | 34%                 |\n",
+        "| Over 69   | 58%   | 42%                 |\n",
+        "\n",
+        "Table: 1.2 million UN survey responses to the statement \"Climate change is an emergency\". []{short-caption=\"UN Survey: 1.2 Million Responses to *Climate Change Is An Emergency*\"}\n",
+        "\n",
+        "At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n =596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n = 328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n = 536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].\n",
+        "\n",
+        "At the university level, [@chenMarineEnvironmentalAwareness2016] reports a *positive attitude yet moderate knowledge* about *ocean sustainability* among Taiwanese college students (n = 825). [@liuDigitalCapabilityDigital2023] studied sustainability behavior of Taiwanese University students, reporting the COVID-19 pandemic, in addition to prevalence of health issues, also spurred more attention on environmental topics. In a similar vein, the devastating nuclear disaster in Fukushima, Japan, after 2011 earthquake, had an effect on Taiwanese energy and sustainability education [@TiChuTan2011]. Taiwanese government launched the Sustainable Council in 1997 to promote of environmental and sustainable development; a survey of university-level teachers (n = 100) in central Taiwan (Taichung, Changhua, and Yunlin) shows a positive attitude toward environmental sustainability among teachers however implementation of environmental sustainability practices is from low to medium range [@FenXi2015]. Taiwanese government has also launched funding for University Social Responsibility (USR) programs to train college students in social innovation and local revitalization [@chenSocialInnovationTaiwan2023; @liuRolesTaiwaneseUniversities2022]. In general, it could be concluded, Taiwanese students and teachers at all levels of education have a positive attitude towards sustainability (Note: which is not a very actionable finding).\n",
+        "\n",
+        "Comparing college students' education for sustainable development (ESD) in Taiwan (n = 617) and Sweden (n = 583) found Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform [@berglundCrossculturalComparativeStudy2020]."
+      ],
+      "id": "1b893ef7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-tw-swe\n",
+        "#| fig-cap: Comparing college students' education for sustainable development in Taiwan and Sweden\n",
+        "#| fig-scap: 'College Students'' Sustainability Education: Taiwan vs Sweden'\n",
+        "compare_taiwan_sweden()"
+      ],
+      "id": "fig-tw-swe",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "An older study in 5 university in Taipei and Taichung (n = 255) found 78.04% of respondents consumed beef in the month prior and were concerned with food safety, freshness, and quality [@hsuEffectFamilyBeef2014]. [@thiagarajahPlantbasedDietsWhat2017] reports a general observation in their abstract (I was unable to access the full study) that most college students in all observed countries including Taiwan (n = 534) regarded \"*plant-based diets to have health benefits\"*. A focus on a healthy and sustainable diet is important, as the prevalent trend among Taiwanese Gen-Z, is increasing obesity, with the latest data available from 2020; the newest, 3rd wave national health survey results are still pending [@PengQiaoZhen2023; @chiuWeightProblemsRise2022; @RenBao2022]. Recent nationwide data show that 70% of common bottled drinks (n = 341) marketed to youth in Taiwan exceed the warning threshold for *\"high sugar\"* (> 5 g/100 mL), and a single serving of 42% of the drinks (> 25 g sugar per bottle) contained the entire daily sugar limit prescribed by the World Health Organization (WHO) [@yenSugarContentWarning2022].\n",
+        "\n",
+        "Internationally, there is extensive research on the attitudes of college students towards climate change. [@americanpressinstituteKnowingNewsHow2022] reports only 37% percent of U.S. Gen-Z and Millennials follow news related to environmental issues. [@schwartzClimateChangeAnxiety2022] reports some adult U.S. students in a small study (18-35, n = 284) express feelings of insignificance of their actions to achieve any meaningful impact. [@thomaesGreenTeensUnderstanding2023] reports U.S. adolescents don't find sustainability relevant to their daily life. [@rossClimateChangeChallenge2016] says most people in the U.S. don't act on climate change. \"Action on climate change has been compromised by uncertainty, aspects of human psychology\".\n",
+        "\n",
+        "[@creditsuisseYoungConsumersMay2022] suggests young consumers are more eco-friendly and drive the speed of change. Yet the Economist has run a few anonymous articles calling gen-z green ideals into question [@theeconomistHowSellYoung2023; @HowGenMillennials2023]. [@woodGenCaresSustainability2022] suggests in the U.S. Gen-Z is willing to pay 10% more for ethically goods, spend 24% more on sustainable products than Generation X and 75% of Gen Z would prioritize sustainability over brand loyalty. Meanwhile, Gen-Z in the U.S. are heavy users of online fashion shopping, Chinese cheap online store Shein overtakes Amazon as the most downloaded shopping app, while clothes resale apps such as Depop and ThredUp grow in popularity [@alexreiceMostEcoconsciousGeneration2021]. It worth noting, Taiwan is also a growing market for luxury brands [@karatzasConsumersPerceptionsComplexity2019].\n",
+        "\n",
+        "[@manchandaCultivatingSustainabilityConsciousness2023] survey (n = 726) administered at shopping malls in New Delhi, India, found similar levels of sustainability consciousness between Millennial (n = 206) and Generation-Z (n = 360) age groups; people with high level of materialism were found to be less sustainability-conscious; the effect of mindfulness on sustainability was found to be stronger among females than males, supporting the hypothesis of the moderating effect of gender.\n",
+        "\n",
+        "## The Experience of Climate Change and Pollution Levels in Taiwan\n",
+        "\n",
+        "Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].\n",
+        "\n",
+        "Similarly to how Northern Europe, including Estonia, is affected by the Gulf Stream, making the climate warmer, Taiwan is affected by the Kuroshio (黑潮) warm current of the Pacific Ocean, which helps regulate the climate and marine ecosystem of the region. The strength and trajectory of the Kuroshio is influenced by Rossby planetary waves, driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Going back on a larger time scale, biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021].\n",
+        "\n",
+        "In addition to climate extremes, Taiwanese college students are subjected to high levels of pollution. University campuses are somewhat healthier than other areas. There are several decades of research on pollution levels in Taiwan, most with very scary correlations to health. Taiwan air pollution, the worst (highest PM2.5 concentration) were found in Changhua (24.5 µg/m³), Tainan (20.9 µg/m³), and Pingtong (20.7 µg/m³) [@changhsiung-fengTaiwanAir45th2024].\n",
+        "\n",
+        "There have been concerns about food safety in Taiwan, with prominent cases reported in the media and documented in academic literature, where organic toxins and chemical pollution have entered the food system [@yangTaiwanFoodScandal2013; @liPlasticizerIncidentIts2012; @leeFoodPoisoningScare2024].\n",
+        "\n",
+        "A recent study demonstrate extreme industrial pollution in numerous sites at the Hsinchu’s Xiang Shan wetland (香山濕地) in Northern Taiwan, yet considers ecological risk threat to nature and wildlife to be \"moderate\" [@salah-tantawyMultivariateAnalysesEvaluate2025]. In contrast, [@LiGuiMeiBan2022] reports Taiwan’s semiconductor industry employs undisclosed toxic chemicals under trade-secret claims, which have not undergone comprehensive health and environmental risk assessments. Previously, [@liuPedogeochemicalDistributionGallium2021] reported sediment analyses at the Xiang Shan wetland found levels of gallium (Ga) ranging from 9,460 to 23,450 µg/kg (severe contamination) and indium (In) from 4.77 to 37.1 µg/kg (moderate contamination), amounts which are above natural baselines, indicating industrial chemical runoff. Earlier studies of semiconductor wastewater from waterways downstream of the Hsinchu Science Park (which houses over 450 companies' manufacturing facilities) have shown high amounts of at least 14 heavy metals, with levels of tungsten reaching 400 μg/L in contrast to the average river concentration of \\<0.1 μg/L [@hsuTungstenOtherHeavy2011]. The oldest study considered here also found high levers of arsenic pollution in groundwater [@chenGalliumIndiumArsenic2006]. It's safe to say, in conclusion, the chemical runoff from manufacturing is a reality documented by several studies, however the negative health effects have not yet been clearly established - and studies of other, less prominent industrial areas of Taiwan, are severely lacking.\n",
+        "\n",
+        "The table below illustrates the types of emissions and environmental impacts large corporations in Taiwan produce. It should be noted, some of the corporations do buy carbon credits to offset their local adverse impact; for instance, 台積電 TSCM has purchased carbon credits, renewable energy, invested in the Taiwan Carbon Exchange to support greener companies, and joined international reporting initiatives, such as the Task Force on Climate related Financial Disclosures (TCFD) and Taskforce on Nature-related Financial Disclosures (TNFD) [@tsmcQiHouJiZiRan2023].\n",
+        "\n",
+        "| Company | 2023 Mt CO~2~eq | Notable Problems | Data Source |\n",
+        "|-------------------|-----------------:|------------------|------------------|\n",
+        "| 台電 Taipower | **93.33** | A single power plant in Taichung produces 26 Mt CO~2~eq | @JinZhouKanCOP29TaiZhong2024 |\n",
+        "| 台塑化 (台塑集團) Formosa Petrochemical | **24.23** | 16 cases of fires and explosions between 2010 and 2020 | @OuYuXiang2023 |\n",
+        "| 中鋼 China Steel | **18.07** | 60% of theCO~2~eq emissions come from 1 steel mill in Kaohsiung | @XiaoTingFangKongQiPin2021; @HuanJingZiXunZhongXinJiZheZongT2022 |\n",
+        "| 台積電 TSMC | **11.42** | Extreme water consumption used 82.82 Mt of water in 2022, straining local reservoirs and requiring water-truck deliveries during droughts | @JinZhouKanCOP29TaiZhong2024; @ShangShiGongSiYongShui2022; @ZhongYangSheZhuKe5212021; @tscmShuiGuanLi2019 |\n",
+        "| 台灣中油 CPC | N/A | From 2019 to 2023 paid government air pollution penalties 146 times; there were 4 fire incidents as well as 3 odor leakages in 2022 | @LuSeGongMinXing2022; @2022NianKongShuiWu |\n",
+        "| 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |\n",
+        "| 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |\n",
+        "\n",
+        "Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption=\"Large Industrial Polluters in Taiwan\"}\n",
+        "\n",
+        "## Climate Anxiety Responses\n",
+        "\n",
+        "A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action. A large worldwide study in (n = 10000, aged 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in 10 countries: Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n = 1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: \"In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap.\"\n",
+        "\n",
+        "[@osakaWhyClimateDoomers2023] argues *doomerism* is an excuse for climate in-action. Hope is necessary for people to make changes in their habits [@marlonHowHopeDoubt2019]. [@seabrookMusicTherapyEra2020] suggests music therapy is useful in the era of climate crisis, evolving to meet current needs of young people. [@kjaergardHealthSustainability2014] shows how *\"understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health\"*.\n",
+        "\n",
+        "A recent special issue of Behavioral Sciences' magazine on Behavioral Science for Climate Change (2025) provides further evidence. A review of 50 studies supports the idea that climate activism shifts public opinion towards climate concern [@thomas-waltersImpactsClimateActivism2025]. Climate change negative affect braing health through heat, air pollution, extreme weather; the study finds links to neurological, psychiatric, and cognitive disorders [@todorovaNeuroscienceClimateAction2025].\n",
+        "\n",
+        "When disaster hits we need high levels of *social trust*. Being part of community of trust makes it easier to act in unison. Religion is a type of community of trust. Conversely, that can also have negative effects, as in Taiwan the expected behavior of burning joss sticks and paper money, is a cause of air pollution [@tangRitualBurningThreatens2014]\n",
+        "\n",
+        "Psychological factors influencing millennials to engage with sustainability [@naderiMeFirstThen2018]"
+      ],
+      "id": "4a7ec7d8"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-mil-psych-sust\n",
+        "#| fig-cap: Psychological factors influencing millennials to engage with sustainability\n",
+        "#| fig-scap: Psychological Factors Influencing Millennials to Engage with Sustainability\n",
+        "green_millenials()"
+      ],
+      "id": "fig-mil-psych-sust",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Attitude-Behavior Gap\n",
+        "\n",
+        "While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. Translating eco-conscious attitudes into concrete sustainable actions remains challenging. Empirical evidence illustrates this gap between intention and behavior. [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].\n",
+        "\n",
+        "However, changing habits is important if technology alone is not the solution. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can resolve all environmental problems. Even with good intentions, [@munroSustainableAttitudebehaviorGap2023] finds shoppers who try to shop sustainably often fail to find sustainable product, in a systemic literature review of 64 papers from South Korea, Australia, the UK, the US, and elsewhere.\n",
+        "\n",
+        "McKinsey’s *Talk is Cheap* study underscores the same paradox at scale: more than 60% of global consumers say they are willing to pay extra for sustainable products, yet in reality most wouldn't pay a premium greater than about 10% [@freundtHowMuchWill2024]. A robust willingness-to-pay (WTP) literature tells a similar story. A 2021 meta-analysis covering 80 studies finds the average stated premium for sustainable food products is 29.5%; however, hypothetical surveys often overstate WTP relative to real-purchase experiments [@liKallasMetaWTP2021]. In contrast, PwC’s 2024 *Voice of the Consumer* survey, based on 20000 respondents in 31 countries, reports a far more modest mean sustainability premium of 9.7% that consumers are willing to pay, once inflation is factored in [@pwcVoiceConsumer2024]. \n",
+        "\n",
+        "In short, people want eco-products but are largely price-sensitive.\n",
+        "\n",
+        "## Sustainability in Taiwan: Garbage Trucks and Digital Receipts\n",
+        "\n",
+        "Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.\n",
+        "\n",
+        "The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: *\"garbage island\"*, for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].\n",
+        "\n",
+        "Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.\n",
+        "\n",
+        "[@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.\n",
+        "\n",
+        "## Trends in Taiwanese Industry and Online Shopping\n",
+        "\n",
+        "In the intensifying competition of online shopping in Taiwan, [@momovscoupang2024] predicts Momo and Coupang will compete for Taiwanese market leadership, with Coupang increasingly stepping on Shopee's and MOMO's toes, as per [@ShunFengFuChanKeSunpungSanbuingwa2024].\n",
+        "\n",
+        "Across online and offline, KANTAR reports Taiwan’s consumer spending on fast-moving consumer-goods (FMCG) grew over 5% in 2024, speeding up towards the end of the year: +2.5% in Q1, +4.1% in Q2, +5.7 % in Q3 and +9.1% in Q4, with e-commerce crossing the 20 % share mark (traditionally FMCG are purchased physical stores, as convenience stores are so readily available all over Taiwan) [@DongNaoChang2024; @kantarworldpanelFMCG2024; @foodnext20242024; @ShiLifoodnext2024Di42025].\n",
+        "\n",
+        "Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO~2~eq was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO~2~eq exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added \"requirements for Taiwan’s corporates to disclose their carbon emissions,\" [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].\n",
+        "\n",
+        "TIME Magazine and Statista collaborative *\"World’s Most Sustainable Companies Of 2024\"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].\n",
+        "\n",
+        "| **Sustainability Rank** | **Company**               | **Score (Out of 100)** |\n",
+        "|-----------------------:|:-------------------------|----------------------:|\n",
+        "|                      24 | Delta Electronics         |                  77.18 |\n",
+        "|                      63 | Taishin Holdings          |                  73.50 |\n",
+        "|                      68 | Fubon Financial           |                  73.01 |\n",
+        "|                      80 | Chunghwa Telecom          |                  71.69 |\n",
+        "|                      91 | Yuanta Financial Holdings |                  70.94 |\n",
+        "|                      92 | Cathay Financial Holdings |                  70.79 |\n",
+        "|                     108 | Taiwan Mobile             |                  69.72 |\n",
+        "|                     200 | First Financial Holding   |                  64.17 |\n",
+        "|                     300 | Far EasTone               |                  60.04 |\n",
+        "|                     301 | SinoPac Holdings          |                  60.04 |\n",
+        "|                     344 | Wistron                   |                  58.44 |\n",
+        "|                     356 | Acer                      |                  58.02 |\n",
+        "|                     395 | Nanya Technology          |                  56.35 |\n",
+        "|                     409 | InnoLux                   |                  55.82 |\n",
+        "|                     416 | Wiwynn                    |                  55.67 |\n",
+        "|                     421 | Taiwan Cement             |                  55.49 |\n",
+        "|                     497 | Advantech                 |                  53.14 |\n",
+        "\n",
+        "Table: World’s Most Sustainable Companies; data from [@alanasemuelsWorldMostSustainable2024]. []{short-caption=\"World’s Most Sustainable Companies\"}\n",
+        "\n",
+        "Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021]. Meanwhile, earth.org’s list of the world’s 50 most sustainable companies in 2022, only includes 1 Taiwanese company - TSMC [@earth.orgWorld50Most2022]."
+      ],
+      "id": "0c8c05a3"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-tw-comp-rank\n",
+        "#| fig-cap: Taiwanese Company Ranking\n",
+        "#| fig-scap: Taiwanese Company Ranking\n",
+        "taiwanese_company_ranking_chart()"
+      ],
+      "id": "fig-tw-comp-rank",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey."
+      ],
+      "id": "ac09a404"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-br-comp-rank\n",
+        "#| fig-cap: British Company Ranking\n",
+        "#| fig-scap: British Company Ranking\n",
+        "company_rank_chart()"
+      ],
+      "id": "fig-br-comp-rank",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Financial Literacy Worldwide and Among Taiwanese Youth\n",
+        "\n",
+        "A recent nationwide study (n = 1997) titled Youth Financial Health Basics (青少年財務健康基礎大調查) jointly conducted by the Taipei Fubon Bank and the Parent-Child Innovation Center (親子天下教育創新中心) between February 11 and March 9, 2025 found that over 65% of secondary schools incorporated financial-literacy courses into their curricula however 64% of Taiwanese youths (aged 15–18) exhibit low confidence and understanding of financial products and face significant fraud risk, with nearly 1/5 of the respondents encountering a scam in the past year, while 18% suffered actual financial losses [@LianHeXinWenWangTaiWan2025; @DiaoCha9XiJinRongZhiShi2025].\n",
+        "\n",
+        "| [**Banking**]{.underline}           | [% of Respondents]{.underline} |\n",
+        "|-------------------------------------|-------------------------------:|\n",
+        "| Have at least one financial account |                            80% |\n",
+        "| [**Familiarity**]{.underline}       | [**% Unfamiliar**]{.underline} |\n",
+        "| Savings accounts                    |                            70% |\n",
+        "| Mutual funds                        |                            63% |\n",
+        "| Stocks                              |                            46% |\n",
+        "| Deposit accounts                    |                            30% |\n",
+        "| [**Payments**]{.underline}          | [**% Preference**]{.underline} |\n",
+        "| Cash                                |                            47% |\n",
+        "| Family member pays                  |                            47% |\n",
+        "| EasyCard                            |                             4% |\n",
+        "| Mobile payments                     |                             1% |\n",
+        "\n",
+        "Table: Familiarity with financial products and preferred payment methods, as reported in [@LianHeXinWenWangTaiWan2025]. []{short-caption=\"Taiwanese Financial Product Familiarity\"}\n",
+        "\n",
+        "Importantly for designing a financial app, while 80% of the survey respondents had received financial education at school, 90% of the students deemed the primary learning channel about financial knowledge to be on social media; and only 15% remember to have learned about credit-card usage [@DiaoCha9XiJinRongZhiShi2025].\n",
+        "\n",
+        "In a much older study, [@i-chengyehDefaultCreditCard2009] analysed usage data from 30,000 credit-card clients at an undisclosed major Taiwanese bank to predict next-month defaults, using 6 data-mining techniques including ANNs (AI Neural Networks) [@yehComparisonsDataMining2009]. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millennials or Gen-X by now. the data was donated by [@misc_default_of_credit_card_clients_350] and roughly 1 in 5 credit card clients (22.1%) of the dataset defaulted on their payment in the next month. Among the 9,618 clients aged 18–29 at the time of the study, 2,197 defaulted on their next‐month payment, yielding a default rate of 22.8%, slightly higher than the overall average. Meanwhile, among the 5,127 clients aged 18–26, 1,285 defaulted, yielding a rate of 25.1%, considerable higher than their older counterparts. Finally, among the 1,558 clients aged 18–23, 430 defaulted, a rate of 27.6%, pointing to a trend of younger people having higher default rates.\n",
+        "\n",
+        "A over-the-phone study (n = 3000) conducted in 2022, found Taiwanese savings habits to have polarized, with over 60% either having no savings whatsoever or saving more than 1/2 of their annual income; 27% of respondents reported total savings below NT\\$40,000; young adults' (aged 20–29) were the only group whose financial risk worsened, with 43% of the respondents having extremely low financial literacy, described as 金融文盲 (near “financial illiterate”) [@ZhongYangSheTaiWanJin2022].\n",
+        "\n",
+        "| Financial Literacy Among Taiwanese (2020) | Very Low |   Low | Medium | High |\n",
+        "|-------------------------------------------|---------:|------:|-------:|-----:|\n",
+        "| Overall financial literacy                |    43.2% | 34.9% |  19.4% | 2.5% |\n",
+        "| Understanding products & services         |    34.0% | 38.6% |  23.1% | 4.3% |\n",
+        "| Confidence using products & services      |    30.0% | 26.8% |  37.6% | 5.6% |\n",
+        "| Seeking financial advice                  |    71.0% |  3.2% |  17.8% | 8.0% |\n",
+        "| Personal money management                 |    21.8% | 42.9% |  28.4% | 6.9% |\n",
+        "\n",
+        "Table: Financial literacy data from phone interviews, as reported in [@ZhongYangSheTaiWanJin2022]. []{short-caption=\"Financial Literacy Data from Phone Interviews\"}\n",
+        "\n",
+        "The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their longitudinal study, with the latest survey conducted in 2022 (n = 2014; 1055 high-school; 959 university) rated financial literacy among all youths 56.3 out of 100 (53.8 in 2016 and 56.7 in 2007), always below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].\n",
+        "\n",
+        "| Knowledge Gap (2022) | \\% Unaware |\n",
+        "|------------------------------------------------|----------------------:|\n",
+        "| Unsure that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |\n",
+        "| Unsure which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |\n",
+        "| Unsure how education level affects starting salary | 61% |\n",
+        "| Unaware of methods to lower loan interest rates | 59% |\n",
+        "| Cannot identify which auto insurance covers vehicle damage | 55% |\n",
+        "| Unable to judge which life-insurance need is greatest | 51% |\n",
+        "| Uncertain how to choose investment tools for maximum lifetime returns | 63% |\n",
+        "| Unaware that business tax makes purchases more expensive | 61% |\n",
+        "\n",
+        "Table: Latest report from the 財金智慧FINLEA longitudinal study [@WangRuanGuFenYou2022]. []{short-caption=\"Taiwanese FINLEA Longitudinal Study\"}\n",
+        "\n",
+        "財金智慧FINLEA does publish online videos targeted at young people, however as of early 2025, they only have around 1000 subscribers on YouTube [@CaiJinZhiHuifinleaCaiJinZhiHuiFINLEAYouTube2020]. Meanwhile, the Taiwanese cryptocurrency influencer Mr Block has over 100000 YouTube subscribers [@mrblockQuKuaiXianShengMrblockQuKuaiXianSheng2025].\n",
+        "\n",
+        "::: {.content-hidden unless-format=\"pdf\"}\n",
+        "![財金智慧FINLEA YouTube Channel](./images/college/taiwan-financial-literacy-youtube.png){width=\"100%\"}\n",
+        ":::\n",
+        "\n",
+        "```{=mdx}\n",
+        "<Figure\n",
+        "  caption=\"財金智慧FINLEA YouTube Channel\"\n",
+        "  src={FinancialLiteracyYouTube}\n",
+        "  refURL=\"https://www.youtube.com/@FINLEAorgtw/featured\"\n",
+        "  refTitle=\"YouTube\"\n",
+        "/>\n",
+        "```\n",
+        "Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over \\$2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit \\$30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at an higher \\$73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n = 3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.\n",
+        "\n",
+        "| Place of Comparison | Financial Security Ownership |\n",
+        "|---------------------|------------------------------|\n",
+        "| Hong Kong           | 48%                          |\n",
+        "| France              | 10%                          |\n",
+        "|                     |                              |\n",
+        "\n",
+        "Table: Data from millennial investors [@calastoneMillennialsInvestingDetailed2020]. []{short-caption=\"Millennial Investors\"}\n",
+        "\n",
+        "## Social Media, Trends, Memes, and Youth Empowerment\n",
+        "\n",
+        "The term “meme,” first coined by Richard Dawkins in 1976 in his book \"The Selfish Gene\" to describe units of cultural evolution, analogous to that of biological evolution, which may evolve by natural selection, and now encompasses internet artifacts and even stocks. Beyond mere entertainment, memes have emerged as an academic discipline, where memes are sampled, coded, and analysed from cultural and ethical viewpoints, among others [@zidaniHowConductInternet2022]. [@peters-lazaroPopularCultureCivic2020] argues memes are no merely jokes but tools for communal critique and collective visioning. suggesting that Taiwanese Gen-Z memes scaffold deeper conversations about consumerism, climate action, and social change. Memes from daily life, business to war, are relevant to penetrating through the noise of the web.\n",
+        "\n",
+        "In Taiwan, homegrown memes may start with global templates but quickly take on a local flavor. [@LiuYunJiaTaiWan2024]'s 2021 study of 150 Taiwanese memes written in Mandarin shows most rely on friendly and indirect humor: inside jokes and wordplay that bond peers together. [@ZhuYingJieying2021] surveyed 737 Taiwanese Facebook users and discovered that a meme’s funniness, shareability, and shock value “hellish gags” (地獄梗) drive people to post it for social approval. [@HuQiZhen2024] collected 217 “tired of life” / “I’m just trash” meme texts from Instagram and PTT, then interviewed 13 Gen-Z enthusiasts, revealing how self-deprecating jokes help Gen Z cope with stress, feel part of a group, and quietly push back against social pressure. Memes have a long history, and even almost a decade ago in 2016, a casual news comment—like the \"canoing man\" (泛舟哥) remark during a typhoon exploded into LINE stickers and PTT threads, proving that Taiwanese can transform everyday media moments into collective satire or tongue-in-cheek commentary [@HuangYiNeng2016].\n",
+        "\n",
+        "Internationally, the sustainability-focused topics \"underconsumption\" and \"deinfluencing\" were trending on TikTok in 2024 however have since subdued [@faresHowTikTokUnderconsumption2024; @tiktokUnderconsumption2024; @tiktokDeinfluencing2024]. While this particular trend may be over, memes still hold potential for communicating about sustainability to young Taiwanese. Still, looking at older international data, [@zannettouOriginsMemesMeans2018] built a large-scale machine-learning pipeline to trace the origin of memes in the US, with 160M images and 2.6B posts within about 1 year (July 2016-2017) from Twitter, Reddit, 4chan and Gab, finding that often memes originate from fringe communities and then spread across mainstream media, highlighting how fringe communities can be surprising impactful.\n",
+        "\n",
+        "In Taiwan, Internet usage among young people is nearly universal, with over to 98% of 18–29 (roughly Gen-Z) year‐olds reporting they have gone online at least once recently, and close to 96% of respondents aged 18-29 used some form of social media [@TWNIC2023].\n",
+        "\n",
+        "| Metric                     | 18–29   | 30–39   |\n",
+        "|----------------------------|---------|---------|\n",
+        "| Daily Internet usage       | 98.79 % | 98.40 % |\n",
+        "| Overall social-media usage | 95.98 % | 94.84 % |\n",
+        "| TikTok usage               | 33.03 % | 24.28 % |\n",
+        "\n",
+        "Table: Taiwanese Internet Usage Statistics; data from [@TWNIC2023]. []{short-caption=\"Taiwanese Internet Usage Statistics\"}\n",
+        "\n",
+        "[@LinGaoXianShiKong2024] analysed (n = 1175) Taiwanese high school students, mostly aged Gen-Z, finding that Instagram (IG) dominates, used by close to 85% percent of the respondents; they use IG for about 2 hours per day, 5-6 days per week; moreover, respondents often feel anxious (1-2 days per week), and anxiety correlates with several motivations of using IG, such as recording life moments, documenting travel, food, and fitness with photos, was tied to higher anxiety, possibly related to the photo-centric self-presentation on Instagram, why can be theorized to heighten sensitivity to feedback and criticism. In contrast, [@ChenSiNingIG2023] conducted a survey of 458 Taiwanese Gen Z Instagram users, finding that higher Instagram use intensity is directly associated with greater online subjective well-being; however, intense use also leads to information overload and social comparison, which induce social media fatigue and in turn erode well-being; moreover, users’ perceived intimacy with the platform amplifies the link between use intensity and social comparison frequency. An online survey by [@LiaoBoYaSheQunMeiTi2024] (where the Gen-Z cohort n = 125) found respondents to be highly motivated by social and entertainment use; the user's fear of missing out (FoMO) was found to be related to the motive; e.g. people with social and entertainment drives experience greater FoMO than those motivated primarily by information seeking. [@lasnikSocialAnxiety2018] surveys college students at the National Dong Hwa University in Hualian (n = 300, a mix of Taiwanese and international students), using the Liebowitz Social Anxiety Scale (LSAS) and Taijin Kyofusho Scale (TKS) as research instruments, finding Taiwanese students ranked higher on the Taijin Kyofusho, suggesting the fear of offending or disturbing others is stronger among local students. \n",
+        "\n",
+        "A large-scale (n = 2075) representative face-to-face survey among people aged 18 to 93 years in Taiwan (no age-based categorization was published for Gen-Z specifically), found that in general sharing one's thoughts online (known academically as \"self-disclosure\") boosts perceived social support and significantly boosts bonding and bridging social capital, which increases life satisfaction and lowers loneliness [@FanYiZhuYuRenFen2024]. Conversely, in Japan, while not directly comparable, Gen-Z reports wanting privacy and 75% feel others overshare on social media and 49 percent were concerned about their personal data [@mckinsey&companyMindGapWhat2022].\n",
+        "\n",
+        "## AI Use Among Taiwanese Students\n",
+        "\n",
+        "A survey of college students in March 8–10, 2023 at the Chung Yuan Christian University (n = 983) in Taoyuan (Northern Taiwan), yielded the following results: 66% of the students had used ChatGPT, with the top use cases being summarization (31%), translation of articles (28%), and writing reports (24%) [@cycuZhongYuanJuanDiaoCha2023; @ZhongYuanDaXue2023]. However, in terms of AI adoption, this data can be considered out-dated. ChatGPT was first released to the public on November 30, 2022, so the students had had only about 3 months to try it out [@openaiIntroducingChatGPT2022]. At the time, the GPT-3.5 model was available; the revolutionary GPT‑4 was released to the public on March 14, 2023, [@openaiGPT42023].\n",
+        "\n",
+        "In a more recent large-scale survey focusing on AI literacy administered to the general public (n = 2174) found that only 26% of the respondents had used ChatGPT in the past 3 months (in comparison with the 25% from a similar survey administered in the previous year); younger people had higher usage patterns, 53% for 18-29 and 37% 30-39; meanwhile, 69% of respondents believed they could tell the difference between AI-generated and non-AI content and 73% supported some type of government regulations for AI [@hakkanews2024XiangDa2024].\n",
+        "\n",
+        "A Chinese study from two authors at the Minzu University and Beijing Normal University reports they recruited anonymous Taiwanese college students (n = 916) on the Chinese Credamo platform from the Taiwanese IP-space (ChatGPT is blocked in Mainland China, Macau, and Hong Kong) to compare ChatGPT vs. Google for academic use among Taiwanese students: their findings show a clear preference for ChatGPT overall, which students deemed more flexible (meanwhile some older students still preferred Google) and Random Forest and LightGBM-based modeling predicted tool choice by three main factors: 1) GenAI fluency, 2)awareness of GenAI hallucinations, and 3) user age; their recommendations include 1) support critical-thinking among users, and 2) design hybrid chat+search user interfaces with higher reliability [@zhangGoogleChatGPTWho2024; @qiaoOpenAICutsAccess2024; @kellyApplesNewChina2024]. In the US, an older study of young adults (Millennials at the time) highlights how they *\"use Google as a reference point for ease of use and simplicity\",* [@katemoranDesigningYoungAdults2016]. The web now has several generations of native users, and some older usage patterns which older digital natives are used to, may take time to change.\n",
+        "\n",
+        "In Sweden, a large-scale (n = 5894) survey across several Swedish universities showed college students' attitudes towards AI assistants (ChatGPT was by far the most prevalent app, 95 % of respondents had heard of ChatGPT and 35 % used it regularly); 55.9% held a positive attitude toward AIs; integrity was a hotly debated question, 62% calling AI use in exams \"cheating,\" but 60% rejecting an outright ban, and 58% saying it doesn’t violate the purpose of education [@stohrPerceptionsUsageAI2024]."
+      ],
+      "id": "abf3ba05"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-college-chatbot\n",
+        "#| fig-cap: Swedish College Students' Attitudes Towards AI Assistants\n",
+        "#| fig-scap: Swedish College Students' Attitudes Towards AI Assistants\n",
+        "college_chatbot()"
+      ],
+      "id": "fig-college-chatbot",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## References\n",
+        "\n",
+        "::: {#refs}\n",
+        ":::"
+      ],
+      "id": "8fd30118"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

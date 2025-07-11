@@ -6,6 +6,7 @@ import seaborn as sns
 import networkx as nx
 import pandas as pd
 import numpy as np
+from adjustText import adjust_text
 from matplotlib.font_manager import FontProperties
 from data.fields.likert_fields import likert_fields
 from data.fields.likert_flat_fields import likert_flat_fields
@@ -140,39 +141,54 @@ def likert_single_chart(category_index):
     plt.show()
 
 def correlation_network():
-    
     threshold = 0.4
-    filtered_df = df[likert_flat_fields]
-    filtered_df = filtered_df.apply(pd.to_numeric, errors='coerce')
-
-    # Now you can calculate the correlation matrix and create the network
+    filtered_df = df[likert_flat_fields].apply(pd.to_numeric, errors='coerce')
     corr_matrix = filtered_df.corr()
 
-    # Create a graph
+    # Build graph -----------------------------------------------------------
     graph = nx.Graph()
-
-    # Iterate over the correlation matrix and add edges
     for i in range(len(corr_matrix.columns)):
         for j in range(i):
-            if abs(corr_matrix.iloc[i, j]) > threshold:  # only consider strong correlations
-                graph.add_edge(corr_matrix.columns[i], corr_matrix.columns[j], weight=corr_matrix.iloc[i, j])
+            w = corr_matrix.iloc[i, j]
+            if abs(w) > threshold:
+                graph.add_edge(corr_matrix.columns[i], corr_matrix.columns[j], weight=w)
 
-    # Draw the network
-    pos = nx.spring_layout(graph, k=0.1, iterations=20)
-    edges = graph.edges()
-    weights = [graph[u][v]['weight'] for u, v in edges]  # Use the weights for edge width
+    # Layout (slightly more spread with k=0.3) ------------------------------
+    pos = nx.spring_layout(graph, k=0.3, iterations=40, seed=42)
+
+    # Draw nodes & edges ----------------------------------------------------
+    edges   = graph.edges()
+    weights = [graph[u][v]['weight'] for u, v in edges]
 
     plt.figure(figsize=(10, 10))
-    nx.draw_networkx_nodes(graph, pos, node_size=500, node_color='lightblue', edgecolors='black')
-    nx.draw_networkx_edges(graph, pos, edgelist=edges, width=weights, alpha=0.5, edge_color='gray')
+    nx.draw_networkx_nodes(graph, pos,
+                           node_size=500,
+                           node_color='lightblue',
+                           edgecolors='black')
+    nx.draw_networkx_edges(graph, pos,
+                           edgelist=edges,
+                           width=[abs(w)*2 for w in weights],  # scale width
+                           alpha=0.5,
+                           edge_color='gray')
 
-    # Set Chinese font
+    # Draw labels without overlap ------------------------------------------
+    texts = []
     for label in graph.nodes():
         x, y = pos[label]
-        plt.text(x, y, label, fontsize=9, fontproperties=chinese_font, ha='center', va='center')
+        texts.append(
+            plt.text(x, y,
+                     label,
+                     fontproperties=chinese_font,
+                     fontsize=9,
+                     ha='center', va='center')
+        )
+    # Let adjustText nudge labels until they no longer collide
+    adjust_text(texts, arrowprops=dict(arrowstyle='-', lw=0.4, color='black'))
 
+    # Final touches ---------------------------------------------------------
     plt.title('Correlation Network', fontproperties=chinese_font)
-    plt.axis('off')  # Turn off the axis
+    plt.axis('off')
+    plt.tight_layout()
     plt.show()
 
 def correlation_chart():

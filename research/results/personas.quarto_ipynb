@@ -1,0 +1,208 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Personas\n",
+        "sidebar_position: 3\n",
+        "execute:\n",
+        "  echo: false\n",
+        "editor:\n",
+        "  render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---"
+      ],
+      "id": "b4ed4cb5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from data.personas import treemap, show_personas, show_single_persona, show_clustering_heatmap, get_kmeans_table\n",
+        "import warnings\n",
+        "warnings.filterwarnings(\"ignore\")"
+      ],
+      "id": "d4d3a8fa",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Personas\n",
+        "\n",
+        "### Clustering Students to Build Personas\n",
+        "\n",
+        "Customer segmentation\n",
+        "\n",
+        "Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert scale fields, transformed into the principal components that capture the most variance.\n",
+        "\n",
+        "The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013].\n",
+        "\n",
+        "K-prototypes combines K-mean and K-modes unsupervised machine learning algorithms.\n",
+        "\n",
+        "- There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.\n",
+        "\n",
+        "- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings."
+      ],
+      "id": "ef1a99a7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-personas\n",
+        "#| fig-cap: College Student Personas\n",
+        "#| fig-scap: College Student Personas\n",
+        "show_personas()"
+      ],
+      "id": "fig-survey-personas",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Persona 1: \"Eco-Friendly\"\n",
+        "Questions Most Affecting Persona Creation include..."
+      ],
+      "id": "38e158e7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-personas-one\n",
+        "#| fig-cap: Persona 1 - Eco-Friendly\n",
+        "#| fig-scap: Persona 1 - Eco-Friendly\n",
+        "show_single_persona(0)"
+      ],
+      "id": "fig-survey-personas-one",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Persona 2: \"Moderate\"\n",
+        "Questions Most Affecting Persona Creation include..."
+      ],
+      "id": "29e17a5e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-personas-two\n",
+        "#| fig-cap: Persona 2 - Moderate\n",
+        "#| fig-scap: Persona 2 - Moderate\n",
+        "show_single_persona(1)"
+      ],
+      "id": "fig-survey-personas-two",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Persona 3: \"Frugal\"\n",
+        "Questions Most Affecting Persona Creation include..."
+      ],
+      "id": "49bca557"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-personas-three\n",
+        "#| fig-cap: Persona 3 - Frugal\n",
+        "#| fig-scap: Persona 3 - Frugal\n",
+        "show_single_persona(2)"
+      ],
+      "id": "fig-survey-personas-three",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Clustering Heatmap"
+      ],
+      "id": "56662fd7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-heatmap\n",
+        "#| fig-cap: College Students' Clustering Heatmap\n",
+        "#| fig-scap: College Students' Clustering Heatmap\n",
+        "show_clustering_heatmap()"
+      ],
+      "id": "fig-survey-heatmap",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Mean Answer Scores\n",
+        "Mean response values for each Likert question in each cluster:"
+      ],
+      "id": "ec6a7a5a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-mean-answ\n",
+        "#| fig-cap: Mean Values of Survey Responses\n",
+        "#| fig-scap: Mean Values of Survey Responses\n",
+        "get_kmeans_table()"
+      ],
+      "id": "fig-survey-mean-answ",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Agreement Between Personas\n",
+        "Highest agreement between personas is about health, safety, pollution and climate concerns."
+      ],
+      "id": "663e5fde"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-high-agree\n",
+        "#| fig-cap: Topics With Highest Agreement Between Personas\n",
+        "#| fig-scap: Topics With Highest Agreement Between Personas\n",
+        "treemap()"
+      ],
+      "id": "fig-survey-high-agree",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

@@ -6,9 +6,11 @@ warnings.filterwarnings("ignore")
 ```
 
 ## Taiwanese College Student Attitudes (Overall)
+
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
 ### Economy
+
 ```{python}
 #| label: fig-survey-econ-res
 #| fig-cap: "Student Attitudes Towards Economics Issues"
@@ -16,16 +18,18 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 likert_single_chart(2)
 ```
 
-| # | Prompt (EN)                                                      | Disagree 1-2 | Neutral 3 | Agree 4-5 | TL;DR vibe                                                                                                     |
-| - | ---------------------------------------------------------------- | ------------ | --------- | --------- | -------------------------------------------------------------------------------------------------------------- |
-| 1 | *“Taiwan’s economic goal is growth.”*                            | 19 %         | 31 %      | **50 %**  | Half the class sees “GDP go brrr” as the main national KPI.                                                    |
-| 2 | *“Environmental degradation is a prerequisite for that growth.”* | **39 %**     | 26 %      | 34 %      | Split squad: a big chunk rejects the trade-off, but one-third thinks wrecking nature is the price of progress. |
-| 3 | *“Taiwan’s growth helps protect the environment.”*               | **40 %**     | 31 %      | 29 %      | Skeptic mode: more students *disagree* than buy the “growth = green” story.                                    |
-| 4 | *“The economy can keep growing without emitting CO₂.”*           | **45 %**     | 24 %      | 28 %      | Decoupling doubters outnumber believers almost 2:1.                                                            |
-| 5 | *“Economic growth has material limits.”*                         | 10 %         | 26 %      | **64 %**  | Clear majority says “Planet > infinite GDP” – limits are real.                                                 |
+| Question | Disagree 1-2 | Neutral 3 | Agree 4-5 | Interpretation |
+|-------------|---------|---------|---------|----------------------------|
+| *“Taiwan’s economic goal is growth.”* | 19% | 31% | **50%** | Half the college students see GDP growth as the main national KPI. |
+| *“Environmental degradation is a prerequisite for that growth.”* | **39%** | 26% | 34% | Split opinions: a large percentage of the respondents rejects this trade-off, but 1/3 thinks wrecking nature is the price of progress. |
+| *“Taiwan’s growth helps protect the environment.”* | **40%** | 31% | 29% | Skeptic mode: more students *disagree* than buy the “growth = green” story. |
+| *“The economy can keep growing without emitting CO₂.”* | **45%** | 24% | 28% | Decoupling doubters outnumber believers almost 2:1. |
+| *“Economic growth has material limits.”* | 10% | 26% | **64%** | Clear majority says “Planet \> infinite GDP” - limits are real. |
 
+: Interpreting the economic attitudes of college students.
 
 ### AI Use
+
 ```{python}
 #| label: fig-survey-ai-use
 #| fig-cap: "Student Attitudes Towards AI Use"
@@ -34,6 +38,7 @@ likert_single_chart(3)
 ```
 
 ### Nature
+
 ```{python}
 #| label: fig-survey-nature
 #| fig-cap: "Student Attitudes Towards Nature"
@@ -42,6 +47,7 @@ likert_single_chart(4)
 ```
 
 ### Environmental Protection
+
 ```{python}
 #| label: fig-survey-envir-protect
 #| fig-cap: "Student Attitudes Towards Environmental Protection"
@@ -50,6 +56,7 @@ likert_single_chart(5)
 ```
 
 ### Learning Environment
+
 ```{python}
 #| label: fig-survey-learn-env
 #| fig-cap: "Students' Learning Environment"
@@ -58,6 +65,7 @@ likert_single_chart(6)
 ```
 
 ### Correlations Between Fields
+
 ```{python}
 #| label: fig-survey-corr
 #| fig-cap: "Correlations Between Student Attitudes"
@@ -66,6 +74,7 @@ correlation_network()
 ```
 
 ### Environmental Knowledge Ranking Experiment
+
 Test knowledge about the environment.
 
 ```{python}
@@ -75,7 +84,4 @@ Test knowledge about the environment.
 ecosystem_sensitivity()
 ```
 
-
-Design implications: 
--   A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories
--   Majority don't fly much: don't focus on flights.
+Design implications: - A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories - Majority don't fly much: don't focus on flights.

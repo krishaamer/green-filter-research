@@ -1,0 +1,214 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Attitudes\n",
+        "sidebar_position: 3\n",
+        "execute:\n",
+        "  echo: false\n",
+        "editor:\n",
+        "  render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---"
+      ],
+      "id": "d266c93f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from data.attitudes import likert_charts, likert_single_chart, correlation_network, correlation_chart\n",
+        "from data.environment import ecosystem_sensitivity\n",
+        "import warnings\n",
+        "warnings.filterwarnings(\"ignore\")"
+      ],
+      "id": "01075ff0",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Taiwanese College Student Attitudes (Overall)\n",
+        "\n",
+        "These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.\n",
+        "\n",
+        "### Economy"
+      ],
+      "id": "1e3de329"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-econ-res\n",
+        "#| fig-cap: Student Attitudes Towards Economics Issues\n",
+        "#| fig-scap: Student Attitudes Towards Economics Issues\n",
+        "likert_single_chart(2)"
+      ],
+      "id": "fig-survey-econ-res",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "| Question | Disagree 1-2 | Neutral 3 | Agree 4-5 | Interpretation |\n",
+        "|-------------|---------|---------|---------|----------------------------|\n",
+        "| *“Taiwan’s economic goal is growth.”* | 19% | 31% | **50%** | Half the college students see GDP growth as the main national KPI. |\n",
+        "| *“Environmental degradation is a prerequisite for that growth.”* | **39%** | 26% | 34% | Split opinions: a large percentage of the respondents rejects this trade-off, but 1/3 thinks wrecking nature is the price of progress. |\n",
+        "| *“Taiwan’s growth helps protect the environment.”* | **40%** | 31% | 29% | Skeptic mode: more students *disagree* than buy the “growth = green” story. |\n",
+        "| *“The economy can keep growing without emitting CO₂.”* | **45%** | 24% | 28% | Decoupling doubters outnumber believers almost 2:1. |\n",
+        "| *“Economic growth has material limits.”* | 10% | 26% | **64%** | Clear majority says “Planet \\> infinite GDP” - limits are real. |\n",
+        "\n",
+        ": Interpreting the economic attitudes of college students.\n",
+        "\n",
+        "### AI Use"
+      ],
+      "id": "c58cc91f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-ai-use\n",
+        "#| fig-cap: Student Attitudes Towards AI Use\n",
+        "#| fig-scap: Student Attitudes Towards AI Use\n",
+        "likert_single_chart(3)"
+      ],
+      "id": "fig-survey-ai-use",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Nature"
+      ],
+      "id": "46dd1f26"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-nature\n",
+        "#| fig-cap: Student Attitudes Towards Nature\n",
+        "#| fig-scap: Student Attitudes Towards Nature\n",
+        "likert_single_chart(4)"
+      ],
+      "id": "fig-survey-nature",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Environmental Protection"
+      ],
+      "id": "9176d179"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-envir-protect\n",
+        "#| fig-cap: Student Attitudes Towards Environmental Protection\n",
+        "#| fig-scap: Student Attitudes Towards Environmental Protection\n",
+        "likert_single_chart(5)"
+      ],
+      "id": "fig-survey-envir-protect",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Learning Environment"
+      ],
+      "id": "c315cbf6"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-learn-env\n",
+        "#| fig-cap: Students' Learning Environment\n",
+        "#| fig-scap: Students' Learning Environment\n",
+        "likert_single_chart(6)"
+      ],
+      "id": "fig-survey-learn-env",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Correlations Between Fields"
+      ],
+      "id": "ad562c1c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-corr\n",
+        "#| fig-cap: Correlations Between Student Attitudes\n",
+        "#| fig-scap: Correlations Between Student Attitudes\n",
+        "correlation_network()"
+      ],
+      "id": "fig-survey-corr",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Environmental Knowledge Ranking Experiment\n",
+        "\n",
+        "Test knowledge about the environment."
+      ],
+      "id": "7ce5e567"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-envir-know\n",
+        "#| fig-cap: Students' Environmental Knowledge\n",
+        "#| fig-scap: Students' Environmental Knowledge\n",
+        "ecosystem_sensitivity()"
+      ],
+      "id": "fig-survey-envir-know",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Design implications: - A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories - Majority don't fly much: don't focus on flights.\n"
+      ],
+      "id": "5a8e1d41"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

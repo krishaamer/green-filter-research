@@ -17,7 +17,7 @@ likert_single_chart(0)
 Interpreting the findings.
 
 | \# | Question | Interpretation |
-|----------------|----------------|----------------------------------------|
+|-----------------|-----------------|--------------------------------------|
 | 1 | *Would you still buy a tomato if you suspected it was picked by forced labor?* | Most respondents chose **2** or **1** which I interpret as *“Nope, I wouldn’t buy it.”* - only a small fraction of the respondents choosing 4-5 would ignore the labor issue. |
 | 2 | *Do you care about food safety?* | The choices peaks at **4**, then **5**. Nearly everyone is on the caring side; indifference and denial are tiny. |
 | 3 | *Will you buy a car within 7 years?* | The mode is **1**, plus decent counts at **2**. A clear majority of respondents do **not** expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students. |
@@ -78,7 +78,7 @@ trusted_brands()
 The following responses were counted as "no brand": "無", "沒有", "沒有特別", "🈚️", "目前沒有", "No", "沒", "沒有特別關注", "沒有特別信任的", "不知道", "無特別選擇", "目前沒有完全信任的", "沒有特定的", "沒有特定", "沒有特別研究", "目前沒有特別關注的品牌","N", "none", "無特別", "目前無", "沒有特別想到", "沒有固定的", "x", "沒在買", "nope", "一時想不到…", "沒有特別注意", "無特別的品牌", "無絕對信任的品牌", "不確定你說的範圍", "還沒有"
 
 | Response category | Count | Share of all students |
-|-----------------------------------------------|-------------|-------------|
+|------------------------------------------|---------------|---------------|
 | **No trusted brand**<br>(any variant of “none / don’t have / can’t think of one”) | **421** | **48 %** |
 | **Have trust but didn’t name it**<br>(e.g., “有”) | 68 | 8 % |
 | **Named a specific brand** | 387 | 44 % |
@@ -108,8 +108,8 @@ Top-10 mentioned brands (after normalising obvious duplicates). After the top th
 visualize_shopping_data()
 ```
 
-| Product & Attributes | Choices | Respondents | Share | Read of the trade-off |
-|------------|------------|------------|------------|------------------------|
+| Product & Attributes | Choices | Respondents | Share | Interpretation |
+|--------------|--------------|--------------|-----------|-------------------|
 | **Tomatoes** (Price × Forced-labor Risk) | 500 TWD/kg (5% risk) | **507** | **58%** | **Sweet-spot:** most college students accept a mid price if risk is \< 10%. |
 |  | 300 TWD/kg (15% risk) | 301 | 34% | **Price-first:** about 1/3 of the respondents sacrifice ethics for a 40% discount. |
 |  | 700 TWD/kg (2% risk) | 68 | 8% | **Ethical Premium:** fewer than 1/10 of the respondents will pay +40% for the safest pick. |
