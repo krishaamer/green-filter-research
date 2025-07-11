@@ -17,7 +17,7 @@ likert_single_chart(0)
 Interpreting the findings.
 
 | \# | Question | Interpretation |
-|----|-----------------|-------------------------------------------|
+|--------------|---------------|-------------------------------------------|
 | 1 | *Would you still buy a tomato if you suspected it was picked by forced labor?* | Most respondents chose **2** or **1** which I interpret as *“Nope, I wouldn’t buy it.”* - only a small fraction of the respondents choosing 4-5 would ignore the labor issue. |
 | 2 | *Do you care about food safety?* | The choices peaks at **4**, then **5**. Nearly everyone is on the caring side; indifference and denial are tiny. |
 | 3 | *Will you buy a car within 7 years?* | The mode is **1**, plus decent counts at **2**. A clear majority of respondents do **not** expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students. |
@@ -38,6 +38,13 @@ Interpreting the findings.
 boycott_count()
 ```
 
+| Option                        | Count   | Share of sample |
+|-------------------------------|---------|-----------------|
+| **沒 有** – *Never boycotted* | **537** | \~61 %          |
+| **有** – *Have boycotted*     | **339** | \~39 %          |
+
+About 2 out of 5 college students have actively refused to buy from at least one brand, while a clear majority hasn’t taken that step.
+
 ### Why Boycott?
 
 ```{python}
@@ -46,6 +53,18 @@ boycott_count()
 #| fig-scap: "College Students Boycott Reasons"
 why_boycott()
 ```
+
+Top motives among the 339 “Yes” answers.
+
+-   Food-safety scandals (\>70 mentions: 食安問題, 地溝油, 黑心油…)
+
+-   General ethics / “黑心” distrust (\~30)
+
+-   Political stance / human-rights issues (\~10)
+
+-   Environmental harm (\~8)
+
+-   Personal dislike (taste, price, service) (individual cases)
 
 ### Trusted Brands
 
@@ -57,6 +76,28 @@ trusted_brands()
 ```
 
 The following responses were counted as "no brand": "無", "沒有", "沒有特別", "🈚️", "目前沒有", "No", "沒", "沒有特別關注", "沒有特別信任的", "不知道", "無特別選擇", "目前沒有完全信任的", "沒有特定的", "沒有特定", "沒有特別研究", "目前沒有特別關注的品牌","N", "none", "無特別", "目前無", "沒有特別想到", "沒有固定的", "x", "沒在買", "nope", "一時想不到…", "沒有特別注意", "無特別的品牌", "無絕對信任的品牌", "不確定你說的範圍", "還沒有"
+
+| Response category                                                                 | Count   | Share of all students |
+| --------------------------------------------------------------------------------- | ------- | --------------------- |
+| **No trusted brand**<br>(any variant of “none / don’t have / can’t think of one”) | **421** | **48 %**              |
+| **Have trust but didn’t name it**<br>(e.g., “有”)                                  | 68      | 8 %                   |
+| **Named a specific brand**                                                        | 387     | 44 %                  |
+| *Total*                                                                           | 876     | 100 %                 |
+
+| Rank | Brand                         | Count | % of all 876 |
+| ---- | ----------------------------- | ----- | ------------ |
+| 1    | **義美 (I-Mei Foods)**          | 48    | 5.5 %        |
+| 2    | **Apple**                     | 27    | 3.1 %        |
+| 3    | MUJI                          | 14    | 1.6 %        |
+| 4    | Nike                          | 11    | 1.3 %        |
+| 5    | 光泉 (Kuang Chuan Dairy)        | 9     | 1.0 %        |
+| 6    | 統一 (Uni-President)            | 7     | 0.8 %        |
+| 7    | 里仁 (LiRen organic)            | 6     | 0.7 %        |
+| 8    | NET (Taiwanese fashion chain) | 5     | 0.6 %        |
+| 9    | 主婦聯盟 (Moms in Union co-op)    | 5     | 0.6 %        |
+| 10   | 全聯 (PX Mart)                  | 4     | 0.5 %        |
+
+Top-10 mentioned brands (after normalising obvious duplicates). After the top three, the distribution flattens quickly; in total, 248 different brand names were entered. High “no-brand” rate (48 %): Students are sceptical and reserve trust; they need a strong safety/ethics signal before committing loyalty.
 
 ## Choice Experiments
 
