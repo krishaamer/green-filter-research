@@ -16,6 +16,15 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 likert_single_chart(2)
 ```
 
+| # | Prompt (EN)                                                      | Disagree 1-2 | Neutral 3 | Agree 4-5 | TL;DR vibe                                                                                                     |
+| - | ---------------------------------------------------------------- | ------------ | --------- | --------- | -------------------------------------------------------------------------------------------------------------- |
+| 1 | *“Taiwan’s economic goal is growth.”*                            | 19 %         | 31 %      | **50 %**  | Half the class sees “GDP go brrr” as the main national KPI.                                                    |
+| 2 | *“Environmental degradation is a prerequisite for that growth.”* | **39 %**     | 26 %      | 34 %      | Split squad: a big chunk rejects the trade-off, but one-third thinks wrecking nature is the price of progress. |
+| 3 | *“Taiwan’s growth helps protect the environment.”*               | **40 %**     | 31 %      | 29 %      | Skeptic mode: more students *disagree* than buy the “growth = green” story.                                    |
+| 4 | *“The economy can keep growing without emitting CO₂.”*           | **45 %**     | 24 %      | 28 %      | Decoupling doubters outnumber believers almost 2:1.                                                            |
+| 5 | *“Economic growth has material limits.”*                         | 10 %         | 26 %      | **64 %**  | Clear majority says “Planet > infinite GDP” – limits are real.                                                 |
+
+
 ### AI Use
 ```{python}
 #| label: fig-survey-ai-use

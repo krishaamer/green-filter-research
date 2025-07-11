@@ -1,0 +1,149 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Features (AI)\n",
+        "sidebar_position: 7\n",
+        "execute:\n",
+        "  echo: false\n",
+        "editor:\n",
+        "  render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---"
+      ],
+      "id": "19e2a720"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles"
+      ],
+      "id": "3f5e2ab1",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## AI Companion\n",
+        "\n",
+        "### Likert-Based Clustering\n",
+        "AI-assistant feature choices per Likert-based Personas"
+      ],
+      "id": "55bd722f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-ai-features-likert\n",
+        "#| fig-cap: AI-Assistant Feature Choices per Likert-based Personas\n",
+        "#| fig-scap: AI-Assistant Feature Choices per Likert-based Personas\n",
+        "likert_cluster_and_visualize()"
+      ],
+      "id": "fig-ai-features-likert",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "This chart visualizes three distinct personas based on 36 Likert answers: Eco-Friendly (n=340), Moderate (n=215), and Frugal (n=126) based on their overall sentiment profiles.\n",
+        "\n",
+        "Want:\n",
+        "- Product origin\n",
+        "- Product materials\n",
+        "- Product packaging\n",
+        "\n",
+        "Don't Want:\n",
+        "- News\n",
+        "- Carbon tracking\n",
+        "- Eco-friends\n",
+        "- ...\n",
+        "\n",
+        "## Feature-Based Clustering\n",
+        "Clustering students based on AI-assistant feature choices.\n",
+        "\n",
+        "Want:\n",
+        "- Product origin\n",
+        "- Product materials\n",
+        "- Product packaging\n",
+        "- Eco services\n",
+        "\n",
+        "### Feature Preferences (Overall)"
+      ],
+      "id": "dbbd5e09"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-ai-features-pref-overall\n",
+        "#| fig-cap: AI-Assistant Feature Preferences (Overall)\n",
+        "#| fig-scap: AI-Assistant Feature Preferences (Overall)\n",
+        "radar_chart()"
+      ],
+      "id": "fig-ai-features-pref-overall",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Feature Preferences (By Cluster)"
+      ],
+      "id": "9fc90328"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-ai-features-pref-cluster\n",
+        "#| fig-cap: AI-Assistant Feature Preferences (By Cluster)\n",
+        "#| fig-scap: AI-Assistant Feature Preferences (By Cluster)\n",
+        "plot_feature_preferences()"
+      ],
+      "id": "fig-ai-features-pref-cluster",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Preferred AI Roles (Overall)"
+      ],
+      "id": "8c8c4e15"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-ai-role-pref\n",
+        "#| fig-cap: AI-Assistant Role Preferences\n",
+        "#| fig-scap: AI-Assistant Role Preferences\n",
+        "ai_roles()"
+      ],
+      "id": "fig-ai-role-pref",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
