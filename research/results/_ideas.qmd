@@ -10,15 +10,15 @@ The following early feature ideas occurred to me during the literature review pr
 
 ### Susan (Sustainability Conversation)
 
-*What if* I could have a chat like this at the supermarket? Imagine what questions I would ask before buying a product. AI: "Kris, do you still remember Coca Cola's packaging is a large contributor to ocean plastic? You even went to a beach cleanup!" Me: "That's so sad but it's tasty!" AI. "Remember your values. Would you like to start saving for investing in insect farms in Indonesia instead? Predicted return 4% per year, according to analysts A and B." If I'm not so sure, I could continue the conversation. Me: "Tell me more" AI: "A recent UN study says, the planet needs to grow 70% more food in the next 40 years. Experts from 8 investment companies predict growth for this category of assets." Me: "Thanks for reminding me who I am" ... Moments later. AI: "This shampoo is made by Unilever, which is implicated in deforestation in Indonesia according to reporting by World Forest Watch. Would you consider buying another brand instead? They have a higher ESG rating."
+*What if* I could have a chat like this at the supermarket? Imagine what questions I would ask before buying a product. AI: "Kris, do you still remember Coca-Cola's packaging is a large contributor to ocean plastic? You even went to a beach cleanup!" Me: "That's so sad but it's tasty!" AI. "Remember your values. Would you like to start saving for investing in insect farms in Indonesia instead? Predicted return 4% per year, according to analysts A and B." If I'm not so sure, I could continue the conversation. Me: "Tell me more" AI: "A recent UN study says, the planet needs to grow 70% more food in the next 40 years. Experts from 8 investment companies predict growth for this category of assets." Me: "Thanks for reminding me who I am" ... Moments later. AI: "This shampoo is made by Unilever, which is implicated in deforestation in Indonesia according to reporting by World Forest Watch. Would you consider buying another brand instead? They have a higher ESG rating."
 
 Example Suggestions of the AI companion:
 
-* *"Don't buy a car, use a car sharing service instead to save XYZ CO~2~eq. Services available near you: Bolt, Uber, Line Taxi"*
+-   *"Don't buy a car, use a car sharing service instead to save XYZ CO~2~eq. Services available near you: Bolt, Uber, Line Taxi"*
 
-* *"Use a refillable shampoo bottle to save XYZ plastic pollution"*
+-   *"Use a refillable shampoo bottle to save XYZ plastic pollution"*
 
-* *"Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
+-   *"Call your local politician to nudge them to improve bicycle paths and reduce cars in your neighborhood. Over the past 2 years, you city has experienced an increase of cars from 290 cars per capita to 350 cars per capita."*
 
 Speculative scenario of an interaction between a human user and a robo-advisor through the interface of chat messages in the context of retail shopping for daily products.
 
@@ -32,7 +32,6 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
   src={Susan}
 />
 ```
-
 ### Sunday Market
 
 *What if* I could go to the Sunday market with other people who care about sustainability? First prototype (based on literature review) called HappyGreen's for going to the organic Sunday Market with friends. Choose industries of focus? Fashion, Food, etc?
@@ -63,7 +62,6 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY1PlFrLRvyu7lI2KvAILe4%2FHow-Far%253F%3Fnode-id%3D0%253A1%26t%3Dn2uEPPaN4pknSaVh-1" text="Loading 'How Far?'..." />
 
-
 ## Country Profiles
 
 *What if* I knew my country's top pollution sources? I could instantly access detailed insights into my country’s primary sources of pollution? Having clear, accessible data on national environmental challenges might empower consumers to support policies, businesses, and lifestyle changes that address critical sustainability issues.
@@ -74,7 +72,7 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fx2OIzYHACJTr6xnzHkrdeQ%2FCountry-Profiles%3Fnode-id%3D0%253A1%26t%3DW82SgRzgzbAaHImo-1" text="Loading Country Profiles..." />
 
-## Know Your Company (KYC)
+### Know Your Company (KYC)
 
 *What if* I could KYC the companies I interact with? This is a common practice for banks, they need to KYC "Know Your Client". As a consumer, could I approach companies in a similar way to banks - using "Know Your Company" (KYC) for daily interactions with businesses? Possibly detailed transparency about corporate sustainability, ethics, and practices would enable consumers to engage only with companies whose values align closely with my own. Similary, *What if* I could "Speak Truth to Power", affecting companies with truth? Consolidate user feedback for companies.
 
@@ -102,7 +100,6 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FnTh1LsECxFABEZPE7pSFgw%2FDid-you-know%253F%3Fnode-id%3D0%253A1" text="Loading Prototype..." />
 
-
 ### Shopping Divest
 
 *What if* I you could build a community based on what I buy? Or join existing communities based explicitly on sustainable consumption habits? By sharing my purchasing choices and sustainability experiences with others, perhaps we could collectively amplify the positive impact of our eco-conscious decisions.
@@ -112,3 +109,23 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 :::
 
 <MyEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fw7LqdSzACgz9ghuTcrSxgk%2FDivest%3Fnode-id%3D0%253A1" text="Loading Shopping Divest..." />
+
+## Mapping Feature Ideas to Theory of Planned Behavior
+
+| Type of Feature | Specific Features | Purpose | Rationale |
+|---------------|---------------|---------------|---------------------------|
+| **Transparency & Impact Intel** | **True Cost, How Far?, Country Profiles, KYC** | Surface hard-to-see facts so choices feel data-backed | Make sense of complex sustainability data, so the user can quickly grasp hidden externalities, supply-chain distance, CO2 footprints, or a comapny's ESG record. |
+| **Personal Coach & Nudge Engine** | **Susan Chatbot, Sustainability Watch, Narrative Layouts** | Give real-time, context-aware advice that steers decisions | These features work like a pocket mentor: chat UI, wearable devices, or daily storylines that nudge the user toward greener action. |
+| **Social & Collective Flex** | **Sunday Market, Shopping Divest, CO₂ Flex** | Use friends, status, or crowd power to boost motivation | These ideas thrive on group shopping, community leaderboards, or brag-worthy carbon “badges,” focusing on social proof and friendly competition. |
+
+: Categorizing early feature ideas by purpose and rationale.
+
+While these feature ideas were developed independently, before I knew the Theory of Planned Behavior existed, the following is an attempt to organize the features according to TPB constructs.
+
+| Type of Feature | TPB Construct | Meaning | Rationale |
+|---------------|---------------|---------------|---------------------------|
+| **Transparency & Impact Intel** | **Attitude towards the behavior** | *“Do I think acting sustainably is good and worth it?”* | By exposing hidden costs, supply-chain distance, and ESG scores, these features shape positive (or negative) evaluations of a purchase. |
+| **Personal Coach & Nudge Engine** | **Perceived behavioral control** | *“Can I actually pull this off?”* | Real-time tips from Susan or a smartwatch lower friction, boosting a user’s sense that greener behaviour is doable. |
+| **Social & Collective Flex** | **Subjective norms** | *“Do the people around me expect this?”* | Sunday-Market meet-ups, carbon badges, and community feeds make sustainable choices visible and socially reinforced. |
+
+: Early feature ideas mapped to Theory of Planned Behavior.
