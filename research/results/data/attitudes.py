@@ -79,14 +79,13 @@ def likert_single_chart(category_index):
 
     fields = likert_fields[selected_category]
     num_fields = len(fields)
-    num_rows = -(-num_fields // 2)  # Equivalent to ceil(num_fields / 2)
+    num_rows  = -(-num_fields // 2)  # ceil
 
     # Pre-compute response counts (non-NA rows) for every item
     respondent_counts = {
         field: df_translated[f"{field} ({field_translation_mapping[selected_category][i]})"].notna().sum()
         for i, field in enumerate(fields)
     }
-    # Overall N for this category (largest n among its items)
     total_n = max(respondent_counts.values())
 
     # Add padding to fit in the Chinese titles
@@ -94,7 +93,6 @@ def likert_single_chart(category_index):
     axs = axs.flatten()
     plt.subplots_adjust(hspace=0.4)
 
-    # Loop through each field in the category to create individual bar plots
     for i, field in enumerate(fields):
         col_name = f"{field} ({field_translation_mapping[selected_category][i]})"
         sns.countplot(
@@ -105,10 +103,21 @@ def likert_single_chart(category_index):
             saturation=1,
         )
 
-        # Build title with bilingual text + N
+        # -------- Add the respondent count on each bar --------
+        for container in axs[i].containers:           # Matplotlib ≥ 3.4
+            axs[i].bar_label(
+                container,
+                fmt='%d',            # integer labels
+                padding=3,
+                fontsize=10,
+                fontproperties=chinese_font
+            )
+        # -------------------------------------------------------
+
+        # Subplot title (中文題目 + n + English translation)
         title_ch = field
         title_en = field_translation_mapping[selected_category][i]
-        n = respondent_counts[field]
+        n        = respondent_counts[field]
         axs[i].set_title(
             f"{title_ch} (n={n})\n{title_en}",
             fontproperties=chinese_font
@@ -116,15 +125,16 @@ def likert_single_chart(category_index):
         axs[i].set_xlabel("← Disagreement — Neutral — Agreement →")
         axs[i].set_ylabel("Frequency")
 
-    # Remove any unused axes
-    for i in range(num_fields, num_rows * 2):
-        fig.delaxes(axs[i])
+    # Remove unused axes
+    for j in range(num_fields, num_rows * 2):
+        fig.delaxes(axs[j])
 
-    # Add a figure-level title showing overall respondents
+    # Figure-level title with total N
     fig.suptitle(
-        f"{selected_category} — total respondents: {total_n}",
+        f"{selected_category}  Total Respondents (Gen-Z Current College Students): {total_n}",
         fontsize=16,
         y=1.02,
+        fontproperties=chinese_font,
     )
 
     plt.show()
