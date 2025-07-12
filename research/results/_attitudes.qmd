@@ -1,5 +1,6 @@
 ```{python}
 from data.attitudes import likert_charts, likert_single_chart, correlation_network, correlation_chart
+from data.partial import partial_likert_single_chart
 from data.environment import ecosystem_sensitivity
 import warnings
 warnings.filterwarnings("ignore")
@@ -18,15 +19,30 @@ These are student attitudes across all 36 likert fields without clustering. Clus
 likert_single_chart(2)
 ```
 
-| Question | Disagree 1-2 | Neutral 3 | Agree 4-5 | Interpretation |
-|-------------|---------|---------|---------|----------------------------|
-| *“Taiwan’s economic goal is growth.”* | 19% | 31% | **50%** | Half the college students see GDP growth as the main national KPI. |
-| *“Environmental degradation is a prerequisite for that growth.”* | **39%** | 26% | 34% | Split opinions: a large percentage of the respondents rejects this trade-off, but 1/3 thinks wrecking nature is the price of progress. |
-| *“Taiwan’s growth helps protect the environment.”* | **40%** | 31% | 29% | Skeptic mode: more students *disagree* than buy the “growth = green” story. |
-| *“The economy can keep growing without emitting CO₂.”* | **45%** | 24% | 28% | Decoupling doubters outnumber believers almost 2:1. |
-| *“Economic growth has material limits.”* | 10% | 26% | **64%** | Clear majority says “Planet \> infinite GDP” - limits are real. |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
+| Question                                                         | Disagree 1-2 | Neutral 3 | Agree 4-5 | Interpretation                                                                                                                         |
++==================================================================+==============+===========+===========+========================================================================================================================================+
+| *“Taiwan’s economic goal is growth.”*                            | 19%          | 31%       | **50%**   | Half the college students see GDP growth as the main national KPI.                                                                     |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
+| *“Environmental degradation is a prerequisite for that growth.”* | **39%**      | 26%       | 34%       | Split opinions: a large percentage of the respondents rejects this trade-off, but 1/3 thinks wrecking nature is the price of progress. |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
+| *“Taiwan’s growth helps protect the environment.”*               | **40%**      | 31%       | 29%       | Skeptic mode: more students *disagree* than buy the “growth = green” story.                                                            |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
+| *“The economy can keep growing without emitting CO₂.”*           | **45%**      | 24%       | 28%       | Decoupling doubters outnumber believers almost 2:1.                                                                                    |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
+| *“Economic growth has material limits.”*                         | 10%          | 26%       | **64%**   | Clear majority says “Planet \> infinite GDP” - limits are real.                                                                        |
++------------------------------------------------------------------+--------------+-----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------+
 
 : Interpreting the economic attitudes of college students.
+
+Data from partial surveys.
+
+```{python}
+#| label: fig-survey-econ-res-partial
+#| fig-cap: "Partial: Student Attitudes Towards Economics Issues"
+#| fig-scap: "Partial: Student Attitudes Towards Economics Issues"
+partial_likert_single_chart(2)
+```
 
 ### AI Use
 
@@ -35,6 +51,15 @@ likert_single_chart(2)
 #| fig-cap: "Student Attitudes Towards AI Use"
 #| fig-scap: "Student Attitudes Towards AI Use"
 likert_single_chart(3)
+```
+
+Data from partial surveys.
+
+```{python}
+#| label: fig-survey-ai-use-partial
+#| fig-cap: "Partial: Student Attitudes Towards AI Use"
+#| fig-scap: "Partial: Student Attitudes Towards AI Use"
+partial_likert_single_chart(3)
 ```
 
 ### Nature
@@ -66,12 +91,46 @@ likert_single_chart(6)
 
 ### Correlations Between Fields
 
+Correlations between fields allow clustering similar groups of students.
+
 ```{python}
 #| label: fig-survey-corr
 #| fig-cap: "Correlations Between Student Attitudes"
 #| fig-scap: "Correlations Between Student Attitudes"
 correlation_network()
 ```
+
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cluster**                        | **Key Questions**                                                                         | **Interpretation**                                                                                                                                                  |
++====================================+===========================================================================================+=====================================================================================================================================================================+
+| **Green Engagement**               | \- 你/妳想做更多環保的事嗎？*Would you like to do more for the environment?*              | Core “green mindset” cluster. Students who feel climate anxiety are also motivated and politically curious. Likely early adopters of sustainable tools.             |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳的環保行動對於環境保護有成效嗎？*Do you think your actions help the environment?* |                                                                                                                                                                     |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳努力才讓低碳生活嗎？*Do you strive to live a low-carbon life?*                    |                                                                                                                                                                     |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳對環境污染流露出焦慮嗎？*Do you feel anxious about environmental pollution?*      |                                                                                                                                                                     |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳對環境相關政治議題有興趣嗎？*Are you interested in environmental politics?*       |                                                                                                                                                                     |
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Nature Identity**                | \- 你/妳喜歡待在大自然嗎？*Do you like being in nature?*                                  | Emotionally grounded, biodiversity-aware students. More connected to *nature as place*, not just “climate change” as a concept. Great for nature-learning features. |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳覺得自己和大自然很接近嗎？*Do you feel close to nature?*                          |                                                                                                                                                                     |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳知道許多植物和動物的名字嗎？*Do you know many species?*                           |                                                                                                                                                                     |
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Tech & System Trust**            | \- 你/妳相信碳排放抵換機制嗎？*Do you trust carbon offset credits?*                       | Openness to abstract or institutional systems (AI, offsets). Users here are more likely to accept algorithmic tools or fintech solutions.                           |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳相信AI嗎？*Do you trust AI?*                                                      |                                                                                                                                                                     |
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Changemaker Confidence Cluster** | \- 你/妳覺得自己創新想法會被採用嗎？*Do you believe your ideas will be adopted?*          | Belief in innovation and institutional support. A smaller but important group—ideal for leadership roles or student-led sustainability challenges.                  |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳的⼤學可⽀援你性支持嗎？*Does your university support you?*                       |                                                                                                                                                                     |
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Financial Habits**               | \- 你/妳會省錢嗎？*Do you save money?*                                                    | Practical, price-sensitive users. Likely to respond to cost-saving sustainability nudges (e.g. “eco ≠ expensive” framing).                                          |
+|                                    |                                                                                           |                                                                                                                                                                     |
+|                                    | \- 你/妳會在意錢嗎？*Do you care about money?*                                            |                                                                                                                                                                     |
++------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Environmental Knowledge Ranking Experiment
 

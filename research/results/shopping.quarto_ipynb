@@ -14,18 +14,19 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "3df801b0"
+      "id": "1b5daa38"
     },
     {
       "cell_type": "code",
       "metadata": {},
       "source": [
         "from data.attitudes import likert_single_chart\n",
+        "from data.partial import partial_likert_single_chart\n",
         "from data.shopping import boycott_count, why_boycott, trusted_brands, visualize_shopping_data\n",
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "80ff057a",
+      "id": "40d31489",
       "execution_count": null,
       "outputs": []
     },
@@ -35,7 +36,7 @@
       "source": [
         "## Shopping Attitudes"
       ],
-      "id": "08bd9592"
+      "id": "0b42060e"
     },
     {
       "cell_type": "code",
@@ -56,22 +57,49 @@
       "source": [
         "Interpreting the findings.\n",
         "\n",
-        "| \\# | Question | Interpretation |\n",
-        "|-----------------|-----------------|--------------------------------------|\n",
-        "| 1 | *Would you still buy a tomato if you suspected it was picked by forced labor?* | Most respondents chose **2** or **1** which I interpret as *“Nope, I wouldn’t buy it.”* - only a small fraction of the respondents choosing 4-5 would ignore the labor issue. |\n",
-        "| 2 | *Do you care about food safety?* | The choices peaks at **4**, then **5**. Nearly everyone is on the caring side; indifference and denial are tiny. |\n",
-        "| 3 | *Will you buy a car within 7 years?* | The mode is **1**, plus decent counts at **2**. A clear majority of respondents do **not** expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students. |\n",
-        "| 4 | *Will you buy a house within 7 years?* | Even more lopsided: a mountain at **1**. Housing feels out of reach for the respondents. |\n",
-        "| 5 | *Do you know if a product is environmentally friendly when shopping?* | Bell-ish curve peaking at **3-4**. People feel **some** awareness, but confidence isn’t universal. This might also reflect they don't fully understand the question. |\n",
-        "| 6 | *Do you think companies with environmental certifications are better?* | Strong skew right: bars climb from 3 → 4 → 5. The badge matters and most respondents see certified firms as the good guys. |\n",
-        "| 7 | *Do you support a meat tax?* | Centered on **3**, with noticeable flanks at 2 and 4. Opinion is split; lots are neutral, some yay, some nay. Again, this might indicate respondents don't fully understand the question. |\n",
-        "| 8 | *Do you care about the living conditions of chickens you consume?* | Mode at **3**, healthy bump at **4**. People lean caring, but not super strongly. |\n",
-        "| 9 | *Do you avoid eating meat?* | Tall stack on **1**, smaller on **2**. So most **do not** avoid meat; only a sliver sits at 4-5. |\n",
-        "| 10 | *Do you think your spending affects the environment?* | Big jump at **4**, next at **5**, tiny left tail. Consensus: “My wallet choices matter.” This is an important finding to justify *Green Filter*. |\n",
+        "| Question | Interpretation |\n",
+        "|-----------------|---------------------------------------|\n",
+        "| *Would you still buy a tomato if you suspected it was picked by forced labor?* | Most respondents chose **2** or **1** which I interpret as *“Nope, I wouldn’t buy it.”* - only a small fraction of the respondents choosing 4-5 would ignore the labor issue. |\n",
+        "| *Do you care about food safety?* | The choices peaks at **4**, then **5**. Nearly everyone is on the caring side; indifference and denial are tiny. |\n",
+        "| *Will you buy a car within 7 years?* | The mode is **1**, plus decent counts at **2**. A clear majority of respondents do **not** expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students. |\n",
+        "| *Will you buy a house within 7 years?* | Even more lopsided: a mountain at **1**. Housing feels out of reach for the respondents. |\n",
+        "| *Do you know if a product is environmentally friendly when shopping?* | Bell-ish curve peaking at **3-4**. People feel **some** awareness, but confidence isn’t universal. This might also reflect they don't fully understand the question. |\n",
+        "| *Do you think companies with environmental certifications are better?* | Strong skew right: bars climb from 3 → 4 → 5. The badge matters and most respondents see certified firms as the good guys. |\n",
+        "| *Do you support a meat tax?* | Centered on **3**, with noticeable flanks at 2 and 4. Opinion is split; lots are neutral, some yay, some nay. Again, this might indicate respondents don't fully understand the question. |\n",
+        "| *Do you care about the living conditions of chickens you consume?* | Mode at **3**, healthy bump at **4**. People lean caring, but not super strongly. |\n",
+        "| *Do you avoid eating meat?* | Tall stack on **1**, smaller on **2**. So most **do not** avoid meat; only a sliver sits at 4-5. |\n",
+        "| *Do you think your spending affects the environment?* | Big jump at **4**, next at **5**, tiny left tail. Consensus: “My wallet choices matter.” This is an important finding to justify *Green Filter*. |\n",
+        "\n",
+        "The following charts show the results including data from the partially-filled surveys. The extra ~300 partial responders barely move the needle, with every question’s modal answer staying exactly the same, and all the peaks and valleys shift by at most 1–2 percentage points. If anything, the full-sample (n ≈ 1,180) show more neutrality (slightly fewer “strong disagree” or “strong agree” ticks) and a tiny uptick in agreeing that certified companies are better and that your spending matters."
+      ],
+      "id": "1d3b8f06"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-shopping-partial\n",
+        "#| fig-cap: 'Partial: College Student Attitudes Towards Shopping'\n",
+        "#| fig-scap: Partial College Student Attitudes Towards Shopping\n",
+        "partial_likert_single_chart(0)"
+      ],
+      "id": "fig-survey-student-shopping-partial",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Design implications:\n",
+        "\n",
+        "-   A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories\n",
+        "\n",
+        "-   Majority don't fly much: don't focus on flights.\n",
         "\n",
         "### Boycott Count (Overall)"
       ],
-      "id": "88caaf5f"
+      "id": "4f27888c"
     },
     {
       "cell_type": "code",
@@ -99,7 +127,7 @@
         "\n",
         "### Why Boycott?"
       ],
-      "id": "073f4e55"
+      "id": "87642776"
     },
     {
       "cell_type": "code",
@@ -132,7 +160,7 @@
         "\n",
         "### Trusted Brands"
       ],
-      "id": "f982c241"
+      "id": "3c23bfb8"
     },
     {
       "cell_type": "code",
@@ -177,7 +205,7 @@
         "\n",
         "## Choice Experiments"
       ],
-      "id": "dfb03cf5"
+      "id": "43d55cc6"
     },
     {
       "cell_type": "code",
@@ -208,7 +236,7 @@
         "|  | 102 TWD / 10 eggs (no hen-welfare info) | 269 | 31% | Some will pay +54% even without extra welfare signal (brand/quality?) |\n",
         "|  | 160 TWD / 10 eggs (cage-free label) | 193 | 22% | About 1/5 of the respondents would pay +142% when hen welfare is certified. |\n"
       ],
-      "id": "de429aba"
+      "id": "ae7b6be9"
     }
   ],
   "metadata": {

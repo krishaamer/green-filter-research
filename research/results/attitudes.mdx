@@ -13,14 +13,14 @@ suppress-bibliography: true
 
 export const quartoRawHtml =
 [`
-<table style="width:100%;">
+<table style="width:99%;">
 <caption>Interpreting the economic attitudes of college students.</caption>
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 41%" />
+<col style="width: 27%" />
+<col style="width: 6%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 55%" />
 </colgroup>
 <thead>
 <tr>
@@ -69,6 +69,57 @@ export const quartoRawHtml =
 </tr>
 </tbody>
 </table>
+`,`
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 31%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Cluster</strong></th>
+<th><strong>Key Questions</strong></th>
+<th><strong>Interpretation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Green Engagement</strong></td>
+<td><p>- 你/妳想做更多環保的事嗎？<em>Would you like to do more for the environment?</em></p>
+<p>- 你/妳的環保行動對於環境保護有成效嗎？<em>Do you think your actions help the environment?</em></p>
+<p>- 你/妳努力才讓低碳生活嗎？<em>Do you strive to live a low-carbon life?</em></p>
+<p>- 你/妳對環境污染流露出焦慮嗎？<em>Do you feel anxious about environmental pollution?</em></p>
+<p>- 你/妳對環境相關政治議題有興趣嗎？<em>Are you interested in environmental politics?</em></p></td>
+<td>Core “green mindset” cluster. Students who feel climate anxiety are also motivated and politically curious. Likely early adopters of sustainable tools.</td>
+</tr>
+<tr>
+<td><strong>Nature Identity</strong></td>
+<td><p>- 你/妳喜歡待在大自然嗎？<em>Do you like being in nature?</em></p>
+<p>- 你/妳覺得自己和大自然很接近嗎？<em>Do you feel close to nature?</em></p>
+<p>- 你/妳知道許多植物和動物的名字嗎？<em>Do you know many species?</em></p></td>
+<td>Emotionally grounded, biodiversity-aware students. More connected to <em>nature as place</em>, not just “climate change” as a concept. Great for nature-learning features.</td>
+</tr>
+<tr>
+<td><strong>Tech &amp; System Trust</strong></td>
+<td><p>- 你/妳相信碳排放抵換機制嗎？<em>Do you trust carbon offset credits?</em></p>
+<p>- 你/妳相信AI嗎？<em>Do you trust AI?</em></p></td>
+<td>Openness to abstract or institutional systems (AI, offsets). Users here are more likely to accept algorithmic tools or fintech solutions.</td>
+</tr>
+<tr>
+<td><strong>Changemaker Confidence Cluster</strong></td>
+<td><p>- 你/妳覺得自己創新想法會被採用嗎？<em>Do you believe your ideas will be adopted?</em></p>
+<p>- 你/妳的⼤學可⽀援你性支持嗎？<em>Does your university support you?</em></p></td>
+<td>Belief in innovation and institutional support. A smaller but important group—ideal for leadership roles or student-led sustainability challenges.</td>
+</tr>
+<tr>
+<td><strong>Financial Habits</strong></td>
+<td><p>- 你/妳會省錢嗎？<em>Do you save money?</em></p>
+<p>- 你/妳會在意錢嗎？<em>Do you care about money?</em></p></td>
+<td>Practical, price-sensitive users. Likely to respond to cost-saving sustainability nudges (e.g. “eco ≠ expensive” framing).</td>
+</tr>
+</tbody>
+</table>
 `];
 
 ## Taiwanese College Student Attitudes (Overall)
@@ -87,13 +138,33 @@ Figure 1: Student Attitudes Towards Economics Issues
 </div>
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
+Data from partial surveys.
+
+<div id="fig-survey-econ-res-partial">
+
+![](attitudes_files/figure-markdown_strict/fig-survey-econ-res-partial-output-1.png)
+
+Figure 2: Partial: Student Attitudes Towards Economics Issues
+
+</div>
+
 ### AI Use
 
 <div id="fig-survey-ai-use">
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-ai-use-output-1.png)
 
-Figure 2: Student Attitudes Towards AI Use
+Figure 3: Student Attitudes Towards AI Use
+
+</div>
+
+Data from partial surveys.
+
+<div id="fig-survey-ai-use-partial">
+
+![](attitudes_files/figure-markdown_strict/fig-survey-ai-use-partial-output-1.png)
+
+Figure 4: Partial: Student Attitudes Towards AI Use
 
 </div>
 
@@ -103,7 +174,7 @@ Figure 2: Student Attitudes Towards AI Use
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-nature-output-1.png)
 
-Figure 3: Student Attitudes Towards Nature
+Figure 5: Student Attitudes Towards Nature
 
 </div>
 
@@ -113,7 +184,7 @@ Figure 3: Student Attitudes Towards Nature
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-envir-protect-output-1.png)
 
-Figure 4: Student Attitudes Towards Environmental Protection
+Figure 6: Student Attitudes Towards Environmental Protection
 
 </div>
 
@@ -123,32 +194,36 @@ Figure 4: Student Attitudes Towards Environmental Protection
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-learn-env-output-1.png)
 
-Figure 5: Students’ Learning Environment
+Figure 7: Students’ Learning Environment
 
 </div>
 
 ### Correlations Between Fields
 
+Correlations between fields allow clustering similar groups of students.
+
 <div id="fig-survey-corr">
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-corr-output-1.png)
 
-Figure 6: Correlations Between Student Attitudes
+Figure 8: Correlations Between Student Attitudes
 
 </div>
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
 
 ### Environmental Knowledge Ranking Experiment
 
-Test knowledge about the environment.
+Testing student knowledge about the environment. College students see
+coral reefs, tropical rainforests, and wetlands as the most sensitive
+ecosystems, aligning with global climate narratives. However, the long
+tail of unique combos suggests mixed ecological knowledge and a strong
+opportunity to educate and personalize ecosystem awareness, especially
+in a Taiwanese context.
 
 <div id="fig-survey-envir-know">
 
 ![](attitudes_files/figure-markdown_strict/fig-survey-envir-know-output-1.png)
 
-Figure 7: Students’ Environmental Knowledge
+Figure 9: Students’ Environmental Knowledge
 
 </div>
-
-Design implications: - A majority of the respondents don’t plan to buy a
-house or car within 7 years: don’t focus on these categories - Majority
-don’t fly much: don’t focus on flights.

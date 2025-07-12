@@ -15,65 +15,53 @@ export const quartoRawHtml =
 [`
 <table>
 <colgroup>
-<col style="width: 23%" />
-<col style="width: 23%" />
-<col style="width: 52%" />
+<col style="width: 30%" />
+<col style="width: 69%" />
 </colgroup>
 <thead>
 <tr>
-<th>#</th>
 <th>Question</th>
 <th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
 <td><em>Would you still buy a tomato if you suspected it was picked by forced labor?</em></td>
 <td>Most respondents chose <strong>2</strong> or <strong>1</strong> which I interpret as <em>“Nope, I wouldn’t buy it.”</em> - only a small fraction of the respondents choosing 4-5 would ignore the labor issue.</td>
 </tr>
 <tr>
-<td>2</td>
 <td><em>Do you care about food safety?</em></td>
 <td>The choices peaks at <strong>4</strong>, then <strong>5</strong>. Nearly everyone is on the caring side; indifference and denial are tiny.</td>
 </tr>
 <tr>
-<td>3</td>
 <td><em>Will you buy a car within 7 years?</em></td>
 <td>The mode is <strong>1</strong>, plus decent counts at <strong>2</strong>. A clear majority of respondents do <strong>not</strong> expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students.</td>
 </tr>
 <tr>
-<td>4</td>
 <td><em>Will you buy a house within 7 years?</em></td>
 <td>Even more lopsided: a mountain at <strong>1</strong>. Housing feels out of reach for the respondents.</td>
 </tr>
 <tr>
-<td>5</td>
 <td><em>Do you know if a product is environmentally friendly when shopping?</em></td>
 <td>Bell-ish curve peaking at <strong>3-4</strong>. People feel <strong>some</strong> awareness, but confidence isn’t universal. This might also reflect they don’t fully understand the question.</td>
 </tr>
 <tr>
-<td>6</td>
 <td><em>Do you think companies with environmental certifications are better?</em></td>
 <td>Strong skew right: bars climb from 3 → 4 → 5. The badge matters and most respondents see certified firms as the good guys.</td>
 </tr>
 <tr>
-<td>7</td>
 <td><em>Do you support a meat tax?</em></td>
 <td>Centered on <strong>3</strong>, with noticeable flanks at 2 and 4. Opinion is split; lots are neutral, some yay, some nay. Again, this might indicate respondents don’t fully understand the question.</td>
 </tr>
 <tr>
-<td>8</td>
 <td><em>Do you care about the living conditions of chickens you consume?</em></td>
 <td>Mode at <strong>3</strong>, healthy bump at <strong>4</strong>. People lean caring, but not super strongly.</td>
 </tr>
 <tr>
-<td>9</td>
 <td><em>Do you avoid eating meat?</em></td>
 <td>Tall stack on <strong>1</strong>, smaller on <strong>2</strong>. So most <strong>do not</strong> avoid meat; only a sliver sits at 4-5.</td>
 </tr>
 <tr>
-<td>10</td>
 <td><em>Do you think your spending affects the environment?</em></td>
 <td>Big jump at <strong>4</strong>, next at <strong>5</strong>, tiny left tail. Consensus: “My wallet choices matter.” This is an important finding to justify <em>Green Filter</em>.</td>
 </tr>
@@ -473,13 +461,37 @@ Interpreting the findings.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[0] }} />
 
+The following charts show the results including data from the
+partially-filled surveys. The extra ~300 partial responders barely move
+the needle, with every question’s modal answer staying exactly the same,
+and all the peaks and valleys shift by at most 1–2 percentage points. If
+anything, the full-sample (n ≈ 1,180) show more neutrality (slightly
+fewer “strong disagree” or “strong agree” ticks) and a tiny uptick in
+agreeing that certified companies are better and that your spending
+matters.
+
+<div id="fig-survey-student-shopping-partial">
+
+![](shopping_files/figure-markdown_strict/fig-survey-student-shopping-partial-output-1.png)
+
+Figure 2: Partial: College Student Attitudes Towards Shopping
+
+</div>
+
+Design implications:
+
+-   A majority of the respondents don’t plan to buy a house or car
+    within 7 years: don’t focus on these categories
+
+-   Majority don’t fly much: don’t focus on flights.
+
 ### Boycott Count (Overall)
 
 <div id="fig-survey-student-boycott">
 
 ![](shopping_files/figure-markdown_strict/fig-survey-student-boycott-output-1.png)
 
-Figure 2: College Students Boycott Experience
+Figure 3: College Students Boycott Experience
 
 </div>
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[1] }} />
@@ -497,7 +509,7 @@ least one brand, while a clear majority hasn’t taken that step.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[4] }} />
 
-Figure 3: College Students Boycott Reasons
+Figure 4: College Students Boycott Reasons
 
 </div>
 
@@ -523,7 +535,7 @@ Top motives among the 339 “Yes” answers.
 
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[7] }} />
 
-Figure 4: College Student Trusted Brands
+Figure 5: College Student Trusted Brands
 
 </div>
 
@@ -551,7 +563,7 @@ safety/ethics signal before committing loyalty.
 
 ![](shopping_files/figure-markdown_strict/fig-survey-student-shopping-choice-output-1.png)
 
-Figure 5: College Student Shopping Choice Experiment
+Figure 6: College Student Shopping Choice Experiment
 
 </div>
 <div dangerouslySetInnerHTML={{ __html: quartoRawHtml[10] }} />

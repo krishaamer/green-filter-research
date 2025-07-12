@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "2f4ee860"
+      "id": "96377510"
     },
     {
       "cell_type": "code",
@@ -25,7 +25,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "05156d94",
+      "id": "d8cf001d",
       "execution_count": null,
       "outputs": []
     },
@@ -39,7 +39,7 @@
         "\n",
         "### Saving and Investing"
       ],
-      "id": "2695272a"
+      "id": "842d2446"
     },
     {
       "cell_type": "code",
@@ -60,7 +60,7 @@
       "source": [
         "### Investing Experience (Overall)"
       ],
-      "id": "47ce94d3"
+      "id": "0a7d0d89"
     },
     {
       "cell_type": "code",
@@ -83,7 +83,7 @@
         "\n",
         "Question: 你/妳選哪個投資？ Which investment do you choose?"
       ],
-      "id": "9585bb0c"
+      "id": "d8cebc99"
     },
     {
       "cell_type": "code",

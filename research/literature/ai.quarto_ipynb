@@ -15,7 +15,7 @@
         "  - ItalicFont=STKaiti\n",
         "---"
       ],
-      "id": "aecc970e"
+      "id": "caadcbe1"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import sys\n",
         "sys.path.append('..')"
       ],
-      "id": "d7456ba3",
+      "id": "3004bf7f",
       "execution_count": null,
       "outputs": []
     },
@@ -37,7 +37,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "cb6d1890",
+      "id": "e8d3e822",
       "execution_count": null,
       "outputs": []
     },
@@ -87,7 +87,7 @@
         "\n",
         "[@epochaiDataNotableAI2024] reports the growth in computing power and the evolution of more than 800 AI models since the 1950s. Very simply, more data and more computing power means more intelligent models."
       ],
-      "id": "1d6027c8"
+      "id": "49da3fb7"
     },
     {
       "cell_type": "code",
@@ -95,7 +95,7 @@
       "source": [
         "growth_compute_chart()"
       ],
-      "id": "3d711cec",
+      "id": "968d935b",
       "execution_count": null,
       "outputs": []
     },
@@ -240,7 +240,7 @@
         "\n",
         "Table: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption=\"7 Years of Rapid AI Model Innovation\"}"
       ],
-      "id": "a02a0d7b"
+      "id": "32051b6b"
     },
     {
       "cell_type": "code",
@@ -248,7 +248,7 @@
       "source": [
         "models_chart()"
       ],
-      "id": "14a3e120",
+      "id": "24941fa8",
       "execution_count": null,
       "outputs": []
     },
@@ -262,7 +262,7 @@
         "\n",
         "Moreover, benchmarking is not only about the abilities, knowledge and alignment of the model itself. Interactions with other systems are equally important to measure, such as Retrieval Augmented Generation (RAG) performance. RAG is used to enhance AI content with domain-specific (close-to real-time) knowledge. A technique first proposed by researchers at META [@lewisRetrievalAugmentedGenerationKnowledgeIntensive2020] some RAG benefits include *\"make contextual decisions on-the-fly, thereby opening up a more dynamic and responsive way to handle knowledge search tasks\"* [@dewyBuildingRAGTool2024; @gaoRetrievalAugmentedGenerationLarge2023]. Generative AI applications retrieve data from unstructured external sources in order to augment LLMs existing knowledge with current information [@lengLongContextRAG2024]. [@ragasMetricsDrivenDevelopment2023] suggests evaluating one's RAG pipelines enables *Metrics-Driven Development*. Likewise, LangSmith, the developer platform for LLM-powered apps (which makes extensive use of RAG), dissects the LLM app lifecycle into a pipeline: debug, collaborate, test, and monitor [@langchainDynamicFewshotExamples2024]. As using unstructured inputs to generated structured data, is one of the core use cases of LLMs, conforming the outputs strictly to standards such as JSON is crucial (otherwise the production app might even break), explains why OpenAI’s Structured Outputs, which guaranteed 100% reliability, was an important jump in AI adoption to mainstream app development [@pokrassIntroducingStructuredOutputs2024]."
       ],
-      "id": "c6bfa71c"
+      "id": "af281b50"
     },
     {
       "cell_type": "code",
@@ -270,7 +270,7 @@
       "source": [
         "models_rag_performance()"
       ],
-      "id": "25a45f3d",
+      "id": "a2b461c0",
       "execution_count": null,
       "outputs": []
     },
@@ -415,7 +415,7 @@
         "\n",
         "Table: AIs in different forms of media. []{short-caption=\"AIs in Different Forms of Media\"}"
       ],
-      "id": "c4e191ea"
+      "id": "0de8264e"
     },
     {
       "cell_type": "code",
@@ -423,7 +423,7 @@
       "source": [
         "scifi_chart()"
       ],
-      "id": "9ebd9a61",
+      "id": "61487faf",
       "execution_count": null,
       "outputs": []
     },
@@ -731,7 +731,7 @@
         "::: {#refs}\n",
         ":::"
       ],
-      "id": "59a8fa71"
+      "id": "89b52bac"
     }
   ],
   "metadata": {

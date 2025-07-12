@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "b4ed4cb5"
+      "id": "81067ff2"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "d4d3a8fa",
+      "id": "a352f08d",
       "execution_count": null,
       "outputs": []
     },
@@ -48,7 +48,7 @@
         "\n",
         "- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings."
       ],
-      "id": "ef1a99a7"
+      "id": "6c5f20e1"
     },
     {
       "cell_type": "code",
@@ -70,7 +70,7 @@
         "### Persona 1: \"Eco-Friendly\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "38e158e7"
+      "id": "67b1da6b"
     },
     {
       "cell_type": "code",
@@ -92,7 +92,7 @@
         "### Persona 2: \"Moderate\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "29e17a5e"
+      "id": "8319efe1"
     },
     {
       "cell_type": "code",
@@ -114,7 +114,7 @@
         "### Persona 3: \"Frugal\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "49bca557"
+      "id": "db82ca36"
     },
     {
       "cell_type": "code",
@@ -135,7 +135,7 @@
       "source": [
         "## Clustering Heatmap"
       ],
-      "id": "56662fd7"
+      "id": "9e8298b7"
     },
     {
       "cell_type": "code",
@@ -157,7 +157,7 @@
         "## Mean Answer Scores\n",
         "Mean response values for each Likert question in each cluster:"
       ],
-      "id": "ec6a7a5a"
+      "id": "c153a230"
     },
     {
       "cell_type": "code",
@@ -179,7 +179,7 @@
         "## Agreement Between Personas\n",
         "Highest agreement between personas is about health, safety, pollution and climate concerns."
       ],
-      "id": "663e5fde"
+      "id": "9bd45799"
     },
     {
       "cell_type": "code",

@@ -31,7 +31,7 @@
         "import ChatAsk from \"/research/images/interactive/companion/chat-ask.png\";\n",
         "```"
       ],
-      "id": "5c4fd61d"
+      "id": "79514328"
     },
     {
       "cell_type": "code",
@@ -41,7 +41,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "c31462a1",
+      "id": "198be192",
       "execution_count": null,
       "outputs": []
     },
@@ -91,7 +91,7 @@
         "\n",
         "While Google is the most popular browser with over 3.45 billion users [@GoogleChromeStatistics2023], extensions are a relatively less known feature of the browser. Most popular extensions are Grammarly, for Taiwanese students End Note is familiar. However, it's only available for computers (extensions don't run on phones and tablets)."
       ],
-      "id": "6dfdbaae"
+      "id": "291ed923"
     },
     {
       "cell_type": "code",
@@ -259,7 +259,7 @@
         "/>\n",
         "```\n"
       ],
-      "id": "5178c3ae"
+      "id": "b0b8676e"
     }
   ],
   "metadata": {
