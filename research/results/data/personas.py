@@ -13,7 +13,7 @@ from wordcloud import WordCloud
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from matplotlib.font_manager import FontProperties
-from data.fields.likert_flat_fields import likert_flat_fields
+from data.fields.likert_flat_fields import likert_flat_fields, likert_flat_fields_en
 
 import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -79,31 +79,57 @@ def show_single_persona(cluster_id):
     new_biplot(df, cluster_id, cluster_names, chinese_font)
 
 
-def plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font, num_components=2, num_top_features=30):
+import textwrap
 
-    # Perform PCA on the cluster data
+def plot_loadings_for_cluster(
+        cluster_id,
+        df_cluster,
+        cluster_names,
+        chinese_font,
+        num_components: int = 2,
+        num_top_features: int = 30):
+
+    # --------------------------- 1. PCA
     pca = PCA(n_components=num_components)
     pca.fit(df_cluster[likert_flat_fields])
-    
-    # Get the loadings for the first principal component
+
     loadings = pca.components_[0]
-    
-    # Sort the loadings and select the most significant ones for plotting
     sorted_idx = np.argsort(np.abs(loadings))[::-1]
-    top_features = np.array(likert_flat_fields)[sorted_idx][:num_top_features]
-    top_loadings = loadings[sorted_idx][:num_top_features]
+    top_features  = np.array(likert_flat_fields)[sorted_idx][:num_top_features]
+    top_loadings  = loadings[sorted_idx][:num_top_features]
 
-    # Plotting the results with the Chinese font
-    fig, ax = plt.subplots(figsize=(10, 15))
-    ax.barh(top_features, top_loadings, color='skyblue')
-    ax.set_xlabel('Loading', fontproperties=chinese_font)
-    ax.set_yticklabels(top_features, fontproperties=chinese_font)
-    ax.invert_yaxis()  # To display the highest bars at the top
+    # --------------------------- 2. bilingual y-tick labels
+    combined_labels = []
+    for zh in top_features:
+        idx = likert_flat_fields.index(zh)      # Chinese ↔ English have same order
+        en  = likert_flat_fields_en[idx]
 
+        zh_wrapped = textwrap.fill(zh, width=26)  # wrap only Chinese
+        combined_labels.append(f"{zh_wrapped}\n{en}")  # English stays on one line
+
+    # --------------------------- 3. plot
+    fig, ax = plt.subplots(figsize=(14, 18))
+    ax.barh(combined_labels, top_loadings, color="skyblue")
+
+    # plain-language axis + title
+    ax.set_xlabel("How strongly each question shapes the persona (i.e. PCA Loading)",
+                  fontproperties=chinese_font)
+    ax.set_title(f"Survey questions that most define Persona (i.e. PCA Feature Weights) {cluster_id+1}: "
+                 f"“{cluster_names[cluster_id]}”",
+                 fontproperties=chinese_font)
+
+    # use Chinese font for y-ticks so the Han characters render nicely
+    for label in ax.get_yticklabels():
+        label.set_fontproperties(chinese_font)
+
+    ax.tick_params(axis="y", labelsize=9)
+    ax.invert_yaxis()           # biggest influence on top
+    plt.tight_layout()
     plt.show()
 
+
 def plot_loadings(cluster_id, pca, cluster_names, chinese_font):
-    # Get the loadings for the first principal component
+    # Get the loadings for the first PC component
     loadings = pca.components_[0]
     # Sort the loadings and select the most significant ones for plotting
     sorted_idx = np.argsort(np.abs(loadings))[::-1]
@@ -148,8 +174,8 @@ def new_biplot(df, cluster_id, cluster_names, chinese_font, threshold=0.5, zoom_
     adjust_text(texts, arrowprops=dict(arrowstyle='<-', color='red'))
 
     ax.set_title(f'Feature Weights (Readable Version)', fontproperties=chinese_font)
-    ax.set_xlabel('Principal Component 1', fontproperties=chinese_font)
-    ax.set_ylabel('Principal Component 2', fontproperties=chinese_font)
+    ax.set_xlabel('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', fontproperties=chinese_font)
+    ax.set_ylabel('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', fontproperties=chinese_font)
     ax.grid(True)
     ax.axis('equal')  # Equal scaling for both axes
 
@@ -180,9 +206,9 @@ def pca_biplot(df, cluster_names, chinese_font):
         text_y = max(min(text_y, max_length[1]*0.8), -max_length[1]*0.8)
         ax.text(text_x, text_y, df.columns.values[i], color='g', ha='center', va='center', fontproperties=chinese_font)
     
-    ax.set_title('Feature Weights (Survey Questions)', fontproperties=chinese_font)
-    ax.set_xlabel('Principal Component 1', fontproperties=chinese_font)
-    ax.set_ylabel('Principal Component 2', fontproperties=chinese_font)
+    ax.set_title('Feature Weights from Likert Survey Questions', fontproperties=chinese_font)
+    ax.set_xlabel('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', fontproperties=chinese_font)
+    ax.set_ylabel('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', fontproperties=chinese_font)
     ax.grid(True)
     ax.axis('equal')  # Setting equal axes for better proportionality
     plt.show()
@@ -221,69 +247,86 @@ def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_feature
     
     axs[0].imshow(wordcloud1_array_with_border)
     axs[0].axis('off')
-    axs[0].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Principal Component 1')
+    axs[0].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry')
     
     axs[1].imshow(wordcloud2_array_with_border)
     axs[1].axis('off')
-    axs[1].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Principal Component 2')
+    axs[1].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years')
     
     plt.tight_layout()
     plt.show()
 
-
 def get_kmeans_table():
-    # Select only the relevant columns for clustering
-    df_likert_real_data = df[likert_flat_fields]
+    # 1) Keep only the Likert-scale columns and drop rows with NAs
+    df_likert = df[likert_flat_fields].dropna()
 
-    # Drop rows with missing values for a more accurate clustering
-    df_likert_real_data = df_likert_real_data.dropna()
+    # 2) Run K-means (k = 3)
+    kmeans = KMeans(n_clusters=3, n_init=10,
+                    random_state=42, verbose=False).fit(df_likert)
+    df_likert["Cluster"] = kmeans.labels_
 
-    # Perform k-means clustering to group students into 3 clusters
-    kmeans_real_data = KMeans(n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_real_data)
+    # 3) Compute mean score for each question per cluster
+    cluster_means = df_likert.groupby("Cluster").mean().reset_index()
 
-    # Add the cluster labels to the DataFrame
-    df_likert_real_data['Cluster'] = kmeans_real_data.labels_
+    # 4) Build bilingual column labels
+    bilingual_labels = {
+        zh: f"{textwrap.fill(zh, 20)}\n{likert_flat_fields_en[i]}"
+        for i, zh in enumerate(likert_flat_fields)
+    }
+    cluster_means = cluster_means.rename(columns=bilingual_labels)
 
-    # Calculate the mean score for each question in each cluster
-    cluster_means_real_data = df_likert_real_data.groupby('Cluster').mean().reset_index()
-
-    # Display the table
-    display(cluster_means_real_data)  # This will render the DataFrame as a HTML table in Quarto
+    # 5) Display the table (nice HTML in Quarto / Jupyter)
+    display(cluster_means.style.format("{:.2f}"))
 
 
 def show_clustering_heatmap():
-    # Filter the DataFrame to only include the Likert scale fields
-    df_likert_data = df[likert_flat_fields]
+    # 1) Prep the Likert data
+    df_likert_data = df[likert_flat_fields].dropna()
 
-    # Drop rows with missing values for accurate clustering
-    df_likert_data = df_likert_data.dropna()
+    # 2) K-means (3 clusters)
+    kmeans = KMeans(n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_data)
+    df_likert_data["Cluster"] = kmeans.labels_
 
-    # Perform k-means clustering with 3 clusters
-    kmeans_likert_data = KMeans(
-        n_clusters=3, n_init=10, random_state=42, verbose=False).fit(df_likert_data)
+    # 3) Build bilingual x-tick labels  (same order as columns)
+    bilingual_labels = []
+    for zh in likert_flat_fields:
+        idx = likert_flat_fields.index(zh)          # shared order ⇒ same index
+        en  = likert_flat_fields_en[idx]
 
-    # Add the cluster labels to the DataFrame
-    df_likert_data['Cluster'] = kmeans_likert_data.labels_
+        zh_wrapped = textwrap.fill(zh, width=12)    # wrap Chinese only
+        bilingual_labels.append(f"{zh_wrapped}\n{en}")
 
-    # Create a figure and a set of subplots
+    # 4) Plot heatmap
     fig, ax = plt.subplots(figsize=(20, 8))
+    sns.heatmap(
+        df_likert_data.groupby("Cluster").mean(),
+        cmap="coolwarm",
+        annot=True,
+        cbar=True,
+        ax=ax
+    )
 
-    # Create a heatmap using the created ax (Axes object)
-    sns.heatmap(df_likert_data.groupby('Cluster').mean(),
-                cmap="coolwarm", annot=True, cbar=True, ax=ax)
+    # 5) Titles / axis labels (Chinese font for Han characters)
+    ax.set_title(
+        "Average agreement for each question by cluster",
+        fontproperties=chinese_font
+    )
+    ax.set_xlabel(
+        "Questions (Chinese on top, English below)",
+        fontproperties=chinese_font
+    )
+    ax.set_ylabel("Cluster ID", fontproperties=chinese_font)
 
-    # Set the title and labels using the provided Chinese font properties
-    ax.set_title('Heatmap of 3 Clusters Based on Likert Scale Questions',
-                 fontproperties=chinese_font)
-    ax.set_xlabel('Questions', fontproperties=chinese_font)
-    ax.set_ylabel('Cluster ID', fontproperties=chinese_font)
+    # 6) Apply the bilingual x-tick labels
+    ax.set_xticklabels(
+        bilingual_labels,
+        rotation=45,
+        ha="right",
+        fontproperties=chinese_font
+    )
 
-    # Rotate the x-axis labels for better readability
-    wrapped_labels = [textwrap.fill(label.get_text(), width=10) for label in ax.get_xticklabels()]
-    ax.set_xticklabels(wrapped_labels, rotation=45, fontproperties=chinese_font)
-
+    plt.tight_layout()
     plt.show()
-
 
 def prepare_data_for_pca():
     # Prepare the likert data, dropping any rows with missing values
@@ -349,8 +392,8 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
 
     # Set titles and labels
     ax.set_title(title, fontproperties=chinese_font)
-    ax.set_xlabel('Principal Component 1', fontproperties=chinese_font)
-    ax.set_ylabel('Principal Component 2', fontproperties=chinese_font)
+    ax.set_xlabel('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', fontproperties=chinese_font)
+    ax.set_ylabel('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', fontproperties=chinese_font)
 
     # Extract handles and labels from the scatterplot
     handles, labels = scatter.get_legend_handles_labels()

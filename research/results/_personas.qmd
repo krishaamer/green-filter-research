@@ -12,13 +12,14 @@ Customer segmentation
 
 Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert scale fields, transformed into the principal components that capture the most variance.
 
-The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013].
+The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models). 
 
-K-prototypes combines K-mean and K-modes unsupervised machine learning algorithms.
+| Persona             | Color/marker | Rough **attitude signal** along PC 1                            | Cluster Centre (PC 1, PC 2) | Size    |
+| ------------------- | ------------ | --------------------------------------------------------------- | --------------------------- | ------- |
+| **1. Eco-Friendly** | blue ★       | Leans pro-environment, willing to pay or act for green goals | (\~ +2.2, +0.7)             | n = 278 |
+| **2. Moderate**     | orange ★     | Sits in the middle, balanced or undecided on most trade-offs | (\~ 0.0, –1.5)              | n = 356 |
+| **3. Frugal**       | green ★      | Cost-first, cautious about spending for eco causes           | (\~ –2.0, +0.8)             | n = 242 |
 
-- There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy.
-
-- Principal Component Analysis (PCA) is used to convert data to lower dimension space. This is a predecessor of embeddings.
 
 ```{python}
 #| label: fig-survey-personas
@@ -77,7 +78,7 @@ get_kmeans_table()
 ```
 
 ## Agreement Between Personas
-Highest agreement between personas is about health, safety, pollution and climate concerns.
+There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy. Highest agreement between personas is about health, safety, pollution and climate concerns.
 
 ```{python}
 #| label: fig-survey-high-agree
@@ -86,5 +87,18 @@ Highest agreement between personas is about health, safety, pollution and climat
 treemap()
 ```
 
+| Rank | Category (Mean¹)                             | Why the take mostly holds                                                                                | Any nuance to note                                                                                               |
+| ---- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1    | **Health & Safety (4.20)**                   | Highest average → students *actively* click with personal well-being.                                    | The spread is tight; nearly everyone agrees, so messaging can be broad.                                          |
+| 2    | **Climate & Pollution (4.00)**               | Strong support for big-picture environmental stakes.                                                     | Scores cluster a hair lower than #1, but difference isn’t huge.                                                  |
+| 3    | **Env. Awareness & Action (3.80)**           | They *like* the idea of acting green, just slightly less pumped than broad “save the planet” statements. | Some questions in this bucket may have asked for concrete effort (reuse cups, etc.), which drags the mean a bit. |
+| 4    | **Personal Finance & Investment (3.50)**     | Mid-3s says “interested, not obsessed.” Your “money talk sits mid-tier” line is spot-on.                 | Variance is wider; a sub-segment rates it high, others shrug.                                                    |
+| 5    | **Ethical Consumption & Labor (3.20)**       | Agreement exists but lags — real people far away feel abstract.                                          | If you spotlight specific worker stories, expect this score to climb.                                            |
+| 6    | **Tech & AI Engagement (3.10)**              | Curiosity tempered by caution, exactly as you wrote.                                                     | The topic is newer, so opinions are still forming.                                                               |
+| 7    | **Economic Growth vs Sustainability (2.90)** | Lowest mean = hardest sell; “trade-off” framing pushes folks to neutral/disagree.                        | If you rephrase questions to show win-win economics, this block can leap upward.                                 |
 
 
+
+In summary, *Safety > Planet > Personal Eco-action*. Students first protect themselves (food safety, health), then the planet, then think about their habits. Money talk sits mid-tier. Finance topics aren’t ignored (3.5 / 5) but aren’t hype either. Ethical labor & AI still feel abstract. Sweat-shop worries and AI curiosity land in the low-3’s. Economic trade-offs are the hardest sell. When sustainability sounds like “sacrifice growth,” support tanks (< 3).
+
+*Design Implications*: Frame eco-features around personal health wins to boost engagement. App idea: Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.

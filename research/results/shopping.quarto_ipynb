@@ -1,0 +1,252 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Shopping\n",
+        "sidebar_position: 2\n",
+        "execute:\n",
+        "  echo: false\n",
+        "editor:\n",
+        "  render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---"
+      ],
+      "id": "a2859730"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from data.attitudes import likert_single_chart\n",
+        "from data.partial import partial_likert_single_chart\n",
+        "from data.shopping import boycott_count, why_boycott, trusted_brands, visualize_shopping_data\n",
+        "import warnings\n",
+        "warnings.filterwarnings(\"ignore\")"
+      ],
+      "id": "e8a790ae",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Shopping Attitudes"
+      ],
+      "id": "68e1feed"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-shopping\n",
+        "#| fig-cap: College Student Attitudes Towards Shopping\n",
+        "#| fig-scap: College Student Attitudes Towards Shopping\n",
+        "likert_single_chart(0)"
+      ],
+      "id": "fig-survey-student-shopping",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Interpreting the findings.\n",
+        "\n",
+        "| Question | Interpretation |\n",
+        "|-----------------|---------------------------------------|\n",
+        "| *Would you still buy a tomato if you suspected it was picked by forced labor?* | Most respondents chose **2** or **1** which I interpret as *“Nope, I wouldn’t buy it.”* - only a small fraction of the respondents choosing 4-5 would ignore the labor issue. |\n",
+        "| *Do you care about food safety?* | The choices peaks at **4**, then **5**. Nearly everyone is on the caring side; indifference and denial are tiny. |\n",
+        "| *Will you buy a car within 7 years?* | The mode is **1**, plus decent counts at **2**. A clear majority of respondents do **not** expect to purchase a car soon. My interpretation: maybe they’re fine with their scooter (!= car, see the question about how they arrive to school), use public transit or are just broke students. |\n",
+        "| *Will you buy a house within 7 years?* | Even more lopsided: a mountain at **1**. Housing feels out of reach for the respondents. |\n",
+        "| *Do you know if a product is environmentally friendly when shopping?* | Bell-ish curve peaking at **3-4**. People feel **some** awareness, but confidence isn’t universal. This might also reflect they don't fully understand the question. |\n",
+        "| *Do you think companies with environmental certifications are better?* | Strong skew right: bars climb from 3 → 4 → 5. The badge matters and most respondents see certified firms as the good guys. |\n",
+        "| *Do you support a meat tax?* | Centered on **3**, with noticeable flanks at 2 and 4. Opinion is split; lots are neutral, some yay, some nay. Again, this might indicate respondents don't fully understand the question. |\n",
+        "| *Do you care about the living conditions of chickens you consume?* | Mode at **3**, healthy bump at **4**. People lean caring, but not super strongly. |\n",
+        "| *Do you avoid eating meat?* | Tall stack on **1**, smaller on **2**. So most **do not** avoid meat; only a sliver sits at 4-5. |\n",
+        "| *Do you think your spending affects the environment?* | Big jump at **4**, next at **5**, tiny left tail. Consensus: “My wallet choices matter.” This is an important finding to justify *Green Filter*. |\n",
+        "\n",
+        "The following charts show the results including data from the partially-filled surveys. The extra ~300 partial responders barely move the needle, with every question’s modal answer staying exactly the same, and all the peaks and valleys shift by at most 1–2 percentage points. If anything, the full-sample (n ≈ 1,180) show more neutrality (slightly fewer “strong disagree” or “strong agree” ticks) and a tiny uptick in agreeing that certified companies are better and that your spending matters."
+      ],
+      "id": "65fcba34"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-shopping-partial\n",
+        "#| fig-cap: 'Partial: College Student Attitudes Towards Shopping'\n",
+        "#| fig-scap: Partial College Student Attitudes Towards Shopping\n",
+        "partial_likert_single_chart(0)"
+      ],
+      "id": "fig-survey-student-shopping-partial",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Design implications:\n",
+        "\n",
+        "-   A majority of the respondents don't plan to buy a house or car within 7 years: don't focus on these categories\n",
+        "\n",
+        "-   Majority don't fly much: don't focus on flights.\n",
+        "\n",
+        "### Boycott Count (Overall)"
+      ],
+      "id": "82114d2b"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-boycott\n",
+        "#| fig-cap: College Students Boycott Experience\n",
+        "#| fig-scap: College Students Boycott Experience\n",
+        "boycott_count()"
+      ],
+      "id": "fig-survey-student-boycott",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "| Option                        | Count   | Share of sample |\n",
+        "|-------------------------------|---------|-----------------|\n",
+        "| **沒 有** – *Never boycotted* | **537** | \\~61 %          |\n",
+        "| **有** – *Have boycotted*     | **339** | \\~39 %          |\n",
+        "\n",
+        "About 2 out of 5 college students have actively refused to buy from at least one brand, while a clear majority hasn’t taken that step.\n",
+        "\n",
+        "### Why Boycott?"
+      ],
+      "id": "b325daad"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-boycott-reasons\n",
+        "#| fig-cap: College Students Boycott Reasons\n",
+        "#| fig-scap: College Students Boycott Reasons\n",
+        "why_boycott()"
+      ],
+      "id": "fig-survey-student-boycott-reasons",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Top motives among the 339 “Yes” answers.\n",
+        "\n",
+        "-   Food-safety scandals (\\>70 mentions: 食安問題, 地溝油, 黑心油…)\n",
+        "\n",
+        "-   General ethics / “黑心” distrust (\\~30)\n",
+        "\n",
+        "-   Political stance / human-rights issues (\\~10)\n",
+        "\n",
+        "-   Environmental harm (\\~8)\n",
+        "\n",
+        "-   Personal dislike (taste, price, service) (individual cases)\n",
+        "\n",
+        "### Trusted Brands"
+      ],
+      "id": "67102631"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-trusted-brands\n",
+        "#| fig-cap: College Student Trusted Brands\n",
+        "#| fig-scap: College Student Trusted Brands\n",
+        "trusted_brands()"
+      ],
+      "id": "fig-survey-student-trusted-brands",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "The following responses were counted as \"no brand\": \"無\", \"沒有\", \"沒有特別\", \"🈚️\", \"目前沒有\", \"No\", \"沒\", \"沒有特別關注\", \"沒有特別信任的\", \"不知道\", \"無特別選擇\", \"目前沒有完全信任的\", \"沒有特定的\", \"沒有特定\", \"沒有特別研究\", \"目前沒有特別關注的品牌\",\"N\", \"none\", \"無特別\", \"目前無\", \"沒有特別想到\", \"沒有固定的\", \"x\", \"沒在買\", \"nope\", \"一時想不到…\", \"沒有特別注意\", \"無特別的品牌\", \"無絕對信任的品牌\", \"不確定你說的範圍\", \"還沒有\"\n",
+        "\n",
+        "| Response category | Count | Share of all students |\n",
+        "|------------------------------------------|---------------|---------------|\n",
+        "| **No trusted brand**<br>(any variant of “none / don’t have / can’t think of one”) | **421** | **48 %** |\n",
+        "| **Have trust but didn’t name it**<br>(e.g., “有”) | 68 | 8 % |\n",
+        "| **Named a specific brand** | 387 | 44 % |\n",
+        "| *Total* | 876 | 100 % |\n",
+        "\n",
+        "| Rank | Brand                          | Count | \\% of all 876 |\n",
+        "|------|--------------------------------|-------|---------------|\n",
+        "| 1    | **義美 (I-Mei Foods)**         | 48    | 5.5 %         |\n",
+        "| 2    | **Apple**                      | 27    | 3.1 %         |\n",
+        "| 3    | MUJI                           | 14    | 1.6 %         |\n",
+        "| 4    | Nike                           | 11    | 1.3 %         |\n",
+        "| 5    | 光泉 (Kuang Chuan Dairy)       | 9     | 1.0 %         |\n",
+        "| 6    | 統一 (Uni-President)           | 7     | 0.8 %         |\n",
+        "| 7    | 里仁 (LiRen organic)           | 6     | 0.7 %         |\n",
+        "| 8    | NET (Taiwanese fashion chain)  | 5     | 0.6 %         |\n",
+        "| 9    | 主婦聯盟 (Moms in Union co-op) | 5     | 0.6 %         |\n",
+        "| 10   | 全聯 (PX Mart)                 | 4     | 0.5 %         |\n",
+        "\n",
+        "Top-10 mentioned brands (after normalising obvious duplicates). After the top three, the distribution flattens quickly; in total, 248 different brand names were entered. High “no-brand” rate (48 %): Students are sceptical and reserve trust; they need a strong safety/ethics signal before committing loyalty.\n",
+        "\n",
+        "## Choice Experiments"
+      ],
+      "id": "f0510944"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-student-shopping-choice\n",
+        "#| fig-cap: College Student Shopping Choice Experiment\n",
+        "#| fig-scap: College Student Shopping Choice Experiment\n",
+        "visualize_shopping_data()"
+      ],
+      "id": "fig-survey-student-shopping-choice",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "| Product & Attributes | Choices | Respondents | Share | Interpretation |\n",
+        "|--------------|--------------|--------------|-----------|-------------------|\n",
+        "| **Tomatoes** (Price × Forced-labor Risk) | 500 TWD/kg (5% risk) | **507** | **58%** | **Sweet-spot:** most college students accept a mid price if risk is \\< 10%. |\n",
+        "|  | 300 TWD/kg (15% risk) | 301 | 34% | **Price-first:** about 1/3 of the respondents sacrifice ethics for a 40% discount. |\n",
+        "|  | 700 TWD/kg (2% risk) | 68 | 8% | **Ethical Premium:** fewer than 1/10 of the respondents will pay +40% for the safest pick. |\n",
+        "| **Milk** (Price Only) | 85 TWD | **363** | **41%** | Slightly higher-priced carton wins; may signal perceived quality. |\n",
+        "|  | 72 TWD | 339 | 39% | Hardcore bargain hunters—pure price play. |\n",
+        "|  | 108 TWD | 174 | 20% | Small niche is fine paying +27 % (brand / organic cue?). |\n",
+        "| **Eggs** (Price × Animal-welfare Label) | 66 TWD / 10 eggs (no hen-welfare info) | **414** | **47%** | Baseline: half of the respondents choose the cheapest “unknown welfare” tray. |\n",
+        "|  | 102 TWD / 10 eggs (no hen-welfare info) | 269 | 31% | Some will pay +54% even without extra welfare signal (brand/quality?) |\n",
+        "|  | 160 TWD / 10 eggs (cage-free label) | 193 | 22% | About 1/5 of the respondents would pay +142% when hen welfare is certified. |\n"
+      ],
+      "id": "6afdca6e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
