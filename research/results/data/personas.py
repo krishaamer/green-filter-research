@@ -17,7 +17,7 @@ from PIL import Image, ImageOps
 from data.fields.likert_flat_fields import likert_flat_fields, likert_flat_fields_en
 from data.styles import get_cluster_palette, activate_plot_style, CLUSTER_NAMES, wrap
 
-activate_plot_style()                 # one-liner: grid, font sizes, colour cycle
+activate_plot_style()
 CLUSTER_PALETTE = get_cluster_palette()  
 
 import os

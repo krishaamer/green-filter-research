@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Mindmap of Thesis &amp; User Concepts</title>
+  </head>
+  <body>
+    <outline text="Mindmap of Thesis &amp; User Concepts">
+      <outline text="Sustainable Finance">
+        <outline text="ESG (Environment, Social, Governance)"/>
+        <outline text="Risk-return analysis"/>
+        <outline text="CF ratio / R-squared"/>
+        <outline text="Factor analysis"/>
+        <outline text="Algorithmic trading + proxies"/>
+        <outline text="AI explainability"/>
+      </outline>
+      <outline text="Research Methods">
+        <outline text="In-depth interviews"/>
+        <outline text="Focus groups"/>
+        <outline text="Survey"/>
+        <outline text="Pilot study"/>
+      </outline>
+      <outline text="LCA">
+        <outline text="Energy"/>
+        <outline text="Materials"/>
+        <outline text="Emissions"/>
+        <outline text="Sustainable design practice"/>
+        <outline text="Market performance"/>
+        <outline text="Technology deployment"/>
+        <outline text="CSR (Corporate Social Responsibility)"/>
+      </outline>
+      <outline text="AI &amp; Data Techniques">
+        <outline text="Continual learning"/>
+        <outline text="Explainable AI"/>
+        <outline text="Oracle data"/>
+        <outline text="Retrieval-Augmented Generation (RAG)"/>
+        <outline text="Vector Databases"/>
+        <outline text="Large-context LLM"/>
+        <outline text="Base model + Token economy"/>
+      </outline>
+      <outline text="Student Context">
+        <outline text="Confucian Norms"/>
+        <outline text="Empowerment"/>
+        <outline text="Attitude-Behaviour gap"/>
+        <outline text="VCM (Verified Carbon Market)"/>
+        <outline text="Day Income Lottery: Taiwan E-Invoice Lottery"/>
+        <outline text="Social Trust Index"/>
+        <outline text="Atomic Prompt Engineering"/>
+        <outline text="Generations in investment (HMW)"/>
+        <outline text="Clustering"/>
+        <outline text="Social cost of carbon"/>
+      </outline>
+      <outline text="Design Frameworks">
+        <outline text="Sustainable UX/UI Patterns"/>
+        <outline text="User Flow Patterns"/>
+        <outline text="Gamification"/>
+        <outline text="COIN Community Game"/>
+        <outline text="Green Hub workflow (Local Selling App)"/>
+        <outline text="Behaviour change design frameworks"/>
+        <outline text="Generative design frameworks"/>
+        <outline text="Prototype + Features"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,16 +1,26 @@
 ```{python}
-from data.saving import saving_to_investing
+from data.saving import saving_to_investing_sankey, saving_to_investing_bars
 import warnings
 warnings.filterwarnings("ignore")
 ```
 
 ## Saving
 
+The following charts are based on the 你/妳覺得目前有任何投資嗎？ and 你/妳覺得目前有任何投資嗎？ boolean (Yes / No) fields. The data shows correlation between saving levels and investing: the students with higher level of saving invest more. 
+
 ```{python}
-#| label: fig-survey-corr-invest
-#| fig-cap: "Correlation Between Saving Levels and Investing"
-#| fig-scap: "Correlation Between Saving Levels and Investing"
-saving_to_investing()
+#| label: fig-survey-corr-invest-bar
+#| fig-cap: "Correlation Between Saving Levels and Investing (Sankey)"
+#| fig-scap: "Correlation Between Saving Levels and Investing (Sankey)"
+saving_to_investing_bars()
 ```
 
-Correlation between saving levels and investing: the students with higher level of saving invest more. 
+The same data plotted as a Sankey chart.
+
+```{python}
+#| label: fig-survey-corr-invest-sankey
+#| fig-cap: "Correlation Between Saving Levels and Investing (Sankey)"
+#| fig-scap: "Correlation Between Saving Levels and Investing (Sankey)"
+saving_to_investing_sankey()
+```
+
