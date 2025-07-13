@@ -3,6 +3,7 @@ import Figure from "/src/components/Figure";
 import Susan from "./images/prototypes/susan-pink-app.png";
 import Tricorder from "./images/introduction/tricorder.jpg";
 import Abstract from "./images/introduction/abstract.png";
+import ResearchGaps from "./images/introduction/research-gaps.png";
 ```
 # Introduction
 
@@ -23,6 +24,17 @@ My research describes the process of designing an AI companion for college stude
 ## Relevance and Research Gap
 
 My research addresses the *"attitude-behavior gap"* among Taiwanese college students in taking sustainable financial action. In general, Icek Ajzen's *Theory of Planned Behavior* frames the gap between attitude and behavior by showing that (1) attitude, (2) perceived social norms, and (3) perceived control, must all converge, before intention can translate into any action [@ajzenTheoryPlannedBehavior1991] - in this case, taking sustainable financial action.
+
+::: {.content-hidden unless-format="pdf"}
+![Research Gap(s)](./images/introduction/research-gaps.png){#fig-research-gap width="100%" fig-lof-cap="Research Gap(s)"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Research Gap(s)"
+  src={ResearchGaps}
+/>
+```
 
 In terms of the global context, the convergence of the following 5 trends makes my research timely in 2025.
 
@@ -89,7 +101,7 @@ My research attempts to answer the following questions.
 |----------------------------------------|--------------------------------|
 | What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance? | Literature Review and Expert Interviews |
 | How can AI companions support college students with sustainability knowledge in the context of financial decisions? | Literature Review, Expert Interviews and Survey of College Students |
-| What AI companion features do college students prioritize as the highest? | Survey of College Students and Prototype Testing |
+| What AI companion features do college students prioritize as the highest importance? | Survey of College Students and Prototype Testing |
 
 : Research Questions
 

@@ -12,14 +12,13 @@ Customer segmentation
 
 Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert scale fields, transformed into the principal components that capture the most variance.
 
-The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models). 
+The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models).
 
-| Persona             | Color/marker | Rough **attitude signal** along PC 1                            | Cluster Centre (PC 1, PC 2) | Size    |
-| ------------------- | ------------ | --------------------------------------------------------------- | --------------------------- | ------- |
-| **1. Eco-Friendly** | blue ★       | Leans pro-environment, willing to pay or act for green goals | (\~ +2.2, +0.7)             | n = 278 |
-| **2. Moderate**     | orange ★     | Sits in the middle, balanced or undecided on most trade-offs | (\~ 0.0, –1.5)              | n = 356 |
-| **3. Frugal**       | green ★      | Cost-first, cautious about spending for eco causes           | (\~ –2.0, +0.8)             | n = 242 |
-
+| Persona | Color/marker | Rough **attitude signal** along PC 1 | Cluster Centre (PC 1, PC 2) | Size |
+|-----------|-----------|---------------------------|-----------|-----------|
+| **1. Eco-Friendly** | blue ★ | Leans pro-environment, willing to pay or act for green goals | (\~ +2.2, +0.7) | n = 278 |
+| **2. Moderate** | orange ★ | Sits in the middle, balanced or undecided on most trade-offs | (\~ 0.0, –1.5) | n = 356 |
+| **3. Frugal** | green ★ | Cost-first, cautious about spending for eco causes | (\~ –2.0, +0.8) | n = 242 |
 
 ```{python}
 #| label: fig-survey-personas
@@ -29,6 +28,7 @@ show_personas()
 ```
 
 ### Persona 1: "Eco-Friendly"
+
 Questions Most Affecting Persona Creation include...
 
 ```{python}
@@ -38,9 +38,10 @@ Questions Most Affecting Persona Creation include...
 show_single_persona(0)
 ```
 
-
 ### Persona 2: "Moderate"
+
 Questions Most Affecting Persona Creation include...
+
 ```{python}
 #| label: fig-survey-personas-two
 #| fig-cap: "Persona 2 - Moderate"
@@ -48,9 +49,10 @@ Questions Most Affecting Persona Creation include...
 show_single_persona(1)
 ```
 
-
 ### Persona 3: "Frugal"
+
 Questions Most Affecting Persona Creation include...
+
 ```{python}
 #| label: fig-survey-personas-three
 #| fig-cap: "Persona 3 - Frugal"
@@ -68,6 +70,7 @@ show_clustering_heatmap()
 ```
 
 ## Mean Answer Scores
+
 Mean response values for each Likert question in each cluster:
 
 ```{python}
@@ -78,6 +81,7 @@ get_kmeans_table()
 ```
 
 ## Agreement Between Personas
+
 There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy. Highest agreement between personas is about health, safety, pollution and climate concerns.
 
 ```{python}
@@ -87,18 +91,44 @@ There is some similarity between clusters. All 3 personas report a high level of
 treemap()
 ```
 
-| Rank | Category (Mean¹)                             | Why the take mostly holds                                                                                | Any nuance to note                                                                                               |
-| ---- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 1    | **Health & Safety (4.20)**                   | Highest average → students *actively* click with personal well-being.                                    | The spread is tight; nearly everyone agrees, so messaging can be broad.                                          |
-| 2    | **Climate & Pollution (4.00)**               | Strong support for big-picture environmental stakes.                                                     | Scores cluster a hair lower than #1, but difference isn’t huge.                                                  |
-| 3    | **Env. Awareness & Action (3.80)**           | They *like* the idea of acting green, just slightly less pumped than broad “save the planet” statements. | Some questions in this bucket may have asked for concrete effort (reuse cups, etc.), which drags the mean a bit. |
-| 4    | **Personal Finance & Investment (3.50)**     | Mid-3s says “interested, not obsessed.” Your “money talk sits mid-tier” line is spot-on.                 | Variance is wider; a sub-segment rates it high, others shrug.                                                    |
-| 5    | **Ethical Consumption & Labor (3.20)**       | Agreement exists but lags — real people far away feel abstract.                                          | If you spotlight specific worker stories, expect this score to climb.                                            |
-| 6    | **Tech & AI Engagement (3.10)**              | Curiosity tempered by caution, exactly as you wrote.                                                     | The topic is newer, so opinions are still forming.                                                               |
-| 7    | **Economic Growth vs Sustainability (2.90)** | Lowest mean = hardest sell; “trade-off” framing pushes folks to neutral/disagree.                        | If you rephrase questions to show win-win economics, this block can leap upward.                                 |
+| Rank | Category (Mean¹) | Why the take mostly holds | Any nuance to note |
+|-------------|-------------|-----------------------|-------------------------|
+| 1 | **Health & Safety (4.20)** | Highest average → students *actively* click with personal well-being. | The spread is tight; nearly everyone agrees, so messaging can be broad. |
+| 2 | **Climate & Pollution (4.00)** | Strong support for big-picture environmental stakes. | Scores cluster a hair lower than #1, but difference isn’t huge. |
+| 3 | **Env. Awareness & Action (3.80)** | They *like* the idea of acting green, just slightly less pumped than broad “save the planet” statements. | Some questions in this bucket may have asked for concrete effort (reuse cups, etc.), which drags the mean a bit. |
+| 4 | **Personal Finance & Investment (3.50)** | Mid-3s says “interested, not obsessed.” Your “money talk sits mid-tier” line is spot-on. | Variance is wider; a sub-segment rates it high, others shrug. |
+| 5 | **Ethical Consumption & Labor (3.20)** | Agreement exists but lags — real people far away feel abstract. | If you spotlight specific worker stories, expect this score to climb. |
+| 6 | **Tech & AI Engagement (3.10)** | Curiosity tempered by caution, exactly as you wrote. | The topic is newer, so opinions are still forming. |
+| 7 | **Economic Growth vs Sustainability (2.90)** | Lowest mean = hardest sell; “trade-off” framing pushes folks to neutral/disagree. | If you rephrase questions to show win-win economics, this block can leap upward. |
 
-
-
-In summary, *Safety > Planet > Personal Eco-action*. Students first protect themselves (food safety, health), then the planet, then think about their habits. Money talk sits mid-tier. Finance topics aren’t ignored (3.5 / 5) but aren’t hype either. Ethical labor & AI still feel abstract. Sweat-shop worries and AI curiosity land in the low-3’s. Economic trade-offs are the hardest sell. When sustainability sounds like “sacrifice growth,” support tanks (< 3).
+In summary, *Safety \> Planet \> Personal Eco-action*. Students first protect themselves (food safety, health), then the planet, then think about their habits. Money talk sits mid-tier. Finance topics aren’t ignored (3.5 / 5) but aren’t hype either. Ethical labor & AI still feel abstract. Sweat-shop worries and AI curiosity land in the low-3’s. Economic trade-offs are the hardest sell. When sustainability sounds like “sacrifice growth,” support tanks (\< 3).
 
 *Design Implications*: Frame eco-features around personal health wins to boost engagement. App idea: Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.
+
+## Notable Quotes from the Survey
+
+The survey also included textual fields where college students could express their ideas in their owns words. Here are some quotes, which show the attitudes and feelings of the students.
+
+| **Original Quote (Chinese)** | **English Translation** | **Category** |
+|------------------|---------------------------------|-----------------|
+| 黑心商品不健康或老闆品德不佳 | “Black-hearted products are unhealthy, and the boss has poor morals.” | Opinionated/Emotional |
+| 因為味全以前使用黑心油所以再也不買他們家的產品 | “Because Wei Chuan used gutter oil in the past, I will never buy their products again.” | Emotional |
+| 有食安問題、政治立場不同 | “They have food safety issues and \[hold\] different political stances.” | Thematic (Food safety/Political) |
+| 對環境造成破壞或是對人不健康 | “It causes damage to the environment or is unhealthy for people.” | Thematic/Opinionated |
+| 公司使用地溝油來製造產品 | “The company uses gutter oil to manufacture its products.” | Thematic (Food safety) |
+| 分享心情，提供建議，像是跟朋友聊天，但不用擔心秘密被知道 | “Share feelings and give advice, like chatting with a friend, but without worrying that secrets will be revealed.” | Emotional |
+| 一個指令一個動作即可。太厲害的反應會擔心哪一天被反撲取代 | “One command at a time is enough. If its responses become too powerful, I worry it could one day turn against us and replace us.” | Unique perspective / Fearful |
+| 支持致力於永續環保的企業，抵制不具環保意識的公司。 | “Support companies committed to sustainability and environmental protection, and boycott those lacking environmental awareness.” | Thematic |
+| 很多大學會有產學合作課程，公司在招募人才的時候應該也希望聽到年輕人對現當代行業的想法，所以我認為本來就會有一定的影響！ | “Many universities have industry–school cooperation programs. When companies recruit talent, they likely want to hear young people’s ideas about modern industries, so I believe there will inherently be some influence!” | Thematic / Optimistic |
+| 老實說影響力可能很有限，不過可能可以透過有前景的提案或是具有經濟價值的行動 | “Honestly, our influence might be very limited, but perhaps we can act through promising proposals or actions with economic value.” | Realistic / Opinion |
+| 網路上理性發表意見，影響到社交圈，藉由輿論改變公司方針 | “Post opinions rationally online, influence your social circle, and change company policy through public opinion.” | Thematic (Activism) |
+| 戰爭、人們不再相愛、世界末日 | “War, people not loving each other anymore, the end of the world.” | Emotional (Dramatic fear) |
+| 核電廠爆掉 | “A nuclear power plant explodes.” | Emotional/Fearful |
+| 氣候失控、地緣政治風險 | “Uncontrolled climate and geopolitical risks.” | Thematic (Climate/Politics) |
+| 冰山融化，海平面上升 | “Icebergs melting and sea levels rising.” | Thematic (Climate) |
+| 小時候爸爸出門都會跟我們說要帶購物袋，並重複利用，就算髒了也可以再拿去當垃圾袋。 | “When I was little, my dad would always tell us to bring our own shopping bags and reuse them; even if they got dirty, we could still use them as trash bags.” | Nostalgic / Moral |
+| Podcast:百靈果的每個禮拜的國際新聞與來賓訪談，他們用有趣的方式讓我知道好多好多事 | “Podcast: 'Bailingguo' does weekly international news and guest interviews – they let me learn so much in such an interesting way.” | Unique / Memorable |
+| 愛因斯坦相對論，特別是在談視界（event horizon），這顯著影響我的哲學思考。 | “Einstein’s theory of relativity, especially discussing event horizons, has significantly influenced my philosophical thinking.” | Intellectual Inspiration |
+| 高中老師努力推行環保，跟我們分享台灣的珊瑚礁有多寶貴，然後現在面臨什麼樣的風險。 | “My high school teacher worked hard to promote environmental protection, sharing with us how precious Taiwan’s coral reefs are and what risks they currently face.” | Inspirational/Educational |
+| 我認為要人民注重環保的先決條件是經濟狀況，假如一個家庭的經濟收入非常拮据，他們優先考慮的通常不是環保而是吃飽。 | “I think the prerequisite for people to care about the environment is their economic situation. If a family’s income is very tight, their priority is usually not the environment but having enough to eat.” | Thematic (Socioeconomic) |
+| 以屏科大為例，它宣揚自己是全國綠色大學第一名，並且發展許多環保或綠色議題的研究，但就細節而言，實際上學生的環保觀念並無太大提升，即便這個環境一直在宣傳環保議題，可是學生餐廳內仍然充斥著許多環保筷、塑膠湯匙等用具。 | “For example, Pingtung University of Science and Technology promotes itself as the country’s top green university and conducts much environmental research. But in detail, students’ environmental awareness hasn’t really improved; even though the campus constantly promotes green issues, the cafeteria is still filled with many disposable chopsticks and plastic spoons.” | Opinionated (Campus vs. Practice) |
