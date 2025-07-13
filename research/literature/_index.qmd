@@ -1,13 +1,14 @@
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import Literature from '/research/images/literature/literature.png'
+import Literature2025 from '/research/images/literature/literature-2025.png'
 import AllConcepts from '/research/images/literature/all.png'
 ```
 ## Literature Review
 
 The literature review branches out to 5 main directions and maps out relationships sources and the literature map, namely Taiwanese college students, generation-z demographics, sustainability, ecology, ecosystem services, EU legislation, sustainable finance, sustainable investing, savings, circular economy, economics, AI, existing sustainability, software, sustainability–related mobile apps (Apple iOS / Google Android), and web apps related to sustainable shopping, savings, and investing; apps using algorithmic interfaces (AI-based UI), design, UX/UI, service design, sustainable design, speculative design, interaction design, behavior change, nudge.
 
-The following chart shows a tiny portion of the papers considered in this research.
+The following chart shows a tiny portion of the papers considered in this research at the first stage of proposing this research.
 
 ```{=mdx}
 <Figure caption="Example papers from the Literature Review" src={Literature} />
@@ -16,7 +17,16 @@ The following chart shows a tiny portion of the papers considered in this resear
 ![Example papers from the Literature Review](./images/literature/literature.png){width="100%"}
 :::
 
-This is a more complete concept map of the topics relevant to my research.
+The 2nd chart illustrated how the literature review quickly grew they more I read and understood what I don't understand - thus needing to read more. This is still a small subset of the literature that was reviewer. However, it does give a better silhouette of the shape of the entire literature review.
+
+```{=mdx}
+<Figure caption="A Larger Sample of the Reviewed Literature" src={Literature2025} />
+```
+::: {.content-hidden unless-format="pdf"}
+![A Larger Sample of the Reviewed Literature](./images/literature/literature-2025.png){width="100%"}
+:::
+
+Finally, this is a more complete concept map of the topics relevant to my research that largely emerged from the literature.
 
 ```{=mdx}
 <Figure caption="Nearly Complete Concept Map" src={AllConcepts} />

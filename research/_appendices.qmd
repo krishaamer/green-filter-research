@@ -1,10 +1,22 @@
 # Appendices
 
-## Appendix 1: Prototype User Testing Transcripts
+## Appendix 1: College Students' In-Person Prototype Testing Transcripts
 
 {{< include "_combined-student-testing.qmd" >}}
 
-## Appendix 2: Research Tech Stack
+## Appendix 2: College Students' Prototype Self-Testing Survey Data
+
+Due to the large amount data captured by the survey (over 100 people self-tested the Green Filter app and 32 people filled out the survey after in-person testing was completed), I've chosen to exclude it from the PDF version of my thesis. The data is available upon request - and has also been published on Hugging Face as a public dataset here: https://huggingface.co/datasets/krishaamer/taiwanese-college-students
+
+## Appendix 3: Expert Interviews' Transcripts
+
+Due to the already too long thesis, I've excluded the raw interview transcripts. The data is available upon request.
+
+## Appendix 4: College Students' Survey Data
+
+Due to the large amounts of data captured by the initial survey (over 1600 people started the survey, after filtering, leading to over 800 Gen-Z current college students finished it fully), I've chosen to exclude it from the PDF version of my thesis. The data is available upon request - and has also been published on Hugging Face as a public dataset here: https://huggingface.co/datasets/krishaamer/taiwanese-college-students
+
+## Appendix 5: Research Tech Stack
 
 For anyone who would like to repeat this research, here's a table with the software that this research project made use of.
 
@@ -66,7 +78,7 @@ For anyone who would like to repeat this research, here's a table with the softw
 | Markdown         | Markup Language              |
 
 
-## Appendix 3: Further Reading
+## Appendix 6: Further Reading
 
 Some recommended books on the topics covered in this thesis include, but are not limited to: 
 
