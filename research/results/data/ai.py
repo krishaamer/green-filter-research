@@ -21,20 +21,40 @@ df = pd.read_csv(csv_path)
 chinese_font = FontProperties(fname=font_path, size=12)
 
 def ai_roles():
-    # Check if the "其他" column exists and concatenate it with the AI roles column if it does
-    if "其他" in df.columns:
-        df["你/妳想要AI扮什麼角色？"] = df["你/妳想要AI扮什麼角色？"].str.cat(df["其他"], na_rep='', sep=' ')
+    # ── 0. Translation look-up ─────────────────────────────────────────────
+    role_map = {
+        "助手": "assistant",
+        "幫手": "helper",
+        "導師": "mentor",
+        "老師": "teacher",
+        "教練": "coach",
+        "夥伴": "partner",
+        "朋友": "friend",
+    }
 
-    # Summarize the data
+    # 1. If the survey had an “Other” free-text field, merge it in
+    if "其他" in df.columns:
+        df["你/妳想要AI扮什麼角色？"] = (
+            df["你/妳想要AI扮什麼角色？"].str.cat(df["其他"], na_rep="", sep=" ")
+        )
+
+    # 2. Count identical *combos*
     ai_roles_data = df["你/妳想要AI扮什麼角色？"].value_counts().head(20)
 
-    # Plot the data
+    # ── 3. Translate every combo into English ──────────────────────────────
+    def zh_combo_to_en(combo: str) -> str:
+        # full-width comma ‘，’ separates words in the dataset
+        return ", ".join(role_map.get(w.strip(), w.strip()) for w in combo.split("，"))
+
+    ai_roles_data.index = ai_roles_data.index.map(zh_combo_to_en)
+
+    # 4. Plot
     plt.figure(figsize=(10, 6))
-    ai_roles_data.plot(kind='bar', color='skyblue')
-    plt.title('Preferred AI Roles', fontproperties=chinese_font)
-    plt.xlabel('Roles', fontproperties=chinese_font)
-    plt.ylabel('Number of Responses', fontproperties=chinese_font)
-    plt.xticks(rotation=45, ha='right', fontproperties=chinese_font)
+    ai_roles_data.plot(kind="bar", color="skyblue", edgecolor="k")
+    plt.title("Preferred AI Roles", fontproperties=chinese_font)
+    plt.xlabel("Roles", fontproperties=chinese_font)
+    plt.ylabel("Number of Responses", fontproperties=chinese_font)
+    plt.xticks(rotation=45, ha="right", fontproperties=chinese_font)
     plt.tight_layout()
     plt.show()
 

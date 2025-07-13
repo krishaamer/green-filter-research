@@ -11,7 +11,7 @@
         "    render-on-save: false\n",
         "---"
       ],
-      "id": "ee4b9bfc"
+      "id": "e1755368"
     },
     {
       "cell_type": "code",
@@ -20,7 +20,7 @@
         "import sys\n",
         "sys.path.append('..')"
       ],
-      "id": "5676d511",
+      "id": "0444ca13",
       "execution_count": null,
       "outputs": []
     },
@@ -34,7 +34,7 @@
         "\n",
         "from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production, climate_tipping_points"
       ],
-      "id": "77fad118",
+      "id": "56f0f1e7",
       "execution_count": null,
       "outputs": []
     },
@@ -101,7 +101,7 @@
         "\n",
         "[@tedTippingPointsClimate2024; @armstrongmckayExceedingGlobalWarming2022] warns that climate is not a linear system, rather there are several non-linear climate tipping points, where change accelerates: at the current warming ice‐sheet collapse, permafrost thaw, Amazon dieback and coral‐reef loss are likely to tip between 1.5 °C and 2 °C, underscoring that the Paris Agreement range is far from a safe limit. [@armstrongmckayExceeding15degCGlobal2022] synthesize paleoclimate records, observations, and model projections to revise and rank both global \"core\" and regional \"impact\" climate tipping elements by their warming thresholds, visualized in the chart below."
       ],
-      "id": "14855227"
+      "id": "0a7208ab"
     },
     {
       "cell_type": "code",
@@ -181,7 +181,7 @@
         "\n",
         "Table: Climate Action Tracker's country comparison of the 10 top polluters' climate action [@climateanalyticsClimateActionTracker2023]. []{short-caption=\"Top Polluters\"}"
       ],
-      "id": "2c9070b8"
+      "id": "630a46cd"
     },
     {
       "cell_type": "code",
@@ -248,7 +248,7 @@
         "\n",
         "Table: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023]. []{short-caption=\"Voluntary Market CO~2~ Prices\"}"
       ],
-      "id": "532b777a"
+      "id": "83698223"
     },
     {
       "cell_type": "code",
@@ -340,7 +340,7 @@
         "\n",
         "Plastic pollution is pervasive around the Earth and is fundamentally linked to climate change, while microplastics are increasingly a real concern [@TIERNAN2022169; @laversFarDistractionPlastic2022]. Several international studies report recent findings of microplastics everywhere in human bodies: the brain, lungs, digestive tissues, bone marrow, penis, testis, seminal fluid (semen), and placenta - causing serious health and reproductive concerns [@mainMicroplasticsAreInfiltrating2024; @guoDiscoveryAnalysisMicroplastics2024; @huMicroplasticPresenceDog2024; @codringtonDetectionMicroplasticsHuman2024; @liPrevalenceImplicationsMicroplastic2024; @montanoRamanMicrospectroscopyEvidence2023; @garciaQuantitationIdentificationMicroplastics2024; @zhuTissueAccumulationMicroplastics2024]"
       ],
-      "id": "6840cb2b"
+      "id": "984af551"
     },
     {
       "cell_type": "code",
@@ -430,7 +430,7 @@
         "\n",
         "Table: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021]. []{short-caption=\"Biodiversity Loss\"}"
       ],
-      "id": "b16428cc"
+      "id": "5152da52"
     },
     {
       "cell_type": "code",
@@ -480,7 +480,7 @@
         "\n",
         "In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:"
       ],
-      "id": "402f2306"
+      "id": "6a7d367a"
     },
     {
       "cell_type": "code",
@@ -501,7 +501,7 @@
       "source": [
         "Pollution Reports in Taiwan by District."
       ],
-      "id": "a992c297"
+      "id": "fe3b5512"
     },
     {
       "cell_type": "code",
@@ -614,7 +614,7 @@
         "\n",
         "EU's energy mix in 2024:"
       ],
-      "id": "a6977a1b"
+      "id": "320685c5"
     },
     {
       "cell_type": "code",
@@ -635,7 +635,7 @@
       "source": [
         "Wind and solar energy overtook fossil energy in Europe:"
       ],
-      "id": "60f65c5d"
+      "id": "29582948"
     },
     {
       "cell_type": "code",
@@ -656,7 +656,7 @@
       "source": [
         "Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate2024]:"
       ],
-      "id": "4a8f3dbb"
+      "id": "e39896ff"
     },
     {
       "cell_type": "code",
@@ -677,7 +677,7 @@
       "source": [
         "Meanwhile, reduction in coal-power was also possible. Coal is a large CO~2~eq emitter."
       ],
-      "id": "601c6d5a"
+      "id": "5fb7709d"
     },
     {
       "cell_type": "code",
@@ -729,7 +729,7 @@
         "::: {#refs}\n",
         ":::"
       ],
-      "id": "91153386"
+      "id": "8580b168"
     }
   ],
   "metadata": {

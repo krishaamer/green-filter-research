@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "68ffbe51"
+      "id": "29d35b19"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "db5ea781",
+      "id": "faf8a167",
       "execution_count": null,
       "outputs": []
     },
@@ -36,7 +36,7 @@
         "\n",
         "### Study Level"
       ],
-      "id": "8f5bac98"
+      "id": "2e0ae43b"
     },
     {
       "cell_type": "code",
@@ -57,7 +57,7 @@
       "source": [
         "### Age Distribution"
       ],
-      "id": "d2fc1ace"
+      "id": "9b4b0e56"
     },
     {
       "cell_type": "code",
@@ -78,7 +78,7 @@
       "source": [
         "### University"
       ],
-      "id": "cc49f0e6"
+      "id": "2f075fa2"
     },
     {
       "cell_type": "code",
@@ -100,7 +100,7 @@
         "### Field of Study\n",
         "Fields of study have not been normalized: there may be several expressions of the same academic department, written slightly differently."
       ],
-      "id": "68a8e23e"
+      "id": "c54aab3a"
     },
     {
       "cell_type": "code",
@@ -121,7 +121,7 @@
       "source": [
         "### Personality Type"
       ],
-      "id": "5cfc1253"
+      "id": "4154e8c8"
     },
     {
       "cell_type": "code",

@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "5e7299cf"
+      "id": "8dbec9a3"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "c595ffbf",
+      "id": "aa5a9336",
       "execution_count": null,
       "outputs": []
     },
@@ -48,7 +48,7 @@
         "| **2. Moderate**     | orange ★     | Sits in the middle, balanced or undecided on most trade-offs | (\\~ 0.0, –1.5)              | n = 356 |\n",
         "| **3. Frugal**       | green ★      | Cost-first, cautious about spending for eco causes           | (\\~ –2.0, +0.8)             | n = 242 |\n"
       ],
-      "id": "7b2f8f95"
+      "id": "2a8b4cd1"
     },
     {
       "cell_type": "code",
@@ -70,7 +70,7 @@
         "### Persona 1: \"Eco-Friendly\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "e592e359"
+      "id": "742729b6"
     },
     {
       "cell_type": "code",
@@ -92,7 +92,7 @@
         "### Persona 2: \"Moderate\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "ffcecc5b"
+      "id": "c2cc4f7f"
     },
     {
       "cell_type": "code",
@@ -114,7 +114,7 @@
         "### Persona 3: \"Frugal\"\n",
         "Questions Most Affecting Persona Creation include..."
       ],
-      "id": "277edf93"
+      "id": "8338e5af"
     },
     {
       "cell_type": "code",
@@ -135,7 +135,7 @@
       "source": [
         "## Clustering Heatmap"
       ],
-      "id": "e706494a"
+      "id": "e4173a54"
     },
     {
       "cell_type": "code",
@@ -157,7 +157,7 @@
         "## Mean Answer Scores\n",
         "Mean response values for each Likert question in each cluster:"
       ],
-      "id": "3498dbbe"
+      "id": "01ff49e6"
     },
     {
       "cell_type": "code",
@@ -179,7 +179,7 @@
         "## Agreement Between Personas\n",
         "There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy. Highest agreement between personas is about health, safety, pollution and climate concerns."
       ],
-      "id": "0b75435e"
+      "id": "8b5b2431"
     },
     {
       "cell_type": "code",
@@ -214,7 +214,7 @@
         "\n",
         "*Design Implications*: Frame eco-features around personal health wins to boost engagement. App idea: Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.\n"
       ],
-      "id": "aeebe005"
+      "id": "c78ccc2e"
     }
   ],
   "metadata": {

@@ -13,7 +13,12 @@ from wordcloud import WordCloud
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from matplotlib.font_manager import FontProperties
+from PIL import Image, ImageOps
 from data.fields.likert_flat_fields import likert_flat_fields, likert_flat_fields_en
+from data.styles import get_cluster_palette, activate_plot_style, CLUSTER_NAMES, wrap
+
+activate_plot_style()                 # one-liner: grid, font sizes, colour cycle
+CLUSTER_PALETTE = get_cluster_palette()  
 
 import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,18 +32,6 @@ def show_personas():
     # Prepare the data and perform clustering and PCA
     df_clustered, pca, cluster_centers = prepare_data_for_pca()
 
-    # Retain colors
-    unique_clusters = df_clustered['Cluster'].unique()
-    palette = sns.color_palette('pastel', n_colors=len(unique_clusters))
-    cluster_palette = {cluster: color for cluster, color in zip(unique_clusters, palette)}
-
-    # Cluster names
-    cluster_names = {
-        0: 'Eco-Friendly',
-        1: 'Moderate',
-        2: 'Frugal',
-    }
-
     cluster_descriptions = {
         0: 'desc 1',
         1: 'desc 2',
@@ -46,25 +39,12 @@ def show_personas():
     }
 
     # Show a scatterplot with all clusters included
-    plot_scatterplot(df_clustered, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, "Distinct Respondent Profiles Based on K-means Clustering")
-
+    plot_scatterplot(df_clustered, pca, cluster_centers, chinese_font, CLUSTER_PALETTE, CLUSTER_NAMES, cluster_descriptions, "Distinct Respondent Profiles Based on K-means Clustering")
 
 def show_single_persona(cluster_id): 
 
     # Prepare the data and perform clustering and PCA
     df_clustered, pca, cluster_centers = prepare_data_for_pca()
-
-    # Retain colors
-    unique_clusters = df_clustered['Cluster'].unique()
-    palette = sns.color_palette('pastel', n_colors=len(unique_clusters))
-    cluster_palette = {cluster: color for cluster, color in zip(unique_clusters, palette)}
-
-    # Cluster names
-    cluster_names = {
-        0: 'Eco-Friendly',
-        1: 'Moderate',
-        2: 'Frugal',
-    }
 
     cluster_descriptions = {
         0: 'desc 1',
@@ -73,13 +53,10 @@ def show_single_persona(cluster_id):
     }
 
     df_cluster = df_clustered[df_clustered['Cluster'] == cluster_id]
-    plot_scatterplot(df_cluster, pca, cluster_centers, chinese_font, cluster_palette, cluster_names, cluster_descriptions, title=f'Clustered Survey Responses')
-    plot_loadings_for_cluster(cluster_id, df_cluster, cluster_names, chinese_font)
-    pca_biplot(df_cluster, cluster_names, chinese_font)
-    new_biplot(df, cluster_id, cluster_names, chinese_font)
-
-
-import textwrap
+    plot_scatterplot(df_cluster, pca, cluster_centers, chinese_font, CLUSTER_PALETTE, CLUSTER_NAMES, cluster_descriptions, title=f'Clustered Survey Responses')
+    plot_loadings_for_cluster(cluster_id, df_cluster, CLUSTER_NAMES, chinese_font)
+    pca_biplot(df_cluster, CLUSTER_NAMES, chinese_font)
+    new_biplot(df, cluster_id, CLUSTER_NAMES, chinese_font)
 
 def plot_loadings_for_cluster(
         cluster_id,
@@ -112,10 +89,10 @@ def plot_loadings_for_cluster(
     ax.barh(combined_labels, top_loadings, color="skyblue")
 
     # plain-language axis + title
-    ax.set_xlabel("How strongly each question shapes the persona (i.e. PCA Loading)",
+    ax.set_xlabel(wrap("How strongly each question shapes the persona (i.e. PCA Loading)", 50),
                   fontproperties=chinese_font)
-    ax.set_title(f"Survey questions that most define Persona (i.e. PCA Feature Weights) {cluster_id+1}: "
-                 f"“{cluster_names[cluster_id]}”",
+    ax.set_title(wrap(f"Survey questions that most define Persona (i.e. PCA Feature Weights) {cluster_id+1}: "
+                 f"“{cluster_names[cluster_id]}”", 50),
                  fontproperties=chinese_font)
 
     # use Chinese font for y-ticks so the Han characters render nicely
@@ -139,7 +116,7 @@ def plot_loadings(cluster_id, pca, cluster_names, chinese_font):
     # Plotting the results with the Chinese font
     fig, ax = plt.subplots(figsize=(10, 15))  # Increase the height here
     ax.barh(top_features, top_loadings, color='skyblue')
-    ax.set_xlabel('Loading', fontproperties=chinese_font)
+    ax.set_xlabel(wrap('How strongly each question shapes the persona (i.e. PCA Loading)', 50), fontproperties=chinese_font)
     print(f'<h2 style="text-align: center;">Feature Weights for Cluster {cluster_id+1}: "{cluster_names[cluster_id]}"</h2>')
     ax.set_yticklabels(top_features, fontproperties=chinese_font)
     ax.invert_yaxis()  # To display the highest bars at the top
@@ -207,14 +184,13 @@ def pca_biplot(df, cluster_names, chinese_font):
         ax.text(text_x, text_y, df.columns.values[i], color='g', ha='center', va='center', fontproperties=chinese_font)
     
     ax.set_title('Feature Weights from Likert Survey Questions', fontproperties=chinese_font)
-    ax.set_xlabel('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', fontproperties=chinese_font)
-    ax.set_ylabel('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', fontproperties=chinese_font)
+    ax.set_xlabel(wrap('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', 50), fontproperties=chinese_font)
+    ax.set_ylabel(wrap('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', 50), fontproperties=chinese_font)
     ax.grid(True)
     ax.axis('equal')  # Setting equal axes for better proportionality
     plt.show()
 
 def add_border(input_image, border_color, border_width):
-    from PIL import Image, ImageOps
     img = Image.fromarray(input_image)
     img_with_border = ImageOps.expand(img, border=border_width, fill=border_color)
     return np.array(img_with_border)
@@ -247,11 +223,11 @@ def plot_wordcloud(pca, cluster_id, cluster_names, chinese_font, num_top_feature
     
     axs[0].imshow(wordcloud1_array_with_border)
     axs[0].axis('off')
-    axs[0].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry')
+    axs[0].set_title(wrap(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', 50))
     
     axs[1].imshow(wordcloud2_array_with_border)
     axs[1].axis('off')
-    axs[1].set_title(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years')
+    axs[1].set_title(wrap(f'Persona "{cluster_names[cluster_id]}" - Word Cloud for Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', 50))
     
     plt.tight_layout()
     plt.show()
@@ -380,11 +356,11 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
     for label in unique_clusters:
         # Use the label to index cluster_centers directly if it's a dictionary
         center = cluster_centers[label]
-        ax.scatter(center[0], center[1], c=cluster_palette[label], s=200,
-                   alpha=0.75, marker='o', edgecolors='k')
+        ax.scatter(center[0], center[1], c=cluster_palette[label], s=600,
+                   alpha=0.75, marker='o', edgecolors='k', zorder=3)
         # Annotate the number of respondents in the cluster
         ax.text(center[0], center[1], str(cluster_counts[label]), color='black', 
-                ha='center', va='center', fontproperties=chinese_font)
+                ha='center', va='center', zorder=4, fontproperties=chinese_font)
         # Write custom descriptive text above each cluster if showing individual scatterplot
         if is_individual and label in cluster_descriptions:
             ax.text(center[0], center[1]+0.1, cluster_names[label], color='black', 
@@ -392,8 +368,8 @@ def plot_scatterplot(df, pca, cluster_centers, chinese_font, cluster_palette, cl
 
     # Set titles and labels
     ax.set_title(title, fontproperties=chinese_font)
-    ax.set_xlabel('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', fontproperties=chinese_font)
-    ax.set_ylabel('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', fontproperties=chinese_font)
+    ax.set_xlabel(wrap('Eco-Commitment (PC1). Key Patterns: Want to do more for the environment / Are my eco-actions effective? / Live a low-carbon lifestyle / Promote sustainability in my industry', 50), fontproperties=chinese_font)
+    ax.set_ylabel(wrap('Tech Openness and Large Purchase Plans (PC2). Key Patterns: Use AI every day / Trust AI / Buy a house within 7 years / Buy a car within 7 years', 50), fontproperties=chinese_font)
 
     # Extract handles and labels from the scatterplot
     handles, labels = scatter.get_legend_handles_labels()

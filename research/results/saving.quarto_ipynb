@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "65dd73d9"
+      "id": "80cb6d38"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "50e35a02",
+      "id": "01712dc5",
       "execution_count": null,
       "outputs": []
     },
@@ -34,7 +34,7 @@
       "source": [
         "## Saving"
       ],
-      "id": "712ec9f1"
+      "id": "ec811dd0"
     },
     {
       "cell_type": "code",
@@ -55,7 +55,7 @@
       "source": [
         "Correlation between saving levels and investing: the students with higher level of saving invest more. \n"
       ],
-      "id": "1a8ff727"
+      "id": "21e9d2c3"
     }
   ],
   "metadata": {

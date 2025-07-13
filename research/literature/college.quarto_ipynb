@@ -15,7 +15,7 @@
         "  - ItalicFont=STKaiti\n",
         "---"
       ],
-      "id": "c8a73aac"
+      "id": "84947bf1"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import sys\n",
         "sys.path.append('..')"
       ],
-      "id": "163db75e",
+      "id": "dd382515",
       "execution_count": null,
       "outputs": []
     },
@@ -37,7 +37,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "927edb7d",
+      "id": "4fb475b5",
       "execution_count": null,
       "outputs": []
     },
@@ -89,7 +89,7 @@
         "\n",
         "Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024]."
       ],
-      "id": "7bd7762e"
+      "id": "e5bb2924"
     },
     {
       "cell_type": "code",
@@ -110,7 +110,7 @@
       "source": [
         "As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024]."
       ],
-      "id": "8af6243b"
+      "id": "1acc151d"
     },
     {
       "cell_type": "code",
@@ -131,7 +131,7 @@
       "source": [
         "While the overall number of students is declining, the share of international students is increasing."
       ],
-      "id": "9f4e1e94"
+      "id": "26710c7a"
     },
     {
       "cell_type": "code",
@@ -164,7 +164,7 @@
         "\n",
         "[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Postmaterialist Index Comparison*, noting Taiwanese society is materialistic."
       ],
-      "id": "b0337129"
+      "id": "7822e671"
     },
     {
       "cell_type": "code",
@@ -185,7 +185,7 @@
       "source": [
         "World Values Survey"
       ],
-      "id": "35e112f3"
+      "id": "dc65c836"
     },
     {
       "cell_type": "code",
@@ -208,7 +208,7 @@
         "\n",
         "A large, global-scale study by [@anthonyleiserowitzInternationalPublicOpinion2022] administered on Meta's Facebook (n = 108946) reported people in Spain (65%), Sweden (61%), and Taiwan (60%) believe *\"climate change is mostly caused by human activities\"*."
       ],
-      "id": "8c8940f1"
+      "id": "4d589c9c"
     },
     {
       "cell_type": "code",
@@ -244,7 +244,7 @@
         "\n",
         "Comparing college students' education for sustainable development (ESD) in Taiwan (n = 617) and Sweden (n = 583) found Sweden has a long history in environmental education while in Taiwan environment became a focus area with the 1998 educational reform [@berglundCrossculturalComparativeStudy2020]."
       ],
-      "id": "79ca2ab3"
+      "id": "f50dbaba"
     },
     {
       "cell_type": "code",
@@ -309,7 +309,7 @@
         "\n",
         "Psychological factors influencing millennials to engage with sustainability [@naderiMeFirstThen2018]"
       ],
-      "id": "a274fcd5"
+      "id": "f83175a9"
     },
     {
       "cell_type": "code",
@@ -382,7 +382,7 @@
         "\n",
         "Meanwhile, Corporate Knights which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021]. Meanwhile, earth.org’s list of the world’s 50 most sustainable companies in 2022, only includes 1 Taiwanese company - TSMC [@earth.orgWorld50Most2022]."
       ],
-      "id": "b4d83696"
+      "id": "3430ddfe"
     },
     {
       "cell_type": "code",
@@ -403,7 +403,7 @@
       "source": [
         "Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey."
       ],
-      "id": "70ea8bc8"
+      "id": "d4536399"
     },
     {
       "cell_type": "code",
@@ -529,7 +529,7 @@
         "\n",
         "In Sweden, a large-scale (n = 5894) survey across several Swedish universities showed college students' attitudes towards AI assistants (ChatGPT was by far the most prevalent app, 95 % of respondents had heard of ChatGPT and 35 % used it regularly); 55.9% held a positive attitude toward AIs; integrity was a hotly debated question, 62% calling AI use in exams \"cheating,\" but 60% rejecting an outright ban, and 58% saying it doesn’t violate the purpose of education [@stohrPerceptionsUsageAI2024]."
       ],
-      "id": "1e7da7a1"
+      "id": "ed8d60c0"
     },
     {
       "cell_type": "code",
@@ -553,7 +553,7 @@
         "::: {#refs}\n",
         ":::"
       ],
-      "id": "aa20abf3"
+      "id": "d8633e8c"
     }
   ],
   "metadata": {

@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "dced9aa8"
+      "id": "75a72bab"
     },
     {
       "cell_type": "code",
@@ -26,7 +26,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "35b51189",
+      "id": "6c8088d5",
       "execution_count": null,
       "outputs": []
     },
@@ -40,7 +40,7 @@
         "\n",
         "### Economy"
       ],
-      "id": "c07c4afe"
+      "id": "f5958e69"
     },
     {
       "cell_type": "code",
@@ -77,7 +77,7 @@
         "\n",
         "Data from partial surveys."
       ],
-      "id": "fafbd40b"
+      "id": "a9581f78"
     },
     {
       "cell_type": "code",
@@ -98,7 +98,7 @@
       "source": [
         "### AI Use"
       ],
-      "id": "18db3baa"
+      "id": "ec7af82d"
     },
     {
       "cell_type": "code",
@@ -119,7 +119,7 @@
       "source": [
         "Data from partial surveys."
       ],
-      "id": "05858c06"
+      "id": "6c6292f5"
     },
     {
       "cell_type": "code",
@@ -140,7 +140,7 @@
       "source": [
         "### Nature"
       ],
-      "id": "0f2e2af5"
+      "id": "0590ad0a"
     },
     {
       "cell_type": "code",
@@ -161,7 +161,7 @@
       "source": [
         "### Environmental Protection"
       ],
-      "id": "e3078628"
+      "id": "78c70199"
     },
     {
       "cell_type": "code",
@@ -182,7 +182,7 @@
       "source": [
         "### Learning Environment"
       ],
-      "id": "80c4b03a"
+      "id": "2239fb5f"
     },
     {
       "cell_type": "code",
@@ -205,7 +205,7 @@
         "\n",
         "Correlations between fields allow clustering similar groups of students."
       ],
-      "id": "b3fad51a"
+      "id": "600c4a18"
     },
     {
       "cell_type": "code",
@@ -260,7 +260,7 @@
         "\n",
         "Testing student knowledge about the environment. College students see coral reefs, tropical rainforests, and wetlands as the most sensitive ecosystems, aligning with global climate narratives. However, the long tail of unique combos suggests mixed ecological knowledge and a strong opportunity to educate and personalize ecosystem awareness, especially in a Taiwanese context."
       ],
-      "id": "266de723"
+      "id": "f365cf07"
     },
     {
       "cell_type": "code",

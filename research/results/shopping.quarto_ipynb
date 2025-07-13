@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "a2859730"
+      "id": "f126e788"
     },
     {
       "cell_type": "code",
@@ -26,7 +26,7 @@
         "import warnings\n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "e8a790ae",
+      "id": "0a9a6767",
       "execution_count": null,
       "outputs": []
     },
@@ -36,7 +36,7 @@
       "source": [
         "## Shopping Attitudes"
       ],
-      "id": "68e1feed"
+      "id": "5fa92ff7"
     },
     {
       "cell_type": "code",
@@ -72,7 +72,7 @@
         "\n",
         "The following charts show the results including data from the partially-filled surveys. The extra ~300 partial responders barely move the needle, with every question’s modal answer staying exactly the same, and all the peaks and valleys shift by at most 1–2 percentage points. If anything, the full-sample (n ≈ 1,180) show more neutrality (slightly fewer “strong disagree” or “strong agree” ticks) and a tiny uptick in agreeing that certified companies are better and that your spending matters."
       ],
-      "id": "65fcba34"
+      "id": "3a7cf0ca"
     },
     {
       "cell_type": "code",
@@ -99,7 +99,7 @@
         "\n",
         "### Boycott Count (Overall)"
       ],
-      "id": "82114d2b"
+      "id": "2423e8bb"
     },
     {
       "cell_type": "code",
@@ -127,7 +127,7 @@
         "\n",
         "### Why Boycott?"
       ],
-      "id": "b325daad"
+      "id": "50cafd2a"
     },
     {
       "cell_type": "code",
@@ -160,7 +160,7 @@
         "\n",
         "### Trusted Brands"
       ],
-      "id": "67102631"
+      "id": "9586d4d2"
     },
     {
       "cell_type": "code",
@@ -205,7 +205,7 @@
         "\n",
         "## Choice Experiments"
       ],
-      "id": "f0510944"
+      "id": "0458f906"
     },
     {
       "cell_type": "code",
@@ -236,7 +236,7 @@
         "|  | 102 TWD / 10 eggs (no hen-welfare info) | 269 | 31% | Some will pay +54% even without extra welfare signal (brand/quality?) |\n",
         "|  | 160 TWD / 10 eggs (cage-free label) | 193 | 22% | About 1/5 of the respondents would pay +142% when hen welfare is certified. |\n"
       ],
-      "id": "6afdca6e"
+      "id": "0a4e6f06"
     }
   ],
   "metadata": {

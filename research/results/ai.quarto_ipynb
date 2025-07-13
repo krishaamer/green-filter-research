@@ -14,7 +14,7 @@
         "suppress-bibliography: true\n",
         "---"
       ],
-      "id": "70106d89"
+      "id": "f9c33c96"
     },
     {
       "cell_type": "code",
@@ -22,7 +22,7 @@
       "source": [
         "from data.ai import likert_cluster_and_visualize, perform_kmodes_clustering, radar_chart, plot_feature_preferences, ai_roles"
       ],
-      "id": "d7ce9cab",
+      "id": "3328699f",
       "execution_count": null,
       "outputs": []
     },
@@ -35,7 +35,7 @@
         "### Likert-Based Clustering\n",
         "AI-assistant feature choices per Likert-based Personas"
       ],
-      "id": "8fd2a739"
+      "id": "a528ae7c"
     },
     {
       "cell_type": "code",
@@ -78,7 +78,7 @@
         "\n",
         "### Feature Preferences (Overall)"
       ],
-      "id": "71ee9b43"
+      "id": "3c97eeba"
     },
     {
       "cell_type": "code",
@@ -99,7 +99,7 @@
       "source": [
         "## Feature Preferences (By Cluster)"
       ],
-      "id": "0a17e146"
+      "id": "0ae45bb5"
     },
     {
       "cell_type": "code",
@@ -120,7 +120,7 @@
       "source": [
         "## Preferred AI Roles (Overall)"
       ],
-      "id": "2df067f8"
+      "id": "70c7ec21"
     },
     {
       "cell_type": "code",

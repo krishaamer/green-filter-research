@@ -15,7 +15,7 @@
         "  - ItalicFont=STKaiti\n",
         "---"
       ],
-      "id": "d96b422f"
+      "id": "0d432753"
     },
     {
       "cell_type": "code",
@@ -24,7 +24,7 @@
         "import sys\n",
         "sys.path.append('..')"
       ],
-      "id": "f4f668e2",
+      "id": "d694b569",
       "execution_count": null,
       "outputs": []
     },
@@ -38,7 +38,7 @@
         "import warnings \n",
         "warnings.filterwarnings(\"ignore\")"
       ],
-      "id": "7335cfcb",
+      "id": "20a63acf",
       "execution_count": null,
       "outputs": []
     },
@@ -111,7 +111,7 @@
         "```\n",
         "The above chart shows how the European Union has been on a path of climate legislation transformation."
       ],
-      "id": "e6111658"
+      "id": "cc815e8f"
     },
     {
       "cell_type": "code",
@@ -156,7 +156,7 @@
         "\n",
         "The key to comparing Product Stewardship, Extended Producer Responsibility (EPR), and Eco-Design is the scope, as illustrated in the chart below. While Product Stewardship (PS) and Extended Producer Responsibility (EPR) deal mostly with the end of the product life-cycle (they are *reactive*), including their disposal and recycling (EPR going a step further than PS by shifting the responsibility to the producer), eco-design moves sustainability up the design chain (being *proactive*), setting standards for making better products - in essence, attempting to *design-out* the waste."
       ],
-      "id": "153abb96"
+      "id": "36384f20"
     },
     {
       "cell_type": "code",
@@ -227,7 +227,7 @@
         "\n",
         "*Eco-Design*, *Circular Design*, *Design for Circularity, Cradle-to-Cradle Design*, *Green Design*, *Regenerative Design*, *Climate-Responsive Design*, *Life-Centered Design, Design for Human Rights, Multispecies Design, Designing for Health* - designing for sustainability has been called with many names in diverse contexts of use, using a diversity of approaches, with subtle differences of emphasis and nuance, with same general goal of being more sustainable. While EU legislation chose *Eco-Design* as the overarching title, researchers and practitioners discuss all of the above on a frequent basis. [@ceschinEvolutionDesignSustainability2016] gives a comprehensive overview of the main themes of sustainable design and the main contributions and limitations in the well–researched *\"Evolution of design for sustainability: From product design to design for system innovations and transitions\"*."
       ],
-      "id": "78e56d35"
+      "id": "8094c14b"
     },
     {
       "cell_type": "code",
@@ -276,7 +276,7 @@
         "\n",
         "Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global conglomerates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024]. Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024]."
       ],
-      "id": "dbd741fc"
+      "id": "79839b97"
     },
     {
       "cell_type": "code",
@@ -380,7 +380,7 @@
         "\n",
         "[@panArtificialIntelligenceDigital2023] proposes 6 dimensions of *AI* usage in *digital sustainability*. The chart is purely illustrative to highlight the value of AI for sustainability; it's not based on numeric metrics."
       ],
-      "id": "b76a86f1"
+      "id": "e40af1ab"
     },
     {
       "cell_type": "code",
@@ -558,7 +558,7 @@
         "\n",
         "While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024]. Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017]."
       ],
-      "id": "63447538"
+      "id": "9f80cfb3"
     },
     {
       "cell_type": "code",
@@ -579,7 +579,7 @@
       "source": [
         "Other indexes do not include Taiwan in the TOP 10."
       ],
-      "id": "3d504eb8"
+      "id": "d8fb2c90"
     },
     {
       "cell_type": "code",
@@ -610,7 +610,7 @@
         "\n",
         "To give a concrete example of the usefulness of open data, for instance, the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore, the Monetary Authority has launched an open data portal for ESG information, allowing anyone to delve into environmental, social, and governmental topics [@monetaryauthorityofsingaporeMASLaunchesDigital2023]."
       ],
-      "id": "bb931d69"
+      "id": "03142452"
     },
     {
       "cell_type": "code",
@@ -689,7 +689,7 @@
         "\n",
         "Table: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption=\"Ant Forest Assisted Tree Planting - Growth Story\"}"
       ],
-      "id": "9c2eb1fc"
+      "id": "9741646c"
     },
     {
       "cell_type": "code",
@@ -757,7 +757,7 @@
         "\n",
         "Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the Atmotube Pro device attached to my backpack."
       ],
-      "id": "3d208f42"
+      "id": "0b783d88"
     },
     {
       "cell_type": "code",
@@ -811,7 +811,7 @@
         "\n",
         "[@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022]."
       ],
-      "id": "a01a1a09"
+      "id": "32b5314a"
     },
     {
       "cell_type": "code",
@@ -912,7 +912,7 @@
         "\n",
         "Circularise, a leader in providing digital product passports as a service, lists 15 types of data that should be included in a DPP [@tiandaphneWhatDataGoes2023]. A case study of rigid polyurethane foam (PU foam), a lightweight insulation material, explains how Circularise used blockchain and zero-knowledge proof (ZKP) to allow for DPP data-sharing, while retaining privacy and control over the data [@leonTerritorialCircularEcosystems2025; @daphneZeroknowledgeProofsExplained2022]."
       ],
-      "id": "8a3f88c9"
+      "id": "4816f1e7"
     },
     {
       "cell_type": "code",
@@ -941,7 +941,7 @@
         "::: {#refs}\n",
         ":::"
       ],
-      "id": "a82a557c"
+      "id": "09167fd2"
     }
   ],
   "metadata": {
