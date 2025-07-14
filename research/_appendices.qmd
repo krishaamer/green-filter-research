@@ -2,7 +2,11 @@
 
 ## Appendix 1: College Students' In-Person Prototype Testing Transcripts
 
-{{< include "_combined-student-testing.qmd" >}}
+Due to the large amount data captured by the in-person interview performed for testing with 32 people at 6 universities, I've chosen to exclude the full dataset from the PDF version of my thesis. The data is available upon request - and has also been published on Hugging Face as publicly: https://huggingface.co/datasets/krishaamer/taiwanese-college-students
+
+Below is a small example of the data gathered.
+
+{{< include "_sample-data-student-testing.qmd" >}}
 
 ## Appendix 2: College Students' Prototype Self-Testing Survey Data
 
@@ -10,7 +14,9 @@ Due to the large amount data captured by the survey (over 100 people self-tested
 
 ## Appendix 3: Expert Interviews' Transcripts
 
-Due to the already too long thesis, I've excluded the raw interview transcripts. The data is available upon request.
+Due to the length, I've decided to exclude full raw interview transcripts. The data is available upon request. Below is one example interview transcript.
+
+{{< include "_sample-data-expert-interviews.qmd" >}}
 
 ## Appendix 4: College Students' Survey Data
 
