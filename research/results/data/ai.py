@@ -241,11 +241,25 @@ def likert_cluster_and_visualize():
     plt.yticks([0.2, 0.4, 0.6, 0.8, 1], ["0.2", "0.4", "0.6", "0.8", "1"], color="grey", size=7)
     plt.ylim(0, 1)
     
+    persona_colors = {
+        'Eco-Friendly': '#2ca02c',  # green
+        'Moderate':     '#1f77b4',  # blue
+        'Frugal':       '#ff7f0e'   # orange
+    }
+
     # Plot data and fill with color
     for label, data in zip(df_dict.keys(), persona_averages):
-        data += data[:1]  # Complete the loop
-        ax.plot(angles, data, label=label, linewidth=1, linestyle='solid')
-        ax.fill(angles, data, alpha=0.25)
+        data += data[:1]                 # close the loop
+        ax.plot(angles,
+                data,
+                label=label,
+                linewidth=1.5,
+                linestyle='solid',
+                color=persona_colors[label])
+        ax.fill(angles,
+                data,
+                color=persona_colors[label],
+                alpha=0.25)
     
     # Add legend
     plt.legend(title='Personas')
