@@ -1,7 +1,7 @@
 ```{=mdx}
 import Figure from '/src/components/Figure';
 import MyEmbed from '/src/components/Embed';
-import Elephant from "./images/discussion/elephant.png";
+import Elephant from "/research/images/discussion/elephant.png";
 ```
 ```{python}
 import warnings
@@ -106,7 +106,7 @@ First, this work is focused on integrating sustainability into user experience d
 
 Second, finance is a highly regulated industry and the proposed user experience designs may be limited by legal requirements. This study does not take such limitations into account, rather focusing only on the user experience.
 
-Third, up to date ESG data is expensive and thus couldn't directly be used in this research. ESG needs data to give us an accurate understanding of the realities inside companies and the user experience design does not address the underlying data quality problem further than by providing a link to the data source.
+Third, up-to-date ESG data is expensive and thus couldn't directly be used in this research. ESG needs data to give us an accurate understanding of the realities inside companies and the user experience design does not address the underlying data quality problem further than by providing a link to the data source.
 
 Fourth, I don't have access to users' financial data, which would be useful for design research.
 
@@ -116,8 +116,10 @@ Some ideas for fruitful research directions:
 
 -   Perceptions of pollution levels among Taiwanese college students.
 
--   Does the specialized interface for AI offer any advantages of a general-purpose UIs such as ChatGPT, Claude, Gemini, Mistral, and others?
+-   Does the specialized interface for AI offer any advantages of a general-purpose UI such as ChatGPT, Claude, Gemini, Mistral, and others?
 
 -   While many people are working on AI models, there's a lack of people working on Human-AI interaction in the context of sustainability.
 
-If you do decide to pursue any of these questions or were otherwise inspired by my thesis, please do reach out. As I have interest in these areas of research, I would happy to help in any way I can. Thank you.
+If you do decide to pursue any of these questions or were otherwise inspired by my thesis, please do reach out. As I have interest in these areas of research, I would be happy to help in any way I can. Thank you.
+
+

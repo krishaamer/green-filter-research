@@ -148,7 +148,7 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "_discussion.qmd" >}}
+{{< include "discussion/_index.qmd" >}}
 
 \newpage
 

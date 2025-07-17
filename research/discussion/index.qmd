@@ -6,4 +6,4 @@ editor:
 suppress-bibliography: true
 ---
 
-{{< include "_discussion.qmd" >}}
+{{< include "_index.qmd" >}}
