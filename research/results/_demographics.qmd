@@ -1,5 +1,6 @@
 ```{python}
 from data.demographics import student_counts, student_age_ranking, university_ranking_table, field_of_study_ranking, mbti_ranking
+from data.personas import mbti_introverts_vs_extroverts
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -48,3 +49,37 @@ field_of_study_ranking()
 #| fig-scap: "Personality Type (MBTI)"
 mbti_ranking()
 ```
+
+
+### Split Personas by MBTI Introversion vs Extroversion
+
+```{python}
+#| label: fig-survey-mbti-intro-vs-extro
+#| fig-cap: "Split Personas by MBTI Introversion vs Extroversion (MBTI)"
+#| fig-scap: "Split Personas by MBTI Introversion vs Extroversion (MBTI)"
+mbti_introverts_vs_extroverts()
+```
+
+| Cluster Type        | % of Extroverts   | % of Introverts   | Description                               |
+| ------------------- | ----------------- | ----------------- | ----------------------------------------- |
+| High eco-engagement | \~37% (Cluster 0) | \~33% (Cluster 2) | Strong sustainability, AI use, confidence |
+| Moderate            | \~33% (Cluster 2) | \~45% (Cluster 1) | Interested but not deeply involved        |
+| Low engagement      | \~30% (Cluster 1) | \~22% (Cluster 0) | Low scores across eco, AI, finance        |
+
+Introverted clusters generally show:
+
+Slightly higher eco-anxiety and concern for climate change
+
+More interest in practicing low-carbon lifestyles and doing more for the environment
+
+Greater openness to new ideas
+
+Extroverted clusters show:
+
+More optimistic or neutral views on economic-environment tradeoffs
+
+Slightly stronger trust in certifications and engagement with practical topics like buying property/car
+
+More self-confidence in financial knowledge and actions
+
+

@@ -688,7 +688,44 @@ export const quartoRawHtml =
 </tbody>
 </table>
 `,`
-</div>`];
+</div>`,`
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr>
+<th>Cluster Type</th>
+<th>% of Extroverts</th>
+<th>% of Introverts</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High eco-engagement</td>
+<td>~37% (Cluster 0)</td>
+<td>~33% (Cluster 2)</td>
+<td>Strong sustainability, AI use, confidence</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>~33% (Cluster 2)</td>
+<td>~45% (Cluster 1)</td>
+<td>Interested but not deeply involved</td>
+</tr>
+<tr>
+<td>Low engagement</td>
+<td>~30% (Cluster 1)</td>
+<td>~22% (Cluster 0)</td>
+<td>Low scores across eco, AI, finance</td>
+</tr>
+</tbody>
+</table>
+`];
 
 ## Respondent Demographics
 
@@ -765,3 +802,32 @@ Figure 4: Field of Study
 Figure 5: Personality Type (MBTI)
 
 </div>
+
+### Split Personas by MBTI Introversion vs Extroversion
+
+<div id="fig-survey-mbti-intro-vs-extro">
+
+![](demographics_files/figure-markdown_strict/fig-survey-mbti-intro-vs-extro-output-1.png)
+
+Figure 6: Split Personas by MBTI Introversion vs Extroversion (MBTI)
+
+</div>
+<div dangerouslySetInnerHTML={{ __html: quartoRawHtml[15] }} />
+
+Introverted clusters generally show:
+
+Slightly higher eco-anxiety and concern for climate change
+
+More interest in practicing low-carbon lifestyles and doing more for the
+environment
+
+Greater openness to new ideas
+
+Extroverted clusters show:
+
+More optimistic or neutral views on economic-environment tradeoffs
+
+Slightly stronger trust in certifications and engagement with practical
+topics like buying property/car
+
+More self-confidence in financial knowledge and actions

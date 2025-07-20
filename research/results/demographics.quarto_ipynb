@@ -1,0 +1,200 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Demographics\n",
+        "sidebar_position: 3\n",
+        "execute:\n",
+        "  echo: false\n",
+        "editor:\n",
+        "  render-on-save: false\n",
+        "suppress-bibliography: true\n",
+        "---"
+      ],
+      "id": "8d8c3a85"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from data.demographics import student_counts, student_age_ranking, university_ranking_table, field_of_study_ranking, mbti_ranking\n",
+        "from data.personas import mbti_introverts_vs_extroverts\n",
+        "import warnings\n",
+        "warnings.filterwarnings(\"ignore\")"
+      ],
+      "id": "559175c7",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Respondent Demographics\n",
+        "\n",
+        "### Study Level"
+      ],
+      "id": "6b20cffc"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-study-level\n",
+        "#| fig-cap: Study Level\n",
+        "#| fig-scap: Study Level\n",
+        "student_counts()"
+      ],
+      "id": "fig-survey-study-level",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Age Distribution"
+      ],
+      "id": "971fb5f1"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-age-dist\n",
+        "#| fig-cap: Age Distribution\n",
+        "#| fig-scap: Age Distribution\n",
+        "student_age_ranking()"
+      ],
+      "id": "fig-survey-age-dist",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### University"
+      ],
+      "id": "c4ffb0f4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-list-uni\n",
+        "#| fig-cap: Universities\n",
+        "#| fig-scap: Universities\n",
+        "university_ranking_table()"
+      ],
+      "id": "fig-survey-list-uni",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Field of Study\n",
+        "Fields of study have not been normalized: there may be several expressions of the same academic department, written slightly differently."
+      ],
+      "id": "d89c839d"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-field-of-study\n",
+        "#| fig-cap: Field of Study\n",
+        "#| fig-scap: Field of Study\n",
+        "field_of_study_ranking()"
+      ],
+      "id": "fig-survey-field-of-study",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Personality Type"
+      ],
+      "id": "4a26e30c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-mbti\n",
+        "#| fig-cap: Personality Type (MBTI)\n",
+        "#| fig-scap: Personality Type (MBTI)\n",
+        "mbti_ranking()"
+      ],
+      "id": "fig-survey-mbti",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Split Personas by MBTI Introversion vs Extroversion"
+      ],
+      "id": "8286e224"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-survey-mbti-intro-vs-extro\n",
+        "#| fig-cap: Split Personas by MBTI Introversion vs Extroversion (MBTI)\n",
+        "#| fig-scap: Split Personas by MBTI Introversion vs Extroversion (MBTI)\n",
+        "mbti_introverts_vs_extroverts()"
+      ],
+      "id": "fig-survey-mbti-intro-vs-extro",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "| Cluster Type        | % of Extroverts   | % of Introverts   | Description                               |\n",
+        "| ------------------- | ----------------- | ----------------- | ----------------------------------------- |\n",
+        "| High eco-engagement | \\~37% (Cluster 0) | \\~33% (Cluster 2) | Strong sustainability, AI use, confidence |\n",
+        "| Moderate            | \\~33% (Cluster 2) | \\~45% (Cluster 1) | Interested but not deeply involved        |\n",
+        "| Low engagement      | \\~30% (Cluster 1) | \\~22% (Cluster 0) | Low scores across eco, AI, finance        |\n",
+        "\n",
+        "Introverted clusters generally show:\n",
+        "\n",
+        "Slightly higher eco-anxiety and concern for climate change\n",
+        "\n",
+        "More interest in practicing low-carbon lifestyles and doing more for the environment\n",
+        "\n",
+        "Greater openness to new ideas\n",
+        "\n",
+        "Extroverted clusters show:\n",
+        "\n",
+        "More optimistic or neutral views on economic-environment tradeoffs\n",
+        "\n",
+        "Slightly stronger trust in certifications and engagement with practical topics like buying property/car\n",
+        "\n",
+        "More self-confidence in financial knowledge and actions\n"
+      ],
+      "id": "8ef48e41"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

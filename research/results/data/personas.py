@@ -493,8 +493,8 @@ def mbti_introverts_vs_extroverts():
     for i in range(3):
         plt.plot(introvert_centroids.columns, introvert_centroids.iloc[i], label=f'Intro Cluster {i}', linestyle='-')
         plt.plot(extrovert_centroids.columns, extrovert_centroids.iloc[i], label=f'Extro Cluster {i}', linestyle='--')
-    plt.xticks(rotation=90)
+    plt.xticks(rotation=90, fontproperties=chinese_font)
     plt.legend()
-    plt.title('Cluster Comparison by MBTI Group (Introverts vs Extroverts)')
+    plt.title('Cluster Comparison by MBTI Group (Introverts vs Extroverts)', fontproperties=chinese_font)
     plt.tight_layout()
     plt.show()
