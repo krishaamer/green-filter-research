@@ -8,10 +8,12 @@ import textwrap
 import matplotlib.pyplot as plt
 import seaborn as sns
 import squarify
+import re
 from adjustText import adjust_text
 from wordcloud import WordCloud
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 from matplotlib.font_manager import FontProperties
 from PIL import Image, ImageOps
 from data.fields.likert_flat_fields import likert_flat_fields, likert_flat_fields_en
@@ -428,4 +430,71 @@ def treemap():
     
     # Add a title to the plot
     plt.title('Average Agreement Level by Question Category', fontsize=15)
+    plt.show()
+
+
+def mbti_introverts_vs_extroverts():
+
+    # Define MBTI field column name
+    mbti_column = '你/妳的MBTI？（選填）'
+
+    # Filter respondents who provided a non-empty MBTI response
+    df_mbti_filled = df[df[mbti_column].notna() & (df[mbti_column].astype(str).str.strip() != '')].copy()
+
+    # Normalize MBTI entries: uppercase and strip spaces
+    df_mbti_filled[mbti_column] = df_mbti_filled[mbti_column].str.upper().str.strip()
+
+    # Define MBTI categories
+    introverted_types = ['INTJ', 'INTP', 'INFJ', 'INFP', 'ISTJ', 'ISTP', 'ISFJ', 'ISFP']
+    extroverted_types = ['ENTJ', 'ENTP', 'ENFJ', 'ENFP', 'ESTJ', 'ESTP', 'ESFJ', 'ESFP']
+
+    # Helper function to check if all MBTI types in a string are in a specific category
+    def is_all_in_category(mbti_str, category_types):
+        types = [x.strip() for x in re.split(r'[,/、，\s]+', mbti_str)]
+        return all(t in category_types for t in types)
+
+    # Flag introverts and extroverts
+    df_mbti_filled['is_introvert'] = df_mbti_filled[mbti_column].apply(
+        lambda x: is_all_in_category(x, introverted_types)
+    )
+    df_mbti_filled['is_extrovert'] = df_mbti_filled[mbti_column].apply(
+        lambda x: is_all_in_category(x, extroverted_types)
+    )
+
+    # Create filtered DataFrames
+    df_introverts = df_mbti_filled[df_mbti_filled['is_introvert']].copy()
+    df_extroverts = df_mbti_filled[df_mbti_filled['is_extrovert']].copy()
+
+    # Drop rows with missing values in any Likert field
+    introvert_data = df_introverts[likert_flat_fields].dropna()
+    extrovert_data = df_extroverts[likert_flat_fields].dropna()
+
+    # Scale data
+    scaler = StandardScaler()
+    introvert_scaled = scaler.fit_transform(introvert_data)
+    extrovert_scaled = scaler.fit_transform(extrovert_data)
+
+    # KMeans clustering
+    kmeans_intro = KMeans(n_clusters=3, random_state=42).fit(introvert_scaled)
+    kmeans_extro = KMeans(n_clusters=3, random_state=42).fit(extrovert_scaled)
+
+    # Append cluster labels
+    introvert_data = introvert_data.copy()
+    extrovert_data = extrovert_data.copy()
+    introvert_data['cluster'] = kmeans_intro.labels_
+    extrovert_data['cluster'] = kmeans_extro.labels_
+
+    # Compute cluster centroids
+    introvert_centroids = introvert_data.groupby('cluster').mean()
+    extrovert_centroids = extrovert_data.groupby('cluster').mean()
+
+    # Plotting
+    plt.figure(figsize=(18, 6))
+    for i in range(3):
+        plt.plot(introvert_centroids.columns, introvert_centroids.iloc[i], label=f'Intro Cluster {i}', linestyle='-')
+        plt.plot(extrovert_centroids.columns, extrovert_centroids.iloc[i], label=f'Extro Cluster {i}', linestyle='--')
+    plt.xticks(rotation=90)
+    plt.legend()
+    plt.title('Cluster Comparison by MBTI Group (Introverts vs Extroverts)')
+    plt.tight_layout()
     plt.show()
