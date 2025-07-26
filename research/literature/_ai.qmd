@@ -14,7 +14,7 @@ import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
-# AI
+## AI
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
@@ -23,7 +23,7 @@ import AbstractAI from '../images/ai/abstract-ai.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
 ```
-## Human Patterns
+### Human Patterns
 
 The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are increasingly capable in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Large data-sets such as the LAION-5B of 5.85 billion image-text pairs, were foundational for training AI to recognize images [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]. Just 3 years later, *generating* images with GenAI models is now fast enough to create images in real-time while the user is typing [@dwarkeshpatelMarkZuckerbergLlama2024]. Similarly, huge data-sets exist about other types of media - and the open Internet itself, albeit less structured, is a data-source frequently scraped by AI-model builders. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023]. Venture capitalists backing OpenAI describe AI as a foundational technology, which will unlock human potential across all fields of human activity [@greylockOpenAICEOSam2022].
 
@@ -208,9 +208,7 @@ Meta's head AI researcher Yann LeCun predicts LLMs may have reached their limita
 
 At the end of the day, the adoption of AI to everyday life, even in the smallest of contexts, will come down to the price. Long-time AI-engineer [@ngAIRestoresALS2024] predicts, having seen the roadmaps for the microchip industries, as well as incoming hardware and software innovations, the price of tokens will be very low, and much lower than a comparative human worker.
 
-## Human Acceptance of Artificial Companions
-
-### Human Expectations Take Time to Change
+### Human Acceptance of Artificial Companions: Expectations Take Time to Change
 
 *AI acceptance* is incumbent on traits that are increasingly human-like and would make a human be acceptable: credibility, trustworthiness, reliability, dependability, integrity, character, etc. [@ZHANG2023107536] found humans are more likely to trust an AI teammate if they are not deceived by its identity. It's better for collaboration to make it clear, one is talking to a machine. One step towards trust is the explainability of AI-systems. AIs should disclose they are AIs.
 
@@ -388,9 +386,7 @@ Everything that existed before OpenAI's GPT 4 has been blown out of the water. C
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
 
-## Interfaces for Human-Computer Interaction
-
-### Speech Makes Computers Feel Real
+### Interfaces for Human-Computer Interaction: Speech Makes Computers Feel Real
 
 There's evidence across disciplines about the usefulness of AI assistants while concerns exist about the possibility of implementing privacy. One attempt at privacy is by Apple’s Foundation Language Models (AFM), which is split into a smaller on-device model and a server-side model, enabling processing of the most sensitive data directly on the user's device [@dangAppleAIUnderstanding2024]. Providing voice for the AI raises new ethical issues, as most voice assistants need to continuously record human speech and process it in data centers in the cloud.
 

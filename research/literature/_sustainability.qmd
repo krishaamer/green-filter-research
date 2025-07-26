@@ -13,7 +13,7 @@ import Boundaries from "/research/images/sustainability/planetary-boundaries-202
 import Carbon from "/research/images/sustainability/co2-concentration.png";
 import AbstractSustainability from "/research/images/sustainability/abstract-sustainability.png";
 ```
-# Sustainability
+## Sustainability
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the sustainability chapter](./images/sustainability/abstract-sustainability.png)
@@ -22,13 +22,13 @@ import AbstractSustainability from "/research/images/sustainability/abstract-sus
 ```{=mdx}
 <Figure caption="Visual abstract for the sustainability chapter" src={AbstractSustainability} />
 ```
-## The Roots of Sustainability in Environmentalism
+### The Roots of Sustainability in Environmentalism
 
-*"Nachhaltigkeit"* - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011].
+*"Nachhaltigkeit"* - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura Oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011].
 
 Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-## Measuring and Visualizing Earth's Climate Systems
+### Measuring and Visualizing Earth's Climate Systems
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt, the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models [@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
@@ -311,7 +311,7 @@ There are 3 approaches that address the complex interdependence of humans with o
 
 More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposes a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C, 21–39 % or 2–4 billion people will be exposed by 2080–2100.
 
-## Quantifying Human Benefits from the Biosphere: Ecosystem Services
+### Quantifying Human Benefits from the Biosphere: Ecosystem Services
 
 *Ecosystem services measure the benefits humans receive from the biosphere.* Put simply, *ecosystem services* enable human life on Earth - we are, in a very real sense, - dependent on nature. The biosphere is Earth's life support system. Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
 
@@ -319,9 +319,7 @@ While it can be assumed much of the flora and fauna are crucial for Earth's syst
 
 The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called *digital twins.* The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc., into a single model [@hoffmannDestinationEarthDigital2023; @DestinationEarthShaping2023]. For instance, AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-### Ecological Indicators to Track Environmental Health
-
-### Measuring Biodiversity Loss, Ecological Indicators and Environmental Degradation
+### Ecological Indicators to Track Environmental Health: Measuring Biodiversity Loss, Ecological Indicators and Environmental Degradation
 
 Sustainability can be measured using a variety of *ecological indicators*. Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health. Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
 
@@ -434,7 +432,7 @@ In the Philippines, with increasing extreme weather events, *"businesses are mor
 
 Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
 
-## Financialization of Nature vs Sacred Value: Scaling Up Sustainable Action
+### Financialization of Nature vs Sacred Value: Scaling Up Sustainable Action
 
 There are 2 main approaches to protecting nature:
 

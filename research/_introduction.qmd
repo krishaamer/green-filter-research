@@ -114,3 +114,11 @@ My research attempts to answer the following questions.
 | Primary Stakeholder | Designers / Developers | End Users (College Students) | End Users (College Students) |
 | Outputs | Design guidelines, UX principles, tech constraints, ethical guardrails | Framework of nudges, learning aids, information flows. | Ranked feature list, must-have vs nice-to-have. |
 | Data Sources | Literature Review and Expert Interviews | Literature Review, Expert Interviews and Survey of College Students | Survey of College Students and Prototype Testing |
+
+This study originally began with three specific exploratory questions guiding early expert interviews, survey design, and prototype testing. As the literature review and theoretical framing (particularly the Theory of Planned Behavior) matured, these initial questions were synthesized into three overarching research questions. These literature-informed questions frame the design goals and theoretical contributions of the thesis.
+
+| Initial Exploratory Question                                                    | Method Used                                 | Evolved Research Question                                                                                    |
+| ------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| What factors increase potential users choosing sustainable investing?           | Literature review + Expert Interviews       | What design considerations should be addressed when designing an AI companion for college students...?       |
+| What class of investment vehicles do potential users show the most interest in? | Survey                                      | How can AI companions support college students with sustainability knowledge in financial decision contexts? |
+| What application features do potential users rate as the highest priority?      | Survey + Prototype Testing with Focus Group | What AI companion features do college students prioritize as the highest importance?                         |

@@ -10,7 +10,7 @@ import Figure from '/src/components/Figure'
 import Bunq from '../images/finance/bunq.jpg'
 import AbstractFinance from '../images/finance/abstract-finance.png'
 ```
-# Money
+## Money
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -19,7 +19,7 @@ import AbstractFinance from '../images/finance/abstract-finance.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
 ```
-## The Convergence of Money: One Wallet to Rule Shopping, Saving, and Investing
+### The Convergence of Money: One Wallet to Rule Shopping, Saving, and Investing
 
 This chapter explores how money could incorporate sustainability as a feature.
 
@@ -99,11 +99,9 @@ While the above trend is for governments to adapt to and work towards their envi
 
 Governments are powerful in passing legislation, with a strong positive or negative ESG impact, and people do have a voice. Among the many grassroots campaigns, one environmental success story is about success story, asking that EU shops can't sell deforestation products, gathering over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Subsequently, legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
 
-## ESG Crisis and Opportunity
+### ESG Crisis: An Opportunity to Solve Opaque Metrics and Lack of Standardization
 
-### Opaque Metrics and Lack of Standardization
-
-ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information; major ESG ratings omit 90% of the company’s water footprint. [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include (1) inconsistent data, and (2) superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. [@margarytakirakosianMethodologiesAreAll2022] argues that ESG needs standardization of methodologies as the disparity is one of the key hurdles in finding the right sustainable strategy. This is supported by econometric analysis, showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. Likewise, The Carbon Tracker Initiative finds that companies in the highest-emitting sectors fail to explain how their greenhouse-gas outputs translate into financial risk, based on an analysis of corporate disclosures [@francesschwartzkopffFirmsArenReporting2022].
+ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca-Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information; major ESG ratings omit 90% of the company’s water footprint. [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include (1) inconsistent data, and (2) superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. [@margarytakirakosianMethodologiesAreAll2022] argues that ESG needs standardization of methodologies as the disparity is one of the key hurdles in finding the right sustainable strategy. This is supported by econometric analysis, showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. Likewise, The Carbon Tracker Initiative finds that companies in the highest-emitting sectors fail to explain how their greenhouse-gas outputs translate into financial risk, based on an analysis of corporate disclosures [@francesschwartzkopffFirmsArenReporting2022].
 
 Fortunately, there are some investment advisors rebuffing misleading ESG claims made by asset managers. Prominent investment research firm Morningstar conducted a forensic analysis of the industry, and re-classified 1/5 of the tracked funds (over 1200 in total) or over \$1 trillion USD in total valuation, as non-ESG; Hortense Bioy, Morningstar's Head of Sustainability Research, commented these funds don't integrate ESG factors "in a determinative way for their investment selection" [@schwartzkopffESGFundsManaging2022].
 
@@ -124,7 +122,7 @@ conventional_vs_sri_funds()
 
 ESG gave banks a new tool to market and sell environmentally conscious opportunities to institutional investors, for example: universities. A case in point being the partnership between HSBC and the University of Edinburgh [@reidUniversityEdinburghGoes2020]. Some banks even use tactics such as co-branding with famous individuals. One of the largest private banks in Switzerland, Lombard Odier & Co (LOIM), launched a thematic bio-economy fund marketed using the words of The Prince of Wales, *"Building a sustainable future is, in fact, the growth story of our time"* [@kirakosianLOIMLaunchesCircular2020]. Investment can also be advertised in media publications. In the United Emirates, the richest oil-drilling region in the world, Mubadala, on of the state-owned sovereign wealth funds of the government of Abu Dhabi with \$326 billion AUM, has taken out sponsored content in Bloomberg to market their national ESG vision and regulatory strategies to accelerate ESG investment growth toward net-zero goals, including many green energy projects; the Abu Dhabi funds together manage \$1.7 trillion AUM [@FutureESGInvesting; @maccioniAbuDhabiSovereign2025].
 
-Yet, the question remains, whether one can trust financial professional to hold ESG to a high standard. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond ticking the ESG checkbox. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects; the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO~2~eq emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions [@wilkesExclusiveBanksVote2023]. In the U.S., Blackrock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint.
+Yet, the question remains, whether one can trust financial professional to hold ESG to a high standard. [@agnewRIPESG2022] Argues that ESG has become a diluted corporate marketing label nearing the end of its usefulness, and urges a pivot toward more substantive responsible-investment practices beyond ticking the ESG checkbox. Banks are hiding emissions related to capital markets, which is a major financing source for oil and gas projects; the Partnership for Carbon Accounting Financials (PCAF) working group voted to attribute only 33% of CO~2~eq emissions from bond and equity underwriting to their own financed-emissions footprints, effectively excluding and hiding 2/3 of their carbon emissions [@wilkesExclusiveBanksVote2023]. In the U.S., BlackRock, the largest private investment fund in the world with \$10T USD under management, released guidance reflecting their plans to shift their investments to vehicles that are measured on ESG performance; however they later backtracked from their decision [@posnerHowBlackRockAbandoned2024]. In the U.K., while promising to become sustainable, oil companies are increasing production; Rishi Sunak, the Prime Minister of the UK at the time announced 100 new licenses for oil drilling [@noorBigOilQuietly2023]. In a sense this strategy could be described as "have your cake and eat it too", with investing going to all types of energy, regardless of its environmental footprint.
 
 In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
@@ -132,7 +130,7 @@ In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to
 
 In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The International Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
 
-The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
+The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (*Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten*) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
 The Modern Slavery Act has been passed in several countries starting with the U.K. in 2015, yet commodification of human beings is still practiced worldwide [@ukparliamentModernSlaveryAct2024]. [@maiImpactUKModern2023] finds the quality of the reporting remains low among FTSE 100 (index of highly capitalized listings on the London Stock Exchange) companies. Not everyone is in favor of more stringent labor practices either. Voters in Switzerland rejected the responsible business initiative in 2020 while the country is a global hub for trading commodities. *"Switzerland has a hand in over 50% of the global trade in coffee and vegetable oils like palm oil as well as 35% of the global volume of cocoa, according to government estimates"* [@anandchandrasekharWhySwitzerlandMatters2021] begging the question can Swiss traders have more scrutiny over what they trade.
 
@@ -318,9 +316,7 @@ For corporations to respond to the climate crisis, they are expected to become m
 
 [@timnicolleRealtimeESGData2021; @ratkovicLeadingWayRealTime2023] believe that real-time ESG data is more difficult to greenwash, because the supply chain data is a significant source of ESG content; a fundamental breakthrough would be surfacing real-time ESG data directly to individual consumers browsing products - be it in physical shops or online, - allowing customers to judge if they want to purchase from this business. [@RealTimeESG2021] built a tool - called Stocksnips - to turn unstructured news into daily ESG sentiment signals, starting with about 1000 companies; the sentiment signal shows significant correlation with expert ratings, offering an automated forward-looking gauge of corporate ESG performance. Likewise, LSEG’s MarketPsych ESG Analytics platform mines global news and social feeds for near‐real‐time controversy alerts and ESG risk‐scores with historical data going back to 1998 [@lsegMarketPsychAnalytics2025]. Envify aims to automate compliance with the Corporate Sustainability Reporting Directive (CSRD), by providing a suite of carbon accounting tools [@rajanTheFutureSustainability2025]. Flowit Estonia automated real‐time CO~2~eq accounting in 2022 by combining invoices and sensor data to generating instant per‐transaction emission footprints [@indrekkaldEestiITfirmaAutomatiseeris2022]. A startup called Makersite proposes instant sustainability impact from supply chain, deep supply-chain data can surface product–level environmental footprints in minutes instead of months, which they call *"Product Lifecycle Intelligence"* [@kylewiggersMakersiteLands18M2022]. More recently, Makersite has updated the language they use for promoting their product, now calling it *Product Sustainability Modeling* [@makersiteImproveYourProduct]. Apart from product level analytics, there's sustainability data on source raw materials. CarbonChain rolled out asset-level emissions ratings for individual mines: covering metals including steel, aluminium, nickel, and copper - so product developers can benchmark material sources' carbon intensity against industry averages [@carbonchainCarbonChainSummer2024].
 
-## Payments
-
-### Consumer Activists are a Small Minority
+### Payments Are a Starting Point: But Consumer Activists are a Small Minority
 
 Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices. Yet these types of *mindful consumers* and *conscious consumers* only make up a small percentage of the entire consumer public, which may make individual action seem close to meaningless.
 
@@ -635,7 +631,7 @@ Institutional finance is highly linked and constantly learning from each-other. 
 
 ### Investable Asset Classes for Retail Investors: Increasing Exposure to Stocks, Bonds, Commodities, Real-Estate, Digital Tokens and Alternatives, Lending, Futures, Hedge Funds, Private Equity, and even Venture Capital
 
-There are many asset classes with varying degree of access to a retail investors. The main categories of investment products are, based on the U.S. Securities and Exchange Commission categorization [@u.s.securitiesandexchangecommissionInvestmentProductsInvestorgov2025].
+There are many asset classes with varying degree of access to retail investors. The main categories of investment products are, based on the U.S. Securities and Exchange Commission categorization [@u.s.securitiesandexchangecommissionInvestmentProductsInvestorgov2025].
 
 | Investment Product                            |
 |-----------------------------------------------|
@@ -774,7 +770,7 @@ While divesting makes news headlines, even divestment by large institutional inv
 
 By extension, it may sound feasible that divesting could have a meaningful impact on companies if a large number of retail investors collaborate on 'banning' the company to send a message to the board, yet in practice small individual divestments may be negligible to governance decisions.
 
-## The Economics of Decoupling: Attempts to Disconnect Economic Growth from Eco-Degradation
+### The Economics of Decoupling: Attempts to Disconnect Economic Growth from Eco-Degradation
 
 Is the "eco" in ecology and economy the same? Oîkos, the Greek word for “household”, seeds two modern disciplines: ecology studies how the home works; economy sets the rules for managing it. The two have drifted apart: one guarding planetary health, the other chasing growth. This chapter reunites them by asking: how do we measure prosperity without wrecking our home?
 
@@ -788,7 +784,7 @@ People around the world are discussing how traditional economics can adjust to t
 
 > The creator of the Gross Domestic Product (GDP) metric in 1934 Simon Kuznets said: "The welfare of a nation can scarcely be inferred from a measurement of national income as defined by GDP...Goals for 'more' growth should specify of what and for what" [@unitedstates.bureauofforeignanddomesticcommerceNationalIncome192919321934].
 
-GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century [@rockoffGoodStartNBER2020]. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
+GDP was the culmination of previous work by many authors, beginning with William Petty in the 17th century [@rockoffGoodStartNBER2020]. This long journey underlines how a metric about a complex system such as the economy is continuous work in progress. There has been ongoing work to create improved metrics such as the Sustainable Development Goals (SDGs), Human Development Index (HDI), Genuine Progress Indicator (GPI), Green GDP, Inclusive Wealth Index, and others [@bleysBarriersOpportunitiesAlternative2015; @kovacicGDPIndicatorsNeed2015; @anielskiMeasuringSustainabilityNations2001].
 
 Measuring wellbeing in addition to GDP and the metric should include resiliency dashboards, to visualize metrics beyond GDP, and they are an integral part of country reports [@greensefaBeyondGrowthChangingGoal2023]. Similarly, the doughnut (donut) economics (more below) model calls for a *"dashboard of indicators"* [@tedHealthyEconomyShould2018].
 
@@ -883,7 +879,7 @@ Looking a the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2e
 uk_energy_emissions_trend()
 ```
 
-Meanwhile the cumulative CO~2e~ emissions trend in the UK in the same time-frame show the historic responsibility of UK [@globalcarbonbudgetCumulativeCOEmissions2023].
+Meanwhile, the cumulative CO~2e~ emissions trend in the UK in the same time-frame show the historic responsibility of UK [@globalcarbonbudgetCumulativeCOEmissions2023].
 
 CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as in Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
 
@@ -918,7 +914,7 @@ Kaufman decries the lack of real-world data in the economic-climate models, and 
 
 [@wangMultimodelAssessmentClimate2022] conducted a systematic comparison of 3 leading integrated assessment models (IAMs) to quantify climate change damages globally and for China specifically, valued as percentage of GDP; the models are as follows FUND (Framework for Uncertainty, Negotiation and Distribution), RICE (Regional Integrated model of Climate and the Economy) and PAGE (Policy Analysis of the Greenhouse Effect)
 
-| Climage Damage | Value | Context |
+| Climate Damage | Value | Context |
 |---------------------------|-------------------|---------------------------|
 | Climate damage per 1 °C warming (China) | ≈ 1.5 % of China’s GDP | Average estimate across FUND, RICE and PAGE |
 | Climate damage per 1 °C warming (global) | ≈ 0.7 % of world GDP | Average estimate across FUND, RICE and PAGE |
@@ -929,7 +925,7 @@ Kaufman decries the lack of real-world data in the economic-climate models, and 
 
 : Quantifying climate damage scenarios using integrated assessment models [@wangMultimodelAssessmentClimate2022].
 
-## Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
+### Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
 
 Because corporate hypocrisy is a blocker of sustainable action, both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if "green" or "sustainable" funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
 
@@ -1116,7 +1112,7 @@ Maintaining that trust matters. In 2017, Etsy lost the certification after faili
 
 Citywealth’s *"ESG branding with B-Corps"* guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
-## Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
+### Navigating Complexity with Data: Probabilistic Risk-Based Assessment of Sustainability
 
 In order to make a difference in sustainability, with large capital flowing into the environment at scale to deliver climate action, the markets for ecosystem assets would need to scale urgently, starting with carbon credits. **BeZero** is a startup innovating in the Voluntary Carbon Credit Market (VCM) by providing *risk-scoring*, a language financial professionals are accustomed to working with in other types of asset classes [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]. The VCM is limited by immature market structures, which means market participants still struggle to price and manage risk properly; BeZero ratings frame carbon credits in a probabilistic, risk-based language familiar to large investors who oversee roughly 200 trillion USD of global assets [@bezeroFocusRatings2022].
 

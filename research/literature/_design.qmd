@@ -14,7 +14,7 @@ import ResQClub from '../images/design/resq-club.png'
 import EUPolicy from "/research/images/sustainability/eu-policy-context.png";
 import AbstractDesign from '../images/design/abstract-design.png'
 ```
-# Design
+## Design
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the design chapter](./images/design/abstract-design.png)
@@ -31,7 +31,7 @@ I would simply say: Design makes complexity comprehensible.
 
 Sustainability is one of the most complex goals that humanity has set for itself. The following looks at some of the ways design might make it.. achievable.. and comprehensible.
 
-## Eco-Design: Design as Political Action at Scale
+### Eco-Design: Design as Political Action at Scale
 
 Politics matters in sustainability. In Brazil, deforestation fell 60% in 1 year, based on remote satellite reconnaissance, after the election of a more pro-environment leadership [@wattsAmazonDeforestationFalls2023]. Globally, the monumental task of removing several gigatons of CO~2e~ from the atmosphere requires massive policy shifts and collaboration across countries and industries [@macklerPolicyAgendaGigatonscale2021].
 
@@ -153,7 +153,7 @@ While these examples underline the industry-specificity of eco-design, some auth
 
 On an international level, looking at companies operating on the European Single Market, [@ARRANZ2022131738] conducted a large-scale study using machine learning on firm survey data from 870 organizations across diverse economic sectors, acquired from the 2015 EU Public Consultation on the Circular Economy conducted by European Commission, comparing coercive pressures (regulations, subsidies, grants), normative pressures (industry standards, professional networks), and mimetic pressures (competitive imitation), finding normative and mimetic pressure only enhance sustainability, if coercive pressure already exists - i.e. regulations are a key point of leverage. In summary, enacting laws which support sustainability can shift complex systems with many parties towards a circular economy, and be enhanced by additional voluntary forces. However, a comparative analysis of OECD green growth indicators for the periods 2004–2005 and 2019 across EU member states found that green transformation do not correlate directly with development level - instead each country’s unique socio-economic context plays a role: governance quality and income distribution shape the effectiveness of regulatory frameworks, suggesting that coercive policies must be tailored to national circumstances in order to reinforce circular-economy adoption at scale[@CHEBA2022108601].
 
-## Thinking in Systems to Re-Design Industries or Provenance and Traceability
+### Thinking in Systems to Re-Design Industries or Provenance and Traceability
 
 As of 2025, *circular economy* is a tiny part of the world economy. [@circleeconomyCircularityGapReport2022] reported in 2022 only 8.6% of world economy was circular and *100B tonnes of virgin materials* was sourced every year. An early pioneering innovator, [@jacksonMaterialConcernsPollution1996] showed through detailed case studies how *preventive environmental management*, redesigning industrial production at the source can avert pollution, laying the conceptual groundwork for today’s circular-economy models. Many companies are investing into transforming their processes. *"\[T\]ransition to a low carbon economy presents challenges and potential economic benefits that are comparable to those of previous industrial revolutions"* [@pearsonLowCarbonIndustrial2012].
 
@@ -192,7 +192,7 @@ In most cases, designing for sustainability makes use of *systems thinking*, und
 
 As the above shows, there are many partially overlapping design words created by different people for diverse purposes. Design vocabulary may be created for distinguishing a particular type of design from another - or to market oneself as the creator of the word. There are designers who define / brand themselves by their design method. Design Studies, a field that studies *design* as a subject.
 
-## Student Essentials: Consumer Goods, Clothes and Food
+### Student Essentials: Consumer Goods, Clothes and Food
 
 Food, clothes, and consumer goods (I'm omitting housing and transport here) are part of the immediate environmental impact of college students. I will here focus on 3 industries that are relevant for college students.
 
@@ -284,7 +284,7 @@ As with any contentious issue, when it comes to food, people have differing poin
 
 Table: Perspective on food systems in Sweden from [@ROOS2023107623]. []{short-caption="Perspectives on the Food Systems in Sweden"}
 
-## In Practice: Sustainability Begins in Software
+### In Practice: Sustainability Begins in Software
 
 Humans live in artificial environments where *most things* are designed by humans. Design encompasses most everything in our daily lives. The *experiences* we take part in are increasingly created based on some type of data. *Digital Sustainability* refers to the idea that *digital* enables *sustainability*. Information pertaining to emissions would flow through the economy not unlike the carbon cycle itself.
 
@@ -376,7 +376,7 @@ In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the Internat
 
 [@watersEthicsChoiceAnimal2015] analyzes the most effective strategies to improve animal welfare and advance animal rights against a monopolistic producer finding the most successful tactics to be (1) negotiation, (2) targeted direct action, and (3) awareness campaigns condemning low-welfare practices.
 
-## Superapps Integrate Shopping, Savings, and Investing
+### Superapps Integrate Shopping, Savings, and Investing
 
 Superapps are the most prevalent across Asia, with China, South-East Asia, Korea, Japan, and India leading the way, however newcomers in Lating America and the Middle East are also making strides; meanwhile, the US and Europe are lagging behind.
 
@@ -452,7 +452,7 @@ The quality of AI-generated UX has improved rapidly. In 2020, less than 5 years 
 
 Long before AI assistants, [@justinbakerRedRoutesCritical2018] introduced the concept of *Red Route Analysis*, an user experience optimization idea inspired by the public transport system of London, focusing on the *critical design paths* which capture over 90% of users' actions. Prioritizing the user journey of the most popular features is key to driving business metrics [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022]. Yet, [@richardyangInteractionDesignMore2021] argues *"\[i\]nteraction design is more than just user flows and clicks"*, underlining Miller’s Law that the average human can keep no more than 5–11 items in their working memory (and now AI is becoming that memory).
 
-## Open Data Enables Interoperability
+### Open Data Enables Interoperability
 
 Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData].
 
@@ -493,7 +493,7 @@ To give a concrete example of the usefulness of open data, for instance, the Ope
 malaysia_forests()
 ```
 
-## Context Design: Behavioral Nudges Towards Green Defaults in Sustainable Superapps
+### Context Design: Behavioral Nudges Towards Green Defaults in Sustainable Superapps
 
 For several decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
@@ -576,13 +576,13 @@ The small screen estate space of mobiles phones and smartwatches necessitates di
 
 Table: Modes of Interaction []{short-caption="Modes of Interaction"}
 
-## Learning from Quantified Self: Tracking Health and Lifestyle
+### Learning from Quantified Self: Tracking Health and Lifestyle
 
 An early example of how tracking personal data enables behavior change, are health and lifestyle tracking apps. Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. There's substantial academic evidence indicating that health tracking apps can have a measurable impact on user health behaviors and increase positive health outcomes. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Recently, npj Biosensing even published a device from the MIT Media Lab that can track cells inside the human body from a wrist-worn device [@jarvisWearableDeviceTracks2025; @jangWearableDeviceContinuous2025].
 
 Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
 
-### Health and Fitness Tracking
+#### Health and Fitness Tracking
 
 Tracking one's health and fitness is a familiar mode of *quantified self*, available to many smartwatch users - and even pretty much to anyone who has a phone made in the past decade. Apple is a leader in health tracking, releasing Apple Health in 2008 as an iOS 8 software feature and the Apple Watch in 2015, filled with health-focused sensors and features [@appleHowAppleEmpowering2022]. In 2022 Apple outlined plans for *"empowering people to live a healthier day,"* promising a new set of health-features with every release, such as the rumored temperature measurement inside of Apple AirPod earphones; and providing most of this data to developers through Apple's HealthKit health metrics APIs, which app builders can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022].
 
@@ -620,9 +620,9 @@ The above chart shows my exposure to pollutants while traveling, ranked from wor
 
 ### Tracking Personal Sustainability and Carbon Emissions
 
-The above examples of tracking various aspects of health beg the question if one could track personal sustainability similarly. We have a limited carbon budget so calculating CO~2~eq-cost could be expressly integrated into every activity.
+The above examples of tracking various aspects of health beg the question if one could track personal sustainability similarly. We have a limited carbon budget so calculating CO~2~eq cost could be expressly integrated into every activity.
 
-Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratification for Collective Awareness and Sustainable Consumerism"* piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were (environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
+Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratification for Collective Awareness and Sustainable Consumerism"* piloted the concept of *"political consumerism"*, by enabling shoppers at 2 stores (Estonia and Austria) to experience real-time, personalized sustainability ratings on nearby products (by using a mobile app and Bluetooth beacons to locate shoppers at shelf level, while maintaining privacy); instead of isolated choices, individual preferences were (environmental, health, political) aggregated into a community "sustainability signal"; the results indicated a statistically significant increase in sustainability awareness and some users praised the simplicity of the user interface [@klinglmayrSustainableConsumerismContextAware2017; @bennatiPrivacyenhancingAggregationInternet2018; @pournarasSelfregulatoryInformationSharing2016; @InstantGratificationCollective2022].
 
 More recently, [@kommendaWouldCarbonFood2022] describes an interactive demo of Carbon Food Labels in the Financial Times, aimed at influence purchasing behavior by displaying Life Cycle Assessment (LCA) data directly on the products; for example - lentils (1kg CO~2~eq per 1 kg) v.s. beef (27kg CO~2~eq per 1 kg) - clearly illustrating the contrasting climate impact of different foods; moreover, shoppers could see the emissions in their shopping cart, enabling real-time comparisons and decision-making; an accompanying survey showed 68% of users were interested in choosing lower-emission products while a low 22% of the respondents trusted the data, highlighting a key challenge: standardizing and verifying supply-chain data.
 
@@ -661,7 +661,7 @@ pandemic()
 
 Human behavior is affected by the environment. The above chart shows the incidence of bad behavior during the pandemic increased significantly in Sweden based on data from [@ceccatoDefecationLitteringOther2023].
 
-## Digital Product Passports: Tracking Data for Sustainable Product Management
+### Digital Product Passports: Tracking Data for Sustainable Product Management
 
 *Digital Product Passports*, part of the Sustainable Products Initiative, are one of the key actions take under the Circular Economy Action Plan (CEAP) of the European Union; the goal of this initiative is to lay the groundwork for a gradual introduction of a digital product passports in at least 3 key markets by 2024: (1) batteries for electric vehicles and industrial use, (2) consumer and ICT electronics, (3) textiles and apparel [@kuchBuildingResilienceImpact2022]. [@nissinenMakeCarbonFootprints2022] calls for emissions' data to be made available to manufacturers, retailers, and consumers so they can make low-carbon choices; moreover, metrics must move beyond a single aggregated number to assessing life-cycle emissions' variability.
 
