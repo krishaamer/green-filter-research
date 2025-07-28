@@ -14,7 +14,7 @@ import ResQClub from '../images/design/resq-club.png'
 import EUPolicy from "/research/images/sustainability/eu-policy-context.png";
 import AbstractDesign from '../images/design/abstract-design.png'
 ```
-## Design
+## Design for Sustainability
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the design chapter](./images/design/abstract-design.png)
@@ -196,7 +196,7 @@ As the above shows, there are many partially overlapping design words created by
 
 Food, clothes, and consumer goods (I'm omitting housing and transport here) are part of the immediate environmental impact of college students. I will here focus on 3 industries that are relevant for college students.
 
-### Fast-Moving Consumer Goods
+#### Fast-Moving Consumer Goods
 
 Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global conglomerates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024]. Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
 
@@ -209,7 +209,7 @@ fast_consumer_goods()
 
 In China, while there are signs of young Chinese consumers valuing experiences over possessions, the raw sales growth numbers show consumerism is only increasing [@jiangHowHaveCovid2023; @zhangCulturalConsumptionChinese2025; @claudio-quirogaPersistenceChinasHousehold2025; @huiChineseConsumptionNew2025].
 
-### Clothes and the (Fast) Fashion Industry
+#### Clothes and the (Fast) Fashion Industry
 
 Just like Fast-Moving Consumer Goods, fast fashion operates with low margins and follows consumer trends. Young people are the largest consumers of fast fashion [@YoungConsumersComplicated]. [In @europeanenvironmentagencyTextilesEnvironmentRole2022 European Environment Agency (EEA)] estimates based on trade and production data that EU27 citizens consumed an average 15kg of textile products per person per year. [@textileexchangeFASHIONINDUSTRYTRADE2021] Fashion industry revenue is above USD 1.5 trillion; COP26 policy calls for 45% cut in emissions by 2030. The European Commission wants to reduce the impact of fast fashion on EU market [@errKomisjonTahabVahendada2022]. There are other local policy initiatives aiming to tackle the waste problem. For example the New Standard Institute's proposed *"Fashion Act"* to require brands doing business in New York City to disclose sustainability data and set waste reduction targets [@emilychanWill2022Be2022]. In California, the *Garment Worker Protection Act* covers 45000 garment workers with wage and safety safeguards [@LilyMindfulActive].
 
@@ -228,7 +228,7 @@ The story of Patagonia has inspired many to see that a financially successful, e
 
 Digital Product Passports will be mandatory for fashion under EU Eco-design and EPR rules between 2026 and 2030, enabling ethical shopping [@TransparencySustainabilityPlatform2023]. New apps make alterations and repairs made easy: SOJO door-to-Door service raised USD 2.4 million pre-seed funding for a clothes repairs service, cutting waste and emissions [@SOJODoortodoorClothing2023].
 
-### The (Fast) Food Industry
+#### The (Fast) Food Industry
 
 Food production is a large greenhouse gas emitter. Global warming causes droughts and extreme weather, wars and conflicts, which in turn increases the volatility in food prices [@eshenelsonHeatWarTrade2023]. [@nabipourafrouziComprehensiveReviewCarbon2023] reports the agricultural sector contributes approximately 25% of the total CO~2~ emissions and 13.5% of the total global anthropogenic greenhouse gas emissions. [@pooreReducingFoodEnvironmental2018] suggests a slightly higher 26% of carbon emissions come from food production. [@FoodPrints2015] reports dairy (46%), meat and fish (29%) products making up the largest GHG emission potential. Livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally [@patelBlockchainTechnologyFood2023]. [@baileyMappingActorsArguments2020] shows how the Norwegian government plans to increase salmon production 5x by 2050; the demand for food is increasing.
 
@@ -605,20 +605,7 @@ Tracking one's food intake helps to understand how healthy and nutrient-rich is 
 
 The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024]. More recently, Oura Ring launched an AI-advisor to help explain the health data recorded by its device: deliver contextual and personalized guidance, remember past interactions while emphasizing privacy, and analyze both short- and long-term biometric trends [@teamIntroducingOuraAdvisor2025]. There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards. OpenAI is collaborating with ex-Apple designer Jony Ive, to bring such ambient AI devices to live, which they believe has the potential for a new product category [@wsjnewsOpenAICOOJony2025].
 
-### Pollution Exposure Tracking
-
-Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the Atmotube Pro device attached to my backpack.
-
-```{python}
-#| label: fig-air-pollution-personal
-#| fig-cap: "My Personal Exposure to Air Pollution"
-#| fig-scap: "My Personal Exposure to Air Pollution"
-air_chart()
-```
-
-The above chart shows my exposure to pollutants while traveling, ranked from worst to best.
-
-### Tracking Personal Sustainability and Carbon Emissions
+#### Pollution Exposure Tracking, Tracking Personal Sustainability and Carbon Emissions
 
 The above examples of tracking various aspects of health beg the question if one could track personal sustainability similarly. We have a limited carbon budget so calculating CO~2~eq cost could be expressly integrated into every activity.
 

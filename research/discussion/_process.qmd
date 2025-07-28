@@ -1,8 +1,11 @@
 ```{=mdx}
 import Figure from '/src/components/Figure';
 import MyEmbed from '/src/components/Embed';
+import Replika from '../images/ai/with-me.png'
 ```
 ```{python}
+from discussion.charts.process import air_chart, air_chart_2025
+
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -11,6 +14,37 @@ warnings.filterwarnings("ignore")
 
 In the following chapter I will describe in detail the process of designing Green Filter.
 
+
+As discussed in the literature review AI section, Replika was one of the inspirations for Green Filter.
+
+::: {.content-hidden unless-format="pdf"}
+![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
+```
+
+
+### Pollution Exposure Tracking
+
+Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the ATMO Atmotube Pro device attached to my backpack.
+
+```{python}
+#| label: fig-air-pollution-personal
+#| fig-cap: "My Personal Exposure to Air Pollution"
+#| fig-scap: "My Personal Exposure to Air Pollution"
+air_chart()
+```
+
+```{python}
+#| label: fig-air-pollution-personal-2025
+#| fig-cap: "My Personal Exposure to Air Pollution (2025 Update)"
+#| fig-scap: "My Personal Exposure to Air Pollution (2025 Update)"
+air_chart_2025()
+```
+
+The above charts shows my exposure to pollutants while traveling, ranked from worst to best.
 
 ## Persona-Based App Features
 

@@ -8,13 +8,12 @@ warnings.filterwarnings("ignore")
 ```{=mdx}
 import Figure from '/src/components/Figure'
 import AI from '../images/ai/ai-credibility.png'
-import Replika from '../images/ai/with-me.png'
 import ETF from '../images/ai/etfmatic.png'
 import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
-## AI
+## Design for AI Companions
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
@@ -375,13 +374,7 @@ The number of AI-powered assistants is too large to list here. I've chosen a few
 
 Table: AI Assistants []{short-caption="AI Assistants"}
 
-::: {.content-hidden unless-format="pdf"}
-![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
-:::
 
-```{=mdx}
-<Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
-```
 Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
