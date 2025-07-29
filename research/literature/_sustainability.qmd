@@ -4,6 +4,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production, climate_tipping_points
+from literature.charts.finance import shopping_growth, social_commerce_chart
 ```
 
 ```{=mdx}
@@ -23,7 +24,60 @@ import AbstractSustainability from "/research/images/sustainability/abstract-sus
 <Figure caption="Visual abstract for the sustainability chapter" src={AbstractSustainability} />
 ```
 
-### Measuring and Visualizing Earth's Climate Systems
+### Overconsumption \> Earth's Boundaries
+
+Excessive consumer lifestyle - *overconsumption* - is one of the main drivers of climate change and environmental destruction, with *"2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita"* , according to [@reneechoHowBuyingStuff2020; @ivanovaQuantifyingPotentialClimate2020]. An older study put the number as high as 60% percent [@ivanovaEnvironmentalImpactAssessment2016] while [@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019]'s models 45% show of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume. [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. [@ivanovaQuantifyingPotentialClimate2020] reports the average footprint in North America and Europe is 13.4 t CO~2~eq, in Africa and the Middle East 1.7t CO~2~eq; consumption options with a high mitigation potential measured in tonnes of CO~2~ equivalent per capita per year include *"living car-free"* and avoiding flying, which could each save upwards of 1.7t CO~2~eq per person annually.
+
+While the numbers on overconsumption are clear, the debate on overconsumption is so polarized, it's difficult to have a meaningful discussion of the topic [@ianoleOverconsumptionSocietyLookingglass2013]. Environmental risks from human activities are known as Anthropogenic Threat Complexes (ATCs) [@bowlerMappingHumanPressures2020]. With the trend of urbanization, it's not surprising (people living in) cities are responsible for 80% of the emissions [@rosalescarreonUrbanEnergySystems2018]. [@mobergMobilityFoodHousing2019] reports daily human activities emission contribution on average in four European countries (France, Germany, Norway and Sweden).
+
+|                |          |
+|----------------|----------|
+| Emission Share | Category |
+| 21%            | Housing  |
+| 30%            | Food     |
+| 34%            | Mobility |
+| 15%            | Other    |
+
+Table: Daily human activities emission contribution, on average, in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019]. []{short-caption="Daily Human Activities' Emission Contribution"}
+
+Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] dissect GHG emissions inventory by sector and put the blame squarely on the type of energy used.
+
+| Sector | Share | Description |
+|----------------|---------------:|----------------------------------------|
+| Energy Use (inc. electricity, heat and transport) | 73.2 % | Total CO~2~eq emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%) |
+| Direct Industrial Processes | 5.2 % | Direct CO~2~eq emissions from chemical reactions in cement and in chemicals and petrochemicals. |
+| Waste | 3.2 % | Wastewater methane and NO2 emissions; landfill methane. |
+| Agriculture + LULUCF (Land Use, Land-Use Change & Forestry) | 18.4 % | Emissions from grassland, cropland, deforestation, crop burning, rice cultivation, agricultural soils, livestock and manure. |
+
+Table: Industrial Emissions [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016]. []{short-caption="Industrial Emissions"}
+
+Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. Indeed, making *anything* consumes natural resources, which are limited on planet Earth. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% driven by the impact of climate change. Yet, while population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012]. Meanwhile, others, such as [@cafaroOverpopulationMajorCause2022], believe *\[o\]verpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left."*
+
+#### Shopping's Environmental Footprint: Increasingly Driven by Digital Platforms, Social Commerce, AI Assistants
+
+It may seem impossible to turn the tide of consumerism, given the projected growth in online shopping, Single's day, etc. [@forresterForresterGlobalOnline2024]. However, importantly - more and more consumers are using AI assistants to find alternative products, make shopping lists, which may have an effect on *what type* of products are bought [@pandyaAdobeAnalyticsTraffic2025; @pastoreMoreConsumersUsing2025; @neuronGetReadyYour2025]
+
+```{python}
+#| label: fig-shopping-growth
+#| fig-cap: "Growth of Consumerism"
+#| fig-scap: "Growth of Consumerism"
+shopping_growth()
+```
+
+Double Eleven 11/11 celebrated on November 11 is the world's largest shopping festival [@double11festival2023]. In June 2023, 526 million people watch e-commerce live-streams in China; online bargaining is a type of ritual [@liuBargainingChineseLivestream2024]. According to [@iginiEnvironmentalImpactOnline2024] *"Asia is set to account for 50% of the world's total online retail sales"*. [@theinfluencerfactoryStatusSocialCommerce2021] China is the furthest ahead in *social shopping*, the Chinese and U.S. market may be mature and growth will come from emerging markets (SEA, Latin-America).
+
+```{python}
+#| label: fig-soc-com
+#| fig-cap: "Social Commerce"
+#| fig-scap: "Social Commerce"
+social_commerce_chart()
+```
+
+In the US, TikTok is the leader in social commerce [@loystTikTokLiveShopping2024].
+
+### Measuring and Visualizing Earth's Systems
+
+#### Ecological Indicators to Track Environmental Health
 
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt, the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models [@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
@@ -67,7 +121,145 @@ Earth's physical systems are very sensitive to small changes in temperature, whi
 climate_tipping_points()
 ```
 
-### Measuring CO~2~e Emissions
+#### Evolving Measurements from Planetary Health to Earth System Law, and Social Cost of Carbon
+
+Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilization: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
+
+There are 3 approaches that address the complex interdependence of humans with our physical environment, that have the potential to be complementary - *Planetary Health*, *Social Cost of Carbon*, and *Earth System Law*.
+
+*Planetary Health* is a framework rooted in public health sciences and medicine; what if public health leveled-up to planetary scale, concerned with the health of ecological life-support systems: clean air, food, and a safe climate, so they can support human flourishing; in practice the framework focuses on evidence, education, governance, and business [@planetaryhealthalliancePlanetaryHealth2024; @planetaryhealthalliancePlanetaryHealthRoadmap2024].
+
+*Social Cost of Carbon* attempts to measure the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
+
+*Earth System Law* is a framework rooted in the legal sciences for addressing interconnected environmental challenges in a hyper-connected Earth, where climate feedbacks, and environmental thresholds don't respect country borders; in practice, this line of thinking helps to develop carbon-budget clauses inside trade deals and biodiversity "safety brakes" that trigger when monitoring data shows an Earth boundary overshoot, potentially acting as the legal scaffolding that lets Planetary Health prescriptions and Social Cost of Carbon price signals be effective [@dutoitReimaginingInternationalEnvironmental2022].
+
+More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposes a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C, 21–39 % or 2–4 billion people will be exposed by 2080–2100.
+
+#### Measuring Biodiversity Loss, Ecological Indicators and Environmental Degradation
+
+Sustainability can be measured using a variety of *ecological indicators*. Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health. Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+
+Around the world, pressure on ecosystems is rapidly increasing, with biodiversity destruction ever prevalent, making protecting biodiversity as urgent as protecting the climate. [@livingPlanetReport2022] reported, the number of species killed, mass destruction of nature:
+
+> *"69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."*
+
+In Europe, as of 2025, none of the evaluated biodiversity targets are on track; agricultural targets, such as reducing soil nutrient losses, and reducing fertilizer use, are particularly lagging [@europeancommissionProtectingEcosystemsAlmost2025].
+
+*Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNA is being used to generate biodiversity credits by environmental asset rating companies such as BeZero, a ratings' agency for the Voluntary Carbon Market [@ojoatreTriallingEDNABiodiversity2023].
+
+Similarly to climate protection, the UN has taken a leadership role in biodiversity protection, by organizing an annual Convention on Biodiversity. The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded [@unitHistoryConvention2023]. The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals [@unepCOP15EndsLandmark2022].
+
+|                                               |                            |
+|--------------------------------------------|----------------------------|
+| What Happened?                                | How Much?                  |
+| Vertebrate species population average decline | 68% over the last 50 years |
+| Land surface altered by humans                | 70% of Earth               |
+| Vertebrate species extinct                    | 700 in 500 years           |
+| Plant species extinct                         | 600 in 500 years           |
+| Species under threat of extinction            | 1 million                  |
+
+Table: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021]. []{short-caption="Biodiversity Loss"}
+
+```{python}
+#| label: fig-biod-loss
+#| fig-cap: "Biodiversity Loss"
+#| fig-scap: "Biodiversity Loss"
+biodiversity_chart()
+```
+
+Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. [@wwfForestsReducingEU2022] case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
+
+Starting with the simple question: why protect biodiversity. [@mayWhyShouldWe2011] argues biodiversity loss is a concern for 3 points of views:
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| Point of View | Description |
+| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
+| Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
+| Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
+
+Table: Ethical and Utilitarian Concepts of Biodiversity Protection from [@mayWhyShouldWe2011]. []{short-caption="Ethical and Utilitarian Concepts of Biodiversity Protection"}
+
+There is some progress in biodiversity conservation as "\[\*b\]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"\* [@uebtBiodiversityBarometer2022]
+
+#### Tracking Pollution: Air, Water, and Soil Degradation
+
+In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
+
+```{python}
+#| label: fig-tw-poll-reports
+#| fig-cap: "Pollution Reports in Taiwan by County"
+#| fig-scap: "Pollution Reports in Taiwan by County"
+taiwan_pollution_reports()
+```
+
+Pollution Reports in Taiwan by District.
+
+```{python}
+#| label: fig-tw-poll-reports-stack
+#| fig-cap: "Pollution Reports in Taiwan by District"
+#| fig-scap: "Pollution Reports in Taiwan by District"
+taiwan_pollution_reports_stacked()
+```
+
+Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].
+
+[@abuelkheir-matariaClimateChangeWomens2025] finds warming climate in the MENA region (Middle East and North Africa) increases cancer risk in women, mediated through air pollution and other environmental stressors.
+
+Clean air is a proposed as a *human right* [@baronessjonesofmoulsecoombCleanAirHuman2023], yet air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million *premature deaths* every year [@worldhealthorganizationAmbientOutdoorAir2022]. Air pollution is linked to cancer incidence. In Taiwan, South Korea, and England, groundbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals establishes exposure to 2.5μm PM (PM2.5) air pollution as a *cause for lung cancer.* In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong explains it plainly, which I want to quote here in verbatim:
+
+> *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."* - [@hannahdevlinCancerBreakthroughWakeup2022]
+
+The main way to combat air pollution is through policy interventions. [@marialuisfernandesRealityCheckIndustrial2023] the EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. In China, [@guHiddenCostsNongreen2023] links air pollution to credit interest rates for business loans; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates. In France, [@bouscasseDesigningLocalAir2022] finds strong health and economic benefits across the board from air pollution reduction.
+
+Likewise to the lack of clean air, lack of access to sufficient clean water and water pollution are issues in several places around the world; globally, 4.4 billion people only have access to water that's not safe for drinking [@solimanUnacceptableStaggeringBillion2024]. Even in wealthy countries like the US, with increasing situations of water scarcity and drought due to climate change, issues of water ownership become increasingly dire. [@naishadhamDroughtstrickenArizonaFresh2023; @kochOpinionArizonaRace2022] describes a fight in the US over water usage rights in Arizona, where Fondomonte, a subsidiary of a Saudi Arabian company that grows a water-hungry crop alfalfa, exacerbating the local water crisis by using large amounts of public water, leading to public outcry and being sued for "public nuisance" for its excessive groundwater pumping, and finally cessation of its lease and operations on state land; but still continuing operations on private land [@naishadhamArizonaCancelLeases2023; @SaudiFirmThat2023].
+
+Water quality is highly dependent on competent governance. For example, in the U.S., the national government recently rolled back rules for water safety, which had only been implemented last year, to protect the consumer from per- and polyfluoroalkyl substances (PFAS) [@tragerPFASRegulationsUS2025]. Once pollution is in the environment, cleaning it up is very expensive. For instance, in France, where storm water washed pollution into the waterways feeding into the Seine river, making it unsuitable for swimming, the city of Paris invested 1.4 Billion Euros to create a massive underground reservoir and a water cleaning system by the opening of the Paris Olympics in 2024 - and still the water quality would be variable based on rain incidence [@waltBillionDollarEffortClean2023].
+
+Water and soil pollution are highly connected, as water flows through soil. In Saudi Arabia, [@picoWildRuderalPlants2023] used wild and ruderal plants as bioindicators to detect pollution of air, water and soil, specifically anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals, concluding both Abha and Riyadh showed notable levels of pollutants while Riyadh (a city with more industry) showed higher levels of pollution.
+
+Improved farming practices directly improve soil structure (reducing runoff and contamination) and water retention, thereby mitigating both soil degradation and water pollution. Participants in the 2023 Baltic Sea Action Group for the EIT Food Regenerative Agriculture project (which so far has trained over 1200 farmers and 160 farmers advisory groups in regenerative practices), highlighted practical soil‐restoration methods in their respective countries: applying *biochar* on pilot plots in the Czech Republic increased water retention by up to 20%, no‐tilling and cover‐cropping practices in Hungary boosted insect‐species counts by 15 points, and adopting regenerative crop rotations in Bulgaria cut synthetic fertilizer use by 25%; one of the challenges remains consumer awareness: only 12% of consumers in Central and Eastern Europe currently recognize the "regenerative" label - awareness must grow to drive demand [@balticseaactiongroupEITFoodRegenerative2023].
+
+A practical example of the interconnection between water pollution, agriculture, architecture, and extreme weather, are bioswales, which help catch storm debris and reduce water pollution. In Taiwan, [@liu2010] showed that grass swales increase infiltration, reduce runoff, and improve downstream water quality, helping stabilize slopes via enhanced drainage (Taiwanese landscape is very mountainous, with); in a follow-up field trial at a National Highway in Gangshan, grass swales consistently trapped sediments and adsorbed heavy metals from highway runoff before those pollutants could reach nearby waterways.
+
+The above examples from around the world suggest that *"regenerative"* is not just a buzzword or wishful thinking - instead, it maps to a set of concrete practices and approaches to improve the condition of the living environment under threat from pollution.
+
+#### Measuring Plastic Pollution
+
+Overconsumption is also one of the root causes of plastic pollution. [@FORD2022150392] and [@laversFarDistractionPlastic2022] find strong links between climate change and marine plastic pollution *"along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution"*.
+
+Plastic pollution is pervasive around the Earth and is fundamentally linked to climate change, while microplastics are increasingly a real concern [@TIERNAN2022169; @laversFarDistractionPlastic2022]. Several international studies report recent findings of microplastics everywhere in human bodies: the brain, lungs, digestive tissues, bone marrow, penis, testis, seminal fluid (semen), and placenta - causing serious health and reproductive concerns [@mainMicroplasticsAreInfiltrating2024; @guoDiscoveryAnalysisMicroplastics2024; @huMicroplasticPresenceDog2024; @codringtonDetectionMicroplasticsHuman2024; @liPrevalenceImplicationsMicroplastic2024; @montanoRamanMicrospectroscopyEvidence2023; @garciaQuantitationIdentificationMicroplastics2024; @zhuTissueAccumulationMicroplastics2024]
+
+```{python}
+#| label: fig-microplastics
+#| fig-cap: "Microplastics in the Human Body"
+#| fig-scap: "Microplastics in the Human Body"
+microplastics_body_chart()
+```
+
+In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre report in 2022 we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
+
+An update to the planetary boundaries framework a year later found the actual number to be 6 of 9 boundaries (climate, biosphere integrity, land use, biogeochemical flows, freshwater use, novel entities) already transgressed, with ocean acidification nearing its limit and only stratospheric ozone recovering; atmospheric aerosol loading and the biodiversity intactness index (BII), which belongs under biodiversity loss and measures how depleted are the species that are still around (but not yet extinct), were quantified recently [@richardsonEarthSixNine2023; @newboldHasLandUse2016].
+
+In the biosphere, mass extinctions are underway. An analysis of population trends for 27600 terrestrial vertebrate species (including a detailed sample of 177 mammals), found 32% (8851 species) are undergoing severe range contractions; the authors name this "biological annihilation" to signal Earth’s ongoing 6 mass extinction and call for immediate conservation action [@ceballosBiologicalAnnihilationOngoing2017]. As of last year, the Red List curated by the International Union for Conservation of Nature (IUCN), includes 45,300 species (28% of all assessed, since IUCN was founded in 1948), under threat of extinction [@iucnIUCNRedList2024].
+
+Responding to the crisis, the Guardian newspaper in the UK has taken a clear stance, covering stories of extinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
+
+::: {.content-hidden unless-format="pdf"}
+![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary Boundaries 2023 Update"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Planetary Boundaries 2023 update"
+  src={Boundaries}
+  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
+  refTitle="Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023"
+/>
+```
+In 2018 Swedish Sportswear brand Houdini launched the first corporate planetary boundaries' assessment in partnership with Albaeco and Stockholm Resilience Centre to establish a baseline for its "impact positive" ambition [@houdiniPlanetaryBoundariesAssessment2018]. While it's a pilot study, it demonstrates how companies can integrate system-level science into sustainability reporting [@haeggmanPlanetaryBoundariesAnalysis2018]. At the 2024 update for the report, Houdini invited, Johan Rockström, a renown conservation and climate scientist, envisions a global dashboard of the development of the economy and the state of the planetary boundaries, with high resolution maps, to help visualize Earth's situation in real-time [@houdinisportswear2024PlanetaryBoundaries2024].
+
+#### Measuring CO~2~e Emissions
 
 Technology improves and measurements have become more accurate yet CO~2~e emissions are not yet completely accounted for. [@crippaFossilCO2GHG2020] reports the latest figures CO~2~e from the EU's Emissions Database for Global Atmospheric Research (EDGAR). The EU Copernicus satellite system reveals new greenhouse emissions previously undetected [@danielvarjoNyaSatelliterAvslojar2022]. *Copernicus Climate Change Service (C3S) provides "\[n\]ear-real time updates of key global climate variables*"[@thecopernicusclimatechangeserviceClimatePulse2024]. Using simple python code and freely available images from online datasets, it's increasingly possible for anyone to detect deforestation, as in this example of geospatial analysis from Amazon AWS [@patelAwssamplesAwssmslgeospatialanalysisdeforestation2025; @awsSageMakerStudioLab2022].
 
@@ -139,7 +331,55 @@ Fossil fuels are what powers humanity as well as the largest source of CO~2~ emi
 
 [@emberElectricityDataExplorer2025] Ember’s Electricity Data Explorer shows Taiwanese energy usage based on data from Taiwanese government, visualizing the growth in gas, wind, and solar, and decline of coal and nuclear power; however, while declining, coal remains the leading power source for Taiwan. Climate pledges made by international companies present in Taiwan mean they need large amounts of green energy to meet their sustainability goals. For instance, Google worked with the government of Taiwan to change the laws to allow direct power procurement by foreign companies; the current plan being to install 1 gigawatt of solar power fully pre-purchased by the newly formed company created by BlackRock and Google for boosting AI development as reported by [@jessopGoogleBuysStake2024; @chiangGoogleInvestsBlackRockbacked2024; @YongXinNengYuannewgreenpowerBlackRockAcquire1002022]. More recently, Google also purchased 10MW of geothermal energy for its Taiwanese AI chip projects, doubling current Taiwanese geothermal capacity [@wuGoogleAnnouncesMilestone2025; @potterGoogleJustFlipped2025; @hagstrom-ilievskaMajorStepGeothermal2025]. Geothermal energy provides 24/7 clean energy from the Earth's core, however is limited due to lack of access; Taiwan happens to be in geologically active spot on the ring of fire, where drilling for geothermal energy is more feasible [@lGoogleIgnitesTaiwans2025; @changOurFirstGeothermal2025].
 
-### Carbon Accounting, Emissions Trading Schemes
+### Tools for Protecting Nature
+
+#### Commodification of Nature vs Nature's Sacred Value
+
+There are 2 main approaches to protecting nature:
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| **Economics of Nature Commodification** | **Economics of Sacred Nature** |
+| Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
+
+Table: Economics of Nature Commodification vs Sacred Economics []{short-caption="Economics of Nature Commodification vs Sacred Economics"}
+
+Whether we should put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commoditize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
+
+Ecosystem services literature defines a "Nature’s Contributions to People" framework, originally proposed by the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). [@diazAssessingNaturesContributions2018]. [@muradianEcosystemServicesNature2021] critically assesses the framework, arguing utilitarian and anthropocentric views of the ecosystem services concept perpetuates problematic dualisms (humans and nature are separate) - and call for a new approach centered on ecology.
+
+|                                                |
+|------------------------------------------------|
+| 9 Steps Towards Defining Ecosystem Services    |
+| Identify ecosystem functions                   |
+| Quantify ecosystem functions                   |
+| Identify ecosystem services                    |
+| Quantify ecosystem services                    |
+| Quantify financial value of ecosystem services |
+| Assign property rights                         |
+| Create ecosystem service markets               |
+| Commodify nature                               |
+
+Table: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] []{short-caption="Defining Ecosystem Services Concepts"} 
+
+A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
+
+#### Markets Financialize the Natural World: Pricing, Tracing, and Trading Ecosystem Services and Nature-backed Assets
+
+Similarly to carbon markets, markets for nature-backed assets and ecosystem services are centered around different types of credits.
+
+| **Asset Type** | **Description** |
+|-----------------------|-------------------------------------------------|
+| Carbon Credits and Offsets | Represent avoided or removed CO~2~eq emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
+| Biodiversity Credits | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard |
+| Water Rights and Wetland Credits | Represent rights to access water or preserve/restore wetlands which can be traded |
+| Conservation Finance Instruments | Represent bonds or funds that protect forests, coral reefs, or species habitats |
+| Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
+| Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
+
+Table: Types of nature-backed assets and tradeable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023] []{short-caption="Types of Nature-Backed Assets and Tradeable Ecosystem Services"}
+
+#### Carbon Accounting, Emissions Trading Schemes
 
 Trading CO~2e~ emissions can be divided into 2 categories, namely *Compliance Carbon Markets* (CCM) and *Voluntary Carbon Markets* (VCM). The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.*
 
@@ -213,100 +453,7 @@ There are many companies which facilitate buy carbon credits as well as a few or
 
 Carbon credit prices should reflect the quality of the carbon reduction. Nature-based carbon removal solutions (for example, forest-backed carbon credits) rank among the top solutions for mitigating climate change but require price signals that reflect their true value; Pachama’s (an AI-based carbon removal company) calculation from bottom up cost modeling across more than 150 reforestation projects indicate that high quality forest carbon removal credits must trade at a minimum of USD 50-82 per tonne of CO~2~eq to be competitive with alternative land uses (IPCC AR6 guidance sets the price spread wider, from USD 50-200); reduced land-use change (basically this means not cutting down forests, IPCC groups together as LULUCF, Land Use, Land-Use Change and Forestry) ranks 2nd to solar energy in terms of carbon reduction potential [@pachamaHowMuchShould2023; @luikWhereDoesCarbon2025].
 
-### Markets Financialize the Natural World: Pricing, Tracing, and Trading Ecosystem Services and Nature-backed Assets
-
-Similarly to carbon markets, markets for nature-backed assets and ecosystem services are centered around different types of credits.
-
-| **Asset Type** | **Description** |
-|-----------------------|-------------------------------------------------|
-| Carbon Credits and Offsets | Represent avoided or removed CO~2~eq emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
-| Biodiversity Credits | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard |
-| Water Rights and Wetland Credits | Represent rights to access water or preserve/restore wetlands which can be traded |
-| Conservation Finance Instruments | Represent bonds or funds that protect forests, coral reefs, or species habitats |
-| Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
-| Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
-
-Table: Types of nature-backed assets and tradeable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023] []{short-caption="Types of Nature-Backed Assets and Tradeable Ecosystem Services"}
-
-### Overconsumption \> Earth's Boundaries
-
-Excessive consumer lifestyle - *overconsumption* - is one of the main drivers of climate change and environmental destruction, with *"2/3 of global GHG emissions are directly and indirectly linked to household consumption, with a global average of about 6 tonnes CO~2~ equivalent per capita"* , according to [@reneechoHowBuyingStuff2020; @ivanovaQuantifyingPotentialClimate2020]. An older study put the number as high as 60% percent [@ivanovaEnvironmentalImpactAssessment2016] while [@ellenmacarthurfoundationmaterialeconomicsCompletingPictureHow2019]'s models 45% show of CO~2~ equivalent emissions come from our shopping; produced by companies to make the products we consume. [@keebleBrundtlandReportOur1988] reported in April 1987 that *'residents in high-income countries lead lifestyles incompatible with planetary boundaries'*. [@ivanovaQuantifyingPotentialClimate2020] reports the average footprint in North America and Europe is 13.4 t CO~2~eq, in Africa and the Middle East 1.7t CO~2~eq; consumption options with a high mitigation potential measured in tonnes of CO~2~ equivalent per capita per year include *"living car-free"* and avoiding flying, which could each save upwards of 1.7t CO~2~eq per person annually.
-
-While the numbers on overconsumption are clear, the debate on overconsumption is so polarized, it's difficult to have a meaningful discussion of the topic [@ianoleOverconsumptionSocietyLookingglass2013]. Environmental risks from human activities are known as Anthropogenic Threat Complexes (ATCs) [@bowlerMappingHumanPressures2020]. With the trend of urbanization, it's not surprising (people living in) cities are responsible for 80% of the emissions [@rosalescarreonUrbanEnergySystems2018]. [@mobergMobilityFoodHousing2019] reports daily human activities emission contribution on average in four European countries (France, Germany, Norway and Sweden).
-
-|                |          |
-|----------------|----------|
-| Emission Share | Category |
-| 21%            | Housing  |
-| 30%            | Food     |
-| 34%            | Mobility |
-| 15%            | Other    |
-
-Table: Daily human activities emission contribution, on average, in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019]. []{short-caption="Daily Human Activities' Emission Contribution"}
-
-Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] dissect GHG emissions inventory by sector and put the blame squarely on the type of energy used.
-
-| Sector | Share | Description |
-|----------------|---------------:|----------------------------------------|
-| Energy Use (inc. electricity, heat and transport) | 73.2 % | Total CO~2~eq emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%) |
-| Direct Industrial Processes | 5.2 % | Direct CO~2~eq emissions from chemical reactions in cement and in chemicals and petrochemicals. |
-| Waste | 3.2 % | Wastewater methane and NO2 emissions; landfill methane. |
-| Agriculture + LULUCF (Land Use, Land-Use Change & Forestry) | 18.4 % | Emissions from grassland, cropland, deforestation, crop burning, rice cultivation, agricultural soils, livestock and manure. |
-
-Table: Industrial Emissions [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016]. []{short-caption="Industrial Emissions"}
-
-Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. Indeed, making *anything* consumes natural resources, which are limited on planet Earth. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% driven by the impact of climate change. Yet, while population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012]. Meanwhile, others, such as [@cafaroOverpopulationMajorCause2022], believe *\[o\]verpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left."*
-
-### Plastic Pollution
-
-Overconsumption is also one of the root causes of plastic pollution. [@FORD2022150392] and [@laversFarDistractionPlastic2022] find strong links between climate change and marine plastic pollution *"along with other stressors that threaten the resilience of species and habitats sensitive to both climate change and plastic pollution"*.
-
-Plastic pollution is pervasive around the Earth and is fundamentally linked to climate change, while microplastics are increasingly a real concern [@TIERNAN2022169; @laversFarDistractionPlastic2022]. Several international studies report recent findings of microplastics everywhere in human bodies: the brain, lungs, digestive tissues, bone marrow, penis, testis, seminal fluid (semen), and placenta - causing serious health and reproductive concerns [@mainMicroplasticsAreInfiltrating2024; @guoDiscoveryAnalysisMicroplastics2024; @huMicroplasticPresenceDog2024; @codringtonDetectionMicroplasticsHuman2024; @liPrevalenceImplicationsMicroplastic2024; @montanoRamanMicrospectroscopyEvidence2023; @garciaQuantitationIdentificationMicroplastics2024; @zhuTissueAccumulationMicroplastics2024]
-
-```{python}
-#| label: fig-microplastics
-#| fig-cap: "Microplastics in the Human Body"
-#| fig-scap: "Microplastics in the Human Body"
-microplastics_body_chart()
-```
-
-In addition to the enormity of over-reaching CO~2~ emissions, humanity is facing other massive environmental problems. The Stockholm Resilience Centre report in 2022 we have already breached 4 out of our 9 *"planetary boundaries":* in addition to climate change, biodiversity loss (Extinctions per Million Species per Year aka E/MSY), land-system change (deforestation, land degradation, etc), and biogeochemical flows (cycles of carbon, nitrogen, phosphorus, etc); on a positive side, the challenges of fresh water use, ocean acidification and stratospheric ozone depletion are still within planetary limits [@perssonOutsideSafeOperating2022].
-
-An update to the planetary boundaries framework a year later found the actual number to be 6 of 9 boundaries (climate, biosphere integrity, land use, biogeochemical flows, freshwater use, novel entities) already transgressed, with ocean acidification nearing its limit and only stratospheric ozone recovering; atmospheric aerosol loading and the biodiversity intactness index (BII), which belongs under biodiversity loss and measures how depleted are the species that are still around (but not yet extinct), were quantified recently [@richardsonEarthSixNine2023; @newboldHasLandUse2016].
-
-In the biosphere, mass extinctions are underway. An analysis of population trends for 27600 terrestrial vertebrate species (including a detailed sample of 177 mammals), found 32% (8851 species) are undergoing severe range contractions; the authors name this "biological annihilation" to signal Earth’s ongoing 6 mass extinction and call for immediate conservation action [@ceballosBiologicalAnnihilationOngoing2017]. As of last year, the Red List curated by the International Union for Conservation of Nature (IUCN), includes 45,300 species (28% of all assessed, since IUCN was founded in 1948), under threat of extinction [@iucnIUCNRedList2024].
-
-Responding to the crisis, the Guardian newspaper in the UK has taken a clear stance, covering stories of extinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
-
-::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary Boundaries 2023 Update"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Planetary Boundaries 2023 update"
-  src={Boundaries}
-  refURL="https://www.stockholmresilience.org/research/planetary-boundaries.html"
-  refTitle="Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023"
-/>
-```
-In 2018 Swedish Sportswear brand Houdini launched the first corporate planetary boundaries' assessment in partnership with Albaeco and Stockholm Resilience Centre to establish a baseline for its "impact positive" ambition [@houdiniPlanetaryBoundariesAssessment2018]. While it's a pilot study, it demonstrates how companies can integrate system-level science into sustainability reporting [@haeggmanPlanetaryBoundariesAnalysis2018]. At the 2024 update for the report, Houdini invited, Johan Rockström, a renown conservation and climate scientist, envisions a global dashboard of the development of the economy and the state of the planetary boundaries, with high resolution maps, to help visualize Earth's situation in real-time [@houdinisportswear2024PlanetaryBoundaries2024].
-
-### Evolving Measurements from Planetary Health to Earth System Law, and Social Cost of Carbon
-
-Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilization: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
-
-There are 3 approaches that address the complex interdependence of humans with our physical environment, that have the potential to be complementary - *Planetary Health*, *Social Cost of Carbon*, and *Earth System Law*.
-
-*Planetary Health* is a framework rooted in public health sciences and medicine; what if public health leveled-up to planetary scale, concerned with the health of ecological life-support systems: clean air, food, and a safe climate, so they can support human flourishing; in practice the framework focuses on evidence, education, governance, and business [@planetaryhealthalliancePlanetaryHealth2024; @planetaryhealthalliancePlanetaryHealthRoadmap2024].
-
-*Social Cost of Carbon* attempts to measure the compound impact of CO~2e~ emissions on society. Sustainability is filled with complexities. CO~2e~ emissions are complicated by biodiversity loss, child labor, slavery, poverty, chemical pollution, etc. - many issues become intertwined [@tedxSustainableBusinessFrank2020]. One attempt to measure these complexities, is the *Social Cost of Carbon* (SCC) which is defined as *"additional damage caused by an extra unit of emissions"* [@kornekSocialCostCarbon2021; @zhenSimpleEstimateSocial2018]. For example the cost of damages caused by "one extra ton of carbon dioxide emissions" [@stanforduniversityProfessorsExplainSocial2021]. SCC variations exist between countries [@tolSocialCostCarbon2019] and regions [@wangMeasurementChinaProvincial2022].
-
-*Earth System Law* is a framework rooted in the legal sciences for addressing interconnected environmental challenges in a hyper-connected Earth, where climate feedbacks, and environmental thresholds don't respect country borders; in practice, this line of thinking helps to develop carbon-budget clauses inside trade deals and biodiversity "safety brakes" that trigger when monitoring data shows an Earth boundary overshoot, potentially acting as the legal scaffolding that lets Planetary Health prescriptions and Social Cost of Carbon price signals be effective [@dutoitReimaginingInternationalEnvironmental2022].
-
-More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposes a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C, 21–39 % or 2–4 billion people will be exposed by 2080–2100.
-
-### Quantifying Human Benefits from the Biosphere: Ecosystem Services
+#### Quantifying Human Benefits from the Biosphere: Ecosystem Services
 
 *Ecosystem services measure the benefits humans receive from the biosphere.* Put simply, *ecosystem services* enable human life on Earth - we are, in a very real sense, - dependent on nature. The biosphere is Earth's life support system. Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
 
@@ -314,162 +461,23 @@ While it can be assumed much of the flora and fauna are crucial for Earth's syst
 
 The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called *digital twins.* The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc., into a single model [@hoffmannDestinationEarthDigital2023; @DestinationEarthShaping2023]. For instance, AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-### Ecological Indicators to Track Environmental Health: Measuring Biodiversity Loss, Ecological Indicators and Environmental Degradation
-
-Sustainability can be measured using a variety of *ecological indicators*. Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health. Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
-
-Around the world, pressure on ecosystems is rapidly increasing, with biodiversity destruction ever prevalent, making protecting biodiversity as urgent as protecting the climate. [@livingPlanetReport2022] reported, the number of species killed, mass destruction of nature:
-
-> *"69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018. Latin America shows the greatest regional decline in average population abundance (94%), while freshwater species populations have seen the greatest overall global decline (83%)."*
-
-In Europe, as of 2025, none of the evaluated biodiversity targets are on track; agricultural targets, such as reducing soil nutrient losses, and reducing fertilizer use, are particularly lagging [@europeancommissionProtectingEcosystemsAlmost2025].
-
-*Environmental DNA (eDNA)* helps scientists measure species abundance without direct observation through detection of DNA on genetic materials such as skin cells [@peterandreysmitharchivepageHowEnvironmentalDNA2024]. Cellular DNA can be isolated from various sediment types [@ogramExtractionPurificationMicrobial1987]. Beyond scientific applications, eDNA is being used to generate biodiversity credits by environmental asset rating companies such as BeZero, a ratings' agency for the Voluntary Carbon Market [@ojoatreTriallingEDNABiodiversity2023].
-
-Similarly to climate protection, the UN has taken a leadership role in biodiversity protection, by organizing an annual Convention on Biodiversity. The history of the United Nations Convention on Biodiversity goes back to 1988, when the working group was founded [@unitHistoryConvention2023]. The Convention on Biodiversity 2022 (COP15) adopted the first global biodiversity framework to accompany climate goals [@unepCOP15EndsLandmark2022].
-
-|                                               |                            |
-|--------------------------------------------|----------------------------|
-| What Happened?                                | How Much?                  |
-| Vertebrate species population average decline | 68% over the last 50 years |
-| Land surface altered by humans                | 70% of Earth               |
-| Vertebrate species extinct                    | 700 in 500 years           |
-| Plant species extinct                         | 600 in 500 years           |
-| Species under threat of extinction            | 1 million                  |
-
-Table: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021]. []{short-caption="Biodiversity Loss"}
-
-```{python}
-#| label: fig-biod-loss
-#| fig-cap: "Biodiversity Loss"
-#| fig-scap: "Biodiversity Loss"
-biodiversity_chart()
-```
-
-Biodiversity loss is linked to overconsumption, weak legislation and lack of oversight. [@crennaBiodiversityImpactsDue2019] recounts European Union consumers' negative impact on biodiversity in countries where it imports food. [@wwfForestsReducingEU2022] case study highlights how 4 biodiverse regions Cerrado in Brazil, Chaco in Argentina, Sumatra in Indonesia, and the Cuvette Centrale in Democratic Republic of Congo are experiencing rapid destruction due to consumer demand in the European Union. While the European Union (EU) has recently become a leader in sustainability legislation, biodiversity protection measures among private companies is very low @marco-fondevilaTrendsPrivateSector2023.
-
-Starting with the simple question: why protect biodiversity. [@mayWhyShouldWe2011] argues biodiversity loss is a concern for 3 points of views:
-
-|  |  |
-|--------------------------|----------------------------------------------|
-| Point of View | Description |
-| Narrowly Utilitarian | Biodiversity is a resource of genetic novelties for the biotech industry. |
-| Broadly Utilitarian | Humans depend upon biodiverse ecosystems. |
-| Ethical | Humans have a responsibility to future generations to pass down a rich natural world. |
-
-Table: Ethical and Utilitarian Concepts of Biodiversity Protection from [@mayWhyShouldWe2011]. []{short-caption="Ethical and Utilitarian Concepts of Biodiversity Protection"}
-
-There is some progress in biodiversity conservation as "\[\*b\]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"\* [@uebtBiodiversityBarometer2022]
-
-### Oceans and Marine Ecosystem Sustainability
-
-Marine heatwaves are intensifying under climate change, threatening species diversity and the ocean’s capacity to supply critical services from fisheries to carbon sequestration [@smaleMarineHeatwavesThreaten2019]. Accelerating ocean warming, evidenced by record-breaking sea-surface temperatures, has triggered widespread coral bleaching, clearly visible at the Great Barrier Reef in Queensland, East Coast of Australia, loss of marine habitat complexity, and cascading threats to coastal economies and food security; the authors call for integrated climate–ocean policy action, stressing that without urgent emissions cuts and ecosystem-based adaptation, the ocean’s capacity to regulate climate and sustain biodiversity will collapse [@gellesOceanDireMessage2023; @pfeifferCoralGiantsSound2024]. Cumulative pressures: climate extremes, pollution, and overexploitation - have driven evolutionary shifts in marine life and unpredictably altered ecosystem-service delivery [@espinosaImpactsEvolutionChanges2023].
-
-Some earlier studies, such as [@howardPotentialIntegrateBlue2017] demonstrate how integrating blue carbon habitats into Marine Protected Area (MPA) design can both mitigate carbon emissions and enhance ecosystem resilience. Meta-analyses across 121 sites in 87 MPAs globally show that most well-designed and managed MPAs achieve significant ecological gains: on average, fish biomass inside no-take zones can double to triple compared with outside areas, and species richness likewise increases by 20–30 % within 5–10 years of enforcement [@ruddPathwaysMarineProtected2015]. However, Marine Protected Areas cover only 8% of the world's oceans and only 2.8% is effectively protected [@iginiJust28Worlds2024]. The UN’s 30x30 target (set under the Convention on Biological Diversity) aims to protect 30% of the world’s oceans by 2030, however is not on track to achieve this goal [@mouterdeBiodiversityWorldNot2024].
-
-### Forests: Carbon Sinks and Biodiversity Reservoirs
+#### Ecological Restoration: Building Carbon Sinks and Biodiversity Reservoirs, Healing Damaged Ecosystems, Agroforestry & Permaculture
 
 Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022]. Beyond their role in locking away carbon, recent field work shows forest actively scrub methane from the air as tree bark absorbs methane [@gauciGlobalAtmosphericMethane2024]. Around 27% of Earth's land area is still covered by forests, yet *deforestation* is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38.5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. The global forest cover change is visible on Google's Earth Engine [@hansenHighResolutionGlobalMaps2013].
 
 Around the world, there are many initiatives to increase forest cover, for example the *1 billion tree project* [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]. However, it's important to not planting trees (*afforestation)* is not the full solution, as *afforestation* is different from *reforestation*, which takes into account biodiversity. Also, while using remote-sensing and machine-learning to assess reforestation potential [see @klostermanMappingGlobalPotential2022], it doesn't take into account local political realities, and socioeconomic issues such as education, poverty and access to green jobs. Taking these aspects into account may be beneficial, for example [@bousfieldCarbonPaymentsCan2022] reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 
-### Pollution: Air, Water, and Soil Degradation
-
-In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
-
-```{python}
-#| label: fig-tw-poll-reports
-#| fig-cap: "Pollution Reports in Taiwan by County"
-#| fig-scap: "Pollution Reports in Taiwan by County"
-taiwan_pollution_reports()
-```
-
-Pollution Reports in Taiwan by District.
-
-```{python}
-#| label: fig-tw-poll-reports-stack
-#| fig-cap: "Pollution Reports in Taiwan by District"
-#| fig-scap: "Pollution Reports in Taiwan by District"
-taiwan_pollution_reports_stacked()
-```
-
-Health and sustainability are inextricably linked. "Human health is central to all sustainability efforts.", *"All of these (food, housing, power, and health care), and the stress that the lack of them generate, play a huge role in our health"* [@sarahludwigrauschSustainabilityYourHealth2021].
-
-[@abuelkheir-matariaClimateChangeWomens2025] finds warming climate in the MENA region (Middle East and North Africa) increases cancer risk in women, mediated through air pollution and other environmental stressors.
-
-Clean air is a proposed as a *human right* [@baronessjonesofmoulsecoombCleanAirHuman2023], yet air pollution is widespread around the planet, with 99% of Earth's human population being affected by bad air quality that does not meet WHO air quality guidelines, leading to health problems linked to 6.7 million *premature deaths* every year [@worldhealthorganizationAmbientOutdoorAir2022]. Air pollution is linked to cancer incidence. In Taiwan, South Korea, and England, groundbreaking research by [@lim1MOAirPollutioninduced2022] analyzed over 400000 individuals establishes exposure to 2.5μm PM (PM2.5) air pollution as a *cause for lung cancer.* In [@hannahdevlinCancerBreakthroughWakeup2022], professor Tony Mok, of the Chinese University of Hong Kong explains it plainly, which I want to quote here in verbatim:
-
-> *"We have known about the link between pollution and lung cancer for a long time, and we now have a possible explanation for it. As consumption of fossil fuels goes hand in hand with pollution and carbon emissions, we have a strong mandate for tackling these issues -- for both environmental and health reasons."* - [@hannahdevlinCancerBreakthroughWakeup2022]
-
-The main way to combat air pollution is through policy interventions. [@marialuisfernandesRealityCheckIndustrial2023] the EU has legislation in progress to curb industrial emissions. If legislation is in place, causing bad air quality can become bad for business. In China, [@guHiddenCostsNongreen2023] links air pollution to credit interest rates for business loans; companies with low environmental awareness and a history of environmental penalties pay 12 percent higher interest rates. In France, [@bouscasseDesigningLocalAir2022] finds strong health and economic benefits across the board from air pollution reduction.
-
-Likewise to the lack of clean air, lack of access to sufficient clean water and water pollution are issues in several places around the world; globally, 4.4 billion people only have access to water that's not safe for drinking [@solimanUnacceptableStaggeringBillion2024]. Even in wealthy countries like the US, with increasing situations of water scarcity and drought due to climate change, issues of water ownership become increasingly dire. [@naishadhamDroughtstrickenArizonaFresh2023; @kochOpinionArizonaRace2022] describes a fight in the US over water usage rights in Arizona, where Fondomonte, a subsidiary of a Saudi Arabian company that grows a water-hungry crop alfalfa, exacerbating the local water crisis by using large amounts of public water, leading to public outcry and being sued for "public nuisance" for its excessive groundwater pumping, and finally cessation of its lease and operations on state land; but still continuing operations on private land [@naishadhamArizonaCancelLeases2023; @SaudiFirmThat2023].
-
-Water quality is highly dependent on competent governance. For example, in the U.S., the national government recently rolled back rules for water safety, which had only been implemented last year, to protect the consumer from per- and polyfluoroalkyl substances (PFAS) [@tragerPFASRegulationsUS2025]. Once pollution is in the environment, cleaning it up is very expensive. For instance, in France, where storm water washed pollution into the waterways feeding into the Seine river, making it unsuitable for swimming, the city of Paris invested 1.4 Billion Euros to create a massive underground reservoir and a water cleaning system by the opening of the Paris Olympics in 2024 - and still the water quality would be variable based on rain incidence [@waltBillionDollarEffortClean2023].
-
-Water and soil pollution are highly connected, as water flows through soil. In Saudi Arabia, [@picoWildRuderalPlants2023] used wild and ruderal plants as bioindicators to detect pollution of air, water and soil, specifically anthropogenic pollution, pharmaceuticals, pesticides, and other industrial chemicals, concluding both Abha and Riyadh showed notable levels of pollutants while Riyadh (a city with more industry) showed higher levels of pollution.
-
-Improved farming practices directly improve soil structure (reducing runoff and contamination) and water retention, thereby mitigating both soil degradation and water pollution. Participants in the 2023 Baltic Sea Action Group for the EIT Food Regenerative Agriculture project (which so far has trained over 1200 farmers and 160 farmers advisory groups in regenerative practices), highlighted practical soil‐restoration methods in their respective countries: applying *biochar* on pilot plots in the Czech Republic increased water retention by up to 20%, no‐tilling and cover‐cropping practices in Hungary boosted insect‐species counts by 15 points, and adopting regenerative crop rotations in Bulgaria cut synthetic fertilizer use by 25%; one of the challenges remains consumer awareness: only 12% of consumers in Central and Eastern Europe currently recognize the "regenerative" label - awareness must grow to drive demand [@balticseaactiongroupEITFoodRegenerative2023].
-
-A practical example of the interconnection between water pollution, agriculture, architecture, and extreme weather, are bioswales, which help catch storm debris and reduce water pollution. In Taiwan, [@liu2010] showed that grass swales increase infiltration, reduce runoff, and improve downstream water quality, helping stabilize slopes via enhanced drainage (Taiwanese landscape is very mountainous, with); in a follow-up field trial at a National Highway in Gangshan, grass swales consistently trapped sediments and adsorbed heavy metals from highway runoff before those pollutants could reach nearby waterways.
-
-The above examples from around the world suggest that *"regenerative"* is not just a buzzword or wishful thinking - instead, it maps to a set of concrete practices and approaches to improve the condition of the living environment under threat from pollution.
-
-### Climate Disaster Preparedness: Extreme Weather Resilience
-
-The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport]. Global warming specifically increases the risk of disasters and extreme weather events; the US Global Change Research Program presented a comprehensive report to the US Congress, which links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces *air quality,* which in effect increases health challenges [@FifthNationalClimate2023]. Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~eq concentrations in the air can cause more turbulence for flights. As extreme temperatures are increasingly commonplace, with observed changes in heatwaves, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021; @perkins-kirkpatrickExtremeHeatClimate2023], while flood risk mapping might lower property prices in at risk areas [@sherrenFloodRiskMapping2024]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023].
-
-The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. As temperatures rise, certain cities may become uninhabitable for humans [@cbcradioExtremeHeatCould2021]. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii [@anguianoHawaiiWildfiresHow2023]. In California, [@jerrettSmokeCaliforniaGreenhouse2022] says, *"\[w\]ildfires are the second most important source of emissions in 2020"* and *"negate reductions in greenhouse gas emissions from other sectors."* Some parts of South America have seen summer heat *in the winter*, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
-
-In Taiwan disaster risk and hazard mapping is well-developed, with early warning systems, and comprehensive response preparedness - and painful experiences - instrumental to saving lives [@tsaiFrameworkEmergencyResponse2021]. Intensifying storms forming near coastlines, can be expected with *"\[c\]hanges to tropical cyclone trajectories in Southeast Asia under a warming climate"* [@garnerChangesTropicalCyclone2024]. The situation on the Pacific and Atlantic oceans is not dissimilar, with *"\[o\]bserved increases in North Atlantic tropical cyclone peak intensification rates"* [@garnerObservedIncreasesNorth2023].
-
-In the Philippines, with increasing extreme weather events, *"businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards"* [@chengAssessingEconomicLoss2022]. Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
-
-Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
-
-### Financialization of Nature vs Sacred Value: Scaling Up Sustainable Action
-
-There are 2 main approaches to protecting nature:
-
-|  |  |
-|--------------------------|----------------------------------------------|
-| **Economics of Nature Commodification** | **Economics of the Sacred** |
-| Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
-
-Table: Economics of Nature Commodification vs Sacred Economics []{short-caption="Economics of Nature Commodification vs Sacred Economics"}
-
-Whether we should put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commoditize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
-
-Ecosystem services literature defines a "Nature’s Contributions to People" framework, originally proposed by the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). [@diazAssessingNaturesContributions2018]. [@muradianEcosystemServicesNature2021] critically assesses the framework, arguing utilitarian and anthropocentric views of the ecosystem services concept perpetuates problematic dualisms (humans and nature are separate) - and call for a new approach centered on ecology.
-
-|                                                |
-|------------------------------------------------|
-| 9 Steps Towards Defining Ecosystem Services    |
-| Identify ecosystem functions                   |
-| Quantify ecosystem functions                   |
-| Identify ecosystem services                    |
-| Quantify ecosystem services                    |
-| Quantify financial value of ecosystem services |
-| Assign property rights                         |
-| Create ecosystem service markets               |
-| Commodify nature                               |
-
-Table: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023] []{short-caption="Defining Ecosystem Services Concepts"} 
-
-A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
-
-### Ecological Restoration: Damaged Ecosystems, Agroforestry & Permaculture
 The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* - was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018]. When so many systems are broken, some argue sustainability is not enough and we should work on *regeneration* of natural habitat. The UN announced 2021-2030 the Decade on Ecosystem Restoration, which includes a wide range of regenerative action [@fischerMakingDecadeEcosystem2021]. For instance, [@hanEmbeddingNaturebasedSolutions2022] identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
 
 | Non-Exhaustive list of Regenerative Actions |
 |---------------------------------------------|
 | Afforestation                               |
 | Wetland restoration                         |
-|                                             |
+| ...                                         |
 
 Table: Non-Exhaustive list of Regenerative Actions from [@hanEmbeddingNaturebasedSolutions2022] []{short-caption="Regenerative Actions"}
 
-The organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023]. Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices.
+Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices. To take one example industry, the organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023]. 
 
 In Ireland, [@irwinIncreasingTreeCover2023] studied dairy farmers' willingness to plant trees to increase vegetation cover on their land, finding that economic incentives alone are insufficient, and support in the form of advisory and education is needed. Similarly, in the Brazilian Amazon rainforest [@yadavExploringInnovationSustainable2023] finds the active participation of the local community in planning permaculture practices, enhances their acceptance and effectiveness. In Bangladesh, [@rubaPotentialityHomesteadAgroforestry2023] found agroforestry plays an active role in achieving the country's Sustainable Development Goals (SDGs), including zero hunger, climate action, mitigating climate change impacts through CO~2~eq sequestration, life on land through biodiversity conservation and improving soil fertility, yet is hindered by the lack of policy support and educational level of the farmers. In the Baltic Sea region in North-Eastern Europe and Central Europe face similar challenges, [@balticseaactiongroupEITFoodRegenerative2023] pointing out farmers' traditional mindset as the biggest obstacle, describing the paradigm shift from extractive farming to regenerative agriculture, using techniques such as no-till farming, which reduces soil erosion and improve soil health by reducing synhetic imputs; yet, it's not only a single practice that is enough, regenerative agriculture is a holistic approach and agroecology education programmes need to be comprehehnsive.
 
@@ -477,7 +485,7 @@ In Ireland, [@irwinIncreasingTreeCover2023] studied dairy farmers' willingness t
 
 Svalbard Seed Vault is an example of seed conservation to safeguard biodiversity by storing backup seeds of plants from around the world in cold storage [@westengenGlobalExSituCrop2013; @asdalSvalbardGlobalSeed2018]. Since its opening in 2008, the storage solution provided by the Norwegian government has stored seeds from 123 gene banks in 85 countries around the world [@newSeedSamples2025; @ArcticDoomsdaySeed2025]. [@vitalettiShareTinySpace2025] proposes using a blockchain-based lottery system to storage seeds in local refrigerators, in order to enhance resilience and ensure survival of seeds, by storing seeds in many locations.
 
-### Energy: Climatech, Renewables, and Decarbonization Pathways
+#### Energy Transitions: Climatech, Renewables, and Decarbonization Pathways
 
 Globally, 34% of all emissions come from energy production [@usepaGlobalGreenhouseGas2016], making it the key sector to require innovate for reducing carbon emissions. The International Energy Agency's (IEAs), *"Tracking Clean Energy Progress"* report on 50 distinct decarbonization enablers and finds that only 3 components - solar PV, PV electric vehicles, and building lighting - are on track with the net-zero by 2050 scenarios, while 28 need more effort and 22 are "not on track" [@ieaTrackingCleanEnergy2023].
 
@@ -531,13 +539,3 @@ taiwan_energy_production()
 Beyond electricity and heat, the chemical sector is a massive CO~2~eq source. [@langeCircularCarbochemicalsMetamorphosis2021] reports the petrochemical industry uses about 10% of global fossil carbon as feedstock and another 7% to power its processes, producing some 400Mt of base chemicals each year, 36% of which becomes packaging; the cradle-to-gate CO~2~eq emissions for base chemicals are roughly 1–2.5kg CO~2~eq per kg or 5t CO~2~eq per tonne of plastic, when including use and end-of-life, the entire lifecycle emissions are 1.7Gt CO~2~eq (∼4% of all anthropogenic emissions) per year; a true circular-carbon economy would require renewable carbon feedstocks (e.g. biomass or CO~2~-derived monomers), electrified green heat, closed-loop catalytic recycling of molecular building blocks, and modular low-temperature reactors to slash energy demand.
 
 Large technology conglomerates and newly founded startups alike are working in the climate solutions space (often referred to as *climatech* by the media), have proposed a range of approaches to CO~2~ reduction in the Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones. Each technology has their own pros and cons. For instance, [@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible. [@cleantechgroupGlobalCleantech1002023] profiles 100 innovators across agriculture, food, energy, mobility, and waste that Cleantech Group judges most likely to enable a future with sub-2 degrees warming. Overall, considering pathways to carbon drawdown finds considerable uncertainty exists among experts which CO~2~eq reduction among nature- and technology-based methods are the most effective [@lowRethinkingNetZeroSystems2022].
-
-### Individual Action
-
-Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high. See [@martinez-alierMappingEcologicalDistribution2021;@martinez-alierReplyOrihuelaExtractivism2022; @scheidelEnvironmentalConflictsDefenders2020] for coverage of extreme cases of risk environmental activists must endure.
-
-However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
-
-There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
-
-While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].

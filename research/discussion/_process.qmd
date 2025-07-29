@@ -10,10 +10,19 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-# Design Process
+## Design Process
 
-In the following chapter I will describe in detail the process of designing Green Filter.
+Designing for Taiwanese college students requires developing and understanding of who they are - as individuals and as part of groups. User research makes extensive use of user *personas* to represent a group of people with similar attributes. Designers use personas to *articulate assumptions,* which, if used well, is useful for *user-centered design*, to create better products. Personas help to reflect on what kind of *biases* might exist in the design. Within the larger cohort of college students several different personas could be defined, for example grouping people by interests, knowledge, habits, levels of anxiety, and other attributes. Humans have a long list of cognitive biases, which a good design should take into account.
 
+Many general observations could be made, for example:
+
+- Students ride bicycles and scooters. 
+- Students live in dorms and shared housing, meaning their impact per square meter is low. 
+- Circular economy services such as YouBike are available in Taiwan and used by a portion of the students.
+
+However, to create more meaningful personas, personas should be more specific and backed up with data. In the following chapter I will describe in detail the process of designing Green Filter.
+
+### Design Inspiration
 
 As discussed in the literature review AI section, Replika was one of the inspirations for Green Filter.
 
@@ -24,7 +33,6 @@ As discussed in the literature review AI section, Replika was one of the inspira
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-
 
 ### Pollution Exposure Tracking
 

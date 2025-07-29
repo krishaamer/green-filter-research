@@ -22,7 +22,7 @@ import AbstractAI from '../images/ai/abstract-ai.png'
 ```{=mdx}
 <Figure caption="Visual abstract for the AI chapter" src={AbstractAI} />
 ```
-### Human Patterns
+### Human Patterns and Human Feedback
 
 The fact that AI systems work so well is proof that we live in a measurable world. The world is filled with structures: nature, cultures, languages, human interactions - all form intricate patterns. Computer systems are increasingly capable in their ability copy these patterns into computer models - known as machine learning. As of 2023, 97 zettabytes (and growing) of data was created in the world per year [@soundaryajayaramanHowBigBig2023]. Big data is a basic requirement for training AIs, enabling learning from the structures of the world with increasing accuracy. Large data-sets such as the LAION-5B of 5.85 billion image-text pairs, were foundational for training AI to recognize images [@romainbeaumontLAION5BNEWERA2022; @schuhmannLAION5BOpenLargescale2022]. Just 3 years later, *generating* images with GenAI models is now fast enough to create images in real-time while the user is typing [@dwarkeshpatelMarkZuckerbergLlama2024]. Similarly, huge data-sets exist about other types of media - and the open Internet itself, albeit less structured, is a data-source frequently scraped by AI-model builders. Representations of the real world in digital models enable humans to ask questions about the real-world structures and to manipulate them to create synthetic experiments that may match the real world (if the model is accurate enough). This can be used for generating human-sounding language and realistic images, finding mechanisms for novel medicines as well as understanding the fundamental functioning of life on its deep physical and chemical level [@nopriorsInceptiveCEOJakob2023]. Venture capitalists backing OpenAI describe AI as a foundational technology, which will unlock human potential across all fields of human activity [@greylockOpenAICEOSam2022].
 
@@ -33,8 +33,6 @@ In essence, *human patterns* enable AIs. Already 90 years ago [@mccullochLogical
 By the 2010s AI models became capable enough to beat humans in games of Go and Chess, yet they did not yet pass the Turing test. AI use was limited to specific tasks. While over the years, the field of AI had seen a long process of incremental improvements, developing increasingly advanced models of decision-making, it took an *increase in computing power* and an approach called *deep learning*, a variation of *machine learning (1980s),* largely modeled after the *neural networks* of the biological (human) brain, returning to the idea of *biomimicry*, inspired by nature, building a machine to resemble the connections between neurons, but digitally, on layers much deeper than attempted before. Like quantum computing, AI more of a discovery, thank an invention; we have no idea, what are the limits of intelligence [@catgptWhyAIMore2025].
 
 Founder of NVIDIA, Jensen Huang, whose computer chips power much of this revolution, calls it the *"Intelligence Infrastructure"*, produced by intelligence factories, and integrated into everything, just like electricity was [@nvidiaNVIDIACEOJensen2025]. In order to produce this intelligence, huge AI factories are being built around the world, measured in the energy requirements. [@calmaAICouldConsume2025] predicts AI will surpass Bitcoin's energy use by the end of 2025 [@calmaAICouldConsume2025]. The 500B USD Stargate project, is currently building 1.2 gigawatts of AI capacity in the Texas, and expanding to other areas around the U.S., and data center in Abu Dhabi, U.A.E., which requires 5GW of energy, and is physically bigger than the country of Monaco [@loizosOpenAIsPlannedData2025; @mossOpenAICFOStargate2025]. In comparison, the 500MW xAI AI factory, built by Elon Musk's company, powered by natural gas generators, is moderately sized [@wangOpenAIStargatePhase2025]. While OpenAI's Sam Altman is repeatedly quoted as saying the productivity gains created by AI will far offset any of its environmental footprint or other words to that effect [@altmanIntelligenceAge2024; @dipizioSamAltmanSays2023], critics like [@igeniusLetTalkSustainable2020] argue that AI cannot enable a sustainable future if it is not sustainable by design; training and delivery of AI products must include sustainability considerations tied into data intelligence and business analytics.
-
-### Human Feedback
 
 Combining deep learning and *reinforcement learning with human feedback (RLHF)* enabled to achieve levels of intelligence high enough to beat the Turing test [@karamankeChatGPTArchitectBerkeley2022; @christianoMyResearchMethodology2021; @christianoDeepReinforcementLearning2017]. John Schulman, a co-founder of OpenAI describes RLHF simply: *"the models are just trained to produce a single message that gets high approval from a human reader"* [@karamankeChatGPTArchitectBerkeley2022]. Bigger models aren't necessarily better; rather models need human feedback to improve the quality of responses [@ouyangTrainingLanguageModels2022].
 
@@ -217,7 +215,9 @@ Humans still need some time to adjust their expectations of *what's possible* us
 
 Speaking in the mother language of the users is a way to gain trust. English is still over-represented in current models so some local models focus on better understanding local context, such as the Finnish [@SiloAINew2024] focuses on Nordic languages. However, as time progresses, large, general-purpose LLMs may catch up and integrate all this knowledge - or even potentially being taught by the local models.
 
-### Affective Computing: Towards Friendly Machines
+### Affective Computing
+
+#### Towards Friendly Machines
 
 *Rosalind Picard* founded the field of *affective computing*, aiming to make computers more human-friendly, pioneering early approaches to recognizing human emotions with sensors and providing users experiences that take human emotion into account [@picardAffectiveComputing1997].
 
@@ -270,7 +270,7 @@ On the output side, [@lvCutenessIrresistibleImpact2022] studies the effect of *c
 
 Already more than two decades ago, [@reevesMediaEquationHow1998] argued that humans expect computers to be like social actors, (not unlike humans or places), with very minimal cues from a machine (like a voice or screen avatar) triggering social behaviors.
 
-### Conversation: A Magical Starting Point of a Relationship
+#### Conversation: A Magical Starting Point of a Relationship
 
 High quality conversations are somewhat magical in that they can establish trust and build rapport which humans. [@CELINO2020102410] found in testing chatbots for survey interfaces that "\[c\]onversational survey lead to an improved response data quality."
 
@@ -282,7 +282,7 @@ OpenAI provides AI-as-a-service through its *application programming interfaces 
 
 ChatGPT makes it possible to *evaluate AI models* just by talking, i.e. having conversations with the machine and judging the output with some sort of structured content analysis tools. [@oconnorOpenArtificialIntelligence2023 and @cahanConversationChatGPTRole2023] have conversations about science with AI. [@pavlikCollaboratingChatGPTConsidering2023 and @brenta.andersWhyChatGPTSuch2022] report on AI in education. Just as humans, AIs are continuously learning. [@ramchurnTrustworthyHumanAIPartnerships2021] discusses positive feedback loops in continually learning AI systems which adapt to human needs. [@kechtQuantifyingChatbotsAbility2023] suggests AI is even capable of learning business processes.
 
-### Multi-Modality: Natural Interactions with AI Systems, Agents and the Intention Economy
+#### Multi-Modality: Natural Interactions with AI Systems, Agents and the Intention Economy
 
 While AI outperforms humans on many tasks, humans are experts in multi-modal thinking, bridging diverse fields. Humans are multi-modal creatures by birth. To varied ability, we speak, see, listen using our biological bodies. AIs are becoming multi-modal by design to be able to match all the human modes of communication - increasing their humanity.
 
@@ -306,7 +306,7 @@ If we see the AI as being in human service. [@davidjohnstonSmartAgentProtocol202
 
 AI agents enable workflow automation, with reasoning capability, and taking actions across different tools, achieving the user's original *intent*; what's left for the user to do is to say what they want to achieve. As models get smarter, there's less and less need to build workflows (chains of thought) manually, as they end up restricting the model instead of improving the output; the one use case would be to use a cheaper model with less intelligence and more guardrails set in code [@sengottuveluRethinkingHowWe2025; @latentspaceBuildingManusAI2025]. In software development, AI can already debug problems automatically. Apple uses data from bug reports to train AI models for improving their software [@sainiAppleUsesBug2025]. And it's increasingly possible to generate entire apps from a prompt, using tools such as Bolt.new [@fanelliBoltnewFlowEngineering2024]. The quality of LLM output depends on the quality of the provided prompt. [@zhouLargeLanguageModels2022] reports creating an "Automatic Prompt Engineer" which automatically generates instructions that outperform the baseline output quality by using another model in the AI pipeline in front of the LLM to enhance the human input with language that is known to produce better quality. This approach however is a moving target as foundational models keep changing rapidly, and the baseline might differ from today to 6 months later.
 
-### Mediated Experiences Set User Expectations
+#### Mediated Experiences Set User Expectations
 
 How AIs are represented in popular media shapes the way we think about AI companions. Some stories have AIs both in positive and negative roles, such as Star Trek and Knight Rider. In some cases like Her and Ex Machina, the characters may be complex and ambivalent rather than fitting into a simple positive or negative box. In Isaac Asimov's books, the AIs (mostly in robot form) struggle with the 3 laws of robotics, raising thought-provoking questions.
 
@@ -373,7 +373,6 @@ The number of AI-powered assistants is too large to list here. I've chosen a few
 | Perplexity | [@hinesPerplexityAnnouncesAI2023] | perplexity.ai chat-based search |
 
 Table: AI Assistants []{short-caption="AI Assistants"}
-
 
 Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 
@@ -528,6 +527,34 @@ In 2020 (when I proposed this thesis topic), Google had recently launched an imp
 
 Intelligence may be beside the point as long as AI *becomes very good at reasoning*. AI is a *reasoning engine* [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"How do you transition from mass marketing to mass personalization?"*
 
+### Anthropomorphism and User Engagement in AI Companions
+
+#### The Psychology Saving: Anthropomorphism and Loyalty Schemes
+
+There are at least two ways to look at sustainable savings, however related. In general, people will save nature if it also saves money. This section looks at savings in the *financial* sense of the word. Savings in the sense of CO~2~e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
+
+> *Environmental Savings* means *"the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future*" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
+
+Savings in CO~2~e equivalent emissions: CO~2~e savings are the amount of CO~2~e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
+
+In theory, ethical savings accounts only finance businesses aligned with the customers’ values: screening out problematic and potentially harmful industries such as fossil fuels, tobacco, weapons, etc.; in practice, one should carefully evaluate a bank’s investment principles, environmental policies and governance practices [@EthicalSavingsEverything2023].
+
+Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus, the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022]. While many Estonians used the money for consumption, some people invested their retirement funds in crypto[@martenpollumeesKuhuInvesteeritiLHV2022].
+
+Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. One experimental study showed people think about putting money in a “safe” place and *money anthropomorphism* increased saving behavior by 18% [@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021]. Nerdwallet's [@tommytindallFinancialActionsSpeak2023] suggests making *financial commitment*s instead of resolutions, in order to successfully save money.
+
+Help consumers save money and business increase repeat business. Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
+
+| Company           | Scheme                     |
+|-------------------|----------------------------|
+| **Patagonia**     | "Worn Wear" program        |
+| **H&M**           | Garment Collecting program |
+| **The Body Shop** | Return, Recycle, Repeat    |
+
+: Example sustainable loyalty schemes
+
+Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
+
 ### Do AI-Agents Need Anthropomorphism
 
 [@yuanSocialAnxietyModerator2022] surveyed mainland Chinese consumers (n = 210, no age range given), finding that users with high social anxiety lean on hedonic and emotional cues, especially a friendly anthropomorphic interface and a sense of affinity (when those cues are strong, their intention to adopt the AI assistant is as high, and sometimes higher, than that of users with low social anxiety) - in contrast, users with low social anxiety are influenced mainly by utilitarian cues such as accuracy and speed; these functional advantages carry less weight for the high social anxiety group. Perhaps a crude conclusion, but useful for design, would be, people with high social anxiety like cute things.
@@ -546,7 +573,7 @@ What are the next features that could improve the next-generation UX/UI of AI-ba
 
 Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
 
-### Roleplay for Financial Robo-Advisors
+#### Roleplay for Financial Robo-Advisors
 
 Using AI and computerized models for financial prediction is not new. [@malliarisUsingNeuralNetworks1996] applied neural networks to financial forecasting nearly three decades ago, using training data on past volatilities and factors of the options market to predict future (next-day) implied volatility (i.e. volatility not observed directly in the market but back-calculated from option prices) of the S&P 100 index (tracks the largest companies) in the U.S., demonstrating early potential of AI in financial prediction. Such tools were initially of academic interest or only accessible to financial professional. Later on fintech (financial technology) startups began bringing computerized predictive power into user interfaces available to retail investors.
 
