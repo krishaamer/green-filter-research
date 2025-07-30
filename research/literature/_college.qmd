@@ -110,7 +110,7 @@ While the overall number of students is declining, the share of international st
 higher_education_chart()
 ```
 
-### Taiwan's Environmental Context and Resilience
+### Taiwanese Environmental Context and Resilience
 
 #### The Experience of High Pollution Levels in Taiwan
 
@@ -251,126 +251,6 @@ Progress in sustainability is possible but achieving results takes time and inno
 
 [@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
 
-
-### Financial Literacy and Education
-
-A recent nationwide study (n = 1997) titled Youth Financial Health Basics (青少年財務健康基礎大調查) jointly conducted by the Taipei Fubon Bank and the Parent-Child Innovation Center (親子天下教育創新中心) between February 11 and March 9, 2025 found that over 65% of secondary schools incorporated financial-literacy courses into their curricula however 64% of Taiwanese youths (aged 15–18) exhibit low confidence and understanding of financial products and face significant fraud risk, with nearly 1/5 of the respondents encountering a scam in the past year, while 18% suffered actual financial losses [@LianHeXinWenWangTaiWan2025; @DiaoCha9XiJinRongZhiShi2025].
-
-| [**Banking**]{.underline}           | [% of Respondents]{.underline} |
-|-------------------------------------|-------------------------------:|
-| Have at least one financial account |                            80% |
-| [**Familiarity**]{.underline}       | [**% Unfamiliar**]{.underline} |
-| Savings accounts                    |                            70% |
-| Mutual funds                        |                            63% |
-| Stocks                              |                            46% |
-| Deposit accounts                    |                            30% |
-| [**Payments**]{.underline}          | [**% Preference**]{.underline} |
-| Cash                                |                            47% |
-| Family member pays                  |                            47% |
-| EasyCard                            |                             4% |
-| Mobile payments                     |                             1% |
-
-Table: Familiarity with financial products and preferred payment methods, as reported in [@LianHeXinWenWangTaiWan2025]. []{short-caption="Taiwanese Financial Product Familiarity"}
-
-Importantly for designing a financial app, while 80% of the survey respondents had received financial education at school, 90% of the students deemed the primary learning channel about financial knowledge to be on social media; and only 15% remember to have learned about credit-card usage [@DiaoCha9XiJinRongZhiShi2025].
-
-In a much older study, [@i-chengyehDefaultCreditCard2009] analyzed usage data from 30,000 credit-card clients at an undisclosed major Taiwanese bank to predict next-month defaults, using 6 data-mining techniques including ANNs (AI Neural Networks) [@yehComparisonsDataMining2009]. Because of the age of the study there's no Gen-Z data. People aged 18-26 at the time would be Millennials or Gen-X by now. The data was donated by [@misc_default_of_credit_card_clients_350] and roughly 1 in 5 credit card clients (22.1%) of the dataset defaulted on their payment in the next month. Among the 9,618 clients aged 18–29 at the time of the study, 2,197 defaulted on their next‐month payment, yielding a default rate of 22.8%, slightly higher than the overall average. Meanwhile, among the 5,127 clients aged 18–26, 1,285 defaulted, yielding a rate of 25.1%, considerable higher than their older counterparts. Finally, among the 1,558 clients aged 18–23, 430 defaulted, a rate of 27.6%, pointing to a trend of younger people having higher default rates.
-
-An over-the-phone study (n = 3000) conducted in 2022, found Taiwanese savings habits to have polarized, with over 60% either having no savings whatsoever or saving more than 1/2 of their annual income; 27% of respondents reported total savings below NT\$40,000; young adults' (aged 20–29) were the only group whose financial risk worsened, with 43% of the respondents having extremely low financial literacy, described as 金融文盲 (near “financial illiterate”) [@ZhongYangSheTaiWanJin2022].
-
-| Financial Literacy Among Taiwanese (2020) | Very Low |   Low | Medium | High |
-|-------------------------------------------|---------:|------:|-------:|-----:|
-| Overall financial literacy                |    43.2% | 34.9% |  19.4% | 2.5% |
-| Understanding products & services         |    34.0% | 38.6% |  23.1% | 4.3% |
-| Confidence using products & services      |    30.0% | 26.8% |  37.6% | 5.6% |
-| Seeking financial advice                  |    71.0% |  3.2% |  17.8% | 8.0% |
-| Personal money management                 |    21.8% | 42.9% |  28.4% | 6.9% |
-
-Table: Financial literacy data from phone interviews, as reported in [@ZhongYangSheTaiWanJin2022]. []{short-caption="Financial Literacy Data from Phone Interviews"}
-
-The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their longitudinal study, with the latest survey conducted in 2022 (n = 2014; 1055 high-school; 959 university) rated financial literacy among all youths 56.3 out of 100 (53.8 in 2016 and 56.7 in 2007), always below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].
-
-| Knowledge Gap (2022) | \% Unaware |
-|------------------------------------------------|----------------------:|
-| Unsure that employers must contribute to the labor pension (and individuals can voluntarily contribute) | 68% |
-| Unsure which deductions (income tax, labor insurance, health insurance) reduce take-home pay | 66% |
-| Unsure how education level affects starting salary | 61% |
-| Unaware of methods to lower loan interest rates | 59% |
-| Cannot identify which auto insurance covers vehicle damage | 55% |
-| Unable to judge which life-insurance need is greatest | 51% |
-| Uncertain how to choose investment tools for maximum lifetime returns | 63% |
-| Unaware that business tax makes purchases more expensive | 61% |
-
-Table: Latest report from the 財金智慧FINLEA longitudinal study [@WangRuanGuFenYou2022]. []{short-caption="Taiwanese FINLEA Longitudinal Study"}
-
-財金智慧FINLEA does publish online videos targeted at young people, however as of early 2025, they only have around 1000 subscribers on YouTube [@CaiJinZhiHuifinleaCaiJinZhiHuiFINLEAYouTube2020]. Meanwhile, the Taiwanese cryptocurrency influencer Mr Block has over 100000 YouTube subscribers [@mrblockQuKuaiXianShengMrblockQuKuaiXianSheng2025].
-
-::: {.content-hidden unless-format="pdf"}
-![財金智慧FINLEA YouTube Channel](./images/college/taiwan-financial-literacy-youtube.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="財金智慧FINLEA YouTube Channel"
-  src={FinancialLiteracyYouTube}
-  refURL="https://www.youtube.com/@FINLEAorgtw/featured"
-  refTitle="YouTube"
-/>
-```
-Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over \$2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit \$30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at an higher \$73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n = 3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
-
-| Place of Comparison | Financial Security Ownership |
-|---------------------|------------------------------|
-| Hong Kong           | 48%                          |
-| France              | 10%                          |
-|                     |                              |
-
-Table: Data from millennial investors [@calastoneMillennialsInvestingDetailed2020]. []{short-caption="Millennial Investors"}
-
-#### Young Investors Follow Financial Influencers
-
-Young investors are typically *retail investors*, investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in institutions such as investment firms, university endowments, pension funds or mutual funds, and have a say in where to invest large amounts of other peoples' money.) Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
-
-The common expectation is that young investors typically have less understanding financial concepts. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Financial and sustainability literacy are intertwined. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. Media plays a significant role here, with retail investing being heavily influenced by social media influencers.
-
-Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good starting point is to ask the user to define their financial habits: are you consumer or investor? This helps users recognize whether their spending habits define them primarily as consumers or as investors. [@smartwealthHowBecomeInvestor2021] urges readers to *"consume knowledge, not products"*: for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments; consumer mindset is the main obstacle that keeps people from financial independence and investing. Investing can intersect with gender and race, as for example, during COVID-19, the financial advisor Malaika Maphalala co-led the *"Invest in Black Economic Liberation"* calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020]. On TikTok, [@TikTokItImportantWe] promotes the IMPACT investing app by Interactive Brokers which is a mobile trading platform focused on socially conscious investors interested in sustainability [@trahantInteractiveBrokersBuilt2022].
-
-| Feature | **IMPACT by Interactive Brokers** | **Lightyear** | **Revolut** |
-|------------------|------------------|------------------|------------------|
-| **Target Audience** | Sustainability-focused investors; value-driven alignment | European retail investors | Everyday users with casual interest in investing |
-| **Investment Products** | Stocks, ETFs, mutual funds, options, bonds, fractional shares | Stocks, ETFs, multi-currency accounts | US & EU stocks, crypto, commodities, fractional shares |
-| **Sustainability Focus** | Strong. Core to the app. Lets users filter companies by ESG values and track portfolio impact. | None. Focuses on transparency and low fees | Minimal. Some ESG ETFs; no impact tracking or custom filters |
-| **Fees** | Very low (starting at \$0 commissions, with some market/data fees) | Low, with no account fee; FX markup 0.35% outside base currency | Free plan has high spreads; paid tiers offer lower fees; several FX and withdrawal limits apply |
-| **Currency Conversion (FX)** | Interbank FX rates; low spreads | 0.35% FX fee | Free plan: 1% FX fee; better rates in Premium accounts |
-| **Fractional Shares** | Yes | Yes | Yes |
-| **Tax Documents** | Yes, detailed reports | Yes, supports Estonian tax system | Limited; may need to do manual tracking for taxes |
-| **Mobile App Experience** | Professional, ESG-focused UI | Clean, simple, intuitive | Gamified, casual, integrated with other Revolut services |
-| **Extra Features** | Voting rights, ethical filters, carbon impact metrics | Interest on cash (like a bank account); multi-currency accounts | Cashback, budgeting, crypto, P2P payments, travel perks |
-
-: Comparative Data on Investing Apps; compiled from [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025]
-
-The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a dual journey: first, helping users recognize whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
-
-Financial superapps for shopping, saving, and investing are converging on digital platforms, aiming to permeate our daily financial lives, with features such banking, payments, transfers, rewards and cashback programs (e.g. Rakuten), automated micro-investing round-up to next dollar (e.g. Acorn, Stash, Swedbank, many others), retail investing (Robinhood, Public, Lightyear), copy-trading (eToro) and offering various investment vehicles, to name just a few: (fractional shares of) stocks, derivatives like CFDs and futures, microloans (Kiva), commodities and precious metals such as gold and silver (Revolut), physical assets such as real estate, land, forest and digital assets such as cryptocurrencies, NFTs, and many other alternative assets of varied price, volatility, liquidity, and risk profile.
-
-```{python}
-#| label: fig-retail-green-nongreen
-#| fig-cap: "Green Retail vs Non-Green Retail"
-#| fig-scap: "Green Retail vs Non-Green Retail"
-retail_green_vs_nongreen()
-```
-
-Community-based copy-trading apps live on the intersection of social media and investing, enabling financial inclusion through letting novice, inexperienced investors piggy-back on more sophisticated investors by copying their investments. In some ways community-investing competes with robo-advisors as communities can be led by professional investors and followed by less sophisticated investors. Because of this investing leadership aspect, investor communities can have the type of *social proof*, which robo-advisor do not possess. eToro's, Robinhood’s and Dub's copy trade feature turn portfolios, watch-lists and trade votes into public content [@dubCopyTradeAnyone2025]. The visible social proof approach can feel safer than robo-adviser; retail investors cite seeing what others do an important trust trigger [@andraszewiczInfluenceUpwardSocial2023].
-
-Evidence of a similar phenomenon of peer behavior measurably shifting sustainability choices has been documented in the enterprise sector in green financing of Chinese industries, albeit in a modest 1–2% increase (incremental nudges); companies tend to invest green when they see when other companies signal a green preference [@yangPeerEffectsEnterprise2022]. In a Swedish study, investors' belief in sustainable investing was found to be affected by other investors: an online coordination game with 559 private investors showed that 2nd-order pro-sustainable beliefs (*what one thinks others care about*) also drove up sustainable asset allocations, underlining the social dimension of ESG investing [@luzPreferencesBeliefsSustainable2024].
-
-Independent of what is the technology used, access to investing is about financial empowerment. Ugandan investor John Ssenkeezi celebrated on X (formerly known as Twitter) being able to vote at Apple’s 2022 AGM stockholder meeting using stock investments app Chipper Cash, which allows users by fractional‑shares, illustrating shareholder democracy for emerging‑market users [@johnssenkeeziIveBeenInvited2022]. AngelList was an early pioneer in opening startup deal flow to retail users, offering access once reserved for angel investors and VCs. Similarly, community-based investment clubs could potentially enable everyday investors to pool resources and back sustainability initiatives alongside more experienced professionals.
-
-Build a community can be lucrative. In Singapore, Chinese influencer Yuqing “Irene” Zhao’s photos generated S\$7.5 million in 10 days as NFT sales; she tokenized her selfies as non-fungible tokens (NFTs) via IreneDAO, a decentralized version of OnlyFans, Discord, Twitch and Patreon, arguing that Web3 empowers creators to earn directly from their communities, turning fans into investors and aligning content creation with tokenized membership rights — evidence that retail capital can flow directly to media personalities through crypto communities [@yuqingzhao2021; @irenezhaoHeresWhy0xIreneDao2022]. Similarly, in South Korea, media personalities have become "investable," through more traditional financial vehicles, such as K-pop idols as the focus for "thematic" ETFs, including KPOP and Korean Entertainment ETF and the Mirae Asset Global X K-pop and Culture ETF, enabling fans and investors to financially participate in the growth of the Korean entertainment and celebrity-driven cultural capital [@darwyneUtilitiesKpopDividend2025].
-
-Communities can be directed towards sustainability, by attracting people of a similar mindset. For example, *minimalism* is a movement of people living a simpler life; this probably always going to be a small percentage of people, yet a growing life-style choice. According to one study, consumers choose to engage in becoming minimalist in a non-linear process with overlapping stages [@oliveirademendoncaMinimalistProcessInterpretivist2021]. Yet, [@costaHowFinnishCulture2018] Finnish socialists promote minimalism as part of their mainstream policies. In Tokyo, a YouTuber shares their life and the choices they made [@tokyosimpleecolifeWhatLearnedMy2021]. *Zero Waste Lifestyle* is the opposite of overconsumption. Zero Waste suggests people buy in bulk for more savings and to reduce packaging. Through group purchases and community investing while also reducing consumption. Zero Waste municipality in Treviso is a whole region with a focus on living green. While Minimalism and Zero Waste need an ongoing effort, joining a one-day sustainability event is accessible for most people. Started in Estonia, the World Cleanup Day movement has attracted tens of millions of people to do beach and forest cleanups, all over the world.
-
-Building a community is a way to design a context, where the culture creates certain expectations of behavior. Humans working together are able to achieve more than single individuals. *"Any community on the internet should be able to come together, with capital, and work towards any shared vision. \[...\] In the long term this moves to internet communities taking on societal endeavors."* [@panzarinoCryptodrivenMarketplaceZora2020]. [@armstrongCultivatingCulturesSustainability2021] believes leveraging different personalities and viewpoints can build more sustainable cultures; the focus on *group consciousness* suggests community-based sustainability action may be effective, when building a *culture of sustainability*, such as the garbage trucks in Taiwan. A communal event is a key building block for a thriving community, which can be directly experienced instead of just reading about it or watching a video.
 
 ### Digital Engagement: Social Media & AI Adoption
 

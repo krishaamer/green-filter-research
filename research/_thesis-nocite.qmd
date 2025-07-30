@@ -84,10 +84,6 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "literature/_sustainability.qmd" >}}
-
-\newpage
-
 {{< include "literature/_design.qmd" >}}
 
 \newpage
