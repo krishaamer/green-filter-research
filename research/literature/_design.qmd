@@ -27,9 +27,9 @@ Designers have been battling complexity since the beginning of design. Industria
 
 > "Modern technology can be complex, but complexity by itself is neither good nor bad: it is confusion that is bad." - [@normanLivingComplexity2016]
 
-I would simply say: Design makes complexity comprehensible.
+I would simply say: design makes complexity comprehensible.
 
-Sustainability is one of the most complex goals that humanity has set for itself. The following looks at some of the ways design might make it.. achievable.. and comprehensible.
+Sustainability is one of the most complex goals that humanity has set for itself. The following looks at some of the ways design might make it achievable and comprehensible.
 
 ### Eco-Design
 
@@ -388,11 +388,11 @@ A crucial part of digital product design are *design systems* to keep consistenc
 
 The growth of digital platforms and superapps provides a learning opportunity to see how data-driven design could enable sustainability to become mainstream. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required - simplifying the complexity of sustainability.
 
-Digital platforms are focused on *growth design*, how to *attract* and *retain* users. Superapps are the latter stage of the economies of digital platforms, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services. For digital products (including superapps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
+Digital platforms are focused on *growth design*, how to *attract* and *retain* users. Superapps are the latter stage of the economies of digital platforms, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services. For digital products (including superapps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e. user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
 Platform economy companies popularized and expanded *data-driven design* in the service of growth marketing (also known colloquially as *growth hacking*). Capturing user data was part of this strategy which enabled improving the products. Digital product design is increasingly data-driven and digital platforms operate *design as a process* in a continuous feedback loop, where *measurements*, *experiments*, predictive analytics and personalization form a data-drive design culture. As we humans go about our daily business, governments and companies track our activities using various technologies, which produces massive amounts of user interaction data.
 
-Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behaviour Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
+Platform economy companies are the capture and use large amounts of data from users. Data is useful for designing better products. Designing for high retention (users keep coming back). Network Effects, the more people use a platform, the more valuable it becomes. Platforms that continuously add features (provided consumer legislation allows it) may eventually evolve into superapps, which are useful for providing services for a wide category of human needs. Bundling many services under one super-brand. Superapps are possible thanks to Nudge, Economies of Scale, Network Effects, Behavior Design. Large Digital Platforms have a very small number of workers relative to the number of users they serve. This creates the necessity for using automation for both understanding user needs and providing the service itself. Creating a good product that's useful for the large majority of users depends on *Data-Driven Design.*
 
 Design is as much about how it works as it's about the interface. There are many approaches to design - from playful to practical to critical and to data-driven. Nonetheless, many types of design share a common goal designing for a good *user experience* - except for those design fields looking for *shock value*. Digital product design can be seen as a specific discipline under the umbrella of *experience design*. In [@michaelabrashInventingFuture2017] Laura Fryer, Meta Oculus augmented reality incubation general manager, says as much: *"People buy experiences, not technology."*
 
@@ -560,15 +560,9 @@ The quality of AI-generated UX has improved rapidly. In 2020, less than 5 years 
 
 Long before AI assistants, [@justinbakerRedRoutesCritical2018] introduced the concept of *Red Route Analysis*, an user experience optimization idea inspired by the public transport system of London, focusing on the *critical design paths* which capture over 90% of users' actions. Prioritizing the user journey of the most popular features is key to driving business metrics [@oviyamtmRedRouteApplication2019; @InteractionDesignHow2021; @xuanHowPrioritiseProduct2022]. Yet, [@richardyangInteractionDesignMore2021] argues *"\[i\]nteraction design is more than just user flows and clicks"*, underlining Miller’s Law that the average human can keep no more than 5–11 items in their working memory (and now AI is becoming that memory).
 
-### Learning from Quantified Self
-
-#### Tracking Health and Lifestyle
+#### Learning from Quantified Self: Tracking Health, Fitness and Lifestyle
 
 An early example of how tracking personal data enables behavior change, are health and lifestyle tracking apps. Research on *personal data tracking* also known as *quantified self* or *self-monitoring* is abundant. There's substantial academic evidence indicating that health tracking apps can have a measurable impact on user health behaviors and increase positive health outcomes. Wearable devices including the Apple Watch, Oura Ring, Fitbit and others, combined with apps, help users track a variety of health metrics. Recently, npj Biosensing even published a device from the MIT Media Lab that can track cells inside the human body from a wrist-worn device [@jarvisWearableDeviceTracks2025; @jangWearableDeviceContinuous2025].
-
-Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
-
-#### Health and Fitness Tracking
 
 Tracking one's health and fitness is a familiar mode of *quantified self*, available to many smartwatch users - and even pretty much to anyone who has a phone made in the past decade. Apple is a leader in health tracking, releasing Apple Health in 2008 as an iOS 8 software feature and the Apple Watch in 2015, filled with health-focused sensors and features [@appleHowAppleEmpowering2022]. In 2022 Apple outlined plans for *"empowering people to live a healthier day,"* promising a new set of health-features with every release, such as the rumored temperature measurement inside of Apple AirPod earphones; and providing most of this data to developers through Apple's HealthKit health metrics APIs, which app builders can tap into [@appleEmpoweringPeopleLive2022; @appleWhatNewHealthKit2022].
 
@@ -583,6 +577,9 @@ Popular Strava sports assistant (over 100 million users) provides activity track
 ```{=mdx}
 <Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
 ```
+
+Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
+
 Sleep quality is an important aspect of both physical and mental health and many devices and apps focus on helping people get enough high quality sleep. There's plenty of academic literature on how physical activity, as well as environmental aspects, such as air quality, affect sleep [@liuHowPhysicalExercise2019] tracks how wearable data is used for tracking sleep improvements from exercise. [@grigsby-toussaintSleepAppsBehavioral2017] made use of sleep apps to construct humans behaviors also known as *behavioral constructs*.
 
 Being conscious of one's mental health improves quality of life. [@tylerContemporarySelfreflectivePractices2022] surveyed the use of self-reflection apps in the UK (n = 998) finding a variety of methods from physical journaling in notebooks to smartphone-based note-taking apps, reviewing printed photo albums, and other digital tools.
@@ -591,7 +588,7 @@ Tracking one's food intake helps to understand how healthy and nutrient-rich is 
 
 The Oura ring is an example of *calm technology*, providing helpful data without calling an attention to itself [@phelanOuraRingCEO2024]. More recently, Oura Ring launched an AI-advisor to help explain the health data recorded by its device: deliver contextual and personalized guidance, remember past interactions while emphasizing privacy, and analyze both short- and long-term biometric trends [@teamIntroducingOuraAdvisor2025]. There's value in developing standardized fitness metrics, which different digital health providers can use to create dashboards with comparable data. Even with messy data, AI has a useful role as a translator between different standards. OpenAI is collaborating with ex-Apple designer Jony Ive, to bring such ambient AI devices to live, which they believe has the potential for a new product category [@wsjnewsOpenAICOOJony2025].
 
-#### Pollution Exposure Tracking, Tracking Personal Sustainability and Carbon Emissions
+#### Tracking Pollution Exposure, Personal Sustainability and Carbon Emissions
 
 The above examples of tracking various aspects of health beg the question if one could track personal sustainability similarly. We have a limited carbon budget so calculating CO~2~eq cost could be expressly integrated into every activity.
 

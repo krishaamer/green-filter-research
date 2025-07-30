@@ -14,90 +14,13 @@ import Taipei from "../images/college/taipei.jpg";
 ```
 ## Designing for Taiwanese College Students
 
-### Taiwanese Educational System in Numbers: Developing Personas
+### Taiwanese Youth in the Global Context
 
-Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. High levels of technology adoption worldwide [@deyangeorgiev39SmartphoneStatistics2023]. Over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022]. Internet usage among Taiwanese young people is nearly universal, with over to 98% of 18–29 (roughly Gen-Z) year‐olds reporting they have gone online at least once recently, and close to 96% of respondents aged 18-29 used some form of social media [@TWNIC2023].
-
-| Metric                     | 18–29   | 30–39   |
-|----------------------------|---------|---------|
-| Daily Internet usage       | 98.79 % | 98.40 % |
-| Overall social-media usage | 95.98 % | 94.84 % |
-| TikTok usage               | 33.03 % | 24.28 % |
-
-Table: Taiwanese Internet Usage Statistics; data from [@TWNIC2023]. []{short-caption="Taiwanese Internet Usage Statistics"}
-
-Taiwan has approximately 2 million young adults (Gen-Z, 18-26), and 73% percent of them are students attending tertiary education as of 2023, with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
-
-```{python}
-#| label: fig-tw-high-ed-enrollment
-#| fig-cap: "Enrollment in Taiwanese Higher Education"
-#| fig-scap: "Enrollment in Taiwanese Higher Education"
-genz_enrollment_chart()
-```
-
-As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
-
-```{python}
-#| label: fig-tw-high-ed-funding
-#| fig-cap: "Funding for Taiwanese Higher Education"
-#| fig-scap: "Funding for Taiwanese Higher Education"
-college_decline_chart()
-```
-
-While the overall number of students is declining, the share of international students is increasing.
-
-```{python}
-#| label: fig-tw-high-ed
-#| fig-cap: "Demographics of Taiwanese Higher Education"
-#| fig-scap: "Demographics of Taiwanese Higher Education"
-higher_education_chart()
-```
-
-### From Early Environmental Thought to Modern Youth Activism
-
-#### The Roots of Sustainability in Environmentalism
-
-*"Nachhaltigkeit"* - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura Oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011].
-
-Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
-
-#### Student Protests for Climate Justice
-
-In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. In 2019, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
-
-::: {.content-hidden unless-format="pdf"}
-![Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
-  src={Geneve}
-  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
-  refTitle="Wikimedia Commons"
-/>
-```
-In Indonesia, which had large protests at the time, now 7 years later activists are expressing disillusionment and frustration with the lack of progress and upholding environmental promises. [@dwitamaraGenClimateJustice2025] reports on a survey of 382 Gen-Z respondents in 5 areas of Jakarta, with 99.5% of the respondents having experienced extreme weather events first-hand, highlighting how respondents were affected by climate-related calamities, such as frequent flooding, which led to students missing school days, - education which they are entitled to. The Sharm El Sheikh climate policy implementation [@unfcccSharmElSheikhImplementation2023] text refers to "human right to a clean, healthy and sustainable environment". In Portugal, Estonia, and elsewhere young people have moved on from strikes to actually taking legal action at the courts suing companies for the environmental problems they have caused [@florIstoNaoAcaba2024].
-
-::: {.content-hidden unless-format="pdf"}
-![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
-  src={Taipei}
-  refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
-  refTitle="New Bloom Magazine"
-/>
-```
-Meanwhile, as the climate-justice protests unfolded around the world, in Taiwan, the Fridays for Future protests were very small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile, 2000 Taiwanese students joined the initiative by participating in environmental activities without protesting [@daiQuanQiuDeLu2019]. This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing stability, hierarchical relationships, academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. [@changClimateStrikeNot2022] goes a step further to say that Taiwanese youth are effectively unable to stage formal “strikes” due to intersecting cultural constraints: obsession with academic performance, low awareness of legal strike rights, and parental intervention — so they instead reframe actions as campus “climate actions,” exercising agency within those limits. In addition, both Confucianism and Daoism, the prevalent belief systems in Taiwan, affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].
-
-### Taiwanese Youth in Global Context: Sustainability Attitudes From Eco-Friendly Diet to Climate Action
+#### Sustainability Attitudes From Eco-Friendly Diet to Climate Action
 
 Addressing the *research gap* when it comes to Taiwanese college students. There's lack of scientific research when it comes to Taiwanese college students, not only in English or other foreign languages, but also in Chinese. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regard to issues related to college students and sustainability, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability.
 
-[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Postmaterialist Index Comparison*, noting Taiwanese society is materialistic.
+[@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Post-Materialist Index Comparison*, noting Taiwanese society is materialistic.
 
 ```{python}
 #| label: fig-postmat-index
@@ -158,21 +81,40 @@ Internationally, there is extensive research on the attitudes of college student
 
 [@manchandaCultivatingSustainabilityConsciousness2023] survey (n = 726) administered at shopping malls in New Delhi, India, found similar levels of sustainability consciousness between Millennial (n = 206) and Generation-Z (n = 360) age groups; people with high level of materialism were found to be less sustainability-conscious; the effect of mindfulness on sustainability was found to be stronger among females than males, supporting the hypothesis of the moderating effect of gender.
 
-### The Experience of Climate Change in Taiwan
+### Taiwanese Educational System in Numbers
 
-#### Oceans and Marine Ecosystem Sustainability
+Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Taiwan has approximately 2 million young adults (Gen-Z, 18-29), and 73% percent of them are students attending tertiary education (as of 2023), with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
 
-Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
+```{python}
+#| label: fig-tw-high-ed-enrollment
+#| fig-cap: "Enrollment in Taiwanese Higher Education"
+#| fig-scap: "Enrollment in Taiwanese Higher Education"
+genz_enrollment_chart()
+```
 
-Similarly to how Northern Europe, including Estonia, is affected by the Gulf Stream, making the climate warmer, Taiwan is affected by the Kuroshio (黑潮) warm current of the Pacific Ocean, which helps regulate the climate and marine ecosystem of the region. The strength and trajectory of the Kuroshio is influenced by Rossby planetary waves, driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Going back on a larger timescale, biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021].
+As of 2024, Taiwan has a total of 148 universities, colleges, and junior colleges [@ministryofeducationoftaiwanUniversitiesCollegesJunior2024]. Education funding is 4.26% of Taiwan's GDP in 2023-24 and has been on a decline for a decade [@ministryofeducationoftaiwanMainEducationStatistical2024]. Taiwan has an aging population and declining birth rates have forced several schools to close down [@gohLongrunMacroeconomicConsequences2023; @davidsonEmptyClassroomsSilent2024].
 
-Marine heatwaves are intensifying under climate change, threatening species diversity and the ocean’s capacity to supply critical services from fisheries to carbon sequestration [@smaleMarineHeatwavesThreaten2019]. Accelerating ocean warming, evidenced by record-breaking sea-surface temperatures, has triggered widespread coral bleaching, clearly visible at the Great Barrier Reef in Queensland, East Coast of Australia, loss of marine habitat complexity, and cascading threats to coastal economies and food security; the authors call for integrated climate–ocean policy action, stressing that without urgent emissions cuts and ecosystem-based adaptation, the ocean’s capacity to regulate climate and sustain biodiversity will collapse [@gellesOceanDireMessage2023; @pfeifferCoralGiantsSound2024]. Cumulative pressures: climate extremes, pollution, and overexploitation - have driven evolutionary shifts in marine life and unpredictably altered ecosystem-service delivery [@espinosaImpactsEvolutionChanges2023].
+```{python}
+#| label: fig-tw-high-ed-funding
+#| fig-cap: "Funding for Taiwanese Higher Education"
+#| fig-scap: "Funding for Taiwanese Higher Education"
+college_decline_chart()
+```
 
-Some earlier studies, such as [@howardPotentialIntegrateBlue2017] demonstrate how integrating blue carbon habitats into Marine Protected Area (MPA) design can both mitigate carbon emissions and enhance ecosystem resilience. Meta-analyses across 121 sites in 87 MPAs globally show that most well-designed and managed MPAs achieve significant ecological gains: on average, fish biomass inside no-take zones can double to triple compared with outside areas, and species richness likewise increases by 20–30 % within 5–10 years of enforcement [@ruddPathwaysMarineProtected2015]. However, Marine Protected Areas cover only 8% of the world's oceans and only 2.8% is effectively protected [@iginiJust28Worlds2024]. The UN’s 30x30 target (set under the Convention on Biological Diversity) aims to protect 30% of the world’s oceans by 2030, however is not on track to achieve this goal [@mouterdeBiodiversityWorldNot2024].
+While the overall number of students is declining, the share of international students is increasing.
 
-### The Experience of Pollution Levels in Taiwan
+```{python}
+#| label: fig-tw-high-ed
+#| fig-cap: "Demographics of Taiwanese Higher Education"
+#| fig-scap: "Demographics of Taiwanese Higher Education"
+higher_education_chart()
+```
 
-In addition to climate extremes, Taiwanese college students are subjected to high levels of pollution. University campuses are somewhat healthier than other areas. There are several decades of research on pollution levels in Taiwan, most with very scary correlations to health. Taiwan air pollution, the worst (highest PM2.5 concentration) were found in Changhua (24.5 µg/m³), Tainan (20.9 µg/m³), and Pingtong (20.7 µg/m³) [@changhsiung-fengTaiwanAir45th2024].
+### Taiwan's Environmental Context and Resilience
+
+#### The Experience of High Pollution Levels in Taiwan
+
+Taiwanese college students are subjected to high levels of pollution. University campuses are somewhat healthier than other areas. There are several decades of research on pollution levels in Taiwan, most with very scary correlations to health. Taiwan air pollution, the worst (highest PM2.5 concentration) were found in Changhua (24.5 µg/m³), Tainan (20.9 µg/m³), and Pingtong (20.7 µg/m³) [@changhsiung-fengTaiwanAir45th2024].
 
 There have been concerns about food safety in Taiwan, with prominent cases reported in the media and documented in academic literature, where organic toxins and chemical pollution have entered the food system [@yangTaiwanFoodScandal2013; @liPlasticizerIncidentIts2012; @leeFoodPoisoningScare2024].
 
@@ -192,7 +134,33 @@ The table below illustrates the types of emissions and environmental impacts lar
 
 Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large Industrial Polluters in Taiwan"}
 
-### The Attitude-Behavior Gap, Climate Anxiety Responses and Individual Action
+#### The Experience of Climate Change in Taiwan
+
+Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
+
+Similarly to how Northern Europe, including Estonia, is affected by the Gulf Stream, making the climate warmer, Taiwan is affected by the Kuroshio (黑潮) warm current of the Pacific Ocean, which helps regulate the climate and marine ecosystem of the region. The strength and trajectory of the Kuroshio is influenced by Rossby planetary waves, driven by the Earth's rotation are crucial to keeping the atmosphere in balance by helping transfer tropical heat towards Earth's poles and cold air toward the tropics; interactions between oceanic currents, Rossby waves and nonlinear *mesoscale eddies,* which form complex undulations, and their effect on the climate are still not well understood [@usdepartmentofcommerceWhatRossbyWave; @belonenkoInteractionRossbyWaves2023; @liuNinoSouthernOscillationEast2024; @linSatelliteObservedNew2022; @yinSeasonalityKuroshioIntensity2019; @mensahEvolutionKuroshioTropical2014; @shenLongtermVariabilityKuroshio2014]. Going back on a larger timescale, biomarkers in the sediment core around Taiwan are being used to study variations in climate over past thousands of years [@wangPaleoproductivityClimateEvolution2021].
+
+Marine heatwaves are intensifying under climate change, threatening species diversity and marine ecosystem sustainability, affecting ocean’s capacity to supply critical services from fisheries to carbon sequestration [@smaleMarineHeatwavesThreaten2019]. Accelerating ocean warming, evidenced by record-breaking sea-surface temperatures, has triggered widespread coral bleaching, clearly visible at the Great Barrier Reef in Queensland, East Coast of Australia, loss of marine habitat complexity, and cascading threats to coastal economies and food security; the authors call for integrated climate–ocean policy action, stressing that without urgent emissions cuts and ecosystem-based adaptation, the ocean’s capacity to regulate climate and sustain biodiversity will collapse [@gellesOceanDireMessage2023; @pfeifferCoralGiantsSound2024]. Cumulative pressures: climate extremes, pollution, and overexploitation - have driven evolutionary shifts in marine life and unpredictably altered ecosystem-service delivery [@espinosaImpactsEvolutionChanges2023].
+
+Some earlier studies, such as [@howardPotentialIntegrateBlue2017] demonstrate how integrating blue carbon habitats into Marine Protected Area (MPA) design can both mitigate carbon emissions and enhance ecosystem resilience. Meta-analyses across 121 sites in 87 MPAs globally show that most well-designed and managed MPAs achieve significant ecological gains: on average, fish biomass inside no-take zones can double to triple compared with outside areas, and species richness likewise increases by 20–30 % within 5–10 years of enforcement [@ruddPathwaysMarineProtected2015]. However, Marine Protected Areas cover only 8% of the world's oceans and only 2.8% is effectively protected [@iginiJust28Worlds2024]. The UN’s 30x30 target (set under the Convention on Biological Diversity) aims to protect 30% of the world’s oceans by 2030, however is not on track to achieve this goal [@mouterdeBiodiversityWorldNot2024].
+
+#### Extreme Weather Resilience and Climate Disaster Preparedness
+
+In Taiwan disaster risk and hazard mapping is well-developed, with early warning systems, and comprehensive response preparedness - and painful experiences - instrumental to saving lives [@tsaiFrameworkEmergencyResponse2021]. Intensifying storms forming near coastlines, can be expected with *"\[c\]hanges to tropical cyclone trajectories in Southeast Asia under a warming climate"* [@garnerChangesTropicalCyclone2024]. The situation on the Pacific and Atlantic oceans is not dissimilar, with *"\[o\]bserved increases in North Atlantic tropical cyclone peak intensification rates"* [@garnerObservedIncreasesNorth2023].
+
+The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport]. Global warming specifically increases the risk of disasters and extreme weather events; the US Global Change Research Program presented a comprehensive report to the US Congress, which links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces *air quality,* which in effect increases health challenges [@FifthNationalClimate2023]. Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~eq concentrations in the air can cause more turbulence for flights. As extreme temperatures are increasingly commonplace, with observed changes in heatwaves, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021; @perkins-kirkpatrickExtremeHeatClimate2023], while flood risk mapping might lower property prices in at risk areas [@sherrenFloodRiskMapping2024]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023].
+
+The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. As temperatures rise, certain cities may become uninhabitable for humans [@cbcradioExtremeHeatCould2021]. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii [@anguianoHawaiiWildfiresHow2023]. In California, [@jerrettSmokeCaliforniaGreenhouse2022] says, *"\[w\]ildfires are the second most important source of emissions in 2020"* and *"negate reductions in greenhouse gas emissions from other sectors."* Some parts of South America have seen summer heat *in the winter*, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
+
+In the Philippines, with increasing extreme weather events, *"businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards"* [@chengAssessingEconomicLoss2022]. Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
+
+Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
+
+### Individual Action and the Attitude-Behavior Gap
+
+Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high. See [@martinez-alierMappingEcologicalDistribution2021;@martinez-alierReplyOrihuelaExtractivism2022; @scheidelEnvironmentalConflictsDefenders2020] for coverage of extreme cases of risk environmental activists must endure. However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
+
+There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This thesis documents some of the ongoing work which a sustainability companion could assist college students get involved with. The scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
 
 While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. Translating eco-conscious attitudes into concrete sustainable actions remains challenging. Empirical evidence illustrates this gap between intention and behavior. [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
 
@@ -202,13 +170,7 @@ McKinsey’s *Talk is Cheap* study underscores the same paradox at scale: more t
 
 In short, people want eco-products but are largely price-sensitive.
 
-Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high. See [@martinez-alierMappingEcologicalDistribution2021;@martinez-alierReplyOrihuelaExtractivism2022; @scheidelEnvironmentalConflictsDefenders2020] for coverage of extreme cases of risk environmental activists must endure.
-
-However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
-
-There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This chapter documents some of the ongoing work which a sustainability companion could assist college students get involved with.
-
-While the scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
+#### Climate Anxiety Responses 
 
 A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action. A large worldwide study in (n = 10000, aged 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in 10 countries: Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n = 1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
 
@@ -227,31 +189,9 @@ Psychological factors influencing millennials to engage with sustainability [@na
 green_millenials()
 ```
 
-### Extreme Weather Resilience and Climate Disaster Preparedness
+### Sustainability Trends in Taiwanese Industry
 
-In Taiwan disaster risk and hazard mapping is well-developed, with early warning systems, and comprehensive response preparedness - and painful experiences - instrumental to saving lives [@tsaiFrameworkEmergencyResponse2021]. Intensifying storms forming near coastlines, can be expected with *"\[c\]hanges to tropical cyclone trajectories in Southeast Asia under a warming climate"* [@garnerChangesTropicalCyclone2024]. The situation on the Pacific and Atlantic oceans is not dissimilar, with *"\[o\]bserved increases in North Atlantic tropical cyclone peak intensification rates"* [@garnerObservedIncreasesNorth2023].
-
-The Word Economic Forums Global Risks Report 2024 paints a bleak picture of the future with expectations of increased turbulence across the board based on a survey of over 1400 topic experts [@worldeconomicforumGlobalRisksReport]. Global warming specifically increases the risk of disasters and extreme weather events; the US Global Change Research Program presented a comprehensive report to the US Congress, which links disaster-risk directly to global warming; for examples increased wildfires damage property, endanger life and reduces *air quality,* which in effect increases health challenges [@FifthNationalClimate2023]. Warming global climate has concrete effects on daily life. Warmer climate helps viruses and fungi spread [@pressFungalDiseaseRapidly2023]. [@williamsIntensificationWinterTransatlantic2013] higher CO~2~eq concentrations in the air can cause more turbulence for flights. As extreme temperatures are increasingly commonplace, with observed changes in heatwaves, there's increased risk of wildfires [@volkovaEffectsPrescribedFire2021; @perkins-kirkpatrickExtremeHeatClimate2023], while flood risk mapping might lower property prices in at risk areas [@sherrenFloodRiskMapping2024]. Summers of 2022 and 2023 were the hottest on record so far, with extreme heat waves recorded in places around the world [@venturelliHighTemperatureCOVID192023; @serrano-notivoliUnprecedentedWarmthLook2023; @douglasThisSummerTrack2023; @EarthJustHad2023; @NOAAJune2023; @falconer123MillionHeat2023].
-
-The part of Earth where the *human climate niche* is becoming smaller [@mckibbenWhereShouldLive2023]. As temperatures rise, certain cities may become uninhabitable for humans [@cbcradioExtremeHeatCould2021]. The summer of 2023 saw extensive wildfires in Spain, Canada, and elsewhere; rapidly moving fires destroyed the whole city of Lāhainā in Hawaii [@anguianoHawaiiWildfiresHow2023]. In California, [@jerrettSmokeCaliforniaGreenhouse2022] says, *"\[w\]ildfires are the second most important source of emissions in 2020"* and *"negate reductions in greenhouse gas emissions from other sectors."* Some parts of South America have seen summer heat *in the winter*, with heatwaves with temperatures as high as 38 degrees [@livingstonItMidwinterIt2023].
-
-In the Philippines, with increasing extreme weather events, *"businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards"* [@chengAssessingEconomicLoss2022]. Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
-
-Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
-
-#### Sustainability in Taiwan
-
-#### Garbage Trucks and Digital Receipts
-
-Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
-
-The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: *"garbage island"*, for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
-
-Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
-
-[@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
-
-### Trends in Taiwanese Industry and Online Shopping
+#### Online Shopping
 
 In the intensifying competition of online shopping in Taiwan, [@momovscoupang2024] predicts Momo and Coupang will compete for Taiwanese market leadership, with Coupang increasingly stepping on Shopee's and MOMO's toes, as per [@ShunFengFuChanKeSunpungSanbuingwa2024].
 
@@ -300,6 +240,17 @@ Meanwhile, [@marclienHowGreenGap2022] finds 4 millions British SMEs have no plan
 #| fig-scap: "British Company Ranking"
 company_rank_chart()
 ```
+
+#### Garbage Trucks and Digital Receipts
+
+Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
+
+The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: *"garbage island"*, for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+
+Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
+
+[@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
+
 
 ### Financial Literacy and Education
 
@@ -423,6 +374,16 @@ Building a community is a way to design a context, where the culture creates cer
 
 ### Digital Engagement: Social Media & AI Adoption
 
+Gen-Z exhibit high levels of technology adoption worldwide; over 98% of Gen-Z owns a smartphone while only 80% of the general world population does [@globalwebindex98GenOwn2017; @bankmycellHowManyPeople2022; @deyangeorgiev39SmartphoneStatistics2023]. Internet usage among Taiwanese young people is nearly universal, with over to 98% of 18–29 (roughly Gen-Z) year‐olds reporting they have gone online at least once recently, and close to 96% of respondents aged 18-29 used some form of social media [@TWNIC2023].
+
+| Metric                     | 18–29   | 30–39   |
+|----------------------------|---------|---------|
+| Daily Internet usage       | 98.79 % | 98.40 % |
+| Overall social-media usage | 95.98 % | 94.84 % |
+| TikTok usage               | 33.03 % | 24.28 % |
+
+Table: Taiwanese Internet Usage Statistics; data from [@TWNIC2023]. []{short-caption="Taiwanese Internet Usage Statistics"}
+
 #### Social Media, Trends, Memes, and Youth Empowerment
 
 In Taiwan, homegrown memes may start with global templates but quickly take on a local flavor. [@LiuYunJiaTaiWan2024]'s 2021 study of 150 Taiwanese memes written in Mandarin shows most rely on friendly and indirect humor: inside jokes and wordplay that bond peers together. [@ZhuYingJieying2021] surveyed 737 Taiwanese Facebook users and discovered that a meme’s funniness, shareability, and shock value “hellish gags” (地獄梗) drive people to post it for social approval. [@HuQiZhen2024] collected 217 “tired of life” / “I’m just trash” meme texts from Instagram and PTT, then interviewed 13 Gen-Z enthusiasts, revealing how self-deprecating jokes help Gen Z cope with stress, feel part of a group, and quietly push back against social pressure. Memes have a long history, and even almost a decade ago in 2016, a casual news comment—like the "canoing man" (泛舟哥) remark during a typhoon exploded into LINE stickers and PTT threads, proving that Taiwanese can transform everyday media moments into collective satire or tongue-in-cheek commentary [@HuangYiNeng2016].
@@ -451,3 +412,43 @@ In Sweden, a large-scale (n = 5894) survey across several Swedish universities s
 #| fig-scap: "Swedish College Students' Attitudes Towards AI Assistants"
 college_chatbot()
 ```
+
+### From Early Environmental Thought to Modern Youth Activism
+
+#### The Roots of Sustainability in Environmentalism
+
+*"Nachhaltigkeit"* - *sustainability* in German - was likely the first use of the concept of preserving natural resources, conceived by a tax accountant Hannß Carl von Carlowitz in 1713 in his seminal book on forestry - *Sylvicultura Oeconomica -*, referring to the goal of achieving prudent forest management practices in his native Saxony in Southeastern Germany, which at the time was under severe *deforestation* pressure from mining, ship-building and agricultural production [@hannsscarlvoncarlowitzSylviculturaOeconomicaOder1713; @gottschlichLegacySylviculturaOeconomica2014]. This particular field of sustainability study is now known as *sustainable yield of natural capital*. The *principal* of the natural resource being managed, such as in fishing and forestry, shouldn't be over-harvested in order to maintain ***ecosystem services*** - a contemporary term from the theory of *natural capital*, referring to benefits humans receive from the stock of world's natural resources [@peterkareivaNaturalCapitalTheory2011].
+
+Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
+
+#### Student Protests for Climate Justice
+
+In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. In 2019, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Geneva on 27th September, 2019 – 1 year after the start of Fridays for Future"
+  src={Geneve}
+  refURL="https://commons.wikimedia.org/wiki/File:Gr%C3%A8veClimatGen%C3%A8ve-27sept2019-041-RuesBasses.jpg"
+  refTitle="Wikimedia Commons"
+/>
+```
+In Indonesia, which had large protests at the time, now 7 years later activists are expressing disillusionment and frustration with the lack of progress and upholding environmental promises. [@dwitamaraGenClimateJustice2025] reports on a survey of 382 Gen-Z respondents in 5 areas of Jakarta, with 99.5% of the respondents having experienced extreme weather events first-hand, highlighting how respondents were affected by climate-related calamities, such as frequent flooding, which led to students missing school days, - education which they are entitled to. The Sharm El Sheikh climate policy implementation [@unfcccSharmElSheikhImplementation2023] text refers to "human right to a clean, healthy and sustainable environment". In Portugal, Estonia, and elsewhere young people have moved on from strikes to actually taking legal action at the courts suing companies for the environmental problems they have caused [@florIstoNaoAcaba2024].
+
+::: {.content-hidden unless-format="pdf"}
+![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
+  src={Taipei}
+  refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
+  refTitle="New Bloom Magazine"
+/>
+```
+Meanwhile, as the climate-justice protests unfolded around the world, in Taiwan, the Fridays for Future protests were very small in scale, with no more than 100-200 people [@hioeFridaysFutureProtest2019]. Meanwhile, 2000 Taiwanese students joined the initiative by participating in environmental activities without protesting [@daiQuanQiuDeLu2019]. This could in part be explained by Taiwanese culture being deeply influenced by Confucianism, valuing stability, hierarchical relationships, academic excellence, effort, and the role of education in achieving social status [@xuDeclinedQualityPoststructural2024]. [@changClimateStrikeNot2022] goes a step further to say that Taiwanese youth are effectively unable to stage formal “strikes” due to intersecting cultural constraints: obsession with academic performance, low awareness of legal strike rights, and parental intervention — so they instead reframe actions as campus “climate actions,” exercising agency within those limits. In addition, both Confucianism and Daoism, the prevalent belief systems in Taiwan, affect education to be *teacher-centered*, where traditionally the role of students is to listen and absorb knowledge; in today's society, there's space to open opportunities for revisiting *dialogue-based* education, where students would be encouraged to take a more active role and gain ownership of their education [@changExploringDialogicEducation2023].
