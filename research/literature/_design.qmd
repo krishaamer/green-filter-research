@@ -2,7 +2,7 @@
 #| echo: false 
 from literature.charts.design import air_chart, fast_consumer_goods, ant_forest, dfs_history, compare_ps_epr_ecodesign, eu_green_deal, open_data_index, open_data_compare, pandemic, malaysia_forests, sustainability_ai_six_dimensions, digital_product_passport_data_categories
 from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production, climate_tipping_points
-from literature.charts.finance import shopping_growth, social_commerce_chart
+from literature.charts.finance import shopping_growth, social_commerce_chart, climate_scenarios_chart, uk_energy_emissions_trend, growth_brics
 
 import warnings 
 warnings.filterwarnings("ignore")
@@ -1118,6 +1118,47 @@ There are many companies which facilitate buy carbon credits as well as a few or
 *"Carbon pricing is not there to punish people,"* says Lion Hirth [@lionhirthLionHirthTwitter]. *"It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."* Long term cost of insufficient climate action is more than short-term gains from delaying efforts to reduce carbon emissions. In addition to the damages from global warming, the fossil energy production that's a large part of global CO~2~eq emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
 
 Carbon credit prices should reflect the quality of the carbon reduction. Nature-based carbon removal solutions (for example, forest-backed carbon credits) rank among the top solutions for mitigating climate change but require price signals that reflect their true value; Pachama’s (an AI-based carbon removal company) calculation from bottom up cost modeling across more than 150 reforestation projects indicate that high quality forest carbon removal credits must trade at a minimum of USD 50-82 per tonne of CO~2~eq to be competitive with alternative land uses (IPCC AR6 guidance sets the price spread wider, from USD 50-200); reduced land-use change (basically this means not cutting down forests, IPCC groups together as LULUCF, Land Use, Land-Use Change and Forestry) ranks 2nd to solar energy in terms of carbon reduction potential [@pachamaHowMuchShould2023; @luikWhereDoesCarbon2025].
+
+#### Decarbonization Scenarios
+
+The possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) or is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+
+```{python}
+#| label: fig-clim-scen
+#| fig-cap: "Climate Scenarios"
+#| fig-scap: "Climate Scenarios"
+climate_scenarios_chart()
+```
+
+Looking at the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2e~ emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
+
+```{python}
+#| label: fig-uk-emissions-trends
+#| fig-cap: "UK Energy Emissions' Trends"
+#| fig-scap: "UK Energy Emissions' Trends"
+uk_energy_emissions_trend()
+```
+
+Meanwhile, the cumulative CO~2e~ emissions trend in the UK in the same time-frame show the historic responsibility of UK [@globalcarbonbudgetCumulativeCOEmissions2023].
+
+CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as in Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
+
+```{python}
+#| label: fig-brics-emissions-trends
+#| fig-cap: "BRICS Emissions' vs GDP Growth Trends"
+#| fig-scap: "BRICS Emissions' vs GDP Growth Trends"
+growth_brics()
+```
+
+In practice, there's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits. In Bangladesh, [@AMIN2022113224] suggests *"removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits"* for both the economy and the environment. In other words, green energy is a win-win solution, for both the environmental health and financial wealth.
+
+There are still low-hanging fruits to be picked in terms of energy efficiency. [@devlinRegionalSupplyChains2022] analysed regional steel supply chains between Australia and Japan, finding that co-locating steel manufacturing with renewable energy sources would provide the highest energy efficiency, reducing energy consumption by up to 45%; moreover, a carbon tax of 43-123 USD per tonne of CO~2~eq would mitigate the "green premium". [@stefanklebertCarbonneutralManufacturingPossible2022] CEO of GEA, a large producer of machinery and heat pumps, highlights that heating and cooling account for between 50-90% of energy use in processing plants; deploying state-of-the-art heat pump technology can half CO~2~eq emissions; large-scale carbon-neutral manufacturing is already possible with existing technologies.
+
+One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilizers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydro-power in Denmark) sources [@CO2neutralFactories]. The Green Transition Denmark think-thank has published a report calculating that the complete decarbonization of Denmark by 2040 would cost about 6.2 billion Danish krone (close to \$1 Billion USD) per year, achieving full net-zero emissions, full electrification of road transport, electrification of 75% of industry and 30% of heating, capping biomass use at 10.5 PJ (petajoules) to boost forest carbon storage by 1.6 Mt CO~2~, expand forests by 290 000 ha, and reduce farmland by 34%, while producing 90 PJ of green fuels [@mollerEnergyPlanetaryBoundaries2024].
+
+Already in 2019, Alois Müller built an example "Green Factory" in Ungerhausen, where a 1.1 MW rooftop photovoltaic system supplies 2/3 of the electricity (feeding excess power to the grid), combined with a heat and power boiler powered by biogas and pellets (note: pellets have become very controversial as their sustainability highly depends on the source material), a 100000 liter buffer tank for waste heat, and a 230 kWh lithium battery [@vdizentrumressourceneffizienzCarbonneutralGreenFactory2020].
+
+Advances in sensors, AI, and robotics, increasingly enable *lights-out manufacturing*, which leverages full automation, producing 24/7, with minimal to no human interaction, while increasing productivity and efficiency [@ericfoggWhatLightsOut2020].
 
 #### Quantifying Human Benefits from the Biosphere: Ecosystem Services
 

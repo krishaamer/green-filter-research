@@ -423,13 +423,13 @@ Design guidelines for optimal design performance can be extremely specific. [@ca
 
 Some research suggests that voice UI accompanied by a *physical embodied system* is the preferred by users in comparison with voice-only UI [@CELINO2020102410].
 
-### Generative UIs Enable Flexibility of Use
+### Generative UIs: Bridging Attitude-Behavior Gap with AI Support
 
 The "grandfather" of user experience design, [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough; however, he has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
 
 > Computers are *"difficult, slow, and unpleasant"* [@nielsenAccessibilityHasFailed2024]
 
-Data-driven design combined with GenAIs enables *Generative User Interfaces* (GenUI), with new UI interactions. The promise of GenUI is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create *"more accessible and inclusive \[UIs for\] users of all backgrounds"*.[@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns.
+Data-driven design combined with generative AIs enables *Generative User Interfaces* (GenUI), with new many new human-aware UI interactions, such as emotion-driven UI features (as discussed in affective computing). The promise of GenUI is to dynamically provide an interface appropriate for the particular user and context. The advances in the capabilities of LLMs makes it possible to achieve *user experience (UX) which previously was science fiction*. AI is able to predict what kind of UI would the user need right now, based on the data and context. Generative UIs are largely invented in practice, based on user data analysis and experimentation, rather than being built in theory. Kelly Dern, a Senior Product Designer at Google lead a workshop in early 2024 on *GenUI for product inclusion* aiming to create *"more accessible and inclusive \[UIs for\] users of all backgrounds"*.[@matteosciortinoGenerativeUIHow2024] coins the phrase RTAG UIs *"real-time automatically-generated UI interfaces"* mainly drawing from the example of how his Netflix interface looks different from that of his sister's because of their distinct usage patterns.
 
 Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the following reasons:
 
@@ -439,7 +439,7 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 | High Carbon Cost   | AI-based personalization is computation-intensive |
 | Surveillance       | Personalization needs large-scale data capture    |
 
-Table: Criticism of Generative UI by [@NielsenIdeasGenerative2024]. []{short-caption="Criticism of Generative UI"}
+Table: Criticism of GenUI by [@NielsenIdeasGenerative2024]. []{short-caption="Criticism of GenUI"}
 
 [@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximize their rate of information gain.
 

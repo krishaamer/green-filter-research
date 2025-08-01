@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot
-from literature.charts.finance import retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart
+from literature.charts.finance import retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart, sustainable_consumption_relationships
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -239,6 +239,25 @@ However, changing habits is important if technology alone is not the solution. [
 McKinsey’s *Talk is Cheap* study underscores the same paradox at scale: more than 60% of global consumers say they are willing to pay extra for sustainable products, yet in reality most wouldn't pay a premium greater than about 10% [@freundtHowMuchWill2024]. A robust willingness-to-pay (WTP) literature tells a similar story. A 2021 meta-analysis covering 80 studies finds the average stated premium for sustainable food products is 29.5%; however, hypothetical surveys often overstate WTP relative to real-purchase experiments [@liKallasMetaWTP2021]. In contrast, PwC’s 2024 *Voice of the Consumer* survey, based on 20000 respondents in 31 countries, reports a far more modest mean sustainability premium of 9.7% that consumers are willing to pay, once inflation is factored in [@pwcVoiceConsumer2024]. 
 
 In short, people want eco-products but are largely price-sensitive.
+
+#### Consumer Activists are a Small Minority
+
+Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices. Yet these types of *mindful consumers* and *conscious consumers* only make up a small percentage of the entire consumer public, which may make individual action seem close to meaningless.
+
+For consumer activism to become mainstream it needs to much simpler. Sustainable options must become effortless: we need one-click tools that turn everyday spending into votes for circular design, transparent supply chains and mandatory climate disclosures. By setting clear CO~2~-reduction targets for products, embedding dynamic ESG-risk pricing at point of sale, and harnessing our collective purchasing power, we can push companies to embed sustainability at the core of business, transforming vague ESG ideals into tangible market incentives.
+
+There is plenty of research on if and how sustainable shopping could be possible. Already in 2016, [@klinglmayrSustainableConsumerismSelfRegulation2016] proposed a mobile app to channel "political consumerism" into sustainable shopping through self-regulation: personalized recommendations could be provided by aggregating vast product datasets into distilled advice, empowering individuals follow clear sustainable-shopping rules, discover like-minded peers, and communicate concerns directly to retailers, in theory turning vague ESG ideals into a transparent, data-driven, community-backed approach to sustainable consumption - however the Horizon 2020 funded was only deployed in 2 supermarkets (Estonia and Spain) as a pilot project. In order to understand the needed changes to shopping, [@fuentesUnpackingPackageFree2019] employed a shopping-as-practice ethnography in a Swedish zero-waste grocery store to show that removing packaging requires reinventing the shopping practice itself, e.g. introducing reusable containers, new retail setups, and consumer routines. [@weberMobileAppsSustainable2021] proposed a sustainable shopping guide in a study which demonstrates that embedding eco-score rankings into a mobile shopping app significantly increases consumers’ selection of low-impact food products by improving decision support and reducing information overload. Consumer psychology is complex and [@vanderwalParadoxGreenBe2016] discusses how status motives make people publicly display sustainable behavior, revealing that shoppers purchase branded reusable bags rather than bring their own, exposing a "paradox of green to be seen" and its hidden environmental costs.
+
+Sustainable consumption relationships in Europe.
+
+```{python}
+#| label: fig-sust-consum
+#| fig-cap: "Sustainable Consumption"
+#| fig-scap: "Sustainable Consumption"
+sustainable_consumption_relationships()
+```
+
+Make use of indexes to compare companies.
 
 #### Climate Anxiety Responses 
 
