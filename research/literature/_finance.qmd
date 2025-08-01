@@ -11,7 +11,7 @@ import Bunq from '../images/finance/bunq.jpg'
 import AbstractFinance from '../images/finance/abstract-finance.png'
 import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literacy-youtube.png";
 ```
-## Design for Youth Finance
+## Designing Youth Finance
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -141,13 +141,13 @@ Communities can be directed towards sustainability, by attracting people of a si
 
 Building a community is a way to design a context, where the culture creates certain expectations of behavior. Humans working together are able to achieve more than single individuals. *"Any community on the internet should be able to come together, with capital, and work towards any shared vision. \[...\] In the long term this moves to internet communities taking on societal endeavors."* [@panzarinoCryptodrivenMarketplaceZora2020]. [@armstrongCultivatingCulturesSustainability2021] believes leveraging different personalities and viewpoints can build more sustainable cultures; the focus on *group consciousness* suggests community-based sustainability action may be effective, when building a *culture of sustainability*, such as the garbage trucks in Taiwan. A communal event is a key building block for a thriving community, which can be directly experienced instead of just reading about it or watching a video.
 
-### The Convergence of Money
+### The Convergence of Money: The New Rules of Finance
 
-This chapter explores how money could incorporate sustainability as a feature.
+The meaning of *Money* itself is changing and becoming more diverse. Traditionally, money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc, which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
 > “Money is information… it shouldn’t be more expensive or slower than sending an email.” (K. Käärmann, Co-Founder of the Wise , formerly known as Transferwise, money transfer platform), said in 2018 [@kaarmannWhyDoesTransferWise2018]
 
-*Money* itself is changing and the meaning of money is becoming more diverse. Traditionally, money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc, which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
+This chapter explores how money could incorporate sustainability as a feature.
 
 ### Democratization of Finance: Fintech as a Precursor for Sustainable Superapps
 
@@ -161,8 +161,6 @@ While it took N26 and Revolut more than a decade to grow into global businesses,
 #| fig-scap: "Fintech Growth"
 fintech_chart()
 ```
-
-### New Rules of Money
 
 #### Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
 
@@ -604,76 +602,6 @@ For human psychology, the fact that money on a Wise account will accrue value wh
 : Among up-and-coming startups there are some examples of sustainability-focused apps.
 
 Considering AI assistant for ESG investing, [@TAN202046] proposes *"financial ecologies"* to understand the dynamic relationships between various actors: investors, advisors, government, where the government plays an active role in growing financial inclusion and responsible financial management; however, the paper further suggests that current robo-advisors (available in Singapore) make the investor captive to the agency of AI, making the person lose agency over their financial decisions.
-
-### Measuring the Eco-Investment Gap
-
-By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
-
-```{python}
-#| label: fig-climate-fin-funding
-#| fig-cap: "Climate Finance Funding Gap"
-#| fig-scap: "Climate Finance Funding Gap"
-climate_finance_gap_sectors_timeline()
-```
-
-What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
-
-```{python}
-#| label: fig-climate-fin-funding-sectors
-#| fig-cap: "Climate Finance By Sector"
-#| fig-scap: "Climate Finance By Sector"
-climate_finance_gap_sectors()
-```
-
-The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1–2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
-
-The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
-
-```{python}
-#| label: fig-high-value-assets
-#| fig-cap: "Climate Funding Gap vs High Value Assets"
-#| fig-scap: "Climate Funding Gap vs High Value Assets"
-money_chart()
-```
-
-| High-Value Assets (Trillions of USD) |   |
-|----------------------------------------------------|--------------------|
-| Global Real Estate (2020, valuation) | \$326T |
-| Global Equity Markets (2023, valuation) | \$108T |
-| Global GDP (2024, estimated) | \$110T |
-| Global GDP (2023, per year) | \$105T |
-| Global GDP (2022, per year) | \$100T |
-| *Global Pension Funds (2023, valuation)* | *\$47.9T* |
-| U.S. Equity Markets (2023, valuation) | \$46.2T |
-| U.S. National Debt (2023, valuation) | \$32.6T |
-| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T* |
-| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \$28.2T |
-| GDP of U.S.A. (2023, per year) | \$26.8T |
-| GDP of China (2023, per year) | \$19.3T |
-| Global Private Market Assets (2023, per year) | \$11.7T |
-| *Unpriced Externalities (2023, per year)* | *\$7.3T* |
-| Global E-Commerce Sales (2021, per year) | \$5.2T |
-| *Missing Climate Investment (2022, estimate per year)* | *\$4.1T* |
-| Industrial & Commercial Bank of China (2019, total assets) | \$4T |
-| Global Real Estate Sales (2021, per year) | \$3.7T |
-| Apple Computers (2024, market value) | \$3.1T |
-| GDP of Japan (2023, per year) | \$4.5T |
-| GDP of Germany (2023, per year) | \$4.3T |
-| GDP of India (2023, per year) | \$3.7T |
-| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \$2.5T |
-| NVIDIA 英偉達 (2024, market value) | \$2.5T |
-| *Retail Investors (2023, liquid assets)* | *\$1.8T* |
-| Blackstone (2023, total assets) | \$1T |
-| Bitcoin (2024, market cap) | \$1T |
-| GDP of Taiwan (2023, per year) | \$0.8T |
-| GDP of Finland (2023) | \$0.3T |
-| Ethereum (2024, market cap) | \$0.3T |
-| *Individual Climate Investors* (2020, per year) | \$0.1T |
-| GDP of Estonia (2023, per year) | \$0.04T |
-
-: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
-
-While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
 ### Retail Investing Enables Financial Inclusion
 

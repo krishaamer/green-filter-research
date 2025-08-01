@@ -1,7 +1,7 @@
 ```{python}
 #| echo: false
 from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot
-from literature.charts.finance import retail_green_vs_nongreen
+from literature.charts.finance import retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -83,7 +83,7 @@ Internationally, there is extensive research on the attitudes of college student
 
 ### Taiwanese Educational System in Numbers
 
-Students in the Generation-Z age bracket (abbreviated as Gen-Z or Zoomers) are born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Taiwan has approximately 2 million young adults (Gen-Z, 18-29), and 73% percent of them are students attending tertiary education (as of 2023), with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
+Students in the Gen-Z age bracket (sometimes known as Zoomers) were born between 1997 and 2012 [@brankavuletaGenerationStatistics2023]. Taiwan has approximately 2 million young adults in this group (Gen-Z, 18-29), and 73% percent of them are students attending tertiary education (as of 2023), with a slow increase of enrollment over the past decade [@ministryofeducationoftaiwanNetEnrollmentRate2024].
 
 ```{python}
 #| label: fig-tw-high-ed-enrollment
@@ -155,6 +155,76 @@ The part of Earth where the *human climate niche* is becoming smaller [@mckibben
 In the Philippines, with increasing extreme weather events, *"businesses are more likely to emerge in areas where infrastructure is resilient to climate hazards"* [@chengAssessingEconomicLoss2022]. Across several case studies, [@fabrisCLIMATECHANGEQUALITY2022] discusses vulnerable sectors from agriculture to transport, under threat from extreme weather events, such as floods, heatwaves, droughts, and storms impact human health: societal development and economic growth should be realistic on planning for weather-related impacts.
 
 Climate-related disasters can spur action as extreme weather becomes visible to everyone. After large floods in South Korea in July 2023 with many victims, president Joon promised to begin taking global warming seriously and steer the country towards climate action [@webSouthKoreaPresident2023; @afpKoreaPresidentVows2023; @aljazeeraDeathTollKorea2023]. South Korea has a partnership with the European Union [@europeancommissionEURepublicKorea2023].
+
+### Measuring the Eco-Investment Gap
+
+By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
+
+```{python}
+#| label: fig-climate-fin-funding
+#| fig-cap: "Climate Finance Funding Gap"
+#| fig-scap: "Climate Finance Funding Gap"
+climate_finance_gap_sectors_timeline()
+```
+
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+
+```{python}
+#| label: fig-climate-fin-funding-sectors
+#| fig-cap: "Climate Finance By Sector"
+#| fig-scap: "Climate Finance By Sector"
+climate_finance_gap_sectors()
+```
+
+The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1–2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
+
+The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
+
+```{python}
+#| label: fig-high-value-assets
+#| fig-cap: "Climate Funding Gap vs High Value Assets"
+#| fig-scap: "Climate Funding Gap vs High Value Assets"
+money_chart()
+```
+
+| High-Value Assets (Trillions of USD) |   |
+|----------------------------------------------------|--------------------|
+| Global Real Estate (2020, valuation) | \$326T |
+| Global Equity Markets (2023, valuation) | \$108T |
+| Global GDP (2024, estimated) | \$110T |
+| Global GDP (2023, per year) | \$105T |
+| Global GDP (2022, per year) | \$100T |
+| *Global Pension Funds (2023, valuation)* | *\$47.9T* |
+| U.S. Equity Markets (2023, valuation) | \$46.2T |
+| U.S. National Debt (2023, valuation) | \$32.6T |
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T* |
+| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \$28.2T |
+| GDP of U.S.A. (2023, per year) | \$26.8T |
+| GDP of China (2023, per year) | \$19.3T |
+| Global Private Market Assets (2023, per year) | \$11.7T |
+| *Unpriced Externalities (2023, per year)* | *\$7.3T* |
+| Global E-Commerce Sales (2021, per year) | \$5.2T |
+| *Missing Climate Investment (2022, estimate per year)* | *\$4.1T* |
+| Industrial & Commercial Bank of China (2019, total assets) | \$4T |
+| Global Real Estate Sales (2021, per year) | \$3.7T |
+| Apple Computers (2024, market value) | \$3.1T |
+| GDP of Japan (2023, per year) | \$4.5T |
+| GDP of Germany (2023, per year) | \$4.3T |
+| GDP of India (2023, per year) | \$3.7T |
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \$2.5T |
+| NVIDIA 英偉達 (2024, market value) | \$2.5T |
+| *Retail Investors (2023, liquid assets)* | *\$1.8T* |
+| Blackstone (2023, total assets) | \$1T |
+| Bitcoin (2024, market cap) | \$1T |
+| GDP of Taiwan (2023, per year) | \$0.8T |
+| GDP of Finland (2023) | \$0.3T |
+| Ethereum (2024, market cap) | \$0.3T |
+| *Individual Climate Investors* (2020, per year) | \$0.1T |
+| GDP of Estonia (2023, per year) | \$0.04T |
+
+: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023]
+
+While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
 ### Individual Action and the Attitude-Behavior Gap
 

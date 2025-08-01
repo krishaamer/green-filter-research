@@ -50,65 +50,60 @@ Below you can see some of the images testers uploaded from their own devices (th
   refTitle="Green Filter"
 />
 ```
-
 ### Testing Summary
 
 In-person interviews highlighted that participants generally appreciated the transparency provided by the Green Filter app regarding sustainability of products. Interviewees mentioned that the visibility of *"Material Sustainability"* and the historical and environmental impact of products influenced their perception and purchasing intentions, sometimes causing them to reconsider previously unquestioned consumption habits. Participants were particularly intrigued by the comprehensive information on carbon emissions, labor issues, and potential health risks from certain ingredients, emphasizing that such details were rarely accessible in typical shopping experiences. Additionally, participants valued AI-generated comparative data that offered alternative sustainable brands and products, which helped them better understand environmental impacts and make more informed choices.
 
 However, usability issues surfaced regarding terminology and interface clarity. Some users misunderstood the labeling related to financial savings and carbon emission reductions, indicating the importance of precise and intuitive wording in Chinese.
 
-|  Rank | Frequently-named cue                                  | Typical reasoning (representative quotes)                                                                             |
-| ----: | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **1** | **Price / discounts / payment options**               | “Usually I just look at the price.” “It’s acceptable if it isn’t too expensive.”                                      |
-| **2** | **Photos (product & user images)**                    | “Pictures attract me to click in.” “I rarely read long text, but I zoom every photo.”                                 |
-| **3** | **Reviews & star ratings**                            | “Reviews are vital, I need to see real buyer photos.” “I’ll open another page to compare reviews on different sites.” |
-|     4 | **Key specs – size, colour, warranty, return policy** | Often mentioned right after price and photos.                                                                         |
-|     5 | **Brand familiarity / past experience**               | Several interviewees picked a product simply because “I’ve used this brand before.”                                   |
+| Rank | Feature | User Reaction |
+|----:|-----------------|------------------------------------------|
+| **1** | **Price / discounts / payment options** | “Usually I just look at the price.” “It’s acceptable if it isn’t too expensive.” |
+| **2** | **Photos (product & user images)** | “Pictures attract me to click in.” “I rarely read long text, but I zoom every photo.” |
+| **3** | **Reviews & star ratings** | “Reviews are vital, I need to see real buyer photos.” “I’ll open another page to compare reviews on different sites.” |
+| 4 | **Key specs – size, color, warranty, return policy** | Often mentioned right after price and photos. |
+| 5 | **Brand familiarity / past experience** | Several interviewees picked a product simply because “I’ve used this brand before.” |
 
-
-| Cue delivered by prototype                           | Typical reaction                                                                                                       |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ESG / “environmental score” bar                           | Recognised in abstract but **low literate**: “ESG… I actually don’t know.”                                             |
-| Short textual flags (e.g., “30 % lower carbon”)           | *Noticeable*; participants could paraphrase back (“because greenhouse effect”), but still uncertain what to do next.   |
-| Brand-level controversies (labour, packaging)             | Triggers *surprise* (“I didn’t know Maybelline has environmental issues.”) and sometimes re-evaluation.                |
+| Feature | User Reaction |
+|------------------------|------------------------------------------------|
+| ESG / “environmental score” bar | Recognised in abstract but **low literate**: “ESG… I actually don’t know.” |
+| Short textual flags (e.g., “30 % lower carbon”) | *Noticeable*; participants could paraphrase back (“because greenhouse effect”), but still uncertain what to do next. |
+| Brand-level controversies (labour, packaging) | Triggers *surprise* (“I didn’t know Maybelline has environmental issues.”) and sometimes re-evaluation. |
 | Concrete comparisons (alternate brands with better score) | **Most actionable**: many said they’d “consider” or “maybe switch” if the suggested alt met basic price/quality needs. |
 
+| User Pain Point | Design Implications |
+|--------------------------------|----------------------------------------|
+| Slow network / long load times in several sessions | Lightweight placeholder images; lazy-load higher resolution later |
+| Hidden or jargon-heavy sustainability text | Collapsible “Learn more” sections + tooltip definitions |
+| Unclear second / third navigation tabs | Add microcopy (“Environmental impact”, “Invest in this brand”) |
+| Desire to compare alternatives easily | Inline comparison table or swipe carousel with price + core spec |
 
-| Pain point                                         | Quick UX fix                                                     |
-| -------------------------------------------------- | ---------------------------------------------------------------- |
-| Slow network / long load times in several sessions | Lightweight placeholder images → lazy-load high-res later        |
-| Hidden or jargon-heavy sustainability text         | Collapsible “Learn more” sections + tooltip definitions          |
-| Unclear second / third navigation tabs             | Add microcopy (“Environmental impact”, “Invest in this brand”)   |
-| Desire to compare alternatives easily              | Inline comparison table or swipe carousel with price + core spec |
+| \# | Opportunity | Design Implications |
+|-----|---------------------|--------------------------------------|
+| **A** | Surface eco info *inside* the price/variant area (not in a far-right panel). | Add a tiny colored icon next to the price; hover or tap expands a one-sentence impact statement. |
+| **B** | Swap *numeric ESG* with *plain language + graphic* | Try a horizontal traffic-light bar: Red / Yellow / Green with 1-line “Why”. |
+| **C** | Offer one-click sustainable **alternatives** | Your “Find alternatives” button worked; make it persistent under the Add-to-Cart button. |
+| **D** | Match discounts with eco nudges | “5 % off *and* 30 % lower carbon” blends top-ranked price salience with sustainability. |
+| **E** | Keep jargon shallow | Replace “PTC heating element” with “quick-heat ceramic (safer & lasts longer)”; users flagged spec lines only when phrased plainly. |
 
-| #     | Opportunity                                                                  | Quick win you can prototype                                                                                                         |
-| ----- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **A** | Surface eco info *inside* the price/variant area (not in a far-right panel). | Add a tiny coloured icon next to the price; hover or tap expands a one-sentence impact statement.                                   |
-| **B** | Swap *numeric ESG* with *plain language + graphic*                           | Try a horizontal traffic-light bar: Red / Yellow / Green with 1-line “Why”.                                                         |
-| **C** | Offer one-click sustainable **alternatives**                                 | Your “Find alternatives” button worked; make it persistent under the Add-to-Cart button.                                            |
-| **D** | Match discounts with eco nudges                                              | “5 % off *and* 30 % lower carbon” blends top-ranked price salience with sustainability.                                             |
-| **E** | Keep jargon shallow                                                          | Replace “PTC heating element” with “quick-heat ceramic (safer & lasts longer)”; users flagged spec lines only when phrased plainly. |
-
-
-| Ziran ID  | “Most-important” element(s)                                                                    | Reason(s) the participant gave                                                                                       |
-| --------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **ARXBP** | 1) **Price** 2) Product description 3) Reviews (pictures also mentioned)                       | Wanted to know cost up-front; description “introduces the product”; reviews help judge quality before buying.        |
-| **1S2SE** | 1) **Reviews** 2) Return/Exchange info 3) Discounts                                            | Trusts peer feedback; wants a clear path to return items that “aren’t good”; likes to save money via promotions.     |
-| **2W7HO** | 1) **Photos** 2) Price 3) Ease of site navigation / categories                                 | Images attract clicks; price must be “acceptable, not too expensive”; prefers pages that make it easy to find items. |
-| **4XGN4** | 1) **Product image** 2) Clearly shown price 3) Buyer-posted photos in reviews                  | Needs to *see* the item and its cost; relies on real-life pictures for authenticity.                                 |
-| **BPDSA** | 1) **Shade/Color selector** 2) Price & discounts 3) Reviews                                    | Lip cosmetics choice hinges on the right shade; checks deals; uses reviews for finer details.                        |
-| **V7W8A** | 1) **Photos** 2) Price 3) Size availability                                                    | Visual appeal first, then affordability; must confirm the size will fit.                                             |
-| **6E5N5** | 1) **Price / loyalty-coin offers** 2) Promo details (accumulate & earn) 3) Product description | Interested in total out-of-pocket cost and momo-coin perks; still reads basics about the bag.                        |
-| **6N9ZO** | 1) **Usage & safety instructions** 2) Detailed specs & brand intro 3) Manufacturing country    | An electrical item: wants to know how to use it safely, what it’s made of, and where it’s made.                      |
-| **17LSR** | 1) **Price** 2) Pictures 3) Reviews                                                            | Re-ordered her answer to stress price first, visuals second, testimony third.                                        |
-| **ANGZQ** | 1) **Pictures** 2) Price 3) Reviews                                                            | Looks for visual appeal, good price, then social proof.                                                              |
-| **C5LGY** | 1) **Picture** 2) Price 3) Product name (quick ID)                                             | Needs an image and cost immediately; name confirms model/version.                                                    |
-| **1E9NE** | 1) **Clear text next to images** 2) Product content & price 3) Purchase/instalment options     | Wants concise specs alongside pictures; price clarity; evaluates payment plans or bank promos.                       |
-| **9J97Q** | 1) **Price** 2) Style/Color 3) Reviews & size chart                                            | Cost leads; must like the look; checks fit and peer feedback.                                                        |
-| **62WEN** | 1) **Pictures** 2) Text description 3) Comments                                                | Visual first, then skim details, finally read what others think.                                                     |
-| **APNOO** | 1) **How-to & safety info** 2) Brand intro & specs 3) Country of origin                        | Similar to 6N9ZO: cares about safe use, material quality, and safety perception tied to origin.                      |
-| **CBYNQ** | 1) **Price / discounts & coins** 2) Product description 3) Compliance / warning notices        | Price & perks matter; still reads description; safety/compliance warnings can become deal-breakers.                  |
-
+| Ziran ID | Feature Priority | Reasoning |
+|--------------|--------------------------|---------------------------------|
+| **ARXBP** | 1\) **Price** 2) Product description 3) Reviews (pictures also mentioned) | Wanted to know cost up-front; description “introduces the product”; reviews help judge quality before buying. |
+| **1S2SE** | 1\) **Reviews** 2) Return/Exchange info 3) Discounts | Trusts peer feedback; wants a clear path to return items that “aren’t good”; likes to save money via promotions. |
+| **2W7HO** | 1\) **Photos** 2) Price 3) Ease of site navigation / categories | Images attract clicks; price must be “acceptable, not too expensive”; prefers pages that make it easy to find items. |
+| **4XGN4** | 1\) **Product image** 2) Clearly shown price 3) Buyer-posted photos in reviews | Needs to *see* the item and its cost; relies on real-life pictures for authenticity. |
+| **BPDSA** | 1\) **Shade/Color selector** 2) Price & discounts 3) Reviews | Lip cosmetics choice hinges on the right shade; checks deals; uses reviews for finer details. |
+| **V7W8A** | 1\) **Photos** 2) Price 3) Size availability | Visual appeal first, then affordability; must confirm the size will fit. |
+| **6E5N5** | 1\) **Price / loyalty-coin offers** 2) Promo details (accumulate & earn) 3) Product description | Interested in total out-of-pocket cost and momo-coin perks; still reads basics about the bag. |
+| **6N9ZO** | 1\) **Usage & safety instructions** 2) Detailed specs & brand intro 3) Manufacturing country | An electrical item: wants to know how to use it safely, what it’s made of, and where it’s made. |
+| **17LSR** | 1\) **Price** 2) Pictures 3) Reviews | Re-ordered her answer to stress price first, visuals second, testimony third. |
+| **ANGZQ** | 1\) **Pictures** 2) Price 3) Reviews | Looks for visual appeal, good price, then social proof. |
+| **C5LGY** | 1\) **Picture** 2) Price 3) Product name (quick ID) | Needs an image and cost immediately; name confirms model/version. |
+| **1E9NE** | 1\) **Clear text next to images** 2) Product content & price 3) Purchase / instalment options | Wants concise specs alongside pictures; price clarity; evaluates payment plans or bank promos. |
+| **9J97Q** | 1\) **Price** 2) Style/Color 3) Reviews & size chart | Cost leads; must like the look; checks fit and peer feedback. |
+| **62WEN** | 1\) **Pictures** 2) Text description 3) Comments | Visual first, then skim details, finally read what others think. |
+| **APNOO** | 1\) **How-to & safety info** 2) Brand intro & specs 3) Country of origin | Similar to 6N9ZO: cares about safe use, material quality, and safety perception tied to origin. |
+| **CBYNQ** | 1\) **Price / discounts & coins** 2) Product description 3) Compliance / warning notices | Price & perks matter; still reads description; safety/compliance warnings can become deal-breakers. |
 
 ### Known Issues
 
@@ -135,28 +130,27 @@ However, usability issues surfaced regarding terminology and interface clarity. 
 
 Apart from the in-person testing, there were also over 100 college students who tested the Green Filter app on their own and reported their ideas in a survey. Here' are some excerpts.
 
-| #  | Field (abridged)                                           | Stand-out quote (translated into English)                                                                                                                                                                                                                                                                     |
-| -- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | **“Which eco-info would you like your AI buddy to show?”** | “Before I buy anything I want to check the product’s transport distance (is it local food?), how green the company’s manufacturing is, how well its workers are treated, my own monthly environmental score, and ways I can push the brands I support to become even greener—all while chatting with the AI.” |
-| 2  | **Optional comments**                                      | “I’ve heard of *carbon accounts*. People are economically rational: if going green brings no monetary return, motivation stays weak. Embedding a carbon-account system into the economy would give consumers a real incentive to choose green products and would strengthen sustainable investment.”          |
-| 3  | **“Why did you click that feature?”**                      | “I expected alternative products to pop out on the same page, not jump to a new one. And the map drew a huge red line from Taiwan to Europe to show transport distance—even though I was buying a Taiwanese brand—so I got confused.”                                                                         |
-| 4  | **“Other options you want”**                               | “Please curate sustainable habits I can *actually* adopt—like zero-waste shops near my neighborhood. Google Maps keeps showing me stores that are already closed.”                                                                                                                                            |
-| 5  | **Most useful Green Filter feature**                       | “1) Everything is in one interface, no need for extra tabs. 2) Even if the data isn’t 100 % accurate, it pushes me to dig deeper. 3) The real-time chat includes pictures and extra links.”                                                                                                                   |
-| 6  | **Least useful feature**                                   | “In general the functions are handy, but the Q\&A → Green Shopping → Question 7 is least helpful because I live in Taoyuan and stay in northern Taiwan. Adding north-area info would be better.”                                                                                                              |
-| 7  | **Biggest worry**                                          | “The world feels increasingly out of control—wars, social division, info chaos, mental-health issues. Environmental degradation is part of it: over-production and consumption that trade resources for capital.”                                                                                             |
-| 8  | **Preferred AI interaction style**                         | “Ask me things I don’t know, or help correct my English writing.”                                                                                                                                                                                                                                             |
-| 9  | **How students can influence companies**                   | “Young people are the main fast-consumption group. When they start caring and acting on environmental issues, company profits feel it, forcing firms to rethink manufacturing or confront labor rights.”                                                                                                      |
-| 10 | **Reason for boycotting a company**                        | “Food-safety scandals, and after they were convicted the firm showed no remorse—using loopholes and splitting its brands so consumers wouldn’t realize it’s the same management.”                                                                                                                             |
-| 11 | **Trusted brand**                                          | “Fresh Milk Village (*Xian-Niu-Fang*) — [https://www.bettermilk.com.tw/”](https://www.bettermilk.com.tw/”)                                                                                                                                                                                                    |
-| 12 | **Biggest influence on eco attitude**                      | “Documentaries on ecological collapse—melting ice, desertification, grassland retreat, forest fires—make me reflect on humanity’s impact.”                                                                                                                                                                    |
-
+| \# | Question | User Reasoning |
+|-----|-----------------|---------------------------------------------------|
+| 1 | **“Which eco-info would you like your AI buddy to show?”** | “Before I buy anything I want to check the product’s transport distance (is it local food?), how green the company’s manufacturing is, how well its workers are treated, my own monthly environmental score, and ways I can push the brands I support to become even greener—all while chatting with the AI.” |
+| 2 | **Optional comments** | “I’ve heard of *carbon accounts*. People are economically rational: if going green brings no monetary return, motivation stays weak. Embedding a carbon-account system into the economy would give consumers a real incentive to choose green products and would strengthen sustainable investment.” |
+| 3 | **“Why did you click that feature?”** | “I expected alternative products to pop out on the same page, not jump to a new one. And the map drew a huge red line from Taiwan to Europe to show transport distance—even though I was buying a Taiwanese brand—so I got confused.” |
+| 4 | **“Other options you want”** | “Please curate sustainable habits I can *actually* adopt—like zero-waste shops near my neighborhood. Google Maps keeps showing me stores that are already closed.” |
+| 5 | **Most useful Green Filter feature** | “1) Everything is in one interface, no need for extra tabs. 2) Even if the data isn’t 100 % accurate, it pushes me to dig deeper. 3) The real-time chat includes pictures and extra links.” |
+| 6 | **Least useful feature** | “In general the functions are handy, but the Q&A → Green Shopping → Question 7 is least helpful because I live in Taoyuan and stay in northern Taiwan. Adding north-area info would be better.” |
+| 7 | **Biggest worry** | “The world feels increasingly out of control—wars, social division, info chaos, mental-health issues. Environmental degradation is part of it: over-production and consumption that trade resources for capital.” |
+| 8 | **Preferred AI interaction style** | “Ask me things I don’t know, or help correct my English writing.” |
+| 9 | **How students can influence companies** | “Young people are the main fast-consumption group. When they start caring and acting on environmental issues, company profits feel it, forcing firms to rethink manufacturing or confront labor rights.” |
+| 10 | **Reason for boycotting a company** | “Food-safety scandals, and after they were convicted the firm showed no remorse—using loopholes and splitting its brands so consumers wouldn’t realize it’s the same management.” |
+| 11 | **Trusted brand** | “Fresh Milk Village (*Xian-Niu-Fang*) — <https://www.bettermilk.com.tw/”> |
+| 12 | **Biggest influence on eco attitude** | “Documentaries on ecological collapse—melting ice, desertification, grassland retreat, forest fires—make me reflect on humanity’s impact.” |
 
 ### Example Interview: 25 December 2024
 
 Location: Taichung, National Chung Hsing University (NCHU) Anonymous Tester Code: \[3G1RL\]
 
 | Speaker | Content |
-|-------------|-----------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | **Interviewer** | This app is part of my thesis about sustainability. First, may I record our conversation? |
 | **Participant** | Uh, yes. |
 | **Interviewer** | Have you used Momo before? |
@@ -210,10 +204,10 @@ User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 -   Doesn't notice the analysis button at first.
 -   Would only click on this button if the product is really expensive.
 -   Would not click on "continue chat button"
--   Asked "why is it so expensive in taiwan".
+-   Asked "why is it so expensive in Taiwan".
 -   Considers the report result useful.
 
-Note: There's dropoff on evey step of the user journey. Note 2: Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV. Note 3: Make use of the Chinese term: 有意識的消費主義
+Note: There's dropoff on every step of the user journey. Note 2: Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV. Note 3: Make use of the Chinese term: 有意識的消費主義
 
 RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
 
@@ -253,9 +247,9 @@ Hypothesis: ESG accessibility can push companies to increase production standard
 
 What if you can see ESG in near-realtime such as the stock market price?
 
-I can imagine ESG derivative product like siemens gamesa
+I can imagine ESG derivative product like Siemens gamesa
 
-AI can help integrate esg derivatives into daily life to drive esg adoption
+AI can help integrate ESG derivatives into daily life to drive ESG adoption
 
 "effective altruism (EA)"
 
@@ -279,15 +273,15 @@ On Momo: \* Wants to buy New Balance sneakers
 
 On DJmoney: \* Wants compare EFTs
 
-#### Monday 29. april 14:50-15:10
+#### Monday 29. April 14:50-15:10
 
 User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
 On Momo: \* Wants to buy an Apple iPhone (older model). \* Bad internet (very slow) \* App was slow \* App crashed
 
-Note: Green Filter analysis on DJmoney seems more trustworthy than the other 2 ETF sites Note 2: Button placement is important (too low on sites other than djmoney)
+Note: Green Filter analysis on DJmoney seems more trustworthy than the other 2 ETF sites Note 2: Button placement is important (too low on sites other than DJMoney)
 
-#### Sunday 28. april 16:00
+#### Sunday 28. April 16:00
 
 User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 

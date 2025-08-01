@@ -13,7 +13,7 @@ import Runaround from '../images/ai/runaround.png'
 import ChatGPTMedical from '../images/ai/chatgpt-medical.png'
 import AbstractAI from '../images/ai/abstract-ai.png'
 ```
-## Design for AI Companions
+## Designing AI Companions
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the AI chapter](./images/ai/abstract-ai.png)
@@ -287,11 +287,93 @@ Humans still need some time to adjust their expectations of *what's possible* us
 
 Speaking in the mother language of the users is a way to gain trust. English is still over-represented in current models so some local models focus on better understanding local context, such as the Finnish [@SiloAINew2024] focuses on Nordic languages. However, as time progresses, large, general-purpose LLMs may catch up and integrate all this knowledge - or even potentially being taught by the local models.
 
-### Role-play Fits Computers Into Social Contexts: AI Friends and Anthropomorphism
+### Role-play Fits Computers Into Social Contexts
+
+#### Role-play for Financial Robo-Advisors
+
+Using AI and computerized models for financial prediction is not new. [@malliarisUsingNeuralNetworks1996] applied neural networks to financial forecasting nearly three decades ago, using training data on past volatilities and factors of the options market to predict future (next-day) implied volatility (i.e. volatility not observed directly in the market but back-calculated from option prices) of the S&P 100 index (tracks the largest companies) in the U.S., demonstrating early potential of AI in financial prediction. Such tools were initially of academic interest or only accessible to financial professional. Later on fintech (financial technology) startups began bringing computerized predictive power into user interfaces available to retail investors.
+
+*Robo-advisory* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply, while human financial advisors are expensive and not affordable to most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues dynamism in understanding the client's financial situation - which AI excels at - is a key component to providing the best advice.
+
+> *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*. - [@capponiPersonalizedRoboAdvisingInteractive2019]
+
+In the early days of consumer-direct robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps shut down in the UK; ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts - the app was bought by a bank in 2021 and closed down in 2023 [@altfiETFmaticAppDownloaded2017; @altfiBelgiumsAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
+
+::: {.content-hidden unless-format="pdf"}
+![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/ai/etfmatic.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
+```
+Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. [@brownHowFinancialChatbots2021] outlines how modern financial chatbots have evolved beyond simple Q&A to offer conversational, 24/7 support across banking, investment, insurance, and more, which reduces support costs while improving responsiveness, while freeing human agents for higher-value tasks. In India, research has been conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success; India is a large financial market with more than 2000 fintechs (financial technology startups) since 2015 [@bhatiaRoboAdvisoryIts2020; @migozziYouShouldWhat2023]. [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021] compare robo-advisors and share show before GenAI, financial chatbots were developed manually using a painstaking process that was slow and error-prone. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront were forced to upgrade their technology to keep up. Robo-advisors compete with community-investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries - or can act as entry-points for these aforementioned modes of investment. However, robo-advisors typically do not have the type of social proof that community-based investment vehicle have, where the user may see the actions taken by other investors.
+
+There's research of anthropomorphism or the human-like attributes of robo-advisors, such as the aforementioned conversational chatbots, and whether anthropomorphism can affect adoption and risk preferences among customers. Several studies show that anthropomorphic robo-advisors, with stronger visual human-likeness, increase customer trust and reduce algorithm aversion [@ganboldIncreasingRelianceFinancial2022; @plotkinaGiveMeHuman2024; @hildebrandConversationalRoboAdvisors2021; @deng2021anthropomorphized]. However, it's not clear, if this explanation is tied to the avatar. The question - does the user trust a robot or a human, or is there a possible combination - has been researched in other literature, which does not rely on images. [@davidExplainableAIAdoption2021] looks at whether explainable AI could help adoption of financial AI assistants in an experimental study with players (n = 210) of an online investment game had to choose between: (a) human advice, (b) AI advice without explanation, or (c) AI advice paired with an explanation; the results showed no evidence of algorithm aversion (players did not prefer human advice to AI advice).
+
+The most comprehensive meta-review of research on how AI chatbots could mimic humans, comes from [@feineTaxonomySocialCues2019], providing an entire taxonomy of social cues for conversational agents, including verbal, visual, auditory cues, as well as other indicators humans pay attention to, such as age, yawning, laughing, posture, clothing, etc. Because this is such a useful resource, I've adapted the findings in the table below.
+
+| Category | Sub-Category | Cue | Explanation |
+|---------------|---------------|---------------|---------------------------|
+| **Verbal** | **Content** | Apology | Agent expresses regret for an error |
+|  |  | Asking for permission | Requests user approval before acting |
+|  |  | Greeting and farewell | Opens or ends the conversation politely |
+|  |  | Joke | Humorous remark to entertain |
+|  |  | Name | Addresses the user by name |
+|  |  | Opinion conformity | Shows agreement with the user’s view |
+|  |  | Praise | Compliments the user |
+|  |  | Referring to past | Mentions shared history or earlier turns |
+|  |  | Self-disclosure | Reveals personal info about the agent |
+|  |  | Small talk | Casual, topic-light chatter |
+|  |  | Thanking | Expresses gratitude |
+| **Verbal** | **Style** | Abbreviations | Uses shortened words (e.g. “BTW”) |
+|  |  | Dialect | Adopts regional or cultural language variety |
+|  |  | Formality | Chooses formal vs casual register |
+|  |  | Lexical alignment | Mirrors the user’s word choices |
+|  |  | Lexical diversity | Varies vocabulary richness |
+|  |  | Politeness | Adds courteous markers (“please”, “could you”) |
+|  |  | Sentence complexity | Varies length and structure of sentences |
+|  |  | Strength of language | Uses mild vs intense wording |
+| **Visual** | **Kinesics** | Arm and hand gesture | Animated limb movements |
+|  |  | Eye movement | Gaze shifts or blinking |
+|  |  | Facial expression | Smiles, frowns, eyebrow raises, etc. |
+|  |  | Head movement | Nods, shakes, tilts |
+|  |  | Posture shift | Whole-body stance changes |
+| **Visual** | **Proxemics** | Background | Visual environment behind the agent |
+|  |  | Conversational distance | Apparent closeness to the user |
+| **Visual** | **Appearance** | 2D / 3D agent visualization | Flat icon vs full three-dimensional model |
+|  |  | Age | Apparent age of the avatar |
+|  |  | Attractiveness | Overall aesthetic appeal |
+|  |  | Clothing | Outfit style and details |
+|  |  | Color of agent | Dominant color palette |
+|  |  | Degree of human likeness | Cartoon-like to photo-real scale |
+|  |  | Facial feature | Eye shape, mouth style, etc. |
+|  |  | Gender | Male, female, neutral presentation |
+|  |  | Name tag | On-screen label with agent’s name |
+|  |  | Photorealism | Realistic rendering quality |
+| **Visual** | **Text Styling** | Emoticons | 😊 😂 👍 style graphics |
+|  |  | Typefaces | Font choice and typography tweaks |
+| **Auditory** | **Voice Qualities** | Gender of voice | Male, female, neutral timbre |
+|  |  | Pitch range | High- vs low-pitched speech |
+|  |  | Voice tempo | Speaking speed |
+|  |  | Volume | Loudness level |
+| **Auditory** | **Vocalizations** | Grunts and moans | Non-word hesitation sounds |
+|  |  | Laughing | Laughter audio |
+|  |  | Vocal segregates | “uh-huh”, “mm-hm”, etc |
+|  |  | Yawn | Audible yawning |
+| **Invisible** | **Chronemics** | First turn | Which party speaks first |
+|  |  | Response time | Delay before replying |
+| **Invisible** | **Haptics** | Tactile touch | Device vibration or touch feedback |
+|  |  | Temperature | Warmth or coolness cues |
+
+Table: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
+
+Literature on fintech UX does share some basic tenets with AI UX on building user confidence. [@WhyDesignKey2021] lists essential tactics for building trust in fintech: (1) consistency in UI patterns, (2) transparent feedback, (3) clear error handling, and (4) educating users about data usage. [@seanmcgowanUXDesignFinTech2018] offers four guidelines for fintech apps: (1) understand domain complexities, (2) friction is necessary for safety - embrace it, (3) provide continuous and clear feedback, and (4) simplify complex financial information - this can build user confidence and reduce errors. [@cordeiroDesignNoLonger2016] emphasizes designing for the "unhappy path" - negative experiences can shape users’ perception deeply, as bad memories carve strongly in their user experience - products which handle failures and edge cases gracefully, however, stand out and maintain satisfaction. [@robindhanwaniFintechUIUX2021] approaches UX problems from an organizational perspective, noting that in large organizations, UX issues can stem for lack of alignment between teams; the authors propose *Design Jams* as a potential solution to improve cross-team collaboration - design jams are cross-functional workshops, which can help teams align on user needs, generate rapid prototypes, and iteratively refine interfaces - which, in theory, could improve the adherence to the guidelines above noted.
+
+#### AI Friends and Anthropomorphism
 
 *Affective Design* emerged from affective computing, with a focus on understanding user emotions to design UI/UX which elicits specific emotional responses [@Reynolds2001DesigningFA]. Calling a machine a friend is a proposal bound to turn heads. But if we take a step back and think about how children have been playing with toys since before we have records of history. It's very common for children to imagine stories and characters in play - it's a way to develop one's imagination *learn through role-play*. A child might have toys with human names and an imaginary friend, and it all seems very normal. Indeed, if a child doesn't like to play with toys, we might think something is wrong. Likewise, inanimate objects with human form have had a role to play for adults too. Anthropomorphic paddle dolls have been found from Egyptian tombs dated 2000 years B.C. [@PaddleDollMiddle2023]: we don't know if these dolls were for religious purposes, for play, or for something else, yet their burial with the body underlines their importance.
 
-Is anthropomorphism, being human-like necessary? (Savings literature in the Money section says it is). Research on anthropomorphism in AI literature suggests that giving an AI assistant stronger human-like cues (high-anthropomorphism) rather than weaker ones (low-anthropomorphism) leads users to view it more favorably, and this effect operates through a shorter perceived psychological distance;yet, even though many studies confirm the benefits of anthropomorphism, the precise psychological pathway behind those benefits has rarely been dissected in depth [@liAnthropomorphismBringsUs2021]. Nonetheless, people are less likely to attribute humanness to an AI companion if they understand how the system works, thus higher *algorithmic transparency may inhibit anthropomorphism* [@liuMachineGazeOnline2021].
+Is anthropomorphism, being human-like necessary? (Savings literatur says it is). Research on anthropomorphism in AI literature suggests that giving an AI assistant stronger human-like cues (high-anthropomorphism) rather than weaker ones (low-anthropomorphism) leads users to view it more favorably, and this effect operates through a shorter perceived psychological distance;yet, even though many studies confirm the benefits of anthropomorphism, the precise psychological pathway behind those benefits has rarely been dissected in depth [@liAnthropomorphismBringsUs2021]. Nonetheless, people are less likely to attribute humanness to an AI companion if they understand how the system works, thus higher *algorithmic transparency may inhibit anthropomorphism* [@liuMachineGazeOnline2021].
 
 Coming back closer to our own time, Barbie dolls are popular since their release in 1959 till today. Throughout the years, the doll would follow changing social norms, but retain in human figure. In the 1990s, a Tamagotchi is perhaps not a human-like friend but an animal-like friend, who can interact in limited ways.
 
@@ -325,7 +407,7 @@ Everything that existed before OpenAI's GPT 4 has been blown out of the water. C
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
 
-### Interfaces for Human-Computer Interaction: Speech Makes Computers Feel Real
+#### Speech Makes Computers Feel Real
 
 There's evidence across disciplines about the usefulness of AI assistants while concerns exist about the possibility of implementing privacy. One attempt at privacy is by Apple’s Foundation Language Models (AFM), which is split into a smaller on-device model and a server-side model, enabling processing of the most sensitive data directly on the user's device [@dangAppleAIUnderstanding2024]. Providing voice for the AI raises new ethical issues, as most voice assistants need to continuously record human speech and process it in data centers in the cloud.
 
@@ -439,9 +521,9 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
-### AI Safety: Transitioning to the Complexity of Non-Deterministic Systems
+### AI Trust is Incumbent on AI Safety
 
-#### The Algorithmic Experience 
+#### The Algorithmic Experience: Transitioning to the Complexity of Non-Deterministic Systems
 
 For AIs to be responsible, explainable, transparent, and safe, they need certain guardrails which need to be explicitly designed.
 
@@ -573,82 +655,3 @@ What are the next features that could improve the next-generation UX/UI of AI-ba
 
 Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
 
-#### Roleplay for Financial Robo-Advisors
-
-Using AI and computerized models for financial prediction is not new. [@malliarisUsingNeuralNetworks1996] applied neural networks to financial forecasting nearly three decades ago, using training data on past volatilities and factors of the options market to predict future (next-day) implied volatility (i.e. volatility not observed directly in the market but back-calculated from option prices) of the S&P 100 index (tracks the largest companies) in the U.S., demonstrating early potential of AI in financial prediction. Such tools were initially of academic interest or only accessible to financial professional. Later on fintech (financial technology) startups began bringing computerized predictive power into user interfaces available to retail investors.
-
-*Robo-advisory* is a fintech term that was in fashion largely before the arrival of AI assistants and has been thus superseded by newer technologies. Ideally, robo-advisors can be more dynamic than humans and respond to changes to quickly and cheaply, while human financial advisors are expensive and not affordable to most consumers. [@capponiPersonalizedRoboAdvisingInteractive2019] argues dynamism in understanding the client's financial situation - which AI excels at - is a key component to providing the best advice.
-
-> *"The client has a risk profile that varies with time and to which the robo-advisor's investment performance criterion dynamically adapts"*. The key improvement of *personalized financial advice* is understanding the user's *dynamic risk profile*. - [@capponiPersonalizedRoboAdvisingInteractive2019]
-
-In the early days of consumer-direct robo-advisory, Germany and the United Kingdom led the way with the most robo-advisory usage in Europe [@cowanRoboAdvisersStart2018]. While Germany had 30+ robot-advisors on the market in 2019, with a total of 3.9 billion EUR under robotic management, it was far less than individual apps like Betterment managed in the US [@bankinghubRoboAdvisorNew2019]. Already in 2017, several of the early robo-advisors apps shut down in the UK; ETFmatic gained the largest number of downloads by 2017, focusing exclusively on exchange-traded funds (ETFs), tracking stock-market indexes automatically, with much less sophistication, than their US counterparts - the app was bought by a bank in 2021 and closed down in 2023 [@altfiETFmaticAppDownloaded2017; @altfiBelgiumsAionBank2021; @silvaETFmaticReview2023; @ETFmaticAccountFunding2023].
-
-::: {.content-hidden unless-format="pdf"}
-![Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)](./images/ai/etfmatic.png){width="100%"}
-:::
-
-```{=mdx}
-<Figure caption="Out-of-date user interface of a European AI-Advisor ETFmatic in 2017 which was closed down in 2023 (Photo copyright ETFmatic)" src={ETF} />
-```
-Newer literature notes robo-advisor related research is scattered across disciplines [@zhuImplementingArtificialIntelligence2024]. [@brownHowFinancialChatbots2021] outlines how modern financial chatbots have evolved beyond simple Q&A to offer conversational, 24/7 support across banking, investment, insurance, and more, which reduces support costs while improving responsiveness, while freeing human agents for higher-value tasks. In India, research has been conducted on how AI advisors could assist with investors' erratic behavior in stock market volatility situations, albeit without much success; India is a large financial market with more than 2000 fintechs (financial technology startups) since 2015 [@bhatiaRoboAdvisoryIts2020; @migozziYouShouldWhat2023]. [@barbarafriedbergM1FinanceVs2021] and [@slackAturaProcess2021] compare robo-advisors and share show before GenAI, financial chatbots were developed manually using a painstaking process that was slow and error-prone. Older financial robo-advisors, built by fintech companies aiming to provide personalized suggestions for making investments such as Betterment and Wealthfront were forced to upgrade their technology to keep up. Robo-advisors compete with community-investing such as hedge funds, mutual funds, copy-trading, and DAOs with treasuries - or can act as entry-points for these aforementioned modes of investment. However, robo-advisors typically do not have the type of social proof that community-based investment vehicle have, where the user may see the actions taken by other investors.
-
-There's research of anthropomorphism or the human-like attributes of robo-advisors, such as the aforementioned conversational chatbots, and whether anthropomorphism can affect adoption and risk preferences among customers. Several studies show that anthropomorphic robo-advisors, with stronger visual human-likeness, increase customer trust and reduce algorithm aversion [@ganboldIncreasingRelianceFinancial2022; @plotkinaGiveMeHuman2024; @hildebrandConversationalRoboAdvisors2021; @deng2021anthropomorphized]. However, it's not clear, if this explanation is tied to the avatar. The question - does the user trust a robot or a human, or is there a possible combination - has been researched in other literature, which does not rely on images. [@davidExplainableAIAdoption2021] looks at whether explainable AI could help adoption of financial AI assistants in an experimental study with players (n = 210) of an online investment game had to choose between: (a) human advice, (b) AI advice without explanation, or (c) AI advice paired with an explanation; the results showed no evidence of algorithm aversion (players did not prefer human advice to AI advice).
-
-The most comprehensive meta-review of research on how AI chatbots could mimic humans, comes from [@feineTaxonomySocialCues2019], providing an entire taxonomy of social cues for conversational agents, including verbal, visual, auditory cues, as well as other indicators humans pay attention to, such as age, yawning, laughing, posture, clothing, etc. Because this is such a useful resource, I've adapted the findings in the table below.
-
-| Category | Sub-Category | Cue | Explanation |
-|---------------|---------------|---------------|---------------------------|
-| **Verbal** | **Content** | Apology | Agent expresses regret for an error |
-|  |  | Asking for permission | Requests user approval before acting |
-|  |  | Greeting and farewell | Opens or ends the conversation politely |
-|  |  | Joke | Humorous remark to entertain |
-|  |  | Name | Addresses the user by name |
-|  |  | Opinion conformity | Shows agreement with the user’s view |
-|  |  | Praise | Compliments the user |
-|  |  | Referring to past | Mentions shared history or earlier turns |
-|  |  | Self-disclosure | Reveals personal info about the agent |
-|  |  | Small talk | Casual, topic-light chatter |
-|  |  | Thanking | Expresses gratitude |
-| **Verbal** | **Style** | Abbreviations | Uses shortened words (e.g. “BTW”) |
-|  |  | Dialect | Adopts regional or cultural language variety |
-|  |  | Formality | Chooses formal vs casual register |
-|  |  | Lexical alignment | Mirrors the user’s word choices |
-|  |  | Lexical diversity | Varies vocabulary richness |
-|  |  | Politeness | Adds courteous markers (“please”, “could you”) |
-|  |  | Sentence complexity | Varies length and structure of sentences |
-|  |  | Strength of language | Uses mild vs intense wording |
-| **Visual** | **Kinesics** | Arm and hand gesture | Animated limb movements |
-|  |  | Eye movement | Gaze shifts or blinking |
-|  |  | Facial expression | Smiles, frowns, eyebrow raises, etc. |
-|  |  | Head movement | Nods, shakes, tilts |
-|  |  | Posture shift | Whole-body stance changes |
-| **Visual** | **Proxemics** | Background | Visual environment behind the agent |
-|  |  | Conversational distance | Apparent closeness to the user |
-| **Visual** | **Appearance** | 2D / 3D agent visualization | Flat icon vs full three-dimensional model |
-|  |  | Age | Apparent age of the avatar |
-|  |  | Attractiveness | Overall aesthetic appeal |
-|  |  | Clothing | Outfit style and details |
-|  |  | Color of agent | Dominant color palette |
-|  |  | Degree of human likeness | Cartoon-like to photo-real scale |
-|  |  | Facial feature | Eye shape, mouth style, etc. |
-|  |  | Gender | Male, female, neutral presentation |
-|  |  | Name tag | On-screen label with agent’s name |
-|  |  | Photorealism | Realistic rendering quality |
-| **Visual** | **Text Styling** | Emoticons | 😊 😂 👍 style graphics |
-|  |  | Typefaces | Font choice and typography tweaks |
-| **Auditory** | **Voice Qualities** | Gender of voice | Male, female, neutral timbre |
-|  |  | Pitch range | High- vs low-pitched speech |
-|  |  | Voice tempo | Speaking speed |
-|  |  | Volume | Loudness level |
-| **Auditory** | **Vocalizations** | Grunts and moans | Non-word hesitation sounds |
-|  |  | Laughing | Laughter audio |
-|  |  | Vocal segregates | “uh-huh”, “mm-hm”, etc |
-|  |  | Yawn | Audible yawning |
-| **Invisible** | **Chronemics** | First turn | Which party speaks first |
-|  |  | Response time | Delay before replying |
-| **Invisible** | **Haptics** | Tactile touch | Device vibration or touch feedback |
-|  |  | Temperature | Warmth or coolness cues |
-
-Table: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
-
-Literature on fintech UX does share some basic tenets with AI UX on building user confidence. [@WhyDesignKey2021] lists essential tactics for building trust in fintech: (1) consistency in UI patterns, (2) transparent feedback, (3) clear error handling, and (4) educating users about data usage. [@seanmcgowanUXDesignFinTech2018] offers four guidelines for fintech apps: (1) understand domain complexities, (2) friction is necessary for safety - embrace it, (3) provide continuous and clear feedback, and (4) simplify complex financial information - this can build user confidence and reduce errors. [@cordeiroDesignNoLonger2016] emphasizes designing for the "unhappy path" - negative experiences can shape users’ perception deeply, as bad memories carve strongly in their user experience - products which handle failures and edge cases gracefully, however, stand out and maintain satisfaction. [@robindhanwaniFintechUIUX2021] approaches UX problems from an organizational perspective, noting that in large organizations, UX issues can stem for lack of alignment between teams; the authors propose *Design Jams* as a potential solution to improve cross-team collaboration - design jams are cross-functional workshops, which can help teams align on user needs, generate rapid prototypes, and iteratively refine interfaces - which, in theory, could improve the adherence to the guidelines above noted.
