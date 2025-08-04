@@ -16,9 +16,9 @@ Designing for Taiwanese college students requires developing and understanding o
 
 Many general observations could be made, for example:
 
-- Students ride bicycles and scooters. 
-- Students live in dorms and shared housing, meaning their impact per square meter is low. 
-- Circular economy services such as YouBike are available in Taiwan and used by a portion of the students.
+-   Students ride bicycles and scooters.
+-   Students live in dorms and shared housing, meaning their impact per square meter is low.
+-   Circular economy services such as YouBike are available in Taiwan and used by a portion of the students.
 
 However, to create more meaningful personas, personas should be more specific and backed up with data. In the following chapter I will describe in detail the process of designing Green Filter.
 
@@ -33,7 +33,6 @@ As discussed in the literature review AI section, Replika was one of the inspira
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-
 ### Pollution Exposure Tracking
 
 Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the ATMO Atmotube Pro device attached to my backpack.
