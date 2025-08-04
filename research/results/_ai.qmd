@@ -13,7 +13,7 @@ AI-assistant feature choices per Likert-based Personas
 likert_cluster_and_visualize()
 ```
 
-This chart visualizes three distinct personas based on 36 Likert answers: Eco-Friendly (n=340), Moderate (n=215), and Frugal (n=126) based on their overall sentiment profiles.
+This chart visualizes three distinct personas based on 36 likert answers: Eco-Friendly (n=340), Moderate (n=215), and Frugal (n=126) based on their overall sentiment profiles.
 
 Want:
 - Product origin
@@ -26,8 +26,8 @@ Don't Want:
 - Eco-friends
 - ...
 
-## Feature-Based Clustering
-Clustering students based on AI-assistant feature choices.
+### Feature-Based Clustering
+Here I've clustered the students based on AI-assistant feature choices.
 
 Want:
 - Product origin
@@ -43,7 +43,7 @@ Want:
 radar_chart()
 ```
 
-## Feature Preferences (By Cluster)
+### Feature Preferences (By Cluster)
 ```{python}
 #| label: fig-ai-features-pref-cluster
 #| fig-cap: "AI-Assistant Feature Preferences (By Cluster)"
@@ -51,7 +51,7 @@ radar_chart()
 plot_feature_preferences()
 ```
 
-## Preferred AI Roles (Overall)
+### Preferred AI Roles (Overall)
 ```{python}
 #| label: fig-ai-role-pref
 #| fig-cap: "AI-Assistant Role Preferences"

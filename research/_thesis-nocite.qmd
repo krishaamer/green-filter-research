@@ -132,15 +132,19 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "results/_ideas.qmd" >}}
+{{< include "discussion/_index.qmd" >}}
 
 \newpage
 
-{{< include "results/_interactive.qmd" >}}
+{{< include "discussion/_process.qmd" >}}
 
 \newpage
 
-{{< include "_discussion.qmd" >}}
+{{< include "discussion/_ideas.qmd" >}}
+
+\newpage
+
+{{< include "discussion/_prototype.qmd" >}}
 
 \newpage
 

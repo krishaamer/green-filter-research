@@ -1,9 +1,0 @@
----
-title: Interactive Prototype
-sidebar_position: 1
-editor:
-    render-on-save: false
-suppress-bibliography: true
----
-
-{{< include "_interactive.qmd" >}}

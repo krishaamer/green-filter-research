@@ -73,7 +73,7 @@ In order to provide human feedback, systems need to be able to distinguish human
 
 Gitcoin's Passport pulls together proofs of identity from web2 platforms - but adds a unique twist: "Cost of Forgery" as a protection against fake users (aka Sybil attacks, where a malicious person fakes identities so it looks like many independent users), it becomes more expensive for them to do so, turning attack pressure into a self-reinforcing defense; however, while this approach works, it does set a very high bar for users to comply, and requires a cryptocurrency to set the price for the attacks [@gitcoinpassport2023]. In contrast, another popular proof-of-personhood protocol called World, verifies humanness via physical scans of human iris', captured by its Orb device; and again using cryptography, to compare a proof (ZK-SNARK) against a centralized database [@gentCryptocurrencyMassesUniversal2023]. From the user experience perspective, this approach is much simpler (while needing physical presence for the iris scan). Given that World was co-founded by the OpenAI co-founder Sam Altman, this may be one way he plans to counter the possible societal disruptions accelerated by OpenAI's products.
 
-### AI as the *Idiot Savant*
+### AI as an *Idiot Savant*
 
 Hinton likes to call AI an *idiot savant*: someone with exceptional aptitude yet serious mental disorder [@cbsmorningsFullInterviewGodfather2023]. Large AI models don't understand the world like humans do. Their responses are predictions based on their training data and complex statistics. Indeed, the comparison is apt, as the AI field now offers jobs for *AI psychologists*, whose role is to figure out what exactly is happening inside the 'AI brain' [@waddellAIMightNeed2018]. Understanding the insides of AI models trained of massive amounts of data is important because they are *foundational*, enabling a holistic approach to learning, combining many disciplines using languages, instead of the reductionist way we as human think because of our limitations [@capinstituteGettingRealArtificial2023]. Hinton received a Nobel Prize for modeling how the brain works and coming up with the idea of predicting the next word in a sequence, already in 1986, which later became the basis for large language models [@cbsmorningsAIPioneerGeoffrey2025].
 
@@ -287,9 +287,9 @@ Humans still need some time to adjust their expectations of *what's possible* us
 
 Speaking in the mother language of the users is a way to gain trust. English is still over-represented in current models so some local models focus on better understanding local context, such as the Finnish [@SiloAINew2024] focuses on Nordic languages. However, as time progresses, large, general-purpose LLMs may catch up and integrate all this knowledge - or even potentially being taught by the local models.
 
-### Role-play Fits Computers Into Social Contexts
+### Role-Play Fits Computers Into Social Contexts
 
-#### Role-play for Financial Robo-Advisors
+#### Role-Play for Financial Robo-Advisors
 
 Using AI and computerized models for financial prediction is not new. [@malliarisUsingNeuralNetworks1996] applied neural networks to financial forecasting nearly three decades ago, using training data on past volatilities and factors of the options market to predict future (next-day) implied volatility (i.e. volatility not observed directly in the market but back-calculated from option prices) of the S&P 100 index (tracks the largest companies) in the U.S., demonstrating early potential of AI in financial prediction. Such tools were initially of academic interest or only accessible to financial professional. Later on fintech (financial technology) startups began bringing computerized predictive power into user interfaces available to retail investors.
 
@@ -369,11 +369,13 @@ Table: Comprehensive overview of social cues with potential for use in AI conver
 
 Literature on fintech UX does share some basic tenets with AI UX on building user confidence. [@WhyDesignKey2021] lists essential tactics for building trust in fintech: (1) consistency in UI patterns, (2) transparent feedback, (3) clear error handling, and (4) educating users about data usage. [@seanmcgowanUXDesignFinTech2018] offers four guidelines for fintech apps: (1) understand domain complexities, (2) friction is necessary for safety - embrace it, (3) provide continuous and clear feedback, and (4) simplify complex financial information - this can build user confidence and reduce errors. [@cordeiroDesignNoLonger2016] emphasizes designing for the "unhappy path" - negative experiences can shape users’ perception deeply, as bad memories carve strongly in their user experience - products which handle failures and edge cases gracefully, however, stand out and maintain satisfaction. [@robindhanwaniFintechUIUX2021] approaches UX problems from an organizational perspective, noting that in large organizations, UX issues can stem for lack of alignment between teams; the authors propose *Design Jams* as a potential solution to improve cross-team collaboration - design jams are cross-functional workshops, which can help teams align on user needs, generate rapid prototypes, and iteratively refine interfaces - which, in theory, could improve the adherence to the guidelines above noted.
 
-#### AI Friends and Anthropomorphism
+### Anthropomorphism in AI Friends and Companions
+
+In general, anthropomorphism supports user engagement and the specific contexts are discussed below.
 
 *Affective Design* emerged from affective computing, with a focus on understanding user emotions to design UI/UX which elicits specific emotional responses [@Reynolds2001DesigningFA]. Calling a machine a friend is a proposal bound to turn heads. But if we take a step back and think about how children have been playing with toys since before we have records of history. It's very common for children to imagine stories and characters in play - it's a way to develop one's imagination *learn through role-play*. A child might have toys with human names and an imaginary friend, and it all seems very normal. Indeed, if a child doesn't like to play with toys, we might think something is wrong. Likewise, inanimate objects with human form have had a role to play for adults too. Anthropomorphic paddle dolls have been found from Egyptian tombs dated 2000 years B.C. [@PaddleDollMiddle2023]: we don't know if these dolls were for religious purposes, for play, or for something else, yet their burial with the body underlines their importance.
 
-Is anthropomorphism, being human-like necessary? (Savings literatur says it is). Research on anthropomorphism in AI literature suggests that giving an AI assistant stronger human-like cues (high-anthropomorphism) rather than weaker ones (low-anthropomorphism) leads users to view it more favorably, and this effect operates through a shorter perceived psychological distance;yet, even though many studies confirm the benefits of anthropomorphism, the precise psychological pathway behind those benefits has rarely been dissected in depth [@liAnthropomorphismBringsUs2021]. Nonetheless, people are less likely to attribute humanness to an AI companion if they understand how the system works, thus higher *algorithmic transparency may inhibit anthropomorphism* [@liuMachineGazeOnline2021].
+Is anthropomorphism, being human-like necessary? (savings literature says it is). Research on anthropomorphism in AI literature suggests that giving an AI assistant stronger human-like cues (high-anthropomorphism) rather than weaker ones (low-anthropomorphism) leads users to view it more favorably, and this effect operates through a shorter perceived psychological distance;yet, even though many studies confirm the benefits of anthropomorphism, the precise psychological pathway behind those benefits has rarely been dissected in depth [@liAnthropomorphismBringsUs2021]. Nonetheless, people are less likely to attribute humanness to an AI companion if they understand how the system works, thus higher *algorithmic transparency may inhibit anthropomorphism* [@liuMachineGazeOnline2021].
 
 Coming back closer to our own time, Barbie dolls are popular since their release in 1959 till today. Throughout the years, the doll would follow changing social norms, but retain in human figure. In the 1990s, a Tamagotchi is perhaps not a human-like friend but an animal-like friend, who can interact in limited ways.
 
@@ -407,6 +409,48 @@ Everything that existed before OpenAI's GPT 4 has been blown out of the water. C
 
 Pre-2023 literature is somewhat limited when it comes to AI companions as the advantage of LLMs has significantly raised the bar for AI-advisor abilities as well as user expectations. Before AI, chatbots struggled with evolving human language, understanding the complexity of context, irregular grammar, slang, etc [@lowerChatbotsTooGood2017]. Some evergreen advice most relates to human psychology, which has remained the same. [@haugelandUnderstandingUserExperience2022] discusses *hedonic user experience* in chatbots and [@stephhayEnoFinancialAI2017] explains the relationship between emotions and financial AI. [@isabellaghassemismithInterviewDanielBaeriswyl2019] early performance metrics of AI-driven features across financial markets show that AI outperforms traditional quant strategies, which will lead to wider adoption of autonomously generated investment signals.
 
+#### The Psychology Saving: Anthropomorphism and Loyalty Schemes
+
+There are at least two ways to look at sustainable savings, however related. In general, people will save nature if it also saves money. This section looks at savings in the *financial* sense of the word. Savings in the sense of CO~2~e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
+
+> *Environmental Savings* means *"the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future*" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
+
+Savings in CO~2~e equivalent emissions: CO~2~e savings are the amount of CO~2~e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
+
+In theory, ethical savings accounts only finance businesses aligned with the customers’ values: screening out problematic and potentially harmful industries such as fossil fuels, tobacco, weapons, etc.; in practice, one should carefully evaluate a bank’s investment principles, environmental policies and governance practices [@EthicalSavingsEverything2023].
+
+Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus, the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022]. While many Estonians used the money for consumption, some people invested their retirement funds in crypto[@martenpollumeesKuhuInvesteeritiLHV2022].
+
+Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. One experimental study showed people think about putting money in a “safe” place and *money anthropomorphism* increased saving behavior by 18% [@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021]. Nerdwallet's [@tommytindallFinancialActionsSpeak2023] suggests making *financial commitment*s instead of resolutions, in order to successfully save money.
+
+Help consumers save money and business increase repeat business. Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
+
+| Company           | Scheme                     |
+|-------------------|----------------------------|
+| **Patagonia**     | "Worn Wear" program        |
+| **H&M**           | Garment Collecting program |
+| **The Body Shop** | Return, Recycle, Repeat    |
+
+: Example sustainable loyalty schemes
+
+Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
+
+[@yuanSocialAnxietyModerator2022] surveyed mainland Chinese consumers (n = 210, no age range given), finding that users with high social anxiety lean on hedonic and emotional cues, especially a friendly anthropomorphic interface and a sense of affinity (when those cues are strong, their intention to adopt the AI assistant is as high, and sometimes higher, than that of users with low social anxiety) - in contrast, users with low social anxiety are influenced mainly by utilitarian cues such as accuracy and speed; these functional advantages carry less weight for the high social anxiety group. Perhaps a crude conclusion, but useful for design, would be, people with high social anxiety like cute things.
+
+[@xuWeSeeMachines2018] survey (n = 522) examined how people perceive the minds of machines versus humans along agency (ability to act) and experience (ability to feel), finding among machines those with human-like appearance were seen as having the greatest agency and experience; being more familiar how technology works, correlated with rating machines to have higher agency but lower experience.
+
+What are the next features that could improve the next-generation UX/UI of AI-based assistants? Should AIs look anthropomorphic or fade in the background? It's an open question (depending on the use case and psychology of the user); perhaps we can expect a mix of both, depending on the context of use and goals of the particular AI. [@skipperHowAIChanging2022] sketches a vision of *"\[AI\] blend into our lives in a form of apps and services"* deeply ingrained into daily human activity. [@aschenbrennerSITUATIONALAWARENESSDecade2024] predicts "drop-in virtual coworkers", AI-agents who are able to use computer systems like a human seamlessly replacing human employees.
+
+| Anthropomorphic AI User Interfaces | Non-Anthropomorphic AI User Interfaces |
+|--------------------------|----------------------------------------------|
+| AI wife [@MyWifeDead2023] | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |
+| [@sarahperezCharacterAIA16zbacked2023] character AI | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020] |
+| Mourning for the 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023] |
+| AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |
+| Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |
+
+Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
+
 #### Speech Makes Computers Feel Real
 
 There's evidence across disciplines about the usefulness of AI assistants while concerns exist about the possibility of implementing privacy. One attempt at privacy is by Apple’s Foundation Language Models (AFM), which is split into a smaller on-device model and a server-side model, enabling processing of the most sensitive data directly on the user's device [@dangAppleAIUnderstanding2024]. Providing voice for the AI raises new ethical issues, as most voice assistants need to continuously record human speech and process it in data centers in the cloud.
@@ -423,7 +467,7 @@ Design guidelines for optimal design performance can be extremely specific. [@ca
 
 Some research suggests that voice UI accompanied by a *physical embodied system* is the preferred by users in comparison with voice-only UI [@CELINO2020102410].
 
-### Generative UIs: Bridging Attitude-Behavior Gap with AI Support
+### AI Support for Attitude-Behavior Gap: GenUIs
 
 The "grandfather" of user experience design, [@nielsenAccessibilityHasFailed2024] recounts how 30 years of work towards usability has largely failed - computers are still not accessible enough; however, he has hope Generative UI could offer a chance to provide levels of accessibility humans could not.
 
@@ -460,7 +504,25 @@ A wide range of literature describes human-AI interactions, spread out over vari
 
 Table: A very small illustration of generative AI usage across disparate fields of human life. []{short-caption="GenAI Use Across Fields"}
 
-### Usability Is the Bare Minimum of Good User Experience
+#### Human-Computer Interactions Without a "Computer"
+
+AI deeply affects Human-Computer Interactions even if the computer is invisible. The field of Human Factors and Ergonomics (HFE) emphasizes designing user experiences (UX) that cater to human needs [@theinternationalergonomicsassociationHumanFactorsErgonomics2019]. Designers think through every interaction of the user with a system and consider a set of metrics at each point of interaction including the user's context of use and emotional needs.
+
+Software designers, unlike industrial designers, can't physically alter the ergonomics of a device, which should be optimized for human well-being to begin with and form a cohesive experience together with the software. However, software designers can significantly reduce mental strain by crafting easy-to-use software and user-friendly user journeys. Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content at the right time, making a profound difference to the experience, keeping the user engaged and returning for more. In the words of [@babichInteractionDesignVs2019], "\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system."
+
+Drawing a parallel from narrative studies terminology, we can view user interaction as a heroic journey of the user to achieve their goals, by navigating through the interface until a success state - or facing failure. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
+
+[@tubikstudioUXDesignGlossary2018] argues *affordance* measures the *clarity* of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
+
+For the vast majority of this study's target audience (college students), social media can be assumed as the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations (as of writing in 2020).
+
+[@shinUserExperienceWhat2020] proposes the model (fig. 10) of Algorithmic Experience (AX) *"investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance"* highlighting how interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level.
+
+In 2020 (when I proposed this thesis topic), Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards *understanding* human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
+
+Intelligence may be beside the point as long as AI *becomes very good at reasoning*. AI is a *reasoning engine* [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"How do you transition from mass marketing to mass personalization?"*
+
+#### Usability Is the Bare Minimum of Good User Experience
 
 Many researchers have discussed the user experience (UX) principles of designing AI products. The UX of AI (terms such as AI UX, IXD, and XAI have been used) is the subject of several *usability guidelines* for AI, which provide actionable advice for improving AI usability and UX - some of which I will list here.
 
@@ -521,7 +583,7 @@ Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a vari
 
 With the advent of ChatGPT, the story of Clippy has new relevance as part of the history of AI Assistants. [@benjamincassidyTwistedLifeClippy2022] and [@abigailcainLifeDeathMicrosoft2017] illustrate beautifully the story of Clippy and [@tashkeunemanWeLoveHate2022] asks poignantly: *"We love to hate Clippy --- but what if Clippy was right?"*. That is to say, might we try again? And Microsoft has been trying again, being one of the leading investors in the AI models that eventually make a better UX possible. Just one example is a project from Microsoft Research, which generates life-like speaking faces from a single image and voice clip, which could empower true-to-life avatars [@xuVASA1LifelikeAudioDriven2024]. However, purely on the economic side, processing human voice and images is several times more expensive than processing text messages [@mittalLittleLittleLittle2025]. More required processing power also means, these new interfaces are likely less sustainable.
 
-### AI Trust is Incumbent on AI Safety
+### AI Trust and Safety
 
 #### The Algorithmic Experience: Transitioning to the Complexity of Non-Deterministic Systems
 
@@ -592,66 +654,3 @@ Example of ChatGPT explaining medical terminology in a blood report.
 <Figure caption="Example of ChatGPT explaining medical terminology in my blood report." src={ChatGPTMedical} />
 ```
 Today's AI is already a technology which can augment human skills or replace skills that were lost due to an accident. For instance, [@dotgoDotGo2023] makes the camera the interaction device for people with vision impairment. [@nathanbenaichStateAIReport2022] report notes the increasing AI deployment in critical infrastructure and biology, intensifying geopolitics in AI, growth of the safety research community.
-
-### Human-Computer Interactions Without a "Computer"
-
-AI deeply affects Human-Computer Interactions even if the computer is invisible. The field of Human Factors and Ergonomics (HFE) emphasizes designing user experiences (UX) that cater to human needs [@theinternationalergonomicsassociationHumanFactorsErgonomics2019]. Designers think through every interaction of the user with a system and consider a set of metrics at each point of interaction including the user's context of use and emotional needs.
-
-Software designers, unlike industrial designers, can't physically alter the ergonomics of a device, which should be optimized for human well-being to begin with and form a cohesive experience together with the software. However, software designers can significantly reduce mental strain by crafting easy-to-use software and user-friendly user journeys. Software interaction design goes beyond the form-factor and accounts for human needs by using responsive design on the screen, aural feedback cues in sound design, and even more crucially, by showing the relevant content at the right time, making a profound difference to the experience, keeping the user engaged and returning for more. In the words of [@babichInteractionDesignVs2019], "\[T\]he moment of interaction is just a part of the journey that a user goes through when they interact with a product. User experience design accounts for all user-facing aspects of a product or system."
-
-Drawing a parallel from narrative studies terminology, we can view user interaction as a heroic journey of the user to achieve their goals, by navigating through the interface until a success state - or facing failure. Storytelling has its part in interface design however designing for transparency is just as important, when we're dealing with the user's finances and sustainability data, which need to be communicated clearly and accurately, to build long-term trust in the service. For a sustainable investment service, getting to a state of success - or failure - may take years, and even longer. Given such long timeframes, how can the app provide support to the user's emotional and practical needs throughout the journey?
-
-[@tubikstudioUXDesignGlossary2018] argues *affordance* measures the *clarity* of the interface to take action in user experience design, rooted in human visual perception, however, affected by knowledge of the world around us. A famous example is the door handle - by way of acculturation, most of us would immediately know how to use it - however, would that be the case for someone who saw a door handle for the first time? A similar situation is happening to the people born today. Think of all the technologies they have not seen before - what will be the interface they feel the most comfortable with?
-
-For the vast majority of this study's target audience (college students), social media can be assumed as the primary interface through which they experience daily life. The widespread availability of mobile devices, cheap internet access, and AI-based optimizations for user retention, implemented by social media companies, means this is the baseline for young adult users' expectations (as of writing in 2020).
-
-[@shinUserExperienceWhat2020] proposes the model (fig. 10) of Algorithmic Experience (AX) *"investigating the nature and processes through which users perceive and actualize the potential for algorithmic affordance"* highlighting how interaction design is increasingly becoming dependent on AI. The user interface might remain the same in terms of architecture, but the content is improved, based on personalization and understanding the user at a deeper level.
-
-In 2020 (when I proposed this thesis topic), Google had recently launched an improved natural language engine to better understand search queries [@UnderstandingSearchesBetter2019], which was considered the next step towards *understanding* human language semantics. The trend was clear, and different types of algorithms were already involved in many types of interaction design, however, we were in the early stages of this technology (and still are *early* in 2024). Today's ChatGPT, Claude and Gemini have no problem understanding human semantics - yet are they intelligent?
-
-Intelligence may be beside the point as long as AI *becomes very good at reasoning*. AI is a *reasoning engine* [@shipperGPT4ReasoningEngine2023; @bubeckSparksArtificialGeneral2023; see @baileyAIEducation2023 for a summary]. That general observation applies to voice recognition, voice generation, natural language parsing, among others. Large consumer companies like McDonald's are in the process of replacing human staff with AI assistants in the drive-through, which can do a better job in providing a personal service than human clerks, for whom it would be impossible to remember the information of thousands of clients. In [@barrettMcDonaldAcquiresMachineLearning2019], in the words of *Easterbrook*, a previous CEO of McDonald's *"How do you transition from mass marketing to mass personalization?"*
-
-### Anthropomorphism and User Engagement in AI Companions
-
-#### The Psychology Saving: Anthropomorphism and Loyalty Schemes
-
-There are at least two ways to look at sustainable savings, however related. In general, people will save nature if it also saves money. This section looks at savings in the *financial* sense of the word. Savings in the sense of CO~2~e emission and environmental cost reductions have an entire separate chapter dedicated to them titled '*sustainability*' however a short definition might be valuable here as well.
-
-> *Environmental Savings* means *"the credit incurred by a community that invests in environmental protection now instead of paying more for corrective action in the future*" [see @yalecenterforenvironmentallaw&policyEnvironmentalPerformanceIndex2018] and [@YalePrincetonStanford p.33].
-
-Savings in CO~2~e equivalent emissions: CO~2~e savings are the amount of CO~2~e reduction one manages to achieve by changing one's behavior and influencing others (people, companies). While the individual footprint is so small, the largest reduction will come from influencing large groups of people, either by leadership, role-model, or other means.
-
-In theory, ethical savings accounts only finance businesses aligned with the customers’ values: screening out problematic and potentially harmful industries such as fossil fuels, tobacco, weapons, etc.; in practice, one should carefully evaluate a bank’s investment principles, environmental policies and governance practices [@EthicalSavingsEverything2023].
-
-Pension funds are some of the largest asset holders and choosing where to invest one's pension can be a sustainable financial action. College students might not have a pension fund yet, however their financial savvy will influence their choices in the future. Savings and investing are somewhat conflated because the large majority of savings that people have are invested by their banks. Thus, the question of *sustainable savings* comes one of where exactly are they invested and what is the impact of that investment of sustainability. Savings are the money one has in a pension fund or managed by themselves. For the majority of people, savings are invested by the bank and make up the largest proportion on investments for the people who are not active investors themselves. However, there are cases where people manage their pensions themselves; for example due to a law change Estonian could take out their entire accumulated pension and invest or spend them however they wanted [@raidotonissonSedaAktsionaridOstaksid2022]. While many Estonians used the money for consumption, some people invested their retirement funds in crypto[@martenpollumeesKuhuInvesteeritiLHV2022].
-
-Saving precedes investing. From building loyalty to building ownership, the first step towards investing is to start saving money. How to encourage savings in daily life and make it a part of the everyday payments experience? Even starting with a small step, gathering a small target amount per month for savings, has the potential to shift the user's way of thinking about money. The second step, choosing where to invest these savings, will help us begin thinking like an investor. To start noticing trends and looking into how finance shapes the world. One experimental study showed people think about putting money in a “safe” place and *money anthropomorphism* increased saving behavior by 18% [@wangMoneySafePlace2023]. Mobile money users are better at saving [@naitoEffectMobileMoney2021]. Nerdwallet's [@tommytindallFinancialActionsSpeak2023] suggests making *financial commitment*s instead of resolutions, in order to successfully save money.
-
-Help consumers save money and business increase repeat business. Building customer loyalty is a key part of repeat business and financial predictability for any company. Large consumer brands like Starbucks have for long ran successful rewards programs that encourage customers to come back [@steinhoffLoyaltyProgramsTravel2021]. Could loyalty schemes create a pathway to investing in the company to strengthen the feeling of connection with the business even further? After all, I'm now a minority owner! Yet in practice, many consumers lack the financial literacy for investing and there are many legislative difficulties for turning loyalty points into investments. It's easier instead to create a separate cryptocurrency or token program which users could collect and redeem for some benefit.
-
-| Company           | Scheme                     |
-|-------------------|----------------------------|
-| **Patagonia**     | "Worn Wear" program        |
-| **H&M**           | Garment Collecting program |
-| **The Body Shop** | Return, Recycle, Repeat    |
-
-: Example sustainable loyalty schemes
-
-Loyalty schemes can take a physical form. In Malaysia, Beebag shopping bags made of recycled plastic bottles with a NFC ship that works in conjunction with an app to provide rebates for customers [@thegreenfactorEP62Gamification2022].
-
-[@yuanSocialAnxietyModerator2022] surveyed mainland Chinese consumers (n = 210, no age range given), finding that users with high social anxiety lean on hedonic and emotional cues, especially a friendly anthropomorphic interface and a sense of affinity (when those cues are strong, their intention to adopt the AI assistant is as high, and sometimes higher, than that of users with low social anxiety) - in contrast, users with low social anxiety are influenced mainly by utilitarian cues such as accuracy and speed; these functional advantages carry less weight for the high social anxiety group. Perhaps a crude conclusion, but useful for design, would be, people with high social anxiety like cute things.
-
-[@xuWeSeeMachines2018] survey (n = 522) examined how people perceive the minds of machines versus humans along agency (ability to act) and experience (ability to feel), finding among machines those with human-like appearance were seen as having the greatest agency and experience; being more familiar how technology works, correlated with rating machines to have higher agency but lower experience.
-
-What are the next features that could improve the next-generation UX/UI of AI-based assistants? Should AIs look anthropomorphic or fade in the background? It's an open question (depending on the use case and psychology of the user); perhaps we can expect a mix of both, depending on the context of use and goals of the particular AI. [@skipperHowAIChanging2022] sketches a vision of *"\[AI\] blend into our lives in a form of apps and services"* deeply ingrained into daily human activity. [@aschenbrennerSITUATIONALAWARENESSDecade2024] predicts "drop-in virtual coworkers", AI-agents who are able to use computer systems like a human seamlessly replacing human employees.
-
-| Anthropomorphic AI User Interfaces | Non-Anthropomorphic AI User Interfaces |
-|--------------------------|----------------------------------------------|
-| AI wife [@MyWifeDead2023] | Generative AI has enabled developers to create AI tools for several industries, including AI-driven website builders [@constandseHowAIdrivenWebsite2018] |
-| [@sarahperezCharacterAIA16zbacked2023] character AI | AI tools for web designers [@patrizia-slongoAIpoweredToolsWeb2020] |
-| Mourning for the 'dead' AI [@phoebearslanagic-wakefieldReplikaUsersMourn] | Microsoft Designer allows generating UIs just based on a text prompt [@microsoftMicrosoftDesignerStunning2023] |
-| AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |
-| Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |
-
-Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
-

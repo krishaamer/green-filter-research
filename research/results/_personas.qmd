@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 
 ## Personas
 
-### Clustering Students to Build Personas
+### Clustering College Students to Build Personas
 
 Customer segmentation
 
@@ -60,7 +60,7 @@ Questions Most Affecting Persona Creation include...
 show_single_persona(2)
 ```
 
-## Clustering Heatmap
+### Clustering Heatmap
 
 ```{python}
 #| label: fig-survey-heatmap
@@ -69,7 +69,7 @@ show_single_persona(2)
 show_clustering_heatmap()
 ```
 
-## Mean Answer Scores
+### Mean Answer Scores
 
 Mean response values for each Likert question in each cluster:
 
@@ -80,7 +80,7 @@ Mean response values for each Likert question in each cluster:
 get_kmeans_table()
 ```
 
-## Agreement Between Personas
+### Agreement Between Personas
 
 There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy. Highest agreement between personas is about health, safety, pollution and climate concerns.
 
@@ -105,7 +105,7 @@ In summary, *Safety \> Planet \> Personal Eco-action*. Students first protect th
 
 *Design Implications*: Frame eco-features around personal health wins to boost engagement. App idea: Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.
 
-## Notable Quotes from the Survey
+### Notable Quotes from the Survey
 
 The survey also included textual fields where college students could express their ideas in their owns words. Here are some quotes, which show the attitudes and feelings of the students.
 

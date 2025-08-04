@@ -1,0 +1,219 @@
+```{=mdx}
+import MyEmbed from '/src/components/Embed'
+import Figure from '/src/components/Figure'
+// On Momo
+import Momo from "/research/images/interactive/momo/momo.png";
+import Review from "/research/images/interactive/momo/review.png";
+import Save from "/research/images/interactive/momo/save.png";
+import Invest from "/research/images/interactive/momo/invest.png";
+// On Ziran
+import Home from "/research/images/interactive/companion/home.png";
+import ChatCompare from "/research/images/interactive/companion/chat-compare.png";
+import Factory from "/research/images/interactive/companion/factory.png";
+import FAQShop from "/research/images/interactive/companion/faq-shop.png";
+import FAQSave from "/research/images/interactive/companion/faq-save.png";
+import FAQInvest from "/research/images/interactive/companion/faq-invest.png";
+import Map from "/research/images/interactive/companion/map.png";
+import ChatAsk from "/research/images/interactive/companion/chat-ask.png";
+```
+```{python}
+from data.discussion import app_installs
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+## Prototype Design, Development, and Features
+
+The interactive prototype of Green Filter is publicly available at the Google Chrome extensions store and separately at the AI companion's website.
+
+-   Google Chrome Extension Store: https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg -
+
+-   Green Filter "Ziran AI" Website: https://ai.ziran.tw/
+
+### Prototype Architecture
+
+-   Google Chrome browser extension
+-   API micro-service
+-   Ziran AI
+-   AI back-end
+-   Ratings API
+-   Redis testing AI results
+-   Redis Page cache / from page / separate scraping service
+-   Documentation: Green Filter thesis website / GitHub
+-   AI API GPT / Claude
+-   Stock ratings API
+-   Community ratings API
+
+70 Questions
+
+-   Use of *Report ID* to do anonymous testing
+
+-   Page tracking to track the usage -
+
+-   7 app questions
+
+-   63 personality questions
+
+Other Tools Used:
+
+-   QR generator in Canva
+
+-   Postman for API testing
+
+### Google Chrome Extension App Installs
+
+While Google is the most popular browser with over 3.45 billion users [@GoogleChromeStatistics2023], extensions are a relatively less known feature of the browser. Most popular extensions are Grammarly, for Taiwanese students End Note is familiar. However, it's only available for computers (extensions don't run on phones and tablets).
+
+```{python}
+#| label: fig-app-installs
+#| fig-cap: "Green Filter Google Chrome Extension Installs"
+#| fig-scap: "Green Filter Google Chrome Extension Installs"
+app_installs()
+```
+
+### Momo AI Extension
+
+::: {.content-hidden unless-format="pdf"}
+![Momo](./images/interactive/momo/momo.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Momo"
+  src={Momo}
+/>
+```
+#### Review
+
+::: {.content-hidden unless-format="pdf"}
+![Review](./images/interactive/momo/review.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Review"
+  src={Review}
+/>
+```
+#### Save
+
+::: {.content-hidden unless-format="pdf"}
+![Save](./images/interactive/momo/save.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Save"
+  src={Save}
+/>
+```
+#### Invest
+
+::: {.content-hidden unless-format="pdf"}
+![Invest](./images/interactive/momo/invest.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Invest"
+  src={Invest}
+/>
+```
+### AI Companion
+
+::: {.content-hidden unless-format="pdf"}
+![Home](./images/interactive/companion/home.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Home"
+  src={Home}
+/>
+```
+#### Factory
+
+::: {.content-hidden unless-format="pdf"}
+![Factory](./images/interactive/companion/factory.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Factory"
+  src={Factory}
+/>
+```
+#### Map
+
+::: {.content-hidden unless-format="pdf"}
+![Map](./images/interactive/companion/map.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Map"
+  src={Map}
+/>
+```
+#### FAQ
+
+The AI companion lists a number of basic questions to prompt the user to start a conversation. Feasibly, these could be personalized as the AI better understand the user and their experience thus far.
+
+::: {.content-hidden unless-format="pdf"}
+![FAQ Shop](./images/interactive/companion/faq-shop.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="FAQ Shop"
+  src={FAQShop}
+/>
+```
+Everything starts with shopping; this is the first use-case for money.
+
+::: {.content-hidden unless-format="pdf"}
+![FAQ Save](./images/interactive/companion/faq-save.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="FAQ Save"
+  src={FAQSave}
+/>
+```
+One the user begins saving money, they'll have a source of funds to direct to investing.
+
+::: {.content-hidden unless-format="pdf"}
+![FAQ Invest](./images/interactive/companion/faq-invest.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="FAQ Invest"
+  src={FAQInvest}
+/>
+```
+Investing is the last, and most complicated step. This is where user probably needs the most help.
+
+#### Chat
+
+::: {.content-hidden unless-format="pdf"}
+![Chat Ask](./images/interactive/companion/chat-ask.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Chat Compare"
+  src={ChatAsk}
+/>
+```
+::: {.content-hidden unless-format="pdf"}
+![Chat Compare](./images/interactive/companion/chat-compare.png){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="Chat Compare"
+  src={ChatCompare}
+/>
+```

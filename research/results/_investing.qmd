@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 Student attitudes towards investing.
 
-### Saving and Investing
+### College Students' Saving and Investing Attitudes
 
 ```{python}
 #| label: fig-survey-att-inve
@@ -18,7 +18,7 @@ Student attitudes towards investing.
 likert_single_chart(1)
 ```
 
-### Investing Experience (Overall)
+### College Students' Investing Experience (Overall)
 
 ```{python}
 #| label: fig-survey-invest-xp
@@ -27,7 +27,7 @@ likert_single_chart(1)
 investment_count()
 ```
 
-## Choice Experiment
+### College Students' Investing Choice Experiment
 
 Question: 你/妳選哪個投資？ Which investment do you choose?
 
