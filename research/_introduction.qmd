@@ -35,7 +35,6 @@ My research addresses the *"attitude-behavior gap"* among Taiwanese college stud
   src={ResearchGaps}
 />
 ```
-
 In terms of the global context, the convergence of the following 5 trends makes my research timely in 2025.
 
 | Trend | Direction |
@@ -97,7 +96,7 @@ Experts (finance, design, sustainability).
 
 My research attempts to answer the following questions.
 
-| Question | Methods |
+| Research Question | Methods |
 |----------------------------------------|--------------------------------|
 | What design considerations should be addressed when designing an AI companion for college students integrating sustainability and finance? | Literature Review and Expert Interviews |
 | How can AI companions support college students with sustainability knowledge in the context of financial decisions? | Literature Review, Expert Interviews and Survey of College Students |
@@ -107,16 +106,16 @@ My research attempts to answer the following questions.
 
 This study originally began with three specific exploratory questions guiding early expert interviews, survey design, and prototype testing. As the literature review and theoretical framing (particularly the Theory of Planned Behavior) matured, these initial questions were synthesized into three overarching research questions. These literature-informed questions frame the design goals and theoretical contributions of the thesis.
 
-| Initial Exploratory Question                                                    | Method Used                                 | Evolved Research Question                                                                                    |
-| ------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| What factors increase potential users choosing sustainable investing?           | Literature review + Expert Interviews       | What design considerations should be addressed when designing an AI companion for college students...?       |
-| What class of investment vehicles do potential users show the most interest in? | Survey                                      | How can AI companions support college students with sustainability knowledge in financial decision contexts? |
-| What application features do potential users rate as the highest priority?      | Survey + Prototype Testing with Focus Group | What AI companion features do college students prioritize as the highest importance?                         |
+| Initial Exploratory Question | Method Used | Literature-Informed Research Question |
+|-----------------------|-----------------|--------------------------------|
+| What factors increase potential users choosing sustainable investing? | Literature review + Expert Interviews | What design considerations should be addressed when designing an AI companion for college students? |
+| What class of investment vehicles do potential users show the most interest in? | Survey | How can AI companions support college students with sustainability knowledge in financial decision contexts? |
+| What application features do potential users rate as the highest priority? | Survey + Prototype Testing with Focus Group | What AI companion features do college students prioritize as the highest importance? |
 
 Why these research questions?
 
 | Lens | **RQ1**: Design Considerations | **RQ2:** Support Mechanisms | **RQ3**: User-Priority Features |
-|----------------|-------------------|----------------------|----------------|
+|-----------------|------------------|---------------------|-----------------|
 | Level of Abstraction | High-level and comprehensive | Mid-level (mechanisms) | Concrete and granular |
 | Core Focus | *What should I keep in mind while building?* | *How does the companion actually help students learn and decide?* | *Which specific features matter most to students?* |
 | Primary Stakeholder | Designers / Developers | End Users (College Students) | End Users (College Students) |

@@ -44,84 +44,73 @@ Another inspiration was from a device for tracking air pollution. Pollution expo
 air_chart()
 ```
 
-```{python}
-#| label: fig-air-pollution-personal-2025
-#| fig-cap: "My Personal Exposure to Air Pollution (2025 Update)"
-#| fig-scap: "My Personal Exposure to Air Pollution (2025 Update)"
-air_chart_2025()
-```
-
 The above charts shows my exposure to pollutants while traveling, ranked from worst to best. My worst exposure to air pollution was in Saudi Arabia, while Taiwan ranks the 3rd.
 
 ## Persona-Based App Features
 
-### **Design Features for** “Eco-Friendly” College Students
+The following features match the 3 personas shown in the Results section.
 
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Attribute           | Details                                                                                                                                                      |
-+=====================+==============================================================================================================================================================+
-| Persona             | Eco-Friendly                                                                                                                                                 |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| How Many?           | 292                                                                                                                                                          |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Core Traits         | Deeply committed to sustainability (Attitudes)                                                                                                               |
-|                     |                                                                                                                                                              |
-|                     | Seeks rich provenance, CO₂e footprint, impact, worker‑welfare, and organic data (Behavioral Beliefs)                                                         |
-|                     |                                                                                                                                                              |
-|                     | Motivated by eco‑peer norms and ESG transparency (Subjective Norms)                                                                                          |
-|                     |                                                                                                                                                              |
-|                     | High trust in ratings (Subjective Norms)                                                                                                                     |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Design Implications | Digital Product Passports: Show origin, CO₂e footprint, certifications, welfare badges                                                                       |
-|                     |                                                                                                                                                              |
-|                     | Transparency Tools: ESG reviews and governance scores, “Pre‑buy CSR review” toggle                                                                           |
-|                     |                                                                                                                                                              |
-|                     | Customizable “Eco‑Deep‑Dive” Mode: AI‑driven GenUI layouts for detailed vs. quick views, AI Q&A on pollution hotspots, company eco-practices, and eco‑scores |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+### Design Features for “Eco-Friendly” College Students
 
-### **Design Features for** “Moderate” College Students
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "Eco-Friendly" Persona | 292 College Students                                                                                                                                             |
++========================+==================================================================================================================================================================+
+| Core Traits            | -   Deeply committed to sustainability (Attitudes)                                                                                                               |
+|                        |                                                                                                                                                                  |
+|                        | -   Seeks rich provenance, CO₂e footprint, impact, worker‑welfare, and organic data (Behavioral Beliefs)                                                         |
+|                        |                                                                                                                                                                  |
+|                        | -   Motivated by eco‑peer norms and ESG transparency (Subjective Norms)                                                                                          |
+|                        |                                                                                                                                                                  |
+|                        | -   High trust in ratings (Subjective Norms)                                                                                                                     |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Design Implications    | -   Digital Product Passports: Show origin, CO₂e footprint, certifications, welfare badges                                                                       |
+|                        |                                                                                                                                                                  |
+|                        | -   Transparency Tools: ESG reviews and governance scores, “Pre‑buy CSR review” toggle                                                                           |
+|                        |                                                                                                                                                                  |
+|                        | -   Customizable “Eco‑Deep‑Dive” Mode: AI‑driven GenUI layouts for detailed vs. quick views, AI Q&A on pollution hotspots, company eco-practices, and eco‑scores |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Attribute           | Details                                                                                                                                                                                                   |
-+=====================+===========================================================================================================================================================================================================+
-| Persona             | Balanced Moderates                                                                                                                                                                                        |
-+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| How Many?           | 395                                                                                                                                                                                                       |
-+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Core Traits         | Motivated by health benefits and simple eco‑wins (Attitudes)                                                                                                                                              |
-|                     |                                                                                                                                                                                                           |
-|                     | Values simple, trustworthy cues, goal‑setting, reminders (Perceived Control)                                                                                                                              |
-|                     |                                                                                                                                                                                                           |
-|                     | Responsive to light social and eco nudges (Subjective Norms)                                                                                                                                              |
-+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Design Implications | Health‑Framed Alerts: Pair sustainability scores with health risks/benefits (e.g. “–20% pesticides”); use healthy language, such as "eco materials", "eco packaging"                                      |
-|                     |                                                                                                                                                                                                           |
-|                     | Goal‑Setting & Reminders: Monthly intentions (e.g. “buy local”) with gentle push notifications, scores,nudges, e.g. push: “30% to your ‘buy local’ goal” (goal‑setting), “Your Eco Score” dashboard, etc. |
-|                     |                                                                                                                                                                                                           |
-|                     | Quick‑View Badges: “Top 5 Local Eco‑Brands” summaries, e.g. “Top 3 Local Eco‑Brands” / “5 Low‑Pollution Picks” badges. Simple icons; deep dive only on tap.                                               |
-+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+: Actionable advice designing features for “Eco-Friendly” college students
 
-### **Design Features for** “Frugal” College Students
+### Design Features for “Moderate” College Students
 
-+---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Attribute           | Details                                                                                                                                                                 |
-+=====================+=========================================================================================================================================================================+
-| Persona             | Frugal                                                                                                                                                                  |
-+---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| How Many?           | 236                                                                                                                                                                     |
-+---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Core Traits         | Highly price‑sensitive; minimal extra info (low Attitudes toward eco data)                                                                                              |
-|                     |                                                                                                                                                                         |
-|                     | Prefers minimal extra info, uncomplicated choices (Perceived Control)                                                                                                   |
-|                     |                                                                                                                                                                         |
-|                     | Skeptical, eco‑actions must “pay off” (low Subjective Norms)                                                                                                            |
-+---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Design Implications | Cost–Eco Slider: Visualize “+30 TWD → 10% lower CO₂e” trade‑offs                                                                                                        |
-|                     |                                                                                                                                                                         |
-|                     | Local Deal Finder: Highlight flash deals, discounted eco‑friendly and organic low budget goods nearby. Geofenced coupons for low‑footprint groceries.                   |
-|                     |                                                                                                                                                                         |
-|                     | Micro‑Rewards Challenges: Coupons or points for hitting “no‑waste-week” or “plastic‑free” or “meat‑free day” mini‑goals. One‑tap “Accept Challenge” button; no pop‑ups. |
-+---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "Moderate" Persona  | 395 College Students                                                                                                                                                                                          |
++=====================+===============================================================================================================================================================================================================+
+| Core Traits         | -   Motivated by health benefits and simple eco‑wins (Attitudes)                                                                                                                                              |
+|                     |                                                                                                                                                                                                               |
+|                     | -   Values simple, trustworthy cues, goal‑setting, reminders (Perceived Control)                                                                                                                              |
+|                     |                                                                                                                                                                                                               |
+|                     | -   Responsive to light social and eco nudges (Subjective Norms)                                                                                                                                              |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Design Implications | -   Health‑Framed Alerts: Pair sustainability scores with health risks/benefits (e.g. “–20% pesticides”); use healthy language, such as "eco materials", "eco packaging"                                      |
+|                     |                                                                                                                                                                                                               |
+|                     | -   Goal‑Setting & Reminders: Monthly intentions (e.g. “buy local”) with gentle push notifications, scores,nudges, e.g. push: “30% to your ‘buy local’ goal” (goal‑setting), “Your Eco Score” dashboard, etc. |
+|                     |                                                                                                                                                                                                               |
+|                     | -   Quick‑View Badges: “Top 5 Local Eco‑Brands” summaries, e.g. “Top 3 Local Eco‑Brands” / “5 Low‑Pollution Picks” badges. Simple icons; deep dive only on tap.                                               |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Actionable advice designing features for “Moderate” college students
+
+### Design Features for “Frugal” College Students
+
++---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "Frugal" Persona    | 236 College Students                                                                                                                                                        |
++=====================+=============================================================================================================================================================================+
+| Core Traits         | -   Highly price‑sensitive; minimal extra info (low Attitudes toward eco data)                                                                                              |
+|                     |                                                                                                                                                                             |
+|                     | -   Prefers minimal extra info, uncomplicated choices (Perceived Control)                                                                                                   |
+|                     |                                                                                                                                                                             |
+|                     | -   Skeptical, eco‑actions must “pay off” (low Subjective Norms)                                                                                                            |
++---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Design Implications | -   Cost–Eco Slider: Visualize “+30 TWD → 10% lower CO₂e” trade‑offs                                                                                                        |
+|                     |                                                                                                                                                                             |
+|                     | -   Local Deal Finder: Highlight flash deals, discounted eco‑friendly and organic low budget goods nearby. Geofenced coupons for low‑footprint groceries.                   |
+|                     |                                                                                                                                                                             |
+|                     | -   Micro‑Rewards Challenges: Coupons or points for hitting “no‑waste-week” or “plastic‑free” or “meat‑free day” mini‑goals. One‑tap “Accept Challenge” button; no pop‑ups. |
++---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Actionable advice designing features for “Frugal” college students
 
 ## Disregarded Features
 

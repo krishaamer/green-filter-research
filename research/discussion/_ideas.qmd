@@ -112,20 +112,215 @@ Speculative scenario of an interaction between a human user and a robo-advisor t
 
 ## Mapping Feature Ideas to Theory of Planned Behavior
 
-| Type of Feature | Specific Features | Purpose | Rationale |
-|---------------|---------------|---------------|---------------------------|
-| **Transparency & Impact Intel** | **True Cost, How Far?, Country Profiles, KYC** | Surface hard-to-see facts so choices feel data-backed | Make sense of complex sustainability data, so the user can quickly grasp hidden externalities, supply-chain distance, CO2 footprints, or a comapny's ESG record. |
-| **Personal Coach & Nudge Engine** | **Susan Chatbot, Sustainability Watch, Narrative Layouts** | Give real-time, context-aware advice that steers decisions | These features work like a pocket mentor: chat UI, wearable devices, or daily storylines that nudge the user toward greener action. |
-| **Social & Collective Flex** | **Sunday Market, Shopping Divest, CO₂ Flex** | Use friends, status, or crowd power to boost motivation | These ideas thrive on group shopping, community leaderboards, or brag-worthy carbon “badges,” focusing on social proof and friendly competition. |
+| Feature Type | Specific Features | Purpose | Rationale |
+|------------------|------------------|------------------|-------------------|
+| Transparency & Impact Intel | True Cost, How Far?, Country Profiles, KYC | Surface hard-to-see facts so choices feel data-backed | Make sense of complex sustainability data, so the user can quickly grasp hidden externalities, supply-chain distance, CO2 footprints, or a comapny's ESG record. |
+| Personal Coach & Nudge Engine | Susan Chatbot, Sustainability Watch, Narrative Layouts | Give real-time, context-aware advice that steers decisions | These features work like a pocket mentor: chat UI, wearable devices, or daily story-lines that nudge the user toward greener action. |
+| Social & Collective Flex | Sunday Market, Shopping Divest, CO₂ Flex | Use friends, status, or crowd power to boost motivation | These ideas thrive on group shopping, community leaderboards, or brag-worthy carbon “badges,” focusing on social proof and friendly competition. |
 
 : Categorizing early feature ideas by purpose and rationale.
 
 While these feature ideas were developed independently, before I knew the Theory of Planned Behavior existed, the following is an attempt to organize the features according to TPB constructs.
 
-| Type of Feature | TPB Construct | Meaning | Rationale |
-|---------------|---------------|---------------|---------------------------|
-| **Transparency & Impact Intel** | **Attitude towards the behavior** | *“Do I think acting sustainably is good and worth it?”* | By exposing hidden costs, supply-chain distance, and ESG scores, these features shape positive (or negative) evaluations of a purchase. |
-| **Personal Coach & Nudge Engine** | **Perceived behavioral control** | *“Can I actually pull this off?”* | Real-time tips from Susan or a smartwatch lower friction, boosting a user’s sense that greener behaviour is doable. |
-| **Social & Collective Flex** | **Subjective norms** | *“Do the people around me expect this?”* | Sunday-Market meet-ups, carbon badges, and community feeds make sustainable choices visible and socially reinforced. |
+| Feature Type | TPB Construct | Meaning | Rationale |
+|------------------|------------------|------------------|-------------------|
+| Transparency & Impact Intel | **Attitude towards the behavior** | *“Do I think acting sustainably is good and worth it?”* | By exposing hidden costs, supply-chain distance, and ESG scores, these features shape positive (or negative) evaluations of a purchase. |
+| Personal Coach & Nudge Engine | **Perceived behavioral control** | *“Can I actually pull this off?”* | Real-time tips from Susan or a smartwatch lower friction, boosting a user’s sense that greener behavior is doable. |
+| Social & Collective Flex | **Subjective norms** | *“Do the people around me expect this?”* | Sunday-Market meet-ups, carbon badges, and community feeds make sustainable choices visible and socially reinforced. |
 
 : Early feature ideas mapped to Theory of Planned Behavior.
+
+## New Feature Ideas Arising from Literature
+
+The following tables are my attempt to clearly link literature findings with specific AI app features and over-arching theoretical framework.
+
+### AI
+
+| AI | Feature | Theory | Rationale |
+|------------------|------------------|--------------------|------------------|
+| Human Patterns | Use machine‑learning to suggest sustainable products by recognizing patterns in users’ purchases and behaviors. | Behavioral Intention (TPB) | Reinforces perceived outcomes of behavior based on prior actions. |
+| Human Feedback | Incorporate a feedback loop allowing users to rate recommendations, improving the model through reinforcement learning. | Perceived Behavioral Control (TPB) | Encourages sense of influence over system outcomes. |
+| Algorithmic Experience and Transparency | Include transparent explanation panels showing why a product or investment was recommended, helping build trust. | Perceived Behavioral Control (TPB) | Improves user confidence through understanding system logic. |
+| Being Responsible, Explainable, and Safe | Offer an opt‑in 'ethics mode' where users can see data privacy options and energy‑usage estimates for AI tasks. | Trust in Technology (UX) | Builds trust through visible ethical safeguards. |
+| Evolution of Models and Emerging Abilities | Provide a news feed highlighting the latest AI and sustainability advances to keep users informed. | Attitude toward Behavior (TPB) | Fosters positive attitude via knowledge of innovation. |
+| Human Acceptance of Artificial Companions | Introduce a conversational 'Green Buddy' that chats about eco‑habits in a friendly, empathetic tone. | Social Norms (TPB) | Creates a sense of shared behavior through anthropomorphized agents. |
+| Affective Computing | Implement mood‑sensitive notifications that adapt encouragement style based on emotional tone. | Emotion-Centered Design | Adjusts persuasion to user’s affective state to improve effectiveness. |
+| Speech Makes Computers Feel Real | Enable voice‑based interactions for hands‑free sustainable shopping and investment queries. | Natural User Interfaces (NUI) | Leverages intuitive modalities for accessibility and engagement. |
+| Roleplay for Financial Robo‑Advisors | Offer guided conversations simulating a robo‑advisor session to help novice investors learn through role‑play. | Scaffolding (Interaction Design) | Supports novice learning with structured guidance. |
+
+| AI | Feature | Rationale | Theory | Rank |
+|-----------------|------------|------------|-------------------|------------|
+| Algorithmic Experience and Transparency | Explainable AI panel | Calls for transparency | **PBC**, **A** – builds trust and enables informed control | 4 |
+| Being Responsible, Explainable, and Safe | Compliance settings | Covers AI legislation | **PBC**, **A** – ensures safe control and trust | 4 |
+| Conversation: A Magical Starting Point of a Relationship | Chatbot assistant | Highlights conversational interfaces | **PBC**, **A** – easy interaction fosters positive attitude | 4 |
+| Multi‑Modality: Natural Interactions with AI Systems | Multi‑modal dashboard | Emphasises multi-modality | **PBC** – enhances usability and control | 4 |
+| Generative UIs Enable Flexibility of Use | Dynamic UI layouts | Suggests generative interfaces adapt to needs | **PBC** – increases control; encourages positive attitude | 4 |
+| Interfaces for Human‑Computer Interaction: Speech Makes Computers Feel Real | Voice‑activated commands | Notes speech makes AI interactions natural | **PBC** – removes friction; fosters positive attitude | 3 |
+| Roleplay for Financial Robo‑Advisors | Empathetic robo‑advisor | Explores AI companions for finance | **PBC**, **A** – builds trust and provides guidance; relates to **Affective Computing** | 4 |
+| Usability Is the Bare Minimum of Good User Experience | Simplified navigation | Reminds that usability is key | **PBC** – directly enhances perceived control | 3 |
+| Affective Computing & Artificial Empathy | Emotion‑aware prompts | Suggests empathy builds trust | **A** – improves attitudes; relates to **Affective Computing** | 3 |
+| Do AI‑Agents Need Anthropomorphism? | Customizable assistant personas | Questions anthropomorphism | **A** – influences user preference; minor effect on behavior | 2 |
+
+### College Students
+
+| College Students | App Feature (justified in one sentence) |
+|------------------------|------------------------------------------------|
+| Student Protests for Climate Justice | Add a community events calendar surfacing local protests and clean‑up activities. |
+| Taiwanese Educational System in Numbers | Tailor in‑app educational modules to Taiwan’s high college enrollment rates and low sustainability literacy. |
+| Designing for College Students: Developing Personas | Use persona‑driven on-boarding to personalize sustainability goals based on lifestyle types. |
+| Taiwanese Youth in Global Context | Provide comparative analytics to show how a user’s habits compare with global peers. |
+| Climate Anxiety Responses | Integrate mindfulness prompts and resources to help users cope with climate anxiety. |
+| Attitude‑Behaviour Gap | Implement small-goal nudges that help turn good intentions into daily sustainable actions. |
+
+| College Students | Feature | Theory | Rationale |
+|------------------|-------------------|------------------|------------------|
+| Student Protests for Climate Justice | Add a community events calendar surfacing local protests and clean‑up activities. | Subjective Norm (TPB) | Highlights what peers are doing to drive social motivation. |
+| Taiwanese Educational System in Numbers | Tailor in‑app educational modules to Taiwan’s high college enrollment rates and low sustainability literacy. | Perceived Behavioral Control (TPB) | Enhances confidence through targeted information. |
+| Designing for College Students: Developing Personas | Use persona‑driven on-boarding to personalize sustainability goals based on lifestyle types. | Personalization (UX) | Aligns goals to user context to support autonomy and motivation. |
+| Taiwanese Youth in Global Context | Provide comparative analytics to show how a user’s habits compare with global peers. | Subjective Norm (TPB) | Reinforces behavior via perceived global social standards. |
+| Climate Anxiety Responses | Integrate mindfulness prompts and resources to help users cope with climate anxiety. | Attitude toward Behavior (TPB) | Reduces emotional barriers to pro-environmental behavior. |
+| Attitude‑Behaviour Gap | Implement small-goal nudges that help turn good intentions into daily sustainable actions. | Implementation Intentions | Bridges gap between goal and action with structured prompts. |
+
+| College Students | Feature | Rationale | Theory | Rank |
+|-----------------|-------------|-------------|-------------------|-------------|
+| Student Protests for Climate Justice: The World and Taiwan | News & activism feed | Context of youth activism | **SN** – social norms encourage engagement | 1 |
+| Taiwanese Educational System in Numbers | Scholarship & grant alerts | Demographic background | None – mainly informational | 1 |
+| Designing for College Students: Developing Personas | Persona‑driven on-boarding | User‑centered design | **PBC**, **A** – increases relevance and control | 4 |
+| Taiwanese Youth in Global Context: Sustainability Attitudes | Attitude check‑in quiz | Details varied attitudes | **A** – aligns recommendations to user beliefs | 3 |
+| The Experience of Climate Change and Pollution Levels in Taiwan | Local pollution alerts | Highlights local environmental issues | **A** – raises awareness; minor **PBC** for protective actions | 2 |
+| Climate Anxiety Responses | Mental‑wellness tips | Explores psychological responses | **A** – supports attitudes by addressing anxiety | 2 |
+| Attitude‑Behavior Gap | Behaviour‑gap tracker | Identifies gap | **A**, **SN**, **PBC** – highlights gap and offers control to close it | 4 |
+| Sustainability in Taiwan: Garbage Trucks and Digital Receipts | Digital‑receipt integration | Shows adoption of digital receipts | **PBC**, **SN** – makes tracking automatic; signals normative adoption | 3 |
+| Trends in Taiwanese Industry and Online Shopping | Shop‑with‑friends feature | Notes digital commerce growth | **SN**, **A** – social shopping fosters normative pressure and awareness | 3 |
+| Financial Literacy Worldwide and Among Taiwanese Youth | Interactive budgeting tool | Reports low financial confidence | **PBC**, **A** – enhances knowledge and control | 4 |
+| Social Media, Trends, Memes, and Youth Empowerment | Community challenges & memes | Highlights social media influence | **SN** – leverages social norms for eco‑engagement | 3 |
+| AI Use Among Taiwanese Students | Tutorial on AI features | Describes AI adoption | **PBC**, **A** – builds confidence in AI tools | 3 |
+
+### Design
+
+| Design | Feature |
+|----------------------|--------------------------------------------------|
+| Eco‑Design: Political Action at Scale | Showcase eco‑scorecards that help users prioritise long‑lasting, efficient products. |
+| Beyond Recycling | Add a “repair & reuse locator” pointing to local swap shops and repair cafés. |
+| Scenario‑Building Futures | Offer a narrative mini‑game that explores sustainable and unsustainable future outcomes. |
+| Thinking in Systems | Provide supply‑chain maps for products to reveal upstream impacts before purchase. |
+| Student Essentials | Integrate a scanner that highlights sustainable alternatives in common student goods. |
+| Sustainability Begins in Software | Visualise transaction-level carbon footprints directly in the shopping experience. |
+| Data‑Driven Design | Use app usage data to personalize green tips based on actual behavioral patterns. |
+| Circular Design | Launch a “circular marketplace” to buy/sell pre-owned items with life-cycle tracking. |
+| Tracking Ethics & Cruelty | Display factory transparency and labor-safety badges on products. |
+| Superapps | Create an integrated dashboard combining sustainable shopping, saving, and investing. |
+| Personalization & Persuasion | Personalise nudges and incentives based on behavioural clustering. |
+| Open Data Interoperability | Enable third‑party integrations and open‑data visualization of eco‑metrics. |
+| Context Design | Make eco‑friendly settings the default, nudging users toward green choices. |
+| Quantified Self | Provide “green‑self” dashboards tracking emissions, waste and water usage. |
+| Digital Product Passports | Let users scan items to reveal repair guides and recycling info via digital passports. |
+
+| Design | Feature | Theory | Rationale |
+|------------------|-------------------|------------------|------------------|
+| Eco‑Design: Political Action at Scale | Showcase eco‑scorecards that help users prioritize long‑lasting, efficient products. | Attitude (TPB) | Improves beliefs about product consequences. |
+| Beyond Recycling | Add a 'repair & reuse locator' pointing to local swap shops and repair cafés. | Perceived Behavioral Control (TPB) | Increases ease of sustainable choices. |
+| Scenario‑Building Futures | Offer a narrative mini‑game that explores sustainable and unsustainable future outcomes. | Mental Simulation | Reinforces planning and future-oriented thinking |
+| Thinking in Systems | Provide supply‑chain maps for products to reveal upstream impacts before purchase. | Perceived Behavioral Control (TPB) | Informs decision-making with systems-level insight. |
+| Student Essentials | Integrate a scanner that highlights sustainable alternatives in common student goods. | Behavioral Intention (TPB) | Increases likelihood of choice by making options accessible. |
+| Sustainability Begins in Software | Visualise transaction-level carbon footprints directly in the shopping experience. | Self-Monitoring (Behavior Change Theory) | Enhances awareness of action impact. |
+| Data‑Driven Design | Use app usage data to personalize green tips based on actual behavioral patterns. | Personalization | Supports tailoring content for behavior change. |
+| Circular Design | Launch a 'circular marketplace' to buy/sell pre-owned items with life-cycle tracking. | Norm Activation Model | Supports sustainable choices through enabling infrastructure. |
+| Tracking Ethics & Cruelty | Display factory transparency and labor-safety badges on products. | Ethical Consumption Framework | Promotes values-aligned behavior. |
+| Superapps | Create an integrated dashboard combining sustainable shopping, saving, and investing. | Interaction Efficiency | Reduces friction by combining tasks into one streamlined flow. |
+| Personalization & Persuasion | Personalise nudges and incentives based on behavioral clustering. | Tailored Communication (Behavior Change) | Improves relevance and motivation. |
+| Open Data Interoperability | Enable 3rd‑party integrations and open‑data visualization of eco‑metrics. | System Trust & Transparency | Enhances confidence through verifiability. |
+| Context Design | Make eco‑friendly settings the default, nudging users toward green choices. | Nudge Theory | Alters choice architecture to drive preferred behaviors. |
+| Quantified Self | Provide 'green‑self' dashboards tracking emissions, waste and water usage. | Self-Monitoring | Encourages reflection and improvement. |
+| Digital Product Passports | Let users scan items to reveal repair guides and recycling info via digital passports. | Information Transparency | Informs responsible behavior with product histories. |
+| Greenwashing | Add a greenwashing detector that warns users about unverified sustainability claims. | Trust and Transparency | Reduces misinformation and supports ethical intent. |
+
+| Design | Feature | Rationale | Theory | Relevance Rank |
+|-------------|-------------|-------------|----------------------|-------------|
+| Eco‑Design: Design as Political Action at Scale | Digital product passport showing life-cycle and eco‑design criteria | EU Ecodesign regulation mandates DPPs | **A**, **PBC** – informs users (positive attitude) and gives control; aligns with **Circular‑Economy** principles | 5 |
+| Beyond Recycling: Default to Return, Repair, Reuse | Repair & resale marketplace | Encourages reuse to extend product life | **A**, **PBC** – fosters pro‑repair attitudes and makes repair accessible; supports **Circular‑Economy** thinking | 4 |
+| Thinking in Systems to Re‑Design Industries or Provenance and Traceability | Supply‑chain QR scanner for provenance data | Emphasises traceability and systemic design | **A**, **PBC** – improves knowledge and control over buying decisions | 4 |
+| Student Essentials: Consumer Goods, Clothes and Food | Sustainable essentials guide | Identifies high‑impact categories | **A** – increases awareness of product impacts | 3 |
+| Clothes and the (Fast) Fashion Industry | Fashion footprint rating | Highlights fast‑fashion’s environmental harm | **A** – shapes attitudes toward sustainable apparel | 4 |
+| The (Fast) Food Industry | Low‑carbon meal planner | Notes high GHG emissions of food | **A** – builds awareness; potential **SN** if community leaderboard shows others’ choices | 3 |
+| In Practice: Sustainability Begins in Software | Sustainability dashboard | Argues digital platforms can drive sustainable consumption | **PBC** – improves control via accessible data | 4 |
+| Data‑Driven Design | Personalized recommendation engine | Superapp design relies on data | **PBC**, **A** – increases perceived control and positive attitudes | 4 |
+| Circular Design for a Circular Economy | Circularity filter | Emphasises product design for reuse & recycling | **A**, **PBC** – aligns with **Circular‑Economy** concept | 4 |
+| Tracking Ethics & Cruelty: Transparent Factories and Supply Chains | Ethical sourcing badge | Advocates transparency in supply chains | **A**, **SN** – shapes attitudes and signals social expectations to avoid unethical brands | 4 |
+| Superapps Integrate Shopping, Savings, and Investing | Unified wallet | Explains superapps’ integration | **PBC** – simplifies behavior, increasing control | 5 |
+| Personalization: Engineering Persuasion | Goal‑based nudges | Discusses persuasive design | **SN**, **PBC** – nudges leverage social norms and ease of action; reflects **Nudge Theory** | 4 |
+| Open Data Enables Interoperability | Open‑data API integration | Highlights open data for interoperability | **PBC** – improves control through accessible data | 4 |
+| Context Design: Behavioural Nudges Towards Green Defaults | Default eco‑choice options | Shows how nudges shift behavior | **SN**, **PBC** – default options set norms and reduce effort; aligns with **Nudge Theory** | 5 |
+| Tracking Personal Sustainability and Carbon Emissions | Real‑time carbon‑footprint tracker | Suggests personal sustainability tracking | **PBC**, **A** – allows control and builds awareness; ties to **Planetary Health** by linking personal actions to ecosystem health | 5 |
+| Digital Product Passports: Tracking Data for Sustainable Product Management | Tap‑to‑view DPP | DPP mandated by EU | **A**, **PBC** – enhances knowledge and control over product choices | 5 |
+
+### Sustainability
+
+| Sustainability | Feature |
+|------------------------|------------------------------------------------|
+| Roots of Sustainability | Offer a timeline walk-through that teaches sustainability history inside the app. |
+| Measuring Earth’s Climate | Show interactive visualizations of CO₂e trends, biodiversity loss and user footprints. |
+| Measuring CO₂ Emissions | Embed a personal CO₂ calculator to track emissions from spending and transit. |
+| Carbon Accounting & Markets | Let users buy verified carbon credits directly within the app. |
+| Financialization of Nature | Introduce micro‑investments in conservation (e.g., tree‑planting) as alternative assets. |
+| Overconsumption & Planetary Boundaries | Alert users when their behavior exceeds planetary benchmarks and suggest corrections. |
+| Plastic Pollution | Include a scanner that flags plastic types and provides recycling advice or swaps. |
+| Biodiversity Loss | Highlight ecosystem-restoring product choices and brands that fund conservation. |
+| Oceans, Forests, Pollution | Provide donation links and news alerts for ocean and forest conservation. |
+| Disaster Preparedness | Give users location‑based climate‑disaster prep checklists and emergency plans. |
+| Ecological Restoration | Suggest local community projects users can join to support rewilding and repair. |
+| Energy & Decarbonization | Recommend regional green-energy subscriptions or solar setup guidance. |
+| Individual Action | Provide weekly challenge streaks (e.g., plant-based meals, biking) with progress tracking. |
+
+| Sustainability | Feature | Rationale | Theory | Relevance |
+|----------------|------------|------------|----------------------|------------|
+| Measuring CO₂e Emissions | Personal carbon‑tracker | Explains emission scopes | **PBC**, **A** – users gain control over and awareness of their footprint; aligns with **Planetary Health** | 5 |
+| Carbon Accounting & Emissions Trading Schemes | Carbon‑offset marketplace | Describes carbon markets & MRV | **PBC**, **A** – gives users actionable ways to offset emissions; ties to **Social‑cost‑of‑carbon** concepts | 4 |
+| Overconsumption \> Earth’s Boundaries | Consumption‑impact dashboard | Links most emissions to consumption | **A**, **SN** – informs users and can tap into peer comparisons; underscores **Planetary Boundaries** | 4 |
+| Plastic Pollution | Plastic‑free filter | Reports microplastics in human bodies | **A** – raises awareness about plastic harm; encourages avoidance | 3 |
+| Evolving Measurements: Planetary Health, Earth System Law & Social Cost of Carbon | Education module | Provides theoretical frameworks | **A** – enhances knowledge; introduces **Planetary Health** and **SCC** | 3 |
+| Markets Financialize the Natural World | Nature‑backed investment option | Covers pricing ecosystem services | **A** – appeals to advanced investors; connects to **Ecological Economics** | 2 |
+| Quantifying Human Benefits from the Biosphere (Ecosystem Services) | Ecosystem‑services infographic | Explains benefits of ecosystem services | **A** – educational; relates to **Planetary Health** | 2 |
+| Individual Action | Gamified sustainability challenges | Focuses on personal behavior change | **PBC**, **SN** – increases control and leverages community norms; ties to **Nudge Theory** | 4 |
+
+### Finance
+
+| Finance | Feature |
+|------------------------|------------------------------------------------|
+| The Convergence of Money | Enable transaction roundups into green micro‑investments in a unified wallet. |
+| Fintech Democratization | Offer gamified investing flows and low‑barrier savings plans tied to green portfolios. |
+| Financial Literacy | Include micro‑lessons and quizzes that unlock features as users learn. |
+| New Rules of Money | Provide legislative alerts and policy update feeds relevant to sustainable finance. |
+| ESG Crisis and Opportunity | Add an ESG filter to exclude companies with poor sustainability performance. |
+| Opaque Metrics | Present multiple ESG scores side‑by‑side with explanations. |
+| Modern Slavery | Flag products with suspected forced labor links and suggest ethical alternatives. |
+| ESG (Environmental, Social, Governance) | Visualize E‑S‑G scores for all products and tie them to user sustainability goals. |
+| Green Transparency | Partner with verified rating bodies to display trustworthy ESG data. |
+| Payments | Include carbon-aware checkout that displays impact and offers reduction/offset options. |
+| Psychology of Saving | Encourage habit formation with gamified eco‑savings goals and loyalty badges. |
+| Sustainable Investing | Curate ESG funds that align with user risk tolerance and environmental values. |
+| Investable Asset Classes | Introduce community solar, green bonds and other accessible climate‑aligned assets. |
+| Regenerative Finance & DAOs | Enable access to vetted regenerative projects and DAOs through the platform. |
+| Divestment | Let users track and divest from fossil-heavy holdings with reinvestment guidance. |
+| Economics of Decoupling | Use data storytelling to explain how sustainable finance supports post‑growth goals. |
+| Greenwashing | Add a greenwashing detector that warns users about unverified sustainability claims. |
+
+| Finance | Feature | Rationale | Theory | Rank |
+|--------------|------------|------------|------------------------|------------|
+| The Convergence of Money: One Wallet to Rule Shopping, Saving, and Investing | Integrated “Green Wallet” | Describes money convergence | **PBC** – simplifies sustainable finance actions, increasing control | 5 |
+| Spurred by Fintech: The Democratization of Finance | Micro‑investment round‑ups | Fintech makes investing accessible | **PBC**, **SN** – boosts control; social features encourage normative participation | 4 |
+| Financial Literacy and Education: Young Investors Follow Financial Influencers | Financial‑literacy hub | Notes reliance on influencers | **PBC**, **A** – improves perceived control and attitudes through knowledge | 4 |
+| New Rules of Money: Legislative Efforts Empowering Consumers | Regulation‑aware investment screen | Summarises MiFID II & EU Green Deal | **PBC**, **A** – informs users about compliance; increases control | 4 |
+| ESG Crisis: An Opportunity to Solve Opaque Metrics | Verified ESG score | Highlights inconsistent ESG ratings | **A**, **PBC** – enhances trust (attitude) and gives control over info | 4 |
+| Modern Slavery Persists and ESG Falls Short | Labor‑rights alert | Points out ESG’s worker‑rights gaps | **A**, **SN** – builds awareness and social pressure to avoid exploitative brands | 3 |
+| Towards Green Transparency – But Who Does the Rating? | User‑vote ESG rating | Questions rating authorities | **SN**, **PBC** – leverages peer norms and user participation | 4 |
+| ESG Success Depends on Digitization and GenAI | AI‑powered ESG analyser | Argues digitization & AI are essential | **PBC** – increases ability to process ESG data; relates to **AI & TPB** (perceived control) | 4 |
+| ESG Accessibility: Curbing Corruption with Real‑time Data Streams | Live supply‑chain feed | Emphasises real‑time data & traceability | **PBC** – enhances control; aligns with **Transparency** concept | 4 |
+| Payments Are a Starting Point: But Consumer Activists are a Small Minority | Eco‑cashback | Notes limited activism | **A**, **PBC** – rewards create positive attitudes; incentives improve perceived control | 3 |
+| Shopping’s Environmental Footprint: Increasingly Driven by Digital Platforms | AI‑curated shopping feed | Links digital shopping & environmental impact | **A**, **PBC** – shapes attitudes through information; simplifies choice | 4 |
+| Sustainable Investing: Measuring the Eco‑Investment Gap | Impact gap indicator | Discusses attitude/behavior gap in investing | **A**, **SN**, **PBC** – reveals mismatches to motivate action; ties to TPB gap | 4 |
+| Retail Investing Enables Financial Inclusion and Growing Money Sustainably | Community copy‑trading | Emphasises community investing | **SN**, **PBC** – uses social proof (subjective norms) and improves access | 4 |
+| Hidden Costs: Pricing Externalities | Carbon‑adjusted price tag | Explains hidden environmental costs | **A**, **PBC** – raises awareness and equips users to act accordingly; relates to **Planetary Health** (pricing ecosystem impacts) | 4 |
+| Product Databases as a Precursor for Traceability and Supply‑Chain Mapping | Central product database | Advocates comprehensive product data | **PBC** – enhances perceived control through reliable data | 5 |
+| Indices, Certifications and Sustainability Standards Enable Product Comparisons | Certification filter | Suggests using certifications to compare products | **A**, **PBC** – builds trust and simplifies decision‑making | 4 |
+| Efforts to Curb Greenwashing: Data‑Driven Benchmarks and the Fight for Transparency | Green‑washing detector | Describes anti‑greenwashing regulations | **A**, **SN**, **PBC** – provides verifiable info (attitude), social pressure to avoid greenwashing, and control through trustworthy data | 4 |

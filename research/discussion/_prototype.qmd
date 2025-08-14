@@ -73,6 +73,8 @@ app_installs()
 
 ### Momo AI Extension
 
+The following screenshots are from the production version (live on the web for anyone to use) of the Green Filter AI companion application. 
+
 ::: {.content-hidden unless-format="pdf"}
 ![Momo](./images/interactive/momo/momo.png){width="100%"}
 :::
@@ -84,6 +86,8 @@ app_installs()
 />
 ```
 #### Review
+
+Overview of the ESG performance of this product and the company that made it.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Review](./images/interactive/momo/review.png){width="100%"}
@@ -97,6 +101,8 @@ app_installs()
 ```
 #### Save
 
+Which other products (and the companies that made them) could I choose to reduce my personal pollution impact.
+
 ::: {.content-hidden unless-format="pdf"}
 ![Save](./images/interactive/momo/save.png){width="100%"}
 :::
@@ -108,6 +114,8 @@ app_installs()
 />
 ```
 #### Invest
+
+What if I like the products of this this company and want to invest in it?
 
 ::: {.content-hidden unless-format="pdf"}
 ![Invest](./images/interactive/momo/invest.png){width="100%"}
@@ -121,6 +129,8 @@ app_installs()
 ```
 ### AI Companion
 
+The main view of the application with many embedded widgets for diverse AI companion features.
+
 ::: {.content-hidden unless-format="pdf"}
 ![Home](./images/interactive/companion/home.png){width="100%"}
 :::
@@ -133,6 +143,8 @@ app_installs()
 ```
 #### Factory
 
+See where and how the product was made - in which factory and what are the conditions.
+
 ::: {.content-hidden unless-format="pdf"}
 ![Factory](./images/interactive/companion/factory.png){width="100%"}
 :::
@@ -144,6 +156,8 @@ app_installs()
 />
 ```
 #### Map
+
+Where was the product physically made and how long was the transport route?
 
 ::: {.content-hidden unless-format="pdf"}
 ![Map](./images/interactive/companion/map.png){width="100%"}
@@ -196,6 +210,8 @@ One the user begins saving money, they'll have a source of funds to direct to in
 Investing is the last, and most complicated step. This is where user probably needs the most help.
 
 #### Chat
+
+The Green Filter AI companion can answer many types of sustainability questions.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Chat Ask](./images/interactive/companion/chat-ask.png){width="100%"}
