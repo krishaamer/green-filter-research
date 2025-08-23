@@ -23,7 +23,7 @@ My research describes the process of designing an AI companion for college stude
 ```
 ## Relevance and Research Gap
 
-My research addresses the *"attitude-behavior gap"* among Taiwanese college students in taking sustainable financial action. In general, Icek Ajzen's *Theory of Planned Behavior* frames the gap between attitude and behavior by showing that (1) attitude, (2) perceived social norms, and (3) perceived control, must all converge, before intention can translate into any action [@ajzenTheoryPlannedBehavior1991] - in this case, taking sustainable financial action.
+My research addresses the *"attitude-behavior gap"* among Taiwanese college students in taking sustainable financial action. Although Taiwanese students demonstrate strong concern for sustainability, they lack accessible, transparent, and personalized digital tools that connect environmental information with everyday financial decisions. This thesis addresses this gap by designing an AI companion that integrates sustainability data, financial insights, and persuasive design strategies to empower students to act on their values. In general, Icek Ajzen's *Theory of Planned Behavior* frames the gap between attitude and behavior by showing that (1) attitude, (2) perceived social norms, and (3) perceived control, must all converge, before intention can translate into any action [@ajzenTheoryPlannedBehavior1991] - in this case, taking sustainable financial action.
 
 ::: {.content-hidden unless-format="pdf"}
 ![Research Gap(s)](./images/introduction/research-gaps.png){#fig-research-gap width="100%" fig-lof-cap="Research Gap(s)"}
