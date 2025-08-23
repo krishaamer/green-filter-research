@@ -995,7 +995,25 @@ Fossil fuels are what powers humanity as well as the largest source of CO~2~ emi
 
 [@emberElectricityDataExplorer2025] Ember’s Electricity Data Explorer shows Taiwanese energy usage based on data from Taiwanese government, visualizing the growth in gas, wind, and solar, and decline of coal and nuclear power; however, while declining, coal remains the leading power source for Taiwan. Climate pledges made by international companies present in Taiwan mean they need large amounts of green energy to meet their sustainability goals. For instance, Google worked with the government of Taiwan to change the laws to allow direct power procurement by foreign companies; the current plan being to install 1 gigawatt of solar power fully pre-purchased by the newly formed company created by BlackRock and Google for boosting AI development as reported by [@jessopGoogleBuysStake2024; @chiangGoogleInvestsBlackRockbacked2024; @YongXinNengYuannewgreenpowerBlackRockAcquire1002022]. More recently, Google also purchased 10MW of geothermal energy for its Taiwanese AI chip projects, doubling current Taiwanese geothermal capacity [@wuGoogleAnnouncesMilestone2025; @potterGoogleJustFlipped2025; @hagstrom-ilievskaMajorStepGeothermal2025]. Geothermal energy provides 24/7 clean energy from the Earth's core, however is limited due to lack of access; Taiwan happens to be in geologically active spot on the ring of fire, where drilling for geothermal energy is more feasible [@lGoogleIgnitesTaiwans2025; @changOurFirstGeothermal2025].
 
-### Tools for Protecting Nature
+### Designing Probabilistic Risk-Based Assessments for Sustainable Finance
+
+Designing for sustainability boils down to building tools for protecting nature which navigate complexity with data.
+
+In order to make a difference in sustainability, with large capital flowing into the environment at scale to deliver climate action, the markets for ecosystem assets would need to scale urgently, starting with carbon credits. BeZero is a startup innovating in the Voluntary Carbon Credit Market (VCM) by providing *risk-scoring*, a language financial professionals are accustomed to working with in other types of asset classes [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]. The VCM is limited by immature market structures, which means market participants still struggle to price and manage risk properly; BeZero ratings frame carbon credits in a probabilistic, risk-based language familiar to large investors who oversee roughly 200 trillion USD of global assets [@bezeroFocusRatings2022].
+
+> *“The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information.”* [@bezeroScalingCarbonMarkets2022]
+
+Founded a few months before BeZero in early 2020, *Sylvera* tackles the same quality-signal problem in carbon, utilizing a scientific toolkit including analysis of high-resolution satellite imagery, LiDAR point clouds, and machine-learning models to assign granular AAA–D scores that break out carbon efficacy, additionality, permanence, and co-benefits; the company is active world-wide, including opening a regional hub in Singapore and holding an event earlier this year in Taiwan to promote carbon credit accountancy as a pathway to sustainability in collaboration with the Welhunt Group [@welhuntWelhuntSylveraCohost2025; @sylveraSylveraSingaporeEmpowering2023].
+
+| Bottleneck in VCM | BeZero | Carbonmark |
+|-------------------|------------------------|-----------------------------|
+| Hard to gauge quality and downside risk | Provides probabilistic ratings investors already understand | N/A |
+| Fragmented, slow, OTC trading | N/A | Consolidates registries, offers 24 / 7 liquidity and smart-contract settlement |
+| Need to move big capital fast | Gives financiers a common risk language | Cuts friction so large orders can clear quickly |
+
+*Bottlenecks in Carbon Markets*
+
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it is impossible to bring back already destroyed biodiversity that took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature. In a sense, climate action as an asset-liability problem, however the assets are non-fungible. They are rare and incredibly valuable.
 
 In this context, **Commodification of Nature vs Nature's Sacred Value** serves as a bridge between the preceding ideas and their application in sustainable design. Here the focus is on clarifying its scope, limitations, and potential for meaningful impact. Selected case studies and metrics inform this understanding.
 
