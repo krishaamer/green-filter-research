@@ -86,7 +86,7 @@ Table: Latest report from the 財金智慧FINLEA longitudinal study [@WangRuanGu
   refTitle="YouTube"
 />
 ```
-Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over \$2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit \$30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at an higher \$73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n = 3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
+Internationally, there's evidence young people have money. In the United States, the combined annual consumer spending of Gen-Z and Millennials was over \$2.5 Trillion in 2020 [@ypulseMillennialsGenTeens2020]. Over the decade from 2020 to 2030, in the U.S., UK, and Australia, Millennials are projected to inherit \$30 Trillion USD from their parents [@calastoneMillennialsInvestingDetailed2020]. [@stevermanWhat$73Trillion2022] puts the inheritance figure between 2022-2045 at a higher number of \$73 Trillion USD. There's also some evidence of investment interest, however with a large geographic variance. According to a [@calastoneMillennialsInvestingDetailed2020] study (n = 3000) surveying people in the millennial age group between ages 23 and 35 in Europe (UK, France, Germany), U.S.A., Hong Kong, and Australia, 48% of respondents located in Hong Kong owned financial securities (such as stocks) while the figure was just 10% in France.
 
 | Place of Comparison | Financial Security Ownership |
 |---------------------|------------------------------|
@@ -96,11 +96,7 @@ Internationally, there's evidence young people have money. In the United States,
 
 Table: Data from millennial investors [@calastoneMillennialsInvestingDetailed2020]. []{short-caption="Millennial Investors"}
 
-#### Young Investors Follow Financial Influencers
-
-Young investors are typically *retail investors*, investing small amounts of money for themselves. (Unless they have inherited wealth or are among the very few who work in institutions such as investment firms, university endowments, pension funds or mutual funds, and have a say in where to invest large amounts of other peoples' money.) Retail investors face many challenges in comparison with their institutional counterparts. For instance, they may have much less time to do proper research, face information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions.
-
-The common expectation is that young investors typically have less understanding financial concepts. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Financial and sustainability literacy are intertwined. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. Media plays a significant role here, with retail investing being heavily influenced by social media influencers.
+Young people are typically *retail investors*, investing small amounts of money for themselves. Retail investors face many challenges in comparison with their institutional counterparts. For instance, lack of skills to do proper research, facing information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions. The common expectation is that young investors typically have less understanding financial concepts and follow financial influencers on social media for guidance. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Financial and sustainability literacy are intertwined. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. Social media plays a significant role here, with retail investing being heavily influenced by social media influencers.
 
 Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good starting point is to ask the user to define their financial habits: are you consumer or investor? This helps users recognize whether their spending habits define them primarily as consumers or as investors. [@smartwealthHowBecomeInvestor2021] urges readers to *"consume knowledge, not products"*: for financial health one should get rid of debt, automate tracking of expenses and savings, and create a pathway for income to flow into investments; consumer mindset is the main obstacle that keeps people from financial independence and investing. Investing can intersect with gender and race, as for example, during COVID-19, the financial advisor Malaika Maphalala co-led the *"Invest in Black Economic Liberation"* calling for racial justice investing to direct flows into sustainable funds [@naturalinvestMalaikaMaphalalaNatural2020]. On TikTok, [@TikTokItImportantWe] promotes the IMPACT investing app by Interactive Brokers which is a mobile trading platform focused on socially conscious investors interested in sustainability [@trahantInteractiveBrokersBuilt2022].
 
@@ -116,7 +112,7 @@ Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good st
 | **Mobile App Experience** | Professional, ESG-focused UI | Clean, simple, intuitive | Gamified, casual, integrated with other Revolut services |
 | **Extra Features** | Voting rights, ethical filters, carbon impact metrics | Interest on cash (like a bank account); multi-currency accounts | Cashback, budgeting, crypto, P2P payments, travel perks |
 
-: Comparative Data on Investing Apps; compiled from [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025]
+Table: Comparative Data on Investing Apps; compiled from [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025] []{short-caption="Comparative Data on Investing Apps"}
 
 The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a dual journey: first, helping users recognize whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
 
@@ -143,17 +139,13 @@ Building a community is a way to design a context, where the culture creates cer
 
 ### The Convergence of Money
 
-The meaning of *money* is changing - becoming more diverse. Traditionally, money referred to the fiat money created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using blockchain-cryptography based distributed databases, which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc, which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
+This chapter explores how money could incorporate sustainability as a feature. The meaning of *money* itself has been changing and becoming more diverse. Traditionally, money referred to the *fiat money* created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases (digital ledgers), which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc., which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
 > *“Money is information… it shouldn’t be more expensive or slower than sending an email.”* [@kaarmannWhyDoesTransferWise2018], co-founder of Wise, formerly Transferwise, a money transfer platform.
 
-This chapter explores how money could incorporate sustainability as a feature.
-
-#### Legislative Efforts Empowering Consumers to Deploy Capital in Sustainability
-
 Regardless if its money spent on shopping or money saved and invested, these are all consumers' financial decisions of *capital allocation*. In one way or another, people are giving their money to companies. The critical question is: *do people choose to support sustainability-focused companies* - companies which invest deeply into green innovation and eco-friendly practices - or do people choose companies that pay less attention to sustainability? While all financial transactions support economic growth in the sense of being reflected in the Gross Domestic Product (GDP), not all money flows equally support sustainable economic growth.
 
-Legislation is catching up with fintechs and setting higher standards for consumer protection. For example the Directive 14 2014/65/EU, 2014 of The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants [@europeansecuritiesandmarketsauthorityMiFIDII2017].
+Several legislative efforts around the world are empowering consumers to deploy more capital into sustainability, catching up with new financial technologies and setting higher standards for consumer protection. For example the Directive 14 2014/65/EU, 2014 of The European Union fully recognizes the changing financial landscape trending towards the democratization of investments: *"more investors have become active in the financial markets and are offered an even more complex wide-ranging set of services and instruments"* [@europeanparliamentDirective2014652014]. Some key legislation for investors has been put in place recently, for example "MiFID II is a legislative framework instituted by the European Union (EU) to regulate financial markets in the bloc and improve protections for investors" [@kentonMiFIDII2020]. MiFID II and MiFIR will ensure fairer, safer and more efficient markets and facilitate greater transparency for all participants [@europeansecuritiesandmarketsauthorityMiFIDII2017].
 
 [@pwc2022GrowthOpportunity2020] Changes to laws and regulations aimed at achieving climate change mitigation is a key driver behind the wave of ESG adoption. The goal of these laws, first adopted in the European Union, a self-proclaimed leader in eco-friendliness, is to pressure unsustainable companies to change towards greener practices, in fear of losing their access to future capital, and to create a mechanism forcing entire environmentally non-compliant business sectors to innovate towards sustainability unless they want to suffer from financial penalties. On the flip side of this stick and carrot fiscal strategy, ESG-compliant companies will have incentives to access to cheaper capital and larger investor demand from ESG-friendly investors.
 
@@ -163,9 +155,7 @@ While the above trend is for governments to adapt to and work towards their envi
 
 Governments are powerful in passing legislation, with a strong positive or negative ESG impact, and people do have a voice. Among the many grassroots campaigns, one environmental success story is about success story, asking that EU shops can't sell deforestation products, gathering over 100 thousand online signatures [@wemoveeuropeBanForestkillingProducts2022]. Subsequently, legislation banning products contributing to deforestation was passed by the EU Parliament and Council in 2023 and came into effect in July 2024 [@europeanparliamentRegulationEU20232023; @abnettUnitedStatesAsks2024].
 
-### ESG: Towards A Shared Language of Sustainability Risk
-
-#### ESG Accessibility
+### ESG Accessibility: Towards A Shared Language of Sustainability Risk
 
 I've chosen ESG as the umbrella term for many types of sustainability metrics (discussed below). For an AI assistant to be able to provide sustainability support, it needs to have reliable and accurate sustainability data. This is a difficult task to achieve. The sections below aim to cover how ESG could become accessible for college students - in terms of accuracy, relevance, and meaningful impact.
 
@@ -182,9 +172,9 @@ Taiwan has listed ESG stocks since 2017 and was hailed by Bloomberg as a regiona
 msci_esg_leaders()
 ```
 
-#### ESG Crisis: Modern Slavery Persists
+### ESG Crisis
 
-ESG falls short in protecting workers' rights and mitigating environmental harm. In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The International Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
+While proponents of ESG claim to support workers' rights, modern slavey persists. ESG falls short in protecting workers' rights and mitigating environmental harm. In 2023, an estimated 50 million people were in slavery around the world; lack of supply chain visibility hides forced labor and exploitation of undocumented migrants in agricultural work; 71% of enslaved people are estimated to be women. [@kunzAdoptionTransferabilityJoint2023; @borrelliCareSupportMaternity2023]. [@christBlockchainTechnologyModern2021] estimates 20 million people are *'stuck inside corporate blockchains'*. The Global Slavery Index measures the considerable *'import risk'* of having slavery inside its imports [@walkfreeGlobalSlaveryIndex2023]. [@hansvanleeuwenModernSlaveryGrace2023] slavery affects industries from fashion to technology, including sustainability enablers such as solar panels. The International Labor Organization (ILO) estimates 236 billion USD are generated in illegal profits from forced labor [@internationallabourorganizationProfitsPovertyEconomics2024]. On the global level, the United Nations SDG target 8.7 targets to eliminate all forms of slavery by 2025 however progress has been slow [@theminderoofoundationEradicatingModernSlavery2020].
 
 The California Transparency in Supply Chains Act which came into effect in 2012 applies to large retailers and manufacturers focused on pushing companies to to eradicate human trafficking and slavery in their supply chains. Similarly, the German Supply Chain Act (*Gesetz über die unternehmerischen Sorgfaltspflichten zur Vermeidung von Menschenrechtsverletzungen in Lieferketten*) enacted in 2021 requires companies to monitor violations in their supply chains [@Lieferkettengesetz2023; @strettonGermanSupplyChain2022].
 
@@ -212,9 +202,7 @@ air_quality_southasia_vs_taiwan()
 
 The above charts shows a comparison of air quality trends in South Asia vs Taiwan; while air pollution has increased in India, Bangladesh, and Pakistan, Taiwan has returned to the pollution levels of 1990s.
 
-#### Lack of ESG Standardization: An Opportunity to Solve Opaque Metrics
-
-ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca-Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information; major ESG ratings omit 90% of the company’s water footprint. [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include (1) inconsistent data, and (2) superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. [@margarytakirakosianMethodologiesAreAll2022] argues that ESG needs standardization of methodologies as the disparity is one of the key hurdles in finding the right sustainable strategy. This is supported by econometric analysis, showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. Likewise, The Carbon Tracker Initiative finds that companies in the highest-emitting sectors fail to explain how their greenhouse-gas outputs translate into financial risk, based on an analysis of corporate disclosures [@francesschwartzkopffFirmsArenReporting2022].
+The lack of ESG standardization presents an opportunity to solve the opaque metrics by focusing on transparency. ESG ratings have faced criticism for lack of standards and failing to account for the comprehensive impact a company is having. [@foleyRestoringTrustESG2024] notes how Coca-Cola fails to account the supply chain water usage when reporting becoming "water neutral" and calls on companies to release more detailed information; major ESG ratings omit 90% of the company’s water footprint. [@gemmawoodwardGoodRiddanceESG2022] Identifies fundamental problems in current ESG frameworks include (1) inconsistent data, and (2) superficial rating schemes, and calls for a complete overhaul to restore credibility in sustainable investing. [@margarytakirakosianMethodologiesAreAll2022] argues that ESG needs standardization of methodologies as the disparity is one of the key hurdles in finding the right sustainable strategy. This is supported by econometric analysis, showing how inconsistent ESG scoring methodologies and greenwashing risk can predict the yields of green bonds, meaning scoring variance could materially affect bond pricing [@baldiRoleESGScoring2022]. Likewise, The Carbon Tracker Initiative finds that companies in the highest-emitting sectors fail to explain how their greenhouse-gas outputs translate into financial risk, based on an analysis of corporate disclosures [@francesschwartzkopffFirmsArenReporting2022].
 
 Fortunately, there are some investment advisors rebuffing misleading ESG claims made by asset managers. Prominent investment research firm Morningstar conducted a forensic analysis of the industry, and re-classified 1/5 of the tracked funds (over 1200 in total) or over \$1 trillion USD in total valuation, as non-ESG; Hortense Bioy, Morningstar's Head of Sustainability Research, commented these funds don't integrate ESG factors "in a determinative way for their investment selection" [@schwartzkopffESGFundsManaging2022].
 
@@ -239,13 +227,19 @@ Yet, the question remains, whether one can trust financial professional to hold 
 
 In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
-#### Towards Green Transparency: Curbing Corruption with Real-time Data Streams and Product Lifecycle Traceability
+#### Green Transparency: Real-time Data Streams for Curbing Corruption and Product Lifecycle Traceability
 
 For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices.
 
 However, fundamentally, unless there is significant headway in curbing greenwashing, companies today use ESG as a marketing tool - but it could achieve much more. One of the key emerging issues is that ESG is an annual report not real-time, actionable data. [@sahotaAIAnalysis8002021] argues that *"\[T\]hanks to other emerging technology like IoT sensors (to collect ESG data) and blockchain (to track transactions), we have the infrastructure to collect more data, particularly for machine consumption. By measuring real-time energy usage, transportation routes, manufacturing waste, and so forth, we have more quantifiable ways to track corporations' environmental performance without relying purely on what they say."*
 
 For corporations to respond to the climate crisis, they are expected to become more digital and data-driven. Requirements for ESG compliance has given rise to a plethora of new monitoring tools. There's a growing number of companies helping businesses to measure CO~2~eq emissions in through their entire product lifecycle. In order to improve product *provenance*, blockchains offer transparency. Several enterprise blockchain offerings from vendors such as Hyperledger Fabric and ConsenSys use immutable supply‐chain ledgers to record origin, certifications, and product movements end‐to‐end [@BlockchainCompaniesTeam2021]. Blockchain’s immutable data and programmable incentives enable transparent ESG tracking, secure carbon‐credit registries and tokenized rewards that align corporate behavior with climate goals [@ganuWhyBlockchainCan2021]. Sourcemap’s *supply chain mapping* platform provides tooling to *know your suppliers' suppliers*, monitoring every tier of company supply chains, continuously collecting and checking the integrity of supplier data, using 3-party registries and watchlists, real-time transaction traceability, creating an audit trail for instantly detecting fraud or non-compliance with effective regulations and due-diligence laws [@sourcemapSupplyChainMapping2025]. The founder of Sourcemap, Leonardo Bonanni, started out with doing product autopsy in 2015 to assess product sustainability [@FastFashionLere2023].
+
+Product databases are a precursor for traceability and supply chain mapping. In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. GS1 is the organization responsible for issuing EAN/UPC barcodes found on most consumer products worldwide [@gs1EANUPCBarcodes]. However, while the UPC stands for Universal Product Code, there is no truly centralized, authoritative database of all UPCs, which has led to duplication and inconsistency across products sharing the same codes, especially with the rise of e-commerce marketplaces [@semantics3WhyUPCDoesn2017]. As early as 2016, [@hakonbogenThereGlobalDatabase2016] raised questions whether a global database of all EAN (European Article Number) barcoded products could be created. Barcodes help identify products within supply chains and retail systems, but they do not alone create a central product registry. On a basic level, standardized product codes ensures product inventory, traceability, automated checkout, and support global trade. All the world's products already are subject to one or another standard, and although they are not uniform, some documentation does exist about every product.
+
+A number of specialized product databases have been created to fill specific needs. The Open Product Database maintained by Datakick [@DatakickOpenProduct] aimed to crowdsource product information but faced limitations and is no longer widely active. WIPO GREEN, the global green technology database, catalogs environmentally sustainable innovations [@WIPOGREENGlobal]. The World Packaging Database provides detailed information about product packaging worldwide, important for understanding material impacts [@PackagingWorld]. In a similar vein, [@konradA16zCryptoLeads] imagines the possibility of an internet-wide directory of purchasable products, akin to how platforms like Spotify have made nearly all the world's music easily searchable and accessible. However, despite the obvious need, attempts to build such directories have faced significant challenges. For example, the Open Knowledge Foundation's Open Product Data initiative [@OpenProductData] was eventually shut down, highlighting how difficult it is to maintain open, comprehensive, and up-to-date product information at a global scale.
+
+While some infrastructure exists, including bar and QR-codes, standards, and partial databases, the world still lacks a unified, reliable, open-access product database. Building such a system could be improved sustainability assessments, supply chain transparency, and informed consumer choices at the global scale.
 
 [@timnicolleRealtimeESGData2021; @ratkovicLeadingWayRealTime2023] believe that real-time ESG data is more difficult to greenwash, because the supply chain data is a significant source of ESG content; a fundamental breakthrough would be surfacing real-time ESG data directly to individual consumers browsing products - be it in physical shops or online, - allowing customers to judge if they want to purchase from this business. [@RealTimeESG2021] built a tool - called Stocksnips - to turn unstructured news into daily ESG sentiment signals, starting with about 1000 companies; the sentiment signal shows significant correlation with expert ratings, offering an automated forward-looking gauge of corporate ESG performance. Likewise, LSEG’s MarketPsych ESG Analytics platform mines global news and social feeds for near‐real‐time controversy alerts and ESG risk‐scores with historical data going back to 1998 [@lsegMarketPsychAnalytics2025]. Envify aims to automate compliance with the Corporate Sustainability Reporting Directive (CSRD), by providing a suite of carbon accounting tools [@rajanTheFutureSustainability2025]. Flowit Estonia automated real‐time CO~2~eq accounting in 2022 by combining invoices and sensor data to generating instant per‐transaction emission footprints [@indrekkaldEestiITfirmaAutomatiseeris2022]. A startup called Makersite proposes instant sustainability impact from supply chain, deep supply-chain data can surface product–level environmental footprints in minutes instead of months, which they call *"Product Lifecycle Intelligence"* [@kylewiggersMakersiteLands18M2022]. More recently, Makersite has updated the language they use for promoting their product, now calling it *Product Sustainability Modeling* [@makersiteImproveYourProduct]. Apart from product level analytics, there's sustainability data on source raw materials. CarbonChain rolled out asset-level emissions ratings for individual mines: covering metals including steel, aluminum, nickel, and copper - so product developers can benchmark material sources' carbon intensity against industry averages [@carbonchainCarbonChainSummer2024].
 
@@ -276,186 +270,9 @@ fund_types_chart()
 
 Three frameworks for corporate to think about ESG compliance is to position their company on the MEET, EXCEED, and LEAD scale based on the size, complexity and available resources of the company.
 
-Robeco's survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
+Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indices make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc. tracking both the most sustainable companies and worst offenders. However, sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
 
-#### Tracking Ethics & Cruelty: Transparent Factories and Supply Chains
-
-> "Secrecy is the linchpin of abuse of power... its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist. [@greenwaldNoPlaceHide2015]
-
-In the most general sense, supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007]. Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
-
-| Type of Transport           | Percentage |
-|-----------------------------|------------|
-| Passenger cars              | 39%        |
-| **Medium and heavy trucks** | 23%        |
-| **Shipping**                | 11%        |
-| **Aviation**                | 9%         |
-| Buses and minibuses         | 7%         |
-| Light commercial vehicles   | 5%         |
-| Two/three-wheelers          | 3%         |
-| Rail                        | 3%         |
-
-Table: Share of CO~2~eq emissions by type of transport globally [@statistaGlobalTransportCO22022]. []{short-caption="Share of CO~2~eq Emissions by Type of Transport Globally"}
-
-In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, [@platzerPerspectiveUrgencyGreen2023], a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
-
-[@watersEthicsChoiceAnimal2015] analyzes the most effective strategies to improve animal welfare and advance animal rights against a monopolistic producer finding the most successful tactics to be (1) negotiation, (2) targeted direct action, and (3) awareness campaigns condemning low-welfare practices.
-
-#### ESG Success Depends on Digitization and GenAI
-
-In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 1551 banks, of which only 180 banks disclosed sufficient ESG data for comparison, building a *Fintech Adoption Index*; the key findings included a positive correlation between Fintech Index and ESG Scores, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even better predictors of a high ESG score were Board Gender Diversity (Women on Board), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible).
-
-```{python}
-#| label: fig-esg-fintech-pred
-#| fig-cap: "Fintech Adoption Predicts Higher ESG"
-#| fig-scap: "Fintech Adoption Predicts Higher ESG"
-esg_fintech_heatmap()
-```
-
-The ability to build sustainability into the organization requires deep understanding of how the complex structure works and what drives change and innovation within business units. [@jimboehmBetterRiskControls2021] distilled key strategies from the banking sector to speed up digital transformation, while improving risk management and compliance (see table below).
-
-| Strategy | Description |
-|----------------------|--------------------------------------------------|
-| Enterprise-level Risk Taxonomy | A unified classification system that defines and categorizes all risk types across the entire organization. |
-| Embedded Controls in Agile Delivery | Risk-and-compliance integration directly into agile development sprints (a type of management style in building software) to catch issues as code is written. |
-| Cross-functional Risk–Business Collaboration | Joint ownership of risk by compliance teams and business units, ensuring controls are practical and business-aligned. |
-| Metrics-driven Monitoring | Continuous tracking of key risk indicators through quantifiable metrics to spot trends and trigger alerts. |
-| Proactive Remediation | Early detection and rapid resolution of control defects before they escalate into larger compliance or security gaps. |
-| Continuous Capability Building | Ongoing training and tooling updates; best-practice sharing to keep risk-management skills and processes current. |
-
-: Banking transformation strategies from [@jimboehmBetterRiskControls2021]
-
-These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how genAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
-
-| GenAI Use Case | Description |
-|-----------------|-------------------------------------------------------|
-| Regulatory Compliance | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals. |
-| Financial Crime | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns. |
-| Credit Risk | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
-| Analytics and Modeling | Build and validate risk models; run scenario analysis; summarize complex data sets for insights. |
-| Cyber Risk | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps. |
-| Climate Risk | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments. |
-
-: GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024].
-
-In the context of China’s industrial modernization, [@luDoesEnvironmentalInformation2023] finds that *digitization* is the pathway to increased Environmental Information Disclosure (EID) and Green Innovation, correlating with increased numbers of green patents and sustainable R&D projects.
-
-While ESG is riddled with problems, it has started a *common language* - the advice consultancies are providing to banks make use this common language to helps banks to sell strategical alignment for long-term institutional sustainability in terms of environmental, social, and governance performance. PWC suggests *"asset managers educate their staff and client base. It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent"* [@pwc2022GrowthOpportunity2020].
-
-In general, a futures contract is an agreement to buy or sell a market index at a fixed price on a set date, locking in today’s price for the future. The exchange’s clearinghouse guarantees the trade, so one doesn’t have to worry about the other side not honoring the deal. ESG futures specifically, are financial derivatives, standardized contracts, which allow investors to hedge or speculate on the future performance of ESG-compliant investments. Some ESG futures contracts include the E-mini S&P 500 ESG futures (on the Chicago Mercantile Exchange, a large derivatives exchange), which track the U.S. S&P 500, while skipping companies with poor ESG scores, letting one bet on or hedge "sustainable" American companies with large market capitalization; notably, the index has recently been renamed to S&P 500 Scored & Screened Index, without a specific mention of the acronym ESG, while keeping the methodology unchanged, presumably for marketing purposes in the changing political landscape [@cmegroupEminiSP5002025]. In Europe, the STOXX Europe 600 ESG-X futures (on the Eurex stock market) let one trade Europe’s top ESG-screened companies, with cash settlement and the same margin rules as regular (non-ESG) index futures [@deutscheborsegroupESGIndexDerivatives2025; @hardingESGFuturesCatching2019]. Globally, the MSCI Sustainability and Climate Change futures (on the Intercontinental Exchange) cover global and regional ESG benchmarks, allowing one to take a position on low-carbon or Paris Climate Agreement-aligned stock indices anywhere in the world [@intercontinentalexchangeICEMSCIClimate2025]. The CFI2Z4 Carbon Emissions Futures tool tracks live coverage of ICE EU Allowance futures priced in EUR per tonne, with real-time quotes as well as historical charts, enabling traders to monitor and analyze the compliance-phase carbon market [@investing.comCarbonEmissionsFutures2024]. Specifically in Taiwan, the FTSE4Good TIP Taiwan ESG futures (on TAIFEX, Taiwan Futures Exchange), launched in June 2020 to follow a basket of Taiwanese stocks that meet global ESG standards [@taifexTaiWanQiHuoJiaoYiSuo2025].
-
-#### ESG Success Depends on Good Governance: Boards, Policy, and Investor Pressure
-
-Governance in ESG is the G that makes E and S happen - or put in another way: governance drives social and environmental initiatives at companies. Yet MSCI research finds company boards severely lacking in climate experts; among the 164 large CO~2~eq emitters (1986 directors in total) benchmarked by the Climate Action 100+ alliance, 65% have no board member with demonstrated climate expertise, highlighting a major governance gap [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
-
-| Region | Companies (n) | ≥ 1 Climate Expert (%) | ≥ 1 Expert (count) | No Experts (%) | No Experts (count) |
-|------------|------------|------------|------------|------------|------------|
-| **EMEA** | 52 | 48 % | 25 | 52 % | 27 |
-| **Americas** | 61 | 36 % | 22 | 64 % | 39 |
-| **APAC** | 51 | 20 % | 10 | 80 % | 41 |
-
-: Climate Experts on Company Boards
-
-```{python}
-#| label: fig-board-sust-expert
-#| fig-cap: "Lack of Board Members With Sustainability Expertise"
-#| fig-scap: "Lack of Board Members With Sustainability Expertise"
-msci_board_sustainability_experts()
-```
-
-```{python}
-#| label: fig-board-sust-expert-large
-#| fig-cap: "Large Carbon Emitters Lack Sustainability Experts"
-#| fig-scap: "Large Carbon Emitters Lack Sustainability Experts"
-companies_large_emitters_climate_experts()
-```
-
-Most companies do not meet the criteria [@climateaction100+Companies2023].
-
-```{python}
-#| label: fig-companies-carbon-criteria
-#| fig-cap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
-#| fig-scap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
-companies_large_emitters_criteria()
-```
-
-Lack of leadership is a key challenge for sustainability. [@capgeminiWorldBalanceWhy2022] *"Many business leaders see sustainability as costly obligation rather than investment in the future"* was the finding from the Capgemini Research Institute’s report "Why sustainability ambition is not translating to action" surveyed 2,004 executives from 668 large organizations; 53% of leaders view sustainability initiatives as a financial burden, believing the costs outweigh the benefits, and only 21% agree that the business case for sustainability is clear, underscoring a pervasive leadership gap that treats sustainability as a costly obligation.
-
-A systematic study of 153 peer-reviewed papers of ESG literature published between 2006 and 2023 around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes; actively diversifying boards, especially adding members with sustainability expertise, and aligning executive compensation with ESG targets to translate strategic ambitions into operational results, may boost ESG outcomes [@martinyDeterminantsEnvironmentalSocial2024].
-
-```{python}
-#| label: fig-board-diversity
-#| fig-cap: "Board Diversity"
-#| fig-scap: "Board Diversity"
-ck_board_diversity()
-```
-
-The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion companies in the world -, recognized the potential impact of *conscious consumers* as a threat [@hoikkalaHMCEOSees2019] and at the same time launched a clothes repair service in partnership with the Norwegian start-up Repairable, as reported by the Norwegian Sustainability Hub [@shubHMInvestsSustainable2018]. These kinds of discrepancies are all over the place. While Coca-Cola is the largest plastic polluter in the world, at the same time it runs the “World Without Waste” program which supports packaging recycling around the world, reporting achieving a global 90% recycling rate for Coca-Cola packaging [@simoes-coelhoBalancingGlobalCorporate2023; @breakfreefromplastic2023GlobalBrand2024]. Large corporations such as Coca-Cola and Nestle also support the biodiversity law, calling for a level playing field for business limit biodiversity risk [@greensefaNatureVoteSuccess2023].
-
-Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers [@walmartProjectGigaton2023]. These examples underline how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
-
-Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project *Invest in Your Values* rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024].
-
-Board diversity in the top 5 sustainable companies in 2024 based on Corporate Knights rankings [@corporateknightsGlobal1002024].
-
-```{python}
-#| label: fig-esg-board-div-comp
-#| fig-cap: "Simplified comparison chart for board diversity (gender and cultural) vs ESG score"
-#| fig-scap: "ESG vs Board Diversity"
-esg_vs_board_diversity()
-```
-
-#### Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
-
-Because corporate hypocrisy is a blocker of sustainable action, both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if green or sustainable funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
-
-Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. The EU regulation for standardizing sustainability reporting, called the Corporate Sustainability Reporting Directive (CSRD) entered into force on 5 January 2023 and will be phased in across fiscal years 2024 to 2026 (with reports due in 2025 through 2027), requiring companies to comply with the new European Sustainability Reporting Standards for detailed environmental, social and governance disclosures [@normativeCorporateSustainabilityReporting2025]. Environmental information legislation generally entitles all individuals to access environmental data through environmental information disclosure (EID), and the notion of "environmental information" spans a wide variety of topics [@oelkersAccessibilityDataEnvironmental2020].
-
-EU’s Eco-Design Regulation for Sustainable Products (ESPR) requires mandatory documentation of environmental impacts for all product categories, bans self-declared green claims by, and sets out specific design criteria, including durability, repairability, recycled content, remanufacturing, lifecycle impacts, and waste prevention [@nastaraanvadoodiEcodesignRequirementsDrive2022]. Until new legislation is ramped up to shift from linear to circular product development, building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
-
-> *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019].
-
-While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection, due to oversight or private business interests and lobbyists [@fredericsimonCommissionFireIncluding2020; @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how wood pellets may be counted as a sustainable energy source, even though they cause deforestation:
-
-> *"A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program"* - [@boothBurningCarbonSink2022].
-
-While new EU legislation for deforestation-free products may eventually solve this issue (or at least mitigate the worst outcomes), the application of these laws is delayed as of writing [@europeancommissionApplicationEUDRRegulation2024; @parrishOverviewUpdatedEUDR2025]. In the US, a large wood pellet producer Enviva filed for bankruptcy protection after being sued for misleading the public about the sustainability of its products, yet managed to survive and is now again expanding its biomass business; likewise, Drax Group, another large pellet producer managed continues business after a public backlash [@diverClearCutTruthBiomass2025; @millardDraxMisledGovernment2025; @catanosoEnvivaBankruptcyFallout2024].
-
-In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as *home compostable* don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
-
-Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. If humans feel as if choosing green is useless, they easily give up. Sustainable investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
-
-If I may conclude with a list:
-
--   Sustainable investing is based on data.
--   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not.
--   Greenwashing disturbs sustainable capital allocation.
--   Greenwashing erodes trust.
--   Greenwashing has a negative impact on credibility.
-
-The promise of ESG is to counter misinformation with transparency.
-
-#### Anti-Greenwashing Efforts in Taiwan
-
-The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]
-
-The Taiwanese Corporate Governance Sustainable Development Roadmap published by the Corporate Governance Reform Task Force established by the Executive Yuan (Taiwanese Government), identifies *lack of diversity and independence in boards* and *insufficient ESG and financial information transparency* as key issues [@taiwanstockexchangecorporationTWSEGongSiZhiLiZhongXin2023].
-
-The Taiwanese Green Citizens Action Alliance published a comprehensive report in 2024 tracking Taiwanese Corporate Sustainability Reporting focused directly at fighting corporate greenwashing [@LuSeGongMinXingDongLianMengDaZaoFanPiaoLuShengTaiXi2024].
-
-#### Product Databases as a Precursor for Traceability and Supply Chain Mapping
-
-In order to consider the sustainability on a product level, there should be a directory of all the world's products - a world product database. GS1 is the organization responsible for issuing EAN/UPC barcodes found on most consumer products worldwide [@gs1EANUPCBarcodes]. However, while the UPC stands for Universal Product Code, there is no truly centralized, authoritative database of all UPCs, which has led to duplication and inconsistency across products sharing the same codes, especially with the rise of e-commerce marketplaces [@semantics3WhyUPCDoesn2017]. As early as 2016, [@hakonbogenThereGlobalDatabase2016] raised questions whether a global database of all EAN (European Article Number) barcoded products could be created. Barcodes help identify products within supply chains and retail systems, but they do not alone create a central product registry. On a basic level, standardized product codes ensures product inventory, traceability, automated checkout, and support global trade. All the world's products already are subject to one or another standard, and although they are not uniform, some documentation does exist about every product.
-
-A number of specialized product databases have been created to fill specific needs. The Open Product Database maintained by Datakick [@DatakickOpenProduct] aimed to crowdsource product information but faced limitations and is no longer widely active. WIPO GREEN, the global green technology database, catalogs environmentally sustainable innovations [@WIPOGREENGlobal]. The World Packaging Database provides detailed information about product packaging worldwide, important for understanding material impacts [@PackagingWorld].
-
-In a similar vein, [@konradA16zCryptoLeads] imagines the possibility of an internet-wide directory of purchasable products, akin to how platforms like Spotify have made nearly all the world's music easily searchable and accessible. However, despite the obvious need, attempts to build such directories have faced significant challenges. For example, the Open Knowledge Foundation's Open Product Data initiative [@OpenProductData] was eventually shut down, highlighting how difficult it is to maintain open, comprehensive, and up-to-date product information at a global scale.
-
-While some infrastructure exists, including bar and QR-codes, standards, and partial databases, the world still lacks a unified, reliable, open-access product database. Building such a system could be improved sustainability assessments, supply chain transparency, and informed consumer choices at the global scale.
-
-#### Indices, Certifications and Sustainability Standards Enable Product Comparisons
-
-Research shows certification does matter. In Europe, consumers are willing to pay more for bio-based products: *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a 'green premium' and a 'certified green premium,'' indicating increased WTP for bio-based and certified bio-based products"*[@moroneConsumerWillingnessPay2021]. Particularly in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
+Research shows certification does matter. Indices, certifications and sustainability standards enable product comparisons. In Europe, consumers are willing to pay more for bio-based products: *"72% of Europeans are willing to pay more for environmentally friendly products. The study identifies a 'green premium' and a 'certified green premium,'' indicating increased WTP for bio-based and certified bio-based products"*[@moroneConsumerWillingnessPay2021]. Particularly in Italy, a study of consumer awareness of sustainable supply chains shows Italian consumers have a strong preference for antibiotic-free meat [@mazzocchiConsumerAwarenessSustainable2022].
 
 Open ESG data platform WikiRate currently lists 4316 different metrics, essentially questions which companies should answer [@wikirateMetricsIntroduction2025].
 
@@ -465,12 +282,6 @@ Open ESG data platform WikiRate currently lists 4316 different metrics, essentia
 #| fig-scap: "Corporate Sustainability Reporting Directive (CSRD) Timeline"
 csrd_timeline()
 ```
-
-Companies assess customer's credit score to decide credit-worthiness, however inversely, how can customers rate companies? Indices make comparing companies possible. There are many-many indexes, scoring systems, ratings, certifications, etc. Most sustainable companies. Make a database?
-
-Sustainability indices need transparency and standardization [@bolognesiMappingSustainableInvesting2024].
-
-Based on Corporate Knights data [@corporateknightsGlobal1002024]
 
 Energy productivity and carbon productivity are measures of how energy intensive a product is per unit of productivity. There are people working on improving efficiency; for example [@luoControllingCommercialCooling2022] suggests using reinforcement learning to reduce energy use in cooling systems.
 
@@ -592,6 +403,164 @@ Maintaining that trust matters. In 2017, Etsy lost the certification after faili
 
 Citywealth’s *"ESG branding with B-Corps"* guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
+#### Tracking Ethics & Cruelty: Transparent Factories and Supply Chains
+
+> "Secrecy is the linchpin of abuse of power... its enabling force. Transparency is the only real antidote." Glen Greenwald, Attorney and journalist. [@greenwaldNoPlaceHide2015]
+
+In the most general sense, supply chain transparency enables stakeholder accountability [@circulariseFlexibleTransparencyPart2018; @dooreyTransparentSupplyChain2011; @foxUncertainRelationshipTransparency2007]. Products are made from resources distributed across the planet and transported to clients around the world which currently causes high levels (and increasing) of greenhouse gases. *"Transport greenhouse gas emissions have increased every year since 2014"* [@ClimateChangeMitigation2023]. Freight (transport of goods by trucks, trains, planes, ships) accounts for 1.14 gigatons of CO~2~ emissions as per 2015 data or 16% of total international supply chain emissions [@wangVolumeTradeinducedCrossborder2022].
+
+| Type of Transport           | Percentage |
+|-----------------------------|------------|
+| Passenger cars              | 39%        |
+| **Medium and heavy trucks** | 23%        |
+| **Shipping**                | 11%        |
+| **Aviation**                | 9%         |
+| Buses and minibuses         | 7%         |
+| Light commercial vehicles   | 5%         |
+| Two/three-wheelers          | 3%         |
+| Rail                        | 3%         |
+
+Table: Share of CO~2~eq emissions by type of transport globally [@statistaGlobalTransportCO22022]. []{short-caption="Share of CO~2~eq Emissions by Type of Transport Globally"}
+
+In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, [@platzerPerspectiveUrgencyGreen2023], a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
+
+[@watersEthicsChoiceAnimal2015] analyzes the most effective strategies to improve animal welfare and advance animal rights against a monopolistic producer finding the most successful tactics to be (1) negotiation, (2) targeted direct action, and (3) awareness campaigns condemning low-welfare practices.
+
+
+### ESG Success Depends on Good Governance and Digitization
+
+In the U.S. and European banking sector [@dicuonzoESGGovernanceVariables2024] performed an analysis of 1551 banks, of which only 180 banks disclosed sufficient ESG data for comparison, building a *Fintech Adoption Index*; the key findings included a positive correlation between Fintech Index and ESG Scores, suggesting the adoption of technology has a statistically significant influence on better environmental stewardship, social and governance quality. Even better predictors of a high ESG scores were Board Gender Diversity (women as board members), the Size of the Bank, and Board Independence (governance structures with more independent directors could be more socially and environmentally responsible).
+
+```{python}
+#| label: fig-esg-fintech-pred
+#| fig-cap: "Fintech Adoption Predicts Higher ESG"
+#| fig-scap: "Fintech Adoption Predicts Higher ESG"
+esg_fintech_heatmap()
+```
+
+The ability to build sustainability into the organization requires deep understanding of how the complex structure works and what drives change and innovation within business units. [@jimboehmBetterRiskControls2021] distilled key strategies from the banking sector to speed up digital transformation, while improving risk management and compliance (see table below).
+
+| Strategy | Description |
+|----------------------|--------------------------------------------------|
+| Enterprise-level Risk Taxonomy | A unified classification system that defines and categorizes all risk types across the entire organization. |
+| Embedded Controls in Agile Delivery | Risk-and-compliance integration directly into agile development sprints (a type of management style in building software) to catch issues as code is written. |
+| Cross-functional Risk–Business Collaboration | Joint ownership of risk by compliance teams and business units, ensuring controls are practical and business-aligned. |
+| Metrics-driven Monitoring | Continuous tracking of key risk indicators through quantifiable metrics to spot trends and trigger alerts. |
+| Proactive Remediation | Early detection and rapid resolution of control defects before they escalate into larger compliance or security gaps. |
+| Continuous Capability Building | Ongoing training and tooling updates; best-practice sharing to keep risk-management skills and processes current. |
+
+: Banking transformation strategies from [@jimboehmBetterRiskControls2021]
+
+These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how GenAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
+
+| GenAI Use Case | Description |
+|-----------------|-------------------------------------------------------|
+| Regulatory Compliance | Automate policy-document triage: draft regulatory-change summaries and flag emerging rules, then generate compliance manuals. |
+| Financial Crime | Generate suspicious-activity reports; streamline AML/KYC checks; identify anomalous transaction patterns. |
+| Credit Risk | Synthesizing credit-risk reports on demand by pulling together relevant financial data from a variety of sources, resulting in faster borrower risk assessments. |
+| Analytics and Modeling | Build and validate risk models; run scenario analysis; summarize complex data sets for insights. |
+| Cyber Risk | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps. |
+| Climate Risk | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments. |
+
+: GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024].
+
+In the context of China’s industrial modernization, [@luDoesEnvironmentalInformation2023] finds that *digitization* is the pathway to increased Environmental Information Disclosure (EID) and Green Innovation, correlating with increased numbers of green patents and sustainable R&D projects.
+
+While ESG is riddled with problems, it has started a *common language* - the advice consultancies are providing to banks make use this common language to helps banks to sell strategical alignment for long-term institutional sustainability in terms of environmental, social, and governance performance. PWC suggests *"asset managers educate their staff and client base. It will be critical to build stronger ESG expertise among their employees by up-skilling existing staff on ESG principles and strategically scout for and integrate more diverse and ESG-trained talent"* [@pwc2022GrowthOpportunity2020].
+
+In general, a futures contract is an agreement to buy or sell a market index at a fixed price on a set date, locking in today’s price for the future. The exchange’s clearinghouse guarantees the trade, so one doesn’t have to worry about the other side not honoring the deal. ESG futures specifically, are financial derivatives, standardized contracts, which allow investors to hedge or speculate on the future performance of ESG-compliant investments. Some ESG futures contracts include the E-mini S&P 500 ESG futures (on the Chicago Mercantile Exchange, a large derivatives exchange), which track the U.S. S&P 500, while skipping companies with poor ESG scores, letting one bet on or hedge "sustainable" American companies with large market capitalization; notably, the index has recently been renamed to S&P 500 Scored & Screened Index, without a specific mention of the acronym ESG, while keeping the methodology unchanged, presumably for marketing purposes in the changing political landscape [@cmegroupEminiSP5002025]. In Europe, the STOXX Europe 600 ESG-X futures (on the Eurex stock market) let one trade Europe’s top ESG-screened companies, with cash settlement and the same margin rules as regular (non-ESG) index futures [@deutscheborsegroupESGIndexDerivatives2025; @hardingESGFuturesCatching2019]. Globally, the MSCI Sustainability and Climate Change futures (on the Intercontinental Exchange) cover global and regional ESG benchmarks, allowing one to take a position on low-carbon or Paris Climate Agreement-aligned stock indices anywhere in the world [@intercontinentalexchangeICEMSCIClimate2025]. The CFI2Z4 Carbon Emissions Futures tool tracks live coverage of ICE EU Allowance futures priced in EUR per tonne, with real-time quotes as well as historical charts, enabling traders to monitor and analyze the compliance-phase carbon market [@investing.comCarbonEmissionsFutures2024]. Specifically in Taiwan, the FTSE4Good TIP Taiwan ESG futures (on TAIFEX, Taiwan Futures Exchange), launched in June 2020 to follow a basket of Taiwanese stocks that meet global ESG standards [@taifexTaiWanQiHuoJiaoYiSuo2025].
+
+Governance in ESG is the G that makes E and S happen - or put in another way: governance drives social and environmental initiatives at companies. Yet MSCI research finds company boards severely lacking in climate experts; among the 164 large CO~2~eq emitters (1986 directors in total) benchmarked by the Climate Action 100+ alliance, 65% have no board member with demonstrated climate expertise, highlighting a major governance gap [@climateaction100+Companies2023; @sommerWhoClimateExpert2024].
+
+| Region | Companies (n) | ≥ 1 Climate Expert (%) | ≥ 1 Expert (count) | No Experts (%) | No Experts (count) |
+|------------|------------|------------|------------|------------|------------|
+| **EMEA** | 52 | 48 % | 25 | 52 % | 27 |
+| **Americas** | 61 | 36 % | 22 | 64 % | 39 |
+| **APAC** | 51 | 20 % | 10 | 80 % | 41 |
+
+: Climate Experts on Company Boards
+
+```{python}
+#| label: fig-board-sust-expert
+#| fig-cap: "Lack of Board Members With Sustainability Expertise"
+#| fig-scap: "Lack of Board Members With Sustainability Expertise"
+msci_board_sustainability_experts()
+```
+
+```{python}
+#| label: fig-board-sust-expert-large
+#| fig-cap: "Large Carbon Emitters Lack Sustainability Experts"
+#| fig-scap: "Large Carbon Emitters Lack Sustainability Experts"
+companies_large_emitters_climate_experts()
+```
+
+Most companies do not meet the criteria [@climateaction100+Companies2023].
+
+```{python}
+#| label: fig-companies-carbon-criteria
+#| fig-cap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
+#| fig-scap: "Large Carbon Emitters Do Not Meet Sustainability Criteria"
+companies_large_emitters_criteria()
+```
+
+Lack of leadership is a key challenge for sustainability. [@capgeminiWorldBalanceWhy2022] *"Many business leaders see sustainability as costly obligation rather than investment in the future"* was the finding from the Capgemini Research Institute’s report "Why sustainability ambition is not translating to action" surveyed 2,004 executives from 668 large organizations; 53% of leaders view sustainability initiatives as a financial burden, believing the costs outweigh the benefits, and only 21% agree that the business case for sustainability is clear, underscoring a pervasive leadership gap that treats sustainability as a costly obligation.
+
+A systematic study of 153 peer-reviewed papers of ESG literature published between 2006 and 2023 around the world reports the major determinants of high ESG performance are board member diversity, firm size, and CEO attributes; actively diversifying boards, especially adding members with sustainability expertise, and aligning executive compensation with ESG targets to translate strategic ambitions into operational results, may boost ESG outcomes [@martinyDeterminantsEnvironmentalSocial2024].
+
+```{python}
+#| label: fig-board-diversity
+#| fig-cap: "Board Diversity"
+#| fig-scap: "Board Diversity"
+ck_board_diversity()
+```
+
+The CEO of the Swedish clothing producer H&M - one of the largest fast-fashion companies in the world -, recognized the potential impact of *conscious consumers* as a threat [@hoikkalaHMCEOSees2019] and at the same time launched a clothes repair service in partnership with the Norwegian start-up Repairable, as reported by the Norwegian Sustainability Hub [@shubHMInvestsSustainable2018]. These kinds of discrepancies are all over the place. While Coca-Cola is the largest plastic polluter in the world, at the same time it runs the “World Without Waste” program which supports packaging recycling around the world, reporting achieving a global 90% recycling rate for Coca-Cola packaging [@simoes-coelhoBalancingGlobalCorporate2023; @breakfreefromplastic2023GlobalBrand2024]. Large corporations such as Coca-Cola and Nestle also support the biodiversity law, calling for a level playing field for business limit biodiversity risk [@greensefaNatureVoteSuccess2023]. Robeco's survey of 300 large global investors totaling \$27T under management found biodiversity-protection is increasingly a focus-point of capital allocation [@robeco2023GlobalClimate2023].
+
+Many large businesses have tried to find solutions by launching climate-focused funding. [@korosecAmazonTaps2B2021] reports that Amazon's 2B USD to a Climate Pledge Fund earmarked to fix climate problems is invested in energy, logistics, and packaging startups, which will reduce material waste. "Good intentions don't work, mechanisms do," Amazon's founder Bezos is quoted as saying in [@cliffordHowThisPopular2022]. Walmart is taking a similar approach, having launched a project in 2017 to set CO~2~ reduction targets in collaboration with its suppliers [@walmartProjectGigaton2023]. These examples underline how money marketed as climate funding by retail conglomerates means focus on reducing operational cost of running their business through automation and material savings.
+
+Shareholders can leverage their numbers and join forces in order to affect the board members of large corporations. For example, the As Your Sow NGO aims to champion CSR through building coalitions of shareholders and taking legal action, including the Fossil Free Funds initiative which researches and rates funds' exposure to fossil fuels finance and its sister project *Invest in Your Values* rates retirement plans offered by employers (mostly US technology companies) [@asyousowFossilFreeFunds2024; @asyousowHomeInvestYour2024].
+
+Board diversity in the top 5 sustainable companies in 2024 based on Corporate Knights rankings [@corporateknightsGlobal1002024].
+
+```{python}
+#| label: fig-esg-board-div-comp
+#| fig-cap: "Simplified comparison chart for board diversity (gender and cultural) vs ESG score"
+#| fig-scap: "ESG vs Board Diversity"
+esg_vs_board_diversity()
+```
+
+#### Efforts to Curb Greenwashing: Data-Driven Benchmarks and the Fight for Transparency
+
+Because corporate hypocrisy is a blocker of sustainable action, both the European Commission and the Chair of U.S. Securities and Exchange Commission (SEC) Gary Gensler have called for more legislation to curb business greenwashing practices. *"If it's easy to tell if milk is fat-free by just looking at the nutrition label, it might be time to make it easier to tell if green or sustainable funds are really what they say they are"* says Gensler [@ussecuritiesandexchangecommissionOfficeHoursGary2022].
+
+Upcoming EU greenwashing legislation hopes to curb misleading communications by companies. The EU regulation for standardizing sustainability reporting, called the Corporate Sustainability Reporting Directive (CSRD) entered into force on 5 January 2023 and will be phased in across fiscal years 2024 to 2026 (with reports due in 2025 through 2027), requiring companies to comply with the new European Sustainability Reporting Standards for detailed environmental, social and governance disclosures [@normativeCorporateSustainabilityReporting2025]. Environmental information legislation generally entitles all individuals to access environmental data through environmental information disclosure (EID), and the notion of "environmental information" spans a wide variety of topics [@oelkersAccessibilityDataEnvironmental2020].
+
+EU’s Eco-Design Regulation for Sustainable Products (ESPR) requires mandatory documentation of environmental impacts for all product categories, bans self-declared green claims by, and sets out specific design criteria, including durability, repairability, recycled content, remanufacturing, lifecycle impacts, and waste prevention [@nastaraanvadoodiEcodesignRequirementsDrive2022]. Until new legislation is ramped up to shift from linear to circular product development, building consumer awareness is crucial as currently most emission-reduction programs are voluntary and thus affected only by consumer demand [@andreVoluntaryCarbonNeutral2022]. Greenwashing is widespread in company social media communications [@geoffreysupranThreeShadesGreen2022]. A number of new AI-based tools aim to find instances of greenwashing. ClimateBert AI finds rampant greenwashing [@binglerCheapTalkCherryPicking2021; @sahotaAIAnalysis8002021].
+
+> *"Make benchmark methodologies more transparent when it comes to ESG & put forward standards for the methodology of low-carbon and ESG benchmarks in EU"* [@europeancommissionEULabelsBenchmarks2019].
+
+While the EU has proposed legislation to curb greenwashing, EU climate policy itself has been criticized for greenwashing. Sometimes greenwashing comes under legislative protection, due to oversight or private business interests and lobbyists [@fredericsimonCommissionFireIncluding2020; @kirataylorEUPlanPuts2021]. [@boothBurningCarbonSink2022] describes how wood pellets may be counted as a sustainable energy source, even though they cause deforestation:
+
+> *"A recent investigation shows illegal logging of protected areas in eastern European countries that supplies residential wood pellets in Italy. Belgium, Denmark, and the Netherlands are importing pellets from Estonia, where protected areas are logged for pellets and the country has lost its forest carbon sink, despite large-scale wood pellet plants being certified 'sustainable' by the Sustainable Biomass Program"* - [@boothBurningCarbonSink2022].
+
+While new EU legislation for deforestation-free products may eventually solve this issue (or at least mitigate the worst outcomes), the application of these laws is delayed as of writing [@europeancommissionApplicationEUDRRegulation2024; @parrishOverviewUpdatedEUDR2025]. In the US, a large wood pellet producer Enviva filed for bankruptcy protection after being sued for misleading the public about the sustainability of its products, yet managed to survive and is now again expanding its biomass business; likewise, Drax Group, another large pellet producer managed continues business after a public backlash [@diverClearCutTruthBiomass2025; @millardDraxMisledGovernment2025; @catanosoEnvivaBankruptcyFallout2024].
+
+In recycling systems,[@purkissBigCompostExperiment2022] highlights the confusion between compostable and biodegradable plastics and public misunderstanding what happens to these plastics when they reach the landfill: "\[m\]ost plastics marketed as *home compostable* don't actually work, with as much as 60% failing to disintegrate after six months". Shopping bags marketed as *biodegradable* don't show deterioration after 3 years in salt-water sea environment [@napperEnvironmentalDeteriorationBiodegradable2019].
+
+Green investing only makes sense if it's possible to distinguish sustainable investments from not sustainable ones. If humans feel as if choosing green is useless, they easily give up. Sustainable investing is firstly about changes in legislation which set stricter sustainability standards on companies (as discussed above). Secondly, increased transparency, new metrics, and new tools make it feasible to differentiate more sustainable companies from less sustainable ones.
+
+Anti-greenwashing efforts in Taiwan include both private and government-led initiatives. The Taiwanese Financial Supervisory Commission, the Ministry of Environment, the Ministry of Economic Affairs, the Ministry of Transportation and Communications, and the Ministry of the Interior collaborated on the *"Reference Guidelines for the Identification of Sustainable Economic Activities" to encourage the financial industry to assist enterprises in their transition to sustainable carbon reduction"* [@JinGuanHuiJinRongJianDuGuanLiWeiYuanHuiYongXuJinRongWang2022]. The Taiwanese Corporate Governance Sustainable Development Roadmap published by the Corporate Governance Reform Task Force established by the Executive Yuan (Taiwanese Government), identifies *lack of diversity and independence in boards* and *insufficient ESG and financial information transparency* as key issues [@taiwanstockexchangecorporationTWSEGongSiZhiLiZhongXin2023]. The Taiwanese Green Citizens Action Alliance published a comprehensive report in 2024 tracking Taiwanese Corporate Sustainability Reporting focused directly at fighting corporate greenwashing [@LuSeGongMinXingDongLianMengDaZaoFanPiaoLuShengTaiXi2024].
+
+If I may conclude with a list:
+
+-   Sustainable investing is based on data.
+-   Greenwashing is a large detractor from environmental action as it's difficult to know what is sustainable and what is not.
+-   Greenwashing disturbs sustainable capital allocation.
+-   Greenwashing erodes trust.
+-   Greenwashing has a negative impact on credibility.
+
+The promise of ESG is to counter misinformation with transparency.
+
 ### Probabilistic Risk-Based Assessment for Sustainable Finance
 
 #### Navigating Complexity with Data
@@ -647,7 +616,7 @@ Payments is one way consumers can take individual climate action. In the words o
 | **Hami Pay (中華電信)** | Payment app by the largest phone company Chunghwa Telecom supporting NFC payments, public transport, and paying bills. | ? | Taiwan |
 | **Samsung Pay (悠遊卡)** | Requires a Samsung device; uses NFC; integrates EasyCard and credit/debit cards; supports public transport. | ? | Korea |
 
-: Comparing Payments Apps; Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan]
+Table: Comparing Payments Apps; Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan] []{short-caption="Comparing Payments Apps"}
 
 Banks and fintechs both are skilled at capturing user data and digital payments are an important entry point for financial services and a source of consumer action data, shopping data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing? ESG Shopping is about Changing our relationship with money. Make commerce more transparent. Current shopping is quite superficial. One barely knows the name of the company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
 
